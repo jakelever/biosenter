@@ -73,8 +73,8 @@ or extend either are all included:
 
 - `corpora/difficult_cases.json` -- 51 hand-labelled paragraphs used
   to evaluate the splitter against exactly the patterns that break generic
-  splitters. See `corpora/README.md` for the full history of how it
-  was built and why each case is there.
+  splitters. See `corpora/README.md` for the dataset schema and how it
+  was built.
 - `corpora/train/` and `corpora/validation/` -- 150
   hand-corrected PMC articles used to train the bundled model.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
