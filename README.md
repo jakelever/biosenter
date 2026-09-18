@@ -23,25 +23,36 @@ of the box with no extra configuration.
 
 ## Usage
 
+There are two ways to use biosenter, depending on what your text looks like.
+
+### 1. With bioconverters, citation-aware (`split_into_sentences`)
+
+Real PMC full text carries inline markup and citation markers, and that's
+exactly what breaks generic splitters -- a citation glued to a
+sentence-final abbreviation (`...a chip.22 Real-time...`) gets wrongly
+split, or a gene symbol like `<italic>S. pneumoniae</italic>` gets cut in
+half. `split_into_sentences` hides markup/citations from the model and
+restores them afterwards, so neither happens:
+
 ```python
 from biosenter import split_into_sentences
 
-text = "As shown in Fig. 1, expression increased in the treated group (P < 0.05). A second effect was seen in Fig. 2."
+text = 'It was observed in every region of the sample.<citation ref-id="b1">22</citation> Real-time mapping confirmed this.'
 for start, end, sentence in split_into_sentences(text):
     print(sentence)
 ```
 
 ```
-As shown in Fig. 1, expression increased in the treated group (P < 0.05).
-A second effect was seen in Fig. 2.
+It was observed in every region of the sample.<citation ref-id="b1">22</citation>
+Real-time mapping confirmed this.
 ```
-
-### With bioconverters
 
 `biosenter.pmc` and `biosenter.pubmed` wrap `bioconverters`' `parse_pmcxml`/
 `parse_pubmedxml` to produce simple doc records (`{'doc_id', 'source',
-'sections': [{'name', 'text'}, ...]}`), which `doc_to_sentence_records`
-turns into one flat record per sentence:
+'sections': [{'name', 'text'}, ...]}`) with exactly this kind of inline
+markup already in the section text (see `biosenter/markup.py`).
+`doc_to_sentence_records` runs `split_into_sentences` over every section
+and turns the result into one flat record per sentence:
 
 ```python
 from biosenter.pmc import parse_pmc_articles
@@ -52,18 +63,12 @@ for doc in parse_pmc_articles('PMC1234567.xml'):
         print(sentence['section'], sentence['text'])
 ```
 
-Section text from `biosenter.pmc`/`biosenter.pubmed` carries the article's
-real inline markup (`<italic>`, `<sup>`, `<sub>`, resolved `<citation>`
-markers, etc. -- see `biosenter/markup.py`). `split_into_sentences` hides
-this from the model and restores it in the output, so a gene symbol like
-`<italic>S. pneumoniae</italic>` is never split in the middle, and a
-citation glued to a sentence-final abbreviation (`...a chip.22 Real-time...`)
-stays attached to the sentence it belongs to.
+### 2. Direct spaCy usage, plain text
 
-### Using it directly through spaCy
-
-The bundled model is also loadable by name through spaCy's own API, with no
-`import biosenter` in your code:
+For text you already know has no inline markup in it (e.g. PubMed
+abstracts from `biosenter.pubmed`, or plain text from elsewhere), the
+bundled model is loadable by name through spaCy's own API, with no
+`import biosenter` in your code at all:
 
 ```python
 import spacy
@@ -74,23 +79,21 @@ for sent in doc.sents:
 ```
 
 This is the raw senter model with none of `split_into_sentences`'s markup
-handling or citation reattachment -- correct for plain, markup-free text
-(e.g. PubMed abstracts from `biosenter.pubmed`, or any text you know has no
-inline markup in it), where it behaves identically to
-`split_into_sentences`. For real PMC full text carrying inline markup and
-citations, use `biosenter.split_into_sentences` instead: a `spacy.Doc` is
-tokenized from whatever text it's built from, so there's no way for a plain
-spaCy pipeline to both tokenize citation-elided text *and* hand back
-sentence spans of the original marked-up text -- that remapping only
-happens in `split_into_sentences`.
+handling or citation reattachment, so it behaves identically to
+`split_into_sentences` only when there's no markup/citations to handle in
+the first place. A `spacy.Doc` is tokenized from whatever text it's built
+from, so there's no way for a plain spaCy pipeline to both tokenize
+citation-elided text *and* hand back sentence spans of the original
+marked-up text -- that remapping only happens in `split_into_sentences`,
+which is why real PMC full text needs use case 1, not this one.
 
 ### Overriding the model
+
+Either use case respects `BIOSENTER_MODEL`:
 
 ```
 BIOSENTER_MODEL=/path/to/another/model python your_script.py
 ```
-
-This also applies when loading via `spacy.load("biosenter")`.
 
 ## Retraining / evaluating
 
