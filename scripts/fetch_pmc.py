@@ -1,6 +1,7 @@
 import argparse
 import random
 import re
+import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -19,6 +20,28 @@ _S3_NS = {'s3': 'http://s3.amazonaws.com/doc/2006-03-01/'}
 _RANDOM_ID_RANGE = (1_000_000, 12_000_000)
 
 _ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+
+
+def _esearch_page(query, retstart, page_size, retries=3):
+	"""One esearch page of PMCIDs (db=pmc, OA-restricted) -- retried on
+	failure, since unauthenticated eutils (no api_key, capped at 3 req/s)
+	occasionally answers a request with a truncated/non-JSON body rather
+	than a clean HTTP error, which would otherwise crash a whole
+	multi-page search_pmcids() call over one bad page."""
+	last_error = None
+	for attempt in range(retries):
+		if attempt:
+			time.sleep(2 ** attempt)
+		try:
+			response = requests.get(_ESEARCH_URL, params={
+				'db': 'pmc', 'term': f'{query} AND open access[filter]',
+				'retmax': page_size, 'retstart': retstart, 'retmode': 'json',
+			}, timeout=30)
+			response.raise_for_status()
+			return response.json()['esearchresult']['idlist']
+		except (requests.RequestException, ValueError, KeyError) as error:
+			last_error = error
+	raise RuntimeError(f'esearch failed after {retries} attempts (retstart={retstart}): {last_error}') from last_error
 
 
 def normalize_key(raw_pmcid):
@@ -130,12 +153,7 @@ def search_pmcids(query, n, commercial_only=True, exclude=frozenset()):
 	retstart = 0
 	page_size = 100
 	while len(pmcids) < n:
-		response = requests.get(_ESEARCH_URL, params={
-			'db': 'pmc', 'term': f'{query} AND open access[filter]',
-			'retmax': page_size, 'retstart': retstart, 'retmode': 'json',
-		}, timeout=30)
-		response.raise_for_status()
-		uids = response.json()['esearchresult']['idlist']
+		uids = _esearch_page(query, retstart, page_size)
 		if not uids:
 			break
 		retstart += page_size
