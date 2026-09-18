@@ -18,6 +18,8 @@ _S3_NS = {'s3': 'http://s3.amazonaws.com/doc/2006-03-01/'}
 # clustering in one corner of the ID space.
 _RANDOM_ID_RANGE = (1_000_000, 12_000_000)
 
+_ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+
 
 def normalize_key(raw_pmcid):
 	"""'10000000' / 'PMC10000000' / 'PMC10000000.2' -> 'PMC10000000.1' (version
@@ -103,15 +105,75 @@ def random_pmcids(n, rng, commercial_only=True):
 	return pmcids, content_cache
 
 
+def search_pmcids(query, n, commercial_only=True, exclude=frozenset()):
+	"""Find n distinct PMCIDs matching a free-text query, restricted to the
+	PMC Open Access subset, via NCBI's esearch (db=pmc).
+
+	Unlike random_pmcids() (which lands on whatever article a random S3
+	listing token happens to hit), this targets articles actually likely to
+	contain a specific pattern -- e.g. "HGVS nomenclature" for
+	clinical-genetics case reports carrying protein/cDNA variant notation
+	(p.G2019S, c.6055G>A), which is vanishingly rare in an unweighted random
+	sample (~4 mentions across an entire 182-article batch, see
+	corpora/README.md's "Known gap").
+
+	Same license-check and content-caching behaviour as random_pmcids();
+	`exclude` additionally skips PMCIDs already present elsewhere (e.g. in
+	an existing corpus) so a search-derived batch can't collide with it.
+	esearch's default sort for db=pmc is most-recent-first, which also
+	biases toward articles using PMC's currently-recommended metadata/
+	license practices.
+	"""
+	pmcids = []
+	content_cache = {}
+	seen = set(exclude)
+	retstart = 0
+	page_size = 100
+	while len(pmcids) < n:
+		response = requests.get(_ESEARCH_URL, params={
+			'db': 'pmc', 'term': f'{query} AND open access[filter]',
+			'retmax': page_size, 'retstart': retstart, 'retmode': 'json',
+		}, timeout=30)
+		response.raise_for_status()
+		uids = response.json()['esearchresult']['idlist']
+		if not uids:
+			break
+		retstart += page_size
+
+		for uid in uids:
+			if len(pmcids) >= n:
+				break
+			pmcid = f'PMC{uid}'
+			if pmcid in seen:
+				continue
+			seen.add(pmcid)
+			key = normalize_key(pmcid)
+			article_response = requests.get(f"{BASE_URL}/{key}/{key}.xml", timeout=60)
+			if article_response.status_code == 404:
+				continue
+			article_response.raise_for_status()
+			if commercial_only and not allows_commercial_use(extract_license_href(article_response.content)):
+				continue
+			content_cache[pmcid] = article_response.content
+			pmcids.append(pmcid)
+	return pmcids, content_cache
+
+
 def main():
 	parser = argparse.ArgumentParser(description='Download PMC Open Access article XML files from the public pmc-oa-opendata S3 bucket')
 	parser.add_argument('--out_dir', required=True, type=str, help='Directory to save the downloaded files into')
 	group = parser.add_mutually_exclusive_group(required=True)
 	group.add_argument('--pmcids', nargs='+', help='PMCIDs to fetch, e.g. 10000000 or PMC10000000 (version defaults to .1; pass PMCxxxxxxx.N for a specific version)')
 	group.add_argument('--random', type=int, metavar='N', help='Fetch N randomly-sampled PMCIDs from the bucket instead of a fixed list')
+	group.add_argument('--search', type=str, metavar='QUERY', help='Fetch PMCIDs matching a free-text query (esearch db=pmc, restricted to the OA subset) instead of a fixed list')
+	parser.add_argument('--search_n', type=int, default=None, metavar='N', help='Number of PMCIDs to fetch for --search')
+	parser.add_argument('--exclude', nargs='*', default=[], help='For --search: PMCIDs to skip even if matched (e.g. ones already in the corpus)')
 	parser.add_argument('--seed', type=int, default=None, help='Seed for --random sampling (default: unseeded, a different sample each run)')
-	parser.add_argument('--allow_any_license', action='store_true', help='For --random: skip the commercial-use license check (default is CC BY/BY-SA/BY-ND/CC0 only)')
+	parser.add_argument('--allow_any_license', action='store_true', help='For --random/--search: skip the commercial-use license check (default is CC BY/BY-SA/BY-ND/CC0 only)')
 	args = parser.parse_args()
+
+	if args.search and not args.search_n:
+		parser.error('--search requires --search_n')
 
 	out_dir = Path(args.out_dir)
 	out_dir.mkdir(parents=True, exist_ok=True)
@@ -120,6 +182,10 @@ def main():
 	if args.random:
 		pmcids, content_cache = random_pmcids(args.random, random.Random(args.seed), commercial_only=not args.allow_any_license)
 		print(f"Sampled {len(pmcids)} random PMCIDs: {', '.join(pmcids)}")
+	elif args.search:
+		exclude = {normalize_key(pmcid).split('.')[0] for pmcid in args.exclude}
+		pmcids, content_cache = search_pmcids(args.search, args.search_n, commercial_only=not args.allow_any_license, exclude=exclude)
+		print(f"Found {len(pmcids)} PMCIDs matching {args.search!r}: {', '.join(pmcids)}")
 	else:
 		pmcids = args.pmcids
 
