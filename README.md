@@ -60,11 +60,37 @@ this from the model and restores it in the output, so a gene symbol like
 citation glued to a sentence-final abbreviation (`...a chip.22 Real-time...`)
 stays attached to the sentence it belongs to.
 
+### Using it directly through spaCy
+
+The bundled model is also loadable by name through spaCy's own API, with no
+`import biosenter` in your code:
+
+```python
+import spacy
+nlp = spacy.load("biosenter")
+doc = nlp("As shown in Fig. 1, expression increased. A second effect was seen in Fig. 2.")
+for sent in doc.sents:
+    print(sent.text)
+```
+
+This is the raw senter model with none of `split_into_sentences`'s markup
+handling or citation reattachment -- correct for plain, markup-free text
+(e.g. PubMed abstracts from `biosenter.pubmed`, or any text you know has no
+inline markup in it), where it behaves identically to
+`split_into_sentences`. For real PMC full text carrying inline markup and
+citations, use `biosenter.split_into_sentences` instead: a `spacy.Doc` is
+tokenized from whatever text it's built from, so there's no way for a plain
+spaCy pipeline to both tokenize citation-elided text *and* hand back
+sentence spans of the original marked-up text -- that remapping only
+happens in `split_into_sentences`.
+
 ### Overriding the model
 
 ```
 BIOSENTER_MODEL=/path/to/another/model python your_script.py
 ```
+
+This also applies when loading via `spacy.load("biosenter")`.
 
 ## Retraining / evaluating
 
