@@ -1,16 +1,11 @@
-# biosenter
+# biosenter - Sentence splitting for biomedical research articles
 
-Sentence splitting for biomedical research articles from PubMed and PMC.
-
-Generic sentence splitters break constantly on biomedical text: `Fig. 1`,
-`et al. (2007)`, `p.G2019S`, `no. 21`, and trailing citation markers
-(`...observed.[31] The next...`) all get mis-split by rule-based or
-generic-domain models. biosenter is a small spaCy sentence-boundary model
+biosenter is a small spaCy sentence-boundary model
 plus markup-aware pre/post-processing, trained and evaluated specifically
 against real PMC full text and PubMed abstracts.
 
-It integrates directly with [bioconverters](https://pypi.org/project/bioconverters/)
-for extracting text from PMC JATS XML and PubMed baseline/update XML.
+**Why?**: Generic sentence splitters break constantly on biomedical text: `Fig. 1`,
+`et al.`. They also don't deal nicely with citations (that often get attached to the wrong sentence) 
 
 ## Install
 
@@ -19,13 +14,14 @@ pip install biosenter
 ```
 
 A trained model ships with the package, so `split_into_sentences` works out
-of the box with no extra configuration.
+of the box with no extra configuration. It integrates directly with [bioconverters](https://pypi.org/project/bioconverters/)
+for extracting text from PMC JATS XML and PubMed baseline/update XML.
 
 ## Usage
 
 There are two ways to use biosenter, depending on what your text looks like.
 
-### 1. With bioconverters, citation-aware (`split_into_sentences`)
+### 1. Citation-aware with (`split_into_sentences`)
 
 Real PMC full text carries inline markup and citation markers, and that's
 exactly what breaks generic splitters -- a citation glued to a
