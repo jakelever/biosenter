@@ -1,0 +1,363 @@
+{
+ "pmid": 22279571,
+ "pmcid": 3261185,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "RNA Interference of Gonadotropin-Inhibitory Hormone Gene Induces Arousal in Songbirds"
+  },
+  {
+   "section": "abstract",
+   "text": "Gonadotropin-inhibitory hormone (GnIH) was originally identified in quail as a hypothalamic neuropeptide inhibitor of pituitary gonadotropin synthesis and release. <sentence_start/>However, GnIH neuronal fibers do not only terminate in the median eminence to control anterior pituitary function but also extend widely in the brain, suggesting it has multiple roles in the regulation of behavior. <sentence_start/>To identify the role of GnIH neurons in the regulation of behavior, we investigated the effect of RNA interference (RNAi) of the GnIH gene on the behavior of white-crowned sparrows, a highly social songbird species. <sentence_start/>Administration of small interfering RNA against GnIH precursor mRNA into the third ventricle of male and female birds reduced resting time, spontaneous production of complex vocalizations, and stimulated brief agonistic vocalizations. <sentence_start/>GnIH RNAi further enhanced song production of short duration in male birds when they were challenged by playbacks of novel male songs. <sentence_start/>These behaviors resembled those of breeding birds during territorial defense. <sentence_start/>The overall results suggest that GnIH gene silencing induces arousal. <sentence_start/>In addition, the activities of male and female birds were negatively correlated with GnIH mRNA expression in the paraventricular nucleus. <sentence_start/>Density of GnIH neuronal fibers in the ventral tegmental area was decreased by GnIH RNAi treatment in female birds, and the number of gonadotropin-releasing hormone neurons that received close appositions of GnIH neuronal fiber terminals was negatively correlated with the activity of male birds. <sentence_start/>In summary, GnIH may decrease arousal level resulting in the inhibition of specific motivated behavior such as in reproductive contexts."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Gonadotropin-inhibitory hormone (GnIH) is a hypothalamic neuropeptide that inhibits gonadotropin secretion <italic toggle=\"yes\">in vitro</italic> <citation rid=\"pone.0030202-Tsutsui1\" ref-type=\"bibr\" pmid=\"10964719\" doi=\"10.1006/bbrc.2000.3350\" count=\"1\">[1]</citation> and <italic toggle=\"yes\">in vivo</italic> <citation rid=\"pone.0030202-Ubuka1\" ref-type=\"bibr\" pmid=\"16293662\" doi=\"10.1210/en.2005-1178\" count=\"1\">[2]</citation>. <sentence_start/>It is synthesized in neurons of the paraventricular nucleus (PVN) in birds <citation rid=\"pone.0030202-Ubuka2\" ref-type=\"bibr\" pmid=\"12904178\" doi=\"10.1677/joe.0.1780311\" count=\"1\">[3]</citation>-<citation rid=\"pone.0030202-Ukena1\" ref-type=\"bibr\" pmid=\"12712318\" doi=\"10.1007/s00441-003-0700-x\" count=\"1\">[5]</citation>. <sentence_start/>GnIH neurons project to the median eminence <citation rid=\"pone.0030202-Tsutsui1\" ref-type=\"bibr\" pmid=\"10964719\" doi=\"10.1006/bbrc.2000.3350\" count=\"1\">[1]</citation>, <citation rid=\"pone.0030202-Ubuka2\" ref-type=\"bibr\" pmid=\"12904178\" doi=\"10.1677/joe.0.1780311\" count=\"1\">[3]</citation> and control anterior pituitary hormone release, and also to other regions of the brain suggesting the regulation of autonomic function and behavior <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>-<citation rid=\"pone.0030202-Tobari1\" ref-type=\"bibr\" pmid=\"20138947\" doi=\"10.1016/j.peptides.2010.01.015\" count=\"1\">[6]</citation>. <sentence_start/>The mRNA of its cognate G protein-coupled receptor was also found to be expressed in various parts of the brain <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>, <citation rid=\"pone.0030202-Yin1\" ref-type=\"bibr\" pmid=\"15642802\" doi=\"10.1677/joe.1.05926\" count=\"1\">[7]</citation>. <sentence_start/>A previous study has shown that central administration of GnIH to the third ventricle of female white-crowned sparrows (<italic toggle=\"yes\">Zonotrichia leucophrys gambelii</italic>) inhibits copulation solicitation, which is analogous to mammalian lordosis <citation rid=\"pone.0030202-Bentley1\" ref-type=\"bibr\" pmid=\"16460739\" doi=\"10.1016/j.yhbeh.2005.12.005\" count=\"1\">[8]</citation>. <sentence_start/>Similarly, central administration of a GnIH ortholog, RFamide-related peptide (RFRP) <citation rid=\"pone.0030202-Hinuma1\" ref-type=\"bibr\" pmid=\"11025660\" doi=\"10.1038/35036326\" count=\"1\">[9]</citation>-<citation rid=\"pone.0030202-Ubuka5\" ref-type=\"bibr\" pmid=\"20027225\" doi=\"10.1371/journal.pone.0008400\" pmcid=\"PMC2791420\" count=\"1\">[12]</citation>, suppressed male sexual behavior of rats <citation rid=\"pone.0030202-Johnson1\" ref-type=\"bibr\" pmid=\"17113584\" doi=\"10.1016/j.yhbeh.2006.09.009\" pmcid=\"PMC1831848\" count=\"1\">[13]</citation>, <citation rid=\"pone.0030202-Ubuka6\" ref-type=\"bibr\" pmid=\"20607134\" doi=\"10.1093/icb/icn019\" pmcid=\"PMC2895338\" count=\"1\">[14]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "In order to understand the function of GnIH neurons in the brain, we tested the effect of GnIH gene silencing on the behavior of male and female white-crowned sparrows by suppressing GnIH mRNA expression with the administration of corresponding double-stranded RNA (siRNA) <citation rid=\"pone.0030202-Fire1\" ref-type=\"bibr\" pmid=\"9486653\" doi=\"10.1038/35888\" count=\"1\">[15]</citation>. <sentence_start/>White-crowned sparrow is a highly social songbird species that its neuroendocrine system has been studied for decades. <sentence_start/>Accordingly, it serves as an excellent animal model to study the molecular mechanism of behavior. <sentence_start/>We hypothesized that reduction of GnIH expression will positively regulate sexual behavior, in contrast to the GnIH administration. <sentence_start/>It was recently proposed that generalized arousal of the central nervous system (CNS) underlies specific motivated behavior such as sexual behavior <citation rid=\"pone.0030202-Pfaff1\" ref-type=\"bibr\" pmid=\"18591465\" doi=\"10.1196/annals.1417.019\" count=\"1\">[16]</citation>. <sentence_start/>An animal with a greater degree of CNS arousal (<italic toggle=\"yes\">1</italic>) shows greater responsiveness to sensory stimuli in all sensory modalities; (<italic toggle=\"yes\">2</italic>) emits more motor activity; and (<italic toggle=\"yes\">3</italic>) is more reactive emotionally <citation rid=\"pone.0030202-Pfaff2\" ref-type=\"bibr\" count=\"1\">[17]</citation>. <sentence_start/>Reduction of GnIH may lead to the generalized arousal. <sentence_start/>Therefore, we measured spontaneous behavior and responses to playbacks of novel male songs because the latter is a strong sensory stimulus to induce motivated behavior such as territorial behavior in male (<italic toggle=\"yes\">1</italic>). <sentence_start/>We specifically measured the resting time to indirectly quantify locomotor activity (<italic toggle=\"yes\">2</italic>), and various vocalizations as a measurement of reactive emotions of songbirds within a social context (<italic toggle=\"yes\">3</italic>)."
+  },
+  {
+   "section": "article",
+   "text": "Our behavioral analyses revealed significant increases in spontaneous locomotor activities of male and female birds by GnIH RNAi as if the birds were challenged by playbacks of novel male songs, potentially suggesting generalized arousal of the CNS. <sentence_start/>Thus, we further analyzed the relationships between the activities of birds and GnIH mRNA expression levels in the PVN and GnIH neuronal fiber distributions. <sentence_start/>GnIH neuronal fibers terminate on gonadotropin-releasing hormone (GnRH) -I and -II neurons <citation rid=\"pone.0030202-Bentley2\" ref-type=\"bibr\" pmid=\"12834441\" doi=\"10.1046/j.1365-2826.2003.01062.x\" count=\"1\">[18]</citation>, and these neurons express GnIH receptor mRNA in songbirds <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>. <sentence_start/>Accordingly, it is possible that GnIH inhibits both sexual and generalized arousal by decreasing the activities of GnRH-I and GnRH-II neurons. <sentence_start/>We investigated this by analyzing the relationships between the activities of the birds and the numbers of GnRH-I and -II neurons with close appositions of GnIH neuronal fiber terminal like structures."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Experimental schedule"
+  },
+  {
+   "section": "article",
+   "text": "White-crowned sparrows were caught in Davis (California, USA) during March of 2008, and kept in a short-day light/dark cycle (9 h light/15 h dark, lights on at 8 a.m.) in individual cages. <sentence_start/>Food and water were given <italic toggle=\"yes\">ad libitum</italic>. <sentence_start/>Brain cannulation to the third ventricle was performed according to our established method <citation rid=\"pone.0030202-Bentley1\" ref-type=\"bibr\" pmid=\"16460739\" doi=\"10.1016/j.yhbeh.2005.12.005\" count=\"1\">[8]</citation>, <citation rid=\"pone.0030202-Maney1\" ref-type=\"bibr\" pmid=\"9344687\" doi=\"10.1006/hbeh.1997.1399\" count=\"1\">[19]</citation>. <sentence_start/>On March 27<sup>th</sup>, all birds were photostimulated using a long-day light/dark cycle (20 h light/4 h dark, lights on at 5 a.m.). <sentence_start/>Correct insertions of the cannulae were tested by the induction of drinking behavior with angiotensin-II infusion <citation rid=\"pone.0030202-Maney1\" ref-type=\"bibr\" pmid=\"9344687\" doi=\"10.1006/hbeh.1997.1399\" count=\"1\">[19]</citation>. <sentence_start/>On April 15<sup>th</sup> birds were allocated either to the experimental room (8 males and 8 females) or to the control room (8 males and 8 females). <sentence_start/>Cages of male or female birds were placed alternately so that they could interact with birds of the opposite sex. <sentence_start/>On April 18<sup>th</sup> 0.5 nmol of the 25 base-pair double-stranded RNA (Sense: 5’-CACAGCAAGCAAGAUGCCAAAUUCA-3’, Antisense: 5’-UGAAUUUGGCAUCUUGCUUGCUGUG-3’; Stealth; Invitrogen, Carlsbad, CA) corresponding to white-crowned sparrow GnIH precursor mRNA sequence (Genbank , nt 277-301; <citation rid=\"pone.0030202-Osugi1\" ref-type=\"bibr\" pmid=\"15225129\" doi=\"10.1677/joe.0.1820033\" count=\"1\">[20]</citation>) that does not agree with any other gene in the database was administered in the third ventricle of the experimental birds. <sentence_start/>Control birds were administered with 0.5 nmol of 25 base-pair double-stranded RNA with a sequence that does not agree with any gene in the database and has the same GC ratio as the GnIH siRNA (Sense: 5’-CACACGAACGAUACGACAAUGAUCA-3’, Antisense: 5’-UGAUCAUUGUCGUAUCGUUCGUGUG-3’Stealth Control; Invitrogen). <sentence_start/>0.5 nmol of GnIH siRNA was estimated to be 1×10<sup>5</sup> times greater than the amount of GnIH mRNA expressed in the brain. <sentence_start/>GnIH siRNA or control was infused in 5 µl sterilized 0.9% physiological saline over 1 min to each bird. <sentence_start/>Two days after the infusion of GnIH siRNA or control, spontaneous behavior were recorded by digital cameras from 9 a.m. to 11 a.m. On the same day from 11:30 a.m. to 2:30 p.m., birds were challenged with 4 different novel male song playbacks for 10 minutes each. <sentence_start/>Behavioral responses were recorded by digital cameras during each playback. <sentence_start/>On the next day, birds were euthanized using 10% isoflurane inhalation and trunk blood and brain was collected. <sentence_start/>Serum was separated and stored in −20°C and the brains were immediately frozen on dry ice and stored in −80°C until further analysis. <sentence_start/>Brains were used to analyze GnIH precursor mRNA expression and GnIH neuronal fiber distributions. <sentence_start/>In order to validate the efficacy and specificity of Stealth RNAi, GnIH concentration was measured in the diencephalon in birds that were infused with vehicle, control RNA, or GnIH RNAi. <sentence_start/>In February of 2011, 16 white-crowned sparrows (4 males, 12 females) were caught in Davis and photostimulated for three weeks using a long-day lighting cycle (20 h light/4 h dark, lights on at 5 a.m.). <sentence_start/>Birds were cannulated as described above. <sentence_start/>GnIH siRNA, control RNA, or vehicle (sterilized 0.9% physiological saline) was administered and birds were sacrificed two days after the infusion, and GnIH peptide concentration in the diencephalon was quantified. <sentence_start/>All procedures were performed in accordance with the NIH Guide for the Care and Use of Laboratory Animals and under an approved protocol from the University of California, Davis. <sentence_start/>The IACUC protocol number was 16283 with the title of ‘Control of Seasonal Breeding in Diverse Habitats’."
+  },
+  {
+   "section": "article",
+   "text": "Behavioral measurements"
+  },
+  {
+   "section": "article",
+   "text": "Locomotor activity of the birds was quantified indirectly by measuring the resting time of birds. <sentence_start/>Birds were regarded as resting when they were sitting still without feeding, preening, drinking, hopping or pointing. <sentence_start/>The time spent for feeding and the numbers of hopping and pointing were also measured. <sentence_start/>We also analyzed the effect of GnIH RNAi on the vocalizations of birds because this is a major portion of daily displays <citation rid=\"pone.0030202-Chilton1\" ref-type=\"bibr\" count=\"1\">[21]</citation>. <sentence_start/>For example, male song is used for territorial defense, mate attraction and may stimulate nesting in the female <citation rid=\"pone.0030202-SpitlerNabors1\" ref-type=\"bibr\" count=\"1\">[22]</citation>. <sentence_start/>A typical song is 2-3 seconds long with an introductory component that contains one or more continuous or segmented whistles followed by complex sounds consisting of frequency sweeps, buzzy vibrato elements, and trills. <sentence_start/>Nine distinct vocalizations other than song are identified in the white-crowned sparrow <citation rid=\"pone.0030202-Hill1\" ref-type=\"bibr\" count=\"1\">[23]</citation>. <sentence_start/>In this study, non-song vocalizations were assorted into chuckle (a group of calls used in agonistic interactions and for sexual behavior) and tseep (calls used for communication including arousal). <sentence_start/>One continuous vocalization of each type was counted as one song, chuckle and tseep. <sentence_start/>The duration of song was also quantified. <sentence_start/>Vocalizations of male and female birds that were treated with GnIH RNAi or control were analyzed together within groups because the bird which gave the vocalization was not always identified by the videotapes."
+  },
+  {
+   "section": "article",
+   "text": "Spontaneous activities of each bird were recorded for approximately 30 minutes, and the results were expressed as the counts per 10 minutes. <sentence_start/>Four novel male songs were performed for 10 minutes each with 30 minutes’ silent period between each playback. <sentence_start/>Activities in 10 minutes were averaged from their responses to four male song playbacks. <sentence_start/>Novel male songs were recorded in the wild and played back in the room as natural as possible using an iPod (Apple, Cupertino, CA) and a large speaker. <sentence_start/>All behavioral measurements were conducted by three observers who were blind to the treatments and the results were averaged for statistical analyses."
+  },
+  {
+   "section": "article",
+   "text": "Measurement of GnIH precursor mRNA expression by real-time quantitative PCR"
+  },
+  {
+   "section": "article",
+   "text": "To quantify GnIH precursor mRNA expression in different brain regions, real-time quantitative PCR was conducted by using the LineGene system (LineGene FQD-33A; BioFlux, Tokyo, Japan). <sentence_start/>GADPH, a housekeeping gene, was used as an internal standard. <sentence_start/>The PCR primers used to amplify white-crowned sparrow precursor cDNA fragment were 5’-TCCAACAGCATGTGCCTAAA-3’ (identical to nucleotides 104-123; GenBank ) and 5’-TTTTGATCCCCAGTCTTCCA-3’ (complementary to nucleotides 234-253). <sentence_start/>The PCR primers for GADPH were 5’-GAGGGTAGTGAAGGCTGCTG-3’ (identical to nucleotides 795-814; GenBank ) and 5’-CAAAGGTGGAGGAATGGCTA-3’ (complementary to nucleotides 885-904; GenBank ). <sentence_start/>The final reaction mixture contained SYBR Green Realtime PCR Master Mix (Toyobo, Osaka, Japan), 1 µM each of forward and reverse primers and 1 µg of cDNA. <sentence_start/>The PCR condition was 95°C for 2 min, followed by 40 cycles of 95°C, 20 sec; 60°C, 20 sec; 72°C, 30 sec. <sentence_start/>An external standard curve was generated by dilutions of the purified target PCR product. <sentence_start/>To confirm the specificity of the amplification, the PCR products were subjected to a melting curve analysis and gel electrophoresis. <sentence_start/>The GnIH precursor gene expression was normalized by GAPDH expression using the LineGene software (BioFlux)."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In situ</italic> hybridization of white-crowned sparrow GnIH precursor mRNA"
+  },
+  {
+   "section": "article",
+   "text": "Cross sections at 25 µm thickness of the white-crowned sparrow brain were collected on a cryostat at −20°C for histological studies. <sentence_start/><italic toggle=\"yes\">In situ</italic> hybridization was carried out with our previous method using a digoxigenin (DIG)-labeled antisense RNA probe <citation rid=\"pone.0030202-Ubuka7\" ref-type=\"bibr\" pmid=\"15708982\" doi=\"10.1073/pnas.0403840102\" pmcid=\"PMC549437\" count=\"1\">[24]</citation>. <sentence_start/>The DIG-labeled antisense RNA probe was produced using a standard RNA labeling kit (Roche Diagnostics, Mannheim, Germany) by using partial white-crowned sparrow GnIH precursor cDNA (nt 203-511 in ) as a template. <sentence_start/>Hybridized probe was visualized in blue by immersing the sections in a substrate solution (nitroblue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate stock solution; Roche Diagnostics). <sentence_start/>Control for specificity of <italic toggle=\"yes\">in situ</italic> hybridization was performed by using a DIG-labeled sense RNA probe, the sequence of which was complementary to the antisense probe. <sentence_start/>The numbers of apparently recognized GnIH precursor mRNA positive cells identified from their staining, structure and portion in the PVN were counted on the microscope at 200× by two observers who were blind to the treatments, and independent counts were averaged for statistical analysis. <sentence_start/>Microscopic images were acquired digitally on an Axio Imager, A1 microscope (Carl Zeiss AG, Gottingen, Germany) with an AxioCam MRc5 digital camera. <sentence_start/>The density of <italic toggle=\"yes\">in situ</italic> hybridization signal of individual neuron was measured by using Sion Image (Ver. 4.02, Scion, Maryland, WA) as a gray scale value from 0 (white) to 256 (black) and expressed as the mean density per cell, which was obtained by subtracting background gray values. <sentence_start/>The product of the mean density of GnIH mRNA positive cells and the number of GnIH mRNA positive cells in three most populated sections at 100 µm rostral to caudal distances was compared between the groups. <sentence_start/>Three most populated sections of GnIH mRNA positive cells at 100 µm rostral to caudal distances from each bird were analyzed because that was the maximum number of sections to be processed simultaneously with the same working solutions for all 32 brains (n = 8 each in 4 groups), and cross sections in 275 µm (the first section of 25 µm thickness + 100 µm gap + the second section of 25 µm thickness + 100 µm gap + the third section of 25 µm thickness) rostral to caudal width contained the core of the cluster of GnIH neurons in the PVN. <sentence_start/>The number of GnIH mRNA positive cells was normalized by 1 mm square area that is vertical to rostral to caudal axis including the PVN within the hypothalamus to compare the expression of GnIH mRNA between the groups."
+  },
+  {
+   "section": "article",
+   "text": "Enzyme-linked immunosorbent assay (ELISA) of GnIH"
+  },
+  {
+   "section": "article",
+   "text": "Peptides were extracted from the diencephalons of 16 white-crowned sparrows (4 males, 12 females) as described <citation rid=\"pone.0030202-Ubuka2\" ref-type=\"bibr\" pmid=\"12904178\" doi=\"10.1677/joe.0.1780311\" count=\"1\">[3]</citation>. <sentence_start/>Frozen diencephalic samples were boiled for 7 min and homogenized in 5% acetic acid. <sentence_start/>The homogenate was centrifuged at 16,000× g for 30 min at 4°C. <sentence_start/>The supernatant was collected and forced through a disposable C-18 cartridge (Sep-Pak Vac 1cc; Waters, Milford, MA). <sentence_start/>The retained material was then eluted with 60% methanol. <sentence_start/>The pooled eluate was concentrated in a vacuum evaporator, passed through disposable Ultrafree-MC centrifugal filter units (Millipore), and the extract was subjected to competitive ELISA by using the antiserum raised in a rabbit against GnIH <citation rid=\"pone.0030202-Tsutsui1\" ref-type=\"bibr\" pmid=\"10964719\" doi=\"10.1006/bbrc.2000.3350\" count=\"1\">[1]</citation>. <sentence_start/>In brief, different concentrations of synthetic white-crowned sparrow GnIH (SIKPFSNLPLRF-NH<sub>2</sub>; 1-1,000 pmol/ml) and adjusted tissue extracts were added with the antiserum against GnIH (1∶1,000 dilution) to each antigen-coated well of a 96-well microplate (multiwell plate for ELISA, H-Type; Sumitomo Bakelite, Tokyo, Japan), and incubated for 1 h at 37°C. <sentence_start/>After the reaction with alkaline phosphatase-labeled goat anti-rabbit IgG, immunoreactive products were obtained in a substrate solution of <italic toggle=\"yes\">p</italic>-nitrophenylphosphate, and the absorbance was measured at 415 nm on a microtiter plate reader (MTP-120; Corona Electric, Ibaraki, Japan)."
+  },
+  {
+   "section": "article",
+   "text": "Immunocytochemistry of GnIH, and GnRH"
+  },
+  {
+   "section": "article",
+   "text": "Immunocytochemical analysis of GnIH was conducted with our previous method <citation rid=\"pone.0030202-Ubuka7\" ref-type=\"bibr\" pmid=\"15708982\" doi=\"10.1073/pnas.0403840102\" pmcid=\"PMC549437\" count=\"1\">[24]</citation> on the cross sections at 25 µm thickness. <sentence_start/>The primary antibody used was affinity column purified rabbit anti-white-crowned sparrow GnIH antibody (Pacific Immunology Corp., Ramona, CA). <sentence_start/>The specificity of the primary antibody was assessed by adsorption tests of the antibody with 1×10<sup>−6</sup> M synthetic white-crowned sparrow GnIH. <sentence_start/>Immunoreactive material was visualized in purple using Vector VIP (Vector Laboratories, Burlingame, CA). <sentence_start/>Some of the sections were doubled stained using GnRH antibody according to our previous method <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>, <citation rid=\"pone.0030202-Ubuka4\" ref-type=\"bibr\" pmid=\"19844991\" doi=\"10.1002/cne.22191\" count=\"1\">[11]</citation>. <sentence_start/>The primary antibody used to label GnRH neurons was rabbit anti-GnRH (HU60H; kindly donated by Dr. H. Urbanski, Oregon Regional Primate Center, Portland, OR). <sentence_start/>Although the antibody does not distinguish between GnRH-I (pEHWSYGLQPG-NH<sub>2</sub>) and GnRH-II (pEHWSHGWYPG-NH<sub>2</sub>) neurons, we could identify them based on their separate locations in the brain (GnRH-I neurons are located in the preoptic area, whereas GnRH-II neurons are located in the midbrain). <sentence_start/>Immunoreactive material against GnRH antibody was visualized in brown using diaminobenzidine."
+  },
+  {
+   "section": "article",
+   "text": "Brain regions and nuclei were identified by Nissl staining of the adjacent sections using a canary brain map <citation rid=\"pone.0030202-Stokes1\" ref-type=\"bibr\" pmid=\"4609173\" doi=\"10.1002/cne.901560305\" count=\"1\">[25]</citation>. <sentence_start/>The density of GnIH-ir fiber was quantified by counting the number of dots of the beaded fibers in 200 µm square in the center of each brain nucleus. <sentence_start/>The number of GnRH-I, GnRH-II-ir neurons, and GnRH-I, GnRH-II-ir neurons that received putative contacts from GnIH-ir fibers were counted in the sections at 100 µm rostral to caudal distances in each brain. <sentence_start/>GnRH-I neurons which received putative contacts from GnIH-ir fibers were counted form 11.3±3.2 (mean ± SD, n = 32) sections that contained the preoptic area, whereas GnRH-II neurons which received putative contacts from GnIH-ir fibers were counted form 8.5±1.6 sections (mean ± SD, n = 32) that contained the midbrain region. <sentence_start/>A putative contact was scored only if a GnIH-ir bouton-like structure was observed in close proximity to GnRH-I or GnRH-II neurons."
+  },
+  {
+   "section": "article",
+   "text": "Testosterone radioimmunoassay (RIA)"
+  },
+  {
+   "section": "article",
+   "text": "Plasma testosterone concentration was measured by RIA using our previous method <citation rid=\"pone.0030202-Wingfield1\" ref-type=\"bibr\" pmid=\"1198621\" doi=\"10.1016/0039-128x(75)90077-x\" count=\"1\">[26]</citation>, <citation rid=\"pone.0030202-Wingfield2\" ref-type=\"bibr\" count=\"1\">[27]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "The effect of GnIH gene silencing on the product of the cell number and the mean density of GnIH mRNA positive cells between control and experimental birds was analyzed by two-tailed Student’s t-test. <sentence_start/>The effect of GnIH gene silencing on GnIH concentration, the resting time, the vocalizations were analyzed by one-way ANOVA followed by Fisher’s protected least significant difference (PLSD) test. <sentence_start/>Effect of GnIH gene silencing on the number of songs was further analyzed by Kruskal-Wallis test followed by Mann-Whitney U-test. <sentence_start/>The relationship between the resting time and the GnIH neuronal system, and plasma testosterone concentration was analyzed by two-sided Pearson’s correlation test. <sentence_start/>Values outside the mean ± twice standard deviation were excluded from the correlation analyses to omit the outlier which can produce a high correlation coefficient."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Expression of GnIH precursor mRNA in the white-crowned sparrow brain"
+  },
+  {
+   "section": "article",
+   "text": "White-crowned sparrow brains of mixed sex birds (1 male, 3 female) were divided into 5 parts (T: telencephalon, D: diencephalon, M: midbrain, C: cerebellum, and PM: pons/medulla) and GnIH precursor mRNA was measured by real-time quantitative PCR. <sentence_start/>A significant amount of GnIH mRNA was detected only in the diencephalon (Fig. 1, F = 326, <italic toggle=\"yes\">P</italic> = 4.1×10<sup>−15</sup> by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 1.1×10<sup>−14</sup> T vs. D, <italic toggle=\"yes\">P</italic> = 5.2×10<sup>−15</sup> D vs. M, <italic toggle=\"yes\">P</italic> = 4.5×10<sup>−15</sup> D vs. C, <italic toggle=\"yes\">P</italic> = 7.1×10<sup>−15</sup> D vs. PM by Fisher’s PLSD)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Expression of GnIH precursor mRNA in the white-crowned sparrow brain."
+  },
+  {
+   "section": "article",
+   "text": "GnIH precursor mRNA is solely expressed in the diencephalon (D) compared to other brain regions. <sentence_start/>T: telencephalon, M: midbrain, C: cerebellum, PM: pons/medulla. <sentence_start/>GnIH precursor mRNA was quantified by real-time quantitative PCR using GADPH mRNA as an internal standard. <sentence_start/>The columns and the vertical lines represent the mean ± SEM (n = 4). <sentence_start/>***, <italic toggle=\"yes\">P</italic>&lt;0.001 vs. T, M, C, PM by one-way ANOVA followed by Fisher’s PLSD."
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the expression of GnIH precursor mRNA in the PVN"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In situ</italic> hybridization of GnIH precursor mRNA showed a cluster of GnIH mRNA positive cells in the PVN of hypothalamus (Fig. 2A) as per our previous study <citation rid=\"pone.0030202-Ubuka7\" ref-type=\"bibr\" pmid=\"15708982\" doi=\"10.1073/pnas.0403840102\" pmcid=\"PMC549437\" count=\"1\">[24]</citation>. <sentence_start/>The cluster of GnIH mRNA positive cells tended to gather closer in sagittal planes on both sides of the brain in male birds (Fig. 2Aa, 2Ac) compared to female birds (Fig. 2Ab, 2Ad). <sentence_start/>The product of the cell number and the mean density of GnIH mRNA positive cells was significantly reduced in GnIH RNAi treated birds compared to the control birds both in male and female [Fig. 2B; Male, <italic toggle=\"yes\">t</italic> = 2.2, <italic toggle=\"yes\">P</italic> = 0.049 CM (control male) vs. EM (experimental male); Female, <italic toggle=\"yes\">t</italic> = 2.4, <italic toggle=\"yes\">P</italic> = 0.033 CF (control female) vs. EF (experimental female) by two-tailed Student’s <italic toggle=\"yes\">t</italic>-test)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on GnIH precursor mRNA and GnIH expression."
+  },
+  {
+   "section": "article",
+   "text": "<bold><italic toggle=\"yes\">A,</italic></bold> Expression of GnIH precursor mRNA positive cells in the paraventricular nucleus of control male (a, CM), control female (b, CF), experimental male (c, EM), and experimental female (d, EF). <sentence_start/>Bar = 50 µm. <sentence_start/><bold><italic toggle=\"yes\">B,</italic></bold> The product of the cell number and the mean density of <italic toggle=\"yes\">in situ</italic> hybridization signal from three most populated sections containing GnIH precursor mRNA positive cells in CM, EM, CF, and EF bird brain. <sentence_start/>The columns and the vertical lines represent the mean ± SEM (n = 8). <sentence_start/>*, <italic toggle=\"yes\">P</italic>&lt;0.05 CM vs EM, CF vs EF by two-tailed Student’s <italic toggle=\"yes\">t</italic>-test. <sentence_start/><bold><italic toggle=\"yes\">C,</italic></bold> Effect of GnIH RNAi on GnIH concentration in the diencephalon. <sentence_start/>GnIH concentration in the diencephalon was significantly reduced in GnIH siRNA administered birds (GnIH RNAi, n = 7) compared to vehicle (n = 4) and control RNA (n = 5) administered birds. <sentence_start/>The columns and the vertical lines represent the mean ± SEM. <sentence_start/>*, <italic toggle=\"yes\">P</italic>&lt;0.05 vehicle or control vs. GnIH RNAi by one-way ANOVA followed by Fisher’s PLSD."
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on GnIH concentration in the diencephalon"
+  },
+  {
+   "section": "article",
+   "text": "GnIH concentration in the diencephalon was not reduced by control RNA administration compared to the vehicle administered birds (Fig. 2C). <sentence_start/>However, the concentration of GnIH was significantly reduced in GnIH siRNA administered birds compared to vehicle or control RNA administered birds (Fig. 2C, F = 3.93, <italic toggle=\"yes\">P</italic> = 0.046 by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 0.036 vehicle vs. GnIH RNAi, <italic toggle=\"yes\">P</italic> = 0.037 control RNA vs. GnIH RNAi by Fisher’s PLSD)."
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the activities of male and female birds"
+  },
+  {
+   "section": "article",
+   "text": "GnIH gene silencing significantly increased spontaneous activities in both male and female birds, measured by recording their resting time [Fig. 3; Male, F = 12.9, <italic toggle=\"yes\">P</italic> = 1.8×10<sup>−5</sup> by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 2.7×10<sup>−5</sup> SCM (spontaneous control male) vs. SEM (spontaneous experimental male) by Fisher’s PLSD; Female, F = 5.85, <italic toggle=\"yes\">P</italic> = 0.0031 by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 0.0010 SCF (spontaneous control female) vs. SEF (spontaneous experimental female) by Fisher’s PLSD]. <sentence_start/>GnIH RNAi made the birds very active, similar to the behavior of birds when they were challenged by novel male song playbacks [Fig. 3; Male, <italic toggle=\"yes\">P</italic> = 2.8×10<sup>−5</sup> SCM vs. PCM (control male with song playback), <italic toggle=\"yes\">P</italic> = 1.5×10<sup>−5</sup>, SCM vs. PEM (experimental male with song playback); Female, <italic toggle=\"yes\">P</italic> = 0.0017 SCF vs. PCF (control female with song playback), <italic toggle=\"yes\">P</italic> = 0.0055 SCF vs. PEF (experimental female with song playback) by Fisher’s PLSD]. <sentence_start/>There was no statistical difference in the time spent for feeding and the numbers of hopping and pointing between the groups (Figure S1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the activity of white-crowned sparrows."
+  },
+  {
+   "section": "article",
+   "text": "Spontaneous resting time of control male (SCM), experimental male (SEM), control female (SCF), and experimental female (SEF) birds in 10 minutes; and the resting time of control male (PCM), experimental male (PEM), control female (PCF), and experimental female (PEF) birds in 10 minutes averaged from their responses to four male song playbacks. <sentence_start/>The columns and the vertical lines represent the mean ± SEM (n = 8). <sentence_start/>***, <italic toggle=\"yes\">P</italic>&lt;0.001 vs SCM, ††, <italic toggle=\"yes\">P</italic>&lt;0.01 vs SCF by one-way ANOVA followed by Fisher’s PLSD."
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the vocalizations of male and female birds"
+  },
+  {
+   "section": "article",
+   "text": "Spontaneous chuckle was significantly reduced by GnIH RNAi treatment as also seen in birds challenged by male song playbacks [Fig. 4A, F = 5.5, <italic toggle=\"yes\">P</italic> = 0.027 by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 0.045 SC (spontaneous control birds) vs. SE (spontaneous experimental birds), <italic toggle=\"yes\">P</italic> = 0.028 SC vs. PC (control birds with song playback), <italic toggle=\"yes\">P</italic> = 0.013 SC vs. PE (experimental birds with song playback) by Fisher’s PLSD]. <sentence_start/>On the contrary, spontaneous tseep was significantly increased in GnIH gene silenced birds (Fig. 4B, F = 37, <italic toggle=\"yes\">P</italic> = 4.5×10<sup>−5</sup> by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 6.1×10<sup>−5</sup> SC vs. SE, <italic toggle=\"yes\">P</italic> = 0.014, SC vs. PE by Fisher’s PLSD), suggesting that GnIH gene silencing induces alertness or arousal in birds. <sentence_start/>Spontaneous song was significantly reduced by GnIH RNAi treatment as also seen in birds challenged by male song playbacks (Fig. 4C, F = 19, <italic toggle=\"yes\">P</italic> = 6.2×10<sup>−4</sup> by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 0.0064 SC vs. SE, <italic toggle=\"yes\">P</italic> = 2.1×10<sup>−4</sup> SC vs. PC by Fisher’s PLSD). <sentence_start/>However, song in response to playback of novel male songs was significantly increased by GnIH RNAi treatment (Fig. 4C, <italic toggle=\"yes\">P</italic> = 0.013 by Kruskal-Wallis test, U = 16, Z = −2.3, <italic toggle=\"yes\">P</italic> = 0.021 PC vs. PE by two-tailed Mann-Whitney U test), suggesting that GnIH gene silencing induces aggressiveness when there is a territorial challenge. <sentence_start/>We also measured the song duration to characterize the quality of the songs. <sentence_start/>Song duration of spontaneous song was reduced by GnIH RNAi treatment as was also seen in birds challenged by male song playbacks (Fig. 4D, F = 20.3, <italic toggle=\"yes\">P</italic> = 3.5×10<sup>−5</sup> by one-way ANOVA, <italic toggle=\"yes\">P</italic> = 0.0016 SC vs. SE, <italic toggle=\"yes\">P</italic> = 5.9×10<sup>−5</sup> SC vs. PC, <italic toggle=\"yes\">P</italic> = 6.7××10<sup>−4</sup> SC vs. PE by Fisher’s PLSD)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the vocalizations of white-crowned sparrows."
+  },
+  {
+   "section": "article",
+   "text": "<bold><italic toggle=\"yes\">A,</italic></bold> Total number of spontaneous chuckle in control (SC) and experimental (SE) birds in 10 minutes (n = 4), and total number of chuckle in control (PC) and experimental (PE) birds in 10 minutes in response to male song playbacks (n = 4). <sentence_start/>*, <italic toggle=\"yes\">P</italic>&lt;0.05 vs SC by one-way ANOVA followed by Fisher’s PLSD. <sentence_start/><bold><italic toggle=\"yes\">B,</italic></bold> Total number of spontaneous tseep in SC and SE birds in 10 minutes (n = 4), and total number of tseep in PC and PE birds in 10 minutes in response to male song playbacks (n = 4). <sentence_start/>*, <italic toggle=\"yes\">P</italic>&lt;0.05, ***, <italic toggle=\"yes\">P</italic>&lt;0.001 vs SC by one-way ANOVA followed by Fisher’s PLSD. <sentence_start/><bold><italic toggle=\"yes\">C,</italic></bold> Total number of spontaneous song in SC and SE birds in 10 minutes (n = 4), and total number of song in PC and PE birds in 10 minutes in response to male song playbacks (n = 4). <sentence_start/>**, <italic toggle=\"yes\">P</italic>&lt;0.01, ***, <italic toggle=\"yes\">P</italic>&lt;0.001 vs SC by one-way ANOVA followed by Fisher’s PLSD. <sentence_start/>§, <italic toggle=\"yes\">P</italic>&lt;0.05, PC vs PE, Kruskal-Wallis test followed by Mann-Whitney U-test. <sentence_start/><bold><italic toggle=\"yes\">D,</italic></bold> Spontaneous song duration of control (SC) and experimental (SE) birds in 30 minutes recordings (n = 4); and song duration of control (PC) and experimental (PE) birds in response to male song playbacks (n = 4). <sentence_start/>The columns and the vertical lines represent the mean ± SEM. <sentence_start/>**, <italic toggle=\"yes\">P</italic>&lt;0.01, ***, <italic toggle=\"yes\">P</italic>&lt;0.001 vs SC by one-way ANOVA followed by Fisher’s PLSD."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of GnIH neuronal system in the brain"
+  },
+  {
+   "section": "article",
+   "text": "We further analyzed the GnIH neuronal system in the brain that possibly regulated the activities of birds. <sentence_start/>GnIH-immunoreactive (-ir) cells were clustered in the PVN of hypothalamus (Fig. 5, 6A). <sentence_start/>Although GnIH-ir fibers were emanating to various parts of the brain (Fig. 5), abundant GnIH-ir fibers were observed in the fasciculus diagonalis Brocae (FDB), the nucleus preopticus anterioris (POA, Fig. 6G), the nucleus geniculatus lateralis, the pars ventralis (GLV), the nucleus lateralis anterior thalami (LA), PVN, the substantia grisea et fibrosa periventricularis (SGP), the median eminence (ME, Fig. 6B), the substantia grisea centralis (GCT, Fig. 6J), and the ventral tegmental area (VTA, Fig. 6C) (Fig. 5). <sentence_start/>GnIH-ir fibers were also observed in the nucleus dorsomedialis posterior thalami (DMP), and the brain nuclei related to vocalization and audition, such as the nucleus dorsalis medialis (DM, Fig. 6D) <citation rid=\"pone.0030202-Nottebohm1\" ref-type=\"bibr\" pmid=\"7119147\" doi=\"10.1002/cne.902070406\" count=\"1\">[28]</citation>, the nucleus mesencephalicus lateralis, pars dorsalis (MLd, Fig. 6E) <citation rid=\"pone.0030202-Nottebohm1\" ref-type=\"bibr\" pmid=\"7119147\" doi=\"10.1002/cne.902070406\" count=\"1\">[28]</citation>, <citation rid=\"pone.0030202-Nottebohm2\" ref-type=\"bibr\" pmid=\"1262540\" doi=\"10.1002/cne.901650405\" count=\"1\">[29]</citation>, and the lateral nucleus intercollicularis (ICo, Fig. 6F) <citation rid=\"pone.0030202-Nottebohm1\" ref-type=\"bibr\" pmid=\"7119147\" doi=\"10.1002/cne.902070406\" count=\"1\">[28]</citation>, <citation rid=\"pone.0030202-Nottebohm2\" ref-type=\"bibr\" pmid=\"1262540\" doi=\"10.1002/cne.901650405\" count=\"1\">[29]</citation> (Fig. 5). <sentence_start/>Neurons in VTA are thought to regulate the activities of the song control nuclei <citation rid=\"pone.0030202-Lewis1\" ref-type=\"bibr\" pmid=\"7217361\" doi=\"10.1002/cne.901960212\" count=\"1\">[30]</citation>, <citation rid=\"pone.0030202-Appeltants1\" ref-type=\"bibr\" pmid=\"10720795\" doi=\"10.1016/s0891-0618(99)00054-x\" count=\"1\">[31]</citation>. <sentence_start/>It is known that two subtypes of GnRH <citation rid=\"pone.0030202-Matsuo1\" ref-type=\"bibr\" pmid=\"4936338\" doi=\"10.1016/s0006-291x(71)80019-0\" count=\"1\">[32]</citation>, <citation rid=\"pone.0030202-Burgus1\" ref-type=\"bibr\" pmid=\"4550508\" doi=\"10.1073/pnas.69.1.278\" pmcid=\"PMC427591\" count=\"1\">[33]</citation>, GnRH-I <citation rid=\"pone.0030202-King1\" ref-type=\"bibr\" pmid=\"7050118\" count=\"1\">[34]</citation>-<citation rid=\"pone.0030202-Stevenson1\" ref-type=\"bibr\" pmid=\"19131568\" doi=\"10.1210/en.2008-1435\" pmcid=\"PMC2659271\" count=\"1\">[38]</citation> and GnRH-II <citation rid=\"pone.0030202-Miyamoto2\" ref-type=\"bibr\" pmid=\"6427779\" doi=\"10.1073/pnas.81.12.3874\" pmcid=\"PMC345324\" count=\"1\">[39]</citation> are expressed in the avian brain <citation rid=\"pone.0030202-Ubuka10\" ref-type=\"bibr\" count=\"1\">[40]</citation>. <sentence_start/>GnRH-I, GnRH-II neurons are present in the POA and GCT, respectively <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>. <sentence_start/>Because abundant GnIH-ir fibers were expressed in these brain nuclei, we also investigated the interactions of GnIH-ir fibers with GnRH-I, GnRH-II neurons. <sentence_start/>Close appositions of GnIH-ir neuronal fiber terminal like structures were frequently observed on GnRH-I (Fig. 6H, 6I) and GnRH-II (Fig. 6K, 6L) neurons in male and female birds. <sentence_start/>The overall pattern of GnIH fiber distribution was similar between male and female birds (Fig. 5)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Schematic representations of white-crowned sparrow brain sections showing the locations and densities of GnIH fibers."
+  },
+  {
+   "section": "article",
+   "text": "Different colors indicate the densities of GnIH-ir fibers (yellow: high, red: moderate, blue: low). <sentence_start/>The number of dots of the immunoreactive beaded fibers was counted in 200 µm square in the center of each brain nucleus. <sentence_start/>High: over 75; moderate: 50 to 74; low: 25 to 49. <sentence_start/>The left-hand side of each brain summarizes the results of male control birds (M), whereas the right-hand side summarizes the results of female control birds (F). <sentence_start/>FDB: fasciculus diagonalis Brocae; POA: nucleus preopticus anterioris; GLV: the nucleus geniculatus lateralis, the pars ventralis; LA: the nucleus lateralis anterior thalami; PVN: nucleus paraventricularis; SGP: substantia grisea et fibrosa periventricularis; ME: median eminence; CGT: substantia grisea centralis; VTA: ventral tegmental area; DMP: nucleus dorsomedialis posterior thalami; DM: nucleus dorsalis medialis; MLd: nucleus mesencephalicus lateralis, pars dorsalis; ICo: lateral nucleus intercollicularis."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Expression of GnIH cell bodies and fibers in the white-crowned sparrow brain."
+  },
+  {
+   "section": "article",
+   "text": "<bold><italic toggle=\"yes\">A</italic></bold>, Expression of GnIH-immunoreactive (-ir) cells in the nucleus paraventricularis (PVN). <sentence_start/>V: Third ventricle. <sentence_start/>Bar, 100 µm. <sentence_start/><bold><italic toggle=\"yes\">B</italic></bold>, GnIH-ir fibers in the median eminence. <sentence_start/>Arrowheads indicate GnIH-ir fibers in the external layer of the median eminence. <sentence_start/>Bar, 100 µm. <sentence_start/><bold><italic toggle=\"yes\">C</italic></bold>, GnIH-ir fibers in the ventral tegmental area (VTA). <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">D</italic></bold>, GnIH-ir fibers in the nucleus dorsalis medialis (DM). <sentence_start/>VT: Ventriculus tecti mesencephali. <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">E</italic></bold>, GnIH-ir fibers in the nucleus mesencephalicus lateralis, pars dorsalis (MLd). <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">F</italic></bold>, GnIH-ir fibers in the nucleus intercollicularis (ICo). <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">G</italic></bold>, GnIH-ir fibers in the nucleus preopticus anterioris (POA). <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">H</italic></bold>, GnRH-ir neurons (brown) with GnIH-ir fibers (purple) in the POA. <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">I</italic></bold>, Higher magnification of the highlighted area in <bold><italic toggle=\"yes\">H</italic></bold> showing a GnIH-ir fiber in the close proximity to a GnRH-I neuron. <sentence_start/><bold><italic toggle=\"yes\">J</italic></bold>, GnIH-ir fibers in the substantia grisea centralis (CGT). <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">K</italic></bold>, GnRH-ir neurons with GnIH-ir fibers in the GCT. <sentence_start/>Bar, 50 µm. <sentence_start/><bold><italic toggle=\"yes\">L</italic></bold>, Higher magnification of the highlighted area in <bold><italic toggle=\"yes\">K</italic></bold> showing a GnIH-ir fiber in the close proximity to a GnRH-II neuron."
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the density of GnIH-ir fibers in the brain"
+  },
+  {
+   "section": "article",
+   "text": "We investigated the effect of GnIH RNAi on the density of GnIH-ir fibers in POA, GCT, VTA, DM, MLd and ICo in male and female birds. <sentence_start/>Significant reduction of GnIH-ir fiber density was observed in the VTA of female birds [Fig. 7, <italic toggle=\"yes\">t</italic> = 2.6, <italic toggle=\"yes\">P</italic> = 0.022 CF (control female) vs. EF (experimental female) by two-tailed Student’s <italic toggle=\"yes\">t</italic>-test]. <sentence_start/>GnIH-ir fiber density tended to decrease in the MLd and ICo in female birds (MLd, <italic toggle=\"yes\">P</italic> = 0.056, CF = 24.9±5.12, EF = 12.3±3.26; ICo, <italic toggle=\"yes\">P</italic> = 0.052, CF = 130±9.43, EF = 101±9.75; two-tailed Student’s <italic toggle=\"yes\">t</italic>-test)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Effect of GnIH RNAi on the density of GnIH-ir fibers in the female ventral tegmental area."
+  },
+  {
+   "section": "article",
+   "text": "The number of dots of the beaded GnIH-ir fibers was counted in 200 µm square in the center of the ventral tegmental area (VTA) of control female (CF) and experimental female (EF) birds. <sentence_start/>The columns and the vertical lines represent the mean ± SEM (n = 8). <sentence_start/>*, <italic toggle=\"yes\">P</italic>&lt;0.05 vs. CF by two-tailed Student’s <italic toggle=\"yes\">t</italic>-test."
+  },
+  {
+   "section": "article",
+   "text": "Relationships between the GnIH neuronal system and the activities of birds"
+  },
+  {
+   "section": "article",
+   "text": "To understand the brain mechanism regulating the activity of birds by the GnIH neuronal system, we analyzed the relationships between the resting time and the GnIH neuronal system of birds (Fig. 8). <sentence_start/>GnIH mRNA levels (Fig. 2B) were positively correlated with the resting time of male (Fig. 8A, n = 15, R = 0.51, <italic toggle=\"yes\">P</italic> = 0.049 by two-sided Pearson’s correlation test) and female (Fig. 8B, n = 15, R = 0.63, <italic toggle=\"yes\">P</italic> = 0.011 by two-sided Pearson’s correlation test) birds. <sentence_start/>The number of GnRH-I neurons with close appositions of GnIH-ir neuronal fiber terminal like structures produced a strong correlation with the resting time of male birds (Fig. 8C, n = 15, R = 0.78, <italic toggle=\"yes\">P</italic> = 5.8×10<sup>−4</sup> by two-sided Pearson’s correlation test). <sentence_start/>The number of GnRH-II neurons with close appositions of GnIH-ir neuronal fiber terminal like structures in male birds was also positively correlated with their resting time (Fig. 8D, n = 15, R = 0.55, <italic toggle=\"yes\">P</italic> = 0.032 by two-sided Pearson’s correlation test). <sentence_start/>The numbers of GnRH-I or GnRH-II neurons were not affected by GnIH RNAi treatment (Figure S2). <sentence_start/>GnIH-ir fiber densities in the VTA tended to correlate with the resting time of male birds (n = 15, R = 0.48, <italic toggle=\"yes\">P</italic> = 0.072 by two-sided Pearson’s correlation test). <sentence_start/>On the contrary, no correlation was detected between the resting time of male birds and plasma testosterone concentration (Figure S3, n = 14, R = 0.41, <italic toggle=\"yes\">P</italic> = 0.14 by two-sided Pearson’s correlation test)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Relationships between the resting time and the GnIH neuronal system."
+  },
+  {
+   "section": "article",
+   "text": "<bold><italic toggle=\"yes\">A</italic></bold>, Relationship between the resting time and GnIH mRNA level in the PVN of male birds. <sentence_start/>Closed circles indicate the results of control birds, whereas open circles indicate the results of experimental birds. <sentence_start/>N = 15, R = 0.51, *, <italic toggle=\"yes\">P</italic>&lt;0.05 by two-sided Pearson’s correlation test. <sentence_start/><bold><italic toggle=\"yes\">B</italic></bold>, Relationship between the resting time and GnIH mRNA level in the PVN of female birds. <sentence_start/>N = 15, R = 0.63, *, <italic toggle=\"yes\">P</italic>&lt;0.05 by two-sided Pearson’s correlation test. <sentence_start/><bold><italic toggle=\"yes\">C</italic></bold>, Relationship between the resting time and the number of GnRH-I neurons with close appositions of GnIH-ir neuronal fiber terminal like structures in male birds. <sentence_start/>N = 15, R = 0.78, ***, <italic toggle=\"yes\">P</italic>&lt;0.001 by two-sided Pearson’s correlation test. <sentence_start/><bold><italic toggle=\"yes\">D</italic></bold>, Relationship between the resting time and the number of GnRH-II neurons with close appositions of GnIH-ir neuronal fiber terminal like structures in male birds. <sentence_start/>N = 15, R = 0.55, *, <italic toggle=\"yes\">P</italic>&lt;0.05 by two-sided Pearson’s correlation test."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study was conducted to investigate the role of GnIH neurons in the regulation of behavior in the white-crowned sparrow, a highly social vertebrate species. <sentence_start/>GnIH neuron projections to various parts of the brain suggest direct regulations of behavior by GnIH <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>, <citation rid=\"pone.0030202-Ukena1\" ref-type=\"bibr\" pmid=\"12712318\" doi=\"10.1007/s00441-003-0700-x\" count=\"1\">[5]</citation>, <citation rid=\"pone.0030202-Yin1\" ref-type=\"bibr\" pmid=\"15642802\" doi=\"10.1677/joe.1.05926\" count=\"1\">[7]</citation>. <sentence_start/>Previous studies have shown that central administration of GnIH inhibits sexual behavior in birds and mammals <citation rid=\"pone.0030202-Bentley1\" ref-type=\"bibr\" pmid=\"16460739\" doi=\"10.1016/j.yhbeh.2005.12.005\" count=\"1\">[8]</citation>, <citation rid=\"pone.0030202-Johnson1\" ref-type=\"bibr\" pmid=\"17113584\" doi=\"10.1016/j.yhbeh.2006.09.009\" pmcid=\"PMC1831848\" count=\"1\">[13]</citation>. <sentence_start/>We accordingly tested the effect of central administration of siRNA against GnIH precursor mRNA in this study. <sentence_start/>There are reports that direct administration of a naked siRNA into the central nervous system can effectively silence the target mRNA expression in the brain resulting in changes in physiology and behavior <citation rid=\"pone.0030202-Krebs1\" ref-type=\"bibr\" doi=\"10.1002/chem.201003144\" pmcid=\"PMC7162106\" pmid=\"21341332\" count=\"1\">[41]</citation>-<citation rid=\"pone.0030202-Hoyer1\" ref-type=\"bibr\" pmid=\"17118797\" doi=\"10.1080/10799890600929663\" count=\"1\">[46]</citation>. <sentence_start/>We directly administered siRNA against GnIH precursor mRNA into the third ventricle in the proximity of PVN where GnIH precursor mRNA is solely expressed. <sentence_start/>Accordingly, it was also shown in the present study that central administration of GnIH siRNA can significantly reduce GnIH precursor mRNA and GnIH expression and change the activities of birds, thus validating the effect of direct administration of siRNA into the brain in birds."
+  },
+  {
+   "section": "article",
+   "text": "GnIH RNAi stimulated general activities of male and female birds as if they were challenged by a novel intruder (analogous to territorial challenge) judging from their resting time. <sentence_start/>On the other hand, GnIH RNAi did not stimulate or inhibit specific behavior, such as feeding, preening, drinking, hopping or pointing. <sentence_start/>GnIH RNAi also stimulated agonistic vocalization, and induced song production in male birds in response to novel male song playbacks. <sentence_start/>An animal with a greater degree of CNS arousal (<italic toggle=\"yes\">1</italic>) shows greater responsiveness to sensory stimuli in all sensory modalities; (<italic toggle=\"yes\">2</italic>) emits more motor activity; and (<italic toggle=\"yes\">3</italic>) is more reactive emotionally <citation rid=\"pone.0030202-Pfaff2\" ref-type=\"bibr\" count=\"1\">[17]</citation>. <sentence_start/>Here we show evidence that GnIH RNAi can induce generalized arousal because GnIH RNAi (<italic toggle=\"yes\">1</italic>) stimulated song production in male birds in response to playbacks of novel male songs, (<italic toggle=\"yes\">2</italic>) increased locomotor activity, and (<italic toggle=\"yes\">3</italic>) stimulated tseep and song that may express emotions of songbirds."
+  },
+  {
+   "section": "article",
+   "text": "A previous study indicated that central administration of GnIH to the third ventricle of female white-crowned sparrows inhibits copulation solicitation <citation rid=\"pone.0030202-Bentley1\" ref-type=\"bibr\" pmid=\"16460739\" doi=\"10.1016/j.yhbeh.2005.12.005\" count=\"1\">[8]</citation>. <sentence_start/>Accordingly, we hypothesized that reduction of GnIH expression by RNAi may positively regulate sexual behavior, in contrast to the GnIH administration. <sentence_start/>There is a report showing that mice selected for high levels of generalized arousal also show high levels of sexual arousal <citation rid=\"pone.0030202-Weil1\" ref-type=\"bibr\" pmid=\"20080607\" doi=\"10.1073/pnas.0914014107\" pmcid=\"PMC2836695\" count=\"1\">[47]</citation>. <sentence_start/>Because GnIH RNAi induced generalized arousal in this study, there was a possibility that GnIH RNAi also induced sexual arousal. <sentence_start/>Cages of male or female birds were placed alternately so that they could interact with birds of the opposite sex. <sentence_start/>However, GnIH RNAi did not induce spontaneous male courtship song to surrounding female birds. <sentence_start/>Instead, male song was stimulated in GnIH RNAi birds when the birds were challenged by novel male song playbacks that simulated territorial challenge. <sentence_start/>Male white-crowned sparrows in the wild sing shorter songs in territorial defense <citation rid=\"pone.0030202-Nelson1\" ref-type=\"bibr\" count=\"1\">[48]</citation>. <sentence_start/>In our study, GnIH RNAi reduced song duration similar to those of control birds that were challenged by novel song playbacks. <sentence_start/>Accordingly, it is likely that GnIH RNAi induces agonistic territorial behavior in male birds rather than female-directed sexual behavior."
+  },
+  {
+   "section": "article",
+   "text": "GnIH gene downregulation significantly increased spontaneous activities of birds. <sentence_start/>If the suppression of GnIH neuronal activities in the brain can induce arousal, there may be a significant relationship between the activities of birds and GnIH neuronal fiber distributions in specific brain areas. <sentence_start/>We investigated this by analyzing the relationships between GnIH neuronal fiber distributions and the activities of the birds. <sentence_start/>We found that the numbers of GnRH-I and -II neurons with close appositions of GnIH-ir neuronal fiber terminal-like structures were positively correlated with the resting time of male birds. <sentence_start/>GnIH neuronal fibers terminate on GnRH-I and GnRH-II neurons <citation rid=\"pone.0030202-Bentley2\" ref-type=\"bibr\" pmid=\"12834441\" doi=\"10.1046/j.1365-2826.2003.01062.x\" count=\"1\">[18]</citation>, and these neurons express GnIH receptor mRNA in songbirds <citation rid=\"pone.0030202-Ubuka3\" ref-type=\"bibr\" doi=\"10.1210/en.2007-0983\" pmid=\"17901228\" count=\"1\">[4]</citation>. <sentence_start/>Accordingly, it is possible that GnIH inhibits arousal by decreasing the activities of GnRH-I and GnRH-II neurons. <sentence_start/>Central administration of GnRH-II can stimulate female sexual behaviors in birds <citation rid=\"pone.0030202-Maney1\" ref-type=\"bibr\" pmid=\"9344687\" doi=\"10.1006/hbeh.1997.1399\" count=\"1\">[19]</citation>. <sentence_start/>The direct action of GnRH-I neurons on behaviors in birds is not clear, but had no effect on copulation solicitation in female white-crowned sparrows <citation rid=\"pone.0030202-Maney1\" ref-type=\"bibr\" pmid=\"9344687\" doi=\"10.1006/hbeh.1997.1399\" count=\"1\">[19]</citation>. <sentence_start/>On the other hand, it is known that central administration of GnRH-I can stimulate female sexual behaviors in rats <citation rid=\"pone.0030202-Moss1\" ref-type=\"bibr\" pmid=\"4197147\" doi=\"10.1126/science.181.4095.177\" count=\"1\">[49]</citation>, <citation rid=\"pone.0030202-Pfaff3\" ref-type=\"bibr\" pmid=\"4584371\" doi=\"10.1126/science.182.4117.1148\" count=\"1\">[50]</citation>. <sentence_start/>Further study is required to investigate how GnIH neurons inhibit arousal by regulating GnRH neurons in birds and mammals, and their sex differences."
+  },
+  {
+   "section": "article",
+   "text": "GnIH orthologs have been identified in the rhesus macaque <citation rid=\"pone.0030202-Ubuka4\" ref-type=\"bibr\" pmid=\"19844991\" doi=\"10.1002/cne.22191\" count=\"1\">[11]</citation> and humans <citation rid=\"pone.0030202-Ubuka5\" ref-type=\"bibr\" pmid=\"20027225\" doi=\"10.1371/journal.pone.0008400\" pmcid=\"PMC2791420\" count=\"1\">[12]</citation>. <sentence_start/>Detailed investigation of GnIH-ir fiber distributions in the primate brain showed similar distribution of GnIH-ir fibers compared to birds, such as in the POA and GCT <citation rid=\"pone.0030202-Ubuka4\" ref-type=\"bibr\" pmid=\"19844991\" doi=\"10.1002/cne.22191\" count=\"1\">[11]</citation>. <sentence_start/>GnIH-ir fibers were also observed in close proximity to GnRH-I, and GnRH-II neurons in the POA and GCT, respectively <citation rid=\"pone.0030202-Ubuka4\" ref-type=\"bibr\" pmid=\"19844991\" doi=\"10.1002/cne.22191\" count=\"1\">[11]</citation>, <citation rid=\"pone.0030202-Ubuka5\" ref-type=\"bibr\" pmid=\"20027225\" doi=\"10.1371/journal.pone.0008400\" pmcid=\"PMC2791420\" count=\"1\">[12]</citation>. <sentence_start/>Accordingly, the involvement of this hypothalamic inhibitory neuropeptide system in the suppression of arousal by regulating GnRH neurons may be a conserved property in birds and mammals including primates."
+  },
+  {
+   "section": "article",
+   "text": "GnIH-ir fibers were also observed in the VTA, and GnIH-ir fiber densities in the VTA tended to correlate with the activity of male birds. <sentence_start/>GnIH-ir fibers in the VTA may have suppressed the generalized arousal state of the CNS in female birds because densities of GnIH-ir fibers were significantly reduced. <sentence_start/>In males VTA neurons project to the song control nuclei such as area× <citation rid=\"pone.0030202-Lewis1\" ref-type=\"bibr\" pmid=\"7217361\" doi=\"10.1002/cne.901960212\" count=\"1\">[30]</citation> and HVC <citation rid=\"pone.0030202-Appeltants1\" ref-type=\"bibr\" pmid=\"10720795\" doi=\"10.1016/s0891-0618(99)00054-x\" count=\"1\">[31]</citation>. <sentence_start/>Accordingly, it is also possible that GnIH neurons modify the vocalization of birds by regulating specific cells in the VTA."
+  },
+  {
+   "section": "article",
+   "text": "GnIH-ir fibers were further observed in the DM, MLd and lateral ICo in this study. <sentence_start/>Because DM is related to vocalizations, GnIH may modify them by acting on this nucleus. <sentence_start/>GnIH may also affect song perception, because MLd is a part of the ascending auditory pathway, the avian homolog of the central nucleus of the inferior colliculus in mammals. <sentence_start/>Recently, a similar distribution of GnIH-ir fibers in the auditory and vocalization control nuclei was described in the zebra finch brain <citation rid=\"pone.0030202-Tobari1\" ref-type=\"bibr\" pmid=\"20138947\" doi=\"10.1016/j.peptides.2010.01.015\" count=\"1\">[6]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "It is hypothesized that interactions between neurons in the ventrolateral preoptic nucleus and various cell groups in the brainstem regulate sleep and arousal <citation rid=\"pone.0030202-Saper1\" ref-type=\"bibr\" pmid=\"16251950\" doi=\"10.1038/nature04284\" count=\"1\">[51]</citation>, and closely related neuropeptides named orexins <citation rid=\"pone.0030202-Sakurai1\" ref-type=\"bibr\" pmid=\"9491897\" doi=\"10.1016/s0092-8674(00)80949-6\" count=\"1\">[52]</citation> or hypocretins <citation rid=\"pone.0030202-deLecea1\" ref-type=\"bibr\" pmid=\"9419374\" doi=\"10.1073/pnas.95.1.322\" pmcid=\"PMC18213\" count=\"1\">[53]</citation> stabilize the wakefulness of the animal <citation rid=\"pone.0030202-Lin1\" ref-type=\"bibr\" pmid=\"10458611\" doi=\"10.1016/s0092-8674(00)81965-0\" count=\"1\">[54]</citation>, <citation rid=\"pone.0030202-Chemelli1\" ref-type=\"bibr\" pmid=\"10481909\" doi=\"10.1016/s0092-8674(00)81973-x\" count=\"1\">[55]</citation>. <sentence_start/>Orexin/hypocretin neurons are produced exclusively in the lateral hypothalamic area (LHA) and they project to the brainstem arousal system <citation rid=\"pone.0030202-Saper1\" ref-type=\"bibr\" pmid=\"16251950\" doi=\"10.1038/nature04284\" count=\"1\">[51]</citation>. <sentence_start/>Because GnIH neurons also project to the brainstem neurons in mammals <citation rid=\"pone.0030202-Ubuka4\" ref-type=\"bibr\" pmid=\"19844991\" doi=\"10.1002/cne.22191\" count=\"1\">[11]</citation> there is a possibility that GnIH inhibits arousal by acting on the brainstem arousal system. <sentence_start/>On the other hand, it was recently shown that GnIH neurons also project to orexin/hypocretin neurons in sheep <citation rid=\"pone.0030202-Qi1\" ref-type=\"bibr\" pmid=\"19500220\" doi=\"10.1111/j.1365-2826.2009.01886.x\" count=\"1\">[56]</citation>. <sentence_start/>It is therefore possible that GnIH neurons inhibit arousal by inhibiting orexin/hypocretin neurons. <sentence_start/>Future study is required to determine the interactions of GnIH neurons and the brainstem arousal system and orexin/hypocretin neurons in the LHA."
+  },
+  {
+   "section": "article",
+   "text": "To sum up the results, although GnIH mRNA levels were positively correlated with the resting time of both male and female birds, the correlation between the resting time and the interaction of GnRH and GnIH neurons was only clear in male birds. <sentence_start/>On the other hand, GnIH fiber density in the VTA was reduced only in the female but not in male birds. <sentence_start/>Accordingly, although the spontaneous resting time or the resting time by GnIH RNAi or novel male song playback treatments was similar between male and female birds, the brain system involved in the regulation of various behavior of male and female birds may be different between sexes."
+  },
+  {
+   "section": "article",
+   "text": "Although all vertebrates undergo reproductive maturation at least once in their lifetime, it has also been clear that local environmental cues trigger actual onset of reproductive activity such as nesting, sexual behavior and ovulation. <sentence_start/>The data presented here suggest that GnIH suppression of arousal could be the mechanism preventing premature triggering of reproductive activity. <sentence_start/>Suppression of GnIH release by favorable environmental cues signaling conditions conducive for breeding is a novel, but now eminently testable, hypothesis that could have important implications for adjustment of breeding cycles in response to climate change."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Effect of GnIH RNAi on various behaviors of white-crowned sparrows.</bold> <sentence_start/>Spontaneous behaviors of control male (SCM), experimental male (SEM), control female (SCF), and experimental female (SEF) birds in 10 minutes; and the behaviors of control male (PCM), experimental male (PEM), control female (PCF), and experimental female (PEF) birds in 10 minutes averaged from their responses to four male song playbacks. <sentence_start/>The columns and the vertical lines represent the mean ± SEM (n = 8)."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Effect of GnIH RNAi on the number of GnRH-I and GnRH-II neurons. </bold> <bold><italic toggle=\"yes\">A</italic></bold> <bold>,</bold> The number of GnRH-I cells in control male (CM), control female (CF), experimental male (EM), and experimental female (EF) birds. <sentence_start/><bold><italic toggle=\"yes\">B</italic></bold> <bold>,</bold> The number of GnRH-II cells in CM, CF, EM, and EF birds. <sentence_start/>The columns and the vertical lines represent the mean ± SEM (n = 8)."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>The relationship between the resting time and plasma testosterone concentration in male birds.</bold> <sentence_start/>Closed circles indicate the results of control birds, whereas open circles indicate the results of experimental birds. <sentence_start/>N = 14, R = 0.41, <italic toggle=\"yes\">P</italic> = 0.14 by two-sided Pearson’s correlation test."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>J.C.W. acknowledges support IOS-0750540 from the USA National Science Foundation and the Endowed Chair in Physiology, University of California Davis. <sentence_start/>This work was supported in part by Grants-in-Aid for Scientific Research from the Ministry of Education, Science and Culture, Japan (18107002, 22132004 and 22227002 to K.T.). <sentence_start/>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+  }
+ ]
+}

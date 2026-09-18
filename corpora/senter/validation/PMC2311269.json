@@ -1,0 +1,400 @@
+{
+ "pmid": 18366642,
+ "pmcid": 2311269,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The CoLaus study: a population-based study to investigate the epidemiology and genetic determinants of cardiovascular risk factors and metabolic syndrome"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Cardiovascular diseases and their associated risk factors remain the main cause of mortality in western societies. <sentence_start/>In order to assess the prevalence of cardiovascular risk factors (CVRFs) in the Caucasian population of Lausanne, Switzerland, we conducted a population-based study (Colaus Study). <sentence_start/>A secondary aim of the CoLaus study will be to determine new genetic determinants associated with CVRFs."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "Single-center, cross-sectional study including a random sample of 6,188 extensively phenotyped Caucasian subjects (3,251 women and 2,937 men) aged 35 to 75 years living in Lausanne, and genotyped using the 500 K Affymetrix chip technology."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Obesity (body mass index ≥ 30 kg/m<sup>2</sup>), smoking, hypertension (blood pressure ≥ 140/90 mmHg and/or treatment), dyslipidemia (high LDL-cholesterol and/or low HDL-cholesterol and/or high triglyceride levels) and diabetes (fasting plasma glucose ≥ 7 mmol/l and/or treatment) were present in 947 (15.7%), 1673 (27.0%), 2268 (36.7%), 2113 (34.2%) and 407 (6.6%) of the participants, respectively, and the prevalence was higher in men than in women. <sentence_start/>In both genders, the prevalence of obesity, hypertension and diabetes increased with age."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "The prevalence of major CVRFs is high in the Lausanne population in particular in men. <sentence_start/>We anticipate that given its size, the depth of the phenotypic analysis and the availability of dense genome-wide genetic data, the CoLaus Study will be a unique resource to investigate not only the epidemiology of isolated, or aggregated CVRFs like the metabolic syndrome, but can also serve as a discovery set, as well as replication set, to identify novel genes associated with these conditions."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Cardiovascular diseases (CVD) are the major cause of early mortality and morbidity in industrialized countries [<citation ref-type=\"bibr\" rid=\"B1\" pmid=\"17132052\" doi=\"10.1371/journal.pmed.0030442\" pmcid=\"PMC1664601\" count=\"1\">1</citation>]. <sentence_start/>The prevalence of classical cardiovascular (CV) risk factors (CVRFs) such as hypertension, dyslipidemia, obesity and diabetes varies widely between different countries, and shows some important secular trends"
+  },
+  {
+   "section": "article",
+   "text": "Hypertension, obesity, dyslipidemia and diabetes mellitus have an important genetic component [<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"12826435\" doi=\"10.1016/S0140-6736(03)13722-1\" count=\"1\">2</citation>,<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"16741264\" doi=\"10.1038/oby.2006.71\" count=\"1\">3</citation>]. <sentence_start/>These conditions, however, are genetically complex, and only a small fraction of these diseases are accounted for by Mendelian forms. <sentence_start/>The availability of large case-control genome-wide association studies has led to the identification of susceptibility genes for common conditions, with even modest effects. <sentence_start/>Population-based studies have additional advantages; they make it possible to perform association studies for any continuous phenotypic trait which has been properly monitored, as well as for categorical traits using extreme discordant case-control designs, as long as these conditions are sufficiently prevalent. <sentence_start/>In addition, they offer the opportunity to explore the genetic determinants of aggregated phenotypes such as the metabolic syndrome. <sentence_start/>Finally, this type of studies provide the opportunity to perform re-sequencing analysis on extremes of the distribution, and to identify rare genetic variants with a strong phenotypic effect [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17322881\" doi=\"10.1038/ng1984\" pmcid=\"PMC2762948\" count=\"1\">4</citation>]. <sentence_start/>The success of such studies relies on a large collection, detailed and standardized phenotypes, strong analytical capabilities, replication sets and extensive genotyping [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"17554299\" doi=\"10.1038/447655a\" count=\"1\">5</citation>]. <sentence_start/>To harness the power of these technologies, we designed the CoLaus study. <sentence_start/>The major goals of the CoLaus Core study were to get a snap picture of the prevalence and severity of CVRFs in a particular population and to elucidate the molecular architecture of isolated CVRFs, as well as clusters of CVRFs like the metabolic syndrome. <sentence_start/>In this article, we present the protocol of the study as well as results for the prevalence of multiple cardiovascular risk factors the Lausanne population."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Recruitment process and sample size"
+  },
+  {
+   "section": "article",
+   "text": "The Study was approved by the Institutional Ethic's Committee of the University of Lausanne and recruitment took place in the city of Lausanne in Switzerland, a town of 117,161 inhabitants, of which 79,420 are of a Swiss nationality[<citation ref-type=\"bibr\" rid=\"B6\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The complete list of the Lausanne inhabitants aged 35-75 years (n = 56,694 in 2003) was provided by the population register of the city and served to sample the participants to the study. <sentence_start/>All subjects living in the city of Lausanne in 2003 for more than 90 days have their name included in this register. <sentence_start/>The register had information on age and gender but no information regarding ethnicity or country of origin."
+  },
+  {
+   "section": "article",
+   "text": "Given the allele frequency of most SNPs on the Affymetrix chip and the genetic effect sizes expected for complex diseases (i.e. OR 1.3 and above), we chose to include ~6000 individuals, so as to have enough power (~80%) to detect genetic associations for diseases with a prevalence of ~15%."
+  },
+  {
+   "section": "article",
+   "text": "A simple, non-stratified random selection of 19,830 subjects, corresponding to 35% of the source population, was drawn using STATA v9.1 software (Stata Corp, College Station, USA), and a letter inviting the addressee to participate in the study was sent to these individuals."
+  },
+  {
+   "section": "article",
+   "text": "Subjects who volunteered to participate were contacted by phone within 14 days by one of the staff members to set up an appointment. <sentence_start/>Subjects who didn't answer were sent a second invitation letter. <sentence_start/>If no answer was obtained, they were contacted by phone. <sentence_start/>Subjects were considered as non-participants if they refused to participate and as non-responders if contact couldn't be made after two successive letters and three successive phone calls. <sentence_start/>Individuals who didn't live in Lausanne any longer, who were dead or who didn't meet the age criteria were considered as non-eligible. <sentence_start/>Recruitment began in June 2003 and ended in May 2006."
+  },
+  {
+   "section": "article",
+   "text": "The sampling procedure is summarized in Figure 1. <sentence_start/>Of the initial 19,830 subjects sampled, 54 subjects were considered as non-eligible before contact and 15,109 (76%) responses were obtained. <sentence_start/>A total of 4667 subjects who did not respond were considered as non-responders. <sentence_start/>Among responders, 6,189 (41%) subjects refused to participate in the study and 799 (5%) were considered as non-eligible. <sentence_start/>Among the latter, 53% moved to a different city, 32% were out of the age range and 11% were reported to be deceased. <sentence_start/>The sample of 8,121 subjects who agreed to participate represented 41% of the initially sampled population, 54% of all responders and 57% of all eligible responders."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Flow chart of the CoLaus Study."
+  },
+  {
+   "section": "article",
+   "text": "Inclusion criteria"
+  },
+  {
+   "section": "article",
+   "text": "The following inclusion criteria were applied: a) written informed consent; b) age 35-75 years and c) Caucasian origin. <sentence_start/>Caucasian origin was defined as having both parents and grandparents born in a restricted list of countries (available from the authors). <sentence_start/>No other exclusion criteria were applied. <sentence_start/>Since ethnicity could only be established during the clinic visit, some participants were assessed but were not included in the CoLaus study. <sentence_start/>Their data will be described elsewhere."
+  },
+  {
+   "section": "article",
+   "text": "Assessment process"
+  },
+  {
+   "section": "article",
+   "text": "Participants were asked to attend the outpatient clinic at the Centre Hospitalier Universitaire Vaudois (CHUV) in the morning after an overnight fast. <sentence_start/>They had to take their medication as usual. <sentence_start/>Data were collected by trained field interviewers in a single visit lasting about 60 minutes. <sentence_start/>Informed consent was obtained from participants upon their arrival at the study clinic. <sentence_start/>The first questionnaire mailed with the appointment's letter and completed by the participant prior to the morning visit was then quickly reviewed and a second questionnaire was applied by interview prior to clinical measurements and blood collection."
+  },
+  {
+   "section": "article",
+   "text": "Questionnaire data"
+  },
+  {
+   "section": "article",
+   "text": "The first set of questionnaires recorded information on demographic data, socio-economic and marital status, and several lifestyle factors, namely tobacco, alcohol and caffeine consumption, physical activity and mood. <sentence_start/>Data on smoking included the previous and current smoking status as well as the amount of tobacco smoked (number of cigarettes, cigarillos, cigars or pipes), age of beginning and end (for former smokers). <sentence_start/>Similarly, data on alcohol consumption included the past and current drinking status as well as the number of alcoholic beverage units (wine, beer and spirits) consumed over the week preceding the interview. <sentence_start/>Caffeine consumption was assessed by the number of caffeine-containing beverages consumed per day. <sentence_start/>Personal history of overweight and/or obesity and birth weight were also collected. <sentence_start/>Finally, the 12-item General Health Questionnaire (GHQ12) [<citation ref-type=\"bibr\" rid=\"B7\" pmid=\"272886\" doi=\"10.3109/00048677709159577\" count=\"1\">7</citation>] was applied in order to screen for the presence of non-psychotic psychiatric disorders."
+  },
+  {
+   "section": "article",
+   "text": "The second questionnaire, administered during a face-to-face meeting with the recruiter, focused on personal and family history of disease and CV risk factors. <sentence_start/>Subjects were asked which disease(s) they or their family had presented. <sentence_start/>When a positive answer was given, further information regarding age of occurrence and number of family members affected was collected. <sentence_start/>When appropriate, death of parents was recorded with age and cause of death. <sentence_start/>Regarding blood pressure (BP) status, subjects indicated if they had been diagnosed with hypertension and subsequently if they had been, or were being treated currently for this condition. <sentence_start/>BP levels before the beginning of treatment were sought for and the names of the anti-hypertensive drugs that had been prescribed were collected. <sentence_start/>In case the anti-hypertensive regimen had been modified, the duration and the reason for changing were also recorded. <sentence_start/>Personal medicines, including prescription and self-prescribed drugs, vitamin and mineral supplements, homeopathy or natural remedies were collected, together with their main indications. <sentence_start/>In women, further data regarding reproductive and obstetrical history, oral contraception and hormonal replacement therapy was collected. <sentence_start/>Finally, an additional frailty questionnaire (for subjects aged over 50 years) and the Mini-Mental State Evaluation (MMSE - for subjects aged over 65 years) were further administered [<citation ref-type=\"bibr\" rid=\"B8\" pmid=\"1202204\" doi=\"10.1016/0022-3956(75)90026-6\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Clinical data"
+  },
+  {
+   "section": "article",
+   "text": "Body weight and height were measured with participants standing without shoes in light indoor clothes. <sentence_start/>Body weight was measured in kilograms to the nearest 0.1 kg using a Seca<sup>® </sup>scale (Hamburg, Germany), which was calibrated regularly. <sentence_start/>Height was measured to the nearest 5 mm using a Seca<sup>® </sup>height gauge (Hamburg, Germany). <sentence_start/>Body mass index (BMI) was defined as weight/height<sup>2</sup>. <sentence_start/>Obesity was defined as BMI ≥ 30 kg/m<sup>2 </sup>and overweight as BMI ≥ 25 kg/m<sup>2 </sup>and &lt; 30 kg/m<sup>2 </sup>."
+  },
+  {
+   "section": "article",
+   "text": "BP and heart rate were measured thrice on the left arm, with an appropriately sized cuff, after at least 10 minute rest in the seated position using an Omron<sup>® </sup>HEM-907 automated oscillometric sphygmomanometer (Matsusaka, Japan) [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"12198340\" doi=\"10.1097/00126097-200208000-00006\" count=\"1\">9</citation>]. <sentence_start/>The average of the last two measurements was used for analyses. <sentence_start/>Hypertension was defined as a systolic BP (SBP) ≥ 140 mm Hg and/or a diastolic BP (DBP) ≥ 90 mm Hg during the visit and/or presence of anti-hypertensive drug treatment and was considered as known if the subject was aware of this condition."
+  },
+  {
+   "section": "article",
+   "text": "In addition, waist and hip circumferences were measured as recommended [<citation ref-type=\"bibr\" rid=\"B10\" pmid=\"7613427\" doi=\"10.1136/bmj.311.6998.158\" pmcid=\"PMC2550221\" count=\"1\">10</citation>] and fat and fat-free mass were assessed by electrical bioimpedance [<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"17060926\" doi=\"10.1038/sj.ijo.0803475\" count=\"1\">11</citation>] using the Bodystat<sup>® </sup>1500 analyzer (Isle of Man, British Isles). <sentence_start/>Finally, baldness and its age of onset were assessed in men using the Hamilton scale [<citation ref-type=\"bibr\" rid=\"B12\" pmid=\"14819896\" doi=\"10.1111/j.1749-6632.1951.tb31971.x\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Sub-studies"
+  },
+  {
+   "section": "article",
+   "text": "In addition, sub-studies designed to assess the psychiatric characteristics of this population as well as functional CV measurements, were nested onto this study, and will be described separately."
+  },
+  {
+   "section": "article",
+   "text": "Biological data"
+  },
+  {
+   "section": "article",
+   "text": "Venous blood samples (50 ml) were drawn after an overnight fast, and most clinical chemistry assays were performed by the CHUV Clinical Laboratory on fresh blood samples whereas Pathway Diagnostics (Los Angeles, CA) measured adiponectin, leptin and insulin [See additional file 1]. <sentence_start/>Additional aliquots were stored at -80°C."
+  },
+  {
+   "section": "article",
+   "text": "LDL-cholesterol was calculated with the Friedewald formula only if triglycerides &lt;4.6 mmol/l. <sentence_start/>Low HDL cholesterol level was defined as &lt;1.0 mmol/L; high HDL cholesterol as ≥ 1.6 mmol/L; high LDL cholesterol was defined as ≥ 4.1 mmol/L and high triglyceride level was defined as ≥ 2.2 mmol/L [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"12485966\" count=\"1\">13</citation>]. <sentence_start/>In our analysis, dyslipidemia was defined as low HDL cholesterol and/or high triglyceride and/or LDL cholesterol ≥ 4.1 mmol/L or ≥ 2.6 mmol/L in presence of self-reported history of myocardial infarction, stroke, coronary artery disease or diabetes."
+  },
+  {
+   "section": "article",
+   "text": "Diabetes was defined as fasting plasma glucose ≥ 7.0 mmol/L and/or presence of oral hypoglycaemic or insulin treatment. <sentence_start/>Type 2 diabetes mellitus (T2DM) was defined in case of diabetes without self-reported Type 1 DM. <sentence_start/>Diabetes was considered as known if the subject was aware of this condition. <sentence_start/>Impaired fasting glucose (IFG) was defined as fasting plasma glucose between 6.1 and 6.9 mmol/L without anti-diabetic treatment [<citation ref-type=\"bibr\" rid=\"B14\" pmid=\"9686693\" doi=\"10.1002/(SICI)1096-9136(199807)15:7&lt;539::AID-DIA668&gt;3.0.CO;2-S\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A urine sample was collected for the assessment of creatinine and albumin and the albumin-to-creatinine ratio was calculated. <sentence_start/>Microalbuminuria was defined as a value of albumin-to-creatinine ratio above 30 mg/g."
+  },
+  {
+   "section": "article",
+   "text": "Genotyping"
+  },
+  {
+   "section": "article",
+   "text": "Nuclear DNA was extracted from whole blood for whole genome scan analysis and genotyping was performed using the Affimetrix 500 K SNP chip, as recommended by the manufacturer. <sentence_start/>Subjects consented for the genetic data to be used for the study of cardiovascular risk factors, and associated diseases including mood disorders."
+  },
+  {
+   "section": "article",
+   "text": "Data management, security and quality control"
+  },
+  {
+   "section": "article",
+   "text": "Data were entered into a secured, internet-based database. <sentence_start/>The database was designed to confirm the validity of the identification codes, establish the completeness of the information keyed in and to perform basic data checks. <sentence_start/>All discrepancies were recorded in the case report form kept in a locked room. <sentence_start/>Each modification of the data was automatically recorded, including the identity of the investigator who made the modification, the date, the old and the new value."
+  },
+  {
+   "section": "article",
+   "text": "Staff members were trained and certified before being involved actively in the study. <sentence_start/>Certification included ability to conduct interviews, to perform phlebotomy and to process blood samples, to accurately measure anthropometric and BP levels and to enter data into electronic databases. <sentence_start/>The accurateness of the data was checked by an external quality control organization (PRN, North Hampshire, United Kingdom)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, the 'Laboratoire Central du CHUV' is ISO 9001 certified and is regularly checked by the \"Centre Suisse de Contrôle de Qualité\" (CSCQ - Swiss Centre for Quality Control)."
+  },
+  {
+   "section": "article",
+   "text": "Power estimates and type 1 error rate"
+  },
+  {
+   "section": "article",
+   "text": "Power calculations were done using the program Quanto v1.1 (James Gauderman, University of Southern California, USA) [<citation ref-type=\"bibr\" rid=\"B15\" count=\"1\">15</citation>]. <sentence_start/>Power for unmatched case-control studies was estimated using an arbitrary allelic frequency ranging from 0.1 to 0.5, an additive model, a disease prevalence of 50% and a type 1 error rate of 10<sup>-7</sup>, which was used as a correction for multiple testing taking into account 500'000 genetics markers. <sentence_start/>Curves were drawn for estimated genetic effect sizes (odds ratios) of 1.2 to 1.8. <sentence_start/>To estimate power in a continuous trait analysis, SBP was used as a continuous outcome for independent subjects, with an additive model and a type 1 error rate of 10<sup>-7</sup>. <sentence_start/>Curves were drawn for various minor allele frequencies (0.1 to 0.5). <sentence_start/>To minimize false positive results, the most significant genetic markers will be replicated in independent samples."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Statistical analyses were performed using Stata 9.1 (Stata Corp, College Station, USA). <sentence_start/>Results were expressed as mean ± standard deviation (SD) or as number of subjects and (percentage). <sentence_start/>Data for age group 35-75 years and for the canton de Vaud were extracted from the MONICA population surveys and used to assess trends [<citation ref-type=\"bibr\" rid=\"B16\" pmid=\"9245675\" doi=\"10.1006/pmed.1997.0167\" count=\"1\">16</citation>]. <sentence_start/>Age at sampling was used for comparisons between the initial population, the random sample and the CoLaus study population, whereas age at examination was used to describe the CoLaus Study group characteristics. <sentence_start/>Comparisons were performed using Student's t-test or chi-square test for quantitative and categorical variables, respectively. <sentence_start/>Statistical significance was assessed for p &lt; 0.05."
+  },
+  {
+   "section": "article",
+   "text": "Sponsoring"
+  },
+  {
+   "section": "article",
+   "text": "The Study was sponsored in part by GlaxoSmithKline and all participants were duly informed about this sponsorship and consented for the use of biological samples and data by GlaxoSmithKline and its subsidiaries."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Recruitment"
+  },
+  {
+   "section": "article",
+   "text": "A total of 8121 individuals volunteered to participate in the study. <sentence_start/>Among these subjects, the first 6,738 were invited to attend the clinic and completed the examination. <sentence_start/>549 participants (8.1%) were not of Caucasian ethnicity and were excluded from the CoLaus study and 6,189 participants met the inclusion criteria (including ethnicity) and were included in the CoLaus study. <sentence_start/>As the number of subjects who agreed to participate (8,121) was higher than the number of subjects initially planned for the CoLaus study (6,000), 1,383 could not be included into the study although they were willing to participate. <sentence_start/>One subject withdrew after consent due to personal reasons. <sentence_start/>Overall, the final CoLaus sample (n = 6,188) represents 43% of the eligible responders, 41% of all the responders and 31% of the initially sampled population."
+  },
+  {
+   "section": "article",
+   "text": "The gender and age characteristics of the source population, the initial random sample and the final CoLaus sample are summarized in Table 1. <sentence_start/>Overall, both the sampled population and the CoLaus study participants were on average one year younger than the base population, due to an under-representation of subjects aged over 65 years while no differences were found for gender distribution. <sentence_start/>Further, after excluding non-eligible subjects, no differences were found regarding mean age and gender distribution between the subjects included and the random sample (not shown). <sentence_start/>The CoLaus Study participants were significantly older (51.1 ± 0.1 vs. 50.8 ± 0.1 years, p &lt; 0.005) than the random sample, while no differences were found for gender distribution (not shown). <sentence_start/>Age at examination of the participants was on average 2 years higher than age at sampling because of the time elapsed between the two procedures. <sentence_start/>Distribution of the zip codes within the city was comparable between the base population, the random sample and the CoLaus study participants (not shown)."
+  },
+  {
+   "section": "article",
+   "text": "Socio-economic characteristics of the CoLaus study participants"
+  },
+  {
+   "section": "article",
+   "text": "The CoLaus Study participants' main characteristics are summarized in Table 2. <sentence_start/>No gender differences were found regarding the percentage of foreigners. <sentence_start/>Overall, women were more frequently divorced, widowed or single than men and thus were living more often alone or as a monoparental family (41.7% vs. 23.6%, p &lt; 0.01). <sentence_start/>Women were also less frequently on a full-time job, more prone to receive social help (26.2% vs. 22.2%, p &lt; 0.001) and had a lower educational level. <sentence_start/>Among subjects aged less than 40 years old, 48.4% of women had a high school/college/university degree versus 47.4% of men (p &lt; 0.01)."
+  },
+  {
+   "section": "article",
+   "text": "Clinical characteristics of the CoLaus Study participants"
+  },
+  {
+   "section": "article",
+   "text": "Men had a higher BMI, waist/hip ratio, systolic and DBP levels, but lower body fat percentage, than women. <sentence_start/>[Table 3]. <sentence_start/>Men had higher total cholesterol and triglyceride levels, but lower HDL cholesterol, than women. <sentence_start/>Fasting blood glucose levels, homocystein, apolipoprotein B, insulin, NT-proBNP and uric acid were higher in men than in women [Tables 3 and 4]. <sentence_start/>Conversely, women presented higher LDL cholesterol particle size, adiponectin, leptin and hsCRP than men."
+  },
+  {
+   "section": "article",
+   "text": "CVRFs within the CoLaus study"
+  },
+  {
+   "section": "article",
+   "text": "More than one third of the overall sample was overweight, and slightly less than one-sixth was obese; overweight and obesity were also more prevalent in men [Table 5] and increased with age. <sentence_start/>In men aged 35-44 years, the prevalence of overweight and obesity were 40.7% and 11.4%, respectively, whereas in men aged 65-75 the corresponding figures were 50.8% and 22.7% (p &lt; 0.001). <sentence_start/>The corresponding figures for women were 21.9% and 9.6%, and 35.8% and 17.5% (p &lt; 0.001), respectively."
+  },
+  {
+   "section": "article",
+   "text": "Smoking was reporter by 27% of the participants; the prevalence of current smoking was higher in men and tended to decrease with age, from 35.3% among 35-44 year olds to 20.7% among 65-75 year olds in men (p &lt; 0.001), the corresponding figures being 28.1% and 14.7% in women (p &lt; 0.001). <sentence_start/>Interestingly, in the 45-54 age class, prevalence of smoking was higher in women than in men (30.7% vs. 28.8% (p &lt; 0.001))."
+  },
+  {
+   "section": "article",
+   "text": "The prevalence of hypertension was 36.7% overall, was higher in men and increased with age: 18.3% and 75.1% in men aged 35-44 and 65-75, respectively (p &lt; 0.001); the corresponding numbers in women were 9.9% and 59.1% (p &lt; 0.001). <sentence_start/>Among hypertensive subjects, 50.1% were currently taking anti-hypertensive medication. <sentence_start/>Treatment for hypertension was more frequent in female subjects and increased with age (from 32.2% to 59.4%). <sentence_start/>Of the treated hypertensive subjects more than half (52.0%) had BP levels ≥ 140/90 mmHg."
+  },
+  {
+   "section": "article",
+   "text": "High LDL cholesterol, high triglyceride and low HDL cholesterol levels were seen in 20.8%, 12.5% and 2.8% of the subjects, respectively and these conditions were also more prevalent in men. <sentence_start/>The prevalence of high HDL cholesterol was 53.4% and higher in women than men (71.6% vs. 33.2%). <sentence_start/>Overall, one third of the sample had dyslipidemia, the prevalence of which was higher in men (42.7%) than in women (26.6%)."
+  },
+  {
+   "section": "article",
+   "text": "Use of statin therapy in subjects with high LDL cholesterol was 5.6%. <sentence_start/>Prevalence of statin therapy was 69% in subjects after myocardial infarction, 33% in subjects after stroke and 70% in subjects after coronary artery bypass graft. <sentence_start/>Target level of LDL-cholesterol for secondary prevention, as recommended (&lt; 2.6 mmol/l), was achieved in 28%, 38%, 28% and 33% of the subjects with diabetes, myocardial infarction, stroke and coronary artery bypass graft, respectively."
+  },
+  {
+   "section": "article",
+   "text": "The overall prevalence of diabetes was 6.6%, and was higher in men. <sentence_start/>Nine subjects (2.2%) reported to have T1DM. <sentence_start/>The prevalence of diabetes increased with age, from 2.5% to 17.2% in men aged 35-44 and 65-75, respectively; the corresponding numbers were 1.2% and 9.0% in women with a peak prevalence of 17.2% in men aged &gt; 65. <sentence_start/>Roughly a third were newly diagnosed diabetics (31.5% for women and 34.7% for men, respectively). <sentence_start/>The prevalence of IFG in the CoLaus population was 9.8% and was higher in men than in women (14.3% vs. 5.6%)."
+  },
+  {
+   "section": "article",
+   "text": "Treatment for diabetes was present in 73.9% of diabetic subjects but nearly all known diabetics were treated (96.3%). <sentence_start/>Of the treated diabetic subjects 63.9% had a fasting blood glucose ≥ 7 mmol/L, at the time of their visit."
+  },
+  {
+   "section": "article",
+   "text": "Finally, 0.7% of women and 2.6% of men reported a personal history of myocardial infarction (p &lt; 0.001); conversely, no gender differences were found regarding personal history of stroke: 1.0% of women vs. 1.3% of men, p = 0.16."
+  },
+  {
+   "section": "article",
+   "text": "Power estimates"
+  },
+  {
+   "section": "article",
+   "text": "The power of the CoLaus study for an unmatched case-control design to study genotype/phenotype associations depends on the number of cases/controls and estimated effect size [Figure 2]. <sentence_start/>For hypertension with 2268 cases, the estimated power is 0.9 for a 1.4 effect size and 0.5 for a 1.3 effect size. <sentence_start/>Cases for main CVRFs in the CoLaus study are: dyslipidemia: 2021, obesity: 974, smoking (&gt; 25 cigarettes/day): 746, Type 2 diabetes: 398, coronary heart disease: 262, low HDL: 170. <sentence_start/>For continuous trait analysis, the example of SBP was taken [Figure 3]. <sentence_start/>For allelic frequencies of 0.2 to 0.4, the study has an estimated power of &gt;0.8 to detect BP variations of 2.0 - 2.3 mm Hg."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Power estimates for the CoLaus study. Power for various sample sizes in unmatched case-control studies</bold>. <sentence_start/>Arbitrary allelic frequency of 0.3, a disease prevalence of 50% and a type 1 error rate of 10<sup>-7</sup>taking into account 500'000 genetics markers. <sentence_start/>Curves are for estimated genetic effects (odds ratios) of 1.2 to 1.8. <sentence_start/>The numbers of cases for main CVRFs in the CoLaus study are: Hypertension: 2268. <sentence_start/>Dyslipidemia: 2021. <sentence_start/>Obesity: 963. <sentence_start/>Smoking (&gt; 25 cigarettes/day): 746. <sentence_start/>Type 2 diabetes: 398. <sentence_start/>Coronary heart disease: 262. <sentence_start/>Low HDL: 170."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Power estimates for the CoLaus study. Power for the analysis of systolic blood pressure as a continuous variable</bold>. <sentence_start/>Power calculations using a continuous outcome for independent subjects, with an additive mode of action for the allele and a type 1 error rate of 10<sup>-7</sup>. <sentence_start/>Calculations were done for various minor allele frequencies (0.1 to 0.5)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Described in this report are the rationale, objectives, methods and first results from the CoLaus study, a single-center population-based sample including 6188 extensively phenotyped Caucasian subjects aged 35-75. <sentence_start/>Our results indicate that the prevalence of major CVRFs is high, in particular in men. <sentence_start/>In addition, this collection represents a powerful tool to identify new molecular determinants of CVRFs and associated diseases [<citation ref-type=\"bibr\" rid=\"B17\" pmid=\"18262040\" doi=\"10.1016/S0140-6736(08)60208-1\" pmcid=\"PMC2292820\" count=\"1\">17</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The participation rate of 41% in the CoLaus study is comparable to the MONICA surveys conducted in Switzerland and in France [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>]. <sentence_start/>The lower response rate among elderly subjects is in agreement with previous data [<citation ref-type=\"bibr\" rid=\"B19\" count=\"1\">19</citation>] and might be related to a lower interest for the study. <sentence_start/>However, the distribution of age groups 35-54 and 55-75 in the CoLaus study was comparable to the source population [Table 1]. <sentence_start/>Also, there was no gender or zip code distribution difference between the source population, the random sample and the CoLaus participants. <sentence_start/>Although the optimal sampling frame would have consisted of a list of all Caucasians living in the city, information on ethnicity was not available to the investigators before examination and it is not possible to assess whether ethnicity had an effect on the participation rate."
+  },
+  {
+   "section": "article",
+   "text": "The prevalence of main CVRFs was high in the CoLaus participants. <sentence_start/>Roughly over half of the participants presented with overweight and obesity, over a third had high BP or dyslipidemia while one in 15 participants had diabetes."
+  },
+  {
+   "section": "article",
+   "text": "In agreement with the literature [<citation ref-type=\"bibr\" rid=\"B20\" pmid=\"17300276\" doi=\"10.1111/j.1467-789X.2006.00273.x\" count=\"1\">20</citation>], men had a higher prevalence of obesity and overweight than women. <sentence_start/>Further, comparison with data from the MONICA study suggests that the prevalence of obesity is increasing, which confirms what has been found in the nearby city of Geneva [<citation ref-type=\"bibr\" rid=\"B21\" pmid=\"12932630\" doi=\"10.1016/S1047-2797(03)00055-3\" count=\"1\">21</citation>]. <sentence_start/>Compared to data from the National Health Examination Survey (NHANES) in the United States (1999-2004), the prevalence of obesity remains lower in Lausanne[<citation ref-type=\"bibr\" rid=\"B22\" pmid=\"16595758\" doi=\"10.1001/jama.295.13.1549\" count=\"1\">22</citation>]. <sentence_start/>The higher prevalence of overweight in men might also account for their higher prevalence of diabetes and hypertension. <sentence_start/>In clinical practice, the diagnosis of hypertension relies on several consecutive BP measurements but as in most epidemiological studies, BP measurements were conducted during a single visit [<citation ref-type=\"bibr\" rid=\"B23\" pmid=\"12746359\" doi=\"10.1001/jama.289.18.2363\" count=\"1\">23</citation>]. <sentence_start/>Terminal digit preference in BP readings may induce a bias, a consistency check was conducted showing no significant deviation of terminal digit frequency from the 10% value for all BP measurements (not shown). <sentence_start/>The prevalence of hypertension was higher in men than in women and increased with age. <sentence_start/>Interestingly, the gender-specific prevalence rates found in the CoLaus study were similar to those previously reported for the same age group in Italy [<citation ref-type=\"bibr\" rid=\"B24\" pmid=\"11307787\" count=\"1\">24</citation>] and in nearby Geneva [<citation ref-type=\"bibr\" rid=\"B21\" pmid=\"12932630\" doi=\"10.1016/S1047-2797(03)00055-3\" count=\"1\">21</citation>]. <sentence_start/>We also observed that over half of the treated hypertensive subjects had a BP ≥ 140/90 mmHg at the time of their examination, indicating the continuous need to improve treatment compliance. <sentence_start/>The prevalence of diabetes was 6.6% and was significantly higher in men and in particular after the age of 55 years. <sentence_start/>These numbers are similar to other Swiss estimates [<citation ref-type=\"bibr\" rid=\"B25\" pmid=\"15827865\" doi=\"10.1007/s00415-005-0838-4\" count=\"1\">25</citation>] and to the KORA Augsburg study in the southern part of Germany [<citation ref-type=\"bibr\" rid=\"B26\" pmid=\"16032528\" doi=\"10.1055/s-2005-858252\" count=\"1\">26</citation>]. <sentence_start/>About a quarter of the CoLaus participants were smokers, a figure quite similar to the data reported for the Geneva population in 2003 [<citation ref-type=\"bibr\" rid=\"B21\" pmid=\"12932630\" doi=\"10.1016/S1047-2797(03)00055-3\" count=\"1\">21</citation>] and somewhat lower than those observed in the USA[<citation ref-type=\"bibr\" rid=\"B27\" pmid=\"16732006\" doi=\"10.2337/dc06-0062\" count=\"1\">27</citation>]. <sentence_start/>The prevalence of smoking was higher in men than in women, although this difference tended to decrease among younger age groups, as previously reported [<citation ref-type=\"bibr\" rid=\"B28\" pmid=\"16504277\" doi=\"10.1016/j.ypmed.2006.01.011\" count=\"1\">28</citation>]. <sentence_start/>Indeed, in the age group 45-54, the prevalence of smoking was higher in women than in men, suggesting that the \"gender gap\" regarding smoking no longer exists for middle-aged subjects."
+  },
+  {
+   "section": "article",
+   "text": "The high prevalence of CVRFs in this study population underscores the necessity to increase disease awareness, to improve screening in high risk subjects and to promote prevention both at the public health and individual level."
+  },
+  {
+   "section": "article",
+   "text": "Recently, an increasing number of reports have demonstrated the power of whole genome association studies approach in complex diseases such as diabetes [<citation ref-type=\"bibr\" rid=\"B29\" pmid=\"17463248\" doi=\"10.1126/science.1142382\" pmcid=\"PMC3214617\" count=\"1\">29</citation>], obesity [<citation ref-type=\"bibr\" rid=\"B30\" pmid=\"17434869\" doi=\"10.1126/science.1141634\" pmcid=\"PMC2646098\" count=\"1\">30</citation>] and cardiovascular disease [<citation ref-type=\"bibr\" rid=\"B31\" pmid=\"17478681\" doi=\"10.1126/science.1142447\" pmcid=\"PMC2711874\" count=\"1\">31</citation>]. <sentence_start/>The size of the CoLaus study, the population-based design and the in-depth phenotypisation were chosen in order to harness the power of this technology using dichotomous and continuous trait analyses. <sentence_start/>In particular, this ensures an identical phenotypisation in cases and controls, which has been a limitation in some of the recently published reports [<citation ref-type=\"bibr\" rid=\"B32\" pmid=\"17554300\" doi=\"10.1038/nature05911\" pmcid=\"PMC2719288\" count=\"1\">32</citation>] and allows to study complex traits such as the metabolic syndrome. <sentence_start/>Combined analysis of our results with other datasets has already allowed to identify new genetic determinants associated with circulating LDL-plasma levels [<citation ref-type=\"bibr\" rid=\"B17\" pmid=\"18262040\" doi=\"10.1016/S0140-6736(08)60208-1\" pmcid=\"PMC2292820\" count=\"1\">17</citation>] (similar results were published concomitantly by other groups [<citation ref-type=\"bibr\" rid=\"B33\" pmid=\"18193043\" doi=\"10.1038/ng.76\" pmcid=\"PMC5206900\" count=\"1\">33</citation>,<citation ref-type=\"bibr\" rid=\"B34\" pmid=\"18179892\" doi=\"10.1016/j.ajhg.2007.11.001\" pmcid=\"PMC2253977\" count=\"1\">34</citation>]) and determinants associated with height [<citation ref-type=\"bibr\" rid=\"B35\" doi=\"10.1038/ng.121\" pmcid=\"PMC2681221\" pmid=\"18391952\" count=\"1\">35</citation>]. <sentence_start/>Additional analysis are currently ongoing."
+  },
+  {
+   "section": "article",
+   "text": "Perspectives"
+  },
+  {
+   "section": "article",
+   "text": "A more comprehensive characterization of the Colaus participants is currently ongoing. <sentence_start/>First all participants aged 35 to 65 were solicited to undergo a psychiatric investigation based on a semi-structured diagnostic interview. <sentence_start/>In addition, 500 subjects were assessed for CV functional measurements. <sentence_start/>Indeed several previous studies have revealed associations between mood disorders and, in particular depression, and CVRFs and CV diseases (reviewed in [<citation ref-type=\"bibr\" rid=\"B36\" pmid=\"9672048\" doi=\"10.1001/archpsyc.55.7.580\" count=\"1\">36</citation>]). <sentence_start/>The availability of a simultaneous CV and psychiatric phenotype will allow us to further explore the epidemiologic and potentially a genetic basis for this association. <sentence_start/>Finally, 500 randomly selected non-diabetic individuals underwent a 2 hour glucose tolerance test. <sentence_start/>The results from these investigations will be reported separately."
+  },
+  {
+   "section": "article",
+   "text": "A longitudinal follow-up of all participants in the CoLaus study is planned and shall provide essential data for trends over time of major CVRFs and on incident cases of CV diseases. <sentence_start/>In the current cross-sectional study, participants were asked whether they consented to be contacted for follow-up, with &gt; 90% favorable responses."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In summary, these initial results from the CoLaus study show that the prevalence of main CVRFs is high in the Caucasian population of Lausanne, and in particular in men. <sentence_start/>This emphasizes the need for continued epidemiological monitoring and for strengthening interventions to reduce the prevalence and severity of CVRFs in this population. <sentence_start/>This population-based study with over 6000 extensively characterized and genotyped participants constitutes a unique resource to identify new or replicate suspected or known molecular determinants of CVRFs and associated diseases."
+  },
+  {
+   "section": "article",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "article",
+   "text": "CV: cardiovascular; CVD: cardiovascular disase; CVRF: cardiovascular risk factor; BP: blood pressure; SBP: systolic blood pressure, DBP: diastolic blood pressure; BMI: body mass index; LDL-cholesterol: low-density cholesterol; HDL-cholesterol: high density cholesterol; NHANES: National Health and Nutrition Survey; NT-proBNP: N-terminal pro-Brain Natriuretic Peptide; ASAT: aspartate aminotrasnferase; ALAT: alanine aminotransferase; Gamma-GT: gamma glutaryl transferase; CDT: carbohydrate deficient transferine; hs CRP: high sensitivity C-reactive protein. <sentence_start/>CAD: coronary artery disease, T1DM/T2DM: Type 1/Type 2 diabetes mellitus."
+  },
+  {
+   "section": "article",
+   "text": "Competing interests"
+  },
+  {
+   "section": "article",
+   "text": "Kijoung S. Song, Xin Yuan, Theodore M. Danoff, Heide A. Stirnadel, Dawn Waterworthand Vincent Mooser are full-time employees of GlaxoSmithkline.",
+   "note": "One sentence (author conflict-of-interest disclosure) listing several names with middle initials -- every internal period is an initial, not a sentence boundary."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "MF, VM, PV, GW, AP, DH, FP contributed to the provision of participants and study material. <sentence_start/>PV, GW, VM, DW, HS, TD, FP, DH and MP participated in the study design and conception and the coordination of the project. <sentence_start/>MF, VM, PMV, MB, KS, XY assembled the data and performed the statistical analyses. <sentence_start/>PV, MF, VM, DW, HS, PMV analyzed and interpreted the data. <sentence_start/>PV, MF, PMV drafted the article which was revised by VM, VM, MB, MP and GW. <sentence_start/>All authors read and approved the final manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Pre-publication history"
+  },
+  {
+   "section": "article",
+   "text": "The pre-publication history for this paper can be accessed here:"
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Additional file 1"
+  },
+  {
+   "section": "article",
+   "text": "Clinical chemistry and biological makers measured in the CoLaus study. <sentence_start/>Analytical procedures, maximum inter and intra-batch coefficient of variation and manufacturers for the Clinical chemistry and biological makers measured in the CoLaus study."
+  }
+ ]
+}

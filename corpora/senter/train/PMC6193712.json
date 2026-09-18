@@ -1,0 +1,259 @@
+{
+ "pmid": 30335838,
+ "pmcid": 6193712,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The effect of community based health insurance on catastrophic health expenditure in Northeast Ethiopia: A cross sectional study"
+  },
+  {
+   "section": "abstract",
+   "text": "Introduction"
+  },
+  {
+   "section": "abstract",
+   "text": "Moving towards the goal of universal health coverage requires strengthening service delivery and overcoming significant financial barriers. <sentence_start/>The Government of Ethiopia is rolling out community based health insurance to protect the rural community from high out of pocket health expenditure and improve health service utilization. <sentence_start/>We investigated the effect of community based health insurance on catastrophic health expenditure in Northeast Ethiopia."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "A community based cross sectional study was conducted. <sentence_start/>A Multi stage sampling technique was used to get a total of 454 (224 insured and 230 uninsured) households. <sentence_start/>The data were entered using EPI info version 7 and analyzed using SPSS version 20 and STATA version 13 for binary logistic regression analysis and propensity score matching analysis respectively. <sentence_start/>Wealth status of the households was computed by Principal Component Analysis (PCA). <sentence_start/>A multivariable logistic regression analysis was done to identify the predictors of catastrophic health expenditure. <sentence_start/>Propensity score matching analysis was used to determine the effect of community based health insurance on catastrophic health expenditure. <sentence_start/>The average treatment effect on the treated (ATT) was calculated to compare the means of outcomes across insured and uninsured households."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "A total of 454 household heads were included in the study, making a response rate of 91.2%.The total level of catastrophic health expenditure was found to be 20%. <sentence_start/>Among the households with catastrophic health expenditure, 4.41% were insured, whereas the remaining 15.64% were noninsured. <sentence_start/>Insured households (AOR = 0.19, 95% CI: 0.11-0.34), rich households (AOR = 1.98; 95% CI: 1.07-3.66), having member with chronic illness (AOR = 2.13, 95% CI: 1.01-4.51) and having member encountered any illness during the past 3 months (AOR = 2.44, 95% CI: 1.35-4.40) were statistically associated with catastrophic health expenditure. <sentence_start/>Community based health insurance contributed to 23.2% (<italic toggle=\"yes\">t</italic> = -5.94) (95% CI: -0.31_-0.15) reduction of catastrophic health expenditure."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "The overall level of catastrophic health expenditure was high among noninsured households. <sentence_start/>Community based health insurance has significant financial protection from catastrophic health expenditure in northeast Ethiopia. <sentence_start/>Thus, the government need to scale up community based health insurance to protect the noninsured households from catastrophic health expenditure."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Moving towards the goal of universal health coverage will require strengthening service delivery and overcoming significant financial barriers. <sentence_start/>However, globally, every year around 150 million people suffer from financial catastrophe and about 100 million are pushed into poverty because of high out of pocket payments for health care services [<citation rid=\"pone.0205972.ref001\" ref-type=\"bibr\" doi=\"10.2471/BLT.07.049387\" pmid=\"19030691\" pmcid=\"PMC2649543\" count=\"1\">1</citation>-<citation rid=\"pone.0205972.ref003\" ref-type=\"bibr\" count=\"1\">3</citation>]. <sentence_start/>Majority of these people reside in developing countries [<citation rid=\"pone.0205972.ref001\" ref-type=\"bibr\" doi=\"10.2471/BLT.07.049387\" pmid=\"19030691\" pmcid=\"PMC2649543\" count=\"1\">1</citation>-<citation rid=\"pone.0205972.ref003\" ref-type=\"bibr\" count=\"1\">3</citation>]. <sentence_start/>Catastrophic health expenditure occurs when the out of pocket (OOP) payments for the health services consume such a large portion of the household’s available income and the household is pushed in to poverty as a result [<citation rid=\"pone.0205972.ref003\" ref-type=\"bibr\" count=\"1\">3</citation>, <citation rid=\"pone.0205972.ref004\" ref-type=\"bibr\" count=\"1\">4</citation>]. <sentence_start/>Financial risk protection from high out-of-pocket payment (OOP) of the households and individuals can be achieved either by risk pooling through health insurance scheme or by funding the health services."
+  },
+  {
+   "section": "article",
+   "text": "Despite there has been a significant improvement in health outcomes over the last two decades, Ethiopia is an underfinanced country when compared to sub-Saharan average. <sentence_start/>According to the fifth national health account, at an estimated $21 per capita, Ethiopia’s health spending remains one of the lowest in the world [<citation rid=\"pone.0205972.ref005\" ref-type=\"bibr\" count=\"1\">5</citation>]. <sentence_start/>Out-of-pocket (OOP) payment at the time of seeking health care continues to be one of the major sources of financing for health in Ethiopia [<citation rid=\"pone.0205972.ref005\" ref-type=\"bibr\" count=\"1\">5</citation>, <citation rid=\"pone.0205972.ref006\" ref-type=\"bibr\" count=\"1\">6</citation>]. <sentence_start/>Health care financing in Ethiopia is composed of donor financing, direct out-of-pocket (OOP) expenditure financing and the government financing respectively 49.9%, 33.7% and 15.6% in 2010/2011 [<citation rid=\"pone.0205972.ref005\" ref-type=\"bibr\" count=\"1\">5</citation>-<citation rid=\"pone.0205972.ref007\" ref-type=\"bibr\" pmid=\"26260445\" doi=\"10.1186/s12913-015-0988-8\" pmcid=\"PMC4532245\" count=\"1\">7</citation>]. <sentence_start/>Direct payment for seeking care is considered as regressive as it inhibits access to the health services for the poor. <sentence_start/>It is also considered to contribute to the impoverishment of families due to having to pay for unexpected health care services at the time of illness [<citation rid=\"pone.0205972.ref008\" ref-type=\"bibr\" doi=\"10.2471/BLT.10.078741\" pmcid=\"PMC2878164\" pmid=\"20539847\" count=\"1\">8</citation>]. <sentence_start/>The availability of health services requiring payment, low capacity to pay for health care, and unavailability of health insurance are the commonly identified causes of catastrophic health expenditure ([<citation rid=\"pone.0205972.ref008\" ref-type=\"bibr\" doi=\"10.2471/BLT.10.078741\" pmcid=\"PMC2878164\" pmid=\"20539847\" count=\"1\">8</citation>, <citation rid=\"pone.0205972.ref009\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(03)13861-5\" pmid=\"12867110\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The proportion of households facing catastrophic health expenditure from out-of-pocket (OOP) payments broadly varies between countries, that is, it ranges from less than 1% in some countries to greater than 10% in others [<citation rid=\"pone.0205972.ref009\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(03)13861-5\" pmid=\"12867110\" count=\"1\">9</citation>]. <sentence_start/>Many countries have been implementing prepayment schemes for protecting the households’ catastrophic health spending [<citation rid=\"pone.0205972.ref010\" ref-type=\"bibr\" pmid=\"12219150\" pmcid=\"PMC2567587\" count=\"1\">10</citation>,<citation rid=\"pone.0205972.ref011\" ref-type=\"bibr\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Ethiopia, with the aim of achieving universal health coverage by substantially reducing out-of-pocket spending for health care and increasing utilization of health services, established community-based health insurance scheme in 2011[<citation rid=\"pone.0205972.ref011\" ref-type=\"bibr\" count=\"1\">11</citation>,<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>]. <sentence_start/>As part of the new health sector financing reform initiatives, the Ethiopian government has first launched a pilot community based health insurance scheme in 13 districts across the four main regions of the country (Tigray, Amhara, Oromia and SNNP) in June 2011 and is now being scaled up to reach a target of 80% of people in 80% of woredas by 2020. <sentence_start/>The community component of the CBHI scheme partly emanates from the fact that it is the community at the Kebelle (the lowest administrative unit) level that determines based on a simple majority vote whether or not to join the scheme. <sentence_start/>Once a Kebelle accepts the CBHI, the household makes voluntary decision whether to enroll to the scheme or not. <sentence_start/>Enrolment to the scheme is at the level of the household level rather than the individual. [<citation rid=\"pone.0205972.ref013\" ref-type=\"bibr\" count=\"1\">13</citation>] <sentence_start/>The community is also involved in scheme management and supervision. <sentence_start/>The benefit packages, registration fees and premiums are the same within regions but there is slight variation across regions. <sentence_start/>The premium payment methods also slightly differ across regions. <sentence_start/>In Amhara region, the unit of contribution differs by family size, occupation and residence (urban and rural) [<citation rid=\"pone.0205972.ref014\" ref-type=\"bibr\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Kebelle level CBHI officials and community representatives have the mandate to adjust the interval of premium collection based on their local conditions. <sentence_start/>The scheme is subsidized by both the central, regional governments. <sentence_start/>The central government provides a general subsidy amounting to a quarter of the premium collected at district level while the regional level governments cover the costs of providing a fee waiver for the poorest 10 percent of the population."
+  },
+  {
+   "section": "article",
+   "text": "The benefit package includes both outpatient and inpatient service utilization at public facilities. <sentence_start/>It also includes food services, drug, laboratory and imaging services. <sentence_start/>Enrolled households may not seek care in private facilities unless a particular service or drug is unavailable at the contracted public facility. <sentence_start/>The scheme excludes treatment abroad, transportation and treatments with large cosmetic value such as artificial teeth and plastic surgery. <sentence_start/>The scheme has a referral procedure: members are expected to first visit health centers and may only seek care at hospitals (district or regional) if they have referral letters from these facilities. <sentence_start/>Those who do not follow this referral procedure need to cover half the costs of their medical treatment [<citation rid=\"pone.0205972.ref013\" ref-type=\"bibr\" count=\"1\">13</citation>, <citation rid=\"pone.0205972.ref014\" ref-type=\"bibr\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "According to studies conducted elsewhere [<citation rid=\"pone.0205972.ref015\" ref-type=\"bibr\" doi=\"10.1177/0020731415595609\" pmid=\"26198821\" count=\"1\">15</citation>-<citation rid=\"pone.0205972.ref017\" ref-type=\"bibr\" pmid=\"17537268\" doi=\"10.1186/1478-4505-5-6\" pmcid=\"PMC1892553\" count=\"1\">17</citation>], insured households have a lower probability of reaching the financial catastrophic threshold. <sentence_start/>Similarly, a national pilot community-based health insurance evaluation showed that the incidence of out of pocket payment of the CBHI members was on average about half of the nonmembers accessing health care [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>]. <sentence_start/>However, studies conducted in China revealed that the health insurance scheme has failed to prevent the households from catastrophic health expenditure (CHE) and medical impoverishment [<citation rid=\"pone.0205972.ref018\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0093253\" pmid=\"24714605\" pmcid=\"PMC3979676\" count=\"1\">18</citation>, <citation rid=\"pone.0205972.ref019\" ref-type=\"bibr\" doi=\"10.2165/11530730-000000000-00000\" pmid=\"21174481\" count=\"1\">19</citation>]. <sentence_start/>Likewise, studies in India and Vietnam reported that community-based health insurance has no substantial effect on financial protection and did not significantly protect the community from catastrophic health expenditure [<citation rid=\"pone.0205972.ref020\" ref-type=\"bibr\" doi=\"10.1002/hec.3307\" pmid=\"26708298\" count=\"1\">20</citation>, <citation rid=\"pone.0205972.ref021\" ref-type=\"bibr\" doi=\"10.1186/s12939-018-0757-5\" pmid=\"29703209\" pmcid=\"PMC5924496\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Little, however, is known about the effect of community health insurance on catastrophic health expenditure in Ethiopia. <sentence_start/>Thus, knowledge about the effect of community-based health insurance on catastrophic health expenditure and its determinants is vital for evidence based decision making in the implementation and scale up of the community- based health insurance in Ethiopia."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "A community based cross sectional study was conducted from February 01-30, 2016 among 454 households in Tehuledere district, Amhara Regional State, Northeast Ethiopia. <sentence_start/>Tehuledere district is found 431 kilometers away from Addis Ababa, the capital city of Ethiopia. <sentence_start/>The district has 19 health posts, 5 health centers and one district hospital. <sentence_start/>According to 2016 population projection, the total rural population of the district is 105,987, of which 57,270 are males. <sentence_start/>There were around 24,649 rural households in the district. <sentence_start/>The district has 54 health extension workers who are working as front line health service providers. <sentence_start/>Tehuledere district was one of the three pilot areas of community-based health insurance in the Amhara National Regional State which was started in June 2011."
+  },
+  {
+   "section": "article",
+   "text": "The study populations were randomly selected households found in the selected kebeles of Tehuledere district. <sentence_start/>Households’ with critically ill household head/spouse during the study period and new CBHI members (less than a year since enrollment) were excluded from the study. <sentence_start/>Sample size for this study was calculated using double population proportion formula. <sentence_start/>Where p1(proportion of catastrophic health expenditure on noninsured households) = 19.38% [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>] and p2(proportion of catastrophic health expenditure on insured households) = 6.83% [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>], 80% power, a two-sided type I error of 5% and 95% confidence level to detect difference between insured and noninsured households. <sentence_start/>A ratio of insured to uninsured was 1:1. <sentence_start/>The total sample was 454 (224 insured and 230 uninsured households) after accounting design effect of two and 10% non-response rate."
+  },
+  {
+   "section": "article",
+   "text": "A multi-stage sampling was applied to select the study population. <sentence_start/>In the first stage, four kebeles were randomly selected by simple random sampling out of 19 rural kebeles of the district. <sentence_start/>Data from Tehuledere district CBHI coordinating office was used to select insured and noninsured households based on their family folder number. <sentence_start/>Then, systematic random sampling was applied to select the eligible households from each Kebelle proportionally. <sentence_start/>The first household was selected randomly from the list of households’ family folder numbers."
+  },
+  {
+   "section": "article",
+   "text": "The outcome variable was catastrophic health expenditure whereas community based health insurance was the treatment variable. <sentence_start/>The predictor variables were; demographic variables (age, sex, marital status, religion of household head/spouse and family size), socio economic variables (wealth index, education and occupation), and health and health related variables (presence of chronic illness, acute illness, health status of household, under 5 children, and above 50 household members)."
+  },
+  {
+   "section": "article",
+   "text": "Measuring catastrophic health expenditure"
+  },
+  {
+   "section": "article",
+   "text": "There is no universally accepted consensus in the existing literatures on the threshold proportion of household’s expenditure [<citation rid=\"pone.0205972.ref022\" ref-type=\"bibr\" count=\"1\">22</citation>]. <sentence_start/>However, there is an agreement that catastrophic health expenditure is an out of pocket payment (OOP) expenditure that exceeds the annual threshold of household’s total consumption or non-food consumption [<citation rid=\"pone.0205972.ref009\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(03)13861-5\" pmid=\"12867110\" count=\"1\">9</citation>, <citation rid=\"pone.0205972.ref023\" ref-type=\"bibr\" doi=\"10.1377/hlthaff.5.4.138\" pmid=\"3102333\" count=\"1\">23</citation>]. <sentence_start/>WHO proposes that health expenditure should be considered to be catastrophic whenever it is greater than or equal to 40% of the household’s capacity to pay (non-subsistence spending). <sentence_start/>However individual countries could adopt a lower or higher percentage according to their situation [<citation rid=\"pone.0205972.ref004\" ref-type=\"bibr\" count=\"1\">4</citation>]. <sentence_start/>Unlike the high income countries, health expenditures over a threshold, as low as 10% of the income or consumption expenditure of the households, may lead to catastrophic consequences in low and middle countries [<citation rid=\"pone.0205972.ref008\" ref-type=\"bibr\" doi=\"10.2471/BLT.10.078741\" pmcid=\"PMC2878164\" pmid=\"20539847\" count=\"1\">8</citation>, <citation rid=\"pone.0205972.ref009\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(03)13861-5\" pmid=\"12867110\" count=\"1\">9</citation>]. <sentence_start/>A national CBHI evaluation in Ethiopia used 15% and 25% of nonfood expenditure as a cut off point for the occurrence of catastrophic health expenditure in the households [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>].For this study, catastrophic health expenditure (CHE) occurred when a household’s total out of pocket health payment is greater than or equals to15% of household’s nonfood expenditure (non-subsistence spending) which was adopted from the national CBHI evaluation [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Households with CHE<sub>H</sub> if"
+  },
+  {
+   "section": "article",
+   "text": "Households without CHE<sub>H</sub> if"
+  },
+  {
+   "section": "article",
+   "text": "Out of pocket (OOP) health payments were paid by households at the point where they received health services; such as, consultation fees, drugs, hospital bills, traditional medicine and transportation for health. <sentence_start/>Nonfood expenditure (NFE) was calculated by using the last 12 months consumption for clothes and related, housing and related, social obligations, health, education, agriculture inputs and livestock and death related expenditures. <sentence_start/>The burden of health payments are the out-of-pocket payments as a percentage of a household’s nonfood expenditure."
+  },
+  {
+   "section": "article",
+   "text": "The questionnaire for this study were adopted from Ethiopian health insurance agency household survey questionnaire [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>]. <sentence_start/>Structured interviewer administered questionnaire was prepared in English and then translated to Amharic by language expert. <sentence_start/>Then, it was retranslated back to English to check for conceptual equivalence. <sentence_start/>The data were collected by six health extension workers and the data collection process was supervised of two bachelor holder nurses. <sentence_start/>A two days training was given to the data collectors and the supervisors on the data collection process."
+  },
+  {
+   "section": "article",
+   "text": "Pre-test was done at Kalu district on 10% of sample households and the questionnaire were revised accordingly. <sentence_start/>Frequent supervision was conducted by the supervisors and principal investigator to ensure the completeness and consistency of the gathered information."
+  },
+  {
+   "section": "article",
+   "text": "Data processing and analysis"
+  },
+  {
+   "section": "article",
+   "text": "The data were entered using EPI info version7 software and analyzed using SPSS version 20 and STATA version 13 statistical packages. <sentence_start/>SPSS was used for the binary logistic regression analysis whereas STATA was used for propensity score matching analysis. <sentence_start/>Wealth status of the households was computed by Principal Component Analysis (PCA). <sentence_start/>Data cleaning was performed to check for frequencies, accuracy, consistencies and missing values. <sentence_start/>Frequencies, proportion, and summary statistics were used to describe the study population in relation to the study variables. <sentence_start/>Bivariate and multivariable logistic regression was conducted to investigate the effect of each independent on the dependent variable. <sentence_start/>Multivariable logistic regression was used to control the effect of confounding. <sentence_start/>Independent variables with p value of less than 0.2 were taken in to the multivariable logistic regression analysis to identify the predictors of catastrophic health expenditure."
+  },
+  {
+   "section": "article",
+   "text": "Propensity score matching analysis was used to estimate the effect of community based health insurance on catastrophic health expenditure. <sentence_start/>Kernel matching was used to match insured and noninsured households based on propensity scores. <sentence_start/>We applied this approach because it uses all data which maximizes information gain and it has been used in similar study [<citation rid=\"pone.0205972.ref024\" ref-type=\"bibr\" doi=\"10.1016/j.healthpol.2010.09.009\" pmid=\"20965602\" count=\"1\">24</citation>]. <sentence_start/>The average CBHI on the insured (ATT) was calculated by averaging the difference between the catastrophic health expenditure (CHE) of the insured households and that of the noninsured households after matching using propensity score. <sentence_start/>A t-test between the outcomes for the insured and noninsured households and 95% CI were computed."
+  },
+  {
+   "section": "article",
+   "text": "Outcome variable (catastrophic health expenditure), the treatment variable (community based health insurance status) and covariates (age of household head/spouse, family size, health status of household, members with chronic illness/disability, under5 children, above 50 years member, member with acute illness, wealth status) were used to calculate propensity score and ATT. <sentence_start/>Common support region was determined to ensure that households had a positive probability of being insured or noninsured. <sentence_start/>Goodness of fit of logistic model was tested by Hosmer-Lemeshow test. <sentence_start/>Standard error was computed through bootstrapping with 100 replications to adjust for the additional sources of variability introduced by the estimation of the propensity score and the matching process itself."
+  },
+  {
+   "section": "article",
+   "text": "Ethical considerations"
+  },
+  {
+   "section": "article",
+   "text": "Ethical clearance was obtained from Institutional Review Board of Institute of Public Health, College Medicine and Health Science, and University of Gondar with the reference number of IPH/2865/02/2016. <sentence_start/>Permission letter was obtained from Amhara Regional Health Bureau, South Wollo health office and the district health office of Tehuledere. <sentence_start/>Informed verbal consent was obtained from each study participants. <sentence_start/>We have used informed verbal consent because the study was not sensitive and it has not any harm or procedure on the study subjects. <sentence_start/>We didn’t record or document the respondents’ consent; rather applicable consent form and the information sheet were integrated along with the respective data collection instrument. <sentence_start/>The informed verbal consent was approved by the Institutional Review Board of Institute of Public Health, College Medicine and Health Science, and University of Gondar."
+  },
+  {
+   "section": "article",
+   "text": "It was clearly stated that their response was only for research purpose and the collected data were kept confidential. <sentence_start/>Participation in the study was on a voluntary basis. <sentence_start/>Participants who were unwilling to participate in the study and those who wish to quit from the study at any point in time were informed to do so without any restriction."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Demographic and socio economic characteristics of household head/spouse"
+  },
+  {
+   "section": "article",
+   "text": "From a total of 454 household heads were participated in the study. <sentence_start/>Two hundred twenty four were insured households. <sentence_start/>More than half of the respondents were male (68.10%). <sentence_start/>Almost all of the respondents were Muslims (96.70%). <sentence_start/>Majority of the households 373(82.16%) were farmers. <sentence_start/>More than three fourth (79.96%) of the respondents were currently married. <sentence_start/>The mean family size of the respondent was 4.2 (±1.6) [Table 1]."
+  },
+  {
+   "section": "article",
+   "text": "Health and health related characteristics of the study population"
+  },
+  {
+   "section": "article",
+   "text": "Regarding the health and health related status of the households, 45(9.91%) of the members of the household had chronic illness/disability while 102 (22.47%) had any acute illness during three months prior to the study. <sentence_start/>From studied households, 166 (36.56%) had children less than 5 years old. <sentence_start/>Two hundred ninety (63.88%) households were in good health status [Table 2]."
+  },
+  {
+   "section": "article",
+   "text": "Catastrophic health expenditure"
+  },
+  {
+   "section": "article",
+   "text": "The level of catastrophic health expenditure among the study population was 91(20%) (95% CI: 16.3, 23.7). <sentence_start/>Among the households experienced catastrophic health expenditure, 71(15.64%) were noninsured households and 20 (4.41%) were insured. <sentence_start/>Among households who have not experienced catastrophic health expenditure, 204(44.9%) were insured, whereas the rest 159 (35%) were noninsured households. <sentence_start/>Monthly average nonfood expenditure was 442.60 ETB (±359.83 ETB). <sentence_start/>The average monthly health expenditure of the respondents was 44.24 ETB (±102.70 ETB). <sentence_start/>Of which, 62.06 ETB (±115.65 ETB), and 25.95 ETB (±83.82 ETB) were incurred by noninsured and insured households respectively."
+  },
+  {
+   "section": "article",
+   "text": "Factors associated with catastrophic health expenditure"
+  },
+  {
+   "section": "article",
+   "text": "Insurance status, occupation, wealth status, household member with chronic illness/disability and household member encounter any illness during the last three months were significant factors associated with catastrophic health expenditure. <sentence_start/>Insured households were 81% times less likely to incur catastrophic health expenditure (AOR = 0.19, 95% CI: 0.11-0.34) compared with noninsured households. <sentence_start/>Households having member with chronic illness/disability were 2.13 times more likely to incur catastrophic health expenditure (AOR = 2.13, 95% CI: 1.01-4.51) compared with those who have no member with chronic illness/disability. <sentence_start/>Households having member encountered any illness during the past 3 months were 2.44 times more likely to incur catastrophic health expenditure (AOR = 2.44, 95% CI: 1.35-4.40) compared with those who have no member encountered any illness during the past 3 months [Table 3]."
+  },
+  {
+   "section": "article",
+   "text": "Propensity score matching analysis"
+  },
+  {
+   "section": "article",
+   "text": "This study showed that 20 (4.41%) of insured households and 71(15.64%) of uninsured households had incurred catastrophic health expenditure. <sentence_start/>Using kernel matching, 224 insured households (treatment group) and 230 noninsured households (control group) matched based on their propensity scores."
+  },
+  {
+   "section": "article",
+   "text": "Table 4 shows that the average community based insurance effect on insured households was found to be -0.232 points (<italic toggle=\"yes\">t</italic> = -5.94), (95 CI: -0.31_ -0.15) for catastrophic health expenditure. <sentence_start/>This indicated that Community Based Health Insurance contributed 23.2% reduction to catastrophic health expenditure among insured households [Table 4]."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study aimed to assess the effect of community based health insurance on catastrophic health expenditure in the rural community of northeast Ethiopia. <sentence_start/>We also identified the predictors of catastrophic health expenditure."
+  },
+  {
+   "section": "article",
+   "text": "Our study revealed that 20% of the households faced catastrophic health expenditure. <sentence_start/>This finding suggests that significant proportion of informal sector households’ face catastrophic health expenditure which is an obstacle for basic health service access and universal health coverage. <sentence_start/>Studies conducted in Rwanda and Tanzania reported that 20.1% and 18% of the households had catastrophic health expenditure respectively [<citation rid=\"pone.0205972.ref024\" ref-type=\"bibr\" doi=\"10.1016/j.healthpol.2010.09.009\" pmid=\"20965602\" count=\"1\">24</citation>, <citation rid=\"pone.0205972.ref025\" ref-type=\"bibr\" pmid=\"24597486\" doi=\"10.1186/1472-698X-14-5\" pmcid=\"PMC3946236\" count=\"1\">25</citation>]. <sentence_start/>Similarly, the number of households categorized as having catastrophic health expenditure in Kenya was 18% at 30% threshold to 22.2% at 10% threshold (4.05%) [<citation rid=\"pone.0205972.ref026\" ref-type=\"bibr\" doi=\"10.1186/s12939-015-0168-9\" pmid=\"25971679\" pmcid=\"PMC4438568\" count=\"1\">26</citation>]. <sentence_start/>However, this finding is much higher than studies done in Iran [<citation rid=\"pone.0205972.ref027\" ref-type=\"bibr\" pmid=\"25489451\" pmcid=\"PMC4258666\" count=\"1\">27</citation>, <citation rid=\"pone.0205972.ref028\" ref-type=\"bibr\" doi=\"10.1186/s12939-018-0743-y\" pmid=\"29653568\" pmcid=\"PMC5899413\" count=\"1\">28</citation>]. <sentence_start/>The possible explanation for the observed difference might be due to socio-economic difference between the households of Iran and Ethiopia."
+  },
+  {
+   "section": "article",
+   "text": "The multivariable logistic regression revealed that CBHI membership, occupation, wealth status, chronic illness and acute illness were statistically and significantly associated with catastrophic health expenditure of the households. <sentence_start/>Insured households were 81% times less likely to incur catastrophic health expenditure compared with the uninsured households. <sentence_start/>Similarly, the propensity score matching model showed that CBHI membership decreased catastrophic health expenditure by 23.2% (ATT = -0.232; t = -5.94; 95% CI,-0.31_-0.15). <sentence_start/>This finding is supported by a study done in Rwanda, in which being insured household decreased catastrophic health expenditure by 15.1% (ATT = -0.151) [<citation rid=\"pone.0205972.ref024\" ref-type=\"bibr\" doi=\"10.1016/j.healthpol.2010.09.009\" pmid=\"20965602\" count=\"1\">24</citation>]. <sentence_start/>Similar studies found that insured household has less catastrophic health expenditure compared with the noninsured households [<citation rid=\"pone.0205972.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>, <citation rid=\"pone.0205972.ref029\" ref-type=\"bibr\" doi=\"10.1186/s12916-015-0433-1\" pmid=\"26282128\" pmcid=\"PMC4539728\" count=\"1\">29</citation>]. <sentence_start/>However, studies conducted in china, India, Laos and Vietnam found that CBHI membership has no effect on CHE (15, 16, 18-21). <sentence_start/>The possible explanation could be due to the difference in the implementation approach of the health insurance scheme. <sentence_start/>For instance, the national health insurance scheme of India only covers hospitalization while the predominant share in household out of pocket expenses are accounted for by outpatient episodes, whereas the community based health insurance in Ethiopia coverers both outpatient and inpatient service utilization at public health facilities. <sentence_start/>Similarly, high dropout rate was reported in India."
+  },
+  {
+   "section": "article",
+   "text": "The odds of incurring CHE among non-farming households (merchants and laborers) were 1.96 times more likely than farming households. <sentence_start/>This indicates the relatively high out of pocket health expenditure incurred by the non-farming households. <sentence_start/>This study revealed that rich households were 1.98 times more likely to incur catastrophic health expenditure compared with poor households. <sentence_start/>This finding is supported by studies done in Nigeria, Egypt and Cambodia. <sentence_start/>However, this finding is not consistent with other studies conducted in Iran [<citation rid=\"pone.0205972.ref027\" ref-type=\"bibr\" pmid=\"25489451\" pmcid=\"PMC4258666\" count=\"1\">27</citation>, <citation rid=\"pone.0205972.ref028\" ref-type=\"bibr\" doi=\"10.1186/s12939-018-0743-y\" pmid=\"29653568\" pmcid=\"PMC5899413\" count=\"1\">28</citation>], Tanzania [<citation rid=\"pone.0205972.ref025\" ref-type=\"bibr\" pmid=\"24597486\" doi=\"10.1186/1472-698X-14-5\" pmcid=\"PMC3946236\" count=\"1\">25</citation>] and North India [<citation rid=\"pone.0205972.ref030\" ref-type=\"bibr\" count=\"1\">30</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The possible explanation is that the poor households may seek low quality health care or avoid seeking health care at all due to their inability to pay for health services. <sentence_start/>On the hand, the better off households may have been by-passing the public health facilities to get better quality health care at the private hospitals in which they are expected to pay more than the public hospitals for the same services. <sentence_start/>In addition, the government of Ethiopia provides fee waiver for the poorest households to get the health care in public health facilities. <sentence_start/>So, the rich households may incur more out of pocket payment than their counterparts."
+  },
+  {
+   "section": "article",
+   "text": "This study revealed that households having a member with chronic illness/disability were 2.13 times more likely to incur catastrophic health expenditure compared with those who have no member with chronic illness/disability. <sentence_start/>This finding was in line with other studies done in Tanzania [<citation rid=\"pone.0205972.ref025\" ref-type=\"bibr\" pmid=\"24597486\" doi=\"10.1186/1472-698X-14-5\" pmcid=\"PMC3946236\" count=\"1\">25</citation>] and China [<citation rid=\"pone.0205972.ref018\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0093253\" pmid=\"24714605\" pmcid=\"PMC3979676\" count=\"1\">18</citation>, <citation rid=\"pone.0205972.ref019\" ref-type=\"bibr\" doi=\"10.2165/11530730-000000000-00000\" pmid=\"21174481\" count=\"1\">19</citation>]. <sentence_start/>However, this finding was not supported by a study done in Burkina Faso [<citation rid=\"pone.0205972.ref031\" ref-type=\"bibr\" pmid=\"19036467\" doi=\"10.1016/j.healthpol.2008.09.015\" count=\"1\">31</citation>] in which having a disabled member in the household has no effect on CHE. <sentence_start/>The possible explanation could be the difference in threshold/cut-off value taken to determine catastrophic health expenses. <sentence_start/>This study found that households having member encountered any illness during the past 3 months were 2.44 times more likely to incur catastrophic health expenditure compared with those who have no member encountered any illness during the past 3 months. <sentence_start/>This finding indicates that households having member encountered any illness are at higher risk for catastrophic health expenditure. <sentence_start/>This might be due to they are supposed to incur out of pocket payment in order to get health care services."
+  },
+  {
+   "section": "article",
+   "text": "This study has some limitations. <sentence_start/>First, there might be social desirability bias because information on income and expenditure relied on the report of the heads of household/spouse. <sentence_start/>Second, the severe drought happened during the study period may have affected the results of the study because of fee waiver and subsided supply of materials. <sentence_start/>Third, propensity score ignores the effects of unobserved characteristics which may have an effect on the results of the study. <sentence_start/>Therefore, the findings of this study should be interpreted taking these in to consideration. <sentence_start/>Despite those limitations, this study provides useful insights about the level of catastrophic health expenditure and the effect of community based health insurance on catastrophic health expenditure in northeast Ethiopia and this study should serve as a base for more detailed investigation in Ethiopia."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The present study showed that the level of catastrophic health expenditure in our study was high. <sentence_start/>Our study also showed that community based health insurance has significant financial protection for catastrophic health expenditure in northeast Ethiopia. <sentence_start/>CBHI status, occupation, wealth status, household with chronic illness/disability member and household member encountered illness during the last 3 months were the factors statistically and significantly associated with catastrophic health expenditure. <sentence_start/>Hence, the Ethiopian health insurance agency need to improve the CBHI benefit packages to prevent insured households from passing government health facilities. <sentence_start/>In addition, Amhara regional health bureau needs to develop supportive strategies for households who had a member with chronic illness/disabilities, considering fee waiver for the poor non-farming households and improve the quality of health services in government owned health facilities to benefit both poor and rich households. <sentence_start/>Tehuledere district CBHI coordinating office needs to scale up the community-based health insurance to nonmember households so as to prevent financial burdens. <sentence_start/>Besides, creating awareness and community mobilization on the importance of community based health insurance is very important."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "S1 File"
+  },
+  {
+   "section": "article",
+   "text": "Amharic and English version questionnaire used to collect data in Northeastern Ethiopia."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "pmid": 32802876,
+ "pmcid": 7421237,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Kupffer Cell-Derived TNF-<italic toggle=\"yes\">α</italic> Triggers the Apoptosis of Hepatic Stellate Cells through TNF-R1/Caspase 8 due to ER Stress"
+  },
+  {
+   "section": "abstract",
+   "text": "Purpose"
+  },
+  {
+   "section": "abstract",
+   "text": "To investigate the roles of ER stress in Kupffer cells (KCs) and KC-derived TNF-<italic toggle=\"yes\">α</italic> in the apoptosis of hepatic stellate cells (HSCs)."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "A rat model of liver fibrosis was established. <sentence_start/>Liver and blood serum samples were collected. <sentence_start/>Liver function assays, Masson staining, Sirius Red staining, ELISAs, and TUNEL and immunohistochemical staining were performed. <sentence_start/>Liver function, liver fibrosis, KC phenotype, inflammatory factors, and number of active HSCs were investigated. <sentence_start/>KCs were isolated, treated with tunicamycin, and then, cocultured with primary hepatic stellate cells. <sentence_start/>ELISAs, immunofluorescence staining, flow cytometry, and Western blotting were performed. <sentence_start/>KC phenotype, inflammatory factors, HSC apoptosis, and TNF-R1/caspase 8 pathway activity were examined."
+  },
+  {
+   "section": "abstract",
+   "text": "Result"
+  },
+  {
+   "section": "abstract",
+   "text": "s. <sentence_start/>ER stress in KCs reduced the levels of liver function markers, reduced the degree of liver fibrosis, and increased the number of KCs with the M1 phenotype and the expression of TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>The increase in KC-derived TNF-<italic toggle=\"yes\">α</italic> reduced the number of active HSCs and increased the activity of TNF-R1/caspase 8. <sentence_start/>Furthermore, ER stress in KCs promoted the polarization of KCs towards the M1 phenotype and increased the expression of TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>The increase in KC-derived TNF-<italic toggle=\"yes\">α</italic> triggered the apoptosis of HSCs and the activation of TNF-R1/caspase 8 in vitro, which was consistent with the in vivo results."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "ER stress in KCs promotes the polarization of these cells towards the M1 phenotype and increases the expression of TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>Then, the increase in KC-derived TNF-<italic toggle=\"yes\">α</italic> triggers the apoptosis of HSCs through TNF-R1/caspase 8."
+  },
+  {
+   "section": "article",
+   "text": "1. <sentence_start/>Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Hepatic fibrosis is a self-healing process caused by multiple chronic liver injuries. <sentence_start/>Hepatic fibrosis is characterized by the deposition of large amounts of extracellular matrix, which leads to the abnormal proliferation of connective tissue in the liver [<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.3390/cells7080085\" pmcid=\"PMC6115868\" pmid=\"30042349\" count=\"1\">1</citation>]. <sentence_start/>In this pathological progression, liver fibrosis is the only reversible process. <sentence_start/>Hence, it is particularly important to explore methods of reversing liver fibrosis to prevent hepatocellular carcinoma, which is caused by liver cirrhosis [<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-16-3462\" other=\"2-s2.0-85020832729\" pmid=\"28386016\" pmcid=\"PMC5489339\" count=\"1\">2</citation>]. <sentence_start/>Many previous studies have shown that active HSCs play an important role in the progression of hepatic fibrosis. <sentence_start/>Panebianco et al. [<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1007/s10238-016-0438-x\" other=\"2-s2.0-84988672854\" pmid=\"27655446\" count=\"1\">3</citation>] reviewed the role of retinoic acid signaling in modulating the fibrogenic potential of HSCs and proposed that it acts in synergy with PPAR-<italic toggle=\"yes\">γ</italic> in the reversal of liver fibrosis. <sentence_start/>Liu et al. [<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1186/s12929-015-0168-5\" other=\"2-s2.0-84938566535\" pmcid=\"PMC4522080\" pmid=\"26231226\" count=\"1\">4</citation>] reported that osthole improves TAA-induced liver injury, fibrogenesis, and inflammation in rats by suppressing HSC activation. <sentence_start/>Therefore, inducing the apoptosis of active HSCs is an important strategy for blocking the development of hepatic fibrosis."
+  },
+  {
+   "section": "article",
+   "text": "Endoplasmic reticulum stress (ER stress) is an imbalance of ER homeostasis caused by the overactivation of the unfolded protein response. <sentence_start/>Previous studies have shown that ER stress plays an important regulatory role in inducing the apoptosis of active HSCs. <sentence_start/>Wang et al. [<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1038/srep34330\" other=\"2-s2.0-84989816395\" pmcid=\"PMC5041150\" pmid=\"27680712\" count=\"1\">5</citation>] postulated that etoposide induces apoptosis in activated human HSCs via ER stress. <sentence_start/>Li et al. [<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.3892/ijmm.2017.3145\" other=\"2-s2.0-85031917352\" pmid=\"28949381\" pmcid=\"PMC5627881\" count=\"1\">6</citation>] reported that ER stress-mediated autophagy enhances the caffeine-induced apoptosis of HSCs. <sentence_start/>However, some studies have shown that ER stress does not induce the apoptosis of active HSCs [<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.jhep.2013.02.016\" other=\"2-s2.0-84879160597\" pmid=\"23485523\" pmcid=\"PMC3686909\" count=\"1\">7</citation>]. <sentence_start/>Thus, clarifying the mechanism by which ER stress induces the apoptosis of active HSCs requires further study."
+  },
+  {
+   "section": "article",
+   "text": "KCs, which are macrophages located in the liver, are a kind of nonparenchymal liver cell. <sentence_start/>Due to their high plasticity, KCs can play different roles in different microenvironments [<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1002/lt.21450\" other=\"2-s2.0-46049112678\" pmid=\"18508376\" count=\"1\">8</citation>-<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1016/j.immuni.2014.06.008\" other=\"2-s2.0-84904394690\" pmid=\"25035950\" pmcid=\"PMC4123412\" count=\"1\">10</citation>]. <sentence_start/>The ER stress in KCs is associated with the secretion of various inflammatory factors, especially TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>A previous study [<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1038/nature17631\" other=\"2-s2.0-84964425113\" pmid=\"27007849\" pmcid=\"PMC4869892\" count=\"1\">11</citation>] showed that the secretion of TNF-<italic toggle=\"yes\">α</italic> by bone marrow-derived macrophages is increased due to ER stress. <sentence_start/>Xu et al. [<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1016/j.biopha.2018.06.046\" other=\"2-s2.0-85050157929\" pmid=\"30119197\" count=\"1\">12</citation>] also reported that TUDCA can reduce the secretion of TNF-<italic toggle=\"yes\">α</italic> from KCs by inhibiting ER stress. <sentence_start/>Remarkably, TNF-<italic toggle=\"yes\">α</italic> is widely believed to be involved in the regulation of apoptosis in multiple cell types [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.3390/ijms15033816\" other=\"2-s2.0-84895503515\" pmid=\"24595242\" pmcid=\"PMC3975369\" count=\"1\">13</citation>-<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.12659/MSM.900310\" other=\"2-s2.0-84995743828\" pmid=\"27847386\" pmcid=\"PMC5115218\" count=\"1\">15</citation>], but whether ER stress-induced TNF-<italic toggle=\"yes\">α</italic> secretion by KCs has an effect on the apoptosis of active HSCs has not been reported."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we investigated the effect of ER stress-induced TNF-<italic toggle=\"yes\">α</italic> production by KCs on the apoptosis of active HSCs, as well as the possible underlying mechanism, and aimed to identify new treatments to reverse the progression of hepatic fibrosis."
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1. <sentence_start/>Materials"
+  },
+  {
+   "section": "article",
+   "text": "Dulbecco's modified Eagle's medium (DMEM) and enzyme-linked immunosorbent assay (ELISA) kits for TNF-<italic toggle=\"yes\">α</italic> were obtained from Abcam Trading Company, Ltd. (Shanghai, China). <sentence_start/>A terminal deoxynucleotidyl transferase-mediated dUTP-biotin nick-end labeling (TUNEL) kit was purchased from Roche Diagnostics (Roche, Shanghai, China). <sentence_start/>The relevant antibody information is shown in Table 1. <sentence_start/>All the other reagents used in this study are commercially available and were of analytical grade."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Animals and Protocols"
+  },
+  {
+   "section": "article",
+   "text": "Male SD rats (8-10 weeks old, each weighing 267 ± 33.2 g) were provided by the Experimental Animal Center of Chongqing Medical University (Chongqing, China). <sentence_start/>Humane care was provided to all the animals, according to the National Institutes of Health. <sentence_start/>The protocols used in this research were evaluated and approved by the Animal Use and Ethics Committee of the 2nd Affiliated Hospital of Chongqing Medical University (2015-2018). <sentence_start/>The rats were randomly divided into 4 groups as follows:"
+  },
+  {
+   "section": "article",
+   "text": "(1) Control group (n = 15). <sentence_start/>The rats were treated with normal saline (2 mg/kg) by intraperitoneal injection twice a week for 8 weeks. <sentence_start/>The rats were allowed to drink, eat, exercise, and rest freely after administration."
+  },
+  {
+   "section": "article",
+   "text": "(2) Model group (<italic toggle=\"yes\">n</italic> = 15). <sentence_start/>The rats were treated with 10% CCl<sub>4</sub> solution (made using peanut oil) by intraperitoneal injection twice a week for 8 weeks. <sentence_start/>The rats were allowed to drink, eat, exercise, and rest freely after administration."
+  },
+  {
+   "section": "article",
+   "text": "(3) ER stress group (<italic toggle=\"yes\">n</italic> = 15). <sentence_start/>The rats were treated with 10% CCl<sub>4</sub> solution and tunicamycin (1 mg/kg) [<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1097/SHK.0000000000000759\" other=\"2-s2.0-84991492418\" pmid=\"27755507\" pmcid=\"PMC5348263\" count=\"1\">16</citation>] by intraperitoneal injection twice a week for 8 weeks. <sentence_start/>The rats were allowed to drink, eat, exercise, and rest freely after administration."
+  },
+  {
+   "section": "article",
+   "text": "(4) Depletion group (<italic toggle=\"yes\">n</italic> = 15). <sentence_start/>The rats were treated with 10% CCl<sub>4</sub> solution and tunicamycin (1 mg/kg) by intraperitoneal injection twice a week for 8 weeks. <sentence_start/>Liposomal clodronate (50 mg/kg) was intraperitoneally injected following treatment with tunicamycin [<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1002/hep.510280611\" other=\"2-s2.0-0031769880\" pmid=\"9828215\" count=\"1\">17</citation>]. <sentence_start/>The rats were allowed to drink, eat, exercise, and rest freely after administration."
+  },
+  {
+   "section": "article",
+   "text": "The rats in each group were assigned to the following subgroups: 3 rats were used to make liver tissue sections, 3 rats were used to isolate primary Kupffer cells, 3 rats were used to isolate primary hepatic stellate cells, and 6 rats were used to extract tissue proteins and RNA."
+  },
+  {
+   "section": "article",
+   "text": "2.3. <sentence_start/>Establishment of the Cell Model"
+  },
+  {
+   "section": "article",
+   "text": "2.3.1. <sentence_start/>Isolation and Culture of KCs"
+  },
+  {
+   "section": "article",
+   "text": "Primary KCs were isolated from male SD rats at 8-10 weeks of age by a three-step approach: digestion by collagenase IV, density gradient centrifugation, and selective adherence [<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1002/hep.510280611\" other=\"2-s2.0-0031769880\" pmid=\"9828215\" count=\"1\">17</citation>]. <sentence_start/>The KCs were cultured in DMEM supplemented with 10% FBS, 100 U/ml penicillin G, and 100 U/ml streptomycin at 37°C in the presence of 5% CO<sub>2</sub>."
+  },
+  {
+   "section": "article",
+   "text": "2.3.2. <sentence_start/>Isolation of Hepatic Stellate Cells"
+  },
+  {
+   "section": "article",
+   "text": "Primary HSCs were isolated from male SD rats at 8-10 weeks of age by a combination of pronase collagenase digestion, density gradient centrifugation, and centrifugal elutriation as previously described [<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1159/000491722\" other=\"2-s2.0-85051063429\" pmid=\"30007970\" count=\"1\">18</citation>]. <sentence_start/>The cells were cultured in DMEM supplemented with 10% FBS, 100 U/ml penicillin G, and 100 U/ml streptomycin at 37°C in the presence of 5% CO<sub>2</sub>."
+  },
+  {
+   "section": "article",
+   "text": "2.3.3. <sentence_start/>TNF-<italic toggle=\"yes\">α</italic> and TGF-<italic toggle=\"yes\">β</italic> Treatment of Hepatic Stellate Cells"
+  },
+  {
+   "section": "article",
+   "text": "To determine the effect of TNF-<italic toggle=\"yes\">α</italic> on HSC activation, HSCs were isolated as described above and treated with TNF-<italic toggle=\"yes\">α</italic> at different concentrations (10 ng/ml, 20 ng/ml, and 40 ng/ml) for 12 h. <sentence_start/>After 12 h of treatment, HSC and protein samples were collected for the subsequent experiments."
+  },
+  {
+   "section": "article",
+   "text": "To observe the effect of TNF-<italic toggle=\"yes\">α</italic> on the apoptosis of activated hepatic stellate cells, HSCs were isolated as described above and treated with TGF-<italic toggle=\"yes\">β</italic> (5 ng/ml) for 24 h. <sentence_start/>Then, the HSCs were treated with TNF-<italic toggle=\"yes\">α</italic> at different concentrations (10 ng/ml, 20 ng/ml, and 40 ng/ml) for 12 h. <sentence_start/>After 12 h of treatment, HSC and protein samples were collected for the subsequent experiments."
+  },
+  {
+   "section": "article",
+   "text": "2.3.4. <sentence_start/>Coculture of KCs and HSCs"
+  },
+  {
+   "section": "article",
+   "text": "KCs and hepatic stellate cells were isolated according to the methods described above. <sentence_start/>Then, the hepatic stellate cells were cocultured with the KCs from each group (at 10 : 1) in DMEM supplemented with 10% FBS, 100 U/ml penicillin G, and 100 U/ml streptomycin at 37°C in the presence of 5% CO<sub>2</sub>. <sentence_start/>The two cell types are separated by a transwell chamber to ensure that there was no direct contact between the cells and only an exchange of cell supernatants. <sentence_start/>After 24 h, the primary hepatic stellate cells and cellular proteins were collected for the subsequent experiments."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>ELISA"
+  },
+  {
+   "section": "article",
+   "text": "TNF-<italic toggle=\"yes\">α</italic> in the KC supernatants was measured by ELISA. <sentence_start/>Antigen serum was added to an ELISA plate (100 <italic toggle=\"yes\">μ</italic>l/well) and incubated at room temperature overnight. <sentence_start/>The serum or supernatant samples were then added to the ELISA plate (100 <italic toggle=\"yes\">μ</italic>l/well) and incubated at 37°C for 1 h. <sentence_start/>Then, IgG antibody was added, and the plate was again incubated for 1 h. <sentence_start/>Subsequently, a working solution was added to the ELISA plate, and the plate was incubated for 30 min at 37°C. <sentence_start/>Finally, a color reagent was added to the ELISA plate for detection. <sentence_start/>The absorbance index of each plate was detected by an ELISA plate reader."
+  },
+  {
+   "section": "article",
+   "text": "2.5. <sentence_start/>Immunofluorescence Staining"
+  },
+  {
+   "section": "article",
+   "text": "KCs and hepatic stellate cells were used to generate cell slides. <sentence_start/>The samples were fixed with 4% buffered formaldehyde, permeabilized with 0.2% Triton X-100, and blocked with 5% BSA at room temperature. <sentence_start/>The following incubations were performed in the dark. <sentence_start/>The KCs were incubated at 4°C overnight with primary antibodies against CD68 (1 : 200), CD16 (1 : 200), and desmin (1 : 200). <sentence_start/>The KCs were then incubated with a secondary antibody (1 : 5000) at room temperature for 1 h, followed by a final incubation with DAPI at room temperature."
+  },
+  {
+   "section": "article",
+   "text": "The liver tissues were made into frozen sections. <sentence_start/>The sections were thawed at room temperature, washed with PBS, fixed with 4% buffered formaldehyde, permeabilized with 0.2% Triton X-100, and blocked with 5% BSA at room temperature. <sentence_start/>The following incubations were performed in the dark. <sentence_start/>The sections were incubated at 4°C overnight with primary antibodies against desmin (1 : 200). <sentence_start/>The sections were then incubated with a secondary antibody (1 : 2000) at room temperature for 1 h, followed by a final incubation with DAPI at room temperature."
+  },
+  {
+   "section": "article",
+   "text": "2.6. <sentence_start/>Western Blot Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Western blot analysis was performed as follows: the protein samples were electrophoresed and transferred to membranes. <sentence_start/>Then, the membranes were blocked. <sentence_start/>Next, the membranes were incubated at 4°C overnight with primary antibodies and incubated at room temperature with secondary antibodies for 1 h. <sentence_start/>The relative expression of the protein of interest was normalized to the expression of GAPDH."
+  },
+  {
+   "section": "article",
+   "text": "2.7. <sentence_start/>Examination of Liver Function"
+  },
+  {
+   "section": "article",
+   "text": "Blood samples were collected from each group after the operation was performed. <sentence_start/>Serum liver function markers, including alanine aminotransferase (AST) and aspartate transaminase (ALT), were detected with an automatic biochemical analyzer (Beckman CX7, Beckman Coulter, CA, USA) to evaluate liver function."
+  },
+  {
+   "section": "article",
+   "text": "2.8. <sentence_start/>Sirius Red Staining"
+  },
+  {
+   "section": "article",
+   "text": "Paraffin sections were dewaxed with xylene and eluted using different concentrations of ethanol. <sentence_start/>Then, the paraffin sections were stained with Sirius red solution and hematoxylin and blocked with neutral balsam."
+  },
+  {
+   "section": "article",
+   "text": "2.9. <sentence_start/>Immunohistochemical Staining"
+  },
+  {
+   "section": "article",
+   "text": "Paraffin sections were dewaxed with xylene and eluted using different concentrations of ethanol. <sentence_start/>The sections then underwent antigen repair with a sodium citrate solution, blocking with goat serum and incubation with primary antibodies against <italic toggle=\"yes\">α</italic>-SMA (1 : 500), CD16 (1 : 500), and desmin (1 : 640) at 4°C overnight. <sentence_start/>Then, the paraffin sections were incubated with a secondary antibody at 37°C for 30 min and stained with a DAB solution. <sentence_start/>Hematoxylin was then added to the sections at room temperature for 30 s; then, the sections were dewaxed with xylene and again eluted in gradients of ethyl alcohol."
+  },
+  {
+   "section": "article",
+   "text": "2.10. <sentence_start/>TUNEL Immunostaining"
+  },
+  {
+   "section": "article",
+   "text": "TUNEL immunostaining was performed according to the manufacturer's instructions. <sentence_start/>The staining of the cell nuclei in each group was observed by fluorescence microscopy."
+  },
+  {
+   "section": "article",
+   "text": "2.11. <sentence_start/>Flow Cytometry"
+  },
+  {
+   "section": "article",
+   "text": "The collected cells were placed in staining buffer to form a cell suspension. <sentence_start/>Then, the cell suspension was centrifuged at 300 × g for 5 min. <sentence_start/>A fluorescently labeled antibody (CD16 at 1 : 100 or Arg1 at 1 : 60) was added to the cell suspension at the concentration recommended in the manufacturer's instructions and incubated for 30 min in the dark. <sentence_start/>Then, the cell suspension was again centrifuged at 300 × g for 5 min. <sentence_start/>The cells were resuspended in cell staining buffer and then detected and analyzed by flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "2.12. <sentence_start/>Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "All the results were analyzed using SPSS 18.0 software (SPSS Inc., Chicago, USA). <sentence_start/>Normally distributed data are shown as the mean ± SD. <sentence_start/>Differences between groups were detected using a <italic toggle=\"yes\">t</italic> test. <sentence_start/>The Shapiro-Wilk test was used to test normality. <sentence_start/>Data with a sig value &gt;0.05 were regarded as conforming to a normal distribution. <sentence_start/>Nonnormally distributed data are shown as the median; differences were detected using the rank-sum test. <sentence_start/>Differences with <italic toggle=\"yes\">P</italic> values &lt; 0.05 were regarded as statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1. <sentence_start/>ER Stress in KCs Decreased the Levels of Liver Function Markers and the Degree of Liver Fibrosis in a Rat Model"
+  },
+  {
+   "section": "article",
+   "text": "Liver and blood samples were collected from the different groups to investigate the levels of liver function markers and the degree of liver fibrosis. <sentence_start/>First, the serum levels of liver function markers and liver weight were determined. <sentence_start/>As shown in Figure 1(a), compared with those in the control group, the levels of ALT and AST in the model group were markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with those in the model group, the levels of ALT and AST in the ER stress group were markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, the levels of ALT and AST in the depletion group were markedly higher than those in the ER stress group (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>The liver weight and liver index in each group, as shown in Figure 1(b), displayed similar tendencies. <sentence_start/>Then, the degree of liver fibrosis was detected by Sirius Red staining. <sentence_start/>As shown in Figure 1(c), compared with that in the control group, the positive region in the model group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the positive region in the ER stress group was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with that in the ER stress group, the positive region in the depletion group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>We also detected the expression of fibrosis-associated proteins, including collagen I and <italic toggle=\"yes\">α</italic>-SMA, by immunohistochemical staining and Western blotting. <sentence_start/>As shown in Figure 1(d), compared with that in the control group, the <italic toggle=\"yes\">α</italic>-SMA-positive region in the model group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the <italic toggle=\"yes\">α</italic>-SMA- positive region in the ER stress group was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After the KCs were depleted, compared with that in the ER stress group, the <italic toggle=\"yes\">α</italic>-SMA-positive region in the depletion group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>As shown in Figures 1(e) and 1(f), the levels of collagen I and <italic toggle=\"yes\">α</italic>-SMA displayed similar tendencies. <sentence_start/>According to these data, we concluded that ER stress in KCs decreases the levels of liver function markers and the degree of liver fibrosis."
+  },
+  {
+   "section": "article",
+   "text": "3.2. <sentence_start/>ER Stress in KCs Increased the Number of Cells with the M1 Phenotype and the Secretion of TNF-<italic toggle=\"yes\">α</italic> and Reduced the Number of Active HSCs in a Rat Model"
+  },
+  {
+   "section": "article",
+   "text": "Next, we investigated whether ER stress in KCs exerts a protective effect by affecting active HSCs. <sentence_start/>First, the levels of ER stress-related proteins, including PERK, IRE1<italic toggle=\"yes\">α</italic>, GRP78, and ATF6, were detected by Western blot. <sentence_start/>As shown in Figures 2(a) and 2(b), compared with those in the control group, the levels of the above proteins in the model group were not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with those in the model group, the levels of the above proteins in the ER stress group were markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with those in the ER stress group, the levels of the above proteins in the depletion group were markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Then, the number of KCs with the M1 phenotype and the level of TNF-<italic toggle=\"yes\">α</italic> in the liver were detected by immunohistochemical staining. <sentence_start/>As shown in Figures 2(c) and 2(d), compared with those in the control group, the number of CD16-positive KCs and the level of TNF-<italic toggle=\"yes\">α</italic> in the model group were not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with those in the model group, the number of CD16-positive KCs and the level of TNF-<italic toggle=\"yes\">α</italic> were markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with those in the ER stress group, the number of CD16-positive KCs and the level of TNF-<italic toggle=\"yes\">α</italic> were markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>The level of desmin was detected by Western blot. <sentence_start/>As shown in Figures 2(e) and 2(f), compared with that in the control group, the level of desmin in the model group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the level of desmin was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with that in the ER stress group, the level of desmin was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Furthermore, the number of active HSCs was also assessed by immunohistochemical staining. <sentence_start/>As shown in Figure 2(g), compared with that in the control group, the number of desmin-positive cells in the model group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the number of desmin-positive cells was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with that in the ER stress group, the number of desmin-positive cells in the depletion group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Our data show that, in a rat model, ER stress in KCs exerts its protective effect by increasing the number of cells with the M1 phenotype and the secretion of TNF-<italic toggle=\"yes\">α</italic> and then reducing the number of active HSCs."
+  },
+  {
+   "section": "article",
+   "text": "3.3. <sentence_start/>The Number of Active HSCs Decreased Mainly due to TNF-<italic toggle=\"yes\">α</italic>-Induced Apoptosis"
+  },
+  {
+   "section": "article",
+   "text": "To determine the effect of TNF-<italic toggle=\"yes\">α</italic> on stationary HSC activation, primary HSCs were treated with TNF-<italic toggle=\"yes\">α</italic> at different concentrations (10 ng/ml, 20 ng/ml, and 40 ng/ml). <sentence_start/>After 12 h of treatment, desmin-specific immunofluorescence staining was used to detect the degree of stationary hepatic stellate cell activation in each group. <sentence_start/>As shown in Figure 3(a), the number of desmin-positive HSCs in each group was not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>Then, TUNEL staining was used to detect the degree of apoptosis of stationary hepatic stellate cells in each group. <sentence_start/>As shown in Figure 3(b), compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the number of TUNEL-positive HSCs in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the number of TUNEL-positive HSCs in the 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In addition, the expression of desmin and C-caspase 3 in the hepatic stellate cells of each group was detected by Western blot. <sentence_start/>As shown in Figures 3(c) and 3(d), compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of desmin in each group was not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>Compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of C-caspase 3 in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of C-caspase 3 in the 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>These data indicate that in our model, TNF-<italic toggle=\"yes\">α</italic> has no obvious effect on activating stationary hepatic stellate cells but has an obvious effect on promoting apoptosis."
+  },
+  {
+   "section": "article",
+   "text": "Then, we further observed the effect of TNF-<italic toggle=\"yes\">α</italic> on the apoptosis of activated hepatic stellate cells. <sentence_start/>Stationary HSCs were treated with TGF-<italic toggle=\"yes\">β</italic> (5 ng/ml) for 24 h. <sentence_start/>Then, activated HSCs were treated with TNF-<italic toggle=\"yes\">α</italic> at different concentrations (10 ng/ml, 20 ng/ml, and 40 ng/ml). <sentence_start/>After 12 h of treatment, desmin-specific cell immunofluorescence staining was used to detect the degree of hepatic stellate cell activation in each group. <sentence_start/>As shown in Figure 3(e), compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the number of desmin-positive HSCs in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the number of desmin-positive HSCs in the 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Then, TUNEL staining was used to detect the degree of apoptosis of the hepatic stellate cells in each group. <sentence_start/>Compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the number of TUNEL-positive HSCs in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the number of TUNEL-positive HSCs in the 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In addition, the expression of desmin and C-caspase 3 in the hepatic stellate cells of each group was detected by Western blot. <sentence_start/>As shown in Figures 3(f) and 3(g), compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of desmin in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of desmin in the 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of C-caspase 3 in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Compared with that in the 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, the level of C-caspase 3 in the 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>These data indicate that in our model, TNF-<italic toggle=\"yes\">α</italic> has an obvious apoptosis-promoting effect on activated HSCs."
+  },
+  {
+   "section": "article",
+   "text": "Hence, we believed that the number of active HSCs decreased mainly due to TNF-<italic toggle=\"yes\">α</italic>-induced apoptosis."
+  },
+  {
+   "section": "article",
+   "text": "3.4. <sentence_start/>ER Stress May Promote the Polarization of KCs toward the M1 Phenotype via the IRE1<italic toggle=\"yes\">α</italic>/TRAF2/NF-<italic toggle=\"yes\">κ</italic>B Signaling Pathway"
+  },
+  {
+   "section": "article",
+   "text": "To further elucidate the effect of ER stress on KC polarization, we isolated and cultured KCs from each group and analyzed their polarization status. <sentence_start/>First, dual immunofluorescence staining was utilized to detect the proportion of KCs with an M1 phenotype. <sentence_start/>As shown in Figure 4(a), compared with that in the control group, the number of CD16/CD68 double-positive KCs in the model group was not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the number of CD16/CD68 double-positive KCs was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with that in the ER stress group, the number of CD16/CD68 double-positive KCs was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>We also examined the proportion of KCs with an M1 phenotype by flow cytometry. <sentence_start/>As shown in Figure 4(b), compared with that in the control group, the number of CD16-positive/Arg1-negative KCs in the model group was not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the number of CD16-positive/Arg1-negative KCs was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After KC depletion, compared with that in the ER stress group, the number of CD16-positive/Arg1-negative KCs was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>These data indicate that ER stress promotes the polarization of KCs toward the M1 phenotype."
+  },
+  {
+   "section": "article",
+   "text": "Then, we explored the possible mechanism by which ER stress affects KC polarization. <sentence_start/>The levels of IRE1<italic toggle=\"yes\">α</italic>, TRAF2, P-P65, CD16, iNOS, and CD86 were detected by Western blot. <sentence_start/>As shown in Figures 4(c) and 4(d), compared with those in the control group, the levels of IRE1<italic toggle=\"yes\">α</italic>, TRAF2, P-P65, CD16, iNOS, and CD86 in the model group were not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with those in the model group, the levels of IRE1<italic toggle=\"yes\">α</italic>, TRAF2, P-P65, CD16, iNOS, and CD86 were markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After the depletion of KCs, compared with those in the ER stress group, the levels of IRE1<italic toggle=\"yes\">α</italic>, TRAF2, P-P65, CD16, iNOS, and CD86 were markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>In conclusion, our study preliminarily suggests that ER stress promotes the polarization of KCs toward the M1 phenotype via the IRE1<italic toggle=\"yes\">α</italic>/TRAF2/NF-<italic toggle=\"yes\">κ</italic>B signaling pathway."
+  },
+  {
+   "section": "article",
+   "text": "3.5. <sentence_start/>KC-Derived TNF-<italic toggle=\"yes\">α</italic> May Trigger the Apoptosis of Activated HSCs by Promoting the Activation of TNF-R1/Caspase 8"
+  },
+  {
+   "section": "article",
+   "text": "To further investigate the role of ER stress in KCs in TNF-<italic toggle=\"yes\">α</italic> secretion and activated HSC apoptosis, we isolated and cultured KCs from each group and cocultured them with active HSCs (treated with TGF-<italic toggle=\"yes\">β</italic> at concentrations of 5 ng/ml). <sentence_start/>First, we examined the level of TNF-<italic toggle=\"yes\">α</italic> in the KCs from each group by Western blot. <sentence_start/>As shown in Figures 5(a) and 5(b), compared with that in the control group, the level of TNF-<italic toggle=\"yes\">α</italic> in the model group was not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the level of TNF-<italic toggle=\"yes\">α</italic> was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After the depletion of KCs, compared with that in the ER stress group, the level of TNF-<italic toggle=\"yes\">α</italic> was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Furthermore, the level of TNF-<italic toggle=\"yes\">α</italic> in the cell supernatant was tested by ELISA. <sentence_start/>As shown in Figure 5(c), the results showed similar trends."
+  },
+  {
+   "section": "article",
+   "text": "In the KC cocultures, the apoptosis of the activated HSCs in each group was detected by TUNEL staining. <sentence_start/>As shown in Figure 5(d), compared with that in the control group, the number of apoptotic HSCs in the model group was not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with that in the model group, the number of apoptotic HSCs was markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After the depletion of KCs, compared with that in the ER stress group, the number of apoptotic HSCs was markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>Flow cytometry was also utilized to examine the apoptosis of active HSCs. <sentence_start/>As shown in Figure 5(e), the results showed similar trends."
+  },
+  {
+   "section": "article",
+   "text": "Then, we explored the underlying mechanism by which KC-derived TNF-<italic toggle=\"yes\">α</italic> triggers the apoptosis of activated HSCs. <sentence_start/>The levels of TNF-R1, C-caspase 8, and C-caspase 3 were detected by Western blot. <sentence_start/>As shown in Figures 5(f) and 5(g), compared with those in the control group, the levels of the abovementioned proteins in the model group were not significantly different (<italic toggle=\"yes\">P</italic> &gt; 0.05). <sentence_start/>In response to tunicamycin treatment, compared with those in the model group, the levels of the abovementioned proteins were markedly increased (<italic toggle=\"yes\">P</italic> &lt; 0.05). <sentence_start/>After the depletion of KCs, compared with those in the ER stress group, the levels of the abovementioned proteins were markedly decreased (<italic toggle=\"yes\">P</italic> &lt; 0.05)."
+  },
+  {
+   "section": "article",
+   "text": "Thus, we conclude that ER stress induced by tunicamycin may promote the polarization of KCs toward the M1 phenotype and the secretion of TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>KC-derived TNF-<italic toggle=\"yes\">α</italic> then triggers the apoptosis of activated HSCs by promoting the activation of TNF-R1/caspase 8."
+  },
+  {
+   "section": "article",
+   "text": "4. <sentence_start/>Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Liver cirrhosis is the terminal stage of progressive liver fibrosis and is estimated to affect 1% to 2% of the global population, resulting in over 1 million deaths worldwide each year [<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1097/SHK.0000000000000759\" other=\"2-s2.0-84991492418\" pmid=\"27755507\" pmcid=\"PMC5348263\" count=\"1\">16</citation>, <citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.4103/1673-5374.230295\" other=\"2-s2.0-85048336982\" pmid=\"29722321\" pmcid=\"PMC5950679\" count=\"1\">19</citation>]. <sentence_start/>Remarkably, in the pathogenesis of liver fibrosis, activated HSCs are the major cellular source of matrix protein-secreting myofibroblasts and the major drivers of liver fibrogenesis [<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(15)00128-2\" other=\"2-s2.0-85049491557\" pmid=\"26364544\" pmcid=\"PMC4685753\" count=\"1\">20</citation>, <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(14)60121-5\" other=\"2-s2.0-84900806395\" pmid=\"24480518\" count=\"1\">21</citation>]. <sentence_start/>Currently, there are two main options for treating liver fibrosis that target HSCs. <sentence_start/>One treatment option is to inhibit the activation of HSCs. <sentence_start/>The other treatment option is to promote the apoptosis of HSCs. <sentence_start/>In our study, with the CCl<sub>4</sub>-induced apoptosis of active HSCs, the serum levels of AFT and ALT and the degree of liver fibrosis became markedly decreased. <sentence_start/>Furthermore, the serum level of TNF-<italic toggle=\"yes\">α</italic> also declined. <sentence_start/>These results suggest that promoting the apoptosis of active HSCs can reduce the severity of hepatic fibrosis, which is consistent with the results of a number of previous studies [<citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1016/j.addr.2017.05.007\" other=\"2-s2.0-85019375083\" pmid=\"28506744\" pmcid=\"PMC5682243\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "TNF-<italic toggle=\"yes\">α</italic> is an important cytokine that is widely believed to be involved in the regulation of apoptosis. <sentence_start/>Grabinger et al. [<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1053/j.gastro.2016.11.019\" other=\"2-s2.0-85010949209\" pmid=\"27889570\" count=\"1\">23</citation>] found that cIAP1 is required for the regulation of TNF-induced intestinal epithelial cell death and survival. <sentence_start/>An experiment with heart muscle cells suggested that TNF-<italic toggle=\"yes\">α</italic>-induced AIF upregulation contributes to apoptosis in rat primary cardiomyocytes [<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1016/j.imbio.2017.02.005\" other=\"2-s2.0-85013420208\" pmid=\"28233577\" count=\"1\">24</citation>]. <sentence_start/>Therefore, we speculated that promoting TNF-<italic toggle=\"yes\">α</italic> secretion in the liver might be an important way to induce apoptosis of activated HSCs. <sentence_start/>In our research, we found that with increased TNF-<italic toggle=\"yes\">α</italic> expression in liver tissue, the number of activated HSCs in liver tissue significantly decreased. <sentence_start/>This result may be due to the increased apoptosis of activated HSCs or to the decreased activation of inactive HSCs. <sentence_start/>The most accurate method for determining the reason for the decrease in the number of activated stellate cells in liver tissue is to detect the absolute number of apoptotic activated stellate cells in liver tissue. <sentence_start/>However, we have not found an appropriate antibody for labeling both HSCs and apoptotic cells (common hepatic stellate cell markers, such as desmin and <italic toggle=\"yes\">α</italic>-SMA, are expressed in activated HSCs, while apoptotic HSCs do not express these markers). <sentence_start/>Therefore, in this experiment, we failed to directly detect HSC apoptosis in fibrotic tissue, which is a deficiency in our experiment."
+  },
+  {
+   "section": "article",
+   "text": "To compensate for this deficiency, we isolated primary HSCs from rats and further verified the effect of TNF-<italic toggle=\"yes\">α</italic> on the apoptosis of hepatic stellate cells. <sentence_start/>Our experimental results show that in our model, TNF-<italic toggle=\"yes\">α</italic> has an obvious apoptosis-promoting effect on stationary HSCs. <sentence_start/>Moreover, TNF-<italic toggle=\"yes\">α</italic> has an obvious apoptosis-promoting effect on activated HSCs. <sentence_start/>This effect is supported by previous studies [<citation rid=\"B25\" ref-type=\"bibr\" pmid=\"32355539\" pmcid=\"PMC7191175\" count=\"1\">25</citation>-<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.actbio.2014.10.002\" other=\"2-s2.0-84925046722\" pmid=\"25305513\" count=\"1\">27</citation>]. <sentence_start/>TNF-<italic toggle=\"yes\">α</italic> can directly promote the apoptosis of or inhibit the proliferation of HSCs, especially in a chronic hepatic fibrosis model. <sentence_start/>However, it has also been reported that TNF-<italic toggle=\"yes\">α</italic> can promote the proliferation of HSCs through the NF-<italic toggle=\"yes\">κ</italic>B pathway, especially in an acute hepatic injury model [<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1186/s12929-015-0168-5\" other=\"2-s2.0-84938566535\" pmcid=\"PMC4522080\" pmid=\"26231226\" count=\"1\">4</citation>, <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1111/j.1478-3231.2008.01883.x\" other=\"2-s2.0-54049110010\" pmid=\"19055644\" count=\"1\">28</citation>]. <sentence_start/>We think that the possible causes of this difference are mainly explained by the following differences in the models of liver fibrosis: first, there are differences in the amount of TNF-<italic toggle=\"yes\">α</italic> secretion, and in our model, 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> promotes apoptosis; second, TNF-<italic toggle=\"yes\">α</italic> causes the activation of different downstream signaling pathways, and in our model, TNF-<italic toggle=\"yes\">α</italic> mainly stimulates the activation of the TNF-R1/caspase 8 pathway, not the NF-<italic toggle=\"yes\">κ</italic>B signaling pathway. <sentence_start/>In addition, some studies have suggested that TNF-<italic toggle=\"yes\">α</italic> can cause hepatocyte apoptosis and hepatic injury, especially in the acute inflammatory phase, and then, hepatocyte apoptosis and hepatic injury trigger the activation and proliferation of HSCs [<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1016/j.apsb.2018.11.004\" other=\"2-s2.0-85058155315\" pmid=\"31193776\" pmcid=\"PMC6542786\" count=\"1\">29</citation>, <citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1039/C8BM01347K\" other=\"2-s2.0-85062258492\" pmid=\"30631870\" count=\"1\">30</citation>]. <sentence_start/>In summary, we established a model of chronic liver fibrosis, which is different from the model of acute liver injury. <sentence_start/>In our model, TNF-<italic toggle=\"yes\">α</italic> may mainly directly promote apoptosis through the TNF-R1/caspase 8 pathway."
+  },
+  {
+   "section": "article",
+   "text": "KCs, which are macrophages located in the liver, are a kind of nonparenchymal liver cell. <sentence_start/>Due to their high plasticity, KCs can play different roles in different microenvironments. <sentence_start/>Previous studies [<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1038/mt.2016.36\" other=\"2-s2.0-84961219525\" pmid=\"26883801\" pmcid=\"PMC4881771\" count=\"1\">31</citation>, <citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1038/s41388-018-0383-0\" other=\"2-s2.0-85049674319\" pmid=\"29993036\" count=\"1\">32</citation>] have found that M2 macrophages can secrete a large amount of TGF-<italic toggle=\"yes\">β</italic>, thus activating hepatic stellate cells and promoting the progression of parenchymal organ fibrosis, including liver fibrosis. <sentence_start/>Blocking the function of KCs can reduce the degree of liver fibrosis, but it mainly blocks the function of M2 KCs. <sentence_start/>Therefore, the induction of KC apoptosis is considered to be an important method to reduce liver fibrosis. <sentence_start/>However, previous studies have found that KCs have obvious antiapoptotic effects in the microenvironment of liver fibrosis [<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.immuni.2016.01.001\" other=\"2-s2.0-84960392538\" pmid=\"26921108\" pmcid=\"PMC4794358\" count=\"1\">33</citation>]. <sentence_start/>In addition, it is worth noting that M1 macrophages are thought to reduce the degree of liver fibrosis [<citation rid=\"B34\" ref-type=\"bibr\" pmid=\"27157496\" doi=\"10.1038/cmi.2016.21\" pmcid=\"PMC5811674\" count=\"1\">34</citation>]. <sentence_start/>Therefore, we speculate that compared with blocking the function of KCs or inducing the apoptosis of KCs, promoting the polarization of KCs from the M2 phenotype to the M1 phenotype may be more effective in reducing the degree of liver fibrosis."
+  },
+  {
+   "section": "article",
+   "text": "ER stress is an abnormal state of function and stress caused by the accumulation of unfolded or misfolded proteins in the endoplasmic reticulum. <sentence_start/>Remarkably, previous studies [<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1038/nature17631\" other=\"2-s2.0-84964425113\" pmid=\"27007849\" pmcid=\"PMC4869892\" count=\"1\">11</citation>, <citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1016/j.biopha.2018.06.046\" other=\"2-s2.0-85050157929\" pmid=\"30119197\" count=\"1\">12</citation>] found that because they are important secretors of TNF-<italic toggle=\"yes\">α</italic> in the liver [<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2017.05.006\" other=\"2-s2.0-85020666393\" pmid=\"28609656\" pmcid=\"PMC7909318\" count=\"1\">35</citation>], inhibiting ER stress in KCs can reduce the number of M1 KCs and the amount of TNF-<italic toggle=\"yes\">α</italic> secretion in the liver. <sentence_start/>In this study, we found that in response to treatment with tunicamycin, the number of M1-like KCs and the level of TNF-<italic toggle=\"yes\">α</italic> were increased. <sentence_start/>ER stress in KCs markedly decreased the degree of hepatic fibrosis and the serum levels of ALT and AST. <sentence_start/>Furthermore, the number of active HSCs in the liver was also markedly decreased. <sentence_start/>All the above results were reversed upon the depletion of KCs. <sentence_start/>Our data show that ER stress in KCs can reduce the number of active HSCs in the liver by increasing the secretion of TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>Furthermore, we investigated the possible mechanism by which KC-derived TNF-<italic toggle=\"yes\">α</italic> triggers the apoptosis of active HSCs. <sentence_start/>We found that the number of active HSCs decreased mainly due to apoptosis induced by ER stress in KCs. <sentence_start/>Furthermore, the expression of TNF-R1, cleaved caspase 8, and cleaved caspase 3 in HSCs was markedly increased. <sentence_start/>These data indicate that KC-derived TNF-<italic toggle=\"yes\">α</italic> triggers the apoptosis of HSCs by promoting the activation of TNF-R1/caspase 8."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, we have shown that ER stress induced by tunicamycin promotes the M1 polarization of KCs and the secretion of TNF-<italic toggle=\"yes\">α</italic>. <sentence_start/>Kupffer cell-derived TNF-<italic toggle=\"yes\">α</italic> then triggers the apoptosis of HSCs by promoting the activation of TNF-R1/caspase 8."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "ER:"
+  },
+  {
+   "section": "back",
+   "text": "Endoplasmic reticulum"
+  },
+  {
+   "section": "back",
+   "text": "KCs:"
+  },
+  {
+   "section": "back",
+   "text": "Kupffer cells"
+  },
+  {
+   "section": "back",
+   "text": "HSC:"
+  },
+  {
+   "section": "back",
+   "text": "Hepatic stellate cell"
+  },
+  {
+   "section": "back",
+   "text": "ELISA:"
+  },
+  {
+   "section": "back",
+   "text": "Enzyme-linked immunosorbent assay"
+  },
+  {
+   "section": "back",
+   "text": "TUNEL:"
+  },
+  {
+   "section": "back",
+   "text": "Terminal deoxynucleotidyl transferase-mediated dUTP-biotin nick-end labeling"
+  },
+  {
+   "section": "back",
+   "text": "DMEM:"
+  },
+  {
+   "section": "back",
+   "text": "Dulbecco's modified Eagle's medium"
+  },
+  {
+   "section": "back",
+   "text": "FBS:"
+  },
+  {
+   "section": "back",
+   "text": "Fetal bovine serum"
+  },
+  {
+   "section": "back",
+   "text": "AST:"
+  },
+  {
+   "section": "back",
+   "text": "Alanine aminotransferase"
+  },
+  {
+   "section": "back",
+   "text": "ALT:"
+  },
+  {
+   "section": "back",
+   "text": "Aspartate transaminase"
+  },
+  {
+   "section": "back",
+   "text": "TNF-<italic toggle=\"yes\">α</italic>:"
+  },
+  {
+   "section": "back",
+   "text": "Tumor necrosis factor-<italic toggle=\"yes\">α</italic>"
+  },
+  {
+   "section": "back",
+   "text": "PERK:"
+  },
+  {
+   "section": "back",
+   "text": "Protein kinase R- (PKR-) like endoplasmic reticulum kinase"
+  },
+  {
+   "section": "back",
+   "text": "IRE1<italic toggle=\"yes\">α</italic>:"
+  },
+  {
+   "section": "back",
+   "text": "Inositol-requiring enzyme-1"
+  },
+  {
+   "section": "back",
+   "text": "GRP78:"
+  },
+  {
+   "section": "back",
+   "text": "Glucose-regulated protein 78"
+  },
+  {
+   "section": "back",
+   "text": "ATF6:"
+  },
+  {
+   "section": "back",
+   "text": "Activating transcription factor 6"
+  },
+  {
+   "section": "back",
+   "text": "TGF-<italic toggle=\"yes\">β</italic>:"
+  },
+  {
+   "section": "back",
+   "text": "Transcription growth factor"
+  },
+  {
+   "section": "back",
+   "text": "TRAF2:"
+  },
+  {
+   "section": "back",
+   "text": "TNF receptor-associated factor 2"
+  },
+  {
+   "section": "back",
+   "text": "TNF-R1:"
+  },
+  {
+   "section": "back",
+   "text": "TNF receptor 1."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability"
+  },
+  {
+   "section": "back",
+   "text": "The datasets used and/or analyzed during the current study are available from the corresponding author upon reasonable request."
+  },
+  {
+   "section": "back",
+   "text": "Ethical Approval"
+  },
+  {
+   "section": "back",
+   "text": "Ethical reviews of the animal experiments were performed by the Ethics Committee of Chongqing Medical University, and all the animal care and experimental protocols were in line with the Animal Management Rules of the Ministry of Health of the People's Republic of China."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "back",
+   "text": "All the authors declare that there are no competing interests."
+  },
+  {
+   "section": "back",
+   "text": "Authors' Contributions"
+  },
+  {
+   "section": "back",
+   "text": "MCM designed the study and supervised the project. <sentence_start/>WWM and XXS carried out most of the experimental work. <sentence_start/>XXS analyzed the data. <sentence_start/>MCM and WWM wrote the manuscript. <sentence_start/>MCM approved the final version of the manuscript. <sentence_start/>All the authors read and approved the final manuscript. <sentence_start/>Wei-min Wang and Xue-song Xu contributed equally to this paper."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "ER stress in KCs decreased the levels of liver function markers and the degree of liver fibrosis in a rat model. <sentence_start/>(a) The serum levels of AST and ALT in each group. <sentence_start/>(b) The liver weight and liver indexes in each group. <sentence_start/>(c) The liver fibrosis in each group was detected by Sirius Red staining. <sentence_start/>(d) The <italic toggle=\"yes\">α</italic>-SMA expression in each group was detected by immunohistochemical staining. <sentence_start/>(e) The collagen I and <italic toggle=\"yes\">α</italic>-SMA expression in each group was detected by Western blot. <sentence_start/>(f) Quantitative analysis of Western blots. <sentence_start/><sup>∗</sup>Model group vs. control group. <sentence_start/><sup>#</sup>ER stress group vs. model group. <sentence_start/><sup>∗∗</sup>ER stress group vs. depletion group, <italic toggle=\"yes\">P</italic> &lt; 0.05."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "ER stress in KCs increased the number of KCs with an M1 phenotype and the secretion of TNF-<italic toggle=\"yes\">α</italic> and reduced the number of active HSCs in a rat model. <sentence_start/>(a) The levels of PERK, IRE1<italic toggle=\"yes\">α</italic>, GRP78, and ATF6 were detected by Western blot. <sentence_start/>(b) Quantitative analysis of Western blots. <sentence_start/>(c) The M1 phenotype of KCs was detected by immunohistochemical staining. <sentence_start/>(d) The serum level of TNF-<italic toggle=\"yes\">α</italic> was detected by immunohistochemical staining. <sentence_start/>(A) Control group, (B) model group, (C) ER stress group, and (D) depletion group. <sentence_start/><sup>#</sup>ER stress group vs. model group, <sup>∗∗</sup>ER stress group vs. depletion group, <italic toggle=\"yes\">P</italic> &lt; 0.05. (e) The level of desmin was detected by Western blot. <sentence_start/>(f) Quantitative analysis of Western blots. <sentence_start/>(g) Active HSCs were detected by immunohistochemical staining. <sentence_start/>(A) Control group, (B) model group, (C) ER stress group, and (D) depletion group. <sentence_start/><sup>∗</sup>Model group vs. control group. <sentence_start/><sup>#</sup>ER stress group vs. model group. <sentence_start/><sup>∗∗</sup>ER stress group vs. depletion group, <italic toggle=\"yes\">P</italic> &lt; 0.05."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "The number of active HSCs decreased mainly due to apoptosis induced by ER stress in KCs. <sentence_start/>(a) The activation of stationary HSCs in each group was detected by immunofluorescence staining. <sentence_start/>(b) The apoptosis of stationary HSCs in each group was detected by TUNEL staining. <sentence_start/>(c) The levels of desmin and C-caspase 3 in each group were detected by Western blot. <sentence_start/>(d) Quantitative analysis of Western blots. <sentence_start/>(A) 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, (B) 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, and (C) 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group. <sentence_start/>(e) The activation of HSCs in each group was detected by immunofluorescence staining. <sentence_start/>(f) The apoptosis of activated HSCs in each group was detected by TUNEL staining. <sentence_start/>(g) The levels of desmin and C-caspase 3 in each group were detected by Western blot. <sentence_start/>(h) Quantitative analysis of Western blots. <sentence_start/>(A) 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, (B) 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, and (C) 40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group. <sentence_start/><sup>∗</sup>20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group vs. 10 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, <sup>#</sup>40 ng/ml TNF-<italic toggle=\"yes\">α</italic> group vs. 20 ng/ml TNF-<italic toggle=\"yes\">α</italic> group, <italic toggle=\"yes\">P</italic> &gt; 0.05."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "ER stress promotes the polarization of KCs toward the M1 phenotype via the IRE1/TRAF2/NF-<italic toggle=\"yes\">κ</italic>B signaling pathway. <sentence_start/>(a) The M1 phenotype of KCs was detected by dual immunofluorescence staining. <sentence_start/>CD16 (green), CD68 (red), and DAPI (blue). <sentence_start/>(b) The proportion of KCs with an M1 phenotype was detected by CD16/Arg1 staining and assessed by flow cytometry. <sentence_start/>(c) The levels of IRE1<italic toggle=\"yes\">α</italic>, TRAF2, P-P65, CD16, iNOS, and CD86 were detected by Western blot. <sentence_start/>(d) Quantitative analysis of Western blots. <sentence_start/>(A) Control group, (B) model group, (C) ER stress group, and (D) depletion group. <sentence_start/><sup>∗</sup>ER stress group vs. model group. <sentence_start/><sup>#</sup>ER stress group vs. depletion group, <italic toggle=\"yes\">P</italic> &lt; 0.05."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Kupffer cell-derived TNF-<italic toggle=\"yes\">α</italic> triggers the apoptosis of HSCs by promoting the activation of TNF-R1/caspase 8. <sentence_start/>(a) The level of TNF-<italic toggle=\"yes\">α</italic> in each group of KCs by Western blot. <sentence_start/>(b) Quantitative analysis of Western blots. <sentence_start/>(c) The levels of TNF-<italic toggle=\"yes\">α</italic> in the cell supernatants were analyzed by ELISA. <sentence_start/>(d) The apoptosis of the activated HSCs in each group was detected by TUNEL staining. <sentence_start/>(e) Flow cytometry was also utilized to examine the apoptosis of active HSCs. <sentence_start/>(f) The expression of TNF-R1, C-caspase 8, and C-caspase 3 in each group. <sentence_start/>(g) Quantitative analysis of Western blots. <sentence_start/>(A) Control group, (B) model group, (C) ER stress group, and (D) depletion group. <sentence_start/><sup>∗</sup>ER stress group vs. model group. <sentence_start/><sup>#</sup>Depletion group vs. ER stress group, <italic toggle=\"yes\">P</italic> &lt; 0.05."
+  }
+ ]
+}

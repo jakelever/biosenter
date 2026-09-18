@@ -1,0 +1,339 @@
+{
+ "pmid": 22967398,
+ "pmcid": 3580507,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Matrilin-3 Induction of IL-1 receptor antagonist Is required for up-regulating collagen II and aggrecan and down-regulating ADAMTS-5 gene expression"
+  },
+  {
+   "section": "abstract",
+   "text": "Introduction"
+  },
+  {
+   "section": "abstract",
+   "text": "Deletion or mutation of the gene encoding the cartilage extracellular matrix (ECM) protein matrilin-3 (<italic toggle=\"yes\">MATN3</italic>) results in the early onset of osteoarthritis (OA), suggesting chondroprotective properties of MATN3. <sentence_start/>To understand the mechanisms underlying these properties, we determined the effects of MATN3 protein on the expression of several key anabolic and catabolic genes involved in chondrocyte homeostasis, and the dependence of such regulation on the anti-inflammatory cytokine: IL-1 receptor antagonist (IL-1Ra)."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "The effects of recombinant human (rh) MATN3 protein were examined in C28/I2 immortalized human chondrocytes, primary human chondrocytes (PHCs), and primary mouse chondrocytes (PMCs). <sentence_start/>Messenger RNA levels of <italic toggle=\"yes\">IL-1Ra</italic>, <italic toggle=\"yes\">COL2A1</italic>, <italic toggle=\"yes\">ACAN</italic>, <italic toggle=\"yes\">MMP-13</italic>, and <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">-5 </italic>were determined using real-time RT-PCR. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>was achieved by siRNA gene silencing. <sentence_start/>IL-1Ra protein levels were quantified by ELISA and the Bio-Plex Suspension Array System. <sentence_start/>COL2A1 protein level was quantified using Western blot analysis. <sentence_start/>Statistic analysis was done using the two-tailed t-test or one-way ANOVA."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "rhMATN3 protein induced gene expression of <italic toggle=\"yes\">IL-1Ra </italic>in C28/I2 cells, PHCs, and PMCs in a dose- and time-dependent manner. <sentence_start/>Treatment of C28/I2 cells and PHCs with MATN3 protein stimulated gene expression of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN</italic>. <sentence_start/>Conversely, mRNA levels of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>were decreased in <italic toggle=\"yes\">MATN3 </italic>KO mice. <sentence_start/>MATN3 protein treatment inhibited IL-1β-induced <italic toggle=\"yes\">MMP-13</italic>, <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">ADAMTS-5 </italic>in C28/I2 cells and PHCs. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>abolished the MATN3-mediated stimulation of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>and inhibition of <italic toggle=\"yes\">ADAMTS-5</italic>, but had no effect on MATN3 inhibition of <italic toggle=\"yes\">MMP-13 </italic>mRNA."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "Our findings point to a novel regulatory role of MATN3 in cartilage homeostasis due to its capacity to induce <italic toggle=\"yes\">IL-1Ra</italic>, to upregulate gene expression of the major cartilage matrix components, and to downregulate the expression of OA-associated matrix-degrading proteinases in chondrocytes. <sentence_start/>The chondroprotective properties of endogenous MATN3 depend partly on its induction of IL-1Ra. <sentence_start/>Our findings raise a possibility to use rhMATN3 protein for anti-inflammatory and chondroprotective therapy."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Matrilin-3 (<italic toggle=\"yes\">MATN3</italic>) is one of the four members of the matrilin family of noncollagenous oligomeric ECM proteins [<citation ref-type=\"bibr\" rid=\"B1\" doi=\"10.1016/S0945-053X(98)00006-7\" pmid=\"10367731\" count=\"1\">1</citation>-<citation ref-type=\"bibr\" rid=\"B4\" doi=\"10.1074/jbc.M100587200\" pmid=\"11279097\" count=\"1\">4</citation>]. <sentence_start/>As the smallest member of this family, it contains a single Von Willebrand Factor A (vWFA) domain, four epidermal growth factor (EGF)-like domains, and an alpha-helical oligomerization domain, which allows it to form oligomers with itself or other matrilin molecules [<citation ref-type=\"bibr\" rid=\"B5\" doi=\"10.1074/jbc.275.6.3999\" pmid=\"10660556\" count=\"1\">5</citation>]. <sentence_start/>As an extracellular matrix (ECM) protein, MATN3 was thought to play a major structural role in forming a filamentous matrix network by interacting with collagen fibrils, multiple proteoglycans, and other glycoproteins [<citation ref-type=\"bibr\" rid=\"B5\" doi=\"10.1074/jbc.275.6.3999\" pmid=\"10660556\" count=\"1\">5</citation>]. <sentence_start/>Mutations in human <italic toggle=\"yes\">MATN3 </italic>are associated with a variety of skeletal diseases including multiple epiphyseal dysplasia (MED), spondylo-epi-metaphyseal dysplasia (SEMD), and osteoarthritis (OA) [<citation ref-type=\"bibr\" rid=\"B6\" doi=\"10.1002/ajmg.a.20034\" pmid=\"12884427\" count=\"1\">6</citation>-<citation ref-type=\"bibr\" rid=\"B9\" doi=\"10.1136/jmg.2003.013342\" pmid=\"15121775\" pmcid=\"PMC1735768\" count=\"1\">9</citation>], underscoring its importance in cartilage development and homeostasis. <sentence_start/>Deletion of the <italic toggle=\"yes\">MATN3 </italic>gene in mice results in no gross skeletal deformity at birth; it does however, cause acceleration of cartilage degeneration during aging [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.2353/ajpath.2006.050981\" pmid=\"16877353\" pmcid=\"PMC1698783\" count=\"1\">10</citation>]. <sentence_start/>Furthermore, <italic toggle=\"yes\">MATN3 </italic>gene expression is increased in articular cartilage tissues from OA patients [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1053/joca.2001.0508\" pmid=\"11950247\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "OA is characterized as a disregulation of cartilage homeostasis due to excessive upregulation of catabolic factors and the inability of the chondrocytes to adequately repair the degraded matrix, resulting ultimately in degeneration of the major cartilage ECM components such as type II collagen fibrils and aggrecan [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1016/j.berh.2008.02.001\" pmid=\"18455690\" count=\"1\">12</citation>-<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1172/JCI118475\" pmid=\"8609233\" pmcid=\"PMC507114\" count=\"1\">15</citation>]. <sentence_start/>ECM catabolism is largely mediated by the matrix metalloproteinase (MMP) family of collagenases, including MMP-13, and by the ADAMTS family of aggrecanases (ADAMTS-4 and -5) [<citation ref-type=\"bibr\" rid=\"B14\" pmid=\"9461124\" count=\"1\">14</citation>-<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1038/nature03417\" pmid=\"15800625\" count=\"1\">21</citation>]. <sentence_start/>They are often expressed in chondrocytes in response to major inflammatory cytokines such as IL-1β produced by the synovium and other joint tissues [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1016/j.berh.2008.02.001\" pmid=\"18455690\" count=\"1\">12</citation>]. <sentence_start/>Furthermore, there is a correlation between the increased levels of these catabolic enzymes and inflammatory mediators such as prostaglandins, nitric oxide (NO), and pro-inflammatory cytokines such as IL-1β and TNF-α in synovial fluids and joint tissue. <sentence_start/>Previous studies have implicated IL-1β as one of the major inflammatory cytokines associated with cartilage damage [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1016/j.berh.2008.02.001\" pmid=\"18455690\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B22\" doi=\"10.1016/j.lfs.2005.05.052\" pmid=\"15979654\" count=\"1\">22</citation>-<citation ref-type=\"bibr\" rid=\"B25\" doi=\"10.3899/jrheum.080346\" pmid=\"18925684\" count=\"1\">25</citation>] due to its ability to induce or upregulate the expression of proteinases, including MMPs, plasminogen activator, and aggrecanases [<citation ref-type=\"bibr\" rid=\"B25\" doi=\"10.3899/jrheum.080346\" pmid=\"18925684\" count=\"1\">25</citation>-<citation ref-type=\"bibr\" rid=\"B30\" doi=\"10.1002/art.22334\" pmid=\"17265492\" count=\"1\">30</citation>], and to downregulate the expression of endogenous proteinase inhibitors (for example, certain TIMPs) [<citation ref-type=\"bibr\" rid=\"B22\" doi=\"10.1016/j.lfs.2005.05.052\" pmid=\"15979654\" count=\"1\">22</citation>,<citation ref-type=\"bibr\" rid=\"B31\" pmid=\"9727371\" doi=\"10.1681/ASN.V991629\" count=\"1\">31</citation>] and cartilage matrix components such as COL2A1 and ACAN [<citation ref-type=\"bibr\" rid=\"B32\" doi=\"10.1016/0167-4889(94)90209-7\" pmid=\"8130279\" count=\"1\">32</citation>-<citation ref-type=\"bibr\" rid=\"B34\" doi=\"10.1083/jcb.99.1.208\" pmid=\"6736128\" pmcid=\"PMC2275622\" count=\"1\">34</citation>]. <sentence_start/>IL-1 stimulates production of pro-inflammatory factors including prostaglandins, leukotrienes and itself [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1016/j.berh.2008.02.001\" pmid=\"18455690\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B35\" doi=\"10.1210/jc.84.6.2204\" pmid=\"10372732\" count=\"1\">35</citation>,<citation ref-type=\"bibr\" rid=\"B36\" doi=\"10.1210/jc.86.3.1387\" pmid=\"11238536\" count=\"1\">36</citation>]. <sentence_start/>Importantly, IL-1, IL-1 receptor, and MMPs are expressed by chondrocytes in OA cartilage and can be immunolocalized to the same regions [<citation ref-type=\"bibr\" rid=\"B37\" doi=\"10.1002/1529-0131(200103)44:3&lt;585::AID-ANR107&gt;3.0.CO;2-C\" pmid=\"11263773\" count=\"1\">37</citation>-<citation ref-type=\"bibr\" rid=\"B40\" doi=\"10.1016/j.bbrc.2011.01.007\" pmid=\"21219853\" pmcid=\"PMC3937866\" count=\"1\">40</citation>]. <sentence_start/>Inhibition of the IL-1β pathway presents a promising means of preventing cartilage degradation during OA pathogenesis. <sentence_start/>One of the major endogenous inhibitors of the IL-1 pathway is IL-1 receptor antagonist (IL-1Ra) [<citation ref-type=\"bibr\" rid=\"B41\" doi=\"10.1186/ar94\" pmid=\"11094434\" pmcid=\"PMC130011\" count=\"1\">41</citation>-<citation ref-type=\"bibr\" rid=\"B43\" doi=\"10.1016/j.berh.2003.09.009\" pmid=\"15123036\" count=\"1\">43</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In this study we aimed to test whether MATN3 can positively regulate cartilage homeostasis genes, including those downstream of IL-1, in a manner that can help explain its chondroprotective function. <sentence_start/>Here we report for the first time several novel regulatory functions of MATN3 including induction of <italic toggle=\"yes\">IL-1Ra</italic>, stimulation of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>expression, and inhibition of <italic toggle=\"yes\">MMP-13 </italic>and <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">-5 </italic>expression. <sentence_start/>We also tested whether these novel regulatory properties of MATN3 depend on its induction of <italic toggle=\"yes\">IL-1Ra</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "MATN3 knockout animals"
+  },
+  {
+   "section": "article",
+   "text": "For the purpose of comparing <italic toggle=\"yes\">Col2a1 </italic>and <italic toggle=\"yes\">Acan </italic>expression between wild-type and <italic toggle=\"yes\">MATN3 </italic>knockout (KO) mice of the same C57BL/6J genetic background, mRNA was extracted from the whole hind limbs of these mice at embryonic day 18.5. <sentence_start/>Generation of <italic toggle=\"yes\">MATN3 </italic>KO mice have previously been described [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.2353/ajpath.2006.050981\" pmid=\"16877353\" pmcid=\"PMC1698783\" count=\"1\">10</citation>]. <sentence_start/>An in-frame stop codon was introduced into the second exon of their <italic toggle=\"yes\">MATN3 </italic>gene via homologous recombination during the embryonic stem cell stage, rendering these mice functionally MATN3-null animals. <sentence_start/>All experiments were performed with the approval of the Rhode Island Hospital Institutional Animal Care and Use Committee (IACUC, number 0231-11)."
+  },
+  {
+   "section": "article",
+   "text": "Isolation of primary chondrocytes from human and mouse cartilage"
+  },
+  {
+   "section": "article",
+   "text": "Primary mouse chondrocytes (PMCs) were isolated from the rib cages of 6-day-old mice. <sentence_start/>Primary human chondrocytes (PHCs) were isolated from normal-looking areas of knee articular cartilage obtained from five patients undergoing total joint replacement surgery. <sentence_start/>Cartilage samples were individually handled and processed separately to isolate chondrocytes. <sentence_start/>Each cartilage sample was washed twice with sterile PBS within 2 hours of tissue collection and diced into small fragments. <sentence_start/>Cartilage fragments were digested in 5.0 ml of Pronase (Roche, Indianapolis, IN, USA) in Hank's Balanced Salt Solution (HBSS) at a concentration of 2.0 mg/ml for 30 minutes at 37°C under shaking conditions. <sentence_start/>The digestion solution was removed and cartilage was washed twice with DMEM medium (Life Technologies, Grand Island, NY, USA). <sentence_start/>After a second wash, DMEM was removed and replaced with 5.0 ml of Type IA Crude Bacterial Collagenase (Sigma-Aldrich, St. Louis, MO, USA) at 1.0 mg/ml for 8 hours at 37°C under shaking conditions. <sentence_start/>Collagenase enzyme reaction was stopped by adding 5.0 ml of DMEM medium containing 10% fetal bovine serum (FBS) (Life Technologies) into the digestion mix. <sentence_start/>Solution was filtered using a 100 μm nylon cell strainer (BD, Franklin Lakes, NJ, USA) to remove clumps, followed by centrifugation at 1500 rpm to pellet the successfully isolated chondrocytes. <sentence_start/>Pellet was washed twice with DMEM medium and cells were counted using a hemocytometer. <sentence_start/>Finally, chondrocytes were plated at high density (4.0 × 10<sup>6 </sup>cells) in 60-mm cell culture dishes using DMEM medium supplemented with 10% FBS and 0.2% Streptomycin (Life Technologies). <sentence_start/>All studies involving patient tissue samples were conducted in accordance with the Institutional Review Board (IRB) of Rhode Island Hospital. <sentence_start/>The need to obtain patient consent for the collection of cartilage tissue after surgery was waived by the Rhode Island Hospital IRB."
+  },
+  {
+   "section": "article",
+   "text": "Chondrocyte cell culture studies"
+  },
+  {
+   "section": "article",
+   "text": "Cell culture experiments were conducted using PMCs, PHCs, and C28/I2 immortalized human chondrocytes, and involved first plating cells in 6-well culture plates at 200,000 viable cells per well in 1:1 DMEM/F-12 media (Life Technologies) supplemented with 10% FBS. <sentence_start/>After 48 hours, the culture medium was replaced with 2.0 ml of serum-free 1:1 DMEM/F-12 and incubated for 5 hours prior to treatment with recombinant human (rh) MATN3 protein (100 ng/ml or 200 ng/ml) (R&amp;D Systems, Minneapolis, MN, USA) and/or rhIL-1β (5.0 ng/ml) (PeproTech, Rocky Hill, NJ, USA) for 8 to 36 hours, unless otherwise stated. <sentence_start/>To optimize the induction of catabolic proteases (that is, MMP-13, ADAMTS family) by IL-1 in both primary and immortalized chondrocytes, we used serum-free media for the duration of the treatment period as in a previous study [<citation ref-type=\"bibr\" rid=\"B44\" doi=\"10.1074/jbc.M111.265744\" pmid=\"22158614\" pmcid=\"PMC3271009\" count=\"1\">44</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Small interfering RNA-based silencing of IL-1Ra in PHCs"
+  },
+  {
+   "section": "article",
+   "text": "PHCs were transfected for 48 hours at approximately 40 to 50% cell confluency with a small interfering RNA (IL1RN ON-TARGETplus siRNA) (Dharmacon, Chicago, IL, USA) using Lipofectamine 2000 (Invitrogen, Carlsbad, CA, USA) according to the manufacturer's instructions. <sentence_start/>The siRNA targets and suppresses the mRNA and protein expression of all four endogenous isoforms of human IL-1Ra. <sentence_start/>A non-silencing siRNA (Allstars Negative Control siRNA) (Qiagen, Valencia, CA, USA) was used as control. <sentence_start/>PHCs were plated at 200,000 viable cells per well in 6-well culture plates 24 hours prior to siRNA transfection procedure. <sentence_start/>For each well, 40 pmol of siRNA and 2.0 uL of Lipofectamine 2000 were utilized for transfection. <sentence_start/>The 40 pmol of siRNA was first diluted in 100 uL of Opti-MEM I Reduced Serum Media. <sentence_start/>Likewise, 2.0 uL of Lipofectamine 2000 was diluted in 100 uL of Opti-MEM I Reduced Serum Media. <sentence_start/>After 5 minutes at room temperature, the siRNA and lipid mediator solutions were gently mixed, incubated at room temperature for 20 minutes, and then added to cell culture wells containing 1.0 ml of incomplete DMEM media. <sentence_start/>Cells were placed in a 37°C incubator and media was changed after 8 hours. <sentence_start/>PHCs were treated with MATN3 and/or IL-1β 48 hours post transfection for subsequent cell culture experiments."
+  },
+  {
+   "section": "article",
+   "text": "Gene expression analysis"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was isolated from PMCs, PHCs, C28/I2 cells and the hind limbs of embryonic day 18.5 wild-type and <italic toggle=\"yes\">MATN3 </italic>KO mice on the C57BL/6J genetic background [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.2353/ajpath.2006.050981\" pmid=\"16877353\" pmcid=\"PMC1698783\" count=\"1\">10</citation>] using the RNAqueous Kit (Ambion, Austin, TX, USA) according to the manufacturer's instructions. <sentence_start/>Gene expression analysis was conducted by real time quantitative PCR (RT-qPCR) with the DNA Engine Opticon 2 (Bio-Rad, Hercules, CA, USA) using the QuantiTect SYBR Green PCR kit (Qiagen). <sentence_start/>For RT-qPCR, 0.5 ug of RNA was reverse-transcribed using iScript cDNA Synthesis Kit (Bio-Rad) according to the manufacturer's instructions. <sentence_start/>The cDNA of each sample was subjected to RT-qPCR using species-specific primer pairs for genes encoding <italic toggle=\"yes\">IL-1Ra</italic>, <italic toggle=\"yes\">type II collagen</italic>, <italic toggle=\"yes\">aggrecan</italic>, <italic toggle=\"yes\">MMP-13</italic>, and soluble <italic toggle=\"yes\">(s)IL-1Ra</italic>. <sentence_start/>Exact primer sequences can be found in Table 1. <sentence_start/>Relative transcript levels were calculated using the delta-delta Ct (ΔΔCt) method, normalized to rRNA 18S expression according to the following equation: X = 2 <sup>-ΔΔCt</sup>, in which ΔΔCt = (Ct<sub>Exp </sub>- Ct<sub>18S</sub>) - (Ct<sub>Ctl </sub>- Ct<sub>18S</sub>) and X = Relative transcript; Ct<sub>Ctl </sub>= Ct of control group."
+  },
+  {
+   "section": "article",
+   "text": "Protein analysis"
+  },
+  {
+   "section": "article",
+   "text": "The Human IL-1ra/IL-1F3 Immunoassay (R&amp;D Systems) and the MMP-13 Human ELISA Kit (Abcam, Cambridge, MA) were used to quantify IL-1Ra and MMP-13 protein levels, respectively, in PHCs 24 hours following treatment with MATN3 and/or IL-1β, according to the manufacturer's instructions. <sentence_start/>PHCs were seeded at a cell density of 100,000 cells/well in 12-well cell culture plates. <sentence_start/>After 24 hours, media were changed to be serum-free and each group was treated with MATN3 and/or IL-1β as appropriate. <sentence_start/>Conditioned media were collected 24 hours later, spun down to remove any cell debris and immediately frozen down at -80°C until assays were ready to be performed. <sentence_start/>The minimum detectable level of IL-1Ra and MMP-13 by these assays were 30 pg/ml and 6.0 pg/ml, respectively."
+  },
+  {
+   "section": "article",
+   "text": "The Bio-Plex Suspension Array System (Bio-Rad) was used to measure soluble IL-1Ra protein levels in cell culture medium of PHCs transiently transfected with either an siRNA against <italic toggle=\"yes\">IL-1Ra </italic>or a non-silencing scrambled control siRNA. <sentence_start/>Transiently transfected PHCs were collected 36 hours following treatment with MATN3 and/or IL-1β. <sentence_start/>These samples were analyzed using Bio-Plex Pro Human Cytokine Assay in duplicate per each biological replicate (two per treatment group) according to the manufacturer's instructions. <sentence_start/>Protein quantification of type II collagen was conducted via western blot analysis using standard protocols. <sentence_start/>Prior to Western blot analysis of type II collagen protein, primary human chondrocytes transfected with either the <italic toggle=\"yes\">IL-1Ra</italic>-silencing siRNA or the non-silencing scrambled control siRNA, were seeded and cultured for 48 hours in DMEM containing 10% FBS in the presence and absence of rhMATN3 (200 ng/ml) and/or IL-1β (5.0 ng/ml). <sentence_start/>Cell culture pellets were resuspended in 50 uL of RIPA buffer (Cell Signaling Technology, Boston, MA, USA) containing protease inhibitors. <sentence_start/>Protein concentrations were determined using a Bradford Assay (Bio-Rad), according to the manufacturer's instructions, and a NanoDrop 2000c (Thermo Fisher Scientific, Rockford, IL, USA). <sentence_start/>Western blot analysis was performed using standard protocols. <sentence_start/>A previously characterized mAb against collagen II [<citation ref-type=\"bibr\" rid=\"B45\" doi=\"10.3109/03008209409005631\" pmid=\"15609618\" count=\"1\">45</citation>,<citation ref-type=\"bibr\" rid=\"B46\" doi=\"10.1016/j.joca.2007.12.011\" pmid=\"18282772\" pmcid=\"PMC2596998\" count=\"1\">46</citation>] (NeoMarkers, Fremont, CA, USA) was used as the primary antibody. <sentence_start/>Beta-actin was used as a loading control for normalization. <sentence_start/>Imaging was done using the Odyssey Infrared Imager (LI-COR Biosciences, Lincoln, NE, USA). <sentence_start/>Western band intensities were quantified using ImageJ software program (NIH, Bethesda, MD, USA)."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Mean values were calculated and are presented with error bars representing ± SDM (one standard deviation of the mean). <sentence_start/>Two-tailed <italic toggle=\"yes\">t</italic>-tests were used to analyze data represented in Figure 1B and 2D. For all else, statistical analysis was done using one-way analysis of variance (ANOVA) followed by post hoc test analysis. <sentence_start/>Statistical significance was accepted at <italic toggle=\"yes\">P </italic>&lt; 0.05 for all analyses."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Matrilin-3 MATN3) enhances IL-1Ra expression by chondrocytes</bold>. <sentence_start/>Recombinant human (rh) MATN3 protein enhances the gene expression of <italic toggle=\"yes\">IL-1Ra </italic>in a dose-dependent manner at 12 hours post cell culture treatment as seen here in C28/I2 cells (<bold>A</bold>). <sentence_start/>Recombinant MATN3 also enhances <italic toggle=\"yes\">IL-1Ra </italic>expression in primary mouse chondrocytes after 24 hours of treatment (<bold>B</bold>). <sentence_start/>MATN3-induced <italic toggle=\"yes\">IL-1Ra </italic>gene expression is evident in primary human chondrocytes (PHCs) at 24 hours post treatment in both the presence and absence of IL-1β (<bold>C</bold>). <sentence_start/>PHCs treated with both MATN3 and IL-1β for 24 hours exhibit significantly higher concentrations of IL-1Ra protein in their cell media, relative to the media of cells treated with IL-1β alone (<bold>D</bold>). <sentence_start/>In these experiments, rh MATN3 protein is used at one of two concentrations: lower dose (+) of 100 ng/ml, or higher dose (++) of 200 ng/ml. <sentence_start/>Rh IL-1β protein treatment is always 5.0 ng/ml. *Significant differences (<italic toggle=\"yes\">P </italic>≤ 0.05) from the untreated control group; <sup>#</sup>significant differences (<italic toggle=\"yes\">P </italic>≤ 0.05) from the IL-1β only treated group. <sentence_start/>Data are representative of three individual experiments."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Matrilin-3 (MATN3) maintains the expression of key cartilage extracellular matrix (ECM) genes</bold>. <sentence_start/>Recombinant human (rh) MATN3 treatment maintains type II collagen (<italic toggle=\"yes\">COL2A1</italic>) gene expression in the presence and absence of IL-1β in C28/I2 cells (<bold>A</bold>) and primary human chondrocytes (PHCs) (<bold>B</bold>) at 8 hours. <sentence_start/>MATN3 also inhibits the IL-1β-induced downregulation of aggrecan (<italic toggle=\"yes\">ACAN</italic>) gene expression in PHCs at 36 hours (<bold>C</bold>). <sentence_start/>Whole limb mRNA analysis of newborn <italic toggle=\"yes\">MATN3 </italic>knockout (KO) mice of the C57BL/6J background reveal lower basal gene expression of <italic toggle=\"yes\">Col21a </italic>and <italic toggle=\"yes\">Acan </italic>compared to wild-type mice of the same genetic background (<bold>D</bold>). <sentence_start/>For all cell culture experiments, rh MATN3 protein is used at 200 ng/ml. <sentence_start/>Rh IL-1β protein treatment is always 5.0 ng/ml. *Significant differences (<italic toggle=\"yes\">P </italic>≤ 0.05) from the untreated control group; <sup>#</sup>significant differences (<italic toggle=\"yes\">P </italic>≤ 0.05) from the IL-1β only treated group. <sentence_start/>For cell culture experiments, data are representative of three individual experiments (<italic toggle=\"yes\">n </italic>= 5 for mouse whole limb mRNA studies)."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "MATN3 induces gene expression of IL-1Ra"
+  },
+  {
+   "section": "article",
+   "text": "IL-1Ra is a potent endogenous inhibitor of the IL-1 pathway [<citation ref-type=\"bibr\" rid=\"B37\" doi=\"10.1002/1529-0131(200103)44:3&lt;585::AID-ANR107&gt;3.0.CO;2-C\" pmid=\"11263773\" count=\"1\">37</citation>,<citation ref-type=\"bibr\" rid=\"B38\" doi=\"10.1074/jbc.M002721200\" pmid=\"11007768\" count=\"1\">38</citation>]. <sentence_start/>To determine whether MATN3 affects IL-1Ra synthesis, we treated immortalized human C28/I2 chondrocytes with rhMATN3 protein. <sentence_start/>MATN3 induced mRNA expression of <italic toggle=\"yes\">IL-1Ra </italic>in a dose-dependent manner (Figure 1A). <sentence_start/>We also observed an increase of <italic toggle=\"yes\">IL-1Ra </italic>mRNA levels in PMCs treated with rhMATN3 protein (Figure 1B). <sentence_start/>RhMATN3 protein induced <italic toggle=\"yes\">IL-1Ra </italic>mRNA in PHCs in the presence or absence of IL-1β (Figure 1C). <sentence_start/>Treating PHCs with MATN3 in the presence of IL-1β significantly enhanced IL-1Ra protein concentration in culture medium compared to that of cells treated with IL-1β alone (Figure 1D). <sentence_start/>The kinetics of <italic toggle=\"yes\">IL-1Ra </italic>mRNA induction by MATN3 in C28/I2 cells and PHCs was also analyzed (see Additional file 1). <sentence_start/>The induction of <italic toggle=\"yes\">IL-1Ra </italic>mRNA persisted during a 24-hour treatment period with more pronounced induction in the shorter incubation period. <sentence_start/>Thus, MATN3 induces the mRNA and protein expression of IL-1Ra in chondrocytes."
+  },
+  {
+   "section": "article",
+   "text": "MATN3 stimulates expression of COL2A1 and ACAN"
+  },
+  {
+   "section": "article",
+   "text": "To investigate whether MATN3 stimulates type II collagen gene (<italic toggle=\"yes\">COL2A1</italic>) expression in chondrocytes, we treated C28/I2 cells (Figure 2A) and PHCs (Figure 2B) with rhMATN3 protein for 8 hours. <sentence_start/>We observed a significant induction of <italic toggle=\"yes\">COL2A1 </italic>expression in these chondrocytes. <sentence_start/>MATN3 induction of <italic toggle=\"yes\">COL2A1 </italic>was also observed after 24 hours treatment (see Additional file 2). <sentence_start/>While treatment with IL-1β significantly decreased <italic toggle=\"yes\">COL2A1 </italic>mRNA levels in both C28/I2 cells and PHCs, treatment with MATN3 at the same time reversed this decrease (Figure 2A,B). <sentence_start/>MATN3 treatment also increased aggrecan gene (<italic toggle=\"yes\">ACAN</italic>) expression by PHCs in the presence of IL-1β (Figure 2C)."
+  },
+  {
+   "section": "article",
+   "text": "To determine whether the lack of <italic toggle=\"yes\">MATN3 </italic>affects the expression of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>in chondrocytes, we analyzed RNA isolated from the limbs of <italic toggle=\"yes\">MATN3 </italic>KO and wild-type mice. <sentence_start/>The <italic toggle=\"yes\">MATN3 </italic>KO mice exhibited 50% reduction of <italic toggle=\"yes\">Col2a1 </italic>and <italic toggle=\"yes\">Acan </italic>mRNA levels compared to their wild-type littermates (Figure 2D) indicating that the absence of <italic toggle=\"yes\">MATN3 </italic>suppresses the expression of these two genes."
+  },
+  {
+   "section": "article",
+   "text": "MATN3 inhibits gene expression of MMP-13, ADAMTS-4 and ADAMTS-5"
+  },
+  {
+   "section": "article",
+   "text": "We next examined whether MATN3 could inhibit the expression of IL-1β-induced protease genes. <sentence_start/>In C28/I2 cells, IL-1β treatment increased <italic toggle=\"yes\">MMP-13 </italic>mRNA levels and MATN3 treatment decreased <italic toggle=\"yes\">MMP-13 </italic>expression in both the presence and absence of IL-1β (Figure 3A). <sentence_start/>IL-1β treatment also increased <italic toggle=\"yes\">MMP-13 </italic>gene expression by PHCs and elevated <italic toggle=\"yes\">MMP-13 </italic>mRNA levels and protein concentrations in PHC-conditioned media while treatment with MATN3 abrogated this increase significantly (Figure 3B, C). <sentence_start/>Likewise, the IL-1β-induced <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">-5 </italic>gene expression was inhibited by MATN3 in C28/I2 cells (Figure 3D), and in PHCs (Figure 3E)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Matrilin-3 MATN3) inhibits the expression of several osteoarthritis (OA)-associated proteases</bold>. <sentence_start/>Recombinant human (rh) MATN3 protein inhibits the gene expression of metalloproteinase (MMP)-13 in a dose-dependent manner in the presence and absence of IL-1β in C28/I2 cells (<bold>A</bold>). <sentence_start/>MATN3 inhibits IL-1β-induced <italic toggle=\"yes\">MMP-13 </italic>mRNA levels (<bold>B</bold>) and protein levels in primary human chondrocyte (PHC)-conditioned media (<bold>C</bold>). <sentence_start/>MATN3 inhibits the mRNA expression of OA-associated proteases <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">ADAMTS-5 </italic>in C28/I2 cells (<bold>D</bold>) and PHCs (<bold>E</bold>). <sentence_start/><italic toggle=\"yes\">MMP-13 </italic>mRNA and protein analysis were conducted after MATN3 treatment for 24 hours. <sentence_start/>In these experiments, rh MATN3 protein is used at one of two concentrations: lower dose (+) of 100 ng/ml, or higher dose (++) of 200 ng/ml. <sentence_start/>Rh IL-1β protein treatment is always 5.0 ng/ml. <sentence_start/>*<italic toggle=\"yes\">P </italic>≤ 0.05, **<italic toggle=\"yes\">P </italic>≤ 0.01, for statistically significant differences from the untreated control group; <sup>#</sup><italic toggle=\"yes\">P </italic>≤ 0.05, <sup>##</sup><italic toggle=\"yes\">P </italic>≤ 0.01 for statistically significant differences from the IL-1β only treated group. <sentence_start/>Data are representative of three individual experiments."
+  },
+  {
+   "section": "article",
+   "text": "IL-1Ra mRNA and soluble protein levels are diminished by IL1Ra siRNA"
+  },
+  {
+   "section": "article",
+   "text": "Previous studies have shown that IL-1Ra antagonizes IL-1β stimulation of catabolic gene expression and its inhibition of anabolic gene expression. <sentence_start/>We hypothesize that the chondroprotective properties of MATN3 are dependent on its upregulation of <italic toggle=\"yes\">IL-1Ra</italic>. <sentence_start/>To test whether MATN3 acts through IL-1Ra to regulate the expression of anabolic and OA-associated catabolic genes, we first knocked down all isoforms of IL-1Ra using a small interfering RNA (siRNA). <sentence_start/>Since the endogenous soluble IL-1Ra protein levels present in C28/I2 cell supernatants were too low to accurately quantify, all knock-down experiments were conducted in PHCs. <sentence_start/>The siRNA transfection successfully knocked down both <italic toggle=\"yes\">IL-1Ra </italic>mRNA (Figure 4A, B) and protein expression (Figure 4C) in PHCs, both in the presence and absence of IL-1β."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Small interfering RNA significantly suppresses mRNA and protein levels of IL-1Ra</bold>. <sentence_start/>Knocking down all isoforms of IL-1Ra via IL1RN siRNA treatment reduces the IL-1β induction of this gene as observed at two time points (24, 36 hours) post cell culture treatment (<bold>A</bold>, <bold>B</bold>). <sentence_start/>This also results in significant reduction of soluble IL-1Ra protein levels in primary human chondrocyte (PHC) cell supernatants after 24 hours (<bold>C</bold>). <sentence_start/>PHCs treated with a nonspecific scrambled siRNA construct is used as the control group. <sentence_start/>For these experiments, recombinant human (rh) matrilin-3 (MATN3) protein is used at 200 ng/ml. <sentence_start/>Rh IL-1β protein treatment is always 5.0 ng/ml. <sentence_start/>*<italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences between groups. <sentence_start/>Data are representative of three individual experiments."
+  },
+  {
+   "section": "article",
+   "text": "MATN3 stimulation of COL2A1 and ACAN depends on IL-1Ra"
+  },
+  {
+   "section": "article",
+   "text": "We then determined the effect of MATN3 on <italic toggle=\"yes\">COL2A1 </italic>expression in <italic toggle=\"yes\">IL-1Ra </italic>knocked-down PHCs. <sentence_start/>In the control cells, which were transfected with a scrambled siRNA construct, MATN3 treatment rescued the IL-1β induced downregulation of <italic toggle=\"yes\">COL2A1 </italic>mRNA (Figure 5A, left). <sentence_start/>COL2A1 protein levels were also enhanced by MATN3 treatment in both the absence and presence of IL-1β (Figure 5B). <sentence_start/>In contrast, MATN3 was incapable of enhancing <italic toggle=\"yes\">COL2A1 </italic>mRNA (Figure 5A, right) or protein levels (Figure 5B) in cells transfected with the IL-1Ra siRNA. <sentence_start/>Similarly, MATN3 reduced the extent of IL-1β-induced downregulation of <italic toggle=\"yes\">ACAN </italic>mRNA expression in cells transfected with the scrambled siRNA construct (Figure 5C, left) but not in cells transfected with the IL-1Ra siRNA (Figure 5C, right)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Matrilin-3 MATN3) regulation of type II collagen (COL2A1) and aggrecan (ACAN) gene expression, as well as COL2A1 protein expression requires IL-1Ra</bold>. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>abolishes the ability of recombinant human (rh) MATN3 protein to maintain <italic toggle=\"yes\">COL2A1 </italic>gene expression in primary human chondrocytes (PHCs) that are challenged with IL-1β (<bold>A</bold>). <sentence_start/>A significant reduction in the basal gene expression of <italic toggle=\"yes\">COL2A1 </italic>is also observed in <italic toggle=\"yes\">IL-1Ra </italic>knock-down PHCs. <sentence_start/>PHCs cultured for 48 hours in media supplemented with rh MATN3 protein (200 ng/ml) exhibit increased <italic toggle=\"yes\">COL2A1 </italic>protein levels; however, upon suppressing <italic toggle=\"yes\">IL-1Ra </italic>via siRNA-based gene knock-down, MATN3 enhancement of collagen is diminished according to western blot analysis (<bold>B</bold>). <sentence_start/>Relative quantification of band intensity is the accumulated result of three individual experiments (<italic toggle=\"yes\">n </italic>= 3). <sentence_start/>Knocking down of <italic toggle=\"yes\">IL-1Ra </italic>also abolishes MATN3 stimulation of <italic toggle=\"yes\">ACAN </italic>gene expression (<bold>C</bold>). <sentence_start/>The concentration of rh MATN3 protein used was 200 ng/ml and of IL-1β was 5.0 ng/ml for all experiments. <sentence_start/>(<bold>A</bold>, <bold>C) </bold>Gene expression analysis was conducted 36 hours post exposure to cell culture treatment conditions. <sentence_start/><sup>#</sup><italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences from the untreated group; *<italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences between groups. <sentence_start/>(<bold>B) </bold>*<italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences from the untreated control group. <sentence_start/>Individual experiments were done in biological triplicate per patient sample. <sentence_start/>Data are representative of five individual experiments."
+  },
+  {
+   "section": "article",
+   "text": "MATN3 inhibition of ADAMTS-5, but not of MMP-13, depends on IL-1Ra"
+  },
+  {
+   "section": "article",
+   "text": "To test whether MATN3 inhibition of matrix proteases is dependent on IL-1Ra, we quantified their expression levels in the <italic toggle=\"yes\">IL-1Ra </italic>knock-down chondrocytes. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>chondrocytes significantly increased the basal level of <italic toggle=\"yes\">ADAMTS-5 </italic>expression (Figure 6A, compare conditions in the absence of MATN3 or IL-1β). <sentence_start/>The presence of MATN3 significantly inhibited the upregulation of <italic toggle=\"yes\">ADAMTS-5 </italic>by IL-1β (Figure 6A, left panel, <italic toggle=\"yes\">P </italic>≤ 0.05). <sentence_start/>However, this inhibition was not significant in <italic toggle=\"yes\">IL-1Ra </italic>knock-down chondrocytes (Figure 6A, right panel, <italic toggle=\"yes\">P </italic>= 0.37). <sentence_start/>Thus MATN3 inhibition of <italic toggle=\"yes\">ADAMTS-5 </italic>is at least partly dependent on IL-1Ra. <sentence_start/>In contrast, knocking down <italic toggle=\"yes\">IL-1Ra </italic>did not increase the basal level of <italic toggle=\"yes\">MMP-13 </italic>gene expression (Figure 6B). <sentence_start/>In addition, MATN3 inhibition of <italic toggle=\"yes\">MMP-13 </italic>gene expression was significant in both control and <italic toggle=\"yes\">IL-1Ra </italic>knock-down cells suggesting that MATN3 inhibition of <italic toggle=\"yes\">MMP-13 </italic>is not mediated by IL-1Ra."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Matrilin-3 MATN3) inhibition of ADAMTS-5 gene expression require IL-1Ra</bold>. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>in primary human chondrocytes (PHCs) only partially affects MATN3-induced inhibition of <italic toggle=\"yes\">ADAMTS-5 </italic>(<bold>A</bold>) and does not seem to significantly affect <italic toggle=\"yes\">MMP-13 </italic>gene expression (<bold>B</bold>). <sentence_start/>The concentration of recombinant human MATN3 protein used was 200 ng/ml and of IL-1β was 5.0 ng/ml. <sentence_start/>Gene expression analysis was conducted 36 hours post exposure to cell culture treatment conditions. <sentence_start/><sup>#</sup><italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences from the untreated group; *<italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences between groups. <sentence_start/>Individual experiments were done in biological triplicate per patient sample. <sentence_start/>Data are representative of five individual experiments."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Mutations in human <italic toggle=\"yes\">MATN3 </italic>are associated with a variety of human cartilage degenerative diseases including chondrodysplasia and OA [<citation ref-type=\"bibr\" rid=\"B6\" doi=\"10.1002/ajmg.a.20034\" pmid=\"12884427\" count=\"1\">6</citation>-<citation ref-type=\"bibr\" rid=\"B9\" doi=\"10.1136/jmg.2003.013342\" pmid=\"15121775\" pmcid=\"PMC1735768\" count=\"1\">9</citation>]. <sentence_start/>These genetic studies strongly suggest that the normal <italic toggle=\"yes\">MATN3 </italic>gene product is chondroprotective. <sentence_start/>Since MATN3 protein is an ECM protein, an accepted hypothesis is that its chondroprotective activity is due to its structural properties, which may help to maintain tissue integrity [<citation ref-type=\"bibr\" rid=\"B47\" doi=\"10.1128/MCB.25.23.10465-10478.2005\" pmid=\"16287859\" pmcid=\"PMC1291247\" count=\"1\">47</citation>]. <sentence_start/>In this study however, we hypothesized that MATN3 may also be capable of preventing the IL-1β-induced disregulation of cartilage homeostasis genes thereby preventing the hallmark of OA development."
+  },
+  {
+   "section": "article",
+   "text": "Here we demonstrated that rhMATN3 protein induces gene expression of <italic toggle=\"yes\">IL-1Ra </italic>in three chondrocyte culture models: immortalized human C28/I2 chondrocytes, PHCs and PMCs. <sentence_start/>MATN3 increased <italic toggle=\"yes\">IL-1Ra </italic>mRNA production in the presence and absence of the inflammatory cytokine IL-1β in a dose- and time-dependent manner. <sentence_start/>Furthermore, MATN3 treatment increased the soluble IL-1Ra protein levels in the presence of IL-1β in chondrocytes, as determined by ELISA and Bio-Plex Array analysis."
+  },
+  {
+   "section": "article",
+   "text": "IL-1Ra, an IL-1α/β protein mimic, is a major endogenous inhibitor of the IL-1β pathway [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1016/j.berh.2008.02.001\" pmid=\"18455690\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B41\" doi=\"10.1186/ar94\" pmid=\"11094434\" pmcid=\"PMC130011\" count=\"1\">41</citation>-<citation ref-type=\"bibr\" rid=\"B43\" doi=\"10.1016/j.berh.2003.09.009\" pmid=\"15123036\" count=\"1\">43</citation>]. <sentence_start/>It binds IL-1R1, thereby preventing IL-1 downstream signaling. <sentence_start/>IL-1Ra is potentially chondroprotective, since it inhibits IL-1β, which is a major stress and inflammation cytokine that is closely associated with OA pathogenesis. <sentence_start/>The concentration of soluble IL-1Ra decreases with increasing grades of articular chondral damage in human patients [<citation ref-type=\"bibr\" rid=\"B48\" doi=\"10.1016/j.arthro.2005.08.034\" pmid=\"16325085\" count=\"1\">48</citation>]. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>results in the early onset of arthritis in multiple mouse genetic backgrounds. <sentence_start/><italic toggle=\"yes\">IL-1Ra </italic>KO mice bred in both BALB/cA and MFIx129 backgrounds developed severe inflammatory arthritis [<citation ref-type=\"bibr\" rid=\"B49\" doi=\"10.1084/jem.191.2.303\" pmid=\"10637274\" pmcid=\"PMC2195758\" count=\"1\">49</citation>]. <sentence_start/>Conversely, <italic toggle=\"yes\">in vivo </italic><italic toggle=\"yes\">IL-1Ra </italic>gene transfer reduces surgically induced OA severity in rabbits [<citation ref-type=\"bibr\" rid=\"B50\" doi=\"10.1016/S0002-9440(10)65368-0\" pmid=\"10233854\" pmcid=\"PMC1866546\" count=\"1\">50</citation>]. <sentence_start/>The level of IL-1Ra present in the rabbit synovium positively correlated with the reduction in articular cartilage lesions."
+  },
+  {
+   "section": "article",
+   "text": "Because of its chondroprotective properties, it is of paramount importance to study how <italic toggle=\"yes\">IL-1Ra </italic>gene expression is regulated. <sentence_start/>IL-1Ra is produced by many cell types including chondrocytes [<citation ref-type=\"bibr\" rid=\"B51\" doi=\"10.1172/JCI118303\" pmid=\"7593634\" pmcid=\"PMC185898\" count=\"1\">51</citation>]. <sentence_start/>It is important to recognize that the chondroprotective effects of IL-1Ra in OA are only observable when the protein is consistently present in the arthritic joint. <sentence_start/>This explains why short-lived drugs based on IL-1Ra (that is, AnikinRA) [<citation ref-type=\"bibr\" rid=\"B52\" doi=\"10.1016/j.rdc.2004.01.005\" pmid=\"15172046\" count=\"1\">52</citation>], which only last a few hours post-intra-articular injection into human patients, have limited efficacy in OA treatment [<citation ref-type=\"bibr\" rid=\"B53\" doi=\"10.1002/art.24096\" pmid=\"19248129\" count=\"1\">53</citation>]. <sentence_start/>Thus, finding a means of continuously stimulating autologous IL-1Ra production in chondrocytes may provide an effective alternative for sustaining articular cartilage integrity by dampening inflammation under arthritic conditions. <sentence_start/>We show here for the first time that MATN3 protein is capable of stimulating <italic toggle=\"yes\">IL-1Ra </italic>expression in chondrocytes. <sentence_start/>Our findings may also explain a previous report of increased <italic toggle=\"yes\">MATN3 </italic>expression in OA patients [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1053/joca.2001.0508\" pmid=\"11950247\" count=\"1\">11</citation>], since articular chondrocytes may be attempting to inhibit IL-1-induced joint tissue destruction by increasing MATN3 production as a means of recovery."
+  },
+  {
+   "section": "article",
+   "text": "To further test the hypothesis that MATN3 is chondroprotective, we examined the effect of MATN3 on the expression of anabolic genes such as <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>and catabolic genes such as <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">-5 </italic>and <italic toggle=\"yes\">MMP-13 </italic>in chondrocytes. <sentence_start/>Recombinant human MATN3 protein enhanced <italic toggle=\"yes\">COL2A1 </italic>expression while inhibiting the IL-1β-induced downregulation of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN</italic>. <sentence_start/>Conversely, the lack of MATN3 resulted in reduced basal expression of these chondrogenic genes in <italic toggle=\"yes\">MATN3 </italic>KO mice in comparison to wild-type mice of the same genetic background. <sentence_start/>The levels of both <italic toggle=\"yes\">Col2a1 </italic>and <italic toggle=\"yes\">Acan </italic>were reduced by approximately 50% compared to wild-type mice. <sentence_start/>Thus, MATN3 is necessary to maintain normal expression of these genes in cartilage. <sentence_start/>It is interesting that <italic toggle=\"yes\">MATN3 </italic>KO mice have relatively normal skeletal development [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.2353/ajpath.2006.050981\" pmid=\"16877353\" pmcid=\"PMC1698783\" count=\"1\">10</citation>] despite reduced levels of <italic toggle=\"yes\">Col2a1 </italic>and <italic toggle=\"yes\">Acan </italic>as observed here for the first time. <sentence_start/>This is consistent with the finding that <italic toggle=\"yes\">Col2a1</italic>and <italic toggle=\"yes\">Acan</italic>heterozygous KO mice have normal skeletal development at birth [<citation ref-type=\"bibr\" rid=\"B54\" doi=\"10.1101/gad.9.22.2821\" pmid=\"7590256\" count=\"1\">54</citation>,<citation ref-type=\"bibr\" rid=\"B55\" pmid=\"12975605\" doi=\"10.1023/A:1025344332099\" count=\"1\">55</citation>]. <sentence_start/>However, our data also show that, while IL-1β treatment greatly reduces the levels of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>in chondrocytes, the presence of MATN3 inhibits this further reduction of matrix synthesis by IL-1β. <sentence_start/>Since the IL-1β levels are often elevated in OA, the lack of MATN3 may result in a more severe phenotype during skeletal aging than during development. <sentence_start/>Thus, this newly discovered MATN3 property of inhibiting IL-1β may explain why the lack of MATN3 results in accelerated OA during aging despite relatively normal skeletal development in <italic toggle=\"yes\">MATN3 </italic>KO mice [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.2353/ajpath.2006.050981\" pmid=\"16877353\" pmcid=\"PMC1698783\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "MATN3 protein not only maintained expression of anabolic genes including <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>in our experiments, but also inhibited expression of catabolic genes induced by IL-1β, including <italic toggle=\"yes\">MMP-13</italic>, <italic toggle=\"yes\">ADAMTS-4 </italic>and <italic toggle=\"yes\">-5</italic>. <sentence_start/>This inhibitory effect correlated with the concentration of MATN3 protein in the culture medium. <sentence_start/>These catabolic genes are closely related to OA pathogenesis with increased gene expression and/or activity [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1016/j.berh.2008.02.001\" pmid=\"18455690\" count=\"1\">12</citation>]. <sentence_start/>The lack of the <italic toggle=\"yes\">ADAMTS-5 </italic>gene also protects cartilage degeneration from abnormal mechanical loading in the mouse joint [<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1038/nature03369\" pmid=\"15800624\" count=\"1\">20</citation>]. <sentence_start/>Thus, inhibiting gene expression of these OA-associated matrix proteases induced by IL-1β may also contribute to the chondroprotective properties of MATN3."
+  },
+  {
+   "section": "article",
+   "text": "Since MATN3 induces <italic toggle=\"yes\">IL-1Ra </italic>expression and inhibits the effects of IL-1β in chondrocytes, we determined whether these two events are dependent. <sentence_start/>Knocking down <italic toggle=\"yes\">IL-1Ra </italic>using siRNA abolished both <italic toggle=\"yes\">IL-1Ra </italic>mRNA and protein levels in chondrocytes. <sentence_start/>This was also confirmed by the failure of IL-1β treatment to induce <italic toggle=\"yes\">IL-1Ra </italic>expression in the <italic toggle=\"yes\">IL-1Ra </italic>knocked-down chondrocytes. <sentence_start/>The levels of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>mRNA levels were significantly lower in these <italic toggle=\"yes\">IL-1Ra </italic>knocked-down chondrocytes compared to wild-type chondrocytes. <sentence_start/>Furthermore, treatment with MATN3 protein failed to significantly enhance <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>mRNA levels in the presence of IL-1β. <sentence_start/>Similarly, western blot analysis indicated that silencing <italic toggle=\"yes\">IL-1Ra </italic>resulted in an overall reduction of COL2A1 protein level. <sentence_start/>Silencing <italic toggle=\"yes\">IL-1Ra </italic>also completely abolished MATN3 induction of COL2A1 protein level, both in the absence and presence of IL-1β. <sentence_start/>This suggests that the ability of MATN3 to maintain anabolic markers such as <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>in chondrocytes depends on the presence of IL-1Ra."
+  },
+  {
+   "section": "article",
+   "text": "Our study reveals that MATN3 inhibition of IL-1β-stimulated expression of catabolic proteases is mediated by both IL-1Ra-dependent and -independent pathways. <sentence_start/>In the <italic toggle=\"yes\">IL-1Ra </italic>knocked-down cells, <italic toggle=\"yes\">ADAMTS-5 </italic>mRNA levels were significantly increased in comparison to wild-type chondrocytes, while <italic toggle=\"yes\">MMP-13 </italic>mRNA levels remained unchanged. <sentence_start/>Upon IL-1β treatment, MATN3 inhibition of the stimulation of <italic toggle=\"yes\">ADAMTS-5 </italic>in <italic toggle=\"yes\">IL-1Ra </italic>knocked-down chondrocytes became statistically insignificant. <sentence_start/>In contrast, MATN3 still significantly inhibited the stimulation of <italic toggle=\"yes\">MMP-13 </italic>by IL-1β in the knocked-down cells as in wild-type chondrocytes. <sentence_start/>The same was true for <italic toggle=\"yes\">ADAMTS-4 </italic>gene expression as well (not shown). <sentence_start/>This indicates that MATN3 inhibition of IL-1β upregulation of <italic toggle=\"yes\">ADAMTS-5 </italic>is IL-1Ra-dependent, while its inhibition of IL-1β upregulation of <italic toggle=\"yes\">MMP-13 </italic>and <italic toggle=\"yes\">ADAMTS-4 </italic>is not. <sentence_start/>In addition to IL-1Ra, there are other antagonists in the IL-1β signaling pathway including a decoy receptor IL-1RII, an inhibitory receptor SIGIRR, and a soluble receptor sIL-1RAcP [<citation ref-type=\"bibr\" rid=\"B56\" doi=\"10.1016/S1359-6101(97)00023-3\" pmid=\"9620641\" count=\"1\">56</citation>,<citation ref-type=\"bibr\" rid=\"B57\" doi=\"10.1038/ni968\" pmid=\"12925853\" count=\"1\">57</citation>]. <sentence_start/>MATN3 may inhibit IL-1β-stimulation of MMP-13 by upregulating one of these antagonists. <sentence_start/>Alternatively, MATN3 may also exert its regulatory function by downregulating agonists in the IL-1 signaling pathway that are independent of IL-1Ra. <sentence_start/>A limitation of this study involves the use of a relatively small patient pool (total of three to five patients) for the acquisition of primary human chondrocytes. <sentence_start/>The conclusion of MATN3 induction of IL-1Ra is, however, valid in chondrocytes from each patient. <sentence_start/>Thus, experiments involving the use of primary human chondrocyte cultures accomplished its intended purpose of corroborating the findings observed in the C28/I2 human chondrocyte cell line."
+  },
+  {
+   "section": "article",
+   "text": "The mechanism by which MATN3 regulates IL-1Ra is currently unknown. <sentence_start/>Given that <italic toggle=\"yes\">IL-1Ra </italic>mRNA transcript levels are elevated relatively quickly (within 24 hours of exposure to MATN3 recombinant protein), the stimulation by MATN3 of this anti-inflammatory cytokine may be a direct effect. <sentence_start/>Cartilage extracellular matrix molecules such as hyaluronan have previously been shown to mediate regulatory functions by direct interaction with cell surface molecules and/or receptors [<citation ref-type=\"bibr\" rid=\"B58\" doi=\"10.1006/excr.1999.4641\" pmid=\"10527620\" count=\"1\">58</citation>,<citation ref-type=\"bibr\" rid=\"B59\" doi=\"10.1136/ard.2007.086884\" pmid=\"18662930\" pmcid=\"PMC2674548\" count=\"1\">59</citation>]. <sentence_start/>It is possible that chondrocytes have an endogenous receptor through which MATN3 signals to mediate its regulatory function(s). <sentence_start/>It has been shown previously that matrilins may interact with integrins or other plasma membrane receptors in chondrocytes [<citation ref-type=\"bibr\" rid=\"B60\" doi=\"10.1016/j.matbio.2006.10.010\" pmid=\"17156989\" count=\"1\">60</citation>]. <sentence_start/>It remains to be determined whether the regulatory functions of MATN3, as shown here, are mediated by these receptors."
+  },
+  {
+   "section": "article",
+   "text": "We have shown that MATN3 treatment inhibits OA-associated catabolic gene expression. <sentence_start/>Interestingly, a previous study has shown that treatment of human chondrocytes with very high concentrations of murine recombinant MATN3 protein leads to activation of OA-associated catabolic genes [<citation ref-type=\"bibr\" rid=\"B61\" doi=\"10.1016/j.febslet.2009.10.035\" pmid=\"19840795\" count=\"1\">61</citation>]. <sentence_start/>It is important to note that there are two clear differences between the aforementioned study and this one. <sentence_start/>The first is that, while mouse recombinant MATN3 was used to treat PHCs in the previous study, we used human recombinant MATN3 to treat human cells in this study. <sentence_start/>The second, and perhaps a major difference, is the concentration of recombinant MATN3 used to treat chondrocytes. <sentence_start/>Recombinant MATN3 protein was used at 5 to 50 μg/ml concentrations in the previous study, which is 50 to 500 times higher than the concentrations (100 to 200 ng/ml) used in this study. <sentence_start/>Proteins at concentrations significantly higher than the physiological levels may exert toxic effects on cells thereby triggering production of degenerative proteases. <sentence_start/>Indeed, chondrocytes treated with type II collagen at the same high concentrations also induced matrix protease expression in the previous study [<citation ref-type=\"bibr\" rid=\"B61\" doi=\"10.1016/j.febslet.2009.10.035\" pmid=\"19840795\" count=\"1\">61</citation>]. <sentence_start/>Thus, the data from the two studies indicate that MATN3 is chondroprotective at the 100 to 200 ng/ml concentration range, while stimulating catabolic pathways at the 5 to 50 μg/ml concentration range, which may reflect supra-physiological levels."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "This study presents evidence of several novel regulatory functions of MATN3, including induction of IL-1Ra expression, maintenance of collagen II and aggrecan gene expression, and inhibition of the IL-1β-induced gene expression of certain catabolic matrix proteases including <italic toggle=\"yes\">ADAMTS-5</italic>. <sentence_start/>These regulatory functions are MATN3 concentration-dependent. <sentence_start/>We further demonstrate that some of these regulatory functions (that is, enhancement of <italic toggle=\"yes\">COL2A1 </italic>and <italic toggle=\"yes\">ACAN </italic>gene expression) are dependent on IL-1Ra, while other regulatory functions are independent (that is, inhibition of IL-1β-induced <italic toggle=\"yes\">MMP-13 </italic>gene expression). <sentence_start/>These observations were made in multiple chondrocyte culture models, including primary and immortalized cells, and human and mouse species. <sentence_start/>It provides a novel mechanism for chondroprotective properties of MATN3, which has been strongly indicated by previous genetic studies in humans and mice. <sentence_start/>It suggests that MATN3 plays not only a structural role in cartilage ECM, but also a regulatory role in cartilage homeostasis by modulating genes critical for matrix synthesis, degradation, and inflammation. <sentence_start/>It also raises an intriguing possibility of using MATN3, a cartilage matrix protein, for stimulating endogenous anti-inflammatory and chondroprotective properties in cartilage."
+  },
+  {
+   "section": "article",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "article",
+   "text": "ACAN: aggrecan; ANOVA: one-way analysis of variance; COL2A1: type II collagen, DMEM: Dubecco's modified Eagle's medium; ECM: extracellular matrix, EGF: epidermal growth factor; ELISA: enzyme-linked immunosorbent assay; FBS: fetal bovine serum; HBSS: Hank's Balanced Salt Solution; IL-1β: interleukin-1 beta; IL-1Ra: interleukin-1 receptor antagonist; KO: knockout; MATN3: matrilin-3; MED: multiple epiphyseal dysplasia; MMP: matrix metalloproteinase; NO: nitric oxide; OA: osteoarthritis; PBS: phosphate-buffered saline; PHC: primary human chondrocyte; PMC: primary mouse chondrocyte; RT-qPCR: real time quantitative polymerase chain reaction; rh: recombinant human; SEMD: spondylo-epi-metaphyseal dysplasia; sIL-1Ra: soluble interleukin-1 receptor antagonist; siRNA: small interfering ribonucleic acid; vWFA: Von Willebrand Factor A."
+  },
+  {
+   "section": "article",
+   "text": "Competing interests"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "In addition to conducting all cell culture experiments and mRNA/protein analyses, CTJ played a significant role in study design, interpretation and composition of this manuscript. <sentence_start/>MBG provided the C28/I2 human chondrocyte cell line, which was crucial for this study. <sentence_start/>She also contributed greatly to data discussion and interpretation. <sentence_start/>RT is the orthopedic surgeon who extracted the patient cartilage samples that were used for isolating the primary human chondrocytes in this study. <sentence_start/>He also contributed greatly to data discussion and interpretation. <sentence_start/>QC (corresponding author) designed all experiments and played a pivotal role in data discussion/interpretation and manuscript composition. <sentence_start/>This manuscript was read and approved by all aforementioned authors."
+  },
+  {
+   "section": "article",
+   "text": "Author's information"
+  },
+  {
+   "section": "article",
+   "text": "CT Jayasuriya, Ph.<sentence_start/>D candidate of Pathobiology Graduate Program (Brown University); MB Goldring, Ph.<sentence_start/>D, Professor of Cell and Developmental Biology (Weill Cornell Medical College); R Terek, MD, MA, Associate Professor of Orthopaedics (Warren Alpert Medical School of Brown University); Q Chen, Ph.<sentence_start/>D, Professor of Medical Science (Brown University)."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Additional file 1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Kinetics of matrilin-3 (MATN3)-induced <italic toggle=\"yes\">IL-1Ra </italic>gene expression in human chondrocytes</bold>. <sentence_start/>A figure showing MATN3 stimulation of <italic toggle=\"yes\">IL-1Ra </italic>gene upregulation by C28/I2 cells and primary human chondrocytes (PHCs) in the absence (<bold>A</bold>, <bold>C</bold>) and presence of IL-1β (<bold>B</bold>, <bold>D</bold>). <sentence_start/>Cells were treated with 0, 100 or 200 ng/ml of recombinant human MATN3 protein. <sentence_start/>IL-1β was used at a concentration of 5.0 ng/ml. <sentence_start/>*<italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences relative to the 0 ng/ml treatment group, for each respective time point. <sentence_start/>Individual experiments were done in biological triplicate."
+  },
+  {
+   "section": "article",
+   "text": "Additional file 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Matrilin-3 (MATN3) stimulates type II collagen (<italic toggle=\"yes\">COL2A1</italic>) mRNA levels for at least 24 hours in human chondrocytes</bold>. <sentence_start/>A figure showing that MATN3 induces <italic toggle=\"yes\">COL2A1 </italic>mRNA levels in C28/I2 cells (<bold>A</bold>) and primary human chondrocytes (PHCs) (<bold>B</bold>) after 24 hours treatment. <sentence_start/>Recombinant human (rh) MATN3 protein is used at 200 ng/ml and rh IL-1β protein treatment is used at 5.0 ng/ml. <sentence_start/>*<italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences from the untreated control group; <sup>#</sup><italic toggle=\"yes\">P </italic>≤ 0.05 for statistically significant differences from the IL-1β only treated group. <sentence_start/>Data are representative of three individual experiments."
+  },
+  {
+   "section": "back",
+   "text": "Acknowledgements"
+  },
+  {
+   "section": "back",
+   "text": "This study is supported by NIH grants AG 014399, AG 017021, and RR024484. <sentence_start/>Dr. Goldring's research is supported by R01-AG022021."
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "pmid": 28872636,
+ "pmcid": 5584395,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "High resolution multibeam and hydrodynamic datasets of tidal channels and inlets of the Venice Lagoon"
+  },
+  {
+   "section": "abstract",
+   "text": "Tidal channels are crucial for the functioning of wetlands, though their morphological properties, which are relevant for seafloor habitats and flow, have been understudied so far. <sentence_start/>Here, we release a dataset composed of Digital Terrain Models (DTMs) extracted from a total of 2,500 linear kilometres of high-resolution multibeam echosounder (MBES) data collected in 2013 covering the entire network of tidal channels and inlets of the Venice Lagoon, Italy. <sentence_start/>The dataset comprises also the backscatter (BS) data, which reflect the acoustic properties of the seafloor, and the tidal current fields simulated by means of a high-resolution three-dimensional unstructured hydrodynamic model. <sentence_start/>The DTMs and the current fields help define how morphological and benthic properties of tidal channels are affected by the action of currents. <sentence_start/>These data are of potential broad interest not only to geomorphologists, oceanographers and ecologists studying the morphology, hydrodynamics, sediment transport and benthic habitats of tidal environments, but also to coastal engineers and stakeholders for cost-effective monitoring and sustainable management of this peculiar shallow coastal system."
+  },
+  {
+   "section": "article",
+   "text": "Background &amp; Summary"
+  },
+  {
+   "section": "article",
+   "text": "Coastal transitional systems are amongst the most productive and valuable environments on Earth<citation ref-type=\"bibr\" rid=\"b1\" count=\"1\"><sup>1-4</sup></citation>. <sentence_start/>The hydrodynamics and related sediment, nutrient and biota exchange of these systems with the open sea is governed by their tidal networks, intricate patterns of bifurcating tidal channels dissecting tidal flats and salt marshes. <sentence_start/>Tidal networks are observed worldwide, with the best-known examples including the inlets of the East Coast of the United States, the Wadden Sea and the Lagoon of Venice. <sentence_start/>These environments often represent highly urbanized settings with half of the world’s population and 13 of the largest mega-cities located close to the coast. <sentence_start/>Therefore, tidal networks and coastal transitional environments undergo fast morphological changes under natural and anthropogenic pressures, which have lead to increased flooding and habitat losses (e.g., shrinking salt marshes) that are likely to further increase due to climate change<citation ref-type=\"bibr\" rid=\"b5\" count=\"1\"><sup>5-8</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Despite being so relevant for the functioning of coastal transitional systems, tidal channels are still less studied than their river counterparts. <sentence_start/>The relatively few morphological observations on tidal channels rely mainly on limited-resolution 2-D topographic surveys of channel profiles and cross-sections like those in the Tijuana estuary<citation ref-type=\"bibr\" rid=\"b9\" count=\"1\"><sup>9</sup></citation>, and along the Schelt estuary in Belgium<citation ref-type=\"bibr\" rid=\"b10\" count=\"1\"><sup>10</sup></citation>, or on aerial or satellite images as for example in New Jersey<citation ref-type=\"bibr\" rid=\"b11\" count=\"1\"><sup>11</sup></citation>, and in Venice Lagoon<sup><citation ref-type=\"bibr\" rid=\"b12\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "The complex three dimensional morphology of tidal channels is still poorly imaged because shallow transitional environments are difficult to map in a comprehensive way. <sentence_start/>Optical imaging of the bottom is very limited in turbid areas like these. <sentence_start/>Acoustic devices, including MBES, have had restricted use in depths of 2-5 metres, mostly due to side-lobe effect<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\"><sup>14</sup></citation>, bottom reverberation or multiple reflections that were difficult to circumvent. <sentence_start/>Only the recent technological developments are enabling multibeam systems to achieve very high performances reaching resolutions up to 0.05 m and operating up to 1 m depths<sup><citation ref-type=\"bibr\" rid=\"b8\" pmid=\"23075989\" doi=\"10.1038/nature11533\" count=\"1\">8</citation>,<citation ref-type=\"bibr\" rid=\"b15\" count=\"1\">15-17</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "The dataset presented in this paper contains high-resolution data collected in the channel network of the Venice Lagoon by means of a high-resolution, multi-frequency MBES (Fig. 1). <sentence_start/>The Venice Lagoon is the largest lagoon in the Mediterranean (550 km<sup>2</sup> and with an average depth of about 1.5 m) and is one of the UNESCO World Cultural and Natural Heritage sites, including the historical city of Venice. <sentence_start/>Previous mapping of the whole Venice Lagoon were carried out in 1927, 1970 and 2002. <sentence_start/>Despite their low, and typically highly costly resolution (always &gt;10 m), the resulting maps allowed a first recognition and semi-quantitative estimate of the erosional trends affecting the wetlands and of the deepening of the central lagoon<citation ref-type=\"bibr\" rid=\"b18\" count=\"1\"><sup>18</sup></citation>. <sentence_start/>In the last century, the lagoon morphology and ecological properties dramatically changed with a decrease of the salt marsh areas by more than 50% (shrinking from 68 km<sup>2</sup> in 1927 to 32 km<sup>2</sup> in 2002) and a net sediment flux modification<citation ref-type=\"bibr\" rid=\"b18\" count=\"1\"><sup>18-21</sup></citation>. <sentence_start/>Relative sea level rise will likely increase the frequency of flooding events in Venice<citation ref-type=\"bibr\" rid=\"b22\" count=\"1\"><sup>22-24</sup></citation>. <sentence_start/>To protect the city from floods (‘high water events’), a complex array of large mobile barriers is under construction (MOSE system) through major modifications of the three lagoon inlets. <sentence_start/>Once in full operational mode, the MOSE system might substantially affect the lagoon hydrodynamics and, consequently, sediment transport and sediment balance<citation ref-type=\"bibr\" rid=\"b25\" count=\"1\"><sup>25-27</sup></citation>. <sentence_start/>More generally, the MOSE system is a global engineering example for coastal protection against storm surges in a frame of overall mean sea level rise. <sentence_start/>A discussion on the implicit assumptions and limitations of the MOSE solution for the high water in Venice can be found in Trincardi <italic toggle=\"yes\">et al.</italic><citation ref-type=\"bibr\" rid=\"b24\" count=\"1\"><sup>24</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Before the MOSE system begins to function, it was important to have a full picture of the bathymetry and currents of the tidal channels and inlets, which are the most dynamical portion of the lagoon. <sentence_start/>These data represent, therefore, a precise reference for monitoring and quantifying future modifications of the channel and inlets morphology and for analyzing trends of the lagoon future evolution."
+  },
+  {
+   "section": "article",
+   "text": "In 2013, an extensive mapping was carried out by CNR-ISMAR within the project RITMARE (a National Research Programme funded by the Italian Ministry of Education, University and Research). <sentence_start/>A team of more than 25 scientists was involved to collect high-resolution bathymetry of the tidal channel network and the inlets (Figs 1 and 2). <sentence_start/>This survey merges with the complementary mapping of the lagoon inlets conducted by the Italian Hydrographic Institute in the offshore areas at the same time frame and using similar equipment."
+  },
+  {
+   "section": "article",
+   "text": "Bathymetric and seafloor BS-data can now be employed for a variety of studies defining aspects of the evolution of the lagoon including: hydrodynamic modelling, sediment dynamics and geomorphology, geo-archaeology or habitat mapping. <sentence_start/>This dataset is unique not only because it depicts the seafloor morphologies with unprecedented detail but also, because it was acquired just before the MOSE barrier system starts to operate. <sentence_start/>Therefore it represents a benchmark for evaluating the possible impacts of the major engineering interventions taking place in the Lagoon of Venice and its inlets. <sentence_start/>The impact of hard structures on the seafloor is already visible outside the inlets where the high resolution bathymetry highlights the presence of large scours formed at the edges of semicircular breakwaters built between 2006 and 2011 as part of the MOSE project. <sentence_start/>The relative rapid erosive process could threaten the stability of the hard structures in the near future and should certainly be periodically monitored."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Multibeam data acquisition"
+  },
+  {
+   "section": "article",
+   "text": "The MBES raw data were collected during six-months (from May to December 2013) with a Kongsberg EM-2040 compact dual-head multi-frequency system. <sentence_start/>The survey areas, divided in 17 acquisition weeks, are not spatially contiguous because they were chosen depending on weather conditions and permit constraints. <sentence_start/>The MBES was pole-mounted on the CNR research vessel Litus, a 10-m-long boat with only 1.5-m-deep draft. <sentence_start/>The MBES has 800 beams (400 per swath) 1°×1°; the operational frequency for this survey was set at 360 kHz. <sentence_start/>A Seapath 300 system was used for ship positioning, supplied by a Fugro HP differential Global Positioning System (DGPS), accurate up to 0.2 m. <sentence_start/>The Kongsberg motion sensor MRU 5 and a Dual Antenna GPS integrated in the Seapath, corrected pitch, roll, heave and yaw movements (reaching 0.02° roll and pitch accuracy, and 0.075° heading accuracy). <sentence_start/>A Vale-port mini SVS sensor was attached close to the transducers to continuously measure the sound velocity for the beamforming. <sentence_start/>Sound velocity profiles (SVPs) were systematically collected (640 SVPs in total) with an AML oceanographic Smart-X sound velocity profiler (yellow dots in Fig. 2). <sentence_start/>Data were logged, displayed and checked in real-time by the Kongsberg data acquisition and control software SIS (Seafloor Information System). <sentence_start/>Professional topographers measured the offsets of the instruments with millimetric accuracy using a dedicated dimensional survey of the ship’s hull at dry dock."
+  },
+  {
+   "section": "article",
+   "text": "Several error sources may influence the multibeam data, giving errors in both real time presentation and final product. <sentence_start/>To avoid these errors, sensors have been calibrated (roll, pitch, time and heading offsets) and regularly checked. <sentence_start/>A 40% overlap between lines was kept in order to avoid the influence of external beams of bad quality given by residual errors in roll and sound speed profile measurements. <sentence_start/>The dual-head multibeam operated with a swath opening angle of 70° for each head inside the channels and 60° in the inlets, maintaining 15° of overlap between the two swaths. <sentence_start/>The vessel sailed with a reasonably constant speed (4 knots mean speed), despite strong tidal currents (and heavy ship traffic)."
+  },
+  {
+   "section": "article",
+   "text": "Multibeam data processing"
+  },
+  {
+   "section": "article",
+   "text": "Bathymetry"
+  },
+  {
+   "section": "article",
+   "text": "CARIS HIPS and SIPS software (v.7 and 9.1)<citation ref-type=\"bibr\" rid=\"b28\" count=\"1\"><sup>28</sup></citation> was used for processing multibeam data taking into account sound velocity profiles, tide corrections and manual quality control tools. <sentence_start/>The standard CARIS HIPS and SIPS workflow for bathymetry and BS data processing (Fig. 3) was followed. <sentence_start/>At the end of each week of acquisition at sea, a separate CARIS project was created, scoring totally 17 weeks of multibeam acquisition. <sentence_start/>The final combined surfaces (DTMs) with depths and BS are then divided into 17 parts referring to the acquisition week (Fig. 1). <sentence_start/>The bathymetry was created with the Swath Angles Weighting option with a Max Footprint size of 9×9 pixels and a resolution of 0.5 m and cleaned using the subset editor to handle and visualize efficiently the data (see Fig. 2 for the general DTM and Fig. 4 for an example of a DTM for bathymetry and BS mosaic)."
+  },
+  {
+   "section": "article",
+   "text": "A set of 93 virtual tidal stations (see yellow stars in Fig. 5), evenly distributed in the study area, served for tidal correction: a virtual tidal station, was used for each field sheet of CARIS created for the data collected in a single day of survey. <sentence_start/>The tidal corrections in each virtual tidal station were calculated using the water level simulated by the hydrodynamic model SHYFEM<sup><citation ref-type=\"bibr\" rid=\"b29\" count=\"1\">29</citation>,<citation ref-type=\"bibr\" rid=\"b30\" count=\"1\">30</citation></sup> applied to the whole Venice Lagoon with assimilation of tide gauge observations. <sentence_start/>All the corrections are referred to the local datum ‘Punta Salute 1897’. <sentence_start/>The Italian Hydrographic Institute reprocessed part of the bathymetric data (see Fig. 2) for the safety of navigation. <sentence_start/>Starting from the CARIS HIPS and SIPS projects, information about uncertainty of all experimental devices was computed into an uncertainty surface at 1-m-resolution, named Combined Uncertainty and Bathymetry Estimator (CUBE) surface. <sentence_start/>The CUBE surface provides multiple depth estimates for a single grid node, depending on the variation of the sounding data. <sentence_start/>The ‘Disambiguation’ tool was used to determine the best depth hypothesis at each node<citation ref-type=\"bibr\" rid=\"b31\" count=\"1\"><sup>31</sup></citation> and to create the most accurate surface. <sentence_start/>This surface, completed with the information of horizontal and vertical propagated uncertainty, was vertically shifted to the mean low water spring datum and transferred into the database of the Italian Hydrographic Institute. <sentence_start/>The surface was then used for the official Italian nautical charts of the Lagoon<citation ref-type=\"bibr\" rid=\"b32\" count=\"1\"><sup>32-34</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Backscatter Data"
+  },
+  {
+   "section": "article",
+   "text": "BS mosaics were created in CARIS HIPS and SIPS through the Geocoder engine. <sentence_start/>The Geocoder tool automatically corrects the system settings for transmission loss, insonification area and incidence angle variations<citation ref-type=\"bibr\" rid=\"b35\" count=\"1\"><sup>35</sup></citation>. <sentence_start/>Mosaics were generated using Angle Varying Gain (AVG) correction with a 300-pixel size window and Despeckle option in moderate mode to remove isolated pixels and improve the final intensity layer<citation ref-type=\"bibr\" rid=\"b28\" count=\"1\"><sup>28</sup></citation>. <sentence_start/>The same parameters were used for each mosaic generation. <sentence_start/>The bathymetric grids and BS mosaics were exported from CARIS with grid resolutions of 0.5 m as .txt and .geotiff files, respectively. <sentence_start/>The .txt files then were converted to 32-bit ESRI raster files using Global Mapper (v15). <sentence_start/>The raster files were imported into ArcGIS (v10.2)<citation ref-type=\"bibr\" rid=\"b36\" count=\"1\"><sup>36</sup></citation> (ESRI 2015) for further analysis."
+  },
+  {
+   "section": "article",
+   "text": "Hydrodynamic model"
+  },
+  {
+   "section": "article",
+   "text": "The hydrodynamic model SHYFEM developed by Umgiesser <italic toggle=\"yes\">et al.</italic><sup><citation ref-type=\"bibr\" rid=\"b29\" count=\"1\">29</citation>,<citation ref-type=\"bibr\" rid=\"b30\" count=\"1\">30</citation></sup> was applied to correct the data for the tidal excursion and to simulate the water circulation of the lagoon. <sentence_start/>SHYFEM resolves the 3-D primitive equations vertically integrated over multiple <italic toggle=\"yes\">z</italic>-layers and horizontally over an unstructured grid. <sentence_start/>The model is especially well suited to shallow-water areas. <sentence_start/>It has been successfully applied to the Venice Lagoon<sup><citation ref-type=\"bibr\" rid=\"b29\" count=\"1\">29</citation>,<citation ref-type=\"bibr\" rid=\"b27\" count=\"1\">27</citation></sup> and to several other coastal systems<citation ref-type=\"bibr\" rid=\"b30\" count=\"1\"><sup>30</sup></citation>. <sentence_start/>The model uses a semi-implicit algorithm for integration in time. <sentence_start/>The spatial discretization of the unknowns is carried out with the finite element method, partially modified with respect to the classical formulation. <sentence_start/>The outcome is a grid that resembles a staggered grid often used in finite difference discretization."
+  },
+  {
+   "section": "article",
+   "text": "The boundary conditions for stress terms (wind stress and bottom drag) follow the classic quadratic parameterization. <sentence_start/>Heat fluxes are computed at the water surface. <sentence_start/>Water fluxes between air and sea consist of the precipitation and runoff minus evaporation computed by the SHYFEM model."
+  },
+  {
+   "section": "article",
+   "text": "Smagorinsky's formulation<citation ref-type=\"bibr\" rid=\"b37\" count=\"1\"><sup>37</sup></citation> is used to parameterize the horizontal eddy viscosity. <sentence_start/>For the computation of the vertical viscosities, a turbulence closure scheme was used. <sentence_start/>This scheme is adapted from the k-<italic toggle=\"yes\">ϵ</italic> module of GOTM (General Ocean Turbulence Model) described by Burchard and Petersen<citation ref-type=\"bibr\" rid=\"b38\" count=\"1\"><sup>38</sup></citation>. <sentence_start/>A detailed description of the 3-D model equations is given in Umgiesser <italic toggle=\"yes\">et al.</italic><citation ref-type=\"bibr\" rid=\"b30\" count=\"1\"><sup>30</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Computation of the water levels and currents"
+  },
+  {
+   "section": "article",
+   "text": "The water circulation in the Venice Lagoon, induced by tide, wind, and water, heat and salt fluxes, was simulated by the unstructured model SHYFEM (described above, V7_1_4) applied over a spatial domain that represents the entire Lagoon and its adjacent shore. <sentence_start/>The model adequately reproduces the complex geometry and bathymetry of the Venice Lagoon using unstructured numerical meshes composed of triangular elements of variable form and size, going down to a few meters in the channels (Fig. 5). <sentence_start/>The water column is discretized into 22 vertical levels with progressively increasing thickness varying from 1 m for the upper 16 to 7 m for the deepest layer of the outer shelf. <sentence_start/>For the tidal excursion correction, the model bathymetry was obtained from the data collected in 2002 by <italic toggle=\"yes\">Magistrato alle Acque di Venezia</italic> merged with later surveys. <sentence_start/>For the simulation of the tidal currents, the model integrated the 2002 dataset with the MBES bathymetry acquired by CNR-ISMAR in the main channels of the lagoon."
+  },
+  {
+   "section": "article",
+   "text": "The model was run in a 3-D baroclinic mode using observed forcing and boundary conditions (i.e., wind stress, heat and salt fluxes, precipitation, sea level and freshwater discharge) provided by the City of Venice through the <italic toggle=\"yes\">Protezione Civile</italic>-<italic toggle=\"yes\">Centro Previsioni e Segnalazioni Maree</italic>, the Italian Institute for Environmental Protection and Research (ISPRA) and <italic toggle=\"yes\">Magistrato alle Acque di Venezia</italic> (through THETIS spa)."
+  },
+  {
+   "section": "article",
+   "text": "The simulated sea surface elevation to correct MBES bathymetric data for tidal oscillations was obtained by assimilating into the state of the hydrodynamic model the hourly water levels recorded at the tide gauges marked with red dots in Fig. <sentence_start/>5. <sentence_start/>Data assimilation was performed through a calibrated nudging scheme which considers each station to have a weight function based on an isotropic Gaussian spatial distribution and a constant relaxation time. <sentence_start/>The simulated water levels extracted in correspondence of the 93 virtual tidal stations (yellow stars in Fig. 5) were used in the tidal correction procedure."
+  },
+  {
+   "section": "article",
+   "text": "Tidal currents have been computed by applying the model for both ebb and flood phases. <sentence_start/>The residual currents are obtained averaging the modelled currents over the one-year simulation (2014). <sentence_start/>Residual currents, induced by non-linear interactions between tides, wind and topography, in tidal embayment have been recognized as fundamental indicators of the net water movement and long-term sediment transport<citation ref-type=\"bibr\" rid=\"b39\" count=\"1\"><sup>39</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Code availability"
+  },
+  {
+   "section": "article",
+   "text": "The open source hydrodynamic model SHYFEM is freely available at the webpages and ."
+  },
+  {
+   "section": "article",
+   "text": "Data Records"
+  },
+  {
+   "section": "article",
+   "text": "The dataset of bathymetric data described in this paper is available on Marine Geoscience Data System (MGDS) (Data Citation 1). <sentence_start/>For the bathymetry a 0.5 m resolution DTM is provided as .<italic toggle=\"yes\">ascii</italic> ESRI File format in 17 parts referring to date and time of the survey (divided into 17 weeks). <sentence_start/>For the BS data the mosaic for the most dynamical areas and the area surrounding the city of Venice (weeks 3 to 7, 9, 10, 16) is available in (Data Citation 2) at 0.5 m resolution as <italic toggle=\"yes\">geotiff</italic> files. <sentence_start/>The raw bathymetric and BS data together with the SVP data are stored as. <italic toggle=\"yes\">all</italic> and .<italic toggle=\"yes\">asvp</italic> format in the Server, located at the CNR-ISMAR institute in Venice and are available upon request addressed to the first author of this paper. <sentence_start/>The raw data are archived following the acquisition date (survey week number and acquisition day). <sentence_start/>For each subset of data, a .<italic toggle=\"yes\">xls</italic> table reports all the details about acquisition data that are useful for any data re-use or re-processing."
+  },
+  {
+   "section": "article",
+   "text": "The water current dataset which includes flood, ebb and residual velocity fields are archived in a public repository (Data Citation 3). <sentence_start/>The following files are contained in the archive SHYFEM_venice.zip: 1) SHYFEM_venice_flood.nc (unstructured <italic toggle=\"yes\">netcdf</italic> file with the u/v components of the 3D flood velocity defined on the mesh node); 2) SHYFEM_venice_ebb.nc (unstructured <italic toggle=\"yes\">netcdf</italic> file with the u/v components of the 3D ebb velocity defined on the mesh node); SHYFEM_venice_residual.nc (unstructured <italic toggle=\"yes\">netcdf</italic> file with the u/v components of the 3D residual velocity defined on the mesh node)."
+  },
+  {
+   "section": "article",
+   "text": "Technical Validation"
+  },
+  {
+   "section": "article",
+   "text": "MBES bathymetry data quality"
+  },
+  {
+   "section": "article",
+   "text": "A first general data quality assessment of the bathymetric data was carried out using IHO Standards for Hydrographic Surveys S-44, 2008. <sentence_start/>Total Propagated Uncertainty (TPU) was calculated in CARIS HIPS and SIPS 9<citation ref-type=\"bibr\" rid=\"b40\" count=\"1\"><sup>40</sup></citation>, considering installation offsets, MBES characteristics, position uncertainties and timing errors. <sentence_start/>This value results from the combination of all individual error sources. <sentence_start/>TPU can be split into horizontal (hzTPU) and vertical (dpTPU) components, related to the positioning of each sounding and depth-values uncertainties. <sentence_start/>The final uncertainties are scaled to S44 confidence level (95%) (Caris 2009). <sentence_start/>Mean values obtained for the whole dataset are hzTPU=0.4 m and dpTPU=0.1 m (referred to 20 m depth), and fall within the Special Order IHO minimum standard (IHO S N°44, 2008)."
+  },
+  {
+   "section": "article",
+   "text": "However, this assessment has some limitation since it refers to overall or average metrics. <sentence_start/>It gives better results for deeper waters and it may average out sharp transitions at the interface between two sections of survey, that in fact are present in some parts of the survey. <sentence_start/>Since the data were collected over an extended time frame (six months), they resulted as spatially ‘patchy’ with errors that could be related to the use of a discrete number of tidal stations for the tidal correction instead of a continuous real time kinematic system, that was not available at the time of the measurements. <sentence_start/>Anyway, the use of sea levels derived from a unique model application limits bathymetric artefacts that could emerge when using records of tide gauges having different reference datum."
+  },
+  {
+   "section": "article",
+   "text": "By visually investigating all fieldsheets created at the junction areas between different weeks, we found that the difference at the edge of the week areas ranges from about 0.5 to 15 cm. <sentence_start/>This error is not linked to the absolute water depth, since we have the same vertical error in 5 m and 10 m average water depth. <sentence_start/>The maximum standard deviation was found in a very small area close to the Lido Inlet (Fig. 6). <sentence_start/>In this area the effect of the patchiness is maximum due not only to tidal correction but probably also to high variability of the sound velocity profiles. <sentence_start/>In the inlets, different water masses mix and due to temperature and salinity changes the sound velocity can vary a few meters per second in a short distance. <sentence_start/>We tried to limit this error increasing the density of sound velocity profiles sampling in the inlets (Fig. 2) and using sound velocity correction tool in CARIS HIPS and SIPS."
+  },
+  {
+   "section": "article",
+   "text": "We also observed an error related to imprecise heave compensation that is due to the slow adjustment of the MRU system when the boat is turning more than 90° rapidly. <sentence_start/>Although, we tried to minimize this effect by waiting at the start of new lines after turning for MRU to stabilise, the error is still present in some parts of the survey at the beginning of survey lines. <sentence_start/>This error was quantified experimentally with repeated survey to be at most equal to 10 cm. <sentence_start/>Another error source can be related to the sound velocity and diffraction in the outer beams as it can be seen in Fig. 6. <sentence_start/>Finally, the presence of suspended sediment and submerged aquatic vegetation could potentially affect the MBES bottom detection and, locally, the resulting bathymetry."
+  },
+  {
+   "section": "article",
+   "text": "MBES BS data quality"
+  },
+  {
+   "section": "article",
+   "text": "In contrast to the bathymetric measurement, the BS data are the result of a complex interaction of the sonar echo with the water column and the seafloor. <sentence_start/>Therefore, more parameters need to be known or estimated to assess the error in BS data<sup><citation ref-type=\"bibr\" rid=\"b41\" count=\"1\">41</citation>,<citation ref-type=\"bibr\" rid=\"b42\" count=\"1\">42</citation></sup>:"
+  },
+  {
+   "section": "article",
+   "text": "The amplitude of the acoustic signal projected into the water that depends on the transmission power. <sentence_start/>In our case the transmission power was set up automatically during the survey depending on the water depth and the projector angular directivity pattern of the instrument. <sentence_start/>Both of these parameters are taken into account automatically during the mosaic creation in Geocoder engine;"
+  },
+  {
+   "section": "article",
+   "text": "The absorption and attenuation of acoustic energy that occurs in the travel of the acoustic wave through the water to the seafloor and back again. <sentence_start/>This energy loss depends on the signal-target range, on the physical properties of seawater (temperature and salinity versus depth) and on the signal frequency. <sentence_start/>During the experiments described below, we measured the influence of temperature and salinity fluctuations. <sentence_start/>We estimated that these factors could influence the results by no more than 0.5 dB."
+  },
+  {
+   "section": "article",
+   "text": "The inherent uncertainty due to variations of the sonar receiver to acoustic signals that in our case is ±1 dB<citation ref-type=\"bibr\" rid=\"b43\" count=\"1\"><sup>43</sup></citation>;"
+  },
+  {
+   "section": "article",
+   "text": "Unwanted signal fluctuations. <sentence_start/>They were caused by the presence of air bubbles, schools of fishes and sediment suspension (less significant) in water column. <sentence_start/>All these elements can generate artifacts in the final BS mosaics. <sentence_start/>The bubbles influenced our data the most, reducing strongly the quality of BS data collected and, particularly, in the open sea outside the inlets of Lido and Chioggia. <sentence_start/>They were related either to turbulence in proximity of the transducers during surveys at rough sea or to presence of strong tidal currents, or of other boats navigating in the channels."
+  },
+  {
+   "section": "article",
+   "text": "The influence of sediment suspension on surface BS data is still not fully understood. <sentence_start/>To estimate this effect, in the experiment described below, we used water column BS data, ADCP and turbidity measurements. <sentence_start/>The physical interaction of the pulse with the seafloor is influenced by seafloor roughness, hardness, angular dependence effects, and the presence of a biogenic substrate."
+  },
+  {
+   "section": "article",
+   "text": "The corrections applied by the processing software."
+  },
+  {
+   "section": "article",
+   "text": "In order to assess the global fluctuation of the BS data related to these factors, two experiments were carried out with repeated MBES surveys in different parts of the lagoon: a) in the Lido Inlet<citation ref-type=\"bibr\" rid=\"b44\" count=\"1\"><sup>44</sup></citation> (Fig. 7); b) in a very shallow navigation channel (La Bissa Channel) covered by submerged aquatic vegetation (SAV)<citation ref-type=\"bibr\" rid=\"b45\" count=\"1\"><sup>45</sup></citation>(Fig. 8)."
+  },
+  {
+   "section": "article",
+   "text": "The experiment of the Lido Inlet was undertaken on the 12th September, 2014 between 0700 (GMT) and 1,700 (GMT) in a region of migrating megaripple fields (Fig. 7). <sentence_start/>A total of 22 repeated surveys were carried out with the MBES frequency set to 340 kHz and with more than 30% overlap between survey lines."
+  },
+  {
+   "section": "article",
+   "text": "The BS intensity distribution was extracted from each mosaic created from the MBES data following the workflow described before. <sentence_start/>We elaborated the data for the full area covered by all surveys (white polygon in Fig. 7) and for two subsets extracted in a flat area (blue polygon in Fig. 7) and a ripple area (red polygon in Fig. 7). <sentence_start/>We excluded the first survey from the analysis since its coverage area was too small. <sentence_start/>By comparing the distributions in the boxplots, we found that the variability of the average value of the BS intensity extracted by the mosaics falls within the Kongsberg EM2040 DC instrumental sensitivity range (±1 dB)."
+  },
+  {
+   "section": "article",
+   "text": "During the experiment, we measured also concentrations of suspended sediment using turbidity meter, ADCP and Niskin bottles for calibration. <sentence_start/>We did not find any correlation between these concentrations variability over a time (range: 3-18 mg/l) and the surface BS."
+  },
+  {
+   "section": "article",
+   "text": "The experiment in the La Bissa Channel (described in detail in Kruss <italic toggle=\"yes\">et al.</italic><citation ref-type=\"bibr\" rid=\"b45\" count=\"1\"><sup>45</sup></citation>) was a 12 h experiment with 10 repeated surveys over a tidal cycle, one about every hour with 320 kHz of frequency. <sentence_start/>To estimate the variability of the seafloor BS intensity, also in this case, we show the BS intensity distribution over time as boxplots."
+  },
+  {
+   "section": "article",
+   "text": "The analysis was carried out for the mosaics of the full area and two testing areas of the channel. <sentence_start/>These areas were representative of two seafloor types: a) a bare bottom area; b) an area covered by macroalgae (Fig. 8). <sentence_start/>They were selected on the basis of dropframe video data collected on the experiment day. <sentence_start/>This analysis showed that there were no significant changes of the BS for the full area and the bare bottom area with variations of the median value falling within the interval of instrumental sensitivity. <sentence_start/>For the macroalgae area, instead, the median values of survey 2 and survey 7 differ by about 6 dB, well outside the instrumental sensitivity range. <sentence_start/>This is due to the fact that the data were collected during ebb and flood tide, respectively. <sentence_start/>The strong tidal currents influenced the distribution of the macroalgae and their density and orientation. <sentence_start/>This BS fluctuation is therefore related to a real change in the substrate properties."
+  },
+  {
+   "section": "article",
+   "text": "SHYFEM water level data quality"
+  },
+  {
+   "section": "article",
+   "text": "The application of the SHYFEM model to the Venice Lagoon has been validated in previous works reproducing correctly the tidal propagation, the water flows in the three inlets and both the water temperature and salinity patterns<citation ref-type=\"bibr\" rid=\"b29\" count=\"1\"><sup>29</sup></citation>. <sentence_start/>Moreover, because the variations of sea level are of utmost importance for the correction of MBES data, extensive validation of numerical simulations against tide gauge data was performed. <sentence_start/>Through an iterative optimization procedure over a two-week hydrodynamic simulation, we calibrated the relaxation time (100 s) and the sigma distance of the Gaussian function (2,500 m) for the nudging assimilation scheme. <sentence_start/>Afterward, the hydrodynamic model was validated by comparing the numerical results with sea levels recorded in the lagoon (red dots in Fig. 5). <sentence_start/>The validation was performed by running 25 simulations of one month period in which the model assimilated the sea level data of all tide gauge stations except one station. <sentence_start/>For each simulation, the water levels computed in correspondence of the non-assimilated station were used to evaluate the model performance in reproducing the water level over the lagoon."
+  },
+  {
+   "section": "article",
+   "text": "The model results compare reasonably well with the measurements with an overall root mean square error (RMSE) of 2.1 cm and a correlation coefficient (R<sup>2</sup>) close to 1 in all stations (Table 1). <sentence_start/>The RMSE generally increases following the tidal propagation from the inlet to the inner lagoon, with the highest differences found in the distal parts of the lagoon (stations 1, 3, 9, 14, 18, 26). <sentence_start/>The difference between the mean of model results and the mean of observations varies in the range of±2 cm without a clear pattern. <sentence_start/>It has to be noted that the local tide gauges are affected by uncertainty in the vertical reference level. <sentence_start/>Therefore, the use of modelled sea level guarantees a uniform reference level throughout the lagoon basin."
+  },
+  {
+   "section": "article",
+   "text": "Additional Information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>How to cite this article:</bold> Madricardo, F. <italic toggle=\"yes\">et al.</italic> <sentence_start/>High resolution multibeam and hydrodynamic datasets of tidal channels and inlets of the Venice Lagoon. <sentence_start/><italic toggle=\"yes\">Sci. Data</italic> 4:170121 doi: 10.1038/sdata.2017.121 (2017)."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Publisher’s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no competing financial interests."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Working area with coloured polygons representing acquisition coverage by week numbers."
+  },
+  {
+   "section": "floating",
+   "text": "The light pink polygon depicts the area surveyed by the <italic toggle=\"yes\">Istituto Idrografico della Marina</italic> (IIM) (Italian Hydrographic Institute), whereas the coloured ones the CNR-ISMAR weekly covered areas. <sentence_start/>Pseudo-true-colour LANDSAT 8 OLI imagery as background."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "DTM from the multibeam bathymetry at 0.5 m resolution and 5 times vertical exaggeration showing the distribution of Sound Velocity Profiles (SVPs) collected during the survey."
+  },
+  {
+   "section": "floating",
+   "text": "The blue boxes indicate the areas validated by the Italian Hydrographic Institute and the data included in the official nautical charts. <sentence_start/>The red, green and yellow boxes show the location of the areas in Figs 6-8, respectively, with pseudo-true-colour LANDSAT 8 OLI imagery as background."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Workflow of the processing performed in CARIS for bathymetry and BS data."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Example of multi beam data processing outputs."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) DTM (0.5 m resolution and 5X vertical exaggeration) result of bathymetric data processing executed with CARIS HIPS and SIPS. <sentence_start/>The black arrow indicates the location of an alignment of wooden poles and amphorae dating back to Roman Times. <sentence_start/>(<bold>b</bold>) Example of BS-mosaic processed with CARIS HIPS and SIPS. <sentence_start/>The black arrow highlights the presence of artefacts."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Unstructured numerical mesh of the hydrodynamic model SHYFEM with the bathymetry interpolated over the mesh elements."
+  },
+  {
+   "section": "floating",
+   "text": "The red dots mark the location of the tide gauges (with ID according to Table 1) used in the model validation and the yellow stars indicate the location of the virtual tidal stations for the tidal correction procedure."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 6"
+  },
+  {
+   "section": "floating",
+   "text": "Example of visual evaluation of bathymetric data quality in the Lido Inlet."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Bathymetry and (<bold>b</bold>) standard deviation error in an area of the Lido Inlet (see Fig. 2) where the weeks 2-5 overlap. <sentence_start/>The pink polygons indicate the different week surveys."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 7"
+  },
+  {
+   "section": "floating",
+   "text": "Variability of seafloor BS intensity over a tidal cycle in different areas of the Lido inlet."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Map of the BS collected during one of the surveys of Experiment 1 in the Lido Inlet and values of the tide during the experiment; (<bold>b</bold>) boxplots extracted from the mosaics of the total surveyed area (white polygon); (<bold>c</bold>) of a flat area (blue polygon) and (<bold>d</bold>)of a ripple area (red polygon), respectively."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 8"
+  },
+  {
+   "section": "floating",
+   "text": "Variability of seafloor BS intensity over a tidal cycle in the La Bissa channel."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Map of the BS collected during one of the surveys of Experiment 2 in the La Bissa channel and values of the tide during the experiment; (<bold>b</bold>) boxplots extracted from the mosaics of the total surveyed area (white polygon); (<bold>c</bold>) of the bare bottom area (blue polygon) and (<bold>d</bold>)of the macroalgae area (red polygon), respectively."
+  }
+ ]
+}

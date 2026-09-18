@@ -1,0 +1,379 @@
+{
+ "pmid": 18196181,
+ "pmcid": 2198793,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Correction of Population Stratification in Large Multi-Ethnic Association Studies"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "The vast majority of genetic risk factors for complex diseases have, taken individually, a small effect on the end phenotype. <sentence_start/>Population-based association studies therefore need very large sample sizes to detect significant differences between affected and non-affected individuals. <sentence_start/>Including thousands of affected individuals in a study requires recruitment in numerous centers, possibly from different geographic regions. <sentence_start/>Unfortunately such a recruitment strategy is likely to complicate the study design and to generate concerns regarding population stratification."
+  },
+  {
+   "section": "abstract",
+   "text": "Methodology/Principal Findings"
+  },
+  {
+   "section": "abstract",
+   "text": "We analyzed 9,751 individuals representing three main ethnic groups - Europeans, Arabs and South Asians - that had been enrolled from 154 centers involving 52 countries for a global case/control study of acute myocardial infarction. <sentence_start/>All individuals were genotyped at 103 candidate genes using 1,536 SNPs selected with a tagging strategy that captures most of the genetic diversity in different populations. <sentence_start/>We show that relying solely on self-reported ethnicity is not sufficient to exclude population stratification and we present additional methods to identify and correct for stratification."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions/Significance"
+  },
+  {
+   "section": "abstract",
+   "text": "Our results highlight the importance of carefully addressing population stratification and of carefully “cleaning” the sample prior to analyses to obtain stronger signals of association and to avoid spurious results."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Complex diseases result from the intricate interactions of multiple environmental and genetic factors. <sentence_start/>In most cases, common genetic risk factors explain, individually, only a small proportion of the variance of quantitative traits and show modest associations between affected and non-affected individuals. <sentence_start/>Currently, most association studies include several hundred cases and controls from one single population, but the sample sizes are out of necessity increasing as a result of the expected relatively modest associations. <sentence_start/>In addition, the recent release of detailed descriptions of genetic diversity in non-European populations, such as those provided by the International HapMap project <citation rid=\"pone.0001382-The1\" ref-type=\"bibr\" pmid=\"16255080\" doi=\"10.1038/nature04226\" pmcid=\"PMC1880871\" count=\"1\">[1]</citation>, will shift the focus from mostly Caucasian-centered studies to diverse populations from various geographic origins. <sentence_start/>For example, GlaxoSmithKline recently started an initiative to generate and publicly release large-scale genotype information from samples collected around the world <citation rid=\"pone.0001382-Nelson1\" ref-type=\"bibr\" count=\"1\">[2]</citation>. <sentence_start/>This is appropriate since the majority of the global health burden is in low and middle income countries that include many individuals of non-European origins. <sentence_start/>Therefore studies are needed to examine the association of genetic markers for various diseases in multiple ethnic groups. <sentence_start/>Another trend affecting the recruitment strategy of genetic/epidemiologic studies is the collection of biological materials (i.e. blood and DNA) from a very large number of individuals (i.e. several hundreds of thousands) regardless of their health status. <sentence_start/>These prospective cohort studies will later allow designing nested case/control studies for any disease that is relatively common in the population <citation rid=\"pone.0001382-Manolio1\" ref-type=\"bibr\" pmid=\"16983377\" doi=\"10.1038/nrg1919\" count=\"1\">[3]</citation>, <citation rid=\"pone.0001382-DaveySmith1\" ref-type=\"bibr\" pmid=\"16243094\" doi=\"10.1016/S0140-6736(05)67601-5\" count=\"1\">[4]</citation>. <sentence_start/>All these changes in recruitment strategies will require the development of specific methods for analyzing multi-ethnic and/or multi-center samples. <sentence_start/>Here, we describe practical methods for adequately designing and conducting population-based association studies with multi-center recruitment in which a large number of markers are genotyped. <sentence_start/>We use as an example more than 9,000 individuals (about half of whom are cases of first acute myocardial infarction and half are matched controls) from three ethnic groups recruited from 154 centers in the INTERHEART study and genotyped at 1,536 SNPs in 103 candidate genes. <sentence_start/>We describe an approach to efficiently select a set of tagging SNPs that captures most of the genetic diversity in populations with different allele frequencies and linkage disequilibrium patterns, and present several methods to efficiently identify and correct possible problems arising from population stratification and relatedness among subjects."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Samples"
+  },
+  {
+   "section": "article",
+   "text": "We analyzed individuals recruited for the INTERHEART study <citation rid=\"pone.0001382-Yusuf1\" ref-type=\"bibr\" pmid=\"15364185\" doi=\"10.1016/S0140-6736(04)17018-9\" count=\"1\">[5]</citation>, a global case/control study of risk factors for acute myocardial infarction (MI) involving 29,972 individuals recruited from 262 centers in 52 countries. <sentence_start/>Informed written consent to obtain the baseline information and to collect and store the genetic and other biologic specimens was obtained from 21,508 individuals (including all individuals analyzed in this study). <sentence_start/>INTERHEART was approved by appropriate regulatory and ethics committees in all participating countries and centers and by the Institutional Review Board of McGill University Faculty of Medicine. <sentence_start/>To identify incident cases of acute MI, all patients, irrespective of age, admitted to the coronary care unit (or an equivalent cardiology ward) within 24 hours of symptom onset were screened. <sentence_start/>Cases were eligible if they had characteristic symptoms plus electrocardiogram changes indicative of a new MI (new pathologic Q waves, at least 1 mm ST elevation in any 2 or more contiguous limb leads or a new left bundle branch block, or new persistent ST-T wave changes diagnostic of a non-Q wave MI) or a plasma level of cardiac troponin level above that considered normal in the hospital/institution where the patient was registered. <sentence_start/>For each case, at least one control of the same age (±5 years) and sex was recruited from the same centre. <sentence_start/>Controls were defined as individuals who had no previous diagnosis of heart disease or history of exertional chest pain. <sentence_start/>Eligible controls were classified as i) <underline>hospital-based,</underline> defined as patients attending the hospital or outpatient clinics for the following reasons: refraction and cataracts, physical check-up, routine pap smear, routine breast exam, elective minor surgery for conditions that were not obviously related to CHD or its risk factors, elective orthopedic surgery (eligibility dependent on ability to complete physical measures), or ii. patients attending the hospital or outpatient clinics for: outpatient fractures, arthritic complaints, plastic surgery, hemorrhoids, hernias, hydroceles, routine colon cancer screening, endoscopy, minor dermatologic disorders; or ii) <underline>community-based,</underline> defined as visitors or relatives of a patient from a non-cardiac ward, or an unrelated (not first-degree relative) visitor of a cardiac patient. 58% of controls in INTERHEART were hospital-based and 36% of controls were community-based, and results were similar with both types of controls. <sentence_start/>In the remainder of the controls, 3% were from an undocumented source, and 3% were recruited through the WHO MONICA study in Göteborg, Sweden. <sentence_start/>Exclusion criteria for controls were identical to those described for cases. <sentence_start/>Structured questionnaires were administered to all cases and controls to obtain information on demographic factors (including self-reported ethnicity) as well as socioeconomic and health status. <sentence_start/>Non-fasting blood samples (20 mL) were drawn within 24 hours of hospital admission from each individual and centrifuged. <sentence_start/>These were separated into 6 aliquots (2 serum, 2 plasma, 1 citrate and 1 buffy coat) and frozen immediately at −20°C or −70°C after processing. <sentence_start/>Samples were shipped by courier to the National Blood Storage Site where they are stored in liquid nitrogen (−196°C). <sentence_start/>Finally, nitrogen vapor tanks were shipped to the Core Laboratory at the Population Health Research Institute (PHRI), Hamilton Canada for central long term storage. <sentence_start/>Samples collected among Chinese had to remain in China for legal reasons, and were shipped to the core lab in Beijing at the Fu Wai Hospital. <sentence_start/>We extracted DNA from blood samples using the Gentra Autopure LS isolation system (Gentra Systems Inc, Minneapolis, USA) according to the manufacturer's instructions. <sentence_start/>For this project, we analyzed 8,975 individuals with self-reported ethnicity defined as “Arab”, “South Asian” or “European” regardless of their geographic locations as well as 316 individuals from Nepal and 460 individuals from Iran who self-reported their ethnicity as “Other Asian”. <sentence_start/>Table 1 shows the countries in which the individuals genotyped have been recruited (see also Supplemental Figure S1). <sentence_start/>Following the approach used in the original INTERHEART analysis of nine modifiable risk factors and acute MI, we initially grouped people recruited from Nepal who reported their ethnicity as “other Asian” together with South Asian individuals and people recruited from Iran who reported their ethnicity as “other Asian” with Arabs. <sentence_start/>For sake of simplicity, we will refer to these three datasets as the European, South Asian and Arab population samples throughout the manuscript."
+  },
+  {
+   "section": "article",
+   "text": "In addition, we genotyped the same SNPs in 1,062 individuals from the HGDP-CEPH Human Genome Diversity Cell Line Panel <citation rid=\"pone.0001382-Cann1\" ref-type=\"bibr\" pmid=\"11954565\" doi=\"10.1126/science.296.5566.261b\" count=\"1\">[6]</citation> later referred to as HGDP-CEPH panel. <sentence_start/>These individuals come from 52 populations representing most of the inhabited geographic areas of the world."
+  },
+  {
+   "section": "article",
+   "text": "Gene selection"
+  },
+  {
+   "section": "article",
+   "text": "Candidate genes were selected according to previous reports of association with MI or with one of the nine modifiable risk factors associated with MI <citation rid=\"pone.0001382-Yusuf1\" ref-type=\"bibr\" pmid=\"15364185\" doi=\"10.1016/S0140-6736(04)17018-9\" count=\"1\">[5]</citation>, with a particular emphasis on lipid metabolism (see <citation rid=\"pone.0001382-Pare1\" ref-type=\"bibr\" pmid=\"17357073\" doi=\"10.1086/513286\" pmcid=\"PMC1852704\" count=\"1\">[7]</citation> for details)."
+  },
+  {
+   "section": "article",
+   "text": "SNP selection"
+  },
+  {
+   "section": "article",
+   "text": "We retrieved the chromosome coordinates of each selected gene according to its refSeq annotation and included 10 kb of upstream and downstream DNA sequence to capture possible <italic toggle=\"yes\">cis</italic>-regulatory variants. <sentence_start/>Overlapping gene regions (such as the APOA1-APOA4-APOC3 gene cluster) were concatenated into a single locus. <sentence_start/>We then retrieved the genotypes for all SNPs genotyped in these regions by the International HapMap project <citation rid=\"pone.0001382-The1\" ref-type=\"bibr\" pmid=\"16255080\" doi=\"10.1038/nature04226\" pmcid=\"PMC1880871\" count=\"1\">[1]</citation> (release 16) for all unrelated individuals from the following populations: individuals from Utah, USA, with northern and western European ancestry (CEU), individuals from the Yoruba people in Ibadan, Nigeria (YRI) and Han Chinese from Beijing, China (CHB). <sentence_start/>We used LD-select <citation rid=\"pone.0001382-Carlson1\" ref-type=\"bibr\" pmid=\"14681826\" doi=\"10.1086/381000\" pmcid=\"PMC1181897\" count=\"1\">[8]</citation> separately for each region (i.e. gene or locus containing several genes) and each population (CEU, CHB and YRI) and identified possible tagging SNPs using a linkage disequilibrium (LD) cut-off of r<sup>2</sup>&gt;0.8 and a minor allele frequency (MAF) of 5%. <sentence_start/>Finally, based on these results we selected the minimal set of tagging SNPs such that, in each population, every SNP (with MAF&gt;5%) is either directly genotyped or in LD (r<sup>2</sup>&gt;0.8) with one of the genotyped SNPs (see Supplemental Text S1 on-line)."
+  },
+  {
+   "section": "article",
+   "text": "In addition, we included all coding non-synonymous SNPs with a MAF larger than 5% (109 cSNPs, including 54 non-tSNPs) as well as SNPs that have been shown in the literature to be directly associated with MI, lipid metabolism or one of the other intermediate phenotypes relevant for the study of MI (145 SNPs, including 81 non-tSNPs). <sentence_start/>The final list of SNPs genotyped is shown in Supplemental Table S1."
+  },
+  {
+   "section": "article",
+   "text": "Genotyping"
+  },
+  {
+   "section": "article",
+   "text": "1,536 <sentence_start/>SNPs were genotyped using Illumina's GoldenGate technology based on allele-specific primer extension followed by highly multiplex PCR using universal primers <citation rid=\"pone.0001382-Fan1\" ref-type=\"bibr\" pmid=\"15338605\" doi=\"10.1101/sqb.2003.68.69\" count=\"1\">[9]</citation>. <sentence_start/>1,453 SNPs were successfully genotyped in more than 95% of the individuals of each population sample and are analyzed here (Supplemental Table S1). <sentence_start/>Individuals genotyped at less than 95% of the SNPs and those with genotypes at markers located on the sex chromosomes incompatible with their reported sex were excluded from further analyses (N = 387, see Supplemental Table S2 for a detailed breakdown)."
+  },
+  {
+   "section": "article",
+   "text": "Estimation of relatedness"
+  },
+  {
+   "section": "article",
+   "text": "For each SNP, we determined whether two individuals from the same population sample shared 0, 1 or 2 allele(s) and averaged the allele sharing over all genotyped SNPs. <sentence_start/>We then compared the proportion of shared alleles for every pair-wise comparison within one population sample to a normal distribution and displayed the results in a quantile-quantile (QQ) plot."
+  },
+  {
+   "section": "article",
+   "text": "After excluding identical, or nearly identical, samples (i.e., more than 99% of alleles shared, N = 170), we randomly selected 88 individuals from pairs that shared more than 83% of their alleles. <sentence_start/>This value corresponds to the relatedness cut-off empirically estimated (see Results for details). <sentence_start/>We successfully genotyped 87 of the individuals at 99 microsatellite loci. <sentence_start/>We performed a kinship analysis using the ML-relate program <citation rid=\"pone.0001382-Kalinowski1\" ref-type=\"bibr\" count=\"1\">[10]</citation> that uses a Bayesian approach to estimate relationship between pairs of individuals."
+  },
+  {
+   "section": "article",
+   "text": "To detect whether cases were significantly more related to each other than the controls to each other (or inversely), we tested in each population sample the distribution of allele sharing among cases to the distribution of allele sharing among controls. <sentence_start/>We calculated all pair-wise comparisons of allele sharing between two cases and all pair-wise allele sharing between two controls and tested the difference of the means of the two distributions by a Welch Two Sample t-test. <sentence_start/>We assessed the significance of the t-statistic by 300 permutations: for each population sample, we randomly assigned the individuals into two groups (i.e. regardless of the disease status) and tested the difference between the mean of the two distributions consisting of all possible pair-wise comparisons within each group. <sentence_start/>To evaluate the power of these analyses, we used unrelated individuals from the Saguenay-Lac St-Jean region (SLSJ, Quebec, Canada) that have been genotyped at the same SNPs <citation rid=\"pone.0001382-Pare1\" ref-type=\"bibr\" pmid=\"17357073\" doi=\"10.1086/513286\" pmcid=\"PMC1852704\" count=\"1\">[7]</citation>. <sentence_start/>We calculated every pair-wise comparison of two individuals from this population and tested this distribution against all pair-wise comparisons of two European controls from the INTERHEART study. <sentence_start/>We controlled for possible population differentiation by testing the distribution of pair-wise comparisons between one individual from the SLSJ region and one INTERHEART European individual against pair-wise comparisons of the Europeans controls."
+  },
+  {
+   "section": "article",
+   "text": "Assessment of population stratification"
+  },
+  {
+   "section": "article",
+   "text": "To estimate population stratification at a gross level, we used the program STRUCTURE <citation rid=\"pone.0001382-Pritchard1\" ref-type=\"bibr\" pmid=\"10835412\" doi=\"10.1093/genetics/155.2.945\" pmcid=\"PMC1461096\" count=\"1\">[11]</citation>. <sentence_start/>This program uses a Bayesian approach to assign individuals into a pre-specified number (<italic toggle=\"yes\">K</italic>) of “populations” according to their genotypes. <sentence_start/>These populations are determined such that linkage disequilibrium among unlinked markers and deviations from Hardy-Weinberg are minimized in each of them. <sentence_start/>We allowed the individuals to be admixed from two or more populations and used a model of correlated allele frequencies which yields stronger clustering <citation rid=\"pone.0001382-Serre1\" ref-type=\"bibr\" pmid=\"15342553\" doi=\"10.1101/gr.2529604\" pmcid=\"PMC515312\" count=\"1\">[12]</citation>. <sentence_start/>Every analysis was replicated thrice and consisted of 200,000 burn-in steps followed by 200,000 Markov Chain Monte Carlo steps. <sentence_start/>We selected genotypes from SNPs distant from at least 50,000 bp to decrease the chance that they are in LD with each other. <sentence_start/>Two sets of SNPs were generated: a first set of 133 SNPs randomly selected according to our distance criteria, and a second set composed of the 127 SNPs highly differentiated across populations (based on Fst estimates calculated after grouping the HDGP-CEPH individuals by continents, <citation rid=\"pone.0001382-Weir1\" ref-type=\"bibr\" count=\"1\">[13]</citation>. <sentence_start/>This second set of SNPs led to higher discrimination power (Supplemental Figure S2) and only results obtained with this set are presented in further analyses. <sentence_start/>The analyses with STRUCTURE were performed i) separately on each population sample after addition of all individuals from the HGDP-CEPH panel (except for Native American and Oceanian individuals since prior studies of these populations have emphasized the importance of genetic drift leading to large differences in allele frequencies) or ii) on the entire dataset combining all European, Arab and South-Asian INTERHEART individuals."
+  },
+  {
+   "section": "article",
+   "text": "Second generation population samples"
+  },
+  {
+   "section": "article",
+   "text": "We generated second generation population samples by first removing problematic samples and centers: 1) we randomly excluded one individual from each pair of related individuals (N = 131), 2) all individuals that were clustered by STRUCTURE among sub-Saharan Africans or East Asians (N = 104), and 3) all individuals from two centers that showed a very high proportion of problematic samples (including more than 10% discrepancies between reported and genetically-inferred sex, N = 719). <sentence_start/>In addition, all Nepalese and Iranian individuals were removed from, respectively, the South Asian and the Arab population sample (N = 776). <sentence_start/>Supplemental Table S2 shows the detailed breakdown per population sample."
+  },
+  {
+   "section": "article",
+   "text": "Associations between genotypes and Apolipoprotein B concentrations"
+  },
+  {
+   "section": "article",
+   "text": "We tested, separately in each population sample, the association between genotypes and ApoB levels in blood for each SNP by an analysis of variance (ANOVA). <sentence_start/>We used sex, age and waist circumference as covariates in these analyses and excluded individuals with diabetes (defined as self-reported diabetes, on medication pre-admission for diabetes, oral hypoglycemics, insulin or with HbA1c&gt;7%) or on pre-admission medication for lowering cholesterol or blood pressure (inclusion of diabetic individuals led to the same strong associations with ApoB, data not shown). <sentence_start/>We also included as covariates for some of the analyses the recruitment center and the coefficients of ancestry inferred by STRUCTURE for each individual (using the results obtained by analyzing all individuals from the three population samples together). <sentence_start/>To estimate whether multiple significant associations from the same region were independent or simply due to LD, we tested hierarchically the associations by successively including the genotypes of stronger associations as covariates."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Identification of related individuals"
+  },
+  {
+   "section": "article",
+   "text": "To estimate whether the datasets made of individuals of a same self-reported ethnicity were roughly genetically homogenous, we calculated in each population sample the proportion of shared alleles between every pair of individuals. <sentence_start/>If individuals are sampled randomly from a homogeneous random-mating population, we expect every individual to be, on average, equally distant genetically from everybody else (since information from many unlinked loci is summarized). <sentence_start/>We thus plotted the distribution of allele sharing for all pair-wise comparisons within each population sample against a normal distribution (see Figure 1 for the European individuals and Supplemental Figure S3 for the other two datasets). <sentence_start/>Overall, the distributions appear roughly normal (i.e., we obtain a straight line on the QQ-plot for most of the range) but with significant deviations on both extremes. <sentence_start/>We observed a dramatic deviation on the right-hand side of the graph for the pairs of individuals with a proportion of allele sharing larger than 0.83 that could indicate sampling of related individuals. <sentence_start/>The most extreme case in the European sample consists of identical or nearly identical (&gt;99%) genotypes obtained from 16 pairs of supposedly different individuals. <sentence_start/>The great majority of the pairs with a high proportion of shared alleles (i.e. larger than 0.83) are composed of individuals recruited in the same center. <sentence_start/>Overall we identified 71 likely related individuals (39 pairs) in the European population sample, 75 (41 pairs) in the South Asian sample and 97 (60 pairs) in the Arab sample. <sentence_start/>To test whether these individuals were actually related, we randomly selected 87 individuals from pairs with a very high proportion of allele sharing (&gt;0.83), after exclusion of identical or nearly identical DNAs (&gt;0.99), and genotyped them at 99 microsatellite loci. <sentence_start/>Kinship analyses using the Bayesian approach implemented in ML-relate <citation rid=\"pone.0001382-Kalinowski1\" ref-type=\"bibr\" count=\"1\">[10]</citation> identified the same pairs of related individuals, with different degrees of relatedness: 71 pairs of parent/offspring, 28 full-siblings and 12 half-siblings."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of pair-wise allele sharing among the INTERHEART European individuals."
+  },
+  {
+   "section": "article",
+   "text": "The graph shows the QQ plot of the distribution of all pair-wise measures of allele sharing against a normal distribution (the red line displays the expectation). <sentence_start/>The green line shows to the empirical cut-off used to identify related individuals (correspond to an allele sharing larger than 83%). <sentence_start/>The deviation on the left-hand side of the graph (i.e. low allele sharing) corresponds to pairs of individuals originating from different sub-populations."
+  },
+  {
+   "section": "article",
+   "text": "The presence of closely related individuals can generate spurious results but is unlikely to strongly influence association studies unless they make up a large proportion of the dataset. <sentence_start/>On the other hand, the possibility that the cases are, on average, more closely related to each others than are the controls (or inversely) is particularly worrying since this difference in genealogy depth could potentially generate large numbers of false positives <citation rid=\"pone.0001382-Devlin1\" ref-type=\"bibr\" pmid=\"11315092\" doi=\"10.1111/j.0006-341x.1999.00997.x\" count=\"1\">[14]</citation>, <citation rid=\"pone.0001382-Voight1\" ref-type=\"bibr\" pmid=\"16151517\" doi=\"10.1371/journal.pgen.0010032\" pmcid=\"PMC1200427\" count=\"1\">[15]</citation>. <sentence_start/>We examined this possibility in our study by testing, in each population sample, the distribution of pair-wise allele sharing among cases against the distribution obtained by pair-wise comparisons among controls. <sentence_start/>We assessed the significance of the t-statistic obtained by 300 permutations (see Supplemental Figure S4 for the Europeans). <sentence_start/>The difference in allele sharing between cases and controls was not significant in any population sample (p = 0.75 for the European individuals, p = 0.77 in South Asians and p = 0.75 in Arabs). <sentence_start/>We evaluated the power of these analyses by estimating the distribution of allele sharing among unrelated individuals recruited from a founder population of the Saguenay Lac S<sup>t</sup>-Jean region of Quebec, Canada. <sentence_start/>For these individuals, we observed a significant increase in allele sharing compared to the European individuals from the INTERHEART study (p&lt;0.005). <sentence_start/>We validated that this difference resulted from higher average relatedness and not from population differentiation by comparing pair-wise allele sharing between one individual from the SLSJ region and one European from the INTERHEART study and testing this distribution against the within-European distribution of allele sharing (p = 0.16). <sentence_start/>Non-parametric testing (Two-sample Kolmogorov-Smirnov) yielded, qualitatively, similar results (data not shown)."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of gross population stratification"
+  },
+  {
+   "section": "article",
+   "text": "Figure 1 also shows an excess of pairs on the left-hand side of the graph relative to a normal expectation. <sentence_start/>These pairs of individuals are more different genetically (i.e. less allele shared) than the vast majority of the pairs and this could indicate population stratification in the sample or the presence of individuals with an incorrect self-reported ethnicity. <sentence_start/>As a first attempt to identify individuals genetically different from the rest of the samples, we analyzed each population sample separately using the program STRUCTURE <citation rid=\"pone.0001382-Pritchard1\" ref-type=\"bibr\" pmid=\"10835412\" doi=\"10.1093/genetics/155.2.945\" pmcid=\"PMC1461096\" count=\"1\">[11]</citation>. <sentence_start/>STRUCTURE is a Bayesian algorithm that uses genotype information from all individuals without considering their origins and assigns them into a chosen number of populations (see Materials and Methods for details). <sentence_start/>Since this algorithm relies on the estimation of allele frequencies in different populations, it is easier to identify groups of individuals than a few outliers in a relatively homogenous population <citation rid=\"pone.0001382-Pritchard1\" ref-type=\"bibr\" pmid=\"10835412\" doi=\"10.1093/genetics/155.2.945\" pmcid=\"PMC1461096\" count=\"1\">[11]</citation>, <citation rid=\"pone.0001382-Serre1\" ref-type=\"bibr\" pmid=\"15342553\" doi=\"10.1101/gr.2529604\" pmcid=\"PMC515312\" count=\"1\">[12]</citation>. <sentence_start/>We thus spiked each population sample before analysis with 914 individuals from the HGDP-CEPH panel <citation rid=\"pone.0001382-Cann1\" ref-type=\"bibr\" pmid=\"11954565\" doi=\"10.1126/science.296.5566.261b\" count=\"1\">[6]</citation> originating from several geographic locations in Africa, Europe and Asia (see Materials and Methods). <sentence_start/>These individuals also enable us to estimate the discrimination power of our analysis and the level of population differentiation that can be identified. <sentence_start/>Using 127 SNPs highly differentiated among populations from different continents (see Materials and Methods), we were able to pin-point a few individuals whose genotypes were more compatible with an ancestry from Sub-Saharan Africa or South-East Asia than their “European”, “Arab” or “South-Asian” self-reported origin (Supplemental Table S3). <sentence_start/>Interestingly, in many of these cases, the ancestry inferred from the genotypes best fitted the individual's geographic origin than his/her self-reported ethnicity. <sentence_start/>For example, three individuals from Zimbabwe self-described as Europeans displayed very high coefficient of ancestry from the African population (i.e. larger than 90%). <sentence_start/>In addition, a large proportion of the individuals recruited from Nepalese centers cluster with South-East Asian individuals from the HGDP-CEPH (Supplemental Table S3). <sentence_start/>All Nepalese individuals self-reported their ethnicity as “Other Asian” but were analyzed together with “South Asians” based on similarity in cultural practices in previous publications of the INTERHEART study <citation rid=\"pone.0001382-Yusuf1\" ref-type=\"bibr\" pmid=\"15364185\" doi=\"10.1016/S0140-6736(04)17018-9\" count=\"1\">[5]</citation>, <citation rid=\"pone.0001382-Yusuf2\" ref-type=\"bibr\" pmid=\"16271645\" doi=\"10.1016/S0140-6736(05)67663-5\" count=\"1\">[16]</citation>, <citation rid=\"pone.0001382-Rosengren1\" ref-type=\"bibr\" pmid=\"15364186\" doi=\"10.1016/S0140-6736(04)17019-0\" count=\"1\">[17]</citation>. <sentence_start/>The analysis of each population sample separately lacked power to separate individuals from Europe, the Middle East and South Asia as indicated by the assignments of the HGDP-CEPH individuals (i.e., we did not identify any clustering of the HGDP-CEPH individuals at the sub-continental level). <sentence_start/>We thus reanalyzed with STRUCTURE all INTERHEART individuals pooled together (after exclusion of the few outliers with Sub-Saharan African or East Asian ancestry). <sentence_start/>Figure 2 shows the results of this analysis using K = 3 populations. <sentence_start/>With enough individuals from each group, STRUCTURE is able to better estimate the allele frequencies corresponding to the three main self-reported ethnicities (i.e. Europeans, South Asians and Arabs) and consequently, assigns more than 90% of the individuals in the population corresponding to their self-reported ethnicity with a coefficient of ancestry larger than 0.85 (see Figure 2 and Supplemental Figure S2). <sentence_start/>The remaining individuals could represent random fluctuations due to our limited power (only 127 SNPs were used in this analysis) or differences between genetically-inferred and self-reported ethnicity). <sentence_start/>We did not detect any clear correlation between the assignment coefficients estimated by STRUCTURE and, either the geographic origin of the samples or their case/control status. <sentence_start/>However, we observed that a large proportion of the individuals recruited in Iranian centers that self-described their ethnicity as ‘Other-Asian’ (but were gathered in the Arab population sample in this study) were assigned among “Europeans”."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Genetic clustering of the INTERHEART individuals inferred by STRUCTURE."
+  },
+  {
+   "section": "article",
+   "text": "“European” (blue dots), “Arabs” (green dots) and “South Asian” (pink dots) individuals are displayed according to their coefficients of ancestry in three populations (K = 3) as estimated by STRUCTURE using 127 SNPs. <sentence_start/>The coefficients of ancestry display separately for each population samples were inferred from a single analysis (i.e. all individuals combined) and are represented using the same axes. <sentence_start/>See also Supplemental Figure S2 for the distribution of the coefficients of ancestry."
+  },
+  {
+   "section": "article",
+   "text": "Based on the results of these analyses we generated second generation datasets after exclusion of problematic samples. <sentence_start/>We randomly excluded one individual from each pair of related individuals, all individuals that were clustered by STRUCTURE among sub-Saharan Africans or East Asians and all Nepalese and Iranian individuals. <sentence_start/>In addition, we excluded all individuals from two centers that showed a very high proportion of problematic samples (including more than 10% discrepancies between reported and genetically-inferred sex). <sentence_start/>This consequently reduced our sample sizes to 4,069 individuals in the European population sample (starting from 4,292), 2,450 in the South Asian sample (out of 2900, including 316 Nepalese) and 1,399 individuals in the Arab sample (out of 2559, including 460 Iranians)."
+  },
+  {
+   "section": "article",
+   "text": "Correcting association analysis for possible residual stratification"
+  },
+  {
+   "section": "article",
+   "text": "We tested separately in each population sample the association between genotypes and Apolipoprotein B (ApoB) concentration (see Materials and Methods for details). <sentence_start/>Figure 3 shows the distribution of the p-value obtained for each SNP in the South-Asian dataset. <sentence_start/>The figure shows a global deviation (towards more significant associations) from the pattern expected by chance if there is no association between genotypes and ApoB concentration. <sentence_start/>This deviation is not limited to a few outliers but affects the entire distribution. <sentence_start/>This could be an indication that many SNPs (i.e. several hundred) in our panel are significantly associated with ApoB level or, alternatively, that a previously undetected stratification in the dataset affects the results. <sentence_start/>We first tried to correct this global deviation by using the coefficients of ancestry estimated by STRUCTURE for each individual as covariates in the ANOVA. <sentence_start/>This did not lead to any significant difference in the distribution of the p-values (see Supplemental Figure S5). <sentence_start/>We then tested whether the geographic origin of the individuals could influence the associations. <sentence_start/>After using the recruitment centers as covariates of the analyses, the distribution of the p-values for the South-Asian individuals fitted much better the distribution expected under no association, and only five SNPs (most notably rs429358 in APOE) showed significant deviation from the expectation and strong association with ApoB concentration (Figure 3). <sentence_start/>Similar patterns were observed in the Arab and, to a lesser extent, in the European datasets (data not shown). <sentence_start/>Correcting the association tests for the recruitment centers thus led to a dramatic change in the overall distribution of the associations with some of the SNPs showing up to two orders of magnitude decrease in statistical significance. <sentence_start/>It is important to note here that the stratification observed among centers is not due to a systematic difference in DNA preparation or storage between centers. <sentence_start/>The INTERHEART protocol requires that, for every case recruited, at least one control (same sex, same age) is recruited from the same center. <sentence_start/>Blood samples (or buffy coats) from cases and controls are then shipped to Canada and treated identically (after randomization). <sentence_start/>However, due to stochastic failures at different stages (e.g. DNA extractions, genotyping) some centers included more cases than controls (or inversely) at the end of the study which contributes to the observed stratification effect (in combination with allele frequency differences among centers)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of the p-values of the associations between genotypes at 1,453 SNPs and ApoB level in South-Asians."
+  },
+  {
+   "section": "article",
+   "text": "The plot shows the observed distribution of the p-values (y-axis) against the expectation under a model without any association (grey crosses and x-axis). <sentence_start/>The axes are in logarithmic scales. <sentence_start/>Red crosses correspond to the association between ApoB and the genotypes at one SNP without any correction. <sentence_start/>Blue crosses stand for the same tests using recruitment centers used as additional covariates."
+  },
+  {
+   "section": "article",
+   "text": "In the European dataset (but not in the South-Asian and Arab datasets), the distribution of p-values shows a bump with a higher significance level for the SNPs with p&lt;0.05 (74 SNPs) than we would expect by chance (Supplemental Figure S6). <sentence_start/>Interestingly, most of the strongest associations come from SNPs located in a few genes. <sentence_start/>We thus tested whether this deviation was due to the carry-over of a limited number of signals to many SNPs in strong LD with each others. <sentence_start/>We reanalyzed the associations between the genotypes and ApoB level conditional on the genotypes of SNPs with the strongest associations (see Materials and Methods). <sentence_start/>After correcting for the signal of the five strongest associations, the entire distribution becomes indistinguishable from the expected distribution (Supplemental Figure S6)."
+  },
+  {
+   "section": "article",
+   "text": "Effect of cleaning the dataset"
+  },
+  {
+   "section": "article",
+   "text": "To estimate the influence of stratification on the results obtained and the loss of power resulting from the reduction in sample size, we contrasted the results of the associations with ApoB concentration prior to and after “cleaning” in each dataset. <sentence_start/>In all population samples, we observe a reduction in the deviation of the p-value distribution from the expectation after removing outlier individuals and/or centers (i.e. in the second generation population samples). <sentence_start/>The changes are more dramatic in the Arab dataset than in the South-Asian and European datasets (Supplementary Figure S7). <sentence_start/>The effect of cleaning the datasets does not affect evenly all markers and some of the associations between genotypes and ApoB concentration changed more dramatically than others. <sentence_start/>Consequently, the markers most strongly associated with ApoB concentration differ (Table 2). <sentence_start/>Interestingly, we note that after cleaning, the SNP most strongly associated with ApoB level in all three population samples (rs429358 in APOE) replicates well supported associations <citation rid=\"pone.0001382-Austin1\" ref-type=\"bibr\" pmid=\"15321838\" doi=\"10.1093/aje/kwh237\" count=\"1\">[18]</citation>, <citation rid=\"pone.0001382-Mahley1\" ref-type=\"bibr\" pmid=\"11701639\" doi=\"10.1146/annurev.genom.1.1.507\" count=\"1\">[19]</citation>. <sentence_start/>In addition, the p-values for the most significant associations are only moderately changed (decreased or actually improved) despite the loss of 3.6 to 40% of the samples (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Detecting and correction for population substructure"
+  },
+  {
+   "section": "article",
+   "text": "One of the main drawbacks of population-based association studies (in comparison to family-based association studies) are their susceptibility to population stratification <citation rid=\"pone.0001382-Devlin2\" ref-type=\"bibr\" pmid=\"11754464\" doi=\"10.1002/gepi.1034\" count=\"1\">[20]</citation>-<citation rid=\"pone.0001382-Marchini1\" ref-type=\"bibr\" pmid=\"15052271\" doi=\"10.1038/ng1337\" count=\"1\">[23]</citation>. <sentence_start/>The presence of differing levels of relatedness among the samples or the existence of unnoticed sub-populations can induce both a loss of power in detecting true associations and generate spurious associations <citation rid=\"pone.0001382-Devlin1\" ref-type=\"bibr\" pmid=\"11315092\" doi=\"10.1111/j.0006-341x.1999.00997.x\" count=\"1\">[14]</citation>, <citation rid=\"pone.0001382-Voight1\" ref-type=\"bibr\" pmid=\"16151517\" doi=\"10.1371/journal.pgen.0010032\" pmcid=\"PMC1200427\" count=\"1\">[15]</citation>, <citation rid=\"pone.0001382-Freedman1\" ref-type=\"bibr\" pmid=\"15052270\" doi=\"10.1038/ng1333\" count=\"1\">[22]</citation>, <citation rid=\"pone.0001382-Marchini1\" ref-type=\"bibr\" pmid=\"15052271\" doi=\"10.1038/ng1337\" count=\"1\">[23]</citation>. <sentence_start/>These issues are likely to become even more crucial in the future since the effect of stratification increases with the sample size and since recruitment criteria are widening to obtain larger and multi-purpose cohorts. <sentence_start/>For example, UK Biobank, one of the largest on-going prospective studies, only excludes first-degree relatives and aims to obtain a global representation of the UK population including its ethnic minorities. <sentence_start/>We describe in our study a handful of simple methods that can be applied to any large scale genotyping projects (i.e. more than 1,000 SNPs) to identify and address possible stratification problems in the sample."
+  },
+  {
+   "section": "article",
+   "text": "The INTERHEART study was originally designed as a “matched” case-control study but was unmatched in the analysis of nine modifiable risk factors <citation rid=\"pone.0001382-Yusuf1\" ref-type=\"bibr\" pmid=\"15364185\" doi=\"10.1016/S0140-6736(04)17018-9\" count=\"1\">[5]</citation> to minimize the loss of cases and controls for whom matching was not possible, given that there was general agreement for key results among the matched and unmatched data analyses. <sentence_start/>In this genetic analysis matching was not used since we often lacked genotypes of one of the two members of the matched pair (due to a failure in blood collection, DNA extraction or genotyping). <sentence_start/>As a consequence, the INTERHEART protocol, while specifically excluding the recruitment of related individuals as cases, authorized using a relative of one case as a control for another case. <sentence_start/>Numerous methods have been developed in the past to assess the degree of relationship among individuals (see <citation rid=\"pone.0001382-Weir2\" ref-type=\"bibr\" pmid=\"16983373\" doi=\"10.1038/nrg1960\" count=\"1\">[24]</citation>, <citation rid=\"pone.0001382-Blouin1\" ref-type=\"bibr\" count=\"1\">[25]</citation> for reviews). <sentence_start/>We showed here that, when enough markers are genotyped, a simple QQ-plot of allele sharing, as the one in Figure 1, allowed us to identify related individuals who almost always consisted of a case and one or more control individual(s). <sentence_start/>A more problematic issue arises if the cases are on average more related to each other than are the controls (or inversely): the global difference in the depth of the genealogies of each group can lead to differences in alleles frequencies and thus generate spurious associations. <sentence_start/>Since many of the individuals analyzed here were recruited from non-cosmopolitan areas, we were concerned that this could be an issue in the INTERHEART study. <sentence_start/>By comparing the mean pair-wise allele sharing observed among cases to that observed among controls, we showed that none of the differences observed was significantly larger than the difference observed by randomly assigning individuals into two groups. <sentence_start/>By contrast, the same analysis performed on unrelated individuals from a founder population of the Saguenay-Lac St-Jean from Quebec, Canada <citation rid=\"pone.0001382-Heyer1\" ref-type=\"bibr\" pmid=\"7717408\" pmcid=\"PMC1801195\" count=\"1\">[26]</citation> revealed an overall shorter genealogy than the INTERHEART Europeans consistent with their demographic history. <sentence_start/>This result clearly indicates that our analysis has sufficient power to identify slight differences in relatedness and excludes differential average relatedness between cases and controls as a major issue in our population samples."
+  },
+  {
+   "section": "article",
+   "text": "One of the most common arguments advanced to explain the lack of reproducibility in population-based association studies is the presence of undetected subpopulations in the sample, leading to spurious results (e.g. <citation rid=\"pone.0001382-Cardon1\" ref-type=\"bibr\" pmid=\"12598158\" doi=\"10.1016/S0140-6736(03)12520-2\" count=\"1\">[27]</citation>). <sentence_start/>We expected this issue to be especially problematic in this study since the individuals (both cases and controls) were recruited in more than a hundred centers across the world and later grouped together based on their self-reported ethnicity. <sentence_start/>Several methods have been developed to address population stratification based either on correcting the test statistic to account for genetic heterogeneity in the sample, or on performing structured associations after the identification of subpopulations <citation rid=\"pone.0001382-Devlin2\" ref-type=\"bibr\" pmid=\"11754464\" doi=\"10.1002/gepi.1034\" count=\"1\">[20]</citation>, <citation rid=\"pone.0001382-Pritchard2\" ref-type=\"bibr\" pmid=\"11855957\" doi=\"10.1006/tpbi.2001.1543\" count=\"1\">[28]</citation>. <sentence_start/>Devlin and Roeder <citation rid=\"pone.0001382-Devlin1\" ref-type=\"bibr\" pmid=\"11315092\" doi=\"10.1111/j.0006-341x.1999.00997.x\" count=\"1\">[14]</citation> proposed to use random SNPs as “genomic controls” to estimate the average effect of population substructure in the sample and then correct the test statistics accordingly. <sentence_start/>One limitation of this approach is that it assumes a constant effect of stratification or admixture over all loci and thus does not correct appropriately for markers located in regions of adaptive selection (i.e. loci where natural selection acted or is acting differently on different populations). <sentence_start/>This is a major drawback for whole genome scans: they include many SNPs in such regions that will not be sufficiently corrected (see <citation rid=\"pone.0001382-Sladek1\" ref-type=\"bibr\" pmid=\"17293876\" doi=\"10.1038/nature05616\" count=\"1\">[29]</citation> as an example). <sentence_start/>Even for candidate gene studies, this effect can critically hamper the association analyses since natural selection can greatly affect genetic diversity at disease genes <citation rid=\"pone.0001382-DiRienzo1\" ref-type=\"bibr\" pmid=\"16153740\" doi=\"10.1016/j.tig.2005.08.007\" count=\"1\">[30]</citation>. <sentence_start/>In the INTERHEART study, several genes under investigation have been shown to differ drastically among populations due to the effect of natural selection <citation rid=\"pone.0001382-Young1\" ref-type=\"bibr\" pmid=\"16429165\" doi=\"10.1371/journal.pgen.0010082\" pmcid=\"PMC1342636\" count=\"1\">[31]</citation>-<citation rid=\"pone.0001382-Nakajima1\" ref-type=\"bibr\" pmid=\"15077204\" doi=\"10.1086/420793\" pmcid=\"PMC1181984\" count=\"1\">[33]</citation>. <sentence_start/>We thus discarded using genomic controls (GC) to correct for stratification since GC selected randomly would not correct sufficiently for stratification in genes under selection, while selecting GC in genes under selection would inflate the correction coefficient and over-correct all other loci, resulting in a large loss of power. <sentence_start/>Instead, we opted to use the program STRUCTURE <citation rid=\"pone.0001382-Pritchard1\" ref-type=\"bibr\" pmid=\"10835412\" doi=\"10.1093/genetics/155.2.945\" pmcid=\"PMC1461096\" count=\"1\">[11]</citation> that uses genotypes to group individuals according to their genetic ancestry. <sentence_start/>An alternative program, EIGENSTRAT <citation rid=\"pone.0001382-Patterson1\" ref-type=\"bibr\" pmid=\"17194218\" doi=\"10.1371/journal.pgen.0020190\" pmcid=\"PMC1713260\" count=\"1\">[34]</citation>, performs similar analyses but does not incorporate any defined genetic model and thus is not as efficient as Structure with only a few hundreds of independent markers (it is, on the other hand, computationally more interesting for genome-wide or other large dataset). <sentence_start/>We spiked our dataset with individuals of known ancestry genotyped at the same loci to better identify possible individuals with ancestry from Africa and South East Asia present in the INTERHEART dataset. <sentence_start/>This procedure, coupled with the use of highly differentiated SNPs (i.e. SNPs with high Fst) yielded better clustering and thus, a more powerful identification of outliers (see also <citation rid=\"pone.0001382-Sladek1\" ref-type=\"bibr\" pmid=\"17293876\" doi=\"10.1038/nature05616\" count=\"1\">[29]</citation>). <sentence_start/>Overall, the great majority of the individuals were gathered into the population corresponding to their self-reported ethnicity, consistent with previous reports showing high correspondence between self-reported ethnicity and genetic estimates of ancestry <citation rid=\"pone.0001382-Tang1\" ref-type=\"bibr\" pmid=\"15625622\" doi=\"10.1086/427888\" pmcid=\"PMC1196372\" count=\"1\">[35]</citation>. <sentence_start/>In addition, many individuals from Nepal, who all reported an “Other Asian” ethnicity but were grouped with “South Asian” individuals in previous analyses of the INTERHEART study, display high coefficients of ancestry from South East Asian populations as well as high heterogeneity in their assignments. <sentence_start/>This observation is consistent with previous reports of genetic heterogeneity in Tibeto-Burman populations <citation rid=\"pone.0001382-Wen1\" ref-type=\"bibr\" pmid=\"15042512\" doi=\"10.1086/386292\" pmcid=\"PMC1181980\" count=\"1\">[36]</citation>, <citation rid=\"pone.0001382-Chakraborty1\" ref-type=\"bibr\" pmid=\"2349953\" pmcid=\"PMC1683746\" count=\"1\">[37]</citation> and shows that the self-reported ethnicity correctly captured the genetic information but the later grouping of these individuals with South-Asian individuals lead to genetic heterogeneity. <sentence_start/>In contrast, we identified several clear outliers in each dataset, with in some cases the genetically inferred ancestry corresponding better to the geographic location than their self-reported ethnicities. <sentence_start/>These discrepancies could be due to clerical errors or sample mislabeling, or alternatively, represent true differences between self-reported ethnicity and genetic ancestry. <sentence_start/>In agreement with previous studies <citation rid=\"pone.0001382-Parra1\" ref-type=\"bibr\" pmid=\"12509516\" doi=\"10.1073/pnas.0126614100\" pmcid=\"PMC140919\" count=\"1\">[38]</citation>, we identified several Brazilian individuals self-described as “Europeans” that show high level of African ancestry which illustrates some of the limitations of using self-reported ethnicity. <sentence_start/>Unfortunately, we were underpowered to identify (or rule out) with STRUCTURE and the reduced number of markers available (∼130 selected SNPs) more subtle stratification levels due to intra-continental differences (e.g. <citation rid=\"pone.0001382-Campbell1\" ref-type=\"bibr\" pmid=\"16041375\" doi=\"10.1038/ng1607\" count=\"1\">[39]</citation>). <sentence_start/>The deviations in the distribution of the p-values observed in at least two datasets (i.e. South Asian and Arab) clearly indicate that the exclusion of the outliers identified by STRUCTURE was not sufficient to remove all stratification and illustrates that self-reported ethnicity on its own is not sufficient to protect against population stratification. <sentence_start/>However, we successfully corrected this overall inflation in the significance of the associations using the recruitment centers as covariates. <sentence_start/>This approach can be easily applied to other scenarios when, for example, the controls are recruited in different centers. <sentence_start/>In such cases, a simple test such as a QQ plot of the p-value distribution will indicate if the use of additional covariates is useful and if using the dataset is appropriate for drawing biological/medical conclusions."
+  },
+  {
+   "section": "article",
+   "text": "Several studies have looked at the effect of stratification from a theoretical perspective and sometimes reached contradicting conclusions <citation rid=\"pone.0001382-Freedman1\" ref-type=\"bibr\" pmid=\"15052270\" doi=\"10.1038/ng1333\" count=\"1\">[22]</citation>, <citation rid=\"pone.0001382-Marchini1\" ref-type=\"bibr\" pmid=\"15052271\" doi=\"10.1038/ng1337\" count=\"1\">[23]</citation>, <citation rid=\"pone.0001382-Wacholder1\" ref-type=\"bibr\" pmid=\"10904088\" doi=\"10.1093/jnci/92.14.1151\" count=\"1\">[40]</citation>, <citation rid=\"pone.0001382-Wacholder2\" ref-type=\"bibr\" pmid=\"12050091\" count=\"1\">[41]</citation> but few concrete examples have shown its influence on the results of a real association study <citation rid=\"pone.0001382-Campbell1\" ref-type=\"bibr\" pmid=\"16041375\" doi=\"10.1038/ng1607\" count=\"1\">[39]</citation>, <citation rid=\"pone.0001382-Knowler1\" ref-type=\"bibr\" pmid=\"6624895\" doi=\"10.1002/ajpa.1330620114\" count=\"1\">[42]</citation>, <citation rid=\"pone.0001382-Choudhry1\" ref-type=\"bibr\" pmid=\"16283388\" doi=\"10.1007/s00439-005-0071-3\" count=\"1\">[43]</citation>. <sentence_start/>Here we empirically show that cleaning-up the datasets to remove as much stratification as possible does influence the overall distribution of the association p-values. <sentence_start/>In particular, we demonstrate that even the strongest associations (i.e. the SNPs that are most likely to be reported as “significantly associated”) can differ according to the “state” of the dataset: while we observe significant differences among the results of each dataset prior to cleaning, the strongest association in all three cleaned datasets is due to one SNP in the ApoE gene (rs429358) known to be strongly involved in Apolipoprotein B concentration <citation rid=\"pone.0001382-Mahley1\" ref-type=\"bibr\" pmid=\"11701639\" doi=\"10.1146/annurev.genom.1.1.507\" count=\"1\">[19]</citation>. <sentence_start/>Interestingly, the loss of power resulting from a reduction in sample size (up to 40% in the Arab dataset) is almost completely compensated by the cleaner signal obtained: the strength of the confirmed associations is very similar or even improved in the cleaned datasets relative to the analysis performed with the raw data. <sentence_start/>This shows that cleaning up the datasets to obtain un-stratified samples, even at the cost of reduced sample size, is crucial to obtain reliable results. <sentence_start/>In our study, the genetic risk factors associated with the phenotype investigated seem to be similar in the different populations (e.g. APOE shows strong association with ApoB in all three population samples). <sentence_start/>In addition, the strongest signal comes from the presumably functional allele that has been directly genotyped. <sentence_start/>This represents the best case scenario to identify true associations in a stratified sample (even if the stratification will still generate spurious associations). <sentence_start/>If on the contrary, the risk factors associated with a particular trait differ among populations (e.g. if one would look at lactose tolerance, <citation rid=\"pone.0001382-Tishkoff1\" ref-type=\"bibr\" pmid=\"17159977\" doi=\"10.1038/ng1946\" pmcid=\"PMC2672153\" count=\"1\">[44]</citation>, or if the causative polymorphism is not directly genotyped and the LD patterns differ among populations, the power to detect true associations in a stratified population sample will be greatly decreased, resulting in both spurious associations and false negatives. <sentence_start/>This also illustrates a potential drawback of combining cohorts for different ethnicities in a single analysis: if the LD patterns surrounding the causative polymorphism(s) are different among populations or if the genetic risk factors are not shared across ethnicities, pooling individuals from diverse origin could lead to a loss of power (by diluting the effect observed at a given marker) instead of an increase due to the larger sample size."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "Map showing the geographic origin of each INTERHEART individual analyzed in this study. <sentence_start/>Each pie graph shows if at least one individual with self-reported ethnicity defined as “European” (blue section), “South-Asian” (pink section) or “Arabs” (green section) has been recruited in the country (regardless of the number of individuals recruited, see Supplemental Table S1 for details). <sentence_start/>All individuals from Nepal and Iran reported their ethnicity as “Other Asian” and are displayed by a yellow section."
+  },
+  {
+   "section": "article",
+   "text": "(0.50 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "The graphs show the distribution of individuals according to their coefficients of ancestry from each population (K = 3). <sentence_start/>The left panel correspond to the assignments using 127 SNPs highly differentiated across population, the right panel to the assignments using 133 SNPs randomly selected."
+  },
+  {
+   "section": "article",
+   "text": "(0.20 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S3"
+  },
+  {
+   "section": "article",
+   "text": "QQ plot of the distribution of pair-wise allele sharing among the South Asian (left panel) and Arab (right panel) individuals against a normal distribution."
+  },
+  {
+   "section": "article",
+   "text": "(0.06 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S4"
+  },
+  {
+   "section": "article",
+   "text": "Estimation of cryptic relatedness in Europeans. <sentence_start/>The graph displays the distribution of the t-statistic obtained in 300 tests of the difference in means between the distributions of allele sharing within two groups of randomly assigned individuals (Welch Two Sample t-test). <sentence_start/>The red arrow shows the t-statistic obtained by testing the INTERHEART Europeans cases vs. controls. <sentence_start/>The green arrow corresponds to the comparison of the distribution of pair-wise allele sharing among the Saguenay Lac St-Jean (SLSJ) individuals vs. the allele sharing observed in Europeans from the INTERHEART study. <sentence_start/>The pink arrow shows the t-statistic obtained in the comparison of inter-sample allele sharing (i.e., one SLSJ individual compared to one European individual from INTERHEART) vs. the distribution of allele sharing in Europeans."
+  },
+  {
+   "section": "article",
+   "text": "(0.07 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S5"
+  },
+  {
+   "section": "article",
+   "text": "Effect of STRUCTURE on the distribution of the p-values for the associations between the genotypes and ApoB level in South-Asians. <sentence_start/>The plot shows the observed distribution of the p-values against the expectation under a model without any association (axes in logarithmic scales). <sentence_start/>Red crosses correspond to the association between ApoB and the genotypes at one SNP without any correction. <sentence_start/>Light blue crosses stand for the same tests using the coefficients of ancestry from STRUCTURE used as additional covariates"
+  },
+  {
+   "section": "article",
+   "text": "(0.08 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S6"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of the p-values for the associations between the genotypes and ApoB level in Europeans. <sentence_start/>Red crosses correspond to the non-corrected association between ApoB and the genotypes at one SNP. <sentence_start/>Blue crosses stands for the same tests after correcting for the signal of the five strongest associations (i.e. by conditioning the analyses on the genotypes at the five strongest associations)."
+  },
+  {
+   "section": "article",
+   "text": "(0.05 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S7"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of the p-values for the associations between the genotypes and ApoB level in raw and cleaned datasets. <sentence_start/>Crosses correspond to the association between ApoB and the genotypes at one SNP using the raw (x-axis) and the cleaned datasets (y-axis). <sentence_start/>Green, Pink and Blue crosses stand for respectively the tests in the Arab, South-Asian and European datasets."
+  },
+  {
+   "section": "article",
+   "text": "(0.10 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Table S1"
+  },
+  {
+   "section": "article",
+   "text": "Description of the SNPs included in this study."
+  },
+  {
+   "section": "article",
+   "text": "(0.04 MB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Table S2"
+  },
+  {
+   "section": "article",
+   "text": "Excluded samples"
+  },
+  {
+   "section": "article",
+   "text": "(0.01 MB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Table S3"
+  },
+  {
+   "section": "article",
+   "text": "Outliers identified by STRUCTURE with substantial ancestry from South-East Asia or Sub-Saharan Africa"
+  },
+  {
+   "section": "article",
+   "text": "(0.01 MB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Text S1"
+  },
+  {
+   "section": "article",
+   "text": "Tagging Efficiency"
+  },
+  {
+   "section": "article",
+   "text": "(0.42 MB DOC)"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>The INTERHEART study is funded by the Canadian Institutes of Health Research, the Heart and Stroke Foundation of Ontario, the International Clinical Epidemiology Network and through unrestricted grants from several pharmaceutical companies. <sentence_start/>This work was supported by Genome Canada and Genome Quebec. <sentence_start/>TJH is the recipient of a Clinician-Scientist Award in Translational Research by the Burroughs Wellcome Fund and an Investigator Award from CIHR. <sentence_start/>SY holds an endowed chair from the Heart and Stroke foundation of Ontario. <sentence_start/>SA holds a clinican scientist award from the CIHR. <sentence_start/>JCE is a research scholar of the Fonds de la Recherche en Santé du Québec (FRSQ)."
+  }
+ ]
+}

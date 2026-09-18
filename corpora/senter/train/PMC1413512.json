@@ -1,0 +1,355 @@
+{
+ "pmid": 16441881,
+ "pmcid": 1413512,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Identification of metabolic system parameters using global optimization methods"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "The problem of estimating the parameters of dynamic models of complex biological systems from time series data is becoming increasingly important."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods and results"
+  },
+  {
+   "section": "abstract",
+   "text": "Particular consideration is given to metabolic systems that are formulated as Generalized Mass Action (GMA) models. <sentence_start/>The estimation problem is posed as a global optimization task, for which novel techniques can be applied to determine the best set of parameter values given the measured responses of the biological system. <sentence_start/>The challenge is that this task is nonconvex. <sentence_start/>Nonetheless, deterministic optimization techniques can be used to find a global solution that best reconciles the model parameters and measurements. <sentence_start/>Specifically, the paper employs branch-and-bound principles to identify the best set of model parameters from observed time course data and illustrates this method with an existing model of the fermentation pathway in <italic toggle=\"yes\">Saccharomyces cerevisiae</italic>. <sentence_start/>This is a relatively simple yet representative system with five dependent states and a total of 19 unknown parameters of which the values are to be determined."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "The efficacy of the branch-and-reduce algorithm is illustrated by the <italic toggle=\"yes\">S. cerevisiae </italic>example. <sentence_start/>The method described in this paper is likely to be widely applicable in the dynamic modeling of metabolic networks."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "The past few years have witnessed an enormous increase in the availability and quality of high-throughput data characterizing the status of cells at the genomic, proteomic, metabolic and physiological levels. <sentence_start/>In most cases, these data were interpreted as simple snapshots or in a comparative setting with the goal of differentiating between normal and perturbed or diseased cells. <sentence_start/>It is now becoming feasible to use the same methods to record the status of cells over time. <sentence_start/>The resulting time series data contain enormous amounts of information on the dynamics of functioning cells. <sentence_start/>Several groups of scientists around the world have begun to develop methods for inferring from these profiles the underlying functional networks at the genomic or metabolic level. <sentence_start/>In principle, this task is a straightforward matter of defining a suitable model and estimating its structure, but numerous conceptual and computational difficulties have made the implementation of this inverse problem challenging. <sentence_start/>The difficulties fall into several categories."
+  },
+  {
+   "section": "article",
+   "text": "First, it is necessary to select a mathematical modeling framework that is rich enough to capture the observed dynamics with sufficient accuracy but that is also structured in a fashion that allows interpretation of results beyond pure parameter estimation. <sentence_start/>For instance, if one selected a high-order polynomial and estimated parameters capturing the observed time profiles, then the resulting coefficients would not have much meaning and could hardly be translated into biological insight. <sentence_start/>Several groups [<citation ref-type=\"bibr\" rid=\"B1\" count=\"1\">1</citation>-<citation ref-type=\"bibr\" rid=\"B10\" count=\"1\">10</citation>] have therefore focused on S-system models within the modeling framework of Biochemical Systems Theory (BST), which itself has a rich history of successful analysis and application. <sentence_start/>S-systems, and the alternative variant of Generalized Mass Action (GMA) systems, have the advantage for inverse tasks that their parameter values map essentially one-to-one onto structural and regulatory features of biological networks. <sentence_start/>Thus, structure inference is reduced to the simpler task of parameter estimation. <sentence_start/>BST has been the subject of several hundred articles, reviews, books, chapters, and presentations [<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"5387046\" doi=\"10.1016/s0022-5193(69)80026-3\" count=\"1\">11</citation>-<citation ref-type=\"bibr\" rid=\"B21\" count=\"1\">21</citation>], which permits us to review only a few features that are of particular interest here."
+  },
+  {
+   "section": "article",
+   "text": "The second difficulty arising in the inference problem is the preparation of data and the preprocessing of the task itself. <sentence_start/>Clearly, noise in the data complicates the estimation and often leads to local minima in the search space, as well as to unwanted redundancies in inference. <sentence_start/>Furthermore, the fact that essentially any model of a dynamic biological system involves differential equations necessitates efficient integrators, because these methods may consume in excess of 95% of the time required to estimate parameters in systems of differential equations [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14988125\" doi=\"10.1093/bioinformatics/bth140\" count=\"1\">9</citation>]. <sentence_start/>In order to reduce this computational cost, several groups have devised methods addressing some of these problems. <sentence_start/>One efficient strategy is the estimation of slopes of the profiles, which permits the replacement of differentials with the estimated slopes at many time points and consequently the conversion of systems of differential equations into larger systems of more easily computed algebraic equations [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"15706526\" count=\"1\">3</citation>,<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14988125\" doi=\"10.1093/bioinformatics/bth140\" count=\"1\">9</citation>,<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>,<citation ref-type=\"bibr\" rid=\"B22\" count=\"1\">22</citation>,<citation ref-type=\"bibr\" rid=\"B23\" count=\"1\">23</citation>]. <sentence_start/>A prerequisite of this method is obviously the reliable estimation of slopes, for which various smoothing methods have been proposed, including neural network smoothing [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"15706526\" count=\"1\">3</citation>,<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14988125\" doi=\"10.1093/bioinformatics/bth140\" count=\"1\">9</citation>], filtering [<citation ref-type=\"bibr\" rid=\"B6\" count=\"1\">6</citation>] and collocation methods [<citation ref-type=\"bibr\" rid=\"B8\" doi=\"10.1093/bioinformatics/bti099\" pmid=\"15513993\" count=\"1\">8</citation>]. <sentence_start/>It was also shown that decoupling of systems of <italic toggle=\"yes\">n </italic>differential equations may be achieved by treating <italic toggle=\"yes\">n</italic>-1 of the data sets as inputs in the remaining equation [<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"11262963\" doi=\"10.1142/9789814447362_0044\" count=\"1\">2</citation>]. <sentence_start/>In complementary approaches, the search process was simplified by making use of auxiliary information about the biological system, which was translated into constraints on the parameters that had to be estimated [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"15706526\" count=\"1\">3</citation>], and by priming the search process with reasonable initial guesses, which were obtained directly from the topology of the systems [<citation ref-type=\"bibr\" rid=\"B24\" pmid=\"12576555\" doi=\"10.1073/pnas.262790699\" pmcid=\"PMC149859\" count=\"1\">24</citation>] or through various means of linearization [<citation ref-type=\"bibr\" rid=\"B25\" doi=\"10.1186/1742-4682-1-8\" pmcid=\"PMC522751\" pmid=\"15367330\" count=\"1\">25</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The third difficulty of the inverse problem is the estimation of parameters itself. <sentence_start/>Because of the inherent nonlinearities, the task is hampered by trapping of the search algorithm in local minima, lack of convergence, or a convergence speed that makes inference of larger systems infeasible. <sentence_start/>In the past, this step has probably received the least attention, and the various groups addressing the inverse problem have resorted to standard methods of nonlinear regression, genetic algorithms or simulated annealing. <sentence_start/>In this article, we address this subtask of the inference problem by replacing the regression step with a global optimization algorithm. <sentence_start/>Specifically, we formulate the nonconvex estimation problem as a global optimization task that uses branch-and-bound principles to identify the best set of model parameters given observed time profiles. <sentence_start/>The greatest advantage of this method is that it guarantees that the optimum obtained is global within pre-defined bounds on the parameter search space. <sentence_start/>Note that global optimization does not guarantee that the resulting solution is unique; the method guarantees that no other points exist with a better objective function than the global solution. <sentence_start/>Multiple degenerate solution points could exist with identical unique objective function values. <sentence_start/>As an example, we estimate the parameters of a model describing the fermentation pathway in <italic toggle=\"yes\">Saccharomyces cerevisiae</italic>, as described in [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1016/0025-5564(94)00092-E\" pmid=\"7579901\" count=\"1\">26</citation>]. <sentence_start/>This system has five dependent states and a total of 19 unknown parameters. <sentence_start/>It is manageable in size, yet representative of the nonlinearities typically encountered in metabolic modeling and has therefore been used for a variety of analyses in the past [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>,<citation ref-type=\"bibr\" rid=\"B27\" doi=\"10.1016/0025-5564(94)00093-F\" pmid=\"7579902\" count=\"1\">27</citation>-<citation ref-type=\"bibr\" rid=\"B29\" doi=\"10.1002/(SICI)1097-0290(19970905)55:5&lt;758::AID-BIT6&gt;3.0.CO;2-A\" pmid=\"18636586\" count=\"1\">29</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Model formulation"
+  },
+  {
+   "section": "article",
+   "text": "Metabolic pathway analysis is concerned with the modeling, manipulation and optimization of biochemical systems. <sentence_start/>While valuable insights may be gained from the formulation of these systems as stoichiometric networks [<citation ref-type=\"bibr\" rid=\"B30\" count=\"1\">30</citation>], whose functioning may be constrained as described in Flux Balance Analysis [<citation ref-type=\"bibr\" rid=\"B31\" pmid=\"12700248\" doi=\"10.1128/JB.185.9.2692-2699.2003\" pmcid=\"PMC154396\" count=\"1\">31</citation>], it will ultimately be necessary for many purposes to formulate the processes as dynamical systems that account for detailed kinetic features, such as the regulation and modulation of enzyme-catalyzed steps and transport processes. <sentence_start/>The default approach for this purpose may seem to be a model representation in the tradition of Michaelis and Menten. <sentence_start/>However, it was recognized early on that this representation is not particularly well suited for the analysis of large networks [<citation ref-type=\"bibr\" rid=\"B32\" pmid=\"4830198\" doi=\"10.1111/j.1432-1033.1974.tb03318.x\" count=\"1\">32</citation>-<citation ref-type=\"bibr\" rid=\"B34\" count=\"1\">34</citation>], and this led to the development of alternative methods, among which BST, Metabolic Control Analysis [<citation ref-type=\"bibr\" rid=\"B35\" count=\"1\">35</citation>] and the \"log-linear\" approach [<citation ref-type=\"bibr\" rid=\"B36\" pmid=\"8944154\" doi=\"10.1006/jtbi.1996.0160\" count=\"1\">36</citation>] have received the most attention. <sentence_start/>In particular, it was shown that the S-system variant within BST has favorable features for the optimization of nonlinear metabolic systems [<citation ref-type=\"bibr\" rid=\"B15\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"B37\" doi=\"10.1002/bit.260400504\" pmid=\"18601153\" count=\"1\">37</citation>]. <sentence_start/>As an alternative to the S-system formulation, which may be criticized for its manner of flux aggregation, the GMA variant overcomes this issue, even though it loses some of the advantages of the S-system form such as its linearity at steady state [<citation ref-type=\"bibr\" rid=\"B12\" pmid=\"5387047\" doi=\"10.1016/s0022-5193(69)80027-5\" count=\"1\">12</citation>] and its sometimes slightly higher accuracy [<citation ref-type=\"bibr\" rid=\"B38\" pmid=\"3427048\" doi=\"10.1021/bi00395a042\" count=\"1\">38</citation>,<citation ref-type=\"bibr\" rid=\"B39\" pmid=\"2520170\" doi=\"10.1016/0025-5564(89)90066-7\" count=\"1\">39</citation>]. <sentence_start/>GMA representations have the advantage that they are closer to biochemical intuition and that production and degradation terms do not vanish if one of the contributing fluxes disappears, as is the case with S-systems. <sentence_start/>GMA systems are also interesting in that they include both stoichiometric systems and S-systems as special cases so that they allow a seamless transition from linear to fully kinetic models. <sentence_start/>Our task in this article is thus the estimation of GMA parameters from time series."
+  },
+  {
+   "section": "article",
+   "text": "In the GMA formulation within BST, the change in each dependent pool (state variable) is described as a difference between the sums of all fluxes entering the pool and all fluxes leaving the pool. <sentence_start/>Each flux is individually linearized in logarithmic coordinates, which in Cartesian coordinates corresponds to a product of power-law functions that contains those and only those variables that directly affect the flux, raised to an exponent called its kinetic order. <sentence_start/>The product also contains a rate constant that determines the magnitude of the flux or speed of the process. <sentence_start/>The mathematical formulation of any GMA model is thus"
+  },
+  {
+   "section": "article",
+   "text": "where <italic toggle=\"yes\">γ</italic><sub><italic toggle=\"yes\">i</italic>1</sub>,...,<italic toggle=\"yes\">γ</italic><italic toggle=\"yes\"><sub>ik </sub></italic>are rate constants corresponding to <italic toggle=\"yes\">k </italic>reactions of production/consumption, and <italic toggle=\"yes\">ζ</italic><italic toggle=\"yes\"><sub>ijk </sub></italic>are kinetic orders for species <italic toggle=\"yes\">i </italic>in reaction <italic toggle=\"yes\">k </italic>involving species <italic toggle=\"yes\">j</italic>. <sentence_start/>In cases where species <italic toggle=\"yes\">j </italic>does not have any influence on a given power-law term, <italic toggle=\"yes\">ζ</italic><italic toggle=\"yes\"><sub>ijk </sub></italic>= 0. <sentence_start/>The number of reactions in one differential equation, <italic toggle=\"yes\">k</italic>, may be different for each species. <sentence_start/>Reaction terms for consumption of one species may appear as a production term for another species. <sentence_start/>The system consists of <italic toggle=\"yes\">n </italic>differential equations, representing the time-dependent variables, but also contains <italic toggle=\"yes\">m </italic>time-independent variables that affect the system but are not affected by the system and are typically constant from one experiment to the next. <sentence_start/>The power-law terms in Eq. <sentence_start/>(1) are the result of a straightforward Taylor approximation, which is applicable to an essentially unlimited variety of underlying processes and may include different types of interactions, activation, inhibition and processes associated with dilution and growth."
+  },
+  {
+   "section": "article",
+   "text": "It is interesting to note that every parameter of a GMA model has its unique role and interpretation. <sentence_start/>This situation is significantly different from using unstructured fitting models such as higher-order polynomials or splines. <sentence_start/>In a generic polynomial representation, every coefficient is likely to change if additional data points are used for fitting or if points are removed. <sentence_start/>Thus, except for the fact that the higher-order coefficients are associated with higher derivatives, which otherwise are not very meaningful, not much can be said about their biological role in the modeled process. <sentence_start/>In the GMA model, by contrast, every parameter has a unique meaning in the subject area of the model. <sentence_start/>Each kinetic order quantifies solely the effect that a particular variable has on a given process. <sentence_start/>For example, the first kinetic order in a later example is <italic toggle=\"yes\">ζ</italic><sub>121 </sub>= -0.2344 (see Figure 7). <sentence_start/>Thus, it uniquely describes the effect of metabolite <italic toggle=\"yes\">X</italic><sub>2 </sub>on the first production process of <italic toggle=\"yes\">X</italic><sub>1</sub>. <sentence_start/>The effect is inhibitory, which is indicated by the negative sign, and is only moderately strong, which is reflected in the small magnitude of the parameter. <sentence_start/>In this fashion, there is a one-to-one relationship between kinetic orders and structural features of the model. <sentence_start/>The interpretability of the parameters can also been seen from a different point of view: in principle, each kinetic order can be obtained directly from local information on the system. <sentence_start/>Namely, if it possible to vary <italic toggle=\"yes\">X </italic><italic toggle=\"yes\"><sub>j </sub></italic>while keeping all other variables constant, and to measure the consequent changes in the production of <italic toggle=\"yes\">X</italic><italic toggle=\"yes\"><sub>j</sub></italic>, then the slope of the production process as a function of <italic toggle=\"yes\">X</italic><italic toggle=\"yes\"><sub>j</sub></italic>, in log space, is exactly the kinetic order in question. <sentence_start/>This type of interpretation is usually not possible in global fitting models such as high-order polynomials. <sentence_start/>The constant multipliers are rate constants that, as in elemental chemical kinetics, quantify the turnover rate in each process and are always non-negative. <sentence_start/>Their magnitudes depend on the scales (time, concentration, etc.<sentence_start/>) of the modeled system."
+  },
+  {
+   "section": "article",
+   "text": "The S-system representation within BST is formally a special case of a GMA system with at most one positive and one negative term. <sentence_start/>The correspondence between the biological network and the mathematical representation is slightly different in an S-system because all fluxes entering a pool are collectively linearized in logarithmic coordinates and the same is done with all fluxes leaving the pool. <sentence_start/>Thus, each S-system equation has at most one influx and one efflux term and thus reads"
+  },
+  {
+   "section": "article",
+   "text": "where <italic toggle=\"yes\">α</italic><italic toggle=\"yes\"><sub>i</sub></italic>, <italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>i </sub></italic>are the rate constants and <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>ij</sub></italic>, <italic toggle=\"yes\">h</italic><italic toggle=\"yes\"><sub>ij </sub></italic>are kinetic orders. <sentence_start/>These S-system parameters are directly tied to the corresponding GMA system through constraints [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Both forms are nonlinear and rich enough to capture any dynamic behavior that can be represented by any set of ordinary differential equations [<citation ref-type=\"bibr\" rid=\"B38\" pmid=\"3427048\" doi=\"10.1021/bi00395a042\" count=\"1\">38</citation>]. <sentence_start/>If set up as alternative descriptions of the same biological system, the two are equivalent at one operating point of choice and typically differ if the system deviates from this point, though the differences are often small in realistic situations [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Working with metabolic models consists of three phases: Model design, model analysis and model application. <sentence_start/>The present work focuses on the first phase of model design. <sentence_start/>This step is usually executed by assembling a topological map of the phenomenon of interest based on biological knowledge. <sentence_start/>Kinetic orders and rate constants are then estimated from measured or published kinetic information. <sentence_start/>In the case of S-systems, it would also be feasible to use steady-state data from multiple experiments with different values of independent variables. <sentence_start/>Because the steady-state equations of S-systems are linear (in logarithmic coordinates), such data would allow use of a simple matrix inversion leading to optimal parameters, a pseudo-inverse method or a linear programming approach [<citation ref-type=\"bibr\" rid=\"B37\" doi=\"10.1002/bit.260400504\" pmid=\"18601153\" count=\"1\">37</citation>]. <sentence_start/>In the alternative GMA approach, logarithmic transformation does not completely transform the estimation problem into a linear formulation, thus requiring nonlinear methods."
+  },
+  {
+   "section": "article",
+   "text": "In addition to this traditional bottom-up approach, a top-down approach is becoming increasingly feasible. <sentence_start/>This complementary approach is based on time profiles that are used for the determination of system parameters through some type of estimation and their interpretation in terms of structural and regulatory information. <sentence_start/>We describe in the following how this estimation is facilitated with a branch-and-bound method, which has not previously been used for this purpose."
+  },
+  {
+   "section": "article",
+   "text": "Optimization formulation"
+  },
+  {
+   "section": "article",
+   "text": "The goal of model identification is to estimate the \"best\" set of parameter values, which minimizes the error between the process data and the model response. <sentence_start/>This parameter estimation problem can be formulated as a nonconvex nonlinear optimization problem and can therefore be solved using global optimization techniques. <sentence_start/>The parameters to be estimated in GMA systems are rate constants <italic toggle=\"yes\">γ </italic>and kinetic orders <italic toggle=\"yes\">ζ </italic>as shown in Equation 1 leading to the following formulation:"
+  },
+  {
+   "section": "article",
+   "text": "The parameter <italic toggle=\"yes\">r </italic>denotes the r-norm considered for minimization. <sentence_start/>It usually takes the values 1 (min sum absolute), 2 (min sum square), or ∞ (min max error). <sentence_start/><italic toggle=\"yes\">P </italic>is the number of data points sampled at times <italic toggle=\"yes\">t</italic>, <italic toggle=\"yes\">h</italic><italic toggle=\"yes\"><sub>i </sub></italic>are the nonlinear rate expressions from Eq. <sentence_start/>(1) that define the production and consumption rates for species <italic toggle=\"yes\">i </italic>given vectors of model parameters <italic toggle=\"yes\">γ </italic>and <italic toggle=\"yes\">ζ</italic>, <italic toggle=\"yes\">e</italic><italic toggle=\"yes\"><sub>i</sub></italic>(<italic toggle=\"yes\">t</italic>) are the errors associated with each constraint equation for species <italic toggle=\"yes\">i </italic>at time <italic toggle=\"yes\">t</italic>, and <italic toggle=\"yes\">n </italic>is the number of dependent variables. <sentence_start/>In the formulation described above, the objective function is linear because the maximum absolute error is minimized. <sentence_start/>The nonconvexity arises from the equality constraints, which are nonlinear. <sentence_start/>It is useful to split these nonlinear equality constraints into two inequality constraints, at least one of which will be nonconvex."
+  },
+  {
+   "section": "article",
+   "text": "Following strategies proposed in the literature [<citation ref-type=\"bibr\" rid=\"B6\" count=\"1\">6</citation>,<citation ref-type=\"bibr\" rid=\"B8\" doi=\"10.1093/bioinformatics/bti099\" pmid=\"15513993\" count=\"1\">8</citation>,<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14988125\" doi=\"10.1093/bioinformatics/bth140\" count=\"1\">9</citation>], it is possible to smooth the raw time profiles, which subsequently allows the computation of slopes at many data points and thus the replacement of differentials on the left-hand side of Equation 1 with estimated slopes. <sentence_start/>Thus, assuming that the rate of change of each species is obtainable at each desired time point, (<italic toggle=\"yes\">t</italic>), and the values of the concentrations <italic toggle=\"yes\">X</italic><italic toggle=\"yes\"><sub>i</sub></italic>(<italic toggle=\"yes\">t</italic>) at time <italic toggle=\"yes\">i </italic>are known, the optimization task in Eq. <sentence_start/>(3) can be formulated as a general nonconvex nonlinear programming problem in the form shown in Eq. <sentence_start/>(4):"
+  },
+  {
+   "section": "article",
+   "text": "where the vector <italic toggle=\"yes\">x </italic>∈ <bold>R</bold><italic toggle=\"yes\"><sup>N </sup></italic>is a vector of <italic toggle=\"yes\">N </italic>unknowns including the error terms and unknown parameters and <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>), <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) : <italic toggle=\"yes\">R</italic><italic toggle=\"yes\"><sup>N </sup></italic>→ <italic toggle=\"yes\">R</italic><sup>1</sup>. <sentence_start/>Here, the index <italic toggle=\"yes\">k </italic>represents constraint <italic toggle=\"yes\">k </italic>of <italic toggle=\"yes\">m </italic>total constraints."
+  },
+  {
+   "section": "article",
+   "text": "This formulation is rather general in that the functions <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) and <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) may be nonlinear and nonconvex. <sentence_start/>In particular, the formulation allows the estimation of globally optimal GMA systems, given time profiles. <sentence_start/>Deterministic methods for global optimizations of this type depend on the generation of convex function relaxations of the nonconvex nonlinear functions. <sentence_start/>Numerous methods have been proposed for constructing such relaxations. <sentence_start/>For this work, we use a reformulation method for factorable expressions [<citation ref-type=\"bibr\" rid=\"B40\" doi=\"10.1007/BF01580665\" count=\"1\">40</citation>]. <sentence_start/>This method converts the original factorable nonconvex nonlinear problem into an equivalent form through the introduction of new variables <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sub>ik </sub></italic>for every product of power-law terms at measurement sample time <italic toggle=\"yes\">t </italic>in the system [<citation ref-type=\"bibr\" rid=\"B15\" count=\"1\">15</citation>]:"
+  },
+  {
+   "section": "article",
+   "text": "Note that the species concentration <italic toggle=\"yes\">X</italic><italic toggle=\"yes\"><sub>i</sub></italic>(<italic toggle=\"yes\">t</italic>) in the preceding equation is assumed to be known from the observed data. <sentence_start/>If it is not, it may be obtained through interpolation from a preparatory smoothing of the observed data [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"15706526\" count=\"1\">3</citation>,<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14988125\" doi=\"10.1093/bioinformatics/bth140\" count=\"1\">9</citation>]. <sentence_start/>If no information at all is available on the variable, the GMA representation should probably be reduced in complexity [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>]. <sentence_start/>As an example for such a reduction, suppose that <italic toggle=\"yes\">X</italic><sub>1 </sub>is converted into <italic toggle=\"yes\">X</italic><sub>2 </sub>and <italic toggle=\"yes\">X</italic><sub>2 </sub>is converted into <italic toggle=\"yes\">X</italic><sub>3</sub>. <sentence_start/>If <italic toggle=\"yes\">X</italic><sub>2 </sub>is not observable, then one would probably formulate the system without <italic toggle=\"yes\">X</italic><sub>2</sub>, and make <italic toggle=\"yes\">X</italic><sub>3 </sub>a function of <italic toggle=\"yes\">X</italic><sub>1</sub>. <sentence_start/>Since the mathematics underlying the GMA representation is directly based on Taylor's theorem, <italic toggle=\"yes\">X</italic><sub>3 </sub>then simply becomes a power-law term containing <italic toggle=\"yes\">X</italic><sub>1</sub>. <sentence_start/>Such omissions of variables have been discussed in the literature [<citation ref-type=\"bibr\" rid=\"B31\" pmid=\"12700248\" doi=\"10.1128/JB.185.9.2692-2699.2003\" pmcid=\"PMC154396\" count=\"1\">31</citation>,<citation ref-type=\"bibr\" rid=\"B41\" doi=\"10.1016/S0025-5564(98)10001-9\" pmid=\"9664759\" count=\"1\">41</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For simplicity of discussion, we assume that a complete data set is available. <sentence_start/>The problem specified in Eq. <sentence_start/>(3) is then of the form:"
+  },
+  {
+   "section": "article",
+   "text": "where <italic toggle=\"yes\">s</italic><italic toggle=\"yes\"><sub>ik </sub></italic>for reaction <italic toggle=\"yes\">k </italic>of production or consumption of species <italic toggle=\"yes\">i </italic>is either +1 or -1. <sentence_start/>The variables in this reformulated problem can be collected into the vectors <italic toggle=\"yes\">z</italic>, <italic toggle=\"yes\">e</italic>, <italic toggle=\"yes\">γ</italic>, and <italic toggle=\"yes\">ζ</italic>"
+  },
+  {
+   "section": "article",
+   "text": "To obtain efficacious solutions, the problem must be formulated such that it contains only linear and \"simple\" nonlinear constraint functions for which one can construct relaxations that use the convex envelopes already known for simple algebraic functions. <sentence_start/>The nonlinear equality constraints in the original GMA formulation become simple (linear) sums when they are expressed in the new variables, <italic toggle=\"yes\">z</italic>. <sentence_start/>Furthermore, taking the logarithm of each definition for <italic toggle=\"yes\">z </italic>from Eq. <sentence_start/>(5) leads to a new set of linear equations and simple nonlinear equations. <sentence_start/>The connection between these two sets is a set of simple logarithmic constraints. <sentence_start/>To streamline notation, the additional new variables are defined as: <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sub>ik </sub></italic>= <italic toggle=\"yes\">ln</italic>(<italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sub>ik</sub></italic>) and Γ<italic toggle=\"yes\"><sub>ik </sub></italic>= <italic toggle=\"yes\">ln</italic>(<italic toggle=\"yes\">γ</italic><italic toggle=\"yes\"><sub>ik</sub></italic>). <sentence_start/>Thus, we obtain a sum of logarithmic functions for each term <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sub>ik</sub></italic>(<italic toggle=\"yes\">t</italic>), namely:"
+  },
+  {
+   "section": "article",
+   "text": "For the purpose of convexification, one can omit the logarithm of the rate constant because it simply shifts the optimal solution by a constant. <sentence_start/>This results in the following formulation:"
+  },
+  {
+   "section": "article",
+   "text": "As <italic toggle=\"yes\">s</italic><italic toggle=\"yes\"><sub>ij</sub></italic>, <italic toggle=\"yes\">X</italic><italic toggle=\"yes\"><sub>i</sub></italic>(<italic toggle=\"yes\">t</italic>), and (<italic toggle=\"yes\">t</italic>) are known at time values <italic toggle=\"yes\">t</italic>, the only unknowns are <italic toggle=\"yes\">w </italic>Γ, <italic toggle=\"yes\">z</italic>, <italic toggle=\"yes\">ζ </italic>and <italic toggle=\"yes\">e</italic>. <sentence_start/>Values for <italic toggle=\"yes\">γ </italic>can be determined easily when the solution value for Γ is found. <sentence_start/>All constraints other than <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sub>ik</sub></italic>(<italic toggle=\"yes\">t</italic>) = <italic toggle=\"yes\">ln</italic>(<italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sub>ik</sub></italic>(<italic toggle=\"yes\">t</italic>)) are linear."
+  },
+  {
+   "section": "article",
+   "text": "As mentioned earlier, the parameter <italic toggle=\"yes\">r </italic>in Eq (3) denotes the r-norm considered for minimization. <sentence_start/>In the case with <italic toggle=\"yes\">r </italic>= 1, the sum absolute value of the error, which is linear, is desired for minimization. <sentence_start/>In the case of <italic toggle=\"yes\">r </italic>= 2, the objective function is nonlinear, but at least convex. <sentence_start/>This nonlinearity increases the complexity of the task during the generation of problem relaxations, requiring additional variables and constraints in the linear relaxation. <sentence_start/>It is well known that when minimizing the absolute value of some variable, constraints of the form |<italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>)| = <italic toggle=\"yes\">e </italic>can be written as two inequality constraints, <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) ≤ <italic toggle=\"yes\">e</italic>, and -<italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) ≤ <italic toggle=\"yes\">e</italic>. <sentence_start/>The formulation then may be written as follows:"
+  },
+  {
+   "section": "article",
+   "text": "Note that the variables Γ<italic toggle=\"yes\"><sub>ik</sub></italic>, <italic toggle=\"yes\">ζ</italic><italic toggle=\"yes\"><sub>ijk </sub></italic>and <italic toggle=\"yes\">e</italic><italic toggle=\"yes\"><sub>i</sub></italic>(<italic toggle=\"yes\">t</italic>) can be consolidated into the vector <italic toggle=\"yes\">y</italic>. <sentence_start/>The variables in this vector <italic toggle=\"yes\">y </italic>only appear in linear constraints, while <italic toggle=\"yes\">w </italic>and <italic toggle=\"yes\">z </italic>are related through a simple nonlinear expression. <sentence_start/>Thus, in comparison with the formulation of Equation 4, the variables <italic toggle=\"yes\">x </italic>include <italic toggle=\"yes\">w</italic>, <italic toggle=\"yes\">z </italic>and <italic toggle=\"yes\">y</italic>. <sentence_start/>The objective function <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) and many of the constraint functions <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) are linear. <sentence_start/>The objective function (1) represents a sum of the absolute value of errors on the balance equations. <sentence_start/>The balance equations in (2) and (3) relate the rate of change, (<italic toggle=\"yes\">t</italic>) of the species at time <italic toggle=\"yes\">t</italic>, to the individual reaction rates that consume or produce that species, <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sub>ik</sub></italic>(<italic toggle=\"yes\">t</italic>), as well as the absolute error for that equation at that point in time. <sentence_start/>Constraints (4) and (5) result from the transformation of the power-law expressions for the rate equations."
+  },
+  {
+   "section": "article",
+   "text": "The convex relaxation using linear constraints for a logarithmic function is illustrated in Figure 1. <sentence_start/>In this figure, the solid line corresponds to the nonlinear function <italic toggle=\"yes\">w </italic>= 2 * <italic toggle=\"yes\">ln</italic>(<italic toggle=\"yes\">x</italic>), the dashed line represents the linear underestimating function, and the dash-dot lines serve as the linear overestimating functions."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Convex relaxation using linear constraints."
+  },
+  {
+   "section": "article",
+   "text": "As bounds are known for the concave nonconvex function, the secant can be used as a linear underestimation function. <sentence_start/>Multiple outer approximation linearizations can be used as linear overestimation functions. <sentence_start/>The intersection of these linear constraints is a relaxation of the original nonlinear function."
+  },
+  {
+   "section": "article",
+   "text": "Taking the formulation in Eq. <sentence_start/>(9), coefficients for the linear inequality constraints are the constant values of (<italic toggle=\"yes\">t</italic>) and <italic toggle=\"yes\">s</italic><italic toggle=\"yes\"><sub>ik</sub></italic>. <sentence_start/>The linear equality constraint coefficients include the constant values <italic toggle=\"yes\">ln</italic>(<italic toggle=\"yes\">X</italic><italic toggle=\"yes\"><sub>j</sub></italic>(<italic toggle=\"yes\">t</italic>)), while <italic toggle=\"yes\">e</italic>, <italic toggle=\"yes\">z</italic>, <italic toggle=\"yes\">w</italic>, Γ and <italic toggle=\"yes\">ζ</italic>, are the unknowns. <sentence_start/>The reformulated nonconvex Non-Linear Programming (NLP) problem is now in the form"
+  },
+  {
+   "section": "article",
+   "text": "where all linear inequality constraints are represented by <italic toggle=\"yes\">A</italic><sub>1</sub>[<italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>T </sup></italic><italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>T </sup></italic><italic toggle=\"yes\">y</italic><italic toggle=\"yes\"><sup>T</sup></italic>]<italic toggle=\"yes\"><sup>T </sup></italic>≤ <italic toggle=\"yes\">b</italic><sub>1</sub>, and <italic toggle=\"yes\">A</italic><sub>2</sub>[<italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>T </sup></italic><italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>T </sup></italic><italic toggle=\"yes\">y</italic><italic toggle=\"yes\"><sup>T</sup></italic>]<italic toggle=\"yes\"><sup>T </sup></italic>= <italic toggle=\"yes\">b</italic><sub>2 </sub>defines the new linear constraints obtained from reformulation, while <italic toggle=\"yes\">w </italic>= <italic toggle=\"yes\">η</italic>(<italic toggle=\"yes\">z</italic>) provides the relationship between <italic toggle=\"yes\">w </italic>and <italic toggle=\"yes\">z</italic>. <sentence_start/>Bounds on <italic toggle=\"yes\">w </italic>are determined from the bounds on <italic toggle=\"yes\">z </italic>using interval methods. <sentence_start/>Note that <italic toggle=\"yes\">η </italic>consists of simple nonlinear (logarithmic) terms and that the formulation in Equation 10 is the same as that in Equation 4 with the vector of unknowns <italic toggle=\"yes\">x </italic>made up of <italic toggle=\"yes\">w</italic>, <italic toggle=\"yes\">z </italic>and <italic toggle=\"yes\">y</italic>. <sentence_start/>Additionally, <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) and many of the <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) are linear functions in Eq. <sentence_start/>(4). <sentence_start/>Note that any equality constraint <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) = 0 can be written equivalently with two inequalities as 0 ≤ <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) ≤ 0 or <italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) ≤ 0, -<italic toggle=\"yes\">g</italic><italic toggle=\"yes\"><sub>k</sub></italic>(<italic toggle=\"yes\">x</italic>) ≤ 0."
+  },
+  {
+   "section": "article",
+   "text": "Convex relaxations for this task are constructed with DAEPACK [<citation ref-type=\"bibr\" rid=\"B42\" doi=\"10.1023/A:1021095211251\" count=\"1\">42</citation>,<citation ref-type=\"bibr\" rid=\"B43\" doi=\"10.1021/ie990734o\" count=\"1\">43</citation>], an automated code generation tool. <sentence_start/>The advantage of using the DAEPACK tool for this purpose is that it can be applied directly to legacy models coded in standard FORTRAN. <sentence_start/>The convex relaxations can be denoted as:"
+  },
+  {
+   "section": "article",
+   "text": "(<italic toggle=\"yes\">w</italic>, <italic toggle=\"yes\">z</italic>, <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>l</sup></italic>, <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>u</sup></italic>, <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>l</sup></italic>, <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>u</sup></italic>) ≤ <italic toggle=\"yes\">w </italic>≤ (<italic toggle=\"yes\">w</italic>, <italic toggle=\"yes\">z</italic>, <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>l</sup></italic>, <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>u</sup></italic>, <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>l</sup></italic>, <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>u</sup></italic>) (11)"
+  },
+  {
+   "section": "article",
+   "text": "where and are the convex under-estimates and concave over-estimates of the reformulated problem, respectively."
+  },
+  {
+   "section": "article",
+   "text": "A linearization strategy [<citation ref-type=\"bibr\" rid=\"B42\" doi=\"10.1023/A:1021095211251\" count=\"1\">42</citation>,<citation ref-type=\"bibr\" rid=\"B44\" count=\"1\">44</citation>] is then used to generate a Linear Programming (LP) relaxation of the convex NLP created using DAEPACK. <sentence_start/>The resulting LP is of the form:"
+  },
+  {
+   "section": "article",
+   "text": "where <italic toggle=\"yes\">A</italic><sub>3 </sub>[<italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>T </sup></italic><italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>T </sup></italic><italic toggle=\"yes\">y</italic><italic toggle=\"yes\"><sup>T</sup></italic>]<italic toggle=\"yes\"><sup>T </sup></italic>≤ <italic toggle=\"yes\">b</italic><sub>3 </sub>expresses the new linear constraints resulting from the linearization process as illustrated in Figure 1. <sentence_start/>This linearization technique is ideal because it yields a linear program for which robust solvers exist (e.g. ILOG CPLEX 8.0 [<citation ref-type=\"bibr\" rid=\"B45\" count=\"1\">45</citation>] and the IBM OSL library [<citation ref-type=\"bibr\" rid=\"B46\" count=\"1\">46</citation>]). <sentence_start/>Note that <italic toggle=\"yes\">A</italic><sub>3</sub>, <italic toggle=\"yes\">b</italic><sub>3</sub>, <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>l </sup></italic>and <italic toggle=\"yes\">w</italic><italic toggle=\"yes\"><sup>u </sup></italic>are updated as <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>l </sup></italic>and <italic toggle=\"yes\">z</italic><italic toggle=\"yes\"><sup>u </sup></italic>change in the spatial branch-and-bound algorithm."
+  },
+  {
+   "section": "article",
+   "text": "Solution methodology"
+  },
+  {
+   "section": "article",
+   "text": "The branch-and-bound algorithm [<citation ref-type=\"bibr\" rid=\"B47\" count=\"1\">47</citation>] can be used as a deterministic method to solve the nonconvex nonlinear problem formulated above. <sentence_start/>This is illustrated in Figure 2. <sentence_start/>Branch-and-bound methods depend on generating tight upper and lower bounds for the objective function value at the global solution. <sentence_start/>A lower bound is generated by solving the convex relaxation of the original nonconvex NLP problem. <sentence_start/>Any local minimizer for the original NLP problem may serve as an initial upper bound for the objective function value. <sentence_start/>If the lower bound is sufficiently close to the upper bound, within <italic toggle=\"yes\">ε </italic>tolerance, the algorithm terminates. <sentence_start/>If not, the feasible region is divided into partitions and lower bounds are generated for the new partitions. <sentence_start/>Any partition can be removed from further consideration if it is determined that the particular partition cannot contain a better solution than the best solution found so far, or that the lower bounding problem associated with the partition is found to be infeasible. <sentence_start/>In either case, the partition needs no additional separation. <sentence_start/>In general, the fathoming criteria can be expressed as follows:"
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Left: A single branch-and-bound step for a nonconvex function of a continuous variable. <sentence_start/>Right: Demonstration of implicit enumeration search for a branch-and-bound tree."
+  },
+  {
+   "section": "article",
+   "text": "1. <sentence_start/>If the relaxed problem associated with the partition is infeasible, adding additional constraints will not make the problem feasible. <sentence_start/>The partition itself is infeasible and hence can be removed from further consideration."
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>If the objective function value of the relaxed problem associated with the current partition is greater or equal to the best solution found so far, then the partition can be removed from further consideration."
+  },
+  {
+   "section": "article",
+   "text": "Any feasible solution to the original problem may serve as an upper bound for the global solution. <sentence_start/>The algorithm terminates when the lower bounds for all partitions either exceed or are sufficiently close to the best upper bound. <sentence_start/>At this point, a global optimum has been determined within the originally preset bounds on the parameter search space. <sentence_start/>This global optimum is the best value of the objective function. <sentence_start/>It is noted that multiple points in the parameter space may lead to equivalent values of the objective function."
+  },
+  {
+   "section": "article",
+   "text": "For the optimization problem shown in Eq. <sentence_start/>(3), a branch-and-reduce method [<citation ref-type=\"bibr\" rid=\"B48\" doi=\"10.1016/0098-1354(94)00097-8\" count=\"1\">48</citation>] was implemented. <sentence_start/>This is an extension of the traditional branch-and-bound method with bound tightening techniques for accelerating the convergence of the algorithm. <sentence_start/>Within this branch-and-reduce algorithm, infeasible or suboptimal parts of the feasible region are eliminated by using range reduction techniques such as optimality-based and feasibility-based range reduction tests [<citation ref-type=\"bibr\" rid=\"B48\" doi=\"10.1016/0098-1354(94)00097-8\" count=\"1\">48</citation>-<citation ref-type=\"bibr\" rid=\"B50\" count=\"1\">50</citation>] or interval analysis techniques [<citation ref-type=\"bibr\" rid=\"B51\" count=\"1\">51</citation>]. <sentence_start/>These techniques render tighter variable bounds for a given partition in the search tree, thereby leading to more rapid convergence."
+  },
+  {
+   "section": "article",
+   "text": "Didactic example"
+  },
+  {
+   "section": "article",
+   "text": "The identification of model parameters is first illustrated with a simple GMA system adopted from [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>] and shown in Figure 3. <sentence_start/>The system has 3 dependent variables, 1 independent variable and 13 parameters. <sentence_start/>The initial conditions of the three dependent variables are: <italic toggle=\"yes\">X</italic><sub>1</sub>(0) = 0.50, <italic toggle=\"yes\">X</italic><sub>2</sub>(0) = 0.50 and <italic toggle=\"yes\">X</italic><sub>3</sub>(0) = 1.0. <sentence_start/>The parameters to be estimated are rate constants and kinetic orders; their true values are shown in Figure 4. <sentence_start/>It is assumed that the concentration and rate of change for each individual species are known at a series of sampling times."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Simple GMA system having several feedback inhibitions."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Model equations for simple GMA system."
+  },
+  {
+   "section": "article",
+   "text": "The chosen initial conditions do not correspond to a steady-state, resulting in a transient response before the system reaches its stable steady-state. <sentence_start/>Independent variables are held constant and the dynamic data are generated using a single time series. <sentence_start/>Twelve data points from the transient response are used in this example. <sentence_start/>This response includes the concentration and rate of change for each individual species. <sentence_start/>This transient response is shown in Figure 5 and the corresponding data are presented in Table 1. <sentence_start/>This information is used to formulate the optimization problem given in Eq. <sentence_start/>(3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Dynamic response for the simple GMA system having feedback inhibitions."
+  },
+  {
+   "section": "article",
+   "text": "The parameters were estimated by means of the branch-and-reduce global optimization algorithm for various scenarios that differed in both the initial guesses and the bounds for the parameter values. <sentence_start/>The initial guesses were selected in different ways. <sentence_start/>In the first series of experiments they were randomly chosen (with uniform distribution) within a predefined range between lower bounds and upper bounds on the parameters. <sentence_start/>Computational results are presented here with the initial guesses selected as the lower bounds on the parameter search space. <sentence_start/>Initial parameter guesses can be based on collective experience with GMA and S-systems as described in [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>]. <sentence_start/>Any reasonable initial solution may serve as the initial upper bound on the solution. <sentence_start/>For our illustration, the upper and lower bounds were selected at 10%, 100%, 200% and 500% around the true value. <sentence_start/>For instance, in the latter case, they were set at -500% and +500% of the true parameter values, which we knew for this didactic example. <sentence_start/>The initial bounds on the parameters can thus be computed as:"
+  },
+  {
+   "section": "article",
+   "text": "[<italic toggle=\"yes\">k</italic><italic toggle=\"yes\"><sub>true </sub></italic>- 500% × <italic toggle=\"yes\">k</italic><italic toggle=\"yes\"><sub>true</sub></italic><italic toggle=\"yes\">, k</italic><italic toggle=\"yes\"><sub>true </sub></italic>+ 500% × <italic toggle=\"yes\">k</italic><italic toggle=\"yes\"><sub>true</sub></italic>] (13)"
+  },
+  {
+   "section": "article",
+   "text": "where <italic toggle=\"yes\">k</italic><italic toggle=\"yes\"><sub>true </sub></italic>is the true parameter value. <sentence_start/>This technique leads to search regions in parameter space centered on the nominal values. <sentence_start/>However, in the branch-and-reduce algorithm, various range reduction techniques are implemented prior to the global search for the solution. <sentence_start/>For instance, one may derive tighter variable bounds on a given partition that are not centered around the nominal parameter values. <sentence_start/>In a realistic situation the true values are of course unknown, but considerable experience has been amassed throughout the years suggesting natural default values. <sentence_start/>We also included a 0% interval as a check that the true solution was recouped."
+  },
+  {
+   "section": "article",
+   "text": "The estimated parameter values using both the local and global searches are given in Table 2. <sentence_start/>The total time required to obtain the global solution, the number of partitions created during the branch-and-reduce procedure and the number of nonconvex and convex problems solved; the objective function values for both local and global solutions are provided in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "The numerical results demonstrate that both the local and global solvers give the same solution when the parameter space is small and the bounds are tight. <sentence_start/>When the bounds are increased beyond 100%, the local solver may fail to find the true parameters, while the global solver still succeeds. <sentence_start/>For instance, one notes that the local search with 200% bounds yielded a different solution, which however was inferior, as indicated by the value of the objective function."
+  },
+  {
+   "section": "article",
+   "text": "Case study"
+  },
+  {
+   "section": "article",
+   "text": "As a more complex illustration, consider the fermentation pathway in <italic toggle=\"yes\">Saccharomyces cerevisiae </italic>described in [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1016/0025-5564(94)00092-E\" pmid=\"7579901\" count=\"1\">26</citation>]. <sentence_start/>This is a relatively simple metabolic pathway system of which the structural and numerical specifications are however directly based on careful kinetic experiments and biochemical analyses [<citation ref-type=\"bibr\" rid=\"B52\" doi=\"10.1016/0141-0229(90)90033-M\" count=\"1\">52</citation>]. <sentence_start/>The metabolic pathway map is given in Figure 6. <sentence_start/>The GMA model equations adapted from [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1016/0025-5564(94)00092-E\" pmid=\"7579901\" count=\"1\">26</citation>,<citation ref-type=\"bibr\" rid=\"B53\" count=\"1\">53</citation>] are given in Figure 7. <sentence_start/>The model has 5 dependent variables, 9 independent variables and 19 unknown rate constant and kinetic order parameters."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Simplified model of anaerobic fermentation of glucose to ethanol, glycerol, and polysaccharides in Saccharomyces Cerevisiae."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "GMA model equations for fermentation model in Figure 6."
+  },
+  {
+   "section": "article",
+   "text": "According to Galazzo and Bailey [<citation ref-type=\"bibr\" rid=\"B52\" doi=\"10.1016/0141-0229(90)90033-M\" count=\"1\">52</citation>] and Curto et al. [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1016/0025-5564(94)00092-E\" pmid=\"7579901\" count=\"1\">26</citation>], the observed concentrations (mM) of the dependent variables at steady state are: <italic toggle=\"yes\">X</italic><sub>1</sub>(G<italic toggle=\"yes\"><sub>In</sub></italic>) - Internal Glucose = 0.0346, <italic toggle=\"yes\">X</italic><sub>2</sub>(G6P) - Glucose-6-phosphate = 1.011, <italic toggle=\"yes\">X</italic><sub>3</sub>(FDP) - Fructose-1,6-diphosphate = 9.1876, <italic toggle=\"yes\">X</italic><sub>4</sub>(PEP) - Phosphoenolpyruvate = 0.0095, and <italic toggle=\"yes\">X</italic><sub>5 </sub>- Adenosine triphosphate (ATP) = 1.1278. <sentence_start/>The values of the independent variables (<italic toggle=\"yes\">mM min</italic><sup>-1</sup>) are: <italic toggle=\"yes\">X</italic><sub>6 </sub>- Glucose uptake = 19.7, <italic toggle=\"yes\">X</italic><sub>7 </sub>- Hexokinase = 68.5, <italic toggle=\"yes\">X</italic><sub>8 </sub>- Phosphofructokinase = 31.7, <italic toggle=\"yes\">X</italic><sub>9 </sub>- Glyceraldehyde-3-phosphate dehydrogenase = 49.9, <italic toggle=\"yes\">X</italic><sub>10 </sub>- Pyruvate kinase = 3,440, <italic toggle=\"yes\">X</italic><sub>11 </sub>- Polysaccharide production (glycogen + trehalose) = 14.31, <italic toggle=\"yes\">X</italic><sub>12 </sub>- Glycerol production = 203, <italic toggle=\"yes\">X</italic><sub>13 </sub>- ATPase = 25.1, and <italic toggle=\"yes\">X</italic><sub>14 </sub>- <italic toggle=\"yes\">NAD</italic><sup>+</sup><italic toggle=\"yes\">/NADH </italic>ratio = 0.042."
+  },
+  {
+   "section": "article",
+   "text": "A typical dynamic response for the system is shown in Figure 8. <sentence_start/>It was obtained by subjecting the glucose uptake to artificial step changes, which could have been implemented experimentally through externally controlled changes in substrate availability. <sentence_start/>Illustrative data were obtained by integrating the system and collecting the state and the slope values for each dependent variable every 6 seconds over a time horizon of length <italic toggle=\"yes\">P</italic>. <sentence_start/>For a single time series, the horizon length is the number of data points collected for the state and slope values that are used in the optimization formulation."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Dynamic response of independent variables when the external glucose uptake is subjected to step changes."
+  },
+  {
+   "section": "article",
+   "text": "For any given scenario, <italic toggle=\"yes\">nP </italic>equations were written, and these served as the nonlinear equality constraints in the formulation given in Equation 3, which includes the unknown parameters (<italic toggle=\"yes\">θ</italic>) that were to be estimated. <sentence_start/>For a single time series, 10 data samples for the states and slope values were collected right after the first step change was introduced. <sentence_start/>The transient response data are presented in Table 4. <sentence_start/>The resulting optimization formulation thus required 70 variables (parameters) and 50 nonconvex constraints. <sentence_start/>The convex relaxation resulted in 276 total variables and 832 total convex constraints."
+  },
+  {
+   "section": "article",
+   "text": "The parameters were estimated with the MINOS nonconvex NLP solver for local searches and the branch-and-reduce algorithm for the global searches. <sentence_start/>As in the didactic example, we explored various scenarios that again differed with respect to the initial guesses for the parameters as well as the bounds on the parameter space to be searched. <sentence_start/>The lower and upper bounds on the parameters were selected at 100%, 200%, 300 %, and 500% around the true value. <sentence_start/>The initial guesses for the parameters were selected to be the lower bounds of the parameters search space."
+  },
+  {
+   "section": "article",
+   "text": "It is known that the performance of any MINOS NLP solver is significantly affected by the specified tolerances. <sentence_start/>The convergence tolerances such as row, optimality and feasibility tolerances were set to 10<sup>-5</sup>. <sentence_start/>The maximum number of iterations was set to 5000, and the maximum number of major and minor iterations between successive linearizations of nonlinear constraints was set to a value of 60. <sentence_start/>During the branch-and-reduce algorithm, only the parameters (<italic toggle=\"yes\">γ </italic>and <italic toggle=\"yes\">p</italic>) were considered for branching. <sentence_start/>The ratios of the difference in the current bounds and the difference in the original bounds for all variables (parameters) were computed. <sentence_start/>The particular variable with the worst (largest) ratio was then selected for branching. <sentence_start/>The algorithm was implemented using best-first search strategy and was able to guarantee the global solution within an <italic toggle=\"yes\">ε </italic>= 0.0001 tolerance."
+  },
+  {
+   "section": "article",
+   "text": "The computational results were generated using MINOS for NLP solution and CPLEX for the LP solution. <sentence_start/>An Athlon 1900+ dual processor machine was used with Linux Debian OS. <sentence_start/>The computational results demonstrate that the chosen optimization technique guarantees convergence to the global solution for all Δ values tested. <sentence_start/>The global solution time, number of partitions, nonconvex and convex problems solved during the branch-and-reduce search, and the objective function value for both the local and global solutions, are given in Table 5. <sentence_start/>The estimated parameters for the different scenarios are shown in Table 6."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The first step of any modeling effort is the definition of symbolic equations and the numerical definition of their parameter values. <sentence_start/>In the past, the latter has typically been accomplished by reformulating literature information on local processes, such as enzyme-catalyzed reaction steps, within the biological system of interest. <sentence_start/>High-throughput data are beginning to change this situation dramatically. <sentence_start/>Instead of working from the bottom up, it is becoming possible to infer the structure and regulation of biological systems from measured time profiles. <sentence_start/>An important component of this inference is the efficient estimation of parameters, which in the case of GMA and S-systems within BST can directly be interpreted as biological features, thereby potentially yielding novel insights."
+  },
+  {
+   "section": "article",
+   "text": "We have shown here that the parameter estimation task may be posed as a nonconvex nonlinear optimization problem. <sentence_start/>Consequently, deterministic global optimization techniques can be applied, and among them the branch-and-reduce algorithm appears to be a very suitable choice, because it is guaranteed to find the global solution. <sentence_start/>This is in stark contrast to local solvers, such as nonlinear regression algorithms, which may not be able to converge to the global solution when the parameter search space is large or the error surface is ragged. <sentence_start/>As a proof of concept, we demonstrated the features of the global search method with a didactic example and a simple yet realistic biological case study, which has been used by others for the exploration of new methods [<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>,<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1016/0025-5564(94)00092-E\" pmid=\"7579901\" count=\"1\">26</citation>-<citation ref-type=\"bibr\" rid=\"B29\" doi=\"10.1002/(SICI)1097-0290(19970905)55:5&lt;758::AID-BIT6&gt;3.0.CO;2-A\" pmid=\"18636586\" count=\"1\">29</citation>]. <sentence_start/>In order not to cloud the demonstration of the functioning of the branch-and-reduce search algorithm, both examples were selected free of experimental error. <sentence_start/>While this may seem somewhat artificial, the omission of noise was intentional (a) in order to see how the method performs under ideal conditions and (b) because a preparatory smoothing step can significantly reduce if not eliminate noise. <sentence_start/>Nonetheless, it is now necessary to consider data that are corrupted by noise, and to compare the efficacy of the branch-and-reduce method with alternate methods such as nonlinear regression and genetic algorithms."
+  },
+  {
+   "section": "article",
+   "text": "For the limited range of illustrative examples shown here, the computational results demonstrate that the branch-and-reduce algorithm is fast and reliable. <sentence_start/>Of course, it is difficult to judge in general to what degree this algorithm, combined with estimation of species concentration rate of change, outperforms other methods, but it seems clear that direct parameter estimation in systems of differential equations can be extremely time consuming. <sentence_start/>As a case in point, Kikuchi <italic toggle=\"yes\">et al</italic>. [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"12651723\" doi=\"10.1093/bioinformatics/btg027\" count=\"1\">4</citation>] used a genetic algorithm to identify the parameters of a five-variable S-system from noise-free data and showed that every cycle of the genetic algorithm took about 10 hours on a cluster of over 1,000 CPUs and that seven cycles were needed to complete the identification. <sentence_start/>Voit and Almeida [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14988125\" doi=\"10.1093/bioinformatics/bth140\" count=\"1\">9</citation>] demonstrated that this computation time may be reduced drastically if the estimation of slopes, as we used here, is employed to replace the differential equations with sets of nonlinear algebraic equations. <sentence_start/>Still they found the subsequent regression to be slow and not necessarily reliable, because of convergence to local minima or no convergence at all. <sentence_start/>Irrespective of computational speed, the branch-and-reduce algorithm employed here was shown to be successful in rather quickly finding global solutions within an <italic toggle=\"yes\">ε </italic>tolerance, which is a great advance, because local search methods cannot guarantee convergence to the true solution."
+  }
+ ]
+}

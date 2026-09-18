@@ -1,0 +1,551 @@
+{
+ "pmid": 27366621,
+ "pmcid": 4847587,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Frequency-Domain Models for Nonlinear Microwave Devices Based on Large-Signal Measurements"
+  },
+  {
+   "section": "abstract",
+   "text": "In this paper, we introduce nonlinear large-signal scattering ( ) parameters, a new type of frequency-domain mapping that relates incident and reflected signals. <sentence_start/>We present a general form of nonlinear large-signal -parameters and show that they reduce to classic -parameters in the absence of nonlinearities. <sentence_start/>Nonlinear large-signal impedance ( ) and admittance ( ) parameters are also introduced, and equations relating the different representations are derived. <sentence_start/>We illustrate how nonlinear large-signal -parameters can be used as a tool in the design process of a nonlinear circuit, specifically a single-diode 1 GHz frequency-doubler. <sentence_start/>For the case where a nonlinear model is not readily available, we developed a method of extracting nonlinear large-signal -parameters obtained with artificial neural network models trained with multiple measurements made by a nonlinear vector network analyzer equipped with two sources. <sentence_start/>Finally, nonlinear large-signal -parameters are compared to another form of nonlinear mapping, known as nonlinear scattering functions. <sentence_start/>The nonlinear large-signal -parameters are shown to be more general."
+  },
+  {
+   "section": "article",
+   "text": "1. <sentence_start/>Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Vector network analyzers (VNAs) are one of the most versatile instruments available for RF and microwave measurements. <sentence_start/>They are used to measure complex scattering parameters (<italic toggle=\"yes\">S</italic>-parameters) of linear devices or circuits. <sentence_start/>RF engineers use them to verify their designs, confirm proper performance, and diagnose failures. <sentence_start/>A VNA works by exciting a linear device under test (DUT) with a series of sine wave signals, one frequency at a time, and detecting the response of the DUT at its signal ports. <sentence_start/>Since the DUT is linear, the input and output signal frequencies are the same as the source; these signals can be described by complex numbers that account for the signals’ amplitudes and phases. <sentence_start/>The input-output relationships are described by ratios of complex numbers, known as <italic toggle=\"yes\">S</italic>-parameters. <sentence_start/>For a two-port network, four <italic toggle=\"yes\">S</italic>-parameters completely describe the behavior of a linear DUT when excited by a sine wave at a particular frequency. <sentence_start/>Although the measurement of <italic toggle=\"yes\">S</italic>-parameters by VNAs is invaluable to the microwave designer for modeling and measuring linear circuits, these measurements are oftentimes inadequate for nonlinear circuits operating at large-signal conditions, since nonlinearities transfer energy from the stimulus frequency to products at new frequencies. <sentence_start/>Thus, conventional linear network analysis, which relies on the assumption of superposition, must be replaced by a more general type of analysis, which we refer to as nonlinear network analysis."
+  },
+  {
+   "section": "article",
+   "text": "Nonlinear network analysis involves characterizing a nonlinear device under realistic, large-signal operating conditions. <sentence_start/>To do this, complex traveling waves (rather than ratios) are measured at the ports of a DUT not only at the stimulus frequency (or frequencies), but also at other frequencies where energy may be created. <sentence_start/>Assuming the input signals are sine-waves and the DUT exhibits neither sub-harmonic nor chaotic behavior, the input and output signals will be combinations of sine-wave signals, caused by the nonlinearity of the DUT in conjunction with impedance mismatches between the measuring system and the DUT. <sentence_start/>If a single excitation frequency is present, new frequency components will appear at harmonics of the excitation frequency, and if multiple excitation frequencies are present, new frequency components will appear at the intermodulation products as well as at harmonics of each of the excitation frequencies. <sentence_start/>In practice, there will be a limited number of significant harmonics and intermodulation products. <sentence_start/>The set of frequencies at which energy is present and must be measured is known as the frequency grid."
+  },
+  {
+   "section": "article",
+   "text": "A class of instruments known as nonlinear vector network analyzers (NVNA) are capable of providing accurate waveform vectors by acquiring and correcting the magnitude and phase relationships between the fundamental and harmonic components in the periodic signals [<citation rid=\"b1-j94jar\" ref-type=\"bibr\" count=\"1\">1</citation>-<citation rid=\"b5-j94jar\" ref-type=\"bibr\" count=\"1\">5</citation>]. <sentence_start/>An NVNA excites a nonlinear DUT with one or more sine wave signals and detects the response of the DUT at its signal ports. <sentence_start/>Assuming the DUT does not exhibit any sub-harmonic or chaotic behavior, the input and output signals will be combinations of sine wave signals due to the nonlinearity of the DUT in conjunction with mismatches between the system and the DUT. <sentence_start/>With these facts in mind, the major difference between a linear VNA and an NVNA is that a VNA measures ratios between input and output waves one frequency at a time while an NVNA measures the actual input and output waves simultaneously over a broad band of frequencies."
+  },
+  {
+   "section": "article",
+   "text": "Even though <italic toggle=\"yes\">S</italic>-parameters cannot adequately represent nonlinear circuits, some type of parameters relating incident and reflected signals are beneficial so that the designers can “see” application-specific engineering figures of merit that are similar to what they are accustomed to. <sentence_start/>In first part of this paper, we propose definitions of such ratios that we refer to as nonlinear large-signal scattering ( ) parameters. <sentence_start/>We also introduce nonlinear large-signal impedance ( ) and admittance ( ) parameters, and present equations relating the different representations. <sentence_start/>Next, we make two simplifications when considering the cases of a one-port network with a single-tone excitation and a two-port network with a single-tone excitation."
+  },
+  {
+   "section": "article",
+   "text": "For existing nonlinear models, we can readily generate nonlinear large-signal -parameters by performing a harmonic balance simulation. <sentence_start/>For devices, with no model available, we can extract these parameters from artificial neural network (ANN) models that are trained with multiple frequency-domain measurements made on a nonlinear DUT with an NVNA. <sentence_start/>To illustrate applications and generation of nonlinear large-signal -parameters, we present two examples. <sentence_start/>First, we illustrate how nonlinear large-signal -parameters can be used as a tool in the process of designing a simple nonlinear circuit, specifically a single-diode 1 GHz frequency-doubler circuit. <sentence_start/>And secondly, we describe a method for generating nonlinear large-signal -parameters based upon ANN models trained on frequency-domain data measured using an NVNA. <sentence_start/>We compare a diode circuit model, generated using this method, to a harmonic balance simulation of a commercial device model."
+  },
+  {
+   "section": "article",
+   "text": "Finally, we compare our nonlinear large-signal -parameters to another form of nonlinear mapping, known as nonlinear scattering functions [<citation rid=\"b6-j94jar\" ref-type=\"bibr\" count=\"1\">6</citation>-<citation rid=\"b7-j94jar\" ref-type=\"bibr\" count=\"1\">7</citation>]. <sentence_start/>Specifically, we show that the two formulations are not equivalent. <sentence_start/>Nonlinear large-signal -parameters are more general than the nonlinear scattering functions, which are useful in approximating a specific class of nonlinearity in a more compact form."
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>Nonlinear Large-Signal Scattering Parameters"
+  },
+  {
+   "section": "article",
+   "text": "In this section, we introduce the concept of nonlinear large-signal scattering parameters. <sentence_start/>Like commonly used linear <italic toggle=\"yes\">S</italic>-parameters, nonlinear large-signal scattering ( ) parameters can also be expressed as ratios of incident and reflected wave variables. <sentence_start/>However, unlike linear <italic toggle=\"yes\">S</italic>-parameters, nonlinear large-signal -parameters depend upon the signal magnitude and must account for the harmonic content of the input and output signals since energy can be transferred to other frequencies in a nonlinear device."
+  },
+  {
+   "section": "article",
+   "text": "After presenting the general form of nonlinear large-signal -parameters, we also introduce nonlinear large-signal impedance ( ) and admittance ( ) parameters, and present equations for relating the different representations. <sentence_start/>Next, we make two simplifications in which we consider the cases of a one-port network with a single-tone excitation and a two-port network with a single-tone excitation."
+  },
+  {
+   "section": "article",
+   "text": "2.1 General Form"
+  },
+  {
+   "section": "article",
+   "text": "Consider an <italic toggle=\"yes\">N</italic>-port network. <sentence_start/>Normalized wave variables <italic toggle=\"yes\">a<sub>jl</sub></italic> and <italic toggle=\"yes\">b<sub>jl</sub></italic> at the <italic toggle=\"yes\">j</italic>th port and <italic toggle=\"yes\">l</italic>th harmonic are proportional to the incoming and outgoing waves, respectively, and may be defined in terms of the voltages associated with these waves as follows: where and represent voltages associated with the incoming and outgoing waves in the transmission lines connected to the <italic toggle=\"yes\">j</italic>th port and containing frequencies of the <italic toggle=\"yes\">l</italic>th harmonic; <italic toggle=\"yes\">Z<sub>oj</sub></italic> represents the characteristic impedance of the line at the <italic toggle=\"yes\">j</italic>th port."
+  },
+  {
+   "section": "article",
+   "text": "The nonlinear large-signal scattering matrix of the network expresses the relationship between <italic toggle=\"yes\">a</italic>’s and <italic toggle=\"yes\">b</italic>’s at various ports and harmonics through the matrix equation where <bold><italic toggle=\"yes\">b</italic></bold> and <bold><italic toggle=\"yes\">a</italic></bold> are (<italic toggle=\"yes\">N×M</italic>)-element column vectors. <sentence_start/>Here <italic toggle=\"yes\">N</italic> refers to the number of ports and <italic toggle=\"yes\">M</italic> refers to the number of harmonics being considered. <sentence_start/>Matrix is an (<italic toggle=\"yes\">N×M</italic>)<sup>2</sup>-element square matrix. <sentence_start/>We assume all <italic toggle=\"yes\">a</italic>’s and <italic toggle=\"yes\">b</italic>’s are phase referenced to <italic toggle=\"yes\">a</italic><sub>11</sub> to enforce time invariance [<citation rid=\"b8-j94jar\" ref-type=\"bibr\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "As an example, consider a two-port network with 3 harmonics; Eq. (2) then becomes where For each nonlinear large-signal scattering parameter the index <italic toggle=\"yes\">i</italic> refers to the port number of the <italic toggle=\"yes\">b</italic> wave, the index <italic toggle=\"yes\">j</italic> refers to the port number of the <italic toggle=\"yes\">a</italic> wave, <italic toggle=\"yes\">k</italic> is the harmonic index of the <italic toggle=\"yes\">b</italic> wave, and <italic toggle=\"yes\">l</italic> is the harmonic index of the <italic toggle=\"yes\">a</italic> wave. <sentence_start/>The vectors and are (<italic toggle=\"yes\">M</italic>=3)-element vectors given by Equation (3) can be expanded as follows Note that in each of the four sub-matrices, the diagonal elements contain the same-frequency scattering parameters, the upper right elements contain the frequency down-conversion scattering parameters, and the lower left elements contain the frequency up-conversion scattering parameters. <sentence_start/>If the device under consideration contains no nonlinearities (i.e., no power is transferred to other frequencies), then Eq. (6) reduces to which is the matrix representation for the well-known linear <italic toggle=\"yes\">S</italic>-parameters involving three excitation frequencies."
+  },
+  {
+   "section": "article",
+   "text": "2.2 Nonlinear Large-Signal Impedance Parameters"
+  },
+  {
+   "section": "article",
+   "text": "Rather than expressing the relationship between <italic toggle=\"yes\">a</italic>’s and <italic toggle=\"yes\">b</italic>’s in terms of a nonlinear large-signal scattering matrix , we can alternatively express the relationship between voltages (<italic toggle=\"yes\">V</italic>’s) and currents (<italic toggle=\"yes\">I</italic>’s) in terms of a nonlinear large-signal impedance matrix , as follows where <bold><italic toggle=\"yes\">V</italic></bold> and <bold><italic toggle=\"yes\">I</italic></bold> are (<italic toggle=\"yes\">N×M</italic>)-element column vectors. <sentence_start/>Once again <italic toggle=\"yes\">N</italic> refers to the number of ports and <italic toggle=\"yes\">M</italic> refers to the number of harmonics being considered. <sentence_start/>is an (<italic toggle=\"yes\">N×M</italic>)<sup>2</sup>-element square matrix."
+  },
+  {
+   "section": "article",
+   "text": "For a two-port network with 3 harmonics, Eq. <sentence_start/>(8) becomes where For each nonlinear large-signal impedance parameter , the index <italic toggle=\"yes\">i</italic> refers to the port number of the voltage <italic toggle=\"yes\">V</italic>, the index <italic toggle=\"yes\">j</italic> refers to the port number of the current <italic toggle=\"yes\">I</italic>, <italic toggle=\"yes\">k</italic> is the harmonic index of <italic toggle=\"yes\">V</italic>, and <italic toggle=\"yes\">l</italic> is the harmonic index of <italic toggle=\"yes\">I</italic>. <sentence_start/>The vectors and are (<italic toggle=\"yes\">M</italic>=3)-element vectors given by Equation (9) can be expanded to"
+  },
+  {
+   "section": "article",
+   "text": "2.3 Relating and Matrices"
+  },
+  {
+   "section": "article",
+   "text": "The and matrices can be expressed in terms of one another, if we know how <italic toggle=\"yes\">a</italic> and <italic toggle=\"yes\">b</italic> relate to <italic toggle=\"yes\">V</italic> and <italic toggle=\"yes\">I</italic>. <sentence_start/>From Eq. <sentence_start/>(1), we can express <italic toggle=\"yes\">V<sub>ik</sub></italic> in terms of <italic toggle=\"yes\">a<sub>jl</sub></italic> and <italic toggle=\"yes\">b<sub>ik</sub></italic> as follows: where the subscripts refer to the <italic toggle=\"yes\">i</italic>th port and the <italic toggle=\"yes\">k</italic>th harmonic. <sentence_start/>We can similarly express <italic toggle=\"yes\">I<sub>jl</sub></italic> as where the subscripts refer to the <italic toggle=\"yes\">j</italic>th port and at the <italic toggle=\"yes\">l</italic>th harmonic."
+  },
+  {
+   "section": "article",
+   "text": "For simplicity, we will assume for now that the network under consideration consists of two ports. <sentence_start/>Later, we can easily generalize the equations relating the and matrices for any <italic toggle=\"yes\">N</italic>-port network. <sentence_start/>If we allow the two transmission lines or waveguides connecting the two ports to have different characteristic impedances, <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>1</sub> and <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>2</sub>, Eq. <sentence_start/>(14) can be expressed in matrix form as where [<italic toggle=\"yes\">U</italic>] is the identity matrix. <sentence_start/>Equation (9) can be expressed as Combining Eqs. (15) and (16) gives or where is the normalized impedance matrix. <sentence_start/>Equation (18) can be rewritten as and Eq. <sentence_start/>(3) can be rewritten as Combining Eqs. <sentence_start/>(20) and (21) allows us to solve for in terms of : If <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>1</sub> = <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>2</sub>, Eq. <sentence_start/>(22) reduces to Alternatively, we can combine Eqs. <sentence_start/>(20) and (21) to solve for in terms of : If <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>1</sub> = <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>2</sub>, Eq. <sentence_start/>(24) reduces to"
+  },
+  {
+   "section": "article",
+   "text": "2.4 Nonlinear Large-Signal Admittance Parameters"
+  },
+  {
+   "section": "article",
+   "text": "We can also express the relationship between voltages (<italic toggle=\"yes\">V</italic>’s) and currents (<italic toggle=\"yes\">I</italic>’s) in terms of a nonlinear large-signal admittance matrix , as follows where is an (<italic toggle=\"yes\">N×M</italic>)<sup>2</sup>-element square matrix. <sentence_start/>For a two-port network with three harmonics, for example, Eq. <sentence_start/>(26) becomes where For each nonlinear large-signal admittance parameter , the index <italic toggle=\"yes\">i</italic> refers to the port number of the current <italic toggle=\"yes\">I</italic>, the index <italic toggle=\"yes\">j</italic> refers to the port number of the voltage <italic toggle=\"yes\">V</italic>, <italic toggle=\"yes\">k</italic> is the harmonic index of <italic toggle=\"yes\">I</italic>, and <italic toggle=\"yes\">l</italic> is the harmonic index of <italic toggle=\"yes\">V</italic>. The vectors and are, once again, (<italic toggle=\"yes\">M</italic>=3)-element vectors, defined in Eq. <sentence_start/>(11). <sentence_start/>Equation (27) can be expanded as follows"
+  },
+  {
+   "section": "article",
+   "text": "2.5 Relating and Matrices"
+  },
+  {
+   "section": "article",
+   "text": "The and matrices can also be expressed in terms of one another, using Eqs. (13) and (14) which show how <italic toggle=\"yes\">a</italic> and <italic toggle=\"yes\">b</italic> relate to <italic toggle=\"yes\">V</italic> and <italic toggle=\"yes\">I</italic>."
+  },
+  {
+   "section": "article",
+   "text": "For simplicity, we will again assume the network under consideration consists of two ports. <sentence_start/>If we allow the two transmission lines or waveguides connecting the two ports to have different characteristic impedances <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>1</sub> and <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>2</sub>, Eq. <sentence_start/>(14) can be expressed in matrix form as where [<italic toggle=\"yes\">U</italic>] is the identity matrix. <sentence_start/>Equation (27) can be expressed as Combining Eqs. (30) and (31) gives or where is the normalized admittance matrix. <sentence_start/>Equation (33) can be rewritten as and Eq. <sentence_start/>(3) can be rewritten as Combining Eqs. (35) and (36) allows us to solve for in terms of : If <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>1</sub> = <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>2</sub>, Eq. <sentence_start/>(37) reduces to: Alternatively, we can combine Eqs. (35) and (36) to solve for in terms of : If <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>1</sub> = <italic toggle=\"yes\">Z<sub>o</sub></italic><sub>2</sub>, Eq. <sentence_start/>(39) reduces to"
+  },
+  {
+   "section": "article",
+   "text": "2.6 One-Port Network With Single-Tone Excitation"
+  },
+  {
+   "section": "article",
+   "text": "For a one-port network with a single-tone excitation at the fundamental frequency, we can extract a reflection coefficient given by The limitation imposed on the equation is that all other incident waves other than <italic toggle=\"yes\">a</italic><sub>11</sub>equal zero. <sentence_start/>Instead of simply taking the ratio of <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> to <italic toggle=\"yes\">a</italic><sub>11</sub>, we reference the phase of <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> to that of <italic toggle=\"yes\">a</italic><sub>11</sub>. <sentence_start/>To do this, we must subtract <italic toggle=\"yes\">k</italic> times the phase of <italic toggle=\"yes\">a</italic><sub>11</sub> from <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> [<citation rid=\"b8-j94jar\" ref-type=\"bibr\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For a one-port network with a single-tone excitation at the fundamental frequency, we can show that the equation relating and reduces to the same well-known equation for the linear case if we assume that no energy is redistributed into the form of frequency down-conversion. <sentence_start/>To illustrate this, we will consider only <italic toggle=\"yes\">M</italic>=3 harmonics, for the sake of simplicity. <sentence_start/>Equation (6) reduces to for a one-port network with a single-tone excitation <italic toggle=\"yes\">a</italic><sub>11</sub>. <sentence_start/>This matrix can be rewritten as a set of three equations: Likewise, Eq. <sentence_start/>(12) reduces to where the voltage <italic toggle=\"yes\">V</italic><sub>11</sub> at the first harmonic can be expressed as From Eqs. (13) and (14), we know that Combining Eqs. (45) and (46) gives Substituting Eq. <sentence_start/>(43) into Eq. <sentence_start/>(47) and solving for gives If no energy is redistributed into the form of frequency down-conversion (i.e., ), then Eq. <sentence_start/>(48) reduces to the same equation as in the linear case: A similar derivation can be performed to show that Once again, if no energy is transferred to frequency down-conversion (i.e., ), then Eq. <sentence_start/>(50) reduces to the same equation as in the linear case:"
+  },
+  {
+   "section": "article",
+   "text": "2.7 Two-Port Network With Single-Tone Excitation"
+  },
+  {
+   "section": "article",
+   "text": "For a two-port network excited at port 1 by a single-tone excitation at the fundamental frequency, we can extract an input reflection coefficient given by As with Eq. <sentence_start/>(41), instead of simply taking the ratio of <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> to <italic toggle=\"yes\">a</italic><sub>11</sub>, we phase reference to <italic toggle=\"yes\">a</italic><sub>11</sub>. <sentence_start/>To do this we must subtract <italic toggle=\"yes\">k</italic> times the phase of <italic toggle=\"yes\">a</italic><sub>11</sub> from <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic>. <sentence_start/>The limitation once again imposed on the equation is that all other incident waves other than <italic toggle=\"yes\">a</italic><sub>11</sub> equal zero."
+  },
+  {
+   "section": "article",
+   "text": "Another valuable parameter, the forward transmission coefficient, is similarly extracted as follows This parameter provides a value of the gain or loss through a device either at the fundamental frequency or converted to a higher harmonic frequency."
+  },
+  {
+   "section": "article",
+   "text": "In addition to the previous two parameters, given in Eqs. <sentence_start/>(52) and (53), an output reflection coefficient can also be useful when trying to determine the output matching network. <sentence_start/>If a nonlinear DUT is operating under its normal drive condition (<italic toggle=\"yes\">a</italic><sub>11</sub> at some constant signal level), and a second source, excited by a small-signal tone at frequency <italic toggle=\"yes\">f<sub>k</sub></italic>, is placed at port 2 of the DUT, one of the equations in the matrix defined by Eq. <sentence_start/>(6) reduces to If we solve Eq. <sentence_start/>(54) for , we obtain In Eq. <sentence_start/>(55), the output reflection coefficient obviously cannot be determined by simply taking the ratio of <italic toggle=\"yes\">b</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> to <italic toggle=\"yes\">a</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic>, since the ratio also depends on <italic toggle=\"yes\">a</italic><sub>11</sub> through . <sentence_start/>When <italic toggle=\"yes\">a</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> is small, we can generate another signal ∆<italic toggle=\"yes\">a</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> that is offset slightly from the frequency of interest <italic toggle=\"yes\">f<sub>k</sub></italic> by ∆<italic toggle=\"yes\">f<sub>k</sub></italic>. <sentence_start/>Eq. (54) then becomes where ∆<italic toggle=\"yes\">a</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> &lt;&lt; <italic toggle=\"yes\">a</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> and remains constant over this frequency range. <sentence_start/>Subtracting Eq. <sentence_start/>(54) from Eq. <sentence_start/>(56) gives which does not depend on . <sentence_start/>If we solve Eq. <sentence_start/>(57) for , we obtain Equation (58) is a quasi-linear approximation of the output reflection coefficient under normal operating conditions, and is consistent with the definition of “Hot <italic toggle=\"yes\">S</italic><sub>22</sub>,” which has been used to measure the degree of mismatch at the output port of a power amplifier at its excitation frequency."
+  },
+  {
+   "section": "article",
+   "text": "2.8 <sentence_start/>Summary of Sec. 2"
+  },
+  {
+   "section": "article",
+   "text": "In this section, we presented the general form of nonlinear large-signal -parameters. <sentence_start/>Unlike linear <italic toggle=\"yes\">S</italic>-parameters, nonlinear large-signal -parameters depend upon the signal magnitude and must take into account the harmonic content of the input and output signals, since energy can be transferred to other frequencies in a nonlinear device. <sentence_start/>We also introduced nonlinear large-signal impedance ( ) and admittance ( ) parameters, and presented equations for relating the different representations. <sentence_start/>Next, we made two simplifications, considering the cases of a one-port network with a single-tone excitation and a two-port network with a single-tone excitation. <sentence_start/>For the one-port case with a single-tone excitation at the fundamental frequency, we showed that the equation relating and reduces to the same well-known equation for the linear case if we assume that no energy is transferred to frequency down-conversion. <sentence_start/>For the two-port case excited at port 1 by a single-tone excitation at the fundamental frequency, we extracted an input reflection coefficient , a forward transmission coefficient , and a quasi-linear output reflection coefficient ."
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>Using Nonlinear Large-Signal -Parameters to Design a Diode Frequency-Doubler Circuit With a Harmonic-Balance Simulator"
+  },
+  {
+   "section": "article",
+   "text": "Resistive frequency doublers operate on the principle that a sinusoidal waveform is distorted by the nonlinear <italic toggle=\"yes\">I</italic>/<italic toggle=\"yes\">V</italic> characteristic of a Schottky-barrier diode [<citation rid=\"b9-j94jar\" ref-type=\"bibr\" count=\"1\">9</citation>]. <sentence_start/>This distortion causes power to be generated at higher-harmonic frequencies. <sentence_start/>The design of such doublers involves separating the input and output signals by filters and determining the optimum input and output matching circuits, as illustrated in Fig. 1."
+  },
+  {
+   "section": "article",
+   "text": "Although single-diode resistive doublers are not very efficient (analysis predicts a conversion loss of at least 9 dB [<citation rid=\"b10-j94jar\" ref-type=\"bibr\" count=\"1\">10</citation>]), we chose this circuit because it is simple enough to clearly illustrate how nonlinear large-signal -parameters can be used as a design tool."
+  },
+  {
+   "section": "article",
+   "text": "In the following sections, we describe the various steps involved in designing a single-diode 1 GHz frequency-doubler circuit. <sentence_start/>Since we are using a simulator, we can force the stimulus to consist of only |<italic toggle=\"yes\">a</italic><sub>11</sub>|, with all other <italic toggle=\"yes\">a<sub>mn</sub></italic> terms equal to zero, where <italic toggle=\"yes\">m</italic> and <italic toggle=\"yes\">n</italic> are positive integers such that <italic toggle=\"yes\">m</italic> ≠ 1 and <italic toggle=\"yes\">n</italic> ≠ 1. (In practice, this condition can never be completely realized in a measurement environment.) With only an <italic toggle=\"yes\">a</italic><sub>11</sub> component present, we need only consider the parameters (Eq. 52), which is a measure of the large-signal input match at the <italic toggle=\"yes\">k</italic>th harmonic, as well as the parameter (Eq. 53), a measure of the large-signal conversion loss or gain at the <italic toggle=\"yes\">k</italic>th harmonic, plus the quasilinear (Eq. 58) to determine the output matching network at the second harmonic. <sentence_start/>Figure 2 illustrates the setups required for determining these parameters. <sentence_start/>Determining requires a second source at port 2 at a frequency slightly offset from <italic toggle=\"yes\">ω</italic><sub>2</sub>."
+  },
+  {
+   "section": "article",
+   "text": "In the first step, we perform a simulation on the diode alone and use to determine the optimum bias condition for converting power from the fundamental frequency to the second harmonic. <sentence_start/>Second, we add filtering networks to separate the input and output signals, and verify their proper performance by looking at and . <sentence_start/>Third, we make use of to determine the input matching network. <sentence_start/>Fourth, with the input matching network in place, we place a second source at port 2 and find the quasi-linear value of , which allows us to determine the output matching network. <sentence_start/>Fifth, we use the optimization feature of the simulator to minimize by varying the line lengths of the input and output matching circuits. <sentence_start/>And finally, sixth, we add 4 GHz and 6 GHz filters at the output (and re-determine the proper input and output matching circuits) in order to reduce the values of and , which in turn increases the value of and cleans up the output waveform."
+  },
+  {
+   "section": "article",
+   "text": "3.1 Diode Only"
+  },
+  {
+   "section": "article",
+   "text": "In this example, we use a compact model to simulate a commercial Schottky-barrier diode. <sentence_start/>The model includes a series resistance <italic toggle=\"yes\">R</italic><sub>s</sub> of 14 Ω, a junction capacitance at zero voltage <italic toggle=\"yes\">C<sub>j</sub></italic><sub>0</sub> of 0.08 pF, and a reverse saturation current <italic toggle=\"yes\">I</italic><sub>s</sub> of 3 ×10<sup>−10</sup> A."
+  },
+  {
+   "section": "article",
+   "text": "First, we perform a harmonic-balance simulation on the diode, sweeping the bias voltage to determine which condition gives the highest value of for <italic toggle=\"yes\">a</italic><sub>11</sub> = 1.0 V. <sentence_start/>Note that in all simulations we set the generator impedance <italic toggle=\"yes\">Z</italic><sub>G</sub> and the load impedance <italic toggle=\"yes\">Z</italic><sub>L</sub> to 50 Ω After sweeping the voltage, we determine that the optimum forward bias is +0.48 V."
+  },
+  {
+   "section": "article",
+   "text": "3.2 <sentence_start/>Diode With 1 GHz and 2 GHz Filters"
+  },
+  {
+   "section": "article",
+   "text": "With a stimulus of <italic toggle=\"yes\">a</italic><sub>11</sub> = 1.0 V and a forward bias of +0.48 V, we add filtering networks to separate the input and output signals. <sentence_start/>On the input side, we place a 2 GHz, <italic toggle=\"yes\">λ</italic>/4 (<italic toggle=\"yes\">λ</italic>/8 at 1 GHz) open-circuited stub. <sentence_start/>This creates an RF short at 2 GHz, preventing the output power generated in the diode from traveling backward. <sentence_start/>On the output side, we place a 1 GHz, <italic toggle=\"yes\">λ</italic>/4 open-circuited stub. <sentence_start/>This creates an RF short at 1 GHz, preventing any signal at 1 GHz from traveling forward."
+  },
+  {
+   "section": "article",
+   "text": "Table 1 lists the simulated values for and for each of the design stages, where is the expanded power gain and is the expanded power gain confined to the second harmonic, as defined in [<citation rid=\"b11-j94jar\" ref-type=\"bibr\" count=\"1\">11</citation>]. <sentence_start/>With the 1 GHz and 2 GHz filters in place, we see that the value of decreases from 0.170 to 1.3 × 10<sup>−5</sup>, the value of decreases from 0.536 to 3.3 × 10<sup>−5</sup>, and increases from −14.16 dB to −9.73 dB."
+  },
+  {
+   "section": "article",
+   "text": "3.3 <sentence_start/>Diode With 1 GHz and 2 GHz Filters and Input Matching"
+  },
+  {
+   "section": "article",
+   "text": "Once the filters are placed in the circuit, we make use of the complex-valued to design the input matching network with the well-known single, open-circuited stub technique. <sentence_start/>This is possible, assuming that no energy is transferred to frequency down-conversion, as discussed in Sec. 2.6. <sentence_start/>We see in Table 1 that reduces from 0.569 without the input matching network to 9.4 × 10<sup>−2</sup> with the input matching network in place. <sentence_start/>Likewise, increases from −9.73 dB to −9.69 dB."
+  },
+  {
+   "section": "article",
+   "text": "3.4 <sentence_start/>Diode With 1 GHz and 2 GHz Filters, Plus Input and Output Matching"
+  },
+  {
+   "section": "article",
+   "text": "Whereas our input matching network is designed for 1 GHz, our output matching network must be designed for 2 GHz. <sentence_start/>While the circuit is operating under its normal drive condition (<italic toggle=\"yes\">a</italic><sub>11</sub> = 1.0 V and a forward bias of +0.48 V) we place a second source at port 2, excited by a small-signal tone (Δ<italic toggle=\"yes\">a</italic><sub>22</sub> = 0.01 V) at a frequency offset of 10 kHz from the desired 2 GHz, to give us the quasi-linear value of , which allows us to determine the output matching network. <sentence_start/>We make use of to design the output matching network with the well-known single, open-circuited stub technique. <sentence_start/>We see in Table 1 that with the output matching network in place, the value of is only marginally increased from 0.326 to 0.328. <sentence_start/>This is because the value of is relatively low, which means the output is already almost matched to 50 Ω. <sentence_start/>We also note that increases from −9.69 dB to −9.65 dB."
+  },
+  {
+   "section": "article",
+   "text": "3.5 Diode With 1 GHz and 2 GHz Filters, Plus Optimized Input and Output Matching"
+  },
+  {
+   "section": "article",
+   "text": "With the filters and matching networks in place, we use the optimization feature of the simulator to minimize by varying the lengths of the lines in the input and output matching circuits. <sentence_start/>Doing this decreases the value of from 8.7 × 10<sup>−2</sup> to 6.0 × 10<sup>−3</sup> while increasing the value of from 0.328 to 0.331 and from −9.65 dB to −9.60 dB."
+  },
+  {
+   "section": "article",
+   "text": "3.6 <sentence_start/>Diode With (1, 2, 4, and 6) GHz Filters, Plus Optimized Input and Output Matching"
+  },
+  {
+   "section": "article",
+   "text": "From Table 1, we see that at the output port, , and all have values less than or equal to 4.0 × 10<sup>−5</sup>, but and have noticeably higher values (at least 2.9 × 10<sup>−2</sup>)."
+  },
+  {
+   "section": "article",
+   "text": "In order to clean up the output waveform, we add 4 GHz and 6 GHz filters, in the form of <italic toggle=\"yes\">λ</italic>/4 open-circuited stubs, at the output. <sentence_start/>With these filters placed in the circuit, we re-determine the proper input and output matching conditions. <sentence_start/>After optimizing the circuit once again, the value of decreases from 4.0 × 10<sup>−2</sup> to 1.4 × 10<sup>−6</sup> and the value of decreases from 2.9 ×10<sup>−2</sup> to 2.7 × 10<sup>−6</sup>. <sentence_start/>The addition of these filters, in turn, slightly increases from 0.331 to 0.332 and from −9.60 dB to −9.56 dB. <sentence_start/>At this final design stage, the overall power gain is nearly −9.56 dB since the ratio . <sentence_start/>The semi-empirical analysis of [<citation rid=\"b10-j94jar\" ref-type=\"bibr\" count=\"1\">10</citation>] predicts a maximum gain of −9 dB. <sentence_start/>Figure 3 illustrates the final design of the single-diode resistive doubler circuit. <sentence_start/>And Fig. 4 shows the time-domain plots of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">b</italic><sub>2</sub> for the final design of the simulated 1 GHz frequency-doubler circuit."
+  },
+  {
+   "section": "article",
+   "text": "3.7 Summary of Sec. 3"
+  },
+  {
+   "section": "article",
+   "text": "We illustrated how nonlinear large-signal -parameters can be used as a tool in the design process of a single-diode 1 GHz frequency-doubler. <sentence_start/>Specifically, we used to determine the input matching network, to determine the output matching network, and (for <italic toggle=\"yes\">k</italic> = 1 to 6), and to quantify the performance of the circuit at each stage."
+  },
+  {
+   "section": "article",
+   "text": "By the final stage of the design, we had created a doubler with an overall power gain of −9.56 dB, not far from the maximum possible predicted value of −9 dB."
+  },
+  {
+   "section": "article",
+   "text": "4. <sentence_start/>Determining Nonlinear Large-Signal -Parameters from Artificial Neural Network Models Trained With Measurement Data"
+  },
+  {
+   "section": "article",
+   "text": "Although nonlinear large-signal -parameters can be easily determined for an existing model in a commercial harmonic balance simulator by forcing all <italic toggle=\"yes\">a</italic>’s other than <italic toggle=\"yes\">a</italic><sub>11</sub> to zero, they cannot be determined directly from measurements. <sentence_start/>With currently available NVNAs, the nonlinear DUT, in conjunction with the impedance mismatches and harmonics from the system make it impossible to set all <italic toggle=\"yes\">a</italic>’s other than <italic toggle=\"yes\">a</italic><sub>11</sub> (assuming port 1 excitation) to zero. <sentence_start/>In order to overcome this obstacle, we propose a method [<citation rid=\"b12-j94jar\" ref-type=\"bibr\" count=\"1\">12</citation>] that makes use of multiple measurements of a DUT using a second source with isolators, as shown in Fig. <sentence_start/>5. <sentence_start/>This measurement set-up is similar to that introduced by Verspecht et al. [<citation rid=\"b6-j94jar\" ref-type=\"bibr\" count=\"1\">6</citation>-<citation rid=\"b7-j94jar\" ref-type=\"bibr\" count=\"1\">7</citation>] to generate “nonlinear scattering functions.<sentence_start/>” <sentence_start/>As a side note, we compare and contrast the “nonlinear scattering functions” with our definitions of nonlinear large-signal scattering parameters in the Appendix."
+  },
+  {
+   "section": "article",
+   "text": "4.1 Methodology"
+  },
+  {
+   "section": "article",
+   "text": "To illustrate our technique of generating nonlinear large-signal -parameters, let us consider the case where a DUT is excited at port 1 by a single-tone signal at frequency <italic toggle=\"yes\">f</italic><sub>1</sub> and signal level |<italic toggle=\"yes\">a</italic><sub>11</sub>|. <sentence_start/>Utilizing a second source, we take multiple measurements of a nonlinear circuit for different values of <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)]. <sentence_start/>We then use these data to develop an artificial neural network (ANN) model that maps values of <italic toggle=\"yes\">a</italic>’s to <italic toggle=\"yes\">b</italic>’s, as shown in Fig. 6<sentence_start/>. <sentence_start/>Once the ANN model is trained and verified, the nonlinear large-signal -parameters are obtained by interpolating <italic toggle=\"yes\">b</italic>’s from the measured results for nonzero values of <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)] to the desired values for <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)] equal to zero, as shown in Fig. <sentence_start/>7. <sentence_start/>Alternatively, other conditions may be called for, where depending on the desired application-specific figure of merit."
+  },
+  {
+   "section": "article",
+   "text": "One popular type of ANN architecture, which is used in our work, is a feed-forward, three-layer perceptron structure (MLP3) consisting of an input layer, a hidden layer, and an output layer [<citation rid=\"b13-j94jar\" ref-type=\"bibr\" count=\"1\">13</citation>]. <sentence_start/>The hidden layer allows for complex models of input-output relationships. <sentence_start/>ANNs learn relationships among sets of input-output data that are characteristic of the device or system under consideration. <sentence_start/>After the input vectors are presented to the input neurons and output vectors are computed, the ANN outputs are compared to the desired outputs and errors are calculated. <sentence_start/>Error derivatives are then calculated and summed for each weight until all of the training sets have been presented to the network. <sentence_start/>The error derivatives are used to update the weights for the neurons, and training continues until the errors become no greater than prescribed values. <sentence_start/>In our study, we have utilized software developed by Zhang et al. [<citation rid=\"b14-j94jar\" ref-type=\"bibr\" count=\"1\">14</citation>] to construct our ANN models."
+  },
+  {
+   "section": "article",
+   "text": "To test our method of generating nonlinear large-signal -parameters, we fabricated a wafer-level test circuit using a Schottky diode in a series configuration, as shown in Fig. 8. <sentence_start/>The two-port diode circuit was fabricated on an alumina substrate by bonding a beam-lead diode package to the gold metalization layer with silver epoxy. <sentence_start/>The diode was located in the middle of the coplanar waveguide (CPW) transmission lines, with short lines connecting the diode to probe pads at both ports. <sentence_start/>We measured the test circuit on an NVNA using an on-wafer VNA line-reflect-reflect-match (LRRM) calibration, along with signal amplitude and phase calibrations. <sentence_start/>This process places the reference plane at the tips of the wafer probes used to connect with the CPW leads."
+  },
+  {
+   "section": "article",
+   "text": "For all measurements, the first source, located at port 1, used a sine-wave excitation of frequency 900 MHz and magnitude |<italic toggle=\"yes\">a</italic><sub>11</sub>|≈0.178 V (−5 dBm in a 50 Ω environment) at the probe tips. <sentence_start/>The second source was connected to port 2 and used a sine-wave excitation of frequency 900 MHz and |<italic toggle=\"yes\">a</italic><sub>21</sub>|≈0.178 V. <sentence_start/>The diode was forward-biased to +0.2 V through the probe tips. <sentence_start/>In order to obtain the nonlinear large-signal -parameters, and , the excitation from source 1 was held constant, while the phase of source 2 was randomly changed for 500 different measurements that varied slightly in magnitude. <sentence_start/>Figure 9 plots the resulting measurements of <italic toggle=\"yes\">a</italic><sub>21</sub> in the complex plane. <sentence_start/>The nonlinearities in the test circuit, along with impedance mismatches, created other input components at higher harmonics, as shown in Figs. 10-13 for the second and third harmonics (<italic toggle=\"yes\">a</italic><sub>12</sub>, <italic toggle=\"yes\">a</italic><sub>13</sub>, <italic toggle=\"yes\">a</italic><sub>12</sub>, and <italic toggle=\"yes\">a</italic><sub>13</sub>). <sentence_start/>These variations in <italic toggle=\"yes\">a<sub>ij</sub></italic> allowed us to create an ANN model that could be used to interpolate <italic toggle=\"yes\">b</italic>’s from the measured results for nonzero values of <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)], as shown in Figs. 14 and 15 for <italic toggle=\"yes\">b</italic><sub>11</sub> and <italic toggle=\"yes\">b</italic><sub>21</sub>, to the desired values for <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)] equal to zero, or alternatively another desired device condition."
+  },
+  {
+   "section": "article",
+   "text": "4.2 Sensitivity Analysis of ANN Models"
+  },
+  {
+   "section": "article",
+   "text": "Data from the 500 measurements were used to develop two ANN models, one for mapping values from the first five harmonics of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> (<italic toggle=\"yes\">a</italic><sub>11</sub>, <italic toggle=\"yes\">a</italic><sub>12</sub>, …, <italic toggle=\"yes\">a</italic><sub>15</sub>, <italic toggle=\"yes\">a</italic><sub>21</sub>, <italic toggle=\"yes\">a</italic><sub>22</sub>, …, <italic toggle=\"yes\">a</italic><sub>25</sub>) to the first five harmonics of <italic toggle=\"yes\">b</italic><sub>1</sub> (<italic toggle=\"yes\">b</italic><sub>11</sub>, <italic toggle=\"yes\">b</italic><sub>12</sub>, …, <italic toggle=\"yes\">b</italic><sub>15</sub>), and the other for mapping values from the first five harmonics of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to the first five harmonics of <italic toggle=\"yes\">b</italic><sub>2</sub> (<italic toggle=\"yes\">b</italic><sub>21</sub>, <italic toggle=\"yes\">b</italic><sub>22</sub>, …, <italic toggle=\"yes\">b</italic><sub>25</sub>). <sentence_start/>We performed a sensitivity analysis to determine how many training points, testing points, and hidden neurons are required to adequately train the two ANN models. <sentence_start/>Tables 2-4 summarize the results for the first model, where we map values from the first five harmonics of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to the first five harmonics of <italic toggle=\"yes\">b</italic><sub>1</sub>, and Tables 5-7 summarize the results for the second model, where we map values from the first five harmonics of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to the first five harmonics of <italic toggle=\"yes\">b</italic><sub>2</sub>."
+  },
+  {
+   "section": "article",
+   "text": "First, we varied the number of hidden neurons from 1 to 20. <sentence_start/>All other parameters were held constant. <sentence_start/>Specifically, the 500 measurements points were divided into 250 training points and 250 testing points, and we used the conjugate gradient method for training. <sentence_start/>Table 2 lists the average testing errors and correlation coefficients for the models that map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>1</sub>, and Table 5 lists the average testing errors and correlation coefficients for the models that map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>Both mappings show similar trends. <sentence_start/>The average testing errors decreased with increasing numbers of hidden neurons until around 14 or 16, where the errors were minimized. <sentence_start/>For more than 16 hidden neurons, the trend reversed and the errors appeared to start increasing again. <sentence_start/>Figure 16 plots the average testing errors as a function of the number of hidden neurons for both mappings."
+  },
+  {
+   "section": "article",
+   "text": "Next, we varied the number of training points from 5 to 250. <sentence_start/>All other parameters were held constant. <sentence_start/>The number of hidden neurons was set to 14 since we found that to be an ideal number from the previous analysis, and 250 testing points were used for verification. <sentence_start/>Table 3 lists the average testing errors and correlation coefficients for the models that map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>1</sub>, and Table 6 lists the average testing errors and correlation coefficients for the models that map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>Once again, both mappings showed similar trends. <sentence_start/>The average testing errors decreased for an increasing number of training points. <sentence_start/>However, as more and more training points were added, diminishing returns on the testing errors were evident. <sentence_start/>Figure 17 plots the average testing errors as a function of the number of training points for both mappings."
+  },
+  {
+   "section": "article",
+   "text": "Finally, we varied the number of testing points from 5 to 250. <sentence_start/>All other parameters were held constant. <sentence_start/>The number of hidden neurons was once again set to 14, and the same 250 training points were used for model development. <sentence_start/>Table 4 lists the average testing errors and correlation coefficients for the models that map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>1</sub>, and Table 7 lists the average testing errors and correlation coefficients for the models that map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>Both mappings showed that the average testing errors varied little with the number of testing points. <sentence_start/>Figure 18 plots the average testing errors as a function of the number of testing points for both mappings."
+  },
+  {
+   "section": "article",
+   "text": "4.3 <sentence_start/>Results and Comparison for Sec. 4"
+  },
+  {
+   "section": "article",
+   "text": "Based on the results of our sensitivity analysis, we decided to use 250 training points and 250 testing points to train and verify the two ANN models. <sentence_start/>We chose to use 14 hidden neurons for mapping values from the first five harmonics of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to the first five harmonics of <italic toggle=\"yes\">b</italic><sub>1</sub> and 16 hidden neurons for mapping values from the first five harmonics of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to the first five harmonics of <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>The testing error was 0.72 % for the <italic toggle=\"yes\">b</italic><sub>1</sub> model and 0.73 % and for the <italic toggle=\"yes\">b</italic><sub>2</sub> model, with respective correlation coefficients of 0.99997 and 0.99992."
+  },
+  {
+   "section": "article",
+   "text": "After the ANN models were developed, the nonlinear large-signal -parameters, and (<italic toggle=\"yes\">k</italic> = 1, 2, …, 5), were obtained by interpolating <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> and <italic toggle=\"yes\">b</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> from measured results for nonzero values of <italic toggle=\"yes\">a</italic><sub>12</sub>, <italic toggle=\"yes\">a</italic><sub>13</sub>, …, <italic toggle=\"yes\">a</italic><sub>15</sub> and <italic toggle=\"yes\">a</italic><sub>21</sub>, <italic toggle=\"yes\">a</italic><sub>22</sub>, …, <italic toggle=\"yes\">a</italic><sub>25</sub> to the desired values for <italic toggle=\"yes\">a</italic><sub>12</sub>, <italic toggle=\"yes\">a</italic><sub>13</sub>, …, <italic toggle=\"yes\">a</italic><sub>15</sub> and <italic toggle=\"yes\">a</italic><sub>21</sub>, <italic toggle=\"yes\">a</italic><sub>22</sub>, …, <italic toggle=\"yes\">a</italic><sub>25</sub> equal to zero. <sentence_start/>Figure 19 shows the interpolated value of <italic toggle=\"yes\">b</italic><sub>11</sub> ( ) when <italic toggle=\"yes\">a</italic><sub>12</sub>, <italic toggle=\"yes\">a</italic><sub>13</sub>, …, <italic toggle=\"yes\">a</italic><sub>15</sub> and <italic toggle=\"yes\">a</italic><sub>21</sub>, <italic toggle=\"yes\">a</italic><sub>22</sub>, …, <italic toggle=\"yes\">a</italic><sub>25</sub> were set equal to zero, and Fig. 20 shows the interpolated value of <italic toggle=\"yes\">b</italic><sub>21</sub> ( ) when <italic toggle=\"yes\">a</italic><sub>12</sub>, <italic toggle=\"yes\">a</italic><sub>13</sub>, …, <italic toggle=\"yes\">a</italic><sub>15</sub> and <italic toggle=\"yes\">a</italic><sub>21</sub>, <italic toggle=\"yes\">a</italic><sub>22</sub>, …, <italic toggle=\"yes\">a</italic><sub>25</sub> were set equal to zero."
+  },
+  {
+   "section": "article",
+   "text": "We compared our results to a compact model provided by the manufacturer and simulated in commercial harmonic-balance software to get an independent check on our methodology. <sentence_start/>Our comparison was accomplished by providing the simulator with the identical biasing conditions on the diode and a stimulus of the same magnitude used in the measurements for <italic toggle=\"yes\">a</italic><sub>11</sub> and setting all other <italic toggle=\"yes\">a</italic>’s to zero. <sentence_start/>Providing the simulated circuit with <italic toggle=\"yes\">a</italic><sub>11</sub> of the same magnitude as the measurement should give the same values of <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> and <italic toggle=\"yes\">b</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> as the interpolated values of <italic toggle=\"yes\">b</italic><sub>1</sub><italic toggle=\"yes\"><sub>k</sub></italic> ( ) and <italic toggle=\"yes\">b</italic><sub>2</sub><italic toggle=\"yes\"><sub>k</sub></italic> ( ) determined by the ANN models when <italic toggle=\"yes\">a</italic><sub>12</sub>, <italic toggle=\"yes\">a</italic><sub>13</sub>, …, <italic toggle=\"yes\">a</italic><sub>15</sub> and <italic toggle=\"yes\">a</italic><sub>21</sub>, <italic toggle=\"yes\">a</italic><sub>22</sub>, …, <italic toggle=\"yes\">a</italic><sub>25</sub> are set equal to zero. <sentence_start/>Figures 19 and 20 show that the simulated values <italic toggle=\"yes\">b</italic><sub>11</sub> and <italic toggle=\"yes\">b</italic><sub>21</sub> agree with those determined from the measurement-based ANN models."
+  },
+  {
+   "section": "article",
+   "text": "Quantitatively, the differences between the ANN and equivalent-circuit models are shown in Table 8."
+  },
+  {
+   "section": "article",
+   "text": "4.4 Summary of Sec. 4"
+  },
+  {
+   "section": "article",
+   "text": "We described a method of extracting nonlinear large-signal -parameters, using an NVNA equipped with isolators and a second source. <sentence_start/>First, we showed how multiple measurements of a nonlinear circuit could be used to train artificial neural networks. <sentence_start/>Then, we extracted the desired -parameters by interpolating the ANN models for all <italic toggle=\"yes\">a</italic>’s equal to zero other than <italic toggle=\"yes\">a</italic><sub>11</sub>. <sentence_start/>We checked our approach by comparing our results to a compact model simulated in commercial harmonic-balance software, and showed that the two methods agree well."
+  },
+  {
+   "section": "article",
+   "text": "We also performed a sensitivity analysis on the ANN networks, and discovered the following: (1) The average testing error decreases for an increasing number of training points. <sentence_start/>However, as more and more training points are added, diminishing returns on the testing errors are evident. <sentence_start/>(2) As the number of hidden neurons are increased, the average testing error decreases until around 14 hidden neurons at which point more hidden neurons have no benefit and can actually lead to increases in testing error. <sentence_start/>(3) The number of testing points does not drastically affect the testing error. <sentence_start/>In fact, no more than 25 testing points are needed for the models tested."
+  },
+  {
+   "section": "article",
+   "text": "5. <sentence_start/>Overall Summary"
+  },
+  {
+   "section": "article",
+   "text": "In this paper, we introduced nonlinear large-signal scattering parameters representing a new type of frequency-domain mapping that relates incident and reflected signals. <sentence_start/>Unlike classical <italic toggle=\"yes\">S</italic>-parameters, nonlinear large-signal -parameters take harmonic content into account and depend on the signal magnitudes. <sentence_start/>First, we presented a general form of nonlinear large-signal -parameters and showed that they reduce to classic <italic toggle=\"yes\">S</italic>-parameters in the absence of nonlinearities. <sentence_start/>We also introduced nonlinear large-signal impedance ( ) and admittance ( ) parameters, and presented equations that relate the different representations. <sentence_start/>Next, we considered two simplified cases of a one-port network and a two-port network, each with a single-tone excitation. <sentence_start/>For the one-port network, we showed that the equation relating and reduces to the same well-known equation for the linear case, assuming no power is transferred in the form of frequency down-conversion. <sentence_start/>For the two-port case, we extracted input reflection coefficients and forward transmission coefficients, which can be useful for designing circuits such as amplifiers and frequency multipliers. <sentence_start/>In addition, we derived a quasi-linear approximation of the output reflection coefficient under normal operating conditions. <sentence_start/>These three two-port parameters allow a designer to “see” application-specific engineering figures of merit that are similar to what he or she is accustomed to in the linear world."
+  },
+  {
+   "section": "article",
+   "text": "Next, we illustrated how nonlinear large-signal -parameters can be used as a tool in the design process of a single-diode 1 GHz frequency-doubler. <sentence_start/>Specifically, we used to determine the input matching network, to determine the output matching network, and (for <italic toggle=\"yes\">k</italic> = 1 to 6), and to quantify the performance of the circuit at each stage. <sentence_start/>By the final stage of the design, we had created a doubler with an overall power gain of −9.56 dB, a value not far from the maximum possible predicted value of −9 dB."
+  },
+  {
+   "section": "article",
+   "text": "For the case where a nonlinear model is not readily available, we described a method of extracting nonlinear large-signal -parameters, using an NVNA equipped with isolators and a second source. <sentence_start/>First, we showed how multiple measurements of a nonlinear circuit could be used to train artificial neural networks. <sentence_start/>Then, we extracted the desired -parameters by interpolating the ANN models for all <italic toggle=\"yes\">a</italic>’s equal to zero other than <italic toggle=\"yes\">a</italic><sub>11</sub>. <sentence_start/>We checked our approach by comparing our results to a compact model simulated in commercial harmonic-balance software, and showed that the two methods agree well. <sentence_start/>We also performed a sensitivity analysis on the ANN networks, and discovered the following: (1) The average testing error decreases for an increasing number of training points. <sentence_start/>However, as more and more training points are added, diminishing returns on the testing errors are evident. <sentence_start/>(2) As the number of hidden neurons are increased, the average testing error decreases until around 14 hidden neurons, at which point more hidden neurons have no benefit and can actually lead to increases in testing error. <sentence_start/>(3) The number of testing points does not drastically affect the testing error. <sentence_start/>In fact, no more than 25 testing points are needed for the models tested."
+  },
+  {
+   "section": "back",
+   "text": "6. <sentence_start/>Appendix A. Comparing Nonlinear Large-Signal -Parameters With Nonlinear Scattering Functions"
+  },
+  {
+   "section": "back",
+   "text": "Here, we compare the nonlinear large-signal -parameters, introduced in this paper, to another form of nonlinear mapping, known as nonlinear scattering functions, introduced by Verspecht [<citation rid=\"b6-j94jar\" ref-type=\"bibr\" count=\"1\">6</citation>-<citation rid=\"b7-j94jar\" ref-type=\"bibr\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "back",
+   "text": "For a two-port nonlinear device, excited by a single-tone signal, and assuming all harmonic signals are relatively small compared to the fundamental signals, Verspecht defines nonlinear scattering functions as where <italic toggle=\"yes\">a<sub>ij</sub></italic> and <italic toggle=\"yes\">b<sub>kp</sub></italic> represent the wave variables proportional to the incoming and outgoing waves, respectively, and <italic toggle=\"yes\">M</italic> refers to the number of harmonics being taken into account. <sentence_start/><italic toggle=\"yes\">F<sub>kp</sub></italic>, <italic toggle=\"yes\">G<sub>kpij</sub></italic>, and <italic toggle=\"yes\">H<sub>kpij</sub></italic> are functions of the fundamental components Re(<italic toggle=\"yes\">a</italic><sub>11</sub>), Re(<italic toggle=\"yes\">a</italic><sub>21</sub>), and Im(<italic toggle=\"yes\">a</italic><sub>21</sub>). <sentence_start/>The imaginary component of <italic toggle=\"yes\">a</italic><sub>11</sub> is omitted, with the assumption that the wave variables are phase referenced such that the phase of <italic toggle=\"yes\">a</italic><sub>11</sub> is set to zero. <sentence_start/><italic toggle=\"yes\">F<sub>kp</sub></italic>, <italic toggle=\"yes\">G<sub>kpij</sub></italic>, and <italic toggle=\"yes\">H<sub>kpij</sub></italic> are assumed complex constants for a given bias and fundamental drive condition. <sentence_start/>Note that these three terms do not depend upon the higher harmonic signal levels. <sentence_start/>With the <italic toggle=\"yes\">a<sub>ij</sub></italic> wave variables split into real and imaginary components, <italic toggle=\"yes\">G<sub>kpij</sub></italic> and <italic toggle=\"yes\">H<sub>kpij</sub></italic> serve to map <italic toggle=\"yes\">a<sub>ij</sub></italic> circles centered at zero to <italic toggle=\"yes\">b<sub>kp</sub></italic> ellipses with variable axes also centered at zero, as shown in Fig. 21<sentence_start/>. <sentence_start/>The <italic toggle=\"yes\">F<sub>kp</sub></italic> terms translate the ellipses about the complex plane."
+  },
+  {
+   "section": "back",
+   "text": "For illustrative purposes, let us consider <italic toggle=\"yes\">b<sub>11</sub></italic>, taking into account the first three harmonics. <sentence_start/>Doing this, Eq. <sentence_start/>(59) reduces to or"
+  },
+  {
+   "section": "back",
+   "text": "If we now consider the nonlinear large-signal -parameter representation for <italic toggle=\"yes\">b</italic><sub>11</sub>, once again assuming a two-port network and taking into account the first three harmonics, we have or Here, are functions of all of the harmonics, not just the fundamental terms. <sentence_start/>So for any change in any <italic toggle=\"yes\">a<sub>jl</sub></italic>, a new set of will need to be determined. <sentence_start/>Separating the real and imaginary components of the <italic toggle=\"yes\">a</italic>’s, we can express eq. <sentence_start/>(63) as Once again, the imaginary component of <italic toggle=\"yes\">a</italic><sub>11</sub> is omitted, with the phase reference such that the phase of <italic toggle=\"yes\">a</italic><sub>11</sub> is set to zero."
+  },
+  {
+   "section": "back",
+   "text": "We can now equate the nonlinear large-signal -parameters of Eq. <sentence_start/>(64) to the nonlinear scattering functions of Eq. <sentence_start/>(61), with the understanding that this is only generally valid for the special case when the nonlinear large-signal -parameters are constant for a given bias and fundamental drive level, like <italic toggle=\"yes\">F<sub>kp</sub></italic>, <italic toggle=\"yes\">G<sub>kpij</sub></italic>, and <italic toggle=\"yes\">H<sub>kpij</sub></italic> are defined. <sentence_start/>Normally, however, the nonlinear large-signal -parameters depend upon the higher harmonics as well as on the bias and fundamental drive level. <sentence_start/>The implication of this special case will be discussed shortly, after Eqs. <sentence_start/>(61) and (64) are equated. <sentence_start/>Equating the corresponding real and imaginary components of the <italic toggle=\"yes\">a</italic> wave variables in Eqs. <sentence_start/>(61) and (64) gives Additionally, and Equations (66)-(69) imply which means Equation (71) satisfies the conditions of the Cauchy-Riemann equations [<citation rid=\"b15-j94jar\" ref-type=\"bibr\" count=\"1\">15</citation>], which implies <italic toggle=\"yes\">b<sub>kp</sub></italic> must be an analytic function of <italic toggle=\"yes\">a<sub>ij</sub></italic>. <sentence_start/>A complex-valued function is said to be analytic on an open set <italic toggle=\"yes\">W</italic> if it has a derivative at every point of <italic toggle=\"yes\">W</italic>. <sentence_start/>This is generally true only when <italic toggle=\"yes\">b<sub>kp</sub></italic> is a linear function of <italic toggle=\"yes\">a<sub>ij</sub></italic>. <sentence_start/>Thus, equating the nonlinear large-signal -parameters with the nonlinear scattering functions is generally valid only in the small-signal, linear case."
+  },
+  {
+   "section": "back",
+   "text": "As we mentioned earlier, Eqs. (65)-(70) are only generally valid in the special case when the nonlinear large-signal -parameters are constant for a given bias and fundamental drive level, like <italic toggle=\"yes\">F<sub>kp</sub></italic>, <italic toggle=\"yes\">G<sub>kpij</sub></italic>, and <italic toggle=\"yes\">H<sub>kpij</sub></italic> are defined. <sentence_start/>Since this is not generally true, the formulations for nonlinear large-signal -parameters and nonlinear scattering functions are not equivalent."
+  },
+  {
+   "section": "back",
+   "text": "We can draw a few important conclusions, however, after attempting to equate the two formulations. <sentence_start/>First, if <italic toggle=\"yes\">G<sub>kpij</sub></italic> and <italic toggle=\"yes\">H<sub>kpij</sub></italic> are allowed to be functions of higher harmonics, then only one of them, either <italic toggle=\"yes\">G<sub>kpij</sub></italic> or <italic toggle=\"yes\">H<sub>kpij</sub></italic>, or equivalently , is required since Eq. <sentence_start/>(70) shows that they are not independent. <sentence_start/>Second, if the nonlinear large-signal -parameters are complex constants for a given bias and fundamental drive level and are not functions of the higher harmonics, the parameters have the limitation that they cannot map circles into ellipses, but rather can only map circles into circles, as shown in Figure 22. <sentence_start/>This is because is a single, complex constant rather than a pair of independent complex constants such as <italic toggle=\"yes\">G<sub>kpij</sub></italic> and <italic toggle=\"yes\">H<sub>kpij</sub></italic>. <sentence_start/>Thus, if is not dependent upon higher harmonics, it acts like a linear <italic toggle=\"yes\">S</italic>-parameter."
+  },
+  {
+   "section": "back",
+   "text": "We have shown above that the two formulations are not equivalent. <sentence_start/>Nonlinear large-signal -parameters are more general than the nonlinear scattering functions, which are useful in approximating a specific class of nonlinearity in a more compact form. <sentence_start/>Nonlinear large-signal -parameters have the advantage of being able to map circles into any arbitrary shape, rather than being limited to ellipses."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 1"
+  },
+  {
+   "section": "floating",
+   "text": "Block diagram of a single-diode resistive doubler."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "floating",
+   "text": "Nonlinear large-signal -parameters used to characterize a two-port device excited by a single-tone signal at port 1."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "floating",
+   "text": "Final design of the single-diode resistive frequency doubler. <sentence_start/>Electrical lengths shown are all at 1 GHz."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 4"
+  },
+  {
+   "section": "floating",
+   "text": "Time-domain plots of <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">b</italic><sub>2</sub> for the simulated 1 GHz frequency-doubler circuit."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 5"
+  },
+  {
+   "section": "floating",
+   "text": "Block diagram of a nonlinear vector network analyzer equipped with a second source and isolators."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 6"
+  },
+  {
+   "section": "floating",
+   "text": "An ANN model that maps real and imaginary values of <italic toggle=\"yes\">a</italic>’s to <italic toggle=\"yes\">b</italic>’s for different real and imaginary values of <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)]"
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 7"
+  },
+  {
+   "section": "floating",
+   "text": "An ANN model that interpolates <italic toggle=\"yes\">b</italic>’s from the measured results for nonzero values of <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)] to the desired values for <italic toggle=\"yes\">a<sub>mn</sub></italic> [(<italic toggle=\"yes\">m</italic>≠1)∧(<italic toggle=\"yes\">n</italic>≠1)] equal to zero. <sentence_start/>Outputs of the ANN model yield values of ."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 8"
+  },
+  {
+   "section": "floating",
+   "text": "Schottky diode in a series configuration located in the middle of a CPW transmission line. <sentence_start/>(White area is metal.<sentence_start/>)"
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 9"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">a</italic><sub>21</sub>in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 10"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">a</italic><sub>12</sub> in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 11"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">a</italic><sub>13</sub> in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 12"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">a</italic><sub>22</sub> in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 13"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">a</italic><sub>23</sub> in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig 14"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">b</italic><sub>11</sub>in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 15"
+  },
+  {
+   "section": "floating",
+   "text": "Five hundred measurements of <italic toggle=\"yes\">b</italic><sub>21</sub> in the complex plane with the excitation from source 1 held constant and the output from source 2 set to random phases with constant amplitude."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 16"
+  },
+  {
+   "section": "floating",
+   "text": "Average testing errors as functions of the number of hidden neurons for ANN models trained to map <italic toggle=\"yes\">a</italic><sub>1</sub>and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>The models were developed using 250 training points and verified using 250 testing points."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 17"
+  },
+  {
+   "section": "floating",
+   "text": "Average testing errors as functions of the number of training points for ANN models trained to map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>The models were developed using 14 hidden neurons and verified using 250 testing points."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 18"
+  },
+  {
+   "section": "floating",
+   "text": "Average testing errors as functions of the number of testing points for ANN models trained to map <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>1</sub> and <italic toggle=\"yes\">a</italic><sub>2</sub> to <italic toggle=\"yes\">b</italic><sub>2</sub>. <sentence_start/>The models were developed using 14 hidden neurons and 250 training points."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 19"
+  },
+  {
+   "section": "floating",
+   "text": "The 250 measurements of <italic toggle=\"yes\">b</italic><sub>11</sub> used for training (circles). <sentence_start/>Values of were determined from the measurement-based ANN model (square) and the harmonic balance simulation using a compact model (triangle)."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 20"
+  },
+  {
+   "section": "floating",
+   "text": "The 250 measurements of <italic toggle=\"yes\">b</italic><sub>21</sub> used for training (circles). <sentence_start/>Values of were determined from the measurement-based ANN model (square) and the harmonic balance simulation using a compact model (triangle)."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 21"
+  },
+  {
+   "section": "floating",
+   "text": "<italic toggle=\"yes\">G<sub>kpij</sub></italic> and <italic toggle=\"yes\">H<sub>kpij</sub></italic> serve to map <italic toggle=\"yes\">a<sub>ij</sub></italic> circles centered at zero to <italic toggle=\"yes\">b<sub>kp</sub></italic> ellipses with variable axes also centered at zero, neglecting <italic toggle=\"yes\">F<sub>kp</sub></italic> for illustrative purposes."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 22"
+  },
+  {
+   "section": "floating",
+   "text": "If is a complex constant for a given bias and fundamental drive level, it has the limitation that it can only map circles into circles."
+  }
+ ]
+}

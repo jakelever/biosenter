@@ -1,0 +1,359 @@
+{
+ "pmid": 28745625,
+ "pmcid": 5612278,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A Protocol for Multiple Gene Knockout in Mouse Small Intestinal Organoids Using a CRISPR-concatemer"
+  },
+  {
+   "section": "abstract",
+   "text": "CRISPR/Cas9 technology has greatly improved the feasibility and speed of loss-of-function studies that are essential in understanding gene function. <sentence_start/>In higher eukaryotes, paralogous genes can mask a potential phenotype by compensating the loss of a gene, thus limiting the information that can be obtained from genetic studies relying on single gene knockouts. <sentence_start/>We have developed a novel, rapid cloning method for guide RNA (gRNA) concatemers in order to create multi-gene knockouts following a single round of transfection in mouse small intestinal organoids. <sentence_start/>Our strategy allows for the concatemerization of up to four individual gRNAs into a single vector by performing a single Golden Gate shuffling reaction with annealed gRNA oligos and a pre-designed retroviral vector. <sentence_start/>This allows either the simultaneous knockout of up to four different genes, or increased knockout efficiency following the targeting of one gene by multiple gRNAs. <sentence_start/>In this protocol, we show in detail how to efficiently clone multiple gRNAs into the retroviral CRISPR-concatemer vector and how to achieve highly efficient electroporation in intestinal organoids. <sentence_start/>As an example, we show that simultaneous knockout of two pairs of genes encoding negative regulators of the Wnt signaling pathway (Axin1/2 and Rnf43/Znrf3) renders intestinal organoids resistant to the withdrawal of key growth factors."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The reverse genetics approach is a widely used method for investigating the function of a gene. <sentence_start/>In particular, loss-of-function studies, in which disruption of a gene causes phenotypic alterations, play a key role in building our understanding of biological processes. <sentence_start/>The CRISPR/Cas9 method represents the most recent advancement in genome engineering technology and has revolutionized the current practice of genetics in cells and organisms. <sentence_start/>Cas9 is an RNA-guided endonuclease which binds to a specific DNA sequence complementary to the gRNA and generates a double-strand break (DSB). <sentence_start/>This DSB recruits DNA repair machinery that, in the absence of a DNA template for homologous recombination, will re-ligate the cut DNA strand via error-prone non-homologous end joining, which can thus result in insertions or deletions of nucleotide(s) causing frameshift mutations<citation rid=\"B0\" ref-type=\"bibr\" pmid=\"23287722\" doi=\"10.1126/science.1232033\" pmcid=\"PMC3712628\" count=\"1\">1</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The great ease and versatility of the CRISPR/Cas9 approach has made it a highly attractive tool for genome-scale knockout screens aimed at unraveling unknown gene functions<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1038/nbt.2800\" pmid=\"24535568\" count=\"1\">2</citation><citation rid=\"B2\" ref-type=\"bibr\" pmid=\"26165496\" doi=\"10.1016/j.jgg.2015.03.011\" pmcid=\"PMC4508376\" count=\"1\">3</citation>. <sentence_start/>Nevertheless, single gene knockout approaches are of limited use if multiple paralogues with redundant functions exist. <sentence_start/>Thus, ablating a single gene might not be enough to determine the function of that gene given possible compensation by paralogues resulting in little or no phenotypic alteration<citation rid=\"B3\" ref-type=\"bibr\" pmid=\"24376223\" doi=\"10.1002/jez.b.22555\" count=\"1\">4</citation>. <sentence_start/>It is therefore important to knock out paralogues in parallel by delivering multiple gRNA vectors targeting the different paralogous genes in order to overcome the influence of genetic compensation."
+  },
+  {
+   "section": "article",
+   "text": "To extend the use of CRISPR/Cas9 to paralogous gene knockout, we have recently developed a rapid, one-step cloning method to clone up to four pre-annealed gRNAs into a single retroviral vector<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"27983963\" doi=\"10.1016/j.ydbio.2016.10.016\" pmcid=\"PMC5161140\" count=\"1\">5</citation>. <sentence_start/>The backbone, named CRISPR-concatemer, is based on an MSCV retroviral plasmid containing repetitive gRNA expression cassettes. <sentence_start/>Each cassette contains two inverted recognition sites of the Type IIS restriction enzyme <italic toggle=\"yes\">Bbs</italic>I, which can be irreversibly replaced by an annealed gRNA oligo with matching overhangs using a Golden Gate shuffling reaction in a single tube<citation rid=\"B5\" ref-type=\"bibr\" pmid=\"24157548\" doi=\"10.1038/nprot.2013.143\" pmcid=\"PMC3969860\" count=\"1\">6</citation>. <sentence_start/>This cloning method consists of repetitive cycles of digestion and ligation that allow simultaneous assembly of multiple DNA fragments by exploiting the different overhang sequences generated by <italic toggle=\"yes\">Bbs</italic>I. <sentence_start/>The uniqueness of this enzyme is, for instance, the ability to perform asymmetric cuts outside of its recognition sequence; therefore, each cassette can have a different sequence with customized overhangs flanking <italic toggle=\"yes\">Bbs</italic>I core site and in this way, each gRNA can be cloned in a specific position and orientation of the concatemer vector."
+  },
+  {
+   "section": "article",
+   "text": "As a proof of principle, we demonstrated the use of this strategy in mouse intestinal organoids by disrupting simultaneously two pairs of paralogous negative regulators of the Wnt pathway by one round of electroporation<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"27983963\" doi=\"10.1016/j.ydbio.2016.10.016\" pmcid=\"PMC5161140\" count=\"1\">5</citation>."
+  },
+  {
+   "section": "article",
+   "text": "During the past few years, many other groups have developed similar strategies based on multiple gRNA expression vectors constructed using Golden Gate shuffling<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0005553\" pmcid=\"PMC2677662\" pmid=\"19436741\" count=\"1\">7</citation> to achieve multi-gene knockout in various model systems, such as human cell lines<citation rid=\"B7\" ref-type=\"bibr\" pmid=\"24954249\" doi=\"10.1038/srep05400\" pmcid=\"PMC4066266\" count=\"1\">8</citation><citation rid=\"B8\" ref-type=\"bibr\" pmid=\"25122746\" doi=\"10.1093/nar/gku749\" pmcid=\"PMC4231726\" count=\"1\">9</citation>, zebrafish<citation rid=\"B9\" ref-type=\"bibr\" pmid=\"25855067\" doi=\"10.1534/genetics.115.176917\" pmcid=\"PMC4492370\" count=\"1\">10</citation> and <italic toggle=\"yes\">Escherichia coli</italic><citation rid=\"B10\" ref-type=\"bibr\" pmid=\"25822415\" doi=\"10.1021/acssynbio.5b00012\" count=\"1\">11</citation>. <sentence_start/>In their protocols, gRNAs are first cloned into individual intermediate vectors and then assembled together into one final product. <sentence_start/>By contrast, the main advantage of our CRISPR-concatemer strategy is the convenience of a single <italic toggle=\"yes\">Bbs</italic>I shuffling, cloning step. <sentence_start/>Like other gRNA concatemers, our method makes possible either the simultaneous knockout of up to four different genes or increased CRISPR knockout efficiency following the targeting of one or two genes with multiple gRNAs (<bold>Figure 1</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "In this protocol, we describe in detail every step in the generation of CRISPR-concatemer vectors, from gRNA design to the Golden Gate reaction and to confirmation of successful cloning. <sentence_start/>We also provide a highly efficient protocol for the transfection of CRISPR-concatemers into mouse small intestinal organoids by electroporation and subsequent growth factor withdrawal experiments."
+  },
+  {
+   "section": "article",
+   "text": "Protocol"
+  },
+  {
+   "section": "article",
+   "text": "1. gRNA Design for the CRISPR-concatemer Vector"
+  },
+  {
+   "section": "article",
+   "text": "Note: The aim of this section is to explain how to opt for the best targeting strategy and how to design gRNAs containing specific overhangs for the CRISPR-concatemer vector."
+  },
+  {
+   "section": "article",
+   "text": "Design gRNAs against the genes of interest using a CRISPR gRNA design tool of choice. <sentence_start/>See the <bold>Table of Materials</bold> for an example. <sentence_start/>NOTE: When targeting a pair of paralogous genes, although it is possible to design one gRNA per gene, it is advisable to design two gRNAs per gene to increase the chances of achieving a double knockout (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Make sure the gRNAs do not contain the <italic toggle=\"yes\">Bbs</italic>I recognition site by using a restriction mapping tool (see the <bold>Table of Materials</bold> for an example)."
+  },
+  {
+   "section": "article",
+   "text": "Add specific CRISPR-concatemer vector overhangs to each oligo, as shown in <bold>Table 1</bold>."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Table 1: Overhangs for Each Cassette of the CRISPR-concatemer Vector.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>Cloning of gRNAs into the CRISPR-concatemer Vector"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Phosphorylation and annealing of oligos</bold> NOTE: This step illustrates how to anneal top and bottom strands for each gRNA oligo and how to phosphorylate their ends in a single reaction."
+  },
+  {
+   "section": "article",
+   "text": "Prepare the reaction mixture for phosphorylating oligos and annealing top and bottom strands on ice, per the instructions below. <sentence_start/>NOTE: All oligos can be pooled into one reaction; for example, in the case of a 4 gRNA-concatemer vector, pool together 8 oligos."
+  },
+  {
+   "section": "article",
+   "text": "For 3 concatemers, use 3.0 µL gRNA top strand (1.0 µL from each gRNA; 10 µM, 1 µL/gRNA), 3.0 µL gRNA bottom strand (1.0 µL from each gRNA; 10 µM, 1 µL/gRNA), 2.0 µL T4 DNA ligase buffer (10x), 1.0 µL T4 PNK, and add H<sub>2</sub>O up to total volume of 20.0 µL."
+  },
+  {
+   "section": "article",
+   "text": "Mix well by pipetting and run this in a thermocycler using the following settings: 37 °C for 30 min, 95 °C for 5 min, ramp down to 25 °C at 0.3 °C/min, hold at 4 °C."
+  },
+  {
+   "section": "article",
+   "text": "<bold><italic toggle=\"yes\">Bbs</italic>I shuffling reaction</bold> NOTE: In this section, the pre-annealed gRNA oligos are incorporated into the appropriate position of the concatemer vector in one step by alternating cycles of digestion and ligation."
+  },
+  {
+   "section": "article",
+   "text": "Dilute the reaction mixture 1:100 in DNase/RNase-free water to generate 3 and 4 gRNA-concatemer vectors. <sentence_start/>NOTE: When cloning 2 gRNA-concatemers this step is <bold>not</bold> needed."
+  },
+  {
+   "section": "article",
+   "text": "Assemble the <italic toggle=\"yes\">Bbs</italic>I shuffling reaction on ice, per the instructions below. <sentence_start/>Include a negative control that only contains the vector."
+  },
+  {
+   "section": "article",
+   "text": "Use 100 ng CRISPR-concatemer vector, 10.0 µL oligo mixture, 1.0 µL BSA-containing restriction enzyme buffer (10x), 1.0 µL DTT (10 mM), 1.0 µL ATP (10 mM), 1.0 µL<italic toggle=\"yes\"> Bbs</italic>I, 1.0 µL T7 ligase, and H<sub>2</sub>O up to total volume of 20.0 µL."
+  },
+  {
+   "section": "article",
+   "text": "Mix well by pipetting and run this in a thermocycler using the following settings: Run <bold>50 cycles</bold> for cloning 3 and 4 gRNA-concatemers and <bold>25 cycles</bold> for 2 gRNA-concatemers, both at 37 °C for 5 min, 21 °C for 5 min, <bold>hold at</bold> 37 °C for 15 min , then 4 °C forever."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Exonuclease treatment</bold> NOTE: This step is highly recommended as it increases the efficiency of the cloning by removing any traces of linearized DNA."
+  },
+  {
+   "section": "article",
+   "text": "Treat the <italic toggle=\"yes\">Bbs</italic>I shuffling reaction with a DNA exonuclease (see <bold>Table of Materials</bold>) as follows."
+  },
+  {
+   "section": "article",
+   "text": "Take 11.0 µL ligation mix from the previous step (2.2.3), add 1.5 µL exonuclease buffer (10x), 1.5 µL ATP (10 mM), 1.0 µL DNA exonuclease, and bring up total volume to 15.0 µL with water. <sentence_start/>Incubate at 37 °C for 30 min followed by 70 °C for 30 min. <sentence_start/>NOTE: This step removes any residual linearized DNA in the mixture and so increases the cloning efficiency."
+  },
+  {
+   "section": "article",
+   "text": "Use 2 µL of the reaction mixture for transformation into chemically competent <italic toggle=\"yes\">E. coli </italic>bacteria by heat shock<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.3791/253\" pmcid=\"PMC2557105\" pmid=\"18997900\" count=\"1\">12</citation>. <sentence_start/>NOTE: Alternatively, the reaction can be stored for up to one week at -20 °C."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Restriction digestion</bold> NOTE: The aim of this step is to assess by restriction digestion the success of the cloning procedure."
+  },
+  {
+   "section": "article",
+   "text": "To confirm the presence of gRNA inserts in the CRISPR-concatemer vector, pick 4 - 8 bacterial colonies with an inoculating loop, grow each clone in 4 mL of LB medium overnight at 37 °C in an orbital shaker. <sentence_start/>Extract DNA using a plasmid miniprep kit according to the manufacturer's instructions (see the <bold>Table of Materials</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Digest ~200 ng of DNA with 10 U<italic toggle=\"yes\"> EcoR</italic>I + 5 U <italic toggle=\"yes\">Bgl</italic>II in a 10 μL reaction by incubating it at 37 °C for 3 h in a bacteria incubator. <sentence_start/>Include a separate reaction mixture with the corresponding original vector as a positive control for size comparison. <sentence_start/>NOTE: This will confirm whether all concatemers are present, since these two restriction enzymes will excise whole concatemers. <sentence_start/>These are the expected sizes for each concatemer: 2 gRNA-concatemer (800 bp), 3 gRNA-concatemer (1.2 kbp), and 4 gRNA-concatemer (1.6 kbp)."
+  },
+  {
+   "section": "article",
+   "text": "Run digestion reactions on a 1% agarose gel at 90 V for approximately 20 min."
+  },
+  {
+   "section": "article",
+   "text": "Visualize the gel using a UV transilluminator. <sentence_start/>Identify the clones with correct insert size by ensuring their band pattern matches the one of the original vector and that each fragment has the expected size by using a DNA ladder."
+  },
+  {
+   "section": "article",
+   "text": "Digest the selected clones with 5 U <italic toggle=\"yes\">Bbs</italic>I at 37 °C for 3 h in a bacteria incubator. <sentence_start/>Include a separate reaction mix with the corresponding original vector as a control. <sentence_start/>NOTE: This additional digestion step is to confirm that gRNAs have been cloned into the right position and consequently all <italic toggle=\"yes\">Bbs</italic>I recognition sites have been lost."
+  },
+  {
+   "section": "article",
+   "text": "Run digestion reactions on a 1% agarose gel at 90 V for approximately 20 min. <sentence_start/>Consider as correct only the vectors that are not cut by <italic toggle=\"yes\">Bbs</italic>I as they only contain gRNAs."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Vector sequencing</bold> NOTE: The aim of this step is to confirm the presence of gRNA sequences in those vectors identified as correct by restriction digestion analysis."
+  },
+  {
+   "section": "article",
+   "text": "Confirm positive concatemer vectors by Sanger sequencing<citation rid=\"B12\" ref-type=\"bibr\" pmid=\"3289973\" doi=\"10.1016/0014-5793(88)80477-0\" count=\"1\">13</citation> using the following primers: Forward: TCAAGCCCTTTGTACACCCTAAG (for checking the first gRNA cassette) Linker1_Forward: GACTACAAGGACGACGATGACAA (for checking the second gRNA cassette) Linker2_Reverse: GGCGTAGTCGGGCACGTCGTAGGGGT (for checking the second gRNA cassette) Linker2_Forward: ACCCCTACGACGTGCCCGACTACGCC (for checking the third gRNA cassette) Linker3_Reverse: TCCTCCTCTGAGATCAGCTTCTGCAT (for checking the third gRNA cassette) Reverse: AGGTGGCGCGAAGGGGCCACCAAAG (for checking the last gRNA cassette)"
+  },
+  {
+   "section": "article",
+   "text": "Check the presence of all gRNA by searching their sequences in the sequencing reads."
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>Transfection of Intestinal Organoids by Electroporation"
+  },
+  {
+   "section": "article",
+   "text": "NOTE: Please note that this procedure is based on the protocol published by Fujii <italic toggle=\"yes\">et al</italic>. in 2015, with adaptation for mouse small intestinal organoid cultures<citation rid=\"B13\" ref-type=\"bibr\" pmid=\"26334867\" doi=\"10.1038/nprot.2015.088\" count=\"1\">14</citation>."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Pre-electroporation</bold> NOTE: This section describes how to prepare the mouse intestinal organoids prior to electroporation by removing all antibiotics and conditioned media from their culture medium. <sentence_start/>This will prevent possible toxic effects during electroporation."
+  },
+  {
+   "section": "article",
+   "text": "On day 0 of the transfection procedure, split organoids in a 1:2 ratio. <sentence_start/>NOTE: Intestinal organoid cultures can be obtained by performing crypt isolation according to previously established protocols<citation rid=\"B14\" ref-type=\"bibr\" pmid=\"25146755\" doi=\"10.3791/51765\" pmcid=\"PMC4758749\" count=\"1\">15</citation>. <sentence_start/>Please refer to <bold>Table 2</bold> for all media compositions."
+  },
+  {
+   "section": "article",
+   "text": "When splitting organoids for electroporation, seed a minimum of 6 wells of a 48-well plate per transfection."
+  },
+  {
+   "section": "article",
+   "text": "Seed the organoids in 20 μL-basement matrix drops and grow them in WENR + Nic medium (Wnt + EGF + Noggin + R-spondin + Nicotinamide) at 37 °C, 5% CO<sub>2</sub> in a humidified incubator (as previously described<citation rid=\"B14\" ref-type=\"bibr\" pmid=\"25146755\" doi=\"10.3791/51765\" pmcid=\"PMC4758749\" count=\"1\">15</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "On day 2, change medium by replacing WENR+Nic with 250 µL of EN (EGF + Noggin) + CHIR99021 (Glycogen Synthase Kinase-3 inhibitor) + Y-27632 (ROCK inhibitor), without antibiotics (see <bold>Table 2</bold>). <sentence_start/>NOTE: In all the steps, the quantity of medium added to each well of a 48-well plate is 250 µL."
+  },
+  {
+   "section": "article",
+   "text": "On day 3, change the organoid medium to EN + CHIR99021 + Y-27632 + 1.25% v/v Dimethyl sulfoxide (DMSO), without antibiotics."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Preparation of the cells</bold> NOTE: Here we describe how to fragment organoids into small cell clusters by mechanical and chemical dissociation. <sentence_start/>These steps are critical to the success of the procedure."
+  },
+  {
+   "section": "article",
+   "text": "On day 4, disrupt the basement matrix domes using a 1 mL pipette tip and transfer organoids to a 1.5 mL tube. <sentence_start/>Pool contents of four wells of a 48-well plate into a tube."
+  },
+  {
+   "section": "article",
+   "text": "Mechanically break organoids into small fragments by pipetting up and down with a P200 pipette approximately 200 times. <sentence_start/>Centrifuge at room temperature, 5 min at 600 x g."
+  },
+  {
+   "section": "article",
+   "text": "Remove the medium and resuspend the pellet in 1 mL of a cell culture grade recombinant protease (see table of materials). <sentence_start/>Incubate at 37 °C for a maximum of 5 min and then check a 50-µL drop of sample under an inverted light microscope with a 4x objective. <sentence_start/>NOTE: Clusters of 10 - 15 cells are desirable, as this increases cell survival after electroporation."
+  },
+  {
+   "section": "article",
+   "text": "Transfer the cell suspension to a low-binding 15 mL tube and halt the dissociation by adding 9 mL of basal medium without antibiotics (see <bold>Table 2</bold>). <sentence_start/>Centrifuge at room temperature, 5 min at 600 x g, then discard the supernatant and resuspend the pellet in 1 mL of reduced serum medium (see <bold>Table of Materials</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Count the number of cells with a Bürker's chamber and use a minimum of 1 x 10<sup>5</sup> cells per electroporation reaction. <sentence_start/>Add 9 mL reduced serum medium to the 15 mL tube and centrifuge at room temperature, 3 min at 400 x g."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Electroporation</bold> NOTE: The following sections provide instructions on how to perform electroporation and to make organoids recover afterwards."
+  },
+  {
+   "section": "article",
+   "text": "Remove all of the supernatant and resuspend the pellet in an electroporation solution (see <bold>Table of Materials</bold>). <sentence_start/>Add a total amount of 10 µg DNA to the cell suspension and add electroporation solution to a final volume of 100 µL and keep the cell-DNA mixture on ice. <sentence_start/>Use CRISPR-concatamer vectors in combination with a Cas9 expression plasmid (<italic toggle=\"yes\">e.g.</italic> Addgene #41815) in a 1:1 ratio. <sentence_start/>NOTE: The total volume of the DNA added should be less than or equal to 10% of the total reaction volume."
+  },
+  {
+   "section": "article",
+   "text": "Include a separate transfection mix containing a GFP plasmid to evaluate transfection efficiency (<italic toggle=\"yes\">e.g.</italic> pCMV-GFP, Addgene #11153, or any generic GFP-expressing plasmid)."
+  },
+  {
+   "section": "article",
+   "text": "Add the cell-DNA mixture to the electroporation cuvette and place it in the electroporator chamber. <sentence_start/>Measure the impedance by pushing the appropriate button on the electroporator and ensure that it is 0.030-0.055 Ω. <sentence_start/>Perform electroporation according to the settings shown in <bold>Table 3</bold>. <sentence_start/>NOTE: If the impedance value falls outside of the allowed range, adjust the solution volume in the cuvette."
+  },
+  {
+   "section": "article",
+   "text": "Add 400 µL of electroporation buffer + Y-27632 to the cuvette and then transfer all to a 1.5 mL tube. <sentence_start/>Incubate at room temperature for 30 min to allow cells to recover and subsequently spin them at room temperature for 3 min at 400 x g."
+  },
+  {
+   "section": "article",
+   "text": "Remove the supernatant and resuspend the pellet in 20 μL/well of basement matrix. <sentence_start/>Seed approximately 1 x 10<sup>4</sup> to 1 x 10<sup>5</sup> cells per well in a 48-well plate and add EN + CHIR99021 + Y-27632 + 1.25% v/v DMSO medium. <sentence_start/>Incubate at 37 °C."
+  },
+  {
+   "section": "article",
+   "text": "On day 5, change the medium to EN + CHIR99021 + Y-27632, and check transfection efficiency by observing GFP expression (Figure 2). <sentence_start/>Keep organoids at 37 °C and refresh EN + CHIR99021 + Y-27632 medium after 2 days."
+  },
+  {
+   "section": "article",
+   "text": "On day 9, change the medium to WENR + Nic + Y-27632 and incubate at 37 °C. <sentence_start/>NOTE: Y-27632 can be removed after 7-10 days (on day 16-19)."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Table 3: Electroporation Settings.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "4. <sentence_start/>Growth Factor Withdrawal"
+  },
+  {
+   "section": "article",
+   "text": "Note: Here it is exemplified how to conduct a growth factor withdrawal experiment when knocking out negative regulators of the Wnt pathway in intestinal organoids."
+  },
+  {
+   "section": "article",
+   "text": "10-14 days after electroporation, split the organoids in a 1:3 ratio in a 48-well plate following the above-mentioned steps (3.2.1 - 3.2.2)."
+  },
+  {
+   "section": "article",
+   "text": "Resuspend the organoid pellet in 20 µL of basement membrane matrix and let it solidify at 37 °C for 10 min. <sentence_start/>Then, overlay 250 µL of growth factor-deprived medium (<italic toggle=\"yes\">e.g.</italic> EN) to test whether knockout of the target genes has been achieved<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"27983963\" doi=\"10.1016/j.ydbio.2016.10.016\" pmcid=\"PMC5161140\" count=\"1\">5</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Split the organoids under growth factor-deprived conditions for a minimum of 2 - 3 passages to see a difference in survival between wild type wildtype (WT) control organoids and mutant organoids<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"27983963\" doi=\"10.1016/j.ydbio.2016.10.016\" pmcid=\"PMC5161140\" count=\"1\">5</citation><citation rid=\"B14\" ref-type=\"bibr\" pmid=\"25146755\" doi=\"10.3791/51765\" pmcid=\"PMC4758749\" count=\"1\">15</citation>. <sentence_start/>NOTE: Wildtype organoids should not be able to survive in growth factor-deprived medium over two passages, while mutant lines should be able to grow."
+  },
+  {
+   "section": "article",
+   "text": "Representative Results"
+  },
+  {
+   "section": "article",
+   "text": "In order to confirm the presence of the correct number of gRNA inserts in the concatemer vector, restriction digestion is performed with enzymes (<italic toggle=\"yes\">EcoR</italic>I + <italic toggle=\"yes\">Bgl</italic>II) flanking all gRNA expressing cassettes (each cassette size is ~400 bp, Figure 1). <sentence_start/>For example, when generating a 4 gRNA- concatemer vector, the expected size of the lower band in the agarose gel is approximately 1.6 Kbp; any band lower than this indicates that not all of the 4 gRNA cassettes are inserted into the vector (Figure 2A). <sentence_start/>In addition, it is always recommended to check that all <italic toggle=\"yes\">Bbs</italic>I recognition sites are lost and the enzyme does not cut the vector (Figure 2B)."
+  },
+  {
+   "section": "article",
+   "text": "Once the constructs have been confirmed, they can be delivered to mouse intestinal organoids by electroporation to achieve optimal levels of transfection efficiency (up to 70%), as shown by the GFP control (Figure 3)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, to functionally test the efficiency of this strategy, intestinal organoids transfected with Cas9 and concatemer vectors against Axin1/2 and Rnf43/Znrf3 were cultured in EN (R-spondin withdrawal) and EN + IWP2 (R-spondin and Wnt withdrawal, IWP2: Porcupine inhibitor, 2.5 μM) media for a minimum of 3 passages (Figure 4). <sentence_start/>While untransfected WT organoids died under both conditions, Axin1/2 knockout organoids survived in both due to downstream activation of the Wnt pathway; in addition, Rnf43/Znrf3 mutant organoids survive in the absence of R-spondin but cannot survive in the presence of IWP2, which causes depletion of the Wnt that activates the pathway. <sentence_start/>Taken together, these observations demonstrate that knockout of these pairs of paralogues is possible by generating the expected organoid phenotype. <sentence_start/>Details of these results have been published in <italic toggle=\"yes\">Developmental Biology</italic><citation rid=\"B4\" ref-type=\"bibr\" pmid=\"27983963\" doi=\"10.1016/j.ydbio.2016.10.016\" pmcid=\"PMC5161140\" count=\"1\">5</citation>."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Figure 1: Schematic Representation of the CRISPR-concatemer with 4 Cassettes. </bold>Scheme of the 4 gRNA-concatemer vector with each 400 bp cassette containing a U6 promoter, two inverted repeated <italic toggle=\"yes\">Bbs</italic>I sites (also indicated as BB) and gRNA scaffold in this order. <sentence_start/>During the shuffling reaction, <italic toggle=\"yes\">Bbs</italic>I sites are replaced by gRNA fragments with matching overhangs and consequently lost. <sentence_start/>Binding sites of the sequencing primers for checking the correct insertion of gRNA oligos are shown by the blue arrows. <sentence_start/>Fwd = forward primer, Rev = reverse primer, Link 1/2/3 = linker regions 1/2/3."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Figure 2: Representative Digestion Patterns of Concatemer Vectors. </bold>(<bold>A</bold>) Double digestion of 3 and 4 gRNA-concatemer vectors with <italic toggle=\"yes\">EcoR</italic>I and <italic toggle=\"yes\">Bgl</italic>II. <sentence_start/>The correct digestion pattern is marked by a green tick, whereas vectors with only 1 or 2 gRNA insertions are marked by a red cross. <sentence_start/>Lane 1 shows digestion of a 4 gRNA-concatemer parental vector used as positive control (marked by \"+\"); similarly, lane 5 shows digestion of a 3 gRNA-concatemer parental vector, marked by \"+\". <sentence_start/>(<bold>B</bold>) Digestion with <italic toggle=\"yes\">Bbs</italic>I, showing the correct size of undigested concatemer vectors (indicated by the green ticks). <sentence_start/>Digestion of a gRNA-containing concatemer vector that has lost <italic toggle=\"yes\">Bbs</italic>I sites is used as a positive control and is marked by \"+\"."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Figure 3: Representative Image of Successfully Electroporated Intestinal Organoids. </bold>Transfection of a GFP plasmid is instrumental to evaluate transfection efficiency. <sentence_start/>Approximately 24 h after electroporation, organoids containing a small number of cells are already visible and, if the electroporation procedure was successful, up to 70% of them displays green fluorescence. <sentence_start/>BF = bright field, GFP = green fluorescent protein. <sentence_start/>Scale bar = 2,000 µm."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Figure 4: Representative Images of Mutant Intestinal Organoids. </bold>Knockout of the negative regulators of the Wnt pathway Axin1 and Rnf43, together with their paralogues, renders the intestinal organoids resistant to growth factor deprivation. <sentence_start/>In particular, Axin1/2 knockout organoids (Axin1/2 KO) can grow in the absence of both R-spondin (EN: EGF + Noggin) and Wnt (EN + IWP2: EN + Porcupine inhibitor), whereas Rnf43/Znrf3 mutant organoids (R&amp;Z KO) can only survive in the absence of R-spondin (EN). <sentence_start/>In contrast, WT organoids can only survive in the control culture condition, WENR + Nic (Wnt + EGF + Noggin + R-spondin + Nicotinamide). <sentence_start/>Scale bars = 1,000 µm."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Table 2: Organoid Media Composition.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this protocol, we detail all the steps necessary to generate CRISPR-concatemers and to apply CRISPR-concatemers in mouse intestinal organoids in order to simultaneously knock out multiple genes. <sentence_start/>As previously noted, this strategy has several advantages, such as its speed, high efficiency and cost-effectiveness."
+  },
+  {
+   "section": "article",
+   "text": "In order to successfully perform the whole procedure, there are a few critical aspects to consider. <sentence_start/>First, it is essential that all gRNA oligos are properly annealed and phosphorylated, as they represent the starting material for the <italic toggle=\"yes\">Bbs</italic>I cloning reaction that in itself is very efficient. <sentence_start/>Secondly, when electroporating organoids, the more cells used per condition, the higher the maximum possible transfection efficiency. <sentence_start/>In addition, it is also important that after cell dissociation, small cell clusters predominate over single cells."
+  },
+  {
+   "section": "article",
+   "text": "Nevertheless, it is possible to encounter technical problems when attempting either the cloning or the transfection for the first time; in the case of problems during gRNA cloning, it is recommended to double check the gRNA oligo sequence and, if correct, select additional bacterial colonies for restriction digestion screening. <sentence_start/>If transfection efficiency and cell viability are low post-electroporation, then it is advisable to repeat the protocol using more cells per condition and reducing the time of cell dissociation to 3 min."
+  },
+  {
+   "section": "article",
+   "text": "Although the generation of CRISPR-concatemers is relatively cheap and easy, performing larger scale genetic screens in organoids is not, as the scale is limited by the costs associated with organoid culture and by its labor-intensive nature. <sentence_start/>It is worth mentioning in this case that the CRISPR-concatemer method is also compatible with cell lines, such as HEK293 and mouse embryonic stem cells."
+  },
+  {
+   "section": "article",
+   "text": "Regardless of the cellular system, another potential drawback of this strategy can be encountered when aiming at the simultaneous knockout of three or four different genes. <sentence_start/>For instance, each gRNA will have a different targeting efficiency and the changes of hitting all the genes at the same time can be relatively low; for this reason, it is advisable to employ the concatemer system to direct more than one gRNA against the same gene."
+  },
+  {
+   "section": "article",
+   "text": "Alternative strategies similarly based on Golden Gate shuffling have been proposed over the years to generate multiplex gRNA vectors<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0005553\" pmcid=\"PMC2677662\" pmid=\"19436741\" count=\"1\">7</citation><citation rid=\"B7\" ref-type=\"bibr\" pmid=\"24954249\" doi=\"10.1038/srep05400\" pmcid=\"PMC4066266\" count=\"1\">8</citation>. <sentence_start/>However, in our method it is possible to directly assemble multiple gRNAs into a single retroviral vector in a single round of cloning, which makes it suitable for generating gRNA libraries to target paralogues."
+  },
+  {
+   "section": "article",
+   "text": "Our CRISPR-concatemer is built in the MSCV retroviral vector backbone. <sentence_start/>Thus, gRNA concatemer-containing retrovirus can be used to generate stable cell lines that overexpress gRNAs. <sentence_start/>When combined with a Cas9-inducible system, one can perform inducible paralogue knockouts using our system."
+  },
+  {
+   "section": "article",
+   "text": "In summary, here we describe how to clone up to four different gRNAs into the same vector in one step and how to apply this strategy to organoid culture with a high transfection efficiency. <sentence_start/>Furthermore, we provide useful suggestions to maximize the chances of success throughout the entire procedure."
+  },
+  {
+   "section": "article",
+   "text": "Disclosures"
+  },
+  {
+   "section": "article",
+   "text": "The authors have nothing to disclose. <sentence_start/>The authors have no conflict of interest declared."
+  }
+ ]
+}

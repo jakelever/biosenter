@@ -1,0 +1,359 @@
+{
+ "pmid": 27462867,
+ "pmcid": 5302868,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Genetic polymorphisms of <italic toggle=\"yes\">mTOR</italic> and cancer risk: a systematic review and updated meta-analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "mTOR regulates several cellular processes that are critical for tumorigenesis. <sentence_start/>However, previous studies on the association of <italic toggle=\"yes\">mTOR</italic> polymorphisms with predisposition to different cancer types are somewhat contradictory. <sentence_start/>Therefore, we performed a systematic review and updated meta-analysis of the available evidence regarding the relationship between <italic toggle=\"yes\">mTOR</italic> single nucleotide polymorphisms (SNPs) and cancer risk. <sentence_start/>Up to November 2015, 23 original publications were identified covering 20 <italic toggle=\"yes\">mTOR</italic> SNPs, of which seven SNPs (rs2536, rs2295080, rs1883965, rs1034528, rs17036508, rs3806317 and rs1064261) were included in the final meta-analysis. <sentence_start/>We estimated the summary odds ratios (ORs) and corresponding 95% confidence intervals (CIs) for <italic toggle=\"yes\">mTOR</italic> polymorphisms and cancer risk, and used the model-free approach to investigate the biological effect of each polymorphism. <sentence_start/>Our meta-analysis found that rs1883965, rs1034528, and rs17036508 were correlated with increased cancer risk in the complete over-dominant model (rs1883965 GA versus GG/AA: fixed-effects OR=1.15, 95% CI 1.02-1.29; rs1034528 GC versus GG/CC: fixed-effects OR=1.30, 95% CI 1.13-1.48; rs17036508 TC versus CC/TT: fixed-effects OR=1.23, 95% CI 1.06-1.43). <sentence_start/>Stratifying analyses by cancer type, we found that the rs2295080 G allele was associated with a significantly higher risk of acute leukemia in the recessive model (GG versus GT/TT: fixed-effects OR=2.08, 95% CI 1.34-3.22) and a lower risk of genitourinary cancers in the dominant model (TG/GG versus TT: fixed-effects OR=0.77, 95% CI 0.68-0.86). <sentence_start/>Interestingly, further expression analysis showed that homozygous variant genotype carriers of rs1883965, rs1034528 and rs17036508 had lower <italic toggle=\"yes\">mTOR</italic> transcript levels, based on HapMap data."
+  },
+  {
+   "section": "article",
+   "text": "INTRODUCTION"
+  },
+  {
+   "section": "article",
+   "text": "The mammalian target of rapamycin (mTOR, also known as FRAP1), a key downstream effector of the phosphatidylinositol-3-kinase (PI3K)/AKT signaling pathway, regulates several cellular processes that are critical for oncogenesis, such as cell proliferation, apoptosis, migration, metabolism, and angiogenesis [<citation rid=\"R1\" ref-type=\"bibr\" pmid=\"12134068\" doi=\"10.1091/mbc.01-12-0584\" pmcid=\"PMC117312\" count=\"1\">1</citation>-<citation rid=\"R4\" ref-type=\"bibr\" pmid=\"22500797\" doi=\"10.1016/j.cell.2012.03.017\" pmcid=\"PMC3331679\" count=\"1\">4</citation>]. <sentence_start/>Deregulation of the PI3K pathway is one of the most frequent alterations occurring in human cancer [<citation rid=\"R5\" ref-type=\"bibr\" pmid=\"18794884\" doi=\"10.1038/onc.2008.245\" pmcid=\"PMC3398461\" count=\"1\">5</citation>]. <sentence_start/>Unsurprisingly, aberrant expression of <italic toggle=\"yes\">mTOR</italic>, including both over-expression and over-activation, has been observed in lung adenocarcinoma, hepatocellular cancer, large intestine adenocarcinoma, renal cell carcinoma, and extrahepatic cholangiocarcinoma [<citation rid=\"R6\" ref-type=\"bibr\" doi=\"10.1016/j.lungcan.2009.02.001\" pmid=\"19261348\" count=\"1\">6</citation>-<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>]. <sentence_start/>These changes may be caused by genetic alterations [<citation rid=\"R11\" ref-type=\"bibr\" pmid=\"20190810\" doi=\"10.1038/onc.2010.28\" pmcid=\"PMC2953941\" count=\"1\">11</citation>], and single nucleotide polymorphisms (SNPs) widespread in the human genome [<citation rid=\"R12\" ref-type=\"bibr\" pmid=\"10395891\" doi=\"10.1016/s0378-1119(99)00219-x\" count=\"1\">12</citation>], have been extensively studied in <italic toggle=\"yes\">mTOR</italic> to identify susceptibility loci for cancer."
+  },
+  {
+   "section": "article",
+   "text": "Human <italic toggle=\"yes\">mTOR</italic>, located on chromosome 1p36.2, is approximately 156 kb in length and is composed of 59 exons. <sentence_start/>According to the International HapMap Project Database ( ), 181 SNPs in <italic toggle=\"yes\">mTOR</italic> have been reported in different populations, including those from Utah (US residents with ancestry from Europe; CEU), China (Han Chinese in Beijing; CHB), Japan (Japanese in Tokyo; JPT), and Nigeria (Yoruba in Ibadan; YRI). <sentence_start/>These 181 SNPs are distributed throughout <italic toggle=\"yes\">mTOR</italic>, as well as 5kb upstream and downstream of the gene. <sentence_start/>Of these, 129 are considered common based on a minor allele frequency ≥ 5%, including seven SNPs in the 5′ upstream region, five SNPs in exonic regions, 112 in intronic regions, and five in the 3′ untranslated region (UTR) and downstream region."
+  },
+  {
+   "section": "article",
+   "text": "Since Slattery et al. [<citation rid=\"R13\" ref-type=\"bibr\" pmid=\"20622004\" doi=\"10.1093/carcin/bgq142\" pmcid=\"PMC2930805\" count=\"1\">13</citation>] first reported a positive association between <italic toggle=\"yes\">mTOR</italic> rs1057079 and colon cancer risk in 2010, clinical evidence has accumulated regarding the relationship between <italic toggle=\"yes\">mTOR</italic> SNPs and the risk of various cancers, such as gastric cancer [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"23423739\" doi=\"10.1002/mc.22013\" count=\"1\">14</citation>-<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"26287940\" doi=\"10.1097/FPC.0000000000000163\" count=\"1\">18</citation>], esophageal carcinoma [<citation rid=\"R19\" ref-type=\"bibr\" pmid=\"23524405\" doi=\"10.1097/JTO.0b013e31828916c6\" count=\"1\">19</citation>, <citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>], endometrial cancer [<citation rid=\"R21\" ref-type=\"bibr\" pmid=\"22146979\" doi=\"10.1007/s00432-011-1103-0\" pmcid=\"PMC3526101\" count=\"1\">21</citation>], renal cell cancer [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>, <citation rid=\"R22\" ref-type=\"bibr\" pmid=\"23378641\" doi=\"10.1093/jnci/djt005\" pmcid=\"PMC3601952\" count=\"1\">22</citation>], acute leukemia [<citation rid=\"R23\" ref-type=\"bibr\" pmid=\"21973240\" doi=\"10.3109/10428194.2011.628062\" count=\"1\">23</citation>, <citation rid=\"R24\" ref-type=\"bibr\" count=\"1\">24</citation>], and colorectal cancer [<citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>]. <sentence_start/>Previously, Shao et al. [<citation rid=\"R26\" ref-type=\"bibr\" pmid=\"24816861\" doi=\"10.1371/journal.pone.0097085\" pmcid=\"PMC4016248\" count=\"1\">26</citation>] performed a meta-analysis pooling the data from six case-control studies and indicated an association between rs2295080 in the promoter region of <italic toggle=\"yes\">mTOR</italic> and cancer risk. <sentence_start/>Since then, eight case-control studies (six original articles and two abstracts) [<citation rid=\"R16\" ref-type=\"bibr\" count=\"1\">16</citation>-<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"26287940\" doi=\"10.1097/FPC.0000000000000163\" count=\"1\">18</citation>, <citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>, <citation rid=\"R24\" ref-type=\"bibr\" count=\"1\">24</citation>, <citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>, <citation rid=\"R27\" ref-type=\"bibr\" count=\"1\">27</citation>, <citation rid=\"R28\" ref-type=\"bibr\" count=\"1\">28</citation>] have been published that reveal more potentially functional <italic toggle=\"yes\">mTOR</italic> SNPs and challenge conclusions from previous meta-analyses. <sentence_start/>The evidence is controversial for those <italic toggle=\"yes\">mTOR</italic> SNPs investigated, partially because of insufficient statistical power. <sentence_start/>Consequently, we performed this updated meta-analysis to reassess the effect of <italic toggle=\"yes\">mTOR</italic> polymorphisms within oncogenesis and to provide a more precise estimation of the associations."
+  },
+  {
+   "section": "article",
+   "text": "RESULTS"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of eligible studies"
+  },
+  {
+   "section": "article",
+   "text": "The selection process for eligible studies is shown in the flow diagram (Figure 1). <sentence_start/>A total of 23 case-control studies matched the inclusion criteria [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>, <citation rid=\"R13\" ref-type=\"bibr\" pmid=\"20622004\" doi=\"10.1093/carcin/bgq142\" pmcid=\"PMC2930805\" count=\"1\">13</citation>-<citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>, <citation rid=\"R27\" ref-type=\"bibr\" count=\"1\">27</citation>-<citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>, <citation rid=\"R49\" ref-type=\"bibr\" count=\"1\">49</citation>, <citation rid=\"R53\" ref-type=\"bibr\" pmid=\"21606320\" doi=\"10.1093/carcin/bgr095\" pmcid=\"PMC3149206\" count=\"1\">53</citation>, <citation rid=\"R54\" ref-type=\"bibr\" doi=\"10.1093/carcin/bgs163\" pmcid=\"PMC3499059\" pmid=\"22562547\" count=\"1\">54</citation>, <citation rid=\"R73\" ref-type=\"bibr\" pmid=\"20354165\" doi=\"10.1158/1940-6207.CAPR-09-0263\" pmcid=\"PMC2867666\" count=\"1\">73</citation>, <citation rid=\"R74\" ref-type=\"bibr\" pmid=\"21373201\" doi=\"10.1371/journal.pone.0016914\" pmcid=\"PMC3044148\" count=\"1\">74</citation>], including one that discussed the relationship between <italic toggle=\"yes\">mTOR</italic> polymorphisms and meningioma [<citation rid=\"R28\" ref-type=\"bibr\" count=\"1\">28</citation>], which is generally considered to be benign. <sentence_start/>The main characteristics and results of the eligible studies are presented in Supplementary Material. <sentence_start/>Seven SNPs (rs2536, rs2295080, rs1883965, rs1034528, rs17036508, rs3806317, and rs1064261) included in the final meta-analysis were analyzed in at least two series and were described in 14 studies (one article examined the association in independent populations of childhood acute lymphoblastic leukemia and acute myeloid leukemia, so this was treated as two separate studies). <sentence_start/>Of the 14 studies, four focused on gastric cancer [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"23423739\" doi=\"10.1002/mc.22013\" count=\"1\">14</citation>, <citation rid=\"R15\" ref-type=\"bibr\" pmid=\"23555892\" doi=\"10.1371/journal.pone.0060080\" pmcid=\"PMC3612103\" count=\"1\">15</citation>, <citation rid=\"R17\" ref-type=\"bibr\" pmid=\"26317520\" doi=\"10.1371/journal.pone.0136447\" pmcid=\"PMC4552869\" count=\"1\">17</citation>, <citation rid=\"R18\" ref-type=\"bibr\" pmid=\"26287940\" doi=\"10.1097/FPC.0000000000000163\" count=\"1\">18</citation>], three on childhood acute leukemia [<citation rid=\"R23\" ref-type=\"bibr\" pmid=\"21973240\" doi=\"10.3109/10428194.2011.628062\" count=\"1\">23</citation>, <citation rid=\"R24\" ref-type=\"bibr\" count=\"1\">24</citation>], two on prostate cancer [<citation rid=\"R29\" ref-type=\"bibr\" pmid=\"22815832\" doi=\"10.1371/journal.pone.0040817\" pmcid=\"PMC3399895\" count=\"1\">29</citation>, <citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>], two on esophageal carcinoma [<citation rid=\"R19\" ref-type=\"bibr\" pmid=\"23524405\" doi=\"10.1097/JTO.0b013e31828916c6\" count=\"1\">19</citation>, <citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>], and one each on hepatocellular carcinoma [<citation rid=\"R31\" ref-type=\"bibr\" count=\"1\">31</citation>], renal cell cancer [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>] and colorectal cancer [<citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>]. <sentence_start/>All studies were conducted in Asian populations, and genotype distributions among controls were consistent with Hardy-Weinberg equilibrium (HWE). <sentence_start/>Newcastle-Ottawa Scale (NOS) scores of these studies were higher than 6 (moderate-high quality). <sentence_start/>Detailed information on the studies included in the meta-analysis is provided in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "Meta-analysis of <italic toggle=\"yes\">mTOR</italic> rs2536"
+  },
+  {
+   "section": "article",
+   "text": "Seven studies, consisting of 6093 cases and 6442 controls, investigated the association between SNP rs2536 and cancer risk. <sentence_start/>We carried out a meta-analysis of rs2536 overall and in different cancer types under various genetic models. <sentence_start/>The seven studies were homogenous for OR1 and OR3, but heterogeneity was significant for OR2 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 62.4%, p<sub>het</sub> = 0.014). <sentence_start/>After excluding Li's study [<citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>], which seemed to be the main source of heterogeneity according to sensitivity analysis, the remaining six studies were homogenous for OR1, OR2, and OR3. <sentence_start/>rs2536 OR1, OR2, and OR3 were 1.61 (<italic toggle=\"yes\">P</italic> = 0.501), 0.97 (<italic toggle=\"yes\">P</italic> = 0.504), and 1.20 (<italic toggle=\"yes\">P</italic> = 0.422), respectively, suggesting a recessive effect of allele C. <sentence_start/>Therefore, the TC and TT genotypes were combined and compared with the CC genotype. <sentence_start/>A non-significant increase in cancer risk for the CC genotype was found (fixed-effect OR = 1.17, 95% CI 0.76-1.80, <italic toggle=\"yes\">P</italic> = 0.485)."
+  },
+  {
+   "section": "article",
+   "text": "Three studies focusing on genitourinary cancers (prostate cancer and renal cell cancer) were homogenous for OR1 and OR3, but heterogeneity was significant for OR2 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 84.8%, p<sub>het</sub> = 0.001), which discouraged us from calculating an overall estimate. <sentence_start/>Digestive system cancers (esophageal carcinoma, gastric cancer and hepatocellular carcinoma) investigated in three studies were homogenous for OR1, OR2, and OR3, but still no significant association was observed. <sentence_start/>Accordingly, it appeared that rs2536 had no significant effect on susceptibility to cancer (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "The flow chart shows study selection for this systematic review"
+  },
+  {
+   "section": "article",
+   "text": "Meta-analysis of <italic toggle=\"yes\">mTOR</italic> rs2295080"
+  },
+  {
+   "section": "article",
+   "text": "Ten studies, consisting of 6585 cases and 7120 controls, investigated the association between SNP rs2295080 and cancer risk. <sentence_start/>These studies were heterogeneous for OR1 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 67.7%, p<sub>het</sub> = 0.001), OR2 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 65.5%, p<sub>het</sub> = 0.002) and OR3 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 49.9%, p<sub>het</sub> = 0.035). <sentence_start/>We failed to remove heterogeneity by excluding outliers identified by sensitivity analysis, so studies were grouped by cancer type to explore some possible major sources of heterogeneity (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Three studies focusing on genitourinary cancers (prostate cancer and renal cell cancer) were homogenous for OR1, OR2, and OR3, which were 0.76 (<italic toggle=\"yes\">P</italic> = 0.045), 0.77 (<italic toggle=\"yes\">P</italic> &lt; 0.001), and 0.99 (<italic toggle=\"yes\">P</italic> = 0.955), respectively, suggesting a dominant effect of the G allele. <sentence_start/>Therefore compared with the TT genotype, carriers of the G allele (GG and TG genotypes) were shown to have a significantly reduced cancer risk (fixed-effect OR = 0.77, 95% CI 0.68-0.86, <italic toggle=\"yes\">P</italic> &lt; 0.001) (Figure 2). <sentence_start/>Digestive system cancers (esophageal carcinoma, gastric cancer and colorectal cancer) were investigated in four studies. <sentence_start/>While these were homogenous for OR3, heterogeneity was significant for OR1 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 59.6%, p<sub>het</sub> = 0.059) and OR2 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 76.3%, p<sub>het</sub> = 0.005). <sentence_start/>Consequently, there was no indication to pool the estimates. <sentence_start/>Childhood acute leukemia (acute lymphoblastic leukemia and acute myeloid leukemia), a non-solid cancer, was investigated in three studies, which appeared homogeneous and suggested a recessive model (GG <italic toggle=\"yes\">versus</italic> GT/TT: fixed-effect OR = 2.08, 95% CI 1.34-3.22, <italic toggle=\"yes\">P</italic> = 0.001) (Figure 3) (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Forest plots of fixed-effects ORs for <italic toggle=\"yes\">mTOR</italic> rs2295080 and risk of genitourinary cancers based on a dominant model (TG/GG <italic toggle=\"yes\">versus</italic> TT)"
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Forest plots of fixed-effects ORs for <italic toggle=\"yes\">mTOR</italic> rs2295080 and risk of acute leukemia based on a recessive model (GG <italic toggle=\"yes\">versus</italic> GT/TT)"
+  },
+  {
+   "section": "article",
+   "text": "Meta-analysis of <italic toggle=\"yes\">mTOR</italic> rs1883965"
+  },
+  {
+   "section": "article",
+   "text": "Four studies, consisting of 4300 cases and 4420 controls, investigated the association between SNP rs1883965 and cancer risk. <sentence_start/>These studies were homogenous for OR1, OR2, and OR3, which were 0.91 (<italic toggle=\"yes\">P</italic> = 0.733), 1.15 (<italic toggle=\"yes\">P</italic> = 0.019), and 0.79 (<italic toggle=\"yes\">P</italic> = 0.399), respectively. <sentence_start/>The summary estimate under the heterozygous model (GA <italic toggle=\"yes\">versus</italic> GG) was statistically significant, implying that carriers of the rs1883965 GA heterozygote were more susceptible to cancer development. <sentence_start/>A comparison of GA <italic toggle=\"yes\">versus</italic> GG/AA genotypes confirmed a complete over-dominant model (fixed-effect OR = 1.15, 95% CI 1.02-1.29, <italic toggle=\"yes\">P</italic> = 0.018), with the GA heterozygote having a higher cancer risk than either GG or AA homozygotes (Figure 4 and Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Forest plots of fixed-effects ORs for <italic toggle=\"yes\">mTOR</italic> rs1883965 and cancer risk based on a complete over-dominant model (GA <italic toggle=\"yes\">versus</italic> GG/AA)"
+  },
+  {
+   "section": "article",
+   "text": "Three studies focused on digestive tract cancers (esophageal carcinoma, gastric cancer, and hepatocellular carcinoma). <sentence_start/>Heterogeneity was noted for OR1 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 65.2%, p<sub>het</sub> = 0.056), so no further analysis was conducted."
+  },
+  {
+   "section": "article",
+   "text": "Meta-analysis of <italic toggle=\"yes\">mTOR</italic> rs1034528, rs1064261, rs17036508, and rs3806317"
+  },
+  {
+   "section": "article",
+   "text": "Two studies determined the association between SNPs rs1034528, rs17036508, and rs3806317 and cancer risk, with 2,006 cancer patients and 2,054 controls enrolled. <sentence_start/>For rs1034528, studies were homogenous for OR1, OR2, and OR3, with values of 0.95 (<italic toggle=\"yes\">P</italic> = 0.791), 1.30 (<italic toggle=\"yes\">P</italic> &lt; 0.001), and 0.73 (<italic toggle=\"yes\">P</italic> = 0.109), respectively, suggesting a complete over-dominant model (GC <italic toggle=\"yes\">versus</italic> GG/CC: fixed-effect OR = 1.30, 95% CI 1.13-1.48, <italic toggle=\"yes\">P</italic> &lt; 0.001). <sentence_start/>For rs17036508, heterogeneity tests were also negative for OR1, OR2, and OR3, at 0.99 (<italic toggle=\"yes\">P</italic> = 0.975), 1.23 (<italic toggle=\"yes\">P</italic> = 0.006), and 0.81 (<italic toggle=\"yes\">P</italic> = 0.36), respectively, again suggesting a complete over-dominant model (GC <italic toggle=\"yes\">versus</italic> GG/CC: fixed-effect OR = 1.23, 95% CI 1.06-1.43, <italic toggle=\"yes\">P</italic> = 0.006) (Table 3). <sentence_start/>For rs3806317, heterogeneity tests were negative for OR1 and OR3 but significant for OR2 (<italic toggle=\"yes\">I<sup>2</sup></italic> = 70.8%, p<sub>het</sub> = 0.064), so it was not appropriate to meta-analyze the data. <sentence_start/>Two studies reporting rs1064261 genotype data from 1599 cancer patients and 1790 controls were homogenous for OR1, OR2, and OR3, with values of 0.90 (<italic toggle=\"yes\">P</italic> = 0.82), 1.14 (<italic toggle=\"yes\">P</italic> = 0.171), and 0.82 (<italic toggle=\"yes\">P</italic> = 0.665), respectively. <sentence_start/>These estimates indicated a complete over-dominant model, whereas the overall gene effect was not significant (TC <italic toggle=\"yes\">versus</italic> CC/TT: OR = 1.14, 95% CI 0.95-1.37, <italic toggle=\"yes\">P</italic> = 0.287) (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Publication bias"
+  },
+  {
+   "section": "article",
+   "text": "No obvious publication bias was detected, with the exception of rs1883965, which exhibited slight publication bias (Egger's test: <italic toggle=\"yes\">P</italic> = 0.084; Table 4)."
+  },
+  {
+   "section": "article",
+   "text": "Bioinformatics and expression analysis"
+  },
+  {
+   "section": "article",
+   "text": "Among the <italic toggle=\"yes\">mTOR</italic> SNPs analyzed, data from the SNPinfo database suggested that six (rs3806317, rs1034528, rs12125777, rs1883965, rs2295080, and rs1074078) are located in transcription factor binding sites (TFBS), four (rs11121691, rs1057079, rs17036508, and rs1064261) may affect exonic splicing enhancer or exonic splicing silencer binding site activity or even abolish a protein domain, and two (rs2536 and rs17036508) are within microRNA (miRNA) binding sites."
+  },
+  {
+   "section": "article",
+   "text": "As for the <italic toggle=\"yes\">mTOR</italic> SNPs included in this meta-analysis, the F-SNP (FS) database found no functional information for the 3′-UTR SNP rs2536. <sentence_start/>Intronic polymorphisms rs3806317, rs17036508, and rs1883965 had an FS score of 0.101, while that of rs1034528 was 0.398, probably reflecting the frameshift coding changes it may cause. <sentence_start/>As a synonymous coding polymorphism, rs1064261 was shown to be conserved across multiple species with an FS score of 0.33. <sentence_start/>The <italic toggle=\"yes\">mTOR</italic> promoter SNP rs2295080 was found to have an FS score of 0.101. <sentence_start/>Detailed information on the SNP functional bioinformatics analysis is shown in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "Given that rs2295080, rs1883965, rs1034528 and rs17036508 showed a potential association with cancer susceptibility, we further explored their relationship with <italic toggle=\"yes\">mTOR</italic> transcript expression levels using the SNPexp web tool (Table 6-7). <sentence_start/>No significant alteration in transcript expression was observed for rs2295080. <sentence_start/>In the YRI population, the expression level of the rs1883965 heterozygote was lower than that of homozygotes (complete over-dominant: <italic toggle=\"yes\">P</italic> = 0.043) (Table 6). <sentence_start/>For rs1034528, the C allele was correlated with significantly decreased levels of <italic toggle=\"yes\">mTOR</italic> transcript expression compared with the G allele in both the European population (heterozygous: <italic toggle=\"yes\">P</italic> = 0.023; dominant: <italic toggle=\"yes\">P</italic> = 0.035; complete over-dominant: <italic toggle=\"yes\">P</italic> = 0.019) and all populations (heterozygous: <italic toggle=\"yes\">P</italic> = 0.002; dominant: <italic toggle=\"yes\">P</italic> = 0.001; complete over-dominant: <italic toggle=\"yes\">P</italic> = 0.003). <sentence_start/>A similar trend was observed for rs17036508 for all populations (heterozygous: <italic toggle=\"yes\">P</italic> = 0.001; dominant: <italic toggle=\"yes\">P</italic> = 0.001; complete over-dominant: <italic toggle=\"yes\">P</italic> = 0.001), although no significant linkage disequilibrium was found between these two polymorphisms among the four different ethnicities (Table 7)."
+  },
+  {
+   "section": "article",
+   "text": "DISCUSSION"
+  },
+  {
+   "section": "article",
+   "text": "As the central controller of cellular growth and proliferation, mTOR induces several anabolic processes such as protein synthesis [<citation rid=\"R32\" ref-type=\"bibr\" pmid=\"19339977\" doi=\"10.1038/nrm2672\" count=\"1\">32</citation>], lipogenesis [<citation rid=\"R33\" ref-type=\"bibr\" pmid=\"18762023\" doi=\"10.1016/j.cmet.2008.07.007\" pmcid=\"PMC2593919\" count=\"1\">33</citation>, <citation rid=\"R34\" ref-type=\"bibr\" pmid=\"21723501\" doi=\"10.1016/j.cmet.2011.06.002\" pmcid=\"PMC3652544\" count=\"1\">34</citation>] and nucleotide biosynthesis [<citation rid=\"R35\" ref-type=\"bibr\" pmid=\"23429704\" doi=\"10.1126/science.1228771\" count=\"1\">35</citation>, <citation rid=\"R36\" ref-type=\"bibr\" pmid=\"23429703\" doi=\"10.1126/science.1228792\" pmcid=\"PMC3753690\" count=\"1\">36</citation>], suppresses catabolic processes such as autophagy [<citation rid=\"R37\" ref-type=\"bibr\" pmid=\"20537536\" doi=\"10.1016/j.cub.2010.04.041\" count=\"1\">37</citation>] and lysosome biogenesis [<citation rid=\"R38\" ref-type=\"bibr\" pmid=\"22343943\" doi=\"10.1038/emboj.2012.32\" pmcid=\"PMC3298007\" count=\"1\">38</citation>], and regulates whole body energy metabolism [<citation rid=\"R39\" ref-type=\"bibr\" pmid=\"25554914\" doi=\"10.1016/j.ceb.2014.12.001\" count=\"1\">39</citation>] by forming two distinct multiprotein complexes, mTORC1 and mTORC2. <sentence_start/>Blocking mTOR activation by an mTOR inhibitor, such as everolimus or temsirolimus, exhibits an anti-neoplastic effect and is approved by the Food and Drug Administration and the European Medicines Agency for the treatment of limited types of cancers [<citation rid=\"R40\" ref-type=\"bibr\" pmid=\"24333502\" doi=\"10.1016/j.pharmthera.2013.12.004\" count=\"1\">40</citation>]. <sentence_start/>As well as their effect on cancer which had developed already, mTOR inhibitors play even more significant roles in cancer prevention [<citation rid=\"R41\" ref-type=\"bibr\" pmid=\"23151465\" doi=\"10.4161/cbt.22859\" pmcid=\"PMC3542224\" count=\"1\">41</citation>]. <sentence_start/>Using sirolimus after renal transplantation could reduce the risk of malignancies for transplant recipients, who are at higher risk of cancer because of immunosuppression [<citation rid=\"R42\" ref-type=\"bibr\" pmid=\"16434506\" doi=\"10.1681/ASN.2005090993\" count=\"1\">42</citation>, <citation rid=\"R43\" ref-type=\"bibr\" pmid=\"15233824\" doi=\"10.1111/j.1399-0012.2004.00188.x\" count=\"1\">43</citation>]. <sentence_start/>Additionally, rapamycin has been shown to delay carcinogenesis and prolong lifespan in p53-deficient mice [<citation rid=\"R44\" ref-type=\"bibr\" doi=\"10.18632/aging.100498\" pmid=\"23123616\" pmcid=\"PMC3517941\" count=\"1\">44</citation>, <citation rid=\"R45\" ref-type=\"bibr\" doi=\"10.18632/aging.100496\" pmid=\"23117593\" pmcid=\"PMC3517942\" count=\"1\">45</citation>]. <sentence_start/>This indicates that mTOR has a critical role to play in oncogenesis. <sentence_start/>As the mTOR pathway is a central controller of cellular growth, excessive activation caused by mutations or other changes in upstream pathways confers a growth advantage to cancer cells. <sentence_start/>But beyond that, Overstimulation of the mTOR pathway also accelerates organismal aging and then contributes to oncogenesis indirectly [<citation rid=\"R46\" ref-type=\"bibr\" doi=\"10.18632/aging.100422\" pmid=\"22246147\" pmcid=\"PMC3273893\" count=\"1\">46</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Genetic alterations are widespread throughout <italic toggle=\"yes\">mTOR</italic> and influence protein function by changing gene expression. <sentence_start/>Mutant mTOR proteins caused by point mutations around the kinase domain of mTOR demonstrate constitutive activation [<citation rid=\"R11\" ref-type=\"bibr\" pmid=\"20190810\" doi=\"10.1038/onc.2010.28\" pmcid=\"PMC2953941\" count=\"1\">11</citation>, <citation rid=\"R47\" ref-type=\"bibr\" pmid=\"18812319\" doi=\"10.1074/jbc.M801546200\" count=\"1\">47</citation>, <citation rid=\"R48\" ref-type=\"bibr\" pmid=\"17360675\" doi=\"10.1073/pnas.0608510104\" pmcid=\"PMC1805553\" count=\"1\">48</citation>], and have been shown to affect cell cycle progression and cell size in human cancers [<citation rid=\"R11\" ref-type=\"bibr\" pmid=\"20190810\" doi=\"10.1038/onc.2010.28\" pmcid=\"PMC2953941\" count=\"1\">11</citation>]. <sentence_start/>Polymorphisms occur more frequently than mutations and are stably inherited within a population. <sentence_start/>Therefore, determining their impact on the mTOR protein and oncogenesis is of great importance."
+  },
+  {
+   "section": "article",
+   "text": "The present systematic review evaluated the overall effect of <italic toggle=\"yes\">mTOR</italic> polymorphisms on cancer risk, and the updated meta-analysis evaluated the most commonly investigated <italic toggle=\"yes\">mTOR</italic> polymorphisms: rs2536, rs2295080, rs1883965, rs1034528, rs17036508, rs3806317 and rs1064261. <sentence_start/>We identified a significant correlation between heterozygotes of SNPs rs1883965, rs1034528 and rs17036508 and increased cancer risk compared with homozygotes. <sentence_start/>Significant results were also identified for SNP rs2295080 in the subgroup of genitourinary cancers and acute leukemia. <sentence_start/>No clear associations between the other meta-analyzed polymorphisms and cancer risk were observed."
+  },
+  {
+   "section": "article",
+   "text": "SNP rs2536: a controversial association with cancer risk"
+  },
+  {
+   "section": "article",
+   "text": "The rs2536 (T &gt; C) polymorphism in the <italic toggle=\"yes\">mTOR</italic> 3′-UTR was predicted to affect miRNA-binding site activity based on the SNPinfo database. <sentence_start/>Li et al. [<citation rid=\"R31\" ref-type=\"bibr\" count=\"1\">31</citation>] previously reported that co-transfection of the rs2536 G allele and A allele with miR-767-3p exhibited different promoter activities. <sentence_start/>However, previous studies regarding the relationship between rs2536 and cancer risk are inconsistent. <sentence_start/>In a study by Li et al. [<citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>], rs2536 was correlated with an increased risk of prostate cancer, while an earlier Chinese case-control study [<citation rid=\"R23\" ref-type=\"bibr\" pmid=\"21973240\" doi=\"10.3109/10428194.2011.628062\" count=\"1\">23</citation>] focusing on the risk of childhood acute lymphoblastic leukemia reported the opposite effect. <sentence_start/>Other case-control studies concentrating on esophageal carcinoma [<citation rid=\"R19\" ref-type=\"bibr\" pmid=\"23524405\" doi=\"10.1097/JTO.0b013e31828916c6\" count=\"1\">19</citation>], gastric cancer [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"23423739\" doi=\"10.1002/mc.22013\" count=\"1\">14</citation>], prostate cancer [<citation rid=\"R29\" ref-type=\"bibr\" pmid=\"22815832\" doi=\"10.1371/journal.pone.0040817\" pmcid=\"PMC3399895\" count=\"1\">29</citation>], renal cell cancer [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>], hepatocellular carcinoma [<citation rid=\"R49\" ref-type=\"bibr\" count=\"1\">49</citation>], and meningioma [<citation rid=\"R28\" ref-type=\"bibr\" count=\"1\">28</citation>] found no significant association, nor did a previous meta-analysis [<citation rid=\"R26\" ref-type=\"bibr\" pmid=\"24816861\" doi=\"10.1371/journal.pone.0097085\" pmcid=\"PMC4016248\" count=\"1\">26</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The present pooled analysis also found no significant association between rs2536 and cancer risk, after removing the main source of heterogeneity and performing stratified analyses by cancer type. <sentence_start/>However, several studies indicated that although the main effect was not obvious, rs2536 was included in the best model to predict the risk of esophageal carcinoma [<citation rid=\"R19\" ref-type=\"bibr\" pmid=\"23524405\" doi=\"10.1097/JTO.0b013e31828916c6\" count=\"1\">19</citation>] and prostate cancer [<citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>], together with polymorphisms known to be associated with cancer susceptibility and environmental factors such as body mass index (BMI). <sentence_start/>This means that rs2536 should not be simply categorized as “not important”, because it may interact with environmental factors or other genetic variations and is linked to cancer development through joint effects."
+  },
+  {
+   "section": "article",
+   "text": "SNP rs2295080: inconsistent roles in genitourinary cancers and acute leukemia"
+  },
+  {
+   "section": "article",
+   "text": "The rs2295080 (T &gt; G) polymorphism located in the <italic toggle=\"yes\">mTOR</italic> upstream region was predicted to be within a TFBS by the SNPinfo database, which has been further confirmed by the lower nuclear protein binding activity of the G allele in human gastric cancer cell line SGC-7901 [<citation rid=\"R15\" ref-type=\"bibr\" pmid=\"23555892\" doi=\"10.1371/journal.pone.0060080\" pmcid=\"PMC3612103\" count=\"1\">15</citation>]. <sentence_start/>Moreover, patients with gastric cancer [<citation rid=\"R15\" ref-type=\"bibr\" pmid=\"23555892\" doi=\"10.1371/journal.pone.0060080\" pmcid=\"PMC3612103\" count=\"1\">15</citation>] and renal cell cancer [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>] carrying the rs2295080 G allele showed decreased <italic toggle=\"yes\">mTOR</italic> mRNA levels compared with those with the wild-type T allele. <sentence_start/>Additionally, rs2295080 has been linked to decreased <italic toggle=\"yes\">mTOR</italic> promoter activity in several cell lines [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>, <citation rid=\"R15\" ref-type=\"bibr\" pmid=\"23555892\" doi=\"10.1371/journal.pone.0060080\" pmcid=\"PMC3612103\" count=\"1\">15</citation>, <citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>]. <sentence_start/>Many previous studies have shown that the rs2295080 G allele is associated with a decreased risk of gastric cancer [<citation rid=\"R15\" ref-type=\"bibr\" pmid=\"23555892\" doi=\"10.1371/journal.pone.0060080\" pmcid=\"PMC3612103\" count=\"1\">15</citation>], colon cancer [<citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>], prostate cancer [<citation rid=\"R29\" ref-type=\"bibr\" pmid=\"22815832\" doi=\"10.1371/journal.pone.0040817\" pmcid=\"PMC3399895\" count=\"1\">29</citation>, <citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>], and renal cell cancer [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>], and this was supported by a previously published meta-analysis [<citation rid=\"R26\" ref-type=\"bibr\" pmid=\"24816861\" doi=\"10.1371/journal.pone.0097085\" pmcid=\"PMC4016248\" count=\"1\">26</citation>]. <sentence_start/>However, recently, some opposite findings were reported in gastric cancer [<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"26287940\" doi=\"10.1097/FPC.0000000000000163\" count=\"1\">18</citation>], esophageal carcinoma [<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>], and childhood acute leukemia [<citation rid=\"R24\" ref-type=\"bibr\" count=\"1\">24</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "We found that the rs2295080 G allele was associated with a significantly lower risk of genitourinary cancers in the dominant model, and a higher risk of acute leukemia in the recessive model. <sentence_start/>Therefore, the biological effect of rs2295080 might be cancer-specific. <sentence_start/>Notably, an obvious divergence of rs2295080 effects was observed in cancers of the digestive system, which might be partially explained by a high degree of heterogeneity, especially for gastric cancer [<citation rid=\"R50\" ref-type=\"bibr\" pmid=\"21684283\" doi=\"10.1053/j.gastro.2011.04.042\" pmcid=\"PMC3152688\" count=\"1\">50</citation>]. <sentence_start/>A more detailed classification based on clinical, histologic, and molecular features will help to elucidate the relationship between rs2295080 and gastrointestinal cancers."
+  },
+  {
+   "section": "article",
+   "text": "SNP rs1883965: increased cancer risk under the complete over-dominant model"
+  },
+  {
+   "section": "article",
+   "text": "The SNP rs1883965 (G &gt; A) is located within the first intron of <italic toggle=\"yes\">mTOR</italic>, so is more likely to be involved in the regulation of transcription and be associated with disease compared with SNPs in other introns [<citation rid=\"R51\" ref-type=\"bibr\" pmid=\"21042586\" doi=\"10.1371/journal.pone.0013574\" pmcid=\"PMC2962641\" count=\"1\">51</citation>]. <sentence_start/>The SNPinfo database indicated that rs1883965 is located in a TFBS, which may affect the level or timing of gene expression. <sentence_start/>Two previous studies indicated increased associations between the rs1883965 A allele and the risks of esophageal carcinoma [<citation rid=\"R19\" ref-type=\"bibr\" pmid=\"23524405\" doi=\"10.1097/JTO.0b013e31828916c6\" count=\"1\">19</citation>] and gastric cancer [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"23423739\" doi=\"10.1002/mc.22013\" count=\"1\">14</citation>], and our present meta-analysis found the heterozygote GA to be significantly associated with increased cancer risk compared with homozygotes GG and AA. <sentence_start/>Interestingly, we observed slightly decreased <italic toggle=\"yes\">mTOR</italic> mRNA expression in YRI individuals carrying the rs1883965 heterozygote GA (<italic toggle=\"yes\">P</italic> = 0.043). <sentence_start/>Such discrepant results may not be entirely attributed to racial differences, but could reflect the small sample size of gene expression data, which increases the probability of false-positive findings. <sentence_start/>Therefore, more studies are essential to obtain a more reliable conclusion regarding the association between rs1883965 and <italic toggle=\"yes\">mTOR</italic> transcription."
+  },
+  {
+   "section": "article",
+   "text": "SNPs rs1034528 and rs17036508: associated with increased cancer risk under the complete over-dominant model"
+  },
+  {
+   "section": "article",
+   "text": "SNPs rs1034528 (G &gt; C) and rs17036508 (T &gt; C) are both located within intronic regions of <italic toggle=\"yes\">mTOR</italic>. <sentence_start/>Bioinformatics analysis revealed that rs1034528 is located within a TFBS and causes a frameshift coding change. <sentence_start/>Its FS score of 0.398 is the highest among those <italic toggle=\"yes\">mTOR</italic> SNPs investigated. <sentence_start/>SNP rs17036508 was predicted to be located within a miRNA binding site and an exonic splicing enhancer or silencer motif, affecting the splicing of pre-RNA. <sentence_start/>Previously, the associations between rs1034528 and rs17036508 and gastric and prostate cancer were investigated and the rs1034528 C allele was shown to be a risk factor in two independent studies [<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"26287940\" doi=\"10.1097/FPC.0000000000000163\" count=\"1\">18</citation>, <citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>]. <sentence_start/>In the present study, we found that heterozygote carriers of rs1034528 and rs17036508 were more likely to develop cancer compared with homozygotes. <sentence_start/>However, expression analysis using HapMap data indicated that homozygotes had higher <italic toggle=\"yes\">mTOR</italic> transcript expression levels. <sentence_start/>Because the mTOR signaling pathway usually promotes oncogenesis, this finding is unexpected but could be explained by the fact that mTOR mutants caused by different amino acid substitutions have different abilities to phosphorylate substrates S6K1 and 4E-BP1, even though they are expressed at similar levels after nutrient starvation [<citation rid=\"R11\" ref-type=\"bibr\" pmid=\"20190810\" doi=\"10.1038/onc.2010.28\" pmcid=\"PMC2953941\" count=\"1\">11</citation>]. <sentence_start/>Thus, it is conceivable that a frameshift within the coding region (rs1034528) or splicing variants (rs17036508) confers hyperactivation to the mTOR protein, which promotes the development of cancer regardless of the expression level. <sentence_start/>Alternatively, rs1034528 and rs17036508 are respectively located in 5′ upstream region and 3′-UTR of the angiopoietin-like 7 gene (<italic toggle=\"yes\">ANGPTL7</italic>), itself within intron 28 of <italic toggle=\"yes\">mTOR</italic>. <sentence_start/><italic toggle=\"yes\">ANGPTL7</italic> expression was reported to be up-regulated by hypoxia in cancer cells and to exert a pro-angiogenetic effect, which is essential in the early stages of tumor development [<citation rid=\"R52\" ref-type=\"bibr\" pmid=\"24903490\" doi=\"10.1007/s10456-014-9435-4\" count=\"1\">52</citation>]. <sentence_start/>Therefore, these two polymorphisms might mediate tumor formation by regulating the expression of <italic toggle=\"yes\">mTOR</italic> and <italic toggle=\"yes\">ANGPTL7</italic> simultaneously."
+  },
+  {
+   "section": "article",
+   "text": "Other <italic toggle=\"yes\">mTOR</italic> polymorphisms: further investigation required"
+  },
+  {
+   "section": "article",
+   "text": "rs1064261 <sentence_start/>(T &gt; C) and rs1057079 (A &gt; G) are synonymous SNPs within exonic regions. <sentence_start/>Although not altering amino acid sequences, they were predicted to interrupt the exonic splicing enhancer or silencer motif, or even abolish a protein domain. <sentence_start/>Positive correlations of the rs1064261 C allele with an increased risk of neuroendocrine tumors [<citation rid=\"R53\" ref-type=\"bibr\" pmid=\"21606320\" doi=\"10.1093/carcin/bgr095\" pmcid=\"PMC3149206\" count=\"1\">53</citation>] and gastric cancer in men [<citation rid=\"R17\" ref-type=\"bibr\" pmid=\"26317520\" doi=\"10.1371/journal.pone.0136447\" pmcid=\"PMC4552869\" count=\"1\">17</citation>] have been reported, while its interaction with rs2295080 was also identified in esophageal squamous cell carcinoma [<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>]. <sentence_start/>However, our previous work found no association between rs1064261 and total or phosphorylated mTOR protein in gastric cancer mucosa [<citation rid=\"R17\" ref-type=\"bibr\" pmid=\"26317520\" doi=\"10.1371/journal.pone.0136447\" pmcid=\"PMC4552869\" count=\"1\">17</citation>]. <sentence_start/>The present meta-analysis also revealed no association between rs1064261 and overall cancer risk. <sentence_start/>As for SNP rs1057079, carriers of the G allele were at higher risk of developing colon cancer and breast cancer [<citation rid=\"R13\" ref-type=\"bibr\" pmid=\"20622004\" doi=\"10.1093/carcin/bgq142\" pmcid=\"PMC2930805\" count=\"1\">13</citation>, <citation rid=\"R54\" ref-type=\"bibr\" doi=\"10.1093/carcin/bgs163\" pmcid=\"PMC3499059\" pmid=\"22562547\" count=\"1\">54</citation>] and ethnic differences might exist for the effect of rs1057079 on cancer risk [<citation rid=\"R54\" ref-type=\"bibr\" doi=\"10.1093/carcin/bgs163\" pmcid=\"PMC3499059\" pmid=\"22562547\" count=\"1\">54</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Although several intronic SNPs were excluded from the present meta-analysis and the integrated results of their relationships with cancer risk were not discussed because of the limited number of studies, some of them exhibited potential biological activity. <sentence_start/>SNPs rs12125777 (C &gt; T) and rs12124983 (C &gt; T) were identified to interfere with transcriptional regulation by bioinformatic analysis; these predictions were confirmed by clinical evidence [<citation rid=\"R27\" ref-type=\"bibr\" count=\"1\">27</citation>, <citation rid=\"R53\" ref-type=\"bibr\" pmid=\"21606320\" doi=\"10.1093/carcin/bgr095\" pmcid=\"PMC3149206\" count=\"1\">53</citation>] and so warrant further research. <sentence_start/>While no functional information currently exists for SNPs rs2024627 (C &gt; T) and rs718206 (A &gt; T), they were shown to be significantly associated with increased colon cancer risk by a case-control study [<citation rid=\"R13\" ref-type=\"bibr\" pmid=\"20622004\" doi=\"10.1093/carcin/bgq142\" pmcid=\"PMC2930805\" count=\"1\">13</citation>]. <sentence_start/>These SNPs might not be causative of disease but could exist in high linkage disequilibrium with other functional SNPs."
+  },
+  {
+   "section": "article",
+   "text": "Gene-gene and gene-environment interactions"
+  },
+  {
+   "section": "article",
+   "text": "Integrated risk estimates of clinical evidence reveal that the <italic toggle=\"yes\">mTOR</italic> SNPs studied to date only have a mild effect on cancer development. <sentence_start/>The FS integrative scoring system also defined these polymorphisms as having relatively moderate deleterious effects, because no <italic toggle=\"yes\">mTOR</italic> SNPs have yet been assigned an FS score as high as 0.5, which is the median score of disease-related SNPs [<citation rid=\"R55\" ref-type=\"bibr\" pmid=\"19228803\" doi=\"10.1093/bioinformatics/btp103\" count=\"1\">55</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Although the magnitude of the effect of an individual <italic toggle=\"yes\">mTOR</italic> SNP on cancer susceptibility appears to be weak, its interaction with functionally relevant variants and environmental factors might have a greater effect on oncogenesis. <sentence_start/>Carriers of combined risk alleles have been previously shown to have a significantly increased risk of developing various types of cancer, mostly in a dose-dependent manner. <sentence_start/>For example, Li et al. [<citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>] found that individuals carrying four adverse genotypes from six <italic toggle=\"yes\">mTOR</italic> polymorphisms (rs2536, rs1883965, rs1034528, rs17036508, rs3806317, and rs2295080) exhibited a higher susceptibility of developing prostate cancer (adjusted OR = 1.74, 95% CI 1.20-2.51) compared with those with one or zero adverse genotypes. <sentence_start/>Such cumulative effects were also observed across SNPs in <italic toggle=\"yes\">mTOR</italic> and mTOR pathway-related genes (<italic toggle=\"yes\">PIK3R1</italic>, <italic toggle=\"yes\">AKT2</italic>, and <italic toggle=\"yes\">PTEN</italic>) [<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"23209702\" doi=\"10.1371/journal.pone.0050302\" pmcid=\"PMC3508984\" count=\"1\">10</citation>, <citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>, <citation rid=\"R29\" ref-type=\"bibr\" pmid=\"22815832\" doi=\"10.1371/journal.pone.0040817\" pmcid=\"PMC3399895\" count=\"1\">29</citation>], or in genes encoding components of mTOR complex 1 (<italic toggle=\"yes\">mLST8</italic> and <italic toggle=\"yes\">RPTOR</italic>) [<citation rid=\"R19\" ref-type=\"bibr\" pmid=\"23524405\" doi=\"10.1097/JTO.0b013e31828916c6\" count=\"1\">19</citation>]. <sentence_start/>Several studies assessed <italic toggle=\"yes\">mTOR</italic> haplotype effects on cancer risk [<citation rid=\"R13\" ref-type=\"bibr\" pmid=\"20622004\" doi=\"10.1093/carcin/bgq142\" pmcid=\"PMC2930805\" count=\"1\">13</citation>, <citation rid=\"R14\" ref-type=\"bibr\" pmid=\"23423739\" doi=\"10.1002/mc.22013\" count=\"1\">14</citation>, <citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>, <citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>, <citation rid=\"R49\" ref-type=\"bibr\" count=\"1\">49</citation>]. <sentence_start/>Zhu et al. [<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>] explored the relationships between haplotypes of rs2295080, rs1064261 and rs1057079 and the risk of esophageal squamous cell carcinoma. <sentence_start/>Although no significant association was observed when SNPs were analyzed individually, there were clear associations between three of the seven identified haplotypes and increased cancer risk compared with the most frequent haplotype. <sentence_start/>Interactions of rs2295080 with either rs1057079 or rs1064261 were also found."
+  },
+  {
+   "section": "article",
+   "text": "Possible interactions between <italic toggle=\"yes\">mTOR</italic> polymorphisms and environmental factors such as smoking status, drinking status, age, sex and BMI have also been reported. <sentence_start/>Both the effects of individual SNPs and combined risk genotypes were greater in some high-risk subgroups for many cancers such as older adults and smokers [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"23423739\" doi=\"10.1002/mc.22013\" count=\"1\">14</citation>-<citation rid=\"R16\" ref-type=\"bibr\" count=\"1\">16</citation>, <citation rid=\"R18\" ref-type=\"bibr\" pmid=\"26287940\" doi=\"10.1097/FPC.0000000000000163\" count=\"1\">18</citation>-<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>, <citation rid=\"R25\" ref-type=\"bibr\" pmid=\"25776475\" doi=\"10.1016/j.biopha.2014.12.045\" count=\"1\">25</citation>, <citation rid=\"R29\" ref-type=\"bibr\" pmid=\"22815832\" doi=\"10.1371/journal.pone.0040817\" pmcid=\"PMC3399895\" count=\"1\">29</citation>, <citation rid=\"R30\" ref-type=\"bibr\" pmid=\"23940798\" doi=\"10.1371/journal.pone.0071968\" pmcid=\"PMC3734314\" count=\"1\">30</citation>]. <sentence_start/>Furthermore, statistical gene-environment interactions between <italic toggle=\"yes\">mTOR</italic> SNPs and BMI were verified in esophageal squamous cell carcinoma [<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25654238\" doi=\"10.1038/srep08250\" pmcid=\"PMC4318264\" count=\"1\">20</citation>] and breast cancer [<citation rid=\"R27\" ref-type=\"bibr\" count=\"1\">27</citation>]. <sentence_start/>It has been reported in mouse heart tissue that phosphorylated S6, which reflects the activity of mTOR, is positively related to body weight [<citation rid=\"R56\" ref-type=\"bibr\" pmid=\"24184801\" doi=\"10.4161/cbt.26947\" pmcid=\"PMC3912042\" count=\"1\">56</citation>]. <sentence_start/>Because the mTOR pathway regulates energy metabolism and as cancer can be regarded as a metabolic disorder, it is not surprising that BMI might be a mediator between <italic toggle=\"yes\">mTOR</italic> variants and cancer susceptibility. <sentence_start/>However, the underlying mechanisms may vary depending on cancer type and remain to be investigated."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "A number of limitations of this systematic review and meta-analysis should be noted. <sentence_start/>First, although we collected all published clinical evidence investigating <italic toggle=\"yes\">mTOR</italic> SNPs and cancer risk, the pooled sample size of this meta-analysis was still relatively small, especially for rs1034528, rs17036508, rs1064261, and rs3806317. <sentence_start/>This weakened the statistical power and limited our ability to perform more accurate subgroup analyses for specific cancer types. <sentence_start/>Second, the ethnicity of all available studies for meta-analysis was Han Chinese, so our findings may not be applicable to other populations. <sentence_start/>However, because Han Chinese is the largest ethnic group in the world and as the gene pool reflects a long history of immigrations and intermarriages with other ethnic groups [<citation rid=\"R57\" ref-type=\"bibr\" pmid=\"19944404\" doi=\"10.1016/j.ajhg.2009.10.015\" pmcid=\"PMC2790582\" count=\"1\">57</citation>], these data represent the complexity of the impact of <italic toggle=\"yes\">mTOR</italic> polymorphisms on cancer development. <sentence_start/>Third, all studies included in the systematic review were published in English or Chinese, yet publications in other languages may contain different relevant studies. <sentence_start/>This may be the main source of publication bias in our meta-analysis. <sentence_start/>Finally, although the SNPinfo database and F-SNP aim to reduce the number of false-positive results, computational predictions of certain SNPs are only estimates and should be confirmed by functional studies."
+  },
+  {
+   "section": "article",
+   "text": "Future directions"
+  },
+  {
+   "section": "article",
+   "text": "The study of <italic toggle=\"yes\">mTOR</italic> polymorphisms has mainly focused on cancer susceptibility in recent years. <sentence_start/>To date, only 20 of 129 common SNPs within <italic toggle=\"yes\">mTOR</italic> have been investigated in relation to cancer risk. <sentence_start/>Future studies may benefit from genotyping additional polymorphisms to identify more functionally significant variants. <sentence_start/>Additionally, although the risk effects of the <italic toggle=\"yes\">mTOR</italic> SNPs so far examined are too small to be regarded as clinically useful, their interactions with other genetic variants or environmental factors have been shown to contribute to further increases in cancer risk either additively or synergistically. <sentence_start/>The mechanisms of these joint effects deserve further research. <sentence_start/><italic toggle=\"yes\">mTOR</italic> polymorphisms may also be associated with clinical outcomes and response to chemoradiotherapy. <sentence_start/>Several polymorphisms, such as rs2295080, rs11121704, and rs12139042, have been shown to be significantly associated with lung and esophageal cancer [<citation rid=\"R58\" ref-type=\"bibr\" pmid=\"19164214\" doi=\"10.1200/JCO.2008.17.6297\" pmcid=\"PMC2738430\" count=\"1\">58</citation>-<citation rid=\"R60\" ref-type=\"bibr\" pmid=\"24077347\" doi=\"10.1158/1078-0432.CCR-13-1093\" count=\"1\">60</citation>], but more attention should be given to the association of <italic toggle=\"yes\">mTOR</italic> polymorphisms with treatment response to inhibitors of the mTOR pathway. <sentence_start/><italic toggle=\"yes\">In vitro</italic> functional studies should also be conducted to confirm these functional predictions and reveal the underlying molecular mechanisms behind the observed associations. <sentence_start/>Finally, some investigations have found that mTOR inhibitors are able to prolong lifespan not just by inhibiting the growth of tumors, but by postponing the aging process [<citation rid=\"R41\" ref-type=\"bibr\" pmid=\"23151465\" doi=\"10.4161/cbt.22859\" pmcid=\"PMC3542224\" count=\"1\">41</citation>, <citation rid=\"R61\" ref-type=\"bibr\" pmid=\"24345884\" doi=\"10.4161/cbt.27350\" pmcid=\"PMC3912031\" count=\"1\">61</citation>]. <sentence_start/>This means that <italic toggle=\"yes\">mTOR</italic> polymorphisms may also play roles in other age-related diseases, such as cardiovascular and neurodegenerative disorders, and further investigation is required."
+  },
+  {
+   "section": "article",
+   "text": "MATERIALS AND METHODS"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis was conducted following the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) recommendations [<citation rid=\"R62\" ref-type=\"bibr\" pmid=\"19622512\" doi=\"10.7326/0003-4819-151-4-200908180-00136\" count=\"1\">62</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Search strategy"
+  },
+  {
+   "section": "article",
+   "text": "We searched the PubMed, Embase, Chinese National Knowledge Infrastructure and Wanfang Data databases to identify potentially relevant studies published before November 3, 2015, without language restrictions. <sentence_start/>The following keywords were used jointly as search terms: “mTOR” or “FRAP” or “RAFT1” or “RAPT1”, “polymorphism” or “variant” or “mutation” and “cancer” or “tumor” or “carcinoma” or “carcinoma” or “malignancy”. <sentence_start/>The full electronic search strategy for PubMed is shown in Appendix 2. <sentence_start/>We also manually searched the reference lists to identify other potential articles. <sentence_start/>If overlapping data by the same first author were found, the article with the largest number of subjects was included."
+  },
+  {
+   "section": "article",
+   "text": "Inclusion and exclusion criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were eligible if they met the following criteria: (1) evaluated the association between <italic toggle=\"yes\">mTOR</italic> polymorphisms and cancer risk; (2) written in English or Chinese; and (3) case-control studies. <sentence_start/>Studies were excluded if they were: (1) reviews or comments; or (2) animal or cell line studies. <sentence_start/>Eligible studies were determined by two researchers (ZNJ and LX) independently. <sentence_start/>Disagreement was resolved by discussion or consulting another researcher (CYH)."
+  },
+  {
+   "section": "article",
+   "text": "Data extraction and quality assessment"
+  },
+  {
+   "section": "article",
+   "text": "Relevant information, including the first author's name, year of publication, country in which the study was conducted, ethnicity, cancer type, control source (population-based or hospital-based), genotyping methods, matching criteria for controls, number of cases and controls, and genotype distribution of cases and controls, was extracted from each eligible study by two independent researchers (ZNJ and LX)."
+  },
+  {
+   "section": "article",
+   "text": "The quality of eligible studies in this analysis was evaluated according to the NOS [<citation rid=\"R63\" ref-type=\"bibr\" count=\"1\">63</citation>], which contains three perspectives: selection (four scores), comparability (two scores), and exposure (three scores). <sentence_start/>The quality of each study was independently assessed by two researchers (ZNJ and LX)."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "HWE was evaluated in the controls of each study using the chi-square test. <sentence_start/>The crude odds ratio (OR) and corresponding 95% confidence interval (CI) were calculated by the Z test to assess the strength of the association between genotype and cancer risk; <italic toggle=\"yes\">P</italic> &lt; 0.05 was considered statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "To identify the best matching genetic model for <italic toggle=\"yes\">mTOR</italic> polymorphisms in the occurrence of malignancies, we used the methods recommended by Thakkinstian [<citation rid=\"R64\" ref-type=\"bibr\" pmid=\"15568190\" doi=\"10.1002/sim.2010\" count=\"1\">64</citation>]. <sentence_start/>OR1, OR2, and OR3 were calculated for genotypes VV <italic toggle=\"yes\">versus</italic> WW, WV <italic toggle=\"yes\">versus</italic> WW, and VV <italic toggle=\"yes\">versus</italic> WV for each polymorphism that qualified for meta-analysis to detect the existence of heterogeneity. <sentence_start/>Appropriate genetic models were then determined in terms of the relationship between the three pairwise differences:"
+  },
+  {
+   "section": "article",
+   "text": "(1) Recessive model: if OR1 = OR3≠1 and OR2 = 1."
+  },
+  {
+   "section": "article",
+   "text": "(2) Dominant model: if OR1 = OR2≠1 and OR3 = 1."
+  },
+  {
+   "section": "article",
+   "text": "(3) Complete over-dominant model: if OR1 = 1, OR2 = 1/OR3≠ 1."
+  },
+  {
+   "section": "article",
+   "text": "(4) Co-dominant model: if OR1 &gt; OR2 &gt; 1 and OR1 &gt; OR3 &gt; 1, or OR1 &lt; OR2 &lt; 1 and OR1 &lt; OR3 &lt; 1."
+  },
+  {
+   "section": "article",
+   "text": "Using the indicated genetic model collapsed the three genotypes into two groups (except in the case of a co-dominant model):"
+  },
+  {
+   "section": "article",
+   "text": "(1) If a dominant model was indicated, V carriers (VV plus WV) <italic toggle=\"yes\">versus</italic> WW."
+  },
+  {
+   "section": "article",
+   "text": "(2) If a recessive model was indicated, VV <italic toggle=\"yes\">versus</italic> W carriers (WV plus WW)."
+  },
+  {
+   "section": "article",
+   "text": "(3) If a complete over-dominant model was indicated, (VV plus WW) <italic toggle=\"yes\">versus</italic> WV."
+  },
+  {
+   "section": "article",
+   "text": "(4) If a co-dominant model was indicated, VV <italic toggle=\"yes\">versus</italic> WV, and VV versus WW."
+  },
+  {
+   "section": "article",
+   "text": "Between-study heterogeneity was evaluated using the Q-statistical test and <italic toggle=\"yes\">I<sup>2</sup></italic> test [<citation rid=\"R65\" ref-type=\"bibr\" pmid=\"12111919\" doi=\"10.1002/sim.1186\" count=\"1\">65</citation>]. <sentence_start/>The random-effects model (the DerSimonian and Laird method) [<citation rid=\"R66\" ref-type=\"bibr\" pmid=\"3802833\" doi=\"10.1016/0197-2456(86)90046-2\" count=\"1\">66</citation>] and fixed-effects model (the Mantel-Haenszel method) [<citation rid=\"R67\" ref-type=\"bibr\" pmid=\"13655060\" count=\"1\">67</citation>] were taken to calculate summary estimates of heterogeneous studies (Q test, <italic toggle=\"yes\">P</italic> &lt; 0.1 or <italic toggle=\"yes\">I<sup>2</sup></italic> &gt; 50 %) and homogenous studies, respectively. <sentence_start/>Potential sources of heterogeneity were explored using sensitivity analysis carried out by removing a single study from the meta-analysis each time, or subgroup analyses with cancer types. <sentence_start/>Potential publication bias was estimated using Begg's rank correlation [<citation rid=\"R68\" ref-type=\"bibr\" pmid=\"7786990\" count=\"1\">68</citation>] and Egger's regression asymmetry test [<citation rid=\"R69\" ref-type=\"bibr\" doi=\"10.1136/bmj.315.7109.629\" pmcid=\"PMC2127453\" pmid=\"9310563\" count=\"1\">69</citation>] (<italic toggle=\"yes\">P</italic> &lt; 0.1 was considered significant). <sentence_start/>STATA software version 11.0 (STATA, College Station, TX) was used for statistical analyses."
+  },
+  {
+   "section": "article",
+   "text": "SNP functional assessment"
+  },
+  {
+   "section": "article",
+   "text": "To cover as many bioinformatics web services and public databases as possible, we used two integration platforms of SNP analysis resources: the SNPinfo database [<citation rid=\"R70\" ref-type=\"bibr\" pmid=\"19417063\" doi=\"10.1093/nar/gkp290\" pmcid=\"PMC2703930\" count=\"1\">70</citation>] ( ) and the functional single nucleotide polymorphism (F-SNP) database [<citation rid=\"R55\" ref-type=\"bibr\" pmid=\"19228803\" doi=\"10.1093/bioinformatics/btp103\" count=\"1\">55</citation>, <citation rid=\"R71\" ref-type=\"bibr\" pmid=\"17986460\" doi=\"10.1093/nar/gkm904\" pmcid=\"PMC2238878\" count=\"1\">71</citation>] ( ). <sentence_start/>Potential biological effects of the investigated <italic toggle=\"yes\">mTOR</italic> SNPs were evaluated, including changes in protein coding, transcriptional regulation, splicing sites, and micro (mi)RNA-binding sites. <sentence_start/>Correlations between <italic toggle=\"yes\">mTOR</italic> polymorphism genotypes and gene expression levels from 270 HapMap phase II and III individuals from four populations (CEU, CHB, JPT and YRI) were conducted online, using the SNPexp web tool [<citation rid=\"R72\" ref-type=\"bibr\" pmid=\"21167019\" doi=\"10.1186/1471-2105-11-600\" pmcid=\"PMC3022629\" count=\"1\">72</citation>] ( )."
+  },
+  {
+   "section": "article",
+   "text": "SUPPLEMENTARY MATERIAL TABLES"
+  },
+  {
+   "section": "back",
+   "text": "<bold>CONFLICTS OF INTEREST</bold>"
+  },
+  {
+   "section": "back",
+   "text": "There is no confict of interest."
+  },
+  {
+   "section": "back",
+   "text": "<bold>GRANT SUPPORT</bold>"
+  },
+  {
+   "section": "back",
+   "text": "This study is supported by grants from National Basic Research Program of China (973 Program Ref No.2010CB529304)"
+  }
+ ]
+}

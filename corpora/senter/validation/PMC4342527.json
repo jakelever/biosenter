@@ -1,0 +1,599 @@
+{
+ "pmid": 25750604,
+ "pmcid": 4342527,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Mechanical Impedance and Its Relations to Motor Control, Limb Dynamics, and Motion Biomechanics"
+  },
+  {
+   "section": "abstract",
+   "text": "The concept of mechanical impedance represents the interactive relationship between deformation kinematics and the resulting dynamics in human joints or limbs. <sentence_start/>A major component of impedance, stiffness, is defined as the ratio between the force change to the displacement change and is strongly related to muscle activation. <sentence_start/>The set of impedance components, including effective mass, inertia, damping, and stiffness, is important in determining the performance of the many tasks assigned to the limbs and in counteracting undesired effects of applied loads and disturbances. <sentence_start/>Specifically for the upper limb, impedance enables controlling manual tasks and reaching motions. <sentence_start/>In the lower limb, impedance is responsible for the transmission and attenuation of impact forces in tasks of repulsive loadings. <sentence_start/>This review presents an updated account of the works on mechanical impedance and its relations with motor control, limb dynamics, and motion biomechanics. <sentence_start/>Basic questions related to the linearity and nonlinearity of impedance and to the factors that affect mechanical impedance are treated with relevance to upper and lower limb functions, joint performance, trunk stability, and seating under dynamic conditions. <sentence_start/>Methods for the derivation of mechanical impedance, both those for within the system and material-structural approaches, are reviewed. <sentence_start/>For system approaches, special attention is given to methods aimed at revealing the correct and sufficient degree of nonlinearity of impedance. <sentence_start/>This is particularly relevant in the design of spring-based artificial legs and robotic arms. <sentence_start/>Finally, due to the intricate relation between impedance and muscle activity, methods for the explicit expression of impedance of contractile tissue are reviewed."
+  },
+  {
+   "section": "article",
+   "text": "Introduction: Redundancy, Mechanical Indeterminacy, and Lumping"
+  },
+  {
+   "section": "article",
+   "text": "The human motor system benefits from remarkable neuro-muscular redundancies. <sentence_start/>A motor task is normally performed with the concurrent involvement of more muscles than seemingly required. <sentence_start/>Further, a given task may be performed in multiple ways, each involving different motor units from several muscles that have to be orderly activated and coordinated. <sentence_start/>It has been demonstrated that the central nervous system makes use of simplifying strategies to facilitate complex tasks through the creation of muscle synergies that are put together by the motor cortical area and afferent systems [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.3389/fncom.2013.00051\" pmcid=\"PMC3638124\" pmid=\"23641212\" count=\"1\">1</citation>]. <sentence_start/>From the mechanical viewpoint, the musculoskeletal system is indeterminate, with the number of unknown muscle forces exceeding the number of available equations [<citation ref-type=\"bibr\" rid=\"CR2\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The origin of neuro-muscular redundancy is expressed in the descending pathways from the central nervous system to the peripheral one. <sentence_start/>As a matter of fact, there exist multiple pathways for the execution of a given motor task such that the same information may be processed in different ways. <sentence_start/>Thus, a given central command may result in different activation combinations and, conversely, different commands can result in the same activation scheme. <sentence_start/>A trivial example arises when a joint torque of required intensity is to be provided. <sentence_start/>This torque can be produced in an infinite number of ways, involving co-contraction of the antagonist muscles at various activation intensities. <sentence_start/>From the purely mechanical aspect, the existence of co-contraction is actually undesirable because it results in a larger net joint force. <sentence_start/>Nonetheless, co-contraction is physiologically beneficial because it facilitates stability and controllability of posture and motion, sometimes at the cost of accelerated fatigue [<citation ref-type=\"bibr\" rid=\"CR3\" pmid=\"9460158\" doi=\"10.1097/00007632-199801010-00019\" count=\"1\">3</citation>]. <sentence_start/>An interesting issue relates to the possibility to unequivocally resolve the muscle forces from the estimated joint torques. <sentence_start/>The redundancy of the musculoskeletal system provides numerous possible solutions to the problem of partitioning torque among active muscles [<citation ref-type=\"bibr\" rid=\"CR4\" count=\"1\">4</citation>, <citation ref-type=\"bibr\" rid=\"CR5\" count=\"1\">5</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Thus, indeterminacy is associated with a multitude of possible solutions of the available system of equations. <sentence_start/>Conventional methods of addressing mechanical indeterminacy usually refer to the implementation of optimization criteria [<citation ref-type=\"bibr\" rid=\"CR6\" pmid=\"7276011\" doi=\"10.1016/0021-9290(81)90001-4\" count=\"1\">6</citation>, <citation ref-type=\"bibr\" rid=\"CR7\" pmid=\"7704345\" doi=\"10.1016/1350-4533(95)90378-o\" count=\"1\">7</citation>], providing supplementary equations that allow eliminating irrelevant solutions. <sentence_start/>Nonetheless, the level of indeterminacy is expected to decrease with the reduction of redundancy [<citation ref-type=\"bibr\" rid=\"CR8\" pmid=\"17350288\" doi=\"10.1016/j.jelekin.2007.01.009\" count=\"1\">8</citation>]. <sentence_start/>In this respect, information about the activities of the muscles as expressed by their electromyograms (EMGs) may be instrumental in resolving muscle and joint forces and other unknowns from the musculoskeletal mechanical equations [<citation ref-type=\"bibr\" rid=\"CR2\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Indeterminacy of the locomotor system can also be addressed by implementing the lumping method, whereby the material elements of the human body, e.g., muscles, tendons, ligaments, bones, and joints, are lumped together in functional units so that the overall musculoskeletal system is represented as a one or more degrees-of-freedom (DOFs) damped elastic mechanism, interconnecting the masses of the body segments [<citation ref-type=\"bibr\" rid=\"CR9\" count=\"1\">9</citation>]. <sentence_start/>This method has been implemented for the modeling of various physical activities, including reaching motion for the upper limb [<citation ref-type=\"bibr\" rid=\"CR10\" pmid=\"4045550\" doi=\"10.1523/JNEUROSCI.05-10-02732.1985\" pmcid=\"PMC6565149\" count=\"1\">10</citation>-<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>] or, for the lower limbs, walking, hopping, and running. <sentence_start/>In this latter case, the foot- or heel-strike period during the landing phase has been modeled by means of one-dimensional lumped models (with linear displacements) or rotational lumping (with angular displacements) [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1115/1.3138305\" pmid=\"7078120\" count=\"1\">15</citation>-<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1016/s0021-9290(98)00145-6\" pmid=\"10327006\" count=\"1\">23</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The idea of lumping has also been applied to the multi-segmental modeling of bilateral standing sway and standing imbalance [<citation ref-type=\"bibr\" rid=\"CR24\" count=\"1\">24</citation>-<citation ref-type=\"bibr\" rid=\"CR29\" count=\"1\">29</citation>] and the modeling of standing on one leg [<citation ref-type=\"bibr\" rid=\"CR4\" count=\"1\">4</citation>, <citation ref-type=\"bibr\" rid=\"CR8\" pmid=\"17350288\" doi=\"10.1016/j.jelekin.2007.01.009\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The rest of this review is organized as follows. <sentence_start/>Section 2 presents the concept of mechanical impedance and the conditions where it may be treated as a constant or a variable property, thus giving rise to nonlinearities such as those in repulsive tasks or in human joints. <sentence_start/>Section 3 deals with the derivation of equations from which the mechanical impedance can be resolved and with methods of solutions of these equations. <sentence_start/>Section 4 lists the factors affecting mechanical impedance, including muscle activation, pre-programming of muscle activity, weight bearing, body configuration, types of interface between body and environment, nature of performed tasks, learning, and fatigue. <sentence_start/>Section 5 presents the intrinsic expression of mechanical impedance derived from the tissue level, as opposed to the system level, and expands this notion for the explicit expression of the impedance for contractile tissue. <sentence_start/>Finally, section 6 concludes the review by highlighting the relevance of mechanical impedance to control strategies of movement and the design of artificial legs and robots."
+  },
+  {
+   "section": "article",
+   "text": "Concept of Mechanical Impedance"
+  },
+  {
+   "section": "article",
+   "text": "Definition"
+  },
+  {
+   "section": "article",
+   "text": "The complex relationship between deformation kinematics (generalized displacement/velocity) and the resulting dynamics (generalized force/torque), is termed mechanical impedance and defines the linear or rotational stiffness and damping characteristics of the system under consideration. <sentence_start/>The concept of impedance was first introduced in mechanical problems by Firestone [<citation ref-type=\"bibr\" rid=\"CR30\" count=\"1\">30</citation>]. <sentence_start/>In its simplest form, stiffness is defined as the ratio between the force change to the displacement change [<citation ref-type=\"bibr\" rid=\"CR31\" pmid=\"21396646\" doi=\"10.1016/j.jbiomech.2011.02.072\" count=\"1\">31</citation>]. <sentence_start/>The impedance components (stiffness, effective mass, and damping) are particularly important for limb function since they counteract the effects of applied loads and disturbances."
+  },
+  {
+   "section": "article",
+   "text": "In fact, a distinction should be made between impedance and admittance: while the first relates input kinematics to the resulting output dynamics of the system, the second relates the input dynamics to the resulting output kinematics. <sentence_start/>The electrical analogy of these two terms is with resistance and conductance which, like in mechanical systems, are also frequency-dependent. <sentence_start/>In linear systems, these two representations are usually equivalent and interchangeable. <sentence_start/>However, in nonlinear problems, such as those related to object manipulation, these two are not interchangeable [<citation ref-type=\"bibr\" rid=\"CR32\" count=\"1\">32</citation>]. <sentence_start/>For instance, for a hybrid controller implemented in the design of a torque-controlled manipulator to identify the dynamics of the wrist joint, the inertia and damping were implemented via admittance, and the stiffness via impedance [<citation ref-type=\"bibr\" rid=\"CR33\" pmid=\"16434105\" doi=\"10.1016/j.jneumeth.2005.12.001\" count=\"1\">33</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Average Impedance"
+  },
+  {
+   "section": "article",
+   "text": "A simpler definition of impedance makes reference to average stiffness, defined as the ratio between generalized force (force or torque) to overall generalized displacement (linear or angular) for the system under consideration (limb or joint). <sentence_start/>Similarly, average damping is obtained as the ratio between generalized force and generalized displacement rate."
+  },
+  {
+   "section": "article",
+   "text": "In a review of spring-damper lumped systems, models were categorized as being either passive or active [<citation ref-type=\"bibr\" rid=\"CR34\" doi=\"10.1177/0954411911424210\" pmid=\"22320052\" count=\"1\">34</citation>]. <sentence_start/>In passive models, the mechanical properties (stiffness and damping) were treated as being constant, and in active models, the mechanical properties were considered to adapt to external loads [<citation ref-type=\"bibr\" rid=\"CR34\" doi=\"10.1177/0954411911424210\" pmid=\"22320052\" count=\"1\">34</citation>]. <sentence_start/>This categorization contradicts, however, other studies, which showed that nonlinearities of stiffness and damping can be found also in the passive state."
+  },
+  {
+   "section": "article",
+   "text": "Past studies have modeled the human body using lumped components with constant average stiffnesses. <sentence_start/>Some examples are given below."
+  },
+  {
+   "section": "article",
+   "text": "Vibrating Seats and Vehicles"
+  },
+  {
+   "section": "article",
+   "text": "This category includes multiple-DOF linear models of a seated vehicle driver [<citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1115/1.3138671\" pmid=\"3657108\" count=\"1\">35</citation>-<citation ref-type=\"bibr\" rid=\"CR37\" pmid=\"7464277\" doi=\"10.1007/BF02443126\" count=\"1\">37</citation>], shipboard sitting subject to underwater shock [<citation ref-type=\"bibr\" rid=\"CR38\" pmid=\"11747881\" doi=\"10.1016/s0021-9290(01)00167-1\" count=\"1\">38</citation>], seated pregnant women for examination of the vibration effect on the woman and fetus under both horizontal and vertical vibrations [<citation ref-type=\"bibr\" rid=\"CR39\" pmid=\"8818132\" doi=\"10.1016/1350-4533(95)00060-7\" count=\"1\">39</citation>, <citation ref-type=\"bibr\" rid=\"CR40\" pmid=\"8964779\" doi=\"10.1016/0021-9290(95)00074-7\" count=\"1\">40</citation>], and seated wheelchair users [<citation ref-type=\"bibr\" rid=\"CR41\" pmid=\"12018649\" doi=\"10.1109/TNSRE.2001.1000116\" count=\"1\">41</citation>]. <sentence_start/>Using the electrical analogy method for solution, it was found that horizontal vibrations affect body segments more than do vertical vibrations [<citation ref-type=\"bibr\" rid=\"CR40\" pmid=\"8964779\" doi=\"10.1016/0021-9290(95)00074-7\" count=\"1\">40</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "With specific reference to seating design, an attempt was made to develop human body protection devices, such as cushions or seats with a shock absorber, in a vibration environment with a multiple-DOF lumped parameter model representing a seated human body/seat system and comprising the following two components: a global one, which included a systematic set of the model parameters for simulating various conditions such as body posture, backrest, footrest, muscle tension, and vibration directions; and a local one, which represented the human pelvis/vibrating seat contact, using a cushioning interface [<citation ref-type=\"bibr\" rid=\"CR42\" doi=\"10.1115/1.1559894\" pmid=\"12751284\" count=\"1\">42</citation>]. <sentence_start/>The very common seated position, particularly in the presence of vibrations, such as during the driving of a vehicle, is a subject of continuing interest as it is often related to the development of discomfort and back pain and spine disorders. <sentence_start/>Questions related to small-moderate variability of backrest inclination and backrest foam insertion, of position of the limbs while seated, and of the vibration conditions were shown to be satisfactorily addressed by a single-DOF lumped parameter model describing the vertical apparent mass of the human body. <sentence_start/>For example, contact with a rigid backrest, which is expected to reduce the vibrating mass and increase stiffness, resulted in an increase in the derived damped natural frequency of the principal resonance. <sentence_start/>An increase in the backrest inclination, which is also expected to reduce the moving mass, caused a decrease in the damping and an increase in the resonance frequency [<citation ref-type=\"bibr\" rid=\"CR43\" pmid=\"20953082\" doi=\"10.2486/indhealth.mswbvi-33\" count=\"1\">43</citation>]. <sentence_start/>In search for criteria for developing active and passive isolation mechanisms for reducing the effects of whole-body vibration exposure while seated, one study developed a three-mass, two-DOF model that revealed nonlinear stiffness properties whereby the mean stiffness coefficients and the mean undamped natural frequencies associated with the upper torso and leg subsystems showed a significant decrease with increasing acceleration level [<citation ref-type=\"bibr\" rid=\"CR44\" pmid=\"8060029\" doi=\"10.1007/BF02368224\" count=\"1\">44</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Upper Limb"
+  },
+  {
+   "section": "article",
+   "text": "In the design of a torque-controlled manipulator, the wrist dynamics was described by a second-order inertia-spring-damper system and no distinction was made between muscle viscoelasticity and reflexive stiffness [<citation ref-type=\"bibr\" rid=\"CR33\" pmid=\"16434105\" doi=\"10.1016/j.jneumeth.2005.12.001\" count=\"1\">33</citation>]. <sentence_start/>An apparatus was developed to quantify the average dynamic mechanical properties during active muscle exertions by delivering an external perturbation to the upper limb through a handle. <sentence_start/>The mechanical stiffness, damping, and effective mass elements were determined from free vibration displacement by calculating the frequency changes of the externally loaded system [<citation ref-type=\"bibr\" rid=\"CR45\" pmid=\"16076739\" doi=\"10.1080/00140130500142209\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For the hand-arm system, early modeling with constant impedance made use of a two-DOF representation of the elbow-wrist joints with linear impedances to describe the dynamic response to vibration input to the hand and revealed that the hand-arm system may be viewed as a low-pass mechanical filter that attenuates high frequencies [<citation ref-type=\"bibr\" rid=\"CR12\" pmid=\"11699114\" doi=\"10.1037/0033-295x.108.4.709\" count=\"1\">12</citation>, <citation ref-type=\"bibr\" rid=\"CR13\" count=\"1\">13</citation>]. <sentence_start/>A dynamic model of the biomechanics of the index finger including all the tendons and their varying moment arms assumed a constant stiffness [<citation ref-type=\"bibr\" rid=\"CR7\" pmid=\"7704345\" doi=\"10.1016/1350-4533(95)90378-o\" count=\"1\">7</citation>]. <sentence_start/>Finger impedance measurements made under perturbations fast enough to prevent spinal reflex interference during data acquisition also assumed constant impedance [<citation ref-type=\"bibr\" rid=\"CR46\" pmid=\"21863387\" doi=\"10.1007/s10439-011-0381-7\" count=\"1\">46</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Models for Physical Activities of Repulsive Tasks"
+  },
+  {
+   "section": "article",
+   "text": "These models have provided, to a limited extent, reasonable prediction of the foot-ground reaction forces while using lumped models with constant-average-stiffness elastic springs and negligible or no viscous damping [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1115/1.3138305\" pmid=\"7078120\" count=\"1\">15</citation>, <citation ref-type=\"bibr\" rid=\"CR21\" pmid=\"8849811\" doi=\"10.1016/0021-9290(95)00029-1\" count=\"1\">21</citation>, <citation ref-type=\"bibr\" rid=\"CR22\" pmid=\"10093026\" doi=\"10.1016/s0021-9290(98)00170-5\" count=\"1\">22</citation>, <citation ref-type=\"bibr\" rid=\"CR47\" pmid=\"10569714\" doi=\"10.1016/s0021-9290(99)00133-5\" count=\"1\">47</citation>-<citation ref-type=\"bibr\" rid=\"CR50\" pmid=\"2081746\" doi=\"10.1016/0021-9290(90)90042-2\" count=\"1\">50</citation>]. <sentence_start/>For running jumps for height and distance, segmental wobbling mass modeling was used to determine the elastic parameters of segments and the foot-ground interface [<citation ref-type=\"bibr\" rid=\"CR51\" pmid=\"16002080\" doi=\"10.1016/j.jbiomech.2005.05.012\" count=\"1\">51</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Models for Carrying Backpacks"
+  },
+  {
+   "section": "article",
+   "text": "Lumped models simulating the interaction between the human trunk and a carried backpack using constant impedance values have been developed [<citation ref-type=\"bibr\" rid=\"CR52\" pmid=\"19062021\" doi=\"10.1016/j.jbiomech.2008.10.012\" count=\"1\">52</citation>]. <sentence_start/>Backpack dynamics has been described using a nonlinear suspension model within whole body motion analysis during carrying. <sentence_start/>It was found that decreasing suspension stiffness moderated the peak values of vertical backpack force, acting on the trunk and lower limb joints. <sentence_start/>This reduced shoulder strap pressures and the risk of injury when heavy loads were carried. <sentence_start/>It was also found that the backpack suspension stiffness and damping have little effect on human locomotion energetics [<citation ref-type=\"bibr\" rid=\"CR53\" pmid=\"15713307\" doi=\"10.1016/j.jbiomech.2004.04.030\" count=\"1\">53</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Spine Models"
+  },
+  {
+   "section": "article",
+   "text": "Numerous lumped models of the spine structure with constant impedance values have been developed. <sentence_start/>For example, a five-DOF lumped equivalent model with constant impedance values was developed for the lumbar spine [<citation ref-type=\"bibr\" rid=\"CR54\" pmid=\"12381970\" doi=\"10.1067/mmt.2002.127079\" count=\"1\">54</citation>], from which the postero-anterior motion could be predicted in the static, cyclic, and impulsive force modes."
+  },
+  {
+   "section": "article",
+   "text": "Variable Impedance"
+  },
+  {
+   "section": "article",
+   "text": "Linear models fail to predict the true dynamic response of the modeled systems. <sentence_start/>The use of invariable mechanical stiffness may not be physiologically applicable, as stiffness nonlinearity is important in stabilizing elastic chains during dynamic loading [<citation ref-type=\"bibr\" rid=\"CR55\" pmid=\"11357549\" doi=\"10.1007/PL00007982\" count=\"1\">55</citation>]. <sentence_start/>Joint impedance has thus been treated as a nonlinear phenomenon [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>, <citation ref-type=\"bibr\" rid=\"CR56\" doi=\"10.1007/BF00430956\" pmid=\"598364\" count=\"1\">56</citation>-<citation ref-type=\"bibr\" rid=\"CR58\" pmid=\"8253830\" doi=\"10.1016/0021-9290(93)90073-n\" count=\"1\">58</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "It has been claimed that the determination of constant-value stiffness and damping coefficients is an ill-posed problem and that small errors in the measured kinematic data (i.e., noise, time delays) will lead to large errors in the estimated variables [<citation ref-type=\"bibr\" rid=\"CR59\" pmid=\"2049415\" doi=\"10.1007/BF00224708\" count=\"1\">59</citation>, <citation ref-type=\"bibr\" rid=\"CR60\" pmid=\"21637750\" doi=\"10.1371/journal.pone.0019568\" pmcid=\"PMC3103502\" count=\"1\">60</citation>]. <sentence_start/>It has thus been suggested that parameter estimation should rather be conducted using a moving-time-window algorithm, resulting in impedance values that are influenced not only by the nature of the perturbation but also by the time window over which the parameters are estimated [<citation ref-type=\"bibr\" rid=\"CR60\" pmid=\"21637750\" doi=\"10.1371/journal.pone.0019568\" pmcid=\"PMC3103502\" count=\"1\">60</citation>]. <sentence_start/>A time-window method was implemented to determine the time-dependent changes in joint stiffness, damping, and equilibrium position in human forearm movements based on data of a single movement [<citation ref-type=\"bibr\" rid=\"CR61\" pmid=\"10529503\" doi=\"10.1123/mcj.3.4.394\" count=\"1\">61</citation>]. <sentence_start/>It should be noted, however, that although stiffness and damping in a stiffness-damping-inertia model is a nonlinear mixture of all the dynamic parameters of the musculoskeletal model, for practical purposes model representation of the impedance redundancies can be reduced to less cumbersome nonlinearities [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Physical Activities of Repulsive Tasks"
+  },
+  {
+   "section": "article",
+   "text": "Hopping"
+  },
+  {
+   "section": "article",
+   "text": "Repulsive tasks such as human hopping, jumping, and running were studied by assuming position-dependent and/or angle-dependent joint stiffnesses in three-segment models [<citation ref-type=\"bibr\" rid=\"CR55\" pmid=\"11357549\" doi=\"10.1007/PL00007982\" count=\"1\">55</citation>]. <sentence_start/>Damping, though generally not negligible, was found to be low. <sentence_start/>More specifically, for hopping motion, rotational springs with nonlinear stiffnesses in a four-segment leg model revealed that the correct and sufficient variability of the joint stiffness is of first order (i.e., linearly variable with joint angle) [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Muscular activation level, which in hopping motion determines the ability of the muscle-tendon complex to absorb, store, release, and generate energy, varies during the stance phase. <sentence_start/>Since the stiffness generally depends on the activation level of the muscle [<citation ref-type=\"bibr\" rid=\"CR3\" pmid=\"9460158\" doi=\"10.1097/00007632-199801010-00019\" count=\"1\">3</citation>, <citation ref-type=\"bibr\" rid=\"CR62\" pmid=\"17196827\" doi=\"10.1016/j.jelekin.2006.10.010\" count=\"1\">62</citation>], it follows that hopping cannot be treated as a purely harmonic motion and that human joints are not simple mechanical springs."
+  },
+  {
+   "section": "article",
+   "text": "Running"
+  },
+  {
+   "section": "article",
+   "text": "For the stance phase of human running, the leg was modeled as a one-dimensional four-DOF lumped system [<citation ref-type=\"bibr\" rid=\"CR9\" count=\"1\">9</citation>]. <sentence_start/>Departing from the constant-stiffness concept, the model revealed that a correct and sufficient variability of the joint stiffness is a two-region piece-wise constant joint stiffness, indicating that a higher order of nonlinearity is unnecessary. <sentence_start/>This result should be considered meaningful for problems where the constant stiffness representation is insufficient and in cases where the system’s representation has to be improved. <sentence_start/>As already mentioned, joint stiffness is dominated by muscular activation [<citation ref-type=\"bibr\" rid=\"CR63\" count=\"1\">63</citation>, <citation ref-type=\"bibr\" rid=\"CR64\" pmid=\"3410857\" doi=\"10.1016/0021-9290(88)90217-5\" count=\"1\">64</citation>] and as the joints stiffen, they experience a decrease in angular displacements during the ground-contact phase, resulting in smaller excursion of the hip and higher leg stiffness. <sentence_start/>Solutions obtained using piece-wise constant stiffness provide, through the obtained stiffness profiles, an insight into the patterns of the muscular activation in the legs’ joints. <sentence_start/>A simple model with a piece-wise constant stiffness can predict major features of running, making it an effective tool for the design of artificial legs and robots and also for the development of more accurate control strategies."
+  },
+  {
+   "section": "article",
+   "text": "It was also reported that during heel strike, the joints did not have a damping effect, and thus did not contribute to energy dissipation [<citation ref-type=\"bibr\" rid=\"CR9\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Ankle Joint"
+  },
+  {
+   "section": "article",
+   "text": "The complexity of the ankle joint presents an interesting challenge for modeling and resolving mechanical impedance. <sentence_start/>Considering first the mechanics of this joint in the sagittal plane, i.e., with the motion taking place in plantar and dorsi flexion of the joint, the relationship between the applied external moment and the resulting angular displacement can be studied in oscillatory motion, in which the foot is driven relative to the shank with the torque being applied by means of a band-limited oscillatory Gaussian signal [<citation ref-type=\"bibr\" rid=\"CR65\" pmid=\"690152\" doi=\"10.1016/0021-9290(78)90010-6\" count=\"1\">65</citation>]. <sentence_start/>This setting also allows studying the effects on mechanical impedance of the activation level of the muscles around the joint, and of the dynamic reflex as a result of applying a sudden torque. <sentence_start/>Variations in the resting posture of the tested subject, the mode of attachment of the foot, and the manner of applying the displacement perturbations to the foot were later introduced to this method [<citation ref-type=\"bibr\" rid=\"CR66\" pmid=\"7153228\" doi=\"10.1016/0021-9290(82)90090-2\" count=\"1\">66</citation>]. <sentence_start/>The amplitude of motion and fatigue of the muscles during exercise were found to be of considerable significance to mechanical impedance values."
+  },
+  {
+   "section": "article",
+   "text": "Further, by applying stochastic perturbation of the ankle angular position for actively exerting plantar or dorsi flexion torques, mechanical impedance was evaluated in the ankle joint for a range of muscle activation levels. <sentence_start/>It was found that while the elastic stiffness proportionally increased with the mean torque at all levels of muscle activation, damping remained almost invariant over the entire range of contractions [<citation ref-type=\"bibr\" rid=\"CR64\" pmid=\"3410857\" doi=\"10.1016/0021-9290(88)90217-5\" count=\"1\">64</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The above studies about the ankle joint in plantar/dorsi flexion motion made use of a second-order quasi-linear underdamped system, by which elastic stiffness, damping coefficient, natural frequency, and moment of inertia of the foot about the ankle joint could be evaluated. <sentence_start/>Stiffness and damping characteristics of the ankle joint plantar flexors were not affected by static stretching [<citation ref-type=\"bibr\" rid=\"CR67\" count=\"1\">67</citation>, <citation ref-type=\"bibr\" rid=\"CR68\" count=\"1\">68</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For the subtalar joint, statically evaluating the stiffness of various football boots in inversion-eversion motion revealed that when using rigidly attached high boots, ligamentous load on the subtalar joint was reduced considerably, indicating conditions under which footwear may protect the joint [<citation ref-type=\"bibr\" rid=\"CR60\" pmid=\"21637750\" doi=\"10.1371/journal.pone.0019568\" pmcid=\"PMC3103502\" count=\"1\">60</citation>]. <sentence_start/>For that same joint, for an unexpected and sudden inversion motion of the foot, it was reported that the stretch reflex on the peroneal muscles remains unelicited for a period of approximately 70 ms from the onset of motion [<citation ref-type=\"bibr\" rid=\"CR69\" count=\"1\">69</citation>]. <sentence_start/>Subsequently, the dynamic properties of the human subtalar joint in sudden inversion motion, which is likely to occur in conditions of inversion sprain of the ankle joint, were studied in vivo on a specially designed apparatus [<citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>]. <sentence_start/>This joint was modeled as a quasi-linear second-order underdamped system, from which the elastic stiffness and damping coefficient, the natural frequency of the foot, and its moment of inertia about the joint were evaluated. <sentence_start/>The variation of mechanical impedance with joint angle was confirmed [<citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Stiffness, damping, and inertia parameters were also studied in three- and four-DOF models of the lower limb in torsion, in which a dynamic pulse loading was applied at the foot-boot level [<citation ref-type=\"bibr\" rid=\"CR71\" pmid=\"3417692\" doi=\"10.1016/0021-9290(88)90146-7\" count=\"1\">71</citation>, <citation ref-type=\"bibr\" rid=\"CR72\" pmid=\"7096375\" doi=\"10.1016/0021-9290(82)90254-8\" count=\"1\">72</citation>]. <sentence_start/>For rotation motion, the dynamics of the ankle in the medial-lateral plane in both laboratory and skiing apparatuses was studied to identify stiffness, damping, and inertia parameters [<citation ref-type=\"bibr\" rid=\"CR72\" pmid=\"7096375\" doi=\"10.1016/0021-9290(82)90254-8\" count=\"1\">72</citation>]. <sentence_start/>Weight bearing on the foot and muscle-induced torsion were used as test variables, and were found to be important in studying the dynamics of the ankle. <sentence_start/>Comparing this model with a more simplified single-DOF model, which best duplicates the rotation of the knee, indicated that the latter model gave good prediction of knee rotation, with stiffness symmetrical with respect to the rotation direction [<citation ref-type=\"bibr\" rid=\"CR71\" pmid=\"3417692\" doi=\"10.1016/0021-9290(88)90146-7\" count=\"1\">71</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Upper Limb"
+  },
+  {
+   "section": "article",
+   "text": "The mechanical impedance of the upper limb is of great interest because of the many tasks assigned to the upper limb, including manual tasks (such as grasping and/or using hand and power tools) and reaching motions. <sentence_start/>Prior to a detailed discussion on these tasks, it should be mentioned that torsional pendulum tests were implemented on the upper limb, allowing limb inertia and muscle stiffness to be calculated [<citation ref-type=\"bibr\" rid=\"CR73\" pmid=\"3588828\" doi=\"10.1113/expphysiol.1987.sp003060\" count=\"1\">73</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Grasping Objects and Reaching Motion"
+  },
+  {
+   "section": "article",
+   "text": "Numerous studies have modeled grasping and reaching motion. <sentence_start/>With the objective to map the field of restoring forces associated with posture in the horizontal plane of the multiarticular arm, small displacements along various directions were delivered to the hand [<citation ref-type=\"bibr\" rid=\"CR10\" pmid=\"4045550\" doi=\"10.1523/JNEUROSCI.05-10-02732.1985\" pmcid=\"PMC6565149\" count=\"1\">10</citation>]. <sentence_start/>Measured force and displacement vectors before the onset of voluntary reaction were used to estimate the stiffness in the vicinity of the hand equilibrium position. <sentence_start/>It was found that the forces were predominantly conservative, indicating a spring-like behavior of the neuromuscular system. <sentence_start/>A defined stiffness ellipse, representing the main geometrical features of the elastic force field, was defined as follows: the major and minor axes were scaled to the maximum and minimum stiffness, respectively; the ellipse area was scaled to the total stiffness, and the orientation of the ellipse was made to coincide with the direction of the major (or minor) axis. <sentence_start/>Interestingly, the obtained ellipse field was found to be invariant among the tested subjects and over time of testing. <sentence_start/>Further, when a disturbance acting along a fixed and predictable direction was imposed, the magnitude of the total stiffness increased but only minor changes in shape and orientation occurred, shedding light on neural factors involved in maintaining hand posture [<citation ref-type=\"bibr\" rid=\"CR10\" pmid=\"4045550\" doi=\"10.1523/JNEUROSCI.05-10-02732.1985\" pmcid=\"PMC6565149\" count=\"1\">10</citation>]. <sentence_start/>Measuring the postural force field of a subject’s arm over relatively large distances, and comparing these forces with the static forces generated at the hand while the subject attempted a reaching movement, confirmed the hypothesis that the central nervous system programs a reaching movement by shifting the equilibrium position of the hand toward the target [<citation ref-type=\"bibr\" rid=\"CR74\" pmid=\"8423483\" doi=\"10.1523/JNEUROSCI.13-01-00045.1993\" pmcid=\"PMC6576309\" count=\"1\">74</citation>]. <sentence_start/>However, due to the large displacements from equilibrium, the use of a nonlinear model (i.e., a variable stiffness matrix) is required to describe the measured postural field [<citation ref-type=\"bibr\" rid=\"CR74\" pmid=\"8423483\" doi=\"10.1523/JNEUROSCI.13-01-00045.1993\" pmcid=\"PMC6576309\" count=\"1\">74</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "As later shown, during simple point-to-point movement, the human arm did not behave in a conservative manner and could not even be described as a stable passive dynamic system around a desired trajectory. <sentence_start/>In fact, muscle properties and automatic reflex response can result in significant deviations from the desired trajectory, with over-compensation in the form of an active response [<citation ref-type=\"bibr\" rid=\"CR75\" count=\"1\">75</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Grasping Objects and Locomotion"
+  },
+  {
+   "section": "article",
+   "text": "An interesting problem presents when grasping takes place simultaneously with locomotion, requiring the coordination of these two modes of control [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>, <citation ref-type=\"bibr\" rid=\"CR76\" count=\"1\">76</citation>-<citation ref-type=\"bibr\" rid=\"CR78\" pmid=\"16874513\" doi=\"10.1007/s00221-006-0618-0\" count=\"1\">78</citation>]. <sentence_start/>More specifically, the effect of constraint of the joints of the upper limb was studied to shed light on the mechanisms of stabilization of manually held objects during walking through impedance adjustments [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>]. <sentence_start/>This was performed by successively immobilizing each of the joints while subjects walked steadily with a hand-held cup filled with liquid. <sentence_start/>The ability to maintain the liquid level was used to indicate how well the limb navigated itself to minimize liquid spillage from the cup and how the limb adapted to the imposed joint restrictions. <sentence_start/>This problem has strong relevance in impedance-based control strategies and provides an insight into the mechanisms by which stiffness and damping are adjusted to accommodate changes taking place during manual transport of objects while aiming to ensure their stability during walking."
+  },
+  {
+   "section": "article",
+   "text": "A two-dimensional sagittal model consisting of three segments, namely upper arm, forearm, and hand connected together by the joints via lumped parameter impedances representing damped springs, was thus set to describe the system. <sentence_start/>The semi-repetitive oscillations of the shoulder girdle produced by the ambulatory mechanism in concert with the motion of the joints of the upper limb navigated the hand holding the cup of liquid in an oscillatory-like motion. <sentence_start/>With the gait-generated motion of the shoulder girdle and limb serving as inputs to the model and the kinematics of the hand holding the fluid filled cup serving as output, the impedance adjustments were resolved during the simultaneous control of grasping and walking under ordinary conditions, and when each one of the joints is immobilized."
+  },
+  {
+   "section": "article",
+   "text": "Neck Modeling in Impact Motion"
+  },
+  {
+   "section": "article",
+   "text": "A lumped model to describe neck behavior in low-velocity rear-end impact implemented on a dummy satisfactorily predicted the response when elastic stiffness and damping were combined in the muscle substitutes with a nonlinear stiffness of model joints [<citation ref-type=\"bibr\" rid=\"CR79\" pmid=\"10688482\" doi=\"10.1016/s0001-4575(99)00085-8\" count=\"1\">79</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Derivation of Equations for Dynamic Model"
+  },
+  {
+   "section": "article",
+   "text": "Nature of Driving Perturbation"
+  },
+  {
+   "section": "article",
+   "text": "Impedance values can be generally derived from the dynamic equations of motion, through which relationships between the driving perturbation and the resulting response can be obtained. <sentence_start/>Methods can be grouped according to the mode of applied driving force or displacement perturbation as follows."
+  },
+  {
+   "section": "article",
+   "text": "Oscillatory Methods"
+  },
+  {
+   "section": "article",
+   "text": "A common method to resolve mechanical impedance from oscillatory motion was implemented in the wrist joint [<citation ref-type=\"bibr\" rid=\"CR80\" pmid=\"16125181\" doi=\"10.1016/j.jbiomech.2005.06.022\" count=\"1\">80</citation>] and ankle joint [<citation ref-type=\"bibr\" rid=\"CR65\" pmid=\"690152\" doi=\"10.1016/0021-9290(78)90010-6\" count=\"1\">65</citation>]. <sentence_start/>In this latter case, the foot was driven relative to the shank and the torque was delivered by means of a band-limited oscillatory Gaussian signal. <sentence_start/>This provided the relationship between the applied external moment and the resulting angular displacement of the joint. <sentence_start/>Oscillatory methods were also used to study the biomechanical characteristics of the muscles of the human ankle joint [<citation ref-type=\"bibr\" rid=\"CR81\" pmid=\"6540667\" doi=\"10.1007/BF00943370\" count=\"1\">81</citation>] and the human arm [<citation ref-type=\"bibr\" rid=\"CR82\" pmid=\"13997862\" count=\"1\">82</citation>, <citation ref-type=\"bibr\" rid=\"CR83\" doi=\"10.1109/IEMBS.2010.5627544\" pmid=\"21096937\" count=\"1\">83</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Impact Perturbation"
+  },
+  {
+   "section": "article",
+   "text": "A fast forward head movement in the frontal plane was modeled to study head-neck joint response [<citation ref-type=\"bibr\" rid=\"CR84\" pmid=\"15316785\" doi=\"10.1007/s00422-004-0481-7\" count=\"1\">84</citation>]. <sentence_start/>If the perturbation is fast enough, the effect of the accompanied muscular activity can be neutralized. <sentence_start/>A method to accomplish that was devised for inversion motion of the subtalar joint by suddenly and unexpectedly rotating the foot relative to the shank on a specially constructed swiveling platform, driven by stretched springs. <sentence_start/>If motion lasts less than 40 ms, the protective muscles are not elicited by the stretch reflex [<citation ref-type=\"bibr\" rid=\"CR69\" count=\"1\">69</citation>]. <sentence_start/>The impedance properties obtained from this experiment represent the passive properties of the ankle joint in inversion/eversion motion in sprain-like conditions of the ankle. <sentence_start/>Using appropriate instrumentation, information about torque and kinematics can be obtained [<citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>]. <sentence_start/>The same idea of preventing the stretch reflex by sufficiently fast perturbations was applied for measuring human finger impedance [<citation ref-type=\"bibr\" rid=\"CR46\" pmid=\"21863387\" doi=\"10.1007/s10439-011-0381-7\" count=\"1\">46</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Pendulum Oscillations"
+  },
+  {
+   "section": "article",
+   "text": "Oscillatory testing of the lower leg about the knee joint was implemented for deriving stiffness and damping of the joint muscles, i.e., for the extensors in vibration mode [<citation ref-type=\"bibr\" rid=\"CR85\" pmid=\"956196\" doi=\"10.1016/0021-9290(76)90069-5\" count=\"1\">85</citation>, <citation ref-type=\"bibr\" rid=\"CR86\" pmid=\"22995394\" doi=\"10.1152/japplphysiol.00960.2012\" pmcid=\"PMC3544505\" count=\"1\">86</citation>], a pendulum test [<citation ref-type=\"bibr\" rid=\"CR87\" pmid=\"6694374\" doi=\"10.1016/0141-5425(84)90003-7\" count=\"1\">87</citation>-<citation ref-type=\"bibr\" rid=\"CR89\" pmid=\"8234455\" doi=\"10.1093/ptj/73.11.740\" count=\"1\">89</citation>], and joint flexors [<citation ref-type=\"bibr\" rid=\"CR90\" pmid=\"14659928\" doi=\"10.1016/j.clinbiomech.2003.09.003\" count=\"1\">90</citation>]. <sentence_start/>The validity of the pendulum motion test for testing spasticity around the knee joint has been studied for two cases [<citation ref-type=\"bibr\" rid=\"CR91\" pmid=\"1743739\" doi=\"10.1109/10.83611\" count=\"1\">91</citation>]: (a) gravity-induced free oscillations in which no reflex excitation occurred, and (b) spastic limb oscillations in which reflex excitation did occur. <sentence_start/>In the first case, a linear second-order model was not adequate to satisfactorily describe the motion and asymmetries in the amplitude dependencies had to be the incorporated in the impedance parameters. <sentence_start/>In the second case, EMG-based impedance components had to be added [<citation ref-type=\"bibr\" rid=\"CR91\" pmid=\"1743739\" doi=\"10.1109/10.83611\" count=\"1\">91</citation>]. <sentence_start/>Similarly, for the elbow, a linear second-order model for pendulum testing indicated that the stiffness coefficient remained relatively consistent among the groups tested. <sentence_start/>In testing spasticity, both the damping coefficient and damping ratio increased in the affected side of stroke patients and tended to increase with the severity of spasticity [<citation ref-type=\"bibr\" rid=\"CR92\" pmid=\"12589623\" doi=\"10.1053/apmr.2003.50066\" count=\"1\">92</citation>]. <sentence_start/>Pendulum passive testing of the elbow joint revealed that the obtained impedance properties were similar between men and women with comparable body weights and did not deteriorate significantly with age [<citation ref-type=\"bibr\" rid=\"CR93\" pmid=\"15640995\" doi=\"10.1016/j.apmr.2003.12.027\" count=\"1\">93</citation>]. <sentence_start/>Torsional pendulum tests were also implemented on the upper limb, allowing limb inertia and muscle stiffness to be calculated [<citation ref-type=\"bibr\" rid=\"CR73\" pmid=\"3588828\" doi=\"10.1113/expphysiol.1987.sp003060\" count=\"1\">73</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Static, Dynamic, and Creep Tests"
+  },
+  {
+   "section": "article",
+   "text": "Static, dynamic, and creep tests of the human knee in vivo were performed to estimate the viscoelastic properties of the knee [<citation ref-type=\"bibr\" rid=\"CR94\" pmid=\"939766\" doi=\"10.1016/0021-9290(76)90087-7\" count=\"1\">94</citation>]. <sentence_start/>The dynamic disturbance was provided by means of a sinusoidal displacement generator to excite the knee-leg system and the driving force was monitored as a function of the frequency and mechanical characteristics of the knee. <sentence_start/>It was found that in quasi-static loading, the knee exhibited hysteresis. <sentence_start/>In dynamic loading, the knee behaved as a single-DOF spring-mass-damper system with a St. Venant’s friction element [<citation ref-type=\"bibr\" rid=\"CR94\" pmid=\"939766\" doi=\"10.1016/0021-9290(76)90087-7\" count=\"1\">94</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Common Daily Activities"
+  },
+  {
+   "section": "article",
+   "text": "Other methods used for studying how the system reacts to perturbations made use of common ordinary daily activities. <sentence_start/>This can be illustrated in locomotion modeled as an inverted pendulum with springs and damping, through which various effects of impairments such as spasticity or muscle weakness in cerebral palsy can be estimated [<citation ref-type=\"bibr\" rid=\"CR95\" pmid=\"11714557\" doi=\"10.1016/s0268-0033(01)00067-5\" count=\"1\">95</citation>]. <sentence_start/>Another example for a natural task is found in the design of torque-controlled manipulator (with torque disturbances) to identify the dynamics of the wrist joint, both under natural and neurologically impaired conditions, while the subject actively controls the joint angle [<citation ref-type=\"bibr\" rid=\"CR33\" pmid=\"16434105\" doi=\"10.1016/j.jneumeth.2005.12.001\" count=\"1\">33</citation>]. <sentence_start/>Other activities were used for evaluating the joint impedance of the lower limbs: (a) simulation of single-leg standing using an open-loop model [<citation ref-type=\"bibr\" rid=\"CR4\" count=\"1\">4</citation>], (b) swaying motion in bi-pedal standing, used to feed a three-dimensional five-segment model with four joints by means of which an iterative estimation of the kinematics and dynamics of the system was conducted, opening the possibility of the estimation of the mechanical impedances in the joints of the lower extremity, power transfer through the joints, and the production of muscle forces [<citation ref-type=\"bibr\" rid=\"CR26\" pmid=\"9652081\" doi=\"10.1007/s004220050436\" count=\"1\">26</citation>], (c) hopping motions using a four-link lumped model [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>], (d) jumping and running motion to establish the input force for one-dimensional multi-DOF impedances [<citation ref-type=\"bibr\" rid=\"CR9\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1115/1.3138305\" pmid=\"7078120\" count=\"1\">15</citation>, <citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1115/1.3138671\" pmid=\"3657108\" count=\"1\">35</citation>, <citation ref-type=\"bibr\" rid=\"CR37\" pmid=\"7464277\" doi=\"10.1007/BF02443126\" count=\"1\">37</citation>, <citation ref-type=\"bibr\" rid=\"CR81\" pmid=\"6540667\" doi=\"10.1007/BF00943370\" count=\"1\">81</citation>, <citation ref-type=\"bibr\" rid=\"CR96\" pmid=\"9302670\" doi=\"10.1016/s1350-4533(96)00081-1\" count=\"1\">96</citation>], and (e) seated postures in oscillatory environments [<citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1115/1.3138671\" pmid=\"3657108\" count=\"1\">35</citation>-<citation ref-type=\"bibr\" rid=\"CR43\" pmid=\"20953082\" doi=\"10.2486/indhealth.mswbvi-33\" count=\"1\">43</citation>, <citation ref-type=\"bibr\" rid=\"CR97\" count=\"1\">97</citation>]. <sentence_start/>Upper limb models were utilized for the simulation of various tasks, such as grasping during semi-oscillatory walking motion [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Governing Equations"
+  },
+  {
+   "section": "article",
+   "text": "The dynamics of interconnected lumped segments can be expressed using Newton-Euler equations of motion [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1115/1.3138305\" pmid=\"7078120\" count=\"1\">15</citation>, <citation ref-type=\"bibr\" rid=\"CR26\" pmid=\"9652081\" doi=\"10.1007/s004220050436\" count=\"1\">26</citation>, <citation ref-type=\"bibr\" rid=\"CR59\" pmid=\"2049415\" doi=\"10.1007/BF00224708\" count=\"1\">59</citation>, <citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>] and inverse-dynamics methods, such as for impact loading of the lower leg [<citation ref-type=\"bibr\" rid=\"CR9\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>] or step loading of the elbow [<citation ref-type=\"bibr\" rid=\"CR98\" pmid=\"21484509\" doi=\"10.1007/s10439-011-0308-3\" count=\"1\">98</citation>]. <sentence_start/>Alternatively, velocity-based inverse-dynamics equations using Kane’s [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>, <citation ref-type=\"bibr\" rid=\"CR99\" count=\"1\">99</citation>] method can be used. <sentence_start/>For single-stance standing, open-chain inverse-dynamics was used [<citation ref-type=\"bibr\" rid=\"CR4\" count=\"1\">4</citation>, <citation ref-type=\"bibr\" rid=\"CR100\" count=\"1\">100</citation>, <citation ref-type=\"bibr\" rid=\"CR101\" count=\"1\">101</citation>]. <sentence_start/>The governing equations for expressing the mechanical impedances in lumped systems can be categorized as follows."
+  },
+  {
+   "section": "article",
+   "text": "Second-Order System"
+  },
+  {
+   "section": "article",
+   "text": "Second-order quasi-linear underdamped systems have been used for oscillatory motion [<citation ref-type=\"bibr\" rid=\"CR65\" pmid=\"690152\" doi=\"10.1016/0021-9290(78)90010-6\" count=\"1\">65</citation>, <citation ref-type=\"bibr\" rid=\"CR66\" pmid=\"7153228\" doi=\"10.1016/0021-9290(82)90090-2\" count=\"1\">66</citation>], impact motion [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1115/1.3138305\" pmid=\"7078120\" count=\"1\">15</citation>, <citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>], and isotonic loading of the trunk [<citation ref-type=\"bibr\" rid=\"CR62\" pmid=\"17196827\" doi=\"10.1016/j.jelekin.2006.10.010\" count=\"1\">62</citation>] to evaluate elastic stiffness, damping coefficient, natural frequency, and moment of inertia. <sentence_start/>Such systems were implemented for the ankle joint in plantar and dorsi flexion motion [<citation ref-type=\"bibr\" rid=\"CR65\" pmid=\"690152\" doi=\"10.1016/0021-9290(78)90010-6\" count=\"1\">65</citation>, <citation ref-type=\"bibr\" rid=\"CR66\" pmid=\"7153228\" doi=\"10.1016/0021-9290(82)90090-2\" count=\"1\">66</citation>], the wrist joint [<citation ref-type=\"bibr\" rid=\"CR80\" pmid=\"16125181\" doi=\"10.1016/j.jbiomech.2005.06.022\" count=\"1\">80</citation>], and the trunk using the load sudden-release method [<citation ref-type=\"bibr\" rid=\"CR102\" pmid=\"19062020\" doi=\"10.1016/j.jbiomech.2008.10.001\" count=\"1\">102</citation>]. <sentence_start/>Active extension exertions were also used in the trunk to estimate the active impedance component values using second-order trunk dynamics following preload that caused small amplitude trunk movements [<citation ref-type=\"bibr\" rid=\"CR103\" pmid=\"16084200\" doi=\"10.1016/j.jbiomech.2004.09.014\" pmcid=\"PMC1630678\" count=\"1\">103</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Regressive Function"
+  },
+  {
+   "section": "article",
+   "text": "Regressive functions can be used to express stiffness and damping in terms of joint angle and joint angular velocity. <sentence_start/>For instance, it has been found that for the upper limb joints during grasping control taking place simultaneously with walking motion, stiffness includes first-order dependence on angle and angular velocity. <sentence_start/>The function used for damping included first-order dependence on angular velocity [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>]. <sentence_start/>For the lower limb, it was found that during hopping motion, stiffness included second-order dependence on angle and first-order dependence on angular velocity and that damping was negligible [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>]. <sentence_start/>The logic behind representing such a regressive function stems from the fact that the mechanical properties of a biological material can, in general, be multiple-variable-dependent. <sentence_start/>Specifically, stiffness, in addition to being nonlinear (e.g., strain-dependent), may often depend on the deformation rate. <sentence_start/>This is the case with bones [<citation ref-type=\"bibr\" rid=\"CR104\" doi=\"10.1007/BF02477046\" pmid=\"994579\" count=\"1\">104</citation>], tendons and ligaments [<citation ref-type=\"bibr\" rid=\"CR105\" doi=\"10.1002/jor.1100080513\" pmid=\"2388111\" count=\"1\">105</citation>], cartilage [<citation ref-type=\"bibr\" rid=\"CR106\" count=\"1\">106</citation>], and muscle [<citation ref-type=\"bibr\" rid=\"CR107\" pmid=\"1791180\" doi=\"10.1016/0021-9290(91)90375-w\" count=\"1\">107</citation>]. <sentence_start/>Similarly, damping can be position-dependent. <sentence_start/>Accordingly, stiffness and damping during the stance phase of hopping can be represented by a general second-order regressive function."
+  },
+  {
+   "section": "article",
+   "text": "Additional Methods"
+  },
+  {
+   "section": "article",
+   "text": "Alternative methods include using an artificial neural network for the prediction of the biodynamic response during vertical vibration of the seated human body in a sitting posture without a backrest [<citation ref-type=\"bibr\" rid=\"CR97\" count=\"1\">97</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Methods of Solution"
+  },
+  {
+   "section": "article",
+   "text": "The stiffness and damping coefficients can be resolved from the governing equations by parameter estimation using optimization procedures such as minimization of an objective function for each of the joints."
+  },
+  {
+   "section": "article",
+   "text": "The model parameters should be independent of each other and, if multiple linear regression analyses are performed, for the parameter estimation to be correct all predictor variables must be uncorrelated. <sentence_start/>In the numerical solution procedure, it is thus necessary to reveal dependencies and eliminate redundancies of the stiffness and damping coefficients. <sentence_start/>This may be done using multicollinearity diagnostic algorithms combined with <italic toggle=\"yes\">F</italic>-test [<citation ref-type=\"bibr\" rid=\"CR108\" doi=\"10.1152/ajpregu.1985.249.1.R1\" pmid=\"4014489\" count=\"1\">108</citation>]. <sentence_start/>Parameter identification can be performed using either quadratic programming [<citation ref-type=\"bibr\" rid=\"CR109\" count=\"1\">109</citation>] or a genetic algorithm [<citation ref-type=\"bibr\" rid=\"CR110\" count=\"1\">110</citation>]. <sentence_start/>Two examples are given below."
+  },
+  {
+   "section": "article",
+   "text": "Hopping Motion"
+  },
+  {
+   "section": "article",
+   "text": "In hopping motion, after eliminating redundancies in the numerical solution using the above-mentioned multicollinearity diagnostic algorithms, the model revealed that the correct and sufficient variability of the joint stiffness is of first order, indicating that a higher order of nonlinearity is not necessary [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>]. <sentence_start/>This result should be considered meaningful in problems where a constant stiffness representation is insufficient and in cases where the system’s representation has to be improved. <sentence_start/>The variable stiffness solution also provides, through the obtained stiffness profiles, an insight into the patterns of the muscular activation in the legs’ joints."
+  },
+  {
+   "section": "article",
+   "text": "The fact that the simple model of a linearly variable stiffness can predict major features of the jumping exercise makes it an effective tool for future design of artificial legs and robots and also for the development of more accurate control strategies."
+  },
+  {
+   "section": "article",
+   "text": "Simultaneous Grasping and Locomotion"
+  },
+  {
+   "section": "article",
+   "text": "The results obtained in the cup of liquid problem, in which the spring coefficients were expressed in terms of the joint angles and angular velocities, indicated a continuous nonlinear behavior of the joints. <sentence_start/>This sheds light on the design of spring-based artificial and robotic arms [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>]. <sentence_start/>The wrist joint was found to have constant stiffness and damping and thus no regulation of these coefficients was necessary during gait. <sentence_start/>This is consistent with results for moderately sized wrist rotations, indicating that a simple, linear model can be used for studies in biomechanics, motor neuroscience, and rehabilitation, neglecting nonlinearities [<citation ref-type=\"bibr\" rid=\"CR111\" pmid=\"21130996\" doi=\"10.1016/j.jbiomech.2010.11.016\" count=\"1\">111</citation>]. <sentence_start/>The passive stiffness of the wrist is sufficient to account for the pattern of the path of rotation [<citation ref-type=\"bibr\" rid=\"CR112\" pmid=\"22131378\" doi=\"10.1152/jn.00428.2011\" count=\"1\">112</citation>]. <sentence_start/>Dominance of the passive viscoelastic (particularly the stiffness component) torques in planar wrist movements was also confirmed [<citation ref-type=\"bibr\" rid=\"CR113\" pmid=\"22156946\" doi=\"10.1109/TBME.2011.2178240\" count=\"1\">113</citation>]. <sentence_start/>These findings somewhat contradict earlier ones, indicating that while the muscle properties around the wrist were basically spring-like, there are major nonlinearities in the viscoelastic properties of the wrist [<citation ref-type=\"bibr\" rid=\"CR114\" pmid=\"6534226\" doi=\"10.1007/BF02371452\" count=\"1\">114</citation>]. <sentence_start/>Testing the wrist using the vibration method revealed that the stiffness, viscosity, and damping ratio decreased significantly across all displacements, with higher values for small angles and lower values with increasing flexion [<citation ref-type=\"bibr\" rid=\"CR80\" pmid=\"16125181\" doi=\"10.1016/j.jbiomech.2005.06.022\" count=\"1\">80</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Both in the elbow and shoulder joints, stiffness included a constant coefficient as well as an angular-velocity-dependent coefficient, with no damping. <sentence_start/>These results confirmed that, in this case, a higher order of nonlinearity was not necessary."
+  },
+  {
+   "section": "article",
+   "text": "Factors that Affect Mechanical Impedance"
+  },
+  {
+   "section": "article",
+   "text": "The ability to tune and/or control the mechanical impedance of the limb joints is an important feature of the neuromuscular system [<citation ref-type=\"bibr\" rid=\"CR32\" count=\"1\">32</citation>, <citation ref-type=\"bibr\" rid=\"CR115\" count=\"1\">115</citation>] and of multi-joint powered orthotics [<citation ref-type=\"bibr\" rid=\"CR116\" pmid=\"9535529\" doi=\"10.1109/86.662626\" count=\"1\">116</citation>]. <sentence_start/>Tuning of the mechanical impedance facilitates, for example, the stabilization of hand-held objects in space, or the attenuation of undesired shock loads resulting from externally applied forces [<citation ref-type=\"bibr\" rid=\"CR11\" pmid=\"10592022\" doi=\"10.1007/s004220050577\" count=\"1\">11</citation>, <citation ref-type=\"bibr\" rid=\"CR46\" pmid=\"21863387\" doi=\"10.1007/s10439-011-0381-7\" count=\"1\">46</citation>, <citation ref-type=\"bibr\" rid=\"CR117\" count=\"1\">117</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Mechanical impedance may generally depend upon numerous factors, including muscle activation, load or weight bearing, loading conditions, position or posture of the system (such as the joint angle), interface properties between the human body and the contacting surface, task, learning and training, and physiological conditions such as wellness, fitness, fatigue, and possible existence of various pathologies. <sentence_start/>Examples of the latter include recurrent low back pain, in which trunk stiffness was found to be higher and damping lower compared to the normal case [<citation ref-type=\"bibr\" rid=\"CR102\" pmid=\"19062020\" doi=\"10.1016/j.jbiomech.2008.10.001\" count=\"1\">102</citation>], contrary to recurrent ankle sprain in which balance was not found to be impaired [<citation ref-type=\"bibr\" rid=\"CR27\" pmid=\"9132216\" doi=\"10.1136/bjsm.31.1.65\" pmcid=\"PMC1332479\" count=\"1\">27</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Low back pain recurrence was also found to be related with lower stride-to-stride variability of trunk motion, resulting from a protective movement strategy, possibly based on increased trunk stiffness and damping [<citation ref-type=\"bibr\" rid=\"CR118\" pmid=\"22078275\" doi=\"10.1016/j.jbiomech.2011.10.024\" count=\"1\">118</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Muscle Activation"
+  },
+  {
+   "section": "article",
+   "text": "It has been suggested that, mechanically, a muscle is analogous to a spring, whose stiffness is a function of its activation. <sentence_start/>As with a spring, a muscle’s force is a function of its length [<citation ref-type=\"bibr\" rid=\"CR119\" count=\"1\">119</citation>]. <sentence_start/>It should be noted that in the limb joints, impedance can also be adjusted by the activation level of the antagonist muscles of the joint. <sentence_start/>Thus, for a required net torque in the upper limb, different levels of contraction of the antagonists will result in different impedance levels and, accordingly, in different energy costs of that net torque [<citation ref-type=\"bibr\" rid=\"CR115\" count=\"1\">115</citation>, <citation ref-type=\"bibr\" rid=\"CR120\" pmid=\"17054964\" doi=\"10.1016/j.jbiomech.2006.08.007\" count=\"1\">120</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For the lower extremity, a high correlation was found between pre-contact EMG activity and the EMG activity in the concentric phase (brake phase) of the ground-contact period [<citation ref-type=\"bibr\" rid=\"CR121\" count=\"1\">121</citation>]. <sentence_start/>It was also reported that muscles can reduce the vertical peak ground reaction force due to their ability to absorb energy during impact [<citation ref-type=\"bibr\" rid=\"CR122\" pmid=\"7601865\" doi=\"10.1016/0021-9290(94)00127-p\" count=\"1\">122</citation>], and that recruitment and activation of stiffness proportional to initial stiffness can be achieved by positive muscle force feedback [<citation ref-type=\"bibr\" rid=\"CR123\" count=\"1\">123</citation>]. <sentence_start/>It should be remembered, though, that repetitive performance of a task may fatigue the active mechanisms of the human body [<citation ref-type=\"bibr\" rid=\"CR124\" count=\"1\">124</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "It has also been found that in relation to minimizing soft-tissue vibrations, such as when energy dissipation is not desirable, impedance tuning is achieved by adjusting muscle activity in reaction to impact forces [<citation ref-type=\"bibr\" rid=\"CR125\" pmid=\"15336933\" doi=\"10.1016/j.jbiomech.2004.01.002\" count=\"1\">125</citation>]. <sentence_start/>Prior to landing, muscle activity is responsible for generating the correct joint stiffness as determined by co-contraction of the muscles surrounding the joint [<citation ref-type=\"bibr\" rid=\"CR126\" doi=\"10.1115/1.2746384\" pmid=\"17655481\" count=\"1\">126</citation>]. <sentence_start/>In general, the central nervous system uses different mechanisms to tune the mechanical properties of the muscles to the different required tasks [<citation ref-type=\"bibr\" rid=\"CR127\" doi=\"10.1113/jphysiol.1991.sp018596\" pmcid=\"PMC1180048\" pmid=\"1890636\" count=\"1\">127</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For the body trunk, to empirically evaluate the influence of coactivation on trunk stiffness, trunk dynamics, including stiffness, mass, and damping, were quantified during trunk extension exertions with and without voluntary recruitment of antagonistic co-contraction. <sentence_start/>It was reported that co-contraction increases trunk stiffness, thereby supporting the idea that co-contraction may contribute to spinal stability [<citation ref-type=\"bibr\" rid=\"CR128\" pmid=\"16099678\" doi=\"10.1016/j.jelekin.2005.06.006\" pmcid=\"PMC1635026\" count=\"1\">128</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Impedance Tuning Through Pre-programmed Non-reflex Action: Pre-activation"
+  },
+  {
+   "section": "article",
+   "text": "Several factors have been reported to affect reduction of peak forces as a result of landing impact."
+  },
+  {
+   "section": "article",
+   "text": "In repulsive tasks, impedance tuning through pre-programmed non-reflex muscle action during the early phase of impact helps reduce peak forces. <sentence_start/>The necessity of setting the joint angles and of tuning the stiffness before leg loading was reported [<citation ref-type=\"bibr\" rid=\"CR129\" doi=\"10.1007/BF00636213\" pmid=\"1592051\" count=\"1\">129</citation>]. <sentence_start/>In hopping exercise, the presence of an initial joint stiffness was found, suggesting that muscle pre-activation is important in controlling the peak forces [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1115/1.1590358\" pmid=\"12968575\" count=\"1\">19</citation>]. <sentence_start/>It should be noted, however, that no direct information was provided about which leg muscles are part of this activity. <sentence_start/>For that purpose, EMG measurements should be taken in synchrony with the measured kinematics and foot-ground reaction forces. <sentence_start/>In a model that included wobbling masses to simulate the impact force peaks during running, it was shown that tuning of the muscle activation of the lower extremities alongside with changes of joint angles and joint angular velocities could result in controlling the impact force [<citation ref-type=\"bibr\" rid=\"CR130\" pmid=\"10433427\" doi=\"10.1016/s0021-9290(99)00048-2\" count=\"1\">130</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The pre-programmed non-reflex muscle action during the early phase of impact has been proven to be important in peak force attenuation. <sentence_start/>This procedure can be trained for and controlled by the subject to achieve simultaneous use of all joints and coordination between the various segments of the leg. <sentence_start/>Better attenuation is also a result of increasing the flexion range of the joints of the leg [<citation ref-type=\"bibr\" rid=\"CR131\" pmid=\"6889994\" doi=\"10.1243/emed_jour_1982_011_039_02\" count=\"1\">131</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "When deformation starts in passive mechanisms, a neurological feedback system senses the resulting increased force and so brings muscles into play before the forces have had time to reach destructive levels [<citation ref-type=\"bibr\" rid=\"CR132\" pmid=\"317339\" doi=\"10.1007/BF02443830\" count=\"1\">132</citation>]. <sentence_start/>The ability to pre-program muscle action and joint motion is thus of major importance when reflex activity has not yet appeared."
+  },
+  {
+   "section": "article",
+   "text": "It should be noted, however, that the paraspinal reflexes have been shown to augment effective stiffness [<citation ref-type=\"bibr\" rid=\"CR120\" pmid=\"17054964\" doi=\"10.1016/j.jbiomech.2006.08.007\" count=\"1\">120</citation>]. <sentence_start/>An increased reflex gain was reported following prolonged trunk flexion, which in turn may contribute to low back pain risk [<citation ref-type=\"bibr\" rid=\"CR133\" pmid=\"15567532\" doi=\"10.1016/j.clinbiomech.2004.09.001\" pmcid=\"PMC1630677\" count=\"1\">133</citation>]. <sentence_start/>In fact, it has been shown that intrinsic muscle stiffness alone is insufficient for stability and that reflex dynamics are necessary components in the stabilizing control of spinal stability [<citation ref-type=\"bibr\" rid=\"CR134\" pmid=\"16782106\" doi=\"10.1016/j.jbiomech.2006.04.018\" pmcid=\"PMC1851677\" count=\"1\">134</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In the elbow and wrist joints, using a model with linearly time-varying angular stiffness and viscosity, it has been observed that anticipatory muscle stiffening and anticipatory flexion of the limb are synergistic in building up resistance of the hand to a catch task and that reflex coactivation produces a further increment of hand stiffness and viscosity to counteract the impact effect [<citation ref-type=\"bibr\" rid=\"CR135\" pmid=\"2913200\" doi=\"10.1523/JNEUROSCI.09-01-00134.1989\" pmcid=\"PMC6570012\" count=\"1\">135</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "It should be noted that reflex mechanisms can be fatigued, as may happen with individuals performing repetitive tasks [<citation ref-type=\"bibr\" rid=\"CR124\" count=\"1\">124</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Weight or Load Bearing"
+  },
+  {
+   "section": "article",
+   "text": "It has been reported that the magnitude of the force acting on the leg affects its stiffness [<citation ref-type=\"bibr\" rid=\"CR20\" pmid=\"528546\" doi=\"10.1016/0021-9290(79)90056-3\" count=\"1\">20</citation>]. <sentence_start/>Weight bearing on the foot was also found to influence mechanical impedance in torsion testing of the lower leg [<citation ref-type=\"bibr\" rid=\"CR72\" pmid=\"7096375\" doi=\"10.1016/0021-9290(82)90254-8\" count=\"1\">72</citation>]. <sentence_start/>In a large-scale pulse rotation test of the lower leg in which joint rotation was studied, it was noted that joint stiffness increased somewhat with weight bearing [<citation ref-type=\"bibr\" rid=\"CR71\" pmid=\"3417692\" doi=\"10.1016/0021-9290(88)90146-7\" count=\"1\">71</citation>]. <sentence_start/>Increasing load was also found to increase the overall stiffness and damping coefficients in the subtalar joint [<citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Conditions of Dynamic Loading"
+  },
+  {
+   "section": "article",
+   "text": "Impedance dependency with weight bearing, direction of perturbation, and displacement was reported in a large-scale pulse rotation test of the lower leg in which joint rotation was studied [<citation ref-type=\"bibr\" rid=\"CR71\" pmid=\"3417692\" doi=\"10.1016/0021-9290(88)90146-7\" count=\"1\">71</citation>]. <sentence_start/>Specifically, the dependency of mechanical impedance on perturbation frequency has been the subject of numerous investigations. <sentence_start/>For instance, the variation of dynamic stiffness and damping of the vertebral discs in the range of frequencies transmitted by a car seat has been reported [<citation ref-type=\"bibr\" rid=\"CR136\" pmid=\"14605972\" doi=\"10.1007/s00586-003-0569-0\" pmcid=\"PMC3467989\" count=\"1\">136</citation>]. <sentence_start/>To simulate shock loading taking place during running, a multi-DOF lumped model of a standing human body was subjected to impulse inputs at the foot [<citation ref-type=\"bibr\" rid=\"CR96\" pmid=\"9302670\" doi=\"10.1016/s1350-4533(96)00081-1\" count=\"1\">96</citation>]. <sentence_start/>When comparing linear and nonlinear simulations, a significant decrement was found in the acceleration transfer magnitude in the nonlinear model and nonlinear damping was found to be significant. <sentence_start/>Subjects with higher body fat could have a greater degree of nonlinear damping, which provides better attenuation and higher energy dissipation [<citation ref-type=\"bibr\" rid=\"CR96\" pmid=\"9302670\" doi=\"10.1016/s1350-4533(96)00081-1\" count=\"1\">96</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The loading rate of the impact force at heel strike, as applied by a pendulum on the foot, was found to affect muscle activation, as measured by EMG of the lower leg muscles [<citation ref-type=\"bibr\" rid=\"CR137\" pmid=\"11509530\" doi=\"10.1152/jappl.2001.91.3.1307\" count=\"1\">137</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Effect of Body Configuration"
+  },
+  {
+   "section": "article",
+   "text": "In standing posture, it has been shown that stiffness of the leg decreases with increasing knee flexion and is maximal in a fully extended knee [<citation ref-type=\"bibr\" rid=\"CR20\" pmid=\"528546\" doi=\"10.1016/0021-9290(79)90056-3\" count=\"1\">20</citation>]. <sentence_start/>In the trunk, conversely, stiffness was reported to increase with flexion angle [<citation ref-type=\"bibr\" rid=\"CR133\" pmid=\"15567532\" doi=\"10.1016/j.clinbiomech.2004.09.001\" pmcid=\"PMC1630677\" count=\"1\">133</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In impacting activities, among the factors that were reported to affect peak force attenuation as a result of landing impact, initial flexion of the joints plays an important role [<citation ref-type=\"bibr\" rid=\"CR131\" pmid=\"6889994\" doi=\"10.1243/emed_jour_1982_011_039_02\" count=\"1\">131</citation>]. <sentence_start/>During landing impact, high forces are imposed on the leg with the result that, if a low stiffness of the leg is desired (to reduce impact forces), a relatively high initial flexion angle of the joints is required. <sentence_start/>This, however, would considerably limit the range (amplitude) of flexion in these joints afterwards to effectively absorb the energy by the muscles spanning the joints. <sentence_start/>This latter point was quantitatively studied by evaluating the amount of elastic energy which could be stored and re-used in human hopping. <sentence_start/>It was concluded that the dissipated energy in muscles increased when the amplitudes of joint movements were larger [<citation ref-type=\"bibr\" rid=\"CR138\" pmid=\"746378\" count=\"1\">138</citation>]. <sentence_start/>Utilization of stored elastic energy was reported to depend on the shortness in latency between the stretch and shortening phases of the muscles [<citation ref-type=\"bibr\" rid=\"CR139\" doi=\"10.1007/BF00429744\" pmid=\"499191\" count=\"1\">139</citation>]. <sentence_start/>If one is interested in dissipation of energy, such as during landing from a height, the bigger the range of joint angle, the better. <sentence_start/>Presentation of the muscle as an energy dissipating shock absorber as studied on the cat soleus revealed two prominent damping nonlinearities: motion amplitude and movement history dependencies [<citation ref-type=\"bibr\" rid=\"CR140\" count=\"1\">140</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Multi-joint flexion in activities of repulsive tasks is probably the basis for reducing peak forces at impact [<citation ref-type=\"bibr\" rid=\"CR131\" pmid=\"6889994\" doi=\"10.1243/emed_jour_1982_011_039_02\" count=\"1\">131</citation>]. <sentence_start/>In this case, proper coordination between the different joints is important. <sentence_start/>Increasing task complexity, as may be presented in multi-joint action, was shown to decrease efficiency [<citation ref-type=\"bibr\" rid=\"CR141\" doi=\"10.1007/BF00430076\" pmid=\"648508\" count=\"1\">141</citation>]. <sentence_start/>The reason for this is related to timing in multi-joint motion, which affects movement synchronization of the various segments of the leg. <sentence_start/>For the overall performance to be fully efficient, the acceleration maxima of the different segments should be in phase. <sentence_start/>It should be noted that correct action of the joints and muscles can achieve this effect even before the reflex activity has come into action."
+  },
+  {
+   "section": "article",
+   "text": "Another example related to multi-joint coordination relates to sit-to-stand transition motion. <sentence_start/>Particularly, in people with pathology such as Parkinson’s disease, slowness of a sit-to-stand transition could be due to a reduced hip flexion joint torque and a prolonged rate of torque production. <sentence_start/>This could point to impairments in the ability to control sequential and/or coordinated movements of the joints [<citation ref-type=\"bibr\" rid=\"CR142\" pmid=\"11921112\" doi=\"10.1002/mds.10073\" count=\"1\">142</citation>-<citation ref-type=\"bibr\" rid=\"CR145\" pmid=\"10840131\" doi=\"10.1016/s0166-4328(00)00144-3\" count=\"1\">145</citation>]. <sentence_start/>It remains unsettled, however, whether motor deficits observed in subjects with Parkinson’s disease during chair-rise tasks are related to the lower limbs torques, and whether muscle weakness and rate of force generation impair the ability to tune the joint impedances."
+  },
+  {
+   "section": "article",
+   "text": "For the upper limb joints, stiffness regulation was also reported to depend upon posture configuration [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>, <citation ref-type=\"bibr\" rid=\"CR146\" pmid=\"11914798\" doi=\"10.1007/s00221-002-1049-1\" count=\"1\">146</citation>, <citation ref-type=\"bibr\" rid=\"CR147\" pmid=\"12037183\" doi=\"10.1152/jn.2002.87.6.2808\" count=\"1\">147</citation>]. <sentence_start/>One study on the upper limbs, with actively maintained elbow angles, showed that both the stiffness and viscosity increase with increasing elbow flexion [<citation ref-type=\"bibr\" rid=\"CR148\" pmid=\"3700435\" doi=\"10.1016/0021-9290(86)90155-7\" count=\"1\">148</citation>]. <sentence_start/>In reaching motion, however, the value of hand stiffness depends not only on the joint angular stiffnesses but also on the geometrical configuration that the limb takes in space at any instant [<citation ref-type=\"bibr\" rid=\"CR10\" pmid=\"4045550\" doi=\"10.1523/JNEUROSCI.05-10-02732.1985\" pmcid=\"PMC6565149\" count=\"1\">10</citation>]. <sentence_start/>Rotational stiffness and damping were measured for the elbow extensor muscle. <sentence_start/>Stiffness was also found to depend on gender, elbow flexion angle, and co-contraction level while damping depended on the latter only [<citation ref-type=\"bibr\" rid=\"CR98\" pmid=\"21484509\" doi=\"10.1007/s10439-011-0308-3\" count=\"1\">98</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In studying the relation between posture and reaching movement, equilibrium of the upper limb is assumed to be reached at a position at which the length-dependent forces due to the opposing activations of the agonist and antagonist muscles are equal [<citation ref-type=\"bibr\" rid=\"CR119\" count=\"1\">119</citation>]. <sentence_start/>If this position is considered as an equilibrium position, it was hypothesized that reaching movements can be regarded as shifts in equilibrium positions [<citation ref-type=\"bibr\" rid=\"CR74\" pmid=\"8423483\" doi=\"10.1523/JNEUROSCI.13-01-00045.1993\" pmcid=\"PMC6576309\" count=\"1\">74</citation>]. <sentence_start/>This, however, somewhat contradicts earlier results about the relationship between movement amplitude and stiffness of the forearm movement that indicated that trajectory formation was more complex than a simple switch between equilibrium points [<citation ref-type=\"bibr\" rid=\"CR149\" pmid=\"6502202\" doi=\"10.1523/JNEUROSCI.04-11-02738.1984\" pmcid=\"PMC6564726\" count=\"1\">149</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Interface Between Body and Contacting Surface"
+  },
+  {
+   "section": "article",
+   "text": "Other factors affecting mechanical impedance include the body/support interface, such as footwear and terrain (e.g., ground stiffness) [<citation ref-type=\"bibr\" rid=\"CR150\" doi=\"10.2165/00007256-199826040-00005\" pmid=\"9820925\" count=\"1\">150</citation>]. <sentence_start/>Static evaluation of the stiffness of various football boots in inversion-eversion motion showed that when using rigidly attached high boots, ligamentous load on the subtalar joint is reduced considerably [<citation ref-type=\"bibr\" rid=\"CR151\" pmid=\"965424\" doi=\"10.1016/0021-9290(76)90099-3\" count=\"1\">151</citation>]. <sentence_start/>The effect of footwear protection was pronounced in the elastic stiffness parameter in testing of the subtalar joint under sudden inversion motion [<citation ref-type=\"bibr\" rid=\"CR70\" doi=\"10.1115/1.2891133\" pmid=\"2308310\" count=\"1\">70</citation>]. <sentence_start/>Footwear was also indicated to be important in conjunction with speed when considering resonant vibration in soft tissue; it was reported to have a significant contribution to the energy dissipation after an impact [<citation ref-type=\"bibr\" rid=\"CR125\" pmid=\"15336933\" doi=\"10.1016/j.jbiomech.2004.01.002\" count=\"1\">125</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Soft landing in jumping motion for the attenuation of peak force depends on the quality of the ground and of the shoes worn by the subject. <sentence_start/>A distinction should be made between voluntary landing and hopping motions; in the former, the muscle is transformed from a spring to a damping unit, intended to absorb and dissipate energy, whereas in the latter, the muscle stiffness remains positive [<citation ref-type=\"bibr\" rid=\"CR127\" doi=\"10.1113/jphysiol.1991.sp018596\" pmcid=\"PMC1180048\" pmid=\"1890636\" count=\"1\">127</citation>]. <sentence_start/>Thus, foam-rubber sheets on the landing surface can be expected to decrease the stiffness of the impact medium and thus reduce impact [<citation ref-type=\"bibr\" rid=\"CR131\" pmid=\"6889994\" doi=\"10.1243/emed_jour_1982_011_039_02\" count=\"1\">131</citation>]. <sentence_start/>A study on the optimization of landing mat properties found that damping was far more influential in peak force reduction compared to stiffness [<citation ref-type=\"bibr\" rid=\"CR152\" pmid=\"21162361\" doi=\"10.1080/14763141.2010.524244\" count=\"1\">152</citation>]. <sentence_start/>The attenuation effect can be attributed not only to a decrease in stiffness but also to an increase in contact time during impact. <sentence_start/>For a given linear impulse, a contact time increase results in a decrease of the impulsive forces present. <sentence_start/>In one study on human running, it was demonstrated that a more compliant track increased the contact time of the foot with the ground [<citation ref-type=\"bibr\" rid=\"CR18\" pmid=\"528547\" doi=\"10.1016/0021-9290(79)90057-5\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Soft landing can also be achieved by landing on the balls of the feet to make use of the cushioning effect of the foot heel-pad tissue. <sentence_start/>The balls of the feet have a lower stiffness compared to that of the flat part of the foot [<citation ref-type=\"bibr\" rid=\"CR9\" count=\"1\">9</citation>]. <sentence_start/>Additionally, landing on the ball of the foot allows increasing the flexion range during impact. <sentence_start/>Landing on the balls of the feet considerably decreased peak forces as compared to landing with the feet flat [<citation ref-type=\"bibr\" rid=\"CR131\" pmid=\"6889994\" doi=\"10.1243/emed_jour_1982_011_039_02\" count=\"1\">131</citation>]. <sentence_start/>Also here, another contributing factor is the contact time; the longer it is, the smaller peak are the forces likely to result."
+  },
+  {
+   "section": "article",
+   "text": "For a one-DOF inverted pendulum model representing the colliding leg in running, the natural frequency of the cushioning mechanism was estimated using linearized and extended Kalman filter estimators [<citation ref-type=\"bibr\" rid=\"CR153\" pmid=\"21093865\" doi=\"10.1016/j.jbiomech.2010.10.041\" count=\"1\">153</citation>]. <sentence_start/>In this model, the stiffness and damping of the foot-surface cushion represented the fat pad layer at the bottom of the heel and the running surface. <sentence_start/>This stiffness is directly proportional to the estimated natural frequency. <sentence_start/>Thus, it has been suggested that leg stiffness is not directly related to running mechanics, but, rather, to the running environment [<citation ref-type=\"bibr\" rid=\"CR153\" pmid=\"21093865\" doi=\"10.1016/j.jbiomech.2010.10.041\" count=\"1\">153</citation>]. <sentence_start/>In gait, the increased effective leg stiffness with speed supports the greater propulsion energy required before foot contact during faster gaits [<citation ref-type=\"bibr\" rid=\"CR31\" pmid=\"21396646\" doi=\"10.1016/j.jbiomech.2011.02.072\" count=\"1\">31</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Testing of the coupling of footwear and the supporting ground confirmed that ground stiffness strongly affects the impact forces and that it should therefore be considered as an essential parameter in footwear design [<citation ref-type=\"bibr\" rid=\"CR154\" pmid=\"19931083\" doi=\"10.1016/j.jbiomech.2009.08.029\" count=\"1\">154</citation>]. <sentence_start/>Ground stiffness and damping were also reported to influence hopping strategies through adjustment of the spring-like mechanics of the leg and surface combination to regulate the body center of mass and work output during exercise [<citation ref-type=\"bibr\" rid=\"CR155\" pmid=\"16549093\" doi=\"10.1016/j.jbiomech.2005.02.011\" count=\"1\">155</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The dynamics of impact to the hip during a fall was studied during pelvis release experiments in which the dynamic response of the body to a step change in vertical force applied to the hip was measured. <sentence_start/>The simplest mathematical model capable of simulating the problem consisted of a single effective mass attached to three sets of spring-damper elements. <sentence_start/>The effective moving mass was located at the hip and one vertical spring-damper combination represented the structural properties of the skin, fat, and muscle within the contact area, as well as the compressive properties of the proximal femur, hip joint, and pelvis. <sentence_start/>The remaining elements were two horizontally oriented elements that consisted of the combined flexural stiffness and damping of the muscles and ligaments that span the spine and connect the pelvis to the trunk and lower limbs. <sentence_start/>These elements constrained the hips and pelvis from lateral excursions from the midline of the body [<citation ref-type=\"bibr\" rid=\"CR156\" pmid=\"9146804\" doi=\"10.1007/BF02684190\" count=\"1\">156</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For the upper extremities, the reduction of impact forces during forward falls onto outstretched hands was analyzed using linear models with surface stiffness modification. <sentence_start/>It was found that at the moment of impact, compliant surfaces attenuate the high-frequency peak force, which affects the wrist by decreasing the velocity across the wrist damping elements. <sentence_start/>At the same time, the lower-frequency peak deflection of the shoulder spring is not substantially reduced [<citation ref-type=\"bibr\" rid=\"CR157\" pmid=\"9671925\" doi=\"10.1002/jor.1100160306\" count=\"1\">157</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Task Dependency"
+  },
+  {
+   "section": "article",
+   "text": "The dynamic behavior of the motor system is considerably different from static behavior (where muscle stiffness behaves uniformly and consistently as springs) and it adapts to the requirements of the motor task [<citation ref-type=\"bibr\" rid=\"CR127\" doi=\"10.1113/jphysiol.1991.sp018596\" pmcid=\"PMC1180048\" pmid=\"1890636\" count=\"1\">127</citation>]. <sentence_start/>For instance, during voluntary landing, the muscle is transformed from a spring to a damping unit, intended to absorb and dissipate energy. <sentence_start/>While muscle stiffness in the ankle joint is negative after touch down when landing, it always remains positive when hopping [<citation ref-type=\"bibr\" rid=\"CR127\" doi=\"10.1113/jphysiol.1991.sp018596\" pmcid=\"PMC1180048\" pmid=\"1890636\" count=\"1\">127</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Dual tasking, combining postural control (inverted pendulum model) with outside distraction, leads to decreased stiffness and increased sway amplitude in the mediolateral direction by diverting the resources necessary for mediolateral postural control, thus increasing the risk to falls [<citation ref-type=\"bibr\" rid=\"CR158\" pmid=\"20844110\" doi=\"10.1152/jn.00820.2009\" pmcid=\"PMC3007648\" count=\"1\">158</citation>]. <sentence_start/>It should be mentioned in this respect that an increased dispersion of sway in the mediolateral plane has also been associated with impaired vision and fall risk in the elderly [<citation ref-type=\"bibr\" rid=\"CR159\" pmid=\"16311195\" doi=\"10.1016/j.gaitpost.2004.11.018\" count=\"1\">159</citation>]. <sentence_start/>This group modeled postural sway during standing to retrieve the viscoelastic parameters of swaying motion using two methods: second-order oscillatory model and discrete second-order autoregressive model."
+  },
+  {
+   "section": "article",
+   "text": "Impedance values were thus reported to depend on task constraints [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>, <citation ref-type=\"bibr\" rid=\"CR160\" pmid=\"9787002\" doi=\"10.1523/JNEUROSCI.18-21-08965.1998\" pmcid=\"PMC6793558\" count=\"1\">160</citation>-<citation ref-type=\"bibr\" rid=\"CR164\" pmid=\"11762234\" doi=\"10.1007/s004220100277\" pmcid=\"PMC2553889\" count=\"1\">164</citation>], the patterns of perturbation, and the actual joint movement configuration [<citation ref-type=\"bibr\" rid=\"CR10\" pmid=\"4045550\" doi=\"10.1523/JNEUROSCI.05-10-02732.1985\" pmcid=\"PMC6565149\" count=\"1\">10</citation>, <citation ref-type=\"bibr\" rid=\"CR146\" pmid=\"11914798\" doi=\"10.1007/s00221-002-1049-1\" count=\"1\">146</citation>, <citation ref-type=\"bibr\" rid=\"CR165\" pmid=\"11889509\" doi=\"10.1007/s00221-001-0968-6\" count=\"1\">165</citation>, <citation ref-type=\"bibr\" rid=\"CR166\" count=\"1\">166</citation>]. <sentence_start/>Accordingly, in defining impedance characteristics, stiffness and damping coefficients have been mostly assumed to be variable [<citation ref-type=\"bibr\" rid=\"CR61\" pmid=\"10529503\" doi=\"10.1123/mcj.3.4.394\" count=\"1\">61</citation>, <citation ref-type=\"bibr\" rid=\"CR167\" pmid=\"9691580\" doi=\"10.1109/10.704874\" count=\"1\">167</citation>] with resulting dependencies upon deformation and rate of deformation [<citation ref-type=\"bibr\" rid=\"CR14\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In long-distance running, for instance, moderate speed may result in more than 300 foot strikes/leg/km. <sentence_start/>Each such foot strike evokes an impact loading that results in a vertical shock impulse transmitted upwards through the body and carries with it the potential for injuries in the bone and joint tissues. <sentence_start/>Fatigue or stress fractures occur in bones in response to repetitive stresses over multiple cycles when the body’s ability to adapt is exceeded [<citation ref-type=\"bibr\" rid=\"CR150\" doi=\"10.2165/00007256-199826040-00005\" pmid=\"9820925\" count=\"1\">150</citation>, <citation ref-type=\"bibr\" rid=\"CR168\" pmid=\"9213092\" count=\"1\">168</citation>]. <sentence_start/>An important factor that affects the incidence of bone stress injury is exposure to abrupt changes in the bone loading [<citation ref-type=\"bibr\" rid=\"CR150\" doi=\"10.2165/00007256-199826040-00005\" pmid=\"9820925\" count=\"1\">150</citation>] and consequent alteration in the strain distribution [<citation ref-type=\"bibr\" rid=\"CR169\" doi=\"10.1242/jeb.188.1.217\" pmid=\"7964380\" count=\"1\">169</citation>] with insufficient recovery periods [<citation ref-type=\"bibr\" rid=\"CR170\" doi=\"10.2165/00007256-199622030-00006\" pmid=\"8883216\" count=\"1\">170</citation>]. <sentence_start/>Within the mechanical impedance parameters of the lower limbs, a major factor responsible for impulse attenuation at foot or heel strike is the shock absorption capacity of the active muscle in the lower limbs. <sentence_start/>Additionally, impact forces initiate vibrations of the wobbling soft tissues during the landing phase of running [<citation ref-type=\"bibr\" rid=\"CR171\" pmid=\"19827473\" doi=\"10.1123/jab.25.3.238\" count=\"1\">171</citation>, <citation ref-type=\"bibr\" rid=\"CR172\" pmid=\"10653036\" doi=\"10.1016/s0021-9290(99)00151-7\" count=\"1\">172</citation>]. <sentence_start/>The vibrations of these non-rigid masses, particularly those of the lower body, affect impact forces [<citation ref-type=\"bibr\" rid=\"CR172\" pmid=\"10653036\" doi=\"10.1016/s0021-9290(99)00151-7\" count=\"1\">172</citation>] and soft tissue vibrations and have been reported to contribute significantly to the energy dissipation after an impact [<citation ref-type=\"bibr\" rid=\"CR125\" pmid=\"15336933\" doi=\"10.1016/j.jbiomech.2004.01.002\" count=\"1\">125</citation>, <citation ref-type=\"bibr\" rid=\"CR173\" count=\"1\">173</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "During a running task, it was assumed that the properties of the model remain unchanged and the effect of mass and shoe hardness on the ground reaction forces was studied [<citation ref-type=\"bibr\" rid=\"CR172\" pmid=\"10653036\" doi=\"10.1016/s0021-9290(99)00151-7\" count=\"1\">172</citation>]. <sentence_start/>A modification on this model introduced a shoe-specific nonlinear function for representation of the ground reaction force, resulting in a better agreement between simulation and experimental results [<citation ref-type=\"bibr\" rid=\"CR174\" pmid=\"17092510\" doi=\"10.1016/j.jbiomech.2006.09.016\" count=\"1\">174</citation>]. <sentence_start/>Later, by hypothesizing that the central nervous system keeps the level of the vibrations of the human body constant using muscle tuning, it has been shown that a wobbling mass model can correctly simulate the effects of shoe hardness on the vibrations of the human body during running [<citation ref-type=\"bibr\" rid=\"CR175\" pmid=\"19883916\" doi=\"10.1016/j.jbiomech.2009.09.028\" count=\"1\">175</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Learning and Training"
+  },
+  {
+   "section": "article",
+   "text": "The level of preparation of movement coordination depends on the training stage of the subject [<citation ref-type=\"bibr\" rid=\"CR141\" doi=\"10.1007/BF00430076\" pmid=\"648508\" count=\"1\">141</citation>]. <sentence_start/>Training should not only prepare the subject for optimal use of the joint ranges but also to reduce the time difference between the segmental acceleration maxima to zero. <sentence_start/>Training was also reported to augment muscle stiffness [<citation ref-type=\"bibr\" rid=\"CR90\" pmid=\"14659928\" doi=\"10.1016/j.clinbiomech.2003.09.003\" count=\"1\">90</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The possible effects of learning over the time of conducting the experiments beyond the warm-up phase should be considered. <sentence_start/>Learning was reported to decrease joint total stiffness [<citation ref-type=\"bibr\" rid=\"CR11\" pmid=\"10592022\" doi=\"10.1007/s004220050577\" count=\"1\">11</citation>]. <sentence_start/>While the training effect on stiffness was reported to be dependent on the training intensity [<citation ref-type=\"bibr\" rid=\"CR150\" doi=\"10.2165/00007256-199826040-00005\" pmid=\"9820925\" count=\"1\">150</citation>], when the training level was similar to the exercise level, learning usually took place within the first few sessions of training [<citation ref-type=\"bibr\" rid=\"CR176\" pmid=\"17009492\" doi=\"10.1109/TNSRE.2006.881591\" count=\"1\">176</citation>] and then leveled off, i.e., the difference between the test means in two consecutive sessions was not statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "Fatigue"
+  },
+  {
+   "section": "article",
+   "text": "Fatigue of the muscles affects not only their performance but other related functions as well such as unsteadiness of performance [<citation ref-type=\"bibr\" rid=\"CR66\" pmid=\"7153228\" doi=\"10.1016/0021-9290(82)90090-2\" count=\"1\">66</citation>]. <sentence_start/>It has been shown [<citation ref-type=\"bibr\" rid=\"CR177\" pmid=\"3465203\" doi=\"10.1111/j.0954-6820.1986.tb08943.x\" count=\"1\">177</citation>] that muscles act to lower the bending stress on bone and to attenuate the peak dynamic loads that can damage musculoskeletal tissues. <sentence_start/>Muscle fatigue has also been shown to affect the ability of the human musculoskeletal system to attenuate and dissipate the heel strike induced shock waves (for running [<citation ref-type=\"bibr\" rid=\"CR178\" pmid=\"6447153\" doi=\"10.1016/0021-9290(80)90340-1\" count=\"1\">178</citation>], for long-march [<citation ref-type=\"bibr\" rid=\"CR179\" count=\"1\">179</citation>]). <sentence_start/>Some studies [<citation ref-type=\"bibr\" rid=\"CR180\" pmid=\"7391098\" count=\"1\">180</citation>-<citation ref-type=\"bibr\" rid=\"CR182\" pmid=\"6814271\" doi=\"10.1177/036354658201000507\" count=\"1\">182</citation>] have suggested that when the muscle’s ability to perform is diminished, the cartilage and ligaments become more vulnerable to excess dynamic loading, which in turn may increase stiffness. <sentence_start/>Nevertheless, it has been claimed that, in direct contrast to experiments on whole body fatigue, localized muscle fatigue was found to cause a decrease in peak tibial acceleration and acceleration slope following impact [<citation ref-type=\"bibr\" rid=\"CR183\" pmid=\"15288459\" doi=\"10.1016/j.clinbiomech.2004.04.015\" count=\"1\">183</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In addition to muscle fatigue, metabolic fatigue may take place when the running subject exceeds a running speed termed the anaerobic threshold [<citation ref-type=\"bibr\" rid=\"CR184\" pmid=\"4723033\" doi=\"10.1152/jappl.1973.35.2.236\" count=\"1\">184</citation>, <citation ref-type=\"bibr\" rid=\"CR185\" pmid=\"3119250\" count=\"1\">185</citation>]. <sentence_start/>With progressing fatigue in long distance level running, the effect on mechanical impedance can be inferred from the fact that the impact shock load on the lower limbs increases [<citation ref-type=\"bibr\" rid=\"CR186\" pmid=\"10590340\" doi=\"10.1016/s0268-0033(99)00033-9\" count=\"1\">186</citation>-<citation ref-type=\"bibr\" rid=\"CR189\" pmid=\"11415829\" doi=\"10.1016/s0268-0033(98)00030-8\" count=\"1\">189</citation>]. <sentence_start/>One additional question is whether, as a result of fatigue, an imbalance between the activities of the plantar and dorsi flexor muscles of the ankle develops. <sentence_start/>Such an imbalance would further compromise the protective action provided by the muscles to the shank [<citation ref-type=\"bibr\" rid=\"CR190\" count=\"1\">190</citation>-<citation ref-type=\"bibr\" rid=\"CR192\" pmid=\"10870903\" doi=\"10.1114/1.284\" count=\"1\">192</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Measurements of the foot-strike-evoked impact at both the tibial tuberosity and sacrum levels by means of accelerometers demonstrated an increase of the impact in both locations with developing fatigue, indicating a diminished capacity to attenuate the foot-strike-initiated shock waves [<citation ref-type=\"bibr\" rid=\"CR189\" pmid=\"11415829\" doi=\"10.1016/s0268-0033(98)00030-8\" count=\"1\">189</citation>]. <sentence_start/>Time and frequency domain analyses of the acceleration data suggested that fatigue contributes to the reduction of the human musculoskeletal system’s capacity to attenuate and dissipate those shock waves. <sentence_start/>This capacity appears to be a function not only of the fatigue level, but also of the vertical location along the skeleton. <sentence_start/>It seems that higher up the skeletal, parts are able to withstand the effect of fatigue for a longer time."
+  },
+  {
+   "section": "article",
+   "text": "In decline running, metabolic fatigue is less likely to develop compared to level running due to the reduced effort required for running. <sentence_start/>However, due to their eccentric activity, the major knee extensors do get fatigued, resulting in significantly increased shock acceleration at the sacrum level, while the shock acceleration at the tibial tuberosity remains unchanged [<citation ref-type=\"bibr\" rid=\"CR186\" pmid=\"10590340\" doi=\"10.1016/s0268-0033(99)00033-9\" count=\"1\">186</citation>]. <sentence_start/>Thus, without metabolic fatigue development, shock propagation from the tibial tuberosity to the sacrum is augmented due to the eccentric action of the muscles."
+  },
+  {
+   "section": "article",
+   "text": "Apart from the impact shock transmission, reported to provoke bone injury and joint damage, stride rate (frequency) at a given speed (i.e., stride length) was identified to affect stiffness. <sentence_start/>It was argued that a stiffer leg leads to a higher stride frequency and shorter stride length at a given speed [<citation ref-type=\"bibr\" rid=\"CR21\" pmid=\"8849811\" doi=\"10.1016/0021-9290(95)00029-1\" count=\"1\">21</citation>, <citation ref-type=\"bibr\" rid=\"CR22\" pmid=\"10093026\" doi=\"10.1016/s0021-9290(98)00170-5\" count=\"1\">22</citation>, <citation ref-type=\"bibr\" rid=\"CR47\" pmid=\"10569714\" doi=\"10.1016/s0021-9290(99)00133-5\" count=\"1\">47</citation>-<citation ref-type=\"bibr\" rid=\"CR49\" pmid=\"9729582\" doi=\"10.1152/jappl.1998.85.3.1044\" count=\"1\">49</citation>]. <sentence_start/>Interactions between stiffness and kinematics were also noted, indicating that the impact shock can be attenuated by adjusting the joint stiffness and/or the joint kinematics, thus providing support for the concept of muscle tuning during dynamic activities and suggesting that speed/shoe combinations are important when considering resonant vibration in soft tissue [<citation ref-type=\"bibr\" rid=\"CR125\" pmid=\"15336933\" doi=\"10.1016/j.jbiomech.2004.01.002\" count=\"1\">125</citation>, <citation ref-type=\"bibr\" rid=\"CR193\" pmid=\"8945650\" count=\"1\">193</citation>, <citation ref-type=\"bibr\" rid=\"CR194\" pmid=\"3610929\" doi=\"10.1152/jappl.1987.62.6.2326\" count=\"1\">194</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Material Evaluation of Impedance (vs. System or Structural)"
+  },
+  {
+   "section": "article",
+   "text": "By direct in vivo and in vitro measurement of tissue segments, the passive viscoelastic parameters can be obtained. <sentence_start/>From quasi-static in vitro mechanical testing of vertebral bodies from the thoracic spine, flexibility and stiffness matrices from the load-displacement diagrams and the variation of the mechanical properties with the spine level were obtained [<citation ref-type=\"bibr\" rid=\"CR195\" doi=\"10.1016/0021-9290(76)90003-8\" pmid=\"1262353\" count=\"1\">195</citation>]. <sentence_start/>In vivo creep experiments of lumbar motion segment in centric passive tension during the course of hydrotherapy, using ultrasound for deformation measurements, revealed that stiffness and damping of these elements were gender- and age-dependent [<citation ref-type=\"bibr\" rid=\"CR196\" pmid=\"15925372\" doi=\"10.1016/j.jbiomech.2005.03.021\" count=\"1\">196</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Passive tests on the knee joint based on the free damped oscillation technique indicated that the passive viscoelastic properties were in a small range of values and invariant during the growth process of this body segment. <sentence_start/>Accordingly, the passive viscoelastic properties cannot be held responsible for abnormal control in human spastic paresis and cannot be used as a descriptor of spasticity [<citation ref-type=\"bibr\" rid=\"CR197\" pmid=\"10521649\" doi=\"10.1016/s0268-0033(99)00021-2\" count=\"1\">197</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Impedance of soft tissue (e.g., on limb surfaces) or hard tissue (e.g., forehead) has been measured by means of a loading device using the random force vibration method [<citation ref-type=\"bibr\" rid=\"CR198\" pmid=\"3505301\" doi=\"10.1007/BF02447330\" count=\"1\">198</citation>]. <sentence_start/>These investigators, however, commented on the difficulty of tissue impedance measurements because this impedance is small compared to the impedance of the measuring device."
+  },
+  {
+   "section": "article",
+   "text": "Explicit Expression of Impedance of Contractile Tissue"
+  },
+  {
+   "section": "article",
+   "text": "To study the contribution to mechanical impedance of the muscle-tendon component by means of micro-structure-based phenomenological modeling, most early muscle models were used for investigating short term-tasks, such as distance jumping, high jumping, pedaling, kicking, and gait [<citation ref-type=\"bibr\" rid=\"CR199\" count=\"1\">199</citation>], typically lasting less than 2 s, with small interference of fatigue. <sentence_start/>More general muscle models should, however, include long-term dynamic features such as the force build-up within the muscle and fatigue effects."
+  },
+  {
+   "section": "article",
+   "text": "Muscle and muscle-tendon system models have been proposed by several investigators [<citation ref-type=\"bibr\" rid=\"CR200\" pmid=\"2676342\" count=\"1\">200</citation>-<citation ref-type=\"bibr\" rid=\"CR202\" count=\"1\">202</citation>], with the effects of the inner structure of the system explicitly expressed. <sentence_start/>In these models, though, an inherent difficulty is encountered due to the multitude of physiological parameters required. <sentence_start/>Some of these parameters are functional, e.g., rheological, describing the stress-strain relationships of the muscles and tendons [<citation ref-type=\"bibr\" rid=\"CR203\" pmid=\"4256989\" doi=\"10.1152/physrev.1972.52.1.129\" count=\"1\">203</citation>-<citation ref-type=\"bibr\" rid=\"CR206\" pmid=\"3843415\" count=\"1\">206</citation>]. <sentence_start/>These types of parameters are referred to as muscle nonspecific parameters. <sentence_start/>The other types of parameters describe individual characteristics of the particular muscles modeled. <sentence_start/>They are associated mostly with the anthropometric measures of the individual muscles such as size, cross-sectional area, and mass of the muscles and tendons and are termed muscle-specific parameters."
+  },
+  {
+   "section": "article",
+   "text": "A Huxley-type muscle-tendon model consisting of five elements was formulated and formed the basis of subsequent work [<citation ref-type=\"bibr\" rid=\"CR200\" pmid=\"2676342\" count=\"1\">200</citation>]. <sentence_start/>This model included the tendon serial elastic element and four additional elements pertaining to the muscle itself, namely the parallel elastic element [<citation ref-type=\"bibr\" rid=\"CR207\" pmid=\"4939977\" doi=\"10.1038/233533a0\" count=\"1\">207</citation>], the contractile element [<citation ref-type=\"bibr\" rid=\"CR208\" doi=\"10.1113/jphysiol.1982.sp014473\" pmcid=\"PMC1197268\" pmid=\"7182478\" count=\"1\">208</citation>], the damper element [<citation ref-type=\"bibr\" rid=\"CR209\" doi=\"10.1152/ajplegacy.1967.213.6.1560\" pmid=\"6075758\" count=\"1\">209</citation>, <citation ref-type=\"bibr\" rid=\"CR210\" doi=\"10.1113/jphysiol.1961.sp006622\" pmcid=\"PMC1359848\" pmid=\"13786249\" count=\"1\">210</citation>], and the muscle mass. <sentence_start/>Despite the functional distinction characterized in the model, it should be noted that interactive effects may be present, such that stretching of the muscle-tendon may evoke a reduction in the viscosity of the muscle [<citation ref-type=\"bibr\" rid=\"CR211\" pmid=\"22047756\" doi=\"10.1016/j.clinbiomech.2011.10.003\" count=\"1\">211</citation>]. <sentence_start/>The mentioned Huxley-type model was implemented for expressing the human forearm system [<citation ref-type=\"bibr\" rid=\"CR212\" pmid=\"8089155\" doi=\"10.1016/0021-9290(94)90217-8\" count=\"1\">212</citation>-<citation ref-type=\"bibr\" rid=\"CR215\" pmid=\"8429057\" doi=\"10.1016/0021-9290(93)90045-g\" count=\"1\">215</citation>] and the human thigh [<citation ref-type=\"bibr\" rid=\"CR216\" pmid=\"8244427\" doi=\"10.1109/10.237696\" count=\"1\">216</citation>, <citation ref-type=\"bibr\" rid=\"CR217\" doi=\"10.1115/1.2796018\" pmid=\"8872258\" count=\"1\">217</citation>]. <sentence_start/>It has provided improvement of the dynamic performance of the human intact forearm by simulating tendon transfer [<citation ref-type=\"bibr\" rid=\"CR212\" pmid=\"8089155\" doi=\"10.1016/0021-9290(94)90217-8\" count=\"1\">212</citation>]. <sentence_start/>A further extension of the improved upper limb model allowed comparing the dynamic performances of amputated forearms, with and without prosthesis, in various structural configurations. <sentence_start/>Amputation variables were represented by the modified anthropometry, modes of reinsertion of the residual muscles, and possible flapping of the muscle around the stump [<citation ref-type=\"bibr\" rid=\"CR214\" doi=\"10.1243/0954411001535787\" pmid=\"10902443\" count=\"1\">214</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The above five-element muscle-tendon model was also incorporated in the lower limb to enable long-term prediction of the force output of the quadriceps muscle during continuous electrical stimulation. <sentence_start/>In the contractile element, muscle activation was explicitly expressed by means of the EMG signal while muscle fatigue was incorporated by using a specially introduced term based on the concentration of intracellular pH [<citation ref-type=\"bibr\" rid=\"CR216\" pmid=\"8244427\" doi=\"10.1109/10.237696\" count=\"1\">216</citation>-<citation ref-type=\"bibr\" rid=\"CR219\" pmid=\"10659449\" doi=\"10.1016/s1050-6411(99)00016-4\" count=\"1\">219</citation>]. <sentence_start/>The presence of fatigue during prolonged FES causes a substantial decrease in the force output of the quadriceps muscle [<citation ref-type=\"bibr\" rid=\"CR220\" pmid=\"2319765\" doi=\"10.1016/0141-5425(90)90136-b\" count=\"1\">220</citation>]. <sentence_start/>The metabolic parameters recorded using magnetic resonance spectroscopy [<citation ref-type=\"bibr\" rid=\"CR221\" pmid=\"8419742\" doi=\"10.1002/mrm.1910290111\" count=\"1\">221</citation>] revealed fatigue profiles (parallel to the force profile) when measured during stimulation and recovery profiles when measured after stimulation. <sentence_start/>These profiles served for prediction of the dynamic force in intermittent stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Tuning of the mechanical impedance is a major factor in asserting the sound performance of the many tasks assigned to the limbs and in counteracting undesired effects of applied loads and disturbances. <sentence_start/>It facilitates the control and stabilization of hand-held objects in space and their navigation in reaching motions as well as the attenuation of undesired shock loads resulting from externally applied forces. <sentence_start/>The ability to tune and/or control the mechanical impedance of the limb joints is not only an important feature of the neuromuscular system, but has also strong relevance in the design of torque-controlled manipulators and multijoint powered orthotics. <sentence_start/>In early works, impedance was conveniently assumed to be constant, resulting in linear models. <sentence_start/>However, more recent work has repeatedly demonstrated that linear models fail to predict the true dynamic response of modeled systems and that the use of constant mechanical impedance may not physiologically be applicable. <sentence_start/>Impedance nonlinearity is therefore required. <sentence_start/>An important reason is that impedance is intricately related to the mode and amount of muscle activation involved in the performance of as given task. <sentence_start/>It should be noted however that while estimating the nonlinear impedance component values, care should be taken to eliminate redundancies by reducing the model to reveal the correct and sufficient degree of impedance nonlinearity. <sentence_start/>For instance, in modeling grasping simultaneously taking place with locomotion, the spring coefficients should be expressed in terms of the joint angles and angular velocities, indicated a continuous nonlinear behavior of the joints. <sentence_start/>Both in the elbow and shoulder joints, stiffness includes a constant coefficient as well as an angular-velocity-dependent coefficient, with no damping. <sentence_start/>These results confirmed that a higher order of nonlinearity was not necessary. <sentence_start/>This result should be considered meaningful in problems where the constant stiffness representation is insufficient and in cases where the system’s representation has to be improved. <sentence_start/>This problem has strong relevance in impedance-based control strategies and provides insight into the mechanisms by which stiffness and damping are adjusted to accommodate changes taking place during simultaneous walking and manual transportation of objects, while aiming to ensure their stability. <sentence_start/>It also sheds light on the design of spring-based artificial and robotic arms. <sentence_start/>Another example is in tasks of repulsive loads, where the nonlinearity of the impedance of the leg joints is found to be expressible by means of a simple model, with a linearly variable stiffness. <sentence_start/>This enables the prediction of the major features of the jumping exercise, making it an effective tool for the future design of spring-based artificial legs and robots and the development of more accurate control strategies."
+  }
+ ]
+}

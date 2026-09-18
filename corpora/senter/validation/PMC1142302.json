@@ -1,0 +1,191 @@
+{
+ "pmid": 15876357,
+ "pmcid": 1142302,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Rational polynomial representation of ribonucleotide reductase activity"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Recent data suggest that ribonucleotide reductase (RNR) exists not only as a heterodimer R1<sub>2</sub>R2<sub>2 </sub>of R1<sub>2 </sub>and R2<sub>2 </sub>homodimers, but also as tetramers R1<sub>4</sub>R2<sub>4 </sub>and hexamers R1<sub>6</sub>R2<sub>6</sub>. <sentence_start/>Recent data also suggest that ATP binds the R1 subunit at a previously undescribed hexamerization site, in addition to its binding to previously described dimerization and tetramerization sites. <sentence_start/>Thus, the current view is that R1 has four NDP substrate binding possibilities, four dimerization site binding possibilities (dATP, ATP, dGTP, or dTTP), two tetramerization site binding possibilities (dATP or ATP), and one hexamerization site binding possibility (ATP), in addition to possibilities of unbound site states. <sentence_start/>This large number of internal R1 states implies an even larger number of quaternary states. <sentence_start/>A mathematical model of RNR activity which explicitly represents the states of R1 currently exists, but it is complicated in several ways: (1) it includes up to six-fold nested sums; (2) it uses different mathematical structures under different substrate-modulator conditions; and (3) it requires root solutions of high order polynomials to determine R1 proportions in mono-, di-, tetra- and hexamer states and thus RNR activity as a function of modulator and total R1 concentrations."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "We present four (one for each NDP) rational polynomial models of RNR activity as a function of substrate and reaction rate modifier concentrations. <sentence_start/>The new models avoid the complications of the earlier model without compromising curve fits to recent data."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "Compared to the earlier model of recent data, the new rational polynomial models are simpler, adequately fitting, and likely better suited for biochemical network simulations."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Ribonucleotide reductase (RNR) is a key component of <italic toggle=\"yes\">de novo </italic>deoxynucleotide (dNTP) metabolism and an important target of cancer therapies [<citation ref-type=\"bibr\" rid=\"B1\" pmid=\"12647987\" doi=\"10.1586/14737140.2.4.437\" count=\"1\">1</citation>]. <sentence_start/>This enzyme, which reduces ribonucleoside diphosphates into corresponding deoxyribonucleoside diphosphates, is exquisitely controlled to properly balance dNTP fluxes in the face of changing scheduled (S phase) and unscheduled (DNA damage/repair) dNTP synthesis demands [<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"15158709\" doi=\"10.1016/j.bbapap.2004.02.007\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Recent data [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>] suggest that ribonucleotide reductase (RNR) exists not only as a heterodimer R1<sub>2</sub>R2<sub>2 </sub>of R1<sub>2 </sub>and R2<sub>2 </sub>homodimers [<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"15158709\" doi=\"10.1016/j.bbapap.2004.02.007\" count=\"1\">2</citation>], but also as a R1<sub>4</sub>R2<sub>4 </sub>tetramer and as a R1<sub>6</sub>R2<sub>6 </sub>hexamer, where hexamer formation is driven by ATP binding to a previously undescribed hexamerization site. <sentence_start/>Thus, in addition to its four substrate binding possibilities in ADP, GDP, CDP, or UDP, and four dimerization/specificity site binding possibilities in dATP, ATP, dGTP, or dTTP, the current view (Figure 1) is that R1 has two tetramerization/inhibitory site binding possibilities in dATP or ATP, and one hexamerization/activation site binding possibility in ATP, in addition to possibilities of unbound site states. <sentence_start/>The resulting large number of possible R1 states implies an even larger number of quaternary states, and this leads to a complicated mathematical model of RNR activity [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>]. <sentence_start/>This model, although useful for explaining RNR activity data, is not useful for biochemical network simulations because: a) it is unwieldy (including up to six-fold nested sums), b) it uses different mathematical structures under different substrate-modulator conditions, and c) it requires root solutions of high order polynomials to determine R1 proportions in mono-, di-, tetra- and hexamer quaternary states, and thus RNR activity, as a function of modulator and total R1 concentrations. <sentence_start/>Simpler mathematical reaction rate models of RNR are needed if deoxynucleotide metabolism [<citation ref-type=\"bibr\" rid=\"B7\" count=\"1\">7</citation>] is to be represented using Systems Biology Markup Language (SBML) [<citation ref-type=\"bibr\" rid=\"B8\" pmid=\"12611808\" doi=\"10.1093/bioinformatics/btg015\" count=\"1\">8</citation>-<citation ref-type=\"bibr\" rid=\"B10\" count=\"1\">10</citation>], a standard which requires single algebraic expression reaction rate laws in some applications [<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"15585059\" doi=\"10.1186/1471-2105-5-190\" pmcid=\"PMC539231\" count=\"1\">11</citation>,<citation ref-type=\"bibr\" rid=\"B12\" count=\"1\">12</citation>]. <sentence_start/>Based on recent data from Cooperman's group [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"12578384\" doi=\"10.1021/bi020634d\" count=\"1\">4</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>], such expressions are provided here for RNR."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Quaternary states of R1. <sentence_start/>Modulators of RNR activity listed in this figure bind R1 to create higher order quaternary states. <sentence_start/>Tetramers exist in an equilibrium between low activity states (see k<sub>4 </sub>in Table 1) and inactive states (k<sub>cat </sub>= 0). <sentence_start/>Adapted from Scheme 1 in [4,5]."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Reaction activities are viewed here as weighted sums of enzyme state specific activities multiplied by probabilities of enzymes being in specific states. <sentence_start/>For example, a Michaelis-Menten reaction rate law is viewed as"
+  },
+  {
+   "section": "article",
+   "text": "where the probability that the enzyme is in a loaded/reactive state (with activity <italic toggle=\"yes\">k</italic><sub>cat</sub>) is P(EA) and the probability that the enzyme is in an empty/unreactive state (with no activity) is P(E)."
+  },
+  {
+   "section": "article",
+   "text": "The RNR models presented here are based on the following four enzyme state probability assumptions:"
+  },
+  {
+   "section": "article",
+   "text": "1. <sentence_start/>The probability that a particular R1 subunit is bound to NDP is assumed to be"
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>The probability that <italic toggle=\"yes\">L </italic>∈ {<italic toggle=\"yes\">ATP, dATP, dTTP, dGTP</italic>} is also bound to the dimerization/specificity site, conditional on NDP binding, is assumed to be"
+  },
+  {
+   "section": "article",
+   "text": "where, if <italic toggle=\"yes\">L </italic>= <italic toggle=\"yes\">dTTP </italic>and <italic toggle=\"yes\">NDP </italic>= <italic toggle=\"yes\">GDP </italic>for example,"
+  },
+  {
+   "section": "article",
+   "text": "is the probability that dTTP is bound to the dimerization/specificity site given that GDP is bound to the substrate site; the probability of an empty dimerization/specificity site is thus"
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>The probability that the tetramerization site is either empty, occupied by ATP, or occupied by dATP, is assumed to be, respectively,"
+  },
+  {
+   "section": "article",
+   "text": "4. <sentence_start/>Finally, the probability that the hexamerization site is occupied by ATP is assumed to be"
+  },
+  {
+   "section": "article",
+   "text": "The subscripts <italic toggle=\"yes\">a </italic>(activation), <italic toggle=\"yes\">i </italic>(inactivation), and <italic toggle=\"yes\">s </italic>(specificity) on the binding constants correspond to <italic toggle=\"yes\">h </italic>(hexamerization), <italic toggle=\"yes\">t </italic>(tetramerization), and <italic toggle=\"yes\">d </italic>(dimerization) subscripts on <italic toggle=\"yes\">P</italic>, respectively. <sentence_start/>That parameter values differ depending upon which NDP substrate is bound to the active site (see Table 1) is indicated by the conditional probabilities."
+  },
+  {
+   "section": "article",
+   "text": "Previous work [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>] has shown that the dimer and hexamer states are active, that the tetramer state is slightly active for ADP and GDP and is otherwise inactive, that dimer state activity for CDP and UDP exists when ATP or dATP is bound to the dimerization/specificity site, and that an empty dimerization/specificity site still permits the formation of some dimer with CDP reductase activity, see Table 5 of [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"11781084\" doi=\"10.1021/bi011653a\" count=\"1\">5</citation>]. <sentence_start/>Thus, based on the enzyme state probabilities given above, for <italic toggle=\"yes\">k</italic><sub>cat </sub>implicitly defined through"
+  },
+  {
+   "section": "article",
+   "text": "we propose the following expressions:"
+  },
+  {
+   "section": "article",
+   "text": "ADP reduction"
+  },
+  {
+   "section": "article",
+   "text": "GDP reduction"
+  },
+  {
+   "section": "article",
+   "text": "CDP reduction"
+  },
+  {
+   "section": "article",
+   "text": "UDP reduction"
+  },
+  {
+   "section": "article",
+   "text": "In these equations, for ADP and GDP, the first factor is the probability that the dimer site is occupied, and for CDP and UDP, the first factor is the expectation of k<sub>cat </sub>conditional on R1 being in a dimer state (i.e. having an empty tetramerization site). <sentence_start/>In the ADP and GDP models, the second factor is the conditional expectation of k<sub>cat </sub>given that the dimerization site is occupied: the first term of this second factor has in its numerator the statement that k<sub>cat </sub>= k<sub>2 </sub>if the tetramerization site is empty, or k<sub>cat </sub>= k<sub>4 </sub>if it is occupied by either dATP or ATP, and the second term states that k<sub>cat </sub>= k<sub>6 </sub>if the hexamerization site is occupied by ATP. <sentence_start/>For the CDP and UDP models, the first term of the second factor is the probability of an empty tetramerization site (the event that the corresponding first factor was conditioned on), and the second term states that if the ATP concentration is high enough that the hexamerization/second term dominates the tetramerization/first term whilst the first factor approaches k<sub>2A</sub>, k<sub>6 </sub>is the overall k<sub>cat</sub>. <sentence_start/>This rationale served as our model selection guide. <sentence_start/>Importantly, the models fitted recent data [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>] very well, see Figure 2 and Table 1."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Data from [4-6] and corresponding curve fits (Table 1) of the RNR activity models. <sentence_start/>In these plots, from left to right, for ADP reduction dGTP was 2.1 uM or variable, for GDP reduction dTTP was 100 uM, 300 uM, variable, or 85 uM, and for pyrimidines specificity site binding concentrations were as shown. <sentence_start/>In all cases NDP and R2 were at saturating levels."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In general, when an integrated system is engineered from component subsystems, the behavior of the overall system depends on component input-output specifications more so than the details of component implementations. <sentence_start/>By analogy, when enzymological data are applied to biochemical network modeling, rather than the elucidation of reaction mechanisms, it can be expected that the reaction surfaces themselves (i.e. the enzyme's input-output characteristics) determine network behavior more so than the details of how such surfaces are represented. <sentence_start/>Thus, for applications to systems biology, large confidence intervals (CI) in the model parameter estimates of Table 1 (not shown) are not a problem because only goodness-of-fit (Fig. 2) really matters; this claim assumes an operating range within the data range, since similarly fitting models often veer apart when used in extrapolations. <sentence_start/>If reaction mechanism inferences were instead being sought, the large CI in the model parameter estimates would have been a problem, e.g. the squared terms in the model suggest cooperative binding, but this choice provides only slightly better curve fits compared to linear terms (not shown), so cooperative binding cannot be inferred from this model."
+  },
+  {
+   "section": "article",
+   "text": "In the RNR model presented here, the proportion of R1 units existing in monomer, dimer, tetramer, or hexamer states, and thus the RNR activity per unit enzyme, depends on site binding occupancies but does not depend on the total R1 concentration. <sentence_start/>In the more complicated previous model [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>], higher total R1 concentrations favor higher order quaternary states. <sentence_start/>The degree to which this is so is illustrated by plots of predicted GDP reductase activity as a function of ATP concentration at various R1 concentrations (Figure 3). <sentence_start/>Consistent with the formation of higher order quaternary R1 states, these plots contract to the left as the total R1 concentrations increase from 1 μM to 100 μM. <sentence_start/>In future work, the model given here will be altered to capture such trends without losing its simplicity; the total R1 concentration will enter such a model not only as a linear modulator of the reaction surface amplitude (i.e. E<sub>0 </sub>in Eq. 10), but also as a modifier of reaction surface shape parameters, e.g. <italic toggle=\"yes\">K</italic><sub>aATP </sub>will be replaced by a decreasing function of R1."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "GDP reductase as a function of ATP concentration at various R1 concentrations, predicted using the earlier model [3-6]."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "We identified a rational polynomial model of RNR activity that has single algebraic expressions for each reductase reaction rate law. <sentence_start/>The expressions provide reasonably good fits (Fig. 2) to recent data [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>]. <sentence_start/>Compared to previous reaction rate expressions for this data [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"12791390\" doi=\"10.1016/S0065-2571(02)00035-3\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"11327824\" doi=\"10.1021/bi002335z\" count=\"1\">6</citation>], the new expressions are simpler and thus better suited for biochemical network simulations, particularly those constrained to use enzyme reaction rate laws defined as single algebraic expressions [<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"15585059\" doi=\"10.1186/1471-2105-5-190\" pmcid=\"PMC539231\" count=\"1\">11</citation>,<citation ref-type=\"bibr\" rid=\"B12\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "The parameter estimates shown in Table 1 were obtained through a trial-and-error iterative process of nonlinear least squares curve fitting under various, convergence enabling, parameter fixations (i.e. profile searches). <sentence_start/>In the end, the curve fits were those of Figure 2 with corresponding parameter estimates in Table 1; large 95% confidence intervals (not shown) allowed rounding of the parameter estimates to somewhat arbitrary choices. <sentence_start/>Non-linear least squares parameter estimations were performed using the optimization method of Nelder and Mead [<citation ref-type=\"bibr\" rid=\"B13\" count=\"1\">13</citation>] and the statistical computing environment R [<citation ref-type=\"bibr\" rid=\"B14\" count=\"1\">14</citation>]. <sentence_start/>All parameters were estimated as e<sup>c </sup>to assure positive values. <sentence_start/>For additional details, R scripts are available with the data as supplementary material [<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1186/1471-2091-6-8\" pmcid=\"PMC1142302\" pmid=\"15876357\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "List of abbreviations"
+  },
+  {
+   "section": "article",
+   "text": "RNR = ribonucleotide reductase; dNTP = deoxynucleoside tripshospate; dNDP = deoxynucleoside dipshospate; <italic toggle=\"yes\">a </italic>= activation; <italic toggle=\"yes\">i </italic>= inactivation; <italic toggle=\"yes\">s </italic>= specificity; <italic toggle=\"yes\">h = </italic>hexamerization; <italic toggle=\"yes\">t </italic>= tetramerization; <italic toggle=\"yes\">d </italic>= dimerization; CI = confidence interval; SBML = Systems Biology Markup Language."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "TR performed the curve fits to the data and explored various model choices."
+  },
+  {
+   "section": "article",
+   "text": "OBK and BSC provided the original model, its simulations (Figure 3) and the data."
+  }
+ ]
+}

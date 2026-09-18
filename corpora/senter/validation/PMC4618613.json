@@ -1,0 +1,283 @@
+{
+ "pmid": 26242906,
+ "pmcid": 4618613,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Planktonic and sedimentary bacterial diversity of Lake Sayram in summer"
+  },
+  {
+   "section": "abstract",
+   "text": "Lake Sayram is an ancient cold water lake locating at a mountain basin in Xinjiang, China. <sentence_start/>The lake water is brackish, alkaline, unpolluted, and abundant in SO<sub>4</sub><sup>2−</sup> and Mg<sup>2+</sup>. <sentence_start/>The lacustrine ecosystem of Lake Sayram has been intensely investigated. <sentence_start/>However, profiles of the microbial communities in the lake remain largely unknown. <sentence_start/>In this study, taxonomic compositions of the planktonic and sedimentary bacterial communities in Lake Sayram were investigated using 16S rRNA metagenomics. <sentence_start/>The lacustrine bacterial communities were generally structured by environmental conditions, including the hydrological and physicochemical parameters. <sentence_start/>Proteobacteria was the dominating phylum. <sentence_start/>In the lake water, the genera <italic toggle=\"yes\">Acinetobacter</italic> and <italic toggle=\"yes\">Ilumatobacter</italic> held an absolute predominance, implying their metabolic significance. <sentence_start/>In the bottom sediment, biogeochemically significant bacteria and thermophilic or acidothermophilic extremophiles were recovered. <sentence_start/>In contrast to the planktonic bacteria, an appreciable portion of the sedimentary bacteria could not be classified into any known taxonomic unit, indicating the largely unknown bacteriosphere hiding in the bottom sediment of Lake Sayram."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Lake Sayram is a cold water lake locating at a mountain basin in Xinjiang, China, with an average altitude of 2071.9 m and an average annual atmospheric temperature of 0.5°C (Wang and Dou <citation rid=\"b48\" ref-type=\"bibr\" count=\"1\">1998</citation>). <sentence_start/>The lake water is mainly fed by rain water, snow water and underground water (Ma et al. <citation rid=\"b34\" ref-type=\"bibr\" count=\"1\">2003</citation>). <sentence_start/>It is sulfate-type brackish with total dissolved solids (rms) at around 3 g/L (Hao et al. <citation rid=\"b18\" ref-type=\"bibr\" count=\"1\">2013</citation>). <sentence_start/>Lake Sayram is a fault trough lake formed at the Himalayan orogeny 70 million years ago and its bottom sediments from the quaternary period record the entire history of the geomorphic development of West Tianshan Mountains as well as the shaping effect conferred by the fossil glacier (Wang et al. <citation rid=\"b49\" ref-type=\"bibr\" count=\"1\">2000</citation>). <sentence_start/>Aside from the rain alluvium at the shallow bottom of the west side, sands and rocks largely consist of the lake bottom and the sediments are composed of colloidal calcareous matter and quartzitic sands (Wei et al. <citation rid=\"b51\" ref-type=\"bibr\" count=\"1\">1994</citation>; Chen et al. <citation rid=\"b5\" ref-type=\"bibr\" count=\"1\">2014</citation>). <sentence_start/>Surrounded by high mountains, this closed lake is nearly free from direct influences of industrial and anthropogenic activities, resulting in an almost balanced lacustrine ecosystem (Yang et al. <citation rid=\"b53\" ref-type=\"bibr\" count=\"1\">2000</citation>). <sentence_start/>There used to be no fish living in Lake Sayram. <sentence_start/>In 1980s, some cold water fishes were introduced and from then on fishery industry has been developed (Guo et al. <citation rid=\"b17\" ref-type=\"bibr\" count=\"1\">2003</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "A variety of investigations on the lacustrine ecosystem of Lake Sayram have been carried out. <sentence_start/>The lake is oligotrophic according to physicochemical parameters of the lake water (Guo et al. <citation rid=\"b17\" ref-type=\"bibr\" count=\"1\">2003</citation>). <sentence_start/>Investigations conducted by our group show that the typical aquatic plant is <italic toggle=\"yes\">Potamogeton pectinatus</italic>; planktonic organisms include algae (Euglenophyta, Cyanophyta, Bacillariophyta, and Chlorophyta), protozoa (<italic toggle=\"yes\">Hemiophrys</italic> sp. and <sentence_start/><italic toggle=\"yes\">Tetrahymena</italic> sp.), <italic toggle=\"yes\">Daphniopsis tibetana</italic>, <italic toggle=\"yes\">Diatomid</italic> sp. and rotifers; benthic fauna include <italic toggle=\"yes\">Gammrus</italic> sp., <italic toggle=\"yes\">Chironomus</italic> sp., etc. <sentence_start/>(Tang et al. unpubl. data)."
+  },
+  {
+   "section": "article",
+   "text": "However, profiles of the microbial communities in Lake Sayram remain largely unknown. <sentence_start/>In a lacustrine ecosystem, microorganisms play a pivotal role in driving the biogeochemical processes (Debroas et al. <citation rid=\"b9\" ref-type=\"bibr\" pmid=\"19558513\" doi=\"10.1111/j.1462-2920.2009.01969.x\" count=\"1\">2009</citation>). <sentence_start/>First, the photosynthetic and chemolithotrophic microorganisms are the main contributor of the primary productivity. <sentence_start/>Second, the chemoorganotrophic and chemoheterotrophic microorganisms are actively involved in the decomposition of organic matters. <sentence_start/>Third, appreciable amounts of microorganisms are the foodstuff for filter-feeding organisms and form the foundation of the aquatic food web (Wang et al. <citation rid=\"b50\" ref-type=\"bibr\" count=\"1\">2004</citation>). <sentence_start/>Therefore, it is of great interest to study the microbial communities in Lake Sayram."
+  },
+  {
+   "section": "article",
+   "text": "In our study, the planktonic and sedimentary bacterial diversity of Lake Sayram in summer was investigated using 16S rRNA metagenomics. <sentence_start/>Physicochemical parameters of the lake water and sediments were examined as well. <sentence_start/>Correlation between the hydrological and physicochemical properties of the lake and the structure of the lacustrine bacterial communities were discussed."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Water samples collection"
+  },
+  {
+   "section": "article",
+   "text": "Conditions of each sampling site are listed in Table1. <sentence_start/>Water depths ranged from 38.5 m (at Site 3) to 89.0 m (at Site 4). <sentence_start/>Water samples were taken from Sites 1, 3, 4, 5, and 6. <sentence_start/>For Sites 1, 3, 5, and 6, lake water at the surface and the bottom layers was collected in equal volume and pooled to roughly represent the whole water column at individual site. <sentence_start/>Five liters of the surface water (1 m below the surface) and 5 L of the bottom water (1 m above the bottom) were collected and mixed (total volume was 10 L). <sentence_start/>For Site 4 which was located at the lake center, water from the surface, the bottom, and two middle layers was collected for mixing. <sentence_start/>Five liters of water at different depths (1 m, 20 m, 40 m below the surface, and 1 m above the bottom) were collected and mixed (total volume was 20 L). <sentence_start/>It should be noted that inclusion of the middle layered water samples would affect the structure of the bacterial communities investigated. <sentence_start/>Therefore, the planktonic bacterial diversity obtained here could be used for a horizontal comparison only. <sentence_start/>In total, five water samples were collected for subsequent planktonic microorganisms collection as well as physicochemical parameters assay."
+  },
+  {
+   "section": "article",
+   "text": "To collect planktonic microorganisms, five liters of the mixed water at different sites was prefiltered using 1.6 <italic toggle=\"yes\">μ</italic>m pore-size GF/A filter paper (Whatman®, UK) and then the filtrate was filtered through a 0.22 <italic toggle=\"yes\">μ</italic>m pore-size filter membrane (Whatman®, NJ, USA). <sentence_start/>Microorganisms ranging from the size of 0.22 <italic toggle=\"yes\">μ</italic>m to 1.6 <italic toggle=\"yes\">μ</italic>m were thus collected onto the 0.22 <italic toggle=\"yes\">μ</italic>m pore-size microfiltration membrane, which was transported on ice and stored at −20°C for subsequent DNA extraction."
+  },
+  {
+   "section": "article",
+   "text": "To collect planktonic photosynthetic microorganisms, 5 L of the mixed water at various sites was filtered through a 0.45 <italic toggle=\"yes\">μ</italic>m pore-size filter membrane. <sentence_start/>Organisms collected onto the 0.45 <italic toggle=\"yes\">μ</italic>m pore-size filter membrane were subject to Chlorophyll a (Chl <italic toggle=\"yes\">a</italic>) extraction and quantification."
+  },
+  {
+   "section": "article",
+   "text": "Sediment samples collection"
+  },
+  {
+   "section": "article",
+   "text": "Surface sediments were collected using a sediment sampler made of stainless steel (VanVeen Hydrobios series, Hydro-Bios, Kiel, GER). <sentence_start/>For sites 1, 4, 5, and 6, sediment samples were collected from the lake bottom in parallel with water sampling. <sentence_start/>However, at site 3, sediment collection was failed, which could be due to the bare rocked bottom. <sentence_start/>As an alternative, sediment was collected from site 2, which was on the north east of site 3. <sentence_start/>For DNA extraction, around 5 g of the sediments were transferred to a sterile plastic bag using an autoclaved stainless steel spoon, transported on ice and stored at −20°C. <sentence_start/>For physicochemical parameters assay, around 100 g of the sediments were transferred to a valve bag, transported at room temperature, and air dried for storage."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of physicochemical parameters of water and sediment"
+  },
+  {
+   "section": "article",
+   "text": "Transparency was determined using the Disk method. <sentence_start/>For lake water samples, salinity, concentrations of DO (dissolved oxygen), temperature, and pH were measured in situ using a YSI 6600 multifunction water quality monitoring instrument (Fondriest Environmental, OH, USA). <sentence_start/>Chemical parameters were investigated following the Chinese National Standards - the Environmental Quality Standards for Surface Water (GHZBI-121999). <sentence_start/>COD (chemical oxygen demand) was measured using the potassium dichromate oxidation method. <sentence_start/>The concentration of ammonia was determined using the Nessler's reagent method. <sentence_start/>The concentration of nitrate was analyzed using the cadmium column reduction method. <sentence_start/>The concentration of nitrite was examined using the diazo and azo colorimetry method. <sentence_start/>The content of dissolved inorganic phosphorus (DIP) was determined using the phosphorus molybdenum blue colorimetric method. <sentence_start/>The concentration of silicate was measured using the silicon molybdenum blue colorimetric method. <sentence_start/>The concentrations of bicarbonateion and carbanion were determined using the acid titration method. <sentence_start/>The concentration of chloride ion was measured using the argentometric method. <sentence_start/>The concentrations of sulfate ion, calcium ion, and magnesium ion were examined using the EDTA (Ethylenediaminetetraacetic acid) titration method. <sentence_start/>The sediment samples were first acidated using hydrochloric acid and then subject to total organic carbon (TOC) examination using vario PYRO cube element analyzer (Elementar®, Hanau, GER). <sentence_start/>The contents of heavy metal elements in the sediments were examined using PE AAnalyst Model 300 atomic absorption spectrophotometer (PerkinElmer®, Waltham, MA, USA)."
+  },
+  {
+   "section": "article",
+   "text": "Determination of the Chl <italic toggle=\"yes\">a</italic> content"
+  },
+  {
+   "section": "article",
+   "text": "To determine the Chl <italic toggle=\"yes\">a</italic> content, cells collected onto the 0.45 <italic toggle=\"yes\">μ</italic>m pore-size filter membrane were resuspended with 80% acetone and incubated at 4°C for overnight. <sentence_start/>Cell debris was cleared by centrifugation. <sentence_start/>The resulting supernatant was subjected to OD measurement at the wavelength of 645 and 663 nm, with the 80% acetone as the blank. <sentence_start/>Total Chl <italic toggle=\"yes\">a</italic> content was estimated using the formula Chl <italic toggle=\"yes\">a</italic> (mg/L) = 12.72OD<sub>663</sub> − 2.59OD<sub>645</sub> and then converted to <italic toggle=\"yes\">μ</italic>g/L."
+  },
+  {
+   "section": "article",
+   "text": "DNA extraction, PCR amplicon libraries construction and sequencing"
+  },
+  {
+   "section": "article",
+   "text": "Total DNA from the water samples was extracted using the E.Z.N.A.® Water DNA Kit (OMEGA bio-tek, Norcross, GA, USA) and total DNA from the sediment samples was isolated using the E.Z.N.A.® Soil DNA Kit (OMEGA bio-tek, Norcross, GA, USA), following the manufacturer's instructions. <sentence_start/>Integrity and concentration of each environmental DNA were investigated using gel electrophoresis."
+  },
+  {
+   "section": "article",
+   "text": "The quality-ensured DNA was quantified using the Qubit® 2.0 DNA assay kit (Life Technologies, Waltham, MA, USA) and used as the template to amplify the V3 and V4 regions of bacterial 16S rRNA gene. <sentence_start/>The universal adaptors for the 16S rRNA V3 to V4 region on Illumina MiSeq® System (Illumina, San Diego, CA, USA) were fused to the 5′ end of primer 341F, 5′-CCTACACGACGCTCTTCCGATCTN-CCTACGGGNGGCWGCAG-3′, and primer 805R, 5′-GACTGGAGTTCCTTGGCACCCGAGAATTCCA-GACTACHVGGGTATCTAATCC (the adaptors sequences were underlined). <sentence_start/>The 50 <italic toggle=\"yes\">μ</italic>L of PCR mix contained 10 ng of genomic DNA, 2.5 units of Platinum Taq polymerase, 1 × PCR buffer, 100 <italic toggle=\"yes\">μ</italic>mol/L of dNTP mix, and 0.5 <italic toggle=\"yes\">μ</italic>mol/L of each primer. <sentence_start/>Cycling conditions were an initial denaturation at 94°C for 3 min; five cycles of 94°C for 30 sec, 45°C for 20 sec, and 65°C for 30 sec; 20 cycles of 94°C for 20 sec, 55°C for 20 sec, and 72°C for 30 sec; and a final extension at 72°C for 5 min. <sentence_start/>The PCR products were gel electrophoresed and the sharp bands with the correct size were excised and purified using the gel purification kit (Sangon, Shanghai, China). <sentence_start/>The purified PCR products were quantified using the Qubit® 2.0 DNA assay kit (Life Technologies, Waltham, MA, USA). <sentence_start/>The same amount of PCR products from each environmental sample was pooled and subject to reversible-terminator sequencing by synthesis technology using Illumina MiSeq® System (Illumina, San Diego, CA, USA). <sentence_start/>For each sample, no less than 10,000 clean reads were recovered."
+  },
+  {
+   "section": "article",
+   "text": "Bioinformatic analyses"
+  },
+  {
+   "section": "article",
+   "text": "Pair-end sequences were first merged using the FLASH software ( , Version 1.2.3 ) and then quality controlled using the Prinseq software ( , Version 0.20.4). <sentence_start/>Maximum mismatch ratio for the overlapping regions was set at 0.1 and minimum length for the merged sequences was set at 50 bp. <sentence_start/>Those merged sequences with low complexity were also filtered. <sentence_start/>Those qualified sequences were then attributed to individual environmental samples according to specific barcodes. <sentence_start/>The nontarget regions were trimmed. <sentence_start/>The sequencing errors were corrected using pre.cluster of the mother software and the chimeric sequences were removed using chimeras.uchime. <sentence_start/>For individual samples, total sequences were clustered into different OTUs (operational taxonomic units) based on sequence similarities (set as 0.97) using uclust. <sentence_start/>For each OTU, representative sequences were phylogenetically analyzed to various levels (domain, phylum, class, order, family, and genus) using the Bayesian algorithm of RDP (ribosomal database project) classifier. <sentence_start/>Relative abundance of each taxonomic unit was also calculated using the Naïve Bayesian assignment of RDP classifier."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Locations of the sampling sites"
+  },
+  {
+   "section": "article",
+   "text": "Towards a comprehensive investigation of the bacterial diversity in Lake Sayram, six independent sites were selected for water and sediment sampling in July 2014 (Fig.1). <sentence_start/>Sites 1, 2, 3, and 4 were not easily accessed by human beings. <sentence_start/>Site 1 was located in the northeast of the lake, which was near the influx of spring water. <sentence_start/>Sites 2 and 3 were in the north and west of the lake, respectively, both of which were close to the input of seasonal rivers. <sentence_start/>Site 4 was at the centre of the lake. <sentence_start/>In contrast, Sites 5 and 6 were more prone to the influences of human activities. <sentence_start/>Site 5 was within a short distance from the expressway, which was south to the lake. <sentence_start/>Site 6 was near the pasture of the east lakeshore, where tourism was burgeoning."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Locations of sampling sites in Lake Sayram. <sentence_start/>For Sites 1, 4, 5, and 6, both water and sediments were sampled. <sentence_start/>For Site 3, only water sample was taken. <sentence_start/>For Site 2, only sediment sample was collected."
+  },
+  {
+   "section": "article",
+   "text": "Physicochemical parameters of the lake water"
+  },
+  {
+   "section": "article",
+   "text": "Physicochemical parameters of the lake water examined on site are listed in Table1. <sentence_start/>The lake water was brackish, alkaline, cold, oxidized, and clear. <sentence_start/>The average salinity was around 2.56‰ and the average pH was around 9.1. <sentence_start/>Temperatures of the lake water decreased with the increasing water depths. <sentence_start/>Water temperatures ranged from 11.56 °C to 13.80 °C at the surface layer and varied from 3.22 °C to 7.03 °C at the bottom layer. <sentence_start/>The lake water was abundant in DO and the concentrations of DO ([DO]) were negatively correlated with water temperatures. <sentence_start/>[DO] at the surface layer was between 7.29 and 8.05 mg/L, whereas [DO] at the bottom layer was between 8.71 and 10.04 mg/L. <sentence_start/>Transparency of the lake water was 10 m at Site 4 (the lake center), 9 m at Site 1, 6 m at Sites 2, 3, and 6, and 4 m at Site 5, respectively. <sentence_start/>The lowest transparency was detected at the site adjacent to the express way."
+  },
+  {
+   "section": "article",
+   "text": "Other chemical parameters (COD, nutrient salts, Chl <italic toggle=\"yes\">a</italic>, anions, cations) of the lake water are shown in Table2. <sentence_start/>The lake water was clean, NO<sub>3</sub><sup>−</sup> type, phosphorus-limited and abundant in SO4<sup>2−</sup>, Cl<sup>−</sup>, and Mg<sup>2+</sup>. <sentence_start/>The average COD<sub>Cr</sub> (COD) was lower than 1 mg/L. <sentence_start/>NO<sub>3</sub><sup>−</sup>-N was the major type of inorganic nitrogen, followed by NH<sub>4</sub><sup>+</sup>-N and NO<sub>2</sub><sup>−</sup>-N. The distribution of dissolved NO<sub>3</sub><sup>−</sup>-N was nonuniform in this lake. <sentence_start/>The highest concentration was 0.44 ± 0.03 mg/L at Site 1, which was twofold of the lowest concentration detected at Site 5 (0.21 ± 0.04 mg/L). <sentence_start/>Concentrations of NH<sub>4</sub><sup>+</sup>-N ranged from 30.47 ± 3.02 <italic toggle=\"yes\">μ</italic>g/L (Site 6) to 19.70 ± 0.48 <italic toggle=\"yes\">μ</italic>g/L (Site 5). <sentence_start/>Total DIP was found to be most abundant at Site 5 (29.26 ± 1.85 <italic toggle=\"yes\">μ</italic>g/L) and most scarce at Site 3 (3.70 ± 0.28 <italic toggle=\"yes\">μ</italic>g/L). <sentence_start/>In terms of nitrogen to phosphorus ratio (N/P), the highest value was 127.9 at Site 1 and the lowest 8.0 at Site 5. <sentence_start/>Phosphorus was therefore the limiting factor of the primary productivity in the lake water. <sentence_start/>The contents of Chl <italic toggle=\"yes\">a</italic> were examined to indicate the biomass of photosynthetic microorganisms. <sentence_start/>In general, concentrations of Chl <italic toggle=\"yes\">a</italic> were positively correlated with the transparency. <sentence_start/>The highest content of Chl <italic toggle=\"yes\">a</italic> was detected at Site 1 (0.76 ± 0.05 <italic toggle=\"yes\">μ</italic>g/L), and the lowest was detected at Site 5 (0.44 ± 0.04 <italic toggle=\"yes\">μ</italic>g/L). <sentence_start/>In another word, the clearer the lake water was, the more light could penetrate and the more photosynthetic microorganisms could grow. <sentence_start/>Of the four types of anions (Cl<sup>−</sup>, SO<sub>4</sub><sup>2−</sup>, HCO<sub>3</sub><sup>−</sup>, and CO<sub>3</sub><sup>2−</sup>) examined, Cl<sup>−</sup> and SO<sub>4</sub><sup>2−</sup> were the two dominant types and shared comparable concentrations. <sentence_start/>Mg<sup>2+</sup> was an abundant cation in the lake water, with a concentration ranging from 0.36 to 0.38 g/L across all the sampling sites."
+  },
+  {
+   "section": "article",
+   "text": "To sum up, the water in Lake Sayram was unpolluted and most of the physicochemical parameters of the lake water met the requirements of Grade 1 of the Chinese National Standards - the Environmental Quality Grading Standards for Surface Water (GB 3838 - 88). <sentence_start/>Content of sulfate and the total hardness conferred by Mg<sup>2+</sup> and Ca<sup>2+</sup> met the requirements of Grade 3."
+  },
+  {
+   "section": "article",
+   "text": "Chemical parameters of the lake bottom sediments"
+  },
+  {
+   "section": "article",
+   "text": "For the sediment samples collected from Lake Sayram, chemical parameters including contents of TOC, total nitrogen (TN) and heavy metals (Cu, Pb, Zn, Cr, and Cd) were also investigated, as shown in Figure2 and Table3. <sentence_start/>Here, TOC was used to reflect the content of organic matter in sediments (Li <citation rid=\"b33\" ref-type=\"bibr\" count=\"1\">2011</citation>). <sentence_start/>The contents of TOC across different sampling sites ranged from 5.60% to 5.90%, and the contents of TN varied from 0.26% to 0.32%. <sentence_start/>In general the metal elements Cu, Cr, and Cd were evenly distributed in the lake bottom. <sentence_start/>Pb and Zn shared a similar distribution pattern across all the sampling sites, with the lowest abundance found at Site 4 and the highest abundance detected at Site 2. <sentence_start/>In terms of contents, none of the five typical heavy metals exceeded the Environmental Quality Standards for Soils (GB 15618 - 1995), indicating that the bottom of Lake Sayram remained undisturbed from human activities."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Chemical parameters of the bottom sediments in Lake Sayram. (A) Contents of total organic carbon (TOC, the bar chart) and total nitrogen (TN, the line chart) in the sediment samples. <sentence_start/>(B) Contents of Cu, Pb, Zn, Cr (the bar charts) and Cd (the line chart) in the sediment samples."
+  },
+  {
+   "section": "article",
+   "text": "Planktonic and sedimentary bacterial community compositions in Lake Sayram"
+  },
+  {
+   "section": "article",
+   "text": "Metagenomics based on the 16S rRNA gene was performed to investigate the structure of microbial communities in the lake water and the bottom sediments. <sentence_start/>For the water samples, 14 phyla, 23 classes, 35 orders, 69 families, and 134 genera of bacteria (or prokaryotes) were recovered, whereas for the sediment samples, 25 phyla, 57 classes, 71 orders, 158 families, and 413 genera of bacteria were retrieved (Table4)."
+  },
+  {
+   "section": "article",
+   "text": "The taxonomic composition at the phylum level of the planktonic bacterial communities in Lake Sayram is shown in Figure3 and Table S1. <sentence_start/>Proteobacteria held the overwhelming predominance and its relative abundance was above 60%. <sentence_start/>The second predominant phylum was Actinobacteria, which constituted 15.93-28.59% of the bacterial communities. <sentence_start/>The additive abundance of the two most dominant phyla, was above 90% across all the sampling sites. <sentence_start/>Bacteroidetes, Cyanobacteria/Chloroplast, Verrucomicrobia, Firmicutes, and Planctomycetes were the other five phyla which were universally detected. <sentence_start/>Another seven phyla were recovered from one or several sampling sites and their relative abundance was below 0.02%."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "The planktonic bacterial diversity of Lake Sayram at the phylum level. <sentence_start/>“Others” includes Gemmatimonadetes, Chlorobi, Chloroflexi, Acidobacteria, WS3, Armatimonadetes, SR1, and unidentified."
+  },
+  {
+   "section": "article",
+   "text": "Figure S1 and Table S2 showed the taxonomic composition of the planktonic bacterial communities at the genus level. <sentence_start/><italic toggle=\"yes\">Actinobacter</italic> was the most predominant genus, with relative abundance ranging from 53.23% to 70.02%. <sentence_start/><italic toggle=\"yes\">Ilumatobacter</italic> was the second largest genus, constituting 10-20% of the planktonic bacterial communities. <sentence_start/>Other dominant genera with appreciable relative abundance (average values above 0.1%) in the planktonic bacterial communities included <italic toggle=\"yes\">Loktanella</italic>, <italic toggle=\"yes\">GPIIa</italic>, <italic toggle=\"yes\">Cryobacterium</italic>, <italic toggle=\"yes\">Agrococcus</italic>, <italic toggle=\"yes\">Ornithinibacter</italic>, <italic toggle=\"yes\">Spartobacteria_genera_incertae_sedis</italic>, <italic toggle=\"yes\">Pseudomonas</italic>, <italic toggle=\"yes\">Algoriphagus</italic>, <italic toggle=\"yes\">Psychrobacter</italic>, <italic toggle=\"yes\">Limnohabitans</italic>, <italic toggle=\"yes\">Planococcus</italic>, <italic toggle=\"yes\">Porphyrobacter</italic>, <italic toggle=\"yes\">Rheinheimera</italic>, <italic toggle=\"yes\">Luteolibacter</italic>, <italic toggle=\"yes\">Brumimicrobium</italic>, <italic toggle=\"yes\">Methylophilus</italic>, <italic toggle=\"yes\">Pasteuria</italic>, <italic toggle=\"yes\">Kerstersia</italic>, <italic toggle=\"yes\">Gracilimonas</italic>, <italic toggle=\"yes\">Blastopirellula</italic>, and <italic toggle=\"yes\">Exiguobacterium</italic>. <sentence_start/>For the individual samples, percentages of these genera were either varied or consistent."
+  },
+  {
+   "section": "article",
+   "text": "The taxonomic composition at the phylum level of the sedimental bacterial communities in Lake Sayram is shown in Figure4 and Table S3. <sentence_start/>The phyla universally detected at all sediment samples included Proteobacteria, Actinobacteria, Acidobacteria, Chlorobi, Bacteroidetes, Gemmatimonadetes, Nitrospira, Planctomycetes, Firmicutes, Verrucomicrobia, Chloroflexi, etc. <sentence_start/>Their individual abundance was either consistent or varying across all the sedimental samples investigated. <sentence_start/>Proteobacteria was the largest phylum dominating the sedimental bacterial communities, with relative abundance ranging from 43.02% to 46.72%. <sentence_start/>Actinobacteria was in general the second most abundant phylum in the bacterial communities examined, with percentages varying from 7.20% to 11.53%. <sentence_start/>However, its predominance was not that absolute and within the same community some other phyla might hold an almost equal abundance. <sentence_start/>For example, at Site 1, Chlorobi was nearly as abundant as Actinobacteria and at Site 5, the relative abundance of Bacteroidetes was comparable to that of Actinobacteria."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Sedimental bacterial diversity of Lake Sayram at the phylum level. <sentence_start/>“Others” includes Deinococcus-Thermus, Fibrobacteres, Elusimicrobia, Armatimonadetes, Cyanobacteria/Chloroplast, Spirochetes, Euryarchaeota, BRC1, SR1, and Thermodesulfobacteria."
+  },
+  {
+   "section": "article",
+   "text": "Figure S2 and Table S4 show the taxonomic composition of the sedimental bacterial communities at the genus level. <sentence_start/>Dominant genera included <italic toggle=\"yes\">Ignavibacterium</italic>, <italic toggle=\"yes\">Thioprofundum</italic>, <italic toggle=\"yes\">Gemmatimonas</italic>, <italic toggle=\"yes\">Thiobacter</italic>, <italic toggle=\"yes\">Nitrospira</italic>, <italic toggle=\"yes\">Acinetobacter</italic>, <italic toggle=\"yes\">Ohtaekwangia</italic>, <italic toggle=\"yes\">Gp16</italic>, <italic toggle=\"yes\">Desulfohalobium</italic>, <italic toggle=\"yes\">WS3_genera_incertae_sedis</italic>, <italic toggle=\"yes\">Blastopirellula</italic>, <italic toggle=\"yes\">Iamia</italic>, <italic toggle=\"yes\">Methyloversatilis</italic>, <italic toggle=\"yes\">TM7_genera_incertae_sedis</italic>, <italic toggle=\"yes\">Ilumatobacter</italic>, <italic toggle=\"yes\">Subdivision3_genera_incertae_sedis</italic>, <italic toggle=\"yes\">Steroidobacter</italic>, <italic toggle=\"yes\">OD1_genera_incertae_sedis</italic>, <italic toggle=\"yes\">Aciditerrimonas</italic>, etc. <sentence_start/><italic toggle=\"yes\">Acinetobacter</italic>, <italic toggle=\"yes\">Blastopirellula,</italic> and <italic toggle=\"yes\">Ilumatobacter</italic> dominated both the sedimentary and the planktonic bacterial communities. <sentence_start/>For each dominant genus, its distribution among the five sampling sites was highly diversified. <sentence_start/>In another word, relative abundance of the individual genus might differ a lot at different sites."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "For both planktonic and sedimentary bacterial communities, the phylogenetic diversity of the minority bacteria (the rare bacterial biosphere) was much higher than that of the majority bacteria. <sentence_start/>For example, more than five phyla consisted of less than 10% of the planktonic bacterial community, whereas two phyla composed the rest over 90% portions. <sentence_start/>It was consistent with the famous statement that “everything is everywhere, but the environment selects” in environmental microbiology (De Wit and Bouvier <citation rid=\"b8\" ref-type=\"bibr\" pmid=\"16584487\" doi=\"10.1111/j.1462-2920.2006.01017.x\" count=\"1\">2006</citation>). <sentence_start/>The highly diverse rare biosphere might be of ecological significance in the evolution of Lake Sayram (Pedrόs-Aliό <citation rid=\"b38\" ref-type=\"bibr\" doi=\"10.1146/annurev-marine-120710-100948\" pmid=\"22457983\" count=\"1\">2012</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The planktonic and sedimentary bacterial communities of Lake Sayram showed distinct structures, except that both of them were dominated by the phylum Proteobacteria. <sentence_start/>In comparing with the planktonic bacterial community, the sedimental counterpart displayed a much higher phylogenetic diversity, which might be due to the much more complicated physicochemical properties of sediments."
+  },
+  {
+   "section": "article",
+   "text": "In addition, the planktonic bacteria were commonly found elsewhere in the environment, whereas an appreciable part of the sedimental bacteria remained unidentified and therefore might be environmentally unique. <sentence_start/>Nearly all the planktonic bacteria could be classified into various phyla within the Bacteria domain and about 90% of them could be grouped into different genera (Tables S1, S2). <sentence_start/>Those identified genera recovered from the lake water samples were widespread in the environment. <sentence_start/>However, 5.92-10.33% of the 16S rRNA clean reads recovered from the sedimental samples could not be classified into any phylum under the Bacteria domain. <sentence_start/>Furthermore, around 40% of the sedimentary reads could not be grouped into any known genus, revealing the largely unknown bacterial biosphere hiding in the bottom sediments of this ancient lake. <sentence_start/>Although Lake Sayram was a closed lake locating at a mountain basin, its lake water kept active material exchanging and energy transformation with the environment through atmospheric circulation, rain water precipitation, etc. <sentence_start/>Consequently, the lake water became an open system and its bacterial communities were determined by the environment. <sentence_start/>In contrast, the bottom sediments could not freely communicate with the environment and therefore were separated as exclusive niches to preserve the unique properties (including microorganisms) of this ancient lake. <sentence_start/>Bacteria inhabiting in the sediments of Lake Sayram, especially those unidentified, might be a reserve of ancient bacteria which were of geological value."
+  },
+  {
+   "section": "article",
+   "text": "The genera <italic toggle=\"yes\">Actinobacter</italic> and <italic toggle=\"yes\">Ilumatobacter</italic> accounted for around 70% of the planktonic bacteria. <sentence_start/>As the taxa occupying bigger proportion in bacterial communities are correlated to the metabolic properties (Debroas et al. <citation rid=\"b9\" ref-type=\"bibr\" pmid=\"19558513\" doi=\"10.1111/j.1462-2920.2009.01969.x\" count=\"1\">2009</citation>), <italic toggle=\"yes\">Actinobacter</italic> and <italic toggle=\"yes\">Ilumatobacter</italic> might play a vital role in the metabolism of the lake water. <sentence_start/>Species of the <italic toggle=\"yes\">Actinobacter</italic> genus were widely distributed in the environment, including soil, water, and sewage (Ventura et al. <citation rid=\"b47\" ref-type=\"bibr\" pmid=\"17804669\" doi=\"10.1128/MMBR.00005-07\" pmcid=\"PMC2168647\" count=\"1\">2007</citation>; Servin et al. <citation rid=\"b45\" ref-type=\"bibr\" pmid=\"18003601\" doi=\"10.1093/molbev/msm249\" count=\"1\">2008</citation>; Ghai et al. <citation rid=\"b14\" ref-type=\"bibr\" pmid=\"21915244\" doi=\"10.1371/journal.pone.0023785\" pmcid=\"PMC3158796\" count=\"1\">2011</citation>). <sentence_start/>Members of this genus were involved in the mineralization of organic matters in soil (Kästner et al. <citation rid=\"b28\" ref-type=\"bibr\" count=\"1\">1994</citation>). <sentence_start/>Type species of <italic toggle=\"yes\">Ilumatobacter</italic> inhabited in marine environment such as sediment of the estuaries, sand of the coastal beach and marine sponges (Matsumoto et al. <citation rid=\"b35\" ref-type=\"bibr\" pmid=\"19590147\" doi=\"10.2323/jgam.55.201\" count=\"1\">2009</citation>; Khan et al. <citation rid=\"b29\" ref-type=\"bibr\" pmid=\"22214828\" doi=\"10.1264/jsme2.ME11270\" pmcid=\"PMC4036034\" count=\"1\">2012</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The planktonic bacterial communities were largely structured by the physicochemical parameters of the lake water and inoculation of microbes from the water supply, which was in agreement with previous findings in other lakes (Humayoun et al. <citation rid=\"b21\" ref-type=\"bibr\" pmid=\"12571026\" doi=\"10.1128/AEM.69.2.1030-1042.2003\" pmcid=\"PMC143613\" count=\"1\">2003</citation>; Jiang et al. <citation rid=\"b25\" ref-type=\"bibr\" pmid=\"16751487\" doi=\"10.1128/AEM.02869-05\" pmcid=\"PMC1489620\" count=\"1\">2006</citation>; Crump et al. <citation rid=\"b7\" ref-type=\"bibr\" pmid=\"22378536\" doi=\"10.1038/ismej.2012.9\" pmcid=\"PMC3498914\" count=\"1\">2012</citation>; Santofimia et al. <citation rid=\"b44\" ref-type=\"bibr\" pmid=\"23840525\" doi=\"10.1371/journal.pone.0066746\" pmcid=\"PMC3694112\" count=\"1\">2013</citation>; Pjevac et al. <citation rid=\"b39\" ref-type=\"bibr\" pmid=\"25344237\" doi=\"10.1128/AEM.02435-14\" pmcid=\"PMC4272751\" count=\"1\">2015</citation>). <sentence_start/>In general, the planktonic bacteria were aerobic or facultatively aerobic/anaerobic, psychrophilic or psychrotolerant, and halotolerant. <sentence_start/>Many genera of psychrophilic/psychrotolerant bacteria recovered from the water samples were reported to inhabit in polar regions, which could be due to the input of snow water and cold spring water. <sentence_start/>These bacteria included <italic toggle=\"yes\">Loktanella</italic> (Van Trappen et al. <citation rid=\"b46\" ref-type=\"bibr\" pmid=\"15280301\" doi=\"10.1099/ijs.0.03006-0\" count=\"1\">2004</citation>), <italic toggle=\"yes\">Cryobacterium</italic> (Zhang et al. <citation rid=\"b57\" ref-type=\"bibr\" pmid=\"17392221\" doi=\"10.1099/ijs.0.64750-0\" count=\"1\">2007</citation>; Bajerski et al. <citation rid=\"b1\" ref-type=\"bibr\" pmid=\"20817836\" doi=\"10.1099/ijs.0.027128-0\" count=\"1\">2011</citation>), <italic toggle=\"yes\">Algoriphagus</italic> (Bowman et al. <citation rid=\"b3\" ref-type=\"bibr\" pmid=\"13130017\" doi=\"10.1099/ijs.0.02553-0\" count=\"1\">2003</citation>), <italic toggle=\"yes\">Psychrobacter</italic> (Bowman et al. <citation rid=\"b2\" ref-type=\"bibr\" count=\"1\">1997</citation>), <italic toggle=\"yes\">Planococcus</italic> (Reddy et al. <citation rid=\"b42\" ref-type=\"bibr\" pmid=\"12072961\" doi=\"10.1007/s00792-001-0250-7\" count=\"1\">2002</citation>), <italic toggle=\"yes\">Luteolibacter</italic> (Jiang et al. <citation rid=\"b26\" ref-type=\"bibr\" pmid=\"22081723\" doi=\"10.1099/ijs.0.037309-0\" count=\"1\">2012</citation>), <italic toggle=\"yes\">Brumimicrobium</italic> (Bowman et al. <citation rid=\"b2\" ref-type=\"bibr\" count=\"1\">1997</citation>), etc. <sentence_start/>Among the five sampling sites, the genera <italic toggle=\"yes\">Cryobacterium</italic> and <italic toggle=\"yes\">Agrococcus</italic> were found to be most abundant at Site 1, which was closest to the entrance of cold spring water. <sentence_start/>Unlike the cold environment origin of <italic toggle=\"yes\">Crybacterium</italic>, members of <italic toggle=\"yes\">Agrococcus</italic> were widespread in the environment, including the frozen soil, sandstone surface, air, glacier, seaweed, etc. <sentence_start/>(Groth et al. <citation rid=\"b16\" ref-type=\"bibr\" pmid=\"8573501\" doi=\"10.1099/00207713-46-1-234\" count=\"1\">1996</citation>; Lee <citation rid=\"b32\" ref-type=\"bibr\" pmid=\"18842844\" doi=\"10.1099/ijs.0.65731-0\" count=\"1\">2008</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The lake water also accommodated bacteria with considerable adaptability. <sentence_start/>For instance, the genera <italic toggle=\"yes\">Ornithinibacter</italic> and <italic toggle=\"yes\">Exiguobacterium</italic> were characterized by their ability to thrive in a wide range of temperature and pH (Frühling et al. <citation rid=\"b11\" ref-type=\"bibr\" pmid=\"12148624\" doi=\"10.1099/00207713-52-4-1171\" count=\"1\">2002</citation>; Yumoto et al. <citation rid=\"b56\" ref-type=\"bibr\" pmid=\"15545426\" doi=\"10.1099/ijs.0.63129-0\" count=\"1\">2004</citation>; Kim et al. <citation rid=\"b30\" ref-type=\"bibr\" pmid=\"15774680\" doi=\"10.1099/ijs.0.63308-0\" count=\"1\">2005</citation>; Chaturvedi and Shivaji <citation rid=\"b4\" ref-type=\"bibr\" pmid=\"17158975\" doi=\"10.1099/ijs.0.64508-0\" count=\"1\">2006</citation>; Crapart et al. <citation rid=\"b6\" ref-type=\"bibr\" pmid=\"17267965\" doi=\"10.1099/ijs.0.64639-0\" count=\"1\">2007</citation>; Xiao et al. <citation rid=\"b52\" ref-type=\"bibr\" pmid=\"20400663\" doi=\"10.1099/ijs.0.022806-0\" count=\"1\">2011</citation>; Raichand et al. <citation rid=\"b40\" ref-type=\"bibr\" pmid=\"22058319\" doi=\"10.1099/ijs.0.035790-0\" count=\"1\">2012</citation>). <sentence_start/>Some species of <italic toggle=\"yes\">Exiguobacterium</italic> could tolerate high levels of UV radiation and heavy metal stress."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">GPIIa</italic>, <italic toggle=\"yes\">Porphyrobacter</italic>, and <italic toggle=\"yes\">Methylophilus</italic> appeared to contribute to the prokaryotic primary productivity of the lake water. <sentence_start/><italic toggle=\"yes\">GPIIa</italic> was the only genus that constituted the photosynthetic phylum Cyanobacteria/Chloroplast in the planktonic bacterial communities. <sentence_start/>Another possible photoautotrophic genus universally detected in the lake water samples was <italic toggle=\"yes\">Porphyrobacter</italic>. <sentence_start/>Species of this genus inhabited in aquatic environments, such as fresh water, sea water, and hot spring (Fuerst et al. <citation rid=\"b12\" ref-type=\"bibr\" pmid=\"8427804\" doi=\"10.1099/00207713-43-1-125\" count=\"1\">1993</citation>; Rainey et al. <citation rid=\"b41\" ref-type=\"bibr\" pmid=\"12656149\" doi=\"10.1099/ijs.0.02308-0\" count=\"1\">2003</citation>; Yoon et al. <citation rid=\"b54\" ref-type=\"bibr\" pmid=\"16627658\" doi=\"10.1099/ijs.0.63840-0\" count=\"1\">2006</citation>; Furuhata et al. <citation rid=\"b13\" ref-type=\"bibr\" pmid=\"23863295\" doi=\"10.2323/jgam.59.245\" count=\"1\">2013</citation>). <sentence_start/>Some members of <italic toggle=\"yes\">Porphyrobacter</italic> contained bacteriochlorophyll and were therefore photosynthetic (Fuerst et al. <citation rid=\"b12\" ref-type=\"bibr\" pmid=\"8427804\" doi=\"10.1099/00207713-43-1-125\" count=\"1\">1993</citation>; Hiraishi et al. <citation rid=\"b19\" ref-type=\"bibr\" pmid=\"12070768\" doi=\"10.1007/s00203-002-0423-5\" count=\"1\">2002</citation>). <sentence_start/>Some species of <italic toggle=\"yes\">Porphyrobacter</italic> were able to degrade biphenyl and dibenzofuran (Hiraishi et al. <citation rid=\"b19\" ref-type=\"bibr\" pmid=\"12070768\" doi=\"10.1007/s00203-002-0423-5\" count=\"1\">2002</citation>). <sentence_start/>Another potential contributor to the planktonic primary productivity was the genus <italic toggle=\"yes\">Methylophilus</italic>, a restricted facultative methanol utilizer (Jenkins et al. <citation rid=\"b24\" ref-type=\"bibr\" count=\"1\">1987</citation>). <sentence_start/>In addition to single carbon compounds, <italic toggle=\"yes\">Methylophilus</italic> could also use a limited range of more complex organic compounds as the carbon and energy source (Jenkins et al. <citation rid=\"b24\" ref-type=\"bibr\" count=\"1\">1987</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The predominant sedimentary genera were widespread in the environment, distributing in multiple terrestrial and aquatic habitats. <sentence_start/>Majority of them were either anaerobic or facultatively anaerobic. <sentence_start/>The genera <italic toggle=\"yes\">Thioprofundum</italic>, <italic toggle=\"yes\">Ohtaekwangia</italic>, <italic toggle=\"yes\">Iamia,</italic> and <italic toggle=\"yes\">Ilumatobacter</italic> were of marine origin (Kurahashi et al. <citation rid=\"b31\" ref-type=\"bibr\" pmid=\"19329622\" doi=\"10.1099/ijs.0.005611-0\" count=\"1\">2009</citation>; Matsumoto et al. <citation rid=\"b35\" ref-type=\"bibr\" pmid=\"19590147\" doi=\"10.2323/jgam.55.201\" count=\"1\">2009</citation>; Mori et al. <citation rid=\"b36\" ref-type=\"bibr\" pmid=\"21075906\" doi=\"10.1099/ijs.0.026963-0\" count=\"1\">2011</citation>; Yoon et al. <citation rid=\"b55\" ref-type=\"bibr\" pmid=\"20511453\" doi=\"10.1099/ijs.0.025874-0\" count=\"1\">2011</citation>; Roeselers and Newton <citation rid=\"b43\" ref-type=\"bibr\" pmid=\"22354364\" doi=\"10.1007/s00253-011-3819-9\" pmcid=\"PMC3304057\" count=\"1\">2012</citation>). <sentence_start/>The genus <italic toggle=\"yes\">Desulfohalobium</italic> inhabited in hypersaline lakes (Ollivier et al. <citation rid=\"b37\" ref-type=\"bibr\" count=\"1\">1991</citation>; Jakobsen et al. <citation rid=\"b23\" ref-type=\"bibr\" pmid=\"16957100\" doi=\"10.1099/ijs.0.64323-0\" count=\"1\">2006</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "It was noteworthy that <italic toggle=\"yes\">Thioprofundum</italic>, <italic toggle=\"yes\">Thiobacter,</italic> and <italic toggle=\"yes\">Aciditerrimonas</italic>, the predominant bacterial genera universally detected in the sediments of this alkaline cold water lake, were thermophilic or thermoacidophilic extremophiles (Hirayama et al. <citation rid=\"b20\" ref-type=\"bibr\" pmid=\"15653920\" doi=\"10.1099/ijs.0.63389-0\" count=\"1\">2005</citation>; Itoh et al. <citation rid=\"b22\" ref-type=\"bibr\" pmid=\"20639230\" doi=\"10.1099/ijs.0.023044-0\" count=\"1\">2011</citation>; Mori et al. <citation rid=\"b36\" ref-type=\"bibr\" pmid=\"21075906\" doi=\"10.1099/ijs.0.026963-0\" count=\"1\">2011</citation>), implying that there might be thermal springs at the lake bottom. <sentence_start/>Similar with what was found elsewhere (i.e., the sea floor), thermal springs might also be the source of sulfur (S, H<sub>2</sub>S), methane (CH<sub>4</sub>), nitrogen (N<sub>2</sub>), and metals (Cu, Zn, Mn, Co, etc.), the elements or compounds constituting the lake bottom sediments."
+  },
+  {
+   "section": "article",
+   "text": "Active players in biogeochemical processes (the sulfur cycle, the nitrogen cycle, and the carbon cycle) were retrieved from the sediment samples. <sentence_start/>Bacteria with antagonistic metabolic functions were found to co-predominate in the lake bottom sediments, indicating the way how an ecosystem acquired a metabolic balance. <sentence_start/><italic toggle=\"yes\">Thioprofundum</italic> and <italic toggle=\"yes\">Thiobacter</italic> were obligately chemolithoautotrophic and thiosulfate-/sulfur-oxidizing, whereas <italic toggle=\"yes\">Desulfohalobium</italic> was chemoorganotrophic and sulfate-reducing (Ollivier et al. <citation rid=\"b37\" ref-type=\"bibr\" count=\"1\">1991</citation>; Grice et al. <citation rid=\"b15\" ref-type=\"bibr\" count=\"1\">1998</citation>; Hirayama et al. <citation rid=\"b20\" ref-type=\"bibr\" pmid=\"15653920\" doi=\"10.1099/ijs.0.63389-0\" count=\"1\">2005</citation>; Jakobsen et al. <citation rid=\"b23\" ref-type=\"bibr\" pmid=\"16957100\" doi=\"10.1099/ijs.0.64323-0\" count=\"1\">2006</citation>; Mori et al. <citation rid=\"b36\" ref-type=\"bibr\" pmid=\"21075906\" doi=\"10.1099/ijs.0.026963-0\" count=\"1\">2011</citation>). <sentence_start/><italic toggle=\"yes\">Nitrospira</italic> was nitrite-oxidizing, whereas <italic toggle=\"yes\">Steroidobacter</italic> was nitrate-reducing. <sentence_start/>Similar with the <italic toggle=\"yes\">Methylophilus</italic> genus detected in lake water, <italic toggle=\"yes\">Methyloversatilis</italic>, another facultatively methylotroph, was recovered from the sediments (Kalyuzhnaya et al. <citation rid=\"b27\" ref-type=\"bibr\" pmid=\"17082383\" doi=\"10.1099/ijs.0.64422-0\" count=\"1\">2006</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "This is the first comprehensive report on the planktonic and sedimentary bacterial diversity of Lake Sayram. <sentence_start/>Proteobacteria is the phylum dominating the lacustrine bacterial communities. <sentence_start/>Profiles of the bacterial communities in this ancient cold water lake are related to its hydrological and physicochemical properties. <sentence_start/>The planktonic bacteria are commonly found in the environment, whereas a considerable part of the sedimentary bacteria are unique and remain unidentified. <sentence_start/>In the planktonic bacterial community, psychrophilic/psychrotolerant and halotolerant genera of bacteria are frequently found. <sentence_start/>The genera <italic toggle=\"yes\">Acinetobacter</italic> and <italic toggle=\"yes\">Ilumatobacter</italic> hold an absolute predominance. <sentence_start/>In the sedimentary bacterial communities, biogeochemically significant bacteria and thermophilic or acidothermophilic extremophiles are detected."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of Interest"
+  },
+  {
+   "section": "back",
+   "text": "None declared."
+  },
+  {
+   "section": "back",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "back",
+   "text": "Additional Supporting Information may be found in the online version of this article:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Table S1.</bold> <sentence_start/>Taxonomic composition of the planktonic bacterial communities in Lake Sayram (at the phylum level)."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Table S2.</bold> <sentence_start/>Taxonomic composition of the planktonic bacterial communities in Lake Sayrama (at the genus level)."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Table S3.</bold> <sentence_start/>Taxonomic composition of the sedimental bacterial communities in Lake Sayram (at the phylum level)."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Table S4.</bold> <sentence_start/>Taxonomic composition of the sedimental bacterial communities in Lake Sayrama (at the genus level)."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Figure S1.</bold> <sentence_start/>The planktonic bacterial diversity of Lake Sayram at the genus level."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Figure S2.</bold> <sentence_start/>Sedimental bacterial diversity of Lake Sayram at the genus level."
+  }
+ ]
+}

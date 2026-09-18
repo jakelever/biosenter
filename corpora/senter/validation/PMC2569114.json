@@ -1,0 +1,35 @@
+{
+ "pmid": null,
+ "pmcid": 2569114,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Reduction in Measurement Error: Barraza-Villarreal et al. <sentence_start/>Respond"
+  },
+  {
+   "section": "article",
+   "text": "We thank Barnett for his comments on our article (<citation rid=\"b1-ehp-116-a420\" ref-type=\"bibr\" pmid=\"18560490\" doi=\"10.1289/ehp.10926\" pmcid=\"PMC2430242\" count=\"1\">Barraza-Villarreal et al. 2008</citation>), in which we reported associations between ambient air pollution and adverse lung function outcomes in a cohort of schoolchildren in Mexico City, Mexico. <sentence_start/>In the last several years, the adverse effects of air pollution on lung function, such as decrement in forced expiratory volume in 1 sec (FEV<sub>1</sub>) has been clearly demonstrated (<citation rid=\"b3-ehp-116-a420\" ref-type=\"bibr\" pmid=\"17307103\" doi=\"10.1016/S0140-6736(07)60037-3\" count=\"1\">Gauderman et al. 2007</citation>; <citation rid=\"b4-ehp-116-a420\" ref-type=\"bibr\" pmid=\"9546760\" doi=\"10.1080/00039899709602213\" count=\"1\">Romieu et al. 1997</citation>). <sentence_start/>Before our study, there were reports of associations between cumulative particulate matter [PM &lt; 10 μm (PM<sub>10</sub>) and &lt; 2.5 μm (PM<sub>2.5</sub> ) in aerodynamic diameter] and gaseous (ozone, sulfur dioxide, and nitrogen dioxide) air pollutant exposure and decrease in lung function in other studies (<citation rid=\"b2-ehp-116-a420\" ref-type=\"bibr\" pmid=\"18057336\" doi=\"10.1056/NEJMoa073625\" count=\"1\">Downs et al. 2007</citation>; <citation rid=\"b5-ehp-116-a420\" ref-type=\"bibr\" pmid=\"16870661\" doi=\"10.1183/09031936.06.00114905\" count=\"1\">Romieu et al. 2006</citation>). <sentence_start/>Replication of these findings in different populations under different conditions of exposure is an important aspect of epidemiologic research, with consistency of results strengthening the weight of evidence for a true association between exposure and outcome."
+  },
+  {
+   "section": "article",
+   "text": "However, air pollution exposure assessment is always a critical factor in environmental epidemiology. <sentence_start/>Like other studies of air pollution and lung health, our study (<citation rid=\"b1-ehp-116-a420\" ref-type=\"bibr\" pmid=\"18560490\" doi=\"10.1289/ehp.10926\" pmcid=\"PMC2430242\" count=\"1\">Barraza-Villarreal et al. 2008</citation>) relied on ecologic rather than personal indicators of exposure. <sentence_start/>Exposure misclassification due to the use of fixed-site ambient monitors rather than personal dosimeters is likely to underestimate rather than overestimate the effect of air pollution on lung function."
+  },
+  {
+   "section": "article",
+   "text": "In his letter Barnett mentions that “the apparent stronger association between reduced FEV<sub>1</sub> and cumulative exposure over 1-5 days may be due in part to a reduction in measurement error of particulate matter &lt; 2.5 μm (PM<sub>2.5</sub>) and not a true cumulative effect.<sentence_start/>” He attempted to verify this assertion by carrying out a simulation study; however, we see several problems with it. <sentence_start/>First, in his simulations, Barnett assumed a normal distribution (Figure 1). <sentence_start/>Several distributions have been reported as adequate for PM<sub>2.5</sub>, among them log-logistic, log-normal, and gamma. <sentence_start/>Using the data from our study (<citation rid=\"b1-ehp-116-a420\" ref-type=\"bibr\" pmid=\"18560490\" doi=\"10.1289/ehp.10926\" pmcid=\"PMC2430242\" count=\"1\">Barraza-Villarreal et al. 2008</citation>), we carried out an exercise similar to Barnett’s, but we fitted different distributions (data not shown). <sentence_start/>The one that best fit our data was the gamma distribution. <sentence_start/>Second, when considering cumulative exposure, it is important to take into account the correlation between the observations on consecutive days; it is not enough to simulate from a distribution and then add the exposure. <sentence_start/>The models presented by Barnett did not take into account this correlation. <sentence_start/>Third, we reproduced the simulation of FEV<sub>1</sub> as presented by Barnett (data not shown) and observed that it could produce negative value for FEV<sub>1</sub> because it does not take into account the correlation of observations within children, although a sample size for each child was simulated and an artificial mixed model was fitted."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, because Barnett’s simulation of PM<sub>2.5</sub> was based on a normal distribution, it does not reproduce the original structure of our data (Figure 1) (<citation rid=\"b1-ehp-116-a420\" ref-type=\"bibr\" pmid=\"18560490\" doi=\"10.1289/ehp.10926\" pmcid=\"PMC2430242\" count=\"1\">Barraza-Villarreal et al. 2008</citation>); therefore, the conclusions obtained are not applicable."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Same day (<italic toggle=\"yes\">A,B</italic>) and 2-day cumulative (<italic toggle=\"yes\">C,D</italic>) PM<sub>2.5</sub> distributions. <sentence_start/>(<italic toggle=\"yes\">A,C</italic>) original data. <sentence_start/>(<italic toggle=\"yes\">B,D</italic>) Simulated data."
+  }
+ ]
+}

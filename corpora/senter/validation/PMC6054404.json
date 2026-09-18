@@ -1,0 +1,475 @@
+{
+ "pmid": 30028871,
+ "pmcid": 6054404,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "An annotated CNS transcriptome of the medicinal leech, <italic toggle=\"yes\">Hirudo verbana</italic>: <italic toggle=\"yes\">De novo</italic> sequencing to characterize genes associated with nervous system activity"
+  },
+  {
+   "section": "abstract",
+   "text": "The medicinal leech is one of the most venerated model systems for the study of fundamental nervous system principles, ranging from single-cell excitability to complex sensorimotor integration. <sentence_start/>Yet, molecular analyses have yet to be extensively applied to complement the rich history of electrophysiological study that this animal has received. <sentence_start/>Here, we generated the first <italic toggle=\"yes\">de novo</italic> transcriptome assembly from the entire central nervous system of <italic toggle=\"yes\">Hirudo verbana</italic>, with the goal of providing a molecular resource, as well as to lay the foundation for a comprehensive discovery of genes fundamentally important for neural function. <sentence_start/>Our assembly generated 107,704 contigs from over 900 million raw reads. <sentence_start/>Of these 107,704 contigs, 39,047 (36%) were annotated using NCBI’s validated RefSeq sequence database. <sentence_start/>From this annotated central nervous system transcriptome, we began the process of curating genes related to nervous system function by identifying and characterizing 126 unique ion channel, receptor, transporter, and enzyme contigs. <sentence_start/>Additionally, we generated sequence counts to estimate the relative abundance of each identified ion channel and receptor contig in the transcriptome through Kallisto mapping. <sentence_start/>This transcriptome will serve as a valuable community resource for studies investigating the molecular underpinnings of neural function in leech and provide a reference for comparative analyses."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Medicinal leeches have long been studied as a model for understanding the neural underpinnings of behavior [<citation rid=\"pone.0201206.ref001\" ref-type=\"bibr\" pmid=\"455070\" doi=\"10.1016/0006-8993(79)90282-8\" count=\"1\">1</citation>-<citation rid=\"pone.0201206.ref004\" ref-type=\"bibr\" doi=\"10.1016/j.pneurobio.2005.09.004\" pmid=\"16260077\" count=\"1\">4</citation>], fundamental electrophysiology principles [<citation rid=\"pone.0201206.ref005\" ref-type=\"bibr\" doi=\"10.1038/2141351b0\" pmid=\"6056853\" count=\"1\">5</citation>,<citation rid=\"pone.0201206.ref006\" ref-type=\"bibr\" doi=\"10.1152/jn.1976.39.6.1176\" pmid=\"993825\" count=\"1\">6</citation>], central-pattern generation [<citation rid=\"pone.0201206.ref007\" ref-type=\"bibr\" doi=\"10.1152/physrev.1996.76.3.687\" pmid=\"8757786\" count=\"1\">7</citation>], and metamodulation [<citation rid=\"pone.0201206.ref008\" ref-type=\"bibr\" doi=\"10.1159/000067793\" pmid=\"12563166\" count=\"1\">8</citation>]. <sentence_start/>Molecular sequence information for the Northwestern European medicinal leech <italic toggle=\"yes\">Hirudo medicinalis</italic> has more recently been accumulating through studies targeting specific candidate gene sequences [<citation rid=\"pone.0201206.ref009\" ref-type=\"bibr\" doi=\"10.1007/s00427-001-0183-2\" pmid=\"11819116\" count=\"1\">9</citation>-<citation rid=\"pone.0201206.ref014\" ref-type=\"bibr\" doi=\"10.1074/jbc.M403073200\" pmid=\"15258158\" count=\"1\">14</citation>], tissue types [<citation rid=\"pone.0201206.ref015\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btt570\" pmid=\"24085568\" count=\"1\">15</citation>,<citation rid=\"pone.0201206.ref016\" ref-type=\"bibr\" doi=\"10.1038/sdata.2015.15\" pmid=\"25977819\" pmcid=\"PMC4412018\" count=\"1\">16</citation>], or life stages [<citation rid=\"pone.0201206.ref017\" ref-type=\"bibr\" doi=\"10.1186/1471-2164-11-407\" pmid=\"20579359\" pmcid=\"PMC2996935\" count=\"1\">17</citation>]. <sentence_start/>The Southeastern European medicinal leech <italic toggle=\"yes\">Hirudo verbana</italic> has not received the same attention in the surge to bring transcriptomic approaches to traditionally “non-genetic” systems, even though it remains the most commonly used species in neurophysiological and behavioral studies [<citation rid=\"pone.0201206.ref018\" ref-type=\"bibr\" doi=\"10.1152/jn.00235.2016\" pmid=\"27226449\" pmcid=\"PMC4982905\" count=\"1\">18</citation>-<citation rid=\"pone.0201206.ref021\" ref-type=\"bibr\" doi=\"10.1152/jn.00107.2012\" pmid=\"22378172\" pmcid=\"PMC3362288\" count=\"1\">21</citation>]. <sentence_start/>While <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">medicinalis</italic> and <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> have sometimes been confounded as a single species, they not only have distinct coloration and patterns, but also are genetically distinct, as shown through random amplified polymorphic DNA (RAPD) analyses [<citation rid=\"pone.0201206.ref022\" ref-type=\"bibr\" doi=\"10.1007/s00436-004-1181-x\" pmid=\"15322921\" count=\"1\">22</citation>] and mitochondrial genomic (mtDNA) sequencing [<citation rid=\"pone.0201206.ref023\" ref-type=\"bibr\" doi=\"10.1080/23802359.2016.1157774\" pmcid=\"PMC7800963\" pmid=\"33473467\" count=\"1\">23</citation>]. <sentence_start/>While mating between the two species is possible, crosses between <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">medicinalis</italic> and <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> results in a low fecundity with a high mortality of hybrid offspring [<citation rid=\"pone.0201206.ref024\" ref-type=\"bibr\" doi=\"10.1111/j.1744-7410.2009.00180.x\" count=\"1\">24</citation>]. <sentence_start/>We also note that while previous transcriptome assemblies for medicinal leeches are labeled <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">medicinalis</italic>, the sequenced organisms are instead likely <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> due to commercial labeling practices [<citation rid=\"pone.0201206.ref025\" ref-type=\"bibr\" doi=\"10.1098/rspb.2007.0248\" pmid=\"17426015\" pmcid=\"PMC2176162\" count=\"1\">25</citation>]. <sentence_start/>Regardless, our transcriptome is the first to incorporate the entire central nervous system (CNS) with next-generation sequencing and annotation."
+  },
+  {
+   "section": "article",
+   "text": "The CNS of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> consists of 21 connected segmental ganglia comprising the ventral nerve cord, terminating at the cephalic end with a compound cephalic ganglion “brain”, and a caudal end with a compound terminal ganglion (“hind brain”) [<citation rid=\"pone.0201206.ref026\" ref-type=\"bibr\" doi=\"10.1242/jeb.113860\" pmid=\"26538172\" count=\"1\">26</citation>]. <sentence_start/>Each segmental ganglion is comprised of ~400 individual neurons, primarily as bilateral pairs surrounding the central neuropil [<citation rid=\"pone.0201206.ref027\" ref-type=\"bibr\" doi=\"10.1002/cne.24120\" pmid=\"27636374\" pmcid=\"PMC5063717\" count=\"1\">27</citation>]. <sentence_start/>The nervous system of a leech mediates a wide variety of stereotyped behaviors, from locomotor actions such as crawling [<citation rid=\"pone.0201206.ref028\" ref-type=\"bibr\" doi=\"10.1126/science.1103736\" pmid=\"15705844\" count=\"1\">28</citation>] and swimming [<citation rid=\"pone.0201206.ref029\" ref-type=\"bibr\" doi=\"10.1002/neu.480270312\" pmid=\"7673898\" count=\"1\">29</citation>], to socialization [<citation rid=\"pone.0201206.ref030\" ref-type=\"bibr\" doi=\"10.1152/jn.01043.2010\" pmid=\"21411566\" count=\"1\">30</citation>] and prey localization [<citation rid=\"pone.0201206.ref031\" ref-type=\"bibr\" doi=\"10.1242/jeb.075911\" pmid=\"23785108\" count=\"1\">31</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Bringing Next-gen technologies to traditionally non-genetic invertebrate species has resulted in renewed focus on classical systems, such as the mollusk <italic toggle=\"yes\">Aplysia</italic> (e.g., gill withdrawal reflex) [<citation rid=\"pone.0201206.ref032\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2006.09.052\" pmid=\"17190607\" pmcid=\"PMC4024467\" count=\"1\">32</citation>] and crustaceans (e.g., motor rhythm generation in the stomatogastric nervous systems of <italic toggle=\"yes\">Homarus americanus</italic> [<citation rid=\"pone.0201206.ref033\" ref-type=\"bibr\" doi=\"10.1186/s12864-016-2373-3\" pmid=\"26772543\" pmcid=\"PMC4715275\" count=\"1\">33</citation>] and <italic toggle=\"yes\">Cancer borealis</italic> [<citation rid=\"pone.0201206.ref034\" ref-type=\"bibr\" doi=\"10.1186/s12864-016-3215-z\" pmid=\"27809760\" pmcid=\"PMC5096308\" count=\"1\">34</citation>]). <sentence_start/>Combining the experimental accessibility of these preparations with modern molecular techniques has facilitated the discovery of how such neural circuits function, and the medicinal leech is a prime model system to benefit from the same approach. <sentence_start/>In this study, we generated a <italic toggle=\"yes\">de novo</italic> transcriptome assembly from the complete CNS of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>. <sentence_start/>Our assembly generated 107,704 contigs from over 900 million raw reads. <sentence_start/>Of these 107,704 contigs, 39,047 (36%) were annotated using the validated RefSeq sequence database from NCBI (Bethesda, MD, USA). <sentence_start/>From this CNS transcriptome, we identified 126 unique ion channels, receptors, transporters, and enzyme contigs related to neural function and determined their relative abundance within the whole CNS. <sentence_start/>Not only is this a strong resource for investigating the molecular underpinnings of neural function in the medicinal leech, but it will also provide a reference for comparative analyses across taxa."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "Tissue collection and RNA preparation"
+  },
+  {
+   "section": "article",
+   "text": "Tissues used in this study were acquired from one adult <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> leech from Niagara Medical Leeches (Niagara Falls, NY, USA). <sentence_start/>Using only one animal potentially reduces the effect of single-nucleotide polymorphisms (SNPs) on the <italic toggle=\"yes\">de novo</italic> transcriptome assembly [<citation rid=\"pone.0201206.ref035\" ref-type=\"bibr\" doi=\"10.1101/035642\" count=\"1\">35</citation>]. <sentence_start/>Animals were maintained in ~10 gallon aquaria at 22-24°C using freshwater obtained from Lefevre Pond, Columbia, MO. <sentence_start/>Prior to dissection, the animal was anesthetized on ice for 10 min. <sentence_start/>For generation of the whole CNS transcriptome, the compound cephalic ganglion (including the non-segmental dorsal supraesophageal ganglion) through the compound terminal ganglion was removed from one animal by dissecting away the ventral sinus and anterior/posterior roots, leaving the connectives between ganglia intact. <sentence_start/>The entire ventral nerve cord was placed in 750 μL Trizol lysis buffer (Invitrogen, Carlsbad, CA, USA) and homogenized via a PowerGen 125 (Thermo Fisher Scientific, Waltham, MA, USA) set to high (5-6) until visible homogenization of nervous tissues was observed. <sentence_start/>Tissues were stored at -80° C until RNA extraction. <sentence_start/>Following the manufacturer’s protocol (Invitrogen), phenol-chloroform extraction was used to extract total RNA, with a subsequent DNase I treatment on Quick RNA Micro-prep Kit IC columns (Zymo Research, Irvine, CA, USA) to eliminate contamination from genomic DNA. <sentence_start/>A Nanodrop-1000 Spectrophotometer (Thermo Fisher Scientific) was used to determine purity and amount of total RNA."
+  },
+  {
+   "section": "article",
+   "text": "Library construction, sequencing, and <italic toggle=\"yes\">de novo</italic> transcriptome assembly"
+  },
+  {
+   "section": "article",
+   "text": "Library construction and high-throughput sequencing services were performed by the University of Missouri DNA Core Facility (Columbia, MO, USA). <sentence_start/>Briefly, cDNA libraries were generated using the TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, California, USA). <sentence_start/>Libraries were sequenced on the Illumina NextSeq 500 instrument in a 2 x 75 bp paired-end configuration. <sentence_start/>Fastq files generated from sequencing resulted in 919,249,178 total reads. <sentence_start/>Raw reads were trimmed with the Trimmomatic software package [<citation rid=\"pone.0201206.ref036\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btu170\" pmid=\"24695404\" pmcid=\"PMC4103590\" count=\"1\">36</citation>] to remove low quality bases, resulting in 897,014,584 clean reads. <sentence_start/>Trimmed fastq files were assembled into reference transcriptomes through two separate <italic toggle=\"yes\">de novo</italic> assemblers for comparison: Trinity [<citation rid=\"pone.0201206.ref037\" ref-type=\"bibr\" doi=\"10.1038/nprot.2013.084\" pmid=\"23845962\" pmcid=\"PMC3875132\" count=\"1\">37</citation>] (v2.4.0) and SeqMan NGen from the DNAstar software suite (SeqMan NGen®. <sentence_start/>Version 13.0. <sentence_start/>DNASTAR. <sentence_start/>Madison, WI.). <sentence_start/>Trinity <italic toggle=\"yes\">de novo</italic> assembly yielded 107,704 contigs with a cutoff size of 200bp from 146,860,824 assembled bases, while SeqMan NGen generated only 64,565 contigs from 51,631,925 bases with the same cutoff."
+  },
+  {
+   "section": "article",
+   "text": "Transcriptome quality assessment"
+  },
+  {
+   "section": "article",
+   "text": "To determine the quality of the Trinity and SeqMan NGen <italic toggle=\"yes\">de novo</italic> whole nervous system transcriptome assemblies, a Benchmarking Universal Single-Copy Orthologs (BUSCO) analysis was carried out on each transcriptome. <sentence_start/>The BUSCO analysis determines the number of complete, fragmented, or missing orthologs present in the transcriptome relative to the amount expected in the phylogenetic clade to which the organism is most closely related [<citation rid=\"pone.0201206.ref038\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btv351\" pmid=\"26059717\" count=\"1\">38</citation>]. <sentence_start/>The <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> nerve cord transcriptome assemblies were compared against the Nematode and Arthropod databases. <sentence_start/>Complete orthologs are defined as being within 2 standard deviations in length from the ortholog in the database; fragmented orthologs are matches that fall outside the 95% expectation in length; missing orthologs failed to find a match in the transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "The sequence length distributions were also compared between assembled transcriptomes to determine which assembly produced longer, higher quality contigs more often. <sentence_start/>Given the significantly larger number of contigs generated by the Trinity build, and the inherent advantages of its open-source software, all further analyses were done using the Trinity assembly. <sentence_start/>Following contamination analysis carried out by NCBI, 161 contigs were excluded from the final transcriptome for similarity to known bacterial sequences."
+  },
+  {
+   "section": "article",
+   "text": "Sequence identification"
+  },
+  {
+   "section": "article",
+   "text": "Using known sequence information from NCBI, amino acid sequences for ion channel and receptor protein families were downloaded for <italic toggle=\"yes\">Drosophila melanogaster</italic>, <italic toggle=\"yes\">Mus musculus</italic>, and <italic toggle=\"yes\">Aplysia californica</italic> and used as references for identifying homologous <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> sequences. <sentence_start/>The NCBI BLAST+ software suite (version 2.7.1) was used to generate a “BLASTable” database of contigs out of the Trinity assembled <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome. <sentence_start/>Reference amino acid sequences were used in a query with TBLASTN alignment of protein sequence against the translated nucleotide database of contigs. <sentence_start/>Putative hits underwent a second round of identity confirmation through a reverse BLASTX against the NCBI non-redundant (nr) database for all species as further validation. <sentence_start/>Identified contigs were named based on the BLAST hit with the highest score, and numerical values were assigned based on the order of identification for each given gene family. <sentence_start/>That is to say, we do not mean to imply specific membership positions within each gene subfamily, but rather simply provide a unique identifier to each sequence based on the order that it was identified in the transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Multiple sequence alignment and gene identification"
+  },
+  {
+   "section": "article",
+   "text": "Predicted coding sequences from <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> were identified from NCBI’s Open Reading Frame finder (ORFfinder) tool ( ) using the standard genetic code and default minimal ORF nucleotide length. <sentence_start/>Amino acid sequences were translated from the longest ORF to be used in multiple sequence alignment (MSA) to compare gene families across species. <sentence_start/><italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> amino acid sequences were compared against that of <italic toggle=\"yes\">Mus musculus</italic>, <italic toggle=\"yes\">Drosophila melanogaster</italic>, and <italic toggle=\"yes\">Aplysia californica</italic>. <sentence_start/>MSA was carried out using NCBI’s Constraint Based Multiple Alignment (COBALT) tool ( ) using default parameters. <sentence_start/>COBALT was chosen over other MSA tools because it incorporates conserved protein domain information into the alignments, beyond simply comparing amino acid sequence independently [<citation rid=\"pone.0201206.ref039\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btm076\" pmid=\"17332019\" count=\"1\">39</citation>]. <sentence_start/>Phylogenetic trees were then generated using tree method set to cobalt tree and a max seq distance set to 0.85 with midpoint rooting."
+  },
+  {
+   "section": "article",
+   "text": "Gene ontology annotation"
+  },
+  {
+   "section": "article",
+   "text": "For assignment of gene ontology (GO) terms, the software package Blast2GO [<citation rid=\"pone.0201206.ref040\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/bti610\" pmid=\"16081474\" count=\"1\">40</citation>] (v5.0) was employed to functionally annotate the contigs of the Trinity assembled transcriptome. <sentence_start/>Using NCBI’s validated RefSeq database of Animalia protein sequences, a fast-BLASTX search (E-value threshold = 10<sup>−5</sup>) returned hit scores against aligned validated sequences. <sentence_start/>Descriptions were assigned to each contig based on the BLAST Top-hit out of the 20 significant hits for each contig (score threshold ≥ 55). <sentence_start/>GO term assignment produces multiple levels of GO terms, with the broadest ontological classifications being biological process, molecular function, and cellular component [<citation rid=\"pone.0201206.ref041\" ref-type=\"bibr\" doi=\"10.1101/gr.180801\" pmid=\"11483584\" pmcid=\"PMC311077\" count=\"1\">41</citation>]. <sentence_start/>Assignment of GO terms included an E-value threshold = 10<sup>−5</sup>, GO weight = 5, and annotation cutoff = 55. <sentence_start/>GO term annotation, unique contig identifiers, sequence lengths, and other associated annotation information can be found in S1 File."
+  },
+  {
+   "section": "article",
+   "text": "RNA-seq TPM abundances"
+  },
+  {
+   "section": "article",
+   "text": "For quantitation of RNA-seq abundances for the transcripts investigated in this study, the software package Kallisto [<citation rid=\"pone.0201206.ref042\" ref-type=\"bibr\" doi=\"10.1038/nbt.3519\" pmid=\"27043002\" count=\"1\">42</citation>] (v0.43.1) was used to generate pseudo-alignments of the hundreds of millions of paired-end reads from the fastq files generated in the sequencing of the CNS of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> against the coding sequences of identified genes of interest from the Trinity assembled transcriptome. <sentence_start/>Abundances were normalized using the transcripts per kilobase million (TPM) method, which accounts for contig length in kilobases and the number of millions of reads aligned."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "CNS sequencing and <italic toggle=\"yes\">de novo</italic> transcriptome assembly"
+  },
+  {
+   "section": "article",
+   "text": "From the sequencing of the entire CNS of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>, 919,249,178 raw reads were generated from 75 bp paired-end Illumina sequencing. <sentence_start/>Filtering of reads resulted in 897,014,584 clean reads with over 97% of reads with a quality score greater or equal to 30. <sentence_start/>These high-quality reads were used in the <italic toggle=\"yes\">de novo</italic> assembly of transcriptomes using two separate transcriptome assembly software packages. <sentence_start/>The two assemblers used in this study were the Trinity (v2.4.0) software package (comprised of Inchworm, Chrysalis, and Butterfly [<citation rid=\"pone.0201206.ref043\" ref-type=\"bibr\" doi=\"10.1038/nbt.1883\" pmid=\"21572440\" pmcid=\"PMC3571712\" count=\"1\">43</citation>]) and SeqMan NGen from the DNAstar’s Lasergene software package [<citation rid=\"pone.0201206.ref044\" ref-type=\"bibr\" pmid=\"10547832\" doi=\"10.1385/1-59259-192-2:71\" count=\"1\">44</citation>]. <sentence_start/>The Trinity assembly yielded 107,704 contiguous sequences (contigs), comprising 146,860,824 total bases, with an N<sub>50</sub> of 2544bp and mean contig length of 1363bp. <sentence_start/>The SeqMan assembly resulted in 64,565 contigs from 51,631,692 total bases with an N<sub>50</sub> of 1286 and mean length of 800bp (Table 1). <sentence_start/>When the sequence length distributions are compared, the Trinity assembly not only has more total sequences, but particularly has more sequences of a greater length than that of the SeqMan assembly (Fig 1A)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "Transcriptome quality-assessment comparison between Trinity and SeqMan <italic toggle=\"yes\">de novo</italic> assembled transcriptomes."
+  },
+  {
+   "section": "article",
+   "text": "(A). <sentence_start/>Size distribution of assembled contigs for each <italic toggle=\"yes\">de novo</italic> assembly of the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome. <sentence_start/>Overlaying the size distributions allows for direct comparison of contig sizes produced by each software. <sentence_start/>(B). <sentence_start/>Benchmarking Universal Single-Copy Orthologs (BUSCO) quality categories are horizontally stacked in bar plots as a quality comparison among assembled transcriptomes both across species and tissues. <sentence_start/>Assemblies produced in this publication (Trinity and SeqMan) are indicated in bold. <sentence_start/>Previously published CNS system transcriptomes from <italic toggle=\"yes\">C</italic>. <italic toggle=\"yes\">borealis</italic> and <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">americanus</italic> were added for comparison with the same tissue type, which was lacking from the Nematoda BUSCO database."
+  },
+  {
+   "section": "article",
+   "text": "To compare the quality of the Trinity transcriptome against the SeqMan transcriptome, the Benchmarking Universal Single-Copy Ortholog (BUSCO) software was used to assess the transcriptome completeness based on the presence of expected lineage-specific orthologs [<citation rid=\"pone.0201206.ref038\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btv351\" pmid=\"26059717\" count=\"1\">38</citation>]. <sentence_start/>At the time of this publication, the Nematoda BUSCO reference contained 978 identified universal single-copy orthologs for assessing genomic and transcriptomic assembly quality. <sentence_start/>The BUSCO analysis reports how many of these orthologs were found to be complete, fragmented, or missing in the queried assembly. <sentence_start/>The Trinity assembly of the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome resulted in 93.6% complete, 2.9% fragmented, and 3.5% missing BUSCOs, while the SeqMan assembly resulted in 86.7% complete, 7.8% fragmented, and 5.5% missing BUSCOs (Fig 1B). <sentence_start/>Both transcriptome assemblies performed well compared to BUSCO assessments from other species, including both tissue-specific and whole organism transcriptomes. <sentence_start/>Particularly, the Trinity assembled <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> transcriptome had the greatest percentage of complete BUSCOs out of the references in the database. <sentence_start/>We also included two BUSCO assessments for previously published arthropod CNS transcriptomes from <italic toggle=\"yes\">Cancer borealis</italic> and <italic toggle=\"yes\">Homarus americanus</italic> [<citation rid=\"pone.0201206.ref034\" ref-type=\"bibr\" doi=\"10.1186/s12864-016-3215-z\" pmid=\"27809760\" pmcid=\"PMC5096308\" count=\"1\">34</citation>] to compare BUSCO scores in a tissue specific manner, since the Nematoda references were missing comparable nervous system tissues."
+  },
+  {
+   "section": "article",
+   "text": "Based on the transcriptome assembly statistics, sequence length distribution comparison, and BUSCO quality metrics, we decided to proceed with the Trinity transcriptome in annotation and analysis and did not move forward with the SeqMan transcriptome, which all metrics indicated was lower quality. <sentence_start/>The <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> Trinity assembled Transcriptome Shotgun Assembly (TSA) project has been deposited at DDBJ/ENA/GenBank (BioProject No. PRJNA435743; BioSample No. SAMN08595902) under the accession . <sentence_start/>The version described in this paper is the first version, . <sentence_start/>The Sequence Read Archive (SRA) can be found at SRR6782848."
+  },
+  {
+   "section": "article",
+   "text": "Sequence identification and gene ontology annotation"
+  },
+  {
+   "section": "article",
+   "text": "Using the Blast2GO software suite [<citation rid=\"pone.0201206.ref040\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/bti610\" pmid=\"16081474\" count=\"1\">40</citation>], a fast-blastx alignment was carried out against NCBI’s validated RefSeq Animalia database to identify and annotate contigs from the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome. <sentence_start/>Out of the 107,704 contigs in the transcriptome, 39,047 contigs were annotated with a BLAST hit and sequence descriptor. <sentence_start/>Following BLASTing of the transcriptome, gene ontology mapping was carried out to assign GO terms to the contigs that returned a BLAST hit. <sentence_start/>The top 10 GO terms for each of the major GO classifications (biological process, molecular function, and cellular component) at a GO level of 3 are represented in Fig 2. <sentence_start/>This GO level was chosen as it balances returning broad GO terms while still being relevant to the specific tissue type from which the transcriptome was assembled. <sentence_start/>Examples of this can be seen in the GO terms reported in the cellular component classification, such as “cell projection” and “neuron part”, as well as in molecular function in “transmembrane transporter activity”. <sentence_start/>This annotated reference transcriptome is available for studies examining GO terms of interest from more specific levels than what is presented here."
+  },
+  {
+   "section": "article",
+   "text": "Fig 2"
+  },
+  {
+   "section": "article",
+   "text": "Gene ontology distribution of the annotated <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "The absolute values of the top 10 most abundant sequence annotations for each classification are represented at a GO level of 3. <sentence_start/>Major GO categorizations are classified into biological process, molecular function, and cellular component."
+  },
+  {
+   "section": "article",
+   "text": "Species hit distribution"
+  },
+  {
+   "section": "article",
+   "text": "In the annotation of the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome, we captured the distribution of BLAST hits that corresponded to specific species (Fig 3). <sentence_start/>We separated the distributions into total BLAST hits, which includes up to 20 BLAST results for each contig, and top BLAST hit, which is the single hit with the highest score for that contig. <sentence_start/>The top species for both distributions was by far the California leech <italic toggle=\"yes\">Helobdella robusta</italic>, which is unsurprising as both organisms belong to the sub-class Hirudinea within the clitellate annelids. <sentence_start/>Another annelid worm, <italic toggle=\"yes\">Capitella teleta</italic>, was in the top 5 species for each distribution. <sentence_start/>Other notable species included the brachiopod <italic toggle=\"yes\">Lingula anatine</italic>, as well as many members of the phylum Mollusca: the giant owl limpet <italic toggle=\"yes\">Lottia gigantea</italic>, Pacific oyster <italic toggle=\"yes\">Crassostrea gigas</italic>, and California sea slug <italic toggle=\"yes\">Aplysia californica</italic>. <sentence_start/>With <italic toggle=\"yes\">Aplysia</italic> being ranked 6<sup>th</sup> in each distribution, as well as having a well-annotated nervous system transcriptome [<citation rid=\"pone.0201206.ref045\" ref-type=\"bibr\" doi=\"10.3109/01677061003770614\" pmid=\"20536287\" pmcid=\"PMC8212809\" count=\"1\">45</citation>], we compared the previously undiscovered ion channel and receptor contigs mined from our transcriptome to those of <italic toggle=\"yes\">Aplysia</italic>, as well as <italic toggle=\"yes\">M</italic>. <italic toggle=\"yes\">musculus</italic> and <italic toggle=\"yes\">D</italic>. <italic toggle=\"yes\">melanogaster</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Fig 3"
+  },
+  {
+   "section": "article",
+   "text": "Blast hit species distribution of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> nervous system transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "(A). <sentence_start/>Frequency of species assigned to each contig from total BLAST hits (up to 20 hits per contig) against NCBI’s validated RefSeq database of Animalia protein sequences with an e-value threshold = 10<sup>−5</sup>. <sentence_start/>(B). <sentence_start/>Frequency of species assigned to each contig from the highest scoring BLAST hit for each contig."
+  },
+  {
+   "section": "article",
+   "text": "Innexins"
+  },
+  {
+   "section": "article",
+   "text": "Since the innexin gap-junction proteins have been well-characterized in <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> from genomic sequencing [<citation rid=\"pone.0201206.ref012\" ref-type=\"bibr\" doi=\"10.1007/s00427-011-0387-z\" pmid=\"22358128\" count=\"1\">12</citation>], we used innexins as an additional benchmarking tool for assessing transcriptome quality by comparison of innexin contigs from our transcriptome against published innexin sequences, as shown in Table 2. <sentence_start/>At the nucleotide level, our contigs matched the published innexin sequences with high fidelity (average 99.8% nucleotide identity). <sentence_start/>Independently arriving at near 100% nucleotide identity from over 20 genomic and transcriptomic comparisons provided us strong confidence in the quality of our transcriptome assembly. <sentence_start/>We further performed a basic comparison of innexin presence in the leech CNS by comparing the RT-PCR results from Kandarian et al. 2012 to RNA-seq counts from our transcriptome (Table 2). <sentence_start/>The results coincide moderately well, with innexins having higher RNA-seq counts producing positive bands in the previous RT-PCR results, and those with lower RNA-seq counts not detected by RT-PCR [<citation rid=\"pone.0201206.ref012\" ref-type=\"bibr\" doi=\"10.1007/s00427-011-0387-z\" pmid=\"22358128\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Ion channels"
+  },
+  {
+   "section": "article",
+   "text": "In mining the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome for sequences related to nervous system function, our first targets were ion channels. <sentence_start/>Our first-pass approach to mining the transcriptome yielded contigs that putatively belong to subfamilies of ion channels, but we cannot say with certainty that each contig represents a single unique gene. <sentence_start/>Rather, we report here the number of discrete, nonoverlapping contigs identified from our de novo transcriptome that could not be further combined based on assembly sequence alone. <sentence_start/>The contigs reported here lay the foundation for further more detailed characterization. <sentence_start/>In total, we identified 40 potassium (K<sup>+</sup>) channels contigs, 5 transient receptor potential (TRP) channel contigs, 4 cyclic nucleotide-gated channel contigs, 10 calcium (Ca<sup>2+</sup>) channel contigs, and 4 sodium (Na<sup>+</sup>) channel contigs. <sentence_start/>Comparing the ion channels pulled from the transcriptome against that of <italic toggle=\"yes\">A</italic>. <italic toggle=\"yes\">californica</italic>, <italic toggle=\"yes\">M</italic>. <italic toggle=\"yes\">musculus</italic>, and <italic toggle=\"yes\">D</italic>. <italic toggle=\"yes\">melanogaster</italic> provided additional confidence in our identification. <sentence_start/>Ion channel subtypes with descriptions of the putative currents known to be generated by their orthologs, as well as their NCBI accession numbers, are reported in Tables 3 and 4."
+  },
+  {
+   "section": "article",
+   "text": "For the voltage-gated K<sup>+</sup> channel family, we identified 4 <italic toggle=\"yes\">shaker</italic>-like, 5 <italic toggle=\"yes\">shab-</italic>like, 4 <italic toggle=\"yes\">shaw-</italic>like, and 3 <italic toggle=\"yes\">shal-</italic>like K<sup>+</sup> channel contigs, named according to their original identification in <italic toggle=\"yes\">Drosophila</italic> [<citation rid=\"pone.0201206.ref046\" ref-type=\"bibr\" pmid=\"3191911\" doi=\"10.1002/j.1460-2075.1988.tb03092.x\" pmcid=\"PMC457115\" count=\"1\">46</citation>]. <sentence_start/>The mammalian equivalents are <italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>v</sub></italic><italic toggle=\"yes\">1</italic>, <italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>v</sub></italic><italic toggle=\"yes\">2</italic>, <italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>v</sub></italic><italic toggle=\"yes\">3</italic>, and <italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>v</sub></italic><italic toggle=\"yes\">4</italic>, respectively. <sentence_start/>Clustering of these voltage-gated K<sup>+</sup> channel conitgs resulted in discrete nodes separating the four subfamilies (Fig 4). <sentence_start/>In these clustering analyses, we do not mean to imply true phylogenetic relationships, but rather use this as a tool to provide additional confidence to our sequence identification (see Methods). <sentence_start/>Other voltage-gated K<sup>+</sup> channel contigs identified from the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome include three members of the slow delayed rectifier <italic toggle=\"yes\">KCNQ</italic> (<italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>v</sub></italic><italic toggle=\"yes\">7</italic>) family and 8 members of the “<italic toggle=\"yes\">ether-a-go-go</italic>” like <italic toggle=\"yes\">KCNH</italic> family (Table 3). <sentence_start/>As stated in the methods, the numbering of each gene name corresponds to the order in which it was identified from our transcriptome, and not to unique membership positions within a subfamily. <sentence_start/>Also identified was one two-pore domain leak K<sup>+</sup> (<italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>2p</sub></italic>) channel similar to the <italic toggle=\"yes\">KCNK</italic> family of channels. <sentence_start/>As expected, clustering of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana KCNK</italic> and <italic toggle=\"yes\">KCNQ</italic> with that of <italic toggle=\"yes\">A</italic>. <italic toggle=\"yes\">californica</italic>, <italic toggle=\"yes\">D</italic>. <italic toggle=\"yes\">melanogaster</italic>, and <italic toggle=\"yes\">M</italic>. <italic toggle=\"yes\">musculus</italic> resulted in two major nodes for each subfamily (Fig 5)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 4"
+  },
+  {
+   "section": "article",
+   "text": "Voltage-gated K<sup>+</sup> channel subfamilies identified in <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "NCBI’s COBALT tool generated both amino acid sequence alignment and, subsequently, tree diagrams. <sentence_start/>These tree-based analyses are not meant to represent true phylogenetic relationships, but rather add another layer of confidence to the identification of putative gene-family subtypes; thus, bootstrap values were not analyzed. <sentence_start/>Transcript prefix identifications are as follows: “Hv” = <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>, “Mm” = <italic toggle=\"yes\">Mus musculus</italic>, “Ac” = <italic toggle=\"yes\">Aplysia californica</italic>, and “Dm” = <italic toggle=\"yes\">Drosophila melanogaster</italic>. <sentence_start/><italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> voltage-gated K<sup>+</sup> channel subtypes, putative membrane currents, and accession numbers can be found in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "Fig 5"
+  },
+  {
+   "section": "article",
+   "text": "KCNQ and KCNK channel families identified in <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> KCNQ and KCNK channel subtypes, putative membrane currents, and accession numbers can be found in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "Other identified <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> K<sup>+</sup> channel contigs included three large (BK) and three small (SK) conductance Ca<sup>2+</sup>-activated K<sup>+</sup> channels labeled <italic toggle=\"yes\">BKKCa</italic> and <italic toggle=\"yes\">SKKCa</italic>, respectively. <sentence_start/>One Na<sup>+</sup>-activated K<sup>+</sup> channel <italic toggle=\"yes\">KCNT</italic> was also identified. <sentence_start/>The clustering of <italic toggle=\"yes\">BKKCa</italic>, <italic toggle=\"yes\">SKKCa</italic>, and <italic toggle=\"yes\">KCNT</italic> from the four species resulted in three unique nodes in the clustering of these K<sup>+</sup> channels (Fig 6A). <sentence_start/>The last of the other K<sup>+</sup> channels identified was the inward rectifier K<sup>+</sup> channel <italic toggle=\"yes\">IR</italic>K, of which four sequences were found resembling this family (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 6"
+  },
+  {
+   "section": "article",
+   "text": "TRP, Ca<sup>2+</sup>-activated K<sup>+</sup>, and Na<sup>+</sup>-activated K<sup>+</sup> channels identified in <italic toggle=\"yes\">H verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> TRP channels were more similar to A- or V-like than M-like, but could not be further described accurately, being equal nodes away from the A- and V-like clusters. <sentence_start/><italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> TRP, Ca<sup>2+</sup>-activated K<sup>+</sup>, and Na<sup>+</sup>-activated K<sup>+</sup> channel subtypes, putative membrane currents, and accession numbers can be found in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "For ion channels non-selectively permeable to cations, 4 cyclic nucleotide-gated (<italic toggle=\"yes\">CNG</italic>) channel contigs and 5 transient receptor potential (<italic toggle=\"yes\">TRP</italic>) channel contigs were identified in the CNS transcriptome of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>. <sentence_start/>The <italic toggle=\"yes\">TRP</italic> channels from <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> were compared against the <italic toggle=\"yes\">TRP-M</italic> (Melastatin), <italic toggle=\"yes\">TRP-A</italic> (Ankyrin), and <italic toggle=\"yes\">TRP-V</italic> (Vanilloid) subtypes of <italic toggle=\"yes\">D</italic>. <italic toggle=\"yes\">melanogaster</italic>, <italic toggle=\"yes\">A</italic>. <italic toggle=\"yes\">californica</italic>, and <italic toggle=\"yes\">M</italic>. <italic toggle=\"yes\">musculus</italic> (Fig 6B). <sentence_start/>The clustering results indicated that the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana TRP</italic> channels were not similar enough to assign a specific subtype, as they were equally distant to <italic toggle=\"yes\">TRP-A</italic> and <italic toggle=\"yes\">TRP-V</italic>. <sentence_start/>Clustering of the <italic toggle=\"yes\">CNG</italic> channels along with <italic toggle=\"yes\">IRK</italic> and <italic toggle=\"yes\">KCNH</italic> separated out into three major nodes for each gene family (Fig 7)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 7"
+  },
+  {
+   "section": "article",
+   "text": "KCNH/EAG, CNG, and IRK channel families identified in <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> KCNH/EAG, CNG, and IRK channel subtypes, putative membrane currents, and accession numbers can be found in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "The voltage-gated Na<sup>+</sup> and Ca<sup>2+</sup> channel contigs identified from the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome totaled 13 sequences: three voltage-gated Na<sup>+</sup> and 10 voltage-gated Ca<sup>2+</sup> channels (Table 4). <sentence_start/>Voltage-gated Na<sup>+</sup> and Ca<sup>2+</sup> channels were enumerated using roman numerals rather than numbers to avoid implying-for instance-that calcium channel one belonged to the <italic toggle=\"yes\">CaV1</italic> family of voltage-gated calcium channels. <sentence_start/>One Na<sup>+</sup> leak channel contig orthologous to <italic toggle=\"yes\">NALCN</italic> was identified. <sentence_start/>This was expected as it has been shown that <italic toggle=\"yes\">NALCN</italic> appears with only one copy in the vast majority of species studied[<citation rid=\"pone.0201206.ref047\" ref-type=\"bibr\" doi=\"10.1016/j.neuron.2011.12.007\" pmid=\"22196327\" pmcid=\"PMC3247702\" count=\"1\">47</citation>]. <sentence_start/>Clustering of the voltage-gated Na<sup>+</sup> and Ca<sup>2+</sup> channels, as well as the Na<sup>+</sup> leak channel, yielded an expected separation where the Na<sup>+</sup> leak channels were more similar to the voltage-gated Na<sup>+</sup> channels than voltage-gated Ca<sup>2+</sup> channels (Fig 8)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 8"
+  },
+  {
+   "section": "article",
+   "text": "Families of sodium and calcium ion channel subtypes identified in <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <sentence_start/>The putative <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> sodium and calcium ion channel subtypes are listed in Table 4 with accession numbers and putative associated membrane currents."
+  },
+  {
+   "section": "article",
+   "text": "Comparison of ion channel content across leech species"
+  },
+  {
+   "section": "article",
+   "text": "Following identification of ion channels in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome, we carried out a similar methodology for predicted coding sequences from the genome of the Californian leech (<italic toggle=\"yes\">Helobdella robusta</italic>) to determine if the number of ion channel contigs we identified is similar across species (Table 5)."
+  },
+  {
+   "section": "article",
+   "text": "Overall, relatively similar sequence numbers were found between the two species when the same methods were employed; however, more putative sequences belonging to ion channel families were determined to be present in the predicted CDS from the genome of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">robusta</italic> as compared to the CNS transcriptome of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>. <sentence_start/>This difference is potentially due to the transcriptome of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> representing only CNS tissue, whereas the predicted CDS of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">robusta</italic> reflects the full genome. <sentence_start/>The genome sequence may also reveal ion channel pseudogenes that are not actually expressed. <sentence_start/>The corresponding <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">robusta</italic> predicted CDS ID numbers can be found in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "Biogenic amine receptors"
+  },
+  {
+   "section": "article",
+   "text": "The biogenic amine receptor contigs identified from the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome included 5 dopamine (<italic toggle=\"yes\">D1-5</italic>), 6 serotonin (5HTR1-6<italic toggle=\"yes\">)</italic>, and two octopamine (<italic toggle=\"yes\">Oct-R1-2</italic>) receptor subtypes (Table 6). <sentence_start/>Clustering of biogenic amine receptors resulted in three clear nodes that corresponded to each type of receptor (Fig 9). <sentence_start/>No norepinephrine receptors were detected in the leech transcriptome, consistent with previous physiological reports [<citation rid=\"pone.0201206.ref048\" ref-type=\"bibr\" pmid=\"11754166\" doi=\"10.1002/cne.10077\" count=\"1\">48</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig 9"
+  },
+  {
+   "section": "article",
+   "text": "Biogenic amine receptor families identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> biogenic amine receptor subtypes and accession numbers can be found in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "GABA receptors"
+  },
+  {
+   "section": "article",
+   "text": "From the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome, 12 putative GABA receptor contigs were identified (Table 5). <sentence_start/>While these sequences were identified as GABA receptors using BLAST top hits from <italic toggle=\"yes\">D</italic>. <italic toggle=\"yes\">melanogaster</italic>, <italic toggle=\"yes\">M</italic>. <italic toggle=\"yes\">musculus</italic>, and <italic toggle=\"yes\">A</italic>. <italic toggle=\"yes\">californica</italic> (see Methods), we also noted that they shared some sequence similarity with glycine receptors as well, which perhaps is not surprising considering both receptor families include ionotropic receptors that produce Cl<sup>-</sup> currents. <sentence_start/>The identified <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> GABA receptors were more similar to ionotropic rather than metabotropic GABA receptors from other species (Fig 10)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 10"
+  },
+  {
+   "section": "article",
+   "text": "GABA receptors identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> GABA receptor subtypes and accession numbers can be found in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "Glutamate receptors"
+  },
+  {
+   "section": "article",
+   "text": "In our search of glutamate receptors in the CNS transcriptome of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> we identified three metabotropic glutamate receptor contigs and 11 ionotropic glutamate receptor contigs, of which we were confident enough to divide the ionotropic receptors into 9 “<italic toggle=\"yes\">kainate-like</italic>” and two “<italic toggle=\"yes\">NMDA-like</italic>” glutamate receptors (Table 7). <sentence_start/>Clustering of these sequences resulted in the major separation of metabotropic and ionotropic glutamate receptors, followed by the minor separation of ionotropic receptors into <italic toggle=\"yes\">kainate</italic> and <italic toggle=\"yes\">NMDA</italic> (Fig 11)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 11"
+  },
+  {
+   "section": "article",
+   "text": "Ionotropic (kainate- and NMDA-like) and metabotropic glutamate receptors identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> glutamate receptor subtypes and accession numbers can be found in Table 7."
+  },
+  {
+   "section": "article",
+   "text": "Acetylcholine receptors"
+  },
+  {
+   "section": "article",
+   "text": "The acetylcholine receptor content of the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome includes 20 putative acetylcholine receptor contigs, of which 4 were identified as muscarinic, 14 as nicotinic, and 2 that were not identified as muscarinic or nicotinic based on ambiguity in their BLAST results (Table 7). <sentence_start/>The clustering of the acetylcholine receptors resulted in a clear distinction between the muscarinic and nicotinic acetylcholine receptors (Fig 12). <sentence_start/>Note that the two unclassified acetylcholine receptors clustered more similarly to nicotinic acetylcholine receptors than muscarinic ones."
+  },
+  {
+   "section": "article",
+   "text": "Fig 12"
+  },
+  {
+   "section": "article",
+   "text": "Muscarinic and nicotinic acetylcholine receptor families identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> acetylcholine receptor subtypes and accession numbers can be found in Table 7."
+  },
+  {
+   "section": "article",
+   "text": "Transmitter-related genes"
+  },
+  {
+   "section": "article",
+   "text": "Beyond ion channels and receptors, the genes that synthesize, break down, and transport neurotransmitters are important for distinguishing neuronal types throughout the nervous system. <sentence_start/>We specifically identified putative tyramine beta-hydroxylase (<italic toggle=\"yes\">TBH)</italic>, acetylcholinesterase (<italic toggle=\"yes\">ACHE</italic>), vesicular glutamate transporter (<italic toggle=\"yes\">vGlutT</italic>), choline acetyltransferase (<italic toggle=\"yes\">ChAT</italic>), and vesicular acetylcholine transporter (<italic toggle=\"yes\">vAChT</italic>) orthologous contigs (Table 8). <sentence_start/>Clustering of the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> transmitter-related sequences with the <italic toggle=\"yes\">A</italic>. <italic toggle=\"yes\">californica</italic>, <italic toggle=\"yes\">M</italic>. <italic toggle=\"yes\">musculus</italic>, and <italic toggle=\"yes\">D</italic>. <italic toggle=\"yes\">melanogaster</italic> corresponding sequences created five distinct clusters (Fig 13)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 13"
+  },
+  {
+   "section": "article",
+   "text": "Neurotransmitter-associated enzymes and transporters identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Trees were produced in the same manner as in Fig 4. <sentence_start/>Transmitter-related subtypes and accession numbers can be found in Table 8."
+  },
+  {
+   "section": "article",
+   "text": "Ion channel RNA-seq counts"
+  },
+  {
+   "section": "article",
+   "text": "In order to gauge a rough abundance of the contribution of each ion channel contig to the CNS of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>, all paired-end reads were mapped to the reference transcriptome using Kallisto [<citation rid=\"pone.0201206.ref042\" ref-type=\"bibr\" doi=\"10.1038/nbt.3519\" pmid=\"27043002\" count=\"1\">42</citation>] mapping software to generate a transcripts per kilobase million (TPM) normalized count of read alignments to each sequence (Fig 14). <sentence_start/>We want emphasize that while these RNA-seq counts represent a sample size of N = 1, these data are still useful in comparing relative transcript abundances. <sentence_start/>We also included the housekeeping genes <italic toggle=\"yes\">GAPDH</italic> (contig DN38861), <italic toggle=\"yes\">EF1α</italic> (contig DN32737), and <italic toggle=\"yes\">actin</italic> (contig DN35234) to give a sense of relative channel and receptor abundance. <sentence_start/>By far, the most abundant ion channel transcript is <italic toggle=\"yes\">KCNQ3</italic>, a voltage-gated slow delayed rectifier K<sup>+</sup> channel. <sentence_start/>For Ca<sup>2+</sup> channels, <italic toggle=\"yes\">CaV-VIII</italic> and <italic toggle=\"yes\">CaV-IX</italic> both show strong expression, while <italic toggle=\"yes\">CaV-VI</italic>, <italic toggle=\"yes\">CaV-IV</italic>, and <italic toggle=\"yes\">CaV-II</italic> have relatively low expression. <sentence_start/>The Na<sup>+</sup> channel family has <italic toggle=\"yes\">NaV-I</italic> as its most abundant member, followed closely by <italic toggle=\"yes\">NaV-II</italic> and <italic toggle=\"yes\">NALCN</italic>. <sentence_start/>The predominant TRP channel expressed is <italic toggle=\"yes\">TRP1</italic> with abundances greater than that of <italic toggle=\"yes\">TRP2-5</italic>. <sentence_start/>The CNG channels overall seem to be less abundant in the CNS of the leech, with <italic toggle=\"yes\">CNG4</italic> as its most abundant member. <sentence_start/>However, even the ion channels with a TPM &lt; 1000 could still play an important role in neural function, particularly if they are only expressed in certain neuron types, which could explain the lower relative abundance in the whole CNS."
+  },
+  {
+   "section": "article",
+   "text": "Fig 14"
+  },
+  {
+   "section": "article",
+   "text": "RNA-seq kallisto counts for ion channels and housekeeping genes identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Horizontal bar plot ordered based on read alignment with color coordinating to channel families. <sentence_start/>Read counts were normalized using TPM method. <sentence_start/>Inset displays zoomed in visualization of channels where TPM fell below 1000. <sentence_start/>Housekeeping genes are displayed with a scale bar that is an order of magnitude greater than that of the ion channels."
+  },
+  {
+   "section": "article",
+   "text": "Receptor RNA-seq counts"
+  },
+  {
+   "section": "article",
+   "text": "Repeating the same RNA-seq Kallisto mapping analysis for receptors yielded a greater overall abundance than that of the ion channel contigs (Fig 15). <sentence_start/>Particularly, kainate-like receptors were massively abundant in the transcriptome. <sentence_start/>The putative ionotropic glutamate receptor <italic toggle=\"yes\">Kainate-8</italic> contig was nearly an order of magnitude greater than the next most abundant sequence, <italic toggle=\"yes\">Kainate-2</italic>, as is noted with the line break where <italic toggle=\"yes\">Kainate-8</italic> approaches a TPM of nearly 300,000. <sentence_start/>While kainate-like orthologs in the CNS certainly seem to be the dominant ionotropic glutamate receptor (holding the top 3 most abundant positions), <italic toggle=\"yes\">NMDA1</italic> also generated a fairly large TPM. <sentence_start/>The metabotropic glutamate receptors have only one strongly expressed member: <italic toggle=\"yes\">mGluR2</italic>; <italic toggle=\"yes\">mGluR1</italic> and <italic toggle=\"yes\">mGluR3</italic> both have some of the lowest receptor abundances out of the data set. <sentence_start/>For GABA receptor contigs, <italic toggle=\"yes\">GABAr8</italic> is the most abundant, with <italic toggle=\"yes\">GABAr5</italic> and <italic toggle=\"yes\">GABAr9</italic> having strong abundance as well. <sentence_start/>The acetylcholine receptor abundance favors nicotinic acetylcholine receptors over muscarinic, with 7 nicotinic receptors having higher abundance than the highest muscarinic, <italic toggle=\"yes\">mAChR4</italic>. <sentence_start/>The highest expressed nicotinic acetylcholine receptor contig is <italic toggle=\"yes\">nAChR6</italic>. <sentence_start/>The two acetylcholine receptor contigs that were not given muscarinic or nicotinic designations had generally lower abundances as well. <sentence_start/>For the biogenic amine contigs, serotonin receptors dominate with expression far exceeding that of octopamine and dopamine. <sentence_start/>However, dopamine receptorcontigs still show much stronger abundance than octopamine receptors, which had some of the lowest expression levels noted."
+  },
+  {
+   "section": "article",
+   "text": "Fig 15"
+  },
+  {
+   "section": "article",
+   "text": "RNA-seq kallisto counts for receptor contigs identified in the <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "Horizontal bar plot ordered based on read alignment, with color coordinating to receptor families. <sentence_start/>Read counts were normalized using TPM method. <sentence_start/>Inset displays zoomed-in visualization of receptors where TPM fell below 1000. <sentence_start/>Line break is indicated as two dashed lines where <italic toggle=\"yes\">Hv-Kainate8</italic> greatly exceeded read counts compared to other receptor contigs. <sentence_start/>Absolute values of TPM normalized read counts are displayed within the bars for <italic toggle=\"yes\">Hv-Kainate8</italic> and <italic toggle=\"yes\">Hv-Kainate2</italic> to accentuate the noteworthy differences in abundance."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study provides the first annotated CNS transcriptome for the leech <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>. <sentence_start/>A previously generated nervous system transcriptome obtained from <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">medicinalis</italic> provided some of the first extensive RNA-seq data for a related leech species [<citation rid=\"pone.0201206.ref016\" ref-type=\"bibr\" doi=\"10.1038/sdata.2015.15\" pmid=\"25977819\" pmcid=\"PMC4412018\" count=\"1\">16</citation>], but that transcriptome used selected ganglia (G2, G10, and G19) to examine spatial differences in expression patterns, whereas the present study surveyed the entire CNS. <sentence_start/>The inventory of ion channels and receptor contigs from the CNS transcriptome is a valuable community resource for further investigations. <sentence_start/>Prior to our work, NCBI had 110 entries for <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> amino acid sequences, derived primarily from genes encoding functions related to the mitochondria, coagulation, and gap junctions (innexins). <sentence_start/>In the present study, we have more than doubled the total number of individually curated and annotated GenBank sequences for <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> through the mining of this CNS transcriptome for transcripts related to neural function."
+  },
+  {
+   "section": "article",
+   "text": "An extensive characterization of Na<sup>+</sup>, K<sup>+</sup>, and Ca<sup>2+</sup> currents in the leech CNS has previously been examined using voltage-clamp measurements, ion replacement, and pharmacological blockers to understand the role that these ionic currents play in cultured leech Retzius (R), anterior pagoda (AP) and sensory neurons, attributing different membrane properties to distinct ion channel complements [<citation rid=\"pone.0201206.ref049\" ref-type=\"bibr\" pmid=\"2538540\" doi=\"10.1242/jeb.141.1.1\" count=\"1\">49</citation>]. <sentence_start/>In the pressure-sensitive mechanosensory (P) neurons, it was shown that the probabilities of K<sup>+</sup>-channel open and closed states could be modulated by different phosphorylation events mediated by a <italic toggle=\"yes\">5HTR</italic> subtype [<citation rid=\"pone.0201206.ref050\" ref-type=\"bibr\" pmid=\"8145192\" doi=\"10.1007/BF00193789\" count=\"1\">50</citation>]. <sentence_start/>The fast-transient A-type potassium current also increased with the age of cultured AP neurons, while other potassium currents remained unchanged [<citation rid=\"pone.0201206.ref051\" ref-type=\"bibr\" doi=\"10.1007/s101589900003\" pmid=\"12491071\" count=\"1\">51</citation>]. <sentence_start/>Through patch clamp experiments, the potassium leak channel <italic toggle=\"yes\">KCNK</italic> has been shown to be affected by axotomy of AP neurons through patch clamp experiments, which showed that the number, but not the properties, of <italic toggle=\"yes\">KCNK</italic> channels was changed following the loss of an axon [<citation rid=\"pone.0201206.ref052\" ref-type=\"bibr\" pmid=\"2224503\" doi=\"10.1016/0006-8993(90)91585-5\" count=\"1\">52</citation>]. <sentence_start/>A persistent cesium-sensitive inward current, potentially carried by <italic toggle=\"yes\">IRK</italic>, has also been characterized in cultured R cells with voltage-clamp measurements during pharmacological blockade [<citation rid=\"pone.0201206.ref053\" ref-type=\"bibr\" pmid=\"10077862\" doi=\"10.1007/s003590050305\" count=\"1\">53</citation>]. <sentence_start/>The dynamics of the Na<sup>+</sup>-activated K<sup>+</sup> channel KCNT have been examined in leech P cells where membrane resistance was strongly influenced by changes in outwardly directed membrane current with changing intracellular Na<sup>+</sup> concentration [<citation rid=\"pone.0201206.ref054\" ref-type=\"bibr\" doi=\"10.1007/s00232-005-0816-x\" pmid=\"16596444\" count=\"1\">54</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "While our analysis identified ten sequences in the Ca<sup>2+</sup> channel family, in this study we did not functionally classify these channels into further subcategories, such as L-, N-, R-, T-, or P/Q-type. <sentence_start/>Such one-to-one classification between mammals and invertebrates or non-mammlaian vertebrates can be problematic, and is better done thorough a combination of firsthand verified full-length sequence information combined with pharmacological profiling of the resulting currents (e.g. [<citation rid=\"pone.0201206.ref055\" ref-type=\"bibr\" doi=\"10.1152/jn.00009.2013\" pmid=\"23576706\" count=\"1\">55</citation>,<citation rid=\"pone.0201206.ref056\" ref-type=\"bibr\" doi=\"10.1523/JNEUROSCI.3840-07.2008\" pmid=\"18199765\" pmcid=\"PMC2915838\" count=\"1\">56</citation>]). <sentence_start/>Other investigations into the Ca<sup>2+</sup> channel content of the leech CNS have suggested that the vast majority of leech neurons contain voltage-gated Ca<sup>2+</sup> channels similar to L-type channels found in vertebrates [<citation rid=\"pone.0201206.ref057\" ref-type=\"bibr\" doi=\"10.1016/j.brainres.2004.03.038\" pmid=\"15193524\" count=\"1\">57</citation>], as well as showing heart neurons with Ca<sup>2+</sup> dynamics that resemble T-type Ca<sup>2+</sup> channels. <sentence_start/>L-type Ca<sup>2+</sup> channels have also been implicated in the somatic release of serotonin in cultured R cells [<citation rid=\"pone.0201206.ref058\" ref-type=\"bibr\" doi=\"10.1113/jphysiol.2002.030684\" pmid=\"12562971\" pmcid=\"PMC2342656\" count=\"1\">58</citation>]. <sentence_start/>In <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">medicinalis</italic>, four putative Na<sup>+</sup> alpha subunits have been previously identified that were sequenced through subcloning, and RT-PCR revealed their differential expression across cell types of the nervous system [<citation rid=\"pone.0201206.ref059\" ref-type=\"bibr\" doi=\"10.1002/neu.10214\" pmid=\"12717704\" count=\"1\">59</citation>]. <sentence_start/>Our analysis found three putative <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> Na<sup>+</sup> channels which most closely matched the 1, 2, and 4 isoforms of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">medicinalis</italic>. <sentence_start/>Sodium-channel blocking tetrodotoxin (TTX) sensitivity in leech Retzius neurons displayed altered responses to frequency stimulations, suggesting a role of TTX-sensitive sodium channels in sensitization and habituation [<citation rid=\"pone.0201206.ref060\" ref-type=\"bibr\" pmid=\"9845890\" count=\"1\">60</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The non-specific cation TRP channels are thought to be the primary channel responsible for nociceptive, temperature, and pressure sensations. <sentence_start/>Multiple responses to nociceptive stimuli in neurons residing within the leech segmental ganglia have been reported, with cells responding to capsaicin, mechanical stimuli, temperature perturbations, and pH changes [<citation rid=\"pone.0201206.ref061\" ref-type=\"bibr\" doi=\"10.1152/jn.1996.75.6.2268\" pmid=\"8793740\" count=\"1\">61</citation>]. <sentence_start/>The five <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> TRP channels identified in this study were similar to vanilloid (<italic toggle=\"yes\">TRPV</italic>) or ankyrin (<italic toggle=\"yes\">TRPA</italic>) as compared to other types, but classifying these five channels further proved difficult. <sentence_start/>Evidence supports the presence of capsaicin-sensitive TRPV channels from capsaicin responses in nociceptive neurons being reduced in the presence of a selective TRPV1 antagonist [<citation rid=\"pone.0201206.ref062\" ref-type=\"bibr\" doi=\"10.1242/jeb.110049\" pmid=\"25324339\" count=\"1\">62</citation>]. <sentence_start/>Endocannabinoid pathways have also been shown in the leech nervous system to be reliant on TRPV channels [<citation rid=\"pone.0201206.ref063\" ref-type=\"bibr\" doi=\"10.1038/s41598-017-06114-1\" pmid=\"28724917\" pmcid=\"PMC5517658\" count=\"1\">63</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Both ionotropic and metabotropic glutamate receptors have been studied for their role in the CNS of the leech. <sentence_start/>Metabotropic glutamate receptors in the leech, of which we identified three putative sequences in this study, have been found to increase intracellular Ca<sup>2+</sup> by drawing on intracellular Ca<sup>2+</sup> stores when mGluR-selective agonists were applied [<citation rid=\"pone.0201206.ref064\" ref-type=\"bibr\" pmid=\"9366087\" doi=\"10.1242/jeb.200.19.2565\" count=\"1\">64</citation>]. <sentence_start/>Two unpublished ionotropic glutamate receptors have been previously identified, simply described as glutamate receptor 1 and 2 (Accession Numbers and ), which correspond to sequences we have identified as <italic toggle=\"yes\">Hv-Kainate1</italic> and <italic toggle=\"yes\">Hv-kainate2</italic>, respectively. <sentence_start/>Ionotropic glutamate receptors were identified throughout the neuropil and neural somata within ganglia comprising the ventral nerve cord using immunostaining procedures [<citation rid=\"pone.0201206.ref065\" ref-type=\"bibr\" pmid=\"10076929\" doi=\"10.1002/(sici)1096-9861(19990315)405:3&lt;334::aid-cne4&gt;3.0.co;2-i\" count=\"1\">65</citation>]. <sentence_start/>Our present study identified 9 kainate-like ionotropic glutamate receptors. <sentence_start/>These receptors most resembled kainate-like and not AMPA-like receptor orthologs; however, these pharmacological designations cannot be determined directly from sequence data, and therefore such receptors can only be identified as a distinct subtype family from the putative NMDA-like receptors. <sentence_start/>While the vast majority of ionotropic glutamate receptors were kainate-like, we also identified two NMDA-like receptors. <sentence_start/>NMDA receptors have been implicated as a requirement for the production of long-term potentiation (LTP) in the leech nervous system [<citation rid=\"pone.0201206.ref066\" ref-type=\"bibr\" doi=\"10.1007/s10158-008-0085-3\" pmid=\"19142676\" count=\"1\">66</citation>]. <sentence_start/>One partial NMDA-receptor has been previously identified (Accession No. ), which most closely resembles <italic toggle=\"yes\">Hv-NMDA1</italic> from <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>."
+  },
+  {
+   "section": "article",
+   "text": "In previous studies, autoradiographically-labeled GABAergic neurons were observed throughout the ventral nerve cord of the leech, revealing approximately thirty GABAergic neurons per each segmental ganglion in bilaterally paired or unpaired configurations [<citation rid=\"pone.0201206.ref067\" ref-type=\"bibr\" doi=\"10.1002/cne.902150309\" pmid=\"6853778\" count=\"1\">67</citation>]. <sentence_start/>It has been shown that GABAergic synaptic responses in the leech can have either excitatory or inhibitory effects, inducing hyperpolarization in pressure-sensitive cells while depolarizing nociceptive cells, mediated in part by Cl<sup>-</sup> homeostasis [<citation rid=\"pone.0201206.ref068\" ref-type=\"bibr\" doi=\"10.1016/j.neuroscience.2015.04.040\" pmid=\"25931332\" count=\"1\">68</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Dopamine and serotonin have been extensively studied in connection with many behaviors in the leech. <sentence_start/>Dopamine has been found to activate fictive crawling in locomotor CPG networks [<citation rid=\"pone.0201206.ref069\" ref-type=\"bibr\" doi=\"10.1523/JNEUROSCI.0136-08.2008\" pmid=\"18417698\" pmcid=\"PMC2529178\" count=\"1\">69</citation>] while also inhibiting swimming behavior [<citation rid=\"pone.0201206.ref070\" ref-type=\"bibr\" doi=\"10.1242/jeb.01315\" pmid=\"15579549\" count=\"1\">70</citation>]. <sentence_start/>Fictive swimming behaviors can also be inhibited through application of both serotonin and octopamine to the brain [<citation rid=\"pone.0201206.ref071\" ref-type=\"bibr\" doi=\"10.1007/s00359-003-0424-0\" pmid=\"12759769\" count=\"1\">71</citation>] or promoted when administered separately to the entire nervous system [<citation rid=\"pone.0201206.ref072\" ref-type=\"bibr\" doi=\"10.1152/jn.2001.85.5.2039\" pmid=\"11353020\" count=\"1\">72</citation>]. <sentence_start/>Serotonin has further been implicated in increasing force production in the body wall muscles associated with locomotion and feeding behaviors [<citation rid=\"pone.0201206.ref073\" ref-type=\"bibr\" doi=\"10.1098/rsbl.2011.0303\" pmid=\"21561963\" pmcid=\"PMC3210649\" count=\"1\">73</citation>]. <sentence_start/>In the recently identified stomatogastric nervous system (STN) of <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>, serotonin-immunopositive somata were identified in the stomatogastric ganglia (STGs), while no dopaminergic somata were found to be present [<citation rid=\"pone.0201206.ref074\" ref-type=\"bibr\" doi=\"10.1242/jeb.175687\" pmid=\"29444844\" count=\"1\">74</citation>], further strengthening the association of serotonin with feeding behavior."
+  },
+  {
+   "section": "article",
+   "text": "Our analysis of acetylcholine receptors from the leech CNS transcriptome yielded 20 different putative receptor contigs, with 14 being nicotinic-like, 4 being muscarinic-like, and two acetylcholine receptors that were unclassified into a subfamily. <sentence_start/>In the leech, acetylcholine and the muscarinic agonist carbachol have been shown to inhibit heart interneurons and motor neurons [<citation rid=\"pone.0201206.ref075\" ref-type=\"bibr\" pmid=\"1331287\" doi=\"10.1242/jeb.171.1.329\" count=\"1\">75</citation>]. <sentence_start/>Acetylcholine application has also been shown to increase both the frequency and total number of action potentials in leech pressure-sensitive cells [<citation rid=\"pone.0201206.ref076\" ref-type=\"bibr\" pmid=\"1685409\" doi=\"10.1016/0742-8413(91)90258-u\" count=\"1\">76</citation>]. <sentence_start/>Removal of the axon from the leech anterior pagoda neuron has been shown to reduce the density of acetylcholine receptors in that neuron, leading to reduced sensitivity to acetylcholine [<citation rid=\"pone.0201206.ref077\" ref-type=\"bibr\" pmid=\"2380660\" doi=\"10.1242/jeb.151.1.423\" count=\"1\">77</citation>]. <sentence_start/>Acetylcholine has also been shown to mediate Ca<sup>2+</sup> increases in glial cells of the neuropil through the action of nicotinic acetylcholine receptors [<citation rid=\"pone.0201206.ref078\" ref-type=\"bibr\" doi=\"10.1002/glia.440150106\" pmid=\"8847100\" count=\"1\">78</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Without the enzymes and transporters responsible for synthesizing and concentrating neurotransmitters, neuronal communication as we know it would not be possible. <sentence_start/>The enzyme responsible for converting tyramine to octopamine is tyramine beta-hydroxylase (TBH), which has been shown through antibody labeling to be associated with identified octopaminergic neurons in the cephalic and terminal ganglia of the leech [<citation rid=\"pone.0201206.ref048\" ref-type=\"bibr\" pmid=\"11754166\" doi=\"10.1002/cne.10077\" count=\"1\">48</citation>]. <sentence_start/>The acetylcholine synthesizing enzyme choline acetyltransferase (ChAT) has been detected in excitatory motor neurons of the leech CNS, but not in the Retzius cells or mechanosensory cells [<citation rid=\"pone.0201206.ref079\" ref-type=\"bibr\" doi=\"10.1152/jn.1977.40.2.453\" pmid=\"15049\" count=\"1\">79</citation>]. <sentence_start/>Acetylcholinesterase (ACHE) activity has been found throughout the leech CNS, as well as in the blood, with most ACHE-positive neurons being cholinergic motoneurons [<citation rid=\"pone.0201206.ref080\" ref-type=\"bibr\" pmid=\"7108585\" doi=\"10.1523/JNEUROSCI.02-08-01108.1982\" pmcid=\"PMC6564277\" count=\"1\">80</citation>]. <sentence_start/>The vesicular acetylcholine transporter (vAChT) and vesicular glutamate transporter (vGluT) were also identified in this study; to the best of our knowledge, this is the first identification of these sequences in the medicinal leech."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "This transcriptomic study lays a foundation for further molecular analyses in the leech preparation that has been a stalwart contributor to our understanding of the fundamentals of nervous system function and behavior. <sentence_start/>The 126 ion channels, receptors, transporters, and enzyme contigs individually described in this study, as well as the entire annotated CNS transcriptome, provide a strong reference for not only <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic>, but future comparative analyses across the nervous systems of related species [<citation rid=\"pone.0201206.ref034\" ref-type=\"bibr\" doi=\"10.1186/s12864-016-3215-z\" pmid=\"27809760\" pmcid=\"PMC5096308\" count=\"1\">34</citation>]. <sentence_start/>These data stand as a substantial foundation for future work with more focused bioinformatics, sequence assembly, and supplementation with further sequencing approaches to curate fully genes of interest related to neural function. <sentence_start/>With high-quality transcripts readily available, the additional incorporation of qRT-PCR, siRNA, overexpression [<citation rid=\"pone.0201206.ref081\" ref-type=\"bibr\" doi=\"10.1002/dneu.22082\" pmid=\"23447124\" count=\"1\">81</citation>], and RNA-seq approaches promise to lower the hurdles towards addressing some of the outstanding issues remaining to be addressed in the neurosciences."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "S1 File"
+  },
+  {
+   "section": "article",
+   "text": "Gene ontology annotation for <italic toggle=\"yes\">H</italic>. <italic toggle=\"yes\">verbana</italic> CNS transcriptome."
+  },
+  {
+   "section": "article",
+   "text": "(GZ)"
+  }
+ ]
+}

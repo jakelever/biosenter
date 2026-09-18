@@ -1,0 +1,395 @@
+{
+ "pmid": 25383687,
+ "pmcid": 4226470,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Non-Scanning Fiber-Optic Near-Infrared Beam Led to Two-Photon Optogenetic Stimulation <italic toggle=\"yes\">In-Vivo</italic>"
+  },
+  {
+   "section": "abstract",
+   "text": "Stimulation of specific neurons expressing opsins in a targeted region to manipulate brain function has proved to be a powerful tool in neuroscience. <sentence_start/>However, the use of visible light for optogenetic stimulation is invasive due to low penetration depth and tissue damage owing to larger absorption and scattering. <sentence_start/>Here, we report, for the first time, in-depth non-scanning fiber-optic two-photon optogenetic stimulation (FO-TPOS) of neurons <italic toggle=\"yes\">in-vivo</italic> in transgenic mouse models. <sentence_start/>In order to optimize the deep-brain stimulation strategy, we characterized two-photon activation efficacy at different near-infrared laser parameters. <sentence_start/>The significantly-enhanced in-depth stimulation efficiency of FO-TPOS as compared to conventional single-photon beam was demonstrated both by experiments and Monte Carlo simulation. <sentence_start/>The non-scanning FO-TPOS technology will lead to better understanding of the <italic toggle=\"yes\">in-vivo</italic> neural circuitry because this technology permits more precise and less invasive anatomical delivery of stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "While neuronal imaging has enabled the mapping of the physical connectome <citation rid=\"pone.0111488-Seung1\" ref-type=\"bibr\" doi=\"10.1016/j.neuron.2009.03.020\" pmid=\"19376064\" count=\"1\">[1]</citation> of the brain in a high-throughput manner, there is now a growing need for an efficient, high resolution method to functionally map the multitude of neural connections in the brain. <sentence_start/>However, until recently, such a task was challenging not only in terms of the non-invasiveness, but also in the required cellular specificity in the sea of multifunctional neural units. <sentence_start/>Recently, visible light-assisted activation of selected neuronal group has been made possible with high temporal precision by introducing a light-activated molecular channel; channelrhodopsin-2 (ChR2) <citation rid=\"pone.0111488-Nagel1\" ref-type=\"bibr\" pmid=\"14615590\" doi=\"10.1073/pnas.1936192100\" pmcid=\"PMC283525\" count=\"1\">[2]</citation>, <citation rid=\"pone.0111488-Boyden1\" ref-type=\"bibr\" pmid=\"16116447\" doi=\"10.1038/nn1525\" count=\"1\">[3]</citation>, <citation rid=\"pone.0111488-Nagel2\" ref-type=\"bibr\" pmid=\"16360690\" doi=\"10.1016/j.cub.2005.11.032\" count=\"1\">[4]</citation>, <citation rid=\"pone.0111488-Miller1\" ref-type=\"bibr\" pmid=\"17170269\" doi=\"10.1126/science.314.5806.1674\" count=\"1\">[5]</citation> and its variants. <sentence_start/>This method has several advantages over electrical stimulation <citation rid=\"pone.0111488-Christopher1\" ref-type=\"bibr\" pmid=\"16510937\" doi=\"10.1088/1741-2560/3/1/001\" pmcid=\"PMC2583360\" count=\"1\">[6]</citation>, <citation rid=\"pone.0111488-Butson1\" ref-type=\"bibr\" pmid=\"16125463\" doi=\"10.1016/j.clinph.2005.06.023\" pmcid=\"PMC3653320\" count=\"1\">[7]</citation>, <citation rid=\"pone.0111488-Voon1\" ref-type=\"bibr\" pmid=\"16810676\" doi=\"10.1002/mds.20963\" count=\"1\">[8]</citation> such as cellular specificity and minimal invasiveness and therefore, growing as a valuable tool in neuroscience research. <sentence_start/>Though the use of light-activated molecular ChR2 for <italic toggle=\"yes\">in-vivo</italic> models is increasing, limitations of its utility exist. <sentence_start/>Although optogenetic methods require very low intensity light (a few mW/mm<sup>2</sup>) <citation rid=\"pone.0111488-Boyden1\" ref-type=\"bibr\" pmid=\"16116447\" doi=\"10.1038/nn1525\" count=\"1\">[3]</citation>, at the activation wavelength for ChR2 (460 nm) significant absorption and scattering of stimulating light occurs which leads to limited (shallow) penetration of the beam <citation rid=\"pone.0111488-Cheong1\" ref-type=\"bibr\" count=\"1\">[9]</citation> (Fig. 1a). <sentence_start/>Thus, in order to stimulate cells in the most ventral regions of the brain, one has to choose between one of two undesirable alternatives: The first is to maintain the minimally invasive qualities of the approach but requires that the average beam power be significantly increased. <sentence_start/>Unfortunately, this approach using single photon (visible) light often leads to significant deleterious effects on the cell viability in the vicinity of the target, and thus may limit the translational potential of this technology. <sentence_start/>The second alternative approach is to use optical fiber <citation rid=\"pone.0111488-Arenkiel1\" ref-type=\"bibr\" pmid=\"17442243\" doi=\"10.1016/j.neuron.2007.03.005\" pmcid=\"PMC3634585\" count=\"1\">[10]</citation>, <citation rid=\"pone.0111488-Alexander1\" ref-type=\"bibr\" pmid=\"17873414\" doi=\"10.1088/1741-2560/4/3/S02\" count=\"1\">[11]</citation>, <citation rid=\"pone.0111488-Han1\" ref-type=\"bibr\" pmid=\"19409264\" doi=\"10.1016/j.neuron.2009.03.011\" pmcid=\"PMC2830644\" count=\"1\">[12]</citation> or µLED <citation rid=\"pone.0111488-Cao1\" ref-type=\"bibr\" doi=\"10.1109/TBME.2012.2217395\" pmid=\"22968201\" count=\"1\">[13]</citation>, <citation rid=\"pone.0111488-Kim1\" ref-type=\"bibr\" pmid=\"23580530\" doi=\"10.1126/science.1232437\" pmcid=\"PMC3769938\" count=\"1\">[14]</citation>-based blue light delivery to excite neurons in close proximity to the optical fiber or µLED. <sentence_start/>This approach may also compromise the minimally invasive qualities of optogenetics because optical fibers (similar to electrodes used in electrical stimulation techniques) or µLED(s) need to penetrate through more superficial brain tissue in order to reach more ventral brain regions. <sentence_start/>In this way, the more superficial brain tissue gets damaged; and such damage can lead to difficulty in interpreting the outcome of deep-brain stimulation. <sentence_start/>Therefore, several attempts have been made to shift the activation peak of ChR2 from the blue to the red wavelength region <citation rid=\"pone.0111488-Zhang1\" ref-type=\"bibr\" pmid=\"18432196\" doi=\"10.1038/nn.2120\" pmcid=\"PMC2692303\" count=\"1\">[15]</citation>, <citation rid=\"pone.0111488-Gunaydin1\" ref-type=\"bibr\" pmid=\"20081849\" doi=\"10.1038/nn.2495\" count=\"1\">[16]</citation>, <citation rid=\"pone.0111488-Lin1\" ref-type=\"bibr\" pmid=\"19254539\" doi=\"10.1016/j.bpj.2008.11.034\" pmcid=\"PMC2717302\" count=\"1\">[17]</citation>. <sentence_start/>While there has been some success at the cost of altered light-activation kinetics, it seems a near-infrared opsin would be ideal for in-depth cell-specific optogenetic stimulation of excitable cells in an organism. <sentence_start/>However, the success in developing a near-infrared opsin would still not permit applicability of the method for selective activation of small regions in deep (ventral) brain areas, since the single-photon (red or infrared) stimulating beam will also stimulate neurons outside of the targeted population (in the path of the beam, Fig. 1b)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Two-photon Optogenetic stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Schematic comparison: (a) single-photon blue excitation, (b) single-photon red-shifted excitation and (c) two-photon optogenetic stimulation (TPOS). <sentence_start/>(d) Intensity profile emanating from the multimode fiber, scale bar: 100 µm, (e) Spectrum of ultrafast tunable near-infrared fiber-optic beam, (f) Two-photon fluorescence (green) from polystyrene particle excited by multimode profile. <sentence_start/>In-vitro two-photon activation of ChR2-expressing cells with ultrafast NIR laser beam: (g) Representative current responses to ultrafast NIR laser beam at different wavelengths (in nm), (h) Fiber-optic two-photon activation spectrum at 0.02 mW/µm<sup>2</sup> (100 ms pulses)."
+  },
+  {
+   "section": "article",
+   "text": "Because of low absorption and scattering coefficients, the two-photon optogenetic activation using a near infrared laser beam can provide both deep penetration and high spatial precision, achieved by virtue of the non-linear nature of ultrafast light interaction with ChR2. <sentence_start/>Comparison of single-photon blue (a), and red-shifted excitation (b) with two-photon optogenetic stimulation (c) is shown in Fig. <sentence_start/>1. <sentence_start/>Since the first demonstration <citation rid=\"pone.0111488-Mohanty1\" ref-type=\"bibr\" pmid=\"18621808\" doi=\"10.1529/biophysj.108.130187\" pmcid=\"PMC2553121\" count=\"1\">[18]</citation> of <italic toggle=\"yes\">in-vitro</italic> two-photon optogenetic stimulation (TPOS) of ChR2-sensitized cells and neurons by using point or scanning laser beam, there has been significant progress <citation rid=\"pone.0111488-Rickgauer1\" ref-type=\"bibr\" pmid=\"19706471\" doi=\"10.1073/pnas.0907084106\" pmcid=\"PMC2736443\" count=\"1\">[19]</citation>, <citation rid=\"pone.0111488-Andrasfalvy1\" ref-type=\"bibr\" pmid=\"20543137\" doi=\"10.1073/pnas.1006620107\" pmcid=\"PMC2900666\" count=\"1\">[20]</citation>, <citation rid=\"pone.0111488-Papagiakoumou1\" ref-type=\"bibr\" pmid=\"20852649\" doi=\"10.1038/nmeth.1505\" pmcid=\"PMC7645960\" count=\"1\">[21]</citation>, <citation rid=\"pone.0111488-Packer1\" ref-type=\"bibr\" pmid=\"23142873\" doi=\"10.1038/nmeth.2249\" pmcid=\"PMC3518588\" count=\"1\">[22]</citation> in using TPOS for probing neural circuitry in cultured neuronal cells as well as brain slices. <sentence_start/>Further, recent advances demonstrate that optogenetically-sensitized neurons can be activated by spatially-sculpting <citation rid=\"pone.0111488-Andrasfalvy1\" ref-type=\"bibr\" pmid=\"20543137\" doi=\"10.1073/pnas.1006620107\" pmcid=\"PMC2900666\" count=\"1\">[20]</citation> and/or temporal-focusing <citation rid=\"pone.0111488-Papagiakoumou1\" ref-type=\"bibr\" pmid=\"20852649\" doi=\"10.1038/nmeth.1505\" pmcid=\"PMC7645960\" count=\"1\">[21]</citation> the TPOS beam. <sentence_start/>It is important to note that the two-photon excitation has significant benefits over the single-photon excitation such as less photo-damage, enhanced penetration depth and localized stimulation <citation rid=\"pone.0111488-So1\" ref-type=\"bibr\" pmid=\"11701518\" doi=\"10.1146/annurev.bioeng.2.1.399\" count=\"1\">[23]</citation>. <sentence_start/>Further, two-photon cross-section of ChR2 is empirically estimated <citation rid=\"pone.0111488-Rickgauer1\" ref-type=\"bibr\" pmid=\"19706471\" doi=\"10.1073/pnas.0907084106\" pmcid=\"PMC2736443\" count=\"1\">[19]</citation> <sup>,</sup> <citation rid=\"pone.0111488-Papagiakoumou1\" ref-type=\"bibr\" pmid=\"20852649\" doi=\"10.1038/nmeth.1505\" pmcid=\"PMC7645960\" count=\"1\">[21]</citation> to be larger than that of most of the fluorophores and therefore, has potential for stimulating opsin-expressing neurons using weakly-focused (and even defocused) two-photon beams. <sentence_start/>However, to date, two-photon excitation has only been demonstrated <italic toggle=\"yes\">in-vitro</italic> with microscope-based setups <citation rid=\"pone.0111488-Mohanty1\" ref-type=\"bibr\" pmid=\"18621808\" doi=\"10.1529/biophysj.108.130187\" pmcid=\"PMC2553121\" count=\"1\">[18]</citation>, <citation rid=\"pone.0111488-Rickgauer1\" ref-type=\"bibr\" pmid=\"19706471\" doi=\"10.1073/pnas.0907084106\" pmcid=\"PMC2736443\" count=\"1\">[19]</citation>, <citation rid=\"pone.0111488-Shivalingaiah1\" ref-type=\"bibr\" count=\"1\">[24]</citation> and recently by fiber-optic stimulation <citation rid=\"pone.0111488-Dhakal1\" ref-type=\"bibr\" pmid=\"23722792\" doi=\"10.1364/OL.38.001927\" count=\"1\">[25]</citation>. <sentence_start/>Here, we demonstrate <italic toggle=\"yes\">in-vivo</italic> fiber-optic two-photon optogenetic stimulation (FO-TPOS) of in-depth neuronal circuitry in transgenic mouse model. <sentence_start/>Our experiments, reported here, demonstrate that multimode fiber can be used: (1) <italic toggle=\"yes\">in-vivo</italic> as a non-scanning beam unlike that used in earlier microscope objective based two-photon stimulation reports, (2) to achieve in-depth two-photon activation <italic toggle=\"yes\">in-vivo</italic> and (3) to evaluate intensity and wavelength-dependent <italic toggle=\"yes\">in-vivo</italic> fiber-optic two-photon optogenetic stimulation efficacy. <sentence_start/>Here, we would like to emphasize that this manuscript does not examine the axial localization ability of two-photon stimulation <italic toggle=\"yes\">in-vivo</italic>. <sentence_start/>Stimulation of ensemble of chemically-identical cells at large depths by two-photon fiber-optic optogenetic means as demonstrated here, in a non-invasive manner will enable dissecting the role of those ensembles in particular function and thus modulate behavior."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Ethics statement"
+  },
+  {
+   "section": "article",
+   "text": "All experimental procedures were conducted according to the University of Texas at Arlington-Institutional Animal Care and Use Committee approved protocol A10.009. <sentence_start/>The IACUC specifically approved this study."
+  },
+  {
+   "section": "article",
+   "text": "Cell culture"
+  },
+  {
+   "section": "article",
+   "text": "HEK 293 cells were transfected with the ChR2-EYFP construct, cloned into pcDNA3.1 neo (Invitrogen, USA). <sentence_start/>ChR2 cDNA was kindly provided by Dr. Georg Nagel (University of Wuerzburg, Germany). <sentence_start/>EYFP was fused in-frame to the C-terminus of ChR2 by PCR. <sentence_start/>Transgene-expressing cells were identified by visualizing the EYFP fluorescence under suitable illumination (514 nm). <sentence_start/>Stable clones were selected with 200 mg/l G418 and colonies were picked after 2 weeks, and then expanded. <sentence_start/>Clones that showed the highest level of EYFP fluorescence were chosen for the optical activation experiments. <sentence_start/>Cells were maintained at 37°C, 5% CO<sub>2</sub> in DMEM containing 10% fetal bovine serum. <sentence_start/>For generating light activation, cells were loaded with all-trans retinal (1 µM) for at least 6 hours and activated with fiber-optic laser beam."
+  },
+  {
+   "section": "article",
+   "text": "Optogenetic stimulation"
+  },
+  {
+   "section": "article",
+   "text": "For both the <italic toggle=\"yes\">in-vitro</italic> and <italic toggle=\"yes\">in-vivo</italic> activation of ChR2-expressing cells (identified by YFP fluorescence) or different brain regions expressing ChR2, both two-photon and single photon sources coupled to a 50 µm core optical fiber using a fiber coupler (Newport Inc.), mounted on a mechanical micromanipulator so as to position the tip of the fiber near the region of interest. <sentence_start/>The single-photon source consists of a blue (473 nm, 30 mW) diode laser coupled to the fiber, while the two-photon beam is provided by a 200 fs near-infrared Ti: Sapphire laser (Maitai HP, Newport-SpectraPhysics Inc.) beam operating at ∼76 MHz, coupled to the same fiber. <sentence_start/>Further, the two-photon laser wavelength was tuned from 750 to 950 nm in order to compare the relative efficiencies of the various NIR wavelengths. <sentence_start/>Macro-exposure pulses of stimulation light were generated by a function generator driving the electro-mechanical shutter in the beam path. <sentence_start/>The function generator was synchronized to the <italic toggle=\"yes\">in-vitro</italic> and <italic toggle=\"yes\">in-vivo</italic> electrophysiology recording system (Plexon and Biopac Inc.). <sentence_start/>Light power at the fiber-tip was measured using a standard light power meter (PM 100D, Thorlabs Inc)."
+  },
+  {
+   "section": "article",
+   "text": "Patch-clamp recording setup"
+  },
+  {
+   "section": "article",
+   "text": "The opto-electrophysiology set up was developed on an Olympus upright microscope platform using an amplifier system (Axon Multiclamp 700B, Molecular Devices Inc.). <sentence_start/>Parameters of the pipette puller were optimized in order to obtain desired borosilicate micropipettes of resistance from 3 to 5 MΩ for whole-cell patch clamp. <sentence_start/>The micropipette was filled with a solution containing (in mM) 130 K-Gluoconate, 7 KCl, 2 NaCl, 1 MgCl<sub>2</sub>, 0.4 EGTA, 10 HEPES, 2 ATP-Mg, 0.3 GTP-Tris and 20 sucrose. <sentence_start/>The electrode was mounted on a XYZ motorized micromanipulator (Newport Inc.). <sentence_start/>The standard extracellular solution containing (in mM): 150 NaCl, 10 Glucose, 5 KCl, 2 CaCl<sub>2</sub>, 1 MgCl<sub>2</sub> was buffered with 10 mM HEPES (pH 7.3). <sentence_start/>The output from the amplifier was digitized using a National Instruments card (PCI 6221). <sentence_start/>For electrophysiological recording, the hardware was interfaced with patch-clamp software from University of Strathclyde (non-commercial use). <sentence_start/>Electrical recordings were performed at a holding potential of −60 mV at room temperature (20-24°C). <sentence_start/>For activation of ChR2-expressing cells (identified by YFP fluorescence), the optogenetic stimulation beam (473 nm, or NIR) was delivered via a 50 µm core optical fiber, mounted on a mechanical micromanipulator so as to position the tip of the fiber near the desired cell being patch-clamped. <sentence_start/>For generating and controlling pulses of light, the electromechanical shutter in the laser beam path was interfaced with a PC. <sentence_start/>TTL pulses of desired frequency were generated using National Instruments (PCI 6221) card in order to generate required laser pulses for activation. <sentence_start/>For electrophysiological measurements subsequent to optical activation, the shutter was synchronized with the patch clamp recording electrode. <sentence_start/>The whole system was built on a vibration isolation table (Newport Inc.) and electrical isolation was done by means of a Faraday cage that was placed around the setup. <sentence_start/>pClamp software was used for data analysis."
+  },
+  {
+   "section": "article",
+   "text": "Monte Carlo Simulation"
+  },
+  {
+   "section": "article",
+   "text": "Monte Carlo simulation is known as the most reliable and flexible method for modeling photon migration in biological tissue. <sentence_start/>Here, we used the widely-used Monte Carlo simulation codes for light propagation in multi-layered biological tissue named ‘MCML’ <citation rid=\"pone.0111488-Wang1\" ref-type=\"bibr\" pmid=\"7587160\" doi=\"10.1016/0169-2607(95)01640-f\" count=\"1\">[26]</citation> and ‘COV’ <citation rid=\"pone.0111488-Wang2\" ref-type=\"bibr\" pmid=\"9421660\" doi=\"10.1016/s0169-2607(97)00021-7\" count=\"1\">[27]</citation>. <sentence_start/>The brain was modeled as a two-layered tissue including grey matter and white matter. <sentence_start/>We set up parameters <citation rid=\"pone.0111488-Johansson1\" ref-type=\"bibr\" pmid=\"21054121\" doi=\"10.1117/1.3495719\" count=\"1\">[28]</citation>, <citation rid=\"pone.0111488-Yaroslavsky1\" ref-type=\"bibr\" pmid=\"12118601\" doi=\"10.1088/0031-9155/47/12/305\" count=\"1\">[29]</citation>, <citation rid=\"pone.0111488-Cheong2\" ref-type=\"bibr\" count=\"1\">[30]</citation> (µ<sub>a</sub> = absorption coefficient; µ<sub>s</sub> = scattering coefficient; g = anisotropy factor; n = refractive index, and d = thickness of cortical layers) as listed in Table S1 for the simulation, and then computed light propagation with the MCML code. <sentence_start/>Then the paired code ‘COV’ was utilized to extract the simulation output and calibrate the computed fluence rate distribution by quantitatively carrying the effect of Gaussian beam distribution and respective parameters, including beam size, laser power, and numerical aperture (NA). <sentence_start/>10<sup>7</sup> photons were launched in each simulation to achieve an excellent signal-to-noise ratio in simulation output <citation rid=\"pone.0111488-Wang1\" ref-type=\"bibr\" pmid=\"7587160\" doi=\"10.1016/0169-2607(95)01640-f\" count=\"1\">[26]</citation>, <citation rid=\"pone.0111488-Wang2\" ref-type=\"bibr\" pmid=\"9421660\" doi=\"10.1016/s0169-2607(97)00021-7\" count=\"1\">[27]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Mouse preparation"
+  },
+  {
+   "section": "article",
+   "text": "The (Thy1-ChR2-YFP) transgenic (n = 6, age between 12 to 16 weeks), and wild-type (C57BL/6J) mice (n = 3, age between 12 to 16 weeks) used in the reported experiments, were purchased from Jackson Labs. <sentence_start/>All aspects of experimental manipulation of our animals were in strict accordance with guidelines of the University of Texas at Arlington’s Institutional Animal Care and Use Committee (IACUC). <sentence_start/>Mice were maintained on a 12∶12 light cycle (lights on at 07∶00)."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In-vivo</italic> electrophysiology recordings"
+  },
+  {
+   "section": "article",
+   "text": "Animals were deeply anesthetized with 90 mg/kg ketamine and 10 mg/kg xylazine and placed in a stereotaxic frame (Kopf Instruments Inc.). <sentence_start/>For <italic toggle=\"yes\">in-vivo</italic> recording, a linear midline skin incision was made and burr holes were bilaterally drilled in the skull at the anteroposterior (AP) (in reference to bregma) and mediolateral (ML) coordinates corresponding to VTA (−3.2 mm AP; ±0.5 mm ML). <sentence_start/>The electrode was implanted stereotaxically to allow recording from deep brain regions. <sentence_start/>Continuous electrical activity was then recorded either via a multichannel acquisition system (Omniplex, Plexon Inc.) or via an amplifier (MP-150, Biopac Inc.) interfaced with the Acqknowledge acquisition software on a networked PC. <sentence_start/>The animals were euthanized following electrophysiology recoding. <sentence_start/>by intraperitoneal injection of Sodium Pentobarbital (100 mg/kg)."
+  },
+  {
+   "section": "article",
+   "text": "Statistics"
+  },
+  {
+   "section": "article",
+   "text": "Data were analyzed using Statistical Package for the Social Sciences (SPSS, IBM). <sentence_start/>One-way analysis of variance (ANOVA) followed by Tukey’s post-hoc test was used to determine whether a significant difference occurred. <sentence_start/>The data were plotted as mean ± S. D. <sentence_start/>The accepted level of significance was <italic toggle=\"yes\">p</italic>&lt;0.05."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In-vitro</italic> fiber-optic near-infrared ultrafast laser irradiation leads to optogenetic stimulation"
+  },
+  {
+   "section": "article",
+   "text": "In contrast to the use of a microscope objective for focusing the two-photon laser beam, we employed a tunable (800-900 nm), ultrafast (200 fs) fiber-optic beam for non-scanning two-photon optogenetic activation. <sentence_start/>It is important to note here that earlier TPOS methods utilized different scanning modes (spiral, raster) for activation of ChR2-expressing cells to optimize the efficiency of excitation <citation rid=\"pone.0111488-Rickgauer1\" ref-type=\"bibr\" pmid=\"19706471\" doi=\"10.1073/pnas.0907084106\" pmcid=\"PMC2736443\" count=\"1\">[19]</citation>. <sentence_start/>For testing the efficiency of fiber-based non-scanning two-photon activation <italic toggle=\"yes\">in-vitro</italic>, HEK-293 cells expressing ChR2 were used and channel activities were recorded with patch clamp. <sentence_start/>The patch clamp set up for electrophysiological measurement subsequent to FO-TPOS is shown in Fig. <sentence_start/>S1a. <sentence_start/>The tunable Ti: Sapphire laser (FSL, 76 MHz) beam was expanded using a beam expander (BE) and coupled to an optical fiber using a lens (L). <sentence_start/>A shutter (S) controlled the exposure (macro-pulse) duration and a circular neutral density filter (NDF) was used to control the average beam power. <sentence_start/>In the case of single mode fiber-optic beam or laser beam focused by microscope objective, the intensity and, therefore, the two-photon stimulation is maximum at the center and slowly decays towards periphery (Gaussian nature). <sentence_start/>However, in case of the multimode fiber-optic beam, as used here, the maximum intensity spots are distributed over the irradiated cell(s) and two-photon stimulation is expected to occur in these spots leading to non-scanning activation of the cell(s). <sentence_start/>Fig. 1d shows the intensity profile of the NIR (875 nm) beam emanating from the multimode fiber at a distance of ∼1.3 mm from the cleaved end. <sentence_start/>In Fig. <sentence_start/>S1(e), we show the time-lapse (1 sec) intensity profiles (in different colors) along a line drawn across the beam profile (Fig. S1d). <sentence_start/>The beam profile was found to be stable (average correlation coefficient between two frames is 0.98) unless the fiber was mechanically actuated externally (Movie S1). <sentence_start/>In order to estimate the pulse width of the ultrafast NIR fiber-optic beam, the spectrum was measured using spectrometer (Ocean Optics Inc) at different wavelengths (Fig. 1e). <sentence_start/>At a fixed wavelength, variation of intensity (by changing the pump laser intensity) led to change in pulse width at lower pump power as shown in Fig. <sentence_start/>S1b. <sentence_start/>Since no significant change in pulse width at high oscillator power (1.3 to 1.7 W) was observed, this range was used for intensity-dependent studies. <sentence_start/>This range of oscillator IR laser power corresponds to ∼150 to 260 mW at the coupling end of the multimode fiber. <sentence_start/>With a coupling efficiency of nearly 50%, the average power at tip of the fiber was measured to be 75 to 130 mW. <sentence_start/>Before evaluating two-photon activation of cells by multimode fiber-optic beam, we examined if the ultrafast fiber-optic near-infrared beam has sufficient photon densities to result in two-photon excitation. <sentence_start/>Therefore, we carried out two-photon excitation of fluorescent polystyrene particles (Bangs Lab) by placing the cleaved fiber tip near the particles. <sentence_start/>The beam spot size is about 50 µm when the fiber was placed 10 µm away from the particles. <sentence_start/>Fig. 1f shows the green fluorescence emitted from 45 µm polystyrene particle(s) excited by the multimode fiber-optic beam (Movie S2). <sentence_start/>Non-linear nature of the incident intensity-dependent fluorescence emission confirmed role of two-photon excitation. <sentence_start/>It may be noted that as distance of the fluorescent particle from the fiber increases, the excitation intensity decreases due to divergence of the beam from the fiber and therefore, leads to change in excitation volume."
+  },
+  {
+   "section": "article",
+   "text": "In order to map the <italic toggle=\"yes\">in-vitro</italic> fiber-optic two-photon activation spectrum of ChR2, the wavelength of the near-infrared stimulation laser beam was tuned from 800 to 900 nm. <sentence_start/>Expression of ChR2 in HEK 293 cells was confirmed by fluorescence imaging of reporter fluorescent protein (YFP). <sentence_start/>The cleaved multimode fiber tip was positioned ∼100 µm away from the clamped-cell. <sentence_start/>In Fig. 1 g, we show representative current responses recorded from a single cell, irradiated with ultrafast NIR laser beam (100 ms pulses, with average power density of 0.02 mW/µm<sup>2</sup>, at cell membrane) at different wavelengths. <sentence_start/>The fiber-optic two-photon activation spectrum of ChR2 (Fig. 1 h) <italic toggle=\"yes\">in-vitro</italic> shows that the peak activation wavelength is at 850 nm. <sentence_start/>Theoretically, two-photon optogenetic excitation is expected to be maximal near 920 nm (double the single photon excitation peak wavelength). <sentence_start/>The current amplitude at 900 nm was 9.9±0.6 pA (n = 18), which was lower than the current amplitude at 850 nm (28.0±2.4 pA, n = 19). <sentence_start/>The observed blue-shift of the two-photon activation spectrum can be attributed to the parity selection rules favoring the two-photon excitation of all-trans-retinal and thus activation of ChR2 (in closed form) to higher energy (open) state than the respective single-photon-induced activation. <sentence_start/>This “blue-shifted” optimum stimulation wavelength for two-photon excitation with respect to single-photon excitation is similar to that observed <citation rid=\"pone.0111488-Albota1\" ref-type=\"bibr\" pmid=\"18301569\" doi=\"10.1364/ao.37.007352\" count=\"1\">[31]</citation>, <citation rid=\"pone.0111488-Bestvater1\" ref-type=\"bibr\" pmid=\"12423261\" doi=\"10.1046/j.1365-2818.2002.01074.x\" count=\"1\">[32]</citation> in two-photon absorption of many fluorescence dyes and in two-photon activation ChR2-sensitized HEK cells <citation rid=\"pone.0111488-Andrasfalvy1\" ref-type=\"bibr\" pmid=\"20543137\" doi=\"10.1073/pnas.1006620107\" pmcid=\"PMC2900666\" count=\"1\">[20]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Estimation of two-photon absorption cross section"
+  },
+  {
+   "section": "article",
+   "text": "For estimation of fiber-optic two-photon cross-section of ChR2-activation (Fig. S2), we have considered the dispersion-induced measured pulse-width. <sentence_start/>We estimated the two-photon absorption cross section by fitting the equation to the inward current obtained from patch-clamp as shown in Fig. S2 (a-b). <sentence_start/>The inward increasing current was fitted with following equation,"
+  },
+  {
+   "section": "article",
+   "text": "Where <italic toggle=\"yes\">τ<sub>g</sub></italic> is the ground state life time, defined (2/σ<sub>2</sub> I<sup>2</sup>) for two photon excitation and (1/<italic toggle=\"yes\">σ<sub>1</sub></italic> I) for single photon excitation. <sentence_start/><italic toggle=\"yes\">I</italic> = intensity, <italic toggle=\"yes\">σ<sub>2</sub></italic> = two-photon absorption cross-section, <italic toggle=\"yes\">τ<sub>1</sub></italic> = activation time-constant, and <italic toggle=\"yes\">τ<sub>2</sub></italic> = current decay time-constant."
+  },
+  {
+   "section": "article",
+   "text": "From the fitted parameters the two photon absorption cross-section at λ = 870 nm and 900 nm was found to be 226.48±5.034 GM and 186.32±33.03 GM respectively. <sentence_start/>This estimated two-photon absorption cross-section is higher than many known fluorophores and is comparable to earlier report <citation rid=\"pone.0111488-Rickgauer1\" ref-type=\"bibr\" pmid=\"19706471\" doi=\"10.1073/pnas.0907084106\" pmcid=\"PMC2736443\" count=\"1\">[19]</citation>. <sentence_start/>This is one of the reasons why fiber optics could produce two-photon activation of ChR2 at low average intensities."
+  },
+  {
+   "section": "article",
+   "text": "Peak of <italic toggle=\"yes\">in-vivo</italic> fiber-optic two-photon stimulation wavelength is also blue-shifted"
+  },
+  {
+   "section": "article",
+   "text": "In order to achieve <italic toggle=\"yes\">in-vivo</italic> two-photon stimulation of different brain regions of transgenic mice (Thy1-ChR2-YFP), fiber-optic delivery (Fig. <sentence_start/>S1c) of the fs laser beam was employed instead of microscope objective. <sentence_start/>The fiber tip was placed in the cortical layer-1 of the transgenic mice and the electrode was translated stereotactically to 1 mm beneath the fiber tip. <sentence_start/>In case of fiber-optic two-photon stimulation, the laser beam irradiates the entire cell(s). <sentence_start/>In order to compare the relative efficiencies of various NIR wavelengths in fiber-optic two-photon optogenetic stimulation (FO-TPOS) in <italic toggle=\"yes\">in-vivo</italic>, the (Ti: Sapphire) laser wavelength was tuned from 800 to 900 nm, maintaining same power levels. <sentence_start/>Fig. <sentence_start/>S3a shows spiking activity recorded in cortical regions by <italic toggle=\"yes\">in-vivo</italic> electrophysiology subsequent to fiber-optic two-photon optogenetic stimulation at three selected wavelengths (average incident laser power density: 0.013 mW/µm<sup>2</sup>, pulse width: 50 ms; frequency of shutter: 5 Hz). <sentence_start/>Fig. <sentence_start/>S3b shows variation of peak voltage as a function of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS wavelength. <sentence_start/>Though the <italic toggle=\"yes\">in-vivo</italic> two-photon activation spectrum is of similar nature to that of the in-vitro patch-clamp experiments (Fig. 1), the slope was less steep towards higher activation wavelengths. <sentence_start/>At these NIR three wavelengths, the average power density of the fiber-optic beam was increased to 0.023 mW/µm<sup>2</sup>, and spikes were recorded from the same site (n = 5). <sentence_start/>Fig. <sentence_start/>S3b shows an increase in peak amplitude of the recorded spikes at all the three wavelengths of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS for higher laser power density (p&lt;0.02, n = 5)."
+  },
+  {
+   "section": "article",
+   "text": "In order to further evaluate the efficacy of wavelength-dependent fiber-optic <italic toggle=\"yes\">in-vivo</italic> two-photon activation, the firing rate (spikes per second) was measured and normalized (after subtracting number of background spikes, if any). <sentence_start/>Fig. <sentence_start/>S3c shows the normalized firing rate as a function of wavelength of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS. <sentence_start/>In the case of two-photon firing-rate based activation spectrum, the wavelength-dependency is more favorable towards longer wavelengths as compared to the peak-amplitude (Fig. <sentence_start/>S3b) and current based activation spectrum (Fig. 1 h). <sentence_start/>This may be attributed to differential absorption and scattering properties of neural tissue and water in the near-infrared region. <sentence_start/>While at longer wavelengths, the single-photon water absorption increases, the two-photon absorption of cellular chromophores and ChR2 is higher towards lower wavelengths. <sentence_start/>The fact that at higher wavelength (1000 nm), no significant stimulation was observed led us to conclude that contribution of direct (photothermal or photomechanical) stimulation is minimal. <sentence_start/>Further, these direct effects have earlier been found to occur at significantly higher pulse energies <citation rid=\"pone.0111488-Shapiro1\" ref-type=\"bibr\" doi=\"10.1038/ncomms1742\" pmcid=\"PMC3316879\" pmid=\"22415827\" count=\"1\">[33]</citation> and power densities <citation rid=\"pone.0111488-Hirase1\" ref-type=\"bibr\" pmid=\"11984845\" doi=\"10.1002/neu.10056\" count=\"1\">[34]</citation> than that used in our current experiments."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In-vivo</italic> fiber-optic two-photon optogenetic stimulation is intensity dependent"
+  },
+  {
+   "section": "article",
+   "text": "To determine the variation of <italic toggle=\"yes\">in-vivo</italic> two-photon activation efficacy as a function of average laser power density (intensity), the ChR2-expressing cortical regions of the transgenic mice were stimulated using the setup shown in Fig. 2a. <sentence_start/>Further, to compare the intensity-dependency of <italic toggle=\"yes\">in-vivo</italic> two-photon stimulation with that of single-photon, a blue diode laser (473 nm) was combined with the two-photon laser beam using a dichroic mirror (DM), co-aligned by a folding mirror (M), expanded by beam expander (BE) and coupled to a single fiber using a lens (FL). <sentence_start/>A computer-controlled shutter (S) was used (Fig. 2a) to control the stimulation pulse duration and the frequency of both the single and two-photon activation beams. <sentence_start/>In order to rule out photoactivation of the recording electrodes, which would lead to spurious signals, the optical fiber was affixed (shown by white line in right inset in Fig. 2a) to a glass micro-pipette with the fiber-tip positioned ∼1 mm ahead of the pipette tip. <sentence_start/>A tungsten electrode was inserted into the pipette containing extracellular recording solution ∼2 cm away from the fiber tip. <sentence_start/>Loss of some near-infrared light from the fiber can be seen near the shank of the pipette tip due to bending of the fiber (inset in Fig. 2a). <sentence_start/>Fig. <sentence_start/>S4a &amp; b show recordings from the micropipette-electrode during ON and OFF cycles of ultrafast near-infrared irradiation in absence and presence of phosphate buffer saline respectively. <sentence_start/>The recording using the micropipette-electrode during <italic toggle=\"yes\">in-vivo</italic> fiber-optic two-photon illumination of cortical region of deceased transgenic mouse brain is shown in Fig. <sentence_start/>S4c. <sentence_start/>The stimulation pulses (shutter opening and closing) are shown below all recordings in Fig. S4. <sentence_start/>Thus, the use of micropipette-electrode in combination with the light-delivery fiber being at fixed distance (1 mm) from the tip allowed us to remove the artifact (if any). <sentence_start/>In Fig. 2b, we show <italic toggle=\"yes\">in-vivo</italic> raw spiking of locally stimulated ChR2-expressing cortical neurons (upper panel) of transgenic mouse in synchronization with two-photon stimulation (shutter opening: lower panel) at 870 nm. <sentence_start/>FO-TPOS experiments performed in ChR2 negative mice (n = 3, C57BL/6J) did not lead to any light-evoked electrical activity at depth of 1 mm for incident average intensity up to 0.02 mW/µm<sup>2</sup> (870 nm, 80 MHz, shutter pulse width: 100 ms)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In-vivo</italic> fiber-optic optogenetic stimulation using single (blue) vs two-photon (NIR) stimulation."
+  },
+  {
+   "section": "article",
+   "text": "(a) Set-up for <italic toggle=\"yes\">in-vivo</italic> single and two-photon fiber-optic optogenetic stimulation and electrophysiological recording. <sentence_start/>Inset in right: Glass electrode and fiber based optrode. <sentence_start/>(b) <italic toggle=\"yes\">In-vivo</italic> raw spiking of locally stimulated neurons (upper panel) corresponding to two-photon stimulation (shutter opening: lower panel) at 870 nm. <sentence_start/>(c) Peak-amplitude of recorded local electrical activity as a function of incident power density of <italic toggle=\"yes\">in-vivo</italic> fiber-optic TPOS at two different wavelengths (also shown fitted lines). <sentence_start/>(d) Variation of peak amplitude of single photon (473 nm)-activated local electrical activity as a function of power density. <sentence_start/>(e) Peak-amplitude as a function of pulse width of <italic toggle=\"yes\">in-vivo</italic> fiber-optic TPOS (870 nm) at two different power densities."
+  },
+  {
+   "section": "article",
+   "text": "The micropipette-electrode-fiber carrying both blue and near-infrared laser beam was used to conduct an intensity-dependent comparison between single and two-photon in-vivo stimulation. <sentence_start/>Average incident laser power density was varied from ∼0.006 to 0.026 mW/µm<sup>2</sup> for two-photon stimulation and that of single-photon stimulation was varied from ∼0.0001 to 0.0008 mW/µm<sup>2</sup>. <sentence_start/>The selection of power levels for comparison of two-photon with single-photon stimulation is based on previous <italic toggle=\"yes\">in-vitro</italic> patch clamp measurements <citation rid=\"pone.0111488-Andrasfalvy1\" ref-type=\"bibr\" pmid=\"20543137\" doi=\"10.1073/pnas.1006620107\" pmcid=\"PMC2900666\" count=\"1\">[20]</citation> which shows that two-photon (820 nm) intensity of ∼100 times higher than that of single-photon (488 nm) is required to elicit similar photocurrent (∼500 pA) in ChR2+ve HEK cells. <sentence_start/>Though the selected power-density range for two-photon activation is higher (∼40 times) than that of single-photon, the phototoxicity data in cells shows that threshold average power density of near-infrared fs laser (810 nm) is ∼1000 times higher than that due to cw blue (458 nm) laser beam <citation rid=\"pone.0111488-Denton1\" ref-type=\"bibr\" pmid=\"16799053\" doi=\"10.1167/iovs.05-1066\" count=\"1\">[35]</citation>. <sentence_start/>Two-photon activation at such low intensities is believed to be possible due to the large two-photon cross section of ChR2 <citation rid=\"pone.0111488-Rickgauer1\" ref-type=\"bibr\" pmid=\"19706471\" doi=\"10.1073/pnas.0907084106\" pmcid=\"PMC2736443\" count=\"1\">[19]</citation>. <sentence_start/>The highest average power density value (∼2600 W/cm<sup>2</sup>) for mode-locked near-infrared fiber-optic laser beam, used in the experiments reported here, is comparable to the reported <citation rid=\"pone.0111488-Denton1\" ref-type=\"bibr\" pmid=\"16799053\" doi=\"10.1167/iovs.05-1066\" count=\"1\">[35]</citation> damage-threshold value of 1900 W/cm<sup>2</sup> for more-absorbing pigmented cells (with 250 ms exposure time). <sentence_start/>To further minimize damage in our intensity-dependent fiber-optic two-photon activation experiments, the pulse width of the shutter was set at 1 ms, thus resulting in a much lower dose than the damage threshold. <sentence_start/>Fig. 2c shows the peak-amplitude variation of recorded local electrical activity as a function of incident intensity of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS at two different wavelengths (870 nm and 900 nm) for same stimulation-detection sites (n = 4). <sentence_start/>The peak amplitude can be seen to increase with incident intensity for both wavelengths, but with a larger slope for 870 nm than 900 nm. <sentence_start/>This intensity-dependent trend is not quadratic and the peak amplitudes are significantly different only at power densities ≥ 0.02 mW/µm<sup>2</sup>. <sentence_start/>Besides the fact that conformational change of ChR2 upon two-photon irradiation is unlike excitation of fluorescent molecules, other parameters such as the kinetics of the opening of the ChR2-channel and two-photon absorption of all-trans-retinal <citation rid=\"pone.0111488-Yamaguchi1\" ref-type=\"bibr\" count=\"1\">[36]</citation>, <citation rid=\"pone.0111488-Vivas1\" ref-type=\"bibr\" pmid=\"20155894\" doi=\"10.1021/jp910010g\" count=\"1\">[37]</citation> will significantly modulate the nature of intensity-dependent current variations. <sentence_start/>Further, the <italic toggle=\"yes\">in-vivo</italic> non-quadratic intensity-dependent behavior can also be attributed to higher number of neurons being recruited during increase in intensity. <sentence_start/>Therefore, the measured intensity-dependent peak-amplitude in case of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS is not perfectly linear as observed in the intensity range studied for <italic toggle=\"yes\">in-vitro</italic> <citation rid=\"pone.0111488-Dhakal1\" ref-type=\"bibr\" pmid=\"23722792\" doi=\"10.1364/OL.38.001927\" count=\"1\">[25]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The peak amplitude of single photon (473 nm)-activated neuronal firing as a function of power density is shown in Fig. 2d. <sentence_start/>In contrast to <italic toggle=\"yes\">in-vivo</italic> two-photon stimulation, the single-photon stimulation led to a saturation of peak amplitude at a threshold average power density of 3×10<sup>−4</sup> mW/µm<sup>2</sup>. <sentence_start/>This may be attributed to the fact that unlike two-photon activation, most of the units near the vicinity of the recording electrode, contributing to the signal amplitude, are already stimulated within the excitable volume (limited depth) of the single photon beam. <sentence_start/>The red-shifted, one-photon stimulation is also expected to cause similar saturation behavior as a single-photon blue laser beam. <sentence_start/>The larger dynamic-range (Fig. 2c) observed in the case of two-photon stimulation is advantageous in controlling the stimulation volume. <sentence_start/>This is owing to the non-linear nature of the two-photon activation process. <sentence_start/>When the stimulation power density increased from 0.0065 to 0.013 mW/µm<sup>2</sup>, the firing rate of neurons also increased significantly (p&lt;0.01, n = 6). <sentence_start/>In order to further ascertain that two-photon stimulation using such small pulse-width (1 ms) is sufficient to generate spiking, the peak amplitude values were compared at three different pulse widths (1, 10, 50 ms). <sentence_start/>Fig. 2e shows the variation of peak-amplitude as a function of pulse width for <italic toggle=\"yes\">in-vivo</italic> FO-TPOS (870 nm) at two different average power densities (0.013 and 0.017 mW/µm<sup>2</sup>). <sentence_start/>While larger average power density led to higher peak amplitudes at same site of stimulation and recording (p&lt;0.02, n = 5), the variation of peak-amplitude with pulse-width was not significant (n = 4)."
+  },
+  {
+   "section": "article",
+   "text": "Comparison between two-photon and single-photon for in-depth stimulation"
+  },
+  {
+   "section": "article",
+   "text": "In order to compare the efficacy of two-photon laser beam in stimulating in-depth brain regions <italic toggle=\"yes\">in-vivo,</italic> with that of single-photon, we first theoretically evaluated light propagation in the brain. <sentence_start/>Fig. 3a shows results of Monte Carlo simulations of two-photon (870 nm) light propagation in the two-layered cortex for beam (diameter: 60 µm; laser power: 5 mW) emanating from a fiber having numerical aperture (NA) of 0.15. <sentence_start/>Propagation of a single-photon (470 nm) fiber-optic beam for the same parameters (beam diameter, NA and laser power) is shown in Fig. 3b. <sentence_start/>While it is evident that the near-infrared two-photon beam has a higher penetration depth (even at same power levels), this effect is more profound when (damage-threshold) normalized power levels are compared. <sentence_start/>For <italic toggle=\"yes\">in-vivo</italic> two-photon stimulation, besides the input beam characteristics (mode profile, beam size, divergence), the forward scattering nature of the medium (brain) further modulates the beam propagation and thus, impact both axial and transverse stimulation-resolution. <sentence_start/>Fig. S5 shows MC simulation results depicting the effects of different parameters (power, NA, and wavelength) on light propagation in the two-layered cortex. <sentence_start/>For both FO-TPOS (870 nm) and FO-SPOS (470 nm), higher penetration depth was observed with increasing laser beam power (1 to 50 mW) as shown in the XZ-distribution of power density (W/cm<sup>2</sup>) in Fig. S5. <sentence_start/>In our experiments, ∼50 times higher average power density was used in the case of FO-TPOS as compared to that of FO-SPOS. <sentence_start/>Therefore, when results of FO-TPOS with average laser beam power of 50 mW is compared with 1 mW of FO-SPOS, ∼3 times higher penetration depth was observed in case of FO-TPOS for same fiber delivery geometry."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "In-depth fiber-optic optogenetic stimulation using single (blue) vs two-photon (NIR)."
+  },
+  {
+   "section": "article",
+   "text": "Monte Carlo simulation of light propagation in two-layered cortex for beam diameter of 60 µm, with laser power of 5 mW, (a) two-photon and (b) single-photon Gaussian beam. <sentence_start/>The color bar has unit of ln(W/cm<sup>2</sup>). <sentence_start/>Confocal immunofluorescence images of a deep brain region of Thy1-ChR2-YFP transgenic mice: (c) YFP, (d) tyrosine hydroxylase (TH), (e) composite image. <sentence_start/>Arrows point to examples of colocalized YFP-ChR2 in dopaminergic neurons. <sentence_start/>(f) Raw spiking activity at different depths due to <italic toggle=\"yes\">in-vivo</italic> fiber-optic two-photon optogenetic stimulation (FO-TPOS). <sentence_start/>(g) Comparison of single and two-photon activated depth-dependent peak amplitude. <sentence_start/>*: p&lt;0.05 vs. single photon. <sentence_start/>(h) Variation of peak amplitude of two-photon (850 nm)-activated local electrical activity as a function of depth at different power densities. <sentence_start/>(i) Comparison of peak-amplitude at two different wavelengths of <italic toggle=\"yes\">in-vivo</italic> fiber-optic TPOS at different depths."
+  },
+  {
+   "section": "article",
+   "text": "Next, in order to experimentally evaluate the in-depth activation efficacy of FO-TPOS in <italic toggle=\"yes\">in-vivo</italic> transgenic mouse models, we employed the set-up shown in Fig. 2a, with the electrode tip at varying axial distances from the stimulating fiber-tip. <sentence_start/>The fiber tip was placed in cortical layer-1 of the transgenic mice with the electrode being translated stereotaxically to different depths of the brain. <sentence_start/>To evaluate the ChR2-YFP expression in the targeted deep-brain regions of Thy1-ChR2-YFP transgenic mice, confocal immunofluorescence imaging of these regions was conducted. <sentence_start/>Fig. 3c shows expression of reporter-molecule (YFP) at a depth of ∼3 mm in the ventral tegmental area (VTA). <sentence_start/>Co-immunostaining for tyrosine hydroxylase (TH) and the composite images are shown in Fig. 3d &amp; e respectively. <sentence_start/>The colocalization of tyrosine hydroxylase (TH) and ChR2-YFP in neurons are marked by arrows. <sentence_start/>These results demonstrate that greater than 90% of YFP positive neurons in the VTA of Thy1-ChR2-YFP transgenic mice were also positive for tyrosine hydroxylase (TH; Fig. 3e). <sentence_start/>In Fig. 3f, we show fiber-optically stimulated raw spiking activity from excitatory neurons at three different axial distances (1, 2 and 3 mm) from the fiber-tip carrying the two-photon stimulation beam (870 nm). <sentence_start/>Though with increasing depths, the peak amplitude decreased, spiking signal could still be detected at large depths (3 mm)."
+  },
+  {
+   "section": "article",
+   "text": "In contrast to two-photon activation, no spiking signal was observed at large depths (3 mm) when single-photon beam was used for stimulating the same sites as used for two-photon. <sentence_start/>Comparison of single and two-photon activated depth-dependent spike-amplitude is shown in Fig. 3 g. <sentence_start/>In Fig. 3 h, we show the significant variation of peak amplitude of two-photon (850 nm) activated local electrical activity as a function of depth at different power densities (p&lt;0.001, n = 5). <sentence_start/>Similar depth-dependent variation of peak amplitude was observed for 870 nm (Fig. <sentence_start/>S6a) and 900 nm (Fig. <sentence_start/>S6b) at different power densities. <sentence_start/>Fig. 3i shows comparison of peak-amplitude at different depths due to <italic toggle=\"yes\">in-vivo</italic> FO-TPOS for two different wavelengths (850 and 870 nm) at same average power density (0.024 mW/µm<sup>2</sup>). <sentence_start/>For all the power densities, while there is no significant decrease in peak amplitude from 1 to 2 mm, significant (p&lt;0.001, n = 5) decrease in signal amplitude was observed when moving from 2 to 3 mm depth. <sentence_start/>This is true for all the near-infrared wavelengths reported here. <sentence_start/>Fig. <sentence_start/>S6c &amp; d respectively shows the histogram of peak-amplitude as a function of power densities of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS at different depths for 850 nm and 870 nm."
+  },
+  {
+   "section": "article",
+   "text": "Fiber-optic two-photon optogenetic stimulation is direct stimulation"
+  },
+  {
+   "section": "article",
+   "text": "To verify whether fiber-optic two-photon beam can directly stimulate neurons <italic toggle=\"yes\">in-vivo</italic> at large depth, analysis of FO-TPOS evoked spike latency (from the onset of light) at different depths from fiber-tip was carried out. <sentence_start/>The experimental setup in Fig. 2a was used to compare the latency values for two-photon with that of single-photon. <sentence_start/>Figs. <sentence_start/>4a and b show schematics of in-depth stimulation limit of fiber-optic single-photon and two-photon beam respectively. <sentence_start/>In single and two-photon stimulation modalities, both direct and indirect (post-synaptic) stimulations of neurons at different cortical layers (marked by blue line in Fig. 4 a &amp; b) is possible. <sentence_start/>For single-photon stimulation, since the blue light is attenuated within 1 mm of propagation in cortical tissue (Fig. S5), it is suspected that the spikes from larger depths are mostly due to indirect stimulation. <sentence_start/>However, at depth of 3 mm from the fiber-tip, no detectable signal was observed (Fig. 4c) in case of blue-light stimulation (473 nm, 4 mW). <sentence_start/>In contrast to this, two-photon near-infrared beam has penetration depth of ∼3 mm and therefore can directly elicit action potentials in neurons at larger depths (2-3 mm) along with the indirect post-synaptic spikes. <sentence_start/>Raw electrical recording at 3 mm depth for two-photon (870 nm, 80 mW) stimulation is shown in Fig. 4d. <sentence_start/>In order to estimate the latency of the spikes evoked by FO-SPOS and FO-TPOS at different depths, very short (1 ms) stimulation pulses were used for these experiments and the raw spikes were overlaid with the shutter-synchronization pulses."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Depth-dependent <italic toggle=\"yes\">in-vivo</italic> fiber-optic single and two-photon optogenetic stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Sketch showing in-depth stimulation limit of fiber-optic (a) blue (single-photon) vs (b) NIR (two-photon) light. <sentence_start/>Different cortical layers are marked by blue lines. <sentence_start/>Raw electrical recording at 3 mm depth for (c) single photon (473 nm, 4 mW) and (d) two-photon (870 nm, 80 mW) stimulation. <sentence_start/>(e) Overlay of raw spikes (red profiles) with shutter (fiber-optic two-photon stimulation ON) opening (black profiles) at different depths for two different wavelengths. <sentence_start/>Also shown are representative single photon signals (blue profiles) at different depths, with shutter-ON marked by black profiles. <sentence_start/>(f) Comparison of latency of spikes at different depths stimulated by single photon and two-photon (870 nm) fiber-optic beams. <sentence_start/>*: p&lt;0.05. (g) Histogram of latency of spikes at different two-photon wavelengths for three depths. <sentence_start/>*: p&lt;0.05 vs. latency at 1 mm. <sentence_start/>(h) Variation of latency as a function of depth for different two-photon (870 nm) power densities."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4e shows the overlay of raw spikes (red profiles) with shutter (FO-TPOS ON) opening (black profiles) at different depths for two different wavelengths (850 and 870 nm). <sentence_start/>The representative single photon signals (blue profiles) at different depths are also shown. <sentence_start/>The comparison of values for spike latencies at different depths stimulated by single photon (473 nm) and two-photon (870 nm) fiber-optic beams is shown in Fig. 4f. <sentence_start/>Though the mean value of spike latency increased with increasing depth for FO-TPOS, it was not statistically significant and therefore should have primarily originated from direct stimulation. <sentence_start/>The slight increase can be attributed to the contribution from spikes generated by indirect stimulation. <sentence_start/>However, the statistically significant (p&lt;0.001, n = 5) increase in latency values of spikes from 2 mm depth as compared to 1 mm depth in case of FO-SPOS (Fig. 4f) indicates that most of the spikes are generated by post-synaptic cortical circuitry rather than direct stimulation by the blue laser beam. <sentence_start/>At higher NIR wavelengths, direct photothermal stimulation of neurons may occur due to absorption by water. <sentence_start/>To check if latency is wavelength-dependent (owing to the contribution from photothermal stimulation, if any), we carried out comparative studies using three different FO-TPOS wavelengths (850, 870 and 900 nm). <sentence_start/>Fig. 4 g shows the histogram of latency of spikes at different two-photon wavelengths for three depths (1, 2 and 3 mm). <sentence_start/>The latency at 900 nm was slightly higher that that due to other two wavelengths, but statistically insignificant. <sentence_start/>We further studied the effect of average power density on the latency of two-photon (870 nm) evoked spikes. <sentence_start/>The variation of latency values as a function of depth for three different two-photon average power densities is shown in Fig. <sentence_start/>4 h. <sentence_start/>All the mean latency values are found to be below 6 ms, implying major contribution from direct stimulation. <sentence_start/>The increase in latency values at 3 mm depth was found to be statistically significant and may be attributed to some contribution from post-synaptic spiking."
+  },
+  {
+   "section": "article",
+   "text": "Immunohistochemistry confirms in-depth fiber-optic two-photon optogenetic stimulation"
+  },
+  {
+   "section": "article",
+   "text": "To further confirm whether FO-TPOS was modulating the activity of dopaminergic cells in VTA, we assessed the expression of c-Fos in the VTA using immunohistochemistry (IHC). <sentence_start/>One hour after fiber-optic two-photon stimulation, the mice were sacrificed and perfused intracardially. <sentence_start/>The brains were extracted and processed for IHC for c-Fos using procedures described in literature <citation rid=\"pone.0111488-Perrotti1\" ref-type=\"bibr\" pmid=\"15564575\" doi=\"10.1523/JNEUROSCI.2542-04.2004\" pmcid=\"PMC6730117\" count=\"1\">[38]</citation>, <citation rid=\"pone.0111488-Perrotti2\" ref-type=\"bibr\" pmid=\"18293355\" doi=\"10.1002/syn.20500\" pmcid=\"PMC2667282\" count=\"1\">[39]</citation>. <sentence_start/>Equally-spaced sections spanning the entire region of interest were analyzed. <sentence_start/>We used separate groups of non-ChR2 expressing mice to run through the stimulation procedure as a control comparison group for the IHC. <sentence_start/>Fig. 5a shows confocal YFP-immunostained images of VTA of Thy1-ChR2-YFP transgenic mice. <sentence_start/>Co-immunostaining for tyrosine hydroxylase (TH, Fig. 5b) showed co-localization (marked by arrows) of YFP in dopaminergic cells (Fig. 5c). <sentence_start/>Fig. 5d and e shows zoomed immunostained images for TH and c-Fos respectively. <sentence_start/>The increased activity of the dopaminergic neurons of VTA due to fiber-optic two-photon optogenetic stimulation (FO-TPOS) is evidenced by an increase in c-Fos expression (Fig. 5e) in these cells (Fig. 5f). <sentence_start/>In Fig. 5 d to f, few cells have been marked by the envelope of the FO-TPOS beam profile (as predicted by MC simulation, Fig. S5)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "In-depth c-Fos expression in dopinergic cells due to fiber-optic two-photon optogenetic stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Confocal immunofluorescence images of ventral tegmental area (VTA) of Thy1-ChR2-YFP transgenic mice. <sentence_start/>(a) YFP, (b) tyrosine <italic toggle=\"yes\">hydroxylase</italic> (TH), and (c) Composite image showing co-localization of YFP and TH. <sentence_start/>Arrows point to examples of co-localized cells. <sentence_start/>Increase in c-Fos expression of dopinergic cells in VTA due to fiber-optic two-photon optogenetic stimulation (FO-TPOS); (d) TH, (e) c-Fos, and (f) Composite image showing co-localization of TH and c-Fos. <sentence_start/>Few cells have been marked as predicted (MC simulation) by the boundary of the FO-TPOS beam profile."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "The two-photon activation method reported here enabled <italic toggle=\"yes\">in-vivo</italic> optogenetic stimulation at depth of 3 mm in the brain. <sentence_start/>Thus, the fiber delivering the FO-TPOS beam could be positioned in superficial cortical layer, leading to minimal invasion into the brain. <sentence_start/>Though from the in-vitro studies, we ruled out the contribution of direct (photothermal or photomechanical) stimulation, we are intrigued by the ability of the NIR ultrafast multimode beam in stimulating deep brain regions. <sentence_start/>We hypothesize that two possibilities can enhance the stimulation efficacy of the NIR fiber-optic beam. <sentence_start/>First, the ChR2 may have non-zero (but small) absorption in NIR spectrum. <sentence_start/>Though single-photon ChR2 activation spectrum has been characterized in visible region, further studies are required to measure single-photon NIR activation of ChR2. <sentence_start/>This would certainly require intense cw light source (average power higher than used in studies reported here) owing to the low activation efficiency in the NIR. <sentence_start/>Secondly, other molecules such as the cofactor (ATR) can absorb NIR light and transfer energy to the opsin by the process of resonance energy transfer (RET)."
+  },
+  {
+   "section": "article",
+   "text": "This non-linear optogenetic approach, combined with electrophysiology and behavioral readout(s) will provide a unique opportunity to dissect the functional neuronal circuitry of deep brain regions. <sentence_start/>The efficacy of the two-photon beam can be further improved by controlling the divergence of the beam emanating from the fiber. <sentence_start/>Since the two-photon process is non-linear in nature, focused near infrared activation can lead to highly localized activation of the specific region of interest, which may be located deep in the ventral portion of the midbrain. <sentence_start/>Our previous studies (both experimental and Monte Carlo simulation <citation rid=\"pone.0111488-Wilson1\" ref-type=\"bibr\" count=\"1\">[40]</citation>, <citation rid=\"pone.0111488-Jacques1\" ref-type=\"bibr\" pmid=\"20555503\" doi=\"10.1364/AO.28.002223\" count=\"1\">[41]</citation>, <citation rid=\"pone.0111488-Kienle1\" ref-type=\"bibr\" pmid=\"21085367\" doi=\"10.1364/AO.35.002304\" count=\"1\">[42]</citation>) show that a non-diffracting optogenetic Bessel beam is more effective for in-depth stimulation than a classical (Gaussian) beam <citation rid=\"pone.0111488-Kanneganti1\" ref-type=\"bibr\" count=\"1\">[43]</citation>. <sentence_start/>Fig. S7 shows the comparison of microscopic two-photon setup with defocused and focused fiber-optic two-photon optogenetic stimulation. <sentence_start/>For <italic toggle=\"yes\">in-vivo</italic> two-photon activation, use of an axicon tipped fiber <citation rid=\"pone.0111488-Mishra1\" ref-type=\"bibr\" pmid=\"22029347\" doi=\"10.1117/1.3643340\" count=\"1\">[44]</citation> will allow generation of Bessel beam for even better penetration. <sentence_start/>The propagation distance of the stimulating Bessel beam and the stimulation volume can be controlled by the cone angle of the fiber tip. <sentence_start/>The use the non-diffracting ultrafast Bessel beam for FO-TPOS of excitable cells will allow minimally invasive stimulation with improved spatial resolution. <sentence_start/>This can significantly enhance previous work using single-photon technology for mapping neural circuitry. <sentence_start/>Further, this method can be easily integrated with the fiber-optic non-linear endoscopy techniques <citation rid=\"pone.0111488-Fu1\" ref-type=\"bibr\" pmid=\"19503423\" doi=\"10.1364/oe.14.001027\" count=\"1\">[45]</citation> to allow both two-photon stimulation and optical imaging of neural activity <italic toggle=\"yes\">in-vivo</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Though we characterized two-photon activation efficacy at different near-infrared laser parameters, further studies are required to optimize the fiber-optic two-photon stimulation strategy. <sentence_start/>For example, the large two-photon cross-section of ChR2 should allow use of nanosecond or even microsecond compact near-infrared (NIR) sources for FO-TPOS. <sentence_start/>Further, by selection of right wavelength of the two-photon light source for other opsins such as NpHR (chloride channel), the <italic toggle=\"yes\">in-vivo</italic> FO-TPOS method can be useful for inhibiting neural activity. <sentence_start/>In addition to the demonstrated in-depth stimulation capability of FO-TPOS, high spatial precision in two-photon optogenetic activation should be possible <italic toggle=\"yes\">in-vivo</italic>, by virtue of non-linear nature of ultrafast light-matter interaction. <sentence_start/>Modulation of deep brain regions via FO-TPOS as demonstrated by us, will lead to better understanding of neural circuitry because the technology permits noninvasive and more precise anatomical delivery of stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Fiber-optic two-photon optogenetic stimulation set up and characterization.</bold> <sentence_start/>(a) Patch clamp set up for FO-TPOS. <sentence_start/>FSL: Tunable Ti: Sapphire Laser; BE: Beam Expander; S: Shutter; NDF: Neutral density filter; L: Lens for fiber coupling; FL: Fluorescence excitation source; Ex: Excitation Filter; Em: Emission Filter; MO: Microscope Objective; CL: Condenser lens; DM: Dichroic Mirror; M: Mirror; HL: Halogen Lamp. (b) Variation of the width of the ultrafast pulse from the multimode fiber as a function of laser power. <sentence_start/>(c) <italic toggle=\"yes\">In-vivo</italic> electrophysiology set up for FO-TPOS. <sentence_start/>(d) Typical transverse beam profile emanating from the multimode fiber; (e) Time-lapse (1 sec) intensity profiles (in different colors) along a line drawn across the beam profile shown in d."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Estimation of two photon absorption cross section for ChR2.</bold> <sentence_start/>(a-b) Different traces of photocurrent in ChR2-sensitized HEK cells induced by fiber-optic near-infrared stimulation using 250 fs pulsed laser beam (870 nm, 80 MHz) at average intensity of 0.02 mW/µm<sup>2</sup>. <sentence_start/>The fitted data (using Eq. 1) is overlaid (red traces) over the measured photocurrent. <sentence_start/>The fitted parameters <italic toggle=\"yes\">τ<sub>1</sub></italic> and <italic toggle=\"yes\">τ<sub>2</sub></italic> are used to calculate the two-photon absorption cross section."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Wavelength-dependent fiber-optic two-photon optogenetic stimulation </bold> <bold><italic toggle=\"yes\">in-vivo</italic></bold> <bold>.</bold> <sentence_start/>(a) Raw spiking activity during <italic toggle=\"yes\">in-vivo</italic> electrophysiology subsequent to fiber-optic two-photon optogenetic stimulation (FO-TPOS) at different wavelengths (average incident laser power: 80 mW, 5 Hz), (b) Peak voltage vs. wavelength of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS at two different laser power densities, (c) Firing rate (spikes per second) vs. wavelength of <italic toggle=\"yes\">in-vivo</italic> FO-TPOS."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S4"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Fiber-optic two-photon optogenetic stimulation of negative control.</bold> <sentence_start/>Direct two-photon illumination of micropipette-electrode separated by 1 mm (a) no media and (b) in phosphate buffer saline. <sentence_start/>(c) Recording from micropipette-electrode during two-photon illumination in dead brain."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S5"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Monte Carlo simulation of light propagation in two-layered cortex for comparison of fiber-optic two-photon optogenetic stimulation vs fiber-optic single-photon optogenetic stimulation.</bold> <sentence_start/>Effects of numerical aperture (NA) of optical fiber (0.15, 0.22, and 0.3) and laser beam power (1, 5, and 50 mW) on XZ-distribution of power density (W/cm<sup>2</sup>) shown for near-infrared (870 nm) as well as blue (470 nm). <sentence_start/>Parameters for the MC simulation are listed in Table S1."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S6"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Intensity and depth-dependent</bold> <bold>fiber-optic two-photon optogenetic stimulation.</bold> <sentence_start/>Variation of peak amplitude of two-photon activated electrical recording as a function of depth at different power densities (a) 870 nm, (b) 900 nm. <sentence_start/>Histogram of peak-amplitude as a function of power densities of <italic toggle=\"yes\">in-vivo</italic> fiber-optic TPOS at different depths. <sentence_start/>(c) 850 nm, (d) 870 nm."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S7"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Comparison of microscopic two-photon setup with defocused and focused fiber-optic two-photon optogenetic stimulation.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Table S1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Parameters for Monte Carlo simulation.</bold> <sentence_start/>Beam power is 5 mW, diameter is 60 µm and NA is 0.15. <sentence_start/>Where, µ<sub>a</sub> = Absorption coefficient; µ<sub>s</sub> = Scattering coefficient; g = anisotropy factor; n = refractive index, and d = thickness of cortical layers."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "Movie S1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Fiber-optic multimode two-photon excitation beam profile over a period of time.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "(AVI)"
+  },
+  {
+   "section": "article",
+   "text": "Movie S2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Green fluorescence emitted from polystyrene particles upon excitation by a moving multimode fiber-optic beam.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "(AVI)"
+  }
+ ]
+}

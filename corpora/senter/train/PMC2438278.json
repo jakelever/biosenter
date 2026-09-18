@@ -1,0 +1,287 @@
+{
+ "pmid": 18205727,
+ "pmcid": 2438278,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Novel Druggable Hot Spots in Avian Influenza Neuraminidase H5N1 Revealed by Computational Solvent Mapping of a Reduced and Representative Receptor Ensemble"
+  },
+  {
+   "section": "abstract",
+   "text": "The influenza virus subtype H5N1 has raised concerns of a possible human pandemic threat because of its high virulence and mutation rate. <sentence_start/>Although several approved anti-influenza drugs effectively target the neuraminidase, some strains have already acquired resistance to the currently available anti-influenza drugs. <sentence_start/>In this study, we present the synergistic application of extended explicit solvent molecular dynamics (MD) and computational solvent mapping (CS-Map) to identify putative ‘hot spots’ within flexible binding regions of N1 neuraminidase. <sentence_start/>Using representative conformations of the N1 binding region extracted from a clustering analysis of four concatenated 40-ns MD simulations, CS-Map was utilized to assess the ability of small, solvent-sized molecules to bind within close proximity to the sialic acid binding region. <sentence_start/>Mapping analyses of the dominant MD conformations reveal the presence of additional hot spot regions in the 150- and 430-loop regions. <sentence_start/>Our hot spot analysis provides further support for the feasibility of developing high-affinity inhibitors capable of binding these regions, which appear to be unique to the N1 strain."
+  },
+  {
+   "section": "article",
+   "text": "The avian influenza virus type A, especially subtype H5N1, is becoming the world's largest pandemic threat because of its high virulence and lethality in birds, quickly expanding host reservoir, and high rate of mutation (<citation ref-type=\"bibr\" rid=\"b1\" pmcid=\"PMC2572317\" pmid=\"12640475\" count=\"1\">1</citation>). <sentence_start/>The virus functions in combination with two major membrane glycoproteins: hemagglutinin (HA) and neuraminidase (NA), which together play important roles in the interactions with host cell surface receptors. <sentence_start/>While HA mediates virion (i.e. viral particle) entry into the cell, NA facilitates viral shedding by cleaving the sialic acid linkage formed between the HA and sialic receptors on the surface of the host cell (<citation ref-type=\"bibr\" rid=\"b2\" doi=\"10.1038/nrd2175\" pmcid=\"PMC7097821\" pmid=\"17139286\" count=\"1\">2</citation>). <sentence_start/>Several approved anti-influenza drugs effectively target NA, which cleaves these terminal sialic acid residues and facilitates the release of viral progeny from infected cells (<citation ref-type=\"bibr\" rid=\"b3\" count=\"1\">3</citation>). <sentence_start/>However, antigenic drift has given rise to new strains that are resistant to existing NA inhibitors, and antigenic shift is resulting in new virulent subtypes of the flu virus, underscoring the need to design novel NA and HA inhibitors that can be combined for optimal prophylaxis and treatment."
+  },
+  {
+   "section": "article",
+   "text": "Neuraminidase enzymes are phylogenetically categorized into two groups: group-1 includes N1, N4, N5, and N8 and group-2 includes N2, N3, N6, N7, and N9 (<citation ref-type=\"bibr\" rid=\"b4\" pmid=\"8193951\" doi=\"10.1093/bioinformatics/10.1.19\" count=\"1\">4</citation>). <sentence_start/>Although active site residues are largely conserved across both the groups, different NA subtypes exhibit varied drug susceptibility (<citation ref-type=\"bibr\" rid=\"b5\" pmid=\"11557461\" doi=\"10.1128/AAC.45.10.2723-2732.2001\" pmcid=\"PMC90723\" count=\"1\">5</citation>) and resistance profiles (<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"11170976\" doi=\"10.1086/318537\" count=\"1\">6</citation>,<citation ref-type=\"bibr\" rid=\"b7\" pmid=\"12062393\" doi=\"10.1016/s0166-3542(01)00215-7\" count=\"1\">7</citation>). <sentence_start/>Currently available NA inhibitors, including oseltamivir (marketed as Tamiflu, Roche Pharmaceuticals, Basel, Switzerland) and zanamivir (marketed as Relenza, GlaxoSmithKline, Brentford, London, UK), have been designed against crystal structures of group-2 enzymes [Ref. (3) and references therein]. <sentence_start/>Tamiflu, which has been stockpiled by many nations in efforts to avert a possible pandemic, is the only orally available drug that is effective against H5N1; therefore, additional drug discovery efforts against this enzyme are exceptionally well-motivated."
+  },
+  {
+   "section": "article",
+   "text": "The first crystal structures of a group-1 NA in apo form and in complex with currently available drugs (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>) revealed that although the binding pose of oseltamivir (Tamiflu) was similar to that reported in previous crystallographic complexes (<citation ref-type=\"bibr\" rid=\"b9\" pmid=\"6843658\" doi=\"10.1038/303035a0\" count=\"1\">9</citation>,<citation ref-type=\"bibr\" rid=\"b10\" pmid=\"3447170\" doi=\"10.1002/prot.340020205\" count=\"1\">10</citation>), the 150-loop adopted a distinct conformation, opening a new cavity adjacent to the active site. <sentence_start/>Under certain crystallization conditions, however, the 150-loop adopted the same closed conformation as previously seen in group-2 NA structures, suggesting that a slow conformational change may occur upon inhibitor binding (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>). <sentence_start/>Importantly, previously published group-2 NA structures have only reported the 150-loop in the closed conformation (<citation ref-type=\"bibr\" rid=\"b9\" pmid=\"6843658\" doi=\"10.1038/303035a0\" count=\"1\">9</citation>,<citation ref-type=\"bibr\" rid=\"b10\" pmid=\"3447170\" doi=\"10.1002/prot.340020205\" count=\"1\">10</citation>). <sentence_start/>Therefore, the new structural observation of the 150-loop in the open conformation by Russell <italic toggle=\"yes\">et al.</italic> (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>) was postulated to be able to be exploited in the development of more effective drugs against N1. <sentence_start/>However, standard X-ray crystallography experiments only provide a single snapshot of the structure, making the interpretation of dynamical properties a difficult task and naturally motivating further studies that are able to investigate and characterize dynamics."
+  },
+  {
+   "section": "article",
+   "text": "Molecular dynamics (MD) simulation is a useful theoretical tool to study the properties of biomolecular systems with atomic resolution based on classical mechanics (<citation ref-type=\"bibr\" rid=\"b11\" pmid=\"16683746\" doi=\"10.1021/cr040426m\" pmcid=\"PMC2547409\" count=\"1\">11</citation>-<citation ref-type=\"bibr\" rid=\"b13\" doi=\"10.1002/anie.200502655\" pmid=\"16761306\" count=\"1\">13</citation>). <sentence_start/>They complement experimental results by providing distributions and time series of any physically definable observable, within force field accuracy and finite sampling limitations. <sentence_start/>Extensive all-atom explicit solvent MD simulations of the apo and oseltamivir-bound (i.e. holo) systems revealed that the 150-loop and adjacent binding-site loops may be even more flexible than observed in the crystal structures (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>). <sentence_start/>In the apo simulations, the 150-loop was observed to open to a greater extent than in the X-ray structures, and its motion was often coupled to an outward movement of the adjacent 430-loop. <sentence_start/>These coupled motions significantly expanded the active site cavity, increasing its solvent-accessible surface area as compared with both open and closed crystal structures. <sentence_start/>It was postulated that topological changes and additional expansion of the N1 inhibitor-binding pocket revealed by the MD simulations could potentially play an important role in the rational design of inhibitors for N1 (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "In this work, we present new druggable hot spots, i.e. binding sub-regions that account principally for the ligand-binding energy, revealed in the N1 MD simulations by computational solvent mapping (CS-Map) (<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"11904374\" doi=\"10.1073/pnas.062398499\" pmcid=\"PMC123641\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"b16\" pmid=\"14499612\" doi=\"10.1016/j.jmb.2003.08.019\" count=\"1\">16</citation>). <sentence_start/>Originally developed for binding-site identification, the CS-Map algorithm replicates the experimental Multiple Solvent Crystal Structures (MSCS) method developed by Mattos <italic toggle=\"yes\">et al</italic>. (<citation ref-type=\"bibr\" rid=\"b17\" pmid=\"9630949\" doi=\"10.1038/nbt0596-595\" count=\"1\">17</citation>,<citation ref-type=\"bibr\" rid=\"b18\" pmid=\"16488429\" doi=\"10.1016/j.jmb.2006.01.039\" count=\"1\">18</citation>), where it was shown that consensus binding locations of co-crystallized solvent molecules are highly predictive of binding regions. <sentence_start/>Using only X-ray structures as input, numerous studies utilizing CS-Map have shown that the method accurately reproduces the results of MSCS experiments in addition to identifying important binding features for other well-studied proteins. <sentence_start/>The CS-MAP algorithm differs from similar methods such as GRID (<citation ref-type=\"bibr\" rid=\"b19\" pmid=\"3892003\" doi=\"10.1021/jm00145a002\" count=\"1\">19</citation>) and MCSS (<citation ref-type=\"bibr\" rid=\"b20\" pmid=\"10651268\" count=\"1\">20</citation>) in three major respects: (i) the initial rigid body search provides better sampling of protein surface regions with favorable electrostatics and desolvation than grid search or local minimization; (ii) the scoring potential accounts for desolvation and ligand flexibility; and (iii) the docked ligand positions are clustered and the clusters are ranked on the basis of their average binding affinity. <sentence_start/>Importantly, this allows us to capture consensus sites rather than the binding sites of individual probes. <sentence_start/>The combination of these elements yields an algorithm that shows remarkable robustness against variations in the protein structure and changes in energy parameters (<citation ref-type=\"bibr\" rid=\"b16\" pmid=\"14499612\" doi=\"10.1016/j.jmb.2003.08.019\" count=\"1\">16</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "In a recent study performed by Landon <italic toggle=\"yes\">et al</italic>. (<citation ref-type=\"bibr\" rid=\"b21\" pmid=\"17305325\" doi=\"10.1021/jm061134b\" count=\"1\">21</citation>), CS-Map was applied to identify hot spots within druggable protein binding regions and showed excellent agreement with biophysical experiments, where the authors were able to successfully use CS-Map to identify hot spots for a range of important pharmaceutical targets. <sentence_start/>The study highlighted the accurate identification of a novel hot spot within the peptide-binding region of renin that was recently discovered at Novartis (Novartis, Basel, Switzerland) (<citation ref-type=\"bibr\" rid=\"b22\" pmid=\"12927775\" doi=\"10.1016/s0006-291x(03)01451-7\" count=\"1\">22</citation>). <sentence_start/>After more than 20 years of research efforts, the discovery of this hot spot led directly to the development of the first orally bioavailable FDA-approved renin inhibitor. <sentence_start/>The same CS-Map-based hot spot study reported excellent correspondence between the hot spots predicted for the FK-506 binding protein and ketopantoate reductase to those originally identified by NMR (<citation ref-type=\"bibr\" rid=\"b23\" pmid=\"8929414\" doi=\"10.1126/science.274.5292.1531\" count=\"1\">23</citation>) and isothermal titration calorimetry experiments (<citation ref-type=\"bibr\" rid=\"b24\" pmid=\"16884311\" doi=\"10.1021/jm060490r\" count=\"1\">24</citation>), respectively. <sentence_start/>The authors of this study concluded that CS-Map is a valuable complement for biophysical experiments, in which the data resulting from mapping studies can be used to design and conveniently select drug discovery experiments."
+  },
+  {
+   "section": "article",
+   "text": "Here, we apply CS-Map to identify additional hot spots within the sialic acid binding region of N1 using MD-generated ensembles as input. <sentence_start/>The application of CS-Map in conjunction with MD simulations is conceptually similar to the so-called ‘dynamic pharmacophore’ technique originally developed by Carlson <italic toggle=\"yes\">et al</italic>. (<citation ref-type=\"bibr\" rid=\"b25\" pmid=\"10841789\" doi=\"10.1021/jm990322h\" count=\"1\">25</citation>), which was one of the first experimentally verified methods to account for receptor flexibility in structure-based drug design through the use of MD simulations. <sentence_start/>This technique has been extended by the Carlson group to include the use of structural ensembles derived via NMR and X-ray crystallography, termed the ‘multiple protein structure models’ approach (<citation ref-type=\"bibr\" rid=\"b26\" pmid=\"17555316\" doi=\"10.1021/ja0709728\" count=\"1\">26</citation>). <sentence_start/>Although both the dynamic pharmacophore method and the one described herein utilize small molecule probes to investigate the effects of structural flexibility on ligand binding, the CS-Map technique has the advantage of being directly comparable with MSCS experiments. <sentence_start/>As emphasized by Mattos and Ringe (<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"11904374\" doi=\"10.1073/pnas.062398499\" pmcid=\"PMC123641\" count=\"1\">15</citation>), the major problem with approaches exemplified by GRID (<citation ref-type=\"bibr\" rid=\"b16\" pmid=\"14499612\" doi=\"10.1016/j.jmb.2003.08.019\" count=\"1\">16</citation>) and MCSS (<citation ref-type=\"bibr\" rid=\"b17\" pmid=\"9630949\" doi=\"10.1038/nbt0596-595\" count=\"1\">17</citation>), is that they result in too many energy minima on the surface of the protein, rendering it difficult to determine which of the minima are actually relevant. <sentence_start/>A careful study comparing the results of mapping calculations with X-ray structures of thermolysin determined in four different organic solvents (<citation ref-type=\"bibr\" rid=\"b27\" pmid=\"11287678\" doi=\"10.1093/protein/14.1.47\" count=\"1\">27</citation>) shows that both GRID and MCSS find minima close to the experimentally observed positions, but the closest minima are generally not among those with the lowest free energies, resulting in false positives (i.e. conformations with favorable energy which are not located near any experimentally observed binding site). <sentence_start/>However, it has been recently reported that re-ranking MCSS results with a potential that accounts for solvation improves agreement with experimental data (<citation ref-type=\"bibr\" rid=\"b28\" pmid=\"15317451\" doi=\"10.1021/jm0311184\" count=\"1\">28</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The work we present here also combines a root-mean-square difference- (RMSD-) clustering algorithm to reduce the structural redundancy in the MD ensemble. <sentence_start/>Previous studies tackled this same computational issue using different algorithms (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>,<citation ref-type=\"bibr\" rid=\"b29\" pmid=\"15743192\" doi=\"10.1021/jm049410e\" count=\"1\">29</citation>,<citation ref-type=\"bibr\" rid=\"b30\" doi=\"10.1021/jm030085p\" pmid=\"14521403\" count=\"1\">30</citation>). <sentence_start/>However, we note that the present study is based on considerably longer MD trajectories - equivalent of 160 ns - therefore providing an extensive sampling of the receptor configurational space. <sentence_start/>The combination of techniques in this work presents an efficient method to map target hot spots based on a reduced and representative ensemble of receptor structures, and it represents a novel application of existing computational methods for the investigation of protein-ligand interactions in the presence of significant conformational flexibility within a ligand-binding site."
+  },
+  {
+   "section": "article",
+   "text": "The RMSD-clustering analysis of the explicitly solvated 40-ns tetramer MD simulations yielded a set of 10 structures representing the apo ensemble and 5 structures representing the holo ensemble. <sentence_start/>A series of mapping analyses were subsequently performed on the representative snapshots. <sentence_start/>The results suggest that low-energy hot spots within the 150- and 430-loop regions, determined by consensus binding positions of fragment-sized molecules, may provide additional opportunities for drug discovery that could potentially mitigate the effects of drug resistance. <sentence_start/>Furthermore, this study tackles two major methodological issues. <sentence_start/>First, it demonstrates the benefit role of employing MD simulations to capture receptor flexibility. <sentence_start/>Second, it provides a framework to apply CS-Map in conjunction with reduced and representative MD receptor ensembles to predict the binding of molecules within flexible regions with increased accuracy and efficiency."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Apo system setup"
+  },
+  {
+   "section": "article",
+   "text": "The crystal structures used in this study were 2HU0 for the oseltamivir-bound system and 2HTY for the apo system (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>). <sentence_start/>Protonation states for histidine residues were defined at an apparent pH 6.5 using the PDB2PQR web server (<citation ref-type=\"bibr\" rid=\"b31\" pmid=\"15215472\" doi=\"10.1093/nar/gkh381\" pmcid=\"PMC441519\" count=\"1\">31</citation>). <sentence_start/>All crystallographically resolved water oxygen positions were retained in the apo system, as well as Ca<sup>2+</sup> ions, which are required for optimal NA function (<citation ref-type=\"bibr\" rid=\"b32\" pmid=\"2009295\" doi=\"10.1016/0167-4838(91)90526-6\" count=\"1\">32</citation>). <sentence_start/>To mimic future experimental inhibition assay conditions, a 20-m<sc>m</sc> NaCl salt bath was introduced. <sentence_start/>The simulated system contained 112 311 atoms. <sentence_start/>Additional details on the simulation setup can be found elsewhere (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Holo (i.e. oseltamivir-bound) system setup"
+  },
+  {
+   "section": "article",
+   "text": "The 2HU0 structure had a single oseltamivir molecule bound in the active site of chain B (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>). <sentence_start/>To introduce the oseltamivir within each of the other chains, chain B was aligned to chain A, C, and D by superimposition of the backbone C<sub>α</sub>-atoms and the resulting transformation matrix was also applied to the oseltamivir molecule. <sentence_start/>As no water molecules or ions were reported in the 2HU0 structure, we structurally aligned the 2HTY and 2HU0 systems and kept all crystallographic water molecules that did not clash with oseltamivir in the binding pocket. <sentence_start/>The Ca<sup>2+</sup> ions were also retained as they are required for proper function. <sentence_start/>Amber9 was used to set up the oseltamivir-bound system using an identical protocol to the apo system (see earlier), with the exception of the additional oseltamivir parameters. <sentence_start/>Oseltamivir was parameterized as described in Ref. (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>). <sentence_start/>The composite tetrameric oseltamivir-bound system, comprising one oseltamivir molecule in each of the four active sites and calcium ions in 20-m<sc>m</sc> NaCl salt bath, contained 112 457 atoms."
+  },
+  {
+   "section": "article",
+   "text": "Molecular dynamics simulations"
+  },
+  {
+   "section": "article",
+   "text": "The energy of apo and holo systems were minimized for 5 × 10<sup>4</sup> steps using <sc>namd</sc> version 2.6b1 ( ) (<citation ref-type=\"bibr\" rid=\"b33\" pmid=\"16222654\" doi=\"10.1002/jcc.20289\" pmcid=\"PMC2486339\" count=\"1\">33</citation>). <sentence_start/>During the first phase of the minimization, only hydrogen atoms were relaxed for 5 × 10<sup>3</sup> steps, holding all other atoms fixed. <sentence_start/>Hydrogen atoms, water molecules, and ions were relaxed during additional 5 × 10<sup>3</sup> steps. <sentence_start/>In the last cycle, the protein backbone was fixed, minimizing all other atoms for additional 5 × 10<sup>3</sup> steps. <sentence_start/>No constraints were applied to the final 2.5 × 10<sup>3</sup> steps. <sentence_start/>The system was then equilibrated at 310 K in the (N,p,T) ensemble, using rectangular periodic boundary conditions and the particle mesh Ewald approach to evaluate electrostatics (<citation ref-type=\"bibr\" rid=\"b34\" count=\"1\">34</citation>). <sentence_start/>All hydrogen bond lengths were constrained using the RATTLE algorithm (<citation ref-type=\"bibr\" rid=\"b35\" count=\"1\">35</citation>), thus allowing a 2-fs integration timestep. <sentence_start/>A multiple time-stepping algorithm was utilized, where bonded interactions were evaluated at every timestep, short-range non-bonded interactions were evaluated at every two timesteps, and long-range electrostatic interactions were evaluated at every two timesteps. <sentence_start/>A cutoff of 14 Å was enforced for the non-bonded calculations, including a switching function at 12 Å. <sentence_start/>The first 1-ns period was divided into a series of four 2.5 × 10<sup>5</sup> step runs, where harmonic constraints were employed with 1-fs timesteps to gradually relax the system before the free sampling phase. <sentence_start/>A harmonic constraint force constant of 4.0 kcal/mol/Å<sup>2</sup> was applied to protein backbone atoms with scaling factors of 1.0, 0.75, 0.50, and 0.25 for the sequential segments, respectively. <sentence_start/>Free dynamics were subsequently performed using a 2-fs timestep, for a total of 40 ns for each system. <sentence_start/>Trajectories were generated on the DataStar machine (San Diego Supercomputing Center, University of California, San Diego, La Jolla, CA, USA) (benchmark time of 0.3 days/ns using 112 parallel processors)."
+  },
+  {
+   "section": "article",
+   "text": "RMSD-clustering to extract representative MD structures"
+  },
+  {
+   "section": "article",
+   "text": "To generate a reduced, representative set of N1 structures for the CS-Map calculations, RMSD conformational clustering was performed based on a previously reported clustering algorithm (<citation ref-type=\"bibr\" rid=\"b36\" pmid=\"10024015\" doi=\"10.1002/(sici)1097-0134(19990215)34:3&lt;269::aid-prot1&gt;3.0.co;2-3\" count=\"1\">36</citation>) as implemented in the rmsdmat2 and cluster2 programs of the <sc>gromos</sc>++ analysis software (<citation ref-type=\"bibr\" rid=\"b37\" pmid=\"16211540\" doi=\"10.1002/jcc.20303\" count=\"1\">37</citation>), part of the <sc>gromos05</sc> software for biomolecular simulation ( ). <sentence_start/>The same procedure has been recently applied to the context of protein surface loops (<citation ref-type=\"bibr\" rid=\"b38\" pmid=\"17718514\" doi=\"10.1021/bi700866x\" count=\"1\">38</citation>) and of an improved relaxed complex method for drug design (<citation ref-type=\"bibr\" rid=\"b39\" doi=\"10.1007/s10822-007-9159-2\" pmcid=\"PMC2516539\" pmid=\"18196463\" count=\"1\">39</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "For the apo and oseltamivir-bound simulations, each chain of the tetramer was extracted at 10-ps intervals over the 40-ns simulation. <sentence_start/>A total of 1.6 × 10<sup>4</sup> trajectory structures for each simulation were superimposed using all C<sub>α</sub>-atoms to remove overall rotation and translation. <sentence_start/>The RMSD-clustering was performed on the subset of 62 residues that line the entire binding-site area, which we define here as the binding-site residues: 117-119, 133-138, 146-152, 156, 179, 180, 196-200, 223-228, 243-247, 277, 278, 293, 295, 344-347, 368, 401, 402, and 426-441 (Figure 1). <sentence_start/>These residues were clustered into batches of similar configurations using the backbone atom-positional RMSD of all atoms (including side chains and hydrogens) as the similarity criterion. <sentence_start/>A cutoff of 1.3 Å was chosen after evaluation of the dependence of cluster populations against the total number of clusters found for each simulation using a cutoff in the range 1.0-1.5 Å. <sentence_start/>Next, for both the apo and holo simulations, hydrogen bonding was monitored alternatively using structures from the X-ray crystallographic models, the entire MD ensemble, or the structures belonging to each of the three most populated clusters."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "The 62 residues lining the N1 binding site used for RMSD-based clustering are shown with their C<italic toggle=\"yes\"><sub>α</sub></italic>'s shown in space-filling. <sentence_start/>They encompass the 150- and 430-loops. <sentence_start/>Tamiflu is shown bound in the active site, colored by atom-type."
+  },
+  {
+   "section": "article",
+   "text": "Computational solvent mapping"
+  },
+  {
+   "section": "article",
+   "text": "The CS-Map algorithm is described in the sequence below. <sentence_start/>Required input is a protein structure, where prior to initiation, any bound ligands and/or water molecules are removed. <sentence_start/>The 14 organic probes utilized in this study correspond to those employed in the previous hot spot analysis (<citation ref-type=\"bibr\" rid=\"b21\" pmid=\"17305325\" doi=\"10.1021/jm061134b\" count=\"1\">21</citation>) (Figure 2). <sentence_start/>Mapping simulations were performed on the IBM Blue Gene supercomputer at Boston University, Boston, MA, USA ( ), where the average CPU time for the first two steps averages 15 min using 220 processors."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Probe set used for CS-Map."
+  },
+  {
+   "section": "article",
+   "text": "Rigid body search"
+  },
+  {
+   "section": "article",
+   "text": "For each probe, we generate 222 initial positions on the protein surface along vectors originating from the center of the protein at every 18°. <sentence_start/>From each of these 222 points, we launch 30 simplex (<citation ref-type=\"bibr\" rid=\"b40\" pmid=\"11908495\" doi=\"10.1002/jcc.10026\" count=\"1\">40</citation>) runs with initial simplexes randomly selected around each point, resulting in 6660 docked conformations. <sentence_start/>Simplex moves are evaluated according to the energy equation: The terms in the equation denote the Coulombic contribution of the electrostatic energy, the desolvation energy, and the excluded volume penalty, respectively. <sentence_start/>The electrostatic energy (Δ<italic toggle=\"yes\">E</italic><sub><italic toggle=\"yes\">e</italic> lec</sub>) is the summation over all probes atoms of the product of the electrostatic field of the solvated protein, denoted as <italic toggle=\"yes\">Φ</italic>, at a particular probe position, determined by a finite-difference Poisson-Boltzmann method (<citation ref-type=\"bibr\" rid=\"b41\" pmid=\"3186692\" doi=\"10.1002/prot.340040104\" count=\"1\">41</citation>,<citation ref-type=\"bibr\" rid=\"b42\" pmid=\"7761829\" doi=\"10.1126/science.7761829\" count=\"1\">42</citation>), and the charge <italic toggle=\"yes\">q</italic> of the probe atom. <sentence_start/>Mathematically, The desolvation term is calculated in accordance with the atomic contact potential (ACP) model (<citation ref-type=\"bibr\" rid=\"b43\" pmid=\"9144777\" doi=\"10.1002/pro.5560060512\" pmcid=\"PMC2143688\" count=\"1\">43</citation>), where partial charges are calculated using Quanta ( ). <sentence_start/>The excluded volume term (<italic toggle=\"yes\">V</italic><sub>exc</sub>) is set to zero if the probe does not overlap the protein."
+  },
+  {
+   "section": "article",
+   "text": "Refinement of docked conformations"
+  },
+  {
+   "section": "article",
+   "text": "Resulting from the rigid body search are 6660 protein-probe complexes that undergo further minimization. <sentence_start/>At this stage, a van der Waals energy is included in the free energy calculation Δ<italic toggle=\"yes\">G</italic> = Δ<italic toggle=\"yes\">E</italic><sub>elec</sub> + Δ<italic toggle=\"yes\">E</italic><sub>vdw</sub> + Δ<italic toggle=\"yes\">G</italic><sub>des</sub>*. <sentence_start/>The new desolvation term includes the solute-solvent van der Waals interaction energy. <sentence_start/>The electrostatic and desolvation terms are calculated using the analytic continuum electrostatic (ACE) model (<citation ref-type=\"bibr\" rid=\"b44\" count=\"1\">44</citation>); each protein-probe minimization is performed using the Newton-Rhapson method implemented in CHARMM (<citation ref-type=\"bibr\" rid=\"b45\" count=\"1\">45</citation>). <sentence_start/>While the protein is held rigid during the minimization, the probe molecules are allowed to be flexible. <sentence_start/>A maximum of 1000 minimization steps are needed; often fewer steps are required for convergence of Δ<italic toggle=\"yes\">G</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Probe clustering, scoring, and ranking of conformations"
+  },
+  {
+   "section": "article",
+   "text": "Once the probes are minimized in step two, they are clustered based on their residue interactions. <sentence_start/>Clusters are initiated by seeding with an unclustered probe with the lowest free energy. <sentence_start/>Next, the remaining unclustered probes are searched to find the probe with the lowest distance score D to the seed probe. <sentence_start/>The score D is determined by the equation where <italic toggle=\"yes\">u</italic> and <italic toggle=\"yes\">v</italic> are binary strings representing the interactions for each ligand. <sentence_start/>If this score is below 0.35, then the probe is added to the cluster. <sentence_start/>The threshold score of 0.35 was chosen such that unclustered probes could be assigned uniquely to one cluster. <sentence_start/>Once more than two probes are part of the cluster, additional probes are added to the cluster by checking that the average distance score between the new probe and all existing members is below 0.35. <sentence_start/>If the new probe has an average score above 0.35, then the probe is rejected and a new search begins. <sentence_start/>Once all probes are checked for admittance to a cluster and no additional probes can be added, a new cluster begins by repeating the process. <sentence_start/>After initial creation of clusters, probes are re-clustered such that if the average overlap score D of two clusters can be improved by moving a probe from one cluster to the other, then the probe is moved. <sentence_start/>Subsequent to re-clustering, clusters consisting of less than 20 probes are removed. <sentence_start/>For each remaining cluster <italic toggle=\"yes\">i</italic>, the probability <italic toggle=\"yes\">p</italic><italic toggle=\"yes\"><sub>i</sub></italic> is calculated based on a partition function <italic toggle=\"yes\">Q</italic>, which is the sum of Boltzmann factors over all conformations <italic toggle=\"yes\">j</italic>: where and <italic toggle=\"yes\">Q</italic><italic toggle=\"yes\"><sub>i</sub></italic> is obtained by summing the Boltzman factors over conformations in the <italic toggle=\"yes\">i</italic><sup>th</sup> cluster only. <sentence_start/>The mean values Δ<italic toggle=\"yes\">G</italic> of free energy of cluster is calculated by the formulation where"
+  },
+  {
+   "section": "article",
+   "text": "Determination of consensus sites"
+  },
+  {
+   "section": "article",
+   "text": "From each of the five lowest free energy clusters for each probe, the lowest free energy conformation is selected and superimposed with all chosen clusters. <sentence_start/>The locations on the protein where clusters of different probe types aggregate are termed ‘consensus’ sites, and these positions on the protein are considered to be putative binding pockets subject to further evaluation."
+  },
+  {
+   "section": "article",
+   "text": "Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Clustering of MD snapshots to generate a reduced and representative receptor ensemble"
+  },
+  {
+   "section": "article",
+   "text": "To distill the most dominant configurations of N1 from the MD simulations, RMSD-based clustering was performed on snapshots which were extracted from the trajectories for every 10 ps. <sentence_start/>Although the tetramer N1 was used in the simulations, the clustering analyses were carried out on individual monomer protein chains. <sentence_start/>Therefore, each 40-ns tetramer simulation yielded the equivalent of four times the monomer sampling (160 ns), and 1.6 × 10<sup>4</sup> structures for each system were employed in the analyses."
+  },
+  {
+   "section": "article",
+   "text": "For the apo simulation, the 1.3-Å cutoff resulted in a total of 51 clusters, with 90% of the ensemble represented by 10 clusters (Supplementary Material (SM)Figure 1A). <sentence_start/>In comparison, the holo simulations revealed an overall less flexible system, as the same cutoff yielded a total of 27 clusters, with 90% of the ensemble being represented by five clusters ((SM) Figure 1B). <sentence_start/>For both the apo and holo simulations, although the entire binding-site region was used in the clustering, the greatest structural diversity is found in the 150- and 430-loop areas (Figure 3), indicating that these areas are particularly flexible."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "The central member structures of the dominant clusters from the apo and holo molecular dynamics ensembles are shown in A) and B), respectively. <sentence_start/>Structures are colored by RMSD per residue of each cluster structure to the 2HU4 crystal structure (which is not shown). <sentence_start/>Note the two most variable regions in the binding site are the 150- and 430-loop regions."
+  },
+  {
+   "section": "article",
+   "text": "To add physical and structural insight to the resulting clusters, a hydrogen-bonding analysis was performed on the 150-loop region (comprised of residues 140-152) for the X-ray crystal structures, over both the entire concatenated trajectory of the four monomers, and the structures within each of the most dominant clusters (Table 1). <sentence_start/>The crystal structures have five fully formed hydrogen bonds between residues in the 150-loop region: K143-D142, H144-D142, S145-D142, N146-K143, and T147-N146. <sentence_start/>Hydrogen bond occurrences differ between the apo and holo simulations. <sentence_start/>Additional hydrogen bonds involving H144-D142 and S145-D142, which are not present in the crystal structures, form transiently throughout the 160 ns of MD."
+  },
+  {
+   "section": "article",
+   "text": "In the apo simulations, the most highly populated cluster (representing approximately 20% of the total apo ensemble, SM Figure 1A) is characterized by seven hydrogen bonds in the 150-loop area. <sentence_start/>Although the hydrogen bond between T147 and N145 is lost, high occupancies of hydrogen bonds in the D142-K143-H144 region contribute to the overall stability of this structure. <sentence_start/>The 150-loop in the first cluster for the apo simulations is significantly more open than in the ‘open-loop’ crystal structure published in Ref. (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>). <sentence_start/>It is interesting to note that this so-called ‘wide-open’ structure (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>) seems to be energetically and structurally stabilized by locally-formed hydrogen bonds. <sentence_start/>The second most highly populated cluster also accounts for nearly 20% of the ensemble (SM Figure 1A) and the additional stability of the T147-N146 hydrogen bond. <sentence_start/>Notably, although several hydrogen bonds are less often formed on average, as compared to the first cluster the S145-D142 hydrogen bond is present over the entire cluster set. <sentence_start/>From a structural standpoint, the second cluster represents the open-loop crystal structure (PDB 2HTY). <sentence_start/>The third most highly populated cluster is, on an average, lacking the N146-K143 hydrogen bond and exhibits overall a reduced occupancy of hydrogen bonds. <sentence_start/>This cluster represents nearly 20% of the total apo ensemble, and its central member structure is similar to the closed-loop crystal structure (Figure 3)."
+  },
+  {
+   "section": "article",
+   "text": "In the holo simulations, the most highly populated cluster represents nearly 40% of the overall ensemble and has more hydrogen bonds than the second or third cluster (totally seven hydrogen bonds). <sentence_start/>These interactions persist throughout the simulations, as indicated by the high percentages for each hydrogen bond (Table 1). <sentence_start/>Structurally, the most dominant cluster in the holo simulations is similar to the open-loop crystal structure (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>). <sentence_start/>The second cluster, which is structurally similar to the fully-open MD structure, is defined by a loss of the T147-N146 hydrogen bond and a marked reduction in the persistence of the hydrogen bonds between N146-K143 and S145-D142. <sentence_start/>The second cluster represents slightly more than 20% of the overall holo ensemble. <sentence_start/>By comparison with the apo simulation, the clustering results suggest that the presence of oseltamivir in the active site tends to decrease the amount of time the 150-loop samples wide open-loop configuration. <sentence_start/>The third cluster for the holo simulation is structurally similar to the closed-loop conformation and represents approximately 15% of the overall holo ensemble. <sentence_start/>This cluster of structures is defined by a loss of the S145-D142 hydrogen bond and markedly decreased values for the K143-D142 and H144-D142 hydrogen bonds relative to both the other clusters."
+  },
+  {
+   "section": "article",
+   "text": "Mapping analysis of the apo and holo N1 X-ray structures"
+  },
+  {
+   "section": "article",
+   "text": "Using the chemically diverse probe set defined in Figure 2, mapping analyses were performed on the N1 apo and holo structures available from the PDB (2HTY, 2HU0, and 2HU4). <sentence_start/>It is important to note that although mapping was performed using the entire structures as input, our analyses here are restricted to those consensus sites found within close proximity to the sialic acid binding region. <sentence_start/>As the apo conformation of N1 is nearly identical to the open holo conformation, here, we only discuss those results obtained for the open and closed holo conformations."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4A represents consensus sites resulting the open N1 structure (2HU0), with cluster representatives colored in magenta, revealing distinct hot spots located in the sialic acid, the 430-loop, and the 150-loop regions of the binding pocket. <sentence_start/>In Figure 4B, hot spots are distinguishable in the sialic acid and 430-loop binding regions of the closed holo conformation; while in the open holo structure, the disappearance of a consensus site in the 150-loop region is observed upon loop closure. <sentence_start/>Average rankings of the sialic acid, 430-loop, and 150-loop consensus sites when compared with all others found along the protein surface are fourth, second, and third, respectively. <sentence_start/>Rankings are determined based on the number of low-energy probe clusters comprising the consensus site."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Consensus sites resulting from mapping the A) open structure (PDB 2HU0) and B) closed structure (2HU4) of holo N1. <sentence_start/>Low energy cluster representatives are colored in magenta, with Tamiflu superimposed and colored by atom-type. <sentence_start/>In the open and closed conformations a consensus site is observed in the 430-loop region (highlighted in red); however, a consensus site in the 150-loop region (highlighted in green) is formed in open conformation. <sentence_start/>Consensus sites surrounding the Tamiflu binding region are present in all structures."
+  },
+  {
+   "section": "article",
+   "text": "Based on the direct relationship established between consensus site ranking and druggability in previous studies, we hypothesize that binding regions formed in the 430- and 150-loop regions may provide novel opportunities for lead design. <sentence_start/>Extension of molecules from the sialic acid binding region into the 430-loop binding region may be more robust to changes in conformation of the 150-loop position than molecules designed to bind within the 150-loop region; however, molecules that stabilize the open confirmation 150-loop may also be a viable approach to lead design."
+  },
+  {
+   "section": "article",
+   "text": "Mapping analysis of reduced and representative apo and holo MD ensembles"
+  },
+  {
+   "section": "article",
+   "text": "Mapping of the 10 apo MD and 5 holo MD representative conformations was performed to explore the effects of receptor flexibility on the formation of hot spots within the 150- and 430-loop binding regions. <sentence_start/>For each mapping analysis, the entire surface of the protein was utilized by CS-Map. <sentence_start/>On an average, seven densely-populated (≤10 probe clusters) consensus sites were found for each apo conformation and six were uncovered for each holo conformation. <sentence_start/>Figure 5 illustrates consensus sites formed within the binding regions of the apo and holo MD ensembles, where in Figure 5A, mapping results for the 10 apo conformations are superimposed onto PDB 2HTY, and in Figure 5B, mapping data for the five holo conformations are superimposed onto PDBs 2HU0 and 2HU4. <sentence_start/>Similar to mapping results for the X-ray structures, hot spots emerge within the sialic acid, 150- and 430-loop regions of both the apo and holo MD ensembles. <sentence_start/>For both the apo and holo ensembles, the average rank of consensus sites, in terms of the number of clusters present, located within the sialic acid, 150- and 430-loop regions were fourth, second, and third, respectively. <sentence_start/>These rankings suggest that the 150- and 430-loop regions represent druggable sites; the relationship between druggability and consensus site ranking is supported by a previous study (<citation ref-type=\"bibr\" rid=\"b21\" pmid=\"17305325\" doi=\"10.1021/jm061134b\" count=\"1\">21</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Consensus sites resulting from mapping the A) 10 apo MD structures and B) 5 holo MD structures. <sentence_start/>Shown all together for each ensemble, low-energy cluster representatives are colored in magenta, and Tamiflu is shown bound in the active site, colored by atom-type. <sentence_start/>Mapping results for the apo ensemble are superimposed onto the X-ray structure 2HTY, while mapping results for the holo ensemble are superimposed onto the two holo X-ray structures, PDBs 2HU0 and 2HU4. <sentence_start/>Extended consensus sites in the 430-loop (highlighted in red) and 150-loop (highlighted in green) result from mapping the MD ensembles as compared to the X-ray structures; in the case of holo MD ensemble, a hot spot in the 150-loop is only formed when the MD simulations are used as input. <sentence_start/>This data demonstrates the utility of using MD-generated conformational ensembles to identify hot spots in flexible loop regions."
+  },
+  {
+   "section": "article",
+   "text": "Overall, comparing the mapping results shown in Figure 4, a significant expansion in the volume occupied by probe clusters within the 430- and 150-loop regions is observed for both MD ensembles, suggesting that the loop can be stabilized in multiple conformations that would be amendable to ligand design. <sentence_start/>In Figure 6, we distinguish the mapping results for the open (Figure 6A and B) and wide-open (Figure 6C and D) holo MD-generated conformations. <sentence_start/>From Figure 6, we conclude that although a hot spot is found within the 430-loop region of the wide-open conformations, further opening of the loop results in its disappearance."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Mapping reveals the effects of loop conformation on hot spot formation within the 430-loop (highlighted in red) and 150-loop (highlighted in green) binding regions. <sentence_start/>A-B) Loop conformations most resembling the open apo conformation of the 150-loop yield strong hot spots within both the 150-loop and the 430-loop regions. <sentence_start/>C-D) Further opening of both loops results in an eventual loss of a hot spot within the 430-loop region."
+  },
+  {
+   "section": "article",
+   "text": "Table 2 provides statistics on the average sizes, in terms of cluster population, and cluster energy rankings of consensus sites found within each of the three binding regions for the representative MD ensemble structures. <sentence_start/>Consensus sites were formed in the 150-loop region for 9 of the 10 representative apo conformations; the only apo conformation that did not contain a consensus site in the 150-loop region was the closed conformation of the 150-loop. <sentence_start/>Similarly, four of the five representative holo conformations contained consensus sites within the 150-loop region with the exception of the closed conformation. <sentence_start/>Within the 430-loop region, consensus sites were not observed in three of the representative apo conformations and one of the representative holo conformations, which is attributed to structural effects of the wide-open and closed conformations. <sentence_start/>Based on this data, we hypothesize that hot spots formed within the 150- and 430-loop binding regions are roughly comparable in terms of their ability to bind a variety of probe types with good affinity; however, given the effects of loop dynamics on hot spot formation, it may be more feasible to develop a lead that stably binds the 150-loop region when compared with the 430-loop region."
+  },
+  {
+   "section": "article",
+   "text": "Although the average affinity of probes for the sialic-acid binding region is also very high (Table 2), the diversity of probes binding in this region is significantly decreased when compared with those binding to both of the loop regions. <sentence_start/>In particular, only the most polar functional groups in the probe set - namely <italic toggle=\"yes\">t</italic>-butanol, isopropanol, and phenol - bind to the sialic acid binding region, while nearly all probe types, both polar and non-polar, bind with high affinity to the loop regions. <sentence_start/>This finding suggests that the effects of charge on the bioavailability of N1 inhibitors may be alleviated by the addition of high-affinity, non-polar functional groups that can bind one of the loop regions. <sentence_start/>We note that such insights would not emerge from the application of CS-Map based on single, static crystal structures only."
+  },
+  {
+   "section": "article",
+   "text": "As the last part of this analysis, in Table 3, we provide a list of residues predicted to significantly mediate either non-bonded and/or hydrogen-bonded ligand contacts within the sialic acid, 430-loop, and 150-loop binding regions. <sentence_start/>Using the 10 lowest Boltzmann average free energy probe clusters determined for each holo MD representative, all non-bonded and hydrogen-bonded atomic-level contacts existing between residues of the binding region and the mapped probes were calculated using the program <sc>hbplus</sc> ( ) (<citation ref-type=\"bibr\" rid=\"b46\" pmid=\"8182748\" doi=\"10.1006/jmbi.1994.1334\" count=\"1\">46</citation>). <sentence_start/>Atomic interactions were summed up for each residue and then normalized by the total number of interactions occurring within the binding region. <sentence_start/>In Table 3, we report only those residues that account for at least 2% of the total atomic-level interactions occurring within the binding region. <sentence_start/>Residues marked with an asterisk indicate those accounting for greater than 5% of all atomic-level probe-residue interactions. <sentence_start/>Previous studies have established that protein-probe interactions correlate strongly to known protein-ligand interactions (<citation ref-type=\"bibr\" rid=\"b16\" pmid=\"14499612\" doi=\"10.1016/j.jmb.2003.08.019\" count=\"1\">16</citation>,<citation ref-type=\"bibr\" rid=\"b21\" pmid=\"17305325\" doi=\"10.1021/jm061134b\" count=\"1\">21</citation>). <sentence_start/>In this study, the residues predicted to strongly mediate ligand contacts within the sialic acid binding region - E227, E277, R371, and Y406 - are well-known to be important in the binding of Tamiflu and Relenza, suggesting that those predicted to mediate contacts within the 130- and 430-loop regions - in particular, Q136, D151, I437, K432, and T439 - are likely of importance in the development of a novel class of high-affinity N1 inhibitors."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "The influenza virus subtype H5N1 is of great concern because of its high virulence and mutation rate, and some strains have already acquired resistance to the currently available anti-influenza drugs such as Tamiflu and Relenza. <sentence_start/>Two recent studies, one experimental (<citation ref-type=\"bibr\" rid=\"b8\" pmid=\"16915235\" doi=\"10.1038/nature05114\" count=\"1\">8</citation>) and the other computational (<citation ref-type=\"bibr\" rid=\"b14\" pmid=\"17539643\" doi=\"10.1021/ja0723535\" count=\"1\">14</citation>), uncovered flexibility within the 150- and 430-loop binding regions of N1, and these findings were conjectured to provide new opportunities for drug design. <sentence_start/>Here, we examined the effects of this newly discovered receptor flexibility on the emergence of hot spots within these regions through the integration of extensive MD simulations, conformational clustering, and CS-Map. <sentence_start/>We have identified novel hot spots within flexible binding regions of the N1 neuraminidase and shown that such a clustering procedure significantly improves the efficiency of the CS-Map application."
+  },
+  {
+   "section": "article",
+   "text": "Few computational methods can account for the effects of receptor flexibility, although its importance is well-established (<citation ref-type=\"bibr\" rid=\"b47\" pmid=\"12133719\" doi=\"10.1016/s1367-5931(02)00341-1\" count=\"1\">47</citation>-<citation ref-type=\"bibr\" rid=\"b49\" pmid=\"16214429\" doi=\"10.1016/j.bbapap.2005.07.045\" count=\"1\">49</citation>). <sentence_start/>Recent examples include the development of inhibitors for MAP kinase p38 (<citation ref-type=\"bibr\" rid=\"b50\" pmid=\"16378500\" doi=\"10.2174/092986705774462914\" count=\"1\">50</citation>) and PTP1B (<citation ref-type=\"bibr\" rid=\"b51\" pmid=\"17467573\" doi=\"10.1016/j.drudis.2007.03.011\" count=\"1\">51</citation>) that have entered clinical trials and the recently approved HIV integrase inhibitor, raltegravir (marketed as Isentress, Merck, Whitehouse Station, NJ, USA) (<citation ref-type=\"bibr\" rid=\"b52\" count=\"1\">52</citation>,<citation ref-type=\"bibr\" rid=\"b53\" pmid=\"15055986\" doi=\"10.1021/jm0341913\" count=\"1\">53</citation>). <sentence_start/>Despite these difficulties, by using a multi-faceted approach, we were able to predict the emergence of stable hot spots within the 150- and 430-loop regions of N1. <sentence_start/>These results provide further support for the feasibility of developing high-affinity inhibitors capable of binding these newly proposed areas. <sentence_start/>We hypothesize that a putative novel class of inhibitors, which are able to exploit these new hot spots, may potentially exhibit increased oral bioavailability and be less susceptible to structural mutations in N1 and/or evade existing mutations raised in response to currently available drugs."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "The following supplementary material is available for this article:"
+  },
+  {
+   "section": "back",
+   "text": "Figure S1"
+  },
+  {
+   "section": "back",
+   "text": "Number of clusters representing the apo (A) and holo (B) simulations at a 1.3 (B) RMSD cutoff vs. percentage of ensemble represented."
+  },
+  {
+   "section": "back",
+   "text": "This material is available as part of the online article from:"
+  },
+  {
+   "section": "back",
+   "text": "(This link will take you to the article abstract)."
+  },
+  {
+   "section": "back",
+   "text": "Please note: Blackwell Publishing are not responsible for the content or functionality of any supplementary materials supplied by the authors. <sentence_start/>Any queries (other than missing material) should be directed to the corresponding author for the article."
+  }
+ ]
+}

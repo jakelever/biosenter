@@ -1,0 +1,479 @@
+{
+ "pmid": 32750058,
+ "pmcid": 7402509,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Energy-saving and pricing decisions in a sustainable supply chain considering behavioral concerns"
+  },
+  {
+   "section": "abstract",
+   "text": "With the rising environmental concerns among consumers all over the world, sustainability has received considerable attention, and numerous enterprises are adopting various practices such as investing in energy-saving to improve sustainability in supply chains. <sentence_start/>However, many previous researches always assume that decision makers are perfectly rational and neglect the behavioral concerns of decision makers. <sentence_start/>This paper considers a two-stage sustainable supply chain with behavioral concerns in order to develop more realistic models, and mainly focuses on the energy-saving and pricing decisions in the decentralized system, as well as how to improve energy-saving level and profits. <sentence_start/>We develop decentralized decision-making models under two types of behavioral concerns: fairness concern and risk aversion, and derive the optimal strategy for each member with a Stackelberg game in which the manufacturer acts as the leader. <sentence_start/>The effect of the behavioral concerns on the optimal decisions and corresponding profits is discussed in detail. <sentence_start/>Theoretical analysis verified by numerical experiments shows that the fairness behavior always causes a negative effect on the manufacturer, total supply chain, and energy conservation, while it could benefit the retailer in profits. <sentence_start/>The risk aversion behavior always benefits the manufacturer, total supply chain, and energy conservation, whereas it could make the retailer suffer. <sentence_start/>Note that both the optimal energy-saving level and corresponding profit of the total supply chain under two types of behavioral concerns are lower than that in the centralized system, thereby we propose a revenue-cost-sharing contract to coordinate the supply chain, under which both the manufacturer and the retailer can achieve a win-win outcome and the energy-saving level can be improved. <sentence_start/>In addition, some managerial implications through our analytical and numerical results are summarized in this paper."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "During the past few decades, a series of environmental disasters have been caused by drastic changes in climate and air pollution [<citation rid=\"pone.0236354.ref001\" ref-type=\"bibr\" count=\"1\">1</citation>], and human survival environment is being severely damaged [<citation rid=\"pone.0236354.ref002\" ref-type=\"bibr\" count=\"1\">2</citation>]. <sentence_start/>For instance, the combined heating influence of all major greenhouse gases increases by 43% between 1990 and 2019. <sentence_start/>Nowadays, global concerns about environmental protection and sustainability have increased substantially [<citation rid=\"pone.0236354.ref003\" ref-type=\"bibr\" count=\"1\">3</citation>, <citation rid=\"pone.0236354.ref004\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0147502\" pmcid=\"PMC4725800\" pmid=\"26807848\" count=\"1\">4</citation>]. <sentence_start/>Governmental organizations, media, activists and consumers are stimulating enterprises to extend their responsibility and consider sustainability in their decisions and operations, which is a significant challenge for businesses [<citation rid=\"pone.0236354.ref004\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0147502\" pmcid=\"PMC4725800\" pmid=\"26807848\" count=\"1\">5</citation>]. <sentence_start/>Meanwhile, world energy consumption has experienced a significant increase during the previous decades, from shifting from 3700 Mtoe in 1965 to 13,147 Mtoe in 2015, and thereby energy shortages has become increasingly prominent [<citation rid=\"pone.0236354.ref006\" ref-type=\"bibr\" count=\"1\">6</citation>]. <sentence_start/>In order to address energy shortages and pollution reduction issues, energy saving has become an important mean to promote sustainable development [<citation rid=\"pone.0236354.ref007\" ref-type=\"bibr\" count=\"1\">7</citation>, <citation rid=\"pone.0236354.ref008\" ref-type=\"bibr\" count=\"1\">8</citation>]. <sentence_start/>Many countries and supranational organizations announce environmental protection regulations to reduce greenhouse gas emissions, and induce companies to adopt practical energy-saving strategies to enhance energy efficiency [<citation rid=\"pone.0236354.ref009\" ref-type=\"bibr\" count=\"1\">9</citation>]. <sentence_start/>For example, some countries in the European Union proposed an energy-saving plan to reduce energy consumption by 17% over the next three decades [<citation rid=\"pone.0236354.ref010\" ref-type=\"bibr\" count=\"1\">10</citation>]. <sentence_start/>The United States Government offered a federal subsidy program for electric vehicles, and consumers can receive a one-time bonus of up to a maximum of $7500 (USD) upon purchasing [<citation rid=\"pone.0236354.ref011\" ref-type=\"bibr\" count=\"1\">11</citation>]. <sentence_start/>The Chinese government encouraged consumers to purchase energy-saving products such as variable-frequency air conditioners and energy-saving automobiles by providing subsidies [<citation rid=\"pone.0236354.ref012\" ref-type=\"bibr\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "On the other hand, many consumers recognize that their consumption affects the environment, and the environmental awareness is changing consumer’s purchasing behavior [<citation rid=\"pone.0236354.ref013\" ref-type=\"bibr\" count=\"1\">13</citation>]. <sentence_start/>An increasing number of consumers are willing to buy energy-saving products or environmentally friendly products than before [<citation rid=\"pone.0236354.ref014\" ref-type=\"bibr\" count=\"1\">14</citation>-<citation rid=\"pone.0236354.ref016\" ref-type=\"bibr\" count=\"1\">16</citation>]. <sentence_start/>For instance, according to a survey conducted by Accenture, more than 80% of interviewees stated that they would pay attention to the sustainability of products when making their purchasing decisions [<citation rid=\"pone.0236354.ref017\" ref-type=\"bibr\" count=\"1\">17</citation>]. <sentence_start/>As carried out by European Commission in 2008, there are 75% of Europeans are ready to buy green products even if they cost a little more, up from 31% in 2005 [<citation rid=\"pone.0236354.ref015\" ref-type=\"bibr\" count=\"1\">15</citation>]. <sentence_start/>In sum, products with high energy-saving level would have a higher market share, reputation and market value [<citation rid=\"pone.0236354.ref018\" ref-type=\"bibr\" count=\"1\">18</citation>]. <sentence_start/>Therefore, increasing public environmental awareness and pressure from governments are attracting enterprises toward environmental protection, many socially responsible manufacturers have been actively investing in energy saving and producing environmentally friendly products. <sentence_start/>However, investment in energy-saving is costly, thus the problem about how to decide energy-saving level and price is paid increasing attention in academia and industry."
+  },
+  {
+   "section": "article",
+   "text": "In addition, a series of empirical and experimental studies in behavioral economics have shown that supply chain managers may involve bounded rationality and have different behavioral concerns when they make decisions [<citation rid=\"pone.0236354.ref019\" ref-type=\"bibr\" count=\"1\">19</citation>-<citation rid=\"pone.0236354.ref022\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0199005\" pmcid=\"PMC6005517\" pmid=\"29912926\" count=\"1\">22</citation>], and the behavioral concerns can significantly influence optimization in supply chains. <sentence_start/>However, many existing researches about energy-saving and pricing decisions assume decision makers are perfectly rational. <sentence_start/>Motivated by this observations and discussions, we study a sustainable supply chain composed of a socially responsible manufacturer who invests in technologies to improve energy-saving level and a retailer who involves behavioral concerns such as fairness concern and risk aversion. <sentence_start/>We explore the energy-saving and pricing decisions under three scenarios: centralized system, decentralized system without coordinating contract and decentralized system with revenue-cost-sharing contract."
+  },
+  {
+   "section": "article",
+   "text": "The main contributions of this work are as follows. <sentence_start/>First, we establish a performance benchmark by the centralized system, and obtain the system-wide optimal energy-saving level, retail price and corresponding profit. <sentence_start/>Second, we develop decentralized decision-making models under two types of behavioral concerns, and derive the optimal strategy for each member with a Stackelberg game in which the manufacturer acts as the leader and the retailer is the follower. <sentence_start/>Then, we discuss the effect of the two types of behavioral concerns on the optimal equilibriums and corresponding profits in detail, and compare the optimal energy-saving level, retail price and corresponding profits under three cases: perfect rationality, behavioral concerns and centralized system. <sentence_start/>We find that the efficiency of energy-saving investment plays a very critical role in energy-saving and pricing decisions, and the change of the optimal equilibriums with respect to the coefficients of behavioral concerns depends on the efficiency of energy-saving investment. <sentence_start/>Also, it is noted that whatever behavioral concerns the retailer involves, both the optimal energy-saving level and corresponding profit in the decentralized system are lower than that in the centralized system. <sentence_start/>Third, we propose a revenue-cost-sharing contract to coordinate the supply chain so as to enhance the overall environmental and commercial performances of the supply chain. <sentence_start/>In addition, we provide some managerial implications for sustainable supply chains considering energy-saving investment and behavioral concerns."
+  },
+  {
+   "section": "article",
+   "text": "The rest of this paper is organized as follows. <sentence_start/>The relevant literature is reviewed in next section. <sentence_start/>Section 3 provides the problem description, assumptions and notations, and gives the centralized decisions of the supply chain to establish a performance benchmark. <sentence_start/>In Section 4, we develop decentralized decision-making models under two types of behavioral concerns, and discuss the effect of the two types of behavioral concerns on the optimal equilibriums and corresponding profits in detail. <sentence_start/>A revenue-cost-sharing contract is proposed to develop supply chain coordination models in Section 5. <sentence_start/>In Section 6, we use several numerical experiments to verify the theoretical analysis obtained in the previous sections. <sentence_start/>Section 7 concludes this paper and provides some managerial insights. <sentence_start/>The detailed proofs of propositions and corollaries in this paper appear in S1 Appendix."
+  },
+  {
+   "section": "article",
+   "text": "Literature review"
+  },
+  {
+   "section": "article",
+   "text": "The three streams of research of energy-saving and pricing decisions, fairness concern and risk aversion are closely related to this study. <sentence_start/>In this section, we provide a brief review of the relevant literature and highlight the differences between this study and the existing literature."
+  },
+  {
+   "section": "article",
+   "text": "Currently, there is a growing literature focusing on the energy-saving and pricing decisions in sustainable supply chains. <sentence_start/>Javadi et al. [<citation rid=\"pone.0236354.ref010\" ref-type=\"bibr\" count=\"1\">10</citation>] studied the optimal pricing decisions in a dual-channel supply chain consisting of a manufacturer and a retailer under different flexible return and energy-saving regulations. <sentence_start/>Xie [<citation rid=\"pone.0236354.ref023\" ref-type=\"bibr\" count=\"1\">23</citation>] investigated the optimal strategies in a two-echelon supply chain where a manufacturer decides the energy-saving level of product and a retailer determines the retail price of product, and explored the coordination issue of the supply chain by wholesale price and profit sharing schemes and a lump sum transfer contract. <sentence_start/>Then, Xie [<citation rid=\"pone.0236354.ref024\" ref-type=\"bibr\" count=\"1\">24</citation>] investigated the optimal energy-saving decisions and cooperative strategies in a decentralized supply chain with two competing suppliers and a manufacturer. <sentence_start/>Xie et al. [<citation rid=\"pone.0236354.ref025\" ref-type=\"bibr\" count=\"1\">25</citation>] analyzed the optimal decisions on the energy efficiency of main engines and the price of the shipbuilding service in a sustainable shipbuilding supply chain, and suggested that technological innovations should be advocated to reduce the fixed costs for effective improvements of the energy efficiency of main engines. <sentence_start/>Hafezalkotob [<citation rid=\"pone.0236354.ref026\" ref-type=\"bibr\" count=\"1\">26</citation>] developed price-energy-saving competition and cooperation models for two green supply chains under government financial intervention, and examined the energy-saving and pricing decisions under four supply-chain configurations. <sentence_start/>Zhou and Huang [<citation rid=\"pone.0236354.ref027\" ref-type=\"bibr\" count=\"1\">27</citation>] studied two types of contracts for energy-saving products in a monopoly with the government’s budget constraint, and discussed the energy-saving level and price decisions of enterprises. <sentence_start/>Yi and Li [<citation rid=\"pone.0236354.ref028\" ref-type=\"bibr\" count=\"1\">28</citation>] established a Stackelberg game model to study the cooperation of a supply chain in energy saving and emissions reduction, where the retailer decide a cost-sharing contract and the retail price, and the manufacturer decides the energy-saving level, emissions-reduction level and wholesale price. <sentence_start/>However, it should be noted that all the aforementioned researches assume decision makers are perfectly rational."
+  },
+  {
+   "section": "article",
+   "text": "Fairness concern is one of typical behavioral concerns. <sentence_start/>When a company involves fairness behavior, it will not only care about its monetary payoff but also the fairness outcome of profit allocation in the supply chain [<citation rid=\"pone.0236354.ref029\" ref-type=\"bibr\" count=\"1\">29</citation>]. <sentence_start/>For example, if a manufacturer is powerful relative to a retailer, the manufacturer who manages the supply chain is the leader to provide contacts, and the retailer is the follower. <sentence_start/>The fair-minded retailer would decrease its utility, since the profit derived from the total supply chain could be less than that of the manufacturers [<citation rid=\"pone.0236354.ref019\" ref-type=\"bibr\" count=\"1\">19</citation>]. <sentence_start/>In fact, the seminal work on supply chain management with fairness concern is introduced in a conventional two-echelon supply chain by Cui et al. [<citation rid=\"pone.0236354.ref019\" ref-type=\"bibr\" count=\"1\">19</citation>], and this study is subsequently extended in different scenarios such as closed-loop supply chains [<citation rid=\"pone.0236354.ref030\" ref-type=\"bibr\" count=\"1\">30</citation>], dual-channel supply chains [<citation rid=\"pone.0236354.ref031\" ref-type=\"bibr\" count=\"1\">31</citation>] and sustainable/green supply chains [<citation rid=\"pone.0236354.ref032\" ref-type=\"bibr\" count=\"1\">32</citation>, <citation rid=\"pone.0236354.ref033\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0224153\" pmid=\"31661503\" pmcid=\"PMC6818783\" count=\"1\">33</citation>]. <sentence_start/>In sustainable/green supply chains, Zhou et al. [<citation rid=\"pone.0236354.ref034\" ref-type=\"bibr\" count=\"1\">34</citation>] examined how the co-op advertising contract and the co-op advertising/emission reduction cost sharing contracts impact the low-carbon supply chain’s optimal decisions and coordination, and discussed how the optimal decisions and coordination change when a retailer has fairness concern. <sentence_start/>Li et al. [<citation rid=\"pone.0236354.ref029\" ref-type=\"bibr\" count=\"1\">29</citation>] incorporated a retailer’s fairness concern into carbon emission reduction game models in a low-carbon supply chain, and analyzed the effects of fairness concern on pricing and carbon emission reduction, as well as the performance of a revenue-sharing contract in the supply chain. <sentence_start/>Du et al. [<citation rid=\"pone.0236354.ref035\" ref-type=\"bibr\" doi=\"10.3390/ijerph14111357\" pmcid=\"PMC5707996\" pmid=\"29117150\" count=\"1\">35</citation>] examined the impact of fairness concern on sustainable green technology innovation development in a two-stage supply chain. <sentence_start/>Zhang et al. [<citation rid=\"pone.0236354.ref036\" ref-type=\"bibr\" count=\"1\">36</citation>] explored the joint effect of consumer environmental awareness and fairness concern on environmental quality decision and pricing in a green supply chain."
+  },
+  {
+   "section": "article",
+   "text": "Risk aversion is another common and important behavioral concern. <sentence_start/>Many existing researches indicate that a firm is usually risk-averse when it faces uncertainties such as random demand [<citation rid=\"pone.0236354.ref020\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"pone.0236354.ref037\" ref-type=\"bibr\" count=\"1\">37</citation>]. <sentence_start/>The mean-variance (MV) theory, established by Markowitz in the 1950s, has been widely applied to conduct risk analysis in operations management [<citation rid=\"pone.0236354.ref038\" ref-type=\"bibr\" count=\"1\">38</citation>], and which optimizes the problem with consideration of both payoff and risk where payoff is captured by the expected profit and risk is measured by the variance of profit [<citation rid=\"pone.0236354.ref039\" ref-type=\"bibr\" count=\"1\">39</citation>]. <sentence_start/>There are a number of studies which adopt the MV theory to analyze how the risk aversion affects the decisions of enterprises in traditional supply chain management [<citation rid=\"pone.0236354.ref040\" ref-type=\"bibr\" count=\"1\">40</citation>, <citation rid=\"pone.0236354.ref041\" ref-type=\"bibr\" count=\"1\">41</citation>], whereas the works on sustainable/green supply chains with risk-averse firms are limited. <sentence_start/>Choi and Chiu [<citation rid=\"pone.0236354.ref039\" ref-type=\"bibr\" count=\"1\">39</citation>] developed mean-downside-risk and MV newsvendor models for sustainable fashion retailing under both the exogenous and endogenous retail price decision cases. <sentence_start/>Xie et al. [<citation rid=\"pone.0236354.ref042\" ref-type=\"bibr\" count=\"1\">42</citation>] investigated the optimal selection of cleaner products in a green supply chain under two different supply chain structures: a vertically integrated and a decentralized setting, in which the MV approach is used to model the risk aversion of each member. <sentence_start/>Bai and Meng [<citation rid=\"pone.0236354.ref043\" ref-type=\"bibr\" count=\"1\">43</citation>] considered a two-echelon supply chain composed of two competing manufacturers and one retailer under investment in carbon emission reduction, and discussed the impact of risk aversion on the optimal strategies of supply chain members. <sentence_start/>Lai et al. [<citation rid=\"pone.0236354.ref044\" ref-type=\"bibr\" count=\"1\">44</citation>] explored sustainability investment in a maritime supply chain with risk behavior and information sharing, they proposed a two-period game-theoretic model in a MV framework, and investigated the effect of risk aversion and information sharing on sustainability investment."
+  },
+  {
+   "section": "article",
+   "text": "To the best of our knowledge, there are no studies that address the energy-saving and pricing decisions in a same sustainable supply chain with different behavioral concerns such as fairness concern and risk aversion. <sentence_start/>This paper aims to address the gap in the literature. <sentence_start/>Compared with the existing literature, we detailedly discuss the impact of the fairness concern and risk aversion on the optimal strategies in a same sustainable supply chain, and investigate the supply chain coordination issue with a revenue-cost-sharing contract. <sentence_start/>Moreover, we gain more interesting finds and managerial insights."
+  },
+  {
+   "section": "article",
+   "text": "Problem description and performance benchmark"
+  },
+  {
+   "section": "article",
+   "text": "We consider a two-stage supply chain consisting of a socially responsible manufacturer and a retailer involving behavioral concerns in a single period, where the manufacturer produces energy-saving products (e.g., energy-efficient air conditioners or refrigerators) with marginal production cost <italic toggle=\"yes\">c</italic> and sells them to the retailer at wholesale price <italic toggle=\"yes\">w</italic>, then the retailer resells energy-saving products to end consumers at retail price <italic toggle=\"yes\">p</italic> in the selling season. <sentence_start/>Due to the social responsibilities and the rising environmental consciousness of customers, the manufacturer has to invest in advanced facilities/technologies to improve energy-saving level during the production process. <sentence_start/>Consequently, the market demand would generally increase as the product’s energy-saving level <italic toggle=\"yes\">e</italic> goes up. <sentence_start/>According to the literature [<citation rid=\"pone.0236354.ref024\" ref-type=\"bibr\" count=\"1\">24</citation>, <citation rid=\"pone.0236354.ref044\" ref-type=\"bibr\" count=\"1\">44</citation>], the market demand is stochastic in nature and dependent on energy-saving level of product and retail price, which can be expressed as where , <italic toggle=\"yes\">α</italic>(<italic toggle=\"yes\">α</italic>&gt;0) and <italic toggle=\"yes\">β</italic>(<italic toggle=\"yes\">β</italic>&gt;0) are the potential intrinsic demand, consumer’s sensitivity parameters in retail price and energy-saving level, respectively. <sentence_start/>In order to capture uncertainty in market demand resulting from changes in economic and business conditions, is assumed to be a random variable and shown as , where <italic toggle=\"yes\">a</italic> is the mean of the potential intrinsic demand, and <italic toggle=\"yes\">ζ</italic> follows the normal distribution with <italic toggle=\"yes\">E</italic>(<italic toggle=\"yes\">ξ</italic>) = 0 and <italic toggle=\"yes\">Var</italic>(<italic toggle=\"yes\">ζ</italic>) = <italic toggle=\"yes\">σ</italic><sup>2</sup>. <sentence_start/>To avoid trivialities, we have <italic toggle=\"yes\">p</italic>&gt;<italic toggle=\"yes\">w</italic>&gt;<italic toggle=\"yes\">c</italic> and <italic toggle=\"yes\">a</italic>&gt;<italic toggle=\"yes\">αp</italic>&gt;<italic toggle=\"yes\">αc</italic>. <sentence_start/>Thus, the expected demand function is written as"
+  },
+  {
+   "section": "article",
+   "text": "We let <italic toggle=\"yes\">C</italic>(<italic toggle=\"yes\">e</italic>) be the cost of energy-saving investment, which is an increasing convex function of the energy-saving level <italic toggle=\"yes\">e</italic>, namely, <italic toggle=\"yes\">C</italic>(<italic toggle=\"yes\">e</italic>)&gt;0, <italic toggle=\"yes\">C</italic>'(<italic toggle=\"yes\">e</italic>)&gt;0 and <italic toggle=\"yes\">C</italic>\"(<italic toggle=\"yes\">e</italic>)&gt;0. <sentence_start/>Generally speaking, as the energy-saving level increases, it becomes increasingly more expensive. <sentence_start/>Since the quadratic function not only captures the phenomenon of increasing marginal cost but also reflects the characteristic that the investment cost of the initial energy level per unit is decreasing, we let <italic toggle=\"yes\">C</italic>(<italic toggle=\"yes\">e</italic>) = <italic toggle=\"yes\">ke</italic><sup>2</sup>/2. <sentence_start/><italic toggle=\"yes\">k</italic> is the coefficient of energy-saving investment, which represents the impact of energy-saving on cost. <sentence_start/>It is common to use the form of quadratic function to describe the quantitative relationship between the environmental improvement and the corresponding expenditure in existing literature [<citation rid=\"pone.0236354.ref015\" ref-type=\"bibr\" count=\"1\">15</citation>, <citation rid=\"pone.0236354.ref028\" ref-type=\"bibr\" count=\"1\">28</citation>, <citation rid=\"pone.0236354.ref032\" ref-type=\"bibr\" count=\"1\">32</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The manufacturer plays a leading role in the supply chain, and makes decisions based on the principle of maximizing expected profit as rational economic people. <sentence_start/>The retailer acts as a follower, and aims to maximize expected utility since the retailer involves behavioural concerns. <sentence_start/>In this study, the energy-saving level, wholesale price and retail price are decision variables and other variables are exogenous variables, known to both the manufacturer and the retailer. <sentence_start/>We use subscript <italic toggle=\"yes\">m</italic>, <italic toggle=\"yes\">r</italic> and <italic toggle=\"yes\">sc</italic> to successively denote the manufacturer, retailer and total supply chain, respectively. <sentence_start/>The second subscript letter <italic toggle=\"yes\">n</italic> denotes the perfect rationality case, <italic toggle=\"yes\">λ</italic> denotes the fairness concern case, and <italic toggle=\"yes\">η</italic> denotes the risk aversion case. <sentence_start/>Also, we use superscript <italic toggle=\"yes\">I</italic>, <italic toggle=\"yes\">D</italic> and <italic toggle=\"yes\">R</italic> to successively denote the centralized system, the decentralized decision-making model, and the revenue-cost-sharing contract coordination model, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Notations used in this paper are listed in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "In what follows, we use the centralized system to establish a performance benchmark. <sentence_start/>In the centralized case, the manufacturer and the retailer would jointly operate as one decision-maker to decide the energy-saving level <italic toggle=\"yes\">e</italic><italic toggle=\"yes\"><sup>I</sup></italic> and the retail price <italic toggle=\"yes\">p</italic><italic toggle=\"yes\"><sup>I</sup></italic> to maximize the system-wide expected profit, which aligns with the extant literature [<citation rid=\"pone.0236354.ref021\" ref-type=\"bibr\" count=\"1\">21</citation>, <citation rid=\"pone.0236354.ref032\" ref-type=\"bibr\" count=\"1\">32</citation>]. <sentence_start/>Let denote the expected profit of the centralized supply chain, we have"
+  },
+  {
+   "section": "article",
+   "text": "Differentiating with respect to <italic toggle=\"yes\">e</italic><italic toggle=\"yes\"><sup>I</sup></italic> and <italic toggle=\"yes\">p</italic><italic toggle=\"yes\"><sup>I</sup></italic> gives"
+  },
+  {
+   "section": "article",
+   "text": "The Hessian matrix of the expected profit of the centralized supply chain with respect to the energy-saving level and the retail price is"
+  },
+  {
+   "section": "article",
+   "text": "When 2<italic toggle=\"yes\">αk</italic>−<italic toggle=\"yes\">β</italic><sup>2</sup>&gt;0, the Hessian matrix is negative definite. <sentence_start/>This implies that is jointly concave in <italic toggle=\"yes\">e</italic><italic toggle=\"yes\"><sup>I</sup></italic> and <italic toggle=\"yes\">p</italic><italic toggle=\"yes\"><sup>I</sup></italic>, there exist unique optimal solutions (<italic toggle=\"yes\">e</italic><sup><italic toggle=\"yes\">I</italic>*</sup>,<italic toggle=\"yes\">p</italic><sup><italic toggle=\"yes\">I</italic>*</sup>) which jointly determined by and . <sentence_start/>Thus, we get"
+  },
+  {
+   "section": "article",
+   "text": "Note that, since <italic toggle=\"yes\">p</italic><sup><italic toggle=\"yes\">I</italic>*</sup>&gt;<italic toggle=\"yes\">c</italic>, we get <italic toggle=\"yes\">p</italic><sup><italic toggle=\"yes\">I</italic>*</sup>−<italic toggle=\"yes\">c</italic> = <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">a</italic>−<italic toggle=\"yes\">αc</italic>)/(2<italic toggle=\"yes\">αk</italic>−<italic toggle=\"yes\">β</italic><sup>2</sup>)&gt;0. <sentence_start/>Thus, 2<italic toggle=\"yes\">αk</italic>−<italic toggle=\"yes\">β</italic><sup>2</sup>&gt;0 always holds because <italic toggle=\"yes\">a</italic>−<italic toggle=\"yes\">αc</italic>&gt;0. <sentence_start/>That is, there always exist unique optimal solutions in the centralized system. <sentence_start/>Furthermore, we can naturally obtain <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;2<italic toggle=\"yes\">α</italic>, and <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic> can be interpreted as the efficiency of energy-saving investment. <sentence_start/><italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;2<italic toggle=\"yes\">α</italic> indicates that the efficiency of energy-saving investment is limitary and the cost of improving energy-saving level is high in practical applications. <sentence_start/>This is consistent with the existing literature [<citation rid=\"pone.0236354.ref032\" ref-type=\"bibr\" count=\"1\">32</citation>, <citation rid=\"pone.0236354.ref045\" ref-type=\"bibr\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Therefore, the maximum expected profit of the supply chain can be achieved at <italic toggle=\"yes\">p</italic><sup><italic toggle=\"yes\">I</italic>*</sup> and <italic toggle=\"yes\">e</italic><sup><italic toggle=\"yes\">I</italic>*</sup>. <sentence_start/>In this case, the optimal expected profit of the supply chain is"
+  },
+  {
+   "section": "article",
+   "text": "Next, we will explore the optimal decisions of both the manufacturer and the retailer with different behavioral concerns in the decentralized system, and discuss what strategy to choose by comparing each of them with the benchmarking case."
+  },
+  {
+   "section": "article",
+   "text": "Decentralized decision-making model"
+  },
+  {
+   "section": "article",
+   "text": "In the decentralized system, the manufacturer and the retailer are independent self-interested firms. <sentence_start/>There is a Stackelberg game in which the manufacturer acts as the leader and the retailer acts as the follower. <sentence_start/>We will analyze the optimal strategy for each partner via backward induction to find the equilibriums of the Stackelberg game. <sentence_start/>We first explore the retailer’s problem of determining retail price given the energy-saving level and wholesale price, and then we investigate the manufacturer’s strategy on the energy-saving level and wholesale price."
+  },
+  {
+   "section": "article",
+   "text": "In the decentralized system, the profit functions of the manufacturer and the retailer are given by"
+  },
+  {
+   "section": "article",
+   "text": "Thus, the profit function of the total supply chain in the decentralized system is"
+  },
+  {
+   "section": "article",
+   "text": "Fairness concern scenariro"
+  },
+  {
+   "section": "article",
+   "text": "In this subsection, we investigate the scenario of the supply chain with a fair-minded retailer. <sentence_start/>The current research introduces profit differences into the utility function of decision makers to characterize fairness concern, and the equitable reference point of the retailer is the manufacturer’s profit. <sentence_start/>We introduce the coefficient of fairness concern to describe the effect of the fairness concern brought about by the profit difference of the manufacturer and the retailer. <sentence_start/>When the retailer’s profit is greater than the profit of the manufacturer, its utility will be increased, otherwise, its utility will be reduced. <sentence_start/>In particular, the formulation of fairness would narrow down the profit gap between the manufacturer and retailer [<citation rid=\"pone.0236354.ref046\" ref-type=\"bibr\" count=\"1\">46</citation>]. <sentence_start/>Following the literature [<citation rid=\"pone.0236354.ref019\" ref-type=\"bibr\" count=\"1\">19</citation>, <citation rid=\"pone.0236354.ref030\" ref-type=\"bibr\" count=\"1\">30</citation>, <citation rid=\"pone.0236354.ref032\" ref-type=\"bibr\" count=\"1\">32</citation>], the utility function of the retailer with fairness concern can be expressed as follows , where . <sentence_start/>For simplicity, we let , the utility function of the retailer with fairness concern can be rewritten as where <italic toggle=\"yes\">λ</italic> represents the retailer’s fairness concern coefficient, which satisfies 0&lt;<italic toggle=\"yes\">λ</italic>&lt;1. <sentence_start/>Especially, <italic toggle=\"yes\">λ</italic> = 0 corresponds to the rational economic people scenario."
+  },
+  {
+   "section": "article",
+   "text": "Thus, when the retailer involves fairness concern, the expected utility of the retailer is"
+  },
+  {
+   "section": "article",
+   "text": "Then, we will obtain the optimal equilibriums of supply chain members via backward induction. <sentence_start/>The detailed proofs of propositions and corollaries in this paper appear in Appendix A."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Proposition 1.</bold> <sentence_start/><italic toggle=\"yes\">In the decentralized supply chain with a fair-minded retailer</italic>, <italic toggle=\"yes\">the optimal energy-saving level and wholesale price are</italic> and the optimal retail price is"
+  },
+  {
+   "section": "article",
+   "text": "Proposition 1 shows that the fairness behavior of the retailer affects not only the retail pricing but also the decisions of the manufacturer on the energy-saving level and wholesale price. <sentence_start/>Then, we have the following corollary."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Corollary 1.</bold> <sentence_start/><italic toggle=\"yes\">In the decentralized supply chain with a fair-minded retailer, we have</italic> , and ."
+  },
+  {
+   "section": "article",
+   "text": "Corollary 1 shows that the intensified fairness of the retailer would decrease the energy-saving level, wholesale price and retail price. <sentence_start/>That is, all the optimal energy-saving level, wholesale price and retail price in a supply chain with a fair-minded retailer are lower than that of the fair-neutral scenario. <sentence_start/>This implies that when the retailer involves fairness behavior, the retailer will reduce the energy-saving investment. <sentence_start/>Accordingly, the energy consumption per unit product would increases, and the supply chain would suffer in terms of sustainability. <sentence_start/>Let <italic toggle=\"yes\">λ</italic> = 0, we easily get the optimal decisions of the fair-neutral scenario, the optimal energy-saving level, wholesale price and retail price are characterized as , and , respectively. <sentence_start/>Furthermore, in the supply chain with a fair-minded retailer, the optimal expected profits of the manufacturer, retailer, and total supply chain can be given by"
+  },
+  {
+   "section": "article",
+   "text": "The optimal expected utility of the retailer is"
+  },
+  {
+   "section": "article",
+   "text": "Conducting the sensitivity analysis, we further derive the following corollary."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Corollary 2.</bold> <sentence_start/><italic toggle=\"yes\">In the decentralized supply chain with a fair-minded retailer</italic>, <italic toggle=\"yes\">we have</italic>"
+  },
+  {
+   "section": "article",
+   "text": "(i) , and ;"
+  },
+  {
+   "section": "article",
+   "text": "(ii)If <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;4<italic toggle=\"yes\">α</italic>/3, then ; If <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&gt;4<italic toggle=\"yes\">α</italic>/3 and <italic toggle=\"yes\">λ</italic>&lt;(4<italic toggle=\"yes\">kα</italic>−2<italic toggle=\"yes\">β</italic><sup>2</sup>)/(3<italic toggle=\"yes\">β</italic><sup>2</sup>−4<italic toggle=\"yes\">kα</italic>), then ; If <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&gt;4<italic toggle=\"yes\">α</italic>/3 and <italic toggle=\"yes\">λ</italic>&gt;(4<italic toggle=\"yes\">kα</italic>−2<italic toggle=\"yes\">β</italic><sup>2</sup>)/(3<italic toggle=\"yes\">β</italic><sup>2</sup>−4<italic toggle=\"yes\">kα</italic>), then ."
+  },
+  {
+   "section": "article",
+   "text": "Corollary 2 indicates that the expected profits of both the manufacturer and total supply chain are always negatively correlated with the retailer’s fairness concern coefficient. <sentence_start/>When <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>≤4<italic toggle=\"yes\">α</italic>/3, namely, the efficiency of energy-saving investment is low, the expected profit of the retailer is increasing in the fairness concern coefficient. <sentence_start/>In addition, the expected profit of the retailer is decreasing in the fairness concern coefficient when <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&gt;4<italic toggle=\"yes\">α</italic>/3 and <italic toggle=\"yes\">λ</italic>&gt;(4<italic toggle=\"yes\">kα</italic>−2<italic toggle=\"yes\">β</italic><sup>2</sup>)/(3<italic toggle=\"yes\">β</italic><sup>2</sup>−4<italic toggle=\"yes\">kα</italic>) hold synchronously, whereas the expected profit of the retailer is also increasing in the fairness concern coefficient when <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&gt;4<italic toggle=\"yes\">α</italic>/3 and <italic toggle=\"yes\">λ</italic>&lt;(4<italic toggle=\"yes\">kα</italic>−2<italic toggle=\"yes\">β</italic><sup>2</sup>)/(3<italic toggle=\"yes\">β</italic><sup>2</sup>−4<italic toggle=\"yes\">kα</italic>) hold synchronously. <sentence_start/>The above analysis implies that the fairness behavior of the retailer always causes the manufacturer and total supply chain to suffer, while the retailer can always benefit from the fairness behavior when the efficiency of energy-saving investment is low. <sentence_start/>It is worth noting that when the efficiency of energy-saving investment is high, with intensified fairness concern, the expected profit of the retailer goes up first and then goes down. <sentence_start/>In sum, so long as the retailer keeps moderate fairness concern level, the fairness behavior benefits it all the time. <sentence_start/>When the fairness behavior is intensified, the fairness behavior benefits the retailer when and only when the efficiency of energy-saving investment is low. <sentence_start/>Moreover, although the retailer can benefit from the intensified fairness, the associated utility of the retailer is always decreased."
+  },
+  {
+   "section": "article",
+   "text": "Comparing with the fair-neutral scenario, the expected profits of both the manufacturer and total supply chain are lower under the fair-minded scenario, while the expected profit of the retailer may be higher or lower. <sentence_start/>Let <italic toggle=\"yes\">λ</italic> = 0, we get the results of the fair-neutral scenario, the optimal expected profits of the manufacturer and retailer are characterized as and , respectively. <sentence_start/>Then the optimal expected profit of the total supply chain is characterized as ."
+  },
+  {
+   "section": "article",
+   "text": "Further, conducting the comparison analysis, we derive the following corollary."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Corollary 3.</bold> <sentence_start/><italic toggle=\"yes\">Conducting the comparison analysis</italic>, <italic toggle=\"yes\">we have</italic>"
+  },
+  {
+   "section": "article",
+   "text": "(i) , ."
+  },
+  {
+   "section": "article",
+   "text": "(ii) if 0&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;2<italic toggle=\"yes\">α</italic>(1+<italic toggle=\"yes\">λ</italic>)/(2+3<italic toggle=\"yes\">λ</italic>), then ; if 2<italic toggle=\"yes\">α</italic>(1+<italic toggle=\"yes\">λ</italic>)/(2+3<italic toggle=\"yes\">λ</italic>)&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;<italic toggle=\"yes\">α</italic>, then ; if <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&gt;<italic toggle=\"yes\">α</italic>, then ."
+  },
+  {
+   "section": "article",
+   "text": "Corollary 3 shows that both the energy-saving level and the expected profit of the total supply chain in the decentralized system are always lower than that in centralized system. <sentence_start/>The retail price in the decentralized system may be lower or more than that in the centralized system, it depends on the relationships among the efficiency of energy-saving investment, the fairness concern parameter of the retailer and the consumer’s sensitivity parameter in retail price."
+  },
+  {
+   "section": "article",
+   "text": "Let , we get ∂<italic toggle=\"yes\">A</italic><italic toggle=\"yes\"><sub>eλ</sub></italic>/∂<italic toggle=\"yes\">λ</italic> = 4<italic toggle=\"yes\">kαβ</italic>(<italic toggle=\"yes\">a</italic>−<italic toggle=\"yes\">αc</italic>)/[4<italic toggle=\"yes\">kα</italic>(1+<italic toggle=\"yes\">λ</italic>)−<italic toggle=\"yes\">β</italic><sup>2</sup>]<sup>2</sup>&gt;0. <sentence_start/>Similarly, let , we get ∂<italic toggle=\"yes\">A</italic><italic toggle=\"yes\"><sub>πλ</sub></italic>/∂<italic toggle=\"yes\">λ</italic> = 4<italic toggle=\"yes\">k</italic><sup>2</sup><italic toggle=\"yes\">αβ</italic><sup>2</sup>(<italic toggle=\"yes\">a</italic>−<italic toggle=\"yes\">αc</italic>)<sup>2</sup>(1+3<italic toggle=\"yes\">λ</italic>)/[4<italic toggle=\"yes\">kα</italic>(1+<italic toggle=\"yes\">λ</italic>)−<italic toggle=\"yes\">β</italic><sup>2</sup>]<sup>3</sup>&gt;0. <sentence_start/>Thus, as the retailer’s fairness behaviour is intensified, the gap continues to widen. <sentence_start/>This can be explained by two aspects: double marginalization and the effect of fairness behaviour. <sentence_start/>Therefore, establishing a cooperative relationship between the manufacturer and the retailer to mitigate the adverse impact of the retailer’s fairness behaviour and double marginalization will benefit the manufacturer and the total supply chain, as well as environmental sustainability. <sentence_start/>In addition, the retailer can also benefit from cooperative relationship by appropriate distribution of profits."
+  },
+  {
+   "section": "article",
+   "text": "Risk aversion scenario"
+  },
+  {
+   "section": "article",
+   "text": "In this subsection, we investigate the scenario of the supply chain with a retailer exhibiting risk-averse characteristic. <sentence_start/>The retailer is conservative about demand volatility, and aims to maximize its utility. <sentence_start/>Similar to the literature [<citation rid=\"pone.0236354.ref020\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"pone.0236354.ref038\" ref-type=\"bibr\" count=\"1\">38</citation>, <citation rid=\"pone.0236354.ref042\" ref-type=\"bibr\" count=\"1\">42</citation>], the mean-variance function that is applied to characterize the risk aversion behavior and assess the retailer’s utility, is given as where is the variance of the retailer’s profit, <italic toggle=\"yes\">η</italic>(<italic toggle=\"yes\">η</italic>&gt;0) is the risk aversion coefficient of the retailer and represents the risk attitude towards the demand uncertainty. <sentence_start/>The greater the risk aversion coefficient is, the more risk-averse the retailer is. <sentence_start/><italic toggle=\"yes\">η</italic> = 0 corresponds to the risk-neutral scenario. <sentence_start/>Therefore, in the mean-variance theory, the objective of the retailer is to maximize the expected profit minus the product of the risk aversion coefficient and the variance of profit. <sentence_start/>Moreover, the retailer can control its risk via the risk aversion coefficient to adjust the difference between the expected profit and the variance of profit."
+  },
+  {
+   "section": "article",
+   "text": "Thus, when the retailer concerns demand volatility and exhibits risk-averse characteristic, the objective function of the retailer is"
+  },
+  {
+   "section": "article",
+   "text": "Substituting Eq (11) into the above equation, we get"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Proposition 2.</bold> <sentence_start/><italic toggle=\"yes\">In the decentralized supply chain with a risk-averse retailer</italic>, <italic toggle=\"yes\">the optimal energy-saving level and wholesale price of the manufacturer are</italic> and the optimal retail price is"
+  },
+  {
+   "section": "article",
+   "text": "Proposition 2 shows that the expected profit of the manufacturer can be maximized at and , and the retailer’s expected utility can be maximized at . <sentence_start/>Then, conducting the sensitivity and comparison analysis, we obtain the following corollaries."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Corollary 4.</bold> <sentence_start/><italic toggle=\"yes\">In the decentralized supply chain with a risk-averse retailer</italic>, <italic toggle=\"yes\">we have</italic>"
+  },
+  {
+   "section": "article",
+   "text": "(i) , ."
+  },
+  {
+   "section": "article",
+   "text": "(ii) If 0&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;<italic toggle=\"yes\">α</italic>, then ; if <italic toggle=\"yes\">α</italic>&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>≤2<italic toggle=\"yes\">α</italic>, then ."
+  },
+  {
+   "section": "article",
+   "text": "Corollary 4 shows that both the energy-saving level and the wholesale price are always increasing in the risk aversion degree of the retailer, and are more than that under the risk-neutral case. <sentence_start/>This implies that the risk aversion behavior could promote energy-saving investment, and further benefit the sustainability in the supply chain. <sentence_start/>It is noted that the retail price may be increasing or decreasing in the risk aversion degree of the retailer. <sentence_start/>In particular, the retail price is independent on the risk aversion degree when <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic> = <italic toggle=\"yes\">α</italic> holds. <sentence_start/>Let <italic toggle=\"yes\">η</italic> = 0, all the optimal energy-saving level, wholesale price and retail price are consistent with that under the fair-neutral scenario, the analysis verifies that the formulations in characterizing the fairness and risk behaviors of the retailer are effective, and our results are correct."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, in the supply chain with a risk-averse retailer, the optimal expected profits of the manufacturer, retailer, and total supply chain can be given by"
+  },
+  {
+   "section": "article",
+   "text": "The optimal expected utility of the risk-averse retailer is"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Corollary 5.</bold> <sentence_start/><italic toggle=\"yes\">In the decentralized supply chain with a risk-averse retailer</italic>, <italic toggle=\"yes\">we have</italic>"
+  },
+  {
+   "section": "article",
+   "text": "(i) , ."
+  },
+  {
+   "section": "article",
+   "text": "(ii) If 0&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;4<italic toggle=\"yes\">αησ</italic><sup>2</sup>/(<italic toggle=\"yes\">α</italic>+2<italic toggle=\"yes\">ησ</italic><sup>2</sup>), then and ; If 4<italic toggle=\"yes\">αησ</italic><sup>2</sup>/(<italic toggle=\"yes\">α</italic>+2<italic toggle=\"yes\">ησ</italic><sup>2</sup>)&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;4<italic toggle=\"yes\">α</italic>(<italic toggle=\"yes\">α</italic>+<italic toggle=\"yes\">ησ</italic><sup>2</sup>)/(3<italic toggle=\"yes\">α</italic>+2<italic toggle=\"yes\">ησ</italic><sup>2</sup>), then and ; If 4<italic toggle=\"yes\">α</italic>(<italic toggle=\"yes\">α</italic>+<italic toggle=\"yes\">ησ</italic><sup>2</sup>)/(3<italic toggle=\"yes\">α</italic>+2<italic toggle=\"yes\">ησ</italic><sup>2</sup>)&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>≤2<italic toggle=\"yes\">α</italic>, then and ."
+  },
+  {
+   "section": "article",
+   "text": "Corollary 5 shows the impact of the risk aversion behaviour of the retailer on the expected profits of both the parties and the total supply chain, as well as on the utility of the retailer. <sentence_start/>The expected profits of both the manufacturer and total supply chain are more than that under the risk-neutral case. <sentence_start/>The more risk-averse the retailer is, the more the expected profits of both the manufacturer and total supply chain are. <sentence_start/>That is, the risk aversion behaviour of the retailer could benefit the manufacturer and total supply chain. <sentence_start/>It’s worth noting that both the expected profit and utility of the retailer may be increasing or decreasing in the risk aversion degree, and this depends on the relationships among the efficiency of energy-saving investment, the risk aversion coefficient, the consumer’s sensitivity parameter in retail price and standard deviation of demand. <sentence_start/>Let <italic toggle=\"yes\">η</italic> = 0, we get the results of the risk-neutral case, where all the optimal expected profits of the manufacturer, retailer and total supply chain are consistent with that under the fair-neutral scenario."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Corollary 6.</bold> <sentence_start/><italic toggle=\"yes\">Compared with the centralized system</italic>, <italic toggle=\"yes\">we have</italic>"
+  },
+  {
+   "section": "article",
+   "text": "(i) , ."
+  },
+  {
+   "section": "article",
+   "text": "(ii) If 0&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;<italic toggle=\"yes\">α</italic>, then ; if <italic toggle=\"yes\">α</italic>&lt;<italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic>&lt;2<italic toggle=\"yes\">α</italic>, then ."
+  },
+  {
+   "section": "article",
+   "text": "Corollary 6 shows that when the retailer exhibits risk-averse characteristic, both the energy-saving level and total expected profit of the supply chain in the decentralized system are always lower than that in the centralized system. <sentence_start/>Let and , we can get that the difference of energy-saving level between the decentralized system and the centralized system is decreasing in the risk aversion degree of the retailer since ∂<italic toggle=\"yes\">A</italic><italic toggle=\"yes\"><sub>eη</sub></italic>/∂<italic toggle=\"yes\">η</italic> = −4<italic toggle=\"yes\">α</italic><sup>2</sup><italic toggle=\"yes\">βσ</italic><sup>2</sup><italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">a</italic>−<italic toggle=\"yes\">αc</italic>)/[4<italic toggle=\"yes\">αk</italic>(<italic toggle=\"yes\">α</italic>+<italic toggle=\"yes\">ησ</italic><sup>2</sup>)−<italic toggle=\"yes\">β</italic><sup>2</sup>(<italic toggle=\"yes\">α</italic>+2<italic toggle=\"yes\">ησ</italic><sup>2</sup>)]<sup>2</sup>&lt;0. <sentence_start/>Also, the difference of expected profit between the decentralized system and the centralized system is decreasing in the risk aversion degree of the retailer since ∂<italic toggle=\"yes\">A</italic><italic toggle=\"yes\"><sub>πη</sub></italic>/∂<italic toggle=\"yes\">η</italic> = −8<italic toggle=\"yes\">α</italic><sup>4</sup><italic toggle=\"yes\">σ</italic><sup>2</sup><italic toggle=\"yes\">k</italic><sup>3</sup>(<italic toggle=\"yes\">a</italic>−<italic toggle=\"yes\">αc</italic>)<sup>2</sup>/[4<italic toggle=\"yes\">αk</italic>(<italic toggle=\"yes\">α</italic>+<italic toggle=\"yes\">ησ</italic><sup>2</sup>)−<italic toggle=\"yes\">β</italic><sup>2</sup>(<italic toggle=\"yes\">α</italic>+2<italic toggle=\"yes\">ησ</italic><sup>2</sup>)]<sup>3</sup>&lt;0. <sentence_start/>In addition, the retail price in the decentralized system may be less or more than that in the centralized system. <sentence_start/>It depends on the relationships between the efficiency of energy-saving investment and the consumer’s sensitivity parameter in retail price. <sentence_start/>Corollary 6 reveals that the retailer can control its risk attitude to improve the profits of both the two channel members in the decentralized supply chain. <sentence_start/>Nevertheless, it is more beneficial to obtain the system-wide optimal expected profit of the supply chain by establishing a cooperative relationship between the manufacturer and the retailer, which is equal to that in the centralized system."
+  },
+  {
+   "section": "article",
+   "text": "Revenue-cost-sharing contract coordination model"
+  },
+  {
+   "section": "article",
+   "text": "In the previous section, it is verified that whatever behavioral concerns the retailer involves, both the environmental and commercial performances of the supply chain in the decentralized system are lower than that in the centralized system. <sentence_start/>In this section, we propose a revenue-cost-sharing contract to develop supply chain coordination models, which is widely used in conventional supply chains [<citation rid=\"pone.0236354.ref047\" ref-type=\"bibr\" count=\"1\">47</citation>]. <sentence_start/>The revenue-cost-sharing contract is characterized by three parameters, namely wholesale price <italic toggle=\"yes\">w</italic>, revenue-sharing coefficient <italic toggle=\"yes\">φ</italic> and cost-sharing coefficient <italic toggle=\"yes\">θ</italic>. <sentence_start/>Under which the retailer earns <italic toggle=\"yes\">φ</italic> portion of the revenue of per unit product and the other (1−<italic toggle=\"yes\">φ</italic>) portion of per unit revenue belongs to the manufacturer. <sentence_start/>Meanwhile, the retailer agrees to bear a fraction <italic toggle=\"yes\">θ</italic> of energy-saving investment cost as well. <sentence_start/>Next, we still analyze the optimal strategy for each member with a Stackelberg game in which the manufacturer acts as the leader and the retailer is the follower."
+  },
+  {
+   "section": "article",
+   "text": "Under the revenue-cost-sharing contract, the profit functions of the manufacturer and the retailer are given by"
+  },
+  {
+   "section": "article",
+   "text": "When the retailer involves fairness concern, given any fixed , the expected utility of the retailer is"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Proposition 3.</bold> <sentence_start/><italic toggle=\"yes\">When the retailer involves fairness concern</italic>, <italic toggle=\"yes\">under the revenue-cost-sharing contract</italic>, <italic toggle=\"yes\">the optimal energy-saving level is</italic> and the optimal retail price is"
+  },
+  {
+   "section": "article",
+   "text": "Proposition 3 shows that both the optimal energy-saving level and retail price depend on the parameters of the revenue-cost-sharing contract. <sentence_start/>Thus, setting appropriate contract parameters as in Proposition 3 would induce the manufacturer to set the energy-saving level of the decentralized decision as that of the centralized one. <sentence_start/>Similarly, it can also induce the retailer to set the retail price of the decentralized decision as that of the centralized one. <sentence_start/>Let and , we get <italic toggle=\"yes\">φ</italic> = <italic toggle=\"yes\">θ</italic> = <italic toggle=\"yes\">w</italic>/<italic toggle=\"yes\">c</italic>. <sentence_start/>That is, when <italic toggle=\"yes\">φ</italic> = <italic toggle=\"yes\">θ</italic> = <italic toggle=\"yes\">w</italic>/<italic toggle=\"yes\">c</italic>, the supply chain is coordinated and the system-wide optimal environmental and commercial performances are achieved under the revenue-cost-sharing contract. <sentence_start/>In this case, the optimal expected profits of the manufacturer and retailer can be characterized respectively as"
+  },
+  {
+   "section": "article",
+   "text": "This indicates that the system-wide optimal expected profit of the supply chain can be allocated arbitrarily between the manufacturer and the retailer by the revenue-cost-sharing contract. <sentence_start/>The manufacturer and the retailer just need to jointly confirm an appropriate wholesale price to obtain a win-win outcome. <sentence_start/>In this case, the revenue-cost-sharing contract is applicable in practice."
+  },
+  {
+   "section": "article",
+   "text": "Further, when the retailer concerns demand volatility and exhibits risk-averse characteristic, given any fixed , the objective function of the retailer is"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Proposition 4.</bold> <sentence_start/><italic toggle=\"yes\">When the retailer exhibits risk-averse characteristic</italic>, <italic toggle=\"yes\">under the revenue- cost-sharing contract</italic>, <italic toggle=\"yes\">the optimal energy-saving level is</italic> and the optimal retail price is"
+  },
+  {
+   "section": "article",
+   "text": "Proposition 4 characterizes the optimal equilibriums of supply chain members when the retailer involves risk aversion. <sentence_start/>Following similar analysis, let and , which generates the coordination condition of the supply chain with a risk-averse retailer."
+  },
+  {
+   "section": "article",
+   "text": "Numerical analysis"
+  },
+  {
+   "section": "article",
+   "text": "In this section, we use several numerical experiments to verify the theoretical analysis obtained in the previous sections, and mainly illustrate how the behavioral concerns affect the energy-saving and pricing decisions as well as corresponding expected profits. <sentence_start/>The specific values for the basic parameters are as follows: <italic toggle=\"yes\">a</italic> = 100, <italic toggle=\"yes\">c</italic> = 10, <italic toggle=\"yes\">α</italic> = 1, <italic toggle=\"yes\">σ</italic> = 2. <sentence_start/>In order to better examine our theoretical results, we set two types of energy-saving investment efficiency: the low efficiency is <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic> = 0.8 (<italic toggle=\"yes\">β</italic> = 2,<italic toggle=\"yes\">k</italic> = 5), and the high efficiency is <italic toggle=\"yes\">β</italic><sup>2</sup>/<italic toggle=\"yes\">k</italic> = 1.25 (<italic toggle=\"yes\">β</italic> = 2.5,<italic toggle=\"yes\">k</italic> = 5)."
+  },
+  {
+   "section": "article",
+   "text": "First of all, we examine the optimal energy-saving level, retail price and total expected profit of the supply chain without behavioral concerns. <sentence_start/>Table 2 shows that, no matter the efficiency of energy-saving investment is low or high, both the optimal energy-saving level and total expected profit of the supply chain in the decentralized system are always lower than that in centralized system. <sentence_start/>However, the optimal retail price in the decentralized system may be lower or more than that in the centralized system. <sentence_start/>When the efficiency of energy-saving investment is low, the optimal retail price in the decentralized system is more than that in the centralized system, while the optimal retail price in the decentralized system is less than that in the centralized system when the efficiency of energy-saving investment is high. <sentence_start/>It’s worth noting that, when the efficiency of energy-saving investment increases, both the optimal energy-saving level and total expected profit of the supply chain in the decentralized system are not increasing as fast as that in centralized system, which generates that the difference in energy-saving level and total expected profit between the decentralized system and the centralized system increases. <sentence_start/>This implies that it is even more necessary to develop a cooperative relationship between the manufacturer and the retailer so as to achieve higher environmental and economic performances when the efficiency of energy-saving investment increases."
+  },
+  {
+   "section": "article",
+   "text": "In what follows, we visually illustrate the impact of the fairness behavior on the optimal decisions and corresponding expected profits in the decentralized system. <sentence_start/>As we can see from Figs 1 and 2, no matter the efficiency of energy-saving investment is low or high, all the optimal energy-saving level, wholesale price and retail price are decreasing in the fairness concern coefficient, and are lower than that in the fairness-neutral case. <sentence_start/>Also, we see that the retailer’s fairness behavior always reduces the manufacturer’s profit. <sentence_start/>Simultaneously, compared with the retailer, the manufacturer is more sensitive to the fairness concern coefficient in term of profits, and thereby the profit of the total supply chain is always negatively correlated with the retailer’s fairness concern coefficient. <sentence_start/>This implies that the retailer’s fairness behavior causes a negative effect on the manufacturer, total supply chain, and energy conservation. <sentence_start/>Therefore, when the retailer’s fairness concern is at a high level, developing a cooperative relationship between the manufacturer and the retailer is more beneficial for the manufacturer and supply chain system in terms of the energy-saving level per unit product and profits."
+  },
+  {
+   "section": "article",
+   "text": "Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "Effect of <italic toggle=\"yes\">λ</italic> on the optimal decisions and corresponding expected profits (low efficiency)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 2"
+  },
+  {
+   "section": "article",
+   "text": "Effect of <italic toggle=\"yes\">λ</italic> on the optimal decisions and corresponding expected profits (high efficiency)."
+  },
+  {
+   "section": "article",
+   "text": "From Fig 1, we can see that when the efficiency of energy-saving investment is low, the retailer can always earn more in profits no matter what level the retailer’s fairness concern is at. <sentence_start/>However, we see from Fig 2 that when the efficiency of energy-saving investment is high, the retailer must keep moderate fairness concern level to earn more in profits. <sentence_start/>When the efficiency of energy-saving investment is high, as the fairness behavior is intensified, although the retailer’s share of the channel’s profit increases, the retailer also suffers a lot of loss under such circumstances. <sentence_start/>This implies that it is very necessary for the retailer to take the efficiency of energy-saving investment into consideration to keep reasonable level of fairness concern, because the retailer’s fairness behavior would also reduce its profit when the efficiency of energy-saving investment is high. <sentence_start/>All the results are consistent with the theoretical analyses in Subsection 3.1."
+  },
+  {
+   "section": "article",
+   "text": "Lastly, we depict the impact of the risk aversion behavior on the optimal decisions and corresponding expected profits in the decentralized system. <sentence_start/>We see from Figs 3 and 4 that no matter the efficiency of energy-saving investment is low or high, both the energy-saving level and wholesale price are increasing in the risk aversion coefficient, and are higher than that in the risk-neutral case. <sentence_start/>It is interesting that when the efficiency of energy-saving investment is low, the retail price is decreasing in the risk aversion coefficient, whereas the retail price is increasing in the risk aversion coefficient when the efficiency of energy-saving investment is high. <sentence_start/>That is because when the efficiency of energy-saving investment is low, the retailer has to lower retail price to increase market demand and to reduce risk of overstock. <sentence_start/>When the efficiency of energy-saving investment is high, the manufacturer can invest more in energy-saving to attract more customers and to earn more profits. <sentence_start/>The energy-saving investment is costly, so the manufacturer will raise the wholesale price, and the retailer accordingly charges more per unit product from customer."
+  },
+  {
+   "section": "article",
+   "text": "Fig 3"
+  },
+  {
+   "section": "article",
+   "text": "Effect of <italic toggle=\"yes\">η</italic> on the optimal decisions and corresponding expected profits (low efficiency)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 4"
+  },
+  {
+   "section": "article",
+   "text": "Effect of <italic toggle=\"yes\">η</italic> on the optimal decisions and corresponding expected profits (high efficiency)."
+  },
+  {
+   "section": "article",
+   "text": "We also see that no matter the efficiency of energy-saving investment is low or high, the retailer’s risk aversion behavior can always benefit the manufacturer and total supply chain in term of profits, and the retailer can earn more profits when and only when the risk aversion is at a low level. <sentence_start/>It should be noted that although the risk aversion behavior can lead to greater energy-saving level and profits, as we have proved previously, it is still necessary to developing a cooperative relationship between the manufacturer and the retailer so as to improve energy-saving level and earn more profits."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "As is well-known, environmental pollution and energy shortages have become increasingly prominent. <sentence_start/>Meanwhile, there is no doubt that managers in today’s many industries may have different behavioral concerns when they make decisions, which significantly affect the economic and environmental performances of supply chains. <sentence_start/>In this paper, we consider a two-stage supply chain consisting of a socially responsible manufacturer and a retailer involving behavioral concerns in a single period, where the manufacturer produces energy-saving products and sells them to the retailer, and then the retailer resells energy-saving products to end consumers in the selling season. <sentence_start/>We first use the centralized system to establish a performance benchmark, and obtain the optimal energy-saving level, retail price and corresponding profit. <sentence_start/>Then, we explore the optimal strategies for the two channel members in the decentralized system, and formulate the problem as a Stackelberg game in which the manufacturer acts as the leader and the retailer is the follower. <sentence_start/>We deduce the optimal equilibriums under different scenarios via backward induction. <sentence_start/>Through conducting the sensitivity and comparison analysis, we discuss the effect of the behavioral concerns on the optimal equilibriums and corresponding profits in detail. <sentence_start/>In order to improve the economic and environmental performances of the supply chain, a revenue-cost-sharing contract is proposed to coordinate the supply chain, under which the manufacturer and the retailer share profits and cost of the energy-saving investment with each other, thereby a win-win outcome is achieved and the energy-saving level is improved."
+  },
+  {
+   "section": "article",
+   "text": "Several managerial implications can be derived through our analytical and numerical results. <sentence_start/>First, supply chain managers should pay more attention to the behavioral concerns as far as possible, since they not only generally exist at individual level or organizational level but also significantly affect the economic and environmental performances of supply chains. <sentence_start/>The optimal energy-saving levels and corresponding profits under behavioral concerns differ from that in the perfectly rational scenario. <sentence_start/>Second, the efficiency of energy-saving investment plays a very critical role in energy-saving and pricing decisions. <sentence_start/>The change of the optimal equilibriums with respect to the coefficients of behavioral concerns depends on the efficiency of energy-saving investment. <sentence_start/>For example, when the efficiency of energy-saving investment is low, the retailer can always earn more in profits no matter what level the fairness concern is at. <sentence_start/>However, the retailer may suffer when the efficiency of energy-saving investment is high. <sentence_start/>Last but not the least, no matter what behavioral concerns the retailer involves, the optimal energy-saving level and corresponding profits in the decentralized system are lower than that in the centralized system, thus it is always necessary to develop a cooperative relationship between the manufacturer and the retailer so as to achieve higher environmental and economic performances."
+  },
+  {
+   "section": "article",
+   "text": "Future research could expand this study from several aspects. <sentence_start/>First, shipping is a sustainable transportation mode in terms of both energy saving and pollution prevention, following the existing literature [<citation rid=\"pone.0236354.ref047\" ref-type=\"bibr\" count=\"1\">47</citation>-<citation rid=\"pone.0236354.ref050\" ref-type=\"bibr\" count=\"1\">50</citation>], the problem in ship development with energy saving may be a potentially meaningful research direction. <sentence_start/>Second, this paper respectively considers the fairness concern and risk aversion, we in the future may formulate supply chain models considering the fairness concern and risk aversion simultaneously. <sentence_start/>Third, this paper only considers a two-stage supply chain consisting of a manufacturer and a retailer in a single period, thereby it would be an important extension of our models to consider multiple manufacturers/retailers or more complex supply chains. <sentence_start/>Last, we know that the energy-saving investment is costly, thus it is meaningful to consider the case where the manufacturer is constrained by capital."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "S1 Table"
+  },
+  {
+   "section": "article",
+   "text": "Notation used in the model formulation."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "S1 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Numerical analysis code."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "S2 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Numerical analysis code."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "S3 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Numerical analysis code."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "S4 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Numerical analysis code."
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  },
+  {
+   "section": "article",
+   "text": "S1 Appendix"
+  },
+  {
+   "section": "article",
+   "text": "(DOCX)"
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "pmid": 27819340,
+ "pmcid": 5098218,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Functional screening of mammalian mechanosensitive genes using <italic toggle=\"yes\">Drosophila</italic> RNAi library- <italic toggle=\"yes\">Smarcd3/Bap60</italic> is a mechanosensitive pro-inflammatory gene"
+  },
+  {
+   "section": "abstract",
+   "text": "Disturbed blood flow <italic toggle=\"yes\">(d-flow)</italic> induces atherosclerosis by altering the expression of mechanosensitive genes in the arterial endothelium. <sentence_start/>Previously, we identified &gt;580 mechanosensitive genes in the mouse arterial endothelium, but their role in endothelial inflammation is incompletely understood. <sentence_start/>From this set, we obtained 84 <italic toggle=\"yes\">Drosophila</italic> RNAi lines that silences the target gene under the control of upstream activation sequence (UAS) promoter. <sentence_start/>These lines were crossed with C564-GAL4 flies expressing GFP under the control of <italic toggle=\"yes\">drosomycin</italic> promoter, an NF-κB target gene and a marker of pathogen-induced inflammation. <sentence_start/>Silencing of <italic toggle=\"yes\">psmd12</italic> or <italic toggle=\"yes\">ERN1</italic> decreased infection-induced <italic toggle=\"yes\">drosomycin</italic> expression, while <italic toggle=\"yes\">Bap60</italic> silencing significantly increased the <italic toggle=\"yes\">drosomycin</italic> expression. <sentence_start/>Interestingly, knockdown of Bap60 in adult flies using temperature-inducible Bap60 RNAi (<italic toggle=\"yes\">C564</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4-Bap60-RNAi</italic>) enhanced <italic toggle=\"yes\">drosomycin</italic> expression upon Gram-positive bacterial challenge but the basal <italic toggle=\"yes\">drosomycin</italic> expression remained unchanged compared to the control. <sentence_start/>In the mammalian system, smarcd3 (mammalian ortholog of Bap60) expression was reduced in the human- and mouse aortic endothelial cells exposed to oscillatory shear <italic toggle=\"yes\">in vitro as well as in the d-flow</italic> regions of mouse arterial endothelium <italic toggle=\"yes\">in vivo.</italic> <sentence_start/>Moreover, siRNA-mediated knockdown of smarcd3 induced endothelial inflammation. <sentence_start/>In summary, we developed an <italic toggle=\"yes\">in vivo Drosophila</italic> RNAi screening method to identify flow-sensitive genes that regulate endothelial inflammation."
+  },
+  {
+   "section": "article",
+   "text": "Vascular endothelial cells respond to blood flow through mechanosensors, which transduce the mechanical force associated with flow (known as shear stress) into cell signaling events and ultimately to changes in gene expression<citation ref-type=\"bibr\" rid=\"b1\" doi=\"10.1152/physrev.00047.2009\" pmid=\"21248169\" pmcid=\"PMC3844671\" count=\"1\">1</citation><citation ref-type=\"bibr\" rid=\"b2\" doi=\"10.1038/ncpcardio1397\" pmcid=\"PMC2851404\" pmid=\"19029993\" count=\"1\">2</citation><citation ref-type=\"bibr\" rid=\"b3\" doi=\"10.1038/nature03952\" pmid=\"16163360\" count=\"1\">3</citation>. <sentence_start/>Disturbed blood flow <italic toggle=\"yes\">(d-flow)</italic>, which occurs in branched and curved arteries, is characterized by complex flow patterns with low magnitude and oscillatory shear stress (OS), whereas stable flow (<italic toggle=\"yes\">s-flow</italic>) is characterized by high magnitude, unidirectional laminar shear stress (LS) due to blood flow in the straight sections of the vasculature. <sentence_start/><italic toggle=\"yes\">D-flow</italic> and <italic toggle=\"yes\">s-flow</italic> promote and suppress endothelial inflammation and atherosclerosis, respectively<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1146/annurev-fluid-010313-141309\" pmcid=\"PMC4211638\" pmid=\"25360054\" count=\"1\">4</citation><citation ref-type=\"bibr\" rid=\"b5\" pmid=\"14983035\" doi=\"10.1073/pnas.0305938101\" pmcid=\"PMC356976\" count=\"1\">5</citation><citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b7\" doi=\"10.1073/pnas.0406073101\" pmid=\"15466704\" pmcid=\"PMC522013\" count=\"1\">7</citation>. <sentence_start/>The molecular mechanisms underlying the pro-inflammatory effects of <italic toggle=\"yes\">d-flow</italic> on the endothelium are likely to be regulated by flow-sensitive genes, but the specific mechanisms are still unclear<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b8\" doi=\"10.1038/ncomms4000\" pmcid=\"PMC3923891\" pmid=\"24346612\" count=\"1\">8</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Previously, we carried out a transcriptomic study to determine which genes were regulated by blood flow using a partial carotid ligation model of atherosclerosis<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation>. <sentence_start/>From this study, we identified more than 580 mechanosensitive genes that changed in response to <italic toggle=\"yes\">d-flow</italic> as compared to <italic toggle=\"yes\">s-flow</italic>. <sentence_start/>However, it remains unclear which of these mechanosensitive genes regulate endothelial inflammation, a key proatherogenic response."
+  },
+  {
+   "section": "article",
+   "text": "In <italic toggle=\"yes\">Drosophila</italic>, genetic analyses reveal that there are two independent NF-κB signaling pathways, Toll-mediated and immune deficiency (IMD)-mediated pathways<citation ref-type=\"bibr\" rid=\"b9\" pmid=\"8808632\" doi=\"10.1016/s0092-8674(00)80172-5\" count=\"1\">9</citation><citation ref-type=\"bibr\" rid=\"b10\" pmid=\"7568155\" doi=\"10.1073/pnas.92.21.9465\" pmcid=\"PMC40822\" count=\"1\">10</citation>. <sentence_start/>Toll pathway is activated by Gram-positive bacteria or fungi leading to the activation of Dif, a p65-like NF-κB, whereas IMD-pathway is activated by Gram-negative bacteria leading to the activation of Relish, a p105-like NF-κB<citation ref-type=\"bibr\" rid=\"b11\" doi=\"10.1146/annurev.immunol.25.022106.141615\" pmid=\"17201680\" count=\"1\">11</citation>. <sentence_start/>NF-κB-dependent antimicrobial peptide (AMP) gene expression such as Dif-dependent <italic toggle=\"yes\">drosomycin</italic> and Relish-dependent <italic toggle=\"yes\">diptericin</italic> is shown to be required for efficient antimicrobial responses<citation ref-type=\"bibr\" rid=\"b12\" doi=\"10.1016/j.devcel.2005.11.013\" pmid=\"16399077\" count=\"1\">12</citation>."
+  },
+  {
+   "section": "article",
+   "text": "To functionally screen candidate mechanosensitive genes that may regulate endothelial inflammation, we have developed an <italic toggle=\"yes\">in vivo</italic> Toll-mediated NF-κB activation screening assay using <italic toggle=\"yes\">Drosophila</italic> carrying a fluorescent NF-κB target gene reporter [<italic toggle=\"yes\">drosomycin</italic> promoter fused to Green Fluorescent Protein (GFP)] along with RNAi targeting the respective mechanosensitive gene under the control of the <italic toggle=\"yes\">UAS-GAL4</italic> promoter<citation ref-type=\"bibr\" rid=\"b13\" doi=\"10.1101/pdb.prot080341\" pmid=\"25183817\" count=\"1\">13</citation><citation ref-type=\"bibr\" rid=\"b14\" doi=\"10.1002/gene.10150\" pmid=\"12324939\" count=\"1\">14</citation><citation ref-type=\"bibr\" rid=\"b15\" doi=\"10.1038/nature05954\" pmid=\"17625558\" count=\"1\">15</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Using this <italic toggle=\"yes\">in vivo</italic> functional screening method, we screened 84 RNAi fly lines and identified novel, flow-sensitive, pro-inflammatory genes including <italic toggle=\"yes\">smarcd3</italic> (mammalian ortholog of <italic toggle=\"yes\">Bap60</italic>) that regulates Toll-mediated NF-κB activation."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Animal Study Design"
+  },
+  {
+   "section": "article",
+   "text": "Animals were maintained and cared for in accordance to the National Institutes of Health (NIH) guidelines in our AAALAC-accredited experimental animal facility under a controlled environment (21° ± 2 °C, 50% ± 10% relative humidity and a 12-h light:12-h dark cycle with lights on at 0700 h EST). <sentence_start/>The Institutional Animal Care and Use Committee (IACUC) at Emory University approved the project protocols and procedures performed in accordance with the established guidelines and regulations consistent with federal assurance. <sentence_start/>Male C57BL/6 and <italic toggle=\"yes\">ApoE</italic><bold><italic toggle=\"yes\"><sup>−/−</sup></italic></bold> mice (Jackson Laboratory) were fed <italic toggle=\"yes\">ad libitum</italic> with standard chow diet until surgery at 8-9 weeks of age. <sentence_start/>Mice were anaesthetized with 3.5% isoflurane initially and then 1.5-2% during the entire procedure and underwent partial ligation as we previously described<citation ref-type=\"bibr\" rid=\"b16\" pmid=\"19684185\" doi=\"10.1152/ajpheart.00510.2009\" pmcid=\"PMC2770764\" count=\"1\">16</citation>. <sentence_start/>Following surgery, analgesic buprenorphine (0.1 mg kg<sup>−1</sup>) was administered. <sentence_start/>Following the partial carotid ligation, <italic toggle=\"yes\">d-flow</italic> in LCA was confirmed by Doppler ultrasonography (Vevo1100, Visualsonics)<citation ref-type=\"bibr\" rid=\"b16\" pmid=\"19684185\" doi=\"10.1152/ajpheart.00510.2009\" pmcid=\"PMC2770764\" count=\"1\">16</citation><citation ref-type=\"bibr\" rid=\"b17\" doi=\"10.3791/1861\" pmcid=\"PMC3153900\" pmid=\"20613706\" count=\"1\">17</citation>. <sentence_start/>The detailed method for endothelial-enriched RNA extraction, and microarray processing and analyses have been previously described in detail in our previous publications<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b8\" doi=\"10.1038/ncomms4000\" pmcid=\"PMC3923891\" pmid=\"24346612\" count=\"1\">8</citation><citation ref-type=\"bibr\" rid=\"b18\" doi=\"10.1038/sdata.2014.39\" pmid=\"25977794\" pmcid=\"PMC4411008\" count=\"1\">18</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Generation of <italic toggle=\"yes\">Drosophila</italic> lines carrying RNAi and GFP-NF-κB reporter"
+  },
+  {
+   "section": "article",
+   "text": "We first determined which of the 588 flow-sensitive murine genes previously identified<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation> have corresponding fly orthologs by comparing amino acid homology between murine and <italic toggle=\"yes\">Drosophila</italic> genes ( )<citation ref-type=\"bibr\" rid=\"b19\" doi=\"10.1093/nar/gkv1046\" pmid=\"26467478\" pmcid=\"PMC4702782\" count=\"1\">19</citation>. <sentence_start/>Through this manual comparison, we identified 99 <italic toggle=\"yes\">Drosophila</italic> genes having significant sequence homology to corresponding murine genes. <sentence_start/>Of these, we obtained 84 <italic toggle=\"yes\">Drosophila</italic> RNAi lines expressing corresponding hairpin RNA (Supplementary Table 1). <sentence_start/>These double-stranded RNAs are processed by Dicer into siRNAs which direct sequence-specific degradation of the target mRNA (UAS-RNAi flies) from Vienna <italic toggle=\"yes\">Drosophila</italic> Resource Center (VDRC)."
+  },
+  {
+   "section": "article",
+   "text": "To develop fly lines that can report onset of inflammation by NF-κB activation as a surrogate marker, we used <italic toggle=\"yes\">C564-GAL4</italic> flies carrying <italic toggle=\"yes\">drosomycin-GFP</italic> (GFP under control of <italic toggle=\"yes\">drosomycin</italic> promoter) reporter. <sentence_start/><italic toggle=\"yes\">Drosomycin</italic> is a well-known NF-κB target gene in flies. <sentence_start/>This allowed us to test the effect of individual RNAi on the Toll-mediated NF-κB activation in the absence or presence of bacterial challenge. <sentence_start/>To this end, we mated male UAS-RNAi lines to female <italic toggle=\"yes\">C564-GAL4</italic> flies expressing <italic toggle=\"yes\">drosomycin-GFP</italic>. <sentence_start/>All fly lines were maintained at 25 °C with standard fly medium<citation ref-type=\"bibr\" rid=\"b20\" doi=\"10.1016/j.cub.2006.03.020\" pmid=\"16631589\" count=\"1\">20</citation>."
+  },
+  {
+   "section": "article",
+   "text": "For validation studies, conditional expression of UAS-RNAi was achieved using temperature-sensitive allele of GAL80 under the control of tubulin promoter (<italic toggle=\"yes\">tub-GAL80</italic><italic toggle=\"yes\"><sup>ts</sup></italic>). <sentence_start/>In these <italic toggle=\"yes\">C564-GAL4-Tub-GAL80</italic><italic toggle=\"yes\"><sup>ts</sup></italic> <italic toggle=\"yes\">(C564ts-GAL4)</italic> flies, GAL80ts (inhibitor of GAL4 activity) is active at 18 °C and thus capable of inhibiting GAL4 activity<citation ref-type=\"bibr\" rid=\"b21\" doi=\"10.1126/science.1089035\" pmid=\"14657498\" count=\"1\">21</citation>. <sentence_start/>At 29 °C, the GAL80ts becomes inactive allowing RNAi expression. <sentence_start/>Flies were grown at 18 °C during development and adult flies were shifted to 29 °C for 5 days for the expression of UAS-RNAi before infection experiment."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">In vivo</italic> GFP screening by fluorescence stereo microscopy"
+  },
+  {
+   "section": "article",
+   "text": "GFP expression in the flies was examined under basal and bacterial infected conditions by fluorescence stereo microscopy. <sentence_start/>A total of three or more independent cohorts of ~10 adult flies each were examined before and 24 h post-bacterial infection. <sentence_start/>A representative GFP fluorescence screening set was blindly scored on a scale of 0 (least) to 5 (brightest) by 4 observers for semi-quantitation of fluorescence intensity."
+  },
+  {
+   "section": "article",
+   "text": "Infection Experiments"
+  },
+  {
+   "section": "article",
+   "text": "Bacterial infection was performed by pricking adult flies in the thorax with a thin needle previously dipped in a concentrated pellet of a Gram-positive bacteria (<italic toggle=\"yes\">Micrococcus luteus</italic>) culture (OD = 200) or Gram-negative bacteria (<italic toggle=\"yes\">Erwinia carotovora 15</italic>) as previously described<citation ref-type=\"bibr\" rid=\"b20\" doi=\"10.1016/j.cub.2006.03.020\" pmid=\"16631589\" count=\"1\">20</citation>. <sentence_start/>Each experiment was performed with approximately 10 flies for each genotype, and the results shown are representative of at least three independent tests. <sentence_start/>The lethal RNAi lines are shown in Supplementary Table 1 and were not pursued further."
+  },
+  {
+   "section": "article",
+   "text": "Cell culture and <italic toggle=\"yes\">in vitro</italic> shear stress system"
+  },
+  {
+   "section": "article",
+   "text": "Human umbilical vein endothelial cells (HUVECs), human aortic endothelial cells (HAECs) and immortalized mouse aortic endothelial cells (iMAECs) were maintained in their respective culture medium as we previously described<citation ref-type=\"bibr\" rid=\"b22\" doi=\"10.1186/2045-824x-6-7\" pmid=\"24690145\" pmcid=\"PMC4230636\" count=\"1\">22</citation><citation ref-type=\"bibr\" rid=\"b23\" doi=\"10.1152/ajpheart.00117.2011\" pmid=\"21705672\" pmcid=\"PMC3191100\" count=\"1\">23</citation><citation ref-type=\"bibr\" rid=\"b24\" doi=\"10.1161/atvbaha.107.150920\" pmcid=\"PMC2699463\" pmid=\"17673702\" count=\"1\">24</citation><citation ref-type=\"bibr\" rid=\"b25\" doi=\"10.1007/978-1-61737-964-2_7\" pmcid=\"PMC5479482\" pmid=\"21161631\" count=\"1\">25</citation>. <sentence_start/>Shear stress was applied to the cells in 10-cm culture plates for 24 hours using a cone-and-plate viscometer that exerts 15 dyn/cm<sup>2</sup> of unidirectional flow (laminar shear or LS) and ±5 <sentence_start/>dyn/cm<sup>2</sup> of oscillatory shear stress (OS), respectively, as we previously described<citation ref-type=\"bibr\" rid=\"b26\" doi=\"10.1152/ajpheart.00829.2010\" pmid=\"21378144\" pmcid=\"PMC3094086\" count=\"1\">26</citation><citation ref-type=\"bibr\" rid=\"b27\" doi=\"10.1089/ars.2010.3365\" pmid=\"20712399\" pmcid=\"PMC3144429\" count=\"1\">27</citation>. <sentence_start/>The cell culture plates were secured in place at the bottom by a vacuum pump, and the incubator was maintained at 5% CO2 and 37 °C. <sentence_start/>Cells with no shear stress (Static) were used as controls. <sentence_start/>Total RNA was collected by scraping the cells in QIAzol buffer (Qiagen)."
+  },
+  {
+   "section": "article",
+   "text": "Quantitative real-time PCR (qPCR) assays"
+  },
+  {
+   "section": "article",
+   "text": "qPCR was performed to validate the functional screening results in <italic toggle=\"yes\">Drosophila</italic>. <sentence_start/>The transcript level of <italic toggle=\"yes\">drosomycin</italic> was measured in the RNA extracted from RNAi flies in either basal, 6hr or 24hr post-bacterial infection. <sentence_start/>qPCR assays were also performed using total RNAs obtained from the mouse carotid arterial endothelium and from endothelial cells exposed to shear stress <italic toggle=\"yes\">in vitro</italic>. <sentence_start/>The primers used for qPCR analyses are listed in Supplementary Tables 2 and 3."
+  },
+  {
+   "section": "article",
+   "text": "Immunofluorescence staining"
+  },
+  {
+   "section": "article",
+   "text": "For <italic toggle=\"yes\">en face</italic> confocal microscopy imaging, the right (RCA) and left carotid arteries (LCA) obtained at 48 hours post-ligation from C57Bl6 mice subjected to partial carotid ligation were used. <sentence_start/>The carotids were opened longitudinally and fixed on black wax with the endothelial layer facing upwards. <sentence_start/>The tissues were permeabilized with 0.25% (v/v) Triton X-100 in PBS, washed, blocked for 1.5 h in 10% (v/v) goat serum, and incubated with Rabbit polyclonal anti-smarcd3 antibody (Abcam; ab115917, dilution 1:100) in blocking solution (overnight, 4 °C). <sentence_start/>After additional washing, the tissues were incubated with DyLight 550-conjugated donkey anti-Rabbit secondary antibody (Abcam; dilution 1:250) in PBS for 2 h at room temperature, and with 4′,6-diamidino-2-phenylindole (DAPI) (Sigma-Aldrich) in PBS for 20 min. <sentence_start/>Fluorescence was imaged using a confocal microscope (Carl Zeiss; LSM 510 Meta instrument). <sentence_start/>Negative control tissues were stained with appropriate IgG isotype control antibodies (Santa Cruz Biotechnology). <sentence_start/>Nuclei were stained with DAPI."
+  },
+  {
+   "section": "article",
+   "text": "Monocyte adhesion assay"
+  },
+  {
+   "section": "article",
+   "text": "Human peripheral blood mononuclear leukocytes (THP-1 cells) were cultured in serum-containing RPMI medium (MT10040CM; Fisher) and were labeled in serum-free RPMI with 5 μl/ml 2′7′-bis-(2-carboxyethyl)-5-(and-6)-carboxyfluorescein (BCECF-AM, B-1170; Molecular Probes) at 37 °C for 30 minutes. <sentence_start/>HUVECs were transfected with either 150 nM <italic toggle=\"yes\">smarcd3-</italic>siRNA (Dharmacon RNAi ON-TARGET plus SMART pool) or control siRNA for 24 hours. <sentence_start/>As a positive control, HUVECs were activated with 3 ng/ml TNFα in serum-free RPMI for 3 hours to induce monocyte adhesion. <sentence_start/>5 × 10<sup>5</sup> THP-1 cells per milliliter (in a total of 6 ml) were incubated with the HUVECs for 30 minutes at 37 °C. <sentence_start/>Nonadherent monocytes were washed away with HBSS (Corning), and the bound monocytes were fixed with 4% paraformaldehyde for 5 minutes. <sentence_start/>Bound monocytes were imaged in 8-10 fields per plate using fluorescent and bright-field microscopy, and quantification was done by ImageJ software (NIH)<citation ref-type=\"bibr\" rid=\"b28\" pmid=\"22930834\" doi=\"10.1038/nmeth.2089\" pmcid=\"PMC5554542\" count=\"1\">28</citation>."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Ex vivo</italic> Aorta tissue culture and siRNA transfection"
+  },
+  {
+   "section": "article",
+   "text": "After sacrificing C57BL/6 mice, isolated aortas were longitudinally halved, opened <italic toggle=\"yes\">en-face</italic> and cultured in a 48-well plate with 150 μl per well of complete medium viz. <sentence_start/>Dulbecco’s Modified Eagle’s Medium (DMEM, GIBCO, NY) containing 10% (<italic toggle=\"yes\">v/v</italic>) fetal bovine serum, penicillin/streptomycin, and L-glutamine<citation ref-type=\"bibr\" rid=\"b29\" doi=\"10.1016/j.redox.2014.08.008\" pmcid=\"PMC4215468\" pmid=\"25460736\" count=\"1\">29</citation>. <sentence_start/>Transient transfections were performed using siRNA for 100 nM <italic toggle=\"yes\">smarcd3</italic> (5′- GAGUACAUCAAUGGCGACAAGUAU-3′) or control for 48 h using Lipofectamine RNAiMAX (Invitrogen), following manufacturer’s protocol as described previously<citation ref-type=\"bibr\" rid=\"b8\" doi=\"10.1038/ncomms4000\" pmcid=\"PMC3923891\" pmid=\"24346612\" count=\"1\">8</citation>. <sentence_start/>Post transfection, the <italic toggle=\"yes\">en face</italic> immunostaining was performed for studying the expression of smarcd3 and vascular cell adhesion molecule (VCAM1). <sentence_start/>Signal intensities indicating the expression of VCAM1 (Cyan) and Smarcd3 (Red) were quantified by ImageJ software (NIH)<citation ref-type=\"bibr\" rid=\"b28\" pmid=\"22930834\" doi=\"10.1038/nmeth.2089\" pmcid=\"PMC5554542\" count=\"1\">28</citation>."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Ex vivo</italic> endothelium monocyte adhesion assay"
+  },
+  {
+   "section": "article",
+   "text": "The abdominal aortas were isolated from C57BL/6 mice and the surrounding adventitial tissue was gently cleaned. <sentence_start/>siRNA for <italic toggle=\"yes\">smarcd3</italic> or non-targeting controls were transfected as described above for 48 hours. <sentence_start/>The aortas were opened longitudinally and fixed <italic toggle=\"yes\">en face</italic> with the endothelial surface-side up using fine needles on a black wax petri dish. <sentence_start/>A mouse monocyte macrophage cell line J774A.1 (ATCC<sup>®</sup> TIB-67™) was labeled with Calcein-AM (Molecular probes), and labeled cells (5 × 10<sup>5</sup>) were incubated on the excised aortas that was pinned on the black wax dish for 30 min at 37 °C in a CO<sub>2</sub> incubator<citation ref-type=\"bibr\" rid=\"b30\" doi=\"10.1161/ATVBAHA.113.303134\" pmcid=\"PMC4111131\" pmid=\"24812324\" count=\"1\">30</citation>. <sentence_start/>These were then washed twice with phosphate buffered saline (PBS) and the bound J774A.1 cells were counted as above."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analyses"
+  },
+  {
+   "section": "article",
+   "text": "Statistical analyses were carried out with Graph-Pad Prism (GraphPad Software). <sentence_start/>All error bars reported are standard error of mean (S.E.M) unless otherwise indicated. <sentence_start/>Pairwise comparisons were performed using one-way Student’s <italic toggle=\"yes\">t</italic>-tests. <sentence_start/>Differences between groups were considered significant at P-values below 0.05."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Selection of <italic toggle=\"yes\">Drosophila</italic> RNAi lines for functional screening"
+  },
+  {
+   "section": "article",
+   "text": "Previously, we developed a mouse model of <italic toggle=\"yes\">d-flow</italic>-induced atherosclerosis by the partial carotid ligation surgery<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b16\" pmid=\"19684185\" doi=\"10.1152/ajpheart.00510.2009\" pmcid=\"PMC2770764\" count=\"1\">16</citation><citation ref-type=\"bibr\" rid=\"b17\" doi=\"10.3791/1861\" pmcid=\"PMC3153900\" pmid=\"20613706\" count=\"1\">17</citation>. <sentence_start/>Using this mouse model, we identified 588 mechanosensitive genes in the mouse arterial endothelium<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation>. <sentence_start/>Although it is well-known that <italic toggle=\"yes\">d-flow</italic> induces endothelial inflammation including NF-κB activation, the role of these mechanosensitive genes is largely unclear. <sentence_start/>To functionally identify mechanosensitive genes that are involved in NF-κB-dependent inflammation, we developed a <italic toggle=\"yes\">Drosophila</italic> RNAi-based screening system."
+  },
+  {
+   "section": "article",
+   "text": "By comparing the <italic toggle=\"yes\">Entrez IDs</italic> of 588 previously identified mechanosensitive murine gene<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation> to fly orthologs ( ), we first identified and obtained 84 <italic toggle=\"yes\">Drosophila</italic> RNAi lines carrying <italic toggle=\"yes\">Drosophila</italic> orthologs of murine mechanosensitive genes (Fig. 1; Supplementary Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Generation and screening of <italic toggle=\"yes\">Drosophila</italic> RNAi lines expressing <italic toggle=\"yes\">drosomycin-GFP</italic>"
+  },
+  {
+   "section": "article",
+   "text": "We tested the effects of 84 <italic toggle=\"yes\">Drosophila</italic> orthologs of murine mechanosensitive genes on the Toll pathway by using reporter flies carrying <italic toggle=\"yes\">drosomycin-GFP</italic>. <sentence_start/>To constitutively induce the expression of a specific RNAi, male UAS-RNAi lines were mated with female <italic toggle=\"yes\">C564-GAL4</italic> flies carrying <italic toggle=\"yes\">drosomycin-GFP</italic><citation ref-type=\"bibr\" rid=\"b12\" doi=\"10.1016/j.devcel.2005.11.013\" pmid=\"16399077\" count=\"1\">12</citation><citation ref-type=\"bibr\" rid=\"b13\" doi=\"10.1101/pdb.prot080341\" pmid=\"25183817\" count=\"1\">13</citation><citation ref-type=\"bibr\" rid=\"b15\" doi=\"10.1038/nature05954\" pmid=\"17625558\" count=\"1\">15</citation>. <sentence_start/>The <italic toggle=\"yes\">C564-GAL4</italic> flies that express GAL4 mainly in the fat body (immune tissue in <italic toggle=\"yes\">Drosophila</italic>) were used for tissue-specific knockdown of the target gene<citation ref-type=\"bibr\" rid=\"b31\" pmid=\"7796812\" doi=\"10.1002/j.1460-2075.1995.tb07285.x\" pmcid=\"PMC398404\" count=\"1\">31</citation>. <sentence_start/>The progeny F1 was used to determine NF-κB/Dif-dependent <italic toggle=\"yes\">drosomycin</italic> expression following Gram-positive bacterial infection condition. <sentence_start/>We found that expression of six RNAi fly lines in this study showed lethality (Supplementary Table 1), and they were not further studied. <sentence_start/>Expression of GFP in the remaining 78 RNAi lines was examined by fluorescence stereo microscopy before and after 24 h of Gram-positive bacterial infection as shown by the representative fluorescence images (Supplementary Table 4)."
+  },
+  {
+   "section": "article",
+   "text": "Identification of <italic toggle=\"yes\">Bap60</italic>, <italic toggle=\"yes\">RPN5</italic> and <italic toggle=\"yes\">ERN1</italic> as regulators of inflammation in <italic toggle=\"yes\">Drosophila</italic>"
+  },
+  {
+   "section": "article",
+   "text": "From the above initial <italic toggle=\"yes\">in vivo</italic> GFP screening using the constitutive RNAi expression system <italic toggle=\"yes\">(C564-GAL flies)</italic>, we identified three genes, <italic toggle=\"yes\">RPN5</italic>, <italic toggle=\"yes\">ERN1</italic>, and <italic toggle=\"yes\">Bap60</italic>, that substantially modified NF-κB activation (Fig. 2). <sentence_start/><italic toggle=\"yes\">Dif</italic> (a <italic toggle=\"yes\">Drosophila</italic> NF-κB pathway gene indispensable for immunity to Gram-positive bacteria) RNAi fly, which was used as a negative control, did not show activation of NF-κB in response to the bacterial infection, as expected (Fig. 2A). <sentence_start/><italic toggle=\"yes\">RPN5</italic> RNAi and <italic toggle=\"yes\">ERN1</italic> RNAi blocked NF-ΚB activation in response to bacterial infection. <sentence_start/>Interestingly, <italic toggle=\"yes\">Bap60</italic> RNAi fly line showed a significantly higher NF-κB activation in basal condition which did not further increase in response to the bacterial infection (Fig. 2A). <sentence_start/>These results suggestes that <italic toggle=\"yes\">RPN5</italic> and <italic toggle=\"yes\">ERN1</italic> may act as NF-κB activators, while <italic toggle=\"yes\">Bap60</italic> acts as a NF-κB repressor."
+  },
+  {
+   "section": "article",
+   "text": "Next, we validated these qualitative screening results by determining the expression of <italic toggle=\"yes\">drosomycin</italic> by qPCR using total RNAs extracted from these flies. <sentence_start/>The qPCR results using the constitutive RNAi expression system <italic toggle=\"yes\">(C564-GAL flies)</italic> showed that <italic toggle=\"yes\">drosomycin</italic> expression was increased by &gt;10-fold by Gram-positive bacterial infection in the control RNAi flies, which was significantly reduced in <italic toggle=\"yes\">RPN5</italic> and <italic toggle=\"yes\">ERN1</italic> RNAi lines (Fig. 2B). <sentence_start/>Furthermore, <italic toggle=\"yes\">drosomycin</italic> expression was increased by &gt;20-fold over the control (Control) in the <italic toggle=\"yes\">Bap60</italic> RNAi fly line (Fig. 2B). <sentence_start/>Importantly, Gram-positive bacterial infection did not further increase the <italic toggle=\"yes\">drosomycin</italic> expression in <italic toggle=\"yes\">Bap60</italic> RNAi flies (Fig. 2B). <sentence_start/>RNAi flies for Dif and Myd88, two well-known signaling molecules mediating Toll-induced NF-κB activation, were used as controls to test the specificity of <italic toggle=\"yes\">drosomycin</italic> expression in this screening system (Fig. 2B). <sentence_start/>Both <italic toggle=\"yes\">Dif</italic> RNAi and Myd88 RNAi lines showed no significant expression of <italic toggle=\"yes\">drosomycin</italic> in non-infected and as well as Gram-positive bacterial infection conditions. <sentence_start/>These results further substantiate the GFP fluorescence imaging results above (Fig. 2A), suggesting the potential role of <italic toggle=\"yes\">RPN5</italic> and <italic toggle=\"yes\">ERN1</italic> as NF-κB activators and <italic toggle=\"yes\">Bap60</italic> as NF-κB repressor."
+  },
+  {
+   "section": "article",
+   "text": "It is well known that the NF-κB pathway in <italic toggle=\"yes\">Drosophila</italic> can be activated by Toll-mediated (by Gram-positive bacteria) and IMD-mediated (by Gram-negative bacteria) pathways<citation ref-type=\"bibr\" rid=\"b32\" doi=\"10.1093/emboj/21.11.2568\" pmid=\"12032070\" pmcid=\"PMC126042\" count=\"1\">32</citation>. <sentence_start/>Therefore, we tested whether <italic toggle=\"yes\">RPN5, ERN1</italic> and <italic toggle=\"yes\">Bap60</italic> can also regulate IMD-mediated NF-κB activation as measured by <italic toggle=\"yes\">diptericin</italic> expression in response to Gram-negative bacterial infection using the constitutive RNAi expression system. <sentence_start/>Upon Gram-negative bacterial infection, <italic toggle=\"yes\">diptericin</italic> expression was increased by &gt;2,000-fold over the non-infected control, which was significantly reduced in <italic toggle=\"yes\">RPN5</italic> and <italic toggle=\"yes\">ERN1</italic> RNAi lines (Fig. 2C). <sentence_start/>Interestingly, <italic toggle=\"yes\">Bap60</italic> RNAi fly line showed a &gt;1,000-fold increase in the <italic toggle=\"yes\">diptericin</italic> expression in the non-infected condition which was further increased to &gt;2,000-fold 6 hours after Gram-negative bacterial infection (Fig. 2C). <sentence_start/>In addition, <italic toggle=\"yes\">ERN1</italic> RNAi fly also showed a substantial increase in the <italic toggle=\"yes\">diptericin</italic> expression in the non-infected condition which also increased by Gram-negative bacterial infection."
+  },
+  {
+   "section": "article",
+   "text": "Since Relish and IMD are two well-known upstream regulators of <italic toggle=\"yes\">diptericin</italic> in the IMD-mediated NF-κB pathway in response to Gram-negative bacterial infection, we examined <italic toggle=\"yes\">diptericin</italic> expression in Relish RNAi and IMD RNAi flies. <sentence_start/>As expected, both Relish RNAi and IMD RNAi flies showed no significant expression of <italic toggle=\"yes\">diptericin</italic> in non-infected and Gram-negative bacterial infection conditions (Fig. 2C). <sentence_start/>These results indicated that knockdown of <italic toggle=\"yes\">Bap60</italic> induces NF-κB activation in both the Toll-mediated and IMD-mediated pathways."
+  },
+  {
+   "section": "article",
+   "text": "Previous studies<citation ref-type=\"bibr\" rid=\"b33\" doi=\"10.1534/genetics.106.061978\" pmid=\"16816412\" pmcid=\"PMC1569781\" count=\"1\">33</citation><citation ref-type=\"bibr\" rid=\"b34\" doi=\"10.1073/pnas.1304380110\" pmcid=\"PMC3696746\" pmid=\"23749869\" count=\"1\">34</citation> indicate that Bap60 mutants may develop melanotic masses which could result in aberrant activation of NF-κB as we observed in our current study. <sentence_start/>To address this, we tested the role of Bap60 in an inducible RNAi expression system using the temperature-inducible <italic toggle=\"yes\">C564-GAL4-Tub-GAL80</italic><italic toggle=\"yes\"><sup>ts</sup></italic> <italic toggle=\"yes\">(C564</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4)</italic> flies. <sentence_start/>Similar to the constitutive RNAi expression, the inducible knockdown of Bap60 in adult flies resulted in an increased <italic toggle=\"yes\">drosomycin</italic> expression in response to Gram-positive bacterial infection (Fig. 2D). <sentence_start/>In contrast, unlike the constitutive RNAi flies, temperature-induced knockdown of Bap60 <italic toggle=\"yes\">C564</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4</italic> flies did not change the basal <italic toggle=\"yes\">drosomycin</italic> expression (Fig. 2D). <sentence_start/>These results suggest that the increased basal <italic toggle=\"yes\">drosomycin</italic> expression in the constitutive <italic toggle=\"yes\">C564-GAL4</italic>-Bap60-RNAi flies might be related to developmental changes resulting in Toll-mediated NF-κB pathway<citation ref-type=\"bibr\" rid=\"b35\" doi=\"10.7554/eLife.07187\" pmid=\"26090908\" pmcid=\"PMC4490375\" count=\"1\">35</citation>. <sentence_start/>However, we failed to observe any obvious signs of melanotic masses in either of the Bap60 RNAi flies in our hands."
+  },
+  {
+   "section": "article",
+   "text": "Next, we tested whether inducible knockdown of <italic toggle=\"yes\">RPN5</italic>, <italic toggle=\"yes\">ERN1</italic>, and <italic toggle=\"yes\">Bap60</italic> can also regulate Toll- and IMD-mediated NF-κB activation by measuring <italic toggle=\"yes\">drosomycin</italic> and <italic toggle=\"yes\">diptericin</italic> expression, respectively, in Gram-positive and Gram-negative bacterial infection conditions in the C654<italic toggle=\"yes\"><sup>ts</sup></italic>-Gal4 RNAi flies. <sentence_start/>First, we found that inducible knockdown of Bap60 did not induce <italic toggle=\"yes\">drosomycin</italic> expression in the basal condition (Fig. 2D), unlike in the constitutive Bap60 knockdown flies (Fig. 2B). <sentence_start/>However, inducible Bap60 knockdown increased <italic toggle=\"yes\">drosomycin</italic> expression while reducing <italic toggle=\"yes\">diptericin</italic> expression compared to the respective infection controls, suggesting that Bap60 plays a differential role in Toll- and IMD-pathways. <sentence_start/>In contrast, unlike the constitutive <italic toggle=\"yes\">ERN1</italic> knockdown, the inducible knockdown of <italic toggle=\"yes\">ERN1</italic> showed relatively minor reduction of <italic toggle=\"yes\">drosomycin</italic> expression and no significant effect on <italic toggle=\"yes\">diptericin</italic> expression, in response to respective bacterial infection conditions (Fig. 2D). <sentence_start/>However, inducible knockdown of <italic toggle=\"yes\">RPN5</italic> showed a significant inhibitory effect on the Toll- and IMD-mediated NF-κB activation (Fig. 2D) as observed in the constitutive <italic toggle=\"yes\">RPN5</italic> RNAi flies (Fig. 2B)."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, by comparing the constitutive and inducible RNAi systems, we have found that <italic toggle=\"yes\">RPN5</italic> (activator) and Bap60 (differential regulator) may be mechanosensitive NF-κB regulators while <italic toggle=\"yes\">ERN1</italic> is a weak NF-κB regulator."
+  },
+  {
+   "section": "article",
+   "text": "Smarcd3, a mammalian ortholog of <italic toggle=\"yes\">Bap60</italic>, is a mechanosensitive protein expressed in mouse aortic endothelium"
+  },
+  {
+   "section": "article",
+   "text": "We next examined the role of <italic toggle=\"yes\">RPN5, ERN1</italic> and <italic toggle=\"yes\">Bap60</italic> in mouse arterial endothelium. <sentence_start/>For this, we first examined the mRNA expression of <italic toggle=\"yes\">smarcd3</italic>, <italic toggle=\"yes\">psmd12</italic> (a mammalian ortholog of <italic toggle=\"yes\">RPN5</italic>) and <italic toggle=\"yes\">ERN1</italic>, in order to validate the mechanosensitive regulation of these genes in the mouse arterial endothelium. <sentence_start/>Using our mouse partial carotid ligation model, we induced <italic toggle=\"yes\">d-flow</italic> in the LCA, while the contralateral RCA continued to experience <italic toggle=\"yes\">s-flow</italic><citation ref-type=\"bibr\" rid=\"b16\" pmid=\"19684185\" doi=\"10.1152/ajpheart.00510.2009\" pmcid=\"PMC2770764\" count=\"1\">16</citation><citation ref-type=\"bibr\" rid=\"b17\" doi=\"10.3791/1861\" pmcid=\"PMC3153900\" pmid=\"20613706\" count=\"1\">17</citation>. <sentence_start/>Endothelial-enriched mRNAs obtained from both carotids 48-hour post-ligation showed that expression of <italic toggle=\"yes\">smarcd3</italic> in the LCA endothelium was decreased by approximately 50%, while <italic toggle=\"yes\">psmd12</italic> was increased by 2.2-fold as compared to the RCAs (Fig. 3A). <sentence_start/>However, the expression of <italic toggle=\"yes\">ERN1</italic> was not statistically different. <sentence_start/>As a control experiment, we used <italic toggle=\"yes\">KLF2</italic> as a well-known flow-sensitive gene<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation> (Fig. 3A). <sentence_start/>These findings indicate that smarcd3 and <italic toggle=\"yes\">psmd12</italic> are flow-sensitive genes in endothelial cells, whereas the mechanosensitivity of <italic toggle=\"yes\">ERN1</italic> could not be confirmed."
+  },
+  {
+   "section": "article",
+   "text": "Next, we validated the mechanosensitivity of smarcd3 by a specific antibody, but not psmd12, as the antibody was unavailable. <sentence_start/>Consistent with our qPCR analyses, we found that Smarcd3 protein expression in the LCA endothelium (where flow is disturbed and endothelium is inflamed) was significantly reduced as compared to the RCA (where flow is stable and endothelium is not inflamed)<citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b8\" doi=\"10.1038/ncomms4000\" pmcid=\"PMC3923891\" pmid=\"24346612\" count=\"1\">8</citation><citation ref-type=\"bibr\" rid=\"b17\" doi=\"10.3791/1861\" pmcid=\"PMC3153900\" pmid=\"20613706\" count=\"1\">17</citation> (Fig. 3B,C). <sentence_start/>These results demonstrate that smarcd3 expression is significantly reduced in the mouse arterial endothelium exposed to <italic toggle=\"yes\">d-flow</italic> compared to <italic toggle=\"yes\">s-flow</italic>. <sentence_start/>Additional <italic toggle=\"yes\">in vitro</italic> experiments using the cone-and-plate shear system also confirms that exposure to the pro-inflammatory oscillatory shear stress (OS) for 24 h decreased the expression of <italic toggle=\"yes\">smarcd3</italic> in HUVECs, HAECs, and iMAECs compared to the anti-inflammatory laminar shear stress (LS) (Fig. 3D). <sentence_start/>Taken together, these results demonstrate that smarcd3 expression is reduced by the pro-inflammatory <italic toggle=\"yes\">d-flow</italic> condition both <italic toggle=\"yes\">in vitro</italic> and <italic toggle=\"yes\">in vivo</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Knockdown of smarcd3 induces endothelial inflammation"
+  },
+  {
+   "section": "article",
+   "text": "To determine whether smarcd3 is involved in endothelial inflammation, we treated HUVECs with <italic toggle=\"yes\">smarcd3-siRNA</italic> and subjected them to oscillatory shear conditions. <sentence_start/>As expected and shown previously<citation ref-type=\"bibr\" rid=\"b36\" doi=\"10.1083/jcb.200410073\" pmid=\"15809308\" pmcid=\"PMC2171897\" count=\"1\">36</citation><citation ref-type=\"bibr\" rid=\"b37\" pmid=\"12622935\" count=\"1\">37</citation>, oscillatory shear induced <italic toggle=\"yes\">VCAM1</italic> and <italic toggle=\"yes\">CXCL8</italic> expression while decreasing the <italic toggle=\"yes\">KLF2</italic> expression compared to laminar shear (Fig. 4A). <sentence_start/>Knockdown of <italic toggle=\"yes\">smarcd3</italic> further enhanced this oscillatory shear-induced expression of <italic toggle=\"yes\">VCAM1</italic> and <italic toggle=\"yes\">CXCL8</italic> by 3-fold and 1.9-fold, respectively (Fig. 4A). <sentence_start/>However, knockdown of smarcd3 did not have any effect on the expression of <italic toggle=\"yes\">KLF2</italic> (Fig. 4A). <sentence_start/>In addition, treatment of <italic toggle=\"yes\">smarcd3-siRNA</italic> in HUVECs significantly increased monocyte adhesion to the endothelium as compared to the control-siRNA (Fig. 4B,C), confirming the role of smarcd3 in endothelial inflammation."
+  },
+  {
+   "section": "article",
+   "text": "We next validated the role of smarcd3 in endothelial inflammation by treating mouse aorta explants <italic toggle=\"yes\">ex vivo</italic> with <italic toggle=\"yes\">smarcd3-siRNA</italic>. <sentence_start/>Treatment of mouse aortic explants with <italic toggle=\"yes\">smarcd3-siRNA</italic> for 48 hours significantly reduced the expression of smarcd3 in the endothelial layer as compared to the non-targeting control [shown by <italic toggle=\"yes\">en-face</italic> immunostaining (Fig. 5A,B)], confirming the efficacy of <italic toggle=\"yes\">smarcd3-siRNA</italic> in our <italic toggle=\"yes\">ex vivo</italic> system. <sentence_start/>In this condition, we found that knockdown of smarcd3 resulted in increased VCAM1 expression (Fig. 5A,C) and significantly increased monocyte adhesion (Fig. 5D). <sentence_start/>These results demonstrate that knockdown of smarcd3 induces endothelial inflammation both <italic toggle=\"yes\">in vitro</italic> and <italic toggle=\"yes\">ex vivo</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Recent technological advances such as microarray and RNA sequencing analyses have enhanced our understanding on a global gene expression pattern during endothelial inflammation and pathogenesis of atherosclerosis. <sentence_start/>However, it is not easy to individually validate the roles of each gene in the disease progression. <sentence_start/>Previously, by using a partial carotid ligation model of atherosclerosis, we identified more than 580 mechanosensitive genes that changed in response to <italic toggle=\"yes\">d-flow</italic> as compared to <italic toggle=\"yes\">s-flow</italic><citation ref-type=\"bibr\" rid=\"b6\" pmid=\"20551377\" doi=\"10.1182/blood-2010-04-278192\" pmcid=\"PMC2974596\" count=\"1\">6</citation>. <sentence_start/><italic toggle=\"yes\">D-flow</italic> is known to promote atherosclerosis by regulating global gene expression changes in the endothelium<citation ref-type=\"bibr\" rid=\"b1\" doi=\"10.1152/physrev.00047.2009\" pmid=\"21248169\" pmcid=\"PMC3844671\" count=\"1\">1</citation>. <sentence_start/>Although one of the key mechanisms by which <italic toggle=\"yes\">d-flow</italic> causes atherosclerosis is endothelial inflammation<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1146/annurev-fluid-010313-141309\" pmcid=\"PMC4211638\" pmid=\"25360054\" count=\"1\">4</citation>, the functions of these flow-sensitive genes during inflammation remain to be elucidated. <sentence_start/>Here, we developed an <italic toggle=\"yes\">in vivo</italic> functional screening system using the constitutive <italic toggle=\"yes\">Drosophila</italic> RNAi (<italic toggle=\"yes\">C564-GAL4</italic> RNAi) flies that express <italic toggle=\"yes\">drosomycin-GFP</italic> as a surrogate marker of Toll-dependent NF-κB activation. <sentence_start/>Using this <italic toggle=\"yes\">in vivo</italic> screening strategy, we screened 84 flow-sensitive genes and identified <italic toggle=\"yes\">Bap60</italic>, <italic toggle=\"yes\">RPN5</italic> and <italic toggle=\"yes\">ERN1</italic> as potential regulators of Toll-mediated NF-κB-dependent inflammation pathway. <sentence_start/>The role of these genes was subsequently validated using the temperature inducible RNAi (<italic toggle=\"yes\">C564</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4</italic> RNAi) flies to rule out the potential secondary effects of these genes during development. <sentence_start/>From these fly studies, we identified two mechanosensitive NF-κB regulators: <italic toggle=\"yes\">RPN5</italic> as an activator of both Toll- and IMD-mediated NF-κB pathways, and Bap60 as repressor and activator of Toll-mediated and IMD-mediated NF-κB pathways, respectively. <sentence_start/>We also identified <italic toggle=\"yes\">ERN1</italic> as a weak activator of the Toll-mediated pathway."
+  },
+  {
+   "section": "article",
+   "text": "Subsequent studies in mammalian systems validated smarcd3 (mammalian ortholog of <italic toggle=\"yes\">Bap60</italic>) as a novel mechanosensitive repressor of NF-κB-mediated inflammation in mammalian endothelial cells. <sentence_start/>To our knowledge, this is the first report where a mammalian mechanosensitive transcriptomic dataset has been functionally screened by taking advantage of <italic toggle=\"yes\">Drosophila</italic> UAS-RNAi knockdown library."
+  },
+  {
+   "section": "article",
+   "text": "Here, Bap60/smarcd3 was identified as a novel mechanosensitive molecule involved in the downregulation of NF-κB-dependent inflammation. <sentence_start/>Smarcd3 is a SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member-3<citation ref-type=\"bibr\" rid=\"b38\" doi=\"10.1128/mcb.01443-12\" pmid=\"23716599\" pmcid=\"PMC3719671\" count=\"1\">38</citation>. <sentence_start/>Smarcd3 is part of the large chromatin remodeling complex that is known to regulate gene transcription by modifying the chromatin structure<citation ref-type=\"bibr\" rid=\"b38\" doi=\"10.1128/mcb.01443-12\" pmid=\"23716599\" pmcid=\"PMC3719671\" count=\"1\">38</citation><citation ref-type=\"bibr\" rid=\"b39\" doi=\"10.5732/cjc.014.10066\" pmid=\"25223915\" pmcid=\"PMC4198753\" count=\"1\">39</citation><citation ref-type=\"bibr\" rid=\"b40\" doi=\"10.2337/db13-1061\" pmid=\"24458360\" pmcid=\"PMC3994956\" count=\"1\">40</citation><citation ref-type=\"bibr\" rid=\"b41\" doi=\"10.1186/s13148-015-0064-6\" pmid=\"25874017\" pmcid=\"PMC4396570\" count=\"1\">41</citation>. <sentence_start/>As knockdown of <italic toggle=\"yes\">smarcd3</italic> significantly enhanced oscillatory shear-induced pro-inflammatory response as measured by <italic toggle=\"yes\">VCAM1</italic> and <italic toggle=\"yes\">CXCL8</italic> expression (Fig. 4), it is likely that d-flow induces pro-inflammatory gene expression via reducing smarcd3 expression in the endothelial cells."
+  },
+  {
+   "section": "article",
+   "text": "Recently, Bonnay <italic toggle=\"yes\">et al.</italic> showed that <italic toggle=\"yes\">Drosophila</italic> Bap60 interacts with Akirin upon immune challenge, and Bap60-Akirin complex is required for the induction of a subset of IMD target genes, indicating that Bap60 acts as a positive regulator for IMD-pathway<citation ref-type=\"bibr\" rid=\"b42\" doi=\"10.15252/embj.201488456\" pmid=\"25180232\" pmcid=\"PMC4253524\" count=\"1\">42</citation>, and is consistent with our result obtained using the inducible Bap60 RNAi flies (Fig. 2D). <sentence_start/>In contrast, knockdown of Brahma complex component including Bap60 and Brahma is sufficient to enhance the <italic toggle=\"yes\">drosomycin</italic> reporter activity in S2 cells<citation ref-type=\"bibr\" rid=\"b42\" doi=\"10.15252/embj.201488456\" pmid=\"25180232\" pmcid=\"PMC4253524\" count=\"1\">42</citation><citation ref-type=\"bibr\" rid=\"b43\" doi=\"10.1159/000248649\" pmid=\"20375635\" count=\"1\">43</citation>. <sentence_start/>Consistent with this, our inducible Bap60 RNAi fly showed increased <italic toggle=\"yes\">drosomycin</italic> expression upon Gram-positive bacterial infection (Fig. 2D). <sentence_start/>Together, our results and previous studies show that Bap60 could act as a negative and positive regulator for Toll- and IMD-target gene expression, respectively, in adult flies (Fig. 2C,D). <sentence_start/>Although, it is not known whether shear stress regulated NF-κB is activated via Toll- and/or IMD-mediated pathways, our mammalian studies suggest that smarcd3 acts as a repressor of NF-κB activation in response to shear stress."
+  },
+  {
+   "section": "article",
+   "text": "Although our <italic toggle=\"yes\">Drosophila</italic> screening system enabled us to screen for candidate mechanosensitive genes involved in NF-κB activation, there are some limitations in our experimental approaches. <sentence_start/>For example, our primary screening was limited to testing the Toll-mediated NF-κB activation pathway, but not the IMD-mediated NF-κB pathway. <sentence_start/>Furthermore, our primary screening with constitutive <italic toggle=\"yes\">C564-GAL4</italic> flies seems to have caused false positive results due to potential secondary effects during development. <sentence_start/>The use of an inducible GAL4 driver such as <italic toggle=\"yes\">C564</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4</italic> together with a dual reporter system [by the <italic toggle=\"yes\">drosomycin-GFP</italic> reporter with an IMD-pathway reporter such as <italic toggle=\"yes\">diptericin</italic>-mCherry<citation ref-type=\"bibr\" rid=\"b44\" doi=\"10.1073/pnas.0903971106\" pmid=\"19482944\" pmcid=\"PMC2700997\" count=\"1\">44</citation>] would have circumvented these technical limitations. <sentence_start/>Due to lack of proper reagents, the role of <italic toggle=\"yes\">RPN5</italic> could not be studied."
+  },
+  {
+   "section": "article",
+   "text": "In summary, we developed an <italic toggle=\"yes\">in vivo Drosophila</italic> RNAi screening method to identify flow-sensitive genes that regulate endothelial inflammation. <sentence_start/>The newly identified mechanosensitive <italic toggle=\"yes\">smarcd3</italic> may play a critical role in endothelial inflammation and atherosclerosis. <sentence_start/>This <italic toggle=\"yes\">in vivo</italic> functional screening approach may be expanded to identify novel genes that regulate other pathways such as apoptosis and cell proliferation."
+  },
+  {
+   "section": "article",
+   "text": "Additional Information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>How to cite this article</bold>: Kumar, S. <italic toggle=\"yes\">et al.</italic> <sentence_start/>Functional screening of mammalian mechanosensitive genes using <italic toggle=\"yes\">Drosophila</italic> RNAi library- <italic toggle=\"yes\">Smarcd3/Bap60</italic> is a mechanosensitive pro-inflammatory gene. <sentence_start/><italic toggle=\"yes\">Sci. Rep.</italic> <bold>6</bold>, 36461; doi: 10.1038/srep36461 (2016)."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Publisher’s note</bold>: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Author Contributions</bold> Study design: S.K., I.H.J., W.J.L. and H.J. Conceived, and designed the experiments: S.K., I.H.J., W.J.L., C.W.K. and H.J. Performed experiments: S.K., I.H.J., C.W.K. and D.W.K. Analyzed the data: S.K., I.H.J., C.W.K., D.W.K., W.J.L. and H.J. Statistical analysis and paper writing: S.K., I.H.J. and H.J. All authors reviewed the manuscript."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Overall study design and work flow."
+  },
+  {
+   "section": "floating",
+   "text": "A previous mRNA microarray study identified 588 mechanosensitive genes from endothelial cells exposed to disturbed blood flow (<italic toggle=\"yes\">d-flow</italic>) using the mouse partial ligation model. <sentence_start/>Of these 588 mechanosensitive genes, we found 84 corresponding <italic toggle=\"yes\">Drosophila</italic> orthologs. <sentence_start/>RNAi flies for these genes were obtained and mated with <italic toggle=\"yes\">C564-GAL4</italic> flies containing a <italic toggle=\"yes\">drosomycin-GFP</italic> reporter (<italic toggle=\"yes\">drosomycin-GFP</italic> RNAi flies). <sentence_start/><italic toggle=\"yes\">Drosomycin-GFP</italic> expression under both basal and Gram-positive bacterial infection was used to screen the RNAi fly line by stereo fluorescence microscopy. <sentence_start/>IHJ prepared the illustrations of mouse and <italic toggle=\"yes\">Drosophila</italic> using Adobe Illustrator. <sentence_start/>SK prepared the illustration for partial carotid ligation model using Microsoft PowerPoint software."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Identification of RNAi lines regulating NF-κB activation in <italic toggle=\"yes\">Drosophila</italic>."
+  },
+  {
+   "section": "floating",
+   "text": "<bold>(A)</bold> Stereo fluorescence microscopy was used to monitor the <italic toggle=\"yes\">drosomycin-GFP</italic> expression in each <italic toggle=\"yes\">drosomycin-GFP</italic> RNAi fly line under both basal and Gram-positive bacterial infection. <sentence_start/>As a control, the <italic toggle=\"yes\">Dif</italic>-RNAi fly was used. <sentence_start/>GFP expression in three or more independent cohorts comprising ~10 adults each was monitored after 24 h of infection. <sentence_start/>White Scale Bar = 500μm <bold>(B)</bold> qPCR assay for <italic toggle=\"yes\">drosomycin</italic> mRNA levels in non-infection or in response to Gram positive bacterial infection for 24 h. <sentence_start/>Dif (a <italic toggle=\"yes\">Drosophila</italic> NF-κB) and Myd88 RNAi flies were used as negative controls. <sentence_start/>Drosomycin level in the non-infection control was taken arbitrarily as set 1. <sentence_start/>Values represent the mean ± S.E.M (*<italic toggle=\"yes\">P</italic> &lt; <italic toggle=\"yes\">0.05) of</italic> at least three independent experiments. <sentence_start/><bold>(C)</bold> qPCR assay was carried out for <italic toggle=\"yes\">diptericin</italic> mRNA level, a NF-κB target gene, in uninfected control and in response to Gram negative bacterial infection for 6 h. <sentence_start/>Relish and IMD RNAi flies were used as negative controls. <sentence_start/>Diptericin level in non-infection condition was taken arbitrarily as set 1. <sentence_start/>Values represent the mean ± S.E.M (*<italic toggle=\"yes\">P</italic> &lt; <italic toggle=\"yes\">0.05) of</italic> at least three independent experiments. <sentence_start/><bold>(D)</bold> qPCR assay for <italic toggle=\"yes\">drosomycin</italic> mRNA levels in non-infection condition (left) and Gram-positive bacterial infection for 24 h (middle). <sentence_start/>Respective RNAi was induced by maintaining the <italic toggle=\"yes\">C564</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4</italic> flies at 29 °C for 5 days. <sentence_start/><italic toggle=\"yes\">Drosomycin</italic> levels in the non-infected control flies was taken arbitrarily as 1. <sentence_start/>Values represent the means ± S.E.M (*<italic toggle=\"yes\">P</italic> &lt; <italic toggle=\"yes\">0.05)</italic> of at least three independent experiments. <sentence_start/>(right panel) qPCR for <italic toggle=\"yes\">diptericin</italic> mRNA expression, an NF-κB target gene, in response to Gram-negative bacterial infection for 6 h was carried out using the <italic toggle=\"yes\">C565</italic><italic toggle=\"yes\"><sup>ts</sup></italic><italic toggle=\"yes\">-GAL4</italic>-driven RNAi flies. <sentence_start/><italic toggle=\"yes\">Diptericin</italic> level in non-infection condition of control flies was taken arbitrarily as 1. <sentence_start/>Values represent the means ± S.E.M (*<italic toggle=\"yes\">P</italic> &lt; <italic toggle=\"yes\">0.05)</italic> of at least three independent experiments."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Validation of mechanosensitivity of <italic toggle=\"yes\">smarcd3 (Bap60</italic> ortholog), <italic toggle=\"yes\">psmd12 (RPN5</italic> ortholog) and <italic toggle=\"yes\">ERN1</italic> in mouse arterial endothelium."
+  },
+  {
+   "section": "floating",
+   "text": "C57Bl6 mice underwent partial ligation of the LCA and were sacrificed 48 h later. <sentence_start/>(<bold>A</bold>) Endothelial-enriched RNAs were isolated from RCA and LCA, and the expression of <italic toggle=\"yes\">smarcd3, psmd12</italic> and <italic toggle=\"yes\">ERN1</italic> was determined by qPCR (n = 3, *<italic toggle=\"yes\">p</italic> &lt; 0.05). <sentence_start/><italic toggle=\"yes\">KLF2</italic> was used as a control. <sentence_start/>(<bold>B</bold>) LCAs and RCAs were dissected out 48 h post ligation and were mounted <italic toggle=\"yes\">en face.</italic> <sentence_start/>Immunofluorescence confocal microscopy was performed to detect the expression of smarcd3 (red) and DAPI for nuclei (blue) (n = 3). <sentence_start/>Auto-fluorescence (green) shows internal elastic lamina (IEL). <sentence_start/>White Scale Bar = 50 μm. <sentence_start/>(<bold>C</bold>) Image J was used to perform the semi-quantitative estimation of smarcd3 expression in the RCA vs. LCA by calculating the mean fluorescence intensities from the Red Channel. <sentence_start/>Data shown as means ± S.E.M from 5 different animals; *p &lt; 0.05. <sentence_start/>Mean fluorescence intensities from the negative control images (Secondary Antibody only) were used for background subtraction. <sentence_start/>(<bold>D</bold>) Human umbilical vein endothelial cells (HUVECs), human arterial endothelial cells (HAECs), and immortalized mouse aortic endothelial cells (iMAECs) were subjected to either laminar shear (LS) or oscillatory shear (OS) for 24 h. <sentence_start/>RNA was extracted and expression of <italic toggle=\"yes\">smarcd3</italic> was determined by qPCR (n = 5, p &lt; 0.05). <sentence_start/>Static cells were used as controls."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Knockdown of smarcd3 enhances endothelial activation."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>A)</bold> HUVECs were transfected with non-target or <italic toggle=\"yes\">smarcd3-siRNA</italic> (150 nM) for 2 days and were subjected to either LS or OS for 24 h. <sentence_start/>RNA was prepared and expression of NF-κB target genes (<italic toggle=\"yes\">VCAM1</italic> and <italic toggle=\"yes\">CXCL8</italic>) was determined by qPCR (mean ± S.E.M, n = 4, <sup>*</sup>p &lt; 0.05). <sentence_start/><italic toggle=\"yes\">KLF2</italic> was used as a control. <sentence_start/><bold>(B)</bold> HUVECs were transfected with either non-target or <italic toggle=\"yes\">smarcd3</italic>-<italic toggle=\"yes\">siRNA</italic> (150 nM) for 2 days. <sentence_start/>The number of adhering BCECF-labelled THP1 monocytes (5 × 10<sup>5</sup>) was determined by fluorescence microscopy. <sentence_start/>As a positive control, some cells were treated with TNFα (3 ng/mL) for 3 hours. <sentence_start/>White Scale Bar = 200 μm. <sentence_start/><bold>(C)</bold> Graph shows quantification of bound monocytes (mean ± S.E.M, n = 3, <sup>*</sup>p &lt; 0.05)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Knockdown of <italic toggle=\"yes\">smarcd3</italic> induces VCAM1 expression in mouse aortic endothelial cells <italic toggle=\"yes\">ex vivo</italic>."
+  },
+  {
+   "section": "floating",
+   "text": "<bold>(A)</bold> Mouse aorta explants were cultured <italic toggle=\"yes\">en-face</italic> in a 48-well plate. <sentence_start/>Aortic explants were transfected with siRNAs (100 nM) for <italic toggle=\"yes\">smarcd3</italic> (si-<italic toggle=\"yes\">Smarcd3</italic>) or control for 48 h and expression of smarcd3 and VCAM1 in the endothelium was determined by immunofluorescence staining using antibodies for smarcd3 (red) and VCAM1 (Cyan). <sentence_start/>Auto-fluorescence (green) shows internal elastic lamina (IEL). <sentence_start/>White Scale Bar = 50 μm <bold>(B,C)</bold> Graph shows quantitative estimation of signal intensities for expression of smarcd3 and VCAM1, respectively (mean ± S.E.M, n = 6, <sup>*</sup>p &lt; 0.05). <sentence_start/><bold>(D)</bold> Aortic explants treated as above were mounted <italic toggle=\"yes\">en-face</italic>, and the number of BCECF-labeled J774A.1 monocytic cells to the endothelial surface was determined by fluorescence microscopy. <sentence_start/>Values represent mean ± S.E.M (*P &lt; 0.05; n = 6)."
+  }
+ ]
+}

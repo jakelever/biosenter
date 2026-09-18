@@ -1,0 +1,211 @@
+{
+ "pmid": 21811574,
+ "pmcid": 3141012,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Genome-Wide Association Scan in HIV-1-Infected Individuals Identifying Variants Influencing Disease Course"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "AIDS develops typically after 7-11 years of untreated HIV-1 infection, with extremes of very rapid disease progression (&lt;2 years) and long-term non-progression (&gt;15 years). <sentence_start/>To reveal additional host genetic factors that may impact on the clinical course of HIV-1 infection, we designed a genome-wide association study (GWAS) in 404 participants of the Amsterdam Cohort Studies on HIV-1 infection and AIDS."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "The association of SNP genotypes with the clinical course of HIV-1 infection was tested in Cox regression survival analyses using AIDS-diagnosis and AIDS-related death as endpoints."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Multiple, not previously identified SNPs, were identified to be strongly associated with disease progression after HIV-1 infection, albeit not genome-wide significant. <sentence_start/>However, three independent SNPs in the top ten associations between SNP genotypes and time between seroconversion and AIDS-diagnosis, and one from the top ten associations between SNP genotypes and time between seroconversion and AIDS-related death, had P-values smaller than 0.05 in the French Genomics of Resistance to Immunodeficiency Virus cohort on disease progression."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Our study emphasizes that the use of different phenotypes in GWAS may be useful to unravel the full spectrum of host genetic factors that may be associated with the clinical course of HIV-1 infection."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The clinical course of HIV-1 infection can be highly variable between individuals. <sentence_start/>The period of asymptomatic disease after HIV-1 infection in the absence of antiviral therapy is typically 7-11 years <citation rid=\"pone.0022208-Cascade1\" ref-type=\"bibr\" pmid=\"10791375\" count=\"1\">[1]</citation>, <citation rid=\"pone.0022208-Veugelers1\" ref-type=\"bibr\" pmid=\"7942776\" doi=\"10.1093/oxfordjournals.aje.a117322\" count=\"1\">[2]</citation>, with extremes of disease progression within 2 years, or virtually no disease progression for more than 15 years <citation rid=\"pone.0022208-Klein1\" ref-type=\"bibr\" pmid=\"8564357\" doi=\"10.1016/s0966-842x(00)88984-2\" count=\"1\">[3]</citation>. <sentence_start/>The genetic make-up of an individual has been shown to play a role in the susceptibility to HIV-1 infection and/or the rate of disease progression. <sentence_start/>Some of the observed variation could be attributed to human leukocyte antigen (HLA) types. <sentence_start/>In the Caucasian population, HLA-B5701 and HLA-B27 are most strongly associated with prolonged survival, whereas a variant of HLA-B35 is linked to an accelerated progression to AIDS <citation rid=\"pone.0022208-Navis1\" ref-type=\"bibr\" pmid=\"17709528\" doi=\"10.4049/jimmunol.179.5.3133\" count=\"1\">[4]</citation>-<citation rid=\"pone.0022208-Carrington1\" ref-type=\"bibr\" pmid=\"12525683\" doi=\"10.1146/annurev.med.54.101601.152346\" count=\"1\">[7]</citation>. <sentence_start/>Another well known example is the 32 base pair deletion in the gene coding for the chemokine receptor CCR5 that serves as a coreceptor for HIV-1. <sentence_start/>This polymorphism has been associated with reduced susceptibility to infection <citation rid=\"pone.0022208-Liu1\" ref-type=\"bibr\" pmid=\"8756719\" doi=\"10.1016/s0092-8674(00)80110-5\" count=\"1\">[8]</citation>, <citation rid=\"pone.0022208-Dean1\" ref-type=\"bibr\" pmid=\"8791590\" doi=\"10.1126/science.273.5283.1856\" count=\"1\">[9]</citation> and a slower rate of disease progression <citation rid=\"pone.0022208-Michael1\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(05)63552-0\" pmid=\"9291931\" count=\"1\">[10]</citation>-<citation rid=\"pone.0022208-Ioannidis1\" ref-type=\"bibr\" pmid=\"11694103\" doi=\"10.7326/0003-4819-135-9-200111060-00008\" count=\"1\">[12]</citation>. <sentence_start/>However, all host genetic factors identified to date can explain the clinical course of HIV-1 infection in only a minority of individuals <citation rid=\"pone.0022208-OBrien1\" ref-type=\"bibr\" pmid=\"15167933\" doi=\"10.1038/ng1369\" count=\"1\">[13]</citation>, <citation rid=\"pone.0022208-Fellay1\" ref-type=\"bibr\" pmid=\"20041166\" doi=\"10.1371/journal.pgen.1000791\" pmcid=\"PMC2791220\" count=\"1\">[14]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "In the last couple of years several genome-wide association studies (GWAS) have been published to reveal additional host genetic factors that are associated with HIV-1 control. <sentence_start/>Fellay et al published two single nucleotide polymorphisms (SNP) on chromosome 6, one located in HCP5 (rs2395029) and in high linkage disequilibrium (LD) with HLA-B57, and one at position -35 in the HLA-C gene region (rs9264942), to be associated with a lower viral load set-point <citation rid=\"pone.0022208-Fellay1\" ref-type=\"bibr\" pmid=\"20041166\" doi=\"10.1371/journal.pgen.1000791\" pmcid=\"PMC2791220\" count=\"1\">[14]</citation>, <citation rid=\"pone.0022208-Fellay2\" ref-type=\"bibr\" pmid=\"17641165\" doi=\"10.1126/science.1143767\" pmcid=\"PMC1991296\" count=\"1\">[15]</citation>, which could be confirmed by us and others <citation rid=\"pone.0022208-vanManen1\" ref-type=\"bibr\" pmid=\"19050382\" doi=\"10.1097/QAD.0b013e32831db247\" count=\"1\">[16]</citation>, <citation rid=\"pone.0022208-Catano1\" ref-type=\"bibr\" pmid=\"18982067\" doi=\"10.1371/journal.pone.0003636\" pmcid=\"PMC2574440\" count=\"1\">[17]</citation>. <sentence_start/>Other GWAS confirmed the important role of the HLA region on chromosome 6 in the clinical course of HIV-1 infection, and found potentially interesting additional associations which need confirmation in other cohorts <citation rid=\"pone.0022208-Limou1\" ref-type=\"bibr\" pmid=\"19115949\" doi=\"10.1086/596067\" count=\"1\">[18]</citation>-<citation rid=\"pone.0022208-Troyer1\" ref-type=\"bibr\" pmid=\"21502085\" doi=\"10.1093/infdis/jir046\" pmcid=\"PMC3080910\" count=\"1\">[23]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Although HIV-1 viral load is established as a good predictor for AIDS disease progression <citation rid=\"pone.0022208-DeWolf1\" ref-type=\"bibr\" pmid=\"9412697\" doi=\"10.1097/00002030-199715000-00003\" count=\"1\">[24]</citation>, <citation rid=\"pone.0022208-Mellors1\" ref-type=\"bibr\" pmid=\"7887550\" doi=\"10.7326/0003-4819-122-8-199504150-00003\" count=\"1\">[25]</citation>, several studies have shown that it is not the sole determinant for variation in disease progression and CD4<sup>+</sup> T-cell depletion <citation rid=\"pone.0022208-Rodriguez1\" ref-type=\"bibr\" pmid=\"17003398\" doi=\"10.1001/jama.296.12.1498\" count=\"1\">[26]</citation>-<citation rid=\"pone.0022208-Spijkerman1\" ref-type=\"bibr\" pmid=\"9302449\" doi=\"10.1097/00002030-199711000-00013\" count=\"1\">[28]</citation>. <sentence_start/>To reveal additional host genetic factors that are associated with the clinical course of HIV-1 infection, we designed a GWAS in the Amsterdam Cohort Studies (ACS) on HIV-1 infection and AIDS and examined the association between SNPs and the time between seroconversion and AIDS-diagnosis or AIDS-related death."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Time from seroconversion to AIDS-diagnosis or AIDS-related death was normally distributed in the ACS (Figure 1). <sentence_start/>To find host genetic markers that associate with disease progression after HIV-1 infection, we genotyped 455 samples with Illumina's Infinium HumanHap300 BeadChip which assays 317,503 SNPs <citation rid=\"pone.0022208-Steemers1\" ref-type=\"bibr\" pmid=\"17225249\" doi=\"10.1002/biot.200600213\" count=\"1\">[29]</citation>. <sentence_start/>After quality control (see Methods) and population stratification, association analysis was performed for 309,494 SNPs and HIV-1 disease course in 404 HIV-1 infected MSM and DU from the ACS using Cox regression survival analyses with AIDS according to the CDC 1993 definition <citation rid=\"pone.0022208-Centers1\" ref-type=\"bibr\" pmid=\"1361652\" count=\"1\">[30]</citation> or AIDS-related death, as endpoints. <sentence_start/>The calculated λ values of 1.0231 and 1.0197 for the P-values of SNP associations with either AIDS-free survival or time to AIDS-related death, respectively, indicate that the remaining population stratification effect, after correction by using the two first eigenvectors as covariates, is minimal."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of the clinical course of HIV-1 infection in the ACS."
+  },
+  {
+   "section": "article",
+   "text": "Time from seroconversion to (A) AIDS-diagnosis or (B) AIDS-related death."
+  },
+  {
+   "section": "article",
+   "text": "The top 10 associations between SNP genotypes and time to AIDS-diagnosis, had P-values smaller than 5.25×10<sup>−5</sup>, with P = 3.50×10<sup>−6</sup> for the strongest statistical association (SNP rs1523635; Table 1). <sentence_start/>The top 10 associations between SNP genotypes and time to AIDS-related death had P-values smaller than 4.43×10<sup>−5</sup>, with P = 8.32×10<sup>−6</sup> for the strongest statistical association (SNP rs7374396; Table 2). <sentence_start/>None of the associations between SNP genotypes and time to AIDS or AIDS-related death were genome-wide significant. <sentence_start/>However, the minor alleles of SNPs that ranked in the top 10 for association with time to AIDS or AIDS-related death were also associated with survival to other endpoints (Tables 1 and 2). <sentence_start/>None of the SNP genotypes identified to be associated with AIDS-diagnosis were associated with survival time after AIDS-diagnosis, indicating that their potential effect is at an earlier stage in the course of infection (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "The potential associations of the top 10 SNPs for both end points were then in a 2<sup>nd</sup> phase analysis studied for confirmation in an independent and well-defined cohort of HIV-1-infected individuals. <sentence_start/>The Genomics of Resistance to Immunodeficiency Virus cohort (GRIV) is a French case-control study in which either rapid progressors or non-progressors were compared with HIV-1-negative controls <citation rid=\"pone.0022208-Limou1\" ref-type=\"bibr\" pmid=\"19115949\" doi=\"10.1086/596067\" count=\"1\">[18]</citation>, <citation rid=\"pone.0022208-LeClerc1\" ref-type=\"bibr\" pmid=\"19754311\" doi=\"10.1086/605892\" count=\"1\">[20]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Three independent signals (four SNPs) that were associated with time to AIDS in our cohort had a P-value below 0.05 and a similar polarity in the GRIV cohort (Table 1). <sentence_start/>SNP rs1523635, which had the strongest association with a more rapid progression to AIDS in our cohort was also associated with rapid progression in the GRIV (P = 2.42×10<sup>−2</sup>). <sentence_start/>SNPs rs6845554 and rs6827754, which are in complete LD (r<sup>2</sup> = 1) were both associated with rapid progression in the GRIV cohort as well (P = 2.75×10<sup>−2</sup>). <sentence_start/>Finally, SNP rs6018199 was associated with non-progression in the ACS cohort as well as in the GRIV cohort (P = 4.22×10<sup>−3</sup>)."
+  },
+  {
+   "section": "article",
+   "text": "Of the top 10 associations between SNP genotypes and time between seroconversion and AIDS-related death, the minor allele of SNP rs1434975 was associated with rapid progression in the ACS and in the GRIV cohort on extremes in disease progression (P = 3.37×10<sup>−2</sup>; Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "We identified novel genetic loci that may be associated with the clinical course of HIV-1 infection in the ACS. <sentence_start/>None of the associations between SNPs and time to AIDS or time to AIDS-related death that ranked in the top 10, were genome-wide significant. <sentence_start/>Interestingly, the majority of the SNPs involved were also associated with other phenotypes that are related to HIV-1 infection, such as set-point viral load, although one could argue that those are not independent phenotypes. <sentence_start/>Furthermore, three independent signals that ranked in the top 10 for associations with time to AIDS, and one SNP from the top 10 associations with time to AIDS-related death, were also associated with disease course in the GRIV cohort of HIV-1 infected individuals, with the same effect of the minor allele on disease progression. <sentence_start/>This independent confirmation is evidence for an actual association between the identified gene regions and HIV-1 disease course, and not a statistical artifact."
+  },
+  {
+   "section": "article",
+   "text": "The four gene regions that were found to be associated with disease progression in both ACS and GRIV are distributed around the genome. <sentence_start/>SNP rs1523635 is located 90 kb downstream of Anterior Gradient Homolog 3 (AGR3), alias Breast Cancer Membrane Protein 11 (BCMP11). <sentence_start/>Interestingly, AGR3 is known to interact with LY6/PLAUR Domain Containing 3 (LYPD3), and the LY6 family has been associated with HIV-1 disease progression although the mechanism is unknown <citation rid=\"pone.0022208-Loeuillet1\" ref-type=\"bibr\" pmid=\"18288889\" doi=\"10.1371/journal.pbio.0060032\" pmcid=\"PMC2245987\" count=\"1\">[31]</citation>. <sentence_start/>SNPs rs6845554 and rs6827754, which are in high LD, are both located intronic of Solute Carrier Family 2, Member 9 Protein (SLC2A9). <sentence_start/>A potential effect of this gene on the clinical course of HIV-1 infection has not been reported. <sentence_start/>SNP rs6018199 is located in an intron of the Proto-Oncogene Tyrosine-Protein Kinase (SRC). <sentence_start/>The HIV-1 <italic toggle=\"yes\">Nef</italic> gene was found to selectively activate certain members of the SRC kinase family, including SRC itself, which may contribute to HIV-1-associated nephropathy which is the most common cause of chronic renal failure in HIV-1-infected individuals <citation rid=\"pone.0022208-He1\" ref-type=\"bibr\" pmid=\"15343382\" doi=\"10.1172/JCI21004\" pmcid=\"PMC514582\" count=\"1\">[32]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The SNP that was found to be associated with time to AIDS-related death in the ACS and associated with disease progression in the GRIV is SNP rs1434975. <sentence_start/>This SNP is located 25 kb downstream of the gene Family with Sequence Similarity 84, Member A (FAM84A). <sentence_start/>The function of the gene is largely unknown and interaction with HIV-1 has not been reported."
+  },
+  {
+   "section": "article",
+   "text": "None of the top 10 SNPs identified in our present study map to gene regions that were identified in previous GWAS on HIV-1 control that mainly identified associations between HIV-1 control and SNPs on chromosome 6 <citation rid=\"pone.0022208-Fellay1\" ref-type=\"bibr\" pmid=\"20041166\" doi=\"10.1371/journal.pgen.1000791\" pmcid=\"PMC2791220\" count=\"1\">[14]</citation>, <citation rid=\"pone.0022208-Fellay2\" ref-type=\"bibr\" pmid=\"17641165\" doi=\"10.1126/science.1143767\" pmcid=\"PMC1991296\" count=\"1\">[15]</citation>, <citation rid=\"pone.0022208-Limou1\" ref-type=\"bibr\" pmid=\"19115949\" doi=\"10.1086/596067\" count=\"1\">[18]</citation>-<citation rid=\"pone.0022208-LeClerc1\" ref-type=\"bibr\" pmid=\"19754311\" doi=\"10.1086/605892\" count=\"1\">[20]</citation>. <sentence_start/>In a previous study, we were able to confirm SNP rs2395029 in the HCP5 gene region, in complete linkage with HLA-B57, and SNP rs9264942 upstream of the HLA-C gene, that were identified by Fellay et al <citation rid=\"pone.0022208-Fellay2\" ref-type=\"bibr\" pmid=\"17641165\" doi=\"10.1126/science.1143767\" pmcid=\"PMC1991296\" count=\"1\">[15]</citation> to be associated with viral load set-point and/or CD4<sup>+</sup> T-cell depletion. <sentence_start/>In our GWAS, however, these associations did not have genome-wide significant P-values <citation rid=\"pone.0022208-vanManen1\" ref-type=\"bibr\" pmid=\"19050382\" doi=\"10.1097/QAD.0b013e32831db247\" count=\"1\">[16]</citation>. <sentence_start/>Moreover, HLA-B57 and HLA-B27 were also only associated with time from seroconversion until AIDS-diagnosis but not with time between AIDS-diagnosis and AIDS-related death <citation rid=\"pone.0022208-Gao1\" ref-type=\"bibr\" pmid=\"16288280\" doi=\"10.1038/nm1333\" count=\"1\">[6]</citation>, <citation rid=\"pone.0022208-vanManen1\" ref-type=\"bibr\" pmid=\"19050382\" doi=\"10.1097/QAD.0b013e32831db247\" count=\"1\">[16]</citation>. <sentence_start/>Differences in ancestry, gender, transmission route, study design (case-control versus survival analysis), phenotype used for association, or other yet unknown factors may explain the variable outcome of different studies. <sentence_start/>Indeed, two studies that also used survival time as a phenotype identified signals outside the chromosome 6 HLA-gene region as well <citation rid=\"pone.0022208-Herbeck1\" ref-type=\"bibr\" pmid=\"20064070\" doi=\"10.1086/649842\" pmcid=\"PMC2928718\" count=\"1\">[21]</citation>, <citation rid=\"pone.0022208-Troyer1\" ref-type=\"bibr\" pmid=\"21502085\" doi=\"10.1093/infdis/jir046\" pmcid=\"PMC3080910\" count=\"1\">[23]</citation>. <sentence_start/>This illustrates that different end-points should be used to unravel the full spectrum of host genetic factors that may be associated with the clinical course of the infection."
+  },
+  {
+   "section": "article",
+   "text": "The lack of confirmation of SNP associations with phenotypes related to HIV-1 disease may point to false-positive associations. <sentence_start/>However, it cannot be excluded that lack of confirmation relates to the calendar time of seroconversion of the cohort participants in combination with the adaptation of HIV-1 to its host environment Indeed, certain associations between host genetic background and the clinical course of infection or viral load set-point have disappeared over time at a population level <citation rid=\"pone.0022208-Kawashima1\" ref-type=\"bibr\" pmid=\"19242411\" doi=\"10.1038/nature07746\" pmcid=\"PMC3148020\" count=\"1\">[33]</citation>, <citation rid=\"pone.0022208-Schellens1\" ref-type=\"bibr\" count=\"1\">[34]</citation> (van Manen et al, submitted for publication)."
+  },
+  {
+   "section": "article",
+   "text": "GWAS may reveal genes that can be considered new targets for drug development. <sentence_start/>In addition, SNPs strongly associated with HIV-1 disease progression, like the SNPs identified in this study, may be applied in routine diagnostics to predict disease course, or to more accurately estimate if antiviral therapy should be initiated. <sentence_start/>Indeed, screening for polymorphisms in the human genome that influence the course of infection may ultimately allow for a better fine-tuning of patient management."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Study population"
+  },
+  {
+   "section": "article",
+   "text": "We studied HIV-1 infected men who have sex with men (MSM) and drug users (DU) who participate in the ACS on HIV infection and AIDS. <sentence_start/>The HIV-infected MSM were enrolled in the cohort between October 1984 and March 1986 <citation rid=\"pone.0022208-DeWolf2\" ref-type=\"bibr\" pmid=\"3261763\" doi=\"10.1093/infdis/158.3.615\" count=\"1\">[35]</citation>. <sentence_start/>In the first serum sample taken at entry in the cohort, 239 men tested positive for HIV antibodies (recombinant HIV-1/-2 enzyme immunoassay (Abbott, Chicago, Illinois) with an HIV-1 Western blot IgG assay (version 1.2, Diagnostic Biotechnology Ltd., Singapore) for confirmation; five of these men refused to participate further. <sentence_start/>Of the HIV-1 negative men, 131 subsequently seroconverted during active follow-up (until May 1996). <sentence_start/>For seroprevalent individuals, an imputed seroconversion date (on average 18 months before entry into the ACS) was used <citation rid=\"pone.0022208-VanGriensven1\" ref-type=\"bibr\" pmid=\"2493866\" doi=\"10.1136/bmj.298.6668.218\" pmcid=\"PMC1835517\" count=\"1\">[36]</citation>. <sentence_start/>Seroprevalent individuals and prospective seroconverters were studied as one group <citation rid=\"pone.0022208-DeRodaHusman1\" ref-type=\"bibr\" pmid=\"9382366\" doi=\"10.7326/0003-4819-127-10-199711150-00004\" count=\"1\">[11]</citation>, <citation rid=\"pone.0022208-vanManen1\" ref-type=\"bibr\" pmid=\"19050382\" doi=\"10.1097/QAD.0b013e32831db247\" count=\"1\">[16]</citation>. <sentence_start/>Most seropositive men (n = 243 [67%]) did not receive any early treatment, 70 (19%) received zidovudine monotherapy, 10 (3%) received didanosine monotherapy, and 42 (11%) received other ineffective antiretroviral therapy before AIDS-diagnosis. <sentence_start/>The mean age of participants at the time of (imputed) seroconversion was 34.5 years (range 19.5-57.7 years). <sentence_start/>A DNA sample was available from 335 of these 365 cohort participants for genotyping analysis (205 seroprevalent cases and 130 seroconverters). <sentence_start/>This cohort of MSM has been used for confirmation of host genetic factors and disease course <citation rid=\"pone.0022208-Kwa1\" ref-type=\"bibr\" pmid=\"12700447\" doi=\"10.1097/00002030-200305020-00006\" count=\"1\">[37]</citation>-<citation rid=\"pone.0022208-vanRij2\" ref-type=\"bibr\" pmid=\"9662191\" count=\"1\">[40]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The participants of the ACS on HIV and AIDS among DU started enrolment in 1985 <citation rid=\"pone.0022208-vanHaastrecht1\" ref-type=\"bibr\" pmid=\"8633622\" doi=\"10.1093/oxfordjournals.aje.a008752\" count=\"1\">[41]</citation>. <sentence_start/>Asymptomatic men and women who were living in the Amsterdam area and who reported intravenous drug use in the preceding 6 months were enrolled in a prospective study on the prevalence and incidence of HIV-1 infection and risk factors for AIDS. <sentence_start/>We included 83 individuals who seroconverted for HIV antibodies during active follow-up. <sentence_start/>At entry in the cohort study 37 individuals were positive for HIV antibodies but had a negative test result before entry (i.e., retrospective seroconverters). <sentence_start/>For all 120 HIV-1 infected DU (76 men and 44 women) used for our present analysis, the imputed seroconversion date was calculated and used for further analysis <citation rid=\"pone.0022208-Geskus1\" ref-type=\"bibr\" pmid=\"10861776\" doi=\"10.1002/1097-0258(20000715)19:13&lt;1753::aid-sim487&gt;3.0.co;2-f\" count=\"1\">[42]</citation>. <sentence_start/>Mean survival time was similar for male and female participants of the DU cohort and for the DU versus MSM cohorts. <sentence_start/>Most seropositive DU (n = 69 [58%]) did not receive any early treatment, 28 (23%) received zidovudine monotherapy, and 23 (19%) received other ineffective antiretroviral therapy before AIDS-diagnosis. <sentence_start/>The mean age of DU participants at the time of (imputed) seroconversion was 31.5 years (range 19.1-55.9 years). <sentence_start/>A DNA sample was available from all 120 DU participants, hence all were included in further analyses."
+  },
+  {
+   "section": "article",
+   "text": "The ACS has been conducted in accordance with the ethical principles set out in the declaration of Helsinki and all participants provided written informed consent. <sentence_start/>The study was approved by the Academic Medical Center institutional Medical Ethics Committee of the University of Amsterdam."
+  },
+  {
+   "section": "article",
+   "text": "Genome-wide association scan genotyping"
+  },
+  {
+   "section": "article",
+   "text": "Genotyping was performed according to the Infinium II protocol from Illumina (Illumina, San Diego, USA) <citation rid=\"pone.0022208-Steemers1\" ref-type=\"bibr\" pmid=\"17225249\" doi=\"10.1002/biot.200600213\" count=\"1\">[29]</citation>. <sentence_start/>Samples were only included if a minimum 95% call rate was observed for the sample in BeadStudio 3.1 data analysis software (Illumina Inc, San Diego, USA). <sentence_start/>Three samples that had a call rate below 95% were repeated using a new DNA aliquot and analyzed successfully."
+  },
+  {
+   "section": "article",
+   "text": "GWA quality control and linkage disequilibrium"
+  },
+  {
+   "section": "article",
+   "text": "SNPs were excluded from analysis for the following reasons (applied in order): call rate &lt;95% (n = 1910), allele frequency &lt;1% in (n = 280) and deviation from Hardy Weinberg equilibrium (P&lt;0.0001, n = 5819). <sentence_start/>Subsequent analyses were performed on a dataset of 309,494 SNPs."
+  },
+  {
+   "section": "article",
+   "text": "LD was characterized using WGA Viewer <citation rid=\"pone.0022208-Ge1\" ref-type=\"bibr\" pmid=\"18256235\" doi=\"10.1101/gr.071571.107\" pmcid=\"PMC2279251\" count=\"1\">[43]</citation>. <sentence_start/>WGA Viewer was also used for creation of genome-wide overview plots, Q-Q plots, and calculation of the genomic inflation factor λ."
+  },
+  {
+   "section": "article",
+   "text": "Identification of population stratification"
+  },
+  {
+   "section": "article",
+   "text": "Eigenstrat, implemented in Eigensoft, was used to identify outliers in the population who were subsequently removed from the analysis. <sentence_start/>The first two eigenvectors were used as covariates to correct for any remaining population structure. <sentence_start/>As a result, genetic data from 404 individuals (304 MSM and 100 DU) were used for further analysis."
+  },
+  {
+   "section": "article",
+   "text": "Phenotype"
+  },
+  {
+   "section": "article",
+   "text": "AIDS according to the Centers for Disease Control (CDC) 1993 definition <citation rid=\"pone.0022208-Centers1\" ref-type=\"bibr\" pmid=\"1361652\" count=\"1\">[30]</citation> was used as an endpoint in survival analysis. <sentence_start/>The other endpoint used in survival analysis was AIDS-related death, defined as death with AIDS-related malignancy, death with AIDS-opportunistic infections, or death with AIDS-related cause not specified by the treating physician."
+  },
+  {
+   "section": "article",
+   "text": "Virological assays"
+  },
+  {
+   "section": "article",
+   "text": "Samples collected prior to 1997 were tested using nucleic acid sequence-based amplification (NASBA) HIV-1 RNA QT (NASBA, bioMerieux, Boxtel, Netherlands). <sentence_start/>Samples with a viral load below the quantification threshold of the NASBA assay (1,000 copies/ml, n = 68), were re-tested in 2008 using the RealTime HIV-1 assay (Abbott Laboratories, Abbott Park, IL) with a threshold of 40 copies/ml. <sentence_start/>Viral load data were analyzed after log<sub>10</sub> transformation. <sentence_start/>Viral load set-point was defined as the relatively steady level of HIV-1 RNA at 18-24 months after seroconversion. <sentence_start/>Set-point viral load data were available for 385 (301 MSM and 84 DU) participants."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analyses"
+  },
+  {
+   "section": "article",
+   "text": "Cox regression survival analysis was used to analyze genome-wide associations for all SNP genotypes in a genotypic model and the course of HIV-1 infection, using AIDS and AIDS-related death as an endpoint. <sentence_start/>SNPs with less than 8 individuals homozygous for the minor allele were excluded from the analysis (n = 74,967). <sentence_start/>Cox proportional-hazards regressions and corresponding P-values were computed with ProbABEL v0.1-3 software <citation rid=\"pone.0022208-Aulchenko1\" ref-type=\"bibr\" pmid=\"20233392\" doi=\"10.1186/1471-2105-11-134\" pmcid=\"PMC2846909\" count=\"1\">[44]</citation> which is based on the R library ‘survival’ developed by Thomas Lumley (function coxfit2). <sentence_start/>The association of the SNP with viral load set-point was tested using one-way analysis of variance (ANOVA). <sentence_start/>All statistical analysis were performed using GraphPad Prism 5.0 software (GraphPad Software, San Diego, CA, USA), and the R package ( )."
+  },
+  {
+   "section": "article",
+   "text": "Confirmation study population"
+  },
+  {
+   "section": "article",
+   "text": "The Genomics of Resistance to Immunodeficiency Virus (GRIV) cohort was established in France in 1995 to generate a large collection of DNA for genetic studies to identify host genes associated with either rapid progression (n = 85) or non-progression (n = 275) to AIDS. <sentence_start/>Further information on participants, genotyping, quality control and statistical analysis are described in Limou et al <citation rid=\"pone.0022208-Limou1\" ref-type=\"bibr\" pmid=\"19115949\" doi=\"10.1086/596067\" count=\"1\">[18]</citation> and Le Clerc et al <citation rid=\"pone.0022208-LeClerc1\" ref-type=\"bibr\" pmid=\"19754311\" doi=\"10.1086/605892\" count=\"1\">[20]</citation>."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>The authors acknowledge funding from the Netherlands Organization for Scientific Research (TOP, registration number 9120.6046). <sentence_start/>The Amsterdam Cohort Studies on HIV infection and AIDS are financially supported by the Center for Infectious Disease Control of the Netherlands National Institute for Public Health and the Environment. <sentence_start/>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+  }
+ ]
+}

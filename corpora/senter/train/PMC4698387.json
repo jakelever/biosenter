@@ -1,0 +1,39 @@
+{
+ "pmid": 26722010,
+ "pmcid": 4698387,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Draft Genome Sequences of 14 <italic toggle=\"yes\">Escherichia coli</italic> Phages Isolated from Cattle Slurry"
+  },
+  {
+   "section": "abstract",
+   "text": "The diversity of bacteriophages in slurry from dairy cows remains largely unknown. <sentence_start/>Here, we report the draft genome sequences of 14 bacteriophages isolated from dairy cow slurry using <italic toggle=\"yes\">Escherichia coli</italic> K-12 MG1655 as a host."
+  },
+  {
+   "section": "article",
+   "text": "GENOME ANNOUNCEMENT"
+  },
+  {
+   "section": "article",
+   "text": "There are approximately 1.8 million head of dairy cattle in the United Kingdom, producing a total of ~14 billion liters of milk per annum. <sentence_start/>Millions of tonnes of manure are produced by the UK dairy herd. <sentence_start/>The solid manure and liquid cow slurry produced by these animals is widely used as fertilizer and has the potential to allow the transmission of bacteria into the environment. <sentence_start/>There is concern that cattle slurry will allow the transmission of pathogenic bacteria and antibiotic resistance genes into soils (<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1016/j.chemosphere.2006.03.026\" pmid=\"16677683\" count=\"1\">1</citation>), which ultimately may enter the human food chain. <sentence_start/>While the bacterial fraction of cattle slurry has been studied (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1016/j.mimet.2010.12.008\" pmid=\"21167876\" count=\"1\">2</citation>), the viral fraction has not. <sentence_start/>Here, we examined the diversity of bacteriophages capable of infecting <italic toggle=\"yes\">Escherichia coli</italic>. <sentence_start/>A single slurry sample from a dairy farm slurry tank in the East Midlands of the United Kingdom was collected. <sentence_start/>The titer of phage capable of infecting <italic toggle=\"yes\">Escherichia coli</italic> MG1655, was 4.43 × 10<sup>2</sup> (±1.2 × 10<sup>2</sup>) PFU/ml. <sentence_start/>A total of 30 bacteriophages were isolated, and 14 independent bacteriophage isolates were chosen at random for genome sequencing. <sentence_start/>Bacteriophage isolates were purified by a double overlay plaque assay (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1007/978-1-60327-164-6_7\" pmid=\"19066811\" count=\"1\">3</citation>). <sentence_start/>DNA was extracted from 1 mL of crude lysates using a modified phenol:chloroform extraction method (<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1016/S0168-6496(03)00247-2\" pmid=\"19719564\" count=\"1\">4</citation>). <sentence_start/>One nanogram of input DNA was used to prepare a genomic library for sequencing, using the Illumina Nextera XT DNA sample kit per the manufacturer’s protocol (Illumina, USA). <sentence_start/>Sequencing was performed on an Illumina MiSeq instrument using the paired-end 2 × 250-bp protocol (version 2). <sentence_start/>Reads were trimmed with Sickle (<citation rid=\"B5\" ref-type=\"bibr\" count=\"1\">5</citation>); genomes were assembled using SPAdes 3-1 with the “only-assembler” option (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1089/cmb.2012.0021\" pmid=\"22506599\" pmcid=\"PMC3342519\" count=\"1\">6</citation>). <sentence_start/>The sequence was further checked for errors by mapping reads against the resulting assembly with BWA-MEM using default settings, to correct any miscalled bases (<citation rid=\"B7\" ref-type=\"bibr\" count=\"1\">7</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The remapping of sequences allowed the complete circularly permuted genomes to be identified (slur02, slur03, slur04, slur07, slur08, slur11, slur13, and slur14). <sentence_start/>The exact termini of the remaining phages have not been experimentally determined. <sentence_start/>Assembled genomes were annotated with Prokka version 1.11 (<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btu153\" pmid=\"24642063\" count=\"1\">8</citation>) using a custom database constructed from all viral genomes available from EBI at the time. <sentence_start/>Bacteriophage genomes ranged in size from 43.9 kb (slur05) to 167.467 kb (slur08), and the G+C content ranged from 35.4% (slur14) to 54.5% (slur05). <sentence_start/>The most common type of bacteriophage isolated belonged to the genus <italic toggle=\"yes\">T4likevirus</italic>, with eight bacteriophage isolates (slur02, slur03, slur04, slur07, slur08, slur11, slur13, and slur14) within this genus. <sentence_start/>In comparison to the archetypal phage T4, these isolates contained far fewer endonuclease-encoding genes (e.g., <italic toggle=\"yes\">segD</italic>, <italic toggle=\"yes\">segC</italic>, <italic toggle=\"yes\">mobA</italic>, and <italic toggle=\"yes\">mobB</italic>). <sentence_start/>Homologues of the <italic toggle=\"yes\">b-gt</italic> gene that encodes for β-glucosyltransferase, which glucosylates phage DNA and provides protection from host restriction enzymes, were also absent. <sentence_start/>Two HK578-like viruses (slur05 and slur06), along with two phages closely related to bacteriophage rv5 (slur16 and slur12), a T5-like phage (slur09) and a single phage (slur01) that had a high similarity to the previously novel enterotoxigenic <italic toggle=\"yes\">E. coli</italic> phage Seurat (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1128/genomeA.00044-15\" pmid=\"25720682\" pmcid=\"PMC4342423\" count=\"1\">9</citation>), were also isolated. <sentence_start/>This collection of phages expands our knowledge of phages associated with cattle slurry."
+  },
+  {
+   "section": "article",
+   "text": "Nucleotide sequence accession numbers."
+  },
+  {
+   "section": "article",
+   "text": "This whole-genome shotgun project has been deposited at DDBJ/EMBL/GenBank under the accession numbers (slur01), (slur02), (slur03), (slur04), (slur05), (slur06), (slur07), (slur08), (slur09), (slur11), (slur12)<bold>,</bold> (slur 13), (slur14), and (slur16)."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Citation</bold> Smith R, O’Hara M, Hobman JL, Millard AD. 2015. <sentence_start/>Draft genome sequences of 14 <italic toggle=\"yes\">Escherichia coli</italic> phages isolated from cattle slurry. <sentence_start/>Genome Announc 3(6):e01364-15. <sentence_start/>doi:10.1128/genomeA.01364-15."
+  }
+ ]
+}

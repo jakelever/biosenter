@@ -1,0 +1,216 @@
+{
+ "pmid": 18389087,
+ "pmcid": 2287164,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Rarity of Somatic Mutation and Frequency of Normal Sequence Variation Detected in Sporadic Colon Adenocarcinoma Using High-Throughput cDNA Sequencing"
+  },
+  {
+   "section": "abstract",
+   "text": "We performed high-throughput cDNA sequencing in colorectal adenocarcinoma and matching normal colorectal epithelium. <sentence_start/>All six hundred three genes in the UCSC database that were expressed in colon cancers and contained open reading frames of 1000 nucleotides or less were selected for study (total basepairs/bp, 366,686). <sentence_start/>304,350 of these 366,686 bp (83.0%) were amplified and sequenced successfully. <sentence_start/>Seventy-eight sequence variants present in germline (i.e. normal) as well as matching somatic (i.e. tumor) DNA were discovered, yielding a frequency of 1 variant per 3,902 bp. <sentence_start/>Fifty-one of these sequence variants were homozygous (26 synonymous, 25 non-synonymous), while 27 were heterozygous (11 synonymous, 16 non-synonymous). <sentence_start/>Cancer tissue contained only one sequence-altered allele of the gene ATP50, which was present heterozygously alongside the wild-type allele in matching normal epithelium. <sentence_start/>Despite this relatively large number of bp and genes sequenced, no somatic mutations unique to tumor were found. <sentence_start/>High-throughput cDNA sequencing is a practical approach for detecting novel sequence variations and alterations in human tumors, such as those of the colon."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "It is widely believed that somatic as well as germline mutations play important roles in the origin and progression of colorectal cancers (<citation ref-type=\"bibr\" rid=\"b3-bbi-2007-001\" pmid=\"12353948\" doi=\"10.7326/0003-4819-137-7-200210010-00012\" count=\"1\">Calvert and Frucht, 2002</citation>). <sentence_start/>Many genes have been investigated for mutation to elucidate mechanisms of colorectal cancer development, with these investigations demonstrating the involvement of mutations in colorectal carcinogenesis and progression. <sentence_start/>Samuels et al. reported that PIK3CA, a catalytic subunit of the class IA phosphatidylinositol 3-kinases, was somatically mutated in 32% of colorectal cancers, resulting in the attenuation of apoptosis and facilitated tumor invasion(<citation ref-type=\"bibr\" rid=\"b13-bbi-2007-001\" pmid=\"15016963\" doi=\"10.1126/science.1096502\" count=\"1\">Samuels et al. 2004</citation>). <sentence_start/>A comprehensive study entitled, “The Tyrosine Phosphatome” was accomplished by sequencing all genes involved in tyrosine phosphorylation in a large cancer cohort consisting of 175 colorectal cancer patients(<citation ref-type=\"bibr\" rid=\"b19-bbi-2007-001\" pmid=\"15155950\" doi=\"10.1126/science.1096096\" count=\"1\">Wang et al. 2004</citation>). <sentence_start/>Most mutational studies, however, have been preoccupied with the prevalence of somatic mutations in a specific single candidate gene in relatively small colorectal cancer patient cohorts. <sentence_start/>Recently, Sjoblom et al. reported the genome-wide frequencies of somatically mutated genes in human breast and colorectal cancers(<citation ref-type=\"bibr\" rid=\"b17-bbi-2007-001\" pmid=\"16959974\" doi=\"10.1126/science.1133427\" count=\"1\">Sjoblom et al. 2006</citation>). <sentence_start/>However, the methods these used were extremely expensive, time-consuming, and labor-intensive for a typical laboratory to perform. <sentence_start/>More practical strategies, amenable to smaller laboratories with more conservative budgets, would be of great value in the continuing quest to answer questions in the fields of tumor genomics and mutatomics. <sentence_start/>To this end, we present herein a circumscribed, practical mutational study employing high-throughput cDNA sequencing in colon adenocarcinoma, in which we demonstrate the eminent feasibility and results of determining sequence variation efficiently and at low cost."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Tissue samples"
+  },
+  {
+   "section": "article",
+   "text": "Colorectal cancer and its matching normal colonic mucosa from a patient undergoing surgical resection at the Baltimore VA Hospital after signing informed research consent was used for this study. <sentence_start/>Clinicopathological data were as follows: 75 year-old male; moderately-differentiated colorectal adenocarcinoma of the ascending colon; tumor size, 2.5 × 1.1 × 0.5 cm; TNM stage (Fifth Edition of the TNM classification of the UICC, 1997), T2N0MX, without any other malignancies. <sentence_start/>Both colorectal adenocarcinoma and normal colonic epithelium (obtained at the location within the surgically resected specimen furthest from the tumor) were cut into smaller pieces and frozen in liquid nitrogen immediately after removal. <sentence_start/>A frozen aliquot of each specimen was crushed into pieces and lysed immediately in either TRIZOL reagent (Invitrogen Corp., Carlsbad, CA,) to extract total RNA, or lysis buffer of a DNeasy Tissue kit (QIAGEN Inc., Valencia, CA) to extract DNA, according to these manufacturers’ instructions."
+  },
+  {
+   "section": "article",
+   "text": "Cell lines"
+  },
+  {
+   "section": "article",
+   "text": "HeLa S3, HT29, HCT15, HCT116, LoVo, CaCo2, LS174T, LS411N, and DLD1, purchased from the American Type Culture Collection (ATCC), and KYSE30, 70, 110, 150, 220, 410, 770, 850 and OE33, obtained from Dr. Yutaka Shimada at Kyoto University in Japan (<citation ref-type=\"bibr\" rid=\"b16-bbi-2007-001\" pmid=\"1728357\" doi=\"10.1002/1097-0142(19920115)69:2&lt;277::aid-cncr2820690202&gt;3.0.co;2-c\" count=\"1\">Shimada et al. 1992</citation>), were enrolled in the current study in order to validate our findings in the ATP50 gene. <sentence_start/>Culture conditions for each cell line were according to ATCC and the establisher’s recommendations. <sentence_start/>All cell lines were supplemented with 10% fetal bovine serum plus an appropriate concentration of penicillin and streptomycin."
+  },
+  {
+   "section": "article",
+   "text": "Gene selection"
+  },
+  {
+   "section": "article",
+   "text": "To increase our chances of successfully amplifying and sequencing cDNAs, we restricted our study to genes that are known to be expressed in colorectal cancer cells, based on a gene expression database at the University of California, Santa Cruz (UCSC) [ ]. <sentence_start/>From among this gene set, we selected a subset of genes (approximately 600) containing open reading frames (ORFs) 1000 nucleotides or shorter in length. <sentence_start/>To automate design of the large number of primer sets required, we developed an in-house primer design algorithm based on the publicly available primer design software program, Primer3 ( ). <sentence_start/>PCR products were designed to range from 300 to 500 bp in length. <sentence_start/>ORFs of cDNAs longer than 500 bp were divided into 2 or 3 fragments; primers were then designed with adjacent fragments overlapped, in order to completely cover these longer ORFs. <sentence_start/>Finally, for each heterozygous sequence alteration, genomic DNA primers (available on request) were designed to confirm cDNA sequencing results."
+  },
+  {
+   "section": "article",
+   "text": "RT-PCR"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA extracted from colorectal adenocarcinoma and normal colonic epithelium was reverse-transcribed using a SuperScript III First-Strand kit (Invitrogen, Carlsbad, CA), and respective cDNA pools were made. <sentence_start/>RT-PCR was performed using an AccuPrime Supermix I Kit (Invitrogen). <sentence_start/>The PCR protocol was as follows: 1 min at 96 °C followed by 35 cycles of 30 sec at 94 °C, 45 sec at 58 °C, and 1 min at 72 °C. <sentence_start/>Secondary PCR was performed on purified template from the first RT-PCR product, using the same protocol."
+  },
+  {
+   "section": "article",
+   "text": "Sequencing"
+  },
+  {
+   "section": "article",
+   "text": "A BigDye Terminator v3.1 Kit (Applied Biosystems, Foster City, CA) was used for the sequencing reaction, and sequence products were read on an SCE 9610 automated 96-capillary sequencer (Spectruby BaseSpectrum v2.10 (SpectruMedix) and analyzed with Mutation Surveyor v2.2 (SoftGenetics LLC, State College, PA). <sentence_start/>Each time candidate sequence alterations were discovered in cDNA from colorectal cancer tissue, identical procedures were followed in matched normal epitheliam to confirm whether or not they represented somatic alterations. <sentence_start/>After candidate alterations were confirmed, the entire procedure was repeated separately on a fresh aliquot of cDNA from both the cancer and normal specimens in order to exclude amplification or technical errors due to two-stage PCR. <sentence_start/>Genomic DNA sequencing was also performed on heterozygous sequence variants to confirm that identical sequence alterations were present in genomic DNA."
+  },
+  {
+   "section": "article",
+   "text": "Methylation-specific PCR (MSP)"
+  },
+  {
+   "section": "article",
+   "text": "Because the gene ATP50 was apparently mutated, raising the possibility that it was a tumor suppressor gene, we evaluated this gene for alternative inactivation via promoter hypermethylation. <sentence_start/>MSP primer sequences of ATP50 for the methylated reaction were: forward (5′-CGAGTGGGAGC-GATTTAGGAC-3′) and reverse (5′-AACGC-CAAAATTACGACACG-3′), which amplify a 94-bp product. <sentence_start/>β-actin was selected as an internal control gene, using previously published MSP primers (<citation ref-type=\"bibr\" rid=\"b7-bbi-2007-001\" pmid=\"11309301\" count=\"1\">Eads et al. 2001</citation>). <sentence_start/>CpGenome Universal Methylated DNA (Chemicon International, Inc., Temecula, CA) was used as a positive control. <sentence_start/>The detailed MSP procedure has been previously published (<citation ref-type=\"bibr\" rid=\"b14-bbi-2007-001\" pmid=\"11861396\" count=\"1\">Sato et al. 2002</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Microsatellite instability (MSI) assay"
+  },
+  {
+   "section": "article",
+   "text": "MSI at each locus was determined by analyses of the length of each PCR-amplified microsatellite. <sentence_start/>MSI status was confirmed by MSI assays at five consensus loci (BAT25, BAT26, D2S123, D5S346, and D17S250) according to criteria from a National Cancer Institute workshop (<citation ref-type=\"bibr\" rid=\"b2-bbi-2007-001\" pmid=\"9823339\" count=\"1\">Boland et al. 1998</citation>). <sentence_start/>Detailed procedures were as previously described (<citation ref-type=\"bibr\" rid=\"b11-bbi-2007-001\" pmid=\"11507051\" count=\"1\">Mori et al. 2001</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Project overview"
+  },
+  {
+   "section": "article",
+   "text": "A total of 603 genes (S-Table 1) were selected based on their length (under 1,000 bp) and their predicted expression in colorectal cancers according to the UCSC database. <sentence_start/>One thousand thirty-eight primer pairs (available on request) were designed to cover the entire ORFs (total bp, 366,687) of these 603 genes. <sentence_start/>Sequence data from 862 (83.0%) of these 1,038 primer sets were successfully analyzed, meaning that approximately 304,350 total bp were successfully sequenced (all primer sets for RT-PCR and cDNA sequencing are available on request)."
+  },
+  {
+   "section": "article",
+   "text": "Sequence variants"
+  },
+  {
+   "section": "article",
+   "text": "Seventy-eight sequence variants within 50 genes were found among the 603 genes studied (Table 1) (S-Table 2 for detailed information). <sentence_start/>Thus, the frequency of sequence variants was 1 per 3,902 bp (78 total variants/304,350 total bp). <sentence_start/>Of these 78 sequence alterations, 51 were homozygous (26 synonymous, 25 non-synonymous) and 27 were heterozygous (11 synonymous, 16 non-synonymous). <sentence_start/>All sequence alterations were detected in both colorectal cancer tissue and matched normal colonic epithelium, with the exception of an alteration in the gene ATP50 ( ), which manifested a unique expression mechanism (Fig. 1). <sentence_start/>Forty-four sequence alterations had been previously reported, but 34 sequence alterations were completely novel, having never been reported in the SNP database at The National Center for Biotechnology Information (NCBI)."
+  },
+  {
+   "section": "article",
+   "text": "Tumor-specific regulation of gene expression"
+  },
+  {
+   "section": "article",
+   "text": "Tumor-specific regulation of gene expression was found for (ATP50, Homo sapiens ATP synthase, H+ transporting, mitochondrial F1 complex, O subunit). <sentence_start/>The sequence alterations T108C (GGT to GGC, homozygous, Gly36Gly) and A218G (AAA to AAG, homozygous, Lys73Arg) were observed only in cancer-derived cDNA, while the alterations T108TC (CGT and GGC, heterozygous, 36Gly) and A218AG (AAA and AAG, heterozygous, 73Lys and 73 Arg) were observed in cDNA from normal epithelium. <sentence_start/>Surprisingly, both T108TC (CGT and GGC, heterozygous, 36Gly) and A218AG (AAA and AAG, heterozygous, 73Lys and 73 Arg), which were identical to the two alterations observed in normal cDNA, were observed in genomic DNA from both cancer and normal tissue (Figures 2, 3). <sentence_start/>This result implied that the cancer exhibited monoallelic expression from the variant allele of ATP50, while the normal epithelium manifested biallelic heterozygous expression, i.e. from both the reported normal allele and our discovered variant mutant allele simultaneously."
+  },
+  {
+   "section": "article",
+   "text": "MSP"
+  },
+  {
+   "section": "article",
+   "text": "One possible mechanism for monoallelic expression observed for ATP50 was DNA methylation of its promoter region. <sentence_start/>MSP showed, however, that there was no methylation of the ATP50 promoter in colorectal cancer (S-Fig. 1)."
+  },
+  {
+   "section": "article",
+   "text": "Somatic mutations"
+  },
+  {
+   "section": "article",
+   "text": "There were no somatic mutations found among the 603 genes studied or within the p53 gene."
+  },
+  {
+   "section": "article",
+   "text": "MSI status"
+  },
+  {
+   "section": "article",
+   "text": "MSI assays showed that there was no microsatellite instability in genomic DNA (S-Fig. 2)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In the current study, we assumed that if a mutant protein was involved in carcinogenesis or tumor progression, this mutant would be expressed and therefore detectable in tumor mRNA. <sentence_start/>i.e. we assumed that somatic mutations involved in carcinogenesis or tumor progression would be detectable by direct cDNA sequencing. <sentence_start/>By using this strategy, we avoided the need for sequencing each exon of genomic DNA, reasoning that genes which are never expressed in normal or malignant colon probably do not participate in colorectal carcinogenesis. <sentence_start/>We discovered 78 sequence variants (44 of which had been previously reported as single-nucleotide polymorphisms, but 34 of which had never been reported) among the 603 genes (304,350 bp of ORFs) studied.",
+   "note": "Source text genuinely has 'tumor mRNA. i.e. we assumed...' with a full stop (not a comma) before 'i.e.' -- ambiguous whether the author intended two sentences or a restatement clause. Left as the model split it (two sentences)."
+  },
+  {
+   "section": "article",
+   "text": "Recently, Sjoblom T. et al. performed genome-wide sequencing in breast and colorectal cancers, revealing that an average of 52 mutations occurred in each colorectal cancer(<citation ref-type=\"bibr\" rid=\"b17-bbi-2007-001\" pmid=\"16959974\" doi=\"10.1126/science.1133427\" count=\"1\">Sjoblom et al. 2006</citation>). <sentence_start/>According to the article by Sjoblom et al. the somatic mutation frequency in colon cancers was 3.2 somatic mutations/Mb, on average (Table 1 of their paper). <sentence_start/>Therefore, the probability of our finding zero somatic mutations among the 603 genes (304,350 bp) that we studied was 37.76% (please see formula below), suggesting that our findings were statistically quite consistent with Sjoblom’s results:"
+  },
+  {
+   "section": "article",
+   "text": "The Sjoblom team also defined “CAN-genes” (candidate cancer genes) as those that were frequently mutated in colorectal cancers, and found that 69 genes could be included in this category. <sentence_start/>Although the CAN-genes KRAS, GNAS and TP53 were studied by us, no somatic mutations were found in these genes. <sentence_start/>Furthermore, in addition to the genes mentioned above, NRAS, HRAS, p16, and p27 were included in the current study, but these genes also contained no somatic mutations. <sentence_start/>Finally, results of MSI assays revealed MS-stability (MSS), implying an absence of mutations in the major DNA mismatch repair genes (although these genes were not studied due to their long ORFs). <sentence_start/>It is possible that other molecular pathogenetic pathways were involved in this colorectal tumorigenesis, such as those containing APC, MCC, DCC, or the TGF-β cascade: these genes were also not examined in the current study due to ORF length."
+  },
+  {
+   "section": "article",
+   "text": "Approximately 24,000,000 bp among the entire genomic DNA sequence are reported as ORFs in the UCSC database. <sentence_start/>The average density of each SNP is once per 1.9 kilobases (i.e. 1,419,190 SNPs/2.7 gigabases of human genome sequence)(<citation ref-type=\"bibr\" rid=\"b12-bbi-2007-001\" pmid=\"11237013\" doi=\"10.1038/35057149\" count=\"1\">Sachidanandam et al. 2001</citation>). <sentence_start/>We sequenced 304,350 bp of ORFs (<italic toggle=\"yes\">viz.,</italic> 1.26% of the total ORFs in the UCSC database: 304,350 bp/24,000,000 bp) and discovered 78 sequence variants, yielding a frequency of 1 alteration per 3,902 bp (78/304,350 bp). <sentence_start/>Our observed sequence variant distribution may provide a basis with which to estimate the number of SNPs in a single individual with colon cancer. <sentence_start/>That is, the SNPs reported above are one possible subset of the entire database; there is no guarantee that a given individual will always harbor all SNPs in the database."
+  },
+  {
+   "section": "article",
+   "text": "The human ATP50 gene ( , ), encoding a 213-amino acid ATP synthase OSCP subunit, is a key structural component of the stalk of the mitochondrial respiratory chain F<sub>1</sub>F<sub>0</sub>-ATP synthase, which is a vital element in the cellular pathway of energy conversion (<citation ref-type=\"bibr\" rid=\"b15-bbi-2007-001\" pmid=\"2892214\" doi=\"10.1152/physrev.1988.68.1.177\" count=\"1\">Senior, 1988</citation>). <sentence_start/>Although a mutant strain of yeast in which the delta subunit of F<sub>1</sub>F<sub>0</sub>-ATP synthase had been inactivated by insertional mutagenesis showed little or no ATPase activity(<citation ref-type=\"bibr\" rid=\"b9-bbi-2007-001\" pmid=\"8026496\" doi=\"10.1111/j.1432-1033.1994.tb18932.x\" count=\"1\">Giraud and Velours, 1994</citation>), and dysfunction of ATP synthase can cause a variety of degenerative diseases(<citation ref-type=\"bibr\" rid=\"b18-bbi-2007-001\" pmid=\"8090716\" doi=\"10.1073/pnas.91.19.8739\" pmcid=\"PMC44682\" count=\"1\">Wallace, 1994</citation>), there have been no previous reports detailing a relationship between ATP synthase and tumorigenesis. <sentence_start/>We found restricted monoallelic (i.e. monoallelically silenced) expression of an altered allele from ATP50 in our colon cancer tissue, which would be expected to exert the same effect as would a somatic mutation of this gene. <sentence_start/>Genomic DNA sequencing of ATP50 revealed that this monoallelic expression was not due to LOH. <sentence_start/>We therefore studied the methylation status of the CpG island in the promoter region of ATP50 by MSP, but we found no methylation of this region. <sentence_start/>Other epigenetic mechanisms, such as histone deacetylation, might have contributed to monoallelic expression of ATP50. <sentence_start/>There was no monoallelic expression of ATP50 in 20 cancer cell lines that we examined. <sentence_start/>Although monoallelic expression of this altered ATP50 allele may be involved in a subset of colorectal cancers, further study is required to clarify the potential functional role of this gene in carcinogenesis."
+  },
+  {
+   "section": "article",
+   "text": "This study poses several advantages as well as limitations. <sentence_start/>Firstly, it has been reported that some synonymous mutations may influence the stability of mRNA(<citation ref-type=\"bibr\" rid=\"b6-bbi-2007-001\" pmid=\"14745538\" doi=\"10.1007/s00239-003-2519-1\" count=\"1\">Duan and Antezana, 2003</citation>; <citation ref-type=\"bibr\" rid=\"b4-bbi-2007-001\" pmid=\"16168082\" doi=\"10.1186/gb-2005-6-9-r75\" pmcid=\"PMC1242210\" count=\"1\">Chamary and Hurst, 2005</citation>) because they affect the thermodynamic stability of mRNA secondary structures (<citation ref-type=\"bibr\" rid=\"b8-bbi-2007-001\" pmid=\"4416342\" doi=\"10.1007/BF01796043\" count=\"1\">Fitch, 1974</citation>; <citation ref-type=\"bibr\" rid=\"b10-bbi-2007-001\" pmid=\"1152488\" doi=\"10.1016/0022-5193(75)90039-9\" count=\"1\">Klambt, 1975</citation>). <sentence_start/>Nonsense-mediated mRNA decay (NMD) is also known as a surveillance pathway that rapidly degrades mRNAs containing premature termination codons(<citation ref-type=\"bibr\" rid=\"b5-bbi-2007-001\" pmid=\"12672499\" doi=\"10.1016/s0959-437x(03)00014-5\" count=\"1\">Culbertson and Leeds, 2003</citation>; <citation ref-type=\"bibr\" rid=\"b1-bbi-2007-001\" pmid=\"16723977\" doi=\"10.1038/nrm1942\" count=\"1\">Amrani et al. 2006</citation>). <sentence_start/>These mechanisms may cause instability of mRNA, accelerate the degradation of mRNA, and consequently result in difficulty in detecting sequence alterations by cDNA sequencing. <sentence_start/>Since we used cDNA as our starting material for sequencing, we may have ignored some key genes because of RNA degradation. <sentence_start/>Nevertheless, many sequence variants were detected reasonably well in the current study, suggesting that degradation of mRNA occurred rarely, if at all, as a consequence of sequence alterations. <sentence_start/>Instead, we considered it more important to increase our chances of finding sequence alterations by using cDNA rather than genomic DNA because of the lower cost, time, and labor involved in sequencing cDNA, as well as the increased relevance of only studying genes that are expressed in the colon."
+  },
+  {
+   "section": "article",
+   "text": "Secondly, it is conceivable that we lost some gene sequence information due to extremely low expression levels. <sentence_start/>Therefore, we employed two-stage PCR to increase our chances of successful sequencing, thereby achieving a relatively high success rate of 862/1,038 reactions, or 83.0%. <sentence_start/>Possibly, this result still may have included genes that were not expressed in our particular colorectal cancer, even though we used the UCSC database to select genes that were purportedly expressed in colorectal cancers. <sentence_start/>Our sequencing success rate appears favorable when compared to genomic DNA sequencing, where 92% of genes were successfully analyzed (<citation ref-type=\"bibr\" rid=\"b19-bbi-2007-001\" pmid=\"15155950\" doi=\"10.1126/science.1096096\" count=\"1\">Wang et al. 2004</citation>). <sentence_start/>The total number of exons sequenced in our study was 2107, implying that at least 2107 primer pairs would have been necessary to conduct this study had it been attempted by genomic DNA sequencing; in contrast, we accomplished this task using only 1038 primer sets for cDNA sequencing. <sentence_start/>This contrast demonstrates that our method is useful to explore mutations because it is not only more cost-effective, but also less demanding in time and labor."
+  },
+  {
+   "section": "article",
+   "text": "Supplement Material"
+  },
+  {
+   "section": "article",
+   "text": "S-Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "Result of MSP for ATP50. (A) Bisulfited DNA from cancer tissue, normal tissue, and HT29 were used. <sentence_start/>The MSPs for ATP50 were triplicated. <sentence_start/>The MSP product for ATP50 was 94 bp and beta actin was 133bp. <sentence_start/>(B) Universal methylated DNA was used for the positive control in various amounts. <sentence_start/>M.W., molecular weight."
+  },
+  {
+   "section": "article",
+   "text": "S-Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "A representative result of MSI typing. <sentence_start/>Both cancer and normal tissue showed microsatellite stable in the marker of D5S346 and D17S250. <sentence_start/>The similar results were obtained in the marker of D2S123, BAT25, and BAT26."
+  },
+  {
+   "section": "back",
+   "text": "Please note that this article may not be used for commercial purposes. <sentence_start/>For further information please refer to the copyright statement at"
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1."
+  },
+  {
+   "section": "floating",
+   "text": "<bold>cDNA sequencing of ATP50.</bold> <sentence_start/>Two different alteration sites were detected. <sentence_start/>At the 108th nucleotide, colorectal cancer tissue had only a mutant cytosine nucleotide, while normal colon contained both a thymine (wild) and a cytosine (mutant). <sentence_start/>Both codons GGT and GGC encoded glycine (synonymous alteration). <sentence_start/>At the 218th mucleotide, colorectal cancer tissue had only a mutant guanine nucleotide, while normal tissue contained both an adenine (wild) and a guanine (mutant). <sentence_start/>AAA encoded lysine and AGA encoded arginine (non-synonymous alteration). <sentence_start/><italic toggle=\"yes\">Gly</italic>, glycine; <italic toggle=\"yes\">Arg</italic>, arginine."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2."
+  },
+  {
+   "section": "floating",
+   "text": "<bold>Representative result of cDNA sequencing of ATP50 in normal and cancer tissues.</bold> <sentence_start/>The <italic toggle=\"yes\">red box</italic> in the <italic toggle=\"yes\">left panel</italic> shows the 36th codon, while the <italic toggle=\"yes\">red box</italic> in the <italic toggle=\"yes\">right panel</italic> shows the 73rd codon. <sentence_start/>All alterations were confirmed by both forward and reverse sequencing."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3."
+  },
+  {
+   "section": "floating",
+   "text": "<bold>Genomic DNA sequencing of ATP50 in normal and cancer tissues.</bold> <sentence_start/><italic toggle=\"yes\">Upper panels,</italic> forward sequencing; <italic toggle=\"yes\">lower panels,</italic> reverse sequencing. <sentence_start/>The <italic toggle=\"yes\">red boxes</italic> show the 36th and 73rd codons. <sentence_start/>Both normal and colorectal cancer tissues contain identical heterozygosities at the 108th and 218th nucleotides."
+  }
+ ]
+}

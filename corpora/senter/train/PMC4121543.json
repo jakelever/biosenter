@@ -1,0 +1,495 @@
+{
+ "pmid": 25097820,
+ "pmcid": 4121543,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Involvement of cortical midline structures in the processing of autobiographical information"
+  },
+  {
+   "section": "abstract",
+   "text": "The term autobiographical self has been used to refer to a mental state that permits reflection on self-identity and personality and the answer to related questions (<citation rid=\"ref-13\" ref-type=\"bibr\" doi=\"10.1098/rstb.1998.0339\" pmcid=\"PMC1692416\" pmid=\"9854259\" count=\"1\">Damasio, 1998</citation>). <sentence_start/>It requires the retrieval and integrated assembly of memories of facts and events that define an individual’s biography. <sentence_start/>The neural mechanisms behind this state have not been fully elucidated, but it has been suggested that cortical midline structures (CMSs) are critically involved in processing self-related information. <sentence_start/>To date, the investigation of the involvement of CMSs in autobiographical-self processes has largely focused on the comparison between self and other in relation to one domain of information, personality traits, and has yielded conflicting results. <sentence_start/>Here, we investigated how activity in CMSs varies with (1) the target of the information (self versus an acquaintance), (2) the domain of information (personality traits versus facts), and (3) differences across individuals regarding how descriptive and how important/relevant the information targeted by the questions was, and regarding the amount of memory retrieved in order to answer the questions. <sentence_start/>We used an fMRI block-design in which 19 participants answered questions about traits and biographic facts, in relation to themselves and a distant acquaintance. <sentence_start/>In addition, the participants rated the descriptiveness and importance of the information targeted by the questions, and estimated the amount of memory retrieved to answer the questions. <sentence_start/>Our results showed that CMSs were active for both facts and traits and for both self and other, and that the level of activity in the posteromedial cortices was generally higher for other than for self. <sentence_start/>Moreover, the activity in CMSs also varied with the amount of memory retrieved to answer the questions and with descriptiveness and importance of the information. <sentence_start/>These findings suggest that involvement of CMSs during the evaluation of information is not specific for self, and depends on varied factors related to memory retrieval prompted by the questions and to processes required to answer them."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The term autobiographical self has been used to refer to a mental state that enables an individual to reflect on self-identity and personality, and to answer related questions (<citation rid=\"ref-13\" ref-type=\"bibr\" doi=\"10.1098/rstb.1998.0339\" pmcid=\"PMC1692416\" pmid=\"9854259\" count=\"1\">Damasio, 1998</citation>). <sentence_start/>This state requires retrieval and integrated assembly of memories of facts and events defining an individual’s biography. <sentence_start/>The neural mechanisms behind autobiographical-self processes have not been fully elucidated but it has been suggested that cortical midline structures (CMSs), particularly the medial prefrontal (MPFC), and posteromedial cortices (PMC), are critically involved in processing self-related information (<citation rid=\"ref-40\" ref-type=\"bibr\" doi=\"10.1016/j.tics.2004.01.004\" pmid=\"15301749\" count=\"1\">Northoff &amp; Bermpohl, 2004</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "To date, the investigation of the involvement of CMSs in autobiographical-self processes has often focused on the comparison between “self” and “other” in relation to one domain of information, personality traits, and has yielded conflicting results as has been noted by others (<citation rid=\"ref-28\" ref-type=\"bibr\" doi=\"10.1037/a0014172\" pmid=\"19159156\" count=\"1\">Legrand &amp; Ruby, 2009</citation>). <sentence_start/>For example, self-traits, contrasted with other-traits, revealed greater activity in the MPFC and PMC (e.g., <citation rid=\"ref-12\" ref-type=\"bibr\" doi=\"10.1162/jocn.2007.19.6.935\" pmid=\"17536964\" count=\"1\">D’Argembeau et al., 2007</citation>); but elsewhere, other-traits contrasted with self-traits yielded greater activity in these same regions (e.g., <citation rid=\"ref-44\" ref-type=\"bibr\" doi=\"10.1162/jocn.2007.19.8.1323\" pmid=\"17651006\" pmcid=\"PMC3407805\" count=\"1\">Pfeifer, Lieberman &amp; Dapretto, 2007</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Interestingly, both the MPFC and PMC have been shown to consist of highly connected hubs (<citation rid=\"ref-51\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2011.05.024\" pmid=\"21609769\" pmcid=\"PMC3129362\" count=\"1\">Tomasi &amp; Volkow, 2011</citation>) and to be part of the so-called default network, yielding greater activity for internally oriented tasks than for externally oriented tasks (<citation rid=\"ref-7\" ref-type=\"bibr\" doi=\"10.1196/annals.1440\" pmid=\"18400922\" count=\"1\">Buckner, Andrews-Hanna &amp; Schacter, 2008</citation>). <sentence_start/>These regions do not appear to support processes specific to self but are rather able to assist varied processes involving internally generated representations. <sentence_start/>Moreover, we theorize that the involvement of CMSs during evaluative tasks used to investigate the autobiographical self relates to the processes that underlie those tasks, namely, memory retrieval prompted by the questions and the decisions needed to answer the questions, similarly to what has been proposed by other authors (<citation rid=\"ref-28\" ref-type=\"bibr\" doi=\"10.1037/a0014172\" pmid=\"19159156\" count=\"1\">Legrand &amp; Ruby, 2009</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Accordingly, we hypothesize that the level of activity in CMSs during such tasks is likely to be commensurate with the level of processing related to memory retrieval (which depends, for example, on the effort in retrieving the memories and on the complexity of the retrieved memories), and to be related to decision making (which depends, for example, on the effort involved in the decision). <sentence_start/>Thus rather than being necessarily greater for self than for other, activity in CMSs may vary with: (1) the target of the evaluation (e.g., whether it pertains to self, to a close other, or to a distant other); (2) the domain of information being evaluated (e.g., personality traits or demographic facts); and (3) differences across participants regarding the information they have to evaluate (e.g., differences in relation to how well the information describes self and other, and to the importance the information has to the participants’ image of self or of other)."
+  },
+  {
+   "section": "article",
+   "text": "The above factors have already been shown to contribute to differences in behavioral tasks (e.g., response times to the questions) between self and other (<citation rid=\"ref-50\" ref-type=\"bibr\" doi=\"10.1037/0033-2909.121.3.371\" pmid=\"9136641\" count=\"1\">Symons &amp; Johnson, 1997</citation>), but have only been partly investigated in neuroimaging studies. <sentence_start/>Specifically, it has been established that brain activity during the evaluation of traits depends on the target of that evaluation. <sentence_start/>For example, the difference of activity in the MPFC between self and other has been shown to depend on who the other is in relation to self (i.e., whether it is a close or a distant other) (<citation rid=\"ref-17\" ref-type=\"bibr\" doi=\"10.1162/jocn_a_00233\" pmid=\"22452556\" pmcid=\"PMC3806720\" count=\"1\">Denny et al., 2012</citation>). <sentence_start/>The contribution of the other factors, however, needs further investigation."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we tested the above set of hypotheses and investigated how brain activity varies according to the factors listed above. <sentence_start/>To do so we conducted an fMRI block-design study, in which participants answered questions about biographical information. <sentence_start/>The questions varied in terms of the target of evaluation and the domain of information being evaluated. <sentence_start/>In addition, differences across participants in relation to the information being evaluated were measured after scanning. <sentence_start/>We used an active baseline (the one-back task) to obtain a strong contrast between the experimental conditions and the baseline. <sentence_start/>We expected this baseline task to suspend the introspective processes likely to occur during rest or poorly engaging tasks, and to deactivate CMSs, given that CMSs are known to be especially active during rest (as reviewed in <citation rid=\"ref-7\" ref-type=\"bibr\" doi=\"10.1196/annals.1440\" pmid=\"18400922\" count=\"1\">Buckner, Andrews-Hanna &amp; Schacter, 2008</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The target of the evaluation in our study was the participant (self) or a distant acquaintance of the participant (other). <sentence_start/>This choice of other was made in the hope of attaining a clear distinction between self and other, and is, as explained above, likely to be a decisive factor in the differences of brain activity between self and other. <sentence_start/>Memories for a distant acquaintance are probably less numerous, less frequently retrieved, and less readily accessible than autobiographical memories. <sentence_start/>In addition, it is likely that individuals are more likely to abstract summary representations for information pertaining to themselves or close acquaintances than for information pertaining to distant acquaintances (<citation rid=\"ref-18\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.69.5.961\" pmid=\"7473041\" count=\"1\">Fuhrman &amp; Funder, 1995</citation>). <sentence_start/>Accordingly, we expected that in our study, compared with evaluating other, evaluating self should require a lower level of processing memory retrieval and decision-making and thus should yield a lower level of related activity in CMSs."
+  },
+  {
+   "section": "article",
+   "text": "The study included two domains of information: personality traits and basic facts that define one’s identity (e.g., age, height, nationality and occupation), to which we refer as “biographic facts” (Fig. 1). <sentence_start/>Although both of these information domains are part of the general knowledge a person is likely to hold regarding one self (<citation rid=\"ref-25\" ref-type=\"bibr\" doi=\"10.1111/j.1749-6632.2010.05441.x\" pmid=\"20392272\" count=\"1\">Klein &amp; Gangi, 2010</citation>), biographic facts are significantly different from personality traits (<citation rid=\"ref-24\" ref-type=\"bibr\" doi=\"10.1521/soco.1992.10.1.79\" count=\"1\">Keenan, Golding &amp; Brown, 1992</citation>). <sentence_start/>Specifically, biographic facts are objective, indisputable and easily verifiable (e.g., the personal information contained in one’s drivers license or identity card). <sentence_start/>On the other hand, personality traits (e.g., honesty) are classified in terms of terms of valence and desirability (<citation rid=\"ref-1\" ref-type=\"bibr\" doi=\"10.1037/h0025907\" pmid=\"5666976\" count=\"1\">Anderson, 1968</citation>) and are generally associated with an emotional significance (<citation rid=\"ref-26\" ref-type=\"bibr\" count=\"1\">Klein &amp; Loftus, 1993</citation>). <sentence_start/>Moreover, the judgment of our personality traits depends on our life experience. <sentence_start/>The number of daily experiences that provide knowledge regarding certain personality traits may be very limited and thus one’s representations for those traits may remain relatively ambiguous (<citation rid=\"ref-27\" ref-type=\"bibr\" doi=\"10.1177/014616728173012\" count=\"1\">Kuiper, 1981</citation>). <sentence_start/>In brief, compared with facts, traits are less objective and less easily verifiable and hold a greater emotional significance. <sentence_start/>Thus the processes of memory retrieval and decision-making pertaining to the evaluation of traits are likely to evoke greater emotional responses and related brain activity than those processes pertaining to the evaluation of facts."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Experimental conditions used in the fMRI study."
+  },
+  {
+   "section": "article",
+   "text": "The conditions varied according to the target of the evaluation (self versus other) and to the domain of information evaluated (personality traits versus biographic facts)."
+  },
+  {
+   "section": "article",
+   "text": "We assessed differences regarding how biographical information was processed by the participants, by using three measures: descriptiveness (i.e., the ratings of how well the content of the questions described self or other); importance (i.e., how important the content of the questions was to address the participants’ self-image or the participants’ image of their acquaintances); and amount of memory retrieved to answer the questions (i.e., the participants’ estimates of number of episodes retrieved to answer the questions) (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Descriptiveness has been shown to relate to participants’ response times to the questions about self (e.g., <citation rid=\"ref-32\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.35.2.63\" count=\"1\">Markus, 1977</citation>). <sentence_start/>Specifically, it has been shown that the response times to self-trait questions are shorter for traits considered highly descriptive or highly non-descriptive (i.e., unambivalent) traits, than for traits that are considered intermediately descriptive (ambivalent) traits. <sentence_start/>Furthermore, this difference of processing time may occur because individuals are more likely to hold unambivalent cognitive generalizations (self-schemata, <citation rid=\"ref-32\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.35.2.63\" count=\"1\">Markus, 1977</citation>) or summary representations (<citation rid=\"ref-26\" ref-type=\"bibr\" count=\"1\">Klein &amp; Loftus, 1993</citation>) for highly descriptive or highly non-descriptive traits than for intermediately descriptive traits. <sentence_start/>For these reasons, we believe that the level of CMSs activity should be lower for individuals that considered the information highly descriptive or highly non-descriptive because these individuals are likely to require lower level of processing related to memory retrieval and decision making to answer the questions. <sentence_start/>To test this, we assessed the participants’ ratings for descriptiveness and used those ratings to compute a measure of how ambivalent the information was considered. <sentence_start/>Specifically, <italic toggle=\"yes\">descriptive ambivalence</italic> scores ranged from 0 (information that the participants rated as highly descriptive or highly non-descriptive) to 2 (information that the participants rated as equally descriptive and non-descriptive)."
+  },
+  {
+   "section": "article",
+   "text": "In addition, the importance of biographical information has also been shown to be relevant in understanding behavioral measures of processing information (<citation rid=\"ref-32\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.35.2.63\" count=\"1\">Markus, 1977</citation>). <sentence_start/>We used this measure to complement the information provided by the descriptiveness. <sentence_start/>An individual’s importance rating for a biographic datum (independently of its descriptiveness) probably reflects the likelihood of having given prior consideration to that information, and thus the likelihood of having a summary representation for it. <sentence_start/>Consequently, the level of CMSs activity should also be lower for individuals who considered the information more important because these individuals probably required lower level of processing related to memory retrieval and decision making to answer the questions."
+  },
+  {
+   "section": "article",
+   "text": "The participants’ estimates of number of episodes retrieved to answer the questions were used to assess how much retrieval of specific events or episodes each condition required. <sentence_start/>Behavioral studies have shown that judging personality traits for both self and other may rely on relatively more effortful process of retrieving of specific episodes (exemplars) or on a relatively less effortful process of retrieving summary representations (<citation rid=\"ref-26\" ref-type=\"bibr\" count=\"1\">Klein &amp; Loftus, 1993</citation>). <sentence_start/>Accordingly, we expected that level of CMSs activity should be higher for individuals who estimated greater amount of memory retrieved to answer the questions because these individuals probably required higher level of processing related to memory retrieval and decision-making."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Participants"
+  },
+  {
+   "section": "article",
+   "text": "Twenty native English speakers, right-handed, with no history of neurological diseases, were recruited from the University of Southern California community. <sentence_start/>The participants were paid for their participation, and provided written informed consent following the Institutional and Federal Guidelines. <sentence_start/>Data from one participant had to be excluded due to motion artifacts. <sentence_start/>The final sample comprised 19 participants (10 female, and 9 male; 20.1 ± 1.3 years old)."
+  },
+  {
+   "section": "article",
+   "text": "Materials and procedures"
+  },
+  {
+   "section": "article",
+   "text": "Before scanning, participants were asked to select an acquaintance of the same gender, whom they knew well enough to answer questions about his/her personality and life in general, but with whom they did not have a strong emotional connection (similar criteria to those used by <citation rid=\"ref-35\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0004618.t002\" pmcid=\"PMC2643476\" pmid=\"19242539\" count=\"1\">Modinos, Ormel &amp; Aleman (2009)</citation>). <sentence_start/>Mean age of the acquaintances was 20 (<italic toggle=\"yes\">SD</italic> = 1.2) years old, and mean duration of acquaintanceship was 25.8 (<italic toggle=\"yes\">SD</italic> = 27.95) months."
+  },
+  {
+   "section": "article",
+   "text": "The stimuli were questions organized in four conditions (Fig. 1): (i) self-traits, in which the participants were asked to judge if specific personality traits described them accurately (e.g., “Does the word honest describe you?”); (ii) self-facts, in which participants were asked to verify if specific autobiographical facts were correct (e.g., “Are you a student?”); (iii) other-traits, in which the participants were asked to judge if specific personality traits described their acquaintances properly (e.g., “Does the word honest describe him [or her]?”); (iv) other-facts, in which the participants were asked to verify if specific biographical facts about their acquaintances were correct (e.g., “Is he [or she] a student?”). <sentence_start/>The content of the questions was the same for self and for other (Table S1). <sentence_start/>The trait-questions comprised 27 negative traits and 27 positive traits, and derived from a published list of personality traits rated for likableness and meaningfulness (<citation rid=\"ref-1\" ref-type=\"bibr\" doi=\"10.1037/h0025907\" pmid=\"5666976\" count=\"1\">Anderson, 1968</citation>). <sentence_start/>Negative traits were selected among the most disliked adjectives from that list, and positive traits were selected among the most liked adjectives from the list; in both cases, only the traits with the highest meaningfulness scores were selected. <sentence_start/>The fact-questions covered general aspects of one’s life, such as age, height, weight, ethnicity, nationality, occupation, typical means of transportation, household and physical appearance. <sentence_start/>The participants had three options to answer the questions: “yes”; “no”; or other (when the participants did not know the correct answer, or did not consider “yes” or “no” as the correct answer)."
+  },
+  {
+   "section": "article",
+   "text": "We used MATLAB (The Mathworks) and Psychophysics Toolbox Version 3 (<citation rid=\"ref-6\" ref-type=\"bibr\" doi=\"10.1163/156856897X00357\" pmid=\"9176952\" count=\"1\">Brainard, 1997</citation>) to present the stimuli (projected on a screen, which the participants saw through a mirror mounted on the head coil) and to record the participants’ responses (given with button presses using the right hand)."
+  },
+  {
+   "section": "article",
+   "text": "The fMRI experiment followed a block design. <sentence_start/>Each run contained three blocks for each condition. <sentence_start/>The order of the blocks was randomized in each run and for each participant. <sentence_start/>Each block lasted 24 s and contained a random selection of six questions. <sentence_start/>Each question was presented for four seconds, during which participants were asked to provide the requested answer. <sentence_start/>Blocks of stimuli were separated by a 24-s block of the one-back-task baseline, in which the participants saw a series of letters and had to decide whether each of the letters was identical to the one immediately preceding it."
+  },
+  {
+   "section": "article",
+   "text": "Image acquisition"
+  },
+  {
+   "section": "article",
+   "text": "Magnetic resonance images were acquired with a 3-Tesla Siemens MAGNETON Trio System. <sentence_start/>We used the following parameters for echo-planar image (EPI) acquisition: TR = 2000 ms, TE = 25 ms, flip angle = 90°, 64 × 64 matrix, in-plane resolution 3.0 mm × 3.0 mm, 41 transverse slices, each 3 mm thick, and field of view covering the whole brain. <sentence_start/>Each functional run lasted 9.7 min and consisted of 291 volumes. <sentence_start/>All participants completed three runs, but due to a problem with the software, one participant did not complete two blocks (one for other-traits, and one for other-facts); the EPI volumes corresponding to these blocks were not included in the analysis. <sentence_start/>For purposes of registration, we also acquired structural images (T1-weighted magnetization-prepared rapid gradient echo, MPRAGE) using the following parameters: TR = 1950 ms, TE = 2.3 ms, flip angle = 7°, 256 × 256 matrix, 193 coronal slices, 1 mm isotropic resolution."
+  },
+  {
+   "section": "article",
+   "text": "Questionnaires and analysis"
+  },
+  {
+   "section": "article",
+   "text": "After the scanning, the participants estimated the amount of memory (e.g., particular episodes) they recalled in order to answer the questions in each condition, using a 7-point Likert scale (1: <italic toggle=\"yes\">I did not recall any particular memory.;</italic> 7: <italic toggle=\"yes\">I recalled many episodes…</italic>). <sentence_start/>The participants also rated the content of each self-question in terms of how well it described them (self-descriptiveness) and of how important (self-importance) it was to their identities; likewise, for the content of each other-question relative to how well it described their acquaintances (other-descriptiveness) and how important it was to their representations of the acquaintances (other-importance). <sentence_start/>For these ratings, each question was transformed into a statement, (“<italic toggle=\"yes\">You are a student”.</italic>), and Likert scales were used. <sentence_start/>The scales ranged as follows: (i) for self-descriptiveness, from 1 <italic toggle=\"yes\">(…definitely untrue or uncharacteristic of me.</italic>) to 5 (<italic toggle=\"yes\">…very true or strongly characteristic of me.);</italic> (ii) for self-importance, from 1 (<italic toggle=\"yes\">…definitely not important to my identity</italic>.<sentence_start/>) to 5 (<italic toggle=\"yes\">…absolutely important to my identity.</italic><sentence_start/>); (iii) for other-descriptiveness, from 1 (<italic toggle=\"yes\">…definitely untrue or uncharacteristic of him /her</italic>.) to 5 (<italic toggle=\"yes\">…very true or strongly characteristic of him /her</italic>.); (iv) for other -importance, from 1 (<italic toggle=\"yes\">…definitely not important to the image I have of him/her</italic>.) to 5 (<italic toggle=\"yes\">…absolutely important to the image I have of him/her</italic>). <sentence_start/>The ratings of descriptiveness were recoded in order to assess how ambivalent (descriptive ambivalence) the participants considered the questions, as follows: ratings 5 and 1 were recoded into 0, ratings 4 and 2 were recoded into 1, and rating 3 was recoded into 2. <sentence_start/>All behavioral data were analyzed using repeated measures ANOVA, and Pearson correlation, with PASW Statistics 18.0."
+  },
+  {
+   "section": "article",
+   "text": "Image processing and analysis"
+  },
+  {
+   "section": "article",
+   "text": "The functional data were preprocessed and analyzed with FSL (FMRIB’s Software Library, www.fmrib.ox.ac.uk/fsl). <sentence_start/>Before the statistical analysis was performed, the following steps were applied: (i) motion correction using MCFLIRT (<citation rid=\"ref-23\" ref-type=\"bibr\" doi=\"10.1006/nimg.2002.1132\" pmid=\"12377157\" count=\"1\">Jenkinson et al., 2002</citation>); (ii) slice-timing correction using Fourier-space time-series phase-shifting; (iii) non-brain removal using BET (<citation rid=\"ref-48\" ref-type=\"bibr\" doi=\"10.1002/hbm.10062\" pmid=\"12391568\" pmcid=\"PMC6871816\" count=\"1\">Smith, 2002</citation>); (iv) spatial smoothing using a Gaussian kernel of FWHM 5 mm; (v) grand-mean intensity normalization of the entire 4D dataset by a single multiplicative factor; (vi) high-pass temporal filtering (cutoff period = 100 s; gaussian-weighted least-squares straight line fitting, with sigma = 50.0 s). <sentence_start/>The participants’ data were registered to their high-resolution structural images (with 7 degrees of freedom) and to a standard space (MNI-152 atlas, with 12 degrees of freedom) using the FMRIB’s Linear Image Registration Tool (<citation rid=\"ref-23\" ref-type=\"bibr\" doi=\"10.1006/nimg.2002.1132\" pmid=\"12377157\" count=\"1\">Jenkinson et al., 2002</citation>) and FNIRT nonlinear registration (<citation rid=\"ref-2\" ref-type=\"bibr\" count=\"1\">Andersson, Jenkinson &amp; Smith, 2007</citation>). <sentence_start/>The data were first analyzed using FSL’s implementation of the general linear model, FEAT Version 5.98. <sentence_start/>The model included motion parameters, and four separate regressors, one for each experimental condition. <sentence_start/>Each regressor was derived from the convolution of the corresponding task design and a gamma function representing the hemodynamic response. <sentence_start/>Time-series statistical analysis was carried out using FILM with local autocorrelation correction (<citation rid=\"ref-53\" ref-type=\"bibr\" doi=\"10.1006/nimg.2001.0931\" pmid=\"11707093\" count=\"1\">Woolrich et al., 2001</citation>). <sentence_start/>The functional data of the three runs for each participant were combined using a fixed-effect model, which forces the random effects variance to zero in FLAME (FMRIB’s Local Analysis of Mixed Effects; <citation rid=\"ref-52\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2003.12.023\" pmid=\"15050594\" count=\"1\">Woolrich et al., 2004</citation>). <sentence_start/>The data from all the participants were then analyzed in a higher-level mixed-effects analysis using FLAME. <sentence_start/>Two additional analyses included behavioral measures as inter-individual factors (covariates) in this last step: (i) the participants’ mean descriptive ambivalence scores and participants’ mean importance scores; (ii) the participants’ estimates of the amount of memory they recalled. <sentence_start/>We applied the following threshold to all statistical images: clusters determined by <italic toggle=\"yes\">Z</italic> &gt; 2.3 and a corrected cluster size significance threshold of <italic toggle=\"yes\">p</italic> = .05 (<citation rid=\"ref-54\" ref-type=\"bibr\" count=\"1\">Worsley, 2001</citation>). <sentence_start/>In addition, we performed a conjunction analysis of the higher-level results for each condition compared with the baseline, using easythresh_conj script in FSL (<citation rid=\"ref-39\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2004.12.005\" pmid=\"15808966\" count=\"1\">Nichols et al., 2005</citation>); for this analysis, we used the whole-brain as a mask and a threshold of <italic toggle=\"yes\">Z</italic> &gt; 2.3, <italic toggle=\"yes\">p</italic> &lt; .05."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Behavioral data"
+  },
+  {
+   "section": "article",
+   "text": "Response time"
+  },
+  {
+   "section": "article",
+   "text": "Questions about self were answered faster than those about other, <italic toggle=\"yes\">F</italic>(1, 18) = 31.42, <italic toggle=\"yes\">p</italic> &lt; .0001. <sentence_start/>In addition, questions about facts were answered faster than those about personality traits, but this difference did not reach the level of statistical significance, <italic toggle=\"yes\">F</italic>(1, 18) = 4.03, <italic toggle=\"yes\">p</italic> = .60. <sentence_start/>A statistically significant interaction between the target of the evaluation (self or other) and the domain of information targeted by the questions (facts or traits) was observed, <italic toggle=\"yes\">F</italic>(1, 18) = 10.17, <italic toggle=\"yes\">p</italic> &lt; .005. <sentence_start/>Pairwise comparisons (<italic toggle=\"yes\">p</italic> values adjusted for multiple comparisons using Bonferroni correction) revealed that differences of response times between self and other were statistically significant for facts (<italic toggle=\"yes\">p</italic> &lt; .0001) but did not reach statistical level of significance for traits (<italic toggle=\"yes\">p</italic> &lt; .24); in addition, differences of response times between facts and traits were statistically significant for self (<italic toggle=\"yes\">p</italic> &lt; .016) but not for other (<italic toggle=\"yes\">p</italic> &lt; 2.704) (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Response time according to the valence of the traits"
+  },
+  {
+   "section": "article",
+   "text": "We did not observe a statistically difference of response times between negative traits and positive traits, for self or for other (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Response time according to descriptiveness ratings"
+  },
+  {
+   "section": "article",
+   "text": "Facts rated 1 or 5 (extremes) in terms of descriptiveness showed shorter response times than facts rated intermediate values of descriptiveness (Fig. 2). <sentence_start/>These differences reached statistical significance for the comparison between self-facts rated 1 for descriptiveness and self-facts rated 2 for descriptiveness, <italic toggle=\"yes\">F</italic>(1, 17) = 12.075, <italic toggle=\"yes\">p</italic> &lt; .003; and that between self-facts rated 5 for descriptiveness and self-facts rated 2 for descriptiveness, <italic toggle=\"yes\">F</italic>(1, 17) = 5.381, <italic toggle=\"yes\">p</italic> &lt; .033. <sentence_start/>In addition, response times for other-facts rated 5 for descriptiveness were also shorter than those for other-facts rated 3 for descriptiveness <italic toggle=\"yes\">F</italic>(1, 17) = 5.424, <italic toggle=\"yes\">p</italic> &lt; .032."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Response times (<italic toggle=\"yes\">M</italic> and <italic toggle=\"yes\">SEM</italic>) according to descriptiveness and importance ratings."
+  },
+  {
+   "section": "article",
+   "text": "Traits showed a similar trend (Fig. 2). <sentence_start/>These differences reached only statistically significance for the comparison between self-traits rated 1 for descriptiveness and self-traits rated 2 for descriptiveness, <italic toggle=\"yes\">F</italic>(1, 18) = 9.440, <italic toggle=\"yes\">p</italic> &lt; .007; and that between self-traits rated 5 for descriptiveness and self-traits rated 2 for descriptiveness, <italic toggle=\"yes\">F</italic>(1, 17) = 6.855, <italic toggle=\"yes\">p</italic> &lt; .018."
+  },
+  {
+   "section": "article",
+   "text": "Response time according to importance ratings"
+  },
+  {
+   "section": "article",
+   "text": "The comparison of mean response times according to the importance ratings was limited by the fact that not all participants used the full range of the importance ratings (e.g., only 12 participants rated any self-traits 1 for importance). <sentence_start/>Nonetheless, the analysis revealed similar trends to those described above for descriptiveness."
+  },
+  {
+   "section": "article",
+   "text": "Facts rated 1 or 5 (extremes of importance) showed shorter response times than facts rated intermediate importance values (Fig. 2). <sentence_start/>These differences were statistically significant for the comparison between self-facts rated 1 for importance and self-facts rated 2 in the same regard, <italic toggle=\"yes\">F</italic>(1, 17) = 6.125, <italic toggle=\"yes\">p</italic> &lt; .048; and for the comparison between other-facts rated 5 for importance and (i) other-facts rated 2 for importance, <italic toggle=\"yes\">F</italic>(1, 12) = 7.131, <italic toggle=\"yes\">p</italic> &lt; .020, and (ii) other-facts rated 3 for importance, <italic toggle=\"yes\">F</italic>(1, 12) = 5.622, <italic toggle=\"yes\">p</italic> &lt; .035. <sentence_start/>On the other hand, for other, facts rated 1 for importance were associated with longer response times than facts rated 5 for importance, <italic toggle=\"yes\">F</italic>(1, 12) = 6.287, <italic toggle=\"yes\">p</italic> &lt; .028."
+  },
+  {
+   "section": "article",
+   "text": "Traits rated 1 or 5 (extremes) in terms of importance were also associated with shorter response times than traits rated intermediate values of importance (Fig. 2). <sentence_start/>These differences reached only statistically significance for the comparison between self-traits rated 5 for importance and (i) self-traits rated 2 for importance, <italic toggle=\"yes\">F</italic>(1, 9) = 6.125, <italic toggle=\"yes\">p</italic> &lt; .035, and (ii) self-traits rated 3 for importance, <italic toggle=\"yes\">F</italic>(1, 12) = 6.391, <italic toggle=\"yes\">p</italic> &lt; .027."
+  },
+  {
+   "section": "article",
+   "text": "Descriptiveness"
+  },
+  {
+   "section": "article",
+   "text": "Both for facts and for traits, information targeted by the questions was considered less ambivalent (i.e., descriptiveness ratings were closer to highly descriptive or highly non-descriptive) for self than for other, <italic toggle=\"yes\">F</italic>(1, 18) = 4.619, <italic toggle=\"yes\">p</italic> &lt; .045 (Table 2). <sentence_start/>Facts were also considered less ambivalent than traits, <italic toggle=\"yes\">F</italic>(1, 18) = 54.16, <italic toggle=\"yes\">p</italic> &lt; .0001 (Table 2). <sentence_start/>No statistically significant interaction between the target of the evaluation (self or other) and the domain of information targeted by the questions (facts or traits) was observed for descriptiveness ambivalence scores."
+  },
+  {
+   "section": "article",
+   "text": "In addition, descriptiveness ratings were greater for positive traits than for negative traits, for both self and other, <italic toggle=\"yes\">F</italic>(1, 18) = 168.752, <italic toggle=\"yes\">p</italic> &lt; .0001 (Table 3). <sentence_start/>A statistically significant interaction between the target of the evaluation (self or other) and the valence of the traits (negative or positive) was observed for descriptiveness ratings, <italic toggle=\"yes\">F</italic>(1, 18) = 4.855, <italic toggle=\"yes\">p</italic> &lt; .041. <sentence_start/>Pairwise comparisons (<italic toggle=\"yes\">p</italic> values adjusted for multiple comparisons using Bonferroni correction) showed that descriptiveness ratings were greater for positive traits than for negative traits, both for self (<italic toggle=\"yes\">p</italic> &lt; .0001), and for other (<italic toggle=\"yes\">p</italic> &lt; .0001); in addition, descriptiveness ratings were greater for self than for other in relation to positive traits (<italic toggle=\"yes\">p</italic> &lt; .008) but not in relation to negative traits (<italic toggle=\"yes\">p</italic> &lt; 1.584)."
+  },
+  {
+   "section": "article",
+   "text": "Importance"
+  },
+  {
+   "section": "article",
+   "text": "Participants’ ratings of importance were greater for self than for other, <italic toggle=\"yes\">F</italic>(1, 18) = 8.85, <italic toggle=\"yes\">p</italic> &lt; .008. <sentence_start/>Furthermore, for both self and other, ratings of importance were greater for traits than for facts, <italic toggle=\"yes\">F</italic>(1, 18) = 31.27, <italic toggle=\"yes\">p</italic> &lt; .001. <sentence_start/>A statistically significant interaction between the target of the evaluation (self or other) and the domain of information targeted by the questions (facts or traits) was observed, <italic toggle=\"yes\">F</italic>(1, 18) = 4.431, <italic toggle=\"yes\">p</italic> &lt; .05. <sentence_start/>Pairwise comparisons (<italic toggle=\"yes\">p</italic> values adjusted for multiple comparisons using Bonferroni correction) revealed that participants importance ratings were greater for traits than for facts, both for self (<italic toggle=\"yes\">p</italic> &lt; .0001) and for other (<italic toggle=\"yes\">p</italic> &lt; .001); in addition, participants importance ratings were greater for self than for other in relation to facts (<italic toggle=\"yes\">p</italic> &lt; .004) but not in relation to traits (<italic toggle=\"yes\">p</italic> &lt; .504)."
+  },
+  {
+   "section": "article",
+   "text": "Positive traits were considered more important than negative traits for both self and other (Table 3) <italic toggle=\"yes\">F</italic>(1, 18) = 18.064, <italic toggle=\"yes\">p</italic> &lt; .0001, but a statistically significant interaction between the target of the evaluation (self or other) and the valence of the traits (negative or positive) was found for importance ratings, <italic toggle=\"yes\">F</italic>(1, 18) = 8.16, <italic toggle=\"yes\">p</italic> &lt; .010. <sentence_start/>Pairwise comparisons (<italic toggle=\"yes\">p</italic> values adjusted for multiple comparisons using Bonferroni correction) showed that participants’ importance ratings were greater for positive traits than for negative traits, both for self (<italic toggle=\"yes\">p</italic> &lt; .0001) and for other (<italic toggle=\"yes\">p</italic> &lt; .044); in addition, participants’ importance ratings were greater for self than for other in relation to positive traits (<italic toggle=\"yes\">p</italic> &lt; .016) but not in relation to negative traits (<italic toggle=\"yes\">p</italic> &lt; 2.444)."
+  },
+  {
+   "section": "article",
+   "text": "Memory retrieved to answer the questions"
+  },
+  {
+   "section": "article",
+   "text": "Participants’ estimates of memory retrieved to answer the questions were higher for other than for self, both for biographic facts and for traits, <italic toggle=\"yes\">F</italic>(1, 18) = 32.02; <italic toggle=\"yes\">p</italic> &lt; .001 (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Correlation between behavioral measures"
+  },
+  {
+   "section": "article",
+   "text": "Mean response time for other-facts correlated negatively with mean importance ratings for other-facts, <italic toggle=\"yes\">r</italic>(18) = −.548, <italic toggle=\"yes\">p</italic> &lt; .015. <sentence_start/>No other statistically significant correlations were found for the measures reported above."
+  },
+  {
+   "section": "article",
+   "text": "Functional imaging data"
+  },
+  {
+   "section": "article",
+   "text": "Task versus baseline (one-back-task)"
+  },
+  {
+   "section": "article",
+   "text": "A conjunction analysis revealed that the four conditions compared with baseline yielded greater signal in, bilaterally, the MPFC, PMC, cuneus, orbitofrontal cortex, basal forebrain, inferior frontal gyrus, middle temporal gyrus, temporal pole, hippocampus, cerebellum, and thalamus, and in the left middle and superior frontal gyri, lateral occipital cortex, angular gyrus, amygdala, and caudate (Fig. 3 and Table S1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Conjunction analysis for the experimental conditions versus baseline."
+  },
+  {
+   "section": "article",
+   "text": "Only medial surfaces are shown. <sentence_start/>See Results and Table S1 for the remaining whole-brain results."
+  },
+  {
+   "section": "article",
+   "text": "Self versus other"
+  },
+  {
+   "section": "article",
+   "text": "No regions of greater activity for self, compared with other, were detected for traits or for traits combined with facts. <sentence_start/>However, self-facts compared with other-facts were associated with greater activity in the right middle temporal gyrus, in the left postcentral gyrus, and bilaterally in the superior temporal, supramarginal and angular gyri (Table S2). <sentence_start/>Other compared with self was associated with greater activity in the PMC for traits and facts combined (Fig. 4, Table 4 and Table S2). <sentence_start/>Other-traits compared with self-traits were associated with greater activity in the left lateral occipital cortex, and bilaterally in the PMC (Fig. 4, Table 4 and Table S2)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Other versus self."
+  },
+  {
+   "section": "article",
+   "text": "Only medial surfaces are shown. <sentence_start/>See Results and Table S2 for the remaining whole-brain results."
+  },
+  {
+   "section": "article",
+   "text": "Facts versus traits"
+  },
+  {
+   "section": "article",
+   "text": "Facts (self-facts and other-facts combined) compared with traits (self-traits and other-traits combined) yielded greater activity in the left amygdala, caudate, basal forebrain, pons and medulla, and bilaterally in MPFC, PMC, middle frontal gyrus, precentral gyrus, middle and inferior temporal gyri, angular gyrus, lateral occipital, fusiform gyrus, hippocampus, cerebellum, thalamus, and mesencephalon. <sentence_start/>When self and other were analyzed separately, we found the following: (i) self-facts, compared with self-traits, were associated with greater activity in the left supramarginal gyrus and amygdala, and bilaterally in the MPFC, PMC, middle frontal gyrus, precentral gyrus, middle and inferior temporal gyri, angular gyrus, lateral occipital cortex, fusiform gyrus, hippocampus, and basal forebrain (Fig. 5, Table 4 and Table S3); (ii) self-traits, compared with self-facts, were associated with greater activity in the left insula, inferior frontal gyrus and orbitofrontal cortex, and in the right lateral occipital cortex (Fig. 5, Fig. 6 and Table S3); (iii) other-facts, compared with other-traits, were associated with greater activity in the left amygdala, supramarginal gyrus, thalamus, pons and medulla, and bilaterally in the MPFC, PMC, cuneus, middle frontal gyrus, precentral gyrus, middle and inferior temporal gyri, angular gyri, lateral occipital cortex, fusiform gyrus, hippocampus, and cerebellum (Fig. 5, Table 4 and Table S4); (iv) other-traits, compared with other-facts, did not show any statistically significant differences."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Facts versus traits."
+  },
+  {
+   "section": "article",
+   "text": "Only medial surfaces are shown. <sentence_start/>See Results and Tables S3 and S4 for the remaining whole-brain results."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Self-traits versus self-facts."
+  },
+  {
+   "section": "article",
+   "text": "Greater signal was found in the insula and inferior frontal gyrus. <sentence_start/>(See Results and Table S3 for the remaining whole-brain results)."
+  },
+  {
+   "section": "article",
+   "text": "Behavioral covariate analysis"
+  },
+  {
+   "section": "article",
+   "text": "Descriptive ambivalence, and importance"
+  },
+  {
+   "section": "article",
+   "text": "For each condition, the participants’ mean scores for ambivalence (based on the descriptiveness ratings) and the participants’ mean importance ratings were explored simultaneously as between-subjects factors."
+  },
+  {
+   "section": "article",
+   "text": "Positive correlations between brain signal and participants’ mean <italic toggle=\"yes\">descriptive ambivalence</italic> scores were found for three conditions (Table 5, Table S5 and Table S6): (i) for self-facts, bilaterally in the MPFC, anterior cingulate cortex, superior and middle frontal gyri, and cerebellum; (ii) for self-traits, bilaterally in the paracentral gyrus, posteromedial cortex, precentral and postcentral gyri, superior parietal lobule and pons, and in the right middle frontal gyrus and left mesencephalon; (iii) for other-traits, bilaterally in the medial prefrontal cortex, posteromedial cortex, and cerebellum, in the right frontal pole and orbitofrontal cortex, and in left postcentral gyrus/ superior parietal lobule."
+  },
+  {
+   "section": "article",
+   "text": "Negative correlations between brain signal and participants’ mean <italic toggle=\"yes\">importance</italic> ratings were also detected, but only for self traits: bilaterally in orbitofrontal cortex, basal forebrain, medial prefrontal cortex, anterior cingulate cortex, paracentral gyrus, posteromedial cortex, caudate, putamen, insula and superior temporal gyrus, and in the left postcentral gyrus (Table 6 and Table S7)."
+  },
+  {
+   "section": "article",
+   "text": "Amount of memory retrieved to answer the questions"
+  },
+  {
+   "section": "article",
+   "text": "The participants’ estimates of the amount of memory retrieved to answer the questions correlated positively with signal in three conditions (Table 5 and Table S8): (i) for self-facts, in the left precuneus, postcentral gyrus and lateral occipital lobe, and in the right inferior frontal, superior temporal, middle temporal, and supramarginal gyri; (ii) for self-traits, in the right putamen, thalamus, internal and external capsule, and bilaterally in the medial prefrontal region, anterior cingulate cortex, middle frontal gyrus, orbitofrontal region and frontal pole; (iii) for other-facts, in the left paracentral gyrus, precuneus, postcentral gyrus and superior parietal lobule."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Our results show that, both for self and other, evaluative tasks regarding the two domains of information generated greater activity in CMSs compared with baseline. <sentence_start/>Moreover, the four experimental conditions engaged regions related to semantic memory (e.g., <citation rid=\"ref-5\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhp055\" pmid=\"19329570\" pmcid=\"PMC2774390\" count=\"1\">Binder et al., 2009</citation>), autobiographical and episodic memory (e.g., <citation rid=\"ref-9\" ref-type=\"bibr\" doi=\"10.1016/j.tics.2007.02.005\" pmid=\"17382578\" count=\"1\">Cabeza &amp; St Jacques, 2007</citation>), and somatic representations related to emotion and decision-making (e.g., <citation rid=\"ref-38\" ref-type=\"bibr\" doi=\"10.3389/fnins.2012.00031\" pmid=\"22403525\" pmcid=\"PMC3293150\" count=\"1\">Nakao, Ohira &amp; Northoff, 2012</citation>). <sentence_start/>These results support the notion that CMSs activity during evaluative tasks of biographical information relates to processes of memory retrieval and decision underlying the tasks, for both self and other. <sentence_start/>In the paragraphs below, we discuss the relevant findings with respect to autobiographical-self processes, the distinction of self versus other, and the role of cortical midline structures."
+  },
+  {
+   "section": "article",
+   "text": "Autobiographical self"
+  },
+  {
+   "section": "article",
+   "text": "An autobiographical-self state requires access to sets of memories that are stored over a lifetime of experiences. <sentence_start/>Once retrieved, such memories may trigger emotional reactions and produce further retrieval of related memories. <sentence_start/>Consequently, an autobiographical-self state may range from relatively simple, as when one displays landmark facts relative to one’s date and place of birth, to fairly more complex, as when one is asked to describe a specific event or period of one’s life (<citation rid=\"ref-13\" ref-type=\"bibr\" doi=\"10.1098/rstb.1998.0339\" pmcid=\"PMC1692416\" pmid=\"9854259\" count=\"1\">Damasio, 1998</citation>). <sentence_start/>Our results support these assumptions. <sentence_start/>As noted earlier, however, the experimental task appears to require both memory retrieval and decision processes, indicating that the latter needs also to be considered."
+  },
+  {
+   "section": "article",
+   "text": "Differences between biographic facts and personality traits"
+  },
+  {
+   "section": "article",
+   "text": "The data we obtained demonstrate that evaluating autobiographic information varies according to the domain of information. <sentence_start/>The response times to the questions were shorter for self-facts than for self-traits. <sentence_start/>This advantage suggests that both memory and decision processes are more straightforward for facts than for traits. <sentence_start/>As explained before, given the relevance of facts regarding one’s identity in daily life, it is possible that individuals hold less ambiguous and more objective, summarized, memory representations for biographic facts than for traits. <sentence_start/>This possibility is supported by our results showing that mean descriptive ambivalence scores were lower for facts than for traits."
+  },
+  {
+   "section": "article",
+   "text": "Compared with self-traits, self-facts were associated with greater activity in the PMC, MPFC, hippocampus and basal forebrain. <sentence_start/>This is probably due to the processes of retrieval given the role of these structures in memory (e.g., <citation rid=\"ref-5\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhp055\" pmid=\"19329570\" pmcid=\"PMC2774390\" count=\"1\">Binder et al., 2009</citation>) and may indicate that questions about facts triggered a greater amount of memory retrieval than the questions about traits. <sentence_start/>We note that the questions were presented for 4 s in blocks of 24 s and thus this greater activity might even be due to retrieval of additional memories occurring <italic toggle=\"yes\">after</italic> the questions are answered rather than to the retrieval needed to answer the questions in the first place. <sentence_start/>In any case, as discussed above, the number of daily events and experiences regarding one’s facts is probably greater than that regarding one’s traits, and thus an individual is likely to hold a greater amount of memories for facts than for traits. <sentence_start/>Nonetheless, it is possible that this activity relates not only to the amount of memory retrieved but also the kind of the memories retrieved, such as the age of those memories. <sentence_start/>Specifically, because facts are especially relevant to one’s everyday life, they may be preferentially associated with recent memories. <sentence_start/>We know that recent memories compared with past memories are associated with greater activity in the PMC (<citation rid=\"ref-10\" ref-type=\"bibr\" doi=\"10.1093/scan/nsn020\" pmid=\"19015116\" pmcid=\"PMC2566769\" count=\"1\">D’Argembeau et al., 2008</citation>; <citation rid=\"ref-20\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhh082\" pmid=\"15166099\" count=\"1\">Gilboa, 2004</citation>; <citation rid=\"ref-49\" ref-type=\"bibr\" doi=\"10.1002/hipo.20927\" pmid=\"21404363\" count=\"1\">Söderlund et al., 2011</citation>) and in the MPFC (<citation rid=\"ref-10\" ref-type=\"bibr\" doi=\"10.1093/scan/nsn020\" pmid=\"19015116\" pmcid=\"PMC2566769\" count=\"1\">D’Argembeau et al., 2008</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Self-traits were associated with greater activity in the anterior insular cortices compared with self-facts. <sentence_start/>Given that the role of the insular cortices in somatic representations and in feeling states is well established (reviewed in <citation rid=\"ref-15\" ref-type=\"bibr\" doi=\"10.1038/nrn3403\" pmid=\"23329161\" count=\"1\">Damasio &amp; Carvalho, 2013</citation>), our finding suggests that, compared with facts, traits elicited more emotion-related representations. <sentence_start/>These representations may occur as responses to the memories retrieved or as part of processes of decision-making, such as error monitoring and conflict solving during decision-making (<citation rid=\"ref-42\" ref-type=\"bibr\" doi=\"10.3389/fnhum.2012.00177\" pmid=\"22723775\" pmcid=\"PMC3377932\" count=\"1\">Orr &amp; Hester, 2012</citation>). <sentence_start/>Furthermore, these responses are likely to be greater for traits than for facts because of the greater emotional significance of traits. <sentence_start/>Traits vary in valence and desirability (<citation rid=\"ref-1\" ref-type=\"bibr\" doi=\"10.1037/h0025907\" pmid=\"5666976\" count=\"1\">Anderson, 1968</citation>), and individuals seem to prefer to be associated with socially desirable traits, as our data on descriptiveness demonstrate and other authors have also noted (<citation rid=\"ref-26\" ref-type=\"bibr\" count=\"1\">Klein &amp; Loftus, 1993</citation>). <sentence_start/>Furthermore, as indicated above, the representations for traits are more likely to be ambivalent than those for biographical facts and thus traits, compared with facts, may be associated with a less straightforward decision-making process. <sentence_start/>Nonetheless, we note that memories retrieved for facts are also likely to evoke emotional responses. <sentence_start/>Our results showed that self-facts compared with self-traits yielded greater activity in the left amygdala, which may well relate to emotional responses to the memories retrieved given that the amygdala has been associated with the retrieval of memories with high emotional content (<citation rid=\"ref-16\" ref-type=\"bibr\" doi=\"10.3389/fnbeh.2013.00109\" pmcid=\"PMC3755273\" pmid=\"24009565\" count=\"1\">Denkova, Dolcos &amp; Dolcos, 2013</citation>; <citation rid=\"ref-33\" ref-type=\"bibr\" doi=\"10.1073/pnas.1301209110\" pmid=\"23754441\" pmcid=\"PMC3690616\" count=\"1\">McGaugh, 2013</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Differences across individuals"
+  },
+  {
+   "section": "article",
+   "text": "The level of brain activity varied across individuals with regard to the three variables that we investigated. <sentence_start/>Specifically, the level of brain activity in relevant structures such as the PMC and the MPFC correlated with participants’ descriptive ambivalence scores (i.e., how far the participants’ ratings of descriptiveness were from fully descriptive or from fully non-descriptive) and with participants’ importance scores. <sentence_start/>In other words, the level of activity in CMSs seems to be lower for individuals who considered the information unambiguously descriptive or non-descriptive and are thus likely to have required lower level of processing related to memory retrieval and decision making. <sentence_start/>Activity in the MPFC was lower for individuals who considered the traits more important to their self-image than for individuals who considered the traits less important in the same regard, suggesting that individuals who have given prior consideration to the information require lower level of processing related to memory retrieval and decision making to answer the questions. <sentence_start/>Those individuals also showed less activity for traits in structures related to emotional processing such as anterior cingulate and the insula, which seems to support the notion that traits are associated with emotional reactions."
+  },
+  {
+   "section": "article",
+   "text": "Our findings regarding descriptiveness ambivalence and importance are in line with findings from another study, which has shown that level of activity in the MPFC and insula correlated positively with the level of difficulty associated with decision-making (<citation rid=\"ref-34\" ref-type=\"bibr\" doi=\"10.3389/fnhum.2013.00046\" pmcid=\"PMC3584295\" pmid=\"23450237\" count=\"1\">Meffert et al., 2013</citation>). <sentence_start/>In addition, these results do not seem to support the notion that activity in the MPFC is commensurate with the level of descriptiveness and importance of self-related information evaluated, proposed by other studies (<citation rid=\"ref-11\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhr144\" pmid=\"21680845\" count=\"1\">D’Argembeau et al., 2012</citation>; <citation rid=\"ref-36\" ref-type=\"bibr\" doi=\"10.1162/jocn.2006.18.9.1586\" pmid=\"16989558\" count=\"1\">Moran et al., 2006</citation>). <sentence_start/>We note that there are, however, several differences between those studies and our current study, which limit the possibility of comparing results across the studies."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, participants who reported having retrieved a greater amount of memory to answer the questions seemed to require greater levels of activity in the structures related to memory retrieval, such as the PMC. <sentence_start/>Altogether, these results seem to support the notion that brain activity for evaluation of biographic information varies across individuals, depending on the level of processing related to memory retrieval and decision making required to answer the questions."
+  },
+  {
+   "section": "article",
+   "text": "Self versus other"
+  },
+  {
+   "section": "article",
+   "text": "Our data on the comparison of each condition with the baseline support the idea that self and other engage some of the same structures, including CMSs. <sentence_start/>This is consistent with the proposal that two processes required to evaluate biographic information-memory retrieval and decision-making-are comparable for self and for other. <sentence_start/>Similarly to what we observed for self, brain activity related to other appears to vary with the domain of information evaluated (traits versus facts), as well as with individual differences on descriptiveness (how well the information targeted by the questions described other), and estimates of amount of memory retrieval that was required to answer the questions."
+  },
+  {
+   "section": "article",
+   "text": "The results also reveal intriguing differences between self and other. <sentence_start/>Compared with other, self was associated with shorter response times, smaller perceived amount of memory retrieved to answer the questions, and lower levels of activity in CMSs’ integrative hubs such as the PMC. <sentence_start/>These significant differences were probably influenced by our choice of other and were related to differences regarding the type and accessibility of the memories between self and a distant other. <sentence_start/>Autobiographical memories derive from a multitude of instants of self-knowledge distributed over a person’s lifetime. <sentence_start/>Consequently, the amount of autobiographical memories is very large, enabling individuals to abstract summary representations from some of those autobiographical memories. <sentence_start/>Those summary representations, in turn, probably allow individuals to answer self-related questions without needing to retrieve particular episodes or events (<citation rid=\"ref-26\" ref-type=\"bibr\" count=\"1\">Klein &amp; Loftus, 1993</citation>). <sentence_start/>On the other hand, as explained before, the representation of a distant acquaintance’s biography derives from events and experiences that may have occurred during limited interactions over the course of the acquaintanceship. <sentence_start/>Thus memories for a distant acquaintance are probably less numerous, less frequently retrieved, and less readily accessible than autobiographical memories. <sentence_start/>In addition, individuals are less likely to hold summary representations for a distant acquaintance (<citation rid=\"ref-18\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.69.5.961\" pmid=\"7473041\" count=\"1\">Fuhrman &amp; Funder, 1995</citation>) and thus will require greater level of memory retrieval in order to answer questions related to that acquaintance. <sentence_start/>Our data on the descriptive ambivalence scores, and on importance ratings seem to support this view. <sentence_start/>We note, however, that individuals’ knowledge of other may be similar to that of self when the other is a close acquaintance (<citation rid=\"ref-18\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.69.5.961\" pmid=\"7473041\" count=\"1\">Fuhrman &amp; Funder, 1995</citation>), possibly explaining discrepancies in the published results."
+  },
+  {
+   "section": "article",
+   "text": "Unlike what was observed for self, other-traits compared with other-facts were not associated with greater insula activity. <sentence_start/>Considering the association of the insula with affective processing, this difference suggests that emotion-related somatic representations are more prominent for self than for a distant other. <sentence_start/>This finding too may be explained by our choice of other. <sentence_start/>Given the lack of a close relationship between the participants and the acquaintances, the emotional significance of the retrieved memories and of the related decision-making is possibly less for other than for self. <sentence_start/>Of note, although positive traits were considered more descriptive than negative traits for both self and other, the difference was greater for self than for other. <sentence_start/>Also, positive traits were considered more important than negative traits for self but not for other. <sentence_start/>A recent meta-analysis of studies of self-reference, many of which explored the domain of personality traits, also suggests that self is associated with greater activity in the insula than other (<citation rid=\"ref-45\" ref-type=\"bibr\" doi=\"10.1002/hbm.21201\" pmid=\"21391261\" pmcid=\"PMC6869961\" count=\"1\">Qin et al., 2011</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Cortical midline structures"
+  },
+  {
+   "section": "article",
+   "text": "Overall, the results support the notion that CMSs are involved in processes of self. <sentence_start/>Nonetheless, the involvement also occurs for other. <sentence_start/>Moreover, the level of activity in CMSs appears to increase for conditions requiring greater level of processing related to memory retrieval and decision making. <sentence_start/>Still, the data also suggest that there are functional differences for subcomponents of the CMSs, namely between the MPFC and the PMC."
+  },
+  {
+   "section": "article",
+   "text": "MPFC"
+  },
+  {
+   "section": "article",
+   "text": "The MPFC is connected with structures involved in memory processing, such as the hippocampus, as well as with structures involved in somatic representations related to emotions, such as nuclei in the brainstem tegmentum, amygdala and cingulate cortex (reviewed in <citation rid=\"ref-19\" ref-type=\"bibr\" count=\"1\">Fuster, 2008</citation>). <sentence_start/>It has been suggested that the MPFC is also engaged in the integration of emotion-related somatic signals in decision-making (<citation rid=\"ref-4\" ref-type=\"bibr\" doi=\"10.1093/brain/123.11.2189\" pmid=\"11050020\" count=\"1\">Bechara, Tranel &amp; Damasio, 2000</citation>). <sentence_start/>Our data seem to support this suggestion, by showing the activity in the MPFC correlated with descriptive ambivalence and importance, which are presumably commensurate with how straightforward the decision-making processes were. <sentence_start/>Data from a more recent study showed also that activity in the MPFC during traits correlated positively with the decision difficulty (<citation rid=\"ref-34\" ref-type=\"bibr\" doi=\"10.3389/fnhum.2013.00046\" pmcid=\"PMC3584295\" pmid=\"23450237\" count=\"1\">Meffert et al., 2013</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "It is possible that activity in the MPFC relates also to memory retrieval, particularly to processes of emotional and perceptual representations related to the retrieved memories. <sentence_start/>Such processes could contribute, for example, to a “felt-rightness” during memory retrieval, as proposed in <citation rid=\"ref-37\" ref-type=\"bibr\" count=\"1\">Moscovitch &amp; Winocur (2002)</citation>. <sentence_start/>Our data regarding the difference between facts and traits support this idea, given that facts compared with traits are, as noted before, likely to be associated with greater amount of autobiographical memories and even greater amount of recent memories. <sentence_start/>Other results are in line with this view: (i) high-experience domains of autobiographic information compared with low-experience domains of autobiographical information engage greater activity in MPFC, nucleus accumbens and amygdala (<citation rid=\"ref-30\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.87.4.421\" pmid=\"15491269\" count=\"1\">Lieberman, Jarcho &amp; Satpute, 2004</citation>); (ii) current autobiographical information compared with past autobiographical information involves greater activity in the MPFC (<citation rid=\"ref-10\" ref-type=\"bibr\" doi=\"10.1093/scan/nsn020\" pmid=\"19015116\" pmcid=\"PMC2566769\" count=\"1\">D’Argembeau et al., 2008</citation>); and (iii) activity in the MPFC correlates with the participants’ success in retrieving information that pertains to self (<citation rid=\"ref-31\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhh025\" pmid=\"15084488\" count=\"1\">Macrae, 2004</citation>) and to non-self (<citation rid=\"ref-47\" ref-type=\"bibr\" doi=\"10.1162/0898929053747694\" pmid=\"15904549\" pmcid=\"PMC1193651\" count=\"1\">Schnyer, Nicholls &amp; Verfaellie, 2005</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "We suspect that MPFC activity for other depends on the same factors, and thus the differences between self and other in terms of MPFC activity are likely to relate to emotional processing associated with decision-making and memory retrieval. <sentence_start/>Moreover, because the level of emotional processing tends to be greater for self than for other, it is possible that MPFC is generally more active for self than for other, as supported by a recent meta-analysis of studies comparing self-traits and other-traits (<citation rid=\"ref-3\" ref-type=\"bibr\" doi=\"10.3389/fnhum.2013.00548\" pmid=\"24027520\" pmcid=\"PMC3762365\" count=\"1\">Araujo, Kaplan &amp; Damasio, 2013</citation>). <sentence_start/>As indicated before, there is some evidence suggesting that those differences depend on who the other is in relation to self. <sentence_start/>For example, activity in the MPFC is not different for self and for a close friend, but it is greater for self than for a distant other (<citation rid=\"ref-41\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2005.06.069\" pmid=\"16290016\" count=\"1\">Ochsner et al., 2005</citation>). <sentence_start/>Along these same lines, the difference in MPFC activity between self and the participant’s mother has been shown to depend on the participants’ cultural background (<citation rid=\"ref-55\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2006.08.04\" pmid=\"17134915\" count=\"1\">Zhu et al., 2007</citation>). <sentence_start/>Intriguingly, we did not find a difference of MPFC activity between self and other in our study, raising the possibility that differences between self and other in terms of MPFC activity do not depend solely on the kind of affective relationship between self and other. <sentence_start/>Although the participants were not emotionally connected with their acquaintances, they knew them well enough to answer questions about their lives and personalities. <sentence_start/>Thus this finding may well suggest that individuals’ activity in the MPFC for another person depends also on how well they know that person."
+  },
+  {
+   "section": "article",
+   "text": "PMC"
+  },
+  {
+   "section": "article",
+   "text": "The PMC has been shown to be a central hub of cortical connectivity (e.g., <citation rid=\"ref-21\" ref-type=\"bibr\" doi=\"10.1371/journal.pbio.0060159\" pmcid=\"PMC2443193\" pmid=\"18597554\" count=\"1\">Hagmann et al., 2008</citation>; <citation rid=\"ref-43\" ref-type=\"bibr\" doi=\"10.1073/pnas.0507729103\" pmid=\"16432221\" pmcid=\"PMC1345704\" count=\"1\">Parvizi et al., 2006</citation>). <sentence_start/>It seems to be engaged by integrative general-purpose processes (reviewed in <citation rid=\"ref-14\" ref-type=\"bibr\" count=\"1\">Damasio, 2010</citation>), and its activity correlates with the state of awareness. <sentence_start/>For example, its activity increases gradually as coma lightens and moves toward vegetative stage and to full awareness (<citation rid=\"ref-29\" ref-type=\"bibr\" doi=\"10.1016/S1474-4422(04)00852-X\" pmid=\"15324722\" count=\"1\">Laureys, Owen &amp; Schiff, 2004</citation>). <sentence_start/>During the evaluation of biographic information, the PMC is likely to be particularly involved in retrieving and assembling memory fragments. <sentence_start/>Also, the PMC is severely compromised in Alzheimer’s disease, Wernicke-Korsakoff’s amnesia and post-anoxic amnesia (<citation rid=\"ref-29\" ref-type=\"bibr\" doi=\"10.1016/S1474-4422(04)00852-X\" pmid=\"15324722\" count=\"1\">Laureys, Owen &amp; Schiff, 2004</citation>), and is engaged by memory tasks, pertaining to autobiographical and non-autobiographical information (e.g., <citation rid=\"ref-5\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhp055\" pmid=\"19329570\" pmcid=\"PMC2774390\" count=\"1\">Binder et al., 2009</citation>). <sentence_start/>Furthermore, as noted above, PMC activity is greater for other compared with self, and for facts compared with traits. <sentence_start/>This is consistent with recent meta-analyses that show greater activity in PMC for other compared with self (e.g., <citation rid=\"ref-3\" ref-type=\"bibr\" doi=\"10.3389/fnhum.2013.00548\" pmid=\"24027520\" pmcid=\"PMC3762365\" count=\"1\">Araujo, Kaplan &amp; Damasio, 2013</citation>; <citation rid=\"ref-45\" ref-type=\"bibr\" doi=\"10.1002/hbm.21201\" pmid=\"21391261\" pmcid=\"PMC6869961\" count=\"1\">Qin et al., 2011</citation>). <sentence_start/>In addition, PMC activity was smaller for participants who considered traits less ambivalent, and it was greater for participants who reported having retrieved greater amount of memories to answer the questions about facts; these findings support our view that the PMC’s involvement in memory is commensurate with memory effort, memory load or both. <sentence_start/>Data from other studies support this interpretation. <sentence_start/>The PMC has been shown to be more active (i) during recall of recent memories, either real or fictitious, than recall of recently <italic toggle=\"yes\">seen</italic> objects (<citation rid=\"ref-22\" ref-type=\"bibr\" doi=\"10.1523/JNEUROSCI.4549-07.2007\" pmid=\"18160644\" pmcid=\"PMC2571957\" count=\"1\">Hassabis, Kumaran &amp; Maguire, 2007</citation>), (ii) during recall of information than repetition of information (<citation rid=\"ref-8\" ref-type=\"bibr\" pmid=\"8815903\" doi=\"10.1523/JNEUROSCI.16-19-06219.1996\" pmcid=\"PMC6579164\" count=\"1\">Buckner et al., 1996</citation>; <citation rid=\"ref-46\" ref-type=\"bibr\" doi=\"10.1073/pnas.93.1.321\" pmid=\"8552630\" pmcid=\"PMC40230\" count=\"1\">Schacter et al., 1996</citation>), (iii) during recall of a greater number of words than recall of a smaller number of words (<citation rid=\"ref-46\" ref-type=\"bibr\" doi=\"10.1073/pnas.93.1.321\" pmid=\"8552630\" pmcid=\"PMC40230\" count=\"1\">Schacter et al., 1996</citation>), and (iv) during processing of recent memories than processing old memories (<citation rid=\"ref-20\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhh082\" pmid=\"15166099\" count=\"1\">Gilboa, 2004</citation>; <citation rid=\"ref-49\" ref-type=\"bibr\" doi=\"10.1002/hipo.20927\" pmid=\"21404363\" count=\"1\">Söderlund et al., 2011</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The level of activity in CMS during the performance of tasks designed to evaluate biographic information seem to depend on varied factors related to the memories elicited by the questions, and factors related to the processes of decision-making required to answer the questions. <sentence_start/>The evidence does not support the notion that autobiographical-self processes depend primarly or mostly on CMSs, or that the CMSs are specifically devoted to self-related processing. <sentence_start/>The results are compatible with the notion that CMSs are hubs capable of assisting different processes, ranging from those that occur during resting states (e.g., mind wandering), to those that underlie the evaluation of biographical information."
+  },
+  {
+   "section": "article",
+   "text": "Supplemental Information"
+  },
+  {
+   "section": "article",
+   "text": "Supplemental Information"
+  },
+  {
+   "section": "article",
+   "text": "Supplemental Information. <sentence_start/>Tables reporting coordinates (<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">y</italic>, <italic toggle=\"yes\">z</italic>; MNI-152 standard space and) and <italic toggle=\"yes\">Z</italic>-scores corresponding to the activation peaks in the whole brain for the analyses performed"
+  },
+  {
+   "section": "back",
+   "text": "Additional Information and Declarations"
+  },
+  {
+   "section": "back",
+   "text": "Competing Interests"
+  },
+  {
+   "section": "back",
+   "text": "Antonio Damasio is an Academic Editor for PeerJ."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "Helder F. Araujo conceived and designed the experiments, performed the experiments, analyzed the data, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper."
+  },
+  {
+   "section": "back",
+   "text": "Jonas Kaplan conceived and designed the experiments, performed the experiments, analyzed the data, wrote the paper, reviewed drafts of the paper."
+  },
+  {
+   "section": "back",
+   "text": "Hanna Damasio and Antonio Damasio conceived and designed the experiments, wrote the paper, reviewed drafts of the paper."
+  },
+  {
+   "section": "back",
+   "text": "Human Ethics"
+  },
+  {
+   "section": "back",
+   "text": "The following information was supplied relating to ethical approvals (i.e., approving body and any reference numbers):"
+  },
+  {
+   "section": "back",
+   "text": "USC Institutional Review Board (IRB) Approval number: # UP-10-00054-CR004."
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "pmid": 32174829,
+ "pmcid": 7054891,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Mechanical Changes and Microfilament Reorganization Involved in Microcystin-LR-Promoted Cell Invasion in DU145 and WPMY Cells"
+  },
+  {
+   "section": "abstract",
+   "text": "Microcystin-leucine arginine (MC-LR) is a potent tumor initiator that can induce malignant cell transformation. <sentence_start/>Cellular mechanical characteristics are pivotal parameters that are closely related to cell invasion. <sentence_start/>The aim of this study is to determine the effect of MC-LR on mechanical parameters, microfilament, and cell invasion in DU145 and WPMY cells. <sentence_start/>Firstly, 10 μM MC-LR was selected as the appropriate concentration <italic toggle=\"yes\">via</italic> cell viability assay. <sentence_start/>Subsequently, after MC-LR treatment, the cellular deformability and viscoelastic parameters were tested using the micropipette aspiration technique. <sentence_start/>The results showed that MC-LR increased the cellular deformability, reduced the cellular viscoelastic parameter values, and caused the cells to become softer. <sentence_start/>Furthermore, microfilament and microfilament-associated proteins were examined by immunofluorescence and Western blot, respectively. <sentence_start/>Our results showed that MC-LR induced microfilament reorganization and increased the expression of p-VASP and p-ezrin. <sentence_start/>Finally, the impact of MC-LR on cell invasion was evaluated. <sentence_start/>The results revealed that MC-LR promoted cell invasion. <sentence_start/>Taken together, our results suggested that mechanical changes and microfilament reorganization were involved in MC-LR-promoted cell invasion in DU145 and WPMY cells. <sentence_start/>Our data provide novel information to explain the toxicological mechanism of MC-LR."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Microcystins (MCs) are a group of cyclic heptapeptide toxins produced by freshwater cyanobacteria (<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1007/s11157-014-9334-6\" count=\"1\">Rastogi et al., 2014</citation>), among which microcystin-leucine arginine (MC-LR) is the most abundant and toxic congener (<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.3892/etm.2016.3423\" pmid=\"27446254\" pmcid=\"PMC4950845\" count=\"1\">Li Y. et al., 2016</citation>). <sentence_start/>The World Health Organization (WHO) has recommended 1 µg/L as the upper limit of MC-LR in drinking water (<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1100/tsw.2010.172\" pmid=\"20852822\" pmcid=\"PMC5763806\" count=\"1\">Wang et al., 2010</citation>). <sentence_start/>In fact, the concentration of MC-LR in the drinking water has exceeded this recommend value in many countries (<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1016/j.toxicon.2009.07.006\" pmid=\"19615396\" count=\"1\">Backer et al., 2010</citation>; <citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1007/s12665-013-2642-2\" count=\"1\">Duong et al., 2014</citation>; <citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1016/j.envpol.2018.08.024\" pmid=\"30145517\" count=\"1\">Chun et al., 2018</citation>). <sentence_start/>Current studies show that MC-LR induces cytotoxicity in different ways. <sentence_start/>In detail, it has been shown that MC-LR can inhibit serine/threonine protein phosphatases (PPs) by interactions with their catalytic subunits, then affecting the cellular homeostasis (<citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.toxicon.2015.05.005\" pmid=\"25981867\" count=\"1\">Zhou et al., 2015</citation>; <citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.toxlet.2015.10.015\" pmid=\"26506538\" count=\"1\">Liu et al., 2016</citation>). <sentence_start/>Also, MC-LR can induce oxidative stress by increasing the reactive oxygen species (ROS) or decreasing the glutathione (GSH). <sentence_start/>Subsequently, oxidative stress caused by MC-LR might induce mitochondrial permeability transition and apoptosis (<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1016/j.chemosphere.2016.05.051\" pmid=\"27235693\" count=\"1\">Ma et al., 2016</citation>; <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1016/j.chemosphere.2017.10.158\" pmid=\"29117589\" count=\"1\">Ma et al., 2018</citation>; <citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1016/j.taap.2019.114626\" pmid=\"31201821\" count=\"1\">Wu et al., 2019</citation>). <sentence_start/>In addition, previous studies indicated that MC-LR is a potent tumor initiator (<citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.1016/j.envpol.2015.12.055\" pmid=\"26845367\" count=\"1\">Zhao et al., 2016</citation>; <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.3892/ol.2017.7458\" pmid=\"29399188\" pmcid=\"PMC5774544\" count=\"1\">Zhu et al., 2018</citation>), which could induce malignant cell transformation. <sentence_start/>For example, Liu et al. reported that MC-LR promoted proliferation and inhibited apoptosis in normal human liver cells (HL7702) (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.toxlet.2015.10.015\" pmid=\"26506538\" count=\"1\">Liu et al., 2016</citation>). <sentence_start/>The study of Wang et al. showed that MC-LR induced cytoskeleton reorganization, resulting in increased cell migration in human laryngeal epithelial cells (Hep-2) (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>However, the effect of MC-LR on prostate cancer (PCa) cells and normal prostate cells has yet been studied."
+  },
+  {
+   "section": "article",
+   "text": "Cellular mechanical characteristics are pivotal parameters that can reveal the properties of cells, such as their proliferation, migration, and invasion (<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1117/1.JBO.19.1.011008\" pmid=\"23864037\" count=\"1\">Yin-Quan et al., 2014</citation>). <sentence_start/>It has been reported that the viscoelasticity of cancer cells decreased significantly and was closely related to their metastasis and invasion (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1098/rsob.140046\" pmid=\"24850913\" pmcid=\"PMC4042852\" count=\"1\">Rother et al., 2014</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1111/odi.12171\" pmid=\"24006964\" count=\"1\">Runge et al., 2014</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1016/j.mbs.2016.03.015\" pmid=\"27107978\" count=\"1\">Nguyen et al., 2016</citation>). <sentence_start/>To date, the effect of MC-LR on cellular mechanical properties is unknown. <sentence_start/>In addition, microfilaments are the main components of the cytoskeleton in the cytoplasm. <sentence_start/>Many studies have suggested that MC-LR can cause microfilament changes in different cells (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.tox.2011.09.085\" pmid=\"22000993\" count=\"1\">Meng et al., 2011</citation>; <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1002/tox.21974\" pmid=\"24677693\" count=\"1\">Zeng et al., 2015</citation>; <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>However, the influence of MC-LR on microfilaments is still poorly documented in PCa cells and normal prostate cells."
+  },
+  {
+   "section": "article",
+   "text": "The aim of this study is to determine the effect of MC-LR on mechanical parameters, microfilament, and phenotype in PCa cells and normal prostate cells. <sentence_start/>To do this, we incubated PCa cells (DU145) and normal prostate cells (WPMY) with 10 μM MC-LR and then tested the cellular deformability and viscoelastic parameters by the micropipette aspiration technique. <sentence_start/>Subsequently, the changes of microfilament and microfilament-associated proteins were examined by immunofluorescence and Western blot, respectively. <sentence_start/>Moreover, invasion assay was conducted to assess the role of MC-LR in cell invasion."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Cell Culture and Treatment"
+  },
+  {
+   "section": "article",
+   "text": "DU145 and WPMY cells were obtained from the Chinese Academy of Sciences Cell Bank (Shanghai, China) and cultured in Dulbecco’s modified Eagle’s medium (DMEM; Invitrogen, Shanghai, China) supplemented with 10% fetal bovine serum (FBS; Gibco, Shanghai, China). <sentence_start/>After 24 h of incubation, cells were treated with MC-LR (Express Technology, Beijing, China) for another 24 h. <sentence_start/>The control cells were cultured in medium without MC-LR."
+  },
+  {
+   "section": "article",
+   "text": "CCK-8 Assay"
+  },
+  {
+   "section": "article",
+   "text": "DU145 and WPMY cells were seeded in 96-well plates, respectively. <sentence_start/>After treatment with different concentrations of MC-LR (0.1 μM, 0.5 μM, 1 μM, 2 μM, 5 μM, 10 μM, 20 μM, and 40 μM) for 24 h, relative cell viability was detected by the CCK-8 kit (Beyotime, Shanghai, China) according to the manufacturer’s instructions (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Micropipette Aspiration Test and the Mechanical Behavior of Cells"
+  },
+  {
+   "section": "article",
+   "text": "The mechanical behaviors of cells were represented by the deformability and viscoelastic parameters, which were investigated using the micropipette aspiration technique combined with the Kelvin standard linear viscoelastic solid model (<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.jmbbm.2018.11.029\" pmid=\"30529987\" count=\"1\">Xie et al., 2019</citation>) ( <bold>Figure 1</bold> ). <sentence_start/>A single-cell suspension was prepared for the micropipette aspiration test by micromanipulator (Olympus, Japan). <sentence_start/>A single spherical cell was captured and deformed by the negative pressure in the micropipette, and then part of the cell was aspirated into the micropipette. <sentence_start/>This process was viewed and recorded with an inversion microscope (Olympus, Japan) combined with image software. <sentence_start/>The recorded images of the micropipette aspiration test were used to measure the aspirated length of cells ( <bold>Figure 1A</bold> ), and then the relationships of time and aspirated length were obtained and fitted to calculate the cellular viscoelastic parameter values."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "The micropipette aspiration technique and the mechanical behavior of cells. <sentence_start/><bold>(A)</bold> A certain negative pressure (ranging from 294 Pa to 441 Pa) induced cell deformation with time, and then, part of the cell was aspirated into the micropipette. <sentence_start/>Images of this process were recorded, and the aspirated length <italic toggle=\"yes\">L</italic> was measured. <sentence_start/><bold>(B)</bold> Schematic representation of the Kelvin standard linear viscoelastic solid model: in the model, the cell was assumed to be a homogeneous viscoelastic spherical solid; <italic toggle=\"yes\">k<sub>1</sub>, k<sub>2</sub></italic> <sub>,</sub> and <italic toggle=\"yes\">μ</italic> are the viscoelastic parameters, <italic toggle=\"yes\">L</italic> is the aspirated length, and <italic toggle=\"yes\">Δp</italic> is the negative pressure."
+  },
+  {
+   "section": "article",
+   "text": "The cell was assumed to be a homogeneous viscoelastic spherical solid, and then the cellular viscoelastic parameters <italic toggle=\"yes\">E<sub>0</sub></italic> (the instantaneous modulus), <italic toggle=\"yes\">E<sub>∞</sub></italic> (the equilibrium modulus associated with long-term equilibrium), and <italic toggle=\"yes\">μ</italic> (the apparent viscosity) were calculated by applying the Kelvin standard linear viscoelastic solid model ( <bold>Figure 1B</bold> ) based on the relationships of time-aspirated length, as our (<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.jmbbm.2018.11.029\" pmid=\"30529987\" count=\"1\">Xie et al., 2019</citation>) and others’ (<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.joca.2007.09.016\" pmid=\"18032072\" count=\"1\">Zhang et al., 2008</citation>) previous studies have described. <sentence_start/>The values of the cellular viscoelastic parameters (<italic toggle=\"yes\">E<sub>0</sub></italic>, <italic toggle=\"yes\">E<sub>∞</sub></italic>, and <italic toggle=\"yes\">μ</italic>) were calculated according to the following equation:"
+  },
+  {
+   "section": "article",
+   "text": "Immunofluorescence"
+  },
+  {
+   "section": "article",
+   "text": "After 24-h treatment with MC-LR, immunofluorescence was performed to detect microfilament changes in DU145 and WPMY cells as previously described (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1002/tox.22585\" pmid=\"29984889\" count=\"1\">Huang et al., 2018</citation>). <sentence_start/>Briefly, the cells were fixed using 4% formaldehyde for 15 min and then washed by phosphate-buffered saline (PBS). <sentence_start/>Subsequently, phalloidin (Beyotime, Shanghai, China) and DAPI (Santa Cruz, Dallas, USA) were added and then incubated for 60 min. <sentence_start/>The images were captured using an Olympus laser-scanning confocal microscope."
+  },
+  {
+   "section": "article",
+   "text": "Western Blot"
+  },
+  {
+   "section": "article",
+   "text": "Based on a previous study (<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3892/mmr.2017.6797\" pmid=\"28627666\" count=\"1\">You et al., 2017</citation>), the process of Western blot was slightly modified. <sentence_start/>After SDS-PAGE, the protein was transferred to PVDF membranes (Beyotime, Shanghai, China) and incubated with anti-VASP (CST, Boston, USA, 1:1000 dilution), anti-ezrin (CST, Boston, USA, 1:1000 dilution), anti-p-VASP (Ser157, CST, Boston, USA, 1:1000 dilution), anti-p-ezrin (Thr567, CST, Boston, USA, 1:1000 dilution), and anti-β-actin (Beyotime, Shanghai, China, 1:1000 dilution) at 4°C overnight. <sentence_start/>After incubating with secondary antibody (Proteintech, Wuhan, China, 1:2000 dilution), the bands were analyzed using the enhanced chemiluminescence reaction kit (ECL; Beyotime, Shanghai, China)."
+  },
+  {
+   "section": "article",
+   "text": "Invasion Assay"
+  },
+  {
+   "section": "article",
+   "text": "Invasion assay was carried out using the method previously described (<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1002/pros.23461\" pmid=\"29181846\" count=\"1\">Yan et al., 2018</citation>). <sentence_start/>DU145 and WPMY cells were seeded into transwell chambers (Sigma-Aldrich, St. Louis, USA), respectively. <sentence_start/>Meanwhile, serum-free DMEM with 10 μM MCLR was added to the upper chamber, and DMEM containing 10% FBS was added to the lower chamber. <sentence_start/>After incubating for 24 h, the cells that passed through the membranes were stained with 0.5% crystal violet solution and counted under the microscope."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Statistical analyses were performed with SPSS 19.0 software. <sentence_start/>Independent sample t-test was used to determine the differences between groups. <sentence_start/>All experiments were performed in triplicate. <sentence_start/>Data are shown as mean ± SD, and P &lt; 0.05 was considered to be significantly different."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Screening of MC-LR Concentration"
+  },
+  {
+   "section": "article",
+   "text": "To select the appropriate concentration of MC-LR, a CCK-8 kit was used to detect the relative cell viability. <sentence_start/>As shown in <bold>Figure 2</bold> , no change was observed in the relative cell viability of DU145 and WPMY cells between the control group and the MC-LR treated group with concentrations of 0.1-10 μM. <sentence_start/>However, the relative cell viability decreased at an MC-LR concentration of 20 μM and more so at 40 μM. <sentence_start/>Therefore, 10 μM MC-LR was selected for further study."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Screening of MC-LR concentration. <sentence_start/>DU145 cells and WPMY cells were seeded in 96-well plates, respectively. <sentence_start/>After incubation with different concentrations of MC-LR for 24 h, relative cell viability was detected with the CCK-8 kit. <sentence_start/>The results are representative of three independent experiments. <sentence_start/>*<italic toggle=\"yes\">P</italic> &lt; 0.05. <sentence_start/>Error bars indicate SD."
+  },
+  {
+   "section": "article",
+   "text": "MC-LR Caused Mechanical Behavior Changes in DU145 and WPMY Cells"
+  },
+  {
+   "section": "article",
+   "text": "The relationships between time and the aspirated length of the cells were plotted as curves, and the time-aspirated length curves at a negative pressure of 392 Pa are shown in <bold>Figure 3A</bold> . <sentence_start/>Under the negative pressure, the cell was deformed; meanwhile, part of the cell was aspirated into the micropipette, and the deformation rate decreased with time until it was no longer aspirated into the micropipette within 50-60 sec. <sentence_start/>The time-aspirated length curves of the cells reflected the cellular deformability. <sentence_start/>As shown in <bold>Figure 3A</bold> , MC-LR treated cells exhibited higher deformability than MC-LR untreated cells. <sentence_start/>These results suggested that MC-LR increased the deformability of the cells. <sentence_start/>In addition, DU145 cells showed higher deformability than WPMY cells, and DU145 cells without MC-LR treatment even still exhibited higher deformability than WPMY cells treated with MC-LR."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "MC-LR caused mechanical behavior changes in DU145 cells and WPMY cells. <sentence_start/><bold>(A)</bold> Curves of aspirated lengths <italic toggle=\"yes\">L</italic> with time at a constant negative pressure of 392 Pa. <bold>(B</bold>-<bold>D)</bold> Comparison of the cellular viscoelastic parameters (<italic toggle=\"yes\">E<sub>0</sub></italic>, <italic toggle=\"yes\">E<sub>∞</sub></italic>, and <italic toggle=\"yes\">μ</italic>). <sentence_start/>The viscoelastic parameter values were calculated by applying the curves of the aspirated lengths and the Kelvin standard linear viscoelastic solid model. <sentence_start/>The results are representative of three independent experiments. <sentence_start/>*<italic toggle=\"yes\">P</italic> &lt; 0.05. <sentence_start/>Error bars indicate SD."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Figures 3B-D</bold> show comparisons of the cellular viscoelastic parameters (<italic toggle=\"yes\">E<sub>0</sub></italic>, <italic toggle=\"yes\">E<sub>∞</sub></italic>, and <italic toggle=\"yes\">μ</italic>), respectively. <sentence_start/>The viscoelastic parameter values (<italic toggle=\"yes\">E<sub>0</sub></italic>, <italic toggle=\"yes\">E<sub>∞</sub></italic>, and <italic toggle=\"yes\">μ</italic>) of MC-LR treated cells were significantly lower than those of the untreated cells (P &lt; 0.05). <sentence_start/>Additionally, the viscoelastic parameter values (<italic toggle=\"yes\">E<sub>0</sub></italic>, <italic toggle=\"yes\">E<sub>∞</sub></italic>, and <italic toggle=\"yes\">μ</italic>) of DU145 cells were lower than those of WPMY cells (P &lt; 0.05). <sentence_start/>These results indicated that the prostate carcinoma cells were softer than normal prostate cells and that MC-LR induced the cells to become much softer. <sentence_start/>Previous research indicated that cellular mechanical behavior is correlated with microfilament changes. <sentence_start/>Hence, we investigated the microfilament arrangement further."
+  },
+  {
+   "section": "article",
+   "text": "MC-LR Induced Microfilament Reorganization in DU145 Cells and WPMY Cells"
+  },
+  {
+   "section": "article",
+   "text": "Changes of microfilament were detected in DU145 and WPMY cells after MC-LR treatment. <sentence_start/>As shown in <bold>Figure 4</bold> , microfilament was evenly distributed in the inner side of the cell membranes in the control group; by contrast, in the MC-LR treated group, microfilament appeared to gather to the cell surface and concentrated to form bundles. <sentence_start/>Notably, the above results were observed in both DU145 and WPMY cells. <sentence_start/>These data suggested that MC-LR induced microfilament reorganization in both DU145 and WPMY cells."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "MC-LR induced microfilament reorganization in DU145 cells and WPMY cells. <sentence_start/>DU145 cells and WPMY cells were incubated using 10 μM MC-LR for 24 h, and then immunofluorescence was performed to label microfilament (green) and nuclei (blue), respectively. <sentence_start/>The results are representative of three independent experiments."
+  },
+  {
+   "section": "article",
+   "text": "MC-LR Increased the Phosphorylation Level of Microfilament-Associated Proteins in DU145 and WPMY Cells"
+  },
+  {
+   "section": "article",
+   "text": "To further elucidate the mechanism of microfilament rearrangement, the expression and phosphorylation of microfilament-associated proteins were detected by Western blot. <sentence_start/>Firstly, the expression of microfilament-associated proteins (VASP and ezrin) was tested in DU145 and WPMY cells after MC-LR treatment. <sentence_start/>As shown in <bold>Figure 5A</bold> , no significant change was observed in the expression of VASP and ezrin, which implied that microfilament reorganization had no relationship with the expression of microfilament-associated proteins. <sentence_start/>Subsequently, the phosphorylation level of microfilament-associated proteins was further assessed. <sentence_start/>The results showed that the expression of p-VASP (Ser157) and p-ezrin (Thr567) was significantly higher in the MC-LR treatment group than in the untreated group (P &lt; 0.05, <bold>Figure 5B</bold> ). <sentence_start/>These results demonstrated that MC-LR increased the phosphorylation level of microfilament-associated proteins in DU145 and WPMY cells."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "MC-LR increased the phosphorylation level of microfilament-associated proteins in DU145 cells and WPMY cells. <sentence_start/>DU145 cells and WPMY cells were incubated with 10 μM MC-LR for 24 h, and then Western blot was carried out to detect the expression and phosphorylation of VASP and ezrin. <sentence_start/>The results are representative of three independent experiments. <sentence_start/>* <italic toggle=\"yes\">P</italic> &lt; 0.05. <sentence_start/>Error bars indicate SD."
+  },
+  {
+   "section": "article",
+   "text": "MC-LR Promoted Cell Invasion in DU145 and WPMY Cells"
+  },
+  {
+   "section": "article",
+   "text": "It has been reported that MC-LR has potential carcinogenicity; therefore, transwell assay was performed to determine the effect of MC-LR on cell invasion. <sentence_start/>The results revealed that the invasion ability of the MC-LR treatment group was substantially reinforced compared with the untreated group in DU145 and WPMY cells (P &lt; 0.05, <bold>Figure 6</bold> ). <sentence_start/>Thus, these data demonstrated that MC-LR promoted cell invasion in both DU145 and WPMY cells."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "MC-LR promoted cell invasion in DU145 cells and WPMY cells. <sentence_start/>DU145 cells and WPMY cells were treated with 10 μM MC-LR for 24 h. <sentence_start/>The invasion ability was determined by transwell assay. <sentence_start/>The results are representative of three independent experiments. <sentence_start/>* <italic toggle=\"yes\">P</italic> &lt; 0.05. <sentence_start/>Error bars indicate SD."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In the present study, we investigated the influence of MC-LR on mechanical parameters, microfilament, and cell invasion in DU145 and WPMY cells. <sentence_start/>DU145 and WPMY cells were treated with 10 μM MC-LR, and then the cellular deformability and viscoelastic parameters were tested by the micropipette aspiration technique. <sentence_start/>The results showed that MC-LR increased the cellular deformability, reduced the cellular viscoelastic parameter values, and caused the cells to become softer. <sentence_start/>Moreover, the immunofluorescence of microfilament was performed, and then Western blot of microfilament-associated proteins was carried out. <sentence_start/>The results demonstrated that MC-LR induced microfilament reorganization and increased the phosphorylation level of microfilament-associated proteins. <sentence_start/>Finally, the effect of MC-LR on cell invasion was examined. <sentence_start/>The results revealed that MC-LR promoted cell invasion. <sentence_start/>Collectively, our results suggested that mechanical changes and microfilament reorganization were involved in MC-LR-promoted cell invasion in DU145 and WPMY cells."
+  },
+  {
+   "section": "article",
+   "text": "Since the effect of MC-LR on DU145 and WPMY cells has not been reported, the appropriate concentration of MC-LR was screened. <sentence_start/>The results showed that MC-LR did not affect the relative cell viability of DU145 and WPMY cells at concentrations of 0.1-10 μM. <sentence_start/>Consistent with our results, Wang et al. treated Hep-2 cells with 0.5-10 μM MC-LR for 24 h. <sentence_start/>Their results suggested that the relative cell viability remained unchanged in the treated group compared with the untreated group (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>Also, MC-LR at 10 μM was used in several other studies (<citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1002/tox.21974\" pmid=\"24677693\" count=\"1\">Zeng et al., 2015</citation>; <citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.toxlet.2015.10.015\" pmid=\"26506538\" count=\"1\">Liu et al., 2016</citation>; <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>Therefore, 10 μM MC-LR was selected for the subsequent experiments to obtain a more obvious effect in this study."
+  },
+  {
+   "section": "article",
+   "text": "Micropipette aspiration is a useful technique for detecting the viscoelasticity of cells, such as colon cancer cells (<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijpharm.2016.09.056\" pmid=\"27662804\" count=\"1\">Taranejoo et al., 2016</citation>), scleral fibroblasts (<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1258/ebm.2012.012196\" pmid=\"23115350\" count=\"1\">Wang and Chen, 2012</citation>), and chondrocytes (<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.joca.2007.09.016\" pmid=\"18032072\" count=\"1\">Zhang et al., 2008</citation>). <sentence_start/>Therefore, in the present study, the micropipette aspiration technique was used to investigate the effect of MC-LR on the mechanical properties of DU145 and WPMY cells. <sentence_start/>The results showed that MC-LR increased the deformability of the cells, reduced the cellular viscoelastic parameter values, and caused the cells to become softer. <sentence_start/>Additionally, DU145 cells showed higher deformability and weaker viscoelastic behavior than WPMY cells, respectively. <sentence_start/>Previous studies indicated that mechanical properties are the key parameters that are correlated with metastasis and invasion of cancer cells (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1098/rsob.140046\" pmid=\"24850913\" pmcid=\"PMC4042852\" count=\"1\">Rother et al., 2014</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1111/odi.12171\" pmid=\"24006964\" count=\"1\">Runge et al., 2014</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1016/j.mbs.2016.03.015\" pmid=\"27107978\" count=\"1\">Nguyen et al., 2016</citation>). <sentence_start/>Specifically, Wang et al. reported that the viscoelastic characteristics of breast cancer cells were substantially decreased, and the cancer cells became softer and more fluid than normal cells (<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1002/sca.21300\" pmid=\"26750438\" count=\"1\">Wang et al., 2016</citation>). <sentence_start/>Xie et al. analyzed different cancer cell lines, including human skin cancer cells (A2058), lung cancer cells (MSTO-211H), and hepatocellular carcinoma cells (Hep G2), and their results suggested that all cancer cells exhibited higher deformability and weaker viscoelastic behavior than the normal cells, respectively (<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.jmbbm.2018.11.029\" pmid=\"30529987\" count=\"1\">Xie et al., 2019</citation>). <sentence_start/>Based on our results and others’ studies, we speculated that MC-LR could induce cells to alter their structures and functions and become softer, easier to deform, and potentially easier to metastasize. <sentence_start/>To our knowledge, this is the first time that the influence of MC-LR on cellular mechanical properties has been investigated, providing novel information to explain the carcinogenic mechanism of MC-LR."
+  },
+  {
+   "section": "article",
+   "text": "Previous research reported that cellular mechanical behavior was associated with microfilament changes. <sentence_start/>As a result, cellular microfilament arrangement was further tested in this study. <sentence_start/>The results of immunofluorescence showed that MC-LR induced microfilament reorganization, leading to microfilament distribution on the cell surface and aggregation into bundles in DU145 and WPMY cells. <sentence_start/>Consistent with our study, Zeng et al. found that MC-LR caused aggregation of microfilament around the cell periphery in HL7702 cells (<citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1002/tox.21974\" pmid=\"24677693\" count=\"1\">Zeng et al., 2015</citation>). <sentence_start/>In addition, Wang et al. observed that microfilaments were reconstructed, gathering at the cell edge and forming bundles, in MC-LR-treated Hep-2 cells (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>Other studies also demonstrated that MC-LR could cause microfilament reorganization in human liver cancer cells (SMMC-7721) (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.chemosphere.2014.03.130\" pmid=\"25048900\" count=\"1\">Wang et al., 2014</citation>) and neuroendocrine cells (PC12) (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.tox.2011.09.085\" pmid=\"22000993\" count=\"1\">Meng et al., 2011</citation>). <sentence_start/>Additionally, it has been reported that cellular mechanical behavior is closely related to the components of the cytoskeleton, such as microfilament and microtubule (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1117/1.JBO.19.1.011008\" pmid=\"23864037\" count=\"1\">Chen et al., 2013</citation>; <citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1016/j.jbiomech.2013.11.020\" pmid=\"24315289\" count=\"1\">Pachenari et al., 2014</citation>). <sentence_start/>Further studies suggested that chemical drugs could cause cytoskeleton reorganization and then induce mechanical changes (<citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1016/j.jbiomech.2014.11.026\" pmid=\"25678199\" count=\"1\">Seyedpour et al., 2015</citation>; <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1007/s10867-016-9423-6\" pmid=\"27438703\" pmcid=\"PMC5059595\" count=\"1\">Li M. et al., 2016</citation>). <sentence_start/>Therefore, our results indicated that MC-LR could induce mechanical changes by microfilament reorganization in DU145 and WPMY cells."
+  },
+  {
+   "section": "article",
+   "text": "Several studies have suggested that microfilament-associated proteins play key roles in maintaining the structure of microfilament (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>Therefore, microfilament-associated proteins need to be further investigated. <sentence_start/>Several relevant studies have been documented. <sentence_start/>For example, Zeng et al. reported that MC-LR induced hyperphosphorylation of VASP and ezrin in HL7702 cells but had no significant effect on their expression level (<citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1002/tox.21974\" pmid=\"24677693\" count=\"1\">Zeng et al., 2015</citation>). <sentence_start/>The study of Wang et al. showed that the expression of p-VASP was up-regulated remarkably in SMMC-7721 cells treated with MC-LR (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.chemosphere.2014.03.130\" pmid=\"25048900\" count=\"1\">Wang et al., 2014</citation>). <sentence_start/>In addition, other studies found that ezrin and VASP were regulated by phosphorylation in MC-LR-treated cells, which could lead to microfilament rearrangement (<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1016/j.ceb.2011.04.011\" pmid=\"21592758\" pmcid=\"PMC3148288\" count=\"1\">Neisch and Fehon, 2011</citation>; <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1016/j.bbrc.2011.09.059\" pmid=\"21945940\" count=\"1\">Thomson et al., 2011</citation>; <citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.toxicon.2015.05.005\" pmid=\"25981867\" count=\"1\">Zhou et al., 2015</citation>). <sentence_start/>Likewise, we detected the expression and phosphorylation of microfilament-associated proteins, and the results confirmed that the expression of p-VASP and p-ezrin was significantly upregulated in MC-LR treatment cells. <sentence_start/>However, the expression of VASP and ezrin remained unchanged. <sentence_start/>It is well known that VASP and ezrin are important microfilament-associated proteins, belonging to Ena/VASP family of adaptor proteins (<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1002/tox.21898\" pmid=\"23929704\" count=\"1\">Yu et al., 2015</citation>) and the ERM (Ezrin/Radixin/Moesin) protein family (<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1242/jcs.098343\" pmid=\"24951115\" pmcid=\"PMC4117225\" count=\"1\">Mcclatchey, 2014</citation>), respectively. <sentence_start/>Previous studies have demonstrated that the phosphorylation changes in VASP and ezrin induced microfilament rearrangement (<citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.toxicon.2015.05.005\" pmid=\"25981867\" count=\"1\">Zhou et al., 2015</citation>; <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>As a result, the MC-LR-induced increase in the phosphorylation level of microfilament-associated proteins that we found in our study could contribute to microfilament reorganization in DU145 and WPMY cells."
+  },
+  {
+   "section": "article",
+   "text": "It has been reported that MC-LR can promote cell migration and metastasis (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1021/es4007228\" pmid=\"23802678\" count=\"1\">Pengfei et al., 2013</citation>; <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>In more detail, Wang et al. showed that MC-LR accelerated Hep-2 cell migration (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>Xu et al. reported that MC-LR promoted MDA-MB-435 cell invasion and metastasis <italic toggle=\"yes\">via</italic> the PI3-K/AKT signaling pathway (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1021/es4007228\" pmid=\"23802678\" count=\"1\">Pengfei et al., 2013</citation>). <sentence_start/>In this study, we found that MC-LR promoted cell invasion in DU145 and WPMY cells. <sentence_start/>Previous studies indicated that mechanical properties are correlated with the metastasis and invasion of cancer cells (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1098/rsob.140046\" pmid=\"24850913\" pmcid=\"PMC4042852\" count=\"1\">Rother et al., 2014</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1111/odi.12171\" pmid=\"24006964\" count=\"1\">Runge et al., 2014</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1016/j.mbs.2016.03.015\" pmid=\"27107978\" count=\"1\">Nguyen et al., 2016</citation>). <sentence_start/>In addition, many studies also suggested that microfilaments were functionally associated with cell invasion (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1002/wdev.67\" pmid=\"23495356\" pmcid=\"PMC3593794\" count=\"1\">Moon and Wynshaw-Boris, 2013</citation>; <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1016/j.ejca.2015.06.022\" count=\"1\">Du et al., 2015</citation>; <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1002/tox.22289\" pmid=\"27393157\" count=\"1\">Wang et al., 2017</citation>). <sentence_start/>In the present study, we demonstrated that MC-LR induced cellular mechanical changes and microfilament reorganization and promoted cell invasion. <sentence_start/>Based on our results and previous studies, we speculate that MC-LR promoted cell invasion by microfilament reorganization and mechanical changes in DU145 and WPMY cells. <sentence_start/>Relevant further studies will be performed to elucidate the molecular mechanism of MC-LR-promoted cell invasion."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, we demonstrated that mechanical changes and microfilament reorganization were involved in MC-LR-promoted cell invasion in DU145 and WPMY cells. <sentence_start/>Our results provided novel and useful information to explain the toxicological mechanism of MC-LR."
+  },
+  {
+   "section": "article",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "article",
+   "text": "All datasets generated for this study are included in the article/ <bold>Supplementary Material</bold> ."
+  },
+  {
+   "section": "article",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "article",
+   "text": "WF, ZP, and GuoW designed the experiments and wrote the paper. <sentence_start/>QZ, GuiW, and YX performed the experiments. <sentence_start/>ZG and ZL analyzed the data. <sentence_start/>All of the authors read and approved the final manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Funding"
+  },
+  {
+   "section": "article",
+   "text": "The study was supported by the Natural Science Foundation of Shandong Province (ZR2014CL034, ZR2018MC015, ZR2019MA018), Medical and Health Development Plan of Shandong Province (2017WS058), Research and Development Plan of University in Shandong Province (J18KA120), National Natural Science Foundation of China (11802209), and Funds of the Shandong “Double Tops” Program."
+  },
+  {
+   "section": "article",
+   "text": "Conflict of Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "back",
+   "text": "The Supplementary Material for this article can be found online at:"
+  },
+  {
+   "section": "back",
+   "text": "Data Sheet 1"
+  },
+  {
+   "section": "back",
+   "text": "MC-LR increased the phosphorylation level of microfilament-associated proteins in DU145 and WPMY cells. <sentence_start/>These photos (including ezrin, vasp and β-actin-1) were the original image files for the Western blot of <bold>Figure 5A</bold> . <sentence_start/>Other photos (including p-ezrin, p-vasp and β-actin-2) were the original image files for the Western blot of <bold>Figure 5B</bold> ."
+  }
+ ]
+}

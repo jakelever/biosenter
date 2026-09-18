@@ -1,0 +1,335 @@
+{
+ "pmid": 17880678,
+ "pmcid": 2164935,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Spectral measures and mixed models as valuable tools for investigating controls on land surface phenology in high arctic Greenland"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Changes in land surface phenology are of major importance to the understanding of the impact of recent and future climate changes in the Arctic. <sentence_start/>This paper presents an extensive study from Zackenberg Ecological Research Operations (ZERO) where snow melt, climate and growing season characteristics of six major high arctic vegetation types has been monitored during 1999 to 2005. <sentence_start/>We investigate the growth dynamics for dry, mesic and wet types using hand held measurements of far red normalised difference vegetation index (NDVI-FR) and generalized additive mixed models (GAMM)."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Snow melt and temperature are of major importance for the timing of the maximum growth as well as for the seasonal growth. <sentence_start/>More than 85% of the variance in timing of the maximum growth is explained by the models and similar for the seasonal growth of mesic and wet vegetation types. <sentence_start/>We find several non-linear growth responses to the environmental variables."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "We conclude that the uses of GAMMs are valuable for investigating growth dynamics in the Arctic. <sentence_start/>Contrary to several other studies in the Arctic we found a significant decreasing trend of the seasonally integrated NDVI-FR (SINDVI) in some vegetation types. <sentence_start/>This indicates that although greening might occur wide-spread in the Arctic there are variations on the local scale that might influence the regional trends on the longer term."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Land surface phenology is a key variables for modelling of the terrestrial ecosystems in a global change perspective and as such as input into circulation models (GCM's) [<citation ref-type=\"bibr\" rid=\"B1\" count=\"1\">1</citation>]. <sentence_start/>Recent models agree that changes in vegetation and soil processes will have net positive feedback on future global warming [<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"16697911\" doi=\"10.1016/j.tree.2006.03.005\" count=\"1\">2</citation>]. <sentence_start/>Further, the way terrestrial ecology is implemented in GCM's will have a strong impact on the ability to predict future climatic changes [<citation ref-type=\"bibr\" rid=\"B3\" count=\"1\">3</citation>] and knowledge of changes in the vegetation cover and the reasons for these are therefore of major importance. <sentence_start/>This has led to a number of publications and assessments on the greening and impact of global climate change in northern high latitudes [<citation ref-type=\"bibr\" rid=\"B4\" doi=\"10.1038/386698a0\" count=\"1\">4</citation>-<citation ref-type=\"bibr\" rid=\"B6\" count=\"1\">6</citation>] based on monitoring studies [<citation ref-type=\"bibr\" rid=\"B7\" doi=\"10.1111/j.1365-2486.1997.gcb145.x\" count=\"1\">7</citation>] and experimental studies [<citation ref-type=\"bibr\" rid=\"B8\" doi=\"10.1890/04-0520\" count=\"1\">8</citation>,<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"15812655\" doi=\"10.1007/s00442-005-0012-9\" count=\"1\">9</citation>]. <sentence_start/>Several of these studies have investigated the effect of temperature, light and fertilization on photosynthesis [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1657/1523-0430(2004)036[0456:GCDFIA]2.0.CO;2\" count=\"1\">10</citation>,<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"12721832\" doi=\"10.1007/s00442-003-1198-3\" count=\"1\">11</citation>] and found that fertilization and increased temperatures significantly increases the photosynthesis while shading decreases the photosynthesis. <sentence_start/>Thawing degree-days and time of snow cover melt was found as the dominating controls on the phenology in the Subarctic [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.3732/ajb.92.3.422\" pmid=\"21652418\" count=\"1\">12</citation>]. <sentence_start/>Recently, Walker et al. included warming experiments from 11 locations across the tundra biome in a meta-analysis of the response of tundra vegetation to predicted warming [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"16428292\" doi=\"10.1073/pnas.0503198103\" pmcid=\"PMC1360515\" count=\"1\">13</citation>]. <sentence_start/>They found a clear response where warming increased height and cover of dwarf shrubs while moss, lichen cover and species diversity decreased. <sentence_start/>However, the high arctic sites showed a lack of response believed to be based on the limited ability for the high arctic plants to respond to changes in the growing season temperature and length. <sentence_start/>Very few studies of the controls on arctic vegetation phenology have been performed in the High Arctic. <sentence_start/>The most extensive study from high arctic Greenland dates back to the 1930'ies where Sørensen found that temperature and timing of snow melt were the most important factors for phenological responses [<citation ref-type=\"bibr\" rid=\"B14\" count=\"1\">14</citation>]. <sentence_start/>More recently, Marchand et al. used experimental warming on high arctic grasslands, finding that warming enhanced the green cover [<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1657/1523-0430(2004)036[0390:CWPSIH]2.0.CO;2\" count=\"1\">15</citation>]. <sentence_start/>A clear control of temperature and photosynthetically active radiation (PAR) on the timing of flowering was found by Høye et al. who investigated the phenology and flowering of Dryas spp. <sentence_start/>hybrids along a snowmelt gradient in Northeast Greenland [<citation ref-type=\"bibr\" rid=\"B16\" count=\"1\">16</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Normalised Difference Vegetation Index (NDVI) is a spectral measure that has been used widely in some of these studies as proxy for biophysical variables like biomass, leaf area index, CO2 flux etc. and that can be acquired non-destructively. <sentence_start/>Vegetation reflects light differently in the red and infrared wavelength resulting in a measure that is highly correlated with the biophysical variables [<citation ref-type=\"bibr\" rid=\"B17\" doi=\"10.1109/36.377948\" count=\"1\">17</citation>]. <sentence_start/>This enables long-term monitoring of land surface phenology using the same plots instead of traditional destructive methods where plant material is harvested for weighing, leaf area measurements etc. <sentence_start/>Several authors have tested different phenological models for use with NDVI and land surface phenology including double-logistic functions [<citation ref-type=\"bibr\" rid=\"B18\" doi=\"10.1080/01431169408954175\" count=\"1\">18</citation>], sigmoid functions [<citation ref-type=\"bibr\" rid=\"B19\" doi=\"10.1016/j.rse.2005.10.022\" count=\"1\">19</citation>], quadratic functions [<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1080/01431160512331326657\" count=\"1\">20</citation>] and others. <sentence_start/>However, Hope et al. used the low-resolution AVHRR satellites to investigate trends and possible controls of NDVI on the North Slope of Alaska (1989-1996) [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1080/0143116021000021170\" count=\"1\">21</citation>]. <sentence_start/>They focussed on the seasonal integrated NDVI (SINDVI) over three different vegetation types and found no relation between meteorological observations and SINDVI using standard correlations. <sentence_start/>They speculated that the complex interactions between climate and vegetation might require more complex modelling to reveal the relationships between these factors. <sentence_start/>Karlsen et al. used a similar integrated measure (TI NDVI) for the study of inter-annual changes in land surface phenology [<citation ref-type=\"bibr\" rid=\"B22\" doi=\"10.1111/j.1466-822X.2006.00234.x\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In this paper we present a seven year field study of land surface phenology in the High Arctic and use mixed models to investigate the possible controls of the growth dynamics. <sentence_start/>The NDVI-FR measurements are obtained from 26 individual plots within the Zackenberg Ecological Research Operations (ZERO) area (Figure 1) using a hand held Skye Instruments sensor at six vegetation types that range over dry, mesic and wet types. <sentence_start/>This sensor uses the red and far red bands instead of the traditional red and near-infrared bands. <sentence_start/>We investigate the seasonally integrated far red normalised difference vegetation index (NDVI-FR) using the nomenclature of Hope et al. (SINDVI) [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1080/0143116021000021170\" count=\"1\">21</citation>], the timing of the maximum NDVI-FR (DOYmax) and the level of maximum NDVI-FR (MaxNDVI). <sentence_start/>We hypothesize that the main explanatory variables controlling the seasonal growth dynamics of the six main vegetation types are timing of the snow melt, temperature during the growing season, light in the form of photosynthetic active radiation, rain during the growing season, the general state of the vegetation as expressed by the SINDVI in the previous growing season and the temperature during the previous year growing season. <sentence_start/>We expect that the different vegetation types will show different response from the explanatory variables."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Zackenberg valley area and location of NDVI-FR plots</bold>. <sentence_start/>Location of the Zackenberg Ecological Research Operations (ZERO) station and the climate station (star) is shown. <sentence_start/>The NDVI-FR plots shown as triangles have not been used in this study due to very early snow melt (see text). <sentence_start/>NDVI-FR plots (naming, area etc) are described in detail in Meltofte and Berg (2004). <sentence_start/>Background image is a grey-scale ortho photo from 7 August 2000."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "NDVI-FR seasonal modelling"
+  },
+  {
+   "section": "article",
+   "text": "The difference in seasonal greenness and onset of growing season between vegetation types is clear in Figure 2. <sentence_start/>It shows a summary of all the used NDVI-FR data for the six vegetation types during 1999 to 2005. <sentence_start/>In the figure the quadratic model has been fitted to the average NDVI-FR of each vegetation type for each week. <sentence_start/>For the 783 separate dataset (Table 1) the quadratic models fitted with a mean R2 value of 0.92. <sentence_start/>The dry and sparsely vegetated fell field melts free from snow earlier than the rest of the vegetation types but are more sparsely vegetated and therefore less green. <sentence_start/>From the relative dry dwarf shrub heaths (Dryas and Cassiope) over the moist Salix heath to the more wet grassland and fens later snow melt and higher maximum NDVI-FR values are clear. <sentence_start/>Looking across years, 1999 was a record year with deep snow cover and low spring temperatures causing the growing season to start very late. <sentence_start/>Contrary, 2005 had low snow cover and high temperatures both through winter (several thaw events) and during spring causing an early start of the growing season."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Summary of all NDVI-FR measurements</bold>. <sentence_start/>Error bars indicate one standard deviation."
+  },
+  {
+   "section": "article",
+   "text": "Interannual and seasonal characteristics of the vegetation types"
+  },
+  {
+   "section": "article",
+   "text": "Summary of the major growth dynamics variables (SINDVI, DOYmax and MaxNDVI) and exploratory variables (snow melt, temperature, light and rain) for each vegetation type and each year is shown in Figure 3. <sentence_start/>Only the full season data are shown. <sentence_start/>1999 is only used as the previous year data in 2000 and therefore not shown directly. <sentence_start/>The data show that the 6 vegetation types have different growth dynamics and grow under different abiotic conditions. <sentence_start/>Especially the dry types (fell field and Dryas heath) show different characteristics than the other types. <sentence_start/>They experience an earlier snowmelt and therefore earlier start on the growing season. <sentence_start/>This results in a higher input of photosynthetical radiation partly since the radiation is higher early than later during the summer and partly due to the longer growing season. <sentence_start/>Also the summed temperatures are slightly higher for the dry types than for the other types. <sentence_start/>Fell field and Dryas heath have an earlier maximum of the growth season but a lower maximum NDVI-FR and lower seasonal integrated NDVI-FR than the rest. <sentence_start/>Salix heath is the vegetation type that melts out latest in the season and peaks later than the other types. <sentence_start/>Contrary to the dry types it has a shorter growing season and hence experience lower summed temperatures and PAR (Photosynthetic Active Radiation). <sentence_start/>Salix heath has a medium MaxNDVI that does not change much between years. <sentence_start/>The highest NDVI-FR values occur in the more wet vegetation types, grassland and fen. <sentence_start/>Fen has the highest maximum values and highest SINDVI but experiences abiotic conditions close to average for the area. <sentence_start/>Most of the vegetation types show a significant trend towards earlier snow melt and lower MaxNDVI. <sentence_start/>Changes between years in MaxNDVI are small."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Mean response variable and variable data for each vegetation type and year</bold>. <sentence_start/>SINDVI: Seasonal Integrated NDVI-FR, ESM: End of snow melt, DOYmax: Day of maximum growth, AIRGS: summed air temperatures above 0 degrees during the growing season, MaxNDVI: Maximum occurring NDVI-FR, PARGS: summed photosynthetic active radiation during the growing season, RAINGS: summed rain during the growing season. <sentence_start/>Bars indicate one standard deviation."
+  },
+  {
+   "section": "article",
+   "text": "Before running the models we tested for correlation between each set of explanatory variable. <sentence_start/>We did not find any correlations with R2 higher than 0.6 among the used variables and therefore included all in the modelling. <sentence_start/>High correlation is on the other hand found between two of the main variables, MaxNDVI and SINDVI with distinct grouping of the vegetation types along the possible regression line - dry types at the bottom and more moist and vigorous types at the top rigth. <sentence_start/>The same pattern was reported by Hope et al. [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1080/0143116021000021170\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "GAMM modelling"
+  },
+  {
+   "section": "article",
+   "text": "The modelling of SINDVI and DOYmax was completed with success for each of the vegetation types and for the entire datasets. <sentence_start/>However, the modelling of MaxNDVI was not successful. <sentence_start/>The models did not converge with 3 degrees of smoothing and when we tried to raise the numbers of smoothing we found that it resulted in unreasonable responses that had no biological meaning. <sentence_start/>Table 2 shows a summary of the results of the modelling of SINDVI and DOYmax. <sentence_start/>For each response variable is shown the included explanatory variables of the seven models and an indication for the direction of the correlation of each variable. <sentence_start/>The total variance that was explained is shown for each model as the adjusted R2."
+  },
+  {
+   "section": "article",
+   "text": "SINDVI GAMM models: The SINDVI model for the overall vegetation cover (all types included in the model) show that all the variables hypothesized to control the SINDVI was significant and therefore included (Figure 4 and Table 2). <sentence_start/>78% of the variance in SINDVI is explained by this model. <sentence_start/>SINDVI decreases non-linearly with late snow melt so that early snow melt before DOY 153 (1 June) does not seem to change SINDVI much but after this time SINDVI decreases sharply with later snow melt. <sentence_start/>The opposite is true for the amount of light (high summed PAR) and temperatures in the previous year where changes in the lower range has higher relative impact than with much light and high temperatures in the previous year. <sentence_start/>The relationship between rain and SINDVI is almost linearly in the observed range so that more rain during the summer will decrease the SINDVI. <sentence_start/>However, the relationship is not as pronounced as with the other variables. <sentence_start/>SINDVI increases linearly with the integrated vegetation greenness in the previous year (SINDVIPREV) as would be expected while it seems that the current year's air temperature is beneficial to SINDVI only until a curtain limit where after it influences negatively."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "<bold>SINDVI model results with all vegetation types included</bold>. <sentence_start/>Each graph shows the response curve between each explanatory variable and SINDVI. <sentence_start/>Each response curve is the result of backfitting the GAMM model to calculate the additive contribution of each variable using non parametric smoothing methods. <sentence_start/>Thus, the y-axis can be interpretted as a transformation of SINDVI. <sentence_start/>Low values on the y-axis correlate with low SINDVI, while high values correlate with higher SINDVI. <sentence_start/>Dashed lines indicate twice standard errors. <sentence_start/>Each short bar on the x-axis indicates an observation. <sentence_start/>A: End of snow melt, B: summed air temperature during the growing season, C: summed PAR during the growing season, D: summed rain during the growing season, E: seasonal integrated NDVI-FR in the previous growing season, F: summed air temperature during the previous growing season. <sentence_start/>Estimated degrees of freedom are shown by each Y-axis."
+  },
+  {
+   "section": "article",
+   "text": "This behaviour of SINDVI to the explanatory variables is to some degree different when looking at the individual vegetation types. <sentence_start/>Only the negative effect of air temperature in the previous year on SINDVI is the same for all vegetation types. <sentence_start/>The fell field model did not include the time of snow melt in the model and had as opposed to the overall model a positive, linear relation between temperature, light, rain and previous year's SINDVI. <sentence_start/>With 84% of the variance explained fell field is the vegetation type with the most variance in SINDVI explained by the model. <sentence_start/>Cassiope heath show the same results as for the combined vegetation types but the Dryas heath model did not include light and rain in the model and for snow melt the response in SINDVI is positive with later melt until a maximum in the beginning of June (DOY 153) where SINDVI thereafter respond negatively to later snow melt. <sentence_start/>Only 21% of the variance in SINDVI is explained by the model. <sentence_start/>The pattern changes more going towards the more wet vegetation types until fen where SINDVI (like fell field) respond positive to later snow melt, increasing light and added rain."
+  },
+  {
+   "section": "article",
+   "text": "DOYmax GAMM models: The timing of the maximum NDVI-FR is explained a lot better than SINDVI. <sentence_start/>The lowest adjusted R2 is 0.85 and the highest 0.98 indicating that the used explanatory variables are controlling most of the variance of DOYmax. <sentence_start/>The response curves for the combined vegetation types are shown in Figure 5. <sentence_start/>Changes towards later snow melt clearly indicates a later occurring maximum as does increasing air temperatures during the green-up period although the positive response disappear with very high green-up temperatures. <sentence_start/>Both rain in the green-up period and temperatures in the previous year show an optimum range for later timing although none of the responses are as pronounced as for ESM or AIRUP. <sentence_start/>The model explains 89% of the variance in the timing of the combined vegetation types."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "<bold>DOYmax model results with all vegetation types included</bold>. <sentence_start/>Each graph shows the response curve between each explanatory variable and DOYmax. <sentence_start/>Each response curve is the result of backfitting the GAMM model to calculate the additive contribution of each variable using non parametric smoothing methods. <sentence_start/>Thus, the y-axis can be interpretted as a transformation of DOYmax. <sentence_start/>Low values on the y-axis correlate with low DOYmax (early maximum), while high values correlate with higher DOYmax (later maximum). <sentence_start/>Dashed lines indicate twice standard errors. <sentence_start/>Each short bar on the x-axis indicates an observation. <sentence_start/>A: End of snow melt, B: summed air temperature during the green-up period, C: summed rain during the green-up period, D: summed air temperature during the previous growing season. <sentence_start/>Estimated degrees of freedom are shown by each Y-axis."
+  },
+  {
+   "section": "article",
+   "text": "A late snow melt and hence later onset of the growing season is significantly postponing the time of maximum in all vegetation types. <sentence_start/>The shape of the response for grassland indicates a slight negative response with very early snow melts but confidence intervals are so large here that this might be due to the relative small sample size. <sentence_start/>Higher temperatures and amount of light and rain during the green-up period respond in a later maximum for both the Cassiope heath and the Salix snow bed. <sentence_start/>The integrated vegetation greenness in the previous year (SINDVIPREV) is only included in a few of the models and in general do not seem to have a great impact on the timing of the greening in a following year."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "NDVI-FR measured in six vegetation types"
+  },
+  {
+   "section": "article",
+   "text": "As illustrated in Figure 3 and 4 we here document for the first time to our knowledge how NDVI-FR varies substantially between six vegetation types in the High Arctic. <sentence_start/>Other studies have reported on one or two vegetation types [e.g. [[<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1657/1523-0430(2004)036[0390:CWPSIH]2.0.CO;2\" count=\"1\">15</citation>]] or from the lower arctic regions [e.g. [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1080/0143116021000021170\" count=\"1\">21</citation>]]. <sentence_start/>Not surprisingly, NDVI-FR shows lower max values in dry and sparsely vegetated areas than in moist and wet areas. <sentence_start/>For example, in 2005, NDVI-FR peaks around 0.43 in the fens whereas peak values for Dryas heath are around 0.35. <sentence_start/>Looking at plant species types, we found increasing values of MaxNDVI and SINDVI from moss and lichens at fell fields to evergreen and wintergreen species in Dryas heath and Cassiope heath and further to deciduous species in Salix heath, grassland and fen. <sentence_start/>Evergreen and wintergreen species invests energy in green leaves that are robust and can sustain the harsh winter conditions. <sentence_start/>Hence they develop small thick waxy leaves which are able to start photosynthesis right after snowmelt, or even before snowmelt [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1890/02-3154\" count=\"1\">23</citation>]. <sentence_start/>These leaves require high amounts of energy to develop and sustain [<citation ref-type=\"bibr\" rid=\"B24\" count=\"1\">24</citation>] and therefore less green tissue is exposed during the growing season than is the case for the deciduous plant types. <sentence_start/>This is mirrored in the NDVI-FR values (Figure 2). <sentence_start/>On the other hand, Salix arctica, fen species and grassland species have a high acute need of nutrients and water for development of green tissue during the growing season and hence deciduous plant species are found at moist and wet locations where water and nutrients are more abundant than in the drier ecotones."
+  },
+  {
+   "section": "article",
+   "text": "Looking at DOYmax (Figure 3B) three different groups are evident. <sentence_start/>Fell field and Dryas heath peaks first followed by Cassiope heath, grassland and fen, whereas Salix heath peaks latest in the growing season. <sentence_start/>Fell field and Dryas heath are both situated at exposed plateaus where snow might blow off during winter months and which get snow free early in spring. <sentence_start/>Plant species here have an early snow melt and hence start of growing season (Figure 3D) and can take advantage of the high PAR levels around midsummer. <sentence_start/>Therefore they peak earlier than species growing where snow stays later. <sentence_start/>In the other end of the scale, Salix heath is often situated around late melting snow fans in the Zackenberg area [<citation ref-type=\"bibr\" rid=\"B25\" count=\"1\">25</citation>], and hence, they experience the latest DOYmax. <sentence_start/>From Figure 3D it is evident that the growing season starts at approximately the same time at Cassiope heath, grassland and fen. <sentence_start/>These community types experience DOYmax at the same time (Figure 3B) and we conclude that this also is caused by the time of snowmelt."
+  },
+  {
+   "section": "article",
+   "text": "Timing"
+  },
+  {
+   "section": "article",
+   "text": "During the years of monitoring, we found a trend of earlier end of snow melt in all years after 2001 (Figure 3D), and hence, an earlier timing of MaxNDVI (Figure 3B) albeit this trend was only clear after year 2002. <sentence_start/>Therefore, we would expect increasing values of SINDVI. <sentence_start/>However, contrary to regional studies of greening in the Arctic [e.g. [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1080/0143116021000020144\" count=\"1\">26</citation>]] we found a decreasing trend of the NDVI-FR and SINDVI in some of the vegetation types at Zackenberg (Figure 3A). <sentence_start/>However, only a few of the trends are very significant (p &lt; 0.01) and with the short monitoring period and known variability in the climate in NE-Greenland one year with opposite trend might reduce or remove the significance. <sentence_start/>There also is a tendency to trambling effects in the drier areas but given that the significance of decrease is highest in the wet areas we assume that trambling is currently not an issue. <sentence_start/>However, it seems that trambling is a factor that needs to be taken into account in the long time series analysis in the coming years. <sentence_start/>The decrease in NDVI-FR and SINDVI for some of the vegetation types combined with the simultaneous earlier end of snow melt (Figure 3D) this indicates that the availability of water from melting snow is important for the area. <sentence_start/>Therefore, although greening might occur wide spread in the Arctic there are variations on the local scale that will influence the regional trends in the longer term."
+  },
+  {
+   "section": "article",
+   "text": "The models"
+  },
+  {
+   "section": "article",
+   "text": "Monitoring growth dynamics of the vegetation types in the High Arctic with remote sensing is influenced by a range of variables (clouds, surface moisture, access etc.<sentence_start/>). <sentence_start/>The need to be able to model the growth dynamics from the reliable measurements is therefore clear. <sentence_start/>Many different models describing the evolution of NDVI-FR through the growing season has been published. <sentence_start/>Fisher introduced a double-logistic function for modelling of growing season by NDVI in farm land [<citation ref-type=\"bibr\" rid=\"B27\" doi=\"10.1080/01431169408954175\" count=\"1\">27</citation>] while Lüdeke et al. used a three-spline function in the global Frankfurt Biosphere Model [<citation ref-type=\"bibr\" rid=\"B28\" doi=\"10.1016/0304-3800(95)00192-1\" count=\"1\">28</citation>]. <sentence_start/>An intersecting straight lines model was used by Shibayama et al. for detecting phenophases in the Subarctic [<citation ref-type=\"bibr\" rid=\"B29\" doi=\"10.1016/S0034-4257(98)00082-0\" count=\"1\">29</citation>]. <sentence_start/>The maximum composite technique of filtering AVHRR-based NDVI values and then use of the data directly with linear interpolation have been applied world-wide including in the subarctic Alaska [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1080/0143116021000021170\" count=\"1\">21</citation>]. <sentence_start/>However, the latter method need data regularly from the growing season which is not possible in the high arctic NE-Greenland where field researchers depending on the year arrives after the start of the growing season. <sentence_start/>Several of the mentioned methods have been accessed for this dataset but fits were not as good as those obtained with the 2nd degree model. <sentence_start/>We therefore conclude that for the relative sparse high arctic vegetation a quadratic model is the best for simple and quick estimation of growth dynamics. <sentence_start/>Marchand et al also used this for high arctic vegetation [<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1657/1523-0430(2004)036[0390:CWPSIH]2.0.CO;2\" count=\"1\">15</citation>]. <sentence_start/>The model can be easily applied and works for separate vegetation types in the High Arctic as for the vegetation as a whole."
+  },
+  {
+   "section": "article",
+   "text": "The response variables (SINDVI and DOYmax) describing the integrated vegetation greenness and timing of maximum was modelled successfully. <sentence_start/>Unfortunately, MaxNDVI was not possible to model. <sentence_start/>This is probably based on two reasons: 1) very little variance in MaxNDVI from year to year and 2) uncertainties in measurements of +/- 0.02 due to surface moisture, reflection or shadowing of the surroundings (field investigator, boulders etc) and the view angle of the instrument at the time of measurement. <sentence_start/>For example, Jacobsen and Hansen found a clear relation between soil moisture and MaxNDVI in Zackenberg [<citation ref-type=\"bibr\" rid=\"B30\" doi=\"10.1080/014311699213532\" count=\"1\">30</citation>]. <sentence_start/>However, changes in MaxNDVI between vegetation types are still clear (Figure 2 and Figure 3) and can be used for future monitoring of changes in vegetation composition."
+  },
+  {
+   "section": "article",
+   "text": "The mixed models used in this study are complex models that are not easily interpreted - especially if many degrees of smoothing have been used. <sentence_start/>We have limited the amount to three degrees of smoothing resulting in biological meaningful explanation of the controlling environmental factors. <sentence_start/>Fewer degrees would restrict to almost linear relations in most cases and more degrees will cause the model to follow the variance and not the overall pattern of the relationships. <sentence_start/>Unfortunately, it is not possible to obtain either the variance explained by each variable with the given method nor is it possible to interpret variables importance between models. <sentence_start/>Though it has not been possible to estimate the variance explained by each variable we believe SINDVI in the previous year to be the most important. <sentence_start/>Yet, the remaining variables in the models are also significant and therefore explain some of the variance although the level explained is uncertain. <sentence_start/>Other simpler models have been presented [e.g. [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1080/0143116021000021170\" count=\"1\">21</citation>]] but these have not produced satisfactory explanation."
+  },
+  {
+   "section": "article",
+   "text": "Explanatory variables"
+  },
+  {
+   "section": "article",
+   "text": "Table 2 shows the explanatory variables to the models of SINDVI and DOYmax. <sentence_start/>It is outstanding that we here document that SINDVI and DOYmax are differently determined by the explanatory variables in different vegetation types. <sentence_start/>We expected to see that dry, moist and wet vegetation types showed similar trends of explanatory variables in the sense that they would be similar within either dry, wet or moist vegetation types and differ markedly between them. <sentence_start/>However, this is not the case and other explanations must be found, since no patterns seem obvious. <sentence_start/>We speculate that the geographical distribution pattern of the individual dominant species within each vegetation type may be more dominant for the direction of each explanatory variable within the individual vegetation types than whether the vegetation type is situated on dry, moist or wet ground. <sentence_start/>In the following we analyze and discuss those variables which seems most biological meaningful."
+  },
+  {
+   "section": "article",
+   "text": "SINDVI: In general, the R2 values for the models of SINDVI are satisfactory except for the model of Dryas heath where R2 only reaches 0.21, and other factors must explain SINDVI. <sentence_start/>Looking at all models, two variables (temperature the previous year and SINDVI the previous year) show the same directional output for both the model of SINDVI for all vegetation types together and the individual models for each vegetation type (Table 2). <sentence_start/>Temperature in the previous year shows a negative relationship with SINDVI (Figure 4F), and therefore, higher temperatures during the growing season causes lower SINDVI the following year. <sentence_start/>The reason for this could be that high temperatures have been shown to increase the number of flowers in the following year [<citation ref-type=\"bibr\" rid=\"B14\" count=\"1\">14</citation>]. <sentence_start/>This would result in lower NDVI-FR simply because of the brighter colours of the flowers and lower absorption by chlorophyll but also in less greenness since the photosynthates are used for setting flowers and not for biomass growth. <sentence_start/>Another reason could be the effect of increased temperatures where snow patches disappear early in the season and the soil dries out causing low soil moisture levels. <sentence_start/>This would limit growth and build-up of resources for the following year [<citation ref-type=\"bibr\" rid=\"B31\" doi=\"10.1007/s10533-003-0855-2\" count=\"1\">31</citation>]. <sentence_start/>Contrary to this, SINDVI the previous year shows a positive correlation with SINDVI the current year except in grassland where no relationship exists (Table 2, Figure 4E). <sentence_start/>Almost all high arctic plant species are perennials and store resources in storage organs (leaves, stems, roots, rhizomes) from year to year [<citation ref-type=\"bibr\" rid=\"B32\" count=\"1\">32</citation>-<citation ref-type=\"bibr\" rid=\"B34\" doi=\"10.1046/j.1469-8137.1999.00384.x\" count=\"1\">34</citation>]. <sentence_start/>Assuming that high values of SINDVI indicates good growth conditions the previous year, the plants probably have build up resources in storage organs for growth the current year, and this is what is mirrored in high SINDVI values. <sentence_start/>A third variable, temperature during the growing season (AIRGS) seems interesting. <sentence_start/>For the overall model and for the Cassiope heath, Salix heath and grassland models a non-linear response with a maximum for SINDVI is shown (Table 2, Figure 4B). <sentence_start/>That is, SINDVI increases with increasing temperatures to a certain point where after SINDVI decreases as temperatures get higher. <sentence_start/>The explanation to this could be that the dominant species of these vegetation types all have a northern distribution pattern in Greenland and are not common at lower latitudes [<citation ref-type=\"bibr\" rid=\"B35\" count=\"1\">35</citation>]. <sentence_start/>Hence, they grow close to a regional southern distribution limit, and only a temperature increase to a certain degree increases their photosynthesis. <sentence_start/>Larger increases in temperature limit the photosynthesis, ceasing growth and causing SINDVI to decrease [<citation ref-type=\"bibr\" rid=\"B36\" doi=\"10.2307/3544933\" count=\"1\">36</citation>-<citation ref-type=\"bibr\" rid=\"B38\" count=\"1\">38</citation>] probably due to enzymatic inhibition of the photosynthetic apparatus. <sentence_start/>Since temperatures peaks in late July and early August we do not expect the negative response from higher temperatures to be an effect of day length."
+  },
+  {
+   "section": "article",
+   "text": "DOYmax: In general a higher variance can be explained by the models of DOYmax than SINDVI for all vegetation types (Table 2), but patterns in the individual explanatory variables for the six vegetation types are difficult to locate except for time of snowmelt. <sentence_start/>All vegetation types except grassland shows a positive correlation between this variable and DOYmax meaning that the later the snow melts, and hence the start of the growing season, the later the DOYmax is reached. <sentence_start/>This seems logic since all plant species needs a certain length of time after snowmelt to assimilate carbon and reach maximum biomass. <sentence_start/>This is also obvious from Figure 3B and Figure 3D where DOYmax appears in three different groups depending on time of snow melt. <sentence_start/>Other factors than time may however, influence this period, for example air temperature. <sentence_start/>Our model shows a positive correlation between temperature and DOYmax in all vegetation types except grassland and fen meaning that high temperatures in the green-up period delays DOYmax. <sentence_start/>Our only explanation to this phenomenon is as described above that too high temperatures may inhibit photosynthesis in the species growing close to their regional southern limit or increase flowering that will lower the build-up of green plant material. <sentence_start/>In conclusion we believe that the high R2 values for all vegetation types for the modelled DOYmax is due to a strong correlation with time of snow melt."
+  },
+  {
+   "section": "article",
+   "text": "Climatic change in the Zackenberg area"
+  },
+  {
+   "section": "article",
+   "text": "Climatic changes in the Zackenberg area is currently believed to show mainly as increased temperatures and winter precipitation [<citation ref-type=\"bibr\" rid=\"B39\" count=\"1\">39</citation>]. <sentence_start/>Increased precipitation will result in more snow hence prolonging the snow cover. <sentence_start/>This would lead towards decreasing greenness and later timing of the maximum. <sentence_start/>However, Hinkler investigated the snow distribution during future climate scenarios and concluded that the projected increased precipitation and higher temperatures will leave summer-snow cover depletion close to status quo [<citation ref-type=\"bibr\" rid=\"B40\" count=\"1\">40</citation>]. <sentence_start/>Recent years (e.g. 2002) have shown examples of this where a deep snow cover quickly can melt away if the temperatures in the spring are higher than normal. <sentence_start/>In the case of year 2002; it had the next highest recorded snow depth (50% above normal) at the end of winter but the snow melted off only one day later than the average melt off [<citation ref-type=\"bibr\" rid=\"B41\" count=\"1\">41</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Further, the unclear response from the high arctic locations of Walker et al. [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"16428292\" doi=\"10.1073/pnas.0503198103\" pmcid=\"PMC1360515\" count=\"1\">13</citation>] combined with the decrease in SINDVI from 1999 to 2005 in our study enhances the need for further studies in these areas. <sentence_start/>Also, the clear difference in the controlling variables and their induced response in the growth dynamics between vegetation types highlight the importance of high resolution studies. <sentence_start/>In regional climate change models the growth dynamics are often supplied by AVHRR and satellites with similar resolution. <sentence_start/>A regional study based on recent higher resolution satellite data (ASTER, SPOT etc.) and based on the methods presented here would supply valuable new knowledge in this area - an area that clearly needs attention for future regional or global climate modelling."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Although greening is reported to occur widespread in the Arctic, we have shown that variations exist that might influence regional trends in the longer term. <sentence_start/>We investigated the growth dynamics for six dry, mesic and wet vegetation types using NDVI-FR and generalized additive mixed models (GAMM). <sentence_start/>We found a quadratic model to be the best for simple and quick estimation of seasonal integrated NDVI-FR and used this in the analysis. <sentence_start/>Snow melt and temperature were of major importance for the timing of the maximum growth as well as for the seasonal growth. <sentence_start/>More than 85% of the variance in timing of the maximum growth is explained by the models and similar for the seasonal growth of mesic and wet vegetation types. <sentence_start/>We found several non-linear growth responses to the environmental variables and conclude that the uses of GAMMs are valuable for investigating growth dynamics in the Arctic."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Field site and vegetation types"
+  },
+  {
+   "section": "article",
+   "text": "The study area was located in the high arctic Zackenberg valley in Northeast Greenland (74°30'N, 21°0'W) (Figure 1). <sentence_start/>The climate of the area is high arctic with an annual mean temperature ranging between -8.5°C to -10.1°C (1996-2005). <sentence_start/>Mean monthly temperatures only rise above freezing during June, July and August and occasionally September with a mean temperature during the 1995 to 2005 period of 1.9°C, 5.7°C, 5.0°C and -0.9°C, respectively. <sentence_start/>Minimum July temperature during the 1995 to 2005 period was -2.6°C and maximum was 21.8°C. <sentence_start/>Precipitation typically falls as snow and only around 15% falls as rain. <sentence_start/>The annual precipitation was 261 mm water equivalent (1996-2005) with a minimum of 128 mm in 2002/2003 and a maximum of 416 mm in 1998/1999. <sentence_start/>Time of snow melt depends on several factors (e.g. topography, precipitation, temperatures) but in general varies between late May and mid June for most vegetation types. <sentence_start/>Details and climate data can be found in the yearly report for Zackenberg Ecological Research Operations or through the database ."
+  },
+  {
+   "section": "article",
+   "text": "The vegetation in the valley consist of sparsely vegetated areas (abrasion plateaus, fell fields), dry and mesic heaths (Dryas spp., Cassiope tetragona heath and Vaccinium uliginosum heath), snowbeds (Salix arctica) and wet grasslands and fens dominated by Arctagrostis latifolia, Eriophorum triste and Eriophorum scheuchzeri, Dupontia psilosantha, respectively [<citation ref-type=\"bibr\" rid=\"B25\" count=\"1\">25</citation>]. <sentence_start/>The vegetation is relatively homogenous with areas of Cassiope heath or Dupontia fen covering large hectare sized patches. <sentence_start/>A typical progression of vegetation types occurs along hillside and moisture gradients. <sentence_start/>Dry abrasion plateau with fell field and open Dryas heath is located on the top of small hills. <sentence_start/>Moving from the hill top down slope towards a river bed or other depression the Cassiope heath takes over followed by Salix arctica snowbed which is covered by snow drifts in the first part of the growing season. <sentence_start/>Near the bottom the grassland is located beneath the snow drift and fens follow where running water is available through most of the growing season."
+  },
+  {
+   "section": "article",
+   "text": "Field measurements"
+  },
+  {
+   "section": "article",
+   "text": "All data used in this study originated from the BioBasis and ClimateBasis monitoring programs under Zackenberg Ecological Research Operations (ZERO). <sentence_start/>Field measurements were done in 26 plots scattered around in the valley (Figure 1) covering the six major vegetation types: Fell field, <italic toggle=\"yes\">Dryas </italic>heath, <italic toggle=\"yes\">Cassiope </italic>heath, <italic toggle=\"yes\">Salix </italic>heath, grassland and fen. <sentence_start/>All plots were closer than 1 km from the central climate station. <sentence_start/>This study included 22 plant plots from the BioBasis program where NDVI-FR is measured regularly. <sentence_start/>At Dry1, Sil1, Sil2 and Sal1, the snow melted so early that the time of snow melt was not possible to estimate. <sentence_start/>The plots varied in size from 2 m<sup>2 </sup>to 300 m<sup>2 </sup>and were not all homogenously vegetated. <sentence_start/>They differed in size because the plots were originally intended for flowering studies of species monitored under most of the occurring habitat conditions (biotic and abiotic), with a possibility of counting 50 or more flowers at each location. <sentence_start/>NDVI-FR measurements were done in each corner of 4 or 8 sub areas in each plot depending on the setup of the plot [<citation ref-type=\"bibr\" rid=\"B42\" count=\"1\">42</citation>]. <sentence_start/>Measurements were performed once every week during the field season (1 June to 31 August) from 1999 to 2005. <sentence_start/>A Skye SKR110 instrument with narrow band filters centred at 660 nm and 730 nm were used for the measurements. <sentence_start/>The field of view for the instrument was approximately 3 m<sup>2 </sup>when used at a height of 1 m. <sentence_start/>Each measurement was carried out at the same position with nadir viewing. <sentence_start/>The instrument was calibrated every second year to avoid drift. <sentence_start/>Standard NDVI use measurements with a band centre around 900 nm instead of 730 nm. <sentence_start/>Hence, this paper therefore uses NDVI-FR instead of NDVI. <sentence_start/>Measurements in 2004 of both NDVI-FR (Skye sensor) and NDVI (ASD inc. <sentence_start/>Fieldspec Hand-held radiometer) showed a 79% correlation between the datasets (R2 = 0.79, n = 390, p &lt; 0.0001) (Figure 6). <sentence_start/>Hence, 21% of the variance cannot be explained by the other parameter. <sentence_start/>This is due to the use of different instruments and especially the location of the far-red (FR) band. <sentence_start/>FR is situated on the red-edge slope. <sentence_start/>Any changes in NDVI-FR compared to NDVI other than from changes in absorption by pigments will therefore be due to changes in the position of the red-edge slope. <sentence_start/>Senescence and water stress have been shown to cause a blue shift of the red edge [<citation ref-type=\"bibr\" rid=\"B43\" doi=\"10.1080/01431169008955128\" count=\"1\">43</citation>] resulting in a higher FR and hence a NDVI-FR increase. <sentence_start/>Near-infrared (NIR) bands on the other hand will experience a decrease during senescence leading to opposite trends in the two indices although depending also on the slope of the red-edge and absorption in the red bands. <sentence_start/>However, the two indices are closely related and results from this NDVI-FR study are therefore also valuable for comparison with similar NDVI studies."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Relationship between NDVI-FR and NDVI</bold>. <sentence_start/>Each data point is marked by a letter indicating the vegetation type for that plot measurement. <sentence_start/>C: <italic toggle=\"yes\">Cassiope </italic>heath, D: <italic toggle=\"yes\">Dryas </italic>heath, F: Fen, G: Grassland, S: <italic toggle=\"yes\">Salix </italic>heath. <sentence_start/>The linear relation is shown in solid (R2 = 0.79, n = 390, p &lt; 0.0001) and the 1:1 line in dashed."
+  },
+  {
+   "section": "article",
+   "text": "In order to keep the nomenclature simple we have used NDVI in the explanatory variables names (e.g. MaxNDVI). <sentence_start/>The resulting number of observations is shown in Table 1. <sentence_start/>However, this study looked at the vegetation response and not species response and therefore needed to counter the heterogeneous nature of the plots. <sentence_start/>Hence, each of the sub areas in the plots was classified into one of the six vegetation types based on cover estimates of the major shrubs (<italic toggle=\"yes\">Cassiopa tetragona</italic>, <italic toggle=\"yes\">Dryas </italic>spp., <italic toggle=\"yes\">Vaccinium uliginosum</italic>, <italic toggle=\"yes\">Salix arctica</italic>), herbs, graminoids, mosses, lichens and bare ground. <sentence_start/>The vegetation types covered dry, mesic and wet ecosystems and were similar to those defined by Bay [<citation ref-type=\"bibr\" rid=\"B25\" count=\"1\">25</citation>]. <sentence_start/>These six types cover more than 70% of the valley and hence, are representative for the area. <sentence_start/>Including more vegetation types would be difficult since the limited range and dynamics of NDVI-FR and size of vegetation patches within the High Arctic are limiting factors for the number of vegetation types that can be explored [<citation ref-type=\"bibr\" rid=\"B44\" doi=\"10.1111/j.1751-8369.1994.tb00444.x\" count=\"1\">44</citation>]. <sentence_start/>It was assumed that the vegetation types for each sub area did not change significantly during the period of analysis (1999-2005)."
+  },
+  {
+   "section": "article",
+   "text": "All standard climate variables (temperature, wind, humidity, radiation, etc.) were measured year-round at the climate station that was placed in the middle of the study area (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Snow melt and NDVI-FR seasonal modelling"
+  },
+  {
+   "section": "article",
+   "text": "An example of field data from the NDVI-FR plots and how the main response variables were extracted is shown in Figure 7. <sentence_start/>Percent snow cover was monitored at each plot until all snow was gone. <sentence_start/>The last day where snow was monitored was defined as End of Snow Melt (ESM). <sentence_start/>Since the actual day where all snow had melted was not known and that plants may utilise radiation and start growth under very shallow snow packs [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1890/02-3154\" count=\"1\">23</citation>], the day after last observed snow cover (ESM + 1) was defined as the Start of Growing Season (SGS). <sentence_start/>Plots were only monitored once a week and to avoid different bias between plots we used the described method. <sentence_start/>For plots where no snow was present in the beginning of the field season (14 out of 141 plots) ESM was estimated by linear regression with ESM from plots that had snow. <sentence_start/>The correlations where all significant (p &lt; 0.05) with R2 values higher than 0.9. <sentence_start/>For one plot (Sil3) there were to few points to do it directly from DOY with significant relation and summed temperatures (base: 0°C) was used instead with a significant result and a R2 of 0.82."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Growing season and main response variables defined by snow melt and NDVI-FR</bold>. <sentence_start/>ESM: End of Snow Melt, SGS: Start of Growing Season, DOYmax: Day of maximum NDVI-FR, EGS: End of Growing Season, SINDVI: Seasonal integrated NDVI-FR. <sentence_start/>Brackets indicate measurements that have been removed (see text for further details)."
+  },
+  {
+   "section": "article",
+   "text": "The vegetation reaches maximum in mid summer after which the greenness fades towards the end of the growing season (EGS), which was defined as the day soil near the climate station at 2.5 cm depth reached freezing for two subsequent days. <sentence_start/>SGS and EGS were set to a NDVI-FR-value of 0.1 representing the vegetation before and after active growth. <sentence_start/>A NDVI value of around 0.1 is typical for arctic studies [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1080/0143116021000020144\" count=\"1\">26</citation>,<citation ref-type=\"bibr\" rid=\"B45\" doi=\"10.1111/j.1365-2486.2005.01079.x\" count=\"1\">45</citation>]. <sentence_start/>The period from the start of growing season to the maximum was defined as the green-up period. <sentence_start/>In order to calculate the exact date (DOYmax) and level (MaxNDVI) of maximum NDVI-FR a quadratic model was fitted to the NDVI-FR measurements. <sentence_start/>This model was also used to calculate the seasonal integrated NDVI-FR (SINDVI) from ESM to EGS. <sentence_start/>The quadratic model has previously been used in the High Arctic [<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1657/1523-0430(2004)036[0390:CWPSIH]2.0.CO;2\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1080/01431160512331326657\" count=\"1\">20</citation>]. <sentence_start/>Other methods are discussed below."
+  },
+  {
+   "section": "article",
+   "text": "Some of the original NDVI-FR data were unreasonable low. <sentence_start/>This could be caused by several factors where flowering, thin clouds, shadow or dew are the main factors [e.g. [<citation ref-type=\"bibr\" rid=\"B46\" count=\"1\">46</citation>,<citation ref-type=\"bibr\" rid=\"B47\" doi=\"10.1007/s007040170004\" count=\"1\">47</citation>]] and these data were removed before fitting the quadratic model. <sentence_start/>Most of the removed measurements occurred in the green-up period with high numbers of flowers. <sentence_start/>The removal procedure went through each data series for each season and checked that all values from SGS to DOYmax were growing. <sentence_start/>If a value was lower than the previous and DOYmax had not been reached it was removed. <sentence_start/>The same procedure was done from EGS to DOYmax. <sentence_start/>An example of removed data can be seen in Figure 7."
+  },
+  {
+   "section": "article",
+   "text": "Explanatory variables"
+  },
+  {
+   "section": "article",
+   "text": "The explanatory variables used in the modelling were primarily obtained from the climate station and included:"
+  },
+  {
+   "section": "article",
+   "text": "1) the time for end of snow melt (ESM), 2) the summed air temperature (base of 0°C [<citation ref-type=\"bibr\" rid=\"B45\" doi=\"10.1111/j.1365-2486.2005.01079.x\" count=\"1\">45</citation>]) through either the entire growing season (AIRGS) or during the green-up period (AIRUP), 3) the summed incoming PAR through either the entire growing season (PARGS) or during the green-up period (PARUP), 4) the summed rain through either the entire growing season (RAINGS) or during the green-up period (RAINUP), 5) the seasonal integrated NDVI-FR in the previous year (SINDVIPREV) and 6) the summed temperature (base of 0°C) through the previous growing season (AIRGSPREV). <sentence_start/>PAR was not measured at the climate station until 2003 and we therefore estimated it from shortwave incoming radiation for 2000, 2001 and 2002 using linear regression (p &lt; 0.001, R2 = 0.99)."
+  },
+  {
+   "section": "article",
+   "text": "Trend analyses"
+  },
+  {
+   "section": "article",
+   "text": "We performed trend analyses on the response and explanatory variables using the seasonal Mann-Kendall method [<citation ref-type=\"bibr\" rid=\"B48\" count=\"1\">48</citation>]. <sentence_start/>This method is widely used in environmental science, because it is simple, robust and can cope with missing values [e.g. [<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1080/01431160512331326657\" count=\"1\">20</citation>]]. <sentence_start/>We used the software developed by Libiseller [<citation ref-type=\"bibr\" rid=\"B49\" count=\"1\">49</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Modelling framework"
+  },
+  {
+   "section": "article",
+   "text": "We modelledeach response(e.g.percent coverageof <italic toggle=\"yes\">Dryas</italic>, <italic toggle=\"yes\">Salix heath</italic>, <italic toggle=\"yes\">Cassiope</italic>, fen, and grass) as a function of the following fixed effects:end of snowmelt, summed air temperature, summed PAR, summed precipitation, summed temperatures andseasonally integrated NDVI (SINDVI) in the previous year, with samples asrandom effects nested withinblocks identified bysite id. <sentence_start/>For SINDVI the explanatory variables were taken for the entire growing season while in the modelling of the timing and level of maximum we only used the data from the explanatory variables during the green-up period."
+  },
+  {
+   "section": "article",
+   "text": "The initial models for the three response variables were:"
+  },
+  {
+   "section": "article",
+   "text": "where s() is a function with smoothing of up to 3 degrees of freedom."
+  },
+  {
+   "section": "article",
+   "text": "We performed the modelling in the open-source statistical software R (vers. 2.3.1.) using a generalized additive mixed model (GAMM). <sentence_start/>The mixed model is particularly useful in that it allows for the spatial pseudo-replication that occurs when using each of the four to eight measurements in the plots as separate measurements [<citation ref-type=\"bibr\" rid=\"B50\" count=\"1\">50</citation>]. <sentence_start/>The GAMM also allows for the possibility of non-linear relationships and is available under the mgcv (multiple smoothing parameter estimation by generalized cross validation) library in R and uses the gaussian family as a default [<citation ref-type=\"bibr\" rid=\"B51\" doi=\"10.1111/1467-9868.00240\" count=\"1\">51</citation>]. <sentence_start/>Three degrees of freedom (smoothing) was used. <sentence_start/>For each of the 21 models all specified variables where used in the first run. <sentence_start/>If all variables were significant no further steps were taken. <sentence_start/>If one or more variables were not significant (p &gt; 0.05) the variable with the lowest significance was excluded and the model rerun. <sentence_start/>The Akaike's Information Criteria (AIC) [<citation ref-type=\"bibr\" rid=\"B52\" count=\"1\">52</citation>] and the ANOVA model p-value where used to evaluate if the new model performed better - the lower the AIC, the better the model. <sentence_start/>In the case that there was no significant difference between the models (p &gt; 0.05) and only very little difference between the AIC the simplest model was chosen. <sentence_start/>This procedure continued until only significant variables were included. <sentence_start/>If no convergence was met with all variables, PAR was excluded and the model run without it. <sentence_start/>Then the above procedure was followed until the best model was found. <sentence_start/>If no convergence persisted the model was not successful. <sentence_start/>A summary with significance for each explanatory variable and adjusted R2 were produced for each final model as were response curves showing the relationship between each variable and the response variable for the given model. <sentence_start/>Each response curve was the result of backfitting the GAMM model to calculate the additive contribution of each variable using non parametric smoothing. <sentence_start/>Thus, they can be interpreted as a transformation of the response variable (e.g. SINDVI) so that low values on the y-axis correlate with low SINDVI (or DOYmax or MaxNDVI), while high values correlate with higher SINDVI."
+  },
+  {
+   "section": "article",
+   "text": "Competing interest"
+  },
+  {
+   "section": "article",
+   "text": "The author(s) declares that there are no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "MPT initiated the study, carried out the analyses and wrote the manuscript. <sentence_start/>LI contributed throughout the manuscript writing especially on the botanical parts. <sentence_start/>BUH supported in drafting the study and contributed to the writing. <sentence_start/>MSW supplied the GAMM programming and contributed to the statistical parts. <sentence_start/>All authors read and approved the final manuscript."
+  }
+ ]
+}

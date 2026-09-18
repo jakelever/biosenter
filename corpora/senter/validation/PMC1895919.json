@@ -1,0 +1,395 @@
+{
+ "pmid": 17611628,
+ "pmcid": 1895919,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The Flavonoid Luteolin Worsens Chemical-Induced Colitis in NF-κB<sup>EGFP</sup> Transgenic Mice through Blockade of NF-κB-Dependent Protective Molecules"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "The flavonoid luteolin has anti-inflammatory properties both in vivo and in vitro. <sentence_start/>However, the impact of luteolin on experimental models of colitis is unknown."
+  },
+  {
+   "section": "abstract",
+   "text": "Methodology/Principal Findings"
+  },
+  {
+   "section": "abstract",
+   "text": "To address the therapeutic impact of luteolin, NF-κB<sup>EGFP</sup> transgenic mice were fed a chow diet containing 2% luteolin- or isoflavone-free control chow (AIN-76), and acute colitis was induced using 3% dextran sodium sulfate (DSS). <sentence_start/>Additionally, development of spontaneous colitis was evaluated in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> transgenic mice fed 2% luteolin chow diet or control chow diet. <sentence_start/>Interestingly, NF-κB<sup>EGFP</sup> transgenic mice exposed to luteolin showed worse DSS-induced colitis (weight loss, histological scores) compared to control-fed mice, whereas spontaneous colitis in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice was significantly attenuated. <sentence_start/>Macroscopic imaging of live resected colon showed enhanced EGFP expression (NF-κB activity) in luteolin-fed mice as compared to control-fed animals after DSS exposure, while cecal EGFP expression was attenuated in luteolin-fed IL-10<sup>−/−</sup> mice. <sentence_start/>Interestingly, confocal microscopy showed that EGFP positive cells were mostly located in the lamina propria and not in the epithelium. <sentence_start/>Caspase 3 activation was significantly enhanced whereas COX-2 gene expression was reduced in luteolin-fed, DSS-exposed NF-κB<sup>EGFP</sup> transgenic mice as assessed by Western blot and immunohistochemical analysis. <sentence_start/>In vitro, luteolin sensitized colonic epithelial HT29 cells to TNFα-induced apoptosis, caspase 3 activation, DNA fragmentation and reduced TNFα-induced C-IAP1, C-IAP2 and COX-2 gene expression."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions/Significance"
+  },
+  {
+   "section": "abstract",
+   "text": "We conclude that while luteolin shows beneficial effects on spontaneous colitis, it aggravates DSS-induced experimental colitis by blocking NF-κB-dependent protective molecules in enterocytes."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The gastrointestinal tract of higher organisms is lined by a single layer of intestinal epithelial cells. <sentence_start/>This physical barrier separates subepithelial mucosal immune cells such as lymphocytes and myeloid cells from a variety of antigenic substances present within the intestinal lumen (e.g. bacteria, bacterial products, food antigens) <citation rid=\"pone.0000596-Ley1\" ref-type=\"bibr\" pmid=\"16497592\" doi=\"10.1016/j.cell.2006.02.017\" count=\"1\">[1]</citation>, <citation rid=\"pone.0000596-Haller1\" ref-type=\"bibr\" pmid=\"14734871\" doi=\"10.1097/00005176-200402000-00004\" count=\"1\">[2]</citation>. <sentence_start/>Consequently, the integrity of the epithelial barrier is essential for the maintenance of host homeostasis, as it prevents a dysregulated uptake of luminal antigens. <sentence_start/>The incidence and prevalence of ulcerative colitis and Crohn's disease, collectively referred to as inflammatory bowel diseases (IBD), have been increasing in developed countries worldwide over the last few decades <citation rid=\"pone.0000596-Loftus1\" ref-type=\"bibr\" pmid=\"12122726\" doi=\"10.1016/s0889-8553(01)00002-4\" count=\"1\">[3]</citation>. <sentence_start/>Of note, the knowledge of basic molecular and cellular mechanisms leading to IBD has significantly increased over the past decade <citation rid=\"pone.0000596-Hanauer1\" ref-type=\"bibr\" pmid=\"16378007\" doi=\"10.1097/01.mib.0000195385.19268.68\" count=\"1\">[4]</citation>. <sentence_start/>For example, multiple studies support the concept that an improper activation of effector T cells in conjunction with insufficient regulatory T cell activity are key events leading to the development of IBD <citation rid=\"pone.0000596-Bouma1\" ref-type=\"bibr\" pmid=\"12876555\" doi=\"10.1038/nri1132\" count=\"1\">[5]</citation>. <sentence_start/>Interestingly, the endogenous intestinal flora itself seems to play an important role in initiating the dysregulated host immune response <citation rid=\"pone.0000596-Sartor1\" ref-type=\"bibr\" pmid=\"9395346\" count=\"1\">[6]</citation>, leading to the release of a number of inflammatory mediators such as IL-1, IL-6, IL-12, IL-23, TNFα and IFNγ that participate in the pathology of the disease <citation rid=\"pone.0000596-Cominelli1\" ref-type=\"bibr\" pmid=\"15537904\" doi=\"10.1056/NEJMp048253\" count=\"1\">[7]</citation>. <sentence_start/>The transcription factor NF-κB controls the production of many of these inflammatory mediators, and we recently demonstrated its important role in driving bacteria-induced chronic intestinal inflammation <citation rid=\"pone.0000596-Karrasch1\" ref-type=\"bibr\" pmid=\"17475882\" doi=\"10.4049/jimmunol.178.10.6522\" count=\"1\">[8]</citation>. <sentence_start/>Consequently, this transcriptional system represents a potential therapeutic target to treat IBD <citation rid=\"pone.0000596-Neurath1\" ref-type=\"bibr\" pmid=\"8782457\" doi=\"10.1038/nm0996-998\" count=\"1\">[9]</citation>, <citation rid=\"pone.0000596-Jobin1\" ref-type=\"bibr\" pmid=\"10961593\" doi=\"10.1097/00054725-200008000-00007\" count=\"1\">[10]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Mainstream treatments to manage IBD are largely based on immunosuppressive approaches with broad acting agents such as prednisone, cyclosporin A and tacrolimus (FK506) <citation rid=\"pone.0000596-Hibi1\" ref-type=\"bibr\" pmid=\"12698869\" count=\"1\">[11]</citation>. <sentence_start/>Although these are relatively effective, a number of patients develop significant side effects and/or become unresponsive to them. <sentence_start/>These concerns and the perception that alternative medicine is “healthier” than classical therapeutic options lead a growing segment of the population to seek alternative treatments to ameliorate various disorders including chronic intestinal inflammation <citation rid=\"pone.0000596-Bent1\" ref-type=\"bibr\" pmid=\"15047038\" doi=\"10.1016/j.amjmed.2003.10.036\" count=\"1\">[12]</citation>. <sentence_start/>This is clearly exemplified by the considerable amount of money spent by the general population on alternative medicine with an estimated world market of 62 billion dollars <citation rid=\"pone.0000596-Gupta1\" ref-type=\"bibr\" pmid=\"15175674\" doi=\"10.1038/nbt0604-653\" count=\"1\">[13]</citation>, <citation rid=\"pone.0000596-Sampson1\" ref-type=\"bibr\" pmid=\"16049207\" doi=\"10.1056/NEJMp058130\" count=\"1\">[14]</citation>. <sentence_start/>Herbal medicine encompassing extracts or active components derived from plants, barks, roots, leaves, flowers, and fruits represents an extremely popular segment of alternative medicine. <sentence_start/>However, despite their clear popularity, absence of empirical data showing efficacy and mechanisms of action in vivo prevents their incorporation into mainstream medicine."
+  },
+  {
+   "section": "article",
+   "text": "Of interest, a large number of dietary products have been shown to inhibit NF-κB activity in different cell systems <citation rid=\"pone.0000596-Aggarwal1\" ref-type=\"bibr\" pmid=\"15659827\" doi=\"10.1196/annals.1329.054\" count=\"1\">[15]</citation>. <sentence_start/>Luteolin for example is a flavonoid present in significant amounts in vegetables including celery, sage, carrots and broccoli, and a healthy diet is believed to contain between 2 mg and 125 mg of luteolin per day <citation rid=\"pone.0000596-Ross1\" ref-type=\"bibr\" pmid=\"12055336\" doi=\"10.1146/annurev.nutr.22.111401.144957\" count=\"1\">[16]</citation>, <citation rid=\"pone.0000596-Manach1\" ref-type=\"bibr\" pmid=\"15113710\" doi=\"10.1093/ajcn/79.5.727\" count=\"1\">[17]</citation>. <sentence_start/>We recently demonstrated that luteolin suppresses LPS-induced NF-κB signaling both in vivo and in vitro through inhibition of the IκB-kinase complex <citation rid=\"pone.0000596-Kim1\" ref-type=\"bibr\" pmid=\"15946255\" doi=\"10.1111/j.1365-2567.2005.02156.x\" pmcid=\"PMC1782165\" count=\"1\">[18]</citation>. <sentence_start/>In addition, numerous other studies have shown the anti-inflammatory action of this flavonoid both in vivo and in vitro <citation rid=\"pone.0000596-Hendriks1\" ref-type=\"bibr\" pmid=\"15611292\" doi=\"10.1084/jem.20040819\" pmcid=\"PMC2212002\" count=\"1\">[19]</citation>-<citation rid=\"pone.0000596-Ruiz1\" ref-type=\"bibr\" pmid=\"16484540\" doi=\"10.1093/jn/136.3.664\" count=\"1\">[24]</citation>. <sentence_start/>Consequently, this polyphenolic compound may have a beneficial impact either in treating IBD or preventing their development."
+  },
+  {
+   "section": "article",
+   "text": "In the present study, we examined the impact of luteolin on the DSS model of acute colitis in mice. <sentence_start/>To follow patterns of NF-κB activation, we conducted experiments using NF-κB<sup>EGFP</sup> and IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> transgenic mice, which express the reporter gene enhanced green fluorescent protein (EGFP) under control of the NF-κB promoter. <sentence_start/>We found that luteolin significantly enhanced intestinal epithelial cell caspase-3 activation and prevented the induction of cytoprotective molecules such as COX-2 following DSS-exposure. <sentence_start/>DSS-exposed, luteolin-fed mice demonstrated more severe colitis than control-fed animals, whereas spontaneous colitis in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice was significantly attenuated. <sentence_start/>We conclude that while luteolin shows beneficial effects on spontaneous colitis, it aggravates DSS-induced experimental colitis by blocking NF-κB-dependent protective molecules in enterocytes."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "DSS-induced acute colitis"
+  },
+  {
+   "section": "article",
+   "text": "The NF-κB<sup>EGFP</sup> transgenic mice were described previously <citation rid=\"pone.0000596-Magness1\" ref-type=\"bibr\" pmid=\"15265883\" doi=\"10.4049/jimmunol.173.3.1561\" count=\"1\">[25]</citation>. <sentence_start/>These mice allow the real-time assessment of NF-κB activity (EGFP expression) during various experimental treatments. <sentence_start/>Mice were maintained in standard housing cages in a specific pathogen free (SPF) environment and allowed to drink and feed ad libitum at all times. <sentence_start/>Luteolin (SYNORx; San Clemente, CA) was incorporated in standard laboratory chow AIN-76 in different amounts (weight-percentages: 0.5%, 2%, 5%) (Research Diets Inc; New Brunswick, NJ). <sentence_start/>Mice (7/group) were pre-fed luteolin-chow (0.5%, 2%, 5%) or control chow (AIN-76) for 3 days (loading period) as described previously <citation rid=\"pone.0000596-Sugimoto1\" ref-type=\"bibr\" pmid=\"12454848\" doi=\"10.1053/gast.2002.37050\" count=\"1\">[26]</citation>, <citation rid=\"pone.0000596-Jian1\" ref-type=\"bibr\" pmid=\"15793857\" doi=\"10.3748/wjg.v11.i12.1747\" pmcid=\"PMC4305867\" count=\"1\">[27]</citation>. <sentence_start/>After this time, mice were given 3% DSS (MP Biomedicals; Aurora, OH) in drinking water for an additional 6 days. <sentence_start/>Control mice were given water. <sentence_start/>Water consumption was comparable between the different groups. <sentence_start/>Similarly, chow consumption (control AIN76 and luteolin) was comparable between DSS and water control groups, both before and during the induction of colitis (daily consumption approximately 1.6 g/mouse, equaling 32 mg luteolin; differences≤0.08 g/day or 5%). <sentence_start/>Mice were monitored daily for weight loss as well as signs of rectal bleeding (Hemoccult, Beckmann Coulter Inc; Fullerton, CA). <sentence_start/>At day 6 of DSS administration, mice were sacrificed, sections were taken from the distal colon for histological assessment of inflammation and EGFP-expression was imaged as described below."
+  },
+  {
+   "section": "article",
+   "text": "Spontaneous colitis in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> transgenic mice"
+  },
+  {
+   "section": "article",
+   "text": "IL-10<sup>wt/wt</sup> and IL-10<sup>−/−</sup> mice (Sv129 background) were cross-bred to NF-κB<sup>EGFP</sup> mice (C57Bl/6 background), and IL-10<sup>wt/wt</sup>;NF-κB<sup>EGFP</sup> and IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice generated in the F2-generation were derived into germ-free condition. <sentence_start/>Germ-free IL-10<sup>wt/wt</sup>;NF-κB<sup>EGFP</sup> and IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> littermates were transferred to a specific-pathogen-free (SPF) environment and immediately placed on a diet containing 2%-luteolin versus AIN-76-control-chow (7/group). <sentence_start/>After 4 weeks, mice were sacrificed, sections were taken from cecum and distal colon for histological assessment of inflammation and EGFP-expression was imaged as described below. <sentence_start/>All animal experiments were approved by the Institutional Animal Care and Use Committee of the University of North Carolina at Chapel Hill."
+  },
+  {
+   "section": "article",
+   "text": "Sample collection and histological evaluation"
+  },
+  {
+   "section": "article",
+   "text": "Mice were sacrificed at designated time-points by CO<sub>2</sub> asphyxiation. <sentence_start/>The entire colon was dissected and flushed with ice-cold PBS. <sentence_start/>Colonic cross-sections were taken, fixed in 10% formalin for 24 h and embedded in paraffin to provide sections for histological evaluation. <sentence_start/>Severity of colitis was evaluated in Hematoxylin-Eosin-stained sections by an experienced investigator blinded to the experimental conditions. <sentence_start/>For DSS-induced colitis, the distal colon was evaluated because it has been demonstrated to be the most severely affected colonic segment in DSS-induced colitis <citation rid=\"pone.0000596-Okayasu1\" ref-type=\"bibr\" pmid=\"1688816\" doi=\"10.1016/0016-5085(90)90290-h\" count=\"1\">[28]</citation>, <citation rid=\"pone.0000596-Cooper1\" ref-type=\"bibr\" pmid=\"8350599\" count=\"1\">[29]</citation> and to provide a score representing the disease severity in the entire colon <citation rid=\"pone.0000596-Williams1\" ref-type=\"bibr\" pmid=\"11231946\" doi=\"10.1053/gast.2001.22470\" count=\"1\">[30]</citation>. <sentence_start/>Coded sections were scored using a validated scoring system developed by Cooper <citation rid=\"pone.0000596-Cooper1\" ref-type=\"bibr\" pmid=\"8350599\" count=\"1\">[29]</citation> and Dieleman <citation rid=\"pone.0000596-Dieleman1\" ref-type=\"bibr\" pmid=\"9844047\" doi=\"10.1046/j.1365-2249.1998.00728.x\" pmcid=\"PMC1905133\" count=\"1\">[31]</citation>, and modified by Williams <citation rid=\"pone.0000596-Williams1\" ref-type=\"bibr\" pmid=\"11231946\" doi=\"10.1053/gast.2001.22470\" count=\"1\">[30]</citation> using a scale of 0 to 40. <sentence_start/>For each animal, 2 sections approximately 400 µm apart were scored and averaged. <sentence_start/>For spontaneous colitis in IL-10<sup>−/−</sup> mice, mucosal inflammation was evaluated in cross-sections of the cecum and the distal colon separately. <sentence_start/>Sections were scored in a blinded fashion on a scale from 0 to 4, based on the degree of lamina propria mononuclear cell infiltration, crypt hyperplasia, goblet cell depletion and architectural distortion, as previously described <citation rid=\"pone.0000596-Sellon1\" ref-type=\"bibr\" pmid=\"9784526\" doi=\"10.1128/iai.66.11.5224-5231.1998\" pmcid=\"PMC108652\" count=\"1\">[32]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Immunohistochemical evaluation"
+  },
+  {
+   "section": "article",
+   "text": "Colonic sections were prepared as described above. <sentence_start/>Immunohistochemical staining for activated caspase 3 (antibodies to cleaved caspase-3 (Asp175); Cell Signaling Technology Inc; Beverly, MA) and cyclooxygenase 2 (COX-2) (Cayman Chemical; Ann Arbor, MI) was performed according to the manufacturer's directions. <sentence_start/>The sections were counterstained with a mixture of methyl-green and alcian-blue. <sentence_start/>Two different sections (per animal) approximately 400 µm apart were evaluated, and representative sections are shown."
+  },
+  {
+   "section": "article",
+   "text": "Primary intestinal epithelial cell isolation"
+  },
+  {
+   "section": "article",
+   "text": "Primary intestinal epithelial cells were isolated as described previously <citation rid=\"pone.0000596-Jijon1\" ref-type=\"bibr\" pmid=\"15724247\" doi=\"10.1002/eji.200425688\" count=\"1\">[33]</citation>. <sentence_start/>Briefly, colons were opened longitudinally, and colonic intestinal epithelial cells were separated by shaking the colons in a solution containing 3 mM EDTA and 0.5 mM DTT for 90 min. <sentence_start/>The remaining tissue was discarded and epithelial cells in the supernatant were spun down at 1000 rpm for 5 min. <sentence_start/>The cell pellet was then directly lysed in 1× Laemmli buffer. <sentence_start/>Vimentin or CD64, markers for myofibroblasts and myeloid cells respectively, were not detected, whereas the epithelial marker cytokeratin was strongly expressed in our epithelial cell preparation as assayed by Western blot analysis (data not shown)."
+  },
+  {
+   "section": "article",
+   "text": "HT29 cell culture, stimulation, cell and whole colonic tissue protein isolation"
+  },
+  {
+   "section": "article",
+   "text": "Human transformed colonic epithelial HT29 cells (passage 20-30) (American Type Culture Collection (ATCC); Manassas, VA) were cultured as described previously <citation rid=\"pone.0000596-Haller2\" ref-type=\"bibr\" pmid=\"12140289\" doi=\"10.1074/jbc.M205737200\" count=\"1\">[34]</citation>. <sentence_start/>Before experiments, cells were starved overnight in serum-reduced media (1% serum). <sentence_start/>Where indicated, HT29 cells were treated with luteolin (SYNORx; San Clemente, CA) dissolved in DMSO, TNFα (R&amp;D Systems; Minneapolis, MN) or solvent control for designated times, respectively. <sentence_start/>DMSO alone had no biological effect on the various in vitro readouts (data not shown). <sentence_start/>Stimulated or control treated HT29 cells were collected and directly lysed in 1X Laemmli buffer."
+  },
+  {
+   "section": "article",
+   "text": "The colons from mice in the various groups were dissected, flushed with ice-cold PBS and homogenized for 15 s with a polytron (IKA Works Inc; Wilmington, NC) in a solution containing 50 mM Hepes, 150 mM NaCl, 20 mM NaPyrophosphate, 100 mM NaF, 1% Triton X-100, 10 mM EDTA and 1X Proteinase inhibitors (Complete Mini, Roche Diagnostics GmbH; Penzberg, Germany). <sentence_start/>After incubation at 4°C for 30 min with gentle agitation, undissolved contents were spun down and the supernatant mixed 1∶1 with 2× Laemmli buffer."
+  },
+  {
+   "section": "article",
+   "text": "Western Blot analysis"
+  },
+  {
+   "section": "article",
+   "text": "The protein concentration of lysates was measured using Bio-Rad quantification assay (Bio-Rad Laboratories; Hercules, CA). <sentence_start/>Proteins (20 µg) were separated using 10% (13% for caspase analysis) SDS-PAGE and transferred to nitrocellulose membranes. <sentence_start/>Antibodies to COX-2 (Cayman Chemicals; Ann Arbor, MI), cleaved caspases 3, 8 and 9 (Cell Signaling Technology Inc, Beverly, MA) and β-actin (ICN; Costa Mesa, CA) were used at a dilution of 1:1000 in a solution containing 5% milk in TBS-Tween (0.1%). <sentence_start/>Immunoreactive proteins were detected using the enhanced chemiluminescence light (ECL) detecting kit (Amersham Biosciences, Piscataway, NJ) as described previously <citation rid=\"pone.0000596-Jobin2\" ref-type=\"bibr\" pmid=\"8977194\" count=\"1\">[35]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Macroscopic and confocal assessment of EGFP expression"
+  },
+  {
+   "section": "article",
+   "text": "Mice were sacrificed at designated time points, the entire colon dissected and then directly imaged for EGFP expression in a light-tight imaging box without further preparation using a CCD camera and emission filters specific for EGFP (Lightools Research; Encinitas, CA)."
+  },
+  {
+   "section": "article",
+   "text": "For confocal microscopy, the colons were opened longitudinally and placed on the stage of a Leica SP2 Upright Laser Scanning Confocal Microscope (Leica, Germany), lumen side facing the objective lens without further processing or fixation. <sentence_start/>EGFP was excited with a 495 nm laser, and images were acquired using detection filters specific for the EGFP emission spectrum. <sentence_start/>Images were overlayed with those obtained using transmitted light, allowing for spacial orientation relative to the shadows of the crypts. <sentence_start/>Images were analyzed using the Leica SP2 Laser Scanning Confocal Software (Leica, Germany)."
+  },
+  {
+   "section": "article",
+   "text": "PGE<sub>2</sub> secretion"
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treated cells were stimulated with TNFα (5 ng/ml) for 24 h. <sentence_start/>A PGE<sub>2</sub> enzyme linked immunosorbent assay (ELISA) of cell culture supernatants was performed in triplicate according to the manufacturer's instructions (Assay Designs; Ann Arbor, MI)."
+  },
+  {
+   "section": "article",
+   "text": "RNA extraction and amplification by RT-PCR"
+  },
+  {
+   "section": "article",
+   "text": "RNA was isolated using the TRIzol method (Invitrogen; Carlsbad, CA), reverse transcribed (1 µg RNA), and amplified as previously described <citation rid=\"pone.0000596-Jobin2\" ref-type=\"bibr\" pmid=\"8977194\" count=\"1\">[35]</citation> using specific primers for mouse C-IAP1, C-IAP2, X-IAP, COX-2 and β-actin. <sentence_start/>The PCR products were separated on 2% agarose gels containing gel Star fluorescent dye (FMC; Philadelphia, PA). <sentence_start/>Fluorescence staining was captured using an Alpha Imager 2000 (AlphaInnotech; San Leandro, CA). <sentence_start/>Sequences of primers were 5′-CAATTCGGCACCATAACTCTG-3′ and 5′-CCTGTGGTTAAATCTGCCTTG-3′ for human C-IAP1 (amplicon length 1067 pb), 5′-CAAGTAGATGAGGGTAACTGGC-3′ and 5′-AAGTTCCATCCCCTGTCCAATG-3′ for human C-IAP2 (amplicon length 550 pb), 5′-CTTGCATACTGTCTTTCTGAGC-3′ and 5′-ACACCATATACCCGAGGAAC-3′ for human X-IAP (amplicon length 818 pb) <citation rid=\"pone.0000596-Cui1\" ref-type=\"bibr\" pmid=\"11113565\" doi=\"10.1016/s0304-4165(00)00155-0\" count=\"1\">[36]</citation>, 5′-AGATCATCTCTGCCTGAGTATCTT-3′ and 5′-TTCAAATGAGATTGTGGGAAAATTGCT-3′ for human COX-2 (amplicon length 304 pb) and 5′-CCAACCGCGAGAAGATGACC-3′ and 5′-GATCTTCATGAGGTAGTCAGT-3′ for human β-actin (amplicon length 235 pb)."
+  },
+  {
+   "section": "article",
+   "text": "DNA fragmentation analysis and apoptosis detection"
+  },
+  {
+   "section": "article",
+   "text": "HT29 cells were grown in six well plates and at 80% of confluence were treated with various amounts of luteolin and then stimulated with TNFα (20 ng/ml) for 6, 12 and 24 hours. <sentence_start/>Cells were washed twice with PBS and DNA was extracted with a hypotonic lysis buffer (10 mM Tris, 1 mM EDTA and 0,2% Triton X-100, ph 7.5). <sentence_start/>Proteinase K digestion was carried out for 16 h at 37°C. <sentence_start/>DNA was then extracted with phenol-chlorophorm-isoamyl-alcohol (25∶24∶1). <sentence_start/>After ethanol precipitation and resuspension in 10 mM Tris, 1mM EDTA, ph 8.0, the DNA was electrophoresed on a 1.5% agarose gel. <sentence_start/>A 100 bp DNA ladder (Life Technologies, Rockville, MD) was used as a molecular weight standard. <sentence_start/>DNA fragmentation was quantified by detecting histone-associated DNA fragments in enzyme linked immunoabsorbance assay (ELISA) (Boehringer Mannheim; Indianapolis, IN) according to the manufacturer's instructions."
+  },
+  {
+   "section": "article",
+   "text": "Caspase Activity and Inhibition"
+  },
+  {
+   "section": "article",
+   "text": "Cells were pretreated with luteolin and then stimulated with TNFα as indicated above. <sentence_start/>Cells were harvested, washed twice with PBS and then lysed in Apopain Lysis Buffer (10 mM HEPES, ph 7.4, 2 mM EDTA, 0.1% CHAPS, 5 mM DTT, 1mM PMSF, 10 µg/ml pepstatin A, 10 µg/ml aprotinin, 20 µg/ml leupeptin). <sentence_start/>Lysates were cleared by centrifugation for 30 min at 12000 rpm in a microfuge at 4°C. <sentence_start/>Protein content was measured using the Bio-Rad protein quantification assay (Bio-Rad; Hercules, CA). <sentence_start/>Caspase-3 activity was monitored in vitro using the fluorogenic peptide substrate Z-DEVD-AFC (Bio-Rad; Hercules, CA). <sentence_start/>Fluorescence changes derived from free AFC released by caspase-3 activity were detected at 500-550 nm with a GeminiX Spectrafluorometer (Molecular Devices; Sunnyvale, CA). <sentence_start/>Results are presented in fold changes."
+  },
+  {
+   "section": "article",
+   "text": "Luciferase adenoviral vector infection and luciferase activity assay"
+  },
+  {
+   "section": "article",
+   "text": "HT29 cells were infected for 16 h with an adenoviral vector encoding a NF-κB-luciferase reporter gene (Ad5κB-LUC) as described previously <citation rid=\"pone.0000596-Haller2\" ref-type=\"bibr\" pmid=\"12140289\" doi=\"10.1074/jbc.M205737200\" count=\"1\">[34]</citation>. <sentence_start/>The Ad5GFP containing GFP was used as a viral vector infection negative control. <sentence_start/>The cells were washed, and fresh medium containing serum was added. <sentence_start/>Cells were then pretreated with various concentrations of luteolin or solvent control for 45 min, after which time they were stimulated with TNFα (5 ng/ml) for 12 h. <sentence_start/>Cell extracts were prepared using luciferase cell lysis buffer (PharMingen; San Diego, CA) according to the manufacturer's instructions. <sentence_start/>Luciferase activity was quantified using luciferase substrate solutions A and B from PharMingen and read on a Lmax luminometer microplate reader (Moleculer Devices; Sunnyvale, CA) and results were normalized to protein concentration measured with the Bio-Rad protein quantification assay (Bio-Rad; Hercules, CA)."
+  },
+  {
+   "section": "article",
+   "text": "Intestinal epithelial cell restitution studies in vitro"
+  },
+  {
+   "section": "article",
+   "text": "Restitution was assessed in rat non-transformed ileal epithelial cells IEC-18 as previously described <citation rid=\"pone.0000596-Karrasch2\" ref-type=\"bibr\" pmid=\"16508963\" doi=\"10.1002/jcp.20626\" count=\"1\">[37]</citation>-<citation rid=\"pone.0000596-Egan1\" ref-type=\"bibr\" pmid=\"12826601\" doi=\"10.1152/ajpcell.00167.2003\" count=\"1\">[39]</citation>. <sentence_start/>Briefly, IEC-18 cells were grown to confluency in 100 mm cell culture dishes, starved in serum-reduced media (1%) overnight and standard linear wounds were created using a sterile razor-blade. <sentence_start/>Cells were then washed once with PBS, and serum-reduced media was replenished. <sentence_start/>Restitution was calculated as migration over the wound-edge over 24 hours."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Data are expressed as means±S.D. Groups of data (histological scores, body weight) were analyzed using Kruskal-Wallis non-parametric test and if the result indicated statistical differences (p&lt;0.05) among groups, comparisons between groups were conducted using Mann-Whitney U test. <sentence_start/>Differences were considered significant if p&lt;0.05. <sentence_start/>In vitro experiments were conducted in triplicates; representative results are shown. <sentence_start/>For in vitro experiments, data were analyzed by non-parametric <italic toggle=\"yes\">t</italic>-test or Wilcoxon rank sum test where appropriate. <sentence_start/>Differences were considered significant if 2-tailed p values were &lt;0.05."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment worsens DSS-induced experimental colitis"
+  },
+  {
+   "section": "article",
+   "text": "Although the anti-inflammatory potential of the flavonoid luteolin has been established in vitro <citation rid=\"pone.0000596-Kim1\" ref-type=\"bibr\" pmid=\"15946255\" doi=\"10.1111/j.1365-2567.2005.02156.x\" pmcid=\"PMC1782165\" count=\"1\">[18]</citation>, <citation rid=\"pone.0000596-Xagorari1\" ref-type=\"bibr\" pmid=\"11123379\" count=\"1\">[21]</citation>-<citation rid=\"pone.0000596-Hougee1\" ref-type=\"bibr\" pmid=\"15627476\" doi=\"10.1016/j.bcp.2004.10.002\" count=\"1\">[23]</citation>, its therapeutic impact on different inflammatory disorders is still unclear. <sentence_start/>We tested the effect of luteolin in a murine model of chemical-induced acute intestinal inflammation. <sentence_start/>An NF-κB<sup>EGFP</sup> transgenic mouse recently generated by our group allows the assessment of the kinetics and cellular localization of NF-κB-induced transcription (EGFP expression) during an inflammatory response <citation rid=\"pone.0000596-Magness1\" ref-type=\"bibr\" pmid=\"15265883\" doi=\"10.4049/jimmunol.173.3.1561\" count=\"1\">[25]</citation>. <sentence_start/>NF-κB<sup>EGFP</sup> mice (C57Bl/6; 7/group) were fed an isoflavone-free (AIN-76) or 2% luteolin diet for 3 days before being exposed to 3% DSS in drinking water ad libitum or tap water control. <sentence_start/>Mice were then sacrificed at day 6 and inflammation evaluated using established clinical and histological parameters <citation rid=\"pone.0000596-Williams1\" ref-type=\"bibr\" pmid=\"11231946\" doi=\"10.1053/gast.2001.22470\" count=\"1\">[30]</citation>, <citation rid=\"pone.0000596-Dieleman1\" ref-type=\"bibr\" pmid=\"9844047\" doi=\"10.1046/j.1365-2249.1998.00728.x\" pmcid=\"PMC1905133\" count=\"1\">[31]</citation>. <sentence_start/>Surprisingly, although luteolin has systemic anti-inflammatory properties in vivo <citation rid=\"pone.0000596-Kim1\" ref-type=\"bibr\" pmid=\"15946255\" doi=\"10.1111/j.1365-2567.2005.02156.x\" pmcid=\"PMC1782165\" count=\"1\">[18]</citation>, luteolin-fed animals lost more weight than control diet-fed mice (8.8% versus 2.3% at day 4, 15.4% versus 10.2% at day 6, p&lt;0.05) (Fig. 1A). <sentence_start/>Moreover, histological evaluation demonstrated significantly worse colitis in mice fed the luteolin chow compared to the AIN-76 control chow (Fig. 1B). <sentence_start/>Colitis was also exacerbated in mice fed a 0.5% or a 5% luteolin rich diet compared to AIN-76 control diet (data not shown). <sentence_start/>Mice fed with luteolin chow alone and exposed to water did not develop any signs of colitis (data not shown). <sentence_start/>These findings demonstrate that the flavonoid luteolin worsens DSS-induced colitis in mice."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "2% luteolin diet worsens DSS-induced experimental colitis as measured by weight loss and histologic score."
+  },
+  {
+   "section": "article",
+   "text": "2% luteolin or AIN-76 fed mice (n = 7 per group) were exposed to 3% DSS in drinking water ad libitum for the indicated time and monitored as described in the Methods section. <sentence_start/>Weight loss in response to DSS is presented as percent of the starting weight (* p&lt;0.05 versus control, # p&lt;0.05 versus DSS alone) (A). <sentence_start/>Colonic histological sections were scored as described in the Methods section (* p&lt;0.05 versus control, # p&lt;0.05 versus DSS alone) (B)."
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-fed, DSS exposed NF-κB<sup>EGFP</sup> mice display strong EGFP expression in the intestine"
+  },
+  {
+   "section": "article",
+   "text": "To gain insight into the molecular mechanisms involved in the worsening of colitis in luteolin-fed mice, we investigated the in vivo pattern of NF-κB activity. <sentence_start/>The colons of 2% luteolin or AIN-76 fed DSS-treated NF-κB<sup>EGFP</sup> mice were dissected and imaged using a CCD camera in a light-tight imaging box with a dual filtered light source and emission filters specific for EGFP. <sentence_start/>As seen in Fig. 2A, EGFP expression is strongly enhanced throughout the colon of DSS-exposed animals compared to water-control mice (left panel). <sentence_start/>Of note, there was no difference in the macroscopic EGFP expression in duodenal and proximal jejunal sections of the same mice (Fig. 2A; right panel). <sentence_start/>This suggests that enhanced colonic EGFP expression correlates with DSS-induced colonic damage. <sentence_start/>Interestingly, colonic EGFP expression was not blocked in mice fed the 2%-luteolin diet, but rather showed enhanced expression, especially in the distal colon (Fig. 2A)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Enhanced EGFP expression in luteolin fed, DSS exposed NF-κB<sup>EGFP</sup> mice as compared to control diet is confined to lamina propria mononuclear cells."
+  },
+  {
+   "section": "article",
+   "text": "NF-κB<sup>EGFP</sup> mice (n = 7 per group) were sacrificed after 6 days of 3% DSS exposure, and dissected colon (left panel) and duodenum/proximal jejunum (right panel) were imaged at this time for EGFP using the Lightools Research macroimaging system with a dual output lighting (right). <sentence_start/>Photomicrographs (Nikon cool-pix digital camera) are shown on the left. <sentence_start/>Representative images are shown (A). <sentence_start/>Confocal imaging of colonic sections from NF-κB<sup>EGFP</sup> mice (n = 3 per group) after 6 days of 3% DSS exposure was performed immediately after dissection as described in the Methods. <sentence_start/>Representative results are shown (B). <sentence_start/>A schematic representation of the colon indicates the plane depicted in the confocal microscopic images. <sentence_start/>Importantly, EGFP accumulation (NF-κB activation) is predominantly seen in lamina propria mononuclear cells located in between the crypts (LPMNC, light purple and green), and not in surface and crypt epithelium, which is damaged by DSS (light grey) (C)."
+  },
+  {
+   "section": "article",
+   "text": "To examine the expression of EGFP at the cellular level, we visualized the distribution of the EGFP-positive cells present in colonic segments freshly harvested from NF-κB<sup>EGFP </sup>mice using confocal microscopy. <sentence_start/>As seen in Fig. 2B, EGFP expression was increased in colons from mice fed the 2%-luteolin diet compared to those from untreated, DSS-exposed mice. <sentence_start/>Higher magnification images demonstrated that the increased EGFP expression was confined to interstitial mononuclear cells between crypts (Fig. 2B; schematic representation shown in Fig. 2C). <sentence_start/>These findings indicate that luteolin enhances DSS-induced colitis, which correlates with increased NF-κB activation (EGFP expression) from colonic mucosa lamina propria mononuclear cells (LPMNC)."
+  },
+  {
+   "section": "article",
+   "text": "Decreased COX-2 gene expression and enhanced caspase 3 activation in luteolin fed mice following DSS exposure"
+  },
+  {
+   "section": "article",
+   "text": "DSS-induced colitis is exacerbated in COX-2 gene deficient mice <citation rid=\"pone.0000596-Morteau1\" ref-type=\"bibr\" pmid=\"10683376\" doi=\"10.1172/JCI6899\" pmcid=\"PMC289156\" count=\"1\">[40]</citation>, and a recent report demonstrated the importance of enterocyte-derived COX-2 gene expression for the amelioration of DSS-induced epithelial damage <citation rid=\"pone.0000596-Fukata1\" ref-type=\"bibr\" pmid=\"16952555\" doi=\"10.1053/j.gastro.2006.06.017\" pmcid=\"PMC2169292\" count=\"1\">[41]</citation>. <sentence_start/>Since we previously showed that luteolin prevents NF-κB activation in enterocytes <citation rid=\"pone.0000596-Kim1\" ref-type=\"bibr\" pmid=\"15946255\" doi=\"10.1111/j.1365-2567.2005.02156.x\" pmcid=\"PMC1782165\" count=\"1\">[18]</citation>, we next investigated whether intestinal epithelial COX-2 expression is down-regulated in luteolin-fed mice."
+  },
+  {
+   "section": "article",
+   "text": "Molecular alterations likely precede clinical signs of colitis and histopathological evidence of inflammation that generally occur after 3-4 days of DSS exposure in mice (Fig. 1A and data not shown). <sentence_start/>Therefore, we examined COX-2 expression by Western blot in enterocytes isolated from AIN-76-chow or 2%-luteolin-chow fed mice exposed to 3% DSS for only 2 days. <sentence_start/>Interestingly, COX-2 protein levels were higher in enterocytes isolated from DSS-exposed mice compared to those isolated from controls, and this effect was abrogated by luteolin treatment (Fig. 3A, left). <sentence_start/>A similar though less pronounced effect on COX-2 gene expression could be observed in total colonic protein extracts (Fig. 3A, right). <sentence_start/>Immunohistochemistry also demonstrated a strong decrease of DSS-induced COX-2 expression in enterocytes in mice fed the 2%-luteolin-chow (Fig. 3B; top panel). <sentence_start/>Isotype antibody control demonstrated the specificity of the staining (Fig. 3B; bottom panel). <sentence_start/>These results suggest that luteolin interferes with DSS-induced enterocyte-derived COX-2 gene expression."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "2% luteolin enhances caspase 3 activation and suppresses COX-2 protein accumulation in enterocytes after DSS exposure."
+  },
+  {
+   "section": "article",
+   "text": "NF-κB<sup>EGFP</sup> mice (n = 7/group) were sacrificed after 2 days of 3% DSS exposure and protein (20 µg) from primary enterocytes (A, left) and total colonic lysates (A, right) were subjected to SDS-PAGE. <sentence_start/>COX-2 expression and caspase 3 processing were evaluated using specific antibodies against cleaved caspase 3 and COX-2, respectively, and immunoreactive proteins were detected using the enhanced chemiluminescence (ECL) technique (A). <sentence_start/>NF-κB<sup>EGFP</sup> mice (n = 7/group) were sacrificed after 2 days of 3% DSS exposure, and cellular localization of COX-2 proteins (top panel) and caspase 3 processing (middle panel) were analyzed in the colon using IHC. <sentence_start/>Sections were counterstained with a mixture of methyl-green and alcian-blue. <sentence_start/>An isotype-control antibody was used to determine staining specificity on the same colonic section (lower panel). <sentence_start/>Representative results out of 2 different sections per each animal (n = 14/group) are shown (B)."
+  },
+  {
+   "section": "article",
+   "text": "NF-κB signaling controls numerous cellular events including cell survival through induction of anti-apoptotic genes <citation rid=\"pone.0000596-Maeda1\" ref-type=\"bibr\" pmid=\"12010877\" doi=\"10.1136/gut.50.6.771\" pmcid=\"PMC1773255\" count=\"1\">[42]</citation>, <citation rid=\"pone.0000596-Tsurutani1\" ref-type=\"bibr\" pmid=\"15790591\" doi=\"10.1093/carcin/bgi072\" count=\"1\">[43]</citation>. <sentence_start/>We next investigated whether luteolin would inhibit anti-apoptotic signaling in enterocytes, a process that would enhance intestinal epithelial damage by DSS. <sentence_start/>Interestingly, a small increase in caspase 3 processing was observed in isolated enterocytes (Fig. 3A, left), although baseline processing is strongly increased in these cells compared to total colonic lysates. <sentence_start/>This is likely due to cell detachment-induced apoptosis (anoikis) caused by the isolation procedure <citation rid=\"pone.0000596-Yan1\" ref-type=\"bibr\" pmid=\"16007176\" doi=\"10.1038/sj.onc.1208810\" pmcid=\"PMC1509103\" count=\"1\">[44]</citation>. <sentence_start/>Importantly, total colonic protein obtained from luteolin-fed DSS-treated mice displayed a significant increase in caspase 3 processing compared to AIN-76-fed and DSS-treated or water control treated mice (Fig. 3A, right). <sentence_start/>Furthermore, enhanced caspase 3 processing is detected in enterocytes from luteolin-fed, DSS-exposed mice compared to control diet as determined by immunohistochemical analysis (Fig. 3B; middle panel). <sentence_start/>These results suggest that luteolin increases enterocyte caspase 3 activation after DSS-exposure."
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment ameliorates spontaneous Th1-dependent colitis and EGFP expression in IL-10<sup>−/−</sup>; NF-κB<sup>EGFP</sup> mice"
+  },
+  {
+   "section": "article",
+   "text": "We next asked if the NF-κB-inhibiting properties of luteolin might be beneficial in a spontaneous model of chronic, Th1-mediated intestinal inflammation. <sentence_start/>Germ-free IL-10<sup>wt/wt</sup>;NF-κB<sup>EGFP</sup> and IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice were transferred to a specific-pathogen-free (SPF) environment and immediately placed on a diet containing 2% luteolin versus AIN-76 control-chow (7/group). <sentence_start/>After 4 weeks, mice were sacrificed, sections were taken from cecum and distal colon for histological assessment of inflammation and EGFP expression was imaged as described above. <sentence_start/>Interestingly, IL-10<sup>−/−</sup> mice fed with the control diet showed thickening of the colon and absence of solid stool compared to wild-type mice, whereas luteolin-fed IL-10<sup>−/−</sup> mice displayed a macroscopically healthy colon with abundant and well-formed stool pellets (Fig. 4A). <sentence_start/>Furthermore, luteolin-treatment decreased cecal EGFP expression in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice (Fig. 4A). <sentence_start/>Histological assessment of inflammation showed that luteolin treatment ameliorated cecal inflammation in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice (Fig. 4B). <sentence_start/>Distal colonic inflammation and EGFP expression were comparable between luteolin and AIN76 control-fed mice (Fig. 4A,B). <sentence_start/>Thus, these results do not demonstrate adverse effects of luteolin in IL-10<sup>−/−</sup> mice, but rather suggest a potential beneficial impact of this flavonoid in a model of spontaneous chronic T cell-mediated colitis."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "2% luteolin diet ameliorates cecal colitis and decreases lamina-propria EGFP expression in SPF-associated IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice."
+  },
+  {
+   "section": "article",
+   "text": "Germ-free IL-10<sup>wt/wt</sup>;NF-κB<sup>EGFP</sup> and IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice were transferred to a specific-pathogen-free (SPF) environment and immediately placed on a diet containing 2% luteolin versus AIN-76 control chow (7/subgroup). <sentence_start/>After 4 weeks, mice were euthanized, and colonic EGFP-expression was imaged macroscopically and by confocal microscopy as described in figure 2 (A). <sentence_start/>Colonic histological sections from 4 weeks SPF-associated IL-10<sup>wt/wt</sup>;NF-κB<sup>EGFP</sup> and IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice were taken and scored as described in the Methods section (* p&lt;0.05 versus AIN-76 control chow) (B)."
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment sensitizes human colonic intestinal epithelial cells HT29 to TNFα-induced apoptosis"
+  },
+  {
+   "section": "article",
+   "text": "We next characterized the impact of luteolin on TNFα-induced NF-κB activity, COX-2 and anti-apoptotic gene expression in vitro, using the human colon epithelial cell line HT29. <sentence_start/>Cells were infected for 16 h with an adenoviral vector encoding an NF-κB-luciferase reporter gene (Ad5κB-LUC), pretreated with various doses of luteolin (25 µM, 50 µM or 100 µM) for 45min and then stimulated with TNFα (5 ng/ml) for 12 h. <sentence_start/>As shown in Fig. 5A, luteolin (100 µM) inhibited TNFα-induced NF-κB transcriptional activity in HT29 cells. <sentence_start/>NF-κB-dependent anti-apoptotic genes include the cellular inhibitors of apoptosis protein-1 and -2 (C-IAP1 and C-IAP2), which selectively block the key pro-apoptotic enzymes caspase-3, -8 and -9. <sentence_start/>Interestingly, luteolin treatment completely suppressed TNFα-induced C-IAP1 and C-IAP2 mRNA accumulation, whereas X-IAP mRNA levels remained unchanged as measured by RT-PCR (Fig. 5B). <sentence_start/>Thus, luteolin prevents TNFα-induced NF-κB activity and anti-apoptotic gene induction."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Luteolin blocks TNFα-induced NF-κB activity and suppresses TNFα-induced C-IAP1 and C-IAP2 mRNA accumulation in HT29 cells."
+  },
+  {
+   "section": "article",
+   "text": "HT29 cells were infected with Ad5κB-LUC, and TNFα (5 ng/ml) was added in the presence or absence of various concentrations of luteolin. <sentence_start/>Luciferase activity after 16h was measured using an Lmax microplate reader and results were normalized for extract protein concentrations. <sentence_start/>Representative results of at least 3 independent experiments are shown (* p&lt;0.01 versus TNFα alone) (A). <sentence_start/>HT29 cells were pretreated with luteolin (100 µM) for 45min, and then stimulated with TNFα (5 ng/ml) for 4 h. <sentence_start/>Total RNA (1 µg) was extracted, reverse-transcribed, and amplified using specific human C-IAP1, C-IAP2, X-IAP and β-actin primers. <sentence_start/>Results are representative of three independent experiments (B)."
+  },
+  {
+   "section": "article",
+   "text": "We next asked whether luteolin functionally impacts on HT29 cell apoptosis in the presence of TNFα. <sentence_start/>Cells were pretreated with luteolin (50 µM or 100 µM) for 45 min, and then exposed to TNFα (20 ng/ml) for 24 h, after which time genomic DNA was isolated. <sentence_start/>As seen in Fig. 6A, luteolin-treatment (100 µM) led to TNFα-induced DNA fragmentation in HT29 cells. <sentence_start/>Quantitative assessment of DNA fragmentation by ELISA assay for cytoplasmic oligonucleosome-bound DNA demonstrated a 2.2fold induction of DNA fragmentation in luteolin-pretreated TNFα stimulated cells by 12 h, which increased to 8.1fold by 24 h post-treatment (Fig. 6B). <sentence_start/>Thus, luteolin treatment leads to TNFα-induced DNA fragmentation in HT29 cells in vitro."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment sensitizes TNFα-exposed HT29 cells to DNA fragmentation and cytoplasmic accumulation of oligonucleosome-bound DNA."
+  },
+  {
+   "section": "article",
+   "text": "HT29 cells were pretreated with various concentration of luteolin alone or in combination with TNFα (20 ng/ml) for 24 h. <sentence_start/>Cells were lysed, DNA extracted and separated on a 1% agarose gel. <sentence_start/>Results are representative of three independent experiments (A). <sentence_start/>HT29 cells were treated as described above for 12 and 24 h. <sentence_start/>Cells were lysed and apoptosis measured using an ELISA-based assay as described in the Method section. <sentence_start/>Representative results of at least 3 independent experiments are shown (* p&lt;0.01 versus TNFα alone) (B)."
+  },
+  {
+   "section": "article",
+   "text": "Caspase-3 processing is enhanced in luteolin-fed mice exposed to DSS (Fig. 3A,B). <sentence_start/>We next investigated the impact of this flavonoid on caspase activity in the presence of TNFα. <sentence_start/>HT29 cells were treated with luteolin (100 µM) for 45 min, then treated with TNFα (20 ng/ml) for 24 h and caspase processing was determined by Western blot analysis. <sentence_start/>As shown in Fig. 7A, luteolin strongly induced caspase-3, -8 and -9 processing in the presence of TNFα. <sentence_start/>Moreover, luteolin induced caspase-3 activity in the presence of TNFα as demonstrated by a fluorescence-based assay (Fig. 7B; 2.5 fold after 12 h treatment, 7.5 fold after 24 h treatment). <sentence_start/>The kinetics of caspase activation parallel those of DNA fragmentation (Fig. 6B). <sentence_start/>In summary, luteolin blocks TNFα-induced NF-κB transcriptional activity and anti-apoptotic gene expression, but induces caspase-3, -8 and -9 processing in HT29 cells in the presence of TNFα in vitro."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment induces caspase 3, 8 and 9 activation in the presence of TNFα in HT29 cells."
+  },
+  {
+   "section": "article",
+   "text": "HT29 cells were treated with luteolin (100 µM) alone or in combination with TNFα (20 ng/ml) for 12 h. <sentence_start/>Cells were lysed, protein extracts (20 µg) were subjected to SDS-PAGE (13%) and caspase 3, 8 and 9 processing was evaluated by Western blot using specific antibodies for cleaved caspases 3, 8 and 9. <sentence_start/>Immunoreactive proteins were detected using the enhanced chemiluminescence (ECL) technique. <sentence_start/>Representative results of at least 3 independent experiments are shown (A). <sentence_start/>Cells were treated as described above for 12 and 24 h. <sentence_start/>Cells were lysed and caspase 3 activity was quantified using a fluorescence-based assay as described in the Method section. <sentence_start/>Representative results of at least 3 independent experiments are shown (* p&lt;0.01 versus TNFα alone at 24 h) (B)."
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment suppresses TNFα-induced COX-2 gene expression"
+  },
+  {
+   "section": "article",
+   "text": "The NF-κB-dependent COX-2 gene has been associated with a protective host response during DSS-induced colitis <citation rid=\"pone.0000596-Morteau1\" ref-type=\"bibr\" pmid=\"10683376\" doi=\"10.1172/JCI6899\" pmcid=\"PMC289156\" count=\"1\">[40]</citation>, <citation rid=\"pone.0000596-Fukata1\" ref-type=\"bibr\" pmid=\"16952555\" doi=\"10.1053/j.gastro.2006.06.017\" pmcid=\"PMC2169292\" count=\"1\">[41]</citation>. <sentence_start/>In addition, COX-2 gene expression has been shown to promote intestinal epithelial cell restitution <citation rid=\"pone.0000596-Karrasch2\" ref-type=\"bibr\" pmid=\"16508963\" doi=\"10.1002/jcp.20626\" count=\"1\">[37]</citation>. <sentence_start/>We next assessed the impact of luteolin on TNFα-induced COX-2 gene expression in HT29 cells. <sentence_start/>Cells were treated with luteolin (100 µM) for 45 min, then treated with TNFα (5 ng/ml) for 12 h and 24 h and COX-2 mRNA and protein accumulation were determined by RT-PCR and Western blot analysis, respectively. <sentence_start/>As seen in Fig. 8, luteolin completely blocked TNFα-induced COX-2 mRNA accumulation (Fig. 8A) and protein expression (Fig. 8B) in HT29 cells. <sentence_start/>Similarly, TNFα-induced PGE<sub>2</sub> secretion is blocked in luteolin-treated HT29 cells (Fig. 8C)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Luteolin-treatment inhibits TNFα-induced COX-2 gene expression in HT29 cells."
+  },
+  {
+   "section": "article",
+   "text": "HT29 cells were pretreated with luteolin (100 µM) for 45 min, and then stimulated with TNFα (5 ng/ml) for 4 h. <sentence_start/>Total RNA (1 µg) was extracted, reverse-transcribed, and COX-2 mRNA was amplified using specific human primers (A). <sentence_start/>Cells were treated as described above for 12 h and 24 h, and COX-2 protein accumulation was detected using Western blot analysis (B). <sentence_start/>Cells were treated as described above for 24 h and PGE<sub>2</sub> production was measured from the cell culture supernatants using ELISA (* p&lt;0.01 versus TNFα plus luteolin) (C). <sentence_start/>All data are representative of 3 independent experiments."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "NF-κB drives the expression of a subset of target genes that have important functions in salvaging enterocytes from apoptosis and in promoting restitution in various models of gastrointestinal damage. <sentence_start/>For example, ischemia-reperfusion and radiation-induced intestinal injury is worse in mice with selective IKKβ deletion in enterocytes <citation rid=\"pone.0000596-Egan2\" ref-type=\"bibr\" pmid=\"14983030\" doi=\"10.1073/pnas.0306734101\" pmcid=\"PMC356971\" count=\"1\">[45]</citation>, <citation rid=\"pone.0000596-Chen2\" ref-type=\"bibr\" pmid=\"12692538\" doi=\"10.1038/nm849\" count=\"1\">[46]</citation>. <sentence_start/>Also, DSS-induced colitis is exacerbated in MyD88<sup>−/−</sup> mice, a critical adaptor protein involved in TLR-induced NF-κB signaling <citation rid=\"pone.0000596-Araki1\" ref-type=\"bibr\" pmid=\"15692785\" doi=\"10.1007/s00535-004-1492-9\" count=\"1\">[47]</citation>. <sentence_start/>Interestingly, PGE<sub>2</sub>-expressing stromal cells within the lamina propria reposition near the intestinal epithelial stem cell compartment following DSS-induced injury through a MyD88-dependent mechanism, a process promoting cellular proliferation and mucosal healing <citation rid=\"pone.0000596-Brown1\" ref-type=\"bibr\" pmid=\"17200722\" doi=\"10.1172/JCI29159\" pmcid=\"PMC1716207\" count=\"1\">[48]</citation>. <sentence_start/>Noteworthy, we found that luteolin inhibits DSS-induced, NF-κB dependent enterocyte COX-2 expression in both total colonic protein extracts and purified enterocytes obtained from luteolin-fed mice. <sentence_start/>Similarly, in vitro experiments showed that luteolin blocks TNFα-induced COX-2 gene expression and PGE<sub>2</sub> secretion in HT29 cells. <sentence_start/>Interestingly, luteolin attenuated restitution in a wound-healing assay in rat intestinal epithelial cells IEC-18 in vitro (69% of control, p&lt;0.01), which was partially restored by adding exogenous PGE<sub>2</sub> (87% of control, p&lt;0.01 versus luteolin treatment alone). <sentence_start/>Thus, COX-2 and its derivative metabolites seem to play an important role in maintaining mucosal homeostasis. <sentence_start/>Of note, it should be stressed that although blocking COX-2 expression appears detrimental in the DSS model of acute colitis, a luteolin-rich diet may be beneficial in preventing colorectal cancer, where COX-2 overexpression is associated with carcinogenesis <citation rid=\"pone.0000596-Oshima1\" ref-type=\"bibr\" pmid=\"8945508\" doi=\"10.1016/s0092-8674(00)81988-1\" count=\"1\">[49]</citation>-<citation rid=\"pone.0000596-Wendum1\" ref-type=\"bibr\" pmid=\"15340847\" doi=\"10.1007/s00428-004-1105-2\" count=\"1\">[51]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Exacerbated colitis in luteolin-treated, DSS-exposed mice may involve a higher susceptibility of enterocytes to undergo signal-induced apoptosis and a decreased ability to initiate restitution. <sentence_start/>This possibility is supported by our findings that luteolin fed mice displayed enhanced caspase 3 processing in colonic tissue following DSS exposure, suggesting a higher rate of apoptosis. <sentence_start/>In addition, in vitro experiments showed that luteolin sensitizes HT29 cells to TNFα-induced caspase-3 processing/activity as well as DNA fragmentation. <sentence_start/>These effects were associated with blockade of TNFα-induced NF-κB transcriptional activity and the concomitant decreased expression of down-stream target genes C-IAP1 and C-IAP2. <sentence_start/>The failure to maintain an intact intestinal epithelium and to repair DSS-induced intestinal epithelial damage would result in an increased uptake of luminal antigens, including bacteria and bacterial products, and thus lead to the activation of underlying immune cells and the mounting of an inflammatory response: In the DSS model of acute chemical-induced colitis, luteolin's foremost impact is likely geared towards enterocytes, inhibiting NF-κB-dependent protective molecules. <sentence_start/>Enhanced injury then leads to enhanced NF-κB activation (EGFP expression) in mononuclear cells from the colonic lamina propria, where luteolin's inhibitory effect on NF-κB in LPMNC is likely overcome by the strong impact of abundantly translocated luminal antigens. <sentence_start/>Enhanced lamina propria NF-κB activation (EGFP expression) in turn correlates with clinical and histological signs of colitis in luteolin-fed mice (Fig. 9A,C)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 9"
+  },
+  {
+   "section": "article",
+   "text": "Proposed model for the differential effect of luteolin in DSS-induced acute colitis and in spontaneous chronic colitis in IL-10<sup>−/−</sup>-mice."
+  },
+  {
+   "section": "article",
+   "text": "DSS-induced acute colitis in NF-κB<sup>EGFP</sup> transgenic mice correlates with enhanced EGFP expression (NF-κB activation) in the lamina propria due to the disruption of the epithelial monolayer and the uptake of luminal antigens by lamina propria mononuclear cells (A; middle panel). <sentence_start/>An impaired epithelial wound-healing response and increased apoptosis in luteolin-fed mice lead to enhanced EGFP expression in lamina propria mononuclear cells and exacerbate DSS-induced colitis (A; right panel). <sentence_start/>In the context of a primarily intact epithelial layer during colitis in IL-10<sup>−/−</sup>;NF-κB<sup>EGFP</sup> mice, luteolin decreases bacteria-induced EGFP expression in lamina propria mononuclear cells, which correlates with an attenuation of colitis (B; middle and right panel). <sentence_start/>Schematic representation of luteolin's impact on intestinal epithelial cells and lamina propria mononuclear cells: NF-κB activation in intestinal epithelial cells is likely protective (wound-healing response, anti-apoptotis), and its inhibition by luteolin consequently aggravates intestinal damage. <sentence_start/>As opposed, antigen- (e.g. bacteria-) induced NF-κB activation in lamina propria mononuclear cells leads to NF-κB dependent pro-inflammatory cytokine secretion, thus its inhibition by luteolin likely ameliorates intestinal inflammation (C)."
+  },
+  {
+   "section": "article",
+   "text": "Numerous pro-inflammatory mediators are known to be associated with the development of DSS-induced acute inflammation including IL-6, IL-12, IL-17, IL-18 and TNFα <citation rid=\"pone.0000596-Lorenz1\" ref-type=\"bibr\" pmid=\"16028027\" doi=\"10.1007/s00281-005-0208-4\" count=\"1\">[52]</citation>. <sentence_start/>Whether TNFα promotes intestinal injury and apoptosis in luteolin-fed DSS-treated mice remains to be formally shown. <sentence_start/>Similarly, the exact signaling events associated with enhanced COX-2 expression, NF-κB activity and caspase-3 processing in DSS-exposed mice are as of yet unclear."
+  },
+  {
+   "section": "article",
+   "text": "Importantly, luteolin's negative impact on acute gastrointestinal damage by DSS does not impair its potential therapeutic benefits in other experimental models, for example in IL-10<sup>−/−</sup> mice. <sentence_start/>In this spontaneous model of chronic, Th1-mediated intestinal inflammation, without primary epithelial damage, luteolin's inhibition of NF-κB activation (EGFP expression) is predominantly seen in lamina propria mononuclear cells (LPMNC). <sentence_start/>Its actions at least in part ameliorate the clinical and histological signs of colitis in luteolin-fed animals (Fig. 9B,C). <sentence_start/>These findings parallel our recent report demonstrating a beneficial impact of pharmacological NF-κB inhibition on colitis in IL-10<sup>−/−</sup> mice <citation rid=\"pone.0000596-Karrasch1\" ref-type=\"bibr\" pmid=\"17475882\" doi=\"10.4049/jimmunol.178.10.6522\" count=\"1\">[8]</citation>. <sentence_start/>Our results warrant further studies of luteolin's effects in colonic dysplasia and cancer development as well as in chronic intestinal inflammation. <sentence_start/>Since herbal compounds and their derivatives are widely available and taken by an increasing number of patients oftentimes without proper medical monitoring, our study stresses the need for further analysis of their impact on various diseases."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>This work was supported by NIH ROI DK 47700 and American Institute of Cancer Research grants to C. Jobin; by the Crohn's and Colitis Foundation of America fellowship to T. Karrasch; by NIH P30 DK034987 to CGIBD and in part by NCI UNC GI SPORE grant P50 CA106991 to C. Jobin."
+  }
+ ]
+}

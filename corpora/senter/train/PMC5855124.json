@@ -1,0 +1,395 @@
+{
+ "pmid": 29568458,
+ "pmcid": 5855124,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "<italic toggle=\"yes\">Ex situ</italic> generation of stoichiometric HCN and its application in the Pd-catalysed cyanation of aryl bromides: evidence for a transmetallation step between two oxidative addition Pd-complexes† †Electronic supplementary information (ESI) available. <sentence_start/>CCDC 1504904-1504908. <sentence_start/>For ESI and crystallographic data in CIF or other electronic format see DOI: 10.1039/c7sc03912c"
+  },
+  {
+   "section": "abstract",
+   "text": "We demonstrate how hydrogen cyanide can be exploited for the cyanation of aryl bromides with Pd-catalysis."
+  },
+  {
+   "section": "abstract",
+   "text": "A protocol for the Pd-catalysed cyanation of aryl bromides using near stoichiometric and gaseous hydrogen cyanide is reported for the first time. <sentence_start/>A two-chamber reactor was adopted for the safe liberation of <italic toggle=\"yes\">ex situ</italic> generated HCN in a closed environment, which proved highly efficient in the Ni-catalysed hydrocyanation as the test reaction. <sentence_start/>Subsequently, this setup was exploited for converting a range of aryl and heteroaryl bromides (28 examples) directly into the corresponding benzonitriles in high yields, without the need for cyanide salts. <sentence_start/>Cyanation was achieved employing the Pd(0) precatalyst, P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>-Pd-G3 and a weak base, potassium acetate, in a dioxane-water solvent mixture. <sentence_start/>The methodology was also suitable for the synthesis of <sup>13</sup>C-labelled benzonitriles with <italic toggle=\"yes\">ex situ</italic> generated <sup>13</sup>C-hydrogen cyanide. <sentence_start/>Stoichiometric studies with the metal complexes were undertaken to delineate the mechanism for this catalytic transformation. <sentence_start/>Treatment of Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> with H<sup>13</sup>CN in THF provided two Pd-hydride complexes, (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)(<sup>13</sup>CN), and [(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(H)]<sub>2</sub>Pd(<sup>13</sup>CN)<sub>4</sub>, both of which were isolated and characterised by NMR spectroscopy and X-ray crystal structure analysis. <sentence_start/>When the same reaction was performed in a THF : water mixture in the presence of KOAc, only (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)(<sup>13</sup>CN) was formed. <sentence_start/>Subjection of this cyano hydride metal complex with the oxidative addition complex (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ph)(Br) in a 1 : 1 ratio in THF led to a transmetallation step with the formation of (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)(Br) and <sup>13</sup>C-benzonitrile from a reductive elimination step. <sentence_start/>These experiments suggest the possibility of a catalytic cycle involving initially the formation of two Pd(<sc>ii</sc>)-species from the oxidative addition of L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(0) into HCN and an aryl bromide followed by a transmetallation step to L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(Ar)(CN) and L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(H)(Br), which both reductively eliminate, the latter in the presence of KOAc, to generate the benzonitrile and L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(0)."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Benzonitriles are a valuable class of compounds with a broad range of applications serving as important substructures in many agrochemicals, pharmaceuticals, dyes, polymers and other organic materials.<citation rid=\"cit1\" ref-type=\"bibr\" pmid=\"11456474\" doi=\"10.1021/ar0000354\" count=\"1\">1</citation> <sentence_start/>The nitrile group is also a precursor to a variety of important functionalities such as aldehydes, ketones, carboxamides and carboxylates.<citation rid=\"cit2\" ref-type=\"bibr\" count=\"1\">2</citation> <sentence_start/>Conventional means for the instalment of a cyanide group onto an aromatic ring include the Rosenmund-von Braun or Sandmeyer reactions applying stoichiometric CuCN with aryl halides or diazonium salts.<citation rid=\"cit3\" ref-type=\"bibr\" pmid=\"20291034\" doi=\"10.1021/cr60126a003\" count=\"1\">3</citation> <sentence_start/>Yet, in the last decade, transition metal catalysed cyanations of aromatic halides with metal complexes based on copper,<citation rid=\"cit4\" ref-type=\"bibr\" pmid=\"17480048\" doi=\"10.1002/chem.200700079\" count=\"1\">4</citation> nickel<citation rid=\"cit5\" ref-type=\"bibr\" pmid=\"28379009\" doi=\"10.1021/acs.orglett.7b00732\" count=\"1\">5</citation> and palladium<citation rid=\"cit6\" ref-type=\"bibr\" pmid=\"12698441\" doi=\"10.1002/chem.200390210\" count=\"1\">6</citation>,<citation rid=\"cit7\" ref-type=\"bibr\" pmid=\"21528150\" doi=\"10.1039/c1cs15004a\" count=\"1\">7</citation> have held a key position. <sentence_start/>In particular, the protocols based on Pd-catalysis through the extensive work by Beller,<citation rid=\"cit7\" ref-type=\"bibr\" pmid=\"21528150\" doi=\"10.1039/c1cs15004a\" count=\"1\">7</citation> Grushin<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation> and Buchwald<citation rid=\"cit9\" ref-type=\"bibr\" doi=\"10.1021/ol5032359\" pmcid=\"PMC4301087\" pmid=\"25555140\" count=\"1\">9</citation> are characterised by relatively mild reaction conditions and good functional group tolerance. <sentence_start/>A variety of different cyanide sources have been applied including salts or derivatives such as NaCN,<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation>,<citation rid=\"cit10\" ref-type=\"bibr\" count=\"1\">10</citation> KCN,<citation rid=\"cit6a\" ref-type=\"bibr\" count=\"1\">6a</citation>,<citation rid=\"cit6c\" ref-type=\"bibr\" count=\"1\">c</citation>,<citation rid=\"cit6d\" ref-type=\"bibr\" count=\"1\">d</citation>,<citation rid=\"cit11\" ref-type=\"bibr\" count=\"1\">11</citation> (Me)<sub>3</sub>SiCN,<citation rid=\"cit12\" ref-type=\"bibr\" count=\"1\">12</citation> acetone cyanohydrin,<citation rid=\"cit13\" ref-type=\"bibr\" doi=\"10.1002/anie.200250778\" pmid=\"12698471\" count=\"1\">13</citation> K<sub>4</sub>Fe(CN)<sub>6</sub>,<citation rid=\"cit9a\" ref-type=\"bibr\" count=\"1\">9a</citation>,<citation rid=\"cit14\" ref-type=\"bibr\" doi=\"10.1002/chem.200700079\" pmid=\"17480048\" count=\"1\">14</citation> Zn(CN)<sub>2</sub>,<citation rid=\"cit9b\" ref-type=\"bibr\" count=\"1\">9b</citation>,<citation rid=\"cit15\" ref-type=\"bibr\" pmid=\"11073607\" doi=\"10.1021/jo0009954\" count=\"1\">15</citation> CuCN,<citation rid=\"cit16\" ref-type=\"bibr\" count=\"1\">16</citation><italic toggle=\"yes\">etc.</italic> (Scheme 1). <sentence_start/>However, many of these sources also have their disadvantages. <sentence_start/>For example, metal contaminants can become an issue with the use of potassium ferrocyanide, whereas with the cyanohydrin of acetone, this chemical must be stored carefully and is approx. 20 times more costly than potassium cyanide.‡"
+  },
+  {
+   "section": "article",
+   "text": "‡According to the Sigma-Aldrich catalogue, 5 g of acetone cyanohydrin costs the same as approximately 100 g of potassium cyanide."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, considering the fact that all of these cyanide precursors originate from hydrogen cyanide (HCN), which is produced on a million-ton scale size <italic toggle=\"yes\">via</italic> the Andrussow<citation rid=\"cit17\" ref-type=\"bibr\" count=\"1\">17</citation> and BMA-Degussa processes<citation rid=\"cit18\" ref-type=\"bibr\" count=\"1\">18</citation> from natural gas and ammonia or as a byproduct in acrylonitrile production,<citation rid=\"cit18\" ref-type=\"bibr\" count=\"1\">18</citation>,<citation rid=\"cit19\" ref-type=\"bibr\" count=\"1\">19</citation> there could be an interest in the development of a cyanation process of aryl halides exploiting this original source of cyanide, namely gaseous HCN.<citation rid=\"cit20\" ref-type=\"bibr\" pmid=\"27595239\" doi=\"10.1002/chem.201604061\" count=\"1\">20</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Scheme 1"
+  },
+  {
+   "section": "article",
+   "text": "Previous developments in Pd-catalysed cyanation protocols and our new approach applying gaseous HCN."
+  },
+  {
+   "section": "article",
+   "text": "Only three reports are found in the literature applying HCN directly or by its <italic toggle=\"yes\">in situ</italic> formation. <sentence_start/>In 2015, Buchwald and Hooker reported a <sup>11</sup>C-cyanation study for the synthesis of aromatic cyanides with applications for positron emission tomography (PET).<citation rid=\"cit21\" ref-type=\"bibr\" pmid=\"25565277\" doi=\"10.1021/ja512115s\" pmcid=\"PMC4394387\" count=\"1\">21</citation> <sentence_start/>Here, submicromolar amounts of gaseous H<sup>11</sup>CN dissolved in THF were introduced to a 1000-fold excess of preformed oxidative addition palladium(<sc>ii</sc>) complex, affording the desired <sup>11</sup>C-benzonitriles nearly instantaneously. <sentence_start/>A follow-up paper by the same two groups demonstrated the possibilities of this approach for the <sup>11</sup>C-labelling of unprotected peptides.<citation rid=\"cit22\" ref-type=\"bibr\" pmid=\"28502164\" doi=\"10.1021/jacs.7b02761\" pmcid=\"PMC5572217\" count=\"1\">22</citation> <sentence_start/>Alternatively, Beller and co-workers reported the <italic toggle=\"yes\">in situ</italic> release of HCN from acetone cyanohydrin although this was carried out in the presence of sodium carbonate, which undoubtedly leads to the direct formation of the reactive cyanide anion species.<citation rid=\"cit13\" ref-type=\"bibr\" doi=\"10.1002/anie.200250778\" pmid=\"12698471\" count=\"1\">13</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Nevertheless, there is a reluctance to apply HCN (b.p. 27 °C) as a cyanation reagent in an academic setting or an R&amp;D laboratory, which is undoubtedly linked to the high toxicity and explosive nature of this gaseous one-carbon reagent, thereby complicating its handling, storage and transportation.<citation rid=\"cit23\" ref-type=\"bibr\" count=\"1\">23</citation> <sentence_start/>Another challenge in the use of hydrogen cyanide as a cyanation reagent is how to control its dosage in stoichiometric amounts as Pd-catalysed cyanations of aryl halides are particularly sensitive to the cyanide concentrations. <sentence_start/>The strong binding of cyanide anion to transition metals can lead to catalyst deactivation if present in elevated concentrations.<citation rid=\"cit7\" ref-type=\"bibr\" pmid=\"21528150\" doi=\"10.1039/c1cs15004a\" count=\"1\">7</citation>,<citation rid=\"cit24\" ref-type=\"bibr\" pmid=\"25493420\" doi=\"10.1021/cr5004375\" count=\"1\">24</citation> <sentence_start/>With other cyanide reagents, this complication is normally addressed by their slow addition to the reaction mixture, slow mass transport of the cyanide anion by specific water/organic solvents mixtures or by use of cyanide complexes with low solubilities.<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation>,<citation rid=\"cit9b\" ref-type=\"bibr\" count=\"1\">9b</citation>,<citation rid=\"cit13\" ref-type=\"bibr\" doi=\"10.1002/anie.200250778\" pmid=\"12698471\" count=\"1\">13</citation>,<citation rid=\"cit14\" ref-type=\"bibr\" doi=\"10.1002/chem.200700079\" pmid=\"17480048\" count=\"1\">14</citation> <sentence_start/>Grushin and co-workers have published impressive and detailed studies on the mechanism of cyanide induced catalyst deactivation in the Pd-catalysed cyanation of aromatic halides. <sentence_start/>In their work, they report that addition of an excess of <sup>13</sup>C-labelled potassium cyanide (K<sup>13</sup>CN) to different intermediates of the catalytic cycle in the Pd-catalysed cyanation of iodobenzene led to coordinatively saturated and catalytically inactive palladium complexes such as [Pd(CN)<sub>4</sub>]<sup>2-</sup>, [HPd(CN)<sub>3</sub>]<sup>2-</sup> or [ArPd(CN)<sub>3</sub>]<sup>2-</sup>.<citation rid=\"cit25\" ref-type=\"bibr\" pmid=\"17199273\" doi=\"10.1021/ja066931d\" count=\"1\">25</citation> <sentence_start/>More interestingly, the same group revealed that traces of water in the reaction mixture combined with K<sup>13</sup>CN forms H<sup>13</sup>CN that immediately undergoes oxidative addition with Pd(0) leading to the same coordinatively saturated and off-cycle palladium complexes with concurrent formation of hydrogen gas.<citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"18336024\" doi=\"10.1021/ja078298h\" count=\"1\">26</citation>"
+  },
+  {
+   "section": "article",
+   "text": "In this paper, we report on the direct use of industrially important hydrogen cyanide in the palladium-catalysed cyanation of (hetero)aromatic bromides (Scheme 1). <sentence_start/>These results deviate from conventional wisdom, since Grushin's earlier work demonstrated the propensity of palladium(0) to undergo fast oxidative addition into the H-CN bond shutting down the catalytic cycle. <sentence_start/>And yet, our results demonstrate that conditions can be identified whereby the presence of HCN does not terminate the cyanation reaction, but enhances the reactivity vis-à-vis cyanide salts. <sentence_start/>Secondly and most important, we describe a simple and safe setup whereby HCN is delivered in stoichiometric amounts by <italic toggle=\"yes\">ex situ</italic> generation in a two-chamber reactor, thereby providing a simple and safe setting for handling gaseous HCN in small-scale reactions. <sentence_start/>We demonstrate the usefulness of this setup not only for the Pd-catalysed cyanation of aryl bromides, but also for the Ni-mediated hydrocyanation of styrenes as a test reaction. <sentence_start/>With respect to the cyanation reactions good functional group tolerance was obtained, and the method proved amenable to scale-up, but also to carbon-13 isotope labelling applying H<sup>13</sup>CN. <sentence_start/>Surprisingly, the developed conditions proved to be dependent on water as the co-solvent and the presence of a weak base, KOAc. <sentence_start/>In their absence, catalytic shutdown was observed, thereby indicating the operation of an alternative mechanism to Pd-catalysed cyanations applying cyanide salts. <sentence_start/>Studies and isolation of the oxidative addition complexes suggest a mechanism involving the transmetallation between two palladium(<sc>ii</sc>) species, both formed by the oxidative addition of palladium(0) into either HCN or the aryl bromide electrophile."
+  },
+  {
+   "section": "article",
+   "text": "Results and discussion"
+  },
+  {
+   "section": "article",
+   "text": "Hydrogen cyanide releasing studies"
+  },
+  {
+   "section": "article",
+   "text": "In order to provide a system for the controlled dosage of hydrogen cyanide in stoichiometric quantities, we envisioned that the two-chamber system previously utilised for the <italic toggle=\"yes\">ex situ</italic> liberation of carbon monoxide,<citation rid=\"cit27\" ref-type=\"bibr\" pmid=\"26999377\" doi=\"10.1021/acs.accounts.5b00471\" count=\"1\">27</citation> hydrogen<citation rid=\"cit28\" ref-type=\"bibr\" pmid=\"24870212\" doi=\"10.1021/jo500801t\" count=\"1\">28</citation> and ethylene<citation rid=\"cit29\" ref-type=\"bibr\" pmid=\"24243666\" doi=\"10.1002/chem.201303668\" count=\"1\">29</citation> from specific nongaseous precursors could be exploited. <sentence_start/>Such an approach would provide a simple and safe setup without the direct handling of HCN gas. <sentence_start/>Hence, our focus was first directed to identifying a suitable system for the generation of HCN gas under a closed environment, and the well-established nickel-catalysed hydrocyanation of olefins was exploited as a test system for the optimisation.<citation rid=\"cit30\" ref-type=\"bibr\" pmid=\"19637256\" doi=\"10.1002/chem.200802611\" count=\"1\">30</citation>-<citation rid=\"cit32\" ref-type=\"bibr\" doi=\"10.1039/c0cc01452d\" pmid=\"20972491\" count=\"1\">32</citation> After considerable experimentation on the hydrocyanation of styrene (see ESI†), we finally adopted the following conditions as illustrated in Scheme 2. <sentence_start/>A combination of KCN, ethylene glycol and AcOH provided the desired release of gaseous HCN. <sentence_start/>Ethylene glycol serves a dual purpose acting both as solvent while simultaneously ensuring separation of the AcOH from KCN until stirring is initiated. <sentence_start/>By utilising this setup for the HCN producing chamber in combination with the Ni-catalysed hydrocyanation conditions in the second chamber (Ni(COD)<sub>2</sub>, XantPhos), a range of different styrenes bearing both electron donating and withdrawing groups could successfully be hydrocyanated to products <bold>1-7</bold> in near quantitative yields. <sentence_start/>Full conversion of all styrene derivatives was attained applying only 1.5 equivalents of KCN for the production of HCN, indicating the effectiveness of this gas generator."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 2"
+  },
+  {
+   "section": "article",
+   "text": "Ni-catalysed hydrocyanation of styrenes employing a two-chamber system with <italic toggle=\"yes\">ex situ</italic> generated HCN. <sentence_start/><sup>a</sup>Chamber A: styrene (1.0 mmol), Ni(COD)<sub>2</sub> (5.0 mol%), XantPhos (7.5 mol%) and CPME (2 mL). <sentence_start/>Chamber B: KCN (1.5 mmol), ethylene glycol (1 mL), AcOH (9.0 mmol). <sentence_start/>Isolated yields are given as an average of 2 runs."
+  },
+  {
+   "section": "article",
+   "text": "Studies on the cyanation of (hetero)aryl bromides"
+  },
+  {
+   "section": "article",
+   "text": "With a simple and convenient system for the release of gaseous HCN in hand, we next turned our attention towards the Pd-catalysed cyanation of (hetero)aryl bromides. <sentence_start/>As depicted in the scheme of Table 1, initial optimisation results were carried out with 4-bromoanisole. <sentence_start/>This study revealed that reaction conditions consisting of a catalyst formed from Pd(dba)<sub>2</sub> with P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>, in the presence of hydrogen cyanide (1.5 equiv.), a weak base such as KOAc, and a solvent mixture of water and dioxane could generate 4-methoxybenzonitrile (<bold>8</bold>) with a conversion of 78% according to the <sup>1</sup>H NMR analysis of the crude reaction mixture (Table 1, entry 1). <sentence_start/>P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub> as a ligand proved to be superior to other monodentate and bidentate ligands (entries 2-6; see ESI† section for full optimisation studies), which is in accord with earlier results reported by Grushin and co-workers.<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation>,<citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"18336024\" doi=\"10.1021/ja078298h\" count=\"1\">26</citation> <sentence_start/>In general, weak bases such as KOAc and NaOAc provided better conversions to the desired 4-methoxybenzonitrile, whereas stronger bases including Cy<sub>2</sub>NMe, DBU and Et<sub>3</sub>N all proved inferior (entries 7-9). <sentence_start/>Increasing to three equivalents of KOAc provided a slight increase in the conversion to 82% (entry 10). <sentence_start/>The efficiency of the reaction could also be increased further exploiting the Buchwald pre-catalyst, P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>-Pd-G3, providing a 90% isolated yield of benzonitrile <bold>8</bold> after column chromatography (entry 11). <sentence_start/>Control experiments with omission of either base or palladium precursors resulted in low or no conversion, resp."
+  },
+  {
+   "section": "article",
+   "text": "Different water : solvent combinations were tested and dioxane proved to be the solvent of choice (entries 12 and 13, see also ESI†). <sentence_start/>Notably, the presence of water as the co-solvent is of key importance as similar experiments applying only dioxane as the solvent resulted in complete catalytic shutdown. <sentence_start/>In our scope studies, we later discovered that a 2 : 1 mixture of water and dioxane provided higher yields for certain substrates, and hence this ratio was used for all subsequent cyanations. <sentence_start/>Not surprisingly and in accord with Grushin's previous results, carrying out the Pd-catalysed cyanation in a single chamber reactor applying KCN directly with or without the addition of acetic acid under the conditions developed led to no formation of <bold>8</bold> (result not shown)."
+  },
+  {
+   "section": "article",
+   "text": "With the optimised reaction conditions in hand, we set out to explore the scope of the Pd-catalysed cyanation using gaseous HCN. <sentence_start/>All yields are reported as an average of two runs and the results are depicted in Scheme 3. <sentence_start/>Aryl bromides carrying electron donating substituents were initially examined. <sentence_start/>Methoxy-, hydroxy-, alkyl- and aryl-substituted aryl bromides provided the desired compounds in high yields ranging from 90% to 97% (compounds <bold>8-11</bold>). <sentence_start/>Electron withdrawing substituents such as cyano, acyl and carboxylate afforded compounds <bold>12</bold>, <bold>13</bold> and <bold>14</bold> in yields attaining quantitative. <sentence_start/>Even <italic toggle=\"yes\">p</italic>-bromobenzoic acid underwent successful coupling affording <italic toggle=\"yes\">p</italic>-cyanobenzoic acid (<bold>15</bold>) in an 86% yield, using 4 equiv. of KOAc combined with 5 mol% of Buchwald's precatalyst. <sentence_start/>The use of phenol and benzoic acid derivatives in the Pd-catalysed cyanation with NaCN were previously shown by Ushkov and Grushin to lead to catalyst deactivation due to the formation of HCN.<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation><italic toggle=\"yes\">p</italic>-Bromobenzaldehyde also proved reactive with the isolation of <bold>16</bold> in a somewhat lower yield. <sentence_start/>This slight reduction in isolated yield can possibly be explained by competing benzoin condensation of both starting material and product. <sentence_start/>The substitution pattern of bromoanilines interfered significantly with the developed conditions and installment of the cyano-functionality onto 2-, 3-, and 4-bromoaniline was achieved in yields of 95%, 77% and 47% respectively (compounds <bold>17-19</bold>). <sentence_start/>Aryl bromides displaying <italic toggle=\"yes\">ortho</italic>-substitutions were also effective for these substitution reactions as illustrated with compounds <bold>17</bold> and <bold>20-22</bold>, all isolated in yields between 92% and 96%. <sentence_start/>However, 2-bromo-1,3-dimethylbenzene did require an increase of the catalyst loading to achieve the high 96% isolated yield of <bold>21</bold>. <sentence_start/>Lowering the reaction temperature of the HCN consuming chamber, from 60 °C to 45 °C, ensured a chemoselective activation of the aromatic bromide in the presence of the <italic toggle=\"yes\">p</italic>-chloride affording <bold>23</bold> in an 88% isolated yield. <sentence_start/>Subsequently, an aryl bromide possessing a benzylic alcohol, and five heteroaromatic bromides were tested under the developed conditions. <sentence_start/>All underwent successful cyanation to afford the desired target molecules in yields ranging from 75% to 95% (compounds <bold>22</bold>, <bold>24-28</bold>). <sentence_start/>It should be mentioned though that despite the successful coupling of these handful of heteroaryl bromides, two other heterocycles tested such as 2-acetyl-5-bromothiophene and 3-bromobenzothiophene failed to provide the corresponding nitrile product. <sentence_start/>The reasons for this catalytic shutdown are not completely understood (see Discussion in next section). <sentence_start/>Finally, attempts to perform catalytic cyanation on 4-biphenyl triflate, applying the developed protocol, were non-rewarding with no conversion observed for this electrophile."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 3"
+  },
+  {
+   "section": "article",
+   "text": "Pd-catalysed cyanation of aryl bromides. <sentence_start/><sup>a</sup>Chamber A: aryl bromide (1.0 mmol), P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>-Pd-G3 (2.5 mol%) and KOAc (3.0 mmol) in dioxane (1 mL) and H<sub>2</sub>O (2 mL). Chamber B: KCN (1.5 mmol) or K<sup>13</sup>CN (1.5 mmol) ethylene glycol (1 mL) and AcOH (9 mmol). <sentence_start/>Isolated yields are given as an average of 2 runs. <sentence_start/><sup>b</sup>5.0 mol% catalyst used. <sentence_start/><sup>c</sup>4.0 equiv. of KOAc used. <sentence_start/><sup>d</sup>HCN consuming chamber only heated to 45 °C."
+  },
+  {
+   "section": "article",
+   "text": "Next, attention was directed to implementing this developed protocol for <sup>13</sup>C-labelling. <sentence_start/>By simply substituting KCN with its <sup>13</sup>C-labelled counterpart under otherwise unchanged conditions, direct access to isotopically labeled benzonitrile derivatives were achieved. <sentence_start/>Four entries from Scheme 3 were selected for labelling, and all compounds were isolated in near identical yields to the unlabeled compounds (compounds <bold>10-<sup>13</sup>C</bold>, <bold>11-<sup>13</sup>C</bold>, <bold>12-<sup>13</sup>C</bold> and <bold>28-<sup>13</sup>C</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, the developed protocol was tested for the synthesis of three active pharmaceutical ingredients, namely dapivirine (reverse transcriptase inhibitor), citalopram (serotonin reuptake inhibitor) and letrozole (non-steroidal aromatase inhibitor), the results of which are depicted in Scheme 4.<citation rid=\"cit33\" ref-type=\"bibr\" pmid=\"20804202\" doi=\"10.1021/jm100762r\" pmcid=\"PMC2988972\" count=\"1\">33</citation> <sentence_start/>Dapivirine (<bold>29</bold>) and citalopram (<bold>30</bold>) were obtained in satisfactory 96% and 86% isolated yields, respectively, from the corresponding bromide precursors applying 5.0 mol% of the Buchwald precatalyst. <sentence_start/>For the synthesis of letrozole (<bold>31</bold>) a double cyanation is required with the dibromide <bold>31a</bold>. <sentence_start/>Doubling the loading of KCN for HCN release to 3 equivalents combined with an increase in KOAc to 4 equivalents, gratifyingly afforded the dicyanide <bold>31</bold> in an excellent 97% isolated yield again with 5.0 mol% precatalyst. <sentence_start/>The synthesis of letrozole was then attempted on a fivefold scale combined with a 100 mL two-chamber reactor to afford a near identical isolated yield of 95%. <sentence_start/>Finally, scaling up to 10 mmol in a 200 mL two-chamber reactor, with an HCN release from 30 mmol of KCN, corresponding to more than 700 mL of gaseous HCN, afforded the desired pharmaceutical in a good 85% isolated yield."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 4"
+  },
+  {
+   "section": "article",
+   "text": "Synthesis of pharmaceuticals by Pd-catalysed cyanation and scale up studies. <sentence_start/><sup>a</sup>For reactions on 1.0 mmol scale, yields are an average of two runs."
+  },
+  {
+   "section": "article",
+   "text": "Mechanistic investigations"
+  },
+  {
+   "section": "article",
+   "text": "Having established the scope of the Pd-catalysed cyanation of (hetero)aryl bromides with hydrogen cyanide, some questions still remained. <sentence_start/>Given a pKa difference in water for acetic acid (4.76) and HCN (9.21) of almost 4.5 units, indicates that HCN is potentially the reactive species in solution and not the free cyanide anion. <sentence_start/>However, previous reports by Grushin and co-workers clearly demonstrated that the presence of free HCN formed from the protonation of KCN with trace amounts of water, quickly leads to shutdown of the catalytic activity.<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation>,<citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"18336024\" doi=\"10.1021/ja078298h\" count=\"1\">26</citation> <sentence_start/>Still this deactivation is a combined result of Pd(0) undergoing oxidative addition into the H-CN bond followed by trapping of this species with excess cyanide anion to generate off-cycle palladium(<sc>ii</sc>) cyanide complexes. <sentence_start/>Furthermore, there was not a clear indication why certain heteroaryl bromides were successful coupling partners with HCN, whereas others were not. <sentence_start/>With the exception of the protocol developed by Buchwald and Hooker, in which H<sup>11</sup>CN is used to form PET tracers, no reports are found on palladium-catalysed cyanation of aryl halides using gaseous HCN as the reactant.<citation rid=\"cit21\" ref-type=\"bibr\" pmid=\"25565277\" doi=\"10.1021/ja512115s\" pmcid=\"PMC4394387\" count=\"1\">21</citation> <sentence_start/>Although it should be noted under the conditions used for <sup>11</sup>C-isotope-labelling, the Pd(<sc>ii</sc>)-aryl complex is in an approx. 1000-fold excess compared to the H<sup>11</sup>CN generated. <sentence_start/>With this in mind it was decided to take a closer look at the possible mechanism for the developed protocol."
+  },
+  {
+   "section": "article",
+   "text": "The overall accepted mechanism for the Pd-catalysed cyanation using sodium or potassium cyanide is believed to go through an initial oxidative addition of the Pd(0) complex into the aryl halide, nucleophilic displacement by cyanide on the formed palladium(<sc>ii</sc>) centre, and lastly a reductive elimination furnishing the desired benzonitrile (Scheme 5).<citation rid=\"cit6h\" ref-type=\"bibr\" count=\"1\">6h</citation>,<citation rid=\"cit7\" ref-type=\"bibr\" pmid=\"21528150\" doi=\"10.1039/c1cs15004a\" count=\"1\">7</citation>,<citation rid=\"cit8\" ref-type=\"bibr\" pmid=\"21699208\" doi=\"10.1021/ja2042035\" count=\"1\">8</citation>,<citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"18336024\" doi=\"10.1021/ja078298h\" count=\"1\">26</citation> <sentence_start/>When metal complexes such as Zn(CN)<sub>2</sub> are utilised, a change in mechanism occurs, whereby nucleophilic substitution is replaced with a transmetallation step.<citation rid=\"cit9b\" ref-type=\"bibr\" count=\"1\">9b</citation>,<citation rid=\"cit34\" ref-type=\"bibr\" pmid=\"18980375\" doi=\"10.1021/ol8016935\" count=\"1\">34</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Scheme 5"
+  },
+  {
+   "section": "article",
+   "text": "Accepted mechanism for the cyanation of aryl halides with cyanide salts."
+  },
+  {
+   "section": "article",
+   "text": "During the optimisation of the catalytic system, different bases were tested (Table 1, entries 7-10). <sentence_start/>A clear trend can be abstracted from this base screening, where an increase in base strength leads to a decrease in conversion. <sentence_start/>This can be explained by the higher degree of deprotonation of HCN with strong bases leading to catalytic shutdown. <sentence_start/>The effect is highest for the strong base DBU affording a mere 5% conversion to product <bold>8</bold>. <sentence_start/>The optimum conditions found in this work applies KOAc as base, suggesting that HCN is the reactive species and not cyanide itself."
+  },
+  {
+   "section": "article",
+   "text": "Initially, the oxidative addition of Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> to H<sup>13</sup>CN in THF as the solvent was investigated using the two-chamber reactor (see ESI† for reaction details).§"
+  },
+  {
+   "section": "article",
+   "text": "§H<sup>13</sup>CN was used because this isotope eased the spectroscopic analysis of the complexes formed."
+  },
+  {
+   "section": "article",
+   "text": "This afforded two palladium-hydride species in roughly a 6 : 1 ratio, as observed by <sup>1</sup>H NMR analysis of the reaction mixture, with the hydride signals residing at -11.42 and 16.79 ppm (Fig. 1 and 3).<citation rid=\"cit35\" ref-type=\"bibr\" pmid=\"11848819\" doi=\"10.1021/cr950272y\" count=\"1\">35</citation> <sentence_start/>Careful manipulation of the reaction mixture allowed for the isolation and crystallisation of both hydride species <bold>32</bold> and <bold>33</bold>, the structures of which were confirmed by X-ray crystal structural analysis (Fig. 2 and 4)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "<sup>1</sup>H <sentence_start/>NMR (<italic toggle=\"yes\">J</italic><sub>H-C</sub> = 53.0 Hz, <italic toggle=\"yes\">J</italic><sub>H-P</sub> = 4.7 Hz) and <sup>31</sup>P NMR (<italic toggle=\"yes\">J</italic><sub>P-C</sub> = 11.7 Hz) of compound <bold>32</bold> in THF-d<sub>8</sub>."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "ORTEP representation of complex <bold>32</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "<sup>1</sup>H <sentence_start/>NMR and <sup>31</sup>P NMR of compound <bold>33</bold> in CDCl<sub>3</sub>."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "ORTEP representation of complex <bold>33</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Compound <bold>32</bold> was identified as the oxidative addition complex with H<sup>13</sup>CN, (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)(<sup>13</sup>CN). <sentence_start/>While others have reported the corresponding HBr and HCl adducts,<citation rid=\"cit36\" ref-type=\"bibr\" count=\"1\">36</citation>,<citation rid=\"cit37\" ref-type=\"bibr\" pmid=\"15479044\" doi=\"10.1021/ja0471424\" count=\"1\">37</citation> it is to the best of our knowledge the first time compound <bold>32</bold> has been isolated. <sentence_start/>The hydride signal is located at -11.42 ppm as a double triplet in the <sup>1</sup>H NMR spectrum (Fig. 1), whereby the multiplicity originates from a large <italic toggle=\"yes\">trans</italic>-coupling with the 13-carbon of the cyanide, and small <italic toggle=\"yes\">cis</italic>-coupling with the two equivalent phosphine ligands.¶"
+  },
+  {
+   "section": "article",
+   "text": "¶In the non-isotopically labelled version, the multiplicity is seen as a triplet."
+  },
+  {
+   "section": "article",
+   "text": "The <sup>31</sup>P NMR analysis of <bold>32</bold> reveals a doublet at 93.1 ppm arising from P-C coupling with the <sup>13</sup>C-labelled cyanide. <sentence_start/>Due to disturbance in the crystal structure, the hydride could not be located. <sentence_start/>However, in view of the combined data obtained from the NMR and the X-ray crystal structural analysis, we are confident that the structure of <bold>32</bold> is as indicated in Fig. 2."
+  },
+  {
+   "section": "article",
+   "text": "To our surprise, the X-ray crystal structure analysis of the palladium-hydride complex <bold>33</bold> revealed it to be a tri-metallic species as illustrated in the ORTEP representation of Fig. 4. <sentence_start/>In the <sup>1</sup>H NMR spectrum a hydride signal is located at -16.79 ppm as a multiplet (Fig. 3), whereas for the <sup>31</sup>P NMR spectrum, a singlet at 84.7 ppm can be found. <sentence_start/>A closer look at this Pd<sub>3</sub>-complex, shows its resemblance to K<sub>2</sub>[Pd(<sup>13</sup>CN)<sub>4</sub>], which can also be produced from the reaction of Pd(0) with H<sup>13</sup>CN in turn formed from the hydrolysis of K<sup>13</sup>CN with water.<citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"18336024\" doi=\"10.1021/ja078298h\" count=\"1\">26</citation> <sentence_start/>In structure <bold>33</bold>, the anionic core, [Pd(<sup>13</sup>CN)<sub>4</sub>]<sup>2-</sup>, carries two cationic counter ions in the form of [(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(H)]<sup>+</sup>."
+  },
+  {
+   "section": "article",
+   "text": "To investigate the importance of the reaction conditions and influence on the formation of <bold>32</bold> and <bold>33</bold>, a series of experiments were performed the results of which are shown in Table 2. <sentence_start/>As can be seen from entries 1-3, neither the amount of H<sup>13</sup>CN nor the presence of water appears to influence the distribution between <bold>32</bold> and <bold>33</bold>. <sentence_start/>However, the addition of KOAc and water resulted in the exclusive formation of the Pd-hydride complex <bold>32</bold> (entry 4).‖"
+  },
+  {
+   "section": "article",
+   "text": "‖Complex <bold>33</bold> or the corresponding potassium salt (K<sub>2</sub>[Pd(<sup>13</sup>CN)<sub>4</sub>]) could not be detected by either <sup>31</sup>P NMR or <sup>13</sup>C NMR spectroscopic analysis."
+  },
+  {
+   "section": "article",
+   "text": "Increasing the H<sup>13</sup>CN loading from 1.0 to 3.0 equiv. provided a 92% conversion to <bold>32</bold>. <sentence_start/>Full conversion to <bold>32</bold> was obtained with 3 equiv. <sentence_start/>of H<sup>13</sup>CN in combination with 6 equiv. of KOAc (entry 6). <sentence_start/>Finally, direct formation of <bold>33</bold> from <bold>32</bold> can also be achieved by heating <bold>32</bold> in THF at 60 °C, and after 3 h, a 3 : 1 ratio between <bold>32</bold> and <bold>33</bold> is achieved. <sentence_start/>This result could be explained by the slow transmetallation between two Pd-hydride species <bold>32</bold> leading to the formation of (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)<sub>2</sub> and (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(<sup>13</sup>CN)<sub>2</sub>.<citation rid=\"cit35\" ref-type=\"bibr\" pmid=\"11848819\" doi=\"10.1021/cr950272y\" count=\"1\">35</citation>,<citation rid=\"cit38\" ref-type=\"bibr\" count=\"1\">38</citation> <sentence_start/>Whereas, the former can reductively eliminate generating Pd(0) and dihydrogen, we speculate that (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(<sup>13</sup>CN)<sub>2</sub> could abstract cyanide from two Pd-hydride complexes <bold>32</bold> ultimately leading to the formation of the Pd<sub>3</sub>-complex <bold>33</bold>."
+  },
+  {
+   "section": "article",
+   "text": "To further probe the necessity of the bulky and electron rich P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub> ligand, Pd(PPh<sub>3</sub>)<sub>4</sub> was dissolved in THF and treated with H<sup>13</sup>CN (Scheme 6). <sentence_start/>This resulted in the sole formation of (PPh<sub>3</sub>)<sub>2</sub>Pd(<sup>13</sup>CN)<sub>2</sub> (<bold>34</bold>), the structure of which was confirmed by both NMR and X-ray analysis (see ESI†).<sentence_start/>**"
+  },
+  {
+   "section": "article",
+   "text": "**Compound <bold>34</bold> has previously been synthesised by Grushin and co-workers by the reaction of Pd(PPh<sub>3</sub>)<sub>4</sub> with K<sup>13</sup>CN in the presence of water. <sentence_start/>See <citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"18336024\" doi=\"10.1021/ja078298h\" count=\"1\">ref. 26</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Possibly, the transmetallation event involving two (PPh<sub>3</sub>)<sub>2</sub>Pd(H)(<sup>13</sup>CN) species is significantly faster than that for complex <bold>32</bold>, and therefore cyanide abstraction from (PPh<sub>3</sub>)<sub>2</sub>Pd(H)(<sup>13</sup>CN) with complex <bold>34</bold> cannot compete as with similar palladium species bearing the P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub> ligand."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 6"
+  },
+  {
+   "section": "article",
+   "text": "Reaction between Pd(PPh<sub>3</sub>)<sub>4</sub> and H<sup>13</sup>CN. <sentence_start/><sup>a</sup>Reaction performed on a 0.1 mmol scale with a two-chamber system. <sentence_start/>The reaction was stopped after 3 h."
+  },
+  {
+   "section": "article",
+   "text": "Next, we addressed the question whether complex <bold>32</bold> represents an active participant in the catalytic cycle. <sentence_start/>To this end, we examined the reaction between 4-bromobiphenyl and <bold>32</bold> in THF-d<sub>8</sub> at room temperature with mesitylene as an internal standard (Scheme 7). <sentence_start/>The reaction progress was followed by both <sup>1</sup>H- and <sup>31</sup>P-NMR. <sentence_start/>From the <sup>1</sup>H NMR spectrum it was clear that as the reaction progressed a build-up of the palladium-hydride species <bold>35</bold> in addition to the formation of the aromatic nitrile <bold>11-<sup>13</sup>C</bold> was observed. <sentence_start/>The reaction turned out to be relatively slow at 25 °C despite a 1 : 1 relationship between complex <bold>32</bold> and 4-bromobiphenyl. <sentence_start/>Nevertheless, after 12 h, the conversion into <bold>11-<sup>13</sup>C</bold> had reached 55%."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 7"
+  },
+  {
+   "section": "article",
+   "text": "Reactivity studies between complex <bold>32</bold> with 4-bromo-biphenyl. <sentence_start/><sup>a</sup>0.02 mmol of both <bold>32</bold> and 4-bromobiphenyl were added to a NMR-tube. <sentence_start/>Mesitylene was used as an internal standard."
+  },
+  {
+   "section": "article",
+   "text": "To verify that the structure of the new Pd-hydride species formed indeed is as proposed for compound <bold>35</bold>, a sample of this complex was prepared according to a known literature procedure involving the treatment of Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> with pyridinium bromide in toluene.<citation rid=\"cit39\" ref-type=\"bibr\" pmid=\"18956867\" doi=\"10.1021/ja804997z\" count=\"1\">39</citation> <sentence_start/>As can be seen in Fig. 5, complex <bold>35</bold> produced a triplet at -15.63 ppm in the <sup>1</sup>H NMR spectrum arising from the coupling to the two equivalent phosphorus atoms. <sentence_start/>In the <sup>31</sup>P NMR spectrum, <bold>35</bold> gives rise to a doublet located at 83.5 ppm. <sentence_start/>These spectroscopic data were in accord with those observed from the reaction of <bold>32</bold> with 4-bromobiphenyl. <sentence_start/>Finally, by dissolving <bold>35</bold> in a small amount of CH<sub>2</sub>Cl<sub>2</sub> layered with heptane resulted in crystals that were suitable for X-ray analysis (Fig. 6)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 5"
+  },
+  {
+   "section": "article",
+   "text": "<sup>1</sup>H NMR (<italic toggle=\"yes\">J</italic><sub>H-P</sub> = 7.2 Hz) and <sup>31</sup>P NMR (<italic toggle=\"yes\">J</italic> = 1.9 Hz) of compound <bold>35</bold> in THF-d<sub>8</sub>."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 6"
+  },
+  {
+   "section": "article",
+   "text": "ORTEP representation of complex <bold>35</bold>."
+  },
+  {
+   "section": "article",
+   "text": "The formation of aryl nitrile <bold>11-<sup>13</sup>C</bold> is only possible if complex <bold>32</bold> can reductively eliminate generating Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> and H<sup>13</sup>CN, thereby implying that the addition of HCN to Pd(0) is a reversible process.<citation rid=\"cit40\" ref-type=\"bibr\" count=\"1\">40</citation> <sentence_start/>The Pd(0) species produced from this reductive elimination step can then either undergo an oxidative addition to H<sup>13</sup>CN again or alternatively to the aryl bromide generating (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ar)(Br).<citation rid=\"cit41\" ref-type=\"bibr\" pmid=\"14611215\" doi=\"10.1021/ja037959h\" count=\"1\">41</citation> <sentence_start/>With the presence in solution of both this complex and <bold>32</bold>, a transmetallation event could take place between these two species leading to the formation of the Pd-hydride <bold>35</bold> and (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ar)(<sup>13</sup>CN), which subsequently undergoes reductive elimination to the desired benzonitrile <bold>11-<sup>13</sup>C</bold> and Pd(0).†"
+  },
+  {
+   "section": "article",
+   "text": "†During the reaction, no clear phosphine signals are observed from either the oxidative addition complex (<italic toggle=\"yes\">i.e.</italic> (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ar)(Br)) or the complex after transmetallation (<italic toggle=\"yes\">i.e.</italic> (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ar)(CN)). <sentence_start/>This further indicates that the rate determining step is the oxidative addition into the aryl bromide, since the generated P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ar)(Br) is consumed almost instantaneously (see J. L. Klinkenberg and J. F. Hartwig, <italic toggle=\"yes\">J. Am. Chem. Soc.</italic>, 2012, <bold>134</bold>, 5748, which studies the reductive elimination of L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(Ar)(CN) complexes."
+  },
+  {
+   "section": "article",
+   "text": "The progress of the reaction between <bold>32</bold> and <italic toggle=\"yes\">p</italic>-bromobiphenyl was monitored by <sup>31</sup>P NMR spectroscopy, the results of which are shown in Fig. 7. <sentence_start/>Within the first 10 minutes Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> (85.5 ppm) and free P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub> (63.4 ppm) were formed, which is consistent with the observations by Fu and coworkers when a P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>/Pd(0) ration of 2 : 1 is used.<citation rid=\"cit42\" ref-type=\"bibr\" count=\"1\">42</citation> <sentence_start/>The depletion of complex <bold>32</bold> then occurred with concurrent build-up of the Pd-hydride <bold>35</bold> residing at 83.5 ppm. <sentence_start/>No signal from the oxidative addition complex (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)Pd(Ar)(Br) was observed, suggesting that the oxidative addition of Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>) to 4-bromobiphenyl is the rate-determining step in this setup."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 7"
+  },
+  {
+   "section": "article",
+   "text": "<sup>31</sup>P NMR spectra of the reaction between complex <bold>32</bold> and <italic toggle=\"yes\">p</italic>-bromobiphenyl."
+  },
+  {
+   "section": "article",
+   "text": "From these initial experiments, a possible mechanistic scenario for the Pd-catalysed cyanation of aryl bromides with gaseous HCN is depicted in Scheme 8, which accounts for the above observations. <sentence_start/>After formation of the catalytically active palladium(0) species, two reversible oxidative addition events take place forming L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(H)(CN) and L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(Ar)(Br). <sentence_start/>The necessity for the oxidative addition steps to be reversible at least for the latter complex may explain why aryl triflates are not competent electrophiles for this catalytic protocol. <sentence_start/>The two complexes can then undergo transmetallation providing L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(Ar)(CN) and L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(H)(Br). <sentence_start/>Similar transmetallative events have previously been reported for two Pd(<sc>ii</sc>)-aryl species.<citation rid=\"cit43\" ref-type=\"bibr\" pmid=\"28399364\" doi=\"10.1021/jacs.7b01970\" pmcid=\"PMC5485668\" count=\"1\">43</citation> <sentence_start/>Finally, the benzonitrile and the active L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(0) species are reformed through two reductive elimination events involving both L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(Ar)(CN) and L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(H)(Br). <sentence_start/>In the latter case, base is required to initiate the regeneration of L<italic toggle=\"yes\"><sub>n</sub></italic>Pd(0), and the presence of aqueous KOAc should be sufficient for promoting this reduction step at the metal centre. <sentence_start/>Whereas stronger bases would be able to carry out this step as well, they would also lead to the deprotonation of HCN resulting in increased concentrations of cyanide anion in solution. <sentence_start/>Subsequently, this cyanide would trap the active species in the catalytic cycle as multi-cyano palladium complexes and as such lead to catalytic shutdown."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 8"
+  },
+  {
+   "section": "article",
+   "text": "A proposed mechanism for the Pd-catalysed cyanation of aryl bromides with HCN."
+  },
+  {
+   "section": "article",
+   "text": "The mechanism depicted in Scheme 8 also supports the findings made by Buchwald and Hooker.<citation rid=\"cit21\" ref-type=\"bibr\" pmid=\"25565277\" doi=\"10.1021/ja512115s\" pmcid=\"PMC4394387\" count=\"1\">21</citation>,<citation rid=\"cit22\" ref-type=\"bibr\" pmid=\"28502164\" doi=\"10.1021/jacs.7b02761\" pmcid=\"PMC5572217\" count=\"1\">22</citation> <sentence_start/>In their setup, H<sup>11</sup>CN is introduced to a large excess of the oxidative addition complex of the same type as <bold>36</bold>. <sentence_start/>Only a small portion of this Ar-Pd(<sc>ii</sc>) complex would have to undergo reductive elimination to afford a Pd(0) species that could trap the added H<sup>11</sup>CN leading to product formation."
+  },
+  {
+   "section": "article",
+   "text": "In order to investigate the viability of such a transmetallation step between two Pd(<sc>ii</sc>) species of the proposed catalytic cycle in Scheme 8, we investigated the reaction between Pd-hydride <bold>32</bold> and the preformed oxidative addition complex <bold>36</bold> (Scheme 9a). <sentence_start/>The aryl-Pd complex <bold>36</bold> was prepared in a 79% isolated yield <italic toggle=\"yes\">via</italic> the oxidative addition of Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> to bromobenzene according to a literature procedure.<citation rid=\"cit44\" ref-type=\"bibr\" pmid=\"14746489\" doi=\"10.1021/ja037928m\" count=\"1\">44</citation> <sentence_start/>Complexes <bold>32</bold> and <bold>36</bold> were dissolved in THF-d<sub>8</sub>, and using mesitylene as the internal standard, their transformation was followed by <sup>31</sup>P NMR spectroscopy. <sentence_start/>From this experiment, three species were formed as the reaction progressed, being <sup>13</sup>C-benzonitrile (<bold>37</bold>), (P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)(Br) (<bold>35</bold>) and the Pd<sub>3</sub>-complex <bold>33</bold>. <sentence_start/>The transformation was completed in less than 30 min, and applying the internal standard, <bold>37</bold> was formed in a 53% yield while most of the remaining <sup>13</sup>C-labelled cyanide could be accounted for from the formation of <bold>33</bold> (11% yield)."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 9"
+  },
+  {
+   "section": "article",
+   "text": "Transmetallation studies with complex <bold>36</bold>. <sentence_start/><sup>a</sup>0.02 mmol of either <bold>32</bold>, <bold>33</bold> or K<sub>2</sub>[Pd(CN)<sub>4</sub>] with <bold>36</bold> were added to a NMR-tube. <sentence_start/>Mesitylene was used as an internal standard."
+  },
+  {
+   "section": "article",
+   "text": "Given the undoubtedly strong binding mode of cyanide to palladium(<sc>ii</sc>), the possibility of free cyanide in solution is most likely absent, thereby eliminating the possibility for the formation of <bold>35</bold> through a nucleophilic displacement pathway. <sentence_start/>This in turn indicates that <bold>35</bold> forms as a result of a transmetallation step between <bold>36</bold> and one or both of complexes <bold>32</bold> and <bold>33</bold>."
+  },
+  {
+   "section": "article",
+   "text": "As mentioned above, the Pd<sub>3</sub>-complex <bold>33</bold> is presumably not formed under the optimised conditions. <sentence_start/>Nevertheless, we investigated whether <bold>33</bold> could also promote benzonitrile formation alone. <sentence_start/>The trinuclear complex <bold>33</bold> was mixed with <bold>36</bold> in a 1 : 1 relationship in CDCl<sub>3</sub>, and followed by <sup>1</sup>H NMR spectroscopy. <sentence_start/>Surprisingly, complete formation of <sup>13</sup>C-benzonitrile (<bold>37</bold>) and Pd-hydride <bold>35</bold> was achieved after only 2 h (Scheme 9b). <sentence_start/>To evaluate the importance of the [(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>Pd(H)]<sup>+</sup> cation in <bold>33</bold>, the direct reaction between K<sub>2</sub>[Pd(CN)<sub>4</sub>] and <bold>36</bold> was tested (Scheme 9c). <sentence_start/>However, following the reaction by <sup>1</sup>H NMR spectroscopy, no conversion was observed between these two palladium complexes as seen from the absence of signals for benzonitrile and Pd-hydride <bold>35</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Next, we examined whether the different Pd-cyanide species are catalytically competent species and can promote the catalytic conversion of aryl bromides to aryl nitriles with HCN. <sentence_start/>By using <bold>32</bold> as the palladium source we could isolate biphenyl nitrile <bold>11</bold> in quantitative yield (Scheme 10). <sentence_start/>On the other hand, with <bold>33</bold> as the palladium source no conversion to product was observed. <sentence_start/>This is in perfect accordance with the observations shown in Table 2, demonstrating that the presence of aqueous KOAc prevents formation of Pd<sub>3</sub>-complex <bold>33</bold> and that K<sub>2</sub>[Pd(CN)<sub>4</sub>], which is most likely produced from <bold>33</bold> under these conditions, is inactive as a catalyst precursor.‡"
+  },
+  {
+   "section": "article",
+   "text": "‡K<sub>2</sub>[Pd(CN)<sub>4</sub>] was also tested. <sentence_start/>This resulted in no conversion to benzonitrile <bold>11</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 10"
+  },
+  {
+   "section": "article",
+   "text": "Pd-Catalysed cyanation of aryl bromides using <bold>32</bold> instead of P(<italic toggle=\"yes\">t</italic>Bu<sub>3</sub>)-Pd-G3. <sentence_start/><sup>a</sup>Chamber A: 4-bromobiphenyl (1.0 mmol), <bold>33</bold> (2.5 mol%) and KOAc (3.0 mmol) in dioxane (1.0 mL) and H<sub>2</sub>O (2.0 mL). <sentence_start/>Chamber B: KCN (1.5 mmol), ethylene glycol (1.0 mL) and AcOH (9.0 mmol)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, while the substrate scope of the Pd-catalysed cyanation of aryl bromides using HCN proved broad, some heteroaryl bromides provided low or even no conversion to product. <sentence_start/>One of these inactive bromides, 2-acetyl-5-bromothiophenyl bromide, was added to the cyanation reaction of 4-bromophenol, which under our standard condition with HCN and in the absence of the heteroaryl bromide provided the corresponding 4-cyanophenol in high yield as depicted in Scheme 3.<citation rid=\"cit45\" ref-type=\"bibr\" pmid=\"23787750\" doi=\"10.1038/nchem.1669\" count=\"1\">45</citation>§"
+  },
+  {
+   "section": "article",
+   "text": "§Lowering the amount of 2-acetyl-5-bromothiophenyl bromide to 0.5 equivalents or using other heteroaromatic bromides, such as 5-bromopyridine, gave the same outcome."
+  },
+  {
+   "section": "article",
+   "text": "However, under the exact same conditions but with the addition of this inactive heteroaryl bromide, the formation of benzonitrile <bold>9</bold> was completely inhibited (Scheme 11). <sentence_start/>Next, we attempted to isolate the oxidative addition complex of Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> and 2-acetyl-5-bromothiophene in order to test the stoichiometric reaction with Pd-hydride <bold>32</bold>. <sentence_start/>Despite extensive experimentation, <italic toggle=\"yes\">i.e.</italic> different solvents and temperatures, we only observed the formation of Pd<sub>2</sub>(μ-Br)<sub>2</sub>(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> (<bold>38</bold>) and 5,5′-diacetyl-2,2′-bithiophene (<bold>39</bold>) in all cases (Scheme 12)."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 11"
+  },
+  {
+   "section": "article",
+   "text": "Robustness screening on the formation of benzonitrile <bold>9</bold>. <sup>a</sup>Chamber A: 4-bromophenol (1.0 mmol), 2-acetyl-5-bromothiophene (1.0 mmol) P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>-Pd-G3 (2.5 mol%) and KOAc (3.0 mmol) in dioxane (1.0 mL) and H<sub>2</sub>O (2.0 mL). <sentence_start/>Chamber B: KCN (1.5 mmol), ethylene glycol (1.0 mL) and AcOH (9.0 mmol)."
+  },
+  {
+   "section": "article",
+   "text": "Scheme 12"
+  },
+  {
+   "section": "article",
+   "text": "Formation of Pd<sub>2</sub>(μ-Br)<sub>2</sub>(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub> and 5,5′-diacetyl-2,2′-bithiophene from Pd(P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub>)<sub>2</sub>. <sup>a</sup>Reaction performed on a 0.1 mmol scale."
+  },
+  {
+   "section": "article",
+   "text": "The Pd-complex <bold>38</bold> has previously been synthesised by Hartwig and co-workers by a similar protocol using Pd(dba)<sub>2</sub>, P(<italic toggle=\"yes\">t</italic>Bu)<sub>3</sub> and a tenfold excess of 2-bromothiophene.<citation rid=\"cit46\" ref-type=\"bibr\" pmid=\"12662063\" doi=\"10.1021/jo0266339\" count=\"1\">46</citation> <sentence_start/>The formation of <bold>38</bold> is fast at 25 °C when using either THF or pentane. <sentence_start/>Given that the developed conditions for the cyanation of aryl bromides operate at 60 °C, production of <bold>38</bold> is fast leading to apparent shutdown of the catalytic system. <sentence_start/>The formation of complex <bold>38</bold> offers an explanation to why some heteroaromatic bromides fail under the developed cyanation protocol, however further investigations are needed to understand the reasons for this divergence.<citation rid=\"cit47\" ref-type=\"bibr\" doi=\"10.1021/jacs.7b01110\" pmid=\"28300400\" count=\"1\">47</citation>,<citation rid=\"cit48\" ref-type=\"bibr\" pmid=\"28508520\" doi=\"10.1002/anie.201701691\" pmcid=\"PMC5488304\" count=\"1\">48</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "In summary, a new protocol for the direct use of stoichiometric gaseous hydrogen cyanide in the Pd-catalysed cyanation of aryl bromides has been developed. <sentence_start/>Contrary to previous studies, the use of HCN did not lead to catalytic shutdown, but instead provided a robust and reproducible method. <sentence_start/>A broad range of aryl bromides and a few heteroaromatic bromides afforded the desired benzonitrile derivatives and given the simple setup, utilising <italic toggle=\"yes\">ex situ</italic> generation of HCN, labelling with H<sup>13</sup>CN was also straightforward. <sentence_start/>The presence of water as co-solvent and the use of the mild base KOAc proved imperative for catalytic efficiency. <sentence_start/>In particular, the suitability of this weak base indicated that possibly the mechanism in operation deviates from previous catalytic cyanation studies as the concentration of free cyanide would be virtually non-existent. <sentence_start/>This led to the proposal of a mechanism based on a transmetallation between two Pd-complexes produced from the oxidative addition of Pd(0) into hydrogen cyanide and an aryl bromide. <sentence_start/>This proposal was based on mechanistic indications that co-aligns with observations reported by Grushin, Beller and others. <sentence_start/>Further work is now on-going to examine a similar protocol under nickel catalysis, as well as examining other electrophiles than aryl halides. <sentence_start/>The results of this work will be reported in due course."
+  },
+  {
+   "section": "article",
+   "text": "Conflicts of interest"
+  },
+  {
+   "section": "article",
+   "text": "Troels Skrydstrup and Anders T. Lindhardt are co-owners of SyTracks a/s, which commercialises the two-chamber technology."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Supplementary information"
+  },
+  {
+   "section": "article",
+   "text": "Crystal structure data"
+  }
+ ]
+}

@@ -1,0 +1,543 @@
+{
+ "pmid": 31824951,
+ "pmcid": 6880610,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A Shift in Myeloid Cell Phenotype via Down Regulation of Siglec-1 in Island Macrophages of Bone Marrow Is Associated With Decreased Late Erythroblasts Seen in Anemia of Critical Illness"
+  },
+  {
+   "section": "abstract",
+   "text": "Burn injury has been shown to significantly dampen erythropoiesis in both burn patients and in murine models. <sentence_start/>Our previous findings elucidated the erythropoietin independent defects in red cell development stages involving erythroid progenitor production and late stage erythroblast enucleation processes. <sentence_start/>We hypothesized that macrophages (MØ) in erythroblast islands (EBI) could be yet another roadblock impeding erythropoiesis following burn injury. <sentence_start/>Here we highlight that the methodology to study EBI can be achieved with single cell suspensions using a simple technique such as flow cytometry, as obtaining the central erythroblast island macrophages (EBIMØs) of interest is a delicate process. <sentence_start/>We elucidated the requisite of EBIMØ from the erythroblast as well as the MØ perspective. <sentence_start/>In addition to the primary erythropoiesis organ, the bone marrow (BM), spleens were also examined for extra-medullary erythropoiesis. <sentence_start/>Femurs and spleens were harvested from adult mice (B<sub>6</sub>D<sub>2</sub>F<sub>1</sub>) subjected to 15% total body surface area (TBSA) scald burn (B) or sham burn (S). <sentence_start/>Total bone marrow cells (TBM) and splenocytes were probed for total erythrons, early and late erythroblasts and EBIMØ by flow cytometry. <sentence_start/>There was only a marginal increase in the number of EBIMØ after burn, but, between the signatures of EBIMØ, Siglec-1 expression (MFI) was reduced by 40% in B with and a parallel 44% decrease in TBM erythrons in the BM. <sentence_start/>There were more (2.5-fold) EEBs and less LEBs (2.4-fold) per million TBM cells in B; with a corresponding decrease in Siglec-1 and Ly6G expressions in EBIMØ associated with EEB. <sentence_start/>Conversely, extra-medullary erythropoiesis was robust in spleens from B. <sentence_start/>Not only were the numbers of EBIMØs increased in B (<italic toggle=\"yes\">p</italic> &lt; 0.002), both EEBs and LEBs associated with EBIMØ were higher by 30 and 75%, respectively. <sentence_start/>Importantly, an increase in Siglec-1 and Vcam1 expressing F480<sup>+</sup> splenic macrophages was observed after burn injury. <sentence_start/>Therefore, stagnant EEBs in the BM after burn injury could be due to low Siglec1 expressing EBIMØ, which perhaps impede their maturation into LEBs and reticulocytes. <sentence_start/>Repercussion of myeloid cell phenotype specific to BM after burn injury could plausibly account for a defective late stage RBC maturation resulting in anemia of critical illness."
+  },
+  {
+   "section": "abstract",
+   "text": "<bold>Summary Sentence:</bold> Characterization of erythroblast island macrophages (EBIMØ) in the bone marrow and spleen at different stages of erythropoiesis after burn injury."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Anemia, immune-suppression, and monocytosis are immune consequences of a traumatic burn injury (<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1097/00000658-199303000-00012\" pmid=\"8452408\" pmcid=\"PMC1242783\" count=\"1\">1</citation>, <citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1097/00000658-200101000-00015\" pmid=\"11141231\" pmcid=\"PMC1421160\" count=\"1\">2</citation>). <sentence_start/>Furthermore, burn injury bifurcates the common myeloid progenitors toward granulocyte monocyte commitment by increasing MafB (myeloid transcription factor) expression and thereby reducing the production of megakaryocyte erythrocyte progenitors (MEP) (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1097/TA.0b013e31822e2803\" pmid=\"22071930\" pmcid=\"PMC3217199\" count=\"1\">3</citation>-<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1189/jlb.0711338\" pmid=\"21984745\" pmcid=\"PMC3250307\" count=\"1\">5</citation>). <sentence_start/>Monocytes that mature into tissue macrophages (MØ) also serve a unique function of nurturing the erythroblasts during erythropoiesis (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1038/nm.3057\" pmid=\"23502962\" pmcid=\"PMC3983996\" count=\"1\">6</citation>, <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1182/blood-2008-03-077883\" pmid=\"18650462\" pmcid=\"PMC2481536\" count=\"1\">7</citation>). <sentence_start/>Besides the hematopoietic shortcoming of bone marrow MEP commitment, it is not known whether myeloid cells stemming from burn-induced microenvironment also impede red blood cell development. <sentence_start/>As burn injury affects both the erythroid and myeloid arms of hematopoiesis resulting in Epo resistant anemia (<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1097/00000658-199303000-00012\" pmid=\"8452408\" pmcid=\"PMC1242783\" count=\"1\">1</citation>, <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1097/00004630-199109000-00008\" pmid=\"1752878\" count=\"1\">8</citation>, <citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1097/BCR.0000000000000592\" pmid=\"28570310\" pmcid=\"PMC5709235\" count=\"1\">9</citation>), we utilized this burn model to study the bearing of MØ phenotype in burn-mediated anemia of critical illness. <sentence_start/>The concept of erythroblast island macrophages (EBIMØ) has been known for more than 60 years (<citation rid=\"B10\" ref-type=\"bibr\" pmid=\"13555228\" count=\"1\">10</citation>) but not completely understood (<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1182/blood.V92.8.2940\" pmid=\"9763581\" count=\"1\">11</citation>, <citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1182/blood-2007-06-098178\" pmid=\"17993612\" pmcid=\"PMC2214751\" count=\"1\">12</citation>). <sentence_start/>Recent <italic toggle=\"yes\">in vitro</italic> evidence using time lapse video microscopy shows the interaction of macrophages with erythroblasts at various stages of maturation (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.3324/haematol.2013.094466\" pmid=\"24186310\" pmcid=\"PMC3815163\" count=\"1\">13</citation>). <sentence_start/>Therefore, characterizing the phenotype of EBIMØ in burn pathology is essential to understand the efficacy of erythroblast islands contributing to the maturation of erythroblasts and to eventually underscore the intercellular signals."
+  },
+  {
+   "section": "article",
+   "text": "For the characterization of EBIMØ, emerging studies point to multiple markers such as CD163, Ly6G, ERHR3, Vcam1, and Siglec1 associated with F4/80<sup>+</sup> macrophages (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1038/nm.3057\" pmid=\"23502962\" pmcid=\"PMC3983996\" count=\"1\">6</citation>, <citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1016/j.exphem.2014.03.009\" pmid=\"24721610\" count=\"1\">14</citation>-<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2017.01140\" pmid=\"28979259\" pmcid=\"PMC5611421\" count=\"1\">17</citation>). <sentence_start/>Due to the structural arrangement of an EBI in which the central macrophage is surrounded by immature erythroblasts, techniques like immunohistochemistry and immunofluorescence do not provide both qualitative and quantitative information required for studying the changes occurring in these macrophages under different pathological conditions, while use of flow cytometry has provided significant information in the characterization of EBIMØs (<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2017.01140\" pmid=\"28979259\" pmcid=\"PMC5611421\" count=\"1\">17</citation>, <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1097/MOH.0000000000000131\" pmid=\"25693142\" count=\"1\">18</citation>). <sentence_start/>Therefore, in this study we predominantly screened EBIMØs using eight-color flow cytometry to comprehend the interference of macrophage abnormality during erythroblast maturation after burn injury. <sentence_start/>Moreover, under hypoxic conditions of burn injury, the spleen serves as an extra medullary erythropoietic organ in adult mice. <sentence_start/>Therefore, to compare and contrast erythropoiesis between the two organs in response to burn injury we also examined the phenotype of EBIMØ, the distribution of erythroblasts and RBCs in spleen. <sentence_start/>Of the two organs, EBIMØs in the spleen facilitate erythroblast maturation contributing to extra medullary erythropoiesis where as, bone marrow EBIMØ phenotype is certainly compromised resulting in the inhibition of erythroblast maturation."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Mouse Model of Burn Injury"
+  },
+  {
+   "section": "article",
+   "text": "Mice"
+  },
+  {
+   "section": "article",
+   "text": "Six to eight weeks old B6D2F1 male mice weighing ~25 g were purchased from Jackson Laboratories (Barr Harbor, ME). <sentence_start/>Mice were housed in our Comparative Medicine Facility with 12 h light/dark cycle with controlled temperature (20-22°C). <sentence_start/>The mice were allowed to acclimate to our facility for 7 days prior to use. <sentence_start/>The Institutional Animal Care and Use Committee at Loyola University Medical Center approved all experimental protocols."
+  },
+  {
+   "section": "article",
+   "text": "Burn Injury"
+  },
+  {
+   "section": "article",
+   "text": "B6D2F1 male mice were randomly divided into sham and burn groups. <sentence_start/>Mice were anesthetized using ketamine and xylazine (100, 2.5 mg/kg, respectively; intraperitoneal) and their dorsal hair was removed by shaving. <sentence_start/>Mice were subjected to a 15% TBSA full thickness scald burn along the dorsum by immersion in a 100°C water bath for 8 s (<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1097/00005373-196811000-00006\" pmid=\"5722120\" count=\"1\">19</citation>) and were resuscitated immediately with intra-peritoneal injection of normal saline (2 mL). <sentence_start/>A sham group of mice were administered anesthesia, shaved and resuscitated but were not subjected to burn injury. <sentence_start/>Animals were sacrificed either on post burn days 3, 7, 14, or 21 as indicated in the results section. <sentence_start/>All experiments were repeated four to five times."
+  },
+  {
+   "section": "article",
+   "text": "Isolation of Total Bone Marrow Cells and Splenocytes"
+  },
+  {
+   "section": "article",
+   "text": "Total bone marrow cells from the bilateral femurs of each mouse were eluted into McCoy's medium (Invitrogen, Carlsbad, CA, USA) using a 25-gauge needle. <sentence_start/>Spleens were mashed with the back of a 3 ml syringe plunger and filtered through a 70 μm cell strainers to collect the splenocytes."
+  },
+  {
+   "section": "article",
+   "text": "Antibodies Used"
+  },
+  {
+   "section": "article",
+   "text": "F4/80-biotin, clone BM8, cat # 48015 (Thermo Fisher Scientific), Anti-Biotin Microbeads, cat # 130-090-485; MS columns cat # 130-042-201 (Miltenyi Biotech, San Diego, CA), CD71-PE, C2 clone, cat # 553267 (BD Pharmigen, San Diego, CA), Ter119-PerCP Cy5.5 (clone Ter-119; cat # 45-5921-82; eBioscience, San Diego, CA), F4/80-PeCy7 (clone BM8; cat # 25-4801-82; eBioscience, San Diego, CA), ERHR3-Alexa fluor 700A; cat # MCA2393A488; Novusbio, Centennial, CO), CD169-APC (clone REA197; cat # 130-104-954; Miltenyi Biotec, San Diego, CA), CD106/VCAM1 - PacBlue, (clone 429 MVCAM.A; cat # 105722; Biolegend, San Diego, CA), Ly6G-APC Cy7 (clone 1A8; cat # 127624; Biolegend, San Diego, CA), Syto16-FITC (cat # S7578; Fischer Scientific, Waltham, MA), CD16/CD43 Mouse BD FC Block (clone 2.4G2 RUO; cat # 553141; BD Pharmingen, San Diego, CA), OneComp eBeads Compensation Beads (cat # 01-1111-41; Invitrogen/Fischer Scientific, Waltham, MA)."
+  },
+  {
+   "section": "article",
+   "text": "Magnetic Isolation of F4/80<sup>+</sup> Macrophages"
+  },
+  {
+   "section": "article",
+   "text": "Total bone marrow and spleen cells were stained with biotinylated F4/80 antibody. <sentence_start/>After 15 min of incubation at 4°C, the cells were washed and stained with anti-biotin microbeads. <sentence_start/>After 15 min of incubation at 4°C, the cells were washed and passed through the MS magnetic column (Milteneyi). <sentence_start/>F4/80<sup>+</sup> cells were collected from the column using a plunger."
+  },
+  {
+   "section": "article",
+   "text": "Flow Cytometry"
+  },
+  {
+   "section": "article",
+   "text": "Total bone marrow cells and spleen cells were subjected to eight-color analysis (cocktail of eight antigens simultaneously); using a fluorescence activated cell-sorting (FACS) machine (LSR Fortessa 1 analyzer) and results from 150,000 events were archived. <sentence_start/>Data were obtained using Flow Jo software (Tree Star, Ashland, OR) from the viable cells gated based on forward scatter (FSC-A) and side scatter (SSC-A) and analyzed for the expression of various marker proteins using relevant antibodies as enumerated above. <sentence_start/>Positive and negative gates were set with FMO (fluorescent minus one) controls and unstained cells, respectively. <sentence_start/>Flurochrome compensation was performed using OneComp eBeads."
+  },
+  {
+   "section": "article",
+   "text": "Confocal Microscopy"
+  },
+  {
+   "section": "article",
+   "text": "An aliquot of TBM cells were eluted using a 21-gauge needle from untreated sham mice was stained with Siglec1-PE and Ter119-FITC. <sentence_start/>The cells were then cytospun onto microscopic slides and preserved using Vectashield H-1500 mounting medium with DAPI (Vector Laboratories, Burlingame, CA). <sentence_start/>A Zeiss LSM 510 laser-scanning microscope (Carl Zeiss MicroImaging, Jena, Germany) was used to view with C-Apochromat 403 1.20 water immersion, and X40 images were acquired using Zeiss LSM 510, version 4.2, SPI software."
+  },
+  {
+   "section": "article",
+   "text": "Spleen Tissue Sections"
+  },
+  {
+   "section": "article",
+   "text": "Spleens from the sham and post burn day 7 mice were isolated and fixed in 10% formalin for at least 24 h, decalcified (only femurs) and stained using hematoxylin and eosin, according to standard techniques, by the Histology Core Facility of Loyola University Medical Center. <sentence_start/>Light microscopy was performed, and digital images were captured (× 10 and × 40 magnification)."
+  },
+  {
+   "section": "article",
+   "text": "Identification of Erythroblast Island Macrophages (EBIMØs) and Erythroblasts"
+  },
+  {
+   "section": "article",
+   "text": "A combination of markers were used to identify and quantify EBIMØ (F4/80<sup>pos</sup> ER-HR3<sup>pos</sup> Vcam1<sup>pos</sup> Siglec1<sup>pos</sup> and Ly6G<sup>pos/neg</sup>), total erythrons (CD71<sup>pos</sup> Ter119<sup>neg/pos</sup>), early erythroblasts (CD71<sup>pos</sup>Ter119<sup>neg</sup>), late erythroblasts (CD71<sup>pos</sup> Ter119<sup>pos</sup>), Orthochromatic/polychromatic erythroblasts (CD71<sup>pos</sup> Ter119<sup>pos</sup> Syto16<sup>pos</sup>), reticulocytes (CD71<sup>pos</sup> Ter119<sup>pos</sup> Syto16<sup>neg</sup>), and RBCs (CD71<sup>neg</sup> Ter119<sup>pos</sup>) (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/j.surg.2017.06.001\" pmid=\"28716301\" pmcid=\"PMC5675564\" count=\"1\">20</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Gating Strategy for Erythroblast Island Macrophage (EBIMØ)"
+  },
+  {
+   "section": "article",
+   "text": "To include all the macrophages that are present either in isolation or in association with erythroblasts, TBM cells and splenocytes were first gated on FCS-A and FSC-H (singlets and doublets) followed by F4/80 on x-axis and SSC-A on y-axis. <sentence_start/>Next, using histograms, we sequentially determined all the expected markers in the order of prevalence, ERHR3<sup>pos</sup> &gt;Vcam1<sup>pos</sup> &gt;Siglec1<sup>pos</sup> &gt; Ly6G<sup>pos</sup>. <sentence_start/>Accordingly, F4/80<sup>pos</sup> cells were then gated to include ERHR3<sup>pos</sup> on x-axis and F4/80<sup>pos</sup> on y-axis. <sentence_start/>F4/80<sup>pos</sup> ERHR3<sup>pos</sup> cells were then gated on Vcam1<sup>pos</sup> on y-axis and Siglec1<sup>pos</sup> on x-axis. <sentence_start/>The dual positive cells predominantly constitute all EBIMØ (F4/80<sup>pos</sup> ERHR3<sup>pos</sup> Vcam1<sup>pos</sup> Siglec1<sup>pos</sup> and Ly6G<sup>pos/neg</sup>). <sentence_start/>We have made similar gating on F4/80<sup>neg</sup> cells to confirm this gating includes most of the EBIMØs. <sentence_start/>We found there are 5,000 times more EBIMØ in F4/80<sup>pos</sup> subset (see Supplemental Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Gating Strategy for Erythrocytes and Erythroblast Subsets"
+  },
+  {
+   "section": "article",
+   "text": "Singlets/doublets were gated on CD71 and Ter119 to identify total erythrons (CD71<sup>pos</sup> Ter119<sup>neg/pos</sup>), which were then represented as x10<sup>3</sup> cells per million TBM cells. <sentence_start/>We then re-gated the total erythrons into RBCs (CD71<sup>neg</sup> Ter119<sup>pos</sup>), EEB (CD71<sup>pos</sup> Ter119<sup>neg</sup>) and LEB (CD71<sup>pos</sup> Ter119<sup>pos</sup>). <sentence_start/>There are two subsets within the LEBs; nucleated cells belong to polychromatic erythroblasts (PolyE) and orthochromatic erythroblasts (OrthoE) whereas those that lack a nucleus are reticulocytes that mature into RBCs in circulation. <sentence_start/>Therefore, we utilized the cell permeable nuclear dye Syto16 to delineate the two subsets (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/j.surg.2017.06.001\" pmid=\"28716301\" pmcid=\"PMC5675564\" count=\"1\">20</citation>). <sentence_start/>Supplemental Figure 2 compares identification of discrete erythroblasts using the above-mentioned method including Syto16 compared to the Koulnis et al. using FSC vs. CD71 (<citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.3791/2809\" pmcid=\"PMC3211121\" pmid=\"21847081\" count=\"1\">21</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Blood Collection, Plasma Separation, and Hematrue for Blood Parameters"
+  },
+  {
+   "section": "article",
+   "text": "Peripheral blood. <sentence_start/>Heparinized blood samples from study groups were collected through cardiac puncture and examined on a veterinary hematology analyzer (HemaTrue, Heska, Love- land, CO), and RBC counts and hemoglobin levels were recorded. <sentence_start/>Plasma was separated from the blood after centrifugation at 10,000 rpm for 10 min at 4°C."
+  },
+  {
+   "section": "article",
+   "text": "Enzyme-Linked Immunosorbent Assay (ELISA)"
+  },
+  {
+   "section": "article",
+   "text": "G-CSF levels were analyzed as a 10x fold dilution of study plasma in Diluent A from this commercially available kit according to the manufactures' instructions (cat# EMCSF3, Thermo Scientific, Waltham, MA, USA). <sentence_start/>All measurements were preformed in duplicates."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Results from all experiments are expressed as mean ± sem. <sentence_start/>Number of animals used per experiment were 6-8 as given in respective figure legends. <sentence_start/>Plasma G-CSF results were determined using 4 mice per group. <sentence_start/>Analysis of variance with Tukey's <italic toggle=\"yes\">post-hoc</italic> test using KaleidaGraph statistical program, version 4.1.0 (Synergy Software, Reading, PA, USA) were carried out for comparison between groups. <sentence_start/>Statistical significance was set at <italic toggle=\"yes\">P</italic> &lt; 0.05. <sentence_start/>All experiments were repeated 2-3 times."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Medullary and Extramedullary Erythropoiesis During the Course of Burn Injury"
+  },
+  {
+   "section": "article",
+   "text": "We monitored the medullar and extra medullar erythropoietic responses from days 3 through 21 post burn. <sentence_start/>While extra medullar erythropoiesis was active through the course of burn injury starting from day 3, medullar erythropoiesis was significantly attenuated from day 7 as measured by the percentage of CD71<sup>+</sup>Ter119<sup>±</sup> cells in spleen and TBM. <sentence_start/>The ratio of reticulocytes to nucleated BM erythroblasts (maturation index) was significantly decreased from day 7 through day 21 as an indication of late maturation defects following burn injury. <sentence_start/>Further, during the same study period, F4/80<sup>+</sup> MØ in the BM showed deficiency in MØ associated adhesion molecule expression (Figures 1A-D). <sentence_start/>Therefore, we chose day 7 post burn to study the phenotype of EBIMØs and the stage specific association of erythroblasts in a comprehensive manner during medullar arrest and extra medullar excess in BM and spleen, respectively, to observe the status of EBI integrity."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Burn injury perturbs myelopoiesis in bone marrow and spleen. <sentence_start/><bold>(A,B)</bold> Line graphs represent CD71<sup>+</sup>Ter119<sup>±</sup> cells as percentage of total spleen <bold>(A)</bold> and total bone marrow cells <bold>(B)</bold> in sham (blue) and burn injury (red) after 3, 7, 14, and 21 days. <sentence_start/><bold>(C)</bold> Maturation index (MI) calculated as the ratio of reticulocytes to nucleated BM erythroblasts (represented as y-axis of the line graph) at post burn days 7, 14, and 21 (x-axis), showing a significant decrease in MI throughout the course of burn injury. <sentence_start/><bold>(D)</bold> Mean fluorescent intensities of adhesion molecules ERHR3, Siglec1, and Vcam1 in F4/80<sup>+</sup> MØs after 7, 14, and 21 days of burn injury are depicted as bar graphs (sham = blue/gray, burn = red). <sentence_start/>Reduced expression of the three adhesion molecules is seen at post burn day 7. <sentence_start/>Error bars indicate standard error of mean of &gt;3 independent experiments. <sentence_start/><sup>*</sup><italic toggle=\"yes\">P</italic> &lt; 0.05, **<italic toggle=\"yes\">P</italic> &lt; 0.001; ***<italic toggle=\"yes\">P</italic> &lt; 0.0001 vs. burn by one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "Bone Marrow"
+  },
+  {
+   "section": "article",
+   "text": "Bone Marrow Erythroblast Island Macrophage Phenotype From a Macrophage Perspective"
+  },
+  {
+   "section": "article",
+   "text": "The percentage of EBIMØ was determined for each sample as explained in the methods section and back-calculated to represent absolute numbers in a million TBM cells. <sentence_start/>The total number of EBIMØ per million TBM cells was marginally higher in burn group compared to sham (S = 225 ± 4.0 × 10<sup>3</sup>, B = 264 ± 5.4 × 10<sup>3</sup>; <italic toggle=\"yes\">p</italic> &lt; 0.002; Figure 2A). <sentence_start/>As this EBIMØ gating includes both Ly6G<sup>pos</sup> and Ly6G<sup>neg</sup> cells, we further gated these MØ on Ly6G and Siglec1 expressions. <sentence_start/>While there was an equal distribution of Ly6G<sup>pos</sup> and Ly6G<sup>neg</sup> MØs in this fraction (Figure 2B), we noticed a significant reduction in Siglec1 expression in EBIMØ from burn compared to sham (S = 2,977 ± 58, B = 1,913 ± 71; <italic toggle=\"yes\">p</italic> &lt; 0.0001; Table 1). <sentence_start/>Moreover, we noticed a 40% reduction in Siglec1 expression irrespective of Ly6G<sup>pos</sup> or Ly6G<sup>neg</sup> EBIMØ from burn mice (Histograms in Figure 2C). <sentence_start/>We then documented the distribution of erythroblasts associated with these EBIMØ. <sentence_start/>As shown by contour plots in Figure 2D, there was a striking contrast in the type of erythroblasts nurtured by bone marrow EBIMØs from sham vs. burn mice. <sentence_start/>More EEBs from burn mice and more LEBs from sham mice were associated with EBIMØ. <sentence_start/>The mean fluorescent intensities of Ly6G, ERHR3, and VCAM1 expressions were similar between sham and burn EBIMØ isolated from the femurs (Table 1). <sentence_start/>These results still do not answer the importance of Siglec1 or Ly6G on EBIMØ."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Characterization of erythroblast island forming macrophages (EBIMØs) in sham and burn mice. <sentence_start/><bold>(A)</bold> EBIMØs in total bone marrow (TBM) cells isolated from sham and post burn day 7 (PBD7) mice were characterized by the presence of cell surface markers-F4/80, ERHR3, Siglec1, Vcam1, and Ly6G. F4/80<sup>+</sup>ERHR3<sup>+</sup>Siglec1<sup>+</sup>Vcam1<sup>+</sup>Ly6G<sup>±</sup> macrophages constituted the EBI forming population as analyzed by flow cytometry. <sentence_start/><bold>(B)</bold> Overlay of EBIMØs contour plots (Sham = blue, PBD7 = red) gated on Siglec1 and Ly6G shows equal distribution between Ly6G<sup>pos</sup> and Ly6G<sup>neg</sup> cells. <sentence_start/><bold>(C)</bold> Histogram of Siglec1 expression as measured by MFI (X-axis) in EBIMØs of burn (red) compared to Sham (blue) from both the Ly6G <sup>pos</sup> and Ly6G <sup>neg</sup> subsets <bold>(D)</bold> The EBIMØs were analyzed for the presence of erythroblast (EB) markers. <sentence_start/>CD71<sup>+</sup>Ter119<sup>−</sup> cells represent early EBs (EEBs) and CD71<sup>±</sup>Ter119<sup>+</sup> cells represent late EBs (LEBs). <sentence_start/><bold>(E)</bold> Data from 6 animals were analyzed using t-SNE plots to find the association of Ly6G with EBs. <sentence_start/>F4/80<sup>+</sup> MØs were gated on Ly6G marker (color scale blue to red indicates Ly6G low to high subsets) was checked for CD71 (X-axis) and Ter119 (Y-axis) expressions in sham (top panel) and PBD7 (bottom panel) mice. <sentence_start/>Ly6G low subset was more associated with EB markers when compared to Ly6G high subset in both the treatment groups. <sentence_start/>Among the F4/80<sup>+</sup>Ly6G<sup>lo</sup> MØs in sham, there were 3 times more LEB and 2.5 times less EEB association compared to the burn group. <sentence_start/>Data represent mean values containing 6 mice/group."
+  },
+  {
+   "section": "article",
+   "text": "Is Ly6G Expression Critical for Bone Marrow EBIMØ Association With Early and Late Erythroblasts?"
+  },
+  {
+   "section": "article",
+   "text": "To inquire the importance of Ly6G and its association with EEB and LEB in F4/80<sup>pos</sup> MØ, we utilized a machine-learning algorithm called T-distributed stochastic neighbor embedding (t-SNE) plots as shown in Figure 2E. Overall, comparing Ly6G<sup>lo</sup> vs. Ly6G<sup>hi</sup> MØ, Ly6G<sup>lo</sup> expressing MØ were predominantly associated with EEBs and LEBs irrespective of sham or burn conditions. <sentence_start/>Nonetheless, among the F4/80<sup>pos</sup>Ly6G<sup>lo</sup> MØs, we noticed 3 times more LEB association in sham and 2.5 times more EEB association in burn groups."
+  },
+  {
+   "section": "article",
+   "text": "Bone Marrow Total Erythrons and Erythroblast Subsets Are Altered After Burn"
+  },
+  {
+   "section": "article",
+   "text": "For overall comparison between two groups and to visualize flow data, we utilized t-sne plots denoting CD71<sup>+</sup> TBM cells. <sentence_start/>Bone marrow CD71<sup>lo−hi</sup> cells are a representation of erythroid staining obtained from six animals per group shown in t-sne plots (Figures 3A,B). <sentence_start/>We noticed a 2.8-fold decrease in the percentage of CD71<sup>hi</sup> bone marrow cells from burn group."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Decline in late erythroblasts and reticulocytes with an increase in early erythroblasts after burn injury. <sentence_start/><bold>(A)</bold> t-SNE plots showing a decrease in CD71 expression in total bone marrow (TBM) erythroid cells in post burn day 7 (PBD7) vs. sham mice. <sentence_start/><bold>(B)</bold> During flow cytometry data analysis using FlowJo software, both singlets and doublets from total bone marrow (TBM) cells were selected to quantitate total erythrons. <sentence_start/>This cell population was then gated on early erythroid marker CD71 on X-axis and Ter119 (mature erythroid cell marker) on Y-axis. <sentence_start/>Dual negative cells were gated as TBM non-erythroid (NE) cells and the rest of the cells as total erythrons, which were significantly decreased in post burn day 7 (PBD7) mice. <sentence_start/>Total erythrons were sub-gated as Ter119<sup>−</sup>CD71<sup>+</sup> early erythroblasts (EEBs) and Ter119<sup>+</sup>CD71<sup>+</sup> late erythroblasts (LEBs). <sentence_start/>A strikingly high percentage of EEBs was observed in the PBD7 samples accompanied by a decrease in LEBs. <sentence_start/>LEBs were further classified as the nucleated ortho (O) and polychromatic erythroblasts (PolyEs) and the enucleated reticulocytes (Reti) based on the Syto16 nuclear staining. <sentence_start/>A stagnation of nucleated erythroblasts was seen in the PBD7 TBM. <sentence_start/><bold>(C)</bold> Absolute numbers of erythron subsets per million of TBM cells in sham vs. burn injury are given. <sentence_start/><bold>(D)</bold> Isolated femurs from sham and burn mice and H&amp;E staining of paraffin embedded sections are shown. <sentence_start/>Pale color and myeloid enriched bone marrow is evident in the burn-injured mice compared to sham respectively. <sentence_start/>Data are representative of 6 independent experiments. <sentence_start/>Data represent mean ± SEM, containing 6 mice/group and repeated 4 times. <sentence_start/>**<italic toggle=\"yes\">P</italic> &lt; 0.002; ***<italic toggle=\"yes\">P</italic> &lt; 0.0001 sham vs. burn; comparison by one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "As expected, total erythrons present in a million TBM cells were decreased by 44% in burn group compared to sham (S = 539 ± 3.5 × 10<sup>3</sup>, B = 375 ± 14 × 10<sup>3</sup>, <italic toggle=\"yes\">p</italic> &lt; 0.0001). <sentence_start/>Following burn injury; total RBCs, reticulocytes, and nucleated orthochromatic and polychromatic erythroblasts were significantly decreased. <sentence_start/>Amongst the erythroblast developmental stages, EEB and LEB subsets were associated with EBIMØ at a ratio of 2:1 and 5:1, respectively in both groups (S vs. B is not significant). <sentence_start/>However, there were more EEBs per million TBM cells in burn group (S = 61.2 ± 2.5 × 10<sup>3</sup>, B = 153 ± 10.7 × 10<sup>3</sup>; <italic toggle=\"yes\">p</italic> &lt; 0.0001). <sentence_start/>On the other hand, we noticed a 2.4-fold decrease in the number of LEBs in burn group (S = 290 ± 7 × 10<sup>3</sup>, B = 121 ± 16 × 10<sup>3</sup>; <italic toggle=\"yes\">p</italic> &lt; 0.0001). <sentence_start/>Figure 3C enumerates the distribution of erythroblast subsets calculated as × 10<sup>3</sup>/10<sup>6</sup> TBM cells. <sentence_start/>Isolated femurs and H&amp;E staining of paraffin embedded sections reveal overall bleaching of femurs on day 7 after burn injury (Figure 3D). <sentence_start/>Bone marrow paraffin sections were subjected to IHC using Ter119-FITC a pan erythroid marker to further confirm significant reductions in RBC after burn (Supplemental Figure 3)."
+  },
+  {
+   "section": "article",
+   "text": "Stage Specific Preference for Association With EBIMØ by Bone Marrow Erythroblasts: Validated From an Erythroblast Perspective"
+  },
+  {
+   "section": "article",
+   "text": "Based on the results that EEBs are more ubiquitous in burn than sham mice (Figures 3B,C), then the EEBs from burn mice should show similar association with EBIMØ phenotype expressing less Siglec1 compared to sham EBIMØ (Figure 2C). <sentence_start/>We then determined whether or not erythroblast dependency on EBIMØ varies with the developmental stages of erythroblast subsets. <sentence_start/>To answer these, we probed from the erythroblast perspective with the notion that if the erythroblasts were associated with MØ, then remnants of MØ marker F4/80 should still be expressed by the erythroblast of interest. <sentence_start/>We confirmed this notion by imaging stream-using AMNIS (Supplemental Figure 4). <sentence_start/>Therefore, EEB and LEB (OrthoE/PolyE), were re-gated for F4/80 expression, which indicates those erythroblast subtypes that were associated with bone marrow MØ (Figure 4A)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Erythroblast associated macrophages are also altered after burn injury. <sentence_start/><bold>(A)</bold> Histograms show the expression of macrophage (MØ) marker F4/80 on early and late erythroblasts (EBs) indicating the association pattern with EBIMØs. <sentence_start/>Late EBs (LEBs) expressed higher F/480 expression compared to early erythroblasts (EEBs). <sentence_start/><bold>(B)</bold> Representative contour plots of EEB and LEB associated macrophages for Siglec1 and Ly6G markers in sham and PBD7 groups are shown (sham = blue, burn = red). <sentence_start/>Adjacent panel shows the mean fluorescent intensity of ERHR3, Siglec1, and Ly6G in the EBIMØ associated with LEB and EEB. <sentence_start/>Significantly lower Siglec1 and Ly6G MFI was observed in EEBs of burn mice compared to sham. <sentence_start/>In burn LEBs, the decrease in Siglec1 MFI is not as comparable as seen in EEBs, probably indicating weaker association with MØs as the EBs mature from early to late stage. <sentence_start/>Confocal image shows EBI with a central MØ (magnetic isolation of F4/80<sup>+</sup> MØ) surrounded by erythroblasts (green). <sentence_start/>Image depicting a central MØ surrounded by early erythroblasts in the proximity and more mature reticulocytes in the vicinity as identified by Maygrunwald Giemsa staining of eluted BM. <sentence_start/><bold>(C)</bold> LEBs were divided into nucleated EBs (O/PolyE) and enucleated reticulocytes (Reti) and RBCs to analyze the associated MØs as represented in the histograms. <sentence_start/>Only the nucleated EBs showed F4/80 expression whereas &lt;10% enucleated EBs expressed F4/80 marker. <sentence_start/>Data represent 6 independent biological replicates and error bars indicate standard error of the mean. <sentence_start/><bold>(D)</bold> Histograms represent Siglec-1 intensity of magnetically sorted F4/80<sup>pos</sup> MØ from BM of Sham (blue) and Burn (red) mice. <sentence_start/>Association of early and late erythroblasts with the sorted macrophages were determined by plotting on CD71 (X-axis) and Ter119 (Y-axis) to show that stagnation of EEBs in burn mice is associated with 1.4-fold down regulation of Siglec1.*<italic toggle=\"yes\">P</italic> &lt; 0.05, **<italic toggle=\"yes\">P</italic> &lt; 0.02; ***<italic toggle=\"yes\">P</italic> &lt; 0.0001 sham vs. burn by one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "Macrophages associated with either EEB or LEB from sham and burn mice were analyzed for EBIMØ phenotype based on Siglec1 and Ly6G expressions (Figure 4B). <sentence_start/>We noticed significantly lower Siglec1 and Ly6G in EEB associated MØ from burn mice (Siglec-1: S = 2,497 ± 73, B = 1,681 ± 102; <italic toggle=\"yes\">p</italic> &lt; 0.0001. <sentence_start/>ERHR3: S = 521± 20, B = 545 ± 23; ns; Ly6G: S = 407 ± 14, B = 323 ± 14; <italic toggle=\"yes\">p</italic> &lt; 0.02). <sentence_start/>In LEB associated MØ, Siglec-1 and ERHR3 expressions were decreased, while Ly6G expression was increased (Siglec-1: S = 1154 ± 66, B = 1061 ± 31; <italic toggle=\"yes\">p</italic> &lt; 0.05. <sentence_start/>ERHR3: S = 445 ± 80, B = 259 ± 42; <italic toggle=\"yes\">p</italic> &lt; 0.05; Ly6G: S = 225 ± 18, B = 386 ± 46; <italic toggle=\"yes\">p</italic> &lt; 0.05). <sentence_start/>The other MØ associated marker VCAM1 was not altered with burn injury."
+  },
+  {
+   "section": "article",
+   "text": "As shown in the histogram (Figure 4C), only EEB and Ortho/PolyE (nucleated LEB subset) were predominantly associated with F4/80<sup>pos</sup> macrophages whereas, the enucleated reticulocytes and mature RBCs were not associated with F4/80<sup>pos</sup> macrophages. <sentence_start/>This observation was consistent in both groups showing no variations with burn injury."
+  },
+  {
+   "section": "article",
+   "text": "In magnetically sorted F4/80<sup>pos</sup> macrophages (Figure 4D), we saw similar associations between low Siglec1 expression and more EEBs in Burn mice compared to Shams (Burn: MFI = 1,473 ± 10 and EEB = 13,362 ± 842/50,000 F4/80<sup>pos</sup> MØ; Sham: MFI = 2,234 ± 59 and EEB = 5,734 ± 545/50,000 F4/80<sup>pos</sup> MØ; <italic toggle=\"yes\">p</italic> &lt; 0.001). <sentence_start/>On the contrary, association of LEBs was significantly higher in F4/80<sup>pos</sup> MØ isolated from the BM of Sham compared to Burn mice (10,900 ± 964/50,000 vs. 4,408 ± 210/50,000 F4/80<sup>pos</sup> MØ; <italic toggle=\"yes\">p</italic> &lt; 0.001)."
+  },
+  {
+   "section": "article",
+   "text": "Spleen"
+  },
+  {
+   "section": "article",
+   "text": "Splenic Erythroblast Island Macrophage Phenotype After Burn Injury From a Macrophage Perspective"
+  },
+  {
+   "section": "article",
+   "text": "In the spleen, the number of EBIMØs per million splenocytes were significantly higher in burn group compared to sham as shown in Figure 5A (S = 100 ± 2 × 10<sup>3</sup>, B = 168 ± 12 × 10<sup>3</sup>; <italic toggle=\"yes\">p</italic> &lt; 0.002). <sentence_start/>As this gating includes both Ly6G<sup>pos</sup> and Ly6G<sup>neg</sup> EBI MØ, we further gated these MØ on Ly6G and Siglec1. <sentence_start/>Overall, there were more Ly6G<sup>neg</sup> than Ly6G<sup>pos</sup> EBIMØ in the spleen compared to BM (Figure 5B). <sentence_start/>Nonetheless, we found a significant increase in ERHR3 and Ly6G expression in EBIMØ from burn spleen (MFI of ERHR3: S = 465 ± 28, B = 572 ± 23; <italic toggle=\"yes\">p</italic> &lt; 0.02; Ly6G: S = 357 ± 48, B = 624 ± 67; <italic toggle=\"yes\">p</italic> &lt; 0.01) compared to sham. <sentence_start/>More importantly, EBIMØ from spleen exhibited an increase in Siglec-1 and Vcam1 expressing F480<sup>+</sup> macrophages after burn injury (Table 1). <sentence_start/>Interestingly, examining the erythroblasts that are associated with EBIMØ in spleen following burn injury revealed a 75% increase in LEBs compared to sham (Figure 5C)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Erythroblast island (EBI) profile in spleen is a mirror image of bone marrow seen after burn injury. <sentence_start/><bold>(A)</bold> Erythroblast island (EBI) profile was characterized in spleen by plotting the total spleen (TSP) cells on F4/80, ERHR3, Siglec1, and Vcam1 markers in both sham and PBD7 treatment groups. <sentence_start/>A marked increase in absolute number of EBIMØs (ERHR3<sup>+</sup>Siglec1<sup>+</sup>Vcam1<sup>+</sup>F4/80<sup>+</sup> Ly6G<sup>±</sup>) was observed in burns compared to sham. <sentence_start/><bold>(B)</bold> An exemplary superimposed contour plot image of splenic EBIMØ from sham (blue) and burn (red) gated on Ly6G (Y-axis) and Siglec1 (X-axis). <sentence_start/><bold>(C)</bold> The EBIMØs were examined for erythroblast (EB) markers CD71 and Ter119. <sentence_start/>A 75% increase in late EBs (LEBs) was observed in the spleen following burn injury. <sentence_start/><bold>(D)</bold> Contour plots demonstrate the analysis of F4/80<sup>+</sup> ERHR3<sup>+</sup> Siglec1<sup>+</sup> Vcam1<sup>+</sup> EBIMØs based on Ly6G expression and their correlation with erythroblasts (EBs). <sentence_start/>LEBs were mostly associated with Ly6G low subset in both sham and burn groups, however, more LEBs were in association with Ly6G<sup>low</sup> EBIMØs in the burn group. <sentence_start/>Data represent mean ± SEM, containing 6 mice/group and repeated 4 times."
+  },
+  {
+   "section": "article",
+   "text": "Is Ly6G Expression Critical for Splenic Erythroblast Island Macrophage EBIMØ Association With Early and Late Erythroblasts?"
+  },
+  {
+   "section": "article",
+   "text": "Based on the above observation, which was in contrast to bone marrow results, we examined the requirement of Ly6G expression in EBIMØ in spleen especially with respect to EEBs and LEBs. <sentence_start/>Given that the expression of Ly6G is higher in EBIMØ from burn mice compared to sham, the proportion of Ly6G<sup>pos</sup> EBIMØ were only marginally greater in burn spleens (Figure 5B). <sentence_start/>But, there was no change in LEBs associated with these MØ between the two conditions. <sentence_start/>In fact, we saw a 1.5-fold decrease in EEBs associated with Ly6G<sup>pos</sup> EBIMØ from burn vs. sham spleens. <sentence_start/>As seen with bone marrow, only Ly6G<sup>neg</sup> EBIMØ were associated with LEBs both in sham and burn spleens (Figure 5D)."
+  },
+  {
+   "section": "article",
+   "text": "Total Erythrons and Erythroblast Subsets in the Spleen Are Increased After Burn"
+  },
+  {
+   "section": "article",
+   "text": "Overall, total erythrons in spleen are increased by 75% following burn. <sentence_start/>While there was no change in mature RBCs between sham and burn, all other erythroblast developmental stages were significantly increased indicating robust extra medullary erythropoiesis after burn (Figures 6A-D)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Erythropoiesis is enhanced in spleen after burn injury synchronizing with EBIMØ association with late erythroblasts. <sentence_start/><bold>(A)</bold> Total spleen cells (TSP) was gated for combined singlets and doublets based on FSC-A vs. FSC-H. <bold>(B)</bold> TSP were then gated on early erythroid marker CD71 (X-axis) and mature erythroid cell marker Ter119 on (Y-axis). <sentence_start/>Dual negative cells were gated as TSP non-erythroid (NE) cells and the rest of the cells as total erythrons, which were significantly increased in post burn day 7 (PBD7) mice. <sentence_start/>Total erythrons were sub-gated as Ter119<sup>−</sup>CD71<sup>+</sup> early erythroblasts (EEBs) and Ter119<sup>+</sup>CD71<sup>+</sup> late erythroblasts (LEBs). <sentence_start/><bold>(C)</bold> LEBs were further classified as the nucleated ortho (O) and polychromatic erythroblasts (PolyEs) and the enucleated reticulocytes (Reti) based on the Syto16 nuclear staining. <sentence_start/><bold>(D)</bold> The numbers of erythron subsets per million of TSPs in sham vs. burn injury. <sentence_start/>Total erythron as well as all erythron subsets-EEBs, LEBs, nucleated EBs (ortho and polychromatic EBs) and enucleated EBs (reticulocytes and RBCs) were significantly increased in PBD7 vs. sham. <sentence_start/>Data represent mean ± SEM, containing 6 mice/group and repeated 4 times. <sentence_start/>*<italic toggle=\"yes\">P</italic> &lt; 0.002, **<italic toggle=\"yes\">P</italic> &lt; 0.006; ***<italic toggle=\"yes\">P</italic> &lt; 0.0003 vs. sham by one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "Moreover, EBIMØ dependency of splenic erythroblasts is stage specific, very similar to bone marrow erythroblasts. <sentence_start/>EBIMØs are required by only EEBs and LEBs and not by mature RBCs (Figure 7A). <sentence_start/>Erythroid cell (CD71) distribution pattern in spleen is provided as t-SNE plots in Figure 7B. Splenomegaly is evident in mice subjected to burn injury supporting extra medullar erythropoiesis, with no change in total body weight between the cohorts on post burn day 7 (Figure 7C). <sentence_start/>H&amp;E staining of paraffin embedded sections of spleens on day 7 after burn injury showed evidence of extra-medullary hematopoiesis compared to Shams as noted by the diffused expansion of the red pulp characterized by a morphological predominance of nucleated erythroid precursors (Figure 7D). <sentence_start/>In magnetically sorted F4/80<sup>pos</sup> macrophages from the spleens (Figure 7E), we saw no change in Siglec1 expression by MØ in Burn mice compared to Shams. <sentence_start/>Contrary to BM, association of LEBs was significantly higher in F4/80<sup>pos</sup> MØ isolated from the spleen of Burn compared to Sham mice (8,397 ± 685/50,000 vs. 4,542 ± 366/50,000 F4/80<sup>pos</sup> MØ; <italic toggle=\"yes\">p</italic> &lt; 0.001), while that of EEBs were similar in both groups."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Phenotypic changes accompany hematopoietic alterations in spleen after burn injury. <sentence_start/><bold>(A)</bold> Splenic erythroblasts (EBs) were analyzed for MØ marker F4/80 to see the association with erythroblast island macrophages (EBIMØs) in a stage specific manner, as represented in the flow cytometry histograms. <sentence_start/>EBIMØs are required by only early erythroblasts (EEBs) and late EBs (LEBs) and not by mature RBCs. <sentence_start/><bold>(B)</bold> t-SNE plots showing the distribution of CD71<sup>+</sup> cells in sham and burn mice. <sentence_start/>Marked increase in CD71<sup>+</sup> cells were observed in the spleen after burn injury (represented by yellow cell population). <sentence_start/><bold>(C)</bold> Table showing the change in body weight and spleen weights in sham vs. post burn day 7 mice. <sentence_start/>Weight of spleens increased significantly in the burn condition, showing splenomegaly to support extramedullary hematopoiesis. <sentence_start/><bold>(D)</bold> H&amp;E staining of paraffin embedded sections of the isolated spleens. <sentence_start/>Black arrows point to the white pulp and red arrows to the red pulp. <sentence_start/>Splenomegaly and increase in the red marrow is observed on day 7 after burn injury compared to sham spleens. <sentence_start/><bold>(E)</bold> Magnetically sorted splenic F4/80<sup>+</sup> MØ from Burn mice are represented in histogram with Siglec1 expression on the X-axis. <sentence_start/>F4/80<sup>+</sup> MØ were then plotted on CD71 (x-axis) and Ter119 (y-axis). <sentence_start/>Sorted PBD7 splenic macrophages have similar siglec1 expression and associated EEBs, but higher LEBs compared to Sham. <sentence_start/>Data and pictures are representative of mean ± SEM, containing 6 mice/group. <sentence_start/>**<italic toggle=\"yes\">P</italic> &lt; 0.01, ***<italic toggle=\"yes\">P</italic> &lt; 0.0001 vs. sham by one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "Peripheral Blood Profile and Plasma G-CSF Levels"
+  },
+  {
+   "section": "article",
+   "text": "Plasma G-CSF was below detectable limits in the Sham group; reached highest levels on post burn day 3 (PBD 3) (833 ± 214 pg/ml) and dropped significantly by PBD 7 (217 ± 39 pg/ml). <sentence_start/>Granulocyte numbers followed the same pattern as G-CSF with PBD 3 exhibiting higher percentage (39 ± 2.29%; <italic toggle=\"yes\">p</italic> &lt; 0.001) compared to sham (28.28 ± 4.86%) and PBD 7 values (29.7 ± 0.75%). <sentence_start/>On the other hand, RBCs, Hb, and HCT were not altered on PBD 3, but were significantly decreased on PBD 7 (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "As depicted in the schematic (Figure 8), we state that myeloid cells stemming from a burn-induced microenvironment will impede red blood cell development, conceivably by the altered phenotype of EBI forming macrophages. <sentence_start/>Moreover, EEBs are tightly associated with EBIMØ than LEBs and that Siglec1 and Ly6G are predominantly required by these EBIMØ for effective differentiation of EEBs into LEBs."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Schematic Abstract. <sentence_start/>Macrophages stemming from a burn-induced microenvironment exhibit altered phenotype of EBI macrophages. <sentence_start/>EEBs are tightly associated with EBIMØ than LEBs. <sentence_start/>Siglec1 and Ly6G are predominantly required by these EBIMØ for effective differentiation of EEBs into LEBs. <sentence_start/>It is conceivable that down-regulated Siglec1 are associated with the decrease in LEBs in burn conditions partly contributing to anemia of critical illness."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Here, we have elucidated that burn injury perturbs bone marrow EBIMØ phenotype. <sentence_start/>Further, Siglec1 down-regulation emerges as a predominant deficit in EBIMØ after burn from both the erythroblast as well as the MØ perspective. <sentence_start/>In contrast to bone marrow EBIMØ, Ly6G, and ERHR3 are stronger in splenic EBIMØ while Siglec1 expression is not reduced in response to burn injury, sparing extra medullary erythropoiesis presenting the possibility of the interference of myeloid abnormality disrupting early to late erythroblast maturation."
+  },
+  {
+   "section": "article",
+   "text": "The higher percentage of EEBs (2.5-fold) associated with low Siglec1 expressing EBIMØ after burn injury could probably mean an impaired differentiation to LEBs because, LEBs are also found to be reduced in the bone marrow of mice subjected to burns with a parallel increase in EEBs (2.4-fold) resulting in overall 45% reduction in total erythrons in line with our earlier report (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/j.surg.2017.06.001\" pmid=\"28716301\" pmcid=\"PMC5675564\" count=\"1\">20</citation>). <sentence_start/>Lack of MØ availability can be ruled out because there were no differences between sham and burn in the ratio of EEB and LEB to EBIMØ at 2:1 and 5:1, respectively. <sentence_start/>This could imply a specific role for Siglec1 during the process of differentiation from proerythroblasts to PolyE, OrthoE, and reticulocyte stages. <sentence_start/>One eminent function is to provide iron to the attached EEBs as EBIMØ have been shown to make iron available during erythroblast maturation (<citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.3389/fphys.2014.00009\" pmid=\"24523696\" pmcid=\"PMC3906564\" count=\"1\">22</citation>), but do not specify the role of Siglec1 in this process. <sentence_start/>Alternatively, one can speculate, Siglec1 is important for chromatin condensation or for the formation of contractile actin rings involved in nuclear pyknosis, all of which are needed during erythroblast maturation (<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.3389/fphys.2017.01076\" pmid=\"29311991\" pmcid=\"PMC5742207\" count=\"1\">23</citation>). <sentence_start/>This speculation is further strengthened by our results from spleen where Siglec1 expression is maintained, and extramedullary response is robust, with more LEBs (2.4-fold) that are associated with EBIMØ, resulting in a 70% increase in overall splenic erythrons, with significant increases in EEBs (30%) and LEBs (75%) after burn."
+  },
+  {
+   "section": "article",
+   "text": "Splenic responses to thermal injury have previously been reported when granulocytes, granulocyte-macrophages, and macrophage progenitors increase soon after thermal injury (14% TBSA), with maximal responses seen after a week (<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1097/01.shk.0000154239.00887.18\" pmid=\"15665725\" count=\"1\">24</citation>). <sentence_start/>In the same study they showed an increase in the number of marginal zone (CD115<sup>+</sup>) and not red pulp (F4/80<sup>+</sup>) macrophages after thermal burn, which matches with our current observation of insignificant increase in percentage of splenic F4/80<sup>+</sup> MØ on day 7 after burn (15% TBSA). <sentence_start/>Nonetheless, alterations in MØ phenotypes are quite possible in other models of burn injury as shown by an increase in CD11b<sup>+</sup>F4/80<sup>+</sup> peritoneal macrophages (<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1097/00000658-200211000-00016\" pmid=\"12409672\" pmcid=\"PMC1422624\" count=\"1\">25</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Splenic erythropoiesis is increased at the expense of medullar erythropoiesis when erythroid island macrophages were depleted simultaneously with G-CSF mobilization (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1016/j.exphem.2014.03.009\" pmid=\"24721610\" count=\"1\">14</citation>). <sentence_start/>Our results are supported by the above study because, we observed similar BM erythroid arrest in our model and additionally, burn patients have increased plasma levels of catecholamines and G-CSF (<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1097/SHK.0b013e3181b92340\" pmid=\"20407405\" pmcid=\"PMC2858869\" count=\"1\">26</citation>) echoing a plausible G-CSF mediated response. <sentence_start/>Moreover, in the same study, CD169 specific depletion of MØ in G-CSF treated mice resulted in significant loss of reticulocytes with corresponding increase in the number of pro erythroblasts (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1016/j.exphem.2014.03.009\" pmid=\"24721610\" count=\"1\">14</citation>). <sentence_start/>Similarly, our model of burn injury resulted in high numbers of stagnant EEBs after burn, with significant reduction in LEBs and reticulocytes, further strengthening our notion that late maturation arrest is evident in burn-induced anemia."
+  },
+  {
+   "section": "article",
+   "text": "In order to address the influence of G-CSF in burn mediated erythroid arrest, we measured progressive changes in plasma G-CSF levels and also peripheral blood parameters at post burn day 3 (PBD) and PBD 7. <sentence_start/>Because we used 10x dilutions of plasma, Sham levels of G-CSF were below detection limits. <sentence_start/>However, peak levels at PBD 3 is in line with our groups previous reports (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1097/00005373-200208000-00016\" pmid=\"12169935\" count=\"1\">27</citation>). <sentence_start/>Interestingly, these levels were reduced by PBD 7, which explains why peripheral blood granulocytes follow the same pattern while red blood cell parameters like RBC numbers, Hb, and Hct begin to decline on PBD 7 in line with our previous observations (<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1189/jlb.1A0815-377R\" pmid=\"26992433\" pmcid=\"PMC6608024\" count=\"1\">4</citation>, <citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/j.surg.2017.06.001\" pmid=\"28716301\" pmcid=\"PMC5675564\" count=\"1\">20</citation>). <sentence_start/>Of note G-CSF is only transiently elevated in burn patients compared to pro-inflammatory cytokines (<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1016/j.burns.2018.09.001\" pmid=\"30274808\" count=\"1\">28</citation>). <sentence_start/>Perhaps, burn mediated pro-inflammatory cytokines such as TNF-alpha, IL-1β, IL-6, and IFN-gamma could influence impaired erythropoiesis as in Hep3B cells (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1182/blood.V79.8.1987.bloodjournal7981987\" pmid=\"1373333\" count=\"1\">29</citation>) and engineered stromal cells in BM cultures (<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1182/blood.V87.10.4149.bloodjournal87104149\" pmid=\"8639773\" count=\"1\">30</citation>). <sentence_start/>On the other hand, Means et al. have shown that TNF inhibits bone marrow CFU-E indirectly through stromal elements, which is abrogated by antibodies to human IFN-beta, but not by antibodies to IFN-gamma or IL-1 (<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1172/JCI116216\" pmid=\"8432849\" pmcid=\"PMC287940\" count=\"1\">31</citation>). <sentence_start/>Aside from these arguable preclinical data that inflammatory signaling pathways, such as TNF-alpha, IL-1β, IL-6, and IFN-gamma, can negatively influence Epo-dependent/independent erythropoiesis, their clinical translation has been challenging in humans and needs in depth investigations."
+  },
+  {
+   "section": "article",
+   "text": "Glucocorticoid receptor (GR) signaling has been shown to induce monocyte differentiation that shares the phenotypical characterization of EBIMØs (<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.3324/haematol.2017.179341\" pmid=\"29284682\" pmcid=\"PMC5830394\" count=\"1\">32</citation>). <sentence_start/>However, in the setting of burn injury, GR expression and binding capacity were increased in circulating leukocytes compared to healthy subjects (<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1111/aas.12604\" pmid=\"26338204\" count=\"1\">33</citation>) eliminating the probability of GR signaling as Siglec1 is down regulated in EBIMØ after a burn injury."
+  },
+  {
+   "section": "article",
+   "text": "While studies characterizing the EBIMØs is ongoing (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1038/nm.3057\" pmid=\"23502962\" pmcid=\"PMC3983996\" count=\"1\">6</citation>, <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1182/blood-2008-03-077883\" pmid=\"18650462\" pmcid=\"PMC2481536\" count=\"1\">7</citation>, <citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1007/s12026-015-8697-2\" pmid=\"26376896\" pmcid=\"PMC4651743\" count=\"1\">15</citation>, <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1679/aohc.71.155\" pmid=\"19194038\" count=\"1\">34</citation>, <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1038/nm.3156\" pmid=\"23558622\" count=\"1\">35</citation>), Jacobsen et al. have recently reported a combination of markers namely, CD11b<sup>+</sup>F4/80<sup>+</sup> Vcam1<sup>+</sup>ER-HR3<sup>+</sup> Siglec1<sup>+</sup>Ly6G<sup>+</sup> as signatures that represent EBIMØ in BM and spleen. <sentence_start/>Our report does not completely agree with their signature because, in our hands, association of EEBs and LEBs with EBIMØs are independent of Ly6G expression following burn injury both in BM and spleen. <sentence_start/>This discrepancy in LY6G expression is probably representation of non-erythroid cells by the inclusion of CD11b<sup>+</sup>F4/80<sup>+</sup> MØ in Jacobson's characterization of EBIMØ. <sentence_start/>As suggested by Seu et al. using multispectral imaging, while CD11b, albeit abundantly expressed by cells within islands, is not expressed on the EBIMØ (<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2017.01140\" pmid=\"28979259\" pmcid=\"PMC5611421\" count=\"1\">17</citation>). <sentence_start/>We have also noticed the possibility of multi lobular myeloid cell interference adjacent to intact erythroblast islands (EBIs) amongst nucleated erythroblasts (data not presented). <sentence_start/>Besides, the predominant requirement of Siglec1 in EBIMØ reported in our current study is further supported by Seu et al.'s observation that more than 90% of F4/80<sup>+</sup> EBIMØs were also positive for CD169 (Siglec1), unlike CD11b, which was not co-expressed with F4/80<sup>+</sup> MØ. <sentence_start/>Nonetheless, we have taken both LY6G<sup>pos</sup> and LY6G<sup>neg</sup> cells into account for calculating the total number of EBIMØs eliminating any disparity in characterizing overall BM response."
+  },
+  {
+   "section": "article",
+   "text": "Reports from the same study show no significant changes in F4/80 and CD169 expressing splenocytes after the induction of stress erythropoiesis. <sentence_start/>Our results also indicate that Siglec1 (CD169) expression is not altered in spleen after burn injury, and the major difference in EBIMØ phenotype between BM and spleen is a BM specific 40% decrease in Siglec1 expression. <sentence_start/>Moreover, results from magnetically sorted F4/80 <sup>pos</sup> MØ from the BM reinforce that when Siglec1 expression is down regulated (by 1.5-fold), about 2.3-fold more EEBs and 2.5-fold less LEBs are associated with them. <sentence_start/>Therefore, higher LEB and lower EEB counts associated with sham macrophages indicate a high turnover rate of EEB to LEB differentiation. <sentence_start/>On the contrary, lower LEB and higher EEB counts associated with burn macrophages indicate a dampened turnover rate of LEB to EEB differentiation. <sentence_start/>Whereas, no difference in either Siglec1 expression or EEB association from splenic F4/80 <sup>pos</sup> MØ with two times more LEB association in Burn compared to Sham further strengthens our notion that EBIMØ from spleen and BM are not the same in our burn injury model. <sentence_start/>Therefore, it is plausible that the hampered progress from early to late stage erythroblasts is coupled with Siglec1<sup>lo</sup> EBIMØ impeding BM erythropoiesis. <sentence_start/>This observation is consistent with a previous study done in the model of phenylhydrazine (PHZ)-induced stress erythropoiesis in which the authors found an expansion of F/480 cells expressing Vcam1 and CD169 markers (<citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1182/blood-2018-06-856831\" pmid=\"30322871\" pmcid=\"PMC6293871\" count=\"1\">36</citation>). <sentence_start/>From another point of view, one can argue that EEBs express receptors for erythropoietin (Epo-R) and therefore Epo-R mediated signaling mechanisms can be implicated in maturation arrest (<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.exphem.2017.08.005\" pmid=\"28867537\" pmcid=\"PMC6375690\" count=\"1\">37</citation>). <sentence_start/>Moreover, erythropoietin rescues G-CSF induced CFU-E arrest in naïve and splenectomized mice (<citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.1111/j.1749-6632.1994.tb55729.x\" pmid=\"7514380\" count=\"1\">38</citation>). <sentence_start/>We acknowledge while this is a possibility, considering burn patients have normal to high erythropoietin levels (<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1097/00000658-199303000-00012\" pmid=\"8452408\" pmcid=\"PMC1242783\" count=\"1\">1</citation>), Epo-dependent erythropoiesis stages are intact in burn injured subjects (<citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1097/BCR.0b013e3182642ccd\" pmid=\"23292581\" count=\"1\">39</citation>), and that higher doses of Epo promotes migration of BFU-E from BM to spleen preserving robust proliferation (<citation rid=\"B40\" ref-type=\"bibr\" pmid=\"8462658\" count=\"1\">40</citation>), Epo-R defect is highly unlikely as splenic erythropoiesis is augmented in our current study. <sentence_start/>Nonetheless, our focus is to decipher myeloid derived EBIMØ phenotypic alterations resulting from burn injury independent of Epo-R signaling."
+  },
+  {
+   "section": "article",
+   "text": "In hematopoietic stem and progenitor cell (HSPC) mobilization studies, G-CSF can independently increase BM sympathetic tone by increasing nor-epinephrine availability (<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1182/blood-2011-07-367102\" pmid=\"22422821\" pmcid=\"PMC3350363\" count=\"1\">41</citation>). <sentence_start/>While Siglec1 is presumed to be involved in EBI forming MØs (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1038/nm.3057\" pmid=\"23502962\" pmcid=\"PMC3983996\" count=\"1\">6</citation>), retention of hematopoietic stem cells (HSCs) and erythroid progenitors in the BM is dependent on macrophages expressing Siglec1 (<citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1084/jem.20101688\" pmid=\"21282381\" pmcid=\"PMC3039855\" count=\"1\">42</citation>). <sentence_start/>Since sympathetic nervous system (SNS) responses via beta2 and beta3 adrenergic signals are implicated in HSC mobilization (<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1038/nature06685\" pmid=\"18256599\" count=\"1\">43</citation>-<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2005.10.041\" pmid=\"16439213\" count=\"1\">45</citation>), we can speculate that enhanced sympathetic tone following burn (<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1097/SHK.0b013e3181b92340\" pmid=\"20407405\" pmcid=\"PMC2858869\" count=\"1\">26</citation>) may explain the reduction in Siglec1 expression in BM EBIMØ. <sentence_start/>We have previously shown that burn injury significantly increased the LSK positive cells in the BM (<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1189/jlb.1A0815-377R\" pmid=\"26992433\" pmcid=\"PMC6608024\" count=\"1\">4</citation>) and non-specific beta-blockade after burn was effective in partially mitigating this response (<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00139.2016\" pmid=\"28031160\" pmcid=\"PMC5401945\" count=\"1\">46</citation>). <sentence_start/>Nonetheless, in burn patients, late-stage erythropoiesis remain impaired irrespective of propranolol treatment implying the possibility of beta-2 independent terminal maturation defects (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1097/BCR.0000000000000592\" pmid=\"28570310\" pmcid=\"PMC5709235\" count=\"1\">9</citation>). <sentence_start/>Additionally, our finding of beta3-antagonist -mediated rescue of late erythropoiesis in burn injured mice (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/j.surg.2017.06.001\" pmid=\"28716301\" pmcid=\"PMC5675564\" count=\"1\">20</citation>) supports our hypothetical notion of beta3-adrenergic regulation of Siglec1<sup>+</sup> EBIMØ. <sentence_start/>However, studies using specific pharmacologic antagonists to beta2- and beta3-adrenergic receptors are required to delineate the dual mechanisms down regulating Siglec1 in EBIMØ following burn, which is a major limitation of the current manuscript. <sentence_start/>Further, identification of those intercellular signals that enhance positive interactions between EEBs and Siglec1<sup>++</sup> EBIMØs to augment their maturation to LEBs will remain a key issue for future studies."
+  },
+  {
+   "section": "article",
+   "text": "Given the intricacies in obtaining the erythroblast island without compromising its integrity, this is our preliminary study observing the down regulation of specific macrophage-associated adhesion molecule that is perturbed by burn injury plausibly impeding erythropoiesis. <sentence_start/>Our results emphasize transient increase in G-CSF cannot drive this persistent anemia in burn patients, Therefore, based on the persistent increase in catecholamines in burn patients and our preliminary data with beta 2 and 3 adrenergic blockade (<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1182/blood-2018-99-112194\" count=\"1\">47</citation>) we speculate that sympathetic stimulation of beta3 adrenergic receptors could play a predominant role in burn induced EBIMØ phenotype. <sentence_start/>While current study establishes the premise, targeted knock down of Siglec1 in bone marrow macrophages or studies in beta-3 adrenergic knock out mice are required to further expand our observations, which is beyond the scope of the current manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Here we have shown that only nucleated erythroblasts (early and late) are tightly associated with EBIMØ (F4/80<sup>+</sup>ERHR3<sup>+</sup>VCAM1<sup>+</sup>Siglec1<sup>+</sup>LY6G<sup>±</sup>), where Siglec1 and Ly6G are predominantly required for EBI integrity in the BM. <sentence_start/>Burn injury significantly diminishes the expression of Siglec1 in BM EBIMØs suggesting a role for the myeloid derived MØ in the maturation of pro erythroblasts into poly/orthochromatic erythroblasts and reticulocytes. <sentence_start/>Having established this methodology to ascertain stage specific dependence of erythroblast maturation on EBIMØ phenotype, detailed functional and mechanistic studies utilizing Siglec1<sup>−/−</sup> and or anti-GCSF and beta3 antagonist treatment in mice subjected to burn injury will be the focus of our future studies."
+  },
+  {
+   "section": "article",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "article",
+   "text": "The raw data supporting the conclusions of this manuscript will be made available by the authors, without undue reservation, to any qualified researcher."
+  },
+  {
+   "section": "article",
+   "text": "Ethics Statement"
+  },
+  {
+   "section": "article",
+   "text": "This study was carried out in accordance with the recommendations of AALAC guidelines by the IACUC committee. <sentence_start/>The Institutional Animal Care and Use Committee at Loyola University Medical Center approved all experimental protocols."
+  },
+  {
+   "section": "article",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "article",
+   "text": "KM designed, analyzed, interpreted, and wrote the paper. <sentence_start/>SH conducted experiments and analyzed and wrote parts of paper. <sentence_start/>MJ carried out some experiments with revision and helped with the response to reviewers' comments. <sentence_start/>AK interpreted histopathology results and provided consultation. <sentence_start/>AB provided clinical consultation and reviewed the manuscript in preparation."
+  },
+  {
+   "section": "article",
+   "text": "Conflict of Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "back",
+   "text": "The Supplementary Material for this article can be found online at:"
+  },
+  {
+   "section": "back",
+   "text": "Supplemental Figure 1"
+  },
+  {
+   "section": "back",
+   "text": "An exemplary F4/80<sup>pos</sup> (red) and F4/80<sup>neg</sup> (blue) fraction of TBM cells were gated to show ERHR3 CD169 (Siglec1), and Vcam1 in histograms. <sentence_start/>MFI of each adhesion molecule is shown in the legend below respective histogram overlay. <sentence_start/>Also EBIMØ counts between F480<sup>pos</sup> and F480<sup>neg</sup> fractions are shown in the contour plots with F480 on X-axis and CD169 (Siglec1) on Y axis."
+  },
+  {
+   "section": "back",
+   "text": "Supplemental Figure 2"
+  },
+  {
+   "section": "back",
+   "text": "Gating strategy to compare erythroblasts populations by two different flow cytometry-based approaches. <sentence_start/><bold>(A)</bold> Singlets from total bone marrow cells were gated on Ter119 (X-axis) and CD71 (Y-axis) and selected for Ter119<sup>neg</sup> ProEs and Ter119<sup>+</sup> cells. <sentence_start/>Ter119<sup>+</sup> cells were then gated on FSC-A (X-axis) and CD71 (Y-axis). <sentence_start/>Based on CD71 intensity and size (FSC-A), erythroblast subsets were divided into EryA (CD71<sup>+</sup>, FSC-A high); EryB (CD71<sup>+</sup>, FSC-A low); and EryC (CD71<sup>neg</sup>, FSC-A low). <sentence_start/><bold>(B)</bold> Singlets from total bone marrow cells were gated on CD71 (X-axis) and Ter119 (Y-axis) and selected for Ter119<sup>neg</sup> ProEs and Ter119<sup>+</sup> cells were gated as CD71<sup>neg</sup> Ter119<sup>+</sup> RBCs and CD71<sup>+</sup> Ter119<sup>+</sup> late erythroblasts (LEBs). <sentence_start/>LEBs were further sorted on the basis of Syto16, CD71<sup>+</sup> Ter119<sup>+</sup> Syto16<sup>+</sup> cells were categorized as Poly and Orthochromatic erythroblasts, and CD71<sup>+</sup> Ter119<sup>+</sup> Syto16<sup>neg</sup> cells as reticulocytes. <sentence_start/>Comparing <bold>(A,B)</bold>, it is clear that 1. <sentence_start/>ProE and EEB are one and the same 2. <sentence_start/>EryC and RBC are one and the same and 3. <sentence_start/>EryA and EryB have some overlapping nucleated and enucleated erythroblasts whereas in B there is clear demarcation. <sentence_start/>This validates our current method is superior in identifying discrete populations."
+  },
+  {
+   "section": "back",
+   "text": "Supplemental Figure 3"
+  },
+  {
+   "section": "back",
+   "text": "Immunofluorescence microscopy on paraffin embedded sections of femurs obtained from sham and burn mice using Ter119-FITC, a pan erythroid marker to further confirm significant reductions in RBC after burn."
+  },
+  {
+   "section": "back",
+   "text": "Supplemental Figure 4"
+  },
+  {
+   "section": "back",
+   "text": "AMNIS Imagestream showing the association of erythroblasts with Siglec-1 positive macrophages."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "BM"
+  },
+  {
+   "section": "back",
+   "text": "Bone marrow"
+  },
+  {
+   "section": "back",
+   "text": "EBI"
+  },
+  {
+   "section": "back",
+   "text": "Erythroblast Island"
+  },
+  {
+   "section": "back",
+   "text": "EBIMØ"
+  },
+  {
+   "section": "back",
+   "text": "Erythroblast Island macrophages"
+  },
+  {
+   "section": "back",
+   "text": "EEB"
+  },
+  {
+   "section": "back",
+   "text": "Early erythroblasts"
+  },
+  {
+   "section": "back",
+   "text": "LEB"
+  },
+  {
+   "section": "back",
+   "text": "Late erythroblasts"
+  },
+  {
+   "section": "back",
+   "text": "MØ"
+  },
+  {
+   "section": "back",
+   "text": "Macrophage"
+  },
+  {
+   "section": "back",
+   "text": "OrthoE"
+  },
+  {
+   "section": "back",
+   "text": "Orthochromatophilic erythroblasts"
+  },
+  {
+   "section": "back",
+   "text": "PolyE"
+  },
+  {
+   "section": "back",
+   "text": "Polychromatophilic erythroblasts"
+  },
+  {
+   "section": "back",
+   "text": "Reti"
+  },
+  {
+   "section": "back",
+   "text": "Reticulocytes"
+  },
+  {
+   "section": "back",
+   "text": "TBM"
+  },
+  {
+   "section": "back",
+   "text": "Total bone marrow cells"
+  },
+  {
+   "section": "back",
+   "text": "TBSA"
+  },
+  {
+   "section": "back",
+   "text": "Total body surface area"
+  },
+  {
+   "section": "back",
+   "text": "TSP"
+  },
+  {
+   "section": "back",
+   "text": "Total Spleen Cells."
+  }
+ ]
+}

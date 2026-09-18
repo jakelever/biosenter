@@ -1,0 +1,355 @@
+{
+ "pmid": 20479937,
+ "pmcid": 2866662,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A Cell-Free Microtiter Plate Screen for Improved [FeFe] Hydrogenases"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "[FeFe] hydrogenase enzymes catalyze the production and dissociation of H<sub>2</sub>, a potential renewable fuel. <sentence_start/>Attempts to exploit these catalysts in engineered systems have been hindered by the biotechnologically inconvenient properties of the natural enzymes, including their extreme oxygen sensitivity. <sentence_start/>Directed evolution has been used to improve the characteristics of a range of natural catalysts, but has been largely unsuccessful for [FeFe] hydrogenases because of a lack of convenient screening platforms."
+  },
+  {
+   "section": "abstract",
+   "text": "Methodology/Principal Findings"
+  },
+  {
+   "section": "abstract",
+   "text": "Here we describe an <italic toggle=\"yes\">in vitro</italic> screening technology for oxygen-tolerant and highly active [FeFe] hydrogenases. <sentence_start/>Despite the complexity of the protocol, we demonstrate a level of reproducibility that allows moderately improved mutants to be isolated. <sentence_start/>We have used the platform to identify a mutant of the <italic toggle=\"yes\">Chlamydomonas reinhardtii</italic> [FeFe] hydrogenase HydA1 with a specific activity ∼4 times that of the wild-type enzyme."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions/Significance"
+  },
+  {
+   "section": "abstract",
+   "text": "Our results demonstrate the feasibility of using the screen presented here for large-scale efforts to identify improved biocatalysts for energy applications. <sentence_start/>The system is based on our ability to activate these complex enzymes in <italic toggle=\"yes\">E. coli</italic> cell extracts, which allows unhindered access to the protein maturation and assay environment."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Hydrogenase enzymes reversibly catalyze the interconversion of molecular hydrogen with protons and electrons <citation rid=\"pone.0010554-Adams1\" ref-type=\"bibr\" pmid=\"2173950\" doi=\"10.1016/0005-2728(90)90044-5\" count=\"1\">[1]</citation>. <sentence_start/>They have drawn increasing interest from the renewable energy community <citation rid=\"pone.0010554-Mertens1\" ref-type=\"bibr\" pmid=\"15358002\" doi=\"10.1016/j.copbio.2004.06.010\" count=\"1\">[2]</citation>, <citation rid=\"pone.0010554-Levin1\" ref-type=\"bibr\" count=\"1\">[3]</citation> because of their potential to become key players in biological hydrogen production schemes <citation rid=\"pone.0010554-Prince1\" ref-type=\"bibr\" pmid=\"15839402\" doi=\"10.1080/10408410590912961\" count=\"1\">[4]</citation> and replacements for precious metal catalysts in fuel cells <citation rid=\"pone.0010554-Tye1\" ref-type=\"bibr\" pmid=\"16286638\" doi=\"10.1073/pnas.0508740102\" pmcid=\"PMC1288019\" count=\"1\">[5]</citation>, <citation rid=\"pone.0010554-Vincent1\" ref-type=\"bibr\" pmid=\"17845060\" doi=\"10.1021/cr050191u\" count=\"1\">[6]</citation>. <sentence_start/>Hydrogenases are classified as [NiFe], [FeFe], or [Fe] according to the composition of their active site metal cofactors. <sentence_start/>The [FeFe] hydrogenases have the highest turnover rates <citation rid=\"pone.0010554-Adams1\" ref-type=\"bibr\" pmid=\"2173950\" doi=\"10.1016/0005-2728(90)90044-5\" count=\"1\">[1]</citation>, making them attractive for energy applications, but are incompatible with many technologies due to their extreme oxygen sensitivity <citation rid=\"pone.0010554-Abeles1\" ref-type=\"bibr\" pmid=\"16655892\" doi=\"10.1104/pp.39.2.169\" pmcid=\"PMC550049\" count=\"1\">[7]</citation>, <citation rid=\"pone.0010554-Erbes1\" ref-type=\"bibr\" pmid=\"16660871\" doi=\"10.1104/pp.63.6.1138\" pmcid=\"PMC542984\" count=\"1\">[8]</citation>. <sentence_start/>Oxygen deactivates these hydrogenases by diffusing into the core of the protein and reacting with the catalytic iron-sulfur cofactor <citation rid=\"pone.0010554-Cohen1\" ref-type=\"bibr\" pmid=\"15667271\" doi=\"10.1042/BST0330080\" pmcid=\"PMC2587414\" count=\"1\">[9]</citation>. <sentence_start/>The development of an engineered [FeFe] hydrogenase with improved industrial traits, including decreased sensitivity to deactivation by oxygen and increased specific activity, could make the economics of biological hydrogen production technologies or fuel cells much more attractive."
+  },
+  {
+   "section": "article",
+   "text": "Directed evolution, a laboratory technique that mimics natural evolution by selecting the fittest mutants from large libraries <citation rid=\"pone.0010554-Arnold1\" ref-type=\"bibr\" count=\"1\">[10]</citation>, is a promising method by which to improve the suitability of hydrogenases for various biotechnological applications <citation rid=\"pone.0010554-Turner1\" ref-type=\"bibr\" pmid=\"19620998\" doi=\"10.1038/nchembio.203\" count=\"1\">[11]</citation>. <sentence_start/>However, evolving hydrogenases has proved difficult due to a lack of effective high-throughput screens. <sentence_start/>Developing a screen for improved hydrogenase mutants is challenging because hydrogenases are difficult to express in active form and because their substrate and product are difficult to measure in a high-throughput format or to link to the survival of an organism. <sentence_start/>A platform capable of supporting a large-scale screening effort has yet to be described."
+  },
+  {
+   "section": "article",
+   "text": "Heterologous expression of [FeFe] hydrogenases became possible only recently, when the discovery of three helper proteins required for synthesis and installation of the so-called H-cluster cofactor at the catalytic site <citation rid=\"pone.0010554-Posewitz1\" ref-type=\"bibr\" pmid=\"15082711\" doi=\"10.1074/jbc.M403206200\" count=\"1\">[12]</citation> enabled hydrogenase activation <italic toggle=\"yes\">in vivo</italic> in <italic toggle=\"yes\">E. coli</italic> <citation rid=\"pone.0010554-King1\" ref-type=\"bibr\" pmid=\"16513746\" doi=\"10.1128/JB.188.6.2163-2172.2006\" pmcid=\"PMC1428129\" count=\"1\">[13]</citation> and <italic toggle=\"yes\">in vitro</italic> in <italic toggle=\"yes\">E. coli</italic> cell extracts <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>, <citation rid=\"pone.0010554-Kuchenreuther1\" ref-type=\"bibr\" pmid=\"19855833\" doi=\"10.1371/journal.pone.0007565\" pmcid=\"PMC2762031\" count=\"1\">[15]</citation>. <sentence_start/>Prior to this breakthrough, the low transformation efficiencies and slow growth rates of the organisms that naturally harbor [FeFe] hydrogenases prevented screening large <italic toggle=\"yes\">in vitro</italic>-generated gene libraries, and most directed evolution work focused on genome-wide mutagenesis to improve hydrogen production rates or oxygen tolerance of organisms that naturally produce hydrogen <citation rid=\"pone.0010554-Flynn1\" ref-type=\"bibr\" count=\"1\">[16]</citation>. <sentence_start/>The ability to express mutant [FeFe] hydrogenases in <italic toggle=\"yes\">E. coli</italic> or by cell-free protein synthesis (CFPS) has allowed the focus to shift to the enzyme itself. <sentence_start/>Instead of evolving mutant organisms that might shield their hydrogenases from oxygen or deliver reducing equivalents to the protein more effectively, mutant hydrogenases that are inherently oxygen tolerant and catalytically improved can be developed. <sentence_start/>Such mutants would retain their improvements independent of the choice of host organism, and analysis of their mutations could shed light on the relationship between [FeFe] hydrogenase structure and function."
+  },
+  {
+   "section": "article",
+   "text": "SIMPLEX (SIngle-Molecule PCR-Linked EXpression) <citation rid=\"pone.0010554-Rungpragayphan1\" ref-type=\"bibr\" pmid=\"12681498\" doi=\"10.1016/s0014-5793(03)00251-5\" count=\"1\">[17]</citation> is an entirely <italic toggle=\"yes\">in vitro</italic> microtiter plate-based protein screening platform. <sentence_start/><italic toggle=\"yes\">In vitro</italic> screens and selections, which use cell-free protein synthesis to transform mutant DNA into mutant proteins, have a number of advantages over <italic toggle=\"yes\">in vivo</italic> methods. <sentence_start/>The protein synthesis environment is open, allowing control over many aspects of the protein production and folding environment that are inaccessible <italic toggle=\"yes\">in vivo</italic>. <sentence_start/>The protein product is synthesized within a few hours and can be assayed without a cell lysis or permeablization step. <sentence_start/><italic toggle=\"yes\">In vitro</italic> methods can be used to screen toxic proteins and can avoid many of the biases for which cells are notorious. <sentence_start/>While much lower in throughput than bulk methods such as ribosome display <citation rid=\"pone.0010554-Hanes1\" ref-type=\"bibr\" pmid=\"9144168\" doi=\"10.1073/pnas.94.10.4937\" pmcid=\"PMC24609\" count=\"1\">[18]</citation> and <italic toggle=\"yes\">in vitro</italic> compartmentalization <citation rid=\"pone.0010554-Tawfik1\" ref-type=\"bibr\" doi=\"10.1038/nbt0798-652\" pmid=\"9661199\" count=\"1\">[19]</citation>, the microtiter plate format allows a wide range of enzyme activities to be assessed using standard colorimetric activity assays."
+  },
+  {
+   "section": "article",
+   "text": "Here we present a SIMPLEX-based <italic toggle=\"yes\">in vitro</italic> screen for [FeFe] hydrogenase activity and oxygen tolerance (Figure 1), which we have used to isolate a mutant of the <italic toggle=\"yes\">Chlamydomonas reinhardtii</italic> [FeFe] hydrogenase HydA1 with ∼4-fold improved specific activity relative to the wild-type. <sentence_start/>The system is conducive to automation and can screen on the order of 10<sup>3</sup>-10<sup>4</sup> mutants per day."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "A schematic representation of the screening procedure."
+  },
+  {
+   "section": "article",
+   "text": "A key step in SIMPLEX is single-molecule PCR (smPCR) <citation rid=\"pone.0010554-McCaughan1\" ref-type=\"bibr\" doi=\"10.1002/path.2647\" pmid=\"19927313\" count=\"1\">[20]</citation>, which amplifies mutant genes isolated by limiting dilution. <sentence_start/>This powerful technique is rapidly being adopted for use in a diverse range of fields for applications such as cancer detection <citation rid=\"pone.0010554-Vogelstein1\" ref-type=\"bibr\" pmid=\"10430926\" doi=\"10.1073/pnas.96.16.9236\" pmcid=\"PMC17763\" count=\"1\">[21]</citation>, gene expression analysis <citation rid=\"pone.0010554-Pohl1\" ref-type=\"bibr\" pmid=\"14711348\" doi=\"10.1586/14737159.4.1.41\" count=\"1\">[22]</citation>, DNA methylation analysis <citation rid=\"pone.0010554-Chhibber1\" ref-type=\"bibr\" pmid=\"18358818\" doi=\"10.1016/j.ab.2008.02.026\" count=\"1\">[23]</citation>, sequencing of unculturable strains <citation rid=\"pone.0010554-Hutchison1\" ref-type=\"bibr\" doi=\"10.1038/nbt0606-657\" pmid=\"16763593\" count=\"1\">[24]</citation>, cell-free cloning <citation rid=\"pone.0010554-Kraytsberg1\" ref-type=\"bibr\" pmid=\"16149882\" doi=\"10.1586/14737159.5.5.809\" count=\"1\">[25]</citation>, and directed evolution. <sentence_start/>We present observations regarding factors that are important for successful smPCR, which we hope will be of use to researchers attempting to establish this powerful but delicate technique in their own laboratories."
+  },
+  {
+   "section": "article",
+   "text": "Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "The screen for improved hydrogenase mutants consists of mutant DNA library generation, limiting dilution, single-molecule PCR, cell-free protein synthesis, oxygen exposure, spectrophotometric measurement, and comparison to wild-type protein (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Mutant DNA library generation"
+  },
+  {
+   "section": "article",
+   "text": "We chose the <italic toggle=\"yes\">hydA1</italic> gene encoding the HydA1 hydrogenase from <italic toggle=\"yes\">C. reinhardtii</italic> as our parent sequence, and generated a random mutant DNA library using mutagenic PCR with nucleotide analogs <citation rid=\"pone.0010554-Zaccolo1\" ref-type=\"bibr\" pmid=\"8568899\" doi=\"10.1006/jmbi.1996.0049\" count=\"1\">[26]</citation>. <sentence_start/>In general, libraries of linear mutant DNA templates may be generated by any random or rational mutagenesis method, including error-prone PCR <citation rid=\"pone.0010554-Cirino1\" ref-type=\"bibr\" doi=\"10.1385/1-59259-395-X:3\" pmid=\"12824595\" count=\"1\">[27]</citation>, site-directed mutagenesis <citation rid=\"pone.0010554-Ho1\" ref-type=\"bibr\" pmid=\"2744487\" doi=\"10.1016/0378-1119(89)90358-2\" count=\"1\">[28]</citation>, and recombination techniques <citation rid=\"pone.0010554-Crameri1\" ref-type=\"bibr\" pmid=\"9440693\" doi=\"10.1038/34663\" count=\"1\">[29]</citation>, <citation rid=\"pone.0010554-Nagy1\" ref-type=\"bibr\" doi=\"10.1007/s10529-006-9254-9\" pmid=\"17195059\" count=\"1\">[30]</citation>. <sentence_start/>The only requirements are that the resulting mutant constructs contain homoprimer annealing sequences <citation rid=\"pone.0010554-Rungpragayphan2\" ref-type=\"bibr\" doi=\"10.1007/978-1-59745-388-2_4\" pmid=\"17634597\" count=\"1\">[31]</citation>, <citation rid=\"pone.0010554-Brownie1\" ref-type=\"bibr\" pmid=\"9241236\" doi=\"10.1093/nar/25.16.3235\" pmcid=\"PMC146890\" count=\"1\">[32]</citation> to allow smPCR amplification <citation rid=\"pone.0010554-Ohuchi1\" ref-type=\"bibr\" pmid=\"9742233\" doi=\"10.1093/nar/26.19.4339\" pmcid=\"PMC147851\" count=\"1\">[33]</citation> and an appropriate promoter and ribosome binding site to allow subsequent transcription and translation by the CFPS system <citation rid=\"pone.0010554-Woodrow1\" ref-type=\"bibr\" pmid=\"17137330\" doi=\"10.1021/pr050459y\" count=\"1\">[34]</citation>. <sentence_start/>Sequencing of a sampling of mutant genes from the library indicated a range of 2 to 10 DNA mutations per gene."
+  },
+  {
+   "section": "article",
+   "text": "Limiting dilution and single-molecule PCR amplification"
+  },
+  {
+   "section": "article",
+   "text": "In the SIMPLEX system, each mutant gene is isolated from the library by limiting dilution. <sentence_start/>Careful dilution to extremely low DNA concentrations allows single molecules to be distributed into the wells of a PCR plate according to Poisson distribution statistics. <sentence_start/>We added mutant library DNA at an average of 2.3 molecules per well, an amount that left approximately 10% of the wells empty, which we felt represented an optimal compromise between throughput and resolution. <sentence_start/>Decreasing the average number of genes per well leaves more wells without DNA, while increasing the average number of genes per well leads to signal distortion when two or more genes are deposited and amplified in the same well. <sentence_start/>The averaging of the signals from an improved mutant and neutral or inactive mutants in the same well raises the threshold of improvement required for detection. <sentence_start/>In addition, if the well is found to contain improved enzymes, the genes must be separated by limiting dilution or <italic toggle=\"yes\">in vivo</italic> cloning before they can be retested and sequenced."
+  },
+  {
+   "section": "article",
+   "text": "The isolated genes are amplified to quantities sufficient for CFPS reactions by single-molecule PCR. <sentence_start/>As the primer concentration in smPCR is very high relative to that of the single template molecule, primer-dimers and aberrant products are common. <sentence_start/>The use of a homoprimer that anneals to both ends of the target sequence has been shown to reduce primer dimerization <citation rid=\"pone.0010554-Brownie1\" ref-type=\"bibr\" pmid=\"9241236\" doi=\"10.1093/nar/25.16.3235\" pmcid=\"PMC146890\" count=\"1\">[32]</citation> and allow single-step single-molecule PCR <citation rid=\"pone.0010554-Nakano1\" ref-type=\"bibr\" pmid=\"16232890\" count=\"1\">[35]</citation>. <sentence_start/>Since any desired primer sequence can be designed into the template, but not all sequences are effective, we used the homoprimer sequences reported by the developers of SIMPLEX (TR <citation rid=\"pone.0010554-Rungpragayphan3\" ref-type=\"bibr\" pmid=\"12051846\" doi=\"10.1016/S0022-2836(02)00094-3\" count=\"1\">[36]</citation>, K4 <citation rid=\"pone.0010554-Koga1\" ref-type=\"bibr\" doi=\"10.1007/978-1-59745-388-2_9\" pmid=\"17634602\" count=\"1\">[37]</citation>, and SCA2 <citation rid=\"pone.0010554-Rungpragayphan4\" ref-type=\"bibr\" count=\"1\">[38]</citation>), the efficacy of which we independently confirmed."
+  },
+  {
+   "section": "article",
+   "text": "Accurately diluting DNA more than a billion fold to the single-molecule level is not trivial. <sentence_start/>Since any template loss becomes very significant at single-molecule concentrations, we performed the dilutions in a buffered solution containing EDTA and blue dextran <citation rid=\"pone.0010554-Rungpragayphan1\" ref-type=\"bibr\" pmid=\"12681498\" doi=\"10.1016/s0014-5793(03)00251-5\" count=\"1\">[17]</citation> to block nonspecific adsorption of DNA. <sentence_start/>Solutions diluted to a range of expected DNA concentrations were used as templates in a series of PCRs until a dilution was found at which only a fraction of the reactions amplified successfully. <sentence_start/>Additional amplifications were then performed to more precisely estimate the DNA concentration in that dilution by comparison of amplification frequencies with the predictions of the Poisson distribution."
+  },
+  {
+   "section": "article",
+   "text": "Though a variety of buffers and a wide range of concentrations of magnesium, nucleotide triphosphates, and primers have been recommended by reports in the literature, we were successful using buffers supplied with commercial polymerases and Mg<sup>2+</sup>, dNTPs, and primer concentrations typical of standard PCR protocols. <sentence_start/>We also evaluated the addition of colloidal gold nanoparticles, which have been reported to improve PCR specificity <citation rid=\"pone.0010554-Brownie1\" ref-type=\"bibr\" pmid=\"9241236\" doi=\"10.1093/nar/25.16.3235\" pmcid=\"PMC146890\" count=\"1\">[32]</citation>. <sentence_start/>No improvement was observed relative to reactions from which gold was omitted. <sentence_start/>The volume of each smPCR reaction was 7 µL, minimizing polymerase cost while ensuring that the liquid volume would not be significantly depleted by evaporation during the long thermocycling program. <sentence_start/>The melting step in our protocol was shortened to 10 seconds at 95°C, and even shorter times are sufficient for most targets. <sentence_start/>Minimizing the duration of this high-temperature step minimized polymerase deactivation during the high number of cycles required to amplify a single molecule to saturation. <sentence_start/>The 80-cycle program was complete in about five hours."
+  },
+  {
+   "section": "article",
+   "text": "The sensitivity that allows amplification of a single copy of a target also makes smPCR susceptible to contamination by even very small amounts of DNA. <sentence_start/>While the specificity of the homoprimer allows smPCR to tolerate contamination by environmental or other nonspecific DNA, contamination by DNA with homoprimer annealing sites can be a serious problem. <sentence_start/>Because of this, extreme caution must be taken to avoid contaminating reagents, pipettes, surfaces, and consumables with template or product DNA. <sentence_start/>To avoid contamination, all smPCR reaction solutions were mixed in one room, and the products analyzed in a second room. <sentence_start/>Reaction components were mixed in a laminar flow hood with a dedicated set of pipettes using smPCR-only reagent aliquots, which were frequently changed. <sentence_start/>Despite these precautions, contamination was a frequent occurrence, and negative controls without template were routinely run to ensure that the reactions were contaminant-free."
+  },
+  {
+   "section": "article",
+   "text": "Comparison of observed results with the predictions of the Poisson distribution confirmed that amplified products originated from single template molecules and allowed determination of the number of DNA molecules in the stock solution (Table 1). <sentence_start/>We prepared a mixture consisting of PCR reagents and a known volume of a highly diluted template solution. <sentence_start/>We then divided a 96-well PCR plate into thirds, and added increasing volumes of the mixture (5, 10, and 15 µL) into the wells of each section, reserving three wells for no-template controls. <sentence_start/>Within each section of the plate, observation of the fraction of the reactions in which amplification occurred allowed us to estimate the number of DNA molecules in the volume of template solution in the reaction mixture. <sentence_start/>Agreement across the sections indicated successful smPCR."
+  },
+  {
+   "section": "article",
+   "text": "Cell-free protein synthesis"
+  },
+  {
+   "section": "article",
+   "text": "Following amplification of isolated mutant DNA templates, smPCR plates were brought into an anaerobic chamber, and 1.5 µL volumes (containing approximately 100 ng <citation rid=\"pone.0010554-Woodrow1\" ref-type=\"bibr\" pmid=\"17137330\" doi=\"10.1021/pr050459y\" count=\"1\">[34]</citation>, <citation rid=\"pone.0010554-Rungpragayphan3\" ref-type=\"bibr\" pmid=\"12051846\" doi=\"10.1016/S0022-2836(02)00094-3\" count=\"1\">[36]</citation> of DNA) were transferred into the corresponding wells of a CFPS reaction plate without purification. <sentence_start/>The PCR plates, containing the remainder of each PCR product, were then archived at −20°C so that DNA corresponding to eventual “hits” interesting enough to merit further evaluation could be easily recovered."
+  },
+  {
+   "section": "article",
+   "text": "Extensive modifications have been made to the PANOx-SP <citation rid=\"pone.0010554-Jewett1\" ref-type=\"bibr\" pmid=\"15007837\" doi=\"10.1002/bit.20026\" count=\"1\">[39]</citation> CFPS protocol developed for general use in our laboratory to allow activation of [FeFe] hydrogenases <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>. <sentence_start/>We prepared the extracts from <italic toggle=\"yes\">E. coli</italic> cells in which the three maturase proteins required for synthesis and activation of the [FeFe] hydrogenase active site <citation rid=\"pone.0010554-Posewitz1\" ref-type=\"bibr\" pmid=\"15082711\" doi=\"10.1074/jbc.M403206200\" count=\"1\">[12]</citation> had been heterologously expressed. <sentence_start/>We conducted the CFPS reactions anaerobically to prevent deactivation of hydrogenase and its maturases. <sentence_start/>To stabilize the linear templates produced by PCR-based mutagenesis techniques, we added purified lambda phage Gam protein to the reaction mixtures to inhibit the RecBCD exonuclease complex <citation rid=\"pone.0010554-Sitaraman1\" ref-type=\"bibr\" pmid=\"15163516\" doi=\"10.1016/j.jbiotec.2004.02.014\" count=\"1\">[40]</citation> present in the extract. <sentence_start/>We also supplemented the reactions with S-adenosylmethionine (SAM), a substrate of the maturases <citation rid=\"pone.0010554-Rubach1\" ref-type=\"bibr\" pmid=\"16137685\" doi=\"10.1016/j.febslet.2005.07.092\" count=\"1\">[41]</citation>. <sentence_start/>The reactions are capable of synthesizing and maturing 40 ng/µL of active hydrogenase."
+  },
+  {
+   "section": "article",
+   "text": "Multiplexed hydrogenase activity assays"
+  },
+  {
+   "section": "article",
+   "text": "Methyl viologen is a redox-sensitive dye that is clear when oxidized and blue when reduced, and which can exchange electrons with [FeFe] hydrogenases. <sentence_start/>Spectrophotometric measurement of the rate of the color change as hydrogenase oxidizes H<sub>2</sub> and reduces methyl viologen has been used widely in the literature as an assay for hydrogenase activity <citation rid=\"pone.0010554-Peck1\" ref-type=\"bibr\" pmid=\"13286232\" doi=\"10.1128/jb.71.1.70-80.1956\" pmcid=\"PMC357737\" count=\"1\">[42]</citation>, and we adopted it as our primary activity assay. <sentence_start/>Preliminary hits identified with this screen could be assayed with the natural electron donor, the protein ferredoxin, in a hydrogen production assay to ensure compatibility before being carried on to the next round of mutagenesis."
+  },
+  {
+   "section": "article",
+   "text": "We mixed the CFPS reaction products with a buffered methyl viologen solution. <sentence_start/>The absorbance at 578 nm in each well of a 96-well microtiter plate was measured over two minutes with a plate reader within the anaerobic chamber as hydrogenase consumed dissolved H<sub>2</sub>. <sentence_start/>The slope of the absorbance change with time was converted into a hydrogenase activity measurement using Beer's Law. <sentence_start/>The absorbance of methyl viologen solutions in this H<sub>2</sub> consumption assay remained constant in the absence of added CFPS product, and the addition of negative control CFPS mixtures incubated without any DNA template or with templates encoding chloramphenicol acetyltransferase (CAT) generated slopes that were small compared to those generated by the products of CFPS reactions expressing hydrogenase."
+  },
+  {
+   "section": "article",
+   "text": "Multiplexed measurement of oxygen tolerance"
+  },
+  {
+   "section": "article",
+   "text": "To measure oxygen tolerance, we challenged the mutant proteins by adding a liquid solution containing dissolved oxygen. <sentence_start/>During the subsequent incubation, oxygen continually diffused out of the liquid into the anaerobic atmosphere, and was also consumed by the extract, presumably by oxygen-scavenging cytochrome oxidases in inverted membrane vesicles <citation rid=\"pone.0010554-Jewett2\" ref-type=\"bibr\" pmid=\"18854819\" doi=\"10.1038/msb.2008.57\" pmcid=\"PMC2583083\" count=\"1\">[43]</citation>. <sentence_start/>The oxygen concentration profile experienced by the hydrogenase mutants was therefore not constant with time and could not be quantitatively determined, but we presumed it to be the same for each reaction mixture in a given microtiter plate. <sentence_start/>For the purpose of high-throughput screening this oxygen exposure procedure proved convenient and reliable. <sentence_start/>Loss into the atmosphere and consumption by the extract eventually completely removed the dissolved oxygen, which would otherwise have interfered with measurement of the absorbance of the assay solution by oxidizing the methyl viologen."
+  },
+  {
+   "section": "article",
+   "text": "The extent of the deactivation could be controlled by adjusting the volume of oxygen-containing liquid added (Figure 2). <sentence_start/>Weak deactivation resulted in a higher signal-to-noise ratio, but led to high sensitivity to unintended variations in exposure. <sentence_start/>After very strong deactivation, the residual activity was obscured by background absorbance changes caused by factors within the cell extract. <sentence_start/>A post-exposure residual activity of 15-20% avoided both problems, generating a signal several times greater than the background observed in CAT control reactions."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Oxygen deactivation curve for the product of CFPS reactions expressing <italic toggle=\"yes\">C. reinhardtii</italic> HydA1."
+  },
+  {
+   "section": "article",
+   "text": "5 µL of CFPS product were diluted with 25 µL of anaerobic Tris buffer before addition of the volume of air-saturated Tris buffer indicated on the x-axis. <sentence_start/>The slope of methyl viologen absorbance at 578 nm with time for each oxygen-exposed sample was normalized to the slope with no oxygen exposure. <sentence_start/>The pink curve represents an exponential decay fit to the data. <sentence_start/>Error bars indicate the standard deviation of triplicate measurements."
+  },
+  {
+   "section": "article",
+   "text": "The volume of CFPS reaction product used for the post-exposure activity measurement was adjusted such that the slopes of the pre- and post-exposure measurements were roughly equal and within the range that allowed accurate activity determination. <sentence_start/>For example, in the case of a 20% residual activity target, five times as much reaction product was used in the post-exposure assay as in the pre-exposure assay."
+  },
+  {
+   "section": "article",
+   "text": "Data processing and hit identification"
+  },
+  {
+   "section": "article",
+   "text": "The oxygen tolerance screen included two activity measurements of each CFPS reaction product with the methyl viologen activity assay, one before oxygen exposure and another after. <sentence_start/>The ratio of the two measurements was used as a measure of oxygen tolerance and was the criterion by which hits were identified. <sentence_start/>The pre-exposure test allowed the oxygen tolerance score of each mutant to be normalized by initial activity, eliminating the influence of variation in expression across CFPS reactions. <sentence_start/>In addition, a minimum pre-exposure activity cutoff was established. <sentence_start/>Mutant hydrogenases with pre-exposure activities below this threshold were disqualified, since the low signal-to-noise ratio in these wells inflated the residual activity ratio."
+  },
+  {
+   "section": "article",
+   "text": "The activity and residual activity ratio of each mutant were compared to those of wild-type hydrogenase controls. <sentence_start/>Performing wild-type control reactions in each microtiter plate enabled us to account for plate-to-plate and day-to-day variations in CFPS reaction performance and oxygen exposure effectiveness. <sentence_start/>The ability of a screen to identify an improved mutant is inversely related to the standard deviation of measurements of identically prepared wild-type reactions. <sentence_start/>We were able achieve a coefficient of variance of measurements of oxygen tolerance of ∼15-25%. <sentence_start/>The precision of repeated measurements of oxygen tolerance is shown in Figure 3. <sentence_start/>Experiments 1 and 2 measured the error of residual activity measurements on the products of identically performed CFPS reactions expressing wild-type <italic toggle=\"yes\">C. reinhardtii</italic> HydA1. <sentence_start/>In Experiment 3 wild-type <italic toggle=\"yes\">C. pasteurianum hydA</italic> was used as the template. <sentence_start/>The measured error is in a range typical of microtiter plate screens. <sentence_start/>If a hit threshold were set two standard deviations above the mean, the screen could identify mutants improved in oxygen tolerance by ∼30-50%."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Assessment of the well-to-well error of the screen in three sets of identically performed 10 µL CFPS reactions."
+  },
+  {
+   "section": "article",
+   "text": "Residual activity following oxygen exposure is represented by the average pre-exposure/post-exposure activity ratio. <sentence_start/>Error bars indicate the standard deviation for n = 88, 72, and 71 wells respectively. <sentence_start/>The coefficient of variance is given above each bar. <sentence_start/>1 and 5 µL of CFPS product were assayed in the pre-exposure and post-exposure measurements, respectively, and the post-exposure activity was normalized to 1 µL. 15 µL of O<sub>2</sub>-equilibrated buffer were used for deactivation. <sentence_start/><italic toggle=\"yes\">C. reinhardtii</italic> HydA1 was expressed in Experiments 1 and 2, and <italic toggle=\"yes\">C. pasteurianum</italic> CpI was expressed in Experiment 3. <sentence_start/>The difference in average residual activity between Experiments 1 and 2 is likely due to differences in the extent of oxygen diffusion out of the aerobic buffer before addition to the hydrogenase solutions, and highlights the need for wild-type controls on each plate."
+  },
+  {
+   "section": "article",
+   "text": "Isolation and characterization of a mutant with improved specific activity"
+  },
+  {
+   "section": "article",
+   "text": "We used this method to screen ∼30,000 <italic toggle=\"yes\">hydA1</italic> mutants (an average of 2 mutants per well of 150 96-well plates). <sentence_start/>We found no hydrogenase mutants that were significantly more oxygen-tolerant than the wild-type. <sentence_start/>However, pre-exposure hydrogen consumption activity measurements of several mutants were significantly higher than wild-type HydA1 activity measurements, and these mutants were selected for further evaluation. <sentence_start/>The DNA templates were recovered from archived PCR plates, re-amplified by PCR, and evaluated by expression in plate-based CFPS followed by activity quantification of the protein products with the methyl viologen activity assay."
+  },
+  {
+   "section": "article",
+   "text": "To measure the specific activity of the most improved mutant, we added the radioactive amino acid L-[U-<sup>14</sup>C]-leucine to the CFPS mixtures, and measured its incorporation into the protein product by TCA precipitation and liquid scintillation counting <citation rid=\"pone.0010554-Kim1\" ref-type=\"bibr\" pmid=\"11410855\" count=\"1\">[44]</citation>. <sentence_start/>We intentionally limited the protein yields in these reactions to promote complete activation, and their proximity to the sensitivity limit of our protein quantification technique led to a significant standard deviation among the measurements. <sentence_start/>We calculated the specific activity in the hydrogen production direction after measuring hydrogen produced over time by CFPS product mixed with sodium dithionite-reduced methyl viologen using an H<sub>2</sub> analyzer <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The most improved HydA1 mutant is more active than the wild-type by a factor of ∼4 (Figure 4). <sentence_start/>Interestingly, the activity of the mutant seems to have increased by the same amount in both directions, indicating that its mutations do not bias its reversibility <citation rid=\"pone.0010554-McTavish1\" ref-type=\"bibr\" pmid=\"7608067\" doi=\"10.1128/jb.177.14.3960-3964.1995\" pmcid=\"PMC177124\" count=\"1\">[45]</citation>. <sentence_start/>The specific activity of the wild-type HydA1 is 150 pmol H<sub>2</sub>/min/ng protein. <sentence_start/>This value is ∼20% of typical activities reported for HydA1 purified after production in hosts naturally possessing [FeFe] hydrogenases <citation rid=\"pone.0010554-Roessler1\" ref-type=\"bibr\" pmid=\"16663691\" doi=\"10.1104/pp.75.3.705\" pmcid=\"PMC1066980\" count=\"1\">[46]</citation>-<citation rid=\"pone.0010554-Happe1\" ref-type=\"bibr\" doi=\"10.1111/j.1432-1033.1993.tb17944.x\" pmid=\"8513797\" count=\"1\">[49]</citation>, but very similar to specific activities reported for protein produced <italic toggle=\"yes\">in vivo</italic> in <italic toggle=\"yes\">E. coli</italic> <citation rid=\"pone.0010554-King1\" ref-type=\"bibr\" pmid=\"16513746\" doi=\"10.1128/JB.188.6.2163-2172.2006\" pmcid=\"PMC1428129\" count=\"1\">[13]</citation>. <sentence_start/>Because of this discrepancy, we cannot rule out the possibility that the isolated mutant is improved in its ability to be activated in the CFPS system rather than in its turnover rate. <sentence_start/>To confirm the improvement, future work will include expression of the mutant in a natural [FeFe] hydrogenase host in place of the wild-type gene."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Specific activities of wild-type and mutant <italic toggle=\"yes\">C. reinhardtii</italic> HydA1."
+  },
+  {
+   "section": "article",
+   "text": "Specific activity was calculated for each using cell-free protein synthesis products in the hydrogen consumption direction (blue bars) and the hydrogen production direction (red bars). <sentence_start/>Error bars indicate the standard deviation of at least n = 4 independent experiments."
+  },
+  {
+   "section": "article",
+   "text": "DNA sequencing revealed two amino acid mutations: G172D and N267S (residue numbers include the 55 amino acid targeting sequence, as in GenBank accession ). <sentence_start/>A multiple sequence alignment generated by ClustalW (Figure S1) showed that both of these amino acids are immediately adjacent in the primary sequence to residues that are highly conserved among [FeFe] hydrogenases. <sentence_start/>Interestingly, both are non-conservative changes. <sentence_start/>No crystal structure is available for <italic toggle=\"yes\">C. reinhardtii</italic> HydA1, but the position corresponding to G172 in the homologous hydrogenase CpI from <italic toggle=\"yes\">Clostridium pasteurianum</italic> <citation rid=\"pone.0010554-Peters1\" ref-type=\"bibr\" pmid=\"9836629\" doi=\"10.1126/science.282.5395.1853\" count=\"1\">[50]</citation> is in an alpha helix approximately 8Å from the active site H-cluster, while the residue corresponding to N267 is on an external loop."
+  },
+  {
+   "section": "article",
+   "text": "This is the first improved [FeFe] hydrogenase to be isolated by directed evolution. <sentence_start/>Previously, a mutant of the large subunit of the <italic toggle=\"yes\">E. coli</italic> [NiFe] hydrogenase 3 was found that improved the hydrogen production capability of its host cell <citation rid=\"pone.0010554-Maeda1\" ref-type=\"bibr\" pmid=\"18335216\" doi=\"10.1007/s00253-008-1416-3\" count=\"1\">[51]</citation>. <sentence_start/>This membrane-bound hydrogenase could not be assayed in purified form. <sentence_start/>The mutant was identified with an <italic toggle=\"yes\">in vivo</italic> screen using chemochromic hydrogen detectors, with a throughput theoretically comparable to that of the screen presented here. <sentence_start/>Recent progress in the <italic toggle=\"yes\">in vivo</italic> expression of [FeFe] hydrogenases in <italic toggle=\"yes\">E. coli</italic> could allow this organism to be used as a host for <italic toggle=\"yes\">in vivo</italic> screening of heterologous [FeFe] hydrogenases using a similar system."
+  },
+  {
+   "section": "article",
+   "text": "Although we developed the screen to search for oxygen-tolerant mutants, it can also be used to identify mutants with increased specific activity, as well as mutants improved in any other activity-related trait. <sentence_start/>For example, thermostable mutants could be identified by incubating the CFPS products at high temperatures and then measuring residual activity. <sentence_start/>Since the screen is based on cell-free protein synthesis of [FeFe] hydrogenase mutants, the experimenter has unfettered access to the protein synthesis, maturation, and activity assay environment, providing flexibility in devising screening conditions that would not be possible in traditional <italic toggle=\"yes\">in vivo</italic> platforms. <sentence_start/>The cell-free nature of the screen may prove especially advantageous when screening for characteristics beneficial for <italic toggle=\"yes\">in vitro</italic> applications such as fuel cells."
+  },
+  {
+   "section": "article",
+   "text": "Our results further validate SIMPLEX as a valuable technique in the repertoire of directed evolution methods. <sentence_start/>The HydA1 hydrogenase from <italic toggle=\"yes\">C. reinhardtii</italic> is a difficult target for both smPCR, because of the 60% GC content of the gene, and CFPS, because of the complexity of the protein. <sentence_start/>The success of SIMPLEX in evolving this protein validates the system for use evolving other complex, industrially-relevant enzymes."
+  },
+  {
+   "section": "article",
+   "text": "The ability of our screen to identify mutants with improved specific activities, while simultaneously failing to identify mutants with improved oxygen tolerance, hints at the relative frequency of the two phenotypes in the mutant library. <sentence_start/>It is possible that any improvement in oxygen tolerance will require multiple simultaneous mutations to close off all of the routes by which oxygen can reach the active cluster. <sentence_start/>If this is the case, either new screens with higher throughputs or a massive effort with a screen such as the one presented here will be required, along with rational or semi-rational library design <citation rid=\"pone.0010554-Liebgott1\" ref-type=\"bibr\" pmid=\"19966788\" doi=\"10.1038/nchembio.276\" count=\"1\">[52]</citation> to restrict the sequence space to be searched."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Template preparation, purification, and dilution"
+  },
+  {
+   "section": "article",
+   "text": "DNA templates for smPCR were linear cell-free protein synthesis expression templates consisting of a codon-optimized gene encoding <italic toggle=\"yes\">C. reinhardtii</italic> HydA1 hydrogenase with a T7 RNA polymerase promoter and terminator and an <italic toggle=\"yes\">E. coli</italic> ribosome binding site <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>. <sentence_start/>The 55 amino-acid targeting sequence following the N-terminal methionine was removed, and the first nine codons of the chloramphenicol acetyltransferase gene, which has been shown to express well in the CFPS system, were inserted after the start codon to ensure accessibility of the RBS on the mRNA transcript. <sentence_start/>The templates were amplified from a plasmid using primers that annealed to sequences on the plasmid outside the expression region, and included 5′ regions that extended the homoprimer annealing sequence of choice onto each end of the linear product. <sentence_start/>Nucleotide analog mutagenesis <citation rid=\"pone.0010554-Zaccolo1\" ref-type=\"bibr\" pmid=\"8568899\" doi=\"10.1006/jmbi.1996.0049\" count=\"1\">[26]</citation> was used to generate mutant libraries."
+  },
+  {
+   "section": "article",
+   "text": "Templates were purified with QiaQuick PCR cleanup kits (Qiagen, Valencia, CA), by purification from Novex TBE polyacrylamide gels (Invitrogen, Carlsbad, CA), or by phenyl chloroform extraction and ethanol precipitation."
+  },
+  {
+   "section": "article",
+   "text": "DNA was quantified by measuring absorption at 260 nm with a spectrophotometer. <sentence_start/>Desired dilution levels were calculated based on the calculated molecular weight of the template molecules (based on an average of 660 Da/bp). <sentence_start/>DNA was serially diluted into TE buffer with 0.1% (w/v) blue dextran, usually in steps of 1 µL into 1 mL. <sentence_start/>Tubes were thoroughly vortexed between dilution steps. <sentence_start/>DNA stocks were diluted to an estimated concentration of 100 molecules/µL for use in SIMPLEX screens. <sentence_start/>The concentrations of working stocks were confirmed by Poisson distribution experiments as described, and the amount added to the smPCR mixture was adjusted as necessary to achieve the desired number of molecules per well of a PCR plate."
+  },
+  {
+   "section": "article",
+   "text": "Single-molecule PCR"
+  },
+  {
+   "section": "article",
+   "text": "Single-molecule PCR reaction mixtures consisted of 1X manufacturer's PCR buffer (supplemented with magnesium chloride to 2 mM when necessary); 0.2 mM of each of the four deoxyribonucleotides; 0.5 µM of the homoprimer; either 0.02 units/µL Platinum Taq (Stratagene, La Jolla, CA), 0.03 units/µL Pfu Turbo (Stratagene, La Jolla, CA), 0.03 units/µL Pfu Ultra (Stratagene, La Jolla, CA), or 0.02 units/µL Phusion (Finnzymes, Espoo, Finland); and template DNA. <sentence_start/>Reaction volumes were typically 7 µL. <sentence_start/>Reactions were prepared in a laminar flow hood (Nuaire, Plymouth, MN) to prevent contamination."
+  },
+  {
+   "section": "article",
+   "text": "Reactions were incubated at 95°C for one minute to activate the hot-start polymerase and denature the template, then thermocycled 80 times through 10 seconds at 95°C, 20 seconds at 55°C, and an extension temperature and time recommended by the manufacturer (generally 72°C for 1 minute/kb of template length). <sentence_start/>When Phusion polymerase was used, the denaturation step was 5 seconds at 98°C, the annealing temperature was 62°C, and the extension time was 15 seconds/kilobase."
+  },
+  {
+   "section": "article",
+   "text": "Cell-free protein synthesis"
+  },
+  {
+   "section": "article",
+   "text": "Extracts were prepared anaerobically from <italic toggle=\"yes\">E. coli</italic> BL21 cultures expressing the three helper proteins required for maturation of [FeFe] hydrogenases <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>. <sentence_start/>Cells were grown aerobically on a defined medium <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation> at 37°C in a fermenter to OD ∼6-8. <sentence_start/>The culture was then made anaerobic by switching the gas feed from air to argon. <sentence_start/>After 45 minutes, the temperature was dropped to 15°C, and expression of the helper proteins was induced by addition of 0.5 mM IPTG. <sentence_start/>At this point the medium was also supplemented with 0.33 mg/mL ferric ammonium citrate and 10 mM fumarate. <sentence_start/>After 16 hours the cells were harvested, pelleted, washed, and homogenized, and the lysate centrifuged and frozen, as described previously <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation> except that all the steps were performed under aerobic conditions. <sentence_start/>Before use in CFPS reactions, the extract was incubated at room temperature with 1 mM ferrous ammonium sulfate and 1 mM sodium sulfide for 1-2 hours <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "CFPS reactions were conducted in 384-well PCR plates. <sentence_start/>7.5 µL reaction mixtures were prepared by adding 3 µL of Mix 1 to a well, then 1.5 µL of crude smPCR product, then 3 µL of Mix 2. <sentence_start/>Mix 1 consisted of small molecule cofactors (listed in Table S1 at their concentrations in the final CFPS mixture). <sentence_start/>Mix 2 consisted of the following, given with their concentrations in the final CFPS mixture: 0.1 mg/mL T7 RNA polymerase (overexpressed in <italic toggle=\"yes\">E. coli</italic> and purified in house), 6.7 µg/mL lambda phage Gam protein (expressed in CFPS and purified in house), 0.01% 31R1 antifoam (Sigma Aldrich, St Louis, MO), and 25% v/v cell extract. <sentence_start/><sup>14</sup>C-leucine was omitted in the high-throughput screen reactions but included at 5.25 µM when characterizing hits to allow quantification of synthesized protein by scintillation counting of incorporated radiation <citation rid=\"pone.0010554-Kim1\" ref-type=\"bibr\" pmid=\"11410855\" count=\"1\">[44]</citation>. <sentence_start/>Reactions were incubated for between six and 16 hours at room temperature in an anaerobic glove box (Coy Laboratory Products, Grass Lake, MI) before being assayed."
+  },
+  {
+   "section": "article",
+   "text": "Methyl viologen activity assay"
+  },
+  {
+   "section": "article",
+   "text": "Activity of the hydrogenase produced in the CFPS reactions was obtained by measuring the rate of change of the absorbance at 578 nm of 200 µL of a 2 mM solution of methyl viologen in 50 mM Tris buffer at pH 8 with a VersaMax plate reader (Molecular Devices, Sunnyvale, CA) following addition of CFPS product. <sentence_start/>Immediately before the assay was conducted, the methyl viologen solution was reduced by addition of titanium citrate until a light blue color persisted. <sentence_start/>Absorbance was monitored for two minutes at room temperature in 96-well flat-bottom plates. <sentence_start/>Slopes were converted into activity using Beer's Law with an extinction coefficient of 9.78 AU/min/mM."
+  },
+  {
+   "section": "article",
+   "text": "Oxygen exposure"
+  },
+  {
+   "section": "article",
+   "text": "50 mM Tris buffer at pH 8 was stored outside the glove box and allowed to come to equilibrium with oxygen, so that the dissolved oxygen concentration was expected to be ∼0.25 mM. <sentence_start/>A small vial was filled to the brim with this solution to minimize headspace, sealed, and moved into the anaerobic chamber immediately before the oxygen exposure step in the protocol. <sentence_start/>The vial was opened and the buffer poured into a trough, from which it was aspirated by a multichannel pipetter or the multichannel head of a liquid handler. <sentence_start/>A volume of buffer expected to deactivate the CFPS product to the desired extent was dispensed into each well of the oxygen-exposure plate. <sentence_start/>The plate was incubated for 10 minutes, after which time methyl viologen could be added to assay residual activity. <sentence_start/>No decrease in blue color was noticeable upon methyl viologen addition, indicating that after 10 minutes all the oxygen had either been consumed by the extract or had diffused into the atmosphere of the anaerobic chamber."
+  },
+  {
+   "section": "article",
+   "text": "High-throughput activity measurements"
+  },
+  {
+   "section": "article",
+   "text": "A liquid handling machine (EpMotion 5070, Eppendorf North America, Westbury, NY) first pipetted 72 µL of anaerobic Tris buffer (50 mM, pH 8) into each well of eight 96-well spectrophotometer plates, four for pre-oxygen exposure and four for post-oxygen exposure activity measurements of the mutant proteins in one 384-well CFPS plate. <sentence_start/>6 µL of CFPS product were transferred from the 384-well CFPS reaction plate into the wells of four of the 96-well plates, and mixed with the buffer by pipetting up and down five times. <sentence_start/>13 µL were then transferred from these wells to the corresponding wells of the other four plates, and again mixed. <sentence_start/>These plates, which would be used for the pre-oxygen exposure measurements, thus contained 1/5 as much CFPS product as did the first set of plates, which would be used for the post-oxygen exposure measurements. <sentence_start/>After the liquid handler dispensed 20 µL of air-equilibrated buffer into each well of the post-deactivation plates, the wells of all eight plates contained 85 µL of liquid. <sentence_start/>115 µL of methyl viologen solution was then added to each well to give a final concentration of 2 mM, and the plate was immediately inserted into the spectrophotometer."
+  },
+  {
+   "section": "article",
+   "text": "Hit confirmation and characterization"
+  },
+  {
+   "section": "article",
+   "text": "Genes were reamplified by PCR and re-tested in replicate CFPS reactions. <sentence_start/>Radioactive leucine was added to allow quantification of protein production by TCA precipitation and liquid scintillation counting <citation rid=\"pone.0010554-Kim1\" ref-type=\"bibr\" pmid=\"11410855\" count=\"1\">[44]</citation>. <sentence_start/>Specific activity in the hydrogen consumption direction was calculated by dividing the hydrogen consumption rate determined from the methyl viologen assay data by the soluble protein yield determined by measurement of incorporated radioactive leucine. <sentence_start/>Mutants were tested for hydrogen production ability using a Peak Performer hydrogen analyzer (Peak Laboratories, Mountain View, CA) as previously reported <citation rid=\"pone.0010554-Boyer1\" ref-type=\"bibr\" pmid=\"17546685\" doi=\"10.1002/bit.21511\" count=\"1\">[14]</citation>. <sentence_start/>Crude CFPS solution containing 10-40 ng of hydrogenase was added to 1 mL of a solution consisting of 5 mM methyl viologen and 25 mM sodium dithionite in 50 mM Tris-HCl pH 6.8 in a sealed vial. <sentence_start/>The headspace was exchanged with nitrogen, and 100 µL samples were removed from the headspace with a syringe and injected into the hydrogen analyzer. <sentence_start/>Specific activity in the hydrogen production direction was calculated by dividing the hydrogen production rate calculated from the hydrogen analyzer data by the soluble protein yield calculated by measurement of incorporated radioactive leucine. <sentence_start/>Due to the observed dependence of the percentage of hydrogenase that is matured on the expression level, specific activities were only compared when the expression levels of each sample were similar."
+  },
+  {
+   "section": "article",
+   "text": "For molecular modeling, we used the PyMOL Molecular Graphics System with PDB entry 1feh."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "Multiple sequence alignment of representative [FeFe] hydrogenases. <sentence_start/>Asterisks, colons, and periods indicate locations with homology across different species. <sentence_start/>Red dots indicate the locations of the mutations identified in this study. <sentence_start/>Both mutations are adjacent to highly conserved residues. <sentence_start/>CpI: HydA from <italic toggle=\"yes\">Clostridium pasteurianum</italic>. <sentence_start/>C.r.<sentence_start/>HydA1 and C.r.<sentence_start/>HydA2: HydA1 and HydA2 from <italic toggle=\"yes\">Chlamydomonas reinhardtii</italic>."
+  },
+  {
+   "section": "article",
+   "text": "(2.64 MB TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Table S1"
+  },
+  {
+   "section": "article",
+   "text": "Final concentrations of small molecule components of the CFPS mixture."
+  },
+  {
+   "section": "article",
+   "text": "(0.04 MB DOC)"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>This work was funded by the Global Climate and Energy Project (GCEP) at Stanford University ( ) as well as a National Defense Science and Engineering (NDSEG) Fellowship ( ) to JAS. <sentence_start/>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+  }
+ ]
+}

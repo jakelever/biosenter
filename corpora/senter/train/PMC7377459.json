@@ -1,0 +1,371 @@
+{
+ "pmid": 32702049,
+ "pmcid": 7377459,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Coupling of store-operated calcium entry to vasoconstriction is acid-sensing ion channel 1a dependent in pulmonary but not mesenteric arteries"
+  },
+  {
+   "section": "abstract",
+   "text": "Although voltage-gated Ca<sup>2+</sup> channels (VGCC) are a major Ca<sup>2+</sup> entry pathway in vascular smooth muscle cells (VSMCs), several other Ca<sup>2+</sup>-influx mechanisms exist and play important roles in vasoreactivity. <sentence_start/>One of these is store-operated Ca<sup>2+</sup> entry (SOCE), mediated by an interaction between STIM1 and Orai1. <sentence_start/>Although SOCE is an important mechanism of Ca<sup>2+</sup> influx in non-excitable cells (cells that lack VGCC); there is debate regarding the contribution of SOCE to regulate VSMC contractility and the molecular components involved. <sentence_start/>Our previous data suggest acid-sensing ion channel 1a (ASIC1a) is a necessary component of SOCE and vasoconstriction in small pulmonary arteries. <sentence_start/>However, it is unclear if ASIC1a similarly contributes to SOCE and vascular reactivity in systemic arteries. <sentence_start/>Considering the established role of Orai1 in mediating SOCE in the systemic circulation, we hypothesize the involvement of ASIC1a in SOCE and resultant vasoconstriction is unique to the pulmonary circulation. <sentence_start/>To test this hypothesis, we examined the roles of Orai1 and ASIC1a in SOCE- and endothelin-1 (ET-1)-induced vasoconstriction in small pulmonary and mesenteric arteries. <sentence_start/>We found SOCE is coupled to vasoconstriction in pulmonary arteries but not mesenteric arteries. <sentence_start/>In pulmonary arteries, inhibition of ASIC1a but not Orai1 attenuated SOCE- and ET-1-induced vasoconstriction. <sentence_start/>However, neither inhibition of ASIC1a nor Orai1 altered ET-1-induced vasoconstriction in mesenteric arteries. <sentence_start/>We conclude that SOCE plays an important role in pulmonary, but not mesenteric, vascular reactivity. <sentence_start/>Furthermore, in contrast to the established role of Orai1 in SOCE in non-excitable cells, the SOCE response in pulmonary VSMCs is largely mediated by ASIC1a."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Vascular smooth muscle cell (VSMC) contraction and relaxation play an important role in the regulation of vascular resistance and blood pressure control. <sentence_start/>It is well established that contraction is triggered by an increase in intracellular free calcium concentration ([Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic>) mediated by a rapid Ca<sup>2+</sup> release from intracellular stores and transmembrane Ca<sup>2+</sup> influx through a variety of plasma membrane ion channels, exchangers, and transporters. <sentence_start/>Although Ca<sup>2+</sup> influx in VSMC is thought to be mediated primarily by L-type voltage-gated Ca<sup>2+</sup> channels (VGCC), it has become increasingly clear that Ca<sup>2+</sup> influx through non-selective cation channels (NSCC) plays an important role in regulating vascular tone. <sentence_start/>These include 1) receptor-operated channels (ROCs) which are regulated by agonist-receptor interaction and downstream signal transduction [<citation rid=\"pone.0236288.ref001\" ref-type=\"bibr\" doi=\"10.1152/physrev.1979.59.3.606\" pmid=\"37533\" count=\"1\">1</citation>]; 2) capacitative or store-operated channels (SOCs) which are activated by depletion of intracellular Ca<sup>2+</sup> stores [<citation rid=\"pone.0236288.ref002\" ref-type=\"bibr\" doi=\"10.1152/physrev.1997.77.4.901\" pmid=\"9354808\" count=\"1\">2</citation>, <citation rid=\"pone.0236288.ref003\" ref-type=\"bibr\" doi=\"10.1016/0143-4160(90)90016-n\" pmid=\"1965707\" count=\"1\">3</citation>]; 3) mechanosensitive or stretch-activated channels (SACs) which are activated by membrane stretch [<citation rid=\"pone.0236288.ref004\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.1992.263.4.H1292\" pmid=\"1329564\" count=\"1\">4</citation>, <citation rid=\"pone.0236288.ref005\" ref-type=\"bibr\" doi=\"10.1007/BF01907549\" pmid=\"2459658\" count=\"1\">5</citation>]; and 4) constitutively active cation channels which are spontaneously active (reviewed in [<citation rid=\"pone.0236288.ref006\" ref-type=\"bibr\" doi=\"10.1113/jphysiol.2005.096875\" pmid=\"16195316\" pmcid=\"PMC1464290\" count=\"1\">6</citation>]). <sentence_start/>However, the molecular identity and the functional role of these channels to mediate vasoconstriction is still a matter of debate. <sentence_start/>Complicating matters is the fact that multiple Ca<sup>2+</sup>-permeable channels are expressed in a given vascular bed and the functional relevance of different Ca<sup>2+</sup> channels within the vascular bed remains unclear. <sentence_start/>Therefore, it is necessary to gain a better understanding of the heterogeneity that exists in Ca<sup>2+</sup> signaling among vascular beds."
+  },
+  {
+   "section": "article",
+   "text": "Increases in VSMC [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> in response to neurohumoral stimuli (norepinephrine/epinephrine) and vasoactive peptides (angiotensin II and endothelin-1) results from activation of phospholipase C (PLC) associated G-protein coupled receptors [<citation rid=\"pone.0236288.ref007\" ref-type=\"bibr\" doi=\"10.1016/j.jash.2008.09.002\" pmid=\"20161229\" pmcid=\"PMC2704475\" count=\"1\">7</citation>]. <sentence_start/>Activation of PLC leads to the hydrolysis of phosphatidylinositol 4,5-bisphosphate (PIP<sub>2</sub>) generating the second messengers, inositol trisphosphate (IP<sub>3</sub>) and diacylglycerol (DAG). <sentence_start/>IP<sub>3</sub> activates IP<sub>3</sub> receptors (IP<sub>3</sub>R) on the sarcoplasmic reticulum (SR) and stimulates Ca<sup>2+</sup> release. <sentence_start/>Plasma membrane SOCs are activated secondary to depletion of SR Ca<sup>2+</sup> stores, a mechanism known as store-operated Ca<sup>2+</sup> entry (SOCE) or capacitative Ca<sup>2+</sup> entry. <sentence_start/>SOCE facilitates the refilling of Ca<sup>2+</sup>-depleted SR stores and is therefore critical to SR Ca<sup>2+</sup> homeostasis [<citation rid=\"pone.0236288.ref008\" ref-type=\"bibr\" doi=\"10.1016/j.ceca.2010.03.001\" pmid=\"20347143\" count=\"1\">8</citation>]. <sentence_start/>In VSMCs, SOCE is known to participate in other physiological processes such as vascular tone regulation [<citation rid=\"pone.0236288.ref009\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.01148.2007\" pmid=\"18156193\" count=\"1\">9</citation>, <citation rid=\"pone.0236288.ref010\" ref-type=\"bibr\" doi=\"10.1161/ATVBAHA.111.243014\" pmid=\"22223729\" count=\"1\">10</citation>], vasculogenesis, and cell proliferation [<citation rid=\"pone.0236288.ref010\" ref-type=\"bibr\" doi=\"10.1161/ATVBAHA.111.243014\" pmid=\"22223729\" count=\"1\">10</citation>, <citation rid=\"pone.0236288.ref011\" ref-type=\"bibr\" doi=\"10.1113/jphysiol.2005.098426\" pmid=\"16223758\" pmcid=\"PMC1464285\" count=\"1\">11</citation>]. <sentence_start/>However, the coupling of SOCE to contraction has been shown to differ widely among vascular beds. <sentence_start/>Snetkov et al. demonstrated that even though induction of SOCE results in similar increases in [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> in intrapulmonary, mesenteric, renal, femoral, and coronary arteries; the corresponding contraction was only observed in intrapulmonary arteries [<citation rid=\"pone.0236288.ref012\" ref-type=\"bibr\" doi=\"10.1038/sj.bjp.0705408\" pmid=\"12967939\" pmcid=\"PMC1574006\" count=\"1\">12</citation>]. <sentence_start/>As the potential differential responses to SOCE between various vascular beds are likely due to regional differences in the molecular components of SOCE, the objective of this study is to identify the ion channels involved in coupling SOCE to vasoconstriction."
+  },
+  {
+   "section": "article",
+   "text": "Stromal interaction molecule 1 (STIM1) is the key molecule involved in sensing levels of Ca<sup>2+</sup> in the SR [<citation rid=\"pone.0236288.ref013\" ref-type=\"bibr\" doi=\"10.1016/j.cub.2005.05.055\" pmid=\"16005298\" pmcid=\"PMC3186072\" count=\"1\">13</citation>, <citation rid=\"pone.0236288.ref014\" ref-type=\"bibr\" doi=\"10.1083/jcb.200502019\" pmid=\"15866891\" pmcid=\"PMC2171946\" count=\"1\">14</citation>]. <sentence_start/>Upon store depletion, STIM1 undergoes a conformational change, multimerizes, and translocate to regions of the SR adjacent to the plasma membrane where subsequent binding of STIM1 to Ca<sup>2+</sup>-permeable channels triggers the influx of Ca<sup>2+</sup> across the plasma membrane [<citation rid=\"pone.0236288.ref015\" ref-type=\"bibr\" doi=\"10.1152/physrev.00020.2014\" pmid=\"26400989\" pmcid=\"PMC4600950\" count=\"1\">15</citation>]. <sentence_start/>Two different types of ionic current are evoked by store-depletion: 1) a high selectivity Ca<sup>2+</sup> current mediated by a Ca<sup>2+</sup> release-activated channel (CRAC) called Orai1 [<citation rid=\"pone.0236288.ref016\" ref-type=\"bibr\" doi=\"10.1038/nature05637\" pmid=\"17361175\" count=\"1\">16</citation>] and 2) NSCC current [<citation rid=\"pone.0236288.ref017\" ref-type=\"bibr\" doi=\"10.1161/01.res.88.1.84\" pmid=\"11139478\" count=\"1\">17</citation>, <citation rid=\"pone.0236288.ref018\" ref-type=\"bibr\" doi=\"10.1016/S0143-4160(03)00048-4\" pmid=\"12765681\" count=\"1\">18</citation>]. <sentence_start/>Several members of the transient receptor potential canonical (TRPC) channel family have been proposed to act as SOCs (reviewed in [<citation rid=\"pone.0236288.ref019\" ref-type=\"bibr\" doi=\"10.1016/j.ceca.2007.01.013\" pmid=\"17350680\" count=\"1\">19</citation>, <citation rid=\"pone.0236288.ref020\" ref-type=\"bibr\" doi=\"10.1016/j.ceca.2007.03.004\" pmid=\"17517433\" pmcid=\"PMC2764400\" count=\"1\">20</citation>]), although this topic continues to be widely debated [<citation rid=\"pone.0236288.ref021\" ref-type=\"bibr\" doi=\"10.1007/978-3-319-05161-1_13\" pmid=\"24961979\" count=\"1\">21</citation>-<citation rid=\"pone.0236288.ref023\" ref-type=\"bibr\" doi=\"10.1007/978-3-319-26974-0_5\" pmid=\"27161226\" count=\"1\">23</citation>]. <sentence_start/>Previous work from our laboratory has shown that inhibition of acid-sensing ion channel 1a (ASIC1a) diminishes SOCE and associated vasoconstriction in pulmonary VSMC [<citation rid=\"pone.0236288.ref024\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00020.2009\" pmid=\"19482897\" pmcid=\"PMC2742795\" count=\"1\">24</citation>]. <sentence_start/>ASIC1a is a NSCC that belongs to the amiloride-sensitive degenerin/epithelial sodium channel (DEG/ENaC) superfamily. <sentence_start/>ASICs are known to be permeable to Na<sup>+</sup>, however homomeric ASIC1a channels can also conduct Ca<sup>2+</sup> [<citation rid=\"pone.0236288.ref025\" ref-type=\"bibr\" doi=\"10.1038/386173a0\" pmid=\"9062189\" count=\"1\">25</citation>-<citation rid=\"pone.0236288.ref027\" ref-type=\"bibr\" doi=\"10.1073/pnas.0308636100\" pmid=\"15082829\" pmcid=\"PMC404117\" count=\"1\">27</citation>]. <sentence_start/>Although the ASICs are classically activated by extracellular acidosis; various non-proton ligands, effector proteins, and signaling molecules also regulate the function of ASICs [<citation rid=\"pone.0236288.ref028\" ref-type=\"bibr\" doi=\"10.1016/j.neuron.2010.09.001\" pmid=\"20920791\" count=\"1\">28</citation>, <citation rid=\"pone.0236288.ref029\" ref-type=\"bibr\" doi=\"10.1186/1756-6606-6-1\" pmid=\"23281934\" pmcid=\"PMC3562204\" count=\"1\">29</citation>]. <sentence_start/>It is unclear if ASIC1a similarly contributes to SOCE and vascular reactivity in systemic arteries. <sentence_start/>Considering the established role of Orai1 in mediating SOCE in the systemic circulation, we hypothesize the involvement of ASIC1a in SOCE and resultant vasoconstriction is unique to the pulmonary circulation. <sentence_start/>To test this hypothesis, we have examined the roles of ASIC1a and Orai1 in SOCE- and endothelin-1-induced vasoconstriction in both small pulmonary and mesenteric arteries."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "All protocols employed were reviewed and approved by the Institutional Animal Care and Use Committee of the University of New Mexico School of Medicine (Albuquerque, NM) and abide by the National Institutes of Health guidelines for animal use. <sentence_start/>Fifty-two adult male Wistar rats (200-250 g body wt, Envigo) were used in this study. <sentence_start/>Animals were housed in polyacrylic cages (1-3 per cage) supplied with bedding (shredded paper) and polycarbonate rodent tunnels and other items for environmental enrichment. <sentence_start/>Animals were housed in a specific pathogen-free animal care facility and maintained on a 12:12 hour light-dark cycle. <sentence_start/>Water and standard chow (Teklad soy protein-free diet no. 2920; Envigo) were provided <italic toggle=\"yes\">ad libitum</italic>. <sentence_start/>Rats were anesthetized with an overdose of pentobarbital sodium (200 mg/kg ip) and immediately euthanized by exsanguination after the loss of consciousness."
+  },
+  {
+   "section": "article",
+   "text": "Assessment of SOCE and vasoreactivity in isolated, pressurized pulmonary and mesenteric resistance arteries"
+  },
+  {
+   "section": "article",
+   "text": "To determine simultaneous changes in vasoreactivity and [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic>, small resistance arteries were cannulated and pressurized for dimensional and fluorescence analysis as previously described [<citation rid=\"pone.0236288.ref024\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00020.2009\" pmid=\"19482897\" pmcid=\"PMC2742795\" count=\"1\">24</citation>, <citation rid=\"pone.0236288.ref030\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00465.2016\" pmid=\"27765747\" pmcid=\"PMC5206343\" count=\"1\">30</citation>]. <sentence_start/>Following euthanasia, the lungs or mesentery were removed and immediately placed in PSS [pH adjusted to 7.4 with NaOH containing (in mM) 130 NaCl, 4 KC1, 1.2 MgSO<sub>4</sub>, 4 NaHCO<sub>3</sub>, 1.8 CaC1<sub>2</sub>, 10 HEPES, 1.18 KH<sub>2</sub>PO<sub>4</sub>, 6 glucose]. <sentence_start/>Fourth- to fifth-order pulmonary (~ 125 μm inner diameter) and third- to fourth-order mesenteric arteries (~ 150 μm inner diameter; Table 2); of ∼1-mm length and without visible side branches were dissected free and transferred to a vessel chamber (CH-1, Living Systems). <sentence_start/>The proximal end of the artery was cannulated with a tapered glass pipette, secured in place with a single strand of silk ligature, and gently flushed to remove any blood from the lumen. <sentence_start/>The vessel was stretched longitudinally to approximate in situ length and pressurized with a servo-controlled peristaltic pump (Living Systems) to 12 mmHg (pulmonary) or 75 mmHg (mesenteric). <sentence_start/>Arteries were required to hold steady pressure on switching off the servo-control function to verify the absence of leaks; any vessel with apparent leaks was discarded. <sentence_start/>The vessel chamber was superfused with PSS; at 5 ml/min at 37°C. <sentence_start/>Images were obtained using an Eclipse TS100 microscope (Nikon) and IonOptix CCD100M camera to measure inner diameter, and dimensional analysis was performed by IonOptix Ion Wizard software (IonOptix). <sentence_start/>Arteries were incubated at room temperature with PSS containing the cell-permeable ratiometric Ca<sup>2+</sup>-sensitive fluorescent dye fura-2 acetoxymethyl ester (fura-2 AM, 2 μM; Life Technologies, F1201, lot #2021739) and 0.02% pluronic acid (Life Technologies, P3000MP, lot #1990297) for 45 min, as previously described [<citation rid=\"pone.0236288.ref031\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00332.2011\" pmid=\"22205392\" pmcid=\"PMC3311238\" count=\"1\">31</citation>]. <sentence_start/>Fura-2-loaded vessels were alternately excited at 340 and 380 nm at a frequency of 1 Hz with an IonOptix Hyperswitch dual-excitation light source, and the respective 510-nm emissions were collected with a photomultiplier tube. <sentence_start/>After subtracting background fluorescence, emission ratios (F<sub>340</sub>/F<sub>380</sub>) were calculated with Ion Wizard software (IonOptix) and recorded continuously throughout the experiment."
+  },
+  {
+   "section": "article",
+   "text": "Experiments were conducted in the absence or presence of the L-type VGCC inhibitor, diltiazem (50 μM; Sigma, D2521, lot #MKCD7486); the specific ASIC1a inhibitor, psalmotoxin 1 (PcTX1; 20 nM; Phoenix Peptides, 063-22, lot #433599); or the specific Orai1 inhibitor, AnCoA4 (20 μM; Millipore Sigma, 532999, lot #3030527). <sentence_start/>We have previously demonstrated that this concentration of diltiazem (50 μM) prevents increases in the vessel [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> and vasoconstriction-induced by the depolarizing stimulus, KCl (50 mM) [<citation rid=\"pone.0236288.ref032\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00308.2004\" pmid=\"16243900\" count=\"1\">32</citation>]. <sentence_start/>PcTX1 has been reported to selectively inhibit ASIC1a isoform over other ASICs [<citation rid=\"pone.0236288.ref033\" ref-type=\"bibr\" doi=\"10.1074/jbc.M003643200\" pmid=\"10829030\" count=\"1\">33</citation>]. <sentence_start/>Furthermore, we have previously shown that this concentration of PcTX1 has similar effects to those seen in pulmonary VSMCs of ASIC1 null mice [<citation rid=\"pone.0236288.ref034\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00040.2016\" pmid=\"27190058\" pmcid=\"PMC4967194\" count=\"1\">34</citation>, <citation rid=\"pone.0236288.ref035\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00159.2017\" pmid=\"29070491\" pmcid=\"PMC5866437\" count=\"1\">35</citation>]. <sentence_start/>AnCoA4 reduces the Orai1 association to STIM1 and consequently blocks SOCE [<citation rid=\"pone.0236288.ref036\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2014.08.016\" pmid=\"25308275\" count=\"1\">36</citation>]. <sentence_start/>We have previously determined this concentration of AnCoA4 inhibits SOCE in pulmonary arterial endothelial cells and pulmonary microvascular endothelial cells [<citation rid=\"pone.0236288.ref037\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00540.2017\" pmid=\"29101179\" pmcid=\"PMC5867657\" count=\"1\">37</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Store-operated Ca<sup>2+</sup> entry"
+  },
+  {
+   "section": "article",
+   "text": "Fura-2-loaded arteries were superfused with Ca<sup>2+</sup>-free, PSS (in mM: 130 NaCl, 4 KC1, 1.2 MgSO4, 4 NaHCO3, 10 HEPES, 1.18 KH2PO4, 6 glucose, 3 EGTA; pH adjusted to 7.4 with NaOH) containing 50 μM diltiazem to prevent Ca<sup>2+</sup> entry through L-type VGCC, and 10 μM cyclopiazonic acid (CPA; Calbiochem, 23905) to deplete intracellular Ca<sup>2+</sup> stores and prevent Ca<sup>2+</sup> reuptake through the sarcoplasmic reticulum Ca<sup>2+</sup>-ATPase for 15 minutes before replenishing the perfusate with Ca<sup>2+</sup>. <sentence_start/>The changes in [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> were determined upon the repletion of HEPES-based PSS containing 1.8 mM CaCl<sub>2</sub> in the continued presence of diltiazem and CPA. <sentence_start/>SOCE was calculated as the change (Δ) in fura-2 ratio between Ca<sup>2+</sup>-depleted state and Ca<sup>2+</sup>-depleted state."
+  },
+  {
+   "section": "article",
+   "text": "Endothelin-1 responses"
+  },
+  {
+   "section": "article",
+   "text": "Endothelin-1 (ET-1; Sigma-Aldrich, E7764, lot #088M4849V) induced vasoconstrictor reactivity and changes in the vessel wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> were assessed by superfusion (5 ml/min at 37°C) of cumulative concentrations of ET-1 in isolated pulmonary (10<sup>−11</sup> to 10<sup>−7</sup> M) and mesenteric (10<sup>−11</sup> to 10<sup>−8</sup> M) arteries."
+  },
+  {
+   "section": "article",
+   "text": "Generation of primary pulmonary and mesenteric smooth muscle cell cultures"
+  },
+  {
+   "section": "article",
+   "text": "Intrapulmonary and mesenteric arteries (~2nd-5th order) were dissected from surrounding tissue and enzymatically digested. <sentence_start/>Pulmonary arteries were digested in reduced-Ca<sup>2+</sup> Hank’s balanced salt solution (HBSS) containing papain (26 U/ml), type-I collagenase (1,750 U/ml), dithiothreitol (1 mg/ml), and BSA (2 mg/ml) at 37°C for 30 min. <sentence_start/>Mesenteric arteries were digested in reduced-Ca<sup>2+</sup> HBSS containing HEPES (15 mM), elastase (11.25 U/ml), soybean trypsin inhibitor type 1-S (1 mg/ml), type-I collagenase (180 U/ml), and BSA (2 mg/ml) at 37°C for 45 min. <sentence_start/>Single smooth muscle cells were dispersed by gentle trituration with a fire-polished pipette in Ca<sup>2+</sup>-free HBSS. <sentence_start/>Pulmonary VSMC were plated in Ham’s F-12 media supplemented with 5% fetal bovine serum and 1% penicillin/streptomycin. <sentence_start/>Mesenteric VSMC were plated in DMEM media supplemented with 10% fetal bovine serum, L-glutamine (2 mM), HEPES buffer (25 mM), and 1% penicillin/streptomycin. <sentence_start/>All cells were grown in a humidified atmosphere of 5% CO<sub>2</sub>-95% air at 37°C. <sentence_start/>Pulmonary and mesenteric VSMC purity was verified by morphological appearance and the presence of smooth muscle 22α (transgelin; S1 Fig). <sentence_start/>Furthermore, PCR showed the appearance of smooth muscle α-actin and lacked expression of the neuronal marker, calcitonin gene-related peptide (S1 Fig)."
+  },
+  {
+   "section": "article",
+   "text": "Determination of ASIC1a and Orai1 expression"
+  },
+  {
+   "section": "article",
+   "text": "RT-PCR"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was extracted using TRIzol from pulmonary and mesenteric arteries. <sentence_start/>Brain tissue was used as a positive control. <sentence_start/>One μg of total RNA was reversed transcribed into cDNA using the Transcription First-Strand cDNA Synthesis kit (Roche). <sentence_start/>PCR was performed on cDNA with the iCycler PCR system (Bio-Rad) using REDExtract-N_Amp PCR ReadyMix (Sigma) and specific primers (Table 1) to detect transcripts for ASIC1a, Orai1, and β-actin. <sentence_start/>PCR products were separated using gel electrophoresis on a 3% agarose gel and stained with ethidium bromide for visualization under UV light."
+  },
+  {
+   "section": "article",
+   "text": "Western blotting analysis"
+  },
+  {
+   "section": "article",
+   "text": "Orai1 and ASIC1a protein expression were determined by Western blot analysis. <sentence_start/>Pulmonary and mesenteric arteries were homogenized in 10 mM Tris·HCl homogenization buffer (containing 255 mM sucrose, 2 mM EDTA, 12 μM leupeptin, 1 μM pepstatin A, and 0.3μM aprotinin) with a glass homogenizer. <sentence_start/>The lysate (60 μg) was separated by SDS-PAGE (7.5% or 12% Tris/glycine) and transferred to a polyvinylidene difluoride membrane. <sentence_start/>The blot was blocked for 1 h with 5% milk and then incubated at 4°C with rabbit anti-Orai1 (1.5 hrs @ 1:300; Proteintech: 14443-1-AP; expected MW 35-44 kDa) or rabbit anti-ASIC1a (48 hrs @ 1:500; Millipore: AB5674P; reported MW ~60 and ~100 kDa). <sentence_start/>For immunochemical labeling, blots were incubated with anti-rabbit IgG-horseradish peroxidase (1 hr @ 1:3,000; Bio-Rad). <sentence_start/>Following chemiluminescence labeling (ECL; Pierce), Proteins were detected by exposing the blot to chemiluminescence-sensitive film (GeneMate)."
+  },
+  {
+   "section": "article",
+   "text": "Determination of ASIC1a-STIM1 and Orai1-STIM1 colocalization"
+  },
+  {
+   "section": "article",
+   "text": "Protein-protein interactions were determined in smooth muscle cells using Duolink in situ proximity ligation assay (PLA) as previously described [<citation rid=\"pone.0236288.ref034\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00040.2016\" pmid=\"27190058\" pmcid=\"PMC4967194\" count=\"1\">34</citation>, <citation rid=\"pone.0236288.ref038\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00091.2015\" pmid=\"26702130\" pmcid=\"PMC4971828\" count=\"1\">38</citation>]. <sentence_start/>Cells were plated on 18-well slides (Ibidi) and grown until ~75% confluent. <sentence_start/>In some experiments, cells were pretreated with Ca<sup>2+</sup> free PSS plus CPA to induce SOCE before the cells were fixed with 2% paraformaldehyde. <sentence_start/>Following fixation, samples were incubated with Duolink blocking buffer for 30 min at 37°C then incubated overnight with mouse anti-STIM1 (1:50; BD Biosciences 610954) and goat anti-ASIC1a (1:50; Santa Cruz Biotechnology: sc-13903) or rabbit anti-Orai1 (1:100; Alomone ACC-062). <sentence_start/>We have previously determined the specificity of goat anti-ASIC1a using wild-type and knockout mice [<citation rid=\"pone.0236288.ref039\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00269.2013\" pmid=\"24186095\" pmcid=\"PMC3920158\" count=\"1\">39</citation>], and the specificity of rabbit anti-Orai1 using control and siRNA-treated cells [<citation rid=\"pone.0236288.ref037\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00540.2017\" pmid=\"29101179\" pmcid=\"PMC5867657\" count=\"1\">37</citation>]. <sentence_start/>Cells were then incubated with anti-mouse PLUS and anti-goat MINUS or anti-rabbit MINUS PLA probes (1:5) for 1 h at 37°C. <sentence_start/>Negative controls were completed by incubation of each primary antibody individually. <sentence_start/>Samples were amplified with Duolink In Situ Detection Reagent Orange (excitation/emission: 554/579 nm; Sigma- Aldrich) for 100 min at 37°C. SYTOX Green (1:10,000; Invitrogen) was used as a nuclear stain and actin was stained with Alexa Fluor 647 Phalloidin (1:100; Invitrogen). <sentence_start/>Samples were mounted with Duolink mounting media and Z-stack images of the PLA interaction were acquired using a confocal microscope (TCS SP5; Leica). <sentence_start/>Each puncta was considered a positive protein-protein interaction. <sentence_start/>The number and size (pixel<sup>2</sup>) of puncta per cell were determined using ImageJ (National Institutes of Health)."
+  },
+  {
+   "section": "article",
+   "text": "Calculations and statistics"
+  },
+  {
+   "section": "article",
+   "text": "All data are expressed as means ± SE. <sentence_start/>Values of n refer to the number of animals in each group unless otherwise stated. <sentence_start/>Statistical significance was tested at the 95% (P &lt; 0.05) confidence level using an unpaired t-test, one-way analysis of variance (ANOVA), or two-way ANOVA as appropriate (GraphPad Prism). <sentence_start/>If differences were detected by ANOVA, individual groups were compared with the recommended post-hoc test which is specified in the figure legends. <sentence_start/>Normal distribution was tested using the Shapiro-Wilks Normality Test (P &gt; 0.05), any data sets that were not normally distributed were analyzed by non-parametric analysis. <sentence_start/>Data that were represented as percent were normalized by arcsine transformation before statistical analysis."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "L-type Ca<sup>2+</sup> channels contribute to ET-1-induced constriction of mesenteric but not pulmonary arteries"
+  },
+  {
+   "section": "article",
+   "text": "Since L-type Ca<sup>2+</sup> channels are considered to be a major contributor to VSMC Ca<sup>2+</sup> influx, we first determined the role of L-type VGCC to ET-1 induced vasoconstriction in small pulmonary and mesenteric arteries. <sentence_start/>In pulmonary arteries, inhibition of L-type VGCC with diltiazem did not significantly alter baseline diameter or vessel wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> (Table 2). <sentence_start/>Furthermore, diltiazem did not affect vasoconstriction (Fig 1A, top panel) or changes in vessel wall Ca<sup>2+</sup> (Fig 1A, bottom panel) in response to increasing doses of ET-1. <sentence_start/>In mesenteric arteries, inhibition of L-type VGCC with diltiazem did not significantly alter baseline diameter or vessel wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>I</sub></italic> (Table 2). <sentence_start/>However, ET-1-induced vasoconstriction in mesenteric arteries was significantly attenuated by diltiazem (Fig 1B, top panel) and tended to decrease changes in vessel wall Ca<sup>2+</sup> but was not statistically significant (Fig 1B, bottom panel)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "L-type Ca<sup>2+</sup> channels contribute to ET-1 induced vasoconstriction in mesenteric but not pulmonary arteries."
+  },
+  {
+   "section": "article",
+   "text": "Representative traces (top panels) and summary data showing vasoconstriction (percent baseline inner diameter; middle panels) and changes in fura-2 ratio (F<sub>340</sub>/F<sub>380</sub>; bottom panels) in response to endothelin-1 (ET-1; 10<sup>−11</sup>-10<sup>−7</sup> or 10<sup>−11</sup>-10<sup>−8</sup>) in the presence or absence of diltiazem (50 μM) in small pulmonary (A; left panels) or mesenteric (B; right panels) arteries. <sentence_start/>n = 4-6 per group, values are means ± SEM. <sentence_start/>*p ≤ 0.05 vs. vehicle; ** p &lt; 0.01; analyzed by two-way ANOVA followed by Sidak’s multiple comparisons test."
+  },
+  {
+   "section": "article",
+   "text": "Orai1 and ASIC1a mRNA and protein expression in pulmonary and mesenteric arteries"
+  },
+  {
+   "section": "article",
+   "text": "We next evaluated mRNA and protein expression of Orai1 and ASIC1 in small pulmonary and mesenteric arteries. <sentence_start/>We found Orai1 and ASIC1 transcripts (Fig 2A) and protein (Fig 2B) were expressed in both pulmonary and mesenteric arteries. <sentence_start/>Brain tissue was used as a positive control. <sentence_start/>Orai1 was detected around the expected MW of 35 kDa and a larger band around 75 kDa (a potential dimer). <sentence_start/>Similar to previous reports [<citation rid=\"pone.0236288.ref040\" ref-type=\"bibr\" doi=\"10.1016/j.jchemneu.2014.10.002\" pmid=\"25462386\" pmcid=\"PMC4268162\" count=\"1\">40</citation>], we detect two bands for ASIC1 protein, ~100 kDa and 60 kDa. <sentence_start/>Interestingly, the 60 kDa band is more intense in mesenteric arteries compared to pulmonary arteries or brain samples."
+  },
+  {
+   "section": "article",
+   "text": "Fig 2"
+  },
+  {
+   "section": "article",
+   "text": "Orai1 and ASIC1a are expressed in pulmonary and mesenteric arteries and VSMC."
+  },
+  {
+   "section": "article",
+   "text": "Representative PCR gels (A) showing expression of Orai1 (357 bp) and ASIC1a (305 bp) in intact pulmonary arteries (PA), mesenteric arteries (MA), and brain tissue (positive control). <sentence_start/>All lanes were loaded with 5 μL cDNA. <sentence_start/>β-actin (244 bp) was used as a loading control for intact arteries. <sentence_start/>Representative western blots (B left) showing protein expression of Orai1 and ASIC1 (~100 kDa and 60 kDa) in intact PA, MA, and brain tissue (positive control). <sentence_start/>Coomassie blue staining shows equal protein loading between samples (B; right). <sentence_start/>Each experiment was replicated 3 times."
+  },
+  {
+   "section": "article",
+   "text": "Store-operated Ca<sup>2+</sup> entry is coupled to vasoconstriction in pulmonary but not mesenteric arteries"
+  },
+  {
+   "section": "article",
+   "text": "Induction of SOCE in isolated pressurized small pulmonary arteries resulted in a substantial and sustained increase in [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> (Fig 3A and 3B) that was associated with an ~25% vasoconstriction (Fig 3C and 3D). <sentence_start/>In mesenteric arteries, induction of SOCE also resulted in a sustained increase in [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic>. <sentence_start/>However, SOCE was significantly less compared to pulmonary arteries (Fig 3A and 3B). <sentence_start/>Furthermore, SOCE was not associated with a significant change in vessel inner diameter in mesenteric arteries (Fig 3C and 3D)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 3"
+  },
+  {
+   "section": "article",
+   "text": "Store-operated Ca<sup>2+</sup> entry is coupled to vasoconstriction in pulmonary but not mesenteric arteries."
+  },
+  {
+   "section": "article",
+   "text": "Representative traces and summary data of SOCE (A &amp; B) and SOCE-induced vasoconstriction (C &amp; D) in pulmonary and mesenteric resistance arteries. <sentence_start/>All studies were done in the presence of diltiazem (50μM) and cyclopiazonic acid (10μM). <sentence_start/>n = 7-10 animals/group. <sentence_start/>***<italic toggle=\"yes\">p</italic> ≤ 0.001 or **** p ≤ 0.0001 vs. pulmonary; analyzed by unpaired t-test."
+  },
+  {
+   "section": "article",
+   "text": "Store-operated Ca<sup>2+</sup> entry is dependent on ASIC1a in pulmonary but not mesenteric arteries"
+  },
+  {
+   "section": "article",
+   "text": "To determine the contribution of Orai1 and ASIC1a to SOCE in small pulmonary and mesenteric arteries, we repeated experiments in the presence of the ASIC1a inhibitor, PcTX1; or the Orai1 inhibitor, AnCoA4. <sentence_start/>Inhibition of ASIC1a largely attenuated the SOCE and associated vasoconstrictor responses in pulmonary arteries; however, Orai1 inhibition did not alter responses to store depletion compared to the vehicle (Fig 4A). <sentence_start/>In contrast, we observed a minimal SOCE response, in mesenteric arteries, which did not induce vasoconstriction. <sentence_start/>SOCE was not altered by PcTX1 in mesenteric arteries. <sentence_start/>Although AnCoA4 tended to blunt SOCE in mesenteric arteries, this effect was not significant (P = 0.0717). <sentence_start/>Neither PcTX1 nor AnCoA4 affected the lack of vasoconstriction in mesenteric arteries. <sentence_start/>However, the power of statistical comparison is low (0.435) in mesenteric arteries and may be due to the small effect size that we see in the mesenteric SOCE response. <sentence_start/>Together, these data demonstrate SOCE in mesenteric arteries is a negligible Ca<sup>2+</sup> influx pathway compared to pulmonary arteries."
+  },
+  {
+   "section": "article",
+   "text": "Fig 4"
+  },
+  {
+   "section": "article",
+   "text": "Store-operated Ca<sup>2+</sup> entry is dependent on ASIC1a in pulmonary but not mesenteric arteries."
+  },
+  {
+   "section": "article",
+   "text": "SOCE-induced changes in fura-2 ratio (Δ F<sub>340</sub>/F<sub>380</sub>; top panels) and associated vasoconstriction (% baseline; bottom panels) in small pulmonary and mesenteric arteries, respectively. <sentence_start/>Studies were conducted in the presence or absence of PcTX1 (20 nM) or AnCoA<sub>4</sub> (20 μM). <sentence_start/>Vehicle data are the same as Fig 3. n = 5-10 animals/group. <sentence_start/>**<italic toggle=\"yes\">p</italic> ≤ 0.01 vs. vehicle; *** p ≤ 0.001 vs. vehicle; analyzed by one-way ANOVA and individual groups compared with the Tukey’s multiple comparison test."
+  },
+  {
+   "section": "article",
+   "text": "ASIC1a and Orai1 interact with STIM1 in VSMC"
+  },
+  {
+   "section": "article",
+   "text": "As Ca<sup>2+</sup> levels in the SR decrease, STIM1 undergoes a conformational change, multimerizes, and translocates to regions of the SR adjacent to the plasma membrane where subsequent binding of STIM1 to Ca<sup>2+</sup>-permeable channels triggers an influx of Ca<sup>2+</sup> across the plasma membrane [<citation rid=\"pone.0236288.ref015\" ref-type=\"bibr\" doi=\"10.1152/physrev.00020.2014\" pmid=\"26400989\" pmcid=\"PMC4600950\" count=\"1\">15</citation>]. <sentence_start/>Thus we first examined the mRNA and protein levels of STIM1 in pulmonary and mesenteric arteries and found that STIM1 was expressed in both vascular beds (S2 Fig). <sentence_start/>Furthermore, an examination of STIM1, Orai1, and ASIC1 mRNA showed expression in both primary cultured pulmonary and mesenteric VSMCs (S3 Fig). <sentence_start/>Therefore, we examined the potential interaction and clustering of STIM1 with both Orai1 and ASIC1a in pulmonary and mesenteric VSMCs using Duolink proximity ligation assay. <sentence_start/>Under basal conditions, we found that Orai1 interacts with STIM1 in both pulmonary (Fig 5A and 5C) and mesenteric (Fig 5D and 5F) VSMCs. <sentence_start/>Upon store depletion with CPA in pulmonary VSMC, there was neither a difference in the number of puncta (interactions) per cell (Fig 5B) nor puncta size (Fig 5C). <sentence_start/>In mesenteric VSMC there tended to be both an increase in the number of puncta per cell (p = 0.0593) and a significant increase in puncta size, suggesting an increase in Orai1-STIM1 clustering. <sentence_start/>However, the size of the puncta is substantially smaller than the puncta measured in pulmonary arteries. <sentence_start/>The changes observed in mesenteric VSMC may be due to possible phenotypic changes that can occur in VSMs in cell culture from a quiescent to the proliferative state. <sentence_start/>Furthermore, the power of statistical comparison was lower than expected when analyzing the number of puncta per cell in mesenteric VSMCs (0.623)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 5"
+  },
+  {
+   "section": "article",
+   "text": "Store depletion increases the interaction between Orai1 and STIM1 in VSMCs."
+  },
+  {
+   "section": "article",
+   "text": "Representative images of Orai1/STIM1 interaction in pulmonary (A) and mesenteric (D) VSMCs under basal conditions (BL; left) or following store-depletion (SD; right). <sentence_start/>Summary data showing the average number of puncta per cell (B and E) and puncta size (C and F) in pulmonary (B-C) and mesenteric (E-F) VSMCs. <sentence_start/>The nuclei are labeled with SYTOX (green), actin is labeled with Alexa Fluor 647 Phalloidin (blue), and puncta formation (white). <sentence_start/>N = 7-10; each data point represents an individual well taken from 1-3 experiments (cell cultures generated from different animals and ran on different days). <sentence_start/>*P ≤ 0.05 vs. baseline."
+  },
+  {
+   "section": "article",
+   "text": "ASIC1a also interacts with STIM1 under basal conditions in both pulmonary (Fig 6A) and mesenteric (Fig 6D) VSMCs. <sentence_start/>Upon store depletion in pulmonary VSMC there was a significant increase in the number of puncta (interactions) per cell (Fig 6B) and a significant increase in puncta size (Fig 6C), indicating clustering of ASIC1a and STIM1 proteins. <sentence_start/>Compared to pulmonary VSMC, there were significantly fewer puncta/cell in mesenteric VSMC. <sentence_start/>In addition, store depletion in mesenteric VSMC resulted in a significant decrease in the number of puncta (interactions), per cell (Fig 6E) but no change in puncta size (Fig 6F)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 6"
+  },
+  {
+   "section": "article",
+   "text": "Store depletion increases the interaction between ASIC1a and STIM1 in pulmonary, but not in mesenteric VSMCs."
+  },
+  {
+   "section": "article",
+   "text": "Representative images of ASIC1a/STIM1 interaction in pulmonary (A) and mesenteric (D) VSMCs under basal conditions (BL; left) and following store-depletion (SD; right). <sentence_start/>Summary data showing the average number of puncta per cell (B and E) and puncta size (C and F) in pulmonary (B-C) and mesenteric (E-F) VSMCs. <sentence_start/>The nuclei are labeled with SYTOX (green), actin is labeled with Alexa Fluor 647 Phalloidin (blue), and puncta formation (white). <sentence_start/>n = 6-7 wells; each data point represents an individual well taken from 1-3 experiments (cell cultures generated from different animals and ran on different days). <sentence_start/>*P &lt; 0.05 vs. baseline; **P &lt; 0.01 vs. baseline; *** p &lt; 0.001 vs. baseline; analyzed by unpaired t-test, except for C which was analyzed using Mann-Whitney test."
+  },
+  {
+   "section": "article",
+   "text": "In negative control experiments, we incubated each primary antibody individually and observed no positive interactions (S4 Fig). <sentence_start/>Taken together, these data demonstrate a physical interaction between ASIC1a and STIM1 in pulmonary VSMCs and support our findings that ASIC1a functions as a SOC in the pulmonary circulation."
+  },
+  {
+   "section": "article",
+   "text": "Vasoconstrictor and arterial wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> responses to ET-1 are attenuated in response to ASIC1a inhibition and augmented in response to Orai1 inhibition in pulmonary arteries"
+  },
+  {
+   "section": "article",
+   "text": "Orai1 channels have also been shown to play a vasoactive role that is independent of SOCE [<citation rid=\"pone.0236288.ref041\" ref-type=\"bibr\" doi=\"10.1085/jgp.201311084\" pmid=\"24567509\" pmcid=\"PMC3933941\" count=\"1\">41</citation>]. <sentence_start/>It is possible that both ASIC1a and Orai1 participate in ligand-activated Ca<sup>2+</sup> entry in VSMCs and vasoconstriction through a store-independent mechanism; therefore, we further assessed the role of ASIC1a and Orai1 in ET-1-induced vasoconstriction. <sentence_start/>In both pulmonary and mesenteric arteries, inhibition of ASIC1a or Orai1 did not significantly alter baseline diameter or vessel wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> (Table 2). <sentence_start/>Consistent with previous studies showing ASIC1a contributes to agonist-induced vasoreactivity in small pulmonary arteries [<citation rid=\"pone.0236288.ref031\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00332.2011\" pmid=\"22205392\" pmcid=\"PMC3311238\" count=\"1\">31</citation>, <citation rid=\"pone.0236288.ref039\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00269.2013\" pmid=\"24186095\" pmcid=\"PMC3920158\" count=\"1\">39</citation>, <citation rid=\"pone.0236288.ref042\" ref-type=\"bibr\" doi=\"10.1113/expphysiol.2014.081612\" pmid=\"25398716\" count=\"1\">42</citation>], PcTX1 reduced ET-1-mediated vasoconstriction and arterial wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> responses in small pulmonary arteries (Fig 7A). <sentence_start/>In contrast, Orai1 inhibition with AnCoA4 enhanced ET-1-induced vasoconstriction but did not alter [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> responses in pulmonary arteries (Fig 7A). <sentence_start/>Interestingly, in mesenteric arteries we found that PcTX1 did not affect ET-1-induced vasoconstriction but significantly attenuated arterial wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> responses in small mesenteric arteries at the highest concentration of ET-1 (Fig 7B). <sentence_start/>Further examination with AnCoA4 indicated no change in vasoconstriction or arterial wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> in response to ET-1 (Fig 7B). <sentence_start/>Together, these studies suggest that ASIC1a and Orai1 play unique roles in pulmonary but not mesenteric artery constriction."
+  },
+  {
+   "section": "article",
+   "text": "Fig 7"
+  },
+  {
+   "section": "article",
+   "text": "Vasoconstrictor and arterial wall [Ca<sup>2+</sup>]<sub>i</sub> responses to ET-1 are attenuated in response to ASIC1a inhibition and augmented in response to Orai1 inhibition in pulmonary arteries."
+  },
+  {
+   "section": "article",
+   "text": "Vasoconstriction (percent baseline inner diameter; top panels) and changes in fura-2 ratio (F<sub>340</sub>/F<sub>380</sub>; bottom panels) in response to endothelin-1 (ET-1; 10<sup>−11</sup>-10<sup>−7</sup> or 10<sup>−11</sup>-10<sup>−8</sup>) in the presence or absence of PcTX1 (20 nM) or AnCoA<sub>4</sub> (20 μM) in small pulmonary (A) and mesenteric (B) arteries. <sentence_start/>N = 4-7 per group, values are means ± SEM. <sentence_start/>*p ≤ 0.05 vs. vehicle; ** p &lt; 0.01, *** p ≤ 0.001, **** p ≤ 0.0001; analyzed by two-way anova followed by Dunnett’s multiple comparisons test."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "The goal of this study was to compare the contribution of SOCE to vasoconstriction and potential mediators of this response between small pulmonary and mesenteric arteries. <sentence_start/>The major findings of this study are that 1) the contribution of L-type VGCC to agonist-induced vasoconstriction in pulmonary and mesenteric arteries is minimal; 2) SOCE is functionally linked to vasoconstriction in pulmonary but not mesenteric arteries; and 3) ASIC1a is the major contributor of SOCE and SOCE-induced vasoconstriction in pulmonary arteries; while Orai1 plays a minimal role in vasoconstriction in either bed. <sentence_start/>Together, these data demonstrate a unique role for ASIC1a in the pulmonary circulation where it contributes to both SOCE-induced and agonist-induced vasoconstriction; yet ASIC1a does not contribute to vasoconstriction in the mesenteric circulation."
+  },
+  {
+   "section": "article",
+   "text": "A variety of Ca<sup>2+</sup> influx pathways have been identified in VSMC, including (but not limited to) VGCC, SOC, and ROC. <sentence_start/>The contribution of these various Ca<sup>2+</sup> influx pathways utilized by VSMC to elicit contraction varies widely across different vascular beds. <sentence_start/>Therefore, we first investigated the role of L-type VGCC in both pulmonary and mesenteric agonist-induced vasoconstriction, using the antagonist diltiazem. <sentence_start/>Similar to other reports [<citation rid=\"pone.0236288.ref031\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00332.2011\" pmid=\"22205392\" pmcid=\"PMC3311238\" count=\"1\">31</citation>], there was little effect of diltiazem on agonist-induced vasoconstriction of pulmonary arteries, suggesting little role for Ca<sup>2+</sup>-influx through L-type VGCC in ET-1-induced vasoconstriction. <sentence_start/>Although diltiazem significantly reduced ET-1 induced vasoconstriction in mesenteric arteries, a large proportion of the vasoconstrictor response remained along with the increased [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic>. <sentence_start/>These findings are consistent with studies by Kawanabe et al. [<citation rid=\"pone.0236288.ref043\" ref-type=\"bibr\" doi=\"10.1097/00005344-200209000-00013\" pmid=\"12198330\" count=\"1\">43</citation>, <citation rid=\"pone.0236288.ref044\" ref-type=\"bibr\" doi=\"10.1124/mol.63.4.808\" pmid=\"12644581\" count=\"1\">44</citation>] in rabbit basilar and internal carotid arteries showing a large proportion of ET-1-induced contraction is L-type VGCC independent. <sentence_start/>Although there is likely a component of T-type VGCC to ET-1 increases in Ca<sup>2+</sup> influx, general inhibition of all VGCC does not abolish the inward calcium currents caused by ET-1 [<citation rid=\"pone.0236288.ref045\" ref-type=\"bibr\" doi=\"10.1042/CS20100145\" pmid=\"20662769\" pmcid=\"PMC3960801\" count=\"1\">45</citation>]. <sentence_start/>Together, these data suggest the increases in [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> and vasoconstriction in response to ET-1 are mediated by a variety of sources."
+  },
+  {
+   "section": "article",
+   "text": "Although SOCE has been demonstrated in several VSMC preparations, the relationship between Ca<sup>2+</sup> entry via this pathway and contraction remains unclear. <sentence_start/>Contraction due to SOCE has been demonstrated in the aorta, intrapulmonary, cerebral, mesenteric and femoral arteries [<citation rid=\"pone.0236288.ref012\" ref-type=\"bibr\" doi=\"10.1038/sj.bjp.0705408\" pmid=\"12967939\" pmcid=\"PMC1574006\" count=\"1\">12</citation>, <citation rid=\"pone.0236288.ref046\" ref-type=\"bibr\" doi=\"10.1097/FJC.0000000000000225\" pmid=\"25636074\" pmcid=\"PMC4461395\" count=\"1\">46</citation>-<citation rid=\"pone.0236288.ref048\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00334.2004\" pmid=\"15561760\" count=\"1\">48</citation>]; while others report that elevated [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic> due to SOCE appears to be dissociated from contraction in the aorta, coronary, renal, and mesenteric arteries [<citation rid=\"pone.0236288.ref012\" ref-type=\"bibr\" doi=\"10.1038/sj.bjp.0705408\" pmid=\"12967939\" pmcid=\"PMC1574006\" count=\"1\">12</citation>, <citation rid=\"pone.0236288.ref049\" ref-type=\"bibr\" pmid=\"9580624\" count=\"1\">49</citation>]. <sentence_start/>Although Snetkov et al., reported that SOCE resulted in a similar increase in Ca<sup>2+</sup> between pulmonary and mesenteric arteries, regardless of coupling to contraction [<citation rid=\"pone.0236288.ref012\" ref-type=\"bibr\" doi=\"10.1038/sj.bjp.0705408\" pmid=\"12967939\" pmcid=\"PMC1574006\" count=\"1\">12</citation>], we found the SOCE response to be significantly less in mesenteric compared to pulmonary arteries. <sentence_start/>Consequently, it is possible that the smaller SOCE response in mesenteric arteries is not sufficient to induce vasoconstriction. <sentence_start/>Interestingly, this smaller SOCE response in mesenteric arteries seems to be associated with lower ASIC1 mRNA and protein expression in mesenteric compared to pulmonary arteries, although these were not statistically compared. <sentence_start/>The failure of SOCE to elicit mesenteric vasoconstriction is supported by the observations that ASIC1a and Orai1 inhibition did not affect ET-1-induced vasoconstriction. <sentence_start/>These data suggest the component of ET-1-induced vasoconstriction that is VGCC-independent is not mediated by SOCE but rather other Ca<sup>2+</sup> signaling pathways. <sentence_start/>ROCs such as TRP channels or other non-selective cation channels may play a role in ET-1-induced Ca<sup>2+</sup> in mesenteric arteries. <sentence_start/>Furthermore, cytosolic Ca<sup>2+</sup> levels may be altered due to the production and signaling of IP<sub>3</sub> to activate IP<sub>3</sub> receptors and release Ca<sup>2+</sup> from Ca<sup>2+</sup> stores. <sentence_start/>It is also possible that Ca<sup>2+</sup> sensitization is playing a role in ET-1-induced vasoconstriction. <sentence_start/>Specifically, Ca<sup>2+</sup> sensitization occurs when vasoconstriction is regulated by increasing phosphorylation of the myosin regulatory light chain independent of changes in [Ca<sup>2+</sup>]<sub>i</sub> [<citation rid=\"pone.0236288.ref050\" ref-type=\"bibr\" doi=\"10.1152/physrev.00023.2003\" pmid=\"14506307\" count=\"1\">50</citation>]. <sentence_start/>Therefore, it is possible that the ET-1-induced vasoconstrictor responses we see are due to ET-1-stimulated Ca<sup>2+</sup> sensitization."
+  },
+  {
+   "section": "article",
+   "text": "Expression of Orai1 was similar between pulmonary and mesenteric arteries; and although inhibition of Orai1 tended to diminish SOCE in mesenteric arteries, it did not affect pulmonary SOCE. <sentence_start/>Furthermore, inhibition of Orai1 did not affect vasoconstrictor responses in mesenteric vessels. <sentence_start/>This is in contrast to other studies showing that silencing of Orai1 or its functional inhibition with monoclonal antibodies diminishes SOCE and agonists-induced contraction in coronary and aortic rings [<citation rid=\"pone.0236288.ref010\" ref-type=\"bibr\" doi=\"10.1161/ATVBAHA.111.243014\" pmid=\"22223729\" count=\"1\">10</citation>, <citation rid=\"pone.0236288.ref047\" ref-type=\"bibr\" doi=\"10.1161/HYPERTENSIONAHA.108.124404\" pmid=\"19075091\" pmcid=\"PMC2753260\" count=\"1\">47</citation>]. <sentence_start/>These studies suggest that in some vascular beds, Orai1 is present and functions as a SOC. <sentence_start/>Although the role of Orai1 in VSMC has been studied in several cultured VSMC preparations, it is important to note that the above studies ([<citation rid=\"pone.0236288.ref010\" ref-type=\"bibr\" doi=\"10.1161/ATVBAHA.111.243014\" pmid=\"22223729\" count=\"1\">10</citation>, <citation rid=\"pone.0236288.ref047\" ref-type=\"bibr\" doi=\"10.1161/HYPERTENSIONAHA.108.124404\" pmid=\"19075091\" pmcid=\"PMC2753260\" count=\"1\">47</citation>]; as well as Figs 5 &amp; 6) were conducted in freshly isolated tissue as opposed to cultured cells. <sentence_start/>Indeed, it has been shown that expression of Orai isoforms is relatively low in contractile VSMCs; however, expression of Orai1 and STIM1 dramatically increase along with SOCE in cultured VSMCs [<citation rid=\"pone.0236288.ref051\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00173.2008\" pmid=\"18596214\" pmcid=\"PMC2544451\" count=\"1\">51</citation>, <citation rid=\"pone.0236288.ref052\" ref-type=\"bibr\" doi=\"10.1096/fj.09-131128\" pmid=\"19364762\" pmcid=\"PMC2717784\" count=\"1\">52</citation>]. <sentence_start/>VSMCs in culture are known to undergo a phenotypic switch to a synthetic or proliferative state, which often correlates with a more prominent SOCE response [<citation rid=\"pone.0236288.ref053\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00325.2009\" pmid=\"20107038\" pmcid=\"PMC2867390\" count=\"1\">53</citation>, <citation rid=\"pone.0236288.ref054\" ref-type=\"bibr\" doi=\"10.1161/CIRCRESAHA.111.300220\" pmid=\"23349245\" pmcid=\"PMC3658112\" count=\"1\">54</citation>]. <sentence_start/>This may explain why we observed increased clustering (indicated by increased puncta size) between Orai1 and STIM1 in response to store depletion in transiently cultured mesenteric VSMC even though Orai1 did not significantly contribute to SOCE responses in freshly isolated tissue. <sentence_start/>Together these data suggest there may be a minimal contribution of vascular Orai1-dependent SOCE to normal vascular homeostasis; however, SOCE may become a more important mechanism of Ca<sup>2+</sup> influx in cardiovascular diseases involving VSMC dysfunction leading to a more proliferative, synthetic state of the VSMC [<citation rid=\"pone.0236288.ref046\" ref-type=\"bibr\" doi=\"10.1097/FJC.0000000000000225\" pmid=\"25636074\" pmcid=\"PMC4461395\" count=\"1\">46</citation>, <citation rid=\"pone.0236288.ref055\" ref-type=\"bibr\" doi=\"10.1093/cvr/cvr307\" pmid=\"22108917\" count=\"1\">55</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Although inhibition of Orai1 did not significantly alter SOCE in pulmonary arteries, it unexpectedly augmented the vasoconstrictor response in these endothelium-intact vessels. <sentence_start/>Receptors for ET-1 are expressed on both VSMC (ET<sub>A</sub> and ET<sub>B</sub>), where activation results in vasoconstriction, and endothelial cells (ET<sub>B</sub>), which mediate vasodilation. <sentence_start/>Since we have previously shown an important role of Orai1 in SOCE response in pulmonary arterial endothelial cells and pulmonary microvascular endothelial cells [<citation rid=\"pone.0236288.ref037\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00540.2017\" pmid=\"29101179\" pmcid=\"PMC5867657\" count=\"1\">37</citation>], it is likely AnCoA4 inhibited endothelial Orai1 and thus ET-1 vasodilatory responsiveness leading to augmented ET-1 vasoconstriction. <sentence_start/>We did not observe a corresponding increase in the vessel wall [Ca<sup>2+</sup>]<italic toggle=\"yes\"><sub>i</sub></italic>, however, this is likely a result of Ca<sup>2+</sup> sensitization of the contractile apparatus that occurs in pulmonary arteries [<citation rid=\"pone.0236288.ref056\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00196.2004\" pmid=\"15310556\" count=\"1\">56</citation>]. <sentence_start/>It is possible that within the pulmonary circulation, ASIC1a plays a larger role in VSMC SOCE while Orai1 mediates endothelial SOCE. <sentence_start/>This is consistent with the idea that in non-excitable cells whole-cell currents activated by Ca<sup>2+</sup> store depletion are predominantly mediated by Ca<sup>2+</sup> release-activated Ca<sup>2+</sup> current (I<sub>CRAC</sub>) through Orai1. <sentence_start/>Whereas, in excitable muscle cells there is a greater contribution of Ca<sup>2+</sup>-permeable NSCC with a linear current-voltage relationship that contributes more to the SOC current (I<sub>SOC</sub>) (reviewed in [<citation rid=\"pone.0236288.ref057\" ref-type=\"bibr\" doi=\"10.3389/fphys.2018.00257\" pmid=\"29618985\" pmcid=\"PMC5872157\" count=\"1\">57</citation>]). <sentence_start/>Although it remains controversial, transient receptor potential (TRP) channels have long been proposed as SOC candidates [<citation rid=\"pone.0236288.ref022\" ref-type=\"bibr\" doi=\"10.1113/jphysiol.2009.170431\" pmid=\"19332491\" pmcid=\"PMC2697298\" count=\"1\">22</citation>, <citation rid=\"pone.0236288.ref058\" ref-type=\"bibr\" doi=\"10.1016/j.ceca.2017.06.004\" pmid=\"28807149\" count=\"1\">58</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Numerous TRP channels contribute to the regulation of membrane potential and vascular tone. <sentence_start/>Of the various subtypes, it is the canonical (TRPC) subfamily, particularly TRPC1 that has been proposed as a SOC. <sentence_start/>Several studies using siRNA knockdown or neutralizing antibodies towards TRPC1 show incomplete inhibition of SOCE in various VSMCs including the aorta, pulmonary, cerebral, and portal vein [<citation rid=\"pone.0236288.ref059\" ref-type=\"bibr\" doi=\"10.1124/jpet.105.095067\" pmid=\"16415091\" count=\"1\">59</citation>-<citation rid=\"pone.0236288.ref062\" ref-type=\"bibr\" doi=\"10.1093/cvr/cvt196\" pmid=\"23933581\" pmcid=\"PMC3797630\" count=\"1\">62</citation>]. <sentence_start/>In addition to minimal inhibition of SOCE by targeting TRPC1, these studies were also completed in cultured cells which may alter the SOCE response. <sentence_start/>Interestingly, Dietrich et al. [<citation rid=\"pone.0236288.ref063\" ref-type=\"bibr\" doi=\"10.1007/s00424-007-0314-3\" pmid=\"17647013\" count=\"1\">63</citation>] demonstrated VSMCs of TRPC1<sup>-/-</sup> mice freshly isolated from aortas and cerebral arteries showed no difference in SOCE induced by thapsigargin, IP<sub>3</sub>, or cyclopiazonic acid compared to cells from wild-type mice. <sentence_start/>Further investigation into the role of TRPC1 in SOCE found that TRPC1 only contributed to SOCE when both STIM1 and Orai1 were present, suggesting that TRPC1 is not be directly activated by store depletion, but rather is activated secondarily to STIM1 and Orai1 [<citation rid=\"pone.0236288.ref064\" ref-type=\"bibr\" doi=\"10.1074/jbc.C800008200\" pmid=\"18326500\" pmcid=\"PMC2442339\" count=\"1\">64</citation>-<citation rid=\"pone.0236288.ref066\" ref-type=\"bibr\" pmid=\"7513692\" count=\"1\">66</citation>]. <sentence_start/>Therefore, although VSMC TRPC channels play an important role in vascular homeostasis, it is unlikely through SOCE."
+  },
+  {
+   "section": "article",
+   "text": "In contrast to TRPC1<sup>-/-</sup> mice where there was no observable change in VSMC SOCE response [<citation rid=\"pone.0236288.ref063\" ref-type=\"bibr\" doi=\"10.1007/s00424-007-0314-3\" pmid=\"17647013\" count=\"1\">63</citation>], ASIC1a<sup>-/-</sup> mice have significantly reduced SOCE in pulmonary VSMCs [<citation rid=\"pone.0236288.ref034\" ref-type=\"bibr\" doi=\"10.1152/ajplung.00040.2016\" pmid=\"27190058\" pmcid=\"PMC4967194\" count=\"1\">34</citation>, <citation rid=\"pone.0236288.ref038\" ref-type=\"bibr\" doi=\"10.1152/ajpcell.00091.2015\" pmid=\"26702130\" pmcid=\"PMC4971828\" count=\"1\">38</citation>, <citation rid=\"pone.0236288.ref039\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00269.2013\" pmid=\"24186095\" pmcid=\"PMC3920158\" count=\"1\">39</citation>]. <sentence_start/>Furthermore, transfection of the ASIC1a gene into pulmonary VSMCs from ASIC1a<sup>−/−</sup> mice restores SOCE to a level similar to that in wildtypes, further demonstrating ASIC1a, <italic toggle=\"yes\">per se</italic>, is an essential component of SOCE [<citation rid=\"pone.0236288.ref039\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00269.2013\" pmid=\"24186095\" pmcid=\"PMC3920158\" count=\"1\">39</citation>]. <sentence_start/>ASIC1a conducts both Na<sup>+</sup> and Ca<sup>2+</sup> [<citation rid=\"pone.0236288.ref025\" ref-type=\"bibr\" doi=\"10.1038/386173a0\" pmid=\"9062189\" count=\"1\">25</citation>-<citation rid=\"pone.0236288.ref027\" ref-type=\"bibr\" doi=\"10.1073/pnas.0308636100\" pmid=\"15082829\" pmcid=\"PMC404117\" count=\"1\">27</citation>], and it is possible ASIC1a-mediated Na<sup>+</sup> influx leads to VSMC depolarization and secondary activation of VGCC. <sentence_start/>However, this effect is unlikely in the present study since all SOCE responses were performed in the presence of diltiazem. <sentence_start/>Further, diltiazem and PcTX1 had very different effects on ET-1-induced vasoconstriction, suggesting different mechanisms are involved. <sentence_start/>Consistent with the possibility that ASIC1a functions as a SOC in pulmonary VSMC, we found an increased interaction between ASIC1a and STIM1 in pulmonary VSMC that was not present in mesenteric VSMCs in response to store depletion. <sentence_start/>Furthermore, we observed an increase in the ASIC1a-STIM1 association upon store depletion in pulmonary VSMCs. <sentence_start/>Although we observed an association between ASIC1a and STIM1 in mesenteric VSMC, we did not measure any increase after store depletion. <sentence_start/>Therefore, suggesting that ASIC1a is not involved in SOCE in mesenteric VSMCs. <sentence_start/>It is possible that the basal interaction that we observe between ASIC1a and STIM1 in mesenteric VSMC is due to the effects of cell culture where the cells can undergo phenotypic switches possibly leading to enhanced expression of ASIC1a and STIM1 in the cells. <sentence_start/>Although we did not investigate the role of ASIC1a to SOCE in other systemic vascular beds beyond the mesenteric circulation, these studies suggest ASIC1a may have a pulmonary-specific role. <sentence_start/>Indeed, we found ASIC1a<sup>-/-</sup> mice are protected from the development of chronic hypoxia-induced pulmonary hypertension [<citation rid=\"pone.0236288.ref039\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00269.2013\" pmid=\"24186095\" pmcid=\"PMC3920158\" count=\"1\">39</citation>]. <sentence_start/>More specifically, in response to chronic hypoxia, ASIC1a<sup>-/-</sup> mice showed no increase in the SOCE response, vasoconstrictor reactivity, vascular remodeling, right ventricular systolic pressure or right ventricular hypertrophy observed in wildtype mice [<citation rid=\"pone.0236288.ref039\" ref-type=\"bibr\" doi=\"10.1152/ajpheart.00269.2013\" pmid=\"24186095\" pmcid=\"PMC3920158\" count=\"1\">39</citation>], suggesting a unique role for ASIC1a in development of pulmonary hypertension."
+  },
+  {
+   "section": "article",
+   "text": "In addition to pulmonary hypertension, SOCE dysregulation is associated with several vascular disorders including atherosclerosis, systemic hypertension, and restenosis. <sentence_start/>In STIM1 smooth muscle and endothelial cell-specific knockout animals, basal systolic blood pressures were similar to those of wild-type animals [<citation rid=\"pone.0236288.ref067\" ref-type=\"bibr\" doi=\"10.1007/s00424-014-1556-5\" pmid=\"24965067\" pmcid=\"PMC4843990\" count=\"1\">67</citation>]. <sentence_start/>However, angiotensin-II-induced hypertension was significantly attenuated in the smooth muscle-specific STIM1<sup>-/-</sup> compared to wildtype animals [<citation rid=\"pone.0236288.ref068\" ref-type=\"bibr\" doi=\"10.1161/ATVBAHA.116.307869\" pmid=\"27470514\" pmcid=\"PMC5061131\" count=\"1\">68</citation>], suggesting that STIM1 within the smooth muscle is a critical player in the role of angiotensin-II-induced hypertension. <sentence_start/>Similarly, the mRNA and protein levels of STIM1 and Orai1 were significantly higher and there was a significant increase in SOCE and force generation in aortic rings in stoke-prone spontaneously hypertensive rats (SHRSP) compared to Wistar-Kyoto (WKY) controls [<citation rid=\"pone.0236288.ref047\" ref-type=\"bibr\" doi=\"10.1161/HYPERTENSIONAHA.108.124404\" pmid=\"19075091\" pmcid=\"PMC2753260\" count=\"1\">47</citation>]. <sentence_start/>In addition, SOCE-induced contraction was dramatically increased in mesenteric arteries from aged (22 months) compared to young (3 months) rats [<citation rid=\"pone.0236288.ref046\" ref-type=\"bibr\" doi=\"10.1097/FJC.0000000000000225\" pmid=\"25636074\" pmcid=\"PMC4461395\" count=\"1\">46</citation>]. <sentence_start/>These data suggest SOCE plays a larger role in vascular function in diseased/aged states. <sentence_start/>Therefore, although we do not see a role for ASIC1a and Orai1 in basal SOCE responses in mesenteric arteries, these channels may exhibit a larger role in the enhanced SOCE response associated with cardiovascular diseases."
+  },
+  {
+   "section": "article",
+   "text": "In summary, this study demonstrates the vast heterogeneity that exists between vascular beds. <sentence_start/>Whereas SOCE is very prominent in the pulmonary circulation and contributes to pulmonary vasoconstriction; in the mesenteric circulation the role of SOCE to vascular reactivity is negligible. <sentence_start/>Moreover, we have found that VSMC expression of ASIC1a plays a unique role in the pulmonary circulation to mediate vasoconstriction. <sentence_start/>As this study only investigated pulmonary versus mesenteric arteries, further investigation is warranted to determine the importance of SOCE and ASIC1a in other systemic vascular beds. <sentence_start/>In addition, it is important to determine whether SOCE is enhanced and becomes a fundamental signaling pathway that mediates the vascular dysfunction that occurs with many cardiovascular diseases. <sentence_start/>This knowledge, and the specific ion channels involved, will provide potential molecular targets to treat cardiovascular diseases."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "S1 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Primary pulmonary and mesenteric VSMC homogeneity is verified by morphological appearance and presence of smooth muscle marker."
+  },
+  {
+   "section": "article",
+   "text": "A: representative immunofluorescence images of pulmonary and mesenteric VSMC stained for smooth muscle 22α. <sentence_start/>B: representative PCR gels showing expression of smooth muscle α actin (F: <monospace>5’-ACTGCTGCTTCCTCTTCTTC-3’</monospace>; R: <monospace>5’-GGCCAGCTTCGTCATACTCC-3’</monospace>), calcitonin gene-related peptide (<monospace>F: 5’-GTTCTCCCCTTTCCTGGTTG-3’</monospace>; R: <monospace>5-’CTGGGGCTGTTATCTGTTCA-3’</monospace>) and β-actin."
+  },
+  {
+   "section": "article",
+   "text": "(PDF)"
+  },
+  {
+   "section": "article",
+   "text": "S2 Fig"
+  },
+  {
+   "section": "article",
+   "text": "STIM1 is expressed in both pulmonary and mesenteric isolated arteries."
+  },
+  {
+   "section": "article",
+   "text": "Representative A: PCR gel showing mRNA expression of STIM1 in pulmonary (PA) and mesenteric (MA) arteries and brain (positive control; F: <monospace>5’-ATGCCAATGGTGATGTGGAT-3’</monospace>; R: <monospace>5’-CCATGGAAGGTGCTGTGTTT-3’</monospace>). <sentence_start/>B: Representative western blot showing protein expression in PA, MA, and brain (top; Abcam: ab108994), Coomassie blue was used to measure even loading (B-bottom)."
+  },
+  {
+   "section": "article",
+   "text": "(PDF)"
+  },
+  {
+   "section": "article",
+   "text": "S3 Fig"
+  },
+  {
+   "section": "article",
+   "text": "STIM1, Orai1, and ASIC1 are expressed in both pulmonary and mesenteric VSMC."
+  },
+  {
+   "section": "article",
+   "text": "Representative PCR gel showing mRNA expression of STIM1, Orai1, and ASIC1 in both pulmonary and mesenteric primary cultured VSMC."
+  },
+  {
+   "section": "article",
+   "text": "(PDF)"
+  },
+  {
+   "section": "article",
+   "text": "S4 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Negative control proximity ligation assay experiments."
+  },
+  {
+   "section": "article",
+   "text": "Representative images of negative control experiments where each primary antibody was incubated individually with subsequent incubation with probes."
+  },
+  {
+   "section": "article",
+   "text": "(PDF)"
+  },
+  {
+   "section": "article",
+   "text": "S1 Raw images"
+  },
+  {
+   "section": "article",
+   "text": "(PDF)"
+  }
+ ]
+}

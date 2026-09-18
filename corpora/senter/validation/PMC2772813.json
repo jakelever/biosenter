@@ -1,0 +1,315 @@
+{
+ "pmid": 19915672,
+ "pmcid": 2772813,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Genotyping of Genetically Monomorphic Bacteria: DNA Sequencing in <italic toggle=\"yes\">Mycobacterium tuberculosis</italic> Highlights the Limitations of Current Methodologies"
+  },
+  {
+   "section": "abstract",
+   "text": "Because genetically monomorphic bacterial pathogens harbour little DNA sequence diversity, most current genotyping techniques used to study the epidemiology of these organisms are based on mobile or repetitive genetic elements. <sentence_start/>Molecular markers commonly used in these bacteria include Clustered Regulatory Short Palindromic Repeats (CRISPR) and Variable Number Tandem Repeats (VNTR). <sentence_start/>These methods are also increasingly being applied to phylogenetic and population genetic studies. <sentence_start/>Using the <italic toggle=\"yes\">Mycobacterium tuberculosis</italic> complex (MTBC) as a model, we evaluated the phylogenetic accuracy of CRISPR- and VNTR-based genotyping, which in MTBC are known as spoligotyping and Mycobacterial Interspersed Repetitive Units (MIRU)-VNTR-typing, respectively. <sentence_start/>We used as a gold standard the complete DNA sequences of 89 coding genes from a global strain collection. <sentence_start/>Our results showed that phylogenetic trees derived from these multilocus sequence data were highly congruent and statistically robust, irrespective of the phylogenetic methods used. <sentence_start/>By contrast, corresponding phylogenies inferred from spoligotyping or 15-loci-MIRU-VNTR were incongruent with respect to the sequence-based trees. <sentence_start/>Although 24-loci-MIRU-VNTR performed better, it was still unable to detect all strain lineages. <sentence_start/>The DNA sequence data showed virtually no homoplasy, but the opposite was true for spoligotyping and MIRU-VNTR, which was consistent with high rates of convergent evolution and the low statistical support obtained for phylogenetic groupings defined by these markers. <sentence_start/>Our results also revealed that the discriminatory power of the standard 24 MIRU-VNTR loci varied by strain lineage. <sentence_start/>Taken together, our findings suggest strain lineages in MTBC should be defined based on phylogenetically robust markers such as single nucleotide polymorphisms or large sequence polymorphisms, and that for epidemiological purposes, MIRU-VNTR loci should be used in a lineage-dependent manner. <sentence_start/>Our findings have implications for strain typing in other genetically monomorphic bacteria."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Some of the most important bacterial pathogens of humans exhibit strikingly low DNA sequence diversity. <sentence_start/>On average, these organisms harbour one nucleotide difference every 2-28 k base pairs and are thus referred to as genetically monomorphic <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>. <sentence_start/>Some prominent examples include <italic toggle=\"yes\">Yersinia pestis</italic> (the etiologic agent of plague) <citation rid=\"pone.0007815-Achtman2\" ref-type=\"bibr\" pmid=\"10570195\" doi=\"10.1073/pnas.96.24.14043\" pmcid=\"PMC24187\" count=\"1\">[2]</citation>, <italic toggle=\"yes\">Salmonella enterica</italic> serovar Typhi (typhoid fever) <citation rid=\"pone.0007815-Holt1\" ref-type=\"bibr\" pmid=\"18660809\" doi=\"10.1038/ng.195\" pmcid=\"PMC2652037\" count=\"1\">[3]</citation>, <italic toggle=\"yes\">Bacillus anthracis</italic> (anthrax) <citation rid=\"pone.0007815-VanErt1\" ref-type=\"bibr\" pmid=\"17520020\" doi=\"10.1371/journal.pone.0000461\" pmcid=\"PMC1866244\" count=\"1\">[4]</citation>, as well as the three most important pathogenic mycobacteria, <italic toggle=\"yes\">Mycobacterium leprae</italic> (leprosy) <citation rid=\"pone.0007815-Monot1\" ref-type=\"bibr\" pmid=\"15894530\" doi=\"10.1126/science/1109759\" count=\"1\">[5]</citation>, <italic toggle=\"yes\">Mycobacterium ulcerans</italic> (buruli ulcer) <citation rid=\"pone.0007815-Demangel1\" ref-type=\"bibr\" pmid=\"19079352\" doi=\"10.1038/nrmicro2077\" count=\"1\">[6]</citation>, and <italic toggle=\"yes\">Mycobacterium tuberculosis</italic> complex (MTBC) <citation rid=\"pone.0007815-Sreevatsan1\" ref-type=\"bibr\" pmid=\"9275218\" doi=\"10.1073/pnas.94.18.9869\" pmcid=\"PMC23284\" count=\"1\">[7]</citation>. <sentence_start/>MTBC includes several sub-species that cause tuberculosis in humans and in various other mammals."
+  },
+  {
+   "section": "article",
+   "text": "Understanding the diversity of bacterial pathogens is important, both for epidemiological and biological reasons. <sentence_start/>However, because of the low DNA sequence variation in monomorphic bacteria, studying the genetic diversity of these microbes is challenging. <sentence_start/>Standard sequence-based methods like multilocus sequence typing (MLST) are not applicable because of low phylogenetic resolution <citation rid=\"pone.0007815-Baker1\" ref-type=\"bibr\" pmid=\"15498158\" doi=\"10.3201/eid1009.040046\" pmcid=\"PMC3320301\" count=\"1\">[8]</citation>, <citation rid=\"pone.0007815-Maiden1\" ref-type=\"bibr\" pmid=\"9501229\" doi=\"10.1073/pnas.95.6.3140\" pmcid=\"PMC19708\" count=\"1\">[9]</citation>. <sentence_start/>Alternative non-sequence-based tools, such as Pulsfield Gel Electrophoresis (PFGE) and Restriction Fragment Length Phylomorphism (RFLP) have been used for fine typing of monomorphic bacteria. <sentence_start/>However, these gel-based techniques have many draw-backs and are difficult to reproduce within and between laboratories <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>. <sentence_start/>More recently, PCR-based genotyping methods have been developed. <sentence_start/>Two of the most popular techniques are based on Clustered Regulatory Short Palindromic Repeats (CRISPR) and Variable Number Tandem Repeats (VNTR), respectively (Figure 1) <citation rid=\"pone.0007815-Grissa1\" ref-type=\"bibr\" pmid=\"18442988\" doi=\"10.1093/nar/gkn228\" pmcid=\"PMC2447796\" count=\"1\">[10]</citation>, <citation rid=\"pone.0007815-Lindstedt1\" ref-type=\"bibr\" pmid=\"15937984\" doi=\"10.1002/elps.200500096\" count=\"1\">[11]</citation>. <sentence_start/>CRISPRs are regions of the bacterial genome characterized by series of direct repeats interspersed by short unique regions called spacers. <sentence_start/>CRISPRs have been shown to encode a specialized defence mechanisms against bacteriophages, and changes in the number of spacers have been associated with phage-susceptibility <citation rid=\"pone.0007815-Andersson1\" ref-type=\"bibr\" pmid=\"18497291\" doi=\"10.1126/science.1157358\" count=\"1\">[12]</citation>. <sentence_start/>VNTR-typing on the other hand, compares the strain-specific numbers of repeats of short DNA sequences at different positions of the bacterial genome <citation rid=\"pone.0007815-Lindstedt1\" ref-type=\"bibr\" pmid=\"15937984\" doi=\"10.1002/elps.200500096\" count=\"1\">[11]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Schematic illustrating the principles of the CRISPR- and VNTR-based genotyping in MTBC."
+  },
+  {
+   "section": "article",
+   "text": "These genotyping methods are known as ‘spoligotyping’ and ‘MIRU-VNTR-typing’, respectively. <sentence_start/>Spoligotyping is based on the detection of 43 unique spacers located between direct repeats at a specific locus of the MTBC genome known as the direct repeat (DR) locus. <sentence_start/>Spoligotyping patterns are commonly represented by black and white squares indicating presence or absence of particular spacers, respectively. <sentence_start/>The deletion of some of these 43 spacers allows to differentiate between strains. <sentence_start/>MIRU-VNTR analysis relies on the identification of different number of repeats at several loci scattered around the bacterial genome (marked by A, B, C, and D in the figure). <sentence_start/>The number of repeats at each locus is combined to generate a unique numerical code used to establish phylogenetic and epidemiological links between strains."
+  },
+  {
+   "section": "article",
+   "text": "CRISPR- and VNTR-based genotyping has been established for many genetically monomorphic bacterial pathogens, including <italic toggle=\"yes\">Y. pestis</italic> <citation rid=\"pone.0007815-Cui1\" ref-type=\"bibr\" pmid=\"18612419\" doi=\"10.1371/journal.pone.0002652\" pmcid=\"PMC2440536\" count=\"1\">[13]</citation>, <citation rid=\"pone.0007815-Klevytska1\" ref-type=\"bibr\" pmid=\"11526147\" doi=\"10.1128/JCM.39.9.3179-3185.2001\" pmcid=\"PMC88315\" count=\"1\">[14]</citation>, <citation rid=\"pone.0007815-Achtman3\" ref-type=\"bibr\" pmid=\"15598742\" doi=\"10.1073/pnas.0408026101\" pmcid=\"PMC535704\" count=\"1\">[15]</citation>, <italic toggle=\"yes\">B. anthracis</italic> <citation rid=\"pone.0007815-Keim1\" ref-type=\"bibr\" pmid=\"10781564\" doi=\"10.1128/jb.182.10.2928-2936.2000\" pmcid=\"PMC102004\" count=\"1\">[16]</citation>, <italic toggle=\"yes\">Salmonella eneterica</italic> serovar Typhi <citation rid=\"pone.0007815-Ramisse1\" ref-type=\"bibr\" pmid=\"15583305\" doi=\"10.1128/JCM.42.12.5722-5730.2004\" pmcid=\"PMC535243\" count=\"1\">[17]</citation>, <italic toggle=\"yes\">Francisella tuleransis</italic> <citation rid=\"pone.0007815-Johansson1\" ref-type=\"bibr\" pmid=\"15317786\" doi=\"10.1128/JB.186.17.5808-5818.2004\" pmcid=\"PMC516809\" count=\"1\">[18]</citation>, <italic toggle=\"yes\">Escherichia coli</italic> O157 <citation rid=\"pone.0007815-Lindstedt2\" ref-type=\"bibr\" pmid=\"15234519\" doi=\"10.1016/j.mimet.2004.03.016\" count=\"1\">[19]</citation>, and <italic toggle=\"yes\">M. leprae</italic> <citation rid=\"pone.0007815-Truman1\" ref-type=\"bibr\" pmid=\"15184434\" doi=\"10.1128/JCM.42.6.2558-2565.2004\" pmcid=\"PMC427888\" count=\"1\">[20]</citation>. <sentence_start/>In MTBC, the corresponding CRISPR- and VNTR-based methodologies are known as spoligotyping and MIRU-VNTR, respectively (Figure 1) <citation rid=\"pone.0007815-Kamerbeek1\" ref-type=\"bibr\" pmid=\"9157152\" doi=\"10.1128/jcm.35.4.907-914.1997\" pmcid=\"PMC229700\" count=\"1\">[21]</citation>, <citation rid=\"pone.0007815-Mazars1\" ref-type=\"bibr\" pmid=\"11172048\" doi=\"10.1073/pnas.98.4.1901\" pmcid=\"PMC29354\" count=\"1\">[22]</citation>. <sentence_start/>These two genotyping techniques were originally developed for molecular epidemiological applications, and are routinely used to trace ongoing chains of tuberculosis transmission <citation rid=\"pone.0007815-vanDeutekom1\" ref-type=\"bibr\" pmid=\"16145094\" doi=\"10.1128/JCM.43.9.4473-4479.2005\" pmcid=\"PMC1234145\" count=\"1\">[23]</citation>, to differentiate cases of disease relapse from re-infections <citation rid=\"pone.0007815-Cox1\" ref-type=\"bibr\" pmid=\"19038891\" doi=\"10.1056/NEJMc0805644\" count=\"1\">[24]</citation>, and to detect laboratory cross-contamination <citation rid=\"pone.0007815-Mathema1\" ref-type=\"bibr\" pmid=\"17041139\" doi=\"10.1128/CMR.00061-05\" pmcid=\"PMC1592690\" count=\"1\">[25]</citation>. <sentence_start/>Over the years, databases have been populated with spoligotyping and MIRU-VNTR-typing results from thousands of patient isolates. <sentence_start/>For example, the spoligotyping database SpolDB4 contains data from close to 40,000 MTBC isolates from more than 120 countries <citation rid=\"pone.0007815-Brudey1\" ref-type=\"bibr\" pmid=\"16519816\" doi=\"10.1186/1471-2180-6-23\" pmcid=\"PMC1468417\" count=\"1\">[26]</citation>, and MIRU-VNTR<italic toggle=\"yes\">plus</italic> has been put up as a new online reference database for standard genotyping of MTBC <citation rid=\"pone.0007815-AllixBeguec1\" ref-type=\"bibr\" pmid=\"18550737\" doi=\"10.1128/JCM.00540-08\" pmcid=\"PMC2519508\" count=\"1\">[27]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "In addition to routine molecular epidemiological applications, spoligotyping and MIRU-VNTR are increasingly also being applied to study evolutionary questions. <sentence_start/>Two complementary sets of MIRU-VNTR loci have been developed for MTBC <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>; 15-loci-MIRU-VNTR, which includes 15 loci, originally found to be the most discriminatory, and 24-loci-MIRU-VNTR that includes the same 15 loci plus an additional nine, which provide additional phylogenetic information. <sentence_start/>While 15-loci-MIRU-VNTR is mainly being applied for routine molecular epidemiology, spoligotyping and 24-loci-MIRU-VNTR have been proposed for phylogenetic and population genetic analyses of MTBC <citation rid=\"pone.0007815-Brudey1\" ref-type=\"bibr\" pmid=\"16519816\" doi=\"10.1186/1471-2180-6-23\" pmcid=\"PMC1468417\" count=\"1\">[26]</citation>, <citation rid=\"pone.0007815-Sola1\" ref-type=\"bibr\" pmid=\"12809807\" doi=\"10.1016/s1567-1348(03)00011-x\" count=\"1\">[29]</citation>, <citation rid=\"pone.0007815-Wirth1\" ref-type=\"bibr\" pmid=\"18802459\" doi=\"10.1371/journal.ppat.1000160\" pmcid=\"PMC2528947\" count=\"1\">[30]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "We recently performed a multilocus sequence analysis (MLSA) of 108 MTBC strains in which we generated the complete coding sequences of 89 genes, corresponding to ∼70 k base pairs per strain <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>. <sentence_start/>We used these DNA sequences to generate a highly robust phylogeny of MTBC <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>, <citation rid=\"pone.0007815-Smith1\" ref-type=\"bibr\" pmid=\"19483712\" doi=\"10.1038/nrmicro2165\" count=\"1\">[32]</citation>. <sentence_start/>Here we used this MLSA-based phylogeny to evaluate the phylogenetic accuracy of spoligotyping and MIRU-VNTR in MTBC. <sentence_start/>In addition, we used this MLSA dataset to investigate the discriminatory power of the 24 standard MIRU-VNTR loci in the different strain lineages of MTBC."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "DNA Sequencing Defines a New Gold-Standard for the Phylogenetic Classification of MTBC"
+  },
+  {
+   "section": "article",
+   "text": "We previously showed that MLSA of 108 global strains of MTBC resulted in a single most parsimonious phylogenetic tree with negligible homoplasy (Figure 2) <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>. <sentence_start/>This phylogeny was also highly congruent with our previous analyses based on large sequence polymorphisms (LSPs) <citation rid=\"pone.0007815-Gagneux1\" ref-type=\"bibr\" pmid=\"16477032\" doi=\"10.1073/pnas.0511240103\" pmcid=\"PMC1413851\" count=\"1\">[33]</citation>, <citation rid=\"pone.0007815-Comas1\" ref-type=\"bibr\" pmid=\"19855821\" doi=\"10.1371/journal.ppat.1000600\" pmcid=\"PMC2745564\" count=\"1\">[34]</citation>, and earlier DNA sequencing work <citation rid=\"pone.0007815-Baker1\" ref-type=\"bibr\" pmid=\"15498158\" doi=\"10.3201/eid1009.040046\" pmcid=\"PMC3320301\" count=\"1\">[8]</citation>, <citation rid=\"pone.0007815-Gagneux2\" ref-type=\"bibr\" pmid=\"17448936\" doi=\"10.1016/S1473-3099(07)70108-1\" count=\"1\">[35]</citation>. <sentence_start/>To further probe the robustness of our MLSA-based phylogeny, we re-analyzed our DNA sequence data by the Neighbour-joining, Maximum likelihood, and Bayesian inference methods. <sentence_start/>All three analyses yielded identical tree topologies, which were highly congruent with our previous findings based on Maximum parsimony (Figure 2, Figure 3A, Figure S1). <sentence_start/>Furthermore, high statistical support was obtained for all main clades and for each method, despite the fact that some lineages were defined by only a small number of single nucleotide polymorphisms (SNPs). <sentence_start/>Because MTBC is strictly clonal <citation rid=\"pone.0007815-Hirsh1\" ref-type=\"bibr\" pmid=\"15041743\" doi=\"10.1073/pnas.0305627101\" pmcid=\"PMC387341\" count=\"1\">[36]</citation>, <citation rid=\"pone.0007815-Supply2\" ref-type=\"bibr\" pmid=\"12519202\" doi=\"10.1046/j.1365-2958.2003.03315.x\" count=\"1\">[37]</citation>, and our LSP and MLSA analyses were highly congruent, we conclude that our MLSA-based phylogeny is robust and appropriate for classification of MTBC strains into discrete strain lineages."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Maximum parsimony phylogeny based on concatenates of 89 gene sequences from 108 MTBC strains from global sources as previously reported <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[<bold>31</bold>]</citation> <bold>.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "Six main lineages can be observed within the human MTBC (numbered 1 to 6 and indicated in different colours). <sentence_start/>As shown previously, these lineages are highly congruent to the ones defined based on genomic deletions or large sequence polymorphisms (LSPs) <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>, <citation rid=\"pone.0007815-Gagneux1\" ref-type=\"bibr\" pmid=\"16477032\" doi=\"10.1073/pnas.0511240103\" pmcid=\"PMC1413851\" count=\"1\">[33]</citation>, <citation rid=\"pone.0007815-Comas1\" ref-type=\"bibr\" pmid=\"19855821\" doi=\"10.1371/journal.ppat.1000600\" pmcid=\"PMC2745564\" count=\"1\">[34]</citation>. <sentence_start/>Corresponding spoligotyping data for each strain are shown on the right, where black squares indicate the presence of a particular spacer and a white square the absence of a particular spacer (see Figure 1 for details on the methodology). <sentence_start/>Because the various typing techniques have classified MTBC strains into several lineages and strain families using differing nomenclatures, some of the traditional names are also shown. <sentence_start/>Some of the traditional groupings defined by spoligotyping correlate with SNP-based lineages (see also Table S1). <sentence_start/>For example, EAI (East-African-Indian) corresponds to the pink lineage, AFR1 and AFR2 correspond to the green and brown lineage, respectively (these strains are also known as <italic toggle=\"yes\">M. africanum</italic>), and CAS (Central-Asian) corresponds to the purple lineage. <sentence_start/>However, other strain groupings defined by spoligotyping should be regarded as sub-lineages within the main lineages. <sentence_start/>For example, the ‘Beijing’ strain family is part of the blue lineage, and the five spoligotyping groups ‘Cameroon’, ‘Uganda’ ‘X’, ‘Haarlem’, and ‘LAM (Latin-American-Mediterranean)’ are sub-lineages within the main red lineage. <sentence_start/>This highlights another limitation of spoligotyping, which is that phylogenetic relationships between strain groupings cannot be defined. <sentence_start/>In addition, asterisks indicate spoligotyping patterns that cannot be classified at all using standard ‘signature patterns’ <citation rid=\"pone.0007815-Brudey1\" ref-type=\"bibr\" pmid=\"16519816\" doi=\"10.1186/1471-2180-6-23\" pmcid=\"PMC1468417\" count=\"1\">[26]</citation>. <sentence_start/>PGG1, PGG2, and PGG3 indicate Principal Genetic Group 1, 2, and 3, respectively. <sentence_start/>The PGG nomenclature is based on two SNPs originally described by Sreevatsan at al. <citation rid=\"pone.0007815-Sreevatsan1\" ref-type=\"bibr\" pmid=\"9275218\" doi=\"10.1073/pnas.94.18.9869\" pmcid=\"PMC23284\" count=\"1\">[7]</citation>. <sentence_start/>Comparison to the MLSA data shows these groups are not phylogenetically equivalent as most of the MTBC diversity groups within PGG1, and PGG3 includes only a small subset of strains."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Comparison of unrooted phylogenies of MTBC based on 97 global strains using various molecular markers."
+  },
+  {
+   "section": "article",
+   "text": "Colours indicate the main MTBC lineages as defined by MLSA and LSPs <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>. <sentence_start/>(<bold>A</bold>) Neigbour-joining (NJ) phylogeny based on 339 variable nucleotide positions in 89 genes using number of SNPs as distance. <sentence_start/>The same topology was obtained using NJ, Maximum likelihood (ML), and Bayesian inference (BI). <sentence_start/>Numbers indicate bootstrap support after 1,000 pseudoreplicates for NJ and ML, and <italic toggle=\"yes\">a posteriori</italic> probabilities for BI, respectively (Figure S1). <sentence_start/>MTBC can be divided in two main clades, one evolutionary ‘modern’ (also known as ‘TbD1-negative’), which includes the blue, purple, and red strain lineages, and one evolutionary ‘ancient’ (TbD-positive), which includes the remaining strain lineages. <sentence_start/>(<bold>B</bold>) NJ phylogeny based on spoligotyping data and Jaccard distances. <sentence_start/>No bootstrap values could be calculated using these markers. <sentence_start/>(<bold>C</bold>) NJ phylogeny based on 15-loci-MIRU-VNTR data and Nei distances. <sentence_start/>Numbers indicate bootstrap support after 1,000 pseudoreplicates. <sentence_start/>(<bold>D</bold>) NJ phylogeny based on 24-loci-MIRU-VNTR data and Nei distances. <sentence_start/>Numbers indicate bootstrap support after 1,000 pseudoreplicates."
+  },
+  {
+   "section": "article",
+   "text": "To develop a new SNP-based classification system for MTBC, we used our MLSA-based phylogeny to extracted all lineage-defining SNPs (Table S1). <sentence_start/>Many of these SNPs are redundant and can be used interchangeably to identify the same phylogenetic groupings. <sentence_start/>Because the technical requirements of various SNP-typing technologies may vary <citation rid=\"pone.0007815-Black1\" ref-type=\"bibr\" pmid=\"17488301\" doi=\"10.1111/j.1365-2583.2007.00736.x\" count=\"1\">[38]</citation>, <citation rid=\"pone.0007815-Kim1\" ref-type=\"bibr\" pmid=\"17391067\" doi=\"10.1146/annurev.bioeng.9.060906.152037\" count=\"1\">[39]</citation>, we believe being able to choose among more than one lineage-specific SNP will facilitate the design of SNP-based assays using either of these platforms. <sentence_start/>Furthermore, the SNPs proposed here are more appropriate for typing of MTBC compared to most of the ones reported previously, because we used <italic toggle=\"yes\">de novo</italic> DNA sequence data from 108 global strains to discover these SNPs <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>. <sentence_start/>By contrast, SNP collections published previously were identified by comparing only three or four MTBC genome sequences <citation rid=\"pone.0007815-Filliol1\" ref-type=\"bibr\" pmid=\"16385065\" doi=\"10.1128/JB.188.2.759-772.2006\" pmcid=\"PMC1347298\" count=\"1\">[40]</citation>, <citation rid=\"pone.0007815-Gutacker1\" ref-type=\"bibr\" pmid=\"16323140\" doi=\"10.1086/498574\" count=\"1\">[41]</citation>, <citation rid=\"pone.0007815-Gutacker2\" ref-type=\"bibr\" pmid=\"12524330\" doi=\"10.1093/genetics/162.4.1533\" pmcid=\"PMC1462380\" count=\"1\">[42]</citation>, and thus suffer from phylogenetic discovery bias <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>, <citation rid=\"pone.0007815-Smith1\" ref-type=\"bibr\" pmid=\"19483712\" doi=\"10.1038/nrmicro2165\" count=\"1\">[32]</citation>, <citation rid=\"pone.0007815-Pearson1\" ref-type=\"bibr\" pmid=\"15347815\" doi=\"10.1073/pnas.0403844101\" pmcid=\"PMC518758\" count=\"1\">[43]</citation>, <citation rid=\"pone.0007815-Alland1\" ref-type=\"bibr\" pmid=\"12754238\" doi=\"10.1128/JB.185.11.3392-3399.2003\" pmcid=\"PMC155390\" count=\"1\">[44]</citation>, <citation rid=\"pone.0007815-Pearson2\" ref-type=\"bibr\" pmid=\"19477301\" doi=\"10.1016/j.meegid.2009.05.014\" count=\"1\">[45]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "CRISPR- and VNTR-Based Genotyping Results in Unreliable Phylogenetic Inference"
+  },
+  {
+   "section": "article",
+   "text": "CRISPR- and VNTR-based genotyping techniques have been used for phylogenetic and population genetic studies of genetically monomorphic bacteria <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>. <sentence_start/>Here we evaluated the performance of some of these methods using MTBC as an example. <sentence_start/>We used both qualitative and quantitative methods to determine the phylogenetic congruence of CRISPR-based spoligotyping and MIRU-VNTR-typing using our MLSA-based phylogeny as a gold standard."
+  },
+  {
+   "section": "article",
+   "text": "We first generated the corresponding spoligotyping and 24-loci-MIRU-VNTR-typing data from strains included in our MLSA study following internationally standardized protocols <citation rid=\"pone.0007815-Kamerbeek1\" ref-type=\"bibr\" pmid=\"9157152\" doi=\"10.1128/jcm.35.4.907-914.1997\" pmcid=\"PMC229700\" count=\"1\">[21]</citation>, <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>. <sentence_start/>Our final dataset comprised 97 strains with complete MLSA, spoligotyping, 15-loci-MIRU-VNTR, and 24-loci-MIRU-VNTR data (Table S2). <sentence_start/>We then used a qualitative approach to see whether the main MTBC lineages inferred by MLSA (indicated in different colours in Figure 2 and Figure 3A) were reproduced across the different genotyping datasets. <sentence_start/>To test this, we mapped the seven main MTBC lineages onto the tree topologies generated from the spoligotyping, 15-loci-MIRU-VNTR, or 24-loci-MIRU-VNTR data (Figures 3B, 3C, and 3D, respectively). <sentence_start/>Our results showed that spoligotyping was unable to retrieve five out of the seven main strain lineages as monophyletic groupings (Figure 3B). <sentence_start/>Even the clear separation between the evolutionary ‘Ancient’ (TbD1+) and ‘Modern’ (TbD1-) clades was missed <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>, <citation rid=\"pone.0007815-Smith1\" ref-type=\"bibr\" pmid=\"19483712\" doi=\"10.1038/nrmicro2165\" count=\"1\">[32]</citation>. <sentence_start/>It has been argued that even though spoligotyping data may not be ideal for formal phylogenetic analyses, particular “signature” patterns can still be informative for population genetic analyses <citation rid=\"pone.0007815-Brudey1\" ref-type=\"bibr\" pmid=\"16519816\" doi=\"10.1186/1471-2180-6-23\" pmcid=\"PMC1468417\" count=\"1\">[26]</citation>. <sentence_start/>For example, the “Beijing” lineage of MTBC has a characteristic loss of 34 spacers (Figure 2), which is caused by a deletion of a genomic region known as RD207 <citation rid=\"pone.0007815-Tsolaki1\" ref-type=\"bibr\" pmid=\"16000433\" doi=\"10.1128/JCM.43.7.3185-3191.2005\" pmcid=\"PMC1169157\" count=\"1\">[46]</citation>. <sentence_start/>In other words, this spoligotyping pattern reflects a large sequence polymorphism that is phylogenetically informative (Table S1). <sentence_start/>Comparison of our MLSA dataset to the corresponding spoligotyping data shows that indeed, many strains can be grouped using such “signature” patterns. <sentence_start/>However, others cannot be classified properly because their spoligotyping patterns are either ambiguous or uninformative (Figure 2) <citation rid=\"pone.0007815-Flores1\" ref-type=\"bibr\" pmid=\"17699643\" doi=\"10.1128/JCM.00828-07\" pmcid=\"PMC2045339\" count=\"1\">[47]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The phylogenetic accuracy of MIRU-VNTR-typing was better than spoligotyping overall, but depended on the number of loci included in the analysis. <sentence_start/>As observed previously <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>, while 15-loci-MIRU-VNTR was prone to phylogenetic misclassification (Figure 3C), 24-loci-MIRU-VNTR was more informative with most strain lineages appearing as monophyletic groups (Figure 3D). <sentence_start/>However, a closer look revealed several qualitative incongruencies with respect to the MLSA gold standard. <sentence_start/>At the main lineage level, the green, orange, and blue strains did not appear as monophyletic groupings in the 24-loci-MIRU-VNTR phylogeny (Figure 3D). <sentence_start/>Furthermore, additional incongruence became evident at the sub-lineage level. <sentence_start/>To show this, we performed an analysis restricted to strains from the red lineage. <sentence_start/>We mapped onto the 24-loci-MIRU-VNTR phylogeny all 27 phylogenetically informative SNPs found in red strains based on our MLSA dataset (Figure 2 and Figure 3). <sentence_start/>We found that 13 of these (48%) were incompatible with the 24-loci-MIRU-VNTR topology (Figure 4 and Figure S2)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "One example of homoplasy in the MIRU-VNTR-based phylogeny for the red strain lineage."
+  },
+  {
+   "section": "article",
+   "text": "The SNP C→G is shared by the strains T60, T38, T16, and T78 (dashed branches). <sentence_start/>These strains form a monophyletic group in the MLSA phylogeny (Figure 2). <sentence_start/>By contrast, the MIRU-VNTR-based topology splits these strains into three artificial groups, implying the same C→G change occurred three times independently."
+  },
+  {
+   "section": "article",
+   "text": "A more quantitative way of evaluating the phylogenetic performance of different genotyping methodologies is by comparing the statistical support for each clade. <sentence_start/>As discussed above, our MLSA-based phylogenies exhibited high statistical support for all strain lineages, irrespective of the phylogenetic method used (Figure 3A, Figure S1). <sentence_start/>By contrast, for both MIRU-VNTR methodologies bootstrap values were low and thus multiple alternative topologies equally likely (Figure 3C and D). <sentence_start/>Phylogenetic congruence testing is another quantitative way of comparing phylogenetic topologies. <sentence_start/>It provides a statistical framework to evaluate how well the MLSA data fits the non-sequence-based phylogenies by calculating a likelihood value associated with each of the methods. <sentence_start/>Our analysis revealed that the phylogenies derived from spoligotyping and MIRU-VNTR were significantly incompatible with the MLSA data (Table 1). <sentence_start/>This result is particularly important given that among the various tests available, the Shimodaira-Haegawa test we used here tends to be the most conservative <citation rid=\"pone.0007815-Goldman1\" ref-type=\"bibr\" pmid=\"12116432\" doi=\"10.1080/106351500750049752\" count=\"1\">[48]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "We suspected the reason for the low bootstrap support in the non-sequence-based phylogenies, and the statistically significant incongruence between these phylogenies and the MLSA data was because of homoplasy. <sentence_start/>Both spoligotyping and MIRU-VNTR are based on a limited number of loci, and the markers used evolve rapidly with a tendency to converge <citation rid=\"pone.0007815-Filliol1\" ref-type=\"bibr\" pmid=\"16385065\" doi=\"10.1128/JB.188.2.759-772.2006\" pmcid=\"PMC1347298\" count=\"1\">[40]</citation>. <sentence_start/>To test this hypothesis, we calculated the homoplasy index for each marker (Figure 5). <sentence_start/>As expected based on our qualitative analysis (Figure 3B), the highest homoplasy was found in spoligotyping patterns. <sentence_start/>Moreover, both the 15-loci-MIRU-VNTR and 24-loci-MIRU-VNTR data sets retained high levels of homoplasy, whereas in the MLSA data, homoplasy was virtually absent (Figure 5). <sentence_start/>To further explore instances of convergent evolution in MIRU-VNTR, we mapped all VNTR alleles for each MIRU-VNTR locus onto our MLSA phylogeny. <sentence_start/>We found that 23 out of 24 (96%) loci showed evidence of convergent evolution (Figure S3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Comparison of the homoplasy index (HI) across the different genotyping methods."
+  },
+  {
+   "section": "article",
+   "text": "HI was calculated based on the number of observed changes at each character compared to the expected number of changes assuming absence of homoplasy. <sentence_start/>Figure S3 shows several examples of homoplasy for individual MIRU-VNTR loci where the same number of repeats appear in unrelated branches of the tree."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, our qualitative and quantitative analysis of CRISPR- and VNTR-based genotyping methods revealed that both types of markers are characterized by significant amounts of homoplasy. <sentence_start/>Hence using these tools to define deep phylogenetic groupings in MTBC or other bacteria, can be misleading <citation rid=\"pone.0007815-Filliol1\" ref-type=\"bibr\" pmid=\"16385065\" doi=\"10.1128/JB.188.2.759-772.2006\" pmcid=\"PMC1347298\" count=\"1\">[40]</citation>, <citation rid=\"pone.0007815-Flores1\" ref-type=\"bibr\" pmid=\"17699643\" doi=\"10.1128/JCM.00828-07\" pmcid=\"PMC2045339\" count=\"1\">[47]</citation>. <sentence_start/>By contrast, DNA sequencing allows to identify true phylogenetic relationships, and to discover SNPs that can be used as powerful genotyping markers (Table S1) <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Discriminatory Power of MIRU-VNTR Markers Vary by Strain Lineage"
+  },
+  {
+   "section": "article",
+   "text": "Even though SNPs are ideal for defining deep phylogenetic groupings, these markers offer insufficient discriminatory power for routine molecular epidemiological investigation in genetically monomorphic bacterial pathogens <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>. <sentence_start/>CRISPR-, VNTR-, and other related genotyping methods will thus likely remain important genotyping tools for epidemiological purposes. <sentence_start/>However, because the relative discriminatory power of particular VNTR- loci has been shown to vary depending on the specific strain background <citation rid=\"pone.0007815-Murase1\" ref-type=\"bibr\" pmid=\"18566146\" doi=\"10.1099/jmm.0.47564-0\" count=\"1\">[49]</citation>, we decided to use our MLSA dataset to study this phenomenon in more detail."
+  },
+  {
+   "section": "article",
+   "text": "The discriminatory power of a given genotyping technique can be assessed using the Hunter Gaston Index (HGI) <citation rid=\"pone.0007815-Hunter1\" ref-type=\"bibr\" pmid=\"3069867\" doi=\"10.1128/jcm.26.11.2465-2466.1988\" pmcid=\"PMC266921\" count=\"1\">[50]</citation>. <sentence_start/>A high HGI indicates a given molecular marker or methodology is able to correctly classify closely related strains. <sentence_start/>To test whether the discriminatory power of the standard 24 MIRU-VNTR loci differed by MTBC lineage, we calculated the HGI for each locus separately for each of the main MTBC lineages (Figure 2, Figure 3A). <sentence_start/>We found that for most strain lineages, the majority of the MIRU-VNTR loci exhibited limited discriminatory power (Figure 6, Table S3). <sentence_start/>Moreover, the MIRU-VNTR loci that exhibited the highest HGI in one strain lineage were not necessarily the ones with the highest discriminatory power in other strain lineages. <sentence_start/>The fact MIRU-VNTR loci show the highest discriminatory power for the red lineage suggests that red strains were overrepresented during the original development of this genotyping technique <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>. <sentence_start/>Some strain lineages in our MLSA dataset were represented by fewer strains than other lineages, which could have influenced our analysis. <sentence_start/>To test this possibility, we analyzed the intra-lineage nucleotide diversity and compared it to the number of discriminatory loci in each lineage. <sentence_start/>We found no significant correlation between these two factors (Spearman's rho 0.62, p-value 0.14). <sentence_start/>Furthermore, in three out of four strain lineages harbouring equal or greater amounts of nucleotide diversity compared to the red lineage, the number of discriminatory loci was lower than in the red lineage (Figure 7)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Measure of discriminatory power (HGI) of individual MIRU-VNTR loci by MLSA-defined MTBC strain lineage."
+  },
+  {
+   "section": "article",
+   "text": "Red lines indicate HGI thresholds for highly discriminatory loci (HGI≥0.6, continuous), and intermediate discriminatory loci (HGI≥0.3, dashed), as previously defined <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>. <sentence_start/>Asterisks indicate MIRU-VNTR loci that have been proposed for standard molecular epidemiological typing of MTBC <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>. <sentence_start/>See also Table S3."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Number of discriminatory MIRU-VNTR loci (HGI≥0.3) as a function of intra-lineage nucleotide diversity (Pi)."
+  },
+  {
+   "section": "article",
+   "text": "The number next to the lineage designation indicates the number of strains analyzed for each MTBC lineage."
+  },
+  {
+   "section": "article",
+   "text": "In sum, our results demonstrate that VNTR loci can exhibit different discriminatory power in different bacterial strain lineages. <sentence_start/>These findings caution that selection of molecular markers for epidemiological typing should be based on large and globally representative strain collections. <sentence_start/>Moreover, our findings indicate that to maximize discriminatory power and minimize genotyping costs, only those VNTR markers should be used that offer the highest discriminatory power within a particular strain lineage (Table S3)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Discrimination between strains of pathogenic bacteria is crucial. <sentence_start/>From an epidemiological perspective, molecular investigation contributes to the control of infectious diseases, both locally and globally. <sentence_start/>In addition, molecular typing improves our understanding of the basic biology of bacterial pathogens, including differences in virulence and transmissibility, or the variable effectiveness of vaccines and drugs. <sentence_start/>Unfortunately, the properties of molecular markers required to address both local and global levels of bacterial diversity are unlikely to be met by a single marker <citation rid=\"pone.0007815-Feil1\" ref-type=\"bibr\" pmid=\"15152204\" doi=\"10.1038/nrmicro904\" count=\"1\">[51]</citation>. <sentence_start/>This problem is particularly acute in genetically monomorphic bacteria <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>. <sentence_start/>Because standard sequence-based genotyping such as MLST are not applicable in these bacteria, non-sequence-based tools, including CRISPR- and VNTR-based techniques, have become the gold standard for routine genotyping of these species. <sentence_start/>These tools have been applied very successfully to address a variety of epidemiological questions <citation rid=\"pone.0007815-Mathema1\" ref-type=\"bibr\" pmid=\"17041139\" doi=\"10.1128/CMR.00061-05\" pmcid=\"PMC1592690\" count=\"1\">[25]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "However, the results presented here argue against the use of these methods for evolutionary studies. <sentence_start/>The high propensity for convergent evolution and the resulting homoplasies are a significant drawback for defining deep phylogenetic relationships. <sentence_start/>Although the phylogenetic performance of VNTR-based typing was superior to that of the CRISPR-based method, phylogenies inferred using these markers show little statistical support. <sentence_start/>Furthermore, both of these typing methods are limited because little information exists with respect to the mode of molecular evolution of the respective molecular markers. <sentence_start/>This limitation is particularly important for spoligotyping and other CRISPR- based methods where it is virtually impossible to know whether the loss of multiple adjacent sequence spacers is due to a single or multiple evolutionary events. <sentence_start/>A single-step model of evolution has recently been proposed for VNTR loci in MTBC <citation rid=\"pone.0007815-Wirth1\" ref-type=\"bibr\" pmid=\"18802459\" doi=\"10.1371/journal.ppat.1000160\" pmcid=\"PMC2528947\" count=\"1\">[30]</citation>, but more studies are needed to confirm this model. <sentence_start/>For DNA sequence data on the other hand, multiple models of molecular evolution have been developed based on empirical data, and a robust statistical framework exists to evaluate the validity of these models for inferring phylogenetic relationships <citation rid=\"pone.0007815-Felsenstein1\" ref-type=\"bibr\" count=\"1\">[52]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "While deep phylogenetic information might be of little relevance for molecular epidemiology, unequivocal classification of bacterial strains is essential for many other applications. <sentence_start/>For example, elucidating the evolutionary history and global spread of bacterial pathogens requires robust strain assignment <citation rid=\"pone.0007815-Achtman1\" ref-type=\"bibr\" pmid=\"18785837\" doi=\"10.1146/annurev.micro.62.081307.162832\" count=\"1\">[1]</citation>. <sentence_start/>Furthermore, being able to define strains unambiguously is essential if phenotypic associations are to be unveiled. <sentence_start/>The mere fact that genetically monomorphic bacteria harbour little DNA sequence variation does not necessarily mean all strains of a given species behave the same <citation rid=\"pone.0007815-Nicol1\" ref-type=\"bibr\" pmid=\"18513773\" doi=\"10.1016/j.trstmh.2008.03.025\" count=\"1\">[53]</citation>. <sentence_start/>In fact in MTBC, there is mounting evidence that strain diversity plays a role in the outcome of TB infection and disease <citation rid=\"pone.0007815-Caws1\" ref-type=\"bibr\" pmid=\"18369480\" doi=\"10.1371/journal.ppat.1000034\" pmcid=\"PMC2268004\" count=\"1\">[54]</citation>, <citation rid=\"pone.0007815-deJong1\" ref-type=\"bibr\" pmid=\"18702608\" doi=\"10.1086/591504\" pmcid=\"PMC2597014\" count=\"1\">[55]</citation>, <citation rid=\"pone.0007815-deJong2\" ref-type=\"bibr\" pmid=\"16586366\" doi=\"10.1086/502977\" count=\"1\">[56]</citation>, <citation rid=\"pone.0007815-Thwaites1\" ref-type=\"bibr\" pmid=\"18287322\" doi=\"10.1128/JCM.02180-07\" pmcid=\"PMC2292951\" count=\"1\">[57]</citation>. <sentence_start/>To detect putative clinical or experimental phenotypes, assignment of individual bacterial strains to specific clades or strain lineages has to rely on phylogenetically well-defined groupings. <sentence_start/>If bacterial strains are misclassified because of inappropriate genotyping methods, the statistical power to detect true associations will be reduced."
+  },
+  {
+   "section": "article",
+   "text": "DNA sequencing costs have been decreasing exponentially <citation rid=\"pone.0007815-Service1\" ref-type=\"bibr\" pmid=\"16543431\" doi=\"10.1126/science.311.5767.1544\" count=\"1\">[58]</citation>, and full genome sequencing of bacteria has the potential to replace standard bacterial genotyping in the near future <citation rid=\"pone.0007815-Medini1\" ref-type=\"bibr\" pmid=\"18475305\" doi=\"10.1038/nrmicro1901\" count=\"1\">[59]</citation>. <sentence_start/>This prospect is particularly relevant for genetically monomorphic pathogens <citation rid=\"pone.0007815-Niemann1\" ref-type=\"bibr\" pmid=\"19823582\" doi=\"10.1371/journal.pone.0007407\" pmcid=\"PMC2756628\" count=\"1\">[60]</citation>. <sentence_start/>By interrogating the whole genome, sufficient sequence diversity will be detected to differentiate between individual strains. <sentence_start/>Furthermore, because of the comprehensive nature of full genome data, they can be used for both fine typing in an epidemiological context and large-scale evolutionary analyses. <sentence_start/>Several recent reports in <italic toggle=\"yes\">S. typhi</italic> <citation rid=\"pone.0007815-Holt1\" ref-type=\"bibr\" pmid=\"18660809\" doi=\"10.1038/ng.195\" pmcid=\"PMC2652037\" count=\"1\">[3]</citation>, <italic toggle=\"yes\">Brucella</italic> spp. <citation rid=\"pone.0007815-Foster1\" ref-type=\"bibr\" pmid=\"19201792\" doi=\"10.1128/JB.01581-08\" pmcid=\"PMC2668414\" count=\"1\">[61]</citation>, and <italic toggle=\"yes\">Francisella tularensis</italic> <citation rid=\"pone.0007815-Vogler1\" ref-type=\"bibr\" pmid=\"19251856\" doi=\"10.1128/JB.01786-08\" pmcid=\"PMC2668398\" count=\"1\">[62]</citation>, have highlighted the potential of comparative whole genome sequencing for elucidating the global population structure of genetically monomorphic bacterial pathogens. <sentence_start/>However, even though next-generation DNA sequencing is becoming more readily available, such large-scale projects are likely to remain limited to specialized sequencing centers for some time. <sentence_start/>Until high-throughput genome-sequencing of bacteria becomes more affordable, generating genotyping data for local epidemiology and broader applications in monomorphic microbes will remain challenging. <sentence_start/>One way to address this challenge is to combine robust lineage-specific markers with highly discriminatory molecular epidemiological typing. <sentence_start/>Our results demonstrate that CRISPR- and VNTR-based markers can be used for initial exploratory screening of strains. <sentence_start/>However, because of the inherent phylogenetic limitations of these tools, final strain assignment to specific strain lineages should be based on more robust markers such as SNPs or LSPs."
+  },
+  {
+   "section": "article",
+   "text": "The data presented here for MTBC suggest an approach, in which the main strain lineages are first identified by SNP-typing. <sentence_start/>Many SNP-typing technologies have been developed over the years, some of which are more affordable than others <citation rid=\"pone.0007815-Black1\" ref-type=\"bibr\" pmid=\"17488301\" doi=\"10.1111/j.1365-2583.2007.00736.x\" count=\"1\">[38]</citation>, <citation rid=\"pone.0007815-Kim1\" ref-type=\"bibr\" pmid=\"17391067\" doi=\"10.1146/annurev.bioeng.9.060906.152037\" count=\"1\">[39]</citation>. <sentence_start/>Because lineage-specific SNPs are mutually exclusive in MTBC (Table S1), not all need to be typed in every strain, which can reduce costs. <sentence_start/>Once the main strain lineages are known, but further molecular epidemiological discrimination is necessary, lineage-specific sets of most discriminatory VNTR markers can be used to separate individual strains within each lineage (Table S3). <sentence_start/>Such an approach would generate accurate data for epidemiological and evolutionary applications, as well as for classification of strains during clinical or experimental association studies. <sentence_start/>Similar combined SNP/VNTR-typing schemes could be developed for other genetically monomorphic bacterial pathogens."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Bacterial Strains and Molecular Typing"
+  },
+  {
+   "section": "article",
+   "text": "The bacterial strains included in this study are representative the global diversity of MTBC as shown previously <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>. <sentence_start/>MLSA data including 89 genes or 70 kbp per strain was generated by direct DNA sequencing of PCR products as described <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>. <sentence_start/>Spoligotyping and 15-loci-MIRU-VNTR and 24-loci-MIRU-VNTR genotyping was performed according to internationally standardized protocols <citation rid=\"pone.0007815-Kamerbeek1\" ref-type=\"bibr\" pmid=\"9157152\" doi=\"10.1128/jcm.35.4.907-914.1997\" pmcid=\"PMC229700\" count=\"1\">[21]</citation>, <citation rid=\"pone.0007815-Supply1\" ref-type=\"bibr\" pmid=\"17005759\" doi=\"10.1128/JCM.01392-06\" pmcid=\"PMC1698431\" count=\"1\">[28]</citation>. <sentence_start/>A total of 97 strains which had all genotyping data available was used for the further analyses."
+  },
+  {
+   "section": "article",
+   "text": "Data Analysis"
+  },
+  {
+   "section": "article",
+   "text": "To determine the spoligotyping pattern of each strain, each of the 43 spacers was treated as a binary character indicating presence (1) or absence (0). <sentence_start/>Distances between isolates were calculated using the Jaccard index as implemented in Bionumerics 5.1. <sentence_start/>A neighbour-joining (NJ) tree was obtained using these distances. <sentence_start/>For the MIRU-VNTR analysis, Populations 1.3 was used to generate a distance matrix and a phylogenetic tree using the Nei distance <citation rid=\"pone.0007815-Nei1\" ref-type=\"bibr\" pmid=\"6571220\" doi=\"10.1007/BF02300753\" count=\"1\">[63]</citation>. <sentence_start/>From the distance matrix a NJ tree was obtained and support for each clade was evaluated by generating 1,000 bootstrap pseudoreplicates. <sentence_start/>For the sequence based phylogenetic inference a concatenate alignment of the 89 genes sequenced by Hershberg et al. <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation> was obtained after removing those strains with no MIRU-VNTR or spoligotype information. <sentence_start/>From the resulting 65,829 base pair alignment we extracted the variable positions (n = 339, Supplementary Table S2) and used them for the phylogenetic analysis. <sentence_start/>The MLSA tree was obtained by the NJ method, maximum likelihood and Bayesian inference. <sentence_start/>The NJ analysis was implemented in MEGA 4 <citation rid=\"pone.0007815-Tamura1\" ref-type=\"bibr\" doi=\"10.1093/molbev/msm092\" pmid=\"17488738\" count=\"1\">[64]</citation> using the observed number of changes and 1,000 pseudo-replicated. <sentence_start/>More complex models were implemented for the maximum-likelihood and Bayesian analyses. <sentence_start/>We used Modeltest 3.7 <citation rid=\"pone.0007815-Posada1\" ref-type=\"bibr\" pmid=\"9918953\" doi=\"10.1093/bioinformatics/14.9.817\" count=\"1\">[65]</citation> to determine the best fit model of nucleotide evolution following the Akaike information criterion <citation rid=\"pone.0007815-Akaike1\" ref-type=\"bibr\" count=\"1\">[66]</citation>. <sentence_start/>After Modeltest analysis, the TVM model was applied for both analyses. <sentence_start/>The maximum-likelihood estimation was implemented in PHYML 3.0 <citation rid=\"pone.0007815-Guindon1\" ref-type=\"bibr\" pmid=\"14530136\" doi=\"10.1080/10635150390235520\" count=\"1\">[67]</citation> without substitution rate heterogeneity correction or invariant estimation as recommended by Modeltest. <sentence_start/>Clade support was evaluated by analyzing 1,000 bootstrap pseudo-replicates. <sentence_start/>The Bayesian analysis was run with MrBayes 3.1.2 <citation rid=\"pone.0007815-Ronquist1\" ref-type=\"bibr\" pmid=\"12912839\" doi=\"10.1093/bioinformatics/btg180\" count=\"1\">[68]</citation>. <sentence_start/>This program approximates the posterior probabilities of the phylogenetic tree using a Markov Chain Monte Carlo (MCMC) method. <sentence_start/>Four chains in two replicates were run during 2 million generations, convergence was evaluated using Tracer 1.4 and accepted when the effective sample sizes of all parameters combining both runs reached 100 as recommended. <sentence_start/>The final topology and Bayesian <italic toggle=\"yes\">a posteriori</italic> support values for clades were obtained from the consensus tree after discarding the first 10% generations as burn-in."
+  },
+  {
+   "section": "article",
+   "text": "Based on the high congruence of our LSP and MLSA analyses <citation rid=\"pone.0007815-Hershberg1\" ref-type=\"bibr\" pmid=\"19090620\" doi=\"10.1371/journal.pbio.0060311\" pmcid=\"PMC2602723\" count=\"1\">[31]</citation>, <citation rid=\"pone.0007815-Gagneux1\" ref-type=\"bibr\" pmid=\"16477032\" doi=\"10.1073/pnas.0511240103\" pmcid=\"PMC1413851\" count=\"1\">[33]</citation>, <citation rid=\"pone.0007815-Comas1\" ref-type=\"bibr\" pmid=\"19855821\" doi=\"10.1371/journal.ppat.1000600\" pmcid=\"PMC2745564\" count=\"1\">[34]</citation>, <citation rid=\"pone.0007815-Gagneux2\" ref-type=\"bibr\" pmid=\"17448936\" doi=\"10.1016/S1473-3099(07)70108-1\" count=\"1\">[35]</citation>, we assumed that the MLSA topology and lineage classification reflects the true evolutionary history of MTBC. <sentence_start/>Therefore we tested the specific hypothesis of whether the topologies obtained from the three non-MLSA topologies (spoligotypes, 15-loci-MIRU-VNTR, 24-loci-MIRU-VNTR) were congruent with the MLSA data. <sentence_start/>The Shimodaira-Hasegawa maximum likelihood test <citation rid=\"pone.0007815-Shimodaira1\" ref-type=\"bibr\" count=\"1\">[69]</citation> of competing phylogenetic hypothesis was used with 1,000 RELL pseudo-replicates as implemented in Tree-Puzzle <citation rid=\"pone.0007815-Schmidt1\" ref-type=\"bibr\" pmid=\"11934758\" doi=\"10.1093/bioinformatics/18.3.502\" count=\"1\">[70]</citation> to test whether the difference of likelihoods between the best tree and the competing hypotheses were significantly different from zero (alpha at 0.005 after correcting for multiple trees comparisons). <sentence_start/>The homoplasy index was calculated by fitting the data from each marker to the corresponding topology using PAUP 4.0 b <citation rid=\"pone.0007815-Swofford1\" ref-type=\"bibr\" count=\"1\">[71]</citation>. <sentence_start/>We used Mesquite 2.6 to map characters across phylogenies. <sentence_start/>The discriminatory power of each MIRU-VNTR locus was evaluated using the Hunter-Gaston discriminatory index (HGI) <citation rid=\"pone.0007815-Hunter1\" ref-type=\"bibr\" pmid=\"3069867\" doi=\"10.1128/jcm.26.11.2465-2466.1988\" pmcid=\"PMC266921\" count=\"1\">[50]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "Multilocus sequence analysis phylogeny of 97 MTBC strains."
+  },
+  {
+   "section": "article",
+   "text": "(0.03 MB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "Incongruence of the 24-loci-MIRU-VNTR phylogeny of the strains belonging to the red lineage."
+  },
+  {
+   "section": "article",
+   "text": "(0.68 MB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S3"
+  },
+  {
+   "section": "article",
+   "text": "Homoplasy in the MIRU-VNTR loci."
+  },
+  {
+   "section": "article",
+   "text": "(1.05 MB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Table S1"
+  },
+  {
+   "section": "article",
+   "text": "Phylogenetically informative SNPs for genoptyping of MTBC."
+  },
+  {
+   "section": "article",
+   "text": "(0.05 MB XLS)"
+  },
+  {
+   "section": "article",
+   "text": "Table S2"
+  },
+  {
+   "section": "article",
+   "text": "24-loci-MIRU-VNTR, spoligotyping, and SNP data from the 97 MTBC strains included in this study."
+  },
+  {
+   "section": "article",
+   "text": "(0.58 MB XLS)"
+  },
+  {
+   "section": "article",
+   "text": "Table S3"
+  },
+  {
+   "section": "article",
+   "text": "Discriminatory MIRU-VNTR loci by MTBC lineage."
+  },
+  {
+   "section": "article",
+   "text": "(0.04 MB XLS)"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>This work was supported by the Medical Research Council, UK, and USA National Institutes of Health grants HHSN266200700022C and AI034238. <sentence_start/>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+  }
+ ]
+}

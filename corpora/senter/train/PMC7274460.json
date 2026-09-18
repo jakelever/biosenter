@@ -1,0 +1,423 @@
+{
+ "pmid": 32453721,
+ "pmcid": 7274460,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Predictive whisker kinematics reveal context-dependent sensorimotor strategies"
+  },
+  {
+   "section": "abstract",
+   "text": "Animals actively move their sensory organs in order to acquire sensory information. <sentence_start/>Some rodents, such as mice and rats, employ cyclic scanning motions of their facial whiskers to explore their proximal surrounding, a behavior known as whisking. <sentence_start/>Here, we investigated the contingency of whisking kinematics on the animal’s behavioral context that arises from both internal processes (attention and expectations) and external constraints (available sensory and motor degrees of freedom). <sentence_start/>We recorded rat whisking at high temporal resolution in 2 experimental contexts-freely moving or head-fixed-and 2 spatial sensory configurations-a single row or 3 caudal whiskers on each side of the snout. <sentence_start/>We found that rapid sensorimotor twitches, called pumps, occurring during free-air whisking carry information about the rat’s upcoming exploratory direction, as demonstrated by the ability of these pumps to predict consequent head and body locomotion. <sentence_start/>Specifically, pump behavior during both voluntary motionlessness and imposed head fixation exposed a backward redistribution of sensorimotor exploratory resources. <sentence_start/>Further, head-fixed rats employed a wide range of whisking profiles to compensate for the loss of head- and body-motor degrees of freedom. <sentence_start/>Finally, changing the number of intact vibrissae available to a rat resulted in an alteration of whisking strategy consistent with the rat actively reallocating its remaining resources. <sentence_start/>In sum, this work shows that rats adapt their active exploratory behavior in a homeostatic attempt to preserve sensorimotor coverage under changing environmental conditions and changing sensory capacities, including those imposed by various laboratory conditions."
+  },
+  {
+   "section": "abstract",
+   "text": "The kinematics of whisking (the cyclic scanning motion of facial whiskers) carry information about the rat’s upcoming exploratory direction, revealing attentional and spatial compensations for manipulations such as head fixation and whisker trimming."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Perception is a process in which the sensory organ is actively employed in order to acquire sensory data from the external environment [<citation rid=\"pbio.3000571.ref001\" ref-type=\"bibr\" count=\"1\">1</citation>-<citation rid=\"pbio.3000571.ref006\" ref-type=\"bibr\" pmid=\"31396059\" doi=\"10.3389/fnint.2019.00032\" pmcid=\"PMC6664014\" count=\"1\">6</citation>]. <sentence_start/>In his classic study, Alfred L. Yarbus [<citation rid=\"pbio.3000571.ref001\" ref-type=\"bibr\" count=\"1\">1</citation>] demonstrated active sensing in human visual perception; Yarbus showed that different behavioral contexts, determined by giving subjects perceptual instructions, entail different spatial sampling strategies. <sentence_start/>A similar approach was employed to study sensorimotor exploration in other visual animals [<citation rid=\"pbio.3000571.ref007\" ref-type=\"bibr\" pmid=\"19645927\" doi=\"10.1111/j.1749-6632.2008.03709.x\" count=\"1\">7</citation>,<citation rid=\"pbio.3000571.ref008\" ref-type=\"bibr\" pmid=\"14745584\" doi=\"10.1007/s10071-003-0179-6\" count=\"1\">8</citation>], yet little is known about the effects of context on spatial sampling in other modalities."
+  },
+  {
+   "section": "article",
+   "text": "Many mammals use the long hairs (vibrissae or whiskers) on either side of their snout to navigate the environment and to collect information about their proximal surroundings [<citation rid=\"pbio.3000571.ref009\" ref-type=\"bibr\" count=\"1\">9</citation>]. <sentence_start/>In some rodents, movements of the whisker array are used to actively acquire tactile information about both the position and nature of nearby objects [<citation rid=\"pbio.3000571.ref010\" ref-type=\"bibr\" pmid=\"18641667\" doi=\"10.1038/nrn2411\" count=\"1\">10</citation>]. <sentence_start/>These movements are, in turn, affected by the acquired sensory information, as well as by other “top-down” modulatory processes [<citation rid=\"pbio.3000571.ref011\" ref-type=\"bibr\" pmid=\"18562549\" doi=\"10.1152/jn.90478.2008\" pmcid=\"PMC2544455\" count=\"1\">11</citation>-<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>]. <sentence_start/>In other words, vibrissal perception is not solely active but is also reactive, giving rise to closed-loop dynamics of the perceiving organism and its environment [<citation rid=\"pbio.3000571.ref014\" ref-type=\"bibr\" pmid=\"27159238\" doi=\"10.7554/eLife.12830\" pmcid=\"PMC4913359\" count=\"1\">14</citation>-<citation rid=\"pbio.3000571.ref016\" ref-type=\"bibr\" pmid=\"24549178\" doi=\"10.1016/j.conb.2014.01.014\" count=\"1\">16</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Several studies have described basic components of vibrissal active behavior, both those observed in synchronous exploratory whisking in air [<citation rid=\"pbio.3000571.ref002\" ref-type=\"bibr\" count=\"1\">2</citation>,<citation rid=\"pbio.3000571.ref017\" ref-type=\"bibr\" pmid=\"11877518\" doi=\"10.1152/jn.00539.2001\" count=\"1\">17</citation>-<citation rid=\"pbio.3000571.ref021\" ref-type=\"bibr\" pmid=\"22017992\" doi=\"10.1016/j.neuron.2011.09.020\" pmcid=\"PMC3717360\" count=\"1\">21</citation>] and those related to interactions with external objects [<citation rid=\"pbio.3000571.ref022\" ref-type=\"bibr\" pmid=\"12522163\" doi=\"10.1152/jn.00600.2002\" count=\"1\">22</citation>-<citation rid=\"pbio.3000571.ref025\" ref-type=\"bibr\" pmid=\"17331893\" doi=\"10.1098/rspb.2006.0347\" pmcid=\"PMC2124479\" count=\"1\">25</citation>]. <sentence_start/>Only a handful of studies, however, have analyzed how vibrissal behavior is affected by behavioral context. <sentence_start/>Arkley and colleagues [<citation rid=\"pbio.3000571.ref026\" ref-type=\"bibr\" pmid=\"24954047\" doi=\"10.1016/j.cub.2014.05.036\" count=\"1\">26</citation>], e.g., showed dramatic effects of training and environmental familiarity on the whisking strategy employed by rats. <sentence_start/>Furthermore, they showed that whisking strategy reflects the animals’ expectation of future object encounters. <sentence_start/>In another study by the same group, Grant and colleagues [<citation rid=\"pbio.3000571.ref027\" ref-type=\"bibr\" pmid=\"22231841\" doi=\"10.1002/dev.20591\" count=\"1\">27</citation>] tracked the developmental emergence of previously described behaviors in rat pups’ first postnatal weeks. <sentence_start/>Finally, rats change their whisking strategy in response to external perturbations, keeping some behavioral variables controlled while modulating others in order to maintain perceptual performance [<citation rid=\"pbio.3000571.ref028\" ref-type=\"bibr\" pmid=\"26063912\" doi=\"10.1523/JNEUROSCI.4149-14.2015\" pmcid=\"PMC6605211\" count=\"1\">28</citation>]. <sentence_start/>The effects of behavioral context on free exploratory whisking, however, remain poorly described."
+  },
+  {
+   "section": "article",
+   "text": "In laboratory experiments, highly dominant contextual factors emerge from the experimental methodology. <sentence_start/>Experimental biologists are often forced to impose methodological constraints on their study subjects to ensure precise and stable observations that are amenable to analysis. <sentence_start/>One of the most common practices in neurophysiological and neuroimaging studies is “motion restraint,” examples of which are (i) head-fixing, in which head movements are eliminated by the physical anchoring of the head [<citation rid=\"pbio.3000571.ref029\" ref-type=\"bibr\" pmid=\"20954892\" doi=\"10.3109/08990220.2010.513111\" pmcid=\"PMC3018133\" count=\"1\">29</citation>], and (ii) body restraint, in which head movements are permitted while the body is restrained [<citation rid=\"pbio.3000571.ref021\" ref-type=\"bibr\" pmid=\"22017992\" doi=\"10.1016/j.neuron.2011.09.020\" pmcid=\"PMC3717360\" count=\"1\">21</citation>]. <sentence_start/>Such procedures entail drastic reduction of the motor degrees of freedom available to the animal, as well as the introduction of psychological stress [<citation rid=\"pbio.3000571.ref029\" ref-type=\"bibr\" pmid=\"20954892\" doi=\"10.3109/08990220.2010.513111\" pmcid=\"PMC3018133\" count=\"1\">29</citation>]. <sentence_start/>An additional practice that is prevalent in the study of vibrissal perception is the reduction of the number of vibrissae available to the rodent, either by trimming or by plucking them from a full pad of 33 macrovibrissae that are arranged in 5 rows to (i) a single row [<citation rid=\"pbio.3000571.ref030\" ref-type=\"bibr\" pmid=\"16914670\" doi=\"10.1523/JNEUROSCI.1516-06.2006\" pmcid=\"PMC6674338\" count=\"1\">30</citation>], (ii) a few whiskers [<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>], or (iii) none at all [<citation rid=\"pbio.3000571.ref009\" ref-type=\"bibr\" count=\"1\">9</citation>]; in many cases, this is done to facilitate precise measurement of whisker position and shape using overhead videography. <sentence_start/>This procedure directly and selectively reduces the rodents’ sensory degrees of freedom, and was shown to entail compensatory behavioral adjustments in the context of object interrogation [<citation rid=\"pbio.3000571.ref031\" ref-type=\"bibr\" doi=\"10.1098/rstb.2011.0161\" pmcid=\"PMC3172602\" pmid=\"21969687\" count=\"1\">31</citation>]. <sentence_start/>Despite the ubiquity of such manipulations and their possible implications on the sensorimotor system, no attempt has been made so far to quantify the adaptations they might entail during exploratory behavior."
+  },
+  {
+   "section": "article",
+   "text": "Quantification of such compensatory adaptation is essential for discriminating between open- and closed-loop models of perception. <sentence_start/>When considering an individual perceptual epoch, open-loop models assume that sensation is “presented” to the brain, which extracts the information it needs using computational tools. <sentence_start/>Closed-loop perception assumes that the generation of sensations is actively controlled as the sensory information accumulates [<citation rid=\"pbio.3000571.ref014\" ref-type=\"bibr\" pmid=\"27159238\" doi=\"10.7554/eLife.12830\" pmcid=\"PMC4913359\" count=\"1\">14</citation>,<citation rid=\"pbio.3000571.ref032\" ref-type=\"bibr\" count=\"1\">32</citation>-<citation rid=\"pbio.3000571.ref034\" ref-type=\"bibr\" pmid=\"4682961\" doi=\"10.1126/science.179.4071.351\" count=\"1\">34</citation>]. <sentence_start/>The 2 schemes yield contradicting predictions with regard to the so-called “controlled variables” [<citation rid=\"pbio.3000571.ref035\" ref-type=\"bibr\" pmid=\"11430151\" count=\"1\">35</citation>]: closed-loop perception predicts that there will be motor-sensory variables that are maintained invariant despite external or embodied constrains, while open-loop perception predicts that such variables should not exist [<citation rid=\"pbio.3000571.ref014\" ref-type=\"bibr\" pmid=\"27159238\" doi=\"10.7554/eLife.12830\" pmcid=\"PMC4913359\" count=\"1\">14</citation>,<citation rid=\"pbio.3000571.ref035\" ref-type=\"bibr\" pmid=\"11430151\" count=\"1\">35</citation>]. <sentence_start/>Our experiments and analyses are aimed at directly testing these predictions."
+  },
+  {
+   "section": "article",
+   "text": "Here, we compare different aspects of vibrissal behavior measured in 3 contexts (Fig 1A): (i) head-fixed rats with a trimmed whisker pad (in this case, only 3 caudal macrovibrissae-C1, C2, and D1-were untrimmed on either side; reuse of data published in [<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>]), (ii) freely moving rats with the same 3-whisker configuration as in (i), and (iii) freely moving rats with an entire single row (row C) of macrovibrissae on either side (termed here “free single-row,” for the sake of brevity; behavioral apparatus is illustrated in S1 Fig). <sentence_start/>We focused only on segments in which the animals performed exploratory rhythmic movements in free air without encountering any object with the whiskers. <sentence_start/>It should be noted that whisker contacts with the floor could not be ruled out in the freely moving rats because of video limitations (resolution and focus). <sentence_start/>However, based on a previous study [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>], we can estimate the probability of such floor contacts to be only 2.5% per cycle for any whisker, and therefore, they are not expected to significantly alter our findings. <sentence_start/>Moreover, head-fixed rats were positioned such that no floor contacts were possible. <sentence_start/>We begin by describing the different parameters of whisking behavior used in our analyses, and then focus our analysis on a kinematic feature called the “free-air pump” [<citation rid=\"pbio.3000571.ref020\" ref-type=\"bibr\" pmid=\"18436634\" doi=\"10.1152/jn.01295.2007\" count=\"1\">20</citation>,<citation rid=\"pbio.3000571.ref036\" ref-type=\"bibr\" count=\"1\">36</citation>]. <sentence_start/>We then show that head-fixing exerts a dramatic shift in the whisking profile, suggesting an adaptive redistribution of sensorimotor exploratory resources. <sentence_start/>Finally, we demonstrate that whisker trimming likewise entails an alteration in whisking strategy."
+  },
+  {
+   "section": "article",
+   "text": "Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "Methodology, whisking bouts, and free-air pumps."
+  },
+  {
+   "section": "article",
+   "text": "(A) Three data sets were used in this study: HF rats with only whiskers D1, C1, and C2 (left); freely moving rats with only whiskers D1, C1, and C2 (free trimmed, center); and freely moving rats with 7 whiskers of row C (C1-C7) (free single-row, right); only motion of C2 (in red) was used in all analyses; only the left side whisker was used in all analyses except in Figs 3 and 4. (B) Rhythmic decomposition of whisking. <sentence_start/>Dynamics of the whisker’s base angle (black line) were analyzed as fast oscillations modulated by multiplicative amplitude (top, purple) and additive offset (black). <sentence_start/>Hatched: nonwhisking epochs (amplitude &lt; 2.5 deg). <sentence_start/>Inset: HF animals spend less time whisking. <sentence_start/>(C,D) Whisking amplitude histogram (circles; note the logarithmic scale) for the HF rats (C) and freely moving (D) trimmed rats. <sentence_start/>Histograms were fitted using a GMM (gray line). <sentence_start/>Distributions exhibited 2 modes: low-amplitude pauses (dark-colored lines) and high-amplitude bouts (light-colored lines). <sentence_start/>Arrows: maximum-likelihood thresholds (2.6 deg for HF, 2.1 deg for freely moving). <sentence_start/>(E) CDF of bout duration in cycles (bottom abscissa, orange) and in seconds (top abscissa, green) in HF rats. <sentence_start/>Examples of bouts 0.44 s, 1.04 s, and 7.3 s long are shown. <sentence_start/>Inset: probability density histogram of bout length is heavy-tailed; solid black line: power-law fit, dotted line: best exponential fit, shown for comparison. <sentence_start/>(F) Example of a whisking trajectory. <sentence_start/>Bottom: base angle; top: angular velocity. <sentence_start/>White background: protraction phases; gray background: retraction phases. <sentence_start/>Red markers and vertical dashed lines: free-air pumps, phases in which velocity profile is double-peaked; filled circle: protraction pump, empty circles: retraction pumps. <sentence_start/>The data and analysis code for this figure can be found here: . <sentence_start/>CDF, Cumulative Distribution Function; GMM, Gaussian Mixture Model; HF, head-fixed; PDF, Probability Density Function."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Characterizing whisking behavior"
+  },
+  {
+   "section": "article",
+   "text": "All analyses were performed on free-air exploratory whisking, in the absence of interactions with external objects. <sentence_start/>It has been shown that this mode of whisking is characterized by extremely high correlations between the angle of motion of the different whiskers [<citation rid=\"pbio.3000571.ref019\" ref-type=\"bibr\" pmid=\"16928873\" doi=\"10.1523/JNEUROSCI.0581-06.2006\" pmcid=\"PMC6674387\" count=\"1\">19</citation>,<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>], i.e., the entire whisker pad moves in unison. <sentence_start/>Since all whiskers move together, analyses of free-air whisking can be performed on one representative whisker; whisker C2 is often chosen because it is centrally located within the whisker pad [<citation rid=\"pbio.3000571.ref037\" ref-type=\"bibr\" pmid=\"16701211\" doi=\"10.1016/j.neuron.2006.03.043\" count=\"1\">37</citation>]. <sentence_start/>In the analysis of head motion, we used whisker C2 on both sides of the face; in all other analyses, only the left side was used. <sentence_start/>Our tracking tool extracted from the videos the whisker’s “base angle,” i.e., the angle of the whisker at the point it enters the skin relative to the line connecting the ipsilateral eye and the tip of the nose. <sentence_start/>To quantify the governing variables of exploratory whisking, we employed “rhythmic decomposition” on each of the tracked segments [<citation rid=\"pbio.3000571.ref021\" ref-type=\"bibr\" pmid=\"22017992\" doi=\"10.1016/j.neuron.2011.09.020\" pmcid=\"PMC3717360\" count=\"1\">21</citation>]; this algorithm models whisking dynamics as rapid oscillations (whisking cycles), modulated by a multiplicative “amplitude process” and an additive “offset” process (see Fig 1B and Methods). <sentence_start/>The whisking amplitude was bimodally distributed (Fig 1C and 1D), consisting of either high-amplitude “bouts” (nonshaded in Fig 1B, light-colored lines in Fig 1C and 1D) or low-amplitude “pauses” (shaded and hatched in Fig 1B, dark-colored lines in Fig 1C and 1D); it has been suggested that these 2 modes reflect 2 attentional states: an active exploratory state during bouts and a passive, “receptive” state during pauses [<citation rid=\"pbio.3000571.ref016\" ref-type=\"bibr\" pmid=\"24549178\" doi=\"10.1016/j.conb.2014.01.014\" count=\"1\">16</citation>,<citation rid=\"pbio.3000571.ref038\" ref-type=\"bibr\" pmid=\"22683381\" doi=\"10.1016/j.pneurobio.2012.05.013\" count=\"1\">38</citation>]. <sentence_start/>By fitting a Gaussian Mixture Model (GMM), we found the maximum-likelihood threshold between these modes (2.6 deg for head-fixed, 2.1 deg for freely moving; see arrows in Fig 1C and 1D); we therefore set a conservative threshold of 2.5 deg for all data sets. <sentence_start/>Overall, head-fixed rats whisked less frequently than freely moving, with head-fixed rats pausing for 27% of the tracked time, while freely moving rats paused 7.8% of the tracked time (inset, Fig 1B). <sentence_start/>This reflects the well-known reluctance of head-restrained rats to whisk; often, some sensory stimulation (e.g., olfactory) is required to encourage head-fixed animals to whisk. <sentence_start/>The duration of whisking bouts varied greatly (Fig 1E, Cumulative Distribution Function [CDF]); in the head-fixed data set, the median bout duration was 0.366 s (2 whisking cycles), while the mean was 0.92 s (5.86 cycles) (<italic toggle=\"yes\">N</italic> = 363). <sentence_start/>This large difference between median and mean reflects the “heavy tail” of the bout distribution. <sentence_start/>Indeed, the bout probability density is well fitted with a power-law function (inset of Fig 1E). <sentence_start/>The freely moving data sets contained much shorter segments since object contacts had to be edited out (head-fixed segments were 7 ± 3.1 s long, while freely moving segments were 2.6 ± 1.7 s long). <sentence_start/>This, together with the scarcity of pauses, led to there not being enough freely moving complete bouts (in which both the beginning and the end of the bout are recorded) to allow for a statistical analysis (42 freely moving bouts versus 363 head-fixed bouts). <sentence_start/>Most of the analyses described in this paper focused on features related to the active bout epochs only; e.g., the whisking pumps (see below) are only defined in the context of active protractions or retractions."
+  },
+  {
+   "section": "article",
+   "text": "Each whisking cycle is composed of 2 stages: protraction, in which the whiskers move rostrally (i.e., when the whiskers’ angular velocity is positive; unshaded in Fig 1F), and retraction, in which they move caudally (i.e., when angular velocity is negative; shaded in Fig 1F); henceforth, we will refer to protractions and retractions as the 2 “phases” of the whisking cycle. <sentence_start/>Usually, both protractions and retractions display smooth, ballistic-like kinematic profile with a single velocity peak; however, it was noted in several previous studies that some protraction/retraction phases exhibit a multipeaked velocity profile, indicating that the whisker motion consists of 2 or more consecutive “thrusts.” <sentence_start/>This feature, termed a whisking “pump” (red markers in Fig 1F [<citation rid=\"pbio.3000571.ref020\" ref-type=\"bibr\" pmid=\"18436634\" doi=\"10.1152/jn.01295.2007\" count=\"1\">20</citation>,<citation rid=\"pbio.3000571.ref036\" ref-type=\"bibr\" count=\"1\">36</citation>]), was suggested to serve as a fast “error-correction” mechanism for the whisking kinematics [<citation rid=\"pbio.3000571.ref020\" ref-type=\"bibr\" pmid=\"18436634\" doi=\"10.1152/jn.01295.2007\" count=\"1\">20</citation>]; another hypothesis is that these pumps cause the whiskers to linger and “resample” a spatial locus of interest, thus increasing the sensory information throughput from such loci. <sentence_start/>Consistent with this hypothesis, such pumps often occur immediately (latency &lt; 18 ms) after the whisker contacts an external object. <sentence_start/>These “Touch Induced Pumps” or TIPs [<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>] were shown to be related to object-oriented spatial attention [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>]. <sentence_start/>We detected the occurrence of pumps in our “free-air” data, in which no objects were contacted, by first segmenting the whisking signal into phases and then finding the phases in which the velocity profile had more than one peak (see Methods). <sentence_start/>In the next section, we compare various properties of these “free-air pumps” and TIPs."
+  },
+  {
+   "section": "article",
+   "text": "Free-air pumps are temporally clustered and entail phase prolongation and offset shifting"
+  },
+  {
+   "section": "article",
+   "text": "TIPs cluster in time [<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>]. <sentence_start/>We tested the tendency of free-air pumps to cluster by measuring the cross-correlation of pump instances between cycles. <sentence_start/>The probability of free-air pump occurrence was significantly correlated across multiple cycles (Fig 2A<sub>1,2</sub>). <sentence_start/>Importantly, these correlations were specific to pumps of the same whisking phase: a cycle in which a pump occurred in the protraction phase was likely to be preceded and followed by other cycles with protraction pumps (<italic toggle=\"yes\">p</italic> &lt; 0.05 up to lags of 7 cycles, random permutations; Fig 2A<sub>1</sub>), and the same was observed for retraction pumps (<italic toggle=\"yes\">p</italic> &lt; 0.05 for up to and beyond 10 cycles, random permutations; Fig 2A<sub>2</sub>). <sentence_start/>Sequences of consecutive protraction/retraction pumps were significantly more frequent than those obtained by random permutations (<italic toggle=\"yes\">p</italic> &lt; 0.0002 and <italic toggle=\"yes\">p</italic> = 0.0006; circles, Fig 2B<sub>1,2</sub>), and the same was true for sequences of no pumps (<italic toggle=\"yes\">p</italic> = 0.025 and <italic toggle=\"yes\">p</italic> = 0.0022; squares, Fig 2B<sub>1,2</sub>). <sentence_start/>Retraction pumps were less likely to be immediately followed by protraction pumps (<italic toggle=\"yes\">p</italic> &lt; 0.005, random permutations; gray arrowheads in Fig 2A<sub>1,2</sub>), but otherwise, pumps of opposing phases were uncorrelated."
+  },
+  {
+   "section": "article",
+   "text": "Fig 2"
+  },
+  {
+   "section": "article",
+   "text": "Phases with free-air pumps are clustered in time."
+  },
+  {
+   "section": "article",
+   "text": "(A<sub>1,2</sub>) Temporal clustering. <sentence_start/>Change in pump probability (normalized to the 0.05 significance level; i.e., −1 is the fifth percentile and +1 is the 95th percentile, both marked with a gray horizontal line) in protractions (solid, filled circles, white background) and retractions (dashed, empty circles, gray background), given that a pump (black arrow) occurred in protraction (A<sub>1</sub>, top) or retraction (A<sub>2</sub>, bottom) of a cycle, as function of time lag from that cycle. <sentence_start/>Same-phase pumps are strongly correlated across multiple cycles. <sentence_start/>Different-phase pumps are overall uncorrelated, though a retraction pump is unlikely to be immediately followed by a protraction pump (gray arrowheads). <sentence_start/>(B<sub>1,2</sub>) Probability distributions of series of consecutive pumps (circles) and no pumps (squares) of different run length, shown separately for protractions (filled markers, B<sub>1</sub>, top) and retractions (empty markers, B<sub>2</sub>, bottom). <sentence_start/>Long sequences of pumps/no pumps are significantly more common than chance level because of the temporal correlations shown in A. <sentence_start/>Gray shading: 0.95 confidence margins for controls generated by random permutations. <sentence_start/>(C<sub>1,2</sub>) Phase prolongation. <sentence_start/>CDF of phase duration for protractions (C<sub>1,</sub> top) and retractions (C<sub>2</sub>, bottom) with pumps (solid) and without pumps (dashed). <sentence_start/>Phases with pumps are longer (means: protractions 93 ms/71 ms, retractions 99 ms/58 ms with/without pumps, respectively). <sentence_start/>(D<sub>1,2</sub>) Offset shifting. <sentence_start/>CDF of mean whisking offset of protractions (D<sub>1</sub>, top) and retractions (D<sub>2</sub>, bottom) with pumps (solid) and without pumps (dashed). <sentence_start/>The offset during phases with pumps are shifted towards the direction of motion, i.e., forward in protractions and backwards in retractions (means: protractions 77.7 deg/74.6 deg, retractions 77.3 deg/71.5 deg with/without pumps, respectively). <sentence_start/>The data and analysis code for this figure can be found here: . <sentence_start/>CDF, Cumulative Distribution Function."
+  },
+  {
+   "section": "article",
+   "text": "Did cycles containing free-air pumps differ from those lacking them? In the context of object encounters, protractions containing TIPs are longer and shifted forward when compared with protractions with no pumps [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>,<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>]. <sentence_start/>This was also true for free-air pumps: first, phases with such pumps were much longer than those lacking pumps (31% longer in protraction and 71% longer in retraction; Fig 2C<sub>1,2</sub>; as previously shown in [<citation rid=\"pbio.3000571.ref020\" ref-type=\"bibr\" pmid=\"18436634\" doi=\"10.1152/jn.01295.2007\" count=\"1\">20</citation>]). <sentence_start/>Second, the whisking offset (i.e., the midpoint angle of the motion) was shifted in the direction of the whisking phase that included the pumps, i.e., more protracted in protractions that included pumps and more retracted in retractions that included pumps (+4.2% and −7.6% change in protraction/retraction, respectively; Fig 2D<sub>1,2</sub>). <sentence_start/>We note, however, that the statistical significance of this last finding is difficult to assess because of temporal correlations in the offset and pump-rate signals, which render neighboring samples statistically dependent."
+  },
+  {
+   "section": "article",
+   "text": "To conclude, we have shown some basic properties of free-air pumps: First, free-air pumps of each whisking phase (protraction/retraction) exhibited strong temporal correlations and therefore occurred in temporal “clusters,” rather than appearing randomly and uniformly in time. <sentence_start/>Second, phases containing free-air pumps were distinct from those that lacked pumps in both their duration and offset. <sentence_start/>Importantly, these properties are similar to those previously described for TIPs [<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>], which were later shown to be related to object-oriented spatial attention [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Direction-specific correlations between free-air pumps and head motion"
+  },
+  {
+   "section": "article",
+   "text": "We decomposed head motion into 3 components: “turn” (rotation around the midpoint between the eyes), “thrust” (longitudinal translation or forward/backward motion), and “slip” (transverse translation or side motion). <sentence_start/>While turning was uncorrelated with thrust (Pearson coefficient R = −0.035), it was highly correlated with slip (Pearson coefficient R = 0.863, see S2 Fig); these correlations reflect the fact that the axis of head rotation (the neck) is caudal to the eyes (which were the feature tracked in our analysis). <sentence_start/>Therefore, we limit our analysis of head motion to the turn and thrust variables. <sentence_start/>The likelihood of protraction pumps was correlated with contralateral head turns: turns to the left increased the pump frequency of the right whisker pad while decreasing that of the left whisker pad and vice versa (Fig 3A; plots are normalized to overall pump rates; statistical significance measured using random permutations, <italic toggle=\"yes\">N</italic> = 5,000). <sentence_start/>We note that when the head is turning in a certain direction, the contralateral side of the snout moves forward and the ipsilateral side moves backwards, and therefore, Fig 3A demonstrates that protraction pumps on either side of the face occur more frequently when that side moves forward. <sentence_start/>Correspondingly, protraction pumps were also more frequent during forward thrust at moderate speeds (i.e., walking, but not running) when both sides of the face move forward (Fig 3B). <sentence_start/>In contrast, retraction pumps occurred mostly when the rat kept its head motionless (close to zero velocity of turn and thrust) and were significantly inhibited during rapid motion in any direction. <sentence_start/>Therefore, head motion was accompanied with direction-specific modulations in the occurrence of free-air pumps; protraction pumps occurred mostly during forward motion (either of the entire head or of the side containing the pumping whisker), whereas retraction pumps were frequent when the head stayed nearly motionless."
+  },
+  {
+   "section": "article",
+   "text": "Fig 3"
+  },
+  {
+   "section": "article",
+   "text": "Free-air pumps are related to head motion."
+  },
+  {
+   "section": "article",
+   "text": "Pump rate (normalized to mean pump rate across all cycles) conditioned on head-motion variables in freely moving rats. <sentence_start/>Motion of whisker C2 from both sides of the snout was used in these analyses. <sentence_start/>Protraction: solid line with filled circles, retraction: dashed line with empty circles. <sentence_start/>(A) Turns. <sentence_start/>Protraction pumps are more frequent in contralateral turns, i.e., when the pumping-whisker side moves forward. <sentence_start/>Retraction pumps are more frequent when the rat does not turn its head. <sentence_start/>(B) Thrust. <sentence_start/>Protraction pumps are more frequent in low-velocity motion forward, while protraction pumps are more frequent when the rat is close to stationary. <sentence_start/>All linear velocities are normalized to head size. <sentence_start/>*<italic toggle=\"yes\">p</italic> &lt; 0.05; **<italic toggle=\"yes\">p</italic> &lt; 0.01; ***<italic toggle=\"yes\">p</italic> &lt; 0.005; no symbol, not significant. <sentence_start/>The data and analysis code for this figure can be found here: ."
+  },
+  {
+   "section": "article",
+   "text": "Free-air pumps are predictive of changes in head motion"
+  },
+  {
+   "section": "article",
+   "text": "We next checked whether free-air pumps systematically precede changes in the animal’s head motion. <sentence_start/>We performed event-triggered analysis to explore the reciprocal relations between head and pump dynamics. <sentence_start/>First, we identified motion-change events, in which the rat changed the direction of head turning or thrust. <sentence_start/>We then measured the dynamics of free-air pump rate, relative to the onset of the change (the onset of acceleration in the opposite direction). <sentence_start/>Onset of forward motion was preceded by a substantial increase in protraction pumps, peaking around 100 ms prior to the change (<italic toggle=\"yes\">p</italic> &lt; 2 × 10<sup>−4</sup>, random permutations; black arrow, Fig 4A). <sentence_start/>No such change occurred in the onset of backward motion (<italic toggle=\"yes\">p</italic> = 0.22, random permutations; Fig 4B). <sentence_start/>Note that in both cases, retraction pumps were inhibited before and after the change occurred. <sentence_start/>Similarly, ipsilateral head turns (towards the pumping-whisker side) were preceded by an increase in protraction pump rate (<italic toggle=\"yes\">p</italic> &lt; 2 × 10<sup>−4</sup>, random permutations; black arrow, Fig 4C), while no such increase is seen prior to contralateral turns (<italic toggle=\"yes\">p</italic> = 0.26, random permutations; Fig 4D)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 4"
+  },
+  {
+   "section": "article",
+   "text": "Free-air pumps predict head motion."
+  },
+  {
+   "section": "article",
+   "text": "Dynamics of pump rate (normalized to mean rate) aligned to onset of head motion (i.e., zero-crossing of acceleration). <sentence_start/>All probabilities were calculated in 100-ms wide bins. <sentence_start/>(A-B) Protraction pump rate (left ordinate) is significantly elevated 100 ms prior to onset of forward motion (<italic toggle=\"yes\">p</italic> &lt; 2 × 10<sup>−4</sup>, random permutations). <sentence_start/>No such increase is present in onset of backward motion (<italic toggle=\"yes\">p</italic> = 0.22, random permutations). <sentence_start/>Right ordinate: longitudinal acceleration (normalized to head size); median: dark gray curves, interquartile range: shaded gray area. <sentence_start/>(C-D) Protraction pump rate (left ordinate) is significantly elevated 100 ms prior to head turn toward pumping-whisker side (<italic toggle=\"yes\">p</italic> &lt; 2 × 10<sup>−4</sup>, random permutations). <sentence_start/>No similar increase is present in onset of turn away from pumping-whisker side (<italic toggle=\"yes\">p</italic> = 0.26, random permutations). <sentence_start/>Right ordinate: angular acceleration; median: dark gray curves, interquartile range: shaded gray area. <sentence_start/>(E-F) Ipsilateral turn probability (left ordinate) is elevated 100 ms after the occurrence of a protraction pump (<italic toggle=\"yes\">p</italic> = 0.007, random permutations) but depressed 100 ms after a retraction pump (<italic toggle=\"yes\">p</italic> = 0.02, random permutations). <sentence_start/>Right ordinate: angular acceleration; median: dark gray curves, interquartile range: shaded gray area. <sentence_start/>Thick gray line: statistically significant times in which average acceleration was nonzero (<italic toggle=\"yes\">p</italic> &lt; 0.05, random permutations). <sentence_start/>*<italic toggle=\"yes\">p</italic> &lt; 0.05; **<italic toggle=\"yes\">p</italic> &lt; 0.01; ***<italic toggle=\"yes\">p</italic> &lt; 0.005; no symbol, not significant. <sentence_start/>The data and analysis code for this figure can be found here: ."
+  },
+  {
+   "section": "article",
+   "text": "The predictive power of free-air pumps regarding future spatial targets of the rat is confirmed by measuring the dynamics of head turning probability relative to the time a pump occurred. <sentence_start/>Consistent with the previous analysis, the average protraction pump was followed by an increased probability of turning towards the pumping-whisker side (<italic toggle=\"yes\">p</italic> = 0.0038, random permutations, left ordinate in Fig 4E), which is also evident in the dynamics of angular acceleration (<italic toggle=\"yes\">p</italic> &gt; 0.05, random permutations, right ordinate in Fig 4E). <sentence_start/>Retraction pumps, however, were followed by a significant drop in this probability (<italic toggle=\"yes\">p</italic> = 0.02, random permutations, Fig 4F). <sentence_start/>These results are not sensitive to the choice of motion-change detection threshold (see S3 Fig). <sentence_start/>We conclude that free-air pumps predict the rats’ motion targets: initiation of a forward motion or a head turn were preceded by an increase in bilateral or ipsilateral protraction pumps, respectively, and a drop in retraction pumps."
+  },
+  {
+   "section": "article",
+   "text": "Head-fixed effects on whisking resemble those of voluntary motionlessness"
+  },
+  {
+   "section": "article",
+   "text": "Are voluntary and imposed motionlessness similar in their effects on whisking kinematics? To answer this question, we compared the frequency of protraction and retraction pumps in head-fixed rats with those observed in freely moving rats at different motion speed ranges (Fig 5A). <sentence_start/>When the entire data set of freely moving episodes is analyzed (maximal head velocity = \"∞\"), head-fixed rats exhibited 22% fewer protraction pumps than freely moving rats (<italic toggle=\"yes\">p</italic> = 10<sup>−4</sup>, bootstrap, <italic toggle=\"yes\">N</italic> = 4,056 and 412 cycles for head-fixed and free trimmed, respectively). <sentence_start/>In contrast, retraction pumps were dramatically more prevalent in head-fixed rats (208%, <italic toggle=\"yes\">p</italic> &lt; 10<sup>−4</sup>, bootstrap, <italic toggle=\"yes\">N</italic> = 4,046 and 549 cycles for head-fixed and free trimmed, respectively). <sentence_start/>However, as we limit our analysis of pump frequency in freely moving rats to phases in which head velocity did not exceed a certain bound, the frequency of protraction pumps decreases and that of retraction pumps increases to the point of becoming statistically similar to one another (<italic toggle=\"yes\">p</italic> = 0.14, bootstrap, <italic toggle=\"yes\">N</italic> = 75 protractions and 80 retractions), as well as to the frequencies measured in head-fixed rats (<italic toggle=\"yes\">p</italic> = 0.21 and 0.81 for protractions and retractions, respectively, bootstrap; Fig 5A). <sentence_start/>In other words, the overall ratio of protraction/retraction pumps drops as velocity decreases, approaching that of head-fixed rats at near motionlessness (Fig 5B). <sentence_start/>A similar trend can be seen in the distribution of protraction/retraction durations (Fig 5C). <sentence_start/>Protractions were significantly longer than retractions for the entire freely moving data set (means 74 ms and 52 ms, respectively), consistent with previous observations [<citation rid=\"pbio.3000571.ref017\" ref-type=\"bibr\" pmid=\"11877518\" doi=\"10.1152/jn.00539.2001\" count=\"1\">17</citation>,<citation rid=\"pbio.3000571.ref020\" ref-type=\"bibr\" pmid=\"18436634\" doi=\"10.1152/jn.01295.2007\" count=\"1\">20</citation>,<citation rid=\"pbio.3000571.ref039\" ref-type=\"bibr\" doi=\"10.3109/08990229109144740\" pmid=\"1887726\" count=\"1\">39</citation>-<citation rid=\"pbio.3000571.ref043\" ref-type=\"bibr\" pmid=\"20592215\" doi=\"10.1523/JNEUROSCI.0172-10.2010\" pmcid=\"PMC6632903\" count=\"1\">43</citation>]. <sentence_start/>However, while both protractions and retractions increased in duration as the maximal speed decreased, the ratio of protraction duration to retraction duration decreased, approaching that of head-fixed rats at near motionlessness (Fig 5D). <sentence_start/>We conclude that freely moving rats, which display a strong emphasis on the protraction phase during motion, approach the near-parity in protraction/retraction that is typical of head-fixed rats as their velocity decreases towards motionlessness."
+  },
+  {
+   "section": "article",
+   "text": "Fig 5"
+  },
+  {
+   "section": "article",
+   "text": "Free-air pumps in HF rats resemble those in voluntary motionlessness."
+  },
+  {
+   "section": "article",
+   "text": "Abscissa in all panels: maximal head velocity for samples analyzed from the freely moving data set (i.e., only cycles in which head velocity did not exceed this value were taken); ∞ = entire data set. <sentence_start/>(A) Probability of protraction (filled circles) and retraction (empty circles) pumps for HF (blue) and freely moving (red) rats. <sentence_start/>(B) Ratio between protraction and retraction pump probabilities. <sentence_start/>(C) Distributions of protraction (median: filled circles; interquartile range: light shading) and retraction (median: empty circles; interquartile range: dark shading) durations for HF (blue) and freely moving (red) rats. <sentence_start/>(D) Protraction-retraction duration ratio for HF (blue) and freely moving (red) rats (median: asterisks; interquartile range: shading). <sentence_start/>***<italic toggle=\"yes\">p</italic> &lt; 0.005. <sentence_start/>The data and analysis code for this figure can be found here: . <sentence_start/>HF, head-fixed; n.s., not significant."
+  },
+  {
+   "section": "article",
+   "text": "Whisking envelope spatial distribution is dispersed because of head-fixing"
+  },
+  {
+   "section": "article",
+   "text": "Our findings so far suggest that limiting the rat’s degrees of motor freedom (by head-fixing) entails a more even distribution of the animal’s sensorimotor resources between protraction and retraction; this was reflected in features such as pump occurrence and phase duration. <sentence_start/>Can we see a similar effect in the “whisking envelope”-the combination of amplitude and offset (see Fig 1B) that dictates the range of angles covered by whisking at each cycle? It is important to note that while amplitude and offset may be, in principle, uncorrelated, they are necessarily statistically dependent because the maximal possible amplitude is always dictated by the distance from the current offset to the maximal whisker protraction and retraction angles. <sentence_start/>The theoretical domain of all possible amplitude-offset combinations, therefore, is bound by an isosceles triangle (Fig 6)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 6"
+  },
+  {
+   "section": "article",
+   "text": "HF whisking envelope distribution compensates for lost degrees of freedom."
+  },
+  {
+   "section": "article",
+   "text": "(A-B) Bivariate probability density distributions of whisking amplitude and offset (relative to head) for freely moving (A) and HF rats (B). <sentence_start/>While freely moving rats exhibit a preferred subspace of amplitude-offset combinations, HF rats cover much of the available envelope space (range of offsets is determined by the absolute bounds on whisker C2 angle in all data sets, 11-133 deg; maximal possible amplitude is offset dependent and peaks at the median offset at 61 deg). <sentence_start/>(C) Probability distribution of whisking envelope, taking into account head rotations, for free rats. <sentence_start/>(D) Whisking envelope information entropies for random subsets taken from each data set (box-and-whisker plots: horizontal line, median; box, IQR). <sentence_start/>Mean entropy is significantly smaller for freely moving rats (Free W, left) than for HF rats (center), indicating that the whisking envelope distribution is much more dispersed during head-fixing; however, there is no significant difference when head rotations are included in the analysis (Free W + H, right). <sentence_start/>***<italic toggle=\"yes\">p</italic> &lt; 0.005. <sentence_start/>Inset: entropies calculated for entire data sets (free whiskers only 6.24 bits, HF 7.325 bits, free whiskers + head 6.97 bits). <sentence_start/>The data and analysis code for this figure can be found here: . <sentence_start/>HF, head-fixed; IQR, Interquartile Range; n.s., not significant; PDF, Probability Density Function."
+  },
+  {
+   "section": "article",
+   "text": "Utilization of this domain was indeed affected by head-fixing. <sentence_start/>Comparing rats with the same whisker arrays (head-fixed and freely moving trimmed rats) revealed that while freely moving trimmed rats had a restricted focal region in which they preferentially whisked (i.e., the whisks were narrowly distributed around a preferred amplitude of 11.8 deg and a preferred offset of 74.5 deg; Fig 6A), head-fixed rats exhibited a highly dispersed distribution that covered a large portion of the triangular domain (Fig 6B). <sentence_start/>This dispersion may reflect compensation for the lost motor degrees of freedom of the head and body. <sentence_start/>Indeed, whisking envelope distributions became dispersed when changes in head angle were considered in freely moving rats (relative to the mean head angle in each tracked segment, Fig 6C). <sentence_start/>To quantify the envelope dispersion in each scenario, we measured the distributions’ information entropy; to evaluate statistical significance, the bootstrap method was used to generate random subsets of equal size from each data set (Fig 6D; see Methods). <sentence_start/>The entropy was significantly smaller in freely moving trimmed rats than in head-fixed ones when only whisker angle was used (<italic toggle=\"yes\">p</italic> &lt; 10<sup>−4</sup>, bootstrap), reflecting the increased dispersion of the latter. <sentence_start/>However, no significant difference was measured when the head’s degree of freedom was taken into account (<italic toggle=\"yes\">p</italic> = 0.13, bootstrap). <sentence_start/>We conclude that head-fixed rats’ whisking patterns were much more diverse than those of freely moving rats. <sentence_start/>This suggests that the rats compensated for the loss of motor degrees of freedom due to head-fixing by employing a wider range of whisking configurations."
+  },
+  {
+   "section": "article",
+   "text": "Whisker trimming entail shifts in whisking strategy"
+  },
+  {
+   "section": "article",
+   "text": "We next examined the impact of whisker trimming on the distributions of individual whisking variables (offset and amplitude, diluted to avoid temporal correlations; see Methods). <sentence_start/>As described above (see Fig 1A), freely moving rats had either a configuration of 3 caudal whiskers or a full row of 7 whiskers (i.e., including both caudal and rostral whiskers). <sentence_start/>Comparison of the whisking amplitude and offset distributions of these 2 data sets of freely moving rats revealed that the preferred whisking strategy was noticeably different. <sentence_start/>The trimming-induced effect consisted of 2 adjustments: first, a significant 33.8% decrease in the variance of offsets (<italic toggle=\"yes\">p</italic> &lt; 10<sup>−4</sup>, bootstrap, <italic toggle=\"yes\">N</italic> = 292 and 280 for single-row and trimmed, respectively; Fig 7A) while maintaining the mean offset almost unchanged (2% decrease, <italic toggle=\"yes\">p</italic> = 0.11, bootstrap); and second, a significant 27.4% increase in mean amplitude (<italic toggle=\"yes\">p</italic> = 10<sup>−4</sup>, bootstrap, <italic toggle=\"yes\">N</italic> = 367 and 268 for single-row and trimmed, respectively; Fig 7B) while not significantly changing its variance (<italic toggle=\"yes\">p</italic> = 0.91, bootstrap). <sentence_start/>Therefore, the trimmed rats tended to employ large amplitude whisks around a relatively constant offset angle, while those having a full row of whiskers used smaller amplitudes while shifting the offset over time."
+  },
+  {
+   "section": "article",
+   "text": "Fig 7"
+  },
+  {
+   "section": "article",
+   "text": "Contextual shifts in whisking strategy."
+  },
+  {
+   "section": "article",
+   "text": "(A) CDFs of whisking offset of freely moving trimmed (red) and single-row (yellow) rats. <sentence_start/>Insets: mean and STD of distributions. <sentence_start/>(C) CDFs of whisking amplitude of freely moving trimmed (red) and single-row (yellow) rats. <sentence_start/>Insets: mean and STD of distributions. <sentence_start/>***<italic toggle=\"yes\">p</italic> &lt; 0.005. <sentence_start/>The data and analysis code for this figure can be found here: . <sentence_start/>CDF, Cumulative Distribution Function; n.s., not significant; STD, Standard Deviation."
+  },
+  {
+   "section": "article",
+   "text": "Head-fixing entails a backward shift in offset during bouts, but not during pauses"
+  },
+  {
+   "section": "article",
+   "text": "Lastly, we compared the offset distributions in head-fixed and freely moving rats during both active whisking bouts and passive, low-amplitude pauses (see Fig 1C and 1D). <sentence_start/>When only bouts were analyzed, head-fixing caused an increase in offset variance (23.5% increase, <italic toggle=\"yes\">p</italic> &lt; 10<sup>−4</sup>, bootstrap, <italic toggle=\"yes\">N</italic> = 1,010 and 494 for head-fixed and free, respectively; Fig 8A), consistent with our findings above (see Fig 6). <sentence_start/>Additionally, head-fixed rats whisked around a slightly retracted offset angle (6.3% reduction, <italic toggle=\"yes\">p</italic> &lt; 10<sup>−4</sup>, bootstrap). <sentence_start/>This further suggests that head-fixed animals explored more retracted positions than free animals, in line with the pump results described above. <sentence_start/>During pauses, however, the head-fixed and free offset distributions were not significantly different in either mean or variance (<italic toggle=\"yes\">p</italic> = 0.4 and <italic toggle=\"yes\">p</italic> = 0.96, respectively; bootstrap, <italic toggle=\"yes\">N</italic> = 556 and 125 for head-fixed and free, respectively; Fig 8B). <sentence_start/>A likely explanation for this is revealed by comparing the distributions of head-motion variables (Fig 8C: absolute translation velocity; Fig 8D: absolute angular velocity) during bouts and pauses; both variables show that when rats stopped whisking, their head was nearly motionless (<italic toggle=\"yes\">p</italic> &lt; 10<sup>−4</sup>, bootstrap, <italic toggle=\"yes\">N</italic> = 125 and 494 for pauses and bouts, respectively). <sentence_start/>Therefore, the similarity in pause offset distribution between head-fixed and freely moving rats provides further evidence that head fixation and voluntary motionlessness entail similar behavioral patterns."
+  },
+  {
+   "section": "article",
+   "text": "Fig 8"
+  },
+  {
+   "section": "article",
+   "text": "<bold>(A-B) CDFs of whisking offset for HF (blue) and free (red) rats during bouts (A) and pauses (B).</bold> <sentence_start/>(C-D) CDFs of absolute head velocity (C, normalized to head size) and angular velocity (D) for freely moving trimmed rats, during pauses (dark red) and bouts (light red). <sentence_start/>Insets: mean and STD of distributions. <sentence_start/>***<italic toggle=\"yes\">p</italic> &lt; 0.005. <sentence_start/>The data and analysis code for this figure can be found here: . <sentence_start/>CDF, Cumulative Distribution Function; HF, head-fixed; n.s., not significant; STD, Standard Deviation."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this paper, we have shown that whisking kinematics predict consequent head and body locomotion and, consistently, that these kinematics depend on the behavioral context. <sentence_start/>The spatial and dynamical characteristics of rats’ exploratory whisking were affected by the rats’ ability to move and the number of whiskers they had available. <sentence_start/>It is commonly assumed that overt spatial attention is associated with preparing to move the body or the sensors towards a selected location or object [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>,<citation rid=\"pbio.3000571.ref014\" ref-type=\"bibr\" pmid=\"27159238\" doi=\"10.7554/eLife.12830\" pmcid=\"PMC4913359\" count=\"1\">14</citation>,<citation rid=\"pbio.3000571.ref044\" ref-type=\"bibr\" count=\"1\">44</citation>-<citation rid=\"pbio.3000571.ref047\" ref-type=\"bibr\" pmid=\"17060642\" doi=\"10.1073/pnas.0605573103\" pmcid=\"PMC1621049\" count=\"1\">47</citation>] and, therefore, we suggest that the alterations in the spatial exploration described here reflect alterations in overt spatial attention. <sentence_start/>Our findings, therefore, suggest that both head-fixed rats and free but motionless ones dedicate more attention to whisker retraction than do rats in motion."
+  },
+  {
+   "section": "article",
+   "text": "This interpretation suggests that the whisking pump, a subtle alteration in the whisking dynamics, is a useful indicator of perceptual attention. <sentence_start/>It was previously shown that, when induced by encountering an object, such pumps are robustly associated with object-oriented attention [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>]. <sentence_start/>While free-air pumps were shown to have different temporal dynamics than those of TIPs [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>], suggesting distinct underlying sensorimotor pathways, we demonstrated here that the 2 types of pumps share several key temporal and spatial features: temporal clustering, phase prolongation, spatial offset shifting, and bidirectional relationship with head motion. <sentence_start/>Critically, we show that free-air pumps predict the rats’ future orienting behavior (compare Fig 1C in [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>] and Fig 4E here). <sentence_start/>The differences in the temporal scales of sensorimotor kinematics [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>] can probably be accounted for by differences in the underlying sensorimotor pathways. <sentence_start/>While TIPs seem to be implemented via brainstem loops [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>,<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>,<citation rid=\"pbio.3000571.ref048\" ref-type=\"bibr\" pmid=\"28735746\" doi=\"10.1016/j.neuron.2017.06.045\" pmcid=\"PMC5845798\" count=\"1\">48</citation>], free-air pumps may involve higher-order sensorimotor loops."
+  },
+  {
+   "section": "article",
+   "text": "The predictive relations between free-air pumps and the rat’s locomotion may reflect the rat’s expectation of future encounters. <sentence_start/>Thus, when the rat moves forward at moderate velocity while exploring the environment, it might expect novel encounters to occur mostly during protraction [<citation rid=\"pbio.3000571.ref026\" ref-type=\"bibr\" pmid=\"24954047\" doi=\"10.1016/j.cub.2014.05.036\" count=\"1\">26</citation>] and therefore increases the pump rate in that direction in order to improve sensory acquisition (Fig 3), either by extending protraction duration (Fig 2) or by the pump causing the whisker to briefly “revisit” places of interest. <sentence_start/>Conversely, when the rat is motionless, either by choice or because of imposed head-fixing, encounters may occur in either direction of whisker motion, and therefore, the rat shifts some of its spatial attention towards retraction (Figs 3 and 5). <sentence_start/>Importantly, this shift in spatial attention was also evident in the overall distribution of the whisking offset in head-fixed rats during active bouts, but not during pauses (Fig 8), which occur when the head is motionless and were hypothesized to reflect a passive receptive mode of attention [<citation rid=\"pbio.3000571.ref038\" ref-type=\"bibr\" pmid=\"22683381\" doi=\"10.1016/j.pneurobio.2012.05.013\" count=\"1\">38</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "These findings also offer an interesting way to reconcile an apparent contradiction in previously reported data. <sentence_start/>Our previous study in anesthetized animals on the sensory representation of whisker motion at the primary afferents and brainstem levels found cells responsive throughout the whisking cycle, with most cells responding to the protraction phase [<citation rid=\"pbio.3000571.ref049\" ref-type=\"bibr\" pmid=\"26780508\" doi=\"10.1038/nn.4221\" count=\"1\">49</citation>]. <sentence_start/>In awake head-fixed animals, however, brainstem, thalamic and cortical sensory cells show an overrepresentation of the retraction phase [<citation rid=\"pbio.3000571.ref050\" ref-type=\"bibr\" pmid=\"19270688\" doi=\"10.1038/nn.2283\" pmcid=\"PMC2863011\" count=\"1\">50</citation>,<citation rid=\"pbio.3000571.ref051\" ref-type=\"bibr\" pmid=\"26393890\" doi=\"10.1371/journal.pbio.1002253\" pmcid=\"PMC4579082\" count=\"1\">51</citation>]. <sentence_start/>So far, no ethological or physiological explanation was given for this finding. <sentence_start/>A recent study [<citation rid=\"pbio.3000571.ref052\" ref-type=\"bibr\" pmid=\"28434802\" doi=\"10.1016/j.neuron.2017.03.045\" pmcid=\"PMC5528144\" count=\"1\">52</citation>] found correlations between the preferred phase of vibrissal afferents, and the activation of different facial muscle groups controlling whisking motion [<citation rid=\"pbio.3000571.ref053\" ref-type=\"bibr\" pmid=\"20583263\" doi=\"10.1002/ar.21156\" count=\"1\">53</citation>]. <sentence_start/>Whisker motion is evoked in anesthetized rats by stimulating the buccal motor branch of the facial nerve, which mostly innervates the intrinsic whisker pad muscles responsible for protraction [<citation rid=\"pbio.3000571.ref054\" ref-type=\"bibr\" pmid=\"17103584\" pmcid=\"PMC1166371\" count=\"1\">54</citation>,<citation rid=\"pbio.3000571.ref055\" ref-type=\"bibr\" pmid=\"23352170\" doi=\"10.1016/j.neuron.2012.11.010\" pmcid=\"PMC3559006\" count=\"1\">55</citation>] (the extrinsic nasolabialis muscle group involved in active retraction is innervated by the zygomatic branch). <sentence_start/>Thus, this method generates active protractions and passive retractions [<citation rid=\"pbio.3000571.ref056\" ref-type=\"bibr\" pmid=\"14642284\" doi=\"10.1016/s0896-6273(03)00671-8\" count=\"1\">56</citation>], and therefore, more cells responding to protraction were sampled. <sentence_start/>However, we can infer from the results reported here that awake head-fixed animals shift their attention backwards and may therefore strongly activate the muscle groups involved in controlled retraction [<citation rid=\"pbio.3000571.ref022\" ref-type=\"bibr\" pmid=\"12522163\" doi=\"10.1152/jn.00600.2002\" count=\"1\">22</citation>], and the afferents correlated with that motion. <sentence_start/>It is also possible that increased attention to retraction involves activation of internal feedback loops within the brain [<citation rid=\"pbio.3000571.ref025\" ref-type=\"bibr\" pmid=\"17331893\" doi=\"10.1098/rspb.2006.0347\" pmcid=\"PMC2124479\" count=\"1\">25</citation>,<citation rid=\"pbio.3000571.ref055\" ref-type=\"bibr\" pmid=\"23352170\" doi=\"10.1016/j.neuron.2012.11.010\" pmcid=\"PMC3559006\" count=\"1\">55</citation>], enhancing the activity related to this phase. <sentence_start/>In other words, the predominance of retraction related cells reported in awake head-fixed animals may reflect the behavioral context imposed by the experimental set-up, rather than the actual distribution of sensitivity in the vibrissal system. <sentence_start/>The conclusion arising from this possibility is far-reaching: behavioral context may bias physiological findings down to the cellular level, either via alteration of the sensorimotor interactions with the world at the periphery or via internal feedback loops in the central nervous system."
+  },
+  {
+   "section": "article",
+   "text": "Our freely moving rats displayed a preferred whisking pattern, based on small amplitude whisks around a varying offset. <sentence_start/>This pattern appears to allow a combination of local active sensation with global (row-wide) passive reception, resembling in part the fovea-periphery division of work in vision. <sentence_start/>In contrast, trimmed rats applied large amplitude whisks around a fixed offset, probably in order to achieve similar spatial coverage with the few whiskers they had left. <sentence_start/>Overall, while freely moving rats used combinations of head and body movements to shift their attentional foci, head-fixed rats had to apply a wide range of whisking patterns, varying both amplitudes and offsets, possibly in an attempt to cover as many attentional foci as they could."
+  },
+  {
+   "section": "article",
+   "text": "Animals use their available resources in an adaptive manner. <sentence_start/>We show here that rats adapt their perceptual behavior to their locomotion dynamics, both when voluntarily selected and when externally imposed, and suggest that they do so in a way that attempts to optimize coverage of the relevant space and future encounters with objects. <sentence_start/>Taken together, these observations are consistent with the closed-loop view of perception, in which essential perceptual variables, such as space coverage, are actively maintained when facing external or embodied constrains."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Whisking in freely moving rats"
+  },
+  {
+   "section": "article",
+   "text": "The experimental protocol is described in detail in [<citation rid=\"pbio.3000571.ref013\" ref-type=\"bibr\" pmid=\"28602655\" doi=\"10.1016/j.cub.2017.05.058\" count=\"1\">13</citation>]. <sentence_start/>Briefly, the whisking patterns of Wistar strain male albino rats aged 3-6 months were measured (<italic toggle=\"yes\">N</italic> = 3 for free-air trimmed, <italic toggle=\"yes\">N</italic> = 4 for free-air single row). <sentence_start/>On the day prior to behavioral recording, trimmed whiskers were clipped close to the skin (approximately 1 mm) under Dormitor anesthesia (0.05 ml/100 g, SC). <sentence_start/>All experimental protocols were approved by the Institutional Animal Care and Use Committee of the Weizmann Institute of Science."
+  },
+  {
+   "section": "article",
+   "text": "Behavioral experiments were performed in a darkened, quiet room. <sentence_start/>The behavioral apparatus (see S1 Fig) consisted of a holding cage (25 cm width, 35 cm length, 29.5 cm height) with a small door (6.9 cm height, 6 cm width), through which the rats could emerge into the experimental area (18 cm × 20 cm) [<citation rid=\"pbio.3000571.ref057\" ref-type=\"bibr\" count=\"1\">57</citation>]. <sentence_start/>Both the holding cage and the experimental area were fixed approximately 15 cm above the surface of a table. <sentence_start/>The experimental area consisted of a back-lit Perspex plate with 1-2 objects (Perspex cubes and cylinders) placed on it. <sentence_start/>The experimental area was filmed from above by a high-speed, high-resolution camera (1,280 × 1,024 pix, 500 fps, CL60062; Optronis, Kehl, Germany). <sentence_start/>An in-house program (E. Segre, Weizmann Institute) triggered the high-speed camera whenever the rat emerged from the holding cage into the experimental area. <sentence_start/>Video recording stopped when the rat returned to the holding cage."
+  },
+  {
+   "section": "article",
+   "text": "An experimental session consisted of recording a rat’s whisking behavior whenever the rat was in the experimental area, over a period of 30-120 min. <sentence_start/>Preceding a session, the animal was placed in the holding cage for a 15-min acclimation period. <sentence_start/>During the acclimation period, the door of the holding cage was blocked. <sentence_start/>The experimental session began with unblocking the door to allow the animal to leave the holding cage and explore the experimental area at will. <sentence_start/>Each trial started when the rat moved from the holding cage to the experimental area and ended when the rat went back into the holding cage. <sentence_start/>The length of the experimental session varied depending on the animal’s behavior, and the amount of recorded video. <sentence_start/>Whisker movements were tracked offline using the MATLAB (The MathWorks, Natick, MA, USA)-based WhiskerTracker image processing software (available at ). <sentence_start/>Base angles of all existing macrovibrissa were tracked, as well as the location of both eyes and the tip of the nose. <sentence_start/>Only tracked segments that did not include object contacts were used for analysis in the current work."
+  },
+  {
+   "section": "article",
+   "text": "Whisking in head-fixed rats"
+  },
+  {
+   "section": "article",
+   "text": "The experimental protocol is described in details in [<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>]. <sentence_start/>Briefly, 7 male albino rats were head-fixed using screws glued to the skull under anesthesia. <sentence_start/>After full recovery, rats were gradually adapted to head fixation for 4-5 days. <sentence_start/>All except for 3 whiskers (C1, C2, and D1) on either side were clipped close (approximately 1 mm) to the skin during brief (5-10 min) isoflurane anesthesia and were retrimmed 2 to 3 times a week at least 2 hours before an experiment. <sentence_start/>A single experiment lasted up to 30 min but terminated earlier if rats showed signs of distress. <sentence_start/>Each rat had 1 or 2 experimental sessions a day, 2 or 3 times a week. <sentence_start/>All experiments were performed in a dark, sound-isolated chamber. <sentence_start/>Head orientation was estimated by imaging the corneal reflections of 2 infrared (880 nm) light-emitting diode (LED) spotlights. <sentence_start/>An imaginary line between the nose and eye on each side of the rat served as a reference line for the whisking angle. <sentence_start/>Bright-field imaging of the whiskers was accomplished by projecting infrared light (880 nm) with an array of 12 × 12 LEDs from below the animal. <sentence_start/>Video acquisition was triggered manually, and high-speed video was buffered and streamed to disks at either 500 or 1,000 frames/s. <sentence_start/>A total of 255 trials with an average duration of 8.3 ± 3.2 s (mean ± standard deviation, SD) were acquired. <sentence_start/>The 106 “free-air trials” and 149 “contact trials” were intermixed. <sentence_start/>Only the free-air trials are used for analysis in the current work. <sentence_start/>Whisker movements were tracked off-line using the MATLAB (The MathWorks, Natick, MA, USA)-based <italic toggle=\"yes\">WhiskerTracker</italic> image processing software (available at )."
+  },
+  {
+   "section": "article",
+   "text": "Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Rhythmic decomposition and phase segmentation"
+  },
+  {
+   "section": "article",
+   "text": "All analyses were performed on the base angle of whisker C2 on the left side of the snout. <sentence_start/>Analyses of head turns also used whisker C2 on the right side of the snout, and the results from both sides were pooled after mirroring. <sentence_start/>Signal was first filtered using a low-pass filter (sixth-order Butterworth, passband cutoff 20 Hz) to remove noise; this filtering was chosen to remove high-frequency noise due to tracking errors while preserving the pumping information. <sentence_start/>Whisking phase <italic toggle=\"yes\">φ</italic> was extracted using the Hilbert transform from a high-pass-filtered version (cutoff 4 Hz). <sentence_start/>Peaks and troughs were located within ±<italic toggle=\"yes\">π</italic>/8 of <italic toggle=\"yes\">φ</italic> = 0 and <italic toggle=\"yes\">π</italic>, respectively, and the signal was segmented into individual protraction and retraction phases. <sentence_start/>Offset of each motion was defined as the middle point between trough and peak; amplitude was half the distance between the 2 points."
+  },
+  {
+   "section": "article",
+   "text": "Bouts/pauses discrimination"
+  },
+  {
+   "section": "article",
+   "text": "Histograms of the whisking amplitudes were computed using 200 logarithmic bins in the range 0.03-100 deg. <sentence_start/>These histograms were fitted using a GMM with 8 components. <sentence_start/>The maximum-likelihood threshold for discriminating between the 2 modes of the distributions was found by classifying the amplitude bins using the GMM and finding the first bin classified to one of the high-amplitude (mean &gt; 3.16 deg) components."
+  },
+  {
+   "section": "article",
+   "text": "Pump detection and quantification"
+  },
+  {
+   "section": "article",
+   "text": "Angular trajectory of each phase was differentiated to produce the angular velocity. <sentence_start/>Retraction velocity profile was negated. <sentence_start/>A pump was identified whenever the resulting velocity profile had more than one peak. <sentence_start/>The shapes of individual protraction/retraction phases were previously analyzed in great detail in [<citation rid=\"pbio.3000571.ref020\" ref-type=\"bibr\" pmid=\"18436634\" doi=\"10.1152/jn.01295.2007\" count=\"1\">20</citation>]; there, 3 categories of motion were described: “single pumps,” in which the protraction/retraction velocity profile contains a single peak (these are the “default,” unmodulated whisking cycles); “delayed pumps,” in which there are 2 velocity peaks, but there is no reversal in the direction of motion; and “double pumps,” in which motion in the opposite direction (e.g., backward during protraction) is detected. <sentence_start/>We quantify the pump strength <italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>pump</sub></italic> by using the formula , where <italic toggle=\"yes\">v</italic><italic toggle=\"yes\"><sub>max</sub></italic> is the maximal velocity during the protraction/retraction and <italic toggle=\"yes\">v</italic><italic toggle=\"yes\"><sub>trough</sub></italic> the velocity at the lowest trough. <sentence_start/>Note that by this definition, <italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>pump</sub></italic> = 0 for “single pump” (i.e., no pump), 0&lt;<italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>pump</sub></italic>&lt;1 for “delayed pump,” and <italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>pump</sub></italic>&gt;1 for “double pump.” <sentence_start/>We did not observe any discontinuity in the distributions around <italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>pump</sub></italic> = 1, and therefore, delayed and double pump profiles were lumped together; we refer to these 2 profiles simply as pumps."
+  },
+  {
+   "section": "article",
+   "text": "Head motion"
+  },
+  {
+   "section": "article",
+   "text": "Total head translational velocity in freely moving experiments was defined as the velocity of the middle point in between the 2 eyes (see S2A Fig). <sentence_start/>Head direction was defined as the direction of the line connecting this point and the tip of the nose. <sentence_start/>Length of this line was defined as head size used to normalize translational velocity (to units of heads/s). <sentence_start/>Direction of translational velocity was than subtracted from the head direction to obtain the translational direction in head-centered coordinates. <sentence_start/>The projection of this vector on the line pointing towards the nose was defined as thrust (longitudinal translational velocity), while the orthogonal projection was defined as slip (transverse translational velocity)."
+  },
+  {
+   "section": "article",
+   "text": "Statistics"
+  },
+  {
+   "section": "article",
+   "text": "Random permutations were used to evaluate significance of correlations (Figs 2A, 3, and 4) and run length distributions (Fig 2B); the bootstrap method was used in all comparisons between sets (Figs 5,6D and 7). <sentence_start/>Unless stated otherwise, 5,000 permutations/draws were used in each comparison. <sentence_start/>When comparing offset and amplitude distributions in different contexts (Figs 1B and 7), the samples of each set are not statistically independent because of temporal correlations [<citation rid=\"pbio.3000571.ref021\" ref-type=\"bibr\" pmid=\"22017992\" doi=\"10.1016/j.neuron.2011.09.020\" pmcid=\"PMC3717360\" count=\"1\">21</citation>,<citation rid=\"pbio.3000571.ref023\" ref-type=\"bibr\" pmid=\"23028512\" doi=\"10.1371/journal.pone.0044272\" pmcid=\"PMC3445569\" count=\"1\">23</citation>]. <sentence_start/>Therefore, for each segment analyzed, we computed the autocorrelation functions of these variables and measured the lag (number of cycles) at which their significance dropped below the <italic toggle=\"yes\">p</italic> = 0.05 level (using random permutations as control). <sentence_start/>The amplitude/offset sequence was then diluted by this lag to obtain statistically independent samples."
+  },
+  {
+   "section": "article",
+   "text": "Whisking envelope entropy"
+  },
+  {
+   "section": "article",
+   "text": "To estimate the dispersion of the whisking envelope (Fig 6D), we measured the bivariate probability distribution <italic toggle=\"yes\">p</italic>(<italic toggle=\"yes\">θ</italic><italic toggle=\"yes\"><sub>amp</sub></italic>,<italic toggle=\"yes\">θ</italic><italic toggle=\"yes\"><sub>off</sub></italic>) by binning each variable into 25 bins. <sentence_start/>We then measured the information entropy using the formula . <sentence_start/>To enable statistical comparison between contexts, random sets of identical size from all data sets were required. <sentence_start/>Seventy-five different collections of tracked segments were randomly generated from each data set so that the total duration of each collection was approximately 30% of the total length of the smallest data set. <sentence_start/>Entropy was then calculated for each of the resulting subsets to produce a distribution of entropies for each data set (box plots, Fig 6D). <sentence_start/>Entropy was also calculated for each of the data sets in its entirety (inset in Fig 6D)."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "S1 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Freely moving apparatus."
+  },
+  {
+   "section": "article",
+   "text": "The apparatus included a holding cage with door (left) approximately 15 cm above the surface of a table, the experimental area (back-lit Perspex plate with acrylic and cylinders), and a high-speed, high-resolution overhead camera."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "article",
+   "text": "S2 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Head-motion analysis."
+  },
+  {
+   "section": "article",
+   "text": "(A) Head tracking scheme. <sentence_start/>The 2 eyes and the tip of the nose were tracked in each video frame. <sentence_start/>Midpoint between eyes was defined as the head center. <sentence_start/>The azimuth of the line connecting this point and the nose is the head direction <italic toggle=\"yes\">α</italic>, while the length of this line is the head size <italic toggle=\"yes\">d</italic>. <sentence_start/>The time derivative of the head direction, <italic toggle=\"yes\">dα</italic>/<italic toggle=\"yes\">dt</italic>, is defined as turn (head rotation). <sentence_start/>The time derivative of the head location is the head velocity <italic toggle=\"yes\">V</italic>, which has a longitudinal component thrust (<italic toggle=\"yes\">V</italic><italic toggle=\"yes\"><sub>th</sub></italic>) and a transverse component termed slip (<italic toggle=\"yes\">V</italic><italic toggle=\"yes\"><sub>sl</sub></italic>). <sentence_start/>These components were normalized to the head size <italic toggle=\"yes\">d</italic> and so are presented in units of heads/s. <sentence_start/>(B) Joint probability density of the thrust and turn variables. <sentence_start/>Pearson coefficient R = −0.035. <sentence_start/>Dashed white line: linear regression. <sentence_start/>(C) Joint probability density of the slip and turn variables. <sentence_start/>Pearson coefficient R = 0.863. <sentence_start/>Dashed white line: linear regression. <sentence_start/>The data and analysis code for this figure can be found here: ."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "article",
+   "text": "S3 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Robustness of pump-rate indication prior to change of motion."
+  },
+  {
+   "section": "article",
+   "text": "Abscissa in all panels: threshold of used to identify individual motions (turn/thrust). <sentence_start/>Gray shading in all panels: distributions of random-permutation-generated controls. <sentence_start/>(A-B) The protraction pump rate (normalized to median control levels) 100 ms prior to change of motion, computed for various levels of detection threshold. <sentence_start/>(A) Turn. <sentence_start/>Solid line with filled circles: towards pumping side; dashed line with asterisks: away from pumping side. <sentence_start/>Elevation in pump probability prior to turning towards pump is significant throughout the threshold range. <sentence_start/>(B) Thrust. <sentence_start/>Solid line with filled circles: onset of motion forward; dashed line with asterisks: onset of motion backwards. <sentence_start/>Elevation in probability of forward onset is significant throughout the threshold range. <sentence_start/>(C-D) The turn probability (normalized to median control levels) 100 ms following a pump, computed for various levels of detection threshold. <sentence_start/>Solid line with triangles: towards pumping side; dashed line with upside-down triangles: away from pumping side. <sentence_start/>(C) Protraction pump. <sentence_start/>Elevation in probability of turning towards pump is significant throughout the threshold range. <sentence_start/>(D) Retraction pump. <sentence_start/>The data and analysis code for this figure can be found here: ."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "CDF"
+  },
+  {
+   "section": "back",
+   "text": "Cumulative Distribution Function"
+  },
+  {
+   "section": "back",
+   "text": "GMM"
+  },
+  {
+   "section": "back",
+   "text": "Gaussian Mixture Model"
+  },
+  {
+   "section": "back",
+   "text": "LED"
+  },
+  {
+   "section": "back",
+   "text": "light-emitting diode"
+  },
+  {
+   "section": "back",
+   "text": "TIP"
+  },
+  {
+   "section": "back",
+   "text": "Touch Induced Pump"
+  }
+ ]
+}

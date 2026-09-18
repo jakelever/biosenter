@@ -1,0 +1,179 @@
+{
+ "pmid": 31205772,
+ "pmcid": 6570408,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Targeted Molecular Imaging of Pancreatic Cancer with a Miniature Endoscope"
+  },
+  {
+   "section": "abstract",
+   "text": "It is highly desirable to develop novel approaches to improve patient survival rate of pancreatic cancer through early detection. <sentence_start/>Here, we present such an approach based on photoacoustic and fluorescence molecular imaging of pancreatic tumor using a miniature multimodal endoscope in combination with targeted multifunctional iron oxide nanoparticles (IONPs). <sentence_start/>A novel fan-shaped scanning mechanism was developed to minimize the invasiveness for endoscopic imaging of pancreatic tumors. <sentence_start/>The results show that the enhancements in photoacoustic and fluorescence signals using amino-terminal fragment (ATF) targeted IONPs were ~four to six times higher compared to that using non-targeted IONPs. <sentence_start/>Our study indicates the potential of the combination of the multimodal photoacoustic-fluorescence endoscopy and targeted multifunctional nanoparticles as an efficient tool to provide improved specificity and sensitivity for pancreatic cancer detection."
+  },
+  {
+   "section": "article",
+   "text": "1. <sentence_start/>Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Pancreatic cancer is the fourth leading cause of cancer-related death in the United States (US). <sentence_start/>It is estimated that 53,670 new cases will be diagnosed and 43,090 pancreatic cancer patients will die in the US in 2017 [<citation rid=\"R1\" ref-type=\"bibr\" pmid=\"28055103\" doi=\"10.3322/caac.21387\" count=\"1\">1</citation>]. <sentence_start/>The Pancreatic Cancer Action Network predicts that pancreatic malignancies will become the second leading cause of cancer-related death by 2020 [<citation rid=\"R2\" ref-type=\"bibr\" pmid=\"24840647\" doi=\"10.1158/0008-5472.CAN-14-0155\" count=\"1\">2</citation>]. <sentence_start/>In pancreatic cancer, the 5-year survival rate is approximately 7%, which is attributed to primary factors including inefficient early diagnostic tools and ineffective treatment methods. <sentence_start/>Nevertheless, the overall 5-year survival rate is significantly improved to 26% for patients diagnosed in the early stages without metastatic lesions [<citation rid=\"R3\" ref-type=\"bibr\" pmid=\"26260417\" doi=\"10.1016/j.actbio.2015.08.003\" count=\"1\">3</citation>]. <sentence_start/>Therefore, to develop reliable methods that can improve early diagnosis is highly desired."
+  },
+  {
+   "section": "article",
+   "text": "Conventional diagnostic imaging modalities including X-ray radiography, computed tomography (CT), fluoroscopy, ultrasonography, and magnetic resonance imaging (MRI) have been used for diagnosis and treatment planning for pancreatic cancer medically. <sentence_start/>However, these conventional imaging modalities provide only structural or anatomical changes, which often happen several years after detrimental molecular changes, especially for pancreas-related diseases. <sentence_start/>The specificity of these conventional imaging techniques for the early diagnosis of pancreatic cancer is quite low [<citation rid=\"R4\" ref-type=\"bibr\" pmid=\"27826137\" doi=\"10.1038/nrgastro.2016.144\" count=\"1\">4</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "It is believed that molecular imaging is able to offer highly sensitive and specific detection of tumors through sensing molecular changes. <sentence_start/>For pancreatic cancer, current existing molecular imaging techniques include positron emission tomography (PET) [<citation rid=\"R5\" ref-type=\"bibr\" pmid=\"8208970\" doi=\"10.1148/radiology.192.1.8208970\" count=\"1\">5</citation>-<citation rid=\"R8\" ref-type=\"bibr\" pmid=\"20919529\" doi=\"10.1016/j.yasu.2010.05.007\" count=\"1\">8</citation>], single-photon emission computed tomography (SPECT) [<citation rid=\"R9\" ref-type=\"bibr\" pmid=\"22496584\" doi=\"10.2967/jnumed.111.099630\" count=\"1\">9</citation>,<citation rid=\"R10\" ref-type=\"bibr\" pmid=\"24711651\" doi=\"10.2967/jnumed.113.132969\" count=\"1\">10</citation>], MRI with contrast agent enhancement (such as magnetic nanoparticles) [<citation rid=\"R11\" ref-type=\"bibr\" pmid=\"10963196\" doi=\"10.1016/S0140-6736(00)02479-X\" count=\"1\">11</citation>-<citation rid=\"R15\" ref-type=\"bibr\" pmid=\"23402593\" doi=\"10.1021/nn3043463\" pmcid=\"PMC3609912\" count=\"1\">15</citation>], optical/fluorescence imaging [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"19208341\" doi=\"10.1053/j.gastro.2009.01.006\" pmcid=\"PMC3651919\" count=\"1\">14</citation>,<citation rid=\"R16\" ref-type=\"bibr\" pmid=\"11888932\" count=\"1\">16</citation>,<citation rid=\"R17\" ref-type=\"bibr\" pmid=\"15065597\" doi=\"10.1023/b:clin.0000017160.93812.3b\" count=\"1\">17</citation>], and photoacoustic imaging (PAI) [<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"22188516\" doi=\"10.1021/nn204100n\" pmcid=\"PMC3747830\" count=\"1\">18</citation>-<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"25217521\" doi=\"10.1158/0008-5472.CAN-14-1656\" pmcid=\"PMC4216771\" count=\"1\">20</citation>]. <sentence_start/>PET and SPECT involve ionization radiation with the long half-life of radiotracers which limits the temporal resolution. <sentence_start/>In addition, they both have relatively low spatial resolution in localizing the tumors. <sentence_start/>The relatively slow data acquisition time of MRI often generates motion artifact issue and a reduced signal-to-noise ratio [<citation rid=\"R21\" ref-type=\"bibr\" pmid=\"26620581\" doi=\"10.1021/acs.molpharmaceut.5b00626\" pmcid=\"PMC4701613\" count=\"1\">21</citation>]. <sentence_start/>In optical imaging, fluorescent dyes, quantum dots, or nanoparticles conjugated to targeted antibodies or peptides are commonly used as contrast agents. <sentence_start/>Optical molecular imaging has a relatively high spatiotemporal resolution without ionization radiation. <sentence_start/>However, the limited tissue penetration capability of light prevents the use of optical techniques for noninvasive imaging of deeply located organs like the pancreas."
+  },
+  {
+   "section": "article",
+   "text": "PAI is an emerging biomedical imaging technique that combines the optical contrast with an increased ratio of imaging depth to spatial resolution capable of providing anatomical, functional, molecular properties of biological tissue with a high resolution [<citation rid=\"R22\" ref-type=\"bibr\" pmid=\"20387910\" doi=\"10.1021/cr9002566\" count=\"1\">22</citation>-<citation rid=\"R32\" ref-type=\"bibr\" pmid=\"28362791\" doi=\"10.1364/OL.42.001456\" count=\"1\">32</citation>]. <sentence_start/>In PAI, images are formed through detecting pulsed laser-induced wideband acoustic waves. <sentence_start/>The image contrast in PAI originates from light absorption in tissue. <sentence_start/>Similar to optical imaging, PAI also suffers from the penetration limitation, and cannot be used to noninvasively image deeply located organs such as the pancreas."
+  },
+  {
+   "section": "article",
+   "text": "Multifunctional iron oxide nanoparticles (IONPs) have been developed for targeted molecular imaging and drug delivery with their capabilities of tumor targeting, imaging, and delivery of therapeutic agents. <sentence_start/>IONPs have been widely used to enhance the image contrast for magnetic resonance imaging (MRI) and fluorescence imaging in animals [<citation rid=\"R14\" ref-type=\"bibr\" pmid=\"19208341\" doi=\"10.1053/j.gastro.2009.01.006\" pmcid=\"PMC3651919\" count=\"1\">14</citation>,<citation rid=\"R33\" ref-type=\"bibr\" pmid=\"23125139\" doi=\"10.1002/jbio.201200155\" pmcid=\"PMC3823680\" count=\"1\">33</citation>,<citation rid=\"R34\" ref-type=\"bibr\" pmid=\"25553097\" doi=\"10.7150/thno.10350\" pmcid=\"PMC4265747\" count=\"1\">34</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The goal of this study is to demonstrate a multimodal endoscopic approach combined with targeted multifunctional IONPs for the molecular imaging of pancreatic tumors, where the pancreas can be directly accessed with minimal invasiveness using a 1 mm-diameter miniature endoscope coupled with a novel fan-shaped two-dimensional (2D) scanning mechanism."
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1. <sentence_start/>Animal Model and Multifunctional Nanoparticles"
+  },
+  {
+   "section": "article",
+   "text": "In this study, a mouse pancreatic cancer cell line panc02-derived tumor model was used. <sentence_start/>The pancreatic tumor model was established by injecting pancreatic cancer MIA PaCa-2 cells into the pancreas of 8-week-old female nude mice using a surgical procedure approved by the Institute of Animal Use Committee (IACUC) of Emory University. <sentence_start/>Strict animal care procedures approved by the Emory University IACUC and based on guidelines from the National Institutes of Health (NIH) guide for the Care and Use of Laboratory Animals were followed. <sentence_start/>Orthotopically xenografted pancreatic tumors reached several millimeters in diameter and were ready for experiments in about 3 to 4 weeks. <sentence_start/>Six mice separated into two groups (three in each group) were used in this study to prove the concept of our miniaturized endoscopic imaging system for pancreatic cancer. <sentence_start/>For systemic delivery, 100 picomoles (pmol) with or without targeting IONPs, with or without polyethylene glycol (PEG) coating IONPs, were injected into the tail vein of the mice once per week for a total of two to four injections. <sentence_start/>In each group, each mouse received the injection of one of the three types of multifunctional nanoparticles: (1) near-infrared (NIR) 830-maleimide fluorescence dye conjugated to the 10-nm core size IONPs without targeting ligands, NIR830-IONP; (2) NIR830-IONP plus conjugation of amino-terminal fragment (ATF) targeting, NIR830-ATF-IONP; (3) NIR830-ATF-IONP plus polyethylene glycol (PEG) coating, NIR830-ATF-PEG-IONP. <sentence_start/>Thus, for each type of nanoparticles, two mice were used for the experiments. <sentence_start/>PEG was used to stabilize the nanoparticles and to modify surface properties to reduce the non-specific uptake of nanoparticles by macrophages in the reticuloendothelial system to improve the targeted delivery of the nanoparticles [<citation rid=\"R34\" ref-type=\"bibr\" pmid=\"25553097\" doi=\"10.7150/thno.10350\" pmcid=\"PMC4265747\" count=\"1\">34</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Miniaturized Endoscopic Imaging System and Scanning Mechanism"
+  },
+  {
+   "section": "article",
+   "text": "The multimodal endoscopic probe with a size of 1 mm in diameter described in detail before [<citation rid=\"R35\" ref-type=\"bibr\" count=\"1\">35</citation>] was used to directly reach the surface of the pancreas through a hole in the abdomen of mouse. <sentence_start/>Here, photoacoustic imaging was performed first, followed by fluorescence imaging. <sentence_start/>In brief, a double-clad fiber was integrated into the probe to deliver a light beam, which was then focused by a gradient-index (GRIN) lens with a diameter of 0.25 mm and a working distance of 5 mm. <sentence_start/>A custom-made unfocused ultrasound transducer with a center frequency of 40 MHz and dimensions of 0.6 mm <italic toggle=\"yes\">×</italic> 0.5 mm <italic toggle=\"yes\">×</italic> 0.2 mm was used to detect the photoacoustic signals. <sentence_start/>The imaging system is schematically shown in Figure 1. <sentence_start/>The probe was mounted to the stage consisting of a one-dimensional (1D) linear stage and a rotator. <sentence_start/>A nanosecond-pulsed Nd:YAG pumped Optical Parametric Oscillator (OPO) laser with a repetition frequency of 20 Hz was used as the light source. <sentence_start/>The light beam, attenuated by a neutral density (ND) filter, was then split into two parts. <sentence_start/>One part reached the photodiode (PD) module to monitor light intensity in real time for calibration. <sentence_start/>The other part, shaped by a small iris, was focused by a convex lens (L1); then, the light beam passed through a 100-μm pinhole for spatial filtering and was coupled into the double-clad fiber in the multimodal endoscopic probe. <sentence_start/>A data acquisition (DAQ) card (PCI-5124, National Instrument, Austin, TX, USA) embedded in a computer (PC) with 12-bit resolution and a sampling rate of 200 MS/s was utilized as the data acquisition system. <sentence_start/>Also, an ultrasound receiver (5073PR, Olympus, Waltham, MA, USA) with an integrated amplifier and a bandwidth of 75 MHz was utilized to receive the photoacoustic signal. <sentence_start/>The laser exposure was about 8 mJ/cm<sup>2</sup> at the surface of the tissue, which is lower than the American National Standards Institute (ANSI) laser safety limit (20 mJ/cm<sup>2</sup>)."
+  },
+  {
+   "section": "article",
+   "text": "To minimize the invasiveness associated with the procedure of plugging the endoscopic probe into the abdomen of a mouse, a novel fan-shaped scanning method was developed. <sentence_start/>As shown in Figure 2, a hole with a size slightly larger than 1 mm in diameter was drilled through the abdomen of the mouse. <sentence_start/>A volumetric image of the tissue was obtained by scanning the probe through the tissue in a two-dimensional (2D) fan-shaped plane with the hole location as the center. <sentence_start/>The 2D fan-shaped scanning (20 mm (radius) <italic toggle=\"yes\">×</italic> 60 degrees) was realized through the combination of a linear translation along radial direction (a step size of 30 μm) and a circular rotation (a step size of 0.3 degree)."
+  },
+  {
+   "section": "article",
+   "text": "2.3. <sentence_start/>Near-Infrared Planar Fluorescence Imaging System"
+  },
+  {
+   "section": "article",
+   "text": "A conventional near-infrared planar fluorescence imaging system was built to obtain 2D fluorescence images after each endoscopic imaging experiment for further cross validation. <sentence_start/>As schematically shown in Figure 3, a CW 785 nm laser (M5-785-0080, Thorlabs, Newton, NJ, USA) was used as the light source. <sentence_start/>The light beam was split into two parts that were respectively coupled into two fiber bundles, and then traveled through light diffusers (DG10-1500, Thorlabs, Newton, NJ, USA) in order to generate homogeneous illumination on the sample mounted on the sample holder. <sentence_start/>The induced fluorescence signal was collected by a fast charge-coupled device camera (CoolSNAP EZ, Photometrics, Tucson, AZ, USA) with a high performance fluorescent band-pass filter (NT86-381, Edmund Optics, Barrington, NJ, USA) mounted in the front for filtering out non-fluorescence signals. <sentence_start/>The laser power used for illumination was the same in all experiments."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>Image Processing"
+  },
+  {
+   "section": "article",
+   "text": "For endoscopic photoacoustic imaging, the collected photoacoustic signals were first processed through Hilbert transform, and then applied with the time-reversal reconstruction algorithm implemented in Matlab 8.6 to obtain 2D images. <sentence_start/>These reconstructed 2D images were imported into an image processing platform (Amira 5.4.2) to obtain a 3D volumetric image. <sentence_start/>The photoacoustic signals from each mouse were calibrated with the laser power used and normalized to the same scale. <sentence_start/>And all endoscopic photoacoustic images were displayed in the form of maximum amplitude projection (MAP)."
+  },
+  {
+   "section": "article",
+   "text": "For fluorescence imaging, images were collected by a program implemented in National Instruments (NI) Labview, followed by a post-processing tool box in Matlab 8.6. <sentence_start/>Like photoacoustic imaging, fluorescence signals from each mouse were normalized to the same scale for comparison."
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Our previous study [<citation rid=\"R33\" ref-type=\"bibr\" pmid=\"23125139\" doi=\"10.1002/jbio.201200155\" pmcid=\"PMC3823680\" count=\"1\">33</citation>] showed that the light absorbance of IONPs increases with decreased wavelength; however, considering the fact that tissue penetration depth is greater in the NIR region, light with a wavelength of 730 nm was chosen as the wavelength of the light source for inducing photoacoustic signals in our experiments."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4A-C, respectively, show photoacoustic MAP images from the mice of Group 1 administered with non-targeted nanoparticles NIR830-IONP, targeted NIR830-ATF-IONP, and PEG-coated targeted NIR830-ATF-PEG-IONP. <sentence_start/>To closely investigate these images, in Figure 4A, we can see that the contrast of tumor to normal tissue is too low to identify the tumor with non-targeted NIR830-IONP. <sentence_start/>However, for the tumor with targeted NIR830-ATF-IONP or PEG-coated targeted NIR830-ATF-PEG-IONP, greatly enhanced contrast of tumor to normal tissue can be seen in Figure 4B,C, where the tumor area with a clear tumor boundary is pinpointed. <sentence_start/>In comparing Figure 4B,C, it can be seen that the PEG coating deteriorates the contrast of the tumor to the background, but increases the specificity of tumor detection with a more clearly defined tumor boundary, since PEG was used to stabilize the nanoparticles and to modify surface properties to reduce the non-specific uptake of nanoparticles by macrophages in the reticuloendothelial system. <sentence_start/>We then selected a region of interest (ROI) within the tumor area, and computed the signal to background ratio (SBR). <sentence_start/>We plotted the SBR for the mice that had received the injection with three different nanoparticles, as shown in Figure 4D, for quantitative analysis. <sentence_start/>From these plots, we can see that the mouse with targeted NIR830-ATF-IONP has the highest SBR (~145, 43 dB), while the value for the mouse with non-targeted NIR830-IONP is the lowest (~24, 28 dB). <sentence_start/>PEG coating reduces the uptake of nanoparticles by cells like macrophages within the tumor, which is indicated by the contrast of the mouse with targeted NIR830-ATF-PEG-IONP (~102, 40 dB)."
+  },
+  {
+   "section": "article",
+   "text": "After the endoscopic photoacoustic imaging, we then conducted experiments using the NIR planar fluorescence imaging system. <sentence_start/>Figure 5A-C show the fluorescence images from the mice of Group 1 injected with NIR830-IONP, NIR830-ATF-IONP, and NIR830-ATF-PEG-IONP, respectively. <sentence_start/>The highest contrast in the image for the mouse with non-targeted NIR830-IONP (Figure 5A) comes from both the tumor (indicated by red arrow) and normal tissue (indicated by blue arrow). <sentence_start/>Thus, the specificity is too low to identify the tumor. <sentence_start/>On the contrary, for the mouse with the targeted agent of NIR830-ATF-IONP (Figure 5B) or NIR830-ATF-PEG-IONP (Figure 5C), greatly enhanced image contrast was observed, allowing the tumor and the tumor boundary to be identified clearly. <sentence_start/>Taking a close look at the difference between the images for NIR830-ATF-IONP and NIR830-ATF-PEG-IONP, we note that the PEG coating reduces tissue uptake of nanoparticles, especially in organs without tumors, as indicated by the white arrows in Figure 5B,C. <sentence_start/>We also plotted the SBR of the ROI from these three mice, as shown in Figure 5D, where we see SBR values similar to those of the photoacoustic images (Figure 4D): The mouse with NIR830-IONP has a SBR of ~35 (31 dB), while the mice with NIR830-ATF-IONP or NIR830-ATF-PEG-IONP, respectively, have an SBR of ~144 (43 dB) and ~101 (40 dB)."
+  },
+  {
+   "section": "article",
+   "text": "The endoscopic photoacoustic images and quantitative plots for the second group of mice are shown in Figure 6, while the corresponding fluorescence images and plots are shown in Figure 7. <sentence_start/>These images show image quality that is comparable to that seen in the first group of mice."
+  },
+  {
+   "section": "article",
+   "text": "4. <sentence_start/>Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "This work represents the first report on multimodal photoacoustic-fluorescence molecular endoscopic imaging of pancreatic cancer using a miniature probe and targeted multifunctional magnetic iron oxide nanoparticles in a mouse pancreatic cancer model. <sentence_start/>With the novel fan-shaped scanning mechanism, the endoscopic probe can directly reach the surface of the pancreas through the abdomen with minimal invasiveness. <sentence_start/>The photoacoustic and fluorescence signals of the tumor region were significantly improved with targeted multifunctional nanoparticles. <sentence_start/>This study indicates the potential of targeted multimodal photoacoustic-fluorescence endoscopic molecular imaging for the early detection of pancreatic cancer. <sentence_start/>Before the approach can be used for in vivo studies, questions concerning barriers from blood or vessels surrounding the tumor area should be tackled, which we plan to study in the future."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Author Contributions:</bold> X.D. designed and built the device and the system, performed experiments, analyzed the data, and wrote the paper. <sentence_start/>W.Q. and L.Y. prepared the samples and animals. <sentence_start/>H.Y. helped with the analysis of the data. <sentence_start/>H.J. directed and supervised the project, and wrote the paper. <sentence_start/>The idea originated from the discussion between X.D. and H.J."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of Interest:</bold> The authors declare no conflict of interest. <sentence_start/>The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Endoscopic imaging system. <sentence_start/>ND, neutral density filter; L1, L2, L3, lenses; PH, pinhole; BP, beam splitter; PD, photodiode; DAQ, data acquisition; US, ultrasound."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Schematic of the probe scanning mechanism."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Near-Infrared planar fluorescence imaging system. <sentence_start/>BP, beam splitter; L1, L2, lens; DF, diffuser."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Endoscopic photoacoustic images of pancreatic tumor from the mice of Group 1. <sentence_start/>Maximum amplitude projection (MAP) images of (<bold>A</bold>) mouse injected with NIR830-IONP; (<bold>B</bold>) mouse injected with NIR830-ATF-IONP; and (<bold>C</bold>) mouse injected with NIR830-ATF-PEG-IONP; (<bold>D</bold>) quantitative plot and comparison of average contrast in region of interest (ROI) (pancreatic tumor). <sentence_start/>The red scale bars indicate 3 mm in length. <sentence_start/>NIR, near-infrared; IONP, iron oxide nanoparticle; ATF, amino-terminal fragment; PEG, polyethylene glycol."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Fluorescence images of pancreatic tumor from the mice of Group 1. <sentence_start/>Photographs were fused with fluorescence images for (<bold>A</bold>) mouse injected with NIR830-IONP; (<bold>B</bold>) mouse injected with NIR830-ATF-IONP; and (<bold>C</bold>) mouse injected with NIR830-ATF-PEG-IONP; (<bold>D</bold>) quantitative plot and comparison of average contrast in region of interest (ROI) (pancreatic tumor)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 6"
+  },
+  {
+   "section": "floating",
+   "text": "Endoscopic photoacoustic images of pancreatic tumor from the mice of Group 2. <sentence_start/>Maximum amplitude projection (MAP) images of (<bold>A</bold>) mouse injected with NIR830-IONP; (<bold>B</bold>) mouse injected with NIR830-ATF-IONP; and (<bold>C</bold>) mouse injected with NIR830-ATF-PEG-IONP; (<bold>D</bold>) quantitative plot and comparison of average contrast in region of interest (ROI) (pancreatic tumor). <sentence_start/>The red scale bars indicate 3 mm in length."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 7"
+  },
+  {
+   "section": "floating",
+   "text": "Fluorescence images of pancreatic tumor from the mice of Group 2. <sentence_start/>Photographs were fused with fluorescence images from (<bold>A</bold>) mouse injected with NIR830-IONP; (<bold>B</bold>) mouse injected with NIR830-ATF-IONP; and (<bold>C</bold>) mouse injected with NIR830-ATF-PEG-IONP; (<bold>D</bold>) quantitative plot and comparison of average contrast in region of interest (ROI) (pancreatic tumor)."
+  }
+ ]
+}

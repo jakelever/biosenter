@@ -1,0 +1,315 @@
+{
+ "pmid": 16539733,
+ "pmcid": 1453763,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "ExtraTrain: a database of Extragenic regions and Transcriptional information in prokaryotic organisms"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Transcriptional regulation processes are the principal mechanisms of adaptation in prokaryotes. <sentence_start/>In these processes, the regulatory proteins and the regulatory DNA signals located in extragenic regions are the key elements involved. <sentence_start/>As all extragenic spaces are putative regulatory regions, ExtraTrain covers all extragenic regions of available genomes and regulatory proteins from bacteria and archaea included in the UniProt database."
+  },
+  {
+   "section": "abstract",
+   "text": "Description"
+  },
+  {
+   "section": "abstract",
+   "text": "ExtraTrain provides integrated and easily manageable information for 679816 extragenic regions and for the genes delimiting each of them. <sentence_start/>In addition ExtraTrain supplies a tool to explore extragenic regions, named Palinsight, oriented to detect and search palindromic patterns. <sentence_start/>This interactive visual tool is totally integrated in the database, allowing the search for regulatory signals in user defined sets of extragenic regions. <sentence_start/>The 26046 regulatory proteins included in ExtraTrain belong to the families AraC/XylS, ArsR, AsnC, Cold shock domain, CRP-FNR, DeoR, GntR, IclR, LacI, LuxR, LysR, MarR, MerR, NtrC/Fis, OmpR and TetR. <sentence_start/>The database follows the InterPro criteria to define these families. <sentence_start/>The information about regulators includes manually curated sets of references specifically associated to regulator entries. <sentence_start/>In order to achieve a sustainable and maintainable knowledge database ExtraTrain is a platform open to the contribution of knowledge by the scientific community providing a system for the incorporation of textual knowledge."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "ExtraTrain is a new database for exploring <underline>Extra</underline>genic regions and <underline>Tra</underline>nscriptional <underline>in</underline>formation in bacteria and archaea. <sentence_start/>ExtraTrain database is available at ."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "TRANSFAC database [<citation ref-type=\"bibr\" rid=\"B1\" pmid=\"12520026\" doi=\"10.1093/nar/gkg108\" pmcid=\"PMC165555\" count=\"1\">1</citation>] compiles eukaryotic cis-acting regulatory DNA elements and trans-acting factors covering from yeast to humans. <sentence_start/>However, a database for bacteria and archaea with a similar global approach it is not available. <sentence_start/>We can find information dealing with prokaryotic transcriptional regulation in RegulonDB [<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"14681419\" doi=\"10.1093/nar/gkh140\" pmcid=\"PMC308874\" count=\"1\">2</citation>] but it is limited to the network of transcriptional regulation in Escherichia coli K-12. <sentence_start/>There are other family oriented approaches like AraC-XylS [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"11752325\" doi=\"10.1093/nar/30.1.318\" pmcid=\"PMC99111\" count=\"1\">3</citation>] and BacTregulators [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"15166024\" doi=\"10.1093/bioinformatics/bth330\" count=\"1\">4</citation>] covering all bacteria and archaea but their knowledge contents are limited to two families."
+  },
+  {
+   "section": "article",
+   "text": "Eukaryotic transcription factors usually bind a sufficiently numerous set of binding sites in a genome, allowing the determination of a motif for the DNA binding site for every transcription factor. <sentence_start/>Some comprehensive tools as PromoterPlot [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"15980503\" doi=\"10.1093/nar/gki413\" pmcid=\"PMC1160174\" count=\"1\">5</citation>], MatInspector[<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"15860560\" doi=\"10.1093/bioinformatics/bti473\" count=\"1\">6</citation>], TOUCAN [<citation ref-type=\"bibr\" rid=\"B7\" pmid=\"15980497\" doi=\"10.1093/nar/gki354\" pmcid=\"PMC1160115\" count=\"1\">7</citation>], EZRetrieve [<citation ref-type=\"bibr\" rid=\"B8\" pmid=\"12409480\" doi=\"10.1093/nar/gnf120\" pmcid=\"PMC135846\" count=\"1\">8</citation>], P-Match [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"15980505\" doi=\"10.1093/nar/gki441\" pmcid=\"PMC1160202\" count=\"1\">9</citation>] or BEARR [<citation ref-type=\"bibr\" rid=\"B10\" pmid=\"15215391\" doi=\"10.1093/nar/gkh396\" pmcid=\"PMC441534\" count=\"1\">10</citation>] are specifically oriented to the extraction and analysis of regulatory regions of mammalian genes. <sentence_start/>In contrast, in prokaryotes the majority of the regulators are very specific and usually have either just one DNA binding site or a very limited number of them in each genome and hence, it is not possible the definition of a DNA binding motif using data from only one genome. <sentence_start/>However, the increasing amount of available genomes of bacteria and archaea opens new possibilities for the definition of DNA binding motifs using the information about binding sites of orthologous proteins from different genomes. <sentence_start/>Comparative analysis of sequences of genes has been critical in the prediction of the function and structure of proteins, especially for developing the intensive task of annotation of genomes."
+  },
+  {
+   "section": "article",
+   "text": "Moreover, there are interesting initiatives as coliBASE [<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"14681417\" doi=\"10.1093/nar/gkh031\" pmcid=\"PMC308765\" count=\"1\">11</citation>] oriented to comparative genomics but they are also centred in genes. <sentence_start/>However comparative analysis of extragenic regions from bacteria remains almost unexplored."
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain follows an integrative approach with a special focus on DNA extragenic regions as the target of regulatory proteins, providing a new platform for analyzing transcriptional regulation in prokaryotes. <sentence_start/>ExtraTrain includes all extragenic regions corresponding to all completely annotated genomes of bacteria and archaea available at NCBI [<citation ref-type=\"bibr\" rid=\"B12\" pmid=\"15608248\" doi=\"10.1093/nar/gki025\" pmcid=\"PMC539979\" count=\"1\">12</citation>] and all regulatory proteins included in UniProt [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"15608167\" doi=\"10.1093/nar/gki070\" pmcid=\"PMC540024\" count=\"1\">13</citation>] belonging to all the most significant families of transcriptional regulatory proteins (excluding sigma factors) defined in prokaryotes."
+  },
+  {
+   "section": "article",
+   "text": "In response to the need of integration of biological databases we have adopted the UniProt definition of entry, based solely on amino acid sequence. <sentence_start/>However, the function and regulation of a protein does not only depend on its sequence, but also on its genetic context. <sentence_start/>Thus, two genes encoding exactly the same protein but with different regulatory signals in their upstream regions, can play different functional roles in an organism. <sentence_start/>Moreover, two identical genes with identical upstream extragenic regions can play different roles if they belong to different organisms because the regulatory network for each of them can be different. <sentence_start/>In each ExtraTrain regulatory protein entry the different genetic contexts can be explored clicking on the extragenic regions listed in the section \"UPSTREAM extragenic regions corresponding to this protein\". <sentence_start/>This strategy allows us both to contemplate the genetic context and to maintain only one entry for each protein, preserving thus a complete integration with Uniprot."
+  },
+  {
+   "section": "article",
+   "text": "Construction and content"
+  },
+  {
+   "section": "article",
+   "text": "Programs in Java have been developed for the task of constructing and reconstructing the database with raw data from UniProt and NCBI genome database."
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain runs on a server having Apache as web server, MySQL as database management system and Macromedia ColdFusion as Application Server."
+  },
+  {
+   "section": "article",
+   "text": "The interactive tool to explore extragenic sequences (Palinsight) has been developed using Macromedia Flash."
+  },
+  {
+   "section": "article",
+   "text": "The actualization and the maintenance of the automatically acquired data about extragenic regions and regulatory proteins are managed by releases. <sentence_start/>However, the reference database and the knowledge data contributed by researchers will be continuously updated."
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain includes data in relation to:"
+  },
+  {
+   "section": "article",
+   "text": "• Extragenic regions"
+  },
+  {
+   "section": "article",
+   "text": "All DNA extragenic regions and the information of the upstream and downstream genes of available genomes of bacteria and archaea are included in ExtraTrain. <sentence_start/>We have included not only the extragenic regions corresponding to regulatory proteins but all extragenic regions of each genome. <sentence_start/>Thus, each regulatory protein can be analyzed in its genetic context having available all its possible DNA targets. <sentence_start/>ExtraTrain includes data corresponding to the 230 genomes available at NCBI on 11 July 2005."
+  },
+  {
+   "section": "article",
+   "text": "• Regulatory proteins"
+  },
+  {
+   "section": "article",
+   "text": "The set of proteins is extracted from 10-5-2005 release of UNIPROT (SwissProt +TrEMBL) database. <sentence_start/>The 26046 proteins are classified in 16 families: AraC/XylS, ArsR, AsnC, Cold shock domain (CSD), CRP-FNR, DeoR, GntR, IclR, LacI, LuxR, LysR, MarR, MerR, NtrC/FIS, OmpR and TetR. <sentence_start/>We have followed the InterPro definition of each family. <sentence_start/>The entries of the InterPro database [<citation ref-type=\"bibr\" rid=\"B14\" pmid=\"15608177\" doi=\"10.1093/nar/gki106\" pmcid=\"PMC540060\" count=\"1\">14</citation>] used to define each family and the number of members of each family included in ExtraTrain are displayed in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "• BLAST similarity"
+  },
+  {
+   "section": "article",
+   "text": "\"All against all\" BLAST analysis has been carried out within the members of each family of regulators. <sentence_start/>These results are stored in the database allowing fast access to similarity data. <sentence_start/>It also allows us to offer the possibility of selecting a set of extragenic regions upstream BLAST similar regulators (See case study below)."
+  },
+  {
+   "section": "article",
+   "text": "• References"
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain includes a set of references extracted from Medline and manually curated by experts. <sentence_start/>These references are associated with specific protein entries of the database, with specific families or with other ExtraTrain items."
+  },
+  {
+   "section": "article",
+   "text": "• Textual knowledge"
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain offers a system for the incorporation of knowledge by scientists. <sentence_start/>Each knowledge unit is always associated to a Medline reference and can be associated to one of eight different fields: function, regulated genes, regulatory network, 3D-structure, mutations, DNA-binding, effectors and applications. <sentence_start/>Each input of knowledge is signed by the contributor."
+  },
+  {
+   "section": "article",
+   "text": "We have connected the data of genes extracted from NCBI genome resource with the protein data from UniProt databases. <sentence_start/>Thus, each ExtraTrain extragenic region entry displays UniProt data for the two proteins encoded by the genes delimiting the extragenic space. <sentence_start/>For transcriptional regulatory proteins we have also established the connexion between each protein and all their available genetic contexts. <sentence_start/>It allows to obtain for each protein the different extragenic regions that have been found upstream its corresponding gene in all available genomes."
+  },
+  {
+   "section": "article",
+   "text": "Utility and discussion"
+  },
+  {
+   "section": "article",
+   "text": "The purpose of ExtraTrain is to provide a platform to easily manage extragenic regions and transcriptional regulators in bacteria and archaea."
+  },
+  {
+   "section": "article",
+   "text": "User interface"
+  },
+  {
+   "section": "article",
+   "text": "Extragenic region entry"
+  },
+  {
+   "section": "article",
+   "text": "In ExtraTrain \"extragenic region\" is defined as the DNA space between two genes of a genome. <sentence_start/>The extragenic region entry displays the sequences of the extragenic region and the proteins codified by the two bordering genes. <sentence_start/>The positive or negative orientation of each gene and their positions in the genome element are also indicated. <sentence_start/>Links to NCBI data about the two genes and the two entries of UniProt corresponding to the encoded proteins are also provided. <sentence_start/>Two arrows to navigate backward and forward along the chromosome are available to explore neighbouring genes and extragenic regions. <sentence_start/>Thus, the user can easily move along a genome element visualizing all their genes and extragenic regions. <sentence_start/>It facilitates the evaluation of the genetic context."
+  },
+  {
+   "section": "article",
+   "text": "Extragenic region search tools"
+  },
+  {
+   "section": "article",
+   "text": "The extragenic region search page offers the possibility of selecting a specific genome extragenic region by introducing either its ExtraTrain ID or the RefSeq protein ID. <sentence_start/>For this last option the user can select either to obtain the upstream or the downstream extragenic region. <sentence_start/>ExtraTrain offers several options for the selection of a set of extragenic regions within a genome element:"
+  },
+  {
+   "section": "article",
+   "text": "a. extragenic regions upstream or downstream regulators of a specific family"
+  },
+  {
+   "section": "article",
+   "text": "b. extragenic regions included within a genome fragment defined by introducing an initial and a final position"
+  },
+  {
+   "section": "article",
+   "text": "c. selection of extragenic regions in which an exact pattern of sequence is present."
+  },
+  {
+   "section": "article",
+   "text": "The user can easily 'shop' for extragenic sequences by querying the database using the described search tools. <sentence_start/>Sets of extragenic sequences selected by the different options can be combined in an up to 100 extragenic sequences common set that we have named \"working set\". <sentence_start/>The construction of this \"working set\" is easy and interactive facilitating the access and selection of extragenic sequences. <sentence_start/>We realized that the accessibility to sequences of genes and proteins was fast and easy through several resources while the access to extragenic sequences used to be more difficult. <sentence_start/>Many bench scientists without IT background can find difficulties in the access and management of prokaryotic extragenic sequences. <sentence_start/>One of the purposes of ExtraTrain is to provide a user-friendly platform for the management of these extragenic sequences. <sentence_start/>The user can obtain the extragenic sequences included in the \"working set\" in FASTA format as well as the inverted complementary sequence for each of them. <sentence_start/>This option is very useful to align extragenic sequences upstream orthologous genes that are allocated in different DNA strands. <sentence_start/>The \"working set\" in FASTA format can be used as input for external pattern discovery tools. <sentence_start/>We provide links to the web interfaces of the tools Bioprospector, AlignAce, ANN-Spec, Consensus, Improbizer, MEME, MITRA, MotifSampler, Oligo/dyad-analysis, QuickScore, SeSiMCMC and YMF whose limitations and potentials have been recently assessed [<citation ref-type=\"bibr\" rid=\"B15\" pmid=\"16284194\" doi=\"10.1093/nar/gki791\" pmcid=\"PMC1199555\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"B16\" pmid=\"15637633\" doi=\"10.1038/nbt1053\" count=\"1\">16</citation>]. <sentence_start/>The user can also send the \"working set\" to Palinsight (See below)."
+  },
+  {
+   "section": "article",
+   "text": "Transcriptional regulatory proteins"
+  },
+  {
+   "section": "article",
+   "text": "An initial page about regulatory proteins displays information about the 16 families included in the database (Table 1) and a graphic illustration representing the distribution of families in the ExtraTrain database. <sentence_start/>By selecting a genome the user can obtain a graphical view displaying the distribution of the different families of regulatory proteins in the selected genome."
+  },
+  {
+   "section": "article",
+   "text": "The ExtraTrain definition of entry for transcriptional regulatory proteins is identical to the UniProt definition of entry, which is based solely on the protein sequence."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, the ExtraTrain regulator entry identifier is the UniProt identifier for this protein. <sentence_start/>We have chosen these unified criteria to reinforce invaluable initiatives of integration such as UniProt."
+  },
+  {
+   "section": "article",
+   "text": "The web page corresponding to an ExtraTrain regulatory protein entry shows data automatically extracted from Uniprot, manually curated references extracted from Medline, a list of BLAST similar proteins and information about all extragenic regions upstream this regulator in the available genomes. <sentence_start/>The majority of regulatory proteins in the current ExtraTrain database are encoded by only one gene in one genome and hence, have only one upstream extragenic region. <sentence_start/>However, in the near future, with the availability of several strains for each species, it will be frequent to found several genes in several genomes encoding the same regulatory protein. <sentence_start/>It will allow the analysis of each protein in its different genetic contexts. <sentence_start/>This lack of one to one relationship between proteins and genes is solved in ExtraTrain by establishing the connexion between proteins and genes through extragenic regions without the loss of biologically relevant information."
+  },
+  {
+   "section": "article",
+   "text": "Regulatory protein search tools"
+  },
+  {
+   "section": "article",
+   "text": "The regulator search web page allows access to one specific regulator introducing either its UniProt identifier or its RefSeq protein ID. <sentence_start/>The selection of sets of regulators sharing an InterPro ID or a COG ID is also available. <sentence_start/>Another search option is the text search within a family. <sentence_start/>The text search can also be restricted to a specific genome."
+  },
+  {
+   "section": "article",
+   "text": "Palinsight: visual tool for palindromic pattern detection"
+  },
+  {
+   "section": "article",
+   "text": "Identification of regulatory motifs is crucial in the study of gene expression."
+  },
+  {
+   "section": "article",
+   "text": "Transcription factors are proteins that frequently adopt antiparallel dimeric structures that bind DNA palindromic motifs. <sentence_start/>These motifs are often highly divergent in sequence but in many cases share conserved palindromic motifs. <sentence_start/>Nowadays, there are available sophisticated tools for the multiple alignment of sequences that facilitate the discovery of sequence motifs. <sentence_start/>However, when working with DNA sequences there often arises the need to inspect DNA palindromy, even independently of sequence similarity. <sentence_start/>This palindromy inspection is especially required when dealing with non coding regulatory DNA sequences. <sentence_start/>To perform this task manually is very time consuming and error prone. <sentence_start/>We have incorporated within the ExtraTrain database a palindromy viewer and searcher to explore palindromy in DNA extragenic regions. <sentence_start/>Palinsight allows to analyze up to 100 sequences distributed in screens displaying 10 sequences. <sentence_start/>The tool allows the visualization of the palindromy of each sequence in each of the possible palindromy axes in an interactive way (See tutorial at the ExtraTrain web site). <sentence_start/>Palinsight is also a tool for searching palindromic patterns. <sentence_start/>To define the pattern the user selects the template sequence containing the desired pattern. <sentence_start/>The palindromic pattern is visually represented and the user can interactively select the positions in which strict conservation of sequence is required and the positions in which palindromy is the only constraint. <sentence_start/>The strategy of searching palindromy conservation independent of sequence conservation can reveal new patterns for binding sites in which the palindromicity is the crucial constraint. <sentence_start/>In any case Palinsight helps in the manual analysis of extragenic regions and it can be especially useful in the phase previous to the definition of a binding-site motif."
+  },
+  {
+   "section": "article",
+   "text": "Specific applications of ExtraTrain"
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain is oriented to facilitate the complex process of hypothesis driven experimentation and is especially designed for experimental scientists. <sentence_start/>In general, ExtraTrain manages sequences and information about extragenic regions and regulatory proteins of genomes of bacteria and archaea. <sentence_start/>Some research tasks are especially suited to be managed by ExtraTrain:"
+  },
+  {
+   "section": "article",
+   "text": "• Analysis of the extragenic regions corresponding to a set of differentially co-regulated genes. <sentence_start/>Gene expression data obtained from microarray experiments can be used as the raw data. <sentence_start/>Introducing either the RefSeq or the UniProt identifier, the user can obtain the corresponding extragenic regions and add them to the \"working set\". <sentence_start/>Then, these sequences can be sent to Palinsight to be analyzed. <sentence_start/>Thus, in an interactive step by step process, common motifs can be identified in the set of co-regulated genes."
+  },
+  {
+   "section": "article",
+   "text": "• Searching for common features in the extragenic regions corresponding to a family of regulators. <sentence_start/>ExtraTrain offers the tools needed to study specific features of the binding sites corresponding to a family of regulatory proteins."
+  },
+  {
+   "section": "article",
+   "text": "• Searching for repetitive extragenic palindromic (REP) sequences [<citation ref-type=\"bibr\" rid=\"B17\" pmid=\"15808947\" doi=\"10.1016/j.resmic.2004.10.014\" count=\"1\">17</citation>] in a genome element."
+  },
+  {
+   "section": "article",
+   "text": "• Searching for terminators."
+  },
+  {
+   "section": "article",
+   "text": "• Definition of binding sites for global regulators."
+  },
+  {
+   "section": "article",
+   "text": "• Analysis of insertion sites of Insertion Sequence elements. <sentence_start/>Selecting the upstream and downstream extragenic regions of several copies of an Insertion sequence the user can analyze and compare their inverted repeats and the features of the insertion sites."
+  },
+  {
+   "section": "article",
+   "text": "• Analysis of the extragenic regions corresponding to a set of BLAST similar transcriptional regulators. <sentence_start/>Bacterial transcriptional regulators usually autoregulate their own expression. <sentence_start/>Hence, it is probable to find similar signals in the DNA regions upstream a set of similar transcriptional regulatory proteins. <sentence_start/>ExtraTrain allows the visualization and comparison of these extragenic regions. <sentence_start/>In the figures 1, 2, 3, 4 we have represented a case study in which ExtraTrain is used to search for binding sites for regulatory proteins similar to AcrR of <italic toggle=\"yes\">Escherichia coli</italic>. <sentence_start/>In the AcrR entry page, the user can automatically get the upstream extragenic regions corresponding to the set of AcrR BLAST similar proteins and then construct a \"working set\" with these sequences. <sentence_start/>In the \"working set\" page the user can observe the orientation of each gene and select each extragenic sequence in the appropriate orientation. <sentence_start/>Then, the correctly oriented sequences can be sent to Palinsight to be explored. <sentence_start/>Figures 2 and 3 display the similar palindromes detected at a similar distance of the gene start point, for the 17 AcrR similar sequences. <sentence_start/>These palindromes had been proposed as putative AcrR binding-sites for <italic toggle=\"yes\">E. coli</italic>, <italic toggle=\"yes\">Salmonella typhi </italic>and <italic toggle=\"yes\">Yersinia pestis </italic>[<citation ref-type=\"bibr\" rid=\"B18\" pmid=\"11321589\" count=\"1\">18</citation>]. <sentence_start/>Using Palinsight we have found similar palindromes for <italic toggle=\"yes\">E. coli </italic>K12, CFT073, O157:H7 EDL933 and O157:H7, <italic toggle=\"yes\">Shigella flexneri </italic>2a 301 and 2457T, <italic toggle=\"yes\">Salmonella enterica </italic>subsp. <sentence_start/>enterica serovar <italic toggle=\"yes\">Typhi </italic>CT18, <italic toggle=\"yes\">Typhi </italic>Ty2 and serovar <italic toggle=\"yes\">Paratyphi </italic>A ATCC 9150, <italic toggle=\"yes\">Salmonella typhimurium </italic>LT2, <italic toggle=\"yes\">Yersinia pestis </italic>KIM, Medievalis 91001 and CO92, <italic toggle=\"yes\">Yersinia pseudotuberculosis </italic>IP 32953, <italic toggle=\"yes\">Erwinia carotovora subsp. atroseptica </italic>SCRI1043, <italic toggle=\"yes\">Photorhabdus luminescens subsp. laumondii </italic>TTO1 and <italic toggle=\"yes\">Pseudomonas syringae pv. tomato </italic>str. <sentence_start/>DC3000. <sentence_start/>(Tables 2, 3 and Figures 1, 2, 3, 4). <sentence_start/>The shared palindromic motif is indicated in the figures 2, 3, 4 and in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "Future directions"
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain is a platform open to the contribution of knowledge by the scientific community. <sentence_start/>This collaborative system is our strategy to face the challenge of achieving a sustainable and maintainable knowledge database."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain is a web platform to easily manage extragenic regions and transcriptional regulators in bacteria and archaea."
+  },
+  {
+   "section": "article",
+   "text": "Availability and requirements"
+  },
+  {
+   "section": "article",
+   "text": "ExtraTrain is freely available for research activities and non-commercial use at . <sentence_start/>The only requirement to use ExtraTrain is to have Macromedia Flash Player 7 or higher. <sentence_start/>The majority of web browsers have installed Flash Player but, in any case the user can download it at ."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "EP has developed the web application, has contributed to the general design of the database and the web interface and has participated in the reviewing of the manuscript. <sentence_start/>PP-T has developed the Java programs to parse the Uniprot raw file and the NCBI genome files in order to extract the data and construct the database. <sentence_start/>MM has manually extracted and curated the references of the database. <sentence_start/>EP-T has collaborated in the management of references, Palinsight depuration, tutorial development and reviewing of the manuscript. <sentence_start/>JB has programmed the user management system. <sentence_start/>RT has contributed to the general design of the database and the user interface, has programmed Palinsight, has supervised the knowledge content of the database and has written the manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Figures and Tables"
+  },
+  {
+   "section": "back",
+   "text": "Figure 1"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Case study: constructing the working set</bold>. <sentence_start/>The set of extragenic regions upstream genes encoding AcrR BLAST similar proteins has been incorporated to the \"working set\". <sentence_start/>For extragenic sequences 8, 10, 13, 16 and 17 the check-box for obtaining the complementary inverted sequence has been marked. <sentence_start/>Thus, the 17 upstream extragenic sequences are equally oriented with regard to the start points of the genes. <sentence_start/>Clicking on \"FASTA SEQUENCES\" button the user obtains the extragenic sequences in FASTA format. <sentence_start/>Clicking on \"PALINSIGHT\" button the user sends the sequences to Palinsight viewer."
+  },
+  {
+   "section": "back",
+   "text": "Figure 2"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Case study: Palinsight displaying the shared palindrome in sequences 1 to 10 of the working set</bold>. <sentence_start/>Using Palinsight we have detected a shared palindrome in these extragenic sequences upstream genes encoding AcrR similar proteins. <sentence_start/>The same palindrome is conserved for all <italic toggle=\"yes\">Escherichia coli </italic>and <italic toggle=\"yes\">Shigella flexneri </italic>sequences (extragenic sequences 1-6). <sentence_start/>Another slightly different palindrome is conserved in <italic toggle=\"yes\">Salmonella enterica </italic>and <italic toggle=\"yes\">Salmonella typhimurium </italic>(extragenic sequences 7-10)."
+  },
+  {
+   "section": "back",
+   "text": "Figure 3"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Case study: Palinsight displaying the shared palindrome in sequences 11 to 17 of the working set</bold>. <sentence_start/>Extragenic sequences 11-14 from <italic toggle=\"yes\">Yersinia </italic>present another identical palindrome. <sentence_start/>Palindromes detected for <italic toggle=\"yes\">Erwinia carotovora</italic>, <italic toggle=\"yes\">Photorhabdus luminescens </italic>and <italic toggle=\"yes\">Pseudomonas syringae </italic>present more differences but the 17 extragenic sequences conserve the palindromic motif TAC - -ACA- - - -|- - - -TGT - -GTA that appears at the top of the figures 2 and 3. <sentence_start/>The detected palindromes are candidates to be binding-sites for AcrR and AcrR similar proteins."
+  },
+  {
+   "section": "back",
+   "text": "Figure 4"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Case study: Palinsight displaying the window of Results of searching the pattern</bold>. <sentence_start/>When we searched for the pattern TAC - -ACA- - - -|- - - -TGT - -GTA clicking on the \"Search this pattern\" button we obtained the positions of this motif in the set of selected extragenic sequences. <sentence_start/>Table 3 is the copy of the complete content of this window."
+  }
+ ]
+}

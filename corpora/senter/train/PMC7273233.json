@@ -1,0 +1,531 @@
+{
+ "pmid": 32436849,
+ "pmcid": 7273233,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "An Informatics Framework to Assess Consumer Health Language Complexity Differences: Proof-of-Concept Study"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "The language gap between health consumers and health professionals has been long recognized as the main hindrance to effective health information comprehension. <sentence_start/>Although providing health information access in consumer health language (CHL) is widely accepted as the solution to the problem, health consumers are found to have varying health language preferences and proficiencies. <sentence_start/>To simplify health documents for heterogeneous consumer groups, it is important to quantify how CHLs are different in terms of complexity among various consumer groups."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "This study aimed to propose an informatics framework (consumer health language complexity [CHELC]) to assess the complexity differences of CHL using syntax-level, text-level, term-level, and semantic-level complexity metrics. <sentence_start/>Specifically, we identified 8 language complexity metrics validated in previous literature and combined them into a 4-faceted framework. <sentence_start/>Through a rank-based algorithm, we developed unifying scores (CHELC scores [CHELCS]) to quantify syntax-level, text-level, term-level, semantic-level, and overall CHL complexity. <sentence_start/>We applied CHELCS to compare posts of each individual on online health forums designed for (1) the general public, (2) deaf and hearing-impaired people, and (3) people with autism spectrum disorder (ASD)."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "We examined posts with more than 4 sentences of each user from 3 health forums to understand CHL complexity differences among these groups: 12,560 posts from 3756 users in Yahoo! Answers, 25,545 posts from 1623 users in AllDeaf, and 26,484 posts from 2751 users in Wrong Planet. <sentence_start/>We calculated CHELCS for each user and compared the scores of 3 user groups (ie, deaf and hearing-impaired people, people with ASD, and the public) through 2-sample Kolmogorov-Smirnov tests and analysis of covariance tests."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "The results suggest that users in the public forum used more complex CHL, particularly more diverse semantics and more complex health terms compared with users in the ASD and deaf and hearing-impaired user forums. <sentence_start/>However, between the latter 2 groups, people with ASD used more complex words, and deaf and hearing-impaired users used more complex syntax."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Our results show that the users in 3 online forums had significantly different CHL complexities in different facets. <sentence_start/>The proposed framework and detailed measurements help to quantify these CHL complexity differences comprehensively. <sentence_start/>The results emphasize the importance of tailoring health-related content for different consumer groups with varying CHL complexities."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "The language gap between laypersons (health consumers) and health care professionals has been long recognized as the main hindrance to effective health communication and health information comprehension [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1109/HICSS.2013.150\" count=\"1\">1</citation>-<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1197/jamia.M1761\" medline=\"16221948\" pmid=\"16221948\" pmcid=\"PMC1380193\" count=\"1\">3</citation>]. <sentence_start/>When interpreting health documents written mainly in professional language, consumers often depend on their own language to <italic toggle=\"yes\">fill in</italic> the comprehension gap (eg, <italic toggle=\"yes\">depression</italic> vs <italic toggle=\"yes\">depressive disorder</italic>), which might lead to misinterpretation. <sentence_start/>Accordingly, it has also been widely agreed that health consumers should be given access to resources in their own languages [<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1197/jamia.M1761\" medline=\"16221948\" pmid=\"16221948\" pmcid=\"PMC1380193\" count=\"1\">3</citation>-<citation rid=\"ref6\" ref-type=\"bibr\" doi=\"10.1197/jamia.M2744\" medline=\"18436895\" pmid=\"18436895\" pmcid=\"PMC2442255\" count=\"1\">6</citation>]. <sentence_start/>To improve the readability of health-related content for average health consumers, there has been increasing interest in examining consumer health vocabularies [<citation rid=\"ref2\" ref-type=\"bibr\" medline=\"18999004\" pmid=\"18999004\" pmcid=\"PMC2656083\" count=\"1\">2</citation>,<citation rid=\"ref7\" ref-type=\"bibr\" doi=\"10.1016/j.jbi.2017.03.016\" medline=\"28359728\" pmid=\"28359728\" pmcid=\"PMC5488691\" count=\"1\">7</citation>], health readability measurement [<citation rid=\"ref8\" ref-type=\"bibr\" doi=\"10.1089/acm.2008.0611\" medline=\"20064017\" pmid=\"20064017\" pmcid=\"PMC3110101\" count=\"1\">8</citation>-<citation rid=\"ref10\" ref-type=\"bibr\" doi=\"10.1002/asi.20837\" count=\"1\">10</citation>], and automated health text simplification approaches [<citation rid=\"ref11\" ref-type=\"bibr\" medline=\"21347002\" pmid=\"21347002\" pmcid=\"PMC3041424\" count=\"1\">11</citation>-<citation rid=\"ref14\" ref-type=\"bibr\" doi=\"10.2196/jmir.2569\" medline=\"23903235\" pmid=\"23903235\" pmcid=\"PMC3742397\" count=\"1\">14</citation>]. <sentence_start/>Studies on consumer health vocabularies have largely focused on extracting and building a terminology system of lay health terms used by average health consumers [<citation rid=\"ref2\" ref-type=\"bibr\" medline=\"18999004\" pmid=\"18999004\" pmcid=\"PMC2656083\" count=\"1\">2</citation>,<citation rid=\"ref7\" ref-type=\"bibr\" doi=\"10.1016/j.jbi.2017.03.016\" medline=\"28359728\" pmid=\"28359728\" pmcid=\"PMC5488691\" count=\"1\">7</citation>]. <sentence_start/>Health readability assessments have focused on developing linguistic metrics to quantify the text complexity of health content generated by health experts and professionals [<citation rid=\"ref9\" ref-type=\"bibr\" medline=\"18999150\" pmid=\"18999150\" pmcid=\"PMC2655974\" count=\"1\">9</citation>,<citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.1109/MITP.2016.50\" medline=\"27698611\" pmid=\"27698611\" pmcid=\"PMC5044755\" count=\"1\">13</citation>,<citation rid=\"ref15\" ref-type=\"bibr\" medline=\"18998902\" pmid=\"18998902\" pmcid=\"PMC2656067\" count=\"1\">15</citation>,<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>On the basis of the findings in both areas, automated health text simplification usually focuses on simplifying difficult texts with respect to 1 or 2 aspects (eg, medical jargon, long sentences) [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1109/HICSS.2013.150\" count=\"1\">1</citation>,<citation rid=\"ref11\" ref-type=\"bibr\" medline=\"21347002\" pmid=\"21347002\" pmcid=\"PMC3041424\" count=\"1\">11</citation>,<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.3115/v1/w14-1207\" count=\"1\">12</citation>,<citation rid=\"ref14\" ref-type=\"bibr\" doi=\"10.2196/jmir.2569\" medline=\"23903235\" pmid=\"23903235\" pmcid=\"PMC3742397\" count=\"1\">14</citation>,<citation rid=\"ref18\" ref-type=\"bibr\" doi=\"10.1145/2110363.2110452\" count=\"1\">18</citation>,<citation rid=\"ref19\" ref-type=\"bibr\" medline=\"29678056\" pmid=\"29678056\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "However, without a comprehensive understanding of the complexity difference between professional health language and consumer health language (CHL), current automated simplification approaches are inadequate to accurately determine what needs to be simplified and to what extent they should be simplified. <sentence_start/>Also, current simplification approaches assume that consumers share the same CHL preferences and that simplifying text to its lowest complexity can satisfy all users. <sentence_start/>For example, in synonym replacement tasks, researchers typically identify difficult medical words and then replace them with easier synonyms [<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.3115/v1/w14-1207\" count=\"1\">12</citation>,<citation rid=\"ref19\" ref-type=\"bibr\" medline=\"29678056\" pmid=\"29678056\" count=\"1\">19</citation>]. <sentence_start/>These one-size-fits-all automated simplification approaches ignore the diverse simplification needs of different health customers. <sentence_start/>Research suggests that consumers with varying health literacy levels have different CHL preferences [<citation rid=\"ref20\" ref-type=\"bibr\" doi=\"10.1186/s12911-014-0103-9\" medline=\"25433489\" pmid=\"25433489\" pmcid=\"PMC4260191\" count=\"1\">20</citation>-<citation rid=\"ref22\" ref-type=\"bibr\" doi=\"10.3109/17538157.2014.948171\" medline=\"25710808\" pmid=\"25710808\" count=\"1\">22</citation>]. <sentence_start/>In addition, contextual and sociocultural factors are found to affect the language preferences of different consumer groups to think, express, and communicate health-related topics [<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1197/jamia.M1761\" medline=\"16221948\" pmid=\"16221948\" pmcid=\"PMC1380193\" count=\"1\">3</citation>]. <sentence_start/>For example, compared with average health consumers, cancer patients would be more familiar with cancer-related professional health terms (eg, genetic predisposition). <sentence_start/>Another drawback of this one-size-fits-all approach is that simplifying health content by replacing terms with lay alternatives with the lowest complexity may affect information accuracy and may inadvertently increase the length of the text [<citation rid=\"ref23\" ref-type=\"bibr\" doi=\"10.14569/specialissue.2014.040109\" count=\"1\">23</citation>]. <sentence_start/>In other words, an adaptive simplification approach that can balance simplicity, accuracy, and sentence length for user groups with various CHL preferences is ideal."
+  },
+  {
+   "section": "article",
+   "text": "In this paper, CHL has been defined as a system of vocabularies, expressions, and grammar that is commonly used by a group of health consumers in thinking, expressing, and communicating their health-related topics. <sentence_start/>CHL complexity is defined as a combined measure of varying linguistic metrics, each of which quantifies the complexity of one linguistic feature of a CHL (eg, semantics, syntax, term). <sentence_start/>The goal of adaptive health text simplification is to simplify the professional health language used in Web-based health content to match the CHL complexities of targeted consumer groups. <sentence_start/>To quantify the CHL complexity differences for simplification purposes, the linguistic complexities of CHLs used by various health consumer groups should be investigated. <sentence_start/>The increasing availability of user-generated Web-based health communications (eg, blogs, online communities, social question and answer [Q&amp;A] websites), provides us with ample opportunities to assess CHL complexity through automated text analysis [<citation rid=\"ref2\" ref-type=\"bibr\" medline=\"18999004\" pmid=\"18999004\" pmcid=\"PMC2656083\" count=\"1\">2</citation>,<citation rid=\"ref7\" ref-type=\"bibr\" doi=\"10.1016/j.jbi.2017.03.016\" medline=\"28359728\" pmid=\"28359728\" pmcid=\"PMC5488691\" count=\"1\">7</citation>,<citation rid=\"ref24\" ref-type=\"bibr\" doi=\"10.1109/bibm.2017.8217846\" count=\"1\">24</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Studies focused on health readability assessment typically quantify the complexity of Web-based health content written by health professionals for health consumers [<citation rid=\"ref25\" ref-type=\"bibr\" medline=\"15360936\" pmid=\"15360936\" count=\"1\">25</citation>-<citation rid=\"ref27\" ref-type=\"bibr\" doi=\"10.1016/j.jclinane.2015.02.005\" medline=\"25912728\" pmid=\"25912728\" count=\"1\">27</citation>]. <sentence_start/>Researchers have developed complexity metrics that utilize a combination of various extracted linguistic features to assess the complexity of Web-based health content [<citation rid=\"ref9\" ref-type=\"bibr\" medline=\"18999150\" pmid=\"18999150\" pmcid=\"PMC2655974\" count=\"1\">9</citation>,<citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.1109/MITP.2016.50\" medline=\"27698611\" pmid=\"27698611\" pmcid=\"PMC5044755\" count=\"1\">13</citation>,<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>The metrics utilized in previous literature can be categorized into 4 groups, namely, text-level complexity (eg, syllables per word) [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>,<citation rid=\"ref28\" ref-type=\"bibr\" medline=\"18693870\" pmid=\"18693870\" pmcid=\"PMC2655856\" count=\"1\">28</citation>], syntax-level complexity (eg, distributions of parts of speech [POS]) [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>,<citation rid=\"ref29\" ref-type=\"bibr\" count=\"1\">29</citation>], term-level complexity (eg, density of professional medical terms) [<citation rid=\"ref15\" ref-type=\"bibr\" medline=\"18998902\" pmid=\"18998902\" pmcid=\"PMC2656067\" count=\"1\">15</citation>,<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>], and semantic-level complexity (eg, diversity of semantics) [<citation rid=\"ref15\" ref-type=\"bibr\" medline=\"18998902\" pmid=\"18998902\" pmcid=\"PMC2656067\" count=\"1\">15</citation>]. <sentence_start/>Examining how these linguistic features differ among various CHLs can help us gain a more accurate and comprehensive understanding of CHL complexity."
+  },
+  {
+   "section": "article",
+   "text": "Objectives"
+  },
+  {
+   "section": "article",
+   "text": "In this proof-of-concept study, we developed an informatics framework (consumer health language complexity [CHELC]) to assess CHL complexity based on existing health text readability metrics and apply this framework to explore complexity differences in CHL in 3 online forums designed for the general public, deaf and hearing-impaired people, and people with autism spectrum disorder (ASD). <sentence_start/>In previous studies, the latter 2 groups have been found to have relatively low health literacy [<citation rid=\"ref30\" ref-type=\"bibr\" doi=\"10.1080/10810730.2015.1066468\" medline=\"26513036\" pmid=\"26513036\" pmcid=\"PMC4714330\" count=\"1\">30</citation>-<citation rid=\"ref33\" ref-type=\"bibr\" doi=\"10.1007/s00127-008-0485-z\" medline=\"19096742\" pmid=\"19096742\" count=\"1\">33</citation>], different language use behaviors [<citation rid=\"ref34\" ref-type=\"bibr\" doi=\"10.1145/2479787.2479808\" count=\"1\">34</citation>,<citation rid=\"ref35\" ref-type=\"bibr\" doi=\"10.1016/j.ridd.2004.05.003\" medline=\"15590247\" pmid=\"15590247\" count=\"1\">35</citation>], and limited access to adaptive health information services [<citation rid=\"ref36\" ref-type=\"bibr\" doi=\"10.1007/s13187-016-1059-5\" medline=\"27271268\" pmid=\"27271268\" pmcid=\"PMC5145779\" count=\"1\">36</citation>]. <sentence_start/>People with ASD were found to be repetitive and expressive by composing long sentences and words on the Web [<citation rid=\"ref35\" ref-type=\"bibr\" doi=\"10.1016/j.ridd.2004.05.003\" medline=\"15590247\" pmid=\"15590247\" count=\"1\">35</citation>,<citation rid=\"ref37\" ref-type=\"bibr\" doi=\"10.1111/1469-7610.00502\" medline=\"10509879\" pmid=\"10509879\" count=\"1\">37</citation>,<citation rid=\"ref38\" ref-type=\"bibr\" doi=\"10.1108/17549450200900015\" count=\"1\">38</citation>]. <sentence_start/>Pollard and Barnett [<citation rid=\"ref39\" ref-type=\"bibr\" doi=\"10.1037/a0015771\" medline=\"19469608\" pmid=\"19469608\" count=\"1\">39</citation>] found that even highly educated deaf adults showed significant difficulty in understanding health vocabularies used in the Rapid Estimate of Adult Literacy in Medicine test. <sentence_start/>In addition, compared with the general population, deaf and hearing-impaired people exhibit significantly lower levels of health literacy and health knowledge [<citation rid=\"ref32\" ref-type=\"bibr\" doi=\"10.1080/10810730.2016.1179368\" medline=\"27548284\" pmid=\"27548284\" pmcid=\"PMC5073377\" count=\"1\">32</citation>]. <sentence_start/>Accordingly, ASD and deaf and hearing-impaired user groups might use less complex CHL, especially less complex health terms in their expressions. <sentence_start/>Motivated by these observations, in this study, we explore the use of different measures to assess CHL complexity and provide insights for the development of adaptive health text simplification tools to address the needs of various consumer groups."
+  },
+  {
+   "section": "article",
+   "text": "We formulated 2 research questions (RQs) in this study:"
+  },
+  {
+   "section": "article",
+   "text": "RQ1: What is the feasibility of using CHELC, which combines text-level, syntax-level, term-level, and semantic-level measures for examining CHL complexity among users in 3 distinct online forums designed for the general public, people with ASD, and deaf and hearing-impaired people?"
+  },
+  {
+   "section": "article",
+   "text": "RQ2: How do the CHLs of users in online forums designed for the general public, people with ASD, and deaf and hearing-impaired people differ in complexity on the text level, syntax level, term level, and semantic level?"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Consumer Health Language Complexity Measurement Framework"
+  },
+  {
+   "section": "article",
+   "text": "We built CHELC to incorporate a comprehensive array of linguistic complexity metrics developed in previous research. <sentence_start/>In this framework, we incorporated metrics of text-level, syntax-level, term-level, and semantic-level CHELC scores (CHELCS) to compare various CHLs through a rank-based algorithm. <sentence_start/>The overall complexity of CHL (CHELCS<sub>overall</sub>) was defined as the average value of 4 complexity scores."
+  },
+  {
+   "section": "article",
+   "text": "We systematically reviewed the metrics that have been utilized in health readability and complexity assessment studies and comprehensively included credible metrics from all facets of linguistic measures. <sentence_start/>We performed the search on PubMed using the search terms of <italic toggle=\"yes\">health readability</italic> to retrieve relevant articles and abstracts, which returned 3605 full-text articles to be screened. <sentence_start/>After excluding duplicates, non-English articles, and articles not about health readability evaluation or assessment, 9 studies with different assessment metrics were identified (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Considering the overlap between lay and professional health terms, we proposed to use the ratio of core professional term coverage, which is the percentage of health terms that are in the Systematized Nomenclature of Medicine-Clinical Terms (SNOMED-CT) but not in consumer health vocabulary (CHV). <sentence_start/>In total, we included 8 metrics for text-level, syntax-level, term-level, and semantic-level complexity measurements in the proposed framework CHELC (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Consumer health language complexity measurement framework (CHELC)."
+  },
+  {
+   "section": "article",
+   "text": "Text-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "Text-level complexity utilizes the length of lexical units (eg, words, sentences, paragraphs) to indicate the lexical complexity of health texts. <sentence_start/>The unit may change depending on whether the length is applied to words (average number of syllables/characters per word) [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>], sentences (average words per sentence) [<citation rid=\"ref28\" ref-type=\"bibr\" medline=\"18693870\" pmid=\"18693870\" pmcid=\"PMC2655856\" count=\"1\">28</citation>], or paragraphs (average sentences per paragraph) [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>As a commonly used metric, it assumes that longer lexical units require more cognitive loads, thereby making the text more complex. <sentence_start/>Most studies have utilized one or more readability formulas (eg, the Flesch-Kincaid grade level [F-K] and Simple Measure of Gobbledygook [SMOG]) to assess text-level complexity, in which word length or sentence length are considered in the grade level ranking or level of difficulty of the health texts [<citation rid=\"ref10\" ref-type=\"bibr\" doi=\"10.1002/asi.20837\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For text-level complexity, we applied F-K [<citation rid=\"ref43\" ref-type=\"bibr\" count=\"1\">43</citation>] and SMOG [<citation rid=\"ref44\" ref-type=\"bibr\" count=\"1\">44</citation>] to quantify the text-level complexity of CHL. <sentence_start/>The F-K formula assigned a grade level to indicate the minimum schooling (grade) readers should have to understand the text. <sentence_start/>The formula assumes that the higher the average number of syllables and words per sentence there are, the more complex the text is [<citation rid=\"ref43\" ref-type=\"bibr\" count=\"1\">43</citation>]. <sentence_start/>A grade lower than 5.0 indicates that the text is very easy to comprehend. <sentence_start/>A grade higher than 12.0 indicates greater difficulty and reading level that requires a college degree or above. <sentence_start/>Similarly, the SMOG formula considers the number of polysyllabic words [<citation rid=\"ref44\" ref-type=\"bibr\" count=\"1\">44</citation>]. <sentence_start/>Essentially, the more polysyllabic words, the higher the SMOG score, and the more difficult the texts are."
+  },
+  {
+   "section": "article",
+   "text": "Syntax-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "Syntax-level complexity utilizes POS distribution to evaluate the complexity of health texts [<citation rid=\"ref29\" ref-type=\"bibr\" count=\"1\">29</citation>]. <sentence_start/>In general, there are 10 commonly used POS types in English, which can be categorized into content words (ie, noun, adjective, verb, adverb) and functional words (ie, pronoun, determiner, preposition, qualifier, conjunction, interjection). <sentence_start/>Every word in the health text can be assigned a POS tag. <sentence_start/>A higher proportion of noun words or content words indicates more complex health texts [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>Accordingly, we calculated the ratio of (1) noun words to all POS words and (2) content words to functional words used by each user. <sentence_start/>We assume that the higher the ratio is, the more complex the CHL is."
+  },
+  {
+   "section": "article",
+   "text": "Term-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "Term-level complexity focuses on the complexity related to the density of professional or lay terms (eg, <italic toggle=\"yes\">myocardial infarction</italic> vs <italic toggle=\"yes\">heart attack</italic>). <sentence_start/>According to health readability research, the more professional terms and fewer lay terms there are, the more complex are the health texts [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>By mapping terms to existing controlled vocabularies, previous studies have typically measured the term-level complexity with the prevalence of professional terms or lay terms [<citation rid=\"ref6\" ref-type=\"bibr\" doi=\"10.1197/jamia.M2744\" medline=\"18436895\" pmid=\"18436895\" pmcid=\"PMC2442255\" count=\"1\">6</citation>,<citation rid=\"ref15\" ref-type=\"bibr\" medline=\"18998902\" pmid=\"18998902\" pmcid=\"PMC2656067\" count=\"1\">15</citation>,<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>Other studies have also utilized the familiarity scores of consumer health terms (provided in CHV) and term cohesiveness (ie, distinct word count or overlapped term ratio) to measure the term-level complexity [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>,<citation rid=\"ref28\" ref-type=\"bibr\" medline=\"18693870\" pmid=\"18693870\" pmcid=\"PMC2655856\" count=\"1\">28</citation>,]."
+  },
+  {
+   "section": "article",
+   "text": "To assess the term-level complexity of the health text, we first used the text processing and entity recognition tool MetaMap [<citation rid=\"ref45\" ref-type=\"bibr\" medline=\"11825149\" pmid=\"11825149\" pmcid=\"PMC2243666\" count=\"1\">45</citation>] to extract health terms that belong to 84 out of 127 semantic types in the Unified Medical Language System (UMLS, a compendium of over 190 medical controlled vocabularies) that are relevant to biomedicine, health, and nutrition [<citation rid=\"ref46\" ref-type=\"bibr\" doi=\"10.1093/nar/gkh061\" medline=\"14681409\" pmid=\"14681409\" pmcid=\"PMC308795\" count=\"1\">46</citation>,<citation rid=\"ref47\" ref-type=\"bibr\" doi=\"10.1055/s-0038-1634592\" medline=\"9082131\" pmid=\"9082131\" count=\"1\">47</citation>]. <sentence_start/>Then we evaluated the density of professional terms and lay terms by mapping our extracted health terms to 2 controlled vocabularies in the UMLS: CHV and SNOMED-CT. <sentence_start/>CHV contains a collection of lay health concepts and expressions commonly used by health consumers in their everyday communications [<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1197/jamia.M1761\" medline=\"16221948\" pmid=\"16221948\" pmcid=\"PMC1380193\" count=\"1\">3</citation>]. <sentence_start/>We used the 2015AA version, which includes the latest version of CHV with over 116,324 terms [<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1197/jamia.M1761\" medline=\"16221948\" pmid=\"16221948\" pmcid=\"PMC1380193\" count=\"1\">3</citation>]. <sentence_start/>SNOMED-CT is the world’s largest standardized vocabulary of clinical and medical terms mostly used in health information systems such as electronic health records [<citation rid=\"ref48\" ref-type=\"bibr\" medline=\"17095826\" pmid=\"17095826\" count=\"1\">48</citation>-<citation rid=\"ref50\" ref-type=\"bibr\" count=\"1\">50</citation>]. <sentence_start/>In this study, CHV was used to evaluate the usage of lay health terms, whereas SNOMED-CT terms were referred to as professional terms. <sentence_start/>We developed the following 3 measures to evaluate term-level complexity:"
+  },
+  {
+   "section": "article",
+   "text": "Prevalence of professional terms: we used the ratio of professional terms (number of distinct SNOMED-CT terms) to all health-related terms (number of distinct health terms) to measure the density of professional terms used by each user in a health corpus. <sentence_start/>We assumed that the higher the ratio is, the more complex is the CHL."
+  },
+  {
+   "section": "article",
+   "text": "Prevalence of core professional terms: we first excluded CHV terms from SNOMED-CT terms to obtain the core professional terms (professional health terms that are not commonly used by laypersons), and used the ratio of core professional terms to all health-related terms to measure the density of core professional terms used by each user in a health corpus. <sentence_start/>We assumed that the higher the ratio is, the more complex is the CHL."
+  },
+  {
+   "section": "article",
+   "text": "Familiarity score of CHV terms: it refers to the familiarity of each CHV term to laypersons [<citation rid=\"ref17\" ref-type=\"bibr\" doi=\"10.2196/jmir.9.1.e5\" medline=\"17478414\" pmid=\"17478414\" pmcid=\"PMC1874513\" count=\"1\">17</citation>]. <sentence_start/>It is also referred to as the combo score in CHV, which combines frequency score (term difficulty based on its frequency in several large text corpora), context score (term difficulty based on its context), and Concept Unique Identifier score (term difficulty derived from how it is close to well-known easy and difficult concepts in the UMLS). <sentence_start/>We used a modified combo score that ignores easy words from the Dale-Chall list [<citation rid=\"ref17\" ref-type=\"bibr\" doi=\"10.2196/jmir.9.1.e5\" medline=\"17478414\" pmid=\"17478414\" pmcid=\"PMC1874513\" count=\"1\">17</citation>,<citation rid=\"ref51\" ref-type=\"bibr\" count=\"1\">51</citation>]. <sentence_start/>The higher the score is, the easier the term is. <sentence_start/>We calculated the average familiarity score of terms written by each user. <sentence_start/>We assumed that users using more complex CHL have a relatively low average familiarity score for the CHV terms."
+  },
+  {
+   "section": "article",
+   "text": "Semantic-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "Semantic-level complexity refers to the complexity of the diversity of the semantics of health texts. <sentence_start/>Previous studies have found that if the health text includes more diverse health topics, it is more complex [<citation rid=\"ref10\" ref-type=\"bibr\" doi=\"10.1002/asi.20837\" count=\"1\">10</citation>]. <sentence_start/>Operationally, the coverage of semantic types in the UMLS was accounted for semantic-level complexity [<citation rid=\"ref47\" ref-type=\"bibr\" doi=\"10.1055/s-0038-1634592\" medline=\"9082131\" pmid=\"9082131\" count=\"1\">47</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "We extracted the health terms using MetaMap and counted the average distinct semantic types of the terms used in CHL. <sentence_start/>We assume that if a user mentioned more distinct semantic types, his or her CHL is more complex."
+  },
+  {
+   "section": "article",
+   "text": "Consumer Health Language Complexity Scores"
+  },
+  {
+   "section": "article",
+   "text": "We regarded CHL complexity as a 4-faceted variable, which includes metrics related to text-level, syntax-level, term-level, and semantic-level complexity. <sentence_start/>Each corpus was represented by a vector of 8 metrics for complexity computation. <sentence_start/>The values of all 8 metrics were generated for every user in the health corpus."
+  },
+  {
+   "section": "article",
+   "text": "For each metric, the values for users in all health corpora were ranked [<citation rid=\"ref52\" ref-type=\"bibr\" doi=\"10.1109/cvprw.2016.139\" count=\"1\">52</citation>,<citation rid=\"ref53\" ref-type=\"bibr\" doi=\"10.2308/accr.2003.78.1.275\" count=\"1\">53</citation>] using the same mechanism of Wu et al [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>In other words, the ranking value for each metric for users was indicated as the complexity differences among users [<citation rid=\"ref54\" ref-type=\"bibr\" count=\"1\">54</citation>,<citation rid=\"ref55\" ref-type=\"bibr\" count=\"1\">55</citation>]. <sentence_start/>Except for the familiarity score of CHV terms, the higher the metric value is, the more complex the user’s health language is. <sentence_start/>It should be noted that we ranked the familiarity score of CHV terms in reverse order. <sentence_start/>All the missing values of metrics were replaced by the mean of the corresponding metric."
+  },
+  {
+   "section": "article",
+   "text": "In this proof-of-concept study, each metric in a facet was regarded to contribute equally to the complexity score of that facet. <sentence_start/>As there is no agreed-upon definition of health text complexity, each facet has equal weight when calculating the overall complexity score (CHELCS<sub>overall</sub>). <sentence_start/>The idea of aggregating the metrics is that described by Wu et al [<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>]. <sentence_start/>We aggregated the ranks of metrics for each facet using standard aggregate functions with the same weights [<citation rid=\"ref56\" ref-type=\"bibr\" doi=\"10.1145/3132847.3133192\" count=\"1\">56</citation>]. <sentence_start/>Other researchers can use different weights for each metric or facet based on their definitions of CHL complexity."
+  },
+  {
+   "section": "article",
+   "text": "Let <italic toggle=\"yes\">f<sub>ij</sub></italic> be the <italic toggle=\"yes\">j<sup>th</sup></italic> observed metric value of the <italic toggle=\"yes\">i<sup>th</sup></italic> facet and <italic toggle=\"yes\">f’<sub>ij</sub></italic> be the <italic toggle=\"yes\">j<sup>th</sup></italic> observed metric value of the specific user whose complexity is calculated in the <italic toggle=\"yes\">i<sup>th</sup></italic> facet."
+  },
+  {
+   "section": "article",
+   "text": "The formula of CHELCS<sub>overall</sub> for every user in the health corpora was as follows:"
+  },
+  {
+   "section": "article",
+   "text": "We defined <italic toggle=\"yes\">r<sub>ij</sub></italic>, the rank of the <italic toggle=\"yes\">j<sup>th</sup></italic> metric of the <italic toggle=\"yes\">i<sup>th</sup></italic> facet, as the number of users whose <italic toggle=\"yes\">f<sub>ij</sub></italic> is not greater (not smaller for metric <italic toggle=\"yes\">familiarity score of CHV terms</italic>) than <italic toggle=\"yes\">f’<sub>ij</sub></italic><sub>.</sub> <sentence_start/>Note that <italic toggle=\"yes\">m</italic> represents the number of facets, <italic toggle=\"yes\">n<sub>i</sub></italic> represents the number of metrics in the <italic toggle=\"yes\">i<sup>th</sup></italic> facet, and <italic toggle=\"yes\">N</italic> is the total number of users."
+  },
+  {
+   "section": "article",
+   "text": "We calculated the aggregated rank of the metrics for all facets of CHL complexity. <sentence_start/>We defined <italic toggle=\"yes\">r<sub>ij</sub></italic>/<italic toggle=\"yes\">N</italic> as the normalized rank ranging from 0 to 1. <sentence_start/>Then the aggregated complexity score of the <italic toggle=\"yes\">i<sup>th</sup></italic> facet is calculated as . <sentence_start/>The overall complexity score of all facets is calculated as , which is used to represent the overall CHL complexity of every user. <sentence_start/>All CHELCS range from 0 to 1, and the higher score means the responding user has more complex CHL complexity in all health corpora."
+  },
+  {
+   "section": "article",
+   "text": "Data Collection"
+  },
+  {
+   "section": "article",
+   "text": "We utilized CHELC, a complexity measure framework that combines text-level (CHELCS<sub>text</sub>), syntax-level (CHELCS<sub>syntax</sub>), term-level (CHELCS<sub>term</sub>), semantic-level (CHELCS<sub>semantic</sub>), and overall (CHELCS<sub>overall</sub>) complexity scores, to compare the CHLs used in online forums targeting 3 user groups: general public, people with ASD, and deaf and hearing-impaired people. <sentence_start/>We collected data from various online discussion boards and social media to represent the CHL use of our groups of interest. <sentence_start/>All 3 data sources in this study were chosen because of their popularity in our interest groups and the convenience of data collection."
+  },
+  {
+   "section": "article",
+   "text": "We chose AllDeaf [<citation rid=\"ref57\" ref-type=\"bibr\" count=\"1\">57</citation>], a leading online community for deaf and hearing-impaired people who can communicate in English. <sentence_start/>As of June 2017, AllDeaf had 63,566 members and 114,801 threads. <sentence_start/>This community has 22 forums in which people can communicate different aspects of everyday life concerns related to deafness, such as sign language, assistive technologies, and health. <sentence_start/>The majority of the health-related issues are discussed in the forum <italic toggle=\"yes\">Lifestyle, Health, Fitness &amp; Food</italic>. <sentence_start/>After manually removing the threads that were unrelated to health (eg, food recipes), we retained 1639 threads and 31,006 posts from that forum, which includes health discussions from 2005 to 2016."
+  },
+  {
+   "section": "article",
+   "text": "Another data source was Wrong Planet [<citation rid=\"ref58\" ref-type=\"bibr\" count=\"1\">58</citation>], which is the main English-language online community developed for people with ASD to discuss everyday life topics. <sentence_start/>It has 37,350 members and 290,067 threads. <sentence_start/>Similar to AllDeaf, Wrong Planet has 29 forums. <sentence_start/>Their users mainly discuss health-related topics in the forum <italic toggle=\"yes\">Health, Fitness &amp; Sports</italic>. <sentence_start/>After manually removing unrelated threads in that forum, we obtained 2816 threads and 31,194 posts, covering health discussions from 2004 to 2017."
+  },
+  {
+   "section": "article",
+   "text": "To represent the use of health language by general health consumers, we selected general health discussions in Yahoo! Answers, which is one of the most popular social Q&amp;A sites used by people to discuss health and other life topics. <sentence_start/>To make the sample size comparable to those collected from AllDeaf and Wrong Planet, we generated a random sample of 8000 questions and their respective answers in the health category, resulting in 34,048 posts from 2009 to 2014."
+  },
+  {
+   "section": "article",
+   "text": "Data Processing and Analysis"
+  },
+  {
+   "section": "article",
+   "text": "We extracted health-related posts in the 3 forums and calculated CHELCS for each user using text-level (CHELCS<sub>text</sub>), syntax-level (CHELCS<sub>syntax</sub>), term-level (CHELCS<sub>term</sub>), semantic-level (CHELCS<sub>semantic</sub>), and overall (CHELCS<sub>overall</sub>) complexity. <sentence_start/>As it is not feasible to analyze behavioral patterns for users contributing to few discussions, we only analyzed posts from users who contributed more than 4 sentences per post on average. <sentence_start/>For the term-level analysis, we only included users who used more than 20 distinct health terms per post. <sentence_start/>For text- and syntax-level metrics, we generated the scores for each post through a Web-based readability measurement tool [<citation rid=\"ref59\" ref-type=\"bibr\" count=\"1\">59</citation>] and then calculated the complexity score for each user in the 3 corpora using a rank-based algorithm. <sentence_start/>For the term coverage and semantic analysis, we analyzed the data in MySQL (Oracle Corporation) and Microsoft Excel. <sentence_start/>We visualized the distributions using CHELCS<sub>text</sub>, CHELCS<sub>syntax</sub>, CHELCS<sub>term</sub>, CHELCS<sub>semantic</sub>, and CHELCS<sub>overall</sub> for users in each group in Microsoft Excel. <sentence_start/>Then we employed a 2-sample Kolmogorov-Smirnov test (K-S test) to determine if the CHELCS of the various groups were significantly different. <sentence_start/>We conducted an analysis of covariance (ANCOVA) to control for possible impacts of sentence number per post on CHELCS when comparing CHL complexity scores of the 3 groups. <sentence_start/>More detailed comparison results of 3 groups in 8 metrics were presented in Multimedia Appendix 1, and correlations of CHELCS scores were analyzed in Multimedia Appendix 2. <sentence_start/>K-S test and ANCOVA were performed in R software (The R Foundation for Statistical Computing)."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Basic Characteristics of the Corpora"
+  },
+  {
+   "section": "article",
+   "text": "As seen in Table 2, although we extracted similar numbers of posts from the 3 corpora regardless of the number of sentences, the numbers of posts with more than 4 sentences were different among the 3 groups. <sentence_start/>Compared with the other online forums, Yahoo! Answers had the fewest number of posts, the most threads, and involved the most users, but had the least number of distinct health terms contributed by the average user. <sentence_start/>This might be because of the differences between specialized online forums that are closed communities and general social Q&amp;A sites that are open to the public [<citation rid=\"ref60\" ref-type=\"bibr\" count=\"1\">60</citation>]. <sentence_start/>However, the 3 corpora did not have major differences in the number of sentences, sentence lengths, and word lengths, implying that platform differences would not significantly impact the overall CHL used in each community. <sentence_start/>The 3 user groups shared 68 out of 84 health semantic types in the UMLS."
+  },
+  {
+   "section": "article",
+   "text": "Text-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "The CHELCS<sub>text</sub>, which ranges from 0 to 1, indicates the text-level complexity ranking of the individual user among all users in the 3 online forums. <sentence_start/>Figure 2 shows the distribution of text-level complexity scores of users in 3 corpora."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Text-level complexity comparison for users in the 3 health corpora. <sentence_start/>ASD: autism spectrum disorder."
+  },
+  {
+   "section": "article",
+   "text": "The 2-sample K-S test results indicate CHELCS<sub>text</sub> scores of people with ASD, deaf and hearing-impaired people, and the general public were significantly different (D<sub>d-a</sub>=0.332, <italic toggle=\"yes\">P</italic><sub>d-a</sub>&lt;.001; D<sub>d-p</sub>=0.108, <italic toggle=\"yes\">P</italic><sub>d-p</sub>&lt;.001; D<sub>a-p</sub>=0.228, <italic toggle=\"yes\">P</italic><sub>a-p</sub>&lt;.001 [d-a refers to score comparison between <italic toggle=\"yes\">CHELCS<sub>text</sub> of deaf and hearing-impaired users</italic> and <italic toggle=\"yes\">CHELCS<sub>text</sub> of users with ASD</italic>; d-p refers to score comparison between <italic toggle=\"yes\">CHELCS<sub>text</sub> of the deaf and hearing-impaired users</italic> and <italic toggle=\"yes\">CHELCS<sub>text</sub> of the general public</italic>; a-p refers to score comparison between <italic toggle=\"yes\">CHELCS<sub>text</sub> of users</italic> <italic toggle=\"yes\">with ASD</italic> and <italic toggle=\"yes\">CHELCS<sub>text</sub> of the general public</italic>] ). <sentence_start/>As seen in Figure 2, most deaf and hearing-impaired users wrote texts with lower complexity, whereas users with ASD used more complex texts in their posts. <sentence_start/>General public users did not significantly differ in their use of polysyllabic words."
+  },
+  {
+   "section": "article",
+   "text": "After controlling for the number of sentences per post, the ANCOVA results (<italic toggle=\"yes\">F</italic><sub>2</sub>=304.5; <italic toggle=\"yes\">P</italic>&lt;.001) show that users with ASD (mean 0.606) used significantly more complex texts than the other 2 groups (<italic toggle=\"yes\">P</italic>&lt;.001) and the general public used significantly more complex texts (mean 0.473) than those in the deaf and hearing-impaired group (mean 0.431; <italic toggle=\"yes\">P</italic>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "Syntax-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "The CHELCS<sub>syntax</sub> indicates complexity ranking related to the prevalence of content words, especially nouns. <sentence_start/>As seen in Figure 3, the peak CHELCS<sub>syntax</sub> scores for deaf and hearing-impaired users ranged from 0.6 to 0.7, whereas the peak CHELCS<sub>syntax</sub> scores for users with ASD ranged from 0.4 to 0.5. <sentence_start/>Regarding general public users, they did not show a clear syntax complexity preference. <sentence_start/>The two-sample K-S tests indicate that CHELCS<sub>syntax</sub> scores were significantly different (D<sub>d-a</sub>=0.108, <italic toggle=\"yes\">P</italic><sub>d-a</sub>&lt;.001; D<sub>d-p</sub>=0.153, <italic toggle=\"yes\">P</italic><sub>d-p</sub>&lt;.001; D<sub>a-p</sub>=0.098, <italic toggle=\"yes\">P</italic><sub>a-p</sub>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "After controlling for the number of sentences per post, the results (<italic toggle=\"yes\">F</italic><sub>2</sub>=19.206; <italic toggle=\"yes\">P</italic>&lt;.001) show that deaf and hearing-impaired users used (mean 0.551) significantly more complex syntax than those in the other 2 groups (<italic toggle=\"yes\">P</italic>&lt;.001), whereas usage of complex syntax was not significantly different between users with ASD (mean 0.506) and the general public (mean 0.494; <italic toggle=\"yes\">P</italic>=.07)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Syntax-level complexity comparison for users in the 3 health corpora. <sentence_start/>ASD: autism spectrum disorder."
+  },
+  {
+   "section": "article",
+   "text": "Term-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "The CHELCS<sub>term</sub> focuses on the complexity of the health terms used in each forum. <sentence_start/>As seen in Figure 4, bimodal distributions were observed in all 3 corpora. <sentence_start/>Most general public users had relatively higher CHELCS<sub>term</sub> ranging from 0.2 to 0.9, whereas most users in the other 2 groups had complexity scores lower than 0.7. <sentence_start/>The two-sample K-S test results indicate that the CHELCS<sub>term</sub> scores of users with ASD, deaf and hearing-impaired, and general public users were significantly different in the prevalence of professional terms (D<sub>d-a</sub>=0.208, <italic toggle=\"yes\">P</italic><sub>d-a</sub>=.009; D<sub>d-p</sub>=0.523, <italic toggle=\"yes\">P</italic><sub>d-p</sub>&lt;.001; D<sub>a-p</sub>=0.590, <italic toggle=\"yes\">P</italic><sub>a-p</sub>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Term-level complexity comparison for users in the 3 health corpora. <sentence_start/>ASD: autism spectrum disorder."
+  },
+  {
+   "section": "article",
+   "text": "After controlling for the number of sentences per post, the ANCOVA results (<italic toggle=\"yes\">F</italic><sub>2</sub>=3822.320; <italic toggle=\"yes\">P</italic>&lt;.001) show that the general public users (mean 0.568) used significantly more complex health terms than those in the other 2 groups (<italic toggle=\"yes\">P</italic>&lt;.001), and deaf and hearing-impaired users (mean 0.370) used more complex terms than users with ASD (mean 0.316; <italic toggle=\"yes\">P</italic>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "Semantic-Level Complexity"
+  },
+  {
+   "section": "article",
+   "text": "The CHELCS<sub>semantic</sub> indicates the diversity of semantic types. <sentence_start/>Figure 5 shows the distribution of the semantic-level complexity scores in the 3 groups. <sentence_start/>The two-sample K-S test results indicate that the CHELCS<sub>semantic</sub> scores for the 3 groups were significantly different (D<sub>d-a</sub>=0.141, <italic toggle=\"yes\">P</italic><sub>d-a</sub>&lt;.001; D<sub>d-p</sub>=0.215, <italic toggle=\"yes\">P</italic><sub>d-p</sub>&lt;.001; D<sub>a-p</sub>=0.116, <italic toggle=\"yes\">P</italic><sub>a-p</sub>&lt;.001). <sentence_start/>As all health corpora were from social media platforms, the semantics that people utilized might be more influenced by the context than personal health literacy."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Semantic-level complexity comparison for users in the 3 health corpora. <sentence_start/>ASD: autism spectrum disorder."
+  },
+  {
+   "section": "article",
+   "text": "By controlling the number of sentences per post, results (<italic toggle=\"yes\">F</italic><sub>2</sub>=53.082; <italic toggle=\"yes\">P</italic>&lt;.001) show that, on average, general public users (mean 0.514) used more semantic types than those in the other 2 groups (<italic toggle=\"yes\">P</italic>&lt;.001). <sentence_start/>Users with ASD (mean 0.478) included more semantic types than deaf and hearing-impaired users (mean 0.416; <italic toggle=\"yes\">P</italic>&lt;.001). <sentence_start/>In essence, general public users mentioned more diverse health topics than users with ASD and deaf and hearing-impaired users."
+  },
+  {
+   "section": "article",
+   "text": "Overall Complexity"
+  },
+  {
+   "section": "article",
+   "text": "Figure 6 shows the CHELCS<sub>overall</sub> for users in the 3 forums. <sentence_start/>The two-sample K-S test results indicate that the overall CHL complexity scores for users in the 3 corpora were significantly different (D<sub>d-a</sub>=0.171, <italic toggle=\"yes\">P</italic><sub>d-a</sub>&lt;.001; D<sub>d-p</sub>=0.250, <italic toggle=\"yes\">P</italic><sub>d-p</sub>&lt;.001; D<sub>a-p</sub>=0.129, <italic toggle=\"yes\">P</italic><sub>a-p</sub>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "After controlling the number of sentences for each participant, the ANCOVA result (<italic toggle=\"yes\">F</italic><sub>2</sub>=167.748; <italic toggle=\"yes\">P</italic>&lt;.001) shows that, on average, general public users (mean 0.512) had more complex CHL than the other 2 groups (<italic toggle=\"yes\">P</italic>&lt;.001). <sentence_start/>Users with ASD (mean 0.476) had more complex CHL than deaf and hearing-impaired users (mean 0.442; <italic toggle=\"yes\">P</italic>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Overall complexity comparison for users in the 3 health corpora. <sentence_start/>ASD: autism spectrum disorder."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Principal Findings"
+  },
+  {
+   "section": "article",
+   "text": "As health information on the Web often contains medical jargon and complex sentences, general health consumers often find it hard to search for and understand Web-based health information [<citation rid=\"ref17\" ref-type=\"bibr\" doi=\"10.2196/jmir.9.1.e5\" medline=\"17478414\" pmid=\"17478414\" pmcid=\"PMC1874513\" count=\"1\">17</citation>]. <sentence_start/>We argue that health text complexity measurements need to measure the complexity of various CHLs to inform content providers to tailor health information on the Web for health consumers with varying CHL preferences [<citation rid=\"ref20\" ref-type=\"bibr\" doi=\"10.1186/s12911-014-0103-9\" medline=\"25433489\" pmid=\"25433489\" pmcid=\"PMC4260191\" count=\"1\">20</citation>,<citation rid=\"ref36\" ref-type=\"bibr\" doi=\"10.1007/s13187-016-1059-5\" medline=\"27271268\" pmid=\"27271268\" pmcid=\"PMC5145779\" count=\"1\">36</citation>]. <sentence_start/>To this end, we developed CHELCS to quantify CHL complexity differences. <sentence_start/>We applied this measurement to examine CHL complexity differences of health-related posts in 3 online forums targeting the general public, people with ASD, and deaf and hearing-impaired people. <sentence_start/>In particular, we collected user-generated discussions from 3 online health communities: Yahoo! Answers, Wrong Planet, and AllDeaf. <sentence_start/>We calculated 8 health readability metrics for each post in the 3 online forums, and calculated text-level (CHELCS<sub>text</sub>), syntax-level (CHELCS<sub>syntax</sub>), term-level (CHELCS<sub>term</sub>), semantic-level (CHELCS<sub>semantic</sub>), and overall (CHELCS<sub>overall</sub>) complexity scores. <sentence_start/>We then compared the CHL complexity differences for the 3 user groups based on these 5 complexity scores (CHELCS)."
+  },
+  {
+   "section": "article",
+   "text": "The results supported that CHLs of the 3 user groups were significantly different. <sentence_start/>General public users used more complex health terms and more diverse semantics compared with users with ASD and deaf and hearing-impaired users. <sentence_start/>Consistent with previous findings, users with ASD used words with more syllables, fewer content or noun words, and less complex health terms [<citation rid=\"ref35\" ref-type=\"bibr\" doi=\"10.1016/j.ridd.2004.05.003\" medline=\"15590247\" pmid=\"15590247\" count=\"1\">35</citation>,<citation rid=\"ref38\" ref-type=\"bibr\" doi=\"10.1108/17549450200900015\" count=\"1\">38</citation>]. <sentence_start/>Deaf and hearing-impaired users used more content words or nouns, fewer complex words, and less diverse semantics [<citation rid=\"ref34\" ref-type=\"bibr\" doi=\"10.1145/2479787.2479808\" count=\"1\">34</citation>,<citation rid=\"ref36\" ref-type=\"bibr\" doi=\"10.1007/s13187-016-1059-5\" medline=\"27271268\" pmid=\"27271268\" pmcid=\"PMC5145779\" count=\"1\">36</citation>]. <sentence_start/>CHELCS results indicated that overall, general public users used more complex CHL than those in the other 2 groups. <sentence_start/>Overall, the findings from CHELCS measurement were consistent with previous findings of CHL differences among people with ASD, deaf and hearing-impaired people, and public groups."
+  },
+  {
+   "section": "article",
+   "text": "On the basis of our results, when developing algorithms to simplify health content for different user groups, we need to use more lay health terms for deaf and hearing-impaired users and for users with ASD, less complex words for deaf and hearing-impaired users, and more functional words for users with ASD. <sentence_start/>For example, as the average F-K grade of MedlinePlus articles is around 8 to 10 [<citation rid=\"ref15\" ref-type=\"bibr\" medline=\"18998902\" pmid=\"18998902\" pmcid=\"PMC2656067\" count=\"1\">15</citation>,<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocv062\" medline=\"26269536\" pmid=\"26269536\" pmcid=\"PMC5009924\" count=\"1\">16</citation>], deaf and hearing-impaired users may need more textual simplifications than the other 2 groups."
+  },
+  {
+   "section": "article",
+   "text": "To the best of our knowledge, this is the first framework that harnesses consumer-generated textual data to assess the complexity of language that they are comfortable using in their health communications. <sentence_start/>An understanding of the various CHL complexities of different user groups can provide better insights for the development of adaptive readability assessment tools and adaptive text simplification services."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "Some limitations should be noted. <sentence_start/>We could not filter out all the users who are not deaf and hearing impaired or users with ASD, which might affect our findings of the 3 user groups to a certain extent. <sentence_start/>The data were collected from 3 nontopic-specific health forums. <sentence_start/>The impact of health topics on text complexity was not controlled in this exploratory study. <sentence_start/>For example, CHLs by patients with chronic conditions may be more complex than the average healthy consumers. <sentence_start/>As the average user contributed little text content in the forums, the findings might not fully depict the language complexity preference of each user. <sentence_start/>More datasets, such as patient blogs and social media, need to be explored in future studies."
+  },
+  {
+   "section": "article",
+   "text": "In this proof-of-concept study, the framework CHELC was developed with 8 metrics validated in previous health readability studies to compare CHL complexity differences. <sentence_start/>Although these metrics have been validated in previous studies, to the best of our knowledge, they have not been used to compare CHLs of different consumer groups. <sentence_start/>With a lack of research in this field, there is no agreed-upon definition of CHL complexity with respect to different aspects. <sentence_start/>Therefore, we cannot find a ground truth dataset or standard to validate CHELCS when estimating CHL complexity differences. <sentence_start/>In this exploratory study, the evaluation of CHELCS was based on previous research findings of the 3 groups in terms of their language complexity preferences. <sentence_start/>Although our results were consistent with previous findings, this framework and complexity scores are more informative than conclusive. <sentence_start/>For example, the scores will be different if more metrics are included in this framework, or if the weights of different metrics are defined differently. <sentence_start/>Also, to more accurately estimate adaptive simplification efforts, it is critical that future studies further assess the CHELCS difference between Web-based consumer health information sources and various CHLs."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "The results of this study demonstrate that differences exist among health consumers with respect to the complexity of their language use when discussing health-related topics. <sentence_start/>A complexity measurement framework (CHELC) and its accompanying scores (CHELCS) were developed to quantify CHL complexity differences among different user groups. <sentence_start/>Future studies could further apply CHELCS to other datasets from different user groups. <sentence_start/>Specifically, there is a clear need for the research on understanding CHL complexity differences that translates to adaptive simplification services for different user groups."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of Interest: None declared."
+  },
+  {
+   "section": "back",
+   "text": "Appendix"
+  },
+  {
+   "section": "back",
+   "text": "Multimedia Appendix 1"
+  },
+  {
+   "section": "back",
+   "text": "Complexity score of seven metrics in consumer health language complexity scores."
+  },
+  {
+   "section": "back",
+   "text": "Multimedia Appendix 2"
+  },
+  {
+   "section": "back",
+   "text": "Correlations of consumer health language complexity scores in health corpora."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "ANCOVA"
+  },
+  {
+   "section": "back",
+   "text": "analysis of covariance"
+  },
+  {
+   "section": "back",
+   "text": "ASD"
+  },
+  {
+   "section": "back",
+   "text": "autism spectrum disorder"
+  },
+  {
+   "section": "back",
+   "text": "CHELC"
+  },
+  {
+   "section": "back",
+   "text": "consumer health language complexity"
+  },
+  {
+   "section": "back",
+   "text": "CHELCS"
+  },
+  {
+   "section": "back",
+   "text": "consumer health language complexity scores"
+  },
+  {
+   "section": "back",
+   "text": "CHL"
+  },
+  {
+   "section": "back",
+   "text": "consumer health language"
+  },
+  {
+   "section": "back",
+   "text": "CHV"
+  },
+  {
+   "section": "back",
+   "text": "consumer health vocabulary"
+  },
+  {
+   "section": "back",
+   "text": "F-K"
+  },
+  {
+   "section": "back",
+   "text": "Flesch-Kincaid grade level"
+  },
+  {
+   "section": "back",
+   "text": "K-S"
+  },
+  {
+   "section": "back",
+   "text": "Kolmogorov-Smirnov"
+  },
+  {
+   "section": "back",
+   "text": "NIH"
+  },
+  {
+   "section": "back",
+   "text": "National Institutes of Health"
+  },
+  {
+   "section": "back",
+   "text": "POS"
+  },
+  {
+   "section": "back",
+   "text": "parts of speech"
+  },
+  {
+   "section": "back",
+   "text": "Q&amp;A"
+  },
+  {
+   "section": "back",
+   "text": "question and answer"
+  },
+  {
+   "section": "back",
+   "text": "SNOMED-CT"
+  },
+  {
+   "section": "back",
+   "text": "Systematized Nomenclature of Medicine-Clinical Terms"
+  },
+  {
+   "section": "back",
+   "text": "UMLS"
+  },
+  {
+   "section": "back",
+   "text": "Unified Medical Language System"
+  }
+ ]
+}

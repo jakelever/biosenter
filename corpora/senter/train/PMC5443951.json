@@ -1,0 +1,331 @@
+{
+ "pmid": 28469030,
+ "pmcid": 5443951,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Manipulation of feeding regime alters sexual dimorphism for lifespan and reduces sexual conflict in <italic toggle=\"yes\">Drosophila melanogaster</italic>"
+  },
+  {
+   "section": "abstract",
+   "text": "Sexual dimorphism for lifespan (SDL) is widespread, but poorly understood. <sentence_start/>A leading hypothesis, which we test here, is that strong SDL can reduce sexual conflict by allowing each sex to maximize its sex-specific fitness. <sentence_start/>We used replicated experimental evolution lines of the fruit fly, <italic toggle=\"yes\">Drosophila melanogaster</italic>, which had been maintained for over 360 generations on either unpredictable ‘Random’ or predictable ‘Regular’ feeding regimes. <sentence_start/>This evolutionary manipulation of feeding regime led to robust, enhanced SDL in Random over control, Regular lines. <sentence_start/>Enhanced SDL was associated with a significant increase in the fitness of focal males, tested with wild-type (WT) females. <sentence_start/>This was due to sex-specific changes to male life history, manifested as increased early reproductive output and reduced survival. <sentence_start/>In contrast, focal female fitness, tested with WT males, did not differ across regimes. <sentence_start/>Hence increased SDL was associated with a reduction in sexual conflict, which increased male fitness and maintained fitness in females. <sentence_start/>Differences in SDL were not associated with developmental time or developmental survival. <sentence_start/>Overall, the results showed that the expression of enhanced SDL, resulting from experimental evolution of feeding regimes, was associated with male-specific changes in life history, leading to increased fitness and reduced sexual conflict."
+  },
+  {
+   "section": "article",
+   "text": "1."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "In the more than half a century since the major tenets of the evolutionary theory of ageing were formulated [<citation rid=\"RSPB20170391C1\" ref-type=\"bibr\" count=\"1\">1</citation>-<citation rid=\"RSPB20170391C3\" ref-type=\"bibr\" doi=\"10.1016/0022-5193(66)90184-6\" pmid=\"6015424\" count=\"1\">3</citation>], a huge body of supporting empirical evidence has been gathered [<citation rid=\"RSPB20170391C4\" ref-type=\"bibr\" count=\"1\">4</citation>-<citation rid=\"RSPB20170391C9\" ref-type=\"bibr\" doi=\"10.1016/j.bbagen.2009.07.010\" pmid=\"19619612\" pmcid=\"PMC2972575\" count=\"1\">9</citation>]. <sentence_start/>However, despite this, we still have surprisingly little understanding of the striking, and seemingly universal, sexual dimorphism for lifespan (SDL). <sentence_start/>Such differences are widespread across animal taxa [<citation rid=\"RSPB20170391C10\" ref-type=\"bibr\" doi=\"10.1098/rspb.1992.0030\" count=\"1\">10</citation>-<citation rid=\"RSPB20170391C14\" ref-type=\"bibr\" doi=\"10.1098/rspb.2007.1138\" pmcid=\"PMC2293943\" pmid=\"17939988\" count=\"1\">14</citation>] and are often associated with variation in mating systems [<citation rid=\"RSPB20170391C13\" ref-type=\"bibr\" doi=\"10.1111/j.0014-3820.2005.tb01762.x\" pmid=\"15926698\" count=\"1\">13</citation>,<citation rid=\"RSPB20170391C14\" ref-type=\"bibr\" doi=\"10.1098/rspb.2007.1138\" pmcid=\"PMC2293943\" pmid=\"17939988\" count=\"1\">14</citation>]. <sentence_start/>This suggests an explanation relating to sexual selection and associated differential risks of extrinsic mortality [<citation rid=\"RSPB20170391C11\" ref-type=\"bibr\" doi=\"10.1023/A:1022562103669\" pmid=\"14574152\" count=\"1\">11</citation>,<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>]. <sentence_start/>For example, SDL is reported as elevated in promiscuous systems, but reduced under monogamy. <sentence_start/>Promiscuity leads to increased survival costs for males from intensified male-male competition and a shorter effective breeding period than for females. <sentence_start/>This is proposed to reduce selection for mechanisms that increase longevity in males compared to females, hence increasing SDL [<citation rid=\"RSPB20170391C14\" ref-type=\"bibr\" doi=\"10.1098/rspb.2007.1138\" pmcid=\"PMC2293943\" pmid=\"17939988\" count=\"1\">14</citation>,<citation rid=\"RSPB20170391C16\" ref-type=\"bibr\" count=\"1\">16</citation>]. <sentence_start/>Other explanations for sex-specific variation in lifespan across species include the so-called ‘mother's curse’ due to the potential for mutations with deleterious, male-specific effects to be expressed by maternally-inherited mitochondria [<citation rid=\"RSPB20170391C17\" ref-type=\"bibr\" count=\"1\">17</citation>] and the differential sensitivity of males versus females to the effects of mutations that accumulate on the sex chromosomes (the ‘unguarded X’ hypothesis [<citation rid=\"RSPB20170391C18\" ref-type=\"bibr\" count=\"1\">18</citation>]). <sentence_start/>These hypotheses have gained some empirical support [<citation rid=\"RSPB20170391C19\" ref-type=\"bibr\" doi=\"10.1038/nature15380\" pmid=\"26444239\" count=\"1\">19</citation>,<citation rid=\"RSPB20170391C20\" ref-type=\"bibr\" doi=\"10.1098/rsbl.2016.0337\" pmcid=\"PMC4938057\" pmid=\"27354712\" count=\"1\">20</citation>]. <sentence_start/>However, it is noted that there is a general paucity of experimental work in this area [<citation rid=\"RSPB20170391C21\" ref-type=\"bibr\" doi=\"10.1002/bies.201300021\" pmid=\"23733656\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Within species, significant variation in the magnitude of SDL expressed is arguably best explained by the degree of sexual selection and conflict [<citation rid=\"RSPB20170391C11\" ref-type=\"bibr\" doi=\"10.1023/A:1022562103669\" pmid=\"14574152\" count=\"1\">11</citation>,<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>]. <sentence_start/>Hence, factors such as nutrition, which affect the expression of sexual characters, can also be important in the determination of SDL. <sentence_start/>For example, within species, the extent of SDL can show marked plasticity in response to proximate factors such as diet. <sentence_start/>In <italic toggle=\"yes\">Drosophila melanogaster</italic>, SDL is maximized by a 60% reduction in the standard dietary yeast and sugar content and minimized or absent at extreme food concentrations (&lt;30%, or &gt;130% of the standard dietary yeast and sugar content) [<citation rid=\"RSPB20170391C22\" ref-type=\"bibr\" doi=\"10.1093/gerona/59.1.B3\" pmid=\"14718480\" count=\"1\">22</citation>]. <sentence_start/>Male-specific hormones can also reduce male lifespan below that of females, thus enhancing SDL [<citation rid=\"RSPB20170391C18\" ref-type=\"bibr\" count=\"1\">18</citation>,<citation rid=\"RSPB20170391C23\" ref-type=\"bibr\" doi=\"10.1016/j.cub.2012.06.036\" pmid=\"23017989\" count=\"1\">23</citation>]. <sentence_start/>The production of pheromones by one sex can also directly reduce the lifespan of the other via interaction with insulin signalling pathways in both flies and worms [<citation rid=\"RSPB20170391C24\" ref-type=\"bibr\" doi=\"10.1126/science.1243339\" pmid=\"24292624\" pmcid=\"PMC4042187\" count=\"1\">24</citation>,<citation rid=\"RSPB20170391C25\" ref-type=\"bibr\" doi=\"10.1126/science.1244160\" pmid=\"24292626\" pmcid=\"PMC4126796\" count=\"1\">25</citation>]. <sentence_start/>Exposure to female pheromones reduced male lifespan in <italic toggle=\"yes\">Drosophila</italic>, even in the absence of mating [<citation rid=\"RSPB20170391C24\" ref-type=\"bibr\" doi=\"10.1126/science.1243339\" pmid=\"24292624\" pmcid=\"PMC4042187\" count=\"1\">24</citation>]. <sentence_start/>These findings support the idea that the interaction between the sexes via sexual selection and sexual conflict exerts significant influences on the lifespan of one or both sexes, thus altering the magnitude of SDL [<citation rid=\"RSPB20170391C11\" ref-type=\"bibr\" doi=\"10.1023/A:1022562103669\" pmid=\"14574152\" count=\"1\">11</citation>,<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Sex-specific variation in longevity may result from sex-specific patterns of extrinsic mortality, ageing onset and ageing rate, over the lifetime [<citation rid=\"RSPB20170391C14\" ref-type=\"bibr\" doi=\"10.1098/rspb.2007.1138\" pmcid=\"PMC2293943\" pmid=\"17939988\" count=\"1\">14</citation>,<citation rid=\"RSPB20170391C16\" ref-type=\"bibr\" count=\"1\">16</citation>]. <sentence_start/>The causes of such differences are thought to result from the expression of sex-specific life histories [<citation rid=\"RSPB20170391C21\" ref-type=\"bibr\" doi=\"10.1002/bies.201300021\" pmid=\"23733656\" count=\"1\">21</citation>] and hence differential sex-specific optimization of energy investment or allocation [<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>,<citation rid=\"RSPB20170391C16\" ref-type=\"bibr\" count=\"1\">16</citation>,<citation rid=\"RSPB20170391C26\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>SDL may arise from the sex-specific optimization of trade-offs of lifespan with reproductive, mating or developmental traits, leading to sex-specific life-history strategies [<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>,<citation rid=\"RSPB20170391C16\" ref-type=\"bibr\" count=\"1\">16</citation>,<citation rid=\"RSPB20170391C21\" ref-type=\"bibr\" doi=\"10.1002/bies.201300021\" pmid=\"23733656\" count=\"1\">21</citation>]. <sentence_start/>Hence, underpinning the expression of SDL are differences in the magnitude of reproductive costs [<citation rid=\"RSPB20170391C27\" ref-type=\"bibr\" doi=\"10.1126/science.241.4872.1449\" pmid=\"17790040\" count=\"1\">27</citation>] and associated sex-specific trade-offs. <sentence_start/>These may often differ substantially between males and females. <sentence_start/>However, despite numerous theoretical predictions surrounding life-history trade-offs, relatively little is currently known about the sex-specific impact of reproductive costs on survival trajectories in both sexes [<citation rid=\"RSPB20170391C28\" ref-type=\"bibr\" doi=\"10.1098/rspb.2015.0209\" pmcid=\"PMC4426628\" pmid=\"25833848\" count=\"1\">28</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Ultimately, the causes and consequences of SDL are still poorly understood [<citation rid=\"RSPB20170391C11\" ref-type=\"bibr\" doi=\"10.1023/A:1022562103669\" pmid=\"14574152\" count=\"1\">11</citation>,<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>,<citation rid=\"RSPB20170391C20\" ref-type=\"bibr\" doi=\"10.1098/rsbl.2016.0337\" pmcid=\"PMC4938057\" pmid=\"27354712\" count=\"1\">20</citation>,<citation rid=\"RSPB20170391C29\" ref-type=\"bibr\" doi=\"10.1016/j.beem.2013.05.016\" pmid=\"24054925\" count=\"1\">29</citation>]. <sentence_start/>One leading hypothesis, which we test here, is that enhanced SDL could be a mechanism by which sexual conflict is reduced, by allowing females and males to express sex-specific life histories and hence increase their sex-specific fitness [<citation rid=\"RSPB20170391C11\" ref-type=\"bibr\" doi=\"10.1023/A:1022562103669\" pmid=\"14574152\" count=\"1\">11</citation>,<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>,<citation rid=\"RSPB20170391C30\" ref-type=\"bibr\" doi=\"10.1086/595841\" pmid=\"19138156\" count=\"1\">30</citation>]. <sentence_start/>It is known that genetic correlations can constrain the sexes from reaching their optimal lifespan [<citation rid=\"RSPB20170391C31\" ref-type=\"bibr\" doi=\"10.1111/j.1558-5646.2011.01267.x\" pmid=\"21729062\" count=\"1\">31</citation>] and that selection on the optimal lifespan in one sex increases fitness of that sex but reduces fitness of the other [<citation rid=\"RSPB20170391C32\" ref-type=\"bibr\" doi=\"10.1098/rspb.2012.1345\" pmcid=\"PMC3441075\" pmid=\"22915670\" count=\"1\">32</citation>]. <sentence_start/>However, there are as yet no direct empirical tests of the age-specific fitness consequences associated with enhanced versus reduced SDL in both sexes. <sentence_start/>This knowledge gap has partly arisen from the lack of an appropriate empirical system in which to test these predictions. <sentence_start/>We address this omission by using lines of <italic toggle=\"yes\">D. melanogaster</italic> fruit flies subjected to replicated experimental evolution for &gt;360 generations (over 15 years) under divergent random and regular feeding regimes. <sentence_start/>In these evolutionary regimes, food is provided either regularly each week (‘Regular’) or randomly within a 28-day cycle (‘Random’). <sentence_start/>The same absolute quantity of diet is provided to each regime, but Random regime lines experience periods of nutritional stress and surfeit. <sentence_start/>The Random lines have evolved enhanced SDL in relation to controls (see below) offering an ideal opportunity to test for associated differences in sex-specific fitness."
+  },
+  {
+   "section": "article",
+   "text": "We used the Random and Regular feeding lines to test the prediction that increased SDL, as expressed by Random in comparison to Regular lines, is associated with decreased sexual conflict through adoption of sex-specific life histories that lead to higher fitness for males and females. <sentence_start/>The overarching rationale was that the Random lines, in which there was greater SDL, would show increased sex-specific fitness in comparison to lines in which SDL was reduced. <sentence_start/>We conducted separate experiments to measure the lifespan and fitness of focal females and males from the Random and Regular lines held with non-focal standard wild-type (WT) individuals."
+  },
+  {
+   "section": "article",
+   "text": "2."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "(a)"
+  },
+  {
+   "section": "article",
+   "text": "Flies and culturing"
+  },
+  {
+   "section": "article",
+   "text": "Experimental individuals were the second generation of offspring (F2) originating from eggs laid by grandparents (P1) derived from the three replicated populations of Regular and Random feeding regime cages (electronic supplementary material, figure S1). <sentence_start/>Two generations of rearing under standard conditions were conducted to minimize maternal effects. <sentence_start/>First instar larvae were transferred to sugar yeast agar (SYA) vials (15 g agar, 50 g sugar, 100 g yeast, 30 ml Nipagin (10% w/v solution and 3 ml propionic acid per litre) at controlled density of 150 larvae per vial. <sentence_start/>Adults (F1 generation) were allowed to emerge and freely mate in their larval vials for 24 h and then tipped into fresh SYA bottles for another 12-24 h of free mating. <sentence_start/>This ensured that all F1s were sexually mature and aged between 12 and 48 h. <sentence_start/>A total of 400 F1 females from each of the six experimental lines were then transferred into a mini-cage with yeasted purple agar plate and allowed to egg-lay for 6 h. <sentence_start/>The short egg laying window allowed for precise measurement of subsequent developmental timings."
+  },
+  {
+   "section": "article",
+   "text": "(b)"
+  },
+  {
+   "section": "article",
+   "text": "Life-history assay"
+  },
+  {
+   "section": "article",
+   "text": "Adults emerging from F2 larval vials were collected as the F2 generation ‘focal’ flies for the adult fitness experiment. <sentence_start/>Sample sizes of 51 adults per sex per line were used for the survival assay and for weekly matings. <sentence_start/>A subset of 45 adults per sex per line was used to assess weekly reproductive output. <sentence_start/>Virgin WT Dahomey flies of both sexes (<italic toggle=\"yes\">n</italic> = 480 per sex) derived from standard density cultures (150 larvae per vial) were generated each week for mating with the focal females and focal males in the experiments. <sentence_start/>WT flies were collected as virgins and held in single sex groups of 10 per SYA vial until they were introduced to the focal flies. <sentence_start/>Initial matings between virgin focal flies and virgin WT flies were set up 3 days post-eclosion. <sentence_start/>Using light CO<sub>2</sub> anaesthesia, three focal adults were placed with three standard WT adults of the opposite sex per vial for 24 h. <sentence_start/>Multiple individuals were housed together to introduce biologically relevant male-male competition. <sentence_start/>The mating schedule in the male and the female experiments was identical. <sentence_start/>Assays of mating behaviour were recorded every 20 min for the final 3 h of each 24 h mating period. <sentence_start/>This allowed indices of the proportion of each sex that mated to be determined."
+  },
+  {
+   "section": "article",
+   "text": "After initial matings, focal females and males were transferred to single sex vials containing SYA medium at a density of 3 flies per vial, under light CO<sub>2</sub> anaesthesia. <sentence_start/>Initial egg counts for both focal sexes were made from this 24 h mating period. <sentence_start/>Egg vials were retained to determine egg-adult viability and frozen 13 days after egg laying, for later counting of the number of offspring. <sentence_start/>For the first 2 weeks of the experiment, twice-weekly matings of focal females and males with WT mates (standard 3-day-old virgin WTs) were conducted, and twice-weekly egg counts and offspring counts recorded, to assess early reproductive output. <sentence_start/>Weekly matings and reproductive output counts were then performed for the remainder of the experiment. <sentence_start/>All matings followed the same protocol as the initial mating."
+  },
+  {
+   "section": "article",
+   "text": "Every 2-3 days food vials were exchanged and the groupings of three focal flies per vial were shuffled, to randomize the positioning of focals in vials with fewer than three flies (due to mortalities or censors). <sentence_start/>The focal sexes were housed in single sex vials throughout the experiment (except during weekly matings with WT adults). <sentence_start/>Focal female and focal male mortalities were checked daily."
+  },
+  {
+   "section": "article",
+   "text": "(c)"
+  },
+  {
+   "section": "article",
+   "text": "Statistical analyses"
+  },
+  {
+   "section": "article",
+   "text": "All statistical analyses were performed in R v. 3.2.1 [<citation rid=\"RSPB20170391C33\" ref-type=\"bibr\" count=\"1\">33</citation>] using the base ‘stats’ package, except where otherwise stated."
+  },
+  {
+   "section": "article",
+   "text": "(i)"
+  },
+  {
+   "section": "article",
+   "text": "Development time and developmental viability"
+  },
+  {
+   "section": "article",
+   "text": "Developmental viability was expressed as proportion data and analysed using a generalized linear model (GLM), with quasi-binomial errors, to account for overdispersion. <sentence_start/>Development time data were tested for normality using the Shapiro-Wilk test and for equality of variances using the Levene's test, separately for each treatment level. <sentence_start/>Differences in development time between regimes were analysed using a two sample <italic toggle=\"yes\">t</italic>-test, as the normality and equality of variances assumptions were met. <sentence_start/>A focal-sex × feeding regime interaction effect on development time was tested for using a GLM with normal errors."
+  },
+  {
+   "section": "article",
+   "text": "(ii)"
+  },
+  {
+   "section": "article",
+   "text": "Survival"
+  },
+  {
+   "section": "article",
+   "text": "Survival analyses were performed using mixed effects Cox proportional hazards regression on age-specific mortality data. <sentence_start/>Prior to analyses, the data were tested for potential violation of the proportional hazards (PH) assumption using both graphical and analytical tests. <sentence_start/>As a further test, parametric survival analysis was performed for a subset of the data with the largest potential PH violation as follows. <sentence_start/>A maximum likelihood approach, implemented in the ‘bbmle’ [<citation rid=\"RSPB20170391C34\" ref-type=\"bibr\" count=\"1\">34</citation>] package, was used to compare 11 different parametric models and find the best model fit (adapted from [<citation rid=\"RSPB20170391C35\" ref-type=\"bibr\" doi=\"10.1111/1365-2435.12369\" count=\"1\">35</citation>]). <sentence_start/>Subsequent parametric survival analysis returned comparable results to the mixed effects Cox model. <sentence_start/>This, coupled with the finding that the data satisfied the PH assumption, justified the use of the semi-parametric Cox PH method for all the main survival analyses, implemented using the ‘coxme’ package [<citation rid=\"RSPB20170391C36\" ref-type=\"bibr\" count=\"1\">36</citation>]. <sentence_start/>The models were specified to test for the effects of the two fixed explanatory factors of interest, namely sex and feeding regime. <sentence_start/>We split the dataset in order to calculate the relevant hazard ratios (HR) for each sex and regime, where HR indicates the risk of death for two treatments relative to each other (e.g. if one group died at twice the rate per unit time as another, the HR would be 2). <sentence_start/>However, in a combined model, we used the entire dataset to include an interaction term to directly test for the effect of evolutionary feeding regime on SDL. <sentence_start/>Each model included a random effect of cage, which was tested against a simpler model without this term via likelihood ratio test (LRT). <sentence_start/>In all models, dropping the random effect resulted in a worse model fit and justified the retention of this term. <sentence_start/>In the first two models, we analysed within-sex effects of feeding regime on survival. <sentence_start/>Here, age-specific mortality was modelled as a response to a single, fixed factor, namely feeding regime, and a random effect of line nested within feeding regime. <sentence_start/>The second two models analysed the effect of evolutionary feeding regimes on the differences in survival between the two focal sexes, i.e. SDL. <sentence_start/>In these, age-specific mortality was modelled as a response to a single fixed factor, sex and a random effect of line nested within sex. <sentence_start/>The final combined model included age-specific mortality as a response to focal sex and feeding regime as fixed main factors, as well as a fixed focal sex × feeding regime interaction and a random effect of line nested within feeding regime."
+  },
+  {
+   "section": "article",
+   "text": "(iii)"
+  },
+  {
+   "section": "article",
+   "text": "Age-specific reproduction"
+  },
+  {
+   "section": "article",
+   "text": "Age-specific egg count and offspring count data were analysed with generalized linear mixed effects models (GLMMs), separately for each sex, using the ‘glmer’ function from the ‘lme4’ package in R [<citation rid=\"RSPB20170391C37\" ref-type=\"bibr\" doi=\"10.18637/jss.v067.i01\" count=\"1\">37</citation>]. <sentence_start/>Experimental replicate and the number of days post-eclosion were fitted as categorical random effects and feeding regime (Regular or Random) as a fixed effect. <sentence_start/>No individual-level random effect was included in the model, as individuals were not uniquely identifiable from this experiment (measures were taken from randomized groupings of three individuals, at each time point). <sentence_start/>The data were overdispersed in all cases. <sentence_start/>To account for this, an observation-level random effect was added to each GLMM and a maximum likelihood model comparison was used to determine best model fit. <sentence_start/>Egg to adult viability was calculated as the proportion of eggs laid by groups of three focal females that hatched as viable offspring, at each time point. <sentence_start/>Proportion data were arcsine transformed to normalize and then analysed with a linear mixed model (LMM). <sentence_start/>Initial egg and offspring counts (from 3 days post-eclosion) were also analysed separately, for both sexes, using the same approach as for development time data, to determine whether differences in fitness indices were associated with differences in initial reproduction counts (as the fitness index, Euler's <italic toggle=\"yes\">r</italic>, is weighted towards early reproduction: for description of fitness calculation, see below)."
+  },
+  {
+   "section": "article",
+   "text": "(iv)"
+  },
+  {
+   "section": "article",
+   "text": "Lifetime reproduction"
+  },
+  {
+   "section": "article",
+   "text": "An index of total lifetime egg production and an index of total lifetime offspring production were calculated separately for each sex and each treatment population by summing egg or offspring counts, respectively, across the lifetime. <sentence_start/>The mean and standard errors for total lifetime reproduction values, for each feeding regime (Random and Regular) and each sex, were determined. <sentence_start/>Differences in total lifetime egg or offspring production between regimes were analysed identically to development time data."
+  },
+  {
+   "section": "article",
+   "text": "(v)"
+  },
+  {
+   "section": "article",
+   "text": "Female and male fitness"
+  },
+  {
+   "section": "article",
+   "text": "Female and male fitness indices were calculated as the intrinsic rate of population growth (the Malthusian parameter, Euler's <italic toggle=\"yes\">r</italic>), using the Euler equation [<citation rid=\"RSPB20170391C38\" ref-type=\"bibr\" count=\"1\">38</citation>,<citation rid=\"RSPB20170391C39\" ref-type=\"bibr\" doi=\"10.1016/j.cub.2005.01.051\" pmid=\"15723791\" count=\"1\">39</citation>], separately for each treatment line. <sentence_start/>The Euler equation calculates an index of fitness from age-specific survivorship and age-specific reproduction values; it is weighted towards early life reproduction and is directly related to the lambda fitness metric [<citation rid=\"RSPB20170391C40\" ref-type=\"bibr\" doi=\"10.1086/285839\" count=\"1\">40</citation>,<citation rid=\"RSPB20170391C41\" ref-type=\"bibr\" doi=\"10.1046/j.1461-0248.2002.00369.x\" count=\"1\">41</citation>]. <sentence_start/>Age-specific egg counts (per 24 h) were used to calculate ‘potential fitness’, and age-specific offspring counts (per 24 h) were used to calculate ‘realized fitness’. <sentence_start/>Offspring counts and egg counts were halved to account for the genetic contribution of one parent (the mother or father, respectively) to the offspring generation. <sentence_start/>Fitness data were analysed identically to the development time data."
+  },
+  {
+   "section": "article",
+   "text": "(vi)"
+  },
+  {
+   "section": "article",
+   "text": "Mating frequency"
+  },
+  {
+   "section": "article",
+   "text": "An index of the proportion of individuals that mated from each treatment line population was calculated separately for each focal sex. <sentence_start/>For each weekly mating day (<italic toggle=\"yes\">n</italic> = 10), the total numbers of matings recorded each 20 min, over the 3 h mating observation, were summed, to give the total number mated per 3 h mating, for each line and each focal sex. <sentence_start/>The total numbers of matings recorded over lifetime (across all weekly matings) for each focal sex and line were then calculated and expressed as a proportion of the sum of total number of pairs surviving at each weekly mating over lifetime. <sentence_start/>Indices of mean proportion mated over lifetime per treatment line were analysed, separately for each sex, using a GLM with binomial errors. <sentence_start/>Overdispersion was accounted for by using quasi-binomial errors. <sentence_start/>A maximal GLM model including regime, sex and their interaction was fitted. <sentence_start/>Stepwise removal of non-significant model terms from the maximal model, and likelihood ratio tests, were used to test for significance of model terms and to derive the minimal adequate model."
+  },
+  {
+   "section": "article",
+   "text": "3."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "We hypothesised, based on the proximate responses of SDL to diet [<citation rid=\"RSPB20170391C22\" ref-type=\"bibr\" doi=\"10.1093/gerona/59.1.B3\" pmid=\"14718480\" count=\"1\">22</citation>], that SDL would change in these lines. <sentence_start/>Data from an initial pilot experiment conducted with once-mated females and males were consistent with this idea and showed that lines maintained on a random, unpredictable feeding regime had evolved significantly enhanced SDL in comparison to control lines fed according to a regular feeding regime (electronic supplementary material, figure S2). <sentence_start/>We then used these lines to test the prediction that, in fully reproductive flies, the expression of enhanced SDL would be associated with increased sex-specific fitness and hence a reduction in sexual conflict. <sentence_start/>We measured the survival and reproductive successes of focal males and focal females, separately, from the Random and Regular lines. <sentence_start/>To maintain reproductive activity throughout life, all flies were given 24 h exposure to WT individuals of the opposite sex every 7 days. <sentence_start/>We indicate directionality to differences in lifespan, where appropriate, on the basis of comparisons to the Regular regimes, which replicate the standard cage culture conditions."
+  },
+  {
+   "section": "article",
+   "text": "(a)"
+  },
+  {
+   "section": "article",
+   "text": "Lifespan and sexual dimorphism for lifespan"
+  },
+  {
+   "section": "article",
+   "text": "We predicted the existence of adaptive sex-specific optimization of life-history trade-offs [<citation rid=\"RSPB20170391C21\" ref-type=\"bibr\" doi=\"10.1002/bies.201300021\" pmid=\"23733656\" count=\"1\">21</citation>] correlated with the intermittent nutritional stress imposed by the Random feeding regime. <sentence_start/>The results supported the predictions. <sentence_start/>Consistent with the pilot data (electronic supplementary material, figure S2), we saw significantly enhanced SDL associated with a specific change to the life history of the Random males. <sentence_start/>There was no significant difference in focal female survival (median lifespan: Regular = 58 days, Random = 60 days; coxme regression: hazard ratio (HR)<sub>(Reg/Rand)</sub> = 0.76, <italic toggle=\"yes\">z</italic> = 1.31, <italic toggle=\"yes\">p</italic> = 0.19; figure 1<italic toggle=\"yes\">a</italic>; electronic supplementary material, table S1). <sentence_start/>However, male survival was significantly greater for Regular (median = 51 days) in comparison to Random males (median = 47 days; coxme regression: HR<sub>(Reg/Rand)</sub> = 0.61: <italic toggle=\"yes\">z</italic> = 2.39, <italic toggle=\"yes\">p</italic> = 0.017; figure 1<italic toggle=\"yes\">b</italic>). <sentence_start/>SDL was expressed as a significant sex difference in survival within the Random regime (median female lifespan = 60 days, males = 47 days; coxme regression: HR<sub>(Male/Female)</sub> = 3.58, <italic toggle=\"yes\">z</italic> = 4.42, <italic toggle=\"yes\">p</italic> &lt; 0.001; figure 1<italic toggle=\"yes\">c</italic>). <sentence_start/>SDL was less marked in the Regular regime (median lifespan females = 58 days, males = 51 days; coxme regression: HR<sub>(Male/Female)</sub> = 2.12, <italic toggle=\"yes\">z</italic> = 4.56, <italic toggle=\"yes\">p</italic> &lt; 0.001; figure 1<italic toggle=\"yes\">d</italic>). <sentence_start/>The suggested pattern of SDL showing an interaction with sex across regimes was confirmed by the combined statistical model. <sentence_start/>This revealed a significant focal sex × feeding regime interaction effect on survival (coxme regression: HR<sub>(Reg male/Rand male)</sub> = 0.68, <italic toggle=\"yes\">z</italic> = 2.07, <italic toggle=\"yes\">p</italic> = 0.038), which confirms significantly greater SDL in Random compared to Regular regimes. <sentence_start/>Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "Age-specific survivorship against days post-eclosion. <sentence_start/>Shown are replicates 1-3 of Random and Regular feeding regimes: (<italic toggle=\"yes\">a</italic>) Random versus Regular focal females; (<italic toggle=\"yes\">b</italic>) Random versus Regular focal males, (<italic toggle=\"yes\">c</italic>) Random females versus males and (<italic toggle=\"yes\">d</italic>) Regular females versus males."
+  },
+  {
+   "section": "article",
+   "text": "(b)"
+  },
+  {
+   "section": "article",
+   "text": "Focal female reproductive output"
+  },
+  {
+   "section": "article",
+   "text": "There was no significant difference in focal female age-specific egg or offspring production over time (GLMMs: egg production <italic toggle=\"yes\">z</italic> = 0.28, <italic toggle=\"yes\">p</italic> = 0.776; offspring <italic toggle=\"yes\">z</italic> = 0.18, <italic toggle=\"yes\">p</italic> = 0.855; figure 2<italic toggle=\"yes\">a</italic>,<italic toggle=\"yes\">b</italic>) and both traits declined significantly with age across both regimes (GLMMs: eggs <italic toggle=\"yes\">z</italic> = 71.8, <italic toggle=\"yes\">p</italic> &lt; 0.001; offspring <italic toggle=\"yes\">z</italic> = 71.6, <italic toggle=\"yes\">p</italic> &lt; 0.001). <sentence_start/>There was also no significant difference in egg to adult viability across regime females (GLMM: <italic toggle=\"yes\">t</italic><sub>5</sub>= 0.63, <italic toggle=\"yes\">p</italic> = 0.480; figure 2<italic toggle=\"yes\">c</italic>) though again a significant effect of age (GLMM: <italic toggle=\"yes\">t</italic><sub>5</sub>= 10.19, <italic toggle=\"yes\">p</italic> &lt; 0.001). <sentence_start/>There were no differences in initial egg counts (two sample <italic toggle=\"yes\">t</italic>-test: <italic toggle=\"yes\">t</italic><sub>4</sub> = 1.57, <italic toggle=\"yes\">p</italic> = 0.192; mean Random = 64, Regular = 74; figure 2<italic toggle=\"yes\">a</italic> inset) or offspring counts (<italic toggle=\"yes\">t</italic><sub>4</sub> = 0.90, <italic toggle=\"yes\">p</italic> = 0.420; mean Random = 54, Regular = 61; figure 2<italic toggle=\"yes\">b</italic> inset) in the focal female experiment. <sentence_start/>Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "The mean focal female egg production (<italic toggle=\"yes\">a</italic>), offspring (F1) production (<italic toggle=\"yes\">b</italic>) and egg to adult offspring viability (<italic toggle=\"yes\">c</italic>), per three females, per 24 h, against days post-eclosion. <sentence_start/>The mean number of offspring that emerged from the 24 h egg lay vials (<italic toggle=\"yes\">a</italic>), for each of the six weekly mated experimental lines (Rand1, Rand2, Rand3, Reg1, Reg2, Reg3), at weekly intervals since eclosion (<italic toggle=\"yes\">b</italic>). <sentence_start/>Egg to adult viability is defined as the mean proportion of eggs laid by groups of three females during 24 h that eclosed as adults (<italic toggle=\"yes\">c</italic>). <sentence_start/>Insets for (<italic toggle=\"yes\">a</italic>) and (<italic toggle=\"yes\">b</italic>) show the mean initial (day 3) egg and offspring counts, respectively. <sentence_start/>All error bars display ±1 s.e."
+  },
+  {
+   "section": "article",
+   "text": "(c)"
+  },
+  {
+   "section": "article",
+   "text": "Focal male reproductive output"
+  },
+  {
+   "section": "article",
+   "text": "There was also no significant overall difference in male age-specific reproductive output (GLMMs egg production: <italic toggle=\"yes\">z</italic> = 1.09, <italic toggle=\"yes\">p</italic> = 0.276; offspring: <italic toggle=\"yes\">z</italic> = 0.97, <italic toggle=\"yes\">p</italic> = 0.334; figure 3<italic toggle=\"yes\">a</italic>,<italic toggle=\"yes\">b</italic>), and both traits declined significantly with age (GLMMs eggs: <italic toggle=\"yes\">z</italic> = 39.1, <italic toggle=\"yes\">p</italic> &lt; 0.001; offspring: <italic toggle=\"yes\">z</italic> = 65.7, <italic toggle=\"yes\">p</italic> &lt; 0.001). <sentence_start/>There was no significant difference in male egg to adult viability across regimes (GLMM: <italic toggle=\"yes\">t</italic><sub>5</sub>= 0.35, <italic toggle=\"yes\">p</italic> = 0.700; figure 3<italic toggle=\"yes\">c</italic>) though again a significant decrease with age (GLMM: <italic toggle=\"yes\">t</italic><sub>5</sub>= 19.81, <italic toggle=\"yes\">p</italic> &lt; 0.001). <sentence_start/>However, initial offspring counts were significantly higher for Random than Regular males (<italic toggle=\"yes\">t<sub>4</sub></italic> = 4.29, <italic toggle=\"yes\">p</italic> = 0.0128; mean Random = 66, Regular = 57; figure 3<italic toggle=\"yes\">b</italic> inset). <sentence_start/>There was also a non-significant trend for higher egg production in Random over Regular males (<italic toggle=\"yes\">t</italic><sub>4</sub>= 2.34, <italic toggle=\"yes\">p</italic> = 0.0797; mean Random = 70, Regular = 62; figure 3<italic toggle=\"yes\">a</italic> inset). <sentence_start/>Figure 3."
+  },
+  {
+   "section": "article",
+   "text": "The mean focal male egg production (<italic toggle=\"yes\">a</italic>), offspring (F1) production (<italic toggle=\"yes\">b</italic>) and egg to adult viability (<italic toggle=\"yes\">c</italic>), per three males, per 24 h, against days post-eclosion. <sentence_start/>The mean number of offspring that emerged from the 24 h egg laying vials (<italic toggle=\"yes\">a</italic>), for each of the six weekly mated experimental lines (Rand1, Rand2, Rand3, Reg1, Reg2, Reg3), at weekly intervals since eclosion (<italic toggle=\"yes\">b</italic>). <sentence_start/>Egg to adult viability is defined as the mean proportion of eggs laid by groups of three WT females that had been mated to the focal males, during 24 h, which eclosed as adults (<italic toggle=\"yes\">c</italic>). <sentence_start/>Data are shown for the period where <italic toggle=\"yes\">n</italic> &gt; 5 for each treatment line. <sentence_start/>Insets for (<italic toggle=\"yes\">a</italic>) and (<italic toggle=\"yes\">b</italic>) show the mean focal male initial (day 3) egg and offspring counts. <sentence_start/>All error bars display ±1 s.e."
+  },
+  {
+   "section": "article",
+   "text": "(d)"
+  },
+  {
+   "section": "article",
+   "text": "Focal female and focal male fitness"
+  },
+  {
+   "section": "article",
+   "text": "There was a significant difference between feeding regimes in male (<italic toggle=\"yes\">t</italic><sub>4</sub>= 4.32, <italic toggle=\"yes\">p</italic> = 0.0124) but not female (<italic toggle=\"yes\">t</italic><sub>4</sub>= 0.81, <italic toggle=\"yes\">p</italic> = 0.465) fitness (table 1). <sentence_start/>Hence Random males showed a significant increase in fitness compared to Regular males, even though their lifespans were significantly shorter. <sentence_start/>This was associated with the significantly higher initial offspring production in males from the random regime (figure 2<italic toggle=\"yes\">b</italic>). <sentence_start/>These results indicated that experimental evolution of feeding regimes and enhanced SDL led to sex-specific fitness differences, with males from the random regime showing significantly higher fitness."
+  },
+  {
+   "section": "article",
+   "text": "(e)"
+  },
+  {
+   "section": "article",
+   "text": "Mating frequency and developmental traits"
+  },
+  {
+   "section": "article",
+   "text": "A significantly greater proportion of Regular than Random males mated during the 3 h observations of weekly matings over the lifetime. <sentence_start/>There was no difference in the mean proportion of matings observed in focal females (males GLM: <italic toggle=\"yes\">z</italic> = 2.12, <italic toggle=\"yes\">p</italic> = 0.0338; females GLM: <italic toggle=\"yes\">t</italic> = 0.01, <italic toggle=\"yes\">p</italic> = 0.928; electronic supplementary material, figure S3). <sentence_start/>There were no differences in developmental viability or developmental time across either regime (electronic supplementary material, figures S4-S6)."
+  },
+  {
+   "section": "article",
+   "text": "4."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Differences in female and male lifespan are widely documented across many species [<citation rid=\"RSPB20170391C10\" ref-type=\"bibr\" doi=\"10.1098/rspb.1992.0030\" count=\"1\">10</citation>,<citation rid=\"RSPB20170391C12\" ref-type=\"bibr\" doi=\"10.1126/science.1074196\" pmid=\"12242433\" count=\"1\">12</citation>-<citation rid=\"RSPB20170391C14\" ref-type=\"bibr\" doi=\"10.1098/rspb.2007.1138\" pmcid=\"PMC2293943\" pmid=\"17939988\" count=\"1\">14</citation>]. <sentence_start/>Much less is known about the factors that influence the extent of this SDL. <sentence_start/>Here we subjected lines to evolutionary manipulation of Random and Regular (control) feeding regimes and found that this led to enhanced SDL in the Random regime. <sentence_start/>This was driven by a specific reduction in Random relative to Regular male lifespan. <sentence_start/>We then measured the life-history consequences of enhanced SDL in both sexes simultaneously. <sentence_start/>We tested the prediction that the existence of enhanced SDL would lead to the opportunity for constraint to be relaxed and each sex to adopt a sex-specific life history leading to higher fitness in comparison to the situation in which SDL was reduced [<citation rid=\"RSPB20170391C11\" ref-type=\"bibr\" doi=\"10.1023/A:1022562103669\" pmid=\"14574152\" count=\"1\">11</citation>,<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>]. <sentence_start/>In line with the prediction, enhanced SDL was associated with increased fitness of Random males, as predicted under the sexual conflict theory. <sentence_start/>Random males compensated for a reduced lifespan through a significantly elevated early burst of reproductive output. <sentence_start/>Female fitness was equivalent across Random and Regular regimes, suggesting that female life history was relatively independent of changes to that of males. <sentence_start/>Hence, the overall level of sexual conflict was reduced."
+  },
+  {
+   "section": "article",
+   "text": "Random males achieved higher fitness, despite a significantly reduced lifespan, by allocating resources into increased early reproductive output (progeny production). <sentence_start/>This suggests a trade-off between early reproduction and lifespan [<citation rid=\"RSPB20170391C42\" ref-type=\"bibr\" doi=\"10.2307/2410318\" pmid=\"28565142\" count=\"1\">42</citation>,<citation rid=\"RSPB20170391C43\" ref-type=\"bibr\" doi=\"10.1016/j.exger.2010.10.008\" pmid=\"20970491\" count=\"1\">43</citation>]. <sentence_start/>Increased early productivity was achieved, even though Random males mated less frequently than Regulars over their lifetime. <sentence_start/>The reduced lifespan of Random in comparison to Regular males was not associated with any between-regime differences in developmental viability or timing. <sentence_start/>Random males and females have significantly smaller body size than Regular flies (J. Perry, E. Duxbury, T. Chapman 2017, unpublished work). <sentence_start/>Hence there was no straightforward relationship between body size and reproductive output or lifespan in this study. <sentence_start/>It would be interesting to probe the functional relationships further, by testing for reproductive allocation differences within the Random and Regular lines. <sentence_start/>This would allow tests of whether the life-history fitness advantage of random males is associated with increased allocation of resources to reproductive tissues (testes and accessory glands) per unit body size. <sentence_start/>Similarly, the lack of differences in female life history across regimes would predict a lack of such divergence in reproductive allocation. <sentence_start/>Functional relationships could be further investigated through the description of sex-specific gene expression profiles to examine more directly the genomic changes underlying selection."
+  },
+  {
+   "section": "article",
+   "text": "The finding of increased fitness for the random SDL-enhanced males was necessarily based on measures of the reproductive output of WT females mated to them. <sentence_start/>This suggests these males are better at providing direct fitness benefits to females or less harmful to females. <sentence_start/>To examine this further, it would also be very interesting to measure focal male fitness in competition against WT males. <sentence_start/>This would allow a test to rule out the possibility that random males are more benign but also less competitive in fertilizations."
+  },
+  {
+   "section": "article",
+   "text": "Sex-specific life-history trade-offs over investment into reproduction versus survival, as observed here, are posited as evolutionary explanations for SDL [<citation rid=\"RSPB20170391C21\" ref-type=\"bibr\" doi=\"10.1002/bies.201300021\" pmid=\"23733656\" count=\"1\">21</citation>]. <sentence_start/>That is, there may be differential sex-specific optimization of energy investment and allocation [<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>,<citation rid=\"RSPB20170391C16\" ref-type=\"bibr\" count=\"1\">16</citation>,<citation rid=\"RSPB20170391C26\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>Our work provides empirical evidence to support the existence of sex-specific life-history trade-offs, which were present in males and absent in females."
+  },
+  {
+   "section": "article",
+   "text": "A life-history strategy that favours early reproduction by males over later survival, despite a reduced body size, could be adaptive following an evolutionary history of unpredictable (random) food availability [<citation rid=\"RSPB20170391C44\" ref-type=\"bibr\" count=\"1\">44</citation>]. <sentence_start/>If randomly fed individuals had an increased ability to readily capitalize on resources when available, then this would allow them to achieve increased fitness. <sentence_start/>Experimental evolution of <italic toggle=\"yes\">Drosophila</italic> under high extrinsic mortality (90% mortality induced twice per week) also led to a similar life-history strategy of reduced body size, increased early fecundity and reduced lifespan, when compared with lines selected for low extrinsic mortality (10% induced mortality, twice per week) [<citation rid=\"RSPB20170391C7\" ref-type=\"bibr\" doi=\"10.1073/pnas.97.7.3309\" pmid=\"10716732\" pmcid=\"PMC16235\" count=\"1\">7</citation>]. <sentence_start/>However, imposing increased mortality can also have the opposite result, i.e. the evolution of increased lifespan, depending upon whether mortality is condition-dependent rather than random [<citation rid=\"RSPB20170391C45\" ref-type=\"bibr\" doi=\"10.1038/346357a0\" count=\"1\">45</citation>,<citation rid=\"RSPB20170391C46\" ref-type=\"bibr\" doi=\"10.1016/j.cub.2012.09.021\" pmid=\"23084993\" count=\"1\">46</citation>]. <sentence_start/>Hence our results suggest that mortality is random, or possibly that selection for early function is stronger than selection for stress resistance."
+  },
+  {
+   "section": "article",
+   "text": "Females, in contrast, did not differ in lifespan, reproductive output or mating frequency and, unlike males, did not evolve an altered life-history strategy in response to feeding regime manipulation. <sentence_start/>This was not due to a lack of a response in comparison to lifespan before selection, as the Regular lines essentially replicate the normal cage cultures. <sentence_start/>Nor is it attributable to a lack of raw material, as there is significant genetic variation in female lifespan [<citation rid=\"RSPB20170391C32\" ref-type=\"bibr\" doi=\"10.1098/rspb.2012.1345\" pmcid=\"PMC3441075\" pmid=\"22915670\" count=\"1\">32</citation>,<citation rid=\"RSPB20170391C47\" ref-type=\"bibr\" doi=\"10.1093/gerona/glv047\" pmid=\"25922346\" pmcid=\"PMC4631106\" count=\"1\">47</citation>,<citation rid=\"RSPB20170391C48\" ref-type=\"bibr\" doi=\"10.1534/g3.116.028308\" pmid=\"27678519\" pmcid=\"PMC5144961\" count=\"1\">48</citation>]. <sentence_start/>It is possible that there was no selection on the female life history, but given the significant body size differences we observed between regimes as an outcome of selection this seems unlikely. <sentence_start/>We suggest instead that trade-off changes expressed in males were absent in females, or that females did not respond due to the presence of inter- or intralocus genetic correlations. <sentence_start/>These possibilities would be interesting to test. <sentence_start/>Sex-specific lifespan patterns could be the result of different selection pressures acting on the sexes [<citation rid=\"RSPB20170391C15\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2435.2008.01417.x\" count=\"1\">15</citation>,<citation rid=\"RSPB20170391C49\" ref-type=\"bibr\" doi=\"10.1111/1365-2435.12179\" count=\"1\">49</citation>]. <sentence_start/>We observed no significant sex bias in adult emergence (data not shown). <sentence_start/>Hence overall there was no evidence of differential developmental selection on either sex, suggesting that sex-specific selection pressures were more likely to have acted upon adults."
+  },
+  {
+   "section": "article",
+   "text": "Experimental evolution studies in the laboratory can be vulnerable to the effects of inbreeding due to reduction in effective population size (as discussed in [<citation rid=\"RSPB20170391C50\" ref-type=\"bibr\" doi=\"10.1111/jeb.12706\" pmid=\"26223403\" count=\"1\">50</citation>]). <sentence_start/>Recently, an effect of inbreeding per se on the expression of male versus female lifespan has been observed [<citation rid=\"RSPB20170391C20\" ref-type=\"bibr\" doi=\"10.1098/rsbl.2016.0337\" pmcid=\"PMC4938057\" pmid=\"27354712\" count=\"1\">20</citation>]. <sentence_start/>We reduced the potential for inbreeding through maintenance at large population sizes. <sentence_start/>Survival and reproduction patterns were broadly consistent between the three replicate populations for each regime, supporting the conclusion that evolved responses between regimes arose from selection and adaptation, rather than drift."
+  },
+  {
+   "section": "article",
+   "text": "Sexual conflict was reduced under enhanced SDL. <sentence_start/>Some authors argue that sexual dimorphism can only ever partially resolve sexual conflict, as the sexes are constrained from reaching their optimal fitness by the majority of their shared genomes [<citation rid=\"RSPB20170391C21\" ref-type=\"bibr\" doi=\"10.1002/bies.201300021\" pmid=\"23733656\" count=\"1\">21</citation>,<citation rid=\"RSPB20170391C30\" ref-type=\"bibr\" doi=\"10.1086/595841\" pmid=\"19138156\" count=\"1\">30</citation>]. <sentence_start/>This argument is derived from the observation that little empirical evidence exists for the presence of ‘modifier’ genes that allow the sex-specific gene expression required to achieve sufficient sexual dimorphism. <sentence_start/>The evolution of such genes is also predicted to be slow [<citation rid=\"RSPB20170391C51\" ref-type=\"bibr\" doi=\"10.2307/2407393\" pmid=\"28563426\" count=\"1\">51</citation>,<citation rid=\"RSPB20170391C52\" ref-type=\"bibr\" doi=\"10.1038/sj.hdy.6800895\" pmid=\"16941018\" count=\"1\">52</citation>]. <sentence_start/>However, in this study we did observe a reduction of sexual conflict. <sentence_start/>This could have been through a putative relaxation of genetic constraints on shared lifespan and life histories between the sexes. <sentence_start/>The reduction of conflict came from specific shifts in male not female life history. <sentence_start/>The maintenance of female fitness under both enhanced and reduced SDL could reflect that optimal fitness was achieved even in the absence of enhanced SDL. <sentence_start/>The sexes may have differed in their absolute fitness optima, but have achieved the optimum for their respective sex, under enhanced SDL."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Combined file of Figs S1-S6 and Table S1"
+  },
+  {
+   "section": "back",
+   "text": "Data accessibility"
+  },
+  {
+   "section": "back",
+   "text": "The raw data are archived in the DRYAD data repository ( ) [<citation rid=\"RSPB20170391C53\" ref-type=\"bibr\" doi=\"10.5061/dryad.69jr7\" pmcid=\"PMC5443951\" pmid=\"28469030\" count=\"1\">53</citation>]."
+  },
+  {
+   "section": "back",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "back",
+   "text": "T.C. and E.M.L.D. conceived the study, E.M.L.D. conducted the research, E.M.L.D. and W.G.R. analysed the data, E.M.L.D. and T.C. wrote the paper and E.M.L.D., W.G.R. and T.C. revised the paper."
+  },
+  {
+   "section": "back",
+   "text": "Competing interests"
+  },
+  {
+   "section": "back",
+   "text": "We declare we have no competing interests."
+  },
+  {
+   "section": "back",
+   "text": "Funding"
+  },
+  {
+   "section": "back",
+   "text": "The authors thank the Norwich Biosciences BBSRC Doctoral Training Partnership (BB/M011216/1, PhD studentship to E.M.L.D. and T.C.) and NERC (NE/K004697/1 grant to T.C.) for funding."
+  }
+ ]
+}

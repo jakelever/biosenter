@@ -1,0 +1,403 @@
+{
+ "pmid": 32695418,
+ "pmcid": 7340252,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A self-supervised workflow for particle picking in cryo-EM"
+  },
+  {
+   "section": "abstract",
+   "text": "A self-supervised workflow uses a 2D class average to progressively train a convolutional neural network for automated particle picking in cryo-EM."
+  },
+  {
+   "section": "abstract",
+   "text": "High-resolution single-particle cryo-EM data analysis relies on accurate particle picking. <sentence_start/>To facilitate the particle picking process, a self-supervised workflow has been developed. <sentence_start/>This includes an iterative strategy, which uses a 2D class average to improve training particles, and a progressively improved convolutional neural network for particle picking. <sentence_start/>To automate the selection of particles, a threshold is defined (%/Res) using the ratio of percentage class distribution and resolution as a cutoff. <sentence_start/>This workflow has been tested using six publicly available data sets with different particle sizes and shapes, and can automatically pick particles with minimal user input. <sentence_start/>The picked particles support high-resolution reconstructions at 3.0 Å or better. <sentence_start/>This workflow is a step towards automated single-particle cryo-EM data analysis at the stage of particle picking. <sentence_start/>It may be used in conjunction with commonly used single-particle analysis packages such as <italic toggle=\"yes\">Relion</italic>, <italic toggle=\"yes\">cryoSPARC</italic>, <italic toggle=\"yes\">cisTEM</italic>, <italic toggle=\"yes\">SPHIRE</italic> and <italic toggle=\"yes\">EMAN2</italic>."
+  },
+  {
+   "section": "article",
+   "text": "1."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The rapid development of computational algorithms and workflows has boosted the resolution revolution in high-resolution single-particle cryo-electron microscopy (cryo-EM) analysis (Cheng, 2015<citation ref-type=\"bibr\" rid=\"bb5\" doi=\"10.1016/j.cell.2015.03.049\" pmcid=\"PMC4409662\" pmid=\"25910205\" count=\"1\"> ▸</citation>; Henderson, 2015<citation ref-type=\"bibr\" rid=\"bb12\" doi=\"10.1016/j.abb.2015.02.036\" pmid=\"25796174\" count=\"1\"> ▸</citation>; Subramaniam <italic toggle=\"yes\">et al.</italic>, 2016<citation ref-type=\"bibr\" rid=\"bb23\" doi=\"10.1107/S2052252515023738\" pmcid=\"PMC4704073\" pmid=\"26870375\" count=\"1\"> ▸</citation>). <sentence_start/>With further improvements in electron microscope optics, camera speed and data collection strategies, collecting 4000-10 000 micrographs per day is becoming routine. <sentence_start/>Of course this improvement has resulted in substantial amounts of data to be processed, and it becomes time consuming to go through each of the steps in single-particle analysis workflows implemented in program packages such as <italic toggle=\"yes\">Relion</italic>, <italic toggle=\"yes\">cryo SPARC</italic>, <italic toggle=\"yes\">cisTEM</italic>, <italic toggle=\"yes\">SPHIRE</italic> and <italic toggle=\"yes\">EMAN2</italic> (Tang <italic toggle=\"yes\">et al.</italic>, 2007<citation ref-type=\"bibr\" rid=\"bb24\" doi=\"10.1016/j.jsb.2006.05.009\" pmid=\"16859925\" count=\"1\"> ▸</citation>; Fernandez-Leiro &amp; Scheres, 2017<citation ref-type=\"bibr\" rid=\"bb8\" doi=\"10.1107/S2059798316019276\" pmcid=\"PMC5458491\" pmid=\"28580911\" count=\"1\"> ▸</citation>; Moriya <italic toggle=\"yes\">et al.</italic>, 2017<citation ref-type=\"bibr\" rid=\"bb17\" doi=\"10.3791/55448\" pmcid=\"PMC5607996\" pmid=\"28570515\" count=\"1\"> ▸</citation>; Punjani <italic toggle=\"yes\">et al.</italic>, 2017<citation ref-type=\"bibr\" rid=\"bb19\" doi=\"10.1038/nmeth.4169\" pmid=\"28165473\" count=\"1\"> ▸</citation>; Grant <italic toggle=\"yes\">et al.</italic>, 2018<citation ref-type=\"bibr\" rid=\"bb10\" doi=\"10.7554/eLife.35383\" pmcid=\"PMC5854467\" pmid=\"29513216\" count=\"1\"> ▸</citation>). <sentence_start/>These packages have either manual or semi-automatic particle-picking processes. <sentence_start/>However, finding suitable parameters for automated particle picking remains difficult, a situation which is amplified when dealing with low-contrast micrographs with contamination or denatured particles. <sentence_start/>Traditional methods involve manually picking particles and using manually selected 2D class averages in order to obtain accurate templates for template-based automated particle picking (Frank &amp; Wagenknecht, 1983<citation ref-type=\"bibr\" rid=\"bb9\" count=\"1\"> ▸</citation>; Huang &amp; Penczek, 2004<citation ref-type=\"bibr\" rid=\"bb13\" doi=\"10.1016/j.jsb.2003.11.004\" pmid=\"15065671\" count=\"1\"> ▸</citation>; Chen &amp; Grigorieff, 2007<citation ref-type=\"bibr\" rid=\"bb4\" doi=\"10.1016/j.jsb.2006.06.001\" pmid=\"16870473\" count=\"1\"> ▸</citation>; Tang <italic toggle=\"yes\">et al.</italic>, 2007<citation ref-type=\"bibr\" rid=\"bb24\" doi=\"10.1016/j.jsb.2006.05.009\" pmid=\"16859925\" count=\"1\"> ▸</citation>; Langlois <italic toggle=\"yes\">et al.</italic>, 2014<citation ref-type=\"bibr\" rid=\"bb15\" doi=\"10.1016/j.jsb.2014.03.001\" pmcid=\"PMC4063204\" pmid=\"24607413\" count=\"1\"> ▸</citation>; Scheres, 2015<citation ref-type=\"bibr\" rid=\"bb21\" doi=\"10.1016/j.jsb.2014.11.010\" pmcid=\"PMC4318617\" pmid=\"25486611\" count=\"1\"> ▸</citation>; Punjani <italic toggle=\"yes\">et al.</italic>, 2017<citation ref-type=\"bibr\" rid=\"bb19\" doi=\"10.1038/nmeth.4169\" pmid=\"28165473\" count=\"1\"> ▸</citation>). <sentence_start/>Each of these steps may require expert knowledge to judge the quality of particles and to choose, on a trial-and-error basis, parameters for template-based particle picking. <sentence_start/>In an additional complication, with low-contrast micrographs such as close-to-focus ones that preserve high-resolution information, picking particles manually can be non-trivial and laborious even for experts."
+  },
+  {
+   "section": "article",
+   "text": "Owing to rapid accumulation of large cryo-EM data sets, using automated particle picking to facilitate single-particle analysis is highly desirable (Danev <italic toggle=\"yes\">et al.</italic>, 2019<citation ref-type=\"bibr\" rid=\"bb7\" doi=\"10.1016/j.tibs.2019.04.008\" pmid=\"31078399\" count=\"1\"> ▸</citation>). <sentence_start/>Convolutional neural networks (CNNs) have been increasingly used for particle picking in cryo-EM single-particle analysis (Wang <italic toggle=\"yes\">et al.</italic>, 2016<citation ref-type=\"bibr\" rid=\"bb28\" doi=\"10.1016/j.jsb.2016.07.006\" pmid=\"27424268\" count=\"1\"> ▸</citation>; Xiao &amp; Yang, 2017<citation ref-type=\"bibr\" rid=\"bb30\" count=\"1\"> ▸</citation>; Zhu <italic toggle=\"yes\">et al.</italic>, 2017<citation ref-type=\"bibr\" rid=\"bb32\" doi=\"10.1186/s12859-017-1757-y\" pmcid=\"PMC5521087\" pmid=\"28732461\" count=\"1\"> ▸</citation>; Bepler <italic toggle=\"yes\">et al.</italic>, 2018<citation ref-type=\"bibr\" rid=\"bb3\" pmcid=\"PMC5917602\" pmid=\"29707703\" count=\"1\"> ▸</citation>; Da <italic toggle=\"yes\">et al.</italic>, 2018<citation ref-type=\"bibr\" rid=\"bb6\" count=\"1\"> ▸</citation>; Nguyen <italic toggle=\"yes\">et al.</italic>, 2018<citation ref-type=\"bibr\" rid=\"bb18\" count=\"1\"> ▸</citation>; Al-Azzawi <italic toggle=\"yes\">et al.</italic>, 2019<italic toggle=\"yes\">b</italic> <citation ref-type=\"bibr\" rid=\"bb2\" doi=\"10.3390/genes10090666\" pmcid=\"PMC6770523\" pmid=\"31480377\" count=\"1\"> ▸</citation>; Wagner <italic toggle=\"yes\">et al.</italic>, 2019<citation ref-type=\"bibr\" rid=\"bb27\" doi=\"10.1038/s42003-019-0437-z\" pmcid=\"PMC6584505\" pmid=\"31240256\" count=\"1\"> ▸</citation>). <sentence_start/>These CNN-based methods may differ in the formation of network architecture. <sentence_start/>Nevertheless, they all require particle data for training, and the training quality determines the picking results and subsequent single-particle analysis. <sentence_start/>The training data can be composed of either manually picked particles or <italic toggle=\"yes\">ab initio</italic> picking by various feature-detection methods (Zhu <italic toggle=\"yes\">et al.</italic>, 2004<citation ref-type=\"bibr\" rid=\"bb33\" doi=\"10.1016/j.jsb.2003.09.033\" pmid=\"15065668\" count=\"1\"> ▸</citation>; Voss <italic toggle=\"yes\">et al.</italic>, 2009<citation ref-type=\"bibr\" rid=\"bb26\" doi=\"10.1016/j.jsb.2009.01.004\" pmcid=\"PMC2768396\" pmid=\"19374019\" count=\"1\"> ▸</citation>; Al-Azzawi <italic toggle=\"yes\">et al.</italic>, 2019<italic toggle=\"yes\">a</italic> <citation ref-type=\"bibr\" rid=\"bb1\" doi=\"10.1186/s12859-019-2926-y\" pmcid=\"PMC6567647\" pmid=\"31195977\" count=\"1\"> ▸</citation>). <sentence_start/>However, even these methods require the use of pre-trained CNN models. <sentence_start/>These models may not be always reliable for unknown particles due to data set bias (Wang <italic toggle=\"yes\">et al.</italic>, 2016<citation ref-type=\"bibr\" rid=\"bb28\" doi=\"10.1016/j.jsb.2016.07.006\" pmid=\"27424268\" count=\"1\"> ▸</citation>; Tegunov &amp; Cramer, 2019<citation ref-type=\"bibr\" rid=\"bb25\" doi=\"10.1038/s41592-019-0580-y\" pmcid=\"PMC6858868\" pmid=\"31591575\" count=\"1\"> ▸</citation>; Wagner <italic toggle=\"yes\">et al.</italic>, 2019<citation ref-type=\"bibr\" rid=\"bb27\" doi=\"10.1038/s42003-019-0437-z\" pmcid=\"PMC6584505\" pmid=\"31240256\" count=\"1\"> ▸</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "An effective strategy is needed such that CNNs can be trained in a self-supervised manner for improved particle picking. <sentence_start/>Considering the established utility of 2D class averages in selecting particles and CNNs in pattern recognition, we propose that the combination of the two could improve the quality of training data via iterative training, particle picking and 2D class averaging. <sentence_start/>To test this hypothesis, we devised a self-supervised iterative particle-picking workflow that may be used for automated particle picking and can be incorporated into a variety of single-particle analysis packages. <sentence_start/>Here we describe the process and performance of the workflow, which we have tested with six data sets that span a variety of particle sizes and shapes. <sentence_start/>We offer some ideas for further enhancement of the use of our workflow."
+  },
+  {
+   "section": "article",
+   "text": "2."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1."
+  },
+  {
+   "section": "article",
+   "text": "Cryo-EM micrograph data preparation"
+  },
+  {
+   "section": "article",
+   "text": "We used six publicly available EMPIAR data sets to test the workflow as summarized in Table 1 ▸ ( ). <sentence_start/>Among these data sets, EMPIAR 10204, 10218, 10028 and 10335 are unaligned movies. <sentence_start/>We used 5 × 5 patches and reported dose rates for dose-weighted motion correction in <italic toggle=\"yes\">Relion</italic> (Zivanov <italic toggle=\"yes\">et al.</italic>, 2018<citation ref-type=\"bibr\" rid=\"bb34\" doi=\"10.7554/eLife.42166\" pmcid=\"PMC6250425\" pmid=\"30412051\" count=\"1\"> ▸</citation>). <sentence_start/>Data sets EMPIAR 10184 and 10059 were already motion corrected and were used directly for downstream use. <sentence_start/>Per-micrograph contrast-transfer function (CTF) correction for both phases and amplitudes was performed in <italic toggle=\"yes\">Gctf</italic> (Marabini <italic toggle=\"yes\">et al.</italic>, 2015<citation ref-type=\"bibr\" rid=\"bb16\" doi=\"10.1016/j.jsb.2015.04.003\" pmcid=\"PMC4672951\" pmid=\"25913484\" count=\"1\"> ▸</citation>; Zhang, 2016<citation ref-type=\"bibr\" rid=\"bb31\" doi=\"10.1016/j.jsb.2015.11.003\" pmcid=\"PMC4711343\" pmid=\"26592709\" count=\"1\"> ▸</citation>). <sentence_start/>After CTF correction, we selected aligned micrographs with an estimated CTF resolution beyond 3.0 Å for EMPIAR 10204 and 4.0 Å for the others to test our workflow. <sentence_start/>To generate a subset of micrographs for iterative training and particle picking, we selected 20-40 micrographs, half of which had defocus below 1 µm and the other half had defocus below 2 µm. <sentence_start/>For EMPIAR 10204, we used the first 20 micrographs to test our workflow."
+  },
+  {
+   "section": "article",
+   "text": "2.2."
+  },
+  {
+   "section": "article",
+   "text": "A workflow for iterative particle picking"
+  },
+  {
+   "section": "article",
+   "text": "The workflow is built on the hypothesis that from a subset of micrographs, particles may be improved by selective filtering through a 2D class average and the improved particles can then be used to train a CNN. <sentence_start/>We propose that this iterative procedure will lead to the optimization of a fine-tuned CNN-based particle picker, capable of picking high-quality particles. <sentence_start/>The workflow is composed of three steps as illustrated in Fig. 1 ▸. <sentence_start/>The first step produces initial candidate particles for training the CNN. <sentence_start/>The second step trains the network progressively, leading to the final particle picking in step 3. <sentence_start/>To speed up the convergence of the CNN model, 2D class averages are used to produce improved particles [Fig. 1 <sentence_start/>▸(<italic toggle=\"yes\">a</italic>)]."
+  },
+  {
+   "section": "article",
+   "text": "The selection of 2D classes and particles is automated by using the ratio of percentage class distribution and resolution (denoted as %/Res). <sentence_start/>The percentage class distribution is the ratio of the number of particles within a 2D class average and the total number of particles. <sentence_start/>This value is reported in <italic toggle=\"yes\">Relion</italic> as the class distribution. <sentence_start/>Resolution is reported in <italic toggle=\"yes\">Relion</italic> as the estimated resolution in ångstroms (Å). <sentence_start/>The particles in the selected 2D classes are then used for iterative 2D class averaging and selection. <sentence_start/>For each iteration, particle sets exceeding the %/Res cutoff are used as input for the next iteration. <sentence_start/>The iteration continues until 90% of the input particles are selected [Fig. 1 <sentence_start/>▸(<italic toggle=\"yes\">a</italic>)]."
+  },
+  {
+   "section": "article",
+   "text": "Even with the use of 2D class averages, these initial particles may not be chosen optimally which may then lead to subsequent biased training and picking. <sentence_start/>Therefore, following training and picking, we performed 2D class averaging again to improve the selection of particle sets until 90% of particles exceed the %/Res threshold. <sentence_start/>The training, picking and 2D class average are iterated until convergence. <sentence_start/>Here, for each iteration the definition of convergence is based on the ratio of the number of qualified particles (<italic toggle=\"yes\">i.e.</italic> exceeded %/Res cutoff) to the total number of particles picked by the CNN model. <sentence_start/>In this work, we used 70% as a termination cutoff for convergence. <sentence_start/>That is, if after training 70% of the picked particles are in 2D classes with %/Res &gt; 0.1, we consider the training converged and the trained network is then used for production picking. <sentence_start/>In the event that the defined convergence of 70% was not satisfied in three iterations, we used the CNN model from the last iteration for production picking."
+  },
+  {
+   "section": "article",
+   "text": "2.3."
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Ab initio</italic> particle picking"
+  },
+  {
+   "section": "article",
+   "text": "To produce candidate particles for training, we implemented <italic toggle=\"yes\">Localpicker</italic> for <italic toggle=\"yes\">ab initio</italic> particle picking. <sentence_start/>The program makes use of a threshold mask image calculated based on the value of local pixels (Singh <italic toggle=\"yes\">et al.</italic>, 2012<citation ref-type=\"bibr\" rid=\"bb22\" count=\"1\"> ▸</citation>). <sentence_start/>With the threshold mask image, features were detected, labeled and written to a star file, one file for each micrograph. <sentence_start/>One particular feature of <italic toggle=\"yes\">Localpicker</italic> is that it is a shape-based method, thus enabling the picking of particles of various shapes simultaneously. <sentence_start/><italic toggle=\"yes\">Localpicker</italic> is robust and requires only three parameters to control the particle picking process: estimated particle size in pixels, bin size and threshold. <sentence_start/>The particle size is used to remove particles that are too close on micrographs. <sentence_start/>The bin size is used to reduce micrograph size to facilitate picking. <sentence_start/>The threshold is used for feature detection; local maxima smaller than the threshold value are ignored."
+  },
+  {
+   "section": "article",
+   "text": "For five EMPIAR data sets 10204, 10184, 10059, 10028 and 10335, we used <italic toggle=\"yes\">Localpicker</italic> for initial particle picking with bin size 9 and threshold 0.001 or 0.0015. <sentence_start/>For EMPIAR 10218 (20S proteasome), due to aggregation among particles, we manually picked ∼1000 particles for downstream workflow."
+  },
+  {
+   "section": "article",
+   "text": "2.4."
+  },
+  {
+   "section": "article",
+   "text": "Initial particle selection"
+  },
+  {
+   "section": "article",
+   "text": "Initial particles picked manually or by <italic toggle=\"yes\">Localpicker</italic> were extracted from micrographs and scaled to 64 × 64 pixels using <italic toggle=\"yes\">Relion</italic> (version 3.0.7) followed by iterative 2D class averaging and selection of 2D classes. <sentence_start/>The number of classes used for 2D classification is the total number of particles divided by 200. <sentence_start/>The selection of 2D classes was based on %/Res. <sentence_start/>Only those classes with %/Res &gt; 0.1 were selected for the next cycle of 2D class average. <sentence_start/>The 2D class averaging and particle selection were iterated until more than 90% of particles were selected (<italic toggle=\"yes\">i.e.</italic> more than 90% of picked particles reach the aforementioned cutoff value)."
+  },
+  {
+   "section": "article",
+   "text": "2.5."
+  },
+  {
+   "section": "article",
+   "text": "CNN architecture"
+  },
+  {
+   "section": "article",
+   "text": "For our particle-picking workflow, we employed a three-convolution-layer network architecture [Fig. 2 <sentence_start/>▸(<italic toggle=\"yes\">a</italic>)]. <sentence_start/>The network contains an input layer, three layers of convolution (Conv2D) followed by a pooling operation (MaxPooling2D) for feature extraction at various scales. <sentence_start/>Finally, two densely connected layers are used for input classification. <sentence_start/>The last dense layer has two outputs, whose values correspond to the relative probability of classification as a particle or a non-particle. <sentence_start/>Given a candidate image, the network assigns a probability of being a particle and non-particle with a summed probability of 1."
+  },
+  {
+   "section": "article",
+   "text": "2.6."
+  },
+  {
+   "section": "article",
+   "text": "Iterative training and particle picking"
+  },
+  {
+   "section": "article",
+   "text": "Particles selected from the initialization stage were used for training the CNN implemented using <italic toggle=\"yes\">Keras</italic> ( ) with <italic toggle=\"yes\">TensorFlow</italic> as the backend. <sentence_start/>For the training and picking, we binned particles by 4 and resized them to 64 × 64 pixels. <sentence_start/>For each iteration, the training was performed for 30 epochs and the training accuracy, validation accuracy, training loss and validation loss were monitored for convergence. <sentence_start/>No parameters were specially tuned during the iterative training and particle-picking processes. <sentence_start/>We coded the <italic toggle=\"yes\">Keras</italic>-based particle training and picking as the program <italic toggle=\"yes\">Kpicker.</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Data augmentation was used to synthesize additional data to facilitate the training. <sentence_start/>Specifically, we used random rotations of 20° and flips (vertical and horizontal) for augmentation. <sentence_start/>Particles selected from the 2D class average were labeled as 1. <sentence_start/>Non-particles were randomly selected from empty areas at a minimum distance of a particle diameter from known particles. <sentence_start/>These non-particles were labeled as 0."
+  },
+  {
+   "section": "article",
+   "text": "To predict whether a candidate image is a particle or not, we optimized the model with respect to the binary cross-entropy loss where a softmax activation function was used on the final layer. <sentence_start/><italic toggle=\"yes\">Kpicker</italic> scans over micrographs to produce a stack of candidate images 64 × 64 pixels in size. <sentence_start/>These images were provided to the model to obtain predications of particles or non-particles. <sentence_start/>We treat a candidate image as a particle if its binary classification probability is 0.9 or higher. <sentence_start/>When the two particles are too close to each other, we keep the particle with a higher predicted probability. <sentence_start/>The same 2D class average was used to filter particles and %/Res of 0.1 was used for automatic selection of 2D classes. <sentence_start/>In general, two iterations of <italic toggle=\"yes\">Kpicker</italic> training and picking followed by 2D class averaging are sufficient for convergence. <sentence_start/>The CNN was then used for production picking against all micrographs. <sentence_start/>Table 1 ▸ summarizes the number of particles picked for the six test data sets."
+  },
+  {
+   "section": "article",
+   "text": "2.7."
+  },
+  {
+   "section": "article",
+   "text": "Reconstruction of 3D maps"
+  },
+  {
+   "section": "article",
+   "text": "Picked particles were extracted as 64 × 64 pixels and further cleaned up by 2D class averages in <italic toggle=\"yes\">Relion</italic> (Zivanov <italic toggle=\"yes\">et al.</italic>, 2018<citation ref-type=\"bibr\" rid=\"bb34\" doi=\"10.7554/eLife.42166\" pmcid=\"PMC6250425\" pmid=\"30412051\" count=\"1\"> ▸</citation>) or <italic toggle=\"yes\">cryoSPARC</italic> (Punjani <italic toggle=\"yes\">et al.</italic>, 2017<citation ref-type=\"bibr\" rid=\"bb19\" doi=\"10.1038/nmeth.4169\" pmid=\"28165473\" count=\"1\"> ▸</citation>). <sentence_start/>Cleaned-up particles were re-centered and re-extracted with a bin size of 2 for EMPIAR 10335 and 1 for the other data sets. <sentence_start/>These particles were used for 3D classifications and high-resolution refinements. <sentence_start/>Appropriate symmetry was enforced for all refinements except the <italic toggle=\"yes\">ab initio</italic> 3D reconstructions in which none-symmetry (<italic toggle=\"yes\">C</italic>1) was used. <sentence_start/>The local map resolution was estimated using <italic toggle=\"yes\">ResMap</italic> (Kucukelbir <italic toggle=\"yes\">et al.</italic>, 2014<citation ref-type=\"bibr\" rid=\"bb14\" doi=\"10.1038/nmeth.2727\" pmcid=\"PMC3903095\" pmid=\"24213166\" count=\"1\"> ▸</citation>). <sentence_start/><italic toggle=\"yes\">B</italic> factors of the reconstructed maps were estimated using a Guinier plot (Rosenthal &amp; Henderson, 2003<citation ref-type=\"bibr\" rid=\"bb20\" doi=\"10.1016/j.jmb.2003.07.013\" pmid=\"14568533\" count=\"1\"> ▸</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1."
+  },
+  {
+   "section": "article",
+   "text": "Training and picking with the workflow"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Kpicker</italic> in our workflow contains a training and a picking module. <sentence_start/>To speed up the training process, we down-sized all particles to 64 × 64 pixels for all six data sets. <sentence_start/>Particles from these subset micrographs were used for training the network for production picking. <sentence_start/>Within 30 epochs, the training process had converged, signaled by a plateau in both the accuracy and loss [Figs. <sentence_start/>2 ▸(<italic toggle=\"yes\">b</italic>)-2(<italic toggle=\"yes\">e</italic>)]. <sentence_start/>With the filtered particles from the iterative 2D class averages, the training process is quite robust with an accuracy beyond 0.9 [Figs. <sentence_start/>2 ▸(<italic toggle=\"yes\">b</italic>) and 2(<italic toggle=\"yes\">c</italic>)]. <sentence_start/>Among these six test data sets, ribosome data show the best validation performance (accuracy and loss) while aldolase and strept avidin data lead to poorer performance. <sentence_start/>Considering that the mass of a ribosome is 1.3 MDa; and streptavidin and aldolase have masses below 200 kDa, such divergent performance might suggest a particle-size dependent training efficiency. <sentence_start/>This is consistent with the fact that large particles have higher signal-to-noise ratios compared with particles of smaller sizes."
+  },
+  {
+   "section": "article",
+   "text": "To visualize the picking quality of our workflow, we show two representative micrographs with picked particles for the β-galactosidase data (EMPIAR 10204) (Fig. 3 ▸). <sentence_start/>The two micrographs contain some ice contamination. <sentence_start/>With a particle size of 240 pixels in diameter (212 Å), a bin size of 9 and a threshold of 0.0015, <italic toggle=\"yes\">Localpicker</italic> effectively picked most particles. <sentence_start/>However, the ice contaminants were also picked due to their high intensities. <sentence_start/>After iterative training and picking, <italic toggle=\"yes\">Kpicker</italic> classified these ice-contaminated areas as non-particles, leading to improved picking. <sentence_start/>Such improved picking capability is likely to be the result of improved training data and hence an improved CNN model."
+  },
+  {
+   "section": "article",
+   "text": "We note that, for the six data sets, we did not adjust training and picking parameters used for <italic toggle=\"yes\">Kpicker</italic> except for particle size. <sentence_start/>For each data set, the particle size used in <italic toggle=\"yes\">Kpicker</italic> was the same as that used for <italic toggle=\"yes\">Localpicker</italic> or manual picking. <sentence_start/>Therefore, our workflow and the CNN promise methods for allowing self-supervised training and picking across multiple data sets with minimal required adjustments to support single-particle cryo-EM data analysis."
+  },
+  {
+   "section": "article",
+   "text": "3.2."
+  },
+  {
+   "section": "article",
+   "text": "Use of the %/Res criterion for automated 2D class selection"
+  },
+  {
+   "section": "article",
+   "text": "In our workflow, an important step is the selection of particles from 2D classes for subsequent training. <sentence_start/>In general, good classes have a higher percentage class distribution and a higher resolution (a smaller value). <sentence_start/>Instead of using a single criterion that is either class distribution or resolution, we chose to use their ratio (%/Res) to filter 2D classes. <sentence_start/>Fig. 4 <sentence_start/>▸ shows the distribution of %/Res for the last iteration with respect to the number of classes for the six test data sets. <sentence_start/>We found that %/Res gives a sharp contrast between the number of good and bad classes, and can be used to select classes and thus particles automatically. <sentence_start/>For five data sets, %/Res decreases rapidly before reaching a value of 0.1. <sentence_start/>The only outlier is the streptavidin data in which more than 50 classes have a %/Res &gt; 0.1. <sentence_start/>Tetrameric streptavidin is a small protein of 53 kDa. <sentence_start/>A wider %/Res distribution is consistent with a lower accuracy in alignment of particles within each 2D class. <sentence_start/>Nevertheless, we found that a value of 0.1 for %/Res is a good compromise for selecting promising 2D classes automatically, including streptavidin, for training the network to convergence [Figs. <sentence_start/>2 ▸(<italic toggle=\"yes\">b</italic>)-2(<italic toggle=\"yes\">e</italic>)]."
+  },
+  {
+   "section": "article",
+   "text": "With the established workflow and the automated 2D class selection criterion of 0.1%/Res, we performed the production picking in <italic toggle=\"yes\">Kpicker</italic> for all micrographs for the six data sets, each with an individually trained network and a respective particle size. <sentence_start/>Compared with the initial particle picking and 2D class averaging [Fig. 1 <sentence_start/>▸(<italic toggle=\"yes\">a</italic>)], interactive training and picking [Fig. 1 <sentence_start/>▸(<italic toggle=\"yes\">b</italic>)] facilitate the selection of more 2D classes and views (Fig. S1 of the supporting information). <sentence_start/>Table 1 ▸ summarizes the total number of particles picked for each data set, ranging from 58 710 particles for β-galactosidase (213 micrographs) to 922 306 particles for aldolase (1100 micrographs)."
+  },
+  {
+   "section": "article",
+   "text": "3.3."
+  },
+  {
+   "section": "article",
+   "text": "High-resolution 3D reconstructions"
+  },
+  {
+   "section": "article",
+   "text": "To test whether our workflow and the associated picked particles support high-resolution single-particle analysis. <sentence_start/>We performed 2D and 3D classifications and 3D refinements for the six data sets from the picked particles. <sentence_start/>With particles extracted and scaled to 64 × 64 pixels, 2D classification reveals clear classes with distinctive molecular shapes and atomic features for all six data sets (Fig. 5 ▸). <sentence_start/>For TRPV1 channels in protein nanodiscs, the contrast between the channels and the disks allow the appreciation of the embedded transmembrane regions [Fig. 5 <sentence_start/>▸(<italic toggle=\"yes\">e</italic>)]. <sentence_start/>At this 2D classification stage, we selected particles with distinctive 2D features for 3D classifications and refinements."
+  },
+  {
+   "section": "article",
+   "text": "To further test whether picked particles support high-resolution reconstructions, we re-centered and re-extracted these selected particles from micrographs and performed 3D classifications and refinements for achieving high resolution. <sentence_start/>Using the gold standard Fourier shell correlation at 0.143 as a cutoff, particles from all six test data sets are readily refined to maps of a resolution of 3 Å or better: 3.0 Å for TRPV1 embedded in protein nanodiscs and 2.4 Å for proteasome (Fig. 6 <sentence_start/>▸). <sentence_start/>The numbers of particles used for their final refinements are listed in Table 1 ▸. <sentence_start/>Their local resolution maps indicate high-resolution features [Figs. <sentence_start/>7 ▸(<italic toggle=\"yes\">a</italic>)-7(<italic toggle=\"yes\">f</italic>)]. <sentence_start/>These test data sets cover diverse samples of different shapes and sizes from 1.3 MDa ribosomes to 53 kDa streptavidin. <sentence_start/>Compared with the reported resolutions in the database, particles from our workflow allowed 3D reconstructions at equivalent resolutions (Table 1 ▸)."
+  },
+  {
+   "section": "article",
+   "text": "To evaluate our workflow relative to other particle picking programs such as <italic toggle=\"yes\">Relion</italic>, we used the deposited particles of the ribosome data (EMPIAR 10028). <sentence_start/>These ribosome particles (105 247) were picked using <italic toggle=\"yes\">Relion</italic> and were refined to 3.2 Å resolution (Wong <italic toggle=\"yes\">et al.</italic>, 2014<citation ref-type=\"bibr\" rid=\"bb29\" doi=\"10.7554/eLife.03080\" pmcid=\"PMC4086275\" pmid=\"24913268\" count=\"1\"> ▸</citation>). <sentence_start/>With our workflow, <italic toggle=\"yes\">Kpicker</italic> picked 155 264 particles from the ribosome data. <sentence_start/>If we take these shiny particles (<italic toggle=\"yes\">i.e.</italic> after particle-wise motion correction with <italic toggle=\"yes\">B</italic>-factor weighting by <italic toggle=\"yes\">Relion</italic>) as ground truth, 95.8% of them (100 841) were picked by <italic toggle=\"yes\">Kpicker</italic> with their coordinate centers within 40 pixels. <sentence_start/>From these <italic toggle=\"yes\">Kpicker</italic> picked particles, a 2.84 Å reconstruction can be readily obtained (Table 1 ▸)."
+  },
+  {
+   "section": "article",
+   "text": "Therefore, our workflow, including the use of 0.1%/Res selection criterion, can pick high-quality particles in sufficient quantities to support high-resolution cryo-EM data analysis."
+  },
+  {
+   "section": "article",
+   "text": "4."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "4.1."
+  },
+  {
+   "section": "article",
+   "text": "Particle picking"
+  },
+  {
+   "section": "article",
+   "text": "In this work, we have proposed and tested a deep-learning-based iterative workflow to facilitate particle picking and improvement for cryo-EM single-particle analysis. <sentence_start/>With a prior knowledge of particle size (in pixels), the particle-picking process can be automated from initial particle selection to filtering by 2D class averages and finally to large-scale production picking (Fig. 1 ▸)."
+  },
+  {
+   "section": "article",
+   "text": "In our workflow, we used <italic toggle=\"yes\">Localpicker</italic> and the 2D class average to generate initial particles for <italic toggle=\"yes\">Kpicker</italic> training. <sentence_start/>One can also pick particles manually, as was done for proteasome data (EMPIAR 10218), and use them for <italic toggle=\"yes\">Kpicker</italic> training with or without the 2D class average."
+  },
+  {
+   "section": "article",
+   "text": "There are no limitations on the number of particles to be used for training. <sentence_start/>With the β-galactosidase data as an example, 100 particles give good training and picking results although more particles are beneficial. <sentence_start/>We found that 50 particles can lead to the picking of 13% of particles with their coordinate centers within 20 pixels of the final refined centers. <sentence_start/>This increased significantly to 65% when 100 particles were used for training. <sentence_start/>Therefore, we suggest using at least 100 particles for <italic toggle=\"yes\">Kpicker</italic> training. <sentence_start/>With the iterative 2D class average and training procedure, <italic toggle=\"yes\">Kpicker</italic> tends to pick more as well as improved particles. <sentence_start/>For the production picking of the β-galactosidase data with 4656 training particles, 81% of particles have their coordinate centers within 20 pixels of the final refined positions."
+  },
+  {
+   "section": "article",
+   "text": "We have developed two pickers, <italic toggle=\"yes\">Localpicker</italic> and <italic toggle=\"yes\">Kpicker</italic>, for testing with our workflow. <sentence_start/>Both pickers take MRC-format micrographs and write out particle coordinates in star format. <sentence_start/>Therefore, they may be used alone to pick particles for other workflows. <sentence_start/>In the current implementation, the two pickers have their limitations. <sentence_start/>For example, we have not implemented an ice detection step; therefore, an ice contaminated area may be picked by <italic toggle=\"yes\">Localpicker</italic>. <sentence_start/>Nevertheless, these false particles were rejected from the 2D class average and skipped by <italic toggle=\"yes\">Kpicker</italic> (Fig. 3 ▸). <sentence_start/>The effectiveness of excluding ice areas from <italic toggle=\"yes\">Kpicker</italic> indicates the utility of our workflow in facilitating single-particle analysis. <sentence_start/>One can also include ice areas as negative particles for training as used by <italic toggle=\"yes\">FastParticlePicker</italic> (Xiao &amp; Yang, 2017<citation ref-type=\"bibr\" rid=\"bb30\" count=\"1\"> ▸</citation>). <sentence_start/>As a proof of concept, the current version of <italic toggle=\"yes\">Kpicker</italic> training makes use of a GPU while the picking uses CPU only. <sentence_start/>To speed up the <italic toggle=\"yes\">Kpicker</italic> picking performance, picking with a GPU is desirable (Wagner <italic toggle=\"yes\">et al.</italic>, 2019<citation ref-type=\"bibr\" rid=\"bb27\" doi=\"10.1038/s42003-019-0437-z\" pmcid=\"PMC6584505\" pmid=\"31240256\" count=\"1\"> ▸</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "For the six test data sets of various pixel sizes ranging from 0.536 (streptavidin) to 1.34 Å (ribosome), we found that a bin size between 7 and 9 and a threshold of 0.001-0.0015 yield acceptable results with <italic toggle=\"yes\">Localpicker</italic>. <sentence_start/>If one needs to optimize the initial picking, altering the bin size and threshold is recommended. <sentence_start/>In <italic toggle=\"yes\">Localpicker</italic>, there is almost no need to change the particle size because it is only used for cleaning up close-contract particles and does not contribute to pattern recognition."
+  },
+  {
+   "section": "article",
+   "text": "4.2."
+  },
+  {
+   "section": "article",
+   "text": "Low-defocus micrographs"
+  },
+  {
+   "section": "article",
+   "text": "For the β-galactosidase data, we selected the first 20 micrographs for iterative training and picking. <sentence_start/>We found that for micrographs with defocus &lt; 0.5 µm, the number of picked particles is lower than more defocused micrographs. <sentence_start/>To test whether our workflow can pick particles on low-defocus micrographs, we selected 20 micrographs of the β-galactosid ase data with estimated CTF defocus below 0.5 µm and applied the same workflow for particle picking without changing any parameters. <sentence_start/>After the iterative training, <italic toggle=\"yes\">Kpicker</italic> picked 73 898 particles from 213 micrographs. <sentence_start/>Fig. 8 <sentence_start/>▸(<italic toggle=\"yes\">a</italic>) is a representative micrograph with an estimated CTF defocus of 0.4 µm. <sentence_start/><italic toggle=\"yes\">Kpicker</italic> skipped the ice contaminants and picked most particles [Fig. 8 <sentence_start/>▸(<italic toggle=\"yes\">b</italic>)]. <sentence_start/>Compared with the 58 710 particles found using only the first 20 micrographs for iterative training and picking, using the low-defocus micrographs for training allowed picking of 26% more particles. <sentence_start/>Therefore, our workflow might be promising for picking on low-defocus micrographs."
+  },
+  {
+   "section": "article",
+   "text": "4.3."
+  },
+  {
+   "section": "article",
+   "text": "Iteration and improvement"
+  },
+  {
+   "section": "article",
+   "text": "Using the 2D class average is a standard and routine procedure for cleaning up particles in single-particle cryo-EM analysis. <sentence_start/>In our workflow, we gain two advantages from 2D class averaging. <sentence_start/>The first is to repeatedly improve training data. <sentence_start/>Such improvements may effectively remove contaminants such as ice (Figs. <sentence_start/>3 ▸ and 8 ▸). <sentence_start/>The second is to use the ratio of percentage class distribution and resolution (%/Res) as a cutoff for automated selection of 2D classes. <sentence_start/>We found that %/Res is correlated well with our visual inspection and selection of 2D classes. <sentence_start/>Empirically, for the six data sets, we used an %/Res of 0.1 for selection of 2D classes for automated iterative particle improvement and picking (Fig. 4 ▸). <sentence_start/>One could also use a more stringent criterion (for example, %/Res &gt; 0.2) for more difficult particle picking."
+  },
+  {
+   "section": "article",
+   "text": "Although our workflow is devised for automated particle picking, one can also manually select 2D classes for iterative training and picking. <sentence_start/>With either automated (based on %/Res) or manual selection, improved particles may be used for <italic toggle=\"yes\">Kpicker</italic> training and picking. <sentence_start/>One can even use iterative 2D classification and the %/Res criterion to select improved templates for a template-based particle picking."
+  },
+  {
+   "section": "article",
+   "text": "4.4."
+  },
+  {
+   "section": "article",
+   "text": "Particle picking efficiency for high-resolution reconstruction"
+  },
+  {
+   "section": "article",
+   "text": "In our workflow, we used 2D class averaging to improve particles for CNN training and picking. <sentence_start/>Therefore, we expect that a high percentage of picked particles will contribute to the final refinement of 3D maps. <sentence_start/>Surprisingly, for the six data sets, we found that the percentage values are quite different, from 76.5% for the ribosome to only 1.8% for streptavidin (Table 1 ▸). <sentence_start/>Realizing that the ribosome has a molecular weight of 1.3 MDa (Wong <italic toggle=\"yes\">et al.</italic>, 2014<citation ref-type=\"bibr\" rid=\"bb29\" doi=\"10.7554/eLife.03080\" pmcid=\"PMC4086275\" pmid=\"24913268\" count=\"1\"> ▸</citation>) and streptavidin is one of the smallest samples tested by single-particle cryo-EM (Han <italic toggle=\"yes\">et al.</italic>, 2020<citation ref-type=\"bibr\" rid=\"bb11\" doi=\"10.1073/pnas.1919114117\" pmcid=\"PMC6969529\" pmid=\"31879346\" count=\"1\"> ▸</citation>) suggests a size-dependent picking efficiency. <sentence_start/>To examine this idea more closely, we plotted the percentage of picked particles used for high-resolution reconstructions with respect to the molecular weight of samples used in this work (Fig. 9 ▸). <sentence_start/>We found there is a strong trend of decreasing picking efficiency with reduced sample molecular weight. <sentence_start/>We attribute this at least in part to beam-induced damage and denaturing at the water-air interface. <sentence_start/>It is possible that smaller particles are prone to more damage and denaturing compared with large particles. <sentence_start/>Consequently, only a small portion of particles may be used for a high-resolution 3D refinement. <sentence_start/>Such damage and denaturing may not be detected at the particle picking stage which uses only low-resolution binned images. <sentence_start/>Consequently, for particles picked by the workflow, we still needed to use additional 2D and 3D classifications to filter out particles before we could reach high resolutions. <sentence_start/>In addition, Fig. 9 <sentence_start/>▸ suggests that, for small particles, we should expect a low picking efficiency irrespective of the picking programs used."
+  },
+  {
+   "section": "article",
+   "text": "One main feature of the workflow is to eliminate these trial-and-error parameters in particle picking through iterative training of the CNN model with improved particles from the self-supervised 2D class average. <sentence_start/>Therefore, we did not change input parameters in <italic toggle=\"yes\">Kpicker</italic> except for the particle size which is data dependent. <sentence_start/>With the six data sets tested, we have demonstrated that the combination of the CNN model and our workflow is a highly efficient method to pick a sufficient quantity and quality of particles to support high-resolution reconstructions."
+  },
+  {
+   "section": "article",
+   "text": "5."
+  },
+  {
+   "section": "article",
+   "text": "Concluding remarks"
+  },
+  {
+   "section": "article",
+   "text": "Particle picking is still a time-consuming step in single-particle cryo-EM data analysis. <sentence_start/>We have proposed and tested a workflow that allows for self-supervised iterative particle picking through the integration of a deep learning-based particle picker and 2D class averaging for the generation of improved training data. <sentence_start/>The workflow supports the picking of particles suitable for high-resolution single-particle analysis. <sentence_start/>Either the entire or part of the workflow may be incorporated into other workflows for automated cryo-EM single-particle analysis."
+  },
+  {
+   "section": "article",
+   "text": "6."
+  },
+  {
+   "section": "article",
+   "text": "Code availability"
+  },
+  {
+   "section": "article",
+   "text": "The code for the workflow including the two pickers is available at ."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Supplemental Figure S1. <sentence_start/>DOI:"
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Schematic drawing for the workflow of iterative particle training and picking. <sentence_start/>A small data set, usually 20-40 micrographs, is used for the workflow. <sentence_start/>The workflow comprises (<italic toggle=\"yes\">a</italic>) an initialization step, (<italic toggle=\"yes\">b</italic>) a training step followed by (<italic toggle=\"yes\">c</italic>) a picking step. <sentence_start/>The process uses iterations of 2D class averages to improve particles for training a CNN for particle picking."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "CNN for training and picking. <sentence_start/>(<italic toggle=\"yes\">a</italic>) Three-convolutional-layer CNN architecture. <sentence_start/>The three Conv2D layers use the indicated number of filters in parentheses. <sentence_start/>After each Conv2D, the spatial dimensions of the filters are reduced by a factor of two through the pooling process. <sentence_start/>Two dense layers are used to classify candidate particles. <sentence_start/>(<italic toggle=\"yes\">b</italic>)-(<italic toggle=\"yes\">e</italic>) Training results for the six EMPIAR data sets demonstrate the convergence of the workflow. <sentence_start/>(<italic toggle=\"yes\">b</italic>) Training accuracy. <sentence_start/>(<italic toggle=\"yes\">c</italic>) Validation accuracy. <sentence_start/>(<italic toggle=\"yes\">d</italic>) Training loss function. <sentence_start/>(<italic toggle=\"yes\">e</italic>) Validation loss function."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Particle picking before and after iterative training and picking. <sentence_start/>Picked particles are indicated as green circles. <sentence_start/>(<italic toggle=\"yes\">a</italic>) and (<italic toggle=\"yes\">b</italic>) Two representative micrographs with particles picked initially by <italic toggle=\"yes\">Localpicker</italic>. <sentence_start/>(<italic toggle=\"yes\">c</italic>) and (<italic toggle=\"yes\">d</italic>) Improved particle picking after the iterative procedure of the workflow. <sentence_start/>In the workflow, iced areas have been effectively excluded from picking."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Plot of %/Res with respect to the number of classes for the six EMPIAR data sets. <sentence_start/>Particles were iteratively trained by the CNN model and improved by the 2D class average until 90% or more particles were selected by %/Res of 0.1 (dashed purple line)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Representative 2D classes for the six EMPIAR data sets. <sentence_start/>Particles picked by the workflow were filtered by 2D class averages. <sentence_start/>(<italic toggle=\"yes\">a</italic>) β-Galactosidase, (<italic toggle=\"yes\">b</italic>) 20S proteasome, (<italic toggle=\"yes\">c</italic>) aldolase, (<italic toggle=\"yes\">d</italic>) TRPV1, (<italic toggle=\"yes\">e</italic>) 80S ribosome, (<italic toggle=\"yes\">f</italic>) streptavidin."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 6"
+  },
+  {
+   "section": "floating",
+   "text": "Gold-standard Fourier shell correlation for the six EMPIAR data sets. <sentence_start/>The dashed purple line indicates the cutoff of FSC at 0.143."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 7"
+  },
+  {
+   "section": "floating",
+   "text": "Refined 3D maps for the six EMPIAR data sets. <sentence_start/>For each data set, refined maps were color coded based on local-resolution estimation. <sentence_start/>The size of each reconstruction roughly reflects its actual size relative to a ribosome. <sentence_start/>(<italic toggle=\"yes\">a</italic>) β-Galactosidase (520 kDa), (<italic toggle=\"yes\">b</italic>) 20S proteasome (700 kDa). <sentence_start/>(<italic toggle=\"yes\">c</italic>) aldolase (150 kDa), (<italic toggle=\"yes\">d</italic>) TRPV1 (280 kDa), (<italic toggle=\"yes\">e</italic>) 80S ribosome (1263 kDa), (<italic toggle=\"yes\">f</italic>) streptavidin (53 kDa). <sentence_start/>The keys indicate the resolutions of the colored maps: dark blue for higher resolution, and dark red for lower resolution."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 8"
+  },
+  {
+   "section": "floating",
+   "text": "Picking on a low-defocus micrograph of the β-galactosidase data. <sentence_start/>(<italic toggle=\"yes\">a</italic>) Micrograph with a CTF estimated defocus of 0.4 µm. (<italic toggle=\"yes\">b</italic>) Particles picked by <italic toggle=\"yes\">Kpicker</italic> after iterative training and picking with 20 micrographs of defocus values below 0.5 µm."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 9"
+  },
+  {
+   "section": "floating",
+   "text": "Particle-size dependent picking efficiency. <sentence_start/>The percentage of picked particles used for the final map refinement was plotted with respect to sample molecular weight in kDa. <sentence_start/>For smaller sized particles, only a smaller percentage of total particles may be used for the final map refinement."
+  }
+ ]
+}

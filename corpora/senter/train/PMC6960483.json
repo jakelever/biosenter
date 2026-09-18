@@ -1,0 +1,463 @@
+{
+ "pmid": 31998097,
+ "pmcid": 6960483,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Preservation of Interference Effects in Working Memory After Orbitofrontal Damage"
+  },
+  {
+   "section": "abstract",
+   "text": "Orbitofrontal cortex (OFC) is implicated in multiple cognitive processes, including inhibitory control, context memory, recency judgment, and choice behavior. <sentence_start/>Despite an emerging understanding of the role of OFC in memory and executive control, its necessity for core working memory (WM) operations remains undefined. <sentence_start/>Here, we assessed the impact of OFC damage on interference effects in WM using a Recent Probes task based on the Sternberg item-recognition task (1966). <sentence_start/>Subjects were asked to memorize a set of letters and then indicate whether a probe letter was presented in a particular set. <sentence_start/>Four conditions were created according to the forthcoming response (“yes”/“no”) and the recency of the probe (presented in the previous trial set or not). <sentence_start/>We compared behavioral and electroencephalography (EEG) responses between healthy subjects (<italic toggle=\"yes\">n</italic> = 14) and patients with bilateral OFC damage (<italic toggle=\"yes\">n</italic> = 14). <sentence_start/>Both groups had the same recency pattern of slower reaction time (RT) when the probe was presented in the previous trial but not in the current one, reflecting the proactive interference (PI). <sentence_start/>The within-group electrophysiological results showed no condition difference during letter encoding and maintenance. <sentence_start/>In contrast, event-related potentials (ERPs) to probes showed distinct within-group condition effects, and condition by group effects. <sentence_start/>The response and recency effects for controls occurred within the same time window (300-500 ms after probe onset) and were observed in two distinct spatial groups including right centro-posterior and left frontal electrodes. <sentence_start/>Both clusters showed ERP differences elicited by the response effect, and one cluster was also sensitive to the recency manipulation. <sentence_start/>Condition differences for the OFC group involved two different clusters, encompassing only left hemisphere electrodes and occurring during two consecutive time windows (345-463 ms and 565-710 ms). <sentence_start/>Both clusters were sensitive to the response effect, but no recency effect was found despite the behavioral recency effect. <sentence_start/>Although the groups had different electrophysiological responses, the maintenance of letters in WM, the evaluation of the context of the probe, and the decision to accept or reject a probed letter were preserved in OFC patients. <sentence_start/>The results suggest that neural reorganization may contribute to intact recency judgment and response after OFC damage."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The orbitofrontal cortex (OFC)<sup>1</sup> is involved in several high-level cognitive functions such as goal-directed attention (Luu et al., <citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1523/jneurosci.20-01-00464.2000\" pmid=\"10627622\" pmcid=\"PMC6774138\" count=\"1\">2000</citation>; Badre and Wagner, <citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1016/s0896-6273(03)00851-1\" pmid=\"14766185\" count=\"1\">2004</citation>; Ullsperger and Cramon, <citation rid=\"B61\" ref-type=\"bibr\" doi=\"10.1038/nn1104-1173\" pmid=\"15508012\" count=\"1\">2004</citation>; Walton et al., <citation rid=\"B65\" ref-type=\"bibr\" doi=\"10.1038/nn1339\" pmid=\"15494729\" count=\"1\">2004</citation>; Hebscher and Gilboa, <citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.neuropsychologia.2016.05.003\" pmid=\"27150705\" count=\"1\">2016</citation>), inhibitory control (Godefroy et al., <citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1016/s0010-9452(08)70782-2\" pmid=\"10213531\" count=\"1\">1999</citation>; Picton et al., <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhk031\" pmid=\"16699079\" count=\"1\">2007</citation>), and decision-making (Bechara et al., <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1523/jneurosci.18-01-00428.1998\" pmid=\"9412519\" pmcid=\"PMC6793407\" count=\"1\">1998</citation>, <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1093/cercor/10.3.295\" pmid=\"10731224\" count=\"1\">2000</citation>; Ernst et al., <citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1016/s0893-133x(01)00414-6\" pmid=\"11927193\" count=\"1\">2002</citation>; Hebscher and Gilboa, <citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.neuropsychologia.2016.05.003\" pmid=\"27150705\" count=\"1\">2016</citation>). <sentence_start/>Moreover, several studies have highlighted its role in working memory (WM). <sentence_start/>Although damage confined to the OFC does not typically lead to deficient WM performance when assessed with standard neuropsychological tests, it has been reported that OFC lesions can impair performance on tasks involving the coordination of WM maintenance, manipulation, and monitoring processes such as in N-back tasks (Wager and Smith, <citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.3758/cabn.3.4.255\" pmid=\"15040547\" count=\"1\">2003</citation>; Owen et al., <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1002/hbm.20131\" pmid=\"15846822\" pmcid=\"PMC6871745\" count=\"1\">2005</citation>; Barbey et al., <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhq153\" pmid=\"20724371\" pmcid=\"PMC3059885\" count=\"1\">2011</citation>, <citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1016/j.cortex.2012.05.022\" pmid=\"22789779\" pmcid=\"PMC3495093\" count=\"1\">2013</citation>) and Delayed match-to-sample tasks (Meunier, <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1016/s0028-3932(97)00027-4\" pmid=\"9226661\" count=\"1\">1997</citation>; Schon et al., <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2007.09.023\" pmid=\"17950623\" pmcid=\"PMC2147068\" count=\"1\">2008</citation>). <sentence_start/>These results are in line with functional magnetic resonance imaging (fMRI) studies in healthy subjects where OFC was found to be involved in WM maintenance, interference control, and inhibition during delayed-response tasks (D’Esposito et al., <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1007/s002210000395\" pmid=\"10933205\" count=\"1\">2000</citation>). <sentence_start/>It has also been reported that OFC damage leads to difficulty learning from previous errors (Bechara et al., <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1093/cercor/10.3.295\" pmid=\"10731224\" count=\"1\">2000</citation>; Stuss et al., <citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/s0028-3932(99)00093-7\" pmid=\"10683390\" count=\"1\">2000</citation>) and deficits in context memory (Janowsky et al., <citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/0028-3932(89)90184-x\" pmid=\"2797412\" count=\"1\">1989</citation>; Duarte et al., <citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1162/jocn.2009.21316\" pmid=\"19642880\" pmcid=\"PMC2862108\" count=\"1\">2010</citation>). <sentence_start/>OFC has also been implicated in recency memory (Shimamura et al., <citation rid=\"B53\" ref-type=\"bibr\" doi=\"10.1016/0028-3932(90)90004-8\" pmid=\"2247207\" count=\"1\">1990</citation>; Incisa della Rocchetta and Milner, <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1016/0028-3932(93)90049-6\" pmid=\"8341411\" count=\"1\">1993</citation>; for human studies, and Barker et al., <citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1523/jneurosci.5289-06.2007\" pmid=\"17360918\" pmcid=\"PMC6672574\" count=\"1\">2007</citation>; Devito and Eichenbaum, <citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1523/jneurosci.4202-10.2011\" pmid=\"21368028\" pmcid=\"PMC3081724\" count=\"1\">2011</citation> for rodent studies)."
+  },
+  {
+   "section": "article",
+   "text": "Given the role of the OFC in context encoding, familiarity, and recency judgments, as well as decision-making and confidence during memory retrieval, we aimed to study the impact of damage in this brain region on the ability to perform a WM task involving such cognitive processes. <sentence_start/>We used the Recent Probes task which is based on the item-recognition task of Sternberg (<citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1126/science.153.3736.652\" pmid=\"5939936\" count=\"1\">1966</citation>). <sentence_start/>Subjects were asked to memorize a set of items (target set) and, when prompted, to indicate whether a given item (probe) was presented in the current set (Sternberg, <citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1126/science.153.3736.652\" pmid=\"5939936\" count=\"1\">1966</citation>). <sentence_start/>This task requires the encoding and maintenance of verbal material in WM, as well as the evaluation of the recency and familiarity of the probe with the current set of items. <sentence_start/>This is particularly relevant in order to correctly reject any lures, i.e., probes presented in the previous but not the current trial, leading to item-specific proactive interference (PI; Monsell, <citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1016/0010-0285(78)90008-7\" count=\"1\">1978</citation>). <sentence_start/>Moreover, this task entails decision-making regarding the presence or not of the probe in the current set of items (Badre and Wagner, <citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1016/s0896-6273(03)00851-1\" pmid=\"14766185\" count=\"1\">2004</citation>; Kan and Thompson-Schill, <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.3758/cabn.4.4.466\" pmid=\"15849891\" count=\"1\">2004</citation>; Jonides and Nee, <citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.neuroscience.2005.06.042\" pmid=\"16337090\" count=\"1\">2006</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The brain network engaged in the Recent Probes task includes several subregions of the frontal lobe with major involvement of the left ventrolateral prefrontal cortex (VLPFC) and the dorsolateral prefrontal cortex (DLPFC). <sentence_start/>The VLPFC prevents irrelevant information from becoming active, i.e., PI resolution (Postle et al., <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.3758/cabn.4.4.600\" pmid=\"15849900\" pmcid=\"PMC1201535\" count=\"1\">2004</citation>; fMRI studies: Jonides et al., <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1073/pnas.95.14.8410\" pmid=\"9653200\" pmcid=\"PMC20989\" count=\"1\">1998</citation>; D’Esposito et al., <citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1006/brcg.1999.1096\" pmid=\"10536086\" count=\"1\">1999a</citation>; Mecklinger et al., <citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.cogbrainres.2003.08.008\" pmid=\"14659494\" count=\"1\">2003</citation>; Badre and Wagner, <citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1016/s0896-6273(03)00851-1\" pmid=\"14766185\" count=\"1\">2004</citation>; Jonides and Nee, <citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.neuroscience.2005.06.042\" pmid=\"16337090\" count=\"1\">2006</citation>; TMS study: Feredoes et al., <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1073/pnas.0604509103\" pmid=\"17151200\" pmcid=\"PMC1748259\" count=\"1\">2006</citation>; lesion study: Thompson-Schill et al., <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.3758/cabn.2.2.109\" pmid=\"12455679\" count=\"1\">2002</citation>). <sentence_start/>The DLPFC is involved in monitoring and manipulating cognitive representations in WM (Wager et al., <citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2005.01.054\" pmid=\"16019232\" count=\"1\">2005</citation>; Burgess and Braver, <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0012861\" pmid=\"20877464\" pmcid=\"PMC2942897\" count=\"1\">2010</citation>; Barbey et al., <citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1016/j.cortex.2012.05.022\" pmid=\"22789779\" pmcid=\"PMC3495093\" count=\"1\">2013</citation>). <sentence_start/>Interestingly, Badre and Wagner (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhi075\" pmid=\"15788702\" count=\"1\">2005</citation>) showed that the activation of the rostral part of OFC (BA10) was negatively correlated with PI for probes recently presented in a Recent-Probes task (see also Mecklinger et al., <citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.cogbrainres.2003.08.008\" pmid=\"14659494\" count=\"1\">2003</citation>). <sentence_start/>Despite other regions’ involvement in PI, the authors concluded that OFC was partly responsible for monitoring the familiarity of the probe (Elliott et al., <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1093/cercor/10.3.308\" pmid=\"10731225\" count=\"1\">2000</citation>; Simons and Spiers, <citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.1038/nrn1178\" pmid=\"12894239\" count=\"1\">2003</citation>), and for encoding the context that subsequently guides memory retrieval (Stuss et al., <citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1037/0735-7036.96.6.913\" pmid=\"7153388\" count=\"1\">1982</citation>; Farovik et al., <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1523/jneurosci.0134-15.2015\" pmid=\"26019346\" pmcid=\"PMC4444550\" count=\"1\">2015</citation>). <sentence_start/>Similarly, Nee et al. (<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2007.07.066\" pmid=\"17904389\" pmcid=\"PMC2206737\" count=\"1\">2007</citation>) reported the involvement of the left OFC in the resolution of PI in a Recent Probes task and in a Directed-Forgetting task. <sentence_start/>Only a few studies have examined the encoding and maintenance phases of the Recent Probes task. <sentence_start/>They reported that neither of the two phases seem to directly impact the PI resolution (D’Esposito et al., <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1073/pnas.96.13.7514\" pmid=\"10377446\" pmcid=\"PMC22117\" count=\"1\">1999b</citation>; Badre and Wagner, <citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhi075\" pmid=\"15788702\" count=\"1\">2005</citation>; Braver et al., <citation rid=\"B9\" ref-type=\"bibr\" count=\"1\">2007</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Several electrophysiological studies using event-related potentials (ERPs) have attempted to characterize the temporal dynamics involved in the resolution of PI during the Recent Probes task. <sentence_start/>However, the debate about which ERP components reflect the recency effect remains unsettled. <sentence_start/>Some studies have reported the presence of a frontal negativity that peaks between 250 and 350 ms (N2) after the probe presentation and is related to the degree of mismatch and response-conflict induced by PI (Du et al., <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/j.ijpsycho.2008.03.007\" pmid=\"18442864\" count=\"1\">2008</citation>; Folstein and Van Petten, <citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1111/j.1469-8986.2007.00602.x\" pmid=\"17850238\" pmcid=\"PMC2365910\" count=\"1\">2008</citation>), whereas others have reported a later negativity at frontal sites peaking around 420 ms (Yi and Friedman, <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1080/13825585.2013.833581\" pmid=\"24015921\" pmcid=\"PMC3950619\" count=\"1\">2014</citation>; see also Tays et al., <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1162/jocn.2008.20158\" pmid=\"18457511\" count=\"1\">2008</citation>, <citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.neulet.2009.07.025\" pmid=\"19616064\" count=\"1\">2009</citation>). <sentence_start/>Finally, Zhang et al. (<citation rid=\"B69\" ref-type=\"bibr\" doi=\"10.1016/j.neuropsychologia.2010.04.008\" pmid=\"20398683\" count=\"1\">2010</citation>) reported an N2 and a P3, which were both only modulated by the decision whether the item was present or not in the current set, and a late positive component (LPC) modulated by the PI resolution. <sentence_start/>All these studies involved healthy participants."
+  },
+  {
+   "section": "article",
+   "text": "In the current study, we aimed to elucidate the role of the OFC in a Recent Probes task by comparing the behavioral performance and the electrophysiological markers of healthy controls and patients with focal OFC damage. <sentence_start/>We focused on the probe period to examine whether the OFC lesion impacts the resolution of PI in WM. <sentence_start/>The influence of OFC lesion on the letter encoding or maintenance phases was also evaluated. <sentence_start/>Based on the literature, we hypothesized that the patients’ behavioral performance would be impacted by altered familiarity and recency judgment processes, manifested by prolonged reaction times (RTs), stronger PI, and increased error rates. <sentence_start/>We aimed to extend current knowledge about the electrophysiological modulations elicited by the probe presentation in a cohort of healthy adults and to explore the impact of OFC lesion on the ERP components, especially those reflecting familiarity and recency such as the N2. <sentence_start/>To our knowledge, this is the first combined lesion-electroencephalography (EEG) study using a Recent Probes task."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Participants"
+  },
+  {
+   "section": "article",
+   "text": "Sixteen patients with focal lesions located in the OFC and 21 healthy controls were recruited for the study. <sentence_start/>Participants were right-handed, except one control and one patient who were ambidextrous (Edinburgh handedness inventory, Oldfield, <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1016/0028-3932(71)90067-4\" pmid=\"5146491\" count=\"1\">1971</citation>). <sentence_start/>Healthy controls were recruited by advertisement and personal contact. <sentence_start/>Patients were recruited through the Department of neurosurgery at Oslo University Hospital and included based on the presence of focal frontal lobe lesion as indicated on pre-existing structural computer tomography (CT) and/or magnetic resonance imaging (MRI) scans. <sentence_start/>Testing took place at least 2 years after injury or surgery. <sentence_start/>Participants with a history of serious psychiatric disease, pre-/comorbid neurological disease, premorbid head injury, drug or alcohol abuse requiring treatment, IQ below 85, substantial aphasia, visual neglect, or marked sensory impairment were excluded from participation. <sentence_start/>The clinical description of the lesions and the evaluation of the controls’ MRI scans were done by a neuroradiologist (P. K. Hol)."
+  },
+  {
+   "section": "article",
+   "text": "After inclusion, two controls and two OFC patients were excluded from the study due to error rates in the Recent Probes task exceeding two standard deviations of their respective group, or due to a highly unbalanced number of errors among conditions (one condition with an error rate at chance level). <sentence_start/>One additional control participant was removed because of excessive EEG artifacts."
+  },
+  {
+   "section": "article",
+   "text": "Among the remaining group of 14 OFC patients, 12 had bilateral lesions, one had lesion localized in the right OFC, and one in the left OFC. <sentence_start/>Twelve patients had lesions caused by a primary extracerebral meningioma brain tumor, and two from traumatic brain injury (TBI) without MRI-based evidence of diffuse axonal injury; see Table 1 for an overview of the patient characteristics."
+  },
+  {
+   "section": "article",
+   "text": "To equate group sizes, four controls were excluded based on age using the MatchIt R package (Ho et al., <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1093/pan/mpl013\" count=\"1\">2007</citation>). <sentence_start/>The two remaining groups of 14 participants each did not differ regarding sex, age, years of education, or IQ (estimated based on the Verbal Comprehension and Matrices subtests of the Wechsler Abbreviated Scale of Intelligence (WASI; Wechsler, <citation rid=\"B66\" ref-type=\"bibr\" count=\"1\">1999</citation>); see Table 2 and section below “Neuropsychological tests”)."
+  },
+  {
+   "section": "article",
+   "text": "Patients and controls gave written informed consent to participation in the study. <sentence_start/>Controls were compensated for participation (600 NOK gift card). <sentence_start/>The entire research program included a neuropsychological assessment, EEG-recording, as well as structural and functional MRI examination. <sentence_start/>The study was approved by the Regional Committee for Medical Research Ethics, Region South Norway and was conducted in agreement with the Declaration of Helsinki."
+  },
+  {
+   "section": "article",
+   "text": "Lesion Reconstruction"
+  },
+  {
+   "section": "article",
+   "text": "Lesion reconstructions were based on structural MRIs obtained after inclusion and verified by the neurologist and the neurosurgeon in the research group (RK, and TM). <sentence_start/>Lesions were manually outlined on Fluid Attenuated Inversion Recovery (FLAIR) sequence images (1 × 1 × 1 mm<sup>3</sup> resolution) for each participant’s brain using MRIcron<sup>2</sup>. <sentence_start/>High-resolution T1-weighted images were used to help determine the borders of the lesions when required. <sentence_start/>Each participant’s brain was extracted from the T1 image using the FSL Bet algorithm (FSL<sup>3</sup>) and then normalized to the Montreal Neurological Institute MNI-152 template space using the Statistical Parametric Mapping software (SPM<sup>4</sup>) unified segmentation and normalization procedures, while including the drawn lesions as masks. <sentence_start/>In addition, the transformation matrix was applied to the individual participant’s FLAIR and lesion mask images. <sentence_start/>Figure 1 shows the overlay of the individual lesions for the OFC group and the average percentage of damaged tissue within each Brodmann area (BA) across patients."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Lesion reconstructions for the orbitofrontal cortex (OFC) group. <sentence_start/><bold>(A)</bold> Group overlay. <sentence_start/>The color code indicates the number of patients with damaged tissue in that area (from 1 to 13). <sentence_start/><bold>(B)</bold> Percentage of damaged tissue within each brodmann area (BA) across patients. <sentence_start/>BAs with less than 2% damage is not presented."
+  },
+  {
+   "section": "article",
+   "text": "Neuropsychological Tests"
+  },
+  {
+   "section": "article",
+   "text": "For all participants, IQ, WM, and inhibition of prepotent verbal responses were measured using Wechsler Abbreviated Scale of Intelligence (WASI; Wechsler, <citation rid=\"B66\" ref-type=\"bibr\" count=\"1\">1999</citation>), Digit Span of the Wechsler Adult Intelligence Scale-Third Edition (WASI-III; Wechsler, <citation rid=\"B100\" ref-type=\"bibr\" count=\"1\">1997</citation>), and the D-KEFS version of the Color-Word Interference Test (Delis et al., <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">2001</citation>), respectively. <sentence_start/>Group differences were tested by means of the independent samples Kruskal-Wallis test. <sentence_start/>Two-tailed Pearson correlation between correct mean RTs for each task condition and each of the neuropsychological test scores was performed."
+  },
+  {
+   "section": "article",
+   "text": "Experimental Task"
+  },
+  {
+   "section": "article",
+   "text": "The experimental paradigm used was a Recent-Probes task based on the Sternberg (<citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1126/science.153.3736.652\" pmid=\"5939936\" count=\"1\">1966</citation>) classical item-recognition task. <sentence_start/>Participants were seated 80 cm in front of a computer screen. <sentence_start/>In each trial, participants were presented with a list of five letters displayed on the screen, one at a time, for 500 ms, with an inter-stimulus interval of 500 ms. <sentence_start/>After a retention period of 4 s they were asked whether a given letter-the probe-was in the list. <sentence_start/>Participants had 2 s to respond “yes” or “no” by pressing the left or the right button of the response box, respectively. <sentence_start/>To prevent interference of motor activity due to button presses occurring simultaneously with the electrophysiological signals of interest (supposedly more left-lateralized), all participants were asked to use their left index (“yes” response) and left middle finger (“no” response) to perform the task."
+  },
+  {
+   "section": "article",
+   "text": "The task consisted of four conditions (see Figure 2). <sentence_start/>The probe letter may be present (positive condition) or absent (negative condition) in the set of letters in the current trial. <sentence_start/>Further, the probe letter may have occurred in the set of letters in the previous trial (trial n-1, see Figure 2; high recency condition, HR) or not (low recency condition, LR)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Illustration of the Recent Probes task. <sentence_start/>Four different conditions composed the task according to the presence or absence of the probe in the current trial (Trial n) and the previous trial (Trial n-1). <sentence_start/>The two bold letters show the repeated letters in the two consecutive trials. <sentence_start/>The colors and bold font are used for illustration only. <sentence_start/>LRP; low recency positive; LRN, low recency negative; HRP, high recency positive, HRP, high recency negative."
+  },
+  {
+   "section": "article",
+   "text": "For the LR conditions, the probe letter was either presented in the current trial [positive condition (LRP), see the example with the letter “b” in Figure 2] or not [negative condition (LRN), see the example with the letter “c” in Figure 2]. <sentence_start/>For the HR conditions, the probe was presented in the current and in the previous trial [positive condition (HRP), see the example with the letter “e” in Figure 2] or only presented in the previous trial and not in the current trial [negative condition (HRN), see the example with the letter “f” in Figure 2]. <sentence_start/>This latter condition is expected to elicit PI. <sentence_start/>In the two HR conditions, two letters were always shared between the current (trial n) and the previous trial (trial n-1) and one of these two repeated letters was used as probe. <sentence_start/>No letter was common between two consecutive trials for the two LR conditions. <sentence_start/>The task included a total of 144 trials, with 36 trials per condition. <sentence_start/>The trials were presented in three blocks of 10 min each, consisting of 48 trials randomly sorted between conditions (except for the first trial of each block which was assigned as an LR trial). <sentence_start/>Time on task was 30 min. <sentence_start/>Short breaks between blocks resulted in a total task duration of approximately 35 min."
+  },
+  {
+   "section": "article",
+   "text": "Behavioral Analysis"
+  },
+  {
+   "section": "article",
+   "text": "The RT to the probe was recorded for each trial. <sentence_start/>Trials with RT faster than 400 ms<sup>5</sup> or exceeding three standard deviations of the average RT of any given participant were excluded. <sentence_start/>The remaining trials were included in subsequent analyses of response latency (based on the mean RT of correct trials per subject) and error rate (based on the percentage of incorrect trials). <sentence_start/>For both analyses, we ran repeated measures ANOVAs using group (controls vs. OFC patients) as between-subjects factor, and recency (HR vs. LR trials), and response (negative vs. positive answer) as within-subject factors. <sentence_start/>The analysis of homogeneity of variance between groups was analyzed using Levene’s test. <sentence_start/>The age variable for both groups, as well as lesion volume and years since tumor resection or injury for the OFC group, were added as covariates. <sentence_start/>The analyses were conducted using R software (RC Team, <citation rid=\"B51\" ref-type=\"bibr\" count=\"1\">2015</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, a <italic toggle=\"yes\">post hoc</italic> analysis was conducted to examine the PI effect by subtracting the mean RTs, as well as the mean percentage of errors, of LRN from HRN conditions for each subject. <sentence_start/>We then performed one-way ANOVAs with this new variable (using an alpha level of <italic toggle=\"yes\">p</italic> &lt; 0.05)."
+  },
+  {
+   "section": "article",
+   "text": "EEG Acquisition"
+  },
+  {
+   "section": "article",
+   "text": "Participants were seated in a Faraday-shielded room 80 cm from an LCD monitor with a 60 Hz refresh rate. <sentence_start/>EEG was recorded at a 1,024 Hz sampling rate using a 64-channel Biosemi Active Two system<sup>6</sup> with electrodes placed using the Biosemi headcap in accordance with the International 10-20 system. <sentence_start/>Two vertical electrooculography (EOG) electrodes were placed above and below the right eye and two horizontal EOG electrodes were placed at the participants’ left and right canthi. <sentence_start/>Two reference electrodes for later offline re-referencing were also placed on the left and right earlobes."
+  },
+  {
+   "section": "article",
+   "text": "EEG Preprocessing"
+  },
+  {
+   "section": "article",
+   "text": "Continuous EEG data were filtered offline with a 0.01-130 Hz bandpass filter with a notch filter at 50 Hz. <sentence_start/>The data were re-referenced to a common average reference (with the exclusion of the six external electrodes) after removal and interpolation of bad channels using an automatic detection with a limit of activity probability set at 5 standard deviations. <sentence_start/>Epochs of 14 s (11 s before- and 3 s after probe presentation) were first created. <sentence_start/>Following the recommendation of Delorme et al. (<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2006.11.004\" pmid=\"17188898\" pmcid=\"PMC2895624\" count=\"1\">2007</citation>), bad epochs were detected and removed using independent component analysis (ICA). <sentence_start/>A first ICA was computed to reject ICA epochs with extremely large potential fluctuations (artifacts above 1,000 μV) and then iteratively rejecting ICA epochs based on a threshold of 5 standard deviations. <sentence_start/>A second ICA decomposition was computed on the remaining EEG epochs to remove ICA components containing eye-movements, blinks, and muscle artifacts. <sentence_start/>Clean EEG epochs were then segmented according to six conditions for each participant. <sentence_start/>The two first conditions were created according to recency only: HR, LR and were used for the analysis of the encoding and maintenance phases, as the probe content is necessarily unknown during those phases. <sentence_start/>The other four conditions were based on both recency and response: LRN, LRP, HRN, and HRP, and were created for the analyses of the probe phase. <sentence_start/>Only correct trials were retained for EEG analysis. <sentence_start/>Within each condition, the electrophysiological signal was demeaned and detrended, and a low pass filter (20 Hz) was applied to each trial. <sentence_start/>Within each group of participants (controls or OFC patients), a grand average across trials and participants of any given condition was then computed. <sentence_start/>Preprocessing routines were performed using EEGLAB (Delorme and Makeig, <citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1016/j.jneumeth.2003.10.009\" pmid=\"15102499\" count=\"1\">2004</citation>) and FieldTrip (Oostenveld et al., <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1155/2011/156869\" pmid=\"21253357\" pmcid=\"PMC3021840\" count=\"1\">2010</citation>) toolboxes in MATLAB (MathWorks Inc., Natick, MA, USA)."
+  },
+  {
+   "section": "article",
+   "text": "ERP Analysis"
+  },
+  {
+   "section": "article",
+   "text": "We divided the entire trial (from 11 s before- to 3 s after probe presentation) into three time windows of interest: the encoding of the five successively presented letters (from 9 to 4 s before the probe presentation), the maintenance of the letters (from 4 s leading up to the probe presentation), and the probe period (500 ms pre- to 2 s post- probe onset)."
+  },
+  {
+   "section": "article",
+   "text": "We employed a similar approach to the one used by Ye et al. (<citation rid=\"B67\" ref-type=\"bibr\" doi=\"10.1162/jocn_a_01044\" pmid=\"27647279\" count=\"1\">2017</citation>), consisting of finding the significant spatiotemporal differences between conditions within each group first and then performing between-group comparisons on that outcome. <sentence_start/>Within each group, we compared HR and LR conditions during the encoding and maintenance phases, using a cluster-based permutation <italic toggle=\"yes\">t</italic>-test. <sentence_start/>We then detected if there were ERP differences between the four conditions (HRN, HRP, LRN, LRP) during the probe presentation periods, using a cluster-based permutation <italic toggle=\"yes\">F</italic>-test. <sentence_start/>To define the spatiotemporal cluster of interest, we used permutation statistics within each group of participants, as implemented in Fieldtrip (Monte Carlo method; 1,000 iterations; <italic toggle=\"yes\">p</italic> &lt; 0.05). <sentence_start/>To correct for multiple comparisons, a cluster approach was used (Maris and Oostenveld, <citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.1016/j.jneumeth.2007.03.024\" pmid=\"17517438\" count=\"1\">2007</citation>). <sentence_start/>Clusters statistics were obtained by summing the <italic toggle=\"yes\">t</italic>-values (for <italic toggle=\"yes\">t</italic>-test) or <italic toggle=\"yes\">F</italic>-values (for <italic toggle=\"yes\">F</italic>-test) that were adjacent in space and time for which the alpha level was below 0.05. <sentence_start/>The minimum number of neighboring electrodes required to form a cluster was three. <sentence_start/>The cluster <italic toggle=\"yes\">p</italic>-value was then obtained by comparing the cluster statistic to a null distribution statistic obtained by randomly switching condition labels within participants’ trials 1,000 times. <sentence_start/>The clusters were considered as independently significant when the sum of <italic toggle=\"yes\">F</italic>-values exceeded 95% of the null distribution."
+  },
+  {
+   "section": "article",
+   "text": "For each spatiotemporal cluster showing a significant difference between conditions, the mean amplitude of the respective time window and electrodes were extracted and averaged for each condition. <sentence_start/>Using these means, a mixed repeated-measures ANOVA was performed with group (controls vs. OFC patients) as a between-subjects factor, and recency (HR vs. LR trials) and response (negative vs. positive answer) as within-subject factors. <sentence_start/>Finally, an ANCOVA was conducted by adding the behavioral performance as a covariate. <sentence_start/>These analyses were computed using IBM SPSS Statistics 25.0."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Behavioral Results"
+  },
+  {
+   "section": "article",
+   "text": "The repeated measures ANOVA performed on the RT of correct trials revealed no group difference in response latency (mean for the control group: 1,020 ms, SD: 54; mean for OFC group: 1,046 ms, SD: 38). <sentence_start/>At the condition level, we found a main effect of recency (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 5.63, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.42), reflecting longer RTs for high- compared to low recency probes, but no interaction with group. <sentence_start/>Whereas the response effect was not significant, the interaction between response and recency was significant (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 6.39, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.44). <sentence_start/>Overall, the RTs for the HRN condition was slower than the other conditions, especially the LRN condition, documenting the existence of PI (RTs mean for HRN: 1,064 ms, HRP: 1,056 ms, LRN: 1,020 ms, LRP: 1,058 ms, Figure 3A). <sentence_start/>However, the direct comparison of PI (the difference in RTs between the HRN and the LRN conditions) between groups revealed no significant effect, but the analysis of homogeneity of variances showed that RTs in the HRN condition tended to be more variable for the control group (<italic toggle=\"yes\">SD</italic> = 52) than the OFC group (<italic toggle=\"yes\">SD</italic> = 35; <italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 3.9, <italic toggle=\"yes\">p</italic> = 0.058, <italic toggle=\"yes\">r</italic> = 0.36)<sup>7</sup>."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Response latency and accuracy on the Recent Probes task. <sentence_start/><bold>(A)</bold> Boxplots of the mean reaction time (RT; in ms) per group and condition. <sentence_start/><bold>(B)</bold> Boxplots of the mean percentage of errors per group and condition (right panel). <sentence_start/>The horizontal line in each box represents the median, and the bars extending vertically from the boxes (and the circles) indicate the variability outside the upper and lower quartiles. <sentence_start/>Asterisks indicate the significant differences (*<italic toggle=\"yes\">p</italic> ≤ 0.05, **<italic toggle=\"yes\">p</italic> ≤ 0.005)."
+  },
+  {
+   "section": "article",
+   "text": "The analysis of response accuracy showed no significant group effect (11% errors for controls and 8% for OFC patients). <sentence_start/>A significant main effect of response type was found (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 10.34, <italic toggle=\"yes\">p</italic> &lt; 0.005, <italic toggle=\"yes\">r</italic> = 0.53), but no group interaction. <sentence_start/>There was no significant main effect of recency, but an interaction between recency and response was significant (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 39.99, <italic toggle=\"yes\">p</italic> &lt; 0.001, <italic toggle=\"yes\">r</italic> = 0.78). <sentence_start/>Overall, fewer errors were made in the LRN condition compared to the other conditions (HRN: 11%, HRP: 10%, LRN: 4%, LRP: 14%, Figure 3B). <sentence_start/>The <italic toggle=\"yes\">post hoc</italic> analysis of the PI effect over the percentage of errors was not significantly different between groups. <sentence_start/>The analysis of homogeneity of variances between groups revealed significant group difference for all the conditions except for LRN (HRN (<italic toggle=\"yes\">SD</italic> = 2.5 for control and <italic toggle=\"yes\">SD</italic> = 2 for OFC): <italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 4.28, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.37, HRP (<italic toggle=\"yes\">SD</italic> = 2.5 for control and <italic toggle=\"yes\">SD</italic> = 1 for OFC): <italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 4.38, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.38, LRP (<italic toggle=\"yes\">SD</italic> = 3 for control and <italic toggle=\"yes\">SD</italic> = 1.5 for OFC): <italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 6.16, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.44). <sentence_start/>The error rates were more variable within the control group than within the OFC group."
+  },
+  {
+   "section": "article",
+   "text": "No effect of age was reported significant between-group and within conditions for the latency or the error rate. <sentence_start/>Within the OFC group, no significant effect of the lesion volume nor effect of years after resection was found impacting the behavioral results."
+  },
+  {
+   "section": "article",
+   "text": "None of the neuropsychological measures significantly correlated with the behavioral results of the Recent Probes task. <sentence_start/>The groups were not significantly different in estimated IQ or on any of the neuropsychological tests (Digit Span forward and backward, and Color-Word Interference test). <sentence_start/>The total lesion volume of OFC patients did not correlate with any neuropsychological test performance measured in this study."
+  },
+  {
+   "section": "article",
+   "text": "Electrophysiological Results"
+  },
+  {
+   "section": "article",
+   "text": "The Probe Phase"
+  },
+  {
+   "section": "article",
+   "text": "The permutation <italic toggle=\"yes\">F</italic>-test between the four conditions during the probe period was conducted separately for each group of participants over the time-course for each electrode. <sentence_start/>The results revealed one extensive cluster that showed significant conditions difference for the control group (<italic toggle=\"yes\">p</italic> &lt; 0.001) from 329 ms to 479 ms after probe onset. <sentence_start/>The spatial distribution, as well as the ERP time-course of the electrodes constituting the cluster, allowed division into two distinct groups of electrodes. <sentence_start/>The first with a right hemisphere Centro-posterior distribution (referred to as cluster 1) and the second with a left-lateralized frontal distribution (referred to as cluster 2). <sentence_start/>Surprisingly, no late cluster was found in the control group, i.e., no condition effect over late ERPs, such as the LPC, were observed. <sentence_start/>To verify if this lack of ERP modulation could be explained by the detrending algorithm used in preprocessing, a similar analysis was performed without this step. <sentence_start/>The results showed no other significant difference than the two previously described."
+  },
+  {
+   "section": "article",
+   "text": "For the OFC group analysis, two clusters revealed a significant difference between conditions. <sentence_start/>The first one from 565 ms to 710 ms (<italic toggle=\"yes\">p</italic> &lt; 0.005, referred to as cluster 3) had a similar left frontal distribution as cluster 2, and a second one from 345 ms to 463 ms (<italic toggle=\"yes\">p</italic> &lt; 0.01, referred to as cluster 4) occurred within the time window of the two clusters observed for the control group (Figure 4)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Results of the <italic toggle=\"yes\">F</italic>-tests across the four conditions for the two groups. <sentence_start/>The significant electrodes within the time window of interest are represented for each cluster, in light blue for the control group, in green for the OFC group, and in yellow for the overlap between groups."
+  },
+  {
+   "section": "article",
+   "text": "Among these four clusters, the behavioral performance did not significantly covary with ERP amplitudes in any of the task conditions."
+  },
+  {
+   "section": "article",
+   "text": "Significant Electrode Clusters for the Control Group"
+  },
+  {
+   "section": "article",
+   "text": "Time-Course of Cluster 1"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 1 involved 18 Centro-posterior electrodes, mainly lateralized to the right hemisphere and the central midline (FC1, C1, CP1, P1, POz, Pz, CPz, Cz, C2, C4, C6, CP6, CP4, CP2, P2, P4, P6, PO4, Figure 5A). <sentence_start/>The time-course of this cluster after the probe presentation first revealed early visual ERPs (P1, N1) which were followed by a positive ERP peaking at 220 ms in all four conditions. <sentence_start/>During the time window of significant condition differences (329 ms-479 ms post probe onset), the ERPs of the LRN and HRN conditions returned to baseline, while the LRP and HRP conditions showed a sustained positive-going activity following the peak P3 that lasted until around 600 ms after probe presentation."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 1. <bold>(A)</bold> Grand average event-related potentials (ERPs) of electrodes included in cluster 1 of the control group. <sentence_start/>The electrodes included in each cluster are highlighted in the scalp maps. <sentence_start/>The grand average ERPs of the four conditions are illustrated for the entire duration of the trial (12 s). <sentence_start/>The 0 on the x-axis represents the probe presentation. <sentence_start/>The bold lines on the x-axis illustrate the time points with significant <italic toggle=\"yes\">F</italic>-values. <sentence_start/>The negative polarity is presented upward. <sentence_start/><bold>(B)</bold> Comparison of the grand average ERPs of the four conditions between the control group and the OFC group for cluster 1. <sentence_start/>The bold line on the x-axis represents the time window within which the amplitude was extracted and used in the repeated measures ANOVA tests. <sentence_start/>The negative polarity is presented upward. <sentence_start/>The shaded area around the ERP represents the standard error of the mean (SEM)."
+  },
+  {
+   "section": "article",
+   "text": "Between-Group Effects of Cluster 1"
+  },
+  {
+   "section": "article",
+   "text": "The <italic toggle=\"yes\">post hoc</italic> ANOVA between groups over the mean amplitude across the time window and electrodes of cluster 1 showed a significant main effect of the response (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 33.43, <italic toggle=\"yes\">p</italic> &lt; 0.001, <italic toggle=\"yes\">r</italic> = 0.75), that was modified by an interaction with group (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 5.97, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.43). <sentence_start/>These results are consistent with the observation that, in the control group only, the two positive response conditions elicited more positive-going ERP amplitudes than the negative response conditions. <sentence_start/>For the OFC group, the four conditions elicited a sustained positivity onsetting at 220 ms after the probe that was not significantly modulated by response type (Figure 5B)."
+  },
+  {
+   "section": "article",
+   "text": "Time-Course of Cluster 2"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 2 included eight left frontal electrodes (AF7, F3, F5, F7, FT7, FC5, C5, T7, Figure 6A). <sentence_start/>The time-course of this frontal cluster after probe presentation showed visual ERPs that were temporally inverted relative to cluster 1 (N1, P1), followed by an ERP of negative polarity which was different across conditions. <sentence_start/>A small negativity peaking around 220 ms was observed for the two negative response conditions, while an enhanced negativity peaking around 400 ms was found for the positive response conditions."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 2. <bold>(A)</bold> Grand average ERPs of electrodes included in cluster 2 of the control group. <sentence_start/>The electrodes included in each cluster are highlighted in the scalp maps. <sentence_start/><bold>(B)</bold> Comparison of the grand average ERPs of the four conditions between the control group and the OFC group for cluster 2. <sentence_start/>The bold line on the x-axis represents the time window within which the amplitude was extracted and used in the repeated measures ANOVA tests. <sentence_start/>The shaded area around the ERP represents the SEM."
+  },
+  {
+   "section": "article",
+   "text": "Between-Group Effects of Cluster 2"
+  },
+  {
+   "section": "article",
+   "text": "The between-groups analysis showed a significant main effect of response type (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 33.43, <italic toggle=\"yes\">p</italic> &lt; 0.001, <italic toggle=\"yes\">r</italic> = 0.70), but no significant interaction with the group. <sentence_start/>During the time window of interest, the two positive response conditions elicited a larger and later negative polarity ERP compared to the two negative response conditions for both groups of participants. <sentence_start/>A significant main effect of recency (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 6.6, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.45) was modified by an interaction with group (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 5.76, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.42). <sentence_start/>Indeed, the recency manipulation evoked significantly different amplitudes within the control group only, with more negative amplitudes for the high recency (HRN and HRP) than for the low recency (LRN and LRP) conditions (Figure 6B)."
+  },
+  {
+   "section": "article",
+   "text": "Significant Electrode Clusters for the OFC Group"
+  },
+  {
+   "section": "article",
+   "text": "Time Course of Cluster 3"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 3 showed a late effect, from 565 ms to 710 ms and included left frontocentral and midline electrodes (AF3, F3, F5, F7, FT7, FC5, FC3, FC1, C1, C5, Pz, Fz, FCz, Cz, Figure 7A). <sentence_start/>The time-course of this cluster was similar to that of cluster 2 of the control group with visual ERPs (N1, P1), followed by an ERP of negative polarity peaking around 300 ms. <sentence_start/>The significant difference between conditions was observed when a positive polarity ERP at 630 ms appeared for the negative response conditions only."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 3. <bold>(A)</bold> Grand average ERPs of electrodes included in cluster 3 of the OFC group. <sentence_start/>The electrodes included in each cluster are highlighted in the scalp maps. <sentence_start/><bold>(B)</bold> Comparison of the grand average ERPs of the four conditions between the control group and the OFC group for cluster 3. <sentence_start/>The bold line on the x-axis represents the time window within which the amplitude was extracted and used in the repeated measures ANOVA tests. <sentence_start/>The shaded area around the ERP represents the SEM."
+  },
+  {
+   "section": "article",
+   "text": "Between-Group Effects of Cluster 3"
+  },
+  {
+   "section": "article",
+   "text": "The repeated measures ANOVA comprising the recency and response factors revealed a significant main effect of the response (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 24.5, <italic toggle=\"yes\">p</italic> &lt; 0.001, <italic toggle=\"yes\">r</italic> = 0.70), and a response by group interaction (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 5.32, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.41). <sentence_start/>These results are consistent with the observation that the two negative response conditions elicited a later and more positive-going ERP amplitude for the OFC group only (Figure 7B). <sentence_start/>Moreover, a significant interaction between the recency and response factors (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 6.33, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.44), reflected that the biggest difference was between HRN and LRP conditions across groups."
+  },
+  {
+   "section": "article",
+   "text": "Time-Course of Cluster 4"
+  },
+  {
+   "section": "article",
+   "text": "The time-course of showed first visual ERPs (P1, N1), followed by an ERP of negative polarity peaking at 260 ms. <sentence_start/>The significant effect is observed during a similar time window as the clusters found for the control group, from 345 ms to 463 ms. <sentence_start/>A larger negative polarity ERP is observed for the two positive conditions compared to negative conditions. <sentence_start/>This effect was evident over the left hemisphere, mainly over the Centro-posterior electrodes (FC3, C1, C3, C5, T7, TP7, CP5, CP3, P3, P7, P9, PO7, Figure 8A)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Cluster 4. <bold>(A)</bold> Grand average ERPs of electrodes included in cluster 4 of the OFC group. <sentence_start/>The electrodes included in each cluster are highlighted in the scalp maps. <sentence_start/><bold>(B)</bold> Comparison of the grand average ERPs of the four conditions between the control group and the OFC group for cluster 4. <sentence_start/>The bold line on the x-axis represents the time window within which the amplitude was extracted and used in the repeated measures ANOVA tests. <sentence_start/>The shaded area around the ERP represents the SEM."
+  },
+  {
+   "section": "article",
+   "text": "Between-Group Effects of Cluster 4"
+  },
+  {
+   "section": "article",
+   "text": "The between-groups analysis revealed a significant main effect of the response (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 30.5, <italic toggle=\"yes\">p</italic> &lt; 0.001, <italic toggle=\"yes\">r</italic> = 0.73), as well as an interaction of response and group (<italic toggle=\"yes\">F</italic><sub>(1,26)</sub> = 4.76, <italic toggle=\"yes\">p</italic> &lt; 0.05, <italic toggle=\"yes\">r</italic> = 0.39). <sentence_start/>The negative polarity ERPs observed at around 250 ms remained sustained for the two positive response conditions while the two negative response conditions returned to baseline for the OFC group. <sentence_start/>Despite a similar time-course for the control group, no sustained activity was observed for this cluster (Figure 8B)."
+  },
+  {
+   "section": "article",
+   "text": "The Encoding and Maintenance Phases"
+  },
+  {
+   "section": "article",
+   "text": "The <italic toggle=\"yes\">t</italic>-test performed over the letter encoding and maintenance periods did not show significant ERP differences between the HR and LR conditions for any of the groups of participants. <sentence_start/>The ERPs elicited by the letters presented on the screen was not modulated by the recency manipulation. <sentence_start/>Moreover, the recency effect did not impact the way letters were retained in WM during the delay interval (see examples of ERPs elicited during the encoding and maintenance for the two groups in Figures 5-8A of the four clusters)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study examined the role of the OFC in WM using a Recent Probes task. <sentence_start/>Unexpectedly, the behavioral analyses suggest that patients with OFC lesion performed the task properly despite their brain damage. <sentence_start/>Although OFC electrophysiological responses differed spatiotemporally from the control group, the maintenance of letters in WM, the evaluation of the context of the probe, and the decision to accept or reject a probed letter were preserved in our patient cohort. <sentence_start/>Moreover, the sensitivity to the recency of the probe was preserved at the behavioral level despite the differential modulation of ERP markers in the OFC group."
+  },
+  {
+   "section": "article",
+   "text": "Behavioral Findings"
+  },
+  {
+   "section": "article",
+   "text": "The two groups showed similar behavioral patterns across task conditions. <sentence_start/>For both groups, the response time to the probe letter was slower when the probe had been present in the memory set of the previous trial (i.e., the recency effect), especially if the probe was absent in the current one (HRN condition; Monsell, <citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1016/0010-0285(78)90008-7\" count=\"1\">1978</citation>; Jonides et al., <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1073/pnas.95.14.8410\" pmid=\"9653200\" pmcid=\"PMC20989\" count=\"1\">1998</citation>), reflecting the PI effect. <sentence_start/>Moreover, this PI was not different between groups. <sentence_start/>The weaker recency effect compared to that usually observed in earlier studies, can be partly explained by the wider age range in our study (Jonides et al., <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1073/pnas.95.14.8410\" pmid=\"9653200\" pmcid=\"PMC20989\" count=\"1\">1998</citation>; Du et al., <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/j.ijpsycho.2008.03.007\" pmid=\"18442864\" count=\"1\">2008</citation>; Yi and Friedman, <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1080/13825585.2013.833581\" pmid=\"24015921\" pmcid=\"PMC3950619\" count=\"1\">2014</citation>) as controls were selected to match the age range of the OFC cohort. <sentence_start/>Indeed, it has been shown that performance on this type of WM tasks changes over life (Jonides et al., <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1162/089892900561823\" pmid=\"10769315\" count=\"1\">2000</citation>; Thompson-Schill et al., <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.3758/cabn.2.2.109\" pmid=\"12455679\" count=\"1\">2002</citation>; Park and Reuter-Lorenz, <citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.1146/annurev.psych.59.103006.093656\" pmid=\"19035823\" pmcid=\"PMC3359129\" count=\"1\">2009</citation>) and may relate to a reduction in inhibition or in attention (Tays et al., <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1162/jocn.2008.20158\" pmid=\"18457511\" count=\"1\">2008</citation>; Yi and Friedman, <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1080/13825585.2013.833581\" pmid=\"24015921\" pmcid=\"PMC3950619\" count=\"1\">2014</citation>). <sentence_start/>Regarding the error rate, the OFC patients were as accurate in their judgments as the controls. <sentence_start/>Overall, the number of errors was smaller for the negative response conditions compared to the positive conditions, indicating that the rejection of probes was cognitively less demanding. <sentence_start/>Notably, accuracy was enhanced when the rejected probe had not been presented in the previous trial."
+  },
+  {
+   "section": "article",
+   "text": "More variability in response latency and accuracy were observed within the control group than the OFC group. <sentence_start/>One explanation could come from a potentially wider choice of strategies that healthy participants could apply to perform the task (for instance, keeping in mind and rehearsing the five letters or creating pseudo-words (Braver et al., <citation rid=\"B9\" ref-type=\"bibr\" count=\"1\">2007</citation>) compared to patients with a lesion in the OFC. <sentence_start/>However, participants were not asked about their choice of strategy."
+  },
+  {
+   "section": "article",
+   "text": "Standard neuropsychological tests did not reveal any deficits on measures of general intellectual ability, selective attention, processing speed, memory span and WM (Digit Span forward and backward, respectively) for this patient cohort. <sentence_start/>This is in line with other studies reporting no general deficit in attention or WM after OFC damage (Müller et al., <citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1162/08989290260138582\" pmid=\"12167253\" count=\"1\">2002</citation>; Barbey et al., <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhq153\" pmid=\"20724371\" pmcid=\"PMC3059885\" count=\"1\">2011</citation>). <sentence_start/>Moreover, IQ and Digit Span were not correlated with performance on the Recent Probes task for any group."
+  },
+  {
+   "section": "article",
+   "text": "Electrophysiological Findings"
+  },
+  {
+   "section": "article",
+   "text": "Examination of the electrophysiological time-courses, spanning the three different phases composing the Recent Probes task, showed that in both groups the encoding and the maintaining of letters in WM were similar for the HR and LR conditions. <sentence_start/>This is in line with the findings of other studies (D’Esposito et al., <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1073/pnas.96.13.7514\" pmid=\"10377446\" pmcid=\"PMC22117\" count=\"1\">1999b</citation>; Badre and Wagner, <citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhi075\" pmid=\"15788702\" count=\"1\">2005</citation>; Braver et al., <citation rid=\"B9\" ref-type=\"bibr\" count=\"1\">2007</citation>). <sentence_start/>However, the analysis of the recognition probe period revealed spatiotemporal differences in ERPs between the four task conditions. <sentence_start/>This suggests that whether a probe was present or not in the previous trial did not impact the encoding and the maintaining of the subsequent trial information, i.e., the task condition was only determined by the probe."
+  },
+  {
+   "section": "article",
+   "text": "While the ERP condition differences observed for the control group occurred within the same time window and involved bilateral electrodes, the differences for the OFC group were left-lateralized and occurred during two consecutive time windows. <sentence_start/>The first cluster observed for the OFC group (cluster 3) shared common left electrodes with cluster 2 of the control group but occurred later in time, while the second cluster of the OFC group (cluster 4) occurred at the same timing as the control group but involved a different set of left posterior electrodes."
+  },
+  {
+   "section": "article",
+   "text": "The electrophysiological results did not concur with behavioral observations. <sentence_start/>Indeed, task condition effects observed at the ERP level were mostly driven by response manipulation. <sentence_start/>The probe recency effect only impacted ERPs for the left frontal electrodes in cluster 2 of the control group. <sentence_start/>This observation is in line with previous work by Milner et al. (<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1016/0028-3932(91)90013-x\" pmid=\"1944864\" count=\"1\">1991</citation>) showing that the left mid-lateral frontal cortex plays a crucial role in performing recency judgments for verbal information. <sentence_start/>Interestingly, no recency effect on ERPs was observed for the OFC group. <sentence_start/>In our study, the subtle amplitude modulation of the negative-going ERP component elicited by the recency of the probe may be due to the observation that the response effect was equivalent to, if not stronger than, the recency effect."
+  },
+  {
+   "section": "article",
+   "text": "The electrophysiological results observed for the control group during the time window of interest were comparable with those reported in studies using similar experimental designs. <sentence_start/>Our experimental manipulation elicited two main ERP components peaking during the same time window (between 200 and 300 ms after probe onset), but with different spatial distributions: a left frontal negative-going component and a right centroparietal positive component (Du et al., <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/j.ijpsycho.2008.03.007\" pmid=\"18442864\" count=\"1\">2008</citation>; Tays et al., <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1162/jocn.2008.20158\" pmid=\"18457511\" count=\"1\">2008</citation>, <citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.neulet.2009.07.025\" pmid=\"19616064\" count=\"1\">2009</citation>; Zhang et al., <citation rid=\"B69\" ref-type=\"bibr\" doi=\"10.1016/j.neuropsychologia.2010.04.008\" pmid=\"20398683\" count=\"1\">2010</citation>; Yi and Friedman, <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1080/13825585.2013.833581\" pmid=\"24015921\" pmcid=\"PMC3950619\" count=\"1\">2014</citation>). <sentence_start/>We found that the two components were sensitive to the “yes” and “no” responses, but only the frontal negativity (cluster 2) was sensitive to the recency-manipulation. <sentence_start/>These results are in accordance with Du et al. (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/j.ijpsycho.2008.03.007\" pmid=\"18442864\" count=\"1\">2008</citation>) and Folstein and Van Petten (<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1111/j.1469-8986.2007.00602.x\" pmid=\"17850238\" pmcid=\"PMC2365910\" count=\"1\">2008</citation>), who reported a modulation of a N2 and a P3 by the positive and negative responses, but also a modulation of the N2 by the response-conflict and inhibitory processes induced by PI (Tays et al., <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1162/jocn.2008.20158\" pmid=\"18457511\" count=\"1\">2008</citation>, <citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.neulet.2009.07.025\" pmid=\"19616064\" count=\"1\">2009</citation>). <sentence_start/>However, contrary to Du et al. (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/j.ijpsycho.2008.03.007\" pmid=\"18442864\" count=\"1\">2008</citation>); we observed a larger and more frontal N2 as well as an earlier and larger P3 for the positive responses. <sentence_start/>These ERP differences may be due to task design differences and the cognitive processes engaged. <sentence_start/>For example, Du et al. (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/j.ijpsycho.2008.03.007\" pmid=\"18442864\" count=\"1\">2008</citation>) directed forgetting of some letters, while our study required maintenance of the entire set of letters until the probe appeared. <sentence_start/>This explicit manipulation of items kept in WM might lead to different modulation of the brain network involved in PI. <sentence_start/>However, we failed to reproduce the recency modulation observed by Zhang et al. (<citation rid=\"B69\" ref-type=\"bibr\" doi=\"10.1016/j.neuropsychologia.2010.04.008\" pmid=\"20398683\" count=\"1\">2010</citation>) as no modulation of the amplitude of the LPC was observed for the controls. <sentence_start/>These results indicate that recency manipulation influences the brain activity of healthy participants only shortly after the probe presentation (around 200 ms)."
+  },
+  {
+   "section": "article",
+   "text": "In our study, the N2 observed in the OFC group had a more posterior distribution than the control group. <sentence_start/>The N2 was sensitive to the response manipulation but not to the recency effect. <sentence_start/>The LPC was also modulated by the response only. <sentence_start/>These results indicate that neural markers of the brain network engaged in the “yes” or “no” response to the probe were preserved in the OFC group despite being spatiotemporally shifted."
+  },
+  {
+   "section": "article",
+   "text": "The finding that none of the ERP components identified for the OFC group were modulated according to probe recency, while the behavioral parameters were influenced, was surprising. <sentence_start/>One may speculate that this apparent mismatch in our results is related to the fact that these effects are small in magnitude or susceptible to interindividual variability within the OFC group."
+  },
+  {
+   "section": "article",
+   "text": "Although the cognitive strategies involved during task performance might have been different, the resulting overall behavioral performance was similar across groups. <sentence_start/>One explanation for the preserved task performance could be that, despite being part of the network subserving proactive cognitive control (Badre and Wagner, <citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1093/cercor/bhi075\" pmid=\"15788702\" count=\"1\">2005</citation>; Nee et al., <citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2007.07.066\" pmid=\"17904389\" pmcid=\"PMC2206737\" count=\"1\">2007</citation>; Irlbacher et al., <citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1016/j.neubiorev.2014.06.014\" pmid=\"25003803\" count=\"1\">2014</citation>), the OFC is not critical for the resolution of PI. <sentence_start/>Preservation of brain regions such as the VLPFC and the DLPFC may be sufficient to maintain adequate task performance (Jonides et al., <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1073/pnas.95.14.8410\" pmid=\"9653200\" pmcid=\"PMC20989\" count=\"1\">1998</citation>; Postle et al., <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.3758/cabn.4.4.600\" pmid=\"15849900\" pmcid=\"PMC1201535\" count=\"1\">2004</citation>; Wager et al., <citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/j.neuroimage.2005.01.054\" pmid=\"16019232\" count=\"1\">2005</citation>; Jonides and Nee, <citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.neuroscience.2005.06.042\" pmid=\"16337090\" count=\"1\">2006</citation>; Burgess and Braver, <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0012861\" pmid=\"20877464\" pmcid=\"PMC2942897\" count=\"1\">2010</citation>; Barbey et al., <citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1016/j.cortex.2012.05.022\" pmid=\"22789779\" pmcid=\"PMC3495093\" count=\"1\">2013</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Another explanation could be the reorganization of function compensating for OFC damage. <sentence_start/>In our study, we observed that the clusters of significant difference were both left-lateralized for the OFC group while the control group presented a right and a left-lateralized cluster. <sentence_start/>Moreover, the OFC group showed condition difference in two distinct time windows. <sentence_start/>These spatiotemporal differences could reflect compensatory mechanisms. <sentence_start/>Voytek and Knight (<citation rid=\"B62\" ref-type=\"bibr\" count=\"1\">2011</citation>) suggested that patients suffering from slow-growing brain lesions (as most of the patients in our cohort) have more efficient compensatory mechanisms compared to patients with acute brain damage. <sentence_start/>Moreover, the authors proposed that deficits caused by damage in frontal regions (compared to posterior regions) are more likely to recover due to more distributed brain networks supporting function, thus being more resistant to focal brain damage (see also Anderson, <citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1177/1073858406294706\" pmid=\"17229971\" count=\"1\">2007</citation>). <sentence_start/>We acknowledge that a significant correlation between behavioral performance and ERPs would have strengthened this interpretation. <sentence_start/>However, the correlation between ERPs and behavioral parameters tends to be weak, likely because the two sets of measures provide different windows into brain function. <sentence_start/>Small sample sizes, as in the current study, is also a limitation. <sentence_start/>Group differences in physiological- but not in behavioral data can, therefore, provide insights about the information processing in a system that, if gleaned from behavioral data only, appears to be normal. <sentence_start/>The altered ERPs may represent a processing deficit that behavioral measures are not sensitive enough to detect. <sentence_start/>An alternative interpretation may be a difference in task strategy between the groups, but this remains speculative and the overall pattern of behavior does not point to different strategies."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The OFC group had a similar sensitivity to the experimental conditions of a Recent Probes task and performed at the same high accuracy as healthy controls. <sentence_start/>However, the electrophysiological data indicate that the two groups differed in the modulation of the brain networks supporting task performance. <sentence_start/>The findings suggest that neural reorganization compensates for OFC damage."
+  },
+  {
+   "section": "article",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "article",
+   "text": "The datasets generated for this study are available on request to the corresponding author."
+  },
+  {
+   "section": "article",
+   "text": "Ethics Statement"
+  },
+  {
+   "section": "article",
+   "text": "The studies involving human participants were reviewed and approved by Regional Committee for Medical Research Ethics, Region South Norway. <sentence_start/>The patients/participants provided their written informed consent to participate in this study."
+  },
+  {
+   "section": "article",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "article",
+   "text": "TE, JL, and AL contributed to the conception and design of the study. <sentence_start/>TM, A-KS, and RK helped with the recruitment and clinical characterization of patients. <sentence_start/>IF, AB, MF, SL, and AL helped to collect the data and worked on the lesion reconstruction together with TM and A-KS. <sentence_start/>AL, RH, and IF performed the statistical analysis. <sentence_start/>RK, A-KS, and TE provided substantial contributions to the interpretation of the data. <sentence_start/>AL wrote the first draft of the manuscript. <sentence_start/>All authors contributed to manuscript revision and improvement, read and approved the submitted version."
+  },
+  {
+   "section": "article",
+   "text": "Conflict of Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding.</bold> <sentence_start/>This study was supported by research grants from the Research Council of Norway (Norges Forskningsråd; 240389 to A-KS and 274996 to A-KS and TE), and from the National Institute of Neurological Disorders and Stroke (R37NS21135 to RK). <sentence_start/>This work was also partially supported by the Research Council of Norway through its Centres of Excellence scheme (project number 262762, RITMO)."
+  },
+  {
+   "section": "back",
+   "text": "<sup>1</sup>The orbitofrontal cortex, commonly referred to as the ventromedial part of the prefrontal cortex or the frontopolar prefrontal cortex in the literature, will only be referred to as OFC in the remaining of this article."
+  },
+  {
+   "section": "back",
+   "text": "<sup>2</sup>"
+  },
+  {
+   "section": "back",
+   "text": "<sup>3</sup>"
+  },
+  {
+   "section": "back",
+   "text": "<sup>4</sup>"
+  },
+  {
+   "section": "back",
+   "text": "<sup>5</sup>This latency was suggested as the zero intercept in this type of task by Sternberg (<citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1126/science.153.3736.652\" pmid=\"5939936\" count=\"1\">1966</citation>). <sentence_start/>In our study, the percentage of correct trials with RT faster than 400 ms was 0.2%."
+  },
+  {
+   "section": "back",
+   "text": "<sup>6</sup>"
+  },
+  {
+   "section": "back",
+   "text": "<sup>7</sup>The effect of homogeneity of variances between groups was weakened by the presence of an unusually fast OFC patient who was the only one in our pool of patients suffering traumatic brain injury early in life (14 years old). <sentence_start/>A possible explanation for this participant’s speed may be attributed to brain plasticity, which could have enhanced recovery of functions (for review see Johnston, <citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1016/s0387-7604(03)00102-5\" pmid=\"15036425\" count=\"1\">2004</citation>)."
+  }
+ ]
+}

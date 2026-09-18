@@ -1,0 +1,243 @@
+{
+ "pmid": 19557136,
+ "pmcid": 2699434,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Molecular Characterization and Tissue Localization of an F-Box Only Protein from Silkworm, <italic toggle=\"yes\">Bombyx mori</italic>"
+  },
+  {
+   "section": "abstract",
+   "text": "The eukaryotic F-box protein family is characterized by an F-box motif that has been shown to be critical for the controlled degradation of regulatory proteins. <sentence_start/>We identified a gene encoding an F-box protein from a cDNA library of silkworm pupae, which has an ORF of 1821 bp, encoding a predicted 606 amino acids. <sentence_start/>Bioinformatic analysis on the amino acid sequence shows that BmFBXO21 has a low degree of similarity to proteins from other species, and may be related to the regulation of cell-cycle progression. <sentence_start/>We have detected the expression pattern of BmFBXO21 mRNA and protein and performed immunohistochemistry at three different levels. <sentence_start/>Expression was highest in the spinning stage, and in the tissues of head, epidermis, and genital organs."
+  },
+  {
+   "section": "article",
+   "text": "1. <sentence_start/>Introduction"
+  },
+  {
+   "section": "article",
+   "text": "F-box proteins are an expanding family of eukaryotic proteins characterized by an amino-acid motif called an F-box [<citation rid=\"B1\" ref-type=\"bibr\" pmid=\"8706131\" doi=\"10.1016/s0092-8674(00)80098-7\" count=\"1\">1</citation>, <citation rid=\"B2\" ref-type=\"bibr\" pmid=\"17928169\" doi=\"10.1016/j.gene.2007.08.020\" count=\"1\">2</citation>]. <sentence_start/>The F-box motif is composed of about 40-50 amino acids, with several conserved positions: position 8 is usually leucine or methionine; position 9 is proline; position 16 is isoleucine or valine; position 20 is leucine or methionine; position 32 is serine or cysteine [<citation rid=\"B2\" ref-type=\"bibr\" pmid=\"17928169\" doi=\"10.1016/j.gene.2007.08.020\" count=\"1\">2</citation>, <citation rid=\"B3\" ref-type=\"bibr\" pmid=\"11178263\" doi=\"10.1186/gb-2000-1-5-reviews3002\" pmcid=\"PMC138887\" count=\"1\">3</citation>]. <sentence_start/>The motif functions to mediate protein-protein interactions and is generally found in the amino-terminal part of protein. <sentence_start/>In the carboxy-terminal end, there are other motifs, the two most common of which in humans are leucine-rich repeats (LRRs) and WD repeats [<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"17005440\" doi=\"10.1016/j.pbi.2006.09.003\" count=\"1\">4</citation>, <citation rid=\"B5\" ref-type=\"bibr\" pmid=\"11099048\" doi=\"10.1038/35042620\" count=\"1\">5</citation>]. <sentence_start/>Accordingly, the Human Genome Organization proposed the following nomenclature for human F-box proteins: FBXL denotes a protein containing an F-box and LRRs; FBXL denotes a protein with an F-box and WD repeats; FBXO denotes a protein with an F-box and either another or no other motif [<citation rid=\"B6\" ref-type=\"bibr\" pmid=\"10531035\" doi=\"10.1016/S0960-9822(00)80020-2\" count=\"1\">6</citation>, <citation rid=\"B7\" ref-type=\"bibr\" pmid=\"10531037\" doi=\"10.1016/S0960-9822(00)80021-4\" count=\"1\">7</citation>]. <sentence_start/>Almost all human FBXW or FBXL proteins have counterparts in <italic toggle=\"yes\">Caenorhabditis elegans</italic> with most also conserved in yeast, but only about half of the human FBXO class of proteins are conserved in nematodes or yeast [<citation rid=\"B6\" ref-type=\"bibr\" pmid=\"10531035\" doi=\"10.1016/S0960-9822(00)80020-2\" count=\"1\">6</citation>, <citation rid=\"B7\" ref-type=\"bibr\" pmid=\"10531037\" doi=\"10.1016/S0960-9822(00)80021-4\" count=\"1\">7</citation>]. <sentence_start/>Fewer examples have been found in the FBXO than the others. <sentence_start/>Some FBXW or FBWL proteins have been shown to be critical for the controlled degradation of cellular regulatory proteins. <sentence_start/>In recent years, the functions of several FBXO proteins have also been elucidated. <sentence_start/>Among these, Atrogin-1/FBXO32 is a well-studied muscle-specific FBXO protein that plays a central role in the process of various muscle atrophy [<citation rid=\"B8\" ref-type=\"bibr\" pmid=\"15340078\" doi=\"10.1128/MCB.24.18.8184-8194.2004\" pmcid=\"PMC515055\" count=\"1\">8</citation>-<citation rid=\"B11\" ref-type=\"bibr\" pmid=\"11717410\" doi=\"10.1073/pnas.251541198\" pmcid=\"PMC64700\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Present studies have found that F-box proteins play an important role in mediating special degradation to ubiquitylated substrates, associating a phosphorylation signal pathway in the cell with ubiquitin-mediated proteolysis, and participating in many important biological processes, such as cell cycle progression, differentiation and development, signal transduction and transcriptional regulation, and silencing [<citation rid=\"B12\" ref-type=\"bibr\" pmid=\"10611680\" count=\"1\">12</citation>-<citation rid=\"B19\" ref-type=\"bibr\" pmid=\"11028913\" doi=\"10.1007/PL00000760\" pmcid=\"PMC11146932\" count=\"1\">19</citation>]. <sentence_start/>F-box proteins are key components of SCF (Skp1-Cullin1-F-box protein) E3 ubiquitin ligase complexes [<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1146/annurev.cellbio.15.1.435\" pmid=\"10611969\" count=\"1\">20</citation>, <citation rid=\"B21\" ref-type=\"bibr\" pmid=\"15337116\" doi=\"10.1016/j.tibs.2004.07.006\" count=\"1\">21</citation>]. <sentence_start/>They connect multiple ubiquitin molecules to the substrates as special epitopes, and then guide the degradation of the polyubiquitylated proteins by 26S proteasome complex [<citation rid=\"B22\" ref-type=\"bibr\" pmid=\"9357313\" doi=\"10.1016/s0968-0004(97)01122-5\" count=\"1\">22</citation>-<citation rid=\"B24\" ref-type=\"bibr\" pmid=\"10856929\" doi=\"10.1016/s0962-8924(00)01768-2\" count=\"1\">24</citation>]. <sentence_start/>A typical example of this process is cell-cycle phase transition. <sentence_start/>Cell-cycle regulators that were required for the previous phase are degraded as the cell enters the new phase. <sentence_start/>A wide variety of SCF targets promote cell-cycle progression, including cell-cycle regulators, G1-phase cyclins, cyclin-dependent kinase inhibitors, DNA replication factors, and transcription factors involved in the cell cycle [<citation rid=\"B25\" ref-type=\"bibr\" pmid=\"15340381\" doi=\"10.1038/nrm1471\" count=\"1\">25</citation>-<citation rid=\"B28\" ref-type=\"bibr\" pmid=\"16797541\" doi=\"10.1016/j.febslet.2006.06.023\" count=\"1\">28</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "F-box proteins have important regulatory roles, and the identification of novel F-box genes and their function has vital significance to the study of the regulative role of this family. <sentence_start/>In this study, we identified an F-box gene from a silkworm pupae cDNA library [<citation rid=\"B29\" ref-type=\"bibr\" pmid=\"17625237\" doi=\"10.1007/s12010-007-9029-3\" count=\"1\">29</citation>]. <sentence_start/>The GenBank Accession Number for BmFBXO21 is . <sentence_start/>We performed a bioinformatic analysis on this cDNA sequence, and determined its expression patterns within the silkworm, at various developmental stages and tissues."
+  },
+  {
+   "section": "article",
+   "text": "2. <sentence_start/>Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1. <sentence_start/>Bacterial Strains and Animal Materials"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Escherichia coli</italic> strains TG1 and BL21 (DE3) were grown at 37°C in LB medium. <sentence_start/>The <italic toggle=\"yes\">Bombyx mori</italic> strain was the offspring of Jingsong × Haoyue. <sentence_start/>Silkworms were reared on mulberry leaves under standard conditions. <sentence_start/>Heads, silk glands, guts, malpighian tubules, testes, ovaries, fat bodies, and the epidermis were dissected from spinning silkworms, frozen immediately in liquid nitrogen and stored at −70°C. <sentence_start/>Whole spinning silkworms were also frozen in liquid nitrogen and stored at −70°C."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Bioinformatic Analyses"
+  },
+  {
+   "section": "article",
+   "text": "Similarity analyses for nucleotide and protein sequences were carried out using GenBank BLASTN and BLASTP algorithms. <sentence_start/>Multiple alignments and homology analysis of BmFBXO21 were conducted using the program CLUSTAL-W from the software Bioedit. <sentence_start/>The hydrophobicity analysis and the functional sites prediction were carried out on ExPASy websites, and , respectively. <sentence_start/>NetPhos ( ) was used to predict the serine, threonine, and tyrosine phosphorylation sites."
+  },
+  {
+   "section": "article",
+   "text": "2.3. <sentence_start/>Preparation of Polyclonal Antibodies"
+  },
+  {
+   "section": "article",
+   "text": "The 687 bp 3′ fragment of BmFBXO21 cDNA, previously isolated and cloned from metaphase pupae by our laboratory [<citation rid=\"B29\" ref-type=\"bibr\" pmid=\"17625237\" doi=\"10.1007/s12010-007-9029-3\" count=\"1\">29</citation>], was used as a template to amplify a fragment from the coding region by polymerase chain reaction (PCR). <sentence_start/>The PCR primers based on the ORF were: upper primer 5′- CGCGGATCCATGGATGAAGAACTTT -3′, lower primer 5′- CCGCTCGAGTTAATATTGTACAAGTTTC -3′, introducing the restriction sites <italic toggle=\"yes\">Bam</italic> HI and <italic toggle=\"yes\">Xho</italic> I, respectively. <sentence_start/>The PCR products were purified using the PCR Rapid Purification Kit ( BioDev -Tech, China), and after digestion by <italic toggle=\"yes\">Bam</italic> HI/<italic toggle=\"yes\">Xho</italic> I (Promega) the fragments were cloned into the expression vector pET-28a and transformed into <italic toggle=\"yes\">E. coli</italic> TG1 competent cells. <sentence_start/>A positive colony with the BmFBXO21 plasmid was identified by PCR and double digestion of the plasmid."
+  },
+  {
+   "section": "article",
+   "text": "The recombinant plasmid pET-28a-BmFBXO21 was transformed into <italic toggle=\"yes\">E. coli</italic> BL21 (DE3) competent cells, which were incubated at 37°C in liquid LB culture media containing 50 <italic toggle=\"yes\">μ</italic>g/mL kanamycin. <sentence_start/>Expression of the His-tag fusion protein was induced at an <italic toggle=\"yes\">A</italic> <sub>600</sub> of 0.6 followed by adding IPTG (isopropylthio-<italic toggle=\"yes\">β</italic>-D-galactoside) to a final concentration of 1 mM before another 5-hour incubation. <sentence_start/>A 5 mL Ni<sup>2+</sup>-Sephadex<sup>TM</sup> G-25 Superfine column (Amersham) was used to purify the expressed recombinant BmFBXO21 (rBmFBXO21) protein, as instructed by the manufacturer. <sentence_start/>The eluted target protein was subsequently concentrated and desalted by dialysis. <sentence_start/>The presence and purity of BmFBXO21 were evaluated by 12% SDS-PAGE and quantified by the Bradford method [<citation rid=\"B30\" ref-type=\"bibr\" pmid=\"942051\" doi=\"10.1016/0003-2697(76)90527-3\" count=\"1\">30</citation>]. <sentence_start/>The purified recombinant BmFBXO21 protein was used to raise antibodies in rabbits."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>Titer Analysis and Specificity Evaluation of the Polyclonal Antibodies"
+  },
+  {
+   "section": "article",
+   "text": "The polyclonal antisera were divided and purified using His-Trap Chelatings HP (Amersham) following the manufacturer's instructions. <sentence_start/>Indirect ELISA was used to detect the titer of antibody, with negative rabbit sera as control. <sentence_start/>Western blot analysis was used to evaluate the specificity of polyclonal antibodies with extracts of recombinant plasmid and silkworm pupa, respectively [<citation rid=\"B31\" ref-type=\"bibr\" count=\"1\">31</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "2.5. <sentence_start/>Protein Extraction and Western Blotting"
+  },
+  {
+   "section": "article",
+   "text": "Embryos, larvae, spinning silkworms, pupae and moths were collected. <sentence_start/>Spinning silkworm organs samples were ground to powder in liquid nitrogen followed by suspending in buffer M (50 mM Tris-Cl, pH8.0; 0.15 M NaCl; 5 mM EDTA; 0.5% NP-40; 1 mM dithiothreitol; 5 mg/mL sodium deoxycholate; 100 mg/L PMSF; 5 <italic toggle=\"yes\">μ</italic>g/mL Aprotin (Sigma)), then incubating for 30 minutes on ice. <sentence_start/>The homogenates were centrifuged at 12 000 × g for 15 minutes at 4°C. <sentence_start/>The supernatants contained whole proteins and were quantified by the Bradford method. <sentence_start/>Samples were equalized and electrophoresed by 10% SDS-PAGE and electro-transferred onto polyvinylidene difluoride (PVDF) membranes. <sentence_start/>After blocking with 3% nonfat milk in phosphate-buffered saline (PBS) at 4°C overnight, the membranes were probed with rabbit anti-BmFBXO21 antibody at room temperature for 2 hours. <sentence_start/>After washing with PBST (PBS + 0.05% Tween-20) the membranes were incubated with antirabbit IR Dye 700 and detected with Infrared Laser Imaging System 9201F (Licor)."
+  },
+  {
+   "section": "article",
+   "text": "2.6. <sentence_start/>RNA Extraction and Real-Time PCR (RT-PCR)"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was extracted from tissues of spinning silkworms using Trizol reagent (Invitrogen) according to the manufacturer's instructions. <sentence_start/>Contaminating genomic DNA (gDNA) was removed by DNase I (Invitrogen). <sentence_start/>The purity of extracted RNA was determined by UV spectrophotometer. <sentence_start/>Ratios of UV 260/280 were between 1.8 and 2.1 for all RNA samples analyzed. <sentence_start/>The concentration of total RNA was determined by measuring the absorbance at 260 nm using SPECTRA max PLUS384 (Molecular Devices). <sentence_start/>RT-PCR primers were designed using the Primer Select program of the DNA STAR software. <sentence_start/>The primer pairs were as follows: FBXO21 Forward CAATGCCCTTCACTGTTCTCA, Reverse TGTGTCCAAATTCTAATCTGTTCA;18S rRNA Forward CGATCCGCCGACGTTACTACA, Reverse GTCCGGGCCTGGTGAGATTT. <sentence_start/>SuperScript III Platinum SYBR Green One-Step RT-PCR Kit with ROX (Invitrogen) was used. <sentence_start/>15 <italic toggle=\"yes\">μ</italic>L reaction mixtures contained 7.5 <italic toggle=\"yes\">μ</italic>l 2 × SYBR-Green Reaction mixed with Rox, 0.3 <italic toggle=\"yes\">μ</italic>L SuperScript III RT/platinum Taq mix, 1.2 <italic toggle=\"yes\">μ</italic>L 1 <italic toggle=\"yes\">μ</italic>M forward and reverse primers, respectively, 1 <italic toggle=\"yes\">μ</italic>L total RNA and 3.8 <italic toggle=\"yes\">μ</italic>L DEPC-water. <sentence_start/>RT-PCR was performed by ABI Prism 7300 Sequence Detection System (Applied Bio systems) under the following conditions: an initial cycle at 50°C for 3 minutes, one cycle at 95°C for 5 minutes, followed by 40 cycles of 95°C for 15 seconds, 59°C for 15 seconds, and 72°C for 30 seconds. <sentence_start/>Each reaction was performed in triplicate in 96-well plates, with the endogenous 18S rRNA control gene. <sentence_start/>Dissociation curves were performed to check for the presence of nonspecific dsDNA SYBR Green hybrids, such as primer dimers. <sentence_start/>Data analysis was performed using ABI Prism 7300 SDS Software V1.3.1 (Applied Biosystems, USA). <sentence_start/>Expression levels of the target genes were normalized against the expression level of the 18S rRNA gene. <sentence_start/>The relative expression level was calculated using 2<sup>−ΔΔCT</sup>, where ΔC<sub>T</sub> = C<sub>T(target gene)</sub>－C<sub>T(18S rRNA)</sub>, ΔΔC<sub>T</sub> = ΔC<sub>T(target gene)</sub>－ΔC<sub>T(maximum)</sub> [<citation rid=\"B32\" ref-type=\"bibr\" pmid=\"11846609\" doi=\"10.1006/meth.2001.1262\" count=\"1\">32</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "2.7. <sentence_start/>Immunohistochemistry"
+  },
+  {
+   "section": "article",
+   "text": "Following liquid nitrogen treatment, spinning silkworms were embedded with OCT compound at temperatures below −20°C. <sentence_start/>Sections (10 <italic toggle=\"yes\">μ</italic>m thick) were attached to microscope slides, treated with cold acetone, washed three times in PBS for 15 minutes, treated with 5% BSA in PBS plus Triton X-100 (PBST) for 1 hour, and incubated for 2 hours with purified anti-BmFBXO21 (1 : 500). <sentence_start/>After three washes in PBST, sections were incubated with Alexa Fluor 488 conjugated antirabbit IgG (1 : 500) for 45 minutes, washed three times in PBST and twice in PBS, and then observed by fluorescence microscopy at 488 nm."
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1. <sentence_start/>Bioinformatic Analyses"
+  },
+  {
+   "section": "article",
+   "text": "From a cDNA library, we isolated a 2133 bp gene with a 1821 bp open reading frame (ORF) encoding a protein identified as an F-box only protein by Genbank BLAST. <sentence_start/>Through BLASTP comparison, a conservative structural domain of the YccV-like superfamily was discovered in at amino acids 470-560. <sentence_start/>YccV is a hemimethylated DNA binding protein that regulates the expression of dnaA [<citation rid=\"B33\" ref-type=\"bibr\" pmid=\"12700277\" doi=\"10.1128/JB.185.9.2967-2971.2003\" pmcid=\"PMC154408\" count=\"1\">33</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Comparison of the deduced amino acid sequence of the BmFBXO21 protein with those of six F-box only proteins from <italic toggle=\"yes\">Apis mellifera</italic>, <italic toggle=\"yes\">Mus musculus</italic>, <italic toggle=\"yes\">Canis lupus familiaris</italic>, <italic toggle=\"yes\">Sus scrofa</italic>, <italic toggle=\"yes\">Pongo abelii,</italic> and <italic toggle=\"yes\">Homo sapiens</italic> revealed that BmFBXO21 had a low degree of similarity to the F-box only proteins of other species. <sentence_start/>The homology with Apis mellifera was 24%, while with others it was 23%. <sentence_start/>Nonetheless, several amino acid positions, specifically position 57 (L), position 58 (P), position 65 (I), position 66 (L), position 76 (I), position 81 (S) (Figure 1) were the conserved sites of the F-box motif [<citation rid=\"B3\" ref-type=\"bibr\" pmid=\"11178263\" doi=\"10.1186/gb-2000-1-5-reviews3002\" pmcid=\"PMC138887\" count=\"1\">3</citation>]. <sentence_start/>In addition, other highly conserved amino acid residues were found in the carboxy-terminal part of the protein."
+  },
+  {
+   "section": "article",
+   "text": "We predicted the hydrophobicity of the target protein BmFBXO21 using the ProtScale tool of ExPASy. <sentence_start/>The results showed that the maximum hydrophobicity value of BmFBXO21 protein was 2.489, while the minimum was −3.078; amino acids 250 ~ 300 amino acid were the most hydrophobic region. <sentence_start/>The potential function tool of PROSITE predicted one F-BOX domain in this region, at residues 4-51. <sentence_start/>We predicted the phosphorylation sites using NetPhos tool, with the following results: S6, S95, S119, S204, S229, S233, S292, S343, S350, S352, S412, S469;T172, T234, T251, T327, T480;Y82, Y99, Y145, Y158, Y228, Y261, Y413, Y428, Y444, Y457, Y470, Y486, Y593."
+  },
+  {
+   "section": "article",
+   "text": "3.2. <sentence_start/>Expression and Purification of rBmFBXO21 Protein"
+  },
+  {
+   "section": "article",
+   "text": "A BmRBXO21 fusion protein was expressed successfully in <italic toggle=\"yes\">E. coli</italic>, and after Ni<sup>2+</sup> affinity chromatography, recombinant BmFBXO21 was highly purified as detected by electrophoresis (Figure 2). <sentence_start/>FPLC analysis showed that the purity of rBmFBXO21 was higher than 90%. <sentence_start/>We confirmed the molecular weight by mass spectrometry, which indicated a molecular weight of 30.1-30.2 kD (Figure 3), matching the theoretical value of 30.28 kD (26.72 kD + 3.56 kD) very well, while 26.72 kD is predicted molecular weight of the 687 bp fragment, and 3.56 kD is the molecular weight of His-tag."
+  },
+  {
+   "section": "article",
+   "text": "3.3. <sentence_start/>Titer Analysis and Specificity Detection of the Polyclonal Antibodies"
+  },
+  {
+   "section": "article",
+   "text": "We used ELISA, after obtaining all extinction values, to determine the following ratio for antibodies against rBmFBXO21: positive serum extinction value/negative serum extinction value (P/N) ≥ 2.1 was positive; 1.5 ≤ P/N &lt; 2.1 was suspicious expression; P/N &lt; 1.5 was negative. <sentence_start/>From this, the titer of the antibodies was greater than 1 : 12800 at a concentration of 10 <italic toggle=\"yes\">μ</italic>g/mL, which had met requirement for next experiments."
+  },
+  {
+   "section": "article",
+   "text": "We used Western blots to determine the specificity of polyclonal antibodies for prokaryotic and eukaryotic expression. <sentence_start/>The antibody reacted with a protein from total lysates of induced <italic toggle=\"yes\">E. coli,</italic> that had a molecular weight of only 30 kD (Figure 4(b)). <sentence_start/>Similarly, the antibody crossreacted to extracts of spinning silkworm, with one band at 70 kD. <sentence_start/>These results illustrated high specificity of the polyclonal antibodies."
+  },
+  {
+   "section": "article",
+   "text": "3.4. <sentence_start/>Expression Pattern of BmFBXO21 during Developmental stages"
+  },
+  {
+   "section": "article",
+   "text": "In order to determine the protein expression levels of BmFBXO21 at various silkworm developmental stages, we extracted total protein from the egg, larvae (including the 1st, 2nd, 3rd, 4th, and 5th instar stages), spinning silkworm, pupa, and moth. <sentence_start/>We performed Western blot analyses on protein extracts to determine BmFBXO21 expression levels. <sentence_start/>The highest amount of expressed BmFBXO21 was in the spinning silkworm, decreasing in the pupa and egg; no BmFBXO21 was expressed in larval instars or moth (Figure 5(a))."
+  },
+  {
+   "section": "article",
+   "text": "3.5. <sentence_start/>Tissue Distribution of BmFBXO21"
+  },
+  {
+   "section": "article",
+   "text": "In order to detect BmFBXO21 protein expression levels in each tissue, we extracted protein from epidermis, head, silk gland, gut, ovary, testis, Malpighian tubule, trachea, and fat body of spinning silkworms and used Western blots to determine the levels of BmFBXO21 in each tissue. <sentence_start/>Immunoblots of these protein extracts revealed that anti-BmFBXO21 serum reacted with a 70 kD protein in extracts from the testis, ovary, gut, head, and epidermis (Figure 5(b))."
+  },
+  {
+   "section": "article",
+   "text": "To determine transcription levels of BmFBXO21 in these tissues, we isolated total RNA from the spinning silkworm tissues and used it to perform RT-PCR. <sentence_start/>From the melting curves (data not shown), we established, there were no overt primer dimers, indicating good primer specificity. <sentence_start/>The amplification curves (data not shown) indicated excellent reproducibility. <sentence_start/>Our results showed that BmFBXO21 mRNA was highest in head, lower in testis, epidermis, gut, ovary, trachea, fat body, Malpighian tubule, and lowest in silk gland (Figure 6)."
+  },
+  {
+   "section": "article",
+   "text": "3.6. <sentence_start/>Tissue Localization of BmFBXO21"
+  },
+  {
+   "section": "article",
+   "text": "To determine the tissue-specific localization of BmFBXO21, frozen sections were prepared from fresh spinning silkworms quick-frozen in liquid nitrogen and subjected to immunohistochemical analysis with purified anti- BmFBXO21 IgG as the primary antibody. <sentence_start/>We found that BmFBXO21 was expressed in the posterior part of head, periphery of gut, and periphery of testis (Figure 7). <sentence_start/>Because <italic toggle=\"yes\">B. mori</italic> (insect outline) has spontaneous green fluorescence, we observed no obvious difference in the epidermis between the samples and the negative control."
+  },
+  {
+   "section": "article",
+   "text": "4. <sentence_start/>Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Sequence analysis and homology comparisons with the predicted BmFBXO21 amino acid sequence indicated amino acid residues that are highly consistent with the conserved sites of the F-box motif. <sentence_start/>In addition, an F-BOX domain was found in the amino-terminal part of the protein by ExPASy tool. <sentence_start/>This suggests that BmFBXO21 is a protein of the F-box family, specifically an F-box only protein. <sentence_start/>Homology analysis showed that BmFBXO21 had a low degree of similarity, generally 20-30%, to proteins from other species. <sentence_start/>Some of the conserved sites were in the F-box motif, and others in the carboxy-terminal part of the protein, where they may be necessary for binding specific substrates."
+  },
+  {
+   "section": "article",
+   "text": "The prediction of phosphorylation sites using NetPhos tool showed BmFBXO21 had 30 potential phosphorylation sites: 12 serines, 5 threonines, and 13 tyrosines. <sentence_start/>Phosphorylation is the reaction of attaching a phosphate group (PO<sub>4</sub>) to target proteins by covalent bond. <sentence_start/>This may occur at many kinds of amino acids, mainly serine, threonine, and tyrosine. <sentence_start/>Phosphorylation is a major mechanism for signal transmission, and phosphorylation and dephosphorylation participate in many cell processes, such as signal transformation, gene expression, and the cell cycle [<citation rid=\"B34\" ref-type=\"bibr\" pmid=\"11389839\" doi=\"10.1016/s1097-2765(01)00242-8\" count=\"1\">34</citation>]. <sentence_start/>BmFBXO21 protein contains a large number of potential phosphorylation sites, and the conserved domain in the C-terminal amino acid sequence is a hemimethylated DNA binding domain, so we predict that the BmFBXO21 protein may be involved in the regulation of a specific cell process."
+  },
+  {
+   "section": "article",
+   "text": "Silkworm goes through a complete metamorphosis development process, including egg, larva, pupa, and moth; four developmental stages that have great differences in morphology, physiological characteristics, and biological function. <sentence_start/>Some developmental stages appear quiescent, while making great interior organizational changes, for example the egg, pupa, spinning, and sleeping stages. <sentence_start/>In the egg stage, the embryo develops, and the cell divides from one to innumerable; in the pupal stage, organizations degenerate or develop and prepare for coition and oviposition; some organs required for the digestive apparatus will degenerate in the spinning stage, such as the gut, and some organs will develop and grow, such as the testis [<citation rid=\"B35\" ref-type=\"bibr\" count=\"1\">35</citation>-<citation rid=\"B39\" ref-type=\"bibr\" count=\"1\">39</citation>]. <sentence_start/>Western blot to determine the expression pattern of BmFBXO21 at different developmental stages of <italic toggle=\"yes\">B. mori</italic> showed that BmFBXO21 was expressed in the spinning, pupa, and egg stages. <sentence_start/>This finding suggests that BmFBXO21 might participate in the regulation of cell division as organizations develop or degenerate, or perhaps is involved in degrading target proteins, such as those that regulate the cell cycle."
+  },
+  {
+   "section": "article",
+   "text": "The growth of the silkworm organs and tissues essentially depends on the growth of cells, of which there are three growth patterns: (1) cell fission proliferation (cell number increase), in which growth mainly depends upon cell fission to increase the number of congener cells, although the sizes of the cells are essentially invariable, such as blood cells and sperm cells; (2) increasing cell size, in which cells that divide during the embryonic development begin in the larval stage to increase in volume to achieve tissue growth; examples are silk gland, salivary gland, glandula exuviae, and vasa mucosa; (3) both cell fission and size increase, with most tissues belonging to this kind of growth, including fat body, body wall dermis, and epithelial cells [<citation rid=\"B35\" ref-type=\"bibr\" count=\"1\">35</citation>-<citation rid=\"B39\" ref-type=\"bibr\" count=\"1\">39</citation>]. <sentence_start/>In order to know more about the distribution and functions of BmFBXO21, we analyzed tissue distribution of mRNA, as well as protein expression and immuniohistochemistry at three levels. <sentence_start/>The results are consistent with higher expression in head, genital organs, epidermis, and gut. <sentence_start/>In the context of the silkworm growth patterns, the tissues with higher expression of BmFBXO21 are those that depend on cell fission for growth. <sentence_start/>With the findings for expression in the developmental stages, this is consistent with the hypothesis that BmFBXO21 participates in the promotion or inhibition of cell fission."
+  },
+  {
+   "section": "article",
+   "text": "This study analyzes the molecular characterization and tissue location of an F-box only protein, providing important evidence to support further study of BmFBXO21. <sentence_start/><italic toggle=\"yes\">B. mori</italic> is an important and widely used model organism, so study in this organism will contribute to understanding the physiological functions of this F-box only protein, and the broader F-box family."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Amino acid sequence alignment of BmFBXO21 proteins based on secondary structure and sequence homology. <sentence_start/>Identical residues are shaded in black and similar residues in gray. <sentence_start/>★ shows conserved sites of the F-box motif."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Purification of protein fractions from <italic toggle=\"yes\">E. coli</italic> BL21(DE3) expressing recombinant BmFBXO21. <sentence_start/>Samples were resolved by12% SDS-PAGE under reducing conditions (lane 1: lysate from <italic toggle=\"yes\">E. coli</italic> without induction, lane 2: lysate from <italic toggle=\"yes\">E. coli</italic> after induction, lane 3: lysate from recombinant <italic toggle=\"yes\">E. coli</italic> after induction, lane 4: supernatant from supersonic fragmentation, lane 5: deposition of supersonic fragmentation, lane 6: purified recombinant BmFBXO21, lane M: size markers)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Analysis of the His-tag fusion protein by MS."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Western blot analysis of BmFBXO21 expression. <sentence_start/>(a) Western blot of recombinant BmFBXO21 induction. <sentence_start/>Samples were resolved by 12% SDS PAGE under reducing conditions (M,1,2,3 SDS-PAGE; 1′, 2′.3′ Western blotting; lane 1, 1′ lysate from <italic toggle=\"yes\">E. coli</italic> without induction, lane 2, 2′ lysate from <italic toggle=\"yes\">E. coli</italic> after induction, lane 3, 3′ purified fusion protein, lane M size markers). <sentence_start/>Arrow denotes the fusion protein. <sentence_start/>(b) Western blot analysis of native BmFBXO21 expression. <sentence_start/>The BmFBXO21 extracted from spinning silkworm was used as the antigen.(M,1,2 SDS-PAGE; 1′, 2′ Western blotting; lane 1, 1′ negative control, lane 2, 2′ extracts from spinning silkworm, lane M size markers). <sentence_start/>Arrow denotes the BmFBXO21 protein."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Expression levels of BmFBXO21 in different development stages and tissues of spinning silkworms. <sentence_start/>(a) Expression pattern of BmFBXO21 at different development stages. <sentence_start/>(1: silkworm egg, 2: 1st instar larva, 3: 2nd instar larva, 4: 3rd instar larva, 5: 4th instar larva, 6: 5th instar larva, 7: spinning silkworm, 8: pupa, 9: moth) (b) Expression levels of BmFBXO21 in tissues of spinning silkworms. <sentence_start/>(1: trachea, 2: Malpighian tubule, 3: testis, 4: ovary, 5: gut, 6: silk gland, 7: head, 8: epidermis, 9: fat body)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 6"
+  },
+  {
+   "section": "floating",
+   "text": "Transcription levels of BmFBXO21 in different tissues of spinning silkworm. <sentence_start/>Total RNA of different tissues was used as a template for RT-PCR. <sentence_start/>(1: epidermis, 2: head, 3: silk gland, 4: gut, 5: ovary, 6: testis, 7: Malpighian tubule, 8: trachea, 9: fat body)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 7"
+  },
+  {
+   "section": "floating",
+   "text": "Immunohistochemical staining for BmFBXO21 in spinning silkworm. <sentence_start/>(A)-(c)gative controls for (A)-(C). <sentence_start/>(a), (A) head, (b), (B) gut, (c), (C) testis. <sentence_start/>All micrographs were taken under a 4X objective lens (arrows denote positive staining for expression of BmFBXO21)."
+  }
+ ]
+}

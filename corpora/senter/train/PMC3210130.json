@@ -1,0 +1,243 @@
+{
+ "pmid": 22087247,
+ "pmcid": 3210130,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Extracellular Matrix from Porcine Small Intestinal Submucosa (SIS) as Immune Adjuvants"
+  },
+  {
+   "section": "abstract",
+   "text": "Porcine small intestinal submucosa (SIS) of Cook Biotech is licensed and widely used for tissue remodeling in humans. <sentence_start/>SIS was shown to be highly effective as an adjuvant in model studies with prostate and ovarian cancer vaccines. <sentence_start/>However, SIS adjuvanticity relative to alum, another important human-licensed adjuvant, has not yet been delineated in terms of activation of innate immunity via inflammasomes and boosting of antibody responses to soluble proteins and hapten-protein conjugates. <sentence_start/>We used ovalbumin, and a hapten-protein conjugate, phthalate-keyhole limpet hemocyanin. <sentence_start/>The evaluation of SIS was conducted in BALB/c and C57BL/6 mice using both intraperitoneal and subcutaneous routes. <sentence_start/>Inflammatory responses were studied by microarray profiling of chemokines and cytokines and by qPCR of inflammasomes-related genes. <sentence_start/>Results showed that SIS affected cytokine and chemokines microenvironments such as up-regulation of IL-4 and CD30-ligand and activation of chemotactic factors LIX and KC (neutrophil chemotactic factors), MCP-1 (monocytes chemotactic factors), MIP 1-α (macrophage chemotactic factor) and lymphotactin, as well as, growth factors like M-CSF. <sentence_start/>SIS also promoted gene expression of Nod-like receptors (NLR) and associated downstream effectors. <sentence_start/>However, in contrast to alum, SIS had no effects on pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) or NLRP3, but it appeared to promote both Th1 and Th2 responses under different conditions. <sentence_start/>Lastly, it was as effective as alum in engendering a lasting and specific antibody response, primarily of IgG1 type."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Ninety years have passed since the concept of adjuvants took hold in vaccine design and is no longer regarded as “immunologist's dirty trick”. <sentence_start/>Thousands of chemicals have been assessed for their ability to enhance specific immune responses but the search is still on for broadly effective adjuvants. <sentence_start/>Ideally, a versatile and, preferably, biodegradable adjuvant should be safe and effective in engendering robust immune responses to a wide variety of pathogens and chemicals. <sentence_start/>It is not easy to produce an ideal, broadly effective adjuvant from a single compound. <sentence_start/>Vaccine efficacy does not depend merely on adjuvants but more importantly on the nature of the offenders that serve as immunogens. <sentence_start/>Adjuvants and immunogens together influence the host immune microenvironment, and thereby, modulate immunogenicity of a wide array of vaccines. <sentence_start/>However, no two adjuvants or immunogens interact in the same way, and the effects of adjuvants are subject to modifications by the immunogens or vaccines. <sentence_start/>In most cases, the precise mechanisms underlying the effects are unknown. <sentence_start/>Recently, there is a growing understanding that all known adjuvants function by affecting inflammation-responsive genes but they may differ significantly in their signature responses <citation rid=\"pone.0027083-Morel1\" ref-type=\"bibr\" pmid=\"21256188\" doi=\"10.1016/j.vaccine.2011.01.011\" count=\"1\">[1]</citation>, <citation rid=\"pone.0027083-Mosca1\" ref-type=\"bibr\" doi=\"10.1073/pnas.0804699105\" pmcid=\"PMC2483233\" pmid=\"18650390\" count=\"1\">[2]</citation>. <sentence_start/>These studies suggest that a better strategy to augment vaccine efficacy would be to incorporate a cocktail of adjuvants in the vaccine formulations rather than a single adjuvant chosen empirically. <sentence_start/>The mixture of adjuvants containing two or more compounds would complement or modulate individual effects with a broader and more beneficial impact on the host microenvironment and consequently on vaccine efficacy."
+  },
+  {
+   "section": "article",
+   "text": "The making of adjuvant cocktails is not easy to achieve. <sentence_start/>One approach is to consider the mode of action of constituent cocktails, but that is not clearly understood. <sentence_start/>An alternative approach would be to use naturally occurring acellular structures, such as extracellular matrices (ECMs). <sentence_start/>ECMs are known to play diverse roles in cellular microenvironments. <sentence_start/><italic toggle=\"yes\">In vivo</italic>, they promote cell-to-cell interaction, angiogenesis, and immune extravasations <citation rid=\"pone.0027083-Bornstein1\" ref-type=\"bibr\" pmid=\"12231357\" doi=\"10.1016/s0955-0674(02)00361-7\" count=\"1\">[3]</citation>, <citation rid=\"pone.0027083-Coombe1\" ref-type=\"bibr\" count=\"1\">[4]</citation>, <citation rid=\"pone.0027083-Sottile1\" ref-type=\"bibr\" pmid=\"14984764\" doi=\"10.1016/j.bbcan.2003.07.002\" count=\"1\">[5]</citation>. <sentence_start/>As a biomaterial, they have found wide usage in wound healing and repair of urinary bladder defects, cardiovascular tissues, and ligament damage, etc. <citation rid=\"pone.0027083-Badylak1\" ref-type=\"bibr\" pmid=\"10546657\" doi=\"10.1097/00003086-199910001-00032\" count=\"1\">[6]</citation>, <citation rid=\"pone.0027083-Badylak2\" ref-type=\"bibr\" pmid=\"11922734\" doi=\"10.1006/jsre.2001.6349\" count=\"1\">[7]</citation>, <citation rid=\"pone.0027083-Cheng1\" ref-type=\"bibr\" pmid=\"10766040\" doi=\"10.1007/PL00007071\" count=\"1\">[8]</citation>, <citation rid=\"pone.0027083-Crapo1\" ref-type=\"bibr\" pmid=\"19887120\" doi=\"10.1016/j.actbio.2009.10.048\" pmcid=\"PMC2862886\" count=\"1\">[9]</citation>, <citation rid=\"pone.0027083-Daley1\" ref-type=\"bibr\" pmid=\"18216330\" doi=\"10.1242/jcs.006064\" count=\"1\">[10]</citation>. <sentence_start/>One such acellular ECM is SIS, a biomaterial from porcine small intestinal submucosa (Cook Biotech, IN, USA). <sentence_start/>It consists of predominantly collagens plus glycosaminoglycans, proteoglycans, fibronectin, b-FGF, and TGF-β, to name a few components <citation rid=\"pone.0027083-Hodde1\" ref-type=\"bibr\" pmid=\"19877943\" doi=\"10.1089/ten.1996.2.209\" count=\"1\">[11]</citation>, <citation rid=\"pone.0027083-McPherson1\" ref-type=\"bibr\" count=\"1\">[12]</citation>, <citation rid=\"pone.0027083-VoytikHarbin1\" ref-type=\"bibr\" pmid=\"9383707\" count=\"1\">[13]</citation>. <sentence_start/>Even though SIS is xenogenic in origin and, thus considered a xenograft in humans, it has been used for several years and evoked little ill effects, if any <citation rid=\"pone.0027083-Bejjani1\" ref-type=\"bibr\" pmid=\"17564175\" doi=\"10.3171/jns.2007.106.6.1028\" count=\"1\">[14]</citation>. <sentence_start/>Its unique properties lie in its composition; the constituents are highly conserved proteins and may function as bioresponse modifiers or promote such responses. <sentence_start/>As a consequence, wound healing proceeds with tissue granulation and epithelization without the attendance of graft-versus-host reactivity <citation rid=\"pone.0027083-Kropp1\" ref-type=\"bibr\" pmid=\"7660517\" doi=\"10.1016/S0090-4295(99)80227-1\" count=\"1\">[15]</citation>, <citation rid=\"pone.0027083-Rosen1\" ref-type=\"bibr\" pmid=\"16224643\" doi=\"10.1177/155335060501200307\" count=\"1\">[16]</citation>. <sentence_start/>Most importantly, the particulate nature of SIS makes it readily amenable to phagocytosis by dendritic cells (DCs), which are the most efficient antigen-presenting cells (APCs), and hence, SIS is an attractive candidate for use as a cocktail of naturally occurring adjuvants."
+  },
+  {
+   "section": "article",
+   "text": "Studies with SIS xenografts have revealed that when implanted, SIS elicits a vigorous immune response but the response is restricted to the Th2 pathway, which facilitates acceptance and remodeling of the graft material <citation rid=\"pone.0027083-Allman1\" ref-type=\"bibr\" pmid=\"11435976\" doi=\"10.1097/00007890-200106150-00024\" count=\"1\">[17]</citation>, <citation rid=\"pone.0027083-Zhai1\" ref-type=\"bibr\" pmid=\"10352902\" count=\"1\">[18]</citation>. <sentence_start/>Indeed, the Th2 dominance promotes efficient remodeling possibly by attenuating the pro-inflammatory cytokines induced by the Th1 pathway."
+  },
+  {
+   "section": "article",
+   "text": "Recently SIS has been shown to enhance anti-prostate tumor immunity by evoking effective cell-mediated immunity <citation rid=\"pone.0027083-Suckow1\" ref-type=\"bibr\" pmid=\"19035274\" count=\"1\">[19]</citation>. <sentence_start/>Thus, it is increasingly evident that commercial SIS preparations could have a broader appeal as an adjuvant and for use in the making of conjugate vaccine preparations in a larger context. <sentence_start/>To determine whether this xenogenic products is equivalent to alum as an adjuvant, we asked the following questions: 1) does SIS impact the host's chemokine and cytokine microenvironment similar to alum, a prototypical adjuvant?; 2) does SIS involve the inflammasome-related core-adjuvant genes, as does alum, in recruiting innate immunity?; and 3) does SIS, like alum, enhance antibody responses to soluble, non-self-protein vaccines and hapten-protein conjugate (the latter as a prototype of conjugate vaccines)?."
+  },
+  {
+   "section": "article",
+   "text": "In this study, the evaluation of SIS adjuvanticity was carried out in BALB/c and C57BL/6 mice via intraperitoneal and subcutaneous routes in the presence and absence of Ovalbumin (OVA) and phthalate-Keyhole limpet hemocyanin (KLH) immunogens. <sentence_start/>Inflammatory responses were studied by microarray profiling of cytokines and chemokines and by qPCR of inflammasomes-related genes. <sentence_start/>Results demonstrated that SIS up-regulated IL-4 and CD30-ligand and promoted the gene expressions of Nod-like receptors (NLR) and associated downstream effectors, implying modulation of cytokine and chemokine expression through these receptors. <sentence_start/>SIS moderately up-regulated expressions of chemotactic factors LIX, KC (neutrophil chemotactic factors), MCP- 1 (monocyte chemotactic factor), MIP 1-α (macrophage chemotactic factor), fractalkine, lymphotactin, and growth factors like M-CSF. <sentence_start/>Overall, SIS seemed intrinsically strong and was as effective as alum in engendering a Th2 type mediated antibody response, primarily of IgG1 type. <sentence_start/>However, SIS differed from alum by provoking no pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) or NLRP3."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Vaccine formulation"
+  },
+  {
+   "section": "article",
+   "text": "Vaccine formulation consisted of either ovalbumin (OVA) (100 µg/mice) or phthalate- KLH conjugate (100 µg/mice) prepared as described by Ghosh et <italic toggle=\"yes\">al</italic> <citation rid=\"pone.0027083-Ghosh1\" ref-type=\"bibr\" pmid=\"6205092\" count=\"1\">[20]</citation>. <sentence_start/>The antigens were emulsified with two commercial SIS preparations (SIS-H and SIS-M, so named to identify two lots of the commercial preparation) provided by Cook Biotech as follows: 200 µL of antigen (100 µg) plus 5 mg (SIS-H or SIS-M) in 250 µL PBS containing an emulsifier, Arlacel A (15%) (Acros organics, Thermo Fisher scientific, NJ, USA). <sentence_start/>SIS particulate was produced from hydrated sheets of clean, disinfected, decellularized SIS. <sentence_start/>The sheets were cut into small pieces, and kept frozen at or below −80°C. <sentence_start/>After grinding through a cryogenic hammer mill into a range of particles, they were freeze-dried and sieved for sizing. <sentence_start/>The particles, we used, were in the 45-150 micron size range. <sentence_start/>Details of SIS particle preparation appeared in several publications and patents <citation rid=\"pone.0027083-Badylak3\" ref-type=\"bibr\" count=\"1\">[21]</citation>, <citation rid=\"pone.0027083-Allman2\" ref-type=\"bibr\" pmid=\"11886654\" doi=\"10.1089/107632702753503054\" count=\"1\">[22]</citation>. <sentence_start/>For comparison, commercial adjuvants such as alum and CFA/IFA or no adjuvant were used. <sentence_start/>Inoculums containing commercial Adjuvants were prepared as follows: 200 µL of antigen (100 µg) was mixed to 200 µL incomplete of Freund's adjuvants (CFA) or (IFA) (Sigma Chemical Co., St. Louis, MO, USA) or adsorbed on alum (76 µL alum+ 124 µL PBS) (Sigma Chemical Co) by mixing vigorously by vortexing a few times using a syringe."
+  },
+  {
+   "section": "article",
+   "text": "Mice"
+  },
+  {
+   "section": "article",
+   "text": "Female BALB/c, C57 BL/6 mice, 6-8 weeks of age, were used throughout the study. <sentence_start/>The study was reviewed and approved by the Institutional Animal Care and Use Committee (IACUC) of Indiana State University under the protocol (ID#09-15-2010:SKG/YA). <sentence_start/>Pathogen-free BALB/c mice were bought from Harlan Sprague-Dawley (Indiana, USA), kept in quarantine for two weeks before relocation to specific mouse facility that is monitored by veterinarians, IACUC and USDA inspectors. <sentence_start/>Pathogen-free C57BL/6 mice were purchased from the Jackson laboratory (Maine, USA), and used after their release from quarantine. <sentence_start/>Information on microbial pathogens can be found in the vendors' websites ( &amp; )."
+  },
+  {
+   "section": "article",
+   "text": "Immunization"
+  },
+  {
+   "section": "article",
+   "text": "Mice (n = at least 6 in each experiment) were grouped as: (1) PBS group receiving only antigen but no adjuvant; (2) CFA/IFA (antigen plus adjuvant; first CFA, then IFA in subsequent immunizations); (3) Alum; (4) SIS-H; and (5) SIS-M. <sentence_start/>Two types of antigens were tested: ovalbumin (OVA) and phthalate-KLH, a hapten- protein conjugate. <sentence_start/>Adjuvant administrations, with or without immunogens were performed intra-peritoneally (i.p.) or subcutaneously (s.c.). <sentence_start/>Mice were given two booster immunizations at 10-day intervals and four months later, mice were given a booster immunization with antigen alone. <sentence_start/>Five days after each immunization mice were bled under anesthesia through the retro-orbital plexus. <sentence_start/>Induced serum antibodies were assayed by ELISA. <sentence_start/>For determination of cytokines and chemokines or their real time gene expression RT-PCR, mice (at least n = 3) were given the adjuvants i.p in 500 µL PBS and peritoneal lavages were collected 24 hours later."
+  },
+  {
+   "section": "article",
+   "text": "ELISA analysis"
+  },
+  {
+   "section": "article",
+   "text": "Determination of anti-phthalate, anti-KLH, or anti-OVA antibodies was done by enzyme linked immunosorbant assays (ELISA). <sentence_start/>Flat-bottomed Corning plates were coated for 2 h at 37°C with 50 µL of 10 µg/mL of either phthalate-BSA conjugate, KLH or OVA. <sentence_start/>The plates were washed four times with PBS containing 0.01% Triton X-100, blocked overnight with 1% BSA and washed again. <sentence_start/>Various dilutions (10<sup>1</sup>-10<sup>5</sup>) of test sera from normal and immunized mice were added in triplicate to the plates and incubated at 37°C for 1 hr. <sentence_start/>Following incubation and after washing four times with PBS/Triton X-100, rabbit anti- mouse immunoglobulin-horse-radish peroxidase (HRP) (50 µL) (1∶ 3000 dilution) was added. <sentence_start/>Plates were incubated for 1 hr, washed again and developed using o-phenyl diamine (OPD). <sentence_start/>The reaction was stopped by adding 50 µL of 10% H2SO4 and the intensity of color was determined at OD 490 nm using a Microplate Elisa Reader (Bio-Tek instruments, VT, USA)."
+  },
+  {
+   "section": "article",
+   "text": "To determine anti-DNA antibodies, ELISA plates were pre-coated for 2 hrs at 37°C with 50 µl of methylated-BSA (50 µg/mL). <sentence_start/>The plates were washed four times, coated with calf thymus DNA (10 µg/mL), incubated for 2 hrs at 37°C, and assessed as described above."
+  },
+  {
+   "section": "article",
+   "text": "To determine isotypes of antibodies produced (IgM, IgG1, IgG2a, IgG2b, and IgG3), individual mouse sera from various groups of immunized mice were diluted to 1/1000 and tested in triplicate according to the manufacturer's protocol (Southern Biotech, Alabama). <sentence_start/>Plates were coated with either phthalate-BSA, or OVA as described above"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of cytokines and chemokines"
+  },
+  {
+   "section": "article",
+   "text": "BALB/c mice were injected with adjuvants and peritoneal exudates were collected after injecting with 3 ml of PBS; peritoneal exudate cells (PECs) were spun down and used for gene expression profiling by RT-PCR. <sentence_start/>The supernatant fluid (1 ml) was utilized for determination of cytokines/chemokines using mouse inflammatory cytokine array kits and protocols from Ray Biotech Inc., GA, USA. <sentence_start/>Signal intensities were quantified and analyzed from the array images on the membrane using Image J software from NCBI <citation rid=\"pone.0027083-Abramoff1\" ref-type=\"bibr\" count=\"1\">[23]</citation>. <sentence_start/>Positive and negative controls from six array spots were used to normalize the results from different membranes. <sentence_start/>For each spot, the net optical density level was determined by subtraction of the background density from that of the sample spots, divided by the values of positive control density. <sentence_start/>Levels of cytokine were expressed as percent intensities (RI) relative to the positive control provided in the membranes."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of gene expressions by quantitative real-time qRT-PCR array"
+  },
+  {
+   "section": "article",
+   "text": "Isolated PECs were used for profiling gene expression by real-time qRT-PCR. <sentence_start/>Briefly, total RNA was isolated from all samples according to the manufacturer's recommendations (Ambion, TX, USA). <sentence_start/>The RNA preparation was considered to be good quality when it's OD 260/280 and 260/230 ratios approached 2. <sentence_start/>Equal amounts of RNA (1 µg), from all sample groups, were reverse-transcribed using RT2 first-strand kit from SA Biosciences (Frederick, MD). <sentence_start/>The cDNAs were then labeled by RT2 Real-Time SYBR Green PCR Master Mix (SA Biosciences, MD, USA)) as indicated in RT2 Profiler PCR Array protocol (SA Biosciences). <sentence_start/>A 25 µL aliquot of this mix was loaded onto the wells of PCR array plates (PAMM-97, SA Biosciences) and PCR was performed on a Stratagene Mx3000P cycler using a cycling program provided by the manufacturer. <sentence_start/>Relative changes in gene expressions were calculated and analyzed using SA Biosciences' (Maryland, USA) web-based PCR array data analysis methodology ( website). <sentence_start/>Gene expressions were normalized with respect to five house-keeping genes included in the array kit and calculated as averages of log<sub>2</sub> ratios. <sentence_start/>The array evaluated expressions of 84 genes involved in inflammasome pathway. <sentence_start/>Genes of mice that differed by 1.5-fold compared to buffer controls were considered as adjuvant-mediated inflammation-responsive genes."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "One-way ANOVA and Student's t-test (SPSS software) were used to determine statistical significance. <sentence_start/>Levels of p&lt;0.05 were considered statistically significant. <sentence_start/>Data are expressed as mean ± SD."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Chemo-attractants and cytokines in BALB/c in response to SIS adjuvants"
+  },
+  {
+   "section": "article",
+   "text": "Wound healing and tissue remodeling are facilitated by SIS biomaterials possibly by virtue of their ability to initiate and sustain favorable cytokine milieu. <sentence_start/>In a previous report, we showed that intraperitoneal immunization with alum, an adjuvant licensed for use in humans, promotes a pro-inflammatory microenvironment characterized by induction of cytokines (IL-4, IL-12p40p70, IL-1α, sTNF R I, sTNF R II) and chemotactic factors (MCP-1, LIX, KC, M-CSF, and TIMP-1) <citation rid=\"pone.0027083-Aachoui1\" ref-type=\"bibr\" doi=\"10.1016/j.cellimm.2011.07.001\" pmid=\"21813116\" count=\"1\">[24]</citation>. <sentence_start/>To assess whether SIS provokes inflammatory reactions, we studied SIS alone in peritoneal exudates 24 hours after i.p. <sentence_start/>administration. <sentence_start/>Two preparations of porcine small intestinal submucosa, SIS-H and SIS-M were evaluated."
+  },
+  {
+   "section": "article",
+   "text": "The results in Fig. 1 show that both SIS-H and SIS-M were similar to alum in inducing a plethora of cytokines and chemokines including leukocyte chemotactic factors (KC, LIX, eotaxin-2, MCP-1, lymphotactin, fractalkine, MIP-γ), macrophage chemotactic factor (MIP-1α), eosinophils chemotactic factor (eotaxin-2), fractalkine (a potent chemo attractant for T cells and monocytes) and FASL (involved in apoptosis). <sentence_start/>Clearly, this implied immune mobilization by recruitment and activation of neutrophils, eosinophils, monocytes, and macrophages. <sentence_start/>In all experimental groups, there was also a modest increase in the levels of growth factors GM-CSF, M-CSF, G-CSF, which help in the differentiation of monocytes to DCs, macrophages, and granulocytes <citation rid=\"pone.0027083-Conti1\" ref-type=\"bibr\" pmid=\"18236400\" doi=\"10.1002/eji.200737395\" count=\"1\">[25]</citation>, <citation rid=\"pone.0027083-Metcalf1\" ref-type=\"bibr\" pmid=\"2990035\" doi=\"10.1126/science.2990035\" count=\"1\">[26]</citation>, <citation rid=\"pone.0027083-Stanley1\" ref-type=\"bibr\" pmid=\"7696959\" count=\"1\">[27]</citation>. <sentence_start/>Induction of moderate levels of IL-1α, and sTNF R I from SIS preparations suggested that there may be some tissue injury. <sentence_start/>However, such injury seemed minor due to the fact that there was no attendant increase in pro- inflammatory cytokines such as IL-6, IL-1β, IL-10, TNF-α and IL-17. <sentence_start/>The influence of SIS preparations was noticed on cytokines associated with the induction of both Th1 and Th2 cells. <sentence_start/>The SIS preparations evoked Th2 cytokine (IL-13, IL-4), as well as Th1 polarizing cytokine (IL-12 P70P40 and IL-12 P40). <sentence_start/>SIS also influenced cytokines IL-2, IL-9 and CD40L necessary for stimulation and growth of T helper cells."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Effects of porcine small intestinal submucosa (SIS) on chemokine and cytokine protein microenvironment in BALB/c peritoneal exudates."
+  },
+  {
+   "section": "article",
+   "text": "BALB/c mice were injected i.p. <sentence_start/>with SIS preparations (SIS-H or SIS-M) without the antigens and peritoneal exudates harvested after 24 hr. <sentence_start/>Control groups were treated with PBS buffer. <sentence_start/>Peritoneal fluids were assayed to determine chemokine and cytokine expression as detailed in Materials and Methods. <sentence_start/>Data are expressed as the mean relative intensity relative to positive control of each chemokine or cytokine protein detected using pooled peritoneal fluids of 3 mice per group in duplicate. <sentence_start/>The result is an average of two separate experiments."
+  },
+  {
+   "section": "article",
+   "text": "Effects of adjuvants on inflammatory gene expression"
+  },
+  {
+   "section": "article",
+   "text": "The innate immunity is known to be strategically involved in initiating inflammatory processes as a response to “stranger or danger signals” from adjuvants and antigens <citation rid=\"pone.0027083-Janeway1\" ref-type=\"bibr\" doi=\"10.1101/sqb.1989.054.01.003\" pmid=\"2700931\" count=\"1\">[28]</citation>, <citation rid=\"pone.0027083-Matzinger1\" ref-type=\"bibr\" pmid=\"8011301\" doi=\"10.1146/annurev.iy.12.040194.005015\" count=\"1\">[29]</citation>. <sentence_start/>We hypothesized that SIS like alum might function by interacting with the receptors of the innate immunity system, particularly those implicated in inflammatory processes such as Nod-like receptors (NLRs). <sentence_start/>In recent reports, NLR-associated gene activation pathways have been shown to play crucial roles in the adjuvanticity of alum and MF59 <citation rid=\"pone.0027083-Ellebedy1\" ref-type=\"bibr\" doi=\"10.1073/pnas.1012455108\" pmcid=\"PMC3041074\" pmid=\"21270336\" count=\"1\">[30]</citation>, <citation rid=\"pone.0027083-Kool1\" ref-type=\"bibr\" pmid=\"18768827\" doi=\"10.4049/jimmunol.181.6.3755\" count=\"1\">[31]</citation>. <sentence_start/>To address whether adjuvanticity of SIS would follow the same pathway, we focused on gene expression profiling of NLRs in mice. <sentence_start/>Using RT-PCR microarray, we measured the expression of 84 genes in BALB/c mice immunized i.p. <sentence_start/>with SIS-H or alum alone. <sentence_start/>Our results shown in Table 1 and 2 indicate that SIS alone significantly affected 17 inflammation-responsive genes. <sentence_start/>Among these genes, there were 11 genes up-regulated above 1.5 fold on a log<sub>2</sub> scale (table 1) and 6 genes down-regulated below 1.5 fold (table 2). <sentence_start/>Genes responding positively to SIS included Nod-like receptors NLRP4b, NLRP 5 and NLRP9b, and cytokine genes associated with Th-1 response such as INF- γ, IL-12b, INF-β1 and IL-18. <sentence_start/>Furthermore, SIS up-regulated expressions of inflammatory genes IL-1β, caspase 12, TNFsf 4 and TNFsf 11. <sentence_start/>Interestingly, SIS had no effect on NLRP3, Txnip and Pstpip that were shown previously to participate in alum-mediated NLRP-3 inflammasomes <citation rid=\"pone.0027083-Zhou1\" ref-type=\"bibr\" pmid=\"20023662\" doi=\"10.1038/ni.1831\" count=\"1\">[32]</citation>, <citation rid=\"pone.0027083-Mathews1\" ref-type=\"bibr\" pmid=\"19090963\" doi=\"10.1186/ar2525\" pmcid=\"PMC2656221\" count=\"1\">[33]</citation>. <sentence_start/>In a previous study, we showed that alum could up-regulate 24 inflammation- responsive genes that include NLRP3 and Txnip <citation rid=\"pone.0027083-Aachoui1\" ref-type=\"bibr\" doi=\"10.1016/j.cellimm.2011.07.001\" pmid=\"21813116\" count=\"1\">[24]</citation> that were shown previously to form or participate in formation of inflammasome platforms <citation rid=\"pone.0027083-Zhou1\" ref-type=\"bibr\" pmid=\"20023662\" doi=\"10.1038/ni.1831\" count=\"1\">[32]</citation>, <citation rid=\"pone.0027083-Mathews1\" ref-type=\"bibr\" pmid=\"19090963\" doi=\"10.1186/ar2525\" pmcid=\"PMC2656221\" count=\"1\">[33]</citation>. <sentence_start/>Moreover, unlike SIS, alum activated chemotactic factor CCL12, CCL7, and CXCL3, inflammatory cytokine TNF, and downstream effectors genes such, MyD88, Mefv, and Ptgs2. <sentence_start/>Alum also induced Mapk3 and MapK13, two downstream signaling factors for MAPK pathway and interferon-regulatory factor (Irf1); the latter two of which may be involved in the production and regulation of pro-inflammatory cytokines <citation rid=\"pone.0027083-Aachoui1\" ref-type=\"bibr\" doi=\"10.1016/j.cellimm.2011.07.001\" pmid=\"21813116\" count=\"1\">[24]</citation>. <sentence_start/>Comparison of genes activated by SIS-H and alum is summarized as a Venn diagram (Fig. 2)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "RT-PCR Microarray analysis of transcriptome profiles of inflammatory genes induced by vaccine adjuvants alone in mouse peritoneum."
+  },
+  {
+   "section": "article",
+   "text": "Eighty-four genes were assessed and those genes up-regulated (A), or down regulated (B) with an average log2 ratio ≥1.5 were selected and plotted as a Venn diagram. <sentence_start/>Results for the alum-treated group refer to our previous study <citation rid=\"pone.0027083-Aachoui1\" ref-type=\"bibr\" doi=\"10.1016/j.cellimm.2011.07.001\" pmid=\"21813116\" count=\"1\">[24]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "SIS adjuvants promote high levels of anti-OVA response mediated by T helper type-2 cells"
+  },
+  {
+   "section": "article",
+   "text": "The above study showed that both SIS and alum influence the host microenvironment by modifying expression of innate immunity-related chemokine and cytokine genes, although there were characteristic differences between the two adjuvants. <sentence_start/>These observations led us to question whether these effects on innate immunity would help activate acquired immunity and augment vaccine efficacy. <sentence_start/>Using OVA as the model antigen in our vaccine formulations, SIS was assessed for its effectiveness in anti-OVA antibody induction in C57BL/6 mice. <sentence_start/>The results in Fig. 3 revealed significant booster effects; clearly SIS H or SIS M were highly effective at increasing the magnitude and titer of OVA-specific antibody, particularly high levels of IgG1 antibody subclass. <sentence_start/>This suggests that SIS biomaterials effectively promoted a Th-2 response."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Effects of SIS adjuvants on anti-ovalbumin antibody response in C57BL/6 mice."
+  },
+  {
+   "section": "article",
+   "text": "Mouse serum samples were collected on day 5 after (A) 2nd, and (B) 3rd immunizations with OVA plus adjuvants as described under Materials and Methods. <sentence_start/>Antibody responses were assessed using ELISA, (C) determination of IgG sub-classes of anti-OVA antibodies, induced with OVA containing adjuvants, in sera from the 3rd immunization. <sentence_start/>Commercial isotyping kits (Southern-Biotech) were used to perform ELISA in serum samples (starting at dilution 1∶1000). <sentence_start/>The results represent mean ± SD (n = 6 mice per group in two separate experiments). <sentence_start/>The significance in experimental groups relative to the group given antigen only (no adjuvant group) was calculated at the level of p≤0.05."
+  },
+  {
+   "section": "article",
+   "text": "SIS adjuvants promote antigen-specific antibody response but no measurable autoimmune effects"
+  },
+  {
+   "section": "article",
+   "text": "Next, we addressed whether the adjuvanticity of SIS biomaterials would vary depending on mouse strains, routes of immunization (i.p. or s.c.) or antigenic differences. <sentence_start/>In addition, we tested whether immunization with SIS would cause or aggravate autoimmune responses, a side effect shown to be associated with the use of many adjuvants <citation rid=\"pone.0027083-Kuroda1\" ref-type=\"bibr\" doi=\"10.1016/j.biopha.2004.04.009\" pmid=\"15194169\" count=\"1\">[34]</citation>. <sentence_start/>This study was performed in non-immune prone BALB/C using phthalate-KLH conjugate as the experimental antigen administered by intra peritoneal or subcutaneous routes. <sentence_start/>Previously, we showed that phthalate, a plasticizer and a common environmental hazard, would cause a lupus-like syndrome in NZB/WF1 mice and the response was greatly aggravated by some adjuvants <citation rid=\"pone.0027083-Lim1\" ref-type=\"bibr\" pmid=\"14632646\" doi=\"10.1111/j.1365-2567.2003.01765.x\" pmcid=\"PMC1783077\" count=\"1\">[35]</citation>, <citation rid=\"pone.0027083-Lim2\" ref-type=\"bibr\" pmid=\"17074094\" doi=\"10.1186/1476-8518-4-6\" pmcid=\"PMC1635037\" count=\"1\">[36]</citation>. <sentence_start/>The response to phthalate-KLH is characterized by an antibody response that is mostly directed toward the hapten, the phthalate moiety, in the conjugate with concomitant induction of cross-reactive anti-DNA antibodies. <sentence_start/>In BALB/c mice also, there was initially some increase in anti-DNA antibody but was down-regulated during subsequent booster immunizations. <sentence_start/>Our results, as shown in Fig. 4 indicate that, irrespective of the routes of immunization, BALB/c mice immunized with phthalate-KLH as emulsions with SIS-H or SIS-M developed high titer antibody responses against phthalate-KLH. <sentence_start/>Although the magnitude of this response was slightly less than that induced by alum or CFA/IFA, it was directed against both phthalate and KLH; the phthalate cross-reactive anti-DNA antibody levels were insignificant in SIS-immunized mice."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Evaluation of phthalate-KLH antibody response in BALB/c mice."
+  },
+  {
+   "section": "article",
+   "text": "Mice were immunized with phthalate-KLH conjugate emulsified in different adjuvants. <sentence_start/>Serum samples were collected as described under Materials and Methods and diluted to 1∶1000 in 0.5% PBS/BSA. <sentence_start/>Anti-phthalate, anti-KLH, and anti-DNA antibody levels were determined using ELISA as described. <sentence_start/>The results represent the mean ± SD (n = 6 mice per group in two separate experiments). <sentence_start/>The significance in experimental groups was determined relative to the group given antigen only (no adjuvant group) at the level of p≤0.05."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of IgG isotypes directed against the phthalate moiety (Fig. 5) also showed that SIS adjuvants like alum and CFA/IFA promoted IgG1 by both i.p. and s.c. routes. <sentence_start/>However, unlike alum and Freunds' adjuvants, SIS was less efficacious in inducing IgG2a and IgG2b responses particularly after i.p. injection."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Determination of IgG sub-classes of anti-phthalate antibodies induced with phthalate-KLH conjugates in different adjuvants."
+  },
+  {
+   "section": "article",
+   "text": "This was done using commercial ELISA isotyping kits with serum samples (at dilution 1∶1000) collected after (A) intraperitoneal, or (B) subcutaneous immunization as described in Materials and Methods. <sentence_start/>Results represent mean ± SD (n = 6 mice per group in two separate experiments). <sentence_start/>The significance in experimental groups was determined relative to the group given antigen only (no adjuvant group) at the level of p≤0.05."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study evaluated adjuvanticity of an acellular biomaterial derived from porcine small intestinal submucosa (SIS), a commercial product licensed primarily for use in surgical procedures dealing with wound healing in humans <citation rid=\"pone.0027083-Badylak2\" ref-type=\"bibr\" pmid=\"11922734\" doi=\"10.1006/jsre.2001.6349\" count=\"1\">[7]</citation>, <citation rid=\"pone.0027083-Cheng1\" ref-type=\"bibr\" pmid=\"10766040\" doi=\"10.1007/PL00007071\" count=\"1\">[8]</citation>, <citation rid=\"pone.0027083-Crapo1\" ref-type=\"bibr\" pmid=\"19887120\" doi=\"10.1016/j.actbio.2009.10.048\" pmcid=\"PMC2862886\" count=\"1\">[9]</citation>, <citation rid=\"pone.0027083-Daley1\" ref-type=\"bibr\" pmid=\"18216330\" doi=\"10.1242/jcs.006064\" count=\"1\">[10]</citation>. <sentence_start/>Despite its xenogenic nature, SIS works well in humans in vivo and causes no detrimental inflammatory effects. <sentence_start/>Indeed, it greatly facilitates the process of wound healing. <sentence_start/>Though largely a collagenous product, SIS is known to contain minute amounts of other proteins typically associated with such extracellular matrices <citation rid=\"pone.0027083-Hodde1\" ref-type=\"bibr\" pmid=\"19877943\" doi=\"10.1089/ten.1996.2.209\" count=\"1\">[11]</citation>, <citation rid=\"pone.0027083-McPherson1\" ref-type=\"bibr\" count=\"1\">[12]</citation>, <citation rid=\"pone.0027083-VoytikHarbin1\" ref-type=\"bibr\" pmid=\"9383707\" count=\"1\">[13]</citation>. <sentence_start/>This unique and highly sterile biomaterial has been of interest for use as a type of multi-protein naturally-occurring biodegradable cocktail adjuvant. <sentence_start/>Indeed, its adjuvanticity has already proved effective in the successful development of a model prostate cancer vaccine <citation rid=\"pone.0027083-Suckow1\" ref-type=\"bibr\" pmid=\"19035274\" count=\"1\">[19]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Immune enhancement by adjuvants, however, can work both ways: it could be ameliorating or detrimental. <sentence_start/>Therefore for a biomaterial or a compound to be an adjuvant, safety is certainly the primary concern. <sentence_start/>One way to assess safety is to determine whether the test material causes physical or behavioral problems such as splenomegaly or discomfort. <sentence_start/>This issue is irrelevant for SIS as it is widely used as a safe biomaterial for wound healing in animals and humans. <sentence_start/>In the context of adjuvanticity, we addressed the safety issue in terms of important parameters associated with inflammatory or immunodulatory cytokine/chemokines microenvironment and consequent activation of acquired immunity. <sentence_start/>We tested the safety and efficacy of two batches of SIS biomaterials from Cook Biotech, SIS-H and SIS-M alone and in combination with soluble protein antigens in inbred strains of mice, C57BL/6 and BALB/c. <sentence_start/>We evaluated micro- environmental changes (cytokines and chemokines) brought about by SIS relative to alum and the resulting impact on the quality and titer of specific antibody response."
+  },
+  {
+   "section": "article",
+   "text": "Our study of the chemokine/cytokine milieu both at the protein and gene expression levels revealed both similarities and differences in the effects of SIS and alum. <sentence_start/>It is apparent that SIS preparations do have inflammatory effects, albeit to a lesser degree than alum, possibly because SIS by virtue of its composition is biodegradable and thus less consequential. <sentence_start/>Interestingly, alum activates more genes than SIS, and these genes comprise those of several nod-like receptors (NLRs) including NLRP3 inflammasome, a molecular platform that is required for caspase- dependent cleavage of cytokines such as IL-1β, IL-18 and IL-33 <citation rid=\"pone.0027083-Tschopp1\" ref-type=\"bibr\" pmid=\"20168318\" doi=\"10.1038/nri2725\" count=\"1\">[37]</citation>, <citation rid=\"pone.0027083-Petrilli1\" ref-type=\"bibr\" pmid=\"17977705\" doi=\"10.1016/j.coi.2007.09.002\" count=\"1\">[38]</citation>. <sentence_start/>Similar to alum, SIS up-regulates IL-1β but it does not affect NLRP3. <sentence_start/>In addition, alum also activates downstream effectors, Txnip, Irf1, Mapk3 and 13 indicating a strong inflammatory response. <sentence_start/>In contrast, SIS up-regulates a lesser number of NLRP genes such as NLRP4b, NLRP5 and NLRP9. <sentence_start/>It also up- regulates TNFsf4, TNFsf11, INF-β1 and INF-γ cytokine genes; these are involved in proliferation and activation\\of innate and adaptive immunity. <sentence_start/>Interestingly, SIS does not evoke pro-inflammatory molecules such as IL-6, TNF-α and IL-17. <sentence_start/>Both SIS and alum have similar impacts on chemokines, such as LIX and KC (neutrophil chemotactic factors), MCP-1 (monocyte chemotactic factors), BLC (B lymphocyte chemotactic factor), and MIP 1-α (macrophage chemotactic factor). <sentence_start/>In addition, SIS adjuvants, with the same intensity as alum promote the expressions of growth factors GM-CSF, G-CSF, M-CSF. <sentence_start/>These growth factors are important for differentiation and maturation of monocytes and granulocytes that develop to become mature antigen-presenting cells <citation rid=\"pone.0027083-Conti1\" ref-type=\"bibr\" pmid=\"18236400\" doi=\"10.1002/eji.200737395\" count=\"1\">[25]</citation>, <citation rid=\"pone.0027083-Metcalf1\" ref-type=\"bibr\" pmid=\"2990035\" doi=\"10.1126/science.2990035\" count=\"1\">[26]</citation>, <citation rid=\"pone.0027083-Stanley1\" ref-type=\"bibr\" pmid=\"7696959\" count=\"1\">[27]</citation>. <sentence_start/>Alum reportedly has the ability to activate monocyte- derived APCs, which in turn would promote isotype-switching and high-titer antibody response <citation rid=\"pone.0027083-Kool2\" ref-type=\"bibr\" pmid=\"18362170\" doi=\"10.1084/jem.20071087\" pmcid=\"PMC2292225\" count=\"1\">[39]</citation>, <citation rid=\"pone.0027083-Lambrecht1\" ref-type=\"bibr\" pmid=\"19246182\" doi=\"10.1016/j.coi.2009.01.004\" count=\"1\">[40]</citation>. <sentence_start/>Alum also helps recruitment of granulocytes which play an auxiliary role in enhancing this response <citation rid=\"pone.0027083-Wang1\" ref-type=\"bibr\" pmid=\"18192490\" doi=\"10.1189/jlb.0607392\" pmcid=\"PMC2735468\" count=\"1\">[41]</citation>. <sentence_start/>From our results, SIS adjuvant is similar to alum in provoking monocytes and granulocytes, and this may explain how it enhances antibody response. <sentence_start/>Furthermore, recruitment of APCs following SIS administration is accompanied by production of cytokines such as IL-4 and CD 40 L, which are crucial for priming of CD4+ T helper cell and consequently for isotype switching that occurs during B cell response <citation rid=\"pone.0027083-Kennedy1\" ref-type=\"bibr\" pmid=\"16771849\" doi=\"10.1111/j.1365-2567.2006.02354.x\" pmcid=\"PMC1782289\" count=\"1\">[42]</citation>, <citation rid=\"pone.0027083-Reiter1\" ref-type=\"bibr\" pmid=\"12047751\" doi=\"10.1046/j.1365-2567.2002.01405.x\" pmcid=\"PMC1782711\" count=\"1\">[43]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "When the SIS biomaterial was used with antigens ovalbumin and phthalate-KLH, there was significant enhancement of anti-OVA and anti-phthalate responses and seemed to be mediated by a Th2 response. <sentence_start/>These results were in agreement with previous reports implying that SIS when used as the biomaterial for wound healing purposes would bolster the Th2 environment and produce mild inflammatory response <citation rid=\"pone.0027083-Allman1\" ref-type=\"bibr\" pmid=\"11435976\" doi=\"10.1097/00007890-200106150-00024\" count=\"1\">[17]</citation>. <sentence_start/>Interestingly, when tested alone, SIS adjuvant up-regulates the gene expression of IL-18, IL-12b, and INF-γ, cytokines that induce Th-1 cells. <sentence_start/>This suggests a dichotomy in the action of SIS: a Th2 response in the presence of non-self immunogens like OVA or hapten-protein conjugate, and a Th-type1 response in their absence. <sentence_start/>This may explain a previous report by Suckow, et <italic toggle=\"yes\">al</italic>. that showed that prostate tissue vaccine stimulated a Th1 response and specifically prevented prostate cancer growth <citation rid=\"pone.0027083-Suckow1\" ref-type=\"bibr\" pmid=\"19035274\" count=\"1\">[19]</citation>, <citation rid=\"pone.0027083-Suckow2\" ref-type=\"bibr\" pmid=\"17242926\" doi=\"10.1007/s00262-006-0278-8\" pmcid=\"PMC11030191\" count=\"1\">[44]</citation>. <sentence_start/>In a future study, it will be of interest to assess the effects of SIS, with or without non-self antigens, on expressions of co-stimulatory molecules by antigen-presenting cells."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, SIS adjuvant augments immunogenic potential of soluble proteins without inducing any pathologic inflammatory response. <sentence_start/>It is safe and effective. <sentence_start/>Most commercial adjuvants are known to function by inflicting inflammatory tissue damage at sites of injection. <sentence_start/>This may have unintended consequences such as autoimmune disorders as noted in the use of established adjuvants like complete Freunds adjuvant, which cause inflammation and tissue necrosis with formation of granuloma in lung and kidney <citation rid=\"pone.0027083-Billiau1\" ref-type=\"bibr\" pmid=\"11739546\" count=\"1\">[45]</citation>. <sentence_start/>Squalene in MF59 and alum also induce inflammatory response; squalene is linked to autoimmune responses in rodents <citation rid=\"pone.0027083-Kuroda1\" ref-type=\"bibr\" doi=\"10.1016/j.biopha.2004.04.009\" pmid=\"15194169\" count=\"1\">[34]</citation> and alum to dementia <citation rid=\"pone.0027083-Kool2\" ref-type=\"bibr\" pmid=\"18362170\" doi=\"10.1084/jem.20071087\" pmcid=\"PMC2292225\" count=\"1\">[39]</citation>. <sentence_start/>In contrast, SIS has been used as a biomaterial for several years and has a clean record. <sentence_start/>It is also safe and effective as an adjuvant even with soluble protein antigens. <sentence_start/>In our ongoing study, we are assessing whether SIS would be useful in vaccination of autoimmune prone mice such as NZB/WF1 mice without aggravating lupus-like syndromes. <sentence_start/>Furthermore, it would be of interest to determine whether the effectiveness of SIS adjuvant can be further improved by co-administration with alum or other approved adjuvants like squalene or bioresponse modifiers."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing Interests: </bold>SG hereby declares that although SG, the corresponding author, is a member of Cook Biotech's “Tissue Engineering Research Advisory Committee”, the partial support from Cook Biotech of the authors' study on “Extracellular Matrix from Porcine Small Intestinal Submucosa as Immune Adjuvants” that the authors submitted to PLoS ONE, does not alter the authors' adherence to all the PLoS ONE policies on sharing data and materials. <sentence_start/>There is no conflict of interest in the study of adjuvanticity. <sentence_start/>There is no patenting issue either."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding: </bold>The work was supported by grants from Cook Biotech, and the Fraternal Order of Eagles and the graduate school of Indiana State University. <sentence_start/>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+  }
+ ]
+}

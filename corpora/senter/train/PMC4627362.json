@@ -1,0 +1,555 @@
+{
+ "pmid": 26236030,
+ "pmcid": 4627362,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Non-parametric representation and prediction of single- and multi-shell diffusion-weighted MRI data using Gaussian processes"
+  },
+  {
+   "section": "abstract",
+   "text": "Diffusion MRI offers great potential in studying the human brain microstructure and connectivity. <sentence_start/>However, diffusion images are marred by technical problems, such as image distortions and spurious signal loss. <sentence_start/>Correcting for these problems is non-trivial and relies on having a mechanism that predicts what to expect. <sentence_start/>In this paper we describe a novel way to represent and make predictions about diffusion MRI data. <sentence_start/>It is based on a Gaussian process on one or several spheres similar to the Geostatistical method of “Kriging”. <sentence_start/>We present a choice of covariance function that allows us to accurately predict the signal even from voxels with complex fibre patterns. <sentence_start/>For multi-shell data (multiple non-zero <italic toggle=\"yes\">b</italic>-values) the covariance function extends across the shells which means that data from one shell is used when making predictions for another shell."
+  },
+  {
+   "section": "abstract",
+   "text": "Highlights"
+  },
+  {
+   "section": "abstract",
+   "text": "•"
+  },
+  {
+   "section": "abstract",
+   "text": "We suggest using a Gaussian process (GP) to model diffusion MRI data."
+  },
+  {
+   "section": "abstract",
+   "text": "•"
+  },
+  {
+   "section": "abstract",
+   "text": "The GP is defined by a covariance function and a set of hyperparameters learned directly from the data."
+  },
+  {
+   "section": "abstract",
+   "text": "•"
+  },
+  {
+   "section": "abstract",
+   "text": "It can be used to make predictions that can subsequently be used in for example distortion correction."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Diffusion weighted MR imaging makes it possible to map the micro-structure and the connectivity of the living human brain. <sentence_start/>It proceeds by acquiring a set of echo planar images (EPI), each with the signal spoiled by a gradient such that the signal is lower in areas/voxels where water diffuses freely in the direction of that gradient. <sentence_start/>By acquiring many such images it is possible to build a profile of diffusivity in “any” direction for each voxel which can subsequently be used to probe the underlying microstructure and estimate white matter tracts by following the path of greatest diffusivity."
+  },
+  {
+   "section": "article",
+   "text": "However, diffusion imaging is also marred by technical problems such as image distortions, subject movement and spurious signal loss caused by macroscopic movement during the diffusion encoding. <sentence_start/>Correcting for distortions and movement is a non-trivial problem since the distortions depend on the diffusion gradient and hence are different for each volume (see for example <citation rid=\"bb0015\" ref-type=\"bibr\" pmid=\"11969328\" doi=\"10.1006/nimg.2001.1039\" count=\"1\">Andersson and Skare, 2002</citation> or <citation rid=\"bb0125\" ref-type=\"bibr\" pmid=\"14705050\" doi=\"10.1002/mrm.10677\" count=\"1\">Rohde et al., 2004</citation>). <sentence_start/>Image registration based solutions are difficult since each volume will also have a different contrast and often (when applying strong diffusion weighting) poor SNR. <sentence_start/>The spurious signal loss will typically affect a whole, or a substantial part of a, slice but can be difficult to detect. <sentence_start/>It entails detecting a “smaller than expected” signal in a slice, but that hinges on knowing what to expect, which is non-trivial."
+  },
+  {
+   "section": "article",
+   "text": "This paper describes a new way to model and predict diffusion signal from MR experiments. <sentence_start/>Unlike parametric models (<citation rid=\"bb0095\" ref-type=\"bibr\" pmid=\"22001791\" doi=\"10.1016/j.neuroimage.2011.09.081\" count=\"1\">Panagiotaki et al. (2012)</citation>) like for example the diffusion tensor (<citation rid=\"bb0035\" ref-type=\"bibr\" pmid=\"8019776\" doi=\"10.1006/jmrb.1994.1037\" count=\"1\">Basser et al. (1994)</citation>) or the ball-and-stick model (<citation rid=\"bb0040\" ref-type=\"bibr\" pmid=\"14587019\" doi=\"10.1002/mrm.10609\" count=\"1\">Behrens et al. (2003)</citation>), the model we propose will not yield biologically relevant parameters that are of value in their own right. <sentence_start/>Instead it is only used for making predictions about observed or unobserved measurements, which is something we will utilise in two related papers for:"
+  },
+  {
+   "section": "article",
+   "text": "•"
+  },
+  {
+   "section": "article",
+   "text": "Correcting for distortions and subject movement by alignment of an observed volume to a predicted volume."
+  },
+  {
+   "section": "article",
+   "text": "•"
+  },
+  {
+   "section": "article",
+   "text": "Detection and replacement of outliers, typically signal loss caused by coherent movement during the diffusion encoding."
+  },
+  {
+   "section": "article",
+   "text": "The representation we propose to use to describe the diffusion signal is a Gaussian process ( ). <sentence_start/>We should note that short preliminary descriptions of the distortion correction application of the Gaussian process predictor have been given in <citation rid=\"bb0030\" ref-type=\"bibr\" count=\"1\">Andersson et al. (2012)</citation> and <citation rid=\"bb0135\" ref-type=\"bibr\" pmid=\"23702418\" doi=\"10.1016/j.neuroimage.2013.05.057\" pmcid=\"PMC3720790\" count=\"1\">Sotiropoulos et al. (2013)</citation> and of its application to outlier detection in <citation rid=\"bb0025\" ref-type=\"bibr\" count=\"1\">Andersson and Sotiropoulos (2014)</citation>. <sentence_start/>The predictor forms the backbone of many of the preprocessing steps of the state-of-the-art data collected in the Human Connectome Project (<citation rid=\"bb0150\" ref-type=\"bibr\" pmid=\"23684880\" doi=\"10.1016/j.neuroimage.2013.05.041\" pmcid=\"PMC3724347\" count=\"1\">Van Essen et al. (2013)</citation>). <sentence_start/>In this paper we describe in detail the underlying theory of the predictor and illustrate its working principles."
+  },
+  {
+   "section": "article",
+   "text": "Theory"
+  },
+  {
+   "section": "article",
+   "text": "Gaussian processes"
+  },
+  {
+   "section": "article",
+   "text": "Introduction to Gaussian processes"
+  },
+  {
+   "section": "article",
+   "text": "Let us say we have a stochastic variable <italic toggle=\"yes\">Y</italic> that is distributed as <italic toggle=\"yes\">i.e.</italic> has a Gaussian distribution. <sentence_start/>This means that if we were to take an observation <italic toggle=\"yes\">y</italic> from <italic toggle=\"yes\">Y</italic>, we would expect to see a value “not too far off” <italic toggle=\"yes\">μ</italic> and if we were to make a series of observations we would expect 68% of those to fall in the range [<italic toggle=\"yes\">μ</italic> − <italic toggle=\"yes\">σ</italic>, <italic toggle=\"yes\">μ</italic> + <italic toggle=\"yes\">σ</italic>]."
+  },
+  {
+   "section": "article",
+   "text": "A Gaussian process extends the concept of a stochastic variable to a stochastic function. <sentence_start/>Analogously to the stochastic variable above, we can say that a stochastic function <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) is distributed as <italic toggle=\"yes\">i.e.</italic> as a Gaussian process (<citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams (2006)</citation>) with a mean function <italic toggle=\"yes\">m</italic>(<italic toggle=\"yes\">x</italic>) and a covariance function <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′). <sentence_start/>To understand Gaussian processes it can be useful to consider a <italic toggle=\"yes\">p</italic>-dimensional stochastic variable distributed as <italic toggle=\"yes\">i.e.</italic> according to a multivariate normal (MVN) distribution characterised by a <italic toggle=\"yes\">p</italic> × 1 mean vector <bold><italic toggle=\"yes\">μ</italic></bold> and a <italic toggle=\"yes\">p</italic> × <italic toggle=\"yes\">p</italic> covariance matrix <bold>Σ</bold>. <sentence_start/>If we were to take a sample <bold>y</bold> from <bold>Y</bold> we would now expect <bold>y</bold> to be “close” to <bold><italic toggle=\"yes\">μ</italic></bold>, and if we were to take many samples we would expect most of them to fall within the confidence contours given by <bold>Σ</bold>. <sentence_start/>The role of <bold>Σ</bold> in this context is to describe how variable the different elements of <bold>Y</bold> are, <italic toggle=\"yes\">and</italic> also how they covary. <sentence_start/>If for example <bold>Σ</bold><sub>12</sub> has a large positive value it is less surprising if both <italic toggle=\"yes\">y</italic><sub>1</sub> and <italic toggle=\"yes\">y</italic><sub>2</sub> have a value larger than <italic toggle=\"yes\">μ</italic><sub>1</sub> and <italic toggle=\"yes\">μ</italic><sub>2</sub> (or smaller) than if one of them is larger and the other smaller."
+  },
+  {
+   "section": "article",
+   "text": "Analogously one could take a sample from <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) and we would expect that sample to be “close” to the mean function <italic toggle=\"yes\">m</italic>(<italic toggle=\"yes\">x</italic>). <sentence_start/>And how surprising we would find deviations from <italic toggle=\"yes\">m</italic>(<italic toggle=\"yes\">x</italic>) depends on <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′). <sentence_start/>In contrast to the MVN case this sample is a continuous function, <italic toggle=\"yes\">i.e.</italic> it has a value for each <italic toggle=\"yes\">x</italic>, though it may not have any parametric form. <sentence_start/>Another important distinction is that <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) is a continuous function with a value for any pair (<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) of <italic toggle=\"yes\">x</italic>-values. <sentence_start/>Also, because <italic toggle=\"yes\">x</italic> is a continuous variable it is meaningful to define a distance between two points <italic toggle=\"yes\">x</italic> and <italic toggle=\"yes\">x</italic>′, unlike the case of the elements of <bold>y</bold> where <italic toggle=\"yes\">y</italic><sub>1</sub> and <italic toggle=\"yes\">y</italic><sub>2</sub> could represent completely different entities."
+  },
+  {
+   "section": "article",
+   "text": "Just as most applications of Gaussian distributions are inverse problems, where given a sample <bold>y</bold> one wants to find estimates for <italic toggle=\"yes\">μ</italic> and <italic toggle=\"yes\">σ</italic><sup>2</sup>, most applications of Gaussian processes aim to estimate the mean function <italic toggle=\"yes\">m</italic>(<italic toggle=\"yes\">x</italic>) given some set of observed pairs (<italic toggle=\"yes\">x</italic><italic toggle=\"yes\"><sub>i</sub></italic>, <italic toggle=\"yes\">f</italic><italic toggle=\"yes\"><sub>i</sub></italic>) (often called the “training data” or the “training set”). <sentence_start/>The next section will explain how that is achieved."
+  },
+  {
+   "section": "article",
+   "text": "Making predictions (estimating <italic toggle=\"yes\">m</italic>(<italic toggle=\"yes\">x</italic>))"
+  },
+  {
+   "section": "article",
+   "text": "For this section we will assume that there is a covariance function <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) that is known to us. <sentence_start/>How we actually find <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) will be the subject of the next section."
+  },
+  {
+   "section": "article",
+   "text": "As stated above, <italic toggle=\"yes\">m</italic>(<italic toggle=\"yes\">x</italic>) may not have a parametric form, and even if it did it is not known to us. <sentence_start/>Given that, how can a continuous function on <italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">i.e.</italic> one where for any arbitrary value <italic toggle=\"yes\">x</italic> we can calculate a value <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>), be meaningfully described? To answer that we first reorganise the training data into a vector of <italic toggle=\"yes\">n</italic> observations of the independent variable which we call <bold>x</bold> and a vector of observations of the function (dependent variable) that we call <bold>f</bold>. <sentence_start/>We can then write the joint probability of the training data and any (unobserved) pair (<italic toggle=\"yes\">x</italic>*, <italic toggle=\"yes\">f</italic>*) as where <bold>K</bold>(<bold>x</bold>, <bold>x</bold>) is an <italic toggle=\"yes\">n</italic> × <italic toggle=\"yes\">n</italic> matrix of covariances between all the points in the training data, <bold>k</bold>(<bold>x</bold>, <italic toggle=\"yes\">x</italic>*) is an <italic toggle=\"yes\">n</italic> × 1 vector of covariances between the unobserved point <italic toggle=\"yes\">x</italic>* and the training data and where <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>*, <italic toggle=\"yes\">x</italic>*) is simply the variance at the point <italic toggle=\"yes\">x</italic>*. <sentence_start/>It may seem counter intuitive that the MVN above has a zero mean, but that only means that <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) is assumed to have a zero mean when averaged over all <italic toggle=\"yes\">x</italic>. <sentence_start/>Typically one just subtracts the mean ( ) from <bold>f</bold> and then add it back to <italic toggle=\"yes\">f</italic>*, which is analogous to what is often done in “traditional” regression."
+  },
+  {
+   "section": "article",
+   "text": "In Eq. <sentence_start/>(4) everything is known except <italic toggle=\"yes\">f</italic>* so in order to maximise the joint probability we just need to maximise the probability of <italic toggle=\"yes\">f</italic>* conditional on <italic toggle=\"yes\">x</italic>*, <bold>x</bold> and <bold>f</bold> which can be expressed as and the value of <italic toggle=\"yes\">f</italic>* that maximises it is of course the expectation <bold>k</bold>(<italic toggle=\"yes\">x</italic>*, <bold>x</bold>)<bold>K</bold>(<bold>x</bold>, <bold>x</bold>)<sup>− 1</sup><bold>f</bold>. <sentence_start/>This is similar to the E-step of the EM algorithm (<citation rid=\"bb0050\" ref-type=\"bibr\" count=\"1\">Dempster et al., 1977</citation>) for MVN data with missing observations."
+  },
+  {
+   "section": "article",
+   "text": "The estimation given by Eq. <sentence_start/>(5) assumes that the training data is “perfect”, <italic toggle=\"yes\">i.e.</italic> that there is no uncertainty in the observations <bold>f</bold> of the dependent variable. <sentence_start/>The covariance function <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) does <italic toggle=\"yes\">not</italic> model any error in the data, but the variability of the function itself. <sentence_start/>If we were to calculate <bold>k</bold>(<italic toggle=\"yes\">x</italic>*, <bold>x</bold>)<bold>K</bold>(<bold>x</bold>, <bold>x</bold>)<sup>− 1</sup><bold>f</bold> for “all” values of <italic toggle=\"yes\">x</italic>* we would see that the resulting plot passed exactly through all of the training points (<italic toggle=\"yes\">x</italic><italic toggle=\"yes\"><sub>i</sub></italic>, <italic toggle=\"yes\">f</italic><italic toggle=\"yes\"><sub>i</sub></italic>)."
+  },
+  {
+   "section": "article",
+   "text": "Hence, in order to be able to use this with our data, which are always noisy, we need to complement it with a model for the measurement error. <sentence_start/>This means that Eq. <sentence_start/>(4) changes to and the conditional expectation and variance change to and respectively, where <italic toggle=\"yes\">σ</italic><sup>2</sup> is the variance of the observation error (it will be explained later how we estimate <italic toggle=\"yes\">σ</italic><sup>2</sup>) and where <bold>I</bold> is the <italic toggle=\"yes\">n</italic> × <italic toggle=\"yes\">n</italic> identity matrix."
+  },
+  {
+   "section": "article",
+   "text": "Eq. <sentence_start/>(7) provides a way to make predictions for both observed and unobserved points <italic toggle=\"yes\">x</italic>* given some observations <italic toggle=\"yes\">x</italic> and <italic toggle=\"yes\">f</italic>, <italic toggle=\"yes\">provided</italic> that we know the function <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′)."
+  },
+  {
+   "section": "article",
+   "text": "Finding <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′)"
+  },
+  {
+   "section": "article",
+   "text": "There are a lot of suggestions for covariance functions <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) in the literature about Gaussian processes. <sentence_start/>They are typically devised so that nearby points have a larger positive covariance than points further apart thereby imposing smoothness on the function. <sentence_start/>For a function <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′) to work as a covariance function it needs to produce a positive definite matrix <bold>K</bold>(<bold>x</bold>, <bold>x</bold>) for any set <bold>x</bold> of points in the domain of <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) (see <italic toggle=\"yes\">e.g.</italic> <citation rid=\"bb0065\" ref-type=\"bibr\" count=\"1\">Genton, 2001</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Many existing covariance functions, such as for example the squared-exponential (<citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams, 2006</citation>), are parametric, <italic toggle=\"yes\">i.e.</italic> they have a number of free parameters (often referred to as hyperparameters) whose values determine the detailed properties of the resulting . <sentence_start/>The task of finding a suitable covariance function for one's application/data entails not only choosing the “right” parametric form but also, possibly on a per data set basis, suitable values for the parameters. <sentence_start/>This can be achieved by marginal likelihood maximisation (<citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams, 2006</citation>), or by leave-one-out methods (<citation rid=\"bb0140\" ref-type=\"bibr\" doi=\"10.1162/08997660151134343\" pmid=\"11359646\" count=\"1\">Sundararajan and Sathiya Keerthi, 2001</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Gaussian processes for diffusion data"
+  },
+  {
+   "section": "article",
+   "text": "This section builds the case for the covariance functions we suggest for diffusion data."
+  },
+  {
+   "section": "article",
+   "text": "Diffusion data is acquired by, for each voxel, observing the signal after applying a diffusion weighting along a specific direction. <sentence_start/>Hence the data can be seen as a response variable (the signal) acquired on the surface of a sphere. <sentence_start/>The weighting is typically characterised by a <italic toggle=\"yes\">b</italic>-value that specifies the strength of diffusion weighting and a unit length vector <bold>g</bold> that specifies the direction. <sentence_start/>The signal is affected by the local diffusion of water molecules such that a high diffusivity along <bold>g</bold> leads to a small signal. <sentence_start/>A full diffusion protocol consists of multiple measurements along different directions aimed at characterising the diffusion along “any” direction. <sentence_start/>A two-dimensional demonstration of how the diffusion signal might look can be seen in Fig. <sentence_start/>1. <sentence_start/>This shows two important aspects of the diffusion signal:"
+  },
+  {
+   "section": "article",
+   "text": "•"
+  },
+  {
+   "section": "article",
+   "text": "The signal changes smoothly as the angle of the diffusion weighting direction changes."
+  },
+  {
+   "section": "article",
+   "text": "•"
+  },
+  {
+   "section": "article",
+   "text": "The signal is axially symmetric, <italic toggle=\"yes\">i.e.</italic> the signal along <bold>g</bold> is identical to the signal along − <bold>g</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Because the diffusion signal lives on a sphere, it is a good match for techniques that have been developed and used for geostatistics and meteorology where a special case of s observed on a sphere is known as “Kriging” (<citation rid=\"bb0155\" ref-type=\"bibr\" count=\"1\">Wackernagel, 2003</citation>). <sentence_start/>For these techniques the covariance is often defined as a function of an angle <italic toggle=\"yes\">θ</italic> between two vectors from the centre of the sphere to <bold>x</bold> and <bold>x</bold>′. These vectors are easily recognised as the <bold>g</bold>-vectors described above. <sentence_start/>Two popular covariance functions in geostatistics are the “Exponential model” where <italic toggle=\"yes\">a</italic> is a positive scale parameter, and the “Spherical model” where <italic toggle=\"yes\">a</italic> is again a positive scale parameter that here determines the “distance” at which <italic toggle=\"yes\">θ</italic> the covariance goes to zero:"
+  },
+  {
+   "section": "article",
+   "text": "Both of these are “valid” covariance functions (<citation rid=\"bb0070\" ref-type=\"bibr\" count=\"1\">Huang et al., 2011</citation>) on the sphere, <italic toggle=\"yes\">i.e.</italic> they will yield invertible matrices <bold>K</bold> and the marginal likelihood will exist for any data. <sentence_start/>For diffusion data we need to modify the definition of <italic toggle=\"yes\">θ</italic> since we want the model to be symmetrical on the sphere. <sentence_start/>We do this by defining <italic toggle=\"yes\">θ</italic> for two unity length diffusion gradient vectors <bold>g</bold> and <bold>g</bold>′ as"
+  },
+  {
+   "section": "article",
+   "text": "This is equivalent to extending both vectors also in the negative direction and choosing the smallest of the two angles between the resulting crossing lines."
+  },
+  {
+   "section": "article",
+   "text": "Single shell data"
+  },
+  {
+   "section": "article",
+   "text": "When all the diffusion weighted measurements are performed with the same <italic toggle=\"yes\">b</italic>-value, data are said to be collected on a single shell, which is then very similar to the geostatistical application of Kriging. <sentence_start/>One can obtain an idea about the form of the covariance function by calculating a sample covariance and plotting the elements of that matrix against <italic toggle=\"yes\">θ</italic>. <sentence_start/>The resulting plot can be seen in Fig. 2, and both the exponential and the spherical covariance functions capture the general appearance of the observed covariance, with the spherical model possibly looking a little better. <sentence_start/>To estimate the optimal hyperparameters for each model one can use marginal likelihood maximisation (also known as type II maximum likelihood) (<citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams, 2006</citation>) which maximises where <bold>y</bold> is the signal from one voxel for all the diffusion directions, where <italic toggle=\"yes\">β</italic> = [<italic toggle=\"yes\">λ a σ</italic><sup>2</sup>] and where <bold>K</bold><italic toggle=\"yes\"><sub>y</sub></italic> = <bold>K</bold> + <italic toggle=\"yes\">σ</italic><sup>2</sup><bold>I</bold> and <bold>K</bold> is the matrix with elements <italic toggle=\"yes\">K</italic><italic toggle=\"yes\"><sub>ij</sub></italic> = <italic toggle=\"yes\">λC</italic>(<italic toggle=\"yes\">θ</italic><italic toggle=\"yes\"><sub>ij</sub></italic>; <italic toggle=\"yes\">a</italic>) where <italic toggle=\"yes\">C</italic>(<italic toggle=\"yes\">θ</italic>; <italic toggle=\"yes\">a</italic>) is given by Eq. <sentence_start/>(9), (10) depending on which model is being considered. <sentence_start/>In these models, <italic toggle=\"yes\">a</italic> is a “distance scale” parameter determining how fast the covariance decreases as one moves along the surface of the sphere, <italic toggle=\"yes\">λ</italic> is a “signal scale” parameter which determines the variability of the signal and <italic toggle=\"yes\">σ</italic><sup>2</sup> determines the uncertainty of the measured values <bold>y</bold>. <sentence_start/>When estimating the hyperparameters the model was reparameterised so that and were estimated rather than <italic toggle=\"yes\">λ</italic> and <italic toggle=\"yes\">σ</italic><sup>2</sup> themselves so as to avoid the possibility of negative scaling or variance."
+  },
+  {
+   "section": "article",
+   "text": "The term “marginal likelihood” seems a little counter intuitive since it is not immediately clear what is being marginalised over. <sentence_start/>“Normally” when estimating the values of some hyperparameters the marginalisation occurs over the lower level parameters of the model. <sentence_start/>In the case of Gaussian processes the “parameters” are all possible functions <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) and we recommend chapters 2 and 5 of <citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams (2006)</citation> for an explanation of this."
+  },
+  {
+   "section": "article",
+   "text": "When maximising Eq. <sentence_start/>(12) one finds the optimal hyperparameters <italic toggle=\"yes\">β</italic> for the particular voxel from which <bold>y</bold> is taken. <sentence_start/>However one would like to find a single <italic toggle=\"yes\">β</italic> for all voxels. <sentence_start/>To find that, Eq. (12) is summed over all (or at least a sizeable subset of all) voxels, which is equivalent to multiplying the likelihoods over voxels (<citation rid=\"bb0085\" ref-type=\"bibr\" count=\"1\">Minka and Picard, 1999</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Eq. <sentence_start/>(12) still cannot be used to choose between the models. <sentence_start/>For that we would need the model evidence where <italic toggle=\"yes\">p</italic>(<italic toggle=\"yes\">β</italic>| <italic toggle=\"yes\"><sub>i</sub></italic>) is the prior distribution of <italic toggle=\"yes\">β</italic>. <sentence_start/>In order to calculate the integral in Eq. <sentence_start/>(13) we use Laplace's approximation which entails finding the <italic toggle=\"yes\">β</italic> which maximises <italic toggle=\"yes\">p</italic>(<bold>y</bold>|<italic toggle=\"yes\">β</italic>, <italic toggle=\"yes\"><sub>i</sub></italic>), calculating the Hessian at that point <italic toggle=\"yes\">β</italic><sub>0</sub> and approximating <italic toggle=\"yes\">p</italic>(<italic toggle=\"yes\">β</italic>| <italic toggle=\"yes\"><sub>i</sub></italic>) by a Gaussian distribution centred on <italic toggle=\"yes\">β</italic><sub>0</sub> and the covariance given by the inverse Hessian. <sentence_start/>We leave the details of those calculations to Appendix A, B."
+  },
+  {
+   "section": "article",
+   "text": "It is true that Laplace's equation is an approximation, but it should be noted that the ability of a Gaussian process to make useful predictions (<italic toggle=\"yes\">i.e.</italic> to estimate the mean function through Eq. <sentence_start/>(7)) is not strongly dependent on the exact form of the covariance function (<citation rid=\"bb0110\" ref-type=\"bibr\" count=\"1\">Press et al., 2007</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Leave-one-out methods"
+  },
+  {
+   "section": "article",
+   "text": "In addition to the marginal likelihood maximisation we also implemented and tested methods based on maximising the ability to predict unobserved data. <sentence_start/>In the interest of space we will not present any results derived with those methods and simply mention that we implemented and tested the methods referred to as Cross-Validation (CV), Geisser's Surrogate Predictive Probability (GPP) and Geisser's Predictive mean Square Error (GPE) as described in <citation rid=\"bb0140\" ref-type=\"bibr\" doi=\"10.1162/08997660151134343\" pmid=\"11359646\" count=\"1\">Sundararajan and Sathiya Keerthi (2001)</citation>. <sentence_start/>We found that both CV and GPP yielded hyperparameters that obtained good predictions and hence they are both part of our implementation. <sentence_start/>In contrast to <citation rid=\"bb0140\" ref-type=\"bibr\" doi=\"10.1162/08997660151134343\" pmid=\"11359646\" count=\"1\">Sundararajan and Sathiya Keerthi (2001)</citation> we found that GPE did not perform well."
+  },
+  {
+   "section": "article",
+   "text": "Multi-shell data"
+  },
+  {
+   "section": "article",
+   "text": "Increasingly diffusion data is acquired with two or more different non-zero <italic toggle=\"yes\">b</italic>-values (see for example <citation rid=\"bb0010\" ref-type=\"bibr\" doi=\"10.1109/IEMBS.2006.259453\" pmid=\"17946944\" count=\"1\">Alexander et al., 2006</citation>; <citation rid=\"bb0005\" ref-type=\"bibr\" pmid=\"20535807\" doi=\"10.1002/mrm.22365\" pmcid=\"PMC2911516\" count=\"1\">Aganj et al., 2010</citation>; <citation rid=\"bb0135\" ref-type=\"bibr\" pmid=\"23702418\" doi=\"10.1016/j.neuroimage.2013.05.057\" pmcid=\"PMC3720790\" count=\"1\">Sotiropoulos et al., 2013</citation> or <citation rid=\"bb0130\" ref-type=\"bibr\" pmid=\"23707579\" doi=\"10.1016/j.neuroimage.2013.05.078\" pmcid=\"PMC3725309\" count=\"1\">Setsompop et al., 2013</citation>). <sentence_start/>This type of data is referred to as “multi-shell” data. <sentence_start/>The logic behind this name is that the data collected for each <italic toggle=\"yes\">b</italic>-value forms a closed 2D surface embedded in 3D space where the surface resulting from the high <italic toggle=\"yes\">b</italic>-value is completely enclosed inside the surface formed by the low <italic toggle=\"yes\">b</italic>-value. <sentence_start/>The rational behind such an acquisition is that high <italic toggle=\"yes\">b</italic>-values give more angular contrast and higher “diffusion resolution” but lower SNR than low <italic toggle=\"yes\">b</italic>-values."
+  },
+  {
+   "section": "article",
+   "text": "A general strategy for defining covariance functions is to construct new functions from products or linear combinations of existing ones (<citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams, 2006</citation>). <sentence_start/>For multi-shell data two points may differ on two axes <italic toggle=\"yes\">θ</italic> and Δ<italic toggle=\"yes\">b</italic> where <italic toggle=\"yes\">θ</italic> is defined as above and Δ<italic toggle=\"yes\">b</italic> is the difference in <italic toggle=\"yes\">b</italic>-value between the two points. <sentence_start/>A “natural” covariance function for multi-shell data would hence be where <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>θ</sub></italic> is the covariance function we defined above for the single shell case, where <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>b</sub></italic> is some candidate smooth function describing how the covariance changes along the <italic toggle=\"yes\">b</italic> direction and where <italic toggle=\"yes\">ℓ</italic> is some set of hyperparameters for <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>b</sub></italic>."
+  },
+  {
+   "section": "article",
+   "text": "We have chosen the squared-exponential (<citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams, 2006</citation>) covariance function for <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>b</sub></italic> and have used the log of the <italic toggle=\"yes\">b</italic>-values as the measure of distance along the <italic toggle=\"yes\">b</italic>-direction. <sentence_start/>Hence, <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>b</sub></italic> is given by"
+  },
+  {
+   "section": "article",
+   "text": "Multi-shell acquisition schemes typically consists of a small finite set (often 2-3) of shells in the <italic toggle=\"yes\">b</italic> direction. <sentence_start/>For each of those shells we allow for a unique measurement error. <sentence_start/>If we assume that we have two shells, the full <bold>K</bold>-matrix can be written as where the hyperparameters that need to be estimated are <italic toggle=\"yes\">β</italic> = [<italic toggle=\"yes\">λ a ℓ σ</italic><sub>1</sub><sup>2</sup> <italic toggle=\"yes\">σ</italic><sub>2</sub><sup>2</sup>], where <italic toggle=\"yes\">θ</italic>(<bold>G</bold>, <bold>G</bold>′) is a matrix-valued function with all the angles between the <bold>g</bold>-vectors in the sets <bold>G</bold> and <bold>G</bold>′, where <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>θ</sub></italic> is given by Eq. <sentence_start/>(9), (10) and where <italic toggle=\"yes\">C</italic><italic toggle=\"yes\"><sub>b</sub></italic> is given by Eq. <sentence_start/>(15). <sentence_start/>Eq. (16) is trivially extended to the <italic toggle=\"yes\">N</italic>-shell case and the number of hyperparameters goes as 3 + <italic toggle=\"yes\">N</italic>."
+  },
+  {
+   "section": "article",
+   "text": "The same marginal likelihood maximisation that was described for the single shell case can be used to determine the hyperparameters of the multi shell case, as can either of the prediction based methods referred to in Section 2.2.2."
+  },
+  {
+   "section": "article",
+   "text": "In Fig. 3 we demonstrate the “Prior shapes” given by the single- (left panel) and multi-shell (right panel) models. <sentence_start/>A prior shape is a shape that has been drawn from the distribution of plausible shapes given the form of the covariance function and the values of the hyperparameters. <sentence_start/>Any shape has a probability of being drawn that is proportional to its prior probability (<italic toggle=\"yes\">i.e.</italic> in the absence of any data). <sentence_start/>It can be seen that the prior favours approximately spherical shapes in the absence of any evidence to the contrary."
+  },
+  {
+   "section": "article",
+   "text": "A note on optimisation"
+  },
+  {
+   "section": "article",
+   "text": "It is suggested, for example in <citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams (2006)</citation>, that an optimisation method that uses derivative information should be used when finding the hyperparameters that maximise Eq. (12). <sentence_start/>The reason for that is that such methods typically use fewer steps, and when the cost of calculating the derivatives is small/moderate compared to calculating the functions itself (as is the case for Eq. <sentence_start/>(12)) then execution time can be much shorter. <sentence_start/>However, we found that for the multi-shell case a heuristic optimisation method such as the Nelder-Mead simplex method (<citation rid=\"bb0090\" ref-type=\"bibr\" count=\"1\">Nelder and Mead, 1965</citation>) was frequently better at avoiding local maxima. <sentence_start/>Hence, that was the method we used for all optimisations in the present paper."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Diffusion data"
+  },
+  {
+   "section": "article",
+   "text": "In order to ensure that results are not specific to a particular scanner and/or protocol, data was taken from several studies performed by several groups. <sentence_start/>The common feature of all data sets is that they are at the upper end of what is usually acquired in terms of number of directions and <italic toggle=\"yes\">b</italic>-values. <sentence_start/>Relevant key parameters are summarised in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "After acquisition, data was corrected for susceptibility induced distortions (in the case where data was acquired with reversed phase-encode directions) and eddy current induced distortions and subject movement. <sentence_start/>It may seem circular that we used our Gaussian process based method for distortions and movement to correct the data prior to using it in the present paper. <sentence_start/>How this is performed is briefly explained in Appendix C."
+  },
+  {
+   "section": "article",
+   "text": "Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Single shell model selection"
+  },
+  {
+   "section": "article",
+   "text": "For each of the data sets three slices through the centre of the brain were selected and all the intra cerebral voxels of those slices were used. <sentence_start/>The hyperparameters for both models (given by Eqs. <sentence_start/>(9), (10)) were estimated by maximising the log marginal likelihood (Eq. <sentence_start/>(12)) summed over all voxels. <sentence_start/>The evidence was calculated for each model as described in Appendix A, B and for each data set, the Bayes factor comparing the two models was calculated."
+  },
+  {
+   "section": "article",
+   "text": "Predictions"
+  },
+  {
+   "section": "article",
+   "text": "The model selected based on the previous section was used to make predictions of diffusion weighted volumes. <sentence_start/>Predictions were made both including the observed data for the predicted volume (in which case the performs a smoothing on the sphere) and excluding it (in which case the corresponds to an interpolation) in the training data."
+  },
+  {
+   "section": "article",
+   "text": "In order to see how the model allows us to improve predictions for one shell by utilising information from other shells we subsampled one of the shells and calculated predictions for that shell in isolation (Eq. <sentence_start/>(9), (10)) and in the context of one or more other shells (Eq. <sentence_start/>(16))."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Single shell model selection"
+  },
+  {
+   "section": "article",
+   "text": "All data sets showed a very strong preference for the spherical model (Eq. <sentence_start/>(10)) over the exponential model (Eq. <sentence_start/>(9)). <sentence_start/>Even for single voxels, the Bayes factor (<citation rid=\"bb0075\" ref-type=\"bibr\" count=\"1\">Kass and Raftery (1995)</citation>) ranged from 1 (for voxels in CSF) to &gt; 10,000 (white matter voxels with strongest preference). <sentence_start/>When estimating a single set of hyperparameters from a large selection (&gt; 10,000) of intracerebral voxels, the resulting Bayes factor was so large that it approached the numerical precision of a double. <sentence_start/>This finding was independent of the data set used. <sentence_start/>It was therefore decided to use the spherical model for all further analysis."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4 shows the predictions made by the tensor model and the suggested . <sentence_start/>The data in Fig. 4 comes from a white matter voxel with a three-way crossing (each local minimum on the model fit in the right panel represents a fibre direction). <sentence_start/>It can be seen that the Gaussian process is able to model the structure of the signal very well without any obvious “overfitting”."
+  },
+  {
+   "section": "article",
+   "text": "In Fig. 5 we demonstrate the impact of the hyperparameters on the ability of the to model the data. <sentence_start/>It shows data from two voxels, one in grey matter and one from a white matter region with complex architecture (<italic toggle=\"yes\">i.e.</italic> crossing fibres). <sentence_start/>Three sets of hyperparameters are estimated, from the grey matter voxel, from the white matter voxel and jointly from both. <sentence_start/>All three sets of hyperparameters are subsequently used to model data from both voxels. <sentence_start/>It can be seen that both the hyperparameters estimated from the white matter and those estimated from both yields processes that are able to adequately model either voxel."
+  },
+  {
+   "section": "article",
+   "text": "The Gaussian process is able to model high <italic toggle=\"yes\">b</italic>-value data from voxels with vastly different signal profiles. <sentence_start/>To show that, we estimated hyperparameters from a random selection of 1000 intracerebral voxels in a data set acquired with a <italic toggle=\"yes\">b</italic>-value of 7000. <sentence_start/>The resulting Gaussian process was used to model data from six randomly selected voxels from a plane at the level of the crossing of the superior longitudinal fasciculus II and the cortico spinal tract. <sentence_start/>The results are shown in Fig. 6<sentence_start/>."
+  },
+  {
+   "section": "article",
+   "text": "Multi-shell model"
+  },
+  {
+   "section": "article",
+   "text": "Fig. 7 shows data and the resulting predictions for two shells with <italic toggle=\"yes\">b</italic>-values 1500 and 5000 when using model (16). <sentence_start/>The prediction at any point (any point on either of the surfaces) is a linear combination of the data points with higher weights given to the points with similar <italic toggle=\"yes\">θ</italic> and <italic toggle=\"yes\">ϕ</italic> (in spherical coordinates) and higher weights to points on the same shell."
+  },
+  {
+   "section": "article",
+   "text": "The ability to improve the predictions for one shell by utilising information from (an)other shell(s) is demonstrated in Fig. 8."
+  },
+  {
+   "section": "article",
+   "text": "Predictions"
+  },
+  {
+   "section": "article",
+   "text": "Fig. 9 demonstrates that the model was capable of making very accurate predictions both when including and excluding the observed data corresponding to the prediction."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "We have demonstrated the use of Gaussian processes for modelling and making predictions about diffusion data. <sentence_start/>For each new data set a small number (three for most acquisition protocols) of hyperparameters have to be non-linearly estimated and following that all voxels can be modelled using a fast linear method. <sentence_start/>Despite its speed and simplicity it can model voxels with several crossing fibres."
+  },
+  {
+   "section": "article",
+   "text": "Gaussian processes are sometimes touted as “model free”, and therefore as a solution to the problem where one has some data that one wants to model but one doesn't have a good theoretical argument for choosing one model over another. <sentence_start/>This is partially true, but when using Gaussian processes the task has shifted from finding a parametric model for the function to finding a parametric model for the covariance function <italic toggle=\"yes\">k</italic>(<italic toggle=\"yes\">x</italic>, <italic toggle=\"yes\">x</italic>′)."
+  },
+  {
+   "section": "article",
+   "text": "It may seem counterintuitive that a Gaussian process with a single set of hyperparameters (estimated from voxels that represent a mixture of tissue types) can model highly structured data from crossing fibre white matter (such as shown in Fig. 4, Fig. 5, Fig. 6, Fig. 7, Fig. 8) as well as from grey matter or CSF. <sentence_start/>To understand that, it should be realised that the covariance function acts only as a prior on the shapes that can be modelled by the . <sentence_start/>The estimated hyperparameters will be dominated by the white matter signal, because it is only for white matter that there is appreciable signal variation on the sphere. <sentence_start/>Even so, the most likely shape before observing any data (prior shape) will be spherical (this is true for all “proper” covariance functions on the sphere) so there will be no problems modelling the grey matter or CSF. <sentence_start/>At the same time there will be enough signal variability (parametrised by <italic toggle=\"yes\">λ</italic>) to adequately capture the structure in white matter."
+  },
+  {
+   "section": "article",
+   "text": "The reason we have opted for a Gaussian process rather than some previously published parameteric model (see <citation rid=\"bb0095\" ref-type=\"bibr\" pmid=\"22001791\" doi=\"10.1016/j.neuroimage.2011.09.081\" count=\"1\">Panagiotaki et al. (2012)</citation> for examples of biophysical models) is more pragmatic than for its presumed “model freeness”. <sentence_start/>A Gaussian process is linear, like the single diffusion tensor model after log-transformation of the data, which means it is practical (<italic toggle=\"yes\">i.e.</italic> fast) to incorporate into a framework where the model has to be re-estimated several times as part of an iterative procedure. <sentence_start/>In fact, even for the HCP data where each prediction is an inner product of two 300 × 1 vectors, it is twice as fast to calculate as the tensor-based prediction, and for data sets with less points, the difference becomes greater. <sentence_start/>At the same time it is not so strictly limited in terms of what it can model as the single tensor model, which means that it can better model the signal in areas with for example crossing fibres. <sentence_start/>It is also less inherently sensitive to artefactual signal loss than the log-transformed least-squares tensor model."
+  },
+  {
+   "section": "article",
+   "text": "There are other methods for modelling the diffusion signal that are less restrictive than the diffusion tensor and still computationally feasible, such as for example spherical harmonics (<citation rid=\"bb0055\" ref-type=\"bibr\" pmid=\"16802316\" doi=\"10.1002/mrm.20948\" count=\"1\">Descoteaux et al., 2006</citation>) or Watson direction functions (<citation rid=\"bb0120\" ref-type=\"bibr\" pmid=\"19269242\" doi=\"10.1016/j.media.2009.01.004\" pmcid=\"PMC2677112\" count=\"1\">Rathi et al., 2009</citation>). <sentence_start/>Compared to these our approach offers the advantage of not having to decide on an order of harmonics or number of direction functions. <sentence_start/>It also offers (in common with <citation rid=\"bb0060\" ref-type=\"bibr\" pmid=\"20685153\" doi=\"10.1016/j.media.2010.07.001\" count=\"1\">Descoteaux et al., 2011</citation>) the ability to simultaneously model multiple shells with the estimates from one shell informing the others. <sentence_start/>Furthermore we aim to develop correction techniques that are as independent as possible of how the subsequent processing/analysis of the data is performed so as to avoid circularities. <sentence_start/>Hence we wanted to avoid commonly used models such as those mentioned above (<citation rid=\"bb0055\" ref-type=\"bibr\" pmid=\"16802316\" doi=\"10.1002/mrm.20948\" count=\"1\">Descoteaux et al., 2006</citation> or <citation rid=\"bb0120\" ref-type=\"bibr\" pmid=\"19269242\" doi=\"10.1016/j.media.2009.01.004\" pmcid=\"PMC2677112\" count=\"1\">Rathi et al., 2009</citation>). <sentence_start/>Apart from the circularity argument it is likely that for example a spherical/solid harmonics model with priors on the parameters to ensure spherical prior shapes could equally work for our purposes."
+  },
+  {
+   "section": "article",
+   "text": "The way in which the Gaussian process can use information from one shell to aid in the prediction of another shell is through the observed covariances between the shells (which will determine the value of the <italic toggle=\"yes\">ℓ</italic> hyperparameter in Eq. <sentence_start/>(15)). <sentence_start/>That means that if two shells are far apart, and especially if one of the shells has “low” <italic toggle=\"yes\">b</italic>-values, the observed covariance will be small and the predictive power of one shell on the other will be small. <sentence_start/>This can be seen in Fig. 8 where it is demonstrated that a <italic toggle=\"yes\">b</italic> = 3000 shell will have a substantial impact on the predictions made for a <italic toggle=\"yes\">b</italic> = 5000 shell when there is a paucity of data, whereas a <italic toggle=\"yes\">b</italic> = 1500 shell will have a much smaller, albeit non-zero, impact. <sentence_start/>It can also be seen that when the <italic toggle=\"yes\">b</italic> = 5000 shell gets more data the impact of the other shells diminishes as the within-shell covariances starts to dominate."
+  },
+  {
+   "section": "article",
+   "text": "As outlined in the Introduction section we plan to use this model for two purposes, the first being correction for eddy current distortions and subject movement. <sentence_start/>In general it is a difficult and largely unsolved problem how to register images acquired with different diffusion gradients because of their different information contents. <sentence_start/>At the same time it is often desirable to register them, because long study durations make it likely that the subject will have moved between some of the volumes, and because each volume tend to be distorted in a unique way that is determined by the direction and strength of the diffusion gradients (see for example <citation rid=\"bb0020\" ref-type=\"bibr\" count=\"1\">Andersson and Skare (2011)</citation> for an overview). <sentence_start/>Our intended use of the Gaussian process model is to register the observed images to their predictions. <sentence_start/>Since the predictions are based on all (or a majority if <italic toggle=\"yes\">a</italic> &lt; <italic toggle=\"yes\">π</italic>/2) volumes, the resulting prediction will be closer to the average space of the study both in terms of distortions and subject position, than the corresponding observed image. <sentence_start/>Hence, by iteratively nudging each volume closer to the corresponding prediction we obtain a registered set of images."
+  },
+  {
+   "section": "article",
+   "text": "The second planned use for this model is outlier detection and replacement (briefly described in <citation rid=\"bb0025\" ref-type=\"bibr\" count=\"1\">Andersson and Sotiropoulos, 2014</citation>). <sentence_start/>It is not uncommon for diffusion weighted images to suffer from a loss of signal, that may be quite severe. <sentence_start/>This is caused by (tiny) subject movement or pulsatile movement of the brain (<citation rid=\"bb0105\" ref-type=\"bibr\" count=\"1\">Pierpaoli, 2011</citation>) during the diffusion weighting which causes a translation of the signal in <italic toggle=\"yes\">k</italic>-space, potentially to partially outside the <italic toggle=\"yes\">k</italic>-space window that is sampled. <sentence_start/>If uncorrected this signal loss will be interpreted as high diffusivity in the direction of the gradient of the affected volume and will bias tractography. <sentence_start/>There are methods for detecting such outliers (for example RESTORE, <citation rid=\"bb0045\" ref-type=\"bibr\" pmid=\"15844157\" doi=\"10.1002/mrm.20426\" count=\"1\">Chang et al., 2005</citation>) but these are all based on one specific model (typically the tensor) for the diffusion signal. <sentence_start/>Consider for example the left panel in Fig. 4 where the lack of model fit would imply a large number of outliers, but where the real issue is an inadequate model. <sentence_start/>The suggested Gaussian process in contrast is mainly data driven and independent of the particular model that is used for the subsequent analysis/tractography. <sentence_start/>It should be noted that more flexible models have been suggested for outlier detection (see for example <citation rid=\"bb0100\" ref-type=\"bibr\" pmid=\"22819964\" doi=\"10.1016/j.neuroimage.2012.07.022\" count=\"1\">Pannek et al., 2012</citation>) and that they would not suffer from the problems that the tensor model does."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "We have suggested a method for modelling the diffusion signal that enables us to make accurate predictions. <sentence_start/>It is based on a Gaussian process, is highly data driven and allows for multi-shell modelling."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "A"
+  },
+  {
+   "section": "back",
+   "text": "Laplace's approximation of model evidence"
+  },
+  {
+   "section": "back",
+   "text": "Given two models and that we wish to compare we need to calculate the model evidence for both models and choose the one with the greater evidence. <sentence_start/>A Gaussian process model is strictly speaking a two level model with parameters (being all possible functions <italic toggle=\"yes\">f</italic>(<italic toggle=\"yes\">x</italic>) as described in the main text) and hyperparameters <italic toggle=\"yes\">β</italic>. <sentence_start/>For brevity the first level will be omitted here. <sentence_start/>The posterior over the hyperparameters <italic toggle=\"yes\">β</italic> is given by"
+  },
+  {
+   "section": "back",
+   "text": "Assuming uninformative priors <italic toggle=\"yes\">p</italic>(<italic toggle=\"yes\">β</italic>| ) a maximum a posteriori (MAP) estimate <italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>mp</sub></italic> can be obtained by maximising <italic toggle=\"yes\">p</italic>(<bold>y</bold>|<italic toggle=\"yes\">β</italic>, ), <italic toggle=\"yes\">i.e.</italic> Eq. (12) in the main text. <sentence_start/>One can then calculate the Hessian <bold>H</bold><italic toggle=\"yes\"><sub>mp</sub></italic>, the matrix of second derivatives of Eq. <sentence_start/>(12), at the MAP point using Eq. <sentence_start/>(B2). <sentence_start/>The inverse of <bold>H</bold><italic toggle=\"yes\"><sub>mp</sub></italic> is a measure of the uncertainty of the estimate <italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>mp</sub></italic> and under the (Laplace) assumption of a normal distributed posterior one can write"
+  },
+  {
+   "section": "back",
+   "text": "The next step is to use this to approximate the model evidence. <sentence_start/>The model evidence for model <italic toggle=\"yes\">i</italic> is"
+  },
+  {
+   "section": "back",
+   "text": "For the purpose of comparing different models <italic toggle=\"yes\">p</italic>(<bold>y</bold>) is an uninteresting scaling factor and if one further assumes that there is no prior preference for one model over another the evidence becomes but from Eq. <sentence_start/>(A1) it is known that which means that the integrand is, approximately, a normal distribution with its “width” depending on <bold>H</bold><italic toggle=\"yes\"><sub>mp</sub></italic><sup>− 1</sup> and its peak height on <italic toggle=\"yes\">p</italic>(<bold>y</bold>|<italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>mp</sub></italic>, <italic toggle=\"yes\"><sub>i</sub></italic>)<italic toggle=\"yes\">p</italic>(<italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>mp</sub></italic>| <italic toggle=\"yes\"><sub>i</sub></italic>). <sentence_start/>Results for integrating a Gaussian yields where <italic toggle=\"yes\">d</italic> is the number of hyperparameters (length of <italic toggle=\"yes\">β</italic>) for model and where it is implicit that <bold>H</bold><italic toggle=\"yes\"><sub>mp</sub></italic> pertains to the particular model in question."
+  },
+  {
+   "section": "back",
+   "text": "The comparison between models and finally is performed using the Bayes factor"
+  },
+  {
+   "section": "back",
+   "text": "One critical aspect of the Bayes factor is <italic toggle=\"yes\">p</italic>(<italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>mp</sub></italic>| ), <italic toggle=\"yes\">i.e.</italic> that one needs prior distributions on the parameters for the different models and that the outcome of the model comparison can depend crucially on ones particular choices of priors. <sentence_start/>In the present paper uninformative priors were used in order to minimise their impact on the model comparison. <sentence_start/>For the parameter <italic toggle=\"yes\">a</italic> a uniform prior on the interval [0, <italic toggle=\"yes\">π</italic>] was used for all models. <sentence_start/>The parameters <italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>m</sub></italic><sup>2</sup>, <italic toggle=\"yes\">σ</italic><sub><italic toggle=\"yes\">n</italic>(<italic toggle=\"yes\">i</italic>)</sub><sup>2</sup> and <italic toggle=\"yes\">B</italic><italic toggle=\"yes\"><sub>ij</sub></italic> all represent entities related to variance and would scale as <italic toggle=\"yes\">α</italic><sup>2</sup> if the data was rescaled by a factor <italic toggle=\"yes\">α</italic>. <sentence_start/>The same rescaling would alter |<bold>H</bold><italic toggle=\"yes\"><sub>mp</sub></italic><sup>− 1</sup>|<sup>1/2</sup> by a factor of <italic toggle=\"yes\">α</italic> for each variance related parameter in the model. <sentence_start/>Therefore, in order to render the model comparison independent of rescaling of the data, 1/<italic toggle=\"yes\">σ</italic> (and conversely ) was used. <sentence_start/>For the reparametrisation this corresponds to an (improper) prior on ."
+  },
+  {
+   "section": "back",
+   "text": "To make this concrete: For the spherical model the hyperparameters are [<italic toggle=\"yes\">σ</italic><italic toggle=\"yes\"><sub>m</sub></italic><sup>2</sup> <italic toggle=\"yes\">a σ</italic><italic toggle=\"yes\"><sub>n</sub></italic><sup>2</sup>] and for a particular data set <italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>mp</sub></italic> was [119 1.15 186]. <sentence_start/>That would make"
+  },
+  {
+   "section": "back",
+   "text": "For a more in-depth treatment of this we recommend <citation rid=\"bb0080\" ref-type=\"bibr\" count=\"1\">MacKay (2003)</citation> and <citation rid=\"bb0075\" ref-type=\"bibr\" count=\"1\">Kass and Raftery (1995)</citation>."
+  },
+  {
+   "section": "back",
+   "text": "B"
+  },
+  {
+   "section": "back",
+   "text": "Calculating the Hessian"
+  },
+  {
+   "section": "back",
+   "text": "The Hessian we need for the approximation of the model evidence is the matrix of second derivatives of the negation of log <italic toggle=\"yes\">p</italic>(<bold>y</bold>|<italic toggle=\"yes\">β</italic>) (where we have omitted the explicit dependence on model ) as defined by Eq. <sentence_start/>(12). <sentence_start/>The first derivatives of Eq. <sentence_start/>(12) are given in <citation rid=\"bb0115\" ref-type=\"bibr\" count=\"1\">Rasmussen and Williams (2006)</citation> and are where is the matrix of elementwise derivatives w.r.t. <italic toggle=\"yes\">β</italic><italic toggle=\"yes\"><sub>i</sub></italic>."
+  },
+  {
+   "section": "back",
+   "text": "The second derivatives are given by and it is the inverse of the negation of the resulting matrix that we use in Eq. <sentence_start/>(A6)."
+  },
+  {
+   "section": "back",
+   "text": "C"
+  },
+  {
+   "section": "back",
+   "text": "Correction for distortions and movement"
+  },
+  {
+   "section": "back",
+   "text": "When pre-processing the data we used in the present paper we corrected for distortions and movements using a Gaussian process based registration method (<citation rid=\"bb0030\" ref-type=\"bibr\" count=\"1\">Andersson et al., 2012</citation>). <sentence_start/>To use the for registration (when data is afflicted by distortions and movement) may seem like boot-strapping, and it is. <sentence_start/>When data is completely uncorrected the estimate of the error variance hyperparameter (<italic toggle=\"yes\">σ</italic><sup>2</sup>) will be inflated and the fits to the data will be poor. <sentence_start/>This leads to image predictions that are smooth (both spatially along the PE-direction and in Q-space) compared to the data. <sentence_start/>Hence, for the first iteration of the correction the observed data will be nudged towards smooth predictions (of themselves). <sentence_start/>After that iteration there will be initial estimates of distortions and movement that will be used to correct the data prior to the second iteration. <sentence_start/>Hence when re-estimating the hyperparameters for the second iterations the estimates <italic toggle=\"yes\">σ</italic><sup>2</sup> will be smaller and the predictions sharper. <sentence_start/>That will allow us to further refine the estimates of distortions and movement, <italic toggle=\"yes\">etc</italic>. <sentence_start/>The full correction procedure progresses like that for a number of iterations (typically five) and at the end of that the estimates for distortions and movement are “finished”, the Gaussian process fits are improved and the image predictions sharper."
+  },
+  {
+   "section": "back",
+   "text": "The purpose of this paper was not to describe the correction method, but rather how Gaussian processes can be used to model the diffusion signal. <sentence_start/>Hence we wanted to use corrected example data so as not to mix the two things up."
+  },
+  {
+   "section": "back",
+   "text": "D"
+  },
+  {
+   "section": "back",
+   "text": "Appendix"
+  },
+  {
+   "section": "back",
+   "text": "The following is the data related to this article."
+  },
+  {
+   "section": "back",
+   "text": "Video 1"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data to this article can be found online at ."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 1"
+  },
+  {
+   "section": "floating",
+   "text": "Simulated (2D) examples of diffusion weighted measurements. <sentence_start/>The direction along which diffusion weighting was applied is shown by a dashed line and the measured signal along that direction is indicated by the distance of the round marker from the origin. <sentence_start/>The left panel shows the case where diffusivity is three times greater along the <italic toggle=\"yes\">y</italic>-axis than along the <italic toggle=\"yes\">x</italic>-axis. <sentence_start/>The right panel demonstrates the case where diffusivity is equal in all directions. <sentence_start/>The extension of this to 3D is straightforward, though a little tricky to demonstrate in a figure. <sentence_start/>If we extend the figure in the left panel to 3D and assume that the diffusivity along the direction perpendicular to the paper is the same as for the <italic toggle=\"yes\">x</italic>-direction, the points sampled on the resulting surface would form a “red blood cell” seen from the side. <sentence_start/>Correspondingly in the right panel if we assume equal diffusivity in all three directions the resulting surface would be a sphere."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "floating",
+   "text": "The empirically observed covariance <italic toggle=\"yes\">versus</italic> angle between diffusion weighting directions (<italic toggle=\"yes\">b</italic>-vectors) for the HCP <italic toggle=\"yes\">b</italic> = 3000 (left) and <italic toggle=\"yes\">b</italic> = 7000 data sets described in Table 1. <sentence_start/>Each point represents one pair of <italic toggle=\"yes\">b</italic>-vectors and the covariance is calculated across all intra-cerebral voxels. <sentence_start/>The points with zero angle corresponds to the variance (pooled across all voxels) for each direction. <sentence_start/>The solid grey line corresponds to the exponential (Eq. <sentence_start/>(9)) and the dashed black line to the spherical (Eq. <sentence_start/>(10)) covariance function. <sentence_start/>These are “Chi-by-eye” lines and are there to demonstrate their respective general appearance in relation to the empirically observed covariance. <sentence_start/>The same “length scale” parameters were used for both plots (<italic toggle=\"yes\">a</italic> = 1.23 and <italic toggle=\"yes\">a</italic> = 0.5 for the spherical and the exponential functions respectively)."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "floating",
+   "text": "Examples of prior shapes (cut at arbitrary plane) generated using hyperparameters estimated from the HCP b = 1500 data (outer shell) and the HCP b = 5000 (inner shell). <sentence_start/>The solid, dashed and dotted shapes represent three different realisations drawn from the distribution of possible shapes. <sentence_start/>On the left hand side the priors were drawn independently for the two shells and on the right they were drawn from the multi-shell model (Eq. <sentence_start/>(16)). <sentence_start/>Note how in the absence of data, the expected shape is approximately spherical (isotropic diffusion) and that the (relative) variability is greater for the inner shell. <sentence_start/>Note also that for the multi-shell model (right hand size) the shapes covary across the shells."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 4"
+  },
+  {
+   "section": "floating",
+   "text": "Example of predictions from a tensor fit (left) panel and from a Gaussian process fit (right) panel to a crossing fibre voxel in the Centrum Semiovale in the region where the superior longitudinal fasciculus II crosses the corticospinal tract. <sentence_start/>The data is a single shell with a <italic toggle=\"yes\">b</italic>-value of 3000. <sentence_start/>The data is shown as red dots and the model prediction as a grey surface. <sentence_start/>As expected the Gaussian process shows a much better ability to predict the data from such voxels despite being even faster to calculate than the tensor prediction."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 5"
+  },
+  {
+   "section": "floating",
+   "text": "The top row shows the signal (with a <italic toggle=\"yes\">b</italic>-value of 3000) from a cortical grey matter voxel and the bottom row from a white matter voxel with a three-way crossing. <sentence_start/>The left most column shows data and predictions obtained when deriving the hyperparameters from the grey matter voxel, the middle column when deriving them from the white matter voxel and the right most column when deriving them jointly from both voxels. <sentence_start/>It can be seen (lower left sub-figure) that the modelling of the white matter voxel is affected somewhat negatively when using the hyperparameters estimated from the grey matter voxel. <sentence_start/>The arrows point to data points where it can be seen that the distance to the model fit is greater than for the other two columns. <sentence_start/>When using the jointly derived hyperparameters, the (lower right sub-figure) manages to capture the features of the data equally well as when the white matter derived hyperparameters are used (lower middle sub-figure)."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 6"
+  },
+  {
+   "section": "floating",
+   "text": "The figure shows data (red) and Gaussian process ( ) fit (grey) from a b = 7000 shell from the pilot phase of the HCP. <sentence_start/>The six panels correspond to six randomly selected voxels in a transversal slice at the level of the Centrum Semiovale. <sentence_start/>The hyperparameters for the was the same for all voxels (and calculated from a random selection of 1000 intracerebral voxels). <sentence_start/>It can be seen that the has been able to successfully model the signal from the six voxels despite exhibiting vastly different signal profiles. <sentence_start/>It can for example be appreciated from the signal that the top panel in the middle column corresponds to a three-way crossing fibre, the top panel in the right column a two-way crossing fibre and the lower panel in the middle column a single (dominating) fibre. <sentence_start/>The top-left and bottom-right panels correspond to grey matter voxels."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 7"
+  },
+  {
+   "section": "floating",
+   "text": "Example of multi-shell predictions. <sentence_start/>The same voxel as in Fig. 4 but using two other shells with <italic toggle=\"yes\">b</italic>-values of 1500 (blue) and 5000 (red). <sentence_start/>Both panels show the same data rotated to demonstrate it more fully. <sentence_start/>In the multi-shell model the data from one shell will impact on the predictions about the other shell and yet it is clear from this figure that the predictions for the high <italic toggle=\"yes\">b</italic>-value shell has additional detail and is not just a scaled version of the lower <italic toggle=\"yes\">b</italic>-value predictions."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 8"
+  },
+  {
+   "section": "floating",
+   "text": "This figure demonstrates the predictions for a <italic toggle=\"yes\">b</italic> = 5000 voxel when considering only the <italic toggle=\"yes\">b</italic> = 5000 data points (top row) or when using also the <italic toggle=\"yes\">b</italic> = 3000 data (middle row) or the <italic toggle=\"yes\">b</italic> = 1500 data (bottom row). <sentence_start/>The predictions are shown when using only the first 10, 25 and 50 points from a set of 300 as well as when using all 300 points. <sentence_start/>It can be seen (middle row) that the ability to make meaningful predictions from a paucity of data is very much improved when utilising information from the neighbouring shell (<italic toggle=\"yes\">b</italic> = 3000). <sentence_start/>It can also be seen (bottom row) that when the “supporting shell” is further away, its impact is smaller, but still appreciable when the number of data points is 25 or less."
+  },
+  {
+   "section": "floating",
+   "text": "Fig. 9"
+  },
+  {
+   "section": "floating",
+   "text": "Examples of observed and predicted images for the single shell model. <sentence_start/>The left panel shows an image acquired with a <italic toggle=\"yes\">b</italic>-value of 3000 and the diffusion gradient [1 0 0], the middle panel shows the Gaussian process prediction when the observed image was part of the training data (smoothing) and the right panel when the observed image was not (interpolation)."
+  }
+ ]
+}

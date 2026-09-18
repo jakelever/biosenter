@@ -1,0 +1,271 @@
+{
+ "pmid": 26828608,
+ "pmcid": 4734766,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Pentamidine Is Not a Permeant but a Nanomolar Inhibitor of the <italic toggle=\"yes\">Trypanosoma brucei</italic> Aquaglyceroporin-2"
+  },
+  {
+   "section": "abstract",
+   "text": "The chemotherapeutic arsenal against human African trypanosomiasis, sleeping sickness, is limited and can cause severe, often fatal, side effects. <sentence_start/>One of the classic and most widely used drugs is pentamidine, an aromatic diamidine compound introduced in the 1940s. <sentence_start/>Recently, a genome-wide loss-of-function screen and a subsequently generated trypanosome knockout strain revealed a specific aquaglyceroporin, TbAQP2, to be required for high-affinity uptake of pentamidine. <sentence_start/>Yet, the underlying mechanism remained unclear. <sentence_start/>Here, we show that TbAQP2 is not a direct transporter for the di-basic, positively charged pentamidine. <sentence_start/>Even though one of the two common cation filters of aquaglyceroporins, i.e. the aromatic/arginine selectivity filter, is unconventional in TbAQP2, positively charged compounds are still excluded from passing the channel. <sentence_start/>We found, instead, that the unique selectivity filter layout renders pentamidine a nanomolar inhibitor of TbAQP2 glycerol permeability. <sentence_start/>Full, non-covalent inhibition of an aqua(glycero)porin in the nanomolar range has not been achieved before. <sentence_start/>The remarkable affinity derives from an electrostatic interaction with Asp265 and shielding from water as shown by structure-function evaluation and point mutation of Asp265. <sentence_start/>Exchange of the preceding Leu264 to arginine abolished pentamidine-binding and parasites expressing this mutant were pentamidine-resistant. <sentence_start/>Our results indicate that TbAQP2 is a high-affinity receptor for pentamidine. <sentence_start/>Taken together with localization of TbAQP2 in the flagellar pocket of bloodstream trypanosomes, we propose that pentamidine uptake is by endocytosis."
+  },
+  {
+   "section": "abstract",
+   "text": "Author Summary"
+  },
+  {
+   "section": "abstract",
+   "text": "Pentamidine is usable only in the early, non-cerebral stage of human African trypanosomiasis. <sentence_start/>An aquaglyceroporin, TbAQP2, is required for high-affinity pentamidine uptake. <sentence_start/>This study established the mechanism. <sentence_start/>Pentamidine does not pass TbAQP2 but blocks the unique selectivity filter via a single charged amidine and displacement of water from the channel, rendering it the first non-covalent, nanomolar aquaglyceroporin inhibitor. <sentence_start/>TbAQP2 does not act as a pentamidine transporter but a high-affinity receptor indicating drug uptake by endocytosis. <sentence_start/>The novel binding mode and proposed uptake mechanism open up possibilities for designing needed anti-trypanosomal small molecule drugs with regard to penetrating the blood-brain barrier for treatment of the severe, second disease stage."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "A specific aquaglyceroporin, TbAQP2, is required for high-affinity uptake of pentamidine into human African trypanosomiasis parasites, <italic toggle=\"yes\">Trypanosoma brucei</italic> [<citation rid=\"ppat.1005436.ref001\" ref-type=\"bibr\" doi=\"10.1016/j.molbiopara.2008.05.006\" pmid=\"18588918\" pmcid=\"PMC3828046\" count=\"1\">1</citation>-<citation rid=\"ppat.1005436.ref003\" ref-type=\"bibr\" doi=\"10.1093/jac/dkt442\" pmid=\"24235095\" pmcid=\"PMC3922157\" count=\"1\">3</citation>]. <sentence_start/>Additionally, a trypanosome adenosine transporter mediates pentamidine transport, albeit at lower efficiency [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>]. <sentence_start/>Aquaglyceroporins represent a subfamily of the aquaporin water channel proteins and conduct small, uncharged solutes, mainly glycerol and urea [<citation rid=\"ppat.1005436.ref004\" ref-type=\"bibr\" doi=\"10.1007/s00018-007-7163-2\" pmid=\"17571212\" pmcid=\"PMC11138416\" count=\"1\">4</citation>]. <sentence_start/>However, at a molecular weight of 340 Da and with two strongly basic, positively charged amidine moieties (pK<sub>a</sub> 12.1), pentamidine is not a physiological substrate analog and differs from previous examples of drug uptake involving aquaglyceroporins [<citation rid=\"ppat.1005436.ref005\" ref-type=\"bibr\" doi=\"10.1007/978-1-4419-6315-4_5\" pmid=\"20666224\" count=\"1\">5</citation>,<citation rid=\"ppat.1005436.ref006\" ref-type=\"bibr\" doi=\"10.1016/j.bbagen.2013.10.014\" pmid=\"24140393\" count=\"1\">6</citation>]. <sentence_start/>In the treatment of acute promyelocytic leukemia, the human aquaglyceroporin AQP9 [<citation rid=\"ppat.1005436.ref007\" ref-type=\"bibr\" doi=\"10.1074/jbc.273.38.24737\" pmid=\"9733774\" count=\"1\">7</citation>] serves as an entry site for the drug arsenic trioxide, As<sub>2</sub>O<sub>3</sub> [<citation rid=\"ppat.1005436.ref008\" ref-type=\"bibr\" doi=\"10.1073/pnas.092131899\" pmid=\"11972053\" pmcid=\"PMC122900\" count=\"1\">8</citation>], which dissolves into weak arsenous acid, As(OH)<sub>3</sub> (126 Da), resembling the glycerol molecule (92 Da). <sentence_start/>The analogous antimonous acid, Sb(OH)<sub>3</sub> (173 Da), derived from the antimonial drug pentostam, is the first-line treatment of leishmaniasis and enters <italic toggle=\"yes\">Leishmania major</italic> parasites via LmAQP1 [<citation rid=\"ppat.1005436.ref009\" ref-type=\"bibr\" doi=\"10.1074/jbc.M403959200\" pmid=\"15138256\" count=\"1\">9</citation>]. <sentence_start/>The antineoplastic agent hydroxyurea (N-hydroxylated urea, 76 Da) is a permeant of PfAQP, i.e. the single aquaglyceroporin of the malaria parasite <italic toggle=\"yes\">Plasmodium falciparum</italic>, and of TgAQP from the toxoplasmosis parasite <italic toggle=\"yes\">Toxoplasma gondii</italic> [<citation rid=\"ppat.1005436.ref010\" ref-type=\"bibr\" doi=\"10.1016/S0014-5793(03)01313-9\" pmid=\"14675763\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Trypanosomes express three aquaglyceroporins, TbAQP1-3, with permeability, among others, for glycerol, urea [<citation rid=\"ppat.1005436.ref011\" ref-type=\"bibr\" doi=\"10.1074/jbc.M404518200\" pmid=\"15294911\" count=\"1\">11</citation>], arsenous and antimonous acid [<citation rid=\"ppat.1005436.ref012\" ref-type=\"bibr\" doi=\"10.1159/000354490\" pmid=\"24217645\" count=\"1\">12</citation>]. <sentence_start/>The physiological roles of TbAQP2-3 are unclear because the phenotype of knockout parasites is inconspicuous [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>]. <sentence_start/>The physicochemical properties of pentamidine seem to be generally incompatible with a direct passage via AQPs, because two conserved filter sites select against positive charge and too large size. <sentence_start/>The selectivity filter or aromatic/arginine (ar/R) constriction is typically composed of an arginine residue in an aromatic environment (Fig 1A, right) and excludes solutes with diameters larger than 3-4 Å as well as protons [<citation rid=\"ppat.1005436.ref013\" ref-type=\"bibr\" doi=\"10.1073/pnas.0507225103\" pmid=\"16407156\" pmcid=\"PMC1326162\" count=\"1\">13</citation>-<citation rid=\"ppat.1005436.ref015\" ref-type=\"bibr\" doi=\"10.1126/science.1234306\" pmid=\"23766328\" pmcid=\"PMC4066176\" count=\"1\">15</citation>]. <sentence_start/>The central Asn-Pro-Ala (NPA) filter is formed by the NPA-capped ends of two α-helices that emanate a positive electrostatic field and repel cations, such as sodium, potassium, and ammonium, NH<sub>4</sub> <sup>+</sup> [<citation rid=\"ppat.1005436.ref014\" ref-type=\"bibr\" doi=\"10.1038/emboj.2009.182\" pmid=\"19574955\" pmcid=\"PMC2726698\" count=\"1\">14</citation>,<citation rid=\"ppat.1005436.ref016\" ref-type=\"bibr\" doi=\"10.1111/j.1742-4658.2010.07993.x\" pmid=\"21205205\" count=\"1\">16</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "Cation exclusion by TbAQP2."
+  },
+  {
+   "section": "article",
+   "text": "(A) Shown is the layout of the aromatic/arginine selectivity filter of TbAQP2 (left) and TbAQP3 (right) as seen from the top. <sentence_start/>A bound glycerol molecule is shown as spheres. <sentence_start/>The models are based on the <italic toggle=\"yes\">E</italic>. <italic toggle=\"yes\">coli</italic> GlpF structure (PDB# 1FX8). <sentence_start/>(B) Western blot using membrane protein fractions isolated from yeast expressing TbAQP2 and TbAQP3 that were N-terminally tagged with a hemagglutinin epitope. <sentence_start/>(C) Phenotypic growth assay of 31019bΔmep1-3 yeast lacking endogenous ammonium transporters on media with NH<sub>4</sub> <sup>+</sup> as the sole nitrogen source. <sentence_start/>Growth at pH 6.5 indicates mainly background transmembrane diffusion of uncharged NH<sub>3</sub>; growth at pH 5.5 is due to transport of charged NH<sub>4</sub> <sup>+</sup>. <sentence_start/>LeAMT1;1 is a tomato ammonium transporter, cells without transporter expression (-) served as negative controls. <sentence_start/>With proline as a nitrogen source growth is even for all cells. <sentence_start/>(D) Complementary phenotypic growth assay using yeast-toxic methylammonium instead of ammonium yielding opposite effects. <sentence_start/>(E) Expression of TbAQP2 does not increase the pentamidine-susceptibility of yeast grown on media with glycerol (YPG) as a non-fermentable carbon source. <sentence_start/>(F) Biophysical light scattering assays with TbAQP2-expressing yeast protoplasts in 300 mM hypertonic solute gradients. <sentence_start/>The rapid first phase of the traces indicates water efflux, followed by a slower solute influx phase. <sentence_start/>Red traces indicate permeability for physiological substrates glycerol (left) and urea (right). <sentence_start/>Traces of control cells without TbAQP2 are black. <sentence_start/>Structures and traces of 3-amino-propane-1,2-diol (left) and formamidine (right) are labeled dark blue (pH 7.2) or light blue (pH 9.2). <sentence_start/>The insets show deduced permeability coefficients (P<italic toggle=\"yes\"><sub>sol</sub></italic>) with S.E.M. from three independent experiments."
+  },
+  {
+   "section": "article",
+   "text": "TbAQP2 contains a conserved ‘NPA/NPA’ cation filter with the crucial asparagines [<citation rid=\"ppat.1005436.ref016\" ref-type=\"bibr\" doi=\"10.1111/j.1742-4658.2010.07993.x\" pmid=\"21205205\" count=\"1\">16</citation>] intact and minor amino acid exchanges in the second and third position (NSA/NPS) [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>,<citation rid=\"ppat.1005436.ref011\" ref-type=\"bibr\" doi=\"10.1074/jbc.M404518200\" pmid=\"15294911\" count=\"1\">11</citation>]. <sentence_start/>In contrast, the ar/R constriction is virtually absent. <sentence_start/>Here, arginine is replaced by a neutral Leu264 and the common aromatic positions carry aliphatic residues (Ala88, Ile110, Val249, Leu258; Fig 1A) [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>,<citation rid=\"ppat.1005436.ref011\" ref-type=\"bibr\" doi=\"10.1074/jbc.M404518200\" pmid=\"15294911\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we asked whether pentamidine is a direct permeant of TbAQP2 and analyzed its interaction with the protein. <sentence_start/>We found that TbAQP2 is impermeable to even small cations, such as NH<sub>4</sub> <sup>+</sup> or formamidine, and consistent with this, failed to increase the susceptibility of yeast cells to pentamidine. <sentence_start/>Strikingly, pentamidine bound avidly to the selectivity filter and fully inhibited TbAQP2 with an IC<sub>50</sub> of 130 nM. <sentence_start/>This affinity is unprecedented in the on-going search for AQP inhibitors [<citation rid=\"ppat.1005436.ref017\" ref-type=\"bibr\" doi=\"10.1016/j.pharmthera.2015.08.002\" pmid=\"26277280\" count=\"1\">17</citation>] and is derived from a unique interaction between one of the amidine moieties of pentamidine and Asp265 in conjunction with the displacement of water molecules from the channel interior. <sentence_start/>A single TbAQP2 point mutation, Leu264Arg, reversed pentamidine binding and rendered trypanosomes resistant. <sentence_start/>The localization of TbAQP2 in the flagellar pocket [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>], characterized by high rates of membrane turnover, leads us to propose that pentamidine uptake occurs by endocytosis with TbAQP2 acting not as a transporter but a high-affinity pentamidine receptor. <sentence_start/>Such a mechanism could be exploited as a novel route to shuttle small molecule drugs into trypanosomes in a similar fashion as discussed for macromolecular transferrin protein-conjugated compounds in connection with the trypanosomal transferrin receptor [<citation rid=\"ppat.1005436.ref018\" ref-type=\"bibr\" doi=\"10.1038/35166\" pmid=\"9461219\" count=\"1\">18</citation>,<citation rid=\"ppat.1005436.ref019\" ref-type=\"bibr\" doi=\"10.1051/parasite/2002094375\" pmid=\"12514955\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "TbAQP2 excludes organic cations"
+  },
+  {
+   "section": "article",
+   "text": "To approach the question whether TbAQP2 is directly permeable for pentamidine, we set up a yeast expression system and initially analyzed permeability for small neutral and positively charged compounds. <sentence_start/>TbAQP3 carrying a conserved ar/R constriction (Fig 1A) served as a control. <sentence_start/>TbAQP2 and TbAQP3 were well expressed (Fig 1B) and functional as shown below."
+  },
+  {
+   "section": "article",
+   "text": "First, we carried out phenotypic growth assays based on a yeast strain that lacks all three endogenous ammonium transporters (Δ<italic toggle=\"yes\">mep1-3</italic>) [<citation rid=\"ppat.1005436.ref013\" ref-type=\"bibr\" doi=\"10.1073/pnas.0507225103\" pmid=\"16407156\" pmcid=\"PMC1326162\" count=\"1\">13</citation>,<citation rid=\"ppat.1005436.ref020\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2958.2006.05325.x\" pmid=\"16889642\" count=\"1\">20</citation>]. <sentence_start/>This strain does not grow on acidic media with ammonium as the sole nitrogen source (Fig 1C, pH 5.5, second lane). <sentence_start/>The growth phenotype is pH-dependent due to the chemical equilibrium of NH<sub>3</sub>/NH<sub>4</sub> <sup>+</sup> (pK<sub>a</sub> of 9.2) and growth is permitted towards more alkaline pH by increasing transmembrane diffusion of neutral NH<sub>3</sub>. <sentence_start/>Permeability of transport proteins for charged NH<sub>4</sub> <sup>+</sup> is indicated by growth at acidic pH, as seen with the tomato ammonium transporter 1;1 (LeAMT1;1) as a positive control (Fig 1C, top lane). <sentence_start/>In this assay, neither expression of TbAQP2 nor TbAQP3 enhanced the NH<sub>4</sub> <sup>+</sup> uptake over that of cells without an ammonium transporter (Fig 1C). <sentence_start/>A complementary outcome of the transport assay can be obtained by using yeast-cytotoxic methylammonium, H<sub>3</sub>C-NH<sub>3</sub> <sup>+</sup> [<citation rid=\"ppat.1005436.ref013\" ref-type=\"bibr\" doi=\"10.1073/pnas.0507225103\" pmid=\"16407156\" pmcid=\"PMC1326162\" count=\"1\">13</citation>]. <sentence_start/>Here, yeast growth will cease when the neutral methylamine form, H<sub>3</sub>C-NH<sub>2</sub>, diffuses across the cell membrane (Fig 1D, pH 6.5) or when the protonated, charged form is transported (Fig 1D, pH 5.5, top lane). <sentence_start/>This assay is particularly sensitive due to exposure of the cells to the toxic compound for several days [<citation rid=\"ppat.1005436.ref013\" ref-type=\"bibr\" doi=\"10.1073/pnas.0507225103\" pmid=\"16407156\" pmcid=\"PMC1326162\" count=\"1\">13</citation>]. <sentence_start/>Again, TbAQP2 and TbAQP3 appeared impermeable for the positively charged compound form and survived the treatment (Fig 1D). <sentence_start/>Pentamidine itself is cytotoxic to yeast when the cells are grown on a non-fermentable carbon source, such as glycerol [<citation rid=\"ppat.1005436.ref021\" ref-type=\"bibr\" doi=\"10.1128/AAC.38.5.1123\" pmid=\"8067749\" pmcid=\"PMC188161\" count=\"1\">21</citation>]. <sentence_start/>Again, expression of TbAQP2 did not increase the susceptibility in comparison to non-expressing and TbAQP3 expressing cells (Fig 1E)."
+  },
+  {
+   "section": "article",
+   "text": "Next, we employed a biophysical light-scattering assay for TbAQP2 permeability [<citation rid=\"ppat.1005436.ref022\" ref-type=\"bibr\" doi=\"10.1074/jbc.M110.184457\" pmid=\"20947511\" pmcid=\"PMC3000990\" count=\"1\">22</citation>]. <sentence_start/>We expressed TbAQP2 in a yeast strain that lacks the endogenous aquaglyceroporin (Δ<italic toggle=\"yes\">fps1</italic>), prepared protoplasts, and challenged them by a hypertonic, test solute-containing buffer. <sentence_start/>In an initial rapid phase, the protoplasts will release water following the outward osmotic gradient and shrink as indicated by an increase in light scattering. <sentence_start/>In the second slower phase, volume will be regained if the test solute can pass TbAQP2 and enter the protoplasts. <sentence_start/>Pentamidine is not testable in this setup because its low solubility prohibits the establishment of a sufficiently concentrated gradient. <sentence_start/>We used instead two pairs of test solutes, glycerol/3-aminopropane-1,2-diol and urea/formamidine, of which glycerol and urea are established permeants of TbAQP2 [<citation rid=\"ppat.1005436.ref011\" ref-type=\"bibr\" doi=\"10.1074/jbc.M404518200\" pmid=\"15294911\" count=\"1\">11</citation>], whereas the respective partners are bioisosteric nitrogen-derivatives, which are positively charged at neutral pH (Fig 1F). <sentence_start/>3-Aminopropane-1,2-diol has a pK<sub>a</sub> of 9.2; hence, at a buffer pH of 9.2, which yeast will tolerate for the assay time, 50% of the compound will be deprotonated and neutral. <sentence_start/>Formamidine is too strong a base (pK<sub>a</sub> 13) to be amenable to deprotonation in aqueous solution. <sentence_start/>In the assay, TbAQP2 showed permeability for glycerol and urea (Fig 1F, red), whereas the positively charged compounds did not pass (Fig 1F, dark blue) as seen by traces equal to control protoplasts without TbAQP2 (Fig 1F, black). <sentence_start/>The lack of permeability for the charged compounds is not due to molecule size, because formamidine is even smaller than urea. <sentence_start/>Indeed, 3-aminopropane-1,2-diol, when partially neutralized by a pH shift to 9.2, passed TbAQP2 at two thirds the rate of glycerol (Fig 1F, light blue). <sentence_start/>We conclude that organic cations fail to traverse the TbAQP2 channel."
+  },
+  {
+   "section": "article",
+   "text": "Pentamidine is a nanomolar inhibitor of TbAQP2"
+  },
+  {
+   "section": "article",
+   "text": "Formally, formamidine represents one of the amidine moieties of pentamidine. <sentence_start/>We reasoned that if formamidine (44 Da) is excluded from passing TbAQP2, then the much larger pentamidine would be excluded as well. <sentence_start/>The lack of an increase in susceptibility of TbAQP2 expressing yeast to pentamidine further argues against pentamidine transport via TbAQP2. <sentence_start/>Consequently, we conducted another set of light scattering assays to determine how pentamidine interacts with TbAQP2."
+  },
+  {
+   "section": "article",
+   "text": "We switched from hypertonic assay conditions to an isotonic glycerol replacement of 300 mM saccharose from the buffer to omit osmotic water permeability effects and to obtain monophasic solute-uptake traces, which allow for a more accurate quantification especially at low rates [<citation rid=\"ppat.1005436.ref023\" ref-type=\"bibr\" doi=\"10.1016/j.bbamem.2012.01.025\" pmid=\"22326891\" count=\"1\">23</citation>]. <sentence_start/>The red traces in Fig 2A show unhindered glycerol influx via TbAQP2 and TbAQP3. <sentence_start/>Addition of up to 500 μM pentamidine 10 min prior to the assay left the glycerol permeability of TbAQP3 unaffected, whereas TbAQP2 was fully blocked already at 50 μM (Fig 2A). <sentence_start/>The inhibition of TbAQP2 by pentamidine was dose-dependent and substantial even in the nanomolar concentration range. <sentence_start/>We translated the relative glycerol permeability rates into a dose-response curve yielding an IC<sub>50</sub> of 130 nM (Fig 2B). <sentence_start/>Pentamidine was effective immediately after addition to the protoplasts indicating that the binding site is readily accessible from the extracellular space."
+  },
+  {
+   "section": "article",
+   "text": "Fig 2"
+  },
+  {
+   "section": "article",
+   "text": "Inhibition of TbAQP2 glycerol permeability by pentamidine and derivatives."
+  },
+  {
+   "section": "article",
+   "text": "(A) Shown are example traces of protoplast light scattering in 300 mM isotonic glycerol gradients in the presence of pentamidine. <sentence_start/>Red traces indicate uninhibited glycerol influx via TbAQP2 (left) and TbAQP3 (right), effects of pentamidine concentrations from 50 nM to 50 μM are colored light blue, and of 500 μM pentamidine in dark blue. <sentence_start/>(B) Structure-function evaluation of TbAQP2 inhibition by pentamidine. <sentence_start/>The chemical structures of the used compounds are shown on the left and respective dose-response curves on the right. <sentence_start/>(C) Effect of pH titration of TbAQP2 Asp265 and replacement by mutation to alanine on pentamidine inhibition. <sentence_start/>The dashed lines show the pentamidine inhibition of wild-type TbAQP2 at pH 7.2 (data taken from Fig 2B). <sentence_start/>The left panel shows dose-response curves of pentamidine pH 3.5 (closed symbols; IC<sub>50</sub> 450 nM), and pH 2.5 (open symbols; IC<sub>50</sub> 1.1 μM). <sentence_start/>The effect of the Asp265Ala point mutation (expression confirming Western blot in the inset) on the inhibition by pentamidine is depicted on the right. <sentence_start/>Data taken at pH 7.2 (IC<sub>50</sub> 4.5 μM) are indicated by closed symbols, those at pH 2.5 (IC<sub>50</sub> 5.8 μM) by open symbols. <sentence_start/>Each data point is an average of 5-9 light scattering traces each from at least two independent experiments."
+  },
+  {
+   "section": "article",
+   "text": "Pentamidine binds to Asp265 of TbAQP2 and displaces water from the channel"
+  },
+  {
+   "section": "article",
+   "text": "Since high-affinity inhibition of other AQPs is only achieved by covalent cysteine-modification by metalorganic compounds, e.g. mercurials or gold-containing auphen (IC<sub>50</sub> 0.8 μM) [<citation rid=\"ppat.1005436.ref017\" ref-type=\"bibr\" doi=\"10.1016/j.pharmthera.2015.08.002\" pmid=\"26277280\" count=\"1\">17</citation>,<citation rid=\"ppat.1005436.ref024\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0037435\" pmcid=\"PMC3356263\" pmid=\"22624030\" count=\"1\">24</citation>], we set out to investigate the binding mode of pentamidine by determining structure-function relationships and by point mutation of TbAQP2."
+  },
+  {
+   "section": "article",
+   "text": "We synthesized asymmetric variants of pentamidine by replacing one of the positively charged amidine moieties by nitrile, and by shortening the molecule via 4-pentoxy-, 4-propoxy- to 4-methoxy-benzamidine (Fig 2B). <sentence_start/>The nitrile compound was as effective as pentamidine in blocking TbAQP2 glycerol permeability (IC<sub>50</sub> 180 nM) showing that one positive site is sufficient for full inhibition, most likely by electrostatical interaction with an acidic residue of TbAQP2. <sentence_start/>Removal of one benzamidine group (4-pentoxy-benzamidine) led to a shift in IC<sub>50</sub> to 87 μM (Fig 2B). <sentence_start/>Further shortening of the molecule to 4-propoxy-benzamidine resulted in an IC<sub>50</sub> of 2.8 mM and a maximal inhibition of 60%. <sentence_start/>The methoxy compound was incapable of inhibiting TbAQP2. <sentence_start/>Since electrostatic interactions exhibit highest affinity when efficiently shielded from water, our structure-function evaluation suggests that the amidine interaction site is located 7-8 Å, i.e. the length of the pentoxy chain, away from the solvent into the channel. <sentence_start/>This distance coincides with the position of the ar/R selectivity filter region."
+  },
+  {
+   "section": "article",
+   "text": "TbAQP2 lacks the conserved arginine in the ar/R filter possibly providing access of the acidic Asp265 to the channel surface (Fig 1A). <sentence_start/>If the Asp265 sidechain carboxylate (pK<sub>a</sub> 3.7 in water) interacts with pentamidine, the affinity should be titratable by pH. <sentence_start/>Hence, we determined inhibition of TbAQP2 by pentamidine at pH 3.5 and 2.5 and observed 3 times (450 nM) and 8 times (1.1 μM) reduced affinity, respectively (Fig 2C, left). <sentence_start/>To test whether the pH titration is specific to Asp265, we changed the residue by point mutation to alanine, which equally led to a shift in IC<sub>50</sub> to 4.5 μM (Fig 2C, right). <sentence_start/>Further, this mutant was pH-independent with regard to pentamidine binding (IC<sub>50</sub> 5.8 μM at pH 2.5; Fig 2C, right) confirming the identity of the interaction site."
+  },
+  {
+   "section": "article",
+   "text": "Together, the structure-function evaluation and the mutation data indicate that the exceptional affinity of pentamidine to TbAQP2 is derived from an electrostatic interaction of one amidine moiety with Asp265 and shielding from the solvent by displacement of water molecules from the channel by the pentoxy chain."
+  },
+  {
+   "section": "article",
+   "text": "Mutation of Leu264 to arginine prevents pentamidine from binding to TbAQP2 and renders parasites resistant"
+  },
+  {
+   "section": "article",
+   "text": "A selectivity filter arginine followed by an aspartate at the next sequence position is a signature motif of aquaglyceroporins [<citation rid=\"ppat.1005436.ref025\" ref-type=\"bibr\" doi=\"10.1002/pro.5560070623\" pmid=\"9655351\" pmcid=\"PMC2144022\" count=\"1\">25</citation>]. <sentence_start/>At about 4.5 Å distance in the protein, both charged residues are positioned for an electrostatic interaction, see for instance TbAQP3 Arg256/Asp257 in Fig 1A [<citation rid=\"ppat.1005436.ref026\" ref-type=\"bibr\" doi=\"10.1126/science.290.5491.481\" pmid=\"11039922\" count=\"1\">26</citation>]. <sentence_start/>Besides TbAQP2, there are other examples of ar/R selectivity filters in which the arginine is replaced by an aliphatic residue, e.g. the <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">gondii</italic> TgAQP or the AQP subfamily of plant tonoplast instrinsic proteins TIP2;1 [<citation rid=\"ppat.1005436.ref010\" ref-type=\"bibr\" doi=\"10.1016/S0014-5793(03)01313-9\" pmid=\"14675763\" count=\"1\">10</citation>]. <sentence_start/>However, in all such cases, replacement of the arginine goes together with an exchange of the neighboring aspartate for a neutral residue [<citation rid=\"ppat.1005436.ref027\" ref-type=\"bibr\" doi=\"10.1093/nar/gkr914\" pmid=\"22080560\" pmcid=\"PMC3245135\" count=\"1\">27</citation>]. <sentence_start/>TbAQP2 is, thus, unique in having lost the arginine but having kept Asp265. <sentence_start/>We concluded that a point mutation of TbAQP2 Leu264 to arginine should re-establish the internal salt bridge with Asp265 and prevent pentamidine from binding."
+  },
+  {
+   "section": "article",
+   "text": "Expression in yeast of TbAQP2 Leu264Arg yielded a functional water and glycerol channel with about half the permeability of the wild-type protein (Fig 3A). <sentence_start/>Importantly, pentamidine failed to inhibit TbAQP2 Leu264Arg (Fig 3A) and this further supported the binding mode suggested above. <sentence_start/>We next investigated the findings from the heterologous yeast expression system in <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> parasites by expressing GFP-tagged TbAQP2 Leu264Arg (<sup>GFP</sup>AQP2<sup>L264R</sup>) or wild-type TbAQP2 (<sup>GFP</sup>AQP2<sup>WT</sup>) in a <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei aqp2</italic>-null background (Fig 3B). <sentence_start/>Despite the mutation, TbAQP2 Leu264Arg localized to the flagellar pocket as reported previously for wild-type TbAQP2 [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>] (Fig 3C). <sentence_start/>While <italic toggle=\"yes\">aqp2</italic>-null <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> expressing wild-type TbAQP2 were highly sensitive to pentamidine (EC<sub>50</sub> = 0.65 nM), <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> expressing mutant TbAQP2 remained resistant to pentamidine (EC<sub>50</sub> = 103 nM; Fig 3D). <sentence_start/>Thus, TbAQP2 Leu264Arg fails to bind pentamidine and fails to sensitize trypanosomes to pentamidine."
+  },
+  {
+   "section": "article",
+   "text": "Fig 3"
+  },
+  {
+   "section": "article",
+   "text": "Loss of pentamidine inhibition and gain of resistant parasites by a TbAQP Leu264Arg mutation."
+  },
+  {
+   "section": "article",
+   "text": "(A) Light scattering assay with yeast protoplasts expressing TbAQP2 Leu264Arg in a 300 mM hypertonic glycerol gradient. <sentence_start/>Data taken in the absence of pentamidine are labeled red, those taken in the presence of 50 μM pentamidine are blue, and protoplasts without an AQP are black. <sentence_start/>The error bars denote S.E.M. from three independent experiments. <sentence_start/>(B) Western blot analysis showing inducible expression of GFP-TbAQP2 Leu264Arg (<sup>GFP</sup>AQP2<sup>L264R</sup>). <sentence_start/>(C) Immunofluorescence microscopy analysis of <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> expressing <sup>GFP</sup>AQP2<sup>L264R</sup>. Scale-bar, 5 μm. <sentence_start/>(<italic toggle=\"yes\">D</italic>) Dose-response curve for pentamidine in <italic toggle=\"yes\">aqp2</italic>-null stains re-expressing wild-type GFP-TbAQP2 or <sup>GFP</sup>AQP2<sup>L264R</sup>. EC<sub>50</sub> values are indicated. <sentence_start/>Error bars indicate SD from two independent clones assessed in triplicate assays."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Maintenance of cation homeostasis is crucial for cell functionality and viability [<citation rid=\"ppat.1005436.ref014\" ref-type=\"bibr\" doi=\"10.1038/emboj.2009.182\" pmid=\"19574955\" pmcid=\"PMC2726698\" count=\"1\">14</citation>]. <sentence_start/>Accordingly, cation channels and transporters are highly regulated and/or selective, whereas non-cation conducting membrane proteins contain exclusion filters. <sentence_start/>The typical AQP channel layout exhibits two cation filters, which select against both types of cation conductance: a) hydrogen-bonded proton-wires are disrupted in the ar/R constriction preventing the Grotthuss mechanism, b) diffusion of non-proton cations is blocked by the electrostatic field generated in the NPA region [<citation rid=\"ppat.1005436.ref013\" ref-type=\"bibr\" doi=\"10.1073/pnas.0507225103\" pmid=\"16407156\" pmcid=\"PMC1326162\" count=\"1\">13</citation>-<citation rid=\"ppat.1005436.ref016\" ref-type=\"bibr\" doi=\"10.1111/j.1742-4658.2010.07993.x\" pmid=\"21205205\" count=\"1\">16</citation>]. <sentence_start/>Further, the amphipathic channel lining of the AQPs provide coordinating carbonyl oxygens only on one side, and therefore cannot sufficiently compensate for the dehydration penalty derived from the removal of the water shell from the ion [<citation rid=\"ppat.1005436.ref028\" ref-type=\"bibr\" doi=\"10.3389/fphar.2014.00199\" pmid=\"25225485\" pmcid=\"PMC4150397\" count=\"1\">28</citation>]. <sentence_start/>Finally, the AQP protein structure is rigid and does not allow for conformational changes, because even small bends would obstruct the long (20 Å) and narrow (3-4 Å) water and solute channel [<citation rid=\"ppat.1005436.ref026\" ref-type=\"bibr\" doi=\"10.1126/science.290.5491.481\" pmid=\"11039922\" count=\"1\">26</citation>], forbidding transporter-type cation transduction following the alternate access mechanism [<citation rid=\"ppat.1005436.ref029\" ref-type=\"bibr\" doi=\"10.3389/fphar.2014.00207\" pmid=\"25309439\" pmcid=\"PMC4162363\" count=\"1\">29</citation>]. <sentence_start/>As a consequence, naturally occurring AQPs with cation conductance along the water/glycerol channel have not been identified [<citation rid=\"ppat.1005436.ref028\" ref-type=\"bibr\" doi=\"10.3389/fphar.2014.00199\" pmid=\"25225485\" pmcid=\"PMC4150397\" count=\"1\">28</citation>]; there is evidence, though, for cation permeability via the central pore of the human AQP1 tetramer [<citation rid=\"ppat.1005436.ref030\" ref-type=\"bibr\" doi=\"10.1016/j.mam.2012.02.001\" pmid=\"22342689\" pmcid=\"PMC3419283\" count=\"1\">30</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "TbAQP2 lacks an ar/R filter, which could potentially allow for proton leakage. <sentence_start/>The NPA region, however, is intact and perfectly repels cations, such as NH<sub>4</sub> <sup>+</sup> and charged formamidine, as shown in this study. <sentence_start/>Thus, pentamidine containing two formamidine substructures cannot pass TbAQP2. <sentence_start/>Instead, pentamidine acts as a high-affinity binder and inhibitor of TbAQP2 with one amidine moiety interacting with Asp265 by taking the place of the lacking arginine sidechain. <sentence_start/>The electrostatic interaction is increased by several orders of magnitude due to the exclusion of water from the channel (see Fig 4A for a proposed binding mode). <sentence_start/>Inhibition of TbAQP2 water and solute permeability is not the mode of pentamidine action because parasites lacking the aquaglyceroporin thrive well [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig 4"
+  },
+  {
+   "section": "article",
+   "text": "Model of the pentamidine binding mode to TbAQP2 and proposed uptake by endocytosis in the flagellar pocket."
+  },
+  {
+   "section": "article",
+   "text": "(A) Shown are the crystal structure of the prototypical aquaglyceroporin GlpF and a model of TbAQP2. <sentence_start/>GlpF Arg206 and TbAQP2 Leu264 mark the position of the ar/R selectivity filter. <sentence_start/>In TbAQP2, the Asp265 sidechain carboxylate binds to an amidine moiety of pentamidine (light blue), whereas in GlpF the space is occupied by the guanidine sidechain of Arg206. <sentence_start/>The location of the ‘NPA/NPA’ region (white bar) and sequence deviations in TbAQP2 are indicated. <sentence_start/>(B) Proposed uptake mechanism of pentamidine via high-affinity binding to TbAQP2, endocytosis of the complex, and release of pentamidine in the acidic lysosome due to pH shift or TbAQP2 degradation."
+  },
+  {
+   "section": "article",
+   "text": "The obtained high affinity of 130 nM despite a steep glycerol gradient of 300 mM further argues against pentamidine diffusion through TbAQP2, because even high-affinity, alternate access-type transporters typically exhibit weaker, micromolar binding to enable release of the cargo after traversing the membrane [<citation rid=\"ppat.1005436.ref029\" ref-type=\"bibr\" doi=\"10.3389/fphar.2014.00207\" pmid=\"25309439\" pmcid=\"PMC4162363\" count=\"1\">29</citation>]. <sentence_start/>AQP channel-like transporters, such as the malaria parasite’s lactate transporter, PfFNT, or the bacterial formate transporter, FocA, show K<sub>m</sub> values in the high millimolar range, i.e. 87 mM and 96 mM, respectively [<citation rid=\"ppat.1005436.ref031\" ref-type=\"bibr\" doi=\"10.1038/ncomms7284\" pmid=\"25669138\" count=\"1\">31</citation>,<citation rid=\"ppat.1005436.ref032\" ref-type=\"bibr\" doi=\"10.1073/pnas.1204201109\" pmid=\"22847446\" pmcid=\"PMC3421167\" count=\"1\">32</citation>]. <sentence_start/>In fact, nanomolar binding constants are typically associated with high-affinity receptors."
+  },
+  {
+   "section": "article",
+   "text": "If TbAQP2 acts as a receptor rather than a transporter for pentamidine, how could drug uptake be achieved? TbAQP2 is specifically localized to the flagellar pocket of bloodstream <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> parasites, which is characterized by high membrane turnover activity [<citation rid=\"ppat.1005436.ref033\" ref-type=\"bibr\" doi=\"10.1038/nrmicro2221\" pmid=\"19806154\" count=\"1\">33</citation>]. <sentence_start/>This activity is indispensable for the parasite and required, among others, for immune evasion and nutrient uptake. <sentence_start/>From our data we conclude that a likely scenario for TbAQP2-dependent, high-affinity uptake of pentamidine into trypanosomes is via continued, non-selective endocytosis of pentamidine tethered to TbAQP2 as a receptor (Fig 4B). <sentence_start/>The hypothesis of pentamidine binding to TbAQP2 and subsequent uptake by endocytosis is strikingly supported by observations from the original biochemical characterization of pentamidine uptake [<citation rid=\"ppat.1005436.ref034\" ref-type=\"bibr\" pmid=\"1267824\" doi=\"10.1016/0006-2952(76)90213-6\" count=\"1\">34</citation>]. <sentence_start/>Key findings were: a) a single amidine moiety suffices to initiate high-affinity transport, which is in agreement with the binding mode of pentamidine to TbAQP2 (Fig 4A), b) transport is mainly unidirectional and highly concentrative, and c) the process requires metabolic energy; the latter two points are fully compatible with endocytosis. <sentence_start/>Moreover, it is intriguing that in the procyclic, insect form of the parasites TbAQP2 is distributed over the entire surface of the plasma membrane [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>] and these cells were found to transport slower and accumulate less pentamidine [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>,<citation rid=\"ppat.1005436.ref035\" ref-type=\"bibr\" doi=\"10.1111/j.1550-7408.1976.tb03787.x\" pmid=\"6797\" count=\"1\">35</citation>] further pointing at the importance of processes in the flagellar pocket for efficient pentamidine uptake. <sentence_start/>Intracellular release of pentamidine from TbAQP2 may be triggered downstream by acidification of the endo-lysosomal system that weakens the interaction with Asp265 (Fig 4B)."
+  },
+  {
+   "section": "article",
+   "text": "It is becoming increasingly clear that highly active processes in the flagellar pocket of African trypanosomes can be exploited for therapeutic purposes [<citation rid=\"ppat.1005436.ref033\" ref-type=\"bibr\" doi=\"10.1038/nrmicro2221\" pmid=\"19806154\" count=\"1\">33</citation>,<citation rid=\"ppat.1005436.ref036\" ref-type=\"bibr\" doi=\"10.1016/j.pt.2013.03.004\" pmid=\"23601931\" count=\"1\">36</citation>,<citation rid=\"ppat.1005436.ref037\" ref-type=\"bibr\" doi=\"10.1038/nature12516\" pmid=\"23965626\" count=\"1\">37</citation>]. <sentence_start/>The classic pentamidine therapy appears to have been doing just that for decades."
+  },
+  {
+   "section": "article",
+   "text": "Future routes in drug design could foresee fusion scaffolds that contain a minimal pentamidine anchor, e.g. alkoxy-benzamidine, for TbAQP2 binding linked to an anti-trypanosomal cargo to be delivered into the parasite. <sentence_start/>There is a good chance for achieving sufficient specificity because of the unique TbAQP2 ar/R filter composition. <sentence_start/>This approach would be similar to the idea of generating drug fusions with the transferrin protein and transport via endocytosis of the transferrin receptor in the flagellar pocket [<citation rid=\"ppat.1005436.ref019\" ref-type=\"bibr\" doi=\"10.1051/parasite/2002094375\" pmid=\"12514955\" count=\"1\">19</citation>]. <sentence_start/>A recent study targeted pentamidine-loaded chitosan nanoparticles via a single domain nanobody to the parasite surface, inducing endocytotic uptake [<citation rid=\"ppat.1005436.ref038\" ref-type=\"bibr\" doi=\"10.1371/journal.ppat.1004942\" pmid=\"26110623\" pmcid=\"PMC4482409\" count=\"1\">38</citation>]. <sentence_start/>Addressing TbAQP2, however, would have the advantage that small molecules could be drafted, which, contrary to pentamidine, require only one positive moiety for Asp265 binding. <sentence_start/>Using small molecules increases the chance that the compounds will cross the blood brain barrier, which is a necessity to treat the severe cerebral stage of trypanosomiasis."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Plasmid constructs and western blots"
+  },
+  {
+   "section": "article",
+   "text": "TbAQP2, TbAQP2-L264R, TbAQP-D265A, and TbAQP3 were cloned via BamH I and HinD III into the pRS426Met25 vector [<citation rid=\"ppat.1005436.ref039\" ref-type=\"bibr\" doi=\"10.1093/nar/22.25.5767\" pmid=\"7838736\" pmcid=\"PMC310147\" count=\"1\">39</citation>]. <sentence_start/>The constructs carry an N-terminal hemagglutinin (HA) epitope-tag for detection by Western blot using a monoclonal mouse anti-HA antibody (1: 5000, Roche) and a horseradish peroxidase secondary anti-mouse antibody (1: 2000, Jackson Immuno Research) for ECL detection (Amersham). <sentence_start/>For <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> expression, the pRPa<sup>GFPx</sup> construct [<citation rid=\"ppat.1005436.ref001\" ref-type=\"bibr\" doi=\"10.1016/j.molbiopara.2008.05.006\" pmid=\"18588918\" pmcid=\"PMC3828046\" count=\"1\">1</citation>] was modified to express GFP-tagged AQP2 under the control of a Tet-regulated <italic toggle=\"yes\">RRNA</italic> promoter. <sentence_start/>Site directed mutagenesis was carried out using the QuikChange Multi Site-Directed Mutagenesis Kit (Agilent technologies). <sentence_start/>Point mutations were confirmed by sequencing. <sentence_start/>Primer sequences are available upon request. <sentence_start/><italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> whole cell lysates were stored in the presence of a protease inhibitor cocktail (Roche) and were not boiled. <sentence_start/>GFP was detected using polyclonal rabbit α-GFP (Europa; 1:2000)."
+  },
+  {
+   "section": "article",
+   "text": "Phenotypic yeast growth assays"
+  },
+  {
+   "section": "article",
+   "text": "The <italic toggle=\"yes\">Saccharomyces cerevisiae</italic> strain 31019bΔmep1-3 (MATa ura3 mep1Δ mep2Δ::LEU2 mep3Δ::KanMX) was used, which lacks all endogenous ammonium transporters [<citation rid=\"ppat.1005436.ref040\" ref-type=\"bibr\" pmid=\"9234685\" doi=\"10.1128/mcb.17.8.4282\" pmcid=\"PMC232281\" count=\"1\">40</citation>]. <sentence_start/>Cells expressing TbAQP2, TbAQP3, tomato AMT1;1 [<citation rid=\"ppat.1005436.ref041\" ref-type=\"bibr\" doi=\"10.1074/jbc.M200739200\" pmid=\"11821433\" count=\"1\">41</citation>], or no channel were grown overnight in liquid minimum YNB-glucose medium (0.17% YNB supplemented with 2% glucose, 0.5% (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 2 × 10<sup>−3</sup>% histidine, 2 × 10<sup>−3</sup>% lysine, 0.01% leucine, Difco). <sentence_start/>Cultures were adjusted to an OD600 of 1, and diluted in a series of 1:10 steps. <sentence_start/>For NH<sub>4</sub> <sup>+</sup> uptake, 5 μl cell suspensions were spotted on agar plates of 20 mM MES-buffered (pH 5.5 and pH 6.5) YNB-glucose medium containing 2 mM (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> as the sole nitrogen source. <sentence_start/>Plates containing 0.1% proline were used for monitoring normal growth. <sentence_start/>For methylammonium uptake, cells were grown in YNB-glucose medium supplemented with 0.1% proline as a nitrogen source and 50 mM methylammonium (Sigma). <sentence_start/>Susceptibility for pentamidine was assayed by growth on YPG agar media (1% yeast extract, 2% peptone, 2% glycerol) without or with addition of pentamidine isethionate at 1 μg ml<sup>-1</sup> (1.7 μM) or 10 μg ml<sup>-1</sup> (17 μM) [<citation rid=\"ppat.1005436.ref021\" ref-type=\"bibr\" doi=\"10.1128/AAC.38.5.1123\" pmid=\"8067749\" pmcid=\"PMC188161\" count=\"1\">21</citation>]. <sentence_start/>Growth was monitored for 2-5 days."
+  },
+  {
+   "section": "article",
+   "text": "Biophysical protoplast light scattering assays"
+  },
+  {
+   "section": "article",
+   "text": "The <italic toggle=\"yes\">S</italic>. <italic toggle=\"yes\">cerevisiae</italic> strain BY4742Δfps1 <italic toggle=\"yes\">(MATa</italic>, <italic toggle=\"yes\">his3-1</italic>, <italic toggle=\"yes\">leu2Δ0</italic>, <italic toggle=\"yes\">lys2Δ0</italic>, <italic toggle=\"yes\">ura3Δ0</italic>, <italic toggle=\"yes\">yll043w</italic>::<italic toggle=\"yes\">KanMX</italic>) lacking the endogenous aquaglyceroporin Fps1 was obtained from Euroscarf, Frankfurt. <sentence_start/>Yeast cells expressing TbAQP2, TbAQP2-L264R, TbAQP-D265A, TbAQP3, or no channel were collected at 4000 × g and 4°C, washed, and incubated for 15 min in 3 ml phosphate buffer (50 mM, pH 7.2) plus 0.2% 2-mercaptoethanol. <sentence_start/>6 ml of phosphate/2-mercaptoethanol buffer containing 1.8 M saccharose, 200 units of Zymolyase-20T (MP Biomedicals, Illkirch, France), and 100 mg BSA Fraction V (Roth, Karlsruhe, Germany) were added and the suspension was incubated on an orbital shaker at 100 rpm for 60 min at 29°C. <sentence_start/>Protoplasts were collected at 2000 × g and 4°C, washed, and resuspended in 3 ml buffer (10 mM MOPS for pH 7.2; citric acid for pH 2.5 and 3.5, or Tris for pH 9.2) plus 1.2 M saccharose, 50 mM NaCl, and 5 mM CaCl<sub>2</sub>. <sentence_start/>For the assay, protoplast suspensions were diluted to an OD<sub>600</sub> of 2. <sentence_start/>All measurements were done using a stopped flow apparatus (SFM-300, BioLogic, Claix, France) with a dead time around 10 ms, total flow rate of 14 ml/s, total volume of 202 μl, at 20°C. <sentence_start/>For hypertonic solute permeability assays, protoplasts were rapidly mixed with the same volume of buffer supplemented with 600 mM solute (glycerol, urea, 3-amino-1,2-diol, or formamidine), generating a 300 mM hypertonic solute gradient. <sentence_start/>For isotonic glycerol permeability measurements, protoplasts were mixed with the same volume of buffer in which 0.6 M saccharose were replaced by glycerol, generating an isotonic 300 mM glycerol gradient. <sentence_start/>Pentamidine and derivatives were added 10 min prior to the assay. <sentence_start/>Protoplast volume changes were monitored by measuring the intensity of 90° light scattering at 546 nm. <sentence_start/>In each experiment, 6 to 9 single curves were averaged, exponentially (rapid rates) or linearly fitted (slow rates) and the resulting time constants were related to solute permeability. <sentence_start/>The solute permeability coefficient <italic toggle=\"yes\">P</italic> <italic toggle=\"yes\"><sub>sol</sub></italic> was calculated using <italic toggle=\"yes\">P</italic> <italic toggle=\"yes\"><sub>sol</sub></italic> = |<italic toggle=\"yes\">dI</italic>/<italic toggle=\"yes\">dt</italic>| · (<italic toggle=\"yes\">V</italic> <italic toggle=\"yes\"><sub>0</sub></italic> · <italic toggle=\"yes\">C</italic> <italic toggle=\"yes\"><sub>out</sub></italic>)/(<italic toggle=\"yes\">S</italic> <italic toggle=\"yes\"><sub>0</sub></italic> · <italic toggle=\"yes\">C</italic> <italic toggle=\"yes\"><sub>diff</sub></italic>) [<citation rid=\"ppat.1005436.ref016\" ref-type=\"bibr\" doi=\"10.1111/j.1742-4658.2010.07993.x\" pmid=\"21205205\" count=\"1\">16</citation>], with <italic toggle=\"yes\">dI/dt</italic> being the slope of the intensity curve, <italic toggle=\"yes\">V</italic> <sub>0</sub> the initial mean protoplast volume (65.45 μm<sup>3</sup>), <italic toggle=\"yes\">S</italic> <italic toggle=\"yes\"><sub>0</sub></italic> the initial mean protoplast surface area (78.54 μm<sup>2</sup>), <italic toggle=\"yes\">C</italic> <italic toggle=\"yes\"><sub>out</sub></italic> is the total external solute concentration (1.5 M), and <italic toggle=\"yes\">C</italic> <italic toggle=\"yes\"><sub>diff</sub></italic> is the chemical solute gradient (0.3 M)."
+  },
+  {
+   "section": "article",
+   "text": "Pentamidine derivatives"
+  },
+  {
+   "section": "article",
+   "text": "Pentamidine and 4-methoxy-benzamidine were from Sigma. <sentence_start/>4-Pentoxy- and 4-propoxy-benzamidine were generated by Williamson ether synthesis from 4-hydroxy-benzonitrile and 1-bromopentane or 1-bromopropane, respectively, and subsequent conversion of the nitrile to amidine using CH<sub>3</sub>Al(Cl)NH<sub>2</sub> [<citation rid=\"ppat.1005436.ref042\" ref-type=\"bibr\" count=\"1\">42</citation>]. <sentence_start/>The asymmetric pentamidine derivative carrying one amidine and one nitrile moiety was generated in a first step by Williamson ether synthesis of 4-hydroxy-benzonitrile and 1,5-dibromopentane to obtain the di-nitrile compound. <sentence_start/>The second step was done according to Pinner [<citation rid=\"ppat.1005436.ref043\" ref-type=\"bibr\" doi=\"10.1021/cr60210a003\" count=\"1\">43</citation>] in molecular sieve-dried ethanol using HCl gas as an acidic catalyst and stopped before full conversion of the nitriles to imino esters. <sentence_start/>The semi-converted product was isolated by chromatography and the single amidine group was obtained by reaction with gaseous ammonia in ethanol. <sentence_start/>Nitrile-pentamidine hydrochloride: <sup>1</sup>H NMR (300 MHz, DMSO-d<sub>6</sub>) δ 9.33 (2H, s), 9.19 (2H, s), 7.88 (2H, d), 7.74 (2H, d), 7.11 (4H, m), 4.09 (4H, m), 1.8 (4H, m), 1.57 (2H, m)."
+  },
+  {
+   "section": "article",
+   "text": "Trypanosome cultures"
+  },
+  {
+   "section": "article",
+   "text": "Bloodstream-form <italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic>, Lister 427, MiTat 1.2, clone 221a and derivatives were maintained as previously described [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>]; 2T1 [<citation rid=\"ppat.1005436.ref001\" ref-type=\"bibr\" doi=\"10.1016/j.molbiopara.2008.05.006\" pmid=\"18588918\" pmcid=\"PMC3828046\" count=\"1\">1</citation>] and <italic toggle=\"yes\">aqp2</italic> null strains [<citation rid=\"ppat.1005436.ref002\" ref-type=\"bibr\" doi=\"10.1073/pnas.1202885109\" pmid=\"22711816\" pmcid=\"PMC3390834\" count=\"1\">2</citation>] were also described previously. <sentence_start/>Strains were transfected using a Nucleofector apparatus (Lonza) in conjunction with cytomix and transformants were selected with hygromycin (2.5 μg ml<sup>-1</sup>). <sentence_start/><sup>GFP</sup>AQP expression was induced by exposing cells to 1 μg ml<sup>-1</sup> tetracycline for 48 h. <sentence_start/>EC<sub>50</sub> assays were carried out using alamarBlue as described [<citation rid=\"ppat.1005436.ref044\" ref-type=\"bibr\" doi=\"10.1016/j.molbiopara.2010.11.010\" pmid=\"21093499\" pmcid=\"PMC3032052\" count=\"1\">44</citation>,<citation rid=\"ppat.1005436.ref045\" ref-type=\"bibr\" pmid=\"9386789\" doi=\"10.1016/s0001-706x(97)00079-x\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Microscopy"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">T</italic>. <italic toggle=\"yes\">brucei</italic> immunofluorescence microscopy was carried out according to standard protocols. <sentence_start/>Briefly, cells were settled on slides and mounted in Vectashield (Vector Laboratories) containing the DNA counterstain, 4,6-diamidino-2-phenylindole (DAPI). <sentence_start/>Images were captured using a Nikon Eclipse E600 epifluorescence microscope in conjunction with a Coolsnap FX (Photometrics) charge-coupled device (CCD) camera and processed in Metamorph 5.0 (Photometrics)."
+  },
+  {
+   "section": "article",
+   "text": "Accession numbers"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Trypanosoma brucei</italic> AQP2: (GenBank)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Trypanosoma brucei</italic> AQP3: (GenBank)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Lycopersicon esculentum</italic> AMT1;1: (SwissProt)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Saccharomyces cerevisiae</italic> MEP1: (GenBank)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Saccharomyces cerevisiae</italic> MEP2: (GenBank)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Saccharomyces cerevisiae</italic> MEP3: (GenBank)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Saccharomyces cerevisiae</italic> Fps1: (GenBank)"
+  },
+  {
+   "section": "article",
+   "text": "<italic toggle=\"yes\">Escherichia coli</italic> GlpF: (GenBank)"
+  }
+ ]
+}
