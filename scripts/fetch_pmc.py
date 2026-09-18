@@ -22,12 +22,26 @@ _RANDOM_ID_RANGE = (1_000_000, 12_000_000)
 _ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 
 
+# esearch's hard limit (undocumented in the API itself, but stated in the
+# error it returns): "retstart cannot be larger than 9998" -- a query with
+# few enough acceptable (unseen, license-clean) candidates per page can walk
+# search_pmcids() this deep for a middling total `n`, so this is a real,
+# permanent stopping condition, not a rare edge case.
+_ESEARCH_MAX_RETSTART = 9998
+
+
 def _esearch_page(query, retstart, page_size, retries=3):
-	"""One esearch page of PMCIDs (db=pmc, OA-restricted) -- retried on
-	failure, since unauthenticated eutils (no api_key, capped at 3 req/s)
-	occasionally answers a request with a truncated/non-JSON body rather
-	than a clean HTTP error, which would otherwise crash a whole
-	multi-page search_pmcids() call over one bad page."""
+	"""One esearch page of PMCIDs (db=pmc, OA-restricted), or [] once
+	retstart exceeds what esearch will serve at all.
+
+	Retried on failure below that limit, since unauthenticated eutils (no
+	api_key, capped at 3 req/s) occasionally answers a request with a
+	truncated/non-JSON body rather than a clean HTTP error, which would
+	otherwise crash a whole multi-page search_pmcids() call over one bad
+	page."""
+	if retstart > _ESEARCH_MAX_RETSTART:
+		return []
+
 	last_error = None
 	for attempt in range(retries):
 		if attempt:
@@ -38,7 +52,13 @@ def _esearch_page(query, retstart, page_size, retries=3):
 				'retmax': page_size, 'retstart': retstart, 'retmode': 'json',
 			}, timeout=30)
 			response.raise_for_status()
-			return response.json()['esearchresult']['idlist']
+			result = response.json()['esearchresult']
+			if 'ERROR' in result:
+				# A permanent condition (e.g. the retstart limit above, worded
+				# differently than the documented one) -- retrying identically
+				# worded requests would just fail the same way each time.
+				return []
+			return result['idlist']
 		except (requests.RequestException, ValueError, KeyError) as error:
 			last_error = error
 	raise RuntimeError(f'esearch failed after {retries} attempts (retstart={retstart}): {last_error}') from last_error
