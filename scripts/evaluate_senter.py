@@ -1,7 +1,7 @@
 """Score a sentence splitter against the hand-labelled PMC/PubMed eval set
 (and, optionally, any other spaCy-Doc-boundary test set you supply).
 
-corpora/senter/difficult_cases.json exists precisely because generic
+corpora/difficult_cases.json exists precisely because generic
 sentence-splitter benchmarks don't contain much of what actually breaks
 this pipeline -- "Fig. 1", "et al.", "no. 21", "p.G2019S", "Cannabis
 sativa L.", "St. Louis", "(N.A. 0.25)".
@@ -22,7 +22,7 @@ from spacy.tokens import DocBin
 from biosenter.sentences import split_into_sentences
 
 # Marks the start of every gold sentence after the first, directly inside
-# corpora/senter/difficult_cases.json's "text" field -- the first sentence
+# corpora/difficult_cases.json's "text" field -- the first sentence
 # always starts at 0, so it needs no marker. Scoped to this eval tooling
 # rather than biosenter/markup.py's TAGS: it is a zero-width annotation
 # artifact, never present in a real doc record, unlike <italic>/<xref>/
@@ -94,14 +94,14 @@ def _evaluate_docbin(nlp, path):
 
 
 def _load_flat_entries(path):
-	"""corpora/senter/difficult_cases.json's schema: a flat list of
+	"""corpora/difficult_cases.json's schema: a flat list of
 	{pmid, pmcid, source, section, text}."""
 	with open(path, encoding='utf8') as f:
 		return json.load(f)
 
 
 def _load_dir_entries(dir_path):
-	"""corpora/senter/train or validation's schema: one file per article,
+	"""corpora/train or validation's schema: one file per article,
 	{pmid, pmcid, source, passages: [{section, text}]}. Flattened to the
 	same {pmid, pmcid, source, section, text} shape _evaluate_pmc expects,
 	one entry per passage."""
@@ -147,9 +147,9 @@ def main():
 	parser.add_argument('--models', required=True, nargs='+', type=str,
 		help="Model paths to score, and/or the literal 'rule' for the rule-based baseline")
 	parser.add_argument('--docbin_test', default=None, type=str, help='An optional plain spaCy DocBin test set')
-	parser.add_argument('--pmc_eval', default=None, type=str, help='corpora/senter/difficult_cases.json')
+	parser.add_argument('--pmc_eval', default=None, type=str, help='corpora/difficult_cases.json')
 	parser.add_argument('--pmc_eval_dir', default=None, type=str,
-		help='corpora/senter/validation or corpora/senter/train (one file per article, {pmid,pmcid,source,passages})')
+		help='corpora/validation or corpora/train (one file per article, {pmid,pmcid,source,passages})')
 	parser.add_argument('--verbose', action='store_true', help='Print every individual error on the PMC set(s)')
 	args = parser.parse_args()
 

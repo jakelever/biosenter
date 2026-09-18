@@ -71,25 +71,25 @@ BIOSENTER_MODEL=/path/to/another/model python your_script.py
 The bundled model, the corpus it was trained on, and the tooling to rebuild
 or extend either are all included:
 
-- `corpora/senter/difficult_cases.json` -- 51 hand-labelled paragraphs used
+- `corpora/difficult_cases.json` -- 51 hand-labelled paragraphs used
   to evaluate the splitter against exactly the patterns that break generic
-  splitters. See `corpora/senter/README.md` for the full history of how it
+  splitters. See `corpora/README.md` for the full history of how it
   was built and why each case is there.
-- `corpora/senter/train/` and `corpora/senter/validation/` -- 150
+- `corpora/train/` and `corpora/validation/` -- 150
   hand-corrected PMC articles used to train the bundled model.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
   by PMCID), filtered to commercially-redistributable licenses by default.
-- `scripts/prepare_pmc_senter_corpus.py` -- convert `corpora/senter/{train,validation}`
+- `scripts/prepare_pmc_senter_corpus.py` -- convert `corpora/{train,validation}`
   into spaCy training data.
 - `scripts/train_senter.py` -- train a new model.
 - `scripts/evaluate_senter.py` -- score a model against the hand-labelled
   eval set.
 
 ```
-python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpora/senter/train --out_path data/senter/pmc_train.spacy
-python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpora/senter/validation --out_path data/senter/pmc_val.spacy
+python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpora/train --out_path data/senter/pmc_train.spacy
+python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpora/validation --out_path data/senter/pmc_val.spacy
 python scripts/train_senter.py --data_dir data/senter --run_name my_run
-python scripts/evaluate_senter.py --models rule runs/my_run/model-best --pmc_eval corpora/senter/difficult_cases.json --verbose
+python scripts/evaluate_senter.py --models rule runs/my_run/model-best --pmc_eval corpora/difficult_cases.json --verbose
 ```
 
 ## License

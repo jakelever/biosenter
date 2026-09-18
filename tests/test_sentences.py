@@ -5,7 +5,7 @@ from evaluate_senter import parse_boundaries
 
 from biosenter.sentences import split_into_sentences
 
-_DIFFICULT_CASES = Path(__file__).resolve().parent.parent / 'corpora' / 'senter' / 'difficult_cases.json'
+_DIFFICULT_CASES = Path(__file__).resolve().parent.parent / 'corpora' / 'difficult_cases.json'
 
 
 def _entries_by_pmcid():

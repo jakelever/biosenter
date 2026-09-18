@@ -412,11 +412,11 @@ split in half" pattern first seen in the fourth batch's MTT entry:
 `senter_v3`'s score on the full 51-paragraph/214-sentence set: F1 0.9384
 (P=0.8989, R=0.9816, 160/18/3).
 
-## `corpora/senter/train/`: a bulk training corpus
+## `corpora/train/`: a bulk training corpus
 
 `difficult_cases.json` above is deliberately small and hand-curated -- fine for
 scoring a model, useless for training one (spaCy's existing GENIA-derived
-training data is ~29K sentences; the eval set is 214). `corpora/senter/train/`
+training data is ~29K sentences; the eval set is 214). `corpora/train/`
 is a separate, much larger corpus built to actually move training data
 volume, one file per source article (`PMC<id>.json`):
 
@@ -492,7 +492,7 @@ and figure-panel labels (`A.`/`B.`) -- all already correct. Two
 alone as genuinely ambiguous CIF-style crystallography metadata rather
 than real prose with a clear right answer.
 
-## `corpora/senter/train/`, round 2: 50 more articles
+## `corpora/train/`, round 2: 50 more articles
 
 Same pipeline again: 50 more license-filtered PMC articles (`--seed
 4242`, `data/pmc_train2/`, one swap after a collision with `validation/`),
@@ -521,11 +521,11 @@ clearly meant to represent (before "However,"), two removed outright
 `validation/` has the same problem. `data/senter/pmc_train.spacy`
 regenerated.
 
-## `corpora/senter/validation/`: a second, disjoint batch
+## `corpora/validation/`: a second, disjoint batch
 
 Same schema, same source (license-filtered `--random` PMC), same
-bootstrap-then-hand-correct method as `corpora/senter/train/` above, in a
-sibling `corpora/senter/validation/` directory -- a held-out split for
+bootstrap-then-hand-correct method as `corpora/train/` above, in a
+sibling `corpora/validation/` directory -- a held-out split for
 model selection during training, distinct from both `train/` (fitting) and
 `difficult_cases.json` (final scoring, still completely untouched by any of
 this). 50 more articles (`--seed 777`, `data/pmc_validation1/`, one swapped
@@ -649,5 +649,5 @@ including the `Fig. N` + panel-letter mistake pattern above.)
 ```
 python scripts/evaluate_senter.py \
   --models rule biosenter/model \
-  --pmc_eval corpora/senter/difficult_cases.json --verbose
+  --pmc_eval corpora/difficult_cases.json --verbose
 ```

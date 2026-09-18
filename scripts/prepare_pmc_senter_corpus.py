@@ -1,6 +1,6 @@
-"""Convert corpora/senter/train/ (or validation/) into spaCy training data
+"""Convert corpora/train/ (or validation/) into spaCy training data
 for the sentence splitter, the same one-file-per-article, hand-corrected
-corpus documented in corpora/senter/README.md.
+corpus documented in corpora/README.md.
 
 Each passage's `text` carries real inline markup (biosenter/markup.py)
 plus `<sentence_start/>` markers. The model itself is never shown either:
@@ -97,8 +97,8 @@ def build_doc_bin(corpus_dir, nlp):
 
 
 def main():
-	parser = argparse.ArgumentParser(description='Build spaCy senter training data from corpora/senter/train or validation')
-	parser.add_argument('--corpus_dir', required=True, type=str, help='corpora/senter/train or corpora/senter/validation')
+	parser = argparse.ArgumentParser(description='Build spaCy senter training data from corpora/train or validation')
+	parser.add_argument('--corpus_dir', required=True, type=str, help='corpora/train or corpora/validation')
 	parser.add_argument('--out_path', required=True, type=str, help='Output .spacy file')
 	args = parser.parse_args()
 
