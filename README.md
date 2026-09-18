@@ -34,26 +34,30 @@ for sent in doc.sents:
 ### 2. Citation-aware, with bioconverters (`split_into_sentences`)
 
 For real PMC full text, which carries inline markup and citation markers
-that a plain spaCy `Doc` can't represent correctly:
+that a plain spaCy `Doc` can't represent correctly. `split_into_sentences`
+expects text extracted with this exact `parse_pmcxml` call -- `keep_tags`
+matches what `biosenter/markup.py` recognizes, and `inject_citations=True`
+is what produces the `<citation>` markers the reattachment logic needs:
 
 ```python
-from biosenter.pmc import parse_pmc_articles
-from biosenter.sentences import doc_to_sentence_records
+from bioconverters import parse_pmcxml
+from bioconverters.pmc_constants import PMC_KEEP_TAGS
 
-for doc in parse_pmc_articles('PMC1234567.xml'):
-    for sentence in doc_to_sentence_records(doc):
-        print(sentence['section'], sentence['text'])
-```
-
-`doc_to_sentence_records` runs `split_into_sentences` under the hood, which
-you can also call directly on marked-up text:
-
-```python
 from biosenter import split_into_sentences
 
-text = 'It was observed in every region of the sample.<citation ref-id="b1">22</citation> Real-time mapping confirmed this.'
-for start, end, sentence in split_into_sentences(text):
-    print(sentence)
+for article in parse_pmcxml(
+    'PMC1234567.xml',
+    return_xml=True,
+    keep_tags=PMC_KEEP_TAGS,
+    inject_citations=True,
+    clean_numeric_citations=False,
+    clean_xrefs_in_brackets=False,
+    clear_empty_brackets=False,
+    fix_exponentials=False,
+):
+    for text in article.iter_text(['title', 'abstract', 'article']):
+        for start, end, sentence in split_into_sentences(text):
+            print(sentence)
 ```
 
 ## Retraining / evaluating

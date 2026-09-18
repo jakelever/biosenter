@@ -1,7 +1,7 @@
 from biosenter._model import resolve_model_path
-from biosenter.sentences import doc_to_sentence_records, split_into_sentences
+from biosenter.sentences import split_into_sentences
 
-__all__ = ['split_into_sentences', 'doc_to_sentence_records', 'load']
+__all__ = ['split_into_sentences', 'load']
 
 
 def load(**overrides):

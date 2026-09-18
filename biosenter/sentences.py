@@ -34,9 +34,9 @@ def _get_nlp(model=None):
 def _segment(plain, model=None):
 	"""Plain text -> [(start, end), ...] sentence bounds, offsets into plain.
 
-	Newlines are hard boundaries. bioconverters (biosenter/pmc.py,
-	biosenter/pubmed.py) collapses all whitespace, so real PMC/PubMed text
-	never contains one; this only matters for callers whose text can
+	Newlines are hard boundaries. bioconverters collapses all whitespace, so
+	real PMC/PubMed text extracted through it never contains one; this only
+	matters for callers whose text can
 	legitimately carry a literal '\n' from elsewhere, where the sentencizer
 	would otherwise run a whole bullet list together into one
 	pseudo-sentence, since list items rarely carry terminal punctuation of
@@ -64,7 +64,7 @@ def _citation_run_end(plain, spans, position, limit):
 	mapping..." for superscript styles, "...was observed. [31] The next..."
 	for bracketed ones. Splitting on the stop alone strands the citation at
 	the head of the following sentence, attributing it to the wrong claim.
-	Because the markers survive as <citation> markup (biosenter/pmc.py's
+	Because the markers survive as <citation> markup (bioconverters'
 	inject_citations=True) rather than as bare digits, they can be
 	recognised exactly instead of guessed at from the text.
 	"""
@@ -197,36 +197,3 @@ def split_into_sentences(text, model=None):
 
 	offsets = marked_offsets(plain, spans, [offset for bound in bounds for offset in bound])
 	return [(offsets[start], offsets[end], render(plain, spans, start, end)) for start, end in bounds]
-
-
-def doc_to_sentence_records(doc):
-	"""Split a {'doc_id', 'source', 'sections': [{'name', 'text'}]} doc
-	record (biosenter.pubmed / biosenter.pmc output) into one flat record per
-	sentence: {doc_id, source, section, char_start, char_end, text}.
-
-	char_start/char_end are offsets relative to the start of that section's
-	*conceptual* full text, i.e. absolute across every passage sharing that
-	section name -- not reset back to 0 for each one -- since bioconverters
-	yields one passage per paragraph/list-item/etc. rather than one joined
-	string per section (see biosenter/pmc.py). Consecutive same-named
-	passages are treated as if joined by a single space for this running
-	offset (nothing actually concatenates the text itself). That's what
-	keeps (doc_id, source, section, char_start) a collision-free identity
-	for a sentence without needing a separate index field: two different
-	sentences, even from different paragraphs of the same section, can
-	never share a start offset."""
-	records = []
-	cursor_by_section = {}
-	for section in doc['sections']:
-		base = cursor_by_section.get(section['name'], 0)
-		for start, end, text in split_into_sentences(section['text']):
-			records.append({
-				'doc_id': doc['doc_id'],
-				'source': doc['source'],
-				'section': section['name'],
-				'char_start': base + start,
-				'char_end': base + end,
-				'text': text,
-			})
-		cursor_by_section[section['name']] = base + len(section['text']) + 1
-	return records

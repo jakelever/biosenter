@@ -3,26 +3,27 @@
 Some JATS markup is meaningful and can't be recovered once flattened:
 <italic> distinguishes a gene symbol from its protein and marks binomial
 species names, <citation> (bioconverters' resolved-and-retagged bibr
-<xref>, see biosenter/pmc.py) says "this number is a citation marker, not
-prose", and <sup>/<sub> carry chemical and mathematical notation
-(Ca<sup>2+</sup>, IC<sub>50</sub>) as well as genuine exponents
-(5 x 10<sup>5</sup>/well) that read as a different, wrong number once
-the tag is discarded. These and bioconverters' other formatting tags
-(PMC_KEEP_TAGS: bold, underline, monospace, sc, overline, strike) are all
-kept inline in the extracted text rather than in a parallel field, so a
-sentence string stays self-contained as it moves through the pipeline and
-into the UI -- and, deliberately, so nothing reaches for "strip it back to
-plain text" as a default shortcut. If something downstream genuinely
-cannot consume markup (a pretrained tokenizer that has never seen these
-tags, for instance), that is a real gap to close at that boundary
-specifically, not a reason to discard markup upstream -- see ROADMAP.md.
+<xref>, see the README's bioconverters example) says "this number is a
+citation marker, not prose", and <sup>/<sub> carry chemical and
+mathematical notation (Ca<sup>2+</sup>, IC<sub>50</sub>) as well as
+genuine exponents (5 x 10<sup>5</sup>/well) that read as a different,
+wrong number once the tag is discarded. These and bioconverters' other
+formatting tags (PMC_KEEP_TAGS: bold, underline, monospace, sc, overline,
+strike) are all kept inline in the extracted text rather than in a
+parallel field, so a sentence string stays self-contained as it moves
+through the pipeline -- and, deliberately, so nothing reaches for "strip
+it back to plain text" as a default shortcut. If something downstream
+genuinely cannot consume markup (a pretrained tokenizer that has never
+seen these tags, for instance), that is a real gap to close at that
+boundary specifically, not a reason to discard markup upstream.
 
 The extracted text is well-formed XML: everything emitted as literal
 text (as opposed to one of the tags below) is entity-escaped, so any
-standard XML parser can read it. biosenter/pmc.py's underlying extractor
-(bioconverters) escapes at the point text is first extracted from JATS
-source; this module escapes again wherever it synthesises new marked-up
-text (render()).
+standard XML parser can read it. bioconverters escapes at the point text
+is first extracted from JATS source (see the README for the exact
+parse_pmcxml call this module expects its output to come from); this
+module escapes again wherever it synthesises new marked-up text
+(render()).
 
 `strip_markup()` parses marked-up text into (plain_text, spans) using
 the standard library's XML parser; `render()` goes the other way for any
@@ -42,22 +43,23 @@ from bioconverters.pmc_constants import PMC_KEEP_TAGS
 # bug upstream (almost certainly in the escaping done at extraction time),
 # not text to shrug off, so it surfaces as ET.ParseError rather than being
 # silently absorbed as literal text. Derived from bioconverters' own
-# PMC_KEEP_TAGS (the keep_tags biosenter/pmc.py passes to parse_pmcxml)
+# PMC_KEEP_TAGS (the keep_tags the README's example passes to parse_pmcxml)
 # plus 'citation' (what inject_citations=True retags a resolved bibr xref
 # to) rather than hardcoded, so the two can't silently drift apart.
 TAGS = tuple(sorted(PMC_KEEP_TAGS)) + ('citation',)
 
-# Only biosenter/pmc.py's own output escapes literal '<'/'&'. This module
-# is shared by callers whose text was never meant to carry any markup at
-# all (MedMentions, tmVar -- raw BioC/PubTator text passed straight into
-# split_into_sentences()), and that text legitimately contains a bare '<'
-# ("particles <5 nm"). Requiring it to be well-formed XML would break
-# every one of those callers over ordinary prose that happens to contain
-# our tag names nowhere. So a string is only ever run through the strict
-# XML parser if it could plausibly contain one of *our* tags in the first
-# place; otherwise it is returned untouched, with no spans -- "this text
-# is well-formed" is a property biosenter/pmc.py's own output has to earn,
-# not one every string passed to this module is assumed to have.
+# Only text extracted via the exact parse_pmcxml call the README documents
+# (return_xml=True, keep_tags=PMC_KEEP_TAGS, inject_citations=True) escapes
+# literal '<'/'&'. This module is shared by callers whose text was never
+# meant to carry any markup at all, and that text can legitimately contain
+# a bare '<' ("particles <5 nm"). Requiring it to be well-formed XML would
+# break every one of those callers over ordinary prose that happens to
+# contain our tag names nowhere. So a string is only ever run through the
+# strict XML parser if it could plausibly contain one of *our* tags in the
+# first place; otherwise it is returned untouched, with no spans --
+# "this text is well-formed" is a property that specific bioconverters
+# call has to earn, not one every string passed to this module is assumed
+# to have.
 _LOOKS_LIKE_MARKUP_RE = re.compile('|'.join(rf'</?{tag}\b' for tag in TAGS))
 
 # Synthetic wrapping element: text handed to this module is always a
