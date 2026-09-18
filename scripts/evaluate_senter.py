@@ -159,7 +159,11 @@ def main():
 	print(f"{'model':28s} {'set':10s} {'P':>7s} {'R':>7s} {'F1':>7s}   {'TP/FP/FN'}")
 	for model in args.models:
 		nlp = _load_splitter(model)
-		name = model if model == 'rule' else model.rstrip('/').split('/')[-2]
+		# A model-dir path (".../runs/senter_v5/model-best") names itself by its
+		# parent directory; an installed package name (e.g. "en_core_web_sm") has
+		# no parent segment to take, so falls back to the name as given.
+		parts = model.rstrip('/').split('/')
+		name = model if model == 'rule' else (parts[-2] if len(parts) > 1 else parts[-1])
 		for label, pairs in (
 			('docbin', _evaluate_docbin(nlp, args.docbin_test) if args.docbin_test else None),
 			('pmc', _evaluate_pmc(nlp, _load_flat_entries(args.pmc_eval), args.verbose) if args.pmc_eval else None),

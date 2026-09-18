@@ -60,6 +60,43 @@ for article in parse_pmcxml(
             print(sentence)
 ```
 
+## Benchmarks
+
+Sentence-boundary F1 against `corpora/difficult_cases.json` (51 hand-labelled
+hard-case paragraphs, 214 sentences) and `corpora/validation/` (50 held-out
+PMC articles). Every model is run through the same citation/markup-handling
+wrapper (`split_into_sentences`), so this isolates boundary judgement itself
+rather than penalizing spaCy/scispacy for markup handling they were never
+built for.
+
+| Model | `difficult_cases.json` | `validation/` |
+|---|---|---|
+| spaCy rule-based sentencizer | F1 0.9364 (P 0.8852, R 0.9939) | F1 0.9180 (P 0.8886, R 0.9494) |
+| `en_core_web_sm` | F1 0.9271 (P 0.8833, R 0.9755) | F1 0.9537 (P 0.9289, R 0.9799) |
+| scispacy `en_core_sci_sm` | F1 0.9726 (P 0.9639, R 0.9816) | F1 0.9728 (P 0.9830, R 0.9628) |
+| **biosenter (bundled)** | **F1 0.9877 (P 0.9938, R 0.9816)** | **F1 0.9832 (P 0.9834, R 0.9831)** |
+
+Reproduce with `scripts/evaluate_senter.py`, which loads any of these by
+name (they're all just installed spaCy packages):
+
+```
+pip install en_core_web_sm  # or: python -m spacy download en_core_web_sm
+python scripts/evaluate_senter.py --models rule en_core_web_sm biosenter/model \
+  --pmc_eval corpora/difficult_cases.json --pmc_eval_dir corpora/validation
+```
+
+scispacy's released models pin to an older spaCy than biosenter requires
+(`en_core_sci_sm` 0.5.4 needs `spacy<3.8`) -- their own README recommends an
+isolated environment for exactly this reason, so run it separately:
+
+```
+pip install scispacy
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+pip install --no-deps -e .  # biosenter itself, for split_into_sentences -- skip its spacy>=3.8 pin here
+python scripts/evaluate_senter.py --models en_core_sci_sm \
+  --pmc_eval corpora/difficult_cases.json --pmc_eval_dir corpora/validation
+```
+
 ## Retraining / evaluating
 
 The bundled model, the corpus it was trained on, and the tooling to rebuild
