@@ -73,17 +73,24 @@ def normalize_key(raw_pmcid):
 	return pmcid if '.' in pmcid else f'{pmcid}.1'
 
 
-# The <license xlink:href="..."> element in PMC's JATS XML points at the
-# specific Creative Commons deed (or, for some publishers, a bespoke terms
-# page that isn't CC at all). CC BY / CC BY-SA / CC BY-ND / CC0 all permit
-# commercial use; CC BY-NC / CC BY-NC-SA / CC BY-NC-ND and anything that
-# isn't recognisably creativecommons.org do not.
+# PMC's JATS XML expresses the license URL two different ways depending on
+# the article: most (all of what the existing corpus was built from) as a
+# <license xlink:href="..."> attribute, but some (confirmed on 2026-dated
+# articles while sourcing HGVS-heavy ones via search_pmcids, which skews
+# toward esearch's most-recent-first results) as an
+# <ali:license_ref content-type="...">URL</ali:license_ref> element with the
+# URL as its own text content instead. Checking href-style first, falling
+# back to the ali:license_ref element's text, catches both -- missing the
+# second form was silently mis-rejecting perfectly permissive CC-BY
+# articles as licenseless.
 _LICENSE_HREF_RE = re.compile(r'<license\b[^>]*xlink:href="([^"]+)"', re.IGNORECASE)
+_LICENSE_REF_TEXT_RE = re.compile(r'<ali:license_ref\b[^>]*>([^<]+)</ali:license_ref>', re.IGNORECASE)
 
 
 def extract_license_href(xml_bytes):
-	"""Article XML bytes -> the <license> xlink:href, or None if absent."""
-	match = _LICENSE_HREF_RE.search(xml_bytes.decode('utf8', errors='ignore'))
+	"""Article XML bytes -> the license URL, or None if absent."""
+	text = xml_bytes.decode('utf8', errors='ignore')
+	match = _LICENSE_HREF_RE.search(text) or _LICENSE_REF_TEXT_RE.search(text)
 	return match.group(1) if match else None
 
 
