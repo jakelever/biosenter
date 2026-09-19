@@ -6,8 +6,11 @@ biosenter is a small spaCy sentence-boundary model
 plus markup-aware pre/post-processing, trained and evaluated specifically
 against PMC full text and PubMed abstracts with LLM-annotated sentence boundaries.
 
-**Why?**: Generic sentence splitters break constantly on biomedical text: `Fig. 1`,
-`et al.`. They also don't deal nicely with citations (that often get attached to the wrong sentence) 
+## Why?
+
+- Generic sentence splitters break constantly on biomedical text
+- Full stops appear everywhere in biomedical text (`Fig. 1`, `et al.`) and can easily fool a parser into splitting sentence in the wrong place
+- Other tools don't deal nicely with citations that hang at the ends of sentences
 
 ## Install
 
