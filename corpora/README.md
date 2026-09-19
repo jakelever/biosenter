@@ -11,7 +11,7 @@ or `null` (a PubMed-only entry has no PMC deposit); `source` is `"pmc"` or
 `title`/`subtitle`/`abstract`/`article`/`back`/`floating`; PubMed only
 ever produces `title`/`abstract`).
 
-`train/` and `validation/` -- 100 and 50 PMC articles respectively, used to
+`train/` and `validation/` -- 150 and 75 PMC articles respectively, used to
 train and select the bundled model. One file per article (`PMC<id>.json`):
 
 ```json
@@ -53,6 +53,9 @@ matter here, including:
   punctuation
 - Species/taxonomic abbreviations and name-initial abbreviations that look
   like sentence ends (`S. pneumoniae`, `Dr. J. Smith`)
+- HGVS protein/cDNA variant notation (`p.G2019S`, `c.6055G>A`) -- the
+  internal period reads exactly like a sentence-final abbreviation
+  followed by a capitalized word
 
 A splitter can score well on a generic abstract-only benchmark and still
 fail most of these.
@@ -75,9 +78,14 @@ automatically applied.
 
 ## Known gap
 
-The sample contains **no** HGVS variants (`p.G2019S`, `c.343A>G`) --
-too rare in the source batches this was built from. That class is
-currently verified by spot-check only, not by this dataset.
+`difficult_cases.json` contains **no** HGVS variants (`p.G2019S`,
+`c.343A>G`) -- too rare in the source batches it was built from, and it's
+a frozen final-scoring set that nothing here re-labels. `train/` and
+`validation/` do have HGVS coverage (added via `scripts/fetch_pmc.py`'s
+`--search`, targeting clinical-genetics articles instead of relying on
+random sampling), so the model is trained and dev-selected against it,
+but that gap in the actual scoring set means it's still only verified by
+spot-check, not measured.
 
 ## Usage
 

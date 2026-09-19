@@ -63,7 +63,7 @@ for article in parse_pmcxml(
 ## Benchmarks
 
 Sentence-boundary F1 against `corpora/difficult_cases.json` (51 hand-labelled
-hard-case paragraphs, 214 sentences) and `corpora/validation/` (50 held-out
+hard-case paragraphs, 214 sentences) and `corpora/validation/` (75 held-out
 PMC articles). Every model is run through the same citation/markup-handling
 wrapper (`split_into_sentences`), so this isolates boundary judgement itself
 rather than penalizing spaCy/scispacy for markup handling they were never
@@ -71,10 +71,10 @@ built for.
 
 | Model | `difficult_cases.json` | `validation/` |
 |---|---|---|
-| spaCy rule-based sentencizer | F1 0.9364 (P 0.8852, R 0.9939) | F1 0.9180 (P 0.8886, R 0.9494) |
-| `en_core_web_sm` | F1 0.9271 (P 0.8833, R 0.9755) | F1 0.9537 (P 0.9289, R 0.9799) |
-| scispacy `en_core_sci_sm` | F1 0.9726 (P 0.9639, R 0.9816) | F1 0.9728 (P 0.9830, R 0.9628) |
-| **biosenter (bundled)** | **F1 0.9877 (P 0.9938, R 0.9816)** | **F1 0.9832 (P 0.9834, R 0.9831)** |
+| spaCy rule-based sentencizer | F1 0.9364 (P 0.8852, R 0.9939) | F1 0.9264 (P 0.8961, R 0.9588) |
+| `en_core_web_sm` | F1 0.9271 (P 0.8833, R 0.9755) | F1 0.9556 (P 0.9281, R 0.9847) |
+| scispacy `en_core_sci_sm` | F1 0.9726 (P 0.9639, R 0.9816) | F1 0.9751 (P 0.9820, R 0.9683) |
+| **biosenter (bundled)** | **F1 0.9877 (P 0.9938, R 0.9816)** | **F1 0.9866 (P 0.9859, R 0.9873)** |
 
 Reproduce with `scripts/evaluate_senter.py`, which loads any of these by
 name (they're all just installed spaCy packages):
@@ -106,7 +106,7 @@ or extend either are all included:
   to evaluate the splitter against exactly the patterns that break generic
   splitters. See `corpora/README.md` for the dataset schema and how it
   was built.
-- `corpora/train/` and `corpora/validation/` -- 150
+- `corpora/train/` and `corpora/validation/` -- 225
   hand-corrected PMC articles used to train the bundled model.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
   by PMCID), filtered to commercially-redistributable licenses by default.
