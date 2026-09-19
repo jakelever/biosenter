@@ -24,8 +24,8 @@ Sentence boundaries are marked directly in `text` with a
 `<sentence_start/>` tag at the start of every sentence after the first (the
 first always starts at 0). `text` also carries real inline markup
 (`<italic>`/`<xref>`/`<sup>`/`<sub>`/`<citation>`, see `biosenter/markup.py`)
--- it is `bioconverters`' actual well-formed-XML output (via the exact
-`parse_pmcxml` call documented in the top-level README), not a
+-- it is `bioconverters`' actual well-formed-XML output (via
+`pmcxml2tagged()`, documented in the top-level README), not a
 plain-text simplification of it. `scripts/evaluate_senter.py`'s
 `parse_boundaries()` strips the `<sentence_start/>` markers back out and
 reconstructs the offsets.

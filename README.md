@@ -34,30 +34,23 @@ for sent in doc.sents:
 ### 2. Citation-aware, with bioconverters (`split_into_sentences`)
 
 For real PMC full text, which carries inline markup and citation markers
-that a plain spaCy `Doc` can't represent correctly. `split_into_sentences`
-expects text extracted with this exact `parse_pmcxml` call -- `keep_tags`
-matches what `biosenter/markup.py` recognizes, and `inject_citations=True`
-is what produces the `<citation>` markers the reattachment logic needs:
+that a plain spaCy `Doc` can't represent correctly. `bioconverters.pmcxml2tagged`
+is built for exactly this -- it keeps formatting tags and resolved
+citations inline instead of stripping them, which is what
+`split_into_sentences` needs to work with:
 
 ```python
-from bioconverters import parse_pmcxml
-from bioconverters.pmc_constants import PMC_KEEP_TAGS
+from bioconverters import pmcxml2tagged
 
 from biosenter import split_into_sentences
 
-for article in parse_pmcxml(
-    'PMC1234567.xml',
-    return_xml=True,
-    keep_tags=PMC_KEEP_TAGS,
-    inject_citations=True,
-    clean_numeric_citations=False,
-    clean_xrefs_in_brackets=False,
-    clear_empty_brackets=False,
-    fix_exponentials=False,
-):
-    for text in article.iter_text(['title', 'abstract', 'article']):
-        for start, end, sentence in split_into_sentences(text):
-            print(sentence)
+# pmcxml2tagged() yields (metadata, text) pairs with inline markup and
+# citations preserved, e.g.:
+#   'Recurrent <italic>C. difficile</italic> infection is common
+#   (<citation pmid="23079555">1</citation>).'
+for meta, text in pmcxml2tagged('PMC1234567.xml'):
+    for start, end, sentence in split_into_sentences(text):
+        print(sentence)
 ```
 
 ## Benchmarks
