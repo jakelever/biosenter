@@ -1,4 +1,4 @@
-"""Convert corpora/train/ (or validation/) into spaCy training data
+"""Convert corpora/train/ (or test/) into spaCy training data
 for the sentence splitter, the same one-file-per-article, hand-corrected
 corpus documented in corpora/README.md.
 
@@ -97,8 +97,8 @@ def build_doc_bin(corpus_dir, nlp):
 
 
 def main():
-	parser = argparse.ArgumentParser(description='Build spaCy senter training data from corpora/train or validation')
-	parser.add_argument('--corpus_dir', required=True, type=str, help='corpora/train or corpora/validation')
+	parser = argparse.ArgumentParser(description='Build spaCy senter training data from corpora/train or test')
+	parser.add_argument('--corpus_dir', required=True, type=str, help='corpora/train or corpora/test')
 	parser.add_argument('--out_path', required=True, type=str, help='Output .spacy file')
 	args = parser.parse_args()
 

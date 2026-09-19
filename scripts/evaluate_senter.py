@@ -1,10 +1,10 @@
 """Score a sentence splitter against the hand-labelled PMC/PubMed eval set
 (and, optionally, any other spaCy-Doc-boundary test set you supply).
 
-corpora/difficult_cases.json exists precisely because generic
-sentence-splitter benchmarks don't contain much of what actually breaks
-this pipeline -- "Fig. 1", "et al.", "no. 21", "p.G2019S", "Cannabis
-sativa L.", "St. Louis", "(N.A. 0.25)".
+corpora/test/ exists precisely because generic sentence-splitter
+benchmarks don't contain much of what actually breaks this pipeline --
+"Fig. 1", "et al.", "no. 21", "p.G2019S", "Cannabis sativa L.", "St.
+Louis", "(N.A. 0.25)".
 
 Scoring is on sentence *boundaries*, ignoring the trivial one at the start
 of each text, so the numbers are not inflated by a decision no model can
@@ -22,14 +22,14 @@ from spacy.tokens import DocBin
 from biosenter.sentences import split_into_sentences
 
 # Marks the start of every gold sentence after the first, directly inside
-# corpora/difficult_cases.json's "text" field -- the first sentence
-# always starts at 0, so it needs no marker. Scoped to this eval tooling
-# rather than biosenter/markup.py's TAGS: it is a zero-width annotation
-# artifact, never present in a real doc record, unlike <italic>/<xref>/
-# <sup>/<sub> which flow through the production pipeline. Chosen over
-# numeric offsets specifically so an LLM (or a person) can author/check
-# boundaries by placing a tag at the right point in the text, rather than
-# counting characters.
+# corpora/{train,test}'s "text" fields -- the first sentence always starts
+# at 0, so it needs no marker. Scoped to this eval tooling rather than
+# biosenter/markup.py's TAGS: it is a zero-width annotation artifact,
+# never present in a real doc record, unlike <italic>/<xref>/<sup>/<sub>
+# which flow through the production pipeline. Chosen over numeric offsets
+# specifically so an LLM (or a person) can author/check boundaries by
+# placing a tag at the right point in the text, rather than counting
+# characters.
 _SENTENCE_START_RE = re.compile(r'<sentence_start\s*/>')
 
 
@@ -93,18 +93,10 @@ def _evaluate_docbin(nlp, path):
 	return pairs
 
 
-def _load_flat_entries(path):
-	"""corpora/difficult_cases.json's schema: a flat list of
-	{pmid, pmcid, source, section, text}."""
-	with open(path, encoding='utf8') as f:
-		return json.load(f)
-
-
 def _load_dir_entries(dir_path):
-	"""corpora/train or validation's schema: one file per article,
-	{pmid, pmcid, source, passages: [{section, text}]}. Flattened to the
-	same {pmid, pmcid, source, section, text} shape _evaluate_pmc expects,
-	one entry per passage."""
+	"""corpora/train or corpora/test's schema: one file per article,
+	{pmid, pmcid, source, passages: [{section, text}]}. Flattened to
+	{pmid, pmcid, source, section, text}, one entry per passage."""
 	entries = []
 	for path in sorted(glob.glob(f'{dir_path}/*.json')):
 		with open(path, encoding='utf8') as f:
@@ -147,26 +139,24 @@ def main():
 	parser.add_argument('--models', required=True, nargs='+', type=str,
 		help="Model paths to score, and/or the literal 'rule' for the rule-based baseline")
 	parser.add_argument('--docbin_test', default=None, type=str, help='An optional plain spaCy DocBin test set')
-	parser.add_argument('--pmc_eval', default=None, type=str, help='corpora/difficult_cases.json')
 	parser.add_argument('--pmc_eval_dir', default=None, type=str,
-		help='corpora/validation or corpora/train (one file per article, {pmid,pmcid,source,passages})')
-	parser.add_argument('--verbose', action='store_true', help='Print every individual error on the PMC set(s)')
+		help='corpora/test or corpora/train (one file per article, {pmid,pmcid,source,passages})')
+	parser.add_argument('--verbose', action='store_true', help='Print every individual error on the PMC set')
 	args = parser.parse_args()
 
-	if not args.docbin_test and not args.pmc_eval and not args.pmc_eval_dir:
-		parser.error('give at least one of --docbin_test / --pmc_eval / --pmc_eval_dir')
+	if not args.docbin_test and not args.pmc_eval_dir:
+		parser.error('give at least one of --docbin_test / --pmc_eval_dir')
 
 	print(f"{'model':28s} {'set':10s} {'P':>7s} {'R':>7s} {'F1':>7s}   {'TP/FP/FN'}")
 	for model in args.models:
 		nlp = _load_splitter(model)
-		# A model-dir path (".../runs/senter_v5/model-best") names itself by its
+		# A model-dir path (".../runs/senter_v6/model-best") names itself by its
 		# parent directory; an installed package name (e.g. "en_core_web_sm") has
 		# no parent segment to take, so falls back to the name as given.
 		parts = model.rstrip('/').split('/')
 		name = model if model == 'rule' else (parts[-2] if len(parts) > 1 else parts[-1])
 		for label, pairs in (
 			('docbin', _evaluate_docbin(nlp, args.docbin_test) if args.docbin_test else None),
-			('pmc', _evaluate_pmc(nlp, _load_flat_entries(args.pmc_eval), args.verbose) if args.pmc_eval else None),
 			('pmc_dir', _evaluate_pmc(nlp, _load_dir_entries(args.pmc_eval_dir), args.verbose) if args.pmc_eval_dir else None),
 		):
 			if pairs is None:
