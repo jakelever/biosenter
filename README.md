@@ -1,5 +1,7 @@
 # biosenter - Sentence splitting for biomedical text
 
+[![PyPi](https://img.shields.io/pypi/v/biosenter.svg)](https://pypi.org/project/biosenter/) [![License](https://img.shields.io/github/license/jakelever/biosenter.svg)](https://github.com/jakelever/biosenter/blob/main/LICENSE) [![build](https://github.com/jakelever/biosenter/actions/workflows/tests.yml/badge.svg)](https://github.com/jakelever/biosenter/actions)
+
 biosenter is a small spaCy sentence-boundary model
 plus markup-aware pre/post-processing, trained and evaluated specifically
 against PMC full text and PubMed abstracts with LLM-annotated sentence boundaries.
