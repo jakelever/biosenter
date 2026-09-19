@@ -1,6 +1,6 @@
 # biosenter - Sentence splitting for biomedical text
 
-[![PyPi](https://img.shields.io/pypi/v/biosenter.svg)](https://pypi.org/project/biosenter/) [![License](https://img.shields.io/github/license/jakelever/biosenter.svg)](https://github.com/jakelever/biosenter/blob/main/LICENSE) [![build](https://github.com/jakelever/biosenter/actions/workflows/tests.yml/badge.svg)](https://github.com/jakelever/biosenter/actions)
+[![PyPi](https://img.shields.io/pypi/v/biosenter.svg)](https://pypi.org/project/biosenter/) [![License](https://img.shields.io/pypi/l/biosenter.svg)](https://www.tldrlegal.com/license/mit-license) [![build](https://github.com/jakelever/biosenter/actions/workflows/tests.yml/badge.svg)](https://github.com/jakelever/biosenter/actions)
 
 biosenter is a small spaCy sentence-boundary model
 plus markup-aware pre/post-processing, trained and evaluated specifically
@@ -33,17 +33,12 @@ for sent in doc.sents:
     print(sent.text)
 ```
 
-### 2. Citation-aware, with [bioconverters](https://github.com/jakelever/bioconverters) (`split_into_sentences`)
+### 2. Formatting &amp; citation-aware  with [bioconverters](https://github.com/jakelever/bioconverters)
 
-For real PMC full text, which carries inline markup and citation markers
-that a plain spaCy `Doc` can't represent correctly. `bioconverters.pmcxml2tagged`
-is built for exactly this -- it keeps formatting tags and resolved
-citations inline instead of stripping them, which is what
-`split_into_sentences` needs to work with:
+Real PMC full text carries inline markup and citation markers that spaCy won't treat nicely. Combine functionality from the [bioconverters](https://github.com/jakelever/bioconverters) package with the `split_into_sentences` function to keep formatting and citations in the right sentences:
 
 ```python
 from bioconverters import pmcxml2tagged
-
 from biosenter import split_into_sentences
 
 # pmcxml2tagged() yields (metadata, text) pairs with inline markup and
@@ -58,7 +53,7 @@ for meta, text in pmcxml2tagged('PMC1234567.xml'):
 ## Benchmarks
 
 Sentence-boundary F1 against `corpora/test/` (75 held-out PMC articles) excluding the formatting/citation handling.
-The articles used to train and evaluate with annotated by Claude Sonnet and Opus.
+The articles used to train and evaluate with were annotated by Claude Sonnet and Opus.
 
 | Model | `corpora/test/` |
 |---|---|
