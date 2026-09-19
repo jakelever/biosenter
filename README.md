@@ -1,8 +1,8 @@
-# biosenter - Sentence splitting for biomedical research articles
+# biosenter - Sentence splitting for biomedical text
 
 biosenter is a small spaCy sentence-boundary model
 plus markup-aware pre/post-processing, trained and evaluated specifically
-against real PMC full text and PubMed abstracts.
+against PMC full text and PubMed abstracts with LLM-annotated sentence boundaries.
 
 **Why?**: Generic sentence splitters break constantly on biomedical text: `Fig. 1`,
 `et al.`. They also don't deal nicely with citations (that often get attached to the wrong sentence) 
@@ -31,7 +31,7 @@ for sent in doc.sents:
     print(sent.text)
 ```
 
-### 2. Citation-aware, with bioconverters (`split_into_sentences`)
+### 2. Citation-aware, with [bioconverters](https://github.com/jakelever/bioconverters) (`split_into_sentences`)
 
 For real PMC full text, which carries inline markup and citation markers
 that a plain spaCy `Doc` can't represent correctly. `bioconverters.pmcxml2tagged`
@@ -55,11 +55,8 @@ for meta, text in pmcxml2tagged('PMC1234567.xml'):
 
 ## Benchmarks
 
-Sentence-boundary F1 against `corpora/test/` (75 held-out PMC articles).
-Every model is run through the same citation/markup-handling wrapper
-(`split_into_sentences`), so this isolates boundary judgement itself
-rather than penalizing spaCy/scispacy for markup handling they were never
-built for.
+Sentence-boundary F1 against `corpora/test/` (75 held-out PMC articles) excluding the formatting/citation handling.
+The articles used to train and evaluate with annotated by Claude Sonnet and Opus.
 
 | Model | `corpora/test/` |
 |---|---|
@@ -93,7 +90,7 @@ python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpora
 The bundled model, the corpus it was trained on, and the tooling to rebuild
 or extend either are all included:
 
-- `corpora/train/` and `corpora/test/` -- 225 hand-corrected PMC articles
+- `corpora/train/` and `corpora/test/` -- 225 LLM-annotated PMC articles
   used to train and score the bundled model. See `corpora/README.md` for
   the dataset schema and how it was built.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
