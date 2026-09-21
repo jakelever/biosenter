@@ -55,15 +55,15 @@ for meta, text in pmcxml2tagged('PMC1234567.xml'):
 
 ## Benchmarks
 
-Sentence-boundary F1 against `corpora/test/` (75 held-out PMC articles) excluding the formatting/citation handling.
+Sentence-boundary F1 against `corpora/test/` (100 held-out PMC articles) excluding the formatting/citation handling.
 The articles used to train and evaluate with were annotated by Claude Sonnet and Opus.
 
 | Model | `corpora/test/` |
 |---|---|
-| spaCy rule-based sentencizer | F1 0.9264 (P 0.8961, R 0.9588) |
-| `en_core_web_sm` | F1 0.9556 (P 0.9281, R 0.9847) |
-| scispacy `en_core_sci_sm` | F1 0.9751 (P 0.9820, R 0.9683) |
-| **biosenter (bundled)** | **F1 0.9866 (P 0.9859, R 0.9873)** |
+| spaCy rule-based sentencizer | F1 0.9305 (P 0.9010, R 0.9620) |
+| `en_core_web_sm` | F1 0.9573 (P 0.9301, R 0.9861) |
+| scispacy `en_core_sci_sm` | F1 0.9747 (P 0.9835, R 0.9661) |
+| **biosenter (bundled)** | **F1 0.9913 (P 0.9910, R 0.9916)** |
 
 Reproduce with `scripts/evaluate_senter.py`, which loads any of these by
 name (they're all just installed spaCy packages):
@@ -90,7 +90,7 @@ python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpora
 The bundled model, the corpus it was trained on, and the tooling to rebuild
 or extend either are all included:
 
-- `corpora/train/` and `corpora/test/` -- 225 LLM-annotated PMC articles
+- `corpora/train/` and `corpora/test/` -- 300 LLM-annotated PMC articles
   used to train and score the bundled model. See `corpora/README.md` for
   the dataset schema and how it was built.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or

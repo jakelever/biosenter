@@ -1,6 +1,6 @@
 # Sentence-splitter data
 
-`train/` and `test/` -- 150 and 75 PMC articles respectively, both real
+`train/` and `test/` -- 200 and 100 PMC articles respectively, both real
 full text with hand-checked sentence boundaries. `train/` is what the
 bundled model is fit on; `test/` is held out from it, used both to pick
 the best checkpoint during training and to report the scores in the
