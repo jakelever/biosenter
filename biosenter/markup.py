@@ -138,6 +138,24 @@ def render(plain, spans, start=0, end=None):
 
 	clipped = []
 	for span in spans:
+		if span.start == span.end:
+			# A zero-width span (a self-closing tag with no content, e.g.
+			# <br/> -- not just corpora/{train,test}'s <sentence_start/>
+			# convention, any tag with no text between its open and close)
+			# is a *point* annotation, not a range, so it needs point-
+			# membership semantics here rather than interval overlap:
+			# max(span.start, start) < min(span.end, end) is never true
+			# for start == end, since an empty interval never "overlaps"
+			# anything by that definition -- silently dropping every
+			# zero-width span regardless of position, not just ones
+			# outside [start, end). Half-open like the rest of this
+			# function's own [start, end) contract, so a point exactly at
+			# `end` belongs to whichever later call starts there instead
+			# of appearing twice across adjacent render() calls.
+			if start <= span.start < end:
+				clipped.append((span.start - start, 0, span.tag, span.attrs))
+			continue
+
 		span_start = max(span.start, start)
 		span_end = min(span.end, end)
 		if span_start < span_end:
