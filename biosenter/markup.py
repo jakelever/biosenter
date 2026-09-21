@@ -29,12 +29,20 @@ new marked-up text (render()).
 the standard library's XML parser; `render()` goes the other way for any
 character range of the plain text. That round trip is what lets the
 sentence splitter (biosenter/sentences.py) run its model on clean text
-and still emit marked-up sentences.
+and still emit marked-up sentences. The tree<->span conversion itself
+(walking a parsed element tree into flat spans, and back) is delegated
+to `spans_and_trees` -- a small, focused sibling library (also used
+internally by bioconverters) for exactly this, rather than a second
+hand-rolled implementation of the same tree-walking logic living here.
+This module still owns the string<->tree step (_parse()/_try_parse(),
+i.e. deciding whether text is well-formed XML at all) and the `Span`
+type everything outside this module uses.
 """
 
 import xml.etree.ElementTree as ET
 
 from bioconverters.pmc_constants import PMC_KEEP_TAGS
+from spans_and_trees import spans_to_tree, tree_to_spans
 
 # Only these tags are markup. Unlike the lenient regex parser this module
 # used to use, a standard XML parser has no "leave it as text" fallback
@@ -110,71 +118,15 @@ def strip_markup(text):
 	if root is None:
 		return text, []
 
-	parts = []
-	spans = []
-	length = 0
-
-	def emit(chunk):
-		nonlocal length
-		if chunk:
-			parts.append(chunk)
-			length += len(chunk)
-
-	def walk(element):
-		emit(element.text)
-		for child in element:
-			start = length
-			walk(child)
-			spans.append(Span(child.tag, dict(child.attrib), start, length))
-			emit(child.tail)
-
-	walk(root)
+	plain, span_tuples = tree_to_spans(root)
+	spans = [Span(tag, attrs, offset, offset + length) for offset, length, tag, attrs in span_tuples]
+	# tree_to_spans() sorts by (start, -length, tag) -- the trailing tag
+	# tiebreak only matters for two sibling spans with byte-identical
+	# start/end, which real markup never produces (see test_markup.py),
+	# but re-sort to this module's own (start, -end) convention anyway so
+	# spans' ordering doesn't depend on a tiebreak nothing else here uses.
 	spans.sort(key=lambda span: (span.start, -span.end))
-	return ''.join(parts), spans
-
-
-def _nest(flat_spans):
-	"""Flat spans, sorted by (start, -end) and properly nested (guaranteed
-	by coming from a real parse) -> [(span, [nested children]), ...] for
-	the top-level ones, so render() can rebuild an element tree instead of
-	hand-tracking an open/close stack."""
-	remaining = list(flat_spans)
-
-	def consume(limit):
-		items = []
-		while remaining and remaining[0].start < limit:
-			span = remaining.pop(0)
-			items.append((span, consume(span.end)))
-		return items
-
-	return consume(float('inf'))
-
-
-def _fill(parent, cursor, limit, plain, nested):
-	"""Fill `parent` (an ET.Element) with text/children built from `plain`
-	between `cursor` and `limit`, consuming `nested` (see _nest()).
-
-	Text is assigned to .text/.tail *unescaped* -- ET.tostring() escapes
-	special characters in element text automatically during serialisation,
-	so escaping it here too would double-escape ('&lt;' -> '&amp;lt;')."""
-	position = cursor
-	last_child = None
-	for span, children in nested:
-		gap = plain[position:span.start]
-		if last_child is None:
-			parent.text = (parent.text or '') + gap
-		else:
-			last_child.tail = (last_child.tail or '') + gap
-		child = ET.SubElement(parent, span.tag, span.attrs)
-		_fill(child, span.start, span.end, plain, children)
-		last_child = child
-		position = span.end
-
-	gap = plain[position:limit]
-	if last_child is None:
-		parent.text = (parent.text or '') + gap
-	else:
-		last_child.tail = (last_child.tail or '') + gap
+	return plain, spans
 
 
 def render(plain, spans, start=0, end=None):
@@ -189,12 +141,11 @@ def render(plain, spans, start=0, end=None):
 		span_start = max(span.start, start)
 		span_end = min(span.end, end)
 		if span_start < span_end:
-			clipped.append(Span(span.tag, span.attrs, span_start, span_end))
-	clipped.sort(key=lambda span: (span.start, -span.end))
+			# spans_to_tree() takes offsets relative to the text it's given,
+			# not absolute ones -- shift by -start to match plain[start:end].
+			clipped.append((span_start - start, span_end - span_start, span.tag, span.attrs))
 
-	root = ET.Element(_ROOT)
-	_fill(root, start, end, plain, _nest(clipped))
-
+	root = spans_to_tree(plain[start:end], clipped, root_tag=_ROOT)
 	serialised = ET.tostring(root, encoding='unicode')
 	return serialised[len(f'<{_ROOT}>'):-len(f'</{_ROOT}>')]
 
