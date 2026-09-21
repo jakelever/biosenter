@@ -45,6 +45,35 @@ def test_boundary_inside_italic_span_is_merged():
 	assert sentences[0] == text
 
 
+def test_offsets_and_text_correct_for_escaped_text_with_no_tags():
+	# Regression test for the markup.py round-trip bug (see test_markup.py):
+	# entity-decoded, tag-free text used to take split_into_sentences()'s
+	# `not spans` fast path and return offsets into the *decoded* string
+	# while claiming they were offsets into `text` -- text[start:end] would
+	# not equal the returned sentence for any sentence after the first.
+	text = 'Genes account for &gt;98% of cases. A second sentence follows.'
+	sentences = split_into_sentences(text)
+	assert [s for _start, _end, s in sentences] == [
+		'Genes account for &gt;98% of cases.',
+		'A second sentence follows.',
+	]
+	for start, end, sentence in sentences:
+		assert text[start:end] == sentence
+
+
+def test_offsets_and_text_correct_for_bare_markup_characters():
+	# Same offset check for dialect-2 text (a bare '<'/'&' meant literally,
+	# not as markup) -- unaffected by the fix, confirmed rather than assumed.
+	text = 'Particles under <5 nm were observed. Tukey & Fisher reported similar results.'
+	sentences = split_into_sentences(text)
+	assert [s for _start, _end, s in sentences] == [
+		'Particles under <5 nm were observed.',
+		'Tukey & Fisher reported similar results.',
+	]
+	for start, end, sentence in sentences:
+		assert text[start:end] == sentence
+
+
 def test_bundled_model_matches_hand_labelled_test_corpus():
 	# A couple of small, representative articles from corpora/test/ -- not
 	# the full 75-article set (that's evaluate_senter.py's job), just a

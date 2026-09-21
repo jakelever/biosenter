@@ -32,7 +32,6 @@ sentence splitter (biosenter/sentences.py) run its model on clean text
 and still emit marked-up sentences.
 """
 
-import re
 import xml.etree.ElementTree as ET
 
 from bioconverters.pmc_constants import PMC_KEEP_TAGS
@@ -47,19 +46,6 @@ from bioconverters.pmc_constants import PMC_KEEP_TAGS
 # (what its citation injection retags a resolved bibr xref to) rather
 # than hardcoded, so the two can't silently drift apart.
 TAGS = tuple(sorted(PMC_KEEP_TAGS)) + ('citation',)
-
-# Only text extracted via bioconverters' pmcxml2tagged() (see the README)
-# escapes literal '<'/'&'. This module is shared by callers whose text was never
-# meant to carry any markup at all, and that text can legitimately contain
-# a bare '<' ("particles <5 nm"). Requiring it to be well-formed XML would
-# break every one of those callers over ordinary prose that happens to
-# contain our tag names nowhere. So a string is only ever run through the
-# strict XML parser if it could plausibly contain one of *our* tags in the
-# first place; otherwise it is returned untouched, with no spans --
-# "this text is well-formed" is a property that specific bioconverters
-# call has to earn, not one every string passed to this module is assumed
-# to have.
-_LOOKS_LIKE_MARKUP_RE = re.compile('|'.join(rf'</?{tag}\b' for tag in TAGS))
 
 # Synthetic wrapping element: text handed to this module is always a
 # fragment (a sentence, a paragraph), never a single well-formed document
@@ -95,15 +81,35 @@ def _parse(text):
 		) from error
 
 
+def _try_parse(text):
+	"""Like _parse(), but returns None instead of raising when text isn't
+	well-formed XML -- for strip_markup(), which needs to tell "this was
+	never meant to be markup at all" (a bare '<'/'&' in ordinary prose,
+	e.g. "particles <5 nm") apart from a hard error, rather than raising
+	on both alike the way _parse()'s other callers want."""
+	try:
+		return ET.fromstring(f'<{_ROOT}>{text}</{_ROOT}>')
+	except ET.ParseError:
+		return None
+
+
 def strip_markup(text):
 	"""Marked-up text -> (plain_text, [Span, ...]) with span offsets
-	relative to plain_text. Text containing none of TAGS is returned
-	untouched with no spans, without being parsed as XML at all -- see the
-	note on _LOOKS_LIKE_MARKUP_RE."""
-	if not _LOOKS_LIKE_MARKUP_RE.search(text):
+	relative to plain_text. Text that isn't well-formed XML -- a bare
+	'<'/'&' in ordinary prose that was never meant to carry markup -- is
+	returned untouched with no spans instead of raising. Well-formed text
+	with no recognised tags at all is still parsed, not skipped: entity
+	decoding ('&gt;' -> '>') is part of what a real parse does, not just
+	tag-stripping, and there is no cheap way to tell "well-formed, no
+	tags, but has entities to decode" apart from "well-formed, no tags,
+	nothing to decode" without just parsing it. render() has no
+	equivalent skip and always re-escapes on the way back out, so
+	skipping the parse here would silently double-escape a string like
+	'account for &gt;98%' on a strip-then-render round trip."""
+	root = _try_parse(text)
+	if root is None:
 		return text, []
 
-	root = _parse(text)
 	parts = []
 	spans = []
 	length = 0

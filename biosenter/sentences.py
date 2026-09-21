@@ -192,7 +192,16 @@ def split_into_sentences(text, model=None):
 	bounds = [(model_to_plain[start], model_to_plain[end]) for start, end in _segment(model_text, model)]
 	bounds = _attach_trailing_citations(plain, spans, bounds)
 	bounds = _merge_boundaries_inside_spans(spans, bounds)
-	if not spans:
+	if plain == text:
+		# Optimisation: bounds are already offsets into `text` itself, and
+		# there's nothing for render() to re-escape, so skip straight to
+		# slicing. Deliberately `plain == text`, not `not spans` -- those
+		# aren't equivalent: text with entities but no tags (e.g. "account
+		# for &gt;98%") has no spans either, but strip_markup() still
+		# decodes it, so `plain` is shorter than `text` and `bounds` are
+		# offsets into the *decoded* string. Slicing `plain` directly would
+		# be correct text but wrong offsets; falling through to render()
+		# below re-escapes and remaps them back onto `text` correctly.
 		return [(start, end, plain[start:end]) for start, end in bounds]
 
 	offsets = marked_offsets(plain, spans, [offset for bound in bounds for offset in bound])
