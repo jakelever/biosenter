@@ -90,7 +90,7 @@ test set against its 1,233.
 `?`/`!` is a known weakness, not a win: 14 of 23, where the plain
 rule-based sentencizer gets 21. The previous release got 0 of 23 -- the
 corpus only grew question/exclamation boundaries recently and there are
-still just 82 of them in `corpus/train/`, which is not enough for the
+still just 83 of them in `corpus/train/`, which is not enough for the
 model to learn the pattern outright. Only 23 boundaries in this test set
 turn on it, so it barely moves the headline F1, but it is the clearest
 thing to fix next.
