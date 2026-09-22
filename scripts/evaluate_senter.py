@@ -1,7 +1,7 @@
 """Score a sentence splitter against the hand-labelled PMC/PubMed eval set
 (and, optionally, any other spaCy-Doc-boundary test set you supply).
 
-corpora/test/ exists precisely because generic sentence-splitter
+corpus/test/ exists precisely because generic sentence-splitter
 benchmarks don't contain much of what actually breaks this pipeline --
 "Fig. 1", "et al.", "no. 21", "p.G2019S", "Cannabis sativa L.", "St.
 Louis", "(N.A. 0.25)".
@@ -22,7 +22,7 @@ from spacy.tokens import DocBin
 from biosenter.sentences import split_into_sentences
 
 # Marks the start of every gold sentence after the first, directly inside
-# corpora/{train,test}'s "text" fields -- the first sentence always starts
+# corpus/{train,test}'s "text" fields -- the first sentence always starts
 # at 0, so it needs no marker. Scoped to this eval tooling rather than
 # biosenter/markup.py's TAGS: it is a zero-width annotation artifact,
 # never present in a real doc record, unlike <italic>/<xref>/<sup>/<sub>
@@ -94,7 +94,7 @@ def _evaluate_docbin(nlp, path):
 
 
 def _load_dir_entries(dir_path):
-	"""corpora/train or corpora/test's schema: one file per article,
+	"""corpus/train or corpus/test's schema: one file per article,
 	{pmid, pmcid, source, passages: [{section, text}]}. Flattened to
 	{pmid, pmcid, source, section, text}, one entry per passage."""
 	entries = []
@@ -140,7 +140,7 @@ def main():
 		help="Model paths to score, and/or the literal 'rule' for the rule-based baseline")
 	parser.add_argument('--docbin_test', default=None, type=str, help='An optional plain spaCy DocBin test set')
 	parser.add_argument('--pmc_eval_dir', default=None, type=str,
-		help='corpora/test or corpora/train (one file per article, {pmid,pmcid,source,passages})')
+		help='corpus/test or corpus/train (one file per article, {pmid,pmcid,source,passages})')
 	parser.add_argument('--verbose', action='store_true', help='Print every individual error on the PMC set')
 	args = parser.parse_args()
 

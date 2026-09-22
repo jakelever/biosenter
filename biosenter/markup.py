@@ -140,7 +140,7 @@ def render(plain, spans, start=0, end=None):
 	for span in spans:
 		if span.start == span.end:
 			# A zero-width span (a self-closing tag with no content, e.g.
-			# <br/> -- not just corpora/{train,test}'s <sentence_start/>
+			# <br/> -- not just corpus/{train,test}'s <sentence_start/>
 			# convention, any tag with no text between its open and close)
 			# is a *point* annotation, not a range, so it needs point-
 			# membership semantics here rather than interval overlap:

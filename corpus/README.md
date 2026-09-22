@@ -74,5 +74,5 @@ automatically applied.
 ```
 python scripts/evaluate_senter.py \
   --models rule biosenter/model \
-  --pmc_eval_dir corpora/test --verbose
+  --pmc_eval_dir corpus/test --verbose
 ```

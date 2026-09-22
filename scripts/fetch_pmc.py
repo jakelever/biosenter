@@ -165,7 +165,7 @@ def search_pmcids(query, n, commercial_only=True, exclude=frozenset()):
 	clinical-genetics case reports carrying protein/cDNA variant notation
 	(p.G2019S, c.6055G>A), which is vanishingly rare in an unweighted random
 	sample (~4 mentions across an entire 182-article batch, see
-	corpora/README.md's "Known gap").
+	corpus/README.md's "Known gap").
 
 	Same license-check and content-caching behaviour as random_pmcids();
 	`exclude` additionally skips PMCIDs already present elsewhere (e.g. in
