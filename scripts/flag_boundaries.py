@@ -51,11 +51,27 @@ _ABBREVIATIONS = {
 # contribution statements are made of them.
 _INITIALS_RE = re.compile(r'^(?:[a-z]\.)*[a-z]$')
 
+# A full stop, a short run of digits (one citation, or a comma/dash-joined
+# run of them), then the start of what reads like a new sentence. The
+# lookbehind wants *two* word characters before the stop, which keeps out
+# decimals ("pH 7.4 The..."), software versions ("SPSS Statistics v.30
+# (IBM...") and HGVS notation ("a mutation (c.694 A>T, p.I232F)") -- all
+# of which are one letter or digit in front of the dot, never a citation.
+_NUMERIC_MARKER_RE = re.compile(r'[\[(]?[\d,;\u2013\u2014\- ]+[\])]?')
+
+_STRANDED_CITATION_RE = re.compile(
+	r'(?<=[A-Za-z)\]\u2019\u201d"\'][A-Za-z)\]\u2019\u201d"\'])'
+	r'\.(?:\d{1,3}(?:\s?[,\u2013\u2014-]\s?\d{1,3})*)\s+(?=[A-Z\u201c"(\[])')
+
+
 # A sentence may legitimately end on one of these *after* its terminal
 # punctuation -- a closing quote, a bracket, a trademark symbol.
 _TRAILING_CHARS = '"\'’”)]}®™  \t'
 
 _TERMINAL_PUNCTUATION = '.?!'
+
+# A citation run hanging off the end of a sentence, after its full stop.
+_TRAILING_CITATION_RE = re.compile(r'(?<=[.?!])\s*[\[(]?\d{1,3}(?:\s?[,;\u2013\u2014-]\s?\d{1,3})*[\])]?\s*$')
 
 # Headings, list items, table cells and captions routinely carry no
 # terminal punctuation at all and are a passage unto themselves, so an
@@ -108,7 +124,9 @@ def check_no_terminal_punctuation(index, plain, spans, previous, n_sentences):
 	into the next), or a missing full stop in the source."""
 	if index == n_sentences - 1:
 		return None
-	stripped = plain.rstrip(_TRAILING_CHARS)
+	# A sentence that ends on its own trailing citation run ("...a chip.22")
+	# is punctuated correctly; the marker just sits after the stop.
+	stripped = _TRAILING_CITATION_RE.sub('', plain.rstrip(_TRAILING_CHARS)).rstrip(_TRAILING_CHARS)
 	if stripped and stripped[-1] not in _TERMINAL_PUNCTUATION:
 		return f'sentence ends {stripped[-1]!r}, not terminal punctuation'
 	return None
@@ -137,16 +155,17 @@ def check_internal_period(index, plain, spans, previous, n_sentences):
 	"""A full stop mid-sentence followed by a capitalised word, where the
 	preceding word is not a known abbreviation -- a missed boundary, or a
 	dotted form this screen doesn't know about."""
+	hits = []
 	for match in re.finditer(r'(\S*?)\.["\'’”)\]]*\s+(?=[A-Z])', plain):
 		word = match.group(1).lower().lstrip('([“"\'')
 		if word in _ABBREVIATIONS or len(word) <= 1 or any(character.isdigit() for character in word):
 			continue
 		if _INITIALS_RE.match(word):
 			continue
-		if word.endswith('.'):  # an initialism like "U.S." that ends on its own dot
-			continue
-		return f'internal {word + "."!r} + capital'
-	return None
+		# Every hit, not just the first: a sentence full of "Mt. Etna" can
+		# still hide one real missed boundary further along.
+		hits.append(f'{word}. {plain[match.end():match.end() + 12]}')
+	return 'internal ' + '; '.join(repr(hit) for hit in hits) if hits else None
 
 
 def check_abbreviation_end(index, plain, spans, previous, n_sentences):
@@ -157,20 +176,38 @@ def check_abbreviation_end(index, plain, spans, previous, n_sentences):
 
 
 def check_leading_citation(index, plain, spans, previous, n_sentences):
-	"""A sentence that opens with a citation marker: the citation belongs
-	to the claim in the *previous* sentence, and has been stranded at the
-	head of this one."""
+	"""A sentence that opens with a bare citation marker: the citation
+	belongs to the claim in the *previous* sentence, and has been stranded
+	at the head of this one.
+
+	Only numeric markers count. A narrative citation ("Allen et al. (2011)
+	found that...") is the subject of its own sentence and belongs exactly
+	where it is -- bioconverters marks up the whole phrase, author name
+	included, so the two are easy to tell apart."""
 	if index == 0:
 		return None
 	citations = [span for span in spans if span.tag == 'citation']
 	if not citations:
 		return None
+	if not _NUMERIC_MARKER_RE.fullmatch(plain[citations[0].start:citations[0].end]):
+		return None
 	# Only brackets/whitespace between the boundary and the marker: the
 	# sentence genuinely opens on it rather than merely containing one.
-	prefix = plain[:citations[0].start]
-	if all(character in ' ([ \t' for character in prefix):
+	if all(character in ' \t\u00a0([' for character in plain[:citations[0].start]):
 		return f'opens on a citation marker: {plain[:citations[0].end + 3]!r}'
 	return None
+
+
+def check_stranded_citation_run(index, plain, spans, previous, n_sentences):
+	"""Digits glued onto a mid-sentence full stop, then a capitalised word
+	("...of a chip.22 Real-time mapping...") -- a superscript citation the
+	publisher set after the stop, which bioconverters did not resolve into
+	a <citation> marker. The splitter cannot fix these itself: with the
+	digits left in the text "chip.22" is a single token, so there is no
+	boundary to offer, and the citation ends up reading as part of the
+	next sentence. The boundary belongs after the digit run."""
+	match = _STRANDED_CITATION_RE.search(plain)
+	return f'stranded citation run: ...{plain[max(0, match.start() - 30):match.end() + 20]!r}' if match else None
 
 
 def check_trailing_dangle(index, plain, spans, previous, n_sentences):

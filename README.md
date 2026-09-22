@@ -58,6 +58,10 @@ for meta, text in pmcxml2tagged('PMC1234567.xml'):
 Sentence-boundary F1 against `corpus/validation/` (100 PMC articles held out
 from training) excluding the formatting/citation handling.
 The articles used to train and evaluate with were annotated by Claude Sonnet and Opus.
+`corpus/test/` is a separate, randomly-sampled 100 articles that nothing
+has been fitted or selected against; the bundled model scores F1 0.9947
+(P 0.9964, R 0.9931) there, but see `corpus/README.md` on why any
+bootstrapped split flatters the model it was bootstrapped from.
 
 | Model | `corpus/validation/` |
 |---|---|
@@ -91,9 +95,10 @@ python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpus/
 The bundled model, the corpus it was trained on, and the tooling to rebuild
 or extend either are all included:
 
-- `corpus/train/`, `corpus/validation/` and `corpus/test/` -- LLM-annotated
-  PMC articles used to train, tune and score the bundled model. See `corpus/README.md` for
-  the dataset schema and how it was built.
+- `corpus/train/` (300), `corpus/validation/` (100) and `corpus/test/`
+  (100) -- LLM-annotated PMC articles used to train, tune and score the
+  bundled model. See `corpus/README.md` for the dataset schema, the
+  annotation conventions, and how it was built.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
   by PMCID), filtered to commercially-redistributable licenses by default.
 - `scripts/build_senter_corpus.py` -- turn fetched XML into corpus records
