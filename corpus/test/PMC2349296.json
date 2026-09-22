@@ -1,0 +1,327 @@
+{
+ "pmid": 18426551,
+ "pmcid": 2349296,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Comparative analysis of five protein-protein interaction corpora"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Growing interest in the application of natural language processing methods to biomedical text has led to an increasing number of corpora and methods targeting protein-protein interaction (PPI) extraction. <sentence_start/>However, there is no general consensus regarding PPI annotation and consequently resources are largely incompatible and methods are difficult to evaluate."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "We present the first comparative evaluation of the diverse PPI corpora, performing quantitative evaluation using two separate information extraction methods as well as detailed statistical and qualitative analyses of their properties. <sentence_start/>For the evaluation, we unify the corpus PPI annotations to a shared level of information, consisting of undirected, untyped binary interactions of non-static types with no identification of the words specifying the interaction, no negations, and no interaction certainty."
+  },
+  {
+   "section": "abstract",
+   "text": "We find that the F-score performance of a state-of-the-art PPI extraction method varies on average 19 percentage units and in some cases over 30 percentage units between the different evaluated corpora. <sentence_start/>The differences stemming from the choice of corpus can thus be substantially larger than differences between the performance of PPI extraction methods, which suggests definite limits on the ability to compare methods evaluated on different resources. <sentence_start/>We analyse a number of potential sources for these differences and identify factors explaining approximately half of the variance. <sentence_start/>We further suggest ways in which the difficulty of the PPI extraction tasks codified by different corpora can be determined to advance comparability. <sentence_start/>Our analysis also identifies points of agreement and disagreement in PPI corpus annotation that are rarely explicitly stated by the authors of the corpora."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Our comparative analysis uncovers key similarities and differences between the diverse PPI corpora, thus taking an important step towards standardization. <sentence_start/>In the course of this study we have created a major practical contribution in converting the corpora into a shared format. <sentence_start/>The conversion software is freely available at ."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Natural language processing (NLP) methods have recently been widely applied to improve access to the enormous and rapidly growing amount of information that is available mainly in the biomedical research literature. <sentence_start/>Protein-protein interactions (PPI) are the most widely studied information extraction (IE) target in the BioNLP field, with the key subproblem of protein name recognition being the most commonly addressed task."
+  },
+  {
+   "section": "article",
+   "text": "Recent shared tasks and studies of biomedical named entities have increasingly clarified the concept of a protein name, brought about a rough consensus on how to annotate them, and established both the best-performing entity name recognition methods and their performance (see e.g. [<citation ref-type=\"bibr\" rid=\"B1\" count=\"1\">1</citation>,<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1186/1471-2105-6-S1-S1\" pmcid=\"PMC1869002\" pmid=\"15960821\" count=\"1\">2</citation>]). <sentence_start/>By contrast, little such standardization has occurred for PPI. <sentence_start/>Proposed PPI extraction methods are evaluated on test sets of widely differing sizes, domains and annotation schemes, and the reported results vary substantially, with, for example, recently proposed full parsing-based methods reporting F-scores ranging at least from 34% to 80% [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"15033866\" doi=\"10.1093/bioinformatics/btg452\" count=\"1\">3</citation>,<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>]. <sentence_start/>Even a shallow survey of PPI corpora suffices to establish that their annotations differ widely, yet no comparative study has so far been performed to quantify these differences or identify their source. <sentence_start/>Consequently, the BioNLP community faces a situation where it is difficult, if not impossible, to reliably identify the best published methods and techniques due to a lack of information on the comparability of their evaluated performance."
+  },
+  {
+   "section": "article",
+   "text": "Lacking explicit, widely accepted definitions of PPI and their annotation, the best way to approach these topics is through the corpora produced by the groups studying PPI extraction. <sentence_start/>By analyzing corpora it is possible to identify points of agreement and disagreement regarding the definition of a protein-protein interaction and how they should be annotated, thus taking a step toward reaching a consensus on this topic. <sentence_start/>A comparative evaluation of PPI extraction methods on the various corpora could also complement broad single-corpus evaluation efforts such as BioCreative [<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1186/1471-2105-6-S1-S1\" pmcid=\"PMC1869002\" pmid=\"15960821\" count=\"1\">2</citation>] and help determine the extent to which results of evaluations performed on different corpora are comparable and improve the ability to evaluate and compare methods for PPI extraction. <sentence_start/>This analysis and evaluation is the aim of this study. <sentence_start/>We survey five biomedical corpora manually annotated for PPI to identify their key similarities and differences. <sentence_start/>We identify the \u201cgreatest common factor\u201d level of PPI annotation that is capable of capturing the main annotations of all the corpora, and we introduce normalizing transformations from the various corpora to a common format, thus allowing them to be combined into a large, multi-domain PPI corpus. <sentence_start/>Using the unified annotations and a re-implementation of a recently proposed state-of-the-art PPI extraction method as a benchmark, we perform an evaluation of the relative difficulty of the PPI extraction tasks codified by the corpora, providing the first quantitative comparative PPI corpus analysis. <sentence_start/>We then proceed to study the properties of the corpora contributing toward these differences, analyzing the potential sources of divergence and their importance."
+  },
+  {
+   "section": "article",
+   "text": "Results and discussion"
+  },
+  {
+   "section": "article",
+   "text": "In the following, we describe and present analysis results of the five selected corpora: AIMed, BioInfer, HPRD50, IEPA, and LLL. <sentence_start/>See the Materials and Methods section for further details regarding the corpora, their selection, and the evaluation methodology."
+  },
+  {
+   "section": "article",
+   "text": "Characterization of the corpora"
+  },
+  {
+   "section": "article",
+   "text": "Table 1 summarizes many of the characteristics of the corpora, determined by studying the publications and documentation describing the corpora as well as the corpora themselves. <sentence_start/>We first briefly discuss these general properties and their relevance to the PPI extraction task before proceeding to more detailed analyses. <sentence_start/>Note that while many corpora contain annotation for a broader class of entities than just proteins and a set of relationships broader than interactions, we will use \u201cPPI\u201d to refer to all of these annotations due to the pervasiveness of this term in the literature."
+  },
+  {
+   "section": "article",
+   "text": "All five corpora contain annotation identifying entities such as proteins and genes in the text, but only LLL and BioInfer contain information regarding the types of the entities, and for LLL, this is limited to distinguishing between genes and proteins. <sentence_start/>More importantly for use in PPI extraction system development, only the AIMed and BioInfer corpora aim to include exhaustive annotation of entities of the types relevant to the corpus, while other corpora have based entity annotation on lists of entity names or named entity recognizer output."
+  },
+  {
+   "section": "article",
+   "text": "The differences in interaction annotation are even greater than those in entity annotation: in particular, only the BioInfer and IEPA corpora contain information identifying the words stating an interaction, all but HPRD50 specify the direction of interactions, BioInfer alone contains complex or negative interactions, and only HPRD50 annotates different interaction certainties. <sentence_start/>Finally, BioInfer is the only corpus to contain annotation for static entity relations such as protein family membership. <sentence_start/>These properties dictate the greatest common factor for the purpose of unifying the corpora and evaluating them with a shared methodology: undirected, untyped interactions of non-static types with no text binding of words specifying the interaction, no complex structure, no negations, and no interaction certainty. <sentence_start/>We created custom software for each corpus, filtering and transforming its data into such a unifying subset (see the Materials and Methods section for more details). <sentence_start/>All results and discussion below concern these transformed versions of the corpora. <sentence_start/>Unfortunate as it may be that other information is discarded when unifying the corpora, this level of annotation is also a reflection of the state of the art in biomedical IE methods, and doesn't presently limit the applicability of the resulting dataset."
+  },
+  {
+   "section": "article",
+   "text": "PPI extraction performance"
+  },
+  {
+   "section": "article",
+   "text": "We next present evaluation results for the unified corpora using two PPI extraction methods as benchmarks: a simple co-occurrence based method and RelEx [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>], a full parsing-based IE system with state-of-the-art performance. <sentence_start/>Our use of these methods is not primarily intended as an evaluation of these methods, but rather of the corpora. <sentence_start/>We use the gold standard named entities as annotated in each corpus with both methods."
+  },
+  {
+   "section": "article",
+   "text": "The performance of the two methods on the various corpora is given in Table 2. <sentence_start/>Note that for simple co-occurrence, all pairwise interactions are extracted, but all self-interactions are missed - thus recall is trivially 100% for corpora that have no self-interactions and lower for those that do. <sentence_start/>Even though notable differences in F-score results were expected, their magnitude is striking: for example, on the LLL corpus F-score error is just 34%, while on AIMed and BioInfer it is over 70%."
+  },
+  {
+   "section": "article",
+   "text": "For RelEx, we find that F-score performance is better for all corpora than for co-occurrence. <sentence_start/>We note that the performance of the two methods correlates closely (see Figure 1); the relative reduction in F-score error from the co-occurrence method to RelEx is relatively consistent, ranging from 21-32% between the different corpora. <sentence_start/>This highlights the value of applying a baseline method to establish the relative difficulty of an extraction task. <sentence_start/>However, great differences remain in performance between corpora: for example, the use of the advanced method does not reduce the over twofold increase in error from LLL to the AIMed and BioInfer corpora. <sentence_start/>Given these results, it is clear that differences stemming from the choice of corpus can be substantially larger than differences in the performance of PPI extraction methods. <sentence_start/>Indeed, the average absolute F-score difference between the co-occurrence and RelEx methods is just 13%, while the average difference between pairs of these corpora as measured by RelEx is a remarkably large 19%. <sentence_start/>Thus, here <italic>the choice of corpus has a larger effect on the result than the choice between a naive PPI extraction method and an advanced one</italic>. <sentence_start/>This has the immediate and important implication that results for methods evaluated on different corpora should in general not be directly compared, and suggests limits on how meaningful such comparisons are when the comparability of the corpora has not been established. <sentence_start/>This result can also be seen as calling into question whether F-score is a meaningful performance measure for PPI extraction, but we expect that its position as a <italic>de facto</italic> standard is unlikely to be shaken."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "RelEx and co-occurrence F-scores for the five corpora"
+  },
+  {
+   "section": "article",
+   "text": "Corpus statistics"
+  },
+  {
+   "section": "article",
+   "text": "In the following, we aim to identify some of the factors behind the broadly diverging PPI extraction performance between corpora. <sentence_start/>Table 3 shows a number of key statistics measured from the corpora. <sentence_start/>We first note that while all corpora except AIMed have at least one annotated entity for each sentence, the fraction of sentences with no annotated interactions varies from zero to more than two thirds. <sentence_start/>This may reflect the corpus authors' different views regarding the appropriate starting point for extraction, in particular on how aggressively non-relevant sentences can be filtered out. <sentence_start/>While the fraction of sentences without interactions appears to be loosely connected to RelEx performance, the correlation is not statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "More significantly, we observe that the average number of annotated entities per sentence varies almost twofold from just above two to more than four, translating to even greater differences in the average number of entity pairs: here we find e.g. an over fivefold difference between IEPA and BioInfer. <sentence_start/>The average number of annotated interactions per sentence also varies considerably, from just half on AIMed to more than two on LLL. <sentence_start/>These last two statistics are connected to co-occurrence based PPI extraction performance through a simple relationship: the average number of interactions divided by the average number of entity pairs per sentence (below abbreviated <italic>I/EP</italic>) equals the precision of the co-occurrence method evaluated above. <sentence_start/>Further, as recall for this method can be approximated to be 1 (ignoring rare self-interactions), where <italic>p</italic> is precision and <italic>r</italic> recall. <sentence_start/><italic>I/EP</italic> correlates closely with RelEx performance, although due in part to the conservativeness of the significance test we apply, this correlation is only weakly significant (<italic>p</italic> \u2248 0.08). <sentence_start/>We propose that <italic>I/EP</italic> may serve as a rough, easily computable baseline for determining the comparative difficulty of PPI extraction tasks across corpora. <sentence_start/>As more proteins are annotated, we would not expect <italic>I</italic> to grow more than linearly, while <italic>EP</italic> grows quadratically."
+  },
+  {
+   "section": "article",
+   "text": "These results suggest that much of the difference between the corpora is due to the simple factors <italic>I</italic> and <italic>EP</italic>, but do not show it conclusively-it is possible that the correlation with RelEx performance is due to other factors or only coincidental. <sentence_start/>We can test the effect on RelEx performance by removing from the annotation proteins for which there is no interaction, thus reducing <italic>EP</italic>. <sentence_start/>The result of performing this filtering on the corpora is shown in Table 4 and illustrated in Figure 2. <sentence_start/>The filtering results in a substantial narrowing of RelEx performance differences between the corpora, bringing the average difference down from 19% to 11%. <sentence_start/>Thus, we find that <italic>annotation of proteins for which there is no annotated interaction determines almost half of the performance difference between corpora</italic>. <sentence_start/>Remarkably, filtering also causes the simple co-occurrence method to outperform the more advanced method on all corpora except LLL, where no entities are filtered. <sentence_start/>This further indicates that evaluation on corpora that mainly include annotation for interacting entities leads to a substantial bias toward favoring methods that emphasize recall over precision. <sentence_start/>While the above analysis explains almost half of the average performance difference between corpora, an over 10% average pairwise difference remains. <sentence_start/>Further, a pure statistical analysis cannot shed light onto the key question of where the differences measured by the statistics arise from. <sentence_start/>To illuminate these issues, we next proceed to a qualitative analysis of the corpora."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>RelEx and co-occurrence F-scores for the filtered version of the corpora.</bold> <sentence_start/>Unfiltered results given in Figure 1 shown in gray for reference."
+  },
+  {
+   "section": "article",
+   "text": "Qualitative analysis"
+  },
+  {
+   "section": "article",
+   "text": "To examine how each of the five chosen corpora defines a protein-protein interaction and to what extent the annotations agree, a random sample of 50 interactions from each corpus was examined by two annotators with expertise in biology and corpus annotation. <sentence_start/>Each interaction was analysed with respect to five aspects: type, directness, explicitness, certainty, and polarity (defined in detail in the Materials and Methods section)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3 shows the distribution of interaction types in the various corpora across the BioInfer ontology - for definitions of the types, see [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"17291334\" doi=\"10.1186/1471-2105-8-50\" pmcid=\"PMC1808065\" count=\"1\">5</citation>]. <sentence_start/>There are many similarities and some important differences in the distributions. <sentence_start/>We note that a clear majority of all interactions fall under the <italic>Causal-Change</italic> subtree of the BioInfer ontology, with the BioInfer corpus having the most exceptions to this rule. <sentence_start/>The interactions in the <italic>Causal-Change</italic> subtree correspond to events occurring as part of biochemical processes in living cells as opposed to static, non-event relations such as family membership and structural similarity. <sentence_start/>This supports our understanding that the corpora do not contain notable annotation of static relations between entities, with the exception of BioInfer, from which most static relations were filtered. <sentence_start/>The most common specific type were interactions related to a <italic>Change</italic> in the <italic>Physical</italic> properties of entities, with the IEPA corpus a notable outlier in containing no interactions of this type. <sentence_start/>We observe that the corpus type distributions, while surprisingly different, appear to mostly follow the definitions of \u201cinteraction\u201d in the corpora, with e.g. IEPA interactions focusing on <italic>Change</italic> in <italic>Amount</italic> and <italic>Dynamics</italic> (see the Corpora section)."
+  },
+  {
+   "section": "article",
+   "text": "To identify similarities in the type distributions of the corpora, we evaluated the correlation of the interaction type frequencies, using the non-cumulative counts (see Figure 3). <sentence_start/>This analysis suggests that the AIMed, BioInfer and HPRD50 corpora have the most similar type distributions, with IEPA and, to a lesser extent, LLL standing out with different distributions. <sentence_start/>However, this clustering cuts across any trends that could be seen in the PPI extraction performance results, with HPRD50 in particular clustering with IEPA and LLL on performance but with AIMed and BioInfer with respect to types. <sentence_start/>This analysis does thus not support the hypothesis that interaction type alone would be a deciding factor for PPI extraction performance."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Distribution of interaction types in the corpora as mapped to the BioInfer ontology.</bold> <sentence_start/>In cases where the reason why an interaction was annotated could not be identified the supplemental <italic>Out of Ontology</italic> type was assigned. <sentence_start/>Empty cells represent zero count."
+  },
+  {
+   "section": "article",
+   "text": "We now turn to the results of the analysis regarding the directness, explicitness, certainty, and polarity of the corpus interactions (see Table 5). <sentence_start/>The clearest universal trend is that almost all annotated interactions in all analysed corpora are positive; as noted above, explicitly marked negative statements in BioInfer were filtered out prior to analysis. <sentence_start/>Machine-learning based PPI extraction systems trained and tested on such data will aim not to extract negative interactions, and several rule-based systems explicitly avoid their extraction (see e.g. [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>,<citation ref-type=\"bibr\" rid=\"B6\" count=\"1\">6</citation>]). <sentence_start/>Thus, omitting negative statements is currently appropriate in evaluation-systems should be evaluated with respect to their intended coverage. <sentence_start/>We also observe that a great majority of all annotated interactions in all corpora were definite. <sentence_start/>However, in the light of the estimate of Light et al. [<citation ref-type=\"bibr\" rid=\"B7\" count=\"1\">7</citation>] that only 11% of sentences in PubMed abstracts contain speculation this is more likely due to the relative rarity of speculative statements than to a decision to avoid annotating them. <sentence_start/>Indeed, the results suggest that all corpora annotate speculative statements roughly as frequently as they would be expected to appear."
+  },
+  {
+   "section": "article",
+   "text": "By contrast to these aspects, the results for directness and explicitness are less uniform. <sentence_start/>The greatest divergence is in directness, where only very few interactions in IEPA are direct, a clear minority in LLL, about half in BioInfer and HPRD50, and a clear majority in AIMed. <sentence_start/>This reflects in part the types of the annotated interactions, but it also makes it clear that unlike some efforts to extract interaction networks (e.g. [<citation ref-type=\"bibr\" rid=\"B8\" pmid=\"15016385\" doi=\"10.1016/j.jbi.2003.10.001\" count=\"1\">8</citation>]), the corpora do not aim to separate direct interactions from indirect ones. <sentence_start/>The fraction of explicit statements ranges from about half on AIMed to almost 90% on IEPA, and here one might tentatively hope to recognize a connection to PPI extraction performance, with AIMed and BioInfer having low scores and the three other corpora high scores on both metrics. <sentence_start/>However, this correlation was not statistically significant, possibly in part due to small sample size and the presence of confounding factors."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, the qualitative analyses uncovered several similarities and differences between the corpora with respect to many of the analysed characteristics, identifying some of the often unstated rules applied in PPI annotation. <sentence_start/>Nevertheless, although we studied several potentially relevant factors, the analysis did not identify a clear reason for the remaining over 10% average PPI extraction performance difference between corpora. <sentence_start/>These results suggest that the remaining differences may, in fact, be largely due to idiosyncrasies of the corpora instead of general properties. <sentence_start/>As an example of such a feature, we note that approximately 5% of interactions in the AIMed corpus are self-interactions (a single protein interacting with itself), which the methods applied here do not attempt to extract - and essentially no self-interactions occur in the other corpora. <sentence_start/>Further regularities might also be uncovered by the use of additional benchmark methods, and we expect analysis applying machine-learning approaches to be a particularly fruitful avenue of further research in comparative PPI corpus analysis."
+  },
+  {
+   "section": "article",
+   "text": "Recommendations and best practices"
+  },
+  {
+   "section": "article",
+   "text": "The results of our evaluation underline the importance of establishing the relative difficulty of the extraction tasks represented by corpora. <sentence_start/>Based on these results, we strongly recommend that corpus creators and PPI extraction method evaluations measure this difficulty by reporting performance for an established baseline method or, minimally, simple corpus statistics such as<italic> I/EP</italic>. <sentence_start/>The use of standard datasets, metrics, and evaluation protocols is naturally also important. <sentence_start/>We further recommend evaluation on several corpus resources: with the five corpora considered in this study now available in a common format, we believe that future PPI extraction system evaluations would be enhanced by reporting performance for all of these corpora, thus obtaining broader insight into system performance."
+  },
+  {
+   "section": "article",
+   "text": "In corpus annotation, we would stress in particular the value of annotation manuals or similar documentation and the use of standoff annotation and XML formats in making corpora accessible to users. <sentence_start/>Cohen et al. [<citation ref-type=\"bibr\" rid=\"B9\" pmcid=\"PMC1560643\" pmid=\"16779021\" count=\"1\">9</citation>] discuss in detail these and other valuable recommendations for corpus development based on an analysis of several biomedical domain corpora. <sentence_start/>As one of the main outcomes of this study, we established a clear relationship between the annotation of non-interacting entities and the performance of the PPI system: performance on corpora that annotate all entities of the relevant type, arguably a realistic model of the real PPI extraction task, was considerably lower. <sentence_start/>Based on this finding, we recommend the annotation of all relevant entities in subsequent corpus development projects. <sentence_start/>Finally, in moving forward from the current, relatively low level of shared corpus annotation, we would like to emphasize the value of annotating the direction of interactions as well as specific annotation for negative statements of interactions. <sentence_start/>These practices would benefit both evaluation and users of the extracted interactions."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "We have presented the first comparative evaluation of PPI corpora, studying the AIMed, BioInfer, HPRD50, IEPA, and LLL corpora. <sentence_start/>Our evaluation showed great divergence in PPI extraction performance between corpora, finding an average F-score difference of 19% for a recently proposed extraction method. <sentence_start/>We studied the properties of the corpora to identify factors causing these differences, and established that approximately half of the performance difference between corpora stems from the annotation given to non-interacting entities. <sentence_start/>We also performed a detailed qualitative analysis of the corpora, uncovering notable differences in the distribution of interaction types and identifying often-unstated points of agreement and disagreement in annotation regarding negation, speculative statements, the explicitness of annotated statements, and the directness of the corpus interactions."
+  },
+  {
+   "section": "article",
+   "text": "As a major practical contribution of this study, we have defined a conversion for each corpus into a shared annotation scheme, allowing the diverse PPI corpora to be merged into a large, multi-domain corpus. <sentence_start/>The conversion programs are freely available at ."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "Corpora"
+  },
+  {
+   "section": "article",
+   "text": "For the survey, we selected freely available PPI corpora with specifically identified named entities and manually annotated interactions. <sentence_start/>We further required that negative examples of PPI be either explicitly marked or that they can be validly generated under the closed-world assumption. <sentence_start/>These criteria are approximately minimal for evaluation using the general type of extraction methods applied in this study. <sentence_start/>We selected all corpora fulfilling these requirements that we were aware of, including those that were included at the time of selection in the public resource collecting information regarding BioNLP corpora maintained by Cohen et al. [<citation ref-type=\"bibr\" rid=\"B9\" pmcid=\"PMC1560643\" pmid=\"16779021\" count=\"1\">9</citation>,<citation ref-type=\"bibr\" rid=\"B10\" count=\"1\">10</citation>]. <sentence_start/>The following corpora were selected: the large recently introduced PPI evaluation corpora AIMed [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.artmed.2004.07.016\" pmid=\"15811782\" count=\"1\">11</citation>] and BioInfer [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"17291334\" doi=\"10.1186/1471-2105-8-50\" pmcid=\"PMC1808065\" count=\"1\">5</citation>], the HPRD50 corpus annotated by Fundel et al. [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>], the <italic>IEPA</italic> corpus [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1142/9789812799623_0031\" pmid=\"11928487\" count=\"1\">12</citation>], and the PPI corpus produced for the LLL challenge [<citation ref-type=\"bibr\" rid=\"B13\" count=\"1\">13</citation>]. <sentence_start/>In the following, we briefly describe each of the corpora."
+  },
+  {
+   "section": "article",
+   "text": "<italic>AIMed</italic> is a corpus created for PPI extraction method comparison [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.artmed.2004.07.016\" pmid=\"15811782\" count=\"1\">11</citation>,<citation ref-type=\"bibr\" rid=\"B14\" count=\"1\">14</citation>]. <sentence_start/>The corpus was created from 200 PubMed abstracts identified by the Database of Interacting Proteins (DIP) [<citation ref-type=\"bibr\" rid=\"B15\" count=\"1\">15</citation>] as containing protein-protein interactions. <sentence_start/>The abstracts were subsequently manually annotated for interactions between human genes and proteins. <sentence_start/>In addition to the 200 PPI abstracts, further 30 abstracts containing no PPIs were added to the corpus as negative examples. <sentence_start/>The current release of corpus consists of 225 of these abstracts."
+  },
+  {
+   "section": "article",
+   "text": "<italic>BioInfer</italic> was created as a corpus for training and testing PPI extraction programs [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"17291334\" doi=\"10.1186/1471-2105-8-50\" pmcid=\"PMC1808065\" count=\"1\">5</citation>,<citation ref-type=\"bibr\" rid=\"B16\" count=\"1\">16</citation>]. <sentence_start/>The corpus consists of sentences from PubMed abstracts that contain at least one pair of interacting proteins as defined by the Database of Interacting Proteins. <sentence_start/>A random subset of these sentences was annotated by the corpus authors for all entities of the protein, gene and RNA types, as well as related entity types such as processes and properties when these were involved in annotated relationships. <sentence_start/>All of the interactions between these entities were annotated, including static relations."
+  },
+  {
+   "section": "article",
+   "text": "The <italic>HPRD50</italic> corpus was created as a test set for the RelEx system [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>,<citation ref-type=\"bibr\" rid=\"B17\" count=\"1\">17</citation>]. <sentence_start/>It was created from sentences from 50 abstracts referenced by the Human Protein Reference Database (HPRD). <sentence_start/>Human gene and protein names were automatically identified in these sentences with the ProMiner software. <sentence_start/>Direct physical interactions, regulatory relations and physical modifications between these entities were then annotated."
+  },
+  {
+   "section": "article",
+   "text": "The <italic>IEPA</italic> corpus [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1142/9789812799623_0031\" pmid=\"11928487\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B18\" count=\"1\">18</citation>] was constructed from sentences from PubMed abstracts, each containing a specific pair of co-occurring chemicals. <sentence_start/>The ten pairs of chemicals-the majority of which were proteins-were chosen to represent diverse biological research topics. <sentence_start/>In each sentence, interactions between the given two entities were manually annotated, with an interaction being defined as \u201c<italic>a direct or indirect influence of one on the quantity or activity of the other</italic>\u201d [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1142/9789812799623_0031\" pmid=\"11928487\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The <italic>LLL</italic> corpus was created as the shared dataset for the Learning Language in Logic 2005 (LLL05) challenge [<citation ref-type=\"bibr\" rid=\"B13\" count=\"1\">13</citation>,<citation ref-type=\"bibr\" rid=\"B19\" count=\"1\">19</citation>]. <sentence_start/>The domain of LLL is gene interactions of Bacillus subtilis. <sentence_start/>The interactions are defined as agent/target pairs, where agent is a protein and target is a gene. <sentence_start/>The corpus contains three types of interaction: explicit action, binding of a protein on the promoter of the target gene, and membership in a regulon family."
+  },
+  {
+   "section": "article",
+   "text": "Corpus conversion"
+  },
+  {
+   "section": "article",
+   "text": "The unified format to which the corpora were transformed follows the standoff annotation principle, where the original sentence text is preserved and the entities are identified through character offsets. <sentence_start/>The corpora in the unified format are stored in XML files with a very simple structure."
+  },
+  {
+   "section": "article",
+   "text": "The transformation of the corpora into the unified format is a tedious process requiring significant efforts. <sentence_start/>This is due to the often highly idiosyncratic native formats of the corpora requiring the development of relatively complex transformation programs and, in several cases, manual intervention to resolve ambiguity present in the native format. <sentence_start/>This work was in many cases very similar to the refactoring efforts described in detail in [<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1186/1747-5333-2-4\" pmcid=\"PMC2072937\" pmid=\"17854502\" count=\"1\">20</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The conversion for the BioInfer corpus was particularly challenging due to its more complex interactions and broader scope than either the other corpora or the extraction methods. <sentence_start/>To convert BioInfer, we removed interactions annotated as negative, flattened nested entities, transformed complex interactions into binary according to a set of custom-developed rules so that only pairs of entities take part in interactions, and finally narrowed the set of interactions to the <italic>Causal-Change</italic> subtree of the BioInfer relationship type ontology."
+  },
+  {
+   "section": "article",
+   "text": "We provide the transformation programs for all of the corpora under an open-source license, enabling other researchers to access the five PPI corpora in this study in a unified format [<citation ref-type=\"bibr\" rid=\"B21\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Evaluation methods and metrics"
+  },
+  {
+   "section": "article",
+   "text": "We use the precision, recall and F-score metrics, which are nearly universally applied in PPI extraction system evaluation. <sentence_start/>However, these metrics can be measured in different ways, potentially leading to considerably different results. <sentence_start/>We measured extraction accuracy according to the following rules:"
+  },
+  {
+   "section": "article",
+   "text": "<italic>No directionality</italic>: REL(<italic>P</italic><sub>1</sub>,<italic>P</italic><sub>2</sub>) is considered equivalent to REL(<italic>P</italic><sub>2</sub>,<italic>P</italic><sub>1</sub>)."
+  },
+  {
+   "section": "article",
+   "text": "<italic>No interaction type</italic>: it is not necessary to identify the type of an interaction."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Entity identity</italic>: REL(<italic>P</italic><sub>1</sub>,<italic>P</italic><sub>2</sub>) does not match REL(<italic>P</italic><sub>1</sub>,<italic>P</italic>\u2032<sub>2</sub>) unless <italic>P</italic><sub>2</sub> = <italic>P</italic>\u2032<sub>2</sub>, even if <italic>P</italic><sub>2</sub> and <italic>P</italic>\u2032<sub>2</sub> are different occurrences of the same protein name."
+  },
+  {
+   "section": "article",
+   "text": "We applied a simple co-occurrence method and a full parsing-based method, described in the following."
+  },
+  {
+   "section": "article",
+   "text": "Co-occurrence method"
+  },
+  {
+   "section": "article",
+   "text": "One very simple PPI extraction method is to assign a relationship between all annotated entities co-occurring within a sentence. <sentence_start/>While some corpora include self-interactions (i.e. REL(<italic>P</italic><sub>1</sub>,<italic>P</italic><sub>1</sub>)), we do not extract such \u201cco-occurrences\u201d as this would have a detrimental effect on overall extraction performance. <sentence_start/>Despite their simplicity, co-occurrence methods have been successfully applied to many information extraction tasks in the biomedical domain (see e.g. [<citation ref-type=\"bibr\" rid=\"B22\" pmid=\"15471547\" doi=\"10.1186/1471-2105-5-145\" pmcid=\"PMC526381\" count=\"1\">22</citation>]) and provide a relevant baseline for more advanced methods."
+  },
+  {
+   "section": "article",
+   "text": "RelEx"
+  },
+  {
+   "section": "article",
+   "text": "The RelEx method of Fundel et al. is a full parsing-based PPI extraction method with state-of-the-art performance [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>]. <sentence_start/>Due to the generality of the system's concept of relation, it is not constrained to any specific subdomain of PPI-interactions. <sentence_start/>The fact that RelEx is based on simple principles and its performance has been tested on publicly available datasets makes reimplementing it a feasible task. <sentence_start/>RelEx is also purely rule-based and therefore does not require per-domain training data, which is beneficial for evaluating smaller corpora as the entire corpus can be used for evaluation and results are not skewed by differing amounts of training data. <sentence_start/>Three example interactions corresponding to the three RelEx rules are presented in Figure 4. <sentence_start/>For further details on the system we refer to [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"17142812\" doi=\"10.1093/bioinformatics/btl616\" count=\"1\">4</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "<bold>RelEx interaction extraction rules</bold>. <sentence_start/>The three RelEx rules search the dependency graph for paths between protein names indicating an interaction. <sentence_start/>Found paths are filtered according to criteria such as whether certain interaction terms appear in them. <sentence_start/>In the examples the protein names are marked in bold, and the possible interaction words in italics. <sentence_start/>Rule 1 extracts <bold>protein</bold><sub>1</sub>-<italic>relation</italic>-<bold>protein</bold><sub>2</sub> structures from the dependency graph. <sentence_start/>In the basic case the rule requires that the path includes a subject dependency (e.g. <bold>nsubj</bold>). <sentence_start/>Rule 2 extracts relations that are represented by a sequence of noun phrases connected to each other via prepositional dependencies (<bold>prep</bold>). <sentence_start/>Rule 3 searches for structures of the type <italic>relation</italic>-between-<bold>protein</bold><sub>1</sub>-and-<bold>protein</bold><sub>2</sub> connected through <bold>prep_between</bold> and <bold>conj_and</bold> dependencies."
+  },
+  {
+   "section": "article",
+   "text": "We next give a brief overview of our implementation and application of RelEx. <sentence_start/>Similarly to the setup described by Fundel et al., we apply the MedPost tagger [<citation ref-type=\"bibr\" rid=\"B23\" pmid=\"15073016\" doi=\"10.1093/bioinformatics/bth227\" count=\"1\">23</citation>] and the Stanford Lexicalized Parser (Version 1.5.1) [<citation ref-type=\"bibr\" rid=\"B24\" count=\"1\">24</citation>] to generate a dependency parse graph for each sentence. <sentence_start/>Instead of using an external noun-phrase chunker as in the original implementation, we base the chunking on an analysis of the dependency graph. <sentence_start/>The chunking information is merged to the dependency graphs, which are then subjected to parallel analysis according to the RelEx rules. <sentence_start/>The rules extract possible interaction paths consisting of words and dependencies that connect named entity pairs. <sentence_start/>In the post filtering phase, relations that are deemed to be negated as well as those that do not contain certain relation terms are filtered out. <sentence_start/>Lacking a published reference implementation of RelEx, the performance of our system diverges slightly from that of the original implementation by Fundel et al. <sentence_start/>We do not believe this to affect the suitability of our implementation for comparing the characteristics of different PPI corpora."
+  },
+  {
+   "section": "article",
+   "text": "Qualitative analysis"
+  },
+  {
+   "section": "article",
+   "text": "In this section we briefly define the methods and definitions used to perform the qualitative corpus analysis. <sentence_start/>We measured the distribution of the types of the annotated interactions by mapping them into the BioInfer relationship ontology. <sentence_start/>We used this ontology because of its broad coverage of protein-protein interaction types [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"17291334\" doi=\"10.1186/1471-2105-8-50\" pmcid=\"PMC1808065\" count=\"1\">5</citation>] and because its hierarchical structure allows aggregation of types at various levels of specificity. <sentence_start/>We assigned to each interaction the most specific applicable type. <sentence_start/>If no appropriate type was found, the interaction was marked out of the ontology as the type <italic>Out of Ontology</italic>."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Directness</italic> indicates whether the interaction involves physical contact of the proteins. <sentence_start/>This definition follows that in [<citation ref-type=\"bibr\" rid=\"B8\" pmid=\"15016385\" doi=\"10.1016/j.jbi.2003.10.001\" count=\"1\">8</citation>]. <sentence_start/><italic>Explicitness</italic> reflects the way in which the interaction is stated. <sentence_start/>An explicitly stated interaction is one that can be understood without knowledge of biology-specific terms and inference supported by external biological knowledge. <sentence_start/><italic>Certainty</italic> describes whether an interaction is stated in a definite manner or speculatively, with qualifiers such as <italic>may</italic>. <sentence_start/>We apply a binary distinction between speculative and definite statements, following the guidelines in [<citation ref-type=\"bibr\" rid=\"B7\" count=\"1\">7</citation>]. <sentence_start/><italic>Polarity</italic> refers to whether the statement asserts the existence or the non-existence of an interaction. <sentence_start/>We annotate negated statements following the annotation guidelines in [<citation ref-type=\"bibr\" rid=\"B25\" pmid=\"16867190\" doi=\"10.1186/1471-2105-7-356\" pmcid=\"PMC1559725\" count=\"1\">25</citation>]. <sentence_start/>While there are no widely accepted standards for annotating any of these aspects, we consider the guidelines referenced above as offering good candidates for standardization."
+  },
+  {
+   "section": "article",
+   "text": "Correlation estimate"
+  },
+  {
+   "section": "article",
+   "text": "Throughout the paper, correlation refers to Kendall's correlation coefficient and the associated test with null hypothesis being that the correlation coefficient equals zero. <sentence_start/>The <italic>p</italic> value is computed using the standard Best and Gipps algorithm as implemented in the R statistical package [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.2307/2347062\" count=\"1\">26</citation>,<citation ref-type=\"bibr\" rid=\"B27\" doi=\"10.2307/1390807\" count=\"1\">27</citation>]. <sentence_start/>We use <italic>p</italic> = 0.05 as the cut-off value. <sentence_start/>We note that these statistics are very conservative due to the fact that they do not make any assumptions regarding the distribution of the results and do not consider their magnitude."
+  },
+  {
+   "section": "article",
+   "text": "Competing interests"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "FG, JB, JH and SP created the conversions of the corpora to the unified format. <sentence_start/>AA implemented the PPI extraction methods, and all authors participated in the analyses. <sentence_start/>SP was the main author of the manuscript with contributions from all other authors, all of whom read and approved the final version."
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "pmid": 21106087,
+ "pmcid": 3277951,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Confidence from uncertainty - A multi-target drug screening method from robust control theory"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Robustness is a recognized feature of biological systems that evolved as a defence to environmental variability. <sentence_start/>Complex diseases such as diabetes, cancer, bacterial and viral infections, exploit the same mechanisms that allow for robust behaviour in healthy conditions to ensure their own continuance. <sentence_start/>Single drug therapies, while generally potent regulators of their specific protein/gene targets, often fail to counter the robustness of the disease in question. <sentence_start/>Multi-drug therapies offer a powerful means to restore disrupted biological networks, by targeting the subsystem of interest while preventing the diseased network from reconciling through available, redundant mechanisms. <sentence_start/>Modelling techniques are needed to manage the high number of combinatorial possibilities arising in multi-drug therapeutic design, and identify synergistic targets that are robust to system uncertainty."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "We present the application of a method from robust control theory, Structured Singular Value or \u03bc- analysis, to identify highly effective multi-drug therapies by using robustness in the face of uncertainty as a new means of target discrimination. <sentence_start/>We illustrate the method by means of a case study of a negative feedback network motif subject to parametric uncertainty."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "The paper contributes to the development of effective methods for drug screening in the context of network modelling affected by parametric uncertainty. <sentence_start/>The results have wide applicability for the analysis of different sources of uncertainty like noise experienced in the data, neglected dynamics, or intrinsic biological variability."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Biological systems are hierarchically organized, from genes to proteins up to the organism level. <sentence_start/>At the cellular level, complex interconnected networks include metabolic signalling, signal transduction, and transcriptional regulatory networks [<citation ref-type=\"bibr\" rid=\"B1\" doi=\"10.1242/jeb.004432\" pmid=\"17449816\" count=\"1\">1</citation>]. <sentence_start/>Some general features of biological networks have been explored computationally, such as robustness [<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1038/nrg1471\" pmid=\"15520792\" count=\"1\">2</citation>], modularity [<citation ref-type=\"bibr\" rid=\"B3\" doi=\"10.1038/35011540\" pmid=\"10591225\" count=\"1\">3</citation>], control coefficients [<citation ref-type=\"bibr\" rid=\"B4\" doi=\"10.1111/j.1432-1033.2004.04404.x\" pmid=\"15634347\" count=\"1\">4</citation>], and connectivity properties [<citation ref-type=\"bibr\" rid=\"B5\" doi=\"10.1038/nrg1272\" pmid=\"14735121\" count=\"1\">5</citation>]. <sentence_start/>Robustness is defined as the ability to maintain functional performance in the presence of uncertainty [<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1038/nrg1471\" pmid=\"15520792\" count=\"1\">2</citation>,<citation ref-type=\"bibr\" rid=\"B6\" doi=\"10.1016/j.cell.2004.09.008\" pmid=\"15369668\" count=\"1\">6</citation>], and it is particularly relevant in therapy design as drug effectiveness should be independent from predictable sources of variability."
+  },
+  {
+   "section": "article",
+   "text": "Complex diseases often exploit the same strategies present in healthy networks to gain a robust status [<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1038/nrg1471\" pmid=\"15520792\" count=\"1\">2</citation>]. <sentence_start/>Diseases such as diabetes, cancer, bacterial and viral infections, represent multiple disruptions within the host network structure rather than single events, such as a DNA point mutation [<citation ref-type=\"bibr\" rid=\"B7\" doi=\"10.1038/nrd2826\" pmid=\"19337271\" count=\"1\">7</citation>]. <sentence_start/>Signalling redundancy, feedback, and other network strategies adopted by the disease, ensure that it will be robust to disturbances within its architecture. <sentence_start/>Hence, single-target therapies fail in many cases because network characteristics are not accounted for during target identification [<citation ref-type=\"bibr\" rid=\"B8\" doi=\"10.1038/nrd1470\" pmid=\"15286737\" count=\"1\">8</citation>,<citation ref-type=\"bibr\" rid=\"B9\" doi=\"10.1016/S1359-6446(04)03316-1\" pmid=\"15718163\" count=\"1\">9</citation>]. <sentence_start/>On the other hand, multi-drug therapies (MDT) have been proven to be effective for many complex diseases [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1371/journal.pcbi.1000648\" pmid=\"20098496\" pmcid=\"PMC2799658\" count=\"1\">10</citation>,<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.drudis.2006.11.008\" pmid=\"17198971\" count=\"1\">11</citation>]. <sentence_start/>Network-based design of MDTs can improve current drug regimes [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.drudis.2006.11.008\" pmid=\"17198971\" count=\"1\">11</citation>-<citation ref-type=\"bibr\" rid=\"B14\" doi=\"10.1038/msb4100163\" pmid=\"17625512\" pmcid=\"PMC1948102\" count=\"1\">14</citation>] by identifying targets that both moderate the immediate characteristics of the disease while disarming its robustness strategies [<citation ref-type=\"bibr\" rid=\"B7\" doi=\"10.1038/nrd2826\" pmid=\"19337271\" count=\"1\">7</citation>]. <sentence_start/>Furthermore, synergy within MDTs may reduce the required drug load, hopefully minimizing side effects [<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1103/PhysRevE.71.051909\" pmid=\"16089573\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"B16\" doi=\"10.1038/nrd2381\" pmid=\"17932492\" count=\"1\">16</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Some MDTs are currently used to treat chronic diseases and to boost antibiotic potency. <sentence_start/>AIDS infections routinely require a drug regimen of reverse-transcriptase inhibitors and protease inhibitors [<citation ref-type=\"bibr\" rid=\"B17\" doi=\"10.1073/pnas.94.13.6971\" pmid=\"9192676\" pmcid=\"PMC21269\" count=\"1\">17</citation>]. <sentence_start/>Oncological chemotherapeutic regimens often involve the combination of cyclophosphamide, hydroxydaunorubicin, oncovin, and prednisone, abbreviated as CHOP [<citation ref-type=\"bibr\" rid=\"B18\" doi=\"10.1056/NEJM199304083281404\" pmid=\"7680764\" count=\"1\">18</citation>]. <sentence_start/>Augmentin, an amoxicillin-based antibiotic, contains clavulanic acid to inhibit a known mechanism of amoxicillin degradation [<citation ref-type=\"bibr\" rid=\"B19\" pmid=\"6391783\" count=\"1\">19</citation>]. <sentence_start/>In comparison to their single-perturbation counterparts, these MDTs often show an order of magnitude greater efficacy [<citation ref-type=\"bibr\" rid=\"B17\" doi=\"10.1073/pnas.94.13.6971\" pmid=\"9192676\" pmcid=\"PMC21269\" count=\"1\">17</citation>]. <sentence_start/>Most MDTs to date have been identified in an <italic>ad hoc </italic>fashion, relying on observational studies of previously available drug lines. <sentence_start/>Many pharmaceutical companies are now embracing the idea of <italic>a priori </italic>design of MDTs using <italic>in silico </italic>modelling and analysis to rapidly identify candidate targets [<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1038/nbt0402-370\" pmid=\"11923843\" count=\"1\">20</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Optimizing drug combinations and concentrations produces an unmanageable number of possible therapies to explore, demanding efficient computational methods of screening [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.drudis.2006.11.008\" pmid=\"17198971\" count=\"1\">11</citation>]. <sentence_start/>Furthermore, it is unreliable to extrapolate the therapeutic efficacy from the necessarily few conditions tested. <sentence_start/>For example, a potential concentration-dependent synergistic behaviour may occur at intermediate concentrations not considered during experimentation. <sentence_start/>This situation is not unlikely considering that strongly nonlinear behaviours have been recognized in biological systems, such as switching or bistabilities [<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1098/rsif.2008.0179.focus\" pmid=\"18522926\" pmcid=\"PMC2706456\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For drug screening to succeed, additional insight into the biological mechanisms of drug action at the cellular level is needed to increase the predictability of the therapy. <sentence_start/>High-throughput experimental techniques are providing the data required to understand the connections between the biochemical nodes in the cellular sub-networks underlying specific functions. <sentence_start/>The causal relationships between these components are being explored by dynamic modelling through a continuous process of expansion and refinement. <sentence_start/>The most widely-used representation of the biochemical reaction network is a dynamic and continuous description, based on a system of ordinary differential equations (ODEs) [<citation ref-type=\"bibr\" rid=\"B22\" doi=\"10.1016/j.cbpa.2006.06.025\" pmid=\"16822703\" count=\"1\">22</citation>], where the variables represent the concentrations of the components, and their change over time is simulated. <sentence_start/>Many ODE models are currently under development to gain insight into complex diseases, such as diabetes [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1152/ajpcell.00555.2006\" pmid=\"17928534\" count=\"1\">23</citation>-<citation ref-type=\"bibr\" rid=\"B25\" pmid=\"12376338\" doi=\"10.1152/ajpendo.00571.2001\" count=\"1\">25</citation>], and will be invaluable for future drug discovery, as reviewed elsewhere [<citation ref-type=\"bibr\" rid=\"B26\" doi=\"10.1093/carcin/bgp261\" pmid=\"19861649\" pmcid=\"PMC2802670\" count=\"1\">26</citation>-<citation ref-type=\"bibr\" rid=\"B28\" doi=\"10.1016/j.copbio.2006.09.004\" pmid=\"17046236\" count=\"1\">28</citation>]. <sentence_start/>More than 200 network models from the literature have been curated and included in publicly accessible databases, such as Biomodels, BioPax and the CellML Model Repository. <sentence_start/>Systems Biology Markup Language (SBML) was created to standardize the description of biochemical networks, enabling communication between people and software [<citation ref-type=\"bibr\" rid=\"B29\" doi=\"10.1093/bioinformatics/btg015\" pmid=\"12611808\" count=\"1\">29</citation>], and paving the way for a biochemically detailed artificial organism reconstruction [<citation ref-type=\"bibr\" rid=\"B30\" doi=\"10.1093/bib/bbp054\" pmid=\"19906839\" pmcid=\"PMC2810114\" count=\"1\">30</citation>]. <sentence_start/>ODE models can be interrogated to test hypotheses of cellular response to drug combinations, considering whole sets dosage permutations and used to discover optimal points of manipulation within the network [<citation ref-type=\"bibr\" rid=\"B13\" doi=\"10.1038/msb.2008.51\" pmid=\"18682705\" pmcid=\"PMC2538911\" count=\"1\">13</citation>,<citation ref-type=\"bibr\" rid=\"B16\" doi=\"10.1038/nrd2381\" pmid=\"17932492\" count=\"1\">16</citation>]. <sentence_start/>These models have the potential for <italic>in silico </italic>testing MDTs at reduced cost and time [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.drudis.2006.11.008\" pmid=\"17198971\" count=\"1\">11</citation>]. <sentence_start/>Despite improvements in the accuracy of biological models, their reliability is often limited by parameter uncertainty. <sentence_start/>Even at best, parameter values can be inferred by experimental data as a range of values, rather than a fixed one. <sentence_start/>While increasingly precise experimental measurement methods are being developed, cell-cell heterogeneity in tissues and stochastic noise, the consequence of the small copy number of some intracellular components, are intrinsic sources of uncertainty and require <italic>ad hoc </italic>methods of analysis."
+  },
+  {
+   "section": "article",
+   "text": "We propose the use of Structured Singular Value (SSV) analysis as a powerful tool for drug target discrimination in biological models also accounting for uncertainty. <sentence_start/>This technique was developed in the control theory field [<citation ref-type=\"bibr\" rid=\"B31\" count=\"1\">31</citation>], but has already been successively applied in the analysis of biological systems [<citation ref-type=\"bibr\" rid=\"B32\" doi=\"10.1049/iet-syb:20070008\" pmid=\"18248085\" count=\"1\">32</citation>-<citation ref-type=\"bibr\" rid=\"B35\" doi=\"10.1186/1752-0509-3-95\" pmid=\"19772565\" pmcid=\"PMC2759934\" count=\"1\">35</citation>]. <sentence_start/>In the proposed methodology, SSV allows the discrimination of highly effective MDTs from a large pool of potential candidates, according to the robust response of the diseased network in the face of known or inferred sources of uncertainty (Figure 1). <sentence_start/>For illustration purposes, we explain the methodology through a case study, given by a negative feedback network motif. <sentence_start/>Moreover, we discuss strengths, limitations, and extensions (Figure 1) of the proposed method and its application, with respect to other existing ones."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Range of applicability of SSV analysis for robust therapy design</bold>. <sentence_start/>Once a model has been established that satisfactorily explains the dynamics of the diseased state, SSV analysis can be used to identify potent and robust multi-drug therapy candidates. <sentence_start/>SSV analysis first identifies which therapies can best manipulate the protein(s) of interest. <sentence_start/>Then, the candidate list is further filtered to therapies which are robust to known or perceived uncertainty affecting the treatment. <sentence_start/>The uncertainty may include parameter uncertainty and uncertainty generated during model development, but also disturbances occurring during the actual treatment, such as failure to properly adhere to a drug regimen schedule."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Case study description"
+  },
+  {
+   "section": "article",
+   "text": "A schematic description of the case study used to illustrate the proposed methodology is shown in Figure 2A. The component <italic>X </italic>is converted to <italic>Y </italic>through an enzymatic reaction, catalyzed by <italic>U</italic>, that includes the intermediate production of the complex <italic>UX</italic>. <sentence_start/>The production of <italic>X </italic>and the degradation of <italic>X </italic>and <italic>Y </italic>are also considered. <sentence_start/>All reaction rates are modelled by mass action. <sentence_start/>The product <italic>Y </italic>regulates its own production via autoinhibition. <sentence_start/>This negative feedback mechanism is modelled as a multiplicative factor dependent on the concentration of <italic>Y</italic>. Negative feedback is a widespread strategy in biological networks that strongly contributes to their spatial and temporal complexity [<citation ref-type=\"bibr\" rid=\"B36\" doi=\"10.1126/science.1160617\" pmid=\"18927383\" pmcid=\"PMC2680159\" count=\"1\">36</citation>]. <sentence_start/>The equation system is shown in Figure 2B, and the arbitrary set of nominal parameter values are provided in the figure caption."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Case study model</bold>. <sentence_start/>(<bold>A</bold>) Topology of the network. <sentence_start/><italic>U </italic>is the enzyme catalyzing the conversion of <italic>X </italic>to product <italic>Y</italic>, through the intermediate <italic>UX</italic>. <sentence_start/>The open arrows indicate the chemical reactions, and the oval arrow a negative regulation. <sentence_start/>k's represent the parameters involved in each step. <sentence_start/><italic>\u00d8 </italic>is the null component to indicate production and degradation. <sentence_start/>Input to the system is given by the total enzyme, <italic>U<sub>tot</sub></italic>, concentration, constant over time and given by <italic>u<sub>tot </sub>= u+ux </italic>(lower-case component names indicate the corresponding concentrations). <sentence_start/>Output of the system is <italic>y</italic>. <sentence_start/>Inputs and outputs are highlighted in red. <sentence_start/>(<bold>B</bold>) Nonlinear model equations. <sentence_start/>The reaction rates are given by mass-action, negative feedback is described by the multiplicative term containing <italic>k<sub>5</sub></italic>. <sentence_start/>The nominal values of the parameters are: <italic>k<sub>1 </sub></italic>= 1, <italic>k<sub>2 </sub></italic>= 2, <italic>k<sub>3 </sub></italic>= 10, <italic>k<sub>4 </sub></italic>= 0.5, <italic>k<sub>5 </sub></italic>= 0.5, <italic>k<sub>-1 </sub></italic>= 3, <italic>k<sub>-3 </sub></italic>= 1."
+  },
+  {
+   "section": "article",
+   "text": "The first requirement for any drug investigation is to identify the appropriate inputs and outputs of the system. <sentence_start/>These choices depend on which components (such as cytokine concentration, mRNA level, marker expression, etc.) are significant for defining the healthy and diseased states, and are measurable by available biological assays. <sentence_start/>This example analyzes a single-input single-output system. <sentence_start/>We assume the input is the total concentration of enzyme, <italic>u<sub>tot</sub></italic>, constant over time. <sentence_start/>A disease state emerges when the input has a high concentration, <italic>u<sub>tot,d</sub></italic>, compared to the basal healthy state, <italic>u<sub>tot,h</sub></italic>. <sentence_start/>As a consequence, the output concentration, <italic>y</italic>, is up-regulated in this condition (Figure 3A). <sentence_start/>The goal is to re-parameterize the diseased model to obtain a therapeutically treated model that, with a diseased input <italic>u<sub>tot,d</sub></italic>, allows recovery from the diseased output to the healthy one, even in presence of uncertainty."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Performance envelopes and therapeutic fitting</bold>. <sentence_start/>(<bold>A</bold>) Temporal simulation of the nonlinear model in Figure 2B with nominal parameters, under healthy conditions (<italic>u<sub>tot,h </sub></italic>= 0.2, and initial conditions given by the healthy steady-state), and diseased conditions (<italic>u<sub>tot,d </sub></italic>= 2, and initial conditions given by the diseased steady-state). <sentence_start/>Performance envelopes are generated to contain the stochastic envelopes, resulted by the Stochastic Simulation Algorithm (mean \u00b1 standard deviation). <sentence_start/>Nominal results are also shown in dashed lines. <sentence_start/>(<bold>B</bold>) Comparison between the performance envelopes and the results obtained from the nonlinear model, starting from the diseased steady-state, with parameter values modified according to the 56 therapies (blue curves)."
+  },
+  {
+   "section": "article",
+   "text": "Healthy performance and potential therapies"
+  },
+  {
+   "section": "article",
+   "text": "Due to biological variability, the healthy performance is given by an envelope that defines upper, <italic>y<sub>ub</sub></italic>, and lower, <italic>y<sub>lb</sub></italic>, bounds on the output, rather than an idealized, nominal single trajectory (Figure 3A). <sentence_start/>Thus, the system meets the requirements for healthy performance when:"
+  },
+  {
+   "section": "article",
+   "text": "In practice, the performance bounds are derived by the standard deviation of the experimental data. <sentence_start/>In this work, the system \"noise\" is artificially generated simulating the system with the Stochastic Simulation Algorithm, SSA [<citation ref-type=\"bibr\" rid=\"B37\" doi=\"10.1016/0021-9991(76)90041-3\" count=\"1\">37</citation>]. <sentence_start/>A smooth performance envelope is then defined to approximately contain the concentration profiles resulting from these simulations, as shown in Figure 3A and explained in the Methods section."
+  },
+  {
+   "section": "article",
+   "text": "Multiple therapeutic approaches can be investigated that aim at restoring the normal output concentration in the presence of a diseased input condition. <sentence_start/>A drug effect on the system can be modelled as a parameter perturbation, i.e., modifying a component's rate of synthesis, degradation, or interaction with other elements in the network. <sentence_start/>We first inferred the set of potential therapies by fitting the healthy output curve in the presence of a diseased input, <italic>u<sub>tot,d</sub></italic>, targeting up to 4 parameters at a time. <sentence_start/>Thus, each therapy model is in the form of the equation system presented in Figure 2B, with a diseased input, <italic>u<sub>tot,d</sub></italic>, and a different parameter set obtained solving a least-square optimization problem that minimizes the deviation of its output from the healthy one. <sentence_start/>A total of 56 possible therapies, i.e. combinations of the <italic>n </italic>= 6 parameters, were obtained. <sentence_start/>A comparison between the outcome, <italic>y<sub>dt</sub></italic>, from each therapy and the performance envelopes is shown in Figure 3B, where the simulations were performed starting from the diseased steady-state in absence of any source of uncertainty."
+  },
+  {
+   "section": "article",
+   "text": "Selection of therapies for nominal performance"
+  },
+  {
+   "section": "article",
+   "text": "According to the definition in (1), the criterion for nominal performance requires that the output of a therapeutic model does not cross the boundaries of the healthy performance envelope, when using the healthy steady-state as initial condition. <sentence_start/>It is formally convenient to re-formulate the problem defining an upper bound for the absolute deviation of the therapy output from the healthy one:"
+  },
+  {
+   "section": "article",
+   "text": "We applied this preliminary screening method, based on direct trajectories comparison, to our case study. <sentence_start/>A total of 41 therapies, out of 56 potential, were selected as giving a healthy nominal performance in the presence of a diseased input, <italic>u<sub>tot,d</sub></italic>, i.e., their output without any parametric uncertainty falls within the healthy performance envelope (Figure 4)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Nominal performance analysis results</bold>. <sentence_start/>Trajectories obtained with the nonlinear deviation model for each of the 56 therapies without parametric uncertainty. <sentence_start/>Green and red lines denote therapies that pass and do not pass the nominal performance selection criterion, respectively. <sentence_start/>The performance envelope is shaded in light green."
+  },
+  {
+   "section": "article",
+   "text": "Uncertainty description and robust performance"
+  },
+  {
+   "section": "article",
+   "text": "A mathematical approximation of a complex biophysical system must account for multiple sources of uncertainty, due to stochastic noise, experimental error, or other possible fluctuations induced by the interaction of the system with its surrounding. <sentence_start/>A confidence interval can be assigned to each parameter, during the procedure of experimental data fitting, as a lumped measure of these multiple sources of uncertainty. <sentence_start/>Thus, each parameter in the model is represented in the following form:"
+  },
+  {
+   "section": "article",
+   "text": "where <italic>k </italic>\u2208 [<italic>k</italic><sub>min</sub>, <italic>k</italic><sub>max</sub>] is a generic parameter of the model, <italic>k<sub>mean </sub></italic>= (<italic>k</italic><sub>min </sub>+ <italic>k</italic><sub>max</sub>)/2, <italic>r<sub>k </sub></italic>= (k<sub>max </sub>- k<sub>min</sub>)/(k<sub>max </sub>+ k<sub>min</sub>), and <italic>\u03b4</italic><italic><sub>k </sub></italic>\u2208 \u211d and |\u03b4<italic><sub>k</sub></italic>| \u2264 1. <sentence_start/>In this case study, we assume that all parameters have a relative fluctuation of 45% about their mean value (i.e., <italic>r<sub>k </sub></italic>= 45%)."
+  },
+  {
+   "section": "article",
+   "text": "The conditions for <italic>nominal </italic>performance (without uncertainty) can be extended to the case of an uncertain model. <sentence_start/>Specifically, a therapy meets the criterion for <italic>robust </italic>performance if, for any set of parameters within the defined uncertainty range, no output trajectory crosses the healthy performance envelope boundaries, when using the healthy steady-state as initial condition. <sentence_start/>A direct comparison between each therapy's output trajectories and the healthy performance envelope, as in the previous section, is not feasible for all the values of the uncertain parameters. <sentence_start/>The advantage of employing SSV analysis becomes apparent in this situation."
+  },
+  {
+   "section": "article",
+   "text": "Rearrangement of the model in M-\u0394 form"
+  },
+  {
+   "section": "article",
+   "text": "SSV analysis is a tool developed in control theory to study the performance of systems affected by uncertainty [<citation ref-type=\"bibr\" rid=\"B31\" count=\"1\">31</citation>]. <sentence_start/>We provide here an intuitive understanding of how it works, and refer to textbooks in the field for a more technical explanation [<citation ref-type=\"bibr\" rid=\"B38\" count=\"1\">38</citation>]. <sentence_start/>Before SSV application, some preliminary steps are needed to recast the model in a suitable form, including model Jacobian linearization, and Laplace transforms. <sentence_start/>They are well-known techniques in control theory and numerical algorithms to perform them are readily available in technical software such as Matlab."
+  },
+  {
+   "section": "article",
+   "text": "We defined a deviation model as the difference between a therapy model and the healthy one, and we normalized the output by a weighting factor, <italic>w<sub>p</sub></italic>, representing the performance specification. <sentence_start/>The criterion for robust performance can now be expressed in terms of ratio between the normalized deviation model output, (<italic>y<sub>dt </sub></italic>- <italic>y<sub>h</sub></italic>)/w<sub>p</sub>, and its input,(<italic>u<sub>tot,d </sub></italic>- <italic>u<sub>tot,h</sub></italic>), i.e.:"
+  },
+  {
+   "section": "article",
+   "text": "The performance weighting factor, <italic>w<sub>p</sub></italic>, is related to the performance envelope bounds by the following relationship:"
+  },
+  {
+   "section": "article",
+   "text": "Now the model includes parametric uncertainty. <sentence_start/>It is always possible, through a linear fractional transformation (LFT), to pull out the uncertain elements from the nominal model, and to recast it in a M-\u0394 form (Figure 5), where M is the matrix describing the nominal model and \u0394 the matrix containing all the uncertainty, namely the \u03b4<italic><sub>k</sub></italic>'s defined above, and the performance specification. <sentence_start/>The \u0394-matrix has a particular structure, due to the presence of a number of zeros in some positions, dependent on the specific starting model. <sentence_start/>As |\u03b4<italic><sub>k</sub></italic>| \u2264 1 and the output is normalized by <italic>w<sub>p</sub></italic>, \u0394 is also normalized. <sentence_start/>From a control theory standpoint, putting the system in this form converts the performance analysis problem to the study of the stability of the loop in Figure 5."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Block diagram representation of the deviation models</bold>. <sentence_start/>The deviation model is shown in M-\u0394 form. <sentence_start/>The vector of input and output between the two blocks are also indicated. <sentence_start/><italic>u</italic><sub>\u0394 </sub>and <italic>y</italic><sub>\u0394 </sub>represent the uncertain components of the input and output, respectively, for the system M."
+  },
+  {
+   "section": "article",
+   "text": "General aspects on SSV"
+  },
+  {
+   "section": "article",
+   "text": "SSV is a worst-case analysis that excludes a therapy if, even for a single parametric combination within the defined uncertainty ranges, it fails to meet the performance specifications defined by the envelope. <sentence_start/>It is based on the calculation of the structured singular value, <italic>\u03bc<sub>RP </sub></italic>(where RP stands for robust performance), by solving the following minimization problem:"
+  },
+  {
+   "section": "article",
+   "text": "where I is the identity matrix, and <italic>k<sub>m</sub></italic> a scalar factor. <sentence_start/>A result well-known in control theory, simplistically stated here, is that, when det(<italic>I </italic>- <italic>M\u0394</italic>) = 0, then the loop in Figure 5 becomes unstable, i.e., in our case, the performance is not fulfilled. <sentence_start/>As \u0394 is a matrix whose elements are uncertain, the above minimization problem is solved over all possible \u0394's that are normalized and have the structure that we mentioned in the previous section."
+  },
+  {
+   "section": "article",
+   "text": "The value min(<italic>k<sub>m</sub></italic>) represents the smallest perturbation that destabilizes the system, and <italic>\u03bc<sub>RP </sub></italic>is its reciprocal. <sentence_start/>Thus, <italic>\u03bc<sub>RP </sub></italic>= 1 means that there exists a perturbation, within the uncertainty description, that is large enough to pull the output exactly to the limit of the performance envelope. <sentence_start/>The model meets the conditions for <italic>robust </italic>performance if and only if <italic>\u03bc<sub>RP </sub></italic>&lt; 1. <sentence_start/>Details on how <italic>\u03bc<sub>RP </sub></italic>is computed are available in the literature [<citation ref-type=\"bibr\" rid=\"B38\" count=\"1\">38</citation>], and algorithms are also included in technical software, like Matlab."
+  },
+  {
+   "section": "article",
+   "text": "Selection of therapies for robust performance by SSV"
+  },
+  {
+   "section": "article",
+   "text": "Values of <italic>\u03bc<sub>RP</sub></italic> for the 41 therapies are shown in Figure 6A. Only 5 therapies have <italic>\u03bc<sub>RP </sub></italic>&lt; 1 and passed this screening test. <sentence_start/>Table 1 summarizes the parameters involved in each one. <sentence_start/>Interestingly, no single-parameter therapies met the robust performance specification. <sentence_start/>This is a confirmation of the importance of a MDT approach, as opposed to a drug strategy having only one target of intervention. <sentence_start/>In fact, because of the interconnected structure of the network, a robust therapy was obtained by drug (i.e. parameter) combinations affecting at the same time processes with the same effect but dislocated in different points of the network. <sentence_start/>For example, therapy 11 increases <italic>X </italic>concentration by reducing its consumption in the forward reaction involving parameter <italic>k<sub>1</sub></italic>, and by reducing its degradation dependent on parameter <italic>k<sub>-3</sub></italic>. <sentence_start/>Therapy 12 instead decreases <italic>Y </italic>concentration by reducing its production from <italic>UX </italic>(parameter <italic>k<sub>2</sub></italic>) and increasing its degradation (parameter <italic>k<sub>4</sub></italic>)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Robust performance analysis and results of one robust therapy in presence of parametric uncertainty</bold>. <sentence_start/>(<bold>A</bold>) Results of the SSV analysis applied for robust performance, in presence of parametric uncertainty. <sentence_start/>Green and red dots illustrate therapies that pass and do not pass the robust performance selection criterion, respectively. <sentence_start/>(<bold>B</bold>) Comparison between the performance envelopes described in Figure 3A and the results obtained from therapy no. 30. <sentence_start/>Blue curves are the simulation results by therapy 30 linearized model with 100 different parameter sets, sampled within \u00b1 45% of the nominal values. <sentence_start/>Gray curves are the upper and lower bounds of the stochastic envelope generated by the Stochastic Simulation Algorithm of therapy 30 nonlinear model (mean \u00b1 standard deviation of 100 trajectories)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6B shows the output dynamics of therapy 30. <sentence_start/>First, the nominal values of the parameters were randomly changed by up to \u00b1 45%. <sentence_start/>100 parameter sets were generated, and used in the linearized model to simulate the diseased treated system, with diseased steady-state as initial condition. <sentence_start/>In all cases the output steady-state value falls within the healthy performance envelope, as a confirmation of SSV analysis results. <sentence_start/>Then, the nominal nonlinear model of therapy 30 was simulated by SSA. <sentence_start/>SSV analysis does not guarantee performance in this case, as noise in component concentrations was not included in the uncertainty description, which was only parametric. <sentence_start/>Nonetheless, the stochastic envelope generated falls into the performance envelope even in this case after a transient (Figure 6B), increasing our confidence on the efficacy of this therapy in the presence of unexpected uncertainty."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this paper we have proposed a new method for MDT selection, taking advantage of SSV analysis, a tool already successfully applied in other fields such as aeronautics [<citation ref-type=\"bibr\" rid=\"B39\" count=\"1\">39</citation>]. <sentence_start/>We have evaluated the feasibility of using this tool for drug screening by a simple case study, essentially a network given by an enzymatic reaction negatively regulated by its own product. <sentence_start/>While therapies can be easily selected based on a criterion of nominal performance, the importance of SSV application is apparent in presence of parametric uncertainty, when, to the best of our knowledge, alternative methods are not available."
+  },
+  {
+   "section": "article",
+   "text": "Through the case study, we demonstrated the relevance of considering the effect of structured uncertainty, i.e. parametric noise, as only 5 therapies, out of 41 showing nominal performance, were robust. <sentence_start/>From a network perspective, the results emphasize how MDTs offer greater potency in regulating specific targets. <sentence_start/>In fact, all the 5 therapies passing the screening involved multiple perturbations. <sentence_start/>Furthermore, these resulted in therapies that are also less susceptible to internal biological fluctuations, as demonstrated by the SSA simulation of therapy 30, whose results are shown in Figure 6B."
+  },
+  {
+   "section": "article",
+   "text": "If a general unstructured multiplicative uncertainty (namely, a full \u0394 matrix) had been included in the model, an analysis of performance would have produced conservative results and some robust therapies might have been discarded. <sentence_start/>In fact, this definition of uncertainty is not directly connected to the physical phenomena occurring in the system and will generally include physically unfeasible perturbations. <sentence_start/>Defining ranges for parameter values includes a structured uncertainty in the model, preserving a closer physical interpretation, related to the stochastic noise and the experimental error inherent to biological networks."
+  },
+  {
+   "section": "article",
+   "text": "Sensitivity analysis is a possible alternative approach to identify parameters for therapy design. <sentence_start/>For comparison, the local sensitivity analysis (LSA) of the case study is reported in Figure 7. <sentence_start/>Sensitivity coefficients with respect to only one parameter were calculated, even if global sensitivity analysis methods exist [<citation ref-type=\"bibr\" rid=\"B40\" count=\"1\">40</citation>]. <sentence_start/>Parameter <italic>k<sub>3 </sub></italic>was not included, as it is not present in the linearized version of the model used in the SSV analysis. <sentence_start/>LSA results show the disease state is particularly sensitive to parameters <italic>k<sub>2 </sub></italic>and <italic>k<sub>4</sub></italic>, those involved in the single target therapies 2 and 3. <sentence_start/>Therapy 2 resulted in non-robust performance (Figure 6A), and therapy 3 failed even the nominal performance test, when parametric uncertainty is not accounted for (results not shown). <sentence_start/>The discrepancy in the results is due to the local character of LSA. <sentence_start/>Even when the model is linear, LSA is unable to account for system behaviour in the presence of large perturbations. <sentence_start/>Moreover, as it does not include a definition of performance, once sensitive parameters are identified, the information on the amount of perturbation needed to restore a healthy performance is not available."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Local sensitivity analysis results</bold>. <sentence_start/>Sensitivity coefficients, <italic>S<sub>i</sub></italic>, of the diseased output at steady-state, <italic>y<sub>ss,d</sub></italic>, respect to the parameter indicated on the <italic>x</italic>-axis. <sentence_start/>The coefficients are normalized with the nominal value of each parameter and with the steady-state output concentration <italic>y<sub>ss,d</sub></italic>."
+  },
+  {
+   "section": "article",
+   "text": "Several extensions of SSV analysis exists which can be invaluable to drug discovery. <sentence_start/>As parameter fitting can be computationally expensive, by reversing the idea of robust performance and searching for target combinations which most easily <italic>destabilize </italic>the diseased state, the number of parameter fittings performed early in the analysis can be greatly reduced [<citation ref-type=\"bibr\" rid=\"B34\" doi=\"10.1529/biophysj.107.123398\" pmid=\"18539637\" pmcid=\"PMC2527273\" count=\"1\">34</citation>]. <sentence_start/>Furthermore, in this paper we considered a single-input, single-output system with uncertainty being limited to the interactions (parameters) of the network. <sentence_start/>In multiple input and multiple output (MIMO) networks, more complex performance envelopes can be considered during robust performance analysis. <sentence_start/>The analysis can also be extended to include other clinically-interesting sources of uncertainty, such as dosages issues, blood clearance, etc."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "The complexity and size of biological systems make observation-based approaches to combinatorial drug therapy discovery prohibitive due to the associated financial burden and time requirements. <sentence_start/>Many companies are now aware of the value of using <italic>in silico </italic>techniques to guide discovery, but these analyses may rely too heavily on model accuracy. <sentence_start/>Using tools such as SSV analysis, biological networks can be screened for MDTs that are robust to various uncertainties. <sentence_start/>These uncertainties may be noise experienced in data, neglected dynamics, or even intrinsic biological variability. <sentence_start/>Furthermore, the performance of the network can be user-defined to cover several drug-related concerns such as drug efficacy and known potential side effects. <sentence_start/>MDTs identified by SSV analysis are robust to all model hypotheses expressed in the uncertainty description, and are more likely to be effective during experimentation. <sentence_start/>In conclusion, SSV analysis can prioritize target combinations by quantifying treatment efficacy given uncertainty in a systematic way."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Nominal model"
+  },
+  {
+   "section": "article",
+   "text": "All the numerical simulations were performed in MATLAB 7.7.0 R2008b (MathWorks, Inc.). <sentence_start/>The healthy and diseased steady-states were calculated using Matlab function <italic>fsolve </italic>to solve the system of equations in Figure 2B after equating to zero the time derivative terms. <sentence_start/>The nonlinear ODE model in Figure 2B was solved using Matlab function <italic>ode15s</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Stochastic Simulation Algorithm (SSA) and performance envelopes"
+  },
+  {
+   "section": "article",
+   "text": "The nonlinear model was expressed in terms of number of molecules, instead of concentrations, and SSA was applied according to [<citation ref-type=\"bibr\" rid=\"B37\" doi=\"10.1016/0021-9991(76)90041-3\" count=\"1\">37</citation>]. <sentence_start/>The initial conditions for the results shown in Figure 3A were the healthy and diseased steady-states, respectively. <sentence_start/>100 trajectories were generated and interpolated at 100 regular time points. <sentence_start/>At each time point mean and standard deviation values among the trajectories were calculated."
+  },
+  {
+   "section": "article",
+   "text": "The upper, <italic>y<sub>ub</sub></italic>, and lower, <italic>y<sub>lb</sub></italic>, bounds of the healthy performance envelope shown in Figure 3A were then calculated by:"
+  },
+  {
+   "section": "article",
+   "text": "where <italic>y<sub>ss,h </sub></italic>is the healthy output at steady-state, <italic>s<sub>mean </sub></italic>is the time-averaged standard deviation from the stochastic simulations, and <italic>f </italic>is a weighting factor chosen to have the stochastic envelopes reasonably contained in the performance ones. <sentence_start/>A value of <italic>f </italic>equal to 1.6 was used. <sentence_start/>The diseased performance envelope shown in Figure 3A was calculated analogously."
+  },
+  {
+   "section": "article",
+   "text": "Derivation of potential therapies"
+  },
+  {
+   "section": "article",
+   "text": "Each therapy is obtained by fitting the output of the nonlinear model with diseased input, <italic>u<sub>tot,d</sub></italic>, to the healthy output response. <sentence_start/>The fitting was performed using Matlab function <italic>fmincon </italic>by minimizing the following cost function, <italic>C</italic>:"
+  },
+  {
+   "section": "article",
+   "text": "where <italic>t<sub>i </sub></italic>are 20 regularly-spaced time points in the simulated time span. <sentence_start/>The initial conditions were given by the diseased steady-state. <sentence_start/>Up to 4 parameters were simultaneously allowed to change in the range \u00b1100% of their nominal value."
+  },
+  {
+   "section": "article",
+   "text": "Test for nominal performance"
+  },
+  {
+   "section": "article",
+   "text": "The model of each therapy was run using the healthy steady-state as initial condition. <sentence_start/>The absolute deviation of the therapy model output from the healthy one was calculated, and the therapies that met the condition in (2) at each time point, <italic>t<sub>i</sub></italic>, defined above, were selected as respondent to the requirements of nominal performance."
+  },
+  {
+   "section": "article",
+   "text": "Model linearization"
+  },
+  {
+   "section": "article",
+   "text": "The model of each therapy was transformed by analytical Jacobian linearization around the healthy steady-state. <sentence_start/>The following deviation variables, indicated by the over bar, were defined: , , , . <sentence_start/>Then, the model was rearranged in state-space form:"
+  },
+  {
+   "section": "article",
+   "text": "where , , , and <italic>A</italic>, <italic>B</italic>, <italic>C</italic>, and <italic>D </italic>are constant matrices. <sentence_start/>As <italic>A</italic>, <italic>B</italic>, <italic>C</italic>, and <italic>D </italic>depend on the parameter values, they are different for each therapeutically-treated diseased model and for the healthy one. <sentence_start/>Furthermore, the therapy models have input , while the healthy one has null input in deviation variables."
+  },
+  {
+   "section": "article",
+   "text": "Model rearrangement and SSV analysis"
+  },
+  {
+   "section": "article",
+   "text": "An uncertainty <italic>r<sub>k </sub></italic>= 45% was applied to each parameter in the model, according to the definition in (3). <sentence_start/>Multiple deviation models were then defined as the difference between each therapy model and the healthy one in the form described by (9). <sentence_start/>In practice these deviation models were obtained numerically in Matlab. <sentence_start/>Their output was normalized by the performance weighting factor, <italic>w<sub>p</sub></italic>, defined in (3). <sentence_start/>The models were numerically converted into an M-\u0394 form by using the <italic>Robust Control Toolbox </italic>in Matlab."
+  },
+  {
+   "section": "article",
+   "text": "SSV analysis was applied to all the deviation models, after a nominal stability check (data not shown). <sentence_start/><italic>\u03bc<sub>RP </sub></italic>was calculated using Matlab function <italic>mussv</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "CL participated in the design of the study, carried out the numerical simulations and drafted the manuscript. <sentence_start/>JES participated in the design of the study and helped to draft the manuscript. <sentence_start/>KRS helped with preliminary stochastic analyses in the design of the manuscript. <sentence_start/>LRP participated in the design of the study and helped to draft the manuscript. <sentence_start/>FJD participated in the design of the study and helped to draft the manuscript. <sentence_start/>All authors read and approved the final manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Acknowledgements"
+  },
+  {
+   "section": "back",
+   "text": "CL, JES, and FJD were supported by Pfizer Inc. through Contract No. DFP01, and the Institute for Collaborative Biotechnologies through Grant No. W911NF-09-D-0001 from the U.S. Army Research Office. KRS and LRP were funded by Pfizer Inc. and the Institute for Collaborative Biotechnologies under Grant No. DFR3A-8-447850-23002 from the Army Research Office. <sentence_start/>LRP was also supported by Grant R01EB007511 from the National Institute of Biomedical Imaging and Bioengineering and DOE Contract No. DE-FG02-04ER25621. <sentence_start/>KRS was also supported by a National Science Foundation Graduate Research Fellowship."
+  }
+ ]
+}

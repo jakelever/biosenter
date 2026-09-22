@@ -1,0 +1,271 @@
+{
+ "pmid": 38592803,
+ "pmcid": 10975169,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Soil, Plant, and Microorganism Interactions Drive Secondary Succession in Alpine Grassland Restoration"
+  },
+  {
+   "section": "abstract",
+   "text": "Plant secondary succession has been explored extensively in restoring degraded grasslands in semiarid or dry environments. <sentence_start/>However, the dynamics of soil microbial communities and their interactions with plant succession following restoration efforts remain understudied, particularly in alpine ecosystems. <sentence_start/>This study investigates the interplay between soil properties, plant communities, and microbial populations across a chronosequence of grassland restoration on the Qinghai-Tibet Plateau in China. <sentence_start/>We examined five succession stages representing artificial grasslands of varying recovery durations from 0 to 19. <sentence_start/>We characterized soil microbial compositions using high-throughput sequencing, enzymatic activity assessments, and biomass analyses. <sentence_start/>Our findings reveal distinct plant and microbial secondary succession patterns, marked by increased soil organic carbon, total phosphorus, and NH<sub>4</sub><sup>+</sup>-N contents. <sentence_start/>Soil microbial biomass, enzymatic activities, and microbial community diversity increased as recovery time progressed, attributed to increased plant aboveground biomass, cover, and diversity. <sentence_start/>The observed patterns in biomass and diversity dynamics of plant, bacterial, and fungal communities suggest parallel plant and fungal succession occurrences. <sentence_start/>Indicators of bacterial and fungal communities, including biomass, enzymatic activities, and community composition, exhibited sensitivity to variations in plant biomass and diversity. <sentence_start/>Fungal succession, in particular, exhibited susceptibility to changes in the soil C: N ratio. <sentence_start/>Our results underscore the significant roles of plant biomass, cover, and diversity in shaping microbial community composition attributed to vegetation-induced alterations in soil nutrients and soil microclimates. <sentence_start/>This study contributes valuable insights into the intricate relationships driving secondary succession in alpine grassland restoration."
+  },
+  {
+   "section": "article",
+   "text": "1. Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The Qinghai-Tibetan region in western China, encompassing an estimated 3.58 million ha of swampy meadows [<citation rid=\"B1-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1177/0309133316659283\" count=\"1\">1</citation>], faces widespread degradation due to climate change and insufficient protection awareness. <sentence_start/>Intensity livestock grazing and exploitation have produced <italic>Heitutan</italic> landscapes with extremely sparse vegetative cover or complete denudation [<citation rid=\"B1-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1177/0309133316659283\" count=\"1\">1</citation>,<citation rid=\"B2-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1002/ldr.2154\" count=\"1\">2</citation>]. <sentence_start/>Efforts to restore degraded swampy meadows have become a significant area of research, aiming to understand causative factors and develop effective control measures [<citation rid=\"B3-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s13157-016-0739-6\" count=\"1\">3</citation>,<citation rid=\"B4-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s13157-016-0788-x\" count=\"1\">4</citation>,<citation rid=\"B5-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1080/01431161.2017.1348642\" count=\"1\">5</citation>]. <sentence_start/>Establishing artificial grasslands is a promising and efficient approach for restoring severely degraded alpine meadows [<citation rid=\"B6-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2020.108111\" count=\"1\">6</citation>,<citation rid=\"B7-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1126/science.abe0725\" pmid=\"35239372\" count=\"1\">7</citation>], but our understanding of these processes in alpine environments remains limited."
+  },
+  {
+   "section": "article",
+   "text": "Soil microorganisms are crucial indicators of soil health [<citation rid=\"B6-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2020.108111\" count=\"1\">6</citation>] and game-changers in restoring degraded soil functions [<citation rid=\"B7-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1126/science.abe0725\" pmid=\"35239372\" count=\"1\">7</citation>]. <sentence_start/>Their impact on plant growth, through organic matter decomposition and nutrient availability maintenance, extends to impacting plant biomass, richness, and diversity [<citation rid=\"B8-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/1365-2745.12054\" count=\"1\">8</citation>,<citation rid=\"B9-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2017.09.025\" count=\"1\">9</citation>]. <sentence_start/>In turn, changes in plant litter, roots, and root exudation regulate soil microbial community composition, activity, and diversity during ecosystem restoration [<citation rid=\"B10-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2020.107814\" count=\"1\">10</citation>,<citation rid=\"B11-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1038/ismej.2008.80\" pmid=\"18754043\" count=\"1\">11</citation>]. <sentence_start/>The reciprocal relationship between changes in plant community properties and microbial community composition influences plant community and soil microorganism dynamics [<citation rid=\"B12-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/1365-2745.12046\" count=\"1\">12</citation>,<citation rid=\"B13-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1094/MPMI-10-12-0249-CR\" pmid=\"23581824\" count=\"1\">13</citation>]. <sentence_start/>While previous studies on degraded grassland restoration have focused on plant communities, soil nutrients, microbial activity, and community composition [<citation rid=\"B14-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.still.2019.104305\" count=\"1\">14</citation>,<citation rid=\"B15-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.017\" count=\"1\">15</citation>], the interplay between plants and soil microbial communities during vegetation secondary succession, especially in alpine regions, remains underexplored."
+  },
+  {
+   "section": "article",
+   "text": "Soil microbes, particularly bacteria and fungi, are the dominant decomposers of plant litter. <sentence_start/>Their activity-which significantly impacts biogeochemical processes and plant community establishment-is highly influenced by environmental conditions [<citation rid=\"B16-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1128/AEM.00966-17\" pmid=\"28476769\" pmcid=\"PMC5494632\" count=\"1\">16</citation>]. <sentence_start/>Moreover, their patterns of secondary succession during recovery and response to soil nutrient levels vary due to differences in life history [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>]. <sentence_start/>Fungi, known for decomposing recalcitrant substrates and mediating slow carbon (C) cycling pathways in soil [<citation rid=\"B18-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/mec.12589\" pmid=\"26010467\" count=\"1\">18</citation>], exhibit distinct succession patterns compared to bacteria, which generally regulate rapid soil biochemical cycling with faster growth rates [<citation rid=\"B19-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2007.03.023\" count=\"1\">19</citation>]. <sentence_start/>However, microbial growth limitations due to variations in nutrient stoichiometry during plant succession can influence the accumulation of carbon sources from litter and roots and their exudation [<citation rid=\"B10-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2020.107814\" count=\"1\">10</citation>,<citation rid=\"B11-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1038/ismej.2008.80\" pmid=\"18754043\" count=\"1\">11</citation>,<citation rid=\"B20-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.scitotenv.2018.08.173\" pmid=\"30121038\" count=\"1\">20</citation>,<citation rid=\"B21-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.tplants.2022.04.009\" pmid=\"35606255\" count=\"1\">21</citation>]. <sentence_start/>Understanding how soil microbial communities respond to plant succession and soil nutrient changes is crucial for comprehending the impacts of alpine grassland restoration on soil health."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we selected five grasslands with varying recovery periods (0, 5, 14, 16, and 19 years) in a typical alpine area on the Qinghai-Tibetan Plateau of China to investigate temporal changes in soil properties, plant communities, and microbial community structures during the long-term chronosequence of recovery. <sentence_start/>Our specific objectives were to (1) characterize changes in plant productivity (biomass), soil properties (nutrient levels), and soil microbial communities (activity, richness, and diversity) at different vegetation recovery times, (2) assess the consistency of plant succession patterns with those of soil microbial communities, and (3) explore the relationships among soil properties, plant communities, and microbial populations along the chronosequence. <sentence_start/>In the unique alpine environment, we anticipated uncovering the relationship between soil microbial community succession and aboveground plant changes following artificial grassland restoration and identifying key environmental factors driving succession."
+  },
+  {
+   "section": "article",
+   "text": "2. Results"
+  },
+  {
+   "section": "article",
+   "text": "2.1. Plant Communities"
+  },
+  {
+   "section": "article",
+   "text": "Plant community properties significantly differed with increasing recovery time. <sentence_start/>Recovery time (R5, R14, R16, and R19) significantly increased plant aboveground biomass, coverage, richness, and diversity (<italic>p &lt;</italic> 0.05) compared to R0 (Table 1). <sentence_start/>The Shannon index and biomass followed a similar increasing pattern, peaking at R14. <sentence_start/>Plant coverage significantly increased at R14 and R19 compared to R0. <sentence_start/>Perennial species richness was notably higher at R19 than at R0."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Soil Properties and Microbial Activity"
+  },
+  {
+   "section": "article",
+   "text": "Recovery time significantly influenced soil nutrients, microbial biomass, and enzyme activities (Table 2). <sentence_start/>Plant recovery time significantly (<italic>p</italic> &lt; 0.05) increased soil organic carbon (SOC) content, with similar trends for total nitrogen (TN), total phosphorus (TP), available phosphorous (AP), and ammonium nitrogen (NH<sub>4</sub><sup>+</sup>-N) contents. <sentence_start/>Conversely, nitrate nitrogen (NO<sub>3</sub>N) content gradually decreased during the grassland recovery, reaching its lowest point at R19. <sentence_start/>The C: N ratio initially decreased in the first five years of recovery compared to R0 but then increased over time. <sentence_start/>Interestingly, soil microbial biomass carbon and nitrogen (MBC and MBN) generally decreased with increasing recovery time. <sentence_start/>Grassland recovery significantly enhanced \u03b2-1,4-glucosidase (BG), \u03b2-1,4-N-acetylglucosaminidase (NAG), cellobiohydrolase CBH, acid phosphatase (ACP), and phenoloxidase (POX) activities, relative to R0."
+  },
+  {
+   "section": "article",
+   "text": "2.3. Soil Microbial Community Composition"
+  },
+  {
+   "section": "article",
+   "text": "A total of 13,319 operational taxonomic units (OTUs) with 97% similarity were identified, with no significant (<italic>p</italic> &lt; 0.05) difference in the number of OTUs between R0 and R19 (Table 3). <sentence_start/>The bacteria community richness evaluation, using Chao1 and abundance-based coverage estimator (ACE), revealed a significant (<italic>p</italic> &lt; 0.05) decrease during the first 14 years of grassland recovery relative to R0, followed by an increase over time. <sentence_start/>In contrast, Chao1 and ACE estimators of fungal community richness generally decreased with recovery time. <sentence_start/>The Shannon index in the bacterial community, reflecting diversity, exhibited a similar pattern to Chao1 and ACE, with the highest values at R19. <sentence_start/>However, the Shannon index for fungi generally decreased with recovery time, reaching its lowest value at R19."
+  },
+  {
+   "section": "article",
+   "text": "The identified OTUs were categorized into \u226517 fungal and 11 bacterial phyla. <sentence_start/>Across all recovery times, <italic>Proteobacteria</italic> emerged as the most abundant bacterial phylum, followed by <italic>Acidobacteria</italic>, <italic>Actinobacteria</italic>, and <italic>Planctomycetes</italic> (Figure 1). <sentence_start/>The non-metri multi-dimensional scaling (NMDS) analysis based on the Jaccard distance (number of OTUs) revealed substantial alterations in bacterial community composition over the recovery chronosequence (Figure 2). <sentence_start/><italic>Basidiomycota</italic> abundance significantly increased and <italic>Ascomycota</italic> abundance decreased with recovery time, relative to R0. <sentence_start/>The fungal community structure significantly differed among R0, R5, R14, R16, and R19 (Figure 2)."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>Relationship between Soil Properties, Plant Communities, and Microbial Populations"
+  },
+  {
+   "section": "article",
+   "text": "The Mantel test revealed significant correlations between overall bacterial and fungal community composition and plant richness, cover, Shannon index, MBC content, and soil ACP activity (<italic>p</italic> &lt; 0.05, Mantel\u2019s R \u2265 0.2, Figure 3). <sentence_start/>In addition, soil TN content and plant aboveground biomass significantly correlated with bacterial community composition, while SOC content, NO<sub>3</sub><sup>\u2212</sup>-N content, C: N ratio, and soil POX activity significantly correlated with fungal composition (Figure 3). <sentence_start/>The canonical correspondence analysis (CCA) analysis further indicated that plant diversity, cover, ACP activity, and NO<sub>3</sub><sup>\u2212</sup>-N content in the restored grassland played crucial roles in shaping bacterial community changes, while plant diversity, cover, and ACP influenced the fungal community (Figure 4)."
+  },
+  {
+   "section": "article",
+   "text": "The partial least squares model (PLS-PM) indicated that the predictor variables collectively explained 85% and 78% of the variations in bacterial and fungal community composition, respectively (Figure 5). <sentence_start/>Plant coverage and soil TN positively affected bacterial community composition, whereas plant properties did not directly affect fungal community composition. <sentence_start/>Plant diversity and aboveground biomass negatively impacted fungal biomass and bacterial community composition, respectively. <sentence_start/>Moreover, the soil C: N ratio negatively affected fungal groups and positively affected soil enzymatic activities (Figure 5)."
+  },
+  {
+   "section": "article",
+   "text": "3. Discussion"
+  },
+  {
+   "section": "article",
+   "text": "3.1. <sentence_start/>Effect of Secondary Succession on Plant and Soil Properties"
+  },
+  {
+   "section": "article",
+   "text": "The observed secondary succession in the artificial grassland revealed a positive effect on plant communities, marked by increased species richness, diversity, and aboveground biomass. <sentence_start/>This outcome aligns with previous studies in different environments [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>,<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>]. <sentence_start/>In contrast to dry environments, where initial increases in species richness and cover were followed by declines [<citation rid=\"B23-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.jaridenv.2011.08.014\" count=\"1\">23</citation>,<citation rid=\"B24-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.jaridenv.2005.08.009\" count=\"1\">24</citation>], our field sites in artificial plantations demonstrated an initial increase in plant cover and biomass. <sentence_start/>This finding suggests that rapid vegetation establishment through artificial planting benefits degraded alpine grassland restoration, particularly when natural seed propagation is limited."
+  },
+  {
+   "section": "article",
+   "text": "The artificial cultivation of fine forage significantly improved soil nutrient levels compared to those in highly degraded grassland, due to the increased aboveground biomass and cover. <sentence_start/>The low nutrient contents at R0, such as SOC and TP, may be attributed to rapid plant litter loss due to high-intensity grazing, primarily by yaks. <sentence_start/>This grazing practice decreases aboveground biomass accumulation, increasing soil degradation [<citation rid=\"B25-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.ecoleng.2016.09.003\" count=\"1\">25</citation>]. <sentence_start/>The initial surge in vegetation and subsequent accumulation of aboveground biomass in the surface soil increased soil organic matter due to litter and root decomposition (Figure 3). <sentence_start/>In contrast to forested areas where aboveground plants supply abundant nutrients to the soil, our sites experienced lower aboveground biomass input due to winter grazing. <sentence_start/>The relatively constant SOC in R5 compared to R0 might be attributed to slow organic matter degradation under extreme climatic conditions (low temperatures and less oxygen) and intensive grazing (low biomass input). <sentence_start/>However, the stable soil C: N ratio over the chronosequence (Table 2) is consistent with previous reports indicating constant C: N ratios in soils [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>,<citation rid=\"B26-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.geoderma.2017.05.002\" count=\"1\">26</citation>,<citation rid=\"B27-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.ecoleng.2017.10.003\" count=\"1\">27</citation>]. <sentence_start/>The contribution of aboveground litter and belowground roots to soil nutrients, combined with the relatively constant plant diversity, might explain the stable C: N ratio in litter and roots [<citation rid=\"B27-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.ecoleng.2017.10.003\" count=\"1\">27</citation>,<citation rid=\"B28-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/j.1466-8238.2010.00602.x\" count=\"1\">28</citation>]. <sentence_start/>This stability suggests that artificial grassland succession had a limited impact on soil C and nitrogen (N) levels in alpine degraded grassland. <sentence_start/>The similar trends in SOC, TN, TP, and NH<sub>4</sub><sup>+</sup>-N contents and hydrolase (CBH, BG, ACP, and NAG) and oxidase (POX and PEX) enzyme activities align with previous findings that soil enzymatic activities are closely associated with soil nutrient contents [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>,<citation rid=\"B29-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s11104-023-06453-1\" count=\"1\">29</citation>]. <sentence_start/>The continuous increase in soil nutrients throughout the experiment indicates that 19 years was sufficient to observe clear patterns of secondary succession, but plant diversity and richness did not significantly differ between R5 and R19 (Table 1), most likely due to extreme climatic conditions [<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "3.2. <sentence_start/>Effect of Secondary Succession on Soil Microorganisms"
+  },
+  {
+   "section": "article",
+   "text": "Plant succession typically involves an initial increase in species richness, cover, and diversity, followed by a potential decrease due to strong competition or grazing pressure [<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>]. <sentence_start/>We found a clear succession pattern in soil microbial communities, characterized by changes in biomass, activities, and composition along the chronosequence. <sentence_start/>These findings align with previous studies by Zhang et al. [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>] and Cheng et al. [<citation rid=\"B25-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.ecoleng.2016.09.003\" count=\"1\">25</citation>], reporting adverse effects of long-term grazing exclusion on soil bacterial diversity. <sentence_start/>Lozano et al. [<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>] reported an increase in bacterial diversity along a successional chronosequence of restored farmland, consistent with results reported for moorland [<citation rid=\"B30-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s11104-011-0968-7\" count=\"1\">30</citation>] and agricultural systems [<citation rid=\"B31-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2011.06.022\" count=\"1\">31</citation>]. <sentence_start/>However, Kuramae et al. [<citation rid=\"B32-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/j.1574-6941.2011.01110.x\" pmid=\"21488909\" count=\"1\">32</citation>] observed a significant overlap in microbial communities, with no clear differences between succession chronosequences in chalk grassland. <sentence_start/>These variations suggest that distinct successional patterns in microbial composition arise from different environmental conditions, such as drought, high altitude, and low soil nutrients."
+  },
+  {
+   "section": "article",
+   "text": "Typically, changes in aboveground biomass lead to shifts in bacterial communities from fast-growing oligotrophic groups to slow-growing copiotrophic groups [<citation rid=\"B33-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2017.08.014\" count=\"1\">33</citation>], which usually dominate communities with low resource availability [<citation rid=\"B34-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1890/05-1839\" pmid=\"17601128\" count=\"1\">34</citation>]. <sentence_start/>In contrast, communities harboring <italic>k</italic> strategists tend to dominate soils with high resource availability [<citation rid=\"B35-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1128/AEM.00764-11\" pmid=\"21724890\" pmcid=\"PMC3165429\" count=\"1\">35</citation>]. <sentence_start/>The difference in soil substrates drives this shift, which is consistent with the increased SOC contents observed among the successional stages in our study. <sentence_start/>Despite this shift, the abundance of bacterial community groups did not significantly differ among the successional stages, indicating that a relatively short time (19 years) of plant recovery may not significantly alter bacterial community abundance in the artificial alpine grasslands."
+  },
+  {
+   "section": "article",
+   "text": "Our results also revealed differences in fungal community composition with increasing recovery time (Figure 2), aligning with findings by Zhang et al. [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>] and Banning et al. [<citation rid=\"B35-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1128/AEM.00764-11\" pmid=\"21724890\" pmcid=\"PMC3165429\" count=\"1\">35</citation>], who reported noticeable changes in fungal community composition during long-term grazing exclusion and succession from grassland to forest. <sentence_start/>However, Davey et al. [<citation rid=\"B36-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/1462-2920.12770\" pmid=\"25580779\" count=\"1\">36</citation>] found no clear succession pattern in fungal groups under natural restoration in Arctic glacial sites. <sentence_start/>These contrasting results may be attributed to soil substrate availability along the chronosequence, with sufficient soil nutrients in our study, whereas the study by Davey et al. [<citation rid=\"B36-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/1462-2920.12770\" pmid=\"25580779\" count=\"1\">36</citation>] began on glacial land with poor soil nutrients. <sentence_start/>Moreover, in our study, specific fungal groups, such as <italic>Basidiomycota</italic>, had increased relative abundance, indicating microbial succession in the soil. <sentence_start/>These changes in bacterial and fungal community structure suggest distinct successional patterns in microbial communities during the long-term restoration of degraded alpine grassland."
+  },
+  {
+   "section": "article",
+   "text": "3.3. <sentence_start/>Relationships among Plants, Soil Properties, and Microbial Succession"
+  },
+  {
+   "section": "article",
+   "text": "Numerous studies have highlighted substantial differences in soil microbial (bacterial and fungal) community composition among vegetation succession stages [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>,<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>,<citation rid=\"B37-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2015.10.006\" count=\"1\">37</citation>]. <sentence_start/>Our results support this, demonstrating that plant and soil microbial community succession increased with recovery time, similar to findings by Zeng et al. [<citation rid=\"B38-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.scitotenv.2017.07.102\" pmid=\"28732294\" count=\"1\">38</citation>] under long-term grazing exclusion and Lozano et al. [<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>] in a dry environment in the Tabernas Basin, Spain. <sentence_start/>These results highlight the significant impact of vegetation succession on soil microbial community structure. <sentence_start/>Increase plant cover with the chronosequence enhances soil organic matter and nutrient availability [<citation rid=\"B22-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2014.08.007\" count=\"1\">22</citation>]. <sentence_start/>Over time, plant succession increases organic material input through coverage, biomass, and diversity changes. <sentence_start/>Our study found that plant cover and diversity (Shannon index) consistently and significantly affected bacterial and fungal community composition, microbial biomass, enzyme activity, and soil nutrient levels (Figure 3 and Figure 4). <sentence_start/>Similarly, Zhang et al. [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>] reported that plant diversity directly affected bacterial and fungal communities. <sentence_start/>Conversely, Millard and Singh [<citation rid=\"B39-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s10705-009-9314-3\" count=\"1\">39</citation>] found no correlation between bacterial and plant diversity. <sentence_start/>Increasing plant coverage with succession allows for better microclimatic conditions (such as temperature and soil moisture) in the topsoil layer [<citation rid=\"B40-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/j.1654-1103.2004.tb02240.x\" count=\"1\">40</citation>]. <sentence_start/>Usually, increased plant cover enhances soil water-holding capacity, subsequently increasing soil moisture. <sentence_start/>However, our results showed that soil moisture content did not significantly correlate with plant cover (Figure 3). <sentence_start/>This finding contrasts with that of Zhang et al. [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>], who found a close correlation between fungal communities and soil moisture in a semiarid environment. <sentence_start/>These results indicate that SMC substantially impacted soil microbial distribution in a semiarid region more than in a high-altitude area with sufficient precipitation. <sentence_start/>Moreover, soil organic matter characteristics are usually determined by the quantity and quality of the plant community, such as its biomass and diversity. <sentence_start/>Changes in soil microbial community result from changes in plant communities, ultimately determining soil nutrients (soil C and N). <sentence_start/>Thakur et al. [<citation rid=\"B41-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/gcb.13011\" pmid=\"26118993\" count=\"1\">41</citation>] observed that higher plant diversity resulted in higher soil microbial community diversity, due to a more diverse organic matter composition from litter and root exudates. <sentence_start/>Therefore, plant diversity and cover can promote soil microbial growth and enhance microbial biomass due to their effects on SOC and microclimate conditions [<citation rid=\"B42-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1890/14-0088.1\" pmid=\"26236895\" count=\"1\">42</citation>]. <sentence_start/>Our study supports this observation, with plant diversity (Shannon index) and cover associated with MBC, soil nutrients (SOC, TN), and enzyme activity (ACP and POX) (Figure 3 and Figure 5)."
+  },
+  {
+   "section": "article",
+   "text": "High plant biomass, cover, and diversity promoted by the increase in soil nutrients positively affected microbial communities in terms of biomass and activity, as reported for primary succession [<citation rid=\"B43-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.baae.2005.02.004\" count=\"1\">43</citation>]. <sentence_start/>We found that TN content negatively correlated with plant biomass, cover, and diversity while positively driving the bacterial community (Figure 3 and Figure 5), consistent with results reported by Zhang et al. [<citation rid=\"B17-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2018.05.026\" count=\"1\">17</citation>]. <sentence_start/>In our study, NO<sub>3</sub><sup>\u2212</sup>-N content only affected fungal groups, with no influence of NH<sub>4</sub><sup>+</sup>-N content on bacterial and fungal groups (Figure 3). <sentence_start/>We also found that NO<sub>3</sub><sup>\u2212</sup>-N content decreased with successional time, while NH<sub>4</sub><sup>+</sup>-N content increased, likely because many species prefer NO<sub>3</sub><sup>\u2212</sup> as a nitrogen source [<citation rid=\"B44-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1086/665997\" pmid=\"22673651\" count=\"1\">44</citation>]. <sentence_start/>These results indicate that only NO<sub>3</sub><sup>\u2212</sup> forms of N contributed to plant and bacterial community succession. <sentence_start/>In addition, our results showed that phosphatase activity (such as ACP) increased with the chronosequence (Table 2) and its effects on bacterial and fungal community composition (Figure 3), which could be attributed to soil microorganisms sourcing scarce P from soil organic matter."
+  },
+  {
+   "section": "article",
+   "text": "However, the PLS-PM methods used to characterize the relationship between the soil microbial community and environmental factors indicated that soil bacteria and fungi processed substrate decomposition differently (Figure 5). <sentence_start/>Plant diversity negatively correlated with fungal biomass, and the soil C: N ratio negatively drove the fungal community (Figure 3 and Figure 5). <sentence_start/>Given the increased plant diversity along the chronosequence and management model (winter pasture), most senescent plant straw did not contain enough available nutrients to meet soil microbial growth requirements [<citation rid=\"B45-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2010.09.017\" count=\"1\">45</citation>]. <sentence_start/>Fungi can decompose recalcitrant organic matter such as lignin and cellulose better than bacteria [<citation rid=\"B46-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.jaridenv.2020.104300\" count=\"1\">46</citation>]. <sentence_start/>However, soil organic matter needs enzymes like hydrolase and oxidase to degrade (Figure 5). <sentence_start/>Therefore, while some bacterial communities are actively involved in cellulose degradation [<citation rid=\"B47-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1111/j.1462-2920.2006.01182.x\" pmid=\"17298363\" count=\"1\">47</citation>], soil fungi seem to contribute strongly to the degradation of recalcitrant substrates. <sentence_start/>The predominance of soil fungi in the degradation of complex litter may be due to the ability of mycelium to explore soil space and acquire large reserves of soil nutrients [<citation rid=\"B21-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.tplants.2022.04.009\" pmid=\"35606255\" count=\"1\">21</citation>], consistent with previous observations [<citation rid=\"B46-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.jaridenv.2020.104300\" count=\"1\">46</citation>,<citation rid=\"B48-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2007.04.002\" count=\"1\">48</citation>,<citation rid=\"B49-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.agee.2022.108006\" count=\"1\">49</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "4. Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "4.1. <sentence_start/>Study Sites"
+  },
+  {
+   "section": "article",
+   "text": "Our investigation focused on the degradation of swampy meadows within the Qinghai-Tibet Plateau, specifically in the Guoluo Tibetan Autonomous Prefecture of Qinghai Province, China. <sentence_start/>This region has undergone rehabilitation through external interventions, primarily artificial grassland. <sentence_start/>The study area (100\u00b021\u2032 E, 34\u00b047\u2032 N), characterized by a frigid alpine and semiarid climate, has been protected by artificial grassland to monitor the long-term restoration of <italic>Heitutan</italic>, as described by Gao and Li [<citation rid=\"B5-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1080/01431161.2017.1348642\" count=\"1\">5</citation>]. <sentence_start/>The experimental site has a mean annual precipitation of 350 mm, a mean annual temperature of about \u22124 \u00b0C, and an average elevation of 3700 m above sea level (a.s.l.). <sentence_start/>Additional details on environmental conditions, plant growth states, and local animal husbandry are available in Li et al. [<citation rid=\"B4-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s13157-016-0788-x\" count=\"1\">4</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "4.2. <sentence_start/>Experimental Design and Sampling"
+  },
+  {
+   "section": "article",
+   "text": "In July 2023, coinciding with peak aboveground productivity, we studied five grassland sites along a recovery chronosequence. <sentence_start/>Four of these sites, under artificial planting initially and subsequent natural restoration since 2004, 2007, 2009, and 2018, represented recovery periods of 19 years (R19), 16 years (R16), 14 years (R14), and 5 years (R5), respectively. <sentence_start/><italic>Elymus nutans</italic> Griseb., <italic>Poa pratensis</italic> L., and <italic>Festuca sinensis</italic> Keng ex S.L.Lu were the three species used to restore the grasslands. <sentence_start/>The fifth site, denoted R0, served as a reference and featured highly degraded grassland covered with poisonous grass. <sentence_start/>All sites had a history of intensive winter grazing. <sentence_start/>The selected sites shared similar altitudes, slope aspects, slope gradients, soil types, and environmental conditions. <sentence_start/>We established three 20 m \u00d7 20 m plots within each site separated by 30 m. <sentence_start/>Soil samples were collected from the topsoil (0-20 cm) using a 4 cm diameter auger inserted at five randomly selected positions after removing the litter layer. <sentence_start/>The collected soil cores were combined into composite samples and stored in a low-temperature incubator. <sentence_start/>Stones, litter, roots, and animal bodies were removed, with the DNA extraction sample immediately stored at \u221280 \u00b0C. <sentence_start/>Additionally, three 50 cm \u00d7 50 cm subplots were randomly designated within each plot to estimate vegetation aboveground biomass, coverage, and species count (see Table S1). <sentence_start/>Aboveground biomass was determined after oven-drying at 60 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "4.3. <sentence_start/>Soil Chemical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Various soil properties were analyzed to understand changes over time. <sentence_start/>SOC content was determined using the Walkley and Black dichromate oxidation method with a correction factor of 1.08. <sentence_start/>Total nitrogen (TN) content was determined using the K<sub>2</sub>SO<sub>4</sub>-CuSO<sub>4</sub>-Se (100: 10: 1) distillation method. <sentence_start/>After perchloric acid digestion and ascorbic acid reduction, TP content was determined using the molybdate colorimetric method. <sentence_start/>Inorganic nitrogen (NH<sub>4</sub><sup>+</sup>-N and NO<sub>3</sub><sup>\u2212</sup>-N) contents were analyzed using an auto-flow injection system (Auto-Analyzer AA3, Germany). <sentence_start/>The soil\u2019s AP was quantified using the Olsen-P method [<citation rid=\"B50-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.scitotenv.2015.09.108\" pmid=\"26439653\" count=\"1\">50</citation>]. <sentence_start/>SMC was determined after drying at 105 \u00b0C to constant weight. <sentence_start/>Soil pH was measured in a 1: 2.5 soil-water mixture using a pH meter (Seven Excellence S400)."
+  },
+  {
+   "section": "article",
+   "text": "4.4. <sentence_start/>Microbial Biomass and Enzymatic Activities"
+  },
+  {
+   "section": "article",
+   "text": "Soil MBC and MBN contents were determined by quantifying differences in carbon and nitrogen between chloroform-fumigated and non-fumigated soil samples. <sentence_start/>For soil enzyme assays, the activities of four hydrolytic enzymes involved in C, N, and P cycling (BG, CBH, NAG, and ACP) were measured [<citation rid=\"B51-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1038/nature08632\" pmid=\"20010687\" count=\"1\">51</citation>]. <sentence_start/>We also assessed the activities of two oxidases (POX and PEX) that are responsible for degrading recalcitrant organic C [<citation rid=\"B52-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1016/j.soilbio.2009.10.014\" count=\"1\">52</citation>]. <sentence_start/>Hydrolytic enzyme activities were measured using fluorescence microplate assay with 4-methylumbelliferone (MUB)-labeled substrate [<citation rid=\"B53-plants-13-00780\" ref-type=\"bibr\" doi=\"10.3791/50961\" pmcid=\"PMC3991303\" pmid=\"24299913\" count=\"1\">53</citation>]. <sentence_start/>Oxidases were measured spectrophotometrically in a clear 96-well microplate using the substrate L-3,4-dihydroxyphenylalanine (DOPA) [<citation rid=\"B29-plants-13-00780\" ref-type=\"bibr\" doi=\"10.1007/s11104-023-06453-1\" count=\"1\">29</citation>]. <sentence_start/>Activity levels were determined fluorometrically with a plate reader (Varioskan LUX, ThermoFisher Scientific, Waltham, MA, USA) set at 450 nm emission and 365 nm excitation, with the results expressed in units of substrate converted (\u03bcmol) per mL of sample (\u03bcmol g<sup>\u22121</sup> h<sup>\u22121</sup>)."
+  },
+  {
+   "section": "article",
+   "text": "4.5. <sentence_start/>Soil DNA Extraction and Sequencing"
+  },
+  {
+   "section": "article",
+   "text": "Microbial deoxyribonucleic acid (DNA) extraction was performed on each soil sample using a QIAamp<sup>\u00ae</sup> DNA Stool Mini Kit for soil (Qiagen, Hilden, Germany) following the manufacturer\u2019s instructions, with the DNA concentration and purity assessed using a Nanodrop ND-1000. <sentence_start/>Bacterial genomic DNA was used to amplify the V3-V4 hypervariable region of the 16SrRNA gene, using the primers 515F: GTGCCAGCMGCCGCGG and 907R: CCGTCAATTCMTTTRAGTTT. <sentence_start/>The fungal ITS2 region was amplified using primers ITS3: GCATCGATGAAGAACGCAGC and ITS4: TCCTCCGCTTATTGATATGC, under the same conditions. <sentence_start/>Each sample underwent independent amplifications in triplicate. <sentence_start/>The polymerase chain reaction (PCR) products were checked by agarose gel electrophoresis, and then pooled to use as a template. <sentence_start/>Index PCR was performed using index primers to add the Illumina index to the library. <sentence_start/>Amplification products were checked using gel electrophoresis and purified using an Agencourt AMPure XP Kit (Beckman Coulter, Brea, CA, USA). <sentence_start/>The purified products were indexed in the 16S V3-V4 library. <sentence_start/>The library quality was assessed using a Qubit@2.0 Fluorometer (ThermoFisher Scientific) and Agilent Bioanalyzer 2100 systems (Agilent, Santa Clara, CA, USA). <sentence_start/>All sequence data have been deposited in the CNGB Sequence Archive (CNSA) of the China National GeneBank DataBase (CNGBdb) (accession number CNP0005274)."
+  },
+  {
+   "section": "article",
+   "text": "4.6. Bioinformatics Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Paired-end clean reads were merged using fast length adjustment of short reads (FLASH, v1.2.11) and quality-filtered, based on prescribed conditions, to obtain high-quality clean reads that were clustered into OTUs using UPARSE with 97% similarity. <sentence_start/>All OTUs were classified based on the Ribosomal Database Project by Mothur. <sentence_start/>Alpha diversities, including the Shannon-Wiener index, Chao1 estimator, and ACE, were analyzed for bacterial and fungal communities by Mothur. <sentence_start/>NMDS analysis based on OTUs was performed using R Project (Vegan package, V3.3.1)."
+  },
+  {
+   "section": "article",
+   "text": "4.7. <sentence_start/>Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "The effect of recovery length on plant properties (including aboveground biomass, coverage, and diversity), soil properties, microbial biomass, enzyme activities, and microbial diversity was assessed using one-way ANOVA, followed by Tukey\u2019s honestly significant difference test for pairwise comparisons. <sentence_start/>Plant community diversity was assessed using the Shannon-Wiener index. <sentence_start/>NMDS analysis based on OTU levels evaluated the relationships between bacterial and fungal community structures during succession stages. <sentence_start/>The Mantel test was performed using the \u2018dplyr\u2019 R package (Vegen package, V3.3.1) to assess correlations between plant characteristics, soil properties, and soil microbial community composition. <sentence_start/>(CCA was conducted using the \u2018vegan\u2019 R package to assess environmental factors influencing bacterial and fungal community structure. <sentence_start/>A PLS-PM was performed using the \u2018plspm\u2019 R package to infer potential direct and indirect effects of diversity, aboveground biomass, plant cover, soil C, N, and C: N ratio, and MBC on bacterial and fungal community composition. <sentence_start/>Significance was set at <italic>p</italic> \u02c2 0.05. <sentence_start/>One-way ANOVAs and multiple comparisons were conducted using Genstat 18 software (VSN International Ltd., Rothamsted, UK), with figures generated using Origin 9.2 software (OriginLab 2016, Northampton, MA, USA)."
+  },
+  {
+   "section": "article",
+   "text": "5. Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Our study demonstrates the significant recovery of degraded alpine grassland through above- and belowground succession processes. <sentence_start/>Notable changes in plant biomass, cover, and diversity, soil properties, soil microbial biomass, diversity, and community structure characterize this restoration. <sentence_start/>Rapid establishment of plant coverage on heavily degraded grassland could benefit restoration efforts, suggesting the efficacy of strategies like alternate-year grazing in alpine grasslands on the Qinghai-Tibet Plateau. <sentence_start/>The parallel occurrence of plant and fungal succession highlights the interconnectedness of above- and belowground processes. <sentence_start/>Bacterial succession was influenced by plant biomass, cover, and soil TN content, while fungal succession was controlled by plant diversity and the soil C: N ratio. <sentence_start/>Changes in fungal communities were also susceptible to variations in soil enzyme activity, including phosphatase. <sentence_start/>Our findings underscore the importance of plant biomass, cover, and diversity in shaping soil microbial community composition. <sentence_start/>These factors likely influence soil nutrient dynamics and microclimate conditions. <sentence_start/>This study enhances our understanding of grassland ecosystem functioning and offers valuable insights for managing alpine grassland recovery."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Disclaimer/Publisher\u2019s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). <sentence_start/>MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Materials"
+  },
+  {
+   "section": "back",
+   "text": "The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/plants13060780/s1, Table S1 Plant species along the different secondary succession time. <sentence_start/>\u2018+\u2019 symbols indicates the plant species exist in a given succession time."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "Data curation, W.Z.; investigation, D.L., W.Z. and Q.X.; methodology, C.H. and D.L.; project administration, Y.G.; resources, Y.G.; software, M.X.; visualization, Y.G.; writing-review and editing, C.H. and K.H.M.S. All authors have read and agreed to the published version of the manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "back",
+   "text": "The data presented in this study and Supplementary Materials are available on request from the corresponding author."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no conflict of interest."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Relative abundance of soil bacterial and fungal communities with secondary succession time at the phylum level. <sentence_start/>R0: highly degraded grassland; R5: recovery time of 5 years; R14: recovery time of 14 years; R16: recovery time of 16 years; R19: recovery time of 19 years."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Non-metric multi-dimensional scaling analysis of bacterial and fungal communities (OTU abundance) under different treatments (R0, R5, R14, R16, and R19). <sentence_start/>R0: highly degraded grassland; R5: recovery time of 5 years; R14: recovery time of 14 years; R16: recovery time of 16 years; R19: recovery time of 19 years."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Correlation analysis between soil properties and plant communities, and the Mantel test for bacterial and fungal community composition (OTUs), soil properties, and plant communities. <sentence_start/>The colored lines indicate the significance of the Mantel test results: orange, <italic>p</italic> &lt; 0.01; green, 0.01 &lt; <italic>p</italic> &lt; 0.05; gray, <italic>p</italic> \u2265 0.05. <sentence_start/>Line thickness indicates correlation coefficient size. <sentence_start/>Asterisks indicate the significance effect: *, <italic>p</italic> &lt; 0.05; **, <italic>p</italic> &lt; 0.01; ***, <italic>p</italic> &lt; 0.001."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Canonical correspondence analysis (CCA) depicting the impact of soil and plant properties on bacterial (<bold>A</bold>) and fungal (<bold>B</bold>) communities across five treatments (R0, R5, R14, R16, and R19). <sentence_start/>R0: highly degraded grassland; R5: recovery time of 5 years; R14: recovery time of 14 years; R16: recovery time of 16 years; R19: recovery time of 19 years. <sentence_start/>The CCA analysis includes only significant data based on the Mantel test, excluding non-significant variables for both microbial groups."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Partial least squares path models (PLS-PM) illustrating the relationships among plant communities, soil properties, and bacteria (<bold>A</bold>) and fungi (<bold>B</bold>). <sentence_start/>Red and black arrows indicate negative and positive causality flows, respectively. <sentence_start/>Numbers above lines indicate normalized path coefficients. <sentence_start/>Dotted red lines indicate non-significant path relationships. <sentence_start/>R<sup>2</sup> values beside the latent variables denote coefficients of determination."
+  }
+ ]
+}

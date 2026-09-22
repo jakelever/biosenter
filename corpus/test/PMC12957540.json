@@ -1,0 +1,519 @@
+{
+ "pmid": 41788857,
+ "pmcid": 12957540,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Versatile Nanotherapeutics for Enhancing Sonodynamic Therapy/Chemotherapy of Thyroid Cancer through Remodeling Tumor Microenvironment and Synergistic Reactive Oxygen Species Augment"
+  },
+  {
+   "section": "abstract",
+   "text": "Anaplastic thyroid carcinoma (ATC), as the most malignant pathological type, is prone to local invasion and even distant metastasis with a poor prognosis and a high recurrence rate. <sentence_start/>Herein, we developed an iron-based metal organic framework (FL@M) as an effective sonosensitizer and biomimetic nanocarrier through the incorporation of lenvatinib (Len) and further coating with homologous tumor cell membranes, achieving the synergistic sonodynamic therapy/chemotherapy for ATC. <sentence_start/>With the homologous tumor membrane camouflage, FL@M nanoparticles exhibited good biocompatibility, drug loading, and excellent tumor targeting ability both in vitro and in vivo. <sentence_start/>After absorption, FL@M was decomposed and released Len and Fe<sup>3+</sup>/Fe<sup>2+</sup>. <sentence_start/>Under ultrasound irradiation, FL@M exhibited excellent sonodynamic effects, rapidly generating a large amount of reactive oxygen species (ROS), which induced oxidative stress and cell apoptosis. <sentence_start/>In addition, Fe<sup>3+</sup>/Fe<sup>2+</sup> had good catalase enzyme activity and peroxidase enzyme activity, which could catalyze H<sub>2</sub>O<sub>2</sub> to produce O<sub>2</sub> and cytotoxic \u2022OH, respectively, further enhancing the efficacy of sonodynamic therapy (SDT). <sentence_start/>Moreover, Len exerted a synergistic effect by promoting ROS production during SDT at a lower concentration, which could decrease the occurrence of side effects. <sentence_start/>In summary, our findings demonstrated that FL@M is a safe and effective metal-organic framework-based nanoplatform to inhibit tumor proliferation, recurrence, and metastasis, offering a promising SDT/chemotherapy combination strategy on thyroid cancer."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Over the past 4 decades, the incidence rate of thyroid cancer has risen rapidly, ranking seventh globally and third in China among malignant tumors [<citation rid=\"B1\" ref-type=\"bibr\" pmid=\"38572751\" doi=\"10.3322/caac.21834\" count=\"1\">1</citation>,<citation rid=\"B2\" ref-type=\"bibr\" pmid=\"39036382\" doi=\"10.1016/j.jncc.2024.01.006\" pmcid=\"PMC11256708\" count=\"1\">2</citation>]. <sentence_start/>Anaplastic thyroid carcinoma (ATC) is a highly invasive malignant tumor that is prone to local infiltration and distant metastasis. <sentence_start/>Patients often have poor prognosis and high recurrence rates because of the difficulties in early diagnosis and treatment [<citation rid=\"B3\" ref-type=\"bibr\" pmid=\"37866980\" doi=\"10.1016/j.surge.2023.10.002\" count=\"1\">3</citation>]. <sentence_start/>At present, surgery is the main treatment for ATC in clinical practice, supplemented by radioactive iodine (RAI) therapy and chemotherapy [<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"31549998\" doi=\"10.1093/annonc/mdz400\" count=\"1\">4</citation>,<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.6004/jnccn.2022.0040\" pmid=\"35948029\" count=\"1\">5</citation>]. <sentence_start/>Unfortunately, there are many limitations in the clinical treatment, including recurrent laryngeal nerve injury, decreased function of the parathyroid gland, skin scars, and especially lifelong replacement medication [<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1016/j.ecl.2018.10.010\" pmid=\"30717908\" count=\"1\">6</citation>,<citation rid=\"B7\" ref-type=\"bibr\" pmid=\"35668021\" doi=\"10.1016/j.beem.2022.101678\" count=\"1\">7</citation>]. <sentence_start/>Furthermore, secondary surgery faces difficulties such as tumor tissue adhesion and the inability to eradicate when patients experience local recurrence and metastasis [<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"31549998\" doi=\"10.1093/annonc/mdz400\" count=\"1\">4</citation>,<citation rid=\"B8\" ref-type=\"bibr\" pmid=\"29462007\" doi=\"10.1097/SLA.0000000000002710\" count=\"1\">8</citation>]. <sentence_start/>Therefore, it is of great clinical significance for ATC to establish a safe and effective treatment method."
+  },
+  {
+   "section": "article",
+   "text": "Lenvatinib (Len) is an oral multitarget tyrosine kinase inhibitor that specifically binds to vascular endothelial growth factor receptor and fibroblast growth factor receptor [<citation rid=\"B9\" ref-type=\"bibr\" pmid=\"21781317\" doi=\"10.1186/1471-2407-11-309\" pmcid=\"PMC3154179\" count=\"1\">9</citation>]. <sentence_start/>According to results from a clinical phase III trial, Len can effectively prolong progression-free survival and improve prognosis [<citation rid=\"B10\" ref-type=\"bibr\" pmid=\"24768112\" doi=\"10.1016/S0140-6736(14)60421-9\" pmcid=\"PMC4366116\" count=\"1\">10</citation>,<citation rid=\"B11\" ref-type=\"bibr\" pmid=\"25671254\" doi=\"10.1056/NEJMoa1406470\" count=\"1\">11</citation>], which has been approved by the Food and Drug Administration for clinical treatment of differentiated thyroid cancer [<citation rid=\"B11\" ref-type=\"bibr\" pmid=\"25671254\" doi=\"10.1056/NEJMoa1406470\" count=\"1\">11</citation>,<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.6004/jnccn.2020.0031\" pmid=\"32634781\" count=\"1\">12</citation>]. <sentence_start/>Meanwhile, many studies have reported that Len could up-regulate reactive oxygen species (ROS) levels to induce apoptosis in cancer cells and dose-dependently inhibits proliferation, migration, and invasion in ATC cells [<citation rid=\"B13\" ref-type=\"bibr\" pmid=\"36725188\" doi=\"10.1016/j.jare.2022.03.012\" pmcid=\"PMC9936410\" count=\"1\">13</citation>-<citation rid=\"B16\" ref-type=\"bibr\" pmid=\"29517103\" doi=\"10.3892/or.2018.6306\" count=\"1\">16</citation>]. <sentence_start/>Nowadays, Len is currently under clinical trials for ATC treatment, but some evidences indicate unsatisfactory therapeutic outcomes because of drug resistance. <sentence_start/>Moreover, due to the poor aqueous solubility, Len exhibits low bioavailability and inadequate tumor accumulation. <sentence_start/>Effective treatment required an increase in dosage, which led to a spectrum of adverse effects including hypertension, diarrhea, fatigue, and palmar-plantar erythrodysesthesia syndrome, and others [<citation rid=\"B17\" ref-type=\"bibr\" pmid=\"30264594\" doi=\"10.1080/14740338.2018.1530212\" count=\"1\">17</citation>]. <sentence_start/>Long-term use of Len even results in drug resistance, greatly limiting its widespread application in thyroid cancer patients [<citation rid=\"B11\" ref-type=\"bibr\" pmid=\"25671254\" doi=\"10.1056/NEJMoa1406470\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In recent years, sonodynamic therapy (SDT) based on low-intensity ultrasound wave has attracted widespread attention in the field of solid tumor treatment due to its advantages over traditional treatment methods, such as strong tissue penetration, good focusing, selectable irradiation sites, and minimal damage to surrounding normal tissue [<citation rid=\"B18\" ref-type=\"bibr\" count=\"1\">18</citation>,<citation rid=\"B19\" ref-type=\"bibr\" pmid=\"31710768\" doi=\"10.1002/anie.201912768\" count=\"1\">19</citation>]. <sentence_start/>By combining sonosensitizers and noninvasive focused acoustic energy, SDT can rapidly generate a large amount of ROS, which is expected to become a new method for cancer treatment [<citation rid=\"B20\" ref-type=\"bibr\" pmid=\"28829584\" doi=\"10.1021/acsnano.7b05215\" count=\"1\">20</citation>]. <sentence_start/>Furthermore, SDT can synergistically potentiate the sensitivity of radiotherapy and chemotherapy, thereby conferring substantial synergistic therapeutic efficacy in the management of ATC. <sentence_start/>However, due to the rapid proliferation of tumor cells and the increase of local abnormal blood vessels, the O<sub>2</sub> content at the tumor site decreases, leading to a hypoxic microenvironment, thus severely limiting the effectiveness of SDT [<citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.3389/fmed.2019.00117\" pmcid=\"PMC6582242\" pmid=\"31249831\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Metal-organic framework (MOF) is an emerging multifunctional nanoplatform formed by the reaction of metal ions or ion clusters with organic ligands to form a highly regular crystal framework structure [<citation rid=\"B22\" ref-type=\"bibr\" pmid=\"31757529\" doi=\"10.1016/j.biomaterials.2019.119619\" count=\"1\">22</citation>,<citation rid=\"B23\" ref-type=\"bibr\" pmid=\"32026590\" doi=\"10.1002/smll.201906846\" count=\"1\">23</citation>]. <sentence_start/>At present, it has been applied in the biomedical field, offering important advantages such as easy synthesis and functional modification, extremely high porosity, high internal surface area and loading capacity, and good biocompatibility [<citation rid=\"B24\" ref-type=\"bibr\" pmid=\"25714137\" doi=\"10.1021/ja512762r\" count=\"1\">24</citation>]. <sentence_start/>In particular, MOFs based on porphyrin derivatives and metal ions serve as both sonosensitizers and drug delivery platforms, which effectively solve the problems of low bioavailability and poor tumor site aggregation of sonosensitizers [<citation rid=\"B25\" ref-type=\"bibr\" pmid=\"31267634\" doi=\"10.1002/anie.201906823\" count=\"1\">25</citation>,<citation rid=\"B26\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>As a therapeutic nanoparticle, MOFs served several advantages over systemic administration of drugs, such as minimizing side effects, overcoming dosage limitations, and averting drug resistance [<citation rid=\"B27\" ref-type=\"bibr\" pmid=\"31049986\" doi=\"10.1111/jphp.13098\" count=\"1\">27</citation>,<citation rid=\"B28\" ref-type=\"bibr\" pmid=\"26706565\" doi=\"10.1016/j.msec.2015.11.067\" count=\"1\">28</citation>], demonstrating high pharmacological activity [<citation rid=\"B29\" ref-type=\"bibr\" pmid=\"31369176\" doi=\"10.1002/adma.201902409\" count=\"1\">29</citation>,<citation rid=\"B30\" ref-type=\"bibr\" pmid=\"37037263\" doi=\"10.1016/j.addr.2023.114821\" count=\"1\">30</citation>]. <sentence_start/>Researchers have found that excessive metals, such as Ag, Pt, and Fe, can decompose endogenous H<sub>2</sub>O<sub>2</sub> to produce O<sub>2</sub> [<citation rid=\"B31\" ref-type=\"bibr\" pmid=\"32022535\" doi=\"10.1021/acsnano.9b08667\" count=\"1\">31</citation>-<citation rid=\"B33\" ref-type=\"bibr\" pmid=\"39213978\" doi=\"10.1016/j.biomaterials.2024.122778\" count=\"1\">33</citation>], which could effectively relieve hypoxia and enhance the killing effect of SDT on tumor cells. <sentence_start/>Furthermore, Fe can also exhibit peroxidase (POD)-like activity in catalyzing H\u2082O\u2082 into \u2022OH [<citation rid=\"B26\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>Accordingly, it provides a new perspective for alleviating the hypoxic environment of tumors and offers a promising design strategy for oxygen self-loading platforms. <sentence_start/>Moreover, the biomimetic functionalization strategy based on cell membrane coating has recently sparked considerable interest in the development of intelligent nanoparticles [<citation rid=\"B34\" ref-type=\"bibr\" pmid=\"36307534\" doi=\"10.1038/s41571-022-00699-x\" count=\"1\">34</citation>,<citation rid=\"B35\" ref-type=\"bibr\" pmid=\"39887853\" doi=\"10.1002/smll.202411906\" count=\"1\">35</citation>]. <sentence_start/>It is reported that nano-delivery systems modified with homologous tumor cell membranes exhibit targeting and biocompatibility [<citation rid=\"B36\" ref-type=\"bibr\" pmid=\"29582476\" doi=\"10.1002/adma.201706759\" pmcid=\"PMC5984176\" count=\"1\">36</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In this study, a MOF (FeTBP) based on porphyrin and Fe coated with homologous tumor cell membrane was designed to incorporate Len (FL@M) and achieve combined SDT/chemotherapy for thyroid cancer (Fig. 1). <sentence_start/>The FL@M nanocarriers exhibited an outstanding tumor cell-targeting ability through the homing effect of homologous cell membrane and then were decomposed to release Fe<sup>3+</sup>/Fe<sup>2+</sup> and Len. <sentence_start/>Under ultrasound (US) irradiation. the sonosensitizer porphyrin was activated to produce a large amount of ROS, directly causing oxidative stress and apoptosis in cells. <sentence_start/>Besides, Fe<sup>3+</sup> acted as catalase (CAT)-like actively to decompose H<sub>2</sub>O<sub>2</sub> into O<sub>2</sub> in situ, alleviating the tumor hypoxic microenvironment. <sentence_start/>Fe<sup>2+</sup> could produce cytotoxic \u2022OH by Fenton reaction and aggravate intracellular ROS production. <sentence_start/>Additionally, Len could increase ROS production and further induce cell apoptosis to enhance the treatment of thyroid cancer while reducing the systemic toxicity and side effects through targeted delivery. <sentence_start/>In all, the FL@M nanocarriers demonstrated an excellent synergistic antitumor effect, providing a novel therapeutic strategy to realize SDT/chemotherapy for thyroid tumors."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 1."
+  },
+  {
+   "section": "article",
+   "text": "Schematic illustration of biomimetic nanoplatform FL@M for remodeling tumor microenvironment and synergistic ROS-augmented combination therapy on thyroid cancer. <sentence_start/>(A) The synthetic route of FL@M. (B) Targeted delivery of FL@M to the tumor by intravenous injection. <sentence_start/>(C) FL@M was internalized into cells through homologous targeting. <sentence_start/>After absorption, FL@M was decomposed and Fe<sup>3+</sup>/Fe<sup>2+</sup> and Len were released. <sentence_start/>Under US stimulation, FL@M was functioned to enhance synergistic SDT/chemotherapy for thyroid tumors."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Materials"
+  },
+  {
+   "section": "article",
+   "text": "Fe(NO<sub>3</sub>)<sub>3</sub>\u00b79H<sub>2</sub>O, CH<sub>3</sub>CO<sub>2</sub>Na\u00b73H<sub>2</sub>O, 2,2,6,6-tetramethylpiperidine (TEMP), 5,5-dimethyl-1-pyrroline-N-oxide (DMPO), and Len were purchased from Aladdin (Shanghai, China). <sentence_start/>DAPI, Hoechst 33342, phalloidin-AF488, Mito-Tracker Green, JC-1 staining, Membrane Protein Extraction Kit, and 2,7-dichlorodihydrofluorescein diacetate (DCFH-DA) were purchased from Beyotime (Shanghai, China). <sentence_start/>1,3-Diphenyl isobenzofuran (DPBF) and [Ru(dpp)<sub>3</sub>]Cl<sub>2</sub> (RDPP) were purchased from Macklin (Shanghai, China). <sentence_start/>Calcein-AM/PI Detection Kit and Annexin V-PE/7AAD Apoptosis Detection Kit were purchased from Servicebio (Wuhan, China). <sentence_start/>Lenvatinib conjugated with fluorescein isothiocyanate (Len-FITC) was purchased from Resenbio (Xi\u2019an, China). <sentence_start/>ROS Green probe and aminophenyl fluorescein (APF) probe were purchased from Maokang (Shanghai, China). <sentence_start/>Phenylmethylsulfonyl fluoride (PMSF) was purchased from TargetMol (Shanghai, China). <sentence_start/>Transwell chamber was purchased from BIOFIL (Guangzhou, China)."
+  },
+  {
+   "section": "article",
+   "text": "WED-100 ultrasonic treatment apparatus (Welld, China) was used as the ultrasonic trigger source (pulsed wave irradiation, frequency: 1.0 MHz, duty cycle: 50%, sonicator size: 2.0 cm<sup>2</sup>, pulsed repetition frequency: 10 ms)."
+  },
+  {
+   "section": "article",
+   "text": "Cell lines and culture"
+  },
+  {
+   "section": "article",
+   "text": "The human thyroid cancer cell line 8505C was purchased from the American Type Culture Collection (USA). <sentence_start/>HeLa was purchased from the cell bank of the Shanghai Institute of Cell Biology (Shanghai, China). <sentence_start/>Both cell lines were cultured in Dulbecco\u2019s Modified Eagle Medium (DMEM) (Hyclone, South Logan, UT, USA) with 10% fetal bovine serum (Viva Cell, Shanghai, China) and 1% streptomycin-penicillin solution (Gibco, USA). <sentence_start/>The cells were kept in a humidified incubator (Thermo Fisher Scientific, MA, USA) at 5% CO<sub>2</sub> and 37 \u00b0C and passaged every 2 days with a complete culture medium change."
+  },
+  {
+   "section": "article",
+   "text": "Synthesis procedure"
+  },
+  {
+   "section": "article",
+   "text": "FeTBP was synthesized in 2 steps. <sentence_start/>Firstly, Fe(NO\u2083)\u2083\u00b79H\u2082O (10 mmol, 4.04 g) and CH\u2083CO\u2082Na\u00b73H\u2082O (20 mmol, 2.72 g) were ground into a paste in a mortar and dissolved in methanol (30 ml). <sentence_start/>Then, the reaction mixture was transferred to a round bottom flask to stir under refluxing condition for 12 h. <sentence_start/>After stirring, the reaction mixture was filtered and the filtrate was kept undisturbed for crystallization, affording dark brown crystals after several days <citation rid=\"B26\" ref-type=\"bibr\" count=\"1\">[26]</citation>. <sentence_start/>Next, Fe<sub>3</sub>O(OAc)<sub>6</sub>(H<sub>2</sub>O)<sub>3</sub>(OAc) solution (4 ml, 2.2 mg/ml in N,N-dimethylformamide [DMF]), H<sub>4</sub>TBP solution (4 ml, 1.32 mg/ml in DMF), and 800 \u03bcl of formic acid were added into a 20-ml glass vial followed by keeping in an 80 \u00b0C oven for 24 h. <sentence_start/>Afterward, the reaction mixture was purified through centrifugation (12,000 rpm, 10 min) and washed with DMF and ethanol. <sentence_start/>The precipitate was then collected and vacuum-dried until a constant weight is reached, affording FeTBP."
+  },
+  {
+   "section": "article",
+   "text": "For the synthesis of FL, FeTBP (40 \u03bcl, 50 mg/ml in DMF) and Len (20 \u03bcl, 50 mg/ml in dimethyl sulfoxide [DMSO]) were dispersed in 2 ml of ultrapure water, followed by stirring for 12 h under dark conditions. <sentence_start/>Then, the mixed solution was washed with ultrapure water (12,000 rpm, 10 min) to remove excess Len, and FL was obtained."
+  },
+  {
+   "section": "article",
+   "text": "Synthesis of FL@M"
+  },
+  {
+   "section": "article",
+   "text": "The Membrane Protein Extraction Kit was adopted to extract cell membranes from 8505C cells. <sentence_start/>Briefly, 1 ml of membrane protein extraction reagent A containing 10 \u03bcl of PMSF was added to the collected 8505C cells and incubated on ice for 10 to 15 min. <sentence_start/>The mixture was centrifuged (700 <italic>g</italic>, 10 min, 4 \u00b0C) after ultrasonic decomposition. <sentence_start/>The supernatant was then centrifuged (14,000 <italic>g</italic>, 30 min, 4 \u00b0C), and the precipitate was washed 3 times with ultrapure water. <sentence_start/>Then, cell membrane fragment was obtained, resuspended in ultrapure water, and kept at \u221280 \u00b0C. <sentence_start/>The concentration of cell membrane was detected by Nanodrop (Thermo Fisher Scientific, USA). <sentence_start/>The cell membrane fragment (1 mg) and FL (2 mg) were mixed and stirred on ice for 1 h before passing through the Avanti mini-extruder (Merck, Germany). <sentence_start/>Finally, FL@M was obtained by centrifugation (12,000 <italic>g</italic>, 10 min, 4 \u00b0C) to remove the excess cell membrane fragment. <sentence_start/>Similarly, F@M nanoparticles were prepared with the same procedure."
+  },
+  {
+   "section": "article",
+   "text": "Membrane protein characterization"
+  },
+  {
+   "section": "article",
+   "text": "The membrane proteins of FL@M were represented by sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE). <sentence_start/>The 8505C cell lysate and 8505C cell membrane were employed as controls. <sentence_start/>All samples (identical protein amounts) were heated at 100 \u00b0C for 10 min with a loading buffer before being separated by a 10% SDS-PAGE at 120 V for 2 h. <sentence_start/>After Coomassie blue staining and destaining in 10% acetic acid/5% ethanol overnight, the gels were imaged to observe protein distribution. <sentence_start/>Western blotting analysis determined the presence of membrane-specific protein markers (Galectin-3 and E-cadherin)."
+  },
+  {
+   "section": "article",
+   "text": "Characterization"
+  },
+  {
+   "section": "article",
+   "text": "The chemical structure, elemental distribution, and phase chemical composition of FeTBP and FL@M were analyzed using x-ray photoelectron spectroscopy (XPS), scanning electron microscopy with energy dispersive spectrometer, and transmission electron microscopy (TEM). <sentence_start/>The particle size and potential of nanoparticles were analyzed using a Malvern particle size analyzer. <sentence_start/>The content of Fe element in nanoparticles was analyzed by inductively coupled plasma mass spectrometry (ICP-MS)."
+  },
+  {
+   "section": "article",
+   "text": "Detection of <sup>1</sup>O<sub>2</sub>, \u2022OH, and O<sub>2</sub><sup>\u2022\u2212</sup> in ESR"
+  },
+  {
+   "section": "article",
+   "text": "We selected TEMP and DMPO as trapping agents to identify singlet oxygen (<sup>1</sup>O\u2082), hydroxyl radicals (\u2022OH), and superoxide anions (O<sub>2</sub><sup>\u2022\u2212</sup>), respectively. <sentence_start/>Briefly, TEMP was added to different group solutions (TEMP, TEMP + FL@M, TEMP + FL@M + H<sub>2</sub>O<sub>2</sub>, TEMP + FL@M + US, and TEMP + FL@M + H<sub>2</sub>O<sub>2</sub> + US) with or without US irradiation (1.0 W/cm<sup>2</sup>) for 3 min. <sentence_start/>Then, the mixture was detected by an ESR spectrometer immediately. <sentence_start/>Similarly, DMPO was added to different concentrations of FL@M solution and detected by an ESR spectrometer. <sentence_start/>FL@M free solutions and the addition of \u2022OOH were used as a negative control group and positive control group, respectively."
+  },
+  {
+   "section": "article",
+   "text": "The drug loading of FL"
+  },
+  {
+   "section": "article",
+   "text": "We determined the drug loading of FL by mixed FeTBP (2 mg) with different concentrations of Len (0.1, 0.25, 0.5, 0.75, 1.0, and 1.5 mg\u00b7ml<sup>\u22121</sup>, dissolved in DMSO). <sentence_start/>Briefly, the sample was washed with ultrapure water after stirring for 12 h, and the supernatant was collected. <sentence_start/>The concentration of Len was quantified by ultraviolet-visible (UV\u2212vis) spectrophotometry at 242 nm. <sentence_start/>The encapsulation efficiency of Len in samples was calculated: (Input quantity of Len \u2212 Quantity of Len in the supernatant)/Input quantity of Len \u00d7 100%."
+  },
+  {
+   "section": "article",
+   "text": "ROS detection"
+  },
+  {
+   "section": "article",
+   "text": "Intracellular ROS level was detected using the DCFH-DA probe. <sentence_start/>In short, FL@M was mixed with DCFH-DA (2 ml, 10 \u03bcM, dissolved in phosphate-buffered saline [PBS]) followed by US irradiation for 10 min. <sentence_start/>At the predetermined time point, 400 \u03bcl of the mixture was taken out to record the fluorescence emission spectrum of DCF in the range of 500 to 600 nm, with an excitation wavelength of 488 nm. <sentence_start/>The H<sub>2</sub>O<sub>2</sub>-only (200 \u03bcM) group was set as control."
+  },
+  {
+   "section": "article",
+   "text": "The <sup>1</sup>O<sub>2</sub> generation of FL@M under US irradiation was measured by the DPBF probe. <sentence_start/>In brief, FL@M was mixed with DPBF (2 ml, 100 \u03bcM, dissolved in PBS) followed by US irradiation for 10 min. <sentence_start/>Then, 400 \u03bcl of the mixture was taken out to record the absorbance of DPBF at 415 nm."
+  },
+  {
+   "section": "article",
+   "text": "The \u2022OH generation was measured by APF probe. <sentence_start/>In brief, FL@M was mixed with APF (2 ml, 5 \u03bcM) followed by US irradiation for 10 min. <sentence_start/>Then 400 \u03bcl of the mixture was taken out to record the fluorescence intensity at 515 nm with an excitation wavelength of 488 nm."
+  },
+  {
+   "section": "article",
+   "text": "Stability assessment"
+  },
+  {
+   "section": "article",
+   "text": "To detect the liquid stability of nanoparticles, the aqueous solution of FL was diluted in saline solutions with different pH values away from light. <sentence_start/>The size and zeta potential of FL were monitored for 7 days."
+  },
+  {
+   "section": "article",
+   "text": "Cellular uptake"
+  },
+  {
+   "section": "article",
+   "text": "The cellular uptake of FL@M was evaluated in 8505C cells. <sentence_start/>Firstly, 8505C cells were seeded on glass-bottom dishes and cultured overnight. <sentence_start/>FL or FL@M was added to cells and incubated for different times (1, 2, 4, and 7 h). <sentence_start/>After fixation with 4% paraformaldehyde, the samples were stained with phalloidin-AF488 (30 min) and DAPI (10 min) followed by imaging using a Zeiss microscopy imaging system. <sentence_start/>In order to conduct intracellular distribution studies, 8505C cells were seeded on glass dishes and treated with FL@M. Then, the cells were stained with Lyso Tracker Green DND-26/Mito Tracker Green for 30 min. <sentence_start/>After incubation, cells were washed and fixed. <sentence_start/>Then, cells were stained with DAPI (10 min) before imaging. <sentence_start/>The fluorescence intensity and colocalization was quantified by Image J software."
+  },
+  {
+   "section": "article",
+   "text": "To further quantitatively analyze the cellular uptake capacity, 8505C cells and HeLa cells were seeded in 6-well plates and treated with FL or FL@M for 4 h. <sentence_start/>The solvent group was used as the negative control. <sentence_start/>Finally, the cells were collected and analyzed by flow cytometry (BD Biosciences, USA)."
+  },
+  {
+   "section": "article",
+   "text": "Live-dead cell staining"
+  },
+  {
+   "section": "article",
+   "text": "The killing effect of FL@M was detected by Calcein-AM/PI staining. <sentence_start/>Briefly, 8505C cells were seeded in a 6-well plate overnight and incubated with FeTBP, F@M, or FL@M for 4 h followed by US irradiated (1.0 W/cm<sup>2</sup>, 3 min). <sentence_start/>Then, the samples were stained with Calcein-AM/PI and imaged by fluorescence microscopy."
+  },
+  {
+   "section": "article",
+   "text": "Colony formation assay"
+  },
+  {
+   "section": "article",
+   "text": "Cell proliferation capacity was monitored using colony formation assays. 8505C cells were seeded into 6-well plates (500 cells/well). <sentence_start/>The cells were treated with various nanoparticles, and the medium was refreshed every 3 days until colonies appeared. <sentence_start/>Then, the colonies were fixed by 4% polyformaldehyde for 10 min, followed by room temperature staining with 1% crystal violet for another 10 min. <sentence_start/>Colony growth was observed by counting the number of colonies. <sentence_start/>Three samples were performed every group."
+  },
+  {
+   "section": "article",
+   "text": "Transwell migration assay"
+  },
+  {
+   "section": "article",
+   "text": "The migratory ability of 8505C cells was assessed using a 24-well transwell chamber assay with 8-\u03bcm pore membranes. <sentence_start/>The lower chamber contained DMEM with 10% FBS as a chemoattractant, while the upper chamber was seeded with 5 \u00d7 10<sup>4</sup> cells in serum-free DMEM. <sentence_start/>After 24 h of migration under standard culture conditions, nonmigratory cells on the upper membrane surface were removed with a cotton swab. <sentence_start/>Cells that migrated to the lower side were fixed with 4% paraformaldehyde, stained with crystal violet, and counted in 5 randomly selected fields per membrane under a 100\u00d7 microscope."
+  },
+  {
+   "section": "article",
+   "text": "In vitro synergistic therapeutic effect"
+  },
+  {
+   "section": "article",
+   "text": "The synergistic therapeutic effect of FL@M was evaluated by 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) assay. <sentence_start/>Firstly, 8505C cells were seeded in a 6-well plate overnight and respectively incubated with FeTBP, Len, F@M, and FL@M for 4 h and followed with or without US irradiation (1.0 W/cm<sup>2</sup>, 3 min). <sentence_start/>After incubation for 20 h, the samples underwent MTT testing."
+  },
+  {
+   "section": "article",
+   "text": "In addition, MTT assay was also used to detect the biological safety of FeTBP. <sentence_start/>Briefly, the 8505C cells and HeLa cells were cultured in a 96-well plate overnight. <sentence_start/>The gradient concentrations of FL@M (0, 10, 25, 50, 100, 150, 200, and 300 \u03bcg\u00b7ml<sup>\u22121</sup>) were respectively added and further incubated for 24 h before performing MTT testing. <sentence_start/>Each group set 6 parallel samples."
+  },
+  {
+   "section": "article",
+   "text": "In vitro ROS and lipid peroxidation detection"
+  },
+  {
+   "section": "article",
+   "text": "DCFH-DA was selected to identify total ROS in vitro. <sentence_start/>In short, 8505C cells were seeded on a 6-well plate overnight and incubated separately with FeTBP, Len, F@M, and FL@M for 4 h and followed with or without US irradiation (1.0 W/cm<sup>2</sup>, 3 min). <sentence_start/>Then, the cells were incubated with DCFH-DA (10 \u03bcM) for 30 min and collected to photograph using a fluorescence microscope (Leica DMC6200, Germany). <sentence_start/>In order to quantitatively analyze the ROS production, 8505C cells were treated similarly and analyzed by flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "After being treated with various formulations for 24 h, intracellular lipid peroxide was tested with a C11-BODIPY581/591 probe (10 \u03bcM) in 8505C cells. <sentence_start/>The cells were inspected utilizing a fluorescent microscope (Leica LAS X, Germany) and flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "In vitro apoptosis and mitochondrial membrane potential detection"
+  },
+  {
+   "section": "article",
+   "text": "8505C cells were seeded on 6-well plates overnight and incubated with FeTBP, Len, F@M, and FL@M for 4 h followed by US irradiation (1.0 W/cm<sup>2</sup>, 3 min) or not. <sentence_start/>After incubation for another 20 h, the cells were collected and stained by Annexin V-PE/7AAD and then detected by flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Mitochondrial membrane potential (MMP) was measured using JC-1. 8505C cells were incubated with FeTBP, Len, F@M, and FL@M for 4 h followed by US irradiation (1.0 W/cm<sup>2</sup>, 3 min) or not. <sentence_start/>After incubation for another 3 h, cells were harvested and incubated with JC-1 at 37 \u00b0C for 30 min. <sentence_start/>Then, the samples were collected and analyzed by microscopy and flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "In vitro O<sub>2</sub> production"
+  },
+  {
+   "section": "article",
+   "text": "Intracellular O<sub>2</sub> production was detected by [Ru(dpp)<sub>3</sub>]Cl<sub>2</sub> (RDPP) probe. <sentence_start/>Firstly, 8505C cells were seeded in a 6-well plate and cultured overnight. <sentence_start/>Then, FL@M was added to cells and incubated for 24 h before incubated with RDPP for 30 min. <sentence_start/>To mimic the tumor microenvironment, cells were transferred in an anaerobic chamber (1% O<sub>2</sub>) for 6 h before incubation with FL@M for another 18 h. <sentence_start/>Finally, the cells were collected and analyzed by flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "H<sub>2</sub>O<sub>2</sub> decomposition assessment"
+  },
+  {
+   "section": "article",
+   "text": "Intracellular H\u2082O\u2082 decomposition was detected using the ROS Green probe. 8505C cells were seeded in 6-well plates and cultured overnight, followed by incubation with FL@M for 4 h. <sentence_start/>Thirty minutes before the end of incubation, 200 \u03bcM H\u2082O\u2082 (final concentration) was added. <sentence_start/>Next, cells were washed and 10 \u03bcM probe was incubated for another 30 min. <sentence_start/>Cells were collected and analyzed by flow cytometry. <sentence_start/>To mimic the tumor microenvironment, cells were precultured in an anaerobic chamber for 24 h prior to FL@M incubation, with all other procedures performed as described above under hypoxic conditions."
+  },
+  {
+   "section": "article",
+   "text": "Western blotting"
+  },
+  {
+   "section": "article",
+   "text": "The Western blotting was performed according to the method described by Wang et al [<citation rid=\"B37\" ref-type=\"bibr\" pmid=\"37741534\" doi=\"10.1016/j.cbi.2023.110725\" count=\"1\">37</citation>]. <sentence_start/>Briefly, cell pellets were lysed using radio immunoprecipitation assay (RIPA) lysis buffer and the protein concentration was determined using bicinchoninic acid (BCA) protein assay (Thermo Fisher Scientific, USA). <sentence_start/>We used 15 to 20 \u03bcg of protein for Western blotting. <sentence_start/>The primary antibodies used in this study were as follows: GPX4 (ab125066, Abcam), MMP2 (10373-2-AP, Proteintech), MMP9 (10375-2-AP, Proteintech), MMP1 (10371-2-AP, Proteintech), E-cadherin (20874-1-AP, Proteintech), HIF-1\u03b1 (20960-1-AP, Proteintech), Galectin-3 (82024-1-RR, Proteintech), Vinculin (A2752, ABclonal), and ACTB (AC026, ABclonal)."
+  },
+  {
+   "section": "article",
+   "text": "Hemolysis assay"
+  },
+  {
+   "section": "article",
+   "text": "The biocompatibility of FL@M was evaluated through hemolysis assay. <sentence_start/>Firstly, fresh blood (1 ml) was washed repeatedly with PBS (3,000 rpm, 10 min) and resuspended to obtain red blood cell (RBC) suspension. <sentence_start/>Subsequently, 0.2 ml of RBC solution was mixed with 0.8 ml of FL@M solution in PBS to obtain FL@M solutions with different final concentrations (0.1, 0.2, 0.4, 0.6, 0.8, and 1.0 mg\u00b7ml<sup>\u22121</sup>), followed by incubation at 37 \u00b0C for 8 and 24 h, respectively. <sentence_start/>Then, the mixture was centrifuged (3,500 rpm, 5 min) and a microplate reader was used to detect the supernatant at 540 nm. <sentence_start/>PBS and deionized water were used as negative and positive control groups, respectively. <sentence_start/>Three parallel samples were set for each group."
+  },
+  {
+   "section": "article",
+   "text": "Animal model"
+  },
+  {
+   "section": "article",
+   "text": "All animal experiments were performed following the Principles of Laboratory Animal Care and Guidelines of the Laboratory Animal Care Committee of Xi\u2019an Jiaotong University (No. 2021-213). <sentence_start/>All animals were purchased from GemPharmatech (Jiangsu, China) and acclimatized to the animal facility for 1 week before experimentation and housed under normal conditions with 12 h light and dark cycles and allowed free access to water and food. <sentence_start/>Briefly, 8505C cells at a concentration of 8 \u00d7 10<sup>6</sup> were subcutaneously injected into male nude mice at 5 weeks old to establish a subcutaneous tumor model. <sentence_start/>It took about 4 weeks for tumors to grow approximately 70 to 100 mm<sup>3</sup> before experiments."
+  },
+  {
+   "section": "article",
+   "text": "In vivo safety evaluation"
+  },
+  {
+   "section": "article",
+   "text": "Male KM mice (5 weeks old) were divided into 4 groups randomly (<italic>n</italic> = 3 per group): (a) long-term experimental group, (b) long-term control group, (c) short-term experimental group, and (d) short-term control group. <sentence_start/>Two experimental groups were intravenously injected with FL@M (5 mg/kg) while the control group was injected with the same volume of saline. <sentence_start/>Fresh blood and major organs were collected in 14 and 30 days after injection and were analyzed or sectioned for HE staining, respectively."
+  },
+  {
+   "section": "article",
+   "text": "In vivo fluorescence imaging, biodistribution and pharmacokinetic evaluation"
+  },
+  {
+   "section": "article",
+   "text": "Briefly, FL@M or FL-FITC@M (5 mg/kg) was injected intravenously into 8505C tumor-bearing BALB/c nude mice, Len-FITC was administered orally, and fluorescence imaging was performed at different time intervals after injection. <sentence_start/>Then, the mice were euthanized immediately to obtain the main organs and tumors for biological distribution analysis. <sentence_start/>Meanwhile, pharmacokinetic evaluation was conducted on fresh blood samples of equal volume using a fluorescence spectrophotometer. <sentence_start/>Three parallel samples were set for each group."
+  },
+  {
+   "section": "article",
+   "text": "In vivo synergistic therapeutic effect"
+  },
+  {
+   "section": "article",
+   "text": "The 8505C tumor-bearing BALB/c nude mice were randomly divided into 9 groups when the tumor volume reached 70 to 100 mm<sup>3</sup> (<italic>n</italic> = 8 per group): (a) Saline, (b) US, (c) Len, (d) F, (e) F@M, (f) FL@M, (g) F + US, (h) F@M + US, and (i) FL@M + US. <sentence_start/>Aside from the fact that Len was administered orally, MOFs (5 mg/kg) were delivered via tail vein injection in mice on day 0, and US irradiation (1.5 W/cm<sup>2</sup>, 3 min) was performed 1 h after injection. <sentence_start/>The tumor volumes and body weights of the mice were measured every 3 days after treatment [tumor volume = (length \u00d7 width<sup>2</sup>)/2]. <sentence_start/>Three mice from each group were randomly selected and sacrificed after 24 h following US irradiation, and tumor tissues were collected for H&amp;E staining, terminal deoxynucleotidyl transferase-mediated deoxyuridine triphosphate nick end labeling (TUNEL) staining (Servicebio, Wuhan), Ki67 staining (Servicebio, Wuhan), and CD31 staining (ab28364, Abcam). <sentence_start/>After 21 days posttreatment, all mice were euthanized, and main organs and tumors were collected."
+  },
+  {
+   "section": "article",
+   "text": "In vivo inhibition of tumor recurrence"
+  },
+  {
+   "section": "article",
+   "text": "We used 8505C cells that overexpressed luciferase gene (8505C-luc) to establish a tumor-bearing mouse model. <sentence_start/>Briefly, 8505C-luc cells were implanted in the right armpit of mice. <sentence_start/>When the tumor grew to about 100 mm<sup>3</sup>, all mice were randomly divided into 3 groups (5 mice in each group): (a) Con (no treatment), (b) Sur (tumor resection surgery), and (c) Sur-SDT (surgery and postoperative SDT). <sentence_start/>In the Sur group, mice received resection surgery of tumor. <sentence_start/>For the Sur-SDT group, mice received surgery and postoperative SDT irradiated by US (1.5 mW/cm<sup>2</sup>) for 3 min every 3 days, with a total of 3 treatments. <sentence_start/>One day after SDT, mice were subjected to bioluminescent imaging."
+  },
+  {
+   "section": "article",
+   "text": "In vivo inhibition of tumor metastasis"
+  },
+  {
+   "section": "article",
+   "text": "To establish pulmonary metastasis models, 8505C cells (3 \u00d7 10<sup>5</sup>, 100 \u03bcl) were intravenously injected by tail vein. <sentence_start/>Starting from day 12 postinoculation, the mice received local SDT treatment every 3 days, with a total of 3 treatments. <sentence_start/>After monitoring for 14 days, mice were euthanized, and their lung tissues were collected for H&amp;E staining."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "All the results were statistically analyzed by GraphPad Prism 8.0 software. <sentence_start/>The 2-tailed unpaired Student <italic>t</italic> test and one-way analysis of variance test were used to determine statistical significance (ns, <italic>P</italic> &gt; 0.05; *<italic>P</italic> &lt; 0.05; **<italic>P</italic> &lt; 0.01; ***<italic>P</italic> &lt; 0.001). <sentence_start/>The results were shown as mean \u00b1 SD."
+  },
+  {
+   "section": "article",
+   "text": "Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Synthesis and characterization of FL@M"
+  },
+  {
+   "section": "article",
+   "text": "Firstly, FeTBP was synthesized with Fe<sub>3</sub>O clusters and 5,10,15,20-tetra(p-benzoate)porphyrin (H<sub>4</sub>TBP) ligand via the hydrothermal method [<citation rid=\"B26\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>Then, FL was obtained by loading Len and further modified with purified 8505C cell membrane fragments to obtain biomimetic nanoparticles FL@M (Fig. 1). <sentence_start/>TEM images revealed that FeTBP and FL@M nanoparticles were well-dispersed with a nanorice morphology (Fig. 2A). <sentence_start/>The elemental mapping showed that FeTBP contained C, N, O, and Fe, which coincided with XPS results (Fig. 2B and G and Fig. S1), and the iron content in FeTBP was determined to be 7.6089% by ICP-MS (Table S1). <sentence_start/>Moreover, there was a thin film surrounding the nanorice structure of FL@M, indicating the effective modification of cell membrane on FeTBP (Fig. 2A). <sentence_start/>In addition, the SDS-PAGE analysis presented that the protein profile of FL@M (II) was consistent with that of the purified cancer cell membrane (III), demonstrating the preservation of membrane protein (Fig. 2E). <sentence_start/>Western blotting analyses verified that the 2 membrane markers of E-cadherin and Galectin-3 were present on both the purified cell membrane and FL@M, further proving the successful modification of cell membrane (Fig. 2F). <sentence_start/>Besides, the average hydrated particle sizes of FeTBP and FL@M were 255 and 346 nm, respectively (Fig. 2C). <sentence_start/>Because of the overall electronegativity of the cell membrane, the zeta potential of FL@M was reduced to \u221226.0 mV compared with FL (\u221222.90 mV), which was lower than that of FeTBP (\u221212.93 mV) (Fig. 2D). <sentence_start/>The UV-vis spectroscopy result of FL was in accordance with the existence of absorption peaks of Len at 220 and 243 nm, indicative of the effective loading of Len (Fig. 2H). <sentence_start/>Moreover, the loading efficiency of Len positively correlated with the corresponding concentrations, and FL@M exhibited a good loading capacity of Len (77.55% \u00b1 5.68%) at a dose of 1.5 mg (Figs. <sentence_start/>S2 and S3). <sentence_start/>Furthermore, we investigated the stability of FL, which is an important indicator of nanoparticles\u2019 suitability for injection in vivo [<citation rid=\"B38\" ref-type=\"bibr\" pmid=\"35571257\" doi=\"10.2147/IJN.S362418\" pmcid=\"PMC9091702\" count=\"1\">38</citation>]. <sentence_start/>There were no discernible alterations in the size and polydispersity index (PDI) of FL in PBS during 1 week (Fig. 2I). <sentence_start/>The above results all demonstrated the successful synthesis of FL@M."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2."
+  },
+  {
+   "section": "article",
+   "text": "Synthesis and characterization of FL@M. (A) TEM of FeTBP and FL@M. (B) Element mapping for FeTBP. <sentence_start/>(C and D) Particle diameter size distribution (C) and zeta potential (D) of FeTBP, FL, and FL@M. (E) SDS-PAGE analysis of FL (I), FL@M (II), cancer cell membrane (III), and cell lysate (IV). <sentence_start/>(F) Western blotting analysis of E-cadherin, Galectin-3, and \u03b2-actin of FL(I), FL@M (II), cancer cell membrane (III), and cell lysate (IV). <sentence_start/>(G) XPS pattern of FeTBP. <sentence_start/>(H) UV-vis absorption spectra of Len, FeTBP, and FL. <sentence_start/>(I) The stability of FL in PBS (<italic>n</italic> = 3). <sentence_start/>(J) The SOD-like activity of FeTBP was measured by a commercial SOD assay kit in the WST manner. <sentence_start/>(K) The SOD activity of FL@M was detected by the ESR spectra of DMPO/O<sub>2</sub><sup>\u2022\u2212</sup>. (L) The Michaelis-Menten fitting curve of dissolved oxygen generation rate versus H<sub>2</sub>O<sub>2</sub> concentration in FeTBP. <sentence_start/>(M) H<sub>2</sub>O<sub>2</sub> depleting ability of FL@M detected with ROS Green probe (<italic>n</italic> = 3). <sentence_start/>(N) The dissolved oxygen level of FL@M reacted with H<sub>2</sub>O<sub>2</sub> detected by an oxygen sensor (<italic>n</italic> = 3). <sentence_start/>(O) Relative fluorescence intensity of DCFH-DA/total ROS at 525 nm with FL@M under US irradiation (<italic>n</italic> = 3). <sentence_start/>(P) <sup>1</sup>O<sub>2</sub> production by FL@M under different treatments detected by DPBF (<italic>n</italic> = 3). <sentence_start/>(Q) The ESR spectra of TEMP/<sup>1</sup>O<sub>2</sub> for FL@M under US irradiation. <sentence_start/>(R) The Michaelis-Menten fitting curve of initial hydroxyl radical generation rate versus TMB concentration in FeTBP. <sentence_start/>(S) Relative fluorescence intensity of APF/\u2022OH at 515 nm with FL@M under US irradiation (<italic>n</italic> = 3). <sentence_start/>(T) The ESR spectra of DMPO/\u2022OH for FL@M under US irradiation. <sentence_start/>***<italic>P</italic> &lt; 0.001, **** <italic>P &lt;</italic> 0.0001."
+  },
+  {
+   "section": "article",
+   "text": "Additionally, we investigated the ability of FL@M to alleviate hypoxia. <sentence_start/>The superoxide dismutase (SOD)-like activity of FeTBP was quantitatively tested to be \u223c769 U/mg by the disodium water-soluble tetrazolium (WST) method (Fig. 2J). <sentence_start/>Then, we used DMPO as an O<sub>2</sub><sup>\u2022\u2212</sup> capture agent to test the SOD-like activity of FL@M by ESR spectra. <sentence_start/>Compared to the DMPO group, the characteristic quadruple signal of O<sub>2</sub><sup>\u2022\u2212</sup>/DMPO decreased substantially with the concentration of FL@M, suggesting that FL@M can effectively convert O<sub>2</sub><sup>\u2022\u2212</sup> into H<sub>2</sub>O<sub>2</sub> and O<sub>2</sub> (Fig. 2K). <sentence_start/>Moreover, the CAT-like activity of FeTBP was evaluated by the dissolved O<sub>2</sub> generation method, and the parameter indicators were calculated using Michaelis-Menten kinetics (<italic>K</italic><sub>M</sub> = 32.82 mM and <italic>V</italic><sub>max</sub> = 1.915 \u00d7 10<sup>\u22124</sup> mM/min) (Fig. 2L). <sentence_start/>Meanwhile, the CAT-like activity of FL@M was tested by ROS Green probe and dissolved oxygen analyzer, respectively. <sentence_start/>The results indicated that FL@M had strong CAT-like activity (Fig. 2M and N)."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, the total ROS production of FL@M was investigated by DCFH-DA, whose fluorescence intensity at 525 nm gradually increased with the progress of the reaction (Fig. 2O and Fig. S4). <sentence_start/>FL@M could stably generate more cytotoxic ROS under US irradiation and H<sub>2</sub>O<sub>2</sub>,markedly higher than that with only US or H<sub>2</sub>O<sub>2</sub> (Fig. 2O). <sentence_start/>In addition, the UV-vis absorption of DPBF declined gradually with time and the FL@M + H<sub>2</sub>O<sub>2</sub> + US group showed the most noticeable decrease, indicating that FL@M could effectively generate <sup>1</sup>O\u2082 under US irradiation (Fig. 2P and Fig. S5). <sentence_start/>Meanwhile, the ESR spectrum of FL@M presented a characteristic 1:1:1 triplet signal of TEMP/<sup>1</sup>O\u2082 and the most obvious signal was observed in the TEMP + FL@M + US + H<sub>2</sub>O<sub>2</sub> group (Fig. 2Q). <sentence_start/>Besides, the POD-like activity result of FeTBP demonstrated that the absorbance value of the mixture solution at 652 nm increased continuously as the reaction proceeded (Fig. 2R). <sentence_start/>As probe of \u2022OH, the fluorescence intensity of APF rose in the FL@M + H<sub>2</sub>O<sub>2</sub> group, indicating that FL@M could generate \u2022OH through Fenton reaction, and \u2022OH production was enhanced in the presence of H<sub>2</sub>O<sub>2</sub> and US irradiation, indicating its sonodynamic effect (Fig. 2S). <sentence_start/>Moreover, the ESR result of FL@M showed that the characteristic signal of DMPO/\u2022OH under H<sub>2</sub>O<sub>2</sub> and US irradiation could magnify \u2022OH production of FL@M, confirming the similar tendency with APF (Fig. 2T). <sentence_start/>Taken together, FL@M could not only alleviate hypoxia by producing O<sub>2</sub> through SOD and CAT-like activity, but also exhibit good SDT efficiency, including <sup>1</sup>O\u2082 and \u2022OH production."
+  },
+  {
+   "section": "article",
+   "text": "Intracellular uptake and distribution of FL@M"
+  },
+  {
+   "section": "article",
+   "text": "As a simple and effective biomimetic strategy, cell membrane-camouflaged nanoparticles can maintain their membrane structure and antigens, achieving special functions such as prolonging blood circulation time, immune escape, and specific recognition [<citation rid=\"B39\" ref-type=\"bibr\" pmid=\"28735175\" doi=\"10.1016/j.biomaterials.2017.07.026\" count=\"1\">39</citation>,<citation rid=\"B40\" ref-type=\"bibr\" pmid=\"29346736\" doi=\"10.1021/acsnano.7b08219\" count=\"1\">40</citation>]. <sentence_start/>Therefore, we assessed the targeting uptake efficiency of FL@M in ATC cells. <sentence_start/>To ascertain the uptake efficiency and the optimal time for US irradiation in vitro, we detected the intracellular fluorescence intensity of FeTBP at various incubation times. <sentence_start/>A faint red fluorescence signal was observed in 8505C cells incubated with FL@M for 1 h (Fig. 3A). <sentence_start/>As time increased, the red fluorescence signal gradually strengthened and reached the peak at 4 h (Fig. 3A). <sentence_start/>The flow cytometry results indicated that the red fluorescence signal was obviously high in 4 h (Fig. 3D), suggesting that the intracellular accumulation of FL@M was in a time-dependent way and we choose 4 h as the incubation time for subsequent experiments."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3."
+  },
+  {
+   "section": "article",
+   "text": "Cellular uptake and intracellular distribution of FL@M. (A) Representative fluorescence images of 8505C cells incubated with FL@M at different times. <sentence_start/>(B) Representative fluorescence images of 8505C cells incubated with FL or FL@M at 4 h. (C) Representative fluorescence images of HeLa cells and 8505C cells incubated with FL@M at 4 h. (D) Flow cytometry of 8505C cells incubated with FL@M at different times. <sentence_start/>(E) Quantification of fluorescence intensity of FeTBP shown in (B). <sentence_start/>(F) Quantification of fluorescence intensity of FeTBP shown in (C). <sentence_start/>(G) Flow cytometry of 8505C cells incubated with FL or FL@M at 4 h. (H) Flow cytometry of HeLa cells incubated with FL or FL@M at 4 h. (I) Representative colocalization fluorescence images of FL@M and mitochondria. <sentence_start/>FeTBP fluorescence (red), Mito-Tracker Green (detect mitochondria), and DAPI (blue). <sentence_start/>(J) The Pearson\u2019s correlation coefficient (PCC) and Mander\u2019s correlation coefficients (MCC) analysis of FL@M with mitochondria. <sentence_start/>(K) Plot profile analysis of Mito-Tracker colocalization with FL@M. (L) Representative colocalization fluorescence images of FL@M and lysosomes. <sentence_start/>FeTBP fluorescence (red), Lyso-Tracker Green (detect lysosome), and DAPI (blue). <sentence_start/>(M) The PCC and MCC analysis of FL@M with lysosome. <sentence_start/>(N) Plot profile analysis of Lyso-Tracker colocalization with FL@M. ***<italic>P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "Next, we evaluated the targeting capability of FL@M. The images showed that the red fluorescence intensity of the cell membrane-modified group (FL@M) was stronger than that of the unmodified group (FL), revealing that FL@M had good targeting ability toward 8505C cells (Fig. 3B and E). <sentence_start/>Similar results were observed in the flow cytometry results (Fig. 3G). <sentence_start/>Moreover, HeLa cells incubated with FL@M (8505C cells membrane-modified) showed weak red fluorescence intensity compared with the FL group (Fig. 3H and Fig. S6). <sentence_start/>Additionally, the red fluorescence was significantly stronger in the cytoplasm of 8505C cells than HeLa cells after 4 h incubation with FL@M (8505C cells membrane-modified), providing evidence that the biomimetic camouflage membrane enhances specific self-recognition (Fig. 3C and F). <sentence_start/>Meanwhile, the flow cytometry results of FL@M encapsulating HeLa cell membrane also supported that the uptake rate of nanoparticles was obviously increased in homologous cells (HeLa) while substantially decreased in nonhomologous cells (8505C) (Fig. S7). <sentence_start/>In summary, biomimetic nanoreactors coated with cancer cell membranes demonstrated excellent homologous targeting ability for 8505C cells."
+  },
+  {
+   "section": "article",
+   "text": "Then, we further evaluated targeted drug delivery ability using Len-FITC. <sentence_start/>The flow cytometry results exhibited that the cellular uptake of Len in the FL@M group was higher than that of the Len group, indicating that the nanocarrier improved the delivery of Len (Fig. S8). <sentence_start/>Moreover, according to the results of the fluorescence imaging, the green fluorescence of Len-FITC partially overlapped with the red fluorescence signal of FeTBP after 4 h incubation while this colocalization decreased after US irradiation, indicating that Len can be released from FL@M under US irradiation (Fig. S9)."
+  },
+  {
+   "section": "article",
+   "text": "Additionally, we determined the intracellular distribution of FL@M in 8505C cells. <sentence_start/>Fluorescence imaging revealed that the red fluorescence signal of FL@M partially overlapped with the green fluorescence of Mito-Tracker probe, indicating that FL@M mainly distributed on mitochondria (Fig. 3I to K). <sentence_start/>Similarly, FL@M was found to colocalize with Lyso-Tracker Green, supporting that nanocarriers were also partially trapped in lysosomes (Fig. 3L to N). <sentence_start/>These findings demonstrated that FL@M was located in mitochondria and lysosomes after absorption."
+  },
+  {
+   "section": "article",
+   "text": "Therapeutic efficacy of FL@M in vitro"
+  },
+  {
+   "section": "article",
+   "text": "First, the cytotoxic effects of FL@M on 8505C cells were assessed by Calcein-AM/PI staining (Fig. 4A). <sentence_start/>The cell mortality substantially increased in SDT-treated 8505C cells, which showed markedly reduced green fluorescence intensity and increased red fluorescence intensity compared with control groups. <sentence_start/>As expected, the best therapeutic efficacy was observed in the FL@M combined US group of 8505C cells. <sentence_start/>In contrast, there was no obvious cell death in each group of HeLa cells (Fig. 4A), attributing to the cell membrane camouflage targeting to 8505C cells."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4."
+  },
+  {
+   "section": "article",
+   "text": "FL@M inhibits tumor proliferation and metastasis. <sentence_start/>(A) Calcein-AM/PI assay fluorescence images of 8505C and HeLa cells after different treatments. <sentence_start/>(B and C) 8505C cells\u2019 viabilities following various treatments under normoxia (B) and hypoxia (C) detected by MTT (<italic>n</italic> = 3). <sentence_start/>(D and E) HeLa cells\u2019 viabilities following various treatments under normoxia (D) and hypoxia (E) detected by MTT (<italic>n</italic> = 3). <sentence_start/>(F and H) Quantification of clonogenic assays (F) and representative images (H) for 8505C cells after various treatments (<italic>n</italic> = 3). <sentence_start/>(G and I) Quantification of wound closure (G) and representative images (I) after different treatments in 8505C cells (<italic>n</italic> = 3). <sentence_start/>*<italic>P</italic> &lt; 0.05, **<italic>P</italic> &lt; 0.01, and ***<italic>P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "Meanwhile, the therapeutic efficacy of FL@M on 8505C cells and HeLa cells was also assessed by MTT assay. <sentence_start/>The results showed that the viability of 8505C cells was slightly affected by only US, Len, or FL@M under both normoxic and hypoxic conditions. <sentence_start/>In contrast, 8505C cells showed decreased viabilities after US irradiation, especially in the FL@M + US group (Fig. 4B and C). <sentence_start/>In HeLa cells, FL@M coated with 8505C cell membrane-based SDT treatment showed a mild killing effect (Fig. 4D and E). <sentence_start/>Moreover, FL@M exhibited a better cell-killing effect than the Len group at the same concentration (Fig. S10). <sentence_start/>Together, these results supported the targeting ability of homologous tumor cell membranes and proved that FL@M could exhibit effective SDT under both normoxic and hypoxic conditions."
+  },
+  {
+   "section": "article",
+   "text": "In addition, cell cloning assay was conducted to evaluate the effect of FL@M on the proliferation capacity of 8505C cells. <sentence_start/>The colony formation rate of 8505C cells was lower in SDT treatment groups (F + US, 65.61% \u00b1 5.67% and F@M + US, 47.92% \u00b1 9.50%) compared to the US group (90.19% \u00b1 9.73%) and FL@M group (90.53% \u00b1 10.77%). <sentence_start/>The lowest colony formation rate was observed in the FL@M + US group (20.14% \u00b1 8.31%) (Fig. 4F and H). <sentence_start/>Edu assay also confirmed the same results (Fig. S11). <sentence_start/>Furthermore, the cell scratch tests revealed that the FL@M + US group had the largest scratch area (9.92% \u00b1 3.47%) among all groups (CON, 96.28% \u00b1 1.24%; US, 87.66% \u00b1 3.02%; FL@M, 83.73% \u00b1 1.75%; F + US, 61.10% \u00b1 5.55%; F@M + US, 41.09% \u00b1 10.25%), indicating significant inhibition of cell migration ability (Fig. 4G and I). <sentence_start/>Similar results were found in transwell migration assay (Fig. S12). <sentence_start/>In summary, FL@M exerted a strong synergistic therapeutic effect on inhibiting the proliferation and migration of thyroid cancer cells."
+  },
+  {
+   "section": "article",
+   "text": "FL@M effectively enhances ROS generation and induces cell apoptosis"
+  },
+  {
+   "section": "article",
+   "text": "Sonosensitizers enriched in tumor sites can generate a substantial amount of ROS under US irradiation, inducing oxidative stress and ultimately killing cells [<citation rid=\"B41\" ref-type=\"bibr\" pmid=\"37187119\" doi=\"10.1016/j.ultsonch.2023.106437\" pmcid=\"PMC10197111\" count=\"1\">41</citation>]. <sentence_start/>Based on the comprehensive therapeutic effect on 8505C cells, we further evaluated the ROS generation ability of FL@M by DCFH-DA. <sentence_start/>The weak fluorescence signal was observed in the Len group and FL@M group, slightly higher than the US group and control group. <sentence_start/>In contrast, MOFs resulted in pronounced green fluorescence signals after US irradiation, particularly in the FL@M + US group (Fig. 5A and B). <sentence_start/>The flow cytometry results were consistent with the microscopic images (Fig. 5G). <sentence_start/>Moreover, hypoxia environment is an important factor in limiting SDT effectiveness, so we investigated the ability of FL@M to alleviate hypoxia. <sentence_start/>Intracellular O<sub>2</sub> level and H<sub>2</sub>O<sub>2</sub> content were assessed by RDPP probe and ROS Green probe, respectively. <sentence_start/>Flow cytometry results proved that FL@M could effectively decrease the fluorescence signal of RDPP and ROS Green in hypoxic conditions, exhibiting that FL@M could decompose H<sub>2</sub>O<sub>2</sub> into O<sub>2</sub> through CAT-like ability (Figs. <sentence_start/>S13 and S14). <sentence_start/>Moreover, the expression of HIF-1\u03b1 protein was investigated using Western blotting, and it showed that FL@M substantially reduced the HIF-1\u03b1 levels under hypoxia. <sentence_start/>(Fig. S15). <sentence_start/>In conclusion, the above data demonstrated that FL@M could effectively increase ROS production and alleviate tumor hypoxia."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 5."
+  },
+  {
+   "section": "article",
+   "text": "FL@M enhances oxidative stress and induces apoptosis. <sentence_start/>(A) ROS production in 8505C cells after different treatments was detected by DCFH-DA. <sentence_start/>(B) Quantification of intracellular fluorescence intensity of DCFH-DA shown in (A). <sentence_start/>(C) Lipid oxidation levels in 8505C cells after different treatments were detected by BODIPY. <sentence_start/>(D) Quantification of intracellular fluorescence intensity of lipid oxidation level shown in (C). <sentence_start/>(E) The changes in the MMP of 8505C cells after different treatments were detected by JC-1. <sentence_start/>(F) Quantification of intracellular fluorescence intensity of MMP shown in (E). <sentence_start/>(G) Flow cytometry was used to assess ROS production after different treatments detected by DCFH-DA. <sentence_start/>(H) Flow cytometry was used to assess lipid oxidation levels after different treatments detected by BODIPY. <sentence_start/>(I) Flow cytometry was used to assess MMP after different treatments detected by JC-1. <sentence_start/>(J) Apoptosis of 8505C cells was assessed by flow cytometry with Annexin V-PE/7AAD staining. <sentence_start/>(K) Western blotting analysis of GPX4, MMP2, MMP9, MMP1, and E-Cad protein in 8505C cells with various treatments. <sentence_start/>*<italic>P</italic> &lt; 0.05, **<italic>P</italic> &lt; 0.01, and ***<italic>P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "The cell membrane and organelle membranes contained a large amount of polyunsaturated fatty acids, which were particularly susceptible to ROS damage [<citation rid=\"B42\" ref-type=\"bibr\" pmid=\"35390277\" doi=\"10.1016/j.molcel.2022.03.022\" pmcid=\"PMC9233073\" count=\"1\">42</citation>,<citation rid=\"B43\" ref-type=\"bibr\" pmid=\"29875409\" doi=\"10.1038/s41586-018-0198-8\" pmcid=\"PMC6033669\" count=\"1\">43</citation>]. <sentence_start/>The Fenton reaction enhanced the production of \u2022OH, which preferentially reacted with tumor cell membranes and triggered lipid peroxidation [<citation rid=\"B44\" ref-type=\"bibr\" pmid=\"35803244\" doi=\"10.1016/j.cell.2022.06.003\" pmcid=\"PMC9273022\" count=\"1\">44</citation>]. <sentence_start/>Therefore, we employed C11-BODIPY581/591 as an intrinsically lipophilic fluorescent indicator to assess lipid peroxidation levels [<citation rid=\"B45\" ref-type=\"bibr\" pmid=\"33514910\" doi=\"10.1038/s41571-020-00462-0\" count=\"1\">45</citation>]. <sentence_start/>As shown in results, the Len-only group showed moderate oxidative stress, and when combined with SDT, the FL@M + US group exhibited the most pronounced green fluorescence, aligned with ROS levels, indicating severe oxidative damage to cell membranes (Fig. 5C, D, and H)."
+  },
+  {
+   "section": "article",
+   "text": "Mitochondria served as the primary site for ROS generation and were prone to lipid peroxidation damage. <sentence_start/>To investigate the mechanism underlying FL@M-mediated SDT cell killing, the MMP of 8505C cells was detected by JC-1 probe. <sentence_start/>The decrease in MMP was characterized by increased green fluorescence, indicating mitochondrial dysfunction and early apoptotic events [<citation rid=\"B46\" ref-type=\"bibr\" pmid=\"35671182\" doi=\"10.1097/CM9.0000000000001916\" pmcid=\"PMC9276181\" count=\"1\">46</citation>]. <sentence_start/>According to the results, cells in the US group and the FL@M group showed a slight green fluorescence (Fig. 5E). <sentence_start/>Following US irradiation, nanoparticles resulted in significantly green fluorescence signals, showing a substantial loss of MMP (Fig. 5E and F). <sentence_start/>These findings were further corroborated by the flow cytometry results (Fig. 5I). <sentence_start/>Therefore, we speculated that a large amount of ROS generated by SDT induced lipid peroxidation and mitochondrial dysfunction."
+  },
+  {
+   "section": "article",
+   "text": "In addition, the cell death mechanism was further examined through Annexin V-PE/7AAD double staining assays. <sentence_start/>The flow cytometry results showed that the SDT group\u2019s cells induced more apoptosis than the control group. <sentence_start/>The cell apoptosis rate of the FL@M + US group reached as high as 66.5%, markedly higher than that of other groups (F + US, 30.1% and F@M + US, 48.8%), demonstrating that Len and SDT combination therapy effectively induced cell apoptosis (Fig. 5J). <sentence_start/>Western blotting results showed that compared with other groups, the SDT groups substantially reduced the expression of GPX4, MMP-1, MMP-2, and MMP-9, while increasing E-cadherin. <sentence_start/>This further confirmed that FL@M-SDT could reduce intracellular antioxidant capacity and simultaneously inhibit the invasive abilities of cells (Fig. 5K). <sentence_start/>Consequently, the above results demonstrated that FL@M-mediated SDT achieved a synergistic killing effect and effectively induced apoptosis on 8505C cells."
+  },
+  {
+   "section": "article",
+   "text": "Biocompatibility of FL@M in vivo"
+  },
+  {
+   "section": "article",
+   "text": "The biosafety of FL@M both in vitro and in vivo was evaluated. <sentence_start/>First, hemocompatibility results showed that FL@M exhibited negligible hemolytic activity (&lt;5%) across a broad concentration range (100 to 1,000 \u03bcg/ml) (Fig. S16). <sentence_start/>Furthermore, healthy male KM mice were randomized into 4 groups, with the experimental groups receiving FL@M (5 mg/kg) or saline via tail vein injection and observation for 14 and 30 days, respectively. <sentence_start/>During administration and observation, the weight of the mice showed an upward trend with no significant difference between the groups (Fig. S17). <sentence_start/>Then, all mice were sacrificed to harvest blood and important organs for examination. <sentence_start/>According to the results of the blood routine examination, there were no significant differences in RBCs, white blood cells, hemoglobin, platelets, and lymphocytes among groups (Fig. S18). <sentence_start/>The biochemistry results showed no significant difference in the renal and liver function (Fig. S19). <sentence_start/>In addition, H&amp;E staining results presented that almost no pathological damage were observed in the hearts, livers, spleens, lungs, and kidneys of mice (Fig. S20). <sentence_start/>Based on the above results, FL@M exhibited outstanding biocompatibility."
+  },
+  {
+   "section": "article",
+   "text": "Targeting ability, biodistribution, and pharmacokinetics of FL@M in vivo"
+  },
+  {
+   "section": "article",
+   "text": "Building upon the outstanding biosafety of FL@M, the self-targeting ability toward thyroid tumors was further investigated in nude mice bearing subcutaneous tumors. <sentence_start/>The fluorescence signal of FL@M was captured at different time points after intravenous administration of mice, and the fluorescence intensity at the tumor site was gradually decreased with time (Fig. 6A to D). <sentence_start/>Meanwhile, FL@M coated with homologous cell membrane had markedly higher aggregation at the tumor site than FL@M coated with heterologous cell membrane and the FL group (Fig. 6A). <sentence_start/>The above results indicated that biomimetic nanoreactors coated with cancer cell membranes exhibited excellent homologous ability through the specific self-targeting of cancer cells."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 6."
+  },
+  {
+   "section": "article",
+   "text": "In vivo biodistribution, and pharmacokinetics of FL@M. (A) Representative fluorescence images of 8505C tumor-bearing mice at different times after injection of FL or FL@M (coated with 8505C cell membrane or HeLa cell membrane). <sentence_start/>(B) The fluorescence intensity of tumors changed over time after intravenous injection of FL@M coated with homologous cell membrane 8505C cell membrane in (A) (<italic>n</italic> = 3). <sentence_start/>(C) The fluorescence intensity of tumors changed over time after intravenous injection of FL@M coated with heterologous HeLa cell membrane in (A) (<italic>n</italic> = 3). <sentence_start/>(D) The fluorescence intensity of tumors changed over time after intravenous injection of FL (no targeted modification) in (A) (<italic>n</italic> = 3). <sentence_start/>(E) Representative fluorescence images at different time points of mice, vital organs, and tumors after injection of FL@M coated with homologous cell membrane (8505C cell membrane). <sentence_start/>(F) The fluorescence intensity of tumors changes over time in (E) (<italic>n</italic> = 3). <sentence_start/>(G) The fluorescence intensity of vital organs at different time points in (E) (<italic>n</italic> = 3). <sentence_start/>(H) Pharmacokinetics of FL@M in 8505C tumor-bearing mice (<italic>n</italic> = 3). <sentence_start/>(I) Representative fluorescence images of vital organs and tumors at 1 h after oral administration of Len-FITC or intravenous injection of FL-FITC@M (coated with 8505C cell membrane). <sentence_start/>(J) The fluorescence intensity of tumors in (I) (<italic>n</italic> = 3). <sentence_start/>(K) The fluorescence intensity of Len in serum of 8505C tumor-bearing mice (<italic>n</italic> = 3)."
+  },
+  {
+   "section": "article",
+   "text": "Next, we explored the biodistribution of FL@M. The fluorescence imaging results showed that the fluorescence signal appeared at the tumor sites as soon as 30 min and peaked at 1 h after injection, suggesting efficient accumulation of nanoparticles in subcutaneous tumors, supporting efficient tumor uptake of FL@M. Moreover, only weak fluorescence signals were detected in subcutaneous tumors after 24 h (Fig. 6E and F). <sentence_start/>Meanwhile, the fluorescence imaging and quantitative analysis results of major organs and tumors showed that FL@M was mainly distributed in the tumor, liver, kidneys, and lungs, and the distribution of FL@M at tumor sites was substantially greater than that in other organs (Fig. 6E and G). <sentence_start/>According to the pharmacokinetic study, the blood fluorescence intensity gradually decreased postinjection, with a half-life (<italic>t</italic><sub>1/2</sub>) of 2.504 h, revealing that FL@M could effectively metabolize and be eliminated from the body (Fig. 6H)."
+  },
+  {
+   "section": "article",
+   "text": "To determine the drug delivery capacity of FL@M in vivo, FL@M that contained Len-FITC was further explored in nude mice bearing subcutaneous tumors. <sentence_start/>Upon 1 h of oral administration of Len-FITC or intravenous injection of FL-FITC@M, tumors and vital organs were acquired for ex vivo analysis. <sentence_start/>We found that the FL-FITC@M group exhibited markedly higher tumor enrichment compared to the oral Len-FITC group, indicating that biomimetic nanoparticles could deliver more Len into the tumor microenvironment (Fig. 6I and J). <sentence_start/>Meanwhile, the fluorescence intensity of FITC in the serum in the FL-FITC@M group was significantly higher than that in the oral Len-FITC group (Fig. 6K). <sentence_start/>In summary, these results exhibited that FL@M had excellent tumor-targeting capability for drug delivery, a favorable biodistribution profile, and efficient metabolic clearance, supporting its application of tumor treatment in vivo."
+  },
+  {
+   "section": "article",
+   "text": "Synergistic therapeutic efficacy of FL@M in vivo"
+  },
+  {
+   "section": "article",
+   "text": "The therapeutic efficacy of FL@M on tumors was further validated in vivo. <sentence_start/>The BALB/C nude mice were randomly divided into 9 treatment groups when the tumor volume reached 70 to 100 mm<sup>3</sup>: (a) Saline, (b) US, (c) Len, (d) F, (e) F@M, (f) FL@M, (g) F + US, (h) F@M + US, and (i) FL@M + US. <sentence_start/>According to the treatment plan, different nanoparticles (5 mg/kg) were injected into the mice via tail vein, and US irradiation (1.5 W/cm<sup>2</sup>, 3 min) was performed 1 h after injection (Fig. 7A). <sentence_start/>The body weights and tumor volumes of the mice were monitored every 3 days during the treatment period, and the tumor tissues were weighed at the end of the experiment. <sentence_start/>There were no obvious differences in body weight among all groups of mice (Fig. 7D), confirming the biocompatibility of FL@M. Meanwhile, 3 SDT groups showed significant growth inhibition in tumor volume compared to others. <sentence_start/>The slowest tumor volume progression and the lightest tumor weight were observed in the FL@M + US group, proving the superior efficacy (Fig. 7B, C, E, and F). <sentence_start/>In conclusion, these findings demonstrated that combined SDT/chemotherapy provided excellent treatment effects on thyroid cancer."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 7."
+  },
+  {
+   "section": "article",
+   "text": "In vivo synergistic therapeutic efficiency of FL@M on 8505C tumor-bearing mice. <sentence_start/>(A) Schematic diagram of the experimental design. <sentence_start/>(B) Photograph of tumors for all treated groups. <sentence_start/>(C) The change of tumor volume under various treatments (<italic>n</italic> = 5). <sentence_start/>(D) The change of body weight under different treatments (<italic>n</italic> = 5). <sentence_start/>(E) The change of tumor volume under different treatments (<italic>n</italic> = 5). <sentence_start/>(F) Tumor weight under various treatments was measured (<italic>n</italic> = 5). <sentence_start/>(G) Pictures of tumor tissue stained with H&amp;E, TUNEL, Ki-67 and CD31. <sentence_start/>*<italic>P</italic> &lt; 0.05 and ***<italic>P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "To assess the therapeutic impact of FL@M on thyroid cancer, tumor tissue of different treatment groups was observed by H&amp;E staining. <sentence_start/>The tumor tissue of the FL@M group showed mild tissue damage with interstitial loosening and sparse gaps (Fig. 7G). <sentence_start/>There were more obvious conspicuous karyopyknosis and nuclear destruction in tumor tissue of the FL@M + US group compared to other groups, representing the shrinking of tumor cells and extensive destruction of tumor tissue (Fig. 7G). <sentence_start/>Meanwhile, the immunohistochemistry assay results demonstrated that the expression level of Ki-67 in the SDT groups decreased to varying degrees with the most obvious suppression occurring in the FL@M + US group (Fig. 7G). <sentence_start/>Besides, TUNEL staining showed similar results, revealing that the FL@M effectively inhibited tumor proliferation and induced tumor apoptosis (Fig. 7G). <sentence_start/>In addition, the FL@M + US group greatly weakened the expression of CD31 in tumor tissue, supporting the severe damage to vascular integrity and nutrition supply (Fig. 7G). <sentence_start/>In summary, FL@M has shown outstanding effects in inhibiting the proliferation of cancer cells and inducing cell apoptosis."
+  },
+  {
+   "section": "article",
+   "text": "FL@M inhibits tumor recurrence and metastasis in vivo"
+  },
+  {
+   "section": "article",
+   "text": "Research has shown that about 2/3 of thyroid cancer patients still experience tumor recurrence or metastasis after undergoing surgery and adjuvant RAI therapy [<citation rid=\"B47\" ref-type=\"bibr\" pmid=\"29650270\" doi=\"10.1016/j.critrevonc.2018.03.012\" count=\"1\">47</citation>], which is a main cause of treatment failure for patients. <sentence_start/>Therefore, to investigate whether FL@M SDT could inhibit tumor recurrence and metastasis, we constructed the recurrent tumor model by surgical resection of subcutaneous tumors in 8505C-luc tumor-bearing mice [<citation rid=\"B48\" ref-type=\"bibr\" pmid=\"33904232\" doi=\"10.1002/adma.202101158\" count=\"1\">48</citation>]. <sentence_start/>Mice were randomly divided into 3 groups (<italic>n</italic> = 5): control group (mice received no treatment), Sur group (mice received tumorectomy), and Sur-SDT group (mice received surgery and postoperative SDT) (Fig. 8A). <sentence_start/>Tumor growth was monitored by both in vivo imaging (Fig. 8B) and caliper measurement (Fig. 8H). <sentence_start/>In vivo imaging showed that the tumor volume of the control group increased as the time elapsed (Fig. 8C). <sentence_start/>In contrast, the tumor volumes were markedly decreased in the Sur and Sur-SDT groups after mice received surgery (Fig. 8D and E). <sentence_start/>The comparison of mice before and after surgical resection is shown in Fig. 8F. <sentence_start/>The body weights of mice were monitored during the treatment period (Fig. 8G). <sentence_start/>However, all mice experienced tumor recurrence in the Sur group on day 16. <sentence_start/>In contrast, only 2 of 5 mice in the Sur-SDT group experienced relapsed tumor, confirming the satisfactory therapeutic effect of Sur-SDT treatment to inhibit tumor recurrence (Fig. 8E and I)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 8."
+  },
+  {
+   "section": "article",
+   "text": "Therapeutic efficacy of FL@M in recurrent and metastatic tumor models. <sentence_start/>(A) Schematic illustration of surgery-SDT for recurrent tumors. <sentence_start/>(B) Representative bioluminescence images were performed to monitor tumor recurrence after the treatment in all mice. <sentence_start/>(C) The bioluminescence intensity of tumors in the control group at different times shown in (B). <sentence_start/>(D) The bioluminescence intensity of tumors in the surgery group at different times shown in (B). <sentence_start/>(E) The bioluminescence intensity of tumors in the surgery + SDT group at different times shown in (B). <sentence_start/>(F) Photos of 8505C tumor-bearing mice before and after surgery. <sentence_start/>(G) The weight records of recurrent 8505C tumor-bearing mice under different treatments (<italic>n</italic> = 5). <sentence_start/>(H) Average tumor growth curves of recurrent 8505C tumor-bearing mice under various treatments. <sentence_start/>(I) Tumor recurrence rate of recurrent 8505C tumor-bearing mice under different groups. <sentence_start/>(J) Schematic illustration of SDT for metastatic tumors. <sentence_start/>(K) The body weight of mice in 8505C metastatic tumor under different treatments (<italic>n</italic> = 5). <sentence_start/>(L) Lung weight of mice under various treatments was measured (<italic>n</italic> = 5). <sentence_start/>(M) The number of metastasis nodules in lung under various treatments was measured (<italic>n</italic> = 5). <sentence_start/>(N) Photos of lung for all metastatic tumors groups. <sentence_start/>(O) Pictures of lung tissue stained with H&amp;E. *<italic>P</italic> &lt; 0.05."
+  },
+  {
+   "section": "article",
+   "text": "We further investigated the therapeutic effect of FL@M on a metastatic tumor model. <sentence_start/>After intravenous injection of 8505C cells for 12 days, the mice were randomly divided into 3 groups: control group, Len group, and SDT group. <sentence_start/>The control group underwent injection of saline, while the Len group received an oral administration of Len, and the SDT group received US irradiation following the injection of FL@M every 3 days for 3 times, respectively (Fig. 8J). <sentence_start/>The body weight of mice in each group was measured at regular intervals throughout the treatment period (Fig. 8K). <sentence_start/>After treatment, all mice were euthanized and lung tissues were collected. <sentence_start/>There were increased lung tissue weights in the control and Len group (Fig. 8L). <sentence_start/>As shown in results, FL@M presented a marked reduction in surface metastatic nodules in lung tissue compared to the control group and Len group (Fig. 8M and N). <sentence_start/>In contrast, there was a significant reduction in lung metastases and weight in the SDT group while Len treatment showed no therapeutic effect compared with the control group (Fig. 8L and M). <sentence_start/>Meanwhile, H&amp;E staining of whole lung lobes further confirmed a greater number and a larger size of lung metastatic foci in the control group and Len group (Fig. 8O). <sentence_start/>The above results reasonably indicated that FL@M-mediated SDT/Len combination therapy had good therapeutic effects on recurrent and metastatic tumors, bringing great hope for clinical application in thyroid cancer."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In this work, we designed and synthesized an intelligent biomimetic nanocarrier based on iron-MOF by encapsulating Len for synergistic chemotherapy and SDT of thyroid cancer. <sentence_start/>The FL@M nanocarrier demonstrated excellent targeted cellular uptake and favorable biosafety profiles both in vitro and in vivo. <sentence_start/>Owing to its homologous cancer cell membrane coating, FL@M promoted specific internalization into 8505C cells. <sentence_start/>After absorption, FL@M alleviated tumor hypoxia and augmented ROS generation through iron-based enzyme activities, thereby potentiating the SDT efficacy. <sentence_start/>Furthermore, under US irradiation, FL@M enhanced Len release, initiated SDT and Len combination therapy, and finally induced intracellular oxidative stress, leading to pronounced tumor apoptosis. <sentence_start/>Collectively, the biomimetic nanocarrier FL@M represents a safe and effective MOF-based nanoplatform to inhibit tumor proliferation, recurrence, and metastasis, offering a promising SDT/chemotherapy combination strategy for thyroid cancer."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability"
+  },
+  {
+   "section": "back",
+   "text": "The datasets used and analyzed during the current study available from the corresponding author on reasonable request."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Materials"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary 1"
+  },
+  {
+   "section": "back",
+   "text": "Figs. <sentence_start/>S1 to S20"
+  },
+  {
+   "section": "back",
+   "text": "Table S1"
+  }
+ ]
+}

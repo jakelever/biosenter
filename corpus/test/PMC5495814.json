@@ -1,0 +1,299 @@
+{
+ "pmid": 28674426,
+ "pmcid": 5495814,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The impact of the butterfly effect on human parainfluenza virus haemagglutinin-neuraminidase inhibitor design"
+  },
+  {
+   "section": "abstract",
+   "text": "Human parainfluenza viruses represent a leading cause of lower respiratory tract disease in children, with currently no available approved drug or vaccine. <sentence_start/>The viral surface glycoprotein haemagglutinin-neuraminidase (HN) represents an ideal antiviral target. <sentence_start/>Herein, we describe the first structure-based study on the rearrangement of key active site amino acid residues by an induced opening of the 216-loop, through the accommodation of appropriately functionalised neuraminic acid-based inhibitors. <sentence_start/>We discovered that the rearrangement is influenced by the degree of loop opening and is controlled by the neuraminic acid\u2019s C-4 substituent\u2019s size (large or small). <sentence_start/>In this study, we found that these rearrangements induce a butterfly effect of paramount importance in HN inhibitor design and define criteria for the ideal substituent size in two different categories of HN inhibitors and provide novel structural insight into the druggable viral HN protein."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Human parainfluenza virus (hPIV) is one of the leading causes of respiratory tract disease in infants and children<sup><citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1097/INF.0000000000001140\" pmid=\"26974891\" pmcid=\"PMC4927308\" count=\"1\">1</citation>, <citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1093/jpids/piu047\" pmcid=\"PMC5813689\" pmid=\"26908486\" count=\"1\">2</citation></sup> and is estimated to result in over 1.5 million cases per year in the United States alone<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1128/CMR.16.2.242-264.2003\" pmid=\"12692097\" pmcid=\"PMC153148\" count=\"1\"><sup>3</sup></citation>. <sentence_start/>Despite continuous efforts<sup><citation ref-type=\"bibr\" rid=\"CR4\" doi=\"10.1016/j.vaccine.2013.09.046\" pmid=\"24103895\" pmcid=\"PMC3889708\" count=\"1\">4</citation>, <citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.1086/653621\" pmid=\"20533871\" pmcid=\"PMC2891144\" count=\"1\">5</citation></sup>, there are neither specific antiviral therapy nor vaccines available against hPIV-3 to date. <sentence_start/>The viral surface glycoprotein haemagglutinin-neuraminidase (HN) represents an ideal target for the development of urgently needed antiviral agents. <sentence_start/>The viral HN protein encompasses three key functions in virus infection and spread. <sentence_start/>The hPIV HN recognizes and attaches to <italic>N</italic>-acetylneuraminic acid-containing glycoconjugates present on the host cell and subsequently activates the fusion machinery, facilitating infection. <sentence_start/>Upon virus replication, hPIV HN enzymatically cleaves the neuraminic acid (Neu), <italic>N</italic>-acetylneuraminic acid (Neu5Ac, <bold>1</bold>) from host cell receptors allowing viral spread to uninfected cells<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1128/CMR.16.2.242-264.2003\" pmid=\"12692097\" pmcid=\"PMC153148\" count=\"1\"><sup>3</sup></citation>. <sentence_start/>A number of Neu2en (<bold>2</bold>)-based inhibitors (<italic>e.g</italic>. BCX 2798, <bold>3</bold>)<sup><citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.1128/AAC.48.5.1495-1502.2004\" pmid=\"15105096\" pmcid=\"PMC400544\" count=\"1\">6</citation>, <citation ref-type=\"bibr\" rid=\"CR7\" doi=\"10.3851/IMP1420\" pmid=\"19918093\" pmcid=\"PMC2782883\" count=\"1\">7</citation></sup>, as well as a novel approach that uses two well-established drugs<citation ref-type=\"bibr\" rid=\"CR8\" doi=\"10.1038/srep24138\" pmid=\"27053240\" pmcid=\"PMC4823791\" count=\"1\"><sup>8</sup></citation> in a combinatorial manner, have been used to target the hPIV-3 HN protein. <sentence_start/>However, none of these agents have progressed to the clinic."
+  },
+  {
+   "section": "article",
+   "text": "Recently, we have reported<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> the first structural investigation into the catalytic mechanism of the hPIV-3 HN protein using the 2,3-difluoro-<italic>N</italic>-acylneuraminic acid derivative, <bold>4</bold>. <sentence_start/>This study demonstrated that the protein forms a covalent adduct with the substrate as a result of a nucleophilic attack at the Neu moiety\u2019s anomeric carbon (C-2) by the hydroxyl group of the key catalytic amino acid, Tyr530. <sentence_start/>Hence, it was verified<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> that hPIV-3 HN can be targeted by reactive substrate-like inhibitors such as <bold>4</bold>."
+  },
+  {
+   "section": "article",
+   "text": "We have also recently described the design and synthesis of novel potent 4-deoxy-4-triazolo-Neu2en-based inhibitors (<bold>5</bold> and <bold>6</bold>, Fig. 1)<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>These inhibitors carry bulky C-4 substituents on the Neu2en template and target the proposed 216-cavity formed by movement of the flexible 216-loop<citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1021/ja3084658\" pmid=\"23057491\" count=\"1\"><sup>11</sup></citation>, a unique feature in hPIV-3 HN. <sentence_start/>Taken together these developments inspired further structural and biological investigation of Neu (<bold>1</bold>)-based inhibitors that incorporate a C-5 isobutyramido moiety, bulky C-4 triazole-substituents and C-2 and C-3 fluorides, such as <bold>7</bold> and <bold>8</bold>, to evaluate functional group synergism.<sentence_start/>Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Structures of reference and novel inhibitors and synthetic strategy. <sentence_start/>(<bold>a</bold>) Structures of Neu5Ac (<bold>1</bold>), reference Neu2en hPIV-3 HN inhibitors <bold>2, 3, 5</bold> and <bold>6</bold>, the reference 2\u03b1,3\u03b2-difluoro-analogue of BCX 2798 (<bold>4</bold>) and the novel 2\u03b1,3\u03b2-difluoro-4-triazolo-<italic>N</italic>-acylneuraminic acid derivatives <bold>7</bold> and <bold>8</bold>. <sentence_start/>(<bold>b</bold>) (i) CuSO<sub>4</sub>, sodium ascorbate, MeOH/H<sub>2</sub>O (1:1), M.W., 80 \u00b0C, 30 min (<bold>10</bold>, 81%; <bold>11</bold>, 89%); (ii) NaOH, MeOH/H<sub>2</sub>O (1:1), rt, o/n (<bold>7</bold>, 68%; <bold>8</bold>, 84%)."
+  },
+  {
+   "section": "article",
+   "text": "Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of the hPIV-3 HN structure in its open 216-loop form"
+  },
+  {
+   "section": "article",
+   "text": "To aid the development of substrate-like mechanism-based inhibitors, with further functionalization as in <bold>5</bold> and <bold>6</bold>, atomic-level details of the binding mode of both 2,3-difluoro-<italic>N</italic>-acylneuraminic acid-based and Neu2en-based inhibitors were required. <sentence_start/>Therefore, both inhibitors <bold>5</bold> and <bold>6</bold> were independently co-crystallized with hPIV-3 HN protein (see Supplementary Methods)."
+  },
+  {
+   "section": "article",
+   "text": "The crystallographic structures of hPIV-3 HN in complex with inhibitors <bold>5</bold> (protein data bank (PDB) accession code: 5KV9) and <bold>6</bold> (PDB accession code: 5KV8) demonstrated that the C-4 triazole substituents occupy the 216-cavity (Fig. 2a).Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Structural insights into hPIV-3 HN-<bold>5</bold> and -<bold>6</bold> complexes. <sentence_start/>(<bold>a</bold>) Superimposition of the hPIV-3 HN active site with bound inhibitor <bold>5</bold> and bound inhibitor <bold>6</bold> (magenta and green, respectively). <sentence_start/>A further 1.9 \u00c5 shift in 216-loop position led to the accommodation of the bulkier 4-phenyltriazole in the hPIV-3 HN-<bold>5</bold> complex (dashed-line in black). <sentence_start/>(<bold>b</bold>) Zoom-in image displays the distances between active site residues Arg192 (side-chain) and Cys214 (backbone carbonyl oxygen) as well as the Arg192 side-chain and inhibitors <bold>5</bold> and <bold>6</bold>. <sentence_start/>Dashed-lines in black or red represent favourable (H-bond donor-acceptor distance &lt; 4.0 \u00c5) and unfavourable distance (H-bond donor-acceptor distance &gt; 4.0 \u00c5) for hydrogen bonds and salt bridge formation respectively. <sentence_start/><italic>O</italic> red, <italic>N</italic> blue."
+  },
+  {
+   "section": "article",
+   "text": "To accommodate the C-4 substituents of each inhibitor, the respective 216-loop (amino acids 210-220)<citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1021/ja3084658\" pmid=\"23057491\" count=\"1\"><sup>11</sup></citation> was forced into a more open conformation in each complex when compared with the <italic>apo</italic> structure (PDB accession code: 4XJQ). <sentence_start/>In this context, the 216-loop moved, relative to the <italic>apo</italic> structure (measured from the protein backbone), up to 3.7 \u00c5 and 1.7 \u00c5 in the hPIV-3 HN-<bold>5</bold> and hPIV-3 HN-<bold>6</bold> complexes, respectively. <sentence_start/>To accommodate the bulkier C-4 phenyltriazole moiety associated with inhibitor <bold>5</bold>, the 216-loop in the hPIV-3 HN-<bold>5</bold> complex adopted a more open conformation in comparison to the hPIV-3 HN-<bold>6</bold> complex. <sentence_start/>The observed loop movement between these two complexes reached significant differences of up to 2.17 \u00c5 (<italic>e.g</italic>. 1.90 \u00c5 at Asp216, Fig. 2a), where the phenyltriazole moiety of <bold>5</bold> is directed."
+  },
+  {
+   "section": "article",
+   "text": "Key structural differences between hPIV-3 HN-5 and HN-6 co-crystal structures"
+  },
+  {
+   "section": "article",
+   "text": "Key differences related to the degree of loop opening were observed in the position of the triarginyl cluster and the active site residues (Tyr530, Glu549, Lys254). <sentence_start/>The triarginyl cluster is known to make substantial contribution, through engagement with the carboxylate of both substrates and inhibitors, in a broad range of neuraminidases (NAs)<sup><citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1074/jbc.M411506200\" pmid=\"15501818\" count=\"1\">12</citation>-<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1002/anie.201309675\" pmid=\"24591206\" count=\"1\">15</citation></sup> including influenza A virus (IAV) NA<sup><citation ref-type=\"bibr\" rid=\"CR16\" doi=\"10.1021/jm00031a011\" pmid=\"8126701\" count=\"1\">16</citation>-<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1038/ncomms2487\" pmid=\"23422659\" count=\"1\">19</citation></sup>. <sentence_start/>A similar contribution was observed in the hPIV-3 HN-<bold>6</bold> complex, in which the hPIV-3 HN triarginyl cluster (comprised of arginine residues Arg192, Arg424 and Arg502) was found to form a salt bridge and hydrogen bonds with the carboxylic acid moiety of inhibitor <bold>6</bold> (Fig. 2b). <sentence_start/>Interestingly, a significant movement of the 216-loop, that led to a more open cavity in the hPIV-3 HN-<bold>5</bold> complex, was accompanied by the reorientation of Arg192. <sentence_start/>In the hPIV-3 HN-<bold>5</bold> complex the \u03b72-NH<sub>2</sub> of Arg192 side-chain, which usually participates in the coordination of the bound inhibitor, as in the hPIV-3 HN-<bold>6</bold> complex, was oriented away from its typical location by 1.23 \u00c5 (Fig. 2b). <sentence_start/>This movement enabled the formation of a hydrogen bond between Arg192 and the Cys214 backbone carbonyl oxygen (2.59 \u00c5). <sentence_start/>However, this shift, in the position of the Arg192 side-chain (4.22 \u00c5, Fig. 2b) prevented a hydrogen bond formation with the carboxylic acid oxygen of inhibitor <bold>5</bold> and loss of a crucial ionic interaction. <sentence_start/>The two other arginine residues in the triarginyl cluster, Arg424 and Arg502, were found to maintain the same orientation in both complexes and were engaged in hydrogen bonding and ionic interactions with the carboxylate moiety of both inhibitors <bold>5</bold> and <bold>6</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Further important structural differences between the two complexes were observed for the active site residues Lys254, Tyr530 and Glu549. <sentence_start/>The C-4 hydrophobic phenyltriazole moiety of inhibitor <bold>5</bold> is nicely accommodated in an active site groove that is lined with the side-chains of Arg192, Ile210 and Lys254 (Fig. 3a).Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "hPIV-3 HN-<bold>5</bold> and -<bold>6</bold> complexes. <sentence_start/>hPIV-3 HN active site complexed with inhibitor <bold>5</bold> (top) and with inhibitor <bold>6</bold> (bottom) displaying amino acids that are engaged in the binding event as well as three active site resident water molecules. <sentence_start/>Potential hydrogen bonds are shown as black dotted lines. <sentence_start/><italic>O</italic> red, <italic>N</italic> blue."
+  },
+  {
+   "section": "article",
+   "text": "Interestingly, in the hPIV-3 HN-<bold>6</bold> complex the reorientation of the Lys254 side-chain towards the 4-methoxymethyltriazole moiety of <bold>6</bold> was observed. <sentence_start/>This reorientation leads to an additional hydrogen bond formation between the side-chain of Lys254 and the C-4 triazole methoxy oxygen associated with <bold>6</bold>. <sentence_start/>In addition, the Asn208 side-chain shifts towards the side-chain amino group of Lys254, which establishes a hydrogen bond with the carbonyl oxygen of Asn208 (Fig. 3b). <sentence_start/>In stark contrast, in the hPIV-3 HN-<bold>5</bold> complex a hydrogen bond between Asp216 and Lys254 was formed and further stabilized the active site (Fig. 3a)."
+  },
+  {
+   "section": "article",
+   "text": "The key catalytic Tyr530 residue is a highly conserved amino acid among all known wild type neuraminidases<sup><citation ref-type=\"bibr\" rid=\"CR20\" doi=\"10.1016/S0959-440X(96)80014-5\" pmid=\"8994884\" count=\"1\">20</citation>, <citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/j.jmb.2003.11.032\" pmid=\"14729348\" count=\"1\">21</citation></sup>. <sentence_start/>The phenolic oxygen of Tyr530 is known to nucleophilically attack the C-2 anomeric carbon of a bound neuraminic acid derivative, as previously described<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> for the 2,3-difluoroneuraminic acid-based derivative <bold>4</bold>. <sentence_start/>Accordingly, in the hPIV-3 HN-<bold>5</bold> and hPIV-3 HN-<bold>6</bold> complexes the Tyr530 phenolic oxygen was found at a distance of 2.9 \u00c5 and 2.7 \u00c5 from the C-2 of inhibitors <bold>5</bold> and <bold>6</bold>, respectively. <sentence_start/>The structure of the co-crystallized complex with inhibitor <bold>6</bold> had two protein molecules per asymmetric unit (binding site A and B), whereas the structure of the co-crystallized complex with compound <bold>5</bold> had only one protein molecule per asymmetric unit (see Supplementary Methods). <sentence_start/>Two orientations of Tyr530 were found in binding site A of the hPIV-3 HN-<bold>6</bold> complex: One orientation of the residue Tyr530 was directed towards the binding site (more populated, 52%) and in the second, the residue was oriented away from the binding site. <sentence_start/>In contrast, in binding site B, Tyr530 was only directed towards the C-2 of inhibitor <bold>6</bold>. <sentence_start/>No further differences were observed between binding site A and B of the hPIV-3 HN-<bold>6</bold> complex."
+  },
+  {
+   "section": "article",
+   "text": "Glu549 is one of the seven highly-conserved amino acids in the HN\u2019s active site<citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/j.jmb.2003.11.032\" pmid=\"14729348\" count=\"1\"><sup>21</sup></citation>, and was found oriented away from the binding site in the hPIV-3 HN-<bold>5</bold> complex. <sentence_start/>In contrast, the Glu549 residue in the hPIV-3 HN-<bold>6</bold> complex was always directed towards the binding site to form a hydrogen bond with an active site-bound water. <sentence_start/>Interestingly, in the recently described hPIV-3 HN-<bold>4</bold> complex<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation>, Glu549 is also found to orient only towards the binding site."
+  },
+  {
+   "section": "article",
+   "text": "Effect of the triarginyl cluster shift on inhibitor complexation to the HN protein"
+  },
+  {
+   "section": "article",
+   "text": "The reaction mechanism of the broad NA family has been the subject of intense investigation over the last twenty years<sup><citation ref-type=\"bibr\" rid=\"CR13\" doi=\"10.1074/jbc.M510677200\" pmid=\"16298994\" count=\"1\">13</citation>-<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1002/anie.201309675\" pmid=\"24591206\" count=\"1\">15</citation></sup>, especially the IAV NA mechanism<sup><citation ref-type=\"bibr\" rid=\"CR16\" doi=\"10.1021/jm00031a011\" pmid=\"8126701\" count=\"1\">16</citation>, <citation ref-type=\"bibr\" rid=\"CR18\" doi=\"10.1126/science.1232552\" pmid=\"23429702\" count=\"1\">18</citation>, <citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1038/ncomms2487\" pmid=\"23422659\" count=\"1\">19</citation>, <citation ref-type=\"bibr\" rid=\"CR22\" count=\"1\">22</citation>, <citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1002/prot.340140302\" pmid=\"1438172\" count=\"1\">23</citation></sup>. <sentence_start/>The triarginyl cluster-Neu5Ac carboxylate interaction is thought to have a major influence on the geometry of <bold>1</bold> when bound within the active site<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1002/prot.340140302\" pmid=\"1438172\" count=\"1\"><sup>23</sup></citation>. <sentence_start/>While the Neu2en inhibitors <bold>5</bold> and <bold>6</bold> have planar geometry around C-2 and C-3, as a consequence of their sp<sup>2</sup>-hybridization, 2,3-difluorinated Neu derivatives such as <bold>7</bold> and <bold>8</bold> need to planarise around these carbon atoms upon binding to the enzyme for the catalytic reaction to proceed<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1038/ncomms2487\" pmid=\"23422659\" count=\"1\"><sup>19</sup></citation>. <sentence_start/>As a consequence of the 216-loop movement due to the presence of a C-4 bulky substituent, as seen in the hPIV-3 HN-<bold>5</bold> complex, the induced side-chain rearrangement of Arg 192 results in the loss of a crucial interaction with the carboxyl group of inhibitor <bold>5</bold>. <sentence_start/>Hence, the introduction of bulky C-4 substituents, such as a phenyltriazole moiety, in 2,3-difluoro Neu substrate-based derivatives (<italic>e.g</italic>. <bold>7</bold>), may in fact be counterproductive and result in poor inhibition of hPIV-3 HN. <sentence_start/>Conversely, the structure of hPIV-3 HN in complex with inhibitor <bold>6</bold> revealed that the Arg192 side chain remains in close proximity to the inhibitor\u2019s carboxyl group, leading to the expected interactions (Fig. 2b). <sentence_start/>This structural observation suggests that a 2,3-difluoro derivative of <bold>6</bold> that incorporates a smaller C-4 functionality (<italic>e.g</italic>. <bold>8</bold>), may undergo efficient planarization upon complexation with HN. <sentence_start/>This planarization should readily promote the expected nucleophilic attack at C-2 of <bold>8</bold> by the phenolic oxygen of Tyr530 to provide the commensurate \u03b2-tyrosinyl neuraminide (see Supplementary Figure 2). <sentence_start/>Finally, this should result in a complex that is similar to what has been previously observed in the recent X-ray crystal structure of the hPIV-3 HN-<bold>4</bold> complex (PDB accession code: 4XJR)<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> and consequently in a superior antiviral potency, as seen for <bold>4</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Synthesis and HN enzyme activity evaluation of the 2,3-difluoro analogues of inhibitors 5 and 6"
+  },
+  {
+   "section": "article",
+   "text": "To investigate these hypotheses, the 2,3-difluoro analogues <bold>7</bold> and <bold>8</bold> of the potent hPIV-3 inhibitors <bold>5</bold> and <bold>6</bold> were synthesized as shown in Fig. 1b (see Supplementary Methods). <sentence_start/>Subsequently, neuraminidase inhibition (NI) IC<sub>50</sub> values were measured by the standard NI fluorescence assay based on the method of Potier <italic>et al</italic>.<citation ref-type=\"bibr\" rid=\"CR24\" doi=\"10.1016/0003-2697(79)90362-2\" pmid=\"464297\" count=\"1\"><sup>24</sup></citation> using 4-methylumbelliferyl <italic>N</italic>-acetylneuraminide (MUN) as substrate (Fig. 4a)<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>A 2-fold increase in potency was observed for the novel 2,3-difluoro inhibitor <bold>8</bold> that incorporates the smaller C-4 methoxymethyl triazole substituent (NI IC<sub>50</sub> = 6.7 \u00b5M) compared to its Neu2en analogue (<bold>6</bold>, NI IC<sub>50</sub> = 14.5 \u00b5M). <sentence_start/>In complete contrast, and as predicted from the analysis of the hPIV-3 HN-<bold>5</bold> structure, a significant loss in potency against hPIV-3 HN neuraminidase function was observed for inhibitor <bold>7</bold> (NI IC<sub>50</sub> = 55.3 \u00b5M compared with an IC<sub>50</sub> = 1.4 \u00b5M for the Neu2en-based inhibitor <bold>5</bold>).Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Biological evaluation of the 2,3-difluoro inhibitors in relation to their Neu2en analogues. <sentence_start/>(<bold>a</bold>) Inhibitors <bold>5</bold>, <bold>6</bold>, <bold>7</bold>, and <bold>8</bold> were evaluated in a neuraminidase assay. <sentence_start/>These values are the means of determinations from 3 independent experiments performed in duplicates and error bars correspond to calculated standard deviations. <sentence_start/>(<bold>b</bold>) Virus growth inhibition was determined by an <italic>in situ</italic> ELISA technique using the human cell line A549. <sentence_start/>IC<sub>50</sub> values of 11.2 \u00b1 0.9 \u00b5M, 40.1 \u00b1 7.0 \u00b5M, 82.4 \u00b1 7.7 \u00b5M and 14.3 \u00b1 0.3 \u00b5M were determined for <bold>5</bold>, <bold>7</bold>, <bold>6</bold> and <bold>8</bold>, respectively. <sentence_start/>These values were evaluated from at least 2 independent experiments performed in triplicate and error bars correspond to the calculated standard deviation."
+  },
+  {
+   "section": "article",
+   "text": "Inhibition of haemagglutinin function of hPIV-3 HN by 5 and 6 and their 2,3-difluoro derivatives (7 and 8)"
+  },
+  {
+   "section": "article",
+   "text": "Since hPIV-3 HN is a unique multifunctional protein, that possesses both carbohydrate-binding and carbohydrate-processing functionalities in one binding site<citation ref-type=\"bibr\" rid=\"CR25\" doi=\"10.1172/JCI25669\" pmid=\"16007245\" pmcid=\"PMC1159152\" count=\"1\"><sup>25</sup></citation>, we were also interested to explore how difluorination of the inhibitors can affect the hPIV-3 HN haemagglutinin function. <sentence_start/>For this purpose, virus-mediated agglutination of human red blood cells was evaluated in the presence of decreasing inhibitor concentrations (see Supplementary Methods) in a similar procedure to that previously reported<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>Results from a haemagglutinin inhibition (HI) assay demonstrated a greatly enhanced potency for the non-fluorinated inhibitors <bold>5</bold> and <bold>6</bold> when compared to their fluorinated analogues <bold>7</bold> and <bold>8</bold> (see Supplementary Figure 3). <sentence_start/>These significant weaker HI IC<sub>50</sub> values of the 2,3-difluoro derivatives are in agreement with a recently reported 2,3-difluoro-<italic>N</italic>-acylneuraminic acid<citation ref-type=\"bibr\" rid=\"CR26\" doi=\"10.1016/j.antiviral.2015.08.014\" pmid=\"26364554\" count=\"1\"><sup>26</sup></citation> that has a HI IC<sub>50</sub> value of 1 mM and the biotinylated oligosaccharide, 3\u2032SiaDiLN (Neu5Ac\u03b12-3 Gal\u03b21-4GlcNAc\u03b21-3 Gal\u03b21-4GlcNAc)<citation ref-type=\"bibr\" rid=\"CR27\" doi=\"10.1128/JVI.00739-13\" pmid=\"23740997\" pmcid=\"PMC3754076\" count=\"1\"><sup>27</sup></citation> that has a K<italic><sub>d</sub></italic> value of 4.3 mM when in complex with soluble hPIV-3 HN. <sentence_start/>The Neu2en-based inhibitors <bold>5</bold> and <bold>6</bold> are significantly more potent in HI with IC<sub>50</sub> values of 0.6 \u00b5M and 3.9 \u00b5M, respectively. <sentence_start/>Therefore, it seems that planar geometry around C-2 and C-3 of the Neu2en template has an influence on the extent of hPIV-3 HN haemagglutinin function inhibition. <sentence_start/>Interestingly, the stronger HI for <bold>8</bold> (IC<sub>50</sub> = 57 \u00b5M) when compared to <bold>7</bold> (IC<sub>50</sub> = 775 \u00b5M) at 4 \u00b0C may be primarily attributed to the ability of inhibitor <bold>8</bold> to engage the triarginyl cluster and the failure of inhibitor <bold>7</bold> to bind to Arg192, and secondly to the formation of an additional hydrogen bond interaction between the Lys254 side-chain and the C-4 methoxymethyl oxygen of <bold>8</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Blockade of hPIV-3 virus propagation in cells by inhibitors 5-8"
+  },
+  {
+   "section": "article",
+   "text": "To further investigate the impact of the C-4 substituent size of the inhibitors on hPIV-3 growth, probes <bold>5</bold>-<bold>8</bold> were evaluated at a cellular level for their capacity to block virus infection and propagation in the human respiratory cell line A549 (lung adenocarcinoma epithelial cells) using our well-established <italic>in situ</italic> ELISA technique<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>The 2,3-difluoro derivative <bold>8</bold> with the relatively smaller C-4 substituent showed an enhanced capacity to inhibit virus growth, with an experimentally-determined IC<sub>50</sub> value of 14.3 \u00b5M compared to 82.4 \u00b5M for the comparable Neu2en inhibitor <bold>6</bold>. <sentence_start/>This is consistent with the IC<sub>50</sub> value determinations from NI assay data and is similar to what is observed<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> for inhibitor <bold>4</bold> with a smaller C-4 azido functionality. <sentence_start/>Since the C-4 substituents of <bold>4</bold> and <bold>8</bold> are not bulky enough to induce significant movement of the 216-loop, Arg192 remains in its original orientation that maintains the integrity of the triarginyl cluster-Neu carboxylate interactions while maintaining its hydrogen bond to the Cys214 residue (Fig. 2b). <sentence_start/>In complete agreement with NI enzyme assay data, inferior potency in the virus growth inhibition assay was observed for inhibitor <bold>7</bold> that has the bulkier C-4 phenyltriazole substituent. <sentence_start/>IC<sub>50</sub> values of 40.1 \u00b5M and 11.2 \u00b5M were determined for <bold>7</bold> and its Neu2en analogue <bold>5</bold>, respectively (Fig. 4a)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, all inhibitors were assessed for cytotoxicity to human A549 cells with no toxicity observed at a concentration of 300 \u00b5M (data not shown). <sentence_start/>In addition, we investigated<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> the capacity of the synthesized inhibitors <bold>5</bold>-<bold>8</bold> to inhibit human neuraminidase 2 (<italic>h</italic>Neu2) compared with the well-described neuraminidase inhibitor Neu5Ac2en (<bold>2</bold>)<citation ref-type=\"bibr\" rid=\"CR28\" doi=\"10.1021/jm100078r\" pmid=\"20222714\" count=\"1\"><sup>28</sup></citation>. <sentence_start/>No inhibition of <italic>h</italic>Neu2 was observed for either the 2,3-difluoro-<italic>N</italic>-acylneuraminic acid-based inhibitors (<bold>7</bold> &amp; <bold>8</bold>) or their corresponding Neu2en analogues (<bold>5</bold> &amp; <bold>6</bold>) (see Supplementary Figure 4)."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, we provide the first structural insights of the hPIV-3 HN protein in a 216-loop open form and describe an in-depth analysis of the rearrangement of binding pocket-resident amino acids as a result of this movement. <sentence_start/>We have also demonstrated that there is a direct relationship between inhibitor size and the inhibitor\u2019s capacity to open the loop without losing the key interactions between the important active site-based triarginyl cluster and inhibitor. <sentence_start/>The additional complexity of loop flexibility can directly impact the extent of inhibitor functionalization. <sentence_start/>In the case of hPIV-3 HN whether large or small C-4 substituents are optimal on the described inhibitors, will depend on the inhibitor framework. <sentence_start/>From our study \u201cbigger is better\u201d when using the Neu2en framework as the loss of the ionic interaction with Arg192 is compensated by the affinity gain from the hydrophobic C-4 moiety that is oriented in the 216-cavity. <sentence_start/>In contrast, \u201csmaller is better\u201d when using the 2,3-difluoro-Neu5Ac framework, as these inhibitors are designed to react with the active site Tyr530, thus targeting the catalytic machinery of HN. <sentence_start/>Smaller substituents at C-4 do not have significant impact on the 216-loop or induce amino acid rearrangement. <sentence_start/>Consequently, the triarginyl cluster residue Arg192 maintains the capacity to interact with the inhibitor\u2019s carboxylate moiety and facilitates planarization of the substrate-like inhibitor to optimally position C-2 of the difluoro inhibitors for nucleophilic attack by Tyr530."
+  },
+  {
+   "section": "article",
+   "text": "This study has shown that hPIV-3 HN is a complex flexible protein. <sentence_start/>The protein\u2019s flexibility, in the context of inhibitor development can be considered a butterfly effect, since a small structural change in one part of the protein has a significant influence on another HN region. <sentence_start/>This challenge has been recently recognized by the computational biology community<citation ref-type=\"bibr\" rid=\"CR29\" doi=\"10.1517/17460441.2015.1094458\" pmid=\"26414598\" count=\"1\"><sup>29</sup></citation>. <sentence_start/>As a consequence, optimal anti-parainfluenza virus drug design that accounts for the hPIV-3 HN protein flexibility and inhibitor-associated structural rearrangements is required. <sentence_start/>Targeting multiple individual structural features may not lead to the expected synergistic effect, if done without consideration of the impact of structural changes occurring at the whole protein level, and consequently on bound inhibitors. <sentence_start/>Finally, our findings define an important set of criteria that reveal an critical balancing act with new essential parameters that will assist in the design of novel hPIV-3 HN inhibitors."
+  },
+  {
+   "section": "article",
+   "text": "Material and Methods"
+  },
+  {
+   "section": "article",
+   "text": "General Methods Chemistry"
+  },
+  {
+   "section": "article",
+   "text": "Commercially available reagents and dry solvents were purchased from commercial sources and used without further purification. <sentence_start/>Anhydrous reactions were carried out using oven-dried glassware and under an argon atmosphere. <sentence_start/>Reaction progress was monitored through thin layer chromatography (TLC) using aluminium plates pre-coated with Silica Gel 60 F254 (E. Merck). <sentence_start/>TLC plates were observed under UV light at 254 nm and were then visualized by application of a solution of H<sub>2</sub>SO<sub>4</sub> in EtOH (5% v/v) followed by heating. <sentence_start/>Flash chromatography was carried out using Silica Gel 60 (0.040-0.063 mm) and distilled solvents. <sentence_start/><sup>1</sup>H and <sup>13</sup>C NMR spectra were recorded at 400 and 100 MHz, respectively on a BrukerAvance 400 MHz spectrometer, while <sup>19</sup>F NMR spectra were recorded at 376 MHz. <sentence_start/>Chemical shifts (\u03b4) are reported in parts per million, relative to the internal reference residual solvent peak [CDCl<sub>3</sub>: 7.26 (s) for <sup>1</sup>H, 77.0 (t) for <sup>13</sup>C; D<sub>2</sub>O: 4.79 (s) for <sup>1</sup>H]. <sentence_start/>2D COSY and HSQC experiments were run when necessary to support assignments. <sentence_start/>Low-resolution mass spectra (LRMS) were recorded using positive mode, in electrospray ionization mode, on a BrukerDaltonics Esquire 3000 ESI spectrometer. <sentence_start/>High-resolution mass spectra (HRMS) were recorded for the final derivatives using Griffith University SmartWater Research Centre facility on Agilent 6530 QTOF, with an Agilent 1290 HPLC. <sentence_start/>Final deprotected derivatives were purified by reversed phase chromatography, using GracePure<sup>TM</sup> SPE C18-Aq 5000 mg/20 mL and 2% acetonitrile/H<sub>2</sub>O. The purities of all synthetic intermediates after chromatographic purification were &gt; 90% as determined by <sup>1</sup>H and <sup>13</sup>C NMR, while the purity of reference compounds synthesized for screening purposes <bold>5</bold> and <bold>6</bold>, and of the new final products <bold>7</bold> and <bold>8</bold> was judged to be \u2265 95%. <sentence_start/>The synthesis of intermediate <bold>9</bold> (ref. <citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\">9</citation>) and reference inhibitors <bold>5</bold> and <bold>6</bold> (ref. <citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\">10</citation>) followed typical literature procedures. <sentence_start/>The details of synthetic methods used and full characterization data of key intermediates and novel final products are reported here in the supplementary material."
+  },
+  {
+   "section": "article",
+   "text": "General procedure for the synthesis of compounds 10 and 11"
+  },
+  {
+   "section": "article",
+   "text": "The 4-azido-4-deoxy-2\u03b1,3\u03b2-difluoro-5-isobutyramido neuraminic acid intermediate <bold>9</bold> (60 mg, 0.12 mmol) and the corresponding ethynyl derivative (0.24 mmol) were dissolved in a (1:1) mixture of methanol and H<sub>2</sub>O (2 mL). <sentence_start/>Copper(II)sulfate pentahydrate (6.5 mg, 0.024 mmol) was added to the mixture followed by sodium ascorbate (0.1 mL of freshly prepared 1 M solution in H<sub>2</sub>O). <sentence_start/>The mixture was heated in a microwave reactor at 80 \u00b0C for 30 min. <sentence_start/>The reaction solvent was then evaporated under vacuum, and the residue was taken up in dichloromethane (50 mL), washed with 10% NH<sub>4</sub>OH (10 mL), followed by brine (10 mL). <sentence_start/>The organic layer was dried over anhydrous Na<sub>2</sub>SO<sub>4</sub>, concentrated <italic>in vacuo</italic> to give the crude product <bold>10</bold> or <bold>11</bold> and finally purified by silica gel chromatography using a suitable solvent system."
+  },
+  {
+   "section": "article",
+   "text": "General procedure for the synthesis of compounds 7 and 8"
+  },
+  {
+   "section": "article",
+   "text": "To compound <bold>10</bold> or <bold>11</bold> (0.068 mmol) in a (1:1) mixture of water and MeOH (2 mL) at 0 \u00b0C was added an aq. solution of NaOH (1.0 M) dropwise until a pH of 13-14 was reached. <sentence_start/>The reaction mixture was allowed to warm up gradually to rt and was stirred at rt overnight. <sentence_start/>The solution was then rendered acidic with Amberlite<sup>\u00ae</sup> IR-120 (H<sup>+</sup>) resin (to pH = 5), filtered through a cotton plug and washed with MeOH (10 mL) and H<sub>2</sub>O (10 mL). <sentence_start/>The compound was then purified by reversed phase chromatography, using C18-GracePure<sup>TM</sup> cartridge and 2% acetonitrile/water, to yield pure <bold>7</bold> (28 mg, 84%) or <bold>8</bold> (21 mg, 68%), as a fluffy white powder after freeze drying."
+  },
+  {
+   "section": "article",
+   "text": "Cells and viruses"
+  },
+  {
+   "section": "article",
+   "text": "LLC-MK2 (monkey kidney epithelial cells) cells were maintained at 37 \u00b0C, 5% CO<sub>2</sub> in EMEM (Lonza, Basel, Switzerland) supplemented with 1% Glutamine (1% final concentration) and 2% heat-inactivated fetal bovine serum (FBS). <sentence_start/>A549 cells (human lung adenocarcinoma epithelial cells) were provided by the European Collection of Cell Cultures (86012804-1VL, Sigma-Aldrich). <sentence_start/>Cells were propagated in Dulbecco\u2019s Modified Eagle Medium (DMEM) (Lonza, Basel, Switzerland) supplemented with of 1% Glutamine and 5% FBS. <sentence_start/>For infection procedures, A549 cells were maintained in DMEM supplemented with 1% Glutamine only."
+  },
+  {
+   "section": "article",
+   "text": "hPIV-3 (strain C-243) was purchased from the American Type Culture Collection (Manassas, VA) and virus stock was amplified in LLC-MK2 cells at 35 \u00b0C, 5% CO<sub>2</sub> in EMEM (only supplemented 1% Glutamine). <sentence_start/>After 96 hours of incubation, the virus-containing supernatant was harvested, clarified and purified by PEG precipitation followed by sucrose gradient fractionation as previously published<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\"><sup>10</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "hPIV-3 HN inhibitors"
+  },
+  {
+   "section": "article",
+   "text": "Compounds <bold>2</bold>-<bold>8</bold> were each provided as a lyophilized powder and then reconstituted in sterile water to generate a 10 mM stock solution. <sentence_start/>Solutions were sonicated for 15 min to allow complete dissolution and then filter-sterilized. <sentence_start/>The stock solution was stored in a glass vial at \u221220 \u00b0C and freshly diluted in appropriate buffer before usage."
+  },
+  {
+   "section": "article",
+   "text": "Recombinant human Neuraminidase 2 (<italic>h</italic>Neu2) expression and purification"
+  },
+  {
+   "section": "article",
+   "text": "The entire coding sequence of <italic>h</italic>Neu2 was cloned into pGEX-2T expression vector (Amersham Biosciences). <sentence_start/>Recombinant <italic>h</italic>Neu2 expression was performed in <italic>E. Coli</italic> cells. <sentence_start/>Purification of recombinant <italic>h</italic>Neu2 was accomplished in three steps using affinity chromatography, followed by two successive steps of high resolution anion and cation exchange chromatography as previously described<sup><citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1074/jbc.M411506200\" pmid=\"15501818\" count=\"1\">12</citation>, <citation ref-type=\"bibr\" rid=\"CR30\" doi=\"10.1074/jbc.M308381200\" pmid=\"14613940\" count=\"1\">30</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "Neuraminidase inhibition assay"
+  },
+  {
+   "section": "article",
+   "text": "Viral neuraminidase inhibition (NI) assays were accomplished with purified hPIV-3 in reaction buffer/hPIV3 (NaOAc 50 mM, CaCl<sub>2</sub> 5 mM, pH 4.6). <sentence_start/>The maximal fluorescence signal of purified virus (positive control) was required to be at least 5 times higher than the fluorescence background (negative control) in order to be considered as statistically relevant. <sentence_start/>NI assays were performed in triplicate following the protocol as described earlier<sup><citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\">10</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "The NI assay with human Neuraminidase 2 (<italic>h</italic>Neu2) was performed as previously described<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation>, using 60 ng of purified <italic>h</italic>Neu2 enzyme in reaction buffer/<italic>h</italic>Neu2 (NaOAc 50 mM, pH 5.5), supplemented with 10 \u03bcg BSA and 0.5 mM MUN per reaction. <sentence_start/>All inhibitors were tested in duplicate in the concentration range from 0.001 \u03bcM to 1000 \u03bcM. <sentence_start/>After 10 min of incubation with agitation (1000 rpm) at 37 \u00b0C, the enzymatic reaction was stopped with glycine buffer (glycine 0.25 M, pH 10.4) and the product fluorescence was measured in relative fluorescence units (RFU) using a Victor 3 multilabel reader (PerkinElmer, Waltham, MA). <sentence_start/>Controls were conducted with MUN and purified <italic>h</italic>Neu2, the enzymatic reaction was stopped at t = 0 for the negative control and at t = 10 min for the positive control."
+  },
+  {
+   "section": "article",
+   "text": "The obtained data were normalised by background (negative control RFU) subtraction and processed data were analyzed with GraphPadPrism 4 (GraphPad Software Inc., La Jolla, CA) to calculate IC<sub>50</sub> values. <sentence_start/>The concentration of inhibitor that reduced the neuraminidase activity by 50% compared to those of a non-treated virus/protein suspension was considered as the NI IC<sub>50</sub> value."
+  },
+  {
+   "section": "article",
+   "text": "Haemagglutination inhibition assay"
+  },
+  {
+   "section": "article",
+   "text": "The HN inhibitors were assessed in haemagglutination inhibition assays using human red blood cells (RBC) as previously described<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\"><sup>10</sup></citation> with minor modifications. <sentence_start/>The lowest final concentration of hPIV-3 that leads to a complete agglutination of human-RBC at 4 \u00b0C is considered as 1 HAU. <sentence_start/>4 haemagglutination units (HAU) of hPIV-3 (final 1 HAU per well) were pre-mixed with inhibitors of each tested concentration (4X dilution in PBS) on ice. <sentence_start/>Next, an equivalent volume of ice-cold 1% human-RBC in PBS was added to each well of the inhibitor/virus pre-mixture and the plate was then incubated for 90 min at 4 \u00b0C before determining the extent of haemagglutination inhibition. <sentence_start/>The observed agglutination in a control well containing only 0.5 HAU of hPIV-3 and human-RBC was used to determine the concentration of the inhibitor that reduced the haemagglutination activity (agglutination) by 50% compared to those of a non-treated virus suspension. <sentence_start/>A similar observed agglutination as in the control well (0.5 HAU of hPIV-3) was considered as the HI IC<sub>50</sub> value for each respective inhibitor."
+  },
+  {
+   "section": "article",
+   "text": "<italic>In situ</italic> ELISA"
+  },
+  {
+   "section": "article",
+   "text": "This technique was extensively used in previous studies<sup><citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1038/ncomms6268\" pmid=\"25327774\" count=\"1\">10</citation></sup>, to assess dose-dependent potency of compounds to inhibit virus growth by measuring expression levels of hPIV-3 HN at the cell surface of an infected cell monolayer. <sentence_start/>This method is shortly summarized here; infection was performed with 100 FFU/well of hPIV-3 for 1 h at 37 \u00b0C with gentle agitation every 15 min on a confluent A549 monolayer seeded in a 96 well-plate. <sentence_start/>Assays were performed in triplicate; inocula were removed and replaced with respective compound dilutions (final concentration of 0.001 \u03bcM to 1000 \u03bcM). <sentence_start/>Virus proliferation was allowed at 37 \u00b0C, 5% CO<sub>2</sub> for 36-40 h. <sentence_start/>Virus was inactivated and cells were fixed by treatment with 4% paraformaldehyde in PBS for 20 min. <sentence_start/>Next, 0.3% H<sub>2</sub>O<sub>2</sub>/PBS (final concentration) was added to inactivate endogenous peroxidases at 37 \u00b0C for 30 min. <sentence_start/>1:2000 dilution of mouse monoclonal IgG anti-hPIV-3HN (Fitzgerald, clone# M02122321, 2.0 mg/mL) in 5% milk/PBS was incubated with the cells for 1 h at 37 \u00b0C, followed by an incubation of 1:2000 dilution of goat anti- Mouse-IgG(H + L)-HRP conjugate (BioRad, ref# 170-6516) in 5% milk/PBS for 1 h at 37 \u00b0C. BD OptEIATMB substrate (BD Biosciences, San Jose, CA, 100 \u03bcL) was added to virus-infected cells and the reaction was stopped after 3-5 min by addition of 1 M H<sub>2</sub>SO<sub>4</sub> (50 \u03bcL). <sentence_start/>The initial absorbance (OD) of each well was read at 450 nm for 0.1 s using a Victor 3 multilabel reader. <sentence_start/>The negative control (non-infected cells) OD was subtracted from the initial ODs and final OD values were analyzed with GraphPadPrism4 to calculate IC<sub>50</sub> values. <sentence_start/>The IC<sub>50</sub> value was considered as the concentration of inhibitor that reduced the absorbance at 450 nm by 50% compared to a non-treated infected cell monolayer."
+  },
+  {
+   "section": "article",
+   "text": "Cytotoxicity assay"
+  },
+  {
+   "section": "article",
+   "text": "The cytotoxcity of all compounds, described in cell-based infection assays, was assessed by incubating the inhibitors at two different concentrations (30 \u00b5M and 300 \u00b5M) with the human cell line A549 for 48 h. <sentence_start/>The cell viability was measured by adding AlamarBlue\u00ae (life technologies) reagent as 10% of the sample volume to the cells and incubate them for 4 h at 37 \u00b0C, following fluorescence was read at 570 nm with a BioRad plate reader."
+  },
+  {
+   "section": "article",
+   "text": "Recombinant HN expression and purification"
+  },
+  {
+   "section": "article",
+   "text": "The ectodomain of the haemagglutinin-neuraminidase protein from human parainfluenza virus type 3 Washington/1957 C243 was expressed using the Bac-to-Bac<sup>\u00ae</sup> baculovirus expression system (Invitrogen, Carlsbad, CA). <sentence_start/>The nucleotide sequence for a honeybee melittin signal peptide (HBM) was added downstream to the sequence encoding for the HN ectodomain (amino acids 125 to 572). <sentence_start/>This sequence (HBM + HN) was codon optimised for expression in <italic>Spodoptera frugiperda</italic> cells (Sf9) and ordered directly through the DNA2.0 gene synthesis service (DNA2.0, Menlo Park, CA) as a gene named HBM-HNhPIV-3opt. <sentence_start/>HBM-HNhPIV-3opt was amplified by PCR and ligated into a pFastBac\u2044CT-TOPO\u00ae vector that provides an additional C-terminal 6-histidine tag (His-Tag) for purification and detection purposes. <sentence_start/>The generation and amplification of recombinant baculovirus containing HBM-HNhPIV-3opt were performed according to the manufacturer\u2019s instructions. <sentence_start/>Sf9 cells (Invitrogen), cultured in Insect-XPRESS protein free insect cell medium (Lonza), were infected with high MOI of HBM-HNhPIV-3opt baculovirus. <sentence_start/>Four days post-infection the supernatant, containing recombinant HN, was collected to yield the highest protein expression. <sentence_start/>The supernatant was clarified by centrifugation (3000 RCF for 15 min) to remove cell debris and then purified on a HisTrap excel 5 mL column (GE Healthcare life sciences, Buckinghamshire, England) following the manufacturer\u2019s protocol. <sentence_start/>Recombinant HN was eluted with 500 mM imidazole solution and collected fractions were assessed by a neuraminidase activity (NA) assay (see below). <sentence_start/>The most active fractions were pooled and concentrated with a 10 kDa Amicon Ultra filter unit (Millipore) to a final volume of 800 \u03bcL. <sentence_start/>An additional purification step was performed that employed fast protein liquid chromatography (Amersham Biosciences) over a Superdex 75 gel filtration column (GE Healthcare) at 4 \u00b0C and 1 mL fractions were collected with a Frac-920. <sentence_start/>Protein-containing fractions, as determined by monitoring fraction collection at 280 nm, were assessed in a NA assay as well as subjected to SDS-PAGE. <sentence_start/>Purified and concentrated recombinant HN protein was stored at 4 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Crystallization of hPIV-3 HN co-complexes"
+  },
+  {
+   "section": "article",
+   "text": "The 4 mg/mL hPIV-3 HN protein stock solution was pre-incubated with a final concentration of 1 mM inhibitor <bold>5</bold> or 1.5 mM inhibitor <bold>6</bold> in 0.1 M citrate buffer pH 4.6, 0.2 M ammonium sulfate and 15% PEG 3000. <sentence_start/>Crystallization trials were set up as 2 \u00b5L pre-incubated stock solution using the hanging drop vapour diffusion method. <sentence_start/>The drop was equilibrated against a 500 \u00b5L reservoir (0.1 M citrate buffer pH 4.6, 0.2 M ammonium sulfate and 15% PEG 3000). <sentence_start/>The crystals were mounted in nylon loops (Hampton Research) and flash frozen at 100 K in a cryoprotectant solution containing 20% glycerol in addition to the precipitant solution."
+  },
+  {
+   "section": "article",
+   "text": "Data collection and structure determination"
+  },
+  {
+   "section": "article",
+   "text": "X-ray diffraction data were collected at the Photon Factory AR-NW12A<citation ref-type=\"bibr\" rid=\"CR31\" doi=\"10.1107/S0909049512009727\" pmid=\"22514184\" count=\"1\"><sup>31</sup></citation> and BL5A beam lines (Japan) at a wavelength of 1.000 \u00c5. <sentence_start/>Images for the complex hPIV-3 HN-<bold>5</bold> were recorded on an ADSC Q315r CCD detector using 5 s exposure per 0.5\u00b0 oscillation angles. <sentence_start/>In case of hPIV-3 HN-<bold>6</bold>, images were recorded on an ADSC Q210r CCD detector using a 5 s exposure per 1\u00b0 oscillation angles. <sentence_start/>The data were reduced and scaled using XDS<citation ref-type=\"bibr\" rid=\"CR32\" doi=\"10.1107/S0907444909047337\" pmid=\"20124692\" pmcid=\"PMC2815665\" count=\"1\"><sup>32</sup></citation> and CCP4 (ref. <citation ref-type=\"bibr\" rid=\"CR33\" doi=\"10.1107/S0907444903008126\" pmid=\"12832755\" count=\"1\">33</citation>) program suites. <sentence_start/>The hPIV-3 HN co-complexes were determined by molecular replacement using Phaser<citation ref-type=\"bibr\" rid=\"CR34\" doi=\"10.1107/S0021889807021206\" pmid=\"19461840\" pmcid=\"PMC2483472\" count=\"1\"><sup>34</sup></citation> from the Phenix suite<citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1107/S0907444909052925\" pmcid=\"PMC2815670\" pmid=\"20124702\" count=\"1\"><sup>35</sup></citation> employing the atomic coordinates of hPIV-3 HN (PDB ID: 4XJQ) as the search model. <sentence_start/>Coot<citation ref-type=\"bibr\" rid=\"CR36\" doi=\"10.1107/S0907444904019158\" pmid=\"15572765\" count=\"1\"><sup>36</sup></citation>, Refmac5<citation ref-type=\"bibr\" rid=\"CR37\" doi=\"10.1107/S0907444994003112\" pmid=\"15299374\" count=\"1\"><sup>37</sup></citation> and Phenix.refine<citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1107/S0907444909052925\" pmcid=\"PMC2815670\" pmid=\"20124702\" count=\"1\"><sup>35</sup></citation> were employed for initial restrained, model-building and further cycles of refinement. <sentence_start/>The final models were confirmed and validated through the Molprobity<citation ref-type=\"bibr\" rid=\"CR38\" doi=\"10.1107/S0907444909042073\" pmid=\"20057044\" pmcid=\"PMC2803126\" count=\"1\"><sup>38</sup></citation> server. <sentence_start/>X-ray data collection statistics are summarized in Supplementary Table 1. Atomic coordinates and structure factors have been deposited in the Protein Data Bank (PDB) under the accession codes 5KV8 and 5KV9 for the hPIV-3 HN-<bold>5</bold> and hPIV-3 HN-<bold>6</bold> complex structures, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Structures of co-crystallized complexes with inhibitor <bold>6</bold> belonged to the <italic>P</italic>212121 space-group with unit cell dimensions of 81.57 \u00c5 \u00d7 98.61 \u00c5 \u00d7 103.39 \u00c5 and had two protein molecules per asymmetric unit as previously described for the <italic>apo</italic>-hPIV-3 HN structure (PDB accession code: 4XJQ)<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\"><sup>9</sup></citation> and for all reported hPIV-3 HN complexes to date<sup><citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1002/anie.201412243\" pmid=\"25676091\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/j.jmb.2003.11.032\" pmid=\"14729348\" count=\"1\">21</citation>, <citation ref-type=\"bibr\" rid=\"CR26\" doi=\"10.1016/j.antiviral.2015.08.014\" pmid=\"26364554\" count=\"1\">26</citation>, <citation ref-type=\"bibr\" rid=\"CR39\" doi=\"10.1128/mBio.00803-13\" pmid=\"24149514\" pmcid=\"PMC3812707\" count=\"1\">39</citation></sup>. <sentence_start/>In contrast, for the first time, structures of co-crystallized complexes with compound <bold>5</bold> were found to belong to the <italic>C</italic>2221 space-group with unit cell dimensions of 80.10 \u00c5 \u00d7 107.37 \u00c5 \u00d7 94.49 \u00c5 and one protein molecule per asymmetric unit was observed. <sentence_start/>The structure of the <italic>C</italic>2221 crystal form was determined by the molecular replacement method using a monomer of apo-hPIV3-HN (PDB accession code: 4XJQ) as a search model. <sentence_start/>Analysis of the <italic>P</italic>212121 and <italic>C</italic>2221 crystal forms revealed that the overall packing of molecules are the same, but ligand induced conformational differences in the active site region of hPIV3-HN lead to a change in the symmetry axis between the molecules in the protein biological dimer from non-crystallographic in the <italic>apo</italic> form to crystallographic in the ligand-bound form resulting in a <italic>C</italic>2221 space-group."
+  },
+  {
+   "section": "article",
+   "text": "Electronic supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Ibrahim M. El-Deeb, Patrice Guillon and Mark von Itzstein jointly supervised this work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Electronic supplementary material</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Supplementary information</bold> accompanies this paper at doi:10.1038/s41598-017-04656-y"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "M.v.<sentence_start/>I., P.G. and I.E-D. supervised the project. <sentence_start/>L.D. performed biological assays and crystallographic studies. <sentence_start/>I.E-D. synthesised compounds. <sentence_start/>L.D. and L.M.G.C. collected the X-ray data sets. <sentence_start/>M.v.<sentence_start/>I. and L.D. prepared the manuscript, which was reviewed by all authors."
+  },
+  {
+   "section": "back",
+   "text": "Competing Interests"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare that they have no competing interests."
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "pmid": 36405889,
+ "pmcid": 9643052,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Comparison of crystal structure and DFT calculations of triferrocenyl trithiophosphite\u2019s conformance"
+  },
+  {
+   "section": "abstract",
+   "text": "A triferrocenyl trithiophosphite was studied by X-ray single-crystal diffraction. <sentence_start/>Triferrocenyl trithiophosphite has nine axes of internal rotation: three P-S bonds, three C-S bonds and three Fe-cyclopentadienyl axes. <sentence_start/>Rotation around the P-S bonds results in a totally asymmetric structure with three ferrocenylthio groups exhibiting different orientations towards the phosphorus lone electron pair (LEP). <sentence_start/>A comparison of DFT calculations and X-ray diffraction data is presented, herein we show which conformations are preferred for a given ligand."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The design of novel \u201cstimuli-responsive\u201d molecules is a very attractive area in modern chemistry due to a number of various practical applications of such compounds [<citation rid=\"R1\" ref-type=\"bibr\" doi=\"10.1002/anie.200601067\" pmid=\"16800013\" count=\"1\">1</citation>-<citation rid=\"R6\" ref-type=\"bibr\" doi=\"10.1021/om301006v\" count=\"1\">6</citation>]. <sentence_start/>Multiferrocenes are of particular fundamental interest because of their multistep electrochemical and magnetic properties. <sentence_start/>Such switchable systems with conjugated organic fragments containing an Fe<sup>II</sup>/Fe<sup>III</sup> system were used in organic electronics as molecular switches, optoelectronic materials and in biochemistry as photonic or redox devices [<citation rid=\"R6\" ref-type=\"bibr\" doi=\"10.1021/om301006v\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A promising approach is the coordination self-assembly of multiferrocene ensembles from ferrocene-containing ligands and metal ions or clusters. <sentence_start/>This makes it possible to realize an almost infinite number of multiferrocene compounds and to select leading compounds for the successful creation of molecular electronic devices. <sentence_start/>It should be noted that with the exception of tertiary phosphines, a relatively small number of trivalent phosphorus derivatives has been used to construct multiferrocene compounds. <sentence_start/>The use of ferrocene derivatives containing a phosphorus-sulfur bond is a promising direction, since coordination with a metal atom can occur both at the phosphorus and sulfur atoms [<citation rid=\"R7\" ref-type=\"bibr\" doi=\"10.3390/molecules25040939\" pmcid=\"PMC7070987\" pmid=\"32093122\" count=\"1\">7</citation>]. <sentence_start/>It is important to know the conformational capabilities of such ligands for construction of such complexes [<citation rid=\"R8\" ref-type=\"bibr\" doi=\"10.1002/hc.20459\" count=\"1\">8</citation>-<citation rid=\"R11\" ref-type=\"bibr\" doi=\"10.1107/s0021889808042726\" pmcid=\"PMC3236671\" pmid=\"22199401\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "However, to date, XRD data on phosphorus derivatives containing a ferrocenyl substituent at the sulfur atom are presented only in oxidized and sulfurized forms. <sentence_start/>Trithiophosphite has not been studied by X-ray diffraction analysis, although it is of great interest for the construction of complexes with multiferrocene systems. <sentence_start/>Herein we present for the first time X-ray diffraction data of (FcS)<sub>3</sub>P and compare it with DFT calculations to show which conformation are preferred for a given ligand."
+  },
+  {
+   "section": "article",
+   "text": "Experimental"
+  },
+  {
+   "section": "article",
+   "text": "General"
+  },
+  {
+   "section": "article",
+   "text": "All reactions and manipulations were carried out under dry pure N<sub>2</sub> using standard Schlenk techniques. <sentence_start/>All solvents were distilled from sodium/benzophenone and stored under nitrogen before use. <sentence_start/>The NMR spectra were recorded on a Bruker MSL-400 spectrometer (<sup>1</sup>H 400 MHz, <sup>31</sup>P 161.7 MHz, <sup>13</sup>C 100.6 MHz). <sentence_start/>SiMe<sub>4</sub> was used as internal reference for <sup>1</sup>H NMR chemical shifts, and 85% H<sub>3</sub>PO<sub>4</sub> as external reference for <sup>31</sup>P NMR. <sentence_start/>The elemental analyses were carried out at the microanalysis laboratory of the Arbuzov Institute of Organic and Physical Chemistry, Russian Academy of Sciences."
+  },
+  {
+   "section": "article",
+   "text": "Synthesis"
+  },
+  {
+   "section": "article",
+   "text": "To a suspension of white phosphorus (0.08 g, 0.645 mmol) in acetone (30 mL) were added diferrocenyldisulfide (1.68 g, 3.8 mmol) and 0.2 mL 15 N solution of potassium hydroxide. <sentence_start/>The reaction mixture was stirred for 12 h at room temperature and then the solvent was evaporated in vacuo. <sentence_start/>The product was extracted with benzene (3 \u00d7 30 mL) and after evaporation of the solvent triferrocenyl trithiophosphite (1.34 g, 76%) was obtained as a yellow powder. <sentence_start/>Single crystals suitable for X-ray diffraction were obtained by dissolving the compound in a mixture of benzene/hexane 1:1 and storing the solution in a fridge."
+  },
+  {
+   "section": "article",
+   "text": "Mp 200-203 \u00b0C; <sup>1</sup>H NMR (400 MHz, C<sub>6</sub>D<sub>6</sub>, \u03b4) 4.56 (m, 6 H<sub>\u03b2</sub>), 4.03 (m, 6 H<sub>\u03b1</sub>), 4.14 (s, 15H); <sup>31</sup>P NMR (161.7 MHz, C<sub>6</sub>D<sub>6</sub>, \u03b4) 126.6; Anal. calcd for C<sub>30</sub>H<sub>27</sub>Fe<sub>3</sub>PS<sub>3</sub> (760.37): C, 52.82; H, 3.99; P, 4.54; S, 14.09; found: C, 52.84; H, 3.96; P, 4.49; S, 14.04."
+  },
+  {
+   "section": "article",
+   "text": "Single crystal X-ray diffraction"
+  },
+  {
+   "section": "article",
+   "text": "The data set for single crystals of triferrocenyl trithiophosphite was collected on a Rigaku XtaLab Synergy S instrument with a HyPix detector and a PhotonJet microfocus X-ray tube using Cu K\u03b1 (1.54184 \u00c5) radiation at 100 K. Images were indexed and integrated using the CrysAlisPro data reduction package. <sentence_start/>The data were corrected for systematic errors and absorption using the ABSPACK module. <sentence_start/>The GRAL module was used for analysis of systematic absences and space group determination. <sentence_start/>Using Olex2 [<citation rid=\"R11\" ref-type=\"bibr\" doi=\"10.1107/s0021889808042726\" pmcid=\"PMC3236671\" pmid=\"22199401\" count=\"1\">11</citation>], the structure was solved by direct methods with SHELXT [<citation rid=\"R12\" ref-type=\"bibr\" doi=\"10.1107/s2053273314026370\" pmid=\"25537383\" pmcid=\"PMC4283466\" count=\"1\">12</citation>] and refined by the full-matrix least-squares on F<sup>2</sup> using SHELXL [<citation rid=\"R13\" ref-type=\"bibr\" doi=\"10.1107/s0108767307043930\" pmid=\"18156677\" count=\"1\">13</citation>]. <sentence_start/>Non-hydrogen atoms were refined anisotropically. <sentence_start/>The figures were generated using the Mercury 4.1 program [<citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/s002188980600731x\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Crystal data</bold> for C<sub>30</sub>H<sub>27</sub>Fe<sub>3</sub>PS<sub>3</sub> (<italic>M</italic> = 682.21 g/mol): monoclinic, space group <italic>P</italic>2<sub>1</sub>/<italic>c</italic> (no. 14), <italic>a</italic> = 7.49490(10) \u00c5, <italic>b</italic> = 19.8932(3) \u00c5, <italic>c</italic> = 18.4291(3) \u00c5, \u03b2 = 99.792(2)\u00b0, <italic>V</italic> = 2707.70(7) \u00c5<sup>3</sup>, <italic>Z</italic> = 4, <italic>T</italic> = 100.0(5) K, \u03bc(Cu <sentence_start/>K\u03b1) = 15.586 mm<sup>\u22121</sup>, <italic>D</italic><sub>calc</sub> = 1.674 g/cm<sup>3</sup>, 17211 reflections measured (6.59\u00b0 \u2264 2\u0398 \u2264 153.132\u00b0), 5496 unique (<italic>R</italic><sub>int</sub> = 0.0570, <italic>R</italic><sub>sigma</sub> = 0.0467) which were used in all calculations. <sentence_start/>The final <italic>R</italic><sub>1</sub> was 0.0496 (I &gt; 2\u03c3(I)) and <italic>wR</italic><sub>2</sub> was 0.1349 (all data). <sentence_start/>CCDC number 2201898."
+  },
+  {
+   "section": "article",
+   "text": "DFT calculations"
+  },
+  {
+   "section": "article",
+   "text": "All calculations were performed with the Gaussian 16 suite of programs [<citation rid=\"R15\" ref-type=\"bibr\" count=\"1\">15</citation>]. <sentence_start/>The hybrid PBE0 functional [<citation rid=\"R16\" ref-type=\"bibr\" doi=\"10.1063/1.478522\" count=\"1\">16</citation>] and the Ahlrichs\u2019 triple-\u03b6 def-TZVP AO basis set [<citation rid=\"R17\" ref-type=\"bibr\" doi=\"10.1039/b508541a\" pmid=\"16240044\" count=\"1\">17</citation>] were used for optimization of all structures. <sentence_start/>In all geometry optimizations, the D3 approach [<citation rid=\"R18\" ref-type=\"bibr\" doi=\"10.1063/1.3382344\" pmid=\"20423165\" count=\"1\">18</citation>] was applied to describe the London dispersion interactions as implemented in the Gaussian 16 program."
+  },
+  {
+   "section": "article",
+   "text": "Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Previous electrochemical studies for triferrocenyl trithiophosphite revealed in their cyclovoltammograms three reversible one-electron peaks corresponding to stepwise oxidation of the three ferrocene moieties. <sentence_start/>It should be noted that the first oxidation potential is almost identical to free ferrocene [<citation rid=\"R6\" ref-type=\"bibr\" doi=\"10.1021/om301006v\" count=\"1\">6</citation>]. <sentence_start/>Herein we report the crystal structure of triferrocenyl trithiophosphite."
+  },
+  {
+   "section": "article",
+   "text": "For triferrocenyl trithiophosphite a <italic>trans</italic>-<italic>gauche</italic>-<italic>gauche</italic> configuration with torsion angles of \u221234\u00b0, \u221240\u00b0, and 173\u00b0, respectively, has been observed, although a propeller-like <italic>gauche</italic>-<italic>gauche</italic>-<italic>gauche</italic> configuration of alkyl(aryl)thio groups has been observed for trithiophosphites even in the solid state [<citation rid=\"R7\" ref-type=\"bibr\" doi=\"10.3390/molecules25040939\" pmcid=\"PMC7070987\" pmid=\"32093122\" count=\"1\">7</citation>] or in the gas phase [<citation rid=\"R8\" ref-type=\"bibr\" doi=\"10.1002/hc.20459\" count=\"1\">8</citation>-<citation rid=\"R10\" ref-type=\"bibr\" doi=\"10.1016/s0022-2860(00)00665-7\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Triferrocenyl trithiophosphite has nine axes of internal rotation: three P-S bonds, three C-S bonds, and three Fe-cyclopentadienyl axes. <sentence_start/>The rotation around the P-S bonds results in a totally unsymmetrical structure with three ferrocenylthio groups exhibiting different orientations towards the phosphorus lone electron pair (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "ORTEP representation of triferrocenyl trithiophosphite showing 50% probability thermal ellipsoids."
+  },
+  {
+   "section": "article",
+   "text": "Several possible conformations of triferrocenyl trithiophosphite have been considered quantum-chemically (Figure 2, Table 1): <italic>trans</italic>-<italic>trans</italic>-<italic>trans</italic> (<italic>ttt</italic>), <italic>gauche</italic>-<italic>trans</italic>-<italic>trans</italic> (<italic>gtt</italic>), <italic>gauche</italic>-<italic>gauche</italic>-<italic>trans</italic> (<italic>ggt</italic>), and <italic>gauche</italic>-<italic>gauche</italic>-<italic>gauche</italic> (<italic>ggg</italic>). <sentence_start/>During optimization the <italic>ggt</italic> conformer adopted a <italic>cis</italic>-<italic>gauche</italic>-<italic>trans</italic> conformation with Fc(C)-S-P lone pair dihedral angles of 8\u00b0, \u221260\u00b0, and 173\u00b0, respectively (Table 1). <sentence_start/>The lowest energy has been predicted for the <italic>gtt</italic> conformer, nevertheless the energy differences between the <italic>gtt</italic> and <italic>cgt</italic> conformers are negligible (0.23 kcal/mol). <sentence_start/>Interestingly, the <italic>cgt</italic> conformation has been found previously for tricymantrenyl trithiophosphite [<citation rid=\"R19\" ref-type=\"bibr\" doi=\"10.1002/(sici)1099-0682(200001)2000:1&lt;225::aid-ejic225&gt;3.0.co;2-u\" count=\"1\">19</citation>]. <sentence_start/>The highest relative energy is predicted for the <italic>ggg</italic> conformer (1.7 kcal/mol). <sentence_start/>The ferrocene adopts an almost eclipsed conformation in all the models with the dihedral angle between two Cp rings of \u2248 10\u00b0. <sentence_start/>Our previous work indicated that Cp can rotate at room temperature [<citation rid=\"R20\" ref-type=\"bibr\" doi=\"10.1021/acs.cgd.7b00588\" count=\"1\">20</citation>]. <sentence_start/>The Fc(C)-S-P lone pair dihedral angle for the <italic>ttt</italic> conformer is \u2248 150\u00b0, and for the <italic>ggg</italic> conformer it is \u2248 \u221235\u00b0. <sentence_start/>For the <italic>gtt</italic>/<italic>cgt</italic> conformers the <italic>trans</italic> S-Fc bonds are almost antiparallel to the phosphorus lone pair (LEP): 175\u00b0, \u2212161\u00b0/173\u00b0. <sentence_start/>The dihedral angle for the <italic>gauche</italic> S-Fc bond in the <italic>gtt</italic> conformer is \u221256\u00b0, and a close value is predicted for one of the <italic>gauche</italic> S-Fc bonds in the <italic>tgg</italic> conformer (\u221260\u00b0), whereas the second one is almost parallel to LEP (8\u00b0)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Optimized conformations and relative energies of four possible conformers of triferrocenyl trithiophosphite."
+  },
+  {
+   "section": "article",
+   "text": "The energy difference between the considered conformations is quite small, suggesting other factors playing a significant role. <sentence_start/>The highest energy predicted for the <italic>ggg</italic> conformer is obviously related to the absence of stabilizing intramolecular CH\u00b7\u00b7\u00b7\u03c0 (like in the <italic>gtt</italic> and <italic>cgt</italic> cases) or CH\u00b7\u00b7\u00b7Fe (like in the <italic>ttt</italic> case) interactions between neighboring fragments in the structure. <sentence_start/>The latter plays an important role from the electrostatic point of view; the NBO analysis predict a negative charge at the Fe ion and positive charges at hydrogen atoms (Figure 3). <sentence_start/>Thus the crystal structure of (FcS)<sub>3</sub>P is defined rather by plural intermolecular interactions than by relative energetics of conformers (Figures S1-S3 in Supporting Information File 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Calculated NBO charges on the Fe ions and hydrogen atoms for the optimized <italic>ttg</italic> conformer (left) and for two neighboring molecules (right) from X-ray analysis data."
+  },
+  {
+   "section": "article",
+   "text": "Previously, for triferrocenyl trithiophosphate and triferrocenyl tetrathiophosphate with P=O and P=S moieties propeller-like <italic>ggg</italic> conformations have been found by X-ray diffraction analysis. <sentence_start/>Indeed, computations predict the <italic>ggg</italic> conformer to be the most energetically advantageous for the P=S containing compound, however with very close energies of the <italic>ttt</italic> and the <italic>ggg</italic> conformers (Table 1). <sentence_start/>For the P=O containing compound the <italic>ttt</italic> conformer is predicted to have the lowest energy. <sentence_start/>Nevertheless for both P=X compounds computations predict very small energy differences between all four conformers, lower than 0.6 kcal/mol. <sentence_start/>Thus, one can conclude that in these cases crystal packing influences the conformation. <sentence_start/>A comparison of the crystal packings for the P<sub>LEP</sub>, P=O, and P=S containing compounds clearly confirms this conclusion experimentally (Figure 4)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Molecular structures in the solid state of a) (FcS)<sub>3</sub>P, b) (FcS)<sub>3</sub>PO [<citation rid=\"R19\" ref-type=\"bibr\" doi=\"10.1002/(sici)1099-0682(200001)2000:1&lt;225::aid-ejic225&gt;3.0.co;2-u\" count=\"1\">19</citation>], and c) (FcS)<sub>3</sub>PS [<citation rid=\"R7\" ref-type=\"bibr\" doi=\"10.3390/molecules25040939\" pmcid=\"PMC7070987\" pmid=\"32093122\" count=\"1\">7</citation>] as established by single crystal X-ray diffraction analyses. <sentence_start/>C atoms - grey, Fe atoms - brown, O atoms - red, P atoms - orange, S atoms - yellow."
+  },
+  {
+   "section": "article",
+   "text": "We compared the crystal packings of three similar compounds: (FcS)<sub>3</sub>P, (FcS)<sub>3</sub>PO [<citation rid=\"R19\" ref-type=\"bibr\" doi=\"10.1002/(sici)1099-0682(200001)2000:1&lt;225::aid-ejic225&gt;3.0.co;2-u\" count=\"1\">19</citation>], and (FcS)<sub>3</sub>PS [<citation rid=\"R7\" ref-type=\"bibr\" doi=\"10.3390/molecules25040939\" pmcid=\"PMC7070987\" pmid=\"32093122\" count=\"1\">7</citation>] (Figure 4). <sentence_start/>All three compounds form crystals belonging to the monoclinic syngony. <sentence_start/>In all three cases, the molecules in the crystals form a herringbone motif. <sentence_start/>In (FcS)<sub>3</sub>P, C-H\u00b7\u00b7\u00b7\u03c0 interactions dominate, while in (FcS)<sub>3</sub>PS and (FcS)<sub>3</sub>PO, in addition to C-H\u00b7\u00b7\u00b7\u03c0 interactions, by one C-H\u00b7\u00b7\u00b7S and two C-H\u00b7\u00b7\u00b7O interactions, respectively, are observed. <sentence_start/>It should be noted that (FcS)<sub>3</sub>PO crystals contain a solvent molecule that participates in intermolecular interactions. <sentence_start/>Thus, despite the similarity of the molecular structure of the three compounds and some crystal parameters, the intermolecular interactions differ noticeably from each other."
+  },
+  {
+   "section": "article",
+   "text": "At the same time one should underline the role of the ferrocene moiety for the crystal structure of the (FcS)<sub>3</sub>P. The related (PhS)<sub>3</sub>P molecule with Ph rings instead of Fc units exist in the propeller-like <italic>gauche</italic>-<italic>gauche</italic>-<italic>gauche</italic> configuration [<citation rid=\"R21\" ref-type=\"bibr\" count=\"1\">21</citation>], forming the C-H\u00b7\u00b7\u00b7\u03c0-bonded dimers (Figures S4 and S5 in Supporting Information File 1). <sentence_start/>The computations of the relative energies of five possible conformers of (PhS)<sub>3</sub>P (<italic>ggg</italic>, <italic>ttt</italic>, <italic>ttg</italic>, <italic>ggt</italic>, <italic>ccg</italic>) predict the lowest energy for the <italic>ccg</italic> conformation (Figure 5). <sentence_start/>The propeller-like <italic>ggg</italic> conformer found in the solid state has the highest energy. <sentence_start/>Most obviously the latter is stabilized by intermolecular C-H\u00b7\u00b7\u00b7\u03c0 interactions (Figures S4 and S5 in Supporting Information File 1). <sentence_start/>The bulky Fc moieties do not allow to form such type of dimers."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Quantum chemically optimized conformations of the (PhS)<sub>3</sub>P molecule and their relative energies (kcal/mol)."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Triferrocenyl trithiophosphite (FcS)<sub>3</sub>P was studied by X-ray single-crystal diffraction for the first time. <sentence_start/>DFT calculations and X-ray diffraction data were compared, and the preferred conformations were established. <sentence_start/>Despite the similarity of the molecular structures and some crystal parameters of (FcS)<sub>3</sub>P, (FcS)<sub>3</sub>PO, and (FcS)<sub>3</sub>PS, the intermolecular interactions differ noticeably from each other."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "File 1"
+  },
+  {
+   "section": "article",
+   "text": "Additional figures."
+  },
+  {
+   "section": "article",
+   "text": "File 2"
+  },
+  {
+   "section": "article",
+   "text": "CIF file for triferrocenyl trithiophosphite."
+  },
+  {
+   "section": "article",
+   "text": "File 3"
+  },
+  {
+   "section": "article",
+   "text": "Check-CIF file for triferrocenyl trithiophosphite."
+  }
+ ]
+}

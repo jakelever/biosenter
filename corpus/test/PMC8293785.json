@@ -1,0 +1,395 @@
+{
+ "pmid": 34306622,
+ "pmcid": 8293785,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Geography, Host Genetics, and Cross-Domain Microbial Networks Structure the Skin Microbiota of Fragmented Brazilian Atlantic Forest Frog Populations"
+  },
+  {
+   "section": "abstract",
+   "text": "Abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "The host-associated microbiome plays a significant role in health. <sentence_start/>However, the roles of factors such as host genetics and microbial interactions in determining microbiome diversity remain unclear. <sentence_start/>We examined these factors using amplicon-based sequencing of 175 <italic>Thoropa taophora</italic> frog skin swabs collected from a naturally fragmented landscape in southeastern Brazil. <sentence_start/>Specifically, we examined (1) the effects of geography and host genetics on microbiome diversity and structure; (2) the structure of microbial eukaryotic and bacterial co-occurrence networks; and (3) co-occurrence between microeukaryotes with bacterial OTUs known to affect growth of the fungal pathogen <italic>Batrachochytrium dendrobatidis</italic> (<italic>Bd</italic>). <sentence_start/>While bacterial alpha diversity varied by both site type and host MHC IIB genotype, microeukaryotic alpha diversity varied only by site type. <sentence_start/>However, bacteria and microeukaryote composition showed variation according to both site type and host MHC IIB genotype. <sentence_start/>Our network analysis showed the highest connectivity when both eukaryotes and bacteria were included, implying that ecological interactions may occur among domains. <sentence_start/>Lastly, anti-<italic>Bd</italic> bacteria were not broadly negatively co-associated with the fungal microbiome and were positively associated with potential amphibian parasites. <sentence_start/>Our findings emphasize the importance of considering both domains in microbiome research and suggest that for effective probiotic strategies for amphibian disease management, considering potential interactions among all members of the microbiome is crucial."
+  },
+  {
+   "section": "abstract",
+   "text": "We use a natural laboratory to examine the relationship between host genetic diversity, bacterial diversity, and microeukaryote diversity in the skin microbiome of a Brazilian frog. <sentence_start/>We find that host immunogenetic diversity is associated with variation in microbiome diversity and structure, and present results that support novel associations between microeukaryotes and bacteria on frog skin. <sentence_start/>Our results have implications for the relationships between host genetics and health mediated through microbiome diversity and structure."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "BACKGROUND"
+  },
+  {
+   "section": "article",
+   "text": "The host-associated microbiome has recently captured the attention of wildlife disease researchers seeking to understand and predict disease-associated wildlife declines. <sentence_start/>In particular, skin microbiome research is burgeoning in the field of amphibian disease. <sentence_start/>A majority of amphibian disease studies focus on chytridiomycosis caused by the pathogenic fungus <italic>Batrachochytrium dendrobatidis</italic> (<italic>Bd</italic>). <sentence_start/><italic>Bd</italic> has been linked to severe amphibian declines around the world since at least the 1970s (Olson et al., <citation rid=\"ece37594-bib-0065\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0056802\" pmcid=\"PMC3584086\" pmid=\"23463502\" count=\"1\">2013</citation>; Scheele et al., <citation rid=\"ece37594-bib-0072\" ref-type=\"bibr\" doi=\"10.1126/science.aav0379\" pmid=\"30923224\" count=\"1\">2019</citation>; Lips et al., <citation rid=\"ece37594-bib-0058\" ref-type=\"bibr\" doi=\"10.1073/pnas.0506889103\" pmcid=\"PMC1413869\" pmid=\"16481617\" count=\"1\">2006</citation>; Carvalho et al., <citation rid=\"ece37594-bib-0023\" ref-type=\"bibr\" doi=\"10.1098/rspb.2016.2254\" pmcid=\"PMC5310605\" pmid=\"28179514\" count=\"1\">2017</citation>). <sentence_start/>In some regions, however, no declines have been observed despite the presence of <italic>Bd</italic>. <sentence_start/>For example, plethodontid salamanders in the Eastern United States showed no evidence of disease-associated declines despite the presence of <italic>Bd</italic> in the environment (Muletz et al., <citation rid=\"ece37594-bib-0061\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0103728\" pmcid=\"PMC4118919\" pmid=\"25084159\" count=\"1\">2014</citation>). <sentence_start/>In a series of foundational studies, many of which were performed in vitro, the presence of certain bacteria cultured from salamander skin was correlated with reduced disease risk (Harris et al., <citation rid=\"ece37594-bib-0041\" ref-type=\"bibr\" doi=\"10.1007/s10393-005-0009-1\" count=\"1\">2006</citation>, <citation rid=\"ece37594-bib-0042\" ref-type=\"bibr\" doi=\"10.3354/dao02004\" pmid=\"19301631\" count=\"1\">2009</citation>; Muletz et al., <citation rid=\"ece37594-bib-0062\" ref-type=\"bibr\" doi=\"10.1016/j.biocon.2012.03.022\" count=\"1\">2012</citation>). <sentence_start/>Further studies showed that this was also the case in some anurans (Lam et al., <citation rid=\"ece37594-bib-0057\" ref-type=\"bibr\" doi=\"10.1016/j.biocon.2009.11.015\" count=\"1\">2010</citation>; Harris et al., <citation rid=\"ece37594-bib-0040\" ref-type=\"bibr\" doi=\"10.1038/ismej.2009.27\" pmid=\"19322245\" count=\"1\">2009</citation>; Vredenburg et al., <citation rid=\"ece37594-bib-0083\" ref-type=\"bibr\" count=\"1\">2011</citation>) and pointed to antifungal bacterial metabolite production as the main mechanism behind this correlation (Myers et al., <citation rid=\"ece37594-bib-0063\" ref-type=\"bibr\" doi=\"10.1007/s10886-012-0170-2\" pmid=\"22914957\" count=\"1\">2012</citation>; Woodhams et al., <citation rid=\"ece37594-bib-0087\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0096375\" pmid=\"24789229\" pmcid=\"PMC4005770\" count=\"1\">2014</citation>; Harris et al., <citation rid=\"ece37594-bib-0042\" ref-type=\"bibr\" doi=\"10.3354/dao02004\" pmid=\"19301631\" count=\"1\">2009</citation>). <sentence_start/>These findings among others gave rise to interest in characterizing amphibian skin microbiome bacteria as a correlate of <italic>Bd</italic> susceptibility, and in using \u201cprobiotic strategies\u201d (manipulating amphibian skin bacteria) to mitigate disease-associated amphibian declines in the wild (Woodhams et al., <citation rid=\"ece37594-bib-0087\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0096375\" pmid=\"24789229\" pmcid=\"PMC4005770\" count=\"1\">2014</citation>; Bletz et al., <citation rid=\"ece37594-bib-0018\" ref-type=\"bibr\" doi=\"10.1111/ele.12099\" pmid=\"23452227\" count=\"1\">2013</citation>; Voyles et al., <citation rid=\"ece37594-bib-0082\" ref-type=\"bibr\" doi=\"10.1126/science.aao4806\" pmid=\"29599242\" count=\"1\">2018</citation>; Piovia-Scott et al., <citation rid=\"ece37594-bib-0068\" ref-type=\"bibr\" doi=\"10.1007/s00248-016-0916-4\" pmid=\"28064360\" count=\"1\">2017</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "However, the potential nontarget impacts of manipulating bacteria are difficult to predict, as much remains to be understood about the diversity and assembly of the overall amphibian skin microbiome aside from the intensively studied <italic>Bd</italic> inhibitory bacteria. <sentence_start/>In particular, little is known about the ecological roles of nonbacterial taxa (but see, Kueneman et al., <citation rid=\"ece37594-bib-0056\" ref-type=\"bibr\" doi=\"10.1038/ismej.2015.168\" pmcid=\"PMC4796932\" pmid=\"26565725\" count=\"1\">2016</citation>; Kearns et al., <citation rid=\"ece37594-bib-0050\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02494\" pmid=\"29312201\" pmcid=\"PMC5735112\" count=\"1\">2017</citation>), or interactions between bacteria and skin microbial eukaryotes other than <italic>Bd</italic>. <sentence_start/>A diversity of microeukaryotes including fungi, microscopic metazoans, and protists have been identified on amphibian skin using high-throughput sequencing (Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>; Kueneman et al., <citation rid=\"ece37594-bib-0055\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02350\" pmid=\"29276502\" pmcid=\"PMC5727676\" count=\"1\">2017</citation>). <sentence_start/>In previous studies, fungi comprised the dominant eukaryotic taxon on adult amphibians (Kueneman et al., <citation rid=\"ece37594-bib-0056\" ref-type=\"bibr\" doi=\"10.1038/ismej.2015.168\" pmcid=\"PMC4796932\" pmid=\"26565725\" count=\"1\">2016</citation>) and exhibited greater efficacy in Bd inhibition compared with bacteria (Kearns et al., <citation rid=\"ece37594-bib-0050\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02494\" pmid=\"29312201\" pmcid=\"PMC5735112\" count=\"1\">2017</citation>). <sentence_start/>Although little is known about the ecological roles of these fungi in the amphibian skin microbiome, symbiotic fungi are known to aid in protection against fungal pathogens in other host-microbial systems (Gao et al., <citation rid=\"ece37594-bib-0034\" ref-type=\"bibr\" count=\"1\">2010</citation>; Newsham et al., <citation rid=\"ece37594-bib-0064\" ref-type=\"bibr\" doi=\"10.2307/2261180\" count=\"1\">1995</citation>). <sentence_start/>Fungi in the amphibian skin microbiome may also serve as hyperparasites, that is, parasites of pathogens/parasites. <sentence_start/>For example, the cryptomycete fungus <italic>Rozella</italic> parasitizes chytrid fungi (Gleason et al., <citation rid=\"ece37594-bib-0036\" ref-type=\"bibr\" doi=\"10.1016/j.funeco.2012.05.003\" count=\"1\">2012</citation>). <sentence_start/>Less is known about the symbiotic roles of host-associated protists, although microbiome eukaryotes on the whole have been shown to impact health (Hoffmann et al., <citation rid=\"ece37594-bib-0046\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.003197\" pmcid=\"PMC3885435\" pmid=\"24421875\" count=\"1\">2014</citation>; Holler et al., <citation rid=\"ece37594-bib-0047\" ref-type=\"bibr\" doi=\"10.1016/j.bbmt.2014.01.030\" pmid=\"24492144\" pmcid=\"PMC4973578\" count=\"1\">2014</citation>) and immune function (Graham, <citation rid=\"ece37594-bib-0037\" ref-type=\"bibr\" doi=\"10.1073/pnas.0707221105\" pmcid=\"PMC2206576\" pmid=\"18182496\" count=\"1\">2008</citation>) in mammals. <sentence_start/>Thus, microbiome eukaryotes may significantly impact disease susceptibility in vertebrates, including amphibians. <sentence_start/>Without an understanding of the interactions between microbiome eukaryotes and bacteria, it is impossible to predict the potential microbiome-wide effects of proposed <italic>Bd</italic> control measures that involve manipulating microbiome bacteria."
+  },
+  {
+   "section": "article",
+   "text": "In addition, few studies to date have examined the genetic mechanisms that determine host-associated microbiome assembly and diversity. <sentence_start/>From research on mammals, it is known that microbiome assembly and diversity can covary with overall host genetic diversity (Benson et al., <citation rid=\"ece37594-bib-0013\" ref-type=\"bibr\" doi=\"10.1073/pnas.1007028107\" pmcid=\"PMC2973891\" pmid=\"20937875\" count=\"1\">2010</citation>) as well as host immunogenetics (Marietta et al., <citation rid=\"ece37594-bib-0059\" ref-type=\"bibr\" doi=\"10.1111/imm.12474\" pmid=\"25913295\" pmcid=\"PMC4479531\" count=\"1\">2015</citation>; Blekhman et al., <citation rid=\"ece37594-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s13059-015-0759-1\" pmid=\"26374288\" pmcid=\"PMC4570153\" count=\"1\">2015</citation>), with the latter relationship hypothetically resulting from interactions between immune cells and microbes including commensals and pathogens. <sentence_start/>In amphibians, previous studies have demonstrated that geography, host identity, and developmental stage can influence skin microbiome diversity (Walke et al., <citation rid=\"ece37594-bib-0084\" ref-type=\"bibr\" doi=\"10.1038/ismej.2014.77\" pmcid=\"PMC4992085\" pmid=\"24858782\" count=\"1\">2014</citation>; Griffiths et al., <citation rid=\"ece37594-bib-0039\" ref-type=\"bibr\" doi=\"10.1038/s41396-018-0167-0\" pmcid=\"PMC6155040\" pmid=\"29942072\" count=\"1\">2018</citation>; Kueneman et al., <citation rid=\"ece37594-bib-0054\" ref-type=\"bibr\" doi=\"10.1111/mec.12510\" pmid=\"24171949\" count=\"1\">2014</citation>). <sentence_start/>Yet only a single study to date has linked amphibian skin microbiome diversity with overall host genetic variability (Griffiths et al., <citation rid=\"ece37594-bib-0039\" ref-type=\"bibr\" doi=\"10.1038/s41396-018-0167-0\" pmcid=\"PMC6155040\" pmid=\"29942072\" count=\"1\">2018</citation>). <sentence_start/>Although no studies have directly examined the relationship between immunogenetics and microeukaryote diversity or structure in amphibians, an experimental study on the laboratory model frog <italic>Xenopus laevis</italic> suggested that MHC (major histocompatibility complex) immunogenes may determine the ability of hosts to tolerate different microbes (Barribeau et al., <citation rid=\"ece37594-bib-0007\" ref-type=\"bibr\" doi=\"10.1098/Rsbl.2011.0845\" pmid=\"22114322\" pmcid=\"PMC3367720\" count=\"1\">2012</citation>). <sentence_start/>The relationship between immunogenes and the amphibian host-associated microbiome remains to be explored and is increasingly relevant for wild amphibian populations threatened by emerging disease."
+  },
+  {
+   "section": "article",
+   "text": "In a number of amphibian species, genetic diversity has been compromised due to anthropogenic habitat fragmentation (Allentoft &amp; O\u2019Brien, <citation rid=\"ece37594-bib-0003\" ref-type=\"bibr\" doi=\"10.3390/d2010047\" count=\"1\">2010</citation>). <sentence_start/>Although it is unknown to what extent habitat fragmentation impacts the amphibian skin microbiome, genetic erosion in fragmented amphibian populations has been observed at neutral loci as well as immunogenetic regions (Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>) which may have implications for microbiome structure (Blekhman et al., <citation rid=\"ece37594-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s13059-015-0759-1\" pmid=\"26374288\" pmcid=\"PMC4570153\" count=\"1\">2015</citation>). <sentence_start/>In addition, fragmentation may cause a decline in microbial transmission, which in turn may alter microbial interactions and networks in host-associated microbiomes (Rebollar et al., <citation rid=\"ece37594-bib-0070\" ref-type=\"bibr\" doi=\"10.1128/AEM.04147-15\" pmcid=\"PMC4959476\" pmid=\"26873311\" count=\"1\">2016</citation>; Adair &amp; Douglas, <citation rid=\"ece37594-bib-0002\" ref-type=\"bibr\" doi=\"10.1016/j.mib.2016.11.002\" pmid=\"27907842\" count=\"1\">2017</citation>). <sentence_start/>However, the effects of habitat fragmentation on wildlife are subject to time lags (Tilman et al., <citation rid=\"ece37594-bib-0077\" ref-type=\"bibr\" doi=\"10.1038/371065a0\" count=\"1\">1994</citation>); genetic erosion resulting from inbreeding may not be detectable for several generations following habitat fragmentation, making the impacts on genetics and related factors difficult to detect in recently fragmented populations. <sentence_start/>Historically fragmented populations offer an opportunity to examine the effects of genetic erosion on the microbiome and broader animal health."
+  },
+  {
+   "section": "article",
+   "text": "We evaluated the effects of long-term habitat fragmentation on the amphibian skin microbiome using a historically fragmented model system in the Brazilian Atlantic Forest. <sentence_start/>This system consists of dozens of land-bridge islands, which were naturally separated from the mainland 12,000-20,000 years ago via sea-level rise (Suguio et al., <citation rid=\"ece37594-bib-0076\" ref-type=\"bibr\" count=\"1\">2005</citation>) and thus represent ancient forest fragments. <sentence_start/>Contemporary insular frog populations were once part of contiguous coastal populations and are now functionally isolated to the islands (Duryea et al., <citation rid=\"ece37594-bib-0030\" ref-type=\"bibr\" doi=\"10.1038/hdy.2015.31\" pmid=\"25920672\" pmcid=\"PMC4814237\" count=\"1\">2015</citation>; Bell et al., <citation rid=\"ece37594-bib-0011\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2699.2012.02708.x\" count=\"1\">2012</citation>). <sentence_start/>Using this geographic setting, we examined the impacts of geography and host genetics on skin microbiome diversity and community structure in a single frog species, <italic>Thoropa taophora</italic> (Cycloramphidae), found across coastal mainland and island sites. <sentence_start/>The island populations of <italic>T. taophora</italic> have experienced fragmentation-induced genetic erosion at both neutral and immunogenetic loci (Duryea et al., <citation rid=\"ece37594-bib-0030\" ref-type=\"bibr\" doi=\"10.1038/hdy.2015.31\" pmid=\"25920672\" pmcid=\"PMC4814237\" count=\"1\">2015</citation>; Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>). <sentence_start/>Previous work also showed that island and coastal mainland populations exhibited low <italic>Bd</italic> prevalence and very low zoospore loads, suggesting low <italic>Bd</italic> susceptibility in this species (Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>). <sentence_start/>Commonly, it is hypothesized that low <italic>Bd</italic> susceptibility is associated with the presence of anti-<italic>Bd</italic> microbes. <sentence_start/>Therefore, this system offered the opportunity to ask a number of important questions about the relationships between geography, host genetics, bacteria, and eukaryotes in the skin microbiome, within the context of potential protection from <italic>Bd</italic>."
+  },
+  {
+   "section": "article",
+   "text": "We used amplicon-based high-throughput DNA sequencing to analyze bacterial and eukaryotic microbes found in skin swab samples collected from <italic>T. taophora</italic> frogs across coastal mainland and island sites. <sentence_start/>We examined the relationships between microbes, geography, and genetics, as well as the connections of microbes across domains (bacteria versus eukaryotes). <sentence_start/>We compared bacteria we recovered from <italic>T. taophora</italic> skin swabs to a database of amphibian microbiome bacterial isolates that have been previously tested for anti-<italic>Bd</italic> activity in challenge assays (Woodhams et al., <citation rid=\"ece37594-bib-0086\" ref-type=\"bibr\" doi=\"10.1890/14-1837.1\" count=\"1\">2015</citation>). <sentence_start/>Because the mechanism by which these bacteria inhibit <italic>Bd</italic> is not specific to the interaction, but works through metabolites produced by bacteria that have broad antifungal activity (Harris et al., <citation rid=\"ece37594-bib-0040\" ref-type=\"bibr\" doi=\"10.1038/ismej.2009.27\" pmid=\"19322245\" count=\"1\">2009</citation>), this database may be used as a proxy for antifungal inhibitory compound production. <sentence_start/>We used this database to identify which of the bacteria on <italic>T. taophora</italic> skin matched bacterial OTUs that were previously identified as <italic>Bd</italic> inhibitory, <italic>Bd</italic> enhancing, and having no effect on <italic>Bd</italic>, and evaluated whether these categories explained co-occurrence patterns between these bacteria and (non-<italic>Bd</italic>) microeukaryotes found in the <italic>T. taophora</italic> microbiome. <sentence_start/>Our study was designed to address the following research questions: (a) Does geography and/or host genetic diversity structure the microbiome community? (b) How is bacterial diversity and community assembly related to microeukaryotic diversity and community assembly in the skin microbiome? (c) Do bacteria that affect <italic>Bd</italic> growth have predictable associations with other skin microeukaryotes that could result in unintended consequences if probiotic anti-<italic>Bd</italic> bacteria are applied to frog skin?"
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "METHODS"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Study system and field sampling"
+  },
+  {
+   "section": "article",
+   "text": "The focal species for this study is <italic>Thoropa taophora</italic>, a cycloramphid frog with a unique tolerance for coastal habitat that allows a wide distribution across the coastal Atlantic Forest of S\u00e3o Paulo State (Duryea et al., <citation rid=\"ece37594-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/j.1471-8286.2007.02039.x\" pmid=\"21585864\" count=\"1\">2008</citation>). <sentence_start/>Adult <italic>T. taophora</italic> frogs (<italic>n</italic> = 175 total) were sampled from each of ten study populations: seven island populations and three coastal mainland populations (Figure 1, Table 1; SISBio collection permit 27745-13). <sentence_start/>Genetic diversity is lower in island <italic>T. taophora</italic> populations relative to coastal mainland populations, both at neutral (microsatellite) loci (Duryea et al., <citation rid=\"ece37594-bib-0030\" ref-type=\"bibr\" doi=\"10.1038/hdy.2015.31\" pmid=\"25920672\" pmcid=\"PMC4814237\" count=\"1\">2015</citation>) as well as at the MHC IIB immunogenetic locus (Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>). <sentence_start/>To examine how host genetics impact skin microbiome diversity, skin swab samples were analyzed from the same individuals that were previously genotyped at MHC IIB (see Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>). <sentence_start/>Prior to tissue collection, frogs were thoroughly washed with sterile (autoclaved) distilled water and then swabbed on the ventral surface using standard protocols that minimize cross-contamination (Bletz, Vences, et al., <citation rid=\"ece37594-bib-0049\" ref-type=\"bibr\" doi=\"10.3354/dao073175\" pmid=\"17330737\" count=\"1\">2017</citation>). <sentence_start/>Swabs and tissue samples were stored in 70% ethanol in sterile microcentrifuge tubes before laboratory processing. <sentence_start/>DNA was extracted from swabs using a Qiagen DNeasy Blood and Tissue kit, and DNA extracts were stored at \u221220\u00b0C prior to further molecular work."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 1"
+  },
+  {
+   "section": "article",
+   "text": "Locations of <italic>Thoropa taophora</italic> sampling sites on the coast and islands of S\u00e3o Paulo, Brazil. <sentence_start/>Red circles indicate islands, and white triangles indicate coastal (mainland) sites. <sentence_start/>Site information including full site names, two-letter codes, latitude/longitude, and frog sample size can be found in Table 1"
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Microbiome sequencing and bioinformatic processing"
+  },
+  {
+   "section": "article",
+   "text": "Individual swab DNA extracts were PCR-amplified, pooled, and sequenced on the Illumina MiSeq platform (250 bp paired-end reads) in two assays: (a) barcoded 16S primers 515F and 806R (Vences et al., <citation rid=\"ece37594-bib-0080\" ref-type=\"bibr\" doi=\"10.1007/s00114-016-1348-1\" pmid=\"26924012\" count=\"1\">2016</citation>) were used to examine bacterial diversity; and (b) barcoded 18S v4 primers TAReuk454FWD1 and TAReukREV3 (Stoeck et al., <citation rid=\"ece37594-bib-0075\" ref-type=\"bibr\" doi=\"10.1111/j.1365-294X.2009.04480.x\" pmid=\"20331767\" count=\"1\">2010</citation>) were used to examine microeukaryote diversity. <sentence_start/>16S libraries were constructed at the Universidade Estadual Paulista (BR) and sequenced at the Tufts University Core facility (USA) while 18S library preparation and sequencing were performed at the University of Michigan (USA). <sentence_start/>Negative (template-free) controls were run simultaneously with each sequencing library to ensure there was no contamination from PCR or sequencing reagents."
+  },
+  {
+   "section": "article",
+   "text": "Sequences were quality-filtered and processed using the Quantitative Insights into Microbial Ecology (QIIME) MiSeq pipeline using default settings (Caporaso et al., <citation rid=\"ece37594-bib-0022\" ref-type=\"bibr\" doi=\"10.1038/nmeth.f.303\" pmid=\"20383131\" pmcid=\"PMC3156573\" count=\"1\">2010</citation>). <sentence_start/>As no mock community was included as a positive sequencing control, low abundance OTUs were filtered from the dataset using a conservative abundance threshold (&lt;0.005% of all reads) (Bokulich et al., <citation rid=\"ece37594-bib-0020\" ref-type=\"bibr\" doi=\"10.1038/nmeth.2276\" pmid=\"23202435\" pmcid=\"PMC3531572\" count=\"1\">2013</citation>). <sentence_start/>Sequences were clustered into operational taxonomic units (OTUs) using a 97% similarity threshold and compared against reference databases to assign taxonomy (GreenGenes 13.8 and RDP search for 16S, Silva 119 and BLAST search for 18S). <sentence_start/>Chimeras were identified and filtered using UCHIME2 (Edgar, <citation rid=\"ece37594-bib-0031\" ref-type=\"bibr\" doi=\"10.1101/074252\" count=\"1\">2016</citation>). <sentence_start/>16S sequences from chloroplasts and mitochondria and 18S sequences assigned to frog or other nontarget nonmicrobial species (<italic>e.g</italic>., Streptophyta) were filtered from the dataset. <sentence_start/>16S sequences were rarefied to 2000 per sample and 18S sequences were rarefied to 1000 per sample based on visual examination of read accumulation curves and plots of rarefaction values versus number of samples retained across sites (Figure S1). <sentence_start/>These sequence threshold values for rarefaction were selected to balance achieving an adequate representation of microbial communities with retaining sufficient site sample sizes, and are within the range of similar previous studies that have used 1000-2000 as threshold values for 16S v4 datasets (Bletz et al., <citation rid=\"ece37594-bib-0017\" ref-type=\"bibr\" doi=\"10.1038/ncomms13699\" pmcid=\"PMC5171763\" pmid=\"27976718\" count=\"1\">2016</citation>, <citation rid=\"ece37594-bib-0019\" ref-type=\"bibr\" doi=\"10.1007/s10750-017-3126-2\" count=\"1\">2017</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "To determine whether potential ecological relationships between bacteria and microeukaryotes reflect potential ecological relationships between bacteria and <italic>Bd</italic>, bacterial OTU representative sequences from the <italic>T. taophora</italic> samples were compared against a reference sequence database of bacteria previously isolated from amphibian skin and categorized according to effects on <italic>Bd</italic> growth in co-culture experiments (Woodhams et al., <citation rid=\"ece37594-bib-0086\" ref-type=\"bibr\" doi=\"10.1890/14-1837.1\" count=\"1\">2015</citation>). <sentence_start/>The BLAST algorithm was implemented, and an E-value threshold of E &lt; 1e-20 was used to identify OTU matches with the reference database. <sentence_start/>Matching <italic>T. taophora</italic> skin bacteria were binned into categories as <italic>Bd</italic> enhancing, <italic>Bd</italic> inhibiting, or having no effect on <italic>Bd</italic> growth."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Data analysis"
+  },
+  {
+   "section": "article",
+   "text": "To evaluate overall patterns of microbiome alpha diversity in the rarefied 16S and 18S datasets, Spearman's correlation tests were implemented in R (vrs. <sentence_start/>1.7-11; (R Core Team, <citation rid=\"ece37594-bib-0069\" ref-type=\"bibr\" count=\"1\">2018</citation>)) and performed between 16S and 18S alpha diversity according to (a) OTU richness and (b) phylogenetic diversity calculated in QIIME. <sentence_start/>To evaluate the relationships between alpha diversity and geography and host genetics, two-way ANOVA tests were performed in R (vrs. <sentence_start/>1.7-11; R Core Team, <citation rid=\"ece37594-bib-0069\" ref-type=\"bibr\" count=\"1\">2018</citation>). <sentence_start/>Separate two-way ANOVA tests were run for each response variable with four ANOVAs run in total. <sentence_start/>The four response variables were calculated in QIIME and consisted of (a) OTU richness for bacteria (16S), (b) phylogenetic diversity for bacteria, (c) OTU richness for microeukaryotes (18S), and (d) phylogenetic diversity for microeukaryotes. <sentence_start/>Each response variable was tested against the factors of site type (island versus coastal mainland) and MHC IIB genotype (homozygote versus heterozygote). <sentence_start/>Two-way ANOVA models were initially run for each response variable with an interaction between site type and MHC IIB genotype, and if the interaction term was non-significant, the model was re-run with an additive effect between factors instead. <sentence_start/>Assumptions of linear models were confirmed with visual examination of residuals versus fitted values plots and normal Q-Q plots. <sentence_start/>Response variables were natural log-transformed to meet assumptions of equal variance and normality. <sentence_start/>Abundance-based diversity indices (<italic>e.g</italic>., Shannon's Indices) were not analyzed because using sequence reads as a proxy for abundance can be problematic due to primer amplification bias and variable copy number of 16S and 18S across microbial taxa (Bletz, Archer, et al., <citation rid=\"ece37594-bib-0067\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0043093\" pmid=\"22905208\" pmcid=\"PMC3419673\" count=\"1\">2017</citation>; Song et al., <citation rid=\"ece37594-bib-0074\" ref-type=\"bibr\" doi=\"10.1094/PBIOMES-09-17-0041-R\" count=\"1\">2018</citation>; Kembel et al., <citation rid=\"ece37594-bib-0051\" ref-type=\"bibr\" doi=\"10.1371/journal.pcbi.1002743\" pmcid=\"PMC3486904\" pmid=\"23133348\" count=\"1\">2012</citation>; V\u011btrovsk\u00fd &amp; Baldrian, <citation rid=\"ece37594-bib-0081\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0057923\" pmcid=\"PMC3583900\" pmid=\"23460914\" count=\"1\">2013</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "To evaluate microbial community structure across geography and host population genetics, beta diversity was calculated using the unweighted (<italic>i.e</italic>., does not account for reads/sequence abundance) UniFrac (phylogeny-based) method in QIIME. <sentence_start/>Bacterial and microeukaryotic beta diversity were analyzed in separate Mantel tests against geographic distance, neutral genetic distance (<italic>F</italic> <sub>ST</sub> calculated from microsatellites), and immunogenetic distance (<italic>F</italic> <sub>ST</sub> calculated from MHC IIB sequences) among populations. <sentence_start/>Mantel tests were implemented in the ade4 package of R (Dray &amp; Dufour, <citation rid=\"ece37594-bib-0027\" ref-type=\"bibr\" count=\"1\">2007</citation>; Dray et al., <citation rid=\"ece37594-bib-0028\" ref-type=\"bibr\" count=\"1\">2007</citation>; Chessel et al., <citation rid=\"ece37594-bib-0025\" ref-type=\"bibr\" count=\"1\">2004</citation>; R Core Team, <citation rid=\"ece37594-bib-0069\" ref-type=\"bibr\" count=\"1\">2018</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "To examine associations between microbial taxa and geography or host frog MHC IIB genotype, data were statistically analyzed and visualized using packages implemented in Python (vrs. 2.7.13) and using Matplotlib (Hunter, <citation rid=\"ece37594-bib-0048\" ref-type=\"bibr\" count=\"1\">2007</citation>; Rossum, <citation rid=\"ece37594-bib-0078\" ref-type=\"bibr\" count=\"1\">1995</citation>). <sentence_start/>Associations between microbial communities and geography or frog MHC IIB genotype were determined by simulating an expected null (randomized) distribution of host frog microbiomes. <sentence_start/>To create the null distribution, a two-column data table was first created with column 1 being the site type (island or coastal) or MHC IIB genotype (heterozygous or homozygous) of a host frog and column 2 being a single microbial OTU found on that frog. <sentence_start/>After the data table was populated for all frogs and microbial OTUs in the dataset, column 2 (microbial OTU) was held constant while column 1 (site type or frog genotype) was shuffled randomly. <sentence_start/>This was repeated 1,000 times to create two sets of random microbial occurrence distributions, one for analysis of microbial associations with site type and a second for analysis of microbial associations with host frog genotype."
+  },
+  {
+   "section": "article",
+   "text": "Co-occurrence between microbial OTUs within and among domains (Bacteria versus Eukaryotes) was analyzed with a third null distribution of microbial communities. <sentence_start/>Because of potential effects of site on microbial presence and community structure (<italic>e.g</italic>., some microbes only co-occur on frogs because the microbes themselves solely occur at the same subset of sampling sites) and site-MHC IIB genotype interactions (as homozygotes and heterozygotes are not evenly distributed across sites or site types; Table 1), an expected null distribution of microbes accounting for site-specific presence/absence of each microbe was created. <sentence_start/>This null distribution of microbes was achieved through within-site randomization using MCMC edge swapping, a standard method for network datasets (Petersen, <citation rid=\"ece37594-bib-0066\" ref-type=\"bibr\" doi=\"10.1007/BF02392606\" count=\"1\">1891</citation>; Besag &amp; Clifford, <citation rid=\"ece37594-bib-0014\" ref-type=\"bibr\" doi=\"10.1093/biomet/76.4.633\" count=\"1\">1989</citation>; Fosdick et al., <citation rid=\"ece37594-bib-0032\" ref-type=\"bibr\" doi=\"10.1137/16M1087175\" count=\"1\">2018</citation>). <sentence_start/>This method allows any configuration to be reached from any starting point and allows for even sampling along all allowed states as forward and backward swaps are equally likely. <sentence_start/>To achieve this, first, two microbe-frog pairs were randomly selected, with each pair consisting of a single randomly selected microbial OTU found on a single randomly selected frog. <sentence_start/>Microbial OTUs were then swapped between the selected frogs when three criteria were met: (a) the frogs were different individuals with the same MHC IIB genotype (either both homozygous or both heterozygous); (b) the OTUs were different from one another; and (3) neither frog already hosted the microbe it would receive via the swap. <sentence_start/>Microbe swapping was performed with 1,000 repetitions for each frog-microbe pair to construct a single set of randomized frog-microbe pairs. <sentence_start/>The distribution of co-occurrences under this null model was estimated using 320,000 such randomized sets."
+  },
+  {
+   "section": "article",
+   "text": "To test whether hypothesized bacterial effects on <italic>Bd</italic> extend to diverse microeukaryotic members of the microbiome, bacterial OTUs that matched the Woodhams et al. (<citation rid=\"ece37594-bib-0086\" ref-type=\"bibr\" doi=\"10.1890/14-1837.1\" count=\"1\">2015</citation>) database were binned according to their hypothesized ecological significance with regard to <italic>Bd</italic> (<italic>Bd</italic> inhibitory, <italic>Bd</italic> enhancing, or no effect on <italic>Bd</italic>). <sentence_start/>The co-occurrences of bacteria within each category with microbiome eukaryotes were then compared with the third null distribution of microbial OTUs."
+  },
+  {
+   "section": "article",
+   "text": "For all microbial association/co-occurrence analyses, the probability of non-random microbial association/co-occurrence (<italic>p</italic>) was calculated by comparing observed versus expected (null/randomized) counts of microbial association/co-occurrence. <sentence_start/><italic>P</italic>-values were evaluated at significance levels of \u03b1 = 0.05 and 0.01with correction applied to account for multiple comparisons (Benjamini et al., <citation rid=\"ece37594-bib-0012\" ref-type=\"bibr\" doi=\"10.2307/2346101\" count=\"1\">1995</citation>). <sentence_start/>Using the results of the tests of co-occurrences within and among all microbial taxa, microbial networks for bacteria only, microeukaryotes only, and for all bacteria and microeukaryotes were visualized using Matplotlib (Hunter, <citation rid=\"ece37594-bib-0048\" ref-type=\"bibr\" count=\"1\">2007</citation>; Rossum, <citation rid=\"ece37594-bib-0078\" ref-type=\"bibr\" count=\"1\">1995</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "RESULTS"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Overall patterns of microbiome diversity"
+  },
+  {
+   "section": "article",
+   "text": "There were 303 bacterial OTUs and 845 microeukaryotic OTUs recovered across all samples after filtering and rarefaction. <sentence_start/>Bacterial phylogenetic diversity was positively correlated with microeukaryotic phylogenetic diversity across all samples (Spearman's rank correlation, \u03c1 = 0.28, <italic>p</italic> &lt;.01; Figure 2a). <sentence_start/>There was no significant correlation between bacterial and microeukaryotic OTU richness (Spearman's rank correlation, <italic>p</italic> &gt;.05)."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 2"
+  },
+  {
+   "section": "article",
+   "text": "Microbiome alpha diversity. <sentence_start/>(a) Phylogenetic diversity of bacteria and eukaryotes on Thoropa taophora skin were significantly positively correlated. <sentence_start/>(b) Bacterial phylogenetic diversity varied significantly across both site type and host frog MHC IIB genotypes. <sentence_start/>(c) Bacterial OTU richness varied significantly across host frog MHC IIB genotypes. <sentence_start/>(d) Microeukaryotic OTU richness varied significantly across site types"
+  },
+  {
+   "section": "article",
+   "text": "Proteobacteria, particularly Gammaproteobacteria, were the most dominant bacterial taxon across all samples, both by number of OTUs and sequence reads (Figure 3a,b). <sentence_start/>Gammaproteobacteria also formed a core bacterial microbiome (<italic>i.e</italic>., this taxon was abundant across samples; Figure 3c). <sentence_start/>Among the eukaryotic microbiota, fungi were dominant by both number of OTUs and sequence reads (Figure 3d,e). <sentence_start/>No core group of eukaryotic taxa was recovered, though some fungal OTUs were common and found in approximately 50% of samples (Figure 3f). <sentence_start/>These common fungal OTUs were members of the Ascomycota, Basidiomycota, and unclassified fungi."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 3"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of microbiome taxonomic diversity across study sites and individuals. <sentence_start/>Bacteria are shown in a-c and eukaryotes in D-F. Stacked barplots show the relative abundance of microbial taxa across sites by number of OTUs (a and d) and reads (b and e). <sentence_start/>Bolded site codes indicate island sites. <sentence_start/>Frequency histograms (c and f) show the percent of OTUs across individual host frogs. <sentence_start/>In C, solid indigo bars represent Proteobacteria, which show a signature consistent with a core bacterial microbiome as these are present across the majority of frogs. <sentence_start/>In f, there is not a clear signature of a core eukaryotic microbiome, as no taxa extend across the majority of individuals. <sentence_start/>Fungi come closest as a set of fungal OTUs are found on ~50% of individual frogs (f inset)"
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Associations between geography, host genetics, and the skin microbiome"
+  },
+  {
+   "section": "article",
+   "text": "Patterns of alpha diversity across site types and MHC IIB genotypes varied among bacteria and microeukaryotes. <sentence_start/>In all analyses, there were no statistically significant interactions between site type and MHC IIB genotype, and all response variables (16S OTU richness, 16S PD, 18S OTU richness, 18S PD) were natural log-transformed to meet the assumptions of ANOVA tests. <sentence_start/>Bacterial phylogenetic diversity (PD) varied by both MHC IIB genotype and by site type (two-way ANOVA, <italic>F</italic>(2, 117) = 4.536, <italic>p</italic> =.01, site type <italic>p</italic> &lt;.05, MHC IIB genotype <italic>p</italic> =.01; Figure 2b). <sentence_start/>Average bacterial PD among island frogs was 6.11 compared with average PD of 5.25 for coastal mainland frogs, while average bacterial PD among MHC IIB heterozygotes was 6.64 compared with an average of 5.58 in homozygotes. <sentence_start/>Microeukaryotic PD did not vary by either site type or MHC IIB genotype (two-way ANOVA, <italic>F</italic>(2, 139) = 2.587, <italic>p</italic> &gt;.05). <sentence_start/>Bacterial OTU richness varied only by MHC IIB genotype (two-way ANOVA, <italic>F</italic>(2, 117) = 3.289, <italic>p</italic> &lt;.05, site type <italic>p</italic> &gt;.05, MHC IIB genotype <italic>p</italic> =.01; Figure 2c) with MHC IIB heterozygotes hosting 43.0 bacterial OTUs on average compared with 34.3 average bacterial OTUs on MHC IIB homozygotes. <sentence_start/>In contrast, microeukaryotic alpha diversity varied by only site type for OTU richness (two-way ANOVA, <italic>F</italic>(2, 139) = 5.062, <italic>p</italic> &lt;.01, site type <italic>p</italic> &lt;.01, MHC IIB genotype <italic>p</italic> &gt;.05). <sentence_start/>On average, mainland coastal frogs hosted 48.1 microeukaryotic OTUs compared with 32.6 average microeukaryotic OTUs on island frogs."
+  },
+  {
+   "section": "article",
+   "text": "Community composition showed variable patterns. <sentence_start/>Beta diversity did not vary by geographic distance or either measure of genetic distance (microsatellite F<sub>ST</sub> and MHC IIB F<sub>ST</sub>) according to Mantel tests (all <italic>p</italic> &gt;.05). <sentence_start/>However, when OTUs were compared with random expectations, significant associations with site type and MHC IIB genotype were observed for both bacteria and microeukaryotes (Figure 4). <sentence_start/>Among the bacteria, Cyanobacteria and Alphaproteobacteria showed significant positive associations with coastal mainland sites regardless of host MHC IIB genotype, while four bacterial groups (Bacteroidetes, Firmicutes, Fusobacteria, unclassified Proteobacteria, and Spirochaetes) showed positive associations with island sites regardless of genotype (Figure 4a). <sentence_start/>Among the microeukaryotes, fungi were significantly positively associated with island sites regardless of host genotype (Figure 4b). <sentence_start/>Coastal mainland MHC IIB heterozygotes showed significant positive associations with Ciliates, Helminths, unclassified microeukaryotes, Rhizaria, and Stramenopiles, while mainland homozygotes were significantly positively associated with Ichthyosporea and Nucleariids. <sentence_start/>Island MHC IIB homozygotes showed significant positive associations with Algae and Apicomplexans."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 4"
+  },
+  {
+   "section": "article",
+   "text": "Heat maps of skin microbes across site type and host MHC IIB genotype for bacteria (a) and eukartyoes (b). <sentence_start/>Associations between intersecting factors of microbial OTUs and site type (coastal/mainland versus. island) and MHC IIB genotype (heterozygous versus. homozygous) are shown in each column. <sentence_start/>The more saturated the red, the stronger the positive association between taxa and site type or genotype, and the more saturated the blue, the stronger the negative association. <sentence_start/>To determine associations, actual distribution of microbes was compared with 1,000 randomly generated microbiomes within each site. <sentence_start/>Black dots represent significant deviation from random expectations with <italic>p</italic> &lt;.05, and white stars represent <italic>p</italic> &lt;.01"
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Microbial networks within and among domains"
+  },
+  {
+   "section": "article",
+   "text": "Separate networks were constructed for bacteria and microeukaryotes based on tests of co-occurrence between OTUs within and among taxonomic groups across domains (Figure S2). <sentence_start/>A dominant bacterial network assembled that consisted of 9/16 bacterial taxa: Bacteroidetes, Firmicutes, and Deltaproteobacteria were at the center of the formed network, with connections to Deferribacteres, Fusobacteria, Spirochaetes, Verrucomicrobia, unclassified Proteobacteria, and unclassified bacteria (Figure S3). <sentence_start/>The remaining groups did not form any connections, although there were strong connections formed among OTUs within the Gammaproteobacteria. <sentence_start/>Within the microeukaryotes, no network connections formed among the 21 taxonomic groups, but there were significant connections between OTUs within the Algae and Rhizaria (Figure S4)."
+  },
+  {
+   "section": "article",
+   "text": "The cross-domain network analysis resulted in a number of previously unconnected taxa becoming connected with others, with 4/6 previously unconnected bacterial groups and 8/21 previously unconnected eukaryotic groups becoming connected to taxa across domains (Figure 5). <sentence_start/>Three networks formed, the largest of which consisted of the previously constructed bacteria-only network with additional connections between bacterial taxa and six eukaryotic taxa: two fungal groups (Zoopagomycota and unclassified fungi) and three protist groups (Helminths, Nucleariids, and Stramenopiles). <sentence_start/>The second largest network formed between three bacterial groups and two eukaryotic groups, all five of which had previously been unconnected in the bacteria-only and eukaryote-only networks: Actinobacteria, Cyanobacteria, Alphaproteobacteria, Basidiomycota, and Algae. <sentence_start/>The third and smallest network consisted of Gammaproteobacteria and Rhizaria."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 5"
+  },
+  {
+   "section": "article",
+   "text": "Microbiome network showing associations between bacterial and microeukaryotic OTUs. <sentence_start/>Bacteria are represented by triangles, fungi are represented by squares, and protists (non-fungal microeukaryotes) are represented by circles. <sentence_start/>The size of the symbol indicates the relative abundance of each taxon by number of OTUs. <sentence_start/>Stronger associations are indicated by thicker/darker network branches between symbols (associations of OTUs among taxa) or circles around symbols (associations of OTUs within a taxon). <sentence_start/>Links were included between taxa which co-occurred significantly (a = 0.05) more often than in the null model. <sentence_start/>A circle around a taxon represents a self-edge. <sentence_start/>The edge weight was scaled according to the Z-score of the co-occurrence (observed - expected) / standard deviation, to the power of 0.5 to make the variation in score more visually clear"
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Associations between microbiome eukaryotes and bacteria reported to inhibit, enhance, or have no effect on <italic>Bd</italic> growth"
+  },
+  {
+   "section": "article",
+   "text": "When compared to bacterial OTUs that had been previously tested against Bd in co-culture inhibition experiments (Woodhams et al., <citation rid=\"ece37594-bib-0086\" ref-type=\"bibr\" doi=\"10.1890/14-1837.1\" count=\"1\">2015</citation>), nearly half (45%) of <italic>T. taophora</italic> skin bacterial OTUs showed a match at the BLAST E-value threshold of E &lt; 1e-20 (Figure S5). <sentence_start/>Tests of co-occurrence between eukaryote groups and these matched bacterial OTUs revealed that enhancing, inhibitory, and no effect do not generally reflect the associations of these bacteria with fungi specifically or microeukaryotes generally (Figure 6). <sentence_start/><italic>Bd</italic>-enhancing bacteria were significantly negatively associated with the Ascomycota and Basidiomycota fungi as well as Stramenopiles. <sentence_start/><italic>Bd</italic> inhibitory bacteria showed significant positive associations with the Choanoflagellates and significant negative associations with the Basidiomycota fungi and other unclassified fungi. <sentence_start/>These also showed nonsignificant positive associations with Cryptomycota fungi, Ichthyosporeans, and Nucleariids, and negative associations with Apusozoa. <sentence_start/>Finally, bacteria that were previously found to have no effect on <italic>Bd</italic> were significantly positively associated with Ascomycota fungi, Choanoflagellates, Ciliates, and Rhizaria."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 6"
+  },
+  {
+   "section": "article",
+   "text": "Heat map of microeukaryote co-occurrence with bacterial OTUs found in <italic>T. taophora</italic> skin swabs. <sentence_start/>Bacteria are binned into groups corresponding to \u201cPredict effect on <italic>Bd</italic>\u201d based on matches to bacterial OTUs categorized by Woodhams et al. (<citation rid=\"ece37594-bib-0086\" ref-type=\"bibr\" doi=\"10.1890/14-1837.1\" count=\"1\">2015</citation>). <sentence_start/>The more saturated the red, the stronger the positive association between two taxa, and the more saturated the blue, the stronger the negative association. <sentence_start/>Black dots represent a significant deviation from random co-occurrence with <italic>p</italic> &lt;.05, and white stars represent <italic>p</italic> &lt;.01"
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "DISCUSSION"
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Amphibian skin microbiomes exhibited high microeukaryote diversity and were dominated by Proteobacteria"
+  },
+  {
+   "section": "article",
+   "text": "In this study, we examined amphibian skin microbiome structure and diversity with respect to geography and host genetics. <sentence_start/>In analyzing both bacterial and microeukaryote OTUs, we recovered microbial associations with geographic and host genetic factors, as well as unexpected patterns of microbial co-occurrence across domains. <sentence_start/>The diversity of microeukaryotes we recovered is higher than previous reports from wild frogs: We recovered 845 OTUs in our study compared with, for example, 255 OTUs on <italic>Rana cascadae</italic> (Kueneman et al., <citation rid=\"ece37594-bib-0055\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02350\" pmid=\"29276502\" pmcid=\"PMC5727676\" count=\"1\">2017</citation>) and 500 OTUs on <italic>Anaxyrus boreus</italic> (Bletz et al., <citation rid=\"ece37594-bib-0018\" ref-type=\"bibr\" doi=\"10.1111/ele.12099\" pmid=\"23452227\" count=\"1\">2013</citation>). <sentence_start/>In contrast, the level of bacterial diversity we recovered is lower than previous reports: We recovered 303 bacterial OTUs compared with ~600 OTUs on <italic>Rana italica</italic> (V\u011btrovsk\u00fd &amp; Baldrian, <citation rid=\"ece37594-bib-0081\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0057923\" pmcid=\"PMC3583900\" pmid=\"23460914\" count=\"1\">2013</citation>), although we note that this could be due to different filtering thresholds. <sentence_start/>Our recovery of bacteria from 11 phyla is within the range of taxonomic diversity previously recovered from amphibian skin, with for example 10-18 bacterial phyla reported from three species (McKenzie et al., <citation rid=\"ece37594-bib-0060\" ref-type=\"bibr\" doi=\"10.1038/ismej.2011.129\" pmcid=\"PMC3280140\" pmid=\"21955991\" count=\"1\">2012</citation>). <sentence_start/>Our analysis showed that total microeukaryotic and bacterial phylogenetic diversity were positively correlated across all samples, which is a novel finding to our knowledge."
+  },
+  {
+   "section": "article",
+   "text": "Proteobacteria, and in particular Gammaproteobacteria, was the most dominant bacterial phylum on <italic>T. taophora</italic> skin across all study populations, in terms of both OTUs and relative abundance (Figure 3). <sentence_start/>This is similar to findings from bacterial microbiome studies of other tropical post-metamorphic anurans (Harris, Brucker, et al., <citation rid=\"ece37594-bib-0010\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2015.01171\" pmid=\"26579083\" pmcid=\"PMC4621460\" count=\"1\">2009</citation>; Kueneman et al., <citation rid=\"ece37594-bib-0053\" ref-type=\"bibr\" doi=\"10.1038/s41559-019-0798-1\" pmid=\"30778181\" count=\"1\">2019</citation>; Abarca et al., <citation rid=\"ece37594-bib-0001\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2018.02001\" pmid=\"30233511\" pmcid=\"PMC6129598\" count=\"1\">2018</citation>; Varela et al., <citation rid=\"ece37594-bib-0079\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2018.00298\" pmid=\"29520260\" pmcid=\"PMC5826957\" count=\"1\">2018</citation>; Bletz et al., <citation rid=\"ece37594-bib-0016\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.01530\" pmid=\"28861051\" pmcid=\"PMC5563069\" count=\"1\">2017</citation>). <sentence_start/>Proteobacteria are known to be common in a variety of environments and contain bacteria that can be pathogenic in amphibians (Hill et al., <citation rid=\"ece37594-bib-0045\" ref-type=\"bibr\" pmid=\"20353698\" pmcid=\"PMC2846011\" count=\"1\">2010</citation>). <sentence_start/>The dominance of Proteobacteria on amphibian skin has been hypothesized to result from a protective symbiosis between bacteria and amphibians, as many members of the Proteobacteria produce anti-<italic>Bd</italic> metabolites (Brucker et al., <citation rid=\"ece37594-bib-0021\" ref-type=\"bibr\" doi=\"10.1007/s10886-007-9352-8\" pmid=\"18058176\" count=\"1\">2008</citation>; Becker, <citation rid=\"ece37594-bib-0008\" ref-type=\"bibr\" doi=\"10.1111/mec.13135\" pmid=\"25737297\" count=\"1\">2015</citation>). <sentence_start/>The presence of a high number of Proteobacteria on <italic>T. taophora</italic> skin could potentially contribute to its low apparent susceptibility to <italic>Bd</italic> (Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>). <sentence_start/>It is important to note however that the present study is correlative; without experimental manipulations, it is difficult to pinpoint which factors (<italic>e.g</italic>., the physiology of the skin, mucosal biochemistry, host-microbial evolutionary processes, or interactions with the saline coastal environment) are responsible for the overwhelming dominance of Proteobacteria on <italic>T. taophora</italic> skin."
+  },
+  {
+   "section": "article",
+   "text": "Although bacteria were less diverse than microeukaryotes in our samples, bacteria could nevertheless dominate the skin microbiome according to microbial biomass, which we did not quantify in our study. <sentence_start/>Sequence reads are sometimes used to estimate relative abundance, but this has been shown to be an unreliable measure due to known sequencing biases among microbial taxa (Amend et al., <citation rid=\"ece37594-bib-0004\" ref-type=\"bibr\" doi=\"10.1111/j.1365-294X.2010.04898.x\" pmid=\"21050295\" count=\"1\">2010</citation>). <sentence_start/>It is possible that taxa representing fewer OTUs (<italic>i.e</italic>., bacterial species/strains) represent a higher proportion of microbial biomass, and this should be considered in interpretations of our results. <sentence_start/>We recommend that future research to address the relationship between microbial diversity and abundance employ high-throughput sequencing alongside quantitative analyses, for example, quantitative PCR."
+  },
+  {
+   "section": "article",
+   "text": "4.2"
+  },
+  {
+   "section": "article",
+   "text": "Microbiome diversity and structure varied with site type and host immunogenetics"
+  },
+  {
+   "section": "article",
+   "text": "Immunogenotype at the MHC IIB locus was associated with alpha diversity of bacteria on <italic>T. taophora</italic> skin such that MHC IIB heterozygotes hosted a greater number of bacterial OTUs and higher bacterial phylogenetic diversity. <sentence_start/>Site type (<italic>i.e</italic>., island versus coastal mainland) was also a significant factor in alpha diversity for both bacteria and microeukaryotes (although only for microeukaryote OTU richness, not for phylogenetic diversity). <sentence_start/>However, beta diversity was not associated with geographic distance or genetic structure of populations at either neutral genetic markers or the MHC IIB immunogenetic locus. <sentence_start/>These results differ from previous studies on amphibians, in which there were similarly no geographic effects on amphibian skin microbiome structure, but there was a significant association with metapopulation genetic structure (Griffiths et al., <citation rid=\"ece37594-bib-0039\" ref-type=\"bibr\" doi=\"10.1038/s41396-018-0167-0\" pmcid=\"PMC6155040\" pmid=\"29942072\" count=\"1\">2018</citation>; Hern\u00e1ndez-G\u00f3mez et al., <citation rid=\"ece37594-bib-0044\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.01379\" pmid=\"28785252\" pmcid=\"PMC5519570\" count=\"1\">2017</citation>). <sentence_start/>One possible explanation for the discrepancy between our results and the results from previous studies (barring host identity factors) is that our study populations represent a set of connected mainland populations contrasted with a set of island populations that have been isolated for 12,000-20,000 years. <sentence_start/>The lack of association with genetic differentiation in our populations may be due to this relatively long period of divergence relative to other studies, isolation between island sites resulting in different environmental availability of microbes, or simply environmental differences between island and mainland sites."
+  },
+  {
+   "section": "article",
+   "text": "As microbial diversity was lower in island frogs, this suggests that microbiome diversity may be influenced by genetic diversity: Island populations are genetically impoverished and possess lower microeukaryotic and bacterial diversity relative to coastal mainland populations. <sentence_start/>Unlike in bacteria, microeukaryotic alpha diversity was not statistically associated with MHC IIB genotype. <sentence_start/>However, several microeukaryote groups showed significant associations with MHC IIB genotype. <sentence_start/>Interestingly, MHC IIB homozygotes showed significant positive associations with potential amphibian parasites including Ichthyosporeans in coastal mainland populations, and fungi and Apicomplexans in island populations. <sentence_start/>These patterns may indicate associations between genetic factors and assembly of the microbiome such that MHC IIB molecules mediate the prevalence of beneficial microbes in addition to pathogenic ones."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, our results imply that host genetics, and specifically MHC IIB genotype, may play a significant role in determining overall microbiome diversity and structure. <sentence_start/>Although MHC genotype is thought to primarily associate with immune defense against pathogens, results from laboratory and field studies suggest that MHC genotype and allelic composition can impact amphibian host-associated microbial assemblages more broadly (Harris, Lauer, et al., <citation rid=\"ece37594-bib-0007\" ref-type=\"bibr\" doi=\"10.1098/Rsbl.2011.0845\" pmid=\"22114322\" pmcid=\"PMC3367720\" count=\"1\">2009</citation>; Hern\u00e1ndez-G\u00f3mez et al., <citation rid=\"ece37594-bib-0043\" ref-type=\"bibr\" doi=\"10.1111/mec.14500\" pmid=\"29411437\" count=\"1\">2018</citation>). <sentence_start/>The positive associations we found between MHC IIB heterozygosity and bacterial microbiome diversity, as well as with overall microbiome community composition, suggest there may be unknown relationships between MHC molecules and host-associated microbes beyond antagonistic interactions between immune molecules and pathogens. <sentence_start/>However, further research is needed to confirm these associations in other species and determine the contributing mechanisms."
+  },
+  {
+   "section": "article",
+   "text": "4.3"
+  },
+  {
+   "section": "article",
+   "text": "Cross-domain co-occurrence in the amphibian skin microbiome network"
+  },
+  {
+   "section": "article",
+   "text": "Our microbiome network analyses revealed a number of notable patterns. <sentence_start/>When analyzed separately, the bacterial network consisted of one major group, while no microeukaryote groups formed significant connections with one another. <sentence_start/>However, in the overall microbial network, a number of microbial groups exhibited cross-domain co-occurrence: a majority of previously unconnected bacterial groups (4/6) and a number of previously unconnected microeukaryote groups (8/21) became connected in the overall microbiome networks. <sentence_start/>To our knowledge, ours is the first study to demonstrate these positive cross-domain network connections in the amphibian skin microbiome."
+  },
+  {
+   "section": "article",
+   "text": "One important implication of this result is that previously undocumented ecological interactions may exist between microbiome bacteria and eukaryotes that in turn may significantly impact microbial assembly. <sentence_start/>It is currently unclear how widespread cross-domain associations are, as previous studies that have examined both bacteria and microeukaryotes on amphibian skin have focused on taxon-specific associations, namely between <italic>Bd</italic> inhibitory bacteria and fungi (Kueneman et al., <citation rid=\"ece37594-bib-0056\" ref-type=\"bibr\" doi=\"10.1038/ismej.2015.168\" pmcid=\"PMC4796932\" pmid=\"26565725\" count=\"1\">2016</citation>), or between <italic>Bd</italic> and either bacteria or microeukaryotes (Kueneman et al., <citation rid=\"ece37594-bib-0055\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02350\" pmid=\"29276502\" pmcid=\"PMC5727676\" count=\"1\">2017</citation>). <sentence_start/>While potential antagonistic interactions with <italic>Bd</italic> have been the focus in cross-domain research on the amphibian skin microbiome, microbial interactions can occur across the spectrum of biological symbioses (reviewed in (Deveau et al. <citation rid=\"ece37594-bib-0026\" ref-type=\"bibr\" doi=\"10.1093/femsre/fuy008\" pmid=\"29471481\" count=\"1\">2018</citation>)). <sentence_start/>Mutualistic interactions between bacteria and microeukaryotes have been documented in other systems; for example, mycorrhizae-helper bacteria are known to indirectly facilitate plant-fungal interactions in the multitrophic mycorrhizal complex (Frey-Klett &amp; Garbaye, <citation rid=\"ece37594-bib-0033\" ref-type=\"bibr\" doi=\"10.1111/j.1469-8137.2005.01553.x\" pmid=\"16159316\" count=\"1\">2005</citation>). <sentence_start/>An alternative explanation for our network analysis results is that bacteria and eukaryotes positively co-occur due to cofiltering via specific host, environmental, or other exogenous factors unrelated to microbial interactions. <sentence_start/>Further research is needed on cross-domain microbial co-occurrence patterns, microbial interactions, and implications for amphibian host health."
+  },
+  {
+   "section": "article",
+   "text": "4.4"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Bd</italic> inhibitory and enhancing bacteria have variable effects on microbiome fungi and protists"
+  },
+  {
+   "section": "article",
+   "text": "Our dataset included a number of bacteria previously shown to inhibit <italic>Bd</italic>, which have been generally termed \u201cantifungal\u201d (Vences et al., <citation rid=\"ece37594-bib-0080\" ref-type=\"bibr\" doi=\"10.1007/s00114-016-1348-1\" pmid=\"26924012\" count=\"1\">2016</citation>). <sentence_start/>However, bacteria with previously demonstrated effects on <italic>Bd</italic> growth did not show general patterns with <italic>T. taophora</italic> skin microbiome fungi or other microeukaryotes. <sentence_start/>As might be expected, bacteria previously found to enhance <italic>Bd</italic> growth were positively associated with the Chytridiomycota, although <italic>Bd</italic> was not present in our 18S dataset. <sentence_start/>However, <italic>Bd</italic>-enhancing bacteria were negatively associated with Ascomycota and Basidiomycota fungi as well as Stramenopiles. <sentence_start/>Perhaps more critical are the relationships with <italic>Bd</italic> inhibitory bacteria, as these have been proposed for use in probiotic treatments for <italic>Bd</italic> management (Walke &amp; Belden, <citation rid=\"ece37594-bib-0085\" ref-type=\"bibr\" doi=\"10.1371/journal.ppat.1005796\" pmcid=\"PMC5015824\" pmid=\"27606683\" count=\"1\">2016</citation>; Bletz et al., <citation rid=\"ece37594-bib-0018\" ref-type=\"bibr\" doi=\"10.1111/ele.12099\" pmid=\"23452227\" count=\"1\">2013</citation>). <sentence_start/><italic>Bd</italic> inhibitory bacteria showed significant negative associations with Basidiomycota fungi and other unclassified fungi in the <italic>T. taophora</italic> skin microbiome. <sentence_start/><italic>Bd</italic> inhibitory bacteria were also positively associated with Choanoflagellates and showed positive although nonsignificant associations with the Zoopagomycota and Ichthyosporea."
+  },
+  {
+   "section": "article",
+   "text": "These associations demonstrate the importance of understanding potential effects of probiotics on the amphibian skin microbiome and consequently on amphibian health. <sentence_start/>For example, specific attempts to increase <italic>Bd</italic> inhibiting bacteria and/or reduce <italic>Bd-</italic>enhancing bacteria in wild frog populations could reduce fungi in the Dikarya (Ascomycota and Basidiomycota), some of which are known to benefit amphibian health (Kearns et al. 2017), and/or augment poorly studied parasites such as Ichthyosporea protists (Rowley et al., <citation rid=\"ece37594-bib-0071\" ref-type=\"bibr\" doi=\"10.1016/j.fbr.2013.09.002\" count=\"1\">2013</citation>) and Zoopagomycota fungi (Seyedmousavi et al., <citation rid=\"ece37594-bib-0073\" ref-type=\"bibr\" doi=\"10.1016/j.cmi.2015.02.031\" pmid=\"25769429\" count=\"1\">2015</citation>; Badali et al., <citation rid=\"ece37594-bib-0006\" ref-type=\"bibr\" doi=\"10.3109/13693780903471073\" pmid=\"20055741\" count=\"1\">2010</citation>) as well as Choanoflagellates that are known to be parasitic in other aquatic ectotherm hosts (Kerk et al., <citation rid=\"ece37594-bib-0052\" ref-type=\"bibr\" doi=\"10.1007/BF00348931\" count=\"1\">1995</citation>). <sentence_start/>These hypothetical effects warrant further study, for example through culture-based or in vivo challenges between proposed probiotic bacteria and these potentially impacted microeukaryotes. <sentence_start/>It bears noting that the apparently low susceptibility to <italic>Bd</italic> observed in <italic>Thoropa taophora</italic> (Belasen et al., <citation rid=\"ece37594-bib-0009\" ref-type=\"bibr\" doi=\"10.3389/fevo.2018.00236\" count=\"1\">2019</citation>) may indicate that the results from this study may not apply to more <italic>Bd</italic>-susceptible amphibian species. <sentence_start/>Nonetheless, our findings demonstrate the importance of understanding cross-domain interactions and microbiome stability as it relates to amphibian health when considering probiotic treatments in wild populations. <sentence_start/>Evaluation of cross-domain interactions and relationships should be part of the decision-making process in determining whether to employ probiotic conservation strategies."
+  },
+  {
+   "section": "article",
+   "text": "4.5"
+  },
+  {
+   "section": "article",
+   "text": "Limitations and future research priorities"
+  },
+  {
+   "section": "article",
+   "text": "Taken together with recent studies (Kueneman et al., <citation rid=\"ece37594-bib-0055\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02350\" pmid=\"29276502\" pmcid=\"PMC5727676\" count=\"1\">2017</citation>; Kearns et al., <citation rid=\"ece37594-bib-0050\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2017.02494\" pmid=\"29312201\" pmcid=\"PMC5735112\" count=\"1\">2017</citation>), our results suggest that focusing only on bacteria provides an incomplete picture of the host-associated microbiome. <sentence_start/>Granted, as in many other amphibian microbiome studies (McKenzie et al., <citation rid=\"ece37594-bib-0060\" ref-type=\"bibr\" doi=\"10.1038/ismej.2011.129\" pmcid=\"PMC3280140\" pmid=\"21955991\" count=\"1\">2012</citation>) our study presents microbes at a relatively coarse phylogenetic resolution. <sentence_start/>Very large differences in ecology and environmental requirements likely exist between OTUs within higher-order classification levels, and the patterns we detected may change with higher-resolution taxonomic data. <sentence_start/>With advancing technology allowing for increased sequence length (<italic>e.g</italic>., third-generation sequencing), more efficient microbiome analysis pipelines (<italic>e.g</italic>., QIIME2), and higher quality reference sequence databases, future cross-domain microbiome research at higher taxonomic resolution should be prioritized."
+  },
+  {
+   "section": "article",
+   "text": "Our results imply that host genetic diversity and MHC IIB genotype play a role in structuring the amphibian skin microbiome. <sentence_start/>However, we acknowledge that differences in microbiome diversity and structure among site types and MHC IIB genotypes could be due to a number of factors other than or in addition to host genetics. <sentence_start/>Variation in the microbiome among site types could be explained by differences in environmental filtering in coastal versus island sites, island isolation favoring longer-dispersing microbes, or alternatively by unexplored host factors (<italic>e.g</italic>., diet (Antwis et al., <citation rid=\"ece37594-bib-0005\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0085563\" pmcid=\"PMC3887054\" pmid=\"24416427\" count=\"1\">2014</citation>)). <sentence_start/>Additional research is warranted to quantify the relative contributions of host factors, environmental factors, and other variables that contribute to microbiome diversity and structure."
+  },
+  {
+   "section": "article",
+   "text": "Our network analyses suggest that there may be important interactions between bacteria and microeukaryotes that have been missed by previous microbiome studies focusing on only one microbial domain or specific microbial interactions. <sentence_start/>Given the widespread use of bacterial probiotic treatments in humans as well as in domesticated and wild animals (Cheng, <citation rid=\"ece37594-bib-0024\" ref-type=\"bibr\" doi=\"10.1111/1365-2664.12757\" count=\"1\">2017</citation>; Ghadban, <citation rid=\"ece37594-bib-0035\" ref-type=\"bibr\" count=\"1\">2002</citation>; Gram et al., <citation rid=\"ece37594-bib-0038\" ref-type=\"bibr\" doi=\"10.1128/aem.65.3.969-973.1999\" pmcid=\"PMC91130\" pmid=\"10049849\" count=\"1\">1999</citation>) and the interest in expanding these strategies to wild amphibians (Walke &amp; Belden, <citation rid=\"ece37594-bib-0085\" ref-type=\"bibr\" doi=\"10.1371/journal.ppat.1005796\" pmcid=\"PMC5015824\" pmid=\"27606683\" count=\"1\">2016</citation>), future studies should prioritize advancing our understanding of interactions between microbiome bacteria and eukaryotes."
+  },
+  {
+   "section": "article",
+   "text": "CONFLICT OF INTEREST"
+  },
+  {
+   "section": "article",
+   "text": "The authors have no conflicts of interest to declare."
+  },
+  {
+   "section": "article",
+   "text": "AUTHOR CONTRIBUTION"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Anat M Belasen:</bold> Conceptualization (lead); Formal analysis (equal); Funding acquisition (equal); Investigation (equal); Methodology (equal); Visualization (equal); Writing-original draft (lead). <sentence_start/><bold>Maria A Riolo:</bold> Formal analysis (equal); Visualization (equal); Writing-review &amp; editing (equal). <sentence_start/><bold>Molly Bletz:</bold> Formal analysis (equal); Methodology (equal); Validation (equal); Visualization (equal); Writing-review &amp; editing (equal). <sentence_start/><bold>Mariana L\u00facio Lyra:</bold> Investigation (equal); Methodology (equal); Writing-review &amp; editing (equal). <sentence_start/><bold>Felipe Toledo:</bold> Conceptualization (equal); Funding acquisition (equal); Investigation (equal); Project administration (equal); Writing-review &amp; editing (equal). <sentence_start/><bold>Tim James:</bold> Conceptualization (equal); Investigation (equal); Project administration (equal); Supervision (lead); Writing-review &amp; editing (equal)."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "Fig. S1"
+  },
+  {
+   "section": "article",
+   "text": "Fig. S2"
+  },
+  {
+   "section": "article",
+   "text": "Fig. S3"
+  },
+  {
+   "section": "article",
+   "text": "Fig. S4"
+  },
+  {
+   "section": "article",
+   "text": "Fig. S5"
+  },
+  {
+   "section": "article",
+   "text": "Supplementary materials"
+  },
+  {
+   "section": "back",
+   "text": "DATA AVAILABILITY STATEMENT"
+  },
+  {
+   "section": "back",
+   "text": "Sequences were deposited in the NCBI Short Read Archive (18S sequences: Accession PRJNA720394; 16S sequences: Accession PRJNA720436). <sentence_start/>Samples were also registered in SISGEN (#A713DBD)."
+  }
+ ]
+}

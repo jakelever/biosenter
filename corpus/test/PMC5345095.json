@@ -1,0 +1,235 @@
+{
+ "pmid": 28281664,
+ "pmcid": 5345095,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Genetic interactions and functional analyses of the fission yeast <italic>gsk3</italic> and <italic>amk2</italic> single and double mutants defective in TORC1-dependent processes"
+  },
+  {
+   "section": "abstract",
+   "text": "The Target of Rapamycin (TOR) signalling network plays important roles in aging and disease. <sentence_start/>The AMP-activated protein kinase (AMPK) and the Gsk3 kinase inhibit TOR during stress. <sentence_start/>We performed genetic interaction screens using synthetic genetic arrays (SGA) with <italic>gsk3</italic> and <italic>amk2</italic> as query mutants, the latter encoding the regulatory subunit of AMPK. <sentence_start/>We identified 69 negative and 82 positive common genetic interactors, with functions related to cellular growth and stress. <sentence_start/>The 120 g<italic>sk3</italic>-specific negative interactors included genes functioning in translation and ribosomes. <sentence_start/>The 215 <italic>amk2-</italic>specific negative interactors included genes functioning in chromatin silencing and DNA damage repair. <sentence_start/>Both <italic>amk2-</italic> and <italic>gsk3-</italic>specific interactors were enriched in phenotype categories related to abnormal cell size and shape. <sentence_start/>We also performed SGA screen with the <italic>amk2 gsk3</italic> double mutant as a query. <sentence_start/>Mutants sensitive to 5-fluorouracil, an anticancer drug are under-represented within the 305 positive interactors specific for the <italic>amk2 gsk3</italic> query. <sentence_start/>The triple-mutant SGA screen showed higher number of negative interactions than the double mutant SGA screens and uncovered additional genetic network information. <sentence_start/>These results reveal common and specialized roles of AMPK and Gsk3 in mediating TOR-dependent processes, indicating that AMPK and Gsk3 act in parallel to inhibit TOR function in fission yeast."
+  },
+  {
+   "section": "article",
+   "text": "The nutrient-responsive Target of Rapamycin (TOR) signalling pathway regulates fundamental cellular processes such as growth in response to environmental or physiological factors. <sentence_start/>In the fission yeast, <italic>Schizosaccharomyces pombe</italic>, two Tor kinases (as opposed to a single kinase in mammals) function within two protein complexes, TORC1 and TORC2<citation ref-type=\"bibr\" rid=\"b1\" doi=\"10.1080/10409230802254911\" pmid=\"18756382\" count=\"1\">1</citation>. <sentence_start/>Tor2 is part of TOR Complex 1 (TORC1) and positively regulates cellular growth, while Tor1 predominates in the antagonistically acting TOR Complex 2 (TORC2)<citation ref-type=\"bibr\" rid=\"b2\" pmid=\"22645648\" doi=\"10.1098/rsob.110007\" pmcid=\"PMC3352084\" count=\"1\">2</citation><citation ref-type=\"bibr\" rid=\"b3\" pmid=\"17179073\" doi=\"10.1534/genetics.106.064170\" pmcid=\"PMC1840069\" count=\"1\">3</citation>. <sentence_start/>We have previously demonstrated that the fission yeast TOR pathway can be pharmacologically inhibited by the combined action of rapamycin and caffeine; TORC1 inhibition mimics the effects of nitrogen starvation and results in increased chronological lifespan (CLS)<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The duration and intensity of TORC1 activation depends on the abundance and quality of different nutrients. <sentence_start/>Genetic studies in fission yeast have demonstrated that the TSC1-TSC2 complex is an negative regulator upstream of TORC1<citation ref-type=\"bibr\" rid=\"b1\" doi=\"10.1080/10409230802254911\" pmid=\"18756382\" count=\"1\">1</citation><citation ref-type=\"bibr\" rid=\"b5\" doi=\"10.4161/cc.6.14.4478\" pmid=\"17637564\" count=\"1\">5</citation>. <sentence_start/>Effectors downstream of TORC1 have been extensively characterised, including the AGC kinases Psk1, Sck1 and Sck2 that phosphorylate a variety of regulatory proteins to promote processes such as protein synthesis<citation ref-type=\"bibr\" rid=\"b6\" doi=\"10.1242/jcs.111146\" pmid=\"22976295\" pmcid=\"PMC3575713\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b7\" doi=\"10.1242/jcs.060319\" pmid=\"20144990\" pmcid=\"PMC2823578\" count=\"1\">7</citation>. <sentence_start/>For example, a major regulator of protein translation, the translation initiation factor eIF2\u03b1<citation ref-type=\"bibr\" rid=\"b8\" doi=\"10.1128/mcb.00183-10\" pmid=\"20404097\" pmcid=\"PMC2876683\" count=\"1\">8</citation><citation ref-type=\"bibr\" rid=\"b9\" doi=\"10.4161/cc.27270\" pmcid=\"PMC3956541\" pmid=\"24280780\" count=\"1\">9</citation>, can be phosphorylated by the Gcn2 kinase to inhibit translation; in nitrogen-rich conditions, Gcn2 is inactivated in a TORC1-dependent manner, thus providing a mechanism for TORC1 to promote translation in the presence of nutrients<citation ref-type=\"bibr\" rid=\"b9\" doi=\"10.4161/cc.27270\" pmcid=\"PMC3956541\" pmid=\"24280780\" count=\"1\">9</citation><citation ref-type=\"bibr\" rid=\"b10\" doi=\"10.1101/gad.1069003\" pmid=\"12654728\" pmcid=\"PMC196024\" count=\"1\">10</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The AMP-activated protein kinase (AMPK) can detect decrease in cellular energy via AMP levels; in fission yeast, AMPK consists of Ssp2, Amk2 and Cbs2<citation ref-type=\"bibr\" rid=\"b11\" doi=\"10.1016/j.metabol.2016.01.005\" pmid=\"27085772\" pmcid=\"PMC4834453\" count=\"1\">11</citation>. <sentence_start/>AMP is an allosteric activator of AMPK: binding to the \u03b2\u03b3 regulatory subunit (Amk2 and Cbs2) renders the \u03b1 subunit (Ssp2) a better target for the stress-responsive kinase Ssp1, and Ssp2 phosphorylation activates AMPK, thus promoting catabolic and inhibiting anabolic processes<citation ref-type=\"bibr\" rid=\"b12\" doi=\"10.3109/10409238.2010.488215\" pmid=\"20522000\" pmcid=\"PMC3132561\" count=\"1\">12</citation>. <sentence_start/>AMPK is functionally linked to TORC1-dependent processes: the budding yeast Ssp2 ortholog, Snf1, mediates the phosphorylation and activation of Gcn2 in response to nutritional stress, leading to phosphorylation of eIF2\u03b1 and a global reduction in translation<citation ref-type=\"bibr\" rid=\"b8\" doi=\"10.1128/mcb.00183-10\" pmid=\"20404097\" pmcid=\"PMC2876683\" count=\"1\">8</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Gsk3 is a conserved kinase that inhibits the canonical Wnt pathway<citation ref-type=\"bibr\" rid=\"b13\" pmid=\"10196136\" doi=\"10.1074/jbc.274.16.10681\" count=\"1\">13</citation> and has clinical significance<citation ref-type=\"bibr\" rid=\"b14\" doi=\"10.1002/iub.1454\" pmid=\"26600003\" count=\"1\">14</citation>. <sentence_start/>However, its role in unicellular eukaryotes remains poorly characterized. <sentence_start/>We have shown that <italic>gsk3-</italic>mutant cells are resistant to TORC1 inhibition by caffeine and rapamycin and feature a shortened CLS when glucose is depleted<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>. <sentence_start/>Human GSK3 inhibits AMPK by interacting with the AMPK \u03b2 subunit while phosphorylating and inactivating the \u03b1 subunit. <sentence_start/>Disruption of GSK3 function within the AMPK complex promotes high AMPK activity and cellular catabolic processes even under anabolic conditions, indicating that GSK3 acts as a critical sensor for anabolic signalling to regulate AMPK<citation ref-type=\"bibr\" rid=\"b16\" doi=\"10.1016/j.molcel.2013.03.022\" pmid=\"23623684\" pmcid=\"PMC3654099\" count=\"1\">16</citation>. <sentence_start/>To investigate the cellular roles and relationships of AMPK and Gsk3 in fission yeast, we have applied classical and genome-wide genetic approaches. <sentence_start/>We show that AMPK and Gsk3 are functionally implicated in the same TOR-dependent processes, involving both common and specific genetic interactors."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Fission yeast strains and media"
+  },
+  {
+   "section": "article",
+   "text": "Cell cultures were grown in YES liquid medium at 32 \u00b0C, with shaking at 130 rpm. <sentence_start/>Deletion mutants were generated as previously described<citation ref-type=\"bibr\" rid=\"b17\" doi=\"10.1002/(sici)1097-0061(199807)14:10&lt;943::aid-yea292&gt;3.0.co;2-y\" pmid=\"9717240\" count=\"1\">17</citation>. <sentence_start/>For wild-type the <italic>972</italic>\u2212 strain was used while for growth, stress and lifespan assays the following strains were used: <italic>h</italic>\u2212 <italic>gsk3::kanMX6, h</italic>\u2212 <italic>gsk3::natMX6, h</italic>\u2212 <italic>gsk3::hphMX6, h</italic> + <italic>amk2::natMX6, h</italic>\u2212 <italic>amk2::natMX6 gsk3::hphMX6, h</italic> + <italic>ssp2::kanMX6, h</italic>\u2212 <italic>ssp2::kanMX6 gsk3::natMX6, h</italic>\u2212 <italic>ssp2::kanMX6 gsk3::hphMX6, h</italic> + <italic>ssp1::kanMX6</italic> and <italic>h</italic>\u2212 <italic>ssp1::kanMX6 gsk3::hphMX6</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Growth assays"
+  },
+  {
+   "section": "article",
+   "text": "Growth curves were generated using the BioLector microfermentation system (m2p-biolabs) as previously described<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation>. <sentence_start/>Caffeine and rapamycin were used at concentrations of 100 mM and 100 ng mL<sup>\u22121</sup>, respectively while hydrogen peroxide at a concentration of 0.5 mM. <sentence_start/>Growth kinetics were analysed in R using the grofit package<citation ref-type=\"bibr\" rid=\"b18\" count=\"1\">18</citation> in order to calculate the time taken for biomass to increase by 25%. <sentence_start/>This is used as a proxy for caffeine and rapamycin resistance<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>. <sentence_start/>In the case of hydrogen peroxide treatment the lag phase difference between untreated and treated cells has been used as a proxy for resistance<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Chronological lifespan assays"
+  },
+  {
+   "section": "article",
+   "text": "Cells were grown in YES to stationary phase and assays were performed as previously described<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation>, using CFU counting with data normalised for the day when cells reached stationary phase (Day 0). <sentence_start/>Error bars represent standard deviations from three independent biological repeats, each one consisting of three technical repeats."
+  },
+  {
+   "section": "article",
+   "text": "SGA analyses"
+  },
+  {
+   "section": "article",
+   "text": "SGAs were performed using the Bioneer v5.0 haploid library<citation ref-type=\"bibr\" rid=\"b19\" doi=\"10.1038/nbt.1628\" pmcid=\"PMC3962850\" pmid=\"20473289\" count=\"1\">19</citation> essentially as described previously, with each interaction examined in quadruplicate and deriving from independent spore mass pick up<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation><citation ref-type=\"bibr\" rid=\"b20\" doi=\"10.1016/s0076-6879(10)70007-0\" pmid=\"20946810\" count=\"1\">20</citation>. <sentence_start/>Query strains were the following: <italic>h</italic>\u2212 <italic>gsk3::hphMX6, h</italic>\u2212 <italic>amk2::natMX6, h</italic>\u2212 <italic>gsk3::hphMX6 amk2::natMX6</italic> and control query <italic>h</italic>\u2212 <italic>ade6::natMX6</italic><citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>. <sentence_start/>Colony size was used as a proxy for double/triple mutant fitness. <sentence_start/>Colony size measurements were obtained using the gitter package in R<citation ref-type=\"bibr\" rid=\"b21\" doi=\"10.1534/g3.113.009431\" pmcid=\"PMC3962492\" pmid=\"24474170\" count=\"1\">21</citation> or the Spotsizer tool<citation ref-type=\"bibr\" rid=\"b22\" doi=\"10.2144/000114459\" pmid=\"27712582\" pmcid=\"PMC5321487\" count=\"1\">22</citation><citation ref-type=\"bibr\" rid=\"b23\" doi=\"10.1038/ng.3215\" pmcid=\"PMC4645456\" pmid=\"25665008\" count=\"1\">23</citation>. <sentence_start/>In order to exclude potentially spurious interaction values as a result of linkage, library mutants which fell within 100 kb distance of query mutations were excluded from the respective datasets. <sentence_start/>Any library mutants for which colony size of the <italic>ade6</italic> double mutant was less than 100 pixels were deemed to be present in too little amount for accurate interaction values to be calculated, and were hence excluded from the dataset. <sentence_start/>Interaction values were calculated as follows (in-house SGA analysis tool, Townsend <italic>et al</italic>., under preparation): colony sizes were normalised to the plate median in order to control for the effect of the query mutation and plate-specific effects; colony sizes were also normalised for column- or row-specific effects. <sentence_start/>A median filter was applied to identify and correct for local spatial effects. <sentence_start/>Medians of colony sizes of the <italic>gsk3, amk2</italic> and <italic>gsk3 amk2</italic> SGAs were normalised with respect to the <italic>ade6</italic> SGA (which represents fitness of library single mutants as query does not alter fitness of library) to calculate the value of genetic interactions between query mutants and library mutants. <sentence_start/>Interactions with high within-replicate variability were excluded. <sentence_start/>Finally, the logarithms in base 10 of the interaction were used for interaction scores. <sentence_start/>For practical reasons, +2 and \u22122 were taken to be the maximum and minimum values for interaction scores, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Enrichment analyses of interactions"
+  },
+  {
+   "section": "article",
+   "text": "Cut-offs for interactions with <italic>gsk3</italic> and <italic>amk2</italic> were \u22120.15 and + 0.15. <sentence_start/>Enrichment analyses were performed using the AnGeLi tool<citation ref-type=\"bibr\" rid=\"b24\" doi=\"10.3389/fgene.2015.00330\" pmid=\"26635866\" pmcid=\"PMC4644808\" count=\"1\">24</citation>, for which p-values were corrected for multiple tests according to FDR. <sentence_start/>Enrichment analysis was conducted by comparing lists of interacting genes to all genes in the dataset (Bioneer v5.0 collection strains)."
+  },
+  {
+   "section": "article",
+   "text": "Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Gsk3 suppresses cellular functions of TORC1"
+  },
+  {
+   "section": "article",
+   "text": "Fission yeast <italic>gsk3\u0394</italic> cells are resistant to TORC1 inhibition by combined treatment with caffeine and rapamycin (Fig. 1a)<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>. <sentence_start/>To gain insight into functional relationships of Gsk3 within the TOR signalling network, we examined how Gsk3 affects phenotypes related to TORC1 inhibition. <sentence_start/>TORC1 was inhibited by deletion of <italic>tco89</italic> (a non-essential subunit of TORC1)<citation ref-type=\"bibr\" rid=\"b2\" pmid=\"22645648\" doi=\"10.1098/rsob.110007\" pmcid=\"PMC3352084\" count=\"1\">2</citation> and/or by combined treatment with caffeine and rapamycin<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation>. <sentence_start/>The time taken for biomass to increase by 25% for normal or mutant cells grown in the absence or presence of caffeine and rapamycin was used for growth assessment<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>. <sentence_start/>The severity of TORC1 inhibition negatively correlated with cell growth, with combined deletion of <italic>tco89</italic> and drug treatment representing the most severe inhibition (Fig. 1b). <sentence_start/>Deletion of <italic>gsk3</italic> was able to rescue the growth defect associated with a mild TORC1 inhibition (<italic>tco89\u0394</italic> cells) as well as the phenotype of severe TORC1 inhibition (Fig. 1b, combination of <italic>tco89\u0394</italic> and drug treatment). <sentence_start/>Furthermore, deletion of <italic>gsk3</italic> largely rescued the reduced cell size at division triggered by both pharmacological and genetic TORC1 inhibition (Fig. 1c). <sentence_start/>Cells deleted for both <italic>gsk3</italic> and <italic>tco89</italic> also showed a short CLS, similar to the <italic>gsk3\u0394</italic> single mutant<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation> (Fig. 1d). <sentence_start/>Together, these results indicate that fission yeast Gsk3 counteracts TORC1 function. <sentence_start/>This could be achieved either upstream of TORC1 by reducing TORC1 activity itself and/or downstream of TORC1 by inhibiting cell growth. <sentence_start/>These two scenarios are not mutually exclusive, because Gsk3 is an upstream regulator affecting the TSC2 inhibitor of TORC1<citation ref-type=\"bibr\" rid=\"b25\" doi=\"10.1016/j.cell.2006.06.055\" pmid=\"16959574\" count=\"1\">25</citation>, which is conserved in fission yeast<citation ref-type=\"bibr\" rid=\"b26\" pmid=\"12136010\" doi=\"10.1093/genetics/161.3.1053\" pmcid=\"PMC1462175\" count=\"1\">26</citation> and has also been shown to function downstream of TORC1<citation ref-type=\"bibr\" rid=\"b27\" doi=\"10.1016/j.molcel.2006.09.019\" pmid=\"17052453\" pmcid=\"PMC1880887\" count=\"1\">27</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Gsk3 and AMPK act in parallel to inhibit TORC1-dependent processes"
+  },
+  {
+   "section": "article",
+   "text": "Previous studies have shown that AMPK negatively regulates TORC1-related processes<citation ref-type=\"bibr\" rid=\"b28\" doi=\"10.1016/j.cub.2014.12.034\" pmid=\"25639242\" pmcid=\"PMC4331286\" count=\"1\">28</citation>. <sentence_start/>We therefore tested the response of cells lacking <italic>ssp2 (AMPK\u03b1</italic>) or <italic>amk2 (AMPK\u03b2</italic>) for caffeine and rapamycin resistance. <sentence_start/>Like <italic>gsk3\u0394</italic> cells, deletion of <italic>amk2</italic> or <italic>ssp2</italic> resulted in cells whose growth was less inhibited in the presence of caffeine and rapamycin compared to wild-type cells (Fig. 2a). <sentence_start/>Furthermore, combined deletion of <italic>gsk3</italic> and either <italic>amk2</italic> or <italic>ssp2</italic> resulted in an even lower inhibition of cell growth by caffeine and rapamycin than shown by any of the three single mutants. <sentence_start/>This additive resistance to caffeine and rapamycin of the double mutants suggests that Gsk3 and AMPK operate in parallel to negatively regulate TORC1-dependent processes."
+  },
+  {
+   "section": "article",
+   "text": "Ssp1 is a direct upstream activator of AMPK and <italic>ssp1</italic> deletion results in loss of AMPK activity<citation ref-type=\"bibr\" rid=\"b28\" doi=\"10.1016/j.cub.2014.12.034\" pmid=\"25639242\" pmcid=\"PMC4331286\" count=\"1\">28</citation><citation ref-type=\"bibr\" rid=\"b29\" doi=\"10.1242/jcs.098533\" pmid=\"22375066\" count=\"1\">29</citation>. <sentence_start/>We therefore expected that the phenotype of <italic>ssp1\u0394</italic> cells will mimic that of <italic>amk2\u0394</italic> and <italic>ssp2\u0394</italic> cells. <sentence_start/>Indeed, <italic>ssp1\u0394</italic> cells showed lowered inhibition of growth by caffeine and rapamycin (Fig. 2b). <sentence_start/>However, the <italic>ssp1\u0394 gsk3\u0394</italic> double mutant cells showed higher inhibition of cell growth by caffeine and rapamycin, in stark contrast to the <italic>amk2\u0394 gsk3\u0394</italic> and <italic>ssp2\u0394 gsk3\u0394</italic> double mutants. <sentence_start/>This result suggests that Ssp1 is required for the resistance of <italic>gsk3\u0394</italic> cells to caffeine and rapamycin. <sentence_start/>To further explore the relationship between Ssp1 and Gsk3, we measured cell sizes at division of <italic>ssp1\u0394</italic> and <italic>ssp1\u0394 gsk3\u0394</italic> mutants. <sentence_start/>As previously reported<citation ref-type=\"bibr\" rid=\"b28\" doi=\"10.1016/j.cub.2014.12.034\" pmid=\"25639242\" pmcid=\"PMC4331286\" count=\"1\">28</citation>, <italic>ssp1\u0394</italic> cells were elongated and the <italic>ssp1\u0394 gsk3\u0394</italic> double mutant cells showed an even greater increase in cell length (Fig. 2c). <sentence_start/>Thus, deletion of <italic>gsk3</italic> exacerbates the elongated phenotype of <italic>ssp1\u0394</italic> cells. <sentence_start/>The PInt tool<citation ref-type=\"bibr\" rid=\"b30\" doi=\"10.1534/g3.111.001560\" pmcid=\"PMC3337474\" pmid=\"22540037\" count=\"1\">30</citation> predicts a physical interaction between Gsk3 and Ssp1, implying that Gsk3 can operate upstream of AMPK. <sentence_start/>However, using co-immunoprecipitation assays, we found no evidence for any direct interaction between Gsk3 and Ssp1 (data not shown). <sentence_start/>Together, these results reveal a functional relationship between Gsk3 and Ssp1 that is distinct from the relationship between Gsk3 and AMPK components."
+  },
+  {
+   "section": "article",
+   "text": "To further investigate relationships between Gsk3 and AMPK, we performed CLS assays. <sentence_start/>As reported before<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>, <italic>gsk3\u0394</italic> cells showed a reduced CLS in rich medium (Fig. 1d), whilst the CLS of <italic>amk2\u0394</italic> cells was similar to that of wild-type cells (Fig. 2d). <sentence_start/>However, the CLS of <italic>amk2\u0394 gsk3\u0394</italic> double mutant cells was reduced compared to wild-type cells: initially the lifespan of the double mutant was intermediate of the single mutants, whilst in later time points was severely reduced. <sentence_start/>Together, these findings suggest that Gsk3 can act independently of AMPK in different contexts. <sentence_start/>In mammalian cells, GSK3 and AMPK signalling are integrated at TSC2, which then inhibits mTORC1<citation ref-type=\"bibr\" rid=\"b25\" doi=\"10.1016/j.cell.2006.06.055\" pmid=\"16959574\" count=\"1\">25</citation> and the relationship between AMPK, the TSC1/2 complex and TORC1 is conserved in fission yeast<citation ref-type=\"bibr\" rid=\"b28\" doi=\"10.1016/j.cub.2014.12.034\" pmid=\"25639242\" pmcid=\"PMC4331286\" count=\"1\">28</citation>. <sentence_start/>It is not known whether Gsk3 and Tsc2 functionally interact in fission yeast. <sentence_start/>AMPK is linked to transcriptional responses, such as the nuclear accumulation of the transcription factor Ste11, which triggers sexual differentiation in response to nitrogen starvation<citation ref-type=\"bibr\" rid=\"b29\" doi=\"10.1242/jcs.098533\" pmid=\"22375066\" count=\"1\">29</citation>. <sentence_start/>Taken together, these results suggest that Gsk3 and AMPK largely act in parallel to mediate cellular responses related to TORC1 signalling."
+  },
+  {
+   "section": "article",
+   "text": "Genetic interactions of <italic>gsk3</italic> and <italic>amk2</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Genetic (or epistatic) interactions reveal functional relationships between genes and pathways. <sentence_start/>Negative genetic interactions suggest compensatory, redundant pathways or protein complexes, while positive genetic interactions can reflect functions within the same pathway<citation ref-type=\"bibr\" rid=\"b31\" doi=\"10.1038/nrg3574\" pmcid=\"PMC4023809\" pmid=\"24197012\" count=\"1\">31</citation>, but most genetic interactions reveal broad phenotypic connections between functional modules or biological processes<citation ref-type=\"bibr\" rid=\"b32\" doi=\"10.1101/gr.117176.110\" pmid=\"21715556\" pmcid=\"PMC3149503\" count=\"1\">32</citation>. <sentence_start/>We conducted synthetic genetic array (SGA) analyses<citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation><citation ref-type=\"bibr\" rid=\"b20\" doi=\"10.1016/s0076-6879(10)70007-0\" pmid=\"20946810\" count=\"1\">20</citation> to identify genome-wide genetic interactions of <italic>gsk3</italic> and <italic>amk2</italic>. <sentence_start/>The query strains, which all showed equal fitness when grown on YES (data not shown), were crossed against all non-essential mutants in a deletion library<citation ref-type=\"bibr\" rid=\"b19\" doi=\"10.1038/nbt.1628\" pmcid=\"PMC3962850\" pmid=\"20473289\" count=\"1\">19</citation>."
+  },
+  {
+   "section": "article",
+   "text": "We analysed genes showing positive or negative interactions with <italic>gsk3\u0394</italic> for enrichments with AnGeLi<citation ref-type=\"bibr\" rid=\"b24\" doi=\"10.3389/fgene.2015.00330\" pmid=\"26635866\" pmcid=\"PMC4644808\" count=\"1\">24</citation>, using the non-essential genes present in the deletion library as a reference<citation ref-type=\"bibr\" rid=\"b19\" doi=\"10.1038/nbt.1628\" pmcid=\"PMC3962850\" pmid=\"20473289\" count=\"1\">19</citation>. <sentence_start/>The data for all genetic interactions are presented in Supplemental Table 1. <sentence_start/>As expected, a bias of negative interactions with <italic>gsk3</italic> was evident around the genomic locus of <italic>gsk3,</italic> reflecting genetic linkage (blue line in Fig. 3a). <sentence_start/>For the same reason, a bias towards positive interactions was evident around the <italic>ade6</italic> locus, because <italic>ade6</italic> SGAs were used for control and normalisation purposes (red line in Fig. 3a)."
+  },
+  {
+   "section": "article",
+   "text": "Negative interactions with <italic>gsk3</italic> were enriched for Gene Ontology (GO) categories related to protein translation, histone modification, endosome to vacuole transport, protein metabolic process and protein modification by small protein conjugation or removal, i.e. ubiquitination or ubiquitin-proteasome system (UPS). <sentence_start/>Further investigations will be required to define how and under which conditions Gsk3 may be functionally associated with the UPS. <sentence_start/>As Gsk3 suppresses TORC1-related phenotypes (Fig. 1), a plausible mechanism is through regulation of protein synthesis, which is a major determinant of CLS<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation><citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation><citation ref-type=\"bibr\" rid=\"b33\" pmid=\"23715437\" doi=\"10.18632/aging.100560\" pmcid=\"PMC3701107\" count=\"1\">33</citation>. <sentence_start/>Positive interactions were enriched for genes related to abnormal cell shape, decreased population growth and stress (Supplemental Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Among the positive interactors of <italic>gsk3</italic> was s<italic>te20</italic> which encodes the Rictor homologue, a core component of TORC2<citation ref-type=\"bibr\" rid=\"b2\" pmid=\"22645648\" doi=\"10.1098/rsob.110007\" pmcid=\"PMC3352084\" count=\"1\">2</citation>. <sentence_start/>To validate this genetic interaction, we performed CLS assays. <sentence_start/>While <italic>ste20</italic> mutant cells were even more short-lived than <italic>gsk3</italic> mutant cells, the double mutant cells, albeit short-lived compared to wild-type, showed a somewhat longer CLS than either single mutant (Fig. 3b). <sentence_start/>Thus, <italic>gsk3</italic> and s<italic>te20</italic> show a positive genetic interaction also in the phenotypic context of CLS. <sentence_start/>TORC2 is required for various stresses including oxidative stress<citation ref-type=\"bibr\" rid=\"b34\" doi=\"10.1371/journal.pone.0115602\" pmid=\"25531880\" pmcid=\"PMC4274107\" count=\"1\">34</citation>. <sentence_start/>Both <italic>gsk3</italic> and s<italic>te20</italic> single mutants showed increased resistance to hydrogen peroxide (Fig. 3c), exhibiting a shorter lag-phase extension between treated and untreated conditions compared to wild-type<citation ref-type=\"bibr\" rid=\"b4\" doi=\"10.1111/acel.12080\" pmid=\"23551936\" pmcid=\"PMC3798131\" count=\"1\">4</citation><citation ref-type=\"bibr\" rid=\"b15\" pmid=\"24463365\" doi=\"10.1242/bio.20147245\" pmcid=\"PMC3925319\" count=\"1\">15</citation>. <sentence_start/>Surprisingly, the double mutant was sensitive to the same oxidative-stress treatment (Fig. 3c). <sentence_start/>As stress and growth programs are antagonistic<citation ref-type=\"bibr\" rid=\"b35\" doi=\"10.1038/nrg2398\" pmid=\"18591982\" count=\"1\">35</citation>, this result of decreased stress resistance of the double mutant is consistent with the improved growth recorded in the SGA screens. <sentence_start/>The <italic>ste20\u0394</italic> cells were larger upon division compared to wild-type, and this phenotype was further enhanced in the <italic>gsk3\u0394 ste20\u0394</italic> double mutant (Fig. 3d). <sentence_start/>In contrast, the phenotype of the elongated <italic>sin1\u0394</italic> mutant cells, which are also defective in TORC2, was diminished in the <italic>gsk3\u0394 sin1\u0394</italic> double mutant. <sentence_start/>These results reveal diverse, complex and antagonistic genetic interactions of <italic>gsk3</italic> with genes encoding TORC2 components. <sentence_start/>We conclude that the relationship between Gsk3 and TORC2 is multifaceted, and it is possible that TORC2 activities are determined by several distinct thresholds of activation."
+  },
+  {
+   "section": "article",
+   "text": "As expected, the SGA screens with <italic>amk2</italic> showed a negative interaction bias around the <italic>amk2</italic> locus on chromosome 2 (blue line, Fig. 4a) and a positive interaction bias around the <italic>ade6</italic> locus (red line, Fig. 4a). <sentence_start/>The negative interactions with <italic>amk2</italic> were enriched for phenotypes<citation ref-type=\"bibr\" rid=\"b36\" doi=\"10.1093/bioinformatics/btt266\" pmcid=\"PMC3694669\" pmid=\"23658422\" count=\"1\">36</citation> such as sensitivity to chemical during vegetative growth (FYPO:0000127, 0002683), abnormal cellular physical quality (FYPO: 0004638), and chromatin silencing at centromere (FYPO: 0002346, 0003412) (Supplemental Table 2). <sentence_start/>Genes showing positive genetic interactions were enriched for phenotypes related to stress and abnormal cell shape. <sentence_start/>Although there was no significant enrichment in GO terms, many interacting genes were related to amino acid metabolism, lipid homeostasis, and DNA repair. <sentence_start/>Notably, loss of AMPK reduces the activity of enzymes responsible for UVB-induced DNA repair in mammalian cells<citation ref-type=\"bibr\" rid=\"b37\" doi=\"10.1038/onc.2012.279\" pmid=\"22751115\" pmcid=\"PMC3465498\" count=\"1\">37</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The genetic interactions of <italic>gsk3</italic> and <italic>amk2</italic> were moderately correlated with each other (Fig. 4b). <sentence_start/>Genes that either positively or negatively interacted with both <italic>gsk3</italic> and <italic>amk2</italic> were more abundant than genes that interacted only with one of the two genes (Fig. 4c). <sentence_start/>There were 69 common negative and 82 common positive genetic interactions (Fig. 4d). <sentence_start/>These common gene lists showed no functional enrichments in AnGeLi<citation ref-type=\"bibr\" rid=\"b24\" doi=\"10.3389/fgene.2015.00330\" pmid=\"26635866\" pmcid=\"PMC4644808\" count=\"1\">24</citation>. <sentence_start/>We conclude that Amk2 and Gsk3 play roles in the same phenotypes (such as stress and abnormal cell shape) through both common and specific interactors."
+  },
+  {
+   "section": "article",
+   "text": "Triple mutant SGA: providing additional insights into Gsk3 and Amk2 functions"
+  },
+  {
+   "section": "article",
+   "text": "Given that <italic>gsk3</italic> and <italic>amk2</italic> mutants suppress TOR-related phenotypes additively (Fig. 2), we also conducted an SGA screen to interrogate triple mutant cells, with <italic>gsk3\u0394 amk2\u0394</italic> double mutant cells as query<citation ref-type=\"bibr\" rid=\"b38\" doi=\"10.1038/nprot.2014.127\" pmid=\"25010907\" pmcid=\"PMC4167031\" count=\"1\">38</citation><citation ref-type=\"bibr\" rid=\"b39\" doi=\"10.1016/j.celrep.2013.05.007\" pmid=\"23746449\" pmcid=\"PMC3718395\" count=\"1\">39</citation>. <sentence_start/>As in the case of the single mutant query SGA screens, linkage effects for positive and negative interactions were present in the double mutant query (Fig. 5a, blue and red lines for negative and positive interactions, respectively). <sentence_start/>The distribution of interaction values of the double mutant query showed a larger dynamic range than the values of the single mutant queries. <sentence_start/>This result reflects that a larger number of interactions were identified with the <italic>gsk3\u0394 amk2\u0394</italic> (Fig. 5b). <sentence_start/>The interactions of the <italic>gsk3\u0394 amk2\u0394</italic> double mutant were positively correlated with those of both single mutant queries: <italic>gsk3\u0394</italic> (R = 0.38, Fig. 5c) and <italic>amk2\u0394</italic> (R = 0.46, Fig. 5d). <sentence_start/>A bias towards negative interactions was evident (see data points\u2019 displacement in Figure c and d, and tail of double mutant line in Fig. 5b towards left part of graph). <sentence_start/>While yeast genomes only contain a few hundred essential genes, there are hundreds of thousands of double mutants that are lethal. <sentence_start/>For example, in budding yeast there are 1100 essential genes and 550,000 gene pairs that are essential together<citation ref-type=\"bibr\" rid=\"b40\" doi=\"10.1126/science.1180823\" pmcid=\"PMC5600254\" pmid=\"20093466\" count=\"1\">40</citation>. <sentence_start/>By extension, it is not surprising that triple mutants result in an even larger number of cases of synthetic lethality or sickness."
+  },
+  {
+   "section": "article",
+   "text": "We identified 425 positive and 777 negative genetic interactions with <italic>gsk3 amk2</italic> double mutants (applying cut-offs of +0.15 and \u22120.15, respectively). <sentence_start/>While positive interactions showed no functional enrichment (Supplemental Table 2), negative interactions were enriched in the GO terms \u2018chromatin and gene silencing\u2019, \u2018protein translation\u2019 and \u2018gene products for localisation to the mitochondria\u2019. <sentence_start/>Gsk3 and AMPK might together regulate factors linked to chromatin function and to respiration and detoxification of metabolic waste products. <sentence_start/>Interestingly, negative interactions were also enriched for genes induced during the oxidative stress response<citation ref-type=\"bibr\" rid=\"b41\" doi=\"10.1091/mbc.E07-08-0735\" pmid=\"18003976\" pmcid=\"PMC2174203\" count=\"1\">41</citation> Compared to the single mutant queries, 305 positive and 496 negative genetic interactions were specific for the double mutant query. <sentence_start/>While the negative interactions were enriched for highly expressed genes, mutants with sensitivity to 5\u2032-fluorouracil, a uracil analogue commonly utilised as a chemotherapeutic agent in the treatment of a range of cancers<citation ref-type=\"bibr\" rid=\"b42\" doi=\"10.4161/15384101.2014.974425\" pmcid=\"PMC4352961\" pmid=\"25483073\" count=\"1\">42</citation> are significantly under-represented. <sentence_start/>Notably, AMPK is emerging as an interesting metabolic tumour suppressor and a promising target for cancer prevention and therapy<citation ref-type=\"bibr\" rid=\"b43\" doi=\"10.2217/fon.09.174\" pmcid=\"PMC2854547\" pmid=\"20222801\" count=\"1\">43</citation>. <sentence_start/>This result highlights the principle that targeting multiple proteins simultaneously, e.g. by combined drugs, can greatly increase the effectiveness to combat cancer cells<citation ref-type=\"bibr\" rid=\"b44\" doi=\"10.1038/msb.2013.54\" pmid=\"24104479\" pmcid=\"PMC3817404\" count=\"1\">44</citation>, and triple action treatments open up even more possibilities to kill cancer cells."
+  },
+  {
+   "section": "article",
+   "text": "In mammalian cells, Gsk3 is primarily known for its role in canonical Wnt signalling via \u03b2-catenin<citation ref-type=\"bibr\" rid=\"b45\" doi=\"10.1038/nrc2389\" pmid=\"18432252\" count=\"1\">45</citation>. <sentence_start/>Previous work has also shown that Gsk3 operates in parallel to AMPK for mTORC1 inhibition via TSC2<citation ref-type=\"bibr\" rid=\"b25\" doi=\"10.1016/j.cell.2006.06.055\" pmid=\"16959574\" count=\"1\">25</citation>. <sentence_start/>Functional relationships of AMKP, Gsk3 and TOR are likely conserved from fission yeast to mammals. <sentence_start/>Our work provides rich data sets for both common and specific interactors that may relate to TORC1 function and associated cell physiology and disease."
+  },
+  {
+   "section": "article",
+   "text": "Additional Information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>How to cite this article</bold>: Rallis, C. <italic>et al</italic>. Genetic interactions and functional analyses of the fission yeast <italic>gsk3</italic> and <italic>amk2</italic> single and double mutants defective in TORC1-dependent processes. <sentence_start/><italic>Sci. Rep.</italic> <bold>7</bold>, 44257; doi: 10.1038/srep44257 (2017)."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Supplemental Tables"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no competing financial interests."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Author Contributions</bold> C.R. designed the experiments, C.R. and S.T. did the experiments, C.R., S.T. and J.B. wrote the paper."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Deletion of <italic>gsk3</italic> represses phenotypes associated with TORC1 inhibition."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Spot tests of wild-type (<italic>wt</italic>) and <italic>gsk3\u0394</italic> cells in the presence or absence of drugs as indicated. <sentence_start/>(<bold>b</bold>) Graph showing times to reach 25% of maximum cell mass increase for different strains with or without drug treatment as indicated. <sentence_start/>(<bold>c</bold>) Cell size upon division for different strains as indicated; cafrap: caffeine and rapamycin treatment. <sentence_start/>(<bold>d</bold>) CLS assays of different strains as indicated. <sentence_start/>Error bars represent standard deviations of three independent biological repeats."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Deletions of <italic>gsk3</italic> and <italic>amk2</italic> additively repress phenotypes associated with TORC1 inhibition."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Graph showing the times to achieve 25% increase in cell mass for wild-type (<italic>wt</italic>) and mutant cells as indicated under caffeine and rapamycin treatment. <sentence_start/>(<bold>b</bold>) Times to achieve 25% increase in cell mass as in panel A, with strains as indicated. <sentence_start/>(<bold>c</bold>) Cell size upon division for strains shown in panel B. <sentence_start/>(<bold>d</bold>) CLS assays for different strains as indicated. <sentence_start/>Error bars indicate standard deviations from three biological repeats."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Genetic interactions of <italic>gsk3</italic> and <italic>ste20</italic> mutants."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Physical mapping along the three chromosomes of mutants that genetically interact with <italic>gsk3</italic>. <sentence_start/>Blue and red lines indicate the <italic>gsk3</italic> and <italic>ade6</italic> loci, respectively. <sentence_start/>(<bold>b</bold>) CLS assays comparing wild-type (<italic>wt</italic>) and mutant cells as indicated. <sentence_start/>Error bars indicate standard deviations from three biological repeats. <sentence_start/>(<bold>c</bold>) Comparisons of lag phase with oxidative stress minus lag phase without oxidative stress (Delta lag) in hrs for different strains as indicated. <sentence_start/>(<bold>d</bold>) Cell size upon division for different single and double mutants as indicated."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Relationships of genetic interactions of <italic>gsk3</italic> and <italic>amk2</italic>."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Physical mapping along the three chromosomes of mutants that genetically interact with <italic>gsk3</italic>. <sentence_start/>Blue and red lines indicate the <italic>amk2</italic> and <italic>ade6</italic> loci, respectively. <sentence_start/>(<bold>b</bold>) Distribution of <italic>gsk3</italic> interactions with respect to <italic>amk2</italic> interactions. <sentence_start/>Red lines indicate cut-offs used for positive and negative interactions. <sentence_start/>(<bold>c</bold>) Genetic interactions were classified as positive (interaction value i \u22650.15) negative (i \u2264 0.15) or neutral (\u22120.15 &lt; i &lt; 0.15) for both <italic>gsk3</italic> and <italic>amk2</italic>. <sentence_start/>The numbers of genes for each category are indicated. <sentence_start/>(<bold>d</bold>) Venn diagram showing overlaps of negative genetic interactions for <italic>gsk3</italic> and <italic>amk2</italic>. <sentence_start/>(<bold>e</bold>) Venn diagram showing overlaps of positive genetic interactions for <italic>gsk3</italic> and <italic>amk2</italic>."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Triple mutant SGA using <italic>gsk3 amk2</italic> as query."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Physical mapping along the three chromosomes of mutants that genetically interact with <italic>gsk3 amk2</italic> double mutant. <sentence_start/>Blue lines on Chromosomes I and III represent the genetic loci of <italic>gsk3</italic> and <italic>amk2,</italic> respectively, while the red line indicates the <italic>ade6</italic> locus. <sentence_start/>(<bold>b</bold>) Distributions of genetic interaction values for the three SGAs conducted in this study. <sentence_start/>Vertical dotted lines represent the cut-offs used. <sentence_start/>(<bold>c</bold>) Plot showing distribution of the <italic>gsk3</italic> interaction values compared to the interaction values of the <italic>gsk3 amk2</italic> double mutant. <sentence_start/>Red lines represent the cut-offs used. <sentence_start/>(<bold>d</bold>) Plot showing distribution the <italic>amk2</italic> interaction values compared to the interaction values of the <italic>gsk3 amk2</italic> double mutant. <sentence_start/>Red lines represent the cut-offs used. <sentence_start/>(<bold>e</bold>) Venn diagram showing overlaps of negative genetic interactions for the <italic>gsk3</italic> and <italic>amk2</italic> single mutants and the <italic>gsk3 amk2</italic> double mutant. <sentence_start/>(<bold>f</bold>) Venn diagram showing overlaps of positive genetic interactions for the <italic>gsk3</italic> and <italic>amk2</italic> single mutants and the <italic>gsk3 amk2</italic> double mutant."
+  }
+ ]
+}

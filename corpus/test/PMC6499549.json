@@ -1,0 +1,323 @@
+{
+ "pmid": 31058226,
+ "pmcid": 6499549,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Electrospray sample injection for single-particle imaging with x-ray lasers"
+  },
+  {
+   "section": "abstract",
+   "text": "Electrospray contaminant-free delivery of proteins to x-ray laser heralds the start of single-protein x-ray diffractive imaging."
+  },
+  {
+   "section": "abstract",
+   "text": "The possibility of imaging single proteins constitutes an exciting challenge for x-ray lasers. <sentence_start/>Despite encouraging results on large particles, imaging small particles has proven to be difficult for two reasons: not quite high enough pulse intensity from currently available x-ray lasers and, as we demonstrate here, contamination of the aerosolized molecules by nonvolatile contaminants in the solution. <sentence_start/>The amount of contamination on the sample depends on the initial droplet size during aerosolization. <sentence_start/>Here, we show that, with our electrospray injector, we can decrease the size of aerosol droplets and demonstrate virtually contaminant-free sample delivery of organelles, small virions, and proteins. <sentence_start/>The results presented here, together with the increased performance of next-generation x-ray lasers, constitute an important stepping stone toward the ultimate goal of protein structure determination from imaging at room temperature and high temporal resolution."
+  },
+  {
+   "section": "article",
+   "text": "INTRODUCTION"
+  },
+  {
+   "section": "article",
+   "text": "Coherent diffractive imaging (<citation rid=\"R1\" ref-type=\"bibr\" count=\"1\"><italic>1</italic></citation>, <citation rid=\"R2\" ref-type=\"bibr\" pmid=\"25931551\" doi=\"10.1126/science.aaa1394\" count=\"1\"><italic>2</italic></citation>) with femtosecond ultrabright pulses from x-ray free-electron lasers (XFELs) has been proposed as a way to outrun key damage processes, allowing diffraction data to be recorded from a virtually undamaged particle before the particle is obliterated by the intense pulse (<citation rid=\"R3\" ref-type=\"bibr\" pmid=\"10963603\" doi=\"10.1038/35021099\" count=\"1\"><italic>3</italic></citation>, <citation rid=\"R4\" ref-type=\"bibr\" pmid=\"19079804\" doi=\"10.1017/S003358350800471X\" count=\"1\"><italic>4</italic></citation>). <sentence_start/>This opens new possibilities for the high-resolution imaging of biological samples without freezing, sectioning, or staining. <sentence_start/>Thus far, this method has not yet fulfilled its early promise of high-resolution subnanometer imaging. <sentence_start/>The scarcity of experimental time, demanding sample delivery requirements, and limited beam flux have been the main obstacles (<citation rid=\"R5\" ref-type=\"bibr\" pmid=\"26798801\" doi=\"10.1063/1.4918726\" pmcid=\"PMC4711616\" count=\"1\"><italic>5</italic></citation>). <sentence_start/>These are slowly being tackled by the increase in performance and number of XFELs around the world, as well as improvements in sample delivery technology. <sentence_start/>Despite these challenges, the method has been successfully applied to large viruses, organelles, and even entire cells (<citation rid=\"R6\" ref-type=\"bibr\" pmid=\"21293374\" doi=\"10.1038/nature09748\" pmcid=\"PMC4038304\" count=\"1\"><italic>6</italic></citation>-<citation rid=\"R8\" ref-type=\"bibr\" pmid=\"25669616\" doi=\"10.1038/ncomms6704\" count=\"1\"><italic>8</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "High-fluence XFEL beams, specialized detectors, low background noise, and efficient sample delivery into the XFEL focus were critical for the success of these pioneering studies (<citation rid=\"R6\" ref-type=\"bibr\" pmid=\"21293374\" doi=\"10.1038/nature09748\" pmcid=\"PMC4038304\" count=\"1\"><italic>6</italic></citation>, <citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>, <citation rid=\"R9\" ref-type=\"bibr\" pmid=\"18095739\" doi=\"10.1021/nl072728k\" count=\"1\"><italic>9</italic></citation>). <sentence_start/>The most widely used injector for this approach, the Uppsala injector (<citation rid=\"R10\" ref-type=\"bibr\" doi=\"10.1107/S2052252518010837\" pmcid=\"PMC6211534\" pmid=\"30443352\" count=\"1\"><italic>10</italic></citation>), generates a droplet aerosol by atomizing the sample solution with a gas-dynamic virtual nozzle (GDVN) (<citation rid=\"R11\" ref-type=\"bibr\" count=\"1\"><italic>11</italic></citation>). <sentence_start/>The volatile droplet components evaporate, leaving behind one aerosol particle for every occupied droplet. <sentence_start/>A skimmer removes excess aerosol carrier gas, and an aerodynamic lens focuses the aerosol to a narrow beam that is directed into the XFEL focus for imaging individual aerosol particles. <sentence_start/>While this injector has been used for imaging biological particles with diameters between 80 nm (<citation rid=\"R12\" ref-type=\"bibr\" pmid=\"29077445\" doi=\"10.1103/PhysRevLett.119.158102\" pmcid=\"PMC5757528\" count=\"1\"><italic>12</italic></citation>) and 2000 nm (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>), imaging smaller particles has proven challenging (<citation rid=\"R13\" ref-type=\"bibr\" pmid=\"22418172\" doi=\"10.1364/OE.20.004149\" count=\"1\"><italic>13</italic></citation>, <citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/S2052252517003591\" pmcid=\"PMC5414399\" pmid=\"28512572\" count=\"1\"><italic>14</italic></citation>). <sentence_start/>Particles appeared rounder and larger and showed a higher level of polydispersity than in solution (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>, <citation rid=\"R13\" ref-type=\"bibr\" pmid=\"22418172\" doi=\"10.1364/OE.20.004149\" count=\"1\"><italic>13</italic></citation>, <citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/S2052252517003591\" pmcid=\"PMC5414399\" pmid=\"28512572\" count=\"1\"><italic>14</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "It has been suspected that large and polydisperse initial droplets may be the cause for this size and shape mismatch (<citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/S2052252517003591\" pmcid=\"PMC5414399\" pmid=\"28512572\" count=\"1\"><italic>14</italic></citation>). <sentence_start/>Nonvolatile contaminants are often unavoidable components of the sample solution, and the initial droplet size determines how much remains attached to the aerosolized particle after solvent evaporation. <sentence_start/>This problem is also known in electrospray (ES)-ionization mass spectrometry, as these contaminants degrade the mass spectral signal-to-noise ratio (<citation rid=\"R15\" ref-type=\"bibr\" pmid=\"17406634\" doi=\"10.1038/nprot.2007.73\" count=\"1\"><italic>15</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "For droplet formation with GDVNs, a narrow cone-jet from the nozzle of a capillary is hydrodynamically tapered by a He sheath gas, up to the point at which the jet becomes unstable and breaks up into small droplets. <sentence_start/>This jet-atomization technique is efficient for the continuous creation of a large number of aerosol droplets with diameters of micrometers to submicrometers (<citation rid=\"R11\" ref-type=\"bibr\" count=\"1\"><italic>11</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "ES is an alternative jet-atomization technique (<citation rid=\"R16\" ref-type=\"bibr\" count=\"1\"><italic>16</italic></citation>, <citation rid=\"R17\" ref-type=\"bibr\" pmid=\"19658592\" doi=\"10.1103/PhysRevE.79.066305\" count=\"1\"><italic>17</italic></citation>). <sentence_start/>By applying a voltage to the liquid, the jet is squeezed into a Taylor cone, by electrostatic forces, without the requirement of exerting pressure by a sheath gas. <sentence_start/>ES has become a very powerful method to aerosolize biological particles with a wide range of sizes for examination by mass spectrometry (<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"2675315\" doi=\"10.1126/science.2675315\" count=\"1\"><italic>18</italic></citation>, <citation rid=\"R19\" ref-type=\"bibr\" count=\"1\"><italic>19</italic></citation>) or differential mobility analysis (DMA) (<citation rid=\"R20\" ref-type=\"bibr\" pmid=\"21619100\" doi=\"10.1021/ac951128f\" count=\"1\"><italic>20</italic></citation>). <sentence_start/>Low flow rates and small droplets can be obtained, achieving gentle aerosolization with low contamination. <sentence_start/>A prerequisite for a stable Taylor cone is an inert and dielectric ambient gas that does not react and does not remove electrical charge from the liquid. <sentence_start/>A mixture of CO<sub>2</sub> and N<sub>2</sub> at a pressure of at least 800 mbar fulfills this requirement (<citation rid=\"R18\" ref-type=\"bibr\" pmid=\"2675315\" doi=\"10.1126/science.2675315\" count=\"1\"><italic>18</italic></citation>), which in our injector leads to a mass flow of 1.2 standard liters per minute (SLM) N<sub>2</sub> and 0.15 SLM CO<sub>2</sub>. <sentence_start/>In contrast, the GDVN produces less than 0.5 SLM of He."
+  },
+  {
+   "section": "article",
+   "text": "RESULTS"
+  },
+  {
+   "section": "article",
+   "text": "Characterization of droplet formation"
+  },
+  {
+   "section": "article",
+   "text": "We modified the design of the Uppsala aerosol sample injector and substituted the GDVN with an ES aerosolizer. <sentence_start/>To reduce the increased mass flow from the dielectric gas, we added an additional nozzle-skimmer stage (Fig. 1A). <sentence_start/>The operational parameters for the GDVN aerosolizer are substantially different from the ES aerosolizer (Table 1). <sentence_start/>While our GDVNs are operated at liquid flow rates (<italic>Q</italic>) on the order of microliters per minute, our ES aerosolizer is operated at ~20 times lower flow rates. <sentence_start/>As the droplet volume (<italic>V</italic>) of the ES aerosolizer is ~300 times smaller than for GDVNs, ES produces droplets at ~15 times higher rate (<italic>R</italic> = <italic>Q</italic>/<italic>V</italic>). <sentence_start/>Theoretically, therefore, higher hit rates should be achievable by ES compared to GDVN aerosolization under usual conditions."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "ES aerosol injector."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) Design of the ES aerosol injector. <sentence_start/>In the aerosolization chamber, the ES nebulizer generates droplets that are neutralized with a <sup>210</sup>Po alpha emitter. <sentence_start/>The ES nebulizer is operated in an atmosphere of N<sub>2</sub> and CO<sub>2</sub> at 1 bar. <sentence_start/>The aerosol is transported through two nozzle-skimmer assemblies, where excess gas is pumped away. <sentence_start/>At a reduced pressure of 1 to 10 mbar, the aerosol enters the aerosol lens stack, which focuses it to a narrow particle beam entering the experimental chamber, which is held at a pressure of 10<sup>\u22126</sup> to 10<sup>\u22125</sup> mbar to match requirements for XFEL imaging. <sentence_start/>(<bold>B</bold>) Size distributions of initial droplets for ES (green) and GDVN (blue) aerosols determined by RSM (top) and XFEL diffraction (bottom). <sentence_start/>The results of the two sizing methods are comparable within the limits of reproducibility expected for the manually manufactured nozzles and variations in operational parameters, such as pressures, voltage, and flow rate. <sentence_start/>(<bold>C</bold>) RSM size distributions of aerosolized particles from carboxysome sample (purple) and from its buffer solution (red). <sentence_start/>Data collected on electrosprayed particles are shown in the first panel (median, 95 nm; FWHM, 14 nm), and data collected on particles injected by GDVN at two different pressure configurations (Table 2) are shown in the second (median, 102 nm; FWHM, 17 nm) and third panels (median, 105 nm; FWHM, 17 nm). <sentence_start/>Dashed lines indicate the detection limit."
+  },
+  {
+   "section": "article",
+   "text": "To compare droplet formation between ES and GDVN, we first determined the size distributions of initial droplets of the two aerosolizers (Fig. 1B) by measuring the size of particles that are formed when injecting sucrose solution (<citation rid=\"R21\" ref-type=\"bibr\" count=\"1\"><italic>21</italic></citation>). <sentence_start/>Sizes were measured by Rayleigh scattering microscopy (RSM) (<citation rid=\"R10\" ref-type=\"bibr\" doi=\"10.1107/S2052252518010837\" pmcid=\"PMC6211534\" pmid=\"30443352\" count=\"1\"><italic>10</italic></citation>) and, in addition, by XFEL diffraction (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>, <citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/S2052252517003591\" pmcid=\"PMC5414399\" pmid=\"28512572\" count=\"1\"><italic>14</italic></citation>). <sentence_start/>The droplets generated with the GDVN span a wide range of diameters (500 to 2000 nm), whereas droplets generated with the ES aerosolizer are smaller and more monodisperse (100 to 200 nm)."
+  },
+  {
+   "section": "article",
+   "text": "For comparing bioparticle aerosols generated with the two injector designs, we selected carboxysomes as a biological test sample. <sentence_start/>Carboxysomes are polyhedral cell organelles that are heterogeneous in size with an average diameter of about 100 nm (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>). <sentence_start/>Using RSM, we found that particles have, on average, larger diameters if aerosolized with a GDVN compared to ES (Fig. 1C, purple histograms). <sentence_start/>This observation confirms that the amount of nonvolatile contaminants that accumulate on the surface of aerosol particles increases with the size of the initial droplet. <sentence_start/>Furthermore, control measurements on only buffer (Fig. 1C, red histograms) revealed the presence of contaminant particles in the GDVN aerosols. <sentence_start/>These are likely aggregates of nonvolatile buffer remaining after solvent evaporation from empty droplets."
+  },
+  {
+   "section": "article",
+   "text": "Experimental tests at an XFEL"
+  },
+  {
+   "section": "article",
+   "text": "We tested the ES injector for x-ray imaging at the Atomic, Molecular, Optical Sciences (AMO) beamline at the Linac Coherent Light Source (LCLS). <sentence_start/>As test samples, we selected carboxysomes, tomato bushy stunt virus (TBSV) particles, and the protein ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco, EC 4.1.1.39)."
+  },
+  {
+   "section": "article",
+   "text": "In a previous study with GDVN aerosolization, we obtained high-quality diffraction images on carboxysomes, albeit most of the particles appeared round instead of icosahedral as would be expected (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>). <sentence_start/>From the new diffraction data with ES aerosolization (5000 hits recorded within 7 min), we reconstructed projection images of carboxysomes (Fig. 2A) and determined the size distribution (Fig. 2B). <sentence_start/>Almost all particles matched projections of an icosahedral particle, and both the median and SD of the size distribution are in agreement with our RSM measurements (Fig. 1C). <sentence_start/>These results confirm that ES injection, in comparison to GDVN aerosolization, reduces the amount of nonvolatile contaminants."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "XFEL diffraction data of biological particles injected with the ES aerosol injector."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) Simulated and measured diffraction patterns of carboxysomes and (<bold>B</bold>) their size distribution (median, 90 nm; FWHM, 13 nm) determined from the measured diffraction patterns. <sentence_start/>(<bold>C and D</bold>) Simulated and measured diffraction patterns of TBSV particles (C, singles; D, clusters of two) and (<bold>E</bold>) their size distribution (median, 30 nm; FWHM, 1 nm) determined from the measured diffraction patterns. <sentence_start/>Insets in (A), (C), and (D) show 2D projection images reconstructed from the respective diffraction patterns. <sentence_start/>The edge length of the insets corresponds to 220 nm."
+  },
+  {
+   "section": "article",
+   "text": "TBSV particles are monodisperse with a diameter of about 35 nm. <sentence_start/>Despite their small size, 6000 high-quality diffraction patterns of single and double particles (Fig. 2, C and D) were collected within 1 hour of data collection. <sentence_start/>Particle clusters are expected because of the high sample concentration and the possibility of double occupancy of the droplets. <sentence_start/>The reconstructed projection images show the expected shape. <sentence_start/>The size distribution has a full-width at half-maximum (FWHM) smaller than 1 nm (Fig. 2E), which shows that ES did not alter the size distribution of the sample."
+  },
+  {
+   "section": "article",
+   "text": "As a third test sample, we injected 11-nm-sized Rubisco proteins. <sentence_start/>The x-ray cross section for a Rubisco protein is about 30 times smaller than for a TBSV particle. <sentence_start/>In Fig. 3A, we compare the predicted signal (red dashed lines), using the measured incident peak intensity, to radially averaged diffraction data on injected Rubisco and respective control data on injected sample buffer solution, injection gas, and a dark run (solid lines in panels 1, 2, 3, and 4, respectively). <sentence_start/>The comparison shows that the predicted diffraction pattern for a single protein was too faint to exceed gas background fluctuations. <sentence_start/>Nevertheless, we found diffraction patterns that exceeded the amplitude of background fluctuations, and two examples are shown in Fig. 3B. <sentence_start/>From the diffraction images, we determined particle diameters matching the approximate size of a protein cluster of two to three particles (Fig. 3C)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "Injection of Rubisco proteins."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) Radial averages of 14,361 background-subtracted diffraction patterns recorded during injection of sample (1), 14,343 during injection of buffer solution (2), 14,367 during injection of only gas (3), and 6993 during a dark run (4). <sentence_start/>(<bold>B</bold>) Diffraction patterns of two intense sample hits. <sentence_start/>(<bold>C</bold>) Radial averages (orange lines) of the diffraction patterns shown in (B) and fits (black lines) to a sphere model that best match the data. <sentence_start/>Light orange areas indicate the confidence intervals of the data (\u00b11 SD). <sentence_start/>The fit values for intensity and sphere diameter are annotated. <sentence_start/>(<bold>D</bold>) STEM image of Rubisco proteins injected onto a TEM sample support film. <sentence_start/>Detected particles are highlighted in red. <sentence_start/>(<bold>E</bold>) The red histogram shows the distribution of particle diameters derived from (D). <sentence_start/>The black line shows the fit of our droplet occupancy model to the data. <sentence_start/>The good match indicates that the electrosprayed proteins were successfully transferred into the interaction region. <sentence_start/>(<bold>F</bold>) DMA data of electrosprayed Rubisco proteins at three concentrations. <sentence_start/>Our droplet occupancy model (black) was fitted to the measured size histograms (red). <sentence_start/>The agreement shows that, by changing concentration, we specifically control the protein cluster composition."
+  },
+  {
+   "section": "article",
+   "text": "Because of the weak scattering signal obtained with the pulse intensity that was available at the LCLS, we could not conclusively determine whether single Rubisco proteins were delivered into the interaction region. <sentence_start/>To answer this question, we injected Rubisco and deposited the injected particles for examination by scanning transmission electron microscopy (STEM) (Fig. 3D). <sentence_start/>We extracted the size distribution of deposited particles (Fig. 3E, red histogram) by integrating the areas of particles in the image. <sentence_start/>The size distribution matched a Poissonian droplet occupancy model (Fig. 3E, black line), which proves that we injected single Rubisco proteins into vacuum. <sentence_start/>We confirmed the validity of this model by measuring the size distribution of the same sample at a range of concentrations by DMA (Fig. 3F)."
+  },
+  {
+   "section": "article",
+   "text": "DISCUSSION"
+  },
+  {
+   "section": "article",
+   "text": "We report successful single-particle imaging of 35-nm biological samples-substantially smaller than previously possible. <sentence_start/>Our adaptation of the Uppsala injector for ES was shown to decrease droplet sizes and was shown to enable delivery of single proteins into vacuum. <sentence_start/>Although this is not the first demonstration of ES injection for x-ray diffractive imaging (<citation rid=\"R9\" ref-type=\"bibr\" pmid=\"18095739\" doi=\"10.1021/nl072728k\" count=\"1\"><italic>9</italic></citation>), it represents a quantum leap toward single-protein imaging by achieving an increase of over two orders of magnitude in hit rate. <sentence_start/>This was achieved while decreasing the particle volume by three orders of magnitude, making them travel faster and therefore less likely to be hit (<citation rid=\"R10\" ref-type=\"bibr\" doi=\"10.1107/S2052252518010837\" pmcid=\"PMC6211534\" pmid=\"30443352\" count=\"1\"><italic>10</italic></citation>). <sentence_start/>Furthermore, we injected isolated biological particles in contrast to the previous study, where the particles were surrounded by a thick layer of sucrose."
+  },
+  {
+   "section": "article",
+   "text": "With this achievement, we overcome one of the major experimental hurdles that have hindered progress for XFEL imaging of small biological particles. <sentence_start/>For large particles, the smaller droplets of ES are also beneficial, as they reduce contamination from nonvolatile buffer components. <sentence_start/>As a result of the higher reproducibility of aerosolized particles, ES injection is also expected to increase attainable resolution in three-dimensional (3D) reconstructions."
+  },
+  {
+   "section": "article",
+   "text": "Further development in lens stack design (<citation rid=\"R22\" ref-type=\"bibr\" count=\"1\"><italic>22</italic></citation>) and aerosolization geometry is expected to increase the particle transmission and decrease fluorescence and scattering background from injection gas that dominated the noise in our diffraction data. <sentence_start/>We anticipate that these diffraction data from single proteins will be possible to analyze using established 3D reconstruction methods (<citation rid=\"R12\" ref-type=\"bibr\" pmid=\"29077445\" doi=\"10.1103/PhysRevLett.119.158102\" pmcid=\"PMC5757528\" count=\"1\"><italic>12</italic></citation>, <citation rid=\"R23\" ref-type=\"bibr\" pmid=\"25793853\" doi=\"10.1103/PhysRevLett.114.098102\" count=\"1\"><italic>23</italic></citation>). <sentence_start/>The results presented here, together with the increased x-ray flux and repetition rate of next-generation FEL facilities such as European XFEL and LCLS II, will constitute an important stepping stone toward the ultimate goal of protein structure determination from imaging at room temperature and high temporal resolution."
+  },
+  {
+   "section": "article",
+   "text": "MATERIALS AND METHODS"
+  },
+  {
+   "section": "article",
+   "text": "Sample preparation"
+  },
+  {
+   "section": "article",
+   "text": "Sucrose solutions for aerosol droplet size determination"
+  },
+  {
+   "section": "article",
+   "text": "Initial droplet size distributions of ES and GDVN aerosols were determined by measuring the size distributions of particles generated by injecting sucrose solution. <sentence_start/>The particle diameter <italic>d</italic><sub>p</sub> is related to the initial droplet diameter <italic>d</italic><sub>0</sub> via the relation <italic>d</italic><sub>p</sub> = <italic>d</italic><sub>0</sub><italic>c</italic><sup>1/3</sup>, where <italic>c</italic> is the volume concentration of sucrose. <sentence_start/>Sucrose concentrations were adjusted to achieve final particle sizes after solvent evaporation of around 100 nm, suitable for sizing by RSM and XFEL diffraction. <sentence_start/>For the RSM measurements, we used sucrose solutions at volume concentrations of 12% for ES and 0.1% for GDVN aerosolization, and for the XFEL diffraction measurements, we used 5% for ES and 0.1% for GDVN injection."
+  },
+  {
+   "section": "article",
+   "text": "Carboxysome purification"
+  },
+  {
+   "section": "article",
+   "text": "Carboxysomes were purified from <italic>Halothiobacillus neapolitanus</italic> DMS15147 cells, as previously described in (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>), with minor changes to the protocol with respect to the lysis of the cells (omitting the sonication step). <sentence_start/>After harvesting by centrifugation, the cells were resuspended in 50 ml of TEMB-lysozyme buffer [10 mM tris-HCl (pH 8.0), 10 mM MgCl<sub>2</sub>, 20 mM NaHCO<sub>3</sub>, 1 mM EDTA, and lysozyme (100 \u03bcg/ml; pH 8.0)]. <sentence_start/>The cell suspension was mixed with 50 ml of B-PER Bacterial Protein Extraction Reagent (Thermo Fisher Scientific) and incubated for about 10 min at room temperature on a rotary shaker. <sentence_start/>When the solution turned viscous, due to DNA release from broken cells, deoxyribonuclease I from bovine pancreas (Sigma-Aldrich) was added to a final concentration of 1 \u03bcg/ml. <sentence_start/>The suspension was incubated for an additional 30 min at room temperature on a rotary shaker. <sentence_start/>After pelleting the debris, the carboxysomes were purified by centrifugation and resuspension as described in (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>). <sentence_start/>For ES injection, we used the purified sample at a concentration of about 10<sup>13</sup> particles/ml in TEMB-lysozyme buffer (i.e., without exchanging the buffer). <sentence_start/>For GDVN injection, carboxysomes were buffer-exchanged by eluting the sample into 20 mM ammonium acetate solution (pH 7.5) using a PD MiniTrap G-25 column (GE Healthcare). <sentence_start/>This exchange was performed twice. <sentence_start/>We followed the same buffer exchange protocol for the control measurements in TEMB-lysozyme buffer."
+  },
+  {
+   "section": "article",
+   "text": "TBSV purification"
+  },
+  {
+   "section": "article",
+   "text": "TBSV (strain BSV-3, American Type Culture Collection code PV-90) was propagated in <italic>Nicotiana benthamiana</italic> grown at 25\u00b0C under a 16-hour/8-hour light/dark cycle. <sentence_start/>Leaves were mechanically inoculated using carborundum and virus extract. <sentence_start/>At 6 to 8 days after infection, leaves that showed severe signs of infection were harvested and stored at \u221220\u00b0C. <sentence_start/>Frozen leaves, chilled with liquid nitrogen, were ground into a fine powder using a mortar and pestle and transferred into an ice-cooled BeadBeater (BioSpec Products Inc.; 2-mm zircona beads). <sentence_start/>Ice-cold extraction buffer [50 mM sodium phosphate (pH 5) and 1 mM tris(2-carboxyethyl)phosphine (TCEP)] was added to the ground leaf tissue in a volume to weight ratio of 5:1, before five rounds of 60-s/60-s on/off cycles. <sentence_start/>The solution was cleared from precipitated proteins and cell debris by centrifugation at 8000<italic>g</italic> for 30 min at 4\u00b0C. <sentence_start/>The supernatant was sequentially filtered using 5-, 0.8-, and 0.2-\u03bcm syringe filters. <sentence_start/>Virus particles were sedimented by ultracentrifugation at 100,000<italic>g</italic> for 2 hours at 4\u00b0C. <sentence_start/>The resulting pellets were carefully resuspended into native buffer [50 mM tris-HCl (pH 7.5) and 20 mM CaCl<sub>2</sub>] and cleared from any undissolved particulates by centrifugation for 1 min at 20,000<italic>g</italic>. <sentence_start/>The resuspended pellet was floated on a 15 to 60% preformed sucrose gradient (made using native buffer) and was subjected to rate-zonal centrifugation at 100,000<italic>g</italic> for 2 hours at 4\u00b0C. <sentence_start/>The virus particles could be seen as a band approximately one-third from the top of the tube when illuminated from the top. <sentence_start/>The band was recovered in fractions by pipetting and analyzed for ultraviolet absorption at 260 and 280 nm (NanoDrop; Thermo Fisher Scientific) and by SDS-polyacrylamide gel electrophoresis (PAGE). <sentence_start/>The sucrose was removed by dialysis into native buffer. <sentence_start/>Exchange into the injection buffer [25 mM ammonium acetate (pH 5)] was achieved by multiple rounds of sample dilution and subsequent concentration using a VivaSpin 10,000 MWCO (molecular weight cut-off) concentrator (Vivascience). <sentence_start/>The final particle concentration used for injection was 3 \u00d7 10<sup>14</sup> to 5 \u00d7 10<sup>14</sup> ml<sup>\u22121</sup>. <sentence_start/>Sample quality was verified by measuring size homogeneity and shape by dynamic light scattering (W130i; Avid Nano Ltd.) and negative-stain electron microscopy (FEI Quanta; Thermo Fisher Scientific)."
+  },
+  {
+   "section": "article",
+   "text": "Rubisco purification"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Spinacia oleracea</italic> Rubisco was purified as previously described in (<citation rid=\"R24\" ref-type=\"bibr\" pmid=\"6580292\" count=\"1\"><italic>24</italic></citation>). <sentence_start/>After long-term storage at \u221280\u00b0C, the sample was further purified by size-exclusion chromatography using a HiLoad 26/60 Superdex 200 (GE Healthcare) column attached to an NGC chromatography system (Bio-Rad). <sentence_start/>Separation was performed at 4\u00b0C, with a flow rate of 2 ml/min, in Superdex buffer [50 mM tris-Cl (pH 8.0), 100 mM NaCl, and 1 mM EDTA]. <sentence_start/>Peak fractions containing Rubisco identified by SDS-PAGE were pooled and concentrated using a VivaSpin 30,000 MWCO concentrator (Vivascience)."
+  },
+  {
+   "section": "article",
+   "text": "Purified <italic>S. oleracea</italic> Rubisco was incubated at room temperature for 30 min in the presence of equimolar 4-carboxy-<sc>d</sc>-arabinitol-1,5-bisphosphate (4-CABP), a reaction-intermediate analog that binds tightly and irreversibly to Rubisco active sites. <sentence_start/>4-CABP binding induces a conformational change of a surface exposed loop to cover the active site of Rubisco, thereby reducing the structural heterogeneity of the sample (<citation rid=\"R24\" ref-type=\"bibr\" pmid=\"6580292\" count=\"1\"><italic>24</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Before injection, the protein was buffer-exchanged into ammonium acetate sample buffer [20 mM ammonium acetate (pH 7.97)] over a PD10 desalting column (GE Healthcare), as described above."
+  },
+  {
+   "section": "article",
+   "text": "Sample aerosolization"
+  },
+  {
+   "section": "article",
+   "text": "Gas-dynamic virtual nozzles"
+  },
+  {
+   "section": "article",
+   "text": "GDVNs were manufactured in-house according to the general design presented in (<citation rid=\"R11\" ref-type=\"bibr\" count=\"1\"><italic>11</italic></citation>). <sentence_start/>The generation of submicrometer droplets requires a large reduction in gas pressure around the liquid jet meniscus together with a low liquid flow rate. <sentence_start/>To achieve this, we used a \u201cflush\u201d geometry as described in (<citation rid=\"R25\" ref-type=\"bibr\" pmid=\"20213649\" doi=\"10.1002/smll.200901786\" count=\"1\"><italic>25</italic></citation>) together with a 20-\u03bcm-inner diameter liquid capillary, whose tip was conically grinded at an attack angle of approximately 15\u00b0 to 20\u00b0. <sentence_start/>Stable jets were achieved with liquid flow rates between 0.5 and 2 \u03bcl/min and an outer He sheath flow between 0.5 and 1.5 SLM."
+  },
+  {
+   "section": "article",
+   "text": "Electrospray"
+  },
+  {
+   "section": "article",
+   "text": "The ES nebulizer was based on the design introduced in (<citation rid=\"R26\" ref-type=\"bibr\" count=\"1\"><italic>26</italic></citation>). <sentence_start/>The sample was supplied with 360-\u03bcm-outer diameter fused silica capillaries with inner diameter of 30 \u03bcm when injecting TBSV, sucrose, and Rubisco, while capillaries with an inner diameter of 40 \u03bcm were used when injecting carboxysomes. <sentence_start/>The capillaries were conically grinded at an attack angle of 30\u00b0 until the tip of the capillary had a \u201cplateau\u201d with a diameter of 80 \u03bcm. <sentence_start/>During nebulization, the tip of the capillary was positioned approximately 1 mm away from a grounded orifice plate with an orifice diameter of 0.5 mm. <sentence_start/>The formation of a Taylor cone was achieved by applying a voltage of 2 to 3 kV to the sample inside the sample reservoir while the sample was flowing with a flow rate of 50 to 100 nl/min. <sentence_start/>The flow rate was achieved by applying an overpressure of 1 to 10 psi in the sample reservoir. <sentence_start/>To keep the Taylor cone stable, an influx of 0.15 liters/min CO<sub>2</sub> + 1 liter/min N<sub>2</sub> was necessary to avoid decharging of the liquid at the meniscus. <sentence_start/>The exact voltages and flow rates needed to achieve a stable Taylor cone vary with the conductivity of the sample. <sentence_start/>In this configuration, stable operation could be achieved with conductivities between 1700 and 7000 \u03bcS/cm. <sentence_start/>The charged droplets generated by the ES aerosolization were neutralized with a <sup>210</sup>Po alpha source."
+  },
+  {
+   "section": "article",
+   "text": "Aerosol injection"
+  },
+  {
+   "section": "article",
+   "text": "Particles were delivered into the in-vacuum interaction region for GDVN aerosolization with the original and for ES aerosolization with the modified version of the Uppsala aerosol injector (<citation rid=\"R6\" ref-type=\"bibr\" pmid=\"21293374\" doi=\"10.1038/nature09748\" pmcid=\"PMC4038304\" count=\"1\"><italic>6</italic></citation>, <citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>, <citation rid=\"R27\" ref-type=\"bibr\" count=\"1\"><italic>27</italic></citation>). <sentence_start/>Excess gas from the aerosolization process was removed in a nozzle-skimmer stage located between the aerosolization compartment and the aerodynamic lens stack. <sentence_start/>For GDVN aerosolization (<citation rid=\"R11\" ref-type=\"bibr\" count=\"1\"><italic>11</italic></citation>, <citation rid=\"R28\" ref-type=\"bibr\" count=\"1\"><italic>28</italic></citation>), a single nozzle-skimmer stage, with skimmer apertures of 0.3 and 0.6 mm, was required to reduce the gas load inside the aerodynamic lens stack. <sentence_start/>To accommodate the increased mass flow for ES aerosolization, we added a second nozzle-skimmer stage (Fig. 1A, skimmer assembly I), with 0.8-mm nozzle and 1-mm skimmer apertures. <sentence_start/>This additional stage was located upstream of the existing stage (Fig. 1A, skimmer assembly II). <sentence_start/>In both stages, the nozzle-skimmer distance was set such that the skimmer was located within the zone of silence (<citation rid=\"R27\" ref-type=\"bibr\" count=\"1\"><italic>27</italic></citation>) of the freely expanding gas exiting the nozzle."
+  },
+  {
+   "section": "article",
+   "text": "Particle sizing"
+  },
+  {
+   "section": "article",
+   "text": "Particle sizing by DMA"
+  },
+  {
+   "section": "article",
+   "text": "DMA measurements were carried out with the TSI3080 electrostatic classifier together with the TSI3081 differential mobility analyzer. <sentence_start/>The ES aerosol described above was used as input to the electrostatic classifier, while the size-selected particle output was detected with the TSI3786 condensed particle counter. <sentence_start/>In all, this system enabled detection and relative concentration measurements of particles 10 to 1000 nm in diameter."
+  },
+  {
+   "section": "article",
+   "text": "Particle sizing by RSM"
+  },
+  {
+   "section": "article",
+   "text": "RSM data were acquired as described in (<citation rid=\"R10\" ref-type=\"bibr\" doi=\"10.1107/S2052252518010837\" pmcid=\"PMC6211534\" pmid=\"30443352\" count=\"1\"><italic>10</italic></citation>). <sentence_start/>Size calibration was carried out with suspensions of Monodisperse Polystyrene Sphere Size Standards (Thermo Fisher Scientific; National Institute of Standards and Technology traceable size standard; refractive index, 1.5983). <sentence_start/>The calibration factors were rescaled on the basis of estimates for the refractive index of the respective particle species [carboxysomes, 1.4 (<citation rid=\"R29\" ref-type=\"bibr\" pmid=\"17694065\" doi=\"10.1038/nmeth1078\" count=\"1\"><italic>29</italic></citation>); sucrose, 1.5376 (<citation rid=\"R30\" ref-type=\"bibr\" count=\"1\"><italic>30</italic></citation>)]."
+  },
+  {
+   "section": "article",
+   "text": "Particle size determination from XFEL diffraction intensities"
+  },
+  {
+   "section": "article",
+   "text": "The sizes of injected sucrose, carboxysome, and TBSV particles were determined by fitting the diffraction image of a uniform sphere model to the measured diffraction patterns (<citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/S2052252517003591\" pmcid=\"PMC5414399\" pmid=\"28512572\" count=\"1\"><italic>14</italic></citation>). <sentence_start/>Table 2 lists the datasets that were used. <sentence_start/>Before fitting, the diffraction patterns were truncated below 0.5 photons, and pixels were binned (sucrose and TBSV data, 6 \u00d7 6; carboxysome data, 4 \u00d7 4). <sentence_start/>Throughout the fitting procedure, a binary mask was used that excluded hot, saturated, and shadowed pixels, and pixels at large diffraction angles where the signal from nonspherical objects is expected to deviate substantially from the sphere model. <sentence_start/>All run-specific parameters can be found in the files amol3116_sizing.csv and amol3416_sizing.csv under the open repository . <sentence_start/>In a last refinement step, we modified the fitting model to include an offset term to account for uniform background that was observed in the diffraction data. <sentence_start/>The sizing was carried out in an automated fashion together with a manual inspection of the fitted results and discarding of failed fits."
+  },
+  {
+   "section": "article",
+   "text": "Rubisco particles were sized by fitting the radial diffraction intensities of a sphere model to the radially averaged diffraction intensities of the measurement. <sentence_start/>To validate our results, we checked that the incident intensity that resulted from the fit fell into the range of intensities expected for the x-ray beam focus (<citation rid=\"R7\" ref-type=\"bibr\" count=\"1\"><italic>7</italic></citation>). <sentence_start/>For this calculation, we assumed that the particles had a mass density of 1.35 g/cm<sup>3</sup> and an atomic composition of H<sub>86</sub>C<sub>52</sub>N<sub>13</sub>O<sub>15</sub>S (<citation rid=\"R4\" ref-type=\"bibr\" pmid=\"19079804\" doi=\"10.1017/S003358350800471X\" count=\"1\"><italic>4</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Particle sizing by electron microscopy"
+  },
+  {
+   "section": "article",
+   "text": "Rubisco particles exiting in a collimated beam from the aerosol injector were collected by streaking on a 400-mesh Cu F/C EM grid (Ted Pella Inc). <sentence_start/>The grid was then imaged without staining at \u00d7240,000 magnification in a FEI Quanta FEG 650 using a STEM detector at an acquisition time of 1 \u03bcs and at an acceleration voltage of 30 kV."
+  },
+  {
+   "section": "article",
+   "text": "XFEL diffraction measurements"
+  },
+  {
+   "section": "article",
+   "text": "Data collection"
+  },
+  {
+   "section": "article",
+   "text": "XFEL diffraction data were collected inside the LAMP (laser applications in materials processing) chamber (<citation rid=\"R31\" ref-type=\"bibr\" pmid=\"29604777\" doi=\"10.1063/1.5017727\" count=\"1\"><italic>31</italic></citation>) at the AMO endstation (<citation rid=\"R32\" ref-type=\"bibr\" pmid=\"25931058\" doi=\"10.1107/S1600577515004646\" pmcid=\"PMC4416665\" count=\"1\"><italic>32</italic></citation>) of the LCLS. <sentence_start/>The particle beam exiting from the Uppsala aerosol injector was intersected with the x-ray beam. <sentence_start/>The LCLS generated x-ray pulses of 1 to 2 mJ at a photon energy of 800 eV (wavelength, 1.55 nm) with a pulse duration of 170 fs and a peak fluence of 0.02 mJ/\u03bcm<sup>2</sup> (<citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1107/S2052252517003591\" pmcid=\"PMC5414399\" pmid=\"28512572\" count=\"1\"><italic>14</italic></citation>) at a repetition rate of 120 pulses/s. <sentence_start/>About 5% of the LCLS pulses were dumped (\u201cBYKICK\u201d mode) to continuously monitor the dark background. <sentence_start/>This means that the LCLS delivered effectively only about 114 pulses/s to the interaction region. <sentence_start/>Diffraction images were recorded synchronously with a pair of pnCCD area detector panels (<citation rid=\"R33\" ref-type=\"bibr\" count=\"1\"><italic>33</italic></citation>) operated in gain mode 5. <sentence_start/>The panels were placed at distances of 250 mm (TBSV data) and 370 mm (carboxysome and sucrose data). <sentence_start/>Each panel has a sensitive area of 76.8 mm \u00d7 38.4 mm with 1024 \u00d7 512 pixels. <sentence_start/>The direct beam and small-angle scattering passed through the gap between the panels. <sentence_start/>At a detector distance of 250 mm, the gap was 3.3 mm wide, and at a detector distance of 370 mm, it was 5.5 mm wide. <sentence_start/>Data were monitored live with the Hummingbird software package (<citation rid=\"R34\" ref-type=\"bibr\" pmid=\"27275147\" doi=\"10.1107/S1600576716005926\" pmcid=\"PMC4886990\" count=\"1\"><italic>34</italic></citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Data preprocessing"
+  },
+  {
+   "section": "article",
+   "text": "Diffraction data were preprocessed using the Hummingbird software package (<citation rid=\"R34\" ref-type=\"bibr\" pmid=\"27275147\" doi=\"10.1107/S1600576716005926\" pmcid=\"PMC4886990\" count=\"1\"><italic>34</italic></citation>) and Psana (<citation rid=\"R35\" ref-type=\"bibr\" count=\"1\"><italic>35</italic></citation>). <sentence_start/>Configuration files (conf_preproc.py and conf_amol3416.py) can be downloaded from . <sentence_start/>The datasets that were used for analysis are listed in Table 2. <sentence_start/>Raw data were pedestal-subtracted using dark frames and rescaled to the unit of x-ray photons. <sentence_start/>Pedestal correction was followed by a three-step common mode subtraction procedure that was carried out for each panel individually, first for every quadrant (half panel), then for each fast, and finally for each slowly changing pixel dimension. <sentence_start/>Common mode is defined as the median pixel value of the selection of pixels that measure below 0.5 photons. <sentence_start/>For the faulty top-right quadrant, additionally ASIC (application-specific integrated circuit)-wise common mode subtractions were applied, first for the fast and then for the slowly changing pixel dimension. <sentence_start/>For certain runs (defined in amol3116_run_params.csv and amol3416_run_params.csv), all pixels of the inner one or two ASICs of the faulty quadrant were upscaled by a factor of 2. <sentence_start/>Detector geometry was applied by taking into account the relative position of the detector halves, the pnCCD readout timing issue for particular runs, and the column mismatch that was caused by a wiring error of the pnCCD chip. <sentence_start/>As hits, we selected those diffraction patterns that counted more than 3500 pixels measuring at least one photon and being located further than 200 pixels away from the center."
+  },
+  {
+   "section": "article",
+   "text": "Data prediction"
+  },
+  {
+   "section": "article",
+   "text": "Diffraction data for carboxysomes, TBSV particles, and Rubisco proteins were simulated with the Condor software package (<citation rid=\"R36\" ref-type=\"bibr\" pmid=\"27504081\" doi=\"10.1107/S1600576716009213\" pmcid=\"PMC4970500\" count=\"1\"><italic>36</italic></citation>). <sentence_start/>For Rubisco proteins, the electron density was estimated to be 0.43 \u00c5<sup>\u22123</sup> on the basis of a mass density of 1.35 g/cm<sup>3</sup> and an atomic composition of H<sub>86</sub>C<sub>52</sub>N<sub>13</sub>O<sub>15</sub>S for proteins (<citation rid=\"R3\" ref-type=\"bibr\" pmid=\"10963603\" doi=\"10.1038/35021099\" count=\"1\"><italic>3</italic></citation>). <sentence_start/>The incident intensity was set to the measured peak fluence of 0.02 mJ/\u03bcm<sup>2</sup>."
+  },
+  {
+   "section": "article",
+   "text": "Image reconstruction"
+  },
+  {
+   "section": "article",
+   "text": "For retrieving the phase of selected carboxysome and TBSV diffraction patterns and reconstructing 2D projection images, we used the Hawk software package (<citation rid=\"R37\" ref-type=\"bibr\" count=\"1\"><italic>37</italic></citation>). <sentence_start/>Before phasing, the diffraction patterns were truncated at 0.5 photons and binned to 128 \u00d7 128 images. <sentence_start/>We used a binary mask excluding hot, saturated, and shadowed pixels."
+  },
+  {
+   "section": "article",
+   "text": "The support was initialized with a static spherical mask of radius slightly larger than the expected particle size. <sentence_start/>The iterative phase retrieval was performed with 1000 iterations of the relaxed averaged alternating reflections algorithm (<citation rid=\"R38\" ref-type=\"bibr\" count=\"1\"><italic>38</italic></citation>) (TBSV hits) or the hybrid input-output (HIO) algorithm (<citation rid=\"R39\" ref-type=\"bibr\" doi=\"10.1364/AO.21.002758\" pmid=\"20396114\" count=\"1\"><italic>39</italic></citation>) (carboxysome hits), followed by 1000 iterations of the error reduction algorithm (<citation rid=\"R39\" ref-type=\"bibr\" doi=\"10.1364/AO.21.002758\" pmid=\"20396114\" count=\"1\"><italic>39</italic></citation>) in both cases, enforcing the projected electron densities to be real and positive. <sentence_start/>The final reconstruction is an average of 100 independent reconstructions with a random initial guess for the phases. <sentence_start/>To check for reproducibility of the reconstructions, we calculated phase retrieval transfer functions (PRTFs) (Fig. 4)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "PRTFs for reconstructed projection images shown in Fig. 2 (A, C, and D)."
+  },
+  {
+   "section": "article",
+   "text": "The dashed lines indicate the value <italic>e</italic><sup>\u22121</sup>, often used as threshold for judging the reproducibly of the retrieved phases."
+  },
+  {
+   "section": "article",
+   "text": "Rubisco data analysis"
+  },
+  {
+   "section": "article",
+   "text": "Diffraction patterns were preprocessed as described above and then binned 16 \u00d7 16 pixels to improve the signal-to-noise ratio. <sentence_start/>Then, pixel values below the background floor of half a photon were set to zero to reduce the background from gas fluorescence and visible light, and all other values were rounded to the closest integer value. <sentence_start/>For every pixel, the variance and the mean value were calculated from the buffer run. <sentence_start/>Pixels for which the ratio of variance and mean value deviated by less than 0.3 from 1 were identified as good pixels because of the indication that their values followed Poisson statistics. <sentence_start/>Pixels that did not fall into this category were masked out. <sentence_start/>The mask was extended manually to exclude the halo of the direct beam and the edges of the detector quadrants. <sentence_start/>Last, images were background-corrected by subtraction of the median readout value for every pixel, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Droplet occupancy model"
+  },
+  {
+   "section": "article",
+   "text": "The droplet occupancy by particles during droplet formation was modeled as a Poissonian process. <sentence_start/>The expectation value \u03bb for the occupancy <italic>n</italic> of a droplet is given by the product of particle concentration in solution and droplet volume. <sentence_start/>For multiply occupied droplets (<italic>n</italic> &gt; 1), the particles stick together and form a (nonspecific) complex. <sentence_start/>We assumed that the diameter of the complex <italic>d<sub>n</sub></italic> does not grow as <italic>d<sub>n</sub></italic>~<italic>n</italic><sup>1/3</sup> because the new complex will be most likely less compact than a sphere. <sentence_start/>Instead, we fitted the distributions shown in Fig. 3, E and F, by using the scaling law <italic>d<sub>n</sub></italic>~<italic>n</italic><sup>1/<italic>a</italic></sup>, with the free parameter <italic>a &lt; 3</italic>. <sentence_start/>We obtained <italic>a</italic> = 1.57 for the deposited proteins imaged by STEM and <italic>a</italic> = 2.56 for the DMA data."
+  }
+ ]
+}

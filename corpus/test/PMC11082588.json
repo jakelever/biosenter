@@ -1,0 +1,347 @@
+{
+ "pmid": 37432782,
+ "pmcid": 11082588,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Effects of dietary interventions on cardiovascular outcomes: a network meta-analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "Context"
+  },
+  {
+   "section": "abstract",
+   "text": "Next to a large body of epidemiological observational studies showing that the Mediterranean diet (MD) is an important lifestyle determinant of cardiovascular risk, there is less relevant evidence from well-conducted randomized controlled trials (RCTs) with hard cardiovascular outcomes."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "The objective of the study was to identify the most effective dietary intervention for reducing cardiovascular morbidity and mortality."
+  },
+  {
+   "section": "abstract",
+   "text": "Data Sources"
+  },
+  {
+   "section": "abstract",
+   "text": "A systematic approach following PRISMA network meta-analyses reporting guidelines was applied to a search of electronic databases (MEDLINE, Cochrane Central Register of Controlled Trials, and Embase) without language restrictions, supplemented by scanning through bibliographies of studies and meetings\u2019 abstract material. <sentence_start/>Inclusion criteria were RCTs conducted in an adult population, investigating the effects of different type of diets or dietary patterns on all-cause mortality and cardiovascular outcomes of interest."
+  },
+  {
+   "section": "abstract",
+   "text": "Data Extraction"
+  },
+  {
+   "section": "abstract",
+   "text": "Data extraction for each study was conducted by 2 independent reviewers."
+  },
+  {
+   "section": "abstract",
+   "text": "Data Analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "A frequentist network meta-analysis using a random-effects model was conducted. <sentence_start/>Death from any cardiovascular cause was defined as the primary outcome. <sentence_start/>A total of 17 trials incorporating 83 280 participants were included in the systematic review. <sentence_start/>Twelve articles (n = 80 550 participants) contributed to the network meta-analysis for the primary outcome. <sentence_start/>When compared with the control diet, only the MD showed a reduction in cardiovascular deaths (risk ratio = 0.59; 95% confidence interval, 0.42-0.82). <sentence_start/>Additionally, MD was the sole dietary strategy that decreased the risk of major cardiovascular events, myocardial infarction, angina, and all-cause mortality."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "MD may play a protective role against cardiovascular disease and death for primary and also secondary prevention."
+  },
+  {
+   "section": "abstract",
+   "text": "Systematic Review Registration"
+  },
+  {
+   "section": "abstract",
+   "text": "Center for Open Science,"
+  },
+  {
+   "section": "article",
+   "text": "INTRODUCTION"
+  },
+  {
+   "section": "article",
+   "text": "Globally, cardiovascular disease (CVD) continues to be the leading cause of mortality and morbidity. <sentence_start/>High blood pressure measurements, triglyceride and total cholesterol concentrations, and body mass index are among the predisposing factors for CVD.<citation rid=\"nuad080-B1\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2017-020282\" pmcid=\"PMC6104756\" pmid=\"30127048\" count=\"1\"><sup>1</sup></citation> <sentence_start/>Dietary factors seem to have the cornerstone role for the prevention of CVD outcomes across Europe.<citation rid=\"nuad080-B2\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2020.11.010\" pmid=\"33309175\" pmcid=\"PMC7755038\" count=\"1\"><sup>2</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "The Mediterranean diet (MD) is 1 of the most well-studied dietary patterns. <sentence_start/>Epidemiological evidence since the 1960s has shown that residents of Mediterranean countries had lower rates of cardiovascular mortality in contrast to the northern European populations or the US population.<citation rid=\"nuad080-B3\" ref-type=\"bibr\" doi=\"10.1002/14651858.CD009825.pub3\" pmid=\"30864165\" pmcid=\"PMC6414510\" count=\"1\"><sup>3-5</sup></citation> <sentence_start/>Next to a large body of epidemiological observational studies showing that the MD is an important lifestyle determinant of CVD risk,<citation rid=\"nuad080-B3\" ref-type=\"bibr\" doi=\"10.1002/14651858.CD009825.pub3\" pmid=\"30864165\" pmcid=\"PMC6414510\" count=\"1\"><sup>3</sup></citation><sup>,</sup><citation rid=\"nuad080-B6\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2014.11.206\" pmid=\"25463360\" count=\"1\"><sup>6</sup></citation><sup>,</sup><citation rid=\"nuad080-B7\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.1003282\" pmcid=\"PMC7480872\" pmid=\"32903262\" count=\"1\"><sup>7</sup></citation> there is less relevant evidence from well-conducted randomized controlled trials (RCTs) with hard cardiovascular outcomes. <sentence_start/>The Prevention of Cardiovascular Disease with a Mediterranean Diet (PREDIMED) study, a large RCT focused on the primary prevention of CVD among patients with a high cardiovascular risk, demonstrated that MD was associated with a lower incidence of major cardiovascular events.<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "However, a recent umbrella review showed that none of the included dietary interventions could reduce cardiovascular events and only the use of omega-3 fatty acids and folate supplementation might reduce some cardiovascular end points.<citation rid=\"nuad080-B9\" ref-type=\"bibr\" doi=\"10.7326/m19-0341\" pmid=\"31284304\" pmcid=\"PMC7261374\" count=\"1\"><sup>9</sup></citation> <sentence_start/>Recommendations do not comprehensively address this issue, because they are mostly based on scarce data about dietary interventions with head-to-head comparisons with regard to different dietary interventions.<citation rid=\"nuad080-B10\" ref-type=\"bibr\" doi=\"10.1001/jama.2016.0077\" pmid=\"26836746\" count=\"1\"><sup>10-12</sup></citation> <sentence_start/>Therefore, in this network meta-analysis (NMA) of RCTs, we synthesized direct and indirect evidence across the literature to identify the most effective dietary intervention for CVD prevention."
+  },
+  {
+   "section": "article",
+   "text": "\u039cATERIALS AND \u039cETHODS"
+  },
+  {
+   "section": "article",
+   "text": "The Preferred Reporting Items for Systematic Reviews and meta-analyses extension statement for network meta-analyses (PRISMA-NMA) were followed in this systematic review and NMA.<citation rid=\"nuad080-B13\" ref-type=\"bibr\" doi=\"10.7326/m14-2385\" pmid=\"26030634\" count=\"1\"><sup>13</sup></citation> <sentence_start/>A pre-specified protocol has been registered in the Open Science Framework (OSF) database ( )."
+  },
+  {
+   "section": "article",
+   "text": "Data sources and searches"
+  },
+  {
+   "section": "article",
+   "text": "The MEDLINE (via PubMed), Cochrane Central Register of Controlled Trials, and Embase databases were used for all searches from inception to May 31, 2022, with no language restrictions. <sentence_start/>A search strategy was created for PubMed and was accordingly modified for the other electronic databases (see Supplementary Material 1 in the Supporting Information online). <sentence_start/>Conference abstracts from major nutrition and metabolism conferences and references of relevant studies were screened. <sentence_start/>The PROSPERO database was searched to retrieve possible similar, ongoing systematic reviews to avoid duplication with this study.<citation rid=\"nuad080-B14\" ref-type=\"bibr\" doi=\"10.1161/circoutcomes.118.004769\" pmid=\"30562066\" count=\"1\"><sup>14</sup></citation><sup>,</sup><citation rid=\"nuad080-B15\" ref-type=\"bibr\" doi=\"10.1161/CIRCOUTCOMES.118.005212\" pmid=\"30562075\" count=\"1\"><sup>15</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Inclusion and exclusion criteria"
+  },
+  {
+   "section": "article",
+   "text": "RCTs were included that compared either 2 specific dietary interventions or a dietary intervention with a control diet, regardless of the study design (parallel or crossover) and that reported at least 1 event of the following: all-cause mortality, cardiovascular-related death, myocardial infarction, stroke, angina, heart failure, atrial fibrillation (PICOS criteria are reported at Table 1). <sentence_start/>Cardiovascular death was set as the primary endpoint. <sentence_start/>The initial search included a plethora of different dietary interventions, but few of these were used among eligible studies: Mediterranean diet,<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B16\" ref-type=\"bibr\" doi=\"10.3390/nu7115459\" pmid=\"26556369\" pmcid=\"PMC4663587\" count=\"1\"><sup>16-18</sup></citation> low-fat diet,<citation rid=\"nuad080-B19\" ref-type=\"bibr\" doi=\"10.1016/b978-0-12-398397-8.00014-9\" pmid=\"22656384\" count=\"1\"><sup>19</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation> low-protein diet,<citation rid=\"nuad080-B21\" ref-type=\"bibr\" doi=\"10.1053/j.ajkd.2020.05.006\" pmid=\"32829751\" count=\"1\"><sup>21</sup></citation> low-salt diet,<citation rid=\"nuad080-B22\" ref-type=\"bibr\" doi=\"10.3390/nu11091970\" pmid=\"31438636\" pmcid=\"PMC6770596\" count=\"1\"><sup>22</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation> normal or usual diet.<citation rid=\"nuad080-B24\" ref-type=\"bibr\" doi=\"10.1177/0884533610386234\" pmid=\"21139124\" count=\"1\"><sup>24</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Nonrandomized controlled trials, observational studies, and studies performed with children and adolescents were excluded from this review."
+  },
+  {
+   "section": "article",
+   "text": "Study selection"
+  },
+  {
+   "section": "article",
+   "text": "Retrieved articles were imported into a reference manager (EndNote X7). <sentence_start/>After duplicate removal, 4 pairs of 2 independent reviewers (A. Konstantelos, A. <sentence_start/>Karligkiotis, A.S., E.K., E.M., G.K., L.C., and M.C.) first assessed titles and abstracts and then evaluated full texts for eligible studies. <sentence_start/>Any disagreements were adjudicated by an additional reviewer (I.D.)."
+  },
+  {
+   "section": "article",
+   "text": "Data extraction"
+  },
+  {
+   "section": "article",
+   "text": "Data extraction for each study was conducted by 2 pairs of 2 independent reviewers (I.D., I.F., S.Z., and S.S.), and discrepancies were settled through consensus. <sentence_start/>A predesigned data collection form was used to extract data on study participants' baseline characteristics, as well as their outcomes. <sentence_start/>Crossover data were extracted solely from the first period.<citation rid=\"nuad080-B25\" ref-type=\"bibr\" doi=\"10.1093/ije/31.1.140\" pmid=\"11914310\" count=\"1\"><sup>25</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Quality assessment"
+  },
+  {
+   "section": "article",
+   "text": "The revised Cochrane risk-of-bias tool (RoB 2.0) was used by 2 reviewers (S.S. and S.Z.) to independently assess the quality of the included studies.<citation rid=\"nuad080-B26\" ref-type=\"bibr\" doi=\"10.1136/bmj.l4898\" pmid=\"31462531\" count=\"1\"><sup>26</sup></citation> <sentence_start/>Any discrepancies were resolved by a third reviewer (I.D.)."
+  },
+  {
+   "section": "article",
+   "text": "Certainty of the evidence"
+  },
+  {
+   "section": "article",
+   "text": "The Confidence in Network Meta-Analysis approach was applied to assess the certainty of the findings.<citation rid=\"nuad080-B27\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.1003082\" pmid=\"32243458\" pmcid=\"PMC7122720\" count=\"1\"><sup>27</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Data synthesis and analysis"
+  },
+  {
+   "section": "article",
+   "text": "To combine direct and indirect evidence across trials, a frequentist NMA with a random-effects model was used. <sentence_start/>Risk ratios (RRs) with the appropriate 95% confidence intervals (CIs) were used to summarize the evidence. <sentence_start/>Global approaches, such as a design-by-treatment interaction model,<citation rid=\"nuad080-B28\" ref-type=\"bibr\" doi=\"10.1002/sim.6188\" pmid=\"24777711\" pmcid=\"PMC4285290\" count=\"1\"><sup>28</sup></citation> and local ones, such as analyzing consistency across direct and indirect comparisons with the node-splitting method, were used to measure consistency. <sentence_start/>The <italic>P</italic> value was used to categorize dietary interventions in a hierarchical order.<citation rid=\"nuad080-B29\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2010.03.016\" pmid=\"20688472\" count=\"1\"><sup>29</sup></citation> <sentence_start/>Publication bias was evaluated using the comparison-adjusted funnel plot.<citation rid=\"nuad080-B30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0076654\" pmid=\"24098547\" pmcid=\"PMC3789683\" count=\"1\"><sup>30</sup></citation> <sentence_start/>The analyses were conducted using the <italic>netmeta</italic> package in R, version 3.6.3 (the R Project for Statistical Computing)."
+  },
+  {
+   "section": "article",
+   "text": "RESULTS"
+  },
+  {
+   "section": "article",
+   "text": "Overview of studies"
+  },
+  {
+   "section": "article",
+   "text": "After the removal of duplicates, 107 305 records were evaluated on the basis of their title and abstract (Figure 1). <sentence_start/>Eventually, 17 studies of a total of 83 280 participants met the inclusion criteria for this systematic review.<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"nuad080-B31\" ref-type=\"bibr\" doi=\"10.1161/circulationaha.113.006921\" pmid=\"24787471\" count=\"1\"><sup>31-48</sup></citation> The summaries of the included studies are listed in Table 1. <sentence_start/>The risk of bias was judged as low in 6 studies, with some concerns in 4 studies, and was judged high in 7 studies (see Supplementary Figure S1 in the Supporting Information online). <sentence_start/>Supplementary Table S1 in the Supporting Information online provides the dietary details in each interventional arm."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA flowchart of the study selection process."
+  },
+  {
+   "section": "article",
+   "text": "Network meta-analysis"
+  },
+  {
+   "section": "article",
+   "text": "Cardiovascular death"
+  },
+  {
+   "section": "article",
+   "text": "A total of 12 studies (n = 80 550 patients) contributed to the NMA.<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39-41</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43-46</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation>Figure 2 visualizes the NMA graph. <sentence_start/>Only the MD decreased the risk of cardiovascular death when compared with the control diet (RR = 0.59; 95%CI, 0.42-0.82) (Figure 3). <sentence_start/>There was a difference between the low-fat diet and MD (RR = 1.46; 95%CI, 1.07-1.99), but not with MD and a reduced-salt diet (RR = 0.65; 95%CI, 0.31-1.38) (Table 2). <sentence_start/>MD ranked best (<italic>P</italic> = 0.9532), followed by the low-fat diet (<italic>P</italic> = 0.4565), reduced-salt diet (<italic>P</italic> = 0.3997), and the control diet (<italic>P</italic> = 0.1905). <sentence_start/>No disagreement was detected between direct and indirect evidence with the node-splitting method. <sentence_start/>Evidence of publication bias was absent in the network (Egger\u2019s test, <italic>P</italic> = 0.7812). <sentence_start/>Supplementary Material 2 in the Supporting Information online provides further information on consistency, the funnel plot, and the influence of individual studies on the network of the primary outcome."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "The network graphs of interventions for the outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of the network estimates of the potent dietary intervention against control diet for the outcomes."
+  },
+  {
+   "section": "article",
+   "text": "In the subgroup analysis of studies including exclusively patients with established CVD (n = 7 studies; n = 5878 patients),<citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39</sup></citation><sup>,</sup><citation rid=\"nuad080-B40\" ref-type=\"bibr\" doi=\"10.1001/archinte.168.20.2194\" pmid=\"19001195\" count=\"1\"><sup>40</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43</sup></citation><sup>,</sup><citation rid=\"nuad080-B44\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(94)92580-1\" pmid=\"7911176\" count=\"1\"><sup>44</sup></citation><sup>,</sup><citation rid=\"nuad080-B46\" ref-type=\"bibr\" doi=\"10.1016/0002-8703(51)90150-0\" pmid=\"14877748\" count=\"1\"><sup>46</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> MD resulted in a reduction in cardiovascular death versus the control diet (RR = 0.39; 95%CI, 0.25-0.63), whereas a low-fat diet did not (RR = 0.62; 95%CI, 0.35-1.08)."
+  },
+  {
+   "section": "article",
+   "text": "Secondary outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Fifteen studies (n = 81 948 patients) contributed to the network for the all-cause mortality outcome (see Supplementary Material 3 in the Supporting Information online).<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"nuad080-B34\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(65)91469-8\" pmid=\"4158171\" count=\"1\"><sup>34-37</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39-45</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> Compared with the control diet, only the MD reduced the mortality risk (RR = 0.73; 95%CI, 0.58-0.92) (Figure 3). <sentence_start/>There was a difference between the low-fat diet and the MD (RR = 1.36; 95%CI, 1.10-1.68), but not between the MD and reduced-salt (RR = 0.74; 95%CI, 0.44-1.25), nor between the MD and the low-protein diet (RR = 1.53; 95%CI, 0.95-2.47) (see Table S5A in the Supporting Information online). <sentence_start/>MD ranked best (<italic>P</italic> = 0.9554) in terms of effect on secondary outcomes, followed by the reduced-salt diet (<italic>P</italic> = 0.4586), low-fat diet (<italic>P</italic> = 0.4262), the control diet (<italic>P</italic> = 0.4140), and the low-protein diet (<italic>P</italic> = 0.2459). <sentence_start/>No disagreement was detected between direct and indirect evidence with the node-splitting method. <sentence_start/>Evidence of publication bias was absent in the network (Egger\u2019s test, <italic>P</italic> = 0.3166). <sentence_start/>In the subgroup analysis of studies including exclusively patients with established CVD (n = 8 studies; n = 6500 patients),<citation rid=\"nuad080-B34\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(65)91469-8\" pmid=\"4158171\" count=\"1\"><sup>34</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39</sup></citation><sup>,</sup><citation rid=\"nuad080-B40\" ref-type=\"bibr\" doi=\"10.1001/archinte.168.20.2194\" pmid=\"19001195\" count=\"1\"><sup>40</sup></citation><sup>,</sup><citation rid=\"nuad080-B42\" ref-type=\"bibr\" doi=\"10.1007/978-1-4684-0967-3_18\" pmid=\"727035\" count=\"1\"><sup>42-44</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> MD resulted in reduced mortality rates in comparison with a control diet (RR = 0.61; 95%CI, 0.43-0.87) and low-fat diet (RR = 0.62; 95%CI, 0.44-0.87)."
+  },
+  {
+   "section": "article",
+   "text": "Fourteen studies (n = 82 046 patients) contributed to the network for the myocardial infarction outcome (see Supplementary Material 4 in the Supporting Information online).<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"nuad080-B34\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(65)91469-8\" pmid=\"4158171\" count=\"1\"><sup>34</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39-41</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43-48</sup></citation> Compared with the control diet, only the MD reduced the mortality risk (RR = 0.68; 95%CI, 0.52-0.88) (Figure 3). <sentence_start/>There was a difference between low-fat diet and the MD (RR = 1.36; 95%CI, 1.05-1.75), but not between the MD and the reduced-salt diet (RR = 0.65; 95%CI, 0.31-1.38) (see Table S6A in the Supporting Information online). <sentence_start/>MD ranked first (<italic>P</italic> = 0.9529) for the effect on myocardial infarction outcome, followed by the low-fat diet (<italic>P</italic> = 0.4653), reduced-salt diet (<italic>P</italic> = 0.3188), and the control diet (<italic>P</italic> = 0.2630). <sentence_start/>With reference to the subgroup analysis of studies that included exclusively patients with established CVD (n = 8 studies; n = 6500 patients),<citation rid=\"nuad080-B34\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(65)91469-8\" pmid=\"4158171\" count=\"1\"><sup>34</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39</sup></citation><sup>,</sup><citation rid=\"nuad080-B40\" ref-type=\"bibr\" doi=\"10.1001/archinte.168.20.2194\" pmid=\"19001195\" count=\"1\"><sup>40</sup></citation><sup>,</sup><citation rid=\"nuad080-B42\" ref-type=\"bibr\" doi=\"10.1007/978-1-4684-0967-3_18\" pmid=\"727035\" count=\"1\"><sup>42-44</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> no difference was observed between the dietary interventions."
+  },
+  {
+   "section": "article",
+   "text": "Eleven studies (n = 80 429 patients) contributed to the NMA on stroke outcome (see Supplementary Material 5 in the Supporting Information online).<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B38\" ref-type=\"bibr\" doi=\"10.1093/ajcn/61.6.1360S\" pmid=\"7754988\" count=\"1\"><sup>38-41</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43</sup></citation><sup>,</sup><citation rid=\"nuad080-B45\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(02)11472-3\" pmid=\"12433513\" count=\"1\"><sup>45</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> Compared with the control diet, no difference was observed between the dietary interventions (Figure 3). <sentence_start/>A low-fat diet was associated with an increased risk for stroke, compared with the MD (RR = 1.34; 95%CI, 1.05-1.70) (see Table S5 in the Supporting Information online). <sentence_start/>In the subgroup analysis of studies including exclusively patients with established CVD (n = 6 studies; n = 5757 patients),<citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B38\" ref-type=\"bibr\" doi=\"10.1093/ajcn/61.6.1360S\" pmid=\"7754988\" count=\"1\"><sup>38-40</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> the same results were observed. <sentence_start/>According to Egger\u2019s test, there was publication bias (<italic>P</italic> = 0.0118) regarding to this outcome."
+  },
+  {
+   "section": "article",
+   "text": "Nine studies (n = 78 843 patients) contributed to the network for the major cardiovascular event outcome (myocardial infarction, stroke, or mortality from cardiovascular causes; see Supplementary Material 6 in the Supporting Information online).<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B20\" ref-type=\"bibr\" doi=\"10.3945/ajcn.117.153270\" pmid=\"28515068\" pmcid=\"PMC5486201\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"nuad080-B23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2016.10.062\" pmid=\"27810294\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39-41</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43</sup></citation><sup>,</sup><citation rid=\"nuad080-B45\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(02)11472-3\" pmid=\"12433513\" count=\"1\"><sup>45</sup></citation> Compared with the control diet, only the MD reduced the mortality risk (RR = 0.64; 95%CI, 0.49-0.84) (Figure 3). <sentence_start/>Furthermore, a low-fat diet was associated with an increased risk for stroke compared with the MD (RR = 1.53; 95%CI, 1.18-1.97) (see Table S6 in the Supporting Information online). <sentence_start/>MD ranked as the best intervention in terms of effect on major cardiovascular events (<italic>P</italic> = 0.9851), whereas the reduced-salt diet was the worst dietary plan (<italic>P</italic> = 0.2948). <sentence_start/>There was a difference between the MD and low-fat diet (RR = 1.53; 95%CI, 1.18-1.97), but not between the MD and the reduced-salt diet (RR = 0.61; 95%CI, 0.35-1.07)."
+  },
+  {
+   "section": "article",
+   "text": "Six studies (n = 7659 patients) contributed to the NMA for the angina outcome (see Supplementary Material 7 in the Supporting Information online).<citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B38\" ref-type=\"bibr\" doi=\"10.1093/ajcn/61.6.1360S\" pmid=\"7754988\" count=\"1\"><sup>38</sup></citation><sup>,</sup><citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39</sup></citation><sup>,</sup><citation rid=\"nuad080-B41\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1212914\" pmid=\"23796131\" pmcid=\"PMC3791615\" count=\"1\"><sup>41</sup></citation><sup>,</sup><citation rid=\"nuad080-B43\" ref-type=\"bibr\" doi=\"10.1136/bmj.304.6833.1015\" pmid=\"1586782\" pmcid=\"PMC1881705\" count=\"1\"><sup>43</sup></citation><sup>,</sup><citation rid=\"nuad080-B45\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(02)11472-3\" pmid=\"12433513\" count=\"1\"><sup>45</sup></citation> Compared with the control diet, only the MD reduced the mortality risk (RR = 0.36; 95%CI, 0.16-0.84) (Figure 3). <sentence_start/>There was no difference between the low-fat diet and the MD (RR = 1.83; 95%CI, 0.72-4.65) (see Table S7 in the Supporting Information online)."
+  },
+  {
+   "section": "article",
+   "text": "Seven studies contributed to the NMA for the heart failure outcome (see Supplementary Material 8 in the Supporting Information online),<citation rid=\"nuad080-B33\" ref-type=\"bibr\" doi=\"10.1002/ejhf.750\" pmid=\"28133855\" count=\"1\"><sup>33</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B38\" ref-type=\"bibr\" doi=\"10.1093/ajcn/61.6.1360S\" pmid=\"7754988\" count=\"1\"><sup>38-41</sup></citation><sup>,</sup><citation rid=\"nuad080-B45\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(02)11472-3\" pmid=\"12433513\" count=\"1\"><sup>45</sup></citation> and 2 studies contributed to the NMA for the atrial fibrillation outcome (see Supplementary Material 9 in the Supporting Information online).<citation rid=\"nuad080-B31\" ref-type=\"bibr\" doi=\"10.1161/circulationaha.113.006921\" pmid=\"24787471\" count=\"1\"><sup>31</sup></citation><sup>,</sup><citation rid=\"nuad080-B40\" ref-type=\"bibr\" doi=\"10.1001/archinte.168.20.2194\" pmid=\"19001195\" count=\"1\"><sup>40</sup></citation> <sentence_start/>There was no differences among the MD, low-fat diet, and control diet (see Table S8 in the Supporting Information online)."
+  },
+  {
+   "section": "article",
+   "text": "Grading of evidence"
+  },
+  {
+   "section": "article",
+   "text": "Moderate confidence evidence demonstrated that only the MD managed to decrease the cardiovascular mortality risk (see Supplementary Table S9 in the Supporting Information online) when compared with control diets."
+  },
+  {
+   "section": "article",
+   "text": "DISCUSSION"
+  },
+  {
+   "section": "article",
+   "text": "In this study, the comparative efficacy of dietary interventions for CVD prevention was assessed by an NMA. <sentence_start/>Moderate confidence evidence suggests that, compared with the control diet, only the MD decreased the cardiovascular mortality risk. <sentence_start/>In addition, the MD was the only effective intervention for decreasing all-cause mortality, myocardial infarction, angina, and major cardiovascular events."
+  },
+  {
+   "section": "article",
+   "text": "The MD contains higher quantities of fruit, vegetables, nuts, fish, and olive oil.<citation rid=\"nuad080-B17\" ref-type=\"bibr\" doi=\"10.1093/ajcn/61.6.1402S\" pmid=\"7754995\" count=\"1\"><sup>17</sup></citation> <sentence_start/>These quantities have beneficial effects on cardiometabolic markers, endothelial function, and inflammation, decreasing the incidence of cardiovascular outcomes.<citation rid=\"nuad080-B49\" ref-type=\"bibr\" doi=\"10.1016/j.amjmed.2014.10.014\" pmid=\"25447615\" pmcid=\"PMC4339461\" count=\"1\"><sup>49</sup></citation> <sentence_start/>A recent study showed that greater amounts of olive oil consumption reduce total CVD and deaths from cancer.<citation rid=\"nuad080-B50\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2021.10.041\" pmid=\"35027106\" pmcid=\"PMC8851878\" count=\"1\"><sup>50</sup></citation> <sentence_start/>Several studies over the past decades found that the MD was correlated with favorable outcomes, such as a decreased atherosclerosis progression and improved quality of life.<citation rid=\"nuad080-B51\" ref-type=\"bibr\" doi=\"10.1161/STROKEAHA.120.033214\" pmid=\"34372670\" count=\"1\"><sup>51-53</sup></citation> <sentence_start/>Furthermore, the latest European guidelines recommend an MD or similar diet to lower the risk of CVD.<citation rid=\"nuad080-B12\" ref-type=\"bibr\" doi=\"10.1093/eurjpc/zwab154\" pmid=\"34558602\" count=\"1\"><sup>12</sup></citation> <sentence_start/>Nonetheless, it should be highlighted that this evidence is not supported by well-conducted, head-to-head comparisons (with few exceptions)<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"nuad080-B35\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2008.01.038\" pmid=\"18489927\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"nuad080-B37\" ref-type=\"bibr\" doi=\"10.1053/j.ajkd.2006.08.023\" pmid=\"17162142\" count=\"1\"><sup>37</sup></citation><sup>,</sup><citation rid=\"nuad080-B48\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(22)00122-2\" pmid=\"35525255\" count=\"1\"><sup>48</sup></citation> among dietary interventions (trials or NMAs)."
+  },
+  {
+   "section": "article",
+   "text": "According to the NMA findings, the MD is the only effective intervention for the primary and secondary prevention of CVD. <sentence_start/>Results of a previous RCT with 423 patients with myocardial infarction indicated that the MD had a positive effect on myocardial infarction 4 years after its first incidence.<citation rid=\"nuad080-B39\" ref-type=\"bibr\" doi=\"10.1161/01.cir.99.6.779\" pmid=\"9989963\" count=\"1\"><sup>39</sup></citation> <sentence_start/>Moreover, Estruch et al<citation rid=\"nuad080-B8\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1800389\" pmid=\"29897866\" count=\"1\"><sup>8</sup></citation> provided data on patients with a poor cardiac profile. <sentence_start/>The repercussion of significant cardiovascular outcomes in this study was lower among those assigned to the intervention arms in comparison with those assigned to a reduced-fat diet. <sentence_start/>Indeed, evidence from cohort studies has shown that greater amounts of olive oil intake were also correlated with beneficial outcomes.<citation rid=\"nuad080-B50\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2021.10.041\" pmid=\"35027106\" pmcid=\"PMC8851878\" count=\"1\"><sup>50</sup></citation> <sentence_start/>The retracted and republished PREDIMED trial results showed that there was no alteration in the studied outcomes, even after the reanalysis of the data. <sentence_start/>It was concluded that participants assigned to the MD arms had almost 30% lower incidence of CVD in contrast to individuals who received a control diet. <sentence_start/>Indeed, this NMA confirmed these results compared with low-fat, reduced-salt, and usual diets."
+  },
+  {
+   "section": "article",
+   "text": "None of the included RCTs in this review evaluated the cardiovascular benefits of plant-based diets. <sentence_start/>This intervention might have a key role in CVD prevention. <sentence_start/>In previous cohorts, lower levels of blood pressure and low-density lipoprotein cholesterol, and reduced incidence of type 2 diabetes mellitus were associated with this diet.<citation rid=\"nuad080-B54\" ref-type=\"bibr\" doi=\"10.1001/jamainternmed.2013.14547\" pmid=\"24566947\" count=\"1\"><sup>54</sup></citation><sup>,</sup><citation rid=\"nuad080-B55\" ref-type=\"bibr\" doi=\"10.1001/jamainternmed.2019.2195\" pmid=\"31329220\" pmcid=\"PMC6646993\" count=\"1\"><sup>55</sup></citation> <sentence_start/>A recent meta-analysis of observational studies showed that plant-based diets were associated with a lower risk of CVD.<citation rid=\"nuad080-B56\" ref-type=\"bibr\" doi=\"10.3390/nu13113952\" pmid=\"34836208\" pmcid=\"PMC8624676\" count=\"1\"><sup>56</sup></citation> <sentence_start/>Thus, European guidelines have included this intervention as a food pattern for people at high cardiovascular risk.<citation rid=\"nuad080-B12\" ref-type=\"bibr\" doi=\"10.1093/eurjpc/zwab154\" pmid=\"34558602\" count=\"1\"><sup>12</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Although this NMA provides evidence in the field, the findings must be interpreted with caution. <sentence_start/>Among the included studies, some were published before the introduction of the Consolidated Standards of Reporting Trials statement; hence, they may lack rigor of methodology. <sentence_start/>Although the MD remains the best option in the subgroup analysis of studies including exclusively patients with established CVD, it is unknown whether the benefits of diets are evident in other specific populations, such as elderly patients or patients with diabetes mellitus. <sentence_start/>An additional limitation identified in the studies included in our NMA was that participants following the MD diet achieved greater weight loss than did population groups assigned to other dietary interventions. <sentence_start/>Hence, the overall reduction of CVD risk may be attributed to changes in body weight and not to dietary interventions per se. <sentence_start/>Some of the included trials were published before 2000 and had methodological issues."
+  },
+  {
+   "section": "article",
+   "text": "CONCLUSION"
+  },
+  {
+   "section": "article",
+   "text": "The MD may have a protective role against cardiovascular death and for primary and secondary prevention of CVD."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "nuad080_Supplementary_Data"
+  },
+  {
+   "section": "back",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "back",
+   "text": "The following Supporting Information is available through the online version of this article at the publisher\u2019s website."
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 1 </italic> <bold>Search strategy</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Figure S1 </italic> <bold>Quality assessment of included studies</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Table S1 </italic> <bold>Dietary details in each interventional arm</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 2 </italic> <bold>Assessment of inconsistency and funnel plot for the primary outcome</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 3 </italic> <bold>Network meta-analysis of mortality interventions</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 4 </italic> <bold>Network meta-analysis of interventions for myocardial infarction</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 5 </italic> <bold>Network meta-analysis of interventions for stroke</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 6 </italic> <bold>Network meta-analysis of interventions for major cardiovascular events (myocardial infarction, stroke, or death from cardiovascular causes) outcome</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 7 </italic> <bold>Network meta-analysis of interventions for the angina outcome</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 8 </italic> <bold>Network meta-analysis of interventions for the heart failure outcome</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Material 9 </italic> <bold>Network meta-analysis of interventions for the atrial fibrillation outcome</bold>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>Supplementary Table S9 </italic> <bold>Grading of evidence for the primary outcome</bold>"
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "The data underlying this article are available in the article and its online supplementary material, and the review protocol can be found in ."
+  }
+ ]
+}

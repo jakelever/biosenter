@@ -1,0 +1,471 @@
+{
+ "pmid": 36827425,
+ "pmcid": 9956870,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Exploring functional and structural features of chemically related natural prenylated hydroquinone and benzoic acid from <italic>Piper crassinervium</italic> (Piperaceae) on bacterial peroxiredoxin inhibition"
+  },
+  {
+   "section": "abstract",
+   "text": "Multiple drug resistance (MDR) bacterial strains are responsible by 1.2 million of human deaths all over the world. <sentence_start/>The pathogens possess efficient enzymes which are able to mitigate the toxicity of reactive oxygen species (ROS) produced by some antibiotics and the host immune cells. <sentence_start/>Among them, the bacterial peroxiredoxin alkyl hydroperoxide reductase C (AhpC) is able to decompose efficiently several kinds of hydroperoxides. <sentence_start/>To decompose their substrates AhpC use a reactive cysteine residue (peroxidatic cysteine-Cys<sub>P</sub>) that together with two other polar residues (Thr/Ser and Arg) comprise the catalytic triad of these enzymes and are involved in the substrate targeting/stabilization to allow a bimolecular nucleophilic substitution (S<sub>N</sub>2) reaction. <sentence_start/>Additionally to the high efficiency the AhpC is very abundant in the cells and present virulent properties in some bacterial species. <sentence_start/>Despite the importance of AhpC in bacteria, few studies aimed at using natural compounds as inhibitors of this class of enzymes. <sentence_start/>Some natural products were identified as human isoforms, presenting as common characteristics a bulk hydrophobic moiety and an \u03b1, \u03b2-unsaturated carbonylic system able to perform a thiol-Michael reaction. <sentence_start/>In this work, we evaluated two chemically related natural products: 1,4-dihydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzene (<bold>C1</bold>) and 4-hydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzoic acid (<bold>C2</bold>), both were isolated from branches <italic>Piper crassinervium</italic> (Piperaceae), over the peroxidase activity of AhpC from <italic>Pseudomonas aeruginosa</italic> (PaAhpC) and <italic>Staphylococcus epidermidis</italic> (SeAhpC). <sentence_start/>By biochemical assays we show that although both compounds can perform the Michael addition reaction, only compound <bold>C2</bold> was able to inhibit the PaAhpC peroxidase activity but not SeAhpC, presenting IC<sub>50</sub> = 20.3 \u03bcM. <sentence_start/>SDS-PAGE analysis revealed that the compound was not able to perform a thiol-Michael addition, suggesting another inhibition behavior. <sentence_start/>Using computer-assisted simulations, we also show that an acidic group present in the structure of compound <bold>C2</bold> may be involved in the stabilization by polar interactions with the Thr and Arg residues from the catalytic triad and several apolar interactions with hydrophobic residues. <sentence_start/>Finally, <bold>C2</bold> was not able to interfere in the peroxidase activity of the isoform Prx2 from humans or even the thiol proteins of the Trx reducing system from <italic>Escherichia coli</italic> (EcTrx and EcTrxR), indicating specificity for <italic>P</italic>. <italic>aeruginosa</italic> AhpC."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Bacteria resistance to antibacterial drugs may be directly related to oxidative stress since antibiotics from different classes have the common ability to generate reactive oxygen species (ROS), damaging macromolecules, especially DNA [<citation rid=\"pone.0281322.ref001\" ref-type=\"bibr\" doi=\"10.1073/pnas.1401876111\" pmid=\"24803433\" pmcid=\"PMC4034191\" count=\"1\">1</citation>, <citation rid=\"pone.0281322.ref002\" ref-type=\"bibr\" doi=\"10.1016/j.cbi.2020.109023\" pmid=\"32097615\" count=\"1\">2</citation>]. <sentence_start/>ROS are also produced by host immune cells to fight pathogen infections, and studies suggest that inhibition of antioxidant enzymes is deleterious to pathogens infection and establishment [<citation rid=\"pone.0281322.ref003\" ref-type=\"bibr\" doi=\"10.1016/j.redox.2021.102075\" pmid=\"34315109\" pmcid=\"PMC8327333\" count=\"1\">3</citation>]. <sentence_start/>Bacteria cells possess several antioxidant enzymes able to decompose ROS, including the typical 2-Cys peroxiredoxins, so called AhpCs [<citation rid=\"pone.0281322.ref004\" ref-type=\"bibr\" doi=\"10.1007/s00253-021-11360-5\" pmid=\"34258640\" count=\"1\">4</citation>]. <sentence_start/>These enzymes are very abundant in bacteria and are considered virulence factors to some species, indicating they play an important role in pathogenesis [<citation rid=\"pone.0281322.ref003\" ref-type=\"bibr\" doi=\"10.1016/j.redox.2021.102075\" pmid=\"34315109\" pmcid=\"PMC8327333\" count=\"1\">3</citation>, <citation rid=\"pone.0281322.ref005\" ref-type=\"bibr\" doi=\"10.1007/s12275-009-0130-x\" pmid=\"19851736\" count=\"1\">5</citation>-<citation rid=\"pone.0281322.ref010\" ref-type=\"bibr\" doi=\"10.1099/00221287-144-10-2687\" pmid=\"9802010\" count=\"1\">10</citation>]. <sentence_start/>AhpC is the abbreviation used for alkyl hydroperoxide reductase subunit C, referring to its discovery, since the bacterial strains carrying deletions of <italic>ahpC</italic> gene were very sensitive to organic hydroperoxides [<citation rid=\"pone.0281322.ref011\" ref-type=\"bibr\" pmid=\"2643600\" count=\"1\">11</citation>]. <sentence_start/>Later studies revealed that AhpC are also very reactive to several kinds of hydroperoxide, such as hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) and peroxynitrite (NOO<sup>-</sup>) [<citation rid=\"pone.0281322.ref012\" ref-type=\"bibr\" doi=\"10.1073/pnas.0708308105\" pmid=\"18165315\" pmcid=\"PMC2448816\" count=\"1\">12</citation>-<citation rid=\"pone.0281322.ref014\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2019.01483\" pmid=\"31338075\" pmcid=\"PMC6626918\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The peroxidatic mechanism of typical 2-Cys Prx is based on a conserved catalytic triad (TC) composed of a reactive cysteine residue (peroxidatic cysteine-Cys<sub>P</sub>), an Arg, and a Thr or Ser. <sentence_start/>The mechanistic importance of the catalytic triad residues has been well studied experimentally, and it is based on an intricate hydrogen bonds network involved in the hydroperoxide decomposition [<citation rid=\"pone.0281322.ref015\" ref-type=\"bibr\" doi=\"10.1016/j.jmb.2010.07.022\" pmid=\"20643143\" pmcid=\"PMC2941395\" count=\"1\">15</citation>, <citation rid=\"pone.0281322.ref016\" ref-type=\"bibr\" doi=\"10.1021/tx100413v\" pmid=\"21391663\" count=\"1\">16</citation>]. <sentence_start/>The Arg and Thr/Ser are able to stabilize the Cys<sub>P</sub> in the thiolate state (Cys<sub>P</sub>-S<sup>-</sup>) by hydrogen bonds, decreasing its p<italic>K</italic><sub>a</sub>. <sentence_start/>These residues are also involved in the orientation and activation of the hydroperoxide molecule (R-OOH) by hydrogen bonds network, allowing the optimal reactivity of Cys<sub>P</sub> through a S<sub>N</sub>2 mechanism [<citation rid=\"pone.0281322.ref015\" ref-type=\"bibr\" doi=\"10.1016/j.jmb.2010.07.022\" pmid=\"20643143\" pmcid=\"PMC2941395\" count=\"1\">15</citation>, <citation rid=\"pone.0281322.ref016\" ref-type=\"bibr\" doi=\"10.1021/tx100413v\" pmid=\"21391663\" count=\"1\">16</citation>]. <sentence_start/>Together, this molecular mechanism culminates in Cys<sub>P</sub> oxidation to cysteine sulfenic acid (CysP-SOH) and the release of the leaving group (R-OH) (<bold>Fig 1</bold>). <sentence_start/>Computer-assisted simulations of the reaction of different Prxs with H<sub>2</sub>O<sub>2</sub> gave further insights into the mechanism of catalysis at a molecular level, supporting the catalytic mechanism proposed [<citation rid=\"pone.0281322.ref017\" ref-type=\"bibr\" doi=\"10.1074/jbc.M111.232355\" pmid=\"21385867\" pmcid=\"PMC3093878\" count=\"1\">17</citation>, <citation rid=\"pone.0281322.ref018\" ref-type=\"bibr\" doi=\"10.1039/c4cc02899f\" pmid=\"25045760\" pmcid=\"PMC4336542\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "Molecular interactions and peroxide decomposition reactions of 2-Cys Prx."
+  },
+  {
+   "section": "article",
+   "text": "The thiolate nucleophilicity of peroxidatic cysteine (Cys<sub>P</sub>) is increased by hydrogen bonds with the catalytic triad Arg and Thr residues <bold>(i)</bold>. <sentence_start/>The hydroperoxide (Hpx) is trapped by the Arg hydrogen bond which is able to target the Hpx to the Prx active site <bold>(ii)</bold>. <sentence_start/>The shift of the Arg and Thr hydrogen bonds from the Cys<sub>P</sub> thiolate to the substrate stabilizes the Hpx and increase the thiolate reactivity enabling the S<sub>N</sub>2 mechanism <bold>(iii)</bold>. <sentence_start/>After the catalytic reaction, the Cys<sub>P</sub> is oxidized to cysteine sulfenic acid (Cys<sub>P</sub>-SOH) and the release of the leaving group (R-OH, meaning a water molecule in the case of hydrogen peroxide, or the alcohol derivative, in the case of organic hydroperoxides) is assisted by polar interaction with Arg <bold>(iv</bold>). <sentence_start/>The cysteine sulfenic acid formation triggers structural changes which allow the condensation among Cys<sub>P</sub>-SOH with Cys<sub>R</sub>-SH <bold>(v)</bold> resulting in the disulfide formation and concomitant release of a water molecule <bold>(vi)</bold>. <sentence_start/>The asterisk (*) in Cys<sub>R</sub>, denotes the adjacent subunit of the homodimer."
+  },
+  {
+   "section": "article",
+   "text": "The typical 2-Cys Prx are obligate homodimers. <sentence_start/>After hydroperoxide decomposition, the Cys<sub>P</sub> forms an intramolecular disulfide with a second cysteine residue (resolving Cys; Cys<sub>R</sub>) found in the adjacent subunit. <sentence_start/>Despite that, the minimum catalytic unit of 2-Cys Prx has been homodimer, when these enzymes are in the reduced state (Cys<sub>P</sub>-S<sup>-</sup>) they are found as \u03b1 2 [<citation rid=\"pone.0281322.ref005\" ref-type=\"bibr\" doi=\"10.1007/s12275-009-0130-x\" pmid=\"19851736\" count=\"1\">5</citation>] decamers, forming a structure that resembles a doughnut [<citation rid=\"pone.0281322.ref020\" ref-type=\"bibr\" doi=\"10.1021/bi012173m\" pmid=\"11969410\" count=\"1\">20</citation>]. <sentence_start/>In enzymes containing Thr as part of the catalytic triad, the peroxide decomposition with consequent oxidation of the cysteines to disulfide triggers conformational changes that result in the decamer disruption in dimers [<citation rid=\"pone.0281322.ref019\" ref-type=\"bibr\" doi=\"10.1089/ars.2010.3624\" pmid=\"20969484\" pmcid=\"PMC3125576\" count=\"1\">19</citation>-<citation rid=\"pone.0281322.ref021\" ref-type=\"bibr\" doi=\"10.1126/science.1080405\" pmid=\"12714747\" count=\"1\">21</citation>]. <sentence_start/>Conversely to 2-Cys Prx containing Ser in the CT, the disulfide formation occurs without significant quaternary structure transition [<citation rid=\"pone.0281322.ref022\" ref-type=\"bibr\" doi=\"10.3390/antiox10071032\" pmid=\"34202406\" pmcid=\"PMC8300647\" count=\"1\">22</citation>, <citation rid=\"pone.0281322.ref023\" ref-type=\"bibr\" doi=\"10.1038/srep33133\" pmid=\"27629822\" pmcid=\"PMC5024103\" count=\"1\">23</citation>]. <sentence_start/>The reducing agent of typical 2-Cys Prx are represented by the thioredoxin system or by the AhpF which are able to reduce the Prx disulfide, restoring the reactive state [<citation rid=\"pone.0281322.ref023\" ref-type=\"bibr\" doi=\"10.1038/srep33133\" pmid=\"27629822\" pmcid=\"PMC5024103\" count=\"1\">23</citation>, <citation rid=\"pone.0281322.ref024\" ref-type=\"bibr\" doi=\"10.3390/antiox10071032\" pmid=\"34202406\" pmcid=\"PMC8300647\" count=\"1\">24</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Despite the apparent AhpC importance to the establishment and survival of pathogenic bacteria in hosts, few studies aimed at finding inhibitors to these enzymes [<citation rid=\"pone.0281322.ref025\" ref-type=\"bibr\" doi=\"10.1021/ja909150y\" pmid=\"20433172\" count=\"1\">25</citation>, <citation rid=\"pone.0281322.ref026\" ref-type=\"bibr\" doi=\"10.1021/acs.chemrestox.2c00049\" pmid=\"35537067\" count=\"1\">26</citation>]. <sentence_start/>Some isoforms of typical Prx 2-Cys are overexpressed in some human genetic diseases, including cancer and biological processes as inflammation, and some inhibitory macro and micro-molecules, such as antibodies and natural or synthetic low molecular weight compounds, have already been characterized as eukaryotic counterparts [<citation rid=\"pone.0281322.ref027\" ref-type=\"bibr\" doi=\"10.1038/nm.2749\" pmid=\"22610280\" count=\"1\">27</citation>-<citation rid=\"pone.0281322.ref034\" ref-type=\"bibr\" doi=\"10.4049/jimmunol.1700796\" pmid=\"30185517\" count=\"1\">34</citation>]. <sentence_start/>A common feature shared among low molecular weight compounds is a very bulky carbon skeleton, which may resemble natural oxidant substrates as organic hydroperoxides. <sentence_start/>Among the natural compounds identified to eukaryotic isoforms, three of them are <italic>ent</italic>-kauranes diterpenes (adenanthin, JM-202, and parvifoline AA). <sentence_start/>The inhibitory action of these compounds is based on the alkylation of the catalytic cysteines through a thiol-Michael addition involving an \u03b1,\u03b2-unsaturated carbonylic system from the inhibitors [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref030\" ref-type=\"bibr\" doi=\"10.1089/ars.2016.6703\" pmid=\"27650197\" pmcid=\"PMC5510680\" count=\"1\">30</citation>, <citation rid=\"pone.0281322.ref033\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2019.04.003\" pmid=\"31130519\" count=\"1\">33</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "As part of our continuous studies concerning the identification of natural inhibitors of peroxiredoxins, we here isolated two chemically related natural compounds- 1,4-dihydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzene (<bold>C1</bold>) and 4-hydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzoic acid (<bold>C2</bold>) from branches of <italic>Piper crassinervium</italic> (Piperaceae). <sentence_start/>These chemicals were tested over the AhpCs containing Thr or Ser as part of the catalytic triad, using recombinant enzymes from <italic>Pseudomonas aeruginosa</italic> and <italic>Staphylococcus epidermidis</italic>, opportunistics Gram -negative and -positive bacteria involved in hospital acquired infections. <sentence_start/>Using biochemical approaches, we identified compound <bold>C2</bold> as a novel natural product with inhibitory properties over PaAhpC but not over SeAhpC, that presents IC<sub>50</sub> in the order of 20.3 \u03bcM. <sentence_start/>We also demonstrated that the inhibitory properties were not due to the thiol-Michael addition mechanism over the catalytic cysteines, since the intramolecular disulfide formation of the enzyme was preserved. <sentence_start/>We also evaluated the inhibitory effect of the compound <bold>C2</bold> over the human isoform Prx2 and the thiol proteins Trx and TrxR from bacteria, and no significant inhibition was detected in the tested conditions, suggesting specificity to PaAhpC. Finally, we executed computer assisted molecular simulations to investigate a possible mode of binding, which revealed that compound <bold>C2</bold> is maintained in the active site by several non-polar interactions with residues of the PaAhpC active site microenvironment comprising three subunits of the decamer. <sentence_start/>Curiously <bold>C2</bold> possess physicochemical characteristics that resemble organic peroxides found in biological systems that are derived from aromatic compounds or long chain molecules, such as nitrogenous bases and lipids hydroperoxides and, ultimately, may mimics these kinds of biological substrates. <sentence_start/>Altogether, our results reveal a novel class of inhibitory natural compounds able to exert activity over the bacterial PaAhpC."
+  },
+  {
+   "section": "article",
+   "text": "Experimental"
+  },
+  {
+   "section": "article",
+   "text": "General"
+  },
+  {
+   "section": "article",
+   "text": "Chromatographic separation procedures were performed using silica gel (Merck, 230-400 mesh) and silica gel 60 PF<sub>254</sub> (Merck) for column separation and for analytical (0.50mm) TLC, respectively. <sentence_start/>NMR spectra were recorded on a Varian Inova 500 spectrometer, operating at 500 MHz (<sup>1</sup>H nuclei) and 125 MHz (<sup>13</sup>C nuclei). <sentence_start/>CDCl<sub>3</sub> (Aldrich) was used as a solvent whereas tetramethylsilane (TMS) was employed as an internal standard. <sentence_start/>ESI-HRMS were recorded on a Bruker Daltonics MicroTOF QII spectrometer acquired with ESI (electrospray ionization) in both positive and negative ion mode. <sentence_start/>All solvents and reagents were purchased from Sigma-Aldrich (St. Louis, MO, USA) and Thermo Scientific (Logan, UT, USA)."
+  },
+  {
+   "section": "article",
+   "text": "Plant material"
+  },
+  {
+   "section": "article",
+   "text": "Branches of <italic>P</italic>. <italic>crassinervium</italic> were collected at Parque Estadual Fontes do Ipiranga, S\u00e3o Paulo State, Brazil and identified by Dr. Guilherme M. Antar from the Instituto de Bioci\u00eancias of Universidade de S\u00e3o Paulo (IB-USP), receiving the registration code SISGEN A4123E4. <sentence_start/>A voucher specimen (SPF 218827) was deposited in the Herbarium of IB-USP, S\u00e3o Paulo, SP, Brazil."
+  },
+  {
+   "section": "article",
+   "text": "Extraction and isolation of the constituents"
+  },
+  {
+   "section": "article",
+   "text": "Dried and powdered branches (85 g) were exhaustively extracted with <italic>n</italic>-hexane at room temperature. <sentence_start/>The solvent of combined <italic>n</italic>-hexane was evaporated under reduced pressure to afford 747 mg of crude extract. <sentence_start/>Part of this material (670 mg) was chromatographed over a silica-gel column, eluted with increasing amounts of EtOAc in <italic>n</italic>-hexane, to afford pure <bold>C1</bold> (79.5 mg) and <bold>C2</bold> (44.2 mg)."
+  },
+  {
+   "section": "article",
+   "text": "Recombinant proteins"
+  },
+  {
+   "section": "article",
+   "text": "<italic>P</italic>. <italic>aeruginosa</italic> AhpC (PaAhpC), <italic>S</italic>. <italic>epidermidis</italic> AhpC (SeAhpC), and the Trx system from <italic>Escherichia coli</italic> (EcTrx and EcTrxR) were previously obtained [<citation rid=\"pone.0281322.ref022\" ref-type=\"bibr\" doi=\"10.3390/antiox10071032\" pmid=\"34202406\" pmcid=\"PMC8300647\" count=\"1\">22</citation>]. <sentence_start/>The expression of the human Prx2 (HsPrx2) and <italic>Saccharomyces cerevisiae</italic> Trx system (ScTrx1 and ScTrxR1) were performed as previously described by Truzzi and colleagues [<citation rid=\"pone.0281322.ref035\" ref-type=\"bibr\" doi=\"10.1074/jbc.RA119.008825\" pmid=\"31366734\" pmcid=\"PMC6755790\" count=\"1\">35</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Protein expression and purification"
+  },
+  {
+   "section": "article",
+   "text": "Transformed <italic>E</italic>. <italic>coli</italic> BL21 (DE3) cells containing pET15b-<italic>pa_ahpc</italic>, pET15b-<italic>se_ahpc</italic>, pET15b-<italic>ec_trx</italic>, pET15b-<italic>ec_trxr</italic>, pET28b-<italic>hs_</italic>prx2, pET15b-<italic>sc_trx1</italic> and pPROEX-<italic>sctrxr1</italic> were grown overnight at 37\u00b0C in 100 mL of medium LB (10% tryptone, 5% NaCl and 5% yeast extract) containing 100 \u03bcg/mL of ampicillin and then transferred to 1 L of fresh LB containing ampicillin (100 \u03bcg/mL) and grown to OD<sub>600</sub> = 0.6-0.8. <sentence_start/>Recombinant protein expression was induced by IPTG addition to a final concentration of 1 mM for 3 hours at 37\u00b0C. <sentence_start/>The cells were harvested by centrifugation at 4.000 \u00d7 <italic>g</italic>/4\u00b0C/20 min, and the pellet was suspended with start buffer (20 mM sodium phosphate pH 7.4; 300 mM NaCl; 20 mM imidazole) containing PMSF (1 mM). <sentence_start/>Cell disruptions were performed by sonication (30% amplitude/ 24 cycles of 5 seconds and resting for 15 seconds in an ice bath, and nucleic acids were removed using streptomycin sulfate ([Final] = 1%). <sentence_start/>The suspensions were clarified by filtration (45\u03bcm membrane; Merck-Millipore) and following centrifugation (45 min/4\u00b0C/12.000 g) and the protein extracts free of nucleic acids were collected."
+  },
+  {
+   "section": "article",
+   "text": "Determination of enzyme concentrations"
+  },
+  {
+   "section": "article",
+   "text": "Protein concentrations were measured by spectrophotometry at \u03bb = 280 nm by the molar extinction coefficient using the ProtParam tool ( ). <sentence_start/>The enzyme abbreviations, Uniprot codes and enzyme properties are presented in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "Treatment of the enzymes with compounds C1 and C2"
+  },
+  {
+   "section": "article",
+   "text": "Enzyme samples [100 \u03bcM] were reduced with 5mM dithiothreitol (DTT) for 30 minutes at 25\u00b0C and desalted using PD10 columns (Cytiva Life Sciences, Marlborough, MA, USA), quantified, and the protein concentration were adjusted to 10 \u03bcM and treated with 50 M equivalents of compounds <bold>C1</bold> or <bold>C2</bold> for one hour at room temperature. <sentence_start/>As control of cysteine alkylation/enzyme inactivation, the Prx were treated with N-ethylmaleimide (NEM) 1h/RT. <sentence_start/>Finally, the treated proteins were desalted again to remove excess of the compounds and quantified again for use in subsequent assays."
+  },
+  {
+   "section": "article",
+   "text": "NADPH coupled oxidation assay to test inhibitory properties of compounds C1 and C2"
+  },
+  {
+   "section": "article",
+   "text": "The inhibitory properties of compounds <bold>C1</bold> and <bold>C2</bold> on PaAhpC and SeAhpC peroxidase activity were tested using the <italic>E</italic>. <italic>coli</italic> Trx system by the coupled NADPH oxidation assay as previously described [<citation rid=\"pone.0281322.ref022\" ref-type=\"bibr\" doi=\"10.3390/antiox10071032\" pmid=\"34202406\" pmcid=\"PMC8300647\" count=\"1\">22</citation>]. <sentence_start/>Briefly: 3 \u03bcM of PaAhpC or SeAhpC was added to a mix containing 6 \u03bcM of EcTrx, 0.9 \u03bcM of EcTrxR, 150 \u03bcM of NADPH, in 50 mM HEPES pH 7.4 buffer, 1 mM DTPA and 100 \u03bcM sodium azide, and then incubated for 5 minutes at 37\u00b0C. <sentence_start/>The reactions were initiated by the addition of H<sub>2</sub>O<sub>2</sub> (500 \u03bcM) and NADPH decay were monitored spectrophotometrically at 340 nm. <sentence_start/>As negative controls are represented by reactions without AhpC are (negative control), or AhpC pretreated with NEM (40 \u03bcM) (inhibition control), proteins without pretreatment (positive control), and proteins pretreated either with compounds <bold>C1</bold> and <bold>C2</bold>. <sentence_start/>To evaluate the inhibitory activity of compound <bold>C2</bold> over the human peroxiredoxin isoform were used human HsPrx2 (5 \u03bcM) and the heterologous yeast Trx system (ScTrx1, 10 \u03bcM and ScTrxR1, 0.2 \u03bcM)."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of protein sequences and crystallographic structures"
+  },
+  {
+   "section": "article",
+   "text": "Protein alignments were performed using Clustal \u03a9 [<citation rid=\"pone.0281322.ref036\" ref-type=\"bibr\" doi=\"10.1038/msb.2011.75\" pmid=\"21988835\" pmcid=\"PMC3261699\" count=\"1\">36</citation>], and the graphical representations were generated using JalView [<citation rid=\"pone.0281322.ref037\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btp033\" pmid=\"19151095\" pmcid=\"PMC2672624\" count=\"1\">37</citation>]. <sentence_start/>Molecular crystallographic structures representations were made using the PyMol ( /)."
+  },
+  {
+   "section": "article",
+   "text": "Molecular docking approaches"
+  },
+  {
+   "section": "article",
+   "text": "Molecular dockings were performed using the coordinates 4MA9 from <italic>S</italic>. <italic>typhimurium</italic> AhpC obtained from the Protein Data Bank. <sentence_start/>Three-dimensional structures of compounds <bold>C1</bold> and <bold>C2</bold> were constructed using MolView [<citation rid=\"pone.0281322.ref038\" ref-type=\"bibr\" doi=\"10.1016/0263-7855(94)00019-o\" pmid=\"7619787\" count=\"1\">38</citation>]. <sentence_start/>Docking simulations were performed using AutoDock Vina [<citation rid=\"pone.0281322.ref039\" ref-type=\"bibr\" doi=\"10.1021/acs.jcim.1c00203\" pmid=\"34278794\" pmcid=\"PMC10683950\" count=\"1\">39</citation>, <citation rid=\"pone.0281322.ref040\" ref-type=\"bibr\" doi=\"10.1002/jcc.21334\" pmid=\"19499576\" pmcid=\"PMC3041641\" count=\"1\">40</citation>], griding the active site region (20 \u00d7 20 \u00d7 20\u00c5), using the deprotonates Cys<sub>P</sub> (thiolate state). <sentence_start/>Were generated 15 positions per simulation. <sentence_start/>Each ligand orientation was analyzed using UCSF Chimera tool [<citation rid=\"pone.0281322.ref041\" ref-type=\"bibr\" doi=\"10.1002/jcc.20084\" pmid=\"15264254\" count=\"1\">41</citation>] to determine the best pose using as criterion the distance of the reactive Cys<sub>P</sub> and the \u03b1,\u03b2-unsaturated group of the compounds with maximum distance of 5.0 \u00c5 and also the position compared with ligands found in the crystallographic structures of Prx isoforms active site as H<sub>2</sub>O<sub>2</sub> (PDB code = 3A2V), benzoate (2V32 1HD2; 1OC3; 2V41; 1H4O) and tert-butylbenzene-diol (4K7O). <sentence_start/>The protein-ligand analysis interactions of the best poses were performed using the LigPlot+."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Chemical characterization of compounds C1 and C2"
+  },
+  {
+   "section": "article",
+   "text": "Compounds <bold>C1</bold> and <bold>C2</bold>, isolated as white amorphous solids, displayed [M-H]<sup>-</sup> ion peaks in ESI-HRMS at <italic>m/z</italic> 259.1328 and 287.1322, respectively. <sentence_start/><sup>1</sup>H NMR spectra indicated the presence of 1,2,4-trisubstituted aromatic ring based on the signals at \u03b4 6.84 (d, <italic>J</italic> = 8.9 Hz, H-6), 6.98 (dd, <italic>J</italic> = 8.9 and 3.0 Hz, H-5) and 7.21 (d, <italic>J</italic> = 3.0 Hz, H-3) for compound <bold>C1,</bold> and at \u03b4 7.03 (d, <italic>J</italic> = 8.7 Hz, H-6), 8.15 (dd, <italic>J</italic> = 8.7 and 1.6 Hz, H-5) and 8.58 (d, <italic>J</italic> = 1.6 Hz, H-3) for compound <bold>C2</bold>. <sentence_start/>These different signals suggest the occurrence of hydroquinone and 4-hydroxylbenzoic unities in compounds <bold>C1</bold> and <bold>C2</bold>, respectively, as previously reported in metabolites isolated from leaves of <italic>P</italic>. <italic>crassinervium</italic> [<citation rid=\"pone.0281322.ref042\" ref-type=\"bibr\" doi=\"10.1016/s0031-9422(03)00299-1\" pmid=\"12943774\" count=\"1\">42</citation>]. <sentence_start/>Despite these differences, <sup>1</sup>H NMR spectra of both compounds showed similar signals attributed to 1-oxo-geranyl moiety at \u03b4 1.62 (H-9\u2019), 1.72 (s, H-8\u2019), 2.18 (s, H-10\u2019), 2.30 (m, H-4\u2019), 2.20 (m, H-5\u2019), 5.12 (t, <italic>J</italic> = 7.3 Hz), and 6.66 (s, H-2\u2019). <sentence_start/><sup>13</sup>C NMR spectra of compounds <bold>C1</bold> and <bold>C2</bold> exhibited signals attributed to sp<sup>2</sup> carbons of geranyl moiety at \u03b4 196.1/195.8 (C-1\u2019), 115.0/118.8 (C-2\u2019), 161.4/163.8 (C-3\u2019) 124.2/122.7 (C-6\u2019), and 132.9/133.0 (C-7\u2019), as well as three methyl groups at \u03b4 25.7 (C-8\u2019), 17.8 (C-9\u2019), and 20.1/20.4 (C-10\u2019); and two methylene carbons at \u03b4 41.6/41.9 (C-4\u2019) and 26.2/26.3 (C-5\u2019). <sentence_start/>In the case of <sup>13</sup>C NMR spectrum of compound <bold>C1,</bold> the remaining six peaks were observed at \u03b4 119.2 (C-1), 119.7 (C-2), 120.6 (C-3), 123.0 (C-4), 147.3 (C-5), and 157.4 (C-6), peaks that were attributed to carbons of a hydroquinone system. <sentence_start/>For compound <bold>C2</bold>, seven signals of sp<sup>2</sup> carbons, assigned to 4-hydroxybenzoic unit, were observed at \u03b4 119.8 (C-1), 167.7 (C-2), 118.9 (C-3), 137.0 (C-4), 120.2 (C-5), 133.1 (C-6), and 170.5 (COOH) (<bold>S1-S6 Figs</bold>). <sentence_start/>Comparison with literature data allowed the identification of compounds <bold>C1</bold> and <bold>C2</bold> as 1,4-dihydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzene and 4-hydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzoic acid [<citation rid=\"pone.0281322.ref042\" ref-type=\"bibr\" doi=\"10.1016/s0031-9422(03)00299-1\" pmid=\"12943774\" count=\"1\">42</citation>, <citation rid=\"pone.0281322.ref043\" ref-type=\"bibr\" doi=\"10.1016/0031-9422(92)80286-n\" pmid=\"1368049\" count=\"1\">43</citation>], respectively (<bold>Fig 2</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 2"
+  },
+  {
+   "section": "article",
+   "text": "Chemical structures of compounds C1 and C2, isolated from branches of <italic>P</italic>. <italic>crassinervium</italic>."
+  },
+  {
+   "section": "article",
+   "text": "The \u03b1, \u03b2-unsaturated carbonyl system are represented in red."
+  },
+  {
+   "section": "article",
+   "text": "Evaluation of inhibitory properties of compounds C1 and C2"
+  },
+  {
+   "section": "article",
+   "text": "To assess the inhibitory activity of compounds <bold>C1</bold> and C2, we employed the NADPH oxidation assay [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>] using the recombinant AhpC from <italic>P</italic>. <italic>aeruginosa</italic> (PaAhpC) or <italic>S</italic>. <italic>epdidermidis</italic> (SeAhpC) and the heterologous Trx system from <italic>E</italic>. <italic>coli</italic>. <sentence_start/>Representative results of the PaAhpC, SeAhpC, EcTrx, and EcTrxR expression and purification procedures are shown in <bold>S7A-S7D Fig</bold>. <sentence_start/>As inhibition control, reduced samples of PaAhpC or SeAhpC were treated with NEM, a well-known and powerful cysteine alkylating agent that is able to annihilate peroxiredoxin activity [<citation rid=\"pone.0281322.ref044\" ref-type=\"bibr\" doi=\"10.1016/j.freeradbiomed.2009.08.022\" pmid=\"19716412\" count=\"1\">44</citation>]. <sentence_start/>As expected for the samples subjected to NEM treatment, no peroxidase activity was detected to both enzymes as indicated by the initial rates of hydrogen peroxide decomposition when compared to the enzyme without treatment (<bold>Fig 3 and Table 2</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 3"
+  },
+  {
+   "section": "article",
+   "text": "NADPH oxidation assay of PaAhpC and SeAhpC after treatment with compounds C1 and C2."
+  },
+  {
+   "section": "article",
+   "text": "To perform the assays PaAhpC and SeAhpC samples were previously reduced with DTT (5 mM/1h). <sentence_start/>The DTT excess was removed, and the enzymes were treated with 40 molar equivalents of <bold>C1</bold> (<bold>A</bold> and <bold>C</bold>, red square) or <bold>C2</bold> (<bold>B</bold> and <bold>D</bold>, red square) for 1hour at room temperature. <sentence_start/>The compounds excess was removed, and the peroxidase activity was accessed by the NADPH oxidation in reactions containing: 3 \u03bcM of PaAhpC or SeAhpC, 6 \u03bcM EcTrx, 0.9 \u03bcM EcTrxR and 150 \u03bcM NADPH in buffer 50 mM HEPES (pH = 7.4), 100 \u03bcM DTPA and 1 mM sodium azide. <sentence_start/>Reactions were incubated at 37\u00b0C for 5 minutes before being initiated by the addition of H<sub>2</sub>O<sub>2</sub> (500 \u03bcM) and monitored spectrophotometrically at 340 nm, 37\u00b0C, for 5 minutes. <sentence_start/>Reactions containing PaAhpC or SeAhpC without natural compounds treatment (green square) were used as positive controls for peroxidase activity, and reactions without AhpC (black square) were used as negative controls. <sentence_start/>PaAhpC or SeAhpC samples previously treated with NEM were used as control of protein inhibition (blue square). <sentence_start/>All experiments were performed at least three times in triplicate."
+  },
+  {
+   "section": "article",
+   "text": "Regarding the tested natural products, compound <bold>C1</bold> was not able to interfere significatively on the peroxidase activity of both AhpCs (<bold>Fig 3A and 3C; Table 2</bold>). <sentence_start/>Conversely, while the compound <bold>C2</bold> nearly abolished PaAhpC enzyme activity, no significant effect was observed on SeAhpC (<bold>Fig 3B and 3D; Table 2</bold>). <sentence_start/>We also compared the residual amounts of NADPH after 300 seconds of reaction, and the results confirmed that compound <bold>C2</bold> was able to inhibit the peroxidase activity of PaAhpC but not of SeAhpC (<bold>S8 Fig</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "The difference in the inhibitory properties of compound <bold>C2</bold> over the AhpCs of <italic>P</italic>. <italic>aeruginosa</italic> and <italic>S</italic>. <italic>epidermidis</italic> may rely on differences in enzyme structure. <sentence_start/>It has been shown that PaAhpC and SeAhpC present distinct properties including redox structural switches (dimer \u2192 decamer transition) and peroxidase activity over distinct hydroperoxides which were correlated to the single amino acid substitution in the catalytic triad [<citation rid=\"pone.0281322.ref022\" ref-type=\"bibr\" doi=\"10.3390/antiox10071032\" pmid=\"34202406\" pmcid=\"PMC8300647\" count=\"1\">22</citation>], suggesting that structural peculiarities may impact the interaction with the substrates."
+  },
+  {
+   "section": "article",
+   "text": "Determination of IC<sub>50</sub> of compound C2 to PaAhpC"
+  },
+  {
+   "section": "article",
+   "text": "Since the compound <bold>C2</bold> was able to inhibit the peroxidase activity of PaAhpC, we proceeded to determine the apparent IC<sub>50</sub> of the enzyme. <sentence_start/>For this, previously reduced enzymes samples were treated with different stoichiometric ratios of compound <bold>C2</bold> (5, 10, 25, 50, and 100 molar equivalents). <sentence_start/>Excess was removed and the PaAhpC was evaluated by the NADPH oxidation assay (<bold>Fig 4A</bold>). <sentence_start/>Our results revealed that the amount of compound <bold>C2</bold> necessary to inhibit the PaAhpC was approximately 20 \u03bcM (<bold>Fig 4B</bold>), a high value for an inhibitor but similar to the amount of the compound adenanthin (15 \u03bcM), another natural inhibitor to the human Prx2 [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig 4"
+  },
+  {
+   "section": "article",
+   "text": "IC<sub>50</sub> determination of compound C2 for PaAhpC."
+  },
+  {
+   "section": "article",
+   "text": "<bold>(A)</bold> Aliquots of PaAhpC enzyme were reduced with 5 mM DTT for 1 hour and then desalted to remove excess of reductant. <sentence_start/>Aliquots containing 10 \u03bcM of the reduced and desalted enzymes were treated varying the concentration of compound <bold>C2</bold> (5, 10, 25, 50 and 100 \u03bcM for 1 hour at room temperature and subsequently desalted again. <sentence_start/>Next, 3\u03bcM of the treated proteins were added to reactions containing 6 \u03bcM EcTrx, 0.9 \u03bcM EcTrxR, 150 \u03bcM NADPH, 50 mM HEPES (pH 7.4), 100 \u03bcM DTPA and 1 mM sodium azide. <sentence_start/>The reactions were incubated at 37\u00b0C for 5 minutes before being initiated by the addition of 500 \u03bcM H<sub>2</sub>O<sub>2</sub> and monitored spectrophotometrically at 340 nm, 37\u00b0C, for 5 minutes. <sentence_start/>Reactions without treatment with compound <bold>C2</bold> were used as positive controls (green square), and reactions without the addition of AhpC were used as negative controls (black square). <sentence_start/><bold>(B)</bold> The initial rates (<italic>v</italic><sub>0</sub>) of each reaction were calculated, transformed into percentual values, and plotted to calculate the IC<sub>50</sub> values of compound <bold>C2</bold> for PaAhpC. All experiments were performed at least three times in triplicate."
+  },
+  {
+   "section": "article",
+   "text": "Evaluation of specificity over the Prx human isoform and oxidoreductases thiol proteins"
+  },
+  {
+   "section": "article",
+   "text": "Since compound <bold>C2</bold> did not exert a significant inhibitory effect on SeAhpC, we evaluated if the compound was able to inhibit other thiol proteins. <sentence_start/>Initially, we evaluated the inhibitory effect over Prx2 from humans (HsPrx2), the host of <italic>P</italic>. <italic>aeruginosa</italic>, and Trx and TrxR from bacteria, since some inhibitors described to eukaryotic Prx also inhibit the two latter thiol proteins [<citation rid=\"pone.0281322.ref026\" ref-type=\"bibr\" doi=\"10.1021/acs.chemrestox.2c00049\" pmid=\"35537067\" count=\"1\">26</citation>, <citation rid=\"pone.0281322.ref045\" ref-type=\"bibr\" doi=\"10.1016/j.bcp.2014.02.022\" pmid=\"24630929\" count=\"1\">45</citation>, <citation rid=\"pone.0281322.ref046\" ref-type=\"bibr\" doi=\"10.1016/j.freeradbiomed.2014.09.025\" pmid=\"25289458\" count=\"1\">46</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "We expressed and purified the HsPrx2 and used the heterologous Trx system from <italic>S</italic>. <italic>cerevisiae</italic> (ScTrx1 and ScTrxR1) (<bold>S7E-S7G Fig</bold>) to perform the peroxidase activity assays by NADPH oxidation assay, as described previously by Truzzi and coworkers [<citation rid=\"pone.0281322.ref035\" ref-type=\"bibr\" doi=\"10.1074/jbc.RA119.008825\" pmid=\"31366734\" pmcid=\"PMC6755790\" count=\"1\">35</citation>]. <sentence_start/>The need for the heterologous yeast system lies in the fact that human TrxR is a seleno protein able to decompose hydroperoxides [<citation rid=\"pone.0281322.ref047\" ref-type=\"bibr\" doi=\"10.1074/jbc.270.20.11761\" pmid=\"7744824\" count=\"1\">47</citation>, <citation rid=\"pone.0281322.ref048\" ref-type=\"bibr\" doi=\"10.1038/s41467-021-26991-5\" pmid=\"34785665\" pmcid=\"PMC8595612\" count=\"1\">48</citation>], and the use of the human Trx system would make the results unreliable. <sentence_start/>The NADPH oxidation assay was performed using the same experimental conditions applied to the Prx bacterial isoforms, and the results revealed that compound <bold>C2</bold> was not able to inhibit the human isoform HsPrx efficiently, since only a very slight decrease in peroxidase activity was detected (<bold>Fig 5A</bold>, <bold>Table 3</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 5"
+  },
+  {
+   "section": "article",
+   "text": "Evaluation of inhibition properties of compound C2 over HsPrx2 and the bacterial thiol proteins EcTrx and EcTrxR."
+  },
+  {
+   "section": "article",
+   "text": "The enzymes HsPrx2, EcTrx and EcTrxR were reduced with DTT and desalted, then treated with 50 molar equivalents of compound <bold>C2</bold> for one hour at RT (red square). <sentence_start/>The proteins were desalted again to remove excess compound and their peroxidase activity was analyzed by NADPH oxidation assay. <sentence_start/>(<bold>A</bold>) For Prx2, reactions were performed containing 5 \u03bcM of Prx2, 10 \u03bcM of ScTrx1, 0.3 \u03bcM of ScTrxR1, 150 \u03bcM of NADPH, 50 mM of HEPES (pH = 7.0), 100 \u03bcM of DTPA and 1 mM of sodium were used. <sentence_start/>For EcTrx (<bold>B</bold>) and EcTrxR (<bold>C</bold>) reactions consisted of 3 \u03bcM of PaAhpC, 6 \u03bcM of EcTrx, 0.9 \u03bcM of EcTrxR, 150 \u03bcM of NADPH, 50 mM of HEPES (pH = 7.4), 100 \u03bcM of DTPA and 1 mM sodium azide were used. <sentence_start/>Prior to experiments the reactions were incubated at 37\u00b0C/5 min and reactions were started by the addition of H<sub>2</sub>O<sub>2</sub> (500 \u03bcM) and monitored spectrophotometrically at 340 nm, 37\u00b0C, for 5 minutes. <sentence_start/>The positive controls contained the proteins HsPrx2, EcTrx or EcTrxR without prior treatment with compound <bold>C2</bold> (green square) and the negative control without the addition of PaAhpC (EcTrx or EcTrxR) (black square). <sentence_start/>The enzymes samples previously treated with NEM were used as control of protein inhibition (blue square). <sentence_start/>The experiments were performed three times using triplicates."
+  },
+  {
+   "section": "article",
+   "text": "Concerning the thiol proteins from <italic>E</italic>. <italic>coli</italic>, compound <bold>C2</bold> was not able to significantly affect the activity of EcTrx or EcTrxR (<bold>Fig 5B</bold>). <sentence_start/>Only a very slight decay of Trx activity was detected and no inhibition was observed for EcTrxR. We then compared the residual amounts of NADPH after 300 seconds of reaction, and the results show that <bold>C2</bold> was not able to affect the enzymatic activity of HsPrx2, EcTrx, and EcTrxR (<bold>S9 Fig</bold>). <sentence_start/>These results indicate there is a selectivity of compound <bold>C2</bold> for PaAhpC when compared to other thiol proteins. <sentence_start/>This finding is important since some Prx inhibitors are able to inhibit other thiol enzymes, including different Prx isoforms and the Trx system enzymes [<citation rid=\"pone.0281322.ref025\" ref-type=\"bibr\" doi=\"10.1021/ja909150y\" pmid=\"20433172\" count=\"1\">25</citation>, <citation rid=\"pone.0281322.ref026\" ref-type=\"bibr\" doi=\"10.1021/acs.chemrestox.2c00049\" pmid=\"35537067\" count=\"1\">26</citation>, <citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref030\" ref-type=\"bibr\" doi=\"10.1089/ars.2016.6703\" pmid=\"27650197\" pmcid=\"PMC5510680\" count=\"1\">30</citation>, <citation rid=\"pone.0281322.ref045\" ref-type=\"bibr\" doi=\"10.1016/j.bcp.2014.02.022\" pmid=\"24630929\" count=\"1\">45</citation>, <citation rid=\"pone.0281322.ref046\" ref-type=\"bibr\" doi=\"10.1016/j.freeradbiomed.2014.09.025\" pmid=\"25289458\" count=\"1\">46</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Mode of PaAhpC inhibition"
+  },
+  {
+   "section": "article",
+   "text": "To better understand the mode of inhibition, we used PaAhpC pretreated with compound <bold>C2</bold> (50 \u03bcM), the excess was removed and the enzyme was challenge with different concentrations of hydroperoxides (from 50 to 750 \u03bcM). <sentence_start/>Although the <bold>C2</bold> concentration of 50 \u03bcM is able to strongly inhibit the peroxidase activity of PaAhpC, if the mode of inhibition is a competitive behavior, the growing concentrations of peroxides may be able to shift the compound <bold>C2</bold> away from the active site and restore the peroxidase PaAhpC activity. <sentence_start/>Our results revealed that only a residual activity was observed (<bold>Fig 6A</bold>). <sentence_start/>Since the amount of inhibitor was not able to overwhelm the activity of all the enzyme population, the portion of the enzyme that had not reacted with the inhibitor would maintain its normal kinetics. <sentence_start/>The determination of kinetic parameters revealed that no significant effect was observed in the <italic>K</italic><italic><sub>m</sub></italic>. <sentence_start/>On the other hand, parameters as <italic>K</italic><italic><sub>cat</sub></italic> and V<sub>max</sub> were expressively impacted (<bold>Fig 6B; Table 4</bold>). <sentence_start/>This behavior is compatible with an irreversible inhibitor as expected by a thiol-Michael addition chemistry [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref049\" ref-type=\"bibr\" doi=\"10.2174/092986711796391705\" pmid=\"21651479\" count=\"1\">49</citation>-<citation rid=\"pone.0281322.ref051\" ref-type=\"bibr\" doi=\"10.1021/jm00084a012\" pmid=\"1552501\" count=\"1\">51</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig 6"
+  },
+  {
+   "section": "article",
+   "text": "Inhibition characteristics of compound C2 over PaAhpC with growing concentrations of organic hydroperoxide."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) NADPH oxidation assay of PaAhpC samples previously reduced with DTT and desalted, then treated with 20 \u03bcM of compound <bold>C2</bold> for one hour at RT previously treated. <sentence_start/>The reactions contained with 3 \u03bcM of PaAhpC, 6 \u03bcM of EcTrx, 0.9 \u03bcM of EcTrxR, 150 \u03bcM of NADPH, 50 mM of HEPES (pH = 7.4), 100 \u03bcM of DTPA and 1 mM sodium azide were used. <sentence_start/>Prior to experiments the reactions were incubated at 37\u00b0C/5 min and reactions were started by the addition of growing concentration of cumene hydroperoxide-CHP (50-750 \u03bcM) and monitored spectrophotometrically at 340 nm, 37\u00b0C, for 5 minutes. <sentence_start/>As negative control was used reactions without the enzyme (black square) and as positive control were used PaAhpC samples without prior treatment with compound <bold>C2</bold> (malibu square). <sentence_start/>The experiments were performed three times using triplicates. <sentence_start/>(<bold>B</bold>) Plot of the rates of NADPH oxidation by samples of pretreated with compound <bold>C2</bold> (PaAhpC/<bold>C2</bold>; red dots and line) or without inhibitor treatment (PaAhpC/<bold>C2</bold>; black dots and line)."
+  },
+  {
+   "section": "article",
+   "text": "Investigation of Michael addition adducts formation"
+  },
+  {
+   "section": "article",
+   "text": "Some natural products identified as inhibitors of human Prx exert their biological activity via thiol-Michael addition reaction by alkylating the catalytic cysteines [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref030\" ref-type=\"bibr\" doi=\"10.1089/ars.2016.6703\" pmid=\"27650197\" pmcid=\"PMC5510680\" count=\"1\">30</citation>, <citation rid=\"pone.0281322.ref033\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2019.04.003\" pmid=\"31130519\" count=\"1\">33</citation>]. <sentence_start/>Compounds <bold>C1</bold> and <bold>C2</bold> tested in this work possess functional groups able to perform a Michael addition, i.e., an \u03b1,\u03b2-unsaturated carbonyl group. <sentence_start/>However, while compound <bold>C1</bold> showed no significant inhibitory effect, compound <bold>C2</bold> was able to inhibit PaAhpC, suggesting that the form of inhibition may occur by other means."
+  },
+  {
+   "section": "article",
+   "text": "To evaluate if the inhibitory mechanism of compound <bold>C2</bold> to PaAhpC occurs through the thiol-Michael addition, we performed non-reducing SDS-PAGE, taking advantage of the difference in gel migration of the protein in different oxidation states. <sentence_start/>When oxidized to disulfide, AhpC enzymes migrate as a dimer (~ 44 kDa) due to intermolecular disulfide bond formation. <sentence_start/>On the other hand, the reduced enzyme appears as a monomer (~ 22 kDa) [<citation rid=\"pone.0281322.ref052\" ref-type=\"bibr\" doi=\"10.1016/j.jmb.2012.09.008\" pmid=\"22985967\" count=\"1\">52</citation>]. <sentence_start/>Consequently, it is possible to evaluate not only the redox state of these enzymes but also if the inhibitor was able to react with cysteine residues involved in catalysis. <sentence_start/>If one of the two cysteines is covalently modified by an inhibitor, no intermolecular disulfide is expected to be formed if the enzyme is challenge with hydroperoxides, and the proteins are detected as monomers."
+  },
+  {
+   "section": "article",
+   "text": "Prior to peroxide treatment, PaAhpC samples were reduced by DTT (<bold>Fig 7, lane 2</bold>), the excess was removed (<bold>Fig 7, lane 3</bold>), and the PaAhpC proteins were oxidized with hydrogen peroxide (<bold>Fig 7, lane 4</bold>). <sentence_start/>As expected, PaAhpC reduced by DTT were detected as monomers, while the oxidized samples were detected as dimers. <sentence_start/>As internal control of the inhibition of the disulfide formation, PaAhpC sample was previously treated with NEM and then oxidized by hydrogen peroxide."
+  },
+  {
+   "section": "article",
+   "text": "Fig 7"
+  },
+  {
+   "section": "article",
+   "text": "Evaluation of AhpC intermolecular disulfide formation by non-reducing SDS-PAGE."
+  },
+  {
+   "section": "article",
+   "text": "The molecular weight marker (Sigma Marker) was applied in the lane 1. <sentence_start/>Samples with 10 \u03bcM of PaAhpC were reduced with DTT 5 mM/1 h/RT (lanes 2), the excess was removed (lanes 3) and proteins were treated with 2 molar equivalents of H<sub>2</sub>O<sub>2</sub>/30 min/RT (lanes 4). <sentence_start/>As a positive control of the disulfide formation inhibition, PaAhpC samples previously reduced by DTT and desalted were treated with NEM (40 molar equivalents/1 h/RT) and then oxidized with hydrogen peroxide (30 eq.) (lanes 5). <sentence_start/>The DTT reduced and desalted samples were treated 40 and 100 molar equivalents of compound <bold>C2</bold> and oxidized with hydrogen peroxide (30 eq.) (lanes 6 and 7). <sentence_start/>The experiments were performed three times presenting similar results."
+  },
+  {
+   "section": "article",
+   "text": "The NEM treatment prevented disulfide formation and the proteins migrated as monomers (<bold>Fig 7, lane 5</bold>). <sentence_start/>Regarding samples pre-treated with compound <bold>C2</bold> (<bold>Fig 7, lanes 6 and 7</bold>), the PaAhpC samples were also detected as dimers, even at very high concentration (e.g. 100 molar equivalents), revealing the formation of the intermolecular disulfide and indicating the mode of inhibition does not occur by the Michael addition mechanism over the protein thiols. <sentence_start/>This suggests that compound <bold>C2</bold> is able to inhibit PaAhpC in a manner distinct from those already described for other Prx inhibitors from eukaryotes [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref030\" ref-type=\"bibr\" doi=\"10.1089/ars.2016.6703\" pmid=\"27650197\" pmcid=\"PMC5510680\" count=\"1\">30</citation>, <citation rid=\"pone.0281322.ref033\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2019.04.003\" pmid=\"31130519\" count=\"1\">33</citation>] and bacteria [<citation rid=\"pone.0281322.ref025\" ref-type=\"bibr\" doi=\"10.1021/ja909150y\" pmid=\"20433172\" count=\"1\">25</citation>, <citation rid=\"pone.0281322.ref026\" ref-type=\"bibr\" doi=\"10.1021/acs.chemrestox.2c00049\" pmid=\"35537067\" count=\"1\">26</citation>]. <sentence_start/>Although our data suggests that the PaAhpC cysteine is not alkylated by compound <bold>C2</bold>, another reactive groups as amine (-NH<sub>2</sub>) and alcohol (-OH) can perform the Michael addition chemistry (e.g. aza- and oxa-Michael addition, respectively) [<citation rid=\"pone.0281322.ref053\" ref-type=\"bibr\" doi=\"10.3390/v13091756\" pmid=\"34578337\" pmcid=\"PMC8473112\" count=\"1\">53</citation>, <citation rid=\"pone.0281322.ref054\" ref-type=\"bibr\" doi=\"10.1039/b718357g\" pmid=\"18497934\" count=\"1\">54</citation>]. <sentence_start/>Both groups are present in the side chains of the PaAhpC catalytic triad residues Arg and Thr and are involved in substrate targeting and stabilization (<bold>Fig 1</bold>) and the modification of either group by <bold>C2</bold> may have a strong impact in enzyme activity."
+  },
+  {
+   "section": "article",
+   "text": "Molecular docking approaches"
+  },
+  {
+   "section": "article",
+   "text": "To assess molecular interactions between compound <bold>C2</bold> and PaAhpC, molecular docking simulations were performed using the structure of AhpC from <italic>S</italic>. <italic>typhimurium</italic>, since AhpC from <italic>P</italic>. <italic>aureginosa</italic> (PaAhpC) has no determined crystallographic structure. <sentence_start/>The <italic>P</italic>. <italic>aeruginosa</italic> and <italic>S</italic>. <italic>typhimurium</italic> isoforms are highly related, presenting 75% of similarity and 60% identity (<bold>Fig 8</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 8"
+  },
+  {
+   "section": "article",
+   "text": "Alignment of the amino acid sequences of AhpCs from <italic>S</italic>. <italic>typhimurium</italic> and <italic>P</italic>. <italic>aeruginosa</italic>."
+  },
+  {
+   "section": "article",
+   "text": "The alignment of AA sequences was performed using Clustal \u03a9 and the figure was generated with the Jalview. <sentence_start/>The abbreviations used and access codes for Uniprot ( ) are: AhpC of <italic>S</italic>. <italic>typhimurium</italic> = StAhpC (Uniprot: ) and AhpC of <italic>P</italic>. <italic>aeruginosa</italic> = PaAhpC (Uniprot: )."
+  },
+  {
+   "section": "article",
+   "text": "Docking approaches were performed using the decameric structure once the decamer is in the active form, whose geometry is optimal for the productive binding of the peroxide substrates. <sentence_start/>The AhpC active site environment is composed of residues of three protomers: the obligate dimer and the monomer of the neighboring dimer (<bold>Fig 9A</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Fig 9"
+  },
+  {
+   "section": "article",
+   "text": "Decameric structure of AhpC and docking results and best pose selection based in peroxiredoxin ligands found in pdb database."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) <italic>S</italic>. <italic>typhimurium</italic> AhpC (PDB = 4MA9) in reduced decameric state. <sentence_start/>The enzyme is composed by five obligate homodimers and the two upper homodimers are represented by molecular surface and colored in purple/beige and green/pink. <sentence_start/>The other dimers of the decamer are represented in cartoon and colored in light gray. <sentence_start/>The black box denotes the active site microenvironment located at the dimers interface. <sentence_start/>The catalytic triad residues Thr, Cys<sub>P</sub> and Arg are colored in red, orange and blue, respectively. <sentence_start/>(<bold>B</bold>) Molecular docking results for compound <bold>C2</bold>. <sentence_start/>The molecules cluster of the compound <bold>C2</bold> are represented by lines and colored in pink. <sentence_start/>(<bold>C</bold>) Superposition of the compound <bold>C2</bold> best hit to StAhpC with ligands found in Prx structures deposited in the pdb database: H<sub>2</sub>O<sub>2</sub> (PDB code = 3A2V; color = red), benzoate (2V32; 1HD2; 1OC3; 2V41; 1H4O; yellow) and tert-butylbenzene-diol (4K7O; white). <sentence_start/>The <bold>C2</bold> is colored in pink with the atoms of \u03b1,\u03b2-unsaturated carbonyl system highlighted in white. <sentence_start/>The other molecules are represented in lines with different colors. <sentence_start/>The oxygens are in red. <sentence_start/>The catalytic triad (Thr, Cys<sub>P</sub> and Arg) is represented by sticks. <sentence_start/><bold>(D)</bold> Diagram of interacting residues of AhpC with compound <bold>C2</bold> docked in the StAhpC active site. <sentence_start/>The dashed green lines represent hydrogen bonds and hydrophobic contacts are represented by red arcs with radiating spikes. <sentence_start/>The binding analysis was performed using the LigPLot<sup>+</sup>."
+  },
+  {
+   "section": "article",
+   "text": "The solutions were distributed mostly in the microenvironment of the active site in close proximity to the residues involved in catalysis (<bold>Fig 9B</bold>). <sentence_start/>The best pose was selected based on the free energy of Gibbs (\u0394G = -7.2 kcal/mol) and superposition with ligands found in the active site of Prx crystallographic structures, such as the oxidant substrate (hydrogen peroxide in <italic>Aeropyrum pernix</italic> Prx) [<citation rid=\"pone.0281322.ref055\" ref-type=\"bibr\" doi=\"10.1093/jb/mvp154\" pmid=\"19819903\" count=\"1\">55</citation>] and compounds with structural similarities to <bold>C2</bold> compound (benzoic acid found in the <italic>Arenicola marina</italic> Prx6 and <italic>Homo sapiens</italic> Prx5 and tert-butylbenzene-diol present <italic>H</italic>. <italic>sapiens</italic> Prx5) [<citation rid=\"pone.0281322.ref056\" ref-type=\"bibr\" doi=\"10.1006/jmbi.2001.4853\" pmid=\"11518528\" count=\"1\">56</citation>-<citation rid=\"pone.0281322.ref058\" ref-type=\"bibr\" doi=\"10.1016/j.jmb.2004.02.017\" pmid=\"15046979\" count=\"1\">58</citation>] (<bold>Fig 9C</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "Stabilization of compound <bold>C2</bold> mostly occurred by hydrophobic interactions and van der Waals forces interactions from the main or side chains (MC or SC) of the interacting from obligate dimer: P<sup>39\u2019</sup> (SC), T<sup>43\u2019</sup>(SC), F<sup>44\u2019</sup>(MC), V<sup>45\u2019</sup> (MC) (N<sup>45\u2019</sup>, in PaAhpC), C<sub>P</sub><sup>46\u2019</sup> (MC), L<sup>116\u2019</sup>(SC), R<sup>119\u2019</sup>(SC), E<sup>138\u2019</sup>(SC) (N<sup>138</sup>, in PaAhpC), P<sup>178\u201d</sup> (SC/MC), and S<sup>179\u201d</sup> (MC); and from the monomer of the adjacent dimer: F<sup>20</sup>*(SC), H<sup>75</sup>* (SC), and F<sup>76</sup>*(SC) (the prime (\u2018) and quotation (\u201d) symbols denotes residues form the obligate dimer, and the asterisk (*) denotes the adjacent protomer dimer) (<bold>Fig 9D</bold>)."
+  },
+  {
+   "section": "article",
+   "text": "The functional importance of some residues identified in the docking procedures has been determined. <sentence_start/>It has already been shown that the Phe/Tyr residue at this position in peroxiredoxins is involved in the decamer stabilization of the enzyme, through an unconventional hydrogen bond with the catalytic triad Thr [<citation rid=\"pone.0281322.ref022\" ref-type=\"bibr\" doi=\"10.3390/antiox10071032\" pmid=\"34202406\" pmcid=\"PMC8300647\" count=\"1\">22</citation>, <citation rid=\"pone.0281322.ref023\" ref-type=\"bibr\" doi=\"10.1038/srep33133\" pmid=\"27629822\" pmcid=\"PMC5024103\" count=\"1\">23</citation>, <citation rid=\"pone.0281322.ref059\" ref-type=\"bibr\" doi=\"10.1016/j.isci.2021.103258\" pmcid=\"PMC8571717\" pmid=\"34765909\" count=\"1\">59</citation>, <citation rid=\"pone.0281322.ref060\" ref-type=\"bibr\" doi=\"10.1021/acs.chemrestox.8b00346\" pmid=\"30701970\" pmcid=\"PMC7036284\" count=\"1\">60</citation>]. <sentence_start/>Additionally, Glu<sup>138</sup> would be related to conformational changes during the catalytic cycle [<citation rid=\"pone.0281322.ref061\" ref-type=\"bibr\" doi=\"10.1021/bi4011573\" pmid=\"24175952\" pmcid=\"PMC3932808\" count=\"1\">61</citation>]. <sentence_start/>Except for the Val<sup>45</sup> and Glu<sup>138</sup> of StAhpC that are substituted by Asn in PaAhpC, a residue with similar physicochemical properties, all the remaining interacting residues are strictly conserved among the two peroxiredoxins, which corroborates the feasibility of the docking analysis."
+  },
+  {
+   "section": "article",
+   "text": "An important aspect about the mode of inhibition, which was irreversible, may have been related to the adoption of Michael with other groups such as the O and N atoms from the side chain of the catalytic triad Thr of Arg residues. <sentence_start/>The \u03b1,\u03b2-unsaturated carbonylic system is in close proximity to both reactive group residues of these amino acids, which are also more exposed than Cys<sub>P</sub> and involved in interactions to guide the substrates to catalytic cysteines (<bold>Fig 1</bold>). <sentence_start/>Nonetheless, these assumptions lack experimental support and the determination of PaAhpC structures with compound <bold>C2</bold> is needed to reach any meaningful conclusions."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "We tested two biosynthetic related natural products isolated from <italic>P</italic>. <italic>crassinervium</italic> as inhibitor of the AhpC from bacteria: 4-hydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzoic acid (<bold>C1</bold>), and 4-hydroxy-2-(3\u2019,7\u2019-dimethyl-1\u2019-oxo-2\u2019<italic>E</italic>,6\u2019-octadienyl) benzoic acid (<bold>C2</bold>). <sentence_start/>Both compounds possess three common structural aspects: 1) benzene rings, 2) an \u03b1,\u03b2 unsaturated carbonylic system, and 3) a flexible tail (oxo-geranyl unity) that resembles long-chain fatty acids. <sentence_start/>The sole difference is a hydroxyl group at C-4 position in compound <bold>C1</bold> which is substituted by a carboxylic acid in compound <bold>C2</bold> (<bold>Fig 2</bold>). <sentence_start/>Therefore, it is reasonable to assume that the carboxyl group is involved in the inhibitory properties of compound <bold>C2</bold>. <sentence_start/>In fact, benzoic acids and derivatives have been found in some crystallized in different peroxiredoxin structures, suggesting that the carboxylic acid in the aromatic ring is a factor that may favor the stabilization of molecules in the active site [<citation rid=\"pone.0281322.ref056\" ref-type=\"bibr\" doi=\"10.1006/jmbi.2001.4853\" pmid=\"11518528\" count=\"1\">56</citation>, <citation rid=\"pone.0281322.ref057\" ref-type=\"bibr\" doi=\"10.1110/ps.073399308\" pmid=\"18359859\" pmcid=\"PMC2271159\" count=\"1\">57</citation>, <citation rid=\"pone.0281322.ref062\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0102300\" pmid=\"25025339\" pmcid=\"PMC4099364\" count=\"1\">62</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The hydrophobic nature, including the presence of one aromatic ring, places compounds <bold>C1</bold> and <bold>C2</bold> with other chemically related molecules identified for this group of proteins [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref030\" ref-type=\"bibr\" doi=\"10.1089/ars.2016.6703\" pmid=\"27650197\" pmcid=\"PMC5510680\" count=\"1\">30</citation>, <citation rid=\"pone.0281322.ref032\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2018.11.013\" pmid=\"30661989\" pmcid=\"PMC6557261\" count=\"1\">32</citation>, <citation rid=\"pone.0281322.ref033\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2019.04.003\" pmid=\"31130519\" count=\"1\">33</citation>, <citation rid=\"pone.0281322.ref063\" ref-type=\"bibr\" doi=\"10.1038/srep09705\" pmid=\"25951439\" pmcid=\"PMC4423475\" count=\"1\">63</citation>, <citation rid=\"pone.0281322.ref064\" ref-type=\"bibr\" doi=\"10.1039/B901735F\" pmid=\"21359112\" pmcid=\"PMC3043594\" count=\"1\">64</citation>]. <sentence_start/>Although the oxo-geranyl unity has not been observed in previously described inhibitors, it resembles substrates such as long-chain fatty acids hydroperoxides (oleic and linoleic acid peroxides, for example) which are believed to be biological substrates of some thiol peroxidases including Prx [<citation rid=\"pone.0281322.ref065\" ref-type=\"bibr\" doi=\"10.1073/pnas.1619659114\" pmid=\"28028230\" pmcid=\"PMC5240686\" count=\"1\">65</citation>, <citation rid=\"pone.0281322.ref066\" ref-type=\"bibr\" doi=\"10.1016/j.freeradbiomed.2011.04.023\" pmid=\"21571062\" count=\"1\">66</citation>]. <sentence_start/>The docking approaches presented here reveal that the tail may be stabilized in the active site pocket by several hydrophobic interactions with non-polar residues. <sentence_start/>This feature appears to be important and can be exploited in the search for natural inhibitors for Prx. <sentence_start/>Unlike other inhibitors that also present an \u03b1,\u03b2-unsaturated carbonyl system, neither compound <bold>C1</bold> and <bold>C2</bold> perform a thiol-Michael addition reaction over the reactive cysteines, revealing a mode of inhibition distinct from those previously characterized with other natural compounds to the human isoforms [<citation rid=\"pone.0281322.ref029\" ref-type=\"bibr\" doi=\"10.1038/nchembio.935\" pmid=\"22484541\" count=\"1\">29</citation>, <citation rid=\"pone.0281322.ref030\" ref-type=\"bibr\" doi=\"10.1089/ars.2016.6703\" pmid=\"27650197\" pmcid=\"PMC5510680\" count=\"1\">30</citation>]. <sentence_start/>This is an important aspect since most of the Prx inhibitors described to date perform an inhibition by means of chemical reactions involving a covalent bond between ligand and the thiol of the cysteines but with low specificity, affecting other thiol proteins and being very toxic to the cells [<citation rid=\"pone.0281322.ref025\" ref-type=\"bibr\" doi=\"10.1021/ja909150y\" pmid=\"20433172\" count=\"1\">25</citation>, <citation rid=\"pone.0281322.ref045\" ref-type=\"bibr\" doi=\"10.1016/j.bcp.2014.02.022\" pmid=\"24630929\" count=\"1\">45</citation>, <citation rid=\"pone.0281322.ref046\" ref-type=\"bibr\" doi=\"10.1016/j.freeradbiomed.2014.09.025\" pmid=\"25289458\" count=\"1\">46</citation>]. <sentence_start/>Conversely, the compound <bold>C2</bold> shows high specificity over PaAhpC when compared to SeAhpC, HsPrx, or even other thiol proteins as the Trx system which are strongly inhibited by other Prx inhibitors [<citation rid=\"pone.0281322.ref026\" ref-type=\"bibr\" doi=\"10.1021/acs.chemrestox.2c00049\" pmid=\"35537067\" count=\"1\">26</citation>, <citation rid=\"pone.0281322.ref045\" ref-type=\"bibr\" doi=\"10.1016/j.bcp.2014.02.022\" pmid=\"24630929\" count=\"1\">45</citation>, <citation rid=\"pone.0281322.ref046\" ref-type=\"bibr\" doi=\"10.1016/j.freeradbiomed.2014.09.025\" pmid=\"25289458\" count=\"1\">46</citation>]. <sentence_start/>The specificity over PaAhpC is a very positive finding, since this enzyme is a <italic>P</italic>. <italic>aeruginosa</italic> virulence factor, and this pathogenic bacterium is related with nosocomial infections and high mortality rates [<citation rid=\"pone.0281322.ref067\" ref-type=\"bibr\" doi=\"10.1007/s00294-015-0522-x\" pmid=\"26407972\" pmcid=\"PMC4724561\" count=\"1\">67</citation>, <citation rid=\"pone.0281322.ref068\" ref-type=\"bibr\" doi=\"10.1007/s40265-021-01635-6\" pmid=\"34743315\" pmcid=\"PMC8572145\" count=\"1\">68</citation>]. <sentence_start/>In summary, our results demonstrate the inhibitory activity of a new class of natural products that possesses distinct characteristics from other compounds identified as peroxiredoxin inhibitors. <sentence_start/>This contribution on molecules able to exert inhibitory activity on Prx of bacteria can allow the selection of natural products or even lead to the synthesis of inhibitors, aiming to increase the specificity and inhibitory activity over the Prx in order to combat infectious and genetic diseases."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "S1 Fig"
+  },
+  {
+   "section": "article",
+   "text": "<sup>1</sup>H NMR spectrum of compound C1 (\u03b4, CDCl3, 500 MHz)."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S2 Fig"
+  },
+  {
+   "section": "article",
+   "text": "<sup>13</sup>C NMR spectrum of compound C1 (\u03b4, CDCl3, 125 MHz)."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S3 Fig"
+  },
+  {
+   "section": "article",
+   "text": "ESI-HRMS of compound C1 (negative mode)."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S4 Fig"
+  },
+  {
+   "section": "article",
+   "text": "<sup>1</sup>H NMR spectrum of compound C2 (\u03b4, CDCl3, 500 MHz)."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S5 Fig"
+  },
+  {
+   "section": "article",
+   "text": "<sup>13</sup>C NMR spectrum of compound C2 (\u03b4, CDCl3, 125 MHz)."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S6 Fig"
+  },
+  {
+   "section": "article",
+   "text": "ESI-HRMS of compound C2 (negative mode)."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S7 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Purification by IMAC of recombinant enzymes PaAhpC (A), SeAhpC (B), EcTrx (C), EcTrxR (D), HsPrx2 (E), ScTrx1 (F) and ScTrxR (G) expressed in <italic>E</italic>. <italic>coli</italic> BL21 (DE3). <sentence_start/>Reducing SDS-PAGE (200mM-mercaptoethanol, 12% polyacrylamide) representative of purification results of recombinant His-tag-containing proteins purified by IMAC (A, B, C, D, E, F, G) (using HiTrap TALON crude column (Cytiva Life Sciences) or by the boiling method (F). <sentence_start/>The black arrow denotes the position of the recombinant protein in the gel."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S8 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Residual NADPH after 300 seconds of treated and untreated PaAhpC and SeAhpC with compounds C1 and C2 or alkylating agent (NEM)."
+  },
+  {
+   "section": "article",
+   "text": "The amount of NADPH consumed after 300 s of reaction were obtained in the assays presented in Fig 3. <sentence_start/>The graph shows final amount of NADPH at the end of the assay. <sentence_start/>The bars are colored as follows: black square = negative control (without enzyme); green square = PaAhpC (positive control), blue square = NEM treated PaAhpC (peroxidase inhibition control), red square = PaAhpC + <bold>C1</bold>, PaAhpC + <bold>C2</bold>, SeAhpC + <bold>C1</bold> or SeAhpC + <bold>C2</bold>. <sentence_start/>Assays were performed in triplicate and repeated at least three times."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  },
+  {
+   "section": "article",
+   "text": "S9 Fig"
+  },
+  {
+   "section": "article",
+   "text": "Residual NADPH after 300 seconds of untreated and treated HsPrx2, EcTrx and EcTrxR with compound C2 or alkylating agent (NEM)."
+  },
+  {
+   "section": "article",
+   "text": "The amount of NADPH consumed after 300 s of reaction were obtained in the assays presented in Fig 5. <sentence_start/>The graph shows final amount of NADPH at the end of the assay. <sentence_start/>The bars are colored as follows: black square = negative control (without enzyme); green square = HsPrx2, EcTrx or EcTrxR (positive control), blue square = NEM treated enzyme (peroxidase inhibition control), red square = HsPrx2, EcTrx or EcTrxR + <bold>C2</bold>. <sentence_start/>Assays were performed in triplicate and repeated at least three times."
+  },
+  {
+   "section": "article",
+   "text": "(TIFF)"
+  }
+ ]
+}

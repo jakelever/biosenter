@@ -1,0 +1,339 @@
+{
+ "pmid": 39740111,
+ "pmcid": 11706443,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Baseline Smartphone App Survey Return in the Electronic Framingham Heart Study Offspring and Omni 1 Study: eCohort Study"
+  },
+  {
+   "section": "abstract",
+   "text": "Abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Smartphone apps can be used to monitor chronic conditions and offer opportunities for self-assessment conveniently at home. <sentence_start/>However, few digital studies include older adults."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "We aim to describe a new electronic cohort of older adults embedded in the Framingham Heart Study including baseline smartphone survey return rates and survey completion rates by smartphone type (iPhone [Apple Inc] and Android [Google LLC] users). <sentence_start/>We also aim to report survey results for selected baseline surveys and participant experience with this study\u2019s app."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "Framingham Heart Study Offspring and Omni (multiethnic cohort) participants who owned a smartphone were invited to download this study\u2019s app that contained a range of survey types to report on different aspects of health including self-reported measures from the Patient-Reported Outcomes Measurement Information System (PROMIS). <sentence_start/>iPhone users also completed 4 tasks including 2 cognitive and 2 physical function testing tasks. <sentence_start/>Baseline survey return and completion rates were calculated for 12 surveys and compared between iPhone and Android users. <sentence_start/>We calculated standardized scores for the PROMIS surveys. <sentence_start/>The Mobile App Rating Scale (MARS) was deployed 30 days after enrollment to obtain participant feedback on app functionality and aesthetics."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "We enrolled 611 smartphone users (average age 73.6, SD 6.3 y; n=346, 56.6% women; n=88, 14.4% Omni participants; 478, 78.2% iPhone users) and 596 (97.5%) returned at least 1 baseline survey. <sentence_start/>iPhone users had higher app survey return rates than Android users for each survey (range 85.5% to 98.3% vs 73.8% to 95.2%, respectively), but survey completion rates did not differ in the 2 smartphone groups. <sentence_start/>The return rate for the 4 iPhone tasks ranged from 80.9% (380/470) for the gait task to 88.9% (418/470) for the Trail Making Test task. <sentence_start/>The Electronic Framingham Heart Study participants had better standardized <italic>t</italic> scores in 6 of 7 PROMIS surveys compared to the general population mean (<italic>t</italic> score=50) including higher cognitive function (n=55.6) and lower fatigue (n=45.5). <sentence_start/>Among 469 participants who returned the MARS survey, app functionality and aesthetics was rated high (total MARS score=8.6 on a 1-10 scale)."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "We effectively engaged community-dwelling older adults to use a smartphone app designed to collect health information relevant to older adults. <sentence_start/>High app survey return rates and very high app survey completion rates were observed along with high participant rating of this study\u2019s app."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The use of information and communication technologies (ICTs) was essential to access health care and address everyday needs during the COVID-19 pandemic. <sentence_start/>ICTs were especially important for older adults during this time, as in-person health care encounters may have placed vulnerable older adults at risk for adverse health events. <sentence_start/>A nationwide representative survey of adults aged 65 years and older reported an increase of more than 50% in use of ICTs during the COVID-19 pandemic [<citation rid=\"R1\" ref-type=\"bibr\" doi=\"10.1111/jgs.17433\" pmid=\"34409589\" pmcid=\"PMC8446986\" count=\"1\">1</citation>]. <sentence_start/>However, gaps remained, as ICT use was lower among groups that did not learn how to use a new technology reinforcing the known age disparity in technology use [<citation rid=\"R2\" ref-type=\"bibr\" doi=\"10.2196/14871\" pmid=\"31441430\" pmcid=\"PMC6727627\" count=\"1\">2</citation><citation rid=\"R3\" ref-type=\"bibr\" doi=\"10.1056/NEJMp2115646\" pmid=\"35302722\" count=\"1\">3</citation>]. <sentence_start/>In addition to advanced age, lower education, lower income, and reported fair or poor general health were factors associated with not learning to use new technology [<citation rid=\"R1\" ref-type=\"bibr\" doi=\"10.1111/jgs.17433\" pmid=\"34409589\" pmcid=\"PMC8446986\" count=\"1\">1</citation>]. <sentence_start/>A smartphone study of cognition among older adults also noted that older age was associated with less familiarity with and engagement with technology [<citation rid=\"R4\" ref-type=\"bibr\" doi=\"10.3389/fdgth.2022.880055\" pmid=\"35574256\" pmcid=\"PMC9098948\" count=\"1\">4</citation>]. <sentence_start/>However, once older adults enrolled adherence was high and furthermore adherence was not associated with gender, race, education, or technology knowledge [<citation rid=\"R4\" ref-type=\"bibr\" doi=\"10.3389/fdgth.2022.880055\" pmid=\"35574256\" pmcid=\"PMC9098948\" count=\"1\">4</citation>]. <sentence_start/>Hence, if barriers to engagement and appropriate technologic support can be improved for those older adults that need it, digital tools may improve the lives of older adults by permitting self-monitoring of health at home outside the clinical environment."
+  },
+  {
+   "section": "article",
+   "text": "Smartphone apps are used to monitor chronic conditions and offer opportunities for cognitive and physical function self-assessment conveniently at home but the usability of the apps are often uncertain especially among older adults [<citation rid=\"R5\" ref-type=\"bibr\" doi=\"10.1007/s11606-016-3771-6\" pmid=\"27418347\" pmcid=\"PMC5130945\" count=\"1\">5</citation><citation rid=\"R6\" ref-type=\"bibr\" doi=\"10.2196/14551\" pmid=\"31951218\" pmcid=\"PMC6996724\" count=\"1\">6</citation>]. <sentence_start/>A small study of patients with heart failure from cardiac units at an academic medical center demonstrated the feasibility of collecting health information using short questionnaires delivered by mobile app [<citation rid=\"R7\" ref-type=\"bibr\" doi=\"10.1111/jgs.16403\" pmid=\"32157679\" pmcid=\"PMC7323569\" count=\"1\">7</citation>]. <sentence_start/>The usability scores were high, including perceived ease of use [<citation rid=\"R7\" ref-type=\"bibr\" doi=\"10.1111/jgs.16403\" pmid=\"32157679\" pmcid=\"PMC7323569\" count=\"1\">7</citation>]. <sentence_start/>Smartphone-based tools for cognitive assessment permit more frequent assessments at home ahead of health care provider visits and may also provide information about cognitive change in adults at risk for dementia [<citation rid=\"R8\" ref-type=\"bibr\" doi=\"10.14283/jpad.2021.36\" pmid=\"34585227\" pmcid=\"PMC8244451\" count=\"1\">8</citation>]. <sentence_start/>Smartphone apps and digital sensors also have the ability to record real-world measures of physical activity, gait, and mobility known to be important to independent living [<citation rid=\"R9\" ref-type=\"bibr\" doi=\"10.3233/JAD-230152\" pmid=\"37545234\" pmcid=\"PMC10578291\" count=\"1\">9</citation>]. <sentence_start/>However, older adults have been underrepresented in electronic cohort (eCohort) [<citation rid=\"R10\" ref-type=\"bibr\" doi=\"10.1038/s41746-020-0224-8\" pmid=\"32128451\" pmcid=\"PMC7026051\" count=\"1\">10-12</citation>] with few digital health studies including larger numbers of older adults [<citation rid=\"R13\" ref-type=\"bibr\" doi=\"10.1016/S2589-7500(21)00138-2\" pmid=\"34711377\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "We recruited and enrolled an eCohort of older adults, mean age 73.6 (SD 6.3) years, across the COVID-19 pandemic, embedded in the well characterized Framingham Heart Study (FHS) Offspring and Omni cohorts. <sentence_start/>We designed a smartphone app to collect health information across a range of domains using different types of smartphone surveys, and smartphone cognitive and physical function testing tasks. <sentence_start/>We report our experience with baseline smartphone survey return and completion to understand how community-dwelling older adults interact with smartphone technologies. <sentence_start/>Further, we report the survey results for representative surveys and for a cognitive testing task. <sentence_start/>Finally, participant-reported usability was assessed with the Mobile App Rating Scale (MARS) survey to better understand the older user\u2019s experience with the app. <sentence_start/>Usability was investigated by device type (iPhone and Android smartphone type), participant age, and sex. <sentence_start/>We hypothesized that iPhone users and younger participants would perceive the smartphone app more favorably. <sentence_start/>We observed iPhone users to have greater survey return in our prior work in middle-aged participants and others have reported that Apple users are more familiar with technology and more likely to use apps [<citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1038/s41746-022-00735-1\" pmid=\"36572707\" pmcid=\"PMC9792462\" count=\"1\">14</citation><citation rid=\"R15\" ref-type=\"bibr\" doi=\"10.1108/IJRDM-11-2012-0108\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Study Sample"
+  },
+  {
+   "section": "article",
+   "text": "The Electronic Framingham Heart Study (eFHS) enrolled participants from the FHS Offspring cohort (recruited in 1971-1975, n=5124) and the multiethnic Omni 1 cohort (recruited from 1994-1998, n=506). <sentence_start/>Both cohorts were recruited in Framingham Massachusetts and have been examined every 4 to 8 years since enrollment [<citation rid=\"R16\" ref-type=\"bibr\" doi=\"10.1093/ije/dyv337\" pmid=\"26705418\" pmcid=\"PMC5156338\" count=\"1\">16</citation>]. <sentence_start/>Beginning January 25, 2021, eligible participants enrolled in eFHS during their in-person research center examination (Offspring examination 10/Omni examination 5). <sentence_start/>English-speaking participants who owned a smartphone (iPhone running iOS 10 or higher or Android version 7 or higher) were invited to download the eFHS app designed for Offspring and Omni cohort participants. <sentence_start/>If participants did not own a smartphone or the smartphone was not compatible with this study\u2019s app, they were invited to participate using a computer if they had one at home. <sentence_start/>Participants examined in a nursing home were excluded. <sentence_start/>All participants provided informed consent as part of the overall parent Offspring examination 10/Omni examination 5 and electronic informed consent was part of the eFHS app. <sentence_start/>Participants signed the consent forms electronically and were able to access the signed consent forms within this study\u2019s app. <sentence_start/>Before June 2021, participants were offered the choice of receiving surveys every 4 weeks or every 2 weeks. <sentence_start/>Starting in June of 2021, participants additionally provided consent to be randomized to one of two groups for smartphone app survey deployment (randomized controlled trial, ). <sentence_start/>One randomized group received all surveys every 4 weeks and the other group received the same number of surveys in 2 smaller batches every 2 weeks. <sentence_start/>For the purposes of this study baseline surveys were defined as surveys that went out at enrollment (wk 0) or at week 2 after enrollment."
+  },
+  {
+   "section": "article",
+   "text": "This study\u2019s research technician assisted participants with app download from the App store or Android Google play store. <sentence_start/>A welcome screen appeared at the initial opening of this study\u2019s app (Figure S1 in Multimedia Appendix 1), along with a request for permission to receive study notifications, and steps with instructions for enrollment. <sentence_start/>Upon the completion of the enrollment and consent process, participants received their initial smartphone app surveys. <sentence_start/>For participants who did not come to the research center for the examination, this study\u2019s research technician provided enrollment support over the telephone or via Zoom. <sentence_start/>Participants also received step-by-step written instructions on how to download this study\u2019s app and enroll in eFHS, with a brief explanation of the purpose of each app survey and contact information should technical support be needed or questions arise. <sentence_start/>Study notifications were sent through this study\u2019s app to welcome participants to this study, to thank participants for completing surveys, to remind participants when surveys were due, and to inform participants when new surveys became available. <sentence_start/>Finally, this study\u2019s technician attempted to contact all participants1 week after enrollment to provide any needed technical support and answer any questions related to this study\u2019s app."
+  },
+  {
+   "section": "article",
+   "text": "eFHS continued to enroll participants after the completion of Offspring examination 10/Omni examination 5 in order to (1) capture participants who came into the research center examination before the start of enrollment for eFHS and (2) to invite participants who did not come into the research center for the examination but participated in the examination by televisit only (Figure 1). <sentence_start/>Offspring examination 10/Omni examination 5 (September 2019 to June 2022) occurred across the COVID-19 pandemic (March 2020 to May 2023) and the parent study permitted participants to attend the examination in-person, by televisit, or by off-site visit by sending FHS staff to the participant\u2019s home. <sentence_start/>The COVID-19 pandemic coincided with eFHS enrollment as shown in Figure 2. <sentence_start/>Active COVID cases in Massachusetts reached a peak in January in both 2021 and 2022, which coincided with the lowest enrollments in eFHS. <sentence_start/>During summer months in both years, active COVID cases dropped to the lowest and the enrollments increased [<citation rid=\"R17\" ref-type=\"bibr\" count=\"1\">17</citation>]. <sentence_start/>In total eFHS enrolled 620 Offspring and Omni participants including 478 iPhone users, 133 Android users, and 9 computer users (Figure 1). <sentence_start/>Computer users were excluded from this study."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "eFHS Offspring and Omni enrollment. <sentence_start/>eFHS: Electronic Framingham Heart Study."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "eFHS Offspring and Omni enrollment and timeline. <sentence_start/>eFHS: Electronic Framingham Heart Study; MA: Massachusetts."
+  },
+  {
+   "section": "article",
+   "text": "eFHS Offspring or Omni Smartphone App"
+  },
+  {
+   "section": "article",
+   "text": "We created smartphone surveys for the eFHS Offspring and Omni participants using CareEvolution\u2019s MyDataHelps Designer platform and the MyDataHelps mobile app container (CareEvolution). <sentence_start/>The MyDataHelps app hosts different types of surveys and tasks (Figure S1 in Multimedia Appendix 1), an account where participants can see their signed consent form, and a dashboard to provide participants with survey completion status and a \u201cthank you\u201d message of encouragement. <sentence_start/>The surveys and tasks were designed to be sent out on enrollment (wk 0) and at various intervals after enrollment for up to 1 year. <sentence_start/>At baseline, participants were asked to complete 12 health surveys through the app and iPhone owners were asked to complete an additional 4 tasks."
+  },
+  {
+   "section": "article",
+   "text": "Survey assessments were chosen for relevance to the health of older adults and included assessments of cognition, mood, pain, physical function, physical activity, and events such as falls and hospitalizations. <sentence_start/>Self-reported surveys from the short form of the Patient-Reported Outcomes Measurement Information System (PROMIS) were selected and included [<citation rid=\"R18\" ref-type=\"bibr\" doi=\"10.1016/j.jval.2019.02.004\" pmid=\"31104731\" pmcid=\"PMC7201383\" count=\"1\">18</citation>]: anxiety, depression [<citation rid=\"R18\" ref-type=\"bibr\" doi=\"10.1016/j.jval.2019.02.004\" pmid=\"31104731\" pmcid=\"PMC7201383\" count=\"1\">18</citation>], fatigue [<citation rid=\"R19\" ref-type=\"bibr\" count=\"1\">19</citation><citation rid=\"R20\" ref-type=\"bibr\" doi=\"10.1097/NNR.0000000000000162\" pmid=\"27362514\" pmcid=\"PMC4930004\" count=\"1\">20</citation>], sleep [<citation rid=\"R21\" ref-type=\"bibr\" doi=\"10.1080/15402002.2012.636266\" pmid=\"22250775\" pmcid=\"PMC3261577\" count=\"1\">21</citation>], physical function [<citation rid=\"R22\" ref-type=\"bibr\" count=\"1\">22</citation>], pain [<citation rid=\"R23\" ref-type=\"bibr\" count=\"1\">23</citation>], cognitive abilities, and cognitive function [<citation rid=\"R24\" ref-type=\"bibr\" doi=\"10.1002/pon.3522\" pmid=\"24700645\" pmcid=\"PMC4185008\" count=\"1\">24</citation>]. <sentence_start/>Most of the PROMIS surveys were 4-item multiple choice questions with response choices that ranged from \u201cnever\u201d to \u201calways\u201d for the mood surveys to \u201cnever\u201d to \u201cvery often\u201d or \u201cnot at all \u201d to \u201cvery much\u201d for the cognitive assessment surveys. <sentence_start/>A modified version of the Michigan Body Pain Map [<citation rid=\"R25\" ref-type=\"bibr\" doi=\"10.1097/j.pain.0000000000000506\" pmid=\"26835782\" pmcid=\"PMC4868633\" count=\"1\">25</citation>] was additionally used to collect information on chronic pain and included a pictorial image of the front and back of the human body (Figure S2 in Multimedia Appendix 1). <sentence_start/>Participants were asked to check the places on the body where they felt persistent or recurrent pain for 3 months or longer (chronic pain). <sentence_start/>If no chronic pain was experienced, a separate box of \u201cno chronic pain\u201d was provided. <sentence_start/>A second survey related to mood included 3 items used to define physical frailty including unintentional weight loss, and 2 items from the Center for Epidemiologic Studies-Depression Scale [<citation rid=\"R26\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>The final baseline surveys queried physical activity level with the Rapid Assessment of Physical Activity Survey [<citation rid=\"R27\" ref-type=\"bibr\" count=\"1\">27</citation>], mobility outside the home including \u201cother rooms,\u201d \u201coutside your home,\u201d \u201cneighborhood,\u201d \u201coutside your neighborhood,\u201d and \u201coutside your town\u201d [<citation rid=\"R28\" ref-type=\"bibr\" pmid=\"16180950\" count=\"1\">28</citation>], and occurrences of falls and hospitalizations."
+  },
+  {
+   "section": "article",
+   "text": "Four smartphone testing tasks operated on the iPhone and included 2 commonly used cognitive tests, a gait task, and a motor task. <sentence_start/>The Trail Making Test [<citation rid=\"R29\" ref-type=\"bibr\" doi=\"10.3233/THC-161274\" pmid=\"27886019\" pmcid=\"PMC5384876\" count=\"1\">29</citation><citation rid=\"R30\" ref-type=\"bibr\" doi=\"10.1016/j.acn.2007.11.005\" pmid=\"18178372\" pmcid=\"PMC2693196\" count=\"1\">30</citation>] is a timed assessment that requires the participant to tap a series of dots in order alternating between numbers and letters starting with the number \u201c1\u201d followed by tapping the letter \u201cA\u201d until the number \u201c7\u201d is reached. <sentence_start/>The completion time and errors are recorded. <sentence_start/>The Victoria Stroop Test (Stroop) [<citation rid=\"R31\" ref-type=\"bibr\" doi=\"10.1080/0361073X.2016.1191838\" pmid=\"27410241\" pmcid=\"PMC4946576\" count=\"1\">31</citation>] includes a series of 4 increasingly more difficult tasks with a practice session provided for each of the 4 tasks. <sentence_start/>People with color blindness were excluded as the tasks require the participant to be able to distinguish colors (yellow, green, red, and blue). <sentence_start/>In each of the 4 subtasks, participants are asked to select the matching color to the block color, the word color, the font color, and the word color if the word was underlined or the font color if the word was not underlined, respectively (Figure S2 in Multimedia Appendix 1). <sentence_start/>The gait task [<citation rid=\"R32\" ref-type=\"bibr\" pmid=\"35201709\" count=\"1\">32</citation>], instructs the participants, in a human voice, to walk a set distance and the walking time was recorded. <sentence_start/>The 2-finger tapping [<citation rid=\"R33\" ref-type=\"bibr\" doi=\"10.1186/s12883-017-0829-y\" pmid=\"28327094\" pmcid=\"PMC5361720\" count=\"1\">33</citation>] asked participants to tap on the screen for 20 seconds on the designated spots as quickly as possible using 2 fingers. <sentence_start/>The tapping speed and accuracy were recorded."
+  },
+  {
+   "section": "article",
+   "text": "Six baseline surveys (2 mood surveys, pain, body pain map, cognitive function, and cognitive abilities) and all 4 cognitive and physical function testing tasks were deployed at baseline week 0. <sentence_start/>Another 6 baseline surveys (physical function, sleep, fatigue, mobility outside the home, rapid assessment of physical activity, and falls and hospitalizations) were deployed at week 0 or week 2, depending on participants\u2019 choice or randomization group (4 wk vs 2 wk, respectively)."
+  },
+  {
+   "section": "article",
+   "text": "Participant Feedback on the Smartphone App"
+  },
+  {
+   "section": "article",
+   "text": "Participants completed the MARS survey [<citation rid=\"R34\" ref-type=\"bibr\" doi=\"10.2196/mhealth.3422\" pmid=\"25760773\" pmcid=\"PMC4376132\" count=\"1\">34</citation>] and the System Usability Scale (SUS) [<citation rid=\"R35\" ref-type=\"bibr\" count=\"1\">35</citation>] on their smartphone to obtain feedback about their experience with the eFHS study app. <sentence_start/>The MARS included questions on app functionality and aesthetics including performance, ease of use, navigation, layout, graphics, and visual appeal. <sentence_start/>Items were rated by the participant using a 5-point Likert scale from 1=inadequate to 5=excellent. <sentence_start/>The SUS included 10 multiple choice questions including \u201cI found the app unnecessarily complex\u201d and \u201cI thought the app was easy to use.\u201d <sentence_start/>We modified the response options for each question from the original 5-point Likert scale to 4 response options \u201cstrongly agree,\u201d \u201cagree,\u201d \u201cdisagree,\u201d and \u201cstrongly disagree.\u201d <sentence_start/>The 4 options were assigned scores 1, 2, 4 and 5, respectively. <sentence_start/>The total SUS score was not computed because of the modification in response choices from a 5-point Likert scale to a 4-point Likert scale. <sentence_start/>The MARS and SUS were sent to participants 30 days after enrollment to allow participants an opportunity to use the app and complete the baseline surveys and tasks."
+  },
+  {
+   "section": "article",
+   "text": "Offspring Examination 10 or Omni Examination 5 Data Collection"
+  },
+  {
+   "section": "article",
+   "text": "As part of the routine research examination participants self-reported data was collected on education, retirement status, marital status, and subjective health (in general would you say your health is excellent, very good, good, fair, or poor). <sentence_start/>Participants were asked to bring medications in a medication bag provided to the examination and medications were recorded. <sentence_start/>Trained technicians administered the 20-item Center for Epidemiologic Studies-Depression Scale with scores that range from 0 to 60 and the Mini-Mental State Examination cognitive screen (scores range 0-30)."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Methods"
+  },
+  {
+   "section": "article",
+   "text": "Participant characteristics were calculated as means and SDs for continuous variables and counts and percentages for categorical variables. <sentence_start/>We compared characteristics of the eFHS study sample smartphone participants (n=611) to 2 groups of nonparticipants (Table S1 in Multimedia Appendix 1), those who attended the examination in-person (n=834) and those who attended the examination via televisit (n=242). <sentence_start/>Student <italic>t</italic> tests were performed for continuous variables and chi-square tests were performed for categorical variables. <sentence_start/>The smartphone survey return rates and completion rates were calculated. <sentence_start/>The return rate was defined as the percentage of participants who returned a specific baseline survey among the total number of participants who returned at least 1 baseline survey."
+  },
+  {
+   "section": "article",
+   "text": "The completion rate was defined as the percentage of participants who completed a survey among participants who returned the survey. <sentence_start/>The completion of a survey was defined as answering 75% of the questions if the survey had 4 or more questions, answering at least 2 questions if the survey had 3 questions. <sentence_start/>For the falls and hospitalization survey, which has 2 main questions, completion was defined as answering both questions."
+  },
+  {
+   "section": "article",
+   "text": "The return rate and completion rate were compared between iPhone users and Android users and between the 2 deployment groups (app surveys sent every 4 wk vs app surveys sent every 2 wk in smaller batches), using chi-square tests."
+  },
+  {
+   "section": "article",
+   "text": "We examined baseline surveys\u2019 results from the self-reported PROMIS surveys (anxiety, depression, fatigue, sleep, cognitive abilities, cognitive function, and physical function) and results from the cognitive function testing task using the Stroop cognitive test given the interest in the research community on incorporating standardized assessments for older adults [<citation rid=\"R36\" ref-type=\"bibr\" doi=\"10.1111/j.1532-5415.2012.04240.x\" pmid=\"23194184\" pmcid=\"PMC3521090\" count=\"1\">36</citation>] and mobile cognitive testing. <sentence_start/>The individual PROMIS surveys were scored and the raw scores were converted to the PROMIS standardized <italic>t</italic> scores [<citation rid=\"R37\" ref-type=\"bibr\" count=\"1\">37</citation>]. <sentence_start/>One sample <italic>t</italic> test (2-tailed) was performed to compare scores from our sample to the <italic>t</italic> score of the general population [<citation rid=\"R37\" ref-type=\"bibr\" count=\"1\">37</citation>]. <sentence_start/>For the Stroop cognitive testing task, we calculated the completion time and errors of each of the 4 subtasks for each participant. <sentence_start/>The total completion time of the Stroop Test was calculated and compared between male and female participants, and between age groups younger than 75 years and at or older than 75 years of age."
+  },
+  {
+   "section": "article",
+   "text": "The MARS and the SUS scores were calculated to assess the usability of the app [<citation rid=\"R35\" ref-type=\"bibr\" count=\"1\">35</citation><citation rid=\"R38\" ref-type=\"bibr\" doi=\"10.2196/mhealth.5849\" pmid=\"27287964\" pmcid=\"PMC4920963\" count=\"1\">38</citation>]. <sentence_start/>The total MARS score, the functionality score, and the aesthetics score were calculated and compared between smartphone user groups (iPhone users vs Android users), men and women, and age-groups. <sentence_start/>Total MARS score is the summation of functionality score and aesthetics score. <sentence_start/>We also calculated the individual scores for each item of the MARS and SUS and conducted subgroup comparisons (phone type, age group, or sex) using chi-square tests. <sentence_start/>Due to small sample sizes for some response choices, responses were recategorized. <sentence_start/>For the MARS, responses 1, 2, and 3 were grouped together and responses 4 and 5 were grouped together. <sentence_start/>Similarly in the SUS, responses were collapsed into 2 groups: agree or strongly agree and disagree or strongly disagree. <sentence_start/>The chi-square tests were performed on the regrouped 2-level variables. <sentence_start/>We performed all analyses with RStudio in R (version 4.3.1; R Foundation) for Windows and considered 2-sided <italic>P</italic>&lt;.05 as statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "Ethical Considerations"
+  },
+  {
+   "section": "article",
+   "text": "The Offspring examination 10 and Omni examination 5 and the eFHS protocols were reviewed and approved by the Institutional Review Board at Boston University Medical Center (protocol numbers H-32132, H-36586, and H-40737). <sentence_start/>iPhone users were allowed to choose to use a study Apple Watch. <sentence_start/>No compensation was given to participants. <sentence_start/>Data were anonymized for analysis."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of eFHS Smartphone Participants"
+  },
+  {
+   "section": "article",
+   "text": "Among FHS Offspring and Omni participants, 611 smartphone users enrolled in eFHS, with a mean age of 73.6 (SD 6.3) years, and included 346 (56.6%) women, 88 (14.4%) multiethnic participants, and 478 (78.2%) iPhone users. <sentence_start/>eFHS smartphone users on average were well educated (396/610, 64.9% college degree or greater) and reported very good to excellent health (428/610, 70%; Table 1). <sentence_start/>Among 526 FHS participants who did not enroll in eFHS and provided a reason for declining, 118 (22.4%) did not own a smartphone or computer, 323 (61.4%) did not have an interest in this study, 61 (11.6%) owned technology that was incompatible with the application, and 24 (4.6%) reported a health issue or other reasons. <sentence_start/>Compared to FHS participants who attended examinations at the research center but did not enroll, eFHS participants using a smartphone on average were younger (73.6, SD 6.3 vs 78.4, SD 8.1, <italic>P</italic>&lt;.001), healthier (428/610, 70.2% vs 480/820, 58.5% self-reported very good or excellent in health, <italic>P</italic>&lt;.001), better educated (396/610, 64.9% vs 328/823, 39.9% with a bachelor\u2019s degree and above, <italic>P</italic>&lt;.001), more likely to be married (421/609, 69.1% vs 453/824, 55.0%, <italic>P</italic>&lt;.001), and more likely to be an iPhone user (478/611, 78.2% vs 248/728, 34.1%, <italic>P</italic>&lt;.001) as presented in Table S1 in Multimedia Appendix 1."
+  },
+  {
+   "section": "article",
+   "text": "Survey Return Rates and Completion Rates"
+  },
+  {
+   "section": "article",
+   "text": "Among the 611 eFHS smartphone users, 596 (97.5%) returned at least 1 baseline survey including 470 of 478 (98.3%) iPhone users and 126 of 133 (94.7%) Android users. <sentence_start/>The iPhone users had a slightly higher return of at least 1 baseline survey compared to Android users (98.3% vs 94.7%, <italic>P</italic>=.02). <sentence_start/>For nearly all the individual baseline surveys, compared to the Android users, the iPhone users had a higher return rate (Tables2 3). <sentence_start/>For both iPhone and Android users, the set of individual surveys sent at week 0 had higher return than the set of individual surveys sent at week 0 or week 2 (iPhone wk 0 survey return, 437/470, 93% to 462/470, 98.3% vs wk 0 or wk 2 return 402/470, 85.5% to 437/470, 93%; and Android wk 0 survey return, 109/126, 86.5% to 120/126, 95.2% vs wk 0 or wk 2 return 93/126, 73.8% to 99/126, 78.6%). <sentence_start/>Both smartphone user groups had very high completion rates for all baseline surveys, all above 90% indicating once the participant returned the surveys, they were very likely to complete them (Tables2 3). <sentence_start/>Individual survey return differed by deployment group. <sentence_start/>Participants who received baseline surveys in smaller batches every 2 weeks had lower return rates for the set of individual surveys sent out at week 2 compared to participants who received the same set of surveys at week 0 (Table S2 in Multimedia Appendix 1<italic>,</italic> all <italic>P</italic><underline>&lt;</underline>.002). <sentence_start/>Baseline survey return did not differ by deployment group for the set of individual surveys sent at enrollment (wk 0). <sentence_start/>There was no difference in completion rates between the 2 deployment groups (Table S2 in Multimedia Appendix 1). <sentence_start/>The return rate for the 4 tasks ranged from 380 of 470 (80.9%) for the gait task to 418 of 470 (88.9%) for the Trail Making Test task (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Distribution of PROMIS Scores Across Domains and Stroop Task Completion Time"
+  },
+  {
+   "section": "article",
+   "text": "Means and SDs of each PROMIS domain survey are shown in Figure 3. <sentence_start/>Compared to the reference <italic>t</italic> score of 50 for the US general population, eFHS participants had lower scores in the anxiety (47.9), depression (45.7), fatigue (45.5) and sleep (46.4) domains, and higher scores in cognitive abilities (52.3) and cognitive function (55.6) domains indicating better functioning or lower symptoms (all <italic>P</italic>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3."
+  },
+  {
+   "section": "article",
+   "text": "Mean and SD of baseline PROMIS survey scores by domain. <sentence_start/>The red line represents the general population mean (<italic>t</italic> score=50) determined by PROMIS. <sentence_start/>Higher scores for cognitive abilities and cognitive function indicate better functioning whereas lower scores for anxiety, depression, fatigue, and sleep indicate better symptoms. <sentence_start/>PROMIS: Patient-Reported Outcomes Measurement Information System."
+  },
+  {
+   "section": "article",
+   "text": "For the Stroop cognitive testing task, the mean total completion time for the 4 subtasks was 39.6 (SD 10.1) seconds. <sentence_start/>Participants spent more time on the most difficult subtask 4 than the other 3 subtasks and spent more time on subtask 3 than subtask 1 and subtask 2 (Figure 4). <sentence_start/>The mean completion times for the 4 Stroop subtasks ranged from 6.2 seconds for subtask 2 to 13.3 seconds for the most complex subtask 4. <sentence_start/>Time to complete the test was similar in males and females whereas the older age group (age 75 y and older) had longer completion times than the younger age group (under 75 y, mean 42.8, SD 11.7 vs mean 37.1, SD 7.8 s, <italic>P</italic>&lt;.001)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4."
+  },
+  {
+   "section": "article",
+   "text": "Stroop task distribution of test time scores in each of the 4 subtests. <sentence_start/>Completion time in seconds."
+  },
+  {
+   "section": "article",
+   "text": "Satisfaction With the Smartphone App"
+  },
+  {
+   "section": "article",
+   "text": "There were 469 smartphone users who returned the MARS surveys including 80 Android users and 389 iPhone users. <sentence_start/>There were 475 smartphone users who returned the SUS survey including 81 Android users and 394 iPhone users. <sentence_start/>In general, eFHS participants were satisfied with the app with a mean total MARS score of 8.6 (SD 1.1), a functionality score 4.4 (SD 0.6), and aesthetics score (4.1, SD 0.6). <sentence_start/>Android users and women tended to have slightly higher functionality, aesthetics, and total MARS scores. <sentence_start/>Participants in the younger age group (&lt;75 y) had a slightly higher functionality score (Figure S4 in Multimedia Appendix 1). <sentence_start/>Compared to iPhone users, Android users had higher scores for the individual MARS items including in performance, ease of use, navigation (navigating between screens), navigation 2 (navigating within screen and consistency across screens), layout, and graphics (Figure 5). <sentence_start/>However, only navigation (<italic>P</italic>=.005) was significantly different likely due to the small sample size of Android users. <sentence_start/>There was no difference for the individual MARS items between men and women or between the 2 age groups (&lt;75 vs \u226575 y; Figure S3 in Multimedia Appendix 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5."
+  },
+  {
+   "section": "article",
+   "text": "MARS survey and SUS survey results by smartphone type. <sentence_start/><italic>P</italic> value for navigation in MARS &lt;.05, <italic>P</italic> values for all other surveys questions in MARS and SUS &gt;.05. <sentence_start/>MARS: Mobile App Rating Scale; Navigation 2: navigating within screen and consistency across screens; SUS: System Usability Scale."
+  },
+  {
+   "section": "article",
+   "text": "For the SUS survey, participants agreed or strongly agreed that the app was well designed or easy to use. <sentence_start/>The mean ratings were less than 2 in the 5 questions in favor of the app for which the response ratings 1 and 2 indicated \u201cstrongly agree\u201d and \u201cagree,\u201d respectively. <sentence_start/>They disagreed or strongly disagreed that the app was too complicated or burdensome. <sentence_start/>The mean ratings were greater than 4.1 in the 5 questions opposed to the app (too complex, cumbersome, need a technical person, inconsistent, and need to learn a lot of things), for which the response ratings of 4 and 5 indicated \u201cdisagree\u201d and \u201cstrongly disagree\u201d (Table S3 in Multimedia Appendix 1). <sentence_start/>In the SUS, the ratings did not differ in Android and iPhone users (Figure 5), in men and women and in the 2 age groups (Figure S3 in Multimedia Appendix 1). <sentence_start/>Participants also provided comments such as \u201ctoo technical\u201d or \u201ctough to do without glasses\u201d for \u201cwhat were some obstacles you faced using this system?,\u201d and \u201cvery easy and convenient\u201d or \u201cto think more about my health &amp; to increase my physical activity\u201d for \u201cwhat did you like the most about the system?\u201d"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "During the COVID-19 pandemic we successfully enrolled a new eCohort of community-dwelling older adults from the FHS to collect a variety of health information data using smartphone app-based surveys and tasks that the participants could complete at home at a time that was convenient for them. <sentence_start/>Survey return was high with 596 (97.5%) participants returning at least 1 survey. <sentence_start/>Importantly once surveys were returned, survey completion rates were greater than 90%. <sentence_start/>Participants who provided feedback using both the MARS and SUS surveys indicated satisfaction with the app, finding the app rather easy to use. <sentence_start/>Finally, we leveraged an in-person examination at the FHS research center to enroll most of the participants into our digital study. <sentence_start/>The in-person examination provided a touchpoint for this study\u2019s research assistant to provide one-on-one assistance with app download and the ability to answer other technologic queries the participant may have had. <sentence_start/>Our enrollment protocol was consistent with recent guidelines advocating face-to-face training to support older adults using smartphone apps [<citation rid=\"R39\" ref-type=\"bibr\" doi=\"10.2196/43186\" pmid=\"37733401\" pmcid=\"PMC10557006\" count=\"1\">39</citation>] to improve confidence and lower potential for abandonment of technology."
+  },
+  {
+   "section": "article",
+   "text": "Our study demonstrates the ability to collect a broad array of outcome measures and cognitive and physical function tasks important to older adults using smartphone app surveys including physical symptoms (eg, sleep and fatigue), mental health symptoms (eg, depression or anxiety), physical function, cognitive abilities, and cognitive tasks (Stroop and Trail Making). <sentence_start/>The ability to collect data remotely may facilitate inclusion of older adults in clinical trials by reducing the burden in time and cost for the participant associated with the need to travel to the clinical trial center [<citation rid=\"R40\" ref-type=\"bibr\" doi=\"10.1001/jama.2021.4609\" pmid=\"33885728\" count=\"1\">40</citation>]. <sentence_start/>Further, longitudinal smartphone based assessments may improve clinical care by permitting monitoring of older adults at risk for cognitive [<citation rid=\"R41\" ref-type=\"bibr\" doi=\"10.14283/jpad.2020.25\" pmid=\"32920631\" pmcid=\"PMC7837058\" count=\"1\">41</citation>] or physical decline [<citation rid=\"R9\" ref-type=\"bibr\" doi=\"10.3233/JAD-230152\" pmid=\"37545234\" pmcid=\"PMC10578291\" count=\"1\">9</citation><citation rid=\"R42\" ref-type=\"bibr\" doi=\"10.1038/s41587-021-00974-9\" pmid=\"34373643\" pmcid=\"PMC12812035\" count=\"1\">42</citation>] and by empowering older adults to participate in management of chronic conditions. <sentence_start/>However persistent inequities in smartphone ownership and access to high-speed internet at home [<citation rid=\"R43\" ref-type=\"bibr\" count=\"1\">43</citation>] will need to be addressed to ensure that technologic advances benefit all groups including older adults residing in rural locations and older adults with lower income and educational levels. <sentence_start/>Enrollment and engagement in our study differed by smartphone type with iPhone users having higher enrollment (478 of 829, 57.7% of iPhone users vs 133 of 342, 38.9% of Android users enrolled) and survey return. <sentence_start/>iPhone users had higher income compared to Android users (246 of 378, 65.1% vs 58 of 112, 51.8% reported an income of US $75,000 or more; Table S5 in Multimedia Appendix 1). <sentence_start/>The Android smartphone may be a proxy for sociodemographic factors associated with the digital divide while the iPhone may reflect a higher level of interest in digital devices and technology self-efficacy as observed in our younger eCohort [<citation rid=\"R14\" ref-type=\"bibr\" doi=\"10.1038/s41746-022-00735-1\" pmid=\"36572707\" pmcid=\"PMC9792462\" count=\"1\">14</citation>]. <sentence_start/>Finally, others have shown technology use declines with changes in health status [<citation rid=\"R44\" ref-type=\"bibr\" doi=\"10.1093/gerona/glx116\" pmid=\"28605446\" count=\"1\">44</citation>]. <sentence_start/>Consistent with this report, we observed that our eCohort of older adults had several favorable sociodemographic attributes and health metrics (lower number of self-reported medications or higher cognitive test scores). <sentence_start/>Future studies are needed to identify strategies to engage older adults with technologies they find meaningful as their health changes."
+  },
+  {
+   "section": "article",
+   "text": "Our study had several strengths. <sentence_start/>Our eCohort was embedded in the FHS allowing us to understand the characteristics of participants who enrolled in the eCohort versus participants who did not. <sentence_start/>The high survey return rates observed may in part be due to participant loyalty to the parent FHS. <sentence_start/>Our study has some limitations that merit comment. <sentence_start/>The participants were primarily White, well-educated, and resided in New England and therefore may not be representative of older adults from more diverse backgrounds or geographic locations. <sentence_start/>However, 88 of 611 (14.4%) of our sample included older adults from more diverse racial or ethnic backgrounds (Omni cohort). <sentence_start/>Our eFHS sample had a higher proportion of iPhone users (478 of 611, 78.2%) than observed in older adults in the United States (49%) [<citation rid=\"R45\" ref-type=\"bibr\" count=\"1\">45</citation>]. <sentence_start/>The eCohort was healthier than FHS participants who chose not to enroll and healthier than the general US population using standardized PROMIS scores (Figure 3) and may not reflect smartphone app survey use of older adults with poorer health metrics. <sentence_start/>Finally, we report survey return and completion for the baseline surveys only and more work is needed to determine longitudinal patterns of technology use."
+  },
+  {
+   "section": "article",
+   "text": "Our study demonstrates the ability to engage older adults including those over age 75 years in the use of smartphone technology to monitor a range of health metrics. <sentence_start/>The high survey return and completion rates observed and high usability ratings suggest that smartphone app surveys may be an efficient tool to collect health data in this age group. <sentence_start/>Our study observations will be useful to researchers, clinicians, and public health professionals designing and implementing digital solutions so that older adults with highest risk for not engaging with technology can be targeted for meaningful supports. <sentence_start/>Future trials should assess the effect health-based smartphone surveys have on older adults\u2019 ability to self-monitor their own health and chronic conditions. <sentence_start/>Conducting these trials in the health care system with clinicians will be critical to the implementation of these efforts into usual clinical practice. <sentence_start/>More digital studies of older adults are needed to determine the perceived value to the older user and the health monitoring benefits from the health care provider perspective."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "article",
+   "text": "Multimedia Appendix 1"
+  },
+  {
+   "section": "article",
+   "text": "Figures and tables."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of Interest:</bold> ES is an employee of CareEvolution. <sentence_start/>The other authors have no conflicts of interest to report."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "eCohort"
+  },
+  {
+   "section": "back",
+   "text": "electronic cohort"
+  },
+  {
+   "section": "back",
+   "text": "eFHS"
+  },
+  {
+   "section": "back",
+   "text": "Electronic Framingham Heart Study"
+  },
+  {
+   "section": "back",
+   "text": "FHS"
+  },
+  {
+   "section": "back",
+   "text": "Framingham Heart Study"
+  },
+  {
+   "section": "back",
+   "text": "ICT"
+  },
+  {
+   "section": "back",
+   "text": "information and communication technology"
+  },
+  {
+   "section": "back",
+   "text": "MARS"
+  },
+  {
+   "section": "back",
+   "text": "Mobile App Rating Scale"
+  },
+  {
+   "section": "back",
+   "text": "PROMIS"
+  },
+  {
+   "section": "back",
+   "text": "Patient-Reported Outcomes Measurement Information System"
+  },
+  {
+   "section": "back",
+   "text": "SUS"
+  },
+  {
+   "section": "back",
+   "text": "System Usability Scale"
+  }
+ ]
+}

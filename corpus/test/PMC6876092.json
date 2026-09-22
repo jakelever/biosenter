@@ -1,0 +1,323 @@
+{
+ "pmid": 31760951,
+ "pmcid": 6876092,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "TS-GOEA: a web tool for tissue-specific gene set enrichment analysis based on gene ontology"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "The Gene Ontology (GO) knowledgebase is the world\u2019s largest source of information on the functions of genes. <sentence_start/>Since the beginning of GO project, various tools have been developed to perform GO enrichment analysis experiments. <sentence_start/>GO enrichment analysis has become a commonly used method of gene function analysis. <sentence_start/>Existing GO enrichment analysis tools do not consider tissue-specific information, although this information is very important to current research."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "In this paper, we built an easy-to-use web tool called <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> that allows users to easily perform experiments based on tissue-specific GO enrichment analysis. <sentence_start/><italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> uses strict threshold statistical method for GO enrichment analysis, and provides statistical tests to improve the reliability of the analysis results. <sentence_start/>Meanwhile, <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> provides tools to compare different experimental results, which is convenient for users to compare the experimental results. <sentence_start/>To evaluate its performance, we tested the genes associated with platelet disease with <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "<italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is an effective GO analysis tool with unique features. <sentence_start/>The experimental results show that our method has better performance and provides a useful supplement for the existing GO enrichment analysis tools. <sentence_start/><italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is available at ."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "The Gene Ontology (GO) knowledgebase is the world\u2019s largest source of information on the functions of genes. <sentence_start/>This knowledge is both human-readable and machine-readable, and is a foundation for computational analysis of large-scale molecular biology and genetics experiments in biomedical research. <sentence_start/>The goal of the Gene Ontology Consortium is to produce a dynamic, structured, controlled vocabulary that cover several domains of molecular and cellular biology [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1038/75556\" pmid=\"10802651\" pmcid=\"PMC3037419\" count=\"1\">1</citation>]. <sentence_start/>GO and GO annotations provide a convenient way for biologists to explore the function of gene sets in biological experiments. <sentence_start/>In detail, GO terms represent a kind of biological knowledge which describes the functions of genes and corresponding gene products [<citation ref-type=\"bibr\" rid=\"CR2\" pmid=\"27586009\" doi=\"10.1186/s12864-016-2828-6\" pmcid=\"PMC5009821\" count=\"1\">2</citation>]. <sentence_start/>As a unified knowledge base, GO provides three accessible independent ontology, namely biological processes(BP), cellular components(CC) and molecular functions(MF). <sentence_start/>GO has been widely used in molecular biology and genomics research to describe gene products [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1038/75556\" pmid=\"10802651\" pmcid=\"PMC3037419\" count=\"1\">1</citation>, <citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1093/nar/gkh036\" pmcid=\"PMC308770\" pmid=\"14681407\" count=\"1\">3</citation>]. <sentence_start/>In addition, GO provides an ontology annotation system that associates genes or gene products with GO terminology to form a \u201csnapshot\u201d of current biological knowledge. <sentence_start/>Biologists can design experiments based on GO to verify their biological hypothesis [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1038/75556\" pmid=\"10802651\" pmcid=\"PMC3037419\" count=\"1\">1</citation>, <citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1093/nar/gkh036\" pmcid=\"PMC308770\" pmid=\"14681407\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"CR8\" doi=\"10.1186/s12918-018-0539-0\" pmid=\"29560823\" pmcid=\"PMC5861498\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Gene function inference is important in lots of researches [<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1093/bioinformatics/btz254\" pmid=\"30977780\" count=\"1\">9</citation>-<citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1093/bioinformatics/bty002\" pmid=\"29365045\" count=\"1\">12</citation>]. <sentence_start/>The goal of Gene Ontology Enrichment Analysis (GOEA) is to use the annotations of the gene set to find out which GO terms are overrepresented or underrepresented [<citation ref-type=\"bibr\" rid=\"CR13\" doi=\"10.1186/1471-2105-7-191\" pmid=\"16597342\" pmcid=\"PMC1456994\" count=\"1\">13</citation>, <citation ref-type=\"bibr\" rid=\"CR14\" doi=\"10.1186/s12920-017-0293-y\" pmid=\"29020950\" pmcid=\"PMC5637346\" count=\"1\">14</citation>]. <sentence_start/>GOEA has become a common method for functional research of large-scale genome or transcriptome data [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1093/nar/gkn276\" pmcid=\"PMC2447756\" pmid=\"18487275\" count=\"1\">15</citation>]. <sentence_start/>Existing GOEA tools can be summarized into two categories, web-based and offline-based application. <sentence_start/>Offline-based tools require users to download the package and install a local environment, such as BinGO [<citation ref-type=\"bibr\" rid=\"CR16\" doi=\"10.1093/bioinformatics/bti551\" pmid=\"15972284\" count=\"1\">16</citation>], which is not convenient for users to use. <sentence_start/>At the same time, web-based GOEA tools are very popular with biologists because of its simplicity and convenience, such as DAVID [<citation ref-type=\"bibr\" rid=\"CR17\" doi=\"10.1186/gb-2003-4-9-r60\" pmid=\"12734009\" count=\"1\">17</citation>], g:profiler [<citation ref-type=\"bibr\" rid=\"CR18\" doi=\"10.1093/nar/gkr378\" pmcid=\"PMC3125778\" pmid=\"21646343\" count=\"1\">18</citation>], GOEAST [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1093/nar/gkn276\" pmcid=\"PMC2447756\" pmid=\"18487275\" count=\"1\">15</citation>] and GOrilla [<citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.1186/1471-2105-10-48\" pmid=\"19192299\" pmcid=\"PMC2644678\" count=\"1\">19</citation>]. <sentence_start/>However, current GOEA tools do not consider tissue-specific information, and most existing biological experiments do not focus on tissue-specific gene regulation, ignoring their importance in their respective networks [<citation ref-type=\"bibr\" rid=\"CR20\" doi=\"10.1186/1471-2105-9-271\" pmid=\"18541026\" pmcid=\"PMC2438328\" count=\"1\">20</citation>, <citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/j.celrep.2017.10.001\" pmid=\"29069589\" pmcid=\"PMC5828531\" count=\"1\">21</citation>]. <sentence_start/>Although all human tissues have a common process, the gene expression patterns of tissues are different, which means that different regulatory procedures control the specificity of the tissue, gene regulation is understood differently in different tissues [<citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/j.celrep.2017.10.001\" pmid=\"29069589\" pmcid=\"PMC5828531\" count=\"1\">21</citation>]. <sentence_start/>Understanding the specific expression and regulation of genes in different tissues is helpful to better understand the genetic relationship and etiology of tissues, as well as to discover new tissue-specific drug targets [<citation ref-type=\"bibr\" rid=\"CR22\" doi=\"10.1093/bioinformatics/btq109\" pmid=\"20223836\" pmcid=\"PMC2859128\" count=\"1\">22</citation>]. <sentence_start/>Therefore, it is very important to consider tissue-specific genes in current research."
+  },
+  {
+   "section": "article",
+   "text": "In addition, existing tools simply show the results of enrichment analysis, but they do not show users the relationship between those GO Terms in the results of enrichment analysis. <sentence_start/>We believe that visualizing the relationship between these GO terms can help us better understand our experimental results."
+  },
+  {
+   "section": "article",
+   "text": "In order to improve these shortcomings mentioned above, based on Homo sapiens\u2019 GO Annotated data and The Genotype-Tissue Expression [<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1038/ng.2653\" pmid=\"23715323\" pmcid=\"PMC4010069\" count=\"1\">23</citation>] data, we constructed an easy-to-use web tool called <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>, which allows users to easily conduct experiments based on organization-specific Go enrichment analysis. <sentence_start/>It uses appropriate statistical methods to determine whether the Go term significantly enriches specific organizations based on a given gene list. <sentence_start/>Compared with existing tools, it has the following advantages:"
+  },
+  {
+   "section": "article",
+   "text": "As far as we know, <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is the first tool to provide GO enrichment analysis based on Tissue specificity."
+  },
+  {
+   "section": "article",
+   "text": "<italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is an easy-to-use Web application that provides an intuitive visual interface that shows the location of specific GO terms in the ontology, as well as the relationships between all enriched Go terms."
+  },
+  {
+   "section": "article",
+   "text": "<italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> can save the results of many experiments, and support the comparison between the results of two groups of different experiments."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "<italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is a Web tool with three main layers: data support layer (back-end annotation database); data mining layer (algorithm and statistics); and result presentation layer (interface). <sentence_start/>The whole framework of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is shown in Fig. 1 and the workflow of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is shown in Fig. 2. Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "The whole framework of TS-GOEA. <sentence_start/>The front-end provides a user browser which inputs gene list and displays corresponding GO enrichment results. <sentence_start/>Calculating GO enrichment based on Tissue specific is finished in the back end of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Workflow of tissue-specific GO enrichment analysis"
+  },
+  {
+   "section": "article",
+   "text": "Data resource"
+  },
+  {
+   "section": "article",
+   "text": "The data used by <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> comes from the following resources. <sentence_start/>The GO ontology file is downloaded from the Gene Ontology Project website( ). <sentence_start/>All GO term definitions and hierarchical relationships are extracted from the ontology file. <sentence_start/>The GO annotation file is downloaded and parsed from the Gene Ontology Project website to extract relevant GO terms. <sentence_start/>Gene expression data was downloaded from the GTEx website( ) and genes for tissue-specific expression were calculated."
+  },
+  {
+   "section": "article",
+   "text": "Inputs and outputs format"
+  },
+  {
+   "section": "article",
+   "text": "<italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> requires the user to enter a list of genes, we currently use as UniPortKB identifier. <sentence_start/>Besides, <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> provides three types of output files:"
+  },
+  {
+   "section": "article",
+   "text": "HTML table, which describes detailed information of enriched GO terms and corresponding NCBI links."
+  },
+  {
+   "section": "article",
+   "text": "Plain text files of GO terms for local processing and analysis."
+  },
+  {
+   "section": "article",
+   "text": "Graphical Visualization, showing the hierarchical relationships between all enriched GO Term in the GO category and the hierarchical relationships of each GO term."
+  },
+  {
+   "section": "article",
+   "text": "Identify genes expressed on different tissues"
+  },
+  {
+   "section": "article",
+   "text": "Strictly, tissue-specific genes refer to genes whose function and expression are limited to specific tissue or cell types. <sentence_start/>In many cases, however, the concept of specificity has been extended to tissue selectivity, where gene expression is abundant in one or more tissue/cell types."
+  },
+  {
+   "section": "article",
+   "text": "The Genotype Tissue Expressions (GTEX) project aims to establish a common resource database and related organization library for studying the relationship between genetic variation and gene expression and other molecular phenotypes in a variety of reference tissues [<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1038/ng.2653\" pmid=\"23715323\" pmcid=\"PMC4010069\" count=\"1\">23</citation>, <citation ref-type=\"bibr\" rid=\"CR24\" doi=\"10.1126/science.1262110\" pmid=\"25954001\" pmcid=\"PMC4547484\" count=\"1\">24</citation>]. <sentence_start/>For ease of study, GTEx dataset provides Transcripts per Million (TPM) value and read counts of genes in different tissues. <sentence_start/>Select genes that are specifically expressed in tissues based on the following principles [<citation ref-type=\"bibr\" rid=\"CR25\" doi=\"10.1038/nature24277\" pmid=\"29022597\" pmcid=\"PMC5776756\" count=\"1\">25</citation>]:"
+  },
+  {
+   "section": "article",
+   "text": "In at least 20% samples, TPMs fraction is greater than or equal to 0.1."
+  },
+  {
+   "section": "article",
+   "text": "in at least 20% of samples, reads (unnormalized) greater than or equal to 6"
+  },
+  {
+   "section": "article",
+   "text": "Hypergeometric test"
+  },
+  {
+   "section": "article",
+   "text": "<italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> uses hypergeometric testing to calculate possibility. <sentence_start/>The <italic>p</italic>-value could be calculated as:"
+  },
+  {
+   "section": "article",
+   "text": "Where, <italic>N</italic> is the size of genes specifically expressed in the tissue selected, for a given GO term, there are <italic>M</italic> genes within <italic>N</italic> associated with it, and <italic>n</italic> is the size of genes in the input gene list, <italic>k</italic> is the size of the genes of interaction between <italic>n</italic> and <italic>M</italic> [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1093/nar/gkn276\" pmcid=\"PMC2447756\" pmid=\"18487275\" count=\"1\">15</citation>]. <sentence_start/><italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> use the Benjamini Hochberg method to adjust the original p value to the error detection rate (FDR) to avoid multiple test problems that may lead to excessive false positive results [<citation ref-type=\"bibr\" rid=\"CR26\" count=\"1\">26</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Features of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>"
+  },
+  {
+   "section": "article",
+   "text": "The primary function of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is to identify statistically enriched GO terms in a given list of genes. <sentence_start/>As a web-based GO enrichment analysis tool, <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> has the following improvements or unique features compared to available tools."
+  },
+  {
+   "section": "article",
+   "text": "Tissue specificity"
+  },
+  {
+   "section": "article",
+   "text": "None of the current GO enrichment analysis tools can take into tissue-specific information account. <sentence_start/>However, studying the tissue-specific genes is an important step in understanding the progress of life activities and organizational functions. <sentence_start/><italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> performs GO enrichment analysis based on tissue specific information can effectively supplement the shortcomings of current research and better explain the results of biological experiments."
+  },
+  {
+   "section": "article",
+   "text": "Graphical visualization"
+  },
+  {
+   "section": "article",
+   "text": "The GO terms in each ontology category are not independent but are located in the same branch, with a hierarchical relationship to each other. <sentence_start/>Understanding the locational relationships of GO terms may help users better understand their results. <sentence_start/>For Example, the relative position relationship of GO:0001228 in gene ontology is shown in Fig. 3. <sentence_start/>With the GO lineage diagram, one can easily understand the enriched GO terms and its hierarchical relationship in GO. <sentence_start/>Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "Ancestors and descendants of GO:0001228 in GO"
+  },
+  {
+   "section": "article",
+   "text": "Multiple experiments comparison function"
+  },
+  {
+   "section": "article",
+   "text": "A unique feature of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is to allow comparison of GO terminology enrichment states for different experimental results. <sentence_start/>Users can upload the results of the GO enrichment analysis provided by <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> to the website, or add the results to the comparison page, and compare the similarities and differences between the two experimental results using the Venn diagram."
+  },
+  {
+   "section": "article",
+   "text": "Highly interactive"
+  },
+  {
+   "section": "article",
+   "text": "The application is highly interactive and can generate different diagrams according to user\u2019s selection. <sentence_start/>For example, in the input interface, users can freely choose interested tissue and a GO category. <sentence_start/>In the output interface, users can easily download or display their own result. <sentence_start/>In the result display interface, users can click the GO term list and gene list in the results to view detail information. <sentence_start/>Users can also compare the results of two enrichment results by adding their job IDs."
+  },
+  {
+   "section": "article",
+   "text": "We will compare the results of two different GO enrichment analysis at the end of the article to show the advantage of tissue-specific GO enrichment analysis."
+  },
+  {
+   "section": "article",
+   "text": "Results and discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this case, tissue-specific genes are defined as a group of genes that express in one or several tissues. <sentence_start/>Identification of these genes contributes to a better understanding of tissue genetic relationships and pathogenicity [<citation ref-type=\"bibr\" rid=\"CR22\" doi=\"10.1093/bioinformatics/btq109\" pmid=\"20223836\" pmcid=\"PMC2859128\" count=\"1\">22</citation>]. <sentence_start/>However, due to the complex clinical characteristics and highly heterogeneous genetic background of some diseases, it is difficult to make accurate diagnosis [<citation ref-type=\"bibr\" rid=\"CR27\" doi=\"10.1186/s12859-018-2102-9\" pmid=\"29671400\" pmcid=\"PMC5907215\" count=\"1\">27</citation>, <citation ref-type=\"bibr\" rid=\"CR28\" doi=\"10.1504/IJDMB.2017.084268\" count=\"1\">28</citation>]. <sentence_start/>It is of great significance to reveal the molecular mechanism of biomedicine by using disease genome to performing the tissue-specific GO enrichment analysis, and then continue to excavate the results and analyze the biological process or signal pathway in which genes may be involved."
+  },
+  {
+   "section": "article",
+   "text": "Platelet disease is a hemorrhagic disease caused by a defect in the quantity or quality of platelets. <sentence_start/>It is not difficult to understand that compared to other organizations. <sentence_start/>In the process of exploring the pathogenesis of disease, the study of blood tissue can obtain more accurate results. <sentence_start/>Therefore, we performed GO enrichment analysis in blood tissue to verify the performance of our tools."
+  },
+  {
+   "section": "article",
+   "text": "To test <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>, we performed GO enrichment analysis in whole blood tissues and identified a set of GO terms for genes associated with platelet disease. <sentence_start/>Then, we carried out GO enrichment analysis without using tissue-specific information, and obtained another set of data. <sentence_start/>We compared and explained the differences between the two groups of experiments. <sentence_start/>Using the structural relationship of GO, we plot GO lineage images with the results of the two groups of enrichment analysis. <sentence_start/>Figure 4 shows the result of GO enrichment analysis in Homo sapiens, and Fig. 5 shows the result of GO enrichment analysis in Whole Blood. <sentence_start/>We compare the two groups of results, as shown in Fig. 6. <sentence_start/>Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "The visualization interface of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>. <sentence_start/>The experimental result of GO Enrichment analysis in Homo sapiens"
+  },
+  {
+   "section": "article",
+   "text": "Fig. 5"
+  },
+  {
+   "section": "article",
+   "text": "The visualization interface of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>. <sentence_start/>The experimental result of GO Enrichment analysis in Whole Blood"
+  },
+  {
+   "section": "article",
+   "text": "Fig. 6"
+  },
+  {
+   "section": "article",
+   "text": "The Venn diagram of two groups of results, which was implemented through the pairwise comparison tool of <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic>"
+  },
+  {
+   "section": "article",
+   "text": "By comparing the results of the two sets of experiments, we can find that the GO enrichment analysis based on whole blood tissue produces more accurate and effective results. <sentence_start/>More specifically, in order to facilitate comparison, we list the GO terms for these differences in the Table 1. <sentence_start/>Most of these GO terms listed are related to the activity of proteases and DNA binding processes, and are helpful to mediate the transcription process. <sentence_start/>We enumerate the genes annotated by those GO Terms and search these genes on eDGAR [<citation ref-type=\"bibr\" rid=\"CR29\" doi=\"10.1186/s12864-017-3911-3\" pmid=\"28812536\" pmcid=\"PMC5558190\" count=\"1\">29</citation>]. <sentence_start/>We found that these genes affect the formation and function of related proteases in the blood, and their abnormal expression can lead to some blood-related diseases, including Platelet disease, which proves the effectiveness of our tools. <sentence_start/>The results showed that tissue-specific GO enrichment analysis could show information at a more specific level. <sentence_start/>Therefore, we believe that our tools can help biologists complement and improve the process of biological experiments, understand their results from a functional point of view, and explore the potential molecular mechanisms behind biological processes [<citation ref-type=\"bibr\" rid=\"CR15\" doi=\"10.1093/nar/gkn276\" pmcid=\"PMC2447756\" pmid=\"18487275\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Since the beginning of the GO project, GO enrichment analysis has become a widely used method in the functional study of large-scale genome or transcriptome data. <sentence_start/>Various tools have been developed to support the exploration and search of the go database. <sentence_start/>Specifically, various tools are currently available to perform GO enrichment analysis. <sentence_start/>However, existing tools ignore tissue-specific information, which may bias the results of biological experiments."
+  },
+  {
+   "section": "article",
+   "text": "In this article, we developed a Web application that allows users to perform organization-specific GO rich analysis experiments, and we also visualize our results to facilitate users to view the relationships between GO terms. <sentence_start/>We also provide tools to compare different experimental results, so users can find similarities and differences between different experiments and mine deeper relationships. <sentence_start/>In a word, <italic>T</italic><italic>S</italic>\u2212<italic>G</italic><italic>O</italic><italic>E</italic><italic>A</italic> is an easy-to-use Web application that fills the gap in the field of tissue-specific GO enrichment analysis and can effectively supplement the conclusions of some current biological experiments."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "BP"
+  },
+  {
+   "section": "back",
+   "text": "Biological processes"
+  },
+  {
+   "section": "back",
+   "text": "CC"
+  },
+  {
+   "section": "back",
+   "text": "Cellular components"
+  },
+  {
+   "section": "back",
+   "text": "FDR"
+  },
+  {
+   "section": "back",
+   "text": "False discovery rate"
+  },
+  {
+   "section": "back",
+   "text": "GO"
+  },
+  {
+   "section": "back",
+   "text": "Gene ontology"
+  },
+  {
+   "section": "back",
+   "text": "GOEA"
+  },
+  {
+   "section": "back",
+   "text": "Gene ontology enrichment analysis"
+  },
+  {
+   "section": "back",
+   "text": "GTEx"
+  },
+  {
+   "section": "back",
+   "text": "The genotype-tissue expression"
+  },
+  {
+   "section": "back",
+   "text": "MF"
+  },
+  {
+   "section": "back",
+   "text": "Molecular functions"
+  },
+  {
+   "section": "back",
+   "text": "TPM"
+  },
+  {
+   "section": "back",
+   "text": "Transcripts per Million"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher\u2019s Note</bold>"
+  },
+  {
+   "section": "back",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  }
+ ]
+}

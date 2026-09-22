@@ -1,0 +1,475 @@
+{
+ "pmid": 39943407,
+ "pmcid": 11820220,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A Novel YOLOv10-Based Algorithm for Accurate Steel Surface Defect Detection"
+  },
+  {
+   "section": "abstract",
+   "text": "To address challenges like manual processes, complicated detection methods, high false alarm rates, and frequent errors in identifying defects on steel surfaces, this research presents an innovative detection system, YOLOv10n-SFDC. <sentence_start/>The study focuses on the complex dependencies between parameters used for defect detection, particularly the interplay between feature extraction, fusion, and bounding box regression, which often leads to inefficiencies in traditional methods. <sentence_start/>YOLOv10n-SFDC incorporates advanced elements such as the DualConv module, SlimFusionCSP module, and Shape-IoU loss function, improving feature extraction, fusion, and bounding box regression to enhance accuracy. <sentence_start/>Testing on the NEU-DET dataset shows that YOLOv10n-SFDC achieves a mean average precision (mAP) of 85.5% at an Intersection over Union (IoU) threshold of 0.5, a 6.3 percentage point improvement over the baseline YOLOv10. <sentence_start/>The system uses only 2.67 million parameters, demonstrating efficiency. <sentence_start/>It excels in identifying complex defects like \u2019rolled in scale\u2019 and \u2019inclusion\u2019. <sentence_start/>Compared to SSD and Fast R-CNN, YOLOv10n-SFDC outperforms these models in accuracy while maintaining a lightweight architecture. <sentence_start/>This system excels in automated inspection for industrial environments, offering rapid, precise defect detection. <sentence_start/>YOLOv10n-SFDC emerges as a reliable solution for the continuous monitoring and quality assurance of steel surfaces, improving the reliability and efficiency of steel manufacturing processes."
+  },
+  {
+   "section": "article",
+   "text": "1. Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Steel is an indispensable material in modern industrial manufacturing, widely utilized in sectors such as aerospace, automotive, and chemical industries [<citation rid=\"B1-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1109/ACCESS.2024.3371584\" count=\"1\">1</citation>]. <sentence_start/>As a structural material, steel directly influences product quality, project safety, and economic benefits. <sentence_start/>Consequently, the quality control of steel has emerged as a critical aspect of industrial production, with the detection of surface defects being a primary focus [<citation rid=\"B2-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/app15010052\" count=\"1\">2</citation>]. <sentence_start/>Surface defects in steel not only diminish its mechanical properties but may also pose safety hazards and adversely affect the product\u2019s service life and performance [<citation rid=\"B3-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1007/s10845-020-01670-2\" count=\"1\">3</citation>]. <sentence_start/>Therefore, the timely and accurate detection and repair of these surface defects are essential to ensure the quality of steel."
+  },
+  {
+   "section": "article",
+   "text": "Surface defects in steel, such as cracks and scratches [<citation rid=\"B4-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1016/j.apsusc.2013.09.002\" count=\"1\">4</citation>], can arise from material quality, improper production practices, or environmental factors, and while minor defects may have minimal impact, most can significantly reduce the steel\u2019s strength and plasticity [<citation rid=\"B5-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/s23229152\" pmid=\"38005538\" pmcid=\"PMC10675464\" count=\"1\">5</citation>], potentially leading to fractures or failure. <sentence_start/>Therefore, detecting these defects is crucial for both quality assessment and ensuring safety in engineering applications. <sentence_start/>Traditional steel surface defect detection technology is primarily categorized into two methods: manual inspection and physical inspection. <sentence_start/>Manual inspection, one of the earliest techniques, often relies on experienced workers to visually assess the steel\u2019s surface. <sentence_start/>While this method can swiftly identify some obvious defects, it has significant drawbacks, including low detection efficiency, substantial error margins, and susceptibility to factors such as worker fatigue and emotional state [<citation rid=\"B6-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/app15010458\" count=\"1\">6</citation>]. <sentence_start/>Furthermore, manual inspection is highly subjective, making it challenging to maintain long-term consistency and high precision, particularly in large-scale production settings with stringent quality control requirements [<citation rid=\"B7-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1038/s41598-024-74368-7\" pmid=\"39384857\" pmcid=\"PMC11464808\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "To address the limitations of manual detection, various physical detection methods have been developed. <sentence_start/>Among the commonly used methods are eddy current testing, magnetic flux leakage testing, infrared detection, and laser scanning. <sentence_start/>Eddy current testing [<citation rid=\"B8-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/s24175819\" pmid=\"39275730\" pmcid=\"PMC11398035\" count=\"1\">8</citation>,<citation rid=\"B9-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/app142411965\" count=\"1\">9</citation>] is effective for detecting surface cracks and corrosion, while magnetic flux leakage testing [<citation rid=\"B10-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/s151229845\" pmid=\"26690435\" pmcid=\"PMC4721765\" count=\"1\">10</citation>,<citation rid=\"B11-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/s24165158\" pmid=\"39204854\" pmcid=\"PMC11360579\" count=\"1\">11</citation>] is particularly sensitive when identifying surface defects in magnetic steels. <sentence_start/>Infrared inspection [<citation rid=\"B12-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/s24051674\" pmid=\"38475212\" pmcid=\"PMC10935385\" count=\"1\">12</citation>,<citation rid=\"B13-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/s20143851\" pmid=\"32664250\" pmcid=\"PMC7411953\" count=\"1\">13</citation>] reveals defects by measuring temperature changes on the object\u2019s surface, whereas laser scanning [<citation rid=\"B14-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1016/j.optlaseng.2016.01.009\" count=\"1\">14</citation>] provides a three-dimensional scan of the steel surface to identify minute defects. <sentence_start/>Although these physical inspection methods offer advantages in enhancing detection precision, they often necessitate costly equipment and impose stringent requirements on the operating environment and inspection conditions, thereby limiting their widespread application in real-world industrial settings. <sentence_start/>Furthermore, traditional physical testing methods are generally slow, which hampers their ability to meet the demands of efficient, high-volume steel production."
+  },
+  {
+   "section": "article",
+   "text": "With the rapid advancements in machine vision and deep learning technologies, detecting steel surface defects through image processing has become a focal point of research [<citation rid=\"B15-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1007/s10462-024-10956-3\" count=\"1\">15</citation>]. <sentence_start/>Machine vision systems [<citation rid=\"B16-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/machines12120917\" count=\"1\">16</citation>] capture images of the steel surface, which are then processed by deep learning models for automated defect detection. <sentence_start/>This approach enhances detection precision, reduces manual errors, and efficiently handles complex scenarios. <sentence_start/>This study presents an enhanced defect detection model for steel surfaces based on YOLOv10, focusing on improving detection precision and real-time performance. <sentence_start/>By optimizing the network architecture and introducing novel feature fusion techniques, the model significantly enhances its ability to detect a wide range of steel surface defects, while reducing computational overhead and ensuring efficient operation in industrial environments."
+  },
+  {
+   "section": "article",
+   "text": "2. Related Work"
+  },
+  {
+   "section": "article",
+   "text": "In recent years, with the continuous development of deep learning technologies, significant progress has been made in the field of steel surface defect detection. <sentence_start/>Several deep learning-based methods have been proposed to detect steel surface defects [<citation rid=\"B17-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/coatings14121575\" count=\"1\">17</citation>]. <sentence_start/>For instance, Lv et al. [<citation rid=\"B18-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1007/s11227-024-06248-w\" count=\"1\">18</citation>] used the YOLOv8 model with MobileViTv2 and Cross-Local Connection, achieving a 74.1% mAP50. <sentence_start/>Wang et al. [<citation rid=\"B19-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1109/ACCESS.2022.3230894\" count=\"1\">19</citation>] enhanced YOLO-V7 for steel strip defect detection, integrating BiFPN, ECA attention, and SIoU loss for higher precision. <sentence_start/>Gao et al. [<citation rid=\"B20-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1038/s41598-024-58643-1\" pmid=\"38589514\" pmcid=\"PMC11001973\" count=\"1\">20</citation>] developed YOLOv5-KBS, combining attention mechanisms and BiFPN, achieving 79.9% mAP at 70 fps. <sentence_start/>Similarly, Fityanul Akhyar et al. [<citation rid=\"B21-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1007/s00170-023-11087-9\" pmid=\"37073280\" pmcid=\"PMC9988608\" count=\"1\">21</citation>] proposed the FDD system, improving detection precision by incorporating deformable convolutions and ROI pooling. <sentence_start/>In a different approach, Praveen Damacharla et al. [<citation rid=\"B22-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">22</citation>] introduced TLU-Net, a transfer learning-based U-Net framework that improves segmentation with limited data. <sentence_start/>Prashant Kumar Uraon et al. [<citation rid=\"B23-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">23</citation>] combined FPN and ResNet, achieving a Dice score of 0.7963 and an IoU score of 0.6818. <sentence_start/>Mingshan Liu et al. [<citation rid=\"B24-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">24</citation>] used U-Net for feature extraction and defect identification, meeting the needs of automated quality inspection."
+  },
+  {
+   "section": "article",
+   "text": "YOLO algorithms have been applied to various materials, including metal and stone. <sentence_start/>In the wood surface defect detection field, Xi et al. [<citation rid=\"B25-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/coatings14081001\" count=\"1\">25</citation>] proposed SiM-YOLO, achieving a 9.3% mAP increase. <sentence_start/>Wang et al. [<citation rid=\"B26-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/electronics13193931\" count=\"1\">26</citation>] proposed CTDD-YOLO, a lightweight model for tile defects, boosting mAP by 7.2% while reducing parameters compared to YOLOv8n. <sentence_start/>Xu et al. [<citation rid=\"B27-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">27</citation>] proposed GEB-YOLO, an optimized YOLOv7 model for aluminum profile surface defect detection, improving accuracy by 6.3% and speed by 15% through the integration of GAM, EVCBlock, and BiFPN. <sentence_start/>Li et al. [<citation rid=\"B28-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/electronics13183783\" count=\"1\">28</citation>] introduced MSFE-YOLOv5s, enhancing steel surface defect detection with a 6.3% mAP increase and 15% FPS improvement by using C3DX and EIoU Loss."
+  },
+  {
+   "section": "article",
+   "text": "Similarly, in other surface defect detection fields, deep learning techniques have shown significant advancements. <sentence_start/>For example, Brinatti Vazquez et al. [<citation rid=\"B29-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.47852/bonviewJOPR42022350\" count=\"1\">29</citation>] introduced SUPPOSe 3Dge, a method that achieves super-resolution surface defect detection in fluorescence microscopy, surpassing diffraction limits and enabling the high-precision reconstruction of fine structures. <sentence_start/>Additionally, Yun-Chao Tang et al. [<citation rid=\"B30-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1016/j.engstruct.2022.115158\" count=\"1\">30</citation>] proposed a novel crack width measurement method based on a dual-scale feature backbone, improving crack morphology estimation through an enhanced Zhang-Suen thinning algorithm and multi-step refinement process. <sentence_start/>Yang Yu et al. [<citation rid=\"B31-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1007/s13349-024-00895-6\" count=\"1\">31</citation>] proposed a hybrid framework for automated delamination detection in bridge decks using GPR, combining SSWT, CNN, transfer learning, and whale optimization, achieving over 94% accuracy. <sentence_start/>Lei Wang et al. [<citation rid=\"B32-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1016/j.ymssp.2024.111719\" count=\"1\">32</citation>] introduced an ultrasonic-based diagnosis method for concrete compressive damage amidst temperature variations, integrating continuous wavelet transform and deep CNNs to effectively identify damage despite environmental changes."
+  },
+  {
+   "section": "article",
+   "text": "Despite these advancements, several challenges remain. <sentence_start/>The variety of defect shapes and sizes, the presence of multiple coexisting defects in a single image, and substantial background noise in the production environment make defect detection difficult. <sentence_start/>Moreover, the high-speed, batch-based nature of steel production requires real-time detection algorithms to ensure efficiency."
+  },
+  {
+   "section": "article",
+   "text": "In response to these challenges, this study presents YOLOv10n-SFDC, an enhanced model based on YOLOv10. <sentence_start/>By optimizing the network architecture and incorporating a novel feature fusion module, YOLOv10n-SFDC significantly improves detection precision, robustness, and real-time performance, meeting the practical needs of industrial production. <sentence_start/>In particular, this research offers contributions in the following areas:"
+  },
+  {
+   "section": "article",
+   "text": "Integrated into the backbone network, the DualConv module enhances the network\u2019s ability to extract local features and optimizes the fusion of channel information. <sentence_start/>This improvement allows for more precise extractions of intricate features from the steel surface, especially when identifying smaller defects."
+  },
+  {
+   "section": "article",
+   "text": "The conventional feature fusion module is substituted with the SlimFusionCSP module. <sentence_start/>This module refines the combination of multi-scale features while maintaining computational efficiency, thus boosting the network\u2019s ability to identify complex defects and accommodate multiple targets."
+  },
+  {
+   "section": "article",
+   "text": "To enhance the precision of border regression, the Shape-IoU loss function is introduced in this study, which prioritizes the correspondence between the predicted boundary shape and its actual dimension, significantly improving the model\u2019s effectiveness in border regression tasks."
+  },
+  {
+   "section": "article",
+   "text": "This research achieves a reduction in model size by cutting down on unnecessary computations and minimizing the parameter count, thereby ensuring efficient and real-time operation in real-world industrial applications."
+  },
+  {
+   "section": "article",
+   "text": "Experimental results on the NEU-DET dataset show that the YOLOv10n-SFDC model offers superior detection precision, speed, and robustness, especially in complex backgrounds and multi-defect scenarios. <sentence_start/>Compared to traditional methods and mainstream models, it achieves more accurate results while reducing computational overhead, making it a promising solution for industrial steel surface defect detection."
+  },
+  {
+   "section": "article",
+   "text": "3. <sentence_start/>Overview of the YOLOv10"
+  },
+  {
+   "section": "article",
+   "text": "YOLOv10 [<citation rid=\"B33-sensors-25-00769\" ref-type=\"bibr\" arxiv=\"2405.14458\" count=\"1\">33</citation>] is a real-time, end-to-end object detection algorithm introduced in recent years. <sentence_start/>It builds upon the characteristics of the YOLO series while innovating and enhancing various aspects to further improve detection performance and efficiency. <sentence_start/>The primary advancements in YOLOv10 are centered on the post-processing strategy and model architecture design, with the goals of reducing computational overhead, increasing inference speed, and ensuring high-precision detection."
+  },
+  {
+   "section": "article",
+   "text": "Among classic object detection algorithms, Mask R-CNN, RetinaNet, SSD, EfficientDet, CenterNet, and YOLO each offer unique strengths for different applications. <sentence_start/>Mask R-CNN [<citation rid=\"B34-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">34</citation>] excels in segmentation quality but is computationally expensive, limiting real-time use. <sentence_start/>RetinaNet [<citation rid=\"B35-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">35</citation>] improves accuracy for small objects with Focal Loss but increases computational and memory load. <sentence_start/>SSD [<citation rid=\"B36-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">36</citation>], with its single-stage design, is suitable for real-time detection but struggles with small objects and high-resolution images. <sentence_start/>EfficientDet [<citation rid=\"B37-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1109/CVPR42600.2020.01079\" count=\"1\">37</citation>] optimizes computational efficiency and reduces memory usage, but performs poorly with complex backgrounds. <sentence_start/>CenterNet [<citation rid=\"B38-sensors-25-00769\" ref-type=\"bibr\" arxiv=\"1904.07850\" count=\"1\">38</citation>] balances speed and accuracy using keypoint detection, with moderate complexity and low memory demand, though it underperforms on small objects. <sentence_start/>YOLO is efficient and demands low memory, making it ideal for real-time detection in resource-constrained environments."
+  },
+  {
+   "section": "article",
+   "text": "As shown in Figure 1, the architecture of the YOLOv10 network consists of four main components: the input, the backbone, the neck, and the head. <sentence_start/>During the input phase, data augmentation methods such as Mosaic [<citation rid=\"B39-sensors-25-00769\" ref-type=\"bibr\" arxiv=\"2004.10934\" count=\"1\">39</citation>] and Copy-Paste [<citation rid=\"B40-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.48550/arXiv.2012.07177\" count=\"1\">40</citation>] were utilized to increase the variability of the training dataset, which helps to minimize overfitting and enhances the model\u2019s ability to generalize in new situations. <sentence_start/>To ensure robustness against complex backgrounds and minimize noise interference, these augmentation techniques were carefully tuned. <sentence_start/>Specifically, the strength of these augmentations was dynamically adjusted to balance data diversity with noise suppression. <sentence_start/>Additionally, to counteract the possible negative impacts on model stability due to extensive data augmentation, these techniques were turned off during the last 10 epochs of the training process."
+  },
+  {
+   "section": "article",
+   "text": "The backbone module is essential for feature extraction and includes components such as spatial channel decoupling downsampling (SCDown) for efficient feature reduction, the C2f component, Spatial Pyramid Pooling-Fast (SPPF) for improved feature representation, and the partial self-attention module (PSA) to refine feature maps by emphasizing relevant information. <sentence_start/>SCDown optimizes spatial and channel data processing, enhancing the model\u2019s ability to extract features across different scales. <sentence_start/>SPPF broadens the receptive field, benefiting large target detection, while PSA improves small target detection by refining feature relationships with local self-attention."
+  },
+  {
+   "section": "article",
+   "text": "In the neck module, YOLOv10 incorporates the Path Aggregation Feature Pyramid Network (PAFPN) [<citation rid=\"B41-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">41</citation>], merging Feature Pyramid Network (FPN) and Path Aggregation Network (PANet) advantages for efficient multi-scale feature fusion, improving detection across varying target sizes."
+  },
+  {
+   "section": "article",
+   "text": "In the head module, YOLOv10 uses a decoupled head structure with the C2fCIB module, an enhancement of YOLOv8\u2019s C2f [<citation rid=\"B42-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">42</citation>] and inspired by ELAN [<citation rid=\"B43-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">43</citation>]. <sentence_start/>C2fCIB aggregates multi-level features, boosting small target detection and improving the receptive field and feature expression."
+  },
+  {
+   "section": "article",
+   "text": "YOLOv10 reduces computational overhead with a lightweight classification head, eliminating the previous target branch and focusing on independent classification and regression branches. <sentence_start/>This improves precision and detection stability. <sentence_start/>Compared to YOLOv9-C [<citation rid=\"B44-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">44</citation>], YOLOv10 reduces inference latency by 46% and parameters by 25%, enhancing efficiency and resource utilization. <sentence_start/>Additionally, it introduces a refined feature fusion strategy, improving stability and precision in various scenarios."
+  },
+  {
+   "section": "article",
+   "text": "Indeed, YOLOv11 [<citation rid=\"B45-sensors-25-00769\" ref-type=\"bibr\" arxiv=\"2410.17725\" count=\"1\">45</citation>] and YOLOv12 are the most recently updated models, offering higher accuracy and optimized multi-scale feature fusion capabilities. <sentence_start/>YOLOv11 improves speed and accuracy, while YOLOv12 enhances small object detection. <sentence_start/>However, these updated models are not suitable for steel defect detection. <sentence_start/>YOLOv11 struggles with small object detection in complex backgrounds, and although YOLOv12 improves small object detection, its deeper network is prone to overfitting, making it difficult to accurately capture the fine details of steel defects. <sentence_start/>In contrast, YOLOv10 is more appropriate and mature for steel defect detection tasks."
+  },
+  {
+   "section": "article",
+   "text": "4. YOLOv10n-SFDCs"
+  },
+  {
+   "section": "article",
+   "text": "To enhance the suitability of YOLOv10 for identifying steel defects, the original YOLOV10N model was improved and optimized. <sentence_start/>The revised network structure is illustrated in Figure 2. <sentence_start/>First, the standard Conv module in the backbone network was replaced with the DualConv module to bolster the model\u2019s ability to extract local features and integrate channel information. <sentence_start/>Next, in the head, the SlimFusionCSP module substituted the traditional C2f module, which reduced computational overhead by fusing features of varying scales, thereby significantly improving both inference speed and the model\u2019s lightweight nature. <sentence_start/>Ultimately, the Shape-IoU was utilized in place of the CIoU loss function, focusing more on the shape and size of the bounding box to improve the accuracy of boundary regression. <sentence_start/>These key improvements have led to significant enhancements in the model\u2019s precision in detecting defects, particularly when addressing defects of diverse sizes and shapes."
+  },
+  {
+   "section": "article",
+   "text": "4.1. <sentence_start/>Loss Function Improvements"
+  },
+  {
+   "section": "article",
+   "text": "In the YOLOv10 model, the loss function plays a crucial role in positional regression, primarily aimed at optimizing the prediction precision of the bounding box. <sentence_start/>However, the traditional CIoU loss function [<citation rid=\"B46-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">46</citation>] presents certain limitations when addressing complex shapes and multi-scale targets in steel defect detection tasks. <sentence_start/>Notably, when the shape and scale of the target differ significantly, the CIoU\u2019s consideration of shape and scale in bounding box regression is insufficient, potentially resulting in substantial regression errors and hindering further improvements in model performance. <sentence_start/>To address these issues, the Shape-IoU [<citation rid=\"B47-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.48550/arXiv.2312.17663\" arxiv=\"2312.17663\" count=\"1\">47</citation>] loss function (Equation (1)) has been introduced as an optimization scheme. <sentence_start/>Building on the traditional IoU, Shape-IoU enhances the robustness of bounding box regression by taking into account both the shape and scale of the bounding box. <sentence_start/>Specifically, by incorporating shape distance and shape constraint terms, Shape-IoU allows for a more comprehensive evaluation of the degree of matching between the predicted box and the actual box."
+  },
+  {
+   "section": "article",
+   "text": "The IoU represents the ratio of overlap between the predicted bounding box and the ground truth box. <sentence_start/>The denotes a distance metric that accounts for both shape and scale characteristics, while serves as a shape constraint term designed to further balance the discrepancies in shape between bounding boxes. <sentence_start/>These enhancements enable Shape-IoU to measure more accurately the deviation between predicted and true bounding boxes, particularly in complex backgrounds. <sentence_start/>The key to Shape-IoU lies in its modeling of shape and scale characteristics: maps shape differences into a distance loss using a weighted approach, thereby enhancing the model\u2019s localization precision for asymmetric targets, whereas quantifies the deviation in shape factors, such as aspect ratios, which further mitigates the misalignment of bounding box shapes."
+  },
+  {
+   "section": "article",
+   "text": "Compared to CIoU, Shape-IoU demonstrates superior performance when handling overlapping defects or defects with irregular shapes. <sentence_start/>CIoU focuses primarily on the overlap area and center point distance, which can lead to regression errors in scenarios where bounding boxes overlap but have distinct shapes or aspect ratios. <sentence_start/>In such cases, Shape-IoU provides a more nuanced evaluation by incorporating shape distance and constraint terms. <sentence_start/>This enables the better differentiation of intersecting bounding boxes and improves localization precision for irregular targets. <sentence_start/>These advantages are particularly evident in steel defect detection tasks involving highly variable or overlapping defects, where Shape-IoU significantly reduces misalignment and enhances robustness against geometric complexities."
+  },
+  {
+   "section": "article",
+   "text": "4.2. Dual_Conv Module"
+  },
+  {
+   "section": "article",
+   "text": "In the YOLOv10 architecture, the Conv module functions as the essential element for extracting features, usually capturing image details via conventional convolution processes. <sentence_start/>However, in the context of steel defect detection, the traditional Conv module exhibits certain limitations when confronted with complex backgrounds and multi-scale defects. <sentence_start/>This is particularly evident when addressing subtle defects and intricate textures, as the Conv module struggles to balance the consideration of both local details and global information, ultimately leading to constrained model performance. <sentence_start/>To address these challenges, the DualConv [<citation rid=\"B48-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.1109/TNNLS.2022.3151138\" pmid=\"35230955\" count=\"1\">48</citation>] module was developed. <sentence_start/>DualConv integrates 3 \u00d7 3 groups of convolutions with 1 \u00d7 1 point convolutions, thereby enhancing the capability for local feature extraction and channel information fusion simultaneously. <sentence_start/>By executing both convolution operations at the same level, DualConv efficiently extracts detailed image features while improving attention to critical areas within the global context."
+  },
+  {
+   "section": "article",
+   "text": "Specifically, the 3 \u00d7 3 convolution focuses on capturing local spatial features critical for small defect detection, such as edges and textures, while the 1 \u00d7 1 convolution ensures the integration of cross-channel information, reducing the loss of contextual relevance. <sentence_start/>This synergy allows the module to effectively highlight subtle defect patterns, particularly in noisy or complex steel surfaces, where traditional convolution methods often fail to achieve sufficient sensitivity. <sentence_start/>The structure is illustrated in Figure 3, with the specific output of the DualConv presented in Equation (2)."
+  },
+  {
+   "section": "article",
+   "text": "In this scenario, let x represent the input feature map, and let and indicate the convolution kernels sized 3 \u00d7 3 and 1 \u00d7 1, respectively. <sentence_start/>The convolution operation is denoted by the symbol *, while the output feature map is represented by y. <sentence_start/>The 3 \u00d7 3 convolution is utilized to capture local spatial features, whereas the 1 \u00d7 1 convolution functions to integrate information across different channels. <sentence_start/>This synergy allows the DualConv module to extract spatial and channel features simultaneously, thus improving the understanding of detail and overall information."
+  },
+  {
+   "section": "article",
+   "text": "Unlike traditional convolution operations, DualConv not only enhances local feature extraction but also effectively captures the relationships between channels through 1 \u00d7 1 convolution. <sentence_start/>This design is particularly important in steel defect detection tasks, where defects are often partial and small, and the fusion of information between channels aids in improving the model\u2019s adaptability to complex scenarios. <sentence_start/>Consequently, DualConv demonstrates greater robustness and precision when processing images with intricate backgrounds and multi-scale features."
+  },
+  {
+   "section": "article",
+   "text": "4.3. SlimFusionCSP Module"
+  },
+  {
+   "section": "article",
+   "text": "4.3.1. SlimFusionCSP Module Structure"
+  },
+  {
+   "section": "article",
+   "text": "In the YOLOv10 architecture, the head\u2019s C2f module is essential as it integrates and processes features obtained from the backbone network for the tasks of classification and location prediction. <sentence_start/>However, when applied to the detection of steel defects, the C2f module exhibits certain limitations. <sentence_start/>Specifically, the dimensions and shapes of imperfections on steel surfaces can vary significantly, while the background often contains irregular textures and noise, which increases the likelihood of both false positives and missed detections by the model. <sentence_start/>To address these challenges, the SlimFusionCSP module has been introduced as a replacement for the C2f module, resulting in a notable enhancement in the model\u2019s effectiveness. <sentence_start/>The SlimFusionCSP module improves upon the conventional CSPNet [<citation rid=\"B49-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">49</citation>] architecture, with the aim of enhancing feature fusion capabilities and overall learning efficiency in object detection tasks, as illustrated in Figure 4."
+  },
+  {
+   "section": "article",
+   "text": "4.3.2. <sentence_start/>Details of the SlimFusionCSP Module"
+  },
+  {
+   "section": "article",
+   "text": "The SlimFusionCSP module comprises two primary branches: the feature extraction path and the residual path. <sentence_start/>Initially, the input feature map is segmented into channels through two 1 \u00d7 1 convolution operations, resulting in the generation of two distinct feature maps. <sentence_start/>These maps are utilized for deep feature extraction and direct feature fusion, respectively. <sentence_start/>This design enhances the preservation of the original information while minimizing information loss. <sentence_start/>Specifically, the input feature map produces feature maps and via the two convolution operations, as illustrated in Equations (3) and (4)."
+  },
+  {
+   "section": "article",
+   "text": "and are convolution kernels, while and represent bias terms. and are feature maps generated through convolution operations. <sentence_start/>Subsequently, the feature map processed through the branch undergoes sequential processing via multiple EnhancedBottleneck modules. <sentence_start/>These modules employ deep separable convolutions and residual connections [<citation rid=\"B50-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">50</citation>] to facilitate efficient feature information transfer while minimizing computational costs. <sentence_start/>The EnhancedBottleneck module in SlimFusionCSP is a structural enhancement for convolutional neural networks, building upon traditional bottleneck architectures (such as the Bottleneck in ResNet). <sentence_start/>This enhancement primarily incorporates deep separable convolutions, residual connections, and optimized activation functions to elevate feature extraction efficiency and overall model performance, as illustrated in Figure 5."
+  },
+  {
+   "section": "article",
+   "text": "The core structure of the module consists of two main components: one for extracting depth features through depth separable convolution and the other for preserving input features via residual connections. <sentence_start/>Initially, the input feature map undergoes depth separable convolution, which significantly decreases computational requirements by decoupling spatial convolution from channel convolution. <sentence_start/>In traditional convolution, a convolution kernel is needed for each input channel, whereas depth separable convolution employs a distinct convolution kernel for each input channel, thereby greatly reducing computational complexity. <sentence_start/>Following the depth convolution operation, the output is subjected to batch normalization [<citation rid=\"B51-sensors-25-00769\" ref-type=\"bibr\" arxiv=\"1502.03167\" count=\"1\">51</citation>], which aids in minimizing internal covariate shift and accelerating the training process. <sentence_start/>Subsequently, a nonlinear transformation is applied through the ReLU activation function to enhance the network\u2019s expressive capability."
+  },
+  {
+   "section": "article",
+   "text": "4.3.3. <sentence_start/>Residual Connection and Gating Mechanisms"
+  },
+  {
+   "section": "article",
+   "text": "To enable the network to disseminate information efficiently, the EnhancedBottleneck introduces residual connections. <sentence_start/>The fundamental concept of a residual connection is to add the input feature map to the result of the convolution operation, producing the final output. <sentence_start/>This design helps alleviate the vanishing gradient problem, allowing information to be transmitted more effectively at deeper layers, thus facilitating the network\u2019s training and optimization. <sentence_start/>The EnhancedBottleneck module processes the input feature map through depth separable convolutions and combines it with the feature map processed by another depth separable convolution and batch normalization, enhancing the model\u2019s learning capability and performance while maintaining high computational efficiency."
+  },
+  {
+   "section": "article",
+   "text": "The particular advantage of depth separable convolutions in steel defect detection lies in their significant reduction in computational cost and parameter count, while preserving important spatial and local features. <sentence_start/>In steel defect detection tasks, subtle defect features are often difficult to capture. <sentence_start/>Depth separable convolutions split the convolution operation into two independent steps (depthwise convolution and pointwise convolution), not only improving computational efficiency but also increasing the model\u2019s sensitivity to detailed features when processing high-dimensional data. <sentence_start/>This is especially advantageous for detecting small defects on the steel surface, particularly in low-contrast or noisy conditions."
+  },
+  {
+   "section": "article",
+   "text": "In this way, the EnhancedBottleneck module not only improves the network\u2019s efficiency but also optimizes information extraction and detail processing for the steel defect detection task, enabling the better capture and recognition of small steel defects. <sentence_start/>Let the output of the EnhancedBottleneck module be denoted as , as shown in Equation (5)."
+  },
+  {
+   "section": "article",
+   "text": "denotes a deeply separable convolution operation, while Residual refers to a residual concatenation operation. <sentence_start/>The feature map , produced by the branch of the feature map and of EnhancedBottleneck, will be concatenated along the channel dimension. <sentence_start/>This channel-by-channel connection operation facilitates feature fusion, allowing for the retention of more feature information and the effective integration of deep and shallow features. <sentence_start/>The spliced feature diagram is illustrated in Equation (6)."
+  },
+  {
+   "section": "article",
+   "text": "In this step, the channels of the two feature maps are merged to create a more comprehensive fusion feature map, denoted as . <sentence_start/>Subsequently, the concatenated feature map undergoes further feature fusion via a 1 \u00d7 1 convolution, , resulting in a preliminary output feature map, (as described in Equation (7)). <sentence_start/>This process also adjusts the number of channels to the target output number, ensuring compatibility with the downstream module."
+  },
+  {
+   "section": "article",
+   "text": "To further optimize feature fusion, the SlimFusionCSP module introduces a gating mechanism [<citation rid=\"B52-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">52</citation>]. <sentence_start/>This mechanism dynamically adjusts the fusion priority of the feature map, enabling the model to selectively transmit key information to the subsequent layer based on task requirements. <sentence_start/>This approach prevents the transmission of redundant information and mitigates the impact of irrelevant features on the final prediction results. <sentence_start/>Consequently, the model can effectively suppress noise in complex backgrounds, enhancing its focus on steel defect areas and thereby improving the precision of steel defect detection. <sentence_start/>The gating process is facilitated by a learnable gating variable. <sentence_start/>This variable is transformed into a value between 0 and 1 using the sigmoid function, which is then weighted with the residual concatenation. <sentence_start/>The final output feature plot is expressed by the formula shown in Equation (8)."
+  },
+  {
+   "section": "article",
+   "text": "In this context, denotes the sigmoid function, gate refers to the trainable gating variable, and represents the shortcut connection of the input. <sentence_start/>The SlimFusionCSP module enhances feature extraction by incorporating residual connections and gating mechanisms. <sentence_start/>This design allows it to preserve the integrity of original information while dynamically adjusting the weighting of various features based on the particular demands of the task at hand. <sentence_start/>Through this approach, the module ensures that critical information is retained and appropriately emphasized for optimal performance.<sentence_start/>The incorporation of the gating mechanism significantly enhances the model\u2019s focus on crucial information, mitigates the influence of irrelevant features, and ensures the stability of the gradient, thereby preventing issues related to gradient vanishing or explosion. <sentence_start/>By integrating deep separable convolution, residual connections, and a gating mechanism, the SlimFusion CSP module significantly enhances the capacity and robustness of feature extraction while preserving the lightweight nature of the CSP structure. <sentence_start/>This module improves the performance of YOLOv10 in intricate visual tasks, particularly in multi-scale feature fusion and defect recognition within complex backgrounds, demonstrating superior feature expression capabilities and stability."
+  },
+  {
+   "section": "article",
+   "text": "The SlimFusionCSP module incorporates a gating mechanism that dynamically adjusts the influence of the shortcut connection based on task-specific requirements. <sentence_start/>The gate is initialized as a learnable parameter and transformed into a value between 0 and 1 using a sigmoid function. <sentence_start/>During the forward pass, this gate controls the contribution of the shortcut connection to the output. <sentence_start/>Specifically, higher gate values indicate greater reliance on the shortcut connection for feature fusion, while lower values diminish its influence. <sentence_start/>This implementation enables the quantitative analysis of the gating mechanism. <sentence_start/>By monitoring the gate variable during training, it is possible to observe how the model dynamically adjusts the weighting of the shortcut connection. <sentence_start/>For example, the gate values can reveal the extent to which the model prioritizes feature reuse versus new feature extraction under different training conditions."
+  },
+  {
+   "section": "article",
+   "text": "The SlimFusionCSP module achieves an effective balance between feature fusion efficiency and computational demands through the combined use of depthwise separable convolutions [<citation rid=\"B53-sensors-25-00769\" ref-type=\"bibr\" count=\"1\">53</citation>], residual connections, and the gating mechanism. <sentence_start/>Depthwise separable convolutions significantly reduce computational cost while preserving spatial and local features, enhancing sensitivity to subtle defect details. <sentence_start/>Residual connections ensure efficient information transfer and stabilize gradient flow, allowing the model to retain critical feature information. <sentence_start/>Meanwhile, the gating mechanism selectively emphasizes key features and suppresses irrelevant ones, adapting dynamically to complex defect scenarios. <sentence_start/>Together, these components enable the SlimFusionCSP module to optimize feature fusion while maintaining a lightweight and computationally efficient design, ensuring robust performance even in challenging detection tasks."
+  },
+  {
+   "section": "article",
+   "text": "5. Experiment"
+  },
+  {
+   "section": "article",
+   "text": "5.1. <sentence_start/>Dataset Details"
+  },
+  {
+   "section": "article",
+   "text": "This study utilizes a dataset provided by Northeastern University, known as NEU-DET, which is specifically designed to document defects on steel surfaces. <sentence_start/>The dataset encompasses six typical categories of steel surface defects: cracks (Cr), inclusions (In), plaques (Pa), scratches (Sc), oxidized rolled skin (Rs), and pitting surfaces (Ps). <sentence_start/>In total, the dataset includes 300 images for each defect type, with all images sized at 200 \u00d7 200 pixels. <sentence_start/>The images were randomly allocated to a training set and a validation set at a 9:1 ratio, resulting in a training set comprising 1620 images and a validation set containing 180 images."
+  },
+  {
+   "section": "article",
+   "text": "To verify the robustness and generalization ability of the model, experiments were conducted using the surface defect dataset GC10-DET, which was collected from real industrial scenarios. <sentence_start/>The GC10-DET dataset encompasses ten distinct types of surface defects, with the following labels: 329 punching holes (Pu), 513 welding lines (Wl), 265 crescent gaps (Cg), 354 water spots (Ws), 569 oil spots (Os), 884 silk spots (Ss), 347 inclusions (In), 85 rolling pits (Rp), 74 creases (Cr), and 143 waist creases (Wf). <sentence_start/>All defects are sourced from the surface of steel plates. <sentence_start/>The dataset comprises 3563 grayscale images, each with a resolution of 2048 \u00d7 1000 pixels. <sentence_start/>The dataset was divided into a training set and a validation set in an 80:20 ratio. <sentence_start/>This division was chosen due to the high quality and clarity of the images, as well as the relatively large dataset size. <sentence_start/>With clear and detailed defect features, the larger dataset allows for more effective training and validation, ensuring that the model learns to generalize well across different defect types while minimizing overfitting."
+  },
+  {
+   "section": "article",
+   "text": "5.2. <sentence_start/>Experimental Environment and Evaluation Indicators"
+  },
+  {
+   "section": "article",
+   "text": "The study\u2019s experimental setup was conducted on a Windows 10 OS featuring 128 GB of RAM. <sentence_start/>The machine was powered by an Intel(R) Xeon(R) Silver 4214R processor, which operated at 2.40 GHz, alongside an NVIDIA GeForce RTX 3090 graphics card. <sentence_start/>The software frameworks used included Python version 3.9, PyTorch 1.11.0, and CUDA 11.3. <sentence_start/>During the training phase, the model underwent 300 epochs, utilized a batch size of 32, and handled input images with a resolution of 640 \u00d7 640."
+  },
+  {
+   "section": "article",
+   "text": "In this research, we utilized an extensive array of evaluation metrics to evaluate the performance of the model. <sentence_start/>The metrics used encompass precision, recall, a mean Average Precision at an Intersection over Union (IoU) threshold of 0.5 (mAP50), as well as computational efficiency, expressed in billions of floating-point operations per second (GFLOPs). <sentence_start/>These metrics offer valuable information regarding both the accuracy of the model and its computational requirements, along with the complete count of model parameters (Params). <sentence_start/>Collectively, these metrics provide a thorough evaluation of the model\u2019s performance and efficiency. <sentence_start/>Precision reflects the ratio of true positive samples within the predicted true class samples, while recall signifies the proportion of true samples that the model accurately identifies as positive from the total actual true class samples. <sentence_start/>Furthermore, mAP signifies the average precision, whereas mAP50 indicates the setting of the IoU threshold at 0.5 during the mAP calculation. <sentence_start/>Within this framework, a detection is considered accurate when the Intersection over Union (IoU) with the actual target surpasses 0.5, which is a widely used threshold for dependable object detection assessments. <sentence_start/>GFLOPs serves as a metric for the model\u2019s computational efficiency, revealing the number of billions of floating-point operations executed per second. <sentence_start/>In contrast, Params represents the complexity and scale of the model by indicating the total parameter count, thereby shedding light on its architecture and learning capabilities. <sentence_start/>The formulas for calculating precision, recall, and mAP are delineated in Equations (9)-(11)."
+  },
+  {
+   "section": "article",
+   "text": "5.3. <sentence_start/>Analysis of Experimental Results"
+  },
+  {
+   "section": "article",
+   "text": "As shown in Table 1, the improved model demonstrates significant performance improvements across various categories of defect detection tasks, especially in the detection of more complex objects. <sentence_start/>Notably, the \u201cpitted surface\u201d category exhibits the highest performance, with precision reaching 0.904, recall at 1.0, and a nearly perfect mAP50 of 0.995, highlighting the model\u2019s exceptional capability for defect detection. <sentence_start/>In contrast to the baseline, which showed strong performance in this category, the improved model further optimizes the detection accuracy."
+  },
+  {
+   "section": "article",
+   "text": "For the \u201crolled in scale\u201d category, the mAP50 value increases to 0.884, showing a significant enhancement in precision and recall compared to the baseline method\u2019s performance, which struggled in detecting such defects. <sentence_start/>The \u201cscratches\u201d category shows a slight decrease in mAP50 from the baseline, from 0.852 to 0.822, yet the overall performance still remains robust compared to the baseline model."
+  },
+  {
+   "section": "article",
+   "text": "In the more challenging \u201ccrazing\u201d category, the improved model\u2019s precision remains lower at 0.514, but recall has improved significantly to 0.75, and the mAP50 increases to 0.604, indicating progress in reducing false negatives. <sentence_start/>This shows that while challenges remain, the model is becoming more reliable overall."
+  },
+  {
+   "section": "article",
+   "text": "The \u201cinclusion\u201d category also sees a noticeable improvement in mAP50, reaching 0.861, compared to the baseline of 0.752. <sentence_start/>The \u201cpatches\u201d category reaches 0.966, showing an impressive enhancement, with a small increase of 0.052 over the baseline\u2019s mAP50 of 0.914."
+  },
+  {
+   "section": "article",
+   "text": "Overall, the enhanced model strikes a good balance between precision, recall, and lightweight design, making it well suited for multi-class defect detection tasks. <sentence_start/>The comparison against the baseline reveals notable improvements, especially in precision and recall for more complex defect types."
+  },
+  {
+   "section": "article",
+   "text": "In order to rigorously evaluate and validate the effectiveness of the proposed enhancements, this study carried out four ablation experiments. <sentence_start/>These experiments were conducted under uniform environmental and training parameters to ensure comparability. <sentence_start/>Both the experimental and control groups underwent training and testing phases, with all corresponding outcomes carefully documented. <sentence_start/>The detailed results of the ablation experiments are presented in Table 2."
+  },
+  {
+   "section": "article",
+   "text": "In the task of detecting steel surface defects, YOLOv10 was optimized by incrementally introducing improvement modules and assessing their impact on performance. <sentence_start/>Changes in mAP50 values, GFLOPs, and parameter counts were recorded throughout. <sentence_start/>The unmodified YOLOv10 model achieved an mAP50 of 0.792, GFLOPs of 8.2, and a parameter count of 2.69 M, serving as the baseline. <sentence_start/>Integrating the Shape-IoU module improved bounding box regression, increasing the mAP50 to 0.816, with GFLOPs and parameters rising to 8.88 and 2.82 M, respectively. <sentence_start/>Adding the DualConv module further enhanced the mAP50 to 0.830, with GFLOPs and parameters recorded at 8.48 and 2.77 M, improving local feature extraction and channel information fusion. <sentence_start/>Finally, incorporating the SlimFusionCSP module achieved an mAP50 of 0.855, while reducing GFLOPs to 8.10 and parameters to 2.67 M, demonstrating improved feature fusion efficiency with lower computational overhead."
+  },
+  {
+   "section": "article",
+   "text": "These experiments highlight the individual contributions of Shape-IoU, DualConv, and SlimFusionCSP to detection performance. <sentence_start/>While the modules were introduced sequentially to isolate their impacts, combining these enhancements earlier in training could potentially yield greater gains by leveraging their synergistic effects. <sentence_start/>Shape-IoU\u2019s robust bounding box regression, combined with DualConv\u2019s spatial and channel feature extraction, could enhance defect localization and fine-grained detail capture from the outset. <sentence_start/>The SlimFusionCSP module\u2019s lightweight design and efficient feature fusion would further amplify these benefits, especially for multi-scale and irregular targets. <sentence_start/>Early integration might also accelerate convergence by enabling more effective feature representation and optimization."
+  },
+  {
+   "section": "article",
+   "text": "5.4. Comparison Experiment"
+  },
+  {
+   "section": "article",
+   "text": "As shown in Figure 6, the confusion matrix for the upgraded model is depicted, with the horizontal axis representing the actual values and the vertical axis representing the predicted values. <sentence_start/>This matrix serves as a visual summary, reflecting the model\u2019s performance by comparing real outcomes to predictions. <sentence_start/>The graph indicates that most predictions are consistent with the actual values, demonstrating a robust predictive capability of the model. <sentence_start/>Under the same experimental conditions, the detection performance of the revised YOLOv10n-SFDC exhibits notable differences from the original YOLOv10 in various aspects. <sentence_start/>Figure 7 displays the precision-recall curves along with the respective mAP50 values for both the YOLOv10 model and its modified version, YOLOv10n-SFDC. <sentence_start/>This illustration offers a comparative view of the performance metrics for the two models. <sentence_start/>Moreover, Figure 8 presents the prediction outcomes before and after the enhancements applied to YOLOv10. <sentence_start/>The scaled graph indicates that the upgraded model not only effectively recognized categories such as \u201ccrazing\u201d and \u201crolled in scale\u201d, which were overlooked by the original model, but also markedly improved the detection rates for the \u201cinclusion\u201d category from 0.56 to 0.90, the \u201cpatches\u201d category from 0.77 to 0.87, the \u201cpitted\u201d category, the surface category from 0.80 to 0.90, and the scratches category from 0.61 to 0.78. <sentence_start/>In contrast, the proposed Shape-IoU loss function significantly reduced regression errors by considering both shape and scale, leading to more precise bounding boxes and improved detection outcomes. <sentence_start/>Figure 9 presents the Grad-CAM heatmaps for the predictions made by the upgraded YOLOv10n-SFDC model on the NEU-DET dataset. <sentence_start/>The heatmaps visually highlight areas where the model has focused its attention, with regions of higher importance represented by warmer colors (yellow to red). <sentence_start/>These visualizations demonstrate that the enhanced model not only effectively identifies defect categories that the original model missed, such as \u201ccrazing\u201d and \u201crolled in scale\u201d, but also provides greater clarity and precision in defect localization, further validating the improvements in detection performance."
+  },
+  {
+   "section": "article",
+   "text": "The enhanced YOLOv10n-SFDC model increased the overall mAP from 79.2% to 85.5%, representing a rise of 6.3 percentage points. <sentence_start/>Notably, in the \u2018rolled in scale\u2019 category, the original YOLOv10 achieved an mAP value of only 0.647, whereas the YOLOv10n-SFDC improved this to 0.884, indicating a significant performance enhancement for this challenging category. <sentence_start/>Additionally, other categories such as \u2018inclusion\u2019 and \u2018patches\u2019 also saw mAP increases of 0.103 and 0.052, respectively. <sentence_start/>This suggests that the improved algorithm exhibits greater stability and precision when addressing complex defects and difficult-to-detect targets. <sentence_start/>In other categories, the YOLOv10n-SFDC continues to perform well. <sentence_start/>For instance, in the \u2018crazing\u2019 category, the mAP of the enhanced model rose from 0.590 to 0.604; in the \u2018inclusion\u2019 category, it increased from 0.758 to 0.861; in the \u2018patches\u2019 category, from 0.914 to 0.966; and in the \u2018pitted_surface\u2019 category, both YOLOv10n and YOLOv10n-SFDC achieved mAP values of 0.995. <sentence_start/>However, in the \u2018scratches\u2019 category, the mAP for YOLOv10n-SFDC was recorded at 0.822, which is slightly lower than YOLOv10n\u2019s 0.854. <sentence_start/>Nevertheless, this minor decrease does not significantly impact the overall performance improvement of the model. <sentence_start/>Furthermore, the improved YOLOv10n-SFDC model comprises only 2.67 M parameters, which is notably lower than the 3.00 M parameters of YOLOv10n, underscoring its advantages in lightweight design. <sentence_start/>When compared with DETR, a transformer-based model designed for object detection, YOLOv10n-SFDC exhibits distinct advantages in both computational efficiency and detection precision. <sentence_start/>While DETR achieved a respectable mAP of 0.666 with 36.7 M parameters, its heavy reliance on transformer layers leads to substantial computational overhead, which can be a limitation for real-time and resource-constrained applications. <sentence_start/>In contrast, YOLOv10n-SFDC not only outperforms DETR in mAP (0.855 vs. 0.666), but also achieves this with over 13\u00d7 fewer parameters. <sentence_start/>These results underscore the effectiveness of YOLOv10n-SFDC\u2019s architecture in balancing lightweight design and high precision, making it a more suitable choice for industrial applications requiring rapid and efficient defect detection."
+  },
+  {
+   "section": "article",
+   "text": "Although additional modules were embedded into YOLOv10n to create YOLOv10n-SFDC, the model\u2019s parameter size decreased, demonstrating the efficiency of the proposed structural optimizations. <sentence_start/>This reduction in parameter size can be attributed to the introduction of the SlimFusionCSP and dual convolution modules, which enhance feature extraction and fusion while minimizing computational overhead. <sentence_start/>To further emphasize the lightweight design, Table 3 provides a comparative analysis of parameter sizes across models, highlighting that YOLOv10n-SFDC achieves superior detection performance with significantly fewer parameters compared to traditional models like SSD (24.1 M) and DETR (36.7 M). <sentence_start/>These results validate the proposed method\u2019s ability to balance lightweight design and high detection precision."
+  },
+  {
+   "section": "article",
+   "text": "5.5. <sentence_start/>Model Performance Verification(on the GC10-DET Dataset)"
+  },
+  {
+   "section": "article",
+   "text": "In this study, experiments were conducted on the surface defect dataset GC10-DET, collected from real industrial scenarios, to evaluate the performance of the model. <sentence_start/>The experimental results are summarized in Table 4 and Table 5. <sentence_start/>The YOLOv10n-SFDC model, trained with the same parameters for both the NEU-DET and GC10-DET datasets, demonstrated strong performance on the GC10-DET dataset, achieving a precision of 63.7%, recall rate of 61.7%, and mAP50 score of 65.6%, showing its effective generalization across datasets. <sentence_start/>Although the GC10-DET dataset is derived from a real industrial environment, leading to slightly lower detection precision compared to other laboratory datasets, it offers valuable insights for practical applications."
+  },
+  {
+   "section": "article",
+   "text": "Table 4 compares the results of the NEU-DET and GC10-DET datasets. <sentence_start/>The YOLOv10n-SFDC model outperforms YOLOv10 in most cases. <sentence_start/>Specifically, for the NEU-DET dataset, the model achieved a precision of 71.8%, recall rate of 85.4%, and mAP50 score of 85.5%, compared to the YOLOv10 baseline of 79.2%. <sentence_start/>For the GC10-DET dataset, the precision was 63.7%, recall rate was 61.7%, and mAP50 was 65.6%, with YOLOv10 achieving a slightly lower mAP50 of 64.4%."
+  },
+  {
+   "section": "article",
+   "text": "Notably, the model excelled in detecting defects in the punching category, achieving a precision of 0.802, recall rate of 0.963, and mAP50 score of 0.96. <sentence_start/>This highlights the model\u2019s effectiveness in accurately detecting and minimizing missed detections in this category. <sentence_start/>The performance in the crescent-shaped gap and weld categories was also commendable, with precision scores of 0.78 and 0.768, recall rates of 0.959 and 0.907, and mAP50 scores of 0.937 and 0.912, respectively. <sentence_start/>These results underscore the model\u2019s enhanced capability to detect these specific types of defects, demonstrating its robustness and reliability."
+  },
+  {
+   "section": "article",
+   "text": "For the water spot category, the model achieved a precision of 0.687, recall rate of 0.807, and mAP50 score of 0.834, indicating strong detection performance. <sentence_start/>While slight deficiencies were observed in precision and recall for other categories such as oil spots, silk spots, and creases, the overall performance remained satisfactory without any major issues. <sentence_start/>Furthermore, when tested on a separate dataset containing ten categories, the model accurately identified the crack category and its location, distinguishing it clearly from the background. <sentence_start/>This further demonstrates the model\u2019s strong robustness and generalization capabilities."
+  },
+  {
+   "section": "article",
+   "text": "5.6. <sentence_start/>Model Generalization Verification (On the Welding Defect Dataset)"
+  },
+  {
+   "section": "article",
+   "text": "In order to verify the generalization ability of the model proposed in this study, a dataset specifically designed for detecting defects in welding surfaces is utilized. <sentence_start/>The dataset includes three distinct categories: bad weld, good weld, and defect. <sentence_start/>The images in this dataset are sourced from various image collections and datasets and are formatted in the YOLO annotation format. <sentence_start/>The dataset was randomly split into a training set and a validation set at an 8:2 ratio, with the majority of the images allocated to the training set and the remaining to the validation set."
+  },
+  {
+   "section": "article",
+   "text": "As shown in Table 6,although the model shows significant improvement over the baseline on the NEU steel defect dataset, its performance gain on the welding defect dataset is limited, indicating that its generalization ability needs further enhancement. <sentence_start/>Specifically, the precision and recall for the defect category are low, and the model\u2019s advantage over the baseline is not apparent. <sentence_start/>This suggests that the model\u2019s generalization is not yet ideal and requires further refinement, particularly for diverse real-world applications. <sentence_start/>Future work could explore more advanced model architectures and data augmentation strategies to improve performance across various datasets and scenarios."
+  },
+  {
+   "section": "article",
+   "text": "6. Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this study, we present an enhanced version of the YOLOv10 model, named YOLOv10n-SFDC, specifically designed for defect detection on steel surfaces. <sentence_start/>The model integrates several key innovations, including the DualConv module, the SlimFusionCSP module, and the Shape-IoU loss function. <sentence_start/>These improvements collectively enhance the model\u2019s precision and robustness while maintaining minimal computational costs. <sentence_start/>The DualConv module captures both local details and global context, critical for detecting small defects, while the SlimFusionCSP module optimizes feature fusion and accelerates inference. <sentence_start/>The Shape-IoU loss function places greater emphasis on the shape and scale of target bounding boxes, leading to more accurate bounding box regression."
+  },
+  {
+   "section": "article",
+   "text": "The YOLOv10n-SFDC model demonstrates superior performance with a mean Average Precision (mAP) of 85.5%, outperforming previous models. <sentence_start/>Specifically, it surpasses the YOLOv8-based model proposed by Xuan Song et al. [<citation rid=\"B56-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/electronics13050988\" count=\"1\">56</citation>], which incorporates deformable convolutions and the BiFormer attention mechanism, achieving an mAP of 84.8%, and the STE-YOLO model introduced by Dongming Li et al. [<citation rid=\"B57-sensors-25-00769\" ref-type=\"bibr\" doi=\"10.3390/electronics14010054\" count=\"1\">57</citation>], which utilizes GhostConv and a Bottleneck Transformer self-attention convolution layer, achieving an mAP of 79.0%. <sentence_start/>Despite both models showing improvements of 6.9% and 13.1% over the original YOLOv8, respectively, they still lag behind YOLOv10n-SFDC in handling small, multi-scale defects, particularly in complex and cluttered environments. <sentence_start/>These advancements allow YOLOv10n-SFDC to outperform these previous models, demonstrating its superiority in diverse and challenging industrial defect detection scenarios."
+  },
+  {
+   "section": "article",
+   "text": "7. Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Although the YOLOv10n-SFDC model has made significant advancements in steel surface defect detection, it still faces challenges, particularly in environments with complex backgrounds and the presence of multiple overlapping objects. <sentence_start/>Future research should focus on enhancing the model\u2019s detection capabilities in such cluttered scenarios, with an emphasis on improving background noise suppression and strengthening its robustness. <sentence_start/>Additionally, as datasets become more diverse and larger, exploring data augmentation and self-supervised learning techniques to improve the model\u2019s generalization will be crucial. <sentence_start/>The YOLOv10n-SFDC model also holds strong potential for defect detection across industries such as aerospace, automotive, and electronics. <sentence_start/>In the future, optimizing the model for real-time deployment in industrial-scale applications, particularly on edge devices with limited computational resources, will be vital for its successful implementation in practical settings."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Disclaimer/Publisher\u2019s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). <sentence_start/>MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "C.S. and J.F. composed the primary manuscript and conducted the core experiments. <sentence_start/>L.L. and S.W. handled the translation and made editorial revisions for this paper. <sentence_start/>All authors contributed to writing and reviewing the manuscript. <sentence_start/>All authors have read and agreed to the published version of the manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Institutional Review Board Statement"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Informed Consent Statement"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "back",
+   "text": "The datasets utilized in this research, namely NEU-DET, GC10-DET, and Welding Defect-Object Detection, are publicly accessible. <sentence_start/>You can obtain these datasets from the following links: http://faculty.neu.edu.cn/songkechen/zh_CN/zhym/263269/list/index.htm; accessed on 12 June 2024. <sentence_start/>https://github.com/lvxiaoming2019/GC10-DET-Metallic-Surface-Defect-Datasets; accessed on 20 October 2024. <sentence_start/>https://www.kaggle.com/datasets/sukmaadhiwijaya/welding-defect-object-detection/data. accessed on 10 January 2025."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no conflicts of interest."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "YOLOv10n architecture."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "YOLOv10n-SFDC Architecture."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "DualConv module structure."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "SlimFusionCSP module structure."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Structure of the EnhancedBottleneck Module."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 6"
+  },
+  {
+   "section": "floating",
+   "text": "Confusion matrix of our model on the NEU-DET dataset."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 7"
+  },
+  {
+   "section": "floating",
+   "text": "PR curves of YOLOv10 and our proposed model on the NEU-DET dataset."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 8"
+  },
+  {
+   "section": "floating",
+   "text": "Comparison of results on the NEU-DET dataset between YOLOv10 and ours."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 9"
+  },
+  {
+   "section": "floating",
+   "text": "Grad-CAM visualization on the NEU-DET dataset using our model."
+  }
+ ]
+}

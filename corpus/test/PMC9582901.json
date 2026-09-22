@@ -1,0 +1,227 @@
+{
+ "pmid": 36260334,
+ "pmcid": 9582901,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Assessing Mental Illness Risk Among North Korean Refugees and Immigrants Resettled in South Korea"
+  },
+  {
+   "section": "abstract",
+   "text": "This cohort study evaluates the risk of mental illness among North Korean refugees and immigrants resettled in South Korea compared with South Korean citizens."
+  },
+  {
+   "section": "abstract",
+   "text": "Key Points"
+  },
+  {
+   "section": "abstract",
+   "text": "Question"
+  },
+  {
+   "section": "abstract",
+   "text": "What is the mental illness risk among North Korean refugees and immigrants settled in South Korea compared with that of South Korean citizens?"
+  },
+  {
+   "section": "abstract",
+   "text": "Findings"
+  },
+  {
+   "section": "abstract",
+   "text": "In this cohort study of a propensity score-matched population of 24 532 individuals, North Korean refugees and immigrants showed a significantly higher risk of developing major depressive disorder, anxiety and panic disorder, alcohol use disorder, and posttraumatic stress disorder compared with South Korean citizens."
+  },
+  {
+   "section": "abstract",
+   "text": "Meaning"
+  },
+  {
+   "section": "abstract",
+   "text": "These findings suggest the increased risk of psychiatric disorders was significant in disorders that were attributed to environmental stressors, such as major depressive disorder, anxiety and panic disorder, alcohol use disorder, and posttraumatic stress disorder, rather than in psychiatric disorders with strong genetic heritability."
+  },
+  {
+   "section": "abstract",
+   "text": "Importance"
+  },
+  {
+   "section": "abstract",
+   "text": "The global increase in the numbers of refugees and immigrants has made mental health a major public concern. <sentence_start/>Although they are divided, North and South Korea share a common ethnic heritage."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "To investigate mental illness risk among North Korean immigrants living in South Korea and compare it with that of the general South Korean population."
+  },
+  {
+   "section": "abstract",
+   "text": "Design, Setting, and Participants"
+  },
+  {
+   "section": "abstract",
+   "text": "This retrospective, population-based cohort study was based on National Health Insurance claims data from 2007 to 2019, and North Korean immigrants and refugees (NKIRs) and age-matched and sex-matched members of the general population (GP) were included with a 1:3 ratio. <sentence_start/>Data were analyzed from March 2022 to August 2022."
+  },
+  {
+   "section": "abstract",
+   "text": "Exposure"
+  },
+  {
+   "section": "abstract",
+   "text": "Emigration from North Korea to South Korea."
+  },
+  {
+   "section": "abstract",
+   "text": "Main Outcomes and Measures"
+  },
+  {
+   "section": "abstract",
+   "text": "Mental illness incidence and risk through a Cox proportional risk model adjusted for sex, age, disability, region, Charlson Comorbidity Index score, and insurance premium percentile."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "A total of 37 209 NKIRs and 111 627 members of the GP were enrolled. <sentence_start/>The final analysis examined 112 851 individuals (73 238 [64.9%] female, median [IQR] age 34 [19-47] years), with 90 235 (80.0%) in the GP and 22 616 (20.0%) in the NKIR group. <sentence_start/>The propensity score-matching population numbered 24 532 in total, with 12 266 each in the NKIR and GP groups. <sentence_start/>NKIR patients had a higher mental illness risk than the GP (hazard ratio [HR], 2.12; 95% CI, 2.04-2.21). <sentence_start/>The multivariable adjusted HRs (95% CI) for developing mental disorders were 4.91 (3.59-6.71) for posttraumatic stress disorder, 3.10 (2.90-3.30) for major depressive disorder, 2.27 (2.11-2.44) for anxiety and panic disorder, 2.03 (1.58-2.60) for bipolar affective disorder, 1.85 (1.53-2.24) for alcohol use disorder, and 1.89 (1.46-2.45) for schizophrenia."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions and Relevance"
+  },
+  {
+   "section": "abstract",
+   "text": "In this study, NKIR individuals showed a significantly higher risk of developing most mental disorders. <sentence_start/>Interventional strategies can prevent psychiatric morbidity and ensure adequate care for this population."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Although deriving exact relevant mental health-related figures for immigrants is difficult,<citation rid=\"zoi221044r1\" ref-type=\"bibr\" count=\"1\"><sup>1</sup></citation> the topic deserves study because the number of persons forcibly displaced across national borders worldwide was 34 million in 2019, which was twice the corresponding number in 2000,<citation rid=\"zoi221044r2\" ref-type=\"bibr\" count=\"1\"><sup>2</sup></citation> as indicated by the International Migration Report.<citation rid=\"zoi221044r3\" ref-type=\"bibr\" doi=\"10.1111/padr.12377\" count=\"1\"><sup>3</sup></citation> <sentence_start/>Existing literature<sup><citation rid=\"zoi221044r4\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.1003337\" pmid=\"32956381\" pmcid=\"PMC7505461\" count=\"1\">4</citation>,<citation rid=\"zoi221044r5\" ref-type=\"bibr\" doi=\"10.1016/j.jaac.2019.11.011\" pmid=\"31778780\" count=\"1\">5</citation></sup> has shown that immigrants and refugees are vulnerable to mental health disorders. <sentence_start/>One of the largest meta-analyses,<citation rid=\"zoi221044r6\" ref-type=\"bibr\" doi=\"10.1001/jama.2009.1132\" pmid=\"19654388\" count=\"1\"><sup>6</sup></citation> which included 161 articles and examined 81 833 refugees from over 40 countries, reported higher rates of posttraumatic stress disorder (PTSD) and depression in this group, even after adjusting for methodological factors. <sentence_start/>A systematic review<citation rid=\"zoi221044r7\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(05)61027-6\" pmid=\"15823380\" count=\"1\"><sup>7</sup></citation> of depression and anxiety among refugees showed that their refugee status had a major impact on the mental health of this population."
+  },
+  {
+   "section": "article",
+   "text": "The Korean Peninsula currently has the only divided single-ethnicity country in the world, and it is currently in a state of ceasefire. <sentence_start/>Although their language and culture are shared, because the socioeconomic levels of North Korea (officially the Democratic People's Republic of Korea) and South Korea (officially the Republic of Korea) differ substantially, most people who leave North Korea settle in South Korea. <sentence_start/>According to statistics from the Ministry of Unification, the number of North Korean immigrants and refugees (NKIRs) at the end of 2020 was 33 752, and the number of North Korean immigrants reported by the United Nations was 49 549, indicating that 68% of NKIRs were absorbed into South Korea.<citation rid=\"zoi221044r8\" ref-type=\"bibr\" count=\"1\"><sup>8</sup></citation> <sentence_start/>In South Korea, the government officially provides settlement support for NKIRs, and their medical insurance is managed under a separate management code. <sentence_start/>Therefore, accurate medical claims data on NKIRs can be obtained for analysis. <sentence_start/>Nevertheless, any epidemiologic evidence for determining mental illness risk among NKIR groups has remained underexamined thus far because, to our knowledge, no studies have analyzed these issues in the entire population. <sentence_start/>Existing studies on NKIRs have targeted limited samples of dozens or hundreds of people of a specific age or sex, and most of these have not included a control group.<citation rid=\"zoi221044r8\" ref-type=\"bibr\" count=\"1\"><sup>8</sup></citation> <sentence_start/>Using national insurance data, this study sought to examine mental illness risk among NKIRs in comparison to that of the general population (GP)."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Study Design and Data Sources"
+  },
+  {
+   "section": "article",
+   "text": "This study followed the Strengthening the Reporting of Observational Studies in Epidemiology ( ) reporting guideline. <sentence_start/>The Korea University institutional review board approved this study and waived the need for informed consent because it follows the Korean guidelines for deidentification of personal data. <sentence_start/>National Health Insurance Service (NHIS) claims data for the period of 2007 to 2019 were used to compare mental illness occurrence between the GP and NKIRs. <sentence_start/>The data include numerous variables such as demographics, claims, information on death, insurance premium level, and disability. <sentence_start/>Insurance premiums were divided into 21 (0-20th percentile) divisions according to monthly income levels in the NHIS, and this variable was applied as a continuous variable for analysis. <sentence_start/>It was used as an indicator of individual income level. <sentence_start/>The <italic>International Statistical Classification of Diseases and Related Health Problems, Tenth Revision (ICD-10)</italic> code was used for disease classification (Table 1), and the initial study population data for all NKIRs in the claims data were requested. <sentence_start/>The control group, the GP group, was determined by extracting a 1:3 ratio. <sentence_start/>Sex and age were matched and extracted according to the NHIS data provision standards. <sentence_start/>The current study conducted analysis using propensity score matching (PSM), wherein NKIR and GP were matched 1:1. <sentence_start/>The variables used for matching were sex, age, insurance premium quartile, region (metropolitan area: Seoul, Gyeonggi, and Incheon; nonmetropolitan area: other regions), and Charlson Comorbidity Index (CCI) score."
+  },
+  {
+   "section": "article",
+   "text": "Participants"
+  },
+  {
+   "section": "article",
+   "text": "The study participants were selected according to the following criterion: they had made no mental illness-related claims for hospitalization or outpatient care for 3 years after the year in which their credentials were first registered. <sentence_start/>A 3-year washout period, including the index year, was provided for participants registered between 2007 and 2016. <sentence_start/>The observation period was determined to last from the index year until December 31, 2019, when the study period ended, the patient died, or mental illness occurred, whichever occurred first (Figure). <sentence_start/>Excluding participants who already had mental illness, died during the washout period, or had missing variables during the observation period, the final number of people who showed all the variables were included in the analysis. <sentence_start/>The mean (SD) observation periods were 2242 (1165) days (6.1 years) for the NKIR group and 3158 (950) days (8.6 years) for the GP group. <sentence_start/>Regarding PSM, the mean (SD) observation periods were 2450 (1094) and 3185 (913) days for the NKIR and GP groups, respectively (eTable 1 in the Supplement)."
+  },
+  {
+   "section": "article",
+   "text": "Figure."
+  },
+  {
+   "section": "article",
+   "text": "Flow Diagram of Selection Process for Participants"
+  },
+  {
+   "section": "article",
+   "text": "GP indicates general population; <italic>ICD-10</italic>, <italic>International Statistical Classification of Diseases and Related Health Problems, Tenth Revision</italic>; NHIS, National Health Insurance Service; NKIR, North Korean immigrants and refugees."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Descriptive statistics (means and frequencies) were used for characterizing the demographic variables. <sentence_start/>The \u03c7<sup>2</sup> test was used for comparing the GP and NKIR groups. <sentence_start/>Mental illness occurrence was defined as the presence of hospitalization or outpatient status claims under any <italic>ICD-10</italic> F code diagnosis. <sentence_start/>The Cox proportional risk model was applied and presented in the form of hazard ratios (HRs) and 95% CIs. <sentence_start/>Individual mental illnesses\u2019 risks were estimated. <sentence_start/>The Cox proportional hazard model was adjusted for confounding factors, including sex, age, disability, region, CCI score, and insurance premium percentile. <sentence_start/>The survival probability was estimated for each group (eFigure in the Supplement), and the differences between groups were evaluated using the log-rank test (\u03c7<sup>2</sup><sub>1</sub> = 2722.9; <italic>P</italic> &lt; .01). <sentence_start/>All statistical analyses were performed using the SAS Enterprise Guide tool version 7.1 provided by the NHIS (SAS Institute). <sentence_start/>Data were analyzed from March 2022 to August 2022."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Participants\u2019 baseline characteristics are described in Table 2, before and after PSM. <sentence_start/>The initial study population comprised 37 209 NKIR and 111 627 GP. <sentence_start/>The final participants were 112 851 individuals, with 90 235 (80.0%) in the GP group and 22 616 (20.0%) in the NKIR group (73 238 [64.9%] female, median [IQR] age 34 [19-47] years). <sentence_start/>The PSM population numbered 24 532 in total, with 12 266 each in the NKIR and GP groups. <sentence_start/>The HRs for mental illness occurrence, which were adjusted for age, sex, insurance premium percentile, region, CCI score, and presence of disability, are shown in Table 3. <sentence_start/>The number of mental illness occurrences was 15 348 (from among 112 851 individuals in the original cohort). <sentence_start/>The HR for mental illness occurrence in NKIR (from among the original cohort) was 2.12 (95% CI, 2.04-2.21), and that in the PSM cohort was 1.63 (95% CI, 1.52-1.75) relative to that in the GP cohort (<italic>P</italic> &lt; .001)."
+  },
+  {
+   "section": "article",
+   "text": "Differences in Mental Illness Occurrence Between NKIR and GP"
+  },
+  {
+   "section": "article",
+   "text": "The mental illness risks of GP and NKIR were analyzed (Table 4). <sentence_start/>The HRs for the individual mental illnesses included in the analyses are shown in eTable 2 in the Supplement. <sentence_start/>The HRs and 95% CIs for PTSD in the original NKIR group, compared with those in the GP, were the highest at 4.91 (3.59-6.71). <sentence_start/>The HRs and 95% CIs in NKIR, compared with those in the GP, were 3.10 (2.90-3.30) for major depressive disorer, 2.27 (2.11-2.44) for anxiety and panic disorder, 2.03 (1.58-2.59) for bipolar disorder, 1.85 (1.53-2.24) for alcohol use disorder, and 1.89 (1.46-2.45) for schizophrenia. <sentence_start/>However, this association was significant for major depressive disorer, anxiety and panic disorder, alcohol use disorder, and PTSD in the PSM cohort."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "The key finding of this cohort study was that the mental illness risk among NKIRs settled in South Korea was more than twice that of the GP, as shown by the nationwide database of the NHIS. <sentence_start/>Few studies have examined mental health risks among NKIRs. NKIRs often face a higher prevalence of mental illness compared with the GP of South Koreans. <sentence_start/>According to published studies on this population,<citation rid=\"zoi221044r9\" ref-type=\"bibr\" doi=\"10.1080/20008198.2017.1369833\" pmid=\"29038687\" pmcid=\"PMC5632770\" count=\"1\"><sup>9</sup></citation> the prevalence of anxiety was reported to be 43% for adults and 54% for adolescents,<citation rid=\"zoi221044r10\" ref-type=\"bibr\" doi=\"10.3349/ymj.2011.52.3.502\" pmid=\"21488195\" pmcid=\"PMC3101050\" count=\"1\"><sup>10</sup></citation> the prevalence of depression was 33% to 51%,<sup><citation rid=\"zoi221044r11\" ref-type=\"bibr\" doi=\"10.4306/pi.2009.6.3.122\" pmid=\"20046386\" pmcid=\"PMC2796059\" count=\"1\">11</citation>,<citation rid=\"zoi221044r12\" ref-type=\"bibr\" count=\"1\">12</citation></sup> and the prevalence of PTSD was reported to be as high as 52%.<citation rid=\"zoi221044r13\" ref-type=\"bibr\" doi=\"10.4306/pi.2016.13.1.67\" pmid=\"26766948\" pmcid=\"PMC4701687\" count=\"1\"><sup>13</sup></citation> <sentence_start/>However, these studies have limitations in that they did not use control groups, and their findings were thus too difficult to generalize because they used convenience samples with tens or hundreds of people and self-report tools."
+  },
+  {
+   "section": "article",
+   "text": "Migration is an established risk factor for the development of mental disorders.<sup><citation rid=\"zoi221044r14\" ref-type=\"bibr\" doi=\"10.1080/17522430903219196\" count=\"1\">14</citation>,<citation rid=\"zoi221044r15\" ref-type=\"bibr\" doi=\"10.1136/bmj.i1030\" pmid=\"26979256\" pmcid=\"PMC4793153\" count=\"1\">15</citation></sup> <sentence_start/>Our findings were consistent with this finding. <sentence_start/>The mental illness risk among NKIR individuals was more than twice that of GP individuals (HR = 2.12), and this was still significant after PSM (HR = 1.63) (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Several global studies on immigrants and refugees have reported a high prevalence of depression, anxiety, psychotic disorders, and PTSD.<citation rid=\"zoi221044r6\" ref-type=\"bibr\" doi=\"10.1001/jama.2009.1132\" pmid=\"19654388\" count=\"1\"><sup>6</sup></citation> <sentence_start/>Although there were some differences in the degree of study design, setting, or outcome measures, our study showed consistent results. <sentence_start/>Our study has some unique implications regarding the effect of migration on mental illness risk in a group sharing a common ethnic heritage (groups sharing a less widely spoken language or having few cultural differences)."
+  },
+  {
+   "section": "article",
+   "text": "There is still some controversy regarding high-risk and low-risk levels for substance use disorders (including those related to alcohol) among immigrant and refugee groups. <sentence_start/>A well-designed nationwide cohort study<citation rid=\"zoi221044r16\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.1002944\" pmid=\"31689291\" pmcid=\"PMC6830745\" count=\"1\"><sup>16</sup></citation> of a population of 1.2 million published in Sweden found that the risk of substance use disorder was low in immigrant and refugee groups. <sentence_start/>However, previous studies<sup><citation rid=\"zoi221044r17\" ref-type=\"bibr\" doi=\"10.1046/j.1360-0443.2003.00562.x\" pmid=\"14756715\" count=\"1\">17</citation>,<citation rid=\"zoi221044r18\" ref-type=\"bibr\" doi=\"10.1192/bjp.bp.110.084764\" pmid=\"22282430\" count=\"1\">18</citation></sup> have indicated a high substance use disorder risk among immigrant and refugee populations. <sentence_start/>Our findings showed that alcohol use disorder risk was significantly high even after PSM in NKIR populations. <sentence_start/>As substance use issues are greatly influenced by individual countries\u2019 policies and systems, we must strive to integrate the results of numerous variables (eg, ethnicity, region of origin, status of refugees, and current PTSD)."
+  },
+  {
+   "section": "article",
+   "text": "Strengths and Limitations"
+  },
+  {
+   "section": "article",
+   "text": "Our study has several strengths. <sentence_start/>First, our results add some new information regarding the risk of mental illness occurrence in immigrant groups with low cultural heterogeneity, including language, compared with that in general population groups using claims data including all NKIRs residing in South Korea. <sentence_start/>Our findings have unique implications for determining mental illness risks for immigrants and refugees who already share the linguistic background of their new country. <sentence_start/>The lack of language barriers faced by these immigrants and refugees can minimize the controversy regarding the validity of such diagnoses in clinical practice. <sentence_start/>Second, regarding data, this study applied a strict operational definition with a sufficient 3-year washout period before assessing the mental illness occurrence rate. <sentence_start/>Third, this study included all age groups and targeted all psychiatric diagnoses. <sentence_start/>Often, PTSD, depression, and anxiety disorders have formed the main subjects of immigrant and refugee studies; studies on other mental disorders such as substance use disorder and ADHD have been extremely rare. <sentence_start/>However, our study included all psychiatric diagnoses with <italic>ICD-10</italic> F codes (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Our study has several limitations. <sentence_start/>As the NHIS constituted the data source of our study, we encountered a lack of information on family members, occupation status, and any residence in a third country during migration. <sentence_start/>Similarly, as the claims data are based on <italic>ICD-10</italic> codes for administrative purposes, this study could not use <italic>Diagnostic and Statistical Manual of Mental Disorders</italic> diagnoses. <sentence_start/>Suicide is also an important area of interest for this population, but our study could not include it because of the lack of relevant valid information. <sentence_start/>Future research studies could investigate this factor by linking the cause of death with NHIS data."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Assessing mental health risk in refugees and immigrants is an area in high demand, but data are still insufficient. <sentence_start/>In this cohort study, we observed the increased risk of stress-related psychiatric illness such as major depressive disorer, anxiety and panic disorder, alcohol use disorder, and PTSD among NKIR compared with South Korean citizens even after PSM."
+  },
+  {
+   "section": "back",
+   "text": "Supplement."
+  },
+  {
+   "section": "back",
+   "text": "<bold>eFigure.</bold> <sentence_start/>The Survival Probability for Each Group"
+  },
+  {
+   "section": "back",
+   "text": "<bold>eTable 1.</bold> Study Population Observation Period Before and After PS Matching"
+  },
+  {
+   "section": "back",
+   "text": "<bold>eTable 2.</bold> <sentence_start/>Incidence of Individual Mental Disorders and Hazard Ratios Before and After PS Matching"
+  }
+ ]
+}

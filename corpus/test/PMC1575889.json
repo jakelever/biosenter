@@ -1,0 +1,463 @@
+{
+ "pmid": 17044736,
+ "pmcid": 1575889,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The Influence of Recombination on Human Genetic Diversity"
+  },
+  {
+   "section": "abstract",
+   "text": "In humans, the rate of recombination, as measured on the megabase scale, is positively associated with the level of genetic variation, as measured at the genic scale. <sentence_start/>Despite considerable debate, it is not clear whether these factors are causally linked or, if they are, whether this is driven by the repeated action of adaptive evolution or molecular processes such as double-strand break formation and mismatch repair. <sentence_start/>We introduce three innovations to the analysis of recombination and diversity: fine-scale genetic maps estimated from genotype experiments that identify recombination hotspots at the kilobase scale, analysis of an entire human chromosome, and the use of wavelet techniques to identify correlations acting at different scales. <sentence_start/>We show that recombination influences genetic diversity only at the level of recombination hotspots. <sentence_start/>Hotspots are also associated with local increases in GC content and the relative frequency of GC-increasing mutations but have no effect on substitution rates. <sentence_start/>Broad-scale association between recombination and diversity is explained through covariance of both factors with base composition. <sentence_start/>To our knowledge, these results are the first evidence of a direct and local influence of recombination hotspots on genetic variation and the fate of individual mutations. <sentence_start/>However, that hotspots have no influence on substitution rates suggests that they are too ephemeral on an evolutionary time scale to have a strong influence on broader scale patterns of base composition and long-term molecular evolution."
+  },
+  {
+   "section": "abstract",
+   "text": "Synopsis"
+  },
+  {
+   "section": "abstract",
+   "text": "Patterns of genetic variation in the human genome provide a history of the evolutionary forces that have shaped our species. <sentence_start/>The role of one factor, recombination, in shaping variation is much debated. <sentence_start/>The observation is that regions of the genome with high recombination also have high levels of genetic variation, but this pattern can be interpreted as evidence for either repeated, widespread adaptive evolution or correlation through neutral factors such as base composition. <sentence_start/>To resolve this issue, the authors constructed a genetic map of human Chromosome 20 that has a resolution more than three orders in magnitude greater than previous maps. <sentence_start/>By comparing the location of recombination hotspots with patterns of genetic variation, evolution, and base composition, the authors show that recombination has only a very local influence on diversity, which suggests that molecular mechanisms, such as mismatch-associated repair or double-strand break formation, not adaptive evolution, drives the association."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The extent to which adaptive evolution has shaped the recent evolutionary history of humans is much debated. <sentence_start/>While polymorphism at certain genes, such as beta-globin or Duffy, is known to be associated with functional variation of selective importance, the functional importance of most DNA variation or substitution since the human-chimpanzee split is unknown. <sentence_start/>However, adaptive evolution is also expected to leave its footprint in patterns of genetic variation. <sentence_start/>In particular, selective sweeps that accompany the fixation of adaptive mutations will eliminate nearby genetic variation [<citation rid=\"pgen-0020148-b001\" ref-type=\"bibr\" pmid=\"4407212\" count=\"1\">1</citation>]. <sentence_start/>In regions of high recombination, the footprint is expected to be smaller because recombination moves the beneficial mutation onto different genetic backgrounds, allowing linked diversity to persist. <sentence_start/>The observed positive correlation between recombination rate and genetic diversity [<citation rid=\"pgen-0020148-b002\" ref-type=\"bibr\" pmid=\"9799265\" doi=\"10.1093/genetics/150.3.1133\" pmcid=\"PMC1460397\" count=\"1\">2</citation>-<citation rid=\"pgen-0020148-b004\" ref-type=\"bibr\" pmid=\"11861892\" doi=\"10.1093/oxfordjournals.molbev.a004086\" count=\"1\">4</citation>] therefore suggests that many loci have been the target of recent adaptive evolution."
+  },
+  {
+   "section": "article",
+   "text": "However, genetic diversity is influenced by many factors, not just adaptive evolution. <sentence_start/>The rate at which new mutations appear in a population through mutation varies across the genome [<citation rid=\"pgen-0020148-b005\" ref-type=\"bibr\" pmid=\"2911369\" doi=\"10.1038/337283a0\" count=\"1\">5</citation>] and is influenced by base composition [<citation rid=\"pgen-0020148-b006\" ref-type=\"bibr\" pmid=\"12740762\" doi=\"10.1086/375657\" pmcid=\"PMC1180312\" count=\"1\">6</citation>] (particularly the density of methylated CpG dinucleotides [<citation rid=\"pgen-0020148-b007\" ref-type=\"bibr\" pmid=\"10978293\" doi=\"10.1093/genetics/156.1.297\" pmcid=\"PMC1461236\" count=\"1\">7</citation>]), which in turn is correlated with the recombination rate [<citation rid=\"pgen-0020148-b008\" ref-type=\"bibr\" doi=\"10.1098/rspb.1993.0071\" pmid=\"8394585\" count=\"1\">8</citation>]. <sentence_start/>Such indirect correlation may explain why the recombination rate also correlates with rates of substitution between human and chimpanzee [<citation rid=\"pgen-0020148-b006\" ref-type=\"bibr\" pmid=\"12740762\" doi=\"10.1086/375657\" pmcid=\"PMC1180312\" count=\"1\">6</citation>,<citation rid=\"pgen-0020148-b009\" ref-type=\"bibr\" pmid=\"14660686\" doi=\"10.1093/molbev/msh032\" count=\"1\">9</citation>,<citation rid=\"pgen-0020148-b010\" ref-type=\"bibr\" pmid=\"16140990\" doi=\"10.1101/gr.3461105\" pmcid=\"PMC1199536\" count=\"1\">10</citation>] and between human and mouse [<citation rid=\"pgen-0020148-b011\" ref-type=\"bibr\" pmid=\"12127766\" doi=\"10.1016/s0168-9525(02)02669-0\" count=\"1\">11</citation>]. <sentence_start/>Selection against deleterious mutations can also reduce genetic diversity indirectly through background selection [<citation rid=\"pgen-0020148-b012\" ref-type=\"bibr\" pmid=\"8375663\" doi=\"10.1093/genetics/134.4.1289\" pmcid=\"PMC1205596\" count=\"1\">12</citation>], the effect of which is stronger in regions of low recombination. <sentence_start/>Gene density varies across the genome [<citation rid=\"pgen-0020148-b013\" ref-type=\"bibr\" pmid=\"11237011\" doi=\"10.1038/35057062\" count=\"1\">13</citation>] and recombination hotspots typically occur outside genes [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>]; therefore, direct selection against deleterious mutations in genes could also potentially lead to a correlation between diversity and recombination. <sentence_start/>There is also some evidence that recombination may itself be directly mutagenic [<citation rid=\"pgen-0020148-b009\" ref-type=\"bibr\" pmid=\"14660686\" doi=\"10.1093/molbev/msh032\" count=\"1\">9</citation>,<citation rid=\"pgen-0020148-b015\" ref-type=\"bibr\" pmid=\"16356662\" doi=\"10.1016/j.gene.2005.10.020\" count=\"1\">15</citation>,<citation rid=\"pgen-0020148-b016\" ref-type=\"bibr\" pmid=\"14604793\" doi=\"10.1016/s0378-1119(03)00697-8\" count=\"1\">16</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "There are two critical limitations in determining the nature of the association between recombination and diversity. <sentence_start/>First, previous analyses have relied on genetic maps estimated from pedigree studies [<citation rid=\"pgen-0020148-b017\" ref-type=\"bibr\" pmid=\"12053178\" doi=\"10.1038/ng917\" count=\"1\">17</citation>], which typically have a resolution at the centiMorgan scale (approximately 1 to 2 Mb). <sentence_start/>However, recombination rates are known to vary at the kilobase scale, with much recombination occurring in short hotspots of 1 to 2 kb in length [<citation rid=\"pgen-0020148-b018\" ref-type=\"bibr\" pmid=\"11586303\" doi=\"10.1038/ng1001-217\" count=\"1\">18</citation>-<citation rid=\"pgen-0020148-b020\" ref-type=\"bibr\" pmid=\"15184900\" doi=\"10.1038/ng1376\" count=\"1\">20</citation>]. <sentence_start/>We would therefore expect direct (e.g., mutagenic) effects of recombination to be localised to recombination hotspots, yet this resolution is simply not available from existing genetic maps. <sentence_start/>The second major limitation is that different factors may have different (even conflicting) effects on diversity at different scales. <sentence_start/>For example, gene density could be positively correlated with mutation rate at broad scales because genes typically lie in GC-rich regions that have elevated mutation rates, yet at the very fine scale selective constraint will mean that genes themselves will tend to have lower diversity and divergence. <sentence_start/>Inference about the causal nature of the relationship between recombination and diversity requires analysis of large contiguous stretches of sequence from which it is possible to separate out the influence of different factors acting at different scales."
+  },
+  {
+   "section": "article",
+   "text": "Here we introduce three innovations to analyse the relationship between recombination and diversity in humans. <sentence_start/>The first is the use of fine-scale genetic maps estimated from patterns of genetic variation, which provide a kilobase-scale resolution to the location of recombination hotspots [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>,<citation rid=\"pgen-0020148-b021\" ref-type=\"bibr\" pmid=\"16255080\" doi=\"10.1038/nature04226\" pmcid=\"PMC1880871\" count=\"1\">21</citation>]. <sentence_start/>The second is the analysis of a large contiguous region of the genome, Chromosome 20, which allows assessment of both the scale over which factors influence diversity and comparison of genic and nongenic regions [<citation rid=\"pgen-0020148-b022\" ref-type=\"bibr\" pmid=\"16251460\" doi=\"10.1101/gr.4217605\" pmcid=\"PMC1310638\" count=\"1\">22</citation>]. <sentence_start/>Finally, we use discrete wavelet analysis [<citation rid=\"pgen-0020148-b023\" ref-type=\"bibr\" count=\"1\">23</citation>] to assess scale-specific interactions between factors."
+  },
+  {
+   "section": "article",
+   "text": "Informally, wavelet analysis transforms a sequence of observations (such as the GC content or recombination rate along a chromosome) into a series of coefficients that describe variation in the signal at successively broader scales. <sentence_start/>Under the simplest discrete wavelet decomposition, using the Haar wavelet function, a series of observations is essentially transformed into (1) a series of detail coefficients representing the difference between pairs of neighbouring observations and (2) a smoothed version of the original signal (note that it is conventional to rescale both the differenced and smoothed signals to preserve the variance across levels). <sentence_start/>Differencing and smoothing is repeated at successively broader scales, such that for a series of 2<italic><sup>n</sup></italic> observations there are <italic>n</italic> iterations. <sentence_start/>If multiple signals have been measured, for example, base composition, gene content, recombination rate, etc., each signal can be transformed. <sentence_start/>Correlations between signals can subsequently be assessed through linear model analysis of the detail coefficients at each level [<citation rid=\"pgen-0020148-b024\" ref-type=\"bibr\" count=\"1\">24</citation>]. <sentence_start/>Linear model analysis of the smoothed coefficients is equivalent to assessing correlations between factors measured in windows of increasing size."
+  },
+  {
+   "section": "article",
+   "text": "Although the transformed signal has no more or less information than the original, there are several benefits of analysing wavelet-transformed data in the analysis of genomic correlations. <sentence_start/>First, analysis of correlations at multiple scales removes the need to choose an arbitrary window size over which to search for correlations. <sentence_start/>Second, because of the way in which the transformation is constructed, the detail coefficients represent variation in the signal at a particular scale that cannot be attributed to variation at other scales (i.e., they are orthogonal to each other). <sentence_start/>Consequently, linear model analysis of the detail coefficients enables the detection of scale-specific correlations between factors. <sentence_start/>To give an illustration of why scale-specific effects can be important, note that different explanations for the link between recombination and diversity predict very different patterns with respect to the scale of the effect. <sentence_start/>If recombination is directly mutagenic we would expect to see a very local effect of recombination hotspots on diversity. <sentence_start/>In contrast, hitch-hiking explanations predict that the correlation will be over much broader scales. <sentence_start/>Finally, one useful way of thinking about linear model analysis of detail coefficients is that it measures how a <italic>change</italic> in one factor at a given scale influences <italic>change</italic> in another factor at the same scale. <sentence_start/>In effect, the analysis compares a series of paired observations and so implicitly controls for the background rate and autocorrelation of the signals. <sentence_start/>Consequently, linear model analysis of the detail coefficients is likely to be more robust to confounding factors that have not been measured. <sentence_start/>Of course, robustness may also be associated with reduced power relative to analysis of the smoothed coefficients."
+  },
+  {
+   "section": "article",
+   "text": "To illustrate these points, consider the relationship between gene content and divergence. <sentence_start/>Figure 1A shows the original signals and their wavelet decompositions over a 2-Mb region of the short arm (here a continuous wavelet decomposition is used merely for visual clarity; all analyses are carried out on discrete wavelet transformations). <sentence_start/>There is clearly both fine-scale and broad-scale variation in both signals. <sentence_start/>Correlation of the signals smoothed over successively broader scales over the long arm of Chromosome 20 (Figure 1B) shows that gene content and diversity are positively correlated when calculated in windows of 1 to 16 Mb but negatively correlated if calculated in smaller windows. <sentence_start/>Indeed, if the signals are computed in windows of 1 Mb there is no apparent correlation. <sentence_start/>Analysis of the detail coefficients explains this unusual behaviour. <sentence_start/>Over fine scales the detail coefficients show negative correlation, while at broad scales there are weak, but positive correlations. <sentence_start/>The correlation between the smoothed coefficients at any scale can be decomposed into a weighted sum of the correlations between the detailed coefficients at broader scales (see Text S2) [<citation rid=\"pgen-0020148-b023\" ref-type=\"bibr\" count=\"1\">23</citation>]. <sentence_start/>Consequently, the detail coefficient correlations predict the behaviour of the smoothed coefficient correlations but critically also enable the separation of factors acting at different scales."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Wavelet Transformation of Genome Annotations"
+  },
+  {
+   "section": "article",
+   "text": "(A) To illustrate the purpose of wavelet transformation, we show the original traces and continuous wavelet transformations using the derivative of Gaussian wavelet basis for gene content and divergence over a 2-Mb stretch of Chromosome 20. <sentence_start/>Colours indicate the magnitude (blue = low, red = high, white = zero) of the wavelet coefficients at each scale and location, with each level being normalised to have equal variance."
+  },
+  {
+   "section": "article",
+   "text": "(B) Analysis of the correlation between the smoothed and detailed coefficients at each scale (see Text S2). <sentence_start/>The height of each bar is the value of the correlation coefficient and the boxes are the contributions from broader scales (top is the broadest scale), with colour intensity related to the magnitude of the effect (blue is negative, red is positive) and size proportional to the fraction of variance explained by a given level. <sentence_start/>The correlation between divergence and constraint in the original signal (\u22120.0823) can be decomposed into positive contributions from correlations between detail coefficients at broad scales and negative contributions from correlations between detail coefficients at fine scales."
+  },
+  {
+   "section": "article",
+   "text": "We have used wavelet analysis to assess the influences on genetic diversity along human Chromosome 20, chosen for its high degree of functional annotation [<citation rid=\"pgen-0020148-b025\" ref-type=\"bibr\" pmid=\"11780052\" doi=\"10.1038/414865a\" count=\"1\">25</citation>] and availability of high-density single nucleotide polymorphism (SNP) genotype data. <sentence_start/>By combining information on patterns of diversity and divergence with information on recombination rate, base composition, and functional annotation, we show that previously reported broad-scale correlations between recombination and diversity are likely to result from indirect correlation of the neutral mutation rate with other features of genome organisation, particularly base composition. <sentence_start/>However, we also show a direct and local effect of recombination hotspots on local patterns of diversity and allele frequency, suggestive of a role for base composition biases in heteroduplex mismatch repair or double-strand break (DSB) formation. <sentence_start/>Finally, while we demonstrate highly local correlations between recombination hotspots, diversity, and GC content, we find no local correlation between recombination and divergence. <sentence_start/>These results are consistent with recent observations that while the fine-scale structure of recombination appears to evolve rapidly [<citation rid=\"pgen-0020148-b026\" ref-type=\"bibr\" pmid=\"15705809\" doi=\"10.1126/science.1105322\" count=\"1\">26</citation>,<citation rid=\"pgen-0020148-b027\" ref-type=\"bibr\" pmid=\"15723063\" doi=\"10.1038/ng1529\" count=\"1\">27</citation>], rates over broader scales may be constrained [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "We calculated summary statistics of genetic diversity (average pairwise differences between shotgun reads; see Text S1), divergence (proportion of nonidentical bases in the human-chimpanzee alignment), recombination (average recombination rate), base composition (GC content), and gene content (proportion of DNA in annotated exons) for 1-kb windows along the 62-Mb Chromosome 20 (excluding the centromere and heterochromatic regions); see Dataset S1. <sentence_start/>For each series of observations we obtained wavelet transformations using the Haar wavelet basis (similar results were obtained using other basis functions) on largest possible subsets of the short and long arm (16 Mb and 32 Mb, respectively); the two arms being analysed separately for replication. <sentence_start/>Tools for performing and analysing wavelet transformations are available within Dataset S2."
+  },
+  {
+   "section": "article",
+   "text": "Summarising Wavelet Transformations and Pairwise Correlations"
+  },
+  {
+   "section": "article",
+   "text": "A useful feature of the wavelet decomposition is that the variance in the original signal is proportional to the sum over all levels of the sum of squares of the detail coefficients at that level. <sentence_start/>Consequently, the proportions of the total variance explained by heterogeneity at different scales, known as the power spectrum of a signal, can be used to characterise the signal's distribution. <sentence_start/>Before focusing specifically on recombination and diversity, we first explored the power spectra and pairwise correlations between wavelet coefficients at each scale for all factors (Figure 2). <sentence_start/>Power spectra for each of the measured features are shown along the diagonal in Figure 2, for the short arm (blue) and the long arm (red). <sentence_start/>Broadly, we observe three different patterns. <sentence_start/>For diversity, divergence, and read depth, the greatest source of heterogeneity is at the finest scale (2 kb), and successively broader scales show successively weaker contribution. <sentence_start/>For GC content, we find a bimodal distribution, with peaks at both very fine scales (2 to 8 kb) and very broad scales (8 to 32 Mb). <sentence_start/>For recombination and, to a lesser extent, gene content, we find the greatest contribution to heterogeneity is made by intermediate scales; approximately 8 kb in the case of recombination."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Power Spectra and Pairwise Correlations of Detail Wavelet Coefficients"
+  },
+  {
+   "section": "article",
+   "text": "Diagonal plots show the power spectrum of the wavelet decomposition of each factor on the long (red) and short (blue) arms of Chromosome 20. <sentence_start/>Off-diagonal plots show the rank correlation coefficient between pairs of detail wavelet coefficients at each scale on the long (top right) and short (bottom left) arms. <sentence_start/>Red crosses indicate significant correlations (<italic>p</italic>-value &lt; 0.01; Kendall's rank correlation). <sentence_start/>Scale is shown in kilobases."
+  },
+  {
+   "section": "article",
+   "text": "Three factors influence the observed power spectrum. <sentence_start/>First, there are underlying biological factors that can determine scale-specific effects. <sentence_start/>For example, recombination hotspots are roughly 1 to 2 kb in width [<citation rid=\"pgen-0020148-b018\" ref-type=\"bibr\" pmid=\"11586303\" doi=\"10.1038/ng1001-217\" count=\"1\">18</citation>] and 50 to 100 kb apart [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>], genes average about 27 kb [<citation rid=\"pgen-0020148-b013\" ref-type=\"bibr\" pmid=\"11237011\" doi=\"10.1038/35057062\" count=\"1\">13</citation>], and the average read is about 500 bp [<citation rid=\"pgen-0020148-b028\" ref-type=\"bibr\" pmid=\"11237013\" doi=\"10.1038/35057149\" count=\"1\">28</citation>]. <sentence_start/>Second, there are inherent limits in the resolution to which factors can be determined; for example, estimates of recombination rate are limited by SNP density in the genotype data, which is approximately 2 kb. <sentence_start/>Third, there is inherent noise in the estimation of certain quantities. <sentence_start/>For example, levels of diversity and divergence are used to estimate the polymorphism and substitution rates, respectively. <sentence_start/>However, both observations are strongly influenced by chance (which mutation or substitution events have occurred); hence, there is statistical error in the estimation of the underlying rate."
+  },
+  {
+   "section": "article",
+   "text": "The off-diagonal elements of Figure 2 show the pairwise correlations (summarised by Kendall's rank correlation) between detail coefficients at each scale (short arm on bottom left, long arm on top right). <sentence_start/>The pairwise correlations between the smoothed coefficients are shown in Figure S1 in the supporting material. <sentence_start/>Red crosses indicate significant (<italic>p</italic> &lt; 0.01) correlations. <sentence_start/>A more detailed analysis of the correlates of diversity and recombination is given below. <sentence_start/>However, there are several points worth noting from this analysis. <sentence_start/>First, diversity and divergence levels show significant positive correlation down to the finest scale (2 kb). <sentence_start/>While this is expected given variation in the neutral mutation rate, it nevertheless indicates that the level of statistical error involved in measuring these quantities at the kilobase scale is not sufficient to obscure signal. <sentence_start/>Second, levels of diversity show significant correlation with all other factors over at least some scales; recombination does not show as many significant correlations, though its positive association with GC content over many scales (4 to 512 kb) is notable. <sentence_start/>These observations reinforce the need for multiple factors to be considered in assessing correlations between recombination and diversity. <sentence_start/>Third, we find that read depth is very significantly negatively correlated with base composition, diversity, and divergence over scales of 256 kb and less. <sentence_start/>This is most likely due to the lower cloning efficiency of GC-rich regions. <sentence_start/>Because base composition also influences the types of mutation observed, it is therefore important to take read depth into account when assessing the effect of recombination on diversity in this study."
+  },
+  {
+   "section": "article",
+   "text": "Recombination Has a Very Local Influence on Levels of Diversity"
+  },
+  {
+   "section": "article",
+   "text": "As seen in Figure 2, recombination and diversity do show some consistent statistically significant correlations (e.g., at the 4-kb scale). <sentence_start/>To extend the analysis, we used linear modeling in which diversity, divergence, and the recombination rate were log-transformed prior to wavelet analysis. <sentence_start/>Log transformation is required; otherwise, the extreme nonnormality of the residuals violates the assumptions of the linear model analysis."
+  },
+  {
+   "section": "article",
+   "text": "First, to compare our results with previous analyses, we performed linear model analysis of the smoothed coefficients including physical position as a covariate. <sentence_start/>This is equivalent to assessing correlations between statistics averaged over different window sizes. <sentence_start/>Figure 3A shows the results of the linear model analysis of diversity on the short and long arms. <sentence_start/>Divergence is a significant positive predictor over scales up to 1 Mb, while proximity to the centromere has a suppressing effect and GC content has a weak, but consistent, effect over and above divergence at fine scales. <sentence_start/>The effects of recombination and gene content are surprisingly different between the short and long arms. <sentence_start/>On the short arm, neither factor shows a significant correlation. <sentence_start/>On the long arm, exons show a strong negative correlation up to scales of 32 kb, while recombination shows a strong positive effect over scales up to 256 kb. <sentence_start/>Gene density on the short arm is less than half that on the long arm (and there are fewer observations at a given scale); hence, the lack of association with exons is probably due to power. <sentence_start/>It is not clear why recombination shows such a marked difference."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Marginal Significance (\u2212log<sub>10</sub> p-value as Determined by <italic>t-</italic>Test) of the Wavelet Coefficients from Four Annotations as Predictors of the Coefficients of the Decomposition of Ascertainment Panel Diversity"
+  },
+  {
+   "section": "article",
+   "text": "Red boxes highlight significant positive linear relationships and blue negative. <sentence_start/>The intensity of the colour is proportional to the degree of significance."
+  },
+  {
+   "section": "article",
+   "text": "(A) Smoothed coefficients."
+  },
+  {
+   "section": "article",
+   "text": "(B) Detail coefficients."
+  },
+  {
+   "section": "article",
+   "text": "Also shown is the adjusted <italic>r</italic> <sup>2</sup>, which can be interpreted as the proportion of the variance in the signal explained by the linear model."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3B shows the results of the linear model analysis on the detail coefficients (note that chromosomal location is excluded because detail coefficients are constant at a given level). <sentence_start/>There are two notable differences between the analysis of the smooth and detail coefficients. <sentence_start/>First, in contrast to the analysis of smoothed coefficients, the detail coefficient analysis shows a positive and significant effect of recombination on diversity at fine scales (2 to 4 kb) on both arms. <sentence_start/>Second, analysis of the detail coefficients shows that apart from divergence, other significant factors are only influential at scales of 32 kb and less and particularly the finest scale (2 kb). <sentence_start/>Both results suggest that the factors influencing diversity are primarily very local in nature. <sentence_start/>In particular, recombination does not exert an influence on changes in diversity beyond the scale of 2 to 4 kb; approximately the same size as recombination hotspots. <sentence_start/>To summarise the linear model analysis of the detail coefficients, we find extensive association between divergence and diversity, with additional and largely local influences of base composition, gene content, and recombination. <sentence_start/>These are likely to represent the influence of local GC content (e.g., CpG density), selective constraint, and recombination hotspots, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Recombination Hotspots Have No Direct Effect on Patterns of Human-Chimpanzee Divergence"
+  },
+  {
+   "section": "article",
+   "text": "Neutral explanations for a link between recombination and diversity, as is suggested by the very local nature of the association found in the analysis above, predict that if recombination influences diversity, it should also influence the rate of substitution [<citation rid=\"pgen-0020148-b006\" ref-type=\"bibr\" pmid=\"12740762\" doi=\"10.1086/375657\" pmcid=\"PMC1180312\" count=\"1\">6</citation>]. <sentence_start/>We therefore repeated the linear model analysis, but this time with divergence as the response variable and diversity as a predictor (Figure 4)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Marginal Significance (\u2212log<sub>10</sub> p-value as Determined by <italic>t-</italic>Test) of the Wavelet Coefficients from Four Annotations as Predictors of the Coefficients of the Decomposition of Human-Chimpanzee Divergence"
+  },
+  {
+   "section": "article",
+   "text": "Red boxes highlight significant positive linear relationships, and blue boxes, negative. <sentence_start/>The intensity of the colour is proportional to the degree of significance."
+  },
+  {
+   "section": "article",
+   "text": "(A) Smoothed coefficients."
+  },
+  {
+   "section": "article",
+   "text": "(B) Detail coefficients."
+  },
+  {
+   "section": "article",
+   "text": "As shown in Figure 4A, linear model analysis of the smoothed coefficients shows a strong positive relationship between recombination and divergence over scales of up to 128 kb. <sentence_start/>We also find strong associations between divergence and gene content, base composition, diversity read depth, and proximity to the centromere (on the long arm only). <sentence_start/>However, when we analyse the detail coefficients (Figure 4B), we find that read depth and gene content have significant negative effects, GC content and diversity have significant positive effects, but there is no consistent evidence for any effect of recombination. <sentence_start/>Indeed, the only suggestive relationships between divergence and recombination occur at broad scales (16, 128, and 256 kb)."
+  },
+  {
+   "section": "article",
+   "text": "Why should a factor show strong significant correlation in a linear model analysis of smoothed coefficients but not in the analysis of detail coefficients? There are three possibilities. <sentence_start/>First, the different approaches are likely to have different power to detect causal relationships. <sentence_start/>However, analysis of detail coefficients does detect significant associations when analysis of the smoothed coefficients does not, suggesting that power is not the primary difference. <sentence_start/>Furthermore, the significant effects in the detail analysis are at a broader scale, where we expect lower power (because there are fewer observations) than those in the smoothed analysis. <sentence_start/>Second, the different approaches will be differently susceptible to controlling for confounding third factors. <sentence_start/>That is, recombination and diversity could be linked through a third factor that is not included in the linear model. <sentence_start/>However, because the analysis of the detail coefficients is looking at how <italic>changes</italic> in one factor influence <italic>changes</italic> in another (effectively controlling for the background rate), rather than just whether the absolute levels are correlated, it is likely to be less susceptible to the identification of spurious correlations. <sentence_start/>Finally, there may be some biological reason for the discrepancy. <sentence_start/>For example, there is considerable evidence that humans and chimpanzees have very different recombination hotspots [<citation rid=\"pgen-0020148-b026\" ref-type=\"bibr\" pmid=\"15705809\" doi=\"10.1126/science.1105322\" count=\"1\">26</citation>,<citation rid=\"pgen-0020148-b027\" ref-type=\"bibr\" pmid=\"15723063\" doi=\"10.1038/ng1529\" count=\"1\">27</citation>,<citation rid=\"pgen-0020148-b029\" ref-type=\"bibr\" pmid=\"15208713\" doi=\"10.1371/journal.pbio.0020155\" pmcid=\"PMC423135\" count=\"1\">29</citation>,<citation rid=\"pgen-0020148-b030\" ref-type=\"bibr\" pmid=\"14628290\" doi=\"10.1086/380311\" pmcid=\"PMC1180398\" count=\"1\">30</citation>], indicating rapid evolution of the fine-scale structure of recombination rate variation. <sentence_start/>Consequently, a causal relationship between divergence and recombination could become \u201cblurred\u201d in a manner that means detail coefficient analysis can no longer identify the relationship, whereas smoothed coefficients can."
+  },
+  {
+   "section": "article",
+   "text": "Recombination Hotspots Have a Direct Effect on the Frequency Spectrum of Mutations"
+  },
+  {
+   "section": "article",
+   "text": "As suggested above, the very local nature of the association between recombination and diversity suggests a neutral explanation associated with recombination hotspots. <sentence_start/>Recombination could influence genetic variation directly; for example, DSBs both require DNA synthesis for repair (hence can potentially introduce copying errors) and may also expose DNA to cellular mutagens. <sentence_start/>Evidence for a mutagenic effect of recombination comes from both direct experiment [<citation rid=\"pgen-0020148-b031\" ref-type=\"bibr\" pmid=\"3040266\" doi=\"10.1016/0092-8674(87)90521-6\" count=\"1\">31</citation>-<citation rid=\"pgen-0020148-b034\" ref-type=\"bibr\" pmid=\"12727893\" doi=\"10.1093/emboj/cdg203\" pmcid=\"PMC156075\" count=\"1\">34</citation>] and analysis of rates of molecular evolution [<citation rid=\"pgen-0020148-b006\" ref-type=\"bibr\" pmid=\"12740762\" doi=\"10.1086/375657\" pmcid=\"PMC1180312\" count=\"1\">6</citation>,<citation rid=\"pgen-0020148-b009\" ref-type=\"bibr\" pmid=\"14660686\" doi=\"10.1093/molbev/msh032\" count=\"1\">9</citation>,<citation rid=\"pgen-0020148-b011\" ref-type=\"bibr\" pmid=\"12127766\" doi=\"10.1016/s0168-9525(02)02669-0\" count=\"1\">11</citation>,<citation rid=\"pgen-0020148-b035\" ref-type=\"bibr\" pmid=\"15496551\" doi=\"10.1093/molbev/msi025\" count=\"1\">35</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Alternatively, recombination can influence the fate of existing mutations; for example, allelic differences in the rate of DSB formation will effectively lead to meiotic drive against the more recombinogenic allele [<citation rid=\"pgen-0020148-b036\" ref-type=\"bibr\" pmid=\"12089523\" doi=\"10.1038/ng910\" count=\"1\">36</citation>], and heteroduplexes formed during DSB repair (the pairing of DNA strands from homologous chromosomes) can lead to DNA base mismatches at SNPs which may be repaired in a biased manner [<citation rid=\"pgen-0020148-b008\" ref-type=\"bibr\" doi=\"10.1098/rspb.1993.0071\" pmid=\"8394585\" count=\"1\">8</citation>,<citation rid=\"pgen-0020148-b032\" ref-type=\"bibr\" pmid=\"2842064\" doi=\"10.1016/s0092-8674(88)80015-1\" count=\"1\">32</citation>]. <sentence_start/>Biases toward GC substitutions in regions of high recombination [<citation rid=\"pgen-0020148-b037\" ref-type=\"bibr\" pmid=\"14963104\" doi=\"10.1093/molbev/msh070\" count=\"1\">37</citation>-<citation rid=\"pgen-0020148-b039\" ref-type=\"bibr\" pmid=\"12615004\" doi=\"10.1016/S0168-9525(03)00021-0\" count=\"1\">39</citation>] (particularly high male recombination [<citation rid=\"pgen-0020148-b040\" ref-type=\"bibr\" pmid=\"15772377\" doi=\"10.1093/molbev/msi136\" count=\"1\">40</citation>]) have been interpreted as evidence for the biased gene conversion (BGC) hypothesis, as has the tendency for AT\u2192GC mutations to segregate at higher frequencies than GC\u2192AT mutations [<citation rid=\"pgen-0020148-b041\" ref-type=\"bibr\" pmid=\"12524350\" doi=\"10.1093/genetics/162.4.1805\" pmcid=\"PMC1462390\" count=\"1\">41</citation>,<citation rid=\"pgen-0020148-b042\" ref-type=\"bibr\" pmid=\"16252238\" doi=\"10.1086/497579\" pmcid=\"PMC1271387\" count=\"1\">42</citation>]. <sentence_start/>Whether BGC could generate increased diversity in hotspots depends on the strength of the effect and the relative rate of appearance of GC\u2192AT and AT\u2192GC mutations [<citation rid=\"pgen-0020148-b043\" ref-type=\"bibr\" count=\"1\">43</citation>]. <sentence_start/>Finally, we should also consider the possibility that estimation of recombination rates from genetic variation will tend to lead to an association between hotspots and diversity because there will be little power in low diversity regions to detect hotspots."
+  },
+  {
+   "section": "article",
+   "text": "As described above, one approach to distinguishing between hypotheses is to consider the frequency spectrum of different types of mutations. <sentence_start/>Under the BGC model, we would expect AT\u2192GC mutations to segregate at higher frequencies than GC\u2192AT mutations [<citation rid=\"pgen-0020148-b041\" ref-type=\"bibr\" pmid=\"12524350\" doi=\"10.1093/genetics/162.4.1805\" pmcid=\"PMC1462390\" count=\"1\">41</citation>], because the dynamics of BGC are, under certain assumptions, identical to the dynamics of selected mutations [<citation rid=\"pgen-0020148-b044\" ref-type=\"bibr\" pmid=\"6578508\" doi=\"10.1073/pnas.80.20.6278\" pmcid=\"PMC394279\" count=\"1\">44</citation>]. <sentence_start/>In contrast, a directly mutagenic effect of recombination predicts no differences between the frequency spectra for the different mutations (or even an excess of rare AT\u2192GC mutations if hotspots and the mutations they induce are typically recent). <sentence_start/>To assess the influence of recombination on the frequency of different types of mutation, we used the chimpanzee sequence to estimate the ancestral allele for all the SNPs that had been genotyped and then considered the frequency spectrum of different classes of mutation in regions of very high and very low recombination (the top and bottom 10% of the empirical distribution, respectively)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5 shows quantile-quantile plots comparing the frequency of AT\u2192GC to GC\u2192AT mutations in regions of low and high recombination. <sentence_start/>In both cases we find that AT\u2192GC segregate, on average, at higher frequencies than GC\u2192AT mutations, but this effect is much stronger in regions of high recombination (<italic>p</italic> &lt; 0.001; Wilcoxon rank sum test). <sentence_start/>This result provides strong evidence for the BGC hypothesis; however, to provide a more quantitative assessment of the effects of BGC, we modified the parametric approach of [<citation rid=\"pgen-0020148-b045\" ref-type=\"bibr\" pmid=\"12468085\" doi=\"10.1016/s0378-1119(02)01040-5\" count=\"1\">45</citation>] (see Materials and Methods). <sentence_start/>The approach estimates the strength of BGC by fitting a population genetics model to the frequency distribution of SNPs from the African-American population (chosen because previous studies have suggested that African populations have patterns of genetic variation most compatible with a constant population size [<citation rid=\"pgen-0020148-b046\" ref-type=\"bibr\" pmid=\"11533915\" doi=\"10.1086/323612\" pmcid=\"PMC1226068\" count=\"1\">46</citation>]) in each quintile of recombination rate (Figures S2 and S3). <sentence_start/>For SNPs in low recombination regions, the population-scaled parameter for BGC is estimated to be about 0.5, compared to approximately 1.3 in regions of very high recombination. <sentence_start/>If the effective population size is 10,000 and the \u201caverage recombination hotspot\u201d recombines every 1,300 meioses [<citation rid=\"pgen-0020148-b047\" ref-type=\"bibr\" pmid=\"16254603\" doi=\"10.1371/journal.pgen.0010054\" pmcid=\"PMC1270010\" count=\"1\">47</citation>], the parameter estimates for the high recombination region equates to a bias of approximately 4% toward GC at GC:AT mismatches. <sentence_start/>Note, however, that the difference in average recombination rate between low and high recombination regions is several orders of magnitude. <sentence_start/>If biases toward GC were strictly crossover dependent, we would expect to see no bias in the allele-frequency spectrum in the low recombination regions. <sentence_start/>That we see such a bias indicates either very recent changes in the mutation process (i.e., a sudden increase in the relative rate of GC\u2192AT mutations) or unidentified base-composition biases in mutation detection."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Quantile-Quantile Plots Showing the Difference in Allele Frequency Spectrum for AT\u2192GC Mutations and GC\u2192AT Mutations in Regions of Low and High Recombination"
+  },
+  {
+   "section": "article",
+   "text": "If the two types of mutation were to have the same allele frequency distribution, we would expect to see a straight line. <sentence_start/>In both cases, AT\u2192GC mutations are typically at higher frequencies than GC\u2192AT mutations; however, the effect is more pronounced in regions of high recombination [(A), low recombination; (B), high recombination]. <sentence_start/>A quantification of the difference can be found in the text and supporting material."
+  },
+  {
+   "section": "article",
+   "text": "Recombination Hotspots Are Associated with Local Increases in GC Content"
+  },
+  {
+   "section": "article",
+   "text": "To quantify the local effects of recombination hotspots on diversity and other factors we identified regions with very elevated recombination rate (at least 5-fold elevation over the chromosome-wide average) and plotted the average value of diversity, divergence, and base composition as a function of distance from the midpoint of such regions (Figure 6). <sentence_start/>Figure 6B shows an elevation in diversity of 6% to 7% associated with close proximity (within 10 kb) to the hotspot centre (interestingly, this seems more pronounced to the side of the hotspot rather than directly at its centre). <sentence_start/>Figure 6C shows, as described above, that there is no local increase in substitution rate associated with proximity to recombination hotspots. <sentence_start/>However, Figure 6D shows that there is a small, but repeatable increase in GC content (1% to 2%) that is again highly localised to recombination hotspots."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Effects of Recombination Hotspots on Genomic Features"
+  },
+  {
+   "section": "article",
+   "text": "(A) The elevation of relative recombination rate around defined hotspots on the short (blue) and long (red) arms of Chromosome 20."
+  },
+  {
+   "section": "article",
+   "text": "(B) Elevation of relative diversity around hotspots (the black line is a smoothed average of the two arms)."
+  },
+  {
+   "section": "article",
+   "text": "(C) There is no effect of hotspots on relative divergence."
+  },
+  {
+   "section": "article",
+   "text": "(D) Hotspots are associated with local increases in relative GC content. <sentence_start/>Note that a relative scale was used because the long and short arms can have systematic differences in absolute value."
+  },
+  {
+   "section": "article",
+   "text": "There are two possible explanations for the local association between recombination and GC content. <sentence_start/>Either GC-rich regions promote the occurrence of hotspots, as has been suggested in yeast [<citation rid=\"pgen-0020148-b048\" ref-type=\"bibr\" pmid=\"11027339\" doi=\"10.1073/pnas.97.21.11383\" pmcid=\"PMC17209\" count=\"1\">48</citation>], or hotspots, through BGC or biased mutation, cause the accumulation of GC increasing mutations. <sentence_start/>However, as discussed above, the latter explanation seems unlikely, because hotspots appear to evolve too fast to have lasting effects on base composition. <sentence_start/>Therefore, it seems most likely that hotspots preferentially occur in locally GC-rich regions. <sentence_start/>It also seems unlikely that the local association between recombination and diversity is due to the higher mutability of GC-rich regions, in particular, CpG dinucleotides [<citation rid=\"pgen-0020148-b007\" ref-type=\"bibr\" pmid=\"10978293\" doi=\"10.1093/genetics/156.1.297\" pmcid=\"PMC1461236\" count=\"1\">7</citation>], because we would also expect to see a locally increased rate of substitution. <sentence_start/>The data are, however, compatible with a model in which recombination is mutagenic, BGC acts on polymorphism within hotspots, and hotspots evolve rapidly."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Our primary conclusion is that while recombination exerts a local and direct influence on genetic variation, other factors such as base composition variation underlie the previously described broad-scale correlations between recombination and diversity in humans. <sentence_start/>Consequently, there is no need to invoke indirect effects of natural selection (such as hitch-hiking and background selection) to explain the observed correlations. <sentence_start/>This is not to say that adaptive evolution does not occur, merely that estimates of the frequency of selective sweeps or the strength of background selection [<citation rid=\"pgen-0020148-b049\" ref-type=\"bibr\" pmid=\"16140989\" doi=\"10.1101/gr.3413205\" pmcid=\"PMC1199535\" count=\"1\">49</citation>] must take into account correlations between recombination and diversity arising from nonselective processes. <sentence_start/>As is clear from Figure 4, using divergence to control for variation in the neutral rate does not fully account for variation in levels of diversity."
+  },
+  {
+   "section": "article",
+   "text": "Does BGC Drive Base Composition Evolution?"
+  },
+  {
+   "section": "article",
+   "text": "While the evidence presented suggests the action of BGC, and we find evidence of very local increases in GC content around recombination hotspots, we do not believe that BGC is sufficient to drive the evolution of base composition. <sentence_start/>First, most recombination occurs in short hotspots that across the genome occupy at most 100 Mb (50,000 hotspots of 2-kb width) [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>], or 3% of the genome [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>]. <sentence_start/>Because BGC is intimately linked to the formation of meiotic DSBs, it will only be a strong enough force to shape base composition evolution in recombination hotspots. <sentence_start/>Second, even in regions of high recombination we estimate that the effects of BGC are equivalent to an advantageous mutation with population-scaled selection coefficient of only 1.3, when a value of 1 is usually regarded as the boundary of neutrality [<citation rid=\"pgen-0020148-b050\" ref-type=\"bibr\" count=\"1\">50</citation>]. <sentence_start/>Third, the rapid evolution of recombination hotspots strongly limits the local effects of BGC on base composition. <sentence_start/>Combined, these factors suggest that BGC is unlikely to have a strong effect on base composition evolution, though possible factors that could increase its power include a high rate of DSBs that resolve as gene conversion events rather than crossing-over events [<citation rid=\"pgen-0020148-b051\" ref-type=\"bibr\" pmid=\"14704667\" doi=\"10.1038/ng1287\" count=\"1\">51</citation>] and constraints in recombination rate over larger scales [<citation rid=\"pgen-0020148-b014\" ref-type=\"bibr\" pmid=\"16224025\" doi=\"10.1126/science.1117196\" count=\"1\">14</citation>] that will target \u201cevolving\u201d hotspots to particular genomic regions."
+  },
+  {
+   "section": "article",
+   "text": "In short, while there is a strong relationship between recombination and GC content, most of the relationship is explained by scales broader than recombination hotspots (16 to 256 kb; unpublished data) and may well result from interactions of both factors with additional processes such as chromatin organisation or replication timing. <sentence_start/>Similar arguments apply to the question of whether a GC bias in recombination-associated mutation can explain the relationship between GC content and recombination."
+  },
+  {
+   "section": "article",
+   "text": "Another important question is whether, under a plausible range of mutation biases and effective-selection coefficients, we really should not expect to see a local relationship between recombination and divergence under the BGC model given that we see one between recombination and diversity. <sentence_start/>As indicated above, it is possible that local recombination rates may evolve too fast to have any detectable influence on substitution rates [<citation rid=\"pgen-0020148-b010\" ref-type=\"bibr\" pmid=\"16140990\" doi=\"10.1101/gr.3461105\" pmcid=\"PMC1199536\" count=\"1\">10</citation>]. <sentence_start/>Furthermore, even if recombination rates were stable, population genetics models [<citation rid=\"pgen-0020148-b043\" ref-type=\"bibr\" count=\"1\">43</citation>] predict that increases in levels of diversity that arise from selection counteracting mutation bias are proportionally much stronger than any increase in the total rate of divergence. <sentence_start/>Nevertheless, we might expect to see local changes in the relative substitution rates of GC-increasing and GC-decreasing substitutions at recombination hotspots. <sentence_start/>Without an outgroup sequence it is not possible to determine the ancestral state of the fixed human-chimpanzee differences observed here. <sentence_start/>However, when such sequence becomes available over large regions of the genome, the prediction of the BGC model is a local excess of fixed AT\u2192GC mutations (relative to GC\u2192AT ones) in hotspots."
+  },
+  {
+   "section": "article",
+   "text": "Using Genome-Wide Surveys to Assess Evolutionary Hypotheses"
+  },
+  {
+   "section": "article",
+   "text": "We have shown that wavelet-based methods provide a powerful way of analysing scale-specific patterns in the human genome, capable of revealing novel patterns. <sentence_start/>While previous applications of wavelets in genomics [<citation rid=\"pgen-0020148-b052\" ref-type=\"bibr\" pmid=\"10628997\" doi=\"10.1093/genetics/154.1.381\" pmcid=\"PMC1460898\" count=\"1\">52</citation>,<citation rid=\"pgen-0020148-b053\" ref-type=\"bibr\" pmid=\"11120683\" doi=\"10.1093/bioinformatics/16.10.932\" count=\"1\">53</citation>] have typically considered single features, a particularly powerful use of these tools is in linear modeling, asking questions about which factors are directly correlated. <sentence_start/>Furthermore, wavelet techniques provide a natural approach to combining genomic information from multiple sources, including the raw sequence, analysis of molecular diversity and divergence, and functional annotation."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Genome annotations."
+  },
+  {
+   "section": "article",
+   "text": "The location of exons and variation in base composition were obtained from the finished and annotated chromosome sequence (build 34; exon locations from Ensembl: ). <sentence_start/>Divergence was assessed from alignments of the human and chimpanzee sequences (available from UCSC: ), while diversity was assessed from multiple shotgun sequencing (SNP-discovery) projects of individuals from diverse geographic populations (see Text S1 for details). <sentence_start/>Genetic diversity was estimated from the average pairwise differences per site between aligned reads that mapped to the given window. <sentence_start/>Although average pairwise differences should provide an unbiased estimate of the population genetics parameter \u03b8 = 4<italic>N<sub>e</sub>u</italic> (where <italic>N<sub>e</sub></italic> is the effective population size and <italic>u</italic> is the mutation rate per site per generation), systematic biases in sampling (for example, different samples from different populations being sequenced to different average depths) could result in a systematic association between read depth and diversity; we therefore included read depth as a covariate in all analyses. <sentence_start/>The fine-scale pattern of recombination rate variation along the chromosome was estimated from a dense genotyping survey of approximately 30,000 SNPs from individuals in three populations (96 UK Caucasians, 97 African-Americans, and 42 Asians) using a previously described coalescent-based method [<citation rid=\"pgen-0020148-b019\" ref-type=\"bibr\" pmid=\"15105499\" doi=\"10.1126/science.1092500\" count=\"1\">19</citation>]. <sentence_start/>Recombination rates were estimated separately in each population, and the normalised genetic maps were averaged to provide a single genetic map. <sentence_start/>A gzipped, comma-delimited text file containing the features analysed in 1-kb windows is available as part of the supporting online material (Dataset S1)."
+  },
+  {
+   "section": "article",
+   "text": "Wavelet analysis."
+  },
+  {
+   "section": "article",
+   "text": "All genomic features were calculated for windows of 1 kb along the 62-Mb chromosome (excluding centromeric and heterochromatic regions). <sentence_start/>For each signal, we applied a discrete wavelet transformation (using the Haar base function; similar results were obtained with other wavelet bases), providing information on heterogeneity in each signal at scales of 1 kb to 16 Mb (in powers of 2). <sentence_start/>For replication, we analysed largest possible subsets of the short and long arms separately (16.4 Mb and 32.8 Mb, respectively). <sentence_start/>At such high resolution, the number of SNPs or substitutions is likely to have a considerable stochastic element. <sentence_start/>However, while sampling noise will reduce the variance we can explain through linear modeling, working at the fine-scale allows us to detect very local interactions such as may be important for detecting the effects of recombination hotspots or constraint. <sentence_start/>Furthermore, smoothing detail to coarser scales is equivalent to ignoring the fine-scale wavelet coefficients; hence, it is possible to reconstruct the variance in signal explained at any smoothed scale. <sentence_start/>Pairwise correlations between wavelet coefficients at each scale were calculated using Kendall's rank correlation, while linear model analysis was carried out at each level with the intercept forced through the origin. <sentence_start/>Scripts for wavelet analysis using packages within the R statistical computing language are available as part of the supporting material (Dataset S2)."
+  },
+  {
+   "section": "article",
+   "text": "Frequency spectrum analysis."
+  },
+  {
+   "section": "article",
+   "text": "The ancestral state of SNPs was inferred by parsimony from the human-chimpanzee alignments. <sentence_start/>Where no orthologous chimpanzee sequence was available, or the chimpanzee allele did not match either human allele, the SNP was excluded from further analysis. <sentence_start/>The parametric analysis of allele frequency was similar to that of [<citation rid=\"pgen-0020148-b045\" ref-type=\"bibr\" pmid=\"12468085\" doi=\"10.1016/s0378-1119(02)01040-5\" count=\"1\">45</citation>]. <sentence_start/>Briefly, the method of [<citation rid=\"pgen-0020148-b054\" ref-type=\"bibr\" pmid=\"1459433\" doi=\"10.1093/genetics/132.4.1161\" pmcid=\"PMC1205236\" count=\"1\">54</citation>] is adapted to account for SNP ascertainment bias, which we model as a Poisson distribution for read depth (trimmed between values of 4 and 20) and the double-hit requirement such that each SNP has to be seen at least twice. <sentence_start/>To assess how well the model fits, we first estimated (by maximum likelihood, assuming all SNPs have the same BGC value) the average read depth and strength of gene conversion (<italic>G</italic> = 4<italic>N<sub>e</sub>ct</italic>, where <italic>N<sub>e</sub></italic> is the effective population size, <italic>c</italic> is the per-site rate of initiation of gene conversion, and <italic>t</italic> is the average tract length) for GC\u2192GC, GC\u2192AT, AT\u2192AT, and AT\u2192GC mutations separately (Figure S2). <sentence_start/>We estimate that that <italic>G</italic> <sub>GC\u2192AT</sub> is significantly less than zero, that <italic>G</italic> <sub>AT\u2192AT</sub> and <italic>G</italic> <sub>GC\u2192GC</sub> are not significantly different from zero, and that <italic>G</italic> <sub>AT\u2192GC</sub> is significantly greater than zero. <sentence_start/>Comparison of the predicted frequency distribution to that observed (by visual inspection and binomial tests of the counts of alleles at each frequency) indicates that the model is a reasonable fit. <sentence_start/>We then fit a model in which <italic>G</italic> <sub>GC\u2192AT</sub> = \u2212<italic>G</italic> <sub>AT\u2192GC</sub>, dividing SNPs into quintiles of recombination rate. <sentence_start/>Estimated rates, with and without the exclusion of potential CpG mutations, are shown in Figure S3. <sentence_start/>We do not find that the exclusion of potential CpG mutations has a large or systematic effect on the estimated <italic>G</italic> parameter."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Dataset S1"
+  },
+  {
+   "section": "article",
+   "text": "Data Used in the Wavelet Analysis"
+  },
+  {
+   "section": "article",
+   "text": "A gzipped, comma-delimited file containing details of SNP discovery and other chromosomal features in 1-kb windows along human Chromosome 20 in build 34 coordinates (hg16). <sentence_start/>Columns are window start (bp), window end (bp), number of SNPs called across window (NB, this includes redundant calls), total bases sequenced that map to window, average read depth within window, number of unique SNPs (i.e., nonredundant set), number of \u201cdouble-hit\u201d SNPs (where both alleles have been observed two or more times), number of non-N bases in the reference sequence in the window, estimate of theta, estimate of Pi, estimate of heterozygosity, percent GC, recombination fraction for window (cM), percent sequence identity between human and chimpanzee (panTro1), number of bases in window identified as being in an exon, and number of SNPs typed in genotyping study within window."
+  },
+  {
+   "section": "article",
+   "text": "(1.8 MB TXT)"
+  },
+  {
+   "section": "article",
+   "text": "Dataset S2"
+  },
+  {
+   "section": "article",
+   "text": "R-scripts for Performing Wavelet Analyses Presented in the Paper"
+  },
+  {
+   "section": "article",
+   "text": "The scripts can be used to generate some of the figures in the paper by saving both the unzipped Dataset S1 file (saved as \u201cChr20_1kb.csv\u201d) and the Dataset S2 file (saved as \u201cPLoS_code.r\u201d) in the same folder. <sentence_start/>After starting the R program, change directory to that in which the files were saved and type source (\u201cPLoS_code.r\u201d) at the prompt. <sentence_start/>The functions in the scripts, however, can be used on any dataset of 2<italic><sup>k</sup></italic> observations. <sentence_start/>This code is powered by existing R language libraries and should be used simply as an exposition of wavelet analysis."
+  },
+  {
+   "section": "article",
+   "text": "(15 KB TXT)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "Power Spectra and Pairwise Correlations of Smoothed Wavelet Coefficients"
+  },
+  {
+   "section": "article",
+   "text": "Diagonal plots show the power spectrum of the wavelet decomposition of each factor on the long (red) and short (blue) arms of Chromosome 20. <sentence_start/>Off-diagonal plots show the rank correlation coefficient between pairs of smoothed wavelet coefficients at each scale on the long (top right) and short (bottom left) arms. <sentence_start/>Red crosses indicate significant correlations (<italic>p</italic>-value &lt;0.01; Kendall's rank correlation). <sentence_start/>Scale is shown in kilobases."
+  },
+  {
+   "section": "article",
+   "text": "(303 KB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "Estimates of the Strength of Gene Conversion from Allele Frequency Distributions"
+  },
+  {
+   "section": "article",
+   "text": "Mutations were classified into four categories (GC\u2192GC, GC\u2192AT, AT\u2192AT, and AT\u2192GC on the basis of comparison of the human alleles with that of the Chimpanzee reference sequence). <sentence_start/>For each class we calculated the likelihood for a grid of values of the strength of gene conversion (the parameter <italic>G</italic> = 4<italic>N<sub>e</sub>ct</italic>) and average read depth in the SNP ascertainment panel (modeled as a trimmed Poisson distribution). <sentence_start/>The heat chart represents the likelihood surface (white is the highest likelihood), with the cross-hair showing the joint maximum likelihood estimates and the red points showing the marginal maximum likelihood estimates for <italic>G</italic> conditioning on values of average read depth. <sentence_start/>Contour rings marks the estimated confidence intervals (calculated by assuming twice the difference in log likelihood between models is approximately \u03c7<sup>2</sup> distributed with 2 degrees of freedom) for <italic>p</italic>-values of 0.05, (solid line), 0.01, 0.001, and 0.0001, respectively."
+  },
+  {
+   "section": "article",
+   "text": "(256 KB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S3"
+  },
+  {
+   "section": "article",
+   "text": "Maximum Likelihood Estimates of the Strength of Gene Conversion (<italic>G</italic> = 4<italic>N<sub>e</sub>ct</italic>) from SNPs in the African-American Population Sample for Each Quintile of the Recombination Rate In this analysis we assume that <italic>G</italic> <sub>AT\u2192GC</sub> = \u2212<italic>G</italic> <sub>GC\u2192AT</sub>. <sentence_start/>Estimates are shown both including (A) and excluding (B) potential CpG mutations. <sentence_start/>Also shown are estimates of <italic>G</italic> for SNPs in quintiles of GC content [(C) note that recombination and GC content are strongly correlated]. <sentence_start/>Solid and dashed lines indicate maximum likelihood estimates and maximum likelihood estimates conditional on a mean read depth of 13, respectively (these are largely identical)."
+  },
+  {
+   "section": "article",
+   "text": "(175 KB PDF)"
+  },
+  {
+   "section": "article",
+   "text": "Text S1"
+  },
+  {
+   "section": "article",
+   "text": "SNP Discovery and Estimation of Diversity"
+  },
+  {
+   "section": "article",
+   "text": "(32 KB DOC)"
+  },
+  {
+   "section": "article",
+   "text": "Text S2"
+  },
+  {
+   "section": "article",
+   "text": "Note on the Relationship between Correlation Coefficients for Raw and Wavelet-Transformed Signals"
+  },
+  {
+   "section": "article",
+   "text": "(48 KB DOC)"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing interests.</bold> <sentence_start/>The authors have declared that no competing interests exist."
+  },
+  {
+   "section": "back",
+   "text": "A previous version of this article appeared as an Early Online Release on July 31, 2006 (DOI: )."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Author contributions.</bold> <sentence_start/>SM, P. Donnelly, DB, and GM conceived and designed the experiments. <sentence_start/>P. Deloukas, SH, and JM performed the experiments. <sentence_start/>CCAS, JM, SM, and GM analyzed the data. <sentence_start/>P. Deloukas, SH, BS, and DB contributed reagents/materials/analysis tools. <sentence_start/>DB and GM jointly supervised the project. <sentence_start/>CCAS and GM wrote the paper."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding.</bold> <sentence_start/>CCAS was funded by a Biotechnology and Biological Sciences Research Council studentship to GM, SM was funded by the Nuffield Trust, JM is funded by National Human Genome Research Institute , and P. Deloukas, SH, and DB were funded by the Wellcome Trust."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "BGC"
+  },
+  {
+   "section": "back",
+   "text": "biased gene conversion"
+  },
+  {
+   "section": "back",
+   "text": "DSB"
+  },
+  {
+   "section": "back",
+   "text": "double-strand break"
+  },
+  {
+   "section": "back",
+   "text": "SNP"
+  },
+  {
+   "section": "back",
+   "text": "single nucleotide polymorphism"
+  }
+ ]
+}

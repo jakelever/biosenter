@@ -1,0 +1,47 @@
+{
+ "pmid": null,
+ "pmcid": 3494496,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Development of dynamical weather-disease models to project and forecast malaria in Africa"
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Weather and climate play an important role in the spread of malaria. <sentence_start/>Suitable weather conditions for malaria are found in sub-Saharan Africa, where most of the worldwide malaria cases and deaths are found. <sentence_start/>For this reason, integrated weather-disease malaria models are useful tools to project the malaria future and to provide monthly-to-seasonal forecasts."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Malaria projections and forecasts are undertaken by two dynamical mathematical-biological malaria models: (i) the LMM (Liverpool Malaria Model) [<citation ref-type=\"bibr\" rid=\"B1\" doi=\"10.1186/1475-2875-3-32\" pmid=\"15350206\" pmcid=\"PMC520827\" count=\"1\">1</citation>-<citation ref-type=\"bibr\" rid=\"B3\" doi=\"10.1186/1475-2875-10-62\" pmid=\"21410939\" pmcid=\"PMC3070689\" count=\"1\">3</citation>] and (ii) VECTRI (VECtor-borne disease community model of the International Centre for Theoretical Physics, TRIeste). <sentence_start/>Both models are driven by daily temperature and precipitation values. <sentence_start/>An improved version of the LMM was introduced by [<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1186/1475-2875-10-35\" pmid=\"21314922\" pmcid=\"PMC3055220\" count=\"1\">2</citation>], which was calibrated by malaria field observations from West Africa [<citation ref-type=\"bibr\" rid=\"B3\" doi=\"10.1186/1475-2875-10-62\" pmid=\"21410939\" pmcid=\"PMC3070689\" count=\"1\">3</citation>]. <sentence_start/>Regarding the assessment of the impact of climate change on malaria [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"21900078\" doi=\"10.1289/ehp.1103681\" pmcid=\"PMC3261943\" count=\"1\">4</citation>], the LMM was driven by data from the REgional MOdel (REMO) including the effect of land surface changes."
+  },
+  {
+   "section": "article",
+   "text": "For the QWeCI (Quantifying Weather and Climate Impacts on health in developing countries) project, a seamless weather prediction system has been developed at ECMWF by appending the first 25 days of the monthly forecasting system with the Seasonal Forecasting System 4 to provide a continuous 120 day lead time prediction. <sentence_start/>The forecast is calibrated to correct for displacement errors of West African monsoonal precipitation."
+  },
+  {
+   "section": "article",
+   "text": "Results and outlook"
+  },
+  {
+   "section": "article",
+   "text": "The malaria projections up to 2050 [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"21900078\" doi=\"10.1289/ehp.1103681\" pmcid=\"PMC3261943\" count=\"1\">4</citation>] based on the integrated REMO-LMM reveal a southward shift of the epidemic malaria area in West Africa due to the precipitation decline. <sentence_start/>The increased temperatures lead to an increase of transmission in highland territories. <sentence_start/>Formerly, malaria free areas become epidemic, whereas the epidemic risk is decreased in lower-altitude regions."
+  },
+  {
+   "section": "article",
+   "text": "Actual research within the EU Seventh Framework Programme (FP7) QWeCI and HEALTHY FUTURES projects is underway to exploit the feasibility of monthly-to-seasonal malaria forecasts. <sentence_start/>QWeCI is currently developing prototype seamless malaria forecasts for Malawi ( )."
+  },
+  {
+   "section": "article",
+   "text": "The LMM and VECTRI neglect various important malaria factors like immunity, malaria control activities, or different vector characteristics. <sentence_start/>Further development of VECTRI will be undertaken to include other relevant malaria factors. <sentence_start/>Note that VECTRI represents a community model meaning that the model and code is publicly available ( ). <sentence_start/>The LMM is included in the so-called Disease Model Cradle (DMC) that is downloadable ( ). <sentence_start/>Open-access web versions of both models are applicable for point data (see )."
+  }
+ ]
+}

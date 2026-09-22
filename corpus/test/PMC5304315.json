@@ -1,0 +1,347 @@
+{
+ "pmid": 28250765,
+ "pmcid": 5304315,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A Novel Ensemble Method for Imbalanced Data Learning: Bagging of Extrapolation-SMOTE SVM"
+  },
+  {
+   "section": "abstract",
+   "text": "Class imbalance ubiquitously exists in real life, which has attracted much interest from various domains. <sentence_start/>Direct learning from imbalanced dataset may pose unsatisfying results overfocusing on the accuracy of identification and deriving a suboptimal model. <sentence_start/>Various methodologies have been developed in tackling this problem including sampling, cost-sensitive, and other hybrid ones. <sentence_start/>However, the samples near the decision boundary which contain more discriminative information should be valued and the skew of the boundary would be corrected by constructing synthetic samples. <sentence_start/>Inspired by the truth and sense of geometry, we designed a new synthetic minority oversampling technique to incorporate the borderline information. <sentence_start/>What is more, ensemble model always tends to capture more complicated and robust decision boundary in practice. <sentence_start/>Taking these factors into considerations, a novel ensemble method, called Bagging of Extrapolation Borderline-SMOTE SVM (BEBS), has been proposed in dealing with imbalanced data learning (IDL) problems. <sentence_start/>Experiments on open access datasets showed significant superior performance using our model and a persuasive and intuitive explanation behind the method was illustrated. <sentence_start/>As far as we know, this is the first model combining ensemble of SVMs with borderline information for solving such condition."
+  },
+  {
+   "section": "article",
+   "text": "1. Introduction"
+  },
+  {
+   "section": "article",
+   "text": "In the domain of machine learning, data is essential for the model's training. <sentence_start/>However, the distribution of two classes behaves in extremely imbalanced way and the circumstance is quite ubiquitous in real life [<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1109/tkde.2008.239\" other=\"2-s2.0-68549133155\" count=\"1\">1</citation>]. <sentence_start/>In this paper, we concentrate on the binary classification problems when there is extremely imbalanced distribution in two classes; that is, one class for training severely outnumbers the other."
+  },
+  {
+   "section": "article",
+   "text": "With the neglect of the class imbalanced distribution, traditional algorithms for binary classification tend to perform badly on the dataset [<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1111/j.0824-7935.2004.t01-1-00228.x\" other=\"MR2056198\" count=\"1\">2</citation>, <citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>], leading to the unsatisfied suboptimal result [<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1145/1007730.1007733\" count=\"1\">4</citation>-<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1002/9781118646106.ch5\" count=\"1\">7</citation>] that the majority class can be well identified while the minority is reverse. <sentence_start/>One of the reasons accounting for this is that the imbalanced distribution as prior information in many instances has a strong impact on final discrimination [<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1016/j.ins.2013.07.007\" other=\"2-s2.0-84883447718\" count=\"1\">8</citation>]. <sentence_start/>Now let us consider a special scenario in which the majority class amounts to the percentage of 99. <sentence_start/>In such case, an ordinary classifier that assigns any example to the majority class label would still achieve the accuracy of 99% [<citation rid=\"B9\" ref-type=\"bibr\" count=\"1\">9</citation>]. <sentence_start/>However, due to the low recall ratio for the minority, such extreme result is not what we have desired. <sentence_start/>The phenomena are quite crucial and nontrivial in several circumstances, such as identification of network intrusion [<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1109/nafips.2007.383813\" other=\"2-s2.0-35148838577\" count=\"1\">10</citation>, <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1109/icmlc.2008.4620568\" other=\"2-s2.0-57849104495\" count=\"1\">11</citation>], medical diagnosis of type 2 diabetes [<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1109/iccke.2015.7365820\" other=\"2-s2.0-84964490188\" count=\"1\">12</citation>], oil spills detection from satellite radar images [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1023/A:1007452223027\" other=\"2-s2.0-0031998121\" count=\"1\">13</citation>], finding of financial fraud transactions [<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1023/A:1009700419189\" other=\"2-s2.0-0013113240\" count=\"1\">14</citation>], and bioinformatics [<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1016/j.knosys.2015.05.027\" other=\"2-s2.0-84930813077\" count=\"1\">15</citation>]. <sentence_start/>Another fact which cannot be neglected is that in most of the binary classification problems, the minority class is what we really care about rather than the majority [<citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>], especially when the cost is expensive for the failure in recognizing the minority ones."
+  },
+  {
+   "section": "article",
+   "text": "Numbers of algorithms have been designed for relieving the consequences of the imbalanced data. <sentence_start/>From the perspective of the strategy, these methods can be categorized as three mainstream types. <sentence_start/>In the algorithm level, the adjustment of the weights of errors in the loss function, also called cost-sensitive learning, is a direct way to reduce the impact of imbalance. <sentence_start/>Cost matrix which measures different penalties for misclassification is critical for the improvement on the performance. <sentence_start/>Another way to tune the penalties was rooted in adaptive boosting [<citation rid=\"B16\" ref-type=\"bibr\" other=\"2-s2.0-84983110889\" count=\"1\">16</citation>] and some algorithms, for example, Ada-cost [<citation rid=\"B17\" ref-type=\"bibr\" count=\"1\">17</citation>] and cost-sensitive boosting [<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1109/TPAMI.2010.71\" other=\"2-s2.0-78650516510\" pmid=\"21193808\" count=\"1\">18</citation>], were implemented for the learning task. <sentence_start/>In the sampling level, the easiest way is to randomly sample the training data from the whole training dataset in the way that different classes of data are sampled in appropriate ratios to balance the proportions in classes. <sentence_start/>Random sampling tended to be overfitting if the sampling ratios were not properly modulated [<citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>]. <sentence_start/>Repeated sampling was easier to implement but hard to adjust efficiently, so Provost [<citation rid=\"B9\" ref-type=\"bibr\" count=\"1\">9</citation>] thought undersampling was proper for the larger training dataset while the synthetic samples were constructed for the less sample cases. <sentence_start/>Estabrooks et al. [<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1111/j.0824-7935.2004.t01-1-00228.x\" other=\"MR2056198\" count=\"1\">2</citation>] combined different repeated sampling methods to offer a better scheme of modulation. <sentence_start/>Another popular method was the synthetic minority oversampling technique (SMOTE) proposed by Chawla et al. [<citation rid=\"B19\" ref-type=\"bibr\" other=\"2-s2.0-0346586663\" count=\"1\">19</citation>] and the core idea was to construct the synthetic minority samples through the interpolation between minority training data and its <italic>k</italic>-nearest neighborhoods. <sentence_start/>Han et al. [<citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>] paid more attention to the samples near the decision borderline and combined the SMOTE to acquire the Borderline-SMOTE. <sentence_start/>Apart from the above sampling methods, clustering-based resampling algorithm [<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1145/1007730.1007737\" count=\"1\">20</citation>] and SMOTE-Boost algorithm [<citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1007/978-3-540-39804-2_12\" count=\"1\">21</citation>] were also designed for the imbalanced cases. <sentence_start/>Furthermore, fewer researchers focused on how the sampling methodologies impact on the learning performance but the reason why sampling methods boost the linear discriminative performance was given by Xue and Hall [<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1109/TPAMI.2014.2359660\" other=\"2-s2.0-84926431649\" pmid=\"26353332\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In addition to the algorithm and sampling based methods, other researchers proposed several practical and popular methods with excellent performance from the hybrid view. <sentence_start/>With the help of SMOTE on the boundary samples and the adjustment of kernel matrix, Wu and Chang [<citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1109/tkde.2005.95\" other=\"2-s2.0-20844441675\" count=\"1\">22</citation>] integrated the prior information of distribution of imbalance with SVM to obtain the kernel boundary alignment algorithm. <sentence_start/>Chawla et al. [<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1145/1007730.1007733\" count=\"1\">4</citation>] noticed the great influence of feature selection and Maldonado et al. [<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1016/j.ins.2014.07.015\" other=\"2-s2.0-84906691312\" count=\"1\">23</citation>] did some research on various ways of feature selection and put forward backward elimination feature selection process for SVM's dealing with the IDL problem. <sentence_start/>Two-stage cost-sensitive learning was employed in the NASA imbalanced data and the researcher designed cost-sensitive rules for both feature selection and the classification stage [<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1109/TR.2014.2316951\" other=\"2-s2.0-84902073766\" count=\"1\">24</citation>]. <sentence_start/>Rather than former over- or undersampling methods, Sun et al. [<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1016/j.patcog.2014.11.014\" other=\"2-s2.0-84921817000\" count=\"1\">25</citation>] utilized random partition and clustering tricks to obtain some balanced datasets for training various classifiers and combined them according to some rules. <sentence_start/>Bhowan et al. made use of genetic programming to construct types of fitness functions and exploit the multiobjective optimization for combining the classifiers [<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1109/TSMCB.2011.2167144\" other=\"2-s2.0-84859001991\" pmid=\"21954215\" count=\"1\">5</citation>]. <sentence_start/>Easy ensemble and balance cascade [<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1109/TSMCB.2008.2007853\" other=\"2-s2.0-64049108468\" pmid=\"19095540\" count=\"1\">26</citation>] were two superior algorithms, which made use of ensemble models learned in an undersampling way."
+  },
+  {
+   "section": "article",
+   "text": "Quite different from the above-mentioned methods, we would propose a novel ensemble algorithm, in which an efficient sampling method was developed for IDL problems. <sentence_start/>Necessarily, similar works are summarized as follows. <sentence_start/>In the preprocessing process, Batuwita and Palade [<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1109/ijcnn.2010.5596787\" other=\"2-s2.0-79959457434\" count=\"1\">27</citation>] screened some informative examples closer to the class boundary captured by SVM and downscaled the resampling of other samples to reduce the time complexity of training SVM with performance maintained. <sentence_start/>For the binary imbalanced data, Wu and Chang implemented boundary alignments using kernel tricks to relieve the offset of decision boundary [<citation rid=\"B28\" ref-type=\"bibr\" count=\"1\">28</citation>]. <sentence_start/>From the perspective of ensemble, there exist several elaborate reviews about ensemble models for the IDL [<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1016/j.ins.2013.07.007\" other=\"2-s2.0-84883447718\" count=\"1\">8</citation>, <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1109/tsmcc.2011.2161285\" other=\"2-s2.0-84862515469\" count=\"1\">29</citation>]. <sentence_start/>Specifically, L\u00f3pez et al. [<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1016/j.ins.2013.07.007\" other=\"2-s2.0-84883447718\" count=\"1\">8</citation>] studied how six significant problems relating to the data intrinsic characteristics affected the performance of ensemble models for the IDL. <sentence_start/>Several superior ensemble models are based on boosting, such as EUSBoost [<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1016/j.patcog.2013.05.006\" other=\"2-s2.0-84881072864\" count=\"1\">30</citation>], evolutionary undersampling boosting model in dealing with breast cancer malignancy classification [<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.asoc.2015.08.060\" other=\"2-s2.0-84946594569\" count=\"1\">31</citation>]. <sentence_start/>Shi et al. made use of bagging technique on SVM to cope with P300 detection problem [<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1109/ijcnn.2015.7280834\" other=\"2-s2.0-84951155154\" count=\"1\">32</citation>]. <sentence_start/>Our proposed framework also made use of those samples near the decision boundary detected by the SVM but in a more flexible way of sampling. <sentence_start/>We applied bagging technique to meta-SVM trained with data obtained from the sampling process. <sentence_start/>The final results show our model's effectiveness in dealing with the IDL problem."
+  },
+  {
+   "section": "article",
+   "text": "2. Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Before our framework was introduced, some basic knowledge about models or techniques would be in a brief summary. <sentence_start/>In our framework, SVM works as metaclassifiers for ensemble and bootstrapping aggregation is a type of sampling technique to obtain various training dataset. <sentence_start/>Besides, we would illustrate SMOTE in a comprehensive way and induce our adaptive SMOTE technique. <sentence_start/>Flow chart about our framework is given in Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "2.1. Support Vector Machine: A Review"
+  },
+  {
+   "section": "article",
+   "text": "Support vector machine as one of the popular classifiers in binary classification has shown its state of art performance in engineering applications."
+  },
+  {
+   "section": "article",
+   "text": "Given the labeled training set <italic>T</italic> = {(<bold>x</bold><bold><sub>i</sub></bold>, <italic>y</italic><italic><sub>i</sub></italic>)\u2223<italic>y</italic><italic><sub>i</sub></italic> = 1 or \u22121, <italic>i</italic> = 1 \u22ef <italic>N</italic>}, a na\u00efve idea to learn a classifier is to characterize a hyperplane in the feature or transformed feature space of the input <bold>x</bold> that can separate two classes of training data as much as possible. <sentence_start/>Based on the statistical learning theory [<citation rid=\"B33\" ref-type=\"bibr\" other=\"MR1641250\" count=\"1\">33</citation>], SVM is recognized as the robust adaptation for the perceptron learning model [<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1037/h0042519\" other=\"2-s2.0-11144273669\" pmid=\"13602029\" count=\"1\">34</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Trick of feature transformation <italic>\u03d5</italic> and soft-margin relaxation make SVM powerful for the detection of complex decision boundary and control the overfitting with the allowance for some samples' violating the support hyperplanes."
+  },
+  {
+   "section": "article",
+   "text": "Here, we give an expression of SVM in the form of quadratic programming problem as follows: where <italic>A</italic> is the corresponding matrix"
+  },
+  {
+   "section": "article",
+   "text": "<italic>N</italic>-dimension unit vector <italic>\u03f5</italic><italic><sub>k</sub></italic> with <italic>k</italic>th coordinate equals 1."
+  },
+  {
+   "section": "article",
+   "text": "The slacked vector of variables <italic>\u03b6</italic> = (<italic>\u03b6</italic><sub>1</sub>, <italic>\u03b6</italic><sub>2</sub>,\u2026,<italic>\u03b6</italic><italic><sub>N</sub></italic>)<italic><sup>T</sup></italic> measures the extent to samples' violating the support hyperplanes. <sentence_start/>The primal problem can be converted to the dual one by solving the Karush-Kuhn-Tucker optimal functions derived from the Lagrange equation [<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1017/cbo9780511804441\" other=\"MR2061575\" count=\"1\">35</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Finally, the discriminative function is obtained in the form where <italic>\u03b1</italic><italic><sub>n</sub></italic><italic><sup>\u2217</sup></italic> is the Lagrange multiplier corresponding to the sample satisfying Karush-Kuhn-Tucker (KKT) optimal conditions."
+  },
+  {
+   "section": "article",
+   "text": "Specifically, when the inner product of the transformed feature vectors can be applied with the kernel methods, the process of computation is efficient:"
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, only a small proportion of the training data corresponding to positive Lagrange multipliers called support vectors are useful for the final decision, so the representation of the classifier is rather sparse."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Ensemble Methods: A Review"
+  },
+  {
+   "section": "article",
+   "text": "Apparently one classifier may be severely affected when the training dataset cannot well characterize the actual underlying distribution or the presumed model is biased. <sentence_start/>The strategy of models' ensemble can avoid the one-sidedness originated from the training dataset and hypothesis, receiving a better capability of generalization. <sentence_start/>In another aspect, weaker classifiers are easier to obtain using simple criteria like stump and a strong classifier can be derived by combining multiple weaker classifiers [<citation rid=\"B36\" ref-type=\"bibr\" other=\"MR3184068\" count=\"1\">36</citation>]. <sentence_start/>In our proposed framework for the IDL, bagging technique was employed for developing various models."
+  },
+  {
+   "section": "article",
+   "text": "Bootstrapping aggregation abbreviated as bagging constructs totally different classifiers based on the bootstrapping method. <sentence_start/>Bootstrapping technique samples each training example in the same probability with replacements."
+  },
+  {
+   "section": "article",
+   "text": "The general bagging algorithm can be described as shown in Algorithm 1."
+  },
+  {
+   "section": "article",
+   "text": "One of the most famous models motivated from bagging is random forest in which not only is the training data sampled in bootstrapping way, but the features for training are selected in random as well [<citation rid=\"B37\" ref-type=\"bibr\" count=\"1\">37</citation>]. <sentence_start/>Table 1 provides a detailed process of sampling methods."
+  },
+  {
+   "section": "article",
+   "text": "2.3. Bagging of Extrapolation Borderline-SMOTE SVM"
+  },
+  {
+   "section": "article",
+   "text": "2.3.1. <sentence_start/>Extrapolation Borderline-SMOTE"
+  },
+  {
+   "section": "article",
+   "text": "For IDL, SMOTE [<citation rid=\"B19\" ref-type=\"bibr\" other=\"2-s2.0-0346586663\" count=\"1\">19</citation>] is a typical oversampling method with universal applications and the concrete process for generating the synthetic samples can be described as shown in Algorithm 2."
+  },
+  {
+   "section": "article",
+   "text": "Generating some synthetic samples for the minority in an interpolation way is demonstrated to be effective for relieving the extent of imbalance and lifting performance. <sentence_start/>However, it seems that samples near the decision border overweigh the remaining ones in decision-making. <sentence_start/>Borderline-SMOTE [<citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>] operates on samples near the decision border using SMOTE technique. <sentence_start/>Figure 2 displays the interpolation method to generate synthetic samples."
+  },
+  {
+   "section": "article",
+   "text": "However, the interpolation between samples used in SMOTE or Borderline-SMOTE restricts the ability of exploring towards the actual boundary. <sentence_start/>As we would make use of ensemble SVMs, samples near decision boundary can be roughly characterized from support hyperplane learned by the first SVM. <sentence_start/>Taking this into consideration, a novel synthetic minority oversampling method is proposed as shown in Algorithm 3 and Figure 3 describes our ideology."
+  },
+  {
+   "section": "article",
+   "text": "Here 1/\u2016<italic>w</italic>\u2016<sub>2</sub> is the distance from support hyperplane to decision hyperplane corresponding to the first SVM learned from the imbalance training dataset."
+  },
+  {
+   "section": "article",
+   "text": "It is obvious that the synthetic minor sample tends to correct the skew finely and the extrapolation works to detect the decision boundary when <italic>x</italic><italic><sub>i</sub></italic><sup>~</sup> belongs to the inner side of support hyperplane just as Figure 3 indicates."
+  },
+  {
+   "section": "article",
+   "text": "2.3.2. <sentence_start/>Bagging of Extrapolation Borderline-SMOTE SVM"
+  },
+  {
+   "section": "article",
+   "text": "Ensemble methods can effectively enhance model's capability of generalization. <sentence_start/>Here, a novel ensemble method for solving IDL problems is proposed called Bagging of Extrapolation Borderline-SMOTE SVMs (BEBS)."
+  },
+  {
+   "section": "article",
+   "text": "For SVM, it is noted that support vectors with positive Lagrange multipliers decide the final discriminative boundary. <sentence_start/>So we employ Extrapolation Borderline-SMOTE to the support vectors belonging to the minority for relieving the imbalance level."
+  },
+  {
+   "section": "article",
+   "text": "The whole ideas about BEBS can be elucidated as follows. <sentence_start/>The original support vectors containing borderline information are roughly identified through the base SVM which is learned from the imbalance dataset <italic>D</italic>. During the initialization process, a proper kernel and hyperparameter <italic>C</italic> are chosen through cross-validation in which G-means is chosen as the optimal metrics. <sentence_start/>Then the original support vectors belonging to the minority are marked as SV<sub>0</sub> = {<italic>x</italic><sub>SV<italic><sub>i</sub></italic></sub><sup>(0)</sup>} and a novel dataset <italic>D</italic><sup>~</sup> = <italic>D</italic>\u2216SV<sub>0</sub> for further bootstrapping is constructed by removing SV<sub>0</sub>. <sentence_start/>Bootstrapping is performed on <italic>D</italic><sup>~</sup> in <italic>K</italic>-turns and each sampling result <italic>D</italic><italic><sub>t</sub></italic><sup>~</sup> is in the scale of |<italic>D</italic><sup>~</sup>|. <sentence_start/>Furthermore, aggregating datasets of <italic>D</italic><italic><sub>t</sub></italic><sup>~</sup>and SV<sub>0</sub> are operated by Extrapolation Borderline-SMOTE. <sentence_start/>After that, the merged datasets with new synthetic samples are used for meta-SVM's training and the original data which are not sampled work as validation sets for tuning parameters. <sentence_start/>Finally, <italic>K</italic> SVMs are aggregated in the same weight to form the ensemble classifier (see Algorithm 4)."
+  },
+  {
+   "section": "article",
+   "text": "Specifically, default parameters in our model were initially set as <italic>\u03b1</italic> = 0.5, <italic>K</italic> = 100 and the following experiments shared the same parameters."
+  },
+  {
+   "section": "article",
+   "text": "2.3.3. <sentence_start/>The Intuition behind BEBS"
+  },
+  {
+   "section": "article",
+   "text": "The core idea of BEBS is to aggregate various SVMs which revise the initial decision boundary by constructing synthetic minority samples towards the correct direction. <sentence_start/>These synthetic samples are presumed to well characterize the actual decision boundary. <sentence_start/>The SVMs' variance originates from two sources. <sentence_start/>One is the random selection from SV<sub>0</sub> with the sampling ratio <italic>\u03b1</italic>% and the other originates from training sets' difference due to bootstrapping manipulation. <sentence_start/>Besides, training data not sampled in a trek of bootstrapping is exploited as the validation set for exploring a better hyperparameter; just see Table 1. <sentence_start/>All of these heuristic tactics were taken to enhance the model's generalization."
+  },
+  {
+   "section": "article",
+   "text": "3. Results and Discussion"
+  },
+  {
+   "section": "article",
+   "text": "3.1. <sentence_start/>Experimental Settings and Metrics"
+  },
+  {
+   "section": "article",
+   "text": "Datasets for experiments are chosen from UCI machine learning repository [<citation rid=\"B38\" ref-type=\"bibr\" count=\"1\">38</citation>] and most of them are quite imbalanced. <sentence_start/>Here we only cope with binary classification problems, so one class is labeled as the minority while the rest merge as the majority in multiclass cases which is similar to other researchers' preprocess [<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1016/j.patcog.2014.11.014\" other=\"2-s2.0-84921817000\" count=\"1\">25</citation>, <citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1007/s00500-014-1407-5\" other=\"2-s2.0-84947128160\" count=\"1\">39</citation>, <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1016/j.knosys.2015.12.005\" other=\"2-s2.0-84957727678\" count=\"1\">40</citation>]. <sentence_start/>Table 2 shows the detailed information about the dataset including sample capacity, the number of attributes, the numbers of the minority samples and majority samples, and the imbalance ratio. <sentence_start/>The imbalance ratio is defined as the result of the cardinality of the majority dividing the cardinality of the minority, which may severely influence the performance of classifiers."
+  },
+  {
+   "section": "article",
+   "text": "Traditional ensemble methods like AdaBoostM1 and random forest are chosen for comparison as well. <sentence_start/>Further illustration that should be noticed is that both AdaBoostM1 and random forest can be considered as techniques relieving the imbalance due to the weight-adjustment mechanism by error in AdaBoostM1 and out-of-bag performance monitored in random forest. <sentence_start/>We also validated imbalance effect on original SVM. <sentence_start/>Some state-of-the-art and commonly used algorithms, including random undersampling, random oversampling, SMOTE, and SMOTE-ENN [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1145/1007730.1007735\" count=\"1\">41</citation>] were performed on the above-mentioned dataset as well, all of which would demonstrate the effectiveness of the novel proposed algorithm. <sentence_start/>Besides, random undersampling, random oversampling, SMOTE, and SMOTE-ENN were combined with SVM for further classification."
+  },
+  {
+   "section": "article",
+   "text": "In problems of binary classification, confusion matrix offers an intuitive measure for evaluating classifier's performance. <sentence_start/>As illustrated in Table 3, FN is the number of samples identified as negative ones by mistake and the rest can be understood similarly."
+  },
+  {
+   "section": "article",
+   "text": "The accuracy of the classifier is defined as"
+  },
+  {
+   "section": "article",
+   "text": "For the problem of IDL, the accuracy is not persuasive for evaluation as depicted before. <sentence_start/>One of the most frequently used evaluation criteria for IDL is G-means which penalizes the biased model strictly. <sentence_start/>G-means is an index averaging geometrically the recall ratios of two classes."
+  },
+  {
+   "section": "article",
+   "text": "It is obvious that only when both of the recall ratios stay at higher level can the G-means receives better value. <sentence_start/>So the G-means can be considered to be the trade-off between the accuracy and the recall ratio."
+  },
+  {
+   "section": "article",
+   "text": "Another evaluation index penalizing the imbalanced effect is <italic>F</italic>-score defined as"
+  },
+  {
+   "section": "article",
+   "text": "Harmonic average is applied in the index and the parameter <italic>\u03b2</italic> controls the extent for penalization. <sentence_start/>Here <italic>\u03b2</italic> is selected as 1."
+  },
+  {
+   "section": "article",
+   "text": "<italic>F</italic>-score shows similar performance and shares consistency with G-means in our experimental findings, but it averages the precision and recall ratio of one class in essence."
+  },
+  {
+   "section": "article",
+   "text": "Besides, the precision of the minority in one classifier also plays a crucial role in IDL and most of cases show its significance just as the introduction has described. <sentence_start/>So the precision was taken into consideration during evaluating process. <sentence_start/>The precision for the positive is denoted as"
+  },
+  {
+   "section": "article",
+   "text": "To obtain a robust result for evaluation, we picked up risk minimization as the criteria in which the minimum metrics of binary class were defined as the corresponding result. <sentence_start/>Taking precision for an instance, though precisions of both classes can be computed during testing process, the smaller one was selected, just as follows:"
+  },
+  {
+   "section": "article",
+   "text": "3.2. <sentence_start/>Results Analysis"
+  },
+  {
+   "section": "article",
+   "text": "3.2.1. <sentence_start/>Performance Analysis"
+  },
+  {
+   "section": "article",
+   "text": "We, respectively, averaged the results of G-means, <italic>F</italic>1-score, and precision in 10 independent turns. <sentence_start/>Table 4 was the final results on various dataset and the top 3 ones in each line were labeled with bold. <sentence_start/>A direct conclusion drawn from the table was BEBS, random forest, and AdaBoostM1 located in dominating board most of time and behaving stably in three metrics. <sentence_start/>Some reason accounting for this was that the requirements of careful adaptation about parameters for all the other sampling algorithms seemed crucial. <sentence_start/>However, the original SVM received worse results on dataset of Fertility, Pima, Segmentation 1, Segmentation 3, and <italic>F</italic>1-score in Parkinson was rather low. <sentence_start/>Such phenomenon verified the explanation about skew of SVM in imbalanced case. <sentence_start/>It was evident that random oversampling, random undersampling, and SMOTE-ENN were sensitive to the datasets because all of them needed parameters of manual setting according to specific case rather than adapting automatically. <sentence_start/>SMOTE outperformed these three methods but was less efficient than our proposed BEBS. <sentence_start/>Obviously, BEBS which performed well in three metrics stably benefited from both the intuitive extrapolation-SMOTE method involving boundary information and randomness from bootstrapping technique. <sentence_start/>To offer a more direct cognition, we ranked the performance of methods on testing sets in decreasing order from the perspective of G-means, <italic>F</italic>1-score, and precision. <sentence_start/>The average ranks of all algorithms on 6 datasets were shown in Figure 4. <sentence_start/>Also, taking generalization and performance into consideration, random forest and AdaBoostM1 were still worthwhile to make a trial with no additional information."
+  },
+  {
+   "section": "article",
+   "text": "Specifically, with the help of SPSS [<citation rid=\"B42\" ref-type=\"bibr\" count=\"1\">42</citation>], we carried out Student's paired <italic>t</italic>-test, in which confidence interval of difference was set as 95%, to check the significance of the 10 independent results in comparison. <sentence_start/>10 independent results were compared in the form of BEBS versus some other algorithm. <sentence_start/>Since seven models were chosen for comparison, seven statistical testing results were obtained on each dataset. <sentence_start/>We looped such process in metrics G-means, <italic>F</italic>-scores, and precision on each dataset. <sentence_start/>Furthermore, the seven pairs of the testing have three possible results, respectively, significantly weaker than BEBS and tie, significantly stronger than BEBS. <sentence_start/>Precise explanation about the result of tie is when the average of 10 independent results in some metrics on the dataset using model <italic>A</italic> is higher or lower than the BEBS but is not significant from the analysis of pair <italic>t</italic>-test, we directly attribute the reason behind difference to the randomness rather than the mechanism of models and label the paired comparison as tie. <sentence_start/>The label win means our BEBS's average of results not only outperforms the comparison model but also passes the hypothesis test. <sentence_start/>The same is the loss. <sentence_start/>Combined with Table 4, the results of significance testing were finally mapped into the 3-element tuple in the form of win\u2216tie\u2216loss. <sentence_start/>Then we counted the frequencies for win, tie, and loss in 7-paired comparison. <sentence_start/>So the computational results were arranged in the Table 5."
+  },
+  {
+   "section": "article",
+   "text": "From Table 5, some obvious conclusions were drawn as follows. <sentence_start/>From the perspective of G-means, about 76.2% comparison results shown BEBS significantly outperformed other models which was computed as the total number of paired comparisons 42 divided by the number of win counts on the whole dataset 32. <sentence_start/>The ratio of no loss to others in <italic>F</italic>-scores occupied approximately 83.3% and at the same time 64.3% proportion of the total number of paired comparisons indicated superior results using BEBS compared with others significantly. <sentence_start/>For the precision, only 4.8% of the total counts were significantly poorer than some other models though the proportion of the tie counts maintained about 38.1%. <sentence_start/>In all, BEBS produced better results after a series of experiments and statistical testing process. <sentence_start/>The next part would do some research on the stability of the BEBS and some sensitivity analysis experiments were carried out."
+  },
+  {
+   "section": "article",
+   "text": "3.2.2. <sentence_start/>Sensitivity Analysis"
+  },
+  {
+   "section": "article",
+   "text": "It is noticed that our proposed algorithm BEBS contains two crucial hyperparameters to tune, that is, the number of metaclassifiers <italic>K</italic> and the oversampling ratio for Extrapolation Borderline-SMOTE <italic>\u03b1</italic>%. <sentence_start/>Regardless of variations on dataset in the former experiments, the hyperparameters were consistently set as the fixed values <italic>K</italic> = 100 and sampling ratio = 0.5. <sentence_start/>The performance ought to be influenced when such parameters are violated. <sentence_start/>To investigate the robustness of the BEBS, we performed BEBS on the prepared dataset given a tunable range of hyperparameters. <sentence_start/>As suggested before, G-means is capable of well characterizing the fair results by imposing the penalization on the imbalance consequence. <sentence_start/>Here sensitivity analysis towards two hyperparameters was carried out and G-means was the objective we concentrated on."
+  },
+  {
+   "section": "article",
+   "text": "With the sampling ratio fixed as 0.5, we ranged the number of metaclassifiers <italic>K</italic> in the interval [70,130] at the step length 10 and averaged the 10 independent results corresponding to the fixed parameters. <sentence_start/>As Figure 5 illustrated, the six polylines run steadily as <italic>K</italic> increased and the maximum of ranges of G-means values on six polylines was not larger than 0.15. <sentence_start/>The results suggested BEBS was not sensitive to the number of metaclassifiers at the range [70,130]."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, we adapted the sampling ratio in a range of [0.3,0.7] at the step length 0.1 on the dataset while the number of metaclassifiers <italic>K</italic> was maintained as 100. <sentence_start/>The experimental results were shown in Figure 6. <sentence_start/>The points on polylines were acquired by averaging G-means values from 10 independent results given a set of parameters as well. <sentence_start/>An interesting fact lied in the fact that tendencies on Fertility, Glass 7, and Segmentation 3 were significant and performance was steadily enhanced when increasing the sampling ratio. <sentence_start/>The phenomenon may be attributed to the imbalance ratio of dataset. <sentence_start/>The imbalance ratios on these were not less than 6 from statistical information in Table 2. <sentence_start/>More synthetic minority samples tended to make contributions towards detecting the actual boundary. <sentence_start/>So a conclusion can be drawn that when the imbalance ratio retains a rather higher level, the sampling ratio should also adapt to relieve the overfitting circumstance. <sentence_start/>Results on Parkinson and Pima indicated declines when sampling ratio is higher than some thresholds, so higher sampling ratio on not extremely imbalanced dataset may do damage to the final performance. <sentence_start/>In total, BEBS seems sensitive to the Resampling Ratio and the imbalance ratio should be involved in a fine choice for the parameter."
+  },
+  {
+   "section": "article",
+   "text": "4. Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "In this paper, a novel ensemble method called BEBS was proposed for dealing with the IDL in binary case. <sentence_start/>The BEBS was framed by employing an adaptive sampling method Extrapolation Borderline-SMOTE and bootstrapping aggregation to the former imbalanced dataset. <sentence_start/>Such variant of SMOTE takes advantage of boundary information derived from the initial SVM and bagging's mechanism contributes to the relief of overfitting and promotes the capability of model's generalization. <sentence_start/>The decision boundary's skew towards the minority when using SVM can be revised with the help of synthetic samples. <sentence_start/>In our experiments, the results on each dataset run for ten times independently to ensure the effectiveness of hypothesis test and further statistical records show BEBS can significantly outperform some representative IDL algorithms in most of time. <sentence_start/>The sensitivity analysis illustrates the relation between scale of ensemble, sampling ratio, and performance, suggesting BEBS would be extensively enhanced after a proper adaptation according to imbalance ratio of dataset. <sentence_start/>Future research will summarize general relations between algorithms performance and other attributes like attributes' number and samples' cardinality. <sentence_start/>Multiclass imbalance cases [<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1016/j.knosys.2016.05.048\" other=\"2-s2.0-84971659662\" count=\"1\">43</citation>] are also considered in the later mining tasks."
+  },
+  {
+   "section": "back",
+   "text": "Competing Interests"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare that there is no conflict of interests regarding the publication of this paper."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "The flowchart of our proposed framework. <sentence_start/><italic>D</italic> is the complete dataset and SVminor is the support vectors in the minority after the initialized SVM's detection."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Manipulation of SMOTE. <sentence_start/>Stars stand for the minority and the solid star is selected for SMOTE. <sentence_start/>Circles are the majority. <sentence_start/>The selected sample randomly picks up one sample from it <italic>k</italic>-nearest neighbors to interpolate a synthetic sample labeled as the minority."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "The effect of Extrapolation Borderline-SMOTE. <sentence_start/>X with no frame is the sample belonging to the minority after Extrapolation Borderline-SMOTE. <sentence_start/>A synthetic sample labeling to the minority explores towards the actual boundary and it seldom violates the original decision boundary with the help of <italic>\u03b4</italic>."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "The average rankings of different algorithms on six datasets from three aspects. <sentence_start/>Rankings are integer scores as 8, 7, 6, 5, 4, 3, 2, and 1 assigned to each algorithm according to the performance."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "Sensitivity analysis on the number of metaclassifiers. <sentence_start/>The value in the table (except the first row) is the averaged results."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 6"
+  },
+  {
+   "section": "floating",
+   "text": "Sensitivity analysis on the sampling ratio. <sentence_start/>The value in the table (except the first row) is the averaged results."
+  },
+  {
+   "section": "floating",
+   "text": "Algorithm 1"
+  },
+  {
+   "section": "floating",
+   "text": "Bagging algorithm."
+  },
+  {
+   "section": "floating",
+   "text": "Algorithm 2"
+  },
+  {
+   "section": "floating",
+   "text": "SMOTE algorithm."
+  },
+  {
+   "section": "floating",
+   "text": "Algorithm 3"
+  },
+  {
+   "section": "floating",
+   "text": "Extrapolation Borderline-SMOTE algorithm."
+  },
+  {
+   "section": "floating",
+   "text": "Algorithm 4"
+  },
+  {
+   "section": "floating",
+   "text": "BEBS algorithm."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "pmid": 31422773,
+ "pmcid": 6699105,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Recommendation on unbiased estimation of population attributable fraction calculated in \u201cprevalence and risk factors of active pulmonary tuberculosis among elderly people in China: a population based cross-sectional study\u201d"
+  },
+  {
+   "section": "abstract",
+   "text": "Population attributable fraction (PAF) refers to the proportion of all cases with a particular outcome in a population that could be prevented by eliminating a specific exposure. <sentence_start/>The authors of a recent paper evaluated the prevalence and estimated the PAFs for risk factors of TB among elderly people in China [Inf Dis Poverty. 2019;8:7]. <sentence_start/>Confounding is inevitable in observational studies and Levin\u2019s formula is of limited use in practice for unbiasedly estimating PAF. <sentence_start/>In a complex survey design, an unbiased estimation of the PAF can be calculated using a sample-weighted version of the Miettinen formula or a sample weighed parametric g-formula. <sentence_start/>With respect to causal interpretation of PAF in public health setting, computation of PAF is logical and practical when the exposure is amenable to intervention."
+  },
+  {
+   "section": "abstract",
+   "text": "Electronic supplementary material"
+  },
+  {
+   "section": "abstract",
+   "text": "The online version of this article (10.1186/s40249-019-0587-8) contains supplementary material, which is available to authorized users."
+  },
+  {
+   "section": "article",
+   "text": "Multilingual abstracts"
+  },
+  {
+   "section": "article",
+   "text": "Please see Additional file 1 for translations of the abstract into the five official working languages of the United Nations."
+  },
+  {
+   "section": "article",
+   "text": "<bold>To the Editor.</bold>"
+  },
+  {
+   "section": "article",
+   "text": "We read with great interest a recent article titled [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1186/s40249-019-0515-y\" pmid=\"30654836\" pmcid=\"PMC6337869\" count=\"1\">1</citation>]: \u201cPrevalence and risk factors of active pulmonary tuberculosis among elderly people in China: a population based cross-sectional study\u201d. <sentence_start/>The authors evaluated the prevalence and identify the risk factors of TB among elderly people in China using a cross-sectional study. <sentence_start/>However, there are several concerns in the analysis."
+  },
+  {
+   "section": "article",
+   "text": "i)."
+  },
+  {
+   "section": "article",
+   "text": "In the statistical analysis section it was indicated that population attributable fraction (PAF) of each adjusted risk factor was estimated using Levin\u2019s formula where <italic>RR</italic> is the risk ratio and <italic>p</italic><italic><sub>e</sub></italic> means proportion of population exposed to risk factors [<citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1097/EDE.0000000000000177\" pmid=\"25265137\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In the study, the adjusted odds ratio (<italic>OR</italic>) was used in place of <italic>RR</italic>."
+  },
+  {
+   "section": "article",
+   "text": "PAF refers to the proportion of all cases with a particular outcome in a population that could be prevented by eliminating a specific exposure [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1136/bmj.k757\" pmid=\"29472187\" count=\"1\">3</citation>]. <sentence_start/>Formula 1 is unbiased in the absence of confounding and effect modification [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1136/bmj.k757\" pmid=\"29472187\" count=\"1\">3</citation>, <citation ref-type=\"bibr\" rid=\"CR4\" doi=\"10.1097/EDE.0b013e3181fce49b\" pmid=\"20975564\" count=\"1\">4</citation>]. <sentence_start/>Observational studies are subject to confounding which will lead to bias if Levin\u2019s formula is inappropriately applied to estimate PAFs [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1136/bmj.k757\" pmid=\"29472187\" count=\"1\">3</citation>]. <sentence_start/>The Levin\u2019s formula is valid only for unadjusted risk ratio [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1136/bmj.k757\" pmid=\"29472187\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.1097/EDE.0000000000000181\" pmid=\"25210928\" pmcid=\"PMC4731856\" count=\"1\">5</citation>]. <sentence_start/>The bias from this error will depend on the degree of confounding [<citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.2105/AJPH.88.1.15\" pmid=\"9584027\" pmcid=\"PMC1508384\" count=\"1\">6</citation>]. <sentence_start/>For a dichotomous exposure an unbiased estimation of PAF can be calculated using the Miettinen\u2019s formula [<citation ref-type=\"bibr\" rid=\"CR7\" doi=\"10.1093/oxfordjournals.aje.a121617\" pmid=\"4825599\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Where <italic>RR</italic><italic><sub>adj</sub></italic> is the adjusted risk ratio and <italic>p</italic><italic><sub>c</sub></italic> is the prevalence of exposure among the cases. <sentence_start/>This produces valid estimate in the presence of confounding, assuming exposure status and confounders are accurately measured and adjusted for."
+  },
+  {
+   "section": "article",
+   "text": "As an example, in this study [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1186/s40249-019-0515-y\" pmid=\"30654836\" pmcid=\"PMC6337869\" count=\"1\">1</citation>] the adjusted <italic>OR</italic> and prevalence of diabetes in the active TB cases was reported 1.83 (1.08-3.10) and 16/193, respectively. <sentence_start/>The PAF using formula 2 is 3.76% which is less than the reported value (5.52%)."
+  },
+  {
+   "section": "article",
+   "text": "ii)."
+  },
+  {
+   "section": "article",
+   "text": "The term \u201cattributable\u201d refers to a causal interpretation [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1136/bmj.k757\" pmid=\"29472187\" count=\"1\">3</citation>]. <sentence_start/>One of the main assumptions underlying the PAF is no bias in study design. <sentence_start/>Therefore, the application of formula 2 in cohort design is acceptable but for case-control and cross-sectional studies, it needs more considerations. <sentence_start/>In a cross-sectional study, reverse causality and prevalence-incidence bias are the main concerns for assessing the effect of the exposure on the outcome."
+  },
+  {
+   "section": "article",
+   "text": "iii)."
+  },
+  {
+   "section": "article",
+   "text": "Another potential source of bias in the study is failure to adjust observed estimates of the prevalence of TB and exposure to risk factors for the complex sampling design employed. <sentence_start/>With such a design, the population prevalence should be adjusted using inverse probability weighting (IPW) so that the reported prevalence is appropriately adjusted for multistage and disproportionate sampling [<citation ref-type=\"bibr\" rid=\"CR8\" doi=\"10.1136/bmj.i189\" pmid=\"26773001\" count=\"1\">8</citation>]. <sentence_start/>Further, the authors do not mention whether or how clustering was taken account of in the multivariable logistic regression modeling."
+  },
+  {
+   "section": "article",
+   "text": "iv)."
+  },
+  {
+   "section": "article",
+   "text": "For complex survey designs, it is necessary to adjust PAFs for the complex sampling design [<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1016/j.annepidem.2014.11.007\" pmid=\"25511308\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1111/j.1541-0420.2005.00355.x\" pmid=\"16135037\" count=\"1\">10</citation>]. <sentence_start/>PAF can be computed as a sample-weighted version of the Miettinen or Bruzzi formula (formula 2 in reference [<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1016/j.annepidem.2014.11.007\" pmid=\"25511308\" count=\"1\">9</citation>] or formula 3 in reference [<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1111/j.1541-0420.2005.00355.x\" pmid=\"16135037\" count=\"1\">10</citation>] or sample-weighted model-based standardization, also known as parametric g-formula (formula 3 in reference [<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1016/j.annepidem.2014.11.007\" pmid=\"25511308\" count=\"1\">9</citation>] or formula 4 in reference [<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1111/j.1541-0420.2005.00355.x\" pmid=\"16135037\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "v)."
+  },
+  {
+   "section": "article",
+   "text": "As PAF is a function of the prevalence of exposure, self-reported measurement of exposures in this study can be lead to bias in the estimation of PAF. <sentence_start/>As reported in this study, the self-reported and local health documentation search of diabetes was not sufficient to estimate the real distribution."
+  },
+  {
+   "section": "article",
+   "text": "vi)."
+  },
+  {
+   "section": "article",
+   "text": "With respect to causal interpretation of PAF in a public health setting, computation of PAF is logical and practical when the exposure is amenable to intervention [<citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.2105/AJPH.88.1.15\" pmid=\"9584027\" pmcid=\"PMC1508384\" count=\"1\">6</citation>]. <sentence_start/>Therefore, it is less apparent why the attributable fraction for unmodifiable risk factors such as age and sex may be of use."
+  },
+  {
+   "section": "article",
+   "text": "In sum, unbiased estimation of PAF requires several assumptions which are often ignored in practice. <sentence_start/>We recommend using sample-weighted version of Miettinen formula or sample weighed parametric g-formula [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1136/bmj.k757\" pmid=\"29472187\" count=\"1\">3</citation>, <citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1136/bmj.j4587\" pmid=\"29038130\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Additional file"
+  },
+  {
+   "section": "back",
+   "text": "Abbreviation"
+  },
+  {
+   "section": "back",
+   "text": "PAF"
+  },
+  {
+   "section": "back",
+   "text": "Population attributable fraction"
+  },
+  {
+   "section": "back",
+   "text": "Authors\u2019 contributions"
+  },
+  {
+   "section": "back",
+   "text": "A.Kh wrote the paper and MA. <sentence_start/>M revised the paper. <sentence_start/>All authors approved the final version of the paper."
+  },
+  {
+   "section": "back",
+   "text": "Funding"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Availability of data and materials"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Ethics approval and consent to participate"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Consent for publication"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Competing interests"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare that they have no competing interests or financial disclosure about this publication."
+  }
+ ]
+}

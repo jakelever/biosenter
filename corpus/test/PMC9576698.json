@@ -1,0 +1,91 @@
+{
+ "pmid": 36253359,
+ "pmcid": 9576698,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The blood virome of 10,585 individuals from the ChinaMAP"
+  },
+  {
+   "section": "article",
+   "text": "Dear Editor,"
+  },
+  {
+   "section": "article",
+   "text": "Understanding the composition of human blood virome is essential for safe blood transfusions and infectious disease surveillance and control. <sentence_start/>Screening the natural populations using sequencing technologies for the detection of known and novel viral pathogens could provide critical information for epidemiology and prevention of viral infections, vaccine development, and virus genomic investigations<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1126/science.aap7463\" pmid=\"29472471\" count=\"1\"><sup>1</sup></citation>. <sentence_start/>In addition, numerous common cancers are associated with oncogenic viruses, including Epstein-Barr virus (EBV), hepatitis B and C viruses (HBV and HCV), and human papillomavirus (HPV)<citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1038/s41588-019-0558-9\" pmid=\"32025001\" pmcid=\"PMC8076016\" count=\"1\"><sup>2</sup></citation>. <sentence_start/>The geographical and genetic diversity of population virome could be exploited for public health screening and prevention. <sentence_start/>Therefore, we analyzed the nonhuman sequencing reads in the 40\u00d7 whole-genome sequencing (WGS) dataset of 10,585 individuals from the ChinaMAP<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1038/s41422-020-0322-9\" pmid=\"32355288\" pmcid=\"PMC7609296\" count=\"1\"><sup>3</sup></citation> to investigate the blood virome in the Chinese population."
+  },
+  {
+   "section": "article",
+   "text": "Overall, we identified 14 viruses with a viral genome coverage of &gt; 10% in the unmapped sequencing reads from the ChinaMAP dataset (Supplementary Fig. S1 and Table S1). <sentence_start/>The most prevalent anellovirus, including <italic>Torque teno virus</italic> (TTV) and TTV-like mini virus (TLMV), was identified in 76.7% of individuals. <sentence_start/>The prevalence of other 13 viruses with corresponding read abundance and coverage was shown (Fig. 1a). <sentence_start/>The human gammaherpes 4 (EBV) was detected in 30.3% of Chinese individuals, which was more than twice prevalence in a European dominant cohort (14%)<citation ref-type=\"bibr\" rid=\"CR4\" doi=\"10.1371/journal.ppat.1006292\" pmid=\"28328962\" pmcid=\"PMC5378407\" count=\"1\"><sup>4</sup></citation>. <sentence_start/>The member of the betaherpesvirus family human herpesvirus 7 (HHV7) was detected in 13.2% of individuals, and the prevalence of HHV6A, HHV6B, and HHV5 (HCMV) was 0.36%, 1.09%, and 1.03%, respectively. <sentence_start/>The human endogenous retrovirus K (HERV-K), human mastadenovirus C, and HBV were identified in 8.20%, 2.41%, and 1.69% of individuals, respectively. <sentence_start/>The HPV subtypes <italic>Gammapapillomavirus</italic> 1, <italic>Betapapillomavirus</italic> 1, and <italic>Alphapapillomavirus</italic> 4 were found in 50 individuals. <sentence_start/>Notably, the oncogenic human polyomavirus 5, which was discovered in the Merkel cell carcinoma<citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.1126/science.1152586\" pmid=\"18202256\" pmcid=\"PMC2740911\" count=\"1\"><sup>5</sup></citation>, was detected in 29 individuals (0.27%). <sentence_start/>The DNA sequencing reads of influenza A virus was detected in 93 individuals, which may result from the injection of recombinant influenza vaccine or the reverse transcription by endogenous retroviral components<citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.1038/36876\" pmid=\"9384383\" count=\"1\"><sup>6</sup></citation>. <sentence_start/>Moreover, nonhuman origin viruses were also identified after strict filtering of false positives, which were not considered as infections due to interference from the environment and laboratory components (Supplementary Fig. S2).Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Landscape of blood virome in the Chinese population and analysis of HBV and HHV6."
+  },
+  {
+   "section": "article",
+   "text": "<bold>a</bold> The prevalence, abundance, and genome coverage of 13 viruses in human blood. <sentence_start/><bold>b</bold> Geographic distribution of HBV-B and HBV-C in China. <sentence_start/><bold>c</bold> The integration sites of HBV in the human (left) and HBV genomes (right). <sentence_start/>Left: red bars represent the integration sites of HBV-B, and blue bars represent the integration sites of HBV-C. Right: the dark blue histogram represents the integration sites in HBV genome, and the light blue histogram represents the viral genome coverage. <sentence_start/>The locations of the genes encoding HBV proteins are shown. <sentence_start/>The genomic positions of HBV genome are numbered. <sentence_start/><bold>d</bold> Manhattan plot of GWAS for the HHV6 infection. <sentence_start/><bold>e</bold> Conservation analysis of acrosin domains. <sentence_start/>The red box points the position of Thr24. <sentence_start/>The histograms represent the conservation scores calculated by Jalview (*full conservation; +full property conservation)."
+  },
+  {
+   "section": "article",
+   "text": "The virus read number per individual from various provinces showed no differences (Supplementary Fig. S3). <sentence_start/>We analyzed the viral abundance of top six prevalent viruses in the infected individuals and found more prevalent HHV7 and EBV in the younger (age \u2264 40) and older (age &gt; 60) populations without gender differences. <sentence_start/>The geographic distribution and corresponding infected virus number and percentage were also analyzed (Supplementary Table S2). <sentence_start/>Moreover, we detected 179 phages that belong to 4 orders, 12 families and 88 genera in the blood virome in addition to the virus species, including the normal gut virus CrAssphage and numerous <italic>Staphylococcus</italic> phages (Supplementary Table S3)."
+  },
+  {
+   "section": "article",
+   "text": "The HBV infection mainly constituted HBV-B (<italic>n</italic> = 79) and HBV-C (<italic>n</italic> = 59) subtypes in 179 individuals. <sentence_start/>The HBV-B was more prevalent in southern China (Guangdong, Guangxi, Fujian provinces), whereas the HBV-C was prominently distributed in Tibet (Fig. 1b; Supplementary Fig. S4a). <sentence_start/>We analyzed the viral integration events in the human genome and found positive integration of HBV-B in 10 individuals and HBV-C in 18 individuals. <sentence_start/>The integration events presented a significant association with higher viral abundance (Supplementary Fig. S4b). <sentence_start/>The distribution of the detected integration breakpoints in the human and HBV genomes was analyzed (Fig. 1c). <sentence_start/>The HBV integration sites were randomly distributed without significant integration hotspots in the human genome. <sentence_start/>However, the integration breakpoints in the HBV genome showed a peak at the end of the HBV gp3 gene and start of the core gene, as reported previously<citation ref-type=\"bibr\" rid=\"CR7\" doi=\"10.1038/ncomms12992\" pmid=\"27703150\" pmcid=\"PMC5059470\" count=\"1\"><sup>7</sup></citation>. <sentence_start/>Additionally, the phylogenetic tree of the HBV sequences from 56 individuals was constructed (variant number per sample \u2265 10 and allele frequency \u2265 10%) with corresponding geographic origins and 20 reference strains of HBV (Supplementary Fig. S4c). <sentence_start/>Two distinct clusters of HBV-B and HBV-C were observed, which was consistent with the genotypes of 20 reference strains. <sentence_start/>We also identified the HBV mutations that were critical for HBV-related hepatocarcinogenesis, including the basal core promoter (BCP) mutation T1762/A1764 and the precore region A1896 mutation. <sentence_start/>The mutation rate of BCP was higher in HBV-C (15.3%) than in HBV-B (2.5%), which was consistent with the previous reports<citation ref-type=\"bibr\" rid=\"CR8\" doi=\"10.1053/jhep.2001.20532\" pmid=\"11124839\" count=\"1\"><sup>8</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "The human herpesviruses HHV4 (EBV), HHV5, HHV6A/B, and HHV7 were identified in our cohort. <sentence_start/>The geographic distribution of HHV6A/B indicated the relatively high prevalence in Hebei, Shaanxi, Shanxi, and Henan provinces (Supplementary Fig. S5a). <sentence_start/>Furthermore, we performed the genome-wide association study (GWAS) to explore the genetic susceptibility variants for virus infection (Supplementary Table S4). <sentence_start/>Strikingly, a missense variant (rs79314756) in the <italic>ACR</italic> gene (c. 71C&gt;T, p. Thr24Met) was significantly associated with the HHV6 infection (<italic>P</italic> = 3.21 \u00d7 10<sup>-15</sup>) (Fig. 1d). <sentence_start/>The correlated significant variants locate in the <italic>SHANK3</italic> and <italic>RABL2B</italic> gene regions close to the lead SNP of <italic>ACR</italic> (Supplementary Fig. S5b-d). <sentence_start/>A previous study<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1016/j.cell.2018.08.016\" pmid=\"30290141\" count=\"1\"><sup>9</sup></citation> using low-pass sequencing data (~0.1\u00d7) of 141,431 Chinese women reported strong association between chromosomal integration of HHV6 in the infected population and the <italic>MLC1-MOV10L1</italic> locus close to the <italic>ACR</italic> gene region at 22q13.33. <sentence_start/>The <italic>ACR</italic> encodes the acrosin, which is a major acrosomal serine proteinase in the mature spermatozoa facilitating sperm penetration of the zona pellucida<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1073/pnas.1917595117\" pmid=\"31964830\" pmcid=\"PMC7007544\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>The missense mutation located in the highly conserved region next to the disulfide bond site (C25) and glycosylation site (N22) within the light chain of acrosin, suggesting that it might be functional for acrosin (Fig. 1e). <sentence_start/>We employed the AlphaFold2<citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1038/s41586-021-03819-2\" pmid=\"34265844\" pmcid=\"PMC8371605\" count=\"1\"><sup>11</sup></citation> to predict the potential impact of <italic>ACR</italic> rs79314756 on the structure of acrosin, and the results indicated that it might affect the formation of polar interactions, including potential gain of polar contact between M24 and D26 (2.8 \u00c5) and loss of contact between C25 and G27 (3.1 \u00c5) (Supplementary Fig. S5e). <sentence_start/>The disulfide bond formation between amino acids 25 and 154 was predicted not to be disrupted. <sentence_start/>The HHV6A/B could selectively bind to the sperm head, which has an intact acrosome, and be transmitted to the uterus via sexual contact<citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1371/journal.pone.0048810\" pmid=\"23144982\" pmcid=\"PMC3492232\" count=\"1\"><sup>12</sup></citation>. <sentence_start/>The most prevalent herpes type HHV6A/B was present in 13.5% of the sperm from 198 Danish donors<citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1371/journal.pone.0048810\" pmid=\"23144982\" pmcid=\"PMC3492232\" count=\"1\"><sup>12</sup></citation>. <sentence_start/>We speculate that the <italic>ACR</italic> rs79314756 variant might enhance the activity of acrosin, thus facilitating the cleavage of C3 protein and promoting HHV6 virus transmission via the binding of membrane cofactor protein and oocyte receptors<citation ref-type=\"bibr\" rid=\"CR13\" doi=\"10.1073/pnas.90.21.10051\" pmid=\"8234255\" pmcid=\"PMC47711\" count=\"1\"><sup>13</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Collectively, we illustrate the landscape of the human blood virome in a large cohort of Chinese population utilizing high-depth WGS data. <sentence_start/>The prevalence, viral abundance, and geographic distribution of 14 viruses were analyzed. <sentence_start/>Our results showed that the EBV was the most prevalent pathogenic virus present in 30% of individuals, and the integration events of HBV were correlated with the viral abundance in blood. <sentence_start/>A novel variant in <italic>ACR</italic> significantly associated with HHV6 infection was demonstrated, which could provide insights into understanding the susceptibility and pathogenesis of HHV6 transmission. <sentence_start/>These findings could provide essential information for the prevention of infectious diseases and the safety of blood transfusion in public health."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary information"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher\u2019s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "back",
+   "text": "These authors contributed equally: Jia Guo, Xuanlin Huang, Chenxi Zhang"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary information"
+  },
+  {
+   "section": "back",
+   "text": "The online version contains supplementary material available at 10.1038/s41421-022-00476-1."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "Y.C., W.W., and L.L. conceived the project, contributed to research data and data analysis. <sentence_start/>M.X., Y.B., and W.W. prepared the samples. <sentence_start/>Y.C., L.L., and G.N. contributed to sequencing platforms and data collection. <sentence_start/>J.G., X.H., C.Z., P.H., Y.L., F.W., X.W., N.Y. L.L., and Y.C. performed the experimental and bioinformatics analyses. <sentence_start/>G.N. and W.W. contributed to the discussion of the results. <sentence_start/>J.G., X.H., and C.Z. wrote the manuscript; Y.C. revised the manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "The ChinaMAP variants database files can be downloaded from the ChinaMAP browser ( ) following the regulation of the Human Genetic Resources Administration of China (HGRAC). <sentence_start/>Further analysis of sequencing data will be made available for collaborating researchers on request, dependent upon the approval of HGRAC."
+  },
+  {
+   "section": "back",
+   "text": "Competing interests"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no competing interests"
+  }
+ ]
+}

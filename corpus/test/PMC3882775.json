@@ -1,0 +1,399 @@
+{
+ "pmid": 24191903,
+ "pmcid": 3882775,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Comparison and improvement of algorithms for computing minimal cut sets"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Constrained minimal cut sets (cMCSs) have recently been introduced as a framework to enumerate minimal genetic intervention strategies for targeted optimization of metabolic networks. <sentence_start/>Two different algorithmic schemes (adapted Berge algorithm and binary integer programming) have been proposed to compute cMCSs from elementary modes. <sentence_start/>However, in their original formulation both algorithms are not fully comparable."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Here we show that by a small extension to the integer program both methods become equivalent. <sentence_start/>Furthermore, based on well-known preprocessing procedures for integer programming we present efficient preprocessing steps which can be used for both algorithms. <sentence_start/>We then benchmark the numerical performance of the algorithms in several realistic medium-scale metabolic models. <sentence_start/>The benchmark calculations reveal (i) that these preprocessing steps can lead to an enormous speed-up under both algorithms, and (ii) that the adapted Berge algorithm outperforms the binary integer approach."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Generally, both of our new implementations are by at least one order of magnitude faster than other currently available implementations."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "The aim of metabolic engineering is to (re-)allocate available cellular resources in order to induce/stimulate cells to produce substances of interest. <sentence_start/>For instance, by redirecting intracellular carbon fluxes, product yields can be boosted and optimized [<citation ref-type=\"bibr\" rid=\"B1\" doi=\"10.1038/nchembio.970\" pmid=\"22596205\" count=\"1\">1</citation>,<citation ref-type=\"bibr\" rid=\"B2\" doi=\"10.1016/j.ymben.2011.06.008\" pmid=\"21763447\" count=\"1\">2</citation>]. <sentence_start/>However, the identification of engineering targets is not straight-forward as cellular metabolism is a highly interconnected and regulated system of reactions. <sentence_start/>Consequently, na\u00efve interventions sometimes are ineffective or worse, adversely affect other, even quite distant cellular functions. <sentence_start/>To deal with the complex interactions in cellular metabolism and to identify promising engineering targets several <italic>in silico</italic> approaches have been developed [<citation ref-type=\"bibr\" rid=\"B3\" doi=\"10.1016/j.ymben.2012.09.005\" pmid=\"23026121\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"B9\" doi=\"10.1073/pnas.232349399\" pmid=\"12415116\" pmcid=\"PMC137552\" count=\"1\">9</citation>]. <sentence_start/>Here we are particularly concerned with two algorithms [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>,<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>], which are based on <italic>elementary mode</italic> (EM) analysis [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1038/73786\" pmid=\"10700151\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B13\" doi=\"10.1016/S0167-7799(98)01290-6\" pmid=\"10087604\" count=\"1\">13</citation>] and eventually compute intervention strategies as <italic>minimal cut sets</italic>."
+  },
+  {
+   "section": "article",
+   "text": "EM analysis was successfully used to identify engineering targets for the production of amino acids [<citation ref-type=\"bibr\" rid=\"B14\" doi=\"10.1016/j.ymben.2011.01.003\" pmid=\"21241816\" count=\"1\">14</citation>], biofuels [<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1128/AEM.00382-11\" pmid=\"21642415\" pmcid=\"PMC3147371\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"B16\" doi=\"10.1128/AEM.02708-07\" pmid=\"18424547\" pmcid=\"PMC2446564\" count=\"1\">16</citation>], and secondary metabolites [<citation ref-type=\"bibr\" rid=\"B17\" doi=\"10.1016/j.ymben.2009.11.002\" pmid=\"19944775\" pmcid=\"PMC2875070\" count=\"1\">17</citation>] in various organisms from <italic>C. glutamicum</italic>[<citation ref-type=\"bibr\" rid=\"B14\" doi=\"10.1016/j.ymben.2011.01.003\" pmid=\"21241816\" count=\"1\">14</citation>] to <italic>E. coli</italic>[<citation ref-type=\"bibr\" rid=\"B15\" doi=\"10.1128/AEM.00382-11\" pmid=\"21642415\" pmcid=\"PMC3147371\" count=\"1\">15</citation>,<citation ref-type=\"bibr\" rid=\"B16\" doi=\"10.1128/AEM.02708-07\" pmid=\"18424547\" pmcid=\"PMC2446564\" count=\"1\">16</citation>] to <italic>S. cerevisiae</italic>[<citation ref-type=\"bibr\" rid=\"B18\" doi=\"10.1016/S1004-9541(08)60052-X\" count=\"1\">18</citation>] to <italic>A. niger</italic>[<citation ref-type=\"bibr\" rid=\"B19\" doi=\"10.1016/j.ymben.2011.11.002\" pmid=\"22115737\" count=\"1\">19</citation>]. <sentence_start/>In fact, EM analysis is ideally suited for metabolic engineering [<citation ref-type=\"bibr\" rid=\"B20\" doi=\"10.1002/biot.201200269\" pmid=\"23788432\" count=\"1\">20</citation>,<citation ref-type=\"bibr\" rid=\"B21\" doi=\"10.1007/s00253-008-1770-1\" pmid=\"19015845\" pmcid=\"PMC2909134\" count=\"1\">21</citation>] as it allows for an unambiguous and unbiased decomposition of the analyzed network into inseparable, biologically meaningful steady-state pathways. <sentence_start/>Any intracellular flux distribution can be represented as a properly weighted combination of these EMs. <sentence_start/>Thus, the full set of EMs describes all possible steady-state functions. <sentence_start/>Conversely, the cell\u2019s metabolic capabilities can be restricted if EMs are removed from the network. <sentence_start/>To remove an EM from the network it suffices to delete at least one contributing reaction [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1038/73786\" pmid=\"10700151\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B13\" doi=\"10.1016/S0167-7799(98)01290-6\" pmid=\"10087604\" count=\"1\">13</citation>]. <sentence_start/>However, as each reaction supports more than one EM, other network functionality will be affected, too. <sentence_start/>Now the question may be phrased as an optimization problem. <sentence_start/>The task is to find a minimal intervention strategy, which removes all unwanted functionality from the network while, at the same time, keeps desirable network properties."
+  },
+  {
+   "section": "article",
+   "text": "Recently, H\u00e4dicke and Klamt [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>] introduced the concept of constrained minimal cut sets (cMCSs) to predict suitable minimal intervention strategies for a given design criterion. <sentence_start/>They also presented an algorithm (adapted Berge algorithm [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>]; see also [<citation ref-type=\"bibr\" rid=\"B22\" count=\"1\">22</citation>,<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1089/cmb.2007.0229\" pmid=\"18331197\" count=\"1\">23</citation>]) by which cMCSs can be computed from EMs. <sentence_start/>Jungreuthmayer and Zanghellini [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>] conceived an alternative method to compute cMCSs by solving a binary integer program (BIP) over the EMs."
+  },
+  {
+   "section": "article",
+   "text": "By adapting the BIP originally presented in [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>] we first demonstrate that both algorithms deliver indeed equivalent results. <sentence_start/>Inspired by the theory of integer programming, we then develop efficient preprocessing procedures, which allow both methods to handle problems with hundreds of millions of EMs. <sentence_start/>Finally, by computing intervention strategies in several realistic networks, we benchmark and compare the computational performance of both algorithms."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "EMs are an unbiased way to characterize metabolic networks. <sentence_start/>An EM is defined by three properties [<citation ref-type=\"bibr\" rid=\"B12\" doi=\"10.1038/73786\" pmid=\"10700151\" count=\"1\">12</citation>,<citation ref-type=\"bibr\" rid=\"B13\" doi=\"10.1016/S0167-7799(98)01290-6\" pmid=\"10087604\" count=\"1\">13</citation>]: (i) it is a non-trivial, steady state flux distribution through the network, (ii) it obeys all thermodynamic constraints on reaction reversibilities, and (iii) no subset of an EM exists which also is an admissible flux distribution and obeys (i) and (ii). <sentence_start/>By this definition, an EM is a minimal, biologically meaningful, steady-state pathway through a network. <sentence_start/>An EM can be represented as a (flux) vector or by the set of active reactions in the EM. <sentence_start/>Herein we will mainly use the latter."
+  },
+  {
+   "section": "article",
+   "text": "In the following we assume that all EMs are known. <sentence_start/>Several tools to calculate EMs are freely available [<citation ref-type=\"bibr\" rid=\"B24\" doi=\"10.1016/j.biosystems.2013.04.002\" pmid=\"23664840\" count=\"1\">24</citation>-<citation ref-type=\"bibr\" rid=\"B27\" doi=\"10.1093/bioinformatics/btl267\" pmid=\"16731697\" count=\"1\">27</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "cMCS theory"
+  },
+  {
+   "section": "article",
+   "text": "H\u00e4dicke and Klamt [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>] defined cMCSs as solutions <italic>I</italic> of an intervention problem"
+  },
+  {
+   "section": "article",
+   "text": "Here, <bold> <italic>D</italic> </bold> and <bold> <italic>T</italic> </bold> denote sets of desired and target modes, respectively. <sentence_start/>The latter contains all EMs, which need to be removed from the network. <sentence_start/>The former contains all EMs with favorable functionality. <sentence_start/>An intervention <italic>I</italic> will be a set of reactions that are deleted (knocked-out) in the network. <sentence_start/>An EM is hit (and becomes inoperable) if at least one reaction of <italic>I</italic> is part of the EM. <sentence_start/>The variable <italic>n</italic> denotes the minimum number of desired EMs, which have to \u201csurvive\u201d the intervention. <sentence_start/>For a given intervention <italic>I</italic>, we collect all the surviving desired modes in the set <bold> <italic>D</italic> </bold><sub> <italic>I</italic> </sub>."
+  },
+  {
+   "section": "article",
+   "text": "A proper solution <italic>I</italic> of equation (1) is a set of reactions obeying two conditions: First, the removal of the reactions in <italic>I</italic> will delete the complete target set, <bold> <italic>T</italic> </bold>, from the network"
+  },
+  {
+   "section": "article",
+   "text": "and no subset of <italic>I</italic> will do so. <sentence_start/>This is the MCS property. <sentence_start/>To be a <italic>constrained</italic> MCS the intervention <italic>I</italic> will keep at least <italic>n</italic> desirable EMs unaffected, i.e."
+  },
+  {
+   "section": "article",
+   "text": "As each EM represents a unique pathway through a network, removing it from the network means to block that path, which is easily doable by deleting at least one contributing reaction. <sentence_start/>Thus, to meet condition (2), the task is to find a (minimal) hitting set such that all pathways in <bold> <italic>T</italic> </bold> are blocked [see equation (2)]. <sentence_start/>Mathematically, this problem is also known as dualization of a (hyper-)graph, a fundamental problem in discrete mathematics [<citation ref-type=\"bibr\" rid=\"B28\" doi=\"10.1016/j.dam.2007.04.017\" count=\"1\">28</citation>]. <sentence_start/>Several algorithms for calculating hitting sets are available, of which the Berge algorithm [<citation ref-type=\"bibr\" rid=\"B22\" count=\"1\">22</citation>] has been shown to perform favorably for the problems considered herein [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1089/cmb.2007.0229\" pmid=\"18331197\" count=\"1\">23</citation>]. <sentence_start/>However, minimal hitting sets ensure only that all target modes are hit but do not per se ensure the constraint (3), i.e. the survival of <italic>n</italic> desired modes."
+  },
+  {
+   "section": "article",
+   "text": "A simple strategy to fulfill equation (2) in combination with the constraint in equation (3), is to first calculate all possible minimal hitting sets and then, in a second step, to only select those solutions which also obey equation (3). <sentence_start/>However, the computational performance can be optimized if the constraint equation (3) is checked \u201con the fly\u201d, leading to the adapted Berge algorithm presented in [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A pseudo-code of the adapted Berge algorithm can be found in [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>], in the following we give a small example to explain basic principles of the Berge algorithm. <sentence_start/>Consider a hypergraph with hyperedges <italic>\u03b5</italic><sub>1</sub>={<italic>a</italic>,<italic>b</italic>} and <italic>\u03b5</italic><sub>2</sub>={<italic>a</italic>,<italic>c</italic>} (in our application, <italic>\u03b5</italic><sub>1</sub> and <italic>\u03b5</italic><sub>2</sub> would represent target EMs). <sentence_start/>The algorithm finds first all minimal hitting sets (cut sets) for the first edge, i.e. <italic>\u03b3</italic><sub>1</sub>={<italic>a</italic>} and <italic>\u03b3</italic><sub>2</sub>={<italic>b</italic>}. <sentence_start/>It then adds the next edge, <italic>\u03b5</italic><sub>2</sub>, and checks whether the already calculated cut sets are also cut sets for the current edge. <sentence_start/>Since <italic>\u03b3</italic><sub>1</sub> is hitting <italic>\u03b5</italic><sub>2</sub>, <italic>\u03b3</italic><sub>1</sub> is kept unchanged. <sentence_start/>However, <italic>\u03b3</italic><sub>2</sub> is not a cut set for <italic>\u03b5</italic><sub>2</sub> and, thus, is removed from the list of cut sets. <sentence_start/>Instead, two new cut sets are created by individually adding each element of <italic>\u03b5</italic><sub>2</sub> to <italic>\u03b3</italic><sub>2</sub>, i.e. <italic>\u03b3</italic><sub>3</sub>={<italic>b</italic>,<italic>a</italic>} and <italic>\u03b3</italic><sub>4</sub>={<italic>b</italic>,<italic>c</italic>}. <sentence_start/>To guarantee minimality the algorithm checks if a newly created cut set is a superset of an already existing one. <sentence_start/>That is, <italic>\u03b3</italic><sub>3</sub> gets removed from the set of cut sets as it is a superset of <italic>\u03b3</italic><sub>1</sub>. <sentence_start/>Next, a new edge is added to the system and the calculation cycle starts over. <sentence_start/>Execution stops when all hyperedges are processed. <sentence_start/>To account for the intervention problem and accelerate the classic algorithm, H\u00e4dicke and Klamt suggested to first check if a newly generated cut set is consistent with the constraint (3) and only then check its minimality against all previously calculated cut sets [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>]. <sentence_start/>This modification leads to the adapted Berge algorithm [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>] which will be used in the following."
+  },
+  {
+   "section": "article",
+   "text": "cMCSs can be formulated as a BIP"
+  },
+  {
+   "section": "article",
+   "text": "In a recent paper [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>] we showed that if |<bold> <italic>D</italic> </bold>|=<italic>n</italic> then the intervention <italic>I</italic>=<italic>I</italic>(<bold> <italic>T</italic> </bold>,<bold> <italic>D</italic> </bold>,<italic>n</italic>) is representable as a BIP. <sentence_start/>However, even the general problem that at least <italic>n</italic> out of |<bold> <italic>D</italic> </bold>| modes need to survive the intervention can be formulated as a BIP."
+  },
+  {
+   "section": "article",
+   "text": "Let <bold> <italic>e</italic> </bold> be an EM of a metabolic network with <italic>m</italic> reactions, fulfilling the steady state condition, and <bold> <italic>b</italic> </bold>=<bold> <italic>b</italic> </bold>(<bold> <italic>e</italic> </bold>) its binary representation,"
+  },
+  {
+   "section": "article",
+   "text": "<italic>b</italic><sup> <italic>i</italic> </sup> indicates whether reaction <italic>i</italic> is part of the EM <bold> <italic>e</italic> </bold>."
+  },
+  {
+   "section": "article",
+   "text": "A solution <bold> <italic>x</italic> </bold> to equation (1) can be found by solving the following BIP:"
+  },
+  {
+   "section": "article",
+   "text": "Here we used the indices <italic>d</italic> and <italic>t</italic> as a reminder that the EM vectors, <bold> <italic>b</italic> </bold><sub> <italic>i</italic> </sub>, are elements of the sets <bold> <italic>D</italic> </bold> and <bold> <italic>T</italic> </bold>, respectively. <sentence_start/>The solution vector, <bold> <italic>x</italic> </bold>, is the binary representation of a single cMCS, where <italic>x</italic><sup> <italic>i</italic> </sup>=0 marks reactions which get deleted, while <italic>x</italic><sup> <italic>i</italic> </sup>=1 stands for reactions that remain unaffected by the genetic intervention. <sentence_start/>The elements of the binary, auxiliary vector, <bold> <italic>y</italic> </bold>, indicate whether or not a desirable mode survives the intervention (1 and 0, respectively). <sentence_start/>Note that our notation uses <italic>superscripts</italic> to denote <italic>coordinates</italic> of vectors and <italic>subscripts</italic> to denote different <italic>vectors</italic>. <sentence_start/>Finally, represents the multilinear norm of <bold> <italic>x</italic> </bold>."
+  },
+  {
+   "section": "article",
+   "text": "Suppose <italic>y</italic><sup> <italic>d</italic> </sup>=1, then equation (5c) always holds and can be omitted. <sentence_start/>Equation (5b) requires that , \u2200<italic>i</italic>\u2208{1,\u2026,<italic>m</italic>}. <sentence_start/>Only then the product of and <bold> <italic>x</italic> </bold> is equal to the norm of <bold> <italic>b</italic> </bold><sub> <italic>d</italic> </sub>. <sentence_start/>Thus, <bold> <italic>b</italic> </bold><sub> <italic>d</italic> </sub> is included in the final design. <sentence_start/>In contrast to <bold> <italic>b</italic> </bold><sub> <italic>d</italic> </sub>, <bold> <italic>b</italic> </bold><sub> <italic>t</italic> </sub> will be removed from the network as equation (5d) requires that the product is smaller than the ||<bold> <italic>b</italic> </bold><sub> <italic>t</italic> </sub>||. <sentence_start/>This is the case only if at least one reaction in <bold> <italic>b</italic> </bold><sub> <italic>t</italic> </sub> is deleted. <sentence_start/>Except for equation (5e), the systems of equations in this case resembles the BIP problem presented in Jungreuthmayer and Zanghellini [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "If <italic>y</italic><sup> <italic>d</italic> </sup>=0, then equation (5b) is ineffective. <sentence_start/>Equation (5c) however simplifies into a \u201ckill constraint\u201d, thus eliminating <bold> <italic>b</italic> </bold><sub> <italic>d</italic> </sub> from the surviving modes."
+  },
+  {
+   "section": "article",
+   "text": "The binary auxiliary variables <bold> <italic>y</italic> </bold>=(<italic>y</italic><sup>1</sup>,\u2026,<italic>y</italic><sup>|<bold> <italic>D</italic> </bold>|</sup>)<sup>T</sup> were introduced to guarantee that at least <italic>n</italic> out of |<bold> <italic>D</italic> </bold>| modes survive the intervention. <sentence_start/>In both cases ||<bold> <italic>y</italic> </bold>|| counts the number of surviving desired modes, and equation (5e) makes sure that at least <italic>n</italic> desired modes survive the intervention."
+  },
+  {
+   "section": "article",
+   "text": "Alternative MCSs may be calculated by excluding existing solutions <bold> <italic>x</italic> </bold><sub> <italic>j</italic> </sub> by adding the following constraints [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>] to the set of equations (5a)-(5g):"
+  },
+  {
+   "section": "article",
+   "text": "where we used <bold> <italic>1</italic> </bold> to denote an all-one-vector. <sentence_start/>Equation (6a) guarantees that new solutions are found in subsequent steps, whereas equation (6b) prevents the calculation of solutions that are supersets of already existing solutions. <sentence_start/>Note that the term <bold> <italic>1</italic> </bold>\u2212<bold> <italic>x</italic> </bold><sub> <italic>j</italic> </sub> represents the binary complement of <bold> <italic>x</italic> </bold><sub> <italic>j</italic> </sub>."
+  },
+  {
+   "section": "article",
+   "text": "The number of constraints added to the BIP can almost be cut in half (in fact, <italic>n</italic>/2\u22121) by keeping in mind that the norm of the current solution <bold> <italic>x</italic> </bold><sub> <italic>j</italic> </sub> will never be larger than the previous optimum <bold> <italic>x</italic> </bold><sub> <italic>j</italic>\u22121</sub>. <sentence_start/>To sequentially calculate all MCSs the full BIP reads"
+  },
+  {
+   "section": "article",
+   "text": "If iteratively applied, the BIP in equation (7) returns all MCSs, <bold> <italic>x</italic> </bold><sub> <italic>j</italic> </sub>, sorted in increasing order of deletions. <sentence_start/>Note that although the constraint in equation (7e) is redundant, it significantly enhances the computational performance of the BIP solver."
+  },
+  {
+   "section": "article",
+   "text": "Preprocessing methods"
+  },
+  {
+   "section": "article",
+   "text": "Mathematically, BIPs are classified as NP-hard problems. <sentence_start/>However, extensive research has focused on improving the formulation of BIPs. <sentence_start/>The basic idea is to use simple logic rules which turn a BIP into a \u201cbetter\u201d formulation, which is easier to solve [<citation ref-type=\"bibr\" rid=\"B29\" count=\"1\">29</citation>]. <sentence_start/>Standard BIP preprocessing rules essentially fix variables, improve bounds or detect inactive constraints [<citation ref-type=\"bibr\" rid=\"B29\" count=\"1\">29</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In the following we will be concerned with standard BIP preprocessing methods to reduce the size of the intervention problem in equation (1) but not with the internal structure of the algorithms. <sentence_start/>These preprocessing procedures will allow to reduce the size of the intervention problem in equation (1), which can then be solved by the Berge algorithm or a BIP. <sentence_start/>In the following, by \u201cBerge algorithm\u201d we mean the adapted Berge algorithm reported by H\u00e4dicke and Klamt [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>] which extends the standard Berge algorithm to compute only minimal hitting sets (cut sets) that comply with the constraint (3) on the desired modes [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "We assume that all EMs are converted to their binary representation according to equation (4). <sentence_start/>Furthermore, we split the complete set of EMs in three sets, <bold> <italic>D</italic> </bold>, <bold> <italic>N</italic> </bold>, and <bold> <italic>T</italic> </bold>. <sentence_start/>Here the neutral set, <bold> <italic>N</italic> </bold>, contains all (binary) EMs, which are neither element of <bold> <italic>D</italic> </bold> nor <bold> <italic>T</italic> </bold>."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Step 1.</bold> <sentence_start/>First, we remove all reactions that are simultaneously zero in all EMs of <bold> <italic>T</italic> </bold>. <sentence_start/>These reactions do not support any EM in <bold> <italic>T</italic> </bold>. <sentence_start/>Deleting them will not remove any unwanted mode."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Step 2.</bold> <sentence_start/>Next, essential reactions are identified. <sentence_start/>If deleting a reaction reduces the number of surviving modes in <bold> <italic>D</italic> </bold> to less than <italic>n</italic> [i.e. violates equation (3)], then this reaction is considered to be essential and cannot be knocked out. <sentence_start/>A reaction <italic>i</italic> is essential if |<bold> <italic>D</italic> </bold>|\u2212<italic>s</italic><sup> <italic>i</italic> </sup>&lt;<italic>n</italic>, with ."
+  },
+  {
+   "section": "article",
+   "text": "Consider the example in Table 1 with |<bold> <italic>D</italic> </bold>|=5 and <italic>n</italic>=3. <sentence_start/><italic>R</italic>1 and <italic>R</italic>7 are essential reactions, as for them |<bold> <italic>D</italic> </bold>|\u2212<italic>s</italic><sup> <italic>i</italic> </sup>=5\u22123=2&lt;3=<italic>n</italic>, which indicates that knocking out <italic>R</italic>1 or <italic>R</italic>7 will kill more desirable modes than allowed. <sentence_start/>We note that if |<bold> <italic>D</italic> </bold>|=<italic>n</italic>, all active reactions are essential."
+  },
+  {
+   "section": "article",
+   "text": "In general, the more essential reactions we find, the more the system can be reduced. <sentence_start/>Consequently, it is beneficial if <italic>n</italic> is large (ideally <italic>n</italic>=|<bold> <italic>D</italic> </bold>|), as this results in the maximum number of essential reactions. <sentence_start/>Removing all essential reactions from the system is a critical step that opens the possibility to apply several other preprocessing procedures."
+  },
+  {
+   "section": "article",
+   "text": "The removal of all essential reactions results in an important change of the system. <sentence_start/>By definition EMs are non-decomposable, i.e. an EM is not a subset of any other EM. <sentence_start/>However, if the essential reactions are removed then the residual EMs may become subsets or duplicates of other modes. <sentence_start/>Hence, the next step is to find all duplicate modes in <bold> <italic>T</italic> </bold> and to remove them from the system."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Step 3.</bold> <sentence_start/>Next, we screen <bold> <italic>T</italic> </bold> to find and remove residual EMs that are supersets of other residual EMs in <bold> <italic>T</italic> </bold>. <sentence_start/>Consider the target set (of residual EMs), <bold> <italic>T</italic> </bold>, shown in Table 2. <sentence_start/>The modes are sorted in order of ascending norm. <sentence_start/>The example illustrates that mode <bold> <italic>t</italic> </bold><sub>1</sub> can be removed by knocking out reaction <italic>R</italic>2. <sentence_start/>However, knocking out reaction R2 also kills <bold> <italic>t</italic> </bold><sub>2</sub>, as <bold> <italic>t</italic> </bold><sub>2</sub> is a superset of <bold> <italic>t</italic> </bold><sub>1</sub>."
+  },
+  {
+   "section": "article",
+   "text": "The same procedure can be applied to the other modes as well. <sentence_start/>Mode <bold> <italic>t</italic> </bold><sub>3</sub> has a norm of 2 and is killed either by knocking out reaction R4 or reaction R7. <sentence_start/>As both reactions are part of <bold> <italic>t</italic> </bold><sub>4</sub> and <bold> <italic>t</italic> </bold><sub>5</sub>, they are certainly removed if mode <bold> <italic>t</italic> </bold><sub>3</sub> is killed."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Step 4.</bold> <sentence_start/>In a final preprocessing step, we remove duplicate reactions across all EMs in both sets, <bold> <italic>D</italic> </bold> and <bold> <italic>T</italic> </bold>. <sentence_start/>Using the illustration in Table 2, this would mean that we remove duplicate columns. <sentence_start/>Note that this step is most effective after all supersets were removed. <sentence_start/>For instance, in Table 2 columns R1, R3 and R8 are identical only if <bold> <italic>t</italic> </bold><sub>2</sub>, <bold> <italic>t</italic> </bold><sub>4</sub>, and <bold> <italic>t</italic> </bold><sub>5</sub> are removed. <sentence_start/>In this step it is not possible to analyze <bold> <italic>D</italic> </bold> and <bold> <italic>T</italic> </bold> separately. <sentence_start/>Reactions need to be identical in both sets, <bold> <italic>D</italic> </bold> and <bold> <italic>T</italic> </bold>, in order to be removed."
+  },
+  {
+   "section": "article",
+   "text": "Implementation"
+  },
+  {
+   "section": "article",
+   "text": "We implemented the BIP algorithm in C using Gurobi Optimizer 5.0, for solving the BIP problem. <sentence_start/>The adapted Berge algorithm was implemented in C. <sentence_start/>The software is available from the authors on request. <sentence_start/>The simulations were all carried out on an Intel Xeon CPU X5650 @ 2.67GHz under a Linux operating system."
+  },
+  {
+   "section": "article",
+   "text": "Test cases"
+  },
+  {
+   "section": "article",
+   "text": "We used the <italic>E. coli</italic> core model, E0, [<citation ref-type=\"bibr\" rid=\"B30\" count=\"1\">30</citation>] and two smaller models, E1 and E2, which were derived from the E0 model by removing several reactions. <sentence_start/>Compared to the E0 model, glucose was considered as the only carbon substrate for E1 and exchange of <italic>\u03b1</italic>-ketoglutarate, acetaldehyde, acetate, formate, lactate, and pyruvate was not allowed. <sentence_start/>In addition to these modifications we also removed the glyoxylate shunt and the (NAD and NADP dependent) malic enzymes to obtain the E2 model from E1. <sentence_start/>All three models are illustrated in Figure 1. <sentence_start/>Their main topological properties are summarized in Table 3. <sentence_start/>A list of reactions for these models may be found in the (Additional file 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Overview of the different </bold><bold><italic>E. coli</italic></bold><bold> models.</bold> <sentence_start/>For simplicity we only show pathways. <sentence_start/>Cofactors etc. are suppressed. <sentence_start/>Metabolites contributing to the biomass are depicted in yellow. <sentence_start/>Pathways included in the E2 model are indicated in red. <sentence_start/>E1 contains the red and blue pathways only, while E0 [<citation ref-type=\"bibr\" rid=\"B30\" count=\"1\">30</citation>] incloses all reactions, including the non-colored pathways. <sentence_start/>A detailed listing of all models may be found in the Additional file 1."
+  },
+  {
+   "section": "article",
+   "text": "To test the numerical efficiency of the implemented MCS algorithms we set up the following intervention problems: We first identify the most efficient EMs in all models. <sentence_start/>Efficiency is defined as the product between growth rate and ethanol secretion. <sentence_start/>Next, we classify all EMs to be desirable, whose ethanol secretion is larger or equal than the excretion of the most efficient EMs. <sentence_start/>Targets are all other modes that do not utilize ethanol. <sentence_start/>Modes which take up ethanol (negative secretion) are considered neutral, as ethanol uptake is repressed in the presence of glucose in the growth medium [<citation ref-type=\"bibr\" rid=\"B31\" doi=\"10.1016/j.mib.2008.02.007\" pmid=\"18359269\" count=\"1\">31</citation>]. <sentence_start/>Therefore these modes do not need to be targeted. <sentence_start/>In Figure 2 we illustrate the intervention problem and the choice of <bold> <italic>D</italic> </bold>, <bold> <italic>N</italic> </bold>, and <bold> <italic>T</italic> </bold> for the E2 model. <sentence_start/>The major properties of the design criteria for the different <italic>E. coli</italic> models are listed in Table 4."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Phenotypic plot of all EMs in E2. Flux values are normalized to the total carbon influx (C- flux</bold><bold><sub>in</sub></bold><bold>).</bold> <sentence_start/>EMs are color coded with respect to the modes\u2019 efficiency, defined as the product between normalized growth and normalized ethanol secretion (etoh<sub>out</sub>). <sentence_start/>The most efficient EM is marked by an arrow. <sentence_start/>The areas D, N, and T indicate the corresponding sets of EMs for the intervention problem <italic>I</italic><italic><sub>n</sub></italic>(<bold><italic>T</italic></bold>,<bold><italic>D</italic></bold>,<italic>n</italic>) with <italic>n </italic>\u2208 {1,\u2026,<italic>n</italic><sub>max</sub>}."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Berge algorithm outperforms the BIP"
+  },
+  {
+   "section": "article",
+   "text": "Figure 3 shows the computation time to calculate all MCSs using either method as a function of the minimally required number <italic>n</italic> of surviving desired EMs. <sentence_start/>We used the design criteria outlined above. <sentence_start/>At <italic>n</italic>=2 we found 81,168 and 441,095 MCSs in E2 and E1, respectively. <sentence_start/>(The number of MCSs as function of <italic>n</italic> may be found in Additional file 2: Figure S1.) <sentence_start/>In all tested situations the adapted Berge algorithm clearly outperforms the BIP. <sentence_start/>Even in the most demanding case (<italic>n</italic>=2), the Berge algorithm calculated all MCSs in E1 in less than 10 min. <sentence_start/>On the other hand, it already took the BIP 22 hours to calculate all 331 MCSs for <italic>n</italic>=85 in the smaller E2 model. <sentence_start/>In the same situation the Berge implementation finished in 0.4 sec."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Runtime for the Berge algorithm (left panel) and the BIP (right panel) for the models E2 (red) and E1 (blue), respectively.</bold> <sentence_start/>The runtimes for preprocessing (circles) and calculating MCSs are plotted as function of <italic>n</italic>. <sentence_start/><italic>n</italic> is the lower bound of desired EMs, which must survive the intervention. <sentence_start/>Table 4 gives the size of the intervention problem for both models. <sentence_start/>As the trend is clearly visible, we did not evaluate the BIP for <italic>n </italic>&lt; 80."
+  },
+  {
+   "section": "article",
+   "text": "It is interesting to observe that over a wide range of values for <italic>n</italic> the runtime in both methods changes according to a power law (see Figure 3). <sentence_start/>However, only for the Berge algorithm the exponent remained approximately constant in both test cases."
+  },
+  {
+   "section": "article",
+   "text": "Preprocessing-times are essentially independent of <italic>n</italic> and only scale with the total number of processed EMs. <sentence_start/>For cases with very few MCSs (see Additional file 2: Figure S1) the Berge algorithm took even less time than the preprocessing."
+  },
+  {
+   "section": "article",
+   "text": "Preprocessing reduces overall computation time"
+  },
+  {
+   "section": "article",
+   "text": "To test the impact of our preprocessing procedures we set up identical intervention problems for all models. <sentence_start/>That is, we solved <italic>I</italic><sub>0</sub>=<italic>I</italic>(<bold> <italic>T</italic> </bold><sub>0</sub>,<bold> <italic>D</italic> </bold>,<italic>n</italic>), <italic>I</italic><sub>1</sub>=<italic>I</italic>(<bold> <italic>T</italic> </bold><sub>1</sub>,<bold> <italic>D</italic> </bold>,<italic>n</italic>), and <italic>I</italic><sub>2</sub>=<italic>I</italic>(<bold> <italic>T</italic> </bold><sub>2</sub>,<bold> <italic>D</italic> </bold>,<italic>n</italic>), where we used the indices 0, 1, and 2 to denote the dependence on the models E0, E1, and E2, respectively. <sentence_start/>We used identical sets of desired EMs in all models, i.e. <bold> <italic>D</italic> </bold><sub>0</sub>=<bold> <italic>D</italic> </bold><sub>1</sub>=<bold> <italic>D</italic> </bold><sub>2</sub>=<bold> <italic>D</italic> </bold> and <italic>n</italic><sub>0</sub>=<italic>n</italic><sub>1</sub>=<italic>n</italic><sub>2</sub>=<italic>n</italic>. <bold> <italic>T</italic> </bold><sub> <italic>i</italic> </sub>,<italic>i</italic>\u2208{0,1,2} consisted of all EMs not contained in <bold> <italic>D</italic> </bold>. <sentence_start/>Values for <bold> <italic>D</italic> </bold>, <italic>n</italic>, <bold> <italic>T</italic> </bold><sub> <italic>i</italic> </sub> and the runtimes for the Berge algorithm in two different cases (<italic>n</italic>/|<bold> <italic>D</italic> </bold>|\u22481 and <italic>n</italic>/|<bold> <italic>D</italic> </bold>|\u226a1) may be found in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "In the most demanding case (<italic>n</italic>/|<bold> <italic>D</italic> </bold>|\u226a1), the Berge algorithm with preprocessing identified 1,720 MCSs in less than 30 minutes in the large E0 model with its 124 million EMs (see Table 5). <sentence_start/>Only 1% of the computation time was used for the Berge algorithm. <sentence_start/>Ninety-four percent of the computation is spent on preprocessing. <sentence_start/>After preprocessing the initial system of 124 million EMs was reduced to approximately 300,000 modes. <sentence_start/>In all tested cases with enhanced preprocessing, reading EMs and preprocessing took at least 90% of the total computation time. <sentence_start/>We repeated the same simulation without preprocessing. <sentence_start/>While the total runtime with and without preprocessing is comparable if only a few MCSs are found, the runtime savings in MCS calculation more than outweigh the runtime losses due to preprocessing if many MCSs solve an intervention problem. <sentence_start/>To emphasize this point we show the total runtime as function of the number of MCSs for Figure 3 in the Additional file 2: Figure S1."
+  },
+  {
+   "section": "article",
+   "text": "Finally in Table 6 we show several examples from the literature, which can be easily and efficiently solved by either method. <sentence_start/>As a comparison we have also listed runtimes using the current version (version 2012.1) of CellNetAnalyzer (CNA) [<citation ref-type=\"bibr\" rid=\"B32\" doi=\"10.1186/1752-0509-1-2\" pmid=\"17408509\" pmcid=\"PMC1847467\" count=\"1\">32</citation>]. <sentence_start/>CNA uses a MATLAB implementation of the Berge algorithm. <sentence_start/>However, its preprocessing capabilities are less developed. <sentence_start/>That is why both programs, our Berge-algorithm and BIP, outperform CNA in all instances by at least one order of magnitude. <sentence_start/>Note however that CNA uses a MATLAB script, while our programs are implemented in C. A significant part of the performance difference may therefore be attributed to the slower performance of MATLAB compared to native executables written in C."
+  },
+  {
+   "section": "article",
+   "text": "Preprocessing strongly reduces the system size"
+  },
+  {
+   "section": "article",
+   "text": "In Figure 4 we used a BIP and show the computation time as a function of the number of MCSs for the aerobic <italic>E. coli</italic>[<citation ref-type=\"bibr\" rid=\"B33\" doi=\"10.1007/s00253-012-4197-7\" pmid=\"22678028\" count=\"1\">33</citation>] model of Trinh <italic>et al.</italic>[<citation ref-type=\"bibr\" rid=\"B16\" doi=\"10.1128/AEM.02708-07\" pmid=\"18424547\" pmcid=\"PMC2446564\" count=\"1\">16</citation>] (see line number 2 in Table 6 for model details). <sentence_start/>Note that although Table 6 lists 55,488 different MCSs, the BIP (and our Berge algorithm for that matter) only needs to calculate 164 solutions. <sentence_start/>Due to preprocessing the original network is reduced from 71 reactions and 429,275 EMs to an equivalent system with only 23 columns and 28 rows. <sentence_start/>This smaller system has 164 MCSs, which are then reconstructed to the full set of MCSs by expanding duplicated columns. <sentence_start/>A similar observation may also be made in Table 5. <sentence_start/>In these examples the system size is at least reduced by a factor of 30 (case E2, <italic>n</italic><sub>2</sub>=40)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Computation time of the BIP as function of the number of MCSs for the aerobic</bold><bold><italic>E. coli</italic></bold>[<citation ref-type=\"bibr\" rid=\"B33\" doi=\"10.1007/s00253-012-4197-7\" pmid=\"22678028\" count=\"1\">33</citation>]<bold>model of Trinh</bold><bold><italic>et al.</italic></bold>[<citation ref-type=\"bibr\" rid=\"B16\" doi=\"10.1128/AEM.02708-07\" pmid=\"18424547\" pmcid=\"PMC2446564\" count=\"1\">16</citation>]<bold>(line number 2 in Table</bold>6<bold>).</bold> <sentence_start/>The accumulated computation time for the respective models is plotted in the lower panel. <sentence_start/>The top panel shows the computation time for each solution. <sentence_start/>Note that it is impossible to calculate the runtime per solution for the Berge algorithm as the algorithm does not allow to continuously output the solution."
+  },
+  {
+   "section": "article",
+   "text": "Surprisingly, the computation time does not monotonically increase with the number of solutions [i.e. with the number of additional constraints, see equation (7)] but drops dramatically whenever the norm of the solution decreases. <sentence_start/>Note that a decreasing norm means an increase in the number of required knockouts. <sentence_start/>In this model the computation time significantly drops after solution number 11, 53, 116, and 156. <sentence_start/>At these instances the number of required deletions changes from 11 to 12, to 13, to 14, and to 15, respectively. <sentence_start/>In all these cases the constraint in equation (7e) decreases too and introduces a tighter bound on the system. <sentence_start/>This allows the solver\u2019s internal preprocessing to more efficiently compress the system, which in turn brings down the computation time. <sentence_start/>If, however, the norm of the solution does not change then the computation time scales approximately exponentially with the number of MCSs. <sentence_start/>This behavior is expected as each solution adds a new constrain to the system, which makes it harder to solve."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Recently cMCSs have been introduced to predict optimal intervention strategies in order to achieve an arbitrary metabolic objective [<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>]. <sentence_start/>Two algorithmic approaches have been published for their calculation [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>,<citation ref-type=\"bibr\" rid=\"B11\" doi=\"10.1016/j.ymben.2010.12.004\" pmid=\"21147248\" count=\"1\">11</citation>]. <sentence_start/>Here we showed that both methods are equivalent. <sentence_start/>We addressed the numerical efficiency of both methods in typical design problems and found that in terms of runtime the Berge algorithm is superior compared to BIP."
+  },
+  {
+   "section": "article",
+   "text": "It may appear as a surprise that the Berge algorithm performs so well even for the large cases presented in this study, especially since the Berge method is known for its unfavorable performance in huge networks [<citation ref-type=\"bibr\" rid=\"B34\" count=\"1\">34</citation>]. <sentence_start/>However, here we showed that efficient preprocessing can dramatically reduce the size of the networks. <sentence_start/>The adapted Berge algorithm could then be run on the reduced systems. <sentence_start/>Apparently, for small systems the Berge algorithm is effective."
+  },
+  {
+   "section": "article",
+   "text": "The importance of preprocessing in the calculation of MCSs has been stressed earlier [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1089/cmb.2007.0229\" pmid=\"18331197\" count=\"1\">23</citation>]. <sentence_start/>The preprocessing strategies introduced herein focus especially on the additional constraints posed by cMCSs, whereas [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1089/cmb.2007.0229\" pmid=\"18331197\" count=\"1\">23</citation>] dealt only with (unconstrained) MCSs. <sentence_start/>We were able to show that our implementation outperforms the currently available tool for computing (c)MCSs (see Table 6). <sentence_start/>The performance gain can be attributed to both the improved preprocessing and the efficient implementation in C. Herein we used standard preprocessing routines, which are frequently applied in BIP [<citation ref-type=\"bibr\" rid=\"B29\" count=\"1\">29</citation>]. <sentence_start/>Extensive literature on preprocessing in binary and integer programming is available, see for instance Savelsbergh [<citation ref-type=\"bibr\" rid=\"B35\" doi=\"10.1287/ijoc.6.4.445\" count=\"1\">35</citation>] for a good summary of basic ideas. <sentence_start/>Since cMCSs can be stated as a BIP, these methods are readily adoptable. <sentence_start/>However, due to the algorithmic complexity of BIP (solving numerous linear optimizations as part of one BIP, etc.), a full enumeration based on BIP seems not be competitive compared to the Berge algorithm (see Figure 3). <sentence_start/>Rather the usage of BIP preprocessing rules followed by the Berge algorithm to calculate cMCSs is suggested as an optimal computation strategy."
+  },
+  {
+   "section": "article",
+   "text": "The efficiency of preprocessing is dependent on the imposed design criterion. <sentence_start/>In the worst case the set of desired modes is empty (<bold> <italic>D</italic> </bold>=<italic>\u2205</italic>) and <bold> <italic>T</italic> </bold> contains all EMs of a network. <sentence_start/>This situation corresponds to unconstrained MCSs and thus to a full dualization of the hypergraph spanned by the target modes. <sentence_start/>Except for step 4, none of our preprocessing routines then provides an advantage and other solvers may be more appropriate [<citation ref-type=\"bibr\" rid=\"B34\" count=\"1\">34</citation>]. <sentence_start/>However such cases are not relevant in the context of metabolic engineering, where we want to optimize favorable functionality. <sentence_start/>To fully utilize the potential of preprocessing the ratio <italic>n</italic>/|<bold> <italic>D</italic> </bold>| should be close to one. <sentence_start/>This means that many essential reactions will be removed from the system, and as a result of that many supersets will be detected, too. <sentence_start/>However, in practice it may suffice if only a few EMs out of the set of desired modes survive, i.e. <italic>n</italic>/|<bold> <italic>D</italic> </bold>|\u226a1. <sentence_start/>Still, preprocessing provides a significant performance gain as indicated in Table 5. <sentence_start/>The runtime costs of preprocessing will be outweighed by the savings in MCS calculation, if the intervention problem has many solutions. <sentence_start/>In practice, preprocessing will therefore be favorable, as typical applications have a few thousand solutions (see Table 6)."
+  },
+  {
+   "section": "article",
+   "text": "In our paper [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>] we used weights in the objective function of the BIP to take experimental difficulties in the deletion of reactions into account. <sentence_start/>For instance, some reactions cannot be deleted as they are driven by diffusion, rather than catalyzed by an enzyme. <sentence_start/>Other reactions, on the other hand, may require the deletion of multiple genes as they are catalyzed by different enzymes in parallel. <sentence_start/>By an appropriate choice of the weights in the objective function BIP is able to predict the experimentally easiest deletion strategies first [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>]. <sentence_start/>However, in the preprocessing procedures above we did not consider weights in the objective function. <sentence_start/>Identifying particular solutions in the complete list of MCSs has to be done in a separate post-processing step (for example by appropriately sorting the output, which can be done quite fast). <sentence_start/>Thus even with an additional post-processing step our implementation of Berge\u2019s algorithm will be faster than BIP. <sentence_start/>Note however that the integration of regulatory information into the cMCS framework is a unique feature of the BIP approach [<citation ref-type=\"bibr\" rid=\"B10\" doi=\"10.1186/1752-0509-6-103\" pmid=\"22898474\" pmcid=\"PMC3560272\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Both methods, the Berge algorithm as well as BIP, still show room for computational improvements. <sentence_start/>In the case of the Berge algorithm the computational bottleneck sits in the filtering of potential MCSs to determine if they are, in fact, true MCSs and not supersets of true MCSs [<citation ref-type=\"bibr\" rid=\"B23\" doi=\"10.1089/cmb.2007.0229\" pmid=\"18331197\" count=\"1\">23</citation>]. <sentence_start/>Generating new MCS-candidates, however, is very quick. <sentence_start/>Therefore ways of enhancing the superset-filtering procedure will be the scope of future work."
+  },
+  {
+   "section": "article",
+   "text": "One disadvantage of the Berge algorithm is its inability to predict MCSs continuously during the runtime. <sentence_start/>During execution all MCSs remain candidate-MCSs. <sentence_start/>Only upon termination, when the minimality of all candidate MCSs has been checked against each other, candidate-MCSs become MCSs and can be outputted. <sentence_start/>Thus, even if we were interested in only one solution, the Berge algorithm will - in general - return more than one MCS upon termination. <sentence_start/>However, other solvers are available [<citation ref-type=\"bibr\" rid=\"B34\" count=\"1\">34</citation>]. <sentence_start/>Their adaption for the current situation is the scope of further work."
+  },
+  {
+   "section": "article",
+   "text": "BIP on the other hand, is able to predict a single solution without the need to enumerate all. <sentence_start/>In fact, due to the optimization principle only one MCS with a smallest or largest number of deletions can be calculated. <sentence_start/>In Figure 4 we illustrated the runtime per solution as function of the number of MCSs. <sentence_start/>The drop in runtime after certain solutions indicates that more advanced preprocessing procedures may further reduce the runtime significantly. <sentence_start/>In fact, our preprocessing focused on standard procedures like variable fixing. <sentence_start/>More advanced methods will further reduce the runtime for both the Berge algorithm and the BIP. <sentence_start/>Additionally we used GUROBI, a commercially available multi-purpose optimization toolbox, to solve the BIP. <sentence_start/>However, a specialized knapsack solver may potentially boost the performance."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "We predicted minimal metabolic intervention strategies in typical metabolic engineering problems using two different methods (an adapted Berge algorithm and a BIP). <sentence_start/>We investigated the numerical performance of these approaches. <sentence_start/>Both methods significantly profited from the enhanced preprocessing procedures developed here. <sentence_start/>Under the tested conditions, our implementation of Berge\u2019s algorithm performed best even outperforming other, currently available software."
+  },
+  {
+   "section": "article",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "article",
+   "text": "BIP: Binary integer program; cMCS: Constrained minimal cut set; CNA: CellNetAnalyzer; EM: Elementary mode; MCS: Minimal cut set; PP: Preprocessing."
+  },
+  {
+   "section": "article",
+   "text": "Competing interests"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "Authors\u2019 contributions"
+  },
+  {
+   "section": "article",
+   "text": "CJ implemented the algorithms and participated in the design of the study. <sentence_start/>GN coded the models and helped in running the analysis. <sentence_start/>SK participated in the design of the study. <sentence_start/>JZ conceived of the study, and participated in its design and coordination. <sentence_start/>CJ, SK and JZ wrote the manuscript. <sentence_start/>All authors read and approved the final manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Additional file 1"
+  },
+  {
+   "section": "article",
+   "text": "tar gzipped archive of the SBML files for the models E0, E1, and E2."
+  },
+  {
+   "section": "article",
+   "text": "Additional file 2"
+  },
+  {
+   "section": "article",
+   "text": "Total runtime with and without preprocessing for the Berge algorithm."
+  },
+  {
+   "section": "back",
+   "text": "Acknowledgements"
+  },
+  {
+   "section": "back",
+   "text": "C.J., G.N., and J.Z. gratefully acknowledge the support by the Federal Ministry of Economy, Family and Youth (BMWFJ), the Federal Ministry of Traffic, Innovation and Technology (bmvit), the Styrian Business Promotion Agency SFG, the Standortagentur Tirol and ZIT - Technology Agency of the City of Vienna through the COMET-Funding Program managed by the Austrian Research Promotion Agency FFG."
+  },
+  {
+   "section": "back",
+   "text": "S.K. acknowledges funding by the German Federal Ministry of Education and Research(e:Bio - 0316183D) and by the Ministry of Education and Research of Saxony-Anhalt (Research Center \u201cDynamic Systems: Biosystems Engineering\u201d)."
+  }
+ ]
+}

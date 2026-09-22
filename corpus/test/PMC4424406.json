@@ -1,0 +1,487 @@
+{
+ "pmid": 25759508,
+ "pmcid": 4424406,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Hinge-Region O-Glycosylation of Human Immunoglobulin G3 (IgG3)*"
+  },
+  {
+   "section": "abstract",
+   "text": "Immunoglobulin G (IgG) is one of the most abundant proteins present in human serum and a fundamental component of the immune system. <sentence_start/>IgG3 represents \u223c8% of the total amount of IgG in human serum and stands out from the other IgG subclasses because of its elongated hinge region and enhanced effector functions. <sentence_start/>This study reports partial O-glycosylation of the IgG3 hinge region, observed with nanoLC-ESI-IT-MS(/MS) analysis after proteolytic digestion. <sentence_start/>The repeat regions within the IgG3 hinge were found to be in part O-glycosylated at the threonine in the triple repeat motif. <sentence_start/>Non-, mono- and disialylated core 1-type O-glycans were detected in various IgG3 samples, both poly- and monoclonal. <sentence_start/>NanoLC-ESI-IT-MS/MS with electron transfer dissociation fragmentation and CE-MS/MS with CID fragmentation were used to determine the site of IgG3 O-glycosylation. <sentence_start/>The O-glycosylation site was further confirmed by the recombinant production of mutant IgG3 in which potential O-glycosylation sites had been knocked out."
+  },
+  {
+   "section": "abstract",
+   "text": "For IgG3 samples from six donors we found similar O-glycan structures and site occupancies, whereas for the same samples the conserved N-glycosylation of the Fc CH2 domain showed considerable interindividual variation. <sentence_start/>The occupancy of each of the three O-glycosylation sites was found to be \u223c10% in six serum-derived IgG3 samples and \u223c13% in two monoclonal IgG3 allotypes."
+  },
+  {
+   "section": "article",
+   "text": "Immunoglobulin G (IgG) is one of the most abundant proteins present in human serum and represents approximately three-quarters of the total serum immunoglobulin content (<citation rid=\"B1\" ref-type=\"bibr\" pmcid=\"PMC1579064\" pmid=\"4182354\" count=\"1\">1</citation>). <sentence_start/>As the main mediator of humoral immunity and an important link between the adaptive and innate immune system, IgG is a fundamental component of the immune system. <sentence_start/>IgG consists of two heavy and light chains, linked by disulfide bonds. <sentence_start/>The protein can be subdivided into the antigen-binding (Fab) and the receptor-binding (Fc) region. <sentence_start/>There are four subclasses of IgG, all of which share an overall structure homology but differ slightly in their amino acid sequence; the quantity of the subclasses in human serum is as follows: IgG1 &gt; 2 &gt; 3 &gt; 4 (<citation rid=\"B2\" ref-type=\"bibr\" pmid=\"5443170\" doi=\"10.1172/JCI106279\" pmcid=\"PMC322522\" count=\"1\">2</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "IgG3 represents \u223c8% of the total amount of IgG in human serum (<citation rid=\"B2\" ref-type=\"bibr\" pmid=\"5443170\" doi=\"10.1172/JCI106279\" pmcid=\"PMC322522\" count=\"1\">2</citation>), and stands out from the other IgG subclasses for a number of reasons. <sentence_start/>First of all, IgG3 contains an elongated hinge region with up to a triple repeat sequence (the actual number ranging from one to three depending on the allotype (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2014.00520\" pmcid=\"PMC4202688\" pmid=\"25368619\" count=\"1\">3</citation>)), which is responsible for the increased flexibility between the Fab and the Fc part, as well as the wider and more flexible angle between the two Fab arms (<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"9317136\" count=\"1\">4</citation>, <citation rid=\"B5\" ref-type=\"bibr\" pmid=\"3138110\" doi=\"10.1002/j.1460-2075.1988.tb03037.x\" pmcid=\"PMC454472\" count=\"1\">5</citation>). <sentence_start/>This flexibility is likely the cause of the increased affinity of IgG3, compared with the other subclasses, for divalent binding to certain types of antigens (<citation rid=\"B4\" ref-type=\"bibr\" pmid=\"9317136\" count=\"1\">4</citation>, <citation rid=\"B6\" ref-type=\"bibr\" pmid=\"11413323\" doi=\"10.1128/JVI.75.14.6558-6565.2001\" pmcid=\"PMC114379\" count=\"1\">6</citation>, <citation rid=\"B7\" ref-type=\"bibr\" pmid=\"7561063\" count=\"1\">7</citation>). <sentence_start/>Second, IgG3 has a higher affinity for C1q, which initiates the classical complement pathway (<citation rid=\"B5\" ref-type=\"bibr\" pmid=\"3138110\" doi=\"10.1002/j.1460-2075.1988.tb03037.x\" pmcid=\"PMC454472\" count=\"1\">5</citation>, <citation rid=\"B8\" ref-type=\"bibr\" pmid=\"9659234\" doi=\"10.1046/j.1365-2567.1998.00472.x\" pmcid=\"PMC1364140\" count=\"1\">8</citation>). <sentence_start/>The interaction between IgG3 and C1q is not due to the elongated hinge region, as demonstrated by studies showing that recombinant IgG3 with an IgG1- or IgG4-like hinge sequence exhibited even greater binding affinity for C1q than wild-type IgG3 (<citation rid=\"B8\" ref-type=\"bibr\" pmid=\"9659234\" doi=\"10.1046/j.1365-2567.1998.00472.x\" pmcid=\"PMC1364140\" count=\"1\">8<citation rid=\"B9\" ref-type=\"bibr\" pmid=\"1915551\" doi=\"10.1002/eji.1830211013\" count=\"1\" /></citation>-<citation rid=\"B10\" ref-type=\"bibr\" pmid=\"18483271\" doi=\"10.1158/0008-5472.CAN-07-6297\" count=\"1\">10</citation>). <sentence_start/>Third, IgG3 has a higher overall affinity for the Fc\u03b3 receptors (Fc\u03b3Rs), through which it can influence effector cells of the innate immune system (<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1038/nrd2909\" pmid=\"22460124\" count=\"1\">11</citation>). <sentence_start/>The CH2 domain and hinge region of IgG3 were shown to be instrumental in binding to the high affinity Fc\u03b3RI receptor (<citation rid=\"B12\" ref-type=\"bibr\" pmid=\"1827828\" doi=\"10.1084/jem.173.6.1483\" pmcid=\"PMC2190830\" count=\"1\">12</citation>). <sentence_start/>Finally, IgG3 generally has a shorter half-life compared with the other IgG subclasses (1 <italic>versus</italic> 3 weeks) (<citation rid=\"B2\" ref-type=\"bibr\" pmid=\"5443170\" doi=\"10.1172/JCI106279\" pmcid=\"PMC322522\" count=\"1\">2</citation>). <sentence_start/>This difference was traced back to an H435R mutation that confers a positive charge at physiological pH, resulting in a decreased binding to the neonatal Fc receptor (FcRn), which is involved in recycling IgG targeted for lysosomal degradation (<citation rid=\"B13\" ref-type=\"bibr\" pmid=\"22186895\" doi=\"10.1038/ncomms1608\" pmcid=\"PMC3247843\" count=\"1\">13</citation>). <sentence_start/>The low-efficiency FcRn-mediated transport also gives rise to decreased levels of IgG3 in mucosal tissue and impaired transport of IgG3 across the placenta (<citation rid=\"B14\" ref-type=\"bibr\" pmid=\"23829325\" doi=\"10.1111/trf.12334\" count=\"1\">14</citation>). <sentence_start/>These properties do not hold true for all types of IgG3 since a large number of IgG3 allotypes have been described, some of which lack the H435R substitution and have a half-life and placental transport rates similar to IgG1 (<citation rid=\"B13\" ref-type=\"bibr\" pmid=\"22186895\" doi=\"10.1038/ncomms1608\" pmcid=\"PMC3247843\" count=\"1\">13<citation rid=\"B14\" ref-type=\"bibr\" pmid=\"23829325\" doi=\"10.1111/trf.12334\" count=\"1\"><citation rid=\"B15\" ref-type=\"bibr\" pmid=\"11781688\" doi=\"10.1038/sj.ejhg.5200700\" count=\"1\" /></citation></citation>-<citation rid=\"B16\" ref-type=\"bibr\" pmid=\"20073133\" doi=\"10.4161/mabs.1.4.9122\" pmcid=\"PMC2726606\" count=\"1\">16</citation>). <sentence_start/>IgG3 is more polymorphic than the other IgG subclasses, as evidenced by the high number of known allotypes (<citation rid=\"B16\" ref-type=\"bibr\" pmid=\"20073133\" doi=\"10.4161/mabs.1.4.9122\" pmcid=\"PMC2726606\" count=\"1\">16</citation>). <sentence_start/>Most of the polymorphisms reside in the CH2 or CH3 domain, but the length of the hinge region can also display a high degree of variation. <sentence_start/>Depending on the number of sequence repeats, the hinge region can vary from 27 to 83 amino acid residues between different IgG3 allotypes (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2014.00520\" pmcid=\"PMC4202688\" pmid=\"25368619\" count=\"1\">3</citation>, <citation rid=\"B16\" ref-type=\"bibr\" pmid=\"20073133\" doi=\"10.4161/mabs.1.4.9122\" pmcid=\"PMC2726606\" count=\"1\">16</citation>, <citation rid=\"B17\" ref-type=\"bibr\" pmid=\"9003512\" doi=\"10.1007/s004390050328\" count=\"1\">17</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "An <italic>N</italic>-linked complex type glycan is highly conserved and found in the CH2 domain of all IgG subclasses and allotypes. <sentence_start/>The type of glycan present at this site has been shown to influence the effector functions of IgG (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1097/MOT.0b013e328342538f\" pmid=\"21150612\" count=\"1\">18</citation>). <sentence_start/>N-glycans that lack a core fucose cause IgG to have an enhanced proinflammatory capacity through stronger binding to Fc\u03b3RIIIa and Fc\u03b3RIIIb (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1097/MOT.0b013e328342538f\" pmid=\"21150612\" count=\"1\">18<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1074/jbc.M202069200\" pmid=\"11986321\" count=\"1\" /></citation>-<citation rid=\"B20\" ref-type=\"bibr\" pmid=\"24243971\" doi=\"10.1182/blood-2013-09-527978\" pmcid=\"PMC3901064\" count=\"1\">20</citation>). <sentence_start/>In contrast, IgG carrying sialylated N-glycans exhibits anti-inflammatory properties, likely due to increased binding affinity to C-type lectins and/or reduced binding to Fc\u03b3R (<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1097/MOT.0b013e328342538f\" pmid=\"21150612\" count=\"1\">18</citation>, <citation rid=\"B21\" ref-type=\"bibr\" pmid=\"16888140\" doi=\"10.1126/science.1129594\" count=\"1\">21</citation>, <citation rid=\"B22\" ref-type=\"bibr\" pmid=\"22922409\" doi=\"10.1038/nm.2862\" pmcid=\"PMC3492054\" count=\"1\">22</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "O-linked glycosylation has been reported for various immunoglobulins. <sentence_start/>O-glycans are present on the hinge region of human IgA1 and IgD and mouse IgG2b (<citation rid=\"B23\" ref-type=\"bibr\" pmid=\"7512967\" count=\"1\">23<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1074/jbc.273.4.2260\" pmid=\"9442070\" count=\"1\" /></citation>-<citation rid=\"B25\" ref-type=\"bibr\" pmid=\"6806818\" doi=\"10.1073/pnas.79.9.2850\" pmcid=\"PMC346304\" count=\"1\">25</citation>). <sentence_start/>IgA1 contains nine potential sites for O-glycosylation (serine and threonine) in the hinge region, of which 3-5 are occupied, while IgD has been reported to carry between four and seven O-glycans (<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1074/jbc.273.4.2260\" pmid=\"9442070\" count=\"1\">24<citation rid=\"B25\" ref-type=\"bibr\" pmid=\"6806818\" doi=\"10.1073/pnas.79.9.2850\" pmcid=\"PMC346304\" count=\"1\" /></citation>-<citation rid=\"B26\" ref-type=\"bibr\" pmid=\"7092891\" doi=\"10.1016/0006-291x(82)91078-6\" count=\"1\">26</citation>). <sentence_start/>The O-glycosylation in the hinge of murine IgG2b was observed to protect against proteolytic digestion (<citation rid=\"B23\" ref-type=\"bibr\" pmid=\"7512967\" count=\"1\">23</citation>). <sentence_start/>Likewise, IgA1 was found to be more susceptible to degradation by <italic>Streptococci</italic> proteases after neuraminidase treatment (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1128/iai.58.5.1186-1194.1990\" pmcid=\"PMC258608\" pmid=\"2182537\" count=\"1\">27</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we report partial O-glycosylation of the human IgG3 hinge. <sentence_start/>We obtained both poly- and monoclonal IgG3 from various sources and performed proteolytic digestion with trypsin or proteinase K. NanoLC-reverse phase (RP)-ESI-ion trap (IT)-MS/MS was used to examine the resulting (glyco)peptides, revealing core 1-type O-glycans on multiple sites within the IgG3 hinge region."
+  },
+  {
+   "section": "article",
+   "text": "EXPERIMENTAL PROCEDURES"
+  },
+  {
+   "section": "article",
+   "text": "Immunoglobulin Sources"
+  },
+  {
+   "section": "article",
+   "text": "Polyclonal IgG3 from Donor Sera"
+  },
+  {
+   "section": "article",
+   "text": "IgG3 was purified from six serum samples (average donor age: 44.5 \u00b1 9 years; three male and three female; details are listed in ). <sentence_start/>The serum samples were collected from healthy donors with informed consent in compliance with the institutional ethical board. <sentence_start/>Venous blood was collected in a 9-ml Vacuette serum clot activator tube (Greiner BioOne, Kremsm\u00fcnster, Austria) and incubated at room temperature for 30 min, followed by centrifugation for 15 min at 1800 g. <sentence_start/>The serum fraction was then collected and stored at \u221220 \u00b0C. <sentence_start/>IgG was isolated by running the serum over a HiTrap Protein G HP column (GE Healthcare, Buckinghamshire, UK) and eluted with 0.1 <sc>m</sc> glycine-HCl, pH 2.7. <sentence_start/>The eluate containing IgG was then applied to a HiTrap MabSelect SuRE column packed with recombinant Protein A (GE Healthcare), and the IgG3-containing flow-through was concentrated using an Amicon Ultra-15 centrifugal filter device 10 kDa (Merck Millipore, Darmstadt, Germany) and dialyzed against PBS using a Slide-A-Lizer Dialysis Cassette, 10K MWCO (Dionex/Thermo Scientific, Sunnyvale, CA)."
+  },
+  {
+   "section": "article",
+   "text": "Polyclonal IgG3 from Pooled Plasma"
+  },
+  {
+   "section": "article",
+   "text": "IgG3 purified from pooled plasma was obtained commercially from Athens Research and Technology (Athens, GA). <sentence_start/>Upon inquiry, we learned that this IgG3 had been treated with dextran sulfate, followed by centrifugation to pellet the lipids. <sentence_start/>The delipidated plasma was then subjected to an ammonium sulfate precipitation, followed by boric acid precipitation. <sentence_start/>The IgG was isolated with ion exchange chromatography, and further purification of IgG3 was achieved with affinity chromatography (rProtein A), gel filtration chromatography, and a jacalin column to remove a minor IgA contaminant. <sentence_start/>This purification method did not expose the IgG3 to extreme pH conditions or temperatures above 55 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Monoclonal IgG3"
+  },
+  {
+   "section": "article",
+   "text": "Two monoclonal recombinant anti-GDob1 IgG3 allotypes, G3m(g) and G3m(s), were produced in an HEK-293F FreeStyle cell line expression system (Life Technologies, Paisley, UK). <sentence_start/>IgG3m(s) was then purified with a HiTrap MabSelect SuRE column packed with recombinant Protein A (GE Healthcare), while IgG3m(g) was purified with a Protein G HiTrap HP column (GE Healthcare)."
+  },
+  {
+   "section": "article",
+   "text": "Monoclonal IgG3 Mutants"
+  },
+  {
+   "section": "article",
+   "text": "Three IgG3 G3m(g) hinge mutants were produced recombinantly, together with wild-type IgG3 G3m(g) as a control. <sentence_start/>The variable regions of the heavy and light chains (VH, VL) of the mouse IgG1 anti-2,4,6-trinitrophenol (TNP) hapten antibodies were cloned onto human IgG3 and kappa backbones, respectively, as described previously (<citation rid=\"B20\" ref-type=\"bibr\" pmid=\"24243971\" doi=\"10.1182/blood-2013-09-527978\" pmcid=\"PMC3901064\" count=\"1\">20</citation>, <citation rid=\"B28\" ref-type=\"bibr\" pmid=\"23637394\" doi=\"10.1128/JVI.00493-13\" pmcid=\"PMC3700286\" count=\"1\">28</citation>). <sentence_start/>Synthetic DNA encoding for IgG3 mutants, replacing the three threonines (T) and/or serines (S) with alanines (A), was generated as 5\u2032-NheI and 3\u2032Bsu36I fragments by GeneArt (Invitrogen). <sentence_start/>The NheI-Bsu36I fragments were ligated in anti-TNP IgG3 heavy chain replacing the corresponding fragment in the wild-type heavy chain. <sentence_start/>Antibodies were produced in the HEK-293F FreeStyle cell line expression system (Invitrogen) with cotransfection of vectors encoding p21, p27, and pSVLT genes as described (<citation rid=\"B29\" ref-type=\"bibr\" pmid=\"23872061\" doi=\"10.1016/j.ymeth.2013.07.018\" count=\"1\">29</citation>) to increase protein production. <sentence_start/>The antibodies were purified on a protein G HiTrap HP column (GE Healthcare) using the \u00c4KTAprime plus system (GE Healthcare) and dialyzed against PBS overnight."
+  },
+  {
+   "section": "article",
+   "text": "Monoclonal IgG3/4 Fc Constructs"
+  },
+  {
+   "section": "article",
+   "text": "Four recombinant IgG3 and IgG4 Fc constructs were produced in a HEK-293F FreeStyle cell line (Invitrogen) and purified with a Protein G column (Protein G Sepharose 4 fast flow; GE Healthcare), as described by Rispens <italic>et al.</italic> (<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1074/jbc.M113.541813\" pmcid=\"PMC3937676\" pmid=\"24425871\" count=\"1\">30</citation>). <sentence_start/>All constructs contained an IgG4 hinge region, together with either the CH2 and CH3 regions of two IgG3 allotypes (G3m(b)-Fc-h4 and G3m(c3c5)-Fc-h4) or the CH2 and CH3 regions of two IgG4 variants (IgG4-Fc-V397M and IgG4-Fc-V397M,K392N)."
+  },
+  {
+   "section": "article",
+   "text": "Polyclonal and Monoclonal IgG4"
+  },
+  {
+   "section": "article",
+   "text": "Several IgG4 samples were collected. <sentence_start/>A polyclonal IgG4 sample was affinity-purified from the plasma of a rheumatoid arthritis patient using anti-IgG4 coupled to Sepharose (clone MH164.4, Sanquin, Amsterdam, The Netherlands). <sentence_start/>A second IgG4 sample was enriched from the serum of a patient from the Leiden University Medical Center with an extremely high IgG4 serum titer (14.4 mg/ml). <sentence_start/>The serum was heat-inactivated and subjected to a 33% cut ammonium sulfate precipitation, followed by dialysis to decrease the salt content. <sentence_start/>The IgG4 was then enriched on a HiTrap DEAE Sepharose and a Superdex 200 column (GE Healthcare) using an \u00c4KTAprime plus chromatography system (GE Healthcare); IgG4-containing fractions were identified using ELISA and pooled. <sentence_start/>A monoclonal anti-TNP IgG4 sample produced in HEK cells was purified with a protein G column and dialyzed against PBS in the same way as described for the IgG3 mutants. <sentence_start/>In addition, we obtained a recombinant humanized IgG4 sample in the form of the therapeutic antibody natalizumab (Tysabri; Biogen Idec, Badehoevedorp, The Netherlands), which is produced in murine myeloma cells."
+  },
+  {
+   "section": "article",
+   "text": "The protein sequences of the recombinant samples can be found in ."
+  },
+  {
+   "section": "article",
+   "text": "SDS-PAGE Analysis and Proteolytic Digestion"
+  },
+  {
+   "section": "article",
+   "text": "Five \u03bcg of the IgG samples was reduced with 2-beta-mercaptoethanol (Sigma-Aldrich, St. Louis, MO) at 95 \u00b0C for 10 min. <sentence_start/>The IgG was then run on a NuPage 4-12% Bis-Tris SDS-PAGE gel (Invitrogen) and stained with Coomassie G-250 (SimplyBlue SafeStain, Invitrogen). <sentence_start/>Bands were excised, cut into pieces, washed with 25 m<sc>m</sc> ammonium bicarbonate (ABC<sup>1</sup>, Sigma-Aldrich), and dehydrated with acetonitrile (Biosolve, Valkenswaard, The Netherlands). <sentence_start/>The IgG was then again treated with a reducing agent by adding 50 \u03bcl of a 10 m<sc>m</sc> <sc>dl</sc>-dithiothreitol (DTT; Sigma-Aldrich) 25 m<sc>m</sc> ABC solution for 30 min at 55 \u00b0C. <sentence_start/>The gel pieces were subsequently dehydrated by the addition of acetonitrile. <sentence_start/>Alkylation of the cysteine residues was achieved by incubation with 50 \u03bcl of a 55 m<sc>m</sc> iodoacetamide (Sigma-Aldrich) 25 m<sc>m</sc> ABC solution in the dark for 20 min. <sentence_start/>The gel pieces were then washed with 25 m<sc>m</sc> ABC and dehydrated with acetonitrile. <sentence_start/>The washing and dehydration was repeated a second time, and the samples were subsequently dried down completely in a centrifugal vacuum concentrator (Eppendorf, Hamburg, Germany)."
+  },
+  {
+   "section": "article",
+   "text": "For proteolytic digestion to take place, 30 \u03bcl of 25 m<sc>m</sc> ABC containing either trypsin (sequencing grade modified trypsin, Promega, Madison, WI), proteinase K (from <italic>Tritirachium album</italic>; Sigma-Aldrich) or chymotrypsin (sequencing grade from bovine pancreas, Roche Applied Sciences, Mannheim, Germany) was added to the dried gel pieces. <sentence_start/>An IgG:enzyme (w/w) ratio of 1:20 for trypsin, 1:3 for proteinase K and 1:20 for chymotrypsin was used. <sentence_start/>The samples were kept on ice for 1 h, to allow the enzyme to enter the gel pieces. <sentence_start/>If the gel pieces were not fully submerged, a further 10-20 \u03bcl of 25 m<sc>m</sc> ABC was added. <sentence_start/>The samples were incubated overnight at 37 \u00b0C. <sentence_start/>The solution surrounding the gel pieces was collected the next morning. <sentence_start/>Following the addition of another 20 \u03bcl of 25 m<sc>m</sc> ABC, the gel pieces were incubated at 37 \u00b0C for 1 h. <sentence_start/>The solution was then again collected and added to the first fraction, and stored at \u221220 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Alternatively, several IgG3 samples were digested in solution without reduction alkylation: 3 \u03bcg of IgG3 was incubated with 0.3 \u03bcg of trypsin in a total volume of 25 \u03bcl 25 m<sc>m</sc> ABC at 37 \u00b0C overnight."
+  },
+  {
+   "section": "article",
+   "text": "Endoproteinase AspN (New England Biolabs, Ipswich, MA) was used to further digest trypsin-generated (glyco)peptides. <sentence_start/>Digestion was performed by adding 1.5 \u03bcl of AspN and 15 \u03bcl of 2x AspN buffer (100 m<sc>m</sc> Tris-HCl, 5 m<sc>m</sc> zinc sulfate, New England Biolabs) to 15 \u03bcl of trypsin-digested IgG3, and incubating overnight at 37 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Exoglycosidase Digestion"
+  },
+  {
+   "section": "article",
+   "text": "Exoglycosidase digestion was performed on tryptic IgG glycopeptides. <sentence_start/>The trypsin-digested IgG3 was first heated to 95 \u00b0C for 5 min to inactivate the trypsin. <sentence_start/>The sample was then dried in a centrifugal vacuum concentrator (Eppendorf), and resuspended by the addition of 16 \u03bcl of Milli-Q-purified water, 2 \u03bcl 50 m<sc>m</sc> sodium acetate (pH 5.5), 1 \u03bcl sialidase (Glyko sialidase A, Prozyme, Hayward, CA), and 1 \u03bcl of galactosidase (Glyko beta-galactosidase, Prozyme). <sentence_start/>The samples were incubated overnight at 37 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "NanoLC-ESI-IT-MS(/MS) Analysis"
+  },
+  {
+   "section": "article",
+   "text": "The IgG3 (glyco)peptides were analyzed with nanoLC-reversed phase (RP)-electrospray (ESI)-ion trap (IT)-MS(/MS) on an Ultimate 3000 RSLCnano system (Dionex/Thermo Scientific) coupled to an amaZon speed ESI-IT-MS (Bruker Daltonics, Bremen, Germany). <sentence_start/>A precolumn (Acclaim PepMap C18 capillary column, 300 \u03bcm x 5 mm, particle size 5 \u03bcm, Dionex/Thermo Scientific) was used to wash and concentrate the sample, and separation was achieved on an Acclaim PepMap RSLC C18 nanocolumn (75 \u03bcm x 150 mm, particle size 2 \u03bcm, Dionex/Thermo Scientific) with a flow rate of 500 nl/min. <sentence_start/>The following linear gradient was used, with solvent A consisting of 0.1% formic acid in water and solvent B of 95% acetonitrile, 5% water: t = 0 min, 1% solvent B; t = 5 min, 1% B; t = 20 min, 25% B; t = 25 min, 70% B; t = 30 min, 70% B; t = 31 min, 1% B; t = 55 min, 1% B. <sentence_start/>The sample was ionized in positive ion mode with an ESI-nanosprayer (4500 V) using a bare fused silica capillary (internal diameter of 20 \u03bcm). <sentence_start/>The solvent was evaporated at 180 \u00b0C with a nitrogen flow of 5 liters/min. <sentence_start/>A CaptiveSpray nanoBooster (Bruker Daltonics) was mounted onto the mass spectrometer and saturated the nitrogen flow with ACN to enhance the sensitivity. <sentence_start/>The MS1 ion detection window was set at <italic>m/z</italic> 350-1400, and the MS2 window at <italic>m/z</italic> 140-2200. <sentence_start/>The three highest nonsingly charged peaks in each MS1 spectrum were automatically fragmented through collision-induced dissociation (CID). <sentence_start/>In order to identify the peptide sequence of proteinase K- and trypsin-generated O-glycopeptides, MS3 analysis was performed on manually selected precursors: the MS2 peak representing the peptide without sugars attached was targeted for fragmentation. <sentence_start/>In a separate LC-MS run, electron transfer dissociation fragmentation was done on selected precursor ions."
+  },
+  {
+   "section": "article",
+   "text": "t-ITP-CE-ESI-qTOF-MS(/MS) Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Transient isotachophoresis (ITP)-capillary electrophoresis (CE)-ESI-qTOF-MS/MS analysis was performed on a tryptic sialidase- and galactosidase-treated IgG3 sample derived from pooled plasma. <sentence_start/>Separation was achieved on a CESI 8000 system (AB Sciex, Framingham, MA), coupled via porous sheathless interfacing to an ultra-high resolution (UHR)-qTOF maXis Impact MS system (Bruker Daltonics) operating in positive ion mode. <sentence_start/>The sample migrated over a 90-cm bare fused capillary (i.d. 30 \u03bcm, o.d. 150 \u03bcm, AB Sciex). <sentence_start/>A 10% acetic acid solution was used as background electrolyte and a 50 m<sc>m</sc> ammonium acetate solution as leading electrolyte. <sentence_start/>A voltage of 20 kV was applied and 70 nl was injected during 1 min. <sentence_start/>The ion detection window for both MS1 and MS2 was set at <italic>m/z</italic> 50-2200."
+  },
+  {
+   "section": "article",
+   "text": "Data Processing"
+  },
+  {
+   "section": "article",
+   "text": "The LC-MS(/MS) data was analyzed using DataAnalysis 4.2 software (Bruker Daltonics). <sentence_start/>Within this program, the function Compounds - AutoMS(n) was used to generate 300 compound spectra (with sum spectra generated for compounds within an <italic>m/z</italic> window of 0.5 Th over a chromatographic peak width of 0.5 min), and these data were deconvoluted and exported as a mascot generic file. <sentence_start/>Protein identification through primary sequence database searching was performed using the MASCOT search algorithm (MASCOT Daemon version 2.2.2; Matrix Science, London, UK). <sentence_start/>The following MASCOT settings were used: taxonomy: <italic>Homo sapiens</italic>; database: SwissProt; enzyme: trypsin (for trypsin digests)/no enzyme (for proteinase K digests)/chymotrypsin (for chymotrypsin digests); fixed modifications: carbamidomethyl (C); variable modifications: oxidation (M); max missed cleavages: 1; MS1 peptide tolerance: 0.3 Da; MS/MS tolerance: 0.3 Da; #13C: 0."
+  },
+  {
+   "section": "article",
+   "text": "The fragmentation spectra were screened manually for common oxonium fragment ions, which are characteristic for glycopeptide fragmentation: <italic>m/z</italic> 366.14, [1 HexNAc (<italic>N</italic>-acetylhexosamine) + 1 Hex (hexose) + H]<sup>+</sup>; <italic>m/z</italic> 292.10, [1 NeuAc (<italic>N</italic>-acetylneuraminic acid) + H]<sup>+</sup>; <italic>m/z</italic> 274.09, [1 NeuAc - H<sub>2</sub>O + H]<sup>+</sup>; <italic>m/z</italic> 657.23, [1 HexNAc + 1 Hex + 1 NeuAc + H]<sup>+</sup>. <sentence_start/>From the MS/MS spectra of O-glycopeptides, the composition of the glycan and the mass of the peptide moiety could be deduced. <sentence_start/>This peptide mass was used to generate matching IgG peptide sequences using the ExPASY FindPept software tool ( ). <sentence_start/>The MS3 spectrum of the peptide moiety was then used to confirm the peptide sequence, by comparing the peaks in the spectrum to the b and y ions expected according to the Protein Prospector MS-Product tool ( )."
+  },
+  {
+   "section": "article",
+   "text": "Relative quantification of the O-glycans present on the tryptic IgG3 peptide SCDTPPPCPR was done by summing LC-MS spectra over a fixed time window of 0.5 min surrounding the elution of each (glyco)peptide, and then summing the background-corrected intensities of the first 3 isotopic peaks for each O-glycopeptide. <sentence_start/>If the compound was present in multiple charge states, the background-corrected peak intensities of the different charge states were summed followed by normalizing the data so that the total was 100%. <sentence_start/>A separate correction factor was applied to each of the glycopeptides to correct for the fact that higher mass compounds have a lower percentage of signal intensity present in the first 3 isotopic peaks. <sentence_start/>First, the percentage of signal intensity present in each isotopic peak was calculated using IDCalc version 0.3 (University of Washington). <sentence_start/>The correction factor consists of the percentage of signal intensity present in the first three isotopic peaks of the peptide divided by the percentage of signal intensity present in the first three isotopic peaks of the O-glycopeptide."
+  },
+  {
+   "section": "article",
+   "text": "In order to obtain a more accurate determination of the percentage of oligosaccharide occupation of the tryptic IgG3 peptide SCDTPPPCPR, relative quantification was done using LC-MS analysis of a sialidase- and galactosidase-treated tryptic digest sample. <sentence_start/>The ratio between the peptide and the peptide + HexNAc was determined in the same way as described above."
+  },
+  {
+   "section": "article",
+   "text": "Relative quantification of N-glycosylation of IgG3 was performed using an adjusted version of the method reported by Selman <italic>et al.</italic> (<citation rid=\"B31\" ref-type=\"bibr\" pmid=\"22120122\" doi=\"10.1016/j.jprot.2011.11.003\" count=\"1\">31</citation>). <sentence_start/>Targeted alignment was done using a novel in-house tool, which aligned nanoLC-ESI-IT-MS spectra according to a list of calibrant <italic>m/z</italic> and retention time values. <sentence_start/>Various IgG3 N-glycopeptides were used as calibrants. <sentence_start/>The algorithm examines the <italic>m/z</italic> region within a given time window around each calibrant and isolates the local maxima. <sentence_start/>The observed retention times of these maxima and the desired retention times are then taken as an input array for a second degree polynomial fit, returning a function which is used to transform the observed retention time of the whole spectrum, resulting in well-aligned spectra. <sentence_start/>The in-house tool 3D Max Extractor was used to extract signal intensities within specific <italic>m/z</italic> windows. <sentence_start/>The program examines all data points in <italic>m/z</italic>-retention time space around a given analyte and reports the maximum intensity observed per analyte. <sentence_start/>Background-corrected intensities of the first three isotopic peaks belonging to IgG2/3 glycopeptides with a charge state of 2+, 3+ or 4+ were determined from the spectra and summed. <sentence_start/>The glycopeptide values were normalized by dividing by the summed intensity of all glycopeptide values. <sentence_start/>Glycopeptides were included if they exhibited a signal-to-noise ratio over 3 in at least 25% of the samples. <sentence_start/>The tryptic peptide that contains the N-glycosylation site has the same mass in both IgG3 and IgG2, and thus with this method, we could not distinguish between IgG3 and IgG2 glycopeptides."
+  },
+  {
+   "section": "article",
+   "text": "RESULTS"
+  },
+  {
+   "section": "article",
+   "text": "O-glycosylation of IgG3"
+  },
+  {
+   "section": "article",
+   "text": "Various types of IgG3 samples were obtained: polyclonal IgG3 samples purified from the serum of six donors (44.5 \u00b1 9 years, three male + three female (details in )); polyclonal IgG3 purified from pooled plasma; and two recombinant monoclonal anti-GDob1 IgG3 allotypes (G3m(g) and G3m(s)) produced in human embryonic kidney (HEK) cells. <sentence_start/>Analysis of these samples by SDS-PAGE in reducing condition followed by Coomassie staining revealed an upper band at \u223c60 kDa corresponding to the heavy chain of IgG3 and a lower band at \u223c30 kDa corresponding to the kappa and lambda light chains ( ). <sentence_start/>The IgG3m(s) sample exhibits a slightly lower mass, which is expected since this IgG3 allotype lacks one of the hinge repeat motifs. <sentence_start/>The single donor samples were visibly less pure than the other IgG3 samples, which is likely due to differences in sample preparation. <sentence_start/>The bands were excised and the proteins were reduced using DTT followed by alkylation of cysteine residues and subsequently overnight digestion with either trypsin or proteinase K. <sentence_start/>The samples were then analyzed by nanoLC-RP-ESI-IT-MS(/MS), and the resulting data were subjected to automated primary sequence database searching for protein identification ( ). <sentence_start/>All bands at \u223c60 kDa were confirmed to contain the IgG3 heavy chain, while the lower bands at 25-30 kDa contained either kappa light chain (in the monoclonal samples) or both kappa and lambda light chains (in the polyclonal samples). <sentence_start/>The lower band at \u223c52 kDa that was visible in the single donor samples ( ) was found to contain mainly IgG1, 2, and 3, as determined by examining subclass-specific peptides (data not shown)."
+  },
+  {
+   "section": "article",
+   "text": "O-glycopeptides were detected by searching the LC-MS/MS fragmentation spectra for oxonium fragment ions, which are characteristic for glycopeptide fragmentation: <italic>m/z</italic> 366.14 [HexNAc + Hex + H]<sup>+</sup>; <italic>m/z</italic> 292.10 [NeuAc + H]<sup>+</sup>; <italic>m/z</italic> 274.09 [NeuAc - H<sub>2</sub>O + H]<sup>+</sup>; and <italic>m/z</italic> 657.23 [HexNAc + Hex + NeuAc+ H]<sup>+</sup>. <sentence_start/>Three types of O-glycans were identified in the trypsin and proteinase K digests of all IgG3 samples: [1 HexNAc + 1 Hex], [1 HexNAc + 1 Hex + 1 NeuAc], and [1 HexNAc + 1 Hex + 2 NeuAc]. <sentence_start/>The fragmentation spectra of the tryptic glycopeptides are depicted in Fig. 1."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 1."
+  },
+  {
+   "section": "article",
+   "text": "<bold>NanoLC-ESI-IT-CID spectra showing fragmentation of various trypsin-generated recombinant IgG3m(g) O-glycopeptides.</bold> <sentence_start/>Non-, mono- and disialylated core 1 type O-glycans (<italic>A-C</italic>) were seen attached to the peptide SCDTPPPCPR, as well as a disialylated O-glycan with an <italic>N</italic>-acetyllactosamine (<italic>N</italic>-acetylglucosamine + galactose) (<italic>D</italic>). <sentence_start/>These structures are partially based on literature since it is difficult to distinguish between different types of hexoses and <italic>N</italic>-acetylhexosamines with mass spectrometry. <sentence_start/>The triply charged peak at <italic>m/z</italic> 895.48 in panel D has a higher mass than the precursor mass, and thus likely originates from a contaminant. <sentence_start/>The MS1 precursor peak is shown for each fragmentation spectrum. <sentence_start/>Pep = peptide; yellow square = <italic>N</italic>-acetylgalactosamine, yellow circle = galactose; blue square = <italic>N</italic>-acetylglucosamine; purple diamond = <italic>N</italic>-acetylneuraminic acid."
+  },
+  {
+   "section": "article",
+   "text": "While mass spectrometry does not reveal the exact identity of the monosaccharides, digestion of these glycopeptides by sialidase and galactosidase led to complete trimming of the oligosaccharides ( ), thereby confirming the presence of \u03b12-linked <italic>N</italic>-acetylneuraminic acid and \u03b21-linked galactose. <sentence_start/>Based on literature, we expect the HexNAc attached to the peptide to be an <italic>N</italic>-acetylgalactosamine (<citation rid=\"B32\" ref-type=\"bibr\" pmid=\"17988798\" doi=\"10.1016/j.bbagen.2007.09.010\" count=\"1\">32</citation>). <sentence_start/>The encountered glycan structures are therefore presumably a non-, mono-, and disialylated core 1 type O-glycan. <sentence_start/>A minor fraction but distinct fourth type of O-glycan was seen only in the monoclonal recombinant IgG3 samples: [2 HexNAc + 2 Hex + 2 NeuAc] (Fig. 1<italic>D</italic>). <sentence_start/>The peak at 1313.54<sup>1+</sup> in the MS/MS spectrum corresponds to the intact O-glycan B-ion (the nomenclature for glycan fragmentation is described by Domon and Costello (<citation rid=\"B33\" ref-type=\"bibr\" count=\"1\">33</citation>)), indicating a hexasaccharide O-glycan that may be a core 1 or core 2 type. <sentence_start/>A comprehensive overview of the <italic>m/z</italic> values in MS1 and MS2 spectra corresponding to the O-glycopeptides can be found in ."
+  },
+  {
+   "section": "article",
+   "text": "Localization of the IgG3 O-glycosylation Site"
+  },
+  {
+   "section": "article",
+   "text": "The amino acid sequence of the trypsin- and proteinase K-generated O-glycopeptides was identified through MS3 fragmentation of the peptide. <sentence_start/>In tryptic digests, the same peptides were also seen without glycans attached, demonstrating that the O-glycosylation sites are only partially occupied. <sentence_start/>The peptide sequences could be traced back to a triple repeat sequence within the IgG3 hinge region (Fig. 2). <sentence_start/>This region contains six potential O-glycosylation sites: three threonine residues and three serine residues. <sentence_start/>The conventional European Union notation for IgG3 (<citation rid=\"B34\" ref-type=\"bibr\" pmid=\"5257969\" doi=\"10.1073/pnas.63.1.78\" pmcid=\"PMC534037\" count=\"1\">34</citation>), which is based on homology between all IgG subclasses, does not cover the triple repeat sequence, and therefore an alternative notation method was introduced to refer to amino acid residues within the IgG3 hinge region. <sentence_start/>The IgG3 hinge covers four exons, the last three of which encode for the same amino acid sequence (allotype IgG3m(s) forms an exception since it has only two repeats). <sentence_start/>The location of an amino acid within the hinge region will be specified as \u201cHX-Y,\u201d with \u201cX\u201d standing for the exon number (1/2/3/4) and Y for the amino acid number within the exon (<citation rid=\"B1\" ref-type=\"bibr\" pmcid=\"PMC1579064\" pmid=\"4182354\" count=\"1\">1<citation rid=\"B2\" ref-type=\"bibr\" pmid=\"5443170\" doi=\"10.1172/JCI106279\" pmcid=\"PMC322522\" count=\"1\"><citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2014.00520\" pmcid=\"PMC4202688\" pmid=\"25368619\" count=\"1\"><citation rid=\"B4\" ref-type=\"bibr\" pmid=\"9317136\" count=\"1\"><citation rid=\"B5\" ref-type=\"bibr\" pmid=\"3138110\" doi=\"10.1002/j.1460-2075.1988.tb03037.x\" pmcid=\"PMC454472\" count=\"1\"><citation rid=\"B6\" ref-type=\"bibr\" pmid=\"11413323\" doi=\"10.1128/JVI.75.14.6558-6565.2001\" pmcid=\"PMC114379\" count=\"1\"><citation rid=\"B7\" ref-type=\"bibr\" pmid=\"7561063\" count=\"1\"><citation rid=\"B8\" ref-type=\"bibr\" pmid=\"9659234\" doi=\"10.1046/j.1365-2567.1998.00472.x\" pmcid=\"PMC1364140\" count=\"1\"><citation rid=\"B9\" ref-type=\"bibr\" pmid=\"1915551\" doi=\"10.1002/eji.1830211013\" count=\"1\"><citation rid=\"B10\" ref-type=\"bibr\" pmid=\"18483271\" doi=\"10.1158/0008-5472.CAN-07-6297\" count=\"1\"><citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1038/nrd2909\" pmid=\"22460124\" count=\"1\"><citation rid=\"B12\" ref-type=\"bibr\" pmid=\"1827828\" doi=\"10.1084/jem.173.6.1483\" pmcid=\"PMC2190830\" count=\"1\"><citation rid=\"B13\" ref-type=\"bibr\" pmid=\"22186895\" doi=\"10.1038/ncomms1608\" pmcid=\"PMC3247843\" count=\"1\"><citation rid=\"B14\" ref-type=\"bibr\" pmid=\"23829325\" doi=\"10.1111/trf.12334\" count=\"1\"><citation rid=\"B15\" ref-type=\"bibr\" pmid=\"11781688\" doi=\"10.1038/sj.ejhg.5200700\" count=\"1\"><citation rid=\"B16\" ref-type=\"bibr\" pmid=\"20073133\" doi=\"10.4161/mabs.1.4.9122\" pmcid=\"PMC2726606\" count=\"1\" /></citation></citation></citation></citation></citation></citation></citation></citation></citation></citation></citation></citation></citation></citation></citation>-<citation rid=\"B17\" ref-type=\"bibr\" pmid=\"9003512\" doi=\"10.1007/s004390050328\" count=\"1\">17</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2."
+  },
+  {
+   "section": "article",
+   "text": "<bold>A schematic overview of IgG3, which consists of two heavy chains (shown in dark gray, one variable and three conserved domains) and two light chains (light gray, one variable and one conserved domain).</bold> <sentence_start/>Black bars represent interchain disulfide bonds. <sentence_start/>An N-glycosylation site is present in domain CH2. <sentence_start/>Each IgG3 heavy chain contains three hinge repeat sequences with two or three partially occupied O-glycosylation sites. <sentence_start/>The peptide sequences of the major trypsin- and proteinase K-generated O-glycopeptides are shown."
+  },
+  {
+   "section": "article",
+   "text": "The proteinase K-generated glycopeptide <sub>H4-6</sub>DTPPPCPRCPAPEL<sub>234</sub> demonstrates that T<sub>H4-7</sub> is occupied, while <sub>H2/3-6</sub>DTPPPCPRCPEPK<sub>H3/4-3</sub> demonstrates that either T<sub>H2-7</sub> or T<sub>H3-7</sub> or both are also occupied. <sentence_start/>However, the proteinase K digest did not allow us to either confirm or disprove that serine residues were also occupied since all O-glycopeptides that contain a serine residue also contain a threonine residue."
+  },
+  {
+   "section": "article",
+   "text": "We therefore attempted to use endoproteinase AspN in order to further digest trypsin-generated O-glycopeptides derived from monoclonal IgG3 from \u201cSCDTPPPCPR\u201d to \u201cSC\u201d and \u201cDTPPPCPR.\u201d <sentence_start/>However, while the majority of the nonglycosylated tryptic hinge repeat peptides were cleaved by AspN, the O-glycopeptides with the same peptide sequence remained undigested. <sentence_start/>The O-glycopeptides also remained resistant to AspN-digestion after the tryptic O-glycopeptides were treated with sialidase and galactosidase, trimming most of the O-glycans down to a single <italic>N</italic>-acetylhexosamine (data not shown)."
+  },
+  {
+   "section": "article",
+   "text": "In order to obtain further evidence about the position of the O-glycans within the IgG3 hinge region, we performed nanoLC-ESI-IT-MS/MS analysis with electron transfer dissociation on a sialidase- and galactosidase-treated tryptic digest of IgG3m(s). <sentence_start/>Peptide backbone fragmentation with retention of the glycan moiety could be observed in the resulting mass spectrum, and this appeared to be in line with occupation of the threonine residue (Fig. 3<italic>A</italic>). <sentence_start/>NanoLC-ESI-IT-MS/MS with CID fragmentation also revealed signals that appear to show peptide backbone fragmentation with glycan retention, but the signal intensity was too low be definitive (data not shown). <sentence_start/>By using the more sensitive technique t-ITP-CE-ESI-qTOF-MS/MS with CID fragmentation to analyze sialidase- and galactosidase-treated trypsin-digested IgG3 derived from pooled plasma (Figs. <sentence_start/>3<italic>B</italic> and 3<italic>C</italic>), we were able to observe minor peaks (y7 and y8) pertaining to peptide backbone fragmentation without glycan loss, indicating occupation of the threonine residue."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3."
+  },
+  {
+   "section": "article",
+   "text": "(<italic>A</italic>) NanoLC-ESI-IT-MS/MS with electron transfer dissociation fragmentation of a sialidase- and galactosidase-treated tryptic glycopeptide of recombinant IgG3m(s). <sentence_start/>Peptide backbone fragmentation (c- and z-ions) and loss of the <italic>N</italic>-acetylhexosamine (HexNAc) or cysteine side chain (<italic>C</italic>) were observed. <sentence_start/>(<italic>B-C</italic>) CE-ESI-beam-type CID analysis was done on sialidase- and galactosidase-treated tryptic peptides of IgG3 derived from pooled plasma, and fragmentation spectra are shown for (<italic>B</italic>) the unoccupied tryptic hinge peptide SCDTPPPCPR and (<italic>C</italic>) the O-glycosylated version of the same peptide with a single <italic>N</italic>-acetylgalactosamine attached. <sentence_start/>The b- and y-ions are annotated. <sentence_start/>The MS1 precursor peak is shown on the right. <sentence_start/>The doubly charged peak at <italic>m/z</italic> 694.327 in panel C is likely a coeluting compound that appears in the spectrum because it was present within the precursor <italic>m/z</italic> window, and the peak at <italic>m/z</italic> 694.321 is the same compound after loss of water. <sentence_start/>The cysteine residues have been underlined to denote carbomidomethylation."
+  },
+  {
+   "section": "article",
+   "text": "To further establish that the O-glycan resides only on the threonine residue, several recombinant anti-TNP IgG3m(g) proteins were produced, in which either the three serines, the three threonines, or all six potential O-glycosylation sites in the hinge repeat region were replaced by alanine, along with wild-type IgG3m(g) as a control (protein sequences are listed in ). <sentence_start/>As expected, LC-MS/MS analysis of the wild-type IgG3, digested with trypsin or proteinase K, revealed O-glycosylation of the hinge region, while no O-glycosylation was seen on the IgG3 in which all six potential O-glycosylation sites had been replaced by alanine. <sentence_start/>IgG3 that only lacked the hinge region serines contained the same O-glycans seen in wild-type IgG3. <sentence_start/>No O-glycopeptides were found in IgG3 lacking threonines in the hinge repeat, again suggesting that the O-glycans within the IgG3 hinge region reside only on the threonine residue and not on serine ( )."
+  },
+  {
+   "section": "article",
+   "text": "Relative Quantification of IgG3 O- and N-glycosylation"
+  },
+  {
+   "section": "article",
+   "text": "Relative quantification of the O-glycosylation was done using LC-MS data of trypsin-digested IgG3. <sentence_start/>The abundances of the different glycans attached to the peptide SCDTPPPCPR were normalized to the total of all glycopeptides (Fig. 4<italic>A</italic>). <sentence_start/>When the O-glycopeptide values were normalized on the sum of both O-glycopeptides and unoccupied peptide, we found the following O-glycopeptide abundances: 3.3% (standard deviation \u00b1 0.6) for IgG3 from pooled plasma; 21.9% (\u00b1 2.9) for recombinant IgG3m(g) with three hinge repeats; 18.5% (\u00b1 1.8) for IgG3m(s) with two hinge repeats; and 11.6% (\u00b1 1.9) on average for single-donor-derived IgG3 ( ). <sentence_start/>We observed a slight fluctuation in the ratio of the signals of IgG3-hinge-derived O-glycopeptides <italic>versus</italic> unoccupied peptide, which results in a larger technical variation than when we normalize on O-glycopeptides only. <sentence_start/>It is known that large glycans moieties may result in a considerably lowered ionization of the glycopeptide as compared with the corresponding nonglycosylated peptide (<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1002/jms.3189\" pmid=\"23776102\" count=\"1\">35</citation>), making it difficult to compare peptide and glycopeptide signal intensities. <sentence_start/>Therefore, in an attempt to obtain reliable relative quantification data, tryptic IgG3 O-glycopeptides were treated with exoglycosidases, which should trim all O-glycans down to a single <italic>N</italic>-acetylgalactosamine, with the exception of the minor hexasaccharide glycoform that likely contains an <italic>N</italic>-acetylglucosamine. <sentence_start/>We observed a low intensity signal at <italic>m/z</italic> 877.85 that appears to be an exoglycosidase digestion product of this hexasaccharide glycan with 2 HexNAc and 1 Hex remaining, indicating that the glycan may be core 1 type. <sentence_start/>LC-MS analysis of the exoglycosidase-treated tryptic IgG3 (O-glyco)peptides showed that \u223c10% of the O-glycosylation sites within IgG3 derived from each of the six donors carried an O-glycan (Fig. 4<italic>B</italic>), and the interindividual differences appear to be relatively small. <sentence_start/>Monoclonal IgG3 exhibited a slightly higher degree of O-glycosylation, with \u223c12-14% of the sites occupied. <sentence_start/>IgG3 derived from pooled plasma showed a much lower level of O-glycosylation (5%), as well as a markedly lower abundance of the disialylated O-glycan [1 HexNAc + 1 Hex + 2 NeuAc], while showing increased levels of monosialylated O-glycans compared with the other IgG3 samples (Fig. 4<italic>A</italic>). <sentence_start/>Upon calculation of the number of <italic>N</italic>-acetylneuraminic acids per O-glycan (Fig. 4<italic>C</italic>), the deviation of IgG3 derived from pooled plasma became even more apparent."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4."
+  },
+  {
+   "section": "article",
+   "text": "(<italic>A</italic>) Relative quantification of IgG3 O-glycosylation based on nanoLC-ESI-IT-MS analysis of tryptic glycopeptides from various IgG3 samples (IgG3 derived from pooled plasma, two monoclonal IgG3 allotypes and IgG3 purified from six donors (D1-6)). <sentence_start/>The signal intensities were normalized on the sum of all hinge-derived O-glycopeptides. <sentence_start/>The relative abundance and technical variation are based on LC-MS analyses of four distinct tryptic digests, each of them measured twice. <sentence_start/>The values given for glycopeptide NHS are expected to be significantly lower than the actual values because the triply charged compound overlapped with the doubly charged hinge peptide with a putative acetylation modification in all samples, leaving only the doubly charged peak for relative quantification. <sentence_start/>(<italic>B</italic>) An estimate of the total percentage of O-glycosylation was derived from relative quantification of tryptic (glyco)peptides that had been treated with exoglycosidases, trimming all O-glycans down to a single HexNAc. <sentence_start/>The averages and standard deviation are based on two LC-MS analyses of the same sample. <sentence_start/>(<italic>C</italic>) The number of <italic>N</italic>-acetylneuraminic acids per O-glycan was calculated from the same O-glycopeptide data listed under (<italic>A</italic>). <sentence_start/>A comprehensive list of values is available in ."
+  },
+  {
+   "section": "article",
+   "text": "In all IgG3 samples, a modified version of the hinge peptide SCDTPPPCPR was observed, with a mass increase of +42.04 Da that could consist of acetylation. <sentence_start/>This modification was observed on both the nonglycosylated and glycosylated peptide, and the percentage of modified peptide was found to be stable at \u223c15% regardless of the type of O-glycan attached or the IgG3 sample source. <sentence_start/>LC-ESI-IT-MS/MS spectra show that the modification appears to be present on the N-terminal serine or cysteine residue. <sentence_start/>When IgG3 was digested in-solution without reduction alkylation (data not shown), the modification was not observed on the resulting disulfide bridge-linked hinge peptide dimer, indicating that the modification is an artifact of the sample processing. <sentence_start/>Furthermore, peaks with masses corresponding to the a hinge peptide with an acrylamide adduct (<italic>m/z</italic> 600.75 (2+)) or with an oxidized disulfide bridge (<italic>m/z</italic> 535.70 (2+)) were also seen, but since their signal intensity was only around 5% or less than 2%, respectively, of the signal intensity of the main peptide peak, we do not expect these modifications to significantly influence our results with regard to glycopeptide quantification."
+  },
+  {
+   "section": "article",
+   "text": "Because the type and quantity of O-glycosylation appeared similar in IgG3 derived from different single donors, we also investigated interindividual differences in Fc N-glycosylation at position N297. <sentence_start/>Relative quantification of Fc N-glycosylation was done using tryptic digests of single donor IgG3 ( and ). <sentence_start/>Minor differences were observed between the IgG2/3 N-glycosylation of these donors, most pronounced for the degree of galactosylation."
+  },
+  {
+   "section": "article",
+   "text": "In-solution trypsin digestion of IgG3 without reduction alkylation produces a dimer of the hinge repeat peptide held together by two interchain disulfide bridges. <sentence_start/>Mono-glycosylated dimers were observed in all IgG3 samples. <sentence_start/>In the monoclonal IgG3 samples, a dimer with two disialylated glycans attached was seen at a very low abundance (\u223c1.0% (G3m(g)) and 0.4% (G3m(s)) of the total of O-glycopeptides + peptide) ( ); in the polyclonal IgG3 samples, we did not observe a di-glycosylated dimer, which may be due to the fact that these samples were less pure than the monoclonal samples and thus had a higher background in LC-MS."
+  },
+  {
+   "section": "article",
+   "text": "O-glycosylation of Fc Constructs with an IgG4 Hinge"
+  },
+  {
+   "section": "article",
+   "text": "Four recombinant IgG Fc constructs produced in HEK cells, all carrying an IgG4 hinge (<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1074/jbc.M113.541813\" pmcid=\"PMC3937676\" pmid=\"24425871\" count=\"1\">30</citation>), were also found to carry O-glycans ( ). <sentence_start/>The Fc-domains consisted either of the G3m(b) or G3m(c3c5) allotypes for IgG3 or IgG4 with V397M or V397M, and K392N; protein sequences can be reviewed in . <sentence_start/>The O-glycopeptides observed in LC-MS(/MS) analysis of chymotrypsin and proteinase K digests contained one potential glycosylation site: a serine residue in the hinge region at what in intact IgG4 would be position 228; the peptide sequences of the encountered O-glycopeptides are listed in ."
+  },
+  {
+   "section": "article",
+   "text": "Because of these findings, we also investigated whether O-glycosylation was present on whole IgG4. <sentence_start/>We obtained IgG4 from the serum of a patient with high IgG4 levels and from the serum of a rheumatoid arthritis patient, as well as an IgG4 sample produced in HEK cells and a humanized murine IgG4 therapeutic antibody. <sentence_start/>LC-MS(/MS) analysis of trypsin and proteinase K digests revealed the peptide covering S228, but no O-glycans were observed."
+  },
+  {
+   "section": "article",
+   "text": "DISCUSSION"
+  },
+  {
+   "section": "article",
+   "text": "IgG3 stands out from the other IgG subclasses due to its elongated hinge region and enhanced effector functions. <sentence_start/>In this paper, we demonstrate for the first time partial O-glycosylation of threonine residues within the triple repeat sequence in the hinge region of each IgG3 heavy chain. <sentence_start/>Non-, mono- and disialylated core 1 type O-glycans were identified in IgG3 from various sources. <sentence_start/>A hexasaccharide disialylated O-glycan was also present at a very low abundance but only in the monoclonal IgG3 samples."
+  },
+  {
+   "section": "article",
+   "text": "Relative Abundance and Distribution of IgG3 O-glycosylation"
+  },
+  {
+   "section": "article",
+   "text": "An estimate of the relative abundance of the various O-glycans was determined from nanoLC-ESI-IT-MS analysis of trypsin-generated (glyco)peptides. <sentence_start/>It should be noted that because the signal of the monosialylated O-glycopeptide in triply charged state overlapped with the doubly charged peak of the hinge repeat peptide with a putative acetylation modification in all samples, only the doubly charged signal of the monosialylated O-glycopeptide was quantified, thereby leading to an underestimation of this O-glycoform. <sentence_start/>Furthermore, it is known that glycopeptides with different glycan structures can have different response factors (<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1002/jms.3189\" pmid=\"23776102\" count=\"1\">35</citation>), and thus the relative abundances we measured may not accurately reflect the real ratios. <sentence_start/>In order to obtain a more reliable estimate of the percentage of the hinge repeat motif bearing an O-glycan, tryptic IgG peptides were incubated with exoglycosidases, trimming all O-glycans down to a single <italic>N</italic>-acetylhexosamine. <sentence_start/>A previous study of quantitative measurements of a single glycosylated peptide using nanoLC-ESI-IT-MS found that the glycopeptide with a single <italic>N</italic>-acetylglucosamine produced signal strengths similar to the nonglycosylated peptide (<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1002/jms.3189\" pmid=\"23776102\" count=\"1\">35</citation>). <sentence_start/>Given the structural similarities between <italic>N</italic>-acetylglucosamine and <italic>N</italic>-acetylgalactosamine, we expect our method of relative quantification of desialylated and degalactosylated O-glycopeptides to give a reliable estimate of the degree of O-glycosylation."
+  },
+  {
+   "section": "article",
+   "text": "Approximately 10% of the hinge repeat threonines carry an O-glycan in polyclonal IgG3 derived from donor sera. <sentence_start/>Despite differences in the age and sex of the donors, the degree and type of O-glycosylation appears similar in all six samples. <sentence_start/>This is in contrast to the N-glycosylation profiles of these samples, which do show interindividual differences in agreement with the literature (<citation rid=\"B36\" ref-type=\"bibr\" pmid=\"23298168\" doi=\"10.1021/pr300887z\" count=\"1\">36</citation>). <sentence_start/>In the two monoclonal IgG3 allotypes, we examined, IgG3m(g) and IgG3m(s), \u223c12-14% of the O-glycosylation sites were occupied; this increase may be due to the expression system (HEK cells) in which these antibodies were produced (<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.jbiotec.2012.06.038\" pmid=\"22814405\" count=\"1\">37</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "A clear difference in O-glycosylation was seen between the commercially obtained IgG3 sample derived from pooled plasma and the other IgG3 samples: The former exhibited a much lower level of terminal <italic>N</italic>-acetylneuraminic acids per O-glycan, as well as a lower level of O-glycosylation overall. <sentence_start/>Two explanations could be found in the details of the preparation process that were supplied by the manufacturer of this IgG3 sample: Boric acid was used for precipitation and a jacalin column was used to remove a minor IgA contaminant. <sentence_start/>Acidic treatment has been known to cause loss of terminal N-acetylneuraminic acid (<citation rid=\"B38\" ref-type=\"bibr\" pmid=\"9751791\" doi=\"10.1093/glycob/8.11.1045\" count=\"1\">38</citation>). <sentence_start/>However, the N-glycans of pooled-plasma-derived IgG3 did not show a decrease in sialylation compared with single-donor-derived IgG3, which makes it unlikely that boric acid treatment is responsible for the lower level of O-glycan sialylation. <sentence_start/>Jacalin is a plant lectin with affinity for core 1 type O-glycans; it binds O-glycosylated proteins such as IgA1, as well as several animal IgGs that are suspected of carrying O-glycosylation (<citation rid=\"B39\" ref-type=\"bibr\" pmid=\"21964726\" doi=\"10.1093/glycob/cwr099\" count=\"1\">39</citation>, <citation rid=\"B40\" ref-type=\"bibr\" pmid=\"1699452\" doi=\"10.1016/0003-2697(90)90605-9\" count=\"1\">40</citation>). <sentence_start/>However, it has been reported that jacalin has a higher affinity for nonsialylated than for sialylated O-glycans in the case of fetuin (<citation rid=\"B40\" ref-type=\"bibr\" pmid=\"1699452\" doi=\"10.1016/0003-2697(90)90605-9\" count=\"1\">40</citation>), and the same was observed for monoclonal IgG3 that was run over a jacalin column and found to be depleted for nonsialylated and partially depleted for monosialylated but not for disialylated O-glycans (unpublished data). <sentence_start/>This does not explain why the pooled plasma-derived IgG3 would exhibit lower levels of disialylated O-glycans and higher levels of monosialylated O-glycans compared with single donor serum-derived IgG3. <sentence_start/>In any case, it is difficult to say anything about possible depletion without being able to observe the O-glycosylation profile of the original non-jacalin-treated pooled plasma sample. <sentence_start/>Because it was shown that jacalin interacts with the O-glycosylated IgG3 hinge and because of the deviating O-glycosylation profile obtained from the jacalin-treated pooled plasma-derived sample <italic>versus</italic> IgG3 from single human donors obtained without jacalin depletion, the results obtained for this IgG3 sample will not be deemed representative for the overall human population."
+  },
+  {
+   "section": "article",
+   "text": "It is likely that the O-glycosylation is distributed randomly among all IgG3s, since monoclonal cell cultures were found to produce partially O-glycosylated instead of either fully or non-O-glycosylated IgG3. <sentence_start/>Furthermore, hinge peptide-dimer repeats linked by interchain disulfide bridges rarely carry two O-glycans, which indicates that the O-glycosylation is not clustered on a subset of the IgG3 molecules. <sentence_start/>If the O-glycosylation is distributed randomly, approximately half (1 \u2212 probability of 6 unoccupied sites = 1 \u2212 ((1 \u2212 0.10)^6) = 47%) of the IgG3s would be expected to carry at least one O-glycan. <sentence_start/>We observed that less than 1% of hinge peptide-dimer repeats carried two disialylated O-glycans in monoclonal IgG3 samples, whereas the expected value assuming random O-glycosylation site occupancy would be \u223c3.8% (G3m(g)) and 2.8% (G3m(s)). <sentence_start/>These findings indicate that addition of O-linked glycans is inhibited if a glycan is already present at the adjacent site on the opposing heavy chain, thus dispersing the O-glycosylation across a higher percentage of IgG3s."
+  },
+  {
+   "section": "article",
+   "text": "Criteria Determining IgG Hinge-Region O-glycosylation"
+  },
+  {
+   "section": "article",
+   "text": "Based on the amino acid sequence of the IgG3 hinge repeat region, it is not surprising that it forms a target for O-glycosylation. <sentence_start/>It is known that O-glycosylation occurs in sequences with a high abundance of proline residues, preferentially at position \u22121 and +3 relative to the glycosylation site (<citation rid=\"B41\" ref-type=\"bibr\" pmid=\"2025231\" doi=\"10.1042/bj2750529\" pmcid=\"PMC1150083\" count=\"1\">41</citation>). <sentence_start/>In the IgG3 hinge repeat, six of the 16 amino acid residues consist of prolines, including one at position +3 relative to the glycosylation site. <sentence_start/>Furthermore, due to its extended formation, the IgG3 hinge region has a high degree of surface accessibility (<citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1111/j.1365-3083.1975.tb02607.x\" pmid=\"1145126\" count=\"1\">42</citation>), which is also associated with O-glycosylation (<citation rid=\"B43\" ref-type=\"bibr\" pmid=\"15385431\" doi=\"10.1093/glycob/cwh151\" count=\"1\">43</citation>). <sentence_start/>Surface accessibility may be responsible for the slightly lower degree of O-glycosylation observed in recombinant IgG3m(s) compared with m(g): the shorter length of the hinge region of IgG3m(s), which contains two hinge repeats instead of three, could decrease the accessibility for glycosyltransferases. <sentence_start/>No O-glycosylation was observed at the threonine residues at the N-terminal end of the hinge, T<sub>H1-4</sub>,T<sub>H1-9</sub> and T<sub>H1-10</sub>, which may be due to either the local amino acid sequence or the secondary structure of this region."
+  },
+  {
+   "section": "article",
+   "text": "O-glycosylation was also found to be present on the IgG4 hinge of Fc constructs with IgG4 or IgG3 CH2 and CH3 domains. <sentence_start/>This is not surprising considering the high abundance of proline residues (at position \u22124, \u22123, \u22121, 2, and 4 relative to O-glycosylation site S228) in the IgG4 hinge region, which are a well-known marker for O-glycosylation (<citation rid=\"B41\" ref-type=\"bibr\" pmid=\"2025231\" doi=\"10.1042/bj2750529\" pmcid=\"PMC1150083\" count=\"1\">41</citation>). <sentence_start/>However, intact IgG4, whether purified from serum or expressed in the same HEK cell expression system as the Fc constructs, was not found to carry hinge region O-glycosylation. <sentence_start/>It is therefore likely that the presence of the Fab fragment influences the accessibility of the hinge region, preventing the attachment of an O-glycan in the Golgi apparatus in the case of intact IgG4. <sentence_start/>Similarly, O-glycosylation was recently reported on an IgG1 Fc-fragment produced in HEK and CHO cells but not on intact IgG1 produced under the same circumstances (<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/j.jmb.2014.07.006\" pmcid=\"PMC4159253\" pmid=\"25036289\" count=\"1\">44</citation>). <sentence_start/>This reinforces the notion that accessibility is essential for the attachment of O-glycans (<citation rid=\"B43\" ref-type=\"bibr\" pmid=\"15385431\" doi=\"10.1093/glycob/cwh151\" count=\"1\">43</citation>). <sentence_start/>For human IgG3, this is provided by the extensive length of its IgG3 hinge, which in the intact IgG molecules for other IgG subclasses is shielded by the Fab fragments."
+  },
+  {
+   "section": "article",
+   "text": "Function of IgG3 O-glycosylation"
+  },
+  {
+   "section": "article",
+   "text": "The function of the O-glycans found on the IgG3 hinge region has not been investigated, but previous findings give rise to several options. <sentence_start/>First, the hinge glycosylation might prohibit proteolytic degradation. <sentence_start/>The IgG hinge is the target of a number of bacterial or endogenous proteases (<citation rid=\"B45\" ref-type=\"bibr\" pmid=\"20400859\" doi=\"10.4161/mabs.2.3.11780\" pmcid=\"PMC2881249\" count=\"1\">45</citation>, <citation rid=\"B46\" ref-type=\"bibr\" pmid=\"19815504\" doi=\"10.1073/pnas.0904174106\" pmcid=\"PMC2758810\" count=\"1\">46</citation>), and the extended structure of the IgG3 hinge is presumably the reason that IgG3 is more susceptible to proteolytic degradation than the other IgG subclasses (<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1111/j.1365-3083.1980.tb00039.x\" pmid=\"6902981\" count=\"1\">47<citation rid=\"B48\" ref-type=\"bibr\" pmid=\"4113947\" doi=\"10.1016/0019-2791(71)90478-2\" count=\"1\" /></citation>-<citation rid=\"B49\" ref-type=\"bibr\" pmcid=\"PMC1712889\" pmid=\"4924105\" count=\"1\">49</citation>). <sentence_start/>We found that tryptic IgG3 O-glycopeptides were resistant against endoprotease AspN digestion, while the corresponding nonglycosylated peptides were not, thus providing evidence that the hinge region O-glycans can shield the hinge region from proteolytic cleavage. <sentence_start/>In contrast, we did not observe any evidence of incomplete trypsin digestion in the form of miscleaved O-glycopeptides. <sentence_start/>O-glycosylation has also been found to mediate protease resistance in other immunoglobulins, such as mouse IgG2b and IgA (<citation rid=\"B23\" ref-type=\"bibr\" pmid=\"7512967\" count=\"1\">23</citation>, <citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1128/iai.58.5.1186-1194.1990\" pmcid=\"PMC258608\" pmid=\"2182537\" count=\"1\">27</citation>). <sentence_start/>Another function for the hinge region oligosaccharides could consist of helping the hinge region maintain an extended conformation, which might contribute to the flexibility and orientation of the Fab fragments and thereby influence divalent binding to target antigens."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, it could be speculated that deviations in the O-glycosylation of IgG3 may have pathological effects, as has been described for IgA nephropathy (<citation rid=\"B50\" ref-type=\"bibr\" pmid=\"10393701\" doi=\"10.1172/JCI5535\" pmcid=\"PMC408399\" count=\"1\">50</citation>). <sentence_start/>Aberrant glycosylation of IgA1 is known to play a causal role in IgA nephropathy: The truncated O-glycans are recognized by immunoglobulins, leading to the formation of antibody complexes that are deposited on blood vessel walls near the glomerulus (<citation rid=\"B50\" ref-type=\"bibr\" pmid=\"10393701\" doi=\"10.1172/JCI5535\" pmcid=\"PMC408399\" count=\"1\">50</citation>, <citation rid=\"B51\" ref-type=\"bibr\" pmid=\"25071157\" doi=\"10.1074/mcp.M114.039693\" pmcid=\"PMC4223494\" count=\"1\">51</citation>). <sentence_start/>A similar mechanism involving IgG3 O-glycosylation could be theorized to play a role in IgG nephropathy. <sentence_start/>It has been shown that patients with membranoproliferative glomerulonephritis, a subtype of primary glomerulopathy, have IgG deposits that consist predominantly of IgG3, which may be in line with a causal role for IgG3 O-glycosylation (<citation rid=\"B52\" ref-type=\"bibr\" pmid=\"8995742\" doi=\"10.1038/ki.1997.32\" count=\"1\">52</citation>). <sentence_start/>Further research is required to determine the exact nature and functional consequences of IgG3 hinge glycosylation."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Supplemental Data"
+  },
+  {
+   "section": "back",
+   "text": "Author contributions: R.P., G.D., Y.R., T.R., P.J.H., G.V., and M.W. designed the research; R.P., G.D., R.V., C.A.K., and G.S.K. performed the research; R.V., B.C.J., T.R., and G.V. contributed new reagents or analytic tools; R.P., C.A.K., and M.W. analyzed the data; and R.P., G.D., Y.R., T.R., P.J.H., G.V., and M.W. wrote the paper."
+  },
+  {
+   "section": "back",
+   "text": "* This work was supported by the European Union (Seventh Framework Programme HighGlycan project, grant number 278535)."
+  },
+  {
+   "section": "back",
+   "text": "This article contains ."
+  },
+  {
+   "section": "back",
+   "text": "<sup>1</sup> <sentence_start/>The abbreviations used are:"
+  },
+  {
+   "section": "back",
+   "text": "ABC"
+  },
+  {
+   "section": "back",
+   "text": "ammonium bicarbonate"
+  },
+  {
+   "section": "back",
+   "text": "C1q"
+  },
+  {
+   "section": "back",
+   "text": "complement component 1 q"
+  },
+  {
+   "section": "back",
+   "text": "CE"
+  },
+  {
+   "section": "back",
+   "text": "capillary electrophoresis"
+  },
+  {
+   "section": "back",
+   "text": "CH"
+  },
+  {
+   "section": "back",
+   "text": "conserved heavy chain"
+  },
+  {
+   "section": "back",
+   "text": "CID"
+  },
+  {
+   "section": "back",
+   "text": "collision-induced dissociation"
+  },
+  {
+   "section": "back",
+   "text": "Fab"
+  },
+  {
+   "section": "back",
+   "text": "fragment antigen-binding"
+  },
+  {
+   "section": "back",
+   "text": "Fc"
+  },
+  {
+   "section": "back",
+   "text": "fragment crystallizable"
+  },
+  {
+   "section": "back",
+   "text": "Fc\u03b3R"
+  },
+  {
+   "section": "back",
+   "text": "Fc-gamma receptor"
+  },
+  {
+   "section": "back",
+   "text": "GDob1"
+  },
+  {
+   "section": "back",
+   "text": "chimeric MN12H2 antibodies with V genes from the human monoclonal IgG2 antibody DOB1"
+  },
+  {
+   "section": "back",
+   "text": "HEK"
+  },
+  {
+   "section": "back",
+   "text": "human embryonic kidney"
+  },
+  {
+   "section": "back",
+   "text": "Hex"
+  },
+  {
+   "section": "back",
+   "text": "hexose"
+  },
+  {
+   "section": "back",
+   "text": "HexNAc"
+  },
+  {
+   "section": "back",
+   "text": "<italic>N</italic>-acetylhexosamine"
+  },
+  {
+   "section": "back",
+   "text": "IgG"
+  },
+  {
+   "section": "back",
+   "text": "immunoglobulin gamma"
+  },
+  {
+   "section": "back",
+   "text": "IT"
+  },
+  {
+   "section": "back",
+   "text": "ion trap"
+  },
+  {
+   "section": "back",
+   "text": "NeuAc"
+  },
+  {
+   "section": "back",
+   "text": "<italic>N</italic>-acetylneuraminic acid"
+  },
+  {
+   "section": "back",
+   "text": "t-ITP"
+  },
+  {
+   "section": "back",
+   "text": "transient isotachophoresis"
+  },
+  {
+   "section": "back",
+   "text": "TNP"
+  },
+  {
+   "section": "back",
+   "text": "trinitrophenol."
+  }
+ ]
+}

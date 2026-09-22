@@ -1,0 +1,247 @@
+{
+ "pmid": 37103671,
+ "pmcid": 10140215,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Glypican-3 targeted positron emission tomography detects sub-centimeter tumors in a xenograft model of hepatocellular carcinoma"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Early intrahepatic recurrence is common after surgical resection of hepatocellular carcinoma (HCC) and leads to increased morbidity and mortality. <sentence_start/>Insensitive and nonspecific diagnostic imaging contributes to EIR and results in missed treatment opportunities. <sentence_start/>In addition, novel modalities are needed to identify targets amenable for targeted molecular therapy. <sentence_start/>In this study, we evaluated a zirconium-89 radiolabeled glypican-3 (GPC3) targeting antibody conjugate (<sup>89</sup>Zr-\u03b1GPC3) for use in positron emission tomography (PET) for detection of small, GPC3<sup>+</sup> HCC in an orthotopic murine model. <sentence_start/>Athymic nu/J mice received hepG2, a GPC3<sup>+</sup> human HCC cell line, into the hepatic subcapsular space. <sentence_start/>Tumor-bearing mice were imaged by PET/computerized tomography (CT) 4 days after tail vein injection of <sup>89</sup>Zr-\u03b1GPC3. <sentence_start/>Livers were then excised for the tumors to be identified, measured, bisected, and then serially sectioned at 500 \u03bcm increments. <sentence_start/>Sensitivity and specificity of PET/CT for <sup>89</sup>Zr-\u03b1GPC3-avid tumors were assessed using tumor confirmation on histologic sections as the gold standard."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "In tumor-bearing mice, <sup>89</sup>Zr-\u03b1GPC3 avidly accumulated in the tumor within four hours of injection with ongoing accumulation over time. <sentence_start/>There was minimal off-target deposition and rapid bloodstream clearance. <sentence_start/>Thirty-eight of 43 animals had an identifiable tumor on histologic analysis. <sup>89</sup>Zr-\u03b1GPC3 immuno-PET detected all 38 histologically confirmed tumors with a sensitivity of 100%, with the smallest tumor detected measuring 330 \u03bcm in diameter. <sentence_start/>Tumor-to-liver ratios of <sup>89</sup>Zr-\u03b1GPC3 uptake were high, creating excellent spatial resolution for ease of tumor detection on PET/CT. <sentence_start/>Two of five tumors that were observed on PET/CT were not identified on histologic analysis, yielding a specificity of 60%."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "<sup>89</sup>Zr-\u03b1GPC3 avidly accumulated in GPC3<sup>+</sup> tumors with minimal off-target sequestration. <sentence_start/><sup>89</sup>Zr-\u03b1GPC3 immuno-PET yielded a sensitivity of 100% and detected sub-millimeter tumors. <sentence_start/>This technology may improve diagnostic sensitivity of small HCC and select GPC3<sup>+</sup> tumors for targeted therapy. <sentence_start/>Human trials are warranted to assess its impact."
+  },
+  {
+   "section": "abstract",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "abstract",
+   "text": "The online version contains supplementary material available at 10.1186/s13550-023-00980-9."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Hepatocellular carcinoma (HCC) is the most common primary malignancy of the liver with an increasing incidence worldwide [<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.1001/jamaoncol.2017.3055\" pmcid=\"PMC5824275\" pmid=\"28983565\" count=\"1\">1</citation>]. <sentence_start/>Surgical resection in select patients is effective and can achieve a 5-year overall survival of 70% [<citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1002/hep.29913\" pmid=\"29624699\" count=\"1\">2</citation>]. <sentence_start/>Early tumor recurrence in the liver, or early intrahepatic recurrence (EIR), occurs in up to 50% of patients and is associated with reduction in survival [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1016/j.jamcollsurg.2003.07.003\" pmid=\"14585409\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.1097/SLA.0000000000000710\" pmid=\"25010665\" count=\"1\">5</citation>]. <sentence_start/>EIR is multifactorial and can be secondary to undetected early cancer during initial diagnosis [<citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.1093/annonc/mdq166\" pmid=\"20555104\" count=\"1\">6</citation>, <citation ref-type=\"bibr\" rid=\"CR7\" pmid=\"26151061\" doi=\"10.3978/j.issn.2304-3881.2014.12.05\" pmcid=\"PMC4465603\" count=\"1\">7</citation>]. <sentence_start/>Conventional imaging modalities, such as multiphase magnetic resonance imaging (MRI) and computerized tomography (CT) utilizing the LIRADS system, boast high sensitivity for HCC greater than 1 cm in size, but are less sensitive and specific for smaller lesions [<citation ref-type=\"bibr\" rid=\"CR8\" doi=\"10.1148/radiol.14140690\" pmid=\"25559230\" count=\"1\">8</citation>, <citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1148/radiol.2018181494\" pmid=\"30251931\" pmcid=\"PMC6677371\" count=\"1\">9</citation>]. <sentence_start/>Therefore, new diagnostic modalities are needed."
+  },
+  {
+   "section": "article",
+   "text": "Receptor-targeted molecular technologies have demonstrated promise for cancer imaging and therapy [<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1016/j.jconrel.2019.04.030\" pmid=\"31054991\" count=\"1\">10</citation>]. <sentence_start/>Immuno-positron emission tomography (immuno-PET) combines targeting agents with positron emitting radioisotopes to detect targets associated with malignant and benign diseases [<citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1021/acs.chemrev.9b00738\" pmid=\"32202104\" pmcid=\"PMC7265988\" count=\"1\">11</citation>]. <sentence_start/>Detection of these targets may improve identification of lesions and selection of patients for targeted therapies. <sentence_start/>Immuno-PET is being developed for HCC against several tumor-associated antigens including CD146, CD38 and glypican-3 (GPC3) [<citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.7150/thno.15568\" pmid=\"27570560\" pmcid=\"PMC4997246\" count=\"1\">12</citation>-<citation ref-type=\"bibr\" rid=\"CR17\" doi=\"10.1016/j.biomaterials.2014.04.089\" pmid=\"24836949\" pmcid=\"PMC4363564\" count=\"1\">17</citation>]. <sentence_start/>Glypican-3 is an antigen expressed on the majority of HCC and minimally expressed in normal liver, making it a promising antigen for targeted technologies [<citation ref-type=\"bibr\" rid=\"CR18\" doi=\"10.1309/HCQWPWD50XHD2DW6\" pmid=\"18480006\" count=\"1\">18</citation>, <citation ref-type=\"bibr\" rid=\"CR19\" doi=\"10.7150/jca.39972\" pmid=\"32127929\" pmcid=\"PMC7052944\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Our group developed a GPC3 targeting PET probe using zirconium-89 (Zr<sup>89</sup>-aGPC3), and we hypothesize it will identify small GPC3<sup>+</sup> tumors, which we test in an orthotopic xenograft model of HCC."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Orthotopic, cell-line xenograft model development"
+  },
+  {
+   "section": "article",
+   "text": "The University of Washington Institutional Animal Care and Use Committee reviewed and approved all protocols (UW IACUC Protocol #4304-02). <sentence_start/>All applicable institutional and/or national guidelines for the care and use of animals were followed and we carried out procedures in compliance with the ARRIVE guidelines. <sentence_start/>We purchased 8-week-old female athymic Nu/J mice (Jackson Laboratories, Stock No: 002019) and housed them in accordance with the University of Washington Office of Animal Welfare guidelines for the humane use of animals. <sentence_start/>HepG2-Red-FLuc (HepG2) cells expressing GPC-3 and <italic>Luciferase</italic> from PerkinElmer (Bioware, cat. <sentence_start/>no. , RRID:CVCL_5I98) were cultured, suspended in Matrigel (BD Biosciences) and injected into the subcapsular hepatic space. <sentence_start/>Detailed information regarding orthotopic model development is included in the Additional file 1: Supplementary Methods."
+  },
+  {
+   "section": "article",
+   "text": "Histopathologic processing"
+  },
+  {
+   "section": "article",
+   "text": "We harvested livers after PET imaging for histologic analysis. <sentence_start/>The livers were bisected at the site of tumor injection, embedded and serially sectioned at 500 \u03bcm intervals. <sentence_start/>A whole-slide scanner (Hamamatsu Nanozoomer) imaged each liver section and measured the diameter of the tumor. <sentence_start/>More detailed process is included in Additional file 1: Supplementary Methods."
+  },
+  {
+   "section": "article",
+   "text": "Production of <sup>89</sup>Zr<bold><italic>-</italic></bold>DFO-<bold><italic>\u03b1</italic></bold>GPC3 and.<sup>89</sup>Zr<bold><italic>-</italic></bold>DFO-<bold><italic>\u03b1</italic></bold>BHV1"
+  },
+  {
+   "section": "article",
+   "text": "We generated \u03b1GPC3 IgG1-producing hybridomas through the Fred Hutchinson Cancer Research Center antibody core facility as previously described [<citation ref-type=\"bibr\" rid=\"CR13\" doi=\"10.2967/jnumed.113.132118\" pmid=\"24627434\" pmcid=\"PMC4116087\" count=\"1\">13</citation>]. <sentence_start/>Conjugation of \u03b1GPC3 and BHV1 (Bovine Herpes Virus 1), a non-targeting irrelevant isotype-matched antibody, with deferoxamine (DFO) and radiolabeling with <sup>89</sup>Zr is described in Additional file 1: Supplementary Methods<italic>.</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Biodistribution studies"
+  },
+  {
+   "section": "article",
+   "text": "To assess biodistribution of <sup>89</sup>Zr-\u03b1GPC3, tumor-bearing mice were euthanized at 4 h, 1 d or 7 d after tail vein injection and tumors and normal organs were harvested and weighed. <sentence_start/><sup>89</sup>Zr activity was assayed with a gamma counter. <sentence_start/>The percent injected dose of radioisotope per gram (% ID/g) of blood, tumor, or organ was calculated after correcting for radioactive decay using an aliquot of the injectate and these values were used to calculate tumor-to-normal organ ratios of absorbed radioactivity."
+  },
+  {
+   "section": "article",
+   "text": "Blood clearance studies"
+  },
+  {
+   "section": "article",
+   "text": "After tumor-bearing mice were injected with <sup>89</sup>Zr-\u03b1GPC3 or <sup>89</sup>Zr-\u03b1BHV, blood was sampled via serial retro-orbital blood at 5, 15, 30, 60, 120, 240 min, and then on necropsy at 1 d and 7 d after injection. <sentence_start/>We measured radioactivity of blood samples by gamma counter correcting for radioactive decay using an aliquot of the injectate."
+  },
+  {
+   "section": "article",
+   "text": "Small-animal positron emission tomography"
+  },
+  {
+   "section": "article",
+   "text": "<sup>89</sup>Zr-\u03b1GPC3 imaging was performed using the Inveon PET/CT scanner (Siemens Medical Solutions USA, INC. <sentence_start/>Molecular Imaging, Knoxville, TN), which was calibrated for <sup>89</sup>Zr. <sentence_start/>Tumor-bearing animals were imaged after injection with 11.1 MBq (300uCi) of <sup>89</sup>Zr-\u03b1GPC3 (~ 70 \u03bcg antibody) via the tail vein. <sentence_start/>Four days after injection, whole-body PET and CT images were acquired on animals anesthetized with 1-2% isoflurane anesthesia in 100% oxygen at 1L/min in a temperature-controlled bed with respiratory monitoring. <sentence_start/>Animals first had a 60-min positron emission tomography scan followed by a computerized tomographic scan (~ 15 min), which enabled scatter and attenuation correction."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "<sup>89</sup>Zr-aGPC3 accumulates in tumor with minimal off-target binding"
+  },
+  {
+   "section": "article",
+   "text": "<sup>89</sup>Zr-aGPC3 accumulated in the tumor within four hours of injection with minimal off-target tissue uptake including the non-tumor liver and spleen (Fig. 1A). <sentence_start/>In contrast, the non-targeting control conjugate, <sup>89</sup>Zr-aBHV1, did not significantly accumulate in the tumor and was sequestered in liver and splenic tissue (Fig. 1B). <sentence_start/><sup>89</sup>Zr-aGPC3 accumulated in the tumor over time with low non-tumor liver uptake. <sentence_start/>The tumor-liver ratio increased over 144 h due to increased tumor accumulation and non-tumor liver clearance (Fig. 1C). <sentence_start/>Pharmacokinetic analysis demonstrated that both <sup>89</sup>Zr-aGPC3 and <sup>89</sup>Zr-aBHV1 were cleared from the bloodstream over time, with <sup>89</sup>Zr-aGPC3 cleared more rapidly likely due to increased tumoral uptake (Fig. 1D).Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "<sup>89</sup>Zr-aGPC3 avidly binds to tumor with minimal off-target binding. <sentence_start/><bold>a</bold>, <bold>b</bold> Tissue biodistribution of <sup>89</sup>Zr-aGPC3 and <sup>89</sup>Zr-aBHV1 in tumor-bearing mice 4 h (n = 4), 24 h (n = 4), and 144 h (<italic>n</italic> = 3 for GPC3, <italic>n</italic> = 6 for BHV1) after injection. <sentence_start/><bold>c</bold> Tumor-to-liver ratio 4 h, 24 h, and 144 h after injection. <sentence_start/><bold>d</bold> Comparative blood clearance profiles in tumor-bearing mice at 5, 15, 30, 60, 120, 240 min, 24 h and 7 days after injection with of <sup>89</sup>Zr-aGPC3 or <sup>89</sup>Zr-aBHV1 (n = 4/time point). <sentence_start/>Bar and symbol denote mean, error bar denotes standard deviation"
+  },
+  {
+   "section": "article",
+   "text": "GPC-3 targeted immuno-PET detects sub-centimeter tumors sensitively and specifically"
+  },
+  {
+   "section": "article",
+   "text": "Forty-three animals were imaged at varying times after tumor implantation to assess the sensitivity and specificity of <sup>89</sup>Zr-aGPC3 immuno-PET for a range of tumor sizes. <sentence_start/>The experimental schematic is shown in Fig. <sentence_start/>2. <sentence_start/>After gross inspection and histologic processing, tumors were identified in 38 of 43 animals. <sentence_start/>Tumor diameters measured on histologic analysis ranged from 330 \u03bcm to 8.7 mm (median 2.6 mm, IQR 1.8).Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Experimental schematic. <sentence_start/>At pre-specified times after subcapsular hepatic injection of human HepG2 cells, 11.1 MBq of <sup>89</sup>Zr-\u03b1GPC3 was injected via the tail vein. <sentence_start/>Four days after injection, whole-body PET and CT images were acquired. <sentence_start/>Animals were subsequently euthanized, and livers were assessed for tumors histologically"
+  },
+  {
+   "section": "article",
+   "text": "The sensitivity of <sup>89</sup>Zr-aGPC3 immuno-PET was 100% (Table 1). <sentence_start/>Six tumors were not visible on gross inspection but were identified on histologic analysis and on PET imaging. <sentence_start/>Seven tumors identified were under 1 mm in diameter on histology, including one measuring 330 \u03bcm. <sentence_start/>Figure 3 displays representative axial and coronal PET/CT fused images of tumors detected with corresponding histologic images. <sentence_start/>PET images demonstrated high tumor-to-liver ratios with low background liver signal. <sentence_start/>In the smallest of tumors, the background liver and lung signals were higher due to lower radionuclide uptake and PET signal intensity in the tumor."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "GPC-3 targeted immuno-PET detects sub-centimeter tumors sensitively and specifically. <sentence_start/>Representative axial (top) and coronal (middle) PET/CT-fused images of tumor-bearing animals 4 days after injection with <sup>89</sup>Zr-aGPC3. <sentence_start/>Hematoxylin and eosin-stained hepatic tissue containing tumor corresponding to <sup>89</sup>Zr-aGPC3 avid tumor (bottom). <sentence_start/>Maximum histologic cross-sectional diameter listed below"
+  },
+  {
+   "section": "article",
+   "text": "The specificity of <sup>89</sup>Zr-aGPC3 was 60%. <sentence_start/>Two tumors identified on PET were not identified on histologic processing, representing false positive findings. <sentence_start/>These two tumors were minuscule on PET imaging and may have been missed on histologic sampling which was taken at 500 \u03bcm intervals. <sentence_start/>Three animals did not have tumors identified on PET or histologic analysis, representing true negative findings."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "New diagnostic modalities are needed for sensitive and specific diagnosis of early HCC to reduce EIR and to identify antigens for targeted therapy. <sentence_start/>In this study,<sup>89</sup>Zr-aGPC3 had favorable in vivo biodistribution and pharmacokinetics, high sensitivity, and specificity for small GPC3<sup>+</sup> tumors in an orthotopic xenograft model of HCC."
+  },
+  {
+   "section": "article",
+   "text": "In a large cohort of 38 tumor-bearing animals, <sup>89</sup>Zr-aGPC3 was highly sensitive, detecting 100% of tumors, including seven tumors under 1 mm in diameter as measured during histologic analysis. <sentence_start/><sup>89</sup>Zr-aGPC3 is highly avid for GPC3 [<citation ref-type=\"bibr\" rid=\"CR20\" count=\"1\">20</citation>, <citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1155/2019/4564707\" pmid=\"31636665\" pmcid=\"PMC6766125\" count=\"1\">21</citation>], and demonstrated high avidity for the tumor in vivo with minimal surrounding uptake in the normal liver, affording spatially resolute images for easy identification of small tumors. <sentence_start/>There were two falsely positive animals in the cohort with small tumors identified on PET imaging but not on histologic analysis. <sentence_start/>With only 5 non-tumor bearing animals in the cohort, these false positives yielded a low specificity of 60% in a small sample size. <sentence_start/>These tumors were diminutive on PET imaging and may have been missed during histologic processing."
+  },
+  {
+   "section": "article",
+   "text": "Receptor-targeted molecular imaging and treatment hold promise for management of solid malignancies [<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.1016/j.jconrel.2019.04.030\" pmid=\"31054991\" count=\"1\">10</citation>]. <sentence_start/>For example, galium-68 or copper-64 DOTATE PET/CT is a highly accurate modality for detection of neuroendocrine tumors through targeting of the somatostatin receptor and can detect sub-centimeter tumors missed by conventional CT or MR imaging [<citation ref-type=\"bibr\" rid=\"CR22\" doi=\"10.1148/rg.352140164\" pmid=\"25763733\" count=\"1\">22</citation>]. <sentence_start/>Furthermore, it confirms the presence of the receptor targetable with therapeutic radionuclides like lutetium-177 [<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1056/NEJMoa1607427\" pmid=\"28076709\" pmcid=\"PMC5895095\" count=\"1\">23</citation>]. <sentence_start/>For HCC, several novel molecular targets are being evaluated for early detection, prognostication, and therapy including GPC3, prostate specific membrane antigen (PSMA), CD146, and CD38 [<citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.7150/thno.15568\" pmid=\"27570560\" pmcid=\"PMC4997246\" count=\"1\">12</citation>-<citation ref-type=\"bibr\" rid=\"CR17\" doi=\"10.1016/j.biomaterials.2014.04.089\" pmid=\"24836949\" pmcid=\"PMC4363564\" count=\"1\">17</citation>, <citation ref-type=\"bibr\" rid=\"CR24\" doi=\"10.2967/jnumed.118.214833\" pmid=\"30002112\" count=\"1\">24</citation>]. <sentence_start/>GPC3 is currently a target for T cell therapies [<citation ref-type=\"bibr\" rid=\"CR25\" doi=\"10.1126/scitranslmed.aal4291\" pmid=\"28978751\" count=\"1\">25</citation>, <citation ref-type=\"bibr\" rid=\"CR26\" doi=\"10.1158/1078-0432.CCR-19-3259\" pmid=\"32371538\" count=\"1\">26</citation>], mAb antagonist and vaccine therapy [<citation ref-type=\"bibr\" rid=\"CR27\" doi=\"10.1158/1078-0432.CCR-12-2616\" pmid=\"23362325\" count=\"1\">27</citation>, <citation ref-type=\"bibr\" rid=\"CR28\" doi=\"10.1158/1078-0432.CCR-11-3044\" pmid=\"22577059\" count=\"1\">28</citation>], and alpha and beta-particle radionuclide therapy [<citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1155/2019/4564707\" pmid=\"31636665\" pmcid=\"PMC6766125\" count=\"1\">21</citation>, <citation ref-type=\"bibr\" rid=\"CR29\" doi=\"10.3390/molecules26010004\" pmid=\"33374953\" pmcid=\"PMC7792624\" count=\"1\">29</citation>, <citation ref-type=\"bibr\" rid=\"CR30\" doi=\"10.2967/jnumed.121.262562\" pmid=\"34772791\" pmcid=\"PMC9258570\" count=\"1\">30</citation>]. <sentence_start/>GPC3-targeted immuno-PET may serve as a companion diagnostic to select patients for GPC3-targeted therapies."
+  },
+  {
+   "section": "article",
+   "text": "A limitation of targeted technologies is the expression characteristics of tumor-associated antigens. <sentence_start/>Fortunately for HCC, GPC3 is highly expressed on the cell surface of HCC while being minimally expressed in cirrhotic or normal liver. <sentence_start/>However, most preclinical models rely on high GPC3-expressing cell lines which do not recapitulate HCC in situ. <sentence_start/>The use of human cell line in a mouse background favors high tumor uptake and minimal off-target binding with resulting high liver-to-tumor ratios and resolute PET imaging. <sentence_start/>Similarly, the imaging was performed in a small animal, with reduced partial volume and radiotracer attenuation effects, leading to high-resolution imaging unlikely to be replicated in human. <sentence_start/>The completeness of our histologic processing was limited by resources and by sectioning every 500 \u03bcm, potentially leading to a falsely low specificity."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, in a cell-line xenograft model of HCC, we observed highly specific binding of <sup>89</sup>Zr-aGPC3 with high sensitivity and specificity for detection of sub-centimeter GPC3<sup>+</sup>tumors. <sup>89</sup>Zr-aGPC3 may serve as a sensitive companion diagnostic for GPC3<sup>+</sup> HCC."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher's Note</bold>"
+  },
+  {
+   "section": "back",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "KPL, JOP, YL, DSW, RSM, JJO were involved in study design and funded the research. <sentence_start/>KPL, ALL, ALK, DKH, ADL, AFU, SKD, TNM, AP were involved in cell culture, xenograft development, data acquisition and processing. <sentence_start/>KPL wrote manuscript with editorial input from all authors. <sentence_start/>All authors read and approved the final manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Funding"
+  },
+  {
+   "section": "back",
+   "text": "This work was funded used resources supported by the NIH Shared Instrumentation Grant 1S10OD010652-01, and the UW Small Animal PET/CT resource, supported by NIH 1S10 OD 017980-0 and S10 RR024689-01 grant, the Translational BioImaging Core (TBIC) Shared Resource of the Fred Hutch/University of Washington Cancer Consortium (P30 CA015704)."
+  },
+  {
+   "section": "back",
+   "text": "Availability of data and materials"
+  },
+  {
+   "section": "back",
+   "text": "The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request."
+  },
+  {
+   "section": "back",
+   "text": "Declarations"
+  },
+  {
+   "section": "back",
+   "text": "Ethics approval and consent to participate"
+  },
+  {
+   "section": "back",
+   "text": "The University of Washington Institutional Animal Care and Use Committee reviewed and approved all protocols (UW IACUC Protocol #4304-02). <sentence_start/>All applicable institutional and/or national guidelines for the care and use of animals were followed, and we carried out procedures in compliance with the ARRIVE guidelines."
+  },
+  {
+   "section": "back",
+   "text": "Consent for publication"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Competing interests"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare that they have no competing interests."
+  }
+ ]
+}

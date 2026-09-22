@@ -1,0 +1,383 @@
+{
+ "pmid": 31827684,
+ "pmcid": 6885240,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "DPP4 Inhibitor Attenuates Severe Acute Pancreatitis-Associated Intestinal Inflammation via Nrf2 Signaling"
+  },
+  {
+   "section": "abstract",
+   "text": "Severe acute pancreatitis (SAP) is a challenging disease with high morbidity and mortality, often complicated by multiple organ dysfunction syndrome (MODS). <sentence_start/>The intestine, a major organ involved in MODS, correlates strongly with the evolution of the disease. <sentence_start/>In this study, we demonstrated that the DPP4 inhibitor, sitagliptin, protects SAP-associated intestinal injury both in vitro and in vivo. <sentence_start/>These beneficial effects were achieved by suppressing oxidative stress and inflammatory responses. <sentence_start/>Moreover, in sitagliptin-treated SAP mice, expression of Nrf2 was induced and that of NF-<italic>\u03ba</italic>B was reduced, compared to the control SAP mice. <sentence_start/>In addition, we used Nrf2<sup>\u2212/\u2212</sup> mice to test the protective effect of Nrf2 during sitagliptin treatment of SAP; our results indicated that Nrf2<sup>\u2212/\u2212</sup> mice had greater pancreatic and intestinal injury than wild-type mice. <sentence_start/>Taken together, high levels of ROS induced by SAP may be inhibited by sitagliptin, possibly by inactivating the Nrf2-NF-<italic>\u03ba</italic>B pathway."
+  },
+  {
+   "section": "article",
+   "text": "1. Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The incidence of acute pancreatitis (AP) has been on the rise, with annual costs exceeding two billion dollars in the USA alone, inducing substantial medical and social burden [<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1053/j.gastro.2019.01.269\" pmid=\"30776347\" count=\"1\">1</citation>]. <sentence_start/>Over 20% of AP cases is severe, with high morbidity and mortality rates [<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1080/00365520510024133\" other=\"2-s2.0-32644470963\" pmid=\"16484129\" count=\"1\">2</citation>]. <sentence_start/>In severe AP, multiple organ dysfunction syndrome (MODS) ensues following pancreatic necrosis [<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(08)60107-5\" other=\"2-s2.0-38049033431\" pmid=\"18191686\" count=\"1\">3</citation>]. <sentence_start/>The intestine, a major organ involved in MODS, is extremely vulnerable to inflammatory factors and correlates strongly with the evolution of the disease [<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1177/0148607110362691\" other=\"2-s2.0-78649845343\" pmid=\"20852186\" count=\"1\">4</citation>, <citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1097/MPA.0b013e31818a392f\" other=\"2-s2.0-65349108046\" pmid=\"18797421\" count=\"1\">5</citation>]. <sentence_start/>Enterocyte damage and increased intestinal permeability induced by intestinal barrier dysfunction, making the bacterial translocation from the intestinal tract to the blood stream and/or distant organs, are believed to precede the evolution [<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1001/archsurg.1990.01410150125024\" other=\"2-s2.0-0025159181\" pmid=\"2407230\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The gastrointestinal tract is a key source of reactive oxygen species (ROS). <sentence_start/>Despite the epithelial layer-provided protective barrier, ingested materials and pathogens can activate the epithelium, macrophages, and polymorphonuclear neutrophils to produce inflammatory cytokines and other mediators that contribute further to oxidative stress. <sentence_start/>Excessive ROS production in the inflamed mucosa may directly lead to intestinal barrier dysfunction in severe acute pancreatitis (SAP) rats [<citation rid=\"B7\" ref-type=\"bibr\" pmid=\"23426538\" count=\"1\">7</citation>]. <sentence_start/>Therefore, to seek effective treatment measures, early protection of the intestinal barrier function by reducing ROS production may be promising for the prevention and treatment of SAP."
+  },
+  {
+   "section": "article",
+   "text": "Dipeptidyl peptidases (DPPs) belong to a family of proline-specific serine proteases capable of cleaving off a dipeptide from the amino-terminus. <sentence_start/>DPP4 is the best characterized peptidase in the family. <sentence_start/>DPP4 expression in the intestine is the highest among that of all organs, speculated to be widely distributed in the intestinal tract and closely related to the occurrence and development of various intestinal diseases. <sentence_start/>Recently, DPP4 expression is reportedly upregulated in some inflammatory diseases such as inflammatory bowel disease, atherosclerosis, obesity, and multiple sclerosis, suggesting its involvement in the pathogenesis of inflammation [<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2015.00387\" other=\"2-s2.0-84938497115\" pmcid=\"PMC4528296\" pmid=\"26300881\" count=\"1\">8</citation>-<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1016/j.ebiom.2019.01.065\" other=\"2-s2.0-85061025213\" pmid=\"30738832\" pmcid=\"PMC6441950\" count=\"1\">10</citation>]. <sentence_start/>In our previous experiments, DPP4 in the intestinal tract was demonstrated to be significantly increased in the SAP mouse model and could be inhibited by the DPP4 inhibitor (DPP4i) sitagliptin. <sentence_start/>Sitagliptin was the first clinically used DPP4i, with the approval from the US Food and Drug Administration, for the treatment of type 2 diabetes in 2006 [<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1038/nrd2245\" other=\"2-s2.0-33947595868\" pmid=\"17342863\" count=\"1\">11</citation>]. <sentence_start/>Grazia et al. [<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1111/bph.13686\" other=\"2-s2.0-85016393901\" pmid=\"27922176\" pmcid=\"PMC5659996\" count=\"1\">12</citation>] demonstrated that sitagliptin treatment decreased the levels of endothelial NOS monomer, responsible for the generation of ROS, although the amount of NO-producing dimeric form increased; markers of oxidative and nitrosative stress also decreased. <sentence_start/>Another recent publication [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.cmet.2016.05.017\" other=\"2-s2.0-84975466423\" pmid=\"27304493\" count=\"1\">13</citation>] showed that using incretin-related DPP4 for treating diabetes increases metastatic capacity by activating the antioxidant transcription factor Nrf2 to eventually reduce ROS levels. <sentence_start/>To the best of our knowledge, the effect of the DPP4i sitagliptin on SAP-related intestinal damage has not yet been examined."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we demonstrate that sitagliptin is capable of protecting SAP-related intestinal damage and reducing the levels of ROS. <sentence_start/>We hypothesize that reduced levels of ROS produced by sitagliptin inhibit intestinal epithelial cell inflammation, which may be achieved by inactivating the Nrf2 pathway."
+  },
+  {
+   "section": "article",
+   "text": "2. Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1. Materials"
+  },
+  {
+   "section": "article",
+   "text": "Dulbecco's modified Eagle's medium (DMEM), fetal bovine serum (FBS), and trypsin were purchased from Gibco (Grand Island, NY). <sentence_start/>Sitagliptin (sit; cat. <sentence_start/>No. HY-13749) was purchased from MedChemExpress. <sentence_start/>Lipopolysaccharide (LPS; from <italic>E. coli</italic> O127 : B8) was from Sigma. <sentence_start/>Cerulein (HY-A0190) was from MedChemExpress. <sentence_start/>Antibodies to DPP4 (ab187048), IL-6 (ab6672), IL-1<italic>\u03b2</italic> (ab9722), and TNF-<italic>\u03b1</italic> (ab6671) were from Abcam Inc. (Cambridge, USA). <sentence_start/>Antibodies to GAPDH (5174S), Nrf2 (12721), and NF-<italic>\u03ba</italic>B (8242) were from Cell Signaling Technology Inc. (Beverly, MA, USA)."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Cell Culture"
+  },
+  {
+   "section": "article",
+   "text": "IEC6 cells were obtained from The Cell Bank of Type Culture Collection of Chinese Academy of Sciences (Shanghai, China) and were cultured in DMEM supplemented with 10% FBS (Gibco, USA), 100 U/ml streptomycin, and 100 <italic>\u03bc</italic>g/ml penicillin. <sentence_start/>Cells were maintained at 37\u00b0C and 5% CO<sub>2</sub>. <sentence_start/>Experiments were performed when the IEC6 cells reached 80%-90% confluence."
+  },
+  {
+   "section": "article",
+   "text": "2.3. <sentence_start/>Detection of Cell Proliferation"
+  },
+  {
+   "section": "article",
+   "text": "Real-time quantitative proliferation was performed in E-plates 16, using the xCELLigence system (ACEA Biosciences, CA) and according to the manufacturer's instructions. <sentence_start/>Briefly, IEC6 cells (2 \u00d7 10<sup>4</sup>) were plated in serum-free medium in the plates. <sentence_start/>After 24 h, cells were treated with different concentrations of LPS (0, 1, 10, and 100 <italic>\u03bc</italic>g/ml), with or without sitagliptin (100 <italic>\u03bc</italic>M), and the cell index value was automatically monitored every 15 minutes."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>Detection of Intracellular ROS"
+  },
+  {
+   "section": "article",
+   "text": "Intracellular ROS generation was determined by a Cellular Reactive Oxygen Species Detection Assay kit (ab186028; Abcam Inc., MA) using ROS Orange Dye as the molecular probe. <sentence_start/>IEC6 cells were planted in 6-well plates, after overnight, and then cultured in LPS (10 <italic>\u03bc</italic>g/ml) medium with or without sit (100 <italic>\u03bc</italic>M) for 30 min. <sentence_start/>Subsequently, cells were stained with ROS Orange Dye for 1 h in the dark, according to the protocol, and washed twice with phosphate buffered saline (PBS). <sentence_start/>The cells were fixed in 4% paraformaldehyde for 15 min. <sentence_start/>After three washes, the cells were blocked with 5% BSA in PBS for 30 min, and the nuclei were stained with DAPI solution. <sentence_start/>Pictures were taken by Leica TCS SP8 (Leica Microsystems, CMS GmbH, Wetzlar, Germany)."
+  },
+  {
+   "section": "article",
+   "text": "2.5. RNA Isolation and Quantitative Real-Time PCR"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was isolated from jejunum tissues and IEC6s using a TRIzol Kit (15596026; Invitrogen, Carlsbad, CA). <sentence_start/>To quantify the amount of mRNA, cDNA was synthesized from 1 <italic>\u03bc</italic>g of total RNA in a final volume of 20 <italic>\u03bc</italic>g by using the RevertAid First Strand cDNA Synthesis Kit (K1622; Thermo Fisher Scientific, MA). <sentence_start/>Next, quantitative real-time PCR (qRT-PCR) was performed using the SYBR-Green Master Mix kit (Takara Bio Inc., Japan) on a PCR Detection System (Bio-Rad, CFX96) using standard conditions, following the manufacturer's instructions. <sentence_start/>Results were analyzed using the 2<sup>-<italic>\u0394\u0394</italic>Ct</sup> method, and <italic>\u03b2</italic>-actin was amplified as an internal standard. <sentence_start/>All the primer sequences are listed in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "2.6. <sentence_start/>Western Blot Analysis"
+  },
+  {
+   "section": "article",
+   "text": "IEC6 cells and C57BL/6 mice intestinal issue protein were extracted using RIPA buffer (P0013B; Beyotime Biotechnology, Shanghai, China), supplemented with phenylmethane-sulfonyl fluoride (ST506; Beyotime Biotechnology) and PhosSTOP (Roche). <sentence_start/>Protein concentrations were determined using the BCA assay kit (P0012; Beyotime Biotechnology). <sentence_start/>After denaturation, equal amounts of protein were separated by SDS-PAGE and transferred onto PVDF membranes (Millipore, Billerica, MA). <sentence_start/>After transferring, the membranes were blocked with 5% skim milk for 2 h at room temperature. <sentence_start/>Then, the membranes were probed with primary antibodies overnight at 4\u00b0C and thereafter incubated with the appropriate secondary antibodies for 1 h at room temperature. <sentence_start/>Protein bands were detected using Image Lab Software (Bio-Rad Laboratories Inc., Berkeley, CA)."
+  },
+  {
+   "section": "article",
+   "text": "2.7. <sentence_start/>Animal Experiment Protocol"
+  },
+  {
+   "section": "article",
+   "text": "Six-week-old C57BL/6 mice weighing approximately 20-25 g were purchased from Shanghai Slake Laboratory Animal Co. Ltd. (Shanghai, China). <sentence_start/>Nrf2<sup>\u2212/\u2212</sup> mice on C57BL background were obtained from the Experiment Animal Center of Nanjing Medical University (Jiangsu, China). <sentence_start/>All animal experiments were following the guidelines set by the Ethical Committee of Wenzhou Medical University and approved by the Laboratory Animal Management Committee of Zhejiang Province. <sentence_start/>Cerulein pancreatitis was induced as previously described [<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1038/srep20545\" other=\"2-s2.0-84957569848\" pmcid=\"PMC4740794\" pmid=\"26841848\" count=\"1\">14</citation>]. <sentence_start/>Briefly, mice were treated by 7 h intraperitoneal (IP) injections of a dose of cerulein (50 <italic>\u03bc</italic>g/kg). <sentence_start/>The cerulein plus LPS model was induced by IP injection of lipopolysaccharide (10 mg/kg) immediately after the 7 h IP injections of cerulein (50 <italic>\u03bc</italic>g/kg). <sentence_start/>Mice were killed 24 h after the last cerulein injection. <sentence_start/>We randomly divided the mice into four groups (<italic>n</italic> = 8/group): (a) the control group, (b) the SAP group, (c) the SAP+ sit (100 mg/kg, IP) group, and (d) the SAP + sit (200 mg/kg, IP) group. <sentence_start/>Sit (100 or 200 mg/kg, IP) was administered 1 h prior to the first IP injection of cerulein. <sentence_start/>All surgeries were performed under intraperitoneal ketamine (100 mg/kg) and xylazine (5 mg/kg)."
+  },
+  {
+   "section": "article",
+   "text": "2.8. Histopathological Analysis"
+  },
+  {
+   "section": "article",
+   "text": "To investigate the protective effects of sitagliptin on intestinal inflammation induced by SAP, pancreatic and small intestine tissues were collected, the samples were fixed in 4% paraformaldehyde solution for 1-3 days, embedded in paraffin, and cut into 4 mm thick sections, which were processed for hematoxylin and eosin (H&amp;E) staining. <sentence_start/>The morphological changes were observed under a microscope by two pathologists in a blinded manner. <sentence_start/>An assessment of vacuolization, edema, acinar cell necrosis, and inflammatory cell infiltration was carried out. <sentence_start/>Pancreatic injury was scored on a scale of 0-3 according to four items: edema (0 absent, 1 focally increased between lobules, and 2 diffusely increased); inflammatory cell infiltrate (0 absent, 1 in ducts (around ductal margins), 2 in the parenchyma (&lt;50% of the lobules), and 3 in the parenchyma (&gt;50% of the lobules)); hemorrhage and fat necrosis (0 absent, 1 (1-2 foci), 2 (3-4 foci), and 3 (&gt;5 foci)); and acinar necrosis (0 absent, 1 periductal necrosis (&lt;5%), and 2 focal necrosis (5-20%), and 3 diffuse parenchymal necrosis (20-50%)), as previously described [<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1097/00000658-199201000-00007\" other=\"2-s2.0-0026528816\" pmid=\"1731649\" pmcid=\"PMC1242369\" count=\"1\">15</citation>, <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1136/gut.2006.105833\" other=\"2-s2.0-34247482269\" pmid=\"17135311\" pmcid=\"PMC1942167\" count=\"1\">16</citation>]. <sentence_start/>The pathological changes in the intestinal tissues were observed under the light microscope, and the pathological injury of the intestinal tissues was scored according to the ParkScore [<citation rid=\"B17\" ref-type=\"bibr\" pmid=\"2159192\" count=\"1\">17</citation>, <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1016/s0041-1345(00)01238-0\" other=\"2-s2.0-0033825287\" pmid=\"10995960\" count=\"1\">18</citation>]: normal mucosa (grade 0); subepithelial vacuolization and small subepithelial space at villi tips (grade 1); presence of more extended subepithelial space (grade 2); epithelial lifting extended along villi sides (grade 3), denuded villi (grade 4), loss of villi (grade 5), crypt layer infarction (grade 6), transmucosal infarction (grade 7), and transmural infarction (grade 8)."
+  },
+  {
+   "section": "article",
+   "text": "2.9. <sentence_start/>CD26/DPP4 Activity Assay and ELISA of IL-6 and IL-1<italic>\u03b2</italic>"
+  },
+  {
+   "section": "article",
+   "text": "At the end point of the study, mice were anesthetized with intraperitoneal ketamine (100 mg/kg) and xylazine (5 mg/kg). <sentence_start/>We collected the blood in coagulation tubes and centrifuged (7000 \u00d7 g, 10 min, 4\u00b0C) and stored the supernatants as serum samples. <sentence_start/>CD26/DPP4 activity in mouse serum was measured using the CD26/DPPIV Assay kit (Enzo Life Sciences, Farmingdale, NY) according to the manufacturer's protocol. <sentence_start/>Release of IL-6 and IL-1<italic>\u03b2</italic> in mouse serum was measured using ELISA kits (Abcam Inc., USA), according to the manufacturer's instructions. <sentence_start/>Absorbance at 450 nm was recorded using a microplate reader (Bio-Rad)."
+  },
+  {
+   "section": "article",
+   "text": "2.10. <sentence_start/>Detection of Malondialdehyde (MDA) Concentration and Superoxide Dismutase (SOD) Activity"
+  },
+  {
+   "section": "article",
+   "text": "The intestinal tissues were homogenized and centrifuged at 12000 \u00d7 g for 15 min before collecting the supernatant for spectrophotometric investigation. <sentence_start/>Protein concentrations were determined using the BCA assay kit. <sentence_start/>The concentrations of MDA and activities of SOD were detected using the appropriate kits (Beyotime Biotech, Inc., Jiangsu, China) and according to the manufacturer's instructions."
+  },
+  {
+   "section": "article",
+   "text": "2.11. Statistical Analyses"
+  },
+  {
+   "section": "article",
+   "text": "Values are presented as the mean \u00b1 standard deviation (SD). <sentence_start/>Statistical analysis was performed using GraphPad Prism 7.0 (GraphPad Software, San Diego, CA). <sentence_start/>One-way ANOVA was used to determine differences among more than two groups; Tukey's multiple comparisons test were used to compare the mean of every other column. <sentence_start/>The results were calculated using data from three independent experiments. <sentence_start/><italic>p</italic> &lt; 0.05 was considered statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "3. Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1. <sentence_start/>Sitagliptin Protects LPS-Stimulated IEC6 Cells"
+  },
+  {
+   "section": "article",
+   "text": "CD26/DPP4 has been reported to regulate cell proliferation in several instances [<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1080/713609354\" other=\"2-s2.0-0037787851\" pmid=\"12892317\" count=\"1\">19</citation>]. <sentence_start/>Therefore, cell proliferation assays were performed to determine the potential effect of DPP4 inhibition on IEC6 after LPS. <sentence_start/>RTCA for cell proliferation detection revealed that LPS causes a significant reduction in the proliferative capacity of the IEC6 cells in a concentration-dependent manner (<italic>p</italic> &lt; 0.05) (Figure 1(a)). <sentence_start/>We chose LPS (10 <italic>\u03bc</italic>g/ml) in the following experiments, whereas sitagliptin (100 <italic>\u03bc</italic>M) suppressed the decrease in the cell significantly (<italic>p</italic> &lt; 0.05) (Figure 1(b)). <sentence_start/>These results indicated the protective effects of sitagliptin on IEC6 after LPS stimulation. <sentence_start/>The influence of sitagliptin stimulation on LPS-induced IEC6 cells was detected by real-time PCR and Western blot. <sentence_start/>As shown in Figures 1(c) and 1(d), the expression of IL-1<italic>\u03b2</italic>, IL-6, and TNF-<italic>\u03b1</italic> decreased significantly (<italic>p</italic> &lt; 0.05). <sentence_start/>We also demonstrated that LPS significantly increased the ROS levels, using the ROS Orange Dye to detect changes in intracellular ROS and analyzing with Leica TCS SP8. <sentence_start/>However, when IEC6 cells were preincubated with sitagliptin (100 <italic>\u03bc</italic>M) for 1 h, ROS levels were obviously decreased (Figure 1(e)). <sentence_start/>Thus, the administration of sitagliptin markedly reduced the production of inflammatory factors and ROS, thereby attenuating injury."
+  },
+  {
+   "section": "article",
+   "text": "3.2. <sentence_start/>Sitagliptin Attenuates SAP-Induced Intestinal Injury in Mice"
+  },
+  {
+   "section": "article",
+   "text": "First, to assess the systemic inhibitory effect of sitagliptin on DPP4 activity in mice, plasma DPP4 activity was measured. <sentence_start/>SAP was seen to significantly increase DPP4 activity while sitagliptin produced dose-dependent inhibition of DPP4 activity in the mouse model (Figure 2(a)). <sentence_start/>We next assessed whether sitagliptin has protective effects on SAP-induced intestinal injury in mice. <sentence_start/>As shown in Figures 2(b) and 2(c), SAP increased IL-6 and IL-1<italic>\u03b2</italic> levels in serum (<italic>p</italic> &lt; 0.05) while sitagliptin (100 or 200 mg/kg) treatment inhibited the increase significantly (<italic>p</italic> &lt; 0.05). <sentence_start/>The H&amp;E staining assay showed that edema of acinar and inflammatory cell infiltrates in pancreas tissue and villi with large subepithelial spaces in the intestinal tissue was present in the SAP group but not in the control group, and there were little pathological features in the sitagliptin group compared to the SAP group (Figures 2(d)-2(f)). <sentence_start/>These results indicated that sitagliptin administration can attenuate injury to the pancreas and intestines."
+  },
+  {
+   "section": "article",
+   "text": "3.3. <sentence_start/>Alteration of Oxidative Stress Responses and Nrf2-Mediated Signaling Pathway in Sitagliptin-Treated SAP Mice"
+  },
+  {
+   "section": "article",
+   "text": "To investigate whether sitagliptin reduced ROS in the course of SAP in vivo, the oxidative stress-related indicators, malonyldialdehyde (MDA) and superoxide dismutase (SOD) activity, were measured in the intestinal tissues. <sentence_start/>Tissue concentrations of MDA were higher in the SAP group compared to those in the control group, while sitagliptin significantly decreased the MDA concentration caused by SAP (Figure 3(a)). <sentence_start/>Conversely, SOD activity was visibly less in the SAP group than in the control group, and antioxidant enzyme concentrations were higher in the sitagliptin group than in the SAP group (Figure 3(b)). <sentence_start/>Furthermore, sitagliptin increased the expression of Nrf2 and decreased the expression of DPP4, in contrast to that in SAP group (Figures 3(c) and 3(d)). <sentence_start/>In addition, the in vivo experiments showed no significant difference between 100 mg/kg and 200 mg/kg sitagliptin treatment groups. <sentence_start/>We speculated that the Nrf2/NF-<italic>\u03ba</italic>B pathway may play a role in the protective effects of sitagliptin."
+  },
+  {
+   "section": "article",
+   "text": "3.4. <sentence_start/>Anti-Inflammatory Effect of Sitagliptin Was Significantly Reduced in Nrf2<sup>\u2212/\u2212</sup> Mice"
+  },
+  {
+   "section": "article",
+   "text": "To investigate the impact of Nrf2 deletion on the anti-inflammatory properties of sitagliptin, we built the SAP model in Nrf2<sup>\u2212/\u2212</sup> mice. <sentence_start/>24 h after the last intraperitoneal injection, some mice died in the SAP groups with or without sitagliptin treatment after 24 h. <sentence_start/>At the same time, sitagliptin could effectively inhibit DPP4 activities (Figure 4(a)). <sentence_start/>This may be the reason for partially anti-inflammatory effects in Nrf2<sup>\u2212/\u2212</sup> mice, although there was no significant difference in IL-6 and IL-1<italic>\u03b2</italic> concentrations between the treatment groups and the SAP group (Figures 4(b) and 4(c)). <sentence_start/>The concentrations of IL-6 and IL-1<italic>\u03b2</italic> significantly increased after the combined cerulein and LPS treatment compared to that in WT mice. <sentence_start/>Sitagliptin treatment also proved less effective in the Nrf2<sup>\u2212/\u2212</sup> mice (Figures 4(b) and 4(c)). <sentence_start/>H&amp;E staining assay confirmed that sitagliptin treatment could not reverse the edema and leukocyte infiltration trend in pancreas tissue, and the epitheliums damage at the tips of the villi in intestinal tissue observed in the Nrf2<sup>\u2212/\u2212</sup> mice, compared to that in WT mice (Figures 4(g)-4(h)). <sentence_start/>Tissue concentrations of MDA were higher in the SAP group compared to that in the control group, while sitagliptin could not decrease the MDA concentration caused by SAP (Figure 4(g)). <sentence_start/>Conversely, SOD activity was significantly less in the SAP group than in the control group, and there was no significant difference between the sitagliptin groups and the SAP group (Figure 4(h)). <sentence_start/>Our results showed that the protective effect of sitagliptin on the intestine was abolished in Nrf2<sup>\u2212/\u2212</sup> mice. <sentence_start/>Thus, the positive effect of sitagliptin on SAP-related intestine injury may depend on Nrf2 activation."
+  },
+  {
+   "section": "article",
+   "text": "4. Discussion"
+  },
+  {
+   "section": "article",
+   "text": "SAP is a challenging disease with high morbidity and mortality and often complicated by multiple organ failure. <sentence_start/>Two phases of SAP have been observed clinically: the early toxicoenzymatic phase and the later septic phase [<citation rid=\"B20\" ref-type=\"bibr\" pmid=\"21028753\" count=\"1\">20</citation>]. <sentence_start/>Translocation of bacteria within the intestine, caused by intestine damage, is considered a second hit following SAP, leading to MODS. <sentence_start/>Therefore, it is necessary to find an effective therapy for the management of SAP-associated intestinal injury. <sentence_start/>Snarska et al. [<citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1097/MPA.0000000000000909\" other=\"2-s2.0-85032618824\" pmid=\"28902797\" count=\"1\">21</citation>] had hypothesized that DPP4 gene polymorphism influences disease susceptibility and AP severity, which is widely distributed in the intestinal tract and speculated to be closely related to the occurrence and development of various intestinal diseases. <sentence_start/>It is highly relevant to target DPP4 substrate ligands, involved in a variety of major clinically acute and chronic injury/disease, including inflammation [<citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1016/j.pharmthera.2019.02.005\" other=\"2-s2.0-85062148942\" pmid=\"30759373\" pmcid=\"PMC7883480\" count=\"1\">22</citation>]. <sentence_start/>There is recent evidence that soluble DPP4 (sDPP4) enhances the transcription of IL-6 and TNF-<italic>\u03b1</italic> induced by LPS in THP-1 cells and monocytes [<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0066520\" other=\"2-s2.0-84879275383\" pmid=\"23805228\" pmcid=\"PMC3689814\" count=\"1\">23</citation>], and sDPP4 itself can act as a proinflammatory signaling molecule in human smooth muscle cells via protease-activated receptor 2 [<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1016/j.bbadis.2014.06.004\" other=\"2-s2.0-84903899012\" pmid=\"24928308\" count=\"1\">24</citation>]. <sentence_start/>In addition, DPP4i reduced atherosclerotic lesions in the aortas of apoE-deficient mice in association with downregulation of gene expression levels of the proinflammatory mediators IL-1<italic>\u03b2</italic>, TNF-<italic>\u03b1</italic>, and IL-6. <sentence_start/>It also suppressed proinflammatory cytokine release from human macrophages after stimulation by LPS at both gene and protein expression levels [<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2011.07.053\" other=\"2-s2.0-84862908699\" pmid=\"22240132\" count=\"1\">25</citation>], thus suggesting that DPP4i has the potential to exert positive pleiotropic effects on inflammatory diseases. <sentence_start/>Consistent with these recent reports, our results also showed that sitagliptin can protect intestinal cell line, IEC6 cells, after LPS stimulation. <sentence_start/>Moreover, SAP significantly increased DPP4 activity while sitagliptin caused a dose-dependent inhibition of DPP4 activity and inhibition of the inflammatory response in this mouse model. <sentence_start/>Downregulation of the DPP4 activity could be an aspect of DPP4i inhibition of inflammation, but the results in Nrf2<sup>\u2212/\u2212</sup> mice showed that this was not the main reason why DPP4i inhibits inflammation in intestinal tissues."
+  },
+  {
+   "section": "article",
+   "text": "ROS is closely related with the activation of inflammatory cascades and tissue damage in acute pancreatitis [<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1038/s41419-018-1252-z\" other=\"2-s2.0-85058923367\" pmid=\"30584237\" pmcid=\"PMC6315021\" count=\"1\">26</citation>]. <sentence_start/>It is considered indispensable and a threat in the gastrointestinal tract, when host defense and redox signaling is involved [<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1038/s41385-018-0021-8\" other=\"2-s2.0-85046620676\" pmid=\"29743611\" count=\"1\">27</citation>]. <sentence_start/>Results from the present study showed that sitagliptin significantly altered the oxidant/antioxidant balance. <sentence_start/>Sitagliptin decreased ROS in the in vitro inflammation model and depressed the MDA level accompanied by increased SOD activity in the SAP mouse model. <sentence_start/>Increasing evidence confirmed that Nrf2 is closely related to ROS [<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1038/nature10189\" other=\"2-s2.0-79960060305\" pmid=\"21734707\" pmcid=\"PMC3404470\" count=\"1\">28</citation>]. <sentence_start/>Nrf2 is a transcriptional activator that can serve as a sensor for oxidative stress. <sentence_start/>Nrf2 transcription factor modulates the expression of defensive genes coding detoxifying enzymes and antioxidant proteins. <sentence_start/>In response to attack by electrophiles or ROS, Nrf2 is switched on and off via distinct mechanisms [<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1152/physrev.00040.2012\" other=\"2-s2.0-84899988992\" pmid=\"24692350\" pmcid=\"PMC4044300\" count=\"1\">29</citation>]. <sentence_start/>In SAP, sitagliptin treatment was shown to increase the expression of Nrf2 in the intestines. <sentence_start/>Similarly, the concentrations of the inflammatory cytokines (IL-1<italic>\u03b2</italic> and IL-6) in the Nrf2<sup>\u2212/\u2212</sup> mice was significantly increased than in WT mice and that the latter had a greater reduction in cytokines with sitagliptin than the Nrf2<sup>\u2212/\u2212</sup> mice. <sentence_start/>Moreover, our results showed that the protective effect of sitagliptin on the intestine was abolished in Nrf2<sup>\u2212/\u2212</sup> mice (Figure 4). <sentence_start/>We speculated that the main cause of sitagliptin inhibiting inflammation should be the Nrf2/NF-<italic>\u03ba</italic>B pathway (Figure 5)."
+  },
+  {
+   "section": "article",
+   "text": "NF-<italic>\u03ba</italic>B is closely involved with the inflammatory responses [<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2016.12.012\" other=\"2-s2.0-85009187552\" pmid=\"28086098\" pmcid=\"PMC5268070\" count=\"1\">30</citation>]. <sentence_start/>Studies using mouse models of ischemia/reperfusion injury [<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.cbi.2018.02.017\" other=\"2-s2.0-85042176084\" pmid=\"29454613\" count=\"1\">31</citation>] and neurodegenerative and cerebrovascular diseases [<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1016/j.redox.2018.11.017\" other=\"2-s2.0-85058525199\" pmcid=\"PMC6302038\" pmid=\"30576920\" count=\"1\">32</citation>] had suggested that NF-<italic>\u03ba</italic>B associated with inflammatory response can be inhibited by regulating Nrf2 expression. <sentence_start/>As a result of oxidative stress, IKK<italic>\u03b1</italic> or IKK<italic>\u03b2</italic> phosphorylates IkBs leading to the release of NF-<italic>\u03ba</italic>B, and its translocation into the nucleus. <sentence_start/>NF-<italic>\u03ba</italic>B binds to DNA and upregulates the transcription of many inflammatory genes like cytokines, chemokines, and receptors of advanced glycation end products [<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/s0891-5849(00)00396-8\" other=\"2-s2.0-0034333125\" pmid=\"11063912\" count=\"1\">33</citation>]. <sentence_start/>In the current study, sitagliptin pretreatment showed a remarkable inhibitory effect on the NF-<italic>\u03ba</italic>B pathway after the activation of Nrf2, following significantly decreased IL-1<italic>\u03b2</italic> and IL-6 levels in mouse serum."
+  },
+  {
+   "section": "article",
+   "text": "5. Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "We showed that sitagliptin significantly protected intestinal epithelial cells by attenuating the oxidative stress and inflammatory response in vitro and in a mouse model of SAP. <sentence_start/>The Nrf2 expression was active in the process. <sentence_start/>And mice deficient in Nrf2 were more vulnerable to inflammatory response in SAP. <sentence_start/>Moreover, the inactivation of the NF-<italic>\u03ba</italic>B pathway caused by the upregulated of Nrf2 also has a pivotal role on sitagliptin-reduced inflammatory response in the intestines (Figure 5). <sentence_start/>These findings may serve as the basis for the development of therapeutic strategies using sitagliptin that could assist in the recovery from SAP in clinical practice."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "DPP4:"
+  },
+  {
+   "section": "back",
+   "text": "Dipeptidyl peptidase-4"
+  },
+  {
+   "section": "back",
+   "text": "Nrf2:"
+  },
+  {
+   "section": "back",
+   "text": "Nuclear factor erythroid factor 2"
+  },
+  {
+   "section": "back",
+   "text": "SAP:"
+  },
+  {
+   "section": "back",
+   "text": "Severe acute pancreatitis"
+  },
+  {
+   "section": "back",
+   "text": "MODS:"
+  },
+  {
+   "section": "back",
+   "text": "Multiple organ dysfunction syndrome"
+  },
+  {
+   "section": "back",
+   "text": "NF-<italic>\u03ba</italic>B:"
+  },
+  {
+   "section": "back",
+   "text": "Nuclear factor kappa B"
+  },
+  {
+   "section": "back",
+   "text": "ROS:"
+  },
+  {
+   "section": "back",
+   "text": "Reactive oxygen species"
+  },
+  {
+   "section": "back",
+   "text": "AP:"
+  },
+  {
+   "section": "back",
+   "text": "Acute pancreatitis"
+  },
+  {
+   "section": "back",
+   "text": "DPP4i:"
+  },
+  {
+   "section": "back",
+   "text": "Dipeptidyl peptidase-4 inhibitor"
+  },
+  {
+   "section": "back",
+   "text": "NOS:"
+  },
+  {
+   "section": "back",
+   "text": "Nitric oxide synthase"
+  },
+  {
+   "section": "back",
+   "text": "NO:"
+  },
+  {
+   "section": "back",
+   "text": "Nitric oxide"
+  },
+  {
+   "section": "back",
+   "text": "DMEM:"
+  },
+  {
+   "section": "back",
+   "text": "Dulbecco's modified Eagle's medium"
+  },
+  {
+   "section": "back",
+   "text": "FBS:"
+  },
+  {
+   "section": "back",
+   "text": "Fetal bovine serum"
+  },
+  {
+   "section": "back",
+   "text": "LPS:"
+  },
+  {
+   "section": "back",
+   "text": "Lipopolysaccharide"
+  },
+  {
+   "section": "back",
+   "text": "IEC6:"
+  },
+  {
+   "section": "back",
+   "text": "Intestinal epithelial cell line"
+  },
+  {
+   "section": "back",
+   "text": "MDA:"
+  },
+  {
+   "section": "back",
+   "text": "Malondialdehyde"
+  },
+  {
+   "section": "back",
+   "text": "SOD:"
+  },
+  {
+   "section": "back",
+   "text": "Superoxide dismutase."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability"
+  },
+  {
+   "section": "back",
+   "text": "The data used to support the findings of this study are available from the corresponding author upon request."
+  },
+  {
+   "section": "back",
+   "text": "Disclosure"
+  },
+  {
+   "section": "back",
+   "text": "Xiang Zhou, Weiming Wang, and Cheng Wang are co-first coauthors."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "back",
+   "text": "All the authors declare that there are no financial or nonfinancial competing interests regarding the publication of this paper."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Sitagliptin protects IEC6 cells stimulated by LPS. <sentence_start/>(a) Cell viability was measured by RTCA cell proliferation detection exposure to various concentrations of LPS that range from 1 <italic>\u03bc</italic>g/ml to 100 <italic>\u03bc</italic>g/ml. <sentence_start/>(b) Cell proliferation detection by RTCA exposure to LPS 10 <italic>\u03bc</italic>g/ml, plus sitagliptin (100 <italic>\u03bc</italic>M) or none. <sentence_start/>(c) Real-time PCR results of IL-1<italic>\u03b2</italic>, IL-6, and TNF-<italic>\u03b1</italic> in IEC6 cells after incubating in LPS (10 <italic>\u03bc</italic>g/ml) plus sitagliptin (100 <italic>\u03bc</italic>M) or none for 24 h. <sentence_start/>(d) Western blotting results of IL-1<italic>\u03b2</italic>, IL-6, and TNF-<italic>\u03b1</italic> in IEC-6 cells after incubating in LPS (10 <italic>\u03bc</italic>g/ml) plus sitagliptin (100 <italic>\u03bc</italic>M) or none for 24 h. <sentence_start/>(e) The fluorescence intensity of ROS (red) after culturing with LPS (10 <italic>\u03bc</italic>g/ml) media plus sitagliptin (100 <italic>\u03bc</italic>M) or none for 30 min was detected using Leica TCS SP8 (\u00d7400). <sentence_start/>Cell nuclei were counterstained with DAPI (blue). <sentence_start/>Data are presented as mean \u00b1 standard error of the mean (SEM) (<italic>n</italic> = 3). <sentence_start/><sup>\u2217\u2217</sup><italic>p</italic> &lt; 0.05, compared with the N group. <sentence_start/><sup>\u2217</sup><italic>p</italic> &lt; 0.05, compared with the LPS group. <sentence_start/>N, the control group; SIT, the 100 <italic>\u03bc</italic>M sitagliptin group; LPS, the 10 <italic>\u03bc</italic>g/ml lipopolysaccharide group; LPS+SIT, the 10 <italic>\u03bc</italic>g/ml lipopolysaccharide+100 <italic>\u03bc</italic>M sitagliptin group."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Sitagliptin attenuates SAP-induced intestine injury in mice. <sentence_start/>Mice received sitagliptin (100 or 200 mg/kg, IP) or vehicle 1 h prior to cerulein+ LPS (SAP model). <sentence_start/>The serum, pancreas, and intestine tissues were then harvested 24 h after the last intraperitoneal injection. <sentence_start/>(a) DPP4 activity in serum. <sentence_start/>(b) The cytokines' IL-6 in serum. <sentence_start/>(c) The cytokines' IL-1<italic>\u03b2</italic> in serum. <sentence_start/>(d) Representative hematoxylin and eosin- (H&amp;E-) stained pancreas and intestine sections (\u00d7200). <sentence_start/>(e) The pancreatitis score. <sentence_start/>(f) Histological scores to evaluate the degree of injury. <sentence_start/>Slides were evaluated by two independent investigators in a blinded manner. <sentence_start/>Data are presented as mean \u00b1 standard error of the mean (SEM) (<italic>n</italic> = 3). <sentence_start/><sup>\u2217\u2217</sup><italic>p</italic> &lt; 0.05, compared with the N group. <sentence_start/><sup>\u2217</sup><italic>p</italic> &lt; 0.05, compared with the SAP group. <sentence_start/>N, the control group; SAP, the severe acute pancreatitis group; SAP+SIT 100, the severe acute pancreatitis+100 <italic>\u03bc</italic>M sitagliptin group; SAP+SIT 200, the severe acute pancreatitis+200 <italic>\u03bc</italic>M sitagliptin group."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "The alteration of oxidative stress responses and Nrf2-mediated signaling pathway in sitagliptin-treated SAP mice. <sentence_start/>The pancreas and intestine tissues were harvested 24 h after the last intraperitoneal injection. <sentence_start/>(a) Concentration of MDA in intestinal tissue from the different groups. <sentence_start/>(b) Activity of SOD in the intestinal tissue from the different groups. <sentence_start/>(c) Real-time PCR results of DPP4, Nrf2, and NF-<italic>\u03ba</italic>B in different groups. <sentence_start/>(d) Western blotting results of DPP4, Nrf2, and NF-<italic>\u03ba</italic>B in different groups. <sentence_start/>Data are presented as mean \u00b1 standard error of the mean (SEM) (<italic>n</italic> = 3). <sentence_start/><sup>\u2217\u2217</sup><italic>p</italic> &lt; 0.05, compared with the N group. <sentence_start/><sup>\u2217</sup><italic>p</italic> &lt; 0.05, compared with the SAP group. <sentence_start/>N, the control group; SAP, the severe acute pancreatitis group; SAP+SIT 100, the severe acute pancreatitis+100 <italic>\u03bc</italic>M sitagliptin group; SAP+SIT 200, the severe acute pancreatitis+200 <italic>\u03bc</italic>M sitagliptin group."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "The anti-inflammatory effect of sitagliptin was significantly reduced in Nrf2<sup>\u2212/\u2212</sup> mice. <sentence_start/>Nrf 2<sup>\u2212/\u2212</sup> mice received sitagliptin (100 or 200 mg/kg, IP) or vehicle 1 h prior to cerulein+LPS (SAP model). <sentence_start/>The serum, pancreas, and intestine tissues were then harvested 24 h after the last intraperitoneal injection. <sentence_start/>(a) DPP4 activity in serum. <sentence_start/>(b) The cytokines' IL-6 in serum. <sentence_start/>(c) The cytokines' IL-1<italic>\u03b2</italic> in serum. <sentence_start/>(d) Representative hematoxylin and eosin- (H&amp;E-) stained pancreas and intestine sections (\u00d7200). <sentence_start/>(e) The pancreatitis score. <sentence_start/>(f) Histological scores to evaluate the degree of injury. <sentence_start/>Slides were evaluated by two independent investigators in a blinded manner. <sentence_start/>(g) Concentration of MDA in intestinal tissues from the different groups. <sentence_start/>(h) Activity of SOD in intestinal tissues from the different groups. <sentence_start/>Data are presented as mean \u00b1 standard error of the mean (SEM) (<italic>n</italic> = 3). <sentence_start/><sup>\u2217\u2217</sup><italic>p</italic> &lt; 0.05, compared with the N group. <sentence_start/><sup>\u2217</sup><italic>p</italic> &lt; 0.05, compared with the SAP group. <sentence_start/>N, the control group; SAP, the severe acute pancreatitis group; SAP+SIT 100, the severe acute pancreatitis+100 <italic>\u03bc</italic>M sitagliptin group; SAP+SIT 200, the severe acute pancreatitis+200 <italic>\u03bc</italic>M sitagliptin group."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 5"
+  },
+  {
+   "section": "floating",
+   "text": "A model illustrating the potential molecular mechanism involved in the DPP4i-treated IEC6 cells."
+  }
+ ]
+}

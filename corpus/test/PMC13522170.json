@@ -1,0 +1,559 @@
+{
+ "pmid": 42666286,
+ "pmcid": 13522170,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Gender differentials in death registration completeness in Gujarat, India: a policy analysis of structural, economic, and socio-cultural barriers"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Civil Registration and Vital Statistics (CRVS) systems are fundamental to evidence-based governance and public health. <sentence_start/>In India, a persistent gender disparity exists in death registration: approximately 73% of male deaths are officially recorded compared to only 64% of female deaths nationally (NFHS-5). <sentence_start/>Gujarat, despite its relatively advanced socio-economic standing and near 93.1% overall death registration rate (CRS 2023), continues to exhibit this troubling gap."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "This study analyses the structural, economic, and socio-cultural drivers of gender disparities in death registration in Gujarat and proposes policy interventions aimed at achieving universal and gender-equitable registration completeness."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "This study employs a mixed-method policy analysis framework, synthesizing secondary data from the National Family Health Survey (NFHS-5), the Civil Registration System (CRS) 2023 Annual Report, Sample Registration System (SRS) data, and peer-reviewed literature. <sentence_start/>Qualitative insights are drawn from administrative case studies, district-level reports from Gujarat, and comparative analysis of high-performing states (Kerala and Tamil Nadu)."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "The gender gap in death registration was widest among the poorest wealth quintile (13 percentage points) and narrowed substantially among the richest quintile (4 percentage points). <sentence_start/>Key barriers included: (i) an economic-utility logic, whereby male deaths are prioritized due to implications for asset succession (\u201cVarsai\u201d); (ii) higher prevalence of female home deaths linked to healthcare access inequities; (iii) administrative and bureaucratic barriers at the Panchayat level; and (iv) under-reporting of socially sensitive female deaths, including maternal mortality and suicides."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "Closing gender gaps in death registration requires a rights-based approach that integrates administrative simplification, strengthened community-level reporting through ASHA and Anganwadi networks, expanded digital infrastructure, and targeted public awareness initiatives. <sentence_start/>If equitably implemented, Gujarat\u2019s digital governance architecture has the potential to substantially reduce female invisibility in official mortality statistics."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The effectiveness of governance, public health planning, and social protection systems depends fundamentally on the completeness and reliability of Civil Registration and Vital Statistics (CRVS). <sentence_start/>In low- and middle-income countries, persistent gaps in death registration have been described as a \u201cscandal of invisibility,\u201d whereby unrecorded deaths exclude individuals-disproportionately women-from legal recognition, property rights, and state accountability mechanisms (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "India\u2019s civil registration system operates under the Registration of Births and Deaths (RBD) Act, 1969, which mandates the continuous, permanent, and compulsory recording of births, deaths, and stillbirths across the country. <sentence_start/>The system functions through a tiered administrative hierarchy: at the lowest level, Registrars-typically Gram Panchayat secretaries (Talati) in rural areas and municipal officers in urban areas-are responsible for recording vital events reported by households or institutions. <sentence_start/>Events are aggregated upward through District Registrars to State Chief Registrars and ultimately to the Office of the Registrar General of India (ORGI), which publishes the annual Civil Registration System (CRS) report. <sentence_start/>Parallel to the CRS, the Sample Registration System (SRS) provides independent demographic estimates of birth and death rates through a dual-record system covering a nationally representative sample, serving as a cross-check on CRS completeness. <sentence_start/>Together, these two systems form the primary infrastructure for mortality surveillance in India, though their completeness and quality vary significantly across states and population subgroups (<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1186/s12939-021-01534-y\" pmid=\"34461914\" pmcid=\"PMC8403822\" count=\"1\">3-5</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Gujarat, the study area for this analysis, is located in the western coastal region of India, bordered by Rajasthan to the north, Madhya Pradesh to the east, and Maharashtra to the south. <sentence_start/>With a projected population of approximately 71.5 million in 2023 and a population density of 356 persons per square kilometer-below the national average-it is India\u2019s eighth-most populous state (<citation rid=\"ref6\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-002586\" pmid=\"32792407\" pmcid=\"PMC7430426\" count=\"1\">6</citation>). <sentence_start/>The state comprises 33 districts, spanning a diverse landscape from the industrialized urban corridors of Ahmedabad, Surat, and Vadodara to remote tribal districts such as Dahod, Narmada, and the Dangs, which exhibit significantly different health and administrative outcomes. <sentence_start/>Gujarat has 33 administrative districts, with governance of vital statistics distributed across 8 Municipal Corporations, 156 Municipalities, and over 14,000 Gram Panchayats. <sentence_start/>This administrative heterogeneity-combined with the state\u2019s relatively high urbanization (48.7%), advanced digital governance infrastructure, and classification as a \u201cmoderate\u201d registration state in CRS 2023 (93.1% completeness) despite these advantages-makes Gujarat a particularly instructive case for analyzing the structural determinants of registration gaps that persist even in economically developed settings (<citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>, <citation rid=\"ref5\" ref-type=\"bibr\" count=\"1\">5</citation>, <citation rid=\"ref7\" ref-type=\"bibr\" count=\"1\">7</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "In India, while birth registration has approached near-universal completeness, death registration remains incomplete and exhibits a persistent gender dimension. <sentence_start/>At the national level, data from the National Family Health Survey (NFHS-5) indicate that approximately 73% of male deaths are registered with civil authorities, compared to only 64% of female deaths (<citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>, <citation rid=\"ref8\" ref-type=\"bibr\" count=\"1\">8</citation>). <sentence_start/>This national-level disparity reflects structural inequalities embedded in household decision-making, property regimes, and socio-cultural norms (Figures 1-4). <sentence_start/>However, the nature and magnitude of gender disparities in death registration vary across states and age groups. <sentence_start/>This study conducts a Gujarat-specific analysis comparing CRS 2023 registered death rates with SRS 2023 age-specific rates as the reference standard, finding that the gender registration gap is most statistically robust in infant and child ages, while adult-age disparities-though plausible given structural risk factors-require more precise measurement tools to confirm. <sentence_start/>In Gujarat-a state characterized by rapid industrialization and high urbanization-understanding both the confirmed and the plausible dimensions of this registration gap is critical for gender-responsive policymaking and the accurate assessment of mortality indicators, including the Maternal Mortality Ratio (MMR) and life expectancy (<citation rid=\"ref7\" ref-type=\"bibr\" count=\"1\">7</citation>, <citation rid=\"ref9\" ref-type=\"bibr\" doi=\"10.1371/journal.pgph.0000824\" pmid=\"36962751\" pmcid=\"PMC10021770\" count=\"1\">9</citation>, <citation rid=\"ref10\" ref-type=\"bibr\" count=\"1\">10</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Gujarat presents a particularly instructive case. <sentence_start/>The state has undergone rapid demographic and economic transformation, characterized by high urbanization, relatively low dependency ratios, and expanding digital governance systems (<citation rid=\"ref5\" ref-type=\"bibr\" count=\"1\">5</citation>, <citation rid=\"ref7\" ref-type=\"bibr\" count=\"1\">7</citation>). <sentence_start/>Nearly half of Gujarat\u2019s population (48.7%) resides in urban areas, conditions typically associated with easier access to civil registration services (<citation rid=\"ref7\" ref-type=\"bibr\" count=\"1\">7</citation>, <citation rid=\"ref11\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2021-006660\" pmid=\"34625458\" pmcid=\"PMC8504355\" count=\"1\">11</citation>). <sentence_start/>Nevertheless, the Civil Registration System (CRS) 2023 report categorizes Gujarat\u2019s death registration performance as \u201cmoderate,\u201d with completeness of 93.1%, below the national average and substantially lower than levels achieved in states such as Kerala, Goa, and Tamil Nadu (<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1186/s12939-021-01534-y\" pmid=\"34461914\" pmcid=\"PMC8403822\" count=\"1\">3-5</citation>). <sentence_start/>This apparent paradox underscores the need to examine not only overall registration levels but also gender-specific patterns of exclusion. <sentence_start/>Under-registration of female deaths artificially depresses recorded female mortality rates, distorts life expectancy estimates, and undermines the accurate measurement of critical indicators such as the Maternal Mortality Ratio (MMR)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Male vs female registered deaths across 17 major states (CRS, 2023). <sentence_start/>Gujarat highlighted in dark blue/red."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Gujarat registered deaths 2014-2023. <sentence_start/>Red dot = COVID-19 spike year."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Female share (%) of registered deaths by age group. <sentence_start/>Red dots = acute under-registration zone (<citation rid=\"ref6\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-002586\" pmid=\"32792407\" pmcid=\"PMC7430426\" count=\"1\">6</citation>, <citation rid=\"ref15\" ref-type=\"bibr\" count=\"1\">15</citation>, <citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004451\" pmid=\"34135070\" pmcid=\"PMC8211056\" count=\"1\">16</citation>, <citation rid=\"ref22\" ref-type=\"bibr\" count=\"1\">22-25</citation>, <citation rid=\"ref27\" ref-type=\"bibr\" count=\"1\">27</citation>, <citation rid=\"ref30\" ref-type=\"bibr\" count=\"1\">30</citation>, <citation rid=\"ref32\" ref-type=\"bibr\" count=\"1\">32-40</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Causal flow diagram-drivers of female death under-registration in Gujarat."
+  },
+  {
+   "section": "article",
+   "text": "This paper presents a comprehensive policy analysis of the gender disparity in death registration in Gujarat, examining its demographic, economic, socio-cultural, administrative, and legal dimensions. <sentence_start/>It draws on comparative best practices and concludes with actionable policy recommendations aligned with existing governance frameworks."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "This study employs a mixed-method secondary policy analysis framework. <sentence_start/>Quantitative data were sourced from:"
+  },
+  {
+   "section": "article",
+   "text": "The National Family Health Survey (NFHS-5, 2019-21), providing household-level data on registration completeness stratified by sex and wealth quintile."
+  },
+  {
+   "section": "article",
+   "text": "The Civil Registration System Annual Report 2023, published by the Registrar General of India (RGI), providing state-level registration rates and institutional death shares."
+  },
+  {
+   "section": "article",
+   "text": "The Sample Registration System (SRS) Statistical Report 2023, published by the Registrar General of India, providing sex-specific age-specific death rates used as the reference standard for assessing registration completeness."
+  },
+  {
+   "section": "article",
+   "text": "District-level administrative reports from Gujarat (Dahod, Narmada, Patan, Surat Municipal Corporation) and published research by IIM Ahmedabad on maternal mortality."
+  },
+  {
+   "section": "article",
+   "text": "The National Commission on Population (NCP) Population Projections for India and States 2011-2036 (2019), used to derive mid-year 2023 age- and sex-specific population denominators for Gujarat."
+  },
+  {
+   "section": "article",
+   "text": "Qualitative data were gathered through a systematic review of peer-reviewed literature (PubMed, Google Scholar, 2010-2025), gray literature (government policy documents, NITI Aayog reports), and case studies documenting administrative processes such as \u201cVarsai\u201d (succession) and \u201cPanchanamu\u201d verification. <sentence_start/>Comparative analysis benchmarked Gujarat against high-performing states (Kerala, Tamil Nadu) and international CRVS literature."
+  },
+  {
+   "section": "article",
+   "text": "Throughout this manuscript, the term completeness denotes the proportion of vital events actually registered relative to the true number occurring, whereas coverage denotes the extent to which the registration system operates across a given population or territory; the analysis presented here concerns completeness. <sentence_start/>The analytical framework draws on the \u201ceconomic utility model\u201d of registration behavior (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>), the socio-cultural barriers literature (<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.1186/s12913-022-08589-9\" pmid=\"36180866\" pmcid=\"PMC9524306\" count=\"1\">12</citation>, <citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.1186/s41118-021-00125-7\" pmid=\"34312569\" pmcid=\"PMC8295546\" count=\"1\">13</citation>), and a rights-based approach to CRVS strengthening as endorsed by the United Nations Statistics Division."
+  },
+  {
+   "section": "article",
+   "text": "Literature Search Strategy and Evidence Synthesis: Peer-reviewed literature was identified through systematic searches of PubMed and Google Scholar using the following search terms, applied individually and in combination: \u201cdeath registration India,\u201d \u201ccivil registration vital statistics India,\u201d \u201cgender mortality registration,\u201d \u201cfemale death under-registration,\u201d \u201cGujarat mortality,\u201d \u201cCRVS low-income countries,\u201d and \u201cproperty rights female mortality.\u201d <sentence_start/>Searches were restricted to publications between 2010 and 2025 and to English-language sources. <sentence_start/>Gray literature was identified through targeted searches of government repositories (ORGI, MoHFW, NITI Aayog, Gujarat WCD), the WHO Global Health Observatory, and the Bloomberg Data for Health initiative. <sentence_start/>Studies were included if they: (i) examined determinants of death registration completeness or gender disparity therein; (ii) reported data for India, Gujarat, or comparable low- and middle-income country contexts; or (iii) provided relevant legal, administrative, or policy analysis. <sentence_start/>Studies were excluded if they were non-English, inaccessible in full text, or focused exclusively on birth or stillbirth registration without relevance to adult death registration. <sentence_start/>No formal systematic review protocol was registered, as this study is a policy analysis rather than a systematic review; PRISMA reporting requirements therefore do not formally apply. <sentence_start/>Across all source types, a total of 45 references were included: 27 peer-reviewed articles, 10 government or institutional reports, 5 legal and policy documents, and 3 district-level administrative sources. <sentence_start/>Two authors (AV, KJ) independently reviewed all included sources for relevance; disagreements were resolved by discussion with a third author (OPB)."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Demographic landscape and registration performance in Gujarat"
+  },
+  {
+   "section": "article",
+   "text": "Patterns of death registration in Gujarat must be interpreted within the state\u2019s broader demographic profile, particularly sex ratios and mortality trends. <sentence_start/>The Sex Ratio at Birth (SRB) stands at 955 female births per 1,000 male births (NFHS-5), higher than the national average, yet district-level imbalances persist (<citation rid=\"ref7\" ref-type=\"bibr\" count=\"1\">7</citation>). <sentence_start/>Male death rates in Gujarat are recorded at 7.3 per 1,000 population, approximately 35% higher than the female death rate of 5.4 per 1,000 (<citation rid=\"ref9\" ref-type=\"bibr\" doi=\"10.1371/journal.pgph.0000824\" pmid=\"36962751\" pmcid=\"PMC10021770\" count=\"1\">9</citation>). <sentence_start/>However, demographic experts caution that these figures may be skewed by differential registration completeness. <sentence_start/>If female deaths are systematically under-reported, the recorded female mortality rate appears artificially low, masking the true extent of female mortality and potentially misguiding public health interventions (<citation rid=\"ref11\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2021-006660\" pmid=\"34625458\" pmcid=\"PMC8504355\" count=\"1\">11</citation>, <citation rid=\"ref14\" ref-type=\"bibr\" count=\"1\">14</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "In this context, Gujarat\u2019s overall death registration level of 93.1% (CRS 2023) reflects substantial progress but remains below the national average (97.2%) and short of universal completeness achieved in states such as Kerala, Goa, and Tamil Nadu (<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1186/s12939-021-01534-y\" pmid=\"34461914\" pmcid=\"PMC8403822\" count=\"1\">3-5</citation>). <sentence_start/>These comparisons highlight that high aggregate performance can coexist with underlying inequities in completeness (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "3.1.1"
+  },
+  {
+   "section": "article",
+   "text": "Age- and sex-specific mortality rates in Gujarat: CRS 2023 analysis"
+  },
+  {
+   "section": "article",
+   "text": "This section presents age- and sex-specific mortality rates for Gujarat derived from CRS 2023 registered death counts and NCP 2019 population projections (mid-year 2023 estimate: total ~71.5 million; males ~37.5 million; females ~34.0 million) (<citation rid=\"ref6\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-002586\" pmid=\"32792407\" pmcid=\"PMC7430426\" count=\"1\">6</citation>). <sentence_start/>These CRS-derived rates are compared directly with sex-specific age-specific death rates from the SRS Statistical Report 2023, which serves as the reference standard given the SRS quality assurance framework of dual-record verification (<citation rid=\"ref15\" ref-type=\"bibr\" count=\"1\">15</citation>). <sentence_start/>For each sex separately, the CRS age-specific death rate is compared against the SRS rate for the same sex and age group. <sentence_start/>A statistically significant difference between CRS and SRS rates for a given sex and age group constitutes evidence of under-registration in the CRS for that subgroup. <sentence_start/>Comparison of male and female registration patterns across age groups then reveals whether the CRS registration gap is gendered in its distribution."
+  },
+  {
+   "section": "article",
+   "text": "The age-specific comparison in Table 2 reveals a more nuanced picture than the aggregate registration level suggests. <sentence_start/>The most striking finding is the severe under-registration of infant deaths in CRS relative to SRS for both sexes: the CRS female infant death rate (9.85 per 1,000) is only 44.6% of the SRS rate (22.1 per 1,000), statistically significant at <italic>p</italic> &lt; 0.001; similarly, the CRS male infant death rate (12.98 per 1,000) represents 56.2% of the SRS rate (23.1 per 1,000), also <italic>p</italic> &lt; 0.001. <sentence_start/>This gender differential in infant death registration-with female infants more severely under-registered than male infants (CRS/SRS ratio 0.45 vs. 0.56)-is the most statistically robust finding in the dataset and is consistent with documented sex-selective neglect of female infants and son preference in household reporting behavior (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref11\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2021-006660\" pmid=\"34625458\" pmcid=\"PMC8504355\" count=\"1\">11</citation>). <sentence_start/>At ages 10-14 years, female under-registration also reaches borderline significance (<italic>p</italic> &lt; 0.10). <sentence_start/>However, at most adult ages (15-69 years), neither male nor female CRS death rates differ significantly from SRS rates; the differences are within the uncertainty bounds of the SRS sample-based estimates for Gujarat (SRS sample: ~472,000 persons). <sentence_start/>Notably, for males at ages 30-49, CRS rates substantially exceed SRS rates (ratios 1.25-1.91, several statistically significant). <sentence_start/>Two age groups warrant particular emphasis because the statistically significant differences run in the opposite direction to female under-registration: at ages 50-54 (CRS/SRS ratio 1.438, <italic>p</italic> &lt; 0.001) and at ages 85 and above (ratio 1.293, <italic>p</italic> &lt; 0.001), CRS female death rates exceed the corresponding SRS rates, indicating more complete-not deficient-registration of female deaths in these brackets. <sentence_start/>Accordingly, the column reporting statistical significance in Table 2 denotes the significance of the CRS-SRS difference in either direction, rather than evidence of female under-registration specifically. <sentence_start/>Taken together, these findings indicate that statistically demonstrable female under-registration is concentrated in infants and young children rather than adult ages. <sentence_start/>The current CRS-SRS comparison cannot confirm this at statistical significance for most adult age groups, a limitation that the SRS Gujarat sample size (when disaggregated by age and sex) is insufficiently powered to resolve."
+  },
+  {
+   "section": "article",
+   "text": "3.1.2"
+  },
+  {
+   "section": "article",
+   "text": "Comparative mortality indicators: CRS 2023 vs. SRS 2023 life table estimates"
+  },
+  {
+   "section": "article",
+   "text": "Table 3 presents sex-specific life table indicators constructed from CRS 2023 and SRS 2023 age-specific death rates for Gujarat, enabling direct comparison between the two systems for each sex. <sentence_start/>The SRS 2023 is used as the reference standard. <sentence_start/>For females, the CRS-derived life expectancy at birth (e\u2080 = 75.70 years) is marginally higher than the SRS-derived value (e\u2080 = 74.92 years), yielding a CRS/SRS ratio of 1.011. <sentence_start/>Since higher life expectancy in the CRS implies lower recorded mortality, this direction of difference is consistent with some degree of female death under-registration in the CRS-though the difference is small. <sentence_start/>The probability of dying between ages 15 and 60 (\u2084\u2085q\u2081\u2085) is 123.3 per 1,000 for CRS females and 118.6 per 1,000 for SRS females (ratio 1.040),; the 40q30 values are also very close (CRS 243.4 vs. SRS 247.5 per 1,000, ratio 0.983). <sentence_start/>For males, the CRS e\u2080 (67.99 years) is slightly lower than the SRS (68.66 years, ratio 0.990), indicating the CRS records marginally more male deaths than SRS estimates; the male \u2084\u2085q\u2081\u2085 from CRS (241.8\u2030) substantially exceeds the SRS value (193.9\u2030, ratio 1.247), particularly driven by age groups 30-49 where CRS male rates significantly exceed SRS rates. <sentence_start/>The most pronounced divergence for both sexes is in early childhood: the 5q0 ratio is 0.609 for males and 0.494 for females, indicating that approximately 39% of male and 51% of female infant-and-child deaths go unregistered in the CRS relative to SRS estimates. <sentence_start/>These CRS-SRS life table comparisons confirm that: (i) female death under-registration in Gujarat CRS is most severe and statistically demonstrable in infants and young children; (ii) at adult ages, aggregate-level life table indicators do not show large or statistically significant female disadvantage in CRS registration completeness; and (iii) the SRS sample size for Gujarat, when disaggregated by age and sex, lacks sufficient precision to detect moderate-sized differences at individual adult age groups, a methodological limitation that must be acknowledged. <sentence_start/>Prior analyses of the SRS have quantified this constraint directly, demonstrating that SRS sample sizes are insufficient for reliable mortality measurement at subnational and disaggregated levels, and that the CRS is a potentially viable alternative data source for such estimation."
+  },
+  {
+   "section": "article",
+   "text": "The life table comparison in section 3.1 established that the most statistically robust gender disparity in CRS registration completeness is concentrated in infant and child ages. <sentence_start/>Sections 3.2 through 3.5 document the structural, economic, socio-cultural, and administrative factors that shape registration behavior. <sentence_start/>These factors serve two analytical purposes. <sentence_start/>First, several mechanisms-in particular sex-selective underreporting of infant female deaths, lower prioritization of female healthcare and institutional delivery in remote areas, and awareness deficits in tribal districts-directly explain the statistically confirmed infant and child registration gap. <sentence_start/>Second, the full set of structural barriers documented here constitutes a plausible causal pathway for adult female under-registration that the current CRS-SRS comparison cannot confirm at statistical significance, given the limited precision of state-age-sex disaggregated SRS estimates. <sentence_start/>Accordingly, these sections should be read as: (i) explanations of confirmed infant-age under-registration, and (ii) a documentation of structural risk factors that, if unaddressed, are likely to produce measurable adult female under-registration as registration systems are scrutinized at finer levels of disaggregation. <sentence_start/>This framing is consistent with the rights-based CRVS literature that advocates for structural reform even in the absence of statistically confirmed gaps, on the grounds that structural barriers are themselves evidence of inequality (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004451\" pmid=\"34135070\" pmcid=\"PMC8211056\" count=\"1\">16</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Economic utility and asset-linked incentives"
+  },
+  {
+   "section": "article",
+   "text": "The socio-economic gradient observed in registration patterns points to the role of economic incentives in shaping household decision-making. <sentence_start/>Consistent with the economic utility framework, the perceived necessity of obtaining a death certificate is closely tied to its legal and financial uses (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>, <citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.1186/s41118-021-00125-7\" pmid=\"34312569\" pmcid=\"PMC8295546\" count=\"1\">13</citation>). <sentence_start/>In many households, death registration is not treated as a civic obligation but as an instrumental requirement for accessing property, insurance, pensions, and financial transfers (<citation rid=\"ref17\" ref-type=\"bibr\" doi=\"10.1080/16549716.2023.2286073\" pmid=\"38085000\" pmcid=\"PMC10795615\" count=\"1\">17-19</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.2.1"
+  },
+  {
+   "section": "article",
+   "text": "Property ownership as a mediator of registration"
+  },
+  {
+   "section": "article",
+   "text": "Gender disparities in asset ownership emerge as a primary mechanism linking economic status to registration behavior. <sentence_start/>In Gujarat, land and immovable assets are predominantly held by male heads of households, creating a direct incentive to register male deaths to facilitate succession processes such as Varsai and updating of land records (<citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.1186/s41118-021-00125-7\" pmid=\"34312569\" pmcid=\"PMC8295546\" count=\"1\">13</citation>, <citation rid=\"ref19\" ref-type=\"bibr\" count=\"1\">19</citation>, <citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "In contrast, women\u2019s limited ownership of property and financial assets reduces the immediate benefits associated with death registration. <sentence_start/>When a woman dies without formal claims to land, insurance, or pensions, households may perceive little practical value in navigating registration procedures, contributing to her statistical invisibility (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>, <citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.1186/s41118-021-00125-7\" pmid=\"34312569\" pmcid=\"PMC8295546\" count=\"1\">13</citation>) (Table 4)."
+  },
+  {
+   "section": "article",
+   "text": "3.2.2"
+  },
+  {
+   "section": "article",
+   "text": "Legal intersections: the Hindu succession act (amendment) 2005"
+  },
+  {
+   "section": "article",
+   "text": "Legal reforms aimed at equalizing property rights have sought to alter these incentive structures. <sentence_start/>The Hindu Succession (Amendment) Act 2005 granted daughters equal coparcenary rights to ancestral property, theoretically increasing the relevance of death registration for women (<citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"ref21\" ref-type=\"bibr\" doi=\"10.1257/aer.p20171128\" count=\"1\">21</citation>). <sentence_start/>However, implementation has been uneven, and its effects on registration behavior remain limited."
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Socio-cultural barriers and the \u201cinvisibility\u201d of female vital events"
+  },
+  {
+   "section": "article",
+   "text": "While economic incentives shape whether a death is perceived as worth registering, these decisions are deeply embedded within socio-cultural norms that influence care-seeking behavior, place of death, and ultimately the likelihood of registration. <sentence_start/>Patriarchal values and gendered hierarchies operate at the household level, determining whose lives-and deaths-are considered worthy of formal recognition (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.3.1"
+  },
+  {
+   "section": "article",
+   "text": "Place of death and healthcare access"
+  },
+  {
+   "section": "article",
+   "text": "A critical pathway through which socio-cultural norms influence registration is the place of death. <sentence_start/>Deaths occurring in medical institutions are significantly more likely to be registered due to mandatory reporting provisions under the Registration of Births and Deaths Act (<citation rid=\"ref22\" ref-type=\"bibr\" count=\"1\">22</citation>). <sentence_start/>In contrast, deaths occurring at home require proactive reporting by family members, introducing additional behavioral and logistical barriers."
+  },
+  {
+   "section": "article",
+   "text": "Barriers to the registration of home deaths include: (i) social stigma and fear of scrutiny, particularly in cases of maternal death or suicide; (ii) financial and logistical constraints associated with travel to registration offices; and (iii) limited awareness of legal requirements and the provision of free registration within the stipulated period (<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1186/s12939-021-01534-y\" pmid=\"34461914\" pmcid=\"PMC8403822\" count=\"1\">3</citation>, <citation rid=\"ref10\" ref-type=\"bibr\" count=\"1\">10</citation>, <citation rid=\"ref18\" ref-type=\"bibr\" count=\"1\">18</citation>, <citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"ref23\" ref-type=\"bibr\" count=\"1\">23-25</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.3.2"
+  },
+  {
+   "section": "article",
+   "text": "The \u201cinvisibility\u201d of femicide and suicide"
+  },
+  {
+   "section": "article",
+   "text": "The under-registration of female deaths also masks critical issues such as gender-based violence and suicide. <sentence_start/>Evidence from South Gujarat indicates that female suicidal deaths are concentrated among young, married women, often linked to domestic conflict, mental stress, and abuse (<citation rid=\"ref26\" ref-type=\"bibr\" count=\"1\">26</citation>). <sentence_start/>If these deaths are not officially registered and the cause of death is not accurately recorded, the true scale of violence remains hidden, preventing the state from designing effective preventive interventions (<citation rid=\"ref23\" ref-type=\"bibr\" count=\"1\">23</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Administrative and operational challenges in Gujarat"
+  },
+  {
+   "section": "article",
+   "text": "3.4.1"
+  },
+  {
+   "section": "article",
+   "text": "The panchayat-revenue nexus and procedural complexity"
+  },
+  {
+   "section": "article",
+   "text": "In rural Gujarat, the Talati-cum-Mantri (village-level revenue officer) and the Sarpanch (elected head of the Panchayat) are the primary gatekeepers of vital records (<citation rid=\"ref19\" ref-type=\"bibr\" count=\"1\">19</citation>, <citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"ref27\" ref-type=\"bibr\" count=\"1\">27</citation>). <sentence_start/>The procedure for death registration and succession-related documentation involves multiple sequential steps, including notification within a stipulated period, verification through a Panchanamu, submission of supporting documents, and final approval by higher administrative authorities (<citation rid=\"ref18\" ref-type=\"bibr\" count=\"1\">18</citation>, <citation rid=\"ref19\" ref-type=\"bibr\" count=\"1\">19</citation>, <citation rid=\"ref25\" ref-type=\"bibr\" doi=\"10.1371/journal.pgph.0002651\" pmid=\"38227565\" pmcid=\"PMC10790990\" count=\"1\">25</citation>, <citation rid=\"ref27\" ref-type=\"bibr\" count=\"1\">27</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "For women, particularly widows, navigating this system is often complicated by socio-institutional barriers. <sentence_start/>Reports indicate that female applicants may encounter suspicion, social discomfort, or discriminatory attitudes when engaging with predominantly male local governance structures (<citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>). <sentence_start/>Additionally, informal payments demanded during processes such as Varsai create financial barriers that disproportionately affect economically vulnerable women (<citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"ref28\" ref-type=\"bibr\" count=\"1\">28</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.4.2"
+  },
+  {
+   "section": "article",
+   "text": "Digital governance: E-Olakh and the digital divide"
+  },
+  {
+   "section": "article",
+   "text": "Recent advances in digital governance, including platforms such as E-Olakh and Digital Gujarat, have improved the efficiency of registration systems. <sentence_start/>However, the benefits of these systems are unevenly distributed. <sentence_start/>Women in rural and tribal districts often face barriers to digital literacy, device access, and connectivity, limiting their ability to independently navigate online registration processes (<citation rid=\"ref3\" ref-type=\"bibr\" doi=\"10.1186/s12939-021-01534-y\" pmid=\"34461914\" pmcid=\"PMC8403822\" count=\"1\">3</citation>, <citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>, <citation rid=\"ref29\" ref-type=\"bibr\" doi=\"10.1016/S2214-109X(24)00560-6\" pmid=\"40064189\" pmcid=\"PMC11946934\" count=\"1\">29</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.5"
+  },
+  {
+   "section": "article",
+   "text": "Public health implications of under-registration"
+  },
+  {
+   "section": "article",
+   "text": "The systematic under-counting of female deaths has severe consequences for public health management. <sentence_start/>Mortality data are the foundation for calculating life expectancy, burden of disease, and the efficacy of health programs (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref2\" ref-type=\"bibr\" count=\"1\">2</citation>, <citation rid=\"ref4\" ref-type=\"bibr\" count=\"1\">4</citation>). <sentence_start/>Persistent gaps in death registration compromise mortality estimation, distort disease burden analysis, and weaken health system accountability, particularly for women and socially marginalized groups (<citation rid=\"ref30\" ref-type=\"bibr\" count=\"1\">30</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.5.1"
+  },
+  {
+   "section": "article",
+   "text": "Maternal mortality ratio under-reporting"
+  },
+  {
+   "section": "article",
+   "text": "Gujarat\u2019s progress in reducing maternal mortality has been described as \u201cslow and largely unmeasured or undocumented\u201d (<citation rid=\"ref29\" ref-type=\"bibr\" doi=\"10.1016/S2214-109X(24)00560-6\" pmid=\"40064189\" pmcid=\"PMC11946934\" count=\"1\">29</citation>, <citation rid=\"ref31\" ref-type=\"bibr\" doi=\"10.3329/jhpn.v27i2.3366\" pmid=\"19489418\" pmcid=\"PMC2761782\" count=\"1\">31</citation>). <sentence_start/>A critical case study by IIM Ahmedabad identified significant under-reporting of maternal deaths in the state (<citation rid=\"ref10\" ref-type=\"bibr\" count=\"1\">10</citation>). <sentence_start/>For example, while a district health office might report only 15 maternal deaths, statistical estimations based on corrected SRS data suggest the actual number could be as high as 82 (<citation rid=\"ref10\" ref-type=\"bibr\" count=\"1\">10</citation>) (Table 5)."
+  },
+  {
+   "section": "article",
+   "text": "3.6"
+  },
+  {
+   "section": "article",
+   "text": "Synthesis of determinants: a multi-level framework"
+  },
+  {
+   "section": "article",
+   "text": "Drawing together the findings from sections 3.1 through 3.5, Table 6 presents a consolidated multi-level framework of determinants of female death under-registration in Gujarat. <sentence_start/>The table organizes determinants across demand-side factors (household decision-making, awareness, costs), supply-side factors (administrative processes, digital infrastructure, institutional capacity), and legal-structural factors (property rights, penalty enforcement, reform implementation gaps). <sentence_start/>The evidence confirms that female under-registration is not attributable to any single factor but emerges from the compounding interaction of economic disincentives, social deterrents, administrative frictions, and legal gaps that operate simultaneously at household, Panchayat, and state levels."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Comparative and policy context"
+  },
+  {
+   "section": "article",
+   "text": "Gujarat\u2019s registration performance can be situated within a broader comparative and policy context, though such comparisons must be interpreted with caution. <sentence_start/>States such as Kerala and Tamil Nadu record a higher female share of registered deaths than Gujarat (44.9 and 42.0% respectively, against 40.1%), and are commonly cited for decentralized local governance, gender-aware planning, and the integration of community health workers into vital event reporting (<citation rid=\"ref32\" ref-type=\"bibr\" count=\"1\">32-34</citation>). <sentence_start/>However, a difference in the sex composition of registered deaths is not by itself evidence that female registration completeness is higher in those states; establishing that would require CRS-SRS comparisons of sex-specific mortality risk within each state, which lies beyond the scope of this analysis. <sentence_start/>International CRVS evidence similarly documents that asset-linked registration incentives, home-death reporting gaps, and digital exclusion shape registration behavior in comparable transitional settings (<citation rid=\"ref11\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2021-006660\" pmid=\"34625458\" pmcid=\"PMC8504355\" count=\"1\">11-13</citation>, <citation rid=\"ref17\" ref-type=\"bibr\" doi=\"10.1080/16549716.2023.2286073\" pmid=\"38085000\" pmcid=\"PMC10795615\" count=\"1\">17</citation>), suggesting that the mechanisms examined here are not unique to Gujarat. <sentence_start/>At the state level, the Nari Gaurav Niti 2024 provides an existing policy vehicle for gender-responsive data systems, including a State Data Bank for gender-disaggregated mortality data and monitoring indicators under the Department of Women and Child Development (<citation rid=\"ref35\" ref-type=\"bibr\" count=\"1\">35</citation>). <sentence_start/>Taken together, these comparative and policy reference points support continued attention to age- and sex-specific registration completeness, while the empirical basis for inter-state ranking of female registration completeness remains to be established."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Policy recommendations"
+  },
+  {
+   "section": "article",
+   "text": "5.1"
+  },
+  {
+   "section": "article",
+   "text": "Administrative and procedural reforms"
+  },
+  {
+   "section": "article",
+   "text": "Simplified \u201cVarsai\u201d for Smallholders: For families holding small agricultural plots (e.g., less than 2 hectares), a \u201cfast-track Varsai\u201d with minimal documentation requirements would encourage the registration of both male and female deaths (<citation rid=\"ref19\" ref-type=\"bibr\" count=\"1\">19</citation>, <citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Waiver of Delayed Registration Fees for Women: A permanent waiver for female death registration, regardless of time elapsed, would remove significant psychological and financial barriers (<citation rid=\"ref18\" ref-type=\"bibr\" count=\"1\">18</citation>, <citation rid=\"ref25\" ref-type=\"bibr\" doi=\"10.1371/journal.pgph.0002651\" pmid=\"38227565\" pmcid=\"PMC10790990\" count=\"1\">25</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Establishment of \u201cPink Desks\u201d: Dedicated help desks for women at Taluka Panchayats and Jan Seva Kendras, staffed by female officials, would reduce the misogyny and discomfort currently reported in rural offices (<citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "5.2"
+  },
+  {
+   "section": "article",
+   "text": "Leveraging the ASHA and Anganwadi network"
+  },
+  {
+   "section": "article",
+   "text": "Vital Statistics Incentives: ASHA workers should be specifically incentivized for reporting deaths of female members in their jurisdiction, particularly home deaths that often go unrecorded (<citation rid=\"ref30\" ref-type=\"bibr\" count=\"1\">30</citation>, <citation rid=\"ref34\" ref-type=\"bibr\" count=\"1\">34</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Mandatory Death Audits at the Village Level: Regular Gram Sabhas should include a segment on reporting deaths that occurred in the preceding month, ensuring community awareness drives registration (<citation rid=\"ref16\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004451\" pmid=\"34135070\" pmcid=\"PMC8211056\" count=\"1\">16</citation>, <citation rid=\"ref33\" ref-type=\"bibr\" count=\"1\">33</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "5.3"
+  },
+  {
+   "section": "article",
+   "text": "Technological and data integration"
+  },
+  {
+   "section": "article",
+   "text": "Aadhaar-Triggered Notifications: Linking the state\u2019s healthcare database with E-Olakh so that any death occurring in a public or private hospital automatically triggers an electronic notification to the family and the Registrar (<citation rid=\"ref32\" ref-type=\"bibr\" count=\"1\">32</citation>, <citation rid=\"ref36\" ref-type=\"bibr\" count=\"1\">36</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Mobile-Based Registration Units: In tribal and remote districts, mobile \u201cCitizen Service Vans\u201d should visit villages periodically to process delayed registrations and \u201cVarsai\u201d applications on site, bypassing the need for long-distance travel (<citation rid=\"ref4\" ref-type=\"bibr\" count=\"1\">4</citation>, <citation rid=\"ref20\" ref-type=\"bibr\" count=\"1\">20</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "5.4"
+  },
+  {
+   "section": "article",
+   "text": "Public awareness and cultural shift"
+  },
+  {
+   "section": "article",
+   "text": "Awareness Campaigns on Non-Economic Benefits: Campaigns should emphasize that a death certificate is a document of dignity-recognizing an individual\u2019s contribution to family and society, regardless of asset ownership (<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0337224\" pmid=\"41296742\" pmcid=\"PMC12654884\" count=\"1\">1</citation>, <citation rid=\"ref4\" ref-type=\"bibr\" count=\"1\">4</citation>, <citation rid=\"ref23\" ref-type=\"bibr\" count=\"1\">23</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Single-Window Entry for Survivor Benefits: Death registration should be made the single-window entry point for all survivor benefits, including widow pensions and Mukhyamantri Amrutam (MA) health card transfers, creating immediate and tangible incentives for documentation (<citation rid=\"ref18\" ref-type=\"bibr\" count=\"1\">18</citation>, <citation rid=\"ref32\" ref-type=\"bibr\" count=\"1\">32</citation>, <citation rid=\"ref37\" ref-type=\"bibr\" count=\"1\">37</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Table 7 provides a consolidated recommendations matrix, linking each intervention to its empirical basis, responsible implementing actor, indicative timeline, and enabling conditions. <sentence_start/>Recommendations are categorized as short-term (implementable within 12 months within existing budgetary and legislative authority), medium-term (requiring interdepartmental coordination or new systems investment), or long-term (requiring sustained political commitment and structural reform). <sentence_start/>Priority should be given to short-term administrative interventions that require no new legislation-the fee waiver, ASHA incentives, and awareness campaigns-as these can begin closing the registration gap immediately while the enabling conditions for medium-term technological reforms are put in place."
+  },
+  {
+   "section": "article",
+   "text": "5.5"
+  },
+  {
+   "section": "article",
+   "text": "Strengths and limitations"
+  },
+  {
+   "section": "article",
+   "text": "This study has several notable strengths. <sentence_start/>First, it is among the first comprehensive policy analyses to examine gender disparity in death registration specifically in Gujarat, integrating CRS 2023 microdata with NFHS-5, SRS, and state-level administrative sources within a unified analytical framework. <sentence_start/>Second, the multi-domain approach-spanning economic, socio-cultural, and administrative dimensions-captures the intersecting structural barriers that purely quantitative or purely qualitative approaches would miss. <sentence_start/>Third, the use of empirically grounded comparative benchmarks (Kerala and Tamil Nadu) allows for actionable learning rather than abstract aspiration. <sentence_start/>Fourth, the analytical framework is explicitly aligned with current state governance frameworks, ensuring that recommendations are implementable within existing policy architecture rather than requiring new legislative mandates."
+  },
+  {
+   "section": "article",
+   "text": "The study also has important limitations that should be considered when interpreting its findings. <sentence_start/>First, this is a secondary policy analysis based on publicly available data; no primary field data, ethnographic observations, or interviews with registration officials or community members were conducted. <sentence_start/>Findings on qualitative barriers-such as Panchayat-level misogyny or informal payment demands-are drawn from gray literature and case studies, which may not be fully representative of all districts. <sentence_start/>Second, the population denominators used for computing age-specific death rates are derived from the National Commission on Population (NCP) 2019 projections based on Census 2011; the absence of a post-2011 Census means these denominators carry uncertainty, particularly for rapidly urbanizing districts of Gujarat. <sentence_start/>Third, the SRS-expected female-to-male death ratios used to estimate under-registration by age group are national or state-level approximations; district-level variation in the true mortality sex ratio may affect the precision of under-registration estimates. <sentence_start/>Fourth, international comparative evidence is primarily drawn from South Asian and sub-Saharan African contexts; transferability to Gujarat\u2019s specific socio-institutional setting requires caution. <sentence_start/>Fifth, the study does not examine temporal trends in the gender registration gap at the district level due to data availability constraints, limiting the ability to assess whether the gap is widening or narrowing in specific geographies. <sentence_start/>Sixth, comparisons with other states are based on the sex composition of registered deaths rather than state-specific CRS-SRS comparisons of sex-specific mortality risk; such figures therefore describe registration patterns and cannot be interpreted as evidence of differential registration completeness between states."
+  },
+  {
+   "section": "article",
+   "text": "6"
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The findings provide clear evidence of a gendered pattern in death registration completeness in Gujarat, concentrated primarily at infant ages. <sentence_start/>Comparison of CRS 2023 mortality estimates with SRS 2023 demonstrates substantial and statistically significant under-registration of female infant deaths, with the CRS capturing less than half of the mortality level estimated by the SRS. <sentence_start/>Although male infant deaths are also under-registered, the deficit is markedly greater for females, indicating a persistent gender disparity in the registration of early-life deaths."
+  },
+  {
+   "section": "article",
+   "text": "In contrast, mortality estimates at adult ages (15-69 years) show broad concordance between CRS and SRS for both sexes, with no statistically significant differences observed in age-specific death rates or key life-table indicators. <sentence_start/>While the structural and socio-cultural factors identified in this study-including home-death under-reporting, limited registration incentives, administrative exclusion, and digital access barriers-may contribute to incomplete registration of adult female deaths, the available data do not provide sufficient statistical evidence to confirm such disparities at adult ages."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, the results suggest that gender inequality in death registration in Gujarat is most pronounced in infancy, where female deaths remain systematically less visible within the civil registration system. <sentence_start/>The persistence of structural barriers affecting death registration highlights the importance of continued strengthening of gender-responsive CRVS systems and routine monitoring of age- and sex-specific registration completeness. <sentence_start/>Improving the visibility of female deaths, particularly during infancy, remains essential for ensuring accurate mortality measurement and for supporting equitable health policy and planning."
+  },
+  {
+   "section": "back",
+   "text": "Edited by: , University of Hail, Saudi Arabia"
+  },
+  {
+   "section": "back",
+   "text": "Reviewed by: , Australian National University, Australia"
+  },
+  {
+   "section": "back",
+   "text": ", University of Sistan and Baluchestan, Iran"
+  },
+  {
+   "section": "back",
+   "text": "Data availability statement"
+  },
+  {
+   "section": "back",
+   "text": "Publicly available datasets were analyzed in this study. <sentence_start/>This data can be found at: ."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "AV: Conceptualization, Data curation, Investigation, Methodology, Writing - original draft. <sentence_start/>OB: Conceptualization, Project administration, Resources, Supervision, Writing - review &amp; editing. <sentence_start/>PA: Conceptualization, Funding acquisition, Project administration, Writing - review &amp; editing. <sentence_start/>KJ: Project administration, Resources, Visualization, Writing - review &amp; editing. <sentence_start/>AK: Conceptualization, Resources, Supervision, Visualization, Writing - review &amp; editing."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Generative AI statement"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that Generative AI was used in the creation of this manuscript. <sentence_start/>The help of AI was done to check the language, grammar and plagiarism."
+  },
+  {
+   "section": "back",
+   "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. <sentence_start/>If you identify any issues, please contact us."
+  },
+  {
+   "section": "back",
+   "text": "Publisher\u2019s note"
+  },
+  {
+   "section": "back",
+   "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. <sentence_start/>Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+  }
+ ]
+}

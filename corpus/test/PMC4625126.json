@@ -1,0 +1,195 @@
+{
+ "pmid": 26510889,
+ "pmcid": 4625126,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Electrical stimulation of non-classical photon emission from diamond color centers by means of sub-superficial graphitic electrodes"
+  },
+  {
+   "section": "abstract",
+   "text": "Focused MeV ion beams with micrometric resolution are suitable tools for the direct writing of conductive graphitic channels buried in an insulating diamond bulk, as already demonstrated for different device applications. <sentence_start/>In this work we apply this fabrication method to the electrical excitation of color centers in diamond, demonstrating the potential of electrical stimulation in diamond-based single-photon sources. <sentence_start/>Differently from optically-stimulated light emission from color centers in diamond, electroluminescence (EL) requires a high current flowing in the diamond subgap states between the electrodes. <sentence_start/>With this purpose, buried graphitic electrode pairs, 10 \u03bcm spaced, were fabricated in the bulk of a single-crystal diamond sample using a 6 MeV C microbeam. <sentence_start/>The electrical characterization of the structure showed a significant current injection above an effective voltage threshold of 150 V, which enabled the stimulation of a stable EL emission. <sentence_start/>The EL imaging allowed to identify the electroluminescent regions and the residual vacancy distribution associated with the fabrication technique. <sentence_start/>Measurements evidenced isolated electroluminescent spots where non-classical light emission in the 560-700 nm spectral range was observed. <sentence_start/>The spectral and auto-correlation features of the EL emission were investigated to qualify the non-classical properties of the color centers."
+  },
+  {
+   "section": "article",
+   "text": "In the last decade diamond has gained increasing interest as a promising material for the development of efficient single-photon sources<citation ref-type=\"bibr\" rid=\"b1\" pmid=\"21806165\" doi=\"10.1063/1.3610677\" count=\"1\">1</citation><citation ref-type=\"bibr\" rid=\"b2\" count=\"1\">2</citation>, due to the discovery, the characterization and the integration in photonic structures of several luminescent centers associated with impurities and defects in its crystal matrix<citation ref-type=\"bibr\" rid=\"b3\" count=\"1\">3</citation><citation ref-type=\"bibr\" rid=\"b4\" pmid=\"25162729\" doi=\"10.1038/ncomms5739\" count=\"1\">4</citation><citation ref-type=\"bibr\" rid=\"b5\" count=\"1\">5</citation><citation ref-type=\"bibr\" rid=\"b6\" count=\"1\">6</citation><citation ref-type=\"bibr\" rid=\"b7\" pmid=\"24846633\" doi=\"10.1038/srep05022\" pmcid=\"PMC4028895\" count=\"1\">7</citation>. <sentence_start/>Their high quantum efficiency and stability at room temperature prefigure appealing applications in the emerging field of quantum communication<citation ref-type=\"bibr\" rid=\"b8\" count=\"1\">8</citation><citation ref-type=\"bibr\" rid=\"b9\" count=\"1\">9</citation> as a competing candidate with respect to alternative platforms, such as quantum dots<citation ref-type=\"bibr\" rid=\"b10\" pmid=\"23144123\" doi=\"10.1088/0034-4885/75/12/126503\" count=\"1\">10</citation> and silicon carbide<citation ref-type=\"bibr\" rid=\"b11\" pmid=\"24240243\" doi=\"10.1038/nmat3806\" count=\"1\">11</citation>. <sentence_start/>In particular, the electrical stimulation of the lluminescence from a single-photon emitter by means of a controlled current injection would enable a straightforward development of solid-state opto-electronic devices, paving the way to integrated on-demand single-photon sources. <sentence_start/>The observation of electrically-stimulated photon emission in diamond was recently discussed in few works based on p-i-n junction devices, where emission from neutral nitrogen-vacancy (NV<sup>0</sup>) centers was reported, both in ensemble<citation ref-type=\"bibr\" rid=\"b12\" count=\"1\">12</citation> and as single-photon sources<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation><citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation>, as well as from Xe-related<citation ref-type=\"bibr\" rid=\"b15\" count=\"1\">15</citation> and Si-V<citation ref-type=\"bibr\" rid=\"b16\" count=\"1\">16</citation> color centers ensembles. <sentence_start/>Particularly, the stimulation of non-classical electroluminescence (EL) required articulated device fabrication methods, relying either on the controlled homoepitaxial growth of suitably doped layers<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation> or on the co-implantation of P and B dopants<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation>. <sentence_start/>The exploitation of scanning focused MeV ion micro-beams to directly define graphitic structures embedded in insulating diamond through the local introduction of radiation-induced structural damage<citation ref-type=\"bibr\" rid=\"b17\" count=\"1\">17</citation><citation ref-type=\"bibr\" rid=\"b18\" count=\"1\">18</citation> offers an alternative strategy to simplify the fabrication process of charge-injecting electrodes in the bulk of the material. <sentence_start/>In particular, an ion fabrication technique relying on the strongly non-uniform damage profile of MeV ions to selectively graphitize buried layers in single-crystal diamond allowed the fabrication of particle detectors<citation ref-type=\"bibr\" rid=\"b19\" count=\"1\">19</citation>, cellular biosensors<citation ref-type=\"bibr\" rid=\"b20\" pmid=\"23847004\" doi=\"10.1002/adma.201300710\" count=\"1\">20</citation>, surface acoustic waves generators<citation ref-type=\"bibr\" rid=\"b21\" count=\"1\">21</citation> and IR emitters<citation ref-type=\"bibr\" rid=\"b22\" pmid=\"20963161\" doi=\"10.1364/AO.34.000636\" count=\"1\">22</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The above-mentioned works focused on the operation of the fabricated junctions at moderate voltage biases (i.e., ~30 V). <sentence_start/>On the other hand, the injection of charge carriers in an intrinsic diamond volume between two graphitic channels requires much higher electric fields than those applicable through standard surface electrodes. <sentence_start/>Such limitation is overcome by the fabrication of sub-superficial electrodes in the diamond bulk, where the extreme breakdown field of diamond can be fully exploited with this purpose."
+  },
+  {
+   "section": "article",
+   "text": "In this work we report on a non-classical light emitting diamond-based device with sub-superficial graphitic electrodes for the electrical excitation of color centers. <sentence_start/>In particular, we show that such electrodes are suitable to provide a stable and non-destructive pump current for the stimulation of single-photon-emitting centers in the diamond bulk. <sentence_start/>Furthermore, the fabrication approach enabled for the first time the investigation of non-classical light electroluminescence from an electrical structure other than a p-i-n junction, providing an insight into the emission mechanism independently of the specific features of the device under investigation."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "The device"
+  },
+  {
+   "section": "article",
+   "text": "The experiments were performed on a type-IIa single-crystal Element Six CVD diamond sample, denoted as \u201cdetector grade\u201d due to its low nominal concentrations of substitutional nitrogen and boron (&lt;5 ppb and &lt;1 ppb, respectively). <sentence_start/>Two parallel sub-superficial graphitic microelectrodes were directly written in the diamond bulk by raster-scanning a \u2205 \u223c 10 \u03bcm focused 6 MeV C<sup>3+</sup> beam along linear paths. <sentence_start/>The ion fluence (~4 \u00d7 10<sup>16</sup> cm<sup>\u22122</sup>) was high enough to overcome the graphitization threshold at the end of the ions range, thus ensuring the formation of amorphous microchannels at ~3 \u03bcm below the surface<citation ref-type=\"bibr\" rid=\"b17\" count=\"1\">17</citation>. <sentence_start/>Subsequently, the sample was annealed in vacuum for 2 hours at 950 \u00b0C, with the purpose of both recovering the ion-induced residual structural damage in the regions surrounding the channels and converting the highly-damaged regions to a graphitic phase. <sentence_start/>In Fig. 1 a schematic of the fabricated microstructure and an optical micrograph of the sample are shown. <sentence_start/>The resulting device was structured with two independent ~10 \u03bcm wide and ~200 \u03bcm long parallel electrodes, with a spacing of ~10 \u03bcm."
+  },
+  {
+   "section": "article",
+   "text": "A current-voltage (<italic>I</italic>-<italic>V</italic>) characteristic of the device is reported in Fig. 2. <sentence_start/>At increasing bias between 0 V and 150 V (Fig. 2a - red line plot, and Fig. 2b), a linear current increase (~15 nA at 100 V) is observed, indicating an ohmic conduction mechanism. <sentence_start/>As the voltage reaches the critical value <italic>V</italic><italic><sub>a</sub></italic> ~ 150 V, the system abruptly switches to a high-current regime, reaching ~30 \u03bcA at +200 V. <sentence_start/>When reverting the bias voltage back to zero (Fig. 2a - blue line plot), a broad hysteretic behavior is observed in the 100-150 V range, where higher currents are observed with respect to those measured at increasing bias. <sentence_start/>In the high-current regime (Fig. 2c), Poole-Frenkel (PF) conduction<citation ref-type=\"bibr\" rid=\"b23\" count=\"1\">23</citation> occurs, as described by the <italic>I</italic>-<italic>V</italic> trend: <italic>I</italic> \u221d<italic>V</italic> sinh(<italic>aV</italic><sup>1/2</sup>/<italic>kT</italic>)."
+  },
+  {
+   "section": "article",
+   "text": "EL occurred with the transition to the PF conduction regime, showing increasing intensity at increasing current, along a well-defined straight path (\u2205 &lt; 5 \u03bcm) joining the graphitic electrodes (Fig. 3b), consistently with previous observations on field-emitting devices, reporting and modelling electron injection at localized sites at the interface between nanocrystalline diamond and graphite<citation ref-type=\"bibr\" rid=\"b24\" count=\"1\">24</citation><citation ref-type=\"bibr\" rid=\"b25\" count=\"1\">25</citation>. <sentence_start/>Such observations suggest that the carriers motion through trap states is thermally assisted by the impact of hot carriers injected in the diamond bulk, and are supported by the presence of a mixed phase at the interface between buried graphitic channels and single-crystal diamond<citation ref-type=\"bibr\" rid=\"b26\" pmid=\"22419269\" doi=\"10.1002/adma.201104511\" count=\"1\">26</citation>. <sentence_start/>The confinement of the current injection at a well localized position in the device is ascribed to a geometrical effect, e.g. the presence of a nanometric tip at the diamond/graphite interface, which is responsible for a local enhancement of the electric field."
+  },
+  {
+   "section": "article",
+   "text": "At high bias voltages (150-215 V) the injected current was non-destructive over long operation times (&gt;200 hours). <sentence_start/>The hysteretic behavior observed at decreasing bias was fully reproducible over multiple (&gt;100) voltage cycles and was independent of the acquisition time (50-3000 ms range) of the electrometer, indicating the slow discharge of a space-charge field, associated with carriers detrapping in the inter-electrode areas, as pointed out in previous works<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation><citation ref-type=\"bibr\" rid=\"b27\" count=\"1\">27</citation>. <sentence_start/>Such interpretation is compatible with the presence of radiation-induced deep traps in the electrodes gap, due to the implantation of stray ions during the electrodes fabrication process."
+  },
+  {
+   "section": "article",
+   "text": "Non-classical light emission"
+  },
+  {
+   "section": "article",
+   "text": "The light emission properties were investigated by means of photoluminescence (PL) and EL mapping (Fig. 3), using a dedicated single-photon-sensitive confocal microscopy system<citation ref-type=\"bibr\" rid=\"b5\" count=\"1\">5</citation>. <sentence_start/>In PL measurements, the device was unbiased and the color centers were excited with continuous laser light (<italic>\u03bb</italic> = 532 nm, <italic>P</italic> = 0.4 mW). <sentence_start/>In EL measurements, the laser pump was replaced by the current injected in the inter-electrode gap. <sentence_start/>PL and EL maps were acquired at the same focal depth, i.e. ~3 \u03bcm below the diamond surface."
+  },
+  {
+   "section": "article",
+   "text": "A typical PL map from a 20 \u00d7 60 \u03bcm<sup>2</sup> region surrounding the buried graphitic electrodes is reported in Fig. 3a. <sentence_start/>The position of the electrodes is clearly visible as the map exhibits four bright horizontal bands, corresponding to their outer edges and indicating the presence of a large amount of radiation-induced color centers (B-band)<citation ref-type=\"bibr\" rid=\"b28\" count=\"1\">28</citation> formed by stray implanted ions during the fabrication process, as well as NV centers formed during the subsequent annealing. <sentence_start/>In Fig. 3b, an EL map acquired from the 17 \u00d7 17 \u03bcm<sup>2</sup> area highlighted by the white rectangle in Fig. 3a is shown (bias voltage: 215 V). <sentence_start/>A short-pass filter (\u03bb &lt; 700 nm) removed the afore-mentioned B-band spectral component. <sentence_start/>The relative position of the buried electrodes is indicated by the dashed black lines. <sentence_start/>Two bright electroluminescent regions are clearly visible at the edges of the graphitic electrodes, which again can be attributed to higher concentrations of color centers due to the ion-beam microfabrication of the channels. <sentence_start/>In addition, several isolated spots in the inter-electrode gap region are aligned along a path joining the electrodes. <sentence_start/>The EL emission was stable over time, and maps acquired after operating the device for several tens of hours displayed the same results in both EL spatial distribution and intensity."
+  },
+  {
+   "section": "article",
+   "text": "Both PL and EL (240 V bias voltage) spectra in the 550-800 nm range (Fig. 4a,b, respectively) were acquired from the bright spot at the edge of the top buried electrode (gray square in Fig. 3b) after removing all spectral filters. <sentence_start/>The PL spectrum highlighted the emission from NV<sup>0</sup> centers, with a zero phonon line (ZPL) at \u03bb = 575 nm and its phonon sidebands at higher wavelengths. <sentence_start/>Moreover, a broad emission in the 740-780 nm range, which can be attributed to the radiation damage-related B-band<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation><citation ref-type=\"bibr\" rid=\"b28\" count=\"1\">28</citation> is clearly visible. <sentence_start/>The absence of significant NV<sup>\u2212</sup> emission could originate in principle from the low nitrogen concentration in the sample, determining a lack of donors that could modify the charge state of the defect<citation ref-type=\"bibr\" rid=\"b29\" count=\"1\">29</citation>. <sentence_start/>Moreover, it has already been observed that the presence of a relevant concentration of acceptor-like radiation-induced defects<citation ref-type=\"bibr\" rid=\"b30\" count=\"1\">30</citation> or sp<sub>2</sub> bonds<citation ref-type=\"bibr\" rid=\"b31\" count=\"1\">31</citation>, as it is the case in the device under test, might promote the abundance of the NV<sup>0</sup> charge state."
+  },
+  {
+   "section": "article",
+   "text": "Also the EL spectrum is characterized by the absence of NV<sup>\u2212</sup> emission, more so because the center is not visible under electrical stimulation<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation><citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation><citation ref-type=\"bibr\" rid=\"b28\" count=\"1\">28</citation>. <sentence_start/>On the other hand, in the EL spectrum, a weaker but still noticeable emission in the 740-780 nm window is observed, confirming the attribution to the B-band, in agreement with previous EL measurements<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation>. <sentence_start/>An additional peak is observed at \u03bb = 565 nm, and it can ascribed to the ZPL of interstitial defects generated by MeV ion implantation and activated by the thermal annealing of the device<citation ref-type=\"bibr\" rid=\"b28\" count=\"1\">28</citation>. <sentence_start/>Furthermore, the characteristic sidebands of the NV<sup>0</sup> emission in the 590-640 nm spectral range are still observed. <sentence_start/>On the other hand, its ZPL emission at 575 nm is not visible, while an emission peak at \u03bb ~ 580 nm is visible instead. <sentence_start/>It is worth noting that, although not discussed in details by the authors, a ~5 nm red-shift in the NV<sup>0</sup> ZPL is visible also in Fig. 3c in ref. <citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation>. <sentence_start/>However, additional ensemble measurements performed on an \u201coptical grade\u201d device (supplier: Element Six; substitutional N and B concentrations: &lt;1 ppm and &lt;0.05 ppm; equipped with graphitic electrodes fabricated by 6 MeV C<sup>3+</sup> implantation; EL spectrum acquired at 500 V bias) indicate that this peak is associated with an additional interstitial-related ZPL, not active under 532 nm optical excitation and related to the 565 nm line (Fig. 4c)<citation ref-type=\"bibr\" rid=\"b28\" count=\"1\">28</citation><citation ref-type=\"bibr\" rid=\"b32\" count=\"1\">32</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Considering the spectral resolution of the monochromator, the ZPL of the NV<sup>0</sup> center at 575 nm is thus arguably hidden by the intense emission at 580 nm. <sentence_start/>The acquisition of spectra from the isolated spots at the center of the EL map was not possible due to their low emission rates; however, the short-pass filter adopted for the EL map in Fig. 3b and the former spectral measurements allowed ruling out any potential contribution of color centers other than the ZPLs at 565 nm, 575 nm and 580 nm. <sentence_start/>It is worth noting that the integrated light emission associated with the 565 nm and 580 nm peaks is negligible with respect to the integrated emission of the NV<sup>0</sup> center. <sentence_start/>However, while the non-classical emission discussed in the remainder of the text can be likely attributed to the NV<sup>0</sup> center, an unambiguous attribution could not be determined under the given experimental conditions."
+  },
+  {
+   "section": "article",
+   "text": "The isolated spot highlighted by the black circle at the center of the EL map in Fig. 3b was characterized in its non-classical emission properties. <sentence_start/>Second-order auto-correlation measurements were performed adopting a \u201cHanbury-Brown and Twiss\u201d interferometry setup<citation ref-type=\"bibr\" rid=\"b6\" count=\"1\">6</citation>. <sentence_start/>The normalized and background-uncorrected coincidence histogram <italic>C</italic><italic><sub>N</sub></italic>(<italic>t</italic>) of the second-order auto-correlation function <italic>g</italic><sup>(2)</sup>(<italic>t</italic>) (Fig. 4d) was evaluated. <sentence_start/>The curve displayed a minimum value at zero delay, highlighting non-classical photon emission. <sentence_start/>The <italic>C</italic><italic><sub>N</sub></italic>(<italic>t</italic>) curve was qualified by means of a single-exponential function fit:"
+  },
+  {
+   "section": "article",
+   "text": "where the quantity 1 \u2212 <italic>a</italic> = <italic>C</italic><italic><sub>N</sub></italic>(<italic>t</italic> = 0), representing the minimum value of the bunching dip at zero delay time, was evaluated as <italic>C</italic><italic><sub>N</sub></italic>(0) = (0.51 \u00b1 0.01). <sentence_start/>Considering that the detectors dark count rate is ~200 cps, this contribution alone results in a <italic>g</italic><sup>(2)</sup>(<italic>t</italic>) noise correction to a value of 0.46, even without including EL background removal. <sentence_start/>The signal-to-noise ratio was evaluated as \u03c1 = <italic>S</italic>/(<italic>S</italic> + <italic>B</italic>), where <italic>S</italic> is the actual EL signal emitted from the non-classical light source and <italic>B</italic> is the background ascribed to uncorrelated photons scattered from the surrounding luminescent regions. <sentence_start/>The value of \u03c1 was estimated by imposing a single-photon emission at the zero delay time, i.e. \u03c1 = (1\u2212<italic>C</italic><italic><sub>N</sub></italic>(0))<sup>1/2</sup> = 0.7<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation><citation ref-type=\"bibr\" rid=\"b33\" pmid=\"18066197\" doi=\"10.1364/ol.25.001294\" count=\"1\">33</citation><citation ref-type=\"bibr\" rid=\"b34\" count=\"1\">34</citation>. <sentence_start/>It is worth mentioning that, despite the low statistics, the value of \u03c1 is in line with previous reports of \u03c1 ~ 0.75<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation> (as estimated from the value of C<sub>N</sub>(0)) and \u03c1 = 0.52<citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation>. <sentence_start/>Moreover, the absence of bunching components suggests that the emission photodynamics are substantially unaffected by the presence of a shelving state, as recently demonstrated for the NV<sup>0</sup> center<citation ref-type=\"bibr\" rid=\"b34\" count=\"1\">34</citation>."
+  },
+  {
+   "section": "article",
+   "text": "The reciprocal of the fit parameter \u03b1 in eq. <sentence_start/>(1), \u03b1<sup>\u22121</sup> = (<italic>R</italic> + 1/\u03c4) = (143 \u00b1 5) ns describes the characteristic temporal width of the autocorrelation chronogram as the contribution of the current pump rate <italic>R</italic> and the center characteristic lifetime \u03c4. <sentence_start/>Despite an extraction of the actual emission lifetime was prevented by the increase in the EL background at higher biases, the fit parameter indicates a lower efficiency of the electrical pumping with respect to the optical excitation of color centers, as found in previous works<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation><citation ref-type=\"bibr\" rid=\"b14\" count=\"1\">14</citation><citation ref-type=\"bibr\" rid=\"b15\" count=\"1\">15</citation>."
+  },
+  {
+   "section": "article",
+   "text": "An insight into the electrical stimulation mechanism occurring in a device ruled by a Poole-Frenkel conduction can be carried out assuming NV<sup>0</sup> centers as responsible for the emission. <sentence_start/>In particular, while impact excitation is simply ruled out due to the lack of observed EL from the NV<sup>\u2212</sup> center, the electrical stimulation by exciton recombination<citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation> at defect sites has also to be discarded, as this mechanism is likely quenched by trapping at the many states available in the band gap. <sentence_start/>Conversely, the separate capture of electrons and holes, as mentioned in ref. <citation ref-type=\"bibr\" rid=\"b13\" count=\"1\">13</citation>, still represents, on the basis of our results, a solid interpretational model. <sentence_start/>Particularly, the observed time scales of EL emission suggest that an explanation of the excitation process as the result of a charge state conversion of the center may not be implausible."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "A single-crystal diamond device fabricated with sub-superficial graphitic microelectrodes was employed to provide an electrical stimulation of non-classical light emission from isolated diamond color centers. <sentence_start/>With respect to the previously reported fabrication processes, relying on the technologically challenging process of n-doping of diamond, the proposed technique presents the advantages of both fabrication simplicity and versatility. <sentence_start/>The technique could enable, in perspective, to define suitable electrodes geometries to electrically address deep color centers in diamond. <sentence_start/>In fact, the ion energy and species can be defined in order to finely align the electrodes within the diamond bulk with respect to the position of the single centers, purposely stimulating shallower or deeper defects with respect to the sample surface."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, the exploitation of suitable implantation masks would enable the parallel fabrication of more elaborated electrodes arrays at specific positions of the device with sub-micrometric resolution<citation ref-type=\"bibr\" rid=\"b35\" count=\"1\">35</citation>, leading to a significant reduction of the electrodes spacing and of the operating voltage. <sentence_start/>The employment of masks in the fabrication process could allow the exploration of novel three-dimensional geometries for the control of individual emitters in diamond."
+  },
+  {
+   "section": "article",
+   "text": "In perspective, the technique would allow to define arrays and structures of electrically-stimulated single-photon sources in the diamond bulk at pre-selected positions, with a potential integration in optical circuits. <sentence_start/>Particularly, the device fabrication at few microns depth would enable the integration with surface photonic structure aiming at the increase of the light-emission efficiency, such as solid immersion lenses<citation ref-type=\"bibr\" rid=\"b36\" count=\"1\">36</citation> and nano-wires<citation ref-type=\"bibr\" rid=\"b37\" pmid=\"20154687\" doi=\"10.1038/nnano.2010.6\" count=\"1\">37</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Sample processing"
+  },
+  {
+   "section": "article",
+   "text": "after thermal annealing, the sample was oxidized in air for 30 min at a 400 \u00b0C and exposed to a 30 min oxygen plasma to remove surface conductivity caused by the sample graphitization and contamination occurred during the thermal treatment<citation ref-type=\"bibr\" rid=\"b6\" count=\"1\">6</citation>. <sentence_start/>The electrical continuity of the sub-superficial channels with the sample surface was then ensured by exposing their endpoints to the sample surface by means of 30 keV Ga<sup>+</sup> focused ion beam (FIB) milling. <sentence_start/>Care was taken to metal-mask the inter-electrode region during the FIB milling to avoid accidental Ga<sup>+</sup> ion implantation. <sentence_start/>After a final cleaning step, 60 nm thick Ag contacts were deposited through a patterned contact mask at the surface-exposed endpoints of the channels to wire-bond the electrodes with the external circuitry."
+  },
+  {
+   "section": "article",
+   "text": "Confocal microscopy setup"
+  },
+  {
+   "section": "article",
+   "text": "In PL characterization the sample is kept at 0 V bias and the diamond color centers are excited with continuous light emitted by a solid-state laser source at \u03bb = 532 nm (0.4 mW). <sentence_start/>The beam is focused on the sample through a 100\u00d7 air objective (numerical aperture N.A. = 0.9). <sentence_start/>The sample is mounted on a remotely-controlled three-axis piezo-electric stage, with a scan area of 100 \u00d7 100 \u03bcm<sup>2</sup> and 100 nm accuracy. <sentence_start/>The induced luminescence beam is collected together with the scattered excitation beam by the same focusing objective. <sentence_start/>A set of long-pass filters (\u03bb &gt; 650 nm) provides a suitable attenuation (&gt;10<sup>12</sup>) of the laser excitation component of the beam. <sentence_start/>The filtered beam is then focused with an achromatic doublet and coupled into a graded-index multimode optical fiber, which both provides an optical connection to the detection system and acts as the pinhole aperture for the confocal system. <sentence_start/>The detection system consists of a photon-counter based on a Si-single-photon-avalanche photodiode (SPAD) operating in Geiger mode, with a dark count rate of ~200 cps. <sentence_start/>PL spectra were acquired removing the dichroic mirror and connecting the output of the multimode optical fiber to a computer-controlled single-grating monochromator (1200 grooves/mm blazed at 750 nm), with a spectral resolution of &lt;5 nm FWHM. <sentence_start/>The monochromator output is then fibre-coupled and sent to another SPAD."
+  },
+  {
+   "section": "article",
+   "text": "In EL measurements, the laser pump is replaced by the pump current between the buried electrodes. <sentence_start/>The long-pass filter is replaced by a short-pass filter attenuating light emission at \u03bb &gt; 700 nm, in order to discard the potential B-band spectral component. <sentence_start/>Spectral EL measurements are acquired removing all optical filters on the light path from the sample to the pinhole."
+  },
+  {
+   "section": "article",
+   "text": "The \u201cHanbury Brown and Twiss\u201d interferometry setup was based on a 50:50 beam-splitter integrated in the optical fiber, whose outputs are connected to two independent SPADs. <sentence_start/>A coincidence circuit, formed by a time-to-amplitude converter feeding a multi-channel analyzer, records a histogram of the photon coincidences as a function of the arrival time delay at the two SPADs."
+  },
+  {
+   "section": "article",
+   "text": "Additional Information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>How to cite this article</bold>: Forneris, J. <italic>et al.</italic> Electrical stimulation of non-classical photon emission from diamond color centers by means of sub-superficial graphitic electrodes. <sentence_start/><italic>Sci. Rep.</italic> <bold>5</bold>, 15901; doi: 10.1038/srep15901 (2015)."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Author Contributions</bold> I.P.D., M.G. and P.O. designed the experiment. <sentence_start/>V.G., N.S. and M.J. performed the deep ion implantation activities. <sentence_start/>G.A., E.E. and L.B. were responsible for sample processing and characterization. <sentence_start/>G.B. and E.M. developed the confocal microscopy setup. <sentence_start/>J.F., D.G.M. and P.T. performed the measurements and analysis. <sentence_start/>J.F. and P.O. prepared the manuscript; all authors reviewed the manuscript."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "Overview of the single-photon electroluminescent device."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) Two parallel buried electrodes are ion-microbeam-fabricated in single-crystal diamond and wire-bonded to an external voltage supply. <sentence_start/>The current flowing between the electrodes stimulates the electroluminescent emission from isolated color centers. <sentence_start/>(<bold>b)</bold> Optical micrographs of the device under investigation with a schematic representation of the electrical connections. <sentence_start/>The bottom image is a magnification of the area highlighted by the red rectangle."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 2"
+  },
+  {
+   "section": "floating",
+   "text": "Charge-injection from sub-superficial electrodes."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a)</bold> <italic>I</italic>-<italic>V</italic> characteristic of the device. <sentence_start/>The red and blue lines indicate the curves acquired at increasing and decreasing voltage, respectively. <sentence_start/>(<bold>b)</bold> Plot in linear scale of the ohmic <italic>I</italic>-<italic>V</italic> behavior in the 0-95 V range. <sentence_start/>(<bold>c)</bold> Highlight of the PF behavior above the critical voltage <italic>V</italic><italic><sub>a</sub></italic>. The quantities reported on the axes are chosen to linearize the PF expression <italic>I</italic> \u221d <italic>V</italic> sinh(<italic>aV</italic><sup>1/2</sup>/<italic>kT</italic>)."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 3"
+  },
+  {
+   "section": "floating",
+   "text": "Mapping of luminescent emission."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) PL map acquired with a \u03bb = 532 nm laser excitation from the region highlighted by the black rectangle in Fig. 1b. <sentence_start/>(<bold>b</bold>) EL map (215 V bias) from the region highlighted by the white rectangle in Fig. 3a. <sentence_start/>The dashed black lines indicate the relative position of the electrodes."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 4"
+  },
+  {
+   "section": "floating",
+   "text": "Non-classical EL emission."
+  },
+  {
+   "section": "floating",
+   "text": "(<bold>a</bold>) PL (\u03bb = 532 nm excitation) and (<bold>b</bold>) EL (240 V bias) spectra acquired from the bright spot in the gray square in Fig. 3b. <sentence_start/>(<bold>c</bold>) Reference EL spectrum acquired at 500 V applied bias from an \u201coptical grade\u201d device fabricated with a 6 MeV C<sup>3+</sup> microbeam. <sentence_start/>(<bold>d</bold>) <italic>C</italic><italic><sub>N</sub></italic>(<italic>t</italic>) curve acquired from the black circled spot in Fig. 3b. <sentence_start/>The curve is not corrected by background removal."
+  }
+ ]
+}

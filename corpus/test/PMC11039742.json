@@ -1,0 +1,279 @@
+{
+ "pmid": 38654061,
+ "pmcid": 11039742,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Biodiversity of carbapenem-resistant bacteria in clinical samples from the Southwest Amazon region (Rond\u00f4nia/Brazil)"
+  },
+  {
+   "section": "abstract",
+   "text": "Brazil is recognized for its biodiversity and the genetic variability of its organisms. <sentence_start/>This genetic variability becomes even more valuable when it is properly documented and accessible. <sentence_start/>Understanding bacterial diversity through molecular characterization is necessary as it can improve patient treatment, reduce the length of hospital stays and the selection of resistant bacteria, and generate data for health and epidemiological surveillance. <sentence_start/>In this sense, in this study, we aimed to understand the biodiversity and molecular epidemiology of carbapenem-resistant bacteria in clinical samples recovered in the state of Rond\u00f4nia, located in the Southwest Amazon region. <sentence_start/>Retrospective data from the Central Public Health Laboratories (LACEN/RO) between 2018 and 2021 were analysed using the Laboratory Environment Manager Platform (GAL). <sentence_start/>Seventy-two species with carbapenem resistance profiles were identified, of which 25 species carried at least one gene encoding carbapenemases of classes A (<italic>bla</italic><sub>KPC</sub>-like), B (<italic>bla</italic><sub>NDM</sub>-like, <italic>bla</italic><sub>SPM</sub>-like or <italic>bla</italic><sub>VIM</sub>-like) and D (<italic>bla</italic><sub>OXA-23</sub>-like, <italic>bla</italic><sub>OXA-24</sub>-like, <italic>bla</italic><sub>OXA-48</sub>-like, <italic>bla</italic><sub>OXA-58</sub>-like or <italic>bla</italic><sub>OXA-143</sub>-like), among which we will highlight <italic>Klebsiella pneumoniae</italic>, <italic>Pseudomonas aeruginosa</italic>, <italic>Acinetobacter baumannii</italic>, <italic>Serratia marcescens</italic>, and <italic>Providencia</italic> spp. <sentence_start/>With these results, we hope to contribute to the field by providing epidemiological molecular data for state surveillance on bacterial resistance and assisting in public policy decision-making."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Brazil is recognized for its biodiversity. <sentence_start/>Often associated with the vast spectrum of macroorganisms, Brazil's biodiversity is equally profound among microorganisms, including bacteria, whose genetic diversity is a critical component of our ecosystem. <sentence_start/>This genetic variability gains more value when properly identified, classified and documented. <sentence_start/>Therefore, discovering the bacterial diversity, analysing its geographic distribution, understanding its role in the ecosystem, and monitoring isolated cases and outbreaks via epidemiological and health surveillance is important<citation ref-type=\"bibr\" rid=\"CR1\" doi=\"10.3897/BDJ.8.e53607\" pmid=\"32665762\" pmcid=\"PMC7329917\" count=\"1\"><sup>1</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Bacterial resistance to antimicrobials is a public health problem with global relevance. <sentence_start/>Bacteria previously susceptible to commonly used antibiotics no longer respond to these agents and are responsible for serious clinical and economic consequences related to increased morbidity and mortality. <sentence_start/>Over time, with each new generation of antimicrobials used in clinical practice, bacteria rapidly evolve and acquire resistance, thus becoming multidrug resistant (MDR)<citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1093/cid/ciad260\" pmid=\"37406041\" pmcid=\"PMC10321697\" count=\"1\"><sup>2</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "The main factor responsible for the increase in antimicrobial resistance (AMR) rates is the uncontrolled use of antimicrobial agents for human health, livestock, and agriculture activities. <sentence_start/>In addition to causing serious illnesses in humans, MDR bacteria are also associated with infections/colonization in food-producing animals and pets, thereby substantially affecting public health worldwide. <sentence_start/>Therefore, this phenomenon leads to an increase in morbidity and mortality rates, prolonged hospital stays, and increased health care costs<sup><citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1007/s10096-023-04579-9\" pmid=\"36890281\" pmcid=\"PMC10105672\" count=\"1\">3</citation>-<citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.2166/wh.2023.051\" pmid=\"37756186\" count=\"1\">5</citation></sup>. <sentence_start/>A survey conducted by the GBD 2019 Antimicrobial Resistance Collaborators estimated that 13.7 million deaths were related to infections, and there were 7.7 million deaths associated with 33 bacterial pathogens<citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.1016/S0140-6736(22)02185-7\" pmid=\"36423648\" pmcid=\"PMC9763654\" count=\"1\"><sup>6</sup></citation>. <sentence_start/>According to an estimate from the World Bank, low- and middle-income countries such as Brazil are at risk of losing up to 4.4% of their gross domestic product (GDP) by 2050 because of AMR, and such a phenomenon also impacts high-income countries<citation ref-type=\"bibr\" rid=\"CR7\" count=\"1\"><sup>7</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "To combat AMR in the United States of America (USA), in 2016, the Center for Disease Control and Prevention (CDC) established an Antimicrobial Resistance Laboratory Network (AR Lab Network) aimed at the rapid detection of AMR pathogens and the prevention of intra- and interhospital spread of these pathogens<citation ref-type=\"bibr\" rid=\"CR8\" doi=\"10.1128/AAC.01105-21\" pmid=\"34570648\" pmcid=\"PMC8597727\" count=\"1\"><sup>8</sup></citation>. <sentence_start/>Years later, in 2020, the French government adopted a One Health approach and requested a nationwide report about the current epidemiological status of AMR to recommend future actions to mitigate AMR in the environment<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1016/j.envint.2021.107047\" pmid=\"34923370\" count=\"1\"><sup>9</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Similar to the USA, Brazil, starting in 2015, began implementing the Microbial Resistance Analytical Subnet in Health Services, and in 2018, based on the Global Antimicrobial Resistance Surveillance System (GLASS), Brazil began its own national antimicrobial resistance surveillance program (BR-GLASS); however, the first national results regarding the antimicrobial resistance profile, determined via a molecular epidemiology approach, was obtained in 2023 and contributed to the first epidemiological bulletin in 2024<sup><citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1093/cid/ciad260\" pmid=\"37406041\" pmcid=\"PMC10321697\" count=\"1\">2</citation>,<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.3389/fpubh.2020.575536\" pmid=\"33520909\" pmcid=\"PMC7841397\" count=\"1\">10</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "Little is known about the biodiversity of resistant bacteria in Brazil. <sentence_start/>Thus, in this work, we aimed to map the biodiversity of carbapenem-resistant bacteria by specifically focusing on the molecular epidemiology and analysis of carbapenemase-encoding genes. <sentence_start/>Such insights are crucial for refining therapeutic and preventive strategies related to AMR and reducing the spread of MDR bacteria."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Species biodiversity"
+  },
+  {
+   "section": "article",
+   "text": "During the period studied, the GAL recorded a total of 15,025 laboratory reports that included 22,946 antimicrobial sensitivity tests (ASTs). <sentence_start/>Based on the ASTs for meropenem, 9126 tests were performed; in other words, we estimated that there were 9126 bacterial isolates."
+  },
+  {
+   "section": "article",
+   "text": "A total of 163 different bacterial species were identified over 4 years of research, among which 110/163 (67.48%) had AST profiles for ertapenem, meropenem and imipenem (Table 1). <sentence_start/>Among them, 72/110 (65.45%) species showed resistance to carbapenems (based on phenotypic tests). <sentence_start/>Among these resistant species, 25/72 species (34.72%) carried at least one gene encoding a carbapenemase (genotypic tests)."
+  },
+  {
+   "section": "article",
+   "text": "Fewer different bacterial species were identified after the start of the COVID-19 pandemic. <sentence_start/>In the first two years of this research, 2018 and 2019, 63 species were identified in each period. <sentence_start/>The number of identified species decreased to 50 in 2020 and 44 in 2021, representing a decrease of \u2212 30.16%."
+  },
+  {
+   "section": "article",
+   "text": "The five most frequent species belonged to the class Gammaproteobacteria and the Enterobacterales order, followed by the Moraxellaceae and Pseudomonadaceae families, which accounted for 79.99% of the ASTs (n = 18,354/22,946). <sentence_start/>Overall, the carbapenem resistance rate was 30.61%, with imipenem being slightly more active (34.99%) than meropenem and ertapenem. <sentence_start/>However, the percentage of isolates resistant to these agents increased from the beginning of the research period to the end of the study period; that of ertapenem increased by 165.39%, while that of meropenem and imipenem increased by 58.56% and 40.65%, respectively (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "The species of gram-negative bacilli (GNB) that showed the highest rates of resistance to carbapenems were <italic>Acinetobacter baumannii</italic> (1581 bacterial isolates; 95% CI 70.46-73.58%), followed by <italic>Klebsiella pneumoniae</italic> (2104 bacterial isolates; 95% CI 37.38-39.82%), <italic>Pseudomonas aeruginosa</italic> (1065 bacterial isolates; 95% CI 31.68-35.72%) and <italic>Enterobacter cloacae</italic> (330 bacterial isolates; 95% CI 18.32-23.50%)."
+  },
+  {
+   "section": "article",
+   "text": "Molecular epidemiology"
+  },
+  {
+   "section": "article",
+   "text": "Genes encoding carbapenemases were detected in 25 carbapenem-resistant species, with <italic>A. baumannii</italic> having the highest number of detected genes (n = 625), followed by <italic>K. pneumoniae</italic> (n = 281), <italic>P. aeruginosa</italic> (n = 28) and <italic>E. coli</italic> (n = 23) (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Among the <italic>A. baumannii</italic> isolates, the bla<sub>OXA-23</sub>-like gene was the most common (n = 470), followed by bla<sub>OXA-58</sub>-like (n = 119) and bla<sub>OXA-143</sub>-like (n = 26). <sentence_start/>Although a single isolate carrying the bla<sub>OXA-143</sub>-like type was detected in 2018, a subsequent increase in this ARG (24%) was observed in 2021. <sentence_start/>Similarly, the bla<sub>OXA-58</sub>-like gene exhibited a 25% increase in prevalence in the same year (Fig. 1). <sentence_start/>Furthermore, bla<sub>KPC</sub>-like was detected in a single isolate recovered in 2020. <sentence_start/>Screening for bla<sub>NDM</sub>-like among isolates of the genus Acinetobacter began only in 2021, when 4 bla<sub>OXA-23</sub>-like genes were detected.<sentence_start/>Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Temporal distribution of genes encoding detected carbapenemases in (<bold>a</bold>) 2018, (<bold>b</bold>) 2019, (<bold>c</bold>) 2020, and (<bold>d</bold>) 2021. <sentence_start/>The ARGs <italic>bla</italic>KPC and <italic>bla</italic>OXA-23 were endemic during the analysed period; in 2020, the level of <italic>bla</italic>SPM regressed, and in 2021, the presence of <italic>bla</italic>NDM in the region was revealed. <sentence_start/>Greater ARG diversity was observed in the last quarter of each year from 2019 onwards, and a possible <italic>bla</italic>OXA48 outbreak occurred in June 2021."
+  },
+  {
+   "section": "article",
+   "text": "In <italic>K. pneumoniae</italic>, the bla<sub>KPC</sub>-like gene encoded most carbapenemases (n = 269). <sentence_start/>Sporadic cases of bla<sub>NDM</sub>-like were observed in 2019 and 2021, as well as bla<sub>IMP</sub>-like, which was detected in one isolate in 2021, and 4 bla<sub>OXA-48</sub>-like genes were detected in the same year (Fig. 1)."
+  },
+  {
+   "section": "article",
+   "text": "bla<sub>SPM</sub>-like was the most frequent gene encoding carbapenemases that was detected in <italic>P. aeruginosa</italic>, with a decrease to a prevalence of 86% observed over the years. <sentence_start/>As observed for <italic>K. pneumoniae</italic> and <italic>A. baumannii</italic>, bla<sub>OXA-48</sub>-like was detected among <italic>P. aeruginosa</italic> isolates mainly in 2021. <sentence_start/>bla<sub>VIM</sub>-like isolates were detected in 2018 and 2020, while bla<sub>KPC</sub>-like isolates were detected in 2020 and 2021 (Fig. 1)."
+  },
+  {
+   "section": "article",
+   "text": "For <italic>E. coli</italic>, the predominant ARG was the bla<sub>KPC</sub>-like type, with the highest frequency occurring in 2019 (n = 13). <sentence_start/>In 2021, bla<sub>NDM</sub>-like and bla<sub>OXA-48</sub>-like ARGs were detected."
+  },
+  {
+   "section": "article",
+   "text": "ARGs were detected at lower frequencies in other species (n &lt; 10), such as bla<sub>KPC</sub>-like genes detected in <italic>Citrobacter freundii</italic>, <italic>Citrobacter koseri</italic>, <italic>Klebsiella aerogenes</italic>, <italic>Enterobacter cloacae</italic>, <italic>Klebsiella ozaenae</italic>, <italic>Klebsiella</italic> spp., <italic>Morganella morganii</italic>, <italic>Providencia stuartii</italic>, <italic>Serratia marcescens</italic>, <italic>Serratia rubidaea</italic> and <italic>Serratia</italic> spp. <sentence_start/>Similarly, bla<sub>NDM</sub>-like ARGs were detected in <italic>Cedecea lapagei</italic>, <italic>E. cloacae</italic>, <italic>Pantoea agglomerans</italic> and <italic>P. stuartii</italic>. <sentence_start/>Furthermore, bla<sub>OXA-48</sub>-like ARGs were detected in <italic>M. morganii</italic> and <italic>Providencia rettgeri</italic> (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "An increase in the number of ARGs detected over time was observed based on laboratory records: 2018 (n = 186), 2019 (n = 229), 2020 (n = 180) and 2021 (n = 448). <sentence_start/>Therefore, the percent of isolates with ARGs increased by 140.86% from the beginning of the research period to the end date. <sentence_start/>Genetic variation among these ARGs was detected mainly at the end of 2019 and reappeared throughout 2021, with a distribution of bla<sub>NDM</sub>-like throughout the months and an evident peak of bla<sub>OXA-48</sub>-like in June of 2021 (Fig. 1)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study revealed a significant increase in carbapenem resistance (69.69%) and ARG detection (140.86%) among bacterial species in Rond\u00f4nia, highlighting the growing challenge of AMR in Brazil. <sentence_start/>Importantly, this research also revealed a reduction (\u2212 30.16%) in bacterial biodiversity in the state. <sentence_start/>Notably, this is the first time that data on carbapenem-resistant bacterial biodiversity in clinical samples have been revealed in the state of Rond\u00f4nia."
+  },
+  {
+   "section": "article",
+   "text": "Extraordinarily, our study demonstrated a 407.39% increase in resistance to meropenem in <italic>E. coli</italic> and a 108.73% increase in <italic>Klebsiella pneumoniae,</italic> a smaller increase of 5.53% with a tendency to plateau in <italic>A. baumannii</italic>, and a \u2212 27.93% decrease in <italic>P. aeruginosa</italic> during the analysed period."
+  },
+  {
+   "section": "article",
+   "text": "Although the increase in resistance in <italic>A. baumannii</italic> was not as high as that in <italic>E. coli</italic> and <italic>K. pneumoniae</italic>, this bacterium already has intrinsic resistance to ertapenem and a high rate of resistance to meropenem and imipenem, as demonstrated by studies in Rond\u00f4nia where the resistance to carbapenem was 76.2%<citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1016/j.bjid.2023.103687\" pmid=\"37977198\" pmcid=\"PMC10667742\" count=\"1\"><sup>11</sup></citation>, 4.91% higher than what we found in our study; IC1 was the most frequent clonal group, followed by IC5 and IC4<citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1007/s42770-022-00706-4\" pmid=\"35141834\" pmcid=\"PMC9151963\" count=\"1\"><sup>12</sup></citation>. <sentence_start/>Furthermore, the greatest ARG plasticity was detected in <italic>A. baumannii</italic>, which presented with <italic>bla</italic><sub>KPC</sub>-like or <italic>bla</italic><sub>NDM</sub>-like together with <italic>bla</italic><sub>OXA23</sub>-like and <italic>bla</italic><sub>OXA58</sub>-like or even <italic>bla</italic><sub>OXA23</sub>-like together with <italic>bla</italic><sub>OXA143</sub>-like."
+  },
+  {
+   "section": "article",
+   "text": "Notably, unlike <italic>A. baumannii</italic>, <italic>P. aeruginosa</italic> lost ARG diversity over the years, which may explain the reduction in resistance to carbapenems; however, importantly, other resistance mechanisms that were not tested in the laboratory may be active; for example, the production of <italic>AmpC</italic><sup><citation ref-type=\"bibr\" rid=\"CR13\" doi=\"10.1128/AAC.02112-19\" pmcid=\"PMC7187601\" pmid=\"31685471\" count=\"1\">13</citation>-<citation ref-type=\"bibr\" rid=\"CR17\" doi=\"10.1016/j.ijantimicag.2019.105860\" pmid=\"31841674\" count=\"1\">17</citation></sup>. <sentence_start/>Like other phyla and classes (Table 1), <italic>P. aeruginosa</italic> had a carbapenem resistance phenotype, but these isolates did not express the genes investigated in this study. <sentence_start/>These isolates could have other resistance mechanisms that were not addressed in this study."
+  },
+  {
+   "section": "article",
+   "text": "The five species with the highest number of isolates analysed in the present study are classified as priority pathogens by the WHO<citation ref-type=\"bibr\" rid=\"CR18\" count=\"1\"><sup>18</sup></citation>. <sentence_start/>At least nine species resistant to carbapenems and carrying ARGs in the present study were not reported in epidemiological bulletin/health reports by Brazilian public health bodies, such as the National Health Surveillance Agency (ANVISA) and the Oswaldo Cruz Foundation (FIOCRUZ). <sentence_start/>There were also no reports from international bodies such as the Global Antimicrobial Use and Resistance Surveillance System (GLASS)<citation ref-type=\"bibr\" rid=\"CR19\" count=\"1\"><sup>19</sup></citation>, the Latin American Antimicrobial Resistance Surveillance Network (ReLAVRA) or the Health Information Platform for the Americas (PLISA)."
+  },
+  {
+   "section": "article",
+   "text": "Until the end of the study period (2021), Brazil did not have compiled data on bacterial biodiversity and gene-mediated antimicrobial resistance, which makes it difficult to compare state results at the national level. <sentence_start/>ANVISA publishes the Bulletin on Patient Safety and Quality in Health Services and Microbial Resistance; however, data on bacterial diversity and microbial resistance are limited and fragmented by the type of intensive care unit (ICU) and by the type of infection with national indicators of health care-associated infections (HAIs)<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.3389/fpubh.2020.575536\" pmid=\"33520909\" pmcid=\"PMC7841397\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>Although the Bulletin mentions microbial resistance, the data are not presented in a nationally compiled form, nor is the genetic variability of resistance. <sentence_start/>For example, nationwide, in the adult ICU for primary bloodstream infection (IPCSL), only 8 g-negative species were identified. <sentence_start/>When observing other Brazilian states, including Rond\u00f4nia, the results are the same in terms of the number of species, only varying in the percentage of resistance. <sentence_start/>Only in 2018 did Brazil present the PAN-BR (2018-2022), which is aligned with the five strategic objectives of the Global Action Plan, which is now part of the One Health approach that includes several government bodies; however, there is no national data on microbial resistance, and the inefficiency or lack of infection prevention and control programs was mentioned in the presentation<citation ref-type=\"bibr\" rid=\"CR20\" doi=\"10.1093/jac/dkac215\" pmcid=\"PMC9445857\" pmid=\"36065730\" count=\"1\"><sup>20</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "With the implementation of the Brazilian Antimicrobial Resistance Surveillance System (BR-GLASS)<citation ref-type=\"bibr\" rid=\"CR10\" doi=\"10.3389/fpubh.2020.575536\" pmid=\"33520909\" pmcid=\"PMC7841397\" count=\"1\"><sup>10</sup></citation>, we obtained the first results in 2021, but we were limited to 3 hospitals in the state of Paran\u00e1; the data were analysed for 13 months (December 2017-December 2018). <sentence_start/>Notably, in this study, overall meropenem resistance was detected (17.1-21.7% resistance in all patients vs. hospitalized patients) in 11,347 isolates. <sentence_start/>In our study, we observed an average rate of resistance to this antimicrobial of 31.28%, with a considerable increase to 58.56% in 9,126 isolates over the course of the study. <sentence_start/>With respect to <italic>E. coli</italic> resistance to meropenem, a resistance rate of 3.2% was observed, and in our study, an average resistance rate of 9.99% and a notable percentage of 407.39% were detected. <sentence_start/>A low percentage of resistance to meropenem was reported for <italic>Klebsiella pneumoniae</italic> (38.5%), and we observed that this species had an average resistance rate of 37.55% for meropenem, with a significant increase of 108.73% (in the period analysed). <sentence_start/><italic>Acinetobacter baumannii</italic> was revealed to have a high meropenem resistance rate of 81.4% by BR-GLASS, and our study revealed a resistance rate of 71.41%, with a low increase of 5.53% during the research period. <sentence_start/>A 29.3% resistance rate for <italic>Pseudomonas aeruginosa</italic> was detected, and a 29.95% rate of resistance to meropenem was detected in this study; however, the rate of resistance decreased by 27.93% over the analysed period."
+  },
+  {
+   "section": "article",
+   "text": "After 5 years of BR-GLASS implementation, data related to national ARG detection rates were revealed for the first time<citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1093/cid/ciad260\" pmid=\"37406041\" pmcid=\"PMC10321697\" count=\"1\"><sup>2</sup></citation> to the scientific community; one year later, this data contributed to the preparation of the first national epidemiological bulletin addressing the molecular epidemiology of microorganisms resistant to carbapenems. <sentence_start/>In the BR-GLASS study, the researchers reported a \u2212 4% reduction in <italic>bla</italic><sub>KPC</sub> and an increase of 41.1% in <italic>bla</italic><sub>NDM</sub> among Enterobacterales<citation ref-type=\"bibr\" rid=\"CR2\" doi=\"10.1093/cid/ciad260\" pmid=\"37406041\" pmcid=\"PMC10321697\" count=\"1\"><sup>2</sup></citation>; in our study, we observed a 56.34% increase in <italic>bla</italic><sub>KPC</sub> detection among species of this order, and <italic>bla</italic><sub>NDM</sub> was detected once in 2019 and 2020, with an increase to 11 cases in 2021. <sentence_start/>Both studies confirmed the reduction in <italic>bla</italic><sub>SPM</sub> in <italic>P. aeruginosa</italic> over this period. <sentence_start/>In relation to the ARGs <italic>bla</italic><sub>OXA23</sub> and <italic>bla</italic><sub>OXA58</sub> in <italic>A. baumannii</italic> at the national level, the level of the first remained stationary, and the level of the second increased; in the state of Rond\u00f4nia, the level of both increased. <sentence_start/>As the study parameters are different, distinguishing which Enterobacterales specimens had <italic>bla</italic><sub>KPC</sub> and <italic>bla</italic><sub>NDM</sub> is not possible. <sentence_start/>In our study, there were few isolates when compared to that at the national level. <sentence_start/>However, the relevance of cataloguing species when mobile resistance genes are detected, even at low numbers or in few isolates, is important. <sentence_start/>This reporting is fundamental for epidemiological and ecological studies since each species may present with different virulence and pathogenicity characteristics. <sentence_start/><italic>Pantoea agglomerans, Morganella morganii,</italic> and <italic>Providencia stuartii</italic> and specimens of <italic>Citrobacter</italic> spp., <italic>Enterobacter</italic> spp. and <italic>Serratia</italic> spp. were found to carry ARGs in our study in Rond\u00f4nia, but these details were not described by the BR-GLASS study."
+  },
+  {
+   "section": "article",
+   "text": "The increase in ARG detection in the last year analysed (2021) is due to the increase in the number of hospitalizations as a result of the COVID-19 pandemic, which increased the demand for antimicrobial agents and laboratory tests. <sentence_start/>Importantly, in the case of critical GNB pathogens that carry a variety of genes encoding carbapenemases, there is concern that these resistance mechanisms are shared with other bacterial species. <sentence_start/>Plasmids mediate the horizontal transmission of ARGs between bacteria, thus facilitating their adaptation to multiple environmental conditions and contributing to the global spread of AMR<sup><citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1038/s41467-017-01532-1\" pmid=\"29162798\" pmcid=\"PMC5698434\" count=\"1\">21</citation>,<citation ref-type=\"bibr\" rid=\"CR22\" doi=\"10.1128/microbiolspec.mtbp-0016-2017\" pmcid=\"PMC11687550\" pmid=\"28944751\" count=\"1\">22</citation></sup>. <sentence_start/>Some of these ARGs, such as those encoding carbapenemases, are carried on conjugative plasmids that spread through high-risk epidemic clones<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1038/s41467-021-22849-y\" pmid=\"33976161\" pmcid=\"PMC8113577\" count=\"1\"><sup>23</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "The reduction in biodiversity may be related to the COVID-19 pandemic since all services were focused on hospitalizations due to the pandemic. <sentence_start/>Therefore, the most common species at the end of the period were identified and reported by health services. <sentence_start/>Another explanation is the selective pressure of these ARGs on bacterial communities and the probability of plasmid persistence increasing the number of bacterial strains in the community, as the strains become less dependent on a high conjugation rate<citation ref-type=\"bibr\" rid=\"CR23\" doi=\"10.1038/s41467-021-22849-y\" pmid=\"33976161\" pmcid=\"PMC8113577\" count=\"1\"><sup>23</sup></citation>. <sentence_start/>According to multilevel ecological dynamics, fitness differences are limited not only to plasmid-free and plasmid-bearing cells within single-strain populations but also different strains. <sentence_start/>Therefore, the loss of a plasmid can occur due to the low intrinsic fitness of its hosts or even because of ecological drift, and the benefits of plasmid fitness at the phylotype level significantly facilitate persistence at the community level<citation ref-type=\"bibr\" rid=\"CR24\" doi=\"10.1038/s41396-020-0596-4\" pmid=\"32020051\" pmcid=\"PMC7174300\" count=\"1\"><sup>24</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Notably, hospital-associated bacteria, even before being popularized, were already part of a natural and balanced ecosystem<citation ref-type=\"bibr\" rid=\"CR25\" doi=\"10.1038/nmicrobiol.2016.116\" pmid=\"27562259\" count=\"1\"><sup>25</sup></citation>. <sentence_start/>However, human action contributes to the import/export of environmental and nosocomial/resistant bacterial species in different habitats, including polar ecosystems<sup><citation ref-type=\"bibr\" rid=\"CR26\" doi=\"10.1016/j.scitotenv.2018.10.272\" pmid=\"30445320\" count=\"1\">26</citation>,<citation ref-type=\"bibr\" rid=\"CR27\" doi=\"10.1016/j.scitotenv.2021.152727\" pmid=\"34974001\" count=\"1\">27</citation></sup>. <sentence_start/>Similar to the previous example, the same import/export occurs in the Amazon region, when areas are opened and explored. <sentence_start/>Bacteria previously commonly found in soils, rivers and wildlife have a high capacity to acquire mechanisms of AMR<sup><citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1007/s10096-023-04579-9\" pmid=\"36890281\" pmcid=\"PMC10105672\" count=\"1\">3</citation>,<citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.2166/wh.2023.051\" pmid=\"37756186\" count=\"1\">5</citation>,<citation ref-type=\"bibr\" rid=\"CR28\" doi=\"10.1126/science.1159483\" pmid=\"18635792\" count=\"1\">28</citation>,<citation ref-type=\"bibr\" rid=\"CR29\" doi=\"10.7554/eLife.85302\" pmid=\"36961866\" pmcid=\"PMC10703447\" count=\"1\">29</citation></sup>. <sentence_start/>Recent studies with mosquitoes in the Amazon, which are normally associated with arboviruses, malaria, and filarial worms, revealed diverse bacteria of clinical interest in their faeces and salivary glands<sup><citation ref-type=\"bibr\" rid=\"CR30\" doi=\"10.1093/jme/tjab028\" pmid=\"33704463\" count=\"1\">30</citation>-<citation ref-type=\"bibr\" rid=\"CR32\" doi=\"10.3390/microorganisms11051145\" pmid=\"37317119\" pmcid=\"PMC10224351\" count=\"1\">32</citation></sup>. <sentence_start/>Another important point is the climate of the Amazon, where different forest/soil extracts suffer floods and droughts due to the climate, which alters the diversity of bacterial communities, as demonstrated in a study in Rond\u00f4nia<citation ref-type=\"bibr\" rid=\"CR33\" doi=\"10.1111/1462-2920.14535\" pmid=\"30680883\" count=\"1\"><sup>33</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "Due to Brazil's vast biodiversity, antimicrobial-resistant bacteria can circulate between humans and animals through different routes, including through food, water and the environment. <sentence_start/>The transmission of these bacteria is influenced by globalization, that is, by trade, travel and human and animal migration. <sentence_start/>A multisectoral approach to combating AMR may be more effective than actions focused exclusively on human health. <sentence_start/>For example, monitoring bacterial biodiversity and antimicrobial-resistant species in the context of One Health has become a priority for identifying new species utilizing this strategy<sup><citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1016/j.envint.2021.107047\" pmid=\"34923370\" count=\"1\">9</citation>,<citation ref-type=\"bibr\" rid=\"CR34\" doi=\"10.1186/s40249-022-01016-5\" pmid=\"35996187\" pmcid=\"PMC9395850\" count=\"1\">34</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "This study had several limitations. <sentence_start/>The data used in this study came from laboratory test results/reports, with no possibility of forwarding the strains for sequencing at national reference centres for further analysis. <sentence_start/>Furthermore, LACEN/RO, during the research period, did not have a collection of microorganisms that was stored for future postdiagnosis analyses. <sentence_start/>For the validation of future strains in similar research, the strains should be sent to a national resistance reference centre for sequencing, the identification of rare bacteria, or loco sequencing. <sentence_start/>Another limitation was the scarcity of resources for the molecular identification of ARGs during the public health crisis caused by <italic>SARS-CoV-2</italic> infection, where attention was focused exclusively on diagnosing the virus."
+  },
+  {
+   "section": "article",
+   "text": "Our study revealed that the bacterial biodiversity is broader than that reported for Epidemiological Bulletins and that genes encoding proteins related to carbapenem resistance are present and shared among different taxonomic classes. <sentence_start/>This carbapenem-resistant biodiversity represents a growing public health challenge. <sentence_start/>State epidemiological surveillance should include ARG data in reports, as well as in epidemiological bulletins. <sentence_start/>Monitoring the spread of these bacteria and developing control strategies is essential. <sentence_start/>New research is needed to better understand resistance mechanisms and develop new therapeutic options. <sentence_start/>The One Health perspective is important because of the contamination of water and food by hospital and residential sewage. <sentence_start/>With these results, we hope to provide molecular epidemiological data for the state surveillance of bacterial resistance in Rond\u00f4nia and assist in making public policy decisions."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Bacterial isolates"
+  },
+  {
+   "section": "article",
+   "text": "The methodology used in this work consisted of compiling the results of clinical microbiological laboratory tests and molecular tests to search for resistance genes; this study was performed at the Rond\u00f4nia Central Public Health Laboratory (LACEN/RO) between 2018 and 2021."
+  },
+  {
+   "section": "article",
+   "text": "For information, LACEN/RO is a state reference laboratory of medium to high complexity in diagnostics that is part of the National System of Public Health Laboratories in Brazil (Sislab)."
+  },
+  {
+   "section": "article",
+   "text": "The identification of bacterial species was carried out by the Clinical Microbiology Laboratory at LACEN/RO through cultures of several clinical samples and surveillance swabs. <sentence_start/>In addition to culture media, until 2019, bacteria were identified and tested for sensitivity to antimicrobials by automation using Vitek<sup>\u00ae</sup> 2 Biomerieux; BD PhoenixTM automation is currently used. <sentence_start/>Biochemical tests, diffusion disk assays, antibiotic concentration gradient strips (Etest type), and broth microdilution assays, among other tests, are routinely used in the laboratory according to bacterial species and in accordance with the Clinical and Laboratory Standards Institute (CLSI) and from 2022 according to the Brazilian Antimicrobial Susceptibility Testing Committee (BRCAST). <sentence_start/>The tests that were performed, in addition to automation, vary according to economic factors related to the purchasing power of the unit's inputs."
+  },
+  {
+   "section": "article",
+   "text": "The following descriptions were used to identify carbapenem-resistant species in the GAL system using the following route: Medical Biology/Reports/Specifics/Resistance/Microbial Resistance. <sentence_start/>During the period studied, the GAL recorded a total of 15,025 laboratory reports. <sentence_start/>As a criterion for our search, only AST profiles that presented resistance to ertapenem, meropenem and imipenem were included. <sentence_start/>The data obtained were plotted in electronic spreadsheets organized by phylum, class, family and species."
+  },
+  {
+   "section": "article",
+   "text": "The data were classified in order of the highest number of ASTs to determine which species were most frequently resistant to carbapenems in laboratory tests. <sentence_start/>The 95% confidence intervals (95% CIs) were created based on the standard deviation of the proportion of resistant isolates belonging to each of the five most common species."
+  },
+  {
+   "section": "article",
+   "text": "Molecular characterization of carbapenemase-encoding genes"
+  },
+  {
+   "section": "article",
+   "text": "Molecular characterization was carried out by the Molecular Microbiology Laboratory at LACEN/RO, which receives all bacterial isolates with phenotypic characteristics of resistance to carbapenems."
+  },
+  {
+   "section": "article",
+   "text": "The extraction of genetic material was carried out using thermal lysis or commercial kits. <sentence_start/>Amplification was performed using conventional PCR followed by electrophoresis. <sentence_start/>The identification of genes encoding carbapenemases was performed based on the bacterial isolate."
+  },
+  {
+   "section": "article",
+   "text": "The results of laboratory tests to search for resistance genes were obtained using the GAL database and laboratory records. <sentence_start/>In GAL analysis, the following electronic route was chosen for the ARG search period: Medical Biology/Reports/Specifics/Resistance/Report."
+  },
+  {
+   "section": "article",
+   "text": "We did not to use the epidemiological bulletin Disease/Clinical Data because it was limited to a 90-day research period. <sentence_start/>For this reason, we also analysed laboratory reports to determine when a bacterial isolate had more than one ARG in the same strain (Supplementary information)."
+  },
+  {
+   "section": "article",
+   "text": "A total of 8296 molecular tests from the GAL database were evaluated. <sentence_start/>The PCR protocols used were in accordance with the ARG investigated. <sentence_start/>The genes encoding carbapenemases selected were: <italic>bla</italic><sub>KPC</sub>-like (class A); <italic>bla</italic><sub>NDM</sub>-like, <italic>bla</italic><sub>IMP</sub>-like, <italic>bla</italic><sub>VIM</sub>-like, <italic>bla</italic><sub>SPM</sub>-like (class B); and <italic>bla</italic><sub>OXA-23</sub>-like, <italic>bla</italic><sub>OXA-48</sub>-like, <italic>bla</italic><sub>OXA-51</sub>-like, <italic>bla</italic><sub>OXA-58</sub>-like, and <italic>bla</italic><sub>OXA-143</sub>-like (class D)<sup><citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1093/jac/dkg416\" pmid=\"12951331\" count=\"1\">35</citation>-<citation ref-type=\"bibr\" rid=\"CR38\" count=\"1\">38</citation></sup>."
+  },
+  {
+   "section": "article",
+   "text": "Ethical approval"
+  },
+  {
+   "section": "article",
+   "text": "The study was approved by the Research Ethics Committees of NUSAU/UNIR and by the National Ethics Committee in Research (CONEP) under registration number 5.316.814. <sentence_start/>The study was also registered in the National System for the Management of Genetic Heritage and Associated Knowledge (SisGen) under the registration number AE18E21."
+  },
+  {
+   "section": "article",
+   "text": "Transparency declarations"
+  },
+  {
+   "section": "article",
+   "text": "A.C.G. has recently received research funding and/or consultation fees from bioM\u00e9rieux Eurofarma, MSD, Pfizer, Sandoz, United Medical, and Zambon. <sentence_start/>The other authors have nothing to declare. <sentence_start/>This study was not financially supported by any diagnostic/pharmaceutical company."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher's note</bold>"
+  },
+  {
+   "section": "back",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "back",
+   "text": "The online version contains supplementary material available at 10.1038/s41598-024-59733-w."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "L.A.S. was responsible for the conception, planning, analysis, interpretation, and writing and participated in the approval of the final version. <sentence_start/>R.C.S., T.B.V., A.C.G. and L.F.B.A. carried out a critical review of the content, edits and prepared the tables. <sentence_start/>F.M.R. and T.S.C. performed the laboratory techniques and critically reviewed the content. <sentence_start/>M.A.B.V. reviewed the statistical analysis. <sentence_start/>M.C. was responsible for project/research guidance, critical review and the approval of the final submitted version."
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "The datasets generated and/or analysed during the current study are not publicly available due to restricted access to public health laboratory data and information security policies but are available from the corresponding author upon reasonable request."
+  },
+  {
+   "section": "back",
+   "text": "Competing interests"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no competing interests."
+  }
+ ]
+}

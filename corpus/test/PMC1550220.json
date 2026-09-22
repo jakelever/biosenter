@@ -1,0 +1,427 @@
+{
+ "pmid": 16787541,
+ "pmcid": 1550220,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Insulin and glucose play a role in foam cell formation and function"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Foam cell formation in diabetic patients often occurs in the presence of high insulin and glucose levels. <sentence_start/>To test whether hyperinsulinemic hyperglycemic conditions affect foam cell differentiation, we examined gene expression, cytokine production, and Akt phosphorylation in human monocyte-derived macrophages incubated with two types of oxidized low density lipoprotein (LDL), minimally modified LDL (mmLDL) and extensively oxidized LDL (OxLDL)."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods and results"
+  },
+  {
+   "section": "abstract",
+   "text": "Using Affymetrix GeneChip<sup>\u00ae </sup>arrays, we found that several genes directly related to insulin signaling were changed. <sentence_start/>The <italic>insulin receptor </italic>and <italic>glucose-6-phosphate dehydrogenase </italic>were upregulated by mmLDL and OxLDL, whereas <italic>insulin-induced gene 1 </italic>was significantly down-regulated. <sentence_start/>In hyperinsulinemic hyperglycemic conditions, modified LDL upregulated Akt phosphorylation and expression of the insulin-regulated aminopeptidase. <sentence_start/>The level of proinflammatory cytokines, IL-l\u03b2, IL-12, and IL-6, and of a 5-lipoxygenase eicosanoid, 5-hydroxyeicosatetraenoic acid (5-HETE), was also increased."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "These results suggest that the exposure of macrophages to modified low density lipoproteins in hyperglycemic hyperinsulinemic conditions affects insulin signaling and promotes the release of proinflammatory stimuli, such as cytokines and eicosanoids. <sentence_start/>These in turn may contribute to the development of insulin resistance."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Cardiovascular disease (CVD) affects more than 58 million Americans and remains the most common cause of death in the U.S., with atherosclerosis accounting for the majority of these deaths [<citation ref-type=\"bibr\" rid=\"B1\" pmid=\"11001066\" doi=\"10.1038/35025203\" pmcid=\"PMC2826222\" count=\"1\">1</citation>,<citation ref-type=\"bibr\" rid=\"B2\" pmid=\"11584110\" doi=\"10.1093/jn/131.10.2798S\" count=\"1\">2</citation>]. <sentence_start/>CVD is also the leading cause of mortality in type 2 diabetics [<citation ref-type=\"bibr\" rid=\"B3\" pmid=\"14582453\" count=\"1\">3</citation>], and frequently precedes the manifestation of type 2 diabetes [<citation ref-type=\"bibr\" rid=\"B4\" pmid=\"11220289\" doi=\"10.1046/j.1463-1326.1999.0010s1008.x\" count=\"1\">4</citation>]. <sentence_start/>Pathogenic mechanisms involved in early atherosclerosis and the links between CVD, atherosclerosis and diabetes are not well understood."
+  },
+  {
+   "section": "article",
+   "text": "A critical event in the early stages of atherosclerosis is the focal accumulation of lipid-laden foam cells, largely derived from macrophages, with subsequent fatty streak formation. <sentence_start/>Foam cell formation, which is believed to be mediated by modified LDLs [<citation ref-type=\"bibr\" rid=\"B5\" pmid=\"10577503\" doi=\"10.1002/jlb.66.5.740\" count=\"1\">5</citation>,<citation ref-type=\"bibr\" rid=\"B6\" pmid=\"14506301\" doi=\"10.1152/physrev.00005.2003\" count=\"1\">6</citation>], often occurs in the presence of increased concentrations of insulin and glucose. <sentence_start/>These increased concentrations are characteristic of insulin resistance associated with diabetes, obesity and the metabolic syndrome. <sentence_start/>Hyperinsulinemia has recently been reported as a risk factor for atherosclerotic diseases such as coronary heart disease [<citation ref-type=\"bibr\" rid=\"B7\" pmid=\"11884278\" doi=\"10.1161/hq0302.105272\" count=\"1\">7</citation>]. <sentence_start/>We considered that additive or synergistic effects of modified LDL, insulin and glucose may play a role in foam cell formation and function. <sentence_start/>Whether or not the processes involved in foam cell formation modulate insulin signaling, glucose tolerance, and onset of type 2 diabetes, is currently unknown."
+  },
+  {
+   "section": "article",
+   "text": "Macrophages represent a huge reservoir of insulin-sensitive cells. <sentence_start/>However, they are different from other \"classical\" insulin-responsive tissues and cells, such as muscle and adipocytes, because they lack the insulin-sensitive glucose transporter GLUT4 [<citation ref-type=\"bibr\" rid=\"B8\" pmid=\"1733814\" doi=\"10.2337/diab.41.2.227\" count=\"1\">8</citation>]. <sentence_start/>Additionally, insulin receptor substrate 2 (IRS2) evidently plays a more important role than IRS-1 in macrophages [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14991075\" doi=\"10.1172/JCI200419528\" pmcid=\"PMC351316\" count=\"1\">9</citation>]. <sentence_start/>Macrophage infiltration into adipose tissue plays a significant role in obesity-related insulin resistance [<citation ref-type=\"bibr\" rid=\"B10\" pmid=\"15349727\" doi=\"10.1007/s00125-004-1494-4\" count=\"1\">10</citation>]. <sentence_start/>Like adipocytes, monocytes/macrophages produce large quantities of biologically active molecules such as tumor necrosis factor alpha (TNF\u03b1) and IL-6 [<citation ref-type=\"bibr\" rid=\"B11\" pmid=\"12593603\" doi=\"10.1902/jop.2003.74.1.97\" count=\"1\">11</citation>,<citation ref-type=\"bibr\" rid=\"B12\" pmid=\"14679176\" doi=\"10.1172/JCI200319246\" pmcid=\"PMC296995\" count=\"1\">12</citation>]. <sentence_start/>In contrast to other cells, the effect of insulin on macrophages has been poorly investigated, with the exception of its involvement in apoptosis [<citation ref-type=\"bibr\" rid=\"B7\" pmid=\"11884278\" doi=\"10.1161/hq0302.105272\" count=\"1\">7</citation>] and on expression of CD36 [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14991075\" doi=\"10.1172/JCI200419528\" pmcid=\"PMC351316\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Modified LDL is a collective term for various modifications of native LDL molecules (nLDL). <sentence_start/>Here we tested whether minimally modified LDL (mmLDL) [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"12424240\" doi=\"10.1074/jbc.M209634200\" count=\"1\">13</citation>] and fully oxidized LDL (OxLDL), which represent naturally occurring products of LDL with various degrees of oxidation, have effects on insulin signaling in macrophages. <sentence_start/>The uptake of OxLDL is mediated by a large family of scavenger receptors (rev. in [<citation ref-type=\"bibr\" rid=\"B14\" doi=\"10.2174/1381612054865064\" pmid=\"16178764\" count=\"1\">14</citation>]). <sentence_start/>Since OxLDL induces the expression of some scavenger receptors such as CD36 and SR-A [<citation ref-type=\"bibr\" rid=\"B15\" pmid=\"11795267\" doi=\"10.1111/j.1749-6632.2001.tb03941.x\" count=\"1\">15</citation>], it may provide a positive feedback mechanism that could amplify foam cell formation. <sentence_start/>mmLDL mainly interacts with the CD14/Toll-like receptor 4 [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"12424240\" doi=\"10.1074/jbc.M209634200\" count=\"1\">13</citation>]. <sentence_start/>It is of interest that CD14 antigen can be also upregulated by OxLDL [<citation ref-type=\"bibr\" rid=\"B14\" doi=\"10.2174/1381612054865064\" pmid=\"16178764\" count=\"1\">14</citation>,<citation ref-type=\"bibr\" rid=\"B16\" pmid=\"9568715\" doi=\"10.1016/S0092-8674(00)81574-3\" count=\"1\">16</citation>,<citation ref-type=\"bibr\" rid=\"B17\" pmid=\"11278882\" doi=\"10.1074/jbc.M011302200\" count=\"1\">17</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In this study we show that modified LDL in the presence of hyperglycemia and hyperinsulinemia promote the production of proinflammatory cytokines and affect insulin signaling in monocyte-derived foam cells. <sentence_start/>These results suggest that the atherogenic process that is associated with increased LDL uptake by macrophages and foam cell formation may contribute to the progression of insulin resistance and the development of diabetes."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "Reagents"
+  },
+  {
+   "section": "article",
+   "text": "OxLDL and mmLDL used in the experiments were prepared from the same native LDL each time as in Miller et al. [<citation ref-type=\"bibr\" rid=\"B18\" doi=\"10.1161/01.ATV.0000159891.73193.31\" pmid=\"15718493\" count=\"1\">18</citation>]. <sentence_start/>Oxidized LDL were analyzed by measuring thiobarbituric reactive substances (TBARS, 30-40 \u03bcmol/g protein) and EO6-reactive phospholipid oxidation products. <sentence_start/>mmLDL contained early lipid peroxidation products, but it did not contain any measurable TBARS or EO6-reactive substances above that of native LDL [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"12424240\" doi=\"10.1074/jbc.M209634200\" count=\"1\">13</citation>,<citation ref-type=\"bibr\" rid=\"B19\" pmid=\"14517329\" doi=\"10.1091/mbc.E03-02-0063\" pmcid=\"PMC207011\" count=\"1\">19</citation>]. <sentence_start/>The mmLDL modification appeared to be very reproducible, and a successful modification was documented in a biological assay in which mmLDL induced spreading of J774 macrophages in cell culture [<citation ref-type=\"bibr\" rid=\"B13\" pmid=\"12424240\" doi=\"10.1074/jbc.M209634200\" count=\"1\">13</citation>,<citation ref-type=\"bibr\" rid=\"B19\" pmid=\"14517329\" doi=\"10.1091/mbc.E03-02-0063\" pmcid=\"PMC207011\" count=\"1\">19</citation>]. <sentence_start/>All LDLs were tested for endotoxin level with a LAL kit (BioWittaker, Walkersville, MD). <sentence_start/>The level of endotoxin contamination was below 2.5 pg/ml. <sentence_start/>All other chemicals, if not further specified, were from Sigma (St. Louis, MO)."
+  },
+  {
+   "section": "article",
+   "text": "Donors"
+  },
+  {
+   "section": "article",
+   "text": "Experiments were performed with cells isolated from healthy human subjects who were volunteers recruited by announcements. <sentence_start/>There were no restrictions regarding sex, age, and ethnicity. <sentence_start/>All participants signed a consent form approved by the Human Investigation Committees at the University of Virginia, Charlottesville, VA and at Cleveland Clinic, Cleveland, OH. <sentence_start/>Whole blood (100 ml) was drawn from the antecubital vein of donors. <sentence_start/>Dextran 500 was added to the blood for sedimentation of red blood cells. <sentence_start/>After incubation at room temperature, the buffy coat was removed and placed on Histopaque 1.077 (Sigma Diagnostics, Inc., St. Louis, MO). <sentence_start/>As an alternative to whole blood, we used buffy coats delivered by Virginia Blood Services (Richmond, VA). <sentence_start/>These buffy coats were used for Affymetrix GeneChip<sup>\u00ae </sup>U133A arrays. <sentence_start/>Following centrifugation, the mononuclear layer was removed and washed with PBS containing 0.02% EDTA."
+  },
+  {
+   "section": "article",
+   "text": "Isolation of monocytes from human blood or buffy coat"
+  },
+  {
+   "section": "article",
+   "text": "Monocytes were isolated using adherence to plastic as in Bey et al. [<citation ref-type=\"bibr\" rid=\"B20\" pmid=\"10706597\" count=\"1\">20</citation>]. <sentence_start/>Briefly, the mononuclear cell pellet was resuspended in 1X H-lyse Buffer (R&amp;D Systems Inc., Minneapolis, MI), and then washed with 1X Wash Buffer. <sentence_start/>Cells were resuspended in RPMI 1640 +10% FCS (Invitrogen Corporation, Carlsbad, CA) and plated on 60 mm or 100 mm dishes. <sentence_start/>After one hour incubation at 37\u00b0C, the dishes were washed twice with PBS and all non-adherent cells were removed."
+  },
+  {
+   "section": "article",
+   "text": "Generation of monocyte-derived macrophages (MDM) and foam cells"
+  },
+  {
+   "section": "article",
+   "text": "For Affymetrix GeneChip<sup>\u00ae </sup>experiment, isolated adherent monocytes were resuspended in Macrophage Serum-Free Medium (MSFM, Gibco, Invitrogen Corporation, Carlsbad, CA) in the presence of 1% media supplement Nutridoma-HU (Roche Molecular Biochemicals, Indianapolis, IN). <sentence_start/>The concentration of insulin (500 nM) and glucose (17.5 mM) in this medium allowed us to mimic conditions of impaired glucose tolerance or type 2 diabetes (hyperinsulinemia, hyperglycemia). <sentence_start/>This insulin concentration is greater than in diabetic patients [<citation ref-type=\"bibr\" rid=\"B21\" pmid=\"8898803\" doi=\"10.1161/01.str.27.11.1986\" count=\"1\">21</citation>]. <sentence_start/>However, this is a regular insulin concentration for the prolonged cultivation of the cells under serum-free conditions."
+  },
+  {
+   "section": "article",
+   "text": "For additional experiments, we used an insulin- and glucose-deficient medium (glucose-free RPMI 1640 (Invitrogen Corporation, Carlsbad, CA)+10% dialyzed FCS (HyClone, Logan, UT)) supplemented with varying concentrations of both glucose and insulin. <sentence_start/>Cells incubated in MSFM and in insulin- and glucose-deficient medium in the presence of 500 nM insulin and 17.5 mM glucose showed similar pattern of gene and protein expression as assessed by RT-PCR and flow cytometry (data not shown). <sentence_start/>Differentiation of monocytes was induced by macrophage colony-stimulating factor (M-CSF) or platelet factor 4 (PF<sub>4</sub>) (each at concentration 100 ng/ml). <sentence_start/>We used these stimulators since they have been identified in human atherosclerotic lesions [<citation ref-type=\"bibr\" rid=\"B22\" pmid=\"1739124\" pmcid=\"PMC1886415\" count=\"1\">22</citation>,<citation ref-type=\"bibr\" rid=\"B23\" pmid=\"14652645\" doi=\"10.1160/TH03-02-0069\" count=\"1\">23</citation>] and play a pathophysiological role in atherogenesis."
+  },
+  {
+   "section": "article",
+   "text": "After 6-8 days of incubation with M-CSF or PF<sub>4 </sub>in a CO<sub>2</sub>-incubator (95% O<sub>2</sub>/5% CO<sub>2</sub>), the cell medium was changed for a similar one without stimulator, but with native LDL, OxLDL or mmLDL (100 \u03bcg of protein/ml) and/or different concentrations of insulin and glucose. <sentence_start/>Directly before use, all LDLs were filtered through a 0.45 \u03bc Acrodisc syringe filter to remove aggregates. <sentence_start/>As a negative control, cultured monocytes/macrophages were exposed to a medium without additives under the same experimental conditions. <sentence_start/>Cells were further incubated in a CO<sub>2 </sub>incubator for 48 h. <sentence_start/>Some dishes with differentiated macrophages were also incubated either with monocyte chemoattractant protein-1 (MCP-1 or CCL2) or growth-regulated oncogene alpha (GRO\u03b1 or CXCL1) for 5 h to investigate an acute effect of CC or CXC chemokines. <sentence_start/>CCL2 and CXCL1/CXCL8 are among the chemokines that have been implicated most strongly in atherogenesis [<citation ref-type=\"bibr\" rid=\"B24\" pmid=\"15177267\" doi=\"10.1016/j.tcm.2004.02.006\" count=\"1\">24</citation>]. <sentence_start/>Data on CCL2 and CXCL1 effects were used only as input data (in combination with other data generated from MDM) with the intent to increase reliability and decrease standard deviations of Hierarchical Clustering and Self Organizing Map analysis. <sentence_start/>Cell concentration and viability after incubation were assessed using a Guava Personal Cytometer PCA (Guava Technologies, Inc., Hayward, CA)."
+  },
+  {
+   "section": "article",
+   "text": "RNA isolation and design of Affymetrix GeneChip<sup>\u00ae </sup>U133A array"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was isolated using RnEasy Mini Kit (Qiagen Inc., Valencia, CA), treated by RNase-free DNase (Qiagen Inc.) to avoid possible DNA contamination and was used for cRNA synthesis. <sentence_start/>cRNA was used for hybridization to a total of eighteen Affymetrix GeneChip<sup>\u00ae </sup>U133A arrays (nine conditions in duplicates, the conditions are defined in the abscissa of Figure 4 and in Additional figure 1 in Additional file 1). <sentence_start/>Additional plates were used for confirmation of Affymetrix array data by RT-PCR and for analysis of proteins by Western blot. <sentence_start/>Aliquots of supernatants were used for detection of 5-HETE and cytokine production by macrophages."
+  },
+  {
+   "section": "article",
+   "text": "Real Time RT-PCR"
+  },
+  {
+   "section": "article",
+   "text": "Real time reverse transcriptase-polymerase chain reaction was performed on RNA isolated from MDM and foam cells cultivated under varying concentrations of insulin and glucose. <sentence_start/>The primers used to analyze mRNA for insulin receptor were: sense-TGCTGGTGTTCATCAGAACAG and antisense-ACAAACACCACCAGGTACATG. <sentence_start/>Following the reverse transcription step (30 min at 50\u00b0C), PCR was performed at 94\u00b0C (15 seconds), 60\u00b0C (30 seconds), 72\u00b0C (30 seconds) with data collection at 79.5\u00b0C (15 seconds) for 40 cycles. <sentence_start/>SYBR Green I (Molecular Probes, Eugene OR) was used as the fluorescent reporter. <sentence_start/>The specificity of the product was confirmed by analysis of characteristic melting curve and by electrophoresis. <sentence_start/>Negative controls included RNAse I treatment and omission of the reverse transcription step. <sentence_start/>Upon treatment with DNAse I, there was no significant change in insulin receptor mRNA expression, indicating an absence of genomic DNA in the samples. <sentence_start/>Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) was used as an internal standard, and all data were normalized to GAPDH expression. <sentence_start/>Real Time RT-PCR was performed using an Applied Biosystems ABI Prism 7700 Sequence Detection System."
+  },
+  {
+   "section": "article",
+   "text": "Cholesterol and cytokine analysis"
+  },
+  {
+   "section": "article",
+   "text": "Following incubations, MDM cultures were rinsed three times with PBS without Ca<sup>2+ </sup>and Mg<sup>2+</sup>, scraped into 1 ml of double distilled water and kept frozen at -80\u00b0C until chemical analysis was performed. <sentence_start/>Total and esterified cholesterol was determined enzymatically with the fluorescence method described by Gamble [<citation ref-type=\"bibr\" rid=\"B25\" pmid=\"731127\" count=\"1\">25</citation>]. <sentence_start/>Macrophage protein content was determined by the Lowry method using BSA as a standard. <sentence_start/>Cytokine analysis was performed using Cytometric Bead Array kit (BD Pharmingen, San Diego, CA) according to standard manufacturer protocols. <sentence_start/>High performance liquid chromatography (HPLC) was performed under at least two different conditions for clear identification of 5(s) HETE peak (please see Additional file 1 for details)."
+  },
+  {
+   "section": "article",
+   "text": "Statistics"
+  },
+  {
+   "section": "article",
+   "text": "Data were compared with either 1-way ANOVA followed by Bonferroni Correction Post Hoc test or Student T test to evaluate 2-tailed levels of significance. <sentence_start/>Determining Pearson correlation coefficients compared continuous variables. <sentence_start/>Local Pooled Error (LPE) method [<citation ref-type=\"bibr\" rid=\"B26\" pmid=\"14555628\" doi=\"10.1093/bioinformatics/btg264\" count=\"1\">26</citation>] was used to determine statistical differences between the changes in the gene expression on the chips."
+  },
+  {
+   "section": "article",
+   "text": "Two algorithms, Hierarchical Clustering analysis [<citation ref-type=\"bibr\" rid=\"B27\" pmid=\"9843981\" doi=\"10.1073/pnas.95.25.14863\" pmcid=\"PMC24541\" count=\"1\">27</citation>] and Self Organizing Map (SOM) [<citation ref-type=\"bibr\" rid=\"B28\" pmid=\"10077610\" doi=\"10.1073/pnas.96.6.2907\" pmcid=\"PMC15868\" count=\"1\">28</citation>] were used to identify the clusters of genes that are concomitantly regulated by various LDLs. <sentence_start/>The GENECLUSTER software [<citation ref-type=\"bibr\" rid=\"B28\" pmid=\"10077610\" doi=\"10.1073/pnas.96.6.2907\" pmcid=\"PMC15868\" count=\"1\">28</citation>] produced and displayed SOMs of gene expression data. <sentence_start/>Genes in biologically interesting clusters identified by these approaches were searched across bioinformatic database GenMAPP."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Cholesterol content"
+  },
+  {
+   "section": "article",
+   "text": "We measured cholesterol content as a direct indicator of foam cell formation (Figure 1). <sentence_start/>As expected [<citation ref-type=\"bibr\" rid=\"B1\" pmid=\"11001066\" doi=\"10.1038/35025203\" pmcid=\"PMC2826222\" count=\"1\">1</citation>,<citation ref-type=\"bibr\" rid=\"B29\" pmid=\"9261091\" doi=\"10.1074/jbc.272.34.20963\" count=\"1\">29</citation>], the largest accumulation of cholesterol was detected in OxLDL-treated cells."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Free, esterified and total cholesterol in the M-CSF-differentiated macrophages cultivated under HIHG conditions. <sentence_start/>*: p &lt; 0.03 for OxLDL-treated cells vs. Vehicle-treated cells. <sentence_start/>**: p &lt; 0.05 for mmLDL- and nLDL-treated cells vs. Vehicle-treated cells. <sentence_start/>Data represent the means \u00b1 SEM of triplicates. <sentence_start/>Black bar - cholesterol ester, grey bar - free cholesterol, open bar - total cholesterol."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of cytokine production by macrophages"
+  },
+  {
+   "section": "article",
+   "text": "Next, we measured inflammatory cytokines in cell supernatants of macrophages incubated with various types of LDL. <sentence_start/>To identify the direct insulin effect on cytokine production by macrophages, MDM were incubated in insulin-deficient media or with 10 nM insulin (Figure 2, first 2 columns). <sentence_start/>A moderate dose of insulin (10 nM) did not affect the production of IL-l\u03b2, whereas high insulin (500 nM) in combination with high glucose significantly increased IL-l\u03b2, and the response was further exacerbated by OxLDL (Figure 2A). <sentence_start/>Similar data was obtained for IL-12 (not shown). <sentence_start/>IL-6 [<citation ref-type=\"bibr\" rid=\"B30\" pmid=\"15131109\" doi=\"10.1074/jbc.M402631200\" count=\"1\">30</citation>] was also increased under high glucose high insulin conditions, but the effect was further exacerbated specifically by mmLDL (Figure 2B)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Level of IL-l\u03b2 (A) and IL-6 (B) in supernatant after incubation of macrophages with various types of LDL, insulin (+: 10 nM, ++: 500 nM) and glucose (++: 17.5 mM). <sentence_start/>*: p &lt; 0.05, **:p &lt; 0.01."
+  },
+  {
+   "section": "article",
+   "text": "Effect of LDL treatment on gene expression"
+  },
+  {
+   "section": "article",
+   "text": "Next, we examined the effect of LDL treatment on gene expression in macrophages incubated under HIHG conditions using Affymetrix GeneChip<sup>\u00ae </sup>arrays. <sentence_start/>Affymetrix arrays generated an enormous amount of data that were analyzed by comparing vehicle-treated cells with the cells treated with modified LDL. <sentence_start/>Among other genes, we found that many genes directly related to insulin signaling were significantly modulated by modified LDL. <sentence_start/>They include the <italic>insulin receptor, IRS2 </italic>(expressed in monocytes at much higher level than IRS-1 [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14991075\" doi=\"10.1172/JCI200419528\" pmcid=\"PMC351316\" count=\"1\">9</citation>] and our unpublished data), the <italic>catalytic subunit \u03b4 of phosphatidylinositol 3' kinase </italic>(<italic>PIK3CD</italic>, subunit <italic>\u03b4 </italic>is predominantly expressed in leukocytes [<citation ref-type=\"bibr\" rid=\"B31\" pmid=\"9235916\" doi=\"10.1074/jbc.272.31.19236\" count=\"1\">31</citation>]), <italic>Insulin-Induced gene 1 </italic>and <italic>glucose-6-phosphate dehydrogenase </italic>gene. <sentence_start/>Both OxLDL and mmLDL significantly upregulated the expression <italic>of glucose-6-phosphate dehydrogenase </italic>(2.3-and 2.0-fold, respectively, p &lt; 0.000001 for both values). <sentence_start/>OxLDL downregulated the expression of the <italic>Insulin-Induced gene 1 </italic>and the <italic>catalytic subunit \u03b4 of phosphatidylinositol 3' kinase </italic>5.4-and 1.9-fold, respectively (p &lt; 0.000001 for both values), but upregulated the expression of the genes encoding the <italic>insulin receptor </italic>and <italic>IRS2 </italic>3.9- and 2.4-fold (p &lt; 0.004 and p &lt; 0.000001), respectively. <sentence_start/>mmLDL downregulated the expression of the <italic>Insulin-Induced gene 1 </italic>1.4-fold (p &lt; 0.05), and upregulated the expression of the <italic>insulin receptor </italic>gene 1.7-fold (p &lt; 0.05), but had no effect on the <italic>IRS2 </italic>and <italic>the phosphatidylinositol 3' kinase </italic>genes. <sentence_start/>The changes in expression of these genes by OxLDL and mmLDL are shown in Table 1. <sentence_start/>The last four genes were significantly correlated across 9 experimental conditions: while <italic>insulin receptor </italic>and <italic>IRS2 </italic>genes were positively correlated, they were negatively related to the genes encoding <italic>PIK3CD </italic>and <italic>Insulin-Induced gene 1 </italic>(Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "We performed real-time RT-PCR analysis for the <italic>insulin receptor (INS-R) </italic>(Figure 3) and <italic>PIK3CD </italic>(data not shown) to confirm the data of the Affymetrix GeneChip<sup>\u00ae </sup>arrays and to obtain additional data under different experimental conditions, i.e. lower concentrations of insulin and glucose. <sentence_start/>The results obtained by the Affymetrix GeneChip<sup>\u00ae </sup>arrays (Table 1) were confirmed for OxLDL (Figure 3) and specificity of the change for HIHG conditions was demonstrated. <sentence_start/>Since insulin at high concentrations may act through the receptors for IGF-1 [<citation ref-type=\"bibr\" rid=\"B32\" pmid=\"1851111\" doi=\"10.1016/0303-7207(91)90159-P\" count=\"1\">32</citation>], we evaluated whether IGF-1 has similar effects on the expression of the insulin receptor <italic>(INS-R)</italic>. <sentence_start/>Indeed IGF-1 in combination with high glucose induced INS-R expression (Figure 3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Insulin receptor gene expression as estimated by real-time RT-PCR at various concentrations of insulin (+: 10 nM, ++: 500 nM) and glucose (+: 5.5 mM, ++: 17.5 mM). <sentence_start/>Only the effect of OxLDL is shown for IGF1. <sentence_start/>RU, relative units. <sentence_start/>*: p &lt; 0.05 vs. all other values except for IGF1-treated cells. <sentence_start/>Means \u00b1 SEM of triplicates."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Hierarchical gene clustering of the genes expressed in hyperinsulinemic hyperglycemic conditions (a 18-chip experiment). <sentence_start/>Green colour corresponds to lowest and red to the highest level of expression of every gene. <sentence_start/>Log of absolute expression. <sentence_start/>Arrows indicate clusters to which belong <italic>G6PD</italic>, Glucose-6-phosphate dehydrogenase, and <italic>PIK3CD</italic>, Phosphoinositide-3-kinase (catalytic subunit \u03b4), respectively."
+  },
+  {
+   "section": "article",
+   "text": "Identification of the genes regulated concomitantly with the genes of the insulin signaling cascade"
+  },
+  {
+   "section": "article",
+   "text": "To identify the clusters of genes that are concomitantly regulated by various LDLs, Hierarchical Clustering analysis [<citation ref-type=\"bibr\" rid=\"B27\" pmid=\"9843981\" doi=\"10.1073/pnas.95.25.14863\" pmcid=\"PMC24541\" count=\"1\">27</citation>] was applied. <sentence_start/>An example is shown in Figure 4. <sentence_start/>The genes encoding <italic>Glucose-6-phosphate dehydrogenase (G6PD) </italic>and <italic>Leukotriene A<sub>4 </sub>hydrolase (LTA4H) </italic>belong to the same cluster (two upper rows, Figure 4) as well as the genes encoding <italic>5-lipoxygenase activating protein (ALOX5AP) </italic>and <italic>Phosphoinositide-3-kinase (PIK3CD; </italic>row 5 and 6). <sentence_start/>The last observation was confirmed using another statistical method, Self Organizing Maps (please see Additional figure 2 in Additional file 1). <sentence_start/>Arachidonate is a precursor for the biosynthesis of eicosanoids generated by 5-lipoxygenase/ALOX5AP and by other enzymes. <sentence_start/>Its release from membrane phospholipids is mediated by the activity of phosholipase A<sub>2 </sub>(PLA<sub>2</sub>). <sentence_start/>We found significant modulation of one of the PLA<sub>2 </sub>isozymes, namely <italic>group IVC cytosolic </italic><italic>calcium-independent PLA<sub>2-\u03b3 </sub>(PLA2G4C)</italic>. <sentence_start/>The data on the variations in the genes related to the eicosanoid cascade are presented in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "Biochemical effects"
+  },
+  {
+   "section": "article",
+   "text": "Since we found alterations in the expression of a number of genes belonging to insulin cascade, such as <italic>PIK3CD</italic>, we further explored if the process of foam cell formation under HIHG conditions affects insulin-responsive pathways on protein level. <sentence_start/>Among several parameters tested, we analyzed the expression of the insulin-regulated aminopeptidase (IRAP) and Akt phosphorylation by Western blot (Figure 5). <sentence_start/>IRAP represents an effector of insulin action. <sentence_start/>IRAP expression was stimulated by mmLDL, but slightly inhibited by OxLDL under HIHG conditions. <sentence_start/>Akt phosphorylation plays a key role in receptor-mediated signaling, including insulin signaling. <sentence_start/>Both OxLDL and mmLDL significantly increased Akt phosphorylation in macrophages cultured under hyperinsulinemic hyperglycemic conditions (Figure 5A lower and 5B). <sentence_start/>This effect was probably mediated not only by the insulin receptor, but also by the IGF1-receptor, because the insulin-like growth factor 1 (IGF1) caused a similar response (Figure 5B). <sentence_start/>Total levels of Akt protein were similar under all conditions examined (not shown)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "A. <sentence_start/>Expression of the insulin-regulated aminopeptidase (IRAP, 160 KD) and phosphorylation of PKB/Akt (P-Akt, 60 KD) under hyperinsulinemic hyperglycemic conditions, as analyzed by Western blotting. <sentence_start/>Equal protein amounts were loaded for each sample. <sentence_start/>B. <sentence_start/>Phosphorylation of PKB/Akt as estimated by Western blotting. <sentence_start/>Results were normalized to \u03b2-actin. <sentence_start/>*,**: p &lt; 0.05 for HIHG conditions vs. other insulin concentrations for OxLDL- and mmLDL-treated cells, respectively. <sentence_start/>Insulin (+: 10 nM, ++: 500 nM), glucose (+: 5.5 mM, ++: 17.5 mM)."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of 5-HETE production by foam cells"
+  },
+  {
+   "section": "article",
+   "text": "Finally, since we found that some genes belonging to the 5-lipoxygenase pathway were regulated concomitantly with the genes of the insulin signaling cascade (see Figure 4 and Additional figure 2 in Additional file 1), we also assessed the levels of the 5-lipoxygenase product 5(s) HETE in the cell supernatants by HPLC. <sentence_start/>The chromatograms were crowded with many large peaks and chromatography under at least two different conditions had to be performed for clear peak identification (Additional figure 3 in Additional file 1). <sentence_start/>OxLDL enhanced production of 5(s) HETE in HIHG conditions, as measured by chiral HPLC (Figure 6). <sentence_start/>OxLDL incubated in the same conditions but without cells did not contain any significant amount of 5(s) HETE (not shown)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "5(s) HETE level in MDM supernatant as analyzed by HPLC at various concentrations of insulin (+: 10 nM, ++: 500 nM) and glucose (+: 5.5 mM, ++: 17.5 mM). <sentence_start/>*: p &lt; 0.05 vs. all other values. <sentence_start/>Means \u00b1 SEM of triplicates."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Diabetes has been shown to accelerate atherosclerosis. <sentence_start/>However, it is currently unknown whether proatherogenic processes, such as the formation of oxidized LDL or foam cells, exacerbate the existing state of insulin resistance. <sentence_start/>In this study, we studied the effect of high doses of insulin and glucose on foam cell formation and cytokine production by macrophages. <sentence_start/>We found that incubation of MDM with oxidized types of LDL under hyperinsulinemic hyperglycemic conditions led to enhanced secretion of the inflammatory cytokines IL-l\u03b2, IL-6 and IL-12, and the 5-lipoxygenase product 5-HETE. <sentence_start/>Our data also suggest that foam cell formation in the presence of pathophysiological concentrations of both insulin and glucose <italic>in vivo </italic>leads to the modification of the insulin signaling cascade."
+  },
+  {
+   "section": "article",
+   "text": "Insulin is a key hormone regulating glucose and lipid metabolism [<citation ref-type=\"bibr\" rid=\"B33\" pmid=\"10227847\" doi=\"10.1007/PL00005896\" count=\"1\">33</citation>,<citation ref-type=\"bibr\" rid=\"B34\" pmid=\"12169433\" doi=\"10.1152/ajpendo.00514.2001\" count=\"1\">34</citation>]. <sentence_start/>Upon binding insulin, the insulin receptor is activated and subsequently phosphorylates insulin-receptor substrates (IRS) and substrate protein Shc on tyrosine residues. <sentence_start/>The interaction of tyrosine phosphorylated IRS with the regulatory subunit(s) of phosphatidylinositol 3' kinase p85 activates the catalytic subunit(s) p110. <sentence_start/>The consequent production of phosphatydylinositol-3-phosphates leads to the phosphorylation and/or activation of downstream targets, including PKB/Akt [<citation ref-type=\"bibr\" rid=\"B33\" pmid=\"10227847\" doi=\"10.1007/PL00005896\" count=\"1\">33</citation>]. <sentence_start/>mmLDL-induced Akt phosphorylation has been previously described in mouse macrophages [<citation ref-type=\"bibr\" rid=\"B18\" doi=\"10.1161/01.ATV.0000159891.73193.31\" pmid=\"15718493\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Our findings, specifically the increased expression of <italic>insulin receptor </italic>and <italic>IRS-2 </italic>genes in the presence of OxLDL and HIHG conditions, are consistent with increased insulin signaling. <sentence_start/>Indeed we found that Akt phosphorylation in human macrophages was upregulated (Figure 5A lower and 5B). <sentence_start/>It is possible that the effects of high insulin are mediated through the IGF-1 receptor [<citation ref-type=\"bibr\" rid=\"B35\" pmid=\"15247278\" doi=\"10.1074/jbc.M313201200\" count=\"1\">35</citation>], since we could mimic both an increase in <italic>INS-R </italic>expression (Figure 3) and LDL-induced Akt phosphorylation (Figure 5B) using high amounts of IGF-1. <sentence_start/>However, effects of high IGF-1 may also be mediated by the insulin receptors. <sentence_start/>Thus, it is still possible that our findings with oxidized LDL are mediated through the insulin and not the IGF-1 receptor."
+  },
+  {
+   "section": "article",
+   "text": "Insulin affects the activity of genes that have insulin-responsive regions in their promoters. <sentence_start/><italic>Glucose-6-phosphate dehydrogenase (G6PD) </italic>is one such example [<citation ref-type=\"bibr\" rid=\"B36\" pmid=\"10929673\" doi=\"10.1097/00075197-200007000-00006\" count=\"1\">36</citation>]. <sentence_start/>The recently discovered <italic>Insulin-Induced genes (Insig) </italic>may be responsible for other insulin mediated effects [<citation ref-type=\"bibr\" rid=\"B37\" pmid=\"12202038\" doi=\"10.1016/S0092-8674(02)00872-3\" count=\"1\">37</citation>,<citation ref-type=\"bibr\" rid=\"B38\" pmid=\"15085189\" doi=\"10.1172/JCI200421450\" pmcid=\"PMC385410\" count=\"1\">38</citation>]. <sentence_start/><italic>Insulin-Induced genes 1 and 2 (Insig-1 and Insig-2) </italic>encode proteins of the endoplasmic reticulum that block proteolytic activation of sterol regulatory element-binding proteins (SREBPs). <sentence_start/>SREBPs are transcription factors that activate the synthesis of cholesterol and fatty acids in the liver and other cells [<citation ref-type=\"bibr\" rid=\"B39\" pmid=\"15052338\" doi=\"10.1139/o03-090\" count=\"1\">39</citation>]. <sentence_start/><italic>Insig </italic>genes are down-regulated by insulin and the fall in Insig expression allows SREBPs to be processed, thereby allowing insulin to stimulate fatty acid synthesis [<citation ref-type=\"bibr\" rid=\"B40\" pmid=\"12624180\" doi=\"10.1073/pnas.0130116100\" pmcid=\"PMC152262\" count=\"1\">40</citation>]. <sentence_start/>We detected significant down-regulation of <italic>Insig-1 </italic>gene expression by OxLDL, while mmLDL had a much weaker effect (Table 1). <sentence_start/>Thus, OxLDL may potentiate the chronic effect of insulin, behaving as an \"insulin sensitizer\". <sentence_start/>However, the overall effect of modified LDL on the insulin signaling cascade represents a sum of different effects, including the upregulation of <italic>INS-R </italic>and <italic>IRS2 </italic>genes, and the downregulation of <italic>Insig-1 </italic>and <italic>PIKSCD</italic>. <sentence_start/>The high correlation present between these four genes (Table 2) indicates that modified LDL may induce a \"compensatory shift\" in the expression of certain components of the insulin signaling cascade in macrophages cultivated under HIHG conditions."
+  },
+  {
+   "section": "article",
+   "text": "mmLDL increased the expression of the insulin-regulated aminopeptidase protein (Figure 5A, upper row). <sentence_start/>IRAP is a member of the family of zinc-dependent membrane aminopeptidases. <sentence_start/>In fat and muscle cells IRAP localizes in an intracellular compartment under basal conditions and redistributes to the cell surface in response to insulin [<citation ref-type=\"bibr\" rid=\"B41\" pmid=\"12700100\" doi=\"10.2741/1078\" count=\"1\">41</citation>]. <sentence_start/>Its precise role in insulin action remains unknown [<citation ref-type=\"bibr\" rid=\"B42\" pmid=\"15187412\" doi=\"10.1248/bpb.27.761\" count=\"1\">42</citation>]. <sentence_start/>The consequence of increased protein expression of IRAP in insulin signaling in foam cells has to be determined."
+  },
+  {
+   "section": "article",
+   "text": "The products of 5-lipoxygenase, 5-hydro(pero)xyeicosatetraenoic acid, and the leukotrienes, especially leukotriene B<sub>4</sub>, may also be considered factors mediating the effects of foam cell formation on the insulin signaling cascade. <sentence_start/>5-lipoxygenase is upregulated during foam cell formation [<citation ref-type=\"bibr\" rid=\"B43\" pmid=\"12552108\" doi=\"10.1073/pnas.242716099\" pmcid=\"PMC298757\" count=\"1\">43</citation>], and its products are believed to play a significant role in inflammation [<citation ref-type=\"bibr\" rid=\"B44\" doi=\"10.1161/01.ATV.0000082460.58448.01\" pmid=\"12857716\" count=\"1\">44</citation>,<citation ref-type=\"bibr\" rid=\"B45\" pmid=\"14668944\" doi=\"10.1358/dnp.2003.16.8.829345\" count=\"1\">45</citation>]. <sentence_start/>The level of 5-HETE in the cell supernatants was significantly upregulated by OxLDL and positively correlated with the presence of insulin and glucose in cultivation medium (Figure 6)."
+  },
+  {
+   "section": "article",
+   "text": "Insulin resistance and type 2 diabetes are associated with systemic inflammation, possibly through intermediates, such as cytokines and other factors [<citation ref-type=\"bibr\" rid=\"B46\" pmid=\"12957323\" doi=\"10.1016/S0002-9149(03)00612-X\" count=\"1\">46</citation>,<citation ref-type=\"bibr\" rid=\"B47\" pmid=\"12606524\" doi=\"10.2337/diabetes.52.3.812\" count=\"1\">47</citation>]. <sentence_start/>Circulating levels of inflammatory cytokines such as IL-6 and TNF\u03b1 are increased in type 2 diabetes [<citation ref-type=\"bibr\" rid=\"B48\" pmid=\"14698276\" doi=\"10.1016/j.it.2003.10.013\" count=\"1\">48</citation>]. <sentence_start/>Inflammatory cytokines can activate protein kinases that phosphorylate IRS on serine residues, leading to impaired insulin signaling [<citation ref-type=\"bibr\" rid=\"B49\" pmid=\"11849969\" doi=\"10.1016/S0962-8924(01)02207-3\" count=\"1\">49</citation>]. <sentence_start/>Despite some controversy regarding the potential role of IL-6 in insulin resistance [<citation ref-type=\"bibr\" rid=\"B50\" pmid=\"14609022\" doi=\"10.1023/A:1026070911202\" count=\"1\">50</citation>-<citation ref-type=\"bibr\" rid=\"B52\" pmid=\"15191885\" doi=\"10.1152/ajpendo.00189.2003\" count=\"1\">52</citation>], IL-6 has been shown to inhibit insulin signaling and insulin action in isolated hepatocytes [<citation ref-type=\"bibr\" rid=\"B53\" pmid=\"12453891\" doi=\"10.2337/diabetes.51.12.3391\" count=\"1\">53</citation>]. <sentence_start/>Additionally, IL-6 depletion selectively improves hepatic insulin action in obesity [<citation ref-type=\"bibr\" rid=\"B54\" pmid=\"15845623\" doi=\"10.1210/en.2004-1468\" count=\"1\">54</citation>]. <sentence_start/>Moreover, IL-6 leads to insulin resistance <italic>in vivo </italic>when chronically administered to mice at levels that are similar to those found in obese individuals [<citation ref-type=\"bibr\" rid=\"B55\" pmid=\"14578297\" doi=\"10.2337/diabetes.52.11.2784\" count=\"1\">55</citation>]. <sentence_start/>Hypersecretion of IL-6 and TNF\u03b1 may exert major stimulatory effects on the synthesis of acute-phase proteins such as PAI-1, which is also related to insulin resistance [<citation ref-type=\"bibr\" rid=\"B56\" pmid=\"12871293\" doi=\"10.1046/j.1538-7836.2003.00279.x\" count=\"1\">56</citation>]. <sentence_start/>Elevated blood levels of IL-l\u03b2 and IL-6 increase the risk of type 2 diabetes [<citation ref-type=\"bibr\" rid=\"B47\" pmid=\"12606524\" doi=\"10.2337/diabetes.52.3.812\" count=\"1\">47</citation>], and lack of IL-l\u03b2 decreases the severity of atherosclerosis in ApoE-deficient mice on the C57B1/6 background [<citation ref-type=\"bibr\" rid=\"B57\" pmid=\"12615675\" doi=\"10.1161/01.ATV.0000064374.15232.C3\" count=\"1\">57</citation>], a model that develops insulin resistance when fed a Western diet [<citation ref-type=\"bibr\" rid=\"B58\" pmid=\"14517165\" doi=\"10.1161/01.CIR.0000092886.52404.50\" count=\"1\">58</citation>]. <sentence_start/>IL-12 is known to favor differentiation of naive T cells along the T-helper (Thl) pathway and play a significant role in atherogenesis [<citation ref-type=\"bibr\" rid=\"B59\" pmid=\"12937153\" doi=\"10.1016/S0002-9440(10)63471-2\" pmcid=\"PMC1868277\" count=\"1\">59</citation>]. <sentence_start/>We found OxLDL significantly increased the biosynthesis of IL-l\u03b2 and IL-12 by macrophages incubated under HIHG conditions, while mmLDL significantly upregulated IL-6. <sentence_start/>Increased synthesis of these proinflammatory cytokines in turn can promote insulin resistance in other surrounding cells and tissues."
+  },
+  {
+   "section": "article",
+   "text": "Dandona et al. noted that increased concentrations of TNF\u03b1 and IL-6 in type 2 diabetes may modulate insulin action by suppressing insulin signal transduction and this may \"shift\" the effects of insulin to favor a more proinflammatory state [<citation ref-type=\"bibr\" rid=\"B48\" pmid=\"14698276\" doi=\"10.1016/j.it.2003.10.013\" count=\"1\">48</citation>]. <sentence_start/>We hypothesize that oxidized forms of LDL can also \"shift\" or modulate insulin signaling, at least in macrophages, to a more proinflammatory state. <sentence_start/>Modified kinds of LDL may bring about effects similar to \"selective insulin resistance\" [<citation ref-type=\"bibr\" rid=\"B60\" pmid=\"11707433\" doi=\"10.1074/jbc.M103728200\" count=\"1\">60</citation>] or insulin resistance on the level of separate cells/tissues. <sentence_start/>This could play a role in pathogenesis of \"total insulin resistance\", thus exacerbating the development of type 2 diabetes. <sentence_start/>Liang et al. have recently observed that increased CD36 protein expression on mouse macrophages may be connected with defective insulin signaling in these cells as estimated by reduced expression and signaling of insulin receptors [<citation ref-type=\"bibr\" rid=\"B9\" pmid=\"14991075\" doi=\"10.1172/JCI200419528\" pmcid=\"PMC351316\" count=\"1\">9</citation>]. <sentence_start/>Human macrophages treated with OxLDL <italic>in vitro </italic>indeed show increased surface expression of CD36 [<citation ref-type=\"bibr\" rid=\"B61\" pmid=\"9261189\" doi=\"10.1074/jbc.272.34.21654\" count=\"1\">61</citation>,<citation ref-type=\"bibr\" rid=\"B62\" pmid=\"12238639\" doi=\"10.5551/jat.9.57\" count=\"1\">62</citation>]. <sentence_start/>Here we report that this change could be associated with an increase in mRNA for insulin receptor and modified insulin signaling. <sentence_start/>Thus, our results suggest that not exclusively \"defective\", but rather \"modified\" or \"shifted\" macrophage insulin signaling may cause a predisposition to foam cell formation and atherosclerosis in insulin-resistant states."
+  },
+  {
+   "section": "article",
+   "text": "Our data suggest that the presence or formation of modified/oxidized/aggregated LDL in insulin-resistant patients, who have increased blood insulin and glucose, may exacerbate existing insulin resistance and contribute to the development and progression of type 2 diabetes. <sentence_start/>Although the treatment of human macrophages with both minimally oxidized LDL or extensively oxidized LDL leads to cholesterol accumulation and foam cell formation <italic>in vitro</italic>, the effects of mmLDL on the insulin signaling cascade in macrophages appear to be less profound or even opposite to those of OxLDL. <sentence_start/>Such OxLDL-specific effects suggest involvement of the scavenger receptors in a number of downstream events. <sentence_start/>Further investigations are necessary to evaluate the differential roles of scavenger receptors, including CD36, and CD14/Toll-like receptor 4 in mediating effects of OxLDL and mmLDL, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "article",
+   "text": "ALOX5AP = 5-Lipoxygenase activating protein"
+  },
+  {
+   "section": "article",
+   "text": "CVD = Cardiovascular disease"
+  },
+  {
+   "section": "article",
+   "text": "G6PD = Glucose-6-phosphate dehydrogenase"
+  },
+  {
+   "section": "article",
+   "text": "HIHG = Hyperinsulinemic hyperglycemic conditions"
+  },
+  {
+   "section": "article",
+   "text": "HPLC = High performance liquid chromatography"
+  },
+  {
+   "section": "article",
+   "text": "IGF1 = Insulin-like growth factor 1"
+  },
+  {
+   "section": "article",
+   "text": "IL = Interleukin"
+  },
+  {
+   "section": "article",
+   "text": "Insig = Insulin-Induced gene"
+  },
+  {
+   "section": "article",
+   "text": "INS-R = Insulin receptor"
+  },
+  {
+   "section": "article",
+   "text": "IRAP = Insulin-regulated aminopeptidase"
+  },
+  {
+   "section": "article",
+   "text": "IRS2 = Insulin receptor substrate 2"
+  },
+  {
+   "section": "article",
+   "text": "LDL = Low density lipoproteins"
+  },
+  {
+   "section": "article",
+   "text": "LTA4H = Leukotriene A<sub>4 </sub>hydrolase"
+  },
+  {
+   "section": "article",
+   "text": "M-CSF = Macrophage colony-stimulating factor"
+  },
+  {
+   "section": "article",
+   "text": "MDM = Monocyte-derived macrophages"
+  },
+  {
+   "section": "article",
+   "text": "mmLDL = Minimally modified LDL"
+  },
+  {
+   "section": "article",
+   "text": "MSFM = Macrophage Serum-Free Medium"
+  },
+  {
+   "section": "article",
+   "text": "nLDL = Native low density lipoproteins"
+  },
+  {
+   "section": "article",
+   "text": "OxLDL = Oxidized LDL"
+  },
+  {
+   "section": "article",
+   "text": "PF<sub>4 </sub>= Platelet factor 4"
+  },
+  {
+   "section": "article",
+   "text": "PIK3CD = Catalytic subunit \u03b4 of phosphatidylinositol 3' kinase"
+  },
+  {
+   "section": "article",
+   "text": "PKB/Akt = Protein kinase B"
+  },
+  {
+   "section": "article",
+   "text": "PLA2 = Phospholipase A<sub>2</sub>"
+  },
+  {
+   "section": "article",
+   "text": "PLA2G4C = Group IVC cytosolic calcium-independent PLA<sub>2-\u03b3</sub>"
+  },
+  {
+   "section": "article",
+   "text": "SOM = Self Organizing Map"
+  },
+  {
+   "section": "article",
+   "text": "SREBP = Sterol regulatory element-binding protein"
+  },
+  {
+   "section": "article",
+   "text": "TNF\u03b1 = Tumor necrosis factor alpha"
+  },
+  {
+   "section": "article",
+   "text": "5-HETE = 5-Hydroxyeicosatetraenoic acid"
+  },
+  {
+   "section": "article",
+   "text": "Competing interests"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "Authors' contributions"
+  },
+  {
+   "section": "article",
+   "text": "PS conceived of the study, carried out the molecular biological studies and drafted the manuscript. <sentence_start/>NJ performed the statistical analysis. <sentence_start/>YM participated in the design of the study, prepared and tested LDL for the study. <sentence_start/>BR carried out the cytokine assays. <sentence_start/>YH participated in the design of the study. <sentence_start/>SK participated in the design of the study and performed protein analysis. <sentence_start/>GV performed HPLC. <sentence_start/>JN participated in the design of the study. <sentence_start/>TM participated in the design and coordination and helped to draft the manuscript. <sentence_start/>All authors read and approved the final manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Material"
+  },
+  {
+   "section": "article",
+   "text": "Additional File 1"
+  },
+  {
+   "section": "article",
+   "text": "this file contains additional methods, additional references, and three additional figures (one figure with insert)."
+  }
+ ]
+}

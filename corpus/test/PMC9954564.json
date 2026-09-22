@@ -1,0 +1,279 @@
+{
+ "pmid": 36831297,
+ "pmcid": 9954564,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Evidence for Epistatic Interaction between <italic>HLA-G</italic> and <italic>LILRB1</italic> in the Pathogenesis of Nonsegmental Vitiligo"
+  },
+  {
+   "section": "abstract",
+   "text": "Vitiligo is the most frequent cause of depigmentation worldwide. <sentence_start/>Genetic association studies have discovered about 50 loci associated with disease, many with immunological functions. <sentence_start/>Among them is HLA-G, which modulates immunity by interacting with specific inhibitory receptors, mainly LILRB1 and LILRB2. <sentence_start/>Here we investigated the <italic>LILRB1</italic> and <italic>LILRB2</italic> association with vitiligo risk and evaluated the possible role of interactions between HLA-G and its receptors in this pathogenesis. <sentence_start/>We tested the association of the polymorphisms of <italic>HLA-G</italic>, <italic>LILRB1</italic>, and <italic>LILRB2</italic> with vitiligo using logistic regression along with adjustment by ancestry. <sentence_start/>Further, methods based on the multifactor dimensionality reduction (MDR) approach (MDR v.3.0.2, GMDR v.0.9, and MB-MDR) were used to detect potential epistatic interactions between polymorphisms from the three genes. <sentence_start/>An interaction involving rs9380142 and rs2114511 polymorphisms was identified by all methods used. <sentence_start/>The polymorphism rs9380142 is an <italic>HLA-G</italic> 3\u2032UTR variant (+3187) with a well-established role in mRNA stability. <sentence_start/>The polymorphism rs2114511 is located in the exonic region of <italic>LILRB1</italic>. <sentence_start/>Although no association involving this SNP has been reported, ChIP-Seq experiments have identified this position as an EBF1 binding site. <sentence_start/>These results highlight the role of an epistatic interaction between <italic>HLA-G</italic> and <italic>LILRB1</italic> in vitiligo pathogenesis."
+  },
+  {
+   "section": "article",
+   "text": "1. Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Vitiligo is characterized by white spots on the skin, which arise due to the dysfunction of melanocytes [<citation rid=\"B1-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(14)60763-7\" pmid=\"25596811\" count=\"1\">1</citation>]. <sentence_start/>Based on clinical presentation, the disease can be classified as segmental vitiligo, with unilateral distribution, affecting 10-15% of the cases, and shows an early age of onset; or nonsegmental vitiligo, with bilateral and symmetrical distribution, is the most common manifestation, representing almost 80% of the cases, besides several other forms that may fit into the spectrum of rare vitiligo [<citation rid=\"B2-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/j.1755-148X.2012.00997.x\" pmid=\"22417114\" pmcid=\"PMC3511780\" count=\"1\">2</citation>,<citation rid=\"B3-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1542/peds.2015-4126\" pmid=\"27328922\" count=\"1\">3</citation>]. <sentence_start/>It is considered the most frequent cause of depigmentation worldwide, without preference for ancestry or sex. <sentence_start/>It presents marked geographic differences in prevalence, which is mostly about 0.5% to 2% but can be up to 4.7% in Nigeria and more than 8% in India. <sentence_start/>Meanwhile, the reasons underlying this heterogeneous distribution still need to be clarified [<citation rid=\"B4-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0163806\" pmid=\"27673680\" pmcid=\"PMC5038943\" count=\"1\">4</citation>,<citation rid=\"B5-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.jaad.2016.10.048\" pmid=\"28619550\" count=\"1\">5</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Studies have evidenced a polygenic/multifactorial mode of inheritance for nonsegmental vitiligo, with about 50 loci already identified, many of them with roles in immunological response and previously associated with other autoimmune diseases [<citation rid=\"B6-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.det.2016.11.013\" pmid=\"28317533\" pmcid=\"PMC5362127\" count=\"1\">6</citation>]. <sentence_start/>A pivotal role of the immune system in nonsegmental vitiligo is sustained by the presence of autoantibodies against melanin and the higher frequency of other autoimmune conditions in vitiligo patients [<citation rid=\"B7-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1034/j.1600-0749.2003.00023.x\" pmid=\"12622785\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Notwithstanding, only 50% of the total heritability has been identified in nonsegmental vitiligo [<citation rid=\"B8-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.jaad.2003.12.044\" pmid=\"15337981\" count=\"1\">8</citation>,<citation rid=\"B9-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/nrdp.2015.11\" pmid=\"27189851\" count=\"1\">9</citation>]. <sentence_start/>A substantial amount of this variance thus remains unexplained, commonly referred to as the \u201cmissing heritability\u201d [<citation rid=\"B10-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/nature08494\" pmid=\"19812666\" pmcid=\"PMC2831613\" count=\"1\">10</citation>]. <sentence_start/>It has been suggested that missing heritability may be partially due to gene-gene interactions, also called epistasis [<citation rid=\"B11-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1073/pnas.1119675109\" pmid=\"22223662\" pmcid=\"PMC3268279\" count=\"1\">11</citation>,<citation rid=\"B12-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1371/journal.pgen.1003295\" pmid=\"23509438\" pmcid=\"PMC3585114\" count=\"1\">12</citation>,<citation rid=\"B13-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.tig.2014.09.001\" pmid=\"25284288\" pmcid=\"PMC4281285\" count=\"1\">13</citation>]. <sentence_start/>Epistasis occurs when two or more loci influence a phenotype in a dependent manner and may partly explain why human mapping can be difficult to replicate [<citation rid=\"B14-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btv504\" pmid=\"26411870\" pmcid=\"PMC4708100\" count=\"1\">14</citation>]. <sentence_start/>Additionally, it is expected (and observed) that genes that exhibit physical interactions also demonstrate these interactions at the genetic level [<citation rid=\"B15-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/nature05649\" pmid=\"17314980\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The binding of HLA-G to its receptors, LILRB1 and LILRB2, induces the downregulation of innate and adaptive immunity, thus modulating the activity of NK cells, antigen-presenting cells, and T and B lymphocytes [<citation rid=\"B16-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1073/pnas.1431057100\" pmid=\"12853576\" pmcid=\"PMC166403\" count=\"1\">16</citation>,<citation rid=\"B17-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/j.0001-2815.2004.00290.x\" pmid=\"15304001\" count=\"1\">17</citation>,<citation rid=\"B18-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1182/blood-2007-12-127662\" pmid=\"18334671\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Based on the critical role of HLA-G in the immune response and on the associations previously reported between <italic>HLA-G</italic> polymorphisms and diverse autoimmune conditions, our group previously evaluated associations with the whole <italic>HLA-G</italic> locus with vitiligo in the Brazilian population, being observed for the first time an association between the rs9380142 SNP (+3187G) located in 3\u2032UTR (untranslated region) and disease risk [<citation rid=\"B19-cells-12-00630\" ref-type=\"bibr\" doi=\"10.3390/biom9090463\" pmid=\"31505868\" pmcid=\"PMC6769860\" count=\"1\">19</citation>]. <sentence_start/>Nonetheless, up to this moment, no study has investigated the associations of <italic>LILRB1/LILRB2</italic> variants with the disease yet."
+  },
+  {
+   "section": "article",
+   "text": "Since genes encoding interacting proteins are likely to evolve to preserve proper protein interactions, as well as an appropriate stoichiometry among its interacting components [<citation rid=\"B20-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1073/pnas.0402591101\" pmid=\"15175431\" pmcid=\"PMC439012\" count=\"1\">20</citation>], we employed the multifactor dimensionality reduction (MDR) method to evaluate the possible role of epistatic interactions between HLA-G and its receptors in the pathogenesis of vitiligo."
+  },
+  {
+   "section": "article",
+   "text": "Lastly, due to the highly admixed nature of the Brazilian population, we have corrected the results for population stratification, thus allowing us to detect potentially hidden associations, besides avoiding false-positive results."
+  },
+  {
+   "section": "article",
+   "text": "2. Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1. Samples"
+  },
+  {
+   "section": "article",
+   "text": "Blood samples were collected from 410 unrelated volunteers from Ribeir\u00e3o Preto, Southeastern Brazil, consisting of 367 healthy controls and 43 vitiligo cases, followed up at the Dermatology Outpatient Clinic of the University Hospital of Ribeir\u00e3o Preto Medical School, University of S\u00e3o Paulo, between 2016 and 2018. <sentence_start/>No individual included among the healthy controls showed vitiligo signals. <sentence_start/>Moreover, vitiligo patients or control individuals with a history of autoimmune diseases were excluded from the study sample. <sentence_start/>Ethical approval was obtained from the Ethics Committee of Universidade de S\u00e3o Paulo (CAAE), #25696413.7.0000.5407, and all participants provided written informed consent."
+  },
+  {
+   "section": "article",
+   "text": "2.2. <sentence_start/>Laboratory Analysis"
+  },
+  {
+   "section": "article",
+   "text": "DNA was extracted using a modified salting-out protocol [<citation rid=\"B21-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/nar/16.3.1215\" pmid=\"3344216\" pmcid=\"PMC334765\" count=\"1\">21</citation>]. <sentence_start/>NanoDrop<sup>\u00ae</sup> ND-1000 (Thermo Fisher Scientific Inc., Waltham, MA, USA), agarose gel electrophoresis, and Qubit\u2122 dsDNA BR Assay (Life Technologies, Carlsbad, CA, USA) were used for the evaluation of purity level, integrity, and concentration of the genomic DNA, respectively. <sentence_start/>Finally, all samples were normalized to 5 ng/\u00b5L to achieve an ideal sequencing library preparation concentration."
+  },
+  {
+   "section": "article",
+   "text": "Sequencing libraries were prepared according to the manufacturer\u2019s instructions using a customized Haloplex Target Enrichment System (Agilent Technologies, Inc., Santa Clara, CA, USA) protocol. <sentence_start/>A SureDesign tool (Agilent Technologies, Inc., Santa Clara, CA, USA) was employed to design a set of probes that ensured the capture of 488.658 bp, including the <italic>HLA-G</italic> (5\u2032URR-upstream regulatory region, coding sequencing (CDS, only exons), and 3\u2032UTR), and <italic>LILRB1/2</italic> (CDS, only exons) genes, as well as other loci of interest for the research group, such as the regions encompassing the SNP<italic>for</italic>ID 34-plex ancestry informative marker (AIM) set of SNPs [<citation rid=\"B22-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.fsigen.2007.06.008\" pmid=\"19083773\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "DNA libraries were quantified using Qubit<sup>\u00ae</sup> 2.0 Fluorometer (Thermo Fisher Scientific Inc., Waltham, MA, USA) and 2100 Bioanalyzer (Agilent Technologies, Inc., Santa Clara, CA, USA). <sentence_start/>Ultimately, a pool of DNA libraries of up to 96 samples was diluted to 16 pM and inserted as input for sequencing using the MiSeq Reagent Kit V3 (600 cycles) in the MiSeq Personal Sequencer (Illumina Inc., San Diego, CA, USA)."
+  },
+  {
+   "section": "article",
+   "text": "2.3. Bioinformatics Analysis"
+  },
+  {
+   "section": "article",
+   "text": "The <italic>HLA-G</italic>, <italic>LILRB1</italic>, and <italic>LILRB2</italic> mapping; genotype calling; and haplotyping strategies used here have already been published elsewhere [<citation rid=\"B23-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.molimm.2017.01.020\" pmid=\"28135606\" count=\"1\">23</citation>,<citation rid=\"B24-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/tan.14725\" pmid=\"35754199\" count=\"1\">24</citation>]. <sentence_start/>Briefly, CutAdapt [<citation rid=\"B25-cells-12-00630\" ref-type=\"bibr\" doi=\"10.14806/ej.17.1.200\" count=\"1\">25</citation>], hla-mapper version 2.2, function DNA, database version 2.1 [<citation rid=\"B26-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2018.06.010\" pmid=\"30122171\" count=\"1\">26</citation>], and GATK v.3.7 HaplotypeCaller in -ERC GVCF mode [<citation rid=\"B27-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1101/gr.107524.110\" pmid=\"20644199\" pmcid=\"PMC2928508\" count=\"1\">27</citation>] were used for trimming adaptor sequences, alignment to the reference genome sequence (GRCh38/hg38) and genotype calling, respectively. <sentence_start/>Uncertainly, genotypes were interrogated using VCFx checkpl (www.castelli-lab.net/apps/vcfx (accessed on 1 October 2021)), with the minimum genotype likelihood set to 99.9% to retain only high-quality genotypes. <sentence_start/>GATK routine ReadBackedPhasing, using a minimal phase quality threshold of 500, coupled with a Bayesian probabilistic model implemented in the PHASE software [<citation rid=\"B28-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/319501\" pmid=\"11254454\" pmcid=\"PMC1275651\" count=\"1\">28</citation>], enabled taking some phase information from the paired-end reads, adding efforts in the identification of the most probable haplotypes. <sentence_start/>The phased VCF file was converted into <italic>HLA-G</italic> CDS sequences by using the hg38 reference sequence as a draft and replacing the correct nucleotide at each position, two sequences per sample, using the application vcfx (function fasta) (www.castelli-lab.net/apps/vcfx (accessed on 1 October 2021)). <sentence_start/>Using a local BLAST server with databases containing all known class I and II HLA CDS sequences described so far, downloaded from the IPD-IMGT/HLA database (https://www.ebi.ac.uk/ipd/imgt/hla/ (accessed on 1 October 2021)) version 3.31.0, the closest known <italic>HLA-G</italic> coding allele was defined for each haplotype."
+  },
+  {
+   "section": "article",
+   "text": "The procedures applied for genotyping <italic>LILRB1/2</italic> exonic regions and the SNP<italic>for</italic>ID 34-plex AIMs were very similar to those used to <italic>HLA-G</italic>, except that BWA-MEM (Burrows-Wheeler) [<citation rid=\"B29-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btp698\" pmid=\"20080505\" pmcid=\"PMC2828108\" count=\"1\">29</citation>] instead of hla-mapper [<citation rid=\"B26-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2018.06.010\" pmid=\"30122171\" count=\"1\">26</citation>] was employed to the reference genome (GRCh38/hg38) alignment and that for SNP<italic>for</italic>ID 34-plex only genotype calling was performed. <sentence_start/>In addition, the procedures used for <italic>HLA-G</italic> haplotypic identification did not apply to these loci."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>Statistical Methods"
+  },
+  {
+   "section": "article",
+   "text": "Based on the previously described approach [<citation rid=\"B30-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2018.08.005\" pmid=\"30107212\" count=\"1\">30</citation>], the SNP<italic>for</italic>ID 34-plex ancestry informative SNP panel was employed by STRUCTURE v.2.3.4 [<citation rid=\"B31-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/302959\" pmid=\"10827107\" pmcid=\"PMC1287075\" count=\"1\">31</citation>] to quantify the ancestral contributions of the present study samples. <sentence_start/>Afterward, the ancestry components obtained for each individual were included as covariates in a logistic regression model using PLINK v.1.9 [<citation rid=\"B32-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/519795\" pmid=\"17701901\" pmcid=\"PMC1950838\" count=\"1\">32</citation>] to correct the associations for population structure. <sentence_start/>Since the genetic risk depends on the type of inheritance, SNPs were analyzed using additive and dominant models."
+  },
+  {
+   "section": "article",
+   "text": "The linkage disequilibrium (LD) pattern was evaluated by estimating the parameters <italic>D\u2019</italic>, log of odds (LOD) scores, and <italic>r<sup>2</sup></italic>. <sentence_start/>The haplotype blocks were defined by the confidence intervals method implemented in Haploview v.3.32 [<citation rid=\"B33-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/bth457\" pmid=\"15297300\" count=\"1\">33</citation>], excluding markers with a minor allele frequency (MAF) below 1% and a Hardy-Weinberg equilibrium (HWE) <italic>p</italic>-value lower than 0.05. <sentence_start/>Adherence of genotypic proportions to expectations under Hardy-Weinberg equilibrium, as well as the allelic frequencies, were evaluated using PLINK v.1.9 [<citation rid=\"B32-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/519795\" pmid=\"17701901\" pmcid=\"PMC1950838\" count=\"1\">32</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Single polymorphisms were first tested one by one for statistical association with the vitiligo risk using a traditional regression model. <sentence_start/>Due to the highly admixed nature of the Brazilian population, we adjusted the results for admixture proportions to avoid false-positive results arising from a population stratification bias [<citation rid=\"B34-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(03)12520-2\" pmid=\"12598158\" count=\"1\">34</citation>] and to allow the detection of potentially hidden associations [<citation rid=\"B35-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0001382\" pmid=\"18196181\" pmcid=\"PMC2198793\" count=\"1\">35</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "We then performed multivariate analyses considering several markers simultaneously using the machine learning method MDR [<citation rid=\"B36-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/321276\" pmid=\"11404819\" pmcid=\"PMC1226028\" count=\"1\">36</citation>] to screen for potential gene-gene interactions among the 213 variants from <italic>HLA-G</italic> and <italic>LILRB1/2</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Since the MDR efficiency can be increased by limiting the number of input features [<citation rid=\"B37-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1186/s13040-018-0168-6\" pmid=\"29713383\" pmcid=\"PMC5907720\" count=\"1\">37</citation>], the variants were LD-pruned before epistasis analysis to remove any multicollinearity between markers. <sentence_start/>PLINK v.1.9 [<citation rid=\"B32-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/519795\" pmid=\"17701901\" pmcid=\"PMC1950838\" count=\"1\">32</citation>] was used for pruning, considering the variance inflation factor (VIF) LD pruning routine that iteratively excludes individual variants that have a VIF &gt; 2 with other variants (window size of 50 SNPs, shifting 5 SNPs at each step), using a minor allele frequency (MAF) threshold of 0.1. <sentence_start/>After pruning, 34 variants remained."
+  },
+  {
+   "section": "article",
+   "text": "MDR reduces the dimensionality of multilocus information by testing all the possible combinations of multilocus genotypes and reports the ones exhibiting the best classification for disease risk [<citation rid=\"B38-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1002/gepi.10218\" pmid=\"12548676\" count=\"1\">38</citation>]. <sentence_start/>Different approaches were tested: MDR v3.0.2 [<citation rid=\"B39-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btf869\" pmid=\"12584123\" count=\"1\">39</citation>], generalized multifactor dimensionality reduction (GMDR) v.0.9 [<citation rid=\"B40-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/518312\" pmid=\"17503330\" pmcid=\"PMC1867100\" count=\"1\">40</citation>], and model-based multifactor dimensionality reduction (MB-MDR) [<citation rid=\"B41-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btq352\" pmid=\"20595460\" count=\"1\">41</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The model selection and evaluation follow a similar strategy in the MDR v3.0.2 and GMDR v.0.9 methods. <sentence_start/>For developing a model, 9/10th of the data is employed, and a classification error is estimated at the end. <sentence_start/>Then, the remaining 1/10th of the data estimates the prediction error of the tested model. <sentence_start/>This procedure is repeated for each data piece, with classification and prediction errors obtained across all 10 runs. <sentence_start/>The ranking of the models relies on two parameters: the testing balanced accuracy (TBA), which indicates the degree of accuracy with which an interaction correctly classifies individuals as cases or controls, and the cross-validation consistency (CVC), which indicates the number of times an interacting set shows along the cross-validation subsets (Hastie et al. 2001). <sentence_start/>Single best models were selected from each of the two-marker and three-marker combinations. <sentence_start/>Among this set of best multifactor models, the combination of polymorphisms that maximizes both the TBA and the CVC was selected. <sentence_start/>Although very similar to the original MDR method, GMDR v.0.9 [<citation rid=\"B40-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/518312\" pmid=\"17503330\" pmcid=\"PMC1867100\" count=\"1\">40</citation>] classifies the individuals based on a residual-based score and provides the signal test indicating the significance of the identified model [<citation rid=\"B40-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/518312\" pmid=\"17503330\" pmcid=\"PMC1867100\" count=\"1\">40</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In contrast, some modifications are observed in the MB-MDR method [<citation rid=\"B41-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btq352\" pmid=\"20595460\" count=\"1\">41</citation>]. <sentence_start/>First, the method does not split the data into training and learning sets. <sentence_start/>Model selection is based on the strength of association between a set of genotypes and the binary outcome of interest, using all the data, with the statistical significance of the models being assessed through a permutation testing strategy by randomizing the case/control status in the original dataset. <sentence_start/>In addition, risk categories are defined using a regression model, which allows adjustment for population stratification. <sentence_start/>Finally, it presents all significant genetic interactions and the best one. <sentence_start/>To ensure that the analyses were not influenced by chance or by initial conditions, each analysis was repeated 5 times using 5 different random seeds (permutation = 1.000; adjust = ancestry covariates; family = binomial; significance level = 0.05)."
+  },
+  {
+   "section": "article",
+   "text": "3. Results"
+  },
+  {
+   "section": "article",
+   "text": "The <italic>HLA-G</italic> variability was evaluated using massive parallel sequencing concerning the 5\u2032URR extended distal region (\u22122635), CDS, and 3\u2032UTR and the genetic diversity of <italic>LILRB1</italic>/<italic>LILRB2</italic> exonic regions in a sample of 410 individuals. <sentence_start/>A total of 110, 58, and 55 variation sites were identified in <italic>HLA-G</italic>, <italic>LILRB1</italic>, and <italic>LILRB2</italic>, respectively. <sentence_start/>After applying quality control criteria (genotyping call rate &gt; 0.98 and Hardy-Weinberg test <italic>p</italic>-value \u2265 0.01), 103, 57, and 53 variants remained and were included in the association study with vitiligo risk."
+  },
+  {
+   "section": "article",
+   "text": "The results of single-marker association analyses are presented in Table 1 (additive model) and Table 2 (dominant model). <sentence_start/>Interestingly, many of the associations detected before adjusting for population structure were no longer significant after taking ancestry composition into account in the regression model."
+  },
+  {
+   "section": "article",
+   "text": "Among the SNPs significantly associated with the dominant model (Table 2), rs6932888 and rs6932596 are in strong LD with each other (<italic>r<sup>2</sup></italic> \u2265 0.90)."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, multivariate analysis using different MDR-based methods was performed to identify possible gene-gene interactions affecting the disease risk. <sentence_start/>The three methods identified the same 2-SNP combination as the best model, providing the best prediction accuracy (Table 3, Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Although 3-SNP combinations were also evaluated, their results were not shown since the 2-SNP combination results provided a better explanation of the vitiligo risk."
+  },
+  {
+   "section": "article",
+   "text": "MB-MDR results also provided 20 different epistatic interactions significantly associated with the disease (Supplementary Table S1)."
+  },
+  {
+   "section": "article",
+   "text": "4. Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Despite the latest advances in vitiligo, the role of the simultaneous genetic composition of <italic>HLA</italic>-G, <italic>LILRB1</italic>, and <italic>LILRB2</italic> in disease development remains to be elucidated. <sentence_start/>Once the inhibitory properties of HLA-G depend on the interaction with its receptors [<citation rid=\"B18-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1182/blood-2007-12-127662\" pmid=\"18334671\" count=\"1\">18</citation>], the present study has evaluated both univariate and multivariate associations with vitiligo. <sentence_start/>The vitiligo pathogenesis has yet to be fully understood [<citation rid=\"B42-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/pcmr.12848\" pmid=\"31743585\" pmcid=\"PMC6928395\" count=\"1\">42</citation>]. <sentence_start/>Several theories have been proposed to explain it, including the autoimmune, neural, biochemical, and genetic hypotheses. <sentence_start/>Although many of these factors may play essential roles in vitiligo pathogenesis, at least for nonsegmental vitiligo, the autoimmune hypothesis is currently the most accepted [<citation rid=\"B6-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.det.2016.11.013\" pmid=\"28317533\" pmcid=\"PMC5362127\" count=\"1\">6</citation>,<citation rid=\"B43-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.autrev.2015.12.006\" pmid=\"26724277\" count=\"1\">43</citation>], as vitiligo often has autoimmune comorbidities and often responds to immunosuppressive treatments [<citation rid=\"B44-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1001/archderm.139.5.581\" pmid=\"12756094\" count=\"1\">44</citation>]. <sentence_start/>Furthermore, many of the 50 loci have already been associated with nonsegmental vitiligo showing immunomodulatory functions, while only a few genes have been linked to melanogenesis [<citation rid=\"B45-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1007/s40257-017-0298-5\" pmid=\"28577207\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Among the associations already reported concerning this disease, those involving genes from the human leukocyte antigen (HLA) region, such as <italic>HLA-A2</italic>, <italic>HLA-DR4</italic>, and <italic>HLA-DR7</italic>, may be the leading cause of self-antigen recognition [<citation rid=\"B45-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1007/s40257-017-0298-5\" pmid=\"28577207\" count=\"1\">45</citation>,<citation rid=\"B46-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1155/2016/5412806\" pmcid=\"PMC5027303\" pmid=\"27689083\" count=\"1\">46</citation>]. <sentence_start/>It has been suggested that HLA-G, a key immunoregulatory molecule, may play a role in vitiligo susceptibility [<citation rid=\"B19-cells-12-00630\" ref-type=\"bibr\" doi=\"10.3390/biom9090463\" pmid=\"31505868\" pmcid=\"PMC6769860\" count=\"1\">19</citation>,<citation rid=\"B47-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1007/s00403-011-1160-x\" pmid=\"21847675\" count=\"1\">47</citation>,<citation rid=\"B48-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1007/s00403-014-1459-5\" pmid=\"24639245\" count=\"1\">48</citation>]. <sentence_start/>This hypothesis is further supported by frequent <italic>HLA-G</italic> association with other autoimmune diseases, such as lupus erythematosus systemic [<citation rid=\"B49-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/j.1399-0039.2008.01037.x\" pmid=\"18380776\" count=\"1\">49</citation>,<citation rid=\"B50-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1177/0961203308098187\" pmid=\"19318395\" count=\"1\">50</citation>], Crohn\u2019s disease [<citation rid=\"B51-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/intimm/dxm027\" pmid=\"17446213\" count=\"1\">51</citation>,<citation rid=\"B52-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/intimm/dxv002\" pmid=\"25577194\" count=\"1\">52</citation>], multiple sclerosis [<citation rid=\"B53-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2007.01.012\" pmid=\"17462509\" count=\"1\">53</citation>,<citation rid=\"B54-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.imlet.2016.10.006\" pmid=\"27771469\" count=\"1\">54</citation>], rheumatoid arthritis [<citation rid=\"B55-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1097/01.fpc.0000230115.41828.3a\" pmid=\"16906016\" count=\"1\">55</citation>,<citation rid=\"B56-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/j.1399-0039.2008.01019.x\" pmid=\"18331529\" count=\"1\">56</citation>], and pemphigus vulgaris [<citation rid=\"B57-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2003.09.019\" pmid=\"14700594\" count=\"1\">57</citation>], along with HLA-G ectopic expression in skin pathologies [<citation rid=\"B58-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1056/NEJM199912093412407\" pmid=\"10588968\" count=\"1\">58</citation>,<citation rid=\"B59-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2230.2005.01790.x\" pmid=\"15953086\" count=\"1\">59</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "HLA-G, an important nonclassical HLA-class Ib immunomodulatory molecule, plays its roles by binding to inhibitory receptors, such as leukocyte Ig-like receptors (LILRs, also called LIR, Ig-like transcript (ILT), or CD85): LILRB1 (LIR1/LILRB1/CD85j) and LILRB2 (LIR2/LILRB2/CD85d), along with KIR2DL4 (killer cell Ig-like receptor 2DL4) [<citation rid=\"B60-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1073/pnas.0605228103\" pmid=\"17056715\" pmcid=\"PMC1637596\" count=\"1\">60</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "It has been shown that LILRB1 and LILRB2 are preferential ligands for HLA-G compared with classical MHCI proteins (HLA-A, HLA-B, HLA-C) once their affinity for the molecule is three- to fourfold higher [<citation rid=\"B16-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1073/pnas.1431057100\" pmid=\"12853576\" pmcid=\"PMC166403\" count=\"1\">16</citation>]. <sentence_start/>Furthermore, polymorphisms in these loci may play a role in the LILR strength binding to MHC-I alleles [<citation rid=\"B61-cells-12-00630\" ref-type=\"bibr\" doi=\"10.4049/jimmunol.1003078\" pmid=\"21270408\" count=\"1\">61</citation>]. <sentence_start/>However, no study has evaluated the role of <italic>LILRB1</italic> and <italic>LILRB2</italic> polymorphisms in developing vitiligo or the possible interactions between <italic>HLA-G</italic> and the genes encoding its receptors."
+  },
+  {
+   "section": "article",
+   "text": "Accordingly, whether or not individual polymorphisms in <italic>HLA-G</italic>, <italic>LILRB1</italic>, and <italic>LILRB2</italic> were associated with susceptibility to vitiligo and whether or not there were some epistatic interactions between them were, therefore, investigated here. <sentence_start/>The association analysis of these polymorphisms with vitiligo gave rise to some SNPs associated with the disease, in either the additive (Table 1) or the dominant model (Table 2). <sentence_start/>Nevertheless, the studied population\u2019s genetic structure significantly influenced this outcome once just a few SNPs remained associated after adjustment by ancestry. <sentence_start/>In contrast, others were only noticed after this adjustment was considered (rs272423), which may reflect an effect of the admixed nature of the Brazilian population [<citation rid=\"B62-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/ejhg.2011.144\" pmid=\"21863058\" pmcid=\"PMC3234512\" count=\"1\">62</citation>], leading to false-positive associations with vitiligo. <sentence_start/>Such impact of population structure on the association results was already predicted in a previous study showing a strong influence of ancestry composition on the <italic>HLA-G</italic> haplotype distribution in a healthy Brazilian population sample [<citation rid=\"B30-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2018.08.005\" pmid=\"30107212\" count=\"1\">30</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Among the dominant model test results, three SNPs were associated with vitiligo in univariate analysis, even after adjustment by ancestry (Table 2). <sentence_start/>Two of them (rs6932888 and rs6932596) are in a complete LD one with each other (<italic>D\u2019</italic> = 1, <italic>r<sup>2</sup></italic> = 1), and the third one (rs9380142) is located in 3\u2032UTR and also shows a strong allelic association with the first two SNPs (<italic>r<sup>2</sup></italic> = 0.9 in both cases). <sentence_start/>They thus represent a single association signal. <sentence_start/>Considering the functional relevance of this 3\u2032UTR variant, which has been previously associated with vitiligo [<citation rid=\"B19-cells-12-00630\" ref-type=\"bibr\" doi=\"10.3390/biom9090463\" pmid=\"31505868\" pmcid=\"PMC6769860\" count=\"1\">19</citation>] as well as several pathological conditions [<citation rid=\"B63-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/molehr/gan059\" pmid=\"18952696\" count=\"1\">63</citation>,<citation rid=\"B64-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2011.10.007\" pmid=\"22044721\" count=\"1\">64</citation>,<citation rid=\"B65-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.meegid.2013.02.021\" pmid=\"23499774\" count=\"1\">65</citation>,<citation rid=\"B66-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1002/mgg3.14\" pmcid=\"PMC3865579\" pmid=\"24498610\" count=\"1\">66</citation>,<citation rid=\"B67-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2014.10.009\" pmid=\"25454622\" pmcid=\"PMC4936903\" count=\"1\">67</citation>,<citation rid=\"B68-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2014.12.006\" pmid=\"25500250\" count=\"1\">68</citation>,<citation rid=\"B69-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1099/jgv.0.000559\" pmid=\"27449667\" count=\"1\">69</citation>], and whose role in the <italic>HLA-G</italic> mRNA stability has been well established in vitro [<citation rid=\"B63-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/molehr/gan059\" pmid=\"18952696\" count=\"1\">63</citation>], we reinforce that this SNP is likely to be the causal variant directly associated with vitiligo susceptibility. <sentence_start/>This finding is consistent with the higher odds ratio and lower <italic>p</italic>-value observed for this SNP compared with the other two variants. <sentence_start/>The fact that this association was identified only under a dominant model agrees with a previous study suggesting that the rs9380142*G allele may behave dominantly [<citation rid=\"B70-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/tan.12521\" pmid=\"25656292\" count=\"1\">70</citation>]. <sentence_start/>Interestingly, the +3187G allele is observed only in the UTR-01 haplotype, which is associated with a higher production of HLA-G [<citation rid=\"B71-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1155/2014/734068\" pmid=\"24741620\" pmcid=\"PMC3987962\" count=\"1\">71</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "This study disclosed for the first time an association between rs272423 and vitiligo. <sentence_start/>Although rs272423 corresponds to a silent polymorphism with no apparent impact on the protein sequence, studies have shown evidence of the non-neutrality of synonymous codons in functional contexts, such as in the transcription factor (TF) binding regulation, leading to a change in gene expression levels [<citation rid=\"B72-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/nrg2899\" pmid=\"21102527\" pmcid=\"PMC3074964\" count=\"1\">72</citation>,<citation rid=\"B73-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddw207\" pmid=\"27354349\" pmcid=\"PMC6372012\" count=\"1\">73</citation>]. <sentence_start/>The effect of this variant on TF binding was evaluated using HaploReg v4.1, which predicted that rs272423 alters the binding motif for the TFs ER alpha-a, LXR2, LXR3, NRSF, PLAG1, Rad21, and VDR3. <sentence_start/>Moreover, this SNP significantly changed the <italic>LILRB1</italic> gene expression in CEU-CHB-JPT lymphoblastoid cell lines, <italic>p</italic>-value = 9.6 \u00d7 10<sup>\u221214</sup> [<citation rid=\"B74-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/ng2142\" pmid=\"17873874\" pmcid=\"PMC2683249\" count=\"1\">74</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Since HLA-G physically interacts with LILRB1 and LILRB2 to play its immunomodulatory role, the effect of one gene may only be perceived by considering the effects of the others [<citation rid=\"B75-cells-12-00630\" ref-type=\"bibr\" count=\"1\">75</citation>]. <sentence_start/>Therefore, we conducted a study to survey the nucleotide variation of these three genes in the same set of individuals and explored the potential interactions of the polymorphisms identified and their effects on the risk of vitiligo using MDR-based methods specifically designed for the detection of epistasis [<citation rid=\"B39-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btf869\" pmid=\"12584123\" count=\"1\">39</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The MDR method performs a data reduction strategy that classifies genotypes as high- or low-risk groups, reducing the predictors from <italic>n</italic> to one dimension [<citation rid=\"B36-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/321276\" pmid=\"11404819\" pmcid=\"PMC1226028\" count=\"1\">36</citation>]. <sentence_start/>All possible genotype combinations are tested, and the software reports the best model for disease risk classification or the model showing maximum TBA and CVC values [<citation rid=\"B76-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1586/14737159.4.6.795\" pmid=\"15525222\" count=\"1\">76</citation>]. <sentence_start/>The most significant model associated with vitiligo using MDR v.3.0.2 was a second-order combination between <italic>HLA-G</italic> rs9380142 and <italic>LILRB1</italic> rs2114511, accurately classifying 65% of tested individuals in 9 out of 10 validation intervals (Figure 1). <sentence_start/>According to GMDR v.0.9 [<citation rid=\"B40-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1086/518312\" pmid=\"17503330\" pmcid=\"PMC1867100\" count=\"1\">40</citation>], the same second-order combination (rs9380142/rs2114511) previously identified by MDR v.3.0.2 was selected as the best model for this disease (signal <italic>p</italic>-test = 0.0107), allowing for accurately classifying 64% of the individuals in all 10 validation intervals. <sentence_start/>Another extension to the MDR method is MB-MDR [<citation rid=\"B41-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/bioinformatics/btq352\" pmid=\"20595460\" count=\"1\">41</citation>], which allows one to consider the ancestry composition in the association test. <sentence_start/>Instead of selecting the best model, it provides a set of combinations whose significance has been assessed by a permutation test. <sentence_start/>The same SNP combination was again identified as the best model for the disease (permutation <italic>p</italic>-value = 0.0130)."
+  },
+  {
+   "section": "article",
+   "text": "The first SNP rs9380142 in the epistatic interaction identified by all methods is located at <italic>HLA-G</italic> 3\u2032UTR, 4-bp upstream to the AUUUA pentameter, a motif related to mRNA degradation. <sentence_start/>When the rs9380142+3187A allele is present, a shorter <italic>HLA-G</italic> mRNA half-life in vitro is observed, possibly due to an adenine increase in this AU-rich motif [<citation rid=\"B63-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/molehr/gan059\" pmid=\"18952696\" count=\"1\">63</citation>]. <sentence_start/>Although not as extensively investigated as the 14 bp insertion/deletion (INDEL) and +3142, +3187 was already evaluated for preeclampsia [<citation rid=\"B63-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/molehr/gan059\" pmid=\"18952696\" count=\"1\">63</citation>,<citation rid=\"B67-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2014.10.009\" pmid=\"25454622\" pmcid=\"PMC4936903\" count=\"1\">67</citation>], septic shock [<citation rid=\"B77-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1186/cc11845\" pmid=\"23107167\" pmcid=\"PMC3682315\" count=\"1\">77</citation>], malaria [<citation rid=\"B65-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.meegid.2013.02.021\" pmid=\"23499774\" count=\"1\">65</citation>], leprosy [<citation rid=\"B66-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1002/mgg3.14\" pmcid=\"PMC3865579\" pmid=\"24498610\" count=\"1\">66</citation>], celiac disease [<citation rid=\"B68-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2014.12.006\" pmid=\"25500250\" count=\"1\">68</citation>], rheumatoid arthritis [<citation rid=\"B70-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/tan.12521\" pmid=\"25656292\" count=\"1\">70</citation>], schizophrenia [<citation rid=\"B78-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1016/j.humimm.2016.08.013\" pmid=\"27567986\" count=\"1\">78</citation>], HTLV1 infection [<citation rid=\"B69-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1099/jgv.0.000559\" pmid=\"27449667\" count=\"1\">69</citation>], bipolar disorder [<citation rid=\"B79-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1080/08820139.2018.1469649\" pmid=\"29737889\" count=\"1\">79</citation>], epithelial ovarian cancer [<citation rid=\"B80-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1038/s41598-019-41900-z\" pmid=\"30932005\" pmcid=\"PMC6443684\" count=\"1\">80</citation>], and vitiligo [<citation rid=\"B19-cells-12-00630\" ref-type=\"bibr\" doi=\"10.3390/biom9090463\" pmid=\"31505868\" pmcid=\"PMC6769860\" count=\"1\">19</citation>]; it is observed in the latter similar association pattern, which is expected once there is a sample overlap between both studies."
+  },
+  {
+   "section": "article",
+   "text": "The second SNP rs2114511 involved in the epistatic interaction corresponds to a synonymous variant from the <italic>LILRB1</italic> gene. <sentence_start/>Although no association involving this SNP has been reported so far, according to HaploReg v.4.1, this site resembles a TF binding motif activated in the T-lymphocyte subtypes, monocytes, B, NK, spleen, and GM12878 lymphoblastoid cells. <sentence_start/>The SNP rs2114511 is an expression quantitative trait locus (eQTL) that regulates the LILRB1 expression [<citation rid=\"B81-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddx043\" pmid=\"28165122\" pmcid=\"PMC6075455\" count=\"1\">81</citation>] and that alters the AP2, CTCF, Roas2, and Zic4 binding motifs. <sentence_start/>Except for Roas2, they are all expressed in the skin (Human Protein Atlas portal-http://www.proteinatlas.org (accessed on 1 December 2021)). <sentence_start/>The GTEx portal (https://gtexportal.org/home/ (accessed on 1 December 2021)) indicates that the variant rs2114511/C is associated with higher expression of LILRB1 in the lung. <sentence_start/>Lastly, rs2114511 is a binding site for EBF transcription factor 1 (EBF1) in the B-cell-derived cell line (GM12878 lymphoblastoid cells; ENCODE Project Consortium, 2011)."
+  },
+  {
+   "section": "article",
+   "text": "EBF1 is essential for the development of B lymphocytes once it affects the activating factor receptor (BAFF-R) and B-cell receptor (BCR)-dependent Akt pathways [<citation rid=\"B82-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1101/gad.187328.112\" pmid=\"22431510\" pmcid=\"PMC3323878\" count=\"1\">82</citation>]. <sentence_start/>It has been shown that variation in signaling intensity through the B-cell receptor (BCR), CD40R, and BAFF could lead to immunological dysregulation and self-tolerance loss, besides modulating the B cells\u2019 destiny [<citation rid=\"B83-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1159/000082084\" pmid=\"15564715\" count=\"1\">83</citation>]. <sentence_start/>B-cell-activating factor (BAFF) is a tumor necrosis factor (TNF) ligand family member. <sentence_start/>It stimulates the interleukin (IL-2) and interferon (INF)-\u03b3 production in the CD4+ T cells and the peripheral blood mononuclear cell proliferation [<citation rid=\"B84-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1093/rheumatology/kev420\" pmid=\"26790457\" count=\"1\">84</citation>]. <sentence_start/>In agreement with the latter data, immunoglobulin G (IgG) and immunoglobulin M (IgM) against melanocytes were found in 80% of vitiligo patients [<citation rid=\"B85-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1111/1523-1747.ep12492607\" pmid=\"1748818\" count=\"1\">85</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Despite the genetic variant usually associated with higher levels of HLA-G (rs9380142/G) being present in the interaction, the second variant (rs2114511/G) is associated with lower expression of LILRB1 [<citation rid=\"B86-cells-12-00630\" ref-type=\"bibr\" doi=\"10.1101/2021.04.21.21255872\" count=\"1\">86</citation>]. <sentence_start/>In other words, it is no use to have the molecule (HLA-G) if we do not have the receptor (LILRB1) once that immune response is reached from binding between both molecules. <sentence_start/>These findings agree with a study that has observed a negative correlation between HLA-G expression and vitiligo risk [<citation rid=\"B87-cells-12-00630\" ref-type=\"bibr\" doi=\"10.4103/0019-5154.60346\" pmid=\"20418972\" pmcid=\"PMC2856368\" count=\"1\">87</citation>] and with the general idea that a lower HLA-G expression or function would be correlated with autoimmunity."
+  },
+  {
+   "section": "article",
+   "text": "Considering that de novo HLA-G expression at high levels could support an immunosuppressive response in pathological conditions, such as cancer and viral infections, and the HLA-G downregulation expression could impair the HLA-G mediated control of the immune response leading to autoimmunity [<citation rid=\"B88-cells-12-00630\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2014.00592\" pmid=\"25477881\" pmcid=\"PMC4235267\" count=\"1\">88</citation>], the correlation between higher HLA-G and lower LILRB1 levels and vitiligo is here suggested as a hypothesis of a mechanism associated with impaired control of immune response at the skin level."
+  },
+  {
+   "section": "article",
+   "text": "5. Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "It may be concluded that two polymorphisms in <italic>HLA-G</italic> (rs9380142) and <italic>LILRB1</italic> (rs272423) are independently associated with nonsegmental vitiligo in the Brazilian population after adjustment for ancestry. <sentence_start/>Moreover, a consistent second-order combination involving <italic>HLA-G</italic> (rs9380142) and <italic>LILRB1</italic> (rs2114511) was identified, indicating an epistatic interaction role between <italic>HLA-G</italic> and <italic>LILRB1</italic> alleles in vitiligo pathogenesis. <sentence_start/>Nonetheless, the mechanism by which this combination affects the autoimmune response development remains to be evaluated in further studies. <sentence_start/>Finally, some limitations of the study must be indicated, such as the small vitiligo sample size, the larger proportion of females in the vitiligo group, and the lack of studies supporting a direct link between our findings and the disease development."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Disclaimer/Publisher\u2019s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). <sentence_start/>MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Materials"
+  },
+  {
+   "section": "back",
+   "text": "The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/cells12040630/s1, Table S1: Significant second-order interactions identified by MB-MDR."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "Conceptualization: M.L.d.<sentence_start/>O.-C., L.V.-C., A.S. and C.T.M.-J. Data curation: M.L.d.<sentence_start/>O.-C., R.N.C. and M.F.-S. Methodology: M.L.d.<sentence_start/>O.-C., E.C.C., L.V.-C. and A.S.S. Software: M.L.d.<sentence_start/>O.-C., A.S. and E.C.C. Validation: E.C.C. Formal analysis: M.L.d.<sentence_start/>O.-C., A.S. and C.T.M.-J. Investigation: M.L.d.<sentence_start/>O.-C., L.V.-C., E.C.C., D.C., E.D., S.G., A.S. and C.T.M.-J. Writing-original draft preparation: M.L.d.<sentence_start/>O.-C., L.V.-C., A.S. and C.T.M.-J. Writing-review and editing: M.L.d.<sentence_start/>O.-C., L.V.-C., E.C.C., D.C., E.D., A.S.S., R.N.C., M.F.-S., S.G., A.S. and C.T.M.-J. Project administration: C.T.M.-J. Funding acquisition: C.T.M.-J. All authors have read and agreed to the published version of the manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Institutional Review Board Statement"
+  },
+  {
+   "section": "back",
+   "text": "The study was conducted in accordance with the Declaration of Helsinki, and approved by the Institutional Review Board (or Ethics Committee) of UNIVERSIDADE DE S\u00c3O PAULO (protocol code 25696413.7.0000.5407) for studies involving humans."
+  },
+  {
+   "section": "back",
+   "text": "Informed Consent Statement"
+  },
+  {
+   "section": "back",
+   "text": "Informed consent was obtained from all subjects involved in the study."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "back",
+   "text": "The genetic data are available in Figshare online repository upon submission codes 14959416 (LILRB1) and4959413 (LILRB2)."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no conflict of interest. <sentence_start/>The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the result."
+  },
+  {
+   "section": "floating",
+   "text": "Figure 1"
+  },
+  {
+   "section": "floating",
+   "text": "The best MDR v.3.0.2 interaction model for vitiligo risk is shown. <sentence_start/>The number of cases (left bars) and controls (right bars) are illustrated for each genotype combination. <sentence_start/>The white cells are labeled as unknown, light gray cells are labeled as low risk, and dark gray cells are labeled as high risk."
+  }
+ ]
+}

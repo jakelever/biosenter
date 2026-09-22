@@ -1,0 +1,251 @@
+{
+ "pmid": 39091377,
+ "pmcid": 11292110,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Prediction of the binding interactions between rosmarinic acid and cysteinyl leukotriene receptor type 1 by molecular docking and immobilized receptor chromatography"
+  },
+  {
+   "section": "abstract",
+   "text": "Drug-protein interaction analysis is still at the center of research efforts to illustrate binding mechanisms and provide valuable information for selecting drug candidates with ideal properties in the early drug discovery stage. <sentence_start/>We present the prediction of the binding of rosmarinic acid (RA) to cysteinyl leukotriene receptor type1 (CysLTR1) by molecular docking. <sentence_start/>According to our findings, CysLTR1 is a potential anti-inflammatory target of RA. <sentence_start/>Under this assumption, we prepared the immobilized CysLTR1 column <italic>via</italic> a one-step method and characterized the immobilized CysLTR1 by fluorescent and chromatographic analyses. <sentence_start/>Furthermore, we used the immobilized CysLTR1 column to evaluate the binding interactions between RA and the immobilized receptor. <sentence_start/>Molecular docking showed that Tyr 249, Phe 174, Thr 280, Pro 177, and Thr 100 are the main sites for RA to interact with CysLTR1. <sentence_start/>The main forces that drive the findings are hydrogen bonds and hydrophobic interactions. <sentence_start/>Characterization results show that CysLTR1 is successfully immobilized with high specificity and stability. <sentence_start/>Almost no non-specific binding is observed on the immobilized CysLTR1 gels. <sentence_start/>The association constant and the binding sites are calculated to be 7.268 \u00d7 10<sup>5</sup> L mol<sup>\u22121</sup> and 1.237 \u00d7 10<sup>\u22128</sup> mol L<sup>\u22121</sup> by injection amount-dependent method. <sentence_start/>These results, taken together, confirm the potential target of RA on the anti-inflammatory effect. <sentence_start/>We believe that it can provide valuable reference information on the in-depth exploration of drug-protein interaction mechanisms, and lead compound screening by this method."
+  },
+  {
+   "section": "abstract",
+   "text": "Drug-protein interaction analysis is significant for illustrating the binding mechanisms and providing valuable information for selecting drug candidates with ideal properties."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Drug-protein interactions and protein-protein interactions have played pivotal roles in understanding protein functions, exploring protein mechanisms, developing new therapeutic molecules, and drug discovery.<citation rid=\"cit1\" ref-type=\"bibr\" pmid=\"35715129\" doi=\"10.1016/j.aca.2022.340012\" count=\"1\"><sup>1-4</sup></citation> <sentence_start/>Among these, the binding affinity investigations between the drugs and proteins have become the most interesting subject because of their crucial role in determining the pharmacological activity of the ligand.<citation rid=\"cit5\" ref-type=\"bibr\" pmid=\"32471269\" doi=\"10.3390/biom10060822\" pmcid=\"PMC7356288\" count=\"1\"><sup>5-9</sup></citation> <sentence_start/>Thus, increased attention has been drawn to the essential role of binding affinity investigations between drugs and proteins in discovering lead compounds."
+  },
+  {
+   "section": "article",
+   "text": "During the past few years, dramatic changes have taken place in evaluating drug-protein interactions due to the rapid development of detection technology, biotechnology, as well as instrumental technology. <sentence_start/>Commonly used methods include UV-vis absorption,<citation rid=\"cit10\" ref-type=\"bibr\" count=\"1\"><sup>10-12</sup></citation> fluorescence,<citation rid=\"cit13\" ref-type=\"bibr\" pmid=\"32743632\" doi=\"10.1039/d0ay01052a\" count=\"1\"><sup>13-15</sup></citation> circular dichroism,<citation rid=\"cit16\" ref-type=\"bibr\" pmid=\"17406547\" doi=\"10.1038/nprot.2006.202\" pmcid=\"PMC2728378\" count=\"1\"><sup>16-18</sup></citation> isothermal titration calorimetry,<citation rid=\"cit19\" ref-type=\"bibr\" doi=\"10.1016/j.copbio.2018.06.003\" pmid=\"30031160\" count=\"1\"><sup>19,20</sup></citation> and differential scanning calorimetry.<citation rid=\"cit21\" ref-type=\"bibr\" count=\"1\"><sup>21-23</sup></citation> <sentence_start/>These methods are simple to operate and do not require the separation of proteins and drugs, however, they have high requirements for the sample purity. <sentence_start/>As an alternative, capillary electrophoresis has contributed a lot to exploring the binding interactions with low consumption of samples. <sentence_start/>Notably, the calculation of mathematical formulas needs more attention because it always varies when obtaining binding parameters. <sentence_start/>Moreover, ongoing work is needed to break their limitations in long analysis time, lacking sufficient sensitivity, relatively poor selectivity, and stability."
+  },
+  {
+   "section": "article",
+   "text": "Chromatographic methods, especially receptor chromatography, have been popularized in revealing the binding interactions between drugs and receptors.<citation rid=\"cit24\" ref-type=\"bibr\" pmid=\"24666938\" doi=\"10.1016/j.chroma.2014.03.017\" count=\"1\"><sup>24,25</sup></citation> <sentence_start/>It has enabled fast analysis and specific recognition into a single analysis of the analyte, which merits the method's high speed, specificity, stability, and throughput. <sentence_start/>Thus, it is superior to the conventional methods in fields, such as obtaining drug-protein interaction parameters with high precision and reproducibility. <sentence_start/>For such purposes, frontal analysis and zonal elution were mainly used to calculate the binding parameters. <sentence_start/>However, both two methods suffer from the deficiencies of long analytical periods and a large amount of sample consumption. <sentence_start/>To overcome the shortcomings of the two methods, Zhao <italic>et al.</italic> developed an injection-amount dependent method and non-linear chromatography for fast analysis of the binding interactions between drugs and the immobilized receptors.<citation rid=\"cit24\" ref-type=\"bibr\" pmid=\"24666938\" doi=\"10.1016/j.chroma.2014.03.017\" count=\"1\"><sup>24,26</sup></citation> <sentence_start/>By using these methods, the binding interactions between the specific ligands and the immobilized \u03b2<sub>2</sub>-adrenoceptor, \u03b2<sub>1</sub>-adrenoceptor, muscarinic-3 acetylcholine receptor, <italic>etc.</italic> were investigated.<citation rid=\"cit26\" ref-type=\"bibr\" pmid=\"34365202\" doi=\"10.1016/j.chroma.2021.462443\" count=\"1\"><sup>26-28</sup></citation> <sentence_start/>The results showed high consistency with other classical methods in the literature."
+  },
+  {
+   "section": "article",
+   "text": "Rosmarinic acid (RA), a water-soluble phenolic compound, has been discovered in species of the Boraginaceae family and the Nepetoideae subfamily of the Lamiaceae family. <sentence_start/>It is usually used as a defense compound for curing inflammatory diseases.<citation rid=\"cit29\" ref-type=\"bibr\" pmid=\"35645792\" doi=\"10.3389/fphar.2022.860944\" pmcid=\"PMC9132383\" count=\"1\"><sup>29-31</sup></citation> <sentence_start/>This implies that RA has the potential to be a specific ligand of cysteinyl leukotriene receptor type 1 (CysLTR1). <sentence_start/>Herein, this work aimed to simulate the binding interaction between RA and CysLTR1 by molecular docking. <sentence_start/>Ongoing work was performed to validate the application of the immobilized CysLTR1 column in exploring the binding parameters by the injection-amount-dependent method. <sentence_start/>We believe that this strategy is promising for predictions and investigations of the bindings for other functional proteins and drugs."
+  },
+  {
+   "section": "article",
+   "text": "Experimental"
+  },
+  {
+   "section": "article",
+   "text": "Materials and instruments"
+  },
+  {
+   "section": "article",
+   "text": "Standards of pranlukast (Cat. <sentence_start/>No. ), zafirlukast (Cat. <sentence_start/>No. S80074), MK-571 (Cat. S80126), and rosmarinic acid (Cat. <sentence_start/>No. ) with purities greater than 98% were purchased from Shanghai Yuanye Bio-Technology Co., Ltd. A pre-stained protein marker (Cat. <sentence_start/>No. G2058) was bought from Wuhan Service Bio Technology Co., Ltd. Tryptone (Cat. <sentence_start/>No. LP0042) and yeast powder (Cat. <sentence_start/>No. LP0021) were purchased from Oxoid Company, UK. <sentence_start/>Macro-porous silica gel with a particle size of 7.0 \u03bcm and a core size of 300 \u00c5 was bought from Suzhou Knowledge &amp; Benefit Sphere Tech. <sentence_start/>Co., Ltd."
+  },
+  {
+   "section": "article",
+   "text": "The centrifuge, with a Cat. <sentence_start/>No. of Sorvall LYNX 4000, was used to separate the supernatant. <sentence_start/>The precipitant of the cell lysate was obtained from ThermoFisher Scientific (China) Co., Ltd. The ultrasonic cell crusher (Cat. <sentence_start/>No. JY92-IIN) was bought from Ningbo Xinzhi Biotechnology Co., Ltd, which was used to disrupt the cells that produced the target proteins. <sentence_start/>Furthermore, we used a ZZXT-A packing machine purchased from Dalian Elite Analytical Instrument Co., Ltd to prepare the immobilized CysLTR1 column. <sentence_start/>Chromatographic experiments were performed by the Shimadzu LC-2030 high-performance liquid chromatography apparatus with an isocratic pump, an autosampler, a column temperature chamber, and a UV detector (Shimadzu Inc., Japan)."
+  },
+  {
+   "section": "article",
+   "text": "Molecular simulations"
+  },
+  {
+   "section": "article",
+   "text": "The crystal structure of CysLTR1 was downloaded from the Protein Data Bank (PDB ID: 6RZ5). <sentence_start/>We kept the receptor in rigid mode for the simulation process. <sentence_start/>The pre-bonded small ligands, such as zafirlukast, water, and ions, were removed by PyMOL. <sentence_start/>The crystal structure was pre-treated by adding polar hydrogens and Gasteiger charges before docking. <sentence_start/>For the three drugs and the screened bioactive compound, the structures were generated by ChemDraw Ultra 8.0. <sentence_start/>A rectangular box enclosing the ligand-binding site of zafirlukast in CysLTR1 was applied as the sampling space for docking. <sentence_start/>The size for the grid box was set as 60 \u00c5 \u00d7 60 \u00c5 \u00d7 60 \u00c5. <sentence_start/>We performed three independent docking runs and selected the binding pose with the lowest docking score. <sentence_start/>We analyzed and visualized the receptor-ligand complex using Discovery Studio 4.5."
+  },
+  {
+   "section": "article",
+   "text": "Expression of Halo-tagged CysLTR1"
+  },
+  {
+   "section": "article",
+   "text": "We transformed the fused Halo-tagged CysLTR1 plasmid into <italic>Escherichia coli</italic> (<italic>E. coli</italic>) BL21(DE3) cells by the heat-shock method. <sentence_start/>The cells were then spread onto a 25 mL Luria-Bertani (LB) agar plate and incubated overnight at 37 \u00b0C with ampicillin at a final concentration of 100 \u03bcg mL<sup>\u22121</sup>. <sentence_start/>The next day, we picked up a single colony and transferred it into 150 mL of LB medium for another round of growth at 37 \u00b0C under an ampicillin atmosphere. <sentence_start/>After that, the cells were transferred into an auto-induction medium for expression of the target protein at 37 \u00b0C for 10 hours. <sentence_start/>Finally, we harvested 8.5 g of the cells by centrifugation at 4 \u00b0C for 20 min with a rotating speed of 7000 rpm. <sentence_start/>The harvested cells were then re-suspended in 20 mM phosphate buffer (PB, pH = 7.40), disrupted, and centrifuged at 4 \u00b0C for 30 min. <sentence_start/>All the samples were then collected for further use."
+  },
+  {
+   "section": "article",
+   "text": "Immobilization of CysLTR1"
+  },
+  {
+   "section": "article",
+   "text": "Using a conventional construction process from the literature,<citation rid=\"cit32\" ref-type=\"bibr\" pmid=\"29629116\" doi=\"10.1039/c7sc03887a\" pmcid=\"PMC5868316\" count=\"1\"><sup>32</sup></citation> we prepared the stationary phase by the following procedures: (1) activation of the silica gel. <sentence_start/>Briefly, 1.0 g of dried aminopropyl silica gel was weighed and transferred into a flask. <sentence_start/>The gels were then suspended in 10.0 mL of dimethylformamide (DMF) within 82.98 mg of 6-chlorohexanoic acid (1.2 eq.) and 240 \u03bcL of <italic>N</italic>,<italic>N</italic>-diisopropyl ethylamine (3.0 eq.). <sentence_start/>Sequentially, 210 mg of 2-(7-azabenzotriazol-1-yl)-<italic>N</italic>,<italic>N</italic>,<italic>N</italic>\u2032,<italic>N</italic>\u2032-tetramethyluronium hexafluorophosphate was added into the flask, and the reaction was allowed to occur for 2.0 hours at ambient temperature. <sentence_start/>After that, the gel was filtered and sequentially rinsed with DMF and 20 mM phosphate buffer (PB, pH = 7.40). <sentence_start/>(2) Immobilization of CysLTR1. <sentence_start/>The gels were re-suspended into 50 mL of the supernatant of the cell lysate containing the expressed CysLTR1. <sentence_start/>The gels were then reacted for 1.0 h to prepare the immobilized receptor. <sentence_start/>The immobilized CysLTR1 was then packed into the stainless-steel column (4.6 \u00d7 30 mm) using 20 mM PB (pH = 7.40) as slurry and propulsive agent under the pressure of 400 bar for 1 hour."
+  },
+  {
+   "section": "article",
+   "text": "Characterization of the immobilized CysLTR1"
+  },
+  {
+   "section": "article",
+   "text": "Fluorescent analysis"
+  },
+  {
+   "section": "article",
+   "text": "We prepared the bare silica gel, amino-functionalized gel, 6-chlorohexanoic acid modified gel, and CysLTR1 coated gel through the aforementioned procedures. <sentence_start/>200 \u03bcg of these gels were incubated with 1 \u03bcL of cyanine5 maleimide for 1.0 h. <sentence_start/>The gels were then washed with 20 mM PB (5.0 mL \u00d7 3) and examined under the fluorescence microscope with an excitation wavelength of 670 nm."
+  },
+  {
+   "section": "article",
+   "text": "Chromatographic analysis"
+  },
+  {
+   "section": "article",
+   "text": "Twenty millimolar PB (pH = 7.40) was taken as the mobile phase. <sentence_start/>We injected four drugs into the immobilized CysLTR1 column to test their binding behaviors on the immobilized CysLTR1 column. <sentence_start/>The injection volume and the flow rate were set to 10 \u03bcL and 0.2 mL min<sup>\u22121</sup>. <sentence_start/>The detection wavelengths were 262 nm for pranlukast, 242 nm for zafirlukast, 238 nm for MK-571, and 205 nm for sodium nitrite, respectively. <sentence_start/>Isocratic elution mode was performed during the immobilized CysLTR1 chromatography with 20 mM PB (pH = 7.40) as the elution buffer throughout the elution process. <sentence_start/>The flow rate was set the same as before. <sentence_start/>Taking zafirlukast as the probe, we tested the stability of the chromatographic system for 30 days."
+  },
+  {
+   "section": "article",
+   "text": "Binding interaction investigations"
+  },
+  {
+   "section": "article",
+   "text": "We applied the injection amount-dependent method and nonlinear chromatography to investigate the binding interactions between the drugs and the immobilized CysLTR1 at 37 \u00b0C. <sentence_start/>We prepared the stock solution in a final concentration of 5 mM for each drug. <sentence_start/>We prepared the analyte by diluting the stock solutions with 20 mM PB (pH = 7.40). <sentence_start/>The concentrations were 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, and 1.0 mM for zafirlukast; 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, and 1.0 mM for pranlukast; 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, and 1.0 mM for MK-571, and 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, and 1.1 mM for RA. <sentence_start/>After passing through the 0.45 \u03bcm filter membrane, we loaded the drugs onto the column containing the immobilized CysLTR1 in triplicates. <sentence_start/>The injection volume and the flow rate were set at 10 \u03bcL and 0.6 mL min<sup>\u22121</sup>. <sentence_start/>The wavelengths detected for the three drugs were consistent with the aforementioned ones, while for RA, it was 330 nm. <sentence_start/>The mobile phases were 50 mM PB in 2-propanol (91 : 9, V : V) for pranlukast and zafirlukast; it was 20 mM PB (pH = 7.40) for MK-571 and RA, respectively. <sentence_start/>We employed isocratic elution to investigate the binding parameters between the drugs and immobilized CysLTR1. <sentence_start/>The elution solutions and the flow rate we used here were the same as the ones mentioned before. <sentence_start/>All the chromatographic profiles were recorded, and the data were analyzed."
+  },
+  {
+   "section": "article",
+   "text": "Results and discussion"
+  },
+  {
+   "section": "article",
+   "text": "Molecular docking analysis"
+  },
+  {
+   "section": "article",
+   "text": "As reported in the literature, the ligand binding pocket of CysLTR1 extends from the extracellular loop2(ECL2) across the receptor toward a gap between the transmembrane helices, 4 (TM4) and 5 (TM5), then deep into the middle part of the TM 7.<citation rid=\"cit33\" ref-type=\"bibr\" pmid=\"31633023\" doi=\"10.1126/sciadv.aax2518\" pmcid=\"PMC6785256\" count=\"1\"><sup>33</sup></citation> <sentence_start/>Tyr 104 and Tyr 249 residues that are located at the ECL2 sections are demonstrated to create polar interactions with the ligand. <sentence_start/>Arg 79 on the side chain is proven to participate in the formation of salt bridges and is involved in hydrophobic interactions with the ligands. <sentence_start/>Furthermore, some amino acids in the CysLTR1, <italic>i.e.</italic>, Phe 158, Tyr 108, Ser 155, Leu 189, His 190, Arg 253, His 256, Pro 176, Val 277, Thr 100, and Leu 281, were involved in the binding pockets and were identified as major sites for the binding of ligands by hydrogen bonds and hydrophobic interactions."
+  },
+  {
+   "section": "article",
+   "text": "The chemical structures, 3D and 2D overviews of the molecular simulations, between RA, pranlukast, zafirlukast, MK-571, and CysLTR1 are displayed in Fig. <sentence_start/>1. <sentence_start/>The results revealed that specific interactions occurred between RA and CysLTR1. <sentence_start/>The amino residues, Phe 174, Thr 280, Pro177, and Tyr 249 on CysLTR1 participated in the formation of hydrogen bonds with RA. <sentence_start/>While Leu 281, Arg 253, Val 277, and Thr 100, mainly interacted with RA by hydrophobic interactions through the benzene ring of RA. <sentence_start/>Meanwhile, we found that hydrogen bonds, van der Waals force, and hydrophobic interactions were the main driving forces for pranlukast, zafirlukast, and MK-571 to bind to CysLTR1. <sentence_start/>The residues were located all around the binding pocket of the receptor. <sentence_start/>Taken together, these results demonstrated that the specific binding sites of RA to CysLTR1 were consistent with the results from the literature, reminding us that RA is a potential anti-inflammatory ligand of CysLTR1."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Molecular docking analysis of the binding interaction between the four drugs and CysLTR1. <sentence_start/>(A1-D1), chemical structures of rosmarinic acid, pranlukast, zafirlukast and MK-571. <sentence_start/>(A2-D2) and (A3-D3) were 3D and 2D overviews of the binding interactions between the four drugs and CysLTR1 by molecular docking. <sentence_start/>The receptor was shown as ribbon and the drugs were displayed as spheres."
+  },
+  {
+   "section": "article",
+   "text": "Expression of Halo-tagged CysLTR1"
+  },
+  {
+   "section": "article",
+   "text": "As a fundamental step, the expression of the target proteins plays a pivotal role in the preparation of functional protein columns for subsequent investigations, especially regarding the largest <italic>trans</italic>-membrane protein family members: G protein-coupled receptors. <sentence_start/>In this work, we expressed the Halo-tagged CysLTR1 by a previously reported method.<citation rid=\"cit34\" ref-type=\"bibr\" pmid=\"33383241\" doi=\"10.1016/j.chroma.2020.461835\" count=\"1\"><sup>34</sup></citation> <sentence_start/>A prokaryotic system, <italic>Escherichia coli</italic> (<italic>E. coli</italic>) cell, was used to express the target protein because it benefits the method of low cost and fast growth rate. <sentence_start/>Briefly, a heat-shock method was used to transform the fused Halo-tagged CysLTR1 plasmid into the <italic>E. coli</italic> BL21 (DE3) cells. <sentence_start/>According to the conventional target protein expression manual, the Halo-tagged CysLTR1 was induced in an LB medium at different temperatures using varied concentrations of isopropyl-beta-<sc>d</sc>-thiogalactopyranoside (IPTG) as the inducer. <sentence_start/>However, the outcome was not satisfying because the target protein cannot be expressed very well by using such a method. <sentence_start/>We attributed this result to the low stability and the aggregation of the recombinant protein by using the methods mentioned above. <sentence_start/>As an alternative, the auto-induction medium was applied to replace the conventional IPTG-based induction due to its simple and soluble expression.<citation rid=\"cit35\" ref-type=\"bibr\" pmid=\"29775664\" doi=\"10.1016/j.pep.2018.05.008\" count=\"1\"><sup>35,36</sup></citation> <sentence_start/>When the target recombinant protein is in a soluble and biologically active form, the inefficient refolding of the protein can be ignored, and thus, it has been proven to be advantageous to use the target protein as a template."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2 shows sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) analysis of the expressed Halo-tagged CysLTR1. <sentence_start/>We found that a new band appeared in the auto-induction medium located at the position corresponding to the molecular weight between 55 kDa and 75 kDa. <sentence_start/>By calculating the molecular weight of the newly appeared band, we determined it to be Halo-tagged CysLTR1 as the value highly agreed well with the theoretical molecular weight of the protein. <sentence_start/>From this point of view, we believe that the target protein has been successfully expressed. <sentence_start/>Meanwhile, we found that in comparison with the supernatant, this new band was rarely expressed in the precipitant. <sentence_start/>Even if the loading volume increased to 20 \u03bcL, there were no significant changes. <sentence_start/>We considered that this outcome is rational because the target protein is mainly expressed in soluble forms in the supernatant, therefore, it can retain its bioactivity. <sentence_start/>Thus, the content of the target band in the precipitant is very low. <sentence_start/>In brief, these findings indicate that the recombinant protein is successfully expressed in the supernatant of the cell lysate."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "SDS-PAGE analysis of CysLTR1. <sentence_start/>Lane M: protein marker, lane L<sub>1</sub>, L<sub>2</sub>: LB medium, lane A<sub>1</sub>, A<sub>2</sub>: auto-induction medium, lane S<sub>1</sub>, S<sub>2</sub>: supernatant of the cell lysate, lane P<sub>1</sub>, P<sub>2</sub>: precipitant of the cell lysate. <sentence_start/>Lane A: supernatant of the cell lysate after immobilization, lane B: supernatant of the cell lysate before immobilization. <sentence_start/>The subscript 1 and subscript 2 referred to the loading volume of the analyte as 10 \u03bcL and 20 \u03bcL."
+  },
+  {
+   "section": "article",
+   "text": "In this work, we immobilized CysLTR1 through the specific interaction between haloalkane dehalogenase and 6-chlorohexanoic acid (Fig. 3). <sentence_start/>The content of the target protein was determined by analyzing the difference in grayscale of the target protein band before- and after-immobilization by SDS-PAGE (Fig. 1). <sentence_start/>The content of the immobilized receptor percentage was calculated to be 3.86% (before) and 1.42% (after) by using a band as the internal standard. <sentence_start/>In this way, the amount of the immobilized CysLTR1 was calculated to be 18.42 mg g<sup>\u22121</sup>. <sentence_start/>Furthermore, we used fluorescent analysis and chromatographic investigations to test whether CysLTR1 was successfully immobilized onto the gel surface."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "Immobilization of CysLTR1 <italic>via</italic> one-step relying on the specific interaction between haloalkane dehalogenase and 6-chlorohexanoic acid."
+  },
+  {
+   "section": "article",
+   "text": "Fluorescent analysis"
+  },
+  {
+   "section": "article",
+   "text": "Fluorescent analysis is a frequently used method to detect biomolecules due to their high sensitivity, good reproducibility, high specificity, and ease of use.<citation rid=\"cit37\" ref-type=\"bibr\" pmid=\"36599923\" doi=\"10.1007/s00216-022-04509-2\" count=\"1\"><sup>37,38</sup></citation> <sentence_start/>It usually employs fluorophore-labeled materials, or specific antibodies to detect the concentration of the target bio-molecule using the concentration of the fluorescence intensity. <sentence_start/>Benefiting from the advantages of fluorescent analysis, it has been popularized in fields, such as chemistry, materials science, physical, medical, environmental, and biotechnological applications. <sentence_start/>Some modern techniques, such as fluorescence sensors, have been developed to detect biomolecules, such as fluorescent sensors, fluorescence microscopy, and enzyme-assisted fluorescence techniques. <sentence_start/>In this set of experiments, we intend to detect the immobilized CysLTR1 based on the fluorescent method."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4 displays the bare silica gel, amino-functionalized silica gel, 6-chlorohexanoic acid-modified gel, and CysLTR1-coated gel incubated with a specific substrate-cyanine 5 maleimide for 1.0 h. <sentence_start/>Cyanine 5 maleimide is a kind of dye that has been used to label biological molecules for fluorescence imaging and other fluorescence-based biochemical analyses. <sentence_start/>It is usually recommended for labeling thiol groups of the molecules. <sentence_start/>Herein, we used it to label the immobilized CysLTR1 onto the surface of the silica gel. <sentence_start/>We found that rare fluorescent signals appear in the bare silica gel, amino-functionalized silica gel, as well as 6-chlorohexanoic acid-modified gel. <sentence_start/>Compared with these samples, CysLTR1-modified silica gel showed significant fluorescent signals. <sentence_start/>The result was justified because only the structures of Halo-tagged CysLTR1 contained thiol groups, thus it can be labeled, while the other three groups could not be labeled. <sentence_start/>Thus, we believed that Halo-tagged CysLTR1 was successfully immobilized onto the gel surface."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "Characterization of the immobilized CysLTR1. <sentence_start/>(1) Fluorescent analysis of the bare silica gel (A), amino-functionalized gel (B), 6-chlorohexanoic acid modified gel (C), and CysLTR1 coated gel (D) with the magnification of 200\u00d7. (2) specificity characterization (E) of the immobilized CysLTR1 column. <sentence_start/>a, b, c, and d were sodium nitrite, zafirlukast, MK-571, and pranlukast on the immobilized CysLTR1 column; (F) representative chromatograms of zafirlukast on the CysLTR1 column in 30 days."
+  },
+  {
+   "section": "article",
+   "text": "Chromatographic analysis"
+  },
+  {
+   "section": "article",
+   "text": "We investigated the specificity of the immobilized CysLTR1 column by testing the capacity factors of pranlukast, zafirlukast, and MK-571 on the column with the values on the control column, which was packed with bare silica gel as the stationary phase. <sentence_start/>No substantial differences were observed in the capacity factors for these columns, suggesting that nonspecific interactions rarely occurred between the drugs and the immobilized CysLTR1. <sentence_start/>The specificity of the column containing the immobilized CysLTR1 was tested by determining the chromatographic profiles and the retention times of the three drugs on the immobilized CysLTR1 column. <sentence_start/>The representative chromatographic profiles of sodium nitrite, pranlukast, zafirlukast, and MK-571 are depicted in Fig. 4. <sentence_start/>We found that the four drugs presented different retention times on the immobilized CysLTR1 column. <sentence_start/>Meanwhile, the retention times of the three drugs, pranlukast, zafirlukast, and MK-571, were all longer than the retention time of sodium nitrite. <sentence_start/>This result is reasonable because sodium nitrite is a non-specific ligand of CysLTR1. <sentence_start/>Thus, we attributed the retention time of sodium nitrite to the void time of the chromatographic system. <sentence_start/>In addition, the other three drugs presented longer, but varied, retention times than sodium nitrite. <sentence_start/>Retention times were 0.298 min for sodium nitrite, 5.281 min for zafirlukast, 7.234 min for MK-571, and 8.358 min for pranlukast, respectively. <sentence_start/>This result is rational as the three drugs behaved as specific ligands of CysLTR1. <sentence_start/>From this aspect, we reasoned that variation in the retention times confirmed that the immobilized receptor still retained specificity for its ligands after immobilization and packing into the stainless-steel column."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, the stability of the immobilized CysLTR1 column was tested using MK-571 as a probe. <sentence_start/>We tested it by injecting the drug into the column for 30 consecutive 30 days. <sentence_start/>The representative chromatograms of MK-571 on the immobilized CysLTR1 column are depicted in Fig. 4F. <sentence_start/>The results demonstrate that no observable difference emerged in either the chromatographic profiles or the retention times of the drug. <sentence_start/>It proved that the column containing the immobilized CysLTR1 can be stable for at least 30 days. <sentence_start/>The column could be re-used for as many as 900 injections. <sentence_start/>The relative standard deviation of the retention times for MK-571 was 0.5%. <sentence_start/>In this case, the immobilized CysLTR1 proved to be stable for at least 30 days with a sampling efficiency of 900 injections. <sentence_start/>Such results provide evidence of the stability of the column. <sentence_start/>Taken together, the immobilized CysLTR1 column was proved to be stable for at least one month."
+  },
+  {
+   "section": "article",
+   "text": "Binding interaction analysis"
+  },
+  {
+   "section": "article",
+   "text": "The binding and elution of the drug on the immobilized receptor chromatography is similar to the absorption and desorption processes <italic>in vivo</italic>. <sentence_start/>Thus, we studied the immobilized CysLTR1 to investigate the binding interaction between drugs and the receptor. <sentence_start/>In this situation, isocratic elution was used to allow a single mobile phase to be used for both sample application and elution in the immobilized CysLTR1 column. <sentence_start/>The elution buffer we used was the same as the mobile phase to illustrate the binding interactions by the injection-amount-dependent method. <sentence_start/>It is believed to be a convenient and reliable method that was first proposed in 2014. <sentence_start/>Unlike frontal analysis and zonal elution,<citation rid=\"cit39\" ref-type=\"bibr\" doi=\"10.1016/s0378-4347(01)00482-0\" pmid=\"11939555\" count=\"1\"><sup>39,40</sup></citation> this method does not need to saturate the binding sites of the immobilized CysLTR1 column, thus it is time- and less labor-intensive. <sentence_start/>When using this method to explore the binding parameters of the given drug, we usually assume that the binding of the drug to the immobilized receptor occurs rapidly. <sentence_start/>The adsorption sites are homogeneously distributed on the surface of the stationary phase, while the longitudinal diffusion can be ignored. <sentence_start/>Therefore, we can obtain the association constants from eqn (1) using the relationship between the molar amount of the injected solute and its capacity factor: <italic>k</italic>\u2032 represents the capacity factor of the tested drugs on the immobilized CysLTR1 column. <sentence_start/><italic>n</italic><sub>b</sub>, <italic>K</italic><sub>A</sub>, and <italic>V</italic><sub>m</sub> stand for the molar amount of one injection, the association constant, and the void volume of the chromatographic system. <sentence_start/><italic>n</italic><sub>a</sub> denotes the total amount of the binding sites of the drug on the column. <sentence_start/>From eqn (1), a linear regression relationship between and <italic>k</italic>\u2032 appears. <sentence_start/>Thus, we can obtain the association constant and the number of binding sites through the slope and the intercept of the linear relationship. <sentence_start/>In this set of experiments, we injected a series of concentrations of drugs into the column containing immobilized CysLTR1. <sentence_start/>Representative chromatograms of the four drugs with different concentrations of each drug injected into the immobilized CysLTR1 column are presented in Fig. 5 under the proposed chromatographic conditions. <sentence_start/>We found that though the concentration of each drug on the immobilized CysLTR1 column varied, the chromatograms were all similar with a tailing peak. <sentence_start/>Meanwhile, the retention time of each drug decreased when the injection concentration of the drug increased. <sentence_start/>The variations in the capacity factors of each drug negatively corresponded to the increased concentration of the drug. <sentence_start/>This phenomenon is reasonable as the active binding sites of the immobilized CysLTR1 in the column are constant. <sentence_start/>With the increasing concentration of the injected drugs, a decreased retention time was observed on the column. <sentence_start/>This result agrees well with the assumption of the injection amount-dependent method. <sentence_start/>Thus, using eqn (1), the linear relationships between <italic>k</italic>\u2032<italic>n</italic><sub>b</sub>/(1 + <italic>k</italic>\u2032) <italic>versus k</italic>\u2032<italic>V</italic><sub>m</sub> for the four drugs are depicted in Fig. 6. <sentence_start/>Based on the equations, the association constant, and the number of binding sites are calculated to be 2.193 \u00d7 10<sup>5</sup> L mol<sup>\u22121</sup>, 2.299 \u00d7 10<sup>\u22128</sup> mol L<sup>\u22121</sup> for zafirlukast, 4.789 \u00d7 10<sup>5</sup> L mol<sup>\u22121</sup>, 2.598 \u00d7 10<sup>\u22128</sup> mol L<sup>\u22121</sup> for pranlukast, 4.272 \u00d7 10<sup>5</sup> L mol<sup>\u22121</sup>, 2.094 \u00d7 10<sup>\u22128</sup> mol L<sup>\u22121</sup> for MK-571, and 7.268 \u00d7 10<sup>5</sup> L mol<sup>\u22121</sup>, 1.237 \u00d7 10<sup>\u22128</sup> mol L<sup>\u22121</sup> for RA, respectively. <sentence_start/>The order in which the association constants of the three ligands could be ranked for the immobilized CysLTR1 is pranlukast &gt; MK-571 &gt; zafirlukast, which agrees well with the references. <sentence_start/>Thus, we believe that the established immobilized CysLTR1 chromatography can be used for exploring the binding parameters of drugs."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 5"
+  },
+  {
+   "section": "article",
+   "text": "Representative chromatograms of the four ligands on the immobilized CysLTR1 column. <sentence_start/>The concentrations were 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 and 1.0 mm for zafirlukast (A), 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 and 1.0 mm for pranlukast (B), 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 and 1.0 mm for MK-571 (C), 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, and 1.1 mm for rosmarinic acid (D). <sentence_start/>The detection wavelength was 242 nm, 262 nm, 238 nm, and 330 nm for the four drugs, respectively. <sentence_start/>The flow rate and the injection volume were set as 0.6 mL min<sup>\u22121</sup> and 10 \u03bcL."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 6"
+  },
+  {
+   "section": "article",
+   "text": "The plots of <italic>k</italic>\u2032<italic>n</italic><sub>b</sub>/(1 + <italic>k</italic>\u2032) <italic>versus k</italic>\u2032<italic>V</italic><sub>m</sub> for the zafirlukast (A), pranlukast (B), MK-571 (C), and rosmarinic acid (D) on the immobilized CysLTR1 column determined by injection of various concentration of each drug. the equations of the best-fit lines were <italic>y</italic> = \u22124.02 \u00d7 10<sup>\u2212 6</sup><italic>x</italic> + 2.30 \u00d7 10<sup>\u22128</sup> for zafirlukast; <italic>y</italic> = \u22122.09 \u00d7 10<sup>\u2212 6</sup><italic>x</italic> + 2.6 \u00d7 10<sup>\u22128</sup> for pranlukast; <italic>y</italic> = \u22122.43 \u00d7 10<sup>\u2212 6</sup><italic>x</italic> + 2.11 \u00d7 10<sup>\u22128</sup> for MK-571, and <italic>y</italic> = \u22121.376 \u00d7 10<sup>\u2212 6</sup><italic>x</italic> + 1.24 \u00d7 10<sup>\u22128</sup> for rosmarinic acid. the corresponding correlation coefficient were 0.9686, 0.9511, 0.9674, and 0.9771 for the four drugs, respectively."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Herein, in this work, we predicted and investigated the potential binding of rosmarinic acid to CysLTR1 using molecular docking and injection amount-dependent methods. <sentence_start/>It was found that Phe 158, Tyr 108, Ser 155, Leu 189, His 190, Arg 253, His 256, Pro 176, Val 277, Thr 100, and Leu 281 on CysLTR1 were the main amino acid residues that participated in the binding of drugs to the receptor. <sentence_start/>The feasibility of the immobilized CysLTR1 column was investigated by injection-amount dependent method to explore the binding parameters of the four drugs. <sentence_start/>The results reveal that it has the potential to become a powerful tool for the design and screening of important compounds that specifically bind to the target protein by immobilized receptor chromatography."
+  },
+  {
+   "section": "article",
+   "text": "Data availability"
+  },
+  {
+   "section": "article",
+   "text": "The data that support the findings of this study are available from the corresponding author upon reasonable request."
+  },
+  {
+   "section": "article",
+   "text": "Author contributions"
+  },
+  {
+   "section": "article",
+   "text": "Bowen Shi: methodology, investigation, data curation, validation, writing original draft. <sentence_start/>Jing Wang: conceptualization, methodology, validation, formal analysis, supervision, funding acquisition."
+  },
+  {
+   "section": "article",
+   "text": "Conflicts of interest"
+  },
+  {
+   "section": "article",
+   "text": "There are no conflicts to declare."
+  }
+ ]
+}

@@ -1,0 +1,451 @@
+{
+ "pmid": 23577075,
+ "pmcid": 3618444,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Autocrine Regulation of Macrophage Activation via Exocytosis of ATP and Activation of P2Y11 Receptor"
+  },
+  {
+   "section": "abstract",
+   "text": "It is important to understand the mechanisms that regulate macrophage activation to establish novel therapies for inflammatory diseases, such as sepsis; a systemic inflammatory response syndrome generally caused by bacterial lipopolysaccharide (LPS). <sentence_start/>In this study, we investigated the involvement of extracellular ATP-mediated autocrine signaling in LPS-induced macrophage activation. <sentence_start/>We show here that ATP release via exocytosis, followed by activation of P2Y11 receptor, is a major pathway of the macrophage activation, leading to release of cytokines. <sentence_start/>Treatment of human monocyte THP-1 cells with LPS induced rapid ATP release from cells, and this release was blocked by knockdown of SLC17A9 (vesicular nucleotide transporter, VNUT), which is responsible for exocytosis of ATP. <sentence_start/>ATP-enriched vesicles were found in cytosol of THP-1 cells. <sentence_start/>These data suggest the involvement of vesicular exocytosis in the release of ATP. <sentence_start/>Knockdown of SLC17A9, the P2Y11 antagonist NF157 or knockdown of P2Y11 receptor significantly suppressed both M1-type polarization and IL-6 production in THP-1 cells, indicating an important role of activation of P2Y11 receptor by released ATP in macrophage activation. <sentence_start/>Next, the effect of NF157 on LPS-induced immune activation was examined <italic>in vivo</italic>. <sentence_start/>Administration of LPS to mice caused increase of serum IL-1\u00df, IL-6, IL-12 and TNF-alpha levels at 3-24 h after the administration. <sentence_start/>Pre-treatment of LPS-treated mice with NF157 suppressed both elevation of proinflammatory cytokines in serum and M1 polarization of peritoneal/spleen macrophages. <sentence_start/>Moreover, post-treatment with NF157 at 30 min after administration of LPS also suppressed the elevation of serum cytokines levels. <sentence_start/>We conclude that vesicular exocytosis of ATP and autocrine, positive feedback through P2Y11 receptors is required for the effective activation of macrophages. <sentence_start/>Consequently, P2Y11 receptor antagonists may be drug candidates for treatment of inflammatory diseases such as sepsis."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Sepsis is a systemic inflammatory response syndrome induced by microbial infection. <sentence_start/>It is generally caused by Gram-negative bacterial endotoxins or lipopolysaccharide (LPS), and is characterized by severe shock and multiple organ failure <citation rid=\"pone.0059778-Cohen1\" ref-type=\"bibr\" pmid=\"12490963\" doi=\"10.1038/nature01326\" count=\"1\">[1]</citation>, <citation rid=\"pone.0059778-Kilbourn1\" ref-type=\"bibr\" pmid=\"7692299\" doi=\"10.1056/NEJM199311043291916\" count=\"1\">[2]</citation>. <sentence_start/>Although the pathogenesis of sepsis-induced lethal shock and multiple organ injury leading to death is incompletely understood, current theory holds that a hyperactive and out-of-balance network of endogenous proinflammatory cytokines contributes to mortality and morbidity in sepsis <citation rid=\"pone.0059778-Hotchkiss1\" ref-type=\"bibr\" pmid=\"12519925\" doi=\"10.1056/NEJMra021333\" count=\"1\">[3]</citation>, <citation rid=\"pone.0059778-Riedemann1\" ref-type=\"bibr\" pmid=\"12925683\" doi=\"10.1172/JCI19523\" pmcid=\"PMC171398\" count=\"1\">[4]</citation>. <sentence_start/>Indeed, dysregulation in cytokine networking is thought to play a fundamental role in the outcome of sepsis. <sentence_start/>The current therapeutic strategies for human septic shock are designed to neutralize one or more of the inflammatory mediators, yet effective treatment modalities remain elusive <citation rid=\"pone.0059778-Hotchkiss1\" ref-type=\"bibr\" pmid=\"12519925\" doi=\"10.1056/NEJMra021333\" count=\"1\">[3]</citation>, <citation rid=\"pone.0059778-Glauser1\" ref-type=\"bibr\" doi=\"10.2165/00003495-199600522-00004\" pmid=\"8869831\" count=\"1\">[5]</citation>. <sentence_start/>In fact, the incidence of sepsis is currently estimated to be \u223c750,000 annually in the United States alone, with a mortality rate of about 30%, and its incidence is continuing to increase <citation rid=\"pone.0059778-Angus1\" ref-type=\"bibr\" pmid=\"11445675\" doi=\"10.1097/00003246-200107000-00002\" count=\"1\">[6]</citation>, <citation rid=\"pone.0059778-Martin1\" ref-type=\"bibr\" pmid=\"12700374\" doi=\"10.1056/NEJMoa022139\" count=\"1\">[7]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Blood monocytes and macrophages play a central role in complex innate immune responses to infections, which influence the development of Th1/Th2 adaptive immunity <citation rid=\"pone.0059778-Spellberg1\" ref-type=\"bibr\" pmid=\"11118387\" doi=\"10.1086/317537\" count=\"1\">[8]</citation>. <sentence_start/>Macrophages are highly versatile phagocytic cells whose diverse effector functions can be selectively reprogrammed by an array of environmental signals <citation rid=\"pone.0059778-Nathan1\" ref-type=\"bibr\" pmid=\"6411853\" doi=\"10.1084/jem.158.3.670\" pmcid=\"PMC2187114\" count=\"1\">[9]</citation>, <citation rid=\"pone.0059778-Stein1\" ref-type=\"bibr\" pmid=\"1613462\" doi=\"10.1084/jem.176.1.287\" pmcid=\"PMC2119288\" count=\"1\">[10]</citation>, <citation rid=\"pone.0059778-Zhang1\" ref-type=\"bibr\" pmid=\"8426119\" doi=\"10.1084/jem.177.2.511\" pmcid=\"PMC2190891\" count=\"1\">[11]</citation>. <sentence_start/>The two major macrophage phenotypes are the classic pro-inflammatory M1 and the alternative anti-inflammatory M2 phenotypes <citation rid=\"pone.0059778-Gordon1\" ref-type=\"bibr\" pmid=\"12511873\" doi=\"10.1038/nri978\" count=\"1\">[12]</citation>, <citation rid=\"pone.0059778-Martinez1\" ref-type=\"bibr\" doi=\"10.1146/annurev.immunol.021908.132532\" pmid=\"19105661\" count=\"1\">[13]</citation>. <sentence_start/>The M1 phenotype is induced in response to microbial products such as LPS or proinflammatory cytokines, including IFN-gamma and TNF-alpha. <sentence_start/>M1 macrophages up-regulate proinflammatory cytokines, including TNF-alpha, interleukin (IL)-6, and IL-12, and are associated with increased production of reactive oxygen species (ROS) and nitrogen intermediates <citation rid=\"pone.0059778-Gordon2\" ref-type=\"bibr\" pmid=\"17972350\" doi=\"10.1002/eji.200737638\" count=\"1\">[14]</citation>. <sentence_start/>It has been demonstrated that M1 phenotype induction is related to the severity of sepsis <citation rid=\"pone.0059778-Mehta1\" ref-type=\"bibr\" pmid=\"15489634\" doi=\"10.1097/01.shk.0000142184.49976.0c\" count=\"1\">[15]</citation>. <sentence_start/>In patients with severe sepsis, high concentrations of circulating M1-type cytokines are strongly correlated with mortality <citation rid=\"pone.0059778-Bozza1\" ref-type=\"bibr\" pmid=\"17448250\" doi=\"10.1186/cc5783\" pmcid=\"PMC2206478\" count=\"1\">[16]</citation>. <sentence_start/>Macrophages from these patients produce high levels of type 1 cytokines and chemokines that activate the endothelium and contribute to cardiac failure, loss of general organ perfusion, and death <citation rid=\"pone.0059778-LopezBojorquez1\" ref-type=\"bibr\" doi=\"10.1016/j.arcmed.2004.07.006\" pmid=\"15631870\" count=\"1\">[17]</citation>. <sentence_start/>To establish novel therapies for inflammatory diseases including sepsis, it is important to understand the mechanisms that regulate macrophage activation. <sentence_start/>Although the mechanism of macrophage activation has been well investigated, an autocrine signaling in the activation process is not established."
+  },
+  {
+   "section": "article",
+   "text": "Recently, extracellular nucleotides, such as ATP or UTP, have been identified as damage-associated molecular pattern molecules (DAMPs), which activate innate immune systems. <sentence_start/>Extracellular nucleotides activate P2 receptors, which are classified into two subfamilies, ionotropic P2X1-7 and G-protein coupled P2Y1-14 receptors <citation rid=\"pone.0059778-Burnstock1\" ref-type=\"bibr\" pmid=\"18853040\" doi=\"10.1590/s0100-879x2008005000037\" count=\"1\">[18]</citation>. <sentence_start/>Activation of P2 receptors is important for immune functions. <sentence_start/>For example, ATP-induced activation of P2X7 receptor plays a critical role in release of IL-1\u00df from LPS-primed macrophages <citation rid=\"pone.0059778-Grahames1\" ref-type=\"bibr\" pmid=\"10482924\" doi=\"10.1038/sj.bjp.0702732\" pmcid=\"PMC1566177\" count=\"1\">[19]</citation>. <sentence_start/>ATP is released from macrophages stimulated with various pathogen-associated molecular patterns (PAMPs) and extracellular ATP is one of the most pleiotropic inflammasome activators <citation rid=\"pone.0059778-Piccini1\" ref-type=\"bibr\" pmid=\"18523012\" doi=\"10.1073/pnas.0709684105\" pmcid=\"PMC2430360\" count=\"1\">[20]</citation>, <citation rid=\"pone.0059778-Sutterwala1\" ref-type=\"bibr\" pmid=\"16546100\" doi=\"10.1016/j.immuni.2006.02.004\" count=\"1\">[21]</citation>. <sentence_start/>Although it is well known that large amounts of nucleotides are released from dead cells, living cells also release nucleotides via non-lytic mechanisms, such as maxianion channels, anion transporter, hemichannels, or exocytosis, in response to various stimuli <citation rid=\"pone.0059778-Corriden1\" ref-type=\"bibr\" pmid=\"20068232\" doi=\"10.1126/scisignal.3104re1\" pmcid=\"PMC3085344\" count=\"1\">[22]</citation>. <sentence_start/>Recently, we have shown that vesicular exocytosis of ATP and activation of P2X7 and P2Y6 receptors play an important role in activation of T cells <citation rid=\"pone.0059778-Tsukimoto1\" ref-type=\"bibr\" pmid=\"19426712\" doi=\"10.1016/j.bbrc.2009.05.011\" count=\"1\">[23]</citation>. <sentence_start/>However, although ATP release from macrophages has been reported <citation rid=\"pone.0059778-Sperlagh1\" ref-type=\"bibr\" pmid=\"9759915\" doi=\"10.1016/s0197-0186(98)00025-4\" count=\"1\">[24]</citation>, it has not yet been established whether this occurs via exocytosis. <sentence_start/>In this connection, SLC17A9 has been identified as a vesicular nucleotide transporter (VNUT), which plays a key role in vesicular storage of ATP <citation rid=\"pone.0059778-Sawada1\" ref-type=\"bibr\" pmid=\"18375752\" doi=\"10.1073/pnas.0800141105\" pmcid=\"PMC2311367\" count=\"1\">[25]</citation>. <sentence_start/>It mediates the active accumulation of nucleotides, driven by an electrochemical gradient of protons across the membrane, generated by vacuolar proton-ATPase. <sentence_start/>SLC17A9 is responsible for exocytosis of ATP, in the form of ATP-containing vesicles, and is expressed in PC12 cells, type II taste cells, biliary epithelial cells, T lymphocytes, and lung cancer cells <citation rid=\"pone.0059778-Sawada1\" ref-type=\"bibr\" pmid=\"18375752\" doi=\"10.1073/pnas.0800141105\" pmcid=\"PMC2311367\" count=\"1\">[25]</citation>, <citation rid=\"pone.0059778-Iwatsuki1\" ref-type=\"bibr\" pmid=\"19619506\" doi=\"10.1016/j.bbrc.2009.07.069\" count=\"1\">[26]</citation>, <citation rid=\"pone.0059778-Sathe1\" ref-type=\"bibr\" pmid=\"21613220\" doi=\"10.1074/jbc.M111.232868\" pmcid=\"PMC3137107\" count=\"1\">[27]</citation>, <citation rid=\"pone.0059778-Tokunaga1\" ref-type=\"bibr\" pmid=\"20382737\" doi=\"10.1074/jbc.M110.112417\" pmcid=\"PMC2878504\" count=\"1\">[28]</citation>, <citation rid=\"pone.0059778-Takai1\" ref-type=\"bibr\" doi=\"10.1242/jcs.104976\" pmid=\"22946048\" count=\"1\">[29]</citation>. <sentence_start/>However, expression of SLC17A9 and vesicular exocytosis of ATP have not been reported in macrophages."
+  },
+  {
+   "section": "article",
+   "text": "As we are interested in finding new therapeutic targets for treatment of inflammatory diseases such as sepsis, in this study we investigated the involvement of extracellular nucleotides-mediated autocrine signaling via exocytosis and activation of P2 receptors in macrophage activation. <sentence_start/>Our findings indicate that LPS-induced activation of macrophages is mediated, at least in part, by ATP release via exocytosis and activation of P2Y11 receptor, and this pathway is involved in the increased production of cytokines by activated macrophages. <sentence_start/>Therefore, we propose that P2Y11 antagonists may be candidate anti-inflammatory drugs for the treatment of sepsis or other inflammatory diseases."
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "Reagents and Antibody"
+  },
+  {
+   "section": "article",
+   "text": "RPMI1640 medium was purchased from Wako Pure Chemical. <sentence_start/>FBS was purchased from Biowest. <sentence_start/>Bafilomycin A, brefeldin A (BFA), carbenoxolone (CBX), clopidgrel, 18-glycyrrhetinic acid (18GA), flufenamic acid (FFA), glibenclamide, GdCl<sub>3</sub>, apyrase, PPADS, suramin, and LPS were purchased from Sigma-Aldrich. <sentence_start/>MRS2179, MRS2211, MRS2578, NF157, KH7 and A438079 were from Tocris Bioscience. <sentence_start/>NF449 was from Abcam. <sentence_start/>IFN-gamma was purchased from Roche Applied Science. <sentence_start/>Rabbit polyclonal anti-SLC17A9 antibody was generated by Prof. Moriyama (University of Okayama)."
+  },
+  {
+   "section": "article",
+   "text": "Cell Culture"
+  },
+  {
+   "section": "article",
+   "text": "THP-1 human acute monocytic leukemia cells (ATCC) or mouse macrophage RAW264.7 cells (ATCC) were grown in RPMI1640 medium, supplemented with 10% fetal bovine serum, penicillin (100 units/mL) and streptomycin (100 \u00b5g/mL) in a humidified atmosphere of 5% CO<sub>2</sub> in air at 37\u00b0C. <sentence_start/>THP-1 cells were cultured in RPMI 1640 media with 1 \u00b5g/ml LPS from <italic>Escherichia coli</italic> serotype 055:B5 (Sigma-Aldrich) and 1000 U/ml mouse IFN-gamma (R&amp;D Systems) to generate M1 macrophages."
+  },
+  {
+   "section": "article",
+   "text": "Determination of Extracellular ATP Concentration"
+  },
+  {
+   "section": "article",
+   "text": "THP-1 cells were washed and resuspended in RPMI1640-based buffer, containing 102 mM NaCl, 5 mM KCl, 0.4 mM CaCl<sub>2</sub>, 0.4 mM MgSO<sub>4</sub>, 23.8 mM NaHCO<sub>3</sub>, 5.6 mM Na<sub>2</sub>HPO<sub>4</sub>, 11.1 mM glucose and 10 mM HEPES-NaOH (pH 7.4), then 40 \u00b5L aliquots of THP-1 cells (1.0\u00d710<sup>6</sup> cells/mL) were stimulated with LPS (10 \u00b5g/mL) and the extracellular ATP concentration was measured using ENLITEN\u00ae rLuciferase/Luciferin Reagent (Promega). <sentence_start/>At the indicated time points, each sample was centrifuged at 800\u00d7g for 1 min and 10 \u00b5L of the supernatant was collected for ATP determination. <sentence_start/>The luciferin-luciferase reagent (100 \u00b5L) was injected into the supernatant and chemiluminescence was measured with a WALLAC ARVO SX multilabel counter (PerkinElmer). <sentence_start/>ATP concentration in each sample was determined by comparing the luminescence of samples with those of standards in the range of 10<sup>\u22126</sup> to 10<sup>\u221210</sup> M."
+  },
+  {
+   "section": "article",
+   "text": "Quantification of Lactate Dehydrogenase Release"
+  },
+  {
+   "section": "article",
+   "text": "Release of lactate dehydrogenase (LDH) into cell culture supernatant was quantified with a Cytotoxicity Detection Kit (Roche Applied Science), according to the supplied instructions. <sentence_start/>THP-1 cells (1.0\u00d710<sup>6</sup> cells/mL) were incubated in a 96-well plate at 37\u00b0C for 30 min with LPS. <sentence_start/>At the end of incubation, supernatants were collected and the LDH content was measured. <sentence_start/>LDH release is expressed as a percentage of the total content determined by lysing an equal amount of cells with 1% Triton X-100."
+  },
+  {
+   "section": "article",
+   "text": "Fluorescence Imaging"
+  },
+  {
+   "section": "article",
+   "text": "For staining of intracellular ATP, LPS- and IFN-gamma-treated THP-1 cells were incubated for 1 h with 50 \u00b5M 2\u2032\u2212/3\u2032-O-(N\u2032-methylanthraniloyl)-ATP (MANT-ATP) and 5 \u00b5M quinacrine dihydrochloride in RPMI1640-based buffer at 37\u00b0C. <sentence_start/>Stained cells were analyzed using a confocal laser scanning microscope (TCS SP2; Leica) equipped with a HCX PLApo 63\u00d71.32 NA oil objective lens. <sentence_start/>Leica confocal software (TCS SP2, version 2.6.1) was used for image acquisition and processing. <sentence_start/>Fluorescence of MANT-ATP was detected at 430-480 nm with excitation at 364 nm, and fluorescence of quinacrine dihydrochloride was detected at 510-530 nm with excitation at 488 nm."
+  },
+  {
+   "section": "article",
+   "text": "RT-PCR Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was isolated from THP-1 cells using a Fast Pure RNA kit (Takara Bio). <sentence_start/>The first-strand cDNA was synthesized from total RNA with PrimeScript Reverse Transcriptase (Takata Bio). <sentence_start/>Specific primers were designed with PrimerQuest<sup>SM</sup> (Integrated DNA Technologies, Inc.) and synthesized by Sigma Genosys (Sigma-Aldrich). <sentence_start/>The sequences of specific primers for human SLC17A9 were 5\u2032-ACA CAC GAG CAG AGA GGA ACA CAA-3\u2032 (sense) and 5\u2032-TTT CTG GCT GTT GTC TGA CTG GGA-3\u2032 (antisense). <sentence_start/>GAPDH mRNA was determined as a positive control. <sentence_start/>PCR was carried out by incubating each cDNA sample with the primers (0.5 \u00b5M each), PrimeSTAR\u00ae HS DNA Polymerase (0.625 U: Takara Bio), and deoxynucleotide mix (0.2 mM each: Takara Bio). <sentence_start/>Amplification was carried out for 35 cycles (94\u00b0C for 30 sec, annealing at 60\u00b0C for 30 sec). <sentence_start/>The products were then subjected to 2% agarose gel electrophoresis. <sentence_start/>Bands were stained with ethidium bromide (Sigma-Aldrich) and photographed."
+  },
+  {
+   "section": "article",
+   "text": "Short Hairpin RNA Plasmid (shRNA) and siRNA Transfection for Knock-down"
+  },
+  {
+   "section": "article",
+   "text": "Transfection of THP-1 cells was performed using the SureSilencing\u2122 shRNA plasmid Kit for human SLC17A9 (SABiosciences) or TriFECTa Kit for human P2Y11 receptor (Integrated DNA Technologies) and the Nucleofector System (Amaxa GmbH). <sentence_start/>Two different shRNA plasmids targeting SLC17A9, the negative control shRNA plasmid or the siRNA duplex oligonucleotides (10 nM) for reduction of human P2Y11 receptor were transfected by electroporation using the Amaxa system (Lonza) with Nucleofector solution V and Nucleofector program V-01. <sentence_start/>Seventy-two hours after transfection, reduction of expression of SLC17A9 and P2Y11 receptor was confirmed."
+  },
+  {
+   "section": "article",
+   "text": "Real-time RT-PCR"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was extracted from THP-1 cells and first-strand cDNA was synthesized as described above. <sentence_start/>The cDNA was used as the template for real-time PCR analysis: reactions were performed in a Stratagene Mx3000P\u00ae QPCR system (Agilent Technologies). <sentence_start/>Specific primers were designed with PrimerQuest<sup>SM</sup> and synthesized by Sigma Genosys. <sentence_start/>The sequences of specific primers for human SLC17A9 were 5\u2032-AGT CTG TGG TCT TTG CAT CAG CCT-3\u2032 (sense) and 5\u2032-TGT TGG CCA CAC CAA ACA GAA AGC-3\u2032 (antisense). <sentence_start/>The sequences of specific primers for human P2Y11 were 5\u2032-CGT GAG CTG AGC CAA TGA TGTG-3\u2032 (sense) and 5\u2032-GGG TGG GAA AGG CGA CTGC-3\u2032 (antisense). <sentence_start/>RT<sup>2</sup>-qPCR primer assay for human IL-6 was purchased from Qiagen. GAPDH mRNA was determined as a positive control. <sentence_start/>Each sample was assayed in a 20 \u00b5l amplification reaction, containing cDNA, primer mixture (5 \u00b5M each of sense and antisense primers) and 2x KAPA SYBR\u00ae FAST qPCR Master Mix (Kapa Biosystems). <sentence_start/>The amplification program included 40 cycles of two steps, each comprising heating to 95\u00b0C and to 60\u00b0C, respectively. <sentence_start/>Fluorescent products were detected at the last step of each cycle. <sentence_start/>The obtained values were within the linear range of the standard curve and were normalized to yield the same amount of GAPDH mRNA expression."
+  },
+  {
+   "section": "article",
+   "text": "Western Blot Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Total cellular membrane protein was lysed in 30 \u00b5L of PBS containing 10 mM HEPES-NaOH, pH 7.4, 1% Triton X100, 5 mM EDTA, 30 mM sodium pyrophosphate, 50 mM sodium fluoride, 1 mM sodium orthovanadate, 1.04 mM 4-(2-aminoethyl)benzenesulfonyl fluoride, 0.8 \u00b5M aprotinin, 21 \u00b5M leupeptin, 36 \u00b5M bestatin, 15 \u00b5M pepstatin A and 14 \u00b5M E-64. <sentence_start/>The protein content in each sample was determined using the Bio-Rad Protein Assay kit (Bio-Rad Laboratories). <sentence_start/>Equal amounts of protein lysate were dissolved in 2\u00d7sample buffer (50% glycerin, 2% SDS, 125 mM Tris, 10 mM DTT) and boiled for 10 min. <sentence_start/>Aliquots of samples containing 1 \u00b5g of protein were analyzed by means of 10% SDS-PAGE and bands were transferred onto a PVDF membrane. <sentence_start/>The blots were blocked overnight in TBST with 5% skim milk at 4\u00b0C, then incubated with rabbit polyclonal anti-SLC17A9 antibody (1\u22365000) overnight at 4\u00b0C or with rabbit anti-rat P2X<sub>7</sub> receptor antibody (1\u2236200) (Cell Signaling Technology, Inc.) for 90 min at room temperature as a loading control. <sentence_start/>After having been washed with TBST, blots were incubated with goat HRP-conjugated anti-rabbit IgG antibody (Cell Signaling Technology, Inc.) for 90 min at room temperature. <sentence_start/>The blots were again washed with TBST, and specific proteins were visualized by using ECL Western blotting detection reagents (GE Healthcare) according to the manufacturer\u2019s instructions."
+  },
+  {
+   "section": "article",
+   "text": "Determination of Cytokines"
+  },
+  {
+   "section": "article",
+   "text": "THP-1 cells were stimulated with LPS (10 \u00b5g/mL). <sentence_start/>After incubation for 24 h, the culture supernatant was harvested for determination of IL-6. <sentence_start/>The concentration of IL-6 was measured by ELISA, as described below. <sentence_start/>A 96-well plate was coated with purified anti-human IL-6 mAb (1\u2236250) (eBioscience) and incubated overnight at 4\u00b0C, then the wells were washed with PBS containing 0.05% Tween-20, and nonspecific binding was blocked with PBS containing 1% BSA for 1 h at room temperature. <sentence_start/>The plate was washed, and the culture supernatant was added for 2 h at room temperature. <sentence_start/>The plate was washed again, and biotin-conjugated anti-human IL-6 mAb (1\u22361000) (eBioscience) was added for 1 h at room temperature. <sentence_start/>The plate was further washed, and avidin-horseradish peroxidase (Sigma-Aldrich) was added. <sentence_start/>The plate was incubated for 30 min at room temperature, then washed, and 3,3\u2032,5,5\u2032-tetramethylbenzidine was added for a few minutes. <sentence_start/>The reaction was stopped by adding 5 N H<sub>2</sub>SO<sub>4</sub>. <sentence_start/>The absorbance at 450 nm was measured with an ImmunoReader NJ-2000 (Nihon InterMed). <sentence_start/>A standard curve was established with recombinant human IL-6 (15-1000 pg/mL), and the concentration of IL-6 was estimated from the standard curve."
+  },
+  {
+   "section": "article",
+   "text": "Measurement of cAMP Level"
+  },
+  {
+   "section": "article",
+   "text": "The cAMP level was quantified with a DetectX High Sensitive Direct Cyclic AMP Chemiluminescent Immunoassay Kit (Arbor Assays), according to the supplied instructions. <sentence_start/>THP-1 cells or RAW264.7 cells (1.0\u00d710<sup>6</sup> cells) were incubated in a 24 -well plate at 37\u00b0C for 10-30 min with ATP or LPS. <sentence_start/>At the end of incubation, cells were lyzed and the cAMP content was measured."
+  },
+  {
+   "section": "article",
+   "text": "Preparation of Peritoneal Macrophages and in vitro Stimulation"
+  },
+  {
+   "section": "article",
+   "text": "Peritoneal cells were isolated by washing the peritoneal cavity with ice-cold PBS. <sentence_start/>The cells were cultured for 1 h and non-adherent cells were washed out with PBS. <sentence_start/>Adherent cells (peritoneal macrophages: 5\u00d710<sup>6</sup>) were cultured with LPS (1 \u00b5g/ml) in RPMI 1640 medium with 10% FBS for 24 h. <sentence_start/>Concentrations of IL-6 and TNF-alpha in the culture supernatants were measured by ELISA."
+  },
+  {
+   "section": "article",
+   "text": "Flow Cytometric Analysis of Macrophage Polarization"
+  },
+  {
+   "section": "article",
+   "text": "THP-1 cells or mouse macrophages were incubated for 30 min at 37\u00b0C with fluorescein isothiocyanate (FITC)-conjugated monoclonal antibodies (mAbs) against CCR7 in PBS. <sentence_start/>The cells were washed twice with PBS, and their fluorescence was assessed by flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Induction of LPS-induced Endotoxin Shock"
+  },
+  {
+   "section": "article",
+   "text": "Male 6-week-old C57BL/6 mice (20.1\u00b10.77 g) were intraperitoneally (i.p.) injected with 400 \u00b5g of LPS from <italic>Escherichia coli</italic> serotype 055:B5 (Sigma-Aldrich). <sentence_start/>Several hours after the injection, concentrations of IL-1\u00df, IL-6, IL-12 and TNF-alpha in serum and peritoneal lavage fluid were measured by ELISA. <sentence_start/>The M1-type polarization of spleen and peritoneal macrophages was analyzed. <sentence_start/>The mice were treated and handled according to the Guide Principles for the Care and Use of Laboratory Animals of the Japanese Pharmacological Society and with the approval of Tokyo University of Science\u2019s Institutional Animal Care and Use Committee (Permit Number: )."
+  },
+  {
+   "section": "article",
+   "text": "Statistics"
+  },
+  {
+   "section": "article",
+   "text": "Results are expressed as mean \u00b1 SE. <sentence_start/>The statistical significance of differences between control and other groups was calculated by using Dunnett\u2019s test with the Instat version 3.0 statistical package (GraphPad Software). <sentence_start/>The criterion of significance was set at P&lt;0.05."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "LPS-induced ATP Release via Exocytosis from THP-1 Cells"
+  },
+  {
+   "section": "article",
+   "text": "THP-1 human monocytes were primed with LPS and IFN-gamma for 24 h to induce differentiation into macrophages. <sentence_start/>Primed THP-1 cells were stimulated with 10 \u00b5g/mL of LPS, and the extracellular concentration of ATP was measured. <sentence_start/>As shown in Figure 1A, the extracellular concentration of ATP was increased soon after stimulation with LPS and peaked at 10 to 20 min. <sentence_start/>In this method, ATP released from cells is diluted in the culture medium and is rapidly metabolized by ecto-nucleotidases on the plasma membrane. <sentence_start/>Therefore, the detected concentration of ATP must be much lower than the real concentration at the cell surface. <sentence_start/>The peri-cellular concentration of ATP just after ATP release would be much higher than detected concentration of ATP in medium. <sentence_start/>We confirmed that treatment with LPS did not induce cell death within 30 min (Figure 1B), suggesting that LPS-induced ATP release would not be dependent on leakage of ATP from dead cells. <sentence_start/>In subsequent pharmacological experiments, we measured extracellular ATP at 10 min after stimulation with LPS."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "LPS-induced ATP release from THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) Cells were stimulated with LPS (10 \u00b5g/mL) and incubated for the indicated times, then the concentration of ATP in the culture medium was measured as described in Materials and Methods. <sentence_start/>(<bold>B</bold>) Cells were incubated with PBS or LPS for 30 min. <sentence_start/>At the end of incubation, supernatants were collected and LDH content was measured. <sentence_start/>The release of LDH is expressed as a percentage of total content determined by lysing an equal number of cells with 1% Triton X-100. <sentence_start/>(<bold>C</bold>) Cells were pretreated with GdCl<sub>3</sub> (100 \u00b5M), FFA (50 \u00b5M), glibenclamide (100 \u00b5M), CBX (50 \u00b5M), 18GA (50 \u00b5M), BFA (10 \u00b5M) or bafilomycin A (50 nM) for 30 min. <sentence_start/>At 10 min after LPS stimulation, supernatants were collected and ATP contents were measured. <sentence_start/>(<bold>D-F</bold>) Cells were stained with MANT-ATP (50 \u00b5M, cyan, panel C) and quinacrine dihydrochloride (5 \u00b5M, magenta, panel D) for 1 h at 37\u00b0C. <sentence_start/>Then, stained cells were analyzed using a confocal laser scanning microscopy. <sentence_start/>The merged image is shown in panel E. Each value represents the mean \u00b1 SE (n = 4-8). <sentence_start/>Significant differences between the indicated groups and control group (LPS alone) are indicated by *(p&lt;0.05) and **(P&lt;0.01), respectively."
+  },
+  {
+   "section": "article",
+   "text": "To identify the pathway of the ATP release, we examined the effects of several inhibitors. <sentence_start/>As shown in Figure 1C, pretreatment with CBX (inhibitor of pannexin hemichannel) blocked the release of ATP after LPS stimulation. <sentence_start/>Moreover, pretreatment with bafilomycin A (inhibitor of vesicular H<sup>+</sup>-ATPase) and BFA (inhibitor of vesicular trafficking), which are inhibitors of vesicular exocytosis of ATP, significantly blocked the release of ATP after LPS stimulation. <sentence_start/>However, pretreatment with 18GA (connexin hemichannel inhibitor), FFA (anion transporter inhibitor), glibenclamide (anion transporter inhibitor), or GdCl<sub>3</sub> (maxi-anion channel inhibitor) did not block the ATP release. <sentence_start/>These results indicated that the release of ATP after LPS stimulation is regulated by plural mechanisms, including pannexin hemichannels and vesicular exocytosis."
+  },
+  {
+   "section": "article",
+   "text": "To look for ATP-enriched vesicles in THP-1 cells, we stained intracellular ATP with the fluorescent ATP indicator MANT-ATP. <sentence_start/>Fluorescent vesicles were observed in the cytoplasm of primed THP-1 cells (Figure 1D). <sentence_start/>Protons are accumulated in ATP-enriched vesicles by vacuolar proton-ATPase, forming an electrochemical gradient of protons across the membrane that serves as the driving force for ATP accumulation. <sentence_start/>Staining with a low pH-sensitive fluorescent probe, quinacrine dihydrochloride, visualized the same population of vesicles as that stained by MANT-ATP (Figure 1E, F), indicating that ATP-enriched vesicles are present in primed THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "Next, to investigate whether exocytosis is involved in LPS-induced ATP release from THP-1 cells, we silenced the expression of SLC17A9 using two different shRNAs. <sentence_start/>We confirmed that mRNA and protein expression of SLC17A9 were suppressed by transfection with SLC17A9-shRNA (Figure 2A). <sentence_start/>The decreased SLC17A9 expression resulted in suppression of ATP release compared with that of scramble shRNA-transfected cells, in response to LPS stimulation (Figure 2B). <sentence_start/>Furthermore, we investigated the involvement of vesicular exocytosis of ATP in LPS-induced IL-6 production. <sentence_start/>LPS-induced IL-6 production was significantly suppressed in SLC17A9-knockdown cells (Figure 2C). <sentence_start/>These results indicated that LPS induces ATP release from macrophages via vesicular exocytosis, and this process is involved in LPS-induced IL-6 production."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "SLC17A9 is involved in LPS-induced ATP release and IL-6 production in THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) THP-1 cells were transfected with 2 \u00b5g of two different shRNAs targeting SLC17A9 (No. 1 or No. 2) or scramble shRNA. <sentence_start/>Seventy-two hours after transfection, cellular membrane proteins were extracted and the expression of SLC17A9 was detected by immunoblotting as described in Materials and Methods. <sentence_start/>(<bold>B</bold>) THP-1 cells transfected with two different shRNAs targeting SLC17A9 or the negative control shRNA were stimulated with LPS. <sentence_start/>At 10 min after LPS stimulation, the supernatants were collected and ATP content was measured (n = 8-12). <sentence_start/>(<bold>C</bold>) The shRNA-transfected cells were incubated with LPS for 24 h, and then the concentration of IL-6 in culture medium was measured by ELISA (n = 10-14). <sentence_start/>Each value represents the mean \u00b1 SE. <sentence_start/>Significant differences between the control group (scramble) and the indicated group are indicated by ***(p&lt;0.001)."
+  },
+  {
+   "section": "article",
+   "text": "Role of P2Y11 Receptor in LPS-induced M1-type Polarization and IL-6 Production in Macrophages"
+  },
+  {
+   "section": "article",
+   "text": "M1 polarization supports resistance to intracellular bacteria and control of the acute phase of infection. <sentence_start/>First, we investigated how extracellular ATP affects M1-type macrophage polarization. <sentence_start/>When THP-1 cells were stimulated with LPS and IFN-gamma, THP-1 cells were polarized into M1-type macrophages. <sentence_start/>Addition of ATP (100 \u00b5M) significantly facilitated M1-polarization of THP-1 cells (Figure 3A), indicating that extracellular ATP contributes to effective polarization of M1-type macrophages."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Extracellular ATP contributes to M1 macrophage polarization via activation of P2 receptors."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A-C</bold>) THP-1 cells were cultured for 24 h in medium or in medium supplemented with LPS and IFN-gamma in the absence or presence of ATP (<bold>A</bold>), or bafilomycin A (50 nM), BFA (10 \u00b5M) (<bold>B</bold>), apyrase (25 U/mL), PPADS (100 \u00b5M), A438079 (100 \u00b5M), suramin (100 \u00b5M), NF449 (10 \u00b5M), MRS2179 (100 \u00b5M), MRS2578 (10 \u00b5M), NF157 (50 \u00b5M), clopidogrel (30 \u00b5M), or MRS2211 (100 \u00b5M) (<bold>C</bold>). <sentence_start/>Expression of M1 macrophage marker CCR7 was measured by flow cytometry. <sentence_start/>The supernatants were assayed for IL-6 (n = 8-10). <sentence_start/>Each value represents the mean \u00b1 SE. <sentence_start/>A significant difference between the control group (non-treated or LPS alone) and a test group is indicated by ***(p&lt;0.001)."
+  },
+  {
+   "section": "article",
+   "text": "To investigate the involvement of ATP release via exocytosis in M1-polarization, we examined the effect of bafilomycin A or BFA on M1-polarization of THP-1 cells. <sentence_start/>Pretreatment with these inhibitors significantly blocked M1-polarization (Figure 3B), suggesting an involvement of ATP release via exocytosis in M1-polarization of THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "Next, we examined the effects of P2 receptor antagonists on M1 macrophage polarization. <sentence_start/>It is reported that macrophages express P2 receptors such as P2X1, P2X7, P2Y1, P2Y2, P2Y6 and P2Y11 receptors <citation rid=\"pone.0059778-BenYebdri1\" ref-type=\"bibr\" doi=\"10.1002/eji.200939347\" pmcid=\"PMC5140286\" pmid=\"19735076\" count=\"1\">[30]</citation>, <citation rid=\"pone.0059778-Into1\" ref-type=\"bibr\" doi=\"10.1128/IAI.70.7.3586-3591.2002\" pmcid=\"PMC128035\" pmid=\"12065499\" count=\"1\">[31]</citation>. <sentence_start/>Pretreatment with apyrase (ecto-nucleotidase) significantly suppressed M1 macrophage polarization, suggesting the involvement of extracellular ATP. <sentence_start/>Although pretreatment with PPADS (P2X antagonist), A438079 (P2X7 antagonist), NF449 (P2X1 antagonist), MRS2179 (P2Y1 antagonist), MRS2578 (P2Y6 antagonist), clopidogrel (P2Y12 antagonist), or MRS2211 (P2Y13 antagonist) did not affect induction of M1 macrophage polarization, a broad P2Y receptor antagonist, suramin, significantly blocked induction of M1-type macrophage polarization (Figure 3C). <sentence_start/>Furthermore, a highly selective P2Y11 receptor antagonist, NF157, also significantly blocked the induction, indicating the involvement of P2Y11 receptor in M1 macrophage polarization."
+  },
+  {
+   "section": "article",
+   "text": "We also examined the effect of NF157 on LPS-induced IL-6 production. <sentence_start/>Pretreatment with NF157 significantly blocked the production of IL-6 in THP-1 cells (Figure 4A). <sentence_start/>Although NF157 can inhibit not only P2Y11, but also P2X1 receptor, pretreatment with selective P2X1 antagonist NF449 was ineffective (Figure 4A), suggesting that the inhibitory effect of NF-157 on IL-6 production is dependent on the blockade of P2Y11 receptor in THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Effect of P2Y11 receptor antagonist on LPS-induced IL-6 production in THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>) THP-1 cells were pretreated with NF449 (10 \u00b5M), NF157 (50 \u00b5M), or KH7 (100 \u00b5M) for 30 min. <sentence_start/>(<bold>B</bold>) Treatment with NF157 was initiated 30 min before to 180 min after the treatment with LPS (10 \u00b5g/mL). <sentence_start/>At 24 h after LPS stimulation, supernatants were collected and the concentration of IL-6 was measured by ELISA. <sentence_start/>(<bold>C</bold>) Cells were pre-treated with NF157 for 30 min, and then incubated with 100 \u00b5M ATP for 24 h. <sentence_start/>Supernatants were collected and the concentration of IL-6 was measured by ELISA. <sentence_start/>(<bold>D-E</bold>) Cells were incubated with LPS (10 \u00b5g/mL) for 1-6 h (<bold>D</bold>). <sentence_start/>Cells were pre-incubated with NF157, and incubated with LPS for 6 h (<bold>E</bold>). <sentence_start/>At the end of incubation, mRNA level of IL-6 was determined by RT<sup>2</sup>-PCR as described under <italic>Materials and Methods</italic>. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4-11). <sentence_start/>Significant differences between a test group and control group (LPS or ATP alone) are indicated by **(p&lt;0.01) and ***(p&lt;0.001), respectively."
+  },
+  {
+   "section": "article",
+   "text": "To further investigate the contribution of P2Y11 receptor to IL-6 production, we examined the effect of adenylate cyclase inhibitor KH7, because P2Y11 receptor is coupled with Gs-protein, which activates adenylate cyclase <citation rid=\"pone.0059778-vonKugelgen1\" ref-type=\"bibr\" pmid=\"21586365\" doi=\"10.1016/B978-0-12-385526-8.00012-6\" count=\"1\">[32]</citation>. <sentence_start/>Although P2Y11 receptor is coupled with both Gs-protein and Gq-protein, it is the only Gs-coupled P2 receptor among the P2 receptor subtypes <citation rid=\"pone.0059778-vonKugelgen1\" ref-type=\"bibr\" pmid=\"21586365\" doi=\"10.1016/B978-0-12-385526-8.00012-6\" count=\"1\">[32]</citation>. <sentence_start/>Pretreatment with KH7 completely blocked IL-6 production, indicating that increase of cAMP is critical for IL-6 production (Figure 4A). <sentence_start/>The inhibitory effect of NF157 on LPS-induced IL-6 production disappeared when NF157 treatment was done 30 min after LPS treatment, indicating that P2Y11 receptor is activated within 30 min after LPS stimulation (Figure 4B). <sentence_start/>Further, treatment with 100 \u00b5M ATP also causes IL-6 production, and ATP-induced IL-6 production was significantly inhibited by pretreatment with NF157 (Figure 4C). <sentence_start/>These results suggest that ATP-induced activation of P2Y11 receptor would be involved in LPS-induced IL-6 production."
+  },
+  {
+   "section": "article",
+   "text": "We investigated the effect of NF157 on induction of IL-6 mRNA expression after LPS stimulation. <sentence_start/>The level of IL-6 mRNA was increased from 1 h to 6 h after LPS-stimulation (Figure 4D). <sentence_start/>The increase of IL-6 mRNA at 6 h was partially suppressed by pretreatment with NF157 (Figure 4E), suggesting that NF157 would suppress IL-6 production via both transcriptional and post-transcriptional levels."
+  },
+  {
+   "section": "article",
+   "text": "To confirm ATP-induced activation of P2Y11 receptor in THP-1 cells, we measured a change in cAMP level after treatment with 10-1000 \u00b5M of ATP because P2Y11 receptor is Gs-protein coupled receptor <citation rid=\"pone.0059778-vonKugelgen1\" ref-type=\"bibr\" pmid=\"21586365\" doi=\"10.1016/B978-0-12-385526-8.00012-6\" count=\"1\">[32]</citation>. <sentence_start/>At 10 minutes after treatment with ATP, cAMP level was significantly increased by 100 \u00b5M or 1 mM of ATP in THP-1 cells (Figure 5A). <sentence_start/>The increase of cAMP was inhibited by pretreatment with NF157 (Figure 5B), suggesting ATP-induced activation of P2Y11 receptor in THP-1 cells. <sentence_start/>Further, we investigated the activation of P2Y11 receptor after LPS stimulation in THP-1 cells. <sentence_start/>Treatment with LPS caused cAMP elevation in a time-dependent manner (Figure 5C), and the increase was blocked by NF157 (Figure 5D), indicating the activation of P2Y11 receptor after LPS stimulation."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "P2Y11 antagonist NF157 blocked ATP or LPS-induced increase of cAMP levels in THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "(A) THP-1 cells were incubated with 10-100 \u00b5M of ATP for 10 min. <sentence_start/>(B) Cells were pre-incubated with NF157 (50 \u00b5M) for 30 min, and then incubated with 100 \u00b5M ATP for 10 min. <sentence_start/>(C) Cells were incubated with LPS (10 \u00b5g/mL) for indicated times. <sentence_start/>(D) Cells were pr)e-incubated with NF157 for 30 min, and then incubated with LPS. <sentence_start/>Intracellular cAMP level was measured as described in <italic>Materials and Methods</italic>. <sentence_start/>Data is expressed as fold increase in cAMP compared with control. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4). <sentence_start/>Significant differences between the positive control group (ATP or LPS alone) and the indicated group are indicated by ***(p&lt;0.001)."
+  },
+  {
+   "section": "article",
+   "text": "To confirm the involvement of P2Y11 receptor in IL-6 production and M1-polarization, P2Y11 receptor in THP-1 cells was knocked down by transfection with siRNA. <sentence_start/>The mRNA expression of P2Y11 receptor was decreased to 44.4% (siRNA-1) or 25.4% (siRNA-2) (Figure 6A). <sentence_start/>We confirmed that these transfections did not affect the expression of other receptors by detecting an expression of P2Y12 receptor mRNA (Figure 6B). <sentence_start/>Treatment of P2Y11-knockdown THP-1 cells with LPS failed to induce IL-6 production (Figure 6C) or M1 polarization (Figure 6D). <sentence_start/>These results indicate that P2Y11 receptor plays a major role in LPS-induced activation of macrophages."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "P2Y11 receptor is involved in IL-6 production and M1 macrophage polarization in THP-1 cells."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A-B</bold>) THP-1 cells were transfected with 3 \u00b5g of shRNA targeting P2Y11 (No.1 or No.2) or scramble shRNA. <sentence_start/>Twenty-four hours after transfection, total RNA was extracted and P2Y11 or P2Y12 gene expression was examined by assessing mRNA levels using real-time PCR. <sentence_start/>(<bold>C</bold>, <bold>D</bold>) Cells were transfected with siRNA targeting P2Y11 (No.1 or No.2) or scramble siRNA and incubated for 72 h. <sentence_start/>(<bold>C</bold>) The transfected cells were stimulated with LPS (10 \u00b5g/mL) and incubated for 24 h, and then the concentration of IL-6 in culture medium was measured by ELISA. <sentence_start/>(<bold>D</bold>) The transfected cells were cultured for 24 h in medium or in medium supplemented with LPS and IFN-gamma. <sentence_start/>Expression of M1 macrophage marker CCR7 was measured by flow cytometry. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4-8). <sentence_start/>Significant differences between a test group and control group (scramble) are indicated by *(p&lt;0.05) and ***(p&lt;0.001), respectively."
+  },
+  {
+   "section": "article",
+   "text": "P2Y11 Antagonist NF157 Attenuates the Elevation of Inflammatory Cytokines in Peritoneal Fluid and Serum of LPS-induced Septic Mice"
+  },
+  {
+   "section": "article",
+   "text": "We next investigated the effect of NF157 on activation of macrophages <italic>in vivo</italic>. <sentence_start/>However, among mammals, the expression of P2Y11 receptors has been found only in humans and canines, although the existence of a receptor with properties like those of the P2Y11 receptor in mice and rats has been suggested <citation rid=\"pone.0059778-Balogh1\" ref-type=\"bibr\" pmid=\"15893764\" doi=\"10.1016/j.yjmcc.2005.03.007\" pmcid=\"PMC3471220\" count=\"1\">[33]</citation>, <citation rid=\"pone.0059778-Talasila1\" ref-type=\"bibr\" pmid=\"19422377\" doi=\"10.1111/j.1476-5381.2009.00172.x\" pmcid=\"PMC2795244\" count=\"1\">[34]</citation>, <citation rid=\"pone.0059778-Hara1\" ref-type=\"bibr\" pmid=\"21777648\" doi=\"10.1016/j.tox.2011.07.001\" count=\"1\">[35]</citation>. <sentence_start/>Since some papers have reported that NF157 inhibits murine P2Y11 like receptors <citation rid=\"pone.0059778-Talasila1\" ref-type=\"bibr\" pmid=\"19422377\" doi=\"10.1111/j.1476-5381.2009.00172.x\" pmcid=\"PMC2795244\" count=\"1\">[34]</citation>, <citation rid=\"pone.0059778-Hara1\" ref-type=\"bibr\" pmid=\"21777648\" doi=\"10.1016/j.tox.2011.07.001\" count=\"1\">[35]</citation>, we examined the effect of NF157 on P2Y11 like receptor in mouse macrophages. <sentence_start/>Treatment with 100 \u00b5M ATP caused increase of cAMP level, and NF157 partially suppressed ATP-induced cAMP elevation in mouse macrophage RAW264.7 cells (Figure S1). <sentence_start/>We examined the effect of NF157 on LPS-induced IL-6 production by isolated peritoneal macrophages. <sentence_start/>NF157, but not NF449, partially suppressed LPS- or ATP-induced IL-6 production from peritoneal macrophages (Figure S2). <sentence_start/>These results suggest that NF157 can suppress an activation of mouse P2Y11 like receptor partially."
+  },
+  {
+   "section": "article",
+   "text": "It is well known that high doses of LPS induce excessive immune activation in vivo, and this resembles sepsis. <sentence_start/>We confirmed the elevation of pro-inflammatory cytokine levels in serum after administration of LPS to mice. <sentence_start/>The concentrations of IL-1\u00df, IL-6, IL-12, and TNF-alpha in serum were significantly increased at 3-24 h after administration of LPS (Figure 7A-D)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "LPS treatment induced increased serum levels of cytokines."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>-<bold>D</bold>) Male C57BL/6 mice at 6 weeks of age were given LPS (400 \u00b5g/head i.p.), and blood samples were collected at 3, 6, 12, and 24 h after LPS injection. <sentence_start/>Serum levels of IL-1\u00df, IL-6, IL-12 and TNF-alpha were determined as described in <italic>Materials and Methods</italic>."
+  },
+  {
+   "section": "article",
+   "text": "To investigate whether P2Y11 receptor antagonist NF157 suppresses LPS-induced overproduction of cytokines <italic>in vivo</italic>, NF157 (100 \u00b5l at indicated concentration/head) was administered i.p. <sentence_start/>at 2 h before LPS injection. <sentence_start/>The cytokine levels in serum were measured at 6 h after treatment with LPS. <sentence_start/>As shown in Figure 8, treatment with NF157 significantly suppressed the increases of TNF-alpha, IL-1\u00df, IL-6 and IL-12 in serum. <sentence_start/>The inhibitory effects were dose-dependent, with a maximal effect at 500 \u00b5M. <sentence_start/>Even the lowest dose of NF157 examined (5 \u00b5M) was sufficient to suppress the production of cytokines. <sentence_start/>On the other hand, administration of P2X1 antagonist NF449 with LPS did not suppress increase of IL-1\u00df, IL-6, IL-12 and TNF-alpha in serum (Figure S3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "P2Y11 antagonist NF157 suppressed the increase in serum levels of cytokines in LPS-treated mice."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>-<bold>D</bold>) Male C57BL/6 mice at 6 weeks of age were given LPS (400 \u00b5g/head i.p.). <sentence_start/>NF157 (100 \u00b5L) doses of 5, 50 and 500 \u00b5M were administered intraperitoneally at 2 h before LPS was injected. <sentence_start/>Blood samples were collected at 6 h after LPS injection. <sentence_start/>Serum levels of IL-1\u00df, IL-6, IL-12 and TNF-alpha were determined as described in <italic>Materials and Methods</italic>. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4). <sentence_start/>Significant differences between a test group and control group (LPS alone) are indicated by *(p&lt;0.05) and **(p&lt;0.01), respectively."
+  },
+  {
+   "section": "article",
+   "text": "We also measured the cytokine levels in peritoneal fluid and M1-type polarization of peritoneal and splenic macrophages. <sentence_start/>Administration of NF157 with LPS inhibited the LPS-induced increases of cytokine levels (IL-1\u00df, IL-6, IL-12 and TNF-alpha) in peritoneal lavage fluid at 6 h after LPS treatment; these increases would mainly reflect release from peritoneal macrophages stimulated by LPS (Figure 9A-D). <sentence_start/>The To determine whether NF157 treatment modulates LPS-induced M1 macrophage polarization <italic>in vivo</italic>, peritoneal and splenic macrophages were isolated from mice at 24 h after LPS injection, and the expression of CCR7 was examined. <sentence_start/>As shown in Figure 10A-B, treatment with NF157 at 2 h before LPS injection effectively blocked LPS-induced M1-type polarization of peritoneal and splenic macrophages. <sentence_start/>These results suggest that treatment with NF157 might be effective for suppression of innate inflammatory response in polymicrobial septic shock."
+  },
+  {
+   "section": "article",
+   "text": "Figure 9"
+  },
+  {
+   "section": "article",
+   "text": "P2Y11 antagonist NF157 blocked the increase in peritoneal levels of cytokines in LPS-treated mice. <sentence_start/>(A"
+  },
+  {
+   "section": "article",
+   "text": "-<bold>D</bold>) Male C57BL/6 mice were injected intraperitoneally with LPS (400 \u00b5g/head i.p.). <sentence_start/>NF157 (100 \u00b5L of 500 \u00b5M) was administered i.p. <sentence_start/>at 2 h before LPS was injected. <sentence_start/>Peritoneal lavage fluid was collected 6 h after LPS injection for measurement of IL-1\u00df, IL-6, IL-12 and TNF-alpha. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4). <sentence_start/>Significant differences between a test group and control group (LPS alone) are indicated by *(p&lt;0.05) and ***(p&lt;0.001), respectively."
+  },
+  {
+   "section": "article",
+   "text": "Figure 10"
+  },
+  {
+   "section": "article",
+   "text": "NF157 blocked M1 polarization of macrophages in LPS-treated mice."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>, <bold>B</bold>) Peritoneal and splenic macrophages were isolated from mice 24 h after LPS injection, and analyzed by flow cytometry for the expression of CCR7. <sentence_start/>Each value represents the mean \u00b1 SE. <sentence_start/>A significant difference between the positive control group (LPS alone) and the indicated group is indicated by **(p&lt;0.01)."
+  },
+  {
+   "section": "article",
+   "text": "Finally, we assessed the inhibitory effect of post-treatment with NF157 on the onset of endotoxemia. <sentence_start/>NF157 was administered at 30-180 min after LPS, and serum cytokine levels were measured. <sentence_start/>Elevation of IL-6, IL-12, and TNF-alpha, but not IL-1\u00df, was significantly attenuated even when mice were post-treated with NF157 at 30-60 min after administration of LPS, indicating that treatment with NF157 might be effective in blocking the onset of endotoxemia even after activation of macrophages by LPS (Figure 11A-D)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 11"
+  },
+  {
+   "section": "article",
+   "text": "Suppressive effect of post-treatment with NF157 on serum levels of cytokines in LPS-treated mice."
+  },
+  {
+   "section": "article",
+   "text": "(<bold>A</bold>-<bold>D</bold>) Male C57BL/6 mice at 6 weeks of age were given LPS (400 \u00b5g/head i.p.<sentence_start/>). <sentence_start/>Treatment with NF157 was initiated 15 min before to 180 min after the onset of LPS injection. <sentence_start/>Blood samples were collected at 6 h after LPS injection. <sentence_start/>Serum levels of IL-1\u00df, IL-6, IL-12 and TNF-alpha were determined as described in <italic>Materials and Methods</italic>. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4). <sentence_start/>Significant differences between a test group and control group (LPS alone) are indicated by *(p&lt;0.05) and **(p&lt;0.01), respectively."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Since activation of macrophages contributes to severe inflammation, such as occurs in sepsis, it is important to understand the process of macrophage activation. <sentence_start/>In this study, we investigated the involvement of extracellular ATP-mediated purinergic signaling in macrophage activation. <sentence_start/>The most striking conclusion of this work is that endogenous ATP, released via exocytosis, activates P2Y11 receptor as a crucial second signal for inducing M1 polarization of macrophages and production of pro-inflammatory cytokine IL-6. <sentence_start/>In accordance with this idea, we found that the P2Y11 antagonist NF157 effectively suppressed the LPS-induced innate inflammatory response in mice. <sentence_start/>This report is the first to identify vesicular exocytotic ATP release from macrophages, and we also established that this exocytotic ATP release plays a major role in macrophage activation and IL-6 production. <sentence_start/>Considering the results of our recent study on the involvement of vesicular exocytosis in T cell activation <citation rid=\"pone.0059778-Tokunaga1\" ref-type=\"bibr\" pmid=\"20382737\" doi=\"10.1074/jbc.M110.112417\" pmcid=\"PMC2878504\" count=\"1\">[28]</citation>, autocrine regulation via exocytosis of ATP appears likely to play an important role in effective activation of immune cells. <sentence_start/>This hypothesis is also supported by our finding that ATP facilitated M1-type polarization of macrophages."
+  },
+  {
+   "section": "article",
+   "text": "Before the identification of SLC17A9 as a vesicular nucleotide transporter <citation rid=\"pone.0059778-Sawada1\" ref-type=\"bibr\" pmid=\"18375752\" doi=\"10.1073/pnas.0800141105\" pmcid=\"PMC2311367\" count=\"1\">[25]</citation>, it had been difficult to establish the involvement of exocytosis in ATP release caused by various stimuli. <sentence_start/>Recently, by using transfecting human T cells with shRNA for SLC17A9, we have demonstrated the involvement of exocytosis in ATP release caused by activation of T cell receptor <citation rid=\"pone.0059778-Tokunaga1\" ref-type=\"bibr\" pmid=\"20382737\" doi=\"10.1074/jbc.M110.112417\" pmcid=\"PMC2878504\" count=\"1\">[28]</citation>, as well as ATP release from lung cancer cells caused by TGF-\u00df1 <citation rid=\"pone.0059778-Takai1\" ref-type=\"bibr\" doi=\"10.1242/jcs.104976\" pmid=\"22946048\" count=\"1\">[29]</citation>. <sentence_start/>Here, we used the same approach to show that vesicular exocytosis is also involved in LPS-induced macrophage activation. <sentence_start/>It has been reported that pannexin hemichannels and maxi-anion channels are also involved in ATP release during activation of T cells <citation rid=\"pone.0059778-Schenk1\" ref-type=\"bibr\" pmid=\"18827222\" doi=\"10.1126/scisignal.1160583\" count=\"1\">[36]</citation>. <sentence_start/>In the present study too, LPS-induced ATP release from macrophages was found to be reduced by treatment with an inhibitor of pannexin hemichannels. <sentence_start/>Thus, multiple pathways may contribute to ATP release from LPS-treated macrophages. <sentence_start/>Nevertheless, our data indicated that abrogation of exocytotic ATP release caused significant suppression of IL-6 production of macrophages, suggesting that activation of P2 receptors by exocytotically released ATP plays a major role in mediating IL-6 production induced by LPS. <sentence_start/>Since LPS-induced ATP release in mouse peritoneal fluid has been confirmed <italic>in vivo</italic> <citation rid=\"pone.0059778-BarberaCremades1\" ref-type=\"bibr\" pmid=\"22490780\" doi=\"10.1096/fj.12-205765\" count=\"1\">[37]</citation>, it is very likely that ATP release has a substantial role in the LPS-induced innate immune response."
+  },
+  {
+   "section": "article",
+   "text": "Our data indicate that extracellular ATP enhances LPS- and IFN-gamma-induced M1 polarization. <sentence_start/>In particular, treatment with 100 \u00b5M ATP, but not 1 mM ATP, caused facilitation of M1-type polarization. <sentence_start/>It is consistent with the data indicating cAMP elevation by 100 \u00b5M ATP. <sentence_start/>Though cAMP elevation was also observed by treatment with 1 mM ATP, the enhancement of M1 polarization was not observed in 1 mM ATP-treated cells. <sentence_start/>The reason why 1 mM ATP did not enhance M1 polarization would be that high dose of ATP negatively regulate M1 polarization via pyrophosphates, which is not dependent on purinergic receptor <citation rid=\"pone.0059778-Pelegrin1\" ref-type=\"bibr\" doi=\"10.1038/emboj.2009.163\" pmcid=\"PMC2699392\" pmid=\"19536133\" count=\"1\">[38]</citation>."
+  },
+  {
+   "section": "article",
+   "text": "Since treatment with inhibitors of the exocytosis of ATP or ecto-nucleotidase significantly inhibited M1-type polarization, ATP release via exocytosis would play an important role in M1-type polarization. <sentence_start/>Treatment with P2Y11 receptor antagonist NF157 and knockdown of P2Y11 receptor both caused significant suppression of M1 polarization, indicating the involvement of P2Y11 receptor in the M1-type polarization. <sentence_start/>Since P2Y11 receptor is involved in differentiation of various cell types, such as monocyte-derived dendritic cells <citation rid=\"pone.0059778-Wilkin1\" ref-type=\"bibr\" pmid=\"11390464\" doi=\"10.4049/jimmunol.166.12.7172\" count=\"1\">[39]</citation>, the involvement of P2Y11 receptor in macrophage differentiation seems reasonable. <sentence_start/>Blockade of M1-type polarization must cause suppression of various inflammatory events associated with macrophages and other immune cells, which are stimulated by cytokines produced by M1-macrophages. <sentence_start/>Indeed, the LPS-induced increase of serum concentrations of inflammatory cytokines, which is a result of systemic immune response, was significantly suppressed by pretreatment of mice with NF157."
+  },
+  {
+   "section": "article",
+   "text": "Treatment with ATP, even without LPS, induced IL-6 production, suggesting an essential role of extracellular ATP in IL-6 production in macrophages. <sentence_start/>LPS-induced IL-6 production was significantly suppressed by knockdown of the P2Y11 receptor. <sentence_start/>Since IL-6 production was also significantly suppressed by treatment with adenylate cyclase inhibitor, increase of cAMP appears to play a critical role in IL-6 production. <sentence_start/>The only P2 receptor coupled via Gs to adenylate cyclase is the P2Y11 receptor <citation rid=\"pone.0059778-vonKugelgen1\" ref-type=\"bibr\" pmid=\"21586365\" doi=\"10.1016/B978-0-12-385526-8.00012-6\" count=\"1\">[32]</citation>, so it is reasonable that induction of cAMP is involved in P2Y11-mediated IL-6 production. <sentence_start/>We also confirmed treatment with ATP causes cAMP elevation in THP-1 cells, and it was blocked by NF157, suggesting that extracellular ATP can induce the activation of P2Y11 receptor in THP-1 cells. <sentence_start/>Inhibition of IL-6 production was not observed <italic>in vitro</italic> when NF157 was applied 30 min after LPS, suggesting that activation of P2Y11 receptor occurs within 30 min after LPS stimulation to induce IL-6 production. <sentence_start/>It is consistent with the data indicating that LPS caused cAMP elevation within 30 min, which was inhibited by NF157. <sentence_start/>Since elevation of IL-6 level in serum is observed at an early phase of sepsis, blockade of P2Y11 receptor might be effective for suppression of IL-6 over-production in the early phase of sepsis. <sentence_start/>It has been reported that Gs-protein-coupled rat P2Y11-like receptor is involved in transcriptional regulation of IL-6 in bile duct epithelia <citation rid=\"pone.0059778-Yu1\" ref-type=\"bibr\" doi=\"10.1152/ajpgi.90502.2008\" pmcid=\"PMC2660176\" pmid=\"19136380\" count=\"1\">[40]</citation>, and this is consistent with our findings. <sentence_start/>Indeed, we found that injection of LPS into the peritoneal cavity of mice caused elevation of inflammatory cytokine levels in serum, and pretreatment with NF157 significantly suppressed the elevation of serum and peritoneal cytokine levels in these mice. <sentence_start/>Moreover, LPS-induced M1-polarization of splenic and peritoneal macrophages was suppressed by treatment with NF157. <sentence_start/>All these results suggest that blockade of P2Y11 by NF157 is effective for suppression of macrophage activation induced by LPS <italic>in vivo</italic>. <sentence_start/>Interestingly, this inhibitory effect was observed even at 30 min after LPS treatment, presumably before all the macrophages are activated."
+  },
+  {
+   "section": "article",
+   "text": "Treatment with NF157 caused significant suppression of not only IL-6, but also IL-1\u00df, IL-12, and TNF-alpha elevation in serum and peritoneal fluid, presumably as a result of blockade of M1-polarization of macrophages. <sentence_start/>The effect of NF157 on peritoneal cytokine production may represent a direct effect on LPS-stimulated peritoneal macrophages. <sentence_start/>On the other hand, the elevation of cytokine levels in serum would be due to LPS-induced systemic immune response. <sentence_start/>In the peritoneal fluid, NF157 significantly diminished the production of IL-1\u00df, IL-12, TNF-alpha, but only partially suppressed IL-6 production. <sentence_start/>The inhibitory effect of NF157 on IL-6 production was lower in isolated mouse peritoneal macrophages than in human monocyte THP-1 cells, which is consistent with a partial inhibition of P2Y11 like receptor by NF157 in mouse macrophages. <sentence_start/>It has also been reported that P2Y11 agonist stimulates release of IL-8 from human monocyte-derived dendritic cells <citation rid=\"pone.0059778-Meis1\" ref-type=\"bibr\" pmid=\"19815812\" doi=\"10.1124/jpet.109.157750\" count=\"1\">[41]</citation>. <sentence_start/>Overall, because NF157 blocks M1-type polarization of peritoneal and spleen macrophages, it seems reasonable that NF157 would effectively inhibit the whole-body immune response in humans. <sentence_start/>In any case, human P2Y11 receptor and mouse P2Y11 like receptor appear to have important roles in immune regulation."
+  },
+  {
+   "section": "article",
+   "text": "P2X7 receptor is well known to induce IL-1\u00df release by activating caspase-1, which convert pro-IL-1\u00df to mature IL-1\u00df. <sentence_start/>On the other hand, blockade of P2Y11 receptor causes suppression of M1-type polarization, which would block pro-IL-1\u00df production. <sentence_start/>Thus, the mechanism of the blockade of IL-1\u00df release might be different between P2X7 receptor antagonists and P2Y11 receptor antagonists."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, we have identified a novel mechanism of macrophage activation, which is mediated by autocrine regulation via exocytotic ATP release and activation of P2Y11 receptor. <sentence_start/>Our results suggest that P2Y11 receptor antagonists can block the activation of macrophages by LPS both <italic>in vitro</italic> and <italic>in vivo</italic>, and suppress the elevation of inflammatory cytokines, but further studies will be needed to investigate the effect of P2Y11 receptor antagonists on the pathological changes that occur in sepsis by using cecal ligation puncture model, which is a chronic sepsis model, or in other inflammatory diseases. <sentence_start/>Though blockade of mouse P2Y11 like receptor by NF157 was partially, significant suppression of immune response was observed in LPS-treated mice. <sentence_start/>Therefore, it is implicated that treatment of human with P2Y11 antagonist such as NF157 might be more effective in suppressing an immune response. <sentence_start/>We suggest that our findings would justify a detailed study of P2Y11 receptor antagonists as therapeutic candidates for treatment of inflammatory diseases including sepsis."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Figure S1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>P2Y11 antagonist NF157 blocked ATP-induced increase of cAMP levels in mouse macrophage RAW264.7 cells.</bold> <sentence_start/>(A) RAW264.7 cells were incubated with 10-100 \u00b5M of ATP for 10 min. <sentence_start/>(B) Cells were pre-incubated with NF157 (50 \u00b5M) for 30 min, and then incubated with 100 \u00b5M ATP for 10 min. <sentence_start/>Intracellular cAMP level was measured as described in <italic>Materials and Methods</italic>. <sentence_start/>Data is expressed as fold increase in cAMP compared with control. <sentence_start/>Each value represents the mean \u00b1 SE (n = 4). <sentence_start/>A significant difference between the positive control group (ATP) and the indicated group is indicated by *(p&lt;0.05)."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>P2Y11 receptor antagonist NF157 suppressed production of IL-6 from peritoneal macrophages.</bold> <sentence_start/>Peritoneal macrophages were pretreated with NF449 (10 \u00b5M), NF157 (50 \u00b5M), or KH7 (100 \u00b5M) for 30 min. <sentence_start/>At 24 h after LPS (10 \u00b5g/mL) (<bold>A</bold>) or ATP (100 \u00b5M) (<bold>B</bold>) stimulation, supernatants were collected and the concentration of IL-6 was measured by ELISA (n = 5). <sentence_start/>Each value represents the mean \u00b1 SE. <sentence_start/>Significant differences between the positive control group (LPS) and the indicated group are indicated by *(p&lt;0.05) and ***(p&lt;0.001)."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  },
+  {
+   "section": "article",
+   "text": "Figure S3"
+  },
+  {
+   "section": "article",
+   "text": "<bold>P2X1 antagonist NF449 did not suppressed the increase in serum levels of cytokines in LPS-treated mice.</bold> <sentence_start/>(<bold>A</bold>-<bold>D</bold>) Male C57BL/6 mice at 6 weeks of age were given LPS (400 \u00b5g/head i.p.<sentence_start/>). <sentence_start/>NF449 (100 \u00b5L of 100 \u00b5M) were administered intraperitoneally at 2 h before LPS was injected. <sentence_start/>Blood samples were collected at 6 h after LPS injection. <sentence_start/>Serum levels of IL-1\u00df, IL-6, IL-12 and TNF-alpha were determined as described in <italic>Materials and Methods</italic>. <sentence_start/>Each value represents the mean \u00b1 SE (n = 5)."
+  },
+  {
+   "section": "article",
+   "text": "(TIF)"
+  }
+ ]
+}

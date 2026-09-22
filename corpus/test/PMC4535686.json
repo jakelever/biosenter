@@ -1,0 +1,291 @@
+{
+ "pmid": 26269094,
+ "pmcid": 4535686,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Effect of isoniazid preventive therapy on tuberculosis or death in persons with HIV: a retrospective cohort study"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Isoniazid preventive therapy (IPT) is a recommended strategy for prevention of tuberculosis (TB) in persons with Human Immunodeficiency Virus (HIV) although the benefits have not been unequivocally demonstrated in routine clinical practice with widespread ART adoption. <sentence_start/>Therefore, we assessed the effectiveness of IPT in prevention of TB or death in patients treated with antiretroviral therapy (ART) in a chronic care setting."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "Retrospective cohort study of HIV patients enrolled in chronic care from 2007 to 2013. <sentence_start/>Eligible participants were HIV infected subjects (age &gt; 15 years) with no (history of) TB. <sentence_start/>The combined effect of IPT and ART on the composite outcome (TB or death) was estimated using time-dependent Cox regression with adjustment for baseline covariates."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "1,922 patients were included, 374 (19.4 %) received IPT and 258 (13.4 %) developed TB or deceased. <sentence_start/>The median follow-up duration of the cohort was 839 days, with a total of 5491 person years. <sentence_start/>In unadjusted analysis, the combination of IPT and ART lowered the hazard of TB or death by 65 % [HR = 0.35; 95 % CI (0.16, 0.77)] compared to ART alone. <sentence_start/>Even after adjustment for confounders, the combined effect of ART and IPT resulted in a 60 % hazard reduction of TB or death in comparison to participants who received ART without IPT [HR = 0.40; 95 % CI (0.18, 0.87)]. <sentence_start/>The IPT-specific benefit in patients not receiving ART could not be reliably estimated due to high rates of ART adoption."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "The combined effect of IPT and ART to prevent TB or death in HIV patients in a non-experimental setting in comparison to ART alone was estimated to be 60 %."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "The World Health Organization (WHO) has estimated that in 2013 nine million people developed tuberculosis (TB) with 1.5 million associated deaths, including 360.000 among persons with Human Immunodeficiency Virus [<citation ref-type=\"bibr\" rid=\"CR1\" count=\"1\">1</citation>]. <sentence_start/>Although the introduction of anti-TB treatment in the early 1950s reduced the disease burden in developed countries, TB remains a major global health problem in many parts of the world, especially in Sub-Saharan African (SSA) countries [<citation ref-type=\"bibr\" rid=\"CR2\" pmid=\"9254788\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Only a minority of people exposed to <italic>Mycobacterium tuberculosis (MTB)</italic> develop active TB [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1164/rccm.200511-1783OC\" pmid=\"16799072\" count=\"1\">3</citation>]. <sentence_start/>In healthy individuals, the immune system controls the infection and patients can remain asymptomatic for prolonged periods, a so-called latent infection, that may progress to active TB with waning immuntity [<citation ref-type=\"bibr\" rid=\"CR4\" doi=\"10.1093/cid/cis798\" pmid=\"22972862\" pmcid=\"PMC3518880\" count=\"1\">4</citation>]. <sentence_start/>The HIV epidemic has changed the dynamics of TB disease [<citation ref-type=\"bibr\" rid=\"CR5\" doi=\"10.1128/CMR.00042-10\" pmid=\"21482729\" pmcid=\"PMC3122491\" count=\"1\">5</citation>]. <sentence_start/>HIV infection increases the risk of progression to TB disease after primary exposure [<citation ref-type=\"bibr\" rid=\"CR6\" doi=\"10.1016/S0140-6736(03)14333-4\" pmid=\"13678977\" count=\"1\">6</citation>], reinfection [<citation ref-type=\"bibr\" rid=\"CR7\" doi=\"10.1086/650529\" pmid=\"20121434\" count=\"1\">7</citation>, <citation ref-type=\"bibr\" rid=\"CR8\" pmid=\"18647455\" count=\"1\">8</citation>] or from latent TB [<citation ref-type=\"bibr\" rid=\"CR9\" doi=\"10.1056/NEJMsa031667\" pmid=\"15141044\" count=\"1\">9</citation>, <citation ref-type=\"bibr\" rid=\"CR10\" count=\"1\">10</citation>], and thereby the incidence and prevalence of actual TB [<citation ref-type=\"bibr\" rid=\"CR11\" doi=\"10.1164/rccm.200603-440OC\" pmid=\"17690336\" pmcid=\"PMC2048673\" count=\"1\">11</citation>, <citation ref-type=\"bibr\" rid=\"CR12\" doi=\"10.1086/501018\" pmid=\"16511773\" count=\"1\">12</citation>], and the risk of transmission to uninfected persons [<citation ref-type=\"bibr\" rid=\"CR13\" doi=\"10.1001/archinte.163.9.1009\" pmid=\"12742798\" count=\"1\">13</citation>, <citation ref-type=\"bibr\" rid=\"CR14\" doi=\"10.1001/archinte.163.9.1009\" pmid=\"12742798\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In 2004, the WHO and Stop TB Partnership developed an interim policy on collaborative TB/HIV activities [<citation ref-type=\"bibr\" rid=\"CR15\" count=\"1\">15</citation>]. <sentence_start/>The four main TB prevention methods include intensified case finding, isoniazid preventive therapy (IPT), tuberculosis infection control, and antiretroviral therapy (ART) [<citation ref-type=\"bibr\" rid=\"CR15\" count=\"1\">15</citation>]. <sentence_start/>So far, only ART has been implemented on a large scale [<citation ref-type=\"bibr\" rid=\"CR16\" count=\"1\">16</citation>]. <sentence_start/>To improve TB prevention and treatment, WHO launched an intervention package which is comprised of IPT, intensified case finding, and infection control (three I\u2019s) in parallel with ART. [<citation ref-type=\"bibr\" rid=\"CR17\" count=\"1\">17</citation>] <sentence_start/>IPT has proven preventive efficacy in both non-HIV-infected and HIV-infected individuals [<citation ref-type=\"bibr\" rid=\"CR18\" pmid=\"14973947\" doi=\"10.1002/14651858.CD000171.pub2\" count=\"1\">18</citation>], however, only 32.5 % of eligible individuals received IPT worldwide in 2012 [<citation ref-type=\"bibr\" rid=\"CR16\" count=\"1\">16</citation>, <citation ref-type=\"bibr\" rid=\"CR19\" count=\"1\">19</citation>]. <sentence_start/>In a meta-analysis of eight placebo-controlled trials involving 4136 HIV-infected participants [<citation ref-type=\"bibr\" rid=\"CR20\" doi=\"10.1002/14651858.CD000171.pub3\" pmcid=\"PMC7043303\" pmid=\"20091503\" count=\"1\">20</citation>], the overall efficacy of IPT in preventing TB was 33 % although reductions among Tuberculin Skin Test (TST) negative patients were not statistically significant [<citation ref-type=\"bibr\" rid=\"CR20\" doi=\"10.1002/14651858.CD000171.pub3\" pmcid=\"PMC7043303\" pmid=\"20091503\" count=\"1\">20</citation>]. <sentence_start/>In a recently published study parallel therapy with IPT and ART was more effective than the individual therapies alone [<citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/S0140-6736(14)60162-8\" pmcid=\"PMC4233253\" pmid=\"24835842\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Importantly, most of the empirical evidence on efficacy of IPT is derived from clinical trials conducted in controlled settings. <sentence_start/>Evidence is lacking from routine health care settings and some of the observational studies conducted are limited by methodological concerns; for example, not all incorporate the time varying nature of ART and IPT exposure. <sentence_start/>In addition, some studies do not account for death as a competing event when estimating the effect of IPT on TB incidence. <sentence_start/>Hence, this retrospective cohort study aims to assess the effectiveness of IPT in patients receiving ART in a routine care setting."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Setting"
+  },
+  {
+   "section": "article",
+   "text": "This retrospective cohort study was conducted at Dilla University Referral Hospital in Ethiopia. <sentence_start/>Ethiopia has adopted ART in 2005 [<citation ref-type=\"bibr\" rid=\"CR22\" count=\"1\">22</citation>] and implemented the combined TB/HIV program including IPT in 2007 [<citation ref-type=\"bibr\" rid=\"CR23\" count=\"1\">23</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Study design &amp; study population"
+  },
+  {
+   "section": "article",
+   "text": "This study included all patients who had been treated in the TB and HIV/AIDS continuum of care between January 2007 and August 2013. <sentence_start/>Patients aged less than 15 years, who did not have follow up information after first entry to the cohort, had TB before enrolment to the chronic care unit, or either died or were diagnosed with TB within 14 days of enrolment were excluded (Fig. 1).Fig 1"
+  },
+  {
+   "section": "article",
+   "text": "The schematic presentation of subjects selection for the final analysis from HIV cohort of Dilla University Referral Hospital"
+  },
+  {
+   "section": "article",
+   "text": "Ethical approval was obtained from Dilla University College of Health and Medical Sciences ethical review board and Dilla University Hospital, Clinical and Practical training director office."
+  },
+  {
+   "section": "article",
+   "text": "Data collection"
+  },
+  {
+   "section": "article",
+   "text": "Information on patient characteristics, severity of disease, treatments and outcomes was retrieved from patient medical records by data clerks, with verification of accuracy in a random sample. <sentence_start/>Data were entered in the EpiData template version 3.0 (EpiData Association, Odense, Denmark) and were anonymized prior to analysis. <sentence_start/>Baseline covariates included gender, age, ever receiving cotrimoxazole prophylaxis, ART, weight, CD4 count, WHO stage of HIV infection, and functional status. <sentence_start/>Follow-up visits for IPT and ART were monthly or every two months, respectively. <sentence_start/>Further regular follow-up visits were planned every six months for the first year and once a year thereafter. <sentence_start/>During these visits CD4 counts, body weight, functional status and WHO stage were recorded."
+  },
+  {
+   "section": "article",
+   "text": "Outcome"
+  },
+  {
+   "section": "article",
+   "text": "The outcome of this study was the occurrence of TB or all-cause mortality during follow-up. <sentence_start/>According to the routine clinical guideline, TB was ascertained either by a positive sputum smear, suggestive chest X-ray, suggestive pathology or a positive sputum culture [<citation ref-type=\"bibr\" rid=\"CR23\" count=\"1\">23</citation>]. <sentence_start/>The date of death was determined by review of hospital charts or interview of relatives. <sentence_start/>In the absence of the above events, subjects were censored if they were lost to follow-up or if they were alive at the end of the study period (August 2013)."
+  },
+  {
+   "section": "article",
+   "text": "Interventions (Exposure)"
+  },
+  {
+   "section": "article",
+   "text": "IPT and ART were the determinants of interest in this study and they were initiated according to local routine clinical practice. <sentence_start/>All HIV patients without TB or previous history of TB were eligible for a course of IPT (300 mg for six months), and it was provided free of charge. <sentence_start/>The eligibility for IPT was determined by broad clinical assessment to rule out TB up to 2010 [<citation ref-type=\"bibr\" rid=\"CR24\" count=\"1\">24</citation>]. <sentence_start/>Starting 2010, more stringent screening criteria were used to rule out pre-existing TB and IPT was started in patients without current cough, night sweats, weight loss, or fever, in accordance with WHO recommendations [<citation ref-type=\"bibr\" rid=\"CR25\" doi=\"10.1371/journal.pmed.1000391\" pmid=\"21267059\" pmcid=\"PMC3022524\" count=\"1\">25</citation>]. <sentence_start/>TST testing was not required as screening tool in both periods."
+  },
+  {
+   "section": "article",
+   "text": "According to the national ART guidelines, patients were eligible for ART when they developed more advanced HIV disease (WHO stage III or higher) or had CD4 counts less than 200 cells/mm<sup>3</sup> [<citation ref-type=\"bibr\" rid=\"CR3\" doi=\"10.1164/rccm.200511-1783OC\" pmid=\"16799072\" count=\"1\">3</citation>, <citation ref-type=\"bibr\" rid=\"CR26\" count=\"1\">26</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Statistical methods"
+  },
+  {
+   "section": "article",
+   "text": "Data integrity was assessed and descriptive statistics were generated. <sentence_start/>At baseline less than 5 % of data were missing for WHO HIV disease stage, WHO functional status, CD4 count and body weight; missing observations were imputed by multiple imputation and effect estimates were pooled using Rubin\u2019s rule [<citation ref-type=\"bibr\" rid=\"CR27\" count=\"1\">27</citation>]. <sentence_start/>Cox regression was used to estimate unadjusted and adjusted hazard ratios for the composite outcome of TB or death. <sentence_start/>IPT and ART treatment status was included as time-varying exposure and the estimates were adjusted for the following baseline covariates: age, gender, cotrimoxazole prophylaxis, weight, CD4 count, WHO stage and functional status. <sentence_start/>If a patient on ART treatment began IPT, person-time no longer accumulated in the ART alone category, but rather person-time and subsequent events contributed in the category labeled \u2018on ART and treated with IPT\u2019. <sentence_start/>This person-time movement also occurred for the small number of patients treated with IPT who then began ART therapy. <sentence_start/>Patients who completed treatment with IPT remained in the IPT treatment category until the end of follow-up. <sentence_start/>Incidence rates of TB, death, and composite outcome were calculated in each exposure category. <sentence_start/>A considerable proportion of data were missing during follow up and adjusted analysis was not possible for covariates other than those measured at baseline. <sentence_start/>Treatment with ART but not IPT was considered the reference group. <sentence_start/>The assumptions of Cox regression model were assessed by examining Schoenfeld residuals for proportional hazards, dfbeta\u2019s for influential observation, and martingale residuals for non-linearity [<citation ref-type=\"bibr\" rid=\"CR28\" count=\"1\">28</citation>]. <sentence_start/>The level of significance was taken at p \u22640.05. <sentence_start/>All analysis was conducted in SPSS version 20 [<citation ref-type=\"bibr\" rid=\"CR29\" count=\"1\">29</citation>] and R version 3.0.2 [<citation ref-type=\"bibr\" rid=\"CR30\" count=\"1\">30</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Of the 4,091 patients enrolled in the comprehensive follow-up program, 1,922 were included in the final analysis (Fig. 1). <sentence_start/>Patients were excluded for one of the following reasons: age less than 15 years (n = 296), lack of follow-up information (n = 1,571), occurrence of TB before enrolment to the chronic care unit (n = 234), TB or death within the first fourteen days of enrolment to the chronic care unit (n = 68). <sentence_start/>The were no statistically significant differences in mean age and gender of cases excluded due to a lack of follow-up information, those participants lost to follow up and the participants remaining in the cohort."
+  },
+  {
+   "section": "article",
+   "text": "Three hundred seventy four (19.5 %) participants received IPT during their follow up in the care program. <sentence_start/>The majority of subjects (55.8 %) were females and close to two third of the study subjects (60.5 %) were younger than 34 years (Table 1). <sentence_start/>Eighty five percent of the study subjects (n = 1635) were not on ART at baseline, but almost all (n = 1919) received or started ART during follow-up. <sentence_start/>In addition to IPT prophylaxis, many patients (84.9 %) had received prophylactic co-trimoxazole. <sentence_start/>The majority of the participants (64.3 %) had stage III HIV disease at baseline. <sentence_start/>Most subjects were either at working (58 %) or at ambulatory (36.4 %) functional status according to the WHO operational definition. <sentence_start/>Sixty-five percent of the subjects had a CD4 count less than 199 cells/mm<sup>3</sup> and less than 4 % of the participants had CD4 counts above 350 cells/mm<sup>3</sup>. <sentence_start/>Almost half of the participants (n = 879) weighed less than 50 kgs (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Five hundred seventy eight participants were lost to follow-up during the study period and were censored, together with the 460 participants alive at the end of the study (Table 2). <sentence_start/>The median follow-up duration of the cohort was 839 days with 5491.2 person-years (PYs) in total. <sentence_start/>In total, 110 patients developed TB and 148 died during the course of the study. <sentence_start/>TB was diagnosed based on a positive sputum smear (n = 81), suggestive chest X-ray (n = 13), suggestive pathology (n = 12) or a positive sputum culture (n = 4). <sentence_start/>The incidence of TB (6.6 per 100 PYs), death (9.5 per 100 PYs), and the composite outcome (16.1 per 100 PYs) was higher within the first six months, with a decreasing trends in the following months (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Among the 374 patients receiving IPT, 45 (12 %) did not complete six months of IPT: 34 were censored alive during their IPT treatment, 7 were lost to follow up and 4 had an outcome (TB or death). <sentence_start/>Overall, the rate of TB was higher in ART na\u00efve participants (8.05 per 100 PYs) followed by ART na\u00efve participants yet treated with IPT (5.20 per 100 PYs) compared to those treated with both ART and IPT (Table 3). <sentence_start/>In the crude analysis, male patients were at higher risk of developing TB or dying [HR = 1.44; 95 % CI (1.12, 1.83)] (Table 4). <sentence_start/>Furthermore, patients who were bed-ridden and those with more advanced HIV disease (WHO stage III or higher) at baseline had an increased hazard of developing TB or death in comparison to ambulatory patients or those with early disease stages, respectively. <sentence_start/>Increasing baseline patient body weight decreased the hazard of developing TB or death by 2 % [HR = 0.98; 95 % CI (0.97, 0.99)]. <sentence_start/>With respect to the patients\u2019 entry point of care, those referred from other health facilities had a lower hazard to develop TB or die [HR = 0.61; 95 % CI (0.41, 0.87)] in comparison to patients referred from different departments of the same hospital."
+  },
+  {
+   "section": "article",
+   "text": "In the adjusted analysis, the same covariates appeared associated with risk of TB or death (Table 4). <sentence_start/>In comparison to ambulatory patients, bedridden patients had double the hazard to die or develop TB [aHR = 2.47; 95 % CI (1.62, 3.75)], and working patients had a 33 % lower hazard to die or develop TB [aHR = 0.67; 95 % CI (0.50, 0.89)]. <sentence_start/>With respect to the WHO staging, being in WHO stage II or higher was associated with an increased hazard of developing TB or death in comparison to patients in WHO stage I at baseline. <sentence_start/>Patients transferred to the University Hospital chronic care unit from primary health care units in the catchment area had a lower hazard to develop TB or die in comparison to patients who entered the cohort from different departments of the same hospital (aHR = 0.39; 95 % CI [0.18, 0.82]). <sentence_start/>The effects of age and baseline CD4 count on TB or death were more or less nominal (Table 4)."
+  },
+  {
+   "section": "article",
+   "text": "In the unadjusted time dependent Cox regression model, the combined treatment with IPT and ART lowered the hazard of TB or death by 65 % [HR = 0.35; 95 % CI (0.16, 0.77)] compared to ART alone and no such effect could be demonstrated for IPT in the absence of ART [HR = 1.22; 95 % CI (0.45, 3.28)]. <sentence_start/>The combined effect of IPT and ART lead to a 60 % reduction of the hazard of death or TB in comparison to ART without IPT after adjusting for baseline covariates [aHR = 0.40; 95 % CI (0.18, 0.87)]. <sentence_start/>It was not possible to reliably estimate the effect IPT in patients not treated with ART as there was little person time (77.0 PYs) available in this treatment category."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "The estimated combined effect of IPT and ART on the risk of TB or death in HIV infected patients was a 60 % hazard reduction in comparison to ART without IPT after adjusting for baseline confounders. <sentence_start/>Due to the little patient time in the cohort for patients receiving IPT without concomitant ART, the isolated effect of IPT could not be reliably determined. <sentence_start/>Strikingly, only one fifth of the HIV patients included in this study actually received IPT."
+  },
+  {
+   "section": "article",
+   "text": "These results are consistent with the results obtained in controlled clinical trials. <sentence_start/>In a recently updated Cochrane review of twelve clinical trials, IPT was associated with an overall TB risk reduction of 26 % in 8578 randomized HIV infected and TST positive participants [<citation ref-type=\"bibr\" rid=\"CR20\" doi=\"10.1002/14651858.CD000171.pub3\" pmcid=\"PMC7043303\" pmid=\"20091503\" count=\"1\">20</citation>]. <sentence_start/>Moreover, recent empirical evidence has shown that the combined benefit of ART and IPT was paramount in reducing the risk of TB and death (HR = 0.63, 95 % CI 0.41-0.94) [<citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/S0140-6736(14)60162-8\" pmcid=\"PMC4233253\" pmid=\"24835842\" count=\"1\">21</citation>, <citation ref-type=\"bibr\" rid=\"CR31\" doi=\"10.1007/s10461-007-9349-x\" pmid=\"18161018\" count=\"1\">31</citation>]. <sentence_start/>Further observational studies conducted in Brazil [<citation ref-type=\"bibr\" rid=\"CR32\" doi=\"10.1371/journal.pone.0069437\" pmid=\"23922711\" pmcid=\"PMC3724860\" count=\"1\">32</citation>], South Africa [<citation ref-type=\"bibr\" rid=\"CR33\" doi=\"10.5588/ijtld.11.0402\" pmid=\"22230143\" count=\"1\">33</citation>], and Hong Kong [<citation ref-type=\"bibr\" rid=\"CR34\" doi=\"10.1016/S1473-3099(10)70078-5\" pmid=\"20610331\" count=\"1\">34</citation>] reported beneficial effect of combined therapy on TB. <sentence_start/>Although ART reduces HIV disease progression [<citation ref-type=\"bibr\" rid=\"CR35\" doi=\"10.1101/cshperspect.a007161\" pmid=\"22474613\" pmcid=\"PMC3312400\" count=\"1\">35</citation>] and opportunistic infections including TB [<citation ref-type=\"bibr\" rid=\"CR36\" doi=\"10.1101/cshperspect.a012526\" pmid=\"23284080\" pmcid=\"PMC3530041\" count=\"1\">36</citation>], the recent WHO policy guidelines do not precisely define how ART and IPT are best used together for optimal TB risk reduction [<citation ref-type=\"bibr\" rid=\"CR37\" count=\"1\">37</citation>]. <sentence_start/>The biological mechanism of combination therapy is that IPT reduces the burden of MTB [<citation ref-type=\"bibr\" rid=\"CR38\" doi=\"10.1097/QAD.0b013e328216f441\" pmid=\"17589190\" pmcid=\"PMC3063947\" count=\"1\">38</citation>, <citation ref-type=\"bibr\" rid=\"CR39\" doi=\"10.1097/QAD.0b013e328327964f\" pmid=\"19525621\" pmcid=\"PMC3063949\" count=\"1\">39</citation>], whereas ART decreases the risk of developing active TB by improving immune function [<citation ref-type=\"bibr\" rid=\"CR40\" pmid=\"23926172\" doi=\"10.12809/hkmj133892\" count=\"1\">40</citation>-<citation ref-type=\"bibr\" rid=\"CR42\" doi=\"10.1074/jbc.275.4.2520\" pmid=\"10644708\" count=\"1\">42</citation>]. <sentence_start/>These mechanisms appear complementary and the combined use of these interventions might reasonably improve outcomes in HIV patients."
+  },
+  {
+   "section": "article",
+   "text": "Of note, self-referred patients or those who were transferred from other health facilities had a lower risk of developing TB or dying. <sentence_start/>These patients started ART earlier compared to patients transferred to the HIV treatment unit from the same hospital. <sentence_start/>A plethora of studies reported that early diagnosis of HIV [<citation ref-type=\"bibr\" rid=\"CR43\" doi=\"10.1097/01.aids.0000176211.08581.5a\" pmid=\"15990564\" count=\"1\">43</citation>] and early therapy [<citation ref-type=\"bibr\" rid=\"CR44\" doi=\"10.1164/rccm.200709-1311PP\" pmid=\"18202347\" pmcid=\"PMC2277208\" count=\"1\">44</citation>] play a significant role in HIV disease prevention and control. <sentence_start/>This study demonstrated that most events (TB or death) occurred in the first six months. <sentence_start/>This finding is consistent with a finding from Thailand where most of TB episodes observed within the first six months of enrolment [<citation ref-type=\"bibr\" rid=\"CR45\" doi=\"10.1016/S1473-3099(05)70140-7\" pmid=\"15919622\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The uptake of IPT in this study was lower than the global estimate (32.5 %), although there was no clear reason for this underutilization or under prescription [<citation ref-type=\"bibr\" rid=\"CR19\" count=\"1\">19</citation>]. <sentence_start/>Possible reasons may be the health care professionals\u2019 skepticism about potential drug resistance [<citation ref-type=\"bibr\" rid=\"CR24\" count=\"1\">24</citation>] and subsequent underestimation of potential public health impact [<citation ref-type=\"bibr\" rid=\"CR46\" doi=\"10.1016/j.ypmed.2004.04.008\" pmcid=\"PMC2860297\" pmid=\"15475039\" count=\"1\">46</citation>], as well as lack of adequate means to exclude a pre-existing TB infection prior to treatment initiation."
+  },
+  {
+   "section": "article",
+   "text": "As opposed to most clinical trials, this study used the composite of TB or death as an outcome. <sentence_start/>Most trials found significant TB risk reduction and statistically non-significant effects in death prevention [<citation ref-type=\"bibr\" rid=\"CR21\" doi=\"10.1016/S0140-6736(14)60162-8\" pmcid=\"PMC4233253\" pmid=\"24835842\" count=\"1\">21</citation>, <citation ref-type=\"bibr\" rid=\"CR47\" doi=\"10.1016/S0140-6736(11)60204-3\" pmid=\"21492926\" count=\"1\">47</citation>]. <sentence_start/>As death and occurrence of TB are competing events, we chose to not separately assess the effect of IPT on these outcomes. <sentence_start/>Competing event analysis would be a means to reliability estimate the overall sub distribution hazard and event specific hazards [<citation ref-type=\"bibr\" rid=\"CR48\" doi=\"10.1002/sim.2712\" pmid=\"17031868\" count=\"1\">48</citation>]. <sentence_start/>The low number of TB or death cases in the IPT cohort, however, precluded a formal competing risks analysis. <sentence_start/>A strength of our study is the fit of a Cox regression model that includes time-varying exposures to accommodate changes in treatment status when IPT and/or ART are initiated. <sentence_start/>This possible source of so-called time dependent bias is often neglected, which can lead to overestimation of intervention effects [<citation ref-type=\"bibr\" rid=\"CR49\" doi=\"10.1016/j.jclinepi.2012.04.008\" pmid=\"23017635\" count=\"1\">49</citation>-<citation ref-type=\"bibr\" rid=\"CR52\" doi=\"10.1136/bmj.b5087\" pmid=\"20228141\" count=\"1\">52</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Most limitations of this study follow from the retrospective study design, such as the inability of assessing time of HIV infection, precluding adjustment for length time bias [<citation ref-type=\"bibr\" rid=\"CR52\" doi=\"10.1136/bmj.b5087\" pmid=\"20228141\" count=\"1\">52</citation>]. <sentence_start/>All HIV patients were eligible to receive IPT as long as they fulfilled screening criteria [<citation ref-type=\"bibr\" rid=\"CR24\" count=\"1\">24</citation>, <citation ref-type=\"bibr\" rid=\"CR25\" doi=\"10.1371/journal.pmed.1000391\" pmid=\"21267059\" pmcid=\"PMC3022524\" count=\"1\">25</citation>]. <sentence_start/>In this study, however, less than 20 % of the participants eligible for IPT received IPT, which may have created confounding by indication and this is difficult to address in observational studies [<citation ref-type=\"bibr\" rid=\"CR53\" doi=\"10.1016/j.jclinepi.2009.03.001\" pmid=\"19457638\" pmcid=\"PMC2789188\" count=\"1\">53</citation>]. <sentence_start/>The final model was adjusted for baseline covariates, although this does not control for effects of unmeasured confounders or time-varying confounders. <sentence_start/>Finally, many patients were lost to follow up and the underlying reasons for this could not be derived from the clinical charts or ART database. <sentence_start/>Importantly, there was little difference in the baseline characteristics between patients with and without loss to follow up and hence they were censored in the analysis."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In this retrospective cohort study, the combination of IPT and ART reduced the hazard of TB or death in HIV-infected patients by 60 % in comparison to treatment with ART alone. <sentence_start/>Due to high levels of ART adoption, it was not possible to make strong conclusion about the benefits of IPT alone in the absence of ART. <sentence_start/>Contrary to the evidence arising from this and other studies, uptake of IPT in routine practice is very low (&lt;20 %). <sentence_start/>We, therefore, recommend studies to determine the risk factors or predictors of the low IPT uptake, quantify the risk of isoniazid-resistant TB after IPT use, and elucidate the best strategies for (combined) initiation of IPT and ART."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "AIDS"
+  },
+  {
+   "section": "back",
+   "text": "Acquired Immunodeficiency Syndrome"
+  },
+  {
+   "section": "back",
+   "text": "ART"
+  },
+  {
+   "section": "back",
+   "text": "Antiretroviral Therapy"
+  },
+  {
+   "section": "back",
+   "text": "CI"
+  },
+  {
+   "section": "back",
+   "text": "Confidence Interval"
+  },
+  {
+   "section": "back",
+   "text": "HIV"
+  },
+  {
+   "section": "back",
+   "text": "Human Immunodeficiency Virus"
+  },
+  {
+   "section": "back",
+   "text": "HR"
+  },
+  {
+   "section": "back",
+   "text": "Hazard Ratio"
+  },
+  {
+   "section": "back",
+   "text": "IPT"
+  },
+  {
+   "section": "back",
+   "text": "Isoniazid Preventive Therapy"
+  },
+  {
+   "section": "back",
+   "text": "SPSS"
+  },
+  {
+   "section": "back",
+   "text": "Statistical Package for Social Sciences"
+  },
+  {
+   "section": "back",
+   "text": "TB"
+  },
+  {
+   "section": "back",
+   "text": "Tuberculosis"
+  },
+  {
+   "section": "back",
+   "text": "TST"
+  },
+  {
+   "section": "back",
+   "text": "Tuberculin Skin Test"
+  },
+  {
+   "section": "back",
+   "text": "WHO"
+  },
+  {
+   "section": "back",
+   "text": "World Health Organization"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Competing interest</bold>"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare that they have not competing interest."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Authors\u2019 contribution</bold>"
+  },
+  {
+   "section": "back",
+   "text": "HTA was involved in the conception, design, analysis, interpretation, and preparation of the manuscript. <sentence_start/>MM had been involved in the analysis and interpretation of the data, and extensively reviewed the manuscript. <sentence_start/>MJB had been involved in the conception and designing of the study, in the data analysis, interpretation of the data, and critically reviewed the manuscript. <sentence_start/>All authors read and approved the final manuscript."
+  }
+ ]
+}
