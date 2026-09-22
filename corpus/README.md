@@ -15,7 +15,11 @@ nothing has been fitted or selected against. One file per article
 
 `pmid`/`pmcid` are integers or `null`; `source` is `"pmc"` or `"pubmed"`;
 `section` is one of bioconverters' coarse categories (PMC:
-`title`/`subtitle`/`abstract`/`article`/`back`/`floating`).
+`title`/`subtitle`/`abstract`/`article`/`back`/`floating`). A passage may
+also carry an optional `note`: free text left by whoever corrected it,
+recording why a surprising annotation is the right one (a taxonomy
+passage where every internal period is `leg.`/`coll.`, say). Nothing
+reads it; it is there for the next person reviewing that passage.
 
 All PMC source articles are restricted to Creative Commons licenses that
 permit commercial use (CC BY / CC BY-SA / CC BY-ND / CC0), so this data can
