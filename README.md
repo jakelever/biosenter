@@ -96,6 +96,10 @@ or extend either are all included:
   the dataset schema and how it was built.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
   by PMCID), filtered to commercially-redistributable licenses by default.
+- `scripts/build_senter_corpus.py` -- turn fetched XML into corpus records
+  with boundaries bootstrapped from the current model, ready to correct.
+- `scripts/flag_boundaries.py` -- screen a split for likely boundary
+  mistakes (see `corpus/README.md`) before/after correcting it.
 - `scripts/prepare_pmc_senter_corpus.py` -- convert `corpus/{train,validation,test}`
   into spaCy training data.
 - `scripts/train_senter.py` -- train a new model.
