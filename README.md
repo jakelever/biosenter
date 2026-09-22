@@ -55,10 +55,11 @@ for meta, text in pmcxml2tagged('PMC1234567.xml'):
 
 ## Benchmarks
 
-Sentence-boundary F1 against `corpus/test/` (100 held-out PMC articles) excluding the formatting/citation handling.
+Sentence-boundary F1 against `corpus/validation/` (100 PMC articles held out
+from training) excluding the formatting/citation handling.
 The articles used to train and evaluate with were annotated by Claude Sonnet and Opus.
 
-| Model | `corpus/test/` |
+| Model | `corpus/validation/` |
 |---|---|
 | spaCy rule-based sentencizer | F1 0.9305 (P 0.9010, R 0.9620) |
 | `en_core_web_sm` | F1 0.9573 (P 0.9301, R 0.9861) |
@@ -71,7 +72,7 @@ name (they're all just installed spaCy packages):
 ```
 pip install en_core_web_sm  # or: python -m spacy download en_core_web_sm
 python scripts/evaluate_senter.py --models rule en_core_web_sm biosenter/model \
-  --pmc_eval_dir corpus/test
+  --pmc_eval_dir corpus/validation
 ```
 
 scispacy's released models pin to an older spaCy than biosenter requires
@@ -82,7 +83,7 @@ isolated environment for exactly this reason, so run it separately:
 pip install scispacy
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
 pip install --no-deps -e .  # biosenter itself, for split_into_sentences -- skip its spacy>=3.8 pin here
-python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpus/test
+python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpus/validation
 ```
 
 ## Retraining / evaluating
@@ -90,12 +91,12 @@ python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpus/
 The bundled model, the corpus it was trained on, and the tooling to rebuild
 or extend either are all included:
 
-- `corpus/train/` and `corpus/test/` -- 300 LLM-annotated PMC articles
-  used to train and score the bundled model. See `corpus/README.md` for
+- `corpus/train/`, `corpus/validation/` and `corpus/test/` -- LLM-annotated
+  PMC articles used to train, tune and score the bundled model. See `corpus/README.md` for
   the dataset schema and how it was built.
 - `scripts/fetch_pmc.py` -- fetch more PMC Open Access articles (random or
   by PMCID), filtered to commercially-redistributable licenses by default.
-- `scripts/prepare_pmc_senter_corpus.py` -- convert `corpus/{train,test}`
+- `scripts/prepare_pmc_senter_corpus.py` -- convert `corpus/{train,validation,test}`
   into spaCy training data.
 - `scripts/train_senter.py` -- train a new model.
 - `scripts/evaluate_senter.py` -- score a model against the hand-labelled
@@ -103,7 +104,7 @@ or extend either are all included:
 
 ```
 python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpus/train --out_path data/senter/pmc_train.spacy
-python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpus/test --out_path data/senter/pmc_val.spacy
+python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpus/validation --out_path data/senter/pmc_val.spacy
 python scripts/train_senter.py --data_dir data/senter --run_name my_run
 python scripts/evaluate_senter.py --models rule runs/my_run/model-best --pmc_eval_dir corpus/test --verbose
 ```

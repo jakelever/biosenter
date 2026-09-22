@@ -1,11 +1,10 @@
 # Sentence-splitter data
 
-`train/` and `test/` -- 200 and 100 PMC articles respectively, both real
-full text with hand-checked sentence boundaries. `train/` is what the
-bundled model is fit on; `test/` is held out from it, used both to pick
-the best checkpoint during training and to report the scores in the
-top-level README -- there's no separate, untouched final-scoring set.
-One file per article (`PMC<id>.json`):
+`train/` and `validation/` -- 200 and 100 PMC articles respectively, both
+real full text with hand-checked sentence boundaries. `train/` is what the
+bundled model is fit on; `validation/` is held out from it, used both to
+pick the best checkpoint during training and to report the scores in the
+top-level README. One file per article (`PMC<id>.json`):
 
 ```json
 {"pmid": 12345 | null, "pmcid": 67890, "source": "pmc",
@@ -74,5 +73,5 @@ automatically applied.
 ```
 python scripts/evaluate_senter.py \
   --models rule biosenter/model \
-  --pmc_eval_dir corpus/test --verbose
+  --pmc_eval_dir corpus/validation --verbose
 ```

@@ -5,7 +5,7 @@ from evaluate_senter import parse_boundaries
 
 from biosenter.sentences import split_into_sentences
 
-_TEST_CORPUS = Path(__file__).resolve().parent.parent / 'corpus' / 'test'
+_VALIDATION_CORPUS = Path(__file__).resolve().parent.parent / 'corpus' / 'validation'
 
 
 def _assert_splits_correctly(record):
@@ -74,11 +74,11 @@ def test_offsets_and_text_correct_for_bare_markup_characters():
 		assert text[start:end] == sentence
 
 
-def test_bundled_model_matches_hand_labelled_test_corpus():
-	# A couple of small, representative articles from corpus/test/ -- not
+def test_bundled_model_matches_hand_labelled_corpus():
+	# A couple of small, representative articles from corpus/validation/ -- not
 	# the full 75-article set (that's evaluate_senter.py's job), just a
 	# fast smoke test that the packaged model + pipeline agree with the
 	# gold data it was scored against.
 	for pmcid in ('PMC6840524', 'PMC4368106', 'PMC3479843'):
-		record = json.loads((_TEST_CORPUS / f'{pmcid}.json').read_text(encoding='utf8'))
+		record = json.loads((_VALIDATION_CORPUS / f'{pmcid}.json').read_text(encoding='utf8'))
 		_assert_splits_correctly(record)
