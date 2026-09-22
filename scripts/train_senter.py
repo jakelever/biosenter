@@ -25,6 +25,7 @@ def main():
 	parser.add_argument('--train', default='pmc_train.spacy', type=str, help='Training set filename within data_dir')
 	parser.add_argument('--val', default='pmc_val.spacy', type=str, help='Validation set filename within data_dir')
 	parser.add_argument('--gpu_id', default=-1, type=int, help='GPU to use, or -1 for CPU (the default: this model is small)')
+	parser.add_argument('--seed', default=None, type=int, help="Override the config's random seed. Runs of this model vary by a few tenths of an F1 point run to run, so it is worth training a few seeds and picking on the validation set rather than reading one run as the truth.")
 	args = parser.parse_args()
 
 	data_dir = Path(args.data_dir)
@@ -38,6 +39,7 @@ def main():
 		overrides={
 			'paths.train': str(data_dir / args.train),
 			'paths.dev': str(data_dir / args.val),
+			**({'system.seed': args.seed} if args.seed is not None else {}),
 		},
 	)
 
