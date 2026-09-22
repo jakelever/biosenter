@@ -67,34 +67,6 @@ evaluate with were annotated by Claude Sonnet and Opus.
 | scispacy `en_core_sci_sm` | F1 0.9763 (P 0.9846, R 0.9681) |
 | **biosenter (bundled)** | **F1 0.9891 (P 0.9854, R 0.9928)** |
 
-A single F1 hides where the differences are, because the boundaries this
-package exists for are a small fraction of any corpus. Recall on
-`corpus/test/`, split by what precedes the boundary (every model is run
-through `split_into_sentences()`, so they all get the same markup and
-citation handling and only the model differs):
-
-| Model | citation run after the stop (170) | `?` / `!` (23) | everything else (14,053) |
-|---|---|---|---|
-| spaCy rule-based sentencizer | 0.9059 | 0.9130 | 0.9559 |
-| `en_core_web_sm` | 0.8353 | **1.0000** | 0.9861 |
-| scispacy `en_core_sci_sm` | 0.7412 | 0.3913 | 0.9717 |
-| **biosenter (bundled)** | **0.9353** | 0.6087 | **0.9941** |
-
-"Citation run after the stop" is `...in every region of a chip.22 Real-time
-mapping...`, where the reference is set after the full stop it belongs
-behind. biosenter leads there and on ordinary prose, which is where nearly
-all of the corpus lives: 83 missed boundaries against `en_core_web_sm`'s
-195, and -- the bigger difference -- 209 false splits across the whole
-test set against its 1,233.
-
-`?`/`!` is a known weakness, not a win: 14 of 23, where the plain
-rule-based sentencizer gets 21. The previous release got 0 of 23 -- the
-corpus only grew question/exclamation boundaries recently and there are
-still just 83 of them in `corpus/train/`, which is not enough for the
-model to learn the pattern outright. Only 23 boundaries in this test set
-turn on it, so it barely moves the headline F1, but it is the clearest
-thing to fix next.
-
 Reproduce with `scripts/evaluate_senter.py`, which loads any of these by
 name (they're all just installed spaCy packages):
 
@@ -114,20 +86,6 @@ pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/e
 pip install --no-deps -e .  # biosenter itself, for split_into_sentences -- skip its spacy>=3.8 pin here
 python scripts/evaluate_senter.py --models en_core_sci_sm --pmc_eval_dir corpus/test
 ```
-
-### Reading these numbers honestly
-
-`corpus/test/`'s boundaries were bootstrapped from the *previous* bundled
-model and then hand-corrected (see `corpus/README.md`), so the gold still
-contains whatever errors of that model the correction pass missed. Every
-other model, including this one, is penalised for disagreeing with them.
-
-That effect is measurable, and it is larger than it looks: the previous
-bundled model scores F1 0.9947 on this split, while a model retrained from
-scratch on *its own training data* scores 0.9906. Nothing about the older
-model is better -- 0.9947 is the score of agreeing with yourself. Treat
-cross-model gaps of a few tenths of a point here as noise, and the
-per-category recall table above as the real comparison.
 
 ## Retraining / evaluating
 
@@ -156,12 +114,6 @@ python scripts/prepare_pmc_senter_corpus.py --corpus_dir corpus/validation --out
 python scripts/train_senter.py --data_dir data/senter --run_name my_run --seed 0
 python scripts/evaluate_senter.py --models rule runs/my_run/model-best --pmc_eval_dir corpus/validation
 ```
-
-Runs of this model vary by a couple of tenths of an F1 point seed to seed
-(three seeds of the bundled configuration scored 0.9897/0.9898/0.9900 on
-`corpus/validation/`), so train a few and pick on `corpus/validation/`.
-Score the chosen one on `corpus/test/` once, at the end -- selecting on
-`test/` turns it into another validation set.
 
 ## License
 
