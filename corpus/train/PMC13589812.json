@@ -1,0 +1,387 @@
+{
+ "pmid": 42764843,
+ "pmcid": 13589812,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Lipoprotein(a) as a Predictor of Major Adverse Cardiovascular Events: A Systematic Review and Meta-Analysis of Cohort Studies (2016-2026)"
+  },
+  {
+   "section": "abstract",
+   "text": "Lipoprotein(a) (Lp(a)) is a genetically determined, low-density lipoprotein-like particle now recognized as a causal contributor to atherosclerotic cardiovascular disease (ASCVD), yet the magnitude of its association with major adverse cardiovascular events (MACE) has not been quantitatively synthesized across the expanded cohort literature published since 2016."
+  },
+  {
+   "section": "abstract",
+   "text": "PubMed, Embase, Web of Science, Scopus, and Google Scholar were searched (2016-2026) for cohort or registry studies reporting adjusted associations between Lp(a) and MACE (myocardial infarction, ischemic stroke, heart failure, peripheral artery disease (PAD), aortic stenosis, or cardiovascular death). <sentence_start/>Screening and extraction followed Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidance; risk of bias was appraised using the Newcastle-Ottawa Scale (NOS); pooled hazard ratios (HRs) were estimated by random-effects (DerSimonian-Laird) meta-analysis of the highest-versus-reference-category comparison, with subgroup and small-study-effect analyses."
+  },
+  {
+   "section": "abstract",
+   "text": "Of 152 reports assessed for eligibility, 22 cohort/registry studies (collectively &gt;580,000 participants) met all criteria and were included for narrative synthesis, of which 13 contributed comparable estimates to quantitative pooling. <sentence_start/>Elevated Lp(a) was associated with significantly higher MACE risk (pooled HR, 1.61; 95% confidence interval {CI}, 1.41-1.85; I\u00b2 = 87%). <sentence_start/>Estimates were directionally consistent across prospective (HR: 1.76) and retrospective (HR: 1.74) designs and numerically higher for heart-failure-specific outcomes (HR: 1.82) than for composite atherosclerotic/recurrent-event outcomes (HR: 1.47), though neither subgroup difference reached statistical significance. <sentence_start/>Egger\u2019s regression showed no significant asymmetry (intercept p = 0.18). <sentence_start/>By NOS, 10/22 studies were high, 9/22 moderate, and 3/22 low quality."
+  },
+  {
+   "section": "abstract",
+   "text": "Elevated Lp(a) is consistently associated with increased MACE risk across contemporary cohort studies, though substantial heterogeneity and inconsistent effect-metric reporting limit precision. <sentence_start/>These findings reinforce guideline calls for Lp(a) testing while highlighting the need for standardized categorization and outcome definitions in future cohort research."
+  },
+  {
+   "section": "article",
+   "text": "Introduction and background"
+  },
+  {
+   "section": "article",
+   "text": "Lipoprotein(a) (Lp(a)) is a low-density lipoprotein-like particle distinguished by the covalent attachment of apolipoprotein(a) to apolipoprotein B-100, a structural feature that confers pro-atherogenic, pro-inflammatory, and antifibrinolytic properties beyond those of low-density lipoprotein cholesterol (LDL-C) alone [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehac361\" pmcid=\"PMC9639807\" pmid=\"36036785\" count=\"1\">1</citation>]. <sentence_start/>Plasma Lp(a) concentration is more than 80% genetically determined by the <italic>LPA</italic> gene locus, varies up to 1,000-fold between individuals, and is essentially unmodifiable by lifestyle or standard statin therapy, which distinguishes it from most other lipid risk factors addressed in preventive cardiology [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehac361\" pmcid=\"PMC9639807\" pmid=\"36036785\" count=\"1\">1</citation>,<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1016/j.acvd.2021.10.009\" pmid=\"34840125\" count=\"1\">2</citation>]. <sentence_start/>Genetic instrumental-variable analyses using apolipoprotein B-based modelling indicate that, on a per-particle basis, Lp(a) confers several-fold greater atherogenic risk than LDL particles [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2023.10.039\" pmcid=\"PMC7616706\" pmid=\"38233012\" count=\"1\">3</citation>], and the 2022 European Atherosclerosis Society (EAS) consensus statement, together with its 2023 clarification, formally designated elevated Lp(a) (&gt;125 nmol/L, approximately 50 mg/dL) as a causal, independent risk factor for atherosclerotic cardiovascular disease (ASCVD) and calcific aortic valve stenosis, recommending at least once-in-a-lifetime testing for every adult [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehac361\" pmcid=\"PMC9639807\" pmid=\"36036785\" count=\"1\">1</citation>,<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1016/j.atherosclerosis.2023.04.012\" pmid=\"37188555\" count=\"1\">4</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "This consensus has been echoed, with variable emphasis, by the National Lipid Association\u2019s 2024 focused update and by the Nouvelle Soci\u00e9t\u00e9 Francophone d'Ath\u00e9roscl\u00e9rose [<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1016/j.acvd.2021.10.009\" pmid=\"34840125\" count=\"1\">2</citation>,<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1016/j.jacl.2024.03.001\" pmid=\"38565461\" count=\"1\">5</citation>]; however, comparative analyses of major international dyslipidemia guidelines show meaningful divergence in how, and whether, Lp(a) is operationalized in risk stratification algorithms [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.3390/jcm11237249\" pmcid=\"PMC9737468\" pmid=\"36498823\" count=\"1\">6</citation>]. <sentence_start/>Clinical translation has lagged further still: the global surveillance of laboratory ordering patterns shows that Lp(a) testing, although rising, remains far below what guidelines recommend, with wide variation by region and specialty [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1016/j.ahj.2025.06.010\" pmid=\"40550301\" count=\"1\">7</citation>]. <sentence_start/>This gap matters clinically now, not only prospectively: several authors have argued that Lp(a) measurement is actionable for primary-prevention decision-making today, ahead of the availability of dedicated Lp(a)-lowering agents, because it reclassifies a meaningful proportion of intermediate-risk patients [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1016/j.ahjo.2025.100581\" pmcid=\"PMC12314393\" pmid=\"40757148\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A further layer of complexity is that the risk conferred by elevated Lp(a) does not appear uniform across populations or across specific cardiovascular endpoints. <sentence_start/>Sex-specific reviews highlight that women\u2019s Lp(a)-associated cardiovascular risk remains comparatively under-characterized, with suggestions that risk consolidates around the menopausal transition [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1016/j.jacadv.2026.102744\" pmcid=\"PMC13309330\" pmid=\"42059846\" count=\"1\">9</citation>]. <sentence_start/>In diabetes mellitus, the relationship is paradoxical rather than simply additive: several cohorts report an inverse association between Lp(a) and glycemic status, complicating the interpretation of Lp(a) as a risk marker in this population [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1016/j.atherosclerosis.2022.04.016\" pmid=\"35606077\" count=\"1\">10</citation>], a pattern also visible in stratified analyses of acute myocardial infarction cohorts where the Lp(a)-risk gradient differs markedly by age and sex [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1177/03000605261436667\" pmcid=\"PMC13153549\" pmid=\"42059449\" count=\"1\">11</citation>]. <sentence_start/>Outcome-specific systematic reviews that do exist, one confined to heart failure and one to peripheral artery disease (PAD), are each restricted to a single endpoint and do not resolve the question of how strongly, and how consistently, Lp(a) predicts the full spectrum of major adverse cardiovascular events (MACE) across outcome subtypes [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1007/s10741-023-10333-2\" pmid=\"37466712\" count=\"1\">12</citation>,<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1177/1358863X221091320\" pmid=\"35466849\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The evidentiary landscape has also expanded considerably in scale and diversity since the position statements above were finalized. <sentence_start/>A narrative accounting of the 2024 literature alone documents a marked acceleration in Lp(a)-focused publications, spanning newly reported multi-ethnic pooled cohorts, sex-stratified registries, and disease-specific (chronic kidney disease and diabetes) analyses that were not available to earlier synthesis efforts [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.5114/aoms/202213\" pmcid=\"PMC12087327\" pmid=\"40395905\" count=\"1\">14</citation>]. <sentence_start/>This expansion coincides with a maturing therapeutic pipeline; antisense oligonucleotide and small-interfering-RNA agents capable of lowering Lp(a) by 80%-90% are now in phase 3 cardiovascular outcome trials, whose eventual clinical utility will depend on accurate, outcome-specific baseline risk quantification of exactly the kind that a contemporary synthesis could provide [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1080/08998280.2025.2524791\" pmcid=\"PMC12351719\" pmid=\"40821459\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Lp(a)\u2019s causal role, guideline endorsement, and therapeutic relevance are therefore well-established; what remains missing is a quantitative, pooled estimate of its association with MACE across this expanded evidence base. <sentence_start/>Despite this convergence of causal biological evidence, guideline endorsement, and an accelerating therapeutic pipeline, no systematic review has yet quantitatively synthesized cohort-study evidence published across the full 2016-2026 window using a multi-outcome MACE definition (myocardial infarction, ischemic stroke, heart failure, peripheral artery disease, aortic stenosis, and cardiovascular death) rather than a single-endpoint focus. <sentence_start/>This is a consequential gap: without a pooled, outcome-stratified, and subgroup-resolved estimate, clinicians and guideline committees are left extrapolating from single-outcome reviews or from consensus statements that predate more than half of the currently available cohort evidence. <sentence_start/>The present systematic review and meta-analysis addresses this gap directly. <sentence_start/>We aimed to (i) quantify the pooled association between elevated Lp(a) and MACE across contemporary (2016-2026) cohort and registry studies; (ii) examine whether this association differs by outcome subtype, study design, sex, race/ethnicity, or comorbidity status; and (iii) appraise the methodological quality, heterogeneity, and small-study bias of the underlying evidence base so as to provide an updated, multi-outcome quantitative benchmark for Lp(a)-associated cardiovascular risk."
+  },
+  {
+   "section": "article",
+   "text": "Review"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Protocol and Registration"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis was conducted and is reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">16</citation>]. <sentence_start/>The review question and eligibility criteria were specified a priori using a population, intervention, comparison, outcome, and study design (PICOS) framework, consistent with the study protocol. <sentence_start/>This review was not prospectively registered with the International Prospective Register of Systematic Reviews (PROSPERO)."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility Criteria"
+  },
+  {
+   "section": "article",
+   "text": "Eligible studies were prospective or retrospective cohort and registry studies enrolling adults (\u226518 years), from either general-population or defined clinical cohorts (e.g., chronic kidney disease, diabetes mellitus, and established cardiovascular disease), that reported an exposure of elevated plasma Lp(a) (by any assay, threshold, or continuous scale) compared with a lower/reference Lp(a) category and an outcome of MACE, defined as a composite or individual endpoint of myocardial infarction, ischemic stroke, heart failure, peripheral artery disease, aortic stenosis, or cardiovascular death. <sentence_start/>Eligible reports were published in English between 2016 and 2026. <sentence_start/>Case-control studies, cross-sectional studies, narrative or systematic reviews, and analyses whose source population was assembled under randomized-controlled-trial (RCT) eligibility criteria (i.e., secondary/exploratory biomarker analyses nested within an RCT) were excluded, as such designs cannot be appraised on an equal methodological footing with naturally occurring cohort/registry designs using the Newcastle-Ottawa Scale (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Information Sources and Search Strategy"
+  },
+  {
+   "section": "article",
+   "text": "A structured search was executed across PubMed (February 1-13, 2026), Embase (February 15-18, 2026), Web of Science (February 19-28, 2026), Scopus (March 1-7, 2026), and Google Scholar (March 8-18, 2026), combining controlled vocabulary and free-text terms for \u201clipoprotein(a)\u201d with terms for cardiovascular outcomes (\u201ccardiovascular\u201d, \u201ccoronary\u201d, \u201cmyocardial infarction\u201d, \u201cstroke\u201d, \u201cheart failure\u201d, \u201caortic stenosis\u201d, and \u201cperipheral artery disease\u201d) and study design (\u201ccohort\u201d, \u201cprospective\u201d, \u201clongitudinal\u201d, and \u201cfollow-up\u201d), restricted to 2016-2026, English language, and (where filterable) human studies and journal articles. <sentence_start/>The search yielded 313, 65, 293, 162, and 283 records from PubMed, Embase, Web of Science, Scopus, and Google Scholar, respectively (total n = 1,116). <sentence_start/>Full search syntax for each database is provided in the Appendices."
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "Following the automated de-duplication and removal of records ineligible on automation-tool screening or other pre-specified reasons, two reviewers independently screened titles and abstracts against the eligibility criteria; 317 reports were sought for full-text retrieval, of which 152 were retrieved and formally assessed for eligibility. <sentence_start/>At full-text review, 130 reports were excluded: 87 for lacking usable exposure/outcome data; 27 as commentaries, editorials, or narrative reviews rather than primary studies (including one mechanistic review later confirmed unsuitable for cohort-specific appraisal [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.3390/biom9120760\" pmcid=\"PMC6995555\" pmid=\"31766423\" count=\"1\">17</citation>]); 14 as survey-design or cross-sectional-design reports; one for using a case-control (not cohort) sampling design [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1177/03000605261436667\" pmcid=\"PMC13153549\" pmid=\"42059449\" count=\"1\">11</citation>]; and one for being a secondary, exploratory biomarker analysis nested within a randomized-controlled-trial-enrolled population rather than a naturally recruited cohort or registry [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1016/j.jchf.2025.102843\" pmid=\"41411481\" count=\"1\">18</citation>]. <sentence_start/>This yielded a final set of 22 cohort/registry studies included in the review, all of which provided data suitable for both narrative synthesis and risk-of-bias appraisal. <sentence_start/>The PRISMA 2020 flow diagram is shown in Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA 2020 flow diagram of study identification, screening, and inclusion"
+  },
+  {
+   "section": "article",
+   "text": "*Records identified from database searching only; no trial or study registers were searched"
+  },
+  {
+   "section": "article",
+   "text": "**Automation tools applied database-specific filters (publication date, language, document type, and human studies) prior to manual screening"
+  },
+  {
+   "section": "article",
+   "text": "WoS, Web of Science; PRISMA, Preferred Reporting Items for Systematic Reviews and Meta-Analyses"
+  },
+  {
+   "section": "article",
+   "text": "Data Extraction"
+  },
+  {
+   "section": "article",
+   "text": "Data were extracted independently using a standardized, piloted extraction form capturing study identifiers, country/cohort of origin, study design, sample size, Lp(a) assay method and cut-off/categorization, outcome definition(s), follow-up duration, the adjusted effect estimate with its 95% confidence interval (CI), and the covariates included in the fullest reported adjustment model."
+  },
+  {
+   "section": "article",
+   "text": "Risk-of-Bias Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Methodological quality and risk of bias were appraised using the Newcastle-Ottawa Scale (NOS) for cohort studies, which rates studies across three domains, selection (maximum of four stars), comparability (maximum of two stars), and outcome (maximum of three stars), for a maximum total of nine stars, with studies classified as high (7-9), moderate (4-6), or low (0-3) methodological quality [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s10654-010-9491-z\" pmid=\"20652370\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Data Synthesis and Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "For quantitative synthesis, we extracted, for each study, the single most \u201coverall\u201d adjusted hazard ratio (HR) comparing the highest reported Lp(a) category with the lowest/reference category. <sentence_start/>Where a study reported only sex- or race-stratified estimates without an aggregate overall figure, the stratified estimates were combined into a single study-level estimate using fixed-effect inverse-variance pooling prior to inclusion in the primary analysis; the corresponding stratum-specific estimates are also presented separately in text. <sentence_start/>Studies that reported only a continuous per-unit association, only a subgroup-restricted finding, or an effect estimate without a usable 95% CI were not quantitatively poolable and were synthesized narratively only. <sentence_start/>Pooled estimates and their 95% CIs were calculated on the log-HR scale using the random-effects DerSimonian-Laird method, which was the primary pre-specified model given the anticipated clinical and methodological heterogeneity across cohorts [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/0197-2456(86)90046-2\" pmid=\"3802833\" count=\"1\">20</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Between-study heterogeneity was quantified using Cochran\u2019s Q and the I\u00b2 statistic, with I\u00b2 values of approximately 25%, 50%, and 75% interpreted as low, moderate, and high heterogeneity, respectively [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1002/sim.1186\" pmid=\"12111919\" count=\"1\">21</citation>]. <sentence_start/>Pre-specified subgroup analyses stratified pooled estimates by study design and by cardiovascular outcome domain. <sentence_start/>Small-study effects and potential publication bias were assessed via funnel plot inspection and Egger\u2019s regression test [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1136/bmj.315.7109.629\" pmcid=\"PMC2127453\" pmid=\"9310563\" count=\"1\">22</citation>]. <sentence_start/>All analyses were conducted in Python (SciPy/Statsmodels, version 3.11; Python Software Foundation, Fredericksburg, VA) implementing standard random-effects meta-analytic formulae; because fewer than 10 studies reported estimates for any single non-composite outcome subtype, planned meta-regression across all pre-specified moderators simultaneously was not statistically well-powered and was reduced to the univariable subgroup comparisons reported here. <sentence_start/>Formal tests of subgroup difference (Cochran\u2019s Q-based) were applied to each comparison. <sentence_start/>Sensitivity analyses comprised a 95% prediction interval, leave-one-out re-estimation, the exclusion of low-quality (NOS) studies, and a Hartung-Knapp adjustment to the random-effects model. <sentence_start/>Studies used heterogeneous Lp(a) categorization (percentile-based, fixed mg/dL or nmol/L cut-offs, or cohort-specific splits); pooling used each study\u2019s own highest-versus-reference contrast rather than a harmonized absolute threshold, meaning comparability across studies is relative, not absolute."
+  },
+  {
+   "section": "article",
+   "text": "Result"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "The search and selection process is summarized in the PRISMA 2020 flow diagram (Figure 1). <sentence_start/>Of 1,116 records identified, 22 cohort/registry studies met final eligibility and data-extraction criteria and were included in this review, collectively enrolling more than 580,000 participants across general-population, sex-stratified, multi-ethnic, chronic-kidney-disease, and diabetes-specific cohorts. <sentence_start/>Studies originated from North America (k = 9), Europe (k = 6), and East Asia (k = 7), spanning publication years 2016-2026, with follow-up durations ranging from a median of 186 days (in a small single-center heart-failure cohort) to a mean of 21 years (in a five-cohort US pooled analysis). <sentence_start/>Thirteen of the 22 studies (59%) reported a single, comparable adjusted effect estimate for a highest-versus-reference Lp(a) comparison and were included in quantitative pooling; the remaining nine studies reported either a continuous per-unit association, a subgroup-restricted estimate without an overall figure, an effect estimate lacking a usable 95% CI, or an outcome expressed on a non-hazard-ratio metric and were synthesized narratively."
+  },
+  {
+   "section": "article",
+   "text": "Study Characteristics"
+  },
+  {
+   "section": "article",
+   "text": "Lp(a) assay methods and cut-offs varied considerably across studies, precluding a single universal exposure definition: Several large Scandinavian cohorts used percentile-based categorization derived from the Copenhagen General Population Study and Copenhagen City Heart Study reference distributions [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.jchf.2015.08.006\" pmid=\"26656145\" count=\"1\">23</citation>-<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2023.10.009\" pmid=\"38057068\" count=\"1\">25</citation>], US-based registries more commonly used fixed mass-concentration thresholds (e.g., &lt;30 and \u226550 mg/dL) [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.1161/JAHA.124.035353\" pmcid=\"PMC12184545\" pmid=\"40240882\" count=\"1\">26</citation>,<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1016/j.cardfail.2025.03.016\" pmcid=\"PMC12354129\" pmid=\"40189094\" count=\"1\">27</citation>], and several East Asian single-center or multicenter cohorts used study-specific median or tertile splits [<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.5935/abc.20190120\" pmcid=\"PMC6777886\" pmid=\"31340235\" count=\"1\">28</citation>-<citation rid=\"REF30\" ref-type=\"bibr\" doi=\"10.1186/s12933-020-01083-8\" pmcid=\"PMC7350185\" pmid=\"32646432\" count=\"1\">30</citation>]. <sentence_start/>This heterogeneity in exposure definition, rather than any single dominant convention, is itself a notable descriptive finding of the assembled evidence base and is returned to in the Discussion (see Table 2 for full assay and cut-off detail by study)."
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias Within Studies"
+  },
+  {
+   "section": "article",
+   "text": "Risk-of-bias appraisal using the NOS (Table 3) classified 10 of 22 studies (45%) as high methodological quality (7-9 stars), nine (41%) as moderate quality (4-6 stars), and three (14%) as low quality (0-3 stars). <sentence_start/>The three low-quality studies shared a common pattern: A case-cohort sampling design scored conservatively on selection [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1161/JAHA.121.025397\" pmcid=\"PMC9238745\" pmid=\"35621195\" count=\"1\">33</citation>], and two small single-/limited-center retrospective cohorts scored 1/4 on selection and 1/2 on comparability owing to nonconsecutive recruitment and limited covariate adjustment relative to the largest cohorts in the sample [<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1016/j.cardfail.2025.03.016\" pmcid=\"PMC12354129\" pmid=\"40189094\" count=\"1\">27</citation>,<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.5935/abc.20190120\" pmcid=\"PMC6777886\" pmid=\"31340235\" count=\"1\">28</citation>]. <sentence_start/>Comparability scores of 0/2 were recorded for one large, extensively adjusted general-population cohort despite a multivariable model reported in the original publication [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.jchf.2015.08.006\" pmid=\"26656145\" count=\"1\">23</citation>], a discrepancy that appears inconsistent with the depth of adjustment reported for methodologically similar large Scandinavian cohorts in this same review [<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2023.10.009\" pmid=\"38057068\" count=\"1\">25</citation>,<citation rid=\"REF40\" ref-type=\"bibr\" doi=\"10.1016/j.xkme.2023.100648\" pmcid=\"PMC10363548\" pmid=\"37492110\" count=\"1\">40</citation>] and that we flag here as warranting reaudit rather than as a substantive finding about that study\u2019s underlying methodology."
+  },
+  {
+   "section": "article",
+   "text": "Meta-Analysis of Lp(a) and Composite MACE"
+  },
+  {
+   "section": "article",
+   "text": "The pooling of the 13 studies contributing a comparable highest-versus-reference-category estimate showed that elevated Lp(a) was associated with a significantly increased risk of MACE, with a random-effects pooled hazard ratio of 1.61 (95% CI: 1.41-1.85) (Figure 2). <sentence_start/>Heterogeneity was substantial (I\u00b2 = 87.2%, \u03c4\u00b2 = 0.037, Cochran\u2019s Q = 94.0, degrees of freedom {df} = 12, and p &lt; 0.0001), indicating that the true underlying effect varies meaningfully across populations, outcome definitions, and Lp(a) categorization schemes rather than reflecting sampling error alone. <sentence_start/>Individual study estimates ranged from a non-significant HR of 1.04 (95% CI: 0.95-1.15) in a chronic-kidney-disease cohort assessing recurrent events [<citation rid=\"REF40\" ref-type=\"bibr\" doi=\"10.1016/j.xkme.2023.100648\" pmcid=\"PMC10363548\" pmid=\"37492110\" count=\"1\">40</citation>] to a markedly elevated, wide-interval HR of 3.43 (95% CI: 1.43-8.27) in a secondary-prevention cohort assessed over an early (18-month) follow-up window [<citation rid=\"REF35\" ref-type=\"bibr\" doi=\"10.3389/fcvm.2025.1571395\" pmcid=\"PMC12279821\" pmid=\"40697997\" count=\"1\">35</citation>]. <sentence_start/>The single largest contributing study by weight, a 273,770-participant US claims-based registry, reported a comparatively tight and clinically consistent estimate of HR of 1.45 (95% CI: 1.39-1.51) for recurrent atherosclerotic events [<citation rid=\"REF38\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehaf297\" pmcid=\"PMC12634116\" pmid=\"40331569\" count=\"1\">38</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of the random-effects meta-analysis of Lp(a) and MACE"
+  },
+  {
+   "section": "article",
+   "text": "Random-effects (DerSimonian-Laird) meta-analysis of 13 studies reporting a comparable highest-versus-reference-category adjusted hazard ratio for Lp(a) and major adverse cardiovascular events (MACE)"
+  },
+  {
+   "section": "article",
+   "text": "\u2020Colantonio et al. (2022) [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1161/JAHA.121.025397\" pmcid=\"PMC9238745\" pmid=\"35621195\" count=\"1\">33</citation>] and Kaur et al. (2025) [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.1161/JAHA.124.035353\" pmcid=\"PMC12184545\" pmid=\"40240882\" count=\"1\">26</citation>] estimates reflect fixed-effect inverse-variance pooling of their reported race- or sex-stratified estimates, as no single overall estimate was reported in the original publication. <sentence_start/>Square markers are proportional to the random-effects weight; diamond represents the pooled estimate"
+  },
+  {
+   "section": "article",
+   "text": "CHD, coronary heart disease; ASCVD, atherosclerotic cardiovascular disease; CKD, chronic kidney disease; CV, cardiovascular; HF, heart failure; CVE, cardiovascular event; T2DM, type 2 diabetes mellitus; PAD, peripheral artery disease; CI, confidence interval; Lp(a), lipoprotein(a); HR, hazard ratio"
+  },
+  {
+   "section": "article",
+   "text": "Subgroup Analyses"
+  },
+  {
+   "section": "article",
+   "text": "In subgroup analysis by study design, the pooled association was numerically almost identical between prospective cohorts (k = 8; HR: 1.76; 95% CI: 1.36-2.27; I\u00b2 = 88.6%) and retrospective cohorts (k = 4; HR: 1.74; 95% CI: 1.36-2.22; I\u00b2 = 79.8%); a formal test of subgroup difference was not significant (Qb = 0.00; p = 0.958), indicating no evidence that recall or ascertainment bias inherent to retrospective designs systematically inflated or attenuated the observed Lp(a)-MACE association in this dataset. <sentence_start/>By outcome domain, the pooled estimate was numerically higher for heart-failure-specific outcomes (k = 3; HR: 1.82; 95% CI: 1.22-2.70; I\u00b2 = 72.6%) [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.jchf.2015.08.006\" pmid=\"26656145\" count=\"1\">23</citation>,<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1016/j.cardfail.2025.03.016\" pmcid=\"PMC12354129\" pmid=\"40189094\" count=\"1\">27</citation>,<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.5935/abc.20190120\" pmcid=\"PMC6777886\" pmid=\"31340235\" count=\"1\">28</citation>] than for composite/recurrent atherosclerotic-MACE outcomes (k = 8; HR: 1.47; 95% CI: 1.26-1.71; I\u00b2 = 89.5%) [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.1161/JAHA.124.035353\" pmcid=\"PMC12184545\" pmid=\"40240882\" count=\"1\">26</citation>,<citation rid=\"REF30\" ref-type=\"bibr\" doi=\"10.1186/s12933-020-01083-8\" pmcid=\"PMC7350185\" pmid=\"32646432\" count=\"1\">30</citation>,<citation rid=\"REF32\" ref-type=\"bibr\" doi=\"10.1111/joim.20095\" pmcid=\"PMC12159711\" pmid=\"40309928\" count=\"1\">32</citation>,<citation rid=\"REF35\" ref-type=\"bibr\" doi=\"10.3389/fcvm.2025.1571395\" pmcid=\"PMC12279821\" pmid=\"40697997\" count=\"1\">35</citation>,<citation rid=\"REF37\" ref-type=\"bibr\" doi=\"10.1016/j.jacasi.2024.07.007\" pmcid=\"PMC11561479\" pmid=\"39553905\" count=\"1\">37</citation>,<citation rid=\"REF41\" ref-type=\"bibr\" doi=\"10.3390/diagnostics14232757\" pmcid=\"PMC11640375\" pmid=\"39682665\" count=\"1\">41</citation>,<citation rid=\"REF42\" ref-type=\"bibr\" doi=\"10.3389/fneur.2022.1004264\" pmcid=\"PMC9671150\" pmid=\"36408516\" count=\"1\">42</citation>,<citation rid=\"REF44\" ref-type=\"bibr\" doi=\"10.1161/STROKEAHA.121.034924\" pmid=\"35410491\" count=\"1\">44</citation>], though this difference was also not statistically significant (Qb = 1.21; p = 0.272). <sentence_start/>These two subgroupings are non-exhaustive partitions of the 13 pooled studies: Colantonio et al. (2022) [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1161/JAHA.121.025397\" pmcid=\"PMC9238745\" pmid=\"35621195\" count=\"1\">33</citation>] (case-cohort design) falls outside the prospective/retrospective dichotomy, and Thomas et al. (2023) [<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2023.10.009\" pmid=\"38057068\" count=\"1\">25</citation>] (PAD) and Wang et al. (2022) [<citation rid=\"REF42\" ref-type=\"bibr\" doi=\"10.3389/fneur.2022.1004264\" pmcid=\"PMC9671150\" pmid=\"36408516\" count=\"1\">42</citation>] (mixed vascular outcomes) fall outside the two named outcome domains. <sentence_start/>Given the small number of studies contributing to the heart-failure subgroup (k = 3) and the non-significant formal tests, both subgroup comparisons should be interpreted as exploratory and hypothesis-generating rather than confirmatory."
+  },
+  {
+   "section": "article",
+   "text": "Publication and Small-Study Bias"
+  },
+  {
+   "section": "article",
+   "text": "The visual inspection of the funnel plot (Figure 3) showed a broadly symmetric, though sparse, distribution of the 13 pooled estimates around the pooled effect, with the two smallest, widest-interval studies positioned at the base of the funnel as expected under a genuine effect with normal small-study variability [<citation rid=\"REF41\" ref-type=\"bibr\" doi=\"10.3390/diagnostics14232757\" pmcid=\"PMC11640375\" pmid=\"39682665\" count=\"1\">41</citation>,<citation rid=\"REF42\" ref-type=\"bibr\" doi=\"10.3389/fneur.2022.1004264\" pmcid=\"PMC9671150\" pmid=\"36408516\" count=\"1\">42</citation>]. <sentence_start/>Egger\u2019s regression test did not detect statistically significant funnel plot asymmetry (intercept, 1.46; standard error, 1.03; p = 0.18), providing no strong statistical evidence of publication or small-study bias; however, with only 13 studies contributing to this test, statistical power to detect such bias was limited, and this result should be interpreted as reassuring rather than definitive."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Funnel plot for the assessment of small-study effects"
+  },
+  {
+   "section": "article",
+   "text": "Funnel plot of log(hazard ratio) against standard error (SE) for the 13 studies contributing to the primary meta-analysis. <sentence_start/>The shaded region denotes the 95% pseudo-confidence region around the pooled random-effects estimate. <sentence_start/>Egger\u2019s regression intercept = 1.46 (SE: 1.03); p = 0.18"
+  },
+  {
+   "section": "article",
+   "text": "Sensitivity Analyses"
+  },
+  {
+   "section": "article",
+   "text": "To assess the robustness of the pooled estimate, we conducted four additional analyses. <sentence_start/>The 95% prediction interval was 1.03-2.53, indicating that the true effect in a new, similarly conducted study is expected to remain above 1.0 in most but not all settings. <sentence_start/>Leave-one-out re-estimation produced pooled HRs ranging from 1.52 to 1.70 across all 13 iterations, with no single study altering the direction or significance of the overall finding. <sentence_start/>Excluding the three low-quality studies by NOS (Colantonio et al. (2022) [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1161/JAHA.121.025397\" pmcid=\"PMC9238745\" pmid=\"35621195\" count=\"1\">33</citation>], Yadalam et al. (2025) [<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1016/j.cardfail.2025.03.016\" pmcid=\"PMC12354129\" pmid=\"40189094\" count=\"1\">27</citation>], and Yan et al. (2019) [<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.5935/abc.20190120\" pmcid=\"PMC6777886\" pmid=\"31340235\" count=\"1\">28</citation>]) yielded a pooled HR of 1.68 (95% CI, 1.43-1.98; k = 10), consistent with the main analysis. <sentence_start/>A Hartung-Knapp adjustment, which is more conservative under substantial heterogeneity, gave a pooled HR of 1.61 (95% CI: 1.31-1.99), widening the confidence interval but leaving the point estimate and overall conclusion unchanged."
+  },
+  {
+   "section": "article",
+   "text": "Studies Not Amenable to Quantitative Pooling"
+  },
+  {
+   "section": "article",
+   "text": "Nine studies could not be incorporated into the quantitative pooling above but contributed important corroborating or contextualizing findings. <sentence_start/>A single-cardiology-unit cohort of 2,110 patients found that Lp(a) of &gt;30 mg/dL did not confer a worse prognosis in the overall population, but the Kaplan-Meier subgroup analysis identified a significantly worse prognosis specifically among women with type 2 diabetes (HR, 2.9; 95% CI, 1.1-7.7), a subgroup-restricted finding without an overall pooled estimate suitable for the primary synthesis [<citation rid=\"REF34\" ref-type=\"bibr\" doi=\"10.3390/jcm12030764\" pmcid=\"PMC9918149\" pmid=\"36769413\" count=\"1\">34</citation>]. <sentence_start/>A large aortic-stenosis progression cohort reported a continuous association between Lp(a) strata and annualized change in peak aortic-jet velocity rather than a categorical hazard ratio for a discrete clinical event [<citation rid=\"REF32\" ref-type=\"bibr\" doi=\"10.1111/joim.20095\" pmcid=\"PMC12159711\" pmid=\"40309928\" count=\"1\">32</citation>]. <sentence_start/>A retrospective single-center cohort of low-cardiovascular-risk men reported an 8% increase in cardiovascular disease risk per 5 mg/dL increment in Lp(a), independent of LDL-C, but did not report a categorical highest-versus-lowest hazard ratio [<citation rid=\"REF36\" ref-type=\"bibr\" doi=\"10.6515/ACS.202205_38(3).20211225A\" pmcid=\"PMC9121757\" pmid=\"35673336\" count=\"1\">36</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A single-center aortic-stenosis cohort of 44,742 patients confirmed a substantial burden of incident severe aortic stenosis and subsequent valve replacement associated with Lp(a) elevation, but the specific adjusted hazard ratio and cut-off were not retrievable from the publicly available abstract at the time of this synthesis [<citation rid=\"REF34\" ref-type=\"bibr\" doi=\"10.3390/jcm12030764\" pmcid=\"PMC9918149\" pmid=\"36769413\" count=\"1\">34</citation>]. <sentence_start/>A pooled analysis of three well-established US cohorts (ARIC, MESA, and the Framingham Offspring Study) found that the Lp(a)-heart failure association was statistically significant among White but not Black participants, a race-stratified qualitative finding without a single pooled numeric estimate suitable for quantitative synthesis [<citation rid=\"REF39\" ref-type=\"bibr\" doi=\"10.1161/JAHA.124.038608\" pmcid=\"PMC12229190\" pmid=\"40417812\" count=\"1\">39</citation>]. <sentence_start/>The Copenhagen General Population Study\u2019s sex-stratified analysis similarly reported that Lp(a)-associated morbidity/mortality risk converges between women and men above age 50 without a single reportable aggregate hazard ratio [<citation rid=\"REF24\" ref-type=\"bibr\" doi=\"10.1016/j.atherosclerosis.2022.06.1023\" pmid=\"35803767\" count=\"1\">24</citation>]. <sentence_start/>A routine clinical practice cohort of recurrent myocardial infarction reported a significant hazard ratio for the highest Lp(a) tertile but without an accompanying 95% confidence interval in the available report [<citation rid=\"REF39\" ref-type=\"bibr\" doi=\"10.1161/JAHA.124.038608\" pmcid=\"PMC12229190\" pmid=\"40417812\" count=\"1\">39</citation>]. <sentence_start/>A large Chinese stroke registry (n = 9,899) reported that the Lp(a)-recurrence association was modified by LDL-cholesterol-corrected and inflammatory (interleukin-6) strata rather than presenting a single overall hazard ratio [<citation rid=\"REF44\" ref-type=\"bibr\" doi=\"10.1161/STROKEAHA.121.034924\" pmid=\"35410491\" count=\"1\">44</citation>]. <sentence_start/>Finally, a percutaneous-coronary-intervention cohort of 10,435 patients reported that renal function (estimated glomerular filtration rate) modified the Lp(a)-major adverse cardiac and cerebrovascular event relationship, again without a single pooled estimate suitable for the primary quantitative synthesis [<citation rid=\"REF29\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfae032\" pmcid=\"PMC10906361\" pmid=\"38435350\" count=\"1\">29</citation>]. <sentence_start/>Full study-level detail for all 22 included studies, poolable and non-poolable alike, is provided in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "Notable Subgroup-Level Findings"
+  },
+  {
+   "section": "article",
+   "text": "Two further findings from the individual-study data merit explicit note because they qualify, rather than simply support, the pooled estimate above. <sentence_start/>First, in the largest available REGARDS-based race-stratified analysis, the Lp(a)-ischemic stroke association reached statistical significance in Black participants (HR, 1.96; 95% CI, 1.10-3.46) but not in White participants (HR, 1.14; 95% CI, 0.64-2.04), with a formal test for race interaction that did not reach the pre-specified threshold for statistical significance (P for interaction = 0.12) [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1161/JAHA.121.025397\" pmcid=\"PMC9238745\" pmid=\"35621195\" count=\"1\">33</citation>]; this finding should therefore be read as suggestive of, rather than as confirming, race-based effect modification. <sentence_start/>Second, in a chronic-kidney-disease cohort, the overall Lp(a)-recurrent-ASCVD association was null (HR, 1.04; 95% CI, 0.95-1.15) but became significant when restricted to participants without diabetes (HR, 1.23; 95% CI, 1.02-1.48), while no association was observed among those with diabetes, a pattern consistent with the broader literature on an atypical, nonadditive Lp(a)-diabetes relationship [<citation rid=\"REF37\" ref-type=\"bibr\" doi=\"10.1016/j.jacasi.2024.07.007\" pmcid=\"PMC11561479\" pmid=\"39553905\" count=\"1\">37</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Summary of Main Findings"
+  },
+  {
+   "section": "article",
+   "text": "In this systematic review and meta-analysis of 22 contemporary (2016-2026) cohort and registry studies, elevated Lp(a) was associated with a 61% relative increase in the pooled risk of MACE (HR, 1.61; 95% CI, 1.41-1.85), with the association directionally consistent across prospective and retrospective designs and numerically strongest for heart-failure-specific outcomes. <sentence_start/>This synthesis extends and updates the existing outcome-restricted systematic reviews confined to heart failure or peripheral artery disease alone by pooling cohort evidence across the full post-2016 literature using a multi-outcome MACE definition rather than a single-endpoint focus [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1007/s10741-023-10333-2\" pmid=\"37466712\" count=\"1\">12</citation>,<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1177/1358863X221091320\" pmid=\"35466849\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Comparison With Existing Literature"
+  },
+  {
+   "section": "article",
+   "text": "Our pooled estimate is broadly concordant with, though somewhat higher in magnitude than, existing single-outcome syntheses: A systematic review restricted to patients with ischemic heart disease reported pooled hazard ratios for MACE in the 1.2-1.4 range depending on the comparator used [<citation rid=\"REF45\" ref-type=\"bibr\" doi=\"10.7759/cureus.72776\" pmcid=\"PMC11608083\" pmid=\"39618579\" count=\"1\">45</citation>], and a dedicated meta-analysis of calcific aortic valve stenosis progression similarly found consistently increased hazards in the highest Lp(a) strata [<citation rid=\"REF46\" ref-type=\"bibr\" doi=\"10.1001/jamacardio.2024.1882\" pmcid=\"PMC11255972\" pmid=\"39018080\" count=\"1\">46</citation>]. <sentence_start/>The comparatively higher pooled estimate observed here likely reflects both the inclusion of higher-risk secondary-prevention and disease-specific cohorts (chronic kidney disease, established coronary disease, and prior stroke), alongside general-population cohorts, and the substantial heterogeneity (I\u00b2 = 87%) that our random-effects model explicitly accommodates rather than masks. <sentence_start/>This heterogeneity is not a methodological artifact so much as a direct reflection of how differently \u201celevated Lp(a)\u201d was operationalized across the assembled evidence base, percentile-based in Scandinavian cohorts, fixed mass-concentration thresholds in North American registries, and cohort-specific median splits in several East Asian studies, a heterogeneity in exposure definition that mirrors, at the level of primary data, the same lack of guideline consensus on Lp(a) risk thresholds noted in comparative reviews of international dyslipidemia guidelines [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.3390/jcm11237249\" pmcid=\"PMC9737468\" pmid=\"36498823\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Race, Sex, and Comorbidity as Effect Modifiers"
+  },
+  {
+   "section": "article",
+   "text": "The two most clinically salient subgroup signals identified here, a race-stratified stroke risk gradient stronger in Black than White participants [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1161/JAHA.121.025397\" pmcid=\"PMC9238745\" pmid=\"35621195\" count=\"1\">33</citation>] and an inverted, diabetes-attenuated risk pattern in a chronic-kidney-disease cohort [<citation rid=\"REF37\" ref-type=\"bibr\" doi=\"10.1016/j.jacasi.2024.07.007\" pmcid=\"PMC11561479\" pmid=\"39553905\" count=\"1\">37</citation>], both align with an emerging picture in the broader Lp(a) literature in which the size of the risk conferred, not merely its presence, differs by ancestry and metabolic phenotype. <sentence_start/>Racial disparities in Lp(a)-attributable atherosclerotic burden have been documented at a population level in the ARIC study [<citation rid=\"REF47\" ref-type=\"bibr\" doi=\"10.1161/CIRCULATIONAHA.124.069582\" pmid=\"39008561\" count=\"1\">47</citation>], and subclinical coronary-plaque imaging data from the Miami Heart Study similarly point to ancestry-related heterogeneity in how Lp(a) translates into vascular disease burden [<citation rid=\"REF48\" ref-type=\"bibr\" doi=\"10.1161/CIRCIMAGING.123.016152\" pmid=\"39012945\" count=\"1\">48</citation>]. <sentence_start/>The paradoxical attenuation of Lp(a)-associated risk in the presence of diabetes mirrors prior epidemiological observations of an inverse Lp(a)-glycemia relationship and is consistent with mechanistic hypotheses that hyperglycemia-driven changes in apolipoprotein(a) glycation or clearance may partially uncouple circulating Lp(a) concentration from its usual atherogenic signal in this population, a hypothesis our review can flag but not test directly, given the observational, aggregate-level nature of the included data [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1016/j.atherosclerosis.2022.04.016\" pmid=\"35606077\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The Heart-Failure Signal"
+  },
+  {
+   "section": "article",
+   "text": "The numerically stronger pooled association for heart-failure-specific outcomes (HR: 1.82) than for composite atherosclerotic-MACE outcomes (HR: 1.47) is a pattern worth highlighting cautiously, given it rests on only three pooled studies [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.jchf.2015.08.006\" pmid=\"26656145\" count=\"1\">23</citation>,<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1016/j.cardfail.2025.03.016\" pmcid=\"PMC12354129\" pmid=\"40189094\" count=\"1\">27</citation>,<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.5935/abc.20190120\" pmcid=\"PMC6777886\" pmid=\"31340235\" count=\"1\">28</citation>]. <sentence_start/>Nonetheless, it is directionally consistent with a growing recognition that Lp(a) and its co-transported oxidized phospholipids may contribute to heart failure risk through mechanisms only partly overlapping with classical atherothrombotic pathways, for example, via aortic-valve and myocardial calcific/inflammatory processes, rather than through coronary atherosclerosis alone. <sentence_start/>This is an area where an RCT-nested secondary analysis found that baseline Lp(a) was associated with a worsening heart-failure-with-preserved-ejection-fraction trajectory even within a population already selected for established heart failure [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1016/j.jchf.2025.102843\" pmid=\"41411481\" count=\"1\">18</citation>]; although we excluded this study from our primary quantitative synthesis because its RCT-derived sampling frame is not methodologically comparable to a naturally recruited cohort, its qualitative direction of effect is concordant with the heart-failure-specific signal identified in our pooled cohort data and merits attention in future dedicated heart-failure-focused synthesis."
+  },
+  {
+   "section": "article",
+   "text": "Atrial Fibrillation (AF): An Uncaptured Outcome"
+  },
+  {
+   "section": "article",
+   "text": "A further outcome not systematically captured by the composite MACE definition used across the included studies, and, by extension, not reflected in our pooled estimate, is atrial fibrillation (AF). <sentence_start/>Mendelian randomization and large observational analyses have identified a plausibly causal association between elevated Lp(a) and incident (new-onset) AF, without routine distinction between paroxysmal and established/persistent subtypes [<citation rid=\"REF49\" ref-type=\"bibr\" doi=\"10.1016/S0735-1097(22)02570-0\" pmcid=\"PMC9584800\" pmid=\"35450575\" count=\"1\">49</citation>], a finding subsequently corroborated in a dedicated meta-analysis of Mendelian randomization studies [<citation rid=\"REF50\" ref-type=\"bibr\" doi=\"10.1016/j.cpcardiol.2023.102024\" pmid=\"37553064\" count=\"1\">50</citation>] and extended to AF-related ischemic stroke risk in a further systematic review [<citation rid=\"REF51\" ref-type=\"bibr\" doi=\"10.3390/jcm14217851\" pmcid=\"PMC12609657\" pmid=\"41227245\" count=\"1\">51</citation>]. <sentence_start/>Because AF was not a pre-specified MACE component in any of our 22 included studies, our pooled estimate should be understood as a lower-bound characterization of the total Lp(a)-attributable cardiovascular burden; future multi-outcome reviews may benefit from explicitly incorporating AF as a distinct endpoint, alongside the classical atherothrombotic and heart-failure outcomes considered here."
+  },
+  {
+   "section": "article",
+   "text": "Therapeutic and Translational Implications"
+  },
+  {
+   "section": "article",
+   "text": "Antisense oligonucleotide (pelacarsen) and small-interfering-RNA (olpasiran) agents capable of lowering Lp(a) by 80%-90% have progressed through phase 2 dose-finding [<citation rid=\"REF52\" ref-type=\"bibr\" doi=\"10.1001/jamacardio.2024.5433\" pmcid=\"PMC11822594\" pmid=\"39937508\" count=\"1\">52</citation>,<citation rid=\"REF53\" ref-type=\"bibr\" doi=\"10.1016/j.jacl.2025.06.004\" pmid=\"40781022\" count=\"1\">53</citation>] and are now in phase 3 cardiovascular-outcome trials [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1080/08998280.2025.2524791\" pmcid=\"PMC12351719\" pmid=\"40821459\" count=\"1\">15</citation>,<citation rid=\"REF54\" ref-type=\"bibr\" doi=\"10.1007/s12170-025-00759-8\" pmcid=\"PMC12282488\" pmid=\"40703143\" count=\"1\">54</citation>], building on earlier evidence that Lp(a)-lowering may independently reduce cardiovascular events [<citation rid=\"REF55\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehaa649\" pmcid=\"PMC7724642\" pmid=\"33051646\" count=\"1\">55</citation>-<citation rid=\"REF58\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2211023\" pmid=\"36342163\" count=\"1\">58</citation>]. <sentence_start/>The clinical utility of these agents will depend on identifying which patients and outcome types stand to benefit most; our heart-failure signal raises the testable question of whether Lp(a)-lowering trials should incorporate heart-failure-specific endpoints, alongside atherosclerotic MACE."
+  },
+  {
+   "section": "article",
+   "text": "Strengths"
+  },
+  {
+   "section": "article",
+   "text": "This review has several strengths. <sentence_start/>It quantitatively pools cohort evidence across a multi-outcome MACE definition spanning the full 2016-2026 literature rather than a single cardiovascular endpoint. <sentence_start/>Data extraction and risk-of-bias appraisal followed a standardized, piloted protocol and the PRISMA 2020 reporting framework [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">16</citation>]; quantitative synthesis used a conservative, pre-specified random-effects model appropriate to the observed clinical and methodological heterogeneity, and we transparently separated studies amenable to quantitative pooling from those requiring narrative synthesis rather than forcing noncomparable effect metrics into a single artificial pooled figure, a distinction that we believe improves, rather than diminishes, the interpretability of the resulting estimate."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "Several limitations warrant emphasis. <sentence_start/>First, and most importantly, only 13 of 22 included studies (59%) contributed a directly comparable point estimate to quantitative pooling; the remaining nine studies used continuous exposures, reported only subgroup-restricted estimates, or omitted a usable confidence interval, and while we believe that the narrative synthesis of these was the methodologically honest choice, it necessarily means that our pooled hazard ratio does not represent the entirety of the included evidence base. <sentence_start/>Second, between-study heterogeneity was substantial (I\u00b2 = 87%) and only partially explained by the design and outcome-domain subgroups we were able to test; heterogeneity in Lp(a) assay method, categorization threshold, and outcome ascertainment likely contributes further unexplained variance that our data could not formally partition via meta-regression, given the limited number of studies available per outcome subtype. <sentence_start/>Third, our subgroup analyses, particularly the heart-failure-specific pooled estimate (k = 3), are based on small numbers of studies and should be regarded as hypothesis-generating. <sentence_start/>Fourth, Egger\u2019s test for small-study effects, while reassuring, was likewise underpowered at k = 13 studies. <sentence_start/>Fifth, eligibility was restricted to English-language publications, which may have excluded relevant cohort evidence published in other languages, particularly from East Asian and Latin American sources. <sentence_start/>Finally, as with any aggregate-data synthesis, we could not adjust for inter-study differences in confounder sets at the individual-patient level, and residual confounding cannot be excluded even for the most extensively adjusted contributing cohorts."
+  },
+  {
+   "section": "article",
+   "text": "Implications for Practice and Future Research"
+  },
+  {
+   "section": "article",
+   "text": "For clinical practice, these findings reinforce existing guideline recommendations for at least once-in-a-lifetime Lp(a) testing while suggesting that risk communication may benefit from being outcome-specific rather than presented as a single undifferentiated cardiovascular risk multiplier, particularly given the numerically distinct heart-failure signal identified here [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehac361\" pmcid=\"PMC9639807\" pmid=\"36036785\" count=\"1\">1</citation>,<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1016/j.jacl.2024.03.001\" pmid=\"38565461\" count=\"1\">5</citation>]. <sentence_start/>This may be particularly relevant in populations, such as those in the Gulf region, with a high background prevalence of premature coronary disease and type 2 diabetes, where the diabetes-attenuated risk pattern observed in our chronic-kidney-disease subgroup analysis suggests that Lp(a) risk stratification may need to be interpreted differently, rather than uniformly, across comorbidity strata [<citation rid=\"REF37\" ref-type=\"bibr\" doi=\"10.1016/j.jacasi.2024.07.007\" pmcid=\"PMC11561479\" pmid=\"39553905\" count=\"1\">37</citation>]. <sentence_start/>For future research, our findings point to three concrete priorities: the harmonization of Lp(a) categorization thresholds and units (mg/dL versus nmol/L) across cohort studies to enable more precise future pooling; the explicit incorporation of atrial fibrillation as a distinct, pre-specified outcome in future Lp(a)-cardiovascular cohort analyses; and dedicated, adequately powered heart-failure-focused cohort or trial sub-study analyses to confirm or refute the outcome-domain signal identified in this review."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Across a diverse set of contemporary cohort and registry studies, elevated lipoprotein(a) was consistently associated with an increased risk of major adverse cardiovascular events, and this association remained directionally stable across sensitivity analyses. <sentence_start/>The finding was directionally robust across prospective and retrospective designs and appeared numerically, though not statistically significant, strongest for heart-failure-specific outcomes; however, substantial between-study heterogeneity and heterogeneous exposure definitions limit the precision of any single summary estimate. <sentence_start/>As Lp(a)-lowering therapies advance through late-phase clinical trials, standardized, outcome-specific cohort reporting will be essential to translate this causal risk factor into precise, actionable clinical risk stratification."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> Juri Khalid Shiha, Ziad Tariq M. Bahwini, Yousef Sami J. AlNowaimi, Abdulqader Hani F. Alkathiri, Amna Alrwili, Talal Taiseer Aljuhani"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> Juri Khalid Shiha, Mostafa Ahmed M. Safar, Ziad Tariq M. Bahwini, Yousef Sami J. AlNowaimi, Abdulqader Hani F. Alkathiri, Rafif A. Almatrafy, Amna Alrwili, Talal Taiseer Aljuhani"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Juri Khalid Shiha, Ibrahim Fouad A. Aljohani, Mansour Hasen Alkhammash, Anmar Yasser Z. Rambo, Ahmed Ghazi A. Aljuhani, Faez Mutiq A. Aljohani, Baraa Faiez Rajab"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> Ibrahim Fouad A. Aljohani, Mansour Hasen Alkhammash, Mostafa Ahmed M. Safar, Anmar Yasser Z. Rambo, Ahmed Ghazi A. Aljuhani, Rafif A. Almatrafy, Faez Mutiq A. Aljohani, Baraa Faiez Rajab"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Supervision:</bold> Baraa Faiez Rajab"
+  },
+  {
+   "section": "back",
+   "text": "Appendices"
+  },
+  {
+   "section": "back",
+   "text": "Table 4 shows the supplementary file."
+  }
+ ]
+}
