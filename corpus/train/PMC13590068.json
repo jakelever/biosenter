@@ -1,0 +1,507 @@
+{
+ "pmid": 42765105,
+ "pmcid": 13590068,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "TRAQ in clinical practice: A narrative review for health care transition readiness"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Advances in medical care have dramatically improved survival rates for children and youth with special health care needs (SHCN), with more than 90% now reaching adulthood. <sentence_start/>As a result, pediatric-to-adult health care transition has become a critical component of lifespan care. <sentence_start/>Despite national consensus recommendations, fewer than one in four adolescents receive the transition services needed to prepare them for adult-oriented care. <sentence_start/>Standardized, validated instruments to assess and promote transition readiness are essential to close this gap."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "This review describes the practical application of the Transition Readiness Assessment Questionnaire (TRAQ) in ambulatory care settings, to guide clinicians in its administration, interpretation, and integration with evidence-based counseling strategies."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "This narrative review synthesizes published literature and the authors' collective clinical experience implementing the TRAQ across ambulatory transition programs. <sentence_start/>Sources include the three successive TRAQ validation studies, national consensus guidelines, and behavior change literature underpinning the instrument's theoretical framework. <sentence_start/>The Transtheoretical Model of Behavior Change and Motivational Interviewing are presented alongside a structured clinical framework for iterative assessment, goal-setting, and follow-up."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "The TRAQ is a validated, theory-driven instrument spanning four behavioral domains of health and health care self-management. <sentence_start/>It supports providers in systematically evaluating readiness, identifying skill gaps, and facilitating self-management development across adolescence. <sentence_start/>Practical guidance is provided for score interpretation, stage-matched counseling approaches, and a TRAQ Companion Individualized Transition Plan (ITP) for structured goal documentation and follow-up."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Systematic use of the TRAQ within a structured transition counseling framework enables clinicians to evaluate readiness and tailor interventions to each youth's stage of change. <sentence_start/>Integration of the TRAQ and its companion ITP into routine ambulatory practice represents an evidence-informed approach to improving health care transition outcomes for adolescents and young adults (AYAs) with SHCN."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "According to the 2022-2023 National Survey of Children's Health, more than 1 in 4 children (26.2%) in the United States have special health care needs (SHCN).<citation rid=\"bib1\" ref-type=\"bibr\" pmid=\"41505590\" count=\"1\"><sup>1</sup></citation> <sentence_start/>Advances in health care have improved the survival of children with SHCN, with more than 90% now reaching adulthood.<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.1542/peds.2018-2587\" pmid=\"30348754\" count=\"1\"><sup>2</sup></citation><sup>,</sup><citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.1001/jama.297.24.2755\" pmid=\"17595277\" count=\"1\"><sup>3</sup></citation> <sentence_start/>As a result, the transition from pediatric to adult care has become a critical component of lifespan health care.<citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1016/j.jadohealth.2012.01.007\" pmid=\"22921130\" count=\"1\"><sup>4</sup></citation> <sentence_start/>Health care transition (HCT) has been defined as \u201cpurposeful, planned movement of adolescents and young adults with chronic physical and medical conditions from child-centered care to an adult-oriented health care systems\u201d.<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/1054-139x(93)90143-d\" pmid=\"8312295\" count=\"1\"><sup>5</sup></citation> <sentence_start/>Despite this recognition, national surveys indicate that only 21.7% of all adolescents (including those with SHCN) ages 12-17 receive the services necessary to prepare for transitioning to adult health care.<citation rid=\"bib6\" ref-type=\"bibr\" count=\"1\"><sup>6</sup></citation> <sentence_start/>Those services include a provider discussing changing to an adult health care provider, encouraging youth self-management (e.g., taking medication, talking to doctors), and helping develop a transition plan."
+  },
+  {
+   "section": "article",
+   "text": "Many adolescents and young adults (AYAs) struggle to adapt to the increased autonomy required for disease or health self-management and for interacting with providers independently as they leave pediatric care.<citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1016/j.jadohealth.2012.01.007\" pmid=\"22921130\" count=\"1\"><sup>4</sup></citation><sup>,</sup><citation rid=\"bib7\" ref-type=\"bibr\" doi=\"10.1111/j.1399-3046.2007.00689.x\" pmid=\"17663682\" count=\"1\">7</citation>, <citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1016/j.pedn.2020.01.002\" pmid=\"31981969\" count=\"1\">8</citation>, <citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.1016/j.jadohealth.2020.02.006\" pmid=\"32331627\" count=\"1\">9</citation>, <citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1186/1546-0096-7-13\" pmid=\"19505332\" pmcid=\"PMC2700108\" count=\"1\">10</citation> Studies have demonstrated that many AYAs with SHCN have not developed the general or disease-specific self-management skills necessary for successful transition, resulting in gaps in care and declines in health outcomes.<citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1016/j.pedn.2020.01.002\" pmid=\"31981969\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1186/1546-0096-7-13\" pmid=\"19505332\" pmcid=\"PMC2700108\" count=\"1\"><sup>10</sup></citation><sup>,</sup><citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1111/j.1399-3046.2010.01349.x\" pmid=\"20598086\" pmcid=\"PMC2951493\" count=\"1\"><sup>11</sup></citation> Recent consensus clinical reports and longitudinal studies of HCT across multiple conditions have identified robust transition planning and the promotion of \u201ctransition readiness\u201d, defined as the acquisition of self-management skills enabling youth to manage their own health and health care needs, as key indicators of successful HCT.<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.1542/peds.2018-2587\" pmid=\"30348754\" count=\"1\"><sup>2</sup></citation><sup>,</sup><citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1016/j.pedn.2020.01.002\" pmid=\"31981969\" count=\"1\"><sup>8</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "As defined by national consensus guidelines, transition readiness assessment encompasses the ongoing evaluation and promotion of health and health care self-management skills across several key domains: understanding one's health needs (both disease-specific and preventive), mastering self-management activities, navigating the health care system (including scheduling appointments and managing medications or medical equipment), and understanding and maintaining health insurance.<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.1542/peds.2018-2587\" pmid=\"30348754\" count=\"1\"><sup>2</sup></citation> <sentence_start/>Integration of standardized readiness assessment instruments, such as the Transition Readiness Assessment Questionnaire (TRAQ), into routine clinical care beginning at age 12 is recommended,<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.1542/peds.2018-2587\" pmid=\"30348754\" count=\"1\"><sup>2</sup></citation> and higher transition readiness has been associated with improved clinical outcomes, including fewer disease relapses and hospitalizations, better treatment adherence, and successful transfer to adult care. <citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1177/17562848241241234\" pmcid=\"PMC11143856\" pmid=\"38827647\" count=\"1\">12</citation>, <citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1002/jha2.70208\" pmcid=\"PMC12915469\" pmid=\"41716294\" count=\"1\">13</citation>, <citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.3233/PRM-180595\" pmid=\"31744032\" count=\"1\">14</citation>"
+  },
+  {
+   "section": "article",
+   "text": "The TRAQ was developed by our team across three successive iterations, each building upon prior psychometric and clinical evidence.<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1016/j.pedn.2021.04.019\" pmid=\"34020387\" count=\"1\">15</citation>, <citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1016/j.acap.2014.03.008\" pmid=\"24976354\" count=\"1\">16</citation>, <citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.1093/jpepsy/jsp128\" pmid=\"20040605\" pmcid=\"PMC3415980\" count=\"1\">17</citation> The instrument has since been adopted across diverse clinical settings and patient populations, adapted for diagnosis-specific use, and employed as both a process and outcome measure in numerous research projects examining HCT.<citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1177/17562848241241234\" pmcid=\"PMC11143856\" pmid=\"38827647\" count=\"1\"><sup>12</sup></citation><sup>,</sup><citation rid=\"bib18\" ref-type=\"bibr\" doi=\"10.1097/MIB.0000000000001038\" pmid=\"28178002\" count=\"1\">18</citation>, <citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1016/j.jpurol.2026.105920\" pmid=\"42013720\" count=\"1\">19</citation>, <citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.3233/PRM-180599\" pmid=\"31744033\" count=\"1\">20</citation>, <citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.1136/bmjqs-2013-002364\" pmcid=\"PMC4449274\" pmid=\"24415776\" count=\"1\">21</citation>, <citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1016/j.reumae.2025.501917\" pmid=\"40921513\" count=\"1\">22</citation>, <citation rid=\"bib23\" ref-type=\"bibr\" doi=\"10.1002/epi4.12427\" pmid=\"32913956\" pmcid=\"PMC7469762\" count=\"1\">23</citation>, <citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.2196/91763\" pmcid=\"PMC13293475\" pmid=\"42341234\" count=\"1\">24</citation> Having received numerous requests from clinicians for practical guidance on operationalizing the TRAQ, the authors present this review to describe the theoretical underpinnings of the instrument, provide guidance on its administration and interpretation, and outline evidence-informed counseling strategies for promoting transition readiness in clinical settings."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "As a narrative review, this article did not employ a systematic review protocol. <sentence_start/>Sources were purposively selected based on the authors' roles as developers of the TRAQ and their collective experience implementing it in clinical practice, and included the three successive TRAQ validation studies, national consensus guidelines on health care transition, and foundational behavior change literature. <sentence_start/>Purposive selection was supplemented by a structured PubMed search conducted August 25, 2026, using the following search sequence: (\"Transition Readiness Assessment Questionnaire\"[Title/Abstract] OR \"TRAQ\"[Title/Abstract]) AND (\"transition\"[Title/Abstract] OR \"transition to adult care\"[MeSH Terms]). <sentence_start/>The search covered database inception through the search date with no language restrictions and returned 149 records, which the authors screened for psychometric evaluations, diagnosis-specific and transcultural adaptations, and clinical applications of the instrument; relevant articles identified through this process were incorporated into the review."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Theoretical framework"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "The transtheoretical model of behavior change"
+  },
+  {
+   "section": "article",
+   "text": "The TRAQ was developed within the theoretical framework of the Transtheoretical Model (TTM) of Behavior Change.<citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.4278/0890-1171-12.1.38\" pmid=\"10170434\" count=\"1\"><sup>25</sup></citation> <sentence_start/>Each item employs a 5-point Likert response scale corresponding to the five stages of change: Precontemplation, Contemplation, Preparation, Action, and Maintenance. <sentence_start/>Understanding these stages is essential for interpreting TRAQ scores and tailoring clinical interventions accordingly."
+  },
+  {
+   "section": "article",
+   "text": "In the Precontemplation stage (score = 1), individuals do not intend to act in the foreseeable future and may be unaware that a skill deficit exists. <sentence_start/>Youth in this stage respond: \u201cNo, I do not know how.\u201d <sentence_start/>The Contemplation stage (score = 2) is characterized by awareness of a need and active consideration of change, though without a commitment to act; youth at this stage indicate: \u201cNo, but I want to learn.\u201d At the Preparation stage (score = 3), individuals intend to act imminently and have begun making small behavioral steps toward change; at this stage youth respond: \u201cNo, but I am learning to do this.\u201d <sentence_start/>The Action stage (score = 4) involves active modification of behavior, typically sustained for less than six months; youth at this stage respond: \u201cYes, I have started doing this.\u201d <sentence_start/>Finally, the Maintenance stage (score = 5) reflects consistent, sustained behavior change maintained for more than six months; youth at this stage respond: \u201cYes, I always do this when I need to.\u201d"
+  },
+  {
+   "section": "article",
+   "text": "When administering the TRAQ, providers are encouraged to review these response levels aloud with the youth, confirm comprehension, and clarify definitions as needed. <sentence_start/>This practice establishes a shared language for behavior change and lays the foundation for productive goal-setting conversations throughout subsequent visits."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Motivational interviewing"
+  },
+  {
+   "section": "article",
+   "text": "Motivational Interviewing (MI) provides the complementary communication framework for translating TRAQ scores into behavior change. <sentence_start/>MI engages youth by meeting them at their current stage of readiness, affirming their autonomy, and evoking and supporting autonomous motivation. <sentence_start/>Youth at different stages of the TTM require tailored counseling strategies informed by MI principles. <sentence_start/>Clinicians are encouraged to consult established MI training resources and to apply MI techniques consistently across transition encounters.<citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.1542/pir.33-9-e57\" pmid=\"22942370\" count=\"1\">26</citation>, <citation rid=\"bib27\" ref-type=\"bibr\" doi=\"10.1016/j.pec.2016.08.027\" pmid=\"27599713\" pmcid=\"PMC5318209\" count=\"1\">27</citation>, <citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.1016/j.pedn.2022.05.001\" pmid=\"35568602\" count=\"1\">28</citation>"
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "The TRAQ: instrument overview and psychometric properties"
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Domains and item content"
+  },
+  {
+   "section": "article",
+   "text": "The current version of the TRAQ (version 6.0; see Appendix 1) comprises items across four empirically derived domains, each reflecting behaviors, rather than knowledge, central to independent health and health care self-management. <sentence_start/>The focus on observable behaviors reflects a deliberate theoretical choice to operationalize the TTM within the instrument and does not preclude the parallel provision of disease-specific health education. <sentence_start/>The four domains are:"
+  },
+  {
+   "section": "article",
+   "text": "Managing Medications: Items addressing the ability to obtain or reorder prescriptions, communicate with pharmacists regarding medication use, drug interactions, and side effects."
+  },
+  {
+   "section": "article",
+   "text": "Appointment Keeping: Items covering the ability to schedule appointments, follow up on referrals or test results, arrange transportation, and contact the provider regarding changes in health status."
+  },
+  {
+   "section": "article",
+   "text": "Tracking Health Issues: Items related to completing medical history forms, maintaining a calendar or medication list, communicating health concerns to the provider, participating in medical decision-making, and attending portions of appointments independently."
+  },
+  {
+   "section": "article",
+   "text": "Talking with Providers: Items assessing the ability to ask and answer clinical questions, request clarification, describe one\u2019s health history, and communicate adherence to the care plan."
+  },
+  {
+   "section": "article",
+   "text": "Domain content and item phrasing were developed through iterative input from HCT providers and youth. <sentence_start/>Across its three iterations, the TRAQ has demonstrated strong internal consistency at the total and domain level, with its factor structure confirmed through exploratory and confirmatory factor analysis in large samples of adolescents and young adults with diverse special health care needs.<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1016/j.pedn.2021.04.019\" pmid=\"34020387\" count=\"1\">15</citation>, <citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1016/j.acap.2014.03.008\" pmid=\"24976354\" count=\"1\">16</citation>, <citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.1093/jpepsy/jsp128\" pmid=\"20040605\" pmcid=\"PMC3415980\" count=\"1\">17</citation> A systematic review of transition readiness instruments identified the TRAQ as among the most extensively validated measures available.<citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1186/1471-2431-14-4\" pmcid=\"PMC3898257\" pmid=\"24405982\" count=\"1\"><sup>29</sup></citation> <sentence_start/>Independent validations have extended this evidence to additional populations, including adolescents and young adults with inflammatory bowel disease<citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1097/MPG.0000000000003868\" pmid=\"37347146\" count=\"1\"><sup>30</sup></citation> and youth receiving mental health services.<citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.1111/cch.13035\" pmid=\"35838020\" pmcid=\"PMC10087053\" count=\"1\"><sup>31</sup></citation> <sentence_start/>Evidence for predictive validity is emerging: higher TRAQ scores have been associated with successful transfer to adult care in sickle cell disease,<citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1002/jha2.70208\" pmcid=\"PMC12915469\" pmid=\"41716294\" count=\"1\"><sup>13</sup></citation> with improved clinical outcomes including fewer relapses and hospitalizations in inflammatory bowel disease,<citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1177/17562848241241234\" pmcid=\"PMC11143856\" pmid=\"38827647\" count=\"1\"><sup>12</sup></citation> and with clinical outcomes among youth with spina bifida using the TRAQ-SB.<citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.3233/PRM-180595\" pmid=\"31744032\" count=\"1\"><sup>14</sup></citation> <sentence_start/>The TRAQ has also been adopted internationally, with validated translations and transcultural adaptations including Japanese,<citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1111/ped.14086\" pmid=\"31820509\" count=\"1\"><sup>32</sup></citation> Brazilian Portuguese,<citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1016/j.jped.2017.12.013\" pmid=\"29457995\" count=\"1\"><sup>33</sup></citation> Argentine Spanish,<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.5546/aap.2017.eng.18\" pmid=\"28097836\" count=\"1\"><sup>34</sup></citation> and Mexican Spanish,<citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1016/j.reumae.2025.501917\" pmid=\"40921513\" count=\"1\"><sup>22</sup></citation> among others, supporting its use across health systems and cultural contexts. <sentence_start/>Written at a 6th-grade reading level, the TRAQ is designed to be accessible across a broad range of literacy levels. <sentence_start/>The instrument also includes two supplemental questions assessing the youth\u2019s perceived importance of developing self-management skills and their confidence in doing so, constructs aligned with the MI framework of importance and self-efficacy."
+  },
+  {
+   "section": "article",
+   "text": "4.2"
+  },
+  {
+   "section": "article",
+   "text": "Administration and frequency"
+  },
+  {
+   "section": "article",
+   "text": "The TRAQ is designed for repeated administration over time, ideally every six months and at minimum annually, beginning at age 12-14. <sentence_start/>Administration within a transition counseling visit, which, with sufficient practice, can be accomplished in 10-15 min, is readily integrable into busy ambulatory practices when responsibilities are distributed across clerical and clinical staff.<citation rid=\"bib35\" ref-type=\"bibr\" doi=\"10.1016/j.hctj.2026.100141\" pmcid=\"PMC13224000\" pmid=\"42232365\" count=\"1\"><sup>35</sup></citation> <sentence_start/>Ideally, youth should complete the instrument independently and without parental assistance to obtain the most accurate self-report; however, parental input may be used to verify or revise reported scores during the review phase."
+  },
+  {
+   "section": "article",
+   "text": "When a youth\u2019s developmental or literacy level precludes independent completion, the instrument may be administered verbally by a staff member, or a caregiver may complete it on the youth\u2019s behalf, based on the youth\u2019s demonstrated abilities. <sentence_start/>For youth with complex physical or cognitive limitations who will require ongoing assistance with self-management tasks, the caregiver and youth may be considered a functional \u201cteam,\u201d and the assessment completed jointly to evaluate the team\u2019s collective competence in transition-relevant activities. <sentence_start/>Prior TRAQ scores should be reviewed at each subsequent visit to confirm progress or identify persistent areas where improvement can be encouraged."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Clinical implementation framework"
+  },
+  {
+   "section": "article",
+   "text": "5.1"
+  },
+  {
+   "section": "article",
+   "text": "Introducing health care transition in early adolescence"
+  },
+  {
+   "section": "article",
+   "text": "Between ages 12 and 14, providers should begin introducing HCT as a routine topic at each encounter. <sentence_start/>Initial transition education includes orienting youth and their families to the concept of health care transition, providing foundational resources (e.g., informational materials from Got Transition), and introducing the TRAQ. <sentence_start/>Providers should explain the instrument\u2019s four domains, review the five response categories and their behavioral meanings, and invite the youth to complete the instrument independently. <sentence_start/>In the authors' practice, responsibilities are distributed to minimize provider burden: clerical or clinical support staff distribute the TRAQ at check-in, and youth complete it in approximately 5 min; a nurse, medical assistant, or transition coordinator scores the instrument in 1-2 min; and the provider or transition coordinator reviews results, facilitates goal-setting, and documents the plan within the 10-15 min counseling encounter described above. <sentence_start/>Post-visit telephone or portal follow-up, typically conducted by the transition coordinator or clinical staff, requires approximately 5-10 min per patient. <sentence_start/>Specific role assignments will vary by setting; in practices without a dedicated transition coordinator, these functions may be shared across existing nursing and clinical support staff. <sentence_start/>Fig. 1 presents the iterative clinical workflow used by the authors to guide the ongoing assessment, education, and goal-setting process. <sentence_start/>The center-top box starts the process with giving out two handouts: an overview of the transition process (10 steps) and information about maintaining insurance during transition. <sentence_start/>These handouts can be found at but should be adapted for local use. <sentence_start/>The TRAQ is given at this step in the process.<sentence_start/>Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Iterative TRAQ Clinical Workflow. <sentence_start/>Stepwise workflow guiding clinicians through transition readiness assessment, stage-matched counseling, and individualized goal-setting across ambulatory visits, repeating iteratively as the youth progresses through adolescence. <sentence_start/>TRAQ = Transition Readiness Assessment Questionnaire; EHR = electronic health record."
+  },
+  {
+   "section": "article",
+   "text": "5.2"
+  },
+  {
+   "section": "article",
+   "text": "Interpreting TRAQ scores and guiding goal-setting"
+  },
+  {
+   "section": "article",
+   "text": "TRAQ scores are most meaningfully interpreted in longitudinal context, analogous to monitoring growth on a developmental growth chart.<citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.3171/2019.7.FOCUS19425\" pmid=\"31574471\" count=\"1\"><sup>36</sup></citation> <sentence_start/>The strongest predictor of TRAQ scores is age, reflecting the cognitive developmental transition from concrete to formal operations that enables forward planning and new skill acquisition. <sentence_start/>Targeted interventions to promote self-management skills, in addition to developmental maturation, are associated with improvements in TRAQ scores over time.<citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1177/17562848241241234\" pmcid=\"PMC11143856\" pmid=\"38827647\" count=\"1\"><sup>12</sup></citation><sup>,</sup><citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.1093/jpepsy/jsp128\" pmid=\"20040605\" pmcid=\"PMC3415980\" count=\"1\"><sup>17</sup></citation><sup>,</sup><citation rid=\"bib37\" ref-type=\"bibr\" doi=\"10.1097/MCG.0000000000001644\" pmid=\"34907925\" count=\"1\">37</citation>, <citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1016/j.dhjo.2022.101427\" pmid=\"36621354\" count=\"1\">38</citation>, <citation rid=\"bib39\" ref-type=\"bibr\" doi=\"10.3389/fped.2022.983367\" pmcid=\"PMC9554476\" pmid=\"36245732\" count=\"1\">39</citation>, <citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1016/j.hctj.2026.100143\" pmcid=\"PMC13254931\" pmid=\"42291480\" count=\"1\">40</citation>, <citation rid=\"bib41\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2021-048756\" pmcid=\"PMC8006854\" pmid=\"33771833\" count=\"1\">41</citation>"
+  },
+  {
+   "section": "article",
+   "text": "When youth consistently achieve average domain scores of 4.0 or higher, this indicates readiness to assume full responsibility for health and health care self-management and supports a transition to adult-oriented care. <sentence_start/>The following guidance is offered for each scoring range:"
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "For youth with average domain scores of 1-2 (Precontemplation to early Contemplation), the provider should explore the youth\u2019s broader life goals and identify how self-management skill development supports those aspirations (e.g., driving, attending college, employment). <sentence_start/>Goals should be modest, achievable, and broken into small steps, for example, watching a brief instructional video about a target skill."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "For youth scoring in the 2-3 range (Contemplation to early Preparation), providers should begin by affirming what the youth is already doing, then collaboratively identify a single additional step toward a new goal. <sentence_start/>As the youth demonstrates readiness for further development, the provider may shift toward a coaching stance (e.g., \u201cThat\u2019s a great idea, let\u2019s talk about how to make it happen.\u201d)."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "For youth scoring 3-4 (Preparation to Action), the provider assumes a full coaching role. <sentence_start/>The focus at this stage is on reinforcing prior accomplishments and encouraging the youth to pursue new goals that extend independence across all TRAQ domains."
+  },
+  {
+   "section": "article",
+   "text": "5.3"
+  },
+  {
+   "section": "article",
+   "text": "Using the importance and confidence scales in building self-efficacy"
+  },
+  {
+   "section": "article",
+   "text": "Before moving to skill-building, clinicians should assess the two supplemental TRAQ questions on importance and confidence. <sentence_start/>These items are critical to interpreting the clinical utility of the domain scores and should inform the counseling approach before any goals are established. <sentence_start/>Importance reflects how much the youth values developing self-management skills; confidence reflects their perceived self-efficacy in doing so. <sentence_start/>A youth who rates importance low may require values-based exploration, consistent with MI\u2019s emphasis on eliciting autonomous motivation, before skill-building can meaningfully begin. <sentence_start/>If the youth is cognitively immature or resistant to taking responsibility, a structured incentive system developed collaboratively with the caregiver may be appropriate. <sentence_start/>A youth who rates confidence low, by contrast, is already motivated but needs encouragement, stepwise goal progression, and opportunities to rehearse skills in low-pressure contexts before attempting them in clinical settings."
+  },
+  {
+   "section": "article",
+   "text": "This distinction matters because self-efficacy, defined as the belief in one's own capacity to execute a specific behavior, is the proximate driver of behavior change.<citation rid=\"bib42\" ref-type=\"bibr\" doi=\"10.1037//0033-295x.84.2.191\" pmid=\"847061\" count=\"1\"><sup>42</sup></citation> <sentence_start/>Bandura's Social Cognitive Theory identifies mastery experiences as the most powerful source of self-efficacy: success at a task builds confidence that transfers to related challenges, a dynamic in which success breeds success<sup>.</sup><citation rid=\"bib43\" ref-type=\"bibr\" doi=\"10.1177/1090198104263660\" pmid=\"15090118\" count=\"1\"><sup>43</sup></citation> <sentence_start/>Clinicians can channel this developmental momentum by framing TRAQ-guided goal-setting not as a checklist of health tasks to complete, but as a graduated progression of independence-building experiences."
+  },
+  {
+   "section": "article",
+   "text": "Importantly, entry-level goals do not always need to be health-related. <sentence_start/>For example, a youth who scores low on \"Talking with Providers\" might begin by entering a restaurant alone and placing an order while the parent waits in the car. <sentence_start/>This allows the youth to practice self-initiated conversation with an unfamiliar adult without the emotional stakes of a clinical encounter. <sentence_start/>A youth working toward medication independence might first accompany a caregiver to the pharmacy as an observer before attempting the interaction independently. <sentence_start/>These non-clinical tasks build the same underlying capacities for communication, self-advocacy, and autonomous action that health care self-management requires."
+  },
+  {
+   "section": "article",
+   "text": "Role-play can be a particularly effective complement for the communication domains of the TRAQ. <sentence_start/>Having a youth practice asking a provider a question, first with a parent in the provider role, then reversing, builds behavioral fluency before the skill is required in a real clinical setting. <sentence_start/>Role-play is valued specifically for the rehearsal and feedback it provides in realistic scenarios, allowing practice without real-world consequence.<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1186/1472-6920-7-3\" pmid=\"17335561\" pmcid=\"PMC1828731\" count=\"1\"><sup>44</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "In practice, building self-efficacy within the TRAQ framework involves: first assessing importance and confidence to determine the appropriate counseling entry point; identifying one small, achievable goal tied to the lowest-scoring domain (while reinforcing areas of strength); using non-health care independence tasks as accessible entry points when clinical tasks feel out of reach; employing graduated steps before independent action; practicing clinical communication through role-play with parents or peers; and explicitly celebrating incremental success at follow-up visits, connecting each accomplishment to growing readiness for adult care. <sentence_start/>This scaffolded approach is well supported by the literature. <sentence_start/>As adolescents gain competence in progressively more complex self-management tasks, they assume greater responsibility for their health and health care.<citation rid=\"bib45\" ref-type=\"bibr\" doi=\"10.1016/j.jadohealth.2020.05.053\" pmid=\"32713740\" count=\"1\"><sup>45</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "5.4"
+  },
+  {
+   "section": "article",
+   "text": "Applying motivational interviewing across TRAQ score levels"
+  },
+  {
+   "section": "article",
+   "text": "A particularly effective MI technique when reviewing TRAQ scores with a youth is to ask not, \"why did you score yourself a 2?\" but rather \"why did you score yourself a 2 instead of a 1?\" This reframing is deliberate: it invites the youth to articulate their own strengths and existing motivation rather than focusing on the gap between where they are and where they could be. <sentence_start/>The clinician is not pushing the youth toward a 3; they are celebrating that the youth sees themselves as a 2, meaning a desire to learn a new skill. <sentence_start/>This distinction is central to MI's spirit of affirmation and autonomy support. <sentence_start/>The same principle applies at any score level: asking why a youth rated themselves a 3 instead of a 2 surfaces the competencies they have already developed and builds the foundation for the next step."
+  },
+  {
+   "section": "article",
+   "text": "Items scored at level 2 (\"No, but I want to learn\") represent particularly productive entry points for MI-based skill development, as they signal nascent motivation that is ready to be channeled. <sentence_start/>When a youth scores a 2 on appointment keeping, for example, the clinician might say: \"I notice you aren't currently making your own appointments, but that you want to learn to do that, that\u2019s exciting that you want to learn.\" From there, a concrete, achievable goal can be collaboratively constructed: the youth's next appointment becomes their first independent scheduling task. <sentence_start/>The youth might enter the date of their next appointment in their phone's calendar, set a reminder alert two weeks prior, and take on the goal of reminding their parent of the appointment. <sentence_start/>Each of these sub-steps is itself a small mastery experience that builds toward a score of 3."
+  },
+  {
+   "section": "article",
+   "text": "This approach also connects the goal back to the youth's broader life aspirations, which MI identifies as powerful motivational anchors. <sentence_start/>A youth aspiring to attend college or live independently can be shown how pharmacy access, provider communication, and health history recall directly support those goals. <sentence_start/>A youth who wants to attend social events (e.g., a football game or dance) independently despite a chronic condition can use that aspiration as the motivational context for specific self-management targets. <sentence_start/>When the youth can see a direct line between a TRAQ skill and something they already care about, the goal shifts from a clinician-assigned task to a self-chosen step toward their own future, which is precisely where durable behavior change begins."
+  },
+  {
+   "section": "article",
+   "text": "5.5"
+  },
+  {
+   "section": "article",
+   "text": "Skill-building activities by TRAQ item"
+  },
+  {
+   "section": "article",
+   "text": "Table 1 provides structured coaching activities and associated behavior change goals for each TRAQ item, intended to guide providers in translating scores into actionable clinical goals. <sentence_start/>Goal selection should prioritize activities that are personally meaningful to the youth; however, when a high-priority clinical need exists (e.g., medication adherence for a time-sensitive regimen), the provider should collaboratively direct goal selection toward that area. <sentence_start/>Parents and caregivers may be productively engaged in supporting the youth\u2019s goal achievement while avoiding patterns of over-control or social loafing. <sentence_start/>More broadly, they play an active and evolving role throughout transition preparation. <sentence_start/>In early adolescence, caregivers often serve as primary partners in skill development: modeling behaviors, participating in role-play, structuring opportunities for practice, and providing encouragement and accountability between visits. <sentence_start/>As the youth demonstrates growing proficiency, the caregiver's role intentionally shifts from direct management toward supervised practice, and ultimately toward consultation, with the youth assuming primary responsibility and the caregiver remaining available as a safety net. <sentence_start/>Providers can support this progression by naming it explicitly with families, eliciting caregiver goals and concerns at each visit as incorporated in the ITP framework, and helping caregivers calibrate their involvement to the youth's demonstrated abilities rather than to habit or worry. <sentence_start/>For youth who will require ongoing support due to cognitive or physical limitations, the same progression applies within the caregiver-youth team model described above, with the goal of maximizing the youth's participation within the dyad rather than full independence."
+  },
+  {
+   "section": "article",
+   "text": "6"
+  },
+  {
+   "section": "article",
+   "text": "Goal documentation using the individualized transition plan (ITP)"
+  },
+  {
+   "section": "article",
+   "text": "All transition goals agreed upon during the visit should be documented in the encounter note and carried forward into a structured Individualized Transition Plan (ITP).<citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.3171/2019.7.FOCUS19425\" pmid=\"31574471\" count=\"1\"><sup>36</sup></citation><sup>,</sup><citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1016/j.dhjo.2022.101427\" pmid=\"36621354\" count=\"1\"><sup>38</sup></citation> <sentence_start/>The TRAQ is most clinically useful when its results are translated directly into this kind of systematic, revisable document. <sentence_start/>A TRAQ Companion ITP, shown in Fig. 2, provides a stepwise clinical framework that guides the provider through eight sequential steps: reviewing the importance and confidence questions, assessing the youth's cognitive profile and diagnosis-specific transition needs, identifying TRAQ items scored at level 2, addressing guardianship and advanced care planning, eliciting caregiver goals, documenting all agreed-upon goals, monitoring progress toward a score of &gt; 4.0, and completing an exit summary with confirmed handoff to adult providers.<sentence_start/>Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "TRAQ Companion Individualized Transition Plan (ITP). <sentence_start/>Eight-step clinical framework guiding providers from initial TRAQ score review through goal documentation, progress monitoring, and confirmed handoff to adult care."
+  },
+  {
+   "section": "article",
+   "text": "The authors recommend presenting the documented goals as a collaborative agreement using accessible, affirming language: \"I am going to document these goals, and I'd like you to review them with me. <sentence_start/>Think of this as a mutual agreement between us. <sentence_start/>Let's only include goals you actually intend to pursue.\" <sentence_start/>This framing reinforces the youth's autonomy and investment in the plan. <sentence_start/>Following the visit, the transition coordinator or clinical staff administering the TRAQ should contact the youth and, when appropriate, the caregiver by telephone or patient portal to review goal progress, address challenges, and facilitate next steps."
+  },
+  {
+   "section": "article",
+   "text": "The frequency of follow-up should be calibrated to the youth's current TRAQ score range. <sentence_start/>Youth scoring in the 1-2 range benefit from early and more frequent outreach; those in the 2-3 or 3-4 range typically require less intensive contact as motivation and skill are already developing. <sentence_start/>Once a youth achieves scores of 4-5 across all domains, formal transition education may be de-escalated, though encouragement and monitoring should continue. <sentence_start/>At this stage, the provider and transition coordinator may initiate formal transfer to an adult care provider, including coordination with the receiving physician and submission of a referral."
+  },
+  {
+   "section": "article",
+   "text": "The ITP provides a structured mechanism for documenting and tracking goals across all relevant transition domains, including health self-management, school and employment, insurance, family planning, safety, and other life areas. <sentence_start/>A blank fillable ITP template for use in clinical practice is included in Appendix 2."
+  },
+  {
+   "section": "article",
+   "text": "6.1"
+  },
+  {
+   "section": "article",
+   "text": "Case illustration"
+  },
+  {
+   "section": "article",
+   "text": "The following case illustrates the application of TRAQ-guided transition counseling for a youth in early stages of self-management development."
+  },
+  {
+   "section": "article",
+   "text": "John is a 15-year-old male with a chronic health condition presenting for a transition counseling visit. <sentence_start/>His TRAQ scores are as follows: total average 2.4; Managing Medications 1.8; Appointment Keeping 1.25; Tracking Health Issues 1.5; Talking with Providers 3.8; Importance 4.0, Confidence 2. <sentence_start/>When asked which domain he would like to prioritize, John initially selects Appointment Keeping (his lowest-scoring domain), though the transition coordinator suspects this reflects a desire to please rather than genuine interest. <sentence_start/>She redirects: \u201cLet\u2019s look at the Managing Medications section. <sentence_start/>It looks like you\u2019re interested in learning those skills. <sentence_start/>Which one would you like to start with?\u201d John selects filling a prescription and commits to watching an instructional video and then accompanying his mother to the pharmacy to speak with the pharmacist independently."
+  },
+  {
+   "section": "article",
+   "text": "A telephone follow-up two months later reveals that John has viewed the video but has not yet spoken with the pharmacist. <sentence_start/>By his next visit six months later, John has completed the pharmacy interaction goal. <sentence_start/>His TRAQ is readministered, a new score is obtained, and the transition education cycle continues with updated goals aligned to his current developmental stage."
+  },
+  {
+   "section": "article",
+   "text": "This case underscores several key principles of TRAQ-based counseling: the importance of attending to authentic rather than performed motivation; the value of small, achievable initial goals; the role of structured follow-up; and the iterative nature of the process as youth develop across adolescence."
+  },
+  {
+   "section": "article",
+   "text": "7"
+  },
+  {
+   "section": "article",
+   "text": "Special populations"
+  },
+  {
+   "section": "article",
+   "text": "7.1"
+  },
+  {
+   "section": "article",
+   "text": "Youth entering college"
+  },
+  {
+   "section": "article",
+   "text": "For youth preparing to enter college, transition counseling should address several specific domains in addition to standard TRAQ-based skill development. <sentence_start/>These include anticipating changes in insurance coverage (particularly for those currently covered under a parent\u2019s plan or Medicaid), discussing the transition to a new primary care provider, and planning for health care access in the college setting, whether through campus health services or community providers. <sentence_start/>Youth with disabilities should be encouraged to contact the campus disability services office prior to orientation to arrange appropriate accommodations. <sentence_start/>A comprehensive pre-college health care preparation checklist is provided in Appendix 3."
+  },
+  {
+   "section": "article",
+   "text": "7.2"
+  },
+  {
+   "section": "article",
+   "text": "Youth with intellectual disabilities"
+  },
+  {
+   "section": "article",
+   "text": "Youth with intellectual disabilities require additional consideration of several transition-specific issues that extend beyond health care self-management. <sentence_start/>These include:"
+  },
+  {
+   "section": "article",
+   "text": "Reviewing options for and obtaining legal measures related to guardianship or health care surrogacy arrangements."
+  },
+  {
+   "section": "article",
+   "text": "Navigating SSI Redetermination, which occurs at age 18 for all youth with disabilities and is a critical process for maintaining Supplemental Security Income and Medicaid health insurance coverage."
+  },
+  {
+   "section": "article",
+   "text": "Supporting the Transition section of the Individualized Education Program (IEP), including planning for continued school enrollment through age 21 and transition to Vocational Rehabilitation programs."
+  },
+  {
+   "section": "article",
+   "text": "Addressing self-determination issues related to living arrangements, including applications for Home and Community-Based Waivers that provide financial support for work and independent living."
+  },
+  {
+   "section": "article",
+   "text": "Additional resources specific to this population, including state-level transition support services, are provided in Appendix 3."
+  },
+  {
+   "section": "article",
+   "text": "8"
+  },
+  {
+   "section": "article",
+   "text": "Documentation and billing for transition counseling"
+  },
+  {
+   "section": "article",
+   "text": "Providers should document transition counseling encounters using the transition diagnostic code Z71.89 in the electronic health record following the initial transition counseling visit. <sentence_start/>This diagnosis code enables billing for time-based counseling related to the transition from pediatric to adult care. <sentence_start/>It may also be used as a registry identifier to track which patients have initiated the HCT process and to identify those due for follow-up. <sentence_start/>For youth requiring more frequent clinical monitoring, the TRAQ should be administered every six months. <sentence_start/>A detailed coding and reimbursement reference is available from Got Transition.<citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1016/j.jadohealth.2022.12.025\" pmid=\"36858918\" count=\"1\"><sup>46</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "9"
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The TRAQ is a validated, theory-driven instrument that enables clinicians to systematically assess and promote health care transition readiness in AYAs with special health care needs. <sentence_start/>Grounded in the Transtheoretical Model and Motivational Interviewing, it supports individualized, developmentally appropriate interventions that promote durable self-management skills. <sentence_start/>Providers caring for youth with complex or condition-specific needs should supplement TRAQ-based counseling with targeted disease-specific education."
+  },
+  {
+   "section": "article",
+   "text": "The authors' clinical experience suggests that once youth engage with and commit to developing even one or two self-management skills, these behaviors tend to generalize across domains of health and health care management. <sentence_start/>The central elements of effective TRAQ-based practice (respectful engagement, genuine attunement to the youth's stage of readiness, and consistent use of motivational interviewing) are not merely clinical techniques but represent a relational approach to empowering adolescents to develop the skills they will carry through adulthood."
+  },
+  {
+   "section": "article",
+   "text": "Funding/Support"
+  },
+  {
+   "section": "article",
+   "text": "No funding was secured for this study."
+  },
+  {
+   "section": "article",
+   "text": "Role of Funder/Sponsor (if any)"
+  },
+  {
+   "section": "article",
+   "text": "N/A."
+  },
+  {
+   "section": "article",
+   "text": "Clinical Trial Registration (if any)"
+  },
+  {
+   "section": "article",
+   "text": "N/A"
+  },
+  {
+   "section": "article",
+   "text": "CRediT authorship contribution statement"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Betsy Hopson:</bold> Writing - review &amp; editing, Writing - original draft, Supervision, Methodology, Formal analysis, Conceptualization. <sentence_start/><bold>Kylee R. Phalen:</bold> Writing - original draft, Conceptualization. <sentence_start/><bold>David Wood:</bold> Writing - review &amp; editing, Writing - original draft, Project administration, Methodology, Conceptualization."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of Competing Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no competing interests to disclose."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "No data was used for the research described in the article."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data associated with this article can be found in the online version at ."
+  }
+ ]
+}

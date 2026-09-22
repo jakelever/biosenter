@@ -1,0 +1,411 @@
+{
+ "pmid": 42764803,
+ "pmcid": 13589697,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Peri-Coronary Adipose Tissue Attenuation and Atrial Fibrillation Recurrence After Catheter Ablation: A Systematic Review and Meta-Analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Background: Catheter ablation is an established rhythm-control strategy for atrial fibrillation (AF), but arrhythmia recurrence after the procedure remains a major clinical challenge. <sentence_start/>Reliable pre-procedural biomarkers reflecting the underlying inflammatory substrate may improve risk stratification and patient selection. <sentence_start/>Peri-coronary adipose tissue (PCAT) attenuation, measured on coronary computed tomography angiography (CCTA), is a noninvasive imaging marker of coronary perivascular inflammation. <sentence_start/>This study evaluated the association between PCAT attenuation and AF recurrence after catheter ablation."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods: We systematically searched PubMed, Embase, and the Cochrane Central Register of Controlled Trials through October 2024, following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, for studies comparing PCAT attenuation between patients with and without AF recurrence after catheter ablation. <sentence_start/>Pooled mean differences (MDs) with 95% confidence intervals (CIs) were calculated separately for each coronary territory using random-effects models with restricted maximum likelihood estimation of the between-study variance and Knapp-Hartung-Sidik-Jonkman-corrected confidence intervals, an approach recommended when the number of available studies is small. <sentence_start/>DerSimonian-Laird estimates with Wald intervals are reported alongside for comparison. <sentence_start/>Standardized MDs were calculated in parallel. <sentence_start/>Heterogeneity was assessed using the I\u00b2 statistic, and leave-one-out analysis was performed as a descriptive check."
+  },
+  {
+   "section": "abstract",
+   "text": "Results: Three retrospective cohort studies enrolling 852 patients (239, 28%, with AF recurrence) met the inclusion criteria. <sentence_start/>PCAT attenuation was numerically higher in patients with AF recurrence across all three major coronary territories, but under the small-sample-corrected model, none of the associations reached statistical significance: right coronary artery (RCA)-PCAT (MD 2.62 HU; 95% CI \u22122.41 to 7.65), left anterior descending artery (LAD)-PCAT (MD 1.53 HU; 95% CI \u22121.45 to 4.50), and left circumflex artery (LCx)-PCAT (MD 2.48 HU; 95% CI \u22120.70 to 5.66). <sentence_start/>Corresponding standardized MDs were 0.30, 0.23, and 0.36. <sentence_start/>Conventional DerSimonian-Laird estimates with Wald intervals were nominally significant in all three territories despite identical point estimates, reflecting the degree to which precision is overstated when the between-study variance is estimated from three studies. <sentence_start/>Because each patient contributed correlated measurements across territories, no overall pooled estimate combining territories was calculated. <sentence_start/>Heterogeneity was moderate (I\u00b2 34-65%) but imprecisely estimated."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion: Pre-ablation PCAT attenuation was consistently higher in patients who subsequently experienced AF recurrence after catheter ablation, but the pooled differences of approximately 1.5-2.6 HU did not reach statistical significance once appropriate small-sample corrections were applied and are of a magnitude comparable to reported technical variability in PCAT measurement across CT acquisition protocols. <sentence_start/>The consistent direction of effect across three independent cohorts is of interest and supports further investigation, but these data do not establish PCAT attenuation as a predictor of post-ablation recurrence and provide no basis for clinical application. <sentence_start/>Prospective multicenter studies with standardized acquisition and segmentation protocols are needed."
+  },
+  {
+   "section": "article",
+   "text": "Introduction and background"
+  },
+  {
+   "section": "article",
+   "text": "Atrial fibrillation (AF) is the most common cardiac arrhythmia, resulting from abnormal electrical activity in the atria. <sentence_start/>This arrhythmia can be paroxysmal if it lasts less than seven days or persistent if it lasts more than seven days [<citation rid=\"REF1\" ref-type=\"bibr\" count=\"1\">1</citation>]. <sentence_start/>The risk of developing AF is approximately 25% after age 40 [<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1161/01.CIR.0000140263.20897.42\" pmid=\"15313941\" count=\"1\">2</citation>,<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehi825\" pmid=\"16527828\" count=\"1\">3</citation>]. <sentence_start/>Its irregular rhythm disrupts normal blood flow, increasing turbulence and the risk of thrombus formation. <sentence_start/>If dislodged, the clot can embolize to the cerebral circulation, leading to a stroke [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1161/01.str.22.8.983\" pmid=\"1866765\" count=\"1\">4</citation>]. <sentence_start/>There is also an increased risk of adverse cardiovascular outcomes, including heart failure, chronic kidney disease, and myocardial infarction (MI), which makes appropriate treatment and careful monitoring necessary [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.3390/jcm11092510\" pmcid=\"PMC9103974\" pmid=\"35566639\" count=\"1\">5</citation>-<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1001/jamainternmed.2013.11912\" pmcid=\"PMC4115282\" pmid=\"24190540\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Treatment modalities include rhythm control and rate control. <sentence_start/>Cardiac tissue ablation is considered the definitive treatment option for AF, but arrhythmia recurrence after the procedure remains common, particularly in patients with persistent AF [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.5830/CVJA-2019-064\" pmcid=\"PMC8762786\" pmid=\"32186324\" count=\"1\">8</citation>,<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1146/annurev-med-041316-090015\" pmid=\"28806148\" count=\"1\">9</citation>]. <sentence_start/>Recurrence is more likely with increased left atrial volume or fibrosis, systemic diseases like hypertension or sleep apnea, concomitant heart conditions (e.g., mitral valve disease and hypertrophic cardiomyopathy), and longer AF duration, with persistent AF carrying a higher risk than paroxysmal AF [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1093/europace/eus027\" pmid=\"22389422\" count=\"1\">10</citation>]. <sentence_start/>Factors such as atrial remodeling, obesity, and inflammation have been shown to play a substantial role in AF recurrence [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.3390/jcm12196313\" pmcid=\"PMC10573371\" pmid=\"37834958\" count=\"1\">11</citation>-<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1136/hrt.2010.215335\" pmid=\"21357370\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Epicardial adipose tissue (EAT) is a fat layer surrounding the myocardium, which is known to have a role in atrial remodeling, conduction pathway remodeling, and inflammatory damage [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.4022/jafib.935\" pmcid=\"PMC5153043\" pmid=\"28496901\" count=\"1\">14</citation>]. <sentence_start/>Peri-coronary adipose tissue (PCAT) is an extension of EAT. <sentence_start/>In this study, we focus on PCAT attenuation as a marker of post-ablation AF recurrence. <sentence_start/>There is evidence of an association between inflammation and AF progression [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.3390/jcm12196313\" pmcid=\"PMC10573371\" pmid=\"37834958\" count=\"1\">11</citation>,<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.4022/jafib.935\" pmcid=\"PMC5153043\" pmid=\"28496901\" count=\"1\">14</citation>], but the role of PCAT attenuation in AF recurrence following ablation remains unclear, as data are limited [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>]. <sentence_start/>To our knowledge, this is the first systematic review and meta-analysis to assess the relationship between PCAT attenuation and AF recurrence after catheter ablation."
+  },
+  {
+   "section": "article",
+   "text": "Review"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis was conducted in accordance with the Cochrane Handbook for Systematic Reviews of Interventions and reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">17</citation>,<citation rid=\"REF18\" ref-type=\"bibr\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Literature Search"
+  },
+  {
+   "section": "article",
+   "text": "Two independent reviewers searched PubMed, Embase, and the Cochrane Central Register of Controlled Trials from inception through October 2024 using MeSH terms and free-text keywords: \"pericoronary adipose tissue\", \"peri-coronary adipose tissue attenuation\", \"PCAT\", \"epicardial fat\", \"atrial fibrillation\", \"catheter ablation\", \"pulmonary vein isolation\", and \"recurrence\". <sentence_start/>The PICO framework is presented in Table 1. <sentence_start/>The full database-specific search strategies and the number of records retrieved from each source are presented in Table 2. <sentence_start/>Reference lists of included studies were manually screened. <sentence_start/>Discrepancies were resolved by consensus with a third reviewer."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility Criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were eligible if they enrolled adults \u226518 years with paroxysmal or persistent AF undergoing catheter ablation, performed pre-ablation coronary computed tomography angiography (CCTA) reporting PCAT attenuation values (HU) for \u22651 coronary territory, and compared PCAT attenuation between patients with and without AF recurrence. <sentence_start/>Studies were excluded if they were case reports, editorials, or reviews; lacked a comparator group; or reported PCAT volume rather than attenuation. <sentence_start/>This review was not prospectively registered."
+  },
+  {
+   "section": "article",
+   "text": "Outcome Definition and Exposure Measurement"
+  },
+  {
+   "section": "article",
+   "text": "Across the included studies, AF recurrence was defined consistently as any atrial tachyarrhythmia (AF, atrial flutter, or atrial tachycardia) lasting more than 30 seconds, documented on 12-lead ECG or 24-hour Holter monitoring after a three-month post-ablation blanking period. <sentence_start/>Monitoring schedules were broadly comparable, comprising scheduled outpatient visits with ECG and Holter assessment at three-month intervals during the first year, supplemented by event recording where symptoms occurred."
+  },
+  {
+   "section": "article",
+   "text": "PCAT attenuation was measured on pre-ablation CCTA as the mean CT attenuation of perivascular fat (voxels within the \u2212190 to \u221230 HU range) located within a radial distance from the outer vessel wall equal to the diameter of the target vessel. <sentence_start/>The proximal 40 mm segments of the left anterior descending and left circumflex arteries and the proximal 10-50 mm segment of the right coronary artery (RCA) (excluding the first 10 mm to avoid aortic-wall influence) were analyzed, in accordance with the standard published approach to perivascular fat attenuation measurement. <sentence_start/>Segmentation was performed using semi-automated dedicated software in each study."
+  },
+  {
+   "section": "article",
+   "text": "The primary outcome was the difference in PCAT attenuation between patients with and without AF recurrence after catheter ablation, expressed as a mean difference with 95% confidence intervals."
+  },
+  {
+   "section": "article",
+   "text": "Data Extraction and Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Two reviewers independently extracted data on study design, sample size, AF type, ablation technique, PCAT attenuation values per territory, recurrence definition, and follow-up duration. <sentence_start/>Pooled mean differences (MDs) with 95% confidence intervals (CI) were estimated using inverse-variance random-effects models with restricted maximum likelihood estimation of the between-study variance. <sentence_start/>CIs were computed using the Knapp-Hartung-Sidik-Jonkman variance correction, which employs a t-distribution with k\u22121 degrees of freedom and is recommended when the number of included studies is small, as conventional Wald intervals assume the between-study variance is known and substantially understate uncertainty under these conditions. <sentence_start/>Estimates obtained using the DerSimonian-Laird method with Wald intervals are reported alongside for comparability with the wider literature. <sentence_start/>For Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>], which reported per-territory values as medians with interquartile ranges, means and standard deviations were estimated using the method of Wan et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1186/1471-2288-14-135\" pmcid=\"PMC4383202\" pmid=\"25524443\" count=\"1\">20</citation>]; the original medians and interquartile ranges are provided in Appendix A. Because each patient contributed correlated PCAT measurements for the RCA, left anterior descending artery (LAD), and left circumflex artery (LCx) territories, effect sizes were pooled within each territory separately, and no single estimate combining all territories was derived to avoid violating the independence assumption of standard meta-analysis. <sentence_start/>For the same reason, no formal test for differences between territories was performed. <sentence_start/>Standardized mean differences (Hedges' g) were calculated alongside mean differences to permit comparison against within-study measurement variability. <sentence_start/>Heterogeneity was quantified using I\u00b2 and Cochran's Q, both of which are imprecisely estimated at this number of studies. <sentence_start/>Statistical significance was set at p &lt; 0.05. <sentence_start/>Leave-one-out analyses are presented as a descriptive check rather than as a formal test of robustness, since with three studies each omission leaves a two-study synthesis. <sentence_start/>Prediction intervals were not estimated, as they are not interpretable with three studies, and formal assessment of small-study effects such as funnel-plot asymmetry testing was not meaningful and was therefore not performed. <sentence_start/>All analyses were conducted using R version 4.6.0 with the 'meta' package (version 8.5-0). <sentence_start/>The full analysis code is provided in Appendix B."
+  },
+  {
+   "section": "article",
+   "text": "Risk-of-Bias Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Methodological quality was assessed independently by two reviewers using the ROBINS-I tool [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1136/bmj.i4919\" pmcid=\"PMC5062054\" pmid=\"27733354\" count=\"1\">21</citation>], evaluating seven domains: confounding, participant selection, classification of interventions, deviations from intended interventions, missing data, measurement of outcomes, and selection of the reported result. <sentence_start/>In accordance with the ROBINS-I algorithm, the overall judgement for each study was taken as the least favourable rating across the seven domains. <sentence_start/>Disagreements were resolved by consensus."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "The systematic search identified 1,021 records. <sentence_start/>After removal of duplicates and ineligible records, title and abstract screening, and full-text review, three retrospective cohort studies met all eligibility criteria and were included [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>,<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>]. <sentence_start/>The PRISMA flow diagram is shown in Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) flowchart"
+  },
+  {
+   "section": "article",
+   "text": "Study and Patient Characteristics"
+  },
+  {
+   "section": "article",
+   "text": "The three included studies enrolled 852 patients undergoing catheter ablation for AF, of whom 239 (28.1%) experienced AF recurrence during follow-up. <sentence_start/>All were retrospective single-center cohort studies from Asia, two from China and one from Japan. <sentence_start/>Ablation techniques included radiofrequency catheter ablation in Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>], and second-generation cryoballoon ablation in Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>]. <sentence_start/>Follow-up was fixed at 12 months in Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>], whereas Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>] reported a median follow-up of 26 months (interquartile range 19-42 months). <sentence_start/>All studies reported PCAT attenuation for the RCA, LAD, and LCx territories. <sentence_start/>Eligibility criteria with respect to coronary artery disease differed between cohorts: Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] excluded patients with a history of coronary heart disease, whereas Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>] and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] did not. <sentence_start/>Baseline characteristics were broadly comparable between the recurrence and non-recurrence groups in most respects, although several differences were reported: statin use and prior stroke were more frequent among patients with recurrence in Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>], and heart failure and left atrial diameter were greater in the recurrence group in Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>]. <sentence_start/>Baseline patient characteristics for each study are presented in Table 3, and the characteristics of the included studies are presented in Table 4."
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias"
+  },
+  {
+   "section": "article",
+   "text": "Overall risk of bias was judged low in Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] and Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>] and moderate in Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>], the latter reflecting a moderate rating in the domain of outcome measurement owing to potential subjective variability in PCAT segmentation. <sentence_start/>No study was judged to be at serious or critical risk of bias. <sentence_start/>The principal residual concerns across all three cohorts were confounding, as left atrial size, AF burden, and antiarrhythmic drug use were not uniformly reported, and selection bias inherent to retrospective single-center designs. <sentence_start/>Full domain-level judgements are shown in Appendix C."
+  },
+  {
+   "section": "article",
+   "text": "PCAT Attenuation and AF Recurrence by Territory"
+  },
+  {
+   "section": "article",
+   "text": "Because per-territory measurements within each patient are correlated, results are reported separately by territory rather than as a single combined estimate. <sentence_start/>Territory-specific findings are presented in Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of the mean difference in peri-coronary adipose tissue (PCAT) attenuation between patients with and without atrial fibrillation recurrence after catheter ablation, stratified by coronary territory."
+  },
+  {
+   "section": "article",
+   "text": "Studies are Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>], Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>], and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>]. <sentence_start/>Blue squares represent study-level mean differences with 95% confidence intervals, sized by weight. <sentence_start/>Red diamonds represent the pooled random-effects estimate for each territory, calculated using restricted maximum likelihood with the Knapp-Hartung-Sidik-Jonkman variance correction. <sentence_start/>Positive values indicate higher (less negative) PCAT attenuation in patients with recurrence. <sentence_start/>Because each patient contributed correlated measurements across all three territories, results are pooled within territories only; no overall estimate and no formal comparison between territories was calculated."
+  },
+  {
+   "section": "article",
+   "text": "HU, Hounsfield units; RCA, right coronary artery; LAD, left anterior descending artery; LCx, left circumflex artery; MD, mean difference; CI, confidence interval"
+  },
+  {
+   "section": "article",
+   "text": "PCAT attenuation was numerically higher in the recurrence group in every territory in every included cohort, with all nine study-level mean differences positive in direction. <sentence_start/>Under the primary random-effects model with small-sample-corrected confidence intervals, none of the three pooled associations reached statistical significance: RCA-PCAT 2.62 HU (95% CI \u22122.41 to 7.65; p = 0.15), LAD-PCAT 1.53 HU (95% CI \u22121.45 to 4.50; p = 0.16), and LCx-PCAT 2.48 HU (95% CI \u22120.70 to 5.66; p = 0.08). <sentence_start/>Corresponding standardized mean differences were 0.30, 0.23, and 0.36, respectively, all within the range conventionally regarded as small."
+  },
+  {
+   "section": "article",
+   "text": "Under the conventional DerSimonian-Laird approach with Wald intervals, all three territories were nominally significant: RCA-PCAT 2.62 HU (95% CI 0.38-4.87), LAD-PCAT 1.53 HU (95% CI 0.17-2.89), and LCx-PCAT 2.48 HU (95% CI 0.98-3.98). <sentence_start/>Point estimates were identical to two decimal places under both approaches, and the choice of between-study variance estimator had negligible influence on the result. <sentence_start/>The divergence between the two sets of intervals is therefore attributable entirely to the variance correction, and illustrates the degree to which precision is overstated when the between-study variance is estimated from three studies."
+  },
+  {
+   "section": "article",
+   "text": "At the level of individual cohorts, Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] reported the largest RCA difference and identified RCA-PCAT as independently associated with recurrence, but found no significant difference in LCx-PCAT. <sentence_start/>Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] reported the largest LCx difference and identified LCx-PCAT as the strongest independent CT-radiomic predictor in that cohort (AUC 0.722; cut-off \u221281.5 HU), while reporting the smallest differences in the RCA and LAD territories. <sentence_start/>Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>] found a three-vessel PCAT attenuation index to be the strongest measure (cut-off \u221267.69 HU). <sentence_start/>It should be noted that Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] was the only cohort for which means and standard deviations were derived from reported medians and interquartile ranges [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1186/1471-2288-14-135\" pmcid=\"PMC4383202\" pmid=\"25524443\" count=\"1\">20</citation>], and that its comparatively narrow standard deviations gave it the largest weight in the LCx analysis."
+  },
+  {
+   "section": "article",
+   "text": "Heterogeneity was moderate across territories, with I\u00b2 values of 65%, 34%, and 62% for the RCA, LAD, and LCx, respectively, although these estimates are themselves imprecise at this number of studies."
+  },
+  {
+   "section": "article",
+   "text": "Leave-one-out results are presented in Appendices D, E, and F for descriptive completeness. <sentence_start/>With three studies, each omission reduces the synthesis to two studies, and the resulting estimates are too unstable to support inference about the comparative reliability of any territory; they should not be interpreted as a formal robustness assessment."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "AF arises from complex pathophysiology in which obesity, inflammation, and coronary artery disease each contribute. <sentence_start/>Obesity is a major modifiable risk factor independent of obstructive sleep apnea or metabolic syndrome [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0127111\" pmcid=\"PMC4433194\" pmid=\"25978738\" count=\"1\">22</citation>,<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2006.08.060\" pmid=\"17276180\" count=\"1\">23</citation>], and higher body mass index is associated with increased post-ablation recurrence, with one dose-response analysis reporting a 13% rise in recurrence risk per five-unit BMI increase [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1111/eci.13499\" pmid=\"33544873\" count=\"1\">12</citation>]. <sentence_start/>Inflammation is increasingly recognized as central not only to AF incidence but also to recurrence after ablation [<citation rid=\"REF24\" ref-type=\"bibr\" doi=\"10.1016/j.ipej.2024.12.005\" pmcid=\"PMC11962301\" pmid=\"39746655\" count=\"1\">24</citation>,<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1038/nrcardio.2015.2\" pmid=\"25622848\" count=\"1\">25</citation>]; elevated pre-procedural C-reactive protein and white-cell counts have been linked to unsuccessful cardioversion and to recurrence after ablative procedures [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.2143/AC.56.6.2005701\" pmid=\"11791805\" count=\"1\">26</citation>,<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1093/europace/eun309\" pmid=\"19010799\" count=\"1\">27</citation>]. <sentence_start/>These observations motivate interest in imaging markers that capture the inflammatory substrate directly, which is the rationale underlying the present analysis."
+  },
+  {
+   "section": "article",
+   "text": "Adipose tissue secretes both endocrine proteins and pro-inflammatory mediators, producing local and systemic inflammatory effects that vary by anatomical site; visceral and mesenteric depots, for example, secrete substantially more interleukin-6 in obese individuals [<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.1210/jcem.83.3.4660\" pmid=\"9506738\" count=\"1\">28</citation>]. <sentence_start/>Because systemic inflammatory markers may not reflect the degree of local impact, attention has turned to depot-specific markers, such as epicardial and pericoronary adipose tissue [<citation rid=\"REF29\" ref-type=\"bibr\" doi=\"10.1161/01.cir.0000052939.59093.45\" pmid=\"12551878\" count=\"1\">29</citation>,<citation rid=\"REF30\" ref-type=\"bibr\" doi=\"10.5551/jat.1735\" pmid=\"20145358\" count=\"1\">30</citation>]. <sentence_start/>EAT is a metabolically active fat layer between the myocardium and epicardium that secretes proinflammatory adipokines, contributing to inflammation, atrial fibrosis, and electrical remodeling that may promote the initiation and perpetuation of AF [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.4022/jafib.935\" pmcid=\"PMC5153043\" pmid=\"28496901\" count=\"1\">14</citation>]. <sentence_start/>PCAT is an anatomical extension of EAT encroaching on the coronaries and pulmonary veins, and through paracrine and vasocrine signaling can influence the vascular regions it surrounds [<citation rid=\"REF31\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(05)66585-3\" pmid=\"15910955\" count=\"1\">31</citation>,<citation rid=\"REF32\" ref-type=\"bibr\" doi=\"10.1161/JAHA.113.000582\" pmcid=\"PMC4187500\" pmid=\"24595191\" count=\"1\">32</citation>]. <sentence_start/>The PCAT attenuation index estimates coronary perivascular inflammation on CTA by detecting a shift in attenuation around inflamed coronaries from the lipid toward the aqueous phase, manifesting as less negative HU values [<citation rid=\"REF33\" ref-type=\"bibr\" doi=\"10.1126/scitranslmed.aal2658\" pmid=\"28701474\" count=\"1\">33</citation>,<citation rid=\"REF34\" ref-type=\"bibr\" doi=\"10.1016/j.jcct.2019.03.006\" pmcid=\"PMC6928589\" pmid=\"30952610\" count=\"1\">34</citation>]. <sentence_start/>Its role in coronary artery disease is established, with patients who have sustained MI exhibiting markedly thicker PCAT than healthy subjects and attenuation correlating with age, body mass index, glucose and triglyceride levels, and peak troponin I [<citation rid=\"REF35\" ref-type=\"bibr\" doi=\"10.1080/07315724.2014.933685\" pmid=\"25760239\" count=\"1\">35</citation>], whereas its significance in arrhythmias remains comparatively underexplored."
+  },
+  {
+   "section": "article",
+   "text": "To our knowledge, this is the first meta-analysis to evaluate the association between PCAT attenuation and AF recurrence after ablation, pooling three retrospective cohorts comprising 852 patients. <sentence_start/>The direction of association was strikingly consistent: attenuation was higher in the recurrence group in every coronary territory in every included cohort, with all nine study-level estimates positive. <sentence_start/>The magnitude of the pooled differences, however, was modest at approximately 1.5 to 2.6 Hounsfield units, and once confidence intervals were computed using a method appropriate to the small number of available studies, none of the three territory-specific associations reached statistical significance. <sentence_start/>This is a meaningful distinction. <sentence_start/>Consistency of direction across independent cohorts is a genuine observation that warrants further study, but it is not the same as a demonstrated effect, and with three studies the data cannot distinguish a real association of this size from chance."
+  },
+  {
+   "section": "article",
+   "text": "The modest magnitude of the differences also deserves comment in its own right. <sentence_start/>The pooled estimates correspond to standardized mean differences of 0.23 to 0.36, conventionally regarded as small, and the absolute differences of 1.5 to 2.6 HU are of a similar order to the variation in PCAT attenuation attributable to differences in tube voltage, acquisition protocol, region-of-interest definition, and segmentation software. <sentence_start/>Since the three included cohorts used different scanners and analysis platforms, a difference of this size cannot confidently be separated from technical variability, and this constrains what can be inferred even setting the question of statistical significance aside."
+  },
+  {
+   "section": "article",
+   "text": "Apparent differences between territories should be interpreted with particular caution. <sentence_start/>Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] identified LCx-PCAT attenuation and the EAT volume index as independent correlates of recurrence in their cohort (area under the curve (AUC) 0.722 and 0.63 respectively, with an LCx cut-off of \u221281.5 HU and an EAT volume index above 81.07 mL/m\u00b2), suggesting that attenuation outperformed volume-based parameters. <sentence_start/>By contrast, Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] found no significant difference in LCx-PCAT attenuation but identified RCA-PCAT as independently associated with recurrence and as improving their clinical model. <sentence_start/>Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>] reported that a three-vessel PCAT attenuation index was an independent risk factor, with a cut-off of \u221267.69 HU, and that combining EAT volume with PCAT attenuation enhanced prediction. <sentence_start/>These divergent territory-level findings may reflect differences in cohort composition, ablation modality, follow-up duration, and CT acquisition and segmentation protocols. <sentence_start/>They may equally reflect sampling variation. <sentence_start/>Because all three territory-specific analyses draw on the same 852 patients, the three estimates are not independent, and no formal comparison between territories is statistically valid in this setting; we therefore make no claim that any one coronary territory carries a more informative signal than another."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, these data suggest a consistent direction of association between elevated PCAT attenuation and post-ablation AF recurrence, but do not establish that such an association exists independently of chance, nor that its magnitude exceeds measurement variability, nor that it would add to established clinical and imaging predictors. <sentence_start/>The attenuation thresholds reported across studies have not been externally validated and may not be generalizable, particularly as all included cohorts were drawn from Asian populations using differing CT acquisition and segmentation protocols. <sentence_start/>Adequately powered prospective, multicenter studies with standardized PCAT measurement are needed to determine whether PCAT attenuation provides independent, clinically actionable prognostic value."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "This synthesis is constrained primarily by the size of the available evidence base. <sentence_start/>Only three cohorts have reported per-territory PCAT attenuation stratified by post-ablation recurrence, and with so few studies the between-study variance is imprecisely estimated. <sentence_start/>We therefore adopted a conservative small-sample correction for the confidence intervals, under which the pooled estimates did not reach statistical significance. <sentence_start/>Given that three cohorts of this size provide limited power to detect differences of the magnitude anticipated for an imaging biomarker, this should be read as a statement about the maturity of the evidence rather than as evidence against an association, particularly since the direction of effect was positive in all nine study-level comparisons. <sentence_start/>For the same reason, leave-one-out results are presented descriptively, and prediction intervals and formal assessment of small-study effects were not estimated."
+  },
+  {
+   "section": "article",
+   "text": "Clinical and technical heterogeneity between cohorts also warrants consideration. <sentence_start/>The studies differed in eligibility with respect to coronary artery disease, in ablation modality, and in follow-up duration, and all three were conducted in Asian populations, which may limit generalizability given reported population differences in adipose tissue distribution. <sentence_start/>PCAT attenuation is additionally sensitive to CT acquisition parameters, region-of-interest definition, and segmentation software, none of which were standardized across cohorts. <sentence_start/>One study reported values as medians and interquartile ranges, requiring conversion by a validated method that introduces some approximation. <sentence_start/>Our search was conducted through October 2024, and eligible cohorts published since are not represented here."
+  },
+  {
+   "section": "article",
+   "text": "Finally, all included studies were observational, so residual confounding cannot be excluded, and no causal inference is possible. <sentence_start/>Whether PCAT attenuation adds prognostic value beyond established clinical and imaging predictors remains to be determined in adequately powered prospective multicenter studies with standardized measurement protocols."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis of three retrospective cohorts found that pre-ablation PCAT attenuation on CCTA was consistently higher in patients who subsequently experienced AF recurrence after catheter ablation, across all three major coronary territories, with pooled mean differences of approximately 1.5 to 2.6 HU. <sentence_start/>When appropriate small-sample corrections were applied, none of the territory-specific associations reached statistical significance, and the magnitude of the observed differences was comparable to the technical variability in PCAT measurement across the CT protocols used in the included studies. <sentence_start/>The consistency in the direction of effect across independent cohorts is of interest and warrants further investigation, particularly since PCAT attenuation can be derived from routine pre-procedural imaging without additional acquisition. <sentence_start/>However, the present evidence does not establish PCAT attenuation as a predictor of post-ablation recurrence and provides no basis for its clinical use. <sentence_start/>Prospective validation in adequately powered multicenter cohorts with standardized measurement protocols, together with assessment of incremental value over established clinical and imaging predictors, is required before any clinical integration."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> Priyank Chokshi, Sandeep Guntuku, Siddharth Karipineni, Dishant Rakholia, Mounica Vorla, Narayana Varalakshmi Akula, Vimala Thambi, Pawel Lajczak, Muhammad F. Ali, Sherif Eltawansy, Rajeev Vijay Kumar Menon"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> Priyank Chokshi, Sandeep Guntuku, Siddharth Karipineni, Dishant Rakholia, Mounica Vorla, Narayana Varalakshmi Akula, Vimala Thambi, Pawel Lajczak, Muhammad F. Ali, Sherif Eltawansy, Rajeev Vijay Kumar Menon"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> Priyank Chokshi, Sandeep Guntuku, Siddharth Karipineni, Dishant Rakholia, Mounica Vorla, Narayana Varalakshmi Akula, Vimala Thambi, Pawel Lajczak, Muhammad F. Ali, Sherif Eltawansy, Rajeev Vijay Kumar Menon"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Priyank Chokshi, Sandeep Guntuku, Siddharth Karipineni, Dishant Rakholia, Mounica Vorla, Narayana Varalakshmi Akula, Vimala Thambi, Pawel Lajczak, Muhammad F. Ali, Sherif Eltawansy, Rajeev Vijay Kumar Menon"
+  },
+  {
+   "section": "back",
+   "text": "Appendices"
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Appendix B"
+  },
+  {
+   "section": "back",
+   "text": "Analysis Code"
+  },
+  {
+   "section": "back",
+   "text": "The following R code reproduces all pooled estimates, heterogeneity statistics, and leave-one-out analyses reported in this article. <sentence_start/>Analyses were performed in R version 4.6.0 with the meta package version 8.5-0. <sentence_start/>Values for Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] were derived from the published medians and interquartile ranges using the method of Wan et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1186/1471-2288-14-135\" pmcid=\"PMC4383202\" pmid=\"25524443\" count=\"1\">20</citation>]."
+  },
+  {
+   "section": "back",
+   "text": "library(meta)"
+  },
+  {
+   "section": "back",
+   "text": "dat &lt;- ame( terr = factor(rep(c(\"RCA\",\"LAD\",\"LCx\"), each = 3), levels = c(\"RCA\",\"LAD\",\"LCx\")), study = rep(c(\"Nogami 2021\",\"Wang 2023\",\"Ma 2023\"), 3), n.e = rep(c(90,102,47), 3), mean.e = c(-68.62,-74.00,-86.33,-68.82,-74.80,-81.83,-63.84,-72.10,-77.17), sd.e = c(9.25,9.00,7.65,8.03,8.20,4.97,6.99,7.10,3.44), n.c = rep(c(274,197,142), 3), mean.c = c(-71.47,-78.40,-86.67,-71.08,-77.00,-82.00,-65.71,-73.60,-81.00), sd.c = c(9.78,8.80,8.24,7.36,8.70,7.49,7.34,7.90,5.99))"
+  },
+  {
+   "section": "back",
+   "text": "m.hk &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, studlab = study, data = dat, sm = \"MD\", method.tau = \"REML\", method.random.ci = \"HK\", adhoc.hakn.ci = \"\", subgroup = terr, mon = FALSE, common = FALSE, random = TRUE, overall = FALSE, overall.hetstat = FALSE, test.subgroup = FALSE)"
+  },
+  {
+   "section": "back",
+   "text": "summary(m.hk)"
+  },
+  {
+   "section": "back",
+   "text": "m.dl &lt;- update(m.hk, method.tau = \"DL\", method.random.ci = \"classic\") summary(m.dl)"
+  },
+  {
+   "section": "back",
+   "text": "d &lt;- update(m.hk, sm = \"SMD\") summary( d)"
+  },
+  {
+   "section": "back",
+   "text": "forest(m.hk, overall = FALSE, overall.hetstat = FALSE, test.subgroup = FALSE, leftcols = c(\"studlab\",\"n.e\",\"mean.e\",\"sd.e\",\"n.c\",\"mean.c\",\"sd.c\"), rightcols = c(\"effect\",\"ci\",\"w.random\"), xlab = \"Mean difference in PCAT attenuation (HU)\")"
+  },
+  {
+   "section": "back",
+   "text": "for (t in c(\"RCA\",\"LAD\",\"LCx\")) { d &lt;- subset(dat, terr == t) m &lt;- metacont(n.e, mean.e, sd.e, n.c, mean.c, sd.c, studlab = study, data = d, sm = \"MD\", method.tau = \"REML\", method.random.ci = \"HK\", adhoc.hakn.ci = \"\", common = FALSE, random = TRUE) print(metainf(m, pooled = \"random\")) }"
+  },
+  {
+   "section": "back",
+   "text": "sessionInfo()"
+  },
+  {
+   "section": "back",
+   "text": "Appendix C"
+  },
+  {
+   "section": "back",
+   "text": "Figure 3"
+  },
+  {
+   "section": "back",
+   "text": "ROBINS-I risk-of-bias assessment for the included studies"
+  },
+  {
+   "section": "back",
+   "text": "Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>], Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>], and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] were assessed using the ROBINS-I tool across seven domains [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1136/bmj.i4919\" pmcid=\"PMC5062054\" pmid=\"27733354\" count=\"1\">21</citation>]. <sentence_start/>Green (+) = low risk of bias; yellow (\u2212) = moderate risk of bias. <sentence_start/>In accordance with the ROBINS-I algorithm, the overall judgement for each study is the least favourable rating across the seven domains. <sentence_start/>Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] received a moderate rating for domain 6 (measurement of outcomes) owing to potential subjective variability in PCAT segmentation and is therefore rated moderate overall; Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>] and Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>] were rated low risk overall. <sentence_start/>No study was judged to be at serious or critical risk of bias."
+  },
+  {
+   "section": "back",
+   "text": "D1, confounding; D2, participant selection; D3, classification of interventions; D4, deviations from intended interventions; D5, missing data; D6, measurement of outcomes; D7, selection of the reported result; PCAT, peri-coronary adipose tissue; ROBINS-I, Risk Of Bias In Non-randomised Studies of Interventions"
+  },
+  {
+   "section": "back",
+   "text": "Appendix D"
+  },
+  {
+   "section": "back",
+   "text": "Figure 4"
+  },
+  {
+   "section": "back",
+   "text": "Leave-one-out analysis for RCA-PCAT attenuation"
+  },
+  {
+   "section": "back",
+   "text": "Each row shows the pooled random-effects mean difference after sequential omission of one study, using the same model as the primary analysis. <sentence_start/>The bottom row is the full three-study estimate. <sentence_start/>With only three included studies, each omission leaves a two-study synthesis in which the between-study variance is estimated from a single degree of freedom, and the resulting confidence intervals are unstable in both directions, becoming implausibly wide when the two remaining estimates diverge and implausibly narrow when they nearly coincide. <sentence_start/>These results are presented for descriptive completeness only and do not constitute a formal robustness assessment. <sentence_start/>Includes Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>], Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>], and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "back",
+   "text": "CI, confidence interval; HU, Hounsfield units; MD, mean difference; PCAT, peri-coronary adipose tissue; RCA, right coronary artery"
+  },
+  {
+   "section": "back",
+   "text": "Appendix E"
+  },
+  {
+   "section": "back",
+   "text": "Figure 5"
+  },
+  {
+   "section": "back",
+   "text": "Leave-one-out analysis for LAD-PCAT attenuation"
+  },
+  {
+   "section": "back",
+   "text": "Each row shows the pooled random-effects mean difference after sequential omission of one study, using the same model as the primary analysis. <sentence_start/>The bottom row is the full three-study estimate. <sentence_start/>With only three included studies, each omission leaves a two-study synthesis in which the between-study variance is estimated from a single degree of freedom, and the resulting confidence intervals are unstable in both directions. <sentence_start/>The interval obtained on omission of Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>] is narrower than that of either contributing study and should not be interpreted as a precise estimate; it arises because the two remaining estimates nearly coincide, collapsing the observed between-study dispersion toward zero. <sentence_start/>These results are presented for descriptive completeness only and do not constitute a formal robustness assessment. <sentence_start/>Includes Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>], Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>], and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "back",
+   "text": "CI, confidence interval; HU, Hounsfield units; LAD, left anterior descending artery; MD, mean difference; PCAT, peri-coronary adipose tissue"
+  },
+  {
+   "section": "back",
+   "text": "Appendix F"
+  },
+  {
+   "section": "back",
+   "text": "Figure 6"
+  },
+  {
+   "section": "back",
+   "text": "Leave-one-out analysis for LCx-PCAT attenuation"
+  },
+  {
+   "section": "back",
+   "text": "Each row shows the pooled random-effects mean difference after sequential omission of one study, using the same model as the primary analysis. <sentence_start/>The bottom row is the full three-study estimate. <sentence_start/>With only three included studies, each omission leaves a two-study synthesis in which the between-study variance is estimated from a single degree of freedom, and the resulting confidence intervals are unstable in both directions, becoming implausibly wide when the two remaining estimates diverge and implausibly narrow when they nearly coincide. <sentence_start/>These results are presented for descriptive completeness only and do not constitute a formal robustness assessment. <sentence_start/>Includes Nogami et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1259/bjr.20210361\" pmcid=\"PMC8631036\" pmid=\"34520243\" count=\"1\">16</citation>], Wang et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1002/clc.24081\" pmcid=\"PMC10577529\" pmid=\"37436796\" count=\"1\">15</citation>], and Ma et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s11604-023-01426-x\" pmid=\"37040024\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "back",
+   "text": "CI, confidence interval; HU, Hounsfield units; LCx, left circumflex artery; MD, mean difference; PCAT, peri-coronary adipose tissue"
+  }
+ ]
+}

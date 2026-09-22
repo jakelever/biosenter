@@ -1,0 +1,939 @@
+{
+ "pmid": 42762524,
+ "pmcid": 13589651,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Robotic Computer-Assisted Dental Implant Surgery Versus Free-Hand and Guided Techniques: A Systematic Review and Meta-Analysis of Randomized Controlled Trials"
+  },
+  {
+   "section": "abstract",
+   "text": "ABSTRACT"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Robotic computer-assisted implant surgery (r-CAIS) aims to improve implant placement trueness, but existing reviews include heterogeneous designs, and no review has exclusively synthesized RCTs to date. <sentence_start/>This review aimed to evaluate the positional trueness and clinical outcomes of r-CAIS compared with free-hand implant surgery (FHIS), dynamic computer-assisted implant surgery (<sc>d</sc>-CAIS), and static computer-assisted implant surgery (s-CAIS), through a systematic review and meta-analysis of RCTs."
+  },
+  {
+   "section": "abstract",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "This systematic review was conducted according to PRISMA 2020 guidelines. <sentence_start/>Electronic searches were performed in major biomedical databases from inception to March 2026. <sentence_start/>Only RCTs were eligible. <sentence_start/>Risk of bias was assessed using the RoB 2 tool and certainty of evidence was rated using the GRADE framework. <sentence_start/>Meta-analyses were performed using a random-effects model where feasible."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Seven RCTs enrolling 529 implants were included. <sentence_start/>Moderate-certainty evidence demonstrated significantly improved positional trueness with r-CAIS over FHIS across all deviation parameters, with the largest effect observed for angular deviation (MD = \u22124.56\u00b0; 95% CI \u22126.25 to \u22122.86). <sentence_start/>High certainty evidence showed a significant angular deviation advantage of r-CAIS over <sc>d</sc>-CAIS (MD = \u22120.77\u00b0; 95% CI: \u22121.33 to \u22120.21), while platform and apical deviations did not differ significantly. <sentence_start/>All comparisons with s-CAIS were non-significant, rated low to very low certainty from a single small trial. <sentence_start/>Operative time evidence was very low certainty, precluding any directional conclusion. <sentence_start/>Early implant retention ranged from 93.3% to 100% across all modalities with no meaningful between-group differences."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "r-CAIS improves implant positional trueness compared with free-hand surgery, supported by moderate certainty evidence, with a high certainty angular deviation advantage over dynamic navigation. <sentence_start/>However, improved trueness has not been shown to translate into better clinical or patient-reported outcomes. <sentence_start/>Wider clinical use should depend on long-term, multicenter RCTs using standardized patient-centered outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "article",
+   "text": "CAIS"
+  },
+  {
+   "section": "article",
+   "text": "computer-assisted implant surgery"
+  },
+  {
+   "section": "article",
+   "text": "CENTRAL"
+  },
+  {
+   "section": "article",
+   "text": "Cochrane Central Register of Controlled Trials"
+  },
+  {
+   "section": "article",
+   "text": "d-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "dynamic computer-assisted implant surgery"
+  },
+  {
+   "section": "article",
+   "text": "FHIS"
+  },
+  {
+   "section": "article",
+   "text": "free-hand implant surgery"
+  },
+  {
+   "section": "article",
+   "text": "GRADE"
+  },
+  {
+   "section": "article",
+   "text": "Grading of Recommendations Assessment, Development and Evaluation"
+  },
+  {
+   "section": "article",
+   "text": "ID-COSM"
+  },
+  {
+   "section": "article",
+   "text": "Implant Dentistry Core Outcome Set and Measurement"
+  },
+  {
+   "section": "article",
+   "text": "MeSH"
+  },
+  {
+   "section": "article",
+   "text": "Medical Subject Headings"
+  },
+  {
+   "section": "article",
+   "text": "OHIP-14"
+  },
+  {
+   "section": "article",
+   "text": "Oral Health Impact Profile-14"
+  },
+  {
+   "section": "article",
+   "text": "PICOS"
+  },
+  {
+   "section": "article",
+   "text": "Population, Intervention, Comparator, Outcomes, Study Design"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA"
+  },
+  {
+   "section": "article",
+   "text": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses"
+  },
+  {
+   "section": "article",
+   "text": "PROSPERO"
+  },
+  {
+   "section": "article",
+   "text": "International Prospective Register of Systematic Reviews"
+  },
+  {
+   "section": "article",
+   "text": "RCT"
+  },
+  {
+   "section": "article",
+   "text": "randomized controlled trial"
+  },
+  {
+   "section": "article",
+   "text": "RoB 2"
+  },
+  {
+   "section": "article",
+   "text": "risk of bias 2 tool"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "robotic computer-assisted implant surgery"
+  },
+  {
+   "section": "article",
+   "text": "s-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "static computer-assisted implant surgery"
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Accurate three-dimensional positioning of dental implants is critical for achieving optimal prosthetic outcomes, preserving peri-implant tissues, and minimizing mechanical and biological complications. <sentence_start/>Deviations from planned position may compromise long-term outcomes (Miadili et al. <citation rid=\"cre270460-bib-0017\" ref-type=\"bibr\" doi=\"10.3389/fbioe.2025.1536957\" pmcid=\"PMC11893848\" pmid=\"40070547\" count=\"1\">2025</citation>; Ding et al. <citation rid=\"cre270460-bib-0006\" ref-type=\"bibr\" doi=\"10.1016/j.jdent.2023.104766\" pmid=\"39491161\" count=\"1\">2023</citation>; Alqutaibi et al. <citation rid=\"cre270460-bib-0001\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-07073-0\" pmcid=\"PMC12560370\" pmid=\"41146170\" count=\"1\">2025a</citation>). <sentence_start/>Free-hand implant surgery (FHIS) remains widely practiced; however, it is inherently operator-dependent and susceptible to cumulative errors in angulation and depth control (Schnutenhaus et al. <citation rid=\"cre270460-bib-0022\" ref-type=\"bibr\" doi=\"10.3390/dj9050054\" pmcid=\"PMC8151810\" pmid=\"34068734\" count=\"1\">2021</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "To address FHIS limitations, computer-assisted implant surgery (CAIS), including static and dynamic navigation systems, has been introduced to enhance surgical trueness (Alqutaibi et al. <citation rid=\"cre270460-bib-0001\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-07073-0\" pmcid=\"PMC12560370\" pmid=\"41146170\" count=\"1\">2025a</citation>; Chen et al. <citation rid=\"cre270460-bib-0004\" ref-type=\"bibr\" doi=\"10.1111/clr.14083\" pmid=\"37167364\" count=\"1\">2023</citation>; Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Alqutaibi et al. <citation rid=\"cre270460-bib-0002\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2023.11.019\" pmid=\"38087758\" count=\"1\">2025b</citation>; Werny et al. <citation rid=\"cre270460-bib-0030\" ref-type=\"bibr\" doi=\"10.1186/s40729-025-00622-w\" pmcid=\"PMC12048383\" pmid=\"40314873\" count=\"1\">2025</citation>). <sentence_start/>More recently, robotic computer-assisted implant surgery (r-CAIS) has emerged as an advanced technology designed to further reduce operator variability through haptic guidance, optical tracking, and varying levels of autonomy (Qiao et al. <citation rid=\"cre270460-bib-0020\" ref-type=\"bibr\" doi=\"10.1111/clr.14112\" pmid=\"37309242\" count=\"1\">2023</citation>; Li et al. <citation rid=\"cre270460-bib-0013\" ref-type=\"bibr\" doi=\"10.1016/j.jdent.2024.105218\" pmid=\"38955260\" count=\"1\">2024</citation>; Wang et al. <citation rid=\"cre270460-bib-0028\" ref-type=\"bibr\" doi=\"10.1111/cid.13278\" pmid=\"37728030\" count=\"1\">2024</citation>; Ma et al. <citation rid=\"cre270460-bib-0016\" ref-type=\"bibr\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Recent randomized clinical trials (RCTs) have consistently demonstrated that r-CAIS provides superior placement trueness compared with FHIS and, in some cases, dynamic navigation or static guidance approaches. <sentence_start/>Studies published between 2024 and 2026 reported improvements in coronal, apical, linear, and angular deviations using semi-active, semi-autonomous, autonomous, and collaborative robotic systems, with maintained accuracy even in complex cases involving bone augmentation (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Despite the growing body of evidence, previously published systematic reviews in this field have often combined heterogeneous study designs, including in vitro experiments, (Jain et al. <citation rid=\"cre270460-bib-0008\" ref-type=\"bibr\" doi=\"10.3390/medicina60010011\" pmcid=\"PMC10817552\" pmid=\"38276045\" count=\"1\">2023</citation>; Pisla et al. <citation rid=\"cre270460-bib-0019\" ref-type=\"bibr\" doi=\"10.3390/dj13110537\" pmcid=\"PMC12651058\" pmid=\"41294519\" count=\"1\">2025</citation>; Yang and Li <citation rid=\"cre270460-bib-0034\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2023.12.003\" pmid=\"38195255\" count=\"1\">2024</citation>; Khaohoen et al. <citation rid=\"cre270460-bib-0012\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2025.03.038\" pmid=\"40221370\" count=\"1\">2025</citation>; Khan et al. <citation rid=\"cre270460-bib-0010\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.02.015\" pmid=\"38490935\" count=\"1\">2024</citation>; Wang et al. <citation rid=\"cre270460-bib-0027\" ref-type=\"bibr\" doi=\"10.4317/medoral.27132\" pmcid=\"PMC12743385\" pmid=\"41108766\" count=\"1\">2025</citation>) animal studies, (Wang et al. <citation rid=\"cre270460-bib-0027\" ref-type=\"bibr\" doi=\"10.4317/medoral.27132\" pmcid=\"PMC12743385\" pmid=\"41108766\" count=\"1\">2025</citation>) cadaveric models, (Yang and Li <citation rid=\"cre270460-bib-0034\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2023.12.003\" pmid=\"38195255\" count=\"1\">2024</citation>) technical feasibility reports, (Khaohoen et al. <citation rid=\"cre270460-bib-0011\" ref-type=\"bibr\" doi=\"10.1186/s12903-024-04033-y\" pmcid=\"PMC10956322\" pmid=\"38509530\" count=\"1\">2024</citation>; Luo et al. <citation rid=\"cre270460-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-05837-2\" pmcid=\"PMC11992838\" pmid=\"40217233\" count=\"1\">2025</citation>) case series, (Khaohoen et al. <citation rid=\"cre270460-bib-0011\" ref-type=\"bibr\" doi=\"10.1186/s12903-024-04033-y\" pmcid=\"PMC10956322\" pmid=\"38509530\" count=\"1\">2024</citation>; Luo et al. <citation rid=\"cre270460-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-05837-2\" pmcid=\"PMC11992838\" pmid=\"40217233\" count=\"1\">2025</citation>) and non-randomized clinical trials (Jain et al. <citation rid=\"cre270460-bib-0008\" ref-type=\"bibr\" doi=\"10.3390/medicina60010011\" pmcid=\"PMC10817552\" pmid=\"38276045\" count=\"1\">2023</citation>; Pisla et al. <citation rid=\"cre270460-bib-0019\" ref-type=\"bibr\" doi=\"10.3390/dj13110537\" pmcid=\"PMC12651058\" pmid=\"41294519\" count=\"1\">2025</citation>; Yang and Li <citation rid=\"cre270460-bib-0034\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2023.12.003\" pmid=\"38195255\" count=\"1\">2024</citation>; Khaohoen et al. <citation rid=\"cre270460-bib-0012\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2025.03.038\" pmid=\"40221370\" count=\"1\">2025</citation>; Khan et al. <citation rid=\"cre270460-bib-0010\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.02.015\" pmid=\"38490935\" count=\"1\">2024</citation>; Wang et al. <citation rid=\"cre270460-bib-0027\" ref-type=\"bibr\" doi=\"10.4317/medoral.27132\" pmcid=\"PMC12743385\" pmid=\"41108766\" count=\"1\">2025</citation>; Khaohoen et al. <citation rid=\"cre270460-bib-0011\" ref-type=\"bibr\" doi=\"10.1186/s12903-024-04033-y\" pmcid=\"PMC10956322\" pmid=\"38509530\" count=\"1\">2024</citation>; Luo et al. <citation rid=\"cre270460-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-05837-2\" pmcid=\"PMC11992838\" pmid=\"40217233\" count=\"1\">2025</citation>; Wu et al. <citation rid=\"cre270460-bib-0031\" ref-type=\"bibr\" doi=\"10.1111/clr.14255\" pmid=\"38517053\" count=\"1\">2024</citation>; Jia et al. <citation rid=\"cre270460-bib-0009\" ref-type=\"bibr\" doi=\"10.1016/j.jdent.2025.106321\" pmid=\"41468967\" count=\"1\">2026</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Importantly, no prior systematic review has exclusively synthesized evidence from RCTs focusing specifically on robotic implant placement. <sentence_start/>By restricting inclusion to RCTs alone, the present review eliminates the overestimation of effect sizes arising from controlled laboratory conditions and selection bias inherent in non-randomized designs - a methodological distinction that sets this synthesis apart from previous work and yields a clinically grounded, internally valid estimate of effectiveness."
+  },
+  {
+   "section": "article",
+   "text": "Accordingly, the objective of this systematic review was to evaluate, using only RCTs, whether r-CAIS improves positional trueness and clinical outcomes compared with free-hand, dynamic navigation, and static guided techniques. <sentence_start/>Accordingly, the null hypothesis of this systematic review was that r-CAIS does not differ from free-hand, dynamic navigation, or static guided techniques in terms of implant placement trueness and clinical outcomes when evaluated using RCTs."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Study Design and Protocol Registration"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis was conducted and reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement, (Page et al. <citation rid=\"cre270460-bib-0018\" ref-type=\"bibr\" doi=\"10.1136/bmj.n71\" pmcid=\"PMC8005924\" pmid=\"33782057\" count=\"1\">2021</citation>) and the protocol for this review was registered in the International Prospective Register of Systematic Reviews (PROSPERO) database (CRD420261326729). <sentence_start/>The methodology was established a priori, including eligibility criteria, search strategy, study selection, data extraction, and risk of bias assessment."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Eligibility Criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were selected according to predefined inclusion criteria based on the PICOS framework. <sentence_start/>Eligible studies were RCTs evaluating r-CAIS in human patients undergoing dental implant placement. <sentence_start/>The intervention of interest was r-CAIS, including semi-autonomous, collaborative, or fully autonomous robotic systems. <sentence_start/>Comparators included FHIS (defined here as digitally planned implant placement executed without active robotic, navigational, or static guidance constraint), <sc>d</sc>-CAIS, and s-CAIS. <sentence_start/>Only full-text articles published in peer-reviewed journals were considered eligible."
+  },
+  {
+   "section": "article",
+   "text": "Studies were excluded if they were non-randomized, in vitro, animal-based, case reports, reviews, technical notes without clinical outcomes, or did not report quantitative trueness outcomes."
+  },
+  {
+   "section": "article",
+   "text": "The primary outcome was implant positional trueness, assessed through platform global deviation, apical global deviation, and angular deviation. <sentence_start/>Secondary outcomes included operative time, postoperative pain (VAS), postoperative edema, intraoperative and postoperative complications, and early implant retention rate. <sentence_start/>Full outcome definitions are provided in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Information Sources and Search Strategy"
+  },
+  {
+   "section": "article",
+   "text": "A comprehensive electronic search was conducted in major biomedical databases, including PubMed/MEDLINE, Scopus, Web of Science, and the Cochrane Central Register of Controlled Trials (CENTRAL) from database inception to March 2026, without restrictions on language."
+  },
+  {
+   "section": "article",
+   "text": "The search strategy combined controlled vocabulary (e.g., MeSH terms) and free-text keywords related to \u201crobotic implant surgery,\u201d \u201crobot-assisted dental implant,\u201d \u201ccomputer-assisted implant surgery,\u201d \u201cdynamic navigation,\u201d \u201cstatic guidance,\u201d and \u201crandomized controlled trial.\u201d <sentence_start/>The complete search strategies are presented in Supplementary Table 1. <sentence_start/>Reference lists of included studies were manually screened to identify additional eligible articles. <sentence_start/>No restrictions were placed on year of publication."
+  },
+  {
+   "section": "article",
+   "text": "2.4"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "All retrieved records were imported into reference management software, and duplicates were removed. <sentence_start/>Two independent reviewers (SA and RSA) screened titles and abstracts for eligibility. <sentence_start/>Full texts of potentially relevant studies were then assessed independently against the inclusion criteria. <sentence_start/>Disagreements were resolved through discussion and consensus. <sentence_start/>The study selection process was documented using a PRISMA 2020 flow diagram."
+  },
+  {
+   "section": "article",
+   "text": "2.5"
+  },
+  {
+   "section": "article",
+   "text": "Data Collection Process"
+  },
+  {
+   "section": "article",
+   "text": "Data extraction was performed independently by two reviewers (AYA and RSA) using a standardized data extraction form. <sentence_start/>Extracted data included study characteristics, sample size, participant demographics, implant site distribution, robotic system characteristics, comparator modality, follow-up duration, and outcome measures. <sentence_start/>Trueness outcomes were extracted as mean \u00b1 standard deviation for platform, apical, and angular deviations. <sentence_start/>Secondary outcomes, including operative time, pain, edema, intraoperative and postoperative complications, and early implant retention, were also recorded. <sentence_start/>When multiple analytical approaches were reported (e.g., intention-to-treat and per-protocol analyses), the primary analysis specified by the study was extracted for quantitative comparison."
+  },
+  {
+   "section": "article",
+   "text": "2.6"
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Risk of bias was assessed independently by two reviewers (RSA and AYA) using the Cochrane Risk of Bias 2 (RoB 2) tool for RCTs (Sterne et al. <citation rid=\"cre270460-bib-0025\" ref-type=\"bibr\" doi=\"10.1136/bmj.l4898\" pmid=\"31462531\" count=\"1\">2019</citation>). <sentence_start/>The following domains were evaluated: (1) randomization process, (2) deviations from intended interventions, (3) missing outcome data, (4) measurement of the outcome, and (5) selection of the reported result. <sentence_start/>Each domain was judged as low risk, some concerns, or high risk of bias. <sentence_start/>Disagreements were resolved through discussion."
+  },
+  {
+   "section": "article",
+   "text": "2.7"
+  },
+  {
+   "section": "article",
+   "text": "Data Synthesis"
+  },
+  {
+   "section": "article",
+   "text": "A qualitative synthesis was conducted for all included studies. <sentence_start/>When sufficient homogeneity in outcome reporting was present, quantitative comparisons were performed based on mean differences in positional deviations between robotic and comparator groups. <sentence_start/>Heterogeneity was assessed using the I<sup>2</sup> statistic and Cochran's Q test. <sentence_start/>A fixed-effects model was used when statistical heterogeneity was low (I<sup>2</sup> &lt; 50%), whereas a random-effects model was applied when heterogeneity was substantial. <sentence_start/>Where pooling was not feasible, a structured qualitative narrative synthesis is provided, with explicit acknowledgment of limitations."
+  },
+  {
+   "section": "article",
+   "text": "For Shi et al. (<citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>), (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>) which is a three-arm RCT (r-CAIS, <sc>d</sc>-CAIS, and s-CAIS), only the two arms relevant to each pairwise comparison were included in the respective meta-analysis. <sentence_start/>The robotic arm participants were not double-counted across comparisons, avoiding unit-of-analysis errors."
+  },
+  {
+   "section": "article",
+   "text": "2.8"
+  },
+  {
+   "section": "article",
+   "text": "Certainty Assessment"
+  },
+  {
+   "section": "article",
+   "text": "The certainty of evidence for outcomes was evaluated using the GRADE (Grading of Recommendations Assessment, Development and Evaluation) approach (Guyatt et al. <citation rid=\"cre270460-bib-0007\" ref-type=\"bibr\" doi=\"10.1136/bmj.39489.470347.AD\" pmcid=\"PMC2335261\" pmid=\"18436948\" count=\"1\">2008</citation>). <sentence_start/>Given that all included studies were RCTs, the certainty of evidence was initially rated as high. <sentence_start/>However, downgrading decisions were considered based on risk of bias, inconsistency, imprecision, indirectness, and publication bias."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Search Results"
+  },
+  {
+   "section": "article",
+   "text": "The database search identified 1751 records, of which 446 duplicates were removed. <sentence_start/>Following title and abstract screening, 1297 records were excluded, and eight articles underwent full-text assessment. <sentence_start/>Two additional studies were identified through manual searching. <sentence_start/>Ultimately, 7 RCTs met the inclusion criteria and were included in the qualitative synthesis, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) while three studies were excluded because they were not RCTs (Wang et al. <citation rid=\"cre270460-bib-0028\" ref-type=\"bibr\" doi=\"10.1111/cid.13278\" pmid=\"37728030\" count=\"1\">2024</citation>; Younis et al. <citation rid=\"cre270460-bib-0036\" ref-type=\"bibr\" doi=\"10.1186/s40729-024-00586-3\" pmcid=\"PMC11699033\" pmid=\"39751717\" count=\"1\">2025</citation>; Zhang et al. <citation rid=\"cre270460-bib-0037\" ref-type=\"bibr\" doi=\"10.1111/clr.14216\" pmid=\"38033198\" count=\"1\">2024</citation>). <sentence_start/>The PRISMA flow chart presenting the screening process for this review is illustrated in Figure 1. <sentence_start/>No non-English full-text articles were identified meeting inclusion criteria."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA flow chart of study selection for the systematic review and meta-analysis."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of the Included Studies"
+  },
+  {
+   "section": "article",
+   "text": "The seven RCTs included in this review were published between 2024 and 2026 and collectively enrolled a total of 529 implants. <sentence_start/>Six of the studies were conducted in China, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) while one was conducted in India (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>Five trials compared r-CAIS with FHIS, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) one compared r-CAIS with <sc>d</sc>-CAIS, (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) and one was a three-arm RCT comparing r-CAIS with both <sc>d</sc>-CAIS and s-CAIS (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>Implant placement was performed in single-tooth sites across anterior, premolar, and molar regions of both maxilla and mandible."
+  },
+  {
+   "section": "article",
+   "text": "Six included studies reported short-term follow-up periods ranging from 3 to 6 months, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) whereas one study assessed postoperative implant placement trueness obtained within 1 week and did not report a longer follow-up period (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>The characteristics of the included studies are summarized in Table 2."
+  },
+  {
+   "section": "article",
+   "text": "Table 3 summarizes key characteristics and technical details of the robotic systems used in the included RCTs. <sentence_start/>The included RCTs evaluated robotic systems across three autonomy levels. <sentence_start/>Four studies used the THETA (Jianjia, China) semi-active collaborative robot, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0016\" ref-type=\"bibr\" count=\"1\">2025</citation>) including one with a distinctive cantilevered all-in-one configuration integrating the robotic arm, camera, and software into a single unit (Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>). <sentence_start/>Two studies evaluated task-autonomous systems - the Yakebot (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) and the YaZhi robot (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>) - both operating with minimal intraoperative surgeon input. <sentence_start/>One study did not specify a proprietary system (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>Across all studies, optical tracking and CBCT-based virtual planning constituted the standard technical workflow. <sentence_start/>The definition of surgeon experience varied across the included studies. <sentence_start/>One study defined experience as &gt; 10 years of FHIS experience, (Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>) another as &gt; 100 navigation and robotic procedures, (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) while the remaining studies described surgeons only as \u201cexperienced implant surgeons\u201d without further specification (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Trueness evaluation methods used across the seven included RCTs are summarized in Table 4. <sentence_start/>All studies assessed implant positional trueness by superimposing preoperative plans onto postoperative imaging data. <sentence_start/>Immediate postoperative CBCT was used in five studies, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) postoperative CBCT within 1 week was used in one study, (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) whereas one study used a delayed intraoral scan at 3 months, avoiding additional radiation exposure and metal artifacts (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>Three common deviation metrics were consistently reported across all studies: platform global deviation, apex global deviation, and angular deviation. <sentence_start/>3D Slicer was the most frequently used superimposition and analysis platform, adopted in four of seven studies, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>) while two studies used proprietary software (DentalNavi) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>The software used for superimposition was not specified in one study (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>Blinded outcome assessment was employed in all studies; however, interrater reliability measures were formally reported in only three studies (Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Operative time was reported in four studies, but the definitions varied substantially (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>One study measured time from local anesthesia to healing-abutment placement, including registration, calibration, and guide checking/adaptation; (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>) one recorded robotic time from patient positioning and U-SRD repositioning to implant placement; (Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>) one measured active surgical time from osteotomy initiation to implant placement; (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) and one reported operative time without clearly defining the timing interval (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Overall, the risk of bias ranged from low risk (Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) to some concerns, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) with no study judged to be at high risk of bias. <sentence_start/>The risk of bias for the included RCTs is shown in Figure 2. <sentence_start/>The main methodological limitations were minor concerns in randomization and deviations from intended interventions; however, outcomes were assessed using objective CBCT-based measurements with minimal missing data, resulting in moderate to high internal validity."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Risk of bias assessment of included RCTs according to RoB 2 tool."
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Qualitative Narrative Analysis"
+  },
+  {
+   "section": "article",
+   "text": "3.4.1"
+  },
+  {
+   "section": "article",
+   "text": "Primary Outcomes (Trueness)"
+  },
+  {
+   "section": "article",
+   "text": "The data reporting trueness of included RCT studies comparing r-CAIS versus FHIS, r-CAIS versus <sc>d</sc>-CAIS, and r-CAIS versus s-CAIS are summarized in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "3.5"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus FHIS"
+  },
+  {
+   "section": "article",
+   "text": "Across the five RCTs comparing r-CAIS to FHIS, robotic guidance consistently demonstrated superior three-dimensional trueness at all measurement levels. <sentence_start/>Platform deviations for r-CAIS ranged from 0.70 to 1.27 mm versus 1.24 to 1.88 mm for FHIS, apex deviations from 0.70 to 1.47 mm versus 1.86 to 2.89 mm, and angular deviations from 1.09\u00b0 to 3.64\u00b0 versus 4.87\u00b0 to 8.23\u00b0, with the direction of effect uniformly favoring r-CAIS across the five studies and all three metrics (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>The pooled estimates and statistical significance of these differences are reported in the meta-analysis (Section 3.5.1)."
+  },
+  {
+   "section": "article",
+   "text": "3.6"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus d-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "Platform deviation ranged from 0.70 to 1.10 mm in r-CAIS and from 0.77 to 1.30 mm in <sc>d</sc>-CAIS. <sentence_start/>Apical deviation ranged from 0.76 to 1.50 mm for r-CAIS and from 0.80 to 1.90 mm for <sc>d</sc>-CAIS. <sentence_start/>Angular deviation was lower in robotic arms (1.01\u00b0-4.7\u00b0) than in <sc>d</sc>-CAIS (1.78\u00b0-5.5\u00b0) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>These differences are detailed in the meta-analysis (Section 3.5.2)."
+  },
+  {
+   "section": "article",
+   "text": "3.7"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus s-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "The single available r-CAIS versus s-CAIS comparison showed identical platform deviations between groups (1.1 \u00b1 0.4 mm each), with marginally higher apex and angular deviations in the s-CAIS arm alongside greater variability (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>Pooled meta-analytic estimates for both active comparisons are presented in Section 3.5.3."
+  },
+  {
+   "section": "article",
+   "text": "3.8"
+  },
+  {
+   "section": "article",
+   "text": "Secondary Outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Detailed secondary and safety outcomes across included RCTs are presented in Table 6."
+  },
+  {
+   "section": "article",
+   "text": "3.9"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus FHIS"
+  },
+  {
+   "section": "article",
+   "text": "3.9.1"
+  },
+  {
+   "section": "article",
+   "text": "Operative Time"
+  },
+  {
+   "section": "article",
+   "text": "Operative time was inconsistently reported, and the timed interval differed across studies, limiting direct comparison. <sentence_start/>One trial reported significantly longer operative time for r-CAIS than FHIS (38.5 \u00b1 6.4 vs 31.2 \u00b1 5.8 min; <italic>p</italic> &lt; 0.001), but the timing interval was not clearly defined (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>Another study reported 18.8 \u00b1 4.89 min for r-CAIS, including setup, without an FHIS comparison (Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>). <sentence_start/>Three trials did not report operative time (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.9.2"
+  },
+  {
+   "section": "article",
+   "text": "Pain and Edema"
+  },
+  {
+   "section": "article",
+   "text": "Postoperative pain was uniformly low and comparable between groups across reporting studies. <sentence_start/>No significant intergroup differences were observed over early follow-up, although intraoperative discomfort was numerically lower in one robotic arm (median 1.0 vs. 2.5 for FHIS) (Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>). <sentence_start/>Other trials similarly reported minimal pain without significant differences at any time point. <sentence_start/>Postoperative swelling was not formally graded, and no edema-related adverse events were recorded (Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.9.3"
+  },
+  {
+   "section": "article",
+   "text": "Intraoperative Complications"
+  },
+  {
+   "section": "article",
+   "text": "No serious intraoperative complications were reported in r-CAIS versus FHIS studies. <sentence_start/>No hemorrhage, injury to adjacent structures, nerve damage, or implant displacement beyond the planned apical limit was documented. <sentence_start/>One robotic case required conversion to free-hand placement due to a technical issue (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>A minor device-related incident involving removal of the patient-tracking device was resolved without consequence (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>). <sentence_start/>In the largest trial, complication rates were comparable between r-CAIS and FHIS (2% vs. 5%; <italic>p</italic> = 0.24) (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.9.4"
+  },
+  {
+   "section": "article",
+   "text": "Postoperative Complications and Implant Retention"
+  },
+  {
+   "section": "article",
+   "text": "The postoperative safety profile of r-CAIS was consistently favorable, with no robotic implant failures reported. <sentence_start/>Two trials recorded one early osseointegration failure each in the FHIS group, yielding retention rates of 100% for r-CAIS versus 98.6% and 96.7% for FHIS (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>). <sentence_start/>All other studies reported 100% retention in both groups. <sentence_start/>No wound dehiscence, postoperative infection, or hemorrhage was documented. <sentence_start/>The longest follow-up was 6 months, with all patients completing second-stage surgery and crown restoration (Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.9.5"
+  },
+  {
+   "section": "article",
+   "text": "Patient-Reported Outcomes and Surgeon Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Formal patient-reported outcomes beyond pain VAS were not assessed in r-CAIS versus FHIS studies. <sentence_start/>Surgeon evaluations reported satisfactory software performance, mechanical and electrical safety, and operational stability, with no instrument defects or unfavorable robotic events. <sentence_start/>Subgroup analyses suggested that self-tapping implants were associated with greater positional deviations in the robotic group, whereas implant length, diameter, jaw location, bone density, and bone augmentation showed no significant effect (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>). <sentence_start/>Regression analysis identified group allocation, patient age, and bone density as predictors of selected deviation parameters (Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.10"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus d-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "3.10.1"
+  },
+  {
+   "section": "article",
+   "text": "Operative Time"
+  },
+  {
+   "section": "article",
+   "text": "Studies comparing r-CAIS with <sc>d</sc>-CAIS reported longer measured operative time for r-CAIS. <sentence_start/>Mean durations were approximately 21 min for r-CAIS and 14 min for <sc>d</sc>-CAIS (<italic>p</italic> &lt; 0.01 to <italic>p</italic> &lt; 0.001) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.10.2"
+  },
+  {
+   "section": "article",
+   "text": "Pain and Edema"
+  },
+  {
+   "section": "article",
+   "text": "No significant differences were reported over 7 days in one study, with low intraoperative VAS scores in both groups (0.95 [IQR 0-1.45] vs. 0.70 [IQR 0.5-1.2]) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>Another study reported pain in only one r-CAIS patient on day 1 and none in the <sc>d</sc>-CAIS group (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>Edema was rare; only one r-CAIS patient showed mild grade-1 swelling, while no swelling was recorded in <sc>d</sc>-CAIS patients (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.10.3"
+  },
+  {
+   "section": "article",
+   "text": "Intraoperative Complications"
+  },
+  {
+   "section": "article",
+   "text": "Intraoperative complications were uncommon in r-CAIS versus <sc>d</sc>-CAIS studies. <sentence_start/>One study reported no complications in either group (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>Another recorded one event per arm: depth over-preparation in the <sc>d</sc>-CAIS group requiring implant replacement with a wider fixture, and calibration-related drill deviation in the r-CAIS group requiring conversion to free-hand placement (Shi et al. <citation rid=\"cre270460-bib-0014\" ref-type=\"bibr\" doi=\"10.1038/s41368-024-00296-x\" pmcid=\"PMC10999443\" pmid=\"38584185\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.10.4"
+  },
+  {
+   "section": "article",
+   "text": "Postoperative Complications and Implant Retention"
+  },
+  {
+   "section": "article",
+   "text": "Postoperative outcomes were favorable in both r-CAIS and <sc>d</sc>-CAIS groups. <sentence_start/>One study reported 100% implant retention in both groups at 3 months, with all implants meeting ICOI success criteria (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>Another reported one implant loss in the <sc>d</sc>-CAIS group, resulting in 100% retention for r-CAIS versus 93.3% for <sc>d</sc>-CAIS."
+  },
+  {
+   "section": "article",
+   "text": "3.10.5"
+  },
+  {
+   "section": "article",
+   "text": "Patient-Reported Outcomes, Tissue Assessment, and Surgeon Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Only one study included a validated patient-reported outcome measure (OHIP-14) and objective soft tissue assessment. <sentence_start/>Soft tissue microcirculation parameters declined immediately after surgery and at 1 h but returned to baseline by day 7, with no significant between-group differences, indicating comparable tissue recovery across modalities (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>Another study did not assess patient-reported outcomes but noted that surgeons considered <sc>d</sc>-CAIS simpler and faster (Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>Surgical site access was rated significantly less demanding with <sc>d</sc>-CAIS than r-CAIS (<italic>p</italic> = 0.004), although overall surgical difficulty did not differ significantly (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.11"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus s-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "3.11.1"
+  },
+  {
+   "section": "article",
+   "text": "Operative Time"
+  },
+  {
+   "section": "article",
+   "text": "Operative time differed significantly between modalities (<italic>p</italic> &lt; 0.001), with r-CAIS requiring longer operative duration than s-CAIS (21.0 \u00b1 5.5 vs. 7.4 \u00b1 1.8 min) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.11.2"
+  },
+  {
+   "section": "article",
+   "text": "Pain and Patient-Reported Outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Intraoperative pain was lower with s-CAIS than r-CAIS (median 0 [IQR 0-0.8] vs. 0.95 [IQR 0-1.45]), although postoperative pain did not differ significantly at any time point. <sentence_start/>OHIP-14 scores favored s-CAIS at day 3, with significantly lower physical pain, physical disability, and total scores (<italic>p</italic> &lt; 0.05), suggesting a modest early quality-of-life benefit. <sentence_start/>Willingness to undergo the same procedure again was high and comparable in both groups (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.11.3"
+  },
+  {
+   "section": "article",
+   "text": "Intraoperative Complications and Safety"
+  },
+  {
+   "section": "article",
+   "text": "No intraoperative complications were reported with s-CAIS. <sentence_start/>In the r-CAIS group, one case required conversion to free-hand surgery due to calibration-related drill deviation and was excluded from per-protocol trueness analysis. <sentence_start/>No template misfit or stabilization failure was reported with s-CAIS (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.11.4"
+  },
+  {
+   "section": "article",
+   "text": "Postoperative Complications, Tissue Outcomes, and Surgeon Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Implant retention at 3 months was 100% in both r-CAIS and s-CAIS groups, although two s-CAIS participants were lost to follow-up. <sentence_start/>Soft tissue microcirculation recovered to baseline by day 7, with no between-group differences. <sentence_start/>Surgeon-assessed implant positioning and overall difficulty were comparable between groups. <sentence_start/>Willingness to repeat the same approach was comparable (r-CAIS: 8; s-CAIS: 7) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.12"
+  },
+  {
+   "section": "article",
+   "text": "Meta-Analysis Results"
+  },
+  {
+   "section": "article",
+   "text": "3.12.1"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus FHIS"
+  },
+  {
+   "section": "article",
+   "text": "Meta-analysis of trueness outcomes across five RCTs, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0013\" ref-type=\"bibr\" doi=\"10.1016/j.jdent.2024.105218\" pmid=\"38955260\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) demonstrated that r-CAIS achieved significantly greater trueness than FHIS across all evaluated parameters. <sentence_start/>For platform deviation, pooled analysis of five studies showed a statistically significant reduction in deviation favoring r-CAIS (MD = \u22120.64 mm; 95% CI: \u22120.71 to \u22120.57; <italic>p</italic> &lt; 0.00001), with no observed heterogeneity (I<sup>2</sup> = 0%). <sentence_start/>Similarly, apical deviation was significantly lower in the r-CAIS group compared with FHIS (MD = \u22121.10 mm; 95% CI: \u22121.31 to \u22120.89; <italic>p</italic> &lt; 0.00001), with low-to-moderate heterogeneity (I<sup>2</sup> = 39%). <sentence_start/>Regarding angular deviation, pooled results also favored r-CAIS, demonstrating significantly smaller angular discrepancies than FHIS (MD = \u22124.56\u00b0; 95% CI: \u22126.25 to \u22122.86; <italic>p</italic> &lt; 0.00001), with substantial heterogeneity detected (I<sup>2</sup> = 87%). <sentence_start/>Overall, the findings indicate superior trueness of implant positioning with r-CAIS compared with conventional freehand techniques (Figure 3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot comparing robotic computer-assisted implant surgery (r-CAIS) with free-hand implant surgery (FHIS)."
+  },
+  {
+   "section": "article",
+   "text": "3.12.2"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus d-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "Two RCTs comparing r-CAIS with dynamic navigation were included in the meta-analysis (Figure 4) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>No statistically significant differences were observed between r-CAIS and <sc>d</sc>-CAIS for platform deviation (MD = \u22120.10 mm; 95% CI: \u22120.27 to 0.07; <italic>p</italic> = 0.26; I<sup>2</sup> = 0%) or apical deviation (MD = \u22120.13 mm; 95% CI: \u22120.44 to 0.18; <italic>p</italic> = 0.40; I<sup>2</sup> = 29%). <sentence_start/>However, angular deviation was significantly lower with r-CAIS compared with <sc>d</sc>-CAIS (MD = \u22120.77\u00b0; 95% CI: \u22121.33 to \u22120.21; <italic>p</italic> = 0.007; I<sup>2</sup> = 0%)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot comparing robotic computer-assisted implant surgery (r-CAIS) with dynamic computer-assisted implant surgery (<sc>d</sc>-CAIS)."
+  },
+  {
+   "section": "article",
+   "text": "3.12.3"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS Versus s-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "Only one RCT compared r-CAIS with s-CAIS (Figure 5) (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>No statistically significant differences were detected between r-CAIS and s-CAIS for platform deviation (MD = 0.00 mm; 95% CI: \u22120.36 to 0.36; <italic>P</italic> = 1.00), apical deviation (MD = \u22120.50 mm; 95% CI: \u22121.18 to 0.18; <italic>p</italic> = 0.15), or angular deviation (MD = \u22121.50\u00b0; 95% CI: \u22123.89 to 0.89; <italic>p</italic> = 0.22)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot comparing robotic computer-assisted implant surgery (r-CAIS) with static computer-assisted implant surgery (s-CAIS)."
+  },
+  {
+   "section": "article",
+   "text": "3.13"
+  },
+  {
+   "section": "article",
+   "text": "Certainty Assessment"
+  },
+  {
+   "section": "article",
+   "text": "The certainty of evidence across the three pairwise comparisons is summarized in Supplementary Table 2. <sentence_start/>For the comparison of r-CAIS versus FHIS, the certainty of evidence was rated moderate for platform, apical, and angular deviation outcomes, reflecting some concerns regarding risk of bias in two studies, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) and the geographic concentration of the evidence base, despite large and statistically significant pooled effects; heterogeneity was low for platform and apical deviations, whereas angular deviation showed substantial heterogeneity (I\u00b2 = 87%). <sentence_start/>Operative time evidence was rated very low certainty due to inconsistent outcome definitions, the absence of component-specific time reporting, and data from only four studies; early implant retention was rated low certainty owing to short follow-up durations and a ceiling effect precluding meaningful between-group discrimination."
+  },
+  {
+   "section": "article",
+   "text": "For the comparison of r-CAIS versus <sc>d</sc>-CAIS, angular deviation was rated high certainty, supported by consistent and statistically significant pooled estimates across two low-risk-of-bias trials with no heterogeneity; platform and apical deviations were rated moderate certainty, as confidence intervals crossed the null and no statistically significant differences were detected. <sentence_start/>Operative time and early retention were rated low certainty for this comparison, due to indirectness of the time metric and short follow-up. <sentence_start/>For the comparison of r-CAIS versus s-CAIS, all outcomes were rated low to very low certainty, reflecting reliance on a single small trial with wide confidence intervals crossing the null for all trueness metrics. <sentence_start/>Across all comparisons, the principal drivers of downgrading were imprecision arising from small sample sizes, indirectness related to short follow-up periods insufficient to assess long-term implant survival, and inconsistency in operative time reporting."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis is the first RCT-exclusive synthesis evaluating r-CAIS against FHIS, <sc>d</sc>-CAIS, and s-CAIS. <sentence_start/>r-CAIS showed superior positional trueness versus FHIS and a significant angular advantage over <sc>d</sc>-CAIS, whereas comparisons with s-CAIS were non-significant and based on limited evidence, partially rejecting the null hypothesis with respect to positional trueness."
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Positional Trueness: r-CAIS Versus Fhis"
+  },
+  {
+   "section": "article",
+   "text": "The r-CAIS versus FHIS comparison is the most robustly supported finding in this review, based on 5 RCTs enrolling 444 implants (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-05837-2\" pmcid=\"PMC11992838\" pmid=\"40217233\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0018\" ref-type=\"bibr\" doi=\"10.1136/bmj.n71\" pmcid=\"PMC8005924\" pmid=\"33782057\" count=\"1\">2026</citation>). <sentence_start/>Meta-analysis demonstrated significantly lower platform, apical, and angular deviations with r-CAIS, with low heterogeneity for platform and apical deviations, indicating consistent superiority for these outcomes."
+  },
+  {
+   "section": "article",
+   "text": "The angular deviation advantage is mechanistically well understood: robotic arms provide active angular constraint during osteotomy preparation, eliminating the cumulative directional drift inherent to free-hand drilling. <sentence_start/>Dynamic navigation, while providing real-time visual feedback, still relies on surgeon hand-eye coordination and cannot eliminate angular drift from operator fatigue, limited visibility, or hand tremor (Pisla et al. <citation rid=\"cre270460-bib-0019\" ref-type=\"bibr\" doi=\"10.3390/dj13110537\" pmcid=\"PMC12651058\" pmid=\"41294519\" count=\"1\">2025</citation>; Tsokkou et al. <citation rid=\"cre270460-bib-0026\" ref-type=\"bibr\" doi=\"10.3390/dj13060260\" pmcid=\"PMC12192503\" pmid=\"40559163\" count=\"1\">2025</citation>; Liu et al. <citation rid=\"cre270460-bib-0014\" ref-type=\"bibr\" doi=\"10.1038/s41368-024-00296-x\" pmcid=\"PMC10999443\" pmid=\"38584185\" count=\"1\">2024</citation>). <sentence_start/>This distinction between constraint-based and feedback-based guidance explains why the angular advantage of r-CAIS over FHIS substantially exceeds that over <sc>d</sc>-CAIS."
+  },
+  {
+   "section": "article",
+   "text": "Although statistically significant, no validated thresholds link angular or linear deviations to long-term prosthetic, biological, or patient-centered outcomes; therefore, these trueness gains cannot yet be interpreted as evidence of superior clinical effectiveness (Wang et al. <citation rid=\"cre270460-bib-0027\" ref-type=\"bibr\" doi=\"10.4317/medoral.27132\" pmcid=\"PMC12743385\" pmid=\"41108766\" count=\"1\">2025</citation>; Zhong et al. <citation rid=\"cre270460-bib-0038\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-07625-4\" pmcid=\"PMC12903707\" pmid=\"41514268\" count=\"1\">2026</citation>; Sadilina et al. <citation rid=\"cre270460-bib-0021\" ref-type=\"bibr\" doi=\"10.1002/cre2.70129\" pmcid=\"PMC12081946\" pmid=\"40375737\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, robotic performance may vary with clinical factors. <sentence_start/>Trueness was maintained during simultaneous guided bone regeneration (GBR), (Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>) but greater deviations were observed with self-tapping tapered implants than cylindrical implants, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>) and patient age and bone density significantly influenced platform and apical deviations (Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>). <sentence_start/>These findings suggest that robotic trueness is affected by implant design and patient characteristics."
+  },
+  {
+   "section": "article",
+   "text": "4.2"
+  },
+  {
+   "section": "article",
+   "text": "Positional Trueness: r-CAIS Versus d-CAIS and s-CAIS"
+  },
+  {
+   "section": "article",
+   "text": "Two RCTs compared r-CAIS with <sc>d</sc>-CAIS (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>). <sentence_start/>The most robust finding was a high-certainty reduction in angular deviation favoring r-CAIS. <sentence_start/>Nevertheless, because this conclusion is based on only two RCTs, it should be interpreted cautiously and reassessed as further evidence emerges."
+  },
+  {
+   "section": "article",
+   "text": "In contrast, platform and apical deviations did not differ significantly between r-CAIS and <sc>d</sc>-CAIS, with both outcomes rated as moderate certainty. <sentence_start/>This is mechanistically plausible because both modalities use the same CBCT-based planning and optical registration processes, making linear trueness largely dependent on registration fidelity rather than the guidance system itself. <sentence_start/>Notably, Wei et al. (<citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) used an identical optical tracking system in both groups, minimizing registration-related confounding and providing a more direct comparison of guidance mechanisms (Wei et al. <citation rid=\"cre270460-bib-0017\" ref-type=\"bibr\" doi=\"10.3389/fbioe.2025.1536957\" pmcid=\"PMC11893848\" pmid=\"40070547\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Evidence comparing r-CAIS and s-CAIS is limited to a single three-arm RCT with 15 patients per group (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>No significant differences were observed for any trueness outcome, but the evidence was of low to very low certainty and the study was not powered to demonstrate equivalence. <sentence_start/>Therefore, these findings should be interpreted as insufficient evidence rather than evidence of equivalence, highlighting the need for larger, adequately powered RCTs."
+  },
+  {
+   "section": "article",
+   "text": "4.3"
+  },
+  {
+   "section": "article",
+   "text": "Operative Time"
+  },
+  {
+   "section": "article",
+   "text": "Because operative-time definitions varied substantially across the four reporting studies (Section 3.2), (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>) the evidence was rated as very low certainty; the available data cannot identify which workflow components account for reported differences in procedure duration or support a directional conclusion regarding operative time. <sentence_start/>Future trials should report standardized, component-specific measures."
+  },
+  {
+   "section": "article",
+   "text": "4.4"
+  },
+  {
+   "section": "article",
+   "text": "Safety, Complications, and Early Implant Retention"
+  },
+  {
+   "section": "article",
+   "text": "No included RCT reported serious intraoperative complications in robotic groups. <sentence_start/>However, six trials provided 3-6 months of follow-up, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0014\" ref-type=\"bibr\" doi=\"10.1038/s41368-024-00296-x\" pmcid=\"PMC10999443\" pmid=\"38584185\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) whereas one assessed trueness at 1 week without extended follow-up (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>Therefore, postoperative findings should be interpreted as short-term outcomes and should not be extrapolated to long-term safety (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0017\" ref-type=\"bibr\" doi=\"10.3389/fbioe.2025.1536957\" pmcid=\"PMC11893848\" pmid=\"40070547\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>Postoperative pain was similarly low across modalities, indicating that robotic assistance does not appear to increase early patient morbidity (Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>; Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>The only intraoperative interruption was a conversion to free-hand placement after a calibration-related drill deviation, which was detected by the robotic system's built-in safety protocol (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Early implant retention was high across guidance modalities and reflects early healing and osseointegration rather than long-term implant survival or success. <sentence_start/>No implant failures were reported in robotic groups, whereas two early osseointegration failures occurred in FHIS groups (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>). <sentence_start/>Nevertheless, the small number of events precludes conclusions regarding comparative biologic stability or long-term clinical benefit."
+  },
+  {
+   "section": "article",
+   "text": "Limited patient-reported data suggest that workflow efficiency may influence clinical value. <sentence_start/>One trial reported better short-term oral health-related quality of life with s-CAIS and easier surgical access with <sc>d</sc>-CAIS (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>). <sentence_start/>These findings support broader evaluation beyond positional trueness."
+  },
+  {
+   "section": "article",
+   "text": "4.5"
+  },
+  {
+   "section": "article",
+   "text": "Certainty of Evidence, Heterogeneity, and Methodological Considerations"
+  },
+  {
+   "section": "article",
+   "text": "The certainty ratings reported in Section 3.6 and Supplementary Table 2 should be interpreted in light of substantial clinical and methodological heterogeneity among the included studies."
+  },
+  {
+   "section": "article",
+   "text": "The robotic systems differed considerably in autonomy level, arm kinematics, drill exchange workflow, and depth-control mechanisms, with most studies evaluating the THETA semi-active platform, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>) while others assessed task-autonomous systems such as Yakebot and YaZhi, (Shi et al. <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) or unspecified semi-active platforms (Dash et al. <citation rid=\"cre270460-bib-0005\" ref-type=\"bibr\" doi=\"10.4103/aam.aam_149_26\" pmid=\"41992684\" count=\"1\">2026</citation>). <sentence_start/>These engineering differences likely contributed to variability in deviation outcomes beyond surgical technique alone. <sentence_start/>Methodological heterogeneity was also evident in trueness assessment protocols. <sentence_start/>Consequently, deviation values are not fully comparable across studies, and absolute numerical differences should be interpreted cautiously."
+  },
+  {
+   "section": "article",
+   "text": "4.6"
+  },
+  {
+   "section": "article",
+   "text": "Clinical Implications, Strengths, Limitations, and Future Directions"
+  },
+  {
+   "section": "article",
+   "text": "The main clinical implication is that r-CAIS improves surgical execution trueness under controlled RCT conditions; however, its financial and infrastructure requirements-including capital investment, maintenance, registration devices, and staff training-remain unquantified. <sentence_start/>Long-term clinical outcomes, cost-effectiveness, and learning curves require further evaluation before routine implementation can be justified."
+  },
+  {
+   "section": "article",
+   "text": "A key strength of this review is its exclusive inclusion of RCTs, reducing bias associated with in vitro studies, non-randomized designs, and lack of random allocation. <sentence_start/>Methodological rigor was further enhanced through PROSPERO registration, PRISMA 2020 compliance, RoB 2 assessment, prespecified analyses, and GRADE evaluation. <sentence_start/>Although no language restrictions were applied, all eligible studies were published in English; thus, any language bias likely reflects the limited availability of RCTs rather than study exclusion."
+  },
+  {
+   "section": "article",
+   "text": "The present findings align with previous systematic reviews but provide more conservative estimates. <sentence_start/>Reviews using broader mixed-design evidence generally reported favorable r-CAIS trueness and, in direct comparisons with <sc>d</sc>-CAIS, larger angular deviation advantages than the present RCT-exclusive synthesis (Jain et al. <citation rid=\"cre270460-bib-0008\" ref-type=\"bibr\" doi=\"10.3390/medicina60010011\" pmcid=\"PMC10817552\" pmid=\"38276045\" count=\"1\">2023</citation>; Pisla et al. <citation rid=\"cre270460-bib-0019\" ref-type=\"bibr\" doi=\"10.3390/dj13110537\" pmcid=\"PMC12651058\" pmid=\"41294519\" count=\"1\">2025</citation>; Yang and Li <citation rid=\"cre270460-bib-0034\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2023.12.003\" pmid=\"38195255\" count=\"1\">2024</citation>; Khaohoen et al. <citation rid=\"cre270460-bib-0012\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2025.03.038\" pmid=\"40221370\" count=\"1\">2025</citation>; Khan et al. <citation rid=\"cre270460-bib-0010\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.02.015\" pmid=\"38490935\" count=\"1\">2024</citation>; Wang et al. <citation rid=\"cre270460-bib-0027\" ref-type=\"bibr\" doi=\"10.4317/medoral.27132\" pmcid=\"PMC12743385\" pmid=\"41108766\" count=\"1\">2025</citation>; Khaohoen et al. <citation rid=\"cre270460-bib-0011\" ref-type=\"bibr\" doi=\"10.1186/s12903-024-04033-y\" pmcid=\"PMC10956322\" pmid=\"38509530\" count=\"1\">2024</citation>; Luo et al. <citation rid=\"cre270460-bib-0015\" ref-type=\"bibr\" doi=\"10.1186/s12903-025-05837-2\" pmcid=\"PMC11992838\" pmid=\"40217233\" count=\"1\">2025</citation>; Wu et al. <citation rid=\"cre270460-bib-0031\" ref-type=\"bibr\" doi=\"10.1111/clr.14255\" pmid=\"38517053\" count=\"1\">2024</citation>; Jia et al. <citation rid=\"cre270460-bib-0009\" ref-type=\"bibr\" doi=\"10.1016/j.jdent.2025.106321\" pmid=\"41468967\" count=\"1\">2026</citation>). <sentence_start/>For example, the high-certainty angular deviation advantage over <sc>d</sc>-CAIS observed here (MD = \u22120.77\u00b0) was smaller than the \u22121.03\u00b0 to \u22121.41\u00b0 reported in previous mixed-design meta-analyses (Khan et al. <citation rid=\"cre270460-bib-0010\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.02.015\" pmid=\"38490935\" count=\"1\">2024</citation>; Wang et al. <citation rid=\"cre270460-bib-0027\" ref-type=\"bibr\" doi=\"10.4317/medoral.27132\" pmcid=\"PMC12743385\" pmid=\"41108766\" count=\"1\">2025</citation>). <sentence_start/>This difference likely reflects the inflation of treatment effects under controlled laboratory conditions and non-randomized designs."
+  },
+  {
+   "section": "article",
+   "text": "Limitations include the small number of RCTs, modest sample sizes, short follow-up periods, and heterogeneity in robotic systems, assessment software, implant-related variables, trueness measurements, and operative time definitions. <sentence_start/>Implant location was not controlled in pooled analyses, despite known site-related differences in trueness associated with bone density, access, and ridge morphology. <sentence_start/>Although two studies reported no significant effect of jaw or tooth position within r-CAIS groups, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>) a meta-regression by anatomical site was not feasible given the small number of studies. <sentence_start/>Furthermore, six of seven studies originated from a single geographic region, (Yang et al. <citation rid=\"cre270460-bib-0032\" ref-type=\"bibr\" doi=\"10.1111/cid.13375\" pmcid=\"PMC11660539\" pmid=\"39161058\" count=\"1\">2024</citation>; Shi et al. <citation rid=\"cre270460-bib-0023\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13893\" pmid=\"37872750\" count=\"1\">2024</citation>, <citation rid=\"cre270460-bib-0024\" ref-type=\"bibr\" doi=\"10.1177/00220345241285566\" pmcid=\"PMC11667196\" pmid=\"39586816\" count=\"1\">2025</citation>; Yang et al. <citation rid=\"cre270460-bib-0033\" ref-type=\"bibr\" doi=\"10.1016/j.prosdent.2024.10.026\" pmid=\"39580315\" count=\"1\">2025</citation>; Chen et al. <citation rid=\"cre270460-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/clr.14413\" pmid=\"39899324\" count=\"1\">2025</citation>; Wei et al. <citation rid=\"cre270460-bib-0029\" ref-type=\"bibr\" doi=\"10.1111/clr.70024\" pmid=\"40836378\" count=\"1\">2025</citation>) limiting generalizability across healthcare systems, patient populations, operator training, and technology availability. <sentence_start/>Accordingly, the pooled estimates should be interpreted with caution. <sentence_start/>Finally, RCTs may inherently limit r-CAIS evidence, as randomization requires eligibility for all comparator modalities and may exclude scenarios where robotics could be most beneficial, such as limited posterior access or immediate placement in fresh extraction sockets."
+  },
+  {
+   "section": "article",
+   "text": "Future research should focus on multicenter RCTs with at least 12 months of follow-up, standardized implant outcomes, and radiographic trueness assessment. <sentence_start/>Studies should incorporate the full ID-COSM framework, including marginal bone level changes, prosthetic complications, peri-implant tissue health, and validated patient-reported outcomes (e.g., OHIP-14). <sentence_start/>Comparisons between collaborative semi-autonomous and task-autonomous robotic systems are needed to determine the influence of autonomy level on outcomes. <sentence_start/>Standardized reporting of operative time components (registration, calibration, osteotomy, and implant insertion) and embedded cost-effectiveness analyses should be mandatory. <sentence_start/>Learning-curve studies are also needed to determine the number of procedures required to achieve stable robotic trueness. <sentence_start/>Consistent with recent consensus recommendations, (Sadilina et al. <citation rid=\"cre270460-bib-0021\" ref-type=\"bibr\" doi=\"10.1002/cre2.70129\" pmcid=\"PMC12081946\" pmid=\"40375737\" count=\"1\">2025</citation>; Yeo et al. <citation rid=\"cre270460-bib-0035\" ref-type=\"bibr\" doi=\"10.1002/cre2.70143\" pmcid=\"PMC12104987\" pmid=\"40417979\" count=\"1\">2025</citation>) future research should emphasize patient-specific, indication-driven technology selection through pragmatic, indication-stratified trial designs. <sentence_start/>Finally, future RCTs should adopt validated operator-experience metrics, including procedures performed, years of practice, and case complexity."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "r-CAIS improves implant positional trueness compared with free-hand surgery, supported by moderate-certainty evidence, and demonstrates a significant angular deviation advantage over dynamic navigation. <sentence_start/>Comparisons with static guidance remain underpowered, and no RCT evidence currently links trueness gains to improved prosthetic, biological, or patient-reported outcomes. <sentence_start/>Almost all included trials followed patients for only 3 to 6 months, so the available evidence reflects early implant retention and short-term healing rather than long-term implant survival, marginal bone loss, peri-implantitis risk, or prosthetic complications; evidence from trials with at least 12 months of follow-up is still lacking and is needed before conclusions about the long-term safety or success of r-CAIS can be drawn. <sentence_start/>Operative time, cost-effectiveness, and learning-curve demands also remain insufficiently evaluated. <sentence_start/>Thus, r-CAIS improves surgical execution trueness under controlled conditions, but long-term multicenter RCTs with standardized clinical and patient-centered outcomes are needed to establish its broader clinical value."
+  },
+  {
+   "section": "article",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "article",
+   "text": "Sultan Ainoosah, Redhwan Saleh Al-Gabri, and Ahmed Yaseen Alqutaibi made substantial contributions to the conception and design of the study. <sentence_start/>Sultan Ainoosah, Redhwan Saleh Al-Gabri, Omar M. Alaryani, Ahmad Abdulkareem Alnazzawi, and Ahmed E. Farghal collected data. <sentence_start/>Sultan Ainoosah, Redhwan Saleh Al-Gabri, Ahmed Yaseen Alqutaibi, and Omar M. Alaryani analyzed and interpreted data. <sentence_start/>All authors read and approved the final version of the manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Funding"
+  },
+  {
+   "section": "article",
+   "text": "The authors have nothing to report."
+  },
+  {
+   "section": "article",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare no conflicts of interest."
+  },
+  {
+   "section": "article",
+   "text": "Systematic Review Registration"
+  },
+  {
+   "section": "article",
+   "text": "The protocol has previously been registered in the International Prospective Register of Systematic Reviews (PROSPERO) (CRD420261326729)."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Table S1:</bold> Web search keywords."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Table S2:</bold> GRADE evidence summary: r-CAIS vs. FHIS, d-CAIS, and s-CAIS."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "back",
+   "text": "The data that support the findings of this study are available on request from the corresponding author."
+  }
+ ]
+}

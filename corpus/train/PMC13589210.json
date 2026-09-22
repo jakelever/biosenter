@@ -1,0 +1,323 @@
+{
+ "pmid": 42757414,
+ "pmcid": 13589210,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Identifying socioeconomic characteristics of pregnant women aged 15-50 years diagnosed with HIV during pregnancy, the Netherlands, 2016 to 2023"
+  },
+  {
+   "section": "abstract",
+   "text": "BACKGROUND"
+  },
+  {
+   "section": "abstract",
+   "text": "Pregnant women in the Netherlands are screened for HIV during the first trimester. <sentence_start/>Insight into characteristics of women diagnosed with HIV may help identify groups who could benefit from testing strategies."
+  },
+  {
+   "section": "abstract",
+   "text": "AIM"
+  },
+  {
+   "section": "abstract",
+   "text": "We assessed the contribution of HIV diagnoses during pregnancy to the total number of diagnoses among women in the Netherlands between 2016 and 2023 and identified socioeconomic characteristics of women with an antenatal diagnosis."
+  },
+  {
+   "section": "abstract",
+   "text": "METHODS"
+  },
+  {
+   "section": "abstract",
+   "text": "In a cross-sectional analysis, we selected women aged 15-50 years registered in the national ATHENA cohort and diagnosed with HIV in the Netherlands. <sentence_start/>Each pregnant woman with HIV was matched by year of pregnancy to three pregnant women without HIV from the general population using non-public registry data from Statistics Netherlands. <sentence_start/>Characteristics were examined using multivariable logistic regression."
+  },
+  {
+   "section": "abstract",
+   "text": "RESULTS"
+  },
+  {
+   "section": "abstract",
+   "text": "Ninety-two of 523 women with HIV were diagnosed during pregnancy. <sentence_start/>These women less often had an advanced HIV infection than non-pregnant women with HIV (22 vs. 47%). <sentence_start/>Eighty-three of 92 pregnant women with HIV were matched with 249 pregnant women without HIV. <sentence_start/>Being diagnosed during pregnancy was associated with first- (aOR: 14.1; 95% CI: 6.45-30.6) or second-generation migration background (aOR: 5.38; 95% CI:2.02-11.0), income below the poverty line (aOR: 3.46; 95% CI: 1.28-9.34) and living in a single-parent household (aOR: 3.46; 95% CI: 1.52-7.88)."
+  },
+  {
+   "section": "abstract",
+   "text": "CONCLUSION"
+  },
+  {
+   "section": "abstract",
+   "text": "Antenatal HIV diagnoses accounted for a substantial part of diagnoses among women; pregnant women were less likely to present with advanced-stage disease. <sentence_start/>These findings show the importance of universal antenatal HIV screening."
+  },
+  {
+   "section": "article",
+   "text": "Key public health message"
+  },
+  {
+   "section": "article",
+   "text": "<bold>What did you want to address in this study and why?</bold>"
+  },
+  {
+   "section": "article",
+   "text": "The most common mode of acquiring HIV for children is perinatal transmission. <sentence_start/>Therefore, timely initiation of treatment during the mother\u2019s pregnancy is important. <sentence_start/>Pregnant women in the Netherlands are screened for HIV during the first trimester. <sentence_start/>We wanted to assess the number of HIV diagnoses during pregnancy in the Netherlands and compare pregnant women with and without HIV to explore differences in socioeconomic characteristics."
+  },
+  {
+   "section": "article",
+   "text": "<bold>What have we learnt from this study?</bold>"
+  },
+  {
+   "section": "article",
+   "text": "We learnt that 18% of women diagnosed with HIV in the Netherlands received their diagnosis during pregnancy and these women were less often diagnosed with advanced-stage HIV than women who were not pregnant. <sentence_start/>Compared with pregnant women without HIV, women with an antenatal diagnosis more often had a migration background, lower income and lived in a single household."
+  },
+  {
+   "section": "article",
+   "text": "<bold>What are the implications of your findings for public health?</bold>"
+  },
+  {
+   "section": "article",
+   "text": "Women diagnosed with HIV during pregnancy account for nearly one fifth of HIV diagnoses among women in the Netherlands. <sentence_start/>The study findings support the implementation of targeted prevention strategies, such as preconception counselling and repeat testing during pregnancy for women at increased risk. <sentence_start/>They also highlight the need to reconsider pre-exposure prophylaxis access for women."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The most common mode of HIV acquisition among children aged 0 to 15 years worldwide is perinatal transmission [<citation rid=\"r1\" ref-type=\"bibr\" count=\"1\">1</citation>]. <sentence_start/>Perinatal transmission of HIV mainly occurs during labour and delivery, or through breastfeeding. <sentence_start/>Without intervention, the risk of perinatal transmission varies between 15% and 45% [<citation rid=\"r2\" ref-type=\"bibr\" doi=\"10.1001/jama.283.9.1175\" pmid=\"10703780\" count=\"1\">2</citation>]. <sentence_start/>However, with the introduction of combination antiretroviral therapy (ART) the risk of perinatal transmission has been reduced to less than 1% [<citation rid=\"r3\" ref-type=\"bibr\" doi=\"10.1097/00042560-200204150-00009\" pmid=\"11981365\" count=\"1\">3</citation>,<citation rid=\"r4\" ref-type=\"bibr\" doi=\"10.1111/j.1471-0528.2006.01183.x\" pmid=\"17305888\" count=\"1\">4</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Timely identification of HIV and early initiation of ART in pregnant women are therefore crucial to prevent perinatal transmission. <sentence_start/>Antenatal HIV screening is widely implemented in European countries, most commonly through an opt-out strategy [<citation rid=\"r5\" ref-type=\"bibr\" count=\"1\">5</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In the Netherlands, the estimated number of women with an undiagnosed HIV infection in 2024 was 265 (95% confidence interval (CI): 210-325) and 4,619 women had been diagnosed and linked to care in 2024. <sentence_start/>Between 2022 and 2024, 58% of women newly diagnosed with HIV were diagnosed at a late stage [<citation rid=\"r6\" ref-type=\"bibr\" count=\"1\">6</citation>]. <sentence_start/>In January 2004, the Netherlands introduced standardised opt-out HIV antibody testing for all pregnant women during the first trimester [<citation rid=\"r7\" ref-type=\"bibr\" doi=\"10.1186/1471-2334-11-185\" pmid=\"21718466\" pmcid=\"PMC3160399\" count=\"1\">7</citation>,<citation rid=\"r8\" ref-type=\"bibr\" pmid=\"15554003\" count=\"1\">8</citation>]. <sentence_start/>Participation rates for antenatal HIV screening are above 99% in the Netherlands and 77% of women screened are in their first trimester [<citation rid=\"r9\" ref-type=\"bibr\" pmid=\"25898866\" count=\"1\">9</citation>]. <sentence_start/>Previous research has demonstrated the effectiveness of this programme in identifying pregnant women with HIV and preventing vertical transmission [<citation rid=\"r7\" ref-type=\"bibr\" doi=\"10.1186/1471-2334-11-185\" pmid=\"21718466\" pmcid=\"PMC3160399\" count=\"1\">7</citation>]. <sentence_start/>The participation rate in the Dutch antenatal screening programme is high and the HIV prevalence detected though the programmme was 0.05% and stable over the past few years [<citation rid=\"r10\" ref-type=\"bibr\" pmid=\"25898866\" count=\"1\">10</citation>]. <sentence_start/>Women diagnosed with HIV during pregnancy are referred to one of the HIV treatment centres for antenatal HIV care. <sentence_start/>This care is provided by a multidisciplinary team, including an HIV treating physician, an obstetrician and a paediatrician. <sentence_start/>This approach ensures optimal counselling focused on the adjustment to an HIV diagnosis, initiation of ART and preparation for the post-partum period, including informed decision-making regarding infant feeding options [<citation rid=\"r11\" ref-type=\"bibr\" doi=\"10.1111/hiv.70091\" pmid=\"41201115\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Gaining insight into the sociodemographic and socioeconomic characteristics of women living in the Netherlands who are newly diagnosed with HIV during pregnancy may help identify groups who could benefit from adapted targeted HIV testing strategies. <sentence_start/>This study has two main objectives: (i) to quantify the proportion of women diagnosed with HIV during pregnancy of all new HIV diagnoses among women aged 15-50 years (2016-2023), and (ii) to compare pregnant women with and without HIV to identify differences in sociodemographic and socioeconomic characteristics between women diagnosed with HIV during pregnancy and pregnant women without HIV using data from the AIDS Therapy Evaluation in the Netherlands (ATHENA) cohort and registry data from Statistics Netherlands."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Study design"
+  },
+  {
+   "section": "article",
+   "text": "We conducted a cross-sectional secondary analysis using individual data from the ATHENA cohort and non-public microdata from Statistics Netherlands. <sentence_start/>Briefly, HIV care in the Netherlands is provided by 23 designated treatment centres. <sentence_start/>The Dutch HIV Monitoring Foundation (Stichting HIV monitoring (SHM)) is tasked by the Ministry of Health, Welfare and Sports to monitor and report on all aspects of HIV care for people with HIV in the Netherlands. <sentence_start/>Data collection was initiated in 1998 and data have been prospectively collected in the ATHENA cohort, which represents over 97% of all people with HIV in care in the Netherlands [<citation rid=\"r12\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2018-022516\" pmid=\"30249631\" pmcid=\"PMC6169757\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Statistics Netherlands is an independent organisation that collects, processes and publishes reliable statistical data on residents of the Netherlands. <sentence_start/>The Statistics Netherlands Act constitutes the legal basis for Statistics Netherlands, which adheres to the European Union\u2019s General Data Protection Regulation."
+  },
+  {
+   "section": "article",
+   "text": "For the present study, ATHENA cohort data were combined with data from Statistics Netherlands using a probabilistic approach based on date of birth, four digits from the postal code of last known residence and sex assigned at birth. <sentence_start/>Participants from the ATHENA cohort provided consent for the use of their data for data linkage purposes and information about active data linkages is available on the SHM website. <sentence_start/>The Remote Access environment of Statistics Netherlands is only available for researchers authorised by SHM and Statistics Netherlands. <sentence_start/>All output from the Remote Access environment is independently verified by Statistics Netherlands to ensure data cannot be traced back to individuals."
+  },
+  {
+   "section": "article",
+   "text": "Study population"
+  },
+  {
+   "section": "article",
+   "text": "We included all women aged 15-50 years diagnosed with HIV in the Netherlands between 2016 and 2023 from the ATHENA cohort. <sentence_start/>Women with a known HIV diagnosis before migration to the Netherlands were excluded. <sentence_start/>Women were classified as pregnant or not at the time of diagnosis. <sentence_start/>First, women with an HIV diagnosis during pregnancy were compared to non-pregnant women with an HIV diagnosis to quantify the proportion of HIV diagnoses during pregnancy to all HIV diagnoses."
+  },
+  {
+   "section": "article",
+   "text": "Second, pregnant women with an HIV diagnosis during pregnancy were compared to pregnant women without HIV in the general population (the control group). <sentence_start/>To assess differences in sociodemographic and socioeconomic characteristics, pregnant women in the general population were identified using data from Statistics Netherlands (2016-2022). <sentence_start/>These women were identified by their declaration of maternity care costs, which included care provided for live births as well as terminated pregnancies. <sentence_start/>These data were available up to 2022. <sentence_start/>To minimise imbalance between the number of pregnant women with and without HIV, each pregnant woman with HIV was randomly matched with three pregnant women without HIV from the general population by year of pregnancy to account for potential effects related to the COVID-19 pandemic on socioeconomic characteristics. <sentence_start/>No additional variables were used for matching; instead, relevant covariates were included in the multivariable analyses. <sentence_start/>Women were not matched on age since all women were pregnant, representing a specific age range. <sentence_start/>Other available variables such as socioeconomic and demographic variables were also not included as these were the variables of interest."
+  },
+  {
+   "section": "article",
+   "text": "Study variables"
+  },
+  {
+   "section": "article",
+   "text": "Calendar year (1 January-31 December of a given year) of diagnosis was grouped into broader categories since the small number of women diagnosed with HIV during pregnancy in some years, combined with pregnancy status, could potentially allow for the identification of individuals. <sentence_start/>Data were aggregated to minimise this risk. <sentence_start/>Clinical data at the time of HIV diagnosis included age, CD4<sup>+</sup> cell count and percentage, presence of AIDS-defining clinical events, a negative HIV test before diagnosis and diagnosis setting. <sentence_start/>Stage of HIV at diagnosis was defined as: (i) advanced (CD4<sup>+</sup> cell count &lt; 200 cells/mm<sup>3</sup> and/or an AIDS-defining event); (ii) late (CD4<sup>+</sup> cell count 200-350 cells/mm<sup>3</sup>); or (iii) established/recent (CD4<sup>+</sup> cell count &gt; 350 cells/mm<sup>3</sup> or evidence of a recent HIV infection based on a documented negative HIV test within the past 12 months). <sentence_start/>If case information was not available on CD4<sup>+</sup> cell counts, the presence of AIDS-defining events or a recent test, stage of HIV diagnosis was defined as unknown. <sentence_start/>Information on earlier pregnancies was only collected for pregnant women with HIV."
+  },
+  {
+   "section": "article",
+   "text": "Statistics Netherlands provided detailed individual-level sociodemographic and socioeconomic information, including education level, migration background, employment status, household composition, household income, social welfare use and urbanisation level of the municipality, all in the year of conception. <sentence_start/>Level of education was categorised as primary (completed pre-vocational secondary education, first 3 years of senior general secondary education), secondary (completed vocational education, senior general secondary education or pre-university level) or college/university. <sentence_start/>Migration background was defined as no migration background (a person with both parents born in the Netherlands), first-generation migration background (a person born abroad) or second-generation migration background (a person born in the Netherlands with at least one parent born abroad). <sentence_start/>Household income was defined according to the social minimum or poverty line (the minimal amount of financial resources required to achieve a minimally acceptable lifestyle). <sentence_start/>The social minimum is determined and adjusted biannually by the Ministry of Social Affairs and Employment [<citation rid=\"r13\" ref-type=\"bibr\" count=\"1\">13</citation>]. <sentence_start/>An individual\u2019s income was categorised as below the poverty line if their household income was lower than 120% of the social minimum, which determines if an individual is eligible for benefits in the Netherlands. <sentence_start/>Urbanisation level was used to categorise municipalities according to the population density into high (very urban and urban with \u2265 1,500 addresses per square kilometre) and middle/low (not urban/not rural, and rural with &lt; 1,500 addresses per square kilometre)."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "The annual number of HIV diagnoses among women within the reproductive lifespan (aged 15-50 years) in the Netherlands were described and the proportion of women with a positive HIV antenatal test calculated. <sentence_start/>Characteristics at the time of HIV diagnosis were described using a Pearson chi-square test for categorical variables and Mann-Whitney test for continuous variables. <sentence_start/>Missing values were analysed as a separate category. <sentence_start/>Sociodemographic and socioeconomic characteristics were compared between pregnant women with an HIV diagnosis during pregnancy and pregnant women without an HIV diagnosis using adjusted odds ratios (aOR) obtained from multivariable logistic regression. <sentence_start/>Variables included in the multivariable logistic regression were: age, migration background, urbanisation level, household income, household composition, education, employment status and household income source. <sentence_start/>Multivariable models were built using backward selection and characteristics with an univariable p value &lt; 0.20 were included in the multivariable models. <sentence_start/>As income was correlated with education, receiving social welfare and employment status, we included two multivariable logistic regression models: one included only household income, and a second excluded household income but included education, receiving social welfare and employment status."
+  },
+  {
+   "section": "article",
+   "text": "The results presented are based on calculations carried out by SHM, project number 8944 using non-public microdata from Statistics Netherlands and Vektis C.V. Analysis was carried out using SPSS version 25 (IBM Corp., Armonk, United States (US)) and SAS version 9.4 (SAS Institute Inc., Cary, US)."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Number of new HIV diagnoses"
+  },
+  {
+   "section": "article",
+   "text": "Between 2016 and 2023, 523 women aged 15-50 years were newly diagnosed with HIV in the Netherlands and registered in ATHENA. <sentence_start/>The annual number of diagnoses fluctuated between 82 and 49 diagnoses per year (Figure 1). <sentence_start/>Of these, 92 (18%) were diagnosed with HIV during pregnancy and 431 outside pregnancy. <sentence_start/>For five women, pregnancy screening was the documented setting for testing, but pregnancy status could not be confirmed. <sentence_start/>At the time of diagnosis, pregnant women were younger (median age 30 years; interquartile range (IQR): 27-35 years) compared with non-pregnant women (median age 37 years; IQR: 28-42 years, p &lt; 0.001, Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Annual number of HIV diagnoses among women aged 15-50 years, stratified by diagnosis during and outside pregnancy, the Netherlands, 2016-2023"
+  },
+  {
+   "section": "article",
+   "text": "This bar chart shows HIV diagnoses among women per 2-year period from 2016 to 2023, stratified by being diagnosed during and outside pregnancy. <sentence_start/>The total number of diagnoses declined from 154 in 2016-2017 to 109 in 2022-2023, with the percentage of diagnoses during pregnancy varying between 21% in 2016-2027 and 12% in 2022-2023."
+  },
+  {
+   "section": "article",
+   "text": "Clinical stage at time of HIV diagnosis"
+  },
+  {
+   "section": "article",
+   "text": "Of the 523 women newly diagnosed with HIV, 240 had a previous negative HIV test result, with 12% tested within 12 months before diagnosis (Table 1). <sentence_start/>Women diagnosed during pregnancy more often had a previous negative HIV test (58%) than women diagnosed outside pregnancy (43%; p = 0.01). <sentence_start/>Interestingly, 2 of 92 women diagnosed during pregnancy had a previous negative HIV test during the same pregnancy. <sentence_start/>For five women, their previous negative test result was within 6 months before conception."
+  },
+  {
+   "section": "article",
+   "text": "Median CD4<sup>+</sup> cell count at the time of HIV diagnosis was 330 cells/mm<sup>3</sup> (IQR: 210-470) for pregnant women and 284 cells/mm<sup>3</sup> (IQR: 89-519) for non-pregnant women. <sentence_start/>When looking at CD4<sup>+</sup> percentages instead of CD4<sup>+</sup> cell count, both the median and IQR were found to be higher among pregnant women (23%; IQR: 16-29) than non-pregnant women (19%; IQR: 10-27) (p = 0.06)."
+  },
+  {
+   "section": "article",
+   "text": "Overall, the proportion of included women diagnosed with advanced-stage HIV was 37% (192/523). <sentence_start/>A twice as high proportion of non-pregnant women had advanced-stage HIV at diagnosis (174/431; 40%), compared with pregnant women (18/92; 20%). <sentence_start/>When stratified by age, the difference in advanced-stage HIV was less pronounced among women aged younger than 30 years (Figure 2A) compared to pregnant women aged 30 years or older. <sentence_start/>Of the pregnant women aged 30 years or older, 54% had an established or recent HIV stage and 18% had late-stage HIV. <sentence_start/>Twenty-two percent (11/50) of pregnant women and 47% (143/307) of non-pregnant women aged 30 years or older presented with advanced-stage HIV (p = 0.02) (Figure 2B). <sentence_start/>Notably, among women aged 30 years or older with advanced HIV, median age was 40 years (IQR: 36-45) for non-pregnant women and 36 years (IQR: 32-39) for pregnant women (p = 0.01)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Stage of HIV at diagnosis among women aged 15-50 years diagnosed during and outside pregnancy, by age group, the Netherlands, 2016-2023"
+  },
+  {
+   "section": "article",
+   "text": "These are two side-by-side stacked bar charts comparing stage of HIV at time of diagnosis for women diagnosed during and outside the pregnancy. <sentence_start/>The different stages in the figures are established/recent, late, advanced or no stage available. <sentence_start/>The figures are divided by age groups, categorising women under and over the age of 30 years. <sentence_start/>Advanced-stage diagnosis was notably more common among women aged 30 years and older diagnosed outside pregnancy (47%) than in the pregnant women (22%)."
+  },
+  {
+   "section": "article",
+   "text": "The numbers in the bars represent the absolute number of women."
+  },
+  {
+   "section": "article",
+   "text": "Setting of HIV diagnosis"
+  },
+  {
+   "section": "article",
+   "text": "Information on the setting of HIV diagnosis was available for 505 of the 523 women (97%). <sentence_start/>Among pregnant women, 82% (n = 75) were diagnosed through the pregnancy screening programme. <sentence_start/>Five pregnant women (5%) were diagnosed at a hospital by a gynaecologist, obstetrician or in fertility care. <sentence_start/>In contrast, 2% of non-pregnant women were diagnosed at a hospital by a gynaecologist, obstetrician or in fertility care (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Earlier pregnancies"
+  },
+  {
+   "section": "article",
+   "text": "Of 92 women diagnosed with HIV during pregnancy, 32 were pregnant for the first time and 58 had a previous pregnancy (gravidity &gt; 1); for two women, information on earlier pregnancies was missing (Table 1). <sentence_start/>Of the 58 women who were diagnosed with HIV during pregnancy and who had a previous pregnancy, 38 (66%) reported a previous negative HIV test result and 20 (34%) did not have information on a previous HIV negative test. <sentence_start/>Of the 32 women who were pregnant for the first time, 13 (41%) had a previous negative HIV test result. <sentence_start/>This was significantly lower (p = 0.02) than for women with a previous pregnancy."
+  },
+  {
+   "section": "article",
+   "text": "Comparison with pregnant women without HIV"
+  },
+  {
+   "section": "article",
+   "text": "We were able to combine data for 83 of 92 (90%) women diagnosed with HIV during pregnancy with data from Statistics Netherlands. <sentence_start/>These women were matched with 249 pregnant women without HIV (Table 2). <sentence_start/>Pregnant women without HIV were more often aged between 25 and 35 years (73%) compared with women diagnosed with HIV during the pregnancy (54%). <sentence_start/>When women diagnosed with HIV during pregnancy were compared with the control group, they more often had a first-generation migration background (70% vs 20%), while 14% (n = 12) had a second-generation migration background and 16% (n = 13) had no migration background. <sentence_start/>Furthermore, women diagnosed with HIV during pregnancy more frequently had an income below the poverty line when compared to pregnant women without HIV (39% vs 6%) and lived in a single or single-parent household (36% vs 13%) (Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "Factors associated with HIV diagnosis during pregnancy"
+  },
+  {
+   "section": "article",
+   "text": "In the logistic regression model including household income (Table 3), being diagnosed with HIV during pregnancy was associated with a first- (aOR: 14.1; 95% CI: 6.45-30.6) or second-generation migration background (aOR: 5.38; 95% CI: 2.02-11.0), an income below the poverty line (aOR: 3.46; 95% CI: 1.28-9.34) and living in a single (parent) household (aOR: 3.46; 95% CI: 1.52-7.88). <sentence_start/>When education and employment status were included in the second logistic regression model instead of household income, first- and second-generation migration background and living in a single or single-parent household remained determinants of being diagnosed with HIV while pregnant, as were primary education (aOR: 5.12; 95% CI: 1.97-13.3) and being unemployed (aOR: 2.28; 95% CI: 1.14-4.52) (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this national study, we demonstrated that between 2016 and 2023, HIV diagnoses during pregnancy in the Netherlands accounted for nearly one in five (18%) of all HIV diagnoses in women aged 15-50 years. <sentence_start/>Women diagnosed during pregnancy were less often diagnosed with advanced-stage HIV and more often had an earlier negative HIV test, suggesting that a proportion of these diagnoses may have been recently acquired infections. <sentence_start/>First- and second-generation migration backgrounds and an income below the poverty line were more prevalent among women diagnosed with HIV during pregnancy than among pregnant women without HIV. <sentence_start/>Women diagnosed with HIV during pregnancy were less likely to share a household with a partner."
+  },
+  {
+   "section": "article",
+   "text": "The proportion of advanced-stage HIV at the time of diagnosis was higher among non-pregnant than among pregnant women. <sentence_start/>Timely diagnosis of HIV is essential, as early initiation of ART not only reduces the risk of perinatal HIV transmission [<citation rid=\"r14\" ref-type=\"bibr\" doi=\"10.1093/cid/civ578\" pmid=\"26197844\" count=\"1\">14</citation>] but also improves maternal health outcomes. <sentence_start/>Antenatal HIV care delivered by a multidisciplinary team provides essential counselling and support for adjusting to an HIV diagnosis, initiating ART and preparing for the post-partum period [<citation rid=\"r11\" ref-type=\"bibr\" doi=\"10.1111/hiv.70091\" pmid=\"41201115\" count=\"1\">11</citation>]. <sentence_start/>Notably, more than half of the pregnant women diagnosed with HIV during pregnancy had a previously negative HIV test result, many of whom had been tested in the year before diagnosis. <sentence_start/>This may indicate that these women were already recognised as being at increased risk for HIV, or that prior testing was done during earlier pregnancies. <sentence_start/>While the indication for prior testing was not available, the observation that 63% of women diagnosed with HIV during pregnancy had a previous pregnancy supports the latter. <sentence_start/>Consistent with this observation, we found that women with a prior pregnancy more often had a previous negative HIV test result compared with first-time pregnant women."
+  },
+  {
+   "section": "article",
+   "text": "We also identified two women who tested negative for HIV earlier in the same pregnancy before the HIV diagnosis. <sentence_start/>These women likely acquired HIV after, or shortly before, the first-trimester screening. <sentence_start/>To identify such missed or incident cases, repeat testing during pregnancy for women at increased risk could be considered. <sentence_start/>In addition, women at increased risk of HIV may benefit from pre-exposure prophylaxis (PrEP), although women are not currently considered a key population for PrEP [<citation rid=\"r15\" ref-type=\"bibr\" doi=\"10.1097/QAD.0000000000004027\" pmid=\"39352137\" count=\"1\">15</citation>]. <sentence_start/>Our findings support the reconsideration of PrEP access for women of reproductive age."
+  },
+  {
+   "section": "article",
+   "text": "Among pregnant women with a prior pregnancy and a previous negative test, HIV was likely acquired in the relatively short interval between pregnancies. <sentence_start/>This may contribute to the lower occurrence of being diagnosed with advanced-stage HIV among pregnant women. <sentence_start/>Alternatively, the higher proportion of advanced disease among non-pregnant women may reflect differences in HIV testing, as non-pregnant women could have approached their healthcare provider who ordered an HIV test due to health issues, whereas pregnancy screening is universally offered irrespective of HIV related symptoms."
+  },
+  {
+   "section": "article",
+   "text": "In the Netherlands, late diagnosis of HIV is highest among heterosexual men. <sentence_start/>Between 2022 and 2024, 62% of heterosexual men were diagnosed at a late stage compared with 32% of men who have sex with men [<citation rid=\"r6\" ref-type=\"bibr\" count=\"1\">6</citation>]. <sentence_start/>This suggests that offering HIV screening to male partners of pregnant women may help identify women at risk and may also facilitate earlier HIV diagnosis in men. <sentence_start/>A study in London reported that 35% of male partners attending antenatal ultrasound examinations accepted screening for sexually transmitted infections, including HIV [<citation rid=\"r16\" ref-type=\"bibr\" doi=\"10.1136/sextrans-2011-050232\" pmid=\"22199134\" count=\"1\">16</citation>], indicating that antenatal care might provide a feasible setting to reach male partners of pregnant women [<citation rid=\"r17\" ref-type=\"bibr\" count=\"1\">17</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In the Netherlands, HIV screening is offered to pregnant women in the first trimester. <sentence_start/>Our study included women classed as nulliparous despite evidence of previous pregnancies, likely reflecting early pregnancy loss or termination, who may not have undergone first-trimester antenatal HIV screening. <sentence_start/>Previous studies have reported higher or equal HIV prevalence rates among women undergoing termination of pregnancy compared with women in antenatal care [<citation rid=\"r18\" ref-type=\"bibr\" doi=\"10.1136/sextrans-2011-050210\" pmid=\"22123162\" count=\"1\">18</citation>] and have shown that HIV screening in these settings can be feasible and cost-effective in high income countries [<citation rid=\"r18\" ref-type=\"bibr\" doi=\"10.1136/sextrans-2011-050210\" pmid=\"22123162\" count=\"1\">18</citation>,<citation rid=\"r19\" ref-type=\"bibr\" doi=\"10.1136/sextrans-2021-055111\" pmid=\"34544889\" pmcid=\"PMC8862085\" count=\"1\">19</citation>]. <sentence_start/>However, implementation may impose a considerable burden on women."
+  },
+  {
+   "section": "article",
+   "text": "HIV screening is widely offered to pregnant women in European countries with participation rates above 95% in most countries [<citation rid=\"r5\" ref-type=\"bibr\" count=\"1\">5</citation>,<citation rid=\"r20\" ref-type=\"bibr\" count=\"1\">20</citation>]. <sentence_start/>In European countries, the pooled HIV prevalence among pregnant women was below 0.1% between 2001 and 2011 [<citation rid=\"r21\" ref-type=\"bibr\" doi=\"10.1016/j.cmi.2023.03.002\" pmid=\"36921717\" count=\"1\">21</citation>]. <sentence_start/>In our study, women diagnosed with HIV during pregnancy more often had an income below the poverty line compared with pregnant women in the general population. <sentence_start/>This is consistent with a previous study showing that pregnant women with HIV more often had lower incomes [<citation rid=\"r22\" ref-type=\"bibr\" doi=\"10.7759/cureus.16691\" pmid=\"34466322\" pmcid=\"PMC8396133\" count=\"1\">22</citation>] and that women with a migration background were more often diagnosed late in pregnancy compared with women without a migration background [<citation rid=\"r23\" ref-type=\"bibr\" doi=\"10.1093/eurpub/ckx048\" pmid=\"28449111\" count=\"1\">23</citation>]. <sentence_start/>The higher prevalence of low household income among pregnant women with HIV may partly be explained by their higher odds of living in single or single-parent households and being solely responsible for the household income. <sentence_start/>Other studies have also reported socioeconomic inequalities among individuals with HIV [<citation rid=\"r24\" ref-type=\"bibr\" doi=\"10.1097/QAD.0000000000000524\" pmid=\"25396262\" count=\"1\">24</citation>-<citation rid=\"r26\" ref-type=\"bibr\" doi=\"10.1038/s41467-025-65512-6\" pmid=\"41298373\" pmcid=\"PMC12658163\" count=\"1\">26</citation>]. <sentence_start/>Advanced-stage HIV diagnosis was more common in neighbourhoods with lower socioeconomic position in Switzerland [<citation rid=\"r24\" ref-type=\"bibr\" doi=\"10.1097/QAD.0000000000000524\" pmid=\"25396262\" count=\"1\">24</citation>]. <sentence_start/>In the United States, individuals with HIV more frequently experienced unemployment, poverty and lack of housing compared with the general population [<citation rid=\"r25\" ref-type=\"bibr\" doi=\"10.1016/j.focus.2023.100115\" pmid=\"37790662\" pmcid=\"PMC10546490\" count=\"1\">25</citation>] and in the Netherlands, women who lived in poverty were more likely to have detectable viral loads and be disengaged from care [<citation rid=\"r26\" ref-type=\"bibr\" doi=\"10.1038/s41467-025-65512-6\" pmid=\"41298373\" pmcid=\"PMC12658163\" count=\"1\">26</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A strength of this study was the national setting, using data from the ATHENA observational cohort, which includes 97% of individuals receiving HIV care in the Netherlands. <sentence_start/>Combining data with Statistics Netherlands enabled an assessment of socioeconomic and demographic characteristics of pregnant women with and without HIV. <sentence_start/>Several limitations should be considered. <sentence_start/>First, not all women in the ATHENA cohort could be linked to Statistics Netherlands data. <sentence_start/>Women need to be an inhabitant with a postal code to be included in the data of Statistics Netherlands and unlinked women may be more likely to be unregistered or homeless and thus likely to be more socially vulnerable. <sentence_start/>Second, missing information related to socioeconomic characteristics were somewhat unevenly distributed between pregnant women with and without HIV. <sentence_start/>Consequently, the fact that not all women could be linked and missing information was not equally distributed may have led to an underestimation of the observed differences in socioeconomic characteristics. <sentence_start/>Third, distinguishing between late-stage and established HIV in pregnant women can be difficult because these stages are based on CD4<sup>+</sup> cell counts and pregnancy-related haemodilution can temporary lower CD4<sup>+</sup> cell counts by an average of 56 cells/mm<sup>3</sup> [<citation rid=\"r27\" ref-type=\"bibr\" doi=\"10.1097/QAI.0000000000000013\" pmid=\"24442226\" pmcid=\"PMC3898601\" count=\"1\">27</citation>]. <sentence_start/>This may have led to misclassification and could partly explain the observed higher occurrence of late-stage HIV at time of diagnosis among pregnant women compared with non-pregnant women."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "HIV diagnoses during pregnancy account for a substantial proportion of HIV diagnoses among women in the Netherlands, but pregnant women less often present with advanced-stage disease. <sentence_start/>Women with and without a migration background received an HIV diagnosis during pregnancy, showing the importance of universal antenatal HIV screening. <sentence_start/>The findings of this study support adapted prevention strategies, including preconception counselling and repeat HIV testing during pregnancy for women at increased risk and the reconsideration of PrEP access for women of reproductive age."
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "All results presented here are calculated from non-public registry data from Statistics Netherlands (Centraal Bureau voor de Statistiek (CBS)), accessed through the Remote Access environment. <sentence_start/>All output from the Remote Access environment is independently verified by Statistics Netherlands to ensure data cannot be traced back to individuals. <sentence_start/>Statistics Netherlands was not involved in the calculation of any of the results presented. <sentence_start/>While the data are not publicly available, academic institutions can apply for access to the Remote Access environment through Statistics Netherlands (for additional information, see )."
+  },
+  {
+   "section": "back",
+   "text": "ATHENA cohort data (without Statistics Netherlands data) used in this study are available upon reasonable request. <sentence_start/>Requests for data access can be made to: hiv.monitoring@amsterdamumc.nl. <sentence_start/>Requests will be reviewed on a case-by-case basis."
+  },
+  {
+   "section": "back",
+   "text": "Statistical information or data for separate research purposes from the ATHENA cohort can be requested by submitting a research proposal to SHM ( ). <sentence_start/>The proposal will undergo review by representatives of SHM for evaluation of scientific value, relevance of the study, design, and feasibility, statistical power, and overlap with existing projects."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Authors\u2019 contributions:</bold> Colette Smit: Conceptualization, Formal analysis, Methodology, Project administration, Writing - original draft. <sentence_start/>Vita Jongen: Conceptualization, Methodology, Writing - original draft. <sentence_start/>Jeannine Nellen: Writing - review &amp; editing. <sentence_start/>Tania Mudrikova: Writing - review &amp; editing. <sentence_start/>Liesbeth van Leeuwen: Writing - review &amp; editing. <sentence_start/>Nina Schat: Writing - review &amp; editing. <sentence_start/>Rosan van Zoest: Writing - review &amp; editing. <sentence_start/>Ard van Sighem: Writing - review &amp; editing. <sentence_start/>Eline Op de Coul: Writing - review &amp; editing. <sentence_start/>Marc van der Valk: Conceptualization, Methodology, Writing - review &amp; editing."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflict of interest:</bold> Jeannine Nellen has received fees, paid to the institution, for educational activities from BMS, Gilead, ViiV Healthcare and GSK. <sentence_start/>The remaining authors have no conflict of interest to declare."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Funding statement:</bold> The ATHENA Cohort is managed by Stichting HIV monitoring and supported by a grant from the Dutch Ministry of Health, Welfare and Sport through the Centre for Infectious Disease Control of the National Institute for Public Health and the Environment."
+  },
+  {
+   "section": "back",
+   "text": "This project [LSHM23014-SGF] is co-funded by the PPP Allowance made available by Health~Holland, Top Sector Life Sciences &amp; Health, to stimulate public-private partnerships and we further acknowledge funding from the van Aidsfonds (P-53001), to cover a number of activities, including the present work."
+  },
+  {
+   "section": "back",
+   "text": "Ard van Sighem received grants, unrelated to the content of this work, for supporting Member States in the use of the ECDC HIV Platform tool paid to his institution from the European Centre for Disease Prevention and Control (ECDC) grants. <sentence_start/>The funders had no role in the study design, data collection, analysis, interpretation of data or the writing of this manuscript."
+  }
+ ]
+}

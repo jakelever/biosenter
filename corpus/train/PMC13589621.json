@@ -1,0 +1,287 @@
+{
+ "pmid": 42763709,
+ "pmcid": 13589621,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "GLT6D1 rs1537415 G Allele and Advanced Periodontitis: A Meta-Analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "This meta-analysis aimed to evaluate the association of the GLT6D1 rs1537415 G allele with susceptibility to periodontitis stage III/IV, grade B or C. Adhering to Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) guidelines, three eligible studies were identified through comprehensive searches of PubMed, Web of Science, and Scopus. <sentence_start/>Data from 2,185 participants (668 cases and 1,517 controls) were analyzed using random-effects models to calculate odds ratios (ORs) and 95% confidence intervals (CIs). <sentence_start/>Heterogeneity was assessed using Chi\u00b2 and I\u00b2 statistics. <sentence_start/>Formal testing for publication bias was precluded by the small number of studies (n = 3). <sentence_start/>The meta-analysis demonstrated a significant association between the rs1537415 G allele and severe periodontitis, with a pooled OR of 1.58 (95% CI: 1.28-1.95). <sentence_start/>Subgroup analyses showed consistent associations in European and Sudanese populations, whereas no significant association was observed in the Brazilian cohort. <sentence_start/>Sensitivity analysis excluding the largest Genome-Wide Association Study (GWAS) attenuated the association to a non-significant level (OR = 1.37; 95% CI: 0.87 to 2.16), indicating that a single study largely drove the overall effect; the pooled estimate should therefore be interpreted with caution. <sentence_start/>The GLT6D1 rs1537415 G allele may represent a genetic risk factor for severe periodontal diseases, particularly stage III/IV and grade B/C, suggesting a possible role in immune modulation. <sentence_start/>Further research involving larger, multi-ethnic cohorts is crucial to validate these associations and explore gene-environment interactions."
+  },
+  {
+   "section": "article",
+   "text": "Introduction and background"
+  },
+  {
+   "section": "article",
+   "text": "Periodontitis is a chronic inflammatory disease that progressively destroys the supporting structures of teeth, including the periodontal ligament and alveolar bone. <sentence_start/>If untreated, periodontitis can lead to tooth loss and has been linked to systemic health complications such as diabetes and cardiovascular disease [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1038/nrdp.2017.38\" pmid=\"28805207\" count=\"1\">1</citation>]. <sentence_start/>The disease arises from a complex interplay of genetic, microbial, and environmental factors, with genetic predisposition accounting for approximately 50% of individual susceptibility [<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1177/0022034519842510\" pmcid=\"PMC6535921\" pmid=\"31107142\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Genetic research in periodontitis has evolved considerably, moving from early linkage analysis [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1007/978-1-61779-176-5_2\" pmid=\"21779988\" count=\"1\">3</citation>] and candidate gene studies [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1007/978-1-60761-247-6_13\" pmid=\"19763931\" count=\"1\">4</citation>] to contemporary genome-wide association studies (GWAS) and next-generation sequencing (NGS) [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1101/cshperspect.a025791\" pmcid=\"PMC6601457\" pmid=\"30323017\" count=\"1\">5</citation>,<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1111/jre.12167\" pmid=\"24528298\" count=\"1\">6</citation>]. <sentence_start/>These approaches have enabled a much broader exploration of the genome, identifying thousands of genetic variants, particularly single-nucleotide polymorphisms (SNPs), potentially relevant to periodontitis. <sentence_start/>Bioinformatics resources such as the 1000 Genomes Project [<citation rid=\"REF7\" ref-type=\"bibr\" count=\"1\">7</citation>] and HapMap [<citation rid=\"REF8\" ref-type=\"bibr\" count=\"1\">8</citation>] have further improved the interpretation and cataloging of genetic variation across diverse populations. <sentence_start/>Applying these methods, a systematic review of GWAS on periodontitis analyzed 15 high-quality studies and identified 11 SNPs meeting genome-wide significance thresholds (P &lt; 5 \u00d7 10\u207b\u2078), along with 41 SNPs of suggestive significance (P &lt; 5 \u00d7 10\u207b\u2076) [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0306983\" pmcid=\"PMC11379206\" pmid=\"39240858\" count=\"1\">9</citation>]. <sentence_start/>However, only three SNPs (rs4284742 [G], rs11084095 [A], and rs12461706 [T], all from the sialic acid-binding Ig-like lectin 5 (<italic>SIGLEC5</italic>) gene region) were consistently reported across studies, underscoring the heterogeneity of genetic findings in this field. <sentence_start/>Other genome-wide significant SNPs have also been linked to periodontitis: rs729876 on chromosome 16p13.12 shows trans-expression quantitative trait loci (trans-eQTL) effects on homeobox C10 (<italic>HOXC10</italic>) in monocytes, with possible effects on inflammation and fibrinolysis, while rs16870060 on chromosome 8q22.3 has tissue-specific effects related to inflammation and immune modulation [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1038/s41431-018-0265-5\" pmcid=\"PMC6303247\" pmid=\"30218097\" count=\"1\">10</citation>]. <sentence_start/>Despite these findings, the functional implications of many of these SNPs remain inadequately understood."
+  },
+  {
+   "section": "article",
+   "text": "Among the genetic loci associated with periodontitis, the glycosyltransferase 6 domain containing 1 (<italic>GLT6D1</italic>) gene has received particular attention. <sentence_start/><italic>GLT6D1</italic> was first identified as a genome-wide significant susceptibility locus for periodontitis in 2010, in a GWAS of German and Dutch patients with aggressive periodontitis. <sentence_start/>It was subsequently examined in a Sudanese cohort with aggressive periodontitis and a Brazilian cohort with advanced periodontitis. <sentence_start/>More recently, a larger European meta-GWAS of severe periodontitis (Stage III/IV, Grade C, diagnosed at \u226435 years) confirmed <italic>GLT6D1</italic> among its significant genetic loci and additionally identified the Fc fragment of IgE receptor Ig (<italic>FCER1G</italic>) and hemicentin 2 (<italic>HMCN2</italic>), both linked to oral barrier stability and wound healing [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1111/jre.12167\" pmid=\"24528298\" count=\"1\">6</citation>,<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1111/jcpe.13922\" pmid=\"38140892\" count=\"1\">11</citation>]. <sentence_start/>However, findings regarding the rs1537415 allele's effects have not been entirely consistent across populations; while some European studies suggest it to be protective, other populations have shown conflicting results [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1002/JPER.18-0071\" pmid=\"30030838\" count=\"1\">12</citation>,<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1177/0022034515570315\" pmid=\"25672891\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "<italic>GLT6D1</italic> encodes glycosyltransferase 6 domain-containing protein 1, an enzyme thought to be involved in glycosylation processes that support epithelial barrier integrity, stabilize cell-surface receptors, and help preserve extracellular matrix (ECM) architecture [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>]. <sentence_start/>In periodontal tissues, proper glycosylation is proposed to support immune receptor signaling and cell-cell interactions that regulate leukocyte recruitment and limit excessive inflammatory damage [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1038/s41431-018-0265-5\" pmcid=\"PMC6303247\" pmid=\"30218097\" count=\"1\">10</citation>]. <sentence_start/>The rs1537415 variant is located in the second intron of <italic>GLT6D1</italic>, within a predicted binding site for the GATA binding protein 3 (GATA-3) transcription factor. <sentence_start/>Functional analyses have suggested that the G allele reduces the binding affinity of GATA-3 [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>], a transcription factor important for T-helper 2 (Th2) cell differentiation and the induction of anti-inflammatory cytokines such as Interleukin (IL)-4, IL-5, and IL-13. <sentence_start/>This reduction in GATA-3 binding capacity has been proposed to impair Th2-mediated immune modulation, potentially shifting the host response toward a pro-inflammatory T-helper 1/T-helper 17 (Th1/Th17) profile characterized by elevated IL-1 beta, tumor necrosis factor-alpha (TNF-\u03b1), and matrix metalloproteinases [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1038/s41431-018-0265-5\" pmcid=\"PMC6303247\" pmid=\"30218097\" count=\"1\">10</citation>]. <sentence_start/>Such changes are thought to promote chronic inflammation, ECM degradation, and accelerated alveolar bone loss, hallmarks of severe periodontitis [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>,<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>]. <sentence_start/>Clinically, carriers of the rs1537415 G allele have been reported to more often present with Stage III/IV, Grade C disease, with clinical attachment loss and radiographic bone destruction disproportionate to local plaque accumulation [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>], suggesting that the functional consequences of the variant may extend beyond host-microbe interactions to include immune dysregulation and impaired tissue repair."
+  },
+  {
+   "section": "article",
+   "text": "Although rs4284742, rs11084095, and rs12461706 in <italic>SIGLEC5 </italic>were the SNPs most consistently replicated in the broader systematic review by Gao et al. [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0306983\" pmcid=\"PMC11379206\" pmid=\"39240858\" count=\"1\">9</citation>], rs1537415 in <italic>GLT6D1</italic> was selected for this meta-analysis because of its strong and reproducible association with aggressive and advanced periodontitis across multiple GWAS, its proposed functional relevance in immune regulation via GATA-3 binding affinity, and the absence of a dedicated meta-analysis evaluating its effects across diverse populations. <sentence_start/>Despite this evidence, most studies to date have focused on Stage III/IV, Grade C disease, and the role of <italic>GLT6D1</italic> in more common [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1007/978-1-61779-176-5_2\" pmid=\"21779988\" count=\"1\">3</citation>], slower-progressing periodontitis subtypes remains underexplored; population-specific variation and methodological inconsistencies across studies further limit the generalizability of existing findings [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1007/978-1-60761-247-6_13\" pmid=\"19763931\" count=\"1\">4</citation>,<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1101/cshperspect.a025791\" pmcid=\"PMC6601457\" pmid=\"30323017\" count=\"1\">5</citation>,<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1002/gepi.21629\" pmid=\"22508222\" count=\"1\">17</citation>]. <sentence_start/>Clarifying whether this association is robust and reproducible across populations is clinically relevant, since a validated genetic marker could eventually support risk stratification and earlier, targeted preventive care in individuals at elevated genetic risk, before irreversible periodontal tissue destruction occurs."
+  },
+  {
+   "section": "article",
+   "text": "Accordingly, the objective of this meta-analysis was to evaluate the association between the <italic>GLT6D1</italic> rs1537415 G allele and susceptibility to severe periodontitis (Stage III/IV, Grade B or C) across diverse populations. <sentence_start/>This was framed as a focused review question: in individuals with periodontitis (Population), how does carriage of the rs1537415 G allele (Exposure), compared with non-carriage (Comparison), relate to the odds of severe or advanced disease (Outcome)?"
+  },
+  {
+   "section": "article",
+   "text": "This review was previously posted as a preprint on Research Square (DOI: 10.21203/rs.3.rs-6953323/v1) in July, 2025."
+  },
+  {
+   "section": "article",
+   "text": "Review"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Search Strategy"
+  },
+  {
+   "section": "article",
+   "text": "This study followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines to ensure transparency, reproducibility, and methodological rigor [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">18</citation>] (for the complete checklist, see Appendices). <sentence_start/>The primary objective was to evaluate the association between the <italic>GLT6D1</italic> G allele (rs1537415) and periodontitis through a meta-analysis."
+  },
+  {
+   "section": "article",
+   "text": "A structured search was conducted across the following databases: PubMed, Web of Science, and Scopus. <sentence_start/>The search strategy included keywords such as \"<italic>GLT6D1</italic>,\" \"rs1537415,\" \"G allele,\" \"aggressive periodontitis,\" \"chronic periodontitis,\" \"stage III,\" \"stage IV,\" \"grade B,\" \"grade C,\" and \"periodontitis.\" <sentence_start/>The search was limited to studies published in English. <sentence_start/>Additionally, reference lists of eligible articles were screened to identify further relevant studies (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility Criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were included if they met the following criteria: (i) Published in peer-reviewed journals and reporting data on the prevalence of <italic>GLT6D1</italic> G allele carriers in cases of periodontitis and healthy controls (e.g., NGS, GWAS, case-control, cohort, or cross-sectional studies), (ii) utilized validated diagnostic criteria for periodontitis, encompassing both aggressive and chronic forms (e.g., American Academy of Periodontology/European Federation of Periodontology classifications), and (iii) provided sufficient information to calculate odds ratios (ORs) and 95% confidence intervals (CIs). <sentence_start/>Exclusion criteria included: (i) Studies lacking genotype frequency data for rs1537415, (ii) reviews, case reports, or studies without original data, and (iii) studies involving animal models or in vitro experiments. <sentence_start/>The detailed inclusion and exclusion criteria applied in this study are also presented in Table 2."
+  },
+  {
+   "section": "article",
+   "text": "Study Selection and Data Extraction"
+  },
+  {
+   "section": "article",
+   "text": "Two reviewers (TAK and CX) independently screened all titles and abstracts retrieved from the database searches to assess eligibility according to the predefined inclusion and exclusion criteria. <sentence_start/>Prior to formal screening, a calibration exercise was performed on a random sample of 20 articles to ensure consistent interpretation and application of the criteria, achieving full agreement before proceeding. <sentence_start/>Full-text screening of potentially eligible articles was also performed independently by the same two reviewers. <sentence_start/>Disagreements at any stage were resolved through discussion, and if consensus could not be reached, a third reviewer (IF) served as an adjudicator. <sentence_start/>This process minimized selection bias and enhanced methodological rigor."
+  },
+  {
+   "section": "article",
+   "text": "Two reviewers (TAK and CX) extracted the following data: genotype and allele frequencies of rs1537415, statistical results, including ORs, CIs, and p-values, and methods of genetic analysis (e.g., polymerase chain reaction (PCR), GWAS)."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Data were analyzed using the Review Manager (RevMan) software. <sentence_start/>The Mantel-Haenszel method with a random-effects model was employed to calculate pooled ORs and 95% CIs. <sentence_start/>All estimates were derived under a dominant (carrier) model, comparing individuals carrying at least one rs1537415 G allele (GG or GA genotype) with non-carriers (AA genotype). <sentence_start/>ORs and 95% CIs were calculated from 2x2 tables of carrier status by disease status, applied uniformly across all included studies. <sentence_start/>Heterogeneity among studies was assessed using the Chi\u00b2 test and the I\u00b2 statistic: I\u00b2 &gt; 50% was considered indicative of substantial heterogeneity. <sentence_start/>Publication bias was planned to be assessed using funnel plot symmetry and Egger's regression test; however, because fewer than 10 studies were included, these methods are underpowered and unreliable. <sentence_start/>A funnel plot was generated for transparency, but results should be interpreted with caution."
+  },
+  {
+   "section": "article",
+   "text": "Risk-of-Bias Assessment"
+  },
+  {
+   "section": "article",
+   "text": "The quality of the included studies was assessed using the Q-Genie tool for evaluating genetic studies [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2015-010403\" pmcid=\"PMC4908888\" pmid=\"27288371\" count=\"1\">19</citation>,<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1186/s12863-015-0211-2\" pmcid=\"PMC4431044\" pmid=\"25975208\" count=\"1\">20</citation>]. <sentence_start/>This tool examines several aspects of study design and methodology, including: adequacy of the hypothesis and rationale, classification and measurement of outcomes, description and comparison of study groups, disclosure of potential sources of bias, and assessment of statistical methods and power analysis. <sentence_start/>Q-Genie assists in determining the overall quality and reliability of genetic studies, thereby enhancing the robustness of meta-analysis findings."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "A total of 278 articles were identified through database searches. <sentence_start/>After removing 85 duplicates, 193 articles remained for title and abstract screening. <sentence_start/>Of these, 162 articles were excluded as they did not meet the inclusion criteria, leaving 31 full-text articles for assessment. <sentence_start/>Following a detailed review, 28 articles were excluded due to irrelevance to the study criteria or insufficient data. <sentence_start/>Ultimately, three studies were included in the final analysis (Figure 1): the first by Schaefer et al. (2010) investigated a European population with aggressive periodontitis (AgP) [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>], the second by Hashim et al. (2015) focused on a Middle Eastern population with AgP [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>], and the third by Rodrigues et al. (2022) examined a Brazilian population with advanced periodontitis [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "The PRISMA flow chart of the study selection process."
+  },
+  {
+   "section": "article",
+   "text": "PRISMA: Preferred Reporting Items for Systematic reviews and Meta-Analyses"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of Included Studies"
+  },
+  {
+   "section": "article",
+   "text": "The studies represent diverse populations, genotyping methodologies, and disease subtypes, offering a comprehensive perspective on this genetic association."
+  },
+  {
+   "section": "article",
+   "text": "In the study by Schaefer et al., German and Dutch populations with AgP were investigated [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>]. <sentence_start/>This GWAS included 438 cases with generalized and localized AgP and 1,320 healthy controls. <sentence_start/>Cases were diagnosed based on severe clinical and radiographic criteria, characterized by attachment and bone loss typical of AgP. Controls were free of clinical attachment loss and served as a comparison group. <sentence_start/>High-throughput genotyping of rs1537415 was conducted as part of the GWAS, using the Affymetrix GeneChip (Thermo Fisher Scientific Inc., Waltham, Massachusetts, United States) and TaqMan (Thermo Fisher Scientific Inc.) SNP assays. <sentence_start/>The study examined the enrichment of the G allele in cases compared to controls, focusing on its statistical significance and ORs."
+  },
+  {
+   "section": "article",
+   "text": "Hashim et al. investigated a Sudanese population with AgP [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>]. <sentence_start/>A total of 132 cases and 136 healthy controls were included, and all non-smokers were matched for age and gender. <sentence_start/>Cases exhibited severe clinical attachment loss and alveolar bone destruction, while controls had no attachment loss or probing depths &gt;3 mm. <sentence_start/>DNA was extracted from blood samples, and genotyping of rs1537415 was performed using the Sequenom MassARRAY iPLEX platform (CD Genomics, New York, United States). <sentence_start/>The analysis compared allele and genotype frequencies between cases and controls to evaluate the association of the G allele with AgP."
+  },
+  {
+   "section": "article",
+   "text": "The study by Rodrigues et al. focused on a Brazilian population with advanced periodontitis [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>]. <sentence_start/>A total of 100 cases were included, all classified as Stage III/IV based on the 2018 periodontal classification, with further stratification into Grade B (52 cases) and Grade C (48 cases). <sentence_start/>The control group comprised 61 healthy individuals with no clinical attachment loss or probing depths \u22653 mm. <sentence_start/>The controls were matched for age and gender to the cases. <sentence_start/>DNA was extracted from buccal epithelial cells, and genotyping of the rs1537415 polymorphism in the <italic>GLT6D1</italic> gene was performed using real-time quantitative PCR. <sentence_start/>Cases and controls were compared based on allele and genotype frequencies to assess the association of the G allele with advanced periodontitis."
+  },
+  {
+   "section": "article",
+   "text": "These studies collectively covered distinct populations (Brazilian, German/Dutch, and Sudanese), representing both advanced chronic periodontitis (CP) and AgP. <sentence_start/>They utilized diverse genotyping platforms, including real-time PCR, GWAS, and MassARRAY, and employed rigorous diagnostic criteria for case and control definitions. <sentence_start/>Together, these methodologies and population characteristics provided a robust foundation for analyzing the association of the rs1537415 polymorphism with periodontitis (Tables 3, 4)."
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias"
+  },
+  {
+   "section": "article",
+   "text": "The Q-Genie assessment highlights the variability in the quality of the included studies (Table 5). <sentence_start/>Schaefer et al. achieved high scores across all domains, demonstrating robust methodology, adequate sample size, and substantial population stratification control, making it the most reliable study [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>]. <sentence_start/>Hashim et al. showed moderate quality, with strengths in hypothesis framing but constrained by small sample size and inadequate control for population diversity [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>]. <sentence_start/>Rodrigues et al. exhibited moderate-to-low quality, facing limitations in statistical power and stratification adjustment due to its small sample size [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>]. <sentence_start/>These findings underscore the necessity for extensive, standardized studies to enhance reliability and generalizability."
+  },
+  {
+   "section": "article",
+   "text": "Quantitative Synthesis"
+  },
+  {
+   "section": "article",
+   "text": "Data from the three included studies, comprising 2,185 participants (668 periodontitis cases and 1,517 healthy controls), were pooled to evaluate the association between the <italic>GLT6D1</italic> rs1537415 G allele and periodontitis risk. <sentence_start/>The random-effects meta-analysis demonstrated a statistically significant association, with an overall OR of 1.58 (95% CI: 1.28-1.95, p &lt; 0.0001), indicating that carriers of the G allele have approximately 58% higher odds of developing Stage III/IV, Grade B or C periodontitis compared with non-carriers (Figure 2)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot displaying the meta-analysis of the association between the GLT6D1 rs1537415 G allele and periodontitis risk."
+  },
+  {
+   "section": "article",
+   "text": "<sup>a</sup>CI calculated by Wald-type method; <sup>b</sup>Tau<sup>2</sup> calculated by Restricted Maximum-Likelihood Method"
+  },
+  {
+   "section": "article",
+   "text": "Study-specific results: Hashim et al. (2015): OR = 1.52, 95% CI: 0.91-2.53; association not statistically significant. <sentence_start/>Rodrigues et al. (2022): OR = 0.93, 95% CI: 0.34-2.51; no significant association observed. <sentence_start/>Schaefer et al. (2010): OR = 1.64, 95% CI: 1.30-2.08; statistically significant association. <sentence_start/>No statistically significant heterogeneity was detected (Tau\u00b2 = 0.00; Chi\u00b2 = 1.22, df = 2, p = 0.54; I\u00b2 = 0%); however, this finding should be interpreted cautiously given the small number of included studies, as I\u00b2 is imprecise and underpowered with only three studies."
+  },
+  {
+   "section": "article",
+   "text": "Sensitivity Analysis"
+  },
+  {
+   "section": "article",
+   "text": "A sensitivity analysis excluding the Schaefer et al. (2010) GWAS (due to its large sample size and high statistical weight) [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>] resulted in a pooled OR of 1.37 (95% CI: 0.87-2.16, p = 0.18), with no statistically significant association between rs1537415 and periodontitis. <sentence_start/>Heterogeneity remained low (I\u00b2 = 0%). <sentence_start/>This indicates that the inclusion of Schaefer et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>] primarily drives the overall significant association observed in the primary analysis. <sentence_start/>With only three studies, assessment of publication bias was not reliable, and no firm conclusions could be drawn."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Principal Findings"
+  },
+  {
+   "section": "article",
+   "text": "This meta-analysis demonstrated a significant association between the <italic>GLT6D1</italic> rs1537415 G allele and susceptibility to severe periodontitis, particularly Stage III/IV and Grade B or C, in European and Sudanese populations. <sentence_start/>The pooled OR of 1.58 (95% CI: 1.28-1.95, p &lt; 0.0001) indicates that carriers of the G allele have approximately 58% higher odds of developing advanced forms of the disease compared to non-carriers. <sentence_start/>However, no statistically significant association was observed in the Brazilian cohort [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>], suggesting possible population-specific differences in genetic architecture, allele frequencies, linkage disequilibrium patterns, or environmental exposures that may influence the effect of this variant on disease susceptibility. <sentence_start/>Sensitivity analysis excluding the large GWAS by Schaefer et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>] attenuated the association to a non-significant level (OR = 1.37, 95% CI: 0.87-2.16, p = 0.18), indicating that the overall effect is largely driven by this single study, which contributed nearly 79% of the total weight in the meta-analysis. <sentence_start/>This underscores the need for additional large-scale, well-powered studies to confirm the robustness of the observed association."
+  },
+  {
+   "section": "article",
+   "text": "The association between rs1537415 and AgP was initially identified in European populations by Schaefer et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>], who reported an OR of 1.59 (95% CI: 1.36-1.86, p &lt; 5.51 \u00d7 10\u207b\u2079) among German and Dutch individuals, and subsequently replicated in a Sudanese cohort by Hashim et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>], who found a similar OR of 1.50 (95% CI: 1.04-2.17). <sentence_start/>These results suggest a shared genetic predisposition across geographically and ethnically distinct groups. <sentence_start/>The lack of a significant association in the Brazilian sample may be explained by differences in environmental exposures, lifestyle factors such as diet or oral hygiene habits, and the complex admixture background of Brazilian populations, which could alter the linkage disequilibrium structure surrounding<italic> GLT6D1</italic> [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>]. <sentence_start/>Moreover, phenotypic heterogeneity likely contributes to these disparities, as Brazilian cases were diagnosed under the 2018 AAP/EFP classification system [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1002/JPER.18-0157\" pmid=\"29926946\" count=\"1\">21</citation>] with a mix of Grade B and Grade C patients, whereas the European and Sudanese cohorts consisted solely of aggressive periodontitis cases diagnosed according to the 1999 AAP criteria [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1902/annals.1999.4.1.1\" pmid=\"10863370\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Biological Plausibility"
+  },
+  {
+   "section": "article",
+   "text": "From a mechanistic perspective, the rs1537415 variant is located within the second intron of <italic>GLT6D1</italic> in a predicted binding site for the GATA-3 transcription factor. <sentence_start/>Functional studies suggest that the G allele reduces GATA-3 binding affinity [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>], which is thought to impair T-helper 2 (Th2) cell differentiation and decrease production of anti-inflammatory cytokines such as IL-4, IL-5, and IL-13. <sentence_start/>This is proposed to favor a T-helper 1/T-helper 17 (Th1/Th17)-dominant immune profile, with elevated IL-1\u03b2, TNF-\u03b1, and matrix metalloproteinase activity [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1038/s41431-018-0265-5\" pmcid=\"PMC6303247\" pmid=\"30218097\" count=\"1\">10</citation>]. <sentence_start/>Such an imbalance is thought to promote chronic inflammation, extracellular matrix degradation, and alveolar bone resorption, all hallmarks of severe periodontitis. <sentence_start/><italic>GLT6D1 </italic>is involved in glycosylation processes considered critical for epithelial barrier integrity, immune receptor signaling, and extracellular matrix stability, and its reduced function could therefore plausibly compromise both host defense and tissue repair in periodontal tissues. <sentence_start/>The results of this meta-analysis align with previous GWASs that have implicated <italic>GLT6D1 </italic>and other immune-modulatory loci in the pathogenesis of periodontitis [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1038/s41431-018-0265-5\" pmcid=\"PMC6303247\" pmid=\"30218097\" count=\"1\">10</citation>]. <sentence_start/>However, the magnitude and direction of association appear to vary across populations, indicating the possible influence of gene-environment interactions and the need for ethnicity-specific risk assessments. <sentence_start/>The consistent effect observed in European [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>] and Sudanese [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>] populations supports the hypothesis of a shared biological mechanism, whereas the null finding in the Brazilian cohort [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>] underscores the complexity of genetic risk in admixed populations."
+  },
+  {
+   "section": "article",
+   "text": "Strengths and Limitations"
+  },
+  {
+   "section": "article",
+   "text": "This review followed PRISMA guidelines, used a comprehensive multi-database search strategy, and applied independent dual-reviewer screening with a calibration exercise and third-reviewer adjudication, alongside a structured quality assessment (Q-Genie) of each included study, features that support the methodological rigor of the synthesis. <sentence_start/>Several limitations must nonetheless be considered when interpreting these findings. <sentence_start/>Only three studies met the inclusion criteria, which limits the statistical power of the pooled analyses and restricts the ability to perform extensive subgroup or meta-regression analyses to explore sources of heterogeneity. <sentence_start/>The effect estimate was heavily influenced by the largest included study [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>], and exclusion of this study rendered the association non-significant, indicating that the observed effect is sensitive to the inclusion of this single dataset. <sentence_start/>There was limited representation of non-European populations, with only one study each from Sudan [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>] and Brazil [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>], reducing the generalizability of the results to other ethnic groups. <sentence_start/>Heterogeneity in diagnostic criteria was present across studies: the European and Sudanese cohorts were classified under the 1999 AAP aggressive periodontitis definition [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1902/annals.1999.4.1.1\" pmid=\"10863370\" count=\"1\">22</citation>], while the Brazilian study used the 2018 AAP/EFP classification [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1002/JPER.18-0157\" pmid=\"29926946\" count=\"1\">21</citation>], which may have introduced phenotypic variability that could attenuate genetic associations. <sentence_start/>The genotyping platforms varied, ranging from high-density GWAS arrays to real-time PCR and MassARRAY, which, despite all meeting quality control standards, differ in sensitivity, allele calling algorithms, and potential for batch effects. <sentence_start/>The protocol for this meta-analysis was not prospectively registered in a database such as the International Prospective Register of Systematic Reviews (PROSPERO), which may limit transparency and introduce the potential for reporting bias [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>]. <sentence_start/>Environmental and behavioral factors such as smoking, diet, systemic conditions, and oral microbiome composition were variably reported or unreported across studies, preventing adjustment for these important covariates and limiting the ability to assess gene-environment interactions [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1177/0022034516664509\" pmcid=\"PMC5347427\" pmid=\"27601451\" count=\"1\">23</citation>,<citation rid=\"REF24\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12314\" pmid=\"25263394\" count=\"1\">24</citation>]. <sentence_start/>Small sample sizes in the Sudanese [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>] and Brazilian [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>] studies increase the risk of type II error and limit the precision of their effect estimates."
+  },
+  {
+   "section": "article",
+   "text": "In summary, this meta-analysis supports the association of the <italic>GLT6D1</italic> rs1537415 G allele with severe periodontitis in European and Sudanese populations [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1111/jcpe.12375\" pmid=\"25682733\" count=\"1\">16</citation>], while highlighting a lack of association in Brazilian patients with advanced chronic periodontitis [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1590/1807-3107bor-2022.vol36.0077\" pmid=\"35703703\" count=\"1\">15</citation>]. <sentence_start/>The proposed functional relevance of this allele, through its potential impact on GATA-3-mediated immune regulation, offers a biologically plausible, though not yet confirmed, mechanism for its role in disease susceptibility [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/hmg/ddp508\" pmid=\"19897590\" count=\"1\">14</citation>,<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1177/0022034514544506\" pmcid=\"PMC4213253\" pmid=\"25056994\" count=\"1\">25</citation>]. <sentence_start/>However, given the small number of available studies, the predominance of European ancestry data, variability in phenotype definitions, and methodological differences, the findings should be interpreted with caution. <sentence_start/>Future research should prioritize large, multi-ethnic cohorts with standardized case definitions and genotyping methods, incorporate detailed environmental exposure data, and conduct functional studies to clarify the role of <italic>GLT6D1</italic> in immune modulation and periodontal disease progression [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.1111/cge.12396\" pmcid=\"PMC4233973\" pmid=\"24702466\" count=\"1\">26</citation>,<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.3390/genes16111308\" pmcid=\"PMC12652003\" pmid=\"41300760\" count=\"1\">27</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "This meta-analysis suggests a possible association between the <italic>GLT6D1</italic> rs1537415 G allele and severe periodontitis. <sentence_start/>However, the evidence remains limited by the small number of studies and by the loss of statistical significance when the largest study is excluded in a sensitivity analysis. <sentence_start/>Further large, multi-ethnic studies with standardised case definitions are needed to confirm this association before it can be regarded as a validated risk marker. <sentence_start/>In practice, early identification of individuals carrying high-risk alleles such as rs1537415 could be integrated with established clinical and behavioural risk assessments to refine risk stratification. <sentence_start/>This might involve targeted genetic screening for patients with a family history of severe periodontitis or in populations with higher allele frequencies. <sentence_start/>Identified high-risk individuals could receive more intensive preventive interventions (e.g., shorter recall intervals, tailored oral hygiene instructions, adjunctive antimicrobial therapies) and earlier initiation of treatment when signs of disease appear. <sentence_start/>This approach would differ from the current standard of care, which primarily initiates more intensive management only after clinical disease presentation rather than in the pre-clinical phase. <sentence_start/>However, implementation would require robust validation of the genetic marker across multiple ethnicities, cost-effectiveness analyses, and integration into existing periodontal risk assessment frameworks before routine clinical adoption."
+  },
+  {
+   "section": "article",
+   "text": "Future studies should focus on expanding multi-ethnic cohorts to validate the association of the <italic>GLT6D1 </italic>rs1537415 G allele with periodontitis across diverse populations. <sentence_start/>Standardizing diagnostic criteria and genotyping methodologies will be critical to reducing inter-study variability. <sentence_start/>Additionally, further research should investigate the gene-environment interactions that may modulate this allele's effects, including factors such as smoking, systemic diseases, and oral microbiome composition. <sentence_start/>Functional studies exploring the biological mechanisms underlying <italic>GLT6D1</italic>-mediated immune dysregulation and inflammation could also provide valuable insights for developing targeted therapeutic interventions."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> Theofanis A. Karaoulas, Chariklia Neophytou"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Theofanis A. Karaoulas, Chariklia Neophytou , Ioannis Fragkioudakis"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> Christoforos Xirouchakis, Ioannis Fragkioudakis"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> Christoforos Xirouchakis"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Supervision:</bold> Ioannis Fragkioudakis"
+  },
+  {
+   "section": "back",
+   "text": "Appendices"
+  }
+ ]
+}

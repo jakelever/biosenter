@@ -1,0 +1,387 @@
+{
+ "pmid": 42756889,
+ "pmcid": 13583717,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Early biomarkers of acute kidney injury after lung transplantation"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Acute kidney injury (AKI) is common after lung transplantation (LUTX), with standard diagnostic criteria having limited early accuracy. <sentence_start/>We evaluated the AKI and postoperative outcomes risk-stratification performance of subclinical AKI and creatinine-independent kidney-injury phenotypes."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "In this prospective single-center cohort including bilateral LUTX recipients, we measured urinary Tissue Inhibitor of Metalloproteinases-2 and Insulin-Like Growth Factor-Binding Protein 7 (u[TIMP-2]*[IGFBP-7]) and plasma Heart-Type Fatty Acid-Binding Protein (H-FABP), midkine, Soluble Tumor Necrosis Factor Receptor 1 (sTNFR1), and sTNFR2 at 6 and 36 hours after reperfusion, using point-of-care devices. <sentence_start/>AKI was defined by KDIGO criteria. <sentence_start/>Subclinical AKI was defined as u[TIMP-2]*[IGFBP-7]&gt;0.3 without AKI criteria. <sentence_start/>Creatinine-independent phenotypes were identified with outcome-agnostic Latent Profile Analysis (LPA)."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Among 84 included patients, 30 (36%) developed AKI. u[TIMP-2]*[IGFBP-7] had modest AKI discrimination, with the best AUROC 0.63 (95%CI 0.58-0.70) at 36 hours. <sentence_start/>Twenty-five patients had subclinical AKI, which had outcomes similar to those of patients without AKI. <sentence_start/>At 36 hours, plasma H-FABP, sTNFR1, and sTNFR2 were higher in patients with AKI. <sentence_start/>LPA identified 3 classes: low-risk (30%), intermediate-risk (51%), and high-risk (19%), with increasing rates of AKI (16%, 42%, 72%; <italic>p</italic> = 0.006) and primary graft dysfunction grade 3 at 72 hours (4%, 13%, 35%; <italic>p</italic> = 0.045). <sentence_start/>Compared with the low-risk class, the high-risk class had fewer organ support-free, ICU-free, and hospital-free days and the lowest rejection-free survival."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "After LUTX, u[TIMP-2]*[IGFBP-7] had limited risk-stratification performance, and subclinical AKI was not associated with a distinct clinical course. <sentence_start/>In contrast, plasma biomarker-derived risk phenotypes were associated with AKI severity and postoperative trajectory."
+  },
+  {
+   "section": "article",
+   "text": "Background"
+  },
+  {
+   "section": "article",
+   "text": "Lung transplant (LUTX) is the last therapeutic option for end-stage respiratory failure.<citation rid=\"bib1\" ref-type=\"bibr\" doi=\"10.1016/j.healun.2014.06.014\" pmid=\"25085497\" count=\"1\"><sup>1</sup></citation> <sentence_start/>Up to two-thirds of the LUTX recipients manifest post-operative acute kidney injury (AKI),<citation rid=\"bib2\" ref-type=\"bibr\" pmid=\"37414386\" doi=\"10.1016/j.athoracsur.2023.06.016\" count=\"1\">2</citation>, <citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.3390/jcm8101713\" pmid=\"31627379\" pmcid=\"PMC6833042\" count=\"1\">3</citation>, <citation rid=\"bib4\" ref-type=\"bibr\" pmid=\"35838909\" doi=\"10.1007/s40620-022-01392-z\" pmcid=\"PMC9458565\" count=\"1\">4</citation> as a result of ischemia-reperfusion,<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2022.843782\" pmid=\"35529856\" pmcid=\"PMC9069608\" count=\"1\"><sup>5</sup></citation> hypoxia, hemodynamic instability, inflammation,<citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"26561643\" doi=\"10.1681/ASN.2015030261\" pmcid=\"PMC4731128\" count=\"1\"><sup>6</sup></citation> and direct glomerular or tubular damage (e.g., immunosuppressant and antibiotics).<citation rid=\"bib7\" ref-type=\"bibr\" pmid=\"38581638\" doi=\"10.1007/s40262-024-01368-1\" pmcid=\"PMC11106167\" count=\"1\"><sup>7</sup></citation> <sentence_start/>AKI is associated with a higher incidence of primary graft dysfunction (PGD), prolonged mechanical ventilation, and ICU stay.<citation rid=\"bib8\" ref-type=\"bibr\" pmid=\"33987415\" doi=\"10.21037/atm-20-7644\" pmcid=\"PMC8106087\" count=\"1\"><sup>8</sup></citation> <sentence_start/>AKI frequently evolves into acute kidney disease (AKD)<citation rid=\"bib4\" ref-type=\"bibr\" pmid=\"35838909\" doi=\"10.1007/s40620-022-01392-z\" pmcid=\"PMC9458565\" count=\"1\"><sup>4</sup></citation> and chronic kidney disease (CKD),<citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.1007/s11748-025-02193-4\" pmcid=\"PMC12913340\" pmid=\"40875129\" count=\"1\"><sup>9</sup></citation> ultimately worsening the quality of life and long-term survival of LUTX recipients.<citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.3390/jcm8101713\" pmid=\"31627379\" pmcid=\"PMC6833042\" count=\"1\"><sup>3</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "The gold-standard diagnostic criteria for AKI-an increase in serum creatinine (sCr) or contraction of urinary output (UO)<citation rid=\"bib10\" ref-type=\"bibr\" count=\"1\"><sup>10</sup></citation>-describe loss of kidney function and have limited early sensitivity. <sentence_start/>In LUTX recipients, the risk-stratification accuracy of sCr and UO is further limited by baseline patients' characteristics (i.e., muscle mass loss), intraoperative management (i.e., massive fluid resuscitation), and post-operative care (e.g., diuretics)."
+  },
+  {
+   "section": "article",
+   "text": "In diverse surgical settings, several emerging biomarkers for early AKI detection have been described.<citation rid=\"bib11\" ref-type=\"bibr\" pmid=\"31343478\" doi=\"10.1097/CCM.0000000000003907\" pmcid=\"PMC6750148\" count=\"1\">11</citation>, <citation rid=\"bib12\" ref-type=\"bibr\" pmid=\"31039451\" doi=\"10.1016/j.jcrc.2019.04.007\" count=\"1\">12</citation>, <citation rid=\"bib13\" ref-type=\"bibr\" pmid=\"26864834\" doi=\"10.1186/s13054-016-1192-x\" pmcid=\"PMC4750195\" count=\"1\">13</citation>, <citation rid=\"bib14\" ref-type=\"bibr\" pmid=\"32025755\" doi=\"10.1007/s00134-019-05919-0\" pmcid=\"PMC7210248\" count=\"1\">14</citation>, <citation rid=\"bib15\" ref-type=\"bibr\" pmid=\"29189343\" doi=\"10.1097/CCM.0000000000002847\" pmcid=\"PMC5821475\" count=\"1\">15</citation> Recent guidelines suggest that patients with a biomarker positivity without standard criteria could be classified as having subclinical AKI and considered for targeted early management strategies.<citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2020.19209\" pmid=\"33021646\" count=\"1\"><sup>16</sup></citation> <sentence_start/>At present, the urinary cell-cycle arrest proteins Tissue Inhibitor Of Metalloproteinases-2 (TIMP-2) and Insulin-Like Growth Factor Binding Protein-7 (IGFBP-7), which signal tubular injury, are the only clinical-grade biomarkers for early diagnosis of subclinical AKI,<citation rid=\"bib11\" ref-type=\"bibr\" pmid=\"31343478\" doi=\"10.1097/CCM.0000000000003907\" pmcid=\"PMC6750148\" count=\"1\">11</citation>, <citation rid=\"bib15\" ref-type=\"bibr\" pmid=\"29189343\" doi=\"10.1097/CCM.0000000000002847\" pmcid=\"PMC5821475\" count=\"1\">15</citation> but have never been assessed after LUTX."
+  },
+  {
+   "section": "article",
+   "text": "Recent work in surgical populations has shown that plasma biomarkers of cardiac injury (Heart-Type Fatty Acid-Binding Protein - H-FABP), ischemia/reperfusion injury (midkine), and inflammation (Soluble Tumor Necrosis Factor Receptors 1 and 2 - sTNFR1 and sTNFR2) have promising performance.<citation rid=\"bib17\" ref-type=\"bibr\" pmid=\"31740699\" doi=\"10.1038/s41598-019-53349-1\" pmcid=\"PMC6861253\" count=\"1\"><sup>17</sup></citation> <sentence_start/>We hypothesized that these plasma biomarkers may be useful in describing the multiple pathophysiological pathways leading to AKI after LUTX and that this biological heterogeneity may be captured by identifying biological risk phenotypes using an outcome-agnostic latent profile analysis (LPA)."
+  },
+  {
+   "section": "article",
+   "text": "Accordingly, in this prospective observational cohort study of adult LUTX recipients, we aimed at: 1) evaluate the performance of u[TIMP-2]*[IGFBP-7] in predicting AKI and define subclinical AKI after LUTX; 2) identify creatinine-independent kidney-injury risk phenotypes based upon plasma H-FABP, midkine, sTNFR1, and sTNFR2; and 3) explore their association with postoperative outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Material and methods"
+  },
+  {
+   "section": "article",
+   "text": "Study design"
+  },
+  {
+   "section": "article",
+   "text": "This prospective observational cohort study was approved by the local Institutional Ethics Committee (Milano Area 2, Milan, Italy, # 1183/2021), registered at clinicaltrial.gov ( ), and performed in accordance with the \"Declaration of Istanbul on Organ Trafficking and Transplant Tourism\" and the STROBE guidelines.<citation rid=\"bib18\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.0040297\" pmcid=\"PMC2020496\" pmid=\"17941715\" count=\"1\"><sup>18</sup></citation> <sentence_start/>Written informed consent was obtained from all study participants."
+  },
+  {
+   "section": "article",
+   "text": "Adults undergoing bilateral LUTX at our Institution from June 1st, 2023, to June 30th, 2025, were considered for inclusion. <sentence_start/>Exclusion criteria were: 1) age &lt; 18 years; 2) single LUTX; 3) combined solid organ transplantation; 4) re-transplantation. <sentence_start/>Perioperative management of LUTX recipients at our Institution is detailed in the Online Supplement (Additional Methods) and has been previously described.<citation rid=\"bib4\" ref-type=\"bibr\" pmid=\"35838909\" doi=\"10.1007/s40620-022-01392-z\" pmcid=\"PMC9458565\" count=\"1\">4</citation>, <citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1111/ctr.15122\" pmid=\"37694497\" count=\"1\">19</citation>, <citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.1016/j.jcf.2019.10.016\" pmid=\"31676344\" count=\"1\">20</citation>, <citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0314235\" pmcid=\"PMC11661623\" pmid=\"39705303\" count=\"1\">21</citation>, <citation rid=\"bib22\" ref-type=\"bibr\" pmid=\"37949061\" doi=\"10.1097/MAT.0000000000002055\" pmcid=\"PMC10885861\" count=\"1\">22</citation>, <citation rid=\"bib23\" ref-type=\"bibr\" pmid=\"33257002\" doi=\"10.1016/j.transproceed.2020.09.020\" count=\"1\">23</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Data collection"
+  },
+  {
+   "section": "article",
+   "text": "We collected data relative to enlistment (age, gender, body mass index (BMI), estimated glomerular filtration rate-eGFR,<citation rid=\"bib24\" ref-type=\"bibr\" pmid=\"34554658\" doi=\"10.1056/NEJMoa2102953\" pmcid=\"PMC8822996\" count=\"1\"><sup>24</sup></citation> preoperative Chronic Kidney Disease-CKD, defined as an eGFR&lt;90 mL/min/1.73 m\u00b2 comorbidities, Lung Allocation Score (LAS)<citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.1111/j.1600-6143.2006.01276.x\" pmid=\"16613597\" count=\"1\"><sup>25</sup></citation>); surgery (immunosuppressive induction therapy, Extracorporeal Membrane Oxygenation (ECMO), blood components); and donor status (age and type of donor, type: Donor after Brain Death - DBD or Donor after Cardiac Death); Oto score<citation rid=\"bib26\" ref-type=\"bibr\" pmid=\"17184674\" doi=\"10.1016/j.athoracsur.2006.07.040\" count=\"1\"><sup>26</sup></citation>; warm and cold ischemia times; Ex-Vivo Lung Perfusion<citation rid=\"bib27\" ref-type=\"bibr\" pmid=\"32219887\" doi=\"10.1111/tri.13606\" count=\"1\"><sup>27</sup></citation> use)."
+  },
+  {
+   "section": "article",
+   "text": "sCr was measured at enlistment, before LUTX (i.e., 6 hours before surgery commencement), daily during ICU and hospital stay, at any ambulatory follow-up within 90 days of LUTX, and at 1 year after LUTX. <sentence_start/>UO and the need for renal replacement therapy (RRT) were assessed daily during the ICU and hospital stay. <sentence_start/>Moreover, daily urinary creatinine (uCr) concentration was measured during the ICU stay, and creatinine clearance (CrCl) was calculated as follows:"
+  },
+  {
+   "section": "article",
+   "text": "The worst CrCl was then assessed up to the 7th post-operative day. <sentence_start/>For patients treated with RRT, the last CrCl prior to RRT commencement was considered."
+  },
+  {
+   "section": "article",
+   "text": "Study measures"
+  },
+  {
+   "section": "article",
+   "text": "Urine and blood samples were collected at ICU admission (i.e., &lt;6 hours from graft reperfusion) and at 36 hours after graft reperfusion. <sentence_start/>u[TIMP-2]*[IGFBP-7] was measured using a fluorescence-immunoassay point-of-care device (Nephrocheck test, BioM\u00e9rieux Italia S.p.<sentence_start/>A., Firenze, Italy), with results reported as (ng/mL)<sup>2</sup>/1,000. <sentence_start/>Blood samples were collected in EDTA tubes, centrifuged (1,500 G for 15 min), and assayed for H-FABP, sTNFR1/2, and midkine with a real-time, fully automated, clinical-staff-operable immunoanalyzer (Multistat, Randox, Crumlin, UK). <sentence_start/>Treating clinicians were blinded to biomarker results."
+  },
+  {
+   "section": "article",
+   "text": "Endpoints"
+  },
+  {
+   "section": "article",
+   "text": "The primary endpoint was a composite of postoperative AKI OR death at 7 days after LUTX. <sentence_start/>AKI was defined according to kidney disease improving global outcomes (KDIGO)<citation rid=\"bib28\" ref-type=\"bibr\" count=\"1\"><sup>28</sup></citation> if sCr increased by \u2265 0.3 mg/dL at 48 hours OR \u22651.5 times compared to pre-operative within 7 days after LUTX. <sentence_start/>AKI was staged 1, 2, or 3 based on an increase in sCr to 1.5 to 1.9 times, 2 to 2.9 times, and &gt;3 times baseline, respectively, \u22647 days from LUTX and/or having a UO &lt;0.5 mL/kg/hr for 6 to 12 hours, &lt;0.5 mL/kg/hr for &gt;12 hours, &lt;0.3 mL/kg/hr for \u226524 hours or anuria for \u226512 hours. <sentence_start/>Need for RRT was considered as AKI stage 3. <sentence_start/>Moreover, patients were defined as having subclinical AKI if u[TIMP-2]*[IGFBP-7] was &gt; 0.3 at any time point, in the absence of concomitant KDIGO-defined AKI.<citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1097/LVT.0000000000000755\" pmid=\"41289017\" count=\"1\"><sup>29</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Secondary outcome measures included: 1) post-operative AKD<citation rid=\"bib30\" ref-type=\"bibr\" pmid=\"28239173\" doi=\"10.1038/nrneph.2017.2\" count=\"1\"><sup>30</sup></citation> stage 1, stage 2, and stage 3 whether sCr increased 1.5 to 1.9 times, 2 to 2.9 times, and &gt;3 times (or need for dialysis) during the 90-day follow-up; 2) CKD at 1 year after LUTX,<citation rid=\"bib24\" ref-type=\"bibr\" pmid=\"34554658\" doi=\"10.1056/NEJMoa2102953\" pmcid=\"PMC8822996\" count=\"1\"><sup>24</sup></citation> classified according to the 1-year eGFR G1 (\u226590), G2 (60-89), G3 (30-59), G4 (15-29), and G5 (&lt;15 mL/min/1.73 m<sup>2</sup>, chronic RRT, or death). <sentence_start/>Further, non-directly renal outcomes were assessed: PGD<citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.1016/j.healun.2017.07.021\" pmid=\"28942784\" count=\"1\"><sup>31</sup></citation> grade 3 at 72 hours post-reperfusion; duration of invasive mechanical ventilation; 28-day ventilation-free days; 28-day intensive care unit (ICU)-free days; vasoactive support duration; 28-day vasoactive-free days; and 60-day hospital-free days, biopsy-proven acute rejection at 6 months,<citation rid=\"bib32\" ref-type=\"bibr\" pmid=\"34030203\" doi=\"10.1055/s-0041-1729542\" count=\"1\"><sup>32</sup></citation> and rejection-free survival on May 1st, 2026."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Sample size was calculated to detect an area under the receiver operating curve (AUROC) of 0.70 for u[TIMP-2]*[IGFBP-7] in detecting AKI (stage 0 vs stage &gt;0), assuming a null AUROC of 0.5, and a ratio of sample size in negative/positive groups (patients with AKI stage 0 /AKI stage &gt;0 = 1.3) according to priors from our center.<citation rid=\"bib4\" ref-type=\"bibr\" pmid=\"35838909\" doi=\"10.1007/s40620-022-01392-z\" pmcid=\"PMC9458565\" count=\"1\"><sup>4</sup></citation> <sentence_start/>With \u03b1=0.05 and power 85%, the analyses yielded an estimation of a total sample size of 67 patients (Medcalc 20.015, MedCalc Software Ltd, Ostend, Belgium). <sentence_start/>To account for potential non-evaluable cases due to missing or lost biomarker measurements, the planned sample size was set at 85 patients."
+  },
+  {
+   "section": "article",
+   "text": "Continuous variables are reported as median [25th-75th percentile], and categorical variables as the number (%). <sentence_start/>Comparisons between patients' cohorts were performed using chi-square, Fisher's, or the Wilcoxon rank-sum tests, as appropriate. <sentence_start/>For binary outcome measures, odds ratios (OR) and associated 95% likelihood ratio-based confidence intervals (95%CI) were calculated. <sentence_start/>For continuous non-parametric outcome measures, Vargha and Delaney's A or Cohen's D effect size estimates were calculated. <sentence_start/>Kaplan-Meier survival curve analysis was used with log-rank testing for time-to-event comparisons, with right censoring applied."
+  },
+  {
+   "section": "article",
+   "text": "Biomarker concentrations were log-transformed and z-scores standardized. <sentence_start/>Missing biomarker values were not imputed. <sentence_start/>Associations between single biomarkers and AKI were analyzed using a nominal logistic regression at both time points. <sentence_start/>Separate models were fitted to assess the association of u[TIMP-2]*[IGFBP-7], plasma H-FABP, midkine, sTNFR1, and sTNFR2 with AKI. <sentence_start/>Predicted probabilities were used to construct AUROCs, with corresponding sensitivity, specificity, predictive values, and likelihood ratios."
+  },
+  {
+   "section": "article",
+   "text": "LPA was performed on plasma concentrations of H-FABP, midkine, sTNFR1, and sTNFR2, using Gaussian finite mixture models. <sentence_start/>Models with 1-4 classes were estimated assuming diagonal covariance matrices with equal variance across classes. <sentence_start/>The number of latent classes was evaluated by fitting models with 1 to 4 classes. <sentence_start/>Model selection was based on the combined assessment of the Bayesian Information Criterion (BIC), Akaike Information Criterion, entropy, class size, posterior classification probabilities (maximum a posteriori assignment), and biological interpretability. <sentence_start/>Individuals were assigned to the class corresponding to their highest posterior probability (maximum a posteriori assignment)."
+  },
+  {
+   "section": "article",
+   "text": "As an exploratory extension, the final LPA solution selected according to the prespecified model-selection criteria was used to derive an individual-level phenotype classifier (see Online Supplement, Additional Methods). <sentence_start/>For a new patient, biomarker concentrations were transformed and standardized using the preprocessing parameters of the derivation dataset, and the fixed parameters of the selected mixture model were applied to estimate posterior probabilities of membership in each latent class. <sentence_start/>Patients were assigned to the class with the highest posterior probability. <sentence_start/>No model refitting was performed."
+  },
+  {
+   "section": "article",
+   "text": "To assess the robustness of the clustering structure, an alternative unsupervised clustering approach (i.e., Hierarchical Cluster Analysis - HCA) using Ward\u2019s method was performed on the same log-transformed and standardized biomarkers (see Online Supplement, Additional Methods)."
+  },
+  {
+   "section": "article",
+   "text": "Statistical significance was accepted at <italic>P</italic> &lt; 0.05, and no correction for multiple comparison was performed, given the exploratory nature of the study. <sentence_start/>Analyses were performed using JMP Pro 18 (SAS Institute, Cary, NC) and R (R version 4.5.2), with the \u201cmclust\u201d package version 6.1.2."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Study population"
+  },
+  {
+   "section": "article",
+   "text": "From June 1st, 2023, to June 30th, 2025, 97 patients underwent LUTX at our Institution. <sentence_start/>After excluding 12 patients, 85 met the inclusion criteria (see Figure S1, Additional Results, Online Supplement). <sentence_start/>One patient was not recruited due to logistical constraints, leaving 84 patients in the final analysis."
+  },
+  {
+   "section": "article",
+   "text": "Table 1 summarizes patients\u2019 baseline characteristics. <sentence_start/>Median pre-operative eGFR was 102.3 [95.8-110.9] (mL/min/1.73 m<sup>2</sup>), with 21% of the patients having pre-operative CKD stage&gt;0. <sentence_start/>Thirty patients (36%) developed AKI. <sentence_start/>Pre-operative and intraoperative characteristics were largely comparable between AKI and non-AKI patients."
+  },
+  {
+   "section": "article",
+   "text": "Twelve (14%), 7 (8%), and 11 (13%) developed AKI stage 1, 2, and 3, respectively. <sentence_start/>One patient died before post-operative day 7, required RRT, and thus was considered to be suffering AKI stage 3."
+  },
+  {
+   "section": "article",
+   "text": "In the overall cohort, sCr peaked at 3 [1-4] days after LUTX, at 0.99 [0.72-1.33] mg/dL. <sentence_start/>Among AKI patients, peak sCr occurred at 4 [3-5] days, at 1.60 [1.18-2.00] mg/dL. <sentence_start/>Using sCr criteria alone, AKI was diagnosed in 28 patients (93% of AKI cases), with the earliest diagnosis at 2 [1-3] days after LUTX. <sentence_start/>Oligo-anuria (i.e., UO &lt; 0.3 mL/kg/24 hours) occurred in 7 (8%) patients, at 3 [1-5] days after LUTX, and only in 2 patients was UO the sole diagnostic criterion. <sentence_start/>Seven patients (8.3%) needed RRT during the ICU stay, and 3 additional patients required RRT after ICU discharge. <sentence_start/>RRT was commenced 6 [3-15] days after LUTX and lasted 9 [3-26] days."
+  },
+  {
+   "section": "article",
+   "text": "Table S1 (Online Supplement, Additional Results) depicts the impact of AKI on outcomes. <sentence_start/>At 90 days, 6 patients had died. <sentence_start/>AKD occurred in 29 (97%) of AKI patients, as compared to 33 (62%) of patients without AKI (<italic>p</italic> &lt; 0.001) (see Figure S2, Online Supplement, Additional Results), while CKD at 1 year was similarly very frequent, with CKD \u22653 occurring in 32 (59)% vs 22 (73%) in AKI = 0 and AKI&gt;0 cohorts, <italic>p</italic> = 0.192). <sentence_start/>AKI was associated with higher PGD incidence (see Figure S2, Online Supplement, Additional Results), fewer ventilation-free, ICU-free, and hospital-free days (all <italic>p</italic> &lt; 0.001), and increased mortality (log-rank <italic>p</italic> = 0.007) (see Figure S3, Online Supplement, Additional Results)."
+  },
+  {
+   "section": "article",
+   "text": "Urinary [TIMP-2]*[IGFBP-7] as a predictor of AKI"
+  },
+  {
+   "section": "article",
+   "text": "Figure 1 depicts u[TIMP-2]*[IGFBP-7] across timepoints, stratified by AKI status. <sentence_start/>At ICU admission, the median u[TIMP-2]*[IGFBP-7] was 0.155 [0.070-0.480] (ng/mL)<sup>2</sup>/1000, and did not differ according to AKI status (<italic>p</italic> = 0.400). <sentence_start/>At 36 hours, the median u[TIMP-2]*[IGFBP-7] was 0.275 [0.100-0.675] (ng/mL)<sup>2</sup>/1,000, with higher values in AKI patients (<italic>p</italic> = 0.008, OR per unit increase 1.73 [1.11-3.47]).Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Urinary [TIMP-2]*[IGFBP-7] concentrations at 6 and 36 hours according to Acute Kidney Injury (AKI) status.</italic> <sentence_start/>Box plots show u[TIMP-2]*[IGFBP-7] measured at 6 and 36 hours after reperfusion, stratified by AKI status. <sentence_start/>The y-axis is displayed on a logarithmic scale. <sentence_start/>The horizontal dashed line represents the 0.3 cutoff for u[TIMP-2]*[IGFBP-7]. <sentence_start/>TIMP-2, Tissue Inhibitor Of Metalloproteinases-2; IGFBP-7, Insulin-Like Growth Factor Binding Protein-7."
+  },
+  {
+   "section": "article",
+   "text": "Six hours after graft reperfusion, u[TIMP-2]*[IGFBP-7] was &gt; 0.3 in 25 patients (29%), among whom 13 (52%) developed AKI, compared with 18 of 59 patients (30%) with values \u22640.3 (<italic>p</italic> = 0.062, OR 2.48 [0.96-6.58]). <sentence_start/>At the same time point, 5 patients already met the KIDGO criteria for AKI. <sentence_start/>At 36 hours, u[TIMP-2]*[IGFBP-7] was &gt; 0.3 in 39 patients (48%), among whom 19 (57%) developed AKI, compared with 14 of 41 patients (42%) with values \u22640.3 (<italic>p</italic> = 0.118; OR 1.80 [0.74-4.57]). <sentence_start/>Fourteen patients met the KDIGO criteria for AKI at 36 hours. <sentence_start/>Discriminatory performance of u[TIMP-2]*[IGFBP-7] &gt;0.3 in predicting AKI was modest (Table S2 and Figure S4, Online Supplement, Additional Results), with AUROC 0.56 (95%CI 0.48, 0.63) at 6 hours and 0.63 (95%CI 0.58, 0.70) at 36 hours after graft reperfusion."
+  },
+  {
+   "section": "article",
+   "text": "Subclinical AKI defined by [TIMP-2]*[IGFBP-7]"
+  },
+  {
+   "section": "article",
+   "text": "Among the 53 patients without KDIGO-defined AKI, 25 (47%) had u[TIMP-2]*[IGFBP-7] &gt;0.3 at either 6 or 36 hours after graft reperfusion and were classified as having subclinical AKI. <sentence_start/>No statistically significant difference in the worst ICU CrCl was documented between patients with AKI=0 (biomarker negative) and subclinical AKI (i.e., 103 [68-128] vs 100 [65-119] mL/min, p=0.678; mean difference \u22125 mL/min (95%CI \u221234, 16), while AKI&gt;0 had lower worst CrCl than AKI=0 and subclinical AKI patients cohorts (<italic>p</italic> &lt; 0.001, for both)."
+  },
+  {
+   "section": "article",
+   "text": "Subclinical AKI was not associated with subsequent AKD (<italic>p</italic> = 0.281, OR 0.53 [0.16-1.66]). <sentence_start/>Compared with patients without AKI and u[TIMP-2]*[IGFBP-7] \u22640.3, subclinical AKI was not associated with a statistically significant differences in 28 days ventilator-free days (difference \u22122.8 days (95%CI \u22126.2, 0.5); <italic>p</italic> = 0.099), ICU-free days (difference \u22122.0 days (95%CI \u22124.7, 0.1); <italic>p</italic> = 0.136), but with a reduction in 28 days organ support-free days (difference \u22123.9 days (95%CI \u22127.8, 0.7); <italic>p</italic> = 0.042), (see Table S3, Online Supplement, Additional Results). <sentence_start/>No statistically significant difference between subclinical AKI and AKI = 0 was detected in 6-month rejection (<italic>p</italic> = 0.987, in AKI = 0 26% vs subclinical AKI 25%), CKD \u22653 (<italic>p</italic> = 0.645, in AKI = 0 65% vs 56% in subclinical-AKI), or survival at follow-up (log-rank <italic>p</italic> = 0.479, in AKI = 0 80% vs 88% subclinical-AKI)."
+  },
+  {
+   "section": "article",
+   "text": "Plasma biomarkers as a predictor of AKI"
+  },
+  {
+   "section": "article",
+   "text": "Figure 2 and Table S4 (Online Supplement, Additional Results) depict H-FABP, midkine, sTNFR1, and sTNFR2 stratified by AKI status. <sentence_start/>At 6 hours, no statistically significant difference was detected in the biomarkers\u2019 concentration according to AKI status. <sentence_start/>At 36 hours, patients with AKI&gt;0 had statistically significant higher concentrations of H-FABP (<italic>p</italic> &lt; 0.001), sTNFR1 (<italic>p</italic> = 0.002), and sTNFR2 (<italic>p</italic> = 0.004), but not midkine (<italic>p</italic> = 0.095). <sentence_start/>At 36 hours, the plasma biomarkers showed heterogeneous discriminatory performance, with AUROCs ranging from 0.59 (95%CI 0.52-0.67) for midkine to 0.82 (95%CI 0.79-0.87) for H-FABP. <sentence_start/>These estimates were numerically higher than those observed for urinary u[TIMP-2]*[IGFBP-7] Figure S5 (Online Supplement, Additional Results).Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Biomarkers plasma concentrations at 6 And 36 hours stratified by acute kidney injury (AKI) status.</italic> <sentence_start/>Boxplots depict log-transformed and standardized (z-score) plasma concentrations measured at 6 and 36 hours after reperfusion, stratified by AKI status. <sentence_start/>sTNFR, Soluble Tumor Necrosis Factor Receptor; H-FABP, Heart-Type Fatty Acid-Binding Protein; AKI, Acute Kidney Injury."
+  },
+  {
+   "section": "article",
+   "text": "LPA-derived composite biomarker as a predictor of AKI"
+  },
+  {
+   "section": "article",
+   "text": "Of the 84 included patients, complete biomarker data were available in 73, who were included in the LPA. <sentence_start/>At 6 hours, LPA did not identify a stable multi-class solution, with models yielding a dominant cluster and secondary groups with &lt; 3 patients (see Table S5, Online Supplement, Additional Results). <sentence_start/>At 36 hours, the 3-class solution was selected as the preferred exploratory model according to the BIC, with complementary consideration of the Akaike Information Criterion, entropy, class size, and biological interpretability. <sentence_start/>(see Table S6, Online Supplement, Additional Results). <sentence_start/>The classes comprised 22 (30%), 37 (51%), and 14 (19%) patients, respectively, with an entropy of 0.804."
+  },
+  {
+   "section": "article",
+   "text": "To allow prospective assignment of new patients to the predefined phenotypes, an exploratory individual-level phenotype classifier was derived directly from the final LPA model, without additional model fitting (see Online Supplement, Additional Results). <sentence_start/>For each patient, the classifier generated posterior probabilities of membership in the phenotypes and assigned the patient to the class with the highest posterior probability. <sentence_start/>The classifier uses the same four 36-hour biomarkers and the fixed preprocessing and model parameters derived from the study cohort."
+  },
+  {
+   "section": "article",
+   "text": "Biomarker concentrations in the 3 classes are shown in Table 2 and Figure 3. <sentence_start/>A stepwise increase was observed for sTNFR1 and sTNFR2 from the low- to the high-concentration biomarker class (both <italic>p</italic> &lt; 0.001). <sentence_start/>H-FABP demonstrated a similar gradient, with the highest levels in the high-biomarker class. <sentence_start/>Midkine concentrations were higher in the intermediate- and high-biomarker classes compared with the low-risk class (<italic>p</italic> &lt; 0.001)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Heatmap of plasma biomarker concentrations at 36 hours according to latent profile analysis.</italic> <sentence_start/>Heatmap representation of log-transformed and standardized (z-score) plasma concentrations of sTNFR1, sTNFR2, midkine, and H-FABP measured 36 hours after graft reperfusion in patients with complete biomarker data (<italic>n</italic> = 73). <sentence_start/>Each row represents an individual patient, ordered by LPA-derived class membership (low, intermediate, and high). <sentence_start/>Colors indicate relative biomarker expression (blue = lower than cohort mean; red = higher than cohort mean). <sentence_start/>sTNFR, Soluble Tumor Necrosis Factor Receptor; H-FABP, Heart-Type Fatty Acid-Binding Protein."
+  },
+  {
+   "section": "article",
+   "text": "A graded distribution of postoperative AKI severity was observed across LPA classes (<italic>p</italic> = 0.006) (see Figure 4), with AKI occurring in 16% of the patients in the low-biomarker class up to 72% in the high-biomarker class, and accordingly, a progressive worsening of CrCl was observed among classes (<italic>p</italic> &lt; 0.001) (see Table 3). <sentence_start/>Thus, the low-, intermediate- and high-biomarker classes were interpreted as kidney-injury classes and defined as low-risk, intermediate-risk, and high-risk phenotypes. <sentence_start/>We also observed a graded increase in the risk of PGD was observed among those kidney-injury phenotypes (<italic>p</italic> = 0.045), see Figure 5. <sentence_start/>Table 3 summarizes the impact on outcome stratified by phenotypes. <sentence_start/>The high-risk phenotype exhibited reduced organ-support-free days, ICU-free days, and hospital-free days compared with the intermediate and low-risk phenotypes. <sentence_start/>A trend towards higher incidence of AKD was observed for the high-risk class (<italic>p</italic> = 0.143, with OR 3.0 (0.58, 22.80) for AKD risk in the high- vs low-risk class). <sentence_start/>Exploratory post-hoc analyses documented a gradient of long-term compromise across classes. <sentence_start/>At 6 months, rejection-free survival decreased from 77% in the low-risk class to 70% in the intermediate-risk class and 42% in the high-risk class, alongside increasing proportions of rejection (18%, 22%, and 43%, respectively) and death (4%, 8%, and 14%, respectively) (p for trend = 0.043), with each increase in class associated with higher odds of adverse 6-month outcome (OR 2.12, 95%CI 1.01-4.46; <italic>p</italic> = 0.048) (see Figure S6, Online Supplement). <sentence_start/>Similarly, at 1 year, CKD categories differed across phenotypes (<italic>p</italic> = 0.036), with CKD category \u22653 more common in the intermediate- and high-risk cohorts (45%, 78%, and 71%, respectively, <italic>p</italic> = 0.034). <sentence_start/>With a median follow-up of 769 [520-1121] days, no statistically significant difference in survival was detected (log-rank <italic>p</italic> = 0.209) among risk phenotypes.<sentence_start/>Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Distribution of Acute Kidney Injury (AKI) stages across phenotypes at 36 hours after reperfusion.</italic> <sentence_start/>Mosaic plot showing the distribution of Acute Kidney Injury (AKI) stages (0-3) across the 3 latent profile analysis phenotypes identified from plasma biomarker measurements obtained 36 hours after reperfusion (low, intermediate, and high). <sentence_start/>The width of each column is proportional to the number of patients in the corresponding phenotype, and the height of each colored segment represents the proportion of patients within each AKI stage. <sentence_start/>Percentages are reported within each class."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Distribution of Primary Graft Dysfunction (PGD) grades across latent profile phenotypes at 36 hours after reperfusion.</italic> <sentence_start/>Mosaic plot showing the distribution of primary graft dysfunction (PGD) stages (0-3) across the 3 latent profile analysis phenotypes identified from plasma biomarker measurements obtained 36 hours after reperfusion (low, intermediate, and high). <sentence_start/>The width of each column is proportional to the number of patients in the corresponding class, and the height of each colored segment represents the proportion of patients within each AKI stage. <sentence_start/>Percentages are reported within each class."
+  },
+  {
+   "section": "article",
+   "text": "Patients' characteristics at baseline stratified by phenotypes are summarized in Table S7 (Online Supplement, Additional Results). <sentence_start/>Diabetes and pre-existing CKD were more prevalent in the high-risk phenotype (<italic>p</italic> = 0.045 and <italic>p</italic> = 0.027, respectively), whereas other clinical and perioperative variables did not differ significantly."
+  },
+  {
+   "section": "article",
+   "text": "In sensitivity post-hoc exploratory analyses, aiming at correcting for baseline differences among phenotypes, the association between LPA phenotype and AKI stage remained significant after adjustment for u[TIMP-2]*[IGFBP-7] positivity (<italic>p</italic> &lt; 0.001) and baseline CKD and diabetes (<italic>p</italic> = 0.031)."
+  },
+  {
+   "section": "article",
+   "text": "An exploratory individual-level phenotype classifier was derived directly from the final 3-class LPA model, without additional model fitting (see Online Supplement, Additional Results). <sentence_start/>For each patient, the classifier generated posterior probabilities of membership in the low-, intermediate-, and high-biomarker phenotypes and assigned the patient to the class with the highest posterior probability. <sentence_start/>The classifier uses the same four 36-hour biomarkers and the fixed preprocessing and model parameters derived from the study cohort and is intended to allow prospective assignment of new patients to the predefined phenotypes. <sentence_start/>The model is not for actual clinical use but is made available as an Online Digital Supplement, for future external validation.\u201d"
+  },
+  {
+   "section": "article",
+   "text": "Sensitivity analysis aiming at testing clustering robustness by HCA identified a 3-cluster structure closely matching the LPA-derived phenotypes (see Online Supplement, Figure S7), near-perfect correlation between corresponding cluster-specific standardized biomarker profiles (<italic>r</italic> = 0.989, <italic>p</italic> &lt; 0.001) (see Online Supplement, Table S8), with 86.3% concordance in patient classification, and highly concordant associations within HCA-derived clustering and the primary outcome AKI (see Online Supplement, Figure S8)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this prospective observational cohort study of LUTX recipients, postoperative AKI was frequent, clinically impactful, and difficult to identify early with serum creatinine or UO. <sentence_start/>In this setting, u[TIMP-2]*[IGFBP-7] had modest predictive power for AKI, and subclinical AKI defined with positive u[TIMP-2]*[IGFBP-7] was not associated with a clearly distinct clinical course. <sentence_start/>In contrast, outcome-agnostic LPA of plasma H-FABP, midkine, sTNFR1, and sTNFR2 identified 3 creatinine-independent risk phenotypes with graded differences in AKI severity and postoperative trajectory."
+  },
+  {
+   "section": "article",
+   "text": "Previous literature reported that AKI after LUTX occurs frequently (&gt;50% patients) and is associated with prolonged organ support and reduced survival,<citation rid=\"bib33\" ref-type=\"bibr\" pmid=\"31627379\" doi=\"10.3390/jcm8101713\" pmcid=\"PMC6833042\" count=\"1\"><sup>33</sup></citation> findings consistent with our data. <sentence_start/>Since AKI treatment is just supportive, early risk stratification may allow predictive enrichment and targeted management approaches. <sentence_start/>In critically ill patients, several biomarkers have been evaluated for this scope,<citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2020.19209\" pmid=\"33021646\" count=\"1\"><sup>16</sup></citation> and subclinical AKI has been proposed as a new clinical entity characterized by biological evidence of tubular injury without overt functional impairment.<citation rid=\"bib34\" ref-type=\"bibr\" pmid=\"23007617\" doi=\"10.1038/nrneph.2012.197\" count=\"1\"><sup>34</sup></citation> <sentence_start/>At the time of this writing, however, there is only a single FDA-approved assay for this purpose, which is based upon the measurement of the urinary concentration of the cell-cycle arrest proteins TIMP-2 and IGFBP-7.<citation rid=\"bib35\" ref-type=\"bibr\" pmid=\"23388612\" doi=\"10.1186/cc12503\" pmcid=\"PMC4057242\" count=\"1\"><sup>35</sup></citation> <sentence_start/>These proteins are part of the tubular cell-cycle molecular machinery and are secreted in the urinary tract in response to several renal insults,<citation rid=\"bib36\" ref-type=\"bibr\" pmid=\"30179848\" doi=\"10.1515/cclm-2018-0776\" count=\"1\"><sup>36</sup></citation> resulting in transient interruption of tubular cell replication. <sentence_start/>The detection of these biomarkers in the UO is interpreted as impending tubular stress. <sentence_start/>The product of their urinary concentration (i.e., u[TIMP-2]*[IGFBP-7]) has been shown to predict AKI and stratify risk in several surgical cohorts,<citation rid=\"bib37\" ref-type=\"bibr\" pmid=\"35726660\" doi=\"10.1111/jocs.16704\" count=\"1\">37</citation>, <citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0120863\" pmcid=\"PMC4370650\" pmid=\"25798585\" count=\"1\">38</citation> comprising solid organ transplant recipients.<citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1097/LVT.0000000000000755\" pmid=\"41289017\" count=\"1\"><sup>29</sup></citation> <sentence_start/>The implementation of renal protective bundles guided by u[TIMP-2]*[IGFBP-7] reduced the incidence of moderate-to-severe AKI compared with standard care.<citation rid=\"bib39\" ref-type=\"bibr\" pmid=\"34794767\" doi=\"10.1016/j.bja.2021.10.015\" count=\"1\"><sup>39</sup></citation> <sentence_start/>Nevertheless, evidence supporting clinical implementation of u[TIMP-2]*[IGFBP-7] in LUTX is lacking, while newer biomarkers continue to be explored for AKI risk stratification."
+  },
+  {
+   "section": "article",
+   "text": "With these premises, we sought to assess in LUTX recipients the predictive performance of the established urinary biomarker u[TIMP-2]*[IGFBP-7] and also of a novel creatinine-independent outcome-agnostic profiling strategy based on plasma concentration of H-FABP, midkine, sTNFR1, and sTNFR2."
+  },
+  {
+   "section": "article",
+   "text": "In our cohort, u[TIMP-2]*[IGFBP-7] predicting capabilities were modest, and subclinical AKI defined with u[TIMP-2]*[IGFBP-7] was poorly associated with subsequent renal and overall clinical course. <sentence_start/>Several factors may account for these findings. <sentence_start/>First, perioperative management during LUTX (e.g., large intraoperative fluid administration, postoperative negative fluid-balance strategies) may reduce the diagnostic performance of urinary cell-cycle arrest biomarkers. <sentence_start/>Second, sampling time may be relevant, as tubular stress detectable by u[TIMP-2]*[IGFBP-7] may emerge later in the postoperative course. <sentence_start/>Third, hemodynamic perturbation, ischemia-reperfusion, and inflammatory activation may generate an early circulating injury signal that is more readily captured in plasma than in urine, whereas tubular stress detectable by u[TIMP-2]*[IGFBP-7] may be delayed, attenuated, or not central in this cohort."
+  },
+  {
+   "section": "article",
+   "text": "In this preliminary analysis, a plasma-based approach comprising H-FABP, midkine, sTNFR1, and sTNFR2, combined with outcome-agnostic LPA, identified 3 biomarker-defined phenotypes at 36 hours after graft reperfusion. <sentence_start/>The 3 phenotypes were associated with a graded pattern of postoperative risk. <sentence_start/>The low-risk phenotype comprised about 30% of patients and was characterized by infrequent AKI, less PGD, and a benign postoperative course. <sentence_start/>At the other end of the spectrum, the high-risk phenotype accounted for about 20% of the cohort and showed frequent AKI, greater severity of kidney injury, lower AKD-free survival, more PGD, and a more complex postoperative course with prolonged need for organ support and longer ICU stay. <sentence_start/>The intermediate-risk phenotype, representing about half of the population, showed intermediate outcomes."
+  },
+  {
+   "section": "article",
+   "text": "H-FABP, midkine, sTNFR1, and sTNFR2 are not specific to kidney injury or damage and capture different aspects of the perioperative LUTX course. <sentence_start/>H-FABP is a myocardial cytosolic protein<citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1016/j.ijcha.2025.101836\" pmcid=\"PMC12744530\" pmid=\"41467226\" count=\"1\"><sup>40</sup></citation> and its elevation may derive from perioperative myocardial injury. <sentence_start/>Midkine is a pleiotropic heparin-binding cytokine with anti-apoptotic, pro-angiogenic, and pro-inflammatory functions,<citation rid=\"bib41\" ref-type=\"bibr\" doi=\"10.3390/ijms25010454\" pmid=\"38203625\" pmcid=\"PMC10779074\" count=\"1\"><sup>41</sup></citation> its plasma concentration elevation likely reflecting IRI. sTNFR1 and sTNFR2 are soluble markers of TNF-pathway activation and represent markers of systemic pro-inflammatory pathway activation. <sentence_start/>Taken together, these biomarkers may be viewed as components of an integrated systemic response to the perioperative burden of LUTX. <sentence_start/>These pathways are biologically interconnected: myocardial and right ventricular dysfunction may reduce effective renal perfusion, ischemia-reperfusion and endothelial injury may amplify microvascular and tubular stress, and persistent systemic inflammation may further promote endothelial dysfunction and multiorgan injury. <sentence_start/>Within this framework, the LPA phenotypes may represent different systemic biological responses to the transplant-related insult, characterized by varying degrees of cardiocirculatory stress, ischemia-reperfusion injury, endothelial activation, and inflammation, rather than sequential stages of kidney injury alone. <sentence_start/>This interpretation is consistent with the parallel associations observed with AKI and PGD. <sentence_start/>Indeed, these phenotypes stratified not only AKI severity but also the overall postoperative trajectory. <sentence_start/>In particular, the parallel association of AKI and PGD supports the hypothesis that AKI and PGD may share systemic pathophysiology. <sentence_start/>IRI leading to endothelial dysfunction, complement activation, and neutrophil recruitment may therefore affect both the pulmonary microcirculation of the transplanted graft and the renal microvasculature, promoting pulmonary capillary leak and graft dysfunction while reducing renal perfusion and amplifying tubular and microvascular injury. <sentence_start/>Of note, we observed that divergence in biomarker-defined phenotypes was not observable in the immediate post-operative period but occurred over time. <sentence_start/>This is consistent with our overall interpretation of phenotypes of risk and may indicate that the relevant biological response develops progressively after transplantation, as sustained inflammation, endothelial dysfunction, hemodynamic perturbation, and evolving multiorgan injury become established."
+  },
+  {
+   "section": "article",
+   "text": "The phenotypic signal persisted after adjustment for baseline characteristics associated with AKI (i.e., CKD and diabetes) and was independent of u[TIMP-2]*[IGFBP-7] and serum creatinine as well. <sentence_start/>In this framework, H-FABP, midkine, sTNFR1, and sTNFR2 are best interpreted not as instantaneous markers of kidney-specific structural injury, but as complementary indicators of evolving cardiorenal, ischemia-reperfusion, and inflammatory responses. <sentence_start/>Considered jointly through LPA, these biomarkers revealed clinically meaningful heterogeneity in early post-transplant kidney injury that was not captured by single-marker strategies. <sentence_start/>However, the present study does not establish their clinical utility <italic>per se</italic> as diagnostic tests or for routine patient management."
+  },
+  {
+   "section": "article",
+   "text": "From a clinical perspective, biological phenotyping could be used to identify patients who may benefit from intensified surveillance. <sentence_start/>Indeed, in a future validated pathway, assignment to a high-risk phenotype could prompt closer monitoring and consideration of a kidney-protective care bundle, comprising hemodynamic optimization, nephrotoxin exposure limitations, and tighter calcineurin-inhibitor monitoring. <sentence_start/>More importantly, these findings provide a rationale for moving beyond current syndromic approaches to AKI prevention and for future studies testing whether early biological phenotyping may help identify and target the predominant pathophysiological pathways of AKI. <sentence_start/>To allow future studies aimed at validating this approach in more populated multicenter studies, an individual-patient classifier model was developed and made available online."
+  },
+  {
+   "section": "article",
+   "text": "However, whether biological profiling improves prediction beyond established clinical risk factors remains unresolved. <sentence_start/>Patients undergoing LUTX may have several relevant determinants of postoperative AKI, including baseline renal function, diabetes, perioperative ECMO support, hemodynamic instability, and transfusion exposure. <sentence_start/>The present study did not aim at and was not powered to construct a comprehensive clinical prediction model including these variables and to compare it formally with a model incorporating the biomarker phenotype. <sentence_start/>Furthermore, populated studies are necessary to confirm the clinical applicability of this approach."
+  },
+  {
+   "section": "article",
+   "text": "Exploratory post hoc analyses also suggested a gradient in 6-month clinical outcome across phenotypes, with the high-risk class showing the lowest rejection-free survival and the highest proportion of adverse outcomes, and CKD, with the low-risk class showing the lowest risk of CKD, although longer-term survival did not differ significantly. <sentence_start/>Still, these associations should be considered exploratory and hypothesis-generating, given the small sample size and limited number of long-term events."
+  },
+  {
+   "section": "article",
+   "text": "Several limitations should be acknowledged. <sentence_start/>First, this was a single-center study with a relatively small cohort, which may limit generalizability. <sentence_start/>Second, the population lacked substantial ethnic diversity. <sentence_start/>Third, the plasma biomarker phenotypes were derived and evaluated within the same dataset, in a relatively small complete-case cohort. <sentence_start/>External validation in independent multicenter cohorts is required. <sentence_start/>Fourth, the study was not powered to construct and validate a comprehensive clinical prediction model including all relevant perioperative risk factors. <sentence_start/>Larger prospective multicenter studies are needed for this scope."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, plasma biomarker-derived phenotypes identified 36 hours were associated with graded differences in AKI severity and postoperative trajectory after LUTX, whereas u[TIMP-2]*[IGFBP-7] had limited early discriminatory performance. <sentence_start/>These results suggest that integrated plasma biomarker profiling may reveal clinically meaningful biological heterogeneity in early post-transplant kidney injury. <sentence_start/>Further studies in larger and independent cohorts are warranted to validate this approach and explore its role in risk stratification and mechanistic understanding of AKI after LUTX."
+  },
+  {
+   "section": "article",
+   "text": "Authors' Contributions"
+  },
+  {
+   "section": "article",
+   "text": "VS conceived the study; VS, AU, GT, SMC, MB, VV, DC, MB collected clinical, respiratory function data and data regarding pre, intra, and post-operative management; LMC performed patients' follow-up and collected follow-up data; VS, performed data analyses; VS, drafted the original version of the manuscript; SMC, GC, AZ, MN, LR, FB, and GG revised the manuscript critically; all authors approved the final version of the manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Disclosure statement"
+  },
+  {
+   "section": "article",
+   "text": "Vittorio Scaravilli has received congress support from Biomerieux Italia S.p.a. (Bagno di Ripoli, Firenze, Italy) and Randox (Crumlin, UK) and serves as scientific consultant for U-Care Medical S.r.l. <sentence_start/>(Turin, Italy). <sentence_start/>Sebastiano Maria Colombo has received congress support from AOP Health (Pisa, Italy) and from BD Italia (Milano, Italy). <sentence_start/>Valentina Vago has received congress support from Biomerieux (Bagno di Ripoli, Firenze, Italy). <sentence_start/>Francesco Blasi reports receipts of grants from AstraZeneca, GSK, and Insmed; personal consulting fees from Menarini; personal fees for lectures, presentations, speakers bureaus, or educational events from AstraZeneca, Boehringer Ingelheim, Chiesi, GSK, Grifols, Insmed, Menarini, OM Pharma, Pfizer, Vertex, and Zambon, outside the submitted work. <sentence_start/>Giacomo Grasselli has received payments for scientific presentations from Dr\u00e4ger Medical, Getinge, Fisher &amp; Paykel, Mundipharma, and Cook Medical; participated in advisory board activities for GSK; and has received research grants from Fisher &amp; Paykel and MSD. <sentence_start/>The remaining authors do not have conflict of interest or financial disclosures."
+  },
+  {
+   "section": "article",
+   "text": "Financial support"
+  },
+  {
+   "section": "article",
+   "text": "The study was (partially) supported by a Ricerca Corrente funds, the Italian Ministry of Health, and Linea 2 Funds (G43C24002040001), Department of Biomedical, Surgical, and Dental Sciences, University of Milan."
+  },
+  {
+   "section": "article",
+   "text": "Conflict of Interest statement"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare the following financial interests/personal relationships, which may be considered as potential competing interests: Vittorio Scaravilli has received congress support from Biomerieux Italia S.p.a. (Bagno di Ripoli, Firenze, Italy) and Randox (Crumlin, UK) and serves as scientific consultant for U-Care Medical S.r.l. <sentence_start/>(Turin, Italy). <sentence_start/>Sebastiano Maria Colombo has received congress support from AOP Health (Pisa, Italy) and from BD Italia (Milano, Italy). <sentence_start/>Valentina Vago has received congress support from Biomerieux (Bagno di Ripoli, Firenze, Italy). <sentence_start/>Francesco Blasi reports receipts of grants from AstraZeneca, GSK, and Insmed; personal consulting fees from Menarini; personal fees for lectures, presentations, speakers bureaus, or educational events from AstraZeneca, Boehringer Ingelheim, Chiesi, GSK, Grifols, Insmed, Menarini, OM Pharma, Pfizer, Vertex, and Zambon, outside the submitted work. <sentence_start/>Giacomo Grasselli has received payments for scientific presentations from Dr\u00e4ger Medical, Getinge, Fisher &amp; Paykel, Mundipharma, and Cook Medical; participated in advisory board activities for GSK; and have received research grants from Fisher &amp; Paykel and MSD. <sentence_start/>The remaining authors do not have conflict of interest or financial disclosures."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data associated with this article can be found in the online version at ."
+  }
+ ]
+}

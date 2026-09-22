@@ -1,0 +1,503 @@
+{
+ "pmid": 42761188,
+ "pmcid": 13585756,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Engaging veterans in the development of mobile health interventions to support medication treatment for opioid use disorder"
+  },
+  {
+   "section": "abstract",
+   "text": "Introduction"
+  },
+  {
+   "section": "abstract",
+   "text": "Opioid Use Disorder (OUD) is an ongoing and pervasive public health problem. <sentence_start/>Despite the availability of efficacious Medication treatments for OUD (MOUD), many patients require additional support to address OUD's wide-ranging consequences. <sentence_start/>Mobile Health Interventions (MHIs), or smartphone-based software applications (\u201capps\u201d), could serve as a scalable and flexible medium to increase adjunctive care access within MOUD."
+  },
+  {
+   "section": "abstract",
+   "text": "Method"
+  },
+  {
+   "section": "abstract",
+   "text": "As an initial step in potential MHI creation, we conducted semi-structured interviews with U.S. military veterans receiving MOUD (<italic>N</italic> = 21) via rapid qualitative methods. <sentence_start/>Our team developed a start-list of interview questions. <sentence_start/>Interview transcripts were independently coded by interviewers, who then convened to discuss and refine code definitions, develop summary templates, organize codes into hierarchical structures, and refine domain categories through consensus."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Twenty-one veterans participated [M[SD]Age = 59.95[10.50]; 90.48% male sex-assigned-at-birth; 80.95% White; 85.71% Non-Hispanic/Latinx; 52.38% on buprenorphine, 47.62% on methadone at time of interview]. <sentence_start/>Veteran attitudes were typically either neutral- positively valenced and characterized by willingness (Open Prudency) or neutral-negatively valenced and characterized by concern and contingencies for use, such as assurance for continued access to in-person care (Hesitancy). <sentence_start/>A small but notable proportion of veterans expressed strongly favorable views towards MHIs, often grounded in their own technological fluency (Enthusiasm). <sentence_start/>Outright Opposition to MHIs was rare. <sentence_start/>Desired MHI functions were variable and included their use for enhancing care accessibility and convenience (e.g., Resource Centralization, Patient-Provider Communication), as well as supporting autonomy, motivation and individualization (e.g., Self-Monitoring, Positive Reinforcement, Adjunctive Intervention)."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Results from this qualitative investigation of U.S. military veterans provide foundational data to guide future development of MHIs for supporting MOUD engagement. <sentence_start/>Findings suggest that veterans receiving MOUD are generally open towards and interested in using MHIs as part of their care regimens, which were broadly described as potential means to enhance treatment accessibility, convenience, and individualization."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Opioid Use Disorder (OUD) is a pervasive and ongoing public health crisis, responsible for the deaths of over 806,000 (<citation rid=\"B1\" ref-type=\"bibr\" count=\"1\">1</citation>) people between 1999 and 2023 and with annual healthcare costs exceeding $1 trillion (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1016/j.drugalcdep.2020.108350\" pmid=\"33121867\" pmcid=\"PMC8091480\" count=\"1\">2</citation>, <citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>). <sentence_start/>OUD is associated with severe impairment across many facets of daily life, such as greater rates of medical and psychiatric comorbidities (<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1037/ser0000607\" pmid=\"34968125\" pmcid=\"PMC9358616\" count=\"1\">4</citation>), reduced health-related quality of life (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/ajad.12861\" pmid=\"30664282\" pmcid=\"PMC6399052\" count=\"1\">5</citation>, <citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1016/j.jsat.2017.03.006\" pmid=\"28476267\" pmcid=\"PMC5424616\" count=\"1\">6</citation>), homelessness (<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.drugalcdep.2021.108714\" pmid=\"33865213\" count=\"1\">7</citation>), and unemployment (<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1186/s12888-020-02981-7\" pmid=\"33423671\" pmcid=\"PMC7798212\" count=\"1\">8</citation>). <sentence_start/>Such harms contribute to staggering economic burdens on the U.S. healthcare system, which were in excess of nearly $1.5 trillion in 2020 alone (<citation rid=\"B3\" ref-type=\"bibr\" count=\"1\">3</citation>). <sentence_start/>OUD and its related harms are no less problematic among the U.S. military veteran community (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1016/j.drugalcdep.2020.108350\" pmid=\"33121867\" pmcid=\"PMC8091480\" count=\"1\">2</citation>, <citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.51821\" pmid=\"39705031\" pmcid=\"PMC11662256\" count=\"1\">9</citation>-<citation rid=\"B12\" ref-type=\"bibr\" count=\"1\">12</citation>), who also tend to show higher rates of co-occurring problems like pain (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.anclin.2016.01.003\" pmid=\"27208715\" count=\"1\">13</citation>), and PTSD (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1007/s00127-016-1208-5\" pmid=\"27106853\" pmcid=\"PMC4980174\" count=\"1\">14</citation>), and other forms of substance misuse (<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1111/ajad.12534\" pmid=\"28370701\" count=\"1\">15</citation>) than their civilian counterparts. <sentence_start/>Despite significant nationwide efforts to address OUD (<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1080/08897077.2020.1787299\" pmid=\"32697170\" pmcid=\"PMC7849630\" count=\"1\">16</citation>-<citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1097/ADM.0000000000000739\" pmid=\"32956162\" pmcid=\"PMC7864607\" count=\"1\">18</citation>) and recent decreases in overdose trends (<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.15620/cdc/170565\" pmid=\"40623710\" pmcid=\"PMC12278041\" count=\"1\">19</citation>), opioid overdose deaths remain shockingly high with \u223c80,000 recorded in 2023 (<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.15620/cdc/170565\" pmid=\"40623710\" pmcid=\"PMC12278041\" count=\"1\">19</citation>). <sentence_start/>Advances in OUD treatment are needed to further address the ongoing consequences of OUD."
+  },
+  {
+   "section": "article",
+   "text": "Efficacious Medication treatments for Opioid Use Disorder (MOUD; e.g., methadone, buprenorphine) are available and MOUD can reduce overdose mortality rates by up to \u223c70% (buprenorphine) and 79% (methadone) (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1176/appi.prcp.20180006\" count=\"1\">20</citation>-<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1136/bmj.j1550\" pmcid=\"PMC5421454\" pmid=\"28446428\" count=\"1\">23</citation>). <sentence_start/>MOUD is recommended as the first line of care across numerous OUD clinical practice guidelines, including within the Veterans Health Administration (VHA) (<citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.7326/M21-4011\" pmid=\"35313113\" count=\"1\">21</citation>, <citation rid=\"B24\" ref-type=\"bibr\" count=\"1\">24</citation>). <sentence_start/>Nonetheless, engagement with MOUD regimens can be difficult (<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0232086\" pmcid=\"PMC7224511\" pmid=\"32407321\" count=\"1\">25</citation>-<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1111/ajad.12553\" pmid=\"28472543\" count=\"1\">28</citation>). <sentence_start/>MOUD is often implemented via long-term regimens [consistent with OUD's conceptualization as a chronic illness (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1176/appi.books.9780890425787.x16_Substance_Related_Disorders\" count=\"1\">29</citation>)], with recommended durations ranging from \u223c2 months to up to 4-5 years (<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1136/bmj.j1550\" pmcid=\"PMC5421454\" pmid=\"28446428\" count=\"1\">23</citation>, <citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1111/add.15574\" pmid=\"33999485\" pmcid=\"PMC8578188\" count=\"1\">30</citation>-<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1111/add.70211\" pmid=\"41501983\" pmcid=\"PMC12980296\" count=\"1\">34</citation>). <sentence_start/>While restrictions regarding prescription and take-home dosing have loosened over time (alongside slow growth in the availability of extended-release formulations), initiation of MOUD often requires daily to weekly clinic visits and in the case of methadone, can only occur at federally-licensed Opioid Treatment Programs (OTPs) (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1016/j.jsat.2017.03.006\" pmid=\"28476267\" pmcid=\"PMC5424616\" count=\"1\">6</citation>, <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1016/j.biopsych.2019.06.020\" pmid=\"31420089\" count=\"1\">35</citation>-<citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.1016/j.dadr.2023.100133\" pmid=\"36994370\" pmcid=\"PMC10040330\" count=\"1\">38</citation>). <sentence_start/>For many, medications may insufficiently address deficits in psychosocial functioning, comorbid disorders, and/or health-related quality of life (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/ajad.12861\" pmid=\"30664282\" pmcid=\"PMC6399052\" count=\"1\">5</citation>, <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.drugalcdep.2021.108714\" pmid=\"33865213\" count=\"1\">7</citation>, <citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.ssmmh.2022.100151\" pmid=\"36776723\" pmcid=\"PMC9912293\" count=\"1\">39</citation>, <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1080/10826084.2025.2580518\" pmid=\"41194384\" count=\"1\">40</citation>) and disengagement from MOUD can result in striking increases in mortality risk (<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.1136/bmj.j1550\" pmcid=\"PMC5421454\" pmid=\"28446428\" count=\"1\">23</citation>). <sentence_start/>Though adjunctive programs like psychotherapy and case management can buttress areas unaddressed by MOUD (<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1016/j.jsat.2021.108353\" pmid=\"34080564\" pmcid=\"PMC8380634\" count=\"1\">41</citation>, <citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1001/jama.1993.03500150065028\" pmid=\"8385230\" count=\"1\">42</citation>), many patients do not receive these services (<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1016/j.drugalcdep.2022.109678\" pmid=\"36368167\" pmcid=\"PMC9624112\" count=\"1\">43</citation>); lack of adjunctive service use appears partially due to the challenges of engaging in further resource- and time-intensive care modalities in addition to the existing demands of MOUD (<citation rid=\"B39\" ref-type=\"bibr\" doi=\"10.1016/j.ssmmh.2022.100151\" pmid=\"36776723\" pmcid=\"PMC9912293\" count=\"1\">39</citation>, <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1080/10826084.2025.2580518\" pmid=\"41194384\" count=\"1\">40</citation>, <citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1177/10497323221104315\" pmid=\"35645402\" count=\"1\">44</citation>, <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1080/08897077.2018.1452327\" pmid=\"29595375\" pmcid=\"PMC8054831\" count=\"1\">45</citation>). <sentence_start/>Finding alternative methods of supporting patient needs while pursuing MOUD could help further alleviate suffering and clinical burden."
+  },
+  {
+   "section": "article",
+   "text": "Mobile Health Interventions (MHI) can provide support to this vulnerable patient group while reducing resource burdens on MOUD clinics and providers. <sentence_start/>MHIs are defined here as smartphone-based software applications (apps) that utilize graphical user interfaces, text, and multimedia messaging to efficiently implement healthcare interventions, their components, or aspects of their supporting infrastructure (e.g., provider-messaging, app-based presentation of health records). <sentence_start/>MHIs have seen growing interest as a care medium for substance use and mental health disorders given their perceived potential for facilitating care access/flexibility (<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1146/annurev-clinpsy-080822-042337\" pmid=\"38346293\" pmcid=\"PMC11855402\" count=\"1\">46</citation>-<citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.1037/ser0000289\" pmid=\"30431306\" count=\"1\">49</citation>) and reductions in healthcare costs (<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.3389/fpubh.2022.787135\" pmid=\"36033812\" pmcid=\"PMC9403754\" count=\"1\">50</citation>-<citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1080/00325481.2021.1884471\" pmid=\"33593201\" count=\"1\">52</citation>). <sentence_start/>Such interest coincides with notable growth in smartphone ownership across the U.S., which as of June 2024 included \u223c91% of U.S. adults and nearly 80% of older adults (<citation rid=\"B53\" ref-type=\"bibr\" count=\"1\">53</citation>). <sentence_start/>Smartphone ownership among hard-to-reach populations like unhoused or formerly unhoused veterans and people with substance use disorders ranges from 57%-94% (<citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.2196/38684\" pmid=\"35797102\" pmcid=\"PMC9305402\" count=\"1\">54</citation>, <citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1177/14604582241276974\" pmid=\"39167203\" count=\"1\">55</citation>). <sentence_start/>Other studies examining veterans have found mobile device ownership rates between 76% (<citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.7205/MILMED-D-14-00014\" pmid=\"25373044\" count=\"1\">48</citation>) to 91% (<citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1037/ser0000562\" pmid=\"34081527\" count=\"1\">56</citation>). <sentence_start/>Though some research indicates interest in mobile apps as a component of care among most veterans (56%-76%) (<citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.7205/MILMED-D-14-00014\" pmid=\"25373044\" count=\"1\">48</citation>), results have also shown such attitudes are not universal and may vary by demographic factors such as rural v. urban living area (<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.2196/10748\" pmid=\"30135050\" pmcid=\"PMC6125614\" count=\"1\">57</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "MHIs vary widely in focus, structure, and content, but when considering addiction treatment, several specific examples illustrate how they may be designed and used. <sentence_start/>For example, \u201cRESET-O\u00ae\u201d is an FDA-cleared \u201cdigital therapeutic\u201d smartphone app that provides short-term (84-day) adjunctive outpatient support to patients receiving MOUD (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">58</citation>). <sentence_start/>RESET-O aims to bolster retention and includes audio/video lessons drawn from Cognitive Behavioral Therapy for Substance Use Disorders (CBT-SUD) and Contingency Management that are progressively available as patients move through the app. <sentence_start/>This more structured approach is intended for use in conjunction with formal treatment. <sentence_start/>Patients using RESET-O have the opportunity to earn rewards (e.g., merit badges, gift cards) for demonstrating treatment engagement and logging of negative drug screens (<citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.1080/14737167.2021.1840357\" pmid=\"33146558\" count=\"1\">51</citation>). <sentence_start/>The app \u201cA-CHESS\u201d (Addiction-Comprehensive Health Enhancement Support System) provides a less-structured approach to mobile care offering with \u201ca suite of services that promote positive behavior change and provide 24/7 support.\u201d (<citation rid=\"B59\" ref-type=\"bibr\" count=\"1\">59</citation>) A-CHESS was developed for patients exiting treatment for alcohol use disorder, though adaptations of this app have been applied to the care of other substance use disorders (<citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.1016/j.jsat.2020.108089\" pmid=\"32811628\" pmcid=\"PMC7438609\" count=\"1\">60</citation>). <sentence_start/>This app has been used in the context of structured treatment and in conjunction with providers, but also includes a variety of static (e.g., audio-guided relaxation) and interactive features (e.g., GPS alerts if a patient approaches a location they label as \u201chigh risk\u201d for substance use) accessible outside formal treatment sessions (<citation rid=\"B61\" ref-type=\"bibr\" doi=\"10.1001/jamapsychiatry.2013.4642\" pmid=\"24671165\" pmcid=\"PMC4016167\" count=\"1\">61</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Despite the growth in MHI availability, little work has targeted MHI use among veterans with OUD. <sentence_start/>MHIs could serve as an especially helpful tool for veterans with OUD, providing adjunctive support for many common co-occurring conditions (e.g., pain, PTSD) (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/ajad.12861\" pmid=\"30664282\" pmcid=\"PMC6399052\" count=\"1\">5</citation>). <sentence_start/>Additionally, given that the VHA provides treatment to nearly 60,000 veterans with OUD (<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1080/08897077.2018.1452327\" pmid=\"29595375\" pmcid=\"PMC8054831\" count=\"1\">45</citation>, <citation rid=\"B62\" ref-type=\"bibr\" count=\"1\">62</citation>) and represents one of the largest integrated healthcare systems in the country, there is also significant potential to scale a low-intensity intervention for wide-spread impact. <sentence_start/>While a potentially impactful opportunity, successful development of MHIs requires thoughtful consideration during the pre-implementation phase of planning, including careful conceptualization of intended user needs alongside intended-user involvement, to reduce risks of creating unacceptable, inefficacious products that can further exacerbate inequities (<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocy052\" pmid=\"29788380\" pmcid=\"PMC7646885\" count=\"1\">63</citation>-<citation rid=\"B65\" ref-type=\"bibr\" doi=\"10.1197/jamia.M1712\" pmid=\"15684128\" pmcid=\"PMC1090462\" count=\"1\">65</citation>). <sentence_start/>For innovations aimed at behavior change, the COM-B framework is particularly helpful to consider during pre-implementation (<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-6-42\" pmid=\"21513547\" pmcid=\"PMC3096582\" count=\"1\">66</citation>). <sentence_start/>COM-B offers a systematic method for linking specific intervention functions to behavior change techniques, helping ensure that innovations are tailored to address the actual barriers and facilitators identified within the target population (<citation rid=\"B67\" ref-type=\"bibr\" doi=\"10.1186/s12889-023-15586-y\" pmid=\"37189143\" pmcid=\"PMC10186807\" count=\"1\">67</citation>). <sentence_start/>This approach is especially beneficial for developing innovations for new populations, such as MHIs among veterans with OUD, as it would allow for identification of behavior change pathways and selection of appropriate MHI strategies and components prior to implementation."
+  },
+  {
+   "section": "article",
+   "text": "Current study"
+  },
+  {
+   "section": "article",
+   "text": "OUD remains a significant public health problem. <sentence_start/>Despite the availability of efficacious MOUD, sustained engagement in these regimens can be especially challenging and MOUD alone may not address co-occurring psychosocial problems and health conditions. <sentence_start/>Further, MOUD is often not integrated with adjunctive programs (e.g., psychotherapy), which themselves may be challenging to access. <sentence_start/>MHIs (i.e., smartphone-based software applications or \u201capps\u201d) could offer accessible support while reducing clinic resource burdens. <sentence_start/>However, little work to date has explored how MHIs might be used to support OUD care (particularly among veterans). <sentence_start/>To address this gap, the current study conducted preliminary work exploring MHI attitudes and design perspectives among veterans receiving MOUD."
+  },
+  {
+   "section": "article",
+   "text": "Method"
+  },
+  {
+   "section": "article",
+   "text": "Study design"
+  },
+  {
+   "section": "article",
+   "text": "Individual semi-structured interviews were conducted within the VA Connecticut Healthcare System (VACHS) between March 2023 and August 2024 in the context of a larger investigation into VHA patient/provider perspectives towards MOUD and the use of digital health tools (HSR&amp;D Virtual Care CORE Project#: COR-20-199-13). <sentence_start/>Methods for this study have previously been described in the initial paper from this project (<citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1080/10826084.2025.2580518\" pmid=\"41194384\" count=\"1\">40</citation>) but are briefly reproduced below. <sentence_start/>This study and its procedures were approved by the VACHS IRB (protocol#: 1660970)."
+  },
+  {
+   "section": "article",
+   "text": "Study team"
+  },
+  {
+   "section": "article",
+   "text": "At the time of data collection, our study team consisted of 2 clinical psychology postdoctoral fellows (authors: NRW and CWM), 3 licensed clinical psychologists (authors: EDR, RRM, and GAP), and 1 addiction psychiatrist (author: MS). <sentence_start/>Study authors worked within VHA hospitals at addiction-focused mental health clinics (<italic>N</italic>RW, CWM, and RRM), pain and general mental health clinics (GAP and EDR), or health services research centers (MS)."
+  },
+  {
+   "section": "article",
+   "text": "Study setting"
+  },
+  {
+   "section": "article",
+   "text": "The VACHS is a large, integrated healthcare system across the state of Connecticut, comprised of main hospital campuses in West Haven and Newington, as well as several Community-Based Outpatient Clinics (CBOCS) and a medical facility annex. <sentence_start/>VACHS MOUD is typically given as outpatient prescriptions of oral buprenorphine via weekly or monthly visits. <sentence_start/>Methadone dosing occurs at the West Haven hospital Opioid Treatment Program (OTP). <sentence_start/>VACHS MOUD programs generally include a mix of treatment goals targeting MOUD compliance, harm reduction and/or twelve-step approaches, and adjunctive services (e.g., trauma or pain care)."
+  },
+  {
+   "section": "article",
+   "text": "Sampling &amp; recruitment"
+  },
+  {
+   "section": "article",
+   "text": "Based on prior methodological and qualitative research, our team estimated a required <italic>N</italic> \u2265 20 (<citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1108/QMR-06-2016-0053\" count=\"1\">68</citation>-<citation rid=\"B71\" ref-type=\"bibr\" doi=\"10.1002/nur.4770180211\" pmid=\"7899572\" count=\"1\">71</citation>). <sentence_start/>Study recruitment notices were made via announcements at VACHS addiction clinic team meetings, fliers posted throughout hospital common areas, and word-of-mouth. <sentence_start/>Eligible veterans were VACHS patients actively prescribed buprenorphine or methadone for OUD. <sentence_start/>According to participant preference, veterans could be interviewed in-person (<italic>n</italic> = 8), virtual teleconference (<italic>n</italic> = 5), or telephone (<italic>n</italic> = 8); for remote interviews, participants were asked to ensure they were in a private, quiet setting. <sentence_start/>Recruitment occurred until the study team collectively agreed that data saturation and our minimum sampling goal was reached."
+  },
+  {
+   "section": "article",
+   "text": "Participants"
+  },
+  {
+   "section": "article",
+   "text": "A total of 25 veterans were approached, all of whom expressed interest and were determined as eligible to participate. <sentence_start/>Of these, 4 expressed interest but did not attend study visits or respond to follow-up efforts, resulting in <italic>N</italic> = 21 veterans ultimately participating. <sentence_start/>No participants discontinued interviews after starting. <sentence_start/>Twenty of the participants in our sample received MOUD through VACHS, while one received MOUD through a community setting and only used VACHS for other healthcare services. <sentence_start/>Demographic data can be found in Table 1. <sentence_start/>Interview times ranged from 26 to 80 min (<italic>M</italic> = 44, <italic>SD</italic> = 13)."
+  },
+  {
+   "section": "article",
+   "text": "Conceptual framework"
+  },
+  {
+   "section": "article",
+   "text": "Qualitative interviews were grounded in the COM-B model of behavior (<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-6-42\" pmid=\"21513547\" pmcid=\"PMC3096582\" count=\"1\">66</citation>). <sentence_start/>The COM-B model describes behavior as derived from an individual's Capability (psychological and physical capacity for behavior), Opportunity (physical or social factors outside the individual which make a given behavior possible), and Motivation (including habitual or automatic processes energizing behavior, as well as reflective or analytical decision-making). <sentence_start/>\u201cMOUD engagement\u201d was broadly the \u201cbehavior\u201d considered here, conceptualized as the collection of actions required to comply with and immerse oneself within treatment regimens (e.g., appointment attendance, medication compliance, participation in recommended adjunctive intervention)."
+  },
+  {
+   "section": "article",
+   "text": "Data collection"
+  },
+  {
+   "section": "article",
+   "text": "We used Rapid Analytic Procedures (RAP) (<citation rid=\"B72\" ref-type=\"bibr\" count=\"1\">72</citation>, <citation rid=\"B73\" ref-type=\"bibr\" doi=\"10.1016/j.psychres.2019.112516\" pmid=\"31437661\" pmcid=\"PMC7023962\" count=\"1\">73</citation>) and saliency analysis (<citation rid=\"B74\" ref-type=\"bibr\" doi=\"10.1258/jhsrp.2009.009081\" pmid=\"19762883\" count=\"1\">74</citation>), through semi-structured individual interviews as part of a team-based approach. <sentence_start/>Interviews were conducted by NRW and CWM (postdoctoral clinical psychology fellows at the time of data collection), who alternated roles between interviewer and note-taker. <sentence_start/>Data collection and analysis were supervised by GAP, a VACHS research psychologist and qualitative methods expert. <sentence_start/>Interviews were audio-recorded using Microsoft Teams and transcribed verbatim by the VA Centralized Transcription Services Program."
+  },
+  {
+   "section": "article",
+   "text": "Prior to data collection, and in accordance with the needs of the parent study and time permitted for each interview, a brief semi-structured interview guide was developed and reviewed by the research team to ensure questions examined critical content areas. <sentence_start/>This guide used open-ended questions to obtain a broad examination of veterans\u2019 general attitudes and design perspectives towards MHIs in MOUD. <sentence_start/>NRW and CWM convened following initial interviews (3rd interview) (<italic>n</italic> = 3) to discuss the interview guide's effectiveness, which ultimately resulted in minimal changes (i.e., re-ordering questions) and the revised version was then used in subsequent interviews (Supplementary File S1). <sentence_start/>Additional study team meetings did not indicate a need for further interview guide changes."
+  },
+  {
+   "section": "article",
+   "text": "Interviews began with introductions, discussion of interviewer/note-taker qualifications and professional roles, and consenting. <sentence_start/>Time was allocated for participants to ask questions prior to starting interviews. <sentence_start/>Once interviews were completed, recording equipment was turned off and participants completed a brief self-report demographics questionnaire. <sentence_start/>Debriefing between interview and notetaker (NRW and CWM) typically occurred immediately following interview completion (but always within 48 h)."
+  },
+  {
+   "section": "article",
+   "text": "Data analysis"
+  },
+  {
+   "section": "article",
+   "text": "First, NRW and CWM reviewed a sample of interview field notes to identify initial codes. <sentence_start/>NRW, CWM, and GAP assessed this initial code-set, refining definitions and organizing them within interview domains to create an interview summary template. <sentence_start/>NRW and CWM then independently applied this template to the remaining field notes. <sentence_start/>NRW, CWM, and GAP then re-convened to review resultant codes, including assessing for recurrence and importance (<citation rid=\"B74\" ref-type=\"bibr\" doi=\"10.1258/jhsrp.2009.009081\" pmid=\"19762883\" count=\"1\">74</citation>). <sentence_start/>Few changes occurred during review and data was then summarized into the themes presented below. <sentence_start/>Audio transcriptions were referenced while summarizing to verify quote accuracy and concordance with data. <sentence_start/>Reporting of this research corresponds with the COREQ checklist (<citation rid=\"B75\" ref-type=\"bibr\" doi=\"10.1093/intqhc/mzm042\" pmid=\"17872937\" count=\"1\">75</citation>) (see Supplementary File S2)."
+  },
+  {
+   "section": "article",
+   "text": "Data credibility"
+  },
+  {
+   "section": "article",
+   "text": "We employed several design and procedural approaches to enhance data trustworthiness. <sentence_start/>To help ensure coding reliability, appropriate determination of data saturation, and attendance to researcher reflexivity, we engaged in the following: (a) the research team collaboratively developed semi-structured interview guides and collectively reviewed them to ensure that questions addressed key content areas prior to interviews; (b) following interviews, two interviewers (NRW and CWM) conducted calibration sessions to evaluate how the interview guide was functioning and discuss any necessary refinements; (c) we alternated the two interviewers in the \u201cinterviewer\u201d vs. \u201cnote-taker\u201d roles to allow for multiple perspectives and interpretations of data; (d) we included a post-interview debriefing (typically immediately following but always within 48 h of interviews) to provide opportunities for reflection on initial observations and attention to the frequency and importance of data from interviews; (e) we held regular (approximately monthly) research team meetings throughout study preparation, data collection, and data analysis, in which transcript summaries, code recurrence, and code importance were discussed; (f) reviewed audio recordings and transcripts during data analysis to verify pull quote accuracy, alignment with codes, and to ensure interviewer interpretations reflected quote contexts; and (f) we presented preliminary findings (mid-way through and at the conclusion of data collection) at national conferences and VA provider forums where we solicited expert input on study methodology, finding plausibility, and implications."
+  },
+  {
+   "section": "article",
+   "text": "Data triangulation was achieved through applying a broad and flexible recruitment approach supporting engagement from veterans on MOUD throughout the VACHS hospital system, on both major types of MOUD, and across stages of their recovery. <sentence_start/>Specifically, this involved (a) recruiting across a variety of MOUD clinics representing different levels of clinical severity, need, and contact (e.g., outpatient buprenorphine clinics, Opioid Treatment Programs, Intensive Outpatient Programs, residential treatment facilities, pain clinics); (b) recruiting across multiple VACHS hospital campuses and clinics, as well as in non-addiction settings (e.g., pain clinics) and common areas (e.g., cafeteria); (c) including participants regardless of MOUD type/formulation (e.g., methadone and buprenorphine, immediate and extended-release), and regardless of their duration in MOUD, and (d) allowing participants to complete the interview through a variety of modalities (i.e., in-person, telephone, or via virtual teleconference)."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Themes"
+  },
+  {
+   "section": "article",
+   "text": "We identified three overarching themes related to veteran attitudes towards MHIs supporting MOUD care. <sentence_start/>Additionally, saliency analysis suggested one veteran's opposition to MHI's was important for fully conceptualizing the spectrum of attitudes in the general veteran population. <sentence_start/>We also identified several themes on veteran perspectives towards MHI design (i.e., <italic>how</italic> MHIs supporting MOUD should function and <italic>what</italic> they should aim to do), which are mapped to the COM-B model of behavior. <sentence_start/>Participants are distinguished by unique ID numbers (listed following pull quotes), along with the MOUD type a given participant was taking at the time of the interview. <sentence_start/>Themes are bolded, subthemes are <italic>bolded and italicized,</italic> and <italic>non-thematic codes are bolded, italicized, and underlined.</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Attitudes towards MHIs supporting MOUD"
+  },
+  {
+   "section": "article",
+   "text": "Many veterans simultaneously expressed positively- and negatively-valanced attitudes towards MHIs in MOUD (e.g., a veteran noting they like the idea of a more flexible treatment medium while also citing concerns about privacy and information security). <sentence_start/>To acknowledge this fact while preserving unique data elements, we identified distinct attitude statements during interviews (<italic>N</italic> = 48), which were then examined with respect to content and valance. <sentence_start/>The spectrum of veterans\u2019 attitudes is illustrated in Figure 1 below and subsequently discussed, beginning with the most negatively valanced and moving to the most positively valanced."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Spectrum of themes and non-thematic codes expressed across total unique attitude statements (<italic>N</italic> = 48) and veterans (<italic>N</italic> = 21) towards Mobile health interventions (MHIs) to support medication treatment for opioid Use disorder (MOUD). <sentence_start/>As many veterans simultaneously expressed positively- and negatively-valanced attitudes towards MHIs in MOUD (e.g., a veteran noting they like the idea of a more flexible treatment medium while also citing concerns about privacy and information security), some Veterans were classified for more than one Theme. <sentence_start/>To acknowledge this fact while preserving unique data elements, we present both unique Veterans (<italic>N</italic> = 21) on the righthand side of the figure and identified distinct attitude statements during interviews (<italic>N</italic> = 48), presented on the lefthand side."
+  },
+  {
+   "section": "article",
+   "text": "One veteran expressed homogenous, outright Opposition to MHIs in MOUD. <sentence_start/>Though infrequent, the homogenous and strong negatively-valenced attitudes expressed by this veteran indicated concerns about the potential value of MHIs and data security that were described to a lesser degree by other veterans in the sample (discussed below)."
+  },
+  {
+   "section": "article",
+   "text": "\u201cWhat can a smartphone do for me? I\u2019m in addiction. <sentence_start/>And to put my business on a phone so whoever hacks it can see what's goin\u2019 on in my life\u2026 why would I wanna do that?\u201d -Veteran 19, methadone"
+  },
+  {
+   "section": "article",
+   "text": "More commonly, however, negative attitudes towards MHIs in MOUD appeared to reflect hesitancy more so than direct opposition. <sentence_start/>The valence of these perspectives ranged from mostly negative to neutral and were characterized by worry or concern, though some degree of willingness or interest (frequently contingent upon certain use conditions) was often simultaneously present. <sentence_start/>Concerns about MHI <italic>Inaccessibility &amp; Pragmatics</italic> were often cited, in which participants noted certain care elements could not be done via digital mediums (e.g., providing toxicology screens) and felt other potential benefits could be negated if the needed technology was not inherently provided."
+  },
+  {
+   "section": "article",
+   "text": "\u201c\u2026 if they [VHA] made tablets and phones readily available\u2026 that would help a lot.\u201d -Veteran 7, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "\u201cWhat if someone doesn\u2019t have a phone? And [can\u2019t pay] no bill. <sentence_start/>If you\u2019re going to use that and it depends on you paying a bill, people in recovery don\u2019t always have money.\u201d -Veteran 10, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "\u201cHow many addicts have phones?\u201d -Veteran 13, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Relatedly, several veterans described <italic>Technological Inefficacy</italic>, noting concerns that MHIs might only be accessible to technologically-savvy patients and could be frustrating to those less familiar or less adept. <sentence_start/>Nonetheless, participants indicating this theme often reported willingness to use MHIs provided technical support was also available."
+  },
+  {
+   "section": "article",
+   "text": "\u201cChange is never easy for me\u2026 if I was assured that someone was there to show me how to use it\u2026 otherwise, I would get frustrated\u2026 and feel like I\u2019m being left behind because I\u2019m older.\u201d -Veteran 10, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Additionally, many veterans expressed concerns about <italic>Information Security</italic>, emphasizing that clarity in understanding what data was collected and how it was protected as critical to their willingness to use MHIs."
+  },
+  {
+   "section": "article",
+   "text": "\u201cI\u2019d be for it, as long as it was anonymous.\u201d -Veteran 6, methadone"
+  },
+  {
+   "section": "article",
+   "text": "Finally, several participants reported skepticism that MHIs could overcome <italic>Intrinsic Motivational Barriers</italic> present when seeking addiction care. <sentence_start/>While many reported interest and willingness to use MHIs as part of their MOUD, participants here simultaneously described that other patients \u201chave to want it\u201d and felt in the absence of this motivation, MHIs were not likely to be used or if they were used, may not be efficacious."
+  },
+  {
+   "section": "article",
+   "text": "\u201cIf you don\u2019t have it in your mind [to commit to recovery]\u2026 no matter what technology you have it\u2019s not gonna work.\u201d -Veteran 4, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Most frequently, veterans reported Open Prudency, describing neutral to moderately positive attitudes towards MHIs in MOUD characterized by an openness or willingness to engage with such technology; while contingencies for MHI use might be indicated, such contingencies were not described as preclusions. <sentence_start/><italic>Open-Mindedness</italic> was a predominant subtheme, with participants regularly expressing desires to \u201ctry out\u201d and explore MHIs as a means of supplementing MOUD while simultaneously acknowledging pros and cons."
+  },
+  {
+   "section": "article",
+   "text": "\u201cI think [MHIs in MOUD] would be a good step\u2026 I would see what\u2019s going on with it.\u201d -Veteran 18, methadone"
+  },
+  {
+   "section": "article",
+   "text": "Many saw MHIs as a means for increasing care <italic>Flexibility &amp; Individualization</italic>, noting they could increase care choice and reduce certain access barriers (e.g., participating in a virtual therapy group, receiving treatment documents electronically, digital messaging with providers). <sentence_start/>Other considerations raised included <italic>Preferences for In-Person Care</italic>, in which interest in learning about or trying MHIs was viewed as far more acceptable if access to in-person modalities for care was preserved. <sentence_start/>Explanations for this preference included perspectives that in-person connection facilitated better outcomes and feelings of connection to current care providers."
+  },
+  {
+   "section": "article",
+   "text": "\u201cI\u2019m on board for it [using MHIs in MOUD] because that\u2019s the way our world is going. <sentence_start/>I always think in-person immediate connection is going to be the best tool\u2026 but for those limited or unable to get where they need to\u2026 I think [apps] are beneficial to bridging gaps.\u201d -Veteran 14, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "A small but notable proportion of veterans reported Enthusiasm for MHIs in MOUD, expressing clearly positive attitudes. <sentence_start/>Such participants stressed the potential for MHIs to <italic>Enhance Care Engagement</italic> through limiting requirements for in-person visits and reducing constraints around appointment scheduling. <sentence_start/>Most participants expressing enthusiasm for MHIs referenced their own <italic>Technological Fluency</italic> as an important factor. <sentence_start/>These veterans described how their existing familiarity and competency with digital technologies, and the general perceived technical fluency of others, would result in easy incorporation of MHIs within their care."
+  },
+  {
+   "section": "article",
+   "text": "\u201cI think it\u2019s [using MHIs in MOUD] fantastic. <sentence_start/>I think it\u2019s absolutely 100% right on the money.\u201d -Veteran 8, methadone"
+  },
+  {
+   "section": "article",
+   "text": "\u201c\u2026 I think it\u2019s [MHIs] a good thing. <sentence_start/>I think technology has come a long way and I think counselors are able to be more supportive. <sentence_start/>More in each person\u2019s treatment.\u201d -Veteran 24, methadone"
+  },
+  {
+   "section": "article",
+   "text": "\u201cI think everybody\u2019s tech savvy enough to get a phone and log into a meeting [within an MHI]\u2026 for the most part, society can do that.\u201d -Veteran 7, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Perspectives on MHI design and function"
+  },
+  {
+   "section": "article",
+   "text": "Questions regarding design of MHIs in MOUD focused on what veterans thought this technology should do and how they thought it should serve these functions within their care. <sentence_start/>After identification, themes were then mapped to the domains/subdomains of COM-B model of behavior (<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-6-42\" pmid=\"21513547\" pmcid=\"PMC3096582\" count=\"1\">66</citation>). <sentence_start/>Figure 2 below illustrates the mapping of themes to the COM-B model and is followed by description of these themes."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Mapping of MHI design themes to michie et al.\u2019s (<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-6-42\" pmid=\"21513547\" pmcid=\"PMC3096582\" count=\"1\">66</citation>) \u201ccapability, opportunity, motivation model of behavior\u201d (COM-B). <sentence_start/>PsyC, psychological capability; PhyC, physical capability; RM, reflective motivation; AM, automatic motivation; SO, social opportunity; PO, physical opportunity."
+  },
+  {
+   "section": "article",
+   "text": "Capability"
+  },
+  {
+   "section": "article",
+   "text": "We first considered themes indicating aspects of MHIs which would facilitate physical capability (e.g., taking MOUD medication as scheduled, practicing addiction-related coping skills) and psychological capability (e.g., understanding of MOUD regimens, knowledge of addiction's etiology and sequalae) to support MOUD engagement. <sentence_start/>These included using MHIs to provide Adjunctive Psychosocial Interventions (or their components) and Psychoeducation in support of improving one's own ability to manage aspects of OUD and comorbid conditions. <sentence_start/>Examples from veterans included access to digital copies of \u201cThe Big Book\u201d from 12-step approaches as well as information on addiction etiology and symptoms and the broad structure/process of MOUD care:"
+  },
+  {
+   "section": "article",
+   "text": "\u201cTechnology is great, isn\u2019t it?. I can show you some of the [apps] I use\u2026 this is the Big Book\u2026 if I need it, I\u2019ve got my motivational speakers on here\u2026 any time I want to share something, I can go here and search for it and share it.\u201d -Veteran 12, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "\u201cEspecially\u2026 if they don\u2019t know if they have a problem or not\u2026 that [an MHI] could lead \u2018em to [ask] \u2018Is this happening?\u2019, \u2018What do you look for?\u2019, the warning signs, the helpful signs, and different things like that.\u201d-Veteran 3, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Motivation"
+  },
+  {
+   "section": "article",
+   "text": "When mapping themes to the COM-B motivation domain, we considered aspects of MHIs which would energize treatment-related behaviors, whether through intentional, analytic, or conscious processes (i.e., reflective motivation) or habitual and emotional responding (i.e., automatic motivation). <sentence_start/>These included using MHIs as Engagement Catalysts by targeting their use during periods such as early care or during psychosocial stressors (e.g., MOUD induction, transitions between medications, following the loss of a loved one or job); in doing so, participants indicated this would couple an intervention with a relatively lower-threshold for use when need for support might be higher. <sentence_start/>Further, participants stressed the importance of integrating Positive Reinforcement within MHIs to encourage treatment-related behavior (e.g., inserting motivational quotes, gamifying elements of the MHI to give rewards for treatment engagement or progress) and providing a means for Self-Monitoring impairing symptoms or successes within care (e.g., in-app trackers for craving symptoms or continuous days of sobriety from illicit substances)."
+  },
+  {
+   "section": "article",
+   "text": "[<sentence_start/>When asked what an MHI in MOUD might best be able to help with:]"
+  },
+  {
+   "section": "article",
+   "text": "\u201cLet\u2019s say when they\u2019re early in recovery and still getting urges. <sentence_start/>A stressful situation where they can reach out and right away get into the app and get some pearls of wisdom.\u201d -Veteran 23, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "\u201cI\u2019d make sure there was a reward system, not a punitive system.\u201d-Veteran 17, methadone"
+  },
+  {
+   "section": "article",
+   "text": "\u201c\u2026 they could set it up where you could keep track of your clean dates.\u201d -Veteran 24, methadone"
+  },
+  {
+   "section": "article",
+   "text": "Opportunity"
+  },
+  {
+   "section": "article",
+   "text": "Finally, we examined how participants saw MHIs being used to influence social and cultural factors relevant to treatment (i.e., social opportunities) and environmental restraints/resources (i.e., physical opportunities). <sentence_start/>Many participants indicated interest in Resource Centralization as an invaluable function of MHIs within MOUD. <sentence_start/>Here, veterans described how the wider-ranging consequences of addiction, including housing and food insecurity, employment instability, or ongoing legal cases, could substantially interfere with treatment and recovery. <sentence_start/>They also shared how finding support for such problems often extended beyond what was available within MOUD clinics. <sentence_start/>Thus, participants indicated MHIs that could collate information for local resources in these areas could be especially helpful."
+  },
+  {
+   "section": "article",
+   "text": "\u201c\u2026 when you start in recovery, there\u2019s a lot of things you need. <sentence_start/>You need financial help. <sentence_start/>You need to have a job\u2026 You gotta be able to do it yourself and\u2026 you can use the smartphone for that.\u201d -Veteran 3, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "\u201c\u2026 you need\u2026 practical things that people need help with\u2026 do you need food? Okay, this is where you go at this day and this time, walk in there, show them this [MHI]\u2026 just make it very simple for \u2018em cause in the beginning I think people need that very much.\u201d -Veteran 8, methadone"
+  },
+  {
+   "section": "article",
+   "text": "\u201cAnd a resource tab [in an MHI]\u2026 So you clicked on family resource, and then in there, it would give you\u2026 providers and family support specialists. <sentence_start/>Upcoming events in your area.\u201d -Veteran 14, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Participants also expressed interest in MHIs that facilitated Patient-Provider Communication (e.g., instant-messaging platforms) to alleviate confusion and challenges in identifying and initiating contact with providers, as well as directly communicating with providers outside of scheduled appointments."
+  },
+  {
+   "section": "article",
+   "text": "\u201cWhen I get on that [MHI], I wanna hear, \u2018you can come here tomorrow and I\u2019ll help you\u2019\u2026 or \u2018You want help? Here\u2019s the phone number\u2019\u2026 The goal is to get the person connected to someone that cares about them as quickly as possible.\u201d -Veteran 24, methadone"
+  },
+  {
+   "section": "article",
+   "text": "Crisis Response tools were also routinely described as a desirable function of MHIs for MOUD. <sentence_start/>Participant responses suggested such tools would be somewhat distinct from emergency services such as 9-1-1 or suicide hotlines where emergency medical services for life-threatening situations might be sought, and instead typically described as providing an option for rapid contact with individuals familiar with addiction offering validating treatment support."
+  },
+  {
+   "section": "article",
+   "text": "\u201c\u2026 if you could use your smartphone\u2026 [to] call your go-to person if you\u2019re feelin\u2019 a relapse is on\u2026 [or] you don\u2019t always have to talk to someone, but even just a message to a computer to say \u2018I\u2019m still hangin\u2019 in here\u2019.\u201d-Veteran 21, methadone"
+  },
+  {
+   "section": "article",
+   "text": "\u201cPeople who don't have like families or support system like I had, it may have been nice to be able to have that phone to just hit a button and call somebody who cares. <sentence_start/>You know? I didn't have that.\u201d-Veteran 24, methadone"
+  },
+  {
+   "section": "article",
+   "text": "Lastly, participants often stressed the importance of using MHIs to provide opportunities for Socialization with others receiving MOUD. <sentence_start/>This could include text-based communication through app-based message boards, forums, or other chat-based tools. <sentence_start/>Veterans here underscored the value of \u201clived experience\u201d in addiction and how connection with such peers increased the perceived legitimacy of the app and their sustained interest in treatment."
+  },
+  {
+   "section": "article",
+   "text": "[<sentence_start/>When asked what they would prefer to have available in the app:]"
+  },
+  {
+   "section": "article",
+   "text": "\u201cIt helps to have people who have been through it before, it really does. <sentence_start/>The honesty that you get from them is unbelievable\u2026 [they] trashed their own life once, maybe they'll help me stop trashing my life.\u201d -Veteran 2, buprenorphine"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This qualitative and hypothesis-generating study examined the attitudes and design perspectives on MHIs in MOUD among veterans receiving MOUD this treatment. <sentence_start/>These data serve as an important initial step in exploring optimal approaches for MHI design and later implementation. <sentence_start/>Results suggest that veterans receiving MOUD were broadly interested in the potential inclusion of MHIs within their care, while underscoring the necessity of attending to intended users\u2019 concerns throughout development. <sentence_start/>Findings also indicated that optimally designed MHIs for veterans with OUD would integrate support for psychosocial functioning and engagement in existing care structures, alongside MHI-specific features for symptom management."
+  },
+  {
+   "section": "article",
+   "text": "Veteran attitudes towards MHIs in MOUD generally reflected openness and curiosity, with such tools being seen as an opportunity to increase the flexibility and individualization of their existing care. <sentence_start/>Notably, while digital tools to provide intervention or intervention-related content were described (e.g., MHI-delivered psychosocial modules for coping with cravings, psychoeducational pdfs on MOUD medications), most veterans described MHIs as tools to integrate within and support existing care structures (e.g., rapid connection during crises to local providers familiar with addiction; collation of local resources for housing, occupational, or legal supports; easier instant-messaging with their current treatment team). <sentence_start/>Previous studies have similarly found most veterans appear open to the use of MHIs and digital technologies within their care (<citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.7205/MILMED-D-14-00014\" pmid=\"25373044\" count=\"1\">48</citation>, <citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.2196/38684\" pmid=\"35797102\" pmcid=\"PMC9305402\" count=\"1\">54</citation>); however, most MHIs developed for individuals with substance use disorders to-date have prioritized symptom reduction and management over psychosocial functioning and adjunctive resource connection [e.g., RESET-O (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">58</citation>) utilizes CBT-SUD and contingency management, A-CHESS (<citation rid=\"B59\" ref-type=\"bibr\" count=\"1\">59</citation>) provides a suite of coping related tools such as audio-guided relaxation and GPS alerts when near \u201chigh risk\u201d areas for substance use]. <sentence_start/>While features connecting patients to treatment communities (e.g., digital forums) have occasionally been included in MHIs for addiction populations (<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1186/s13722-022-00296-4\" pmid=\"35255965\" pmcid=\"PMC8899792\" count=\"1\">76</citation>), simultaneous availability of functional- and resource-support tools is uncommon, and it is even rarer that an MHI with such features is well-integrated within existing care systems."
+  },
+  {
+   "section": "article",
+   "text": "Our findings also highlight several important potential user concerns which could significantly inhibit MHI adoption, use, and/or effectiveness if ignored. <sentence_start/>For example, concerns about privacy, data security, and technical support were prevalent, despite our sample representing participants receiving care within an integrated healthcare system that has dedicated technical support offices [e.g., the VA's Office of Connected Care (<citation rid=\"B77\" ref-type=\"bibr\" count=\"1\">77</citation>)] and which prioritizes dissemination of digital privacy practices (e.g., (<citation rid=\"B78\" ref-type=\"bibr\" count=\"1\">78</citation>)). <sentence_start/>Such concerns may reflect broader population experiences with digital technology and mobile applications in particular; most commonly-used apps do not have privacy policies and those that do tend to present lengthy articles written at high grade levels that do not reference the apps to which they are attached (<citation rid=\"B79\" ref-type=\"bibr\" doi=\"10.1136/amiajnl-2013-002605\" pmid=\"25147247\" pmcid=\"PMC11888337\" count=\"1\">79</citation>) [though notably, research centers within VHA are striving to counter such problems (<citation rid=\"B80\" ref-type=\"bibr\" doi=\"10.1037/tra0001838\" pmid=\"40193479\" count=\"1\">80</citation>)]. <sentence_start/>Thus, while there appears to be a willingness and interest in using MHIs, development should be grounded in clear, simple explanations of the app's purpose, function, and use structure. <sentence_start/>Similarly, adoption and uptake would likely be improved if such information was presented in advance to intended users, especially by providers, and if ongoing technical support were available (<citation rid=\"B81\" ref-type=\"bibr\" doi=\"10.2196/11334\" pmid=\"30681968\" pmcid=\"PMC6367667\" count=\"1\">81</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Additionally, veterans in our sample frequently referenced the importance of user-friendly and aesthetically pleasing presentations that incorporated positive reinforcement throughout and were targeted during periods where desire for care may naturally be greatest (e.g., early in MOUD initiation, during psychosocial stressors). <sentence_start/>The former strategy is widespread throughout contemporary mobile app design and includes simple strategies like \u201cstreak\u201d notifications or motivational messages (<citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.2196/13717\" pmid=\"31244479\" pmcid=\"PMC6617915\" count=\"1\">82</citation>), as well as more advanced and resource-intensive approaches such as the delivery of retail gift cards based on app progression (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">58</citation>). <sentence_start/>Despite its ubiquity, the application of reinforcement within MHIs is inconsistent and findings from several studies indicate it may not improve treatment outcomes (<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1046/j.1360-0443.2003.00354.x\" pmid=\"12751985\" count=\"1\">33</citation>, <citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.2196/13717\" pmid=\"31244479\" pmcid=\"PMC6617915\" count=\"1\">82</citation>-<citation rid=\"B84\" ref-type=\"bibr\" doi=\"10.2196/32199\" pmid=\"34847058\" pmcid=\"PMC8669581\" count=\"1\">84</citation>). <sentence_start/>Given the potential complexity of reinforcement structures (e.g., token-economy based reward systems, which often require developer-determined values that are progressively unlocked through engagement with features across different app sections), unscrupulous attention to this area risks over-complicating MHI design, substantially escalating development costs, and reducing feasibility. <sentence_start/>More experimental and prospective research is needed to delineate how to best implement app-based reinforcement within MHIs."
+  },
+  {
+   "section": "article",
+   "text": "Collectively, developing an MHI that includes features for symptom management and functional support, which also facilitates engagement in existing MOUD care, is a challenging task. <sentence_start/>Environments which may be best suited for this intervention modality ideally would have mechanisms to fund high early development costs, structures for app hosting, dissemination, and for receiving user feedback, and the availability of integrated interdisciplinary care. <sentence_start/>To provide an illustrative example, consider the VHA, which is a large integrated healthcare system that has funded system-wide MHI development and distribution infrastructure [e.g., the VA's Office of Connected Care (<citation rid=\"B77\" ref-type=\"bibr\" count=\"1\">77</citation>) and its \u201cVA Mobile\u201d (<citation rid=\"B85\" ref-type=\"bibr\" count=\"1\">85</citation>) department, the Center for Mobile Applications Research Resources &amp; Services (<citation rid=\"B86\" ref-type=\"bibr\" count=\"1\">86</citation>)]. <sentence_start/>Within this setting, a VHA-based MHI for veterans in MOUD might include psychoeducational materials (e.g., on service connection for functional support) and symptom management tools (e.g., craving trackers) that can be used in conjunction with traditional MOUD care. <sentence_start/>Integration of this app with electronic health records and inter-departmental systems could reinforce treatment engagement (e.g., in the form of earning in-app coupons to VHA canteen stores where basic necessities and recreational goods might be purchased). <sentence_start/>Such integration would also allow for personalization of app features and reinforcement scaling based on personalized risk markers (e.g., homelessness, recent medical diagnoses, time since care initiation). <sentence_start/>Notably, however, this is an illustrative and idealized example. <sentence_start/>Future work examining how different healthcare system characteristics impact MHI dissemination, implementation, adoption, and effectiveness is needed."
+  },
+  {
+   "section": "article",
+   "text": "Comprehensively addressing <italic>all</italic> of these elements in a user-friendly fashion within a single MHI may not be necessary and in many contexts is likely infeasible. <sentence_start/>Instead, more focused apps might demonstrate clearer application/benefit to patients and providers, while allowing for less cumbersome development, dissemination, and implementation. <sentence_start/>Design of such apps should ideally reflect the most prominent needs of a given patient population. <sentence_start/>For example, participant responses here ultimately reflected elements of the COM-B model of behavior, underscoring desires for MHIs which facilitate their capability to engage within MOUD, reduce treatment barriers, and catalyze motivation for care. <sentence_start/>Thus, it may be more helpful and realistic to use goals such as these to frame future MHI design. <sentence_start/>Critically, as this work was conducted within a single VHA hospital, use of these goals should be integrated alongside considerations of local clinic and healthcare system environments and involve input from local patient populations (<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocy052\" pmid=\"29788380\" pmcid=\"PMC7646885\" count=\"1\">63</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "Our study had several limitations important to note. <sentence_start/>First, our sample represents a homogeneous group of predominantly White (Non-Hispanic/Latinx), cisgender male participants from VACHS MOUD clinics. <sentence_start/>Despite some concordance with studies examining mobile app attitudes in larger samples using substances (<citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.2196/38684\" pmid=\"35797102\" pmcid=\"PMC9305402\" count=\"1\">54</citation>) and among veterans (<citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.7205/MILMED-D-14-00014\" pmid=\"25373044\" count=\"1\">48</citation>), other investigations have found starker divides in attitudes which may reflect rural vs. urban differences (<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.2196/10748\" pmid=\"30135050\" pmcid=\"PMC6125614\" count=\"1\">57</citation>). <sentence_start/>Thus, results may not generalize to other populations and verification of the findings observed here with larger, more diverse samples (e.g., national attitude surveys) is an important goal for future research. <sentence_start/>Other researchers have also developed frameworks that future investigators could use to improve MHI access, adoption, and uptake (<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1093/jamia/ocy052\" pmid=\"29788380\" pmcid=\"PMC7646885\" count=\"1\">63</citation>). <sentence_start/>Second, recruitment materials for the study noted that it would involve asking questions about attitudes and perspectives towards MHIs; thus, individuals who were uninterested in MHIs could have self-selected out of participation, while conversely, those more interested may have been more likely to participate. <sentence_start/>Though we attempted to reduce the potential impact of such bias by incorporating less common, but nonetheless important, data via saliency analysis (<citation rid=\"B74\" ref-type=\"bibr\" doi=\"10.1258/jhsrp.2009.009081\" pmid=\"19762883\" count=\"1\">74</citation>), future studies might consider targeted sampling strategies and recruitment materials that enlist participation from individuals who are less interested in MHIs. <sentence_start/>Third, technological fluency was not formally assessed as part of our interviews and could have influenced study findings, as suggested by the \u201cEnthusiasm\u201d attitude theme. <sentence_start/>Limited digital literacy may reduce interest and/or increase anxiety around using MHIs. <sentence_start/>As a result, higher rates of digital <italic>il</italic>literacy among intended user groups could have significant implications for if/how an MHI (or any digital health intervention) is implemented (e.g., the level of provider involvement needed, the degree/availability of technical support provided). <sentence_start/>While our sample better represents the attitudes clinics might encounter implementing MHIs in the \u201creal-world\u201d, where treatment is not restricted based on technology ownership/fluency, systematic examination of how these variables impact MHI attitudes and use remains a critical target for future research. <sentence_start/>Fourth, this study did not include MOUD providers or hospital administration. <sentence_start/>The absence of such data potentially limits data triangulation and assessment of these groups would be essential to ensure MHI development adheres to healthcare system constraints and aligns with the treatment approaches/environments in which it would be deployed. <sentence_start/>Fifth, while the rapid qualitative methods allowed efficient completion within pragmatic constraints, this approach could reduce analytic depth. <sentence_start/>Follow-up work employing alternative qualitative approaches [e.g., inductive approaches (<citation rid=\"B87\" ref-type=\"bibr\" doi=\"10.1177/1098214005283748\" count=\"1\">87</citation>)] would be valuable in ensuring the full context of digital intervention use within MOUD treatment is captured. <sentence_start/>Finally, this research did not examine an actual MHI; while our data provide critical grounding, future MHI development should include completion of acceptability, feasibility, and efficacy testing."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Results from this qualitative and hypothesis-generating investigation of U.S. military veterans provide important preliminary data to guide future development of MHIs for supporting MOUD engagement. <sentence_start/>Veterans receiving MOUD generally appeared open to and interested in using MHIs as part of their care regimens, and MHIs were broadly described as potential means to enhance treatment accessibility, convenience, and individualization. <sentence_start/>Nonetheless, such openness appeared significantly bolstered by, and sometimes contingent upon, MHIs whose purpose, function, and data security practices were clearly and simply explained, with interactive technical support, and when integrated as an adjunctive care option (vs. as a requirement or replacement for traditional care modalities). <sentence_start/>Desired MHI functionality was multi-faceted and included tools for promoting self-management capabilities within MOUD (e.g., psychoeducation, adjunctive intervention), enhancing opportunities for engagement (e.g., direct provider messaging, social forums for treatment peers), and as catalysts for treatment motivation (e.g., targeting implementation during periods of high urgency for treatment such as MOUD induction). <sentence_start/>While there is potential for the use of MHIs as a patient-centered and accessible MOUD care support, additional work is needed to further understand their clinical impact and what healthcare system characteristics best facilitate their development, distribution, and revision."
+  },
+  {
+   "section": "back",
+   "text": "Edited by: , All India Institute of Medical Sciences, India"
+  },
+  {
+   "section": "back",
+   "text": "Reviewed by: , University of Delaware, United States"
+  },
+  {
+   "section": "back",
+   "text": ", University of Massachusetts Chan Medical School, United States"
+  },
+  {
+   "section": "back",
+   "text": "Data availability statement"
+  },
+  {
+   "section": "back",
+   "text": "The datasets presented in this article are not readily available because this would risk violation of participant privacy and confidentiality. <sentence_start/>Requests to access the datasets should be directed to Noah.Wolkowicz@va.gov."
+  },
+  {
+   "section": "back",
+   "text": "Ethics statement"
+  },
+  {
+   "section": "back",
+   "text": "The studies involving humans were approved by VA Connecticut Healthcare Center Institutional Review Board. <sentence_start/>The studies were conducted in accordance with the local legislation and institutional requirements. <sentence_start/>The ethics committee/institutional review board waived the requirement of written informed consent for participation from the participants or the participants\u2019 legal guardians/next of kin because the research presented no more than minimal risk of harm to the subjects and involved no procedures for which written consent is normally required outside of the research context."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "NW: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Validation, Visualization, Writing - original draft, Writing - review &amp; editing. <sentence_start/>CM: Data curation, Formal analysis, Investigation, Project administration, Writing - review &amp; editing. <sentence_start/>ER: Conceptualization, Supervision, Visualization, Writing - review &amp; editing. <sentence_start/>EK: Supervision, Writing - review &amp; editing. <sentence_start/>MS: Supervision, Writing - review &amp; editing. <sentence_start/>RM: Conceptualization, Methodology, Project administration, Supervision, Writing - review &amp; editing. <sentence_start/>GP: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Supervision, Writing - review &amp; editing."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Generative AI statement"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that generative AI was not used in the creation of this manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. <sentence_start/>If you identify any issues, please contact us."
+  },
+  {
+   "section": "back",
+   "text": "Publisher's note"
+  },
+  {
+   "section": "back",
+   "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. <sentence_start/>Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+  },
+  {
+   "section": "back",
+   "text": "Author disclaimer"
+  },
+  {
+   "section": "back",
+   "text": "The content is solely the responsibility of the authors and does not necessarily represent the official views of the Department of Veterans Affairs."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "The Supplementary Material for this article can be found online at:"
+  }
+ ]
+}

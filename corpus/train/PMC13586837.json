@@ -1,0 +1,267 @@
+{
+ "pmid": 42731269,
+ "pmcid": 13586837,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Relevance of improved reporting for non-pharmacological interventions in clinical trials: Bridging research to clinical practice"
+  },
+  {
+   "section": "abstract",
+   "text": "Highlights"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Incomplete intervention reporting makes effective treatments hard to reproduce in clinical practice."
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Registries, journals, and reviews should require the application of intervention description and fidelity-assessment tools."
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Systematic reviews and guidelines must appraise intervention reporting and contextual feasibility, not only risk of bias."
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Improving the traceability and fidelity of interventions may temporarily reduce publication volume but ultimately strengthen clinical applicability."
+  },
+  {
+   "section": "abstract",
+   "text": "What is known"
+  },
+  {
+   "section": "abstract",
+   "text": "Accurate description and fidelity of non-pharmacological interventions are critical to translating research findings into clinical practice. <sentence_start/>The lack of such detailed reporting undermines the essential and stable connection between research and clinical practice."
+  },
+  {
+   "section": "abstract",
+   "text": "What should be known"
+  },
+  {
+   "section": "abstract",
+   "text": "The aim of the current masterclass is to discuss how to improve the quality of reporting and reproducibility in non-pharmacological interventions."
+  },
+  {
+   "section": "abstract",
+   "text": "What should change"
+  },
+  {
+   "section": "abstract",
+   "text": "Enhance the quality requirements for describing non-pharmacological interventions in the prospective registration of clinical trials. <sentence_start/>Mandate the use of the Template for Intervention Description and Replication (TIDieR) and Consensus on Exercise Reporting Template (CERT) checklists, and of fidelity evaluation for all clinical trials involving non-pharmacological interventions. <sentence_start/>These requirements should extend from clinical trial registration through subsequent publications, including grant applications, protocols, abstracts, and preprints. <sentence_start/>Ensure that systematic reviews and clinical practice guidelines apply not only general methodological criteria but also intervention-specific criteria and context for non-pharmacological interventions, respectively, to guarantee reproducibility and achieve expected outcomes."
+  },
+  {
+   "section": "abstract",
+   "text": "What to expect"
+  },
+  {
+   "section": "abstract",
+   "text": "In the short term, improving the description and traceability of non-pharmacological interventions may encounter resistance to change. <sentence_start/>However, greater rigor should not be avoided, even if it results in a temporary reduction in the volume of available scientific evidence. <sentence_start/>Ultimately, prioritizing quality over quantity in healthcare research may lead to more meaningful and impactful advancements in clinical practice."
+  },
+  {
+   "section": "article",
+   "text": "Clinicians cannot implement what trials do not describe"
+  },
+  {
+   "section": "article",
+   "text": "The model of evidence-based practice, formulated over three decades ago,<citation rid=\"bib0001\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2021.11.015\" pmid=\"34780980\" count=\"1\"><sup>1</sup></citation> highlights the need to integrate high-quality research, clinical expertise, and patient values in order to achieve meaningful patient care outcomes.<citation rid=\"bib0002\" ref-type=\"bibr\" doi=\"10.1136/bmj.312.7023.71\" pmid=\"8555924\" pmcid=\"PMC2349778\" count=\"1\"><sup>2</sup></citation> <sentence_start/>Within this paradigm, research and clinical practice are expected to interact continuously: research generates knowledge intended to improve health outcomes, while clinicians apply that knowledge in individualized real-world contexts.<citation rid=\"bib0002\" ref-type=\"bibr\" doi=\"10.1136/bmj.312.7023.71\" pmid=\"8555924\" pmcid=\"PMC2349778\" count=\"1\"><sup>2</sup></citation> <sentence_start/>Although research and clinical practice share the common goal of improving patient health, research aims to establish internal validity and control sources of bias, whereas clinical practice must navigate variability in patient characteristics, practitioner expertise, available resources, and organizational demands. <sentence_start/>Consequently, the two domains progress in parallel rather than fully overlapping (Fig. 1), which does not imply disconnection.<citation rid=\"bib0003\" ref-type=\"bibr\" doi=\"10.1001/jama.2024.4088\" pmid=\"38829654\" pmcid=\"PMC12045079\" count=\"1\"><sup>3</sup></citation><sup>,</sup><citation rid=\"bib0004\" ref-type=\"bibr\" doi=\"10.1007/978-1-4899-7600-0_11\" count=\"1\"><sup>4</sup></citation>Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Bridging Research domain and Clinical Practice. <sentence_start/>The left line represents the Research domain; the dashed line represents Evidence-based practice (EBP); the right line represents Clinical practice. <sentence_start/>Only a limited subset of bridges is illustrated."
+  },
+  {
+   "section": "article",
+   "text": "A central element that supports this coordination is methodological research rigor. <sentence_start/>When methodological issues arise, such as incomplete descriptions of non-pharmacological interventions, insufficient information about implementation processes, or a lack of clarity regarding fidelity, clinicians cannot reproduce the interventions in clinical practice.<citation rid=\"bib0005\" ref-type=\"bibr\" doi=\"10.1186/1745-6215-13-95\" pmid=\"22742939\" pmcid=\"PMC3475073\" count=\"1\"><sup>5</sup></citation> <sentence_start/>In the context of non-pharmacological interventions, which are often complex, individualized, and context dependent, insufficient detail about the <italic>what, how, why</italic>, and <italic>who</italic> of an intervention introduces avoidable barriers to implementation. <sentence_start/>Consequently, the relationship between research and practice depends not only on the strength of evidence but also on the traceability and clarity of the intervention itself. <sentence_start/>Therefore, the aim of the current masterclass is to discuss how to improve the quality of reporting and reproducibility in non-pharmacological interventions."
+  },
+  {
+   "section": "article",
+   "text": "Interventions are the core of clinical trials"
+  },
+  {
+   "section": "article",
+   "text": "More than 15 years ago, it was documented that complex interventions were often poorly described in clinical trials.<citation rid=\"bib0006\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-4-40\" pmid=\"19607700\" pmcid=\"PMC2717906\" count=\"1\"><sup>6</sup></citation> <sentence_start/>More recently, a similar lack of detail has been observed in the reporting of exercise interventions.<citation rid=\"bib0007\" ref-type=\"bibr\" doi=\"10.1136/bjsports-2021-104977\" pmid=\"35168956\" count=\"1\"><sup>7</sup></citation> <sentence_start/>To address these issues, several initiatives have been proposed."
+  },
+  {
+   "section": "article",
+   "text": "The first initiative concerned the integrity of the various components involved in the development and reporting of clinical trials, as outlined in the CONSORT statement. <sentence_start/>This statement, now over 30 years old, is a reporting guideline that specifies minimum items to include when reporting randomized trials.<citation rid=\"bib0008\" ref-type=\"bibr\" doi=\"10.1136/bmj-2024-081123\" pmcid=\"PMC11995449\" pmid=\"40228833\" count=\"1\"><sup>8</sup></citation> <sentence_start/>In 2017, CONSORT introduced a major adaptation for non-pharmacological interventions,<citation rid=\"bib0009\" ref-type=\"bibr\" doi=\"10.7326/M17-0046\" pmid=\"28630973\" count=\"1\"><sup>9</sup></citation> mainly in the <italic>Intervention</italic> section, described as <italic>Precise details of both the experimental treatment and comparator</italic>, which included four additional topic items (5a-d). <sentence_start/>Other aspects of the CONSORT extension related to the description and fidelity of interventions span nearly all sections of clinical trial reports (items: 3a, 4a, 7a, 11a, 11b, 13new, 15, 20, 21), apart from the <italic>Introduction</italic> section.<citation rid=\"bib0009\" ref-type=\"bibr\" doi=\"10.7326/M17-0046\" pmid=\"28630973\" count=\"1\"><sup>9</sup></citation> <sentence_start/>These items highlight the importance of intervention information in non-pharmacological trials. <sentence_start/>Nevertheless, this effort alone is not sufficient to ensure a thorough description or an accurate evaluation of the interventions."
+  },
+  {
+   "section": "article",
+   "text": "The second initiative aimed to identify what would be done for each clinical trial before it began. <sentence_start/>Beyond the mandatory requirement for a priori approval by a research ethics committee, this process involves public disclosure of the trial\u2019s topic, design, study population, and the interventions to be implemented, as well as any modifications to these elements throughout the trial\u2019s execution. <sentence_start/>Accordingly, the prospective registration of clinical trials has become a standard prerequisite for publication in scientific journals. <sentence_start/>Since 2005, the International Committee of Medical Journal Editors (ICMJE) has mandated that clinical trials be registered in a publicly accessible registry at or before the enrollment of the first participant, as a condition for manuscript consideration.<citation rid=\"bib0010\" ref-type=\"bibr\" count=\"1\"><sup>10</sup></citation> <sentence_start/>This policy has been reinforced by other global initiatives such as the WHO\u2019s International Clinical Trials Registry Platform,<citation rid=\"bib0011\" ref-type=\"bibr\" count=\"1\"><sup>11</sup></citation> that aggregate interventional and observational trial records and report counts by year, country and region.<citation rid=\"bib0012\" ref-type=\"bibr\" count=\"1\"><sup>12</sup></citation> <sentence_start/>Despite the benefits of prospective trial registration, a careful and detailed evaluation is needed regarding the extent to which registration requirements are fulfilled."
+  },
+  {
+   "section": "article",
+   "text": "The third initiative focused on enhancing the description of non-pharmacological interventions. <sentence_start/>To address this gap, the Template for Intervention Description and Replication (TIDieR)<citation rid=\"bib0013\" ref-type=\"bibr\" doi=\"10.1136/bmj.g1687\" pmid=\"24609605\" count=\"1\"><sup>13</sup></citation> and the Consensus on Exercise Reporting Template (CERT)<citation rid=\"bib0014\" ref-type=\"bibr\" doi=\"10.1136/bjsports-2016-096651\" pmid=\"27707738\" count=\"1\"><sup>14</sup></citation> guidelines, both in place for approximately a decade, promote comprehensive reporting. <sentence_start/>TIDieR provides a 12-item checklist that ensures interventions are described in detail, including components such as who delivered the intervention, where and how it was delivered, and measures of fidelity.<citation rid=\"bib0013\" ref-type=\"bibr\" doi=\"10.1136/bmj.g1687\" pmid=\"24609605\" count=\"1\"><sup>13</sup></citation> <sentence_start/>CERT builds upon these principles specifically for exercise-based interventions, emphasizing factors such as intensity, frequency, and individualization.<citation rid=\"bib0014\" ref-type=\"bibr\" doi=\"10.1136/bjsports-2016-096651\" pmid=\"27707738\" count=\"1\"><sup>14</sup></citation> <sentence_start/>Although the TIDieR and CERT guidelines are not mandatory for the publication of clinical trials, their development, along with related extensions,<citation rid=\"bib0015\" ref-type=\"bibr\" count=\"1\"><sup>15</sup></citation><sup>,</sup><citation rid=\"bib0016\" ref-type=\"bibr\" count=\"1\"><sup>16</sup></citation> reflects a growing concern regarding the need for detailed reporting of non-pharmacological interventions in clinical trials. <sentence_start/>This concern now extends to the description of control interventions, as outlined in the <italic>Cochrane Handbook</italic><citation rid=\"bib0017\" ref-type=\"bibr\" count=\"1\"><sup>17</sup></citation> and has led to the creation of the Recommendations for the Development, Implementation, and Reporting of Control Interventions in Efficacy Trials of Physical, Psychological, and Self-Management Therapies (CoPPS) statement.<citation rid=\"bib0018\" ref-type=\"bibr\" doi=\"10.1136/bmj-2022-072108\" pmid=\"37230508\" count=\"1\"><sup>18</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Finally, the fourth initiative focuses on improving the fidelity of interventions, defined as the processes used to determine whether an intervention and the broader study implementation were delivered as intended by their developers. <sentence_start/>Fidelity thus captures critical information that enables researchers and even clinical practitioners to understand whether the observed effects (or lack thereof) are attributable to the intervention itself or to deviations from the intended protocol. <sentence_start/>Ensuring fidelity is essential for both internal validity (drawing accurate conclusions about effectiveness) and external validity (facilitating replication and generalizability) in clinical trials.<citation rid=\"bib0019\" ref-type=\"bibr\" doi=\"10.1007/978-3-031-18085-9_8\" count=\"1\"><sup>19</sup></citation> <sentence_start/>Undoubtedly, the challenge of maintaining intervention fidelity is greater when the therapeutic approach is non-pharmacological, and even the TIDieR guideline includes two fidelity-related items under the <italic>How well</italic> section (items: 11.<italic>Planed</italic>, 12.<italic>Actual</italic>). <sentence_start/>However, these items alone are not sufficient, as intervention fidelity encompasses multiple domains and requires a more detailed analysis. <sentence_start/>In fact, over the past 20 years, concern has grown regarding the development of proposals for evaluating intervention fidelity,<citation rid=\"bib0020\" ref-type=\"bibr\" doi=\"10.1037/0278-6133.23.5.443\" pmid=\"15367063\" count=\"1\"><sup>20</sup></citation> emphasizing the need to apply and refine existing frameworks and models, and to improve how fidelity is addressed.<citation rid=\"bib0021\" ref-type=\"bibr\" doi=\"10.1080/17437199.2025.2534001\" pmid=\"40744005\" count=\"1\"><sup>21</sup></citation> <sentence_start/>Despite these efforts, existing documents offering recommendations on intervention fidelity reflect the evolving nature of the field,<citation rid=\"bib0022\" ref-type=\"bibr\" doi=\"10.1186/s13063-021-05322-5\" pmid=\"34051830\" pmcid=\"PMC8164256\" count=\"1\"><sup>22</sup></citation> and no universally accepted standard exists for reporting intervention fidelity.<citation rid=\"bib0023\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2025.111868\" pmid=\"40517847\" count=\"1\"><sup>23</sup></citation> <sentence_start/>Moreover, the application of these proposals is not currently part of the criteria for determining whether a clinical trial is eligible for inclusion in secondary documents, such as systematic reviews (SRs) and clinical practice guidelines (CPGs)."
+  },
+  {
+   "section": "article",
+   "text": "The lack of a more careful approach to interventions is more than a problem"
+  },
+  {
+   "section": "article",
+   "text": "It has been reported that outcomes observed in clinical trials are not consistently reproduced with the same effectiveness in real-world clinical practice,<citation rid=\"bib0024\" ref-type=\"bibr\" doi=\"10.1007/s40801-019-0159-z\" pmid=\"31359347\" pmcid=\"PMC6702507\" count=\"1\"><sup>24</sup></citation> including trials of non-pharmacological therapies.<citation rid=\"bib0025\" ref-type=\"bibr\" doi=\"10.1007/978-3-030-60971-9\" count=\"1\"><sup>25</sup></citation> <sentence_start/>In pharmacological interventions, the <italic>what, why, how, when, where</italic>, and <italic>who</italic> are typically standardized and detailed in the product leaflet. <sentence_start/>However, non-pharmacological interventions involve greater variability and require a comprehensive description to ensure reproducibility and effectiveness, which remains limited.<citation rid=\"bib0026\" ref-type=\"bibr\" doi=\"10.1007/s00586-023-07857-4\" pmid=\"37464184\" count=\"1\"><sup>26</sup></citation><sup>,</sup><citation rid=\"bib0027\" ref-type=\"bibr\" doi=\"10.1136/bmjsem-2024-002032\" pmcid=\"PMC11481113\" pmid=\"39415879\" count=\"1\"><sup>27</sup></citation> <sentence_start/>Delving into the reasons for the lack of traceability between research and clinical practice often reveals a mismatch between the profiles of clinical trial participants and those of real-world patients.<citation rid=\"bib0028\" ref-type=\"bibr\" doi=\"10.1007/s12325-018-0805-y\" pmid=\"30357570\" pmcid=\"PMC6223979\" count=\"1\"><sup>28</sup></citation><sup>,</sup><citation rid=\"bib0029\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2025.5044\" pmid=\"40232726\" count=\"1\"><sup>29</sup></citation> <sentence_start/>Moreover, other contributing factors are also plausible, including poor leadership engagement, lack of relative priority,<citation rid=\"bib0030\" ref-type=\"bibr\" doi=\"10.1007/s43477-022-00051-6\" pmid=\"35974880\" pmcid=\"PMC9373890\" count=\"1\"><sup>30</sup></citation> insufficient infrastructure, resistance to change, and contextual differences between research and practice settings.<citation rid=\"bib0003\" ref-type=\"bibr\" doi=\"10.1001/jama.2024.4088\" pmid=\"38829654\" pmcid=\"PMC12045079\" count=\"1\"><sup>3</sup></citation><sup>,</sup><citation rid=\"bib0031\" ref-type=\"bibr\" doi=\"10.1007/978-3-030-39903-0_213\" count=\"1\"><sup>31</sup></citation> Notably, one of the less frequently addressed causes of this discrepancy in the health domain is the inadequate description and fidelity of interventions, which have been previously highlighted in other fields, such as behavioral sciences<citation rid=\"bib0032\" ref-type=\"bibr\" doi=\"10.1007/s43494-023-00105-w\" count=\"1\"><sup>32</sup></citation> and the creative arts.<citation rid=\"bib0019\" ref-type=\"bibr\" doi=\"10.1007/978-3-031-18085-9_8\" count=\"1\"><sup>19</sup></citation> <sentence_start/>Thus, a lack of sufficient information about the intervention could compromise not only the replicability of studies but their translation into practice,<citation rid=\"bib0033\" ref-type=\"bibr\" doi=\"10.1136/bmj.39590.732037.47\" pmid=\"18583680\" pmcid=\"PMC2440840\" count=\"1\"><sup>33</sup></citation> as noted in trials involving non-pharmacological interventions.<citation rid=\"bib0034\" ref-type=\"bibr\" doi=\"10.1016/j.bjpt.2024.101062\" pmcid=\"PMC11039315\" pmid=\"38640642\" count=\"1\">34</citation>, <citation rid=\"bib0035\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-044462\" pmcid=\"PMC7888324\" pmid=\"33593786\" count=\"1\">35</citation>, <citation rid=\"bib0036\" ref-type=\"bibr\" doi=\"10.1016/j.apmr.2020.09.397\" pmid=\"33245937\" count=\"1\">36</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Specifically, Ribeiro et al<citation rid=\"bib0034\" ref-type=\"bibr\" doi=\"10.1016/j.bjpt.2024.101062\" pmcid=\"PMC11039315\" pmid=\"38640642\" count=\"1\"><sup>34</sup></citation> emphasize that physiotherapy interventions often suffer from poor reporting of critical components, such as dosage and progression. <sentence_start/>When the intervention involves exercise, it has been noted that improving the design of randomized clinical trials to yield strong and reproducible findings regarding the health benefits of exercise training is determinant for strengthening the scientific foundation underlying the implementation and dissemination of evidence-based exercise programs.<citation rid=\"bib0037\" ref-type=\"bibr\" doi=\"10.1123/kr.2024-0076\" count=\"1\"><sup>37</sup></citation> <sentence_start/>Likewise, recent studies have highlighted substantial shortcomings in the fidelity of therapeutic interventions within clinical trials of non-pharmacological interventions.<citation rid=\"bib0038\" ref-type=\"bibr\" doi=\"10.33393/aop.2024.3128\" pmid=\"39308755\" pmcid=\"PMC11413885\" count=\"1\"><sup>38</sup></citation> <sentence_start/>These findings underscore the need for improved strategies to assess, monitor, and enhance treatment fidelity in clinical trials.<citation rid=\"bib0039\" ref-type=\"bibr\" doi=\"10.1111/j.1752-7325.2011.00233.x\" pmcid=\"PMC3074245\" pmid=\"21499543\" count=\"1\"><sup>39</sup></citation> <sentence_start/>Given these challenges, a profound methodological, institutional, and even cultural shift is required."
+  },
+  {
+   "section": "article",
+   "text": "Advancing clinical practice through improved intervention reporting and fidelity"
+  },
+  {
+   "section": "article",
+   "text": "Effective implementation strategies for translating scientific knowledge into routine clinical practice depend on multiple interrelated factors, including committed individuals who collaborate to engage relevant stakeholders, analyze workflow dynamics, and overcome barriers to delivering evidence-based care.<citation rid=\"bib0040\" ref-type=\"bibr\" doi=\"10.1007/s11606-020-06169-3\" pmid=\"32918200\" pmcid=\"PMC7878661\" count=\"1\"><sup>40</sup></citation> <sentence_start/>Moreover, when research focuses on non-pharmacological intervention approaches, funding agencies should actively promote and support the integration of process evaluation studies alongside clinical trials, irrespective of the trial phase.<citation rid=\"bib0041\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2024.111637\" pmid=\"39662642\" count=\"1\"><sup>41</sup></citation> <sentence_start/>Consequently, a deliberate and systematic approach to evaluating and refining everyday research practices, particularly in the context of non-pharmacological interventions, is necessary to ensure that scientific findings are translated into actionable knowledge and routine clinical care."
+  },
+  {
+   "section": "article",
+   "text": "The clinical registry as the cornerstone of a clinical trial"
+  },
+  {
+   "section": "article",
+   "text": "Discrepancies between clinical trial registration and publication have been documented in several methodological aspects, such as protocol deviations, missing data, primary outcome analyses, adjusted analyses,<citation rid=\"bib0042\" ref-type=\"bibr\" doi=\"10.1002/14651858.MR000031.pub2\" pmcid=\"PMC7390503\" pmid=\"21249714\" count=\"1\"><sup>42</sup></citation> and blinding procedures.<citation rid=\"bib0043\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.52274\" pmcid=\"PMC11672156\" pmid=\"39724369\" count=\"1\"><sup>43</sup></citation> <sentence_start/>However, there is a lack of specific information regarding the description and fidelity of interventions.<citation rid=\"bib0044\" ref-type=\"bibr\" doi=\"10.1513/AnnalsATS.202508-835ED\" pmid=\"40788683\" pmcid=\"PMC12499860\" count=\"1\"><sup>44</sup></citation> <sentence_start/>To improve this aspect within each clinical trial, the process should begin with and revolve around the clinical trial registry, as it is the first publicly available document associated with the clinical trial. <sentence_start/>If the registry includes all essential information from the initial version and is updated to reflect any modifications or clarifications made during the development and publication of related documents, including grant applications, protocols, abstracts, and preprints, much of the groundwork is already in place. <sentence_start/>In this regard, the recently updated Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) statement includes items 15a-d, which pertain to the description of the <italic>Topic Intervention and Comparator</italic> and their variations,<citation rid=\"bib0045\" ref-type=\"bibr\" doi=\"10.1136/bmj-2024-081660\" pmcid=\"PMC12128891\" pmid=\"40294956\" count=\"1\"><sup>45</sup></citation> offering an initial framework for the comprehensive reporting of interventions in clinical trials. <sentence_start/>Nevertheless, when reporting non-pharmacological interventions, a higher level of detail is required. <sentence_start/>Therefore, the application of reporting guidelines such as TIDieR and CERT, available through the Enhancing the QUAlity and Transparency Of health Research (EQUATOR) Network,<citation rid=\"bib0046\" ref-type=\"bibr\" count=\"1\"><sup>46</sup></citation> is a necessary starting point. <sentence_start/>Moreover, when more specific guidelines exist, such as the TIDieR extension for population health and policy interventions<citation rid=\"bib0047\" ref-type=\"bibr\" doi=\"10.1136/bmj.k1079\" pmcid=\"PMC5954974\" pmid=\"29769210\" count=\"1\"><sup>47</sup></citation> or CERT adaptations for pelvic floor muscle training,<citation rid=\"bib0048\" ref-type=\"bibr\" doi=\"10.1016/j.physio.2021.03.001\" pmid=\"34062452\" count=\"1\"><sup>48</sup></citation> they should be applied."
+  },
+  {
+   "section": "article",
+   "text": "Afterward, a proper evaluation of the fidelity of the interventions, which should be reflected in all publications related to the clinical trial, can be conducted. <sentence_start/>In response to this need, several general-scope frameworks have been proposed to improve fidelity assessment, based on elements such as adherence, moderators, and the identification of core components of the intervention.<citation rid=\"bib0049\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-2-40\" pmid=\"18053122\" pmcid=\"PMC2213686\" count=\"1\"><sup>49</sup></citation> <sentence_start/>In the field of rehabilitation, a specific model has been developed to ensure traceability of fidelity through a structured, linear framework,<citation rid=\"bib0050\" ref-type=\"bibr\" doi=\"10.2340/16501977-1848\" pmid=\"24940792\" count=\"1\"><sup>50</sup></citation> grounded in the fidelity components of the U.S. National Institutes of Health model.<citation rid=\"bib0020\" ref-type=\"bibr\" doi=\"10.1037/0278-6133.23.5.443\" pmid=\"15367063\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"bib0051\" ref-type=\"bibr\" doi=\"10.1037/0022-006X.73.5.852\" pmid=\"16287385\" count=\"1\"><sup>51</sup></citation> <sentence_start/>This begins with the <italic>Design</italic> phase, which involves defining the intervention and designing the study to evaluate it; continues with <italic>Resourcing</italic>, which entails preparing the necessary resources, including personnel and equipment; and culminates in <italic>Implementation</italic>, where the intervention is evaluated in terms of practitioner and client behaviors and interactions.<citation rid=\"bib0050\" ref-type=\"bibr\" doi=\"10.2340/16501977-1848\" pmid=\"24940792\" count=\"1\"><sup>50</sup></citation> <sentence_start/>Further refinements have been proposed for trials targeting specific conditions, such as multiple sclerosis, encompassing five key domains: (a) study fidelity protocol, (b) fidelity of study design, (c) fidelity of provider training (i.e., ensuring that trainers/coaches are consistent in training and experience), (d) fidelity of treatment delivery (i.e., ensuring that trainers/coaches are consistent in delivering the intervention), and (e) fidelity of treatment receipt (i.e., assessing whether participants understand and engage with the intervention as intended).<citation rid=\"bib0052\" ref-type=\"bibr\" doi=\"10.1016/j.msard.2022.104088\" pmid=\"35987111\" count=\"1\"><sup>52</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "As can be observed, despite sharing common goals, there is considerable heterogeneity in the nature and content of existing proposals for evaluating intervention fidelity. <sentence_start/>This underscores the need for clearer, more systematic, and globally applicable consensus on core fidelity reporting standards.<citation rid=\"bib0023\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2025.111868\" pmid=\"40517847\" count=\"1\"><sup>23</sup></citation> <sentence_start/>In response to this gap, a new guideline, called Reporting Fidelity of Non-Drug Interventions (REFIND), is currently under development.<citation rid=\"bib0053\" ref-type=\"bibr\" count=\"1\"><sup>53</sup></citation> <sentence_start/>The REFIND guideline is anticipated to serve as a standalone reporting framework for intervention fidelity.<citation rid=\"bib0054\" ref-type=\"bibr\" doi=\"10.1016/j.cct.2024.107575\" pmid=\"38750951\" count=\"1\"><sup>54</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Enhancing systematic reviews of non-pharmacological interventions is a systematic process"
+  },
+  {
+   "section": "article",
+   "text": "In 1972, Archie Cochrane published <italic>Effectiveness and efficiency: random reflections on health services</italic>,<citation rid=\"bib0055\" ref-type=\"bibr\" count=\"1\"><sup>55</sup></citation> in which he criticized the widespread use of medical practices lacking rigorous scientific evidence. <sentence_start/>This work inspired the creation of the Cochrane Collaboration in 1993. <sentence_start/>Today, Cochrane Reviews are widely regarded as the international gold standard for high-quality, accessible, and up-to-date SRs in health research, including non-pharmacological interventions.<citation rid=\"bib0056\" ref-type=\"bibr\" doi=\"10.1097/PHM.0000000000000832\" pmid=\"28953033\" count=\"1\"><sup>56</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "However, Cochrane Reviews often show a lack of strong evidence supporting the efficacy of specific treatments or strategies. <sentence_start/>This was stated in 2019, when only 5.7% of Cochrane Reviews in physical therapy were deemed conclusive, a proportion lower than that observed in other medical fields. <sentence_start/>As of 2025, the proportion remains approximately 3%, while the absolute number of conclusive reviews has increased because the total number of reviews has grown.<citation rid=\"bib0057\" ref-type=\"bibr\" doi=\"10.1016/j.bjpt.2025.101190\" pmcid=\"PMC11914785\" pmid=\"40024195\" count=\"1\"><sup>57</sup></citation> <sentence_start/>These low rates warrant further research before a final conclusion can be drawn. <sentence_start/>One potential reason for this need is the low methodological quality of many studies.<citation rid=\"bib0058\" ref-type=\"bibr\" doi=\"10.1097/MRR.0000000000000338\" pmid=\"30664013\" count=\"1\"><sup>58</sup></citation> <sentence_start/>In fact, addressing the risk of bias in clinical trials within physical therapy and in other non-pharmacological interventions can be particularly challenging. <sentence_start/>These include difficulties in blinding participants and providers,<citation rid=\"bib0059\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2003.12.010\" pmid=\"15246122\" count=\"1\"><sup>59</sup></citation> the development and application of sham therapies, and even the widespread use of complex, individualized therapeutic approaches.<citation rid=\"bib0060\" ref-type=\"bibr\" doi=\"10.1097/PHM.0b013e3181bc0bbd\" pmid=\"20090428\" pmcid=\"PMC2900312\" count=\"1\"><sup>60</sup></citation> <sentence_start/>These aspects are closely linked to the adequacy of intervention descriptions and fidelity assessments, which limit researchers' and clinicians' ability to rely on Cochrane Reviews for definitive answers to specific clinical questions.<citation rid=\"bib0061\" ref-type=\"bibr\" doi=\"10.1016/j.physio.2014.03.001\" pmid=\"24780633\" count=\"1\"><sup>61</sup></citation><sup>,</sup><citation rid=\"bib0062\" ref-type=\"bibr\" doi=\"10.1016/j.math.2014.10.009\" pmid=\"25458142\" count=\"1\"><sup>62</sup></citation> <sentence_start/>To address this issue, it is recommended that higher-quality primary studies be developed through active collaboration and consultation with international experts and professional societies, thereby improving the reliability and applicability of evidence in non-pharmacological interventions.<citation rid=\"bib0063\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2753.2012.01877.x\" pmid=\"22747638\" count=\"1\"><sup>63</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "As described, traditional SRs often prioritize the methodological quality of clinical trials, focusing on elements such as randomization and blinding. <sentence_start/>While these factors are essential for ensuring internal validity, they do not address external validity, which depends on the replicability and clinical applicability of the interventions described. <sentence_start/>Therefore, the quality of intervention descriptions and their fidelity should be assessed, not only within individual trials, but also systematically across SRs. <sentence_start/>In this context, it is highly advisable for new clinical trials to include a comprehensive description of the interventions and an evaluation of their fidelity. <sentence_start/>This would facilitate a deeper understanding of how the effectiveness, efficacy, and efficiency of interventions depend on the quality of their description and the consistency with which they are implemented."
+  },
+  {
+   "section": "article",
+   "text": "Since protocols that adhere to TIDieR and CERT guidelines ensure that planned interventions are well-documented, thereby facilitating subsequent fidelity assessments, SRs should include a protocolized evaluation of the alignment between registered protocols and published findings. <sentence_start/>Accordingly, it is recommended to establish a minimum threshold for such alignment as an inclusion or exclusion criterion for clinical trials included in SRs. <sentence_start/>As is routinely done with other methodological quality indicators,<citation rid=\"bib0064\" ref-type=\"bibr\" doi=\"10.1007/978-3-030-90025-0_6\" count=\"1\"><sup>64</sup></citation><sup>,</sup><citation rid=\"bib0065\" ref-type=\"bibr\" doi=\"10.1016/S0004-9514(09)70043-1\" pmid=\"19463084\" count=\"1\"><sup>65</sup></citation> this approach could enhance the robustness of SRs and improve the clinical applicability of their findings. <sentence_start/>This proposal remains relevant even for reviews that integrate primary trial data with other sources, such as patient perspectives and expert opinion,<citation rid=\"bib0066\" ref-type=\"bibr\" doi=\"10.1136/bjsports-2024-108110\" pmid=\"39401870\" count=\"1\"><sup>66</sup></citation> as it contributes to a more comprehensive and reliable synthesis of evidence."
+  },
+  {
+   "section": "article",
+   "text": "Although it exceeds the primary objective of this article, it is hypothesized that incorporating TIDieR and CERT guidelines, along with fidelity assessment, into SRs could:"
+  },
+  {
+   "section": "article",
+   "text": "\u2212"
+  },
+  {
+   "section": "article",
+   "text": "Ensure transparency by evaluating the quality of intervention reporting, enabling reviewers to identify gaps that may affect the interpretation of results and, consequently, enhance clinical applicability."
+  },
+  {
+   "section": "article",
+   "text": "\u2212"
+  },
+  {
+   "section": "article",
+   "text": "Detect discrepancies by identifying omissions or unjustified deviations from registered protocols, thereby revealing potential gaps between internal and external validity in clinical trials."
+  },
+  {
+   "section": "article",
+   "text": "\u2212"
+  },
+  {
+   "section": "article",
+   "text": "Guide future research by highlighting deficiencies in interventions reporting, which can inform the design of future studies, promote adherence to established reporting standards, and ultimately improve the clinical applicability of the research findings.<citation rid=\"bib0067\" ref-type=\"bibr\" doi=\"10.1016/S0895-4356(98)00042-0\" pmid=\"9743320\" count=\"1\"><sup>67</sup></citation><sup>,</sup><citation rid=\"bib0068\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.0020124\" pmcid=\"PMC1182327\" pmid=\"16060722\" count=\"1\"><sup>68</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Enhancing clinical practice guidelines includes the clinical practice context"
+  },
+  {
+   "section": "article",
+   "text": "Although earlier proposals existed, CPGs are most widely recognized to have originated approximately 35 years ago.<citation rid=\"bib0069\" ref-type=\"bibr\" doi=\"10.17226/1626\" pmid=\"25144032\" count=\"1\"><sup>69</sup></citation> <sentence_start/>Conceptually, CPGs are statements that include recommendations intended to optimize patient care, informed by SRs of the evidence and an assessment of the benefits and harms of alternative care options.<citation rid=\"bib0070\" ref-type=\"bibr\" doi=\"10.17226/13058\" pmid=\"24983061\" count=\"1\"><sup>70</sup></citation> <sentence_start/>In recent years, the relevance of non-pharmacological interventions within CPGs has grown substantially.<citation rid=\"bib0071\" ref-type=\"bibr\" doi=\"10.1136/bmj-2023-076764\" pmid=\"39424323\" count=\"1\"><sup>71</sup></citation> <sentence_start/>Nevertheless, as with SRs, CPGs are susceptible to becoming outdated as new evidence emerges. <sentence_start/>It has been described that 1 out of 5 recommendations may be outdated within 3 years, suggesting that waiting longer than this period to reassess a guideline may compromise its validity and clinical relevance.<citation rid=\"bib0072\" ref-type=\"bibr\" doi=\"10.1503/cmaj.140547\" pmid=\"25200758\" pmcid=\"PMC4216254\" count=\"1\"><sup>72</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "The overall quality of published CPGs for musculoskeletal conditions has been questioned, particularly regarding their limited clinical applicability<citation rid=\"bib0073\" ref-type=\"bibr\" doi=\"10.1016/j.msksp.2020.102295\" pmid=\"33444892\" count=\"1\"><sup>73</sup></citation> and insufficient consideration of knowledge users\u2019 values.<citation rid=\"bib0074\" ref-type=\"bibr\" doi=\"10.2519/jospt.2024.12729\" pmid=\"39680669\" count=\"1\"><sup>74</sup></citation> <sentence_start/>While multiple factors may contribute to this lack of applicability, this section will focus on the insufficient integration of contextual factors related to the interventions recommended in CPGs, which often results in a <italic>one-size-fits-all</italic> approach that may limit the relevance and effectiveness of guideline recommendations in diverse clinical settings.<citation rid=\"bib0074\" ref-type=\"bibr\" doi=\"10.2519/jospt.2024.12729\" pmid=\"39680669\" count=\"1\"><sup>74</sup></citation> <sentence_start/>This is particularly relevant in non-pharmacological interventions, where context plays an even more pivotal role than in pharmacological interventions.<citation rid=\"bib0075\" ref-type=\"bibr\" doi=\"10.1089/jicm.2024.0837\" pmid=\"39819104\" pmcid=\"PMC7617372\" count=\"1\"><sup>75</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "As a primary contextual factor, it is important to recognize that most CPGs have been developed within the healthcare systems of high-income countries. <sentence_start/>However, differences in resource availability, healthcare infrastructure, and cultural norms may significantly influence clinical practices in other settings.<citation rid=\"bib0076\" ref-type=\"bibr\" doi=\"10.2519/jospt.2024.12406\" pmid=\"38602844\" count=\"1\"><sup>76</sup></citation> <sentence_start/>Expanding the geographical scope of guideline development to include countries with varying levels of development and resource availability could enhance the generalizability of CPG recommendations.<citation rid=\"bib0074\" ref-type=\"bibr\" doi=\"10.2519/jospt.2024.12729\" pmid=\"39680669\" count=\"1\"><sup>74</sup></citation> <sentence_start/>Moreover, recommendations for non-pharmacological interventions in CPGs frequently overlook the influence of comorbidities, such as insomnia, obesity, diabetes, or anxiety, and patient-specific factors, including health literacy, social (e.g., family or peer support), financial (e.g., cost of therapies), and cultural barriers, in shaping treatment preferences and responses.<citation rid=\"bib0077\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0179826\" pmcid=\"PMC5526504\" pmid=\"28742820\" count=\"1\"><sup>77</sup></citation><sup>,</sup><citation rid=\"bib0078\" ref-type=\"bibr\" doi=\"10.1097/AJP.0000000000000044\" pmid=\"24300225\" count=\"1\"><sup>78</sup></citation> <sentence_start/>Finally, in clinical practice, it is important to recognize the patient as an individual embedded in a unique, multifaceted context, as the biopsychosocial model posits.<citation rid=\"bib0079\" ref-type=\"bibr\" doi=\"10.1126/science.847460\" pmid=\"847460\" count=\"1\"><sup>79</sup></citation> <sentence_start/>However, most CPGs demonstrate limited integration of users' values and preferences into the recommendation development process.<citation rid=\"bib0080\" ref-type=\"bibr\" doi=\"10.1515/cclm-2015-0871\" pmid=\"26650076\" count=\"1\"><sup>80</sup></citation> <sentence_start/>This is concerning, as incorporating these variables affects the implementation of recommendations in clinical settings.<citation rid=\"bib0081\" ref-type=\"bibr\" doi=\"10.1136/bmj.39504.506319.80\" pmid=\"18497416\" pmcid=\"PMC2394579\" count=\"1\"><sup>81</sup></citation><sup>,</sup><citation rid=\"bib0082\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2010.09.011\" pmid=\"21185693\" count=\"1\"><sup>82</sup></citation> By doing so, CPGs can contribute to the delivery of more effective, equitable, and patient-centered care.<citation rid=\"bib0074\" ref-type=\"bibr\" doi=\"10.2519/jospt.2024.12729\" pmid=\"39680669\" count=\"1\"><sup>74</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Implications for physical therapy and other non-pharmacological disciplines"
+  },
+  {
+   "section": "article",
+   "text": "Physical therapy, as one of the most widely used non-pharmacological therapies, exemplifies the complexities associated with intervention description and fidelity. <sentence_start/>Unlike pharmacological treatments, physical therapy interventions are shaped by a multitude of factors, including professional training, cultural context, patient expectations, healthcare system variability, and the necessity to tailor treatments to the physical and psychological characteristics of individual patients,<citation rid=\"bib0014\" ref-type=\"bibr\" doi=\"10.1136/bjsports-2016-096651\" pmid=\"27707738\" count=\"1\"><sup>14</sup></citation> which underscore the importance of comprehensive reporting and rigorous fidelity assessment."
+  },
+  {
+   "section": "article",
+   "text": "As proposed in Fig. 2, the initial step to strengthen the relationship between intervention reporting and clinical practice is to improve the quality and completeness of prospective clinical trials registries. <sentence_start/>The TIDieR and CERT guidelines, specifically developed to support the reporting of non-pharmacological interventions, including control conditions, alongside CONSORT and SPIRIT guidelines, provide a structured framework to ensure sufficient detail in intervention descriptions.<sentence_start/>Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Evaluation framework for non-pharmacological interventions. <sentence_start/>Green lines indicate the influence of clinical trial registries; Blue lines indicate the influence of the TIDieR and CERT guidelines; Orange lines indicate the influence of fidelity assessment; Purple lines indicate the influence of context and individual interpretation (dashed lines represent the influence of context, specifically); Yellow lines represent the pathway from secondary research studies to clinical practice; Grey squares represent the types of documents associated with clinical trials."
+  },
+  {
+   "section": "article",
+   "text": "Secondly, the systematic assessment of fidelity across all scientific outputs related to each clinical trial, including protocols, trial reports, secondary analyses, and SRs with or without meta-analyses, will enable a precise understanding of whether interventions were delivered as originally intended. <sentence_start/>Until a universally accepted gold standard for fidelity assessment is established, it is recommended to apply expert-consensus instruments that have demonstrated adequate psychometric properties. <sentence_start/>To summarize the essential elements of these processes, Box 1 presents a minimum reporting standard for non-pharmacological interventions that aligns with the requirements of the main guidelines and statements."
+  },
+  {
+   "section": "article",
+   "text": "Thirdly, CPGs should incorporate the contextual factors surrounding recommendations derived from clinical trials. <sentence_start/>These include social, organizational, and professional aspects, as well as the availability of material resources and patient-specific characteristics."
+  },
+  {
+   "section": "article",
+   "text": "Fourthly, scientific associations, professional colleges, and funding agencies should promote improvement processes related to non-pharmacological interventions. <sentence_start/>Such initiatives would enable better oversight and quality control, from the initial conceptualization of an intervention to its eventual recommendation in clinical practice."
+  },
+  {
+   "section": "article",
+   "text": "To operationalize these recommendations, Table 1 outlines an implementation pathway, including the minimum intervention and fidelity items and their locations by document type. <sentence_start/>It should be acknowledged that putting these proposals into practice may temporarily slow the rate of publications and, consequently, reduce the short-term availability of high-quality evidence. <sentence_start/>However, this trade-off is justified by the need to ensure that interventions applied in clinical settings accurately reflect those originally designed and evaluated in clinical trials. <sentence_start/>Such alignment increases the likelihood of achieving comparable outcomes in clinical practice. <sentence_start/>In other words, prioritizing quality over quantity in healthcare research may lead to more meaningful and impactful advancements. <sentence_start/>Doing less, but doing better, can ultimately result in doing more."
+  },
+  {
+   "section": "article",
+   "text": "Funding"
+  },
+  {
+   "section": "article",
+   "text": "None."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of competing interest"
+  },
+  {
+   "section": "article",
+   "text": "The author(s) declared no potential conflicts of interest."
+  }
+ ]
+}

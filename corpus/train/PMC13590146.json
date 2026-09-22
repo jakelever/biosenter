@@ -1,0 +1,527 @@
+{
+ "pmid": 42765069,
+ "pmcid": 13590146,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "When patrons \u201cclick\u201d with the library\u2019s literature searches: using data from a novel link generation process to assess patron engagement with literature search results"
+  },
+  {
+   "section": "abstract",
+   "text": "Introduction"
+  },
+  {
+   "section": "abstract",
+   "text": "One of the core services the Winnipeg Regional Health Authority Virtual Library (WRHAVL) provides is literature searching for healthcare staff. <sentence_start/>Librarians send results to patrons as a reference list with links to the items identified. <sentence_start/>To improve access to the library\u2019s collection, and to understand patrons\u2019 engagement, the library developed a novel process for generating trackable links. <sentence_start/>Link and click data were analyzed to assess patron engagement with the literature search service."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "Leveraging the link management tool Short.io and a Visual Basic for Applications macro, the library uses an automated process to generate trackable links for literature search results sent to patrons. <sentence_start/>Click and link data are automatically collected in Short.io. <sentence_start/>Data from 19 October 2022 to 31 October 2024 was cleaned and exported into Excel for analysis. <sentence_start/>Logistic regression analysis was conducted in R."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Over the two-year study period, librarians sent 344 literature searches to patrons using this method. <sentence_start/>Patrons clicked at least one link in 194, or 56%, of reference lists. <sentence_start/>The percentage of total links clicked was higher for point of care and quick reference resources. <sentence_start/>Greater numbers of digital object identifier (DOI) and PubMed identifier (PMID) links included in a literature search predicted a decrease in the odds of someone clicking at least one link. <sentence_start/>Patrons clicked more than 20 links in only 10, or just 3%, of literature searches."
+  },
+  {
+   "section": "abstract",
+   "text": "Discussion"
+  },
+  {
+   "section": "abstract",
+   "text": "The data provides valuable insights into patron engagement with the WRHAVL\u2019s literature search service. <sentence_start/>The discovery that 44% of reference lists did not have a single click warrants further investigation."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "The Winnipeg Regional Health Authority Virtual Library (WRHAVL) provides services to hospital and healthcare staff in Winnipeg, Manitoba, Canada. <sentence_start/>One of the core functions of the library is conducting literature searches for healthcare professionals, providing them with a list of references and abstracts on their topic. <sentence_start/>In most cases, patrons provide no follow-up response after receiving their literature search results. <sentence_start/>For this reason, in the past the library found it difficult to determine how patrons were engaging with the results provided."
+  },
+  {
+   "section": "article",
+   "text": "At the same time, the library\u2019s patrons frequently expressed they found it challenging to access full-text articles, including those identified in literature search results. <sentence_start/>With the aim of addressing both issues, in 2022 the library began exploring options for a tool or process that would:"
+  },
+  {
+   "section": "article",
+   "text": "Improve full-text access links and streamline the process for generating these links."
+  },
+  {
+   "section": "article",
+   "text": "Enable the library to assess patron engagement with the literature search results they receive."
+  },
+  {
+   "section": "article",
+   "text": "Improving full-text access to literature search results"
+  },
+  {
+   "section": "article",
+   "text": "As described by Westmark et al., most institutions that provide mediated literature searches include link resolver links or buttons in their search results [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1111/hir.12447\" pmcid=\"PMC9796898\" pmid=\"35796404\" count=\"1\">1</citation>]. <sentence_start/>These are software tools that establish links between individual citations and the corresponding full-text item in a database or the library\u2019s catalogue [<citation rid=\"ref2\" ref-type=\"bibr\" doi=\"10.1300/J136v11n01_02\" count=\"1\">2</citation>]. <sentence_start/>However, after examining the link resolver options used by libraries they surveyed, Westmark et al. found that none of them offered a simple, quick method to provide links in literature search results without requiring requestors to create a citation management account or install a citation manager [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1111/hir.12447\" pmcid=\"PMC9796898\" pmid=\"35796404\" count=\"1\">1</citation>]. <sentence_start/>The WRHAVL first explored the possibility of utilizing \u2019 (Clarivate) shared folder feature to send users results containing full-text buttons. <sentence_start/>However, like Westmark et al., the library discovered that RefWorks requires recipients to log in to personal RefWorks accounts to view abstracts and link-resolver buttons in shared folders [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1111/hir.12447\" pmcid=\"PMC9796898\" pmid=\"35796404\" count=\"1\">1</citation>]. <sentence_start/>As the library provides services to over 15,000 individuals across several sites, it was not feasible to license RefWorks or to ask patrons to obtain RefWorks accounts. <sentence_start/>Additionally, RefWorks representatives confirmed in an e-mail [<citation rid=\"ref3\" ref-type=\"bibr\" count=\"1\">3</citation>] and a subsequent meeting [<citation rid=\"ref4\" ref-type=\"bibr\" count=\"1\">4</citation>] that the statistics provided by RefWorks were not granular enough for the library to assess engagement at the level of an individual literature search."
+  },
+  {
+   "section": "article",
+   "text": "Similar to the approach developed by Westmark et al. [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1111/hir.12447\" pmcid=\"PMC9796898\" pmid=\"35796404\" count=\"1\">1</citation>], the library had been using a Visual Basic for Applications (VBA) macro in Word to generate link resolver links (i.e. OCLC links) based on digital object identifiers (DOIs) and PubMed identifiers (PMIDs). <sentence_start/>However, when the full text was not available through the library\u2019s collection, the link would often point the patron to the publisher\u2019s website where they were unable to access the article and/or were prompted to pay a fee for access. <sentence_start/>This caused confusion for patrons who then had to navigate back to the library website or catalogue to request the items through the library."
+  },
+  {
+   "section": "article",
+   "text": "To improve these links, the library explored the use of (Third Iron) [<citation rid=\"ref5\" ref-type=\"bibr\" count=\"1\">5</citation>]. <sentence_start/>Using [<citation rid=\"ref6\" ref-type=\"bibr\" count=\"1\">6</citation>], the library was able to create library-specific links based on DOIs and PMIDs. <sentence_start/>These links prompt the patron to log in to their library account and then open the full-text PDFs when the resource is available in the collection. <sentence_start/>When the resource is not available, the links redirect the patron to a record for the item in the library\u2019s discovery service (Ex Libris ), where they can request the full text. <sentence_start/>Altering the macro to use these links resolved the issue concerning the EZproxy links, as the links now directed patrons to the Primo record when items were not available. <sentence_start/>Although Third Iron does provide some statistics for LibKey, as with RefWorks they are not granular enough to look at engagement at the individual literature search level, so additional options were explored for assessing patron engagement with the results they received."
+  },
+  {
+   "section": "article",
+   "text": "Assessing patron engagement with literature search services"
+  },
+  {
+   "section": "article",
+   "text": "There have been several studies evaluating literature search services for health professionals since the early 2000s, but they broadly fall into one of two categories:"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of literature search request/ completion data [<citation rid=\"ref7\" ref-type=\"bibr\" doi=\"10.1111/j.1471-1842.2009.00871.x\" pmid=\"20712713\" count=\"1\">7</citation>-<citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.5195/jmla.2022.1447\" pmcid=\"PMC9782504\" pmid=\"36589305\" count=\"1\">13</citation>]"
+  },
+  {
+   "section": "article",
+   "text": "Surveys of service users [<citation rid=\"ref14\" ref-type=\"bibr\" count=\"1\">14</citation>-<citation rid=\"ref31\" ref-type=\"bibr\" doi=\"10.5195/jmla.2019.497\" pmcid=\"PMC6466502\" pmid=\"31019393\" count=\"1\">31</citation>]"
+  },
+  {
+   "section": "article",
+   "text": "Beyond these methods, two studies have assessed literature search services by comparing results produced for the same question under different contexts: mediated (i.e. assisted by a search specialist) vs. unmediated searches (i.e. self-service) [<citation rid=\"ref32\" ref-type=\"bibr\" pmcid=\"PMC2244403\" pmid=\"12463791\" count=\"1\">32</citation>]; and searches conducted at two different sites [<citation rid=\"ref33\" ref-type=\"bibr\" doi=\"10.5694/j.1326-5377.2001.tb143060.x\" pmid=\"11548078\" count=\"1\">33</citation>]. <sentence_start/>One study also looked at patron engagement with resources identified in literature search results, but it specifically focused on document delivery requests, not immediate online access [<citation rid=\"ref34\" ref-type=\"bibr\" count=\"1\">34</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Analyzing literature search request/completion data"
+  },
+  {
+   "section": "article",
+   "text": "Many libraries collect literature search request/completion data such as number of requests, time spent searching, intended use, request topics, and patron categories (e.g. patron affiliation and/or occupation). <sentence_start/>Libraries can use this data to assist in the design and organization of services [<citation rid=\"ref9\" ref-type=\"bibr\" doi=\"10.1080/02763869.2015.986782\" pmid=\"25611439\" count=\"1\">9</citation>,<citation rid=\"ref10\" ref-type=\"bibr\" doi=\"10.3163/1536-5050.101.3.015\" pmcid=\"PMC3738086\" pmid=\"23930096\" count=\"1\">10</citation>,<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.1080/02763869.2014.925379\" pmcid=\"PMC4339087\" pmid=\"25023012\" count=\"1\">12</citation>], demonstrate value to stakeholders [<citation rid=\"ref10\" ref-type=\"bibr\" doi=\"10.3163/1536-5050.101.3.015\" pmcid=\"PMC3738086\" pmid=\"23930096\" count=\"1\">10</citation>,<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.1080/02763869.2014.925379\" pmcid=\"PMC4339087\" pmid=\"25023012\" count=\"1\">12</citation>], determine resource needs [<citation rid=\"ref11\" ref-type=\"bibr\" doi=\"10.1080/02763869.2013.806855\" pmid=\"23869631\" count=\"1\">11</citation>,<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.1080/02763869.2014.925379\" pmcid=\"PMC4339087\" pmid=\"25023012\" count=\"1\">12</citation>,<citation rid=\"ref13\" ref-type=\"bibr\" doi=\"10.5195/jmla.2022.1447\" pmcid=\"PMC9782504\" pmid=\"36589305\" count=\"1\">13</citation>], and develop targeted strategies for advancing institutional and library goals for specific groups [<citation rid=\"ref9\" ref-type=\"bibr\" doi=\"10.1080/02763869.2015.986782\" pmid=\"25611439\" count=\"1\">9</citation>,<citation rid=\"ref12\" ref-type=\"bibr\" doi=\"10.1080/02763869.2014.925379\" pmcid=\"PMC4339087\" pmid=\"25023012\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Like these libraries, the WRHAVL collects data concerning literature search requests. <sentence_start/>An online (Springshare) [<citation rid=\"ref35\" ref-type=\"bibr\" count=\"1\">35</citation>] request form asks patrons the types of resources they are looking for (e.g. journal articles, guidelines, books, or clinical trials), the purpose of their search (e.g. updating guidelines, patient education, writing for publication, professional development), their job title, their location (e.g. hospital, community health office, personal care home), the range of publication dates to search (e.g. last 5 years), and the number of results they would like. <sentence_start/>When a librarian completes a search, they record additional details concerning the search in (Springshare) [<citation rid=\"ref36\" ref-type=\"bibr\" count=\"1\">36</citation>] including the amount of time spent on the search, the dates the search was requested, due, and completed, the resources searched, the topic of the search, and the number of results sent (i.e. the total number of references included in the results list). <sentence_start/>Although this data can be useful for the purposes listed above, Farrell and Mason claim the utility of these types of usage statistics is \u201cdisputed\u201d [<citation rid=\"ref20\" ref-type=\"bibr\" doi=\"10.5596/c14-030\" count=\"1\">20</citation>]. <sentence_start/>This data can measure the efficiency or timeliness of services [<citation rid=\"ref37\" ref-type=\"bibr\" doi=\"10.1046/j.0265-6647.2002.00365.x\" pmid=\"12075845\" count=\"1\">37</citation>] but cannot fully describe effectiveness or service satisfaction, or explain overall literature search service trends [<citation rid=\"ref9\" ref-type=\"bibr\" doi=\"10.1080/02763869.2015.986782\" pmid=\"25611439\" count=\"1\">9</citation>,<citation rid=\"ref37\" ref-type=\"bibr\" doi=\"10.1046/j.0265-6647.2002.00365.x\" pmid=\"12075845\" count=\"1\">37</citation>]. <sentence_start/>Friesen et al. have suggested that surveys may provide these answers [<citation rid=\"ref9\" ref-type=\"bibr\" doi=\"10.1080/02763869.2015.986782\" pmid=\"25611439\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Surveys of literature search service users"
+  },
+  {
+   "section": "article",
+   "text": "Surveys \u201ccan be a useful way to gather information on client satisfaction with, and use of, a literature search service\u201d [<citation rid=\"ref23\" ref-type=\"bibr\" count=\"1\">23</citation>] and many studies have demonstrated how these services impact patient care and save busy professionals\u2019 time [<citation rid=\"ref1\" ref-type=\"bibr\" doi=\"10.1111/hir.12447\" pmcid=\"PMC9796898\" pmid=\"35796404\" count=\"1\">1</citation>]. <sentence_start/>Surveys have also examined patron satisfaction and preferences concerning a number of different literature search aspects, which has helped libraries to improve their search services [<citation rid=\"ref23\" ref-type=\"bibr\" count=\"1\">23</citation>,<citation rid=\"ref25\" ref-type=\"bibr\" doi=\"10.5195/jmla.2017.201\" pmcid=\"PMC5370602\" pmid=\"28377674\" count=\"1\">25</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Despite these findings, there are concerns with using surveys to evaluate literature search services. <sentence_start/>One of the issues is participant recall bias [<citation rid=\"ref25\" ref-type=\"bibr\" doi=\"10.5195/jmla.2017.201\" pmcid=\"PMC5370602\" pmid=\"28377674\" count=\"1\">25</citation>]. <sentence_start/>Most studies have tried to mitigate this by using the \u201c\u2018critical incident technique\u2019 asking respondents to think back on an incident where they used information the library sent them\u201d [<citation rid=\"ref20\" ref-type=\"bibr\" doi=\"10.5596/c14-030\" count=\"1\">20</citation>] or by \u201cuse of a brief questionnaire sent at the same time as the response\u201d [<citation rid=\"ref20\" ref-type=\"bibr\" doi=\"10.5596/c14-030\" count=\"1\">20</citation>]. <sentence_start/>However, voluntary surveys are also susceptible to non-response bias, where individuals are much more likely to respond if they felt highly satisfied [<citation rid=\"ref38\" ref-type=\"bibr\" count=\"1\">38</citation>]. <sentence_start/>In addition, the typically low response rate of web-based surveys [<citation rid=\"ref28\" ref-type=\"bibr\" doi=\"10.1111/hir.12427\" pmcid=\"PMC9790252\" pmid=\"35332978\" count=\"1\">28</citation>] has led some to question whether there is always sufficient power to detect statistical significance [<citation rid=\"ref39\" ref-type=\"bibr\" doi=\"10.1136/amiajnl-2014-002825\" pmcid=\"PMC4215058\" pmid=\"24872341\" count=\"1\">39</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "At the WRHAVL, when reference lists are sent to patrons, the message they receive prompts them to complete a voluntary survey concerning the quality and timeliness of the search, whether they were able to access the resources identified, and whether the instructions to access the resources were clear. <sentence_start/>Although some studies have suggested sending a questionnaire with the results \u201cis more likely to gain a response\u201d [<citation rid=\"ref28\" ref-type=\"bibr\" doi=\"10.1111/hir.12427\" pmcid=\"PMC9790252\" pmid=\"35332978\" count=\"1\">28</citation>], the response rate to these surveys is quite low. <sentence_start/>For example, for the period examined in this study (October 2022-October 2024), patrons completed a survey for only 7% (n=34/480) of searches sent. <sentence_start/>In addition to the small sample size, there is some evidence of non-response bias, as individuals who do respond to the library\u2019s survey are often highly satisfied. <sentence_start/>Ultimately, despite the amount of information collected by the library, the WRHAVL still did not have a good sense of how patrons were engaging with the vast majority of searches completed. <sentence_start/>To solve this issue, the library developed the novel idea of using a link management tool to generate trackable links for references in literature search results."
+  },
+  {
+   "section": "article",
+   "text": "After exploring multiple link management options, such as , the library selected the link management tool [<citation rid=\"ref40\" ref-type=\"bibr\" count=\"1\">40</citation>] to generate the trackable links. <sentence_start/>The library updated its VBA macro for literature search reference lists so it would generate trackable Short.io links for each item in the list. <sentence_start/>These links are included in the literature search results sent to patrons and generate data on which links are clicked. <sentence_start/>Data from 19 October 2022 to 31 October 2024 was analyzed and provides valuable insights into patron engagement with literature search results over this period."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Literature search requests and data collection"
+  },
+  {
+   "section": "article",
+   "text": "Over the study period 74% (n=354/480) of requests were submitted using the LibWizard request form on the library\u2019s website. <sentence_start/>Requests that were not submitted using the form were either sent directly to a librarian or the library\u2019s generic inbox. <sentence_start/>When submitting the form, patrons are required to accept the library\u2019s Conditions of Resource Use, which indicates that their personal information is being collected for the purpose of providing library services and for evaluation. <sentence_start/>These conditions are also accessible through the of the library\u2019s website and apply to all library patrons."
+  },
+  {
+   "section": "article",
+   "text": "Although the library regularly collects and analyzes literature search data for internal service evaluation, the authors consulted with the University of Manitoba\u2019s Research Ethics Board and Manitoba\u2019s Committee for Harmonized Health Impact, Privacy, and Ethics Review to confirm whether ethics review and approval was required for the external publication of this analysis. <sentence_start/>The ethics review boards determined that ethics review and approval was not required for this study."
+  },
+  {
+   "section": "article",
+   "text": "Literature search process"
+  },
+  {
+   "section": "article",
+   "text": "When patrons submit a request through the library\u2019s request form, the request is sent to the library\u2019s generic inbox and library staff assign the literature search to a librarian. <sentence_start/>This librarian conducts the search and saves citations related to the search topic to reference management software (e.g. (Corporation for Digital Scholarship) [<citation rid=\"ref41\" ref-type=\"bibr\" count=\"1\">41</citation>] or (Clarivate) [<citation rid=\"ref42\" ref-type=\"bibr\" count=\"1\">42</citation>]). <sentence_start/>The librarian then exports the references into a Microsoft Word template using a custom output style, which includes DOIs and PMIDs as well as abstracts when available (Figure 1). <sentence_start/>The librarian saves the Word file with the format [Requestor\u2019s Surname] ~ [Search Topic], for example Smith ~ IV Insertion<sup>*</sup>."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "List of references from a completed literature search after the results have been exported from reference management software into Word using the library\u2019s custom template. <sentence_start/>Each reference includes an abstract and a DOI, PMID, or link to the resource, when available."
+  },
+  {
+   "section": "article",
+   "text": "Generating the Short.io links"
+  },
+  {
+   "section": "article",
+   "text": "After the reference list has been saved, the librarian runs the VBA macro (available at ) to generate the Short.io links. <sentence_start/>The macro takes the following steps:"
+  },
+  {
+   "section": "article",
+   "text": "Removes all existing hyperlinks from the document."
+  },
+  {
+   "section": "article",
+   "text": "Adds full-text URLs:"
+  },
+  {
+   "section": "article",
+   "text": "Searches for DOIs and PMIDs in either labelled format (e.g. DOI: 10.1016/j.ajem .2020.11.013, PMID: 37591703) or URL format (e.g. or )."
+  },
+  {
+   "section": "article",
+   "text": "Replaces the DOIs/PMIDs found with a custom library-specific LibKey URL based on the DOI/PMID (e.g. )."
+  },
+  {
+   "section": "article",
+   "text": "Searches for labelled PubMed Central identifiers (PMCIDs) (e.g. PMCID: PMC6353147) and replaces them with a PubMed Central URL based on the PMCID."
+  },
+  {
+   "section": "article",
+   "text": "Searches for UpToDate URLs and adds the library\u2019s EZproxy prefix."
+  },
+  {
+   "section": "article",
+   "text": "Parses the document for all URLs and creates hyperlinks for each URL found."
+  },
+  {
+   "section": "article",
+   "text": "Obtains the file\u2019s current user (i.e. the librarian who created and saved the reference list) to support data validation and troubleshooting, and the search topic (everything that appears after the tilde (~) in the filename)."
+  },
+  {
+   "section": "article",
+   "text": "Iterates through each hyperlink, sending the link to the Short.io API along with accompanying metadata (retrieved in Step 4)."
+  },
+  {
+   "section": "article",
+   "text": "Retrieves each Short.io link generated through the API and replaces each existing hyperlink with its corresponding Short.io link. <sentence_start/>The Short.io link generated by the API contains the library\u2019s custom domain (https://go. wrhavirtuallibrary.ca/) followed by a randomly generated six-character string."
+  },
+  {
+   "section": "article",
+   "text": "Changes the \u201ctext to display\u201d for DOI, PMID, and PMCID hyperlinks to a labelled format (e.g. DOI: 10.1016/j.ajem.2020.11.013, PMID: 37591703, PMCID: PMC6353147)."
+  },
+  {
+   "section": "article",
+   "text": "Sending results to patrons and recording the completed search"
+  },
+  {
+   "section": "article",
+   "text": "After the links are generated, the librarian attaches the file (Figure 2) to an e-mail sent to the requestor. <sentence_start/>The e-mail (Figure 3) contains the original request form, instructions for accessing full-text, and a prompt to complete the library\u2019s survey. <sentence_start/>After sending the e-mail, the librarian who conducted the search records the completed search in LibInsight."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Literature search results after trackable links are generated in Word using the library\u2019s custom VBA macro. <sentence_start/>PMID, PMCID, and DOI links are displayed in a labelled format with the corresponding ID and the hyperlinks contain the library\u2019s custom Short.io domain followed by a string that is randomly generated by Short.io for each specific link."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "E-mail sent to requestor by the library. <sentence_start/>The completed reference list in Word format is attached to the e-mail. <sentence_start/>The message contains instructions on accessing the full-text items using the links and includes an invitation to complete the library\u2019s literature search survey."
+  },
+  {
+   "section": "article",
+   "text": "Obtaining and cleaning the data"
+  },
+  {
+   "section": "article",
+   "text": "Whenever a patron clicks a link in the reference list they receive, that click is automatically recorded in Short.io\u2019s interface (Figure 4). <sentence_start/>The metadata (searcher and search topic) that is passed to Short.io\u2019s API is shown in a Tags column. <sentence_start/>The interface also offers high-level statistics for the library\u2019s custom Short.io domain (https://go.wrhavirtuallibrary.ca/) such as total number of clicks by date, average number of clicks per link, links clicked the most, top cities/countries where the clicks originated, and top referrers (webpage where the request/click originated, if applicable), as well as individual statistics for each link such as total number of clicks by date, country/city where the click originated, and referrers (if applicable) for each click."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "Link data that is automatically collected in the Short.io interface including the original identifier and/or URL, the Short.io generated URL, total number of clicks, and metadata tags."
+  },
+  {
+   "section": "article",
+   "text": "There is a separate section of the Short.io interface that provides data at the click level, indicating when each link was clicked, as well as the IP address of the clicker (Figure 5). <sentence_start/>IP addresses are collected by Short.io for fraud prevention and troubleshooting [<citation rid=\"ref43\" ref-type=\"bibr\" count=\"1\">43</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 5"
+  },
+  {
+   "section": "article",
+   "text": "Click data in the Short.io interface. <sentence_start/>This data includes the IP address where the click originated, the Browser used, and the Short.io URL. <sentence_start/>IP addresses have been blocked in the figure."
+  },
+  {
+   "section": "article",
+   "text": "When first examining the click data, the authors discovered clicks from countries that were unlikely to be associated with the library\u2019s patrons. <sentence_start/>After further investigation, and discussion with representatives at Short.io [<citation rid=\"ref44\" ref-type=\"bibr\" count=\"1\">44</citation>], the authors determined that crawlers and email clients (e.g. Outlook) that scan links in incoming e-mails were likely responsible for these \u201cfalse clicks.\u201d <sentence_start/>To try to ensure that only valid clicks by library patrons were included in the data, the authors evaluated the IP addresses using the [<citation rid=\"ref45\" ref-type=\"bibr\" count=\"1\">45</citation>]. <sentence_start/>Short.io has a built-in function that allows the user to exclude particular IP addresses from statistics. <sentence_start/>When a suspected crawler or invalid source was found, that IP address was excluded from the data. <sentence_start/>Although the WRHAVL is situated at the health campus at the University of Manitoba, nearly all of the library\u2019s patrons are located off-campus at hospitals and other facilities in Winnipeg. <sentence_start/>Given this, on-site and VPN campus IP addresses were excluded so librarians could test the links before the results were sent without creating \u201cfalse clicks.\u201d"
+  },
+  {
+   "section": "article",
+   "text": "Once cleaned, both the link and click data were copied into Excel for analysis. <sentence_start/>Short.io has integration for the link data (Figure 6). <sentence_start/>The authors used this feature to export the data concerning each link for analysis. <sentence_start/>The click data was exported directly from the interface in CSV format."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 6"
+  },
+  {
+   "section": "article",
+   "text": "Link data in Google Sheets accessed through the Short.io interface. <sentence_start/>This data includes the original URL, Short.io URL, and metadata tags, but does not include total number of clicks."
+  },
+  {
+   "section": "article",
+   "text": "Data analysis"
+  },
+  {
+   "section": "article",
+   "text": "The link data available in the Google spreadsheet does not contain the click numbers for each link, and the click data does not contain the metadata tags generated by the macro. <sentence_start/>For this reason, both sets of data were cross-referenced in Excel using the unique Short.io URLs. <sentence_start/>This made analysis of the data at the individual link and literature search level possible."
+  },
+  {
+   "section": "article",
+   "text": "Librarians sometimes provide multiple unique identifiers and links for the same reference (e.g. PMIDs and DOIs). <sentence_start/>To account for this, the authors examined the library\u2019s LibInsight data to determine the total number of references included in each search. <sentence_start/>In this way, the number of clicks could be compared to both the total number of references and the total number of links included in the search. <sentence_start/>Literature search topics in the LibInsight data were also matched to the corresponding search topic metadata in Short.io to identify searches for which no Short.io links were generated. <sentence_start/>Reference counts from searches that did not have a match in Short.io were removed from the total reference count for analysis. <sentence_start/>There was one search that was completed well before the study period but for which links were generated during the study period. <sentence_start/>This search and its corresponding click and link data were removed prior to analysis."
+  },
+  {
+   "section": "article",
+   "text": "To determine the popularity of specific resources, counts were generated based on the original URLs of the resources, which are recorded in the Short.io data. <sentence_start/>For example, if an original URL contained \u201cwww.uptodate\u201d it was counted as an UpToDate link. <sentence_start/>URL counts were generated for several point of care and quick reference resources commonly included in the library\u2019s search results as well as URLs pointing to the library\u2019s discovery service, and URLs containing DOIs, PMIDs, and PMCIDs (see Table 1 for a list of resource categories and URLs). <sentence_start/>All other URLs (e.g. links to hospital procedures, association guidelines, etc.) were considered \u201cother links\u201d for the purpose of analysis. <sentence_start/>Two subcategories of resources were also analyzed together: point of care and quick reference resources, and scholarly resources, which the authors defined as URLs containing DOIs, PMIDs, or PMCIDs."
+  },
+  {
+   "section": "article",
+   "text": "A logistic regression analysis was performed in (version 4.5.2) [<citation rid=\"ref46\" ref-type=\"bibr\" count=\"1\">46</citation>]. <sentence_start/>The analysis was done using the glm function with the family selected as binomial as the response variable (at least one click) is binary. <sentence_start/>The 10 variables under consideration were number of links, number of references, Clinical Key links, UpToDate links, Lippincott Williams &amp; Wilkins (LWW) Health Library links, Joanna Briggs Institute Evidence Based Practice Database (JBI EBP) links, Primo links, DOI links, PMID links, and PMCID links. <sentence_start/>The variables scholarly resources links and other links were not considered as they were linear functions of other variables in the model and therefore non-estimable. <sentence_start/>These variables were used to determine which, if any, increased or decreased the probability of a literature search receiving at least one click. <sentence_start/>After checking for significant factors, a drop-in-deviance test was performed to test that the eliminated variables were statistically non-significant."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "According to the library\u2019s LibInsight data, between October 2022 and October 2024 library staff completed 480 literature searches. <sentence_start/>Of these, 344 literature searches, or 72% of completed searches, used the trackable Short.io links. <sentence_start/>A total of 11743 Short.io links were created for 9345 references (see Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "There was little variation in the percent of literature searches with clicks from year to year. 56% (n=96/171) of literature searches containing Short.io links had at least one click in 2023-2024, and 57% (n=98/173) of literature searches containing Short.io links had at least one click in 2022-2023. <sentence_start/>Library patrons clicked 12% of links created (n=1461/11743), or around 1 in 8 links, over the study period."
+  },
+  {
+   "section": "article",
+   "text": "Popular resources"
+  },
+  {
+   "section": "article",
+   "text": "Based on the original URLs, the library was able to analyze the clicks and number of links created for specific resources (Table 3)."
+  },
+  {
+   "section": "article",
+   "text": "A much higher proportion of links for point of care and quick reference resources had at least one click in comparison to scholarly resources (Figures 7 and 8). <sentence_start/>Whereas only 10% of scholarly resources links were clicked (n=1078/10381), 50% (n=9/18) of LWW Health Library links, 38% (n=33/88) of UpToDate links, and 37% (n=59/161) of JBI EBP links received at least one click."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 7"
+  },
+  {
+   "section": "article",
+   "text": "Chart of the percentage of unique links that received at least one click by resource category. <sentence_start/>The Scholarly Resources category is an average for DOI, PMID, and PMCID generated links so these can be compared as a group with the other categories."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 8"
+  },
+  {
+   "section": "article",
+   "text": "Chart of the percentage of unique links with at least one click in the Scholarly Resources category. <sentence_start/>These are links that were generated using"
+  },
+  {
+   "section": "article",
+   "text": "DOI, PMID, or PMCIDs."
+  },
+  {
+   "section": "article",
+   "text": "Click trends"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of unique links clicked and total number of links provided in each literature search found that only 3% (n=10/344) of recipients clicked more than 20 links in a search, regardless of the total number of results provided (Figure 9)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 9"
+  },
+  {
+   "section": "article",
+   "text": "Chart of the total number of unique links that received at least one click by the total number of unique links provided for each literature search."
+  },
+  {
+   "section": "article",
+   "text": "Individuals also clicked a higher proportion of links more frequently when a lower number of total links were given. <sentence_start/>For example, for literature searches that had at least one click, searches that had 1-30 links had at least half of their links clicked in 30% (n=32/108) of cases, whereas only 7% (n=6/86) had at least half of their links clicked if there were more than 30 links in the list (Figure 10)."
+  },
+  {
+   "section": "article",
+   "text": "Fig. 10"
+  },
+  {
+   "section": "article",
+   "text": "Chart of the percent of unique links that received at least one click by the total number of links provided for each literature search."
+  },
+  {
+   "section": "article",
+   "text": "Determinants of literature search engagement"
+  },
+  {
+   "section": "article",
+   "text": "A logistic regression analysis was performed with the glm function and binomial family argument for the link function to test for significant variables in a model for a literature search receiving at least one click. <sentence_start/>Table 4 lists the variables tested, their regression coefficient (the log of the odds ratio), the standard error of the coefficient, a 95% confidence interval for the coefficient, and the p-value for the Wald test to test if they were non-zero and statistically significant."
+  },
+  {
+   "section": "article",
+   "text": "As there were many variables in the full model and likely issues with multicollinearity, due to only one p-value being less than 0.05, the authors first selected all variables that had p-values less than 0.10 (Number of Links (0.0591), DOI Links (0.0664), PMID Links (0.0302)) to propose a reduced model that only contained those three variables. <sentence_start/>The logistic regression was then rerun on this model with the output summarized in Table 5."
+  },
+  {
+   "section": "article",
+   "text": "In this reduced model, all regression coefficients had statistically significant p-values (p&lt;0.05) for the Wald test. <sentence_start/>To test that the other variables should have been removed, a drop-in-deviance test was performed and had test statistic G = 461.86 - 454.94 = 6.92. <sentence_start/>The test statistic follows a chi-squared distribution with 7 degrees of freedom and p-value 0.4372568. <sentence_start/>As the p-value is greater than 0.05, there is insufficient evidence the coefficients for the removed variables were nonzero given number of links, DOI links, and PMID links were in the model suggesting they could be removed. <sentence_start/>With all variables in the reduced model testing as statistically significant at the 0.05 level, justifying the initial threshold of 0.10, the final proposed statistical model is:"
+  },
+  {
+   "section": "article",
+   "text": "This analysis found that when the other variables were held constant, total number of links predicted an increase in the odds of someone clicking at least one link in a reference list, and the number of both DOI and PMID links predicted a decrease. <sentence_start/>The finding concerning DOI and PMID links suggests that when a larger percentage of total links given are not DOI or PMID links, there are increased odds that someone will engage with the literature search results."
+  },
+  {
+   "section": "article",
+   "text": "For example, if the following three reference lists are provided, the logistic regression analysis found that there are increased odds that a patron will click at least one link in list #2:"
+  },
+  {
+   "section": "article",
+   "text": "20 links - 8 DOI links, 8 PMID links, 4 other links"
+  },
+  {
+   "section": "article",
+   "text": "20 links - 2 DOI links, 2 PMID links, 16 other links"
+  },
+  {
+   "section": "article",
+   "text": "20 links - 15 DOI links, 5 PMID links"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Notable findings"
+  },
+  {
+   "section": "article",
+   "text": "Encouraging patron engagement with literature search results"
+  },
+  {
+   "section": "article",
+   "text": "The results suggest that the library\u2019s patrons more frequently click on links to quick reference or point of care resources and that there are increased odds they will access the library\u2019s resources if the reference lists contain a higher percentage of links that are not DOI or PMID links. <sentence_start/>This suggests that librarians can encourage patron engagement with literature search results by ensuring they include a good number of non-scholarly references in their search results when relevant to the requestor\u2019s interest. <sentence_start/>The library could consider adding \u201cpoint of care\u201d as an option to the types of resources section of the request form to better assess when including these resources is most appropriate. <sentence_start/>It would also be interesting to determine whether this pattern differs across other request form categories such as purpose of search, job title, and status (i.e. affiliation). <sentence_start/>This may be explored in a future study."
+  },
+  {
+   "section": "article",
+   "text": "Ideal number of total references"
+  },
+  {
+   "section": "article",
+   "text": "The results suggest that patrons tend to not click more than 20 links in a reference list, although no ideal number of total references was determined. <sentence_start/>Analysis of the 2022-2023 data [<citation rid=\"ref47\" ref-type=\"bibr\" count=\"1\">47</citation>] seemed to suggest that the total number of clicks a reference list received began to decrease when more than 30 references were provided in a list, and that total clicks were highest for lists with 20-30 references. <sentence_start/>However, this trend was less prominent in the 2023-2024 data and was not determined to be significant after further analysis."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "Influence of abstracts"
+  },
+  {
+   "section": "article",
+   "text": "Some of the references included in the lists do not have abstracts and it is possible that links for these resources are clicked more frequently because information about them is not readily available in the reference list. <sentence_start/>As point of care and quick reference resources generally do not have abstracts, this could potentially account for the higher proportion of clicks for these resources. <sentence_start/>Although it is theoretically possible to pass metadata concerning abstracts to the Short.io API, the library has not yet found a way to differentiate references with abstracts from those without abstracts using the macro. <sentence_start/>This may be worth exploring in the future."
+  },
+  {
+   "section": "article",
+   "text": "Multiple links for the same reference"
+  },
+  {
+   "section": "article",
+   "text": "When librarians compile reference lists that contain PMID and DOI links for a single reference, the DOI link appears at the end of the line, which may prompt patrons to click this link more often. <sentence_start/>This may account for the lower proportion of clicks for PMID links. <sentence_start/>Developing the macro so it is able to flag cases where there are two links for the same reference would enable the library to further investigate this, but the library has not done so at this point."
+  },
+  {
+   "section": "article",
+   "text": "Resource categorization"
+  },
+  {
+   "section": "article",
+   "text": "Resource categories were selective author-defined categories based on original URLs. <sentence_start/>It is possible that some resources that could be considered scholarly resources did not have a DOI, PMID, or PMCID URL and were instead categorized as Primo or \u201cother links.\u201d"
+  },
+  {
+   "section": "article",
+   "text": "Literature searches with no clicks"
+  },
+  {
+   "section": "article",
+   "text": "Although patrons clicked at least one link in 56% (n=194/344) of literature searches sent with trackable links, this means patrons did not try to access a single resource through the links provided in 44% (n=150/344) of searches. <sentence_start/>Possible explanations include that patrons prefer to access items through some other method (e.g. through Primo, document delivery, or PubMed), or that some patrons only read abstracts in reference lists rather than access the full text. <sentence_start/>Based on library account information, approximately 10% of the library\u2019s patrons also have student, study program, or faculty cross-appointments at the University of Manitoba and may have clicked links provided in reference lists while on campus. <sentence_start/>As campus IP addresses were blocked to remove librarians\u2019 test clicks, it is possible that some legitimate on-campus clicks were excluded from the data. <sentence_start/>The library could explore alternative approaches to testing links to enable tracking of on-campus links in the future."
+  },
+  {
+   "section": "article",
+   "text": "It is also possible that some literature searches received clicks after the data was pulled for analysis, especially if the search was completed near the end of the study period. <sentence_start/>Currently, the literature search links do not expire, but any links clicked after 31 October 2024, were not included in the analysis. <sentence_start/>As links could be clicked at any time in the future, even years after the original literature search was sent, it was necessary to use a specific cut-off date for the analysis."
+  },
+  {
+   "section": "article",
+   "text": "Searches without trackable links"
+  },
+  {
+   "section": "article",
+   "text": "Only 72% (n=344/480) of searches completed over this period were sent with trackable links and included in the analysis. <sentence_start/>As the macro is designed for use in Word, links could not be easily generated when patrons requested results in another format, such as RIS. <sentence_start/>Additionally, in rare cases the macro encountered an issue with the reference list, or the Short.io API was down or not working as anticipated, and literature searches were sent without the shortened links."
+  },
+  {
+   "section": "article",
+   "text": "Privacy concerns"
+  },
+  {
+   "section": "article",
+   "text": "Although Short.io is General Data Protection Regulation [<citation rid=\"ref48\" ref-type=\"bibr\" count=\"1\">48</citation>] compliant and does not share the data they collect with third-party services [<citation rid=\"ref49\" ref-type=\"bibr\" count=\"1\">49</citation>], there could be potential privacy concerns surrounding the collection, storage, and analysis of patron IP addresses. <sentence_start/>Although most of the IP addresses Short.io collects are from the patrons\u2019 institutions (e.g. hospitals), if the patron clicks a link on a personal network outside of their workplace the general location where the click originated may be potentially identifiable. <sentence_start/>To protect patron privacy, the library did not manipulate or analyze patron IP addresses in any way beyond using the option in the Short.io interface to exclude certain IP addresses from the data. <sentence_start/>IP addresses were not used to identify individuals or groups for the purposes of this study and the IP address data will not be shared outside of the library. <sentence_start/>Click data, including IP addresses, is automatically deleted from Short.io\u2019s server after one year [<citation rid=\"ref50\" ref-type=\"bibr\" count=\"1\">50</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Technical concerns"
+  },
+  {
+   "section": "article",
+   "text": "Since beginning this process there have occasionally been changes to the Short.io API that were not immediately identified and have required revisions to the macro. <sentence_start/>Any library using a similar method should be aware of this and monitor for changes to the API."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In addition to improving patron access to full-text links, the library\u2019s link generation process has provided useful information concerning patron engagement with the WRHAVL\u2019s literature search service. <sentence_start/>The library will continue utilizing this process and intends to analyze the data on a yearly basis to glean new insights into patron engagement with this service. <sentence_start/>Opportunities for further investigation include determining why some patrons do not click a single link, looking at whether inclusion or exclusion of abstracts affects click frequency, and further examining the relationship between total number of references provided and number of clicks. <sentence_start/>Other libraries are welcome to adapt the process and macro for their own literature search services."
+  },
+  {
+   "section": "back",
+   "text": "<sup>*</sup>The IV insertion literature search used as an example throughout this paper was created by the authors for the purposes of demonstrating the literature search process and was not an actual literature search completed by the library."
+  },
+  {
+   "section": "back",
+   "text": "Data availability statement"
+  },
+  {
+   "section": "back",
+   "text": "Summarized click and link data for each literature search can be found on Open Science Framework at . <sentence_start/>The VBA macro used to generate the trackable links is available under a GNU general public license and can be found at ."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest statement"
+  },
+  {
+   "section": "back",
+   "text": "At the time of submission and publication Tyler Ostapyk was Production Editor of the <italic>Journal of the Canadian Health Libraries Association</italic>."
+  }
+ ]
+}

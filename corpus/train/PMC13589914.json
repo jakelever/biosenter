@@ -1,0 +1,339 @@
+{
+ "pmid": 42764858,
+ "pmcid": 13589914,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Adjunct Corticosteroids in Children With Community-Acquired Pneumonia Presenting to the Emergency Department: A Systematic Review and Meta-Analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Community-acquired pneumonia (CAP) is a leading reason for acute pediatric presentation, and the exuberant host inflammatory response that characterizes severe disease has prompted interest in adjunct systemic corticosteroids. <sentence_start/>We systematically reviewed and, where feasible, meta-analyzed the randomized evidence in children."
+  },
+  {
+   "section": "abstract",
+   "text": "Following PRISMA 2020, we searched PubMed, the Excerpta Medica database (Embase), the Cochrane Library, Web of Science, and for randomized controlled trials comparing adjunct systemic corticosteroids plus standard care against standard care or placebo in children (&lt;18 years) with CAP. <sentence_start/>Risk of bias was assessed with the Cochrane Risk of Bias 2 (RoB 2) tool for randomized trials. <sentence_start/>Outcomes reported by more than one trial were pooled with random-effects models, with sensitivity analyses across alternative variance estimators; medians were converted to means using an established conversion method. <sentence_start/>Trial-specific primary outcomes were synthesized narratively."
+  },
+  {
+   "section": "abstract",
+   "text": "Three trials (251 children) were included. <sentence_start/>Each reported a significant benefit on its own primary outcome: shorter fever duration and fewer complications with methylprednisolone in severe CAP; shorter time to recovery with dexamethasone in parapneumonic effusion; and lower early treatment failure with dexamethasone in severe CAP. <sentence_start/>Pooled length of hospital stay favored corticosteroids (mean difference \u22122.10 days, 95% CI \u22126.79 to 2.59), with substantial heterogeneity reflecting differing clinical settings (I\u00b2 = 91%). <sentence_start/>All-cause mortality did not differ between groups (risk ratio 0.74, 95% CI 0.14 to 3.85). <sentence_start/>Corticosteroids were well tolerated, with transient hyperglycemia the most common adverse effect."
+  },
+  {
+   "section": "abstract",
+   "text": "Across three small, clinically heterogeneous randomized trials, adjunct systemic corticosteroids improved each trial's own primary outcome and were well tolerated. <sentence_start/>Because the trials were few, diverse in population and regimen, and imprecise when pooled, the current evidence is preliminary and hypothesis-generating and is insufficient to support routine use. <sentence_start/>The consistent, favorable signal supports adequately powered, phenotype-enriched pediatric trials with harmonized outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Introduction and background"
+  },
+  {
+   "section": "article",
+   "text": "Community-acquired pneumonia (CAP) remains one of the most common serious infections of childhood and a leading reason for acute presentation to the emergency department (ED) and for subsequent hospitalization worldwide [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1093/cid/cir531\" pmcid=\"PMC7107838\" pmid=\"21880587\" count=\"1\">1</citation>]. <sentence_start/>Although conjugate pneumococcal and <italic>Haemophilus influenzae</italic> type b vaccines have reduced severe bacterial disease, <italic>Streptococcus pneumoniae</italic> continues to impose a substantial global burden of childhood pneumonia morbidity and mortality [<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(09)61204-6\" pmid=\"19748398\" count=\"1\">2</citation>]. <sentence_start/>The clinical trajectory of CAP is shaped not only by microbial invasion but also by the host inflammatory response: a controlled response is required for pathogen clearance, whereas an exuberant or dysregulated response can propagate alveolar injury, impair gas exchange, and prolong recovery. <sentence_start/>This dual nature of inflammation provides the biological rationale for adjunctive immunomodulatory therapy, and it is against this background that systemic corticosteroids, agents that attenuate cytokine-driven inflammation, have been proposed as an adjunct to antibiotics in the acute management of CAP [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1093/cid/cir531\" pmcid=\"PMC7107838\" pmid=\"21880587\" count=\"1\">1</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In adults, corticosteroids have been studied extensively as adjunctive therapy for CAP. <sentence_start/>A landmark double-blind trial found that dexamethasone shortened the length of hospital stay [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(11)60607-7\" pmid=\"21636122\" count=\"1\">3</citation>], and a large multicenter trial reported that adjunct prednisone shortened the time to clinical stability, albeit with more hyperglycemia [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(14)62447-8\" pmid=\"25608756\" count=\"1\">4</citation>]. <sentence_start/>Contemporary meta-analyses indicate that corticosteroids probably reduce the length of hospital and intensive-care stay and, in severe CAP, may lower short-term mortality, although the magnitude of benefit varies with pneumonia severity, corticosteroid type, and treatment duration [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.3389/fmed.2024.1457469\" pmcid=\"PMC11576290\" pmid=\"39568743\" count=\"1\">5</citation>]. <sentence_start/>In severe CAP with a heightened inflammatory response, methylprednisolone reduced treatment failure [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1001/jama.2015.88\" pmid=\"25688779\" count=\"1\">6</citation>], and early hydrocortisone reduced 28-day mortality among adults admitted to intensive care with severe CAP [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2215145\" pmid=\"36942789\" count=\"1\">7</citation>]. <sentence_start/>These findings have prompted the incorporation of corticosteroids into adult severe-CAP guidance. <sentence_start/>The pathophysiology, microbial spectrum, and outcome profile of pediatric CAP, nevertheless, differ from those of adults. <sentence_start/>Mortality is far lower, and the endpoints of greatest relevance are functional (time to clinical recovery, duration of fever and oxygen requirement, and length of stay) rather than survival, so the pediatric question warrants dedicated evaluation."
+  },
+  {
+   "section": "article",
+   "text": "The pediatric evidence base is comparatively focused. <sentence_start/>Observational analyses have reached differing conclusions: retrospective multicenter data in hospitalized children have linked adjunct corticosteroids to shorter stays in some subgroups but to longer stays in children without concomitant reactive-airway features, raising the possibility that part of the observed benefit reflects co-treatment of wheezing illness [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1542/peds.2010-0983\" pmcid=\"PMC3025416\" pmid=\"21220397\" count=\"1\">8</citation>]. <sentence_start/>In the outpatient setting, corticosteroid co-prescription has not been shown to reduce treatment failure [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/jpids/piu017\" pmcid=\"PMC5965878\" pmid=\"26407353\" count=\"1\">9</citation>]. <sentence_start/>A small number of randomized controlled trials have directly evaluated systemic corticosteroids in children with CAP, and they differ in the corticosteroid used, the severity and phenotype of pneumonia enrolled, and the outcomes measured."
+  },
+  {
+   "section": "article",
+   "text": "The emergency department is the point of first medical contact for most children with acute CAP and the setting in which the decision to initiate adjunctive therapy is typically made, which motivates a focus on this early decision point. <sentence_start/>However, since no pediatric randomized trial has exclusively recruited participants from the emergency department, the eligible trials included children who were assessed and managed through both acute-care and inpatient pathways; therefore, the present findings apply to the broader acute-care pediatric CAP population that presents through or is triaged from the emergency department. <sentence_start/>We conducted a systematic review and meta-analysis of randomized controlled trials to evaluate the efficacy and safety of adjunct systemic corticosteroids, compared with standard antibiotic therapy alone or placebo, in children with CAP requiring acute or emergency assessment."
+  },
+  {
+   "section": "article",
+   "text": "Review"
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "Study Design"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis was designed, conducted, and reported in accordance with the PRISMA 2020 statement [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">10</citation>]. <sentence_start/>The review was not prospectively registered in a public registry; the eligibility criteria, primary and secondary outcomes, and analytic methods were, however, specified a priori before study selection and data extraction."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility Criteria"
+  },
+  {
+   "section": "article",
+   "text": "We included randomized controlled trials enrolling children (&lt;18 years) with CAP presenting for acute care that compared adjunct systemic corticosteroids (oral or intravenous) plus standard care against standard care alone or placebo and reported at least one prespecified clinical outcome. <sentence_start/>Because no existing pediatric randomized controlled trial recruited exclusively from the emergency department, presentation to the emergency department was operationalized as acute presentation of CAP requiring emergency or inpatient assessment rather than as a recruitment-site restriction. <sentence_start/>Non-randomized and observational studies, reviews, editorials, case reports, conference abstracts, preprints, and studies restricted to <italic>Mycoplasma pneumoniae</italic>-refractory pneumonia, inhaled or intrapleural corticosteroids, or non-CAP lower-respiratory infection were excluded. <sentence_start/>The eligibility framework is summarized in Table 1 using the Population, Intervention, Comparison, Outcome, and Study design (PICOS) structure."
+  },
+  {
+   "section": "article",
+   "text": "Information Sources and Search"
+  },
+  {
+   "section": "article",
+   "text": "We searched five databases-PubMed, Excerpta Medica database (Embase), the Cochrane Library, Web of Science, and -from database inception to the final search date (Appendix A), supplemented by hand-searching the reference lists of relevant reviews and included trials. <sentence_start/>No language restriction was applied. <sentence_start/>The search combined controlled vocabulary and free-text terms for community-acquired pneumonia, corticosteroids (dexamethasone, methylprednisolone, prednisolone, hydrocortisone, glucocorticoid), and pediatric age filters; the complete search strategy for each database is provided in Appendix A. <sentence_start/>Records were imported into a reference-management program and de-duplicated automatically, with any residual duplicates removed manually."
+  },
+  {
+   "section": "article",
+   "text": "Study Selection and Data Extraction"
+  },
+  {
+   "section": "article",
+   "text": "Records were screened by title and abstract, then by full text, in duplicate, with disagreements resolved by discussion. <sentence_start/>Records clearly ineligible on title and abstract (reviews and editorials, or adult populations) were excluded at the screening stage, and full texts were sought for all potentially eligible reports. <sentence_start/>Three reports could not be retrieved because the full text was unavailable through institutional subscriptions or interlibrary channels; these reports are listed in Appendix B and were not treated as an eligibility exclusion. <sentence_start/>Retrieved reports were then assessed against the full eligibility criteria. <sentence_start/>A standardized form captured study identifiers, design and blinding, sample size per arm, participant age and pneumonia phenotype, corticosteroid agent/dose/route/duration, comparator, co-administered antibiotics, and all reported outcomes with dispersion. <sentence_start/>Where continuous outcomes were reported as median and interquartile range, means and standard deviations were estimated using the method of Wan et al. [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1186/1471-2288-14-135\" pmcid=\"PMC4383202\" pmid=\"25524443\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias"
+  },
+  {
+   "section": "article",
+   "text": "Two reviewers independently assessed each trial with the Cochrane Risk of Bias 2 (RoB 2) tool across its five domains, with an overall judgment of low risk, some concerns, or high risk [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1136/bmj.l4898\" pmid=\"31462531\" count=\"1\">12</citation>]; disagreements were resolved by consensus."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Outcomes reported by more than one trial were pooled using a random-effects model, given the anticipated clinical and methodological diversity of the trials. <sentence_start/>Between-study variance was estimated with the DerSimonian-Laird method, chosen as the conventional and most widely used estimator to preserve comparability with the existing corticosteroid meta-analysis literature. <sentence_start/>Because random-effects intervals can be too narrow when few studies are available, we performed sensitivity analyses using alternative between-study variance estimators (restricted maximum likelihood and Paule-Mandel) and applied the Hartung-Knapp adjustment to the primary pooled estimate. <sentence_start/>Continuous outcomes were summarized as mean differences and dichotomous outcomes as risk ratios, each with 95% CIs. <sentence_start/>Heterogeneity was quantified with the I\u00b2 statistic, \u03c4\u00b2, and Cochran's Q, and interpreted using the Cochrane thresholds (I\u00b2 of 0%-40% possibly unimportant, 30%-60% moderate, 50-90% substantial, and 75%-100% considerable). <sentence_start/>The median-to-mean conversion of Wan et al. [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1186/1471-2288-14-135\" pmcid=\"PMC4383202\" pmid=\"25524443\" count=\"1\">11</citation>] assumes an approximately normal underlying distribution and derives the standard deviation from the interquartile range. <sentence_start/>Because fewer than 10 trials were available, small-study effects and publication bias were not formally assessed, as such tests are unreliable with few studies. <sentence_start/>Analyses were conducted in Python 3.12 [<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1038/s41586-020-2649-2\" pmcid=\"PMC7759461\" pmid=\"32939066\" count=\"1\">13</citation>] (NumPy 2.4, SciPy 1.17, matplotlib 3.10); the analysis script is provided in Appendix C."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "The database search identified 336 records across five databases (PubMed, n = 72; Embase, n = 81; Cochrane Library, n = 11; Web of Science, n = 69; , n = 103). <sentence_start/>After 216 duplicates were removed, 120 records were screened by title and abstract, of which 95 were excluded (46 reviews or editorials and 49 conducted in adult populations). <sentence_start/>Full texts were sought for the remaining 25 reports; three could not be retrieved because the full text was unavailable, leaving 22 reports assessed for eligibility. <sentence_start/>A further 19 were excluded as not related to emergency or acute presentation, leaving three randomized controlled trials that met all eligibility criteria [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>-<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>]. <sentence_start/>These trials randomized 251 children (125 to adjunct systemic corticosteroids and 126 to control). <sentence_start/>The selection process is shown in Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA 2020 flow diagram outlining the study selection process"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of the Included Studies"
+  },
+  {
+   "section": "article",
+   "text": "The trials were clinically diverse (Table 2). <sentence_start/>Nagy et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>] studied a five-day course of intravenous methylprednisolone added to imipenem in 59 children (one to 12 years) with severe CAP. <sentence_start/>Tagarro et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>] (the multicenter CORTEEC trial) evaluated 48 hours of intravenous dexamethasone added to cefotaxime in 60 children (one month-14 years) with CAP and parapneumonic pleural effusion. <sentence_start/>Singh et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>] assessed intravenous dexamethasone for up to five days added to standard care in 132 children (two months-15 years) with WHO-defined severe CAP. <sentence_start/>The trials differed in corticosteroid agent, dose, and duration; in clinical phenotype; and in their primary endpoints (day-7 clinical/laboratory parameters, time to recovery, and treatment failure at 72 hours, respectively)."
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias"
+  },
+  {
+   "section": "article",
+   "text": "All three trials were judged at low risk of bias across all five domains and overall using the Cochrane RoB 2 tool (Figure 2). <sentence_start/>Randomization and allocation concealment were adequate, outcome data were complete with intention-to-treat analysis, outcomes were objectively defined and assessed (with independent verification where a trial was not blinded), and results were reported in line with the prespecified outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Risk-of-bias summary (Cochrane Risk of Bias 2 (RoB 2))"
+  },
+  {
+   "section": "article",
+   "text": "Length of Hospital Stay"
+  },
+  {
+   "section": "article",
+   "text": "Nagy et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>] and Singh et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>] reported length of stay; Tagarro et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>] used time to recovery instead. <sentence_start/>The pooled mean difference favoured corticosteroids at \u22122.10 days (95% CI \u22126.79 to 2.59; p = 0.38), with substantial heterogeneity (I\u00b2 = 91%; \u03c4\u00b2 = 10.4; Q = 10.6, p = 0.001) (Figure 3). <sentence_start/>This heterogeneity reflects the different clinical contexts of the two trials: Nagy et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>] reported a marked reduction with methylprednisolone (median 11.0 vs 16.5 days) where baseline hospitalizations were long, whereas Singh et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>], in a setting where the baseline stay was already short (median 6.0 vs 6.5 days), had little further room for reduction. <sentence_start/>The two trials are therefore most informative when read alongside their clinical context."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Random-effects meta-analysis of length of hospital stay (mean difference (MD), days). <sentence_start/>Negative values favor corticosteroids."
+  },
+  {
+   "section": "article",
+   "text": "All-Cause Mortality"
+  },
+  {
+   "section": "article",
+   "text": "Mortality was reported by Tagarro et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>] (0/30 vs 1/30), and Singh et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>] (2/66 vs 2/66); Nagy et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>] did not report deaths. <sentence_start/>All-cause mortality did not differ between groups (pooled risk ratio 0.74, 95% CI 0.14 to 3.85; I\u00b2 = 0%) (Figure 4), consistent with the low mortality expected in childhood CAP."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Random-effects meta-analysis of all-cause mortality (risk ratio (RR), log scale)"
+  },
+  {
+   "section": "article",
+   "text": "Trial-Specific Primary Outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Because the trials measured different primary endpoints, these were synthesized narratively, and each trial demonstrated a significant benefit. <sentence_start/>Nagy et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>] found that adjunct methylprednisolone shortened fever duration (median 2.0 vs 4.0 days; p = 0.006) and lowered day-7 white-cell counts (8.4 vs 11.1 G/L; p = 0.023); the difference in high-sensitivity CRP (20.5 vs 35.1 mg/L) was not significant after adjustment (p = 0.53). <sentence_start/>Fewer corticosteroid-treated children developed complications (9/29 vs 18/30; p = 0.026) or required invasive procedures such as drainage or decortication (4 vs 16; p = 0.001). <sentence_start/>Tagarro et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>] reported that dexamethasone reduced the median time to recovery from 177 to 109 hours (~38%; p = 0.037; adjusted hazard ratio 1.95, 95% CI 1.10-3.45, p = 0.021); the benefit was concentrated in children with simple effusion (p = 0.017). <sentence_start/>Singh et al. [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>] found that dexamethasone approximately halved treatment failure at 72 hours (25.8% vs 60.6%; hazard ratio 0.32, 95% CI 0.18-0.57; p = 0.001), driven by reductions in progression to respiratory failure (10.6% vs 31.8%; odds ratio 0.25; p = 0.004) and radiographic progression (22.7% vs 57.6%; odds ratio 0.22; p = 0.001)."
+  },
+  {
+   "section": "article",
+   "text": "Adverse Events"
+  },
+  {
+   "section": "article",
+   "text": "Adverse events were reported inconsistently and were not pooled. <sentence_start/>Tagarro et al. [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>] observed more hyperglycaemia with dexamethasone (15/30 vs 6/30; risk ratio 2.5, 95% CI 1.2-5.5), mostly mild and transient, with a single child (later found to be prediabetic) requiring insulin. <sentence_start/>Singh et al. reported no significant excess of adverse events, and Nagy et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>] reported no treatment-related adverse events. <sentence_start/>Overall, corticosteroids were well tolerated, with transient hyperglycaemia the most consistent signal."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review synthesized the randomized evidence on adjunct systemic corticosteroids in children with CAP and identified three eligible trials, together enrolling 251 children [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>-<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>]. <sentence_start/>Each trial reported a statistically significant benefit on its own prespecified primary outcome: methylprednisolone shortened fever duration and reduced complications in severe CAP [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>], dexamethasone shortened the time to recovery in CAP complicated by parapneumonic effusion [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>], and dexamethasone approximately halved early treatment failure in severe CAP [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>]. <sentence_start/>When outcomes reported by more than one trial were pooled, length of hospital stay favored corticosteroids, and mortality did not differ between groups. <sentence_start/>The consistency of benefit within each trial is noteworthy, but the pooled analyses are shaped by the clinical diversity of the trials and by the imprecision that follows from having so few studies, so the findings are best read as a consistent direction of effect rather than as a precise estimate of benefit."
+  },
+  {
+   "section": "article",
+   "text": "The heterogeneity in length of stay (I\u00b2 = 91%) is best understood as clinical rather than merely statistical. <sentence_start/>Nagy et al. studied severe CAP treated with intravenous methylprednisolone against a backdrop of long hospitalizations (median 11 to 16 days) in a single European center, whereas Singh et al. studied severe CAP treated with dexamethasone in an Indian setting where the baseline length of stay was less than half as long (median six to 6.5 days) [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>]. <sentence_start/>When the baseline stay is already short, there is limited room for a large absolute reduction. <sentence_start/>The pooled point estimate was stable across DerSimonian-Laird, restricted maximum likelihood, and Paule-Mandel estimators, but the Hartung-Knapp adjustment produced a much wider interval, so the length-of-stay result should be regarded as directional rather than definitive and is best interpreted together with the clinical context of each trial."
+  },
+  {
+   "section": "article",
+   "text": "Beyond baseline length of stay, the trials differed in ways that limit direct comparison and caution against treating them as evaluations of a single interchangeable therapy. <sentence_start/>The populations spanned wide and differing age ranges and distinct phenotypes; one trial enrolled children with parapneumonic pleural effusion while the others enrolled severe CAP, so the trials may represent conditions with different prognoses and treatment responses. <sentence_start/>The interventions also differed substantially in agent, dose, dosing interval, and duration, and the antibiotic backbone ranged from imipenem and cefotaxime to less standardized usual care. <sentence_start/>Expressed in prednisone-equivalent terms (relative glucocorticoid potencies of approximately 1.25 for methylprednisolone and 6.25 for dexamethasone), the methylprednisolone regimen delivered roughly 0.6-2.5 mg/kg/day of prednisone equivalent over five days, whereas the dexamethasone regimens delivered a substantially higher daily equivalent (approximately 5-6 mg/kg/day) over shorter courses of 48 hours to five days. <sentence_start/>These differences in potency-adjusted dose, duration, and co-treatment mean the trials cannot be regarded as testing a common class effect, and the pooled and narrative findings should be interpreted as the combined signal of related but non-identical interventions. <sentence_start/>Because age-stratified outcome data were not reported across the trials, a subgroup analysis by pediatric age band was not feasible."
+  },
+  {
+   "section": "article",
+   "text": "The pediatric findings sit within a larger and more mature adult literature, and the comparison is instructive. <sentence_start/>In hospitalized adults, dexamethasone shortened the length of stay in a landmark double-blind trial [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(11)60607-7\" pmid=\"21636122\" count=\"1\">3</citation>], and adjunct prednisone shortened the time to clinical stability in a large multicenter trial, albeit with more hyperglycemia [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(14)62447-8\" pmid=\"25608756\" count=\"1\">4</citation>]. <sentence_start/>In severe CAP with a high inflammatory response, methylprednisolone reduced treatment failure [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1001/jama.2015.88\" pmid=\"25688779\" count=\"1\">6</citation>], and the CAPE-COD trial demonstrated that early hydrocortisone reduced 28-day mortality among adults admitted to intensive care with severe CAP [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2215145\" pmid=\"36942789\" count=\"1\">7</citation>]. <sentence_start/>Contemporary meta-analyses of adult trials conclude that corticosteroids probably reduce the length of hospital and intensive care stays and, in the most severe presentations, mortality [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.3389/fmed.2024.1457469\" pmcid=\"PMC11576290\" pmid=\"39568743\" count=\"1\">5</citation>,<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1016/j.jcrc.2023.154507\" pmid=\"38128217\" count=\"1\">17</citation>]. <sentence_start/>The pediatric signal for functional outcomes is directionally concordant with this adult evidence, while death is an exceedingly rare event in childhood CAP, so mortality is neither an achievable nor an appropriate primary target for pediatric trials."
+  },
+  {
+   "section": "article",
+   "text": "A clinically important thread running through both the included trials and the wider literature is that benefit appears concentrated in inflammatory phenotypes. <sentence_start/>Tagarro et al. found that the reduction in time to recovery was significant among children with simple effusion [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>], and Singh et al. observed that the treatment-failure benefit was driven by reductions in radiographic progression and progression to respiratory failure [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>]. <sentence_start/>This mirrors the adult observation that the treatment-failure benefit of corticosteroids was demonstrated specifically in patients selected for a high C-reactive protein [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1001/jama.2015.88\" pmid=\"25688779\" count=\"1\">6</citation>]. <sentence_start/>Taken together, these observations support a phenotype-directed approach in which the inflammatory milieu helps identify the children most likely to benefit, rather than the application of corticosteroids to every child with CAP."
+  },
+  {
+   "section": "article",
+   "text": "The observational pediatric literature adds useful context. <sentence_start/>In a large multicenter analysis of children hospitalized with CAP, systemic corticosteroids were associated with a shorter length of stay, particularly among children who also received beta-agonists [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1542/peds.2010-0983\" pmcid=\"PMC3025416\" pmid=\"21220397\" count=\"1\">8</citation>], and an emergency-department cohort examined child- and family-centered quality-of-life outcomes [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1097/PEC.0000000000002984\" pmcid=\"PMC10351650\" pmid=\"37306694\" count=\"1\">18</citation>]. <sentence_start/>In the outpatient setting, corticosteroid co-prescription was not associated with reduced treatment failure [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/jpids/piu017\" pmcid=\"PMC5965878\" pmid=\"26407353\" count=\"1\">9</citation>]. <sentence_start/>These data suggest that the benefit is most evident in more severe or inflammation-driven presentations and the populations enrolled in the randomized trials and reinforce the value of selecting candidates by phenotype."
+  },
+  {
+   "section": "article",
+   "text": "The safety profile across the three trials was reassuring. <sentence_start/>The most consistent adverse signal was transient hyperglycemia, reported at a higher frequency with dexamethasone by Tagarro et al. and generally mild [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1016/j.jpeds.2017.02.043\" pmid=\"28363363\" count=\"1\">15</citation>], while Singh et al. and Nagy et al. reported no significant excess of adverse events [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1002/ppul.22574\" pmid=\"22588852\" count=\"1\">14</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1136/archdischild-2025-328990\" pmid=\"41663239\" count=\"1\">16</citation>]. <sentence_start/>This is congruent with adult experience, where hyperglycemia is the most reproducible and generally manageable harm [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(14)62447-8\" pmid=\"25608756\" count=\"1\">4</citation>]. <sentence_start/>Longer-term follow-up was not available in the included trials and would help characterize any delayed effects."
+  },
+  {
+   "section": "article",
+   "text": "Several implications follow. <sentence_start/>Each trial demonstrated a functional benefit, and the therapy was well tolerated, which is encouraging; however, three small, clinically and therapeutically heterogeneous trials with imprecise pooled estimates cannot establish the size or generalizability of that benefit. <sentence_start/>The current evidence is therefore best regarded as preliminary and hypothesis-generating and does not support the routine use of adjunct corticosteroids in children with CAP. <sentence_start/>The consistent, favorable direction of effect, particularly in severe or inflammation-driven phenotypes, provides a strong rationale for an adequately powered, multicenter pediatric randomized trial using a single harmonized corticosteroid regimen, a prespecified inflammatory-enrichment strategy, a core outcome set that privileges patient-centered functional endpoints and length of stay, and follow-up long enough to characterize tolerability."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "This review has several limitations, most flowing from the size and diversity of the current evidence base. <sentence_start/>Only three randomized trials met the eligibility criteria, and they differed in corticosteroid agent, potency-adjusted dose, and duration; in antibiotic co-treatment; in clinical phenotype and age range; and in their primary outcomes, which limited the outcomes that could be pooled and precluded a common class-effect interpretation and age-stratified subgroup analysis. <sentence_start/>For length of stay, both contributing trials reported medians and interquartile ranges, which we converted to means and standard deviations using an established method [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1186/1471-2288-14-135\" pmcid=\"PMC4383202\" pmid=\"25524443\" count=\"1\">11</citation>] that assumes approximate normality; the pooled estimate was accompanied by substantial heterogeneity and, under the Hartung-Knapp adjustment, wide confidence limits, and therefore warrants cautious interpretation. <sentence_start/>The mortality analysis was based on few events because death is rare in childhood CAP, and one trial did not report deaths. <sentence_start/>The review was not prospectively registered, and three potentially relevant reports could not be retrieved; although these were not excluded on eligibility grounds, their unavailability is a limitation. <sentence_start/>Because fewer than 10 trials were available, small-study effects and publication bias could not be reliably assessed. <sentence_start/>Finally, no eligible trial recruited exclusively from the emergency department, so the evidence applies to the broader acute-care pediatric CAP population rather than to the ED decision point alone."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Across three small, clinically heterogeneous randomized trials of children with CAP (251 participants in total), adjunct systemic corticosteroids improved each trial's own primary outcome: faster fever resolution and fewer complications, shorter time to recovery in parapneumonic effusion, and reduced early treatment failure in severe disease, and were well tolerated, with transient hyperglycemia the principal adverse effect. <sentence_start/>Pooled analyses favored corticosteroids for length of stay and showed no difference in mortality but were limited by the small number of trials, their clinical and therapeutic diversity, and the imprecision of the pooled estimates. <sentence_start/>The current evidence should therefore be regarded as preliminary and hypothesis-generating and is insufficient to support the routine use of adjunct corticosteroids in children with CAP. <sentence_start/>The consistent, favorable signal, particularly in severe or inflammation-driven phenotypes, provides a strong rationale for adequately powered, phenotype-enriched pediatric randomized trials with harmonized regimens and outcomes to determine whether, and in whom, adjunctive corticosteroids should be used."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> Meshari Dalbouh, Sarra Elnour Ahmed Elnour, Alaa Hamed Hag Elzain Eltoum, Muna Omer Abdelgayoum Ahmed, Hind GasmElseed"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Meshari Dalbouh, Hana Gasmelsaid Almamoun Gamaraldin, Alaa Hamed Hag Elzain Eltoum, Muna Omer Abdelgayoum Ahmed, Hind GasmElseed, Tyseer Hassan Abdelgadie Abdelhafeez"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Supervision:</bold> Meshari Dalbouh"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> Sarra Elnour Ahmed Elnour, Hana Gasmelsaid Almamoun Gamaraldin, Muna Omer Abdelgayoum Ahmed, Tyseer Hassan Abdelgadie Abdelhafeez"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> Sarra Elnour Ahmed Elnour, Hana Gasmelsaid Almamoun Gamaraldin, Alaa Hamed Hag Elzain Eltoum, Hind GasmElseed, Tyseer Hassan Abdelgadie Abdelhafeez"
+  },
+  {
+   "section": "back",
+   "text": "Appendices"
+  },
+  {
+   "section": "back",
+   "text": "Appendix 1"
+  },
+  {
+   "section": "back",
+   "text": "Search Strategy"
+  },
+  {
+   "section": "back",
+   "text": "Databases searched: PubMed, Embase, the Cochrane Library (CENTRAL), Web of Science, and , from inception to the final search date. <sentence_start/>The final search date and the exact date each database was last searched should be recorded here. <sentence_start/>Example strategy (PubMed), adapted to the controlled vocabulary of each database:"
+  },
+  {
+   "section": "back",
+   "text": "(\"pneumonia\"[MeSH Terms] OR \"community-acquired pneumonia\"[Title/Abstract] OR CAP[Title/Abstract]) AND (\"adrenal cortex hormones\"[MeSH Terms] OR corticosteroid*[Title/Abstract] OR glucocorticoid*[Title/Abstract] OR dexamethasone[Title/Abstract] OR methylprednisolone[Title/Abstract] OR prednisolone[Title/Abstract] OR prednisone[Title/Abstract] OR hydrocortisone[Title/Abstract]) AND (\"child\"[MeSH Terms] OR child*[Title/Abstract] OR paediatric*[Title/Abstract] OR pediatric*[Title/Abstract] OR infant*[Title/Abstract] OR adolescent*[Title/Abstract]) AND (\"randomized controlled trial\"[Publication Type] OR randomi*[Title/Abstract] OR placebo[Title/Abstract] OR trial[Title/Abstract])"
+  },
+  {
+   "section": "back",
+   "text": "Equivalent strategies using Emtree terms (Embase), the CENTRAL interface (Cochrane Library), topic searches (Web of Science), and condition/intervention fields ( ) were applied."
+  },
+  {
+   "section": "back",
+   "text": "Appendix B"
+  },
+  {
+   "section": "back",
+   "text": "Excluded Studies"
+  },
+  {
+   "section": "back",
+   "text": "1. Huang L, Gao X, Chen M. Early treatment with corticosteroids in patients with Mycoplasma pneumoniae pneumonia: a randomized clinical trial. <sentence_start/>J Trop Pediatr. 2014 Oct;60(5):338-42. doi: 10.1093/tropej/fmu022. <sentence_start/>Epub 2014 Apr 7. PMID: 24710342. <sentence_start/>2. <sentence_start/>Bowles AK, Rodean J, Siegel EJ, Gray S, Vanja S, Howard LO, Orebiyi G, McDaniel CE, Mendoza JC, Edwards Y, McCulloch CE, Gonzales R, Auerbach AD, Kaiser SV. <sentence_start/>Examining Disparities in Pediatric Asthma, Pneumonia, and Bronchiolitis Care in General Hospitals. Hosp Pediatr. 2026 Jul 1;16(7):592-599. doi: 10.1542/hpeds.2025-008951. <sentence_start/>PMID: 42270087. <sentence_start/>3. <sentence_start/>Yeh TF, Srinivasan G, Harris V, Pildes RS. <sentence_start/>Hydrocortisone therapy in meconium aspiration syndrome: a controlled study. J Pediatr. 1977 Jan;90(1):140-3. doi: 10.1016/S0022-3476(77)80789-0. PMID: 830880."
+  },
+  {
+   "section": "back",
+   "text": "Appendix C"
+  },
+  {
+   "section": "back",
+   "text": "Statistical Reproducibility"
+  },
+  {
+   "section": "back",
+   "text": "Analyses were performed in Python 3.12 using NumPy 2.4, SciPy 1.17, and matplotlib 3.10. <sentence_start/>Pooled estimates used random-effects models with the DerSimonian-Laird between-study variance estimator; sensitivity analyses used restricted maximum likelihood and Paule-Mandel estimators and the Hartung-Knapp adjustment. <sentence_start/>Continuous outcomes reported as median (interquartile range) were converted to mean and standard deviation using the method of Wan et al., which assumes an approximately normal distribution and derives the standard deviation from the interquartile range. <sentence_start/>The complete analysis script is available from the authors on request."
+  }
+ ]
+}

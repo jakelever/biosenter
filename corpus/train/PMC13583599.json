@@ -1,0 +1,503 @@
+{
+ "pmid": 42756751,
+ "pmcid": 13583599,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Vitamin D in male reproduction: molecular mechanisms and pharmacological perspectives"
+  },
+  {
+   "section": "abstract",
+   "text": "Vitamin D has attracted increasing attention in male reproduction, male fertility, and sperm function, but its pharmacological relevance remains incompletely defined. <sentence_start/>This review synthesizes current evidence on the molecular mechanisms and clinical implications of vitamin D signaling in the male reproductive system. <sentence_start/>Available experimental and human data suggest that the vitamin D receptor (VDR) and vitamin D-metabolizing enzymes are present in testicular cells, the epididymis, accessory sex glands, and mature spermatozoa, supporting the possibility of both systemic and local actions. <sentence_start/>Mechanistically, vitamin D may regulate sperm capacitation and progressive motility through calcium-dependent non-genomic pathways. <sentence_start/>Ligand-activated VDR signaling may also contribute to antioxidant defense, mitochondrial stability, inflammatory control, steroidogenesis, germ-cell survival, and epigenetic regulation, although several of these pathways still require direct validation in human testicular tissue and spermatozoa. <sentence_start/>Clinically, low circulating 25-hydroxyvitamin D has been most consistently associated with impaired sperm motility, whereas associations with sperm concentration, total sperm count, reproductive hormones, and sperm DNA fragmentation index are less consistent. <sentence_start/>Interventional studies suggest that vitamin D supplementation may improve selected semen parameters in deficient men, but current trials do not support broad endocrine or fertility benefits in unselected populations. <sentence_start/>Importantly, emerging preclinical data indicate that excessive vitamin D exposure may impair spermatogenesis, highlighting a potential biphasic relationship in which both deficiency and excess are unfavorable. <sentence_start/>Thus, vitamin D should be viewed as a homeostatic modulator rather than a stand-alone treatment for male infertility. <sentence_start/>Future studies should define optimal therapeutic windows, clarify effects on sperm DNA integrity, and incorporate individual differences in VDR-related genetic and epigenetic regulation."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "1.1"
+  },
+  {
+   "section": "article",
+   "text": "The clinical challenge of male infertility"
+  },
+  {
+   "section": "article",
+   "text": "Infertility represents a significant global health burden, impacting an estimated 70-80 million couples and reflecting an overall prevalence of 8%-12% (<citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.1371/journal.pmed.1001356\" pmid=\"23271957\" pmcid=\"PMC3525527\" count=\"1\">Mascarenhas et al., 2012</citation>; <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1093/humrep/dem046\" pmid=\"17376819\" count=\"1\">Boivin et al., 2007</citation>). <sentence_start/>Male-specific issues are solely responsible for roughly 20%-30% of these diagnoses, while co-contributing alongside female factors in an additional 25%-40% of cases (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1186/s12958-015-0032-1\" pmid=\"25928197\" pmcid=\"PMC4424520\" count=\"1\">Agarwal et al., 2015</citation>). <sentence_start/>The pathogenic origins of male infertility are highly diverse, driven by a combination of environmental, immunological, endocrine, and genetic determinants. <sentence_start/>Significantly, up to 40% of these clinical presentations are categorized as idiopathic, meaning that conventional diagnostic workups fail to reveal a definitive etiology (<citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1093/humrep/dew284\" pmid=\"27864361\" pmcid=\"PMC5165077\" count=\"1\">Punab et al., 2017</citation>; <citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.5534/wjmh.190055\" pmid=\"31081299\" pmcid=\"PMC6704307\" count=\"1\">Agarwal et al., 2019</citation>). <sentence_start/>While routine semen quality assessments-evaluating sperm concentration, total count, motility, and morphology-are fundamental diagnostic tools, the correlation between these parameters and actual fertility outcomes is not strictly linear (<citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.1056/nejmoa003005\" pmid=\"11794171\" count=\"1\">Guzick et al., 2001</citation>). <sentence_start/>This persistent diagnostic and therapeutic gap underscores the urgent need to explore novel molecular mechanisms and potential pharmacological targets for male infertility."
+  },
+  {
+   "section": "article",
+   "text": "1.2"
+  },
+  {
+   "section": "article",
+   "text": "Pharmacological profile and molecular metabolism of vitamin D"
+  },
+  {
+   "section": "article",
+   "text": "Vitamin D is a fat-soluble secosteroid primarily existing in two forms: vitamin D<sub>2</sub> (ergocalciferol) and vitamin D<sub>3</sub> (cholecalciferol) (<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1056/nejmra070553\" pmid=\"17634462\" count=\"1\">Holick, 2007</citation>). <sentence_start/>In its parent form, vitamin D is biologically inactive and requires two sequential hydroxylation reactions to achieve its active pharmacological state (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1152/physrev.00014.2015\" pmid=\"26681795\" pmcid=\"PMC4839493\" count=\"1\">Christ et al., 2016</citation>). <sentence_start/>The first of these conversions is generally thought to occur in the liver, facilitated by 25-hydroxylase (CYP2R1) to form 25-hydroxyvitamin D<sub>3</sub> [25(OH)D<sub>3</sub>]-often considered the primary serum indicator for clinical evaluations of vitamin D levels (<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1093/ajcn/88.2.582S\" pmid=\"18689406\" count=\"1\">Jones, 2008</citation>). <sentence_start/>Following this, a carefully regulated second hydroxylation usually happens within the renal system, where 1\u03b1-hydroxylase (CYP27B1) catalyzes the creation of the potent secosteroid hormone 1,25-dihydroxyvitamin D<sub>3</sub> [1,25(OH)<sub>2</sub>D<sub>3</sub>] (<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2013.12.016\" pmid=\"24529992\" pmcid=\"PMC3968073\" count=\"1\">Bikle, 2014</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Current consensus indicates that the physiological impacts of 1,25(OH)<sub>2</sub>D<sub>3</sub> are largely mediated by its interaction with the vitamin D receptor (VDR) (<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1007/s00223-012-9619-0\" pmid=\"22782502\" count=\"1\">Haussler et al., 2013</citation>). <sentence_start/>As a recognized member of the nuclear receptor superfamily, VDR is believed to pair with the retinoid X receptor (RXR) upon ligand attachment, forming a heterodimer that connects to specific vitamin D response elements (VDREs) to help orchestrate target gene transcription (<citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1530/JME-19-0246\" pmid=\"32229699\" count=\"1\">Hanel et al., 2020</citation>). <sentence_start/>Although its classical roles are mainly associated with calcium and phosphorus regulation in the bones, kidneys, and intestines, the widespread detection of VDR across diverse human tissues indicates that vitamin D might engage in a much broader spectrum of non-classical, pleiotropic activities (<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1210/er.2008-0004\" pmid=\"18694980\" pmcid=\"PMC2583388\" count=\"1\">Bouillon et al., 2008</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "1.3"
+  },
+  {
+   "section": "article",
+   "text": "Bridging vitamin D and reproductive pharmacology"
+  },
+  {
+   "section": "article",
+   "text": "Over the past few years, the potential convergence of reproductive endocrinology and vitamin D pathways has drawn increasing attention from the pharmacological community (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.5534/wjmh.190057\" pmid=\"31190482\" pmcid=\"PMC7076312\" count=\"1\">Cito et al., 2020</citation>). <sentence_start/>While its regulatory role in female reproductive health-such as in polycystic ovary syndrome, endometriosis, and assisted reproductive technology (ART) outcomes-is well-documented, its precise impact on male reproduction is an emerging Frontier (<citation rid=\"B53\" ref-type=\"bibr\" doi=\"10.3892/etm.2020.8525\" pmid=\"32256745\" pmcid=\"PMC7086222\" count=\"1\">Miao et al., 2020</citation>). <sentence_start/>Initial investigations have noted the detectable presence of VDR across multiple male reproductive tissues, including the seminal vesicles, prostatic glands, epididymal tract, and testes (<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1210/endocr/bqaa023\" pmid=\"32067036\" count=\"1\">Chen and Zhi, 2020</citation>). <sentence_start/>Notably, researchers have also reported finding essential vitamin D-metabolizing enzymes alongside VDR within fully developed sperm cells (<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.ijsu.2019.09.025\" pmid=\"31561004\" count=\"1\">Arab et al., 2019</citation>). <sentence_start/>Such observations tentatively suggest the hypothesis that vitamin D might play a direct, localized role in orchestrating the molecular mechanisms of male reproductive operations (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.5534/wjmh.190057\" pmid=\"31190482\" pmcid=\"PMC7076312\" count=\"1\">Cito et al., 2020</citation>). <sentence_start/>Despite these molecular clues, the specific pharmacological networks and the actual clinical benefits of administering vitamin D to infertile men are still viewed as highly debatable, often yielding inconsistent results among various observational cohorts and clinical trials (<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.ijsu.2019.09.025\" pmid=\"31561004\" count=\"1\">Arab et al., 2019</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "1.4"
+  },
+  {
+   "section": "article",
+   "text": "Scope of the review"
+  },
+  {
+   "section": "article",
+   "text": "Moving beyond simple epidemiological correlations, this narrative synthesis intends to offer a cautious evaluation of the pharmacological prospects and underlying molecular pathways of vitamin D in the context of male fertility. <sentence_start/>We first aim to methodically review the localized presence of VDR and its corresponding metabolic machinery across various segments of the male reproductive tract (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.5534/wjmh.190057\" pmid=\"31190482\" pmcid=\"PMC7076312\" count=\"1\">Cito et al., 2020</citation>). <sentence_start/>Furthermore, we will explore the precise molecular pathways through which vitamin D modulates sperm function, including calcium ion channel regulation, antioxidant defense mechanisms against oxidative stress, and steroidogenic gene regulation (<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1007/s11154-017-9425-0\" pmid=\"28667465\" count=\"1\">De Angelis et al., 2017</citation>). <sentence_start/>Finally, we provide a critical appraisal of contemporary clinical trials, attempting to help reconcile the existing divide between fundamental molecular pharmacology and the practical utility of vitamin D therapies for infertile patients. <sentence_start/>In response to the growing translational interest in vitamin D biology, this review also discusses pharmacokinetic and pharmacodynamic considerations, potential biomarkers of treatment response, safety issues, and the current limitations of genotype- or epigenotype-guided vitamin D supplementation in male infertility."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Molecular distribution of vitamin D components within the male reproductive system"
+  },
+  {
+   "section": "article",
+   "text": "To evaluate local vitamin D signaling without overextending systemic associations, it is useful to first map VDR and key metabolic enzymes across the male reproductive tract. <sentence_start/>Human studies and focused reviews support the presence of vitamin D-related signaling components in the testis, epididymis, accessory glands, and mature spermatozoa (<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1007/s11154-017-9425-0\" pmid=\"28667465\" count=\"1\">De Angelis et al., 2017</citation>; <citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1007/s10654-023-00987-5\" pmid=\"36952117\" pmcid=\"PMC10976978\" count=\"1\">Gaml-S\u00f8rensen et al., 2023</citation>; <citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1093/humrep/deq024\" pmid=\"20172873\" count=\"1\">Blomberg Jensen et al., 2010</citation>). <sentence_start/>This distribution provides an anatomical basis for local signaling, but the strength of functional evidence differs among tissues."
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Testicular expression and local metabolism"
+  },
+  {
+   "section": "article",
+   "text": "Evidence for a testicular vitamin D axis comes from direct tissue studies, focused reviews, and broader human reproductive investigations (<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1007/s11154-017-9425-0\" pmid=\"28667465\" count=\"1\">De Angelis et al., 2017</citation>; <citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1007/s10654-023-00987-5\" pmid=\"36952117\" pmcid=\"PMC10976978\" count=\"1\">Gaml-S\u00f8rensen et al., 2023</citation>; <citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1093/humrep/deq024\" pmid=\"20172873\" count=\"1\">Blomberg Jensen et al., 2010</citation>). <sentence_start/>Immunohistochemical and molecular analyses have localized VDR in developing germ cells, Sertoli cells, and Leydig cells, while expression of CYP27B1 and CYP24A1 supports the capacity for local activation and catabolism of vitamin D (<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1093/humrep/deq024\" pmid=\"20172873\" count=\"1\">Blomberg Jensen et al., 2010</citation>). <sentence_start/>This local machinery provides an anatomical basis for autocrine/paracrine vitamin D signaling during spermatogenesis and steroidogenesis, although cell-type-specific activity and physiological concentrations in the human testis remain incompletely defined."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Epididymis and accessory sex glands"
+  },
+  {
+   "section": "article",
+   "text": "The epididymis and accessory glands provide the luminal microenvironment for sperm maturation and transport. <sentence_start/>In human tissue, VDR together with vitamin D-metabolizing enzymes has been demonstrated in the epididymis, seminal vesicles, and prostate epithelium (<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1093/humrep/deq024\" pmid=\"20172873\" count=\"1\">Blomberg Jensen et al., 2010</citation>). <sentence_start/>These findings support a potential local role in epithelial and secretory function and in epididymal sperm maturation. <sentence_start/>However, direct functional studies in these accessory tissues remain limited, so proposed effects on seminal-fluid composition should be regarded as plausible rather than established."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Localization in mature spermatozoa"
+  },
+  {
+   "section": "article",
+   "text": "VDR and vitamin D-metabolizing enzymes have also been detected directly in mature human spermatozoa. <sentence_start/>Foundational human studies localized VDR predominantly to the sperm head/nuclear region with some neck labeling and demonstrated sperm expression of local vitamin D metabolic machinery (<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1093/humrep/deq024\" pmid=\"20172873\" count=\"1\">Blomberg Jensen et al., 2010</citation>; <citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/j.1469-7580.2008.00975.x\" pmid=\"19014363\" pmcid=\"PMC2667550\" count=\"1\">Aquila et al., 2008</citation>; <citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1186/1477-7827-7-140\" pmid=\"19948036\" pmcid=\"PMC2794269\" count=\"1\">Aquila et al., 2009</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.3390/nu14163278\" pmid=\"36014783\" pmcid=\"PMC9412569\" count=\"1\">Calagna et al., 2022</citation>). <sentence_start/>Functional experiments further showed that 1,25(OH)<sub>2</sub>D<sub>3</sub> can influence capacitation-related processes, intracellular Ca<sup>2+</sup> signaling, motility, and acrosin activity through VDR-dependent mechanisms (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/j.1469-7580.2008.00975.x\" pmid=\"19014363\" pmcid=\"PMC2667550\" count=\"1\">Aquila et al., 2008</citation>; <citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1186/1477-7827-7-140\" pmid=\"19948036\" pmcid=\"PMC2794269\" count=\"1\">Aquila et al., 2009</citation>). <sentence_start/>Thus, the sperm-localized vitamin D system provides a plausible basis for direct regulation of fertilization-related events, while precise subcellular localization should not be considered uniform across studies. <sentence_start/>The specific cellular localization and proposed functions of these components are summarized in Table 1, and their systemic/local distribution is illustrated in Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 1"
+  },
+  {
+   "section": "article",
+   "text": "Systemic and localized metabolism and distribution of vitamin D components in the male reproductive tract. <sentence_start/>The figure illustrates the dual source of vitamin D signaling in male reproduction. <sentence_start/>Following systemic synthesis via hepatic CYP2R1, circulating 25(OH)D enters the male reproductive tract. <sentence_start/>Zoom 1 highlights the localized intrinsic metabolic network within the testis. <sentence_start/>Leydig cells are shown in the interstitial compartment outside the seminiferous tubules, whereas Sertoli cells and developing germ cells are located within the seminiferous epithelium. <sentence_start/>These cells express VDR and key vitamin D-metabolizing enzymes, including CYP27B1 and CYP24A1, enabling local synthesis and degradation of 1,25(OH)<sub>2</sub>D. Zoom 2 schematically depicts sperm-localized VDR, CYP27B1, and CYP24A1, emphasizing the head/acrosomal region; published studies have also reported neck/midpiece localization, indicating method- and subpopulation-dependent heterogeneity. <sentence_start/>This localization provides a structural basis for direct vitamin D-responsive actions on sperm function. <sentence_start/>Abbreviations: VDR, vitamin D receptor; CYP2R1, 25-hydroxylase; CYP27B1, 1\u03b1-hydroxylase; CYP24A1, 24-hydroxylase; 25(OH)D, 25-hydroxyvitamin D; 1,25(OH)<sub>2</sub>D, 1,25-dihydroxyvitamin D."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Molecular and pharmacological mechanisms modulating sperm function"
+  },
+  {
+   "section": "article",
+   "text": "Given the distribution of VDR and vitamin D-metabolizing enzymes across the male reproductive system, vitamin D signaling can be organized into two interacting modes: rapid non-genomic responses and slower VDR/RXR-dependent transcriptional regulation. <sentence_start/>Rather than treating these as separate mechanisms, the following sections link them to a limited set of reproductive endpoints, including calcium-dependent sperm activation, redox and mitochondrial homeostasis, steroidogenic support, and germ-cell survival (<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1007/s12291-024-01251-7\" pmid=\"40625600\" pmcid=\"PMC12229305\" count=\"1\">Dwivedi et al., 2025</citation>; <citation rid=\"B61\" ref-type=\"bibr\" doi=\"10.4103/IJPMMM.IJPMMM_10_25\" count=\"1\">Saini et al., 2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "At the molecular level, vitamin D signaling is better conceptualized as an integrated receptor network than as a single linear pathway (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1152/physrev.00014.2015\" pmid=\"26681795\" pmcid=\"PMC4839493\" count=\"1\">Christ et al., 2016</citation>; <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1530/JME-19-0246\" pmid=\"32229699\" count=\"1\">Hanel et al., 2020</citation>; <citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1038/nrendo.2013.262\" pmid=\"24419359\" count=\"1\">Blomberg, 2014</citation>). <sentence_start/>Circulating 25(OH)D can be converted to 1,25(OH)<sub>2</sub>D by CYP27B1 in classical endocrine tissues and within parts of the male reproductive tract (<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2013.12.016\" pmid=\"24529992\" pmcid=\"PMC3968073\" count=\"1\">Bikle, 2014</citation>; <citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1093/humrep/deq024\" pmid=\"20172873\" count=\"1\">Blomberg Jensen et al., 2010</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.3390/nu14163278\" pmid=\"36014783\" pmcid=\"PMC9412569\" count=\"1\">Calagna et al., 2022</citation>). <sentence_start/>Ligand-activated VDR-RXR complexes regulate VDRE-containing genes involved in calcium handling, oxidative-stress control, immune modulation, steroidogenic support, and cell survival (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1152/physrev.00014.2015\" pmid=\"26681795\" pmcid=\"PMC4839493\" count=\"1\">Christ et al., 2016</citation>; <citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1530/JME-19-0246\" pmid=\"32229699\" count=\"1\">Hanel et al., 2020</citation>; <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1016/j.jsbmb.2012.08.006\" pmid=\"22944139\" pmcid=\"PMC3548980\" count=\"1\">Meyer and Pike, 2013</citation>; <citation rid=\"B67\" ref-type=\"bibr\" doi=\"10.3390/antiox13080996\" pmid=\"39199241\" pmcid=\"PMC11351441\" count=\"1\">V\u00e1zquez-Lorente et al., 2024</citation>; <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1038/s41598-018-23258-w\" pmid=\"29556070\" pmcid=\"PMC5859277\" count=\"1\">Basalamah et al., 2018</citation>). <sentence_start/>In parallel, human sperm studies support rapid non-genomic responses, including calcium mobilization and fertilization-related functional changes (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/j.1469-7580.2008.00975.x\" pmid=\"19014363\" pmcid=\"PMC2667550\" count=\"1\">Aquila et al., 2008</citation>; <citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1186/1477-7827-7-140\" pmid=\"19948036\" pmcid=\"PMC2794269\" count=\"1\">Aquila et al., 2009</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1093/humrep/der059\" pmid=\"21427118\" count=\"1\">Blomberg Jensen et al., 2011</citation>). <sentence_start/>These pathways converge on capacitation, mitochondrial/redox homeostasis, inflammatory control, steroidogenic support, and cell survival, although the direct evidence varies substantially across human, animal, and non-reproductive models (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1038/nrendo.2013.262\" pmid=\"24419359\" count=\"1\">Blomberg, 2014</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1093/humrep/der059\" pmid=\"21427118\" count=\"1\">Blomberg Jensen et al., 2011</citation>; <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.4103/jhrs.JHRS_150_18\" pmid=\"31007461\" pmcid=\"PMC6472207\" count=\"1\">Alahmar, 2019</citation>; <citation rid=\"B72\" ref-type=\"bibr\" doi=\"10.1093/biolre/ioaf092\" pmid=\"40247687\" count=\"1\">Yang et al., 2025</citation>; <citation rid=\"B71\" ref-type=\"bibr\" doi=\"10.5534/wjmh.230270\" pmid=\"38449458\" pmcid=\"PMC11439807\" count=\"1\">Xu et al., 2024</citation>; <citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1210/jc.2014-1690\" pmid=\"24937537\" count=\"1\">Hofer et al., 2014</citation>; <citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.1359/JBMR.041112\" pmid=\"15647825\" count=\"1\">Kim et al., 2005</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Calcium ion regulation and non-genomic actions"
+  },
+  {
+   "section": "article",
+   "text": "Calcium ions (Ca<sup>2+</sup>) are central to sperm hyperactivation, capacitation, and the acrosome reaction. <sentence_start/>Human sperm studies have identified VDR-related signaling and calcium-sensitive pathways and have shown that exposure to active 1,25(OH)<sub>2</sub>D<sub>3</sub> can rapidly increase intracellular Ca<sup>2+</sup>, enhance motility, and promote acrosome-related responses (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1111/j.1469-7580.2008.00975.x\" pmid=\"19014363\" pmcid=\"PMC2667550\" count=\"1\">Aquila et al., 2008</citation>; <citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1186/1477-7827-7-140\" pmid=\"19948036\" pmcid=\"PMC2794269\" count=\"1\">Aquila et al., 2009</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1093/humrep/der059\" pmid=\"21427118\" count=\"1\">Blomberg Jensen et al., 2011</citation>). <sentence_start/>The speed of these responses supports a non-genomic, membrane-initiated component of vitamin D signaling in mature spermatozoa (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1038/nrendo.2013.262\" pmid=\"24419359\" count=\"1\">Blomberg, 2014</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1093/humrep/der059\" pmid=\"21427118\" count=\"1\">Blomberg Jensen et al., 2011</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Antioxidant defense and mitochondrial function"
+  },
+  {
+   "section": "article",
+   "text": "Oxidative stress (OS) is a major pathological mechanism in male infertility, with elevated sperm oxidative stress reported in a substantial proportion of infertile men (<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.4103/jhrs.JHRS_150_18\" pmid=\"31007461\" pmcid=\"PMC6472207\" count=\"1\">Alahmar, 2019</citation>; <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.3390/medicina59101769\" pmid=\"37893487\" pmcid=\"PMC10608597\" count=\"1\">Kaltsas, 2023</citation>). <sentence_start/>Vitamin D should not be characterized as a classical direct ROS-scavenging antioxidant. <sentence_start/>Mechanistically, vitamin D signaling may reduce oxidative burden indirectly by supporting endogenous antioxidant defenses, including SOD, GPx, and CAT, limiting NADPH oxidase-related pro-oxidant activity, and promoting antioxidant/inflammatory regulatory pathways such as Nrf2-related responses (<citation rid=\"B67\" ref-type=\"bibr\" doi=\"10.3390/antiox13080996\" pmid=\"39199241\" pmcid=\"PMC11351441\" count=\"1\">V\u00e1zquez-Lorente et al., 2024</citation>; <citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1017/S0954422418000197\" pmid=\"30326975\" count=\"1\">Tagliaferri et al., 2019</citation>). <sentence_start/>Its role in this context is therefore better framed as modulation of cellular redox homeostasis rather than direct chemical scavenging of ROS."
+  },
+  {
+   "section": "article",
+   "text": "These mechanistic proposals are broadly consistent with clinical association studies reporting that lower systemic vitamin D can coexist with reduced antioxidant reserve and greater oxidative-stress markers in seminal plasma (<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1111/and.14147\" pmid=\"34247390\" count=\"1\">Shahid et al., 2021</citation>). <sentence_start/>Comparative evaluations, for example, have noted that individuals dealing with infertility often present with depressed circulating vitamin D, paired with reduced total antioxidant capacity (TAC) and heightened concentrations of malondialdehyde (MDA) (<citation rid=\"B62\" ref-type=\"bibr\" doi=\"10.1016/j.phrs.2018.11.011\" pmid=\"30447293\" count=\"1\">Sepidarkish et al., 2019</citation>; <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.3390/life14020273\" pmid=\"38398783\" pmcid=\"PMC10889942\" count=\"1\">A\u015fir et al., 2024</citation>). <sentence_start/>Multiple regression analyses further highlight vitamin D as an independent predictor for both MDA and TAC. <sentence_start/>Beyond its effects on redox balance, vitamin D signaling is tentatively linked to the optimization of ATP generation and the stabilization of mitochondrial membrane potential, both of which are critical for maintaining continuous sperm movement (<citation rid=\"B72\" ref-type=\"bibr\" doi=\"10.1093/biolre/ioaf092\" pmid=\"40247687\" count=\"1\">Yang et al., 2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Inflammation also intersects with redox injury in the testis and spermatozoa. <sentence_start/>Activated Sertoli cells, testicular macrophages, and other immune cells can release pro-inflammatory cytokines such as TNF-\u03b1, IL-6, and IL-1\u03b2, which impair the blood-testis barrier and amplify ROS generation. <sentence_start/>Because spermatozoa have limited cytoplasmic antioxidant reserves and depend on mitochondrial ATP production for progressive motility, cytokine-driven ROS may damage the sperm plasma membrane, mitochondrial membrane potential, and nuclear DNA. <sentence_start/>Experimental testicular injury models support this link: vitamin D3 supplementation attenuated lead- or cisplatin-induced testicular damage, reduced TNF-\u03b1/IL-1\u03b2 and NF-\u03baB/iNOS signaling, restored antioxidant markers, and preserved seminiferous tubule architecture (<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1038/s41598-018-23258-w\" pmid=\"29556070\" pmcid=\"PMC5859277\" count=\"1\">Basalamah et al., 2018</citation>; <citation rid=\"B71\" ref-type=\"bibr\" doi=\"10.5534/wjmh.230270\" pmid=\"38449458\" pmcid=\"PMC11439807\" count=\"1\">Xu et al., 2024</citation>; <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.3390/molecules27217299\" pmid=\"36364125\" pmcid=\"PMC9657441\" count=\"1\">Elrashidy et al., 2022</citation>). <sentence_start/>These findings support the hypothesis that vitamin D may protect sperm mitochondrial function partly through anti-inflammatory, NF-\u03baB-related pathways, although direct confirmation in human sperm biology remains limited."
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Hormonal and genomic regulation of spermatogenesis"
+  },
+  {
+   "section": "article",
+   "text": "Beyond rapid non-genomic actions, vitamin D operates as a classical nuclear receptor ligand. <sentence_start/>After ligand binding, VDR heterodimerizes with RXR and binds vitamin D response elements to modulate transcriptional programs relevant to steroidogenesis, germ-cell survival, and spermatogenic support. <sentence_start/>In human adult primary testicular cells, 1,25(OH)<sub>2</sub>D<sub>3</sub> regulated 63 genes, including genes involved in androgen metabolism and vitamin D metabolism, and significantly increased testosterone synthesis <italic>in vitro</italic> (<citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1210/jc.2014-1690\" pmid=\"24937537\" count=\"1\">Hofer et al., 2014</citation>). <sentence_start/>In rodent testicular injury models, vitamin D<sub>3</sub> restored the expression of steroidogenesis-related transcripts such as <italic>Star</italic>, <italic>Cyp11a1</italic>, <italic>Hsd3b</italic>, and <italic>Hsd17b</italic> (<citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.3390/molecules27217299\" pmid=\"36364125\" pmcid=\"PMC9657441\" count=\"1\">Elrashidy et al., 2022</citation>). <sentence_start/>Vitamin D3 has also been reported to modulate germ-cell proliferation and apoptosis markers, including increased PCNA/GCNA staining and BCL2 expression, reduced BAX and active caspase-3 expression, and fewer TUNEL-positive germ cells in aged testes (<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1038/s41598-019-50679-y\" pmid=\"31575929\" pmcid=\"PMC6773724\" count=\"1\">Jeremy et al., 2019</citation>). <sentence_start/>Consistently, vitamin D supplementation was recently shown to stimulate germ-cell proliferation in a restraint-stressed mouse model (<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.reprotox.2025.109077\" pmid=\"41067451\" count=\"1\">Kumar et al., 2025</citation>). <sentence_start/>Therefore, current evidence links VDR signaling with steroidogenesis, apoptosis control, and spermatogenic maintenance, although direct ChIP-based evidence identifying these genes as VDR targets in human germ cells remains sparse."
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Pharmacogenomics: the role of <italic>VDR</italic> gene polymorphisms"
+  },
+  {
+   "section": "article",
+   "text": "When evaluating biological responsiveness to vitamin D in the male reproductive system, an important source of inter-individual variability is genetic diversity in the <italic>VDR</italic> gene. <sentence_start/>Situated on chromosome 12q12-14, this highly polymorphic gene contains variants that may modify downstream transcriptional efficiency, receptor expression, ligand responsiveness, or receptor structure (<citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1186/s12884-024-06590-0\" pmid=\"38816754\" pmcid=\"PMC11138068\" count=\"1\">Moradkhani et al., 2024</citation>). <sentence_start/>From a pharmacogenomic perspective, these polymorphisms may elucidate why a subset of infertile men exhibits an impaired reproductive response despite maintaining supposedly adequate systemic 25(OH)D levels."
+  },
+  {
+   "section": "article",
+   "text": "Among the most extensively studied <italic>VDR</italic> single nucleotide polymorphisms (SNPs) are <italic>FokI</italic>, <italic>BsmI</italic>, <italic>ApaI</italic>, and <italic>TaqI</italic> (<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1042/BSR20201200\" pmid=\"32627819\" pmcid=\"PMC7364509\" count=\"1\">Chen et al., 2020</citation>). <sentence_start/>Researchers pay special attention to the FokI variation due to its position at the exon 2 translation initiation point. <sentence_start/>Specifically, while the \u201cf\u201d allele employs the primary start codon to generate a complete 427-amino-acid receptor, the \u201cF\u201d allele triggers translation further downstream, resulting in a slightly shortened protein of 424 amino acids. <sentence_start/>Current hypotheses cautiously suggest that this truncated \u201cF\u201d version might display superior interaction with the basal transcription apparatus, thereby exerting stronger transcriptional control over target genes than its full-length counterpart (<citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.5114/aoms.2016.60092\" pmid=\"27695504\" pmcid=\"PMC5016579\" count=\"1\">Cao et al., 2016</citation>; <citation rid=\"B70\" ref-type=\"bibr\" doi=\"10.1080/13697137.2020.1775806\" pmid=\"32551997\" count=\"1\">Wang et al., 2021</citation>). <sentence_start/>Consequently, men carrying specific <italic>FokI</italic> genotypes might require different thresholds of circulating vitamin D to achieve the same molecular activation necessary for optimal sperm capacitation and motility."
+  },
+  {
+   "section": "article",
+   "text": "Meanwhile, variations such as <italic>TaqI</italic>, <italic>ApaI</italic>, and <italic>BsmI</italic> are situated close to the 3\u2032untranslated region (3\u2032-UTR). <sentence_start/>Although they leave the receptor\u2019s amino acid makeup unchanged, these specific mutations are believed to be intimately involved in governing both translation efficiency and the stability of <italic>VDR</italic> mRNA (<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0155004\" pmid=\"27149110\" pmcid=\"PMC4858196\" count=\"1\">Colombini et al., 2016</citation>; <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1007/s00586-021-06872-7\" pmid=\"34021784\" count=\"1\">Castillo-Avila et al., 2021</citation>). <sentence_start/>Such regulatory shifts might ultimately reduce the total pool of VDR molecules capable of binding ligands within key sites like fully developed sperm and testicular tissue."
+  },
+  {
+   "section": "article",
+   "text": "The integration of <italic>VDR</italic> gene polymorphisms into the molecular framework of male infertility offers one possible explanation for the heterogeneous outcomes observed in clinical supplementation trials. <sentence_start/>More broadly, genetic variation in vitamin D-related pathways may influence serum 25(OH)D concentrations, receptor activity, and tissue responsiveness to supplementation. <sentence_start/>A systematic review and meta-analysis reported that selected <italic>VDR</italic> variants, including TaqI and FokI, may modify the biochemical response to vitamin D supplementation (<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.3390/nu14020360\" pmid=\"35057541\" pmcid=\"PMC8780067\" count=\"1\">Usategui-Mart\u00edn et al., 2022</citation>). <sentence_start/>However, the clinical utility of <italic>VDR</italic> genotyping in male infertility remains investigational. <sentence_start/>Current evidence does not yet define validated genotype-specific thresholds for serum 25(OH)D, sperm outcomes, or vitamin D dosage. <sentence_start/>Moreover, available studies are limited by ethnic heterogeneity, small sample size, linkage disequilibrium across loci, differences in baseline vitamin D status, and inconsistent reproductive endpoints. <sentence_start/>Therefore, <italic>VDR</italic>-guided vitamin D therapy should currently be regarded as a research direction rather than a routine clinical strategy for infertile men."
+  },
+  {
+   "section": "article",
+   "text": "3.5"
+  },
+  {
+   "section": "article",
+   "text": "Epigenetic regulation and chromatin remodeling"
+  },
+  {
+   "section": "article",
+   "text": "Beyond direct genomic transcription and pharmacogenomic variations, the molecular effects of vitamin D on male fertility may also intersect with epigenetic networks. <sentence_start/>The production of sperm is an intricately coordinated event demanding substantial chromatin reorganization, which encompasses the crucial histone-to-protamine exchange, DNA methylation processes, and post-translational histone modifications (<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1007/s00018-025-05831-5\" pmid=\"41051601\" pmcid=\"PMC12500515\" count=\"1\">Cui et al., 2025</citation>). <sentence_start/>Rather than simply acting as a conventional transcriptional trigger, the VDR is increasingly recognized as a flexible structural regulator of the cell\u2019s epigenome."
+  },
+  {
+   "section": "article",
+   "text": "From a general nuclear receptor perspective, liganded VDR-RXR can recruit chromatin-regulatory machinery to vitamin D-responsive loci. <sentence_start/>Studies in non-testicular cell systems have shown that VDR signaling may involve p160/SRC-family coactivators, CBP/p300-containing histone acetyltransferase complexes, mediator/DRIP components, and, in some contexts, NCoR/SMRT-HDAC-containing corepressor complexes (<citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1016/j.jsbmb.2012.08.006\" pmid=\"22944139\" pmcid=\"PMC3548980\" count=\"1\">Meyer and Pike, 2013</citation>; <citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.1359/JBMR.041112\" pmid=\"15647825\" count=\"1\">Kim et al., 2005</citation>). <sentence_start/>However, direct evidence that these exact VDR-associated coactivators or corepressors regulate spermatogenesis-specific genes in human testicular germ cells remains limited. <sentence_start/>Thus, in the male reproductive context, VDR-mediated chromatin remodeling should be interpreted as a biologically plausible mechanism extrapolated from broader VDR biology, rather than as a fully established germ-cell-specific pathway. <sentence_start/>This distinction is important because spermatogenesis involves unique chromatin remodeling events, including histone-to-protamine exchange, DNA methylation remodeling, and stage-specific histone modifications."
+  },
+  {
+   "section": "article",
+   "text": "An additional layer of complexity is that the <italic>VDR</italic> gene itself may be subject to epigenetic regulation in male infertility. <sentence_start/>Clinical studies have reported altered methylation of the <italic>VDR</italic> promoter or seminal <italic>VDR</italic> gene methylation in men with idiopathic infertility, together with differences in serum vitamin D status and semen parameters (<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1111/and.14172\" pmid=\"34197002\" count=\"1\">Hussein et al., 2021</citation>; <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.4183/aeb.2017.294\" pmid=\"31149190\" pmcid=\"PMC6516584\" count=\"1\">Vladoiu et al., 2017</citation>). <sentence_start/>These findings suggest that epigenetic variation at the <italic>VDR</italic> locus may modify tissue responsiveness to vitamin D. <sentence_start/>However, causality remains uncertain, and it is not yet established whether normalization of serum 25(OH)D alone can reverse such epigenetic alterations or restore VDR-dependent signaling in reproductive tissues."
+  },
+  {
+   "section": "article",
+   "text": "Vitamin D may also influence the sperm epigenetic landscape indirectly through redox and inflammatory pathways (<citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.3390/metabo15070436\" pmid=\"40710536\" pmcid=\"PMC12299634\" count=\"1\">Kowal\u00f3wka et al., 2025</citation>; <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.3390/nu11030676\" pmid=\"30901909\" pmcid=\"PMC6470874\" count=\"1\">Carlberg, 2019</citation>). <sentence_start/>Oxidative stress is closely linked to sperm DNA damage, abnormal chromatin packaging, and altered DNA methylation patterns. <sentence_start/>Therefore, by modulating oxidative stress, mitochondrial function, inflammation, and steroidogenic signaling, vitamin D may help maintain a cellular environment favorable for normal sperm chromatin integrity. <sentence_start/>Nevertheless, evidence that vitamin D directly regulates specific DNA demethylases, histone acetyltransferases, or histone deacetylases in human spermatozoa or germ cells remains scarce."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, current evidence supports a cautious model in which vitamin D signaling may interact with epigenetic regulation at two levels: first, through potential VDR-associated chromatin remodeling at vitamin D-responsive loci; and second, through epigenetic regulation of the <italic>VDR</italic> gene itself. <sentence_start/>This model may help explain inter-individual differences in response to vitamin D supplementation, but it remains an emerging hypothesis rather than an established therapeutic framework. <sentence_start/>Future studies using ChIP-seq, ATAC-seq, methylome profiling, and single-cell transcriptomic approaches are needed to identify <italic>VDR</italic>-associated regulatory loci in Sertoli cells, Leydig cells, germ cells, and mature spermatozoa. <sentence_start/>The integrated and partly proposed molecular, pharmacogenomic, and epigenetic mechanisms through which vitamin D may modulate male reproductive function are summarized in Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 2"
+  },
+  {
+   "section": "article",
+   "text": "Comprehensive molecular, pharmacogenomic, and epigenetic mechanisms of vitamin D in male reproduction. <sentence_start/>This overarching mechanistic map delineates the multifaceted pathways through which the active metabolite, 1,25(OH)<sub>2</sub>D, exerts its effects. <sentence_start/><bold>(A)</bold> Non-genomic actions: Rapid intracellular calcium (Ca<sup>2+</sup>) influx via membrane-associated VDR/CaSR complexes promotes sperm capacitation and hyperactivation. <sentence_start/><bold>(B)</bold> Genomic antioxidant defense: Nuclear VDR signaling upregulates endogenous antioxidant enzymes (SOD, GPx, CAT) to mitigate reactive oxygen species (ROS) accumulation and preserve mitochondrial membrane potential (\u0394\u03a8m). <sentence_start/><bold>(C)</bold> Steroidogenesis: Systemic and localized regulation of testosterone production in Leydig cells to support spermatogenesis. <sentence_start/><bold>(D)</bold> Pharmacogenomic and epigenetic modulation: The activity and clinical relevance of these pathways may be modified by individual genetic and epigenetic landscapes. <sentence_start/>Right: <italic>VDR</italic> gene polymorphisms (e.g., <italic>FokI</italic>, <italic>BsmI</italic>, <italic>ApaI</italic>, <italic>TaqI</italic>) may alter receptor structure, expression, or transcriptional efficiency (e.g., <italic>FokI</italic> producing functionally distinct 427 aa vs. 424 aa VDR variants). <sentence_start/>Left: Epigenetic regulation is presented as a proposed mechanism. <sentence_start/>VDR-RXR complexes may recruit chromatin-regulatory cofactors in a cell-context-dependent manner, as shown mainly in non-testicular systems, whereas aberrant methylation of the <italic>VDR</italic> promoter may reduce receptor accessibility and modify tissue responsiveness to vitamin D. (Abbreviations: VDR, Vitamin D Receptor; CaSR, Calcium-Sensing Receptor; ROS, Reactive Oxygen Species; SOD, Superoxide Dismutase; GPx, Glutathione Peroxidase; CAT, Catalase; ATP, Adenosine Triphosphate; HAT, Histone Acetyltransferase; aa, amino acids.)"
+  },
+  {
+   "section": "article",
+   "text": "Across model systems, the strongest direct human mechanistic evidence concerns VDR/vitamin D-metabolizing enzyme localization in the male reproductive tract and rapid Ca<sup>2+</sup>-dependent functional responses in mature sperm, with additional direct human testicular-cell evidence for steroidogenic effects. <sentence_start/>In contrast, antioxidant/anti-inflammatory protection, mitochondrial preservation, germ-cell survival/proliferation, and adverse effects of excessive vitamin D exposure are supported mainly by animal or other preclinical models, whereas reproductive epigenetic remodeling and genotype-guided treatment remain provisional. <sentence_start/>Table 2 summarizes these mechanisms according to the current strength of evidence."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Clinical implications and translational pharmacology"
+  },
+  {
+   "section": "article",
+   "text": "Despite the compelling molecular framework suggesting that vitamin D is integral to male reproductive physiology, translating these <italic>in vitro</italic> pharmacological mechanisms into effective <italic>in vivo</italic> clinical therapies remains a significant challenge. <sentence_start/>The current clinical landscape is characterized by substantial observational data but conflicting interventional outcomes."
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Correlation between serum vitamin D and semen parameters"
+  },
+  {
+   "section": "article",
+   "text": "Observational studies examining how routine semen metrics correspond to systemic vitamin D profiles-generally measured through circulating 25(OH)D-have produced somewhat mixed findings. <sentence_start/>However, the most reproducible link appears to involve the movement capabilities of sperm (<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.4103/aja.aja_9_20\" pmid=\"32341213\" pmcid=\"PMC7831823\" count=\"1\">Ciccone et al., 2021</citation>). <sentence_start/>An extensive analysis conducted by Cito and colleagues highlighted that a large proportion of their assessed research (seven out of ten cohorts) documented a favorable relationship connecting circulating vitamin D to forward sperm progression (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.5534/wjmh.190057\" pmid=\"31190482\" pmcid=\"PMC7076312\" count=\"1\">Cito et al., 2020</citation>). <sentence_start/>This aligns mechanistically with the hypothesized non-genomic regulation of calcium influx required for flagellar hyperactivation (<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1093/humrep/der059\" pmid=\"21427118\" count=\"1\">Blomberg Jensen et al., 2011</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Definitions of vitamin D deficiency, insufficiency, and severe deficiency are not uniform across studies or clinical guidelines. <sentence_start/>Accordingly, this review retains study-specific 25(OH)D cutoffs and states them when relevant rather than imposing a single universal threshold. <sentence_start/>For orientation, some infertility studies use &lt;20 ng/mL (50 nmol/L) for deficiency, whereas the NIH/NASEM framework considers &lt;12 ng/mL (&lt;30 nmol/L) as indicating risk of deficiency and 12-20 ng/mL (30-50 nmol/L) as potentially inadequate; the 2024 Endocrine Society guideline does not endorse universal 25(OH)D thresholds for generally healthy adults (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">Office of dietary supplements N I O H, 2025</citation>; <citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1210/clinem/dgae290\" pmid=\"38828931\" count=\"1\">Demay et al., 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "On the other hand, attempting to correlate the hormone with total sperm output or overall concentration remains a highly debated topic (<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.ijsu.2019.09.025\" pmid=\"31561004\" count=\"1\">Arab et al., 2019</citation>). <sentence_start/>While some smaller cohorts report significantly higher sperm concentrations in vitamin D-sufficient men compared to deficient individuals (<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.34172/ipp.2020.30\" count=\"1\">Derakhshan et al., 2020</citation>), comprehensive systematic reviews and meta-analyses often fail to replicate these findings. <sentence_start/>These findings suggest that vitamin D status may be more consistently related to sperm motility than to spermatogenic output, although even this relationship is influenced by baseline deficiency, study population, and analytical design."
+  },
+  {
+   "section": "article",
+   "text": "4.2"
+  },
+  {
+   "section": "article",
+   "text": "Vitamin D status and sperm DNA fragmentation"
+  },
+  {
+   "section": "article",
+   "text": "Sperm DNA integrity is a critical determinant of male fertility, fertilization competence, embryo development, and pregnancy maintenance. <sentence_start/>The DNA fragmentation index (DFI) has therefore emerged as an important functional marker beyond conventional semen parameters. <sentence_start/>Because oxidative stress and mitochondrial dysfunction are major contributors to sperm DNA damage, vitamin D may theoretically influence DFI through antioxidant, anti-inflammatory, and mitochondrial-protective mechanisms."
+  },
+  {
+   "section": "article",
+   "text": "Human evidence is currently based on only a small number of clinical studies and remains inconsistent. <sentence_start/>Blaseg et al. found no statistically significant difference in DFI across vitamin D-deficient, insufficient, and sufficient groups in a prospective cohort of men from infertile couples (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1186/s12610-022-00166-8\" pmid=\"36096748\" pmcid=\"PMC9469602\" count=\"1\">Blaseg et al., 2022</citation>). <sentence_start/>By contrast, a retrospective cohort of men with varicocele reported an inverse association between serum vitamin D and DFI after adjustment for clinical and lifestyle factors, with a stronger association at lower vitamin D concentrations (<citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1186/s12958-025-01438-4\" pmid=\"40676614\" pmcid=\"PMC12269161\" count=\"1\">Cai et al., 2025</citation>). <sentence_start/>These studies differ in underlying diagnosis, severity and distribution of vitamin D deficiency, DFI assay methodology, sample size, and adjustment for age, adiposity, lifestyle, abstinence interval, and other oxidative-stress-related factors. <sentence_start/>Such heterogeneity may contribute to the discrepant results and precludes a firm conclusion that serum 25(OH)D is an independent determinant of sperm DNA integrity (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1186/s12610-022-00166-8\" pmid=\"36096748\" pmcid=\"PMC9469602\" count=\"1\">Blaseg et al., 2022</citation>; <citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1186/s12958-025-01438-4\" pmid=\"40676614\" pmcid=\"PMC12269161\" count=\"1\">Cai et al., 2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Accordingly, vitamin D should not be presented as an established treatment for elevated DFI. <sentence_start/>In men with documented vitamin D deficiency, correction may be appropriate as part of general clinical care and comprehensive infertility management, but current evidence is insufficient to recommend supplementation specifically for the purpose of lowering DFI. <sentence_start/>Further prospective studies using standardized DFI assays and predefined vitamin D strata are needed."
+  },
+  {
+   "section": "article",
+   "text": "4.3"
+  },
+  {
+   "section": "article",
+   "text": "Evaluating causality and the clinical efficacy of vitamin D supplementation"
+  },
+  {
+   "section": "article",
+   "text": "The critical clinical question is whether correcting vitamin D deficiency can meaningfully improve male factor infertility. <sentence_start/>To assess causality while reducing conventional observational confounding, Mendelian randomization (MR) studies have used genetic variants as instrumental variables. <sentence_start/>A large two-sample MR analysis reported an inverse association between genetically predicted 25(OH)D and male factor infertility risk (OR = 0.62) (<citation rid=\"B73\" ref-type=\"bibr\" doi=\"10.5534/wjmh.220109\" pmid=\"36593707\" pmcid=\"PMC10307659\" count=\"1\">Yuan et al., 2023</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Despite this genetic causal link, clinical interventional data from randomized controlled trials (RCTs) provide a more nuanced perspective on the therapeutic scope of supplementation. <sentence_start/>An exhaustive review conducted by <citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.3390/biomedicines11010090\" pmid=\"36672602\" pmcid=\"PMC9912266\" count=\"1\">Adamczewska et al. (2022)</citation> highlighted that although adding this secosteroid generally benefits the forward movement of sperm, most rigorously designed RCTs demonstrate that it fails to exert any significant modulatory effect on systemic reproductive hormones, including total testosterone (<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.3390/biomedicines11010090\" pmid=\"36672602\" pmcid=\"PMC9912266\" count=\"1\">Adamczewska et al., 2022</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Looking past basic semen metrics to broader embryological success, a prominent secondary evaluation of a multicenter RCT (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.fertnstert.2021.06.035\" pmid=\"34289935\" pmcid=\"PMC8561776\" count=\"1\">Banks et al., 2021</citation>) explored couples confronting mild male-driven infertility. <sentence_start/>Participants received either a placebo or a regimen containing 2,000 IU of vitamin D daily over a six-month period (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.fertnstert.2021.06.035\" pmid=\"34289935\" pmcid=\"PMC8561776\" count=\"1\">Banks et al., 2021</citation>). <sentence_start/>Their findings indicated that while initial semen profiles, live birth frequencies, and overall pregnancy rates remained largely unaffected by the male\u2019s vitamin D status, vitamin D deficiency (&lt;20 ng/mL) correlated powerfully with an elevated incidence of miscarriage (adjusted OR 9.0) (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.fertnstert.2021.06.035\" pmid=\"34289935\" pmcid=\"PMC8561776\" count=\"1\">Banks et al., 2021</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, these observations indicate that vitamin D is biologically relevant to male reproductive physiology, but the clinical benefit of supplementation remains context-dependent. <sentence_start/>MR evidence supports a potential long-term causal relationship between genetically influenced 25(OH)D status and male infertility risk, whereas RCTs evaluate short-term pharmacological correction and have not consistently demonstrated improvements in global semen parameters, reproductive hormones, pregnancy, or live birth. <sentence_start/>Therefore, vitamin D supplementation should not be interpreted as a universal infertility treatment. <sentence_start/>Its potential value may be greatest in selected deficient subgroups, particularly men with impaired motility, oxidative stress, elevated DFI, varicocele, obesity, or recurrent reproductive loss in the couple. <sentence_start/>The key study designs, pharmacological interventions, and clinical conclusions of these pivotal evaluations are summarized in Table 3. <sentence_start/>To provide historical context, Table 3 places selected foundational observational and functional studies alongside later randomized, genetic, and meta-analytic evidence."
+  },
+  {
+   "section": "article",
+   "text": "4.4"
+  },
+  {
+   "section": "article",
+   "text": "Why clinical evidence is inconsistent: baseline status, dose, genotype, and study design"
+  },
+  {
+   "section": "article",
+   "text": "The apparent discrepancies among observational studies, Mendelian randomization analyses, and randomized controlled trials likely reflect differences in study design and biological context rather than a simple contradiction. <sentence_start/>Observational studies capture real-world variation in sunlight exposure, diet, body mass index, ethnicity, seasonal changes, comorbidities, and lifestyle factors, but they are vulnerable to residual confounding and reverse causation. <sentence_start/>Mendelian randomization studies estimate the effect of lifelong genetically influenced differences in circulating 25(OH)D and may therefore reflect long-term biological exposure rather than the short-term effect of supplementation. <sentence_start/>In contrast, RCTs test a defined intervention within a limited time window and may fail to show benefit if participants do not have clearly low baseline 25(OH)D concentrations or if the intervention does not cover a complete spermatogenic cycle (<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1016/j.ijsu.2019.09.025\" pmid=\"31561004\" count=\"1\">Arab et al., 2019</citation>; <citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1016/S0022-5347(05)00053-4\" pmid=\"16406920\" count=\"1\">Misell et al., 2006</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The two principal randomized datasets discussed here were also modest in size and clinically heterogeneous: Blomberg Jensen et al. enrolled 330 infertile men with 25(OH)D \u2264 50 nmol/L and used a loading regimen followed by 1,400 IU/day plus calcium for 150 days, whereas the Banks et al. secondary analysis included 154 men with mild male-factor infertility receiving a formulation containing 2,000 IU/day of vitamin D or placebo for up to 6 months (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1016/j.fertnstert.2021.06.035\" pmid=\"34289935\" pmcid=\"PMC8561776\" count=\"1\">Banks et al., 2021</citation>; <citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1210/jc.2017-01656\" pmid=\"29126319\" count=\"1\">Blomberg Jensen et al., 2018</citation>). <sentence_start/>Differences in entry criteria, co-intervention, treatment duration, baseline vitamin D status, and outcome hierarchy limit direct comparison across these trials."
+  },
+  {
+   "section": "article",
+   "text": "Several clinical factors may further explain the heterogeneous findings. <sentence_start/>First, baseline vitamin D status is critical: men with lower baseline 25(OH)D concentrations may be more likely to benefit from supplementation than those with sufficient or near-sufficient 25(OH)D concentrations. <sentence_start/>Second, dose and duration vary widely among trials, ranging from low daily doses to high weekly or loading regimens, often with different co-interventions such as calcium. <sentence_start/>Third, semen parameters are biologically variable and may require at least one full spermatogenic cycle to show measurable change. <sentence_start/>Fourth, ancestry, skin pigmentation, latitude, adiposity, dietary habits, and vitamin D-binding protein status may influence circulating and bioavailable 25(OH)D (<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.3389/fendo.2019.00317\" pmid=\"31191450\" pmcid=\"PMC6546814\" count=\"1\">Bikle and Schwartz, 2019</citation>; <citation rid=\"B69\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(10)60588-0\" pmid=\"20541252\" pmcid=\"PMC3086761\" count=\"1\">Wang et al., 2010</citation>). <sentence_start/>Fifth, genetic and epigenetic variability in the vitamin D pathway, including <italic>VDR</italic>, <italic>CYP2R1</italic>, <italic>CYP27B1</italic>, <italic>CYP24A1</italic>, and <italic>GC</italic>, may alter tissue responsiveness to the same serum 25(OH)D concentration (<citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.3390/nu14163278\" pmid=\"36014783\" pmcid=\"PMC9412569\" count=\"1\">Calagna et al., 2022</citation>; <citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1186/s12884-024-06590-0\" pmid=\"38816754\" pmcid=\"PMC11138068\" count=\"1\">Moradkhani et al., 2024</citation>; <citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1111/and.14172\" pmid=\"34197002\" count=\"1\">Hussein et al., 2021</citation>; <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.4183/aeb.2017.294\" pmid=\"31149190\" pmcid=\"PMC6516584\" count=\"1\">Vladoiu et al., 2017</citation>; <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.3390/metabo15070436\" pmid=\"40710536\" pmcid=\"PMC12299634\" count=\"1\">Kowal\u00f3wka et al., 2025</citation>; <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.3390/nu11030676\" pmid=\"30901909\" pmcid=\"PMC6470874\" count=\"1\">Carlberg, 2019</citation>). <sentence_start/>Finally, many trials are underpowered for clinically meaningful endpoints such as pregnancy, miscarriage, live birth, and sperm DNA integrity."
+  },
+  {
+   "section": "article",
+   "text": "Recent meta-analyses also illustrate this uncertainty. <sentence_start/>One meta-analysis of randomized clinical trials reported that vitamin D supplementation may improve total sperm motility, progressive motility, and normal morphology in infertile men (<citation rid=\"B65\" ref-type=\"bibr\" doi=\"10.1080/2090598X.2023.2165232\" pmid=\"38178948\" pmcid=\"PMC10763592\" count=\"1\">Tania et al., 2023</citation>). <sentence_start/>By contrast, a broader systematic review and meta-analysis of dietary supplements found no convincing evidence that vitamin D improved sperm parameters, and emphasized that the certainty of evidence for many supplements was low or very low (<citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.3390/nu17101710\" pmid=\"40431450\" pmcid=\"PMC12113742\" count=\"1\">Michaelsen et al., 2025</citation>). <sentence_start/>These differences reinforce a precision-medicine interpretation: vitamin D supplementation is unlikely to benefit all infertile men equally, but it may be relevant in selected subgroups characterized by documented vitamin D deficiency, oxidative stress, asthenozoospermia, elevated DFI, varicocele, obesity, or specific vitamin D pathway variants."
+  },
+  {
+   "section": "article",
+   "text": "4.5"
+  },
+  {
+   "section": "article",
+   "text": "Therapeutic window and safety considerations for excessive vitamin D exposure"
+  },
+  {
+   "section": "article",
+   "text": "Although vitamin D deficiency may be detrimental to male reproductive function, the relationship between vitamin D exposure and sperm quality is unlikely to be linear. <sentence_start/>The reproductive evidence for excess is currently predominantly preclinical. <sentence_start/>In adult male mice, high-dose vitamin D administration reduced sperm count and motility, lowered testosterone, decreased testicular size and weight, altered testicular histoarchitecture, and increased <italic>CDKN1B</italic> expression in spermatocytes, consistent with impaired cell-cycle progression during spermatogenesis (<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1007/s10735-025-10483-7\" pmid=\"40542892\" count=\"1\">Nasraldin et al., 2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Human vitamin D toxicity is rare and is usually caused by excessive supplemental intake rather than sun exposure. <sentence_start/>Established toxicity is mediated mainly by hypercalcemia and hypercalciuria and can present with nausea, vomiting, muscle weakness, neuropsychiatric symptoms, dehydration, polyuria, nephrolithiasis, and, in severe cases, renal failure or soft-tissue calcification. <sentence_start/>For adults in the general population, 4,000 IU/day is the tolerable upper intake level for chronic intake; this is a population safety limit rather than a toxicity threshold. <sentence_start/>Frank toxicity is typically associated with much higher exposure and serum 25(OH)D concentrations above approximately 150 ng/mL (375 nmol/L) (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">Office of dietary supplements N I O H, 2025</citation>). <sentence_start/>Thus, in this review, \u201cexcessive exposure\u201d should not be interpreted as synonymous with any intake above 4,000 IU/day or with clinically supervised pharmacological dosing."
+  },
+  {
+   "section": "article",
+   "text": "These established human toxicities should be distinguished from the reproductive effects described in animal models. <sentence_start/>In the mouse study above, the adverse spermatogenic phenotype may involve disturbed calcium signaling, systemic toxicity and oxidative stress, steroidogenic suppression, and <italic>CDKN1B</italic>-related cell-cycle effects (<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1007/s10735-025-10483-7\" pmid=\"40542892\" count=\"1\">Nasraldin et al., 2025</citation>; <citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">Office of dietary supplements N I O H, 2025</citation>). <sentence_start/>Direct human evidence that vitamin D excess impairs spermatogenesis is currently limited. <sentence_start/>Accordingly, supplementation should aim to restore physiological vitamin D homeostasis rather than maximize serum 25(OH)D concentrations; high-dose or prolonged regimens should be medically indicated and accompanied by appropriate monitoring of serum 25(OH)D, calcium, and renal function (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">Office of dietary supplements N I O H, 2025</citation>; <citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1210/clinem/dgae290\" pmid=\"38828931\" count=\"1\">Demay et al., 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "4.6"
+  },
+  {
+   "section": "article",
+   "text": "Translational pharmacology and pragmatic clinical recommendations"
+  },
+  {
+   "section": "article",
+   "text": "From a translational pharmacology perspective, vitamin D supplementation in male infertility should be guided by pharmacokinetic, pharmacodynamic, safety, and patient-stratification considerations. <sentence_start/>After oral intake or cutaneous synthesis, vitamin D is transported in circulation mainly bound to vitamin D-binding protein and albumin, hydroxylated in the liver to 25(OH)D, and subsequently converted to the active metabolite 1,25(OH)<sub>2</sub>D by CYP27B1 in the kidney and selected extra-renal tissues. <sentence_start/>Because circulating 25(OH)D has a longer half-life than 1,25(OH)<sub>2</sub>D and reflects body vitamin D stores, it remains the most practical clinical biomarker for assessing vitamin D status (<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1056/nejmra070553\" pmid=\"17634462\" count=\"1\">Holick, 2007</citation>; <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1093/ajcn/88.2.582S\" pmid=\"18689406\" count=\"1\">Jones, 2008</citation>; <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1016/j.chembiol.2013.12.016\" pmid=\"24529992\" pmcid=\"PMC3968073\" count=\"1\">Bikle, 2014</citation>; <citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">Office of dietary supplements N I O H, 2025</citation>). <sentence_start/>However, serum 25(OH)D does not necessarily capture local testicular metabolism, bioavailable vitamin D, or tissue-level VDR responsiveness."
+  },
+  {
+   "section": "article",
+   "text": "The pharmacodynamic response to vitamin D is unlikely to be linear. <sentence_start/>A clinically relevant goal is restoration of vitamin D homeostasis rather than supraphysiological exposure. <sentence_start/>Potential response biomarkers in infertile men include serum 25(OH)D, calcium, parathyroid hormone, renal function, sperm progressive motility, seminal oxidative stress markers such as ROS, MDA, and TAC, and sperm DNA fragmentation index. <sentence_start/>In research settings, <italic>VDR</italic> polymorphisms, vitamin D pathway gene variants, and <italic>VDR</italic> promoter methylation may help identify subgroups with altered responsiveness, but these markers are not yet validated for routine clinical decision-making (<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1111/and.14172\" pmid=\"34197002\" count=\"1\">Hussein et al., 2021</citation>; <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.4183/aeb.2017.294\" pmid=\"31149190\" pmcid=\"PMC6516584\" count=\"1\">Vladoiu et al., 2017</citation>). <sentence_start/>In line with recent precision-medicine and nutrigenomic perspectives, vitamin D supplementation in male infertility should therefore be viewed as targeted correction of a biologically relevant deficiency within a broader VDR-centered response network, rather than as empirical supplementation for all infertile men."
+  },
+  {
+   "section": "article",
+   "text": "In clinical practice, serum 25(OH)D assessment may be considered in infertile men with asthenozoospermia, elevated DFI, varicocele, obesity, limited sunlight exposure, recurrent pregnancy loss in the couple, or other risk factors for deficiency. <sentence_start/>When deficiency is confirmed, targeted supplementation may be used as an adjunct to comprehensive infertility management. <sentence_start/>Commonly used regimens generally fall within approximately 1,000-4,000 IU/day, depending on baseline vitamin D status, comorbidities, local guidelines, and safety monitoring (<citation rid=\"B58\" ref-type=\"bibr\" count=\"1\">Office of dietary supplements N I O H, 2025</citation>; <citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1210/clinem/dgae290\" pmid=\"38828931\" count=\"1\">Demay et al., 2024</citation>). <sentence_start/>Treatment should ideally last long enough to cover at least one spermatogenic cycle before semen outcomes are reassessed. <sentence_start/>Empirical megadose supplementation should be avoided, especially in men without documented deficiency (<citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1016/S0022-5347(05)00053-4\" pmid=\"16406920\" count=\"1\">Misell et al., 2006</citation>). <sentence_start/>A pragmatic pathway for when to consider 25(OH)D assessment and targeted supplementation is summarized in Figure 3."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 3"
+  },
+  {
+   "section": "article",
+   "text": "Pragmatic clinical pathway for considering vitamin D assessment and supplementation in infertile men. <sentence_start/>Serum 25(OH)D testing may be considered when infertility coexists with asthenozoospermia, elevated DFI, varicocele, obesity, limited sunlight exposure, recurrent pregnancy loss in the couple, or other recognized risk factors for vitamin D deficiency. <sentence_start/>If deficiency is documented using the applicable study- or guideline-specific threshold, vitamin D may be corrected as an adjunct to standard infertility management using locally recommended dosing, while empirical megadose supplementation and supraphysiologic targets should be avoided. <sentence_start/>For pharmacological or prolonged treatment, or in the presence of relevant comorbidities, monitoring of serum 25(OH)D, calcium, and renal function should be considered. <sentence_start/>Semen outcomes may be reassessed after at least one spermatogenic cycle. <sentence_start/>DFI, DNA fragmentation index; 25(OH)D, 25-hydroxyvitamin D."
+  },
+  {
+   "section": "article",
+   "text": "Safety monitoring is important when pharmacological doses are used or when supplementation is prolonged. <sentence_start/>Serum 25(OH)D, calcium, and renal function should be considered in men receiving high-dose therapy, those using calcium co-supplementation, and those with renal disease, granulomatous disease, hyperparathyroidism, nephrolithiasis, or medications that interact with vitamin D metabolism. <sentence_start/>Overall, current evidence supports vitamin D correction as a low-cost and biologically plausible adjunct in deficient men, but not as a stand-alone treatment for male infertility or as an empirical intervention for all infertile men."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Limitations of current evidence and future research priorities"
+  },
+  {
+   "section": "article",
+   "text": "Several limitations should be acknowledged when interpreting the current literature. <sentence_start/>First, many mechanistic findings are derived from animal models or non-reproductive cell systems, and direct validation in human Sertoli cells, Leydig cells, germ cells, and mature spermatozoa remains limited. <sentence_start/>Second, human observational studies are susceptible to confounding by sunlight exposure, season, diet, adiposity, comorbidities, and lifestyle factors. <sentence_start/>Third, interventional studies vary substantially in baseline vitamin D status, dosage, treatment duration, calcium co-administration, ethnicity, infertility diagnosis, and semen endpoints. <sentence_start/>Fourth, most clinical trials are underpowered for pregnancy, miscarriage, live birth, and sperm DNA integrity outcomes. <sentence_start/>Fifth, the therapeutic window for male reproductive endpoints remains unclear, particularly given emerging evidence that excessive vitamin D exposure may also impair sperm parameters in animal models."
+  },
+  {
+   "section": "article",
+   "text": "Future studies should prioritize well-powered, placebo-controlled trials that enroll clearly defined vitamin D-deficient infertile men and stratify participants by baseline 25(OH)D, obesity, oxidative stress status, varicocele, DFI, and vitamin D pathway genotypes. <sentence_start/>Trial duration should cover at least one spermatogenic cycle, and outcome measures should extend beyond routine semen parameters to include oxidative stress markers, mitochondrial function, DFI, pregnancy loss, clinical pregnancy, and live birth. <sentence_start/>Mechanistic studies should combine single-cell transcriptomics, methylome profiling, ChIP-seq, ATAC-seq, proteomics, and metabolomics to define the reproductive cell-specific VDR regulatory network. <sentence_start/>Such approaches may clarify whether vitamin D acts primarily as a motility-preserving homeostatic regulator, an antioxidant and anti-inflammatory adjunct, or a context-dependent pharmacological target in selected subgroups of infertile men."
+  },
+  {
+   "section": "article",
+   "text": "6"
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Current evidence supports a biologically plausible role for vitamin D signaling in male reproduction. <sentence_start/>The presence of VDR and vitamin D-metabolizing enzymes in the male reproductive tract and mature spermatozoa provides an anatomical basis for local and systemic actions. <sentence_start/>Mechanistically, vitamin D may influence sperm function through calcium-dependent non-genomic signaling, antioxidant defense, mitochondrial regulation, inflammatory modulation, steroidogenic support, and transcriptional regulation. <sentence_start/>However, several proposed pathways, particularly those involving epigenetic remodeling and germ-cell-specific VDR target genes, still require direct validation in human reproductive tissues."
+  },
+  {
+   "section": "article",
+   "text": "Clinically, low serum 25(OH)D has been most consistently associated with impaired sperm motility, whereas associations with sperm concentration, total sperm count, reproductive hormones, DFI, pregnancy, and live birth remain inconsistent. <sentence_start/>Mendelian randomization studies suggest a potential protective relationship between higher genetically predicted 25(OH)D and male infertility risk, but randomized trials have not established vitamin D supplementation as a broadly effective treatment for unselected infertile men. <sentence_start/>Moreover, emerging preclinical evidence indicates that excessive vitamin D exposure may also impair spermatogenesis, supporting a biphasic model of vitamin D homeostasis."
+  },
+  {
+   "section": "article",
+   "text": "Therefore, vitamin D should be considered a homeostatic and context-dependent modulator rather than a stand-alone pharmacological treatment for male infertility. <sentence_start/>Assessment and correction of deficiency may be reasonable in selected men, particularly those with asthenozoospermia, oxidative stress, elevated DFI, varicocele, obesity, limited sun exposure, or recurrent reproductive loss in the couple. <sentence_start/>Future translational studies should define optimal therapeutic windows, identify validated biomarkers of response, and determine whether VDR-mediated molecular signaling, nutrient-gene interactions, vitamin D pathway genotypes, or epigenetic markers can guide individualized supplementation strategies."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Edited by:</bold> , All India Institute of Medical Sciences Gorakhpur, India"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Reviewed by:</bold> , Galgotias University, India"
+  },
+  {
+   "section": "back",
+   "text": ", Al-Azhar University, Egypt"
+  },
+  {
+   "section": "back",
+   "text": ", All India Institute of Medical Sciences Gorakhpur, India"
+  },
+  {
+   "section": "back",
+   "text": ", Royan Institute for Biotechnology, Iran"
+  },
+  {
+   "section": "back",
+   "text": ", ESIC Hospital Jaipur, India"
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "JL: Writing - original draft, Investigation, Visualization, Conceptualization. <sentence_start/>BL: Writing - review and editing, Investigation. <sentence_start/>XQ: Validation, Writing - review and editing. <sentence_start/>ML: Visualization, Writing - review and editing, Investigation. <sentence_start/>SL: Conceptualization, Funding acquisition, Writing - review and editing. <sentence_start/>DZ: Project administration, Conceptualization, Writing - review and editing, Funding acquisition, Supervision."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Generative AI statement"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that generative AI was not used in the creation of this manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. <sentence_start/>If you identify any issues, please contact us."
+  },
+  {
+   "section": "back",
+   "text": "Publisher\u2019s note"
+  },
+  {
+   "section": "back",
+   "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. <sentence_start/>Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+  }
+ ]
+}

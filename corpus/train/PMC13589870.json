@@ -1,0 +1,471 @@
+{
+ "pmid": 42763394,
+ "pmcid": 13589870,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Sex-specific patterns of symptom burden, psychological distress, and work productivity impairment in post-acute sequelae of COVID-19: a 10-month dynamic cohort study"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "A considerable proportion of patients experience post-acute sequelae of COVID-19 (PASC). <sentence_start/>Increasing evidence suggests sex-related differences, yet systematic longitudinal analyses remain limited. <sentence_start/>This study aimed to examine sex-specific differences in symptoms, psychological burden, work productivity and physical activity over ten months following acute COVID-19."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "In this prospective, dynamically enrolled cohort study, patients with ongoing symptoms after confirmed SARS-CoV-2 infection were followed over a 10-month observation period. <sentence_start/>Patients conducted at the post-COVID outpatient clinic of the department of respiratory medicine and infectious diseases at Hannover Medical School, Germany. <sentence_start/>The assessment included patient-reported outcome measures, pulmonary function tests, six-minute walk tests, and capillary blood gas analysis. <sentence_start/>All outcome comparisons between sexes were adjusted for age, BMI, COVID-19 severity, and comorbidities using generalised linear mixed-effects models, with sex-by-time interaction terms tested to assess whether differences changed over follow-up, and p-values corrected for multiple testing across all outcome comparisons using the Holm method. <sentence_start/>A sensitivity analysis was performed in the subgroup of patients with complete follow-up at all four visits."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Five hundred ninety patients attended to our clinic and a total of 433 patients were eligible and consecutively enrolled. <sentence_start/>Males were older (56 years vs. 52 years, <italic>p =</italic> 0.002), had more cardiovascular comorbidities (16% vs. 5%, <italic>p &lt;</italic> 0.001), and experienced more severe COVID-19 (28% vs. 8%, <italic>p &lt;</italic> 0.001). <sentence_start/>After adjustment for age, BMI, COVID-19 severity, and comorbidities, and Holm correction for multiple testing across all 27 outcome comparisons, females showed higher fatigue (Fatigue Assessment Scale, adjusted \u03b2 = 3.3, Holm-adjusted <italic>p =</italic> 0.006), higher anxiety (GAD-2, \u03b2 = 0.5, <italic>p =</italic> 0.021), lower quality of life (EQ-5D-3L, \u03b2 = -0.6, <italic>p =</italic> 0.004), and greater work productivity impairment, both as a continuous score (WPAI-VAS, \u03b2 = 1.3, <italic>p =</italic> 0.031) and as a binary indicator of clinically relevant impairment (OR = 3.0, <italic>p =</italic> 0.020). <sentence_start/>Females also had higher percent-predicted (pp) total lung capacity (<italic>p &lt;</italic> 0.0001) and lower pCO<sub>2</sub> (<italic>p &lt;</italic> 0.0001), whereas males had higher pp diffusion capacity (<italic>p =</italic> 0.001). <sentence_start/>Headache (<italic>p &lt;</italic> 0.001) and chest tightness (<italic>p =</italic> 0.011) were reported more frequently by females. <sentence_start/>None of these differences varied significantly over the 10-month follow-up (all sex-by-time interaction <italic>p \u2265</italic> 0.41), indicating no evidence that these differences changed over time. <sentence_start/>No significant sex differences remained after adjustment for depression (PHQ-2), lung function parameters, sex/height-adjusted exercise capacity, post-exercise dyspnoea or oxygen saturation, or most acute-COVID-19 symptoms other than headache and chest tightness. <sentence_start/>Regression models separately for each sex revealed fever (OR = 2.48, 95% CI: 1.11-5.57, <italic>p =</italic> 0.027) and diarrhoea (OR 2.33, 95%CI: 1.05-5.16, <italic>p =</italic> 0.038) during acute COVID-19 were associated with higher odds of work productivity impairment (WPAI-VAS \u2265 2) in males. <sentence_start/>In females, higher BMI (OR = 2.06, 95% CI: 1.13-3.76, <italic>p =</italic> 0.018) and dyspnoea during acute COVID-19 (OR = 4.38, 95% CI: 1.55-12.40, <italic>p =</italic> 0.005) were associated with increased odds. <sentence_start/>Formal interaction analyses showed a significant interaction only for dyspnoea after Holm correction."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "After accounting for baseline imbalance in age, BMI, COVID-19 severity, and comorbidities, and after correcting for multiple testing, sex-specific differences persisted for fatigue, anxiety, quality of life, and work productivity impairment, as well as selected lung function parameters. <sentence_start/>These differences did not change significantly across the 10-month observation period and did not show a significant sex-by-time interaction. <sentence_start/>The findings support the need for individualised, sex-specific follow-up focused on fatigue, psychological burden, and work productivity in patients with PASC."
+  },
+  {
+   "section": "abstract",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "abstract",
+   "text": "The online version contains supplementary material available at ."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Coronavirus disease 2019 (COVID-19), caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has had profound global health consequences, affecting more than 700 million individuals and resulting in over seven million deaths worldwide as of 2024 [<citation rid=\"CR1\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.55430\" pmcid=\"PMC11755195\" pmid=\"39841477\" count=\"1\">1</citation>]. <sentence_start/>While the acute phase is often self-limiting, approximately 10-15% of patients develop persistent symptoms extending beyond the resolution of the initial infection, referred to as post-acute sequelae of COVID (PASC) [<citation rid=\"CR2\" ref-type=\"bibr\" doi=\"10.3390/biomedicines12040913\" pmid=\"38672267\" pmcid=\"PMC11048001\" count=\"1\">2</citation>, <citation rid=\"CR3\" ref-type=\"bibr\" doi=\"10.1093/cid/ciab408\" pmid=\"34007978\" pmcid=\"PMC8240848\" count=\"1\">3</citation>]. <sentence_start/>The World Health Organisation (WHO) defines PASC as a constellation of symptoms that usually occur within three months of COVID-19 onset, last for at least two months, and cannot be explained by an alternative diagnosis [<citation rid=\"CR4\" ref-type=\"bibr\" doi=\"10.1016/S1473-3099(21)00703-9\" pmid=\"34951953\" pmcid=\"PMC8691845\" count=\"1\">4</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "PASC can occur irrespective of initial disease severity and encompasses a broad range of manifestations, including fatigue, dyspnoea, impaired pulmonary function, reduced exercise capacity, and psychological symptoms such as depression and anxiety [<citation rid=\"CR5\" ref-type=\"bibr\" doi=\"10.1186/s13293-024-00609-z\" pmcid=\"PMC11034076\" pmid=\"38650012\" count=\"1\">5</citation>, <citation rid=\"CR6\" ref-type=\"bibr\" doi=\"10.1186/s12872-023-03412-7\" pmcid=\"PMC10408208\" pmid=\"37553628\" count=\"1\">6</citation>]. <sentence_start/>Although the underlying pathophysiology remains incompletely understood, emerging evidence points to persistent immune dysregulation, endothelial dysfunction, and autonomic imbalance as potential causes [<citation rid=\"CR7\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2021.698169\" pmid=\"34248921\" pmcid=\"PMC8260991\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Several studies report that females are disproportionately affected by PASC, identifying female sex as an independent risk factor, whereas in acute COVID-19, males show a higher risk of severe acute disease and mortality [<citation rid=\"CR1\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.55430\" pmcid=\"PMC11755195\" pmid=\"39841477\" count=\"1\">1</citation>, <citation rid=\"CR8\" ref-type=\"bibr\" doi=\"10.1038/s41467-020-19741-6\" pmid=\"33298944\" pmcid=\"PMC7726563\" count=\"1\">8</citation>]. <sentence_start/>As is known, sex is an established biological factor that affects susceptibility to infectious diseases, immune responses, and recovery trajectories [<citation rid=\"CR9\" ref-type=\"bibr\" doi=\"10.2807/1560-7917.ES.2024.29.2.2300200\" pmcid=\"PMC10785203\" pmid=\"38214079\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Recent longitudinal studies suggest sex-specific differences in pulmonary function, persistence of symptoms, physical performance and rehabilitation outcomes among patients with PASC [<citation rid=\"CR5\" ref-type=\"bibr\" doi=\"10.1186/s13293-024-00609-z\" pmcid=\"PMC11034076\" pmid=\"38650012\" count=\"1\">5</citation>, <citation rid=\"CR10\" ref-type=\"bibr\" doi=\"10.1038/s41591-021-01292-y\" pmid=\"33692530\" pmcid=\"PMC7611399\" count=\"1\">10</citation>, <citation rid=\"CR11\" ref-type=\"bibr\" doi=\"10.1186/s12916-024-03658-8\" pmid=\"39379918\" pmcid=\"PMC11463035\" count=\"1\">11</citation>]. <sentence_start/>A systematic review and meta-analysis by Sylvester et al. further identified sex-specific disparities in symptom burden. <sentence_start/>Females exhibit greater burden in fatigue, psychological distress, and functional impairment, whereas males demonstrate more pronounced objective impairments in lung function and exercise capacity, although findings remain heterogeneous [<citation rid=\"CR9\" ref-type=\"bibr\" doi=\"10.2807/1560-7917.ES.2024.29.2.2300200\" pmcid=\"PMC10785203\" pmid=\"38214079\" count=\"1\">9</citation>, <citation rid=\"CR12\" ref-type=\"bibr\" doi=\"10.1016/j.tcm.2021.09.009\" pmcid=\"PMC8490128\" pmid=\"34619336\" count=\"1\">12</citation>]. <sentence_start/>The observed sex-specific distinctions in PASC may be influenced by multiple factors, including differences in immune regulation, hormonal influences, endothelial dysregulation, and gender-related social and occupational exposures [<citation rid=\"CR13\" ref-type=\"bibr\" doi=\"10.1038/s41586-020-2700-3\" pmid=\"32846427\" pmcid=\"PMC7725931\" count=\"1\">13</citation>]. <sentence_start/>Moreover, Gebhard et al. described role- and gender-specific stressors, such as care work and financial burden, as potential modifying factors [<citation rid=\"CR9\" ref-type=\"bibr\" doi=\"10.2807/1560-7917.ES.2024.29.2.2300200\" pmcid=\"PMC10785203\" pmid=\"38214079\" count=\"1\">9</citation>]. <sentence_start/>However, no cause has been identified with certainty until now."
+  },
+  {
+   "section": "article",
+   "text": "Importantly, PASC has been shown to substantially reduce work ability, functional independence and therefore social participation [<citation rid=\"CR5\" ref-type=\"bibr\" doi=\"10.1186/s13293-024-00609-z\" pmcid=\"PMC11034076\" pmid=\"38650012\" count=\"1\">5</citation>, <citation rid=\"CR11\" ref-type=\"bibr\" doi=\"10.1186/s12916-024-03658-8\" pmid=\"39379918\" pmcid=\"PMC11463035\" count=\"1\">11</citation>]. <sentence_start/>Kautzky et al. identified depressive and anxiety symptoms as potential contributors to quality of life and work ability in individuals with PASC. <sentence_start/>However, research using validated work ability and productivity assessments remains limited, and very few studies have investigated whether such functional impairment differs between females and males."
+  },
+  {
+   "section": "article",
+   "text": "Despite growing evidence that biological sex affects multiple dimensions of PASC, studies comparing females and males across clinically relevant domains, using standardised outcome measures and follow-up periods exceeding three months, remain scarce. <sentence_start/>As PASC is a novel, dynamic, fluctuating and prolonged condition with heterogeneous clinical manifestations, repeated assessments across a follow-up period may provide additional insight into sex-specific patterns of symptoms and functional impairment. <sentence_start/>This prospective, dynamically enrolled cohort study investigates sex-specific risk profiles in patients with PASC associated with work productivity impairment. <sentence_start/>The primary aim was to describe symptoms, psychological burden, lung function, physical performance, and work productivity impairment between female and male patients over a 10-month observation period, using models that account for the unbalanced, dynamic structure of the cohort. <sentence_start/>In addition, the study aimed to identify factors associated with work productivity impairment separately in female and male participants, thereby characterising sex-specific risk profiles. <sentence_start/>The study does not assess differences in the incidence of PASC but focuses exclusively on outcomes among patients with established PASC."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Study design, patient characteristics and symptoms"
+  },
+  {
+   "section": "article",
+   "text": "This prospective cohort study was performed at the post-COVID outpatient clinic of the Department of Respiratory Medicine and Infectious Diseases at Hannover Medical School, Germany. <sentence_start/>Patients were prospectively recruited between May 2020 and March 2024 following a SARS-CoV-2 infection, as detected by a virus-specific Polymerase Chain Reaction (PCR) test or by the presence of specific antibodies against the SARS-CoV-2 nucleocapsid (N). <sentence_start/>All patients complained about new-onset, ongoing symptoms after COVID-19. <sentence_start/>During the recruitment period, patients were recruited consecutively from the outpatient clinic and no eligible patient declined participation. <sentence_start/>Of 590 patients attending to the outpatient clinic, 433 were eligible and included in the study. <sentence_start/>Repeated measures were aligned to time since SARS-CoV-2 infection (2, 4, 6 and 10 months after infection). <sentence_start/>Due to the outpatient nature of recruitment, participants entered the study at different time points, and not all participants contributed data at every assessment point. <sentence_start/>Sex was assessed as documented in the medical records; no assessment of the gender identity was performed. <sentence_start/>The course of acute COVID-19 was classified into four severity levels: asymptomatic, mild (outpatient), moderate (inpatient on a regular ward), and severe (inpatient requiring treatment in the intensive care unit, ICU). <sentence_start/>Figure 1 shows the flow of the dynamic patient cohort during the study period, visualising the different attendance of patients. <sentence_start/>The participants were present in various ways, with some attending only individual visits, others only in the early stages, and yet others only at late visits. <sentence_start/>At their first visit patients were asked about comorbidities and their symptoms during the acute phase of the disease, as shown in Table 1. Symptoms asked for during the acute phase were dyspnoea, cough, headache, chest tightness/pain, fever, diarrhoea, loss of smell and fatigue. <sentence_start/>For symptoms persisting in the post-acute phase, we asked about chest tightness, arthritis, fever, cough, headache, reflux, sickness, sputum production, syncope and weight loss. <sentence_start/>Symptoms were assessed after the infection and patient-reported outcome measures (PROMs) were completed at each visit, as well as lung function and physical activity measurements. <sentence_start/>Education level, classified according to International Standard Classification of Education (ISCED 2011), was also assessed at baseline.<sentence_start/>Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Patients' Alluvial Plot with participants dynamic flow and follow-up status across study visits (2-10 months after infection)"
+  },
+  {
+   "section": "article",
+   "text": "This design yields repeated cross-sectional assessments within a dynamically enrolled cohort rather than complete individual trajectories for most patients; only 46 of 433 patients (10.6%) contributed data at all four visits. <sentence_start/>We therefore avoid interpreting the follow-up data as tracked within-patient trajectories except where explicitly noted (sensitivity analysis, complete-case subgroup). <sentence_start/>Sex-specific attrition was formally assessed (see Statistical analysis) to evaluate whether the composition of the cohort at each visit differed systematically between females and males; this differed significantly at the 4-month visit (Holm-adjusted <italic>p =</italic> 0.045) but not at 2, 6, or 10 months (Holm-adjusted <italic>p =</italic> 0.204-0.256)."
+  },
+  {
+   "section": "article",
+   "text": "The study was conducted in accordance with the Declaration of Helsinki, and informed consent was obtained from every patient. <sentence_start/>This study was approved by the institutional review board at Hannover Medical School (#9226_BO_K_2020)."
+  },
+  {
+   "section": "article",
+   "text": "Psychological burden and work ability"
+  },
+  {
+   "section": "article",
+   "text": "Various PROMs were used to investigate psychological stress. <sentence_start/>To assess Quality of life (QoL), depression and anxiety, we used the Generalised Anxiety Disorder - 2 item Score (GAD-2), Patient Health Questionnaire-2 (PHQ-2) and Quality of Life - European Quality of Life 5 Dimensions 3 Level Version questionnaire (EQ-5D-3L), as these are validated standard questionnaires [<citation rid=\"CR14\" ref-type=\"bibr\" doi=\"10.1097/01.MLR.0000093487.78664.3C\" pmid=\"14583691\" count=\"1\">14</citation>-<citation rid=\"CR16\" ref-type=\"bibr\" doi=\"10.1016/0168-8510(90)90421-9\" pmid=\"10109801\" count=\"1\">16</citation>]. <sentence_start/>The GAD-2 score assesses the frequency of core anxiety symptoms-nervousness and uncontrollable worry-over the past two weeks. <sentence_start/>Each item is rated on a scale from 0 to 3; a score &gt; 3 indicates a positive screening for present anxiety symptoms [<citation rid=\"CR17\" ref-type=\"bibr\" doi=\"10.7759/cureus.8224\" pmcid=\"PMC7306644\" pmid=\"32582485\" count=\"1\">17</citation>]. <sentence_start/>Furthermore, we used the PHQ-2 Score to identify depressive symptoms. <sentence_start/>It assesses the frequency of depressive moods and anhedonia over the past two weeks, rated on a 4-point Likert scale from 0 (no symptoms) to 3 (everyday symptoms) [<citation rid=\"CR18\" ref-type=\"bibr\" doi=\"10.1370/afm.1139\" pmid=\"20644190\" pmcid=\"PMC2906530\" count=\"1\">18</citation>]. <sentence_start/>The EQ-5D-3L Score is an instrument used to measure health-related quality of life. <sentence_start/>It comprises five dimensions - mobility, self-care, usual activities, pain/discomfort, and anxiety/depression-rated on three levels: no problems (scale 1), some problems (scale 2), and extreme problems (scale 3). <sentence_start/>The answers to the questionnaire are converted into an index value using standardised calculation methods. <sentence_start/>It results in a five-digit health state code that represents the individual\u2019s self-reported health [<citation rid=\"CR19\" ref-type=\"bibr\" doi=\"10.1177/0272989X13480852\" pmid=\"23525701\" count=\"1\">19</citation>]. <sentence_start/>The Fatigue Assessment Scale (\u00a9 FAS Fatigue Assessment Scale: ild care foundation re.nl) was used to assess fatigue levels (no fatigue, fatigue and extreme fatigue) [<citation rid=\"CR20\" ref-type=\"bibr\" doi=\"10.1348/1359107041557048\" pmid=\"15296678\" count=\"1\">20</citation>]. <sentence_start/>The scale ranges from 10 to 50, with a score of &lt; 22 indicating no fatigue, scores between 22 and 34 reflecting the presence of fatigue and scores \u2265 35 indicating extreme fatigue. <sentence_start/>Moreover, we assessed limitations in daily life due to PASC using a self-administered questionnaire based on the post-COVID-19 functional status scale (PCFS) [<citation rid=\"CR21\" ref-type=\"bibr\" doi=\"10.1183/13993003.01494-2020\" pmid=\"32398306\" pmcid=\"PMC7236834\" count=\"1\">21</citation>]. <sentence_start/>This questionnaire utilizes a five-point Likert-scale to address the following domains: COVID-19-specific symptoms (symptoms state), pain or psychological burden (psychiatric state), and daily physical performance (daily routine state) and general limitations (common state). <sentence_start/>Results were categorized into three distinct groups: improved, stable, and worsened. <sentence_start/>This questionnaire was developed by our group for use in this cohort; the full instrument is provided in the supplementary material of the original publication describing its development and use [<citation rid=\"CR22\" ref-type=\"bibr\" doi=\"10.1007/s15010-023-02114-8\" pmid=\"37924472\" pmcid=\"PMC10954951\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "To further investigate the impact on work in participants who reported being in paid employment at the respective study visit. <sentence_start/>Employment status was assessed at each individual visit. <sentence_start/>We employed item 5 of the Work Productivity and Activity Impairment - General Health (WPAI-GH) questionnaire. <sentence_start/>This item contains of a visual analogue scale (VAS, WPAI-VAS) ranging from 0 (work is not affected) to 10 (complete limitation of working) and focusses on the productivity impairment due to health problems [<citation rid=\"CR23\" ref-type=\"bibr\" doi=\"10.2165/00019053-199304050-00006\" pmid=\"10146874\" count=\"1\">23</citation>]. <sentence_start/>There is no established cut-off value for the WPAI or the VAS defining a relevant impairment. <sentence_start/>We have based our assessment on the minimal clinically important difference (MCID) of the WPAI-GH (items 1-6) of 20% [<citation rid=\"CR24\" ref-type=\"bibr\" doi=\"10.1111/jdv.15098\" pmid=\"29846976\" count=\"1\">24</citation>]. <sentence_start/>Therefore, the geometric means of the WPAI-VAS were dichotomized at a cut-off of \u2265 2 to define clinically relevant impairment. <sentence_start/>We have assumed that a score of \u2265 2, that is, 20% or higher compared to the absence of limitation, can be considered to constitute a relevant restriction."
+  },
+  {
+   "section": "article",
+   "text": "Physical activity and pulmonary function test"
+  },
+  {
+   "section": "article",
+   "text": "In addition to an exercise test to assess patients\u2019 physical capacity, we also performed pulmonary function tests (PFT) at each visit. <sentence_start/>If patients were able to perform the physical activity, a 6-min walking test was accomplished at every visit. <sentence_start/>The distance (6MWD) expressed as an absolute value and adjusted for age, sex, height and weight (= percent predicted, pp6MWD) was assessed with continuous measurement of peripheral oxygen saturation (SpO2) and heart rate by pulse oximetry [<citation rid=\"CR25\" ref-type=\"bibr\" doi=\"10.1164/ajrccm.158.5.9710086\" pmid=\"9817683\" count=\"1\">25</citation>]. <sentence_start/>Furthermore, dyspnoea was queried before and after the test using the ten points BORG Scale (0 = Nothing at all, 10 = Very, very strong) [<citation rid=\"CR26\" ref-type=\"bibr\" doi=\"10.1249/00005768-198205000-00012\" pmid=\"7154893\" count=\"1\">26</citation>]. <sentence_start/>For PFT, a body plethysmography was performed and percent predicted forced expiratory volume in one second (ppFEV<sub>1</sub>), percent predicted forced expiratory vital capacity (ppFVC<sub>ex</sub>), percent predicted total lung capacity (ppTLC), as well as percent predicted diffusion capacity for carbon monoxide (ppDLCO) were assessed. <sentence_start/>Blood gases from arterialized capillary blood were measured at rest without oxygen supplementation, and values for partial pressure of oxygen (pO<sub>2</sub>) and carbon dioxide (pCO<sub>2</sub>) were documented."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Normal distribution was assessed using the Shapiro-Wilk test. <sentence_start/>For categorical variables, absolute frequencies were calculated. <sentence_start/>For continuous variables, the median and interquartile range (IQR; 25th and 75th percentiles) were reported. <sentence_start/>Group differences were evaluated using the Wilcoxon rank sum test, for continuous variables, as they were non-normally distributed, and Pearson's Chi-squared test for categorical variables. <sentence_start/>To account for multiple testing within group comparisons and post hoc analyses of baseline characteristics, the Holm method was used to adjust p-values. <sentence_start/>A two-sided significance level of 5% was applied throughout."
+  },
+  {
+   "section": "article",
+   "text": "A comparative analysis of baseline characteristics was conducted to examine differences between female and male participants using the tests described above, with Holm correction for multiple testing (Table 1). <sentence_start/>Post hoc cellwise comparison was performed using standardised residuals, with a cut-off value of 2, indicating significant over- (\u2265 2) or underrepresentation (\u2264 \u22122) relative to expected frequencies. <sentence_start/>Because patients were recruited and followed dynamically, with unequal numbers of assessments per patient and differing time of cohort entry, all outcome comparisons across the follow-up period were modelled using generalised linear mixed-effects models (GLMMs; lme4 package [<citation rid=\"CR27\" ref-type=\"bibr\" count=\"1\">27</citation>]) with a patient-specific random intercept, which adjusts unbalanced repeated measurements. <sentence_start/>Continuous days since infection was used to reflect the dynamic, individually timed follow-up structure. <sentence_start/>For every outcome reported in the Results we fitted an unadjusted model with sex, time, and their interaction, and an adjusted model additionally including age, BMI, COVID-19 severity, and comorbidities (cardiovascular disease, diabetes, hypertension) as fixed effects. <sentence_start/>The sex-by-time interaction term was used to formally test whether sex differences changed across the follow-up period; p-values for these interaction terms, and separately for the adjusted sex main-effect terms, were corrected for multiple testing across all outcomes using the Holm method. <sentence_start/>To assess whether differential attrition by sex affected these estimates, we formally compared the distribution of number-of-visits-attended and newly included/followed up/lost to follow up status between sexes at each visit window (Chi-squared/Fisher's exact test, Holm-corrected across visits), and performed a sensitivity analysis restricting the adjusted models to the subgroup of patients with complete data at all four visits (<italic>n</italic> = 46). <sentence_start/>Odds ratios (ORs) and regression coefficients with 95% confidence intervals (95% CI) were derived from the GLMMs. <sentence_start/>Results were visualised using forest plots on a logarithmic scale (ggplot2 package [<citation rid=\"CR28\" ref-type=\"bibr\" count=\"1\">28</citation>]). <sentence_start/>All statistical analyses and figures were generated using R Studio (Version 4.5.1 (2025-06-13), Posit Software, Boston, MA, USA)."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Patient characteristics and symptoms"
+  },
+  {
+   "section": "article",
+   "text": "Table 1 presents the baseline characteristics of the cohort. <sentence_start/>In total, 433 patients were recruited between May 2020 and March 2024 as part of a dynamic patient cohort. <sentence_start/>Figure 1 illustrates the flow of patients during the study period. 172 participants attended to one appointment, 120 to two, 95 to three and 46 to all four appointments. <sentence_start/>Further details of female and male participants newly included, followed up or lost to follow up are listed in Supplementary Table 1. <sentence_start/>Of this cohort, 237 (55%) participants were female and 196 (45%) were male according to their sex, with no inquiry into gender identity. <sentence_start/>Males were found to be significantly older and to have experienced a more severe course of the acute COVID-19 (moderate and severe). <sentence_start/>Furthermore, male patients exhibited higher BMI, as well as greater prevalence of comorbidities such as cardiovascular disease and arterial hypertension. <sentence_start/>Regarding the manifestation of acute symptoms, female subjects reported a higher prevalence of headache, loss of smell, and fatigue. <sentence_start/>There was a significant difference in vaccination status, and post-hoc analyses of the standardised residuals (std. res) showed that male participants were significantly more likely to be unvaccinated (std. res = + 3.10) and less likely to have two vaccinations (std. res = \u22122.39) or \u2265 3 vaccinations (\u22122.22). <sentence_start/>Females showed the opposite pattern."
+  },
+  {
+   "section": "article",
+   "text": "Formal, adjusted comparison of outcomes between sexes"
+  },
+  {
+   "section": "article",
+   "text": "To address baseline imbalance between sexes (Table 1) and the possibility that follow-up differed structurally between males and females, all 27 outcome comparisons reported above were re-analysed using generalised linear mixed-effects models with a patient-specific random intercept, adjusted for age, BMI, COVID-19 severity, and comorbidities (cardiovascular disease, diabetes, hypertension), with sex-by-time interaction terms tested to assess whether differences changed over the follow-up period. <sentence_start/>P-values were corrected for multiple testing across all 27 comparisons using the Holm method. <sentence_start/>After this adjustment and correction, 11 of 27 outcomes remained statistically significant (see Table 2): fatigue (FAS), anxiety (GAD-2), quality of life (EQ-5D-3L), work productivity impairment (WPAI-VAS, both continuous and dichotomised at WPAI \u2265 2), ppTLC, ppDLCO, pCO2, headache, and chest tightness. <sentence_start/>Absolute 6MWD in meters also remained significant, but the adjusted pp6MWD did not, suggesting the absolute-distance difference primarily reflects anthropometric differences rather than a PASC-specific functional impairment. <sentence_start/>No significant sex difference remained after adjustment for depressive symptoms (PHQ-2), spirometric parameters (ppFEV1, ppFVCex), post-exercise dyspnoea (BORG) or oxygen saturation, pO2, or acute-COVID-19 symptoms other than headache and chest tightness. <sentence_start/>None of the sex-by-time interaction terms reached significance after Holm correction (all <italic>p \u2265</italic> 0.41), indicating that, where present, sex differences were consistent across the follow-up period of ten months rather than emerging or resolving over time."
+  },
+  {
+   "section": "article",
+   "text": "Symptom and functional trends across follow-up"
+  },
+  {
+   "section": "article",
+   "text": "Unadjusted trends of symptoms, PROMs, lung function and exercise capacity are provided in Figs. <sentence_start/>2 and 3. <sentence_start/>Figure 2 presents the results for the symptoms during the different visits. <sentence_start/>Female participants complained about chest tightness at a higher proportion two, six and ten months after infection. <sentence_start/>Moreover, headache was reported more often by females at all timepoints.<sentence_start/>Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Sex-stratified prevalance of persistent symptoms across the post-infection follow-up period"
+  },
+  {
+   "section": "article",
+   "text": "Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "Sex-stratified trajectories of patient-reported and functional outcomes over the post-infection follow-up period. <sentence_start/>Abbreviations: FAS = Fatigue Assessment Scale, GAD2 = Generalized anxiety disorder 2- item, PHQ2 = Patient Health Questionnaire-2, EQ-5D-3L = European quality of life - 5 dimensions 3 Level Version Questionnaire, WPAI-VAS = Work Productivity and Ability Index - Visual Analog Scale, 6MWD (m) = six-minute walking distance (meters), pp6MWD = per cent of predicted six-minute walking distance, pre = before the six-minute walking test, BORG = numerical measurement of dyspnoea during exercise, SpO<sub>2</sub> = peripheral saturation of oxygen, ppFEV<sub>1</sub> = percent predicted forced expiratory volume in one second, ppFVC<sub>ex</sub> = percent predicted forced expiratory vital capacity, ppTLC = percent predicted total lung capacity, PO<sub>2=</sub> partial pressure of oxygen, PCO<sub>2</sub> = partial pressure of carbon dioxide"
+  },
+  {
+   "section": "article",
+   "text": "PROMs in female and male participants are demonstrated in Fig. 3. <sentence_start/>In general, females reported a greater symptom burden across a range of domains than male subjects. <sentence_start/>Additional trends visible in Fig. 3 (SpO<sub>2</sub>, BORG dyspnoea scale, ppFCV<sub>ex</sub> and pO<sub>2</sub>) did not reach statistical significance after adjustment and multiple-testing correction (see Table 2). <sentence_start/>All pulmonary function and blood gas results remained within clinically normal ranges."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4 illustrates the distribution of fatigue categories based on FAS scores (no fatigue, fatigue, extreme fatigue) across all follow-up appointments. <sentence_start/>Details are shown in Supplementary Table 2. <sentence_start/>It is acknowledged that there is considerable variation in the maximum number of patients across the different visits, owing to the dynamic patient cohort (see Fig. 1). <sentence_start/>Among male participants, the proportion reporting fatigue or extreme fatigue was 57.7% two months after infection and 61.3% ten months after infection (see Supplementary Table 2). <sentence_start/>Among female participants, the corresponding proportions were 82.0% two months after infection and 73.6% ten months after infection. <sentence_start/>When considering extreme fatigue separately, females demonstrated slightly higher relative frequencies ten months after infection than two months after infection (31.3% vs. 36.3%), whereas lower proportions were observed among males ten months after infection than two months after infection (14.4% vs. 11.3%).Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "Alluvial plot of the distribution of fatigue categories based on the FAS Score (fatigue, extreme fatigue, and no fatigue), stratified by sex, across the post-infection follow-up period. <sentence_start/>Each line represents one participant. <sentence_start/>Interpretation should consider the dynamic cohort structure and differing participant availability between visits. <sentence_start/>Abbreviation: FAS = Fatigue Assessment Scale"
+  },
+  {
+   "section": "article",
+   "text": "Logistic regression of relevant work productivity impairment"
+  },
+  {
+   "section": "article",
+   "text": "Figure 5 illustrated the results of the regression models separately for each sex, and Supplementary Table 3 shows the statistical details. <sentence_start/>In male patients, fever (OR = 2.48, 95% CI: 1.11-5.57, <italic>p =</italic> 0.027) and diarrhoea (OR 2.33, 95%CI: 1.05-5.16, <italic>p =</italic> 0.038) during acute COVID-19 were significantly associated with higher odds of work productivity impairment (WPAI-VAS \u2265 2). <sentence_start/>In females, higher BMI (OR = 2.06, 95% CI: 1.13-3.76, <italic>p =</italic> 0.018) and dyspnoea during acute COVID-19 (OR = 4.38, 95% CI: 1.549-12.40, <italic>p =</italic> 0.005) were associated with increased odds.<sentence_start/>Fig. 5"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot illustrating odds ratios (OR) and 95% confidence intervals derived from binomial generalised linear mixed-effects models assessing factors associated with relevant work productivity impairment (WPAI-VAS \u2265 2). <sentence_start/>Analyses were performed separately for male and female participants. <sentence_start/>Covariates include age, body mass index (BMI), COVID-19 severity, and acute COVID-19-related symptoms. <sentence_start/>OR &gt; 1 indicates increased odds of relevant impairment"
+  },
+  {
+   "section": "article",
+   "text": "To formally assess effect modification by sex, sex-by-covariate interaction terms were evaluated in a combined mixed-effects logistic regression model. <sentence_start/>After Holm adjustment, only the interaction between sex and dyspnoea remained statistically significant (adjusted <italic>p =</italic> 0.013), while no evidence of effect modification was observed for the remaining covariates (Supplementary Table 4)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This dynamic cohort study of patients with PASC found statistically robust, baseline-adjusted sex differences in a defined subset of outcomes. <sentence_start/>After accounting for age, BMI, COVID-19 severity, and comorbidities, and after Holm correction for multiple testing across all 27 pre-specified outcome comparisons, females showed higher fatigue, higher anxiety, lower quality of life, and greater work productivity impairment (both as a continuous score and as a binary indicator of clinically relevant impairment), together with differences in ppTLC, ppDLCO, and capillary pCO2. <sentence_start/>Headache and chest tightness were the only acute-COVID-19 associated PASC symptoms that remained significantly more frequent in females after adjustment. <sentence_start/>None of these differences changed significantly across the 10-month observation period (all sex-by-time interaction <italic>p \u2265</italic> 0.41), indicating no evidence that these sex differences changed over time. <sentence_start/>In contrast, no significant sex difference was confirmed after adjustment for depressive symptoms (PHQ-2), spirometric parameters (ppFEV1, ppFVCex), sex/height-adjusted exercise capacity (pp6MWD), post-exercise dyspnoea (BORG) or SpO<sub>2</sub>, pO2, or most other acute-COVID-19 symptoms, despite descriptive trends visible in the raw data (Figs. <sentence_start/>2 and 3 and Supplementary Table 2)."
+  },
+  {
+   "section": "article",
+   "text": "In the context of acute COVID-19, males were older, exhibited more severe courses and were more likely to necessitate ICU admission. <sentence_start/>They had higher BMI and more cardiovascular comorbidities, diabetes and hypertension. <sentence_start/>It is already known that males experience more severe illness in combination with the above-mentioned comorbidities [<citation rid=\"CR27\" ref-type=\"bibr\" count=\"1\">27</citation>]. <sentence_start/>However, notable variations in the reported symptoms during the acute phase were also observed, with females referring more often about headache, chest tightness, loss of smell and fatigue in our study. <sentence_start/>A Swiss study has also documented disparities in the manifestation of acute symptoms, showing that females were more likely to report anosmia/dysomia, ageusia/dysgeusia, gastrointestinal symptoms, dyspnoea, or fatigue, while males were more prone to declare fever [<citation rid=\"CR9\" ref-type=\"bibr\" doi=\"10.2807/1560-7917.ES.2024.29.2.2300200\" pmcid=\"PMC10785203\" pmid=\"38214079\" count=\"1\">9</citation>]. <sentence_start/>A recent review also found differences in sexes concerning acute symptoms, pointing out females are more likely to have psychiatric disorders, ear/nose/throat (ENT) complications, musculoskeletal and respiratory symptoms. <sentence_start/>On the other hand, male patients had more renal disorders [<citation rid=\"CR28\" ref-type=\"bibr\" count=\"1\">28</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Our study and the existing literature on this topic indicate that males and females experience PASC differently. <sentence_start/>The cause of these differences is still unknown, but the subject of current research. <sentence_start/>Notably, females aged 40-54, particularly those who are premenopausal, are at a higher risk for PASC than males of the same age [<citation rid=\"CR1\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.55430\" pmcid=\"PMC11755195\" pmid=\"39841477\" count=\"1\">1</citation>]. <sentence_start/>The increased risk may be related not only to age-related hormonal decline but also to marked hormonal fluctuations that characterise the perimenopausal transition. <sentence_start/>As described by Santoro et al., this period is associated with substantial variability in oestrogen regulation and endocrine function, which may influence immune response and susceptibility to persistent post-infectious symptoms. <sentence_start/>Clinically, symptoms of menopause and PASC are overlapping, like mood disruption, temporary cognitive dysfunction and sleep disturbances [<citation rid=\"CR29\" ref-type=\"bibr\" doi=\"10.1016/S2213-2600(20)30316-7\" pmid=\"32735842\" pmcid=\"PMC7386882\" count=\"1\">29</citation>]. <sentence_start/>In addition, Sylvester and colleagues describe a potentially premature onset of menopause in individuals with PASC, and an associated increased risk of cardiovascular disease and osteopenia [<citation rid=\"CR28\" ref-type=\"bibr\" count=\"1\">28</citation>]. <sentence_start/>Moreover, steroid hormones, like oestrogen and progesterone, exert immunomodulatory effects [<citation rid=\"CR30\" ref-type=\"bibr\" doi=\"10.1080/03007995.2022.2081454\" pmid=\"35726132\" count=\"1\">30</citation>], which may also partly explain the differing risk of developing PASC between male and female individuals. <sentence_start/>These hormonal differences may also be an explanation for the differences in psychiatric burden, as even in the general, worldwide population, the prevalence of fatigue is higher in females than in males [<citation rid=\"CR31\" ref-type=\"bibr\" doi=\"10.1210/clinem/dgaa764\" pmid=\"33095879\" count=\"1\">31</citation>, <citation rid=\"CR32\" ref-type=\"bibr\" doi=\"10.1210/er.2010-0031\" pmid=\"22240244\" pmcid=\"PMC3365843\" count=\"1\">32</citation>]. <sentence_start/>In our study, throughout the measurements over time, females reported higher rates of fatigue, and both findings, a high prevalence and females being even more at risk, are supported by several other reported studies [<citation rid=\"CR1\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.55430\" pmcid=\"PMC11755195\" pmid=\"39841477\" count=\"1\">1</citation>, <citation rid=\"CR30\" ref-type=\"bibr\" doi=\"10.1080/03007995.2022.2081454\" pmid=\"35726132\" count=\"1\">30</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In our study, no PASC-related symptom was formally confirmed to be more frequent among males than females after adjustment for baseline imbalance and correction for multiple testing. <sentence_start/>Among the symptoms tested, only headache and chest tightness showed a statistically robust female predominance."
+  },
+  {
+   "section": "article",
+   "text": "Work productivity impairment was significantly higher in females, both descriptively and after adjustment for baseline imbalance and correction for multiple testing (WPAI-VAS, continuous, <italic>p =</italic> 0.031; binary impairment threshold OR = 3.0, <italic>p =</italic> 0.020), and this difference did not change significantly across the ten-month follow up and did not show a significant sex-by-time interaction. <sentence_start/>In a sensitivity analysis restricted to the 46 patients with complete four-visit follow up, the odds ratio for impairment remained in the same direction (OR = 2.49) but did not reach significance (<italic>p =</italic> 0.135), consistent with the substantially reduced power of this small subgroup rather than a qualitatively different finding. <sentence_start/>Using generalised linear mixed-effects models incorporating sex-by-covariate interaction terms, higher BMI and dyspnoea in females, and fever and diarrhoea in males during acute COVID-19 were associated with subsequent work productivity impairment; among these, only the interaction with dyspnoea remained significant after Holm correction, indicating that this specific association differs by sex, while the other identified risk factors should be interpreted as descriptive, sex-stratified patterns."
+  },
+  {
+   "section": "article",
+   "text": "Regarding clinical relevance, most adjusted differences were below established or estimated MCIDs. <sentence_start/>The sex differences in FAS (3.3 points) was below the established MCID of 4 points [<citation rid=\"CR33\" ref-type=\"bibr\" doi=\"10.1016/j.jiph.2024.102559\" pmid=\"39418958\" count=\"1\">33</citation>]. <sentence_start/>The GAD-2 has no independently validated MCID of its own, a threshold derived from the longer GAD-7 cannot be assumed to scale proportionally to this 2-item screener, so we do not report a numeric comparison for this outcome. <sentence_start/>For EQ-5D-3L, conversion to the German Time Trade-off (TTO)-based utility index [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.1038/embor.2012.87\" pmid=\"22699937\" pmcid=\"PMC3388783\" count=\"1\">34</citation>] yielded an unadjusted mean difference of \u22120.030, at the lower boundary of the published MCID range (~ 0.03-0.10). <sentence_start/>Similarly, the continuous WPAI-VAS difference (1.3) was below the 20% MCID that was ourselves used, following Wu et al. [<citation rid=\"CR24\" ref-type=\"bibr\" doi=\"10.1111/jdv.15098\" pmid=\"29846976\" count=\"1\">24</citation>], to define clinically relevant impairment for the binary outcome. <sentence_start/>We therefore emphasise the binary WPAI-VAS outcome (OR = 3.0), which was explicitly anchored to this threshold. <sentence_start/>Overall, statistically significant continuous-score differences should be interpreted as overall group differences between females and males rather than necessarily individually and clinically meaningful differences."
+  },
+  {
+   "section": "article",
+   "text": "Concerning physical performance and lung function, we saw improvements in both males and females after ten months, and mean values for all lung function parameters in both sexes remained in clinically normal range throughout follow-up. <sentence_start/>Although 6MWD differed significantly between sexes throughout follow-up, the sex/height/weight-adjusted percent-predicted value (pp6MWD)-the more clinically meaningful metric, and the one used elsewhere in this manuscript-showed no significant difference after adjustment, suggesting the raw-distance difference primarily reflects anthropometric factors such as height rather than a PASC-specific functional impairment. <sentence_start/>PpTLC was significantly higher in females and ppDLCO significantly higher in males after adjustment; however, all values were within normal ranges. <sentence_start/>Spirometric parameters (ppFEV1, ppFVC<sub>ex</sub>) did not differ significantly. <sentence_start/>Garbsch and colleagues also reported a higher physical performance in females before starting cardiopulmonary rehabilitation, and a slightly greater increase in capability during the rehabilitation [<citation rid=\"CR11\" ref-type=\"bibr\" doi=\"10.1186/s12916-024-03658-8\" pmid=\"39379918\" pmcid=\"PMC11463035\" count=\"1\">11</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Capillary pCO<sub>2</sub> was significantly lower in females throughout follow-up after adjustment, which may reflect hyperventilation, as previously reported in patients with PASC [<citation rid=\"CR35\" ref-type=\"bibr\" doi=\"10.1088/1752-7163/ac3c18\" pmid=\"34808607\" count=\"1\">35</citation>]. <sentence_start/>No significant sex difference was confirmed for resting pO<sub>2</sub> after adjustment, although all values remained within the normal range in both sexes."
+  },
+  {
+   "section": "article",
+   "text": "It should be noted that we only assessed the sex of the patients as documented in routine clinical records and did not evaluate gender identity. <sentence_start/>Therefore, the conclusions drawn should be interpreted exclusively in the context of sex and not gender. <sentence_start/>Sex refers to biological attributes such as chromosomal constitution, hormonal profiles and anatomy, whereas gender encompasses socially constructed roles, behaviours and identities [<citation rid=\"CR36\" ref-type=\"bibr\" doi=\"10.3390/biomedicines11072055\" pmid=\"37509694\" pmcid=\"PMC10377623\" count=\"1\">36</citation>]. <sentence_start/>Gebhard and colleagues have shown that gender factors are also associated with the occurrence of PASC, so gender should be taken into account in future studies."
+  },
+  {
+   "section": "article",
+   "text": "Symptoms of the acute COVID-19 were recalled from memory at the first visit to our outpatient clinic, which leads to the possibility of recall bias. <sentence_start/>Participants may have remembered initial symptoms or exposures with varying degrees of accuracy, which could have distorted the results. <sentence_start/>In addition, pre-existing diagnoses were assessed based on available medical records from other institutions and on baseline clinical data, such as pre-COVID-19 lung function tests or blood tests, which were not available. <sentence_start/>A key further limitation is the dynamic, unbalanced cohort structure: only 46 of 433 patients (10.6%) completed all four visits, patients entered the study at different times, and each nominal visit therefore mixes newly included and patients followed up. <sentence_start/>Sex-specific attrition was formally tested by comparing the distribution of newly included, followed up, and loss to follow up status between sexes at each visit (see Supplementary Table 4): this difference was statistically significant at the 4-month visit (Holm-adjusted <italic>p =</italic> 0.045) but not at 2, 6, or 10 months (Holm-adjusted <italic>p =</italic> 0.204-0.256), indicating differential attrition by sex at one but not all follow up visits. <sentence_start/>We addressed this in three ways: first, the primary analysis used continuous days since infection, together with mixed-effects models with patient-specific random intercepts; second, sex-by-time interaction terms were tested for every outcome, none of which were significant; third, the adjusted analyses were repeated in the subgroup of patients with complete data at all four visits (<italic>n</italic> = 46). <sentence_start/>In this subgroup, the direction of effect was consistent with the full-cohort estimates for fatigue, anxiety, quality of life, and absolute six-minute walk distance (see Supplementary Table 6); work productivity impairment, ppTLC, ppDLCO, and pCO<sub>2</sub> no longer reached significance, which is consistent with the substantially reduction of the power of this small subgroup (<italic>n</italic> = 46 vs. 433) rather than a absolutely different finding. <sentence_start/>Conversely, PHQ-2 (depression) reached significance in this subgroup despite not doing so in the primary analysis; given the small sample size and the number of comparisons performed, this should be interpreted as a likely chance finding rather than a confirmed sex difference. <sentence_start/>As most patients contributed data at only one or two time points, the results should not be interpreted as confirmed individual trajectories with regard to changes within a patient over the observations period. <sentence_start/>All 27 outcome comparisons between female and male participants reported in this manuscript were adjusted for the baseline imbalances identified in Table 1 (age, BMI, COVID-19 severity, and comorbidities), and sex-by-time interaction terms were formally tested and Holm-corrected across the full set of comparisons. <sentence_start/>Eleven of 27 outcomes remained significant after this adjustment and correction (see Supplementary Table 5); outcomes that did not (including depressive symptoms, spirometric parameters, pp6MWD, and most acute-COVID-19 symptoms other than headache and chest tightness) are reported as such and should not be interpreted as confirmed sex differences, despite descriptive trends visible in Figs. <sentence_start/>2 and 3. <sentence_start/>Furthermore, as no validated WPAI-VAS cutoff exists for PASC populations, the threshold of \u2265 2 was selected pragmatically based on comparable patient cohorts [<citation rid=\"CR24\" ref-type=\"bibr\" doi=\"10.1111/jdv.15098\" pmid=\"29846976\" count=\"1\">24</citation>]. <sentence_start/>Therefore, slight misclassifications cannot be excluded, and the results should be interpreted with caution accordingly. <sentence_start/>As a sensitivity analysis, the sex-stratified models for work productivity impairment were repeated at more stringent WPAI-VAS thresholds (\u2265 3 and \u2265 4). <sentence_start/>At the \u2265 3 threshold, the female model converged to stable estimates and confirmed the primary finding of a significant association with acute dyspnoea (OR = 3.73, 95% CI: 1.59-8.75, <italic>p =</italic> 0.003) and a nominally significant association with BMI (OR = 1.11, 95% CI: 1.02-1.20, <italic>p =</italic> 0.015). <sentence_start/>Models for males at the \u2265 3 threshold, and for both sexes at the \u2265 4 threshold, did not converge to numerically stable estimates, reflecting an insufficient number of events per predictor at these stricter thresholds rather than a limitation of the primary findings."
+  },
+  {
+   "section": "article",
+   "text": "SARS-CoV-2 vaccination status at first visit and educational level were assessed and reported descriptively in Table 1. <sentence_start/>However, both could not be included as additional covariates in the WPAI-VAS models due to numerical instability (quasi-complete separation) given the already high number of covariates relative to the sample size. <sentence_start/>Whether missingness in the remaining outcomes depends on symptom severity or other clinical characteristics was not formally tested beyond the sex-specific attrition analysis (see Supplementary Table 4); this remains a limitation."
+  },
+  {
+   "section": "article",
+   "text": "Between May 2020 and May 2024, five distinct SARS-CoV-2 virus variants emerged and circulated. <sentence_start/>Early variants, such as Alpha (B.1.1.7), Beta (B.1351), and Gamma (B.1.1.28.1) were rapidly replaced by Delta (B.1.617.2), which in turn was superseded by the Omikron variant (B.1.1.529) [<citation rid=\"CR37\" ref-type=\"bibr\" doi=\"10.1155/2023/1879554\" pmid=\"37674935\" pmcid=\"PMC10480030\" count=\"1\">37</citation>]. <sentence_start/>However, the variant was not assessed individually."
+  },
+  {
+   "section": "article",
+   "text": "Bostanghadiri et al. underscore that the evolutionary divergence among SARS-CoV-2 variants-including transmissibility, host immune responses, and clinical severity-modulates the risk and manifestation of PASC symptoms [38]. <sentence_start/>However, current evidence on variant-specific differences in the development and course of PASC remains heterogeneous and inconclusive, highlighting the need for systematic, longitudinal cohort studies stratified by infecting variant. <sentence_start/>Lastly, the monocentric approach is a further limitation."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "After adjustment for baseline imbalance and correction for multiple testing, this dynamic cohort study of PASC patients confirmed sex-specific differences in fatigue, anxiety, quality of life, and work productivity impairment together with differences in selected lung function parameters and capillary pCO2, none of which showed a significant change across a 10-month observation period. <sentence_start/>These findings support the need for individualised, sex-specific follow-up care focused on fatigue and psychological burden in patients with PASC. <sentence_start/>Different baseline characteristics and acute COVID-19 symptoms were associated with work productivity impairment in female and male participants, with a formally confirmed sex-by-covariate interaction for dyspnoea, suggesting distinct risk profiles that may inform individually adapted rehabilitation and supportive interventions. <sentence_start/>Further multicentre research using complete longitudinal follow-up is warranted to confirm these findings and clarify the underlying mechanisms."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "FAS"
+  },
+  {
+   "section": "back",
+   "text": "Fatigue Assessment Scale"
+  },
+  {
+   "section": "back",
+   "text": "GAD2"
+  },
+  {
+   "section": "back",
+   "text": "Generalized anxiety disorder 2- item"
+  },
+  {
+   "section": "back",
+   "text": "PHQ2"
+  },
+  {
+   "section": "back",
+   "text": "Patient Health Questionnaire - 2"
+  },
+  {
+   "section": "back",
+   "text": "EQ-5D-3L"
+  },
+  {
+   "section": "back",
+   "text": "European quality of life - 5 Dimensions 3 Level Version Questionnaire"
+  },
+  {
+   "section": "back",
+   "text": "WPAI-VAS"
+  },
+  {
+   "section": "back",
+   "text": "Work Productivity and Ability Index - Visual Analog Scale"
+  },
+  {
+   "section": "back",
+   "text": "6MWD (m)"
+  },
+  {
+   "section": "back",
+   "text": "Six-minute walking distance (meters)"
+  },
+  {
+   "section": "back",
+   "text": "pp6MWD"
+  },
+  {
+   "section": "back",
+   "text": "Percent predicted six-minute walking distance"
+  },
+  {
+   "section": "back",
+   "text": "pre"
+  },
+  {
+   "section": "back",
+   "text": "Before the six-minute walking test"
+  },
+  {
+   "section": "back",
+   "text": "BORG"
+  },
+  {
+   "section": "back",
+   "text": "Numerical measurement of dyspnoea during exercise"
+  },
+  {
+   "section": "back",
+   "text": "SpO<sub>2</sub>"
+  },
+  {
+   "section": "back",
+   "text": "Peripheral saturation of oxygen"
+  },
+  {
+   "section": "back",
+   "text": "ppFEV<sub>1</sub>"
+  },
+  {
+   "section": "back",
+   "text": "Percent predicted forced expiratory volume in one second"
+  },
+  {
+   "section": "back",
+   "text": "ppFVC<sub>ex</sub>"
+  },
+  {
+   "section": "back",
+   "text": "Percent predicted forced expiratory vital capacity"
+  },
+  {
+   "section": "back",
+   "text": "ppTLC"
+  },
+  {
+   "section": "back",
+   "text": "Percent predicted total lung capacity"
+  },
+  {
+   "section": "back",
+   "text": "PO<sub>2</sub>"
+  },
+  {
+   "section": "back",
+   "text": "Partial pressure of oxygen"
+  },
+  {
+   "section": "back",
+   "text": "PCO<sub>2</sub>"
+  },
+  {
+   "section": "back",
+   "text": "Partial pressure of carbon dioxide"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher\u2019s Note</bold>"
+  },
+  {
+   "section": "back",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "back",
+   "text": "Andrea Sauer and Lennart Boblitz shared first authorship."
+  },
+  {
+   "section": "back",
+   "text": "Authors\u2019 contributions"
+  },
+  {
+   "section": "back",
+   "text": "IP conceived and designed the study, performed the statistical analysis and supervised the project. <sentence_start/>AS and LB collected and curated the data, supported the statistical analysis, and drafted the manuscript; they contributed equally to this work. <sentence_start/>ND, MW, MS, and PP contributed to patient recruitment, data acquisition, and critical revision of the manuscript. <sentence_start/>BAB contributed to data interpretation and critical revision of the manuscript. <sentence_start/>MMH contributed to study supervision, data interpretation, and critical revision of the manuscript. <sentence_start/>All authors read and approved the final manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Funding"
+  },
+  {
+   "section": "back",
+   "text": "Open Access funding enabled and organized by Projekt DEAL. <sentence_start/>Endorsed by the COVID-19-Research Network of the State of Lower Saxony (COFONI)."
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "The dataset supporting the conclusions of the article is available from the corresponding author upon reasonable request."
+  },
+  {
+   "section": "back",
+   "text": "Declarations"
+  },
+  {
+   "section": "back",
+   "text": "Ethics approval and consent to participate"
+  },
+  {
+   "section": "back",
+   "text": "This study was approved by the institutional review board at Hannover Medical School (#9226_BO_K_2020). <sentence_start/>The study was conducted in accordance with the Declaration of Helsinki, and informed consent was obtained from every patient."
+  },
+  {
+   "section": "back",
+   "text": "Consent for publication"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Competing interests"
+  },
+  {
+   "section": "back",
+   "text": "MMH has received fees for consultations or lectures from 35Pharma, Acceleron, Actelion, Aerovate, AOP Health, Bayer, Ferrer, Gossamer, Inhibikase, Janssen, Keros, MSD and Novartis outside the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "IP has received fees for lectures from AstraZeneca, GAIA GmbH, BioNTech and StreamedUp outside the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "BAB has received fees for and lectures from AstraZeneca, Bristol-Myers-Sqibb, Boehringer Ingelheim, Coreline, Daiichi-Sankyo, MSD, Novartis, NCO, Novartis, Pfizer and Roche. <sentence_start/>He also received fees for consultations from AstraZeneca and Siemens outside the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "AS, LB, ND, MW, MS, and PP declare no conflicts of interest."
+  }
+ ]
+}

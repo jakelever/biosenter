@@ -1,0 +1,675 @@
+{
+ "pmid": 42761449,
+ "pmcid": 13587461,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "The immune-related symptom web in immune checkpoint inhibitor therapy: a longitudinal clinical safety surveillance framework for immune-related adverse events"
+  },
+  {
+   "section": "abstract",
+   "text": "Immune checkpoint inhibitors (ICIs) produce durable antitumor activity by releasing inhibitory immune pathways, but the same pharmacology can disrupt peripheral tolerance and generate immune-related adverse events (irAEs) that are delayed, recurrent, chronic, multisystem, and clinically nonspecific. <sentence_start/>Organ-specific guidelines are indispensable once toxicity is suspected; however, clinical surveillance commonly begins with an undifferentiated patient report or an objective abnormality rather than a confirmed organ diagnosis. <sentence_start/>This narrative review integrates clinical pharmacology, immunobiology, guidelines, pharmacovigilance principles, patient-reported outcome research, digital monitoring studies, and multidisciplinary implementation evidence. <sentence_start/>Focused, non-systematic searches of PubMed/MEDLINE and the Cochrane Library, supplemented by current guidelines and official regulatory sources, were finalized on 18 July 2026; representative strategies, an evidence-provenance map, and a structured comparison with existing approaches are provided in the Supplementary Material. <sentence_start/>We define an individual-level safety alert as a new symptom, functional change, laboratory abnormality, physiological change, imaging finding, or other clinically meaningful observation requiring contextual assessment. <sentence_start/>It is not equivalent to a formal population-level pharmacovigilance signal. <sentence_start/>The immune-related symptom web is a symptom-centered but not symptom-exclusive model that organizes exposure chronology, individual baseline, symptom and objective-data combinations, trajectories, competing diagnoses, corticosteroid tapering, discontinuation, rechallenge, and consequence-weighted urgency. <sentence_start/>The Signal-Attribution-Escalation-Longitudinal Management (SAELM) framework translates this information structure into an accountable workflow from alert capture to attribution, escalation, guideline-linked management, documentation, and reassessment. <sentence_start/>Its novelty lies in integrating and longitudinally organizing existing components rather than inventing each component. <sentence_start/>The Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE) and electronic patient-reported outcome (ePRO) systems are positioned as capture and communication tools, not diagnostic or causal instruments. <sentence_start/>The models remain conceptual and hypothesis-generating. <sentence_start/>The most feasible first validation study is a prospective multicenter observational cohort with independent clinical adjudication; the primary safety outcome should be the false-negative proportion for severe or organ-threatening irAEs, accompanied by alert burden, response time, and potentially avoidable urgent escalation."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Immune checkpoint inhibitors (ICIs) have altered the treatment of multiple solid tumors and hematological malignancies by blocking inhibitory pathways that restrain T-cell activation. <sentence_start/>Antibodies targeting cytotoxic T-lymphocyte antigen 4 (CTLA-4), programmed cell death 1 (PD-1), programmed death ligand 1 (PD-L1), and newer checkpoint combinations can restore antitumor immunity, but they also change the threshold for peripheral immune tolerance. <sentence_start/>The resulting immune-related adverse events (irAEs) differ from conventional dose-limited cytotoxic effects: they may affect almost any organ, involve more than one organ, recur during immunosuppressive treatment, persist chronically, or first become apparent after the last administered dose (<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/NEJMra1703481\" pmid=\"29320654\" count=\"1\">Postow et al., 2018</citation>; <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1038/s41571-019-0218-0\" pmid=\"31092901\" count=\"1\">Martins et al., 2019</citation>; <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1038/s41572-020-0160-6\" pmid=\"32382051\" pmcid=\"PMC9728094\" count=\"1\">Ramos-Casals et al., 2020</citation>; <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1200/JCO.21.01440\" pmid=\"34724392\" count=\"1\">Schneider et al., 2021</citation>; <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2022.10.001\" pmid=\"36270461\" count=\"1\">Haanen et al., 2022</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Guidelines from the American Society of Clinical Oncology (ASCO), European Society for Medical Oncology (ESMO), Society for Immunotherapy of Cancer (SITC), and National Comprehensive Cancer Network (NCCN) provide essential organ-specific recommendations for investigation, severity assessment, treatment interruption, corticosteroid use, second-line immunomodulation, specialist referral, and rechallenge (<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1136/jitc-2021-002435\" pmid=\"34172516\" pmcid=\"PMC8237720\" count=\"1\">Brahmer et al., 2021</citation>; <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1200/JCO.21.01440\" pmid=\"34724392\" count=\"1\">Schneider et al., 2021</citation>; <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2022.10.001\" pmid=\"36270461\" count=\"1\">Haanen et al., 2022</citation>; <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.6004/jnccn.2024.0057\" pmid=\"39536465\" count=\"1\">Thompson et al., 2024</citation>). <sentence_start/>These algorithms generally become actionable after an organ syndrome is suspected. <sentence_start/>Between scheduled visits, however, the first warning may be a new cough, altered stool pattern, fatigue, rash, dizziness, weakness, palpitations, headache, visual change, or an imprecise report of feeling unwell. <sentence_start/>Alternatively, the first warning may be an asymptomatic laboratory, electrocardiographic, physiological, or imaging abnormality. <sentence_start/>None of these observations independently establishes immune-mediated causality."
+  },
+  {
+   "section": "article",
+   "text": "The initial clinical task is therefore not simply to label an irAE. <sentence_start/>It is to recognize a potentially important change, preserve competing explanations, determine whether the pattern could represent rapidly progressive or irreversible disease, assign a response time, and ensure that responsibility for follow-up is explicit. <sentence_start/>Infection, cancer progression, thromboembolism, metabolic disturbance, comorbidity, chemotherapy, targeted therapy, radiotherapy, corticosteroid complications, and other medicines may produce the same symptoms or objective abnormalities. <sentence_start/>Over-attribution to ICIs and under-attribution are both potentially harmful."
+  },
+  {
+   "section": "article",
+   "text": "Conventional post-marketing pharmacovigilance detects and evaluates aggregated drug-event associations, but spontaneous reporting is affected by under-reporting, stimulated reporting, duplicate reports, incomplete verification, and absent exposure denominators. <sentence_start/>A disproportionality signal does not establish incidence or individual causality (<citation rid=\"B23\" ref-type=\"bibr\" count=\"1\">European Medicines Agency, 2017</citation>; <citation rid=\"B61\" ref-type=\"bibr\" count=\"1\">U.S. Food and Drug Administration, 2026a</citation>; <citation rid=\"B65\" ref-type=\"bibr\" count=\"1\">World Health Organization, 2026</citation>). <sentence_start/>Clinical safety surveillance operates at a different level: it captures and responds to changes in an individual patient. <sentence_start/>The present review connects these levels without conflating them."
+  },
+  {
+   "section": "article",
+   "text": "We propose two related constructs. <sentence_start/>The immune-related symptom web is an information and interpretation model that connects exposure chronology, individual baseline, symptoms, objective findings, multisystem combinations, competing diagnoses, clinical actions, and response over time. <sentence_start/>The SAELM framework is an operational workflow that specifies how this information moves from capture to attribution, urgency assignment, management, documentation, and longitudinal reassessment. <sentence_start/>Both are conceptual and should complement rather than replace guideline-directed evaluation, Common Terminology Criteria for Adverse Events (CTCAE) grading, clinical judgment, or treatment decisions."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Review design"
+  },
+  {
+   "section": "article",
+   "text": "This article is a narrative review rather than a systematic review, scoping review, or meta-analysis. <sentence_start/>A narrative design was selected because the question spans mechanistic pharmacology, clinical guidelines, observational epidemiology, spontaneous-report pharmacovigilance, patient-reported outcomes, digital implementation, and multidisciplinary practice. <sentence_start/>These evidence streams use different units of analysis and were synthesized to develop an evidence-informed conceptual model rather than a pooled comparative estimate."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Information sources and search approach"
+  },
+  {
+   "section": "article",
+   "text": "PubMed/MEDLINE and the Cochrane Library were searched without a lower date limit, with the final focused update completed on 18 July 2026. <sentence_start/>Searches combined terms for ICIs and checkpoint targets; immunotoxicity and irAEs; symptoms, symptom clusters, networks, and trajectories; the Common Terminology Criteria for Adverse Events (CTCAE) and its Patient-Reported Outcomes version (PRO-CTCAE); patient-reported outcomes and electronic patient-reported outcome (ePRO) monitoring; pharmacovigilance, active surveillance, causality, and signal management; corticosteroids and steroid-refractory or steroid-dependent disease; rechallenge, delayed and chronic toxicity, survivorship, triage, workload, implementation, and equity. <sentence_start/>Organ-specific terms were added for gastrointestinal, pulmonary, hepatic, endocrine, cardiac, neurological, renal, dermatological, rheumatological, ocular, and hematological toxicities. <sentence_start/>Searches were supplemented by targeted consultation of ASCO, ESMO, SITC, NCCN, the National Cancer Institute, the U.S. Food and Drug Administration, the European Medicines Agency, and the World Health Organization and by backward citation searching. <sentence_start/>Representative strategies are reported in Supplementary Methods S1."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Eligibility, prioritization, and source selection"
+  },
+  {
+   "section": "article",
+   "text": "English-language human studies, guidelines, consensus statements, regulatory or pharmacovigilance documents, methodological publications, and selected translational studies were eligible. <sentence_start/>International guidelines and consensus statements were prioritized for management recommendations; systematic reviews, randomized trials, and cohorts were prioritized for comparative or prognostic claims; pharmacovigilance studies were used to characterize rare or reported high-consequence patterns; PRO/ePRO and implementation studies informed workflow design; and mechanistic studies were included when they helped explain nonspecific, multisystem, delayed, recurrent, chronic, or steroid-dependent presentations. <sentence_start/>Case reports were not used to support general incidence or treatment-effect claims. <sentence_start/>Titles, abstracts, and full texts were assessed iteratively for relevance to four organizing domains: pharmacological basis; temporal and multisystem phenotype; alert detection and attribution; and management and implementation."
+  },
+  {
+   "section": "article",
+   "text": "2.4"
+  },
+  {
+   "section": "article",
+   "text": "Evidence provenance and framework development"
+  },
+  {
+   "section": "article",
+   "text": "During synthesis, statements were categorized as guideline-supported practice, empirical evidence from interventional or observational studies, evidence-informed interpretation, author-proposed framework elements, or future validation requirements. <sentence_start/>Candidate components of the symptom web and SAELM were identified from recurrent concepts across guidelines, pharmacovigilance standards, ePRO programs, remote triage models, multidisciplinary care, and literature on chronic, delayed, multisystem, and rechallenge-associated irAEs. <sentence_start/>Supplementary Tables S1-S4 summarize pharmacological and clinical determinants, sentinel alerts and escalation cues, organ-specific management principles, and staged validation priorities, respectively. <sentence_start/>Supplementary Table S5 links major claims and proposed components to representative sources, evidence type, limitations, and validation status, and Supplementary Table S6 provides a structured comparison with existing irAE guidelines, ePRO systems, triage pathways, symptom-network approaches, and conventional pharmacovigilance. <sentence_start/>Supplementary Table S5 is an evidence-provenance map, not a formal certainty-of-evidence assessment."
+  },
+  {
+   "section": "article",
+   "text": "2.5"
+  },
+  {
+   "section": "article",
+   "text": "Reporting boundaries"
+  },
+  {
+   "section": "article",
+   "text": "SANRA was used to support transparency and scientific reasoning (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1186/s41073-019-0064-8\" pmid=\"30962953\" pmcid=\"PMC6434870\" count=\"1\">Baethge et al., 2019</citation>), but it was not treated as a systematic-review method. <sentence_start/>No protocol was registered, no PRISMA flow diagram or formal screening log was produced, no duplicate independent screening was undertaken, and no study-level risk-of-bias tool was applied. <sentence_start/>The framework was not generated through Delphi consensus, formal model development, or patient co-design. <sentence_start/>These limitations preclude claims of exhaustive retrieval, formally graded evidence, or validated consensus."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Pharmacological and immunobiological basis"
+  },
+  {
+   "section": "article",
+   "text": "CTLA-4 and PD-1 regulate immune activation at partly distinct sites and stages. <sentence_start/>CTLA-4 constrains T-cell priming, particularly in lymphoid tissues, whereas PD-1 signaling limits effector activity in peripheral tissues and the tumor microenvironment. <sentence_start/>Therapeutic blockade can expand or reinvigorate antitumor T-cell responses, alter regulatory T-cell function, and change interactions among immune, stromal, and tumor cells. <sentence_start/>The same pharmacodynamic release of inhibitory control contributes to immunotoxicity (<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/NEJMra1703481\" pmid=\"29320654\" count=\"1\">Postow et al., 2018</citation>; <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1038/s41572-020-0160-6\" pmid=\"32382051\" pmcid=\"PMC9728094\" count=\"1\">Ramos-Casals et al., 2020</citation>; <citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2021.09.020\" pmcid=\"PMC8767569\" pmid=\"34624224\" count=\"1\">Morad et al., 2021</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Population-level toxicity patterns differ across checkpoint targets and regimens, although they should not be treated as individual predictions. <sentence_start/>Anti-CTLA-4 therapy has often been associated with gastrointestinal, dermatological, and pituitary toxicity; PD-1/PD-L1 blockade has a broad peripheral-organ distribution; and dual-checkpoint blockade generally increases overall, severe, and multisystem toxicity compared with monotherapy. <sentence_start/>Tumor type, dose, treatment setting, follow-up, ascertainment, and co-administered therapy confound indirect comparisons (<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1093/annonc/mdx286\" pmid=\"28945858\" count=\"1\">Khoja et al., 2017</citation>; <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1038/s41571-019-0218-0\" pmid=\"31092901\" count=\"1\">Martins et al., 2019</citation>; <citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2018.3923\" pmid=\"30242316\" pmcid=\"PMC6440712\" count=\"1\">Wang et al., 2018</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Approved ICIs are monoclonal antibodies with prolonged systemic persistence and time-varying or target-mediated clearance. <sentence_start/>Routine therapeutic drug monitoring is not established for irAE prevention because exposure-toxicity relationships are inconsistent and confounded by disease burden, albumin, body composition, inflammatory state, treatment response, and changing clearance (<citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.1002/jcph.990\" pmid=\"28921644\" count=\"1\">Sheng et al., 2017</citation>; <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1007/s40262-019-00748-2\" pmid=\"30815848\" pmcid=\"PMC6584248\" count=\"1\">Centanni et al., 2019</citation>; <citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1146/annurev-pharmtox-022820-093805\" pmid=\"32871087\" count=\"1\">Geraud et al., 2021</citation>). <sentence_start/>The last dose is therefore necessary but insufficient temporal information. <sentence_start/>ICI class, treatment combination, cycle, interruption, discontinuation, immunosuppressive course, taper stage, and rechallenge are more useful surveillance variables than an assumed direct concentration-toxicity relationship."
+  },
+  {
+   "section": "article",
+   "text": "irAEs probably arise through overlapping mechanisms, including expansion of autoreactive T-cell clones, reduction of regulatory constraints, cross-reactivity between tumor and healthy-tissue antigens, epitope spreading, cytokine dysregulation, B-cell activation, and autoantibody production. <sentence_start/>Tissue-resident immune populations and organ microenvironments may shape the affected organ, whereas pre-existing autoimmunity, organ comorbidity, human leukocyte antigen (HLA) variation, baseline immune states, and microbiome composition may modify susceptibility (<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1093/annonc/mdx108\" pmid=\"28368458\" count=\"1\">Chaput et al., 2017</citation>). <sentence_start/>Most candidate predictors are associative and insufficiently validated for individual risk prediction (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2019.0402\" pmid=\"31021392\" pmcid=\"PMC6487908\" count=\"1\">Berner et al., 2019</citation>; <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1172/JCI96798\" pmid=\"29309048\" pmcid=\"PMC5785243\" count=\"1\">Das et al., 2018</citation>; <citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.7326/M17-2073\" pmid=\"29297009\" count=\"1\">Abdel-Wahab et al., 2018</citation>; <citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1038/s43018-023-00572-5\" pmid=\"37308678\" count=\"1\">Sung et al., 2023</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "These mechanisms explain why early manifestations may be constitutional or multisystem rather than organ-specific, why cardiac-muscle-neuromuscular overlap can evolve rapidly, why endocrine destruction may be irreversible, and why inflammation may recur during corticosteroid tapering or after rechallenge. <sentence_start/>They also argue against relying on a single symptom or biomarker for attribution. <sentence_start/>Pharmacological and clinical determinants relevant to surveillance are summarized in Supplementary Table S1."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Temporal, multisystem, and chronic clinical phenotypes"
+  },
+  {
+   "section": "article",
+   "text": "The apparent epidemiology of irAEs depends on event definitions, follow-up, and ascertainment. <sentence_start/>Randomized trials provide comparative estimates but frequently exclude patients with complex comorbidity, autoimmune disease, or organ dysfunction. <sentence_start/>Observational cohorts include broader populations but are susceptible to referral and ascertainment bias. <sentence_start/>Spontaneous-report systems are valuable for rare and unexpected syndromes but cannot provide incidence because exposure denominators and reporting completeness are unknown (<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(18)30608-9\" pmid=\"30442497\" pmcid=\"PMC6287923\" count=\"1\">Salem et al., 2018</citation>; <citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2018.3923\" pmid=\"30242316\" pmcid=\"PMC6440712\" count=\"1\">Wang et al., 2018</citation>; <citation rid=\"B23\" ref-type=\"bibr\" count=\"1\">European Medicines Agency, 2017</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Temporal patterns are heterogeneous. <sentence_start/>Some dermatological, gastrointestinal, endocrine, pulmonary, neurological, cardiac, renal, or musculoskeletal events occur during early cycles; others develop after months, recur during immunosuppressive tapering, persist after acute inflammation resolves, or first become recognized after ICI discontinuation. <sentence_start/>Delayed and late-onset events have been described in cohorts and pharmacovigilance data, although prospective denominator-based evidence remains limited (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1186/s40425-019-0645-6\" pmid=\"31269983\" pmcid=\"PMC6609357\" count=\"1\">Couey et al., 2019</citation>; <citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1136/jitc-2024-009902\" pmcid=\"PMC11535709\" pmid=\"39489542\" count=\"1\">Noseda et al., 2024</citation>; <citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2025.2668\" pmcid=\"PMC11950896\" pmid=\"40146104\" count=\"1\">Durbin et al., 2025</citation>; <citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1136/jitc-2025-012823\" pmid=\"41775429\" pmcid=\"PMC12958904\" count=\"1\">Flores et al., 2026</citation>). <sentence_start/>A rigid post-dose window may therefore create false reassurance."
+  },
+  {
+   "section": "article",
+   "text": "Multisystem irAEs can initially appear as disconnected complaints. <sentence_start/>Chest discomfort, palpitations, myalgia, ptosis, dysphagia, dyspnea, and weakness may develop together or sequentially in cardiac-muscle-neuromuscular overlap. <sentence_start/>Endocrine dysfunction can coexist with gastrointestinal, dermatological, or rheumatological toxicity. <sentence_start/>The interpretive question is whether a new observation is part of a wider temporal pattern, not whether it can immediately be forced into a single organ category (<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(24)00278-X\" pmid=\"39025103\" pmcid=\"PMC11316445\" count=\"1\">Wan et al., 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Chronicity changes the relevant outcomes. <sentence_start/>Permanent endocrine insufficiency, persistent inflammatory arthritis, neurological impairment, pulmonary limitation, dermatological disease, and gastrointestinal sequelae can produce medication burden, rehabilitation needs, work disruption, and repeated specialist care. <sentence_start/>Acute CTCAE grade alone does not capture long-term function, quality of life, caregiver burden, or survivorship needs (<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2021.0051\" pmid=\"33764387\" pmcid=\"PMC7995124\" count=\"1\">Patrinely et al., 2021</citation>; <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1136/jitc-2023-008591\" pmcid=\"PMC11227828\" pmid=\"38964785\" count=\"1\">Fletcher and Johnson, 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Conceptual contribution, terminology, and boundaries"
+  },
+  {
+   "section": "article",
+   "text": "5.1"
+  },
+  {
+   "section": "article",
+   "text": "Individual safety alerts and population-level signals"
+  },
+  {
+   "section": "article",
+   "text": "In this review, an individual-level safety alert is a new or worsening symptom, functional change, physiological abnormality, laboratory result, imaging finding, examination finding, or specialist observation that requires verification and contextual assessment. <sentence_start/>It is not a confirmed irAE, a causal attribution, or a formal pharmacovigilance signal. <sentence_start/>Formal signal management refers to the population-level process of detection, validation, confirmation, analysis, prioritization, assessment, and recommendation for action (<citation rid=\"B23\" ref-type=\"bibr\" count=\"1\">European Medicines Agency, 2017</citation>; <citation rid=\"B65\" ref-type=\"bibr\" count=\"1\">World Health Organization, 2026</citation>). <sentence_start/>Standardized individual observations may contribute to that process when aggregated across patients and time."
+  },
+  {
+   "section": "article",
+   "text": "5.2"
+  },
+  {
+   "section": "article",
+   "text": "Definition of the immune-related symptom web"
+  },
+  {
+   "section": "article",
+   "text": "The immune-related symptom web is a symptom-centered but not symptom-exclusive active safety-surveillance model situated within the broader pharmacovigilance continuum that organizes dynamic, overlapping, multisystem, and temporally heterogeneous individual-level safety alerts arising during or after ICI exposure. <sentence_start/>The unit of interest is the evolving relationship among exposure, baseline status, symptom nodes, objective-data nodes, competing explanations, urgency, clinical actions, and subsequent response. <sentence_start/>The model does not diagnose an irAE, estimate individual risk, grade toxicity autonomously, or determine treatment."
+  },
+  {
+   "section": "article",
+   "text": "5.3"
+  },
+  {
+   "section": "article",
+   "text": "Relationship to existing approaches"
+  },
+  {
+   "section": "article",
+   "text": "Organ-specific guidelines direct investigation and treatment once a syndrome is suspected. <sentence_start/>CTCAE provides clinician-reported terminology and severity communication. <sentence_start/>PRO-CTCAE captures selected symptomatic adverse events from the patient perspective but does not establish immune causality (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1093/jnci/dju244\" pmid=\"25265940\" pmcid=\"PMC4200059\" count=\"1\">Basch et al., 2014</citation>; <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2015.2639\" pmid=\"26270597\" pmcid=\"PMC4857599\" count=\"1\">Bennett et al., 2015</citation>; <citation rid=\"B39\" ref-type=\"bibr\" count=\"1\">National Cancer Institute, 2017</citation>; <citation rid=\"B40\" ref-type=\"bibr\" count=\"1\">National Cancer Institute, 2026</citation>). <sentence_start/>ePRO platforms collect repeated reports and can trigger contact. <sentence_start/>Telephone and oncology triage pathways assign urgency to an individual contact. <sentence_start/>Statistical symptom networks estimate relationships among symptoms and can identify central or bridging nodes (<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1038/s41598-018-36973-1\" pmid=\"30783135\" pmcid=\"PMC6381090\" count=\"1\">Papachristou et al., 2019</citation>). <sentence_start/>Conventional pharmacovigilance evaluates aggregated drug-event associations. <sentence_start/>These approaches are complementary but address different units and phases of safety work. <sentence_start/>A structured comparison is provided in Supplementary Table S6."
+  },
+  {
+   "section": "article",
+   "text": "5.4"
+  },
+  {
+   "section": "article",
+   "text": "Incremental contribution"
+  },
+  {
+   "section": "article",
+   "text": "Baseline-adjusted monitoring, ePRO collection, differential diagnosis, triage, escalation, and closed-loop follow-up are established practices. <sentence_start/>The proposed contribution is their integration into one longitudinal structure that explicitly connects: (1) exposure chronology and treatment combinations; (2) individual baseline change; (3) symptoms with laboratory, imaging, electrocardiographic, physiological, and examination findings; (4) multisystem combinations; (5) competing diagnoses and changing diagnostic confidence; (6) interruption, corticosteroid tapering, and dechallenge; (7) rechallenge and post-treatment surveillance; and (8) accountable documentation of ownership, response time, action, and follow-up. <sentence_start/>The symptom web specifies what information should be connected; SAELM specifies how that information should move through clinical care. <sentence_start/>Figure 1; Tables 1, 2 summarize these relationships."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 1"
+  },
+  {
+   "section": "article",
+   "text": "The immune-related symptom web and SAELM framework for longitudinal clinical safety surveillance during and after immune checkpoint inhibitor therapy. <sentence_start/><bold>(A)</bold> The immune-related symptom web is a symptom-centered but not symptom-exclusive information model. <sentence_start/>Exposure chronology and the individual baseline provide the clinical and pharmacological context for patient- and caregiver-reported changes and objective findings, including vital signs, physiological measurements, laboratory results, electrocardiography, imaging, clinical examination, and specialist observations. <sentence_start/>These inputs generate an individual-level safety alert that requires verification and contextual assessment rather than automatic attribution to immune-mediated toxicity. <sentence_start/>Competing diagnoses-including infection, cancer progression, thromboembolism, metabolic or comorbid disease, acute cardiovascular or neurological disease, and toxicity from other treatments-and consequence-weighted factors modify interpretation and urgency. <sentence_start/>The evolving relationship among nodes, rather than any isolated symptom, score, biomarker, or test, is the principal unit of interpretation. <sentence_start/><bold>(B)</bold> The Signal-Attribution-Escalation-Longitudinal Management (SAELM) framework translates this information structure into eight sequential and accountable components: exposure characterization, baseline risk profiling, longitudinal alert capture, symptom-web interpretation, differential attribution, urgency assessment and escalation, guideline-linked management, and longitudinal feedback. <sentence_start/>Patient-reported and objective alert sources feed the alert-capture process; cross-cutting governance-including a named clinical owner, response-time standards, after-hours pathways, failed-contact procedures, closed-loop documentation, and data governance-applies across all eight steps. <sentence_start/>Clinical outputs arise primarily from urgency assessment, management, and follow-up. <sentence_start/>Each episode updates the patient\u2019s risk context, education, surveillance intensity, and future escalation thresholds. <sentence_start/>Standardized individual-level observations may contribute to population-level pharmacovigilance only after aggregation across patients and time and formal signal detection, validation and confirmation, analysis and prioritization, assessment, and recommendation for action. <sentence_start/>Solid arrows indicate direct information flow or sequential workflow; dashed arrows indicate contextual interpretation or risk modification. <sentence_start/>The framework is conceptual and evidence-informed and is not a validated diagnostic, predictive, causal, or therapeutic algorithm. <sentence_start/>ECG, electrocardiography; ePRO, electronic patient-reported outcome; ICI, immune checkpoint inhibitor; SAELM, Signal-Attribution-Escalation-Longitudinal Management."
+  },
+  {
+   "section": "article",
+   "text": "The originality of the models is therefore integrative, temporal, and testable rather than component-level. <sentence_start/>Whether this organization improves detection, reduces diagnostic delay, changes management, or improves outcomes remains an empirical question."
+  },
+  {
+   "section": "article",
+   "text": "6"
+  },
+  {
+   "section": "article",
+   "text": "Multimodal alert capture, differential attribution, and risk prioritization"
+  },
+  {
+   "section": "article",
+   "text": "6.1"
+  },
+  {
+   "section": "article",
+   "text": "Baseline-adjusted change"
+  },
+  {
+   "section": "article",
+   "text": "Absolute symptom severity can be misleading in patients with cancer, who may begin treatment with fatigue, cough, altered bowel function, pain, neuropathy, rash, endocrine symptoms, or reduced function. <sentence_start/>Surveillance should ask what is new, worsening, recurrent, accelerating, or functionally different. <sentence_start/>Baseline documentation should include symptoms, performance and activities, organ reserve, comorbidity, current medicines, selected laboratory and physiological measures, caregiver support, language, health literacy, distance from care, and digital access. <sentence_start/>Non-completion of a survey is missing information, not evidence of wellness."
+  },
+  {
+   "section": "article",
+   "text": "6.2"
+  },
+  {
+   "section": "article",
+   "text": "Multimodal data"
+  },
+  {
+   "section": "article",
+   "text": "Symptoms often provide the earliest warning between visits, but the framework is not limited to symptoms. <sentence_start/>Troponin or creatine kinase elevation, liver-test abnormalities, rising creatinine, endocrine abnormalities, hypoxemia, rhythm changes, radiological findings, or an abnormal specialist examination may initiate the same safety workflow in a patient without prominent symptoms (<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2017.3064\" pmcid=\"PMC5838579\" pmid=\"28973656\" count=\"1\">Barroso-Sousa et al., 2018</citation>; <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2016.04.008\" pmid=\"27282937\" pmcid=\"PMC4983464\" count=\"1\">Cortazar et al., 2016</citation>; <citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1183/16000617.0012-2019\" pmcid=\"PMC9488507\" pmid=\"31694838\" count=\"1\">Delaunay et al., 2019</citation>). <sentence_start/>A useful longitudinal record includes onset, trajectory, functional impact, associated findings, vital signs, laboratory and imaging results, regimen, last dose, co-treatments, recent infection or vaccination, new medicines, previous irAEs, treatment hold, immunosuppressive course, and prior response to intervention."
+  },
+  {
+   "section": "article",
+   "text": "6.3"
+  },
+  {
+   "section": "article",
+   "text": "Dynamic differential attribution"
+  },
+  {
+   "section": "article",
+   "text": "At least five pathways should remain visible at first assessment: immune toxicity; infection; malignancy or paraneoplastic disease; toxicity from chemotherapy, targeted therapy, radiotherapy, corticosteroids, or other medicines; and comorbidity or metabolic disturbance. <sentence_start/>Thromboembolism and acute cardiovascular or neurological disease warrant explicit parallel consideration. <sentence_start/>Temporal proximity, improvement after treatment interruption, response to immunosuppression, recurrence during taper, or recurrence after rechallenge may change attribution confidence but do not independently establish causality. <sentence_start/>The record should document degree of suspicion and the evidence that increases or decreases it."
+  },
+  {
+   "section": "article",
+   "text": "6.4"
+  },
+  {
+   "section": "article",
+   "text": "Consequence-weighted prioritization"
+  },
+  {
+   "section": "article",
+   "text": "Alert priority should reflect not only symptom intensity or event frequency but also the possibility of rapid deterioration, irreversible injury, reported fatal outcomes, high-risk combinations, organ reserve, and access to urgent assessment. <sentence_start/>Mild dyspnea can accompany early pneumonitis or myocarditis; modest fatigue can reflect adrenal insufficiency; and small changes in strength may precede respiratory compromise. <sentence_start/>Conversely, severe symptoms may result from non-irAE emergencies."
+  },
+  {
+   "section": "article",
+   "text": "Population pharmacovigilance can inform which patterns deserve low escalation thresholds, while its limitations must remain explicit. <sentence_start/>A 2025 analysis of the FDA Adverse Event Reporting System (FAERS) identified 1,326 submitted ICI-associated myocarditis reports and recorded death as an outcome in 37% of those reports (<citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.3389/fonc.2025.1498817\" pmcid=\"PMC11903268\" pmid=\"40083879\" count=\"1\">Reeves et al., 2025</citation>). <sentence_start/>A 2026 FAERS study of strict myocarditis-myositis-myasthenia gravis (MMM) overlap recorded death outcomes in 49 of 131 ICI-exposed reports and a median reported onset of 25 days among reports with usable timing (<citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.3389/fphar.2026.1825269\" pmcid=\"PMC13222775\" pmid=\"42232178\" count=\"1\">Pacaci et al., 2026</citation>). <sentence_start/>A separate 2026 pharmacovigilance analysis identified heterogeneous fatal-event patterns across ICI toxicities (<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.1111/bph.70195\" pmid=\"40948045\" count=\"1\">Yan et al., 2026</citation>). <sentence_start/>These are proportions and patterns within spontaneous reports, not incidence estimates or population case-fatality rates. <sentence_start/>They nevertheless support consequence-weighted surveillance for cardiac and neuromuscular combinations."
+  },
+  {
+   "section": "article",
+   "text": "Emergency evaluation is generally warranted for resting dyspnea or hypoxemia; chest pain, syncope, or new arrhythmia symptoms; rapidly progressive weakness, ptosis, dysphagia, respiratory muscle symptoms, seizure, or altered mental status; suspected adrenal crisis or ketoacidosis; severe abdominal pain, bleeding, dehydration, or peritoneal features; acute visual loss; extensive blistering or mucosal skin disease; and systemic instability (<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1016/j.ejca.2016.12.001\" pmid=\"28064139\" count=\"1\">Cuzzubbo et al., 2017</citation>; <citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1136/jitc-2021-002890\" pmcid=\"PMC8291304\" pmid=\"34281989\" count=\"1\">Guidon et al., 2021</citation>; <citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1007/s40257-017-0336-3\" pmid=\"29256113\" count=\"1\">Sibaud, 2018</citation>). <sentence_start/>Myalgia or weakness combined with chest symptoms, ptosis, dysphagia, or dyspnea should prompt concern for cardiac-muscle-neuromuscular overlap. <sentence_start/>Urgency should be assigned while the differential remains open and should not await proof of immune causality. <sentence_start/>Sentinel alerts, potential immune-mediated pathways, competing diagnoses, focused interpretation, and escalation cues are summarized in Supplementary Table S2."
+  },
+  {
+   "section": "article",
+   "text": "7"
+  },
+  {
+   "section": "article",
+   "text": "PRO-CTCAE, ePRO, and digital safety surveillance"
+  },
+  {
+   "section": "article",
+   "text": "PRO-CTCAE was developed to capture symptomatic adverse events directly from patients and complements clinician-reported CTCAE (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1093/jnci/dju244\" pmid=\"25265940\" pmcid=\"PMC4200059\" count=\"1\">Basch et al., 2014</citation>; <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2015.2639\" pmid=\"26270597\" pmcid=\"PMC4857599\" count=\"1\">Bennett et al., 2015</citation>). <sentence_start/>In ICI care, appropriate functions include symptom capture, baseline-adjusted change detection, trend display, communication triggering, and generation of individual-level safety alerts. <sentence_start/>It is not an irAE diagnostic test, causality instrument, or autonomous triage algorithm. <sentence_start/>A low questionnaire score may still be urgent when a symptom is rapidly changing, functionally important, or part of a high-consequence combination."
+  },
+  {
+   "section": "article",
+   "text": "Randomized trials in broader oncology populations show that electronic symptom monitoring can improve communication and patient-reported outcomes and, in selected settings, reduce acute-care use or produce survival signals (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1001/jama.2017.7156\" pmid=\"28586821\" pmcid=\"PMC5817466\" count=\"1\">Basch et al., 2017</citation>; <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1001/jama.2022.9265\" pmcid=\"PMC9168923\" pmid=\"35661856\" count=\"1\">Basch et al., 2022</citation>; <citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2022.04.007\" pmid=\"35462007\" count=\"1\">Di Maio et al., 2022</citation>). <sentence_start/>ICI-specific programs remain heterogeneous in item sets, frequency, alert thresholds, staffing, response protocols, populations, and outcomes (<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1093/jncics/pkae102\" pmid=\"39468738\" pmcid=\"PMC11660428\" count=\"1\">Lambert et al., 2024</citation>). <sentence_start/>Developmental, co-design, and trial work supports feasibility, but digital eligibility criteria and non-random allocation limit generalizability in some studies (<citation rid=\"B67\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2022.4427\" pmid=\"35357459\" pmcid=\"PMC8972037\" count=\"1\">Zhang et al., 2022</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1007/s00520-023-07934-w\" pmid=\"37480546\" pmcid=\"PMC10363070\" count=\"1\">da Silva Lopes et al., 2023a</citation>; <citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.2196/48386\" pmcid=\"PMC10620631\" pmid=\"37851498\" count=\"1\">2023b</citation>; <citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1007/s00520-024-09034-9\" pmid=\"39623054\" count=\"1\">Lai-Kwon et al., 2024</citation>; <citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1007/s10147-026-03032-z\" pmcid=\"PMC13303399\" pmid=\"41973154\" count=\"1\">Katsura et al., 2026</citation>). <sentence_start/>Current evidence supports prospective testing rather than a claim that ePRO necessarily improves irAE outcomes."
+  },
+  {
+   "section": "article",
+   "text": "A clinically safe platform should capture a concise high-information item set, allow individual baseline values, display trajectories, and link reports to current ICI and immunosuppressive treatment. <sentence_start/>Every alert requires a named owner, response-time standard, escalation protocol, after-hours route, failed-contact procedure, documentation standard, and closed-loop follow-up. <sentence_start/>A dashboard without accountable clinical response is data collection rather than effective safety surveillance."
+  },
+  {
+   "section": "article",
+   "text": "Reporting frequency should be risk-adapted rather than assumed to be universally weekly or daily. <sentence_start/>Monitoring may intensify during early combination therapy, after a previous irAE, during corticosteroid tapering, after hospital discharge, or after rechallenge. <sentence_start/>No universal frequency or minimum item set has been prospectively validated across ICI regimens."
+  },
+  {
+   "section": "article",
+   "text": "Digital surveillance can widen disparities when smartphone ownership, broadband access, language, health literacy, disability, housing stability, or caregiver support determine who is monitored. <sentence_start/>Multimodal alternatives should include telephone, paper, interpreter-supported, caregiver-assisted, and community-based options (<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1001/jama.2021.18459\" pmid=\"34677577\" count=\"1\">Lyles et al., 2021</citation>; <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.1056/NEJMp2115646\" pmid=\"35302722\" count=\"1\">Rodriguez et al., 2022</citation>). <sentence_start/>Completion, response time, escalation, false-negative events, and outcomes should be stratified by access-related variables. <sentence_start/>Patient-facing text must state whether the platform is continuously monitored, provide emergency instructions, and explain how personal data and alert algorithms are governed."
+  },
+  {
+   "section": "article",
+   "text": "8"
+  },
+  {
+   "section": "article",
+   "text": "The SAELM operational framework"
+  },
+  {
+   "section": "article",
+   "text": "The Signal-Attribution-Escalation-Longitudinal Management (SAELM) framework translates the symptom web into an eight-component multidisciplinary workflow. <sentence_start/>Within the acronym, Signal denotes structured capture of an individual-level safety alert, not a confirmed population-level pharmacovigilance signal. <sentence_start/>Table 1 defines the minimum dataset, required output, and accountable roles."
+  },
+  {
+   "section": "article",
+   "text": "8.1"
+  },
+  {
+   "section": "article",
+   "text": "Exposure characterization"
+  },
+  {
+   "section": "article",
+   "text": "Record checkpoint target and agent, monotherapy or combination, treatment setting, concomitant chemotherapy, targeted therapy or radiotherapy, cycle and last dose, current hold or discontinuation, previous irAEs, current corticosteroid or immunosuppressive treatment, taper stage, and rechallenge status. <sentence_start/>Exposure frames plausibility and monitoring intensity but does not prove attribution."
+  },
+  {
+   "section": "article",
+   "text": "8.2"
+  },
+  {
+   "section": "article",
+   "text": "Baseline risk profile"
+  },
+  {
+   "section": "article",
+   "text": "Document autoimmune disease, organ comorbidities and reserve, baseline symptoms and function, prior radiation fields, previous irAEs, concomitant medicines, frailty, selected laboratory and physiological baselines, caregiver support, language, health literacy, distance from care, and digital access. <sentence_start/>The profile is updated after major toxicity or treatment change."
+  },
+  {
+   "section": "article",
+   "text": "8.3"
+  },
+  {
+   "section": "article",
+   "text": "Longitudinal alert capture"
+  },
+  {
+   "section": "article",
+   "text": "Combine scheduled clinical assessment, patient and caregiver reports, telephone contacts, ePRO, laboratory abnormalities, physiological data, imaging, emergency presentations, and specialist observations. <sentence_start/>Capture intensity, change from baseline, trajectory, and functional effect."
+  },
+  {
+   "section": "article",
+   "text": "8.4"
+  },
+  {
+   "section": "article",
+   "text": "Symptom-web interpretation"
+  },
+  {
+   "section": "article",
+   "text": "Assess onset, acceleration, recurrence, co-occurring symptoms, objective abnormalities, multisystem involvement, red flags, and relation to dosing, interruption, tapering, discontinuation, or rechallenge. <sentence_start/>Identify high-information combinations and determine whether the pattern is stable, improving, or accelerating."
+  },
+  {
+   "section": "article",
+   "text": "8.5"
+  },
+  {
+   "section": "article",
+   "text": "Differential attribution"
+  },
+  {
+   "section": "article",
+   "text": "Keep immune toxicity, infection, cancer progression, thromboembolism, acute cardiovascular or neurological disease, comorbidity, metabolic disturbance, and other treatment toxicities visible until evidence narrows the differential. <sentence_start/>Document degree of suspicion rather than forcing early certainty."
+  },
+  {
+   "section": "article",
+   "text": "8.6"
+  },
+  {
+   "section": "article",
+   "text": "Urgency and escalation"
+  },
+  {
+   "section": "article",
+   "text": "Assign emergency, same-day, or prompt scheduled evaluation. <sentence_start/>Activate oncology review, organ-specialist consultation, guideline-directed investigations, emergency referral, and clinician-directed ICI disposition according to organ threat and trajectory rather than a questionnaire score alone."
+  },
+  {
+   "section": "article",
+   "text": "8.7"
+  },
+  {
+   "section": "article",
+   "text": "Guideline-linked management"
+  },
+  {
+   "section": "article",
+   "text": "Link confirmed or strongly suspected syndromes to current organ-specific guidance, supportive treatment, hormone replacement where appropriate, infection prevention, medication education, adherence support, and monitoring of treatment-related harm. <sentence_start/>The framework records and communicates the plan; prescribing remains a clinician responsibility."
+  },
+  {
+   "section": "article",
+   "text": "8.8"
+  },
+  {
+   "section": "article",
+   "text": "Longitudinal feedback loop"
+  },
+  {
+   "section": "article",
+   "text": "Reassess response, diagnostic confidence, recurrence, steroid dependence, chronicity, residual impairment, treatment resumption, rechallenge, and survivorship needs. <sentence_start/>Each episode updates the baseline profile, monitoring intensity, education, and future escalation threshold."
+  },
+  {
+   "section": "article",
+   "text": "8.9"
+  },
+  {
+   "section": "article",
+   "text": "Illustrative clinical example"
+  },
+  {
+   "section": "article",
+   "text": "A patient receiving combined CTLA-4 and PD-1 blockade reports new mild exertional dyspnea, proximal weakness, and intermittent ptosis through an ePRO platform. <sentence_start/>The individual symptom scores are not extreme. <sentence_start/>The alert is routed to the designated oncology triage service, which reviews the ICI regimen and last dose, baseline function, trajectory, co-occurring chest or bulbar symptoms, current medicines, corticosteroid exposure, available oxygen saturation, and recent laboratory results. <sentence_start/>Because dyspnea, weakness, and ptosis form a high-consequence cardiac-muscle-neuromuscular pattern, the alert is escalated for urgent assessment rather than managed by the numeric symptom score alone. <sentence_start/>The record identifies the alert owner, receipt and contact times, working differential, urgency classification, action taken, attendance and results, treatment changes, and the person responsible for follow-up. <sentence_start/>Subsequent findings update the patient\u2019s baseline and future monitoring intensity. <sentence_start/>This example is illustrative and does not prescribe a diagnostic test set or treatment regimen."
+  },
+  {
+   "section": "article",
+   "text": "9"
+  },
+  {
+   "section": "article",
+   "text": "Linkage to pharmacological management and stewardship"
+  },
+  {
+   "section": "article",
+   "text": "Management depends on the affected organ, severity, functional threat, diagnostic confidence, comorbidity, treatment intent, available alternatives, and response to initial therapy. <sentence_start/>Some mild toxicities can be managed with symptom-directed care and close monitoring while ICI treatment continues; moderate events often require temporary interruption; and selected severe, recurrent, or life-threatening events may justify permanent discontinuation. <sentence_start/>Endocrine replacement-responsive events differ from myocarditis, severe neurological toxicity, or severe cutaneous adverse reactions. <sentence_start/>Current organ-specific guidelines and institutional protocols should determine treatment (<citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1136/jitc-2021-002435\" pmid=\"34172516\" pmcid=\"PMC8237720\" count=\"1\">Brahmer et al., 2021</citation>; <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1200/JCO.21.01440\" pmid=\"34724392\" count=\"1\">Schneider et al., 2021</citation>; <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2022.10.001\" pmid=\"36270461\" count=\"1\">Haanen et al., 2022</citation>; <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.6004/jnccn.2024.0057\" pmid=\"39536465\" count=\"1\">Thompson et al., 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "The central pharmacological question is often whether anti-inflammatory treatment is required before diagnostic certainty is complete. <sentence_start/>Delay can cause irreversible injury in organ-threatening disease, whereas premature immunosuppression can obscure infection and cause harm. <sentence_start/>Microbiological studies, imaging, or tissue diagnosis should be obtained before or promptly after immunosuppression when feasible, without delaying emergency treatment."
+  },
+  {
+   "section": "article",
+   "text": "Corticosteroids remain first-line treatment for many clinically important irAEs, but dose, route, timing, and taper must be organ- and severity-specific. <sentence_start/>Failure to improve, clinical progression, or inability to taper should prompt diagnostic reconsideration, assessment of adherence and infection, specialist input, and timely organ-directed therapy rather than indefinite corticosteroid escalation. <sentence_start/>Steroid-refractory and steroid-dependent terminology should be applied with organ-appropriate time frames (<citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.1136/jitc-2022-006398\" pmcid=\"PMC10069596\" pmid=\"37001909\" count=\"1\">Naidoo et al., 2023</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Second-line immunomodulation is syndrome-specific and supported mainly by observational evidence. <sentence_start/>Infliximab or vedolizumab may be used for selected corticosteroid-refractory or dependent colitis; mycophenolate is commonly considered for immune-mediated hepatitis; and specialist-directed options for pneumonitis, neurological toxicity, myocarditis, or overlap syndromes vary and have limited comparative evidence (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1186/s40425-018-0461-4\" pmcid=\"PMC6444537\" pmid=\"30940209\" count=\"1\">Abu-Sbeih et al., 2018</citation>; <citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1136/jitc-2021-003277\" pmid=\"34789551\" pmcid=\"PMC8601082\" count=\"1\">Zou et al., 2021</citation>; <citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.1016/j.acvd.2024.12.005\" pmid=\"39743436\" count=\"1\">Salem et al., 2025</citation>). <sentence_start/>Detailed principles are summarized in Supplementary Table S3, which is not a prescribing guide."
+  },
+  {
+   "section": "article",
+   "text": "Many endocrine irAEs reflect gland destruction and require physiological hormone replacement and acute metabolic stabilization rather than prolonged high-dose immunosuppression. <sentence_start/>Patients with adrenal insufficiency need emergency identification and sick-day education; those with ICI-associated diabetes require insulin and ketoacidosis prevention; and long-term biochemical follow-up may be necessary."
+  },
+  {
+   "section": "article",
+   "text": "Medication stewardship is part of longitudinal clinical safety surveillance. <sentence_start/>Reconciliation should include corticosteroid dose and taper, prophylaxis, endocrine replacement, immunomodulators, antimicrobials, and interacting medicines. <sentence_start/>Monitoring should address infection, hyperglycemia, hypertension, myopathy, psychiatric effects, osteoporosis, gastrointestinal complications, and adrenal suppression because treatment-related harm can mimic or worsen the original symptom web."
+  },
+  {
+   "section": "article",
+   "text": "10"
+  },
+  {
+   "section": "article",
+   "text": "Rechallenge, chronic toxicity, and post-treatment surveillance"
+  },
+  {
+   "section": "article",
+   "text": "Rechallenge is an individualized risk-benefit decision rather than a fixed algorithm. <sentence_start/>It may be considered when expected antitumor benefit remains meaningful, alternatives are limited, the initial irAE has resolved or stabilized, and anticipated recurrence risk is acceptable. <sentence_start/>Relevant factors include the initial organ, severity, reversibility, residual dysfunction, ongoing immunosuppression, prior tumor response, treatment intent, available alternatives, patient preference, and capacity for intensive monitoring (<citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2019.1022\" pmid=\"31169866\" pmcid=\"PMC6555478\" count=\"1\">Simonaggio et al., 2019</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2020.0726\" pmid=\"32297899\" pmcid=\"PMC7163782\" count=\"1\">Dolladille et al., 2020</citation>). <sentence_start/>Severe myocarditis, life-threatening neurological toxicity, or severe cutaneous adverse reactions generally weigh strongly against rechallenge, whereas stable replacement-treated endocrine dysfunction may not."
+  },
+  {
+   "section": "article",
+   "text": "A rechallenge plan should document rationale, agent or class, reduction from combination to monotherapy where relevant, baseline organ assessment, residual symptoms, immunosuppression, surveillance schedule, and stopping criteria. <sentence_start/>The monitoring plan should reflect the previous toxicity and update the symptom web if the same or a new toxicity occurs."
+  },
+  {
+   "section": "article",
+   "text": "Chronic irAEs may require lifelong hormone replacement, disease-modifying antirheumatic treatment, rehabilitation, pulmonary follow-up, neurological support, dermatological care, or ongoing gastrointestinal management. <sentence_start/>Outcomes should include function, work participation, medication burden, caregiver burden, and quality of life rather than acute grade alone (<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2021.0051\" pmid=\"33764387\" pmcid=\"PMC7995124\" count=\"1\">Patrinely et al., 2021</citation>; <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1136/jitc-2023-008591\" pmcid=\"PMC11227828\" pmid=\"38964785\" count=\"1\">Fletcher and Johnson, 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Delayed events after discontinuation create a diagnostic hazard because patients, primary-care clinicians, and emergency teams may no longer connect symptoms with previous immunotherapy. <sentence_start/>Treatment summaries and patient-held or electronic alert records should remain visible across services. <sentence_start/>Long-term surveillance should cover treatment, holds, immunosuppressive tapering, discontinuation, rechallenge, and survivorship. <sentence_start/>Its duration and intensity cannot yet be standardized for every regimen, but may reasonably be adapted according to previous severe or multisystem toxicity, persistent symptoms, ongoing immunosuppression, irreversible organ injury, and access to urgent care (<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1136/jitc-2024-009902\" pmcid=\"PMC11535709\" pmid=\"39489542\" count=\"1\">Noseda et al., 2024</citation>; <citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2025.2668\" pmcid=\"PMC11950896\" pmid=\"40146104\" count=\"1\">Durbin et al., 2025</citation>; <citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1136/jitc-2025-012823\" pmid=\"41775429\" pmcid=\"PMC12958904\" count=\"1\">Flores et al., 2026</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "11"
+  },
+  {
+   "section": "article",
+   "text": "Multidisciplinary implementation, governance, workload, and equity"
+  },
+  {
+   "section": "article",
+   "text": "No single profession can deliver longitudinal ICI safety surveillance across all settings. <sentence_start/>Medical oncologists integrate cancer benefit, alternatives, treatment interruption, and rechallenge. <sentence_start/>Organ specialists lead syndrome-specific diagnosis and immunomodulation. <sentence_start/>Pharmacists support medication reconciliation, prophylaxis, interactions, adherence, and adverse-effect monitoring. <sentence_start/>Emergency clinicians identify time-critical differentials and stabilize acute illness. <sentence_start/>Primary-care and survivorship teams maintain vigilance after oncology contact becomes less frequent. <sentence_start/>Informatics teams design interoperable alert logic, audit trails, and access safeguards. <sentence_start/>Patients and caregivers provide longitudinal observations."
+  },
+  {
+   "section": "article",
+   "text": "Oncology nurses are central but not exclusive participants. <sentence_start/>Nurse-coordinated activities can include baseline education, repeated symptom capture, focused assessment, telephone and digital triage, red-flag recognition, escalation, corticosteroid-taper monitoring, endocrine-replacement education, adherence support, and survivorship coordination. <sentence_start/>Equivalent functions may be led by pharmacists or advanced practitioners in other systems. <sentence_start/>Safety depends on training, protocol authority, access to escalation, and closed-loop follow-up rather than professional title alone."
+  },
+  {
+   "section": "article",
+   "text": "Institutions should define the accountable service for each alert, response-time standards, after-hours coverage, emergency routes, criteria for oncology and specialist consultation, authority to initiate investigations under protocol, and responsibility for closing the loop. <sentence_start/>A message being sent does not resolve an alert. <sentence_start/>Documentation should show receipt, contact attempts, assessment, action, attendance, results, treatment change, and follow-up responsibility. <sentence_start/>Structured communication approaches such as Situation, Background, Assessment, and Recommendation (SBAR) may reduce omissions when adapted to include ICI exposure, last dose, taper status, baseline change, red flags, competing diagnoses, and required response time (<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1016/S1553-7250(06)32022-3\" pmid=\"16617948\" count=\"1\">Haig et al., 2006</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Education should be repeated at regimen change, initiation or tapering of corticosteroids, treatment hold, rechallenge, hospital discharge, and transition to survivorship. <sentence_start/>Patients need concrete examples of reportable changes, instructions to report early, and an explanation that toxicities may occur after treatment stops. <sentence_start/>Emergency and primary-care clinicians should have access to a concise ICI treatment summary."
+  },
+  {
+   "section": "article",
+   "text": "Workload is a safety outcome. <sentence_start/>Digital monitoring can shift work from scheduled visits to continuous inbox review. <sentence_start/>Institutions should track alert volume, response times, contact attempts, clinician time, documentation burden, and after-hours activity. <sentence_start/>Thresholds optimized only for sensitivity can create alert fatigue; thresholds optimized only for workload can miss evolving toxicity. <sentence_start/>Human-factors testing, risk-based staffing, and protected response capacity are therefore components of validation."
+  },
+  {
+   "section": "article",
+   "text": "Equity-sensitive implementation requires alternatives to digital-only surveillance, interpreter access, accessible language, caregiver proxy options where appropriate, disability-compatible interfaces, and proactive outreach for patients with limited access. <sentence_start/>Reporting, response, escalation, false-negative events, and outcomes should be stratified by age, language, rurality, socioeconomic context, disability, digital access, and health literacy."
+  },
+  {
+   "section": "article",
+   "text": "12"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "12.1"
+  },
+  {
+   "section": "article",
+   "text": "Validation agenda and research priorities"
+  },
+  {
+   "section": "article",
+   "text": "Taken together, the proposed contribution is not a new diagnostic taxonomy or treatment algorithm, but a longitudinal information and accountability structure that connects multimodal safety alerts with attribution, consequence-weighted escalation, management, and reassessment. <sentence_start/>Its potential value therefore depends on whether this organization improves diagnostic safety and clinical response without generating excessive alert burden or unnecessary escalation. <sentence_start/>These assumptions require staged prospective validation."
+  },
+  {
+   "section": "article",
+   "text": "Conceptual coherence is not evidence of clinical validity. <sentence_start/>Before clinical validation, the minimum dataset and candidate alert rules should undergo multidisciplinary and patient co-design across tumor types, regimens, languages, and care settings. <sentence_start/>Cognitive interviews, content-validity assessment, and burden testing should confirm coverage of high-risk symptoms and objective abnormalities, comprehension, actionability, and feasibility. <sentence_start/>The prespecified dataset and alert definitions should then be fixed before prospective diagnostic-safety evaluation."
+  },
+  {
+   "section": "article",
+   "text": "The primary safety outcome should be the severe-event false-negative proportion, defined as the number of independently adjudicated severe or organ-threatening irAEs for which no prespecified alert was generated before clinical diagnosis, divided by the total number of independently adjudicated severe or organ-threatening irAEs. <sentence_start/>Three key implementation outcomes should accompany it: alert burden per 100 patient-weeks; time from alert receipt to qualified clinical assessment, including compliance with a prespecified response standard; and the proportion of alerts resulting in potentially avoidable urgent escalation. <sentence_start/>A negative diagnostic work-up alone should not classify an escalation as avoidable; appropriateness should be determined by independent adjudication against prespecified red-flag and urgency criteria. <sentence_start/>Secondary outcomes can include sensitivity, specificity, predictive values, time from symptom onset to reporting, time to assessment and escalation, patient completion, missingness, clinician trust, and subgroup performance. <sentence_start/>High-frequency low-acuity symptoms and rare high-consequence syndromes should be reported separately."
+  },
+  {
+   "section": "article",
+   "text": "The first and most feasible clinical validation study should then be a prospective multicenter observational cohort evaluating feasibility and diagnostic safety before automated risk classification is introduced. <sentence_start/>Patients starting ICI therapy would undergo standardized baseline assessment and longitudinal capture of patient-reported and objective data using the prespecified minimum dataset. <sentence_start/>Candidate alerts would be compared with independent clinical adjudication of suspected and confirmed irAEs, with explicit review of hospital presentations and severe events that occurred without a preceding alert."
+  },
+  {
+   "section": "article",
+   "text": "Only after feasibility and diagnostic safety are established should threshold optimization and comparative implementation studies proceed. <sentence_start/>Cluster-randomized, stepped-wedge, or hybrid effectiveness-implementation designs could evaluate emergency use, hospitalization, treatment interruption, cumulative corticosteroid exposure, time to second-line immunosuppression, chronic toxicity, function, quality of life, mortality, reach, adoption, fidelity, sustainability, interoperability, and cost. <sentence_start/>Multicenter collaboration will be required because individual severe irAEs are uncommon."
+  },
+  {
+   "section": "article",
+   "text": "Longitudinal analytic work can then evaluate symptom networks, latent classes, and trajectories while accounting for time-varying exposure, treatment interruption, death, progression, and competing events. <sentence_start/>Rechallenge studies require organ-stratified definitions of recovery, recurrence, new irAEs, and ongoing immunosuppression. <sentence_start/>Post-treatment cohorts should distinguish delayed onset from delayed recognition. <sentence_start/>Comparative pharmacological studies should use standardized refractory and dependent definitions and address infection, organ recovery, cumulative immunosuppression, cancer outcomes, and treatment variation. <sentence_start/>Supplementary Table S4 aligns these stages with outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Candidate biomarkers may eventually refine surveillance, but current genetic, cellular, cytokine, autoantibody, and microbiome markers are not ready to replace clinical and patient-reported monitoring. <sentence_start/>The effects of corticosteroid timing, intensity, and duration and of organ-directed second-line treatment remain important research priorities."
+  },
+  {
+   "section": "article",
+   "text": "13"
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "This review is a narrative synthesis. <sentence_start/>It did not use duplicate screening, protocol registration, exhaustive database searching, a PRISMA flow diagram, or formal study-level risk-of-bias assessment. <sentence_start/>Source selection may reflect author judgment and database accessibility. <sentence_start/>The evidence base is heterogeneous and includes guidelines, observational cohorts, spontaneous-report studies, mechanistic research, and implementation studies with different definitions and ascertainment methods."
+  },
+  {
+   "section": "article",
+   "text": "Many management recommendations remain consensus-based because randomized evidence for corticosteroid intensity, taper duration, and organ-specific second-line immunomodulation is limited. <sentence_start/>Guidelines evolve and local protocols vary; this review cannot substitute for the most current organ-specific recommendation. <sentence_start/>Spontaneous-report analyses cannot establish incidence or causality, and reported death proportions should not be interpreted as population case-fatality rates. <sentence_start/>Retrospective ePRO associations remain vulnerable to selection and residual confounding."
+  },
+  {
+   "section": "article",
+   "text": "The immune-related symptom web and SAELM framework have not been validated. <sentence_start/>No Delphi process, patient co-design, prospective cohort, diagnostic-performance study, or implementation trial was performed for this review. <sentence_start/>The proposed components may require modification across health systems, professions, languages, and resource settings. <sentence_start/>Rare but high-consequence toxicities may be poorly represented in general item sets, whereas highly sensitive thresholds may create excessive workload and unnecessary escalation."
+  },
+  {
+   "section": "article",
+   "text": "The model is symptom-centered but explicitly incorporates objective abnormalities. <sentence_start/>Even so, no framework based on remote reporting can replace clinical examination, physiological measurement, laboratory monitoring, imaging, and specialist assessment."
+  },
+  {
+   "section": "article",
+   "text": "14"
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "ICI safety surveillance should extend beyond isolated organ-specific reporting toward longitudinal, multimodal, and multisystem assessment across treatment, immunosuppressive tapering, discontinuation, rechallenge, and survivorship. <sentence_start/>The immune-related symptom web organizes patient-reported and objective changes with exposure history, individual baseline, trajectory, symptom combinations, competing diagnoses, and consequence-weighted urgency. <sentence_start/>SAELM links this information structure to attribution, escalation, guideline-directed management, accountable documentation, and iterative reassessment."
+  },
+  {
+   "section": "article",
+   "text": "The frameworks are not validated prediction models, diagnostic tools, causality algorithms, or treatment rules. <sentence_start/>PRO-CTCAE, ePRO, telephone triage, clinical assessment, laboratory and imaging surveillance, and spontaneous-report data provide different information and should be integrated rather than conflated. <sentence_start/>The proposed contribution is the longitudinal organization of these elements and the explicit connection between individual clinical safety alerts and potential population-level pharmacovigilance data."
+  },
+  {
+   "section": "article",
+   "text": "Prospective validation should begin with a multicenter observational cohort focused on false-negative severe events, alert burden, response time, and potentially avoidable escalation. <sentence_start/>Until safety and utility are demonstrated, the models should be used as evidence-informed structures for communication, data standardization, and research alongside current guideline-directed evaluation."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Edited by:</bold> , Hospital of Santa Maria Della Misericordia in Perugia, Italy"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Reviewed by:</bold> , Shanghai Jiao Tong University, China"
+  },
+  {
+   "section": "back",
+   "text": ", University Hospital La Paz, Spain"
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "BL: Conceptualization, Investigation, Writing - original draft, Writing - review and editing. <sentence_start/>HC: Investigation, Methodology, Writing - original draft, Writing - review and editing. <sentence_start/>YS: Conceptualization, Project administration, Supervision, Writing - review and editing."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Generative AI statement"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that generative AI was used in the creation of this manuscript. <sentence_start/>ChatGPT (OpenAI; web application, July 2026 version; GPT-5.6 Thinking model; accessed 19 July 2026) was used for structural reorganization, language refinement, consistency checking, and formatting. <sentence_start/>The tool was not used to generate or analyze primary data. <sentence_start/>All AI-assisted content was reviewed and revised by the authors, who retain full responsibility for the accuracy, originality, integrity, clinical statements, citations, and references."
+  },
+  {
+   "section": "back",
+   "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. <sentence_start/>If you identify any issues, please contact us."
+  },
+  {
+   "section": "back",
+   "text": "Publisher\u2019s note"
+  },
+  {
+   "section": "back",
+   "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. <sentence_start/>Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "The Supplementary Material for this article can be found online at:"
+  }
+ ]
+}

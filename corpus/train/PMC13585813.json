@@ -1,0 +1,787 @@
+{
+ "pmid": 42056360,
+ "pmcid": 13585813,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Blood pressure effects of SGLT2 inhibitors in kidney transplant recipients: a systematic review and meta-analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Post-transplant hypertension is common in kidney transplant recipients and contributes to cardiovascular risk and allograft dysfunction. <sentence_start/>Most available data come from studies where the primary indication for SGLT2 inhibitor use was post-transplant diabetes mellitus or cardiorenal protection, with blood pressure assessed as a secondary outcome."
+  },
+  {
+   "section": "abstract",
+   "text": "Objectives"
+  },
+  {
+   "section": "abstract",
+   "text": "To systematically evaluate the impact of SGLT2 inhibitors on blood pressure, metabolic and renal outcomes, and safety in kidney transplant recipients."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "PubMed, Embase, and Scopus clinical trial registries were systematically searched from inception to October 20, 2025. <sentence_start/>Randomized controlled trials and observational studies were included. <sentence_start/>Primary outcomes were changes in systolic and diastolic blood pressure at 3, 6, and 12 months. <sentence_start/>Secondary outcomes included body weight, glycated hemoglobin (HbA1c), renal function, and adverse events."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Twelve studies comprising 1,292 participants were included. <sentence_start/>In controlled difference-in-differences analyses (5 studies), SGLT2 inhibitors showed no significant blood pressure reductions versus control at any time point. <sentence_start/>Exploratory single-arm analyses suggested within-group systolic blood pressure reductions at 3 and 6 months; however, these estimates are at high risk of bias and cannot establish treatment effect."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "Exploratory single-arm analyses suggested modest short-term reductions in systolic blood pressure and suggested metabolic effects with an acceptable safety profile. <sentence_start/>However, controlled difference-in-differences analyses showed no significant blood pressure reductions versus control. <sentence_start/>Most available evidence derives from studies in which SGLT2 inhibitors were not initiated specifically for blood pressure control. <sentence_start/>Dedicated randomized controlled trials are required to determine their role in the management of post-transplant hypertension."
+  },
+  {
+   "section": "abstract",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "abstract",
+   "text": "The online version contains supplementary material available at ."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Chronic kidney disease (CKD) affects more than 800 million individuals worldwide. <sentence_start/>It is one of the most prevalent and consequential non-communicable diseases globally. <sentence_start/>As CKD progresses, millions of patients ultimately develop end-stage renal disease (ESRD), requiring renal replacement therapy for survival [<citation rid=\"CR1\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2019.07.012\" pmid=\"31582227\" count=\"1\">1</citation>]. <sentence_start/>Kidney transplantation remains the definitive treatment for ESRD, consistently demonstrating superior survival, improved quality of life, and substantially lower cardiovascular morbidity compared with long-term dialysis [<citation rid=\"CR2\" ref-type=\"bibr\" doi=\"10.1111/j.1600-6143.2011.03686.x\" pmid=\"21883901\" count=\"1\">2</citation>, <citation rid=\"CR3\" ref-type=\"bibr\" doi=\"10.1056/NEJM199912023412303\" pmid=\"10580071\" count=\"1\">3</citation>]. <sentence_start/>Nevertheless, the long-term success of kidney transplantation continues to be challenged by the persistent risk of allograft dysfunction and failure."
+  },
+  {
+   "section": "article",
+   "text": "A dominant mediator of this attrition is post-transplant hypertension, a condition affecting approximately 50-90% of kidney transplant recipients (KTRs) [<citation rid=\"CR4\" ref-type=\"bibr\" doi=\"10.1038/s41371-021-00540-5\" pmid=\"33947943\" count=\"1\">4</citation>-<citation rid=\"CR6\" ref-type=\"bibr\" pmid=\"40811516\" doi=\"10.1161/HYP.0000000000000249\" count=\"1\">6</citation>]. <sentence_start/>This is not merely a comorbid condition, but a major driver of adverse outcomes, with a strong and independent association with accelerated graft loss and increased cardiovascular mortality, the leading cause of death in this population [<citation rid=\"CR7\" ref-type=\"bibr\" doi=\"10.1007/s11906-021-01139-4\" pmid=\"33847830\" count=\"1\">7</citation>-<citation rid=\"CR10\" ref-type=\"bibr\" doi=\"10.1093/ndt/gfaf239\" pmcid=\"PMC13270328\" pmid=\"41206563\" count=\"1\">10</citation>]. <sentence_start/>The pathophysiology of post-transplant hypertension is largely iatrogenic; calcineurin inhibitors induce renal vasoconstriction and sodium retention, promoting a state of volume expansion. <sentence_start/>These effects are frequently compounded by corticosteroid exposure, persistent native kidney disease, and transplant renal artery stenosis [<citation rid=\"CR6\" ref-type=\"bibr\" pmid=\"40811516\" doi=\"10.1161/HYP.0000000000000249\" count=\"1\">6</citation>, <citation rid=\"CR11\" ref-type=\"bibr\" doi=\"10.1007/164_2021_547\" pmid=\"34697665\" count=\"1\">11</citation>, <citation rid=\"CR12\" ref-type=\"bibr\" doi=\"10.3389/fmed.2020.00229\" pmid=\"32613001\" pmcid=\"PMC7310511\" count=\"1\">12</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Consequently, the management of post-transplant hypertension presents a critical therapeutic dilemma. <sentence_start/>Although clinical guidelines recommend several antihypertensive classes, their use is limited by significant side effects such as peripheral edema, hyperkalemia, and acute kidney injury that are particularly problematic in the fragile transplant milieu [<citation rid=\"CR13\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2020.11.003\" pmid=\"33637192\" count=\"1\">13</citation>-<citation rid=\"CR16\" ref-type=\"bibr\" doi=\"10.1097/MNH.0000000000001045\" pmid=\"39513976\" count=\"1\">16</citation>]. <sentence_start/>This highlights the need for alternative therapies that align with the unique pathophysiology of these patients [<citation rid=\"CR7\" ref-type=\"bibr\" doi=\"10.1007/s11906-021-01139-4\" pmid=\"33847830\" count=\"1\">7</citation>, <citation rid=\"CR15\" ref-type=\"bibr\" pmid=\"39082471\" doi=\"10.1002/14651858.CD003598.pub3\" pmcid=\"PMC11290053\" count=\"1\">15</citation>, <citation rid=\"CR16\" ref-type=\"bibr\" doi=\"10.1097/MNH.0000000000001045\" pmid=\"39513976\" count=\"1\">16</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Sodium-glucose cotransporter-2 (SGLT2) inhibitors have well-established cardiorenal benefits in broad patient populations [<citation rid=\"CR13\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2020.11.003\" pmid=\"33637192\" count=\"1\">13</citation>, <citation rid=\"CR17\" ref-type=\"bibr\" doi=\"10.1097/TP.0000000000005496\" pmid=\"40702593\" count=\"1\">17</citation>-<citation rid=\"CR19\" ref-type=\"bibr\" doi=\"10.1053/j.ajkd.2021.09.010\" pmid=\"35144840\" pmcid=\"PMC9740752\" count=\"1\">19</citation>]. <sentence_start/>Their mechanism of action, which promotes natriuresis and osmotic diuresis, is uniquely suited to counteract the volume-expanded state central to post-transplant hypertension [<citation rid=\"CR20\" ref-type=\"bibr\" doi=\"10.1111/nep.13941\" pmid=\"34263502\" count=\"1\">20</citation>, <citation rid=\"CR21\" ref-type=\"bibr\" doi=\"10.1159/000530296\" pmid=\"36966528\" count=\"1\">21</citation>]. <sentence_start/>Beyond blood pressure reduction, their potential to mitigate weight gain and improve glomerular hemodynamics confers a multifaceted therapeutic profile [<citation rid=\"CR17\" ref-type=\"bibr\" doi=\"10.1097/TP.0000000000005496\" pmid=\"40702593\" count=\"1\">17</citation>, <citation rid=\"CR18\" ref-type=\"bibr\" doi=\"10.1097/MNH.0000000000000948\" pmid=\"38014999\" count=\"1\">18</citation>, <citation rid=\"CR20\" ref-type=\"bibr\" doi=\"10.1111/nep.13941\" pmid=\"34263502\" count=\"1\">20</citation>, <citation rid=\"CR22\" ref-type=\"bibr\" doi=\"10.3390/ijms26135952\" pmid=\"40649730\" pmcid=\"PMC12250267\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Despite this biological rationale, the translation of SGLT2 inhibitors into the kidney transplant population remains uncertain [<citation rid=\"CR13\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2020.11.003\" pmid=\"33637192\" count=\"1\">13</citation>, <citation rid=\"CR19\" ref-type=\"bibr\" doi=\"10.1053/j.ajkd.2021.09.010\" pmid=\"35144840\" pmcid=\"PMC9740752\" count=\"1\">19</citation>, <citation rid=\"CR21\" ref-type=\"bibr\" doi=\"10.1159/000530296\" pmid=\"36966528\" count=\"1\">21</citation>, <citation rid=\"CR23\" ref-type=\"bibr\" doi=\"10.2337/dci22-0027\" pmid=\"36189689\" pmcid=\"PMC9870667\" count=\"1\">23</citation>, <citation rid=\"CR24\" ref-type=\"bibr\" doi=\"10.1002/phar.2928\" pmid=\"38773917\" count=\"1\">24</citation>]. <sentence_start/>The existing literature is fragmented, consisting of small, observational studies and underpowered trials that yield conflicting results on their efficacy and safety, particularly regarding infection risks in immunocompromised hosts [<citation rid=\"CR13\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2020.11.003\" pmid=\"33637192\" count=\"1\">13</citation>, <citation rid=\"CR17\" ref-type=\"bibr\" doi=\"10.1097/TP.0000000000005496\" pmid=\"40702593\" count=\"1\">17</citation>-<citation rid=\"CR21\" ref-type=\"bibr\" doi=\"10.1159/000530296\" pmid=\"36966528\" count=\"1\">21</citation>, <citation rid=\"CR23\" ref-type=\"bibr\" doi=\"10.2337/dci22-0027\" pmid=\"36189689\" pmcid=\"PMC9870667\" count=\"1\">23</citation>-<citation rid=\"CR25\" ref-type=\"bibr\" pmid=\"32803882\" doi=\"10.1002/14651858.CD009966.pub3\" pmcid=\"PMC8477618\" count=\"1\">25</citation>]. <sentence_start/>This ambiguity has hindered their widespread adoption for hypertension management in KTRs [<citation rid=\"CR13\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2020.11.003\" pmid=\"33637192\" count=\"1\">13</citation>, <citation rid=\"CR19\" ref-type=\"bibr\" doi=\"10.1053/j.ajkd.2021.09.010\" pmid=\"35144840\" pmcid=\"PMC9740752\" count=\"1\">19</citation>, <citation rid=\"CR21\" ref-type=\"bibr\" doi=\"10.1159/000530296\" pmid=\"36966528\" count=\"1\">21</citation>, <citation rid=\"CR23\" ref-type=\"bibr\" doi=\"10.2337/dci22-0027\" pmid=\"36189689\" pmcid=\"PMC9870667\" count=\"1\">23</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Therefore, to synthesize the available evidence regarding their blood pressure and metabolic effects, we conducted a systematic review and meta-analysis. <sentence_start/>This study aims to quantify the association of SGLT2 inhibitors with changes in systolic and diastolic blood pressure across multiple time points, recognizing that most included studies were not primarily designed to evaluate hypertension and assessed blood pressure as a secondary outcome. <sentence_start/>In these studies, SGLT2 inhibitors were initiated primarily for glycemic management of post-transplant diabetes mellitus or for cardiorenal protection. <sentence_start/>Our findings are intended to inform evidence-based clinical practice and guide the design of future definitive trials."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Protocol and registration"
+  },
+  {
+   "section": "article",
+   "text": "This review adhered to the methodological standards set by the Cochrane Handbook and followed the Preferred Reporting Items for Systematic Review and Meta-analysis (PRISMA) guidelines [<citation rid=\"CR26\" ref-type=\"bibr\" doi=\"10.1016/j.rec.2021.07.010\" pmid=\"34446261\" count=\"1\">26</citation>]. <sentence_start/>The protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO ID: CRD420251169311). <sentence_start/>This study used publicly available data and was exempt from institutional review board (IRB) approval."
+  },
+  {
+   "section": "article",
+   "text": "Amendments to the protocol"
+  },
+  {
+   "section": "article",
+   "text": "In accordance with PRISMA 2020 recommendations (Item 24c), the authors report post-hoc amendments to the original study protocol. <sentence_start/>The initial protocol prioritized double-arm comparative analyses. <sentence_start/>However, during the screening phase, it was identified that high-quality comparative data for the primary hypertension outcomes were sparse. <sentence_start/>To maximize the synthesis of available evidence, the protocol was amended to include single-arm (pre-post) exploratory analyses for hypertension related outcomes only, which were analyzed separately from controlled comparisons to maintain methodological integrity. <sentence_start/>These analyses are strictly labeled as exploratory in this manuscript. <sentence_start/>Additionally, post hoc subgroup analyses were performed to further explore unexpected sources of statistical heterogeneity identified during the data synthesis."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were included based on predefined criteria."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Population</italic>: Studies were selected based on predefined eligibility criteria. <sentence_start/>Eligible populations included adult (\u2265 18 years) kidney transplant recipients with a functioning renal allograft. <sentence_start/>Studies enrolling both diabetic and non-diabetic transplant recipients were considered eligible."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Intervention</italic>: The intervention of interest was treatment with any SGLT2 inhibitor, including empagliflozin, dapagliflozin, canagliflozin, or ertugliflozin, at any dose and duration. <sentence_start/>In most included studies, SGLT2 inhibitors were initiated for indications such as post-transplant diabetes mellitus or cardiorenal protection rather than for the primary management of hypertension."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Comparator</italic>: For two-arm (controlled) studies: placebo, usual antihypertensive therapy, or no SGLT2 inhibitor use. <sentence_start/>For single-arm (pre-post) studies, the comparator was the baseline (pre-intervention) measurement. <sentence_start/>Trials with unclear comparator descriptions, overlapping treatment groups, or if comparisons are made with non-pharmacologic interventions (e.g., lifestyle modification only) were excluded."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Outcomes</italic>: The primary outcomes were the mean change in systolic blood pressure (SBP) and diastolic blood pressure (DBP) at 3-, 6-, and 12-month follow-up time points. <sentence_start/>Secondary outcomes included mean changes in body weight, glycated hemoglobin (HbA1c), serum creatinine, estimated glomerular filtration rate (eGFR), incidence of urinary tract infection (UTI), and incidence of hospitalizations due to any adverse event."
+  },
+  {
+   "section": "article",
+   "text": "<italic>Study design</italic>: Randomized controlled trials (RCTs) and prospective or retrospective observational cohort studies were included. <sentence_start/>Case reports, case series with fewer than five participants, narrative or systematic reviews, editorials, commentaries, letters to the editor, animal studies, and conference abstracts were excluded."
+  },
+  {
+   "section": "article",
+   "text": "Search strategy and study selection"
+  },
+  {
+   "section": "article",
+   "text": "We conducted a systematic search of PubMed, Embase.com, and Scopus from inception to October 20, 2025, using a peer-reviewed search strategy. <sentence_start/>Additionally, we searched clinical trial registries (ClinicalTrials.gov and WHO International Clinical Trials Registry Platform) and gray literature sources (ProQuest Dissertations &amp; Theses and Google Scholar). <sentence_start/>These searches identified no additional records beyond the database search. <sentence_start/>Only articles published in English were included, without any geographical limitations. <sentence_start/>Search strategy for each database can be found in Supplementary Table S1. <sentence_start/>The reference list of selected articles and text of appropriate reviews was manually screened to identify studies missed during the primary search."
+  },
+  {
+   "section": "article",
+   "text": "All citations generated from the search were imported into the software Rayyan. <sentence_start/>Following duplicate removal, two reviewers (A.A. and M.H.M.) independently screened titles and abstracts for eligibility. <sentence_start/>Full-text articles of potentially relevant studies were then retrieved and assessed by the same two reviewers. <sentence_start/>Any disagreements regarding study inclusion were resolved by consensus or by a third senior reviewer (A.S.A.)."
+  },
+  {
+   "section": "article",
+   "text": "Data extraction and quality assessment"
+  },
+  {
+   "section": "article",
+   "text": "Data extraction was performed independently by two reviewers (A.A. and M.I.) using a standardized data extraction form. <sentence_start/>Extracted data included study characteristics (first author, year of publication, study design, and sample size), baseline demographic and clinical characteristics of participants, and outcome data including means, standard deviations (SDs), and sample sizes for all reported outcomes at baseline and follow-up time points for both intervention and control groups, where applicable."
+  },
+  {
+   "section": "article",
+   "text": "The risk of bias for each included study was assessed independently by two reviewers (A.A. and M.H.M.). <sentence_start/>The Cochrane Risk of Bias 2 (RoB 2) tool [<citation rid=\"CR27\" ref-type=\"bibr\" doi=\"10.1136/bmj.l4898\" pmid=\"31462531\" count=\"1\">27</citation>] was used for randomized controlled trials (RCTs), and the Risk of Bias in Non-randomized Studies of Interventions (ROBINS-I) tool [<citation rid=\"CR28\" ref-type=\"bibr\" doi=\"10.1136/bmj.i4919\" pmid=\"27733354\" pmcid=\"PMC5062054\" count=\"1\">28</citation>] was used for observational studies. <sentence_start/>Considering the expected higher risk in the single-arm studies using ROBINS-I, these studies were also evaluated using the Joanna Briggs Institute (JBI) Critical Appraisal Checklist for Case Series to assess internal validity. <sentence_start/>Any disagreements regarding study inclusion were resolved by consensus or by consultation with a third senior reviewer (A.S.A.)."
+  },
+  {
+   "section": "article",
+   "text": "Data synthesis and statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Considering this review included both controlled and non-controlled studies, the analysis was stratified by study type. <sentence_start/>A random-effects model was used as the primary analytical approach for all meta-analyses to account for differences across studies [<citation rid=\"CR29\" ref-type=\"bibr\" doi=\"10.1002/sim.1009\" pmid=\"11782040\" count=\"1\">29</citation>, <citation rid=\"CR30\" ref-type=\"bibr\" count=\"1\">30</citation>]. <sentence_start/>Statistical calculations were performed using Microsoft Excel, and data pooling was conducted using Review Manager (RevMan) version 5.4 and R (version 4) with the meta package [<citation rid=\"CR31\" ref-type=\"bibr\" count=\"1\">31</citation>-<citation rid=\"CR33\" ref-type=\"bibr\" doi=\"10.1136/ebmental-2019-300117\" pmcid=\"PMC10231495\" pmid=\"31563865\" count=\"1\">33</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Calculation of effect size"
+  },
+  {
+   "section": "article",
+   "text": "For all studies, the effect size was based on the change from baseline. <sentence_start/>The Mean<sub>change</sub> was calculated using the following formula:"
+  },
+  {
+   "section": "article",
+   "text": "The standard deviation of the change (SD<sub>change</sub>) was calculated using:"
+  },
+  {
+   "section": "article",
+   "text": "The standard error of the mean change (SE<sub>change</sub>) was then derived using:"
+  },
+  {
+   "section": "article",
+   "text": "Single-arm (pre-post) study synthesis"
+  },
+  {
+   "section": "article",
+   "text": "For single-arm studies, the primary effect measure was the mean change from baseline for systolic blood pressure (SBP) and diastolic blood pressure (DBP) at relevant follow-up periods. <sentence_start/>Mean<sub>change</sub> and SE<sub>change</sub> were calculated for each study using the formulas described above and were pooled using the generic inverse variance (GIV) method in R via the metagen function. <sentence_start/>This analysis applied the Hartung-Knapp (HK) adjustment to generate more conservative confidence intervals."
+  },
+  {
+   "section": "article",
+   "text": "Two-arm (controlled) study synthesis"
+  },
+  {
+   "section": "article",
+   "text": "For studies with a control arm, the effect size was calculated as the mean difference of change from baseline (MDCFB). <sentence_start/>This MDCFB estimate is mathematically equivalent to a difference-in-differences (DiD) estimate, reflecting the relative treatment effect between groups and representing (change in SGLT2i group) minus (change in control group). <sentence_start/>For all studies for each arm, the Mean<sub>change</sub> derived. <sentence_start/>Then the following formula was used:"
+  },
+  {
+   "section": "article",
+   "text": "The standard error for MDCFB was calculated by combining the standard errors of both arms using:"
+  },
+  {
+   "section": "article",
+   "text": "When three or more studies reported results for an outcome, the pre-calculated MDCFB and SE<sub>(MDCFB)</sub> values were pooled using the generic inverse variance method in RevMan to obtain pooled estimates."
+  },
+  {
+   "section": "article",
+   "text": "Heterogeneity and sensitivity analysis"
+  },
+  {
+   "section": "article",
+   "text": "Statistical heterogeneity was quantified using the I<sup>2</sup> statistic, with I<sup>2</sup> values of &lt; 40%, 40-70%, and &gt; 70% considered low, moderate, and high, respectively. <sentence_start/>To further characterize the impact of extreme statistical heterogeneity (I<sup>2</sup> &gt; 90%), 95% prediction intervals (PI) were calculated for those specific outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Calculation of SD<sub>change</sub> required correlation coefficient (Corr). <sentence_start/>If a study provided sufficient data, corr was calculated using the above mentioned formulas. <sentence_start/>In situations where this was not feasible, we imputed a standard correlation of Corr = 0.5 for our analysis."
+  },
+  {
+   "section": "article",
+   "text": "To ensure robustness of results, sensitivity analysis was conducted by re-calculating and re-pooling the outcomes twice: once with a low correlation coefficient (Corr = 0.3) and once with a high correlation coefficient (Corr = 0.7). <sentence_start/>A \"leave-one-out\" sensitivity analysis was performed to identify the influence of individual outlying studies, in studies with high heterogeneity."
+  },
+  {
+   "section": "article",
+   "text": "To address potential clinical heterogeneity, subgroup analyses were performed for blood pressure outcomes. <sentence_start/>Studies were stratified based on:"
+  },
+  {
+   "section": "article",
+   "text": "glycemic status (diabetic, non-diabetic, or mixed cohorts);"
+  },
+  {
+   "section": "article",
+   "text": "baseline hypertension (SBP &gt; 140 mmHg vs. &lt; 140 mmHg);"
+  },
+  {
+   "section": "article",
+   "text": "post-transplant period (early/mixed vs. late &gt; 1 year);"
+  },
+  {
+   "section": "article",
+   "text": "stability of background antihypertensive therapy (stable regimen vs. adjusted during follow-up);"
+  },
+  {
+   "section": "article",
+   "text": "blood pressure measurement methods (office vs. routine)"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Literature search synthesis"
+  },
+  {
+   "section": "article",
+   "text": "The systematic search identified 1,434 records across PubMed, Embase, and Scopus. <sentence_start/>After removal of duplicates, 900 studies underwent title and abstract screening. <sentence_start/>Of these, 118 full-text articles were assessed for eligibility. <sentence_start/>Ultimately, 12 studies [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>-<citation rid=\"CR42\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfad007\" count=\"1\">42</citation>] met the inclusion criteria and were included in the qualitative and quantitative synthesis (Fig. 1).Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA flow diagram showing study selection process"
+  },
+  {
+   "section": "article",
+   "text": "Baseline and study characteristics"
+  },
+  {
+   "section": "article",
+   "text": "This review utilized the data of 1,292 patients across 12 studies between 2018 and 2025. <sentence_start/>Seven studies [<citation rid=\"CR36\" ref-type=\"bibr\" doi=\"10.1016/j.transproceed.2019.11.007\" pmid=\"31924404\" count=\"1\">36</citation>-<citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>, <citation rid=\"CR44\" ref-type=\"bibr\" count=\"1\">44</citation>] were retrospective observational studies, four [<citation rid=\"CR35\" ref-type=\"bibr\" pmid=\"30585690\" doi=\"10.1111/ajt.15223\" pmcid=\"PMC6590167\" count=\"1\">35</citation>, <citation rid=\"CR42\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfad007\" count=\"1\">42</citation>, <citation rid=\"CR43\" ref-type=\"bibr\" count=\"1\">43</citation>, <citation rid=\"CR45\" ref-type=\"bibr\" count=\"1\">45</citation>] were prospective observational studies, and one study [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>] was a prospective randomized controlled trial (RCT). <sentence_start/>Seven studies [<citation rid=\"CR35\" ref-type=\"bibr\" pmid=\"30585690\" doi=\"10.1111/ajt.15223\" pmcid=\"PMC6590167\" count=\"1\">35</citation>-<citation rid=\"CR37\" ref-type=\"bibr\" count=\"1\">37</citation>, <citation rid=\"CR42\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfad007\" count=\"1\">42</citation>-<citation rid=\"CR45\" ref-type=\"bibr\" count=\"1\">45</citation>] were single-arm observational cohorts, while five [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>, <citation rid=\"CR38\" ref-type=\"bibr\" doi=\"10.1097/TXD.0000000000001228\" pmcid=\"PMC8500668\" pmid=\"34646935\" count=\"1\">38</citation>-<citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>] included a comparator group."
+  },
+  {
+   "section": "article",
+   "text": "Treatment arms included various SGLT2 inhibitors (canagliflozin, empagliflozin, and dapagliflozin) with follow-up durations ranging from 6 to 12 months. <sentence_start/>Participants were predominantly older males, with mean ages between 49.1 and 63.0 years. <sentence_start/>Cardiometabolic risk factors were common, with mean HbA1c ranging from 6.5 to 9.3% and baseline systolic blood pressure between 123 and 150 mmHg."
+  },
+  {
+   "section": "article",
+   "text": "Renal function was heterogeneous across cohorts, with baseline eGFR ranging from preserved function (75.8 mL/min/1.73 m<sup>2</sup>) to severe impairment (31 mL/min/1.73 m<sup>2</sup>). <sentence_start/>Study characteristics for all studies are reported in Table 1 and baseline characteristics of studies can be seen in Supplementary Tables S2 and S3. <sentence_start/>Across included studies, the primary indication for SGLT2 inhibitor use was predominantly post-transplant diabetes mellitus or cardiovascular risk reduction, with blood pressure outcomes typically reported as secondary endpoints."
+  },
+  {
+   "section": "article",
+   "text": "Quality assessment"
+  },
+  {
+   "section": "article",
+   "text": "Halden et al., the only RCT included in this review, was judged to have a low risk of bias across all domains using the Cochrane Risk of Bias 2 (RoB 2) tool [<citation rid=\"CR27\" ref-type=\"bibr\" doi=\"10.1136/bmj.l4898\" pmid=\"31462531\" count=\"1\">27</citation>]. <sentence_start/>Using the Cochrane ROBINS-I tool, all 11 observational studies were assessed as having a serious risk of bias (Supplementary Figures S1 and S2). <sentence_start/>Nine studies [<citation rid=\"CR36\" ref-type=\"bibr\" doi=\"10.1016/j.transproceed.2019.11.007\" pmid=\"31924404\" count=\"1\">36</citation>-<citation rid=\"CR44\" ref-type=\"bibr\" count=\"1\">44</citation>] exhibited serious risk in Domain 1 (\"Bias due to confounding\"). <sentence_start/>Serious risk was also identified in Domain 2 (\"Bias in selection of participants into the study\") and Domain 5 (\"Bias due to missing data\")."
+  },
+  {
+   "section": "article",
+   "text": "The seven single-arm studies [<citation rid=\"CR35\" ref-type=\"bibr\" pmid=\"30585690\" doi=\"10.1111/ajt.15223\" pmcid=\"PMC6590167\" count=\"1\">35</citation>-<citation rid=\"CR37\" ref-type=\"bibr\" count=\"1\">37</citation>, <citation rid=\"CR42\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfad007\" count=\"1\">42</citation>-<citation rid=\"CR45\" ref-type=\"bibr\" count=\"1\">45</citation>] were further evaluated using the Joanna Briggs Institute (JBI) Critical Appraisal Checklist for Case Series (Supplementary Table S4). <sentence_start/>Three studies were rated high quality [<citation rid=\"CR42\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfad007\" count=\"1\">42</citation>-<citation rid=\"CR44\" ref-type=\"bibr\" count=\"1\">44</citation>], one moderate [<citation rid=\"CR35\" ref-type=\"bibr\" pmid=\"30585690\" doi=\"10.1111/ajt.15223\" pmcid=\"PMC6590167\" count=\"1\">35</citation>], and three low quality [<citation rid=\"CR36\" ref-type=\"bibr\" doi=\"10.1016/j.transproceed.2019.11.007\" pmid=\"31924404\" count=\"1\">36</citation>, <citation rid=\"CR37\" ref-type=\"bibr\" count=\"1\">37</citation>, <citation rid=\"CR45\" ref-type=\"bibr\" count=\"1\">45</citation>]. <sentence_start/>Detailed quality assessment explanations are provided in the Supplementary File. <sentence_start/>The overall certainty of evidence for key outcomes was low to very low according to GRADE assessment (Supplementary Table S5)."
+  },
+  {
+   "section": "article",
+   "text": "Primary outcome: efficacy in blood pressure control"
+  },
+  {
+   "section": "article",
+   "text": "Where available, difference-in-differences (DiD) estimates (change in SGLT2i group minus change in control group) were prioritized for inference, while single-arm analyses were interpreted as supportive and exploratory."
+  },
+  {
+   "section": "article",
+   "text": "Comparative analysis: SGLT2 inhibitors vs control/placebo"
+  },
+  {
+   "section": "article",
+   "text": "Data from Yeggalam et al. [<citation rid=\"CR39\" ref-type=\"bibr\" doi=\"10.1111/dom.15035\" pmid=\"36846956\" count=\"1\">39</citation>], showed no significant differences in mean SBP or DBP change from baseline between SGLT2 inhibitors and control arms at 3 months (<italic>p</italic> = 0.98 and <italic>p</italic> = 0.79, respectively). <sentence_start/>This finding of non-significance remained consistent at both 6 months (SBP: <italic>p</italic> = 0.29; DBP: <italic>p</italic> = 0.43) and 12 months (SBP: <italic>p</italic> = 0.65; DBP: <italic>p</italic> = 0.43)."
+  },
+  {
+   "section": "article",
+   "text": "At 12 months, Hisadome et al. reported a significant mean difference in SBP change from baseline (<italic>p</italic> = 0.045), while DBP change was not significant (<italic>p</italic> = 0.68) [<citation rid=\"CR38\" ref-type=\"bibr\" doi=\"10.1097/TXD.0000000000001228\" pmcid=\"PMC8500668\" pmid=\"34646935\" count=\"1\">38</citation>]. <sentence_start/>Mahmoud et al. reported no differences in mean SBP (<italic>p</italic> = 0.21) or DBP (<italic>p</italic> = 0.43) at 12 months [<citation rid=\"CR40\" ref-type=\"bibr\" doi=\"10.1111/ctr.15144\" pmid=\"37755118\" count=\"1\">40</citation>]. <sentence_start/>Among placebo-controlled RCTs, Halden et al. found no significant differences in SBP or DBP change at 6 months [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>]. <sentence_start/>Refer to Table 2 for study-level mean differences between SGLT2 inhibitors and comparator arms."
+  },
+  {
+   "section": "article",
+   "text": "Single-arm analysis: pooled change in blood pressure"
+  },
+  {
+   "section": "article",
+   "text": "For SBP, pooled analysis suggested a reduction at 3 and 6 months. <sentence_start/>However, the pooled effect was not significant at 12 months. <sentence_start/>To address potential bias from SD imputation, empirical correlation coefficients (Corr) were derived from studies providing complete variance data. <sentence_start/>At 6 months (Fructoso et al.), calculated Corr values were 0.46 (SBP) and 0.52 (DBP) [<citation rid=\"CR42\" ref-type=\"bibr\" doi=\"10.1093/ckj/sfad007\" count=\"1\">42</citation>]. <sentence_start/>At 12 months, data from Hisadome et al. yielded a Corr of 0.50 for DBP; however, the SBP data from the same study resulted in a negative correlation (Corr = \u22120.14) [<citation rid=\"CR38\" ref-type=\"bibr\" doi=\"10.1097/TXD.0000000000001228\" pmcid=\"PMC8500668\" pmid=\"34646935\" count=\"1\">38</citation>]. <sentence_start/>Since a negative correlation is clinically implausible for blood pressure tracking, this value was excluded as a valid estimate after discussion among the authors."
+  },
+  {
+   "section": "article",
+   "text": "As empirically derived correlation coefficients consistently clustered around 0.5, this value was selected as a conservative and representative estimate for the primary single-arm analysis across all time points. <sentence_start/>Sensitivity analyses, conducted by varying the imputed correlation coefficient (0.3 and 0.7), confirmed the robustness and significance of the 3-month and 6-month SBP findings as shown in Supplement Table S6. <sentence_start/>Forest plots for pooled changes in systolic blood pressure across follow-up time points are shown in Fig. 2.Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of pooled change in systolic blood pressure at 3, 6, and 12 months in single-arm studies"
+  },
+  {
+   "section": "article",
+   "text": "For DBP, the primary analysis found no significant pooled reduction in DBP at any time point. <sentence_start/>One study (AlKindi et al.) reported an extreme DBP change (+ 41.87 mmHg), likely due to a typographical error; excluding this study reduced heterogeneity (I<sup>2</sup>) from 96.2% to 68.1% (95% PI: \u221220.85 to 22.80 mmHg). <sentence_start/>After sensitivity analysis by excluding this study, the pooled effect size became significant, the heterogeneity decreased (I<sup>2</sup> = 68.1%) and the PI narrowed (\u22129.30 to 2.48). <sentence_start/>Refer to Table 3 for a summary of the pooled mean difference of SBP and DBP at all three follow-up points. <sentence_start/>Forest plots for systolic blood pressure at individual follow-up time points and corresponding diastolic blood pressure analyses, including sensitivity analyses, are provided in Supplementary Figures S3-S10."
+  },
+  {
+   "section": "article",
+   "text": "Subgroup analyses were performed across all six outcomes to evaluate the impact of diabetes status, medication stability, baseline hypertension, blood pressure measurement method, and transplant vintage (Supplementary Table S7). <sentence_start/>For SBP at 6 months, a significant subgroup difference was observed regarding the post-transplant period (p = 0.017), with a more pronounced reduction in early or mixed cohorts (MD: \u22127.75 mmHg; 95% CI \u221212.00, \u22123.50) compared to late-transplant patients (MD: \u22124.57 mmHg; 95% CI \u22127.72 to \u22121.42). <sentence_start/>At 12 months, SBP reduction was significantly influenced by medication stability (p &lt; 0.0001); cohorts with adjusted antihypertensive regimens demonstrated a consistent reduction (MD: \u22125.14 mmHg; 95% CI \u22126.82 to \u22123.46), whereas the single study with a stable regimen showed a paradoxical increase (MD: 6.00 mmHg; 95% CI 0.81-11.19). <sentence_start/>For DBP, a significant subgroup interaction occurred at 12 months regarding baseline hypertension (p = 0.024), where patients with high baseline blood pressure experienced a substantially larger reduction (MD: \u221210.00 mmHg; 95% CI \u221216.69 to \u22123.31) than those with normal baseline levels (MD: \u22122.21 mmHg; 95% CI \u22123.93 to \u22120.49). <sentence_start/>Notably, no significant differences were observed across any time point based on diabetes status or blood pressure measurement method (<italic>p</italic> &gt; 0.05)."
+  },
+  {
+   "section": "article",
+   "text": "Secondary outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Metabolic outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Yeggalam et al. demonstrated a significant difference in body weight change at 12 months between SGLT2 inhibitors and control groups (<italic>p</italic> = 0.041), but not at 3 or 6 months [<citation rid=\"CR39\" ref-type=\"bibr\" doi=\"10.1111/dom.15035\" pmid=\"36846956\" count=\"1\">39</citation>]. <sentence_start/>Hisadome et al. similarly reported a significant 12-month weight reduction (<italic>p</italic> = 0.043) [<citation rid=\"CR38\" ref-type=\"bibr\" doi=\"10.1097/TXD.0000000000001228\" pmcid=\"PMC8500668\" pmid=\"34646935\" count=\"1\">38</citation>]. <sentence_start/>Mahmoud et al. initially observed a 12-month weight difference (<italic>p</italic> = 0.01), which became non-significant after adjustment for multiple comparisons (<italic>p</italic> = 0.701) (40). <sentence_start/>Halden et al. reported a significant 6-month median weight change (<italic>p</italic> = 0.014) [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>]. <sentence_start/>Additional pooled analyses for HbA1c at earlier time points and for body weight are shown in Supplementary Figures S11-S12."
+  },
+  {
+   "section": "article",
+   "text": "Regarding HbA1c, our analysis showed a significant difference in the mean change from baseline at 3 months for Demir et al. (<italic>p</italic> = 0.02), while Yeggalam et al. showed a non-significant result (<italic>p</italic> = 1.0) [<citation rid=\"CR39\" ref-type=\"bibr\" doi=\"10.1111/dom.15035\" pmid=\"36846956\" count=\"1\">39</citation>, <citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>]. <sentence_start/>This pattern was consistent at 6 months (Demir et al.: <italic>p</italic> &lt; 0.001; Yeggalam et al.: <italic>p</italic> = 0.85) [<citation rid=\"CR39\" ref-type=\"bibr\" doi=\"10.1111/dom.15035\" pmid=\"36846956\" count=\"1\">39</citation>, <citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>]. <sentence_start/>For the 12-month time point, the mean differences from three studies were pooled. <sentence_start/>The overall pooled effect size remained non-significant between the SGLT2 inhibitors and control groups (MD: \u22120.87; 95% CI \u22121.96 to 0.22; <italic>p</italic> = 0.12; <italic>I</italic><sup>2</sup> = 93%; Fig. 3) and the 95% CI was wide (\u221212.28 to + 10.54%).Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot comparing change in systolic blood pressure between SGLT2 inhibitor and control groups at 12 months"
+  },
+  {
+   "section": "article",
+   "text": "Consistent with their body weight findings, Mahmoud et al. reported that an initial difference in the median change in HbA1c at 12 months became non-significant after adjusting for multiple comparisons [<citation rid=\"CR40\" ref-type=\"bibr\" doi=\"10.1111/ctr.15144\" pmid=\"37755118\" count=\"1\">40</citation>]. <sentence_start/>Halden et al. reported a significant difference in the median change from baseline at 6 months between the SGLT2 inhibitors and placebo groups [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Renal outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of data from Yeggalam et al. and Demir et al. showed no difference in the mean change of eGFR from baseline at 3 or 6 months (Yeggalam: <italic>p</italic> = 0.28 and 0.90; Demir: <italic>p</italic> = 0.74 and 0.16) [<citation rid=\"CR39\" ref-type=\"bibr\" doi=\"10.1111/dom.15035\" pmid=\"36846956\" count=\"1\">39</citation>, <citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>]. <sentence_start/>For the 12-month time point, a pooled analysis of three studies was conducted, which also showed no significant difference in the change in eGFR from baseline (MD: 4.30; 95% CI \u22120.32 to 8.93; <italic>p</italic> = 0.07; <italic>I</italic><sup>2</sup> = 68%; Fig. 4).Fig. 4"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of pooled change in estimated glomerular filtration rate at 12 months"
+  },
+  {
+   "section": "article",
+   "text": "In contrast, Mahmoud et al. reported an improvement in eGFR over 12 months in the SGLT2 inhibitors group compared to the control group (<italic>p</italic> = 0.025) [<citation rid=\"CR40\" ref-type=\"bibr\" doi=\"10.1111/ctr.15144\" pmid=\"37755118\" count=\"1\">40</citation>]. <sentence_start/>Halden et al. reported no difference in the median change of eGFR from baseline at 6 months between the SGLT2 inhibitors and placebo groups [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Regarding the change in serum creatinine from baseline, analysis of data from Yeggalam et al. found no significant difference between the SGLT2 inhibitors and control groups at 3, 6, or 12 months (<italic>p</italic> = 0.41, <italic>p</italic> = 1.0, and <italic>p</italic> = 0.06, respectively) [<citation rid=\"CR39\" ref-type=\"bibr\" doi=\"10.1111/dom.15035\" pmid=\"36846956\" count=\"1\">39</citation>]. <sentence_start/>Demir et al. showed similar results, with no significant difference found at 12 months between the SGLT2 inhibitors and control groups (<italic>p</italic> = 0.62) [<citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>]. <sentence_start/>Additional renal outcome analyses are shown in Supplementary Figures S13-S15."
+  },
+  {
+   "section": "article",
+   "text": "Safety outcomes"
+  },
+  {
+   "section": "article",
+   "text": "To assess the effect of SGLT2i on the incidence of UTIs, data from four studies were pooled. <sentence_start/>This analysis revealed that the odds of UTI in the SGLT2 inhibitors group were not significantly different compared to the control group (OR: 0.55; 95% CI 0.28-1.09; <italic>p</italic> = 0.09; <italic>I</italic><sup>2</sup> = 24%; Fig. 5).Fig. 5"
+  },
+  {
+   "section": "article",
+   "text": "Odds ratio for urinary tract infection comparing SGLT2 inhibitors versus control"
+  },
+  {
+   "section": "article",
+   "text": "Similarly, no significant difference was found in the odds of hospitalization due to any adverse events between the SGLT2 inhibitors and control groups (<italic>n</italic> = 4 studies; OR: 0.52; 95% CI 0.25-1.08; <italic>p</italic> = 0.08; <italic>I</italic><sup>2</sup> = 0%; Fig. 6).Fig. 6"
+  },
+  {
+   "section": "article",
+   "text": "Odds ratio for hospitalization due to adverse events"
+  },
+  {
+   "section": "article",
+   "text": "Other safety endpoints were reported inconsistently across studies. <sentence_start/>Genital mycotic infections were mentioned in two studies, with no clear increase in SGLT2i groups. <sentence_start/>No cases of diabetic ketoacidosis (including euglycemic DKA) were reported in any study. <sentence_start/>Acute kidney injury was not systematically reported, but no study identified a safety signal. <sentence_start/>Rejection episodes were reported in three studies; Demir et al. noted lower rejection rates in the SGLT2i group, while others found no difference. <sentence_start/>Tacrolimus and cyclosporine trough levels were assessed in two studies (Halden et al., Hisadome et al.), both confirming stable concentration-to-dose ratios during SGLT2i therapy."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review and meta-analysis synthesizes available evidence on blood pressure effects of SGLT2 inhibitors in kidney transplant recipients. <sentence_start/>Our findings demonstrate modest short-term reductions in systolic blood pressure, suggested metabolic effects, and an acceptable safety profile."
+  },
+  {
+   "section": "article",
+   "text": "Blood pressure effects and clinical relevance"
+  },
+  {
+   "section": "article",
+   "text": "In evaluating the impact of SGLT2 inhibitors on post-transplant hypertension, our primary inference is drawn from controlled comparative analyses. <sentence_start/>In these head-to-head comparisons, SGLT2 inhibitors generally did not demonstrate a statistically significant difference-in-differences (the mean difference of change from baseline between SGLT2i and control groups) for SBP or DBP at most time points."
+  },
+  {
+   "section": "article",
+   "text": "While nominal SBP reductions were observed in pooled single-arm (pre-post) analyses at 3 and 6 months, these findings are strictly exploratory. <sentence_start/>Since single-arm changes cannot isolate a true treatment effect from natural variation, regression to the mean, or background therapy adjustments, they must be interpreted with significant caution. <sentence_start/>These nominal findings align with meta-analyses in non-transplant populations demonstrating consistent blood pressure lowering effects of 3-5 mmHg [<citation rid=\"CR46\" ref-type=\"bibr\" doi=\"10.2337/dc18-2207\" pmid=\"30894383\" pmcid=\"PMC6429633\" count=\"1\">46</citation>, <citation rid=\"CR47\" ref-type=\"bibr\" doi=\"10.1016/j.jash.2014.01.007\" pmid=\"24602971\" count=\"1\">47</citation>], and the modest reductions seen in the EMPA-KIDNEY trial [<citation rid=\"CR48\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2204233\" pmid=\"36331190\" pmcid=\"PMC7614055\" count=\"1\">48</citation>]. <sentence_start/>However, without a consistent significant difference in our controlled comparisons, these single-arm drops cannot be definitively attributed to the SGLT2 inhibitor alone."
+  },
+  {
+   "section": "article",
+   "text": "The discrepancy between the significant SBP drops seen in treated single-arm cohorts at 3 and 6 months and the non-significant comparative results at 12 months likely reflects high clinical variability. <sentence_start/>Our random-effects models, which prioritize a conservative account of study-level heterogeneity, suggest that the blood pressure-lowering effect may not be as robust as initial observational data suggested. <sentence_start/>Subgroup analyses suggest that these effects may be transient or highly dependent on clinical context, as SBP reductions were significantly more pronounced in early transplant cohorts and heavily influenced by background anti-hypertensive medication adjustments."
+  },
+  {
+   "section": "article",
+   "text": "Diastolic blood pressure (DBP) reductions were notably more modest and less consistent in the single-arm analysis. <sentence_start/>The primary 6-month DBP analysis was characterized by extreme statistical heterogeneity and a wide 95% prediction interval, indicating that the treatment effect is variable across different clinical settings. <sentence_start/>This unpredictability is further evidenced by subgroup data showing that 12-month DBP reductions were significantly larger only in patients with high baseline hypertension. <sentence_start/>This pattern hints toward a possible preferential effect of SGLT2 inhibitors on systolic rather than diastolic blood pressure, likely mediated by natriuresis and reductions in arterial stiffness rather than direct vasodilation [<citation rid=\"CR49\" ref-type=\"bibr\" doi=\"10.14740/jocmr3011w\" pmid=\"28496544\" pmcid=\"PMC5412517\" count=\"1\">49</citation>]. <sentence_start/>Such predominantly systolic benefits may be particularly relevant in transplant recipients, who frequently exhibit increased arterial stiffness related to chronic kidney disease and long-term immunosuppressive therapy [<citation rid=\"CR50\" ref-type=\"bibr\" doi=\"10.1161/01.HYP.0000201234.35551.2e\" pmid=\"16401761\" count=\"1\">50</citation>]. <sentence_start/>While even small SBP reductions (e.g., 2 mmHg) are associated with a 7% reduction in cardiovascular mortality in the general population [<citation rid=\"CR51\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(02)11911-8\" pmid=\"12493255\" count=\"1\">51</citation>], this review underscores that definitive evidence for a superior blood pressure-lowering effect over standard care in the transplant setting is currently lacking."
+  },
+  {
+   "section": "article",
+   "text": "Metabolic benefits in post-transplant care"
+  },
+  {
+   "section": "article",
+   "text": "The observed reductions in body weight address a critical therapeutic gap in post-transplant metabolic management. <sentence_start/>Post-transplant weight gain affects up to 80% of kidney transplant recipients and is strongly associated with new-onset diabetes, metabolic syndrome, and cardiovascular disease [<citation rid=\"CR52\" ref-type=\"bibr\" doi=\"10.1097/00007890-199912270-00005\" pmid=\"10628762\" count=\"1\">52</citation>, <citation rid=\"CR53\" ref-type=\"bibr\" doi=\"10.1097/TP.0b013e3182100f3a\" pmid=\"21326138\" count=\"1\">53</citation>]. <sentence_start/>Our pooled analyses demonstrated that SGLT2 inhibitor therapy was associated with statistically significant and consistent reductions in body weight at 12 months, with minimal heterogeneity across studies. <sentence_start/>These findings align with well-established mechanisms of SGLT2 inhibitors, including glucosuria-induced caloric loss and favorable effects on body composition through preferential reduction of visceral adipose tissue [<citation rid=\"CR54\" ref-type=\"bibr\" doi=\"10.1210/jc.2011-2260\" pmid=\"22238392\" count=\"1\">54</citation>, <citation rid=\"CR55\" ref-type=\"bibr\" doi=\"10.2337/dc15-0355\" pmid=\"26180105\" pmcid=\"PMC4542276\" count=\"1\">55</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Improvements in glycemic control, as reflected by HbA1c, revealed a more variable pattern. <sentence_start/>While several individual studies demonstrated reductions in HbA1c, pooled estimates at 12 months did not consistently reach statistical significance, particularly in the presence of substantial heterogeneity. <sentence_start/>The wide 95% prediction interval (PI), further suggests that the glycemic response is highly unpredictable across different cohorts and should be viewed as exploratory. <sentence_start/>This variability may reflect differences in baseline glycemic status, concomitant diabetes medications, and varying degrees of steroid-induced hyperglycemia across studies. <sentence_start/>Nevertheless, the overall directionality of effect consistently favored SGLT2 inhibitors, suggesting a clinically meaningful trend in a population at elevated risk for post-transplant diabetes and metabolic complications. <sentence_start/>Post-transplant diabetes and inadequate glycemic control are well-recognized determinants of both graft survival and patient outcomes [<citation rid=\"CR56\" ref-type=\"bibr\" doi=\"10.1111/j.1523-1755.2002.kid582.x\" pmid=\"12234317\" count=\"1\">56</citation>, <citation rid=\"CR57\" ref-type=\"bibr\" doi=\"10.1681/ASN.2006080929\" pmid=\"17130277\" count=\"1\">57</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Importantly, the potential benefits of SGLT2 inhibitors may extend beyond glucose lowering alone. <sentence_start/>The DAPA-CKD trial demonstrated that dapagliflozin reduced kidney function decline and cardiovascular events independent of baseline glycemic status [<citation rid=\"CR58\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2024816\" pmid=\"32970396\" count=\"1\">58</citation>, <citation rid=\"CR59\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1812389\" pmid=\"30415602\" count=\"1\">59</citation>], supporting pleiotropic effects. <sentence_start/>In the transplant setting, where corticosteroids and calcineurin inhibitors contribute substantially to insulin resistance and hyperglycemia, SGLT2 inhibitors offer an insulin-independent metabolic strategy that circumvents these iatrogenic challenges [<citation rid=\"CR60\" ref-type=\"bibr\" doi=\"10.1210/er.2015-1084\" pmid=\"26650437\" pmcid=\"PMC4740345\" count=\"1\">60</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Renal safety and allograft preservation"
+  },
+  {
+   "section": "article",
+   "text": "The stability of renal function parameters addresses fundamental concerns regarding SGLT2 inhibitor effects on allograft function. <sentence_start/>Our analysis showed no significant differences in eGFR or serum creatinine changes between SGLT2 inhibitor and control groups at 12 months, supporting a reassuring renal safety profile. <sentence_start/>These findings are consistent with mechanistic data suggesting SGLT2 inhibitors exert nephroprotective effects through reductions in hyperfiltration injury, decreased tubular workload, and improved renal oxygenation [<citation rid=\"CR61\" ref-type=\"bibr\" doi=\"10.1161/CIRCULATIONAHA.113.005081\" pmid=\"24334175\" count=\"1\">61</citation>, <citation rid=\"CR62\" ref-type=\"bibr\" doi=\"10.1038/s41581-020-0256-y\" pmid=\"32152499\" pmcid=\"PMC7242158\" count=\"1\">62</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The initial eGFR decline reported with SGLT2 inhibitor initiation in non-transplant populations reflects hemodynamic adaptation mediated by reduced intraglomerular pressure, rather than structural kidney injury [<citation rid=\"CR63\" ref-type=\"bibr\" doi=\"10.1161/CIRCULATIONAHA.116.021887\" pmid=\"27470878\" count=\"1\">63</citation>, <citation rid=\"CR64\" ref-type=\"bibr\" doi=\"10.1016/j.kint.2020.10.031\" pmid=\"33181154\" count=\"1\">64</citation>]. <sentence_start/>Large randomized trials such as EMPA-KIDNEY demonstrated 28% reduction in kidney disease progression with empagliflozin [<citation rid=\"CR48\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2204233\" pmid=\"36331190\" pmcid=\"PMC7614055\" count=\"1\">48</citation>], while DAPA-CKD showed sustained long-term nephroprotective benefits [<citation rid=\"CR58\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2024816\" pmid=\"32970396\" count=\"1\">58</citation>]. <sentence_start/>The absence of significant eGFR decline in our pooled analysis, coupled with overall stability over 12 months, is encouraging given the progressive nature of chronic allograft dysfunction."
+  },
+  {
+   "section": "article",
+   "text": "The observation of improved eGFR in some individual studies, though not consistently replicated in pooled analyses, raises the possibility of longer-term nephroprotective effects warranting further evaluation in adequately powered trials with extended follow-up."
+  },
+  {
+   "section": "article",
+   "text": "Safety profile in immunocompromised hosts"
+  },
+  {
+   "section": "article",
+   "text": "The safety analysis provides crucial reassurance regarding infection risk in immunosuppressed transplant recipients. <sentence_start/>The pooled analysis of urinary tract infections showed no significant increase with SGLT2 inhibitors compared to controls. <sentence_start/>While SGLT2 inhibitors associate with genital mycotic infections in non-transplant populations [<citation rid=\"CR65\" ref-type=\"bibr\" doi=\"10.1185/03007995.2012.697053\" pmid=\"22632452\" count=\"1\">65</citation>, <citation rid=\"CR66\" ref-type=\"bibr\" doi=\"10.1038/s41598-017-02733-w\" pmid=\"28588220\" pmcid=\"PMC5460243\" count=\"1\">66</citation>], serious urinary tract infection risk appears minimal in this cohort, consistent with findings from the CANVAS program and DECLARE-TIMI 58 trial [<citation rid=\"CR67\" ref-type=\"bibr\" pmid=\"29166232\" doi=\"10.1056/NEJMc1712572\" count=\"1\">67</citation>, <citation rid=\"CR68\" ref-type=\"bibr\" doi=\"10.1016/j.idc.2013.10.006\" pmid=\"24484581\" count=\"1\">68</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Despite theoretical concerns that immunosuppression heightens infection susceptibility, our findings suggest SGLT2 inhibitors do not meaningfully exacerbate this risk. <sentence_start/>This may reflect the predominantly local rather than systemic nature of SGLT2 inhibitor-associated infections and the effectiveness of contemporary prophylaxis protocols [<citation rid=\"CR68\" ref-type=\"bibr\" doi=\"10.1016/j.idc.2013.10.006\" pmid=\"24484581\" count=\"1\">68</citation>]. <sentence_start/>Crucially, the evidence indicates a lack of significant pharmacological interference. <sentence_start/>Halden et al. and Hisadome et al. both confirmed that trough levels and concentration-to-dose ratios for tacrolimus and cyclosporine remained stable during SGLT2i therapy [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>, <citation rid=\"CR38\" ref-type=\"bibr\" doi=\"10.1097/TXD.0000000000001228\" pmcid=\"PMC8500668\" pmid=\"34646935\" count=\"1\">38</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The absence of increased hospitalizations due to adverse events further supports overall tolerability, particularly relevant given transplant recipients\u2019 heightened vulnerability to medication-related adverse effects [<citation rid=\"CR69\" ref-type=\"bibr\" doi=\"10.2215/CJN.09300913\" pmid=\"24763866\" pmcid=\"PMC4011453\" count=\"1\">69</citation>].This <sentence_start/>is further supported by the lack of increased acute rejection, with Demir et al. even noting lower rejection rates in the SGLT2i group [<citation rid=\"CR41\" ref-type=\"bibr\" doi=\"10.1007/s11255-023-03645-7\" pmid=\"37289399\" pmcid=\"PMC10248967\" count=\"1\">41</citation>]. <sentence_start/>Genital mycotic infections were not consistently reported across studies; where reported, incidence appeared low, though underreporting cannot be excluded. <sentence_start/>No cases of diabetic ketoacidosis or euglycemic ketoacidosis were reported in the included studies. <sentence_start/>Acute kidney injury and volume depletion were not systematically reported but no signal was detected in individual studies."
+  },
+  {
+   "section": "article",
+   "text": "Mechanistic rationale and clinical context"
+  },
+  {
+   "section": "article",
+   "text": "The biological plausibility of SGLT2 inhibitor efficacy in post-transplant hypertension is supported by their mechanism of action. <sentence_start/>Calcineurin inhibitors, the cornerstone of immunosuppression, induce sodium retention, renal vasoconstriction, and sympathetic activation [<citation rid=\"CR70\" ref-type=\"bibr\" doi=\"10.1038/nm.2497\" pmid=\"21963515\" pmcid=\"PMC3192268\" count=\"1\">70</citation>, <citation rid=\"CR71\" ref-type=\"bibr\" doi=\"10.1681/ASN.2006050543\" pmid=\"17035607\" count=\"1\">71</citation>]. <sentence_start/>SGLT2 inhibitors directly counteract these effects through natriuresis, osmotic diuresis with volume contraction, reduced arterial stiffness, and improved endothelial function [<citation rid=\"CR72\" ref-type=\"bibr\" doi=\"10.1152/ajprenal.00208.2003\" pmid=\"14656757\" count=\"1\">72</citation>, <citation rid=\"CR73\" ref-type=\"bibr\" doi=\"10.1111/dom.12572\" pmid=\"26343814\" pmcid=\"PMC5057299\" count=\"1\">73</citation>]. <sentence_start/>Additionally, SGLT2 inhibitors modulate tubuloglomerular feedback through restored sodium delivery to the macula densa, reducing intraglomerular pressure [<citation rid=\"CR74\" ref-type=\"bibr\" doi=\"10.1152/ajprenal.00520.2013\" pmid=\"24226524\" pmcid=\"PMC3920018\" count=\"1\">74</citation>]. <sentence_start/>This may particularly benefit transplanted kidneys exhibiting early hyperfiltration, a phenomenon associated with accelerated chronic injury [<citation rid=\"CR75\" ref-type=\"bibr\" doi=\"10.1038/ki.1996.265\" pmid=\"8743495\" count=\"1\">75</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The variable comparative results for blood pressure outcomes require careful clinical interpretation. <sentence_start/>Background antihypertensive regimens were often intensified during follow-up, potentially masking true differences. <sentence_start/>These findings contextualize SGLT2 inhibitors within the broader landscape of post-transplant hypertension management. <sentence_start/>Current guideline-recommended antihypertensives each carry specific considerations in transplant recipients [<citation rid=\"CR15\" ref-type=\"bibr\" pmid=\"39082471\" doi=\"10.1002/14651858.CD003598.pub3\" pmcid=\"PMC11290053\" count=\"1\">15</citation>, <citation rid=\"CR76\" ref-type=\"bibr\" doi=\"10.1111/j.1600-6143.2009.02834.x\" pmid=\"19845597\" count=\"1\">76</citation>, <citation rid=\"CR77\" ref-type=\"bibr\" doi=\"10.1038/ki.2009.377\" pmid=\"19847156\" count=\"1\">77</citation>]. <sentence_start/>Calcium channel blockers may cause peripheral edema and interact with calcineurin inhibitor metabolism, while renin-angiotensin system inhibitors risk hyperkalemia and acute kidney injury, particularly problematic in patients with marginal allograft function [<citation rid=\"CR78\" ref-type=\"bibr\" doi=\"10.1111/j.1600-6143.2007.01928.x\" pmid=\"17845569\" count=\"1\">78</citation>, <citation rid=\"CR79\" ref-type=\"bibr\" doi=\"10.1097/TP.0b013e3181a9e960\" pmid=\"19584673\" count=\"1\">79</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Limitations and future directions"
+  },
+  {
+   "section": "article",
+   "text": "This study has several important limitations. <sentence_start/>First, this review involved a post-hoc adjustment in the original protocol to include single-arm (pre-post) analyses (a shift necessitated by the lack of comparative analysis).While this allowed for more comprehensive synthesis of the literature, changes observed over time within a single group cannot be interpreted as treatment effects, as they may reflect natural variation, regression to the mean, or changes in concurrent therapies rather than the intervention itself. <sentence_start/>These results should therefore be interpreted with caution and viewed as hypothesis-generating rather than definitive. <sentence_start/>The absence of systematic reporting for key safety endpoints such as genital infections, diabetic ketoacidosis, and acute kidney injury represents a major evidence gap. <sentence_start/>Additionally, inconsistent reporting and adjustment of concomitant antihypertensive therapies across studies introduce residual confounding that may have influenced blood pressure outcomes."
+  },
+  {
+   "section": "article",
+   "text": "In addition, most included studies were observational and carried a serious risk of bias, which further limits causal interpretation. <sentence_start/>Confounding by indication remains a key concern [<citation rid=\"CR80\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2009.03.001\" pmid=\"19457638\" pmcid=\"PMC2789188\" count=\"1\">80</citation>]. <sentence_start/>Although the included randomized controlled trial was of high quality, it was relatively small and of short duration [<citation rid=\"CR34\" ref-type=\"bibr\" doi=\"10.2337/dc19-0093\" pmid=\"30862658\" count=\"1\">34</citation>]. <sentence_start/>There was also considerable variability across studies in patient populations, SGLT2 inhibitor types, background treatments, and follow-up durations, which complicates interpretation. <sentence_start/>Finally, follow-up periods were relatively short, particularly for outcomes such as graft survival and long-term cardiovascular events, which may require several years to fully assess."
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, the majority of included studies evaluated SGLT2 inhibitors in the context of post-transplant diabetes or cardiorenal protection rather than hypertension treatment, and blood pressure outcomes were often secondary and variably measured. <sentence_start/>Changes in concomitant antihypertensive therapy were not consistently reported, introducing potential confounding. <sentence_start/>Our restriction to English-language articles may have introduced language bias, as relevant non-English studies could have been excluded. <sentence_start/>Although we searched clinical trial registries, unpublished or ongoing trials may not have been captured, potentially introducing publication bias."
+  },
+  {
+   "section": "article",
+   "text": "These findings underscore the need for adequately powered randomized controlled trials in kidney transplant recipients with extended follow-up periods to capture effects on graft survival and cardiovascular events. <sentence_start/>Mechanistic sub-studies evaluating effects on calcineurin inhibitor pharmacokinetics, allograft histology, and arterial stiffness would enhance understanding."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "In controlled difference-in-differences analyses, SGLT2 inhibitors did not demonstrate statistically significant blood pressure reductions versus control in kidney transplant recipients. <sentence_start/>Exploratory single-arm analyses suggested modest within-group systolic blood pressure reductions and suggested metabolic effects, with an acceptable safety profile. <sentence_start/>However, most evidence derives from studies in which SGLT2 inhibitors were initiated for diabetes or cardiorenal protection, not for blood pressure control. <sentence_start/>Therefore, these findings characterize blood pressure effects rather than establish efficacy as primary antihypertensive therapy. <sentence_start/>Large randomized controlled trials with blood pressure as a primary endpoint are needed to determine their role in post-transplant hypertension management."
+  },
+  {
+   "section": "article",
+   "text": "Supplementary Information"
+  },
+  {
+   "section": "article",
+   "text": "Below is the link to the electronic supplementary material."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "CKD"
+  },
+  {
+   "section": "back",
+   "text": "Chronic kidney disease"
+  },
+  {
+   "section": "back",
+   "text": "ESRD"
+  },
+  {
+   "section": "back",
+   "text": "End-stage renal disease"
+  },
+  {
+   "section": "back",
+   "text": "KTR(s)"
+  },
+  {
+   "section": "back",
+   "text": "Kidney transplant recipient(s)"
+  },
+  {
+   "section": "back",
+   "text": "SGLT2"
+  },
+  {
+   "section": "back",
+   "text": "Sodium-glucose cotransporter-2"
+  },
+  {
+   "section": "back",
+   "text": "SGLT2i"
+  },
+  {
+   "section": "back",
+   "text": "Sodium-glucose cotransporter-2 inhibitor(s)"
+  },
+  {
+   "section": "back",
+   "text": "BP"
+  },
+  {
+   "section": "back",
+   "text": "Blood pressure"
+  },
+  {
+   "section": "back",
+   "text": "SBP"
+  },
+  {
+   "section": "back",
+   "text": "Systolic blood pressure"
+  },
+  {
+   "section": "back",
+   "text": "DBP"
+  },
+  {
+   "section": "back",
+   "text": "Diastolic blood pressure"
+  },
+  {
+   "section": "back",
+   "text": "eGFR"
+  },
+  {
+   "section": "back",
+   "text": "Estimated glomerular filtration rate"
+  },
+  {
+   "section": "back",
+   "text": "HbA1c"
+  },
+  {
+   "section": "back",
+   "text": "Glycated hemoglobin"
+  },
+  {
+   "section": "back",
+   "text": "UTI"
+  },
+  {
+   "section": "back",
+   "text": "Urinary tract infection"
+  },
+  {
+   "section": "back",
+   "text": "RCT"
+  },
+  {
+   "section": "back",
+   "text": "Randomized controlled trial"
+  },
+  {
+   "section": "back",
+   "text": "PRISMA"
+  },
+  {
+   "section": "back",
+   "text": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses"
+  },
+  {
+   "section": "back",
+   "text": "PROSPERO"
+  },
+  {
+   "section": "back",
+   "text": "International Prospective Register of Systematic Reviews"
+  },
+  {
+   "section": "back",
+   "text": "IRB"
+  },
+  {
+   "section": "back",
+   "text": "Institutional review board"
+  },
+  {
+   "section": "back",
+   "text": "RoB 2"
+  },
+  {
+   "section": "back",
+   "text": "Cochrane Risk of Bias Tool, Version 2"
+  },
+  {
+   "section": "back",
+   "text": "ROBINS-I"
+  },
+  {
+   "section": "back",
+   "text": "Risk of Bias in Non-Randomized Studies of Interventions"
+  },
+  {
+   "section": "back",
+   "text": "JBI"
+  },
+  {
+   "section": "back",
+   "text": "Joanna Briggs Institute"
+  },
+  {
+   "section": "back",
+   "text": "SD"
+  },
+  {
+   "section": "back",
+   "text": "Standard deviation"
+  },
+  {
+   "section": "back",
+   "text": "SE"
+  },
+  {
+   "section": "back",
+   "text": "Standard error"
+  },
+  {
+   "section": "back",
+   "text": "MDCFB"
+  },
+  {
+   "section": "back",
+   "text": "Mean difference of change from baseline"
+  },
+  {
+   "section": "back",
+   "text": "DiD"
+  },
+  {
+   "section": "back",
+   "text": "Difference in differences"
+  },
+  {
+   "section": "back",
+   "text": "GIV"
+  },
+  {
+   "section": "back",
+   "text": "Generic inverse variance"
+  },
+  {
+   "section": "back",
+   "text": "HK"
+  },
+  {
+   "section": "back",
+   "text": "Hartung-Knapp"
+  },
+  {
+   "section": "back",
+   "text": "I<sup>2</sup>"
+  },
+  {
+   "section": "back",
+   "text": "Higgins\u2019 heterogeneity statistic"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Publisher's Note</bold>"
+  },
+  {
+   "section": "back",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+  },
+  {
+   "section": "back",
+   "text": "Abdullah Ahmad and Muhammad Hasnain Mankani contributed equally to this work."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "A.A. and M.H.M. conceived and designed the study, conducted the literature search, performed study selection, and wrote the main manuscript text. <sentence_start/>A.A., M.I., and M.B. extracted data and performed quality and risk-of-bias assessments. <sentence_start/>S.V. and M.A.N. conducted the statistical analyses and prepared the figures and tables. <sentence_start/>A.A.K., M.K., and A.S.A. provided critical methodological input and supervised the study. <sentence_start/>A.S.A. provided senior oversight and final approval of the manuscript. <sentence_start/>All authors critically reviewed the manuscript and approved the final version for submission."
+  },
+  {
+   "section": "back",
+   "text": "Funding"
+  },
+  {
+   "section": "back",
+   "text": "This study received no external funding."
+  },
+  {
+   "section": "back",
+   "text": "Data availability"
+  },
+  {
+   "section": "back",
+   "text": "All data analyzed in this study were derived from published articles and publicly available sources. <sentence_start/>Extracted data used for the analyses are available from the corresponding author upon reasonable request."
+  },
+  {
+   "section": "back",
+   "text": "Declarations"
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare no competing interests."
+  },
+  {
+   "section": "back",
+   "text": "Artificial intelligence disclosure"
+  },
+  {
+   "section": "back",
+   "text": "The authors declare that no artificial intelligence tools were used in the preparation of this manuscript."
+  }
+ ]
+}

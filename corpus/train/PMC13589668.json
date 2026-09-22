@@ -1,0 +1,375 @@
+{
+ "pmid": 42544645,
+ "pmcid": 13589668,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Hospice Care in the Era of AI: Hospices' Views on Data-Driven Tools to Support Live Discharge Decisions"
+  },
+  {
+   "section": "abstract",
+   "text": "ABSTRACT"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Live discharge occurs for 20% of hospice enrollees, resulting in loss of support and disruptive care transitions, with higher risk for patients with Alzheimer's disease and related dementias (ADRD). <sentence_start/>Little is understood about how data-driven clinical decision support tools (e.g., predictive algorithms) might support decision making regarding live discharge. <sentence_start/>As hospices adopt value-based care, identifying opportunities and challenges for data-driven tools to predict and support live discharge holds great potential to support hospice patients and their caregivers."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "Semi-structured interviews were conducted with 20 hospice leaders in clinical care, quality, and data science at seven non-profit United States hospices. <sentence_start/>Four-step rapid analysis and deductive approaches were used to summarize interview content in response to research questions and identify cross-organizational themes."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Participants identified multilevel-individual and family, organizational, community, and system-challenges and facilitators to support patients following live discharge. <sentence_start/>Families dealing with ADRD face a heavier care burden but also access ADRD-specific programs. <sentence_start/>Participants expressed strong interest in using predictive tools to identify patients at increased risk for live discharge and either support them to remain in hospice or facilitate robust discharge planning. <sentence_start/>Participants emphasized the importance of tool specification and clinical workflow integration to make predictive tools useful and impactful."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "Hospices face barriers to support hospice patients and caregivers experiencing burden and suboptimal outcomes following live discharge. <sentence_start/>Predictive modeling could be a potentially powerful tool to facilitate support for patients discharged alive, provided they are accurately specified and thoughtfully integrated into clinical workflows."
+  },
+  {
+   "section": "abstract",
+   "text": "Summary"
+  },
+  {
+   "section": "abstract",
+   "text": "Key points"
+  },
+  {
+   "section": "abstract",
+   "text": "\u25cb"
+  },
+  {
+   "section": "abstract",
+   "text": "Hospice patients and organizations face individual-, family-, organizational-, and community-level challenges following live discharge. <sentence_start/>Patients living with ADRD and their families face unique challenges related to caregiving needs and burden and variable access to primary and specialty physicians and other supportive services."
+  },
+  {
+   "section": "abstract",
+   "text": "\u25cb"
+  },
+  {
+   "section": "abstract",
+   "text": "Although not currently in use, hospices are interested in leveraging data-driven tools to identify patients at risk for live discharge early and either (1) make a case for continued hospice enrollment or (2) provide additional support through the live discharge process. <sentence_start/>The former can be particularly relevant when ADRD is present."
+  },
+  {
+   "section": "abstract",
+   "text": "\u25cb"
+  },
+  {
+   "section": "abstract",
+   "text": "To be useful, data-driven tools must be trusted and perceived useful by clinicians, rely on accurate data, and be seamlessly incorporated into clinical workflows."
+  },
+  {
+   "section": "abstract",
+   "text": "Why does this paper matter?"
+  },
+  {
+   "section": "abstract",
+   "text": "\u25cb"
+  },
+  {
+   "section": "abstract",
+   "text": "This paper advances our understanding of multilevel factors hospices face in supporting patients discharged alive. <sentence_start/>It establishes hospices' interest in adopting data-driven tools to support live discharge and outlines criteria for successful development and implementation of these tools."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Approximately 20% of hospice patients disenroll before dying, experiencing what is called a live discharge [<citation rid=\"jgs70621-bib-0001\" ref-type=\"bibr\" count=\"1\">1</citation>]. <sentence_start/>Live discharge is an unintended consequence: individuals enroll in hospice with the expectation they are terminally ill with 6 months or less to live and will remain with hospice until they die [<citation rid=\"jgs70621-bib-0002\" ref-type=\"bibr\" count=\"1\">2</citation>]. <sentence_start/>However, patients can be discharged alive due to condition stabilization, which is initiated by the hospice agency, or from their own decision to pursue disease-directed therapies (patient-initiated discharge), which Medicare will not typically pay for simultaneously with comfort-focused end-of-life care [<citation rid=\"jgs70621-bib-0003\" ref-type=\"bibr\" doi=\"10.1111/jgs.16242\" pmcid=\"PMC7056492\" pmid=\"31750935\" count=\"1\">3</citation>, <citation rid=\"jgs70621-bib-0004\" ref-type=\"bibr\" doi=\"10.1111/jgs.14859\" pmid=\"28295138\" count=\"1\">4</citation>]. <sentence_start/>Despite close monitoring of live discharge by the Centers for Medicare &amp; Medicaid Services and public reporting of hospices' live discharge rates [<citation rid=\"jgs70621-bib-0005\" ref-type=\"bibr\" count=\"1\">5</citation>, <citation rid=\"jgs70621-bib-0006\" ref-type=\"bibr\" doi=\"10.1215/03616878-3620893\" pmid=\"27127256\" count=\"1\">6</citation>], live discharge rates have remained in the 16%-20% range since 2010, rising annually since 2020 [<citation rid=\"jgs70621-bib-0001\" ref-type=\"bibr\" count=\"1\">1</citation>, <citation rid=\"jgs70621-bib-0007\" ref-type=\"bibr\" doi=\"10.1089/jpm.2013.0595\" pmid=\"25101752\" count=\"1\">7</citation>, <citation rid=\"jgs70621-bib-0008\" ref-type=\"bibr\" count=\"1\">8</citation>, <citation rid=\"jgs70621-bib-0009\" ref-type=\"bibr\" count=\"1\">9</citation>]. <sentence_start/>Patients living with Alzheimer's disease and related dementias (ADRD) are at greater risk-about one in four experience a live discharge-most often due to hospice-initiated discharge following long lengths of stay and stabilization, owing in part to difficult prognostication and slower disease progression [<citation rid=\"jgs70621-bib-0010\" ref-type=\"bibr\" doi=\"10.1177/10499091231168401\" pmcid=\"PMC10763573\" pmid=\"36977504\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Regardless of reason, live discharge is broadly understood to be a negative experience [<citation rid=\"jgs70621-bib-0011\" ref-type=\"bibr\" doi=\"10.1089/jpm.2024.0337\" pmcid=\"PMC12677210\" pmid=\"39291354\" count=\"1\">11</citation>], resulting in loss of medication, access to durable medical equipment, and hospice services such as nursing and social work [<citation rid=\"jgs70621-bib-0012\" ref-type=\"bibr\" doi=\"10.1016/j.ahj.2012.03.006\" pmid=\"22709751\" count=\"1\">12</citation>, <citation rid=\"jgs70621-bib-0013\" ref-type=\"bibr\" doi=\"10.1089/jpm.2014.0228\" pmid=\"25719562\" count=\"1\">13</citation>]. <sentence_start/>Individuals discharged from hospice may experience burdensome care transitions, including multiple hospitalizations and hospice readmission [<citation rid=\"jgs70621-bib-0014\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.11520\" pmcid=\"PMC11099680\" pmid=\"38753329\" count=\"1\">14</citation>]. <sentence_start/>Over half of patients discharged alive die within 6 months [<citation rid=\"jgs70621-bib-0015\" ref-type=\"bibr\" doi=\"10.1007/s11606-023-08031-8\" pmcid=\"PMC10406979\" pmid=\"36650330\" count=\"1\">15</citation>]. <sentence_start/>Hospitalization, hospice readmission, and death within 6 months indicate uninterrupted hospice care would have been appropriate for these individuals. <sentence_start/>Patients living with ADRD have higher odds of emergency department use and lower odds of readmission to hospice following live discharge [<citation rid=\"jgs70621-bib-0015\" ref-type=\"bibr\" doi=\"10.1007/s11606-023-08031-8\" pmcid=\"PMC10406979\" pmid=\"36650330\" count=\"1\">15</citation>]. <sentence_start/>Substantial support needs among persons living with ADRD after live discharge result in high caregiver burden and burnout [<citation rid=\"jgs70621-bib-0016\" ref-type=\"bibr\" doi=\"10.1080/01634372.2016.1272075\" pmid=\"27997295\" count=\"1\">16</citation>]. <sentence_start/>Previous research on hospice live discharge practices indicates hospices often lack formal processes to ensure patient needs are met following discharge [<citation rid=\"jgs70621-bib-0017\" ref-type=\"bibr\" doi=\"10.1093/hsw/hly040\" pmid=\"30561640\" count=\"1\">17</citation>], particularly when the live discharge notice period is not sufficient to put adequate post-discharge supports in place. <sentence_start/>Hospice clinicians describe live discharge as causing them moral distress and to feel they abandoned the patient and families [<citation rid=\"jgs70621-bib-0017\" ref-type=\"bibr\" doi=\"10.1093/hsw/hly040\" pmid=\"30561640\" count=\"1\">17</citation>, <citation rid=\"jgs70621-bib-0018\" ref-type=\"bibr\" doi=\"10.1016/j.pec.2021.01.002\" pmcid=\"PMC8726000\" pmid=\"33454147\" count=\"1\">18</citation>, <citation rid=\"jgs70621-bib-0019\" ref-type=\"bibr\" doi=\"10.1016/j.jpainsymman.2022.02.286\" count=\"1\">19</citation>]. <sentence_start/>Given variation in hospice live discharge experiences and potential negative impacts on patients, families, and clinicians, live discharge guidelines and robust discharge practices are needed [<citation rid=\"jgs70621-bib-0017\" ref-type=\"bibr\" doi=\"10.1093/hsw/hly040\" pmid=\"30561640\" count=\"1\">17</citation>, <citation rid=\"jgs70621-bib-0020\" ref-type=\"bibr\" doi=\"10.1177/23337214221109984\" pmcid=\"PMC9280841\" pmid=\"35846976\" count=\"1\">20</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Predictive algorithms could be a clinical decision support tool to help hospice agencies identify patients at increased risk for live discharge and adverse outcomes after discharge, providing an early signal of a need for robust discharge planning. <sentence_start/>Several predictive algorithms based on administrative data, electronic health data, or other datasets are used to identify individuals at increased risk of mortality and who may be eligible for palliative or hospice care [<citation rid=\"jgs70621-bib-0021\" ref-type=\"bibr\" doi=\"10.1186/s12911-018-0677-8\" pmcid=\"PMC6290509\" pmid=\"30537977\" count=\"1\">21</citation>, <citation rid=\"jgs70621-bib-0022\" ref-type=\"bibr\" doi=\"10.37765/ajmc.2021.88578\" pmid=\"33471463\" count=\"1\">22</citation>]. <sentence_start/>Although these tools may be useful in clinical and care decision-making at the end of life [<citation rid=\"jgs70621-bib-0023\" ref-type=\"bibr\" doi=\"10.7763/IJMLC.2015.V5.506\" pmcid=\"PMC5176360\" pmid=\"28018571\" count=\"1\">23</citation>], to our knowledge, no predictive algorithms have been developed or deployed in decision-making regarding hospice enrollees, such as supporting live discharge decisions and discharge planning. <sentence_start/>Existing research identifying predictors of live discharge and post-discharge outcomes among hospice patients provides an important empirical foundation for developing more advanced predictive algorithms for this context [<citation rid=\"jgs70621-bib-0014\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.11520\" pmcid=\"PMC11099680\" pmid=\"38753329\" count=\"1\">14</citation>, <citation rid=\"jgs70621-bib-0024\" ref-type=\"bibr\" doi=\"10.1111/jgs.18505\" pmcid=\"PMC10771532\" pmid=\"37417691\" count=\"1\">24</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Development and implementation of predictive algorithms for hospice enrollees need to align with the existing efforts, procedures, and practices hospice agencies use to identify and support patients at risk of live discharge. <sentence_start/>However, little is known about the processes agencies currently employ to identify patients at heightened risk. <sentence_start/>Understanding this existing landscape is essential to ensuring predictive tools are feasible, acceptable, and designed to complement-rather than disrupt-current efforts to support live discharge decision-making and post-discharge planning. <sentence_start/>This study aims to address these gaps by answering the questions: (1) What are barriers and facilitators hospice agencies encounter in supporting individuals experiencing live discharge and their families? (2) What is the potential for data-driven tools (e.g., predictive algorithms) in identifying individuals at increased risk of live discharge? (3) What issues need to be addressed for hospices to incorporate data-driven tools into workflows? Given the increased risk for live discharge and subsequent poor outcomes, especially among individuals living with ADRD and their caregivers, we highlight issues specific to this patient population throughout the analysis."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Study Design and Sample"
+  },
+  {
+   "section": "article",
+   "text": "This study used purposive sampling to identify 20 hospice employees at seven not-for-profit hospice agencies serving individuals in 11 states to conduct semi-structured interviews between November 2024 and July 2025. <sentence_start/>Consistent with the goal of purposive sampling [<citation rid=\"jgs70621-bib-0025\" ref-type=\"bibr\" count=\"1\">25</citation>], participants were chosen if their hospice agency role encompassed one or more of the following: clinical care oversight, clinical operations, quality control or improvement, and data science or technology."
+  },
+  {
+   "section": "article",
+   "text": "Study team members relied first on their networks with hospice agencies and then used snowball sampling to identify additional hospice agencies and individuals within an agency to approach for participation. <sentence_start/>The study team invited participants by email to participate in a 1-h video conference interview about managing live discharge and post-discharge burdensome transitions, particularly patients with ADRD. <sentence_start/>Additional agencies and employees were recruited until thematic saturation was reached. <sentence_start/>Two members of the study team (EAL and KGS) conducted each interview. <sentence_start/>After obtaining oral informed consent, (KGS) conducted the interview and (EAL) took detailed notes, asking clarifying questions as needed. <sentence_start/>Interviews lasted 29-59 min (average: 47 min) and were audio recorded and transcribed using automated transcription. <sentence_start/>Transcripts were checked by study team members and identifying information removed. <sentence_start/>Participants received a $100 gift card for their time."
+  },
+  {
+   "section": "article",
+   "text": "The study team (YZ, EAL) developed the interview guide based on the research objectives. <sentence_start/>Participants described their experience with hospice live discharge, leading reasons for live discharge at their agency, perspectives on challenges and initiatives supporting individuals experiencing live discharge, and current and potential utility of data-driven tools to identify individuals at risk of live discharge, inform clinical care, and facilitate support for discharged patients. <sentence_start/>We aimed to identify information about what a predictive algorithm should include and predict and, if developed, how it should be formatted and implemented. <sentence_start/>We asked participants about the general and ADRD hospice populations (See interview guide in Supporting Information). <sentence_start/>Study procedures were approved by the [Rutgers University] Institutional Review Board. <sentence_start/>To protect participant confidentiality, only first name, last initial, and job title were collected. <sentence_start/>All study records were securely stored on password-protected servers."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Data Analysis"
+  },
+  {
+   "section": "article",
+   "text": "We analyzed interview data using a four-step rapid analysis approach, which is appropriate for studies like this with a short timeframe and limited resources [<citation rid=\"jgs70621-bib-0026\" ref-type=\"bibr\" doi=\"10.1186/s13012-019-0853-y\" pmcid=\"PMC6359833\" pmid=\"30709368\" count=\"1\">26</citation>]. <sentence_start/>This approach also supports our deductive analysis approach to answer our research questions. <sentence_start/>First, during each interview, (EAL) took detailed notes in a template based on the interview questions and tailored to capture key points, including illustrative quotes. <sentence_start/>Second, immediately following the interview, the template was reviewed, alongside the transcript, by (KGS) for accuracy and to identify additional key information not initially captured. <sentence_start/>Third, after all interviews at a hospice agency were conducted, (EAL and KGS) consolidated interview summaries for each hospice into a second template designed to capture broad themes and subthemes. <sentence_start/>Fourth, (EAL and KGS) identified cross-cutting themes across hospice organizations. <sentence_start/>Mentions of ADRD-specific needs and responses were noted at all stages of analysis."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Participants included thirteen women and seven men, seven chief medical officers, six clinical operations leads, four quality/safety leads, and three data scientists or technology leads. <sentence_start/>At the time of their interview, participants worked at seven not-for-profit hospice agencies: two Northeastern, two Southern, two Western, and one Midwestern. <sentence_start/>The hospices served individuals in 11 states. <sentence_start/>One hospice operated in an urban setting, one rural, two urban/suburban, and three both urban and rural. <sentence_start/>Average daily hospice census ranged from 110 to 5800. <sentence_start/>Five hospices operated in one state, one in two states, and one in five states. <sentence_start/>No observed themes applied only to patients with ADRD. <sentence_start/>Some challenges and responses were more common among this population as noted below."
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Question 1: Supporting Patients and Families Experiencing Live Discharge"
+  },
+  {
+   "section": "article",
+   "text": "3.1.1"
+  },
+  {
+   "section": "article",
+   "text": "Challenges"
+  },
+  {
+   "section": "article",
+   "text": "Participants indicated sometimes live discharge was inevitable, particularly when patients desired curative treatment. <sentence_start/>However, no participant characterized live discharge as desirable. <sentence_start/>Participants wanted patients and families to be supported following live discharge and identified several challenges patients and families often experience. <sentence_start/>Participant perspectives were based on experiences with patients and families, including upon hospice readmission, and/or knowledge from working closely with individuals providing hospice care. <sentence_start/>We grouped challenges into individual/family, hospice organization, and broader community/system levels. <sentence_start/>Participants emphasized their hospices worked to address challenges but felt limited in providing support once patients were not formally affiliated with the organization. <sentence_start/>We describe themes below and summarize in Figure 1. <sentence_start/>Example quotations in Table 1 illustrate themes."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 1"
+  },
+  {
+   "section": "article",
+   "text": "Multilevel challenges and facilitators to supporting patients experiencing hospice live discharge."
+  },
+  {
+   "section": "article",
+   "text": "At the individual and family level, challenges related to immediate loss of hospice team support. <sentence_start/>This included instrumental support such as the loss of equipment, home health aides, and medication (Theme 1.1) and support services (Theme 1.2). <sentence_start/>Loss of clinical expertise and regular nurse visits can result in changes in patients' status (e.g., changes in eating, wound decompensation, early stages of a urinary tract infection) not being identified, resulting in emergency department visits and hospitalization and are indicators of appropriateness for hospice reenrollment (Theme 1.3). <sentence_start/>Many patients face increased isolation and inadequate caregiver support, particularly if residing alone (Theme 1.4). <sentence_start/>Family members also face increased social isolation and caregiver burden following live discharge, especially with ADRD, where patient personal care needs are extensive (Theme 1.5)."
+  },
+  {
+   "section": "article",
+   "text": "Hospice organizations face challenges establishing robust discharge plans to adequately support discharged patients and families. <sentence_start/>Participants cited the inability to monitor patients following live discharge: data on discharged patients is not typically collected by hospice agencies or may not be accessible to them (Theme 1.6). <sentence_start/>When hospices have programs to follow patients after live discharge, these programs may be unstable and dependent on variable funding sources, limiting their scope and size (Theme 1.7)."
+  },
+  {
+   "section": "article",
+   "text": "At community and system levels, discharged patients and families face challenges accessing clinical providers to support continuity of care (Theme 1.8). <sentence_start/>This includes limited access to prescribers with expertise to manage symptoms and pharmacies willing to dispense medications. <sentence_start/>For example, opioids, antipsychotics, and benzodiazepines are medications commonly used in hospice and palliative care. <sentence_start/>However, regulations responding to the opioid crisis and safety in long-term care facilities result in limited access. <sentence_start/>Patients living with ADRD may face additional challenges in establishing care with a local physician with dementia expertise. <sentence_start/>Community resources or other programs may be limited geographically, especially in rural areas. <sentence_start/>Available programs may have strict eligibility requirements (Theme 1.9). <sentence_start/>For example, the GUIDE program, which supports persons living with ADRD, is not universally available and has eligibility criteria that some patients may not meet."
+  },
+  {
+   "section": "article",
+   "text": "3.1.2"
+  },
+  {
+   "section": "article",
+   "text": "Facilitators"
+  },
+  {
+   "section": "article",
+   "text": "Participants identified fewer facilitators available to support patients and families following live discharge. <sentence_start/>Figure 1 summarizes themes and Table 2 provides example quotations. <sentence_start/>At the individual level, they observed some families have knowledge, social connections, and financial means to provide ongoing support to their loved one following hospice discharge (Theme 2.1). <sentence_start/>At the hospice organization level, discharged patients could be referred to other services the organization provides-such as palliative care, physician house call programs, or GUIDE (for patients living with ADRD)-to continue support and engagement with patients and families (Theme 2.2). <sentence_start/>Some hospices had experience setting up systems to proactively follow up with discharged patients and for families to reengage with hospice when needed (Theme 2.3). <sentence_start/>These follow-up and reengagement programs tended to be led by business development, rather than clinical, teams within hospice organizations. <sentence_start/>At the community and system levels, some hospices activated ongoing relationships with physicians in the local community, geriatrics departments at neighboring universities, skilled nursing and assisted living facilities, and community case management programs to ease discharged patients' transitions in care (Theme 2.4)."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Question 2: Potential for Data-Driven Clinical Decision Support Tools to Identify Patients at Risk for Live Discharge"
+  },
+  {
+   "section": "article",
+   "text": "Most participants worked for hospices that did not use data-driven clinical decision support tools relating to live discharge. <sentence_start/>When used, the tool reflected past trends rather than predicting future outcomes. <sentence_start/>Existing tools also presented issues with accessibility, availability, and the quality and synthesizability of data."
+  },
+  {
+   "section": "article",
+   "text": "There are literally, I'm not kidding you, hundreds and hundreds of different insights and things we track. <sentence_start/>Too many, to the point where it's become actually overwhelming from a data to make decisions\u2026 So, we struggle more with having too many things that people have asked for over the years and trying to turn that data, information, knowledge to wisdom in a better funnel. <sentence_start/>Our funnel's way too big. <sentence_start/>(Data Science)"
+  },
+  {
+   "section": "article",
+   "text": "All participants indicated clinical decision support tools such as a predictive algorithm, if carefully engineered, could help identify patients at increased risk for live discharge in two ways. <sentence_start/>First, identifying individuals at increased risk could support early and robust discharge planning:"
+  },
+  {
+   "section": "article",
+   "text": "I mean literally using this tool could influence the plan of-it could at the very least help better the discharge, versus keeping them on. <sentence_start/>I mean, I can't always say that it's going to keep them on, but could it guide us to a better discharge plan? (Clinical Operations)"
+  },
+  {
+   "section": "article",
+   "text": "I think, you know, it provides useful clinical information for our decision-making, but also, you know, because we're constantly balancing doing the right thing clinically, and also complying with the regulations. <sentence_start/>If we had, you know, a research-validated tool where we could say, \u2018Look, we applied this index, and it really shows that this patient has a greater than 50% chance of living more than the next six months.<sentence_start/>\u2019 Then that, you know, sort of bolsters our decision-making to have to discharge that person in a regulatory sense. <sentence_start/>(Medical Director)"
+  },
+  {
+   "section": "article",
+   "text": "Second, it could help identify individuals who may need to remain enrolled in hospice, for example, if they are likely to end up hospitalized following discharge, signaling where additional resources may be deployed to carefully document ongoing decline:"
+  },
+  {
+   "section": "article",
+   "text": "I would love to have some kind of a tool to justify when it was appropriate to keep those patients on hospice and when it is not. <sentence_start/>It's that million-dollar question. <sentence_start/>Well, how long does he have? Well, I don't know. <sentence_start/>Weeks to months, months to years, days to weeks, hours to days. <sentence_start/>It just depends on what we're seeing, that sometimes even if you can't put your finger on it, you just know they're going in the wrong direction. <sentence_start/>It would be nice to have some kind of objective or clinical infrastructure to build a case on to keep these patients on hospice longer. <sentence_start/>(Clinical Operations)"
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Question 3: Successful Incorporation of Data-Driven Tools Into Clinical Workflows"
+  },
+  {
+   "section": "article",
+   "text": "Participants provided varied feedback on important considerations for building a clinical decision support tool predicting hospice live discharge. <sentence_start/>They named a variety of potential users, including clinical managers, leadership, quality assurance, hospice team members, and potentially individuals in hospital palliative care and primary care who refer patients to hospice. <sentence_start/>They identified several individual data points to draw upon in building a tool, but emphasized inputs should rely on clean, consistently collected, clinically meaningful data. <sentence_start/>Participants also differed in what they wanted the tool to tell them in addition to live discharge risk, including short-term mortality and hospitalization risk. <sentence_start/>Finally, they indicated it would be helpful to predict outcomes within short timeframes (e.g., days or weeks), although months may be useful in some cases."
+  },
+  {
+   "section": "article",
+   "text": "3.3.1"
+  },
+  {
+   "section": "article",
+   "text": "Implementation Challenges"
+  },
+  {
+   "section": "article",
+   "text": "Participants identified possible challenges to implementing predictive algorithms into clinical workflows, should one be developed and deployed (see Figure 2 for summary and Table 3 for exemplar quotations). <sentence_start/>Trust in model validity was the most consistently identified issue: it would be important users believed the model was accurately and consistently measuring what was intended (Theme 3.1). <sentence_start/>They expressed the importance of access to sufficient and consistent data, particularly with ADRD, when data sparsity is common, making it difficult to predict prognosis and trajectory with specificity and sensitivity (Theme 3.2). <sentence_start/>Participants identified challenges getting clinical staff to use the model, emphasizing the need to obtain buy-in related to clinicians' understanding of its relevance, ensure clinical literacy in how to use it, provide training and ongoing support, and minimize burden from additional documentation to provide data (Theme 3.3). <sentence_start/>Finally, they indicated the importance of integrating the algorithm into existing clinical workflows, particularly the electronic medical record (Theme 3.4)."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 2"
+  },
+  {
+   "section": "article",
+   "text": "Elements hospice administrators identified for successful incorporation of data driven tools for live discharge into hospice clinical workflows."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study examined challenges and facilitators to hospices supporting the nearly 20% of patients experiencing a live discharge and the potential for data-driven predictive algorithms as clinical decision support tools for supporting patients at increased risk of live discharge. <sentence_start/>Findings suggest increased burden and hardship following live discharge are common among hospice enrollees, and individuals with ADRD may face additional challenges such as considerable personal care needs. <sentence_start/>Based on direct experiences providing hospice care and/or knowledge gained working closely with hospice clinicians, participants identified individual and family challenges (e.g., loss of equipment and hospice support, increased patient and caregiver isolation) others documented [<citation rid=\"jgs70621-bib-0013\" ref-type=\"bibr\" doi=\"10.1089/jpm.2014.0228\" pmid=\"25719562\" count=\"1\">13</citation>, <citation rid=\"jgs70621-bib-0016\" ref-type=\"bibr\" doi=\"10.1080/01634372.2016.1272075\" pmid=\"27997295\" count=\"1\">16</citation>]. <sentence_start/>Participants provided additional context about how hospice agency and community and system level factors can facilitate or hamper post discharge outcomes. <sentence_start/>While clinical, caregiving, and social support may mitigate hardships individuals and families experience, access to these supports is often limited and dependent on community resources and eligibility criteria for supportive programs. <sentence_start/>Some hospices can mitigate these challenges and maintain ongoing contact with discharged patients, especially if they can refer patients to other programs (e.g., palliative care) their organization provides. <sentence_start/>Patients living with ADRD are at increased risk for hospice-initiated live discharge and poor outcomes following hospice discharge, including difficulty finding clinicians with expertise in ADRD. <sentence_start/>Their families carry additional burden because of the high level of end-of-life care needs in this population. <sentence_start/>However, programs like GUIDE, when available, may provide support to mitigate post-discharge difficulties."
+  },
+  {
+   "section": "article",
+   "text": "Clinical, quality, and data science leadership at hospices expressed strong interest in using data-driven clinical support tools to predict and manage live discharge, should one be developed. <sentence_start/>However, hospices have heterogeneous needs with respect to these tools. <sentence_start/>Any tool developed to support patients at increased risk for live discharge should consider this variability. <sentence_start/>Consistent with previous work identifying perceived variation in predictive models' accuracy for patients with different diagnoses and care use patterns [<citation rid=\"jgs70621-bib-0027\" ref-type=\"bibr\" doi=\"10.1016/j.pecinn.2024.100313\" pmcid=\"PMC11260570\" pmid=\"39040661\" count=\"1\">27</citation>], a \u201cone size fits all\u201d approach may not be appropriate. <sentence_start/>Tool development and integration may depend on hospice size, patient profiles, and hospice relationships with local health systems and community programs. <sentence_start/>Obtaining clinician trust in a predictive tool and integrating it into existing electronic medical record systems are also critical to successful adoption [<citation rid=\"jgs70621-bib-0028\" ref-type=\"bibr\" doi=\"10.1177/10499091241302044\" pmcid=\"PMC12865692\" pmid=\"39560634\" count=\"1\">28</citation>, <citation rid=\"jgs70621-bib-0029\" ref-type=\"bibr\" pmid=\"39466948\" count=\"1\">29</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Participants identified two potential functions of these tools. <sentence_start/>First, identifying individuals at increased risk for live discharge and subsequent transitions in care (e.g., hospitalization) may help hospice organizations allocate additional resources needed to make a compelling case for continued hospice enrollment, particularly with ADRD, where prognosis is difficult and trajectories are prolonged. <sentence_start/>Second, where live discharge is unavoidable or appropriate, early identification of patients who may experience it can provide additional time for comprehensive discharge planning to scaffold support for patients after hospice. <sentence_start/>Participants represented hospice leadership perspectives regarding utility of a predictive tool. <sentence_start/>However, identifying patients at risk for live discharge resulting in maintaining hospice enrollment or more robust discharge planning may also help address bedside clinicians' moral distress resulting from hospice discharge [<citation rid=\"jgs70621-bib-0017\" ref-type=\"bibr\" doi=\"10.1093/hsw/hly040\" pmid=\"30561640\" count=\"1\">17</citation>, <citation rid=\"jgs70621-bib-0018\" ref-type=\"bibr\" doi=\"10.1016/j.pec.2021.01.002\" pmcid=\"PMC8726000\" pmid=\"33454147\" count=\"1\">18</citation>, <citation rid=\"jgs70621-bib-0019\" ref-type=\"bibr\" doi=\"10.1016/j.jpainsymman.2022.02.286\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Most hospices operate in a data-sparse environment. <sentence_start/>In 2022, 86% of hospices were freestanding agencies with limited interoperability [<citation rid=\"jgs70621-bib-0030\" ref-type=\"bibr\" count=\"1\">30</citation>], Their EHRs captured only patient information during the hospice stay without integrating longitudinal information prior to hospice enrollment from hospitals, nursing homes, home health, or other providers [<citation rid=\"jgs70621-bib-0031\" ref-type=\"bibr\" pmid=\"39250585\" count=\"1\">31</citation>]. <sentence_start/>Yet pre-hospice trajectories are strong predictors of live discharge and post-discharge outcomes [<citation rid=\"jgs70621-bib-0014\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2024.11520\" pmcid=\"PMC11099680\" pmid=\"38753329\" count=\"1\">14</citation>, <citation rid=\"jgs70621-bib-0024\" ref-type=\"bibr\" doi=\"10.1111/jgs.18505\" pmcid=\"PMC10771532\" pmid=\"37417691\" count=\"1\">24</citation>], Administrative claims are not available to hospices in a timely manner for clinical decision support. <sentence_start/>Therefore, developing and implementing predictive algorithms requires comprehensive datasets and novel methods to link and synthesize fragmented data sources, recover patients' pre-hospice trajectories, and generate timely, clinically actionable risk estimates that can be embedded into existing hospice discharge planning and care transition workflows."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "This study has limitations. <sentence_start/>All hospices included in our sample were non-profit organizations. <sentence_start/>Their needs may differ from for-profit hospices with different business models. <sentence_start/>Future work should consider the experiences and needs of for-profit hospices. <sentence_start/>We used a purposive sample with participants with relevant experience to answer our research questions. <sentence_start/>Future work should confirm findings in a larger sample to ensure generalizability."
+  },
+  {
+   "section": "article",
+   "text": "6"
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Patient and family outcomes following live hospice discharge are influenced by multilevel factors including personal and family financial resources, hospice organizations' additional services, and availability and accessibility of community-based supportive programs. <sentence_start/>While ADRD involves additional care needs and subsequent family burden when hospice leaves, opportunities exist to support this population through disease-specific programming. <sentence_start/>Provided they are properly specified, easily interpreted, and do not involve burdensome data collection for clinicians, predictive algorithms could be a useful clinical decision support tool to identify patients at increased risk of live discharge. <sentence_start/>They could provide hospices with an opportunity to build a case for ongoing enrollment or provide earlier, more comprehensive discharge planning to support patients and families, and timely hospice re-enrollment as appropriate. <sentence_start/>However, even if well-specified and implemented tools identify early patients at increased risk for live discharge, post-discharge outcomes will depend on family caregiver support and availability and connection with non-hospice services, whether provided by another part of the hospice organization or within the local community."
+  },
+  {
+   "section": "article",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "article",
+   "text": "E.A.L., C.B., Y.Z. secured funding. <sentence_start/>E.A.L., C.B., S.H., Y.Z. created study design. <sentence_start/>E.A.L. and K.G.S. collected and analyzed data. <sentence_start/>E.A.L. drafted manuscript. <sentence_start/>All authors contributed significantly to editing manuscript for publication."
+  },
+  {
+   "section": "article",
+   "text": "Funding"
+  },
+  {
+   "section": "article",
+   "text": "This study was supported by a grant from the National Institutes of Health National Institute on Aging (R56 AG085541)."
+  },
+  {
+   "section": "article",
+   "text": "Disclosure"
+  },
+  {
+   "section": "article",
+   "text": "This study was supported by a grant from the National Institutes of Health National Institute on Aging (R56 AG085541). <sentence_start/>The content of this manuscript is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health."
+  },
+  {
+   "section": "article",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare no conflicts of interest."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Data S1:</bold> Supporting Information."
+  }
+ ]
+}

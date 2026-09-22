@@ -1,0 +1,399 @@
+{
+ "pmid": 42763548,
+ "pmcid": 13589093,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Assessing methodological differences in estimating exposure to intimate-partner violence against women in Brazil: a multi-source observational analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Summary"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Intimate partner violence (IPV) is a global public health issue. <sentence_start/>However, prevalence estimates vary depending on the data source and methodology used. <sentence_start/>This study aimed to assess methodological differences in estimating the prevalence and age distribution of physical and sexual IPV across multiple Brazilian data sources."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "We assessed and analyzed seven Brazilian data sources: five surveys and two administrative datasets. <sentence_start/>Surveys used either the World Health Organization (WHO) instrument on violence against women and adaptations or an adapted version of the Revised Conflict Tactics Scales. <sentence_start/>The analysis included only women aged 16 years or older, and race was not examined. <sentence_start/>Recall periods varied from 12 to 24 months. <sentence_start/>We estimated prevalence and age distribution of physical and sexual IPV with 95% confidence intervals (CIs)."
+  },
+  {
+   "section": "abstract",
+   "text": "Findings"
+  },
+  {
+   "section": "abstract",
+   "text": "The seven sources represented national, regional, and local populations. <sentence_start/>Methodological differences, including questionnaires, interview settings, data collection methods, and recall periods, may explain variation across data sources. <sentence_start/>Among national-level estimates, physical IPV prevalence ranged from 0.4% (0.3-0.7) to 13.0% (8.3-17.8) across data sources and age strata, with all sources consistently showing higher prevalence and proportions among younger women. <sentence_start/>For sexual IPV, no age group pattern emerged in prevalence or proportions."
+  },
+  {
+   "section": "abstract",
+   "text": "Interpretation"
+  },
+  {
+   "section": "abstract",
+   "text": "This study revealed substantial heterogeneity in estimates of IPV prevalence and age distribution. <sentence_start/>Without a gold standard for IPV measurement, these findings underscore the need to interpret available estimates in light of the methodological context in which they were generated."
+  },
+  {
+   "section": "abstract",
+   "text": "Funding"
+  },
+  {
+   "section": "abstract",
+   "text": "The Gates Foundation."
+  },
+  {
+   "section": "article",
+   "text": "Research in context"
+  },
+  {
+   "section": "article",
+   "text": "Evidence before this study"
+  },
+  {
+   "section": "article",
+   "text": "There is no systematic review study available in the literature on the methodological assessment of the exposure estimation of intimate partner violence (IPV) in Brazil. <sentence_start/>Despite this, Brazil is recognized for producing a substantial body of research on violence against women. <sentence_start/>On June 23, 2026, we conducted a search in PubMed without restrictions on language, publication date, or other filters. <sentence_start/>The search strategy \u201cintimate partner violence\u201d AND \u201cBrazil\u201d identified 456 studies. <sentence_start/>Adding AND \u201csystematic review\u201d to the search strategy narrowed the results to 34 studies. <sentence_start/>Among these, most focused on IPV in relation to other outcomes (e.g., cervical cancer, cash transfer programs, orofacial injuries, and HIV) or specific populations (elderly, LGBTQ+ and adolescents). <sentence_start/>Four studies reported supranational prevalence estimates (e.g., the Americas, the Caribbean, and Ibero-America), while three relied on their own methodological approaches, such as the Global Burden of Disease (GBD) framework. <sentence_start/>None of the identified studies included all available data sources from Brazil reporting IPV. <sentence_start/>Previous research indicates that estimates of IPV prevalence can vary greatly depending on the type of data used and the methodological approach. <sentence_start/>Understanding the true extent of IPV exposure remains a challenge, highlighting the need for additional research in this field."
+  },
+  {
+   "section": "article",
+   "text": "Added value of this study"
+  },
+  {
+   "section": "article",
+   "text": "To date, Brazilian studies estimating the exposure to IPV have been published individually. <sentence_start/>Our study assesses multiple data sources used to estimate IPV against women in Brazil and identifies substantial heterogeneity in how IPV is measured. <sentence_start/>Differences in questionnaires, IPV definitions, study populations, and other methodological choices are reflected in the estimates generated by each data source. <sentence_start/>Our findings indicate that these methodological differences may shape the prevalence and age distribution of IPV cases captured by different data sources. <sentence_start/>By assessing these differences across multiple data sources within a single country, this study contributes to a more nuanced understanding of the evidence available on IPV and the challenges involved in interpreting its estimated magnitude."
+  },
+  {
+   "section": "article",
+   "text": "Implications of all the available evidence"
+  },
+  {
+   "section": "article",
+   "text": "Based on methodological differences, we found variability results in the prevalence of physical and sexual IPV and age distribution of cases. <sentence_start/>It is evident that understanding the nuances of different data collection approaches is essential for improving IPV assessments and refining strategies to strengthen public policies globally. <sentence_start/>Brazil\u2019s vast geographic, demographic, and administrative diversity makes it a particularly relevant setting to examine IPV. <sentence_start/>This heterogeneity mirrors the complexity found in many middle-income countries, enhancing the generalizability of findings. <sentence_start/>Key factors influencing measurement include differences in questionnaires, sample sizes, research scope (national, regional, or local), and violence notification systems. <sentence_start/>There is an urgent need to enhance how violence against women is measured, which includes adopting best practices in data collection, standardizing inquiry and survey techniques, and establishing clear guidelines for future initiatives. <sentence_start/>Such advancements are critical to addressing the issue of underreported IPV and obtaining more accurate estimates of the number of women affected. <sentence_start/>Using research methodologies that maximize IPV case identification can produce more reliable data that reflect the true scope of violence against women. <sentence_start/>Ultimately, these improvements are expected to drive substantial policy investments in victim protection, as well as the development of robust detection and prevention strategies for this pervasive health risk factor affecting countless women worldwide."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Intimate partner violence (IPV) is a global public health problem, affecting women of all ages and across socioeconomic conditions.<citation rid=\"bib1\" ref-type=\"bibr\" pmid=\"31870498\" doi=\"10.1016/S0140-6736(19)33136-8\" count=\"1\"><sup>1</sup></citation><sup>,</sup><citation rid=\"bib2\" ref-type=\"bibr\" count=\"1\"><sup>2</sup></citation> <sentence_start/>In 2021, the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) estimated that 22.0% (uncertainty interval [UI] 14.5-24.2) of women aged 15 or older worldwide had experienced physical and/or sexual IPV in their lifetime.<citation rid=\"bib3\" ref-type=\"bibr\" pmid=\"38762324\" doi=\"10.1016/S0140-6736(24)00933-4\" pmcid=\"PMC11120204\" count=\"1\"><sup>3</sup></citation> <sentence_start/>The prevalence was 20.1% (UI 13.8-22.8%) in Latin America and the Caribbean, and 17.3% (UI 10.6-22.0) in Brazil.<citation rid=\"bib2\" ref-type=\"bibr\" count=\"1\"><sup>2</sup></citation> <sentence_start/>Despite being declared a public health priority by the World Health Organization (WHO) in 1996, IPV remains challenging to measure accurately.<citation rid=\"bib4\" ref-type=\"bibr\" count=\"1\"><sup>4</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "These challenges stem from multiple factors that affect measurement and reporting of violence results, such as stigma, safety, confidentiality, and privacy concerns.<citation rid=\"bib5\" ref-type=\"bibr\" count=\"1\"><sup>5</sup></citation><sup>,</sup><citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"35384077\" doi=\"10.1002/jts.22824\" pmcid=\"PMC10658816\" count=\"1\"><sup>6</sup></citation> <sentence_start/>Additionally, variations in data collection methods and interviewing techniques (including interview setting and whether face-to-face, self-administered, or anonymous questionnaires were used) contribute to differences across studies.<citation rid=\"bib7\" ref-type=\"bibr\" count=\"1\">7</citation>, <citation rid=\"bib8\" ref-type=\"bibr\" pmid=\"32204687\" doi=\"10.1177/1077801220908324\" count=\"1\">8</citation>, <citation rid=\"bib9\" ref-type=\"bibr\" pmid=\"25467579\" doi=\"10.1016/S0140-6736(14)61830-4\" count=\"1\">9</citation>, <citation rid=\"bib10\" ref-type=\"bibr\" pmid=\"16595428\" doi=\"10.1136/ip.2005.009563\" pmcid=\"PMC2564437\" count=\"1\">10</citation> Inconsistencies also arise from differences in recall period (lifetime, last two years, or past year), definitions of violence (domestic violence, IPV, sexual, physical, psychological violence), types of perpetrators (anyone, partner, family member, unknown), and inclusion of other forms of violence (e.g., economic, witness, female genital mutilation, cyberviolence).<citation rid=\"bib11\" ref-type=\"bibr\" pmid=\"35182472\" doi=\"10.1016/S0140-6736(21)02664-7\" pmcid=\"PMC8885817\" count=\"1\"><sup>11</sup></citation><sup>,</sup><citation rid=\"bib12\" ref-type=\"bibr\" pmid=\"31093250\" doi=\"10.26633/RPSP.2019.26\" pmcid=\"PMC6425989\" count=\"1\"><sup>12</sup></citation> <sentence_start/>These limitations highlight the persistent challenges in approaching gender-based violence. <sentence_start/>Efforts to improve violence measurement should prioritize standardized survey methodologies and instruments,<citation rid=\"bib13\" ref-type=\"bibr\" count=\"1\"><sup>13</sup></citation><sup>,</sup><citation rid=\"bib14\" ref-type=\"bibr\" count=\"1\"><sup>14</sup></citation> including explicit recall periods and the avoidance of restrictive filter questions.<citation rid=\"bib15\" ref-type=\"bibr\" pmid=\"35650530\" doi=\"10.1186/s12874-022-01634-5\" pmcid=\"PMC9158349\" count=\"1\"><sup>15</sup></citation> <sentence_start/>Another point is that repeated measurement of IPV in longitudinal surveys and clinical settings may provide additional opportunities to identify women exposed to violence.<citation rid=\"bib16\" ref-type=\"bibr\" pmid=\"35428296\" doi=\"10.1186/s12905-022-01697-y\" pmcid=\"PMC9013096\" count=\"1\"><sup>16</sup></citation><sup>,</sup><citation rid=\"bib17\" ref-type=\"bibr\" pmid=\"31664906\" doi=\"10.1186/s12874-019-0835-4\" pmcid=\"PMC6819634\" count=\"1\"><sup>17</sup></citation> Incorporating data from multiple sources is also important for improving the measurement of violence against women. <sentence_start/>These sources include Civil Police records, which play a fundamental role in documenting and responding to IPV cases.<citation rid=\"bib10\" ref-type=\"bibr\" pmid=\"16595428\" doi=\"10.1136/ip.2005.009563\" pmcid=\"PMC2564437\" count=\"1\"><sup>10</sup></citation><sup>,</sup><citation rid=\"bib18\" ref-type=\"bibr\" pmid=\"37516474\" doi=\"10.1016/S2468-2667(23)00154-8\" count=\"1\"><sup>18</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Currently, there is no gold standard for measuring violence against women, highlighting the need for more reliable and valid methods to assess IPV. <sentence_start/>Brazil, the fifth-largest country by area and the seventh most populous, has various data sources that collect information on IPV. <sentence_start/>These sources differ in target populations, data collection methods, and analysis periods. <sentence_start/>This study aimed to assess how methodological variability across data sources influences estimates of physical and sexual IPV and to systematically characterize differences in prevalence estimates and age distribution of IPV cases across multiple Brazilian data sources. <sentence_start/>By doing so, we sought to identify potential reporting biases to inform future studies and effective public health strategies."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Overview"
+  },
+  {
+   "section": "article",
+   "text": "This is an epidemiological study using seven different data sources from Brazil. <sentence_start/>According to the 2022 census, Brazil has 203,080,756 inhabitants (51.5% are women - 104,548,325).<citation rid=\"bib19\" ref-type=\"bibr\" count=\"1\"><sup>19</sup></citation> <sentence_start/>In this study, we included data on physical (defined as the use of physical force by a current or former intimate partner) and sexual (referred to any non-consensual sexual act or attempt within an intimate relationship) IPV against women that occurred in the last 12 or 24 months, with data with representativeness from Brazil (National level), Esp\u00edrito Santo (State level), Vit\u00f3ria (capital level), and Pelotas (municipal level). <sentence_start/>This study complies with the Guidelines for Accurate and Transparent Health Estimates Reporting (GATHER) and STROBE checklist for cross-sectional studies (Supplementary information Tables S1 and S2).<citation rid=\"bib20\" ref-type=\"bibr\" pmid=\"27371184\" doi=\"10.1016/S0140-6736(16)30388-9\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"bib21\" ref-type=\"bibr\" pmid=\"18064739\" doi=\"10.1016/S0140-6736(07)61602-X\" count=\"1\"><sup>21</sup></citation> <sentence_start/>This study included estimates referring only to women and were derived from the sex-related available data. <sentence_start/>We used the gender-specific term women in the presentation and interpretation of the findings to ensure more inclusive terminology. <sentence_start/>Race or ethnicity data were not included in this study."
+  },
+  {
+   "section": "article",
+   "text": "Data sources"
+  },
+  {
+   "section": "article",
+   "text": "We identified publicly available and governmental datasets, supported by a review of academic literature and official reports on IPV measurement in Brazil. <sentence_start/>Inclusion criteria focused on data collected within the last approximately 20 years to ensure contemporary relevance, and on datasets that included variables on physical and sexual IPV, as well as adequate demographic information, particularly age groups. <sentence_start/>We included studies that reported recent exposure to IPV, but excluded those reporting lifetime exposure, to better reflect current patterns of violence. <sentence_start/>The seven selected datasets were chosen for their national or regional coverage, their capture of Brazil\u2019s geographic and demographic diversity, and their methodological variety-including household surveys, health surveillance, and violence notification systems-enabling analysis of IPV prevalence estimates."
+  },
+  {
+   "section": "article",
+   "text": "The main characteristics of survey and administrative data sources are presented in Table 1. Below, we provide a brief overview of each data source included in this analysis; additional details are provided in Section 3 of the Supplementary Information."
+  },
+  {
+   "section": "article",
+   "text": "Survey data sources"
+  },
+  {
+   "section": "article",
+   "text": "The 2019 Brazil National Survey of Health (PNS - Pesquisa Nacional de Sa\u00fade, in Portuguese) is a household-based, population-based study that employed a complex multistage sampling design, representative of Brazil, its subunits, and the Federal District.<citation rid=\"bib22\" ref-type=\"bibr\" count=\"1\"><sup>22</sup></citation> <sentence_start/>The survey included a Violence Module, applied to individuals aged 18 and older, which utilized an adapted version of the World Health Organization (WHO) instrument on violence against women.<citation rid=\"bib23\" ref-type=\"bibr\" count=\"1\"><sup>23</sup></citation> <sentence_start/>This module assessed physical and sexual IPV, employing a modified version of the WHO instrument to first assess experiences of violence without identifying the perpetrator. <sentence_start/>Respondents who reported incidents within the past 12 months were subsequently asked to specify who was responsible for the \u201cmost severe episode\u201d (Supplementary information, Section 3). <sentence_start/>More details about this module can be found in a previous study.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1590/1980-549720210020.supl.2\" pmid=\"34909938\" count=\"1\"><sup>24</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Data Senado Research (DSR) is a telephone survey representative of Brazil that utilized an adapted version of the World Health Organization (WHO) instrument on violence against women. <sentence_start/>A total of 2400 interviews were conducted via phone.<citation rid=\"bib25\" ref-type=\"bibr\" count=\"1\"><sup>25</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" count=\"1\"><sup>26</sup></citation> <sentence_start/>Only data on physical IPV among women 16 and older were included, as the 2019 DSR study did not collect information on sexual IPV within the last 12 months (Supplementary information, Section 3). <sentence_start/>The data were accessed through the Data Senado website.<citation rid=\"bib25\" ref-type=\"bibr\" count=\"1\"><sup>25</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "The Brazilian National Alcohol and Drugs Survey<citation rid=\"bib27\" ref-type=\"bibr\" count=\"1\"><sup>27</sup></citation><sup>,</sup><citation rid=\"bib28\" ref-type=\"bibr\" count=\"1\"><sup>28</sup></citation> (LENAD - Levantamento Nacional de Alcool e Drogas, in Portuguese) is a household survey that utilized an adapted version of the Revised Conflict Tactics Scales to measure physical IPV occurring in the last 12 months among women aged 16 and older, married or living with a partner, representative of Brazil. <sentence_start/>Data were collected during two periods: LENAD I (November 2005-April 2006) and LENAD II (2012).<citation rid=\"bib29\" ref-type=\"bibr\" pmid=\"27304756\" doi=\"10.1590/1516-4446-2015-1798\" pmcid=\"PMC7111359\" count=\"1\"><sup>29</sup></citation> <sentence_start/>Analyses for sexual IPV were not performed due to the low number of cases identified (Supplementary information, Section 3)."
+  },
+  {
+   "section": "article",
+   "text": "A population-based study conducted in Vit\u00f3ria,<citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0295340\" pmcid=\"PMC10732366\" pmid=\"38117789\" count=\"1\"><sup>30</sup></citation> the capital of Esp\u00edrito Santo, was carried out between January and May 2022 to investigate violence against women during the COVID-19 pandemic. <sentence_start/>The study utilized the World Health Organization (WHO) instrument on violence against women.<citation rid=\"bib23\" ref-type=\"bibr\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0295340\" pmcid=\"PMC10732366\" pmid=\"38117789\" count=\"1\"><sup>30</sup></citation> <sentence_start/>The analysis focused on physical and sexual IPV perpetrated by a current or former intimate partner within the past 24 months against women aged 18 and older, representative of Vit\u00f3ria (Supplementary information, Section 3)."
+  },
+  {
+   "section": "article",
+   "text": "The 2015 Pelotas Birth Cohort is a longitudinal study designed to monitor the health of all children born in Pelotas between January 1 and December 31, 2015.<citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.1093/ije/dyae048\" pmcid=\"PMC11014790\" pmid=\"38609323\" count=\"1\"><sup>31</sup></citation><sup>,</sup><citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1093/ije/dyx219\" pmcid=\"PMC6124621\" pmid=\"29126133\" count=\"1\"><sup>32</sup></citation> <sentence_start/>Physical and sexual IPV was measured using the World Health Organization (WHO) instrument on violence against women.<citation rid=\"bib23\" ref-type=\"bibr\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004306\" pmcid=\"PMC8098765\" pmid=\"33931414\" count=\"1\"><sup>33</sup></citation> <sentence_start/>For the current study, data were collected during the 4-year follow-up in 2019 using REDCap<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1016/j.jbi.2008.08.010\" pmcid=\"PMC2700030\" pmid=\"18929686\" count=\"1\"><sup>34</sup></citation> as the instrument for data collection, focusing on IPV that occurred in the last 12 months among all mothers who gave birth in Pelotas in 2015 (Supplementary information, Section 3)."
+  },
+  {
+   "section": "article",
+   "text": "Administrative data sources"
+  },
+  {
+   "section": "article",
+   "text": "Brazil\u2019s Information System for Notifiable Diseases (SINAN - Sistema de Informa\u00e7\u00e3o de Agravos de Notifica\u00e7\u00e3o, in Portuguese) is a national information system for reporting and investigating cases of diseases and conditions that are notifiable and subject to mandatory notification.<citation rid=\"bib35\" ref-type=\"bibr\" count=\"1\"><sup>35</sup></citation> <sentence_start/>In the current analysis, data on physical IPV cases against women aged 16 and older for National (Brazil), subnational (Esp\u00edrito Santo), capital (Vit\u00f3ria), and municipality (Pelotas) geographic levels were included. <sentence_start/>For sexual IPV cases, only National (Brazil) and subnational (Esp\u00edrito Santo) data were analyzed, because in Vit\u00f3ria (capital) and Pelotas (municipality) a low number of cases was identified, which precluded their inclusion in the analyses. <sentence_start/>SINAN data were not used to estimate prevalence at any level, as the system captures reported cases of violence rather than the overall occurrence within the population. <sentence_start/>Instead, SINAN data were utilized to analyze the age distribution of IPV cases by type (Supplementary information, Section 3)."
+  },
+  {
+   "section": "article",
+   "text": "The Civil Police System from the state of Esp\u00edrito Santo is part of the State Secretariat for Public Security and Social Defense.<citation rid=\"bib36\" ref-type=\"bibr\" count=\"1\"><sup>36</sup></citation> <sentence_start/>In the current analysis, only data on physical IPV and sexual violence perpetrated by anyone against women 18 years old or above, from the State of Esp\u00edrito Santo (2019) and Vit\u00f3ria (2020-2021) were included. <sentence_start/>Civil Police data were not used in prevalence estimates at any level, as they refer to reported cases of violence rather than the overall occurrence of violence in the population. <sentence_start/>Therefore, Civil Police data were included only in the age distribution of cases analysis by type of IPV (Supplementary information, Section 3)."
+  },
+  {
+   "section": "article",
+   "text": "Variables"
+  },
+  {
+   "section": "article",
+   "text": "The study used the following variables from each data source: year of event, participant age (categorized as 16-29, 30-39, 40-49, 50-59, and 60-99), and type of violence (physical and sexual IPV). <sentence_start/>IPV was classified based on a \u201cyes\u201d or \u201cno\u201d response. <sentence_start/>The IPV variable encompassed questions related to physical and sexual IPV, tailored to each data source. <sentence_start/>For instance, if a data source included three questions about physical IPV and a participant answered \u201cyes\u201d to at least one, the case was counted as a prevalent instance of physical IPV. <sentence_start/>Details on all questions used to identify physical and sexual IPV cases in this study are available in Supplementary Tables S3 and S4."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "First, the data sources were identified based on the inclusion and exclusion criteria. <sentence_start/>Then, an evaluation was conducted to map the main characteristics and variables of the data sources, including target audience, definition of violence, interview format, and data collection instrument. <sentence_start/>Subsequently, prevalence and age distribution of IPV cases were estimated with 95% confidence intervals (CIs) across data sources by type of IPV (physical, sexual) and age groups (16-29, 30-39, 40-49, 50-59, 60-99)."
+  },
+  {
+   "section": "article",
+   "text": "Prevalence estimates were calculated separately for each survey data source and age group. <sentence_start/>For survey-based datasets with available sampling weights, weighted estimates were calculated using the corresponding sample-weight variables. <sentence_start/>For the 2006 LENAD, 2012 LENAD, and 2019 DSR datasets, analyses were conducted in R using survey-weighted procedures; for the 2019 PNS, analyses were conducted in Stata accounting for the complex survey design, including sampling weights, primary sampling units, and strata. <sentence_start/>Vit\u00f3ria estimates were reported from crude frequencies in a multi-stage population-based sample, while Pelotas estimates were calculated as unweighted age-specific prevalences. <sentence_start/>The 95% confidence intervals for prevalence estimates were calculated using methods appropriate to each data source, accounting for sampling weights and survey design when available. <sentence_start/>Additional details on the data-source-specific procedures are provided in the Supplementary information, Section 3."
+  },
+  {
+   "section": "article",
+   "text": "The age distribution of IPV cases was estimated as the proportion of all physical and sexual IPV cases occurring within each age group. <sentence_start/>For survey-based datasets with sampling weights, the distribution was calculated using weighted cases, whereas for administrative data sources, including SINAN and the Civil Police records, crude case counts were used. <sentence_start/>The 95% confidence intervals for the age distribution of cases were calculated using approaches consistent with the structure of each data source, incorporating survey design features when available and using crude proportions for administrative data. <sentence_start/>The age distribution of cases was not estimated for the Pelotas Birth Cohort because the sample consisted almost entirely of young women, and consequently nearly all cases occurred within the same age group. <sentence_start/>Missing data were handled using available-case analysis. <sentence_start/>Further methodological details are presented in the Supplementary information, Section 3. <sentence_start/>Analyses were conducted using Stata (version 13.1) and R (version 4.6.0)."
+  },
+  {
+   "section": "article",
+   "text": "Ethical aspects"
+  },
+  {
+   "section": "article",
+   "text": "This study used secondary data from public databases and, therefore, did not require approval from the Research Ethics Committee, according to Resolution no. 466/2012 of the Brazilian National Health Council."
+  },
+  {
+   "section": "article",
+   "text": "Role of the funding source"
+  },
+  {
+   "section": "article",
+   "text": "The founder of this study had no role in study design, data collection, data analysis, data interpretation, or the writing of the report. <sentence_start/>The lead and senior authors had full access to the study data and final responsibility for the decision to submit it for publication."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Overview"
+  },
+  {
+   "section": "article",
+   "text": "We analyzed seven data sources from Brazil, covering different geographic levels of representativeness, ranging from national to municipal levels. <sentence_start/>The sources included in-person interviews conducted at women\u2019s homes or at universities, telephone interviews, health-sector mandatory reporting data, and police reports. <sentence_start/>One survey (PNS) focused on women aged 18 and older, while the others included those aged 16 and older. <sentence_start/>One source interviewed mothers exclusively, and another targeted married woman or those living with partners. <sentence_start/>Most surveys examined IPV within the past 12 months, except for the Vit\u00f3ria survey, which investigated IPV during the COVID-19 pandemic (2020-2021) over a 24-month period (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "The sources varied in their approaches to measuring IPV. <sentence_start/>We included all questions from each data source used in this study in Supplementary Tables S3 and S4. <sentence_start/>The LENAD 2006 and 2012 surveys used an adapted version of the Revised Conflict Tactics Scales, while studies in Vit\u00f3ria and Pelotas applied the WHO instrument on violence against women without modification. <sentence_start/>PNS and DSR also used the WHO instrument but with different adaptations. <sentence_start/>Consequently, all surveys included questions about specific acts of IPV, although the number and types of questions differed. <sentence_start/>For example, DSR 2019 included two questions on physical IPV, whereas LENAD 2006 and 2012 included eight. <sentence_start/>For sexual IPV, surveys ranged from one to three questions. <sentence_start/>The PNS uniquely used an adapted WHO instrument to initially investigate violence without specifying the perpetrator. <sentence_start/>Participants who reported experiencing violence in the past 12 months were then asked to identify the perpetrator of the \u201cmost severe episode\u201d."
+  },
+  {
+   "section": "article",
+   "text": "Health sector notification data (SINAN) defined physical and sexual IPV according to WHO classifications, with detailed descriptions of acts constituting these forms of violence. <sentence_start/>Civil Police data on physical violence relied on domestic violence filed under the Maria da Penha Law, Brazil\u2019s first federal law addressing violence against women.<citation rid=\"bib37\" ref-type=\"bibr\" pmid=\"27852317\" doi=\"10.1186/s12939-016-0428-3\" pmcid=\"PMC5112634\" count=\"1\"><sup>37</sup></citation> <sentence_start/>Due to the lower number of registered sexual violence cases in Civil Police data, all such cases were included in the analysis, including those classified as domestic violence under the Maria da Penha Law."
+  },
+  {
+   "section": "article",
+   "text": "Surveys data sources"
+  },
+  {
+   "section": "article",
+   "text": "The PNS is a household survey conducted among individuals aged 18 years or older, including 46,869 women. <sentence_start/>The LENAD is a household survey targeting individuals aged 14 years or older who were married or living with a partner. <sentence_start/>For this study, we included interviews with women aged 16 years or older, resulting in 811 women interviewed in 2006 and 1119 in 2012. <sentence_start/>The Data Senado Research is conducted by telephone among women aged 16 years or older and included 2400 interviews in 2019. <sentence_start/>At the capital level, the Vitoria study is a household survey among women aged 18 years or older which included 1086 women, whereas at the municipal level, the Pelotas study surveyed mothers aged 18 years or older at a university, including 4266 women (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "Regarding physical IPV, although overall prevalence varied across data sources, a consistent age-group pattern emerged, with higher prevalence among younger women. <sentence_start/>Nationally, the highest prevalence estimates were observed among women aged 16/18-29, ranging from 13.0% (8.3-17.8) in LENAD 2006 (Fig. 1A, Table 2) to 3.6% (3.0-4.4) in PNS 2019 (Fig. 1C, Table 2), representing more than a threefold difference. <sentence_start/>Across all age groups, PNS 2019 consistently reported the lowest prevalence of physical IPV (Fig. 1C, Table 2). <sentence_start/>At capital and municipal level studies, the patterns in prevalence of physical IPV persisted, with prevalence among women aged 18-29 ranging from 13.4% (9.3-18.8) in the 2020-2021 Vit\u00f3ria study (Supplementary Fig. S1 and Table S5) to 7.5% (6.3-8.7) in Pelotas (Supplementary Fig. S2 and Table S5).Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Prevalence of physical and sexual intimate partner violence (IPV) with 95% confidence intervals (CIs) across survey data sources and age groups at the national level, Brazil. <sentence_start/>(A) Physical IPV prevalence by age group, 2006 LENAD (National Alcohol and Drugs Survey) and 2012 LENAD (National Alcohol and Drugs Survey), (B) Physical IPV prevalence by age group, 2019 DSR (Data Senado Research), and (C) Physical and sexual IPV prevalence by age group, 2019 PNS (National Survey of Health)."
+  },
+  {
+   "section": "article",
+   "text": "Regarding the age distribution of physical IPV, at the national level, all data sources showed a greater proportion of cases among women aged 18-29 and 30-39 (Fig. 2, Supplementary Table S6). <sentence_start/>For example, 2019 PNS found the highest proportions among women aged 18-29 (34.5% [28.4-41.2]) and 30-39 (32.2% [27.3-37.6]), followed by a progressive decline in older age groups, reaching 4.4% (2.8-6.8) among women aged 60 and older (Fig. 2, Supplementary Table S6). <sentence_start/>At the capital level, the 2020-2021 Vit\u00f3ria study showed a more even distribution of physical IPV cases across age groups (Supplementary Fig. S3, Supplementary Table S7).Fig. 2"
+  },
+  {
+   "section": "article",
+   "text": "Age distribution of physical and sexual intimate partner violence (IPV) cases with 95% confidence intervals (CIs) across survey data and age groups at the national level, Brazil. <sentence_start/>(A) Distribution of physical IPV cases by age group, 2006 LENAD (National Alcohol and Drugs Survey) and 2012 LENAD (National Alcohol and Drugs Survey), (B) Distribution of physical IPV cases by age group, 2019 DSR (Data Senado Research), and (C) Distribution of physical and sexual IPV cases by age group, 2019 PNS (National Survey of Health)."
+  },
+  {
+   "section": "article",
+   "text": "For sexual IPV, at the national level, prevalence in PNS 2019 peaked at 1.0% (0.4-2.4) among women aged 40-49 years (Fig. 1C, Table 2). <sentence_start/>At the capital level, the 2020-2021 Vit\u00f3ria study reported higher prevalence estimates, ranging from 3.4% (1.8-6.5) among women aged 60 and older to 8.9% (5.7-13.7) in the 18-29 age group (Supplementary Fig. S1, Supplementary Table S5). <sentence_start/>At the municipal level, the 2019 Pelotas study recorded the highest prevalence at 1.7% (0.5-2.8) in the 40-49 age group (Supplementary Fig. S2, Supplementary Table S5)."
+  },
+  {
+   "section": "article",
+   "text": "The age distribution of sexual IPV varied across surveys and geographic levels. <sentence_start/>Nationally, 2019 PNS found the highest proportions among women aged 40-49 (33.1% [16.5-55.5]) and 18-29 (30.6% [18.9-45.6]), with lower proportions observed in older groups, including 6.3% (2.5-14.9) among women aged 60 and older (Fig. 2C, Supplementary Table S6). <sentence_start/>At the capital level, the 2020-2021 Vit\u00f3ria study showed no clear age pattern for sexual IPV, reporting identical proportions of 25.4% (16.6-36.7) among women aged 18-29 and 40-49, and 12.7% (6.7-22.6) among women aged 60 and older (Supplementary Fig. S3, Supplementary Table S7)."
+  },
+  {
+   "section": "article",
+   "text": "Administrative data sources"
+  },
+  {
+   "section": "article",
+   "text": "For administrative data, SINAN 2019 provided information at national, state, capital, and municipal levels. <sentence_start/>At the national (Brazil) level, 62,265 cases of physical IPV and 3550 cases of sexual IPV were included; at the state level (Esp\u00edrito Santo), 1311 cases of physical IPV and 80 cases of sexual IPV; at the capital level (Vit\u00f3ria), 46 cases of physical IPV; and at the municipal level (Pelotas), 29 cases of physical IPV. <sentence_start/>Civil Police data were available at the state (Esp\u00edrito Santo) and capital (Vit\u00f3ria) levels, with 1106 cases of physical domestic violence and 449 cases of sexual violence reported at the state level, and 290 cases of physical domestic violence and 153 cases of sexual violence reported in the capital (Table 1)."
+  },
+  {
+   "section": "article",
+   "text": "For administrative data sources, we analyzed the age distribution of reported physical and sexual IPV cases. <sentence_start/>For physical IPV, SINAN 2019 showed a higher proportion of reports among women aged 16-29 (43.0 [42.6-43.4]) at the national level, followed by women aged 30-39 (31.9 [31.5-32.2]) (Fig. 3, Supplementary Table S8). <sentence_start/>At the state level (Esp\u00edrito Santo), both the 2019 SINAN (Supplementary Fig. S4, Supplementary Table S9) and the Civil Police (Supplementary Fig. S5, Supplementary Table S9) showed similar age distributions, with most cases concentrated among women aged 18-29 and 30-39, decreasing progressively in older age groups. <sentence_start/>At the capital level, 2020-2021 SINAN Vit\u00f3ria data showed that 56.5% (42.2-70.8) of physical IPV cases occurred among women aged 18-29 years (Supplementary Fig. S6, Supplementary Table S10), while Civil Police data reported 43.4% (37.7-49.2) in the same age group (Supplementary Fig. S7, Supplementary Table S10). <sentence_start/>In Pelotas, SINAN data showed a decreasing pattern in physical IPV cases, from 48.3% (30.1-66.5) among women aged 18-29 years to 20.7% (5.9-35.4) among women aged 40-49 years (Supplementary Fig. S8, Supplementary Table S10).Fig. 3"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of physical and sexual intimate partner violence (IPV) cases with 95% confidence intervals (CIs) for the 2019 Information System for Notifiable Diseases (SINAN), at the national level, Brazil."
+  },
+  {
+   "section": "article",
+   "text": "For the age distribution of sexual IPV, 2019 SINAN Brazil showed similar proportions among women aged 18-29 and 30-39 years, followed by progressive decline across older age groups (Fig. 3, Supplementary Table S8). <sentence_start/>At the state level, SINAN 2019 reported a higher proportion among women aged 30-39 years (40.0% [29.3-50.7]), whereas 2019 Civil Police data indicated that 58.4% (53.8-62.9) sexual IPV cases occurred among women aged 18-29 (Supplementary Figs. S4 and S5, Supplementary Table S9). <sentence_start/>Sexual IPV cases from SINAN in Vit\u00f3ria and Pelotas were not reported because of insufficient case numbers."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Understanding methodological differences across data sources is critical to improving the measurement of IPV. <sentence_start/>This study analyzed IPV estimates from different Brazilian data sources, varying in representativeness, questionnaires, and data collection methods. <sentence_start/>These differences led to discrepant prevalence rates across data sources for both physical and sexual IPV. <sentence_start/>In terms of age distribution, physical IPV cases were more common among younger women across data sources, while no clear age pattern emerged for sexual IPV cases. <sentence_start/>Given the methodological heterogeneity across studies, the WHO questionnaire on violence against women<citation rid=\"bib23\" ref-type=\"bibr\" count=\"1\"><sup>23</sup></citation> offers a framework for measuring IPV, with standardized definitions and alignments with internationally recommended practices for IPV measurement and participant privacy."
+  },
+  {
+   "section": "article",
+   "text": "Among the survey data sources, differences in results may partly reflect the lack of standardized data collection instruments, which can influence the measurement of IPV across data sources.<citation rid=\"bib13\" ref-type=\"bibr\" count=\"1\"><sup>13</sup></citation> <sentence_start/>Although some of the studies<citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0295340\" pmcid=\"PMC10732366\" pmid=\"38117789\" count=\"1\"><sup>30</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004306\" pmcid=\"PMC8098765\" pmid=\"33931414\" count=\"1\"><sup>33</sup></citation> used the WHO instrument on violence against women,<citation rid=\"bib23\" ref-type=\"bibr\" count=\"1\"><sup>23</sup></citation> others relied on adapted versions,<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1590/1980-549720210020.supl.2\" pmid=\"34909938\" count=\"1\"><sup>24</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" count=\"1\"><sup>26</sup></citation> with variations in the number of items and examples of violent acts presented to respondents. <sentence_start/>While the full WHO instrument has been validated in Portuguese,<citation rid=\"bib38\" ref-type=\"bibr\" pmid=\"20676557\" doi=\"10.1590/s0034-89102010000400009\" count=\"1\"><sup>38</sup></citation> standardizing its shorter, adapted versions remains necessary. <sentence_start/>The PNS stands out as one of Brazil\u2019s most significant health surveys, with the largest sample size and broad representativeness. <sentence_start/>It includes all women aged 18 or older, regardless of marital status, at both the national and state levels. <sentence_start/>However, in terms of estimating IPV, its questionnaire asks only about the perpetrator of the \u201cmost severe\u201d episode of violence, which may limit the identification of women who experienced violence in other episodes or involving other perpetrators and may contribute to the lower estimates of physical and sexual IPV. <sentence_start/>Another methodological factor that could contribute to differences in results is the data collection periods. <sentence_start/>For instance, LENAD 2006 and 2012 were included as additional sources measuring IPV over the past 12 months, despite being further removed from 2019, the focus year of other studies. <sentence_start/>The approximately 10% lower prevalence of physical IPV observed in PNS 2019<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1590/1980-549720210020.supl.2\" pmid=\"34909938\" count=\"1\"><sup>24</sup></citation> relative to LENAD 2006<citation rid=\"bib29\" ref-type=\"bibr\" pmid=\"27304756\" doi=\"10.1590/1516-4446-2015-1798\" pmcid=\"PMC7111359\" count=\"1\"><sup>29</sup></citation> could suggest a decline in physical IPV over this period.<citation rid=\"bib39\" ref-type=\"bibr\" count=\"1\"><sup>39</sup></citation> <sentence_start/>However, this difference cannot be attributed to changes over time alone, as it may also reflect methodological differences between the studies, such as changes in the questionnaires used and whether privacy was guaranteed, which may contribute for discrepancies not only between these two sources but also across other data sources."
+  },
+  {
+   "section": "article",
+   "text": "The location of interviews and the presence of others during the process are critical factors influencing the quality of IPV data collection. <sentence_start/>When a partner is present during an interview, the woman may refuse to answer sensitive questions or modify her responses out of fear or under coercion, especially if the partner is a potential aggressor.<citation rid=\"bib5\" ref-type=\"bibr\" count=\"1\"><sup>5</sup></citation><sup>,</sup><citation rid=\"bib40\" ref-type=\"bibr\" count=\"1\"><sup>40</sup></citation> <sentence_start/>Interviews conducted in healthcare facilities or university settings may offer advantages over those conducted at home, as these environments provide greater privacy and a supportive atmosphere for women who disclose experiences of violence.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1590/1980-549720210020.supl.2\" pmid=\"34909938\" count=\"1\"><sup>24</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004306\" pmcid=\"PMC8098765\" pmid=\"33931414\" count=\"1\"><sup>33</sup></citation> <sentence_start/>Also, among the included studies, PNS, Vit\u00f3ria, and LENAD collected data through home-based interviews. <sentence_start/>Of these, only the Vit\u00f3ria study explicitly reported that interviews were conducted only when women were alone, to ensure privacy during data collection.<citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0295340\" pmcid=\"PMC10732366\" pmid=\"38117789\" count=\"1\"><sup>30</sup></citation> <sentence_start/>Notably, prevalence estimates in Vit\u00f3ria were consistently higher than those observed in the other home-based surveys. <sentence_start/>However, these studies also differed across several methodological dimensions, which does not allow for the isolation of the effect of interview privacy on prevalence estimates in the present analysis. <sentence_start/>Future studies specifically designed to examine this methodological aspect could help clarify the extent to which interview setting and privacy conditions influence IPV reporting."
+  },
+  {
+   "section": "article",
+   "text": "The method of questionnaire administration can also influence IPV prevalence estimates. <sentence_start/>Studies suggest that telephone interviews often yield higher response rates for sensitive questions than face-to-face interviews, though excluding households without telephones can introduce selection and representativeness bias.<citation rid=\"bib41\" ref-type=\"bibr\" count=\"1\"><sup>41</sup></citation> <sentence_start/>Self-administered questionnaires, compared to interviews, reduce \u201csocial desirability\u201d bias, where respondents adjust answers to align with social norms.<citation rid=\"bib42\" ref-type=\"bibr\" doi=\"10.15465/GESIS-SG_EN_016\" count=\"1\"><sup>42</sup></citation> <sentence_start/>This bias is particularly relevant for sensitive topics like violence, which may be stigmatized and underreported in interviews.<citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"35384077\" doi=\"10.1002/jts.22824\" pmcid=\"PMC10658816\" count=\"1\"><sup>6</sup></citation> <sentence_start/>While the PNS offers respondents the option of self-administration or interviews for its violence module, further research is needed to evaluate how these methods impact IPV prevalence estimates in Brazil."
+  },
+  {
+   "section": "article",
+   "text": "The recall period effects were also among the methodological differences across the included data sources. <sentence_start/>Discrepancies in sexual IPV results for Vit\u00f3ria may stem from differences in recall periods: 24 months (2020-2021, during the COVID-19 pandemic) versus the 12-month recall used by other sources. <sentence_start/>Although data sources based on lifetime recall were available, they were excluded because they did not align with the study\u2019s focus. <sentence_start/>In contrast, the Vitoria study was retained because its 24-month recall period was more closely aligned with the 12-month recall used by the other sources."
+  },
+  {
+   "section": "article",
+   "text": "Regional differences, even within the same country, play a significant role when measuring IPV. <sentence_start/>In addition to nationally representative surveys, two other surveys were included: one from Vit\u00f3ria (Esp\u00edrito Santo), a capital city in southeastern Brazil, and another from Pelotas (Rio Grande do Sul), a city in southern Brazil. <sentence_start/>It is well established that regional differences, sociodemographic and socioeconomic characteristics, and regional public policies influence health outcomes. <sentence_start/>Therefore, these geographical differences should also be taken into account when interpreting variation in IPV data against women."
+  },
+  {
+   "section": "article",
+   "text": "Selection criteria and population restrictions across data sources should also be considered when interpreting IPV estimates and their external validity. <sentence_start/>Some studies included specific population groups, such as married or partnered women, mothers, or populations reached through particular modes of contact. <sentence_start/>These design choices shape the populations represented in each estimate and should be taken into account when considering the extent to which findings apply to broader populations."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, these findings indicate that variation in prevalence estimates should be interpreted in the context of multiple methodological characteristics rather than attributed to any single study feature in isolation. <sentence_start/>Across surveys, differences in target populations, eligibility criteria, measurement instruments, recall periods, interview procedures, and geographic coverage may all influence reported estimates. <sentence_start/>Similar considerations apply when interpreting differences between survey data and administrative records, although these sources are also shaped by distinct pathways of access, reporting, and case identification."
+  },
+  {
+   "section": "article",
+   "text": "Differences between survey data and notification records from the Civil Police and SINAN must be understood in context. <sentence_start/>Administrative systems only include women who sought victim support services, often for severe violence, frequently perpetrated by strangers, which may obscure domestic violence and are subject to underreporting and lack representativeness, especially given the sensitive nature of IPV.<citation rid=\"bib13\" ref-type=\"bibr\" count=\"1\"><sup>13</sup></citation> <sentence_start/>At the national level, a study using survey-based data from PNS 2019 and administrative data from SINAN estimated underreporting in SINAN at 75% for physical violence and 90% for sexual violence.<citation rid=\"bib43\" ref-type=\"bibr\" doi=\"10.1590/1413-812320242910.07732023\" pmid=\"39292040\" count=\"1\"><sup>43</sup></citation> <sentence_start/>Discrepancies also exist between Civil Police and Health Sector data. <sentence_start/>For instance, at the municipal level, a study linking SINAN and Civil Police records in a Brazilian municipality found that the Police reported 8 times as many cases as SINAN during the same period, with fewer than 5% of cases appearing in both databases, indicating that few women sought help from both sectors.<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.35699/2316-9389.2023.40258\" count=\"1\"><sup>44</sup></citation> <sentence_start/>A study on Cybercrime in Nepal also found inconsistencies in reporting and data environments, which highlights how platform-specific (Facebook/Messenger, TikTok, among others) data variability can distort violence estimates across contexts.<citation rid=\"bib45\" ref-type=\"bibr\" count=\"1\"><sup>45</sup></citation> <sentence_start/>Integrating data from Health and Public Security sectors can provide a more comprehensive understanding of IPV cases, revealing different violence patterns and profiles of women, which can inform targeted public policies.<citation rid=\"bib18\" ref-type=\"bibr\" pmid=\"37516474\" doi=\"10.1016/S2468-2667(23)00154-8\" count=\"1\"><sup>18</sup></citation><sup>,</sup><citation rid=\"bib46\" ref-type=\"bibr\" pmid=\"37516479\" doi=\"10.1016/S2468-2667(23)00126-3\" count=\"1\"><sup>46</sup></citation><sup>,</sup><citation rid=\"bib47\" ref-type=\"bibr\" count=\"1\"><sup>47</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "This study initially aimed to analyze IPV underreporting but was limited by significant disparities among data sources. <sentence_start/>Despite this, investigating these sources remains valuable, as Brazil provides diverse datasets for such analyses. <sentence_start/>We evaluated surveys at the national, state, capital, and municipal levels, as well as records from police and health systems. <sentence_start/>A key finding is that differences in survey design and implementation should be considered when interpreting prevalence estimates. <sentence_start/>Studies using the WHO violence questionnaire incorporated standardized definitions and measurement procedures, providing a methodological framework for future studies.<citation rid=\"bib23\" ref-type=\"bibr\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0295340\" pmcid=\"PMC10732366\" pmid=\"38117789\" count=\"1\"><sup>30</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1136/bmjgh-2020-004306\" pmcid=\"PMC8098765\" pmid=\"33931414\" count=\"1\"><sup>33</sup></citation> Previous research often combines administrative data and surveys within the same population to estimate underreporting and evaluate the advantages and limitations of each approach.<citation rid=\"bib7\" ref-type=\"bibr\" count=\"1\"><sup>7</sup></citation><sup>,</sup><citation rid=\"bib48\" ref-type=\"bibr\" pmid=\"26002854\" doi=\"10.1177/2165079915574684\" pmcid=\"PMC5006066\" count=\"1\"><sup>48</sup></citation><sup>,</sup><citation rid=\"bib49\" ref-type=\"bibr\" pmid=\"24335278\" doi=\"10.1093/aje/kwt295\" pmcid=\"PMC3927971\" count=\"1\"><sup>49</sup></citation> Longitudinal studies applying consistent methods over time can also provide insights into changes in reporting patterns.<citation rid=\"bib16\" ref-type=\"bibr\" pmid=\"35428296\" doi=\"10.1186/s12905-022-01697-y\" pmcid=\"PMC9013096\" count=\"1\"><sup>16</sup></citation> <sentence_start/>Administrative and police system data offer insights into societal trends based on health service and police records.<citation rid=\"bib18\" ref-type=\"bibr\" pmid=\"37516474\" doi=\"10.1016/S2468-2667(23)00154-8\" count=\"1\"><sup>18</sup></citation> <sentence_start/>These varied data sources can either support or challenge policy and program development. <sentence_start/>This study highlights the importance of leveraging these data to inform public policy and improve the measurement of violence."
+  },
+  {
+   "section": "article",
+   "text": "To strengthen national IPV surveillance, large-scale surveys such as Brazil\u2019s PNS could consider incorporating the full WHO instrument on violence against women, including explicit assessment of different episodes of violence rather than restricting question to the \u201cmost severe episode\u201d. <sentence_start/>Ensuring that interviews are conducted in private settings may also facilitate disclosure of experiences of violence. <sentence_start/>On a global level, Brazil\u2019s geographic, demographic, and administrative diversity makes it a valuable case study for low- and middle-income countries facing similar challenges in measuring IPV. <sentence_start/>This heterogeneity highlights the range of methodological and contextual factors that need to be considered in IPV measurement and underscores the importance of developing IPV measurement strategies to diverse contexts worldwide. <sentence_start/>Policymakers and researchers in other countries can draw on Brazil\u2019s experience to improve data collection methodologies and policy responses. <sentence_start/>Taken together, these considerations can inform ongoing efforts to strengthen IPV measurement and support evidence-informed prevention and intervention policies both in Brazil and internationally."
+  },
+  {
+   "section": "article",
+   "text": "This study has several limitations. <sentence_start/>First, the data sources analyzed differed across multiple methodological dimensions, including target population, minimum age, recall period, historical period, measurement instruments, and interview context. <sentence_start/>These differences limit direct interpretation of variation in prevalence estimates across sources and do not allow isolation of the effects of specific methodological characteristics, such as questionnaire design, mode of administration, or privacy conditions during data collection. <sentence_start/>Therefore, the findings should be interpreted as illustrating how multiple methodological differences may influence IPV estimates rather than attributing variation to individual factors. <sentence_start/>Second, sample sizes and population characteristics varied considerably across data sources. <sentence_start/>PNS has the largest and most representative sample, while LENAD and Data Senado Research have smaller national samples that may not capture the full population. <sentence_start/>Additionally, cases of violence reported across data sources are not mutually exclusive, as making them so would further reduce case numbers, particularly for sexual violence. <sentence_start/>Other specific differences include the 2019 Pelotas study, which exclusively includes mothers in a particular age range, and the LENAD survey, which included only married women. <sentence_start/>Finally, this study reported data only for women, and a limitation is that it did not include data on race/ethnicity."
+  },
+  {
+   "section": "article",
+   "text": "Understanding the impact of variability in data collection methods is crucial for improving IPV assessment and shaping effective public policies in Brazil and globally.<citation rid=\"bib50\" ref-type=\"bibr\" pmid=\"11326453\" doi=\"10.1111/j.1728-4465.2001.00001.x\" count=\"1\"><sup>50</sup></citation> <sentence_start/>Efforts to enhance violence measurement should consider established practices for data collection, consistent survey methodologies and instruments, the use of data from the same geographical level, methodological innovation research, and the implementation of recommendations for future.<citation rid=\"bib51\" ref-type=\"bibr\" count=\"1\"><sup>51</sup></citation> <sentence_start/>Addressing sources of underreporting and strengthening case identification may provide a more comprehensive understanding of violence against women and better reflect the real scope of the issue. <sentence_start/>This approach can drive meaningful investments in public policies to protect victims, strengthen detection and prevention efforts, and address this significant health risk affecting women worldwide."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "Our findings demonstrate that evaluating methodologically seven data sources from the same country to measure physical and sexual IPV reveals both discrepancies and similarities in prevalence and age distribution of cases. <sentence_start/>Identifying violence patterns specific to different age groups can help healthcare providers and policymakers design targeted interventions for women experiencing IPV. <sentence_start/>In the absence of a definitive gold standard for assessing IPV prevalence, it is vital to evaluate the strengths and limitations of the data sources used to estimate IPV prevalence. <sentence_start/>Repeated assessments using consistent methods over time may also provide additional insights into changes in IPV reporting and prevalence. <sentence_start/>Further research on measurement methodologies is needed to understand the sources of variation in IPV estimates and better address and correct the underreporting of IPV against women."
+  },
+  {
+   "section": "article",
+   "text": "Contributors"
+  },
+  {
+   "section": "article",
+   "text": "CS, NMV, EG, and DCM participated in writing the first draft of the manuscript; CS, NMV, BV, and AT shared primary responsibility for applying analytical methods to produce estimates; CS, NMV, FMCL, BV, MH, and AT, shared primary responsibility for seeking, cataloguing, extracting, or cleaning data; CS, NMV, JM, FMCL, BV, LSF, SIH, EG, DCM, contributed to designing or coding figures and tables; CS, NMV, CVNC, JM, FMCL, BV, LSF, MH, AT, EG, and DCM participated in providing data or critical feedback on data sources; CS, NMV, CVNC, JM, FMCL, BV, LSF, SIH, EG, and DCM participated in providing critical feedback on methods or results; CS, NMV, CVNC, JM, FMCL, BV, LSF, SIH, EG, and DCM contributed to drafting the manuscript or revising it critically for important intellectual content; CS, NMV, SIH, EG, and DCM managing the estimation or publications process. <sentence_start/>The lead, corresponding, and senior authors had full access to the data in the study and had final responsibility for the decision to submit for publication."
+  },
+  {
+   "section": "article",
+   "text": "Data sharing statement"
+  },
+  {
+   "section": "article",
+   "text": "This study used secondary data from publicly available databases. <sentence_start/>These databases are in the public domain and can be accessed on the internet. <sentence_start/>More details about the National Health Survey (PNS); the Brazilian National Alcohol and Drugs Survey (LENAD); Data Senado Research (DSR); and the Brazil Information System for Notifiable Diseases (SINAN) could be found at ."
+  },
+  {
+   "section": "article",
+   "text": "Civil Police data from Esp\u00edrito Santo State: access to the data was obtained through a request submitted to the ombudsman\u2019s office for access to data from the State Secretariat for Public Security and Social Defense, based on the Access to Information Law ( )."
+  },
+  {
+   "section": "article",
+   "text": "Two data sources were requested through the Proposal Form for Data Access: the 2020-2021 Vit\u00f3ria study and the 2015 Pelotas Birth Cohort, 4-year follow-up."
+  },
+  {
+   "section": "article",
+   "text": "Code used for these analyses is publicly available online ."
+  },
+  {
+   "section": "article",
+   "text": "Artificial intelligence declaration statement"
+  },
+  {
+   "section": "article",
+   "text": "Generative artificial intelligence (AI) tools, specifically ChatGPT (OpenAI, GPT-5.5), were used as an instrumental aid during manuscript preparation. <sentence_start/>The tool supported the linguistic and structural revision of the text, contributing to improvements in clarity, organization, and formal presentation. <sentence_start/>It was not used for the autonomous generation of scientific content, hypothesis development, data interpretation, methodological decision-making, or scientific conclusions. <sentence_start/>All outputs generated with AI assistance were critically reviewed, verified, and revised by the authors, who retain full responsibility for the accuracy, integrity, and originality of the manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of interests"
+  },
+  {
+   "section": "article",
+   "text": "All authors declare no competing interests."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary Figs. S1-S8 and Tables S1-S10"
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data related to this article can be found at ."
+  }
+ ]
+}

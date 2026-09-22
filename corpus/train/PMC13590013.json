@@ -1,0 +1,555 @@
+{
+ "pmid": 42764912,
+ "pmcid": 13590013,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Neuroprotection by YZG-331 in postoperative cognitive dysfunction <italic>via</italic> Mg<sup>2+</sup>-dependent blockade of NMDA receptors"
+  },
+  {
+   "section": "abstract",
+   "text": "Postoperative cognitive dysfunction (POCD) is a debilitating neurological complication that occurs following surgery, for which no effective interventions are currently available. <sentence_start/>Here, we identified YZG-331, a novel adenosine analog, as a promising neuroprotective agent that rescues cognitive deficits and mitigates dendritic spine loss in a murine POCD model. <sentence_start/>Integrated proteomic profiling and bioinformatics pathway analysis revealed that YZG-331 selectively targets NMDA receptor (NMDAR) signaling. <sentence_start/>Electrophysiological recordings and living-cell calcium imaging demonstrated that YZG-331 suppressed NMDAR-mediated currents and calcium influx in a dose-dependent manner. <sentence_start/>Furthermore, Mg<sup>2+</sup> is required for YZG-331 to inhibit NMDAR activity. <sentence_start/>YZG-331 disrupts the formation of NMDAR condensates in the presence of Mg<sup>2+</sup>, thereby attenuating NMDAR-mediated excitotoxicity. <sentence_start/>Our findings establish YZG-331 as a prospective therapeutic candidate for POCD and reveal Mg<sup>2+</sup>-dependent receptor modulation as a novel pharmacological strategy for targeting NMDAR-associated neuropathologies."
+  },
+  {
+   "section": "abstract",
+   "text": "Graphical abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "Perioperative neurotoxicity drives NMDAR-dependent Ca<sup>2+</sup> overload and synaptodendritic degeneration. <sentence_start/>YZG-331 enhances Mg<sup>2+</sup> blockade of NMDARs, curbing Ca<sup>2+</sup> influx to restore hippocampal synaptic integrity."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Postoperative cognitive dysfunction (POCD) is a debilitating neurocognitive syndrome characterized by deficits in attention, memory, language, and social function. <sentence_start/>It represents a significant challenge within the field of perioperative medicine<citation rid=\"bib1\" ref-type=\"bibr\" pmid=\"29161395\" doi=\"10.1093/bja/aex354\" count=\"1\"><sup>1</sup></citation>, with documented cases affecting 40%-70% of patients undergoing surgeries, such as cardiac procedures or hip arthroplasty. <sentence_start/>The symptoms associated with POCD can persist from several days to months<citation rid=\"bib2\" ref-type=\"bibr\" pmid=\"29889707\" doi=\"10.1213/ANE.0000000000003514\" count=\"1\">2</citation>, <citation rid=\"bib3\" ref-type=\"bibr\" pmid=\"31569161\" doi=\"10.1213/ANE.0000000000004469\" pmcid=\"PMC7154961\" count=\"1\">3</citation>, <citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1186/s40199-017-0190-0\" pmcid=\"PMC5696736\" pmid=\"29157293\" count=\"1\">4</citation>, <citation rid=\"bib5\" ref-type=\"bibr\" pmid=\"24345210\" doi=\"10.3109/03009734.2013.873502\" pmcid=\"PMC4116766\" count=\"1\">5</citation>, <citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"30707179\" doi=\"10.1097/CM9.0000000000000098\" pmcid=\"PMC6595716\" count=\"1\">6</citation>, <citation rid=\"bib7\" ref-type=\"bibr\" pmid=\"24781572\" doi=\"10.1213/ANE.0000000000000194\" count=\"1\">7</citation>, <citation rid=\"bib8\" ref-type=\"bibr\" pmid=\"30447669\" doi=\"10.1177/0310057X1804600610\" count=\"1\">8</citation> thereby delaying recovery and accelerating long-term cognitive decline. <sentence_start/>Additionally, POCD is associated with an increase in the 5-year mortality risk and imposes considerable socioeconomic burdens<citation rid=\"bib9\" ref-type=\"bibr\" pmid=\"19225398\" doi=\"10.1097/ALN.0b013e318195b569\" count=\"1\"><sup>9</sup></citation>. <sentence_start/>Despite its clinical severity, current management strategies are predominantly supportive, underscoring the urgent need to develop effective therapeutic interventions for this condition."
+  },
+  {
+   "section": "article",
+   "text": "Despite posing a significant risk to patients, the underlying mechanisms of POCD remain under investigation. <sentence_start/>Evidence implicates multiple factors in the pathogenesis of POCD, including neuroinflammation, glutamate toxicity, synaptic impairment, and <italic>N</italic>-methyl-<sc>d</sc>-aspartate receptor (NMDAR) dysfunction<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1016/j.ejphar.2024.176520\" pmid=\"38527701\" count=\"1\"><sup>10</sup></citation>. <sentence_start/>NMDARs are critical mediators of synaptic plasticity and have dual effects on cognition. <sentence_start/>While NMDAR activation is essential for long-term potentiation (LTP) and memory consolidation<citation rid=\"bib11\" ref-type=\"bibr\" pmid=\"30461362\" doi=\"10.1152/jn.00468.2018\" pmcid=\"PMC6383656\" count=\"1\">11</citation>, <citation rid=\"bib12\" ref-type=\"bibr\" pmid=\"27338838\" doi=\"10.1016/j.tips.2016.05.012\" count=\"1\">12</citation>, <citation rid=\"bib13\" ref-type=\"bibr\" pmid=\"30209673\" doi=\"10.1007/s11064-018-2634-4\" pmcid=\"PMC6374185\" count=\"1\">13</citation>, <citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.1016/j.pharmthera.2019.107426\" pmcid=\"PMC6981256\" pmid=\"31629007\" count=\"1\">14</citation>, pathological overactivation of NMDAR triggers excessive Ca<sup>2+</sup> influx. <sentence_start/>This Ca<sup>2+</sup> dysregulation promotes mitochondrial dysfunction, oxidative stress, and synaptic loss<citation rid=\"bib15\" ref-type=\"bibr\" pmid=\"32700093\" doi=\"10.1007/s10571-020-00924-0\" pmcid=\"PMC11448584\" count=\"1\"><sup>15</sup></citation><sup>,</sup><citation rid=\"bib16\" ref-type=\"bibr\" pmid=\"32130882\" doi=\"10.1016/j.cmet.2020.02.004\" count=\"1\"><sup>16</sup></citation>. <sentence_start/>Perioperative stressors further exacerbate this cascade<citation rid=\"bib17\" ref-type=\"bibr\" pmid=\"29180259\" doi=\"10.1016/j.neubiorev.2017.11.011\" count=\"1\"><sup>17</sup></citation><sup>,</sup><citation rid=\"bib18\" ref-type=\"bibr\" pmid=\"24211778\" doi=\"10.1016/j.lfs.2013.10.028\" count=\"1\"><sup>18</sup></citation> by disrupting dendritic spine stability and impairing synaptic plasticity in key cognitive regions, such as the hippocampus and prefrontal cortex<citation rid=\"bib19\" ref-type=\"bibr\" pmid=\"16190898\" doi=\"10.1111/j.1460-9568.2005.04340.x\" count=\"1\">19</citation>, <citation rid=\"bib20\" ref-type=\"bibr\" pmid=\"24198365\" doi=\"10.1523/JNEUROSCI.2049-13.2013\" pmcid=\"PMC3818549\" count=\"1\">20</citation>, <citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.1186/s12974-019-1695-x\" pmcid=\"PMC6966800\" pmid=\"31948437\" count=\"1\">21</citation>. <sentence_start/>Consequently, NMDAR-dependent excitotoxicity is recognized as the central mechanism linking surgical insults to POCD. <sentence_start/>However, despite compelling evidence for this pathway, targeted pharmacological interventions remain underdeveloped."
+  },
+  {
+   "section": "article",
+   "text": "YZG-331, a rationally designed <italic>N</italic><sup>6</sup>-arylethyl adenosine derivative evolved from <italic>Gastrodia elata</italic>-derived <italic>N</italic><sup>6</sup>-(4-hydroxyphenylmethyl) adenosine (NHBA), which was recently approved for clinical trials, demonstrates superior neuropharmacokinetic properties, including BBB penetrability and thalamocortical biodistribution selectivity<citation rid=\"bib22\" ref-type=\"bibr\" pmid=\"22683621\" doi=\"10.1016/j.pbb.2012.06.002\" count=\"1\"><sup>22</sup></citation>. <sentence_start/>Preclinical evaluations have revealed the multimodal mechanisms of action of YZG-331, as outlined below: 1) adenosine receptor subtype-biased agonist, 2) P-glycoprotein transport modulation enhancing CNS bioavailability, and 3) glutamate-glutamine cycle modulation <italic>via</italic> GAD65 (glutamic acid decarboxylase 65) upregulation<citation rid=\"bib23\" ref-type=\"bibr\" pmid=\"27612629\" doi=\"10.1016/j.ejphar.2016.08.039\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"bib24\" ref-type=\"bibr\" pmid=\"37139420\" doi=\"10.1016/j.apsb.2022.11.011\" pmcid=\"PMC10149982\" count=\"1\"><sup>24</sup></citation>. <sentence_start/>Furthermore, quantitative microdialysis has demonstrated that YZG-331 reduces extracellular glutamate levels in the medial prefrontal cortex and ventromedial hypothalamus<citation rid=\"bib25\" ref-type=\"bibr\" pmid=\"31171170\" doi=\"10.1016/j.talanta.2019.04.068\" count=\"1\"><sup>25</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.1016/j.bbr.2022.113885\" pmid=\"35398229\" count=\"1\"><sup>26</sup></citation>. <sentence_start/>Given that previous studies have identified glutamate toxicity and disturbed glutamate metabolism as being involved in the pathological mechanism of POCD<citation rid=\"bib27\" ref-type=\"bibr\" pmid=\"25936412\" doi=\"10.3892/mmr.2015.3697\" count=\"1\"><sup>27</sup></citation>, we hypothesized that YZG-331 has the potential to alleviate the effects of POCD."
+  },
+  {
+   "section": "article",
+   "text": "Here, we elucidated the neuroprotective effects of YZG-331 using a murine POCD model. <sentence_start/>In this murine POCD model, YZG-331 rescued hippocampal-dependent spatial memory deficits and preserved dendritic spine density. <sentence_start/>Mechanistically, YZG-331 inhibits the NMDARs current in Mg<sup>2+</sup>-dependent manner, thereby reducing the synaptic NMDAR-dependent calcium influx and minimizing excitotoxic damage to neurons. <sentence_start/>These results thus identify YZG-331 as the first drug shown to mechanistically link Mg<sup>2+</sup>-dependent. <sentence_start/>NMDAR inhibition to the mitigation of excitotoxicity. <sentence_start/>Our findings establish YZG-331 as a novel NMDAR modulator with the potential for perioperative neuroprotection."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Animals"
+  },
+  {
+   "section": "article",
+   "text": "Male C57BL/6J mice (8 weeks old; Charles River Labs) were maintained under controlled conditions (22 \u00b0C, 50% humidity, 12-h light cycle) with free access to food/water. <sentence_start/>After 7-day acclimation, the mice were randomized into control, surgical, or treatment groups. <sentence_start/>All protocols followed NIH guidelines (NIH Publication, 8th Edition, 2011) and were approved by the Ethics Committee of Hebei Medical University (IACU-HEBMU-2021020)."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Pharmaceuticals"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 [<italic>N</italic><sup>6</sup>-(4-hydroxybenzyl) adenosine riboside] was synthesized and authenticated by Prof. Jiangong Shi's laboratory (Institute of Materia Medica, CAMS &amp; PUMC; Batch number 201110718). <sentence_start/>The treatment group mice received 10, 40, 80 mg/kg YZG-31 suspended in 0.5% carboxymethyl cellulose sodium (CMC-Na, Sigma, USA) <italic>via</italic> oral gavage 24 h preoperatively, while surgical controls received equivalent volumes of CMC-Na vehicle (\u2264200 \u03bcL/mouse)<citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.1016/j.talanta.2022.123418\" pmid=\"35472683\" count=\"1\"><sup>28</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Anesthesia and surgery"
+  },
+  {
+   "section": "article",
+   "text": "Right carotid artery exposure surgery was used to induce POCD, as previously described<citation rid=\"bib29\" ref-type=\"bibr\" pmid=\"28089560\" doi=\"10.1016/j.bbi.2017.01.005\" pmcid=\"PMC5316360\" count=\"1\"><sup>29</sup></citation><sup>,</sup><citation rid=\"bib30\" ref-type=\"bibr\" pmid=\"24577482\" doi=\"10.3233/JAD-132258\" count=\"1\"><sup>30</sup></citation>. <sentence_start/>Postoperative cognitive dysfunction was modeled <italic>via</italic> right common carotid artery exposure under 3% sevoflurane anesthesia (30% O<sub>2</sub>/70% N<sub>2</sub> carrier gas), with continuous respiratory monitoring using Datex Capnomac\u2122 (Aeonmed VP 300, China). <sentence_start/>The core temperature was maintained at 37.0 \u00b1 0.5 \u00b0C using a feedback-regulated heating pad. <sentence_start/>Following \u226530 min of anesthetic stabilization, a 1 cm midline cervical incision exposed the right common carotid artery, which was microsurgically isolated from the vagal trunk (3.5-5 mm segment) without neurovascular compromise. <sentence_start/>The operative field was irrigated with sterile saline and closed with 6-0 vicryl sutures under aseptic conditions (15 min total procedure time) (Fig. 1A). <sentence_start/>Postoperative analgesia included subcutaneous bupivacaine (3 mg/kg), with animals recovering spontaneously after 2 h of anesthesia.<sentence_start/>Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 improved cognitive and memory deficits in anesthesia/surgery mice. <sentence_start/>(A) Schematic representation of experimental groups. <sentence_start/>(B) Representative movement tracks and time heatmap in the novel object recognition test. <sentence_start/>(C, D) Recognition and discrimination experiments of new object recognition in groups of mice (Control <italic>n</italic> = 10; Surgery <italic>n</italic> = 11; 10 mg/kg YZG-331+Surgery <italic>n</italic> = 11; 40 mg/kg YZG-331+Surgery <italic>n</italic> = 10; 80 mg/kg YZG-331+Surgery <italic>n</italic> = 11; 40 mg/kg YZG-331+Control <italic>n</italic> = 11). <sentence_start/>(E-H) Represent short-term memory (STM, 1 h, E, G), long-term memory (LTM, 24 h, F, H) and quantification of fear conditioning in six groups of mice (Control <italic>n</italic> = 10; Surgery <italic>n</italic> = 13; 10 mg/kg YZG-331+Surgery <italic>n</italic> = 11; 40 mg/kg YZG-331+Surgery <italic>n</italic> = 10; 80 mg/kg YZG-331+Surgery <italic>n</italic> = 11; 40 mg/kg YZG-331+Control <italic>n</italic> = 11). <sentence_start/>The threshold for the freezing state was set at 10% according to the actual condition of the mice. <sentence_start/>All data were analyzed using one-way ANOVA with Dunnett's test and are presented as mean \u00b1 SEM. <sentence_start/><italic>\u2217P</italic> &lt; 0.05; <italic>\u2217\u2217P</italic> &lt; 0.01; \u2217<italic>\u2217\u2217P</italic> &lt; 0.001; ns, no significance."
+  },
+  {
+   "section": "article",
+   "text": "2.4"
+  },
+  {
+   "section": "article",
+   "text": "Open field test"
+  },
+  {
+   "section": "article",
+   "text": "The open-field test was conducted in a 45 cm \u00d7 45 cm \u00d7 45 cm arena with defined zones (10 cm peripheral border <italic>vs.</italic> central area), where mice underwent 5 min behavioral recording following central zone initiation, utilizing the SMART\u00ae tracking system (Panlab, Spain) to quantify total ambulatory distance and peripheral thigmotaxis."
+  },
+  {
+   "section": "article",
+   "text": "2.5"
+  },
+  {
+   "section": "article",
+   "text": "Object recognition task"
+  },
+  {
+   "section": "article",
+   "text": "Object recognition task was conducted to assess non-spatial memory consolidation in rodents according to established methodologies<citation rid=\"bib31\" ref-type=\"bibr\" pmid=\"36031768\" doi=\"10.24272/j.issn.2095-8137.2022.122\" pmcid=\"PMC9486526\" count=\"1\"><sup>31</sup></citation>. <sentence_start/>The mice underwent a 5 min acclimatization period in an open field for three days. <sentence_start/>During the training trials, two identical ethanol-sanitized (75%) wooden cubes were positioned 10 cm from the arena walls. <sentence_start/>The animals were oriented away from the objects for 1 min of habituation, followed by 5 min of unrestricted exploration. <sentence_start/>In the test phase (1 h post-training), one object was replaced with a novel geometric counterpart of identical material and dimensions. <sentence_start/>Exploratory behavior (sniffing, whisker contact \u22642 cm) was quantified during a 5 min session using SMART\u00ae tracking software, excluding non-cognitive interactions (<italic>e.g.</italic>, resting and passive observation). <sentence_start/>Memory performance was calculated using Eq. <sentence_start/>(1):"
+  },
+  {
+   "section": "article",
+   "text": "The discrimination index was calculated using Eq. <sentence_start/>(2):"
+  },
+  {
+   "section": "article",
+   "text": "2.6"
+  },
+  {
+   "section": "article",
+   "text": "Contextual fear conditioning"
+  },
+  {
+   "section": "article",
+   "text": "Rodent fear memory was assessed using a computer-controlled conditioning system (Panlab, Barcelona, Spain) with a standardized protocol<citation rid=\"bib31\" ref-type=\"bibr\" pmid=\"36031768\" doi=\"10.24272/j.issn.2095-8137.2022.122\" pmcid=\"PMC9486526\" count=\"1\"><sup>31</sup></citation>. <sentence_start/>Mice underwent 3-day acclimatization (5 min/day) followed by training: 120 s baseline observation preceding three 2 s footshocks (0.7 mA) delivered through stainless steel grid floorings. <sentence_start/>Memory retention was tested at 1 h (short-term memory) and 24 h (long-term memory) post-conditioning <italic>via</italic> 5 min of context re-exposure without aversive stimuli. <sentence_start/>Freezing behavior defined as motionless crouching posture with piloerection and defecation, excluding respiratory movements or tremors was quantified as Eq. <sentence_start/>(3):"
+  },
+  {
+   "section": "article",
+   "text": "2.7"
+  },
+  {
+   "section": "article",
+   "text": "Golgi-Cox staining"
+  },
+  {
+   "section": "article",
+   "text": "Brains were harvested 8 days post-surgery for Golgi-Cox staining<citation rid=\"bib32\" ref-type=\"bibr\" pmid=\"9531453\" doi=\"10.1016/s0165-0270(97)00163-5\" count=\"1\"><sup>32</sup></citation> using a commercial Kit (#PK401, FD Neuro Technologies, Columbia, MD, USA). <sentence_start/>Mice underwent terminal anesthesia <italic>via</italic> 3% sevoflurane in 30% O<sub>2</sub>/70% N<sub>2</sub>, followed by CO<sub>2</sub> asphyxiation in a sealed euthanasia chamber with continuous physiological monitoring of the parameters. <sentence_start/>The brains were immediately extracted and immersed in a pre-mixed impregnation solution (A + B) for 21 days at 22-25 \u00b0C under light-protected conditions. <sentence_start/>The tissue was subsequently cryoprotected in solution C (7 days), coronally sectioned at 100 \u03bcm using an oscillating tissue slicer, and mounted on gelatin-coated slides. <sentence_start/>The sections underwent sequential ethanol dehydration and xylene clearing prior to coverslipping. <sentence_start/>Hippocampal CA1 and cortical pyramidal neurons were imaged using a Pannoramic scanner scanning software (CaseViewer2.4 3DHISTECH). <sentence_start/>Dendritic arbors were reconstructed using NeuronJ (ImageJ) for quantitative analysis: 1) Sholl analysis: Dendritic complexity was quantified <italic>via</italic> concentric circle intersections (20 \u03bcm radial increments). <sentence_start/>2) Spine density: secondary dendrites were analyzed from primary branch origins by blinded observers."
+  },
+  {
+   "section": "article",
+   "text": "2.8"
+  },
+  {
+   "section": "article",
+   "text": "Cell culture"
+  },
+  {
+   "section": "article",
+   "text": "Primary cortical neuron cultures were maintained as previously described<citation rid=\"bib33\" ref-type=\"bibr\" pmid=\"27743934\" doi=\"10.1016/j.neuropharm.2016.07.008\" count=\"1\"><sup>33</sup></citation>. <sentence_start/>Fetuses were removed by cesarean section from the mice fetuses on gestational days. <sentence_start/>The cerebral cortex was isolated from fetal mice brains and minced, followed by digestion with 0.125% trypsin. <sentence_start/>The neurons were cultured in neurobasal medium containing 2% B-27 and 0.2 mol/L GlutaMAX\u2122 (Thermo Scientific). <sentence_start/>Half the volume of the medium was replaced every 3-4 days. <sentence_start/>HEK293T cells were cultured in 90% high-glucose Dulbecco's modified Eagle's medium (DMEM Thermo Scientific) with 10% fetal bovine serum (FBS Thermo Scientific). <sentence_start/>The cells were incubated at 37 \u00b0C in 5% CO<sub>2</sub>."
+  },
+  {
+   "section": "article",
+   "text": "2.9"
+  },
+  {
+   "section": "article",
+   "text": "Scanning electron microscope"
+  },
+  {
+   "section": "article",
+   "text": "The culture medium was aspirated from primary neurons cultured on coverslips. <sentence_start/>Within 3 min, the cells were rinsed with PBS (pH 7.4) to remove contaminants. <sentence_start/>Primary fixation was performed using 2% glutaraldehyde/4% paraformaldehyde in 0.1 mol/L phosphate buffer (PB, pH 7.4) for 2 h at room temperature (RT), followed by three PB washes (15 min each). <sentence_start/>Secondary fixation was performed using 1% osmium tetroxide (OsO<sub>4</sub>) in PB for 1.5 h (RT, light-protected), followed by PB rinsing. <sentence_start/>Ethanol dehydration was performed using a graded series (30%-100%, 15 min/step) before transitioning to isoamyl acetate. <sentence_start/>Critical point drying (CPD) using liquid CO<sub>2</sub> was performed before mounting on carbon tape-adhered SEM stubs. <sentence_start/>The specimens were sputter-coated with a 15 nm Au/Pd layer (30 s, 20 mA), achieving surface conductivity (&lt;10 \u03a9/cm<sup>2</sup> resistance) prior to SEM imaging."
+  },
+  {
+   "section": "article",
+   "text": "2.10"
+  },
+  {
+   "section": "article",
+   "text": "Transmission electron microscopy"
+  },
+  {
+   "section": "article",
+   "text": "The culture medium from well-cultured cells (at \u2264 70% confluency) was aspirated. <sentence_start/>The cells were then immediately quenched with pre-chilled electron microscopy fixative (4 \u00b0C) and fixed at room temperature in the dark for 5 min. <sentence_start/>Following fixation, the cells were gently detached by scraping in a single direction, taking care to prevent rupture. <sentence_start/>Primary fixation was followed by three 0.1 mol/L phosphate buffer (PB, pH 7.0) rinses (15 min/wash) and secondary fixation in 1% OsO<sub>4</sub>/PB (pH 7.4) for 2 h (RT, light-protected), with three subsequent PB rinses (pH 7.4, 15 min/wash). <sentence_start/>Dehydration was performed using a graded ethanol series (30%, 50%, 70%, 80%, 95%, and 100% <italic>v</italic>/<italic>v</italic>), with each step lasting 20 min, followed by two rinses in absolute acetone (100%, 15 min each) prior to epoxy resin infiltration."
+  },
+  {
+   "section": "article",
+   "text": "2.11"
+  },
+  {
+   "section": "article",
+   "text": "Microvia multi-array electrode technology"
+  },
+  {
+   "section": "article",
+   "text": "The MEA chips were sterilized using ultraviolet light for 20 min and coated with 0.1 mg/mL poly-<sc>d</sc>-lysine for 8 h. <sentence_start/>Cells were planted on MEA chips at a density of 1000 cells/mm<sup>2</sup> and incubated at 37 \u00b0C with 5% CO<sub>2</sub> every three days with a half-volume fluid exchange. <sentence_start/>During the formal experiments, the electrical activity of the neural network was continuously monitored and recorded using a Maestro Pro recording system at 37 \u00b0C and 5% CO<sub>2</sub>. <sentence_start/>The data were recorded using a BioCore V4 (Axion BioSystems, USA) with a data acquisition frequency set at 20 KHz and analyzed using the AxIS Navigator (Axion BioSystems, USA)."
+  },
+  {
+   "section": "article",
+   "text": "2.12"
+  },
+  {
+   "section": "article",
+   "text": "Proteomics analysis"
+  },
+  {
+   "section": "article",
+   "text": "Neurons cultured <italic>in vitro</italic> were lysed in urea buffer (8 mol/L urea, 100 mmol/L Tris-HCl, pH 8.0) containing protease inhibitors and ultrasonicated. <sentence_start/>Protein concentration was determined using the BCA assay. <sentence_start/>For each 100 \u03bcg protein aliquot, ice-cold acetone (4 \u00d7 volume) was added for precipitation at \u221240 \u00b0C (4 h). <sentence_start/>Precipitated proteins were reduced/alkylated prior to digestion with trypsin (1:50 <italic>w</italic>/<italic>w</italic> enzyme-to-substrate ratio) in 50 \u03bcL triethylammonium bicarbonate buffer at 37 \u00b0C overnight. <sentence_start/>The samples were then analyzed as described previously<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1172/jci.insight.91229\" pmcid=\"PMC5374063\" pmid=\"28405620\" count=\"1\"><sup>34</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "The tryptic peptides were desalted, lyophilized, and labeled using a TMT 6-plex Kit (Thermo Fisher Scientific, 90,061) according to the manufacturer's protocol. <sentence_start/>Labeled peptides were pooled, desalted, and fractionated into 11 fractions <italic>via</italic> high-pH reverse-phase chromatography using a BEH C18 column (Waters). <sentence_start/>Fractions were reconstituted in 0.1% formic acid and analyzed by nanoLC-Orbitrap Fusion Lumos Tribrid MS operated in data-dependent MS2 acquisition (DDA) mode. <sentence_start/>MS raw files were processed using Proteome Discoverer 2.1 with Sequest HT against the UniProt database ( ). <sentence_start/>Differentially expressed proteins were identified using volcano plot analysis (R package, ggplot2). <sentence_start/>Functional annotation was performed using DAVID v6.8 ( ) for Gene Ontology (GO) enrichment and pathway analysis. <sentence_start/>Heatmaps were generated to visualize the protein expression patterns."
+  },
+  {
+   "section": "article",
+   "text": "2.13"
+  },
+  {
+   "section": "article",
+   "text": "Brain slices preparation and electrophysiological recording"
+  },
+  {
+   "section": "article",
+   "text": "Fourteen-day-old male C57BL/6 mice (6-7 g) were anesthetized with sevoflurane and decapitated. <sentence_start/>The brain was rapidly dissected and immersed in oxygenated ice-cold slicing solution (in mmol/L: 210 Sucrose, 25 NaHCO<sub>3</sub>, 10 Glucose, 1.25 NaH<sub>2</sub>PO<sub>4</sub>, 25 NaHCO<sub>3</sub>, 2.5 KCl, 7 MgCl<sub>2</sub>, and 0.5 CaCl<sub>2</sub>; pH 7.4, adjusted with HCl) as described previously<citation rid=\"bib35\" ref-type=\"bibr\" doi=\"10.1016/j.neuropharm.2024.109893\" pmid=\"38428482\" count=\"1\"><sup>35</sup></citation>. <sentence_start/>Coronal hippocampal slices (300 \u03bcm) were prepared with a vibratome (VT1200S; Leica, Germany), incubated in oxygenated artificial cerebrospinal fluid (ACSF in mmol/L: 119 NaCl, 1 NaH<sub>2</sub>PO<sub>4</sub>, 11 Glucose, 2.5 KCl, 2.5 CaCl<sub>2</sub>, 1.3 MgSO<sub>4</sub>, 26 NaHCO<sub>3</sub>, osmolarity 305-310 mOsm, pH 7.4) at 34 \u00b0C for 40 min, and equilibrated at 25 \u00b0C for 1 h prior to recordings."
+  },
+  {
+   "section": "article",
+   "text": "Hippocampal NMDAR-eEPSCs: Whole-cell voltage-clamp recordings (+40 mV) were performed using borosilicate pipettes (4-6 M\u03a9, P97 Sutter Instruments, USA) filled with intracellular solution (in mmol/L: 115 CsMeSO<sub>4</sub>, 20 CsCl, 10 HEPES, 2.5 MgCl<sub>2</sub>, 4 Na<sub>2</sub>-ATP, 0.4 Na<sub>3</sub>-GTP, 0.6 EGTA, 5 QX-314, and 0.1 Spermin-C14; pH 7.3). <sentence_start/>ACSF was supplemented with 1 \u03bcmol/L TTX, 100 \u03bcmol/L PTX, and 10 \u03bcmol/L NBQX to isolate NMDAR-mediated currents, as described previously<citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1016/j.jep.2022.116048\" pmid=\"36549370\" count=\"1\"><sup>36</sup></citation>. <sentence_start/>Schaffer collateral fibers were stimulated (0.1 ms pulses, 1.5 \u00d7 -2 \u00d7 threshold) using tungsten electrodes. <sentence_start/>Signals were acquired at 20 kHz (3 kHz low-pass filter) using an Axon 700B amplifier and a 1440A digitizer (Molecular Devices, USA). <sentence_start/>The cell membrane potential was clamped at +40 mV during the recording of NMDAR-mediated excitatory postsynaptic currents (NMDAR-eEPSC)."
+  },
+  {
+   "section": "article",
+   "text": "Cultured Neuron Recordings: Whole-cell patch-clamp was conducted using an EPC10 amplifier (HEKA, Germany) with pipettes (3 M\u03a9) containing either: 1) Action potential recording (in mmol/L): 145 K<sup>+</sup>-gluconate, 3 KCl, 2 MgCl<sub>2</sub>, 1 CaCl<sub>2</sub>, 10 EGTA, 10 HEPES, and 2 Na<sub>2</sub>-ATP, (pH 7.25, 290-300 mOsm); 2) NMDA current solution (in mmol/L): 135 CsF, 0.5 MgCl<sub>2</sub>, 11 EGTA, 10 HEPES (pH 7.4, 290-300 mOsm). <sentence_start/>Neurons were perfused with: 1) Action potential solution (in mmol/L): 145 NaCl, 3 KCl, 2 MgCl<sub>2</sub>, 1 CaCl<sub>2</sub>, 10 glucose, and 10 HEPES, pH 7.4; 2) NMDA current solution (in mmol/L): 150 NaCl, 4 KCl, 2 CaCl<sub>2</sub>, 5 glucose, and 10 HEPBS; pH 8.0 adjusted with NaOH. <sentence_start/>For NMDA current recordings in HEK293T cells, the internal solution was identical to the neuronal NMDA current internal solution (solution 2). <sentence_start/>The cells were perfused with (in mM): 150 NaCl, 2.5 KCl, 1 CaCl<sub>2</sub>, and 10 HEPBS (pH 8.0, adjusted with NaOH). <sentence_start/>The series resistance was compensated (60%-80%). <sentence_start/>The resting membrane potential (RMP) was recorded for each neuron in the current clamp mode after stabilization."
+  },
+  {
+   "section": "article",
+   "text": "2.14"
+  },
+  {
+   "section": "article",
+   "text": "Calcium imaging"
+  },
+  {
+   "section": "article",
+   "text": "Cortical neurons (10-14 days <italic>in vitro</italic>) were incubated with 2 \u03bcmol/L Fura-2 AM (Invitrogen, USA) in HEPES-buffered saline (in mmol/L: 145 NaCl, 3 KCl, 1 MgCl<sub>2</sub>, 2 CaCl<sub>2</sub>, 10 glucose, 10 HEPES; pH 7.4 adjusted with NaOH) for 20 min at 37 \u00b0C, as previously described<citation rid=\"bib33\" ref-type=\"bibr\" pmid=\"27743934\" doi=\"10.1016/j.neuropharm.2016.07.008\" count=\"1\"><sup>33</sup></citation>. <sentence_start/>Following dye removal, intracellular calcium ([Ca<sup>2+</sup>]<sub>i</sub>) was measured ratiometrically using a MetaFluor imaging system (Molecular Devices). <sentence_start/>The neurons were transferred to a recording chamber and imaged under dual-wavelength excitation (340/380 nm) at 1 Hz. <sentence_start/>The 340/380 nm fluorescence ratio was calculated to quantify the [Ca<sup>2+</sup>]<sub>i</sub> dynamics."
+  },
+  {
+   "section": "article",
+   "text": "2.15"
+  },
+  {
+   "section": "article",
+   "text": "Plasmids and transfection"
+  },
+  {
+   "section": "article",
+   "text": "<italic>Glua1/Glua2</italic> and <italic>Glun1</italic>/<italic>Glun2a</italic> (<italic>Glun2b</italic>) plasmids were cotransfected to HEK293T cell at a 1:1 ratio using Lipofectamine\u2122 2000 transfection reagent (ThermoFisher, Cat# 11668019, USA). <sentence_start/><italic>Glun1</italic>/<italic>Glun2a</italic> (<italic>Glun2b</italic>)/<italic>Psd95</italic> plasmids were cotransfected at a 1:1:1 ratio. Glun2a-C-mCherry-Cry2 (kindly provided by Prof. Chen Zhang, Capital Medical University)<citation rid=\"bib37\" ref-type=\"bibr\" doi=\"10.1038/s41467-023-36046-6\" pmcid=\"PMC9873702\" pmid=\"36693856\" count=\"1\"><sup>37</sup></citation> and <italic>Psd95</italic> were cotransfected at a 1:1 ratio."
+  },
+  {
+   "section": "article",
+   "text": "2.16"
+  },
+  {
+   "section": "article",
+   "text": "Western blotting"
+  },
+  {
+   "section": "article",
+   "text": "Briefly, the cortex was collected and homogenized on ice in RIPA buffer (Sigma). <sentence_start/>The supernatant was collected following centrifugation (10,000\u00d7<italic>g</italic>, 10 min). <sentence_start/>The protein concentration was determined with the BCA protein Assay kit (Generay Biotechnology, Shanghai, China). <sentence_start/>Protein samples were loaded onto 4%-20% SDS-PAGE gels (Bio-Rad, Cat# 4568094, China) and transferred to a polyvinylidene difluoride membrane (Bio-Rad, Cat# 1620177, China). <sentence_start/>Primary antibodies, including anti-GluN1 (Proteintech, Cat# 27676-1-AP, USA), anti-GluN2A (Abcam, Cat# ab124913, USA), anti-GluN2B (Abcam, Cat# ab183942, USA), anti-GluA1 (Abcam, Cat# ab183797, USA), anti-GluA2 (Abcam, Cat# ab206293, USA), anti-PSD95 (Abcam, Cat# ab18258, USA), were incubated with the membrane overnight at 4 \u00b0C, then following the corresponding second antibodies incubating for 2 h at room temperature. <sentence_start/>The protein band was detected by chemiluminescence assay and ImageJ software. <sentence_start/>All proteins were normalized by <italic>\u03b2</italic>-actin (Proteintech, 20536-1-AP)."
+  },
+  {
+   "section": "article",
+   "text": "2.17"
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "All statistical analyses were performed using SPSS 21.0 software (SPSS, Inc., Chicago, IL, USA). <sentence_start/>All data are expressed as mean \u00b1 standard error of mean (SEM). <sentence_start/>For normally distributed data, differences were evaluated using one-way or two-way analysis of variance (ANOVA), coupled with Tukey's multiple comparison test. <sentence_start/>Differences in non-normal distributions were evaluated using the Kruskal-Wallis and Dunn-Bonferroni tests. <sentence_start/>Statistical significance was set at \u2217<italic>P</italic> &lt; 0.05; \u2217\u2217<italic>P</italic> &lt; 0.01; \u2217\u2217\u2217<italic>P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 ameliorates cognitive deficits in anesthesia/surgery mice"
+  },
+  {
+   "section": "article",
+   "text": "In accordance with a previous study<citation rid=\"bib29\" ref-type=\"bibr\" pmid=\"28089560\" doi=\"10.1016/j.bbi.2017.01.005\" pmcid=\"PMC5316360\" count=\"1\"><sup>29</sup></citation>, the protocol of right carotid artery exposure surgery with anesthesia (Fig. 1A) was adopted to replicate the POCD. <sentence_start/>Cognitive function was assessed using the object recognition test, contextual fear conditioning, and open field test, and conducted according to the timeline shown in Fig. 1A. <sentence_start/>In the object recognition test model, cognitive and memory impairments are determined by the recognition index and discrimination ratio. <sentence_start/>The representative trajectories and temporal heatmaps are illustrated in Fig. 1B. Anesthesia/surgery significantly reduced the recognition and discrimination indices, indicating cognitive impairment (Fig. 1B-D). <sentence_start/>Although YZG-331 alone did not affect cognitive function in the control, administration of YZG-331 at 40 or 80 mg/kg reversed these cognitive deficits in the anesthesia/surgery group (F (5,58) = 9.627, <italic>P</italic> &lt; 0.001; Fig. 1B-D). <sentence_start/>Contextual fear conditioning test showed YZG-331 (40 and 80 mg/kg) increased movement amplitude and reduced freezing time at both 1 h (F (5,59) = 13.26, <italic>P</italic> &lt; 0.001; Fig. 1E and G) and 24 h post-training (F (5,67) = 6.867, <italic>P</italic> &lt; 0.001; Fig. 1F and H), indicating pronounced learning/memory deficits in anesthesia/surgery mice. <sentence_start/>YZG-331 (40 and 80 mg/kg) significantly attenuated these impairments in the anesthesia/surgery group (Fig. 1E-H). <sentence_start/>In contrast, YZG-331 (40 mg/kg) had no effect on the control group (Fig. 1E-H). <sentence_start/>In the object recognition test and contextual fear conditioning, no intergroup differences in spontaneous locomotor activity were detected in the open field test measures in all of the groups (Supporting information Fig. S1), suggesting that neither anesthesia/surgery nor YZG-331 administration affected motor function or induced anxiety-like behavior. <sentence_start/>These findings indicate that anesthesia/surgery specifically impairs cognitive and emotional memory functions without affecting locomotor activity or anxiety-like behavior, and that YZG-331 effectively counteracts anesthesia/surgery-induced cognitive deficits."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 restored synaptic morphology in anesthesia/surgery mice and attenuates glutamate-induced neuronal morphological alterations"
+  },
+  {
+   "section": "article",
+   "text": "Synaptic plasticity is crucial for cognitive and memory functions. <sentence_start/>Here we examined the morphology of cortical and hippocampal neurons following anesthesia/surgery. <sentence_start/>Quantitative analysis revealed anesthesia/surgery-induced reductions in cortical dendritic spine density [F (2,30) = 53.88, <italic>P</italic> &lt; 0.001]; YZG-331 administration significantly restored the spine density (Fig. 2A-C). <sentence_start/>Sholl analysis further demonstrated a reduction in cortical dendritic branch length and neuronal complexity in anesthesia/surgery mice, as evidenced by reduced dendritic intersections [F (10,176) = 19.97, <italic>P</italic> &lt; 0.001] (Fig. 2D and E). <sentence_start/>These impairments were reversed by YZG-331 treatment (Fig. 2D and E).Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 rescued anesthesia/surgery-induced dendritic pathology in the prefrontal cortex and hippocampus. <sentence_start/>(A, B) Golgi staining of layer III of the mouse prefrontal cortex (A: 200\u00d7, <italic>n</italic> = 4, scale bar = 50 \u03bcm) and magnification of synapses (B: 1000\u00d7, <italic>n</italic> = 4, scale bar = 10 \u03bcm). <sentence_start/>(C) Cortical spine density quantification (control: <italic>n</italic> = 11; anesthesia/surgery: <italic>n</italic> = 10; YZG-331+anesthesia/surgery: <italic>n</italic> = 11). <sentence_start/>(D, E) Sholl analysis of cortical dendritic complexity in three groups: representative 2D neuronal tracings (left), where branch complexity is indicated by the colors in the trace (right), and the corresponding quantification of dendritic intersections (E; <italic>n</italic> = 6). <sentence_start/>(F, G) Hippocampal CA1 neurons (F: 200\u00d7, scale bar = 250 \u03bcm) and spines (G: 1000\u00d7, scale bar = 10 \u03bcm; <italic>n</italic> = 4). <sentence_start/>(H) Hippocampal spine density quantification (<italic>n</italic> = 10). <sentence_start/>(I, J) Hippocampal Sholl analysis in three groups: neuronal tracings (2D, left) accompanied by dendritic intersections graphs (right) (I) and quantification of dendritic intersections (J; <italic>n</italic> = 6). <sentence_start/>One-way ANOVA followed by Dunnett's test was used for panels C and H, while two-way ANOVA followed by Bonferroni <italic>post hoc</italic> test was used for panels E and J. All data are presented as mean \u00b1 SEM. <sentence_start/><italic>\u2217\u2217P</italic> &lt; 0.01; <italic>\u2217\u2217\u2217P</italic> &lt; 0.001; ns, no significance."
+  },
+  {
+   "section": "article",
+   "text": "Similarly, hippocampal neurons also exhibited reductions in spine density [F (2,27) = 24.3, <italic>P</italic> &lt; 0.001] and arborization complexity, as well as decreased dendritic intersections [F (13,238) = 47.68, <italic>P</italic> &lt; 0.001] (Fig. 2F-J) in the anesthesia/surgery group. <sentence_start/>Administration of YZG-331 attenuated these degenerative changes, restoring the hippocampal neuronal morphology to near-control levels. <sentence_start/>Our findings demonstrate that YZG-331 treatment effectively counteracts anesthesia/surgery-induced structural damage in cortical and hippocampal neurons, establishing its efficacy as a neuroprotective compound against dendritic atrophy and synaptic loss."
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 attenuates glutamate-induced neuronal morphological and functional alterations by suppressing excitability in cortical neurons"
+  },
+  {
+   "section": "article",
+   "text": "3.3.1"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 attenuated glutamate-induced morphological alterations"
+  },
+  {
+   "section": "article",
+   "text": "As previously mentioned, the pathogenesis of POCD involves glutamate toxicity<citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1016/j.bbr.2024.115290\" pmid=\"39396575\" count=\"1\"><sup>38</sup></citation>. <sentence_start/>We then investigated the morphology of cultured cortical neurons following glutamate-induced neuronal excitotoxicity. <sentence_start/>Consistent with the neuronal morphological changes observed in the POCD animal model, 24 h incubation with glutamate (1 mmol/L) induced significant morphological alterations, characterized by reduced cortical neuronal dendritic complexity and soma shrinkage (SEM quantification, Fig. 3A-D). <sentence_start/>This insult also induced mitochondrial ultrastructural damage, including swelling, cristae loss, membrane disruption, and vacuole-like alterations (TEM quantification, Fig. 3E-G). <sentence_start/>Co-treatment with YZG-331 (50 \u03bcmol/L) effectively reversed glutamate-induced deficits in dendritic arborization, soma atrophy, and mitochondrial integrity (Fig. 3A-G). <sentence_start/>These results demonstrate that YZG-331 preserves neuronal architecture and mitochondrial ultrastructure.<sentence_start/>Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 attenuated glutamate-induced excitotoxicity by suppressing the excitability of primary cultured cortical neurons. <sentence_start/>(A) SEM imaging of cultured cortical neuronal morphology (500\u00d7, scale bar = 100 \u03bcm). <sentence_start/>Green cells were labelled as representative neurons. <sentence_start/>(B, C) Sholl analysis of dendritic complexity of neurons in (A). <sentence_start/>(B) Concentric circles were drawn with a radius of 5.5 \u03bcm steps from the soma (left panel) for the three groups of neurons. <sentence_start/>The concentric circles are color-coded by the number of intersection points at different distances (right panel, orange = high-density intersection). <sentence_start/>(C) Quantification of dendritic intersections (<italic>n</italic> = 3). <sentence_start/>(D) Soma surface area in three groups of neurons (Control/Glu/YZG-331 + Glu: <italic>n</italic> = 21/25/17). <sentence_start/>(E) Transmission electron microscopy (TEM) ultrastructural analysis of mitochondria in cortical neurons from different groups (left: 5000\u00d7, scale bar = 2 \u03bcm; right: 20,000\u00d7, scale bar = 500 nm). <sentence_start/>(F) Quantification of mitochondrial cristae (<italic>n</italic> = 3). <sentence_start/>(G) Mitochondrial morphologic change in three groups of neurons (Control/Glu/YZG-331 + Glu: <italic>n</italic> = 14/12/12). <sentence_start/>(H) Representative color-coded heatmaps of MEA recordings of cortical neurons from a 24 well MEA plate in different groups. <sentence_start/>Red and blue indicate high and low firing activities, respectively. <sentence_start/>(I) Example raw traces of MEA recordings from individual neurons are shown at the top (20 \u03bcV, 5 s). <sentence_start/>The spikes indicate network bursts. <sentence_start/>The bottom shows a zoom-in image in the red frame (10 \u03bcV, 500 ms) (control: black; Glu: red; YZG-331 + Glu: green). <sentence_start/>(J, K) Quantification of synchrony index (H) and mean firing rate (MFR) of primary cultured cortical neurons (control, <italic>n</italic> = 8; Glu, <italic>n</italic> = 8; YZG-331 + Glu, <italic>n</italic> = 8). <sentence_start/>(L-O) Current-clamp recordings: typical depolarization-evoked spike trains with 10/50 \u03bcmol/L YZG-331 (L, M; 10-60 pA, 10-pA steps) and quantification of action potentials (N, O; <italic>n</italic> = 14) against injected current at above concentration. <sentence_start/>Two-way ANOVA followed by Bonferroni <italic>post hoc</italic> test was used for C, N and O. <sentence_start/>One-way ANOVA followed by Dunnett's test was used for D, F, G, J and K. <sentence_start/>All data are presented as the mean \u00b1 SEM. <sentence_start/><italic>\u2217P</italic> &lt; 0.05; <italic>\u2217\u2217P</italic> &lt; 0.01; <italic>\u2217\u2217\u2217P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "3.3.2"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 mitigates glutamate-induced impairment of cortical neuronal function"
+  },
+  {
+   "section": "article",
+   "text": "Neuronal excitability is one of the key mechanisms underlying POCD<citation rid=\"bib39\" ref-type=\"bibr\" doi=\"10.1111/cns.70024\" pmcid=\"PMC11366448\" pmid=\"39218798\" count=\"1\"><sup>39</sup></citation>. <sentence_start/>The spontaneous activity of primary cultured cortical neurons was recorded on Microelectrode array (MEA) over 7-10 days <italic>in vitro</italic> (Fig. 3H and J). <sentence_start/>Developing synaptic connections form functional neuronal networks characterized by propagating spontaneous activity, network bursts, and synchronized firing patterns (Fig. 3H and J). <sentence_start/>MEA recordings confirmed stable network firing activity in the control cultures for over 72 h. <sentence_start/>Glutamate exposure (1 mmol/L, 1 h) significantly suppressed the synchronized network firing patterns and reduced the mean firing rate (MFR) (Fig. 3H-K, Supporting information Fig. S2A). <sentence_start/>YZG-331 treatment partially restored spontaneous network activity, with significant recovery observed after 24 h of incubation (Fig. S2B). <sentence_start/>Furthermore, YZG-331 directly inhibited the intrinsic neuronal excitability (Fig. 3L-O). <sentence_start/>This was evidenced by its concentration-dependent inhibition of the frequency of depolarization-induced action potentials (evoked by 10-60 pA current steps; 41% reduction at 50 \u03bcmol/L, <italic>P</italic> &lt; 0.001; Fig. 3L-O). <sentence_start/>These findings establish a dual neuroprotective mechanism for YZG-331, which functions by mitigating glutamate-induced network desynchronization and directly suppressing intrinsic neuronal excitability."
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Proteomic profiling reveals YZG-331-mediated neuroprotection <italic>via</italic> NMDA receptor modulation"
+  },
+  {
+   "section": "article",
+   "text": "Proteomic analysis of primary cortical neurons under three conditions (control, glutamate, and YZG-331 + glutamate) identified 5059 proteins. <sentence_start/>Partial Least Squares Discriminant Analysis (PLS-DA) revealed distinct intergroup clustering (Supporting information Fig. S3A), as previously described<citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1016/j.jep.2025.119409\" pmid=\"39870338\" count=\"1\"><sup>40</sup></citation>. <sentence_start/>Volcano plots identified differentially expressed proteins (DEPs; logFC \u22651.2 or \u2264 0.8; <italic>\u2217P</italic> &lt; 0.05; Fig. S3B), yielding 660 DEPs between control and glutamate groups, 74 DEPs between glutamate and YZG-331 with glutamate and 26 co-regulated DEPs (co-DEPs). <sentence_start/>Among these co-DEPs, 19 proteins in the YZG-331 group exhibited expression profiles resembling those of the controls (Fig. 4A). <sentence_start/>Convergent KEGG/GO analyses revealed enriched glutamatergic synapse pathways (Fig. 4B), particularly NMDAR complexes, as key mediators of YZG-331's protection against glutamate-induced toxicity (Fig. 4C). <sentence_start/>As illustrated in Fig. 4D-J, Western blot analysis demonstrated a significant upregulation of GLUN1, GLUN2A, GLUN2B, and GLUA2 expression in the cortex of the anesthetic/surgery mouse model. <sentence_start/>Conversely, the expression of PSD95 was notably downregulated in the same model. <sentence_start/>YZG-331 significantly reversed the upregulation of GLUN2A and GLUN2B induced by anesthetic/surgery without affecting the expression of other proteins. <sentence_start/>These findings identified NMDAR modulation as the central mechanism underlying the neuroprotective effects of YZG-331 against glutamate toxicity.<sentence_start/>Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Proteomic Profiling identified NMDAR modulation as the mechanism of YZG-331 neuroprotection. <sentence_start/>(A) Hierarchical clustering of 26 co-DEPs in the experimental groups. <sentence_start/>(B) KEGG pathway enrichment analysis of glutamate-induced DEPs highlighted their significant involvement in glutamate-induced cell toxicity. <sentence_start/>(C) GO term enrichment demonstrates tripartite regulation of NMDAR complexes (molecular function), postsynaptic membranes (cellular component), and neuroplasticity (biological process). <sentence_start/>(D) Representative images of Western blots for the expression of GLUN2A, GLUN2B, GLUNR1, GLUA1, PSD95, and GLUA2 in the cortex of different Groups. <sentence_start/>(E-J) Quantitative analysis of the results. <sentence_start/>(<italic>n</italic> = 3 mice for each group: control, anesthetic/surgery, and YZG-331) One-way ANOVA followed by Dunnett's test was used for E-J. All data are presented as the mean \u00b1 SEM. <sentence_start/><italic>\u2217P</italic> &lt; 0.05; <italic>\u2217\u2217P</italic> &lt; 0.01; <italic>\u2217\u2217\u2217P</italic> &lt; 0.001; ns, no significance."
+  },
+  {
+   "section": "article",
+   "text": "3.5"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 attenuates glutamate-induced calcium dysregulation <italic>via</italic> NMDAR modulation"
+  },
+  {
+   "section": "article",
+   "text": "3.5.1"
+  },
+  {
+   "section": "article",
+   "text": "Calcium imaging reveals NMDAR subtype of iGluR inhibition by YZG-331"
+  },
+  {
+   "section": "article",
+   "text": "To confirm the proteomic results, we performed functional validation using calcium imaging. <sentence_start/>YZG-331 suppressed glutamate-induced [Ca<sup>2+</sup>]<sub>i</sub> overload in a dose-dependent manner (peak IC<sub>50</sub> = 11.2 \u03bcmol/L, area under the curve: AUC IC<sub>50</sub> = 8.3 \u03bcmol/L, Fig. 5A and B), achieving 93% peak and 92% AUC inhibition at 100 \u03bcmol/L. The broad-spectrum efficacy of YZG-331 was also demonstrated by its ability to inhibit NMDA-induced [Ca<sup>2+</sup>]<sub>i</sub> overload (88% peak inhibition, 91% AUC inhibition, IC<sub>50</sub> = 7.0/5.2 \u03bcmol/L, Fig. 5C and D). <sentence_start/>This inhibition profile reveals that YZG-331 is a novel stabilizer of neuronal calcium homeostasis.<sentence_start/>Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 modulates [Ca<sup>2+</sup>]<sub>i</sub> influx through targeting NMDA receptor targeting. <sentence_start/>(A) Calcium imaging paradigm for quantifying agonist Glu-induced [Ca<sup>2+</sup>]<sub>i</sub> upregulation. <sentence_start/>(B) Concentration-dependent inhibition profiles: heatmaps (left) and normalized dose-response curves (right) of YZG-331 on [Ca<sup>2+</sup>]<sub>i</sub> peak and AUC for Glu. <sentence_start/>(C) Calcium imaging paradigm for quantifying agonist NMDA-induced [Ca<sup>2+</sup>]<sub>i</sub> upregulation. <sentence_start/>(D) Concentration-dependent inhibition profiles: heatmaps (left) and normalized dose-response curves (right) of YZG-331 on [Ca<sup>2+</sup>]<sub>i</sub> peak and AUC for NMDA. <sentence_start/>(E) Schematic diagram of the neuronal whole-cell patch clamp. <sentence_start/>(F, G) NMDA-evoked current inhibition: representative traces (F) and quantitation (G) showing dose-responsive blockade (IC<sub>50</sub> = 10.12 \u03bcmol/L, <italic>n</italic> = 34 cells). <sentence_start/>(H-J) Synaptic NMDAR-EPSC modulation: experimental schematic (H), superimposed eEPSC traces at +40 mV (I, control: black; 50 \u03bcmol/L YZG-331: red), and amplitude quantification (J, Student's paired two-tailed <italic>t</italic> test, <italic>n</italic> = 12 cells from five mice; <italic>\u2217\u2217P</italic> &lt; 0.01). <sentence_start/>All data are presented as mean \u00b1 SEM."
+  },
+  {
+   "section": "article",
+   "text": "To further substantiate the inhibitory effect of YZG-331 on NMDAR, whole-cell patch-clamp experiments were conducted on cortical neurons to directly verify its antagonistic effect on NMDA receptors. <sentence_start/>YZG-331 dose-dependently inhibited the NMDAR current, with a 67% reduction in current at 50 \u03bcmol/L (Fig. 5E-G). <sentence_start/>Additionally, hippocampal slice recordings demonstrated 16.5% suppression of YZG-331 on the amplitude of NMDAR-mediated excitatory postsynaptic currents (NMDAR-eEPSCs) (83.5% \u00b1 4.7% of control, Fig. 5H-J), confirming the efficacy of YZG-331 in inhibiting NMDARs at the synaptic level. <sentence_start/>Taken together, these findings confirm that the NMDAR is the primary mechanism underlying YZG-331's calcium homeostasis."
+  },
+  {
+   "section": "article",
+   "text": "3.5.2"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 suppresses AMPA/kainate receptor-mediated calcium influx through NMDARs"
+  },
+  {
+   "section": "article",
+   "text": "We next tested whether YZG-331 exerted inhibitory effects on AMPA/kainic acid (KA)-mediated calcium influx. <sentence_start/>The results displayed that YZG-331 suppressed AMPA-induced [Ca<sup>2+</sup>]<sub>i</sub> overload in a dose-dependent manner (84% peak inhibition, 92% AUC inhibition, IC<sub>50</sub> = 3.7/1.8 \u03bcmol/L, Fig. 6A and B), as well as KA-induced [Ca<sup>2+</sup>]<sub>i</sub> overload (95% peak inhibition, 99% AUC inhibition, IC<sub>50</sub> = 0.31/0.15 \u03bcmol/L, Fig. 6C and D). <sentence_start/>However, under Mg<sup>2+</sup>-free conditions, YZG-331 lost efficacy against AMPA/KA-induced Ca<sup>2+</sup> influx (Fig. 6E and G). <sentence_start/>Meanwhile, application of the NMDAR antagonist (APV) abolished AMPA/KA-induced calcium influx in the presence of YZG-331 (Fig. 6F and H). <sentence_start/>These results indicate that AMPA/KA-induced calcium influx relies on NMDARs. <sentence_start/>We then examined whether YZG-331 acts directly on AMPARs through the heterologous expression of AMPA receptor subunits (<italic>Glua1</italic> and <italic>Glua2</italic>) in the HEK293T cells. <sentence_start/>YZG-331 does not alter glutamate or AMPA-evoked [Ca<sup>2+</sup>]<sub>i</sub> (in the presence of 1 mmol/L Mg<sup>2+</sup>, Supporting information Fig. S4A and S4B). <sentence_start/>Additionally, YZG-331 did not change the desensitization kinetics (<italic>\u03c4</italic> = 4.3 \u00b1 0.2 ms <italic>vs.</italic> control 4.1 \u00b1 0.3 ms) and the amplitude of GLUA2 currents (98.7 \u00b1 3.1% of baseline) (Fig. S4C and S4D). <sentence_start/>Collectively, these findings suggest that the suppression of YZG-331 on AMPA/KA-induced calcium influx relies on NMDARs.Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "The effect of YZG-331 on AMPA receptor- and kainate receptor-mediated [Ca<sup>2+</sup>]<sub>i</sub> influx. <sentence_start/>(A) Calcium imaging paradigm for quantifying agonist AMPA-induced [Ca<sup>2+</sup>]<sub>i</sub> upregulation. <sentence_start/>(B) Concentration-dependent inhibition profiles: heatmaps (left) and normalized dose-response curves (right) of YZG-331 on [Ca<sup>2+</sup>]<sub>i</sub> peak and AUC for AMPA. <sentence_start/>(C) Calcium imaging paradigm for quantifying agonist KA-induced [Ca<sup>2+</sup>]<sub>i</sub> upregulation. <sentence_start/>(D) Concentration-dependent inhibition profiles: heatmaps (left) and normalized dose-response curves (right) of YZG-331 on [Ca<sup>2+</sup>]<sub>i</sub> peak and AUC for KA. <sentence_start/>(E, F) Representative traces and quantitative analysis illustrate the effect of YZG-331 on AMPA receptors-mediated elevations in [Ca<sup>2+</sup>]<sub>i</sub> in neurons treated without or with APV under Mg<sup>2+</sup>-free conditions. <sentence_start/>(G, H) Representative traces and quantitative analysis illustrate the effect of YZG-331 on kainate receptors-mediated elevations in [Ca<sup>2+</sup>]<sub>i</sub> in neurons treated without or with APV under Mg<sup>2+</sup>-free conditions. <sentence_start/>Statistical annotation: data were analyzed using paired <italic>t</italic> test (E-H). <sentence_start/>All data are presented as the mean \u00b1 SEM; \u2217\u2217\u2217<italic>P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "3.6"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 potentiates Mg<sup>2+</sup> blockade of NMDAR"
+  },
+  {
+   "section": "article",
+   "text": "Given that YZG-331 lost its inhibitory effect on AMPA/KA induced calcium influx without magnesium, we assume that magnesium is involved in the inhibition of calcium influx by YZG-331. <sentence_start/>To verify this hypothesis, Mg<sup>2+</sup> was applied to test its inhibition of NMDA-mediated calcium influx. <sentence_start/>Mg<sup>2+</sup> alone induced concentration-dependent suppression on NMDA-evoked [Ca<sup>2+</sup>]<sub>i</sub> upregulation (peak: 59.1 \u00b1 2.5% to 12.8 \u00b1 2.9%; AUC: 46.2 \u00b1 2.2% to 5.5 \u00b1 1.3% at 1-30 mmol/L Mg<sup>2+</sup>, Fig. 7A-C). <sentence_start/>Strikingly, Mg<sup>2+</sup>-free conditions abrogated YZG-331's inhibitory efficacy on NMDA responses (Fig. 7D ), while increasing extracellular Mg<sup>2+</sup> (0.01-0.3 mmol/L) progressively enhanced YZG-331 (50 \u03bcmol/L)-mediated suppression (Fig. 7E-H). <sentence_start/>YZG-331 significantly enhanced the inhibitory potency of Mg<sup>2+</sup> on NMDAR, with a 28.6-fold increase in peak inhibition (IC<sub>50</sub> = 0.035 mmol/L compared to control 1.99 mmol/L) and a 50-fold increase in AUC inhibition (IC<sub>50</sub> = 0.02 mmol/L compared to control 1.15 mmol/L). <sentence_start/>This indicates the allosteric potentiation effect of YZG-331 on the magnesium blockade of NMDAR (Fig. 7I). <sentence_start/>This synergistic mechanism of magnesium with YZG-331 inhibits pathological calcium overload, establishing YZG-331 as a novel pharmacodynamic inhibitor of the NMDAR.Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "YZG-331 potentiates Mg<sup>2+</sup> blockade of NMDAR. <sentence_start/>(A) Mg<sup>2+</sup>-dependent suppression of NMDA-evoked [Ca<sup>2+</sup>]<sub>i</sub> upregulation in cortical neurons (200 \u03bcmol/L NMDA). <sentence_start/>(B, C) Quantitative inhibition of peak amplitude (peak, B) and integrated calcium load (AUC, C) by Mg<sup>2+</sup> (0-30 mmol/L). <sentence_start/>(D-H) Mg<sup>2+</sup>-concentration gradient (0-300 \u03bcmol/L) revealing YZG-331's (50 \u03bcmol/L) conditional efficacy: inhibition achieved at 100 \u03bcmol/L Mg<sup>2+</sup> in the presence of YZG-331 (peak 29.3 \u00b1 2.1%, AUC 18.7 \u00b1 1.8%). <sentence_start/>(I) Leftward shift of Mg<sup>2+</sup> dose-response curves with YZG-331 (50 \u03bcmol/L) co-application (peak IC<sub>50</sub> = 0.035 mmol/L <italic>vs.</italic> control 1.99 mmol/L; AUC 0.02 mmol/L <italic>vs.</italic> 1.15 mmol/L, <italic>n</italic> = 25). <sentence_start/>Statistical annotation: data were analyzed using one-way ANOVA followed by Dunnett's test (B, C), paired <italic>t</italic> test (D-H), and two-way ANOVA followed by Bonferroni <italic>post hoc</italic> test (I). <sentence_start/>All data are presented as the mean \u00b1 SEM; <italic>\u2217\u2217P</italic> &lt; 0.01; <italic>\u2217\u2217\u2217P</italic> &lt; 0.001."
+  },
+  {
+   "section": "article",
+   "text": "To elucidate the molecular mechanism underlying YZG-331-mediated NMDAR regulation, we conducted functional studies using HEK293T cells overexpressing recombinant NMDAR subunits. <sentence_start/>Given that PSD95 scaffolds NMDAR at synaptic sites <italic>via</italic> PDZ domain interactions<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1172/jci.insight.91229\" pmcid=\"PMC5374063\" pmid=\"28405620\" count=\"1\"><sup>34</sup></citation>, we co-expressed <italic>Psd95</italic> with <italic>Glun1</italic>/<italic>Glun2A</italic> in HEK293T cells. <sentence_start/>Strikingly, YZG-331 exhibited no inhibitory effect in the Mg<sup>2+</sup>-free medium (Fig. 8A), while it completely abolished NMDA-evoked [Ca<sup>2+</sup>]<sub>i</sub> increases in the presence of 1 mmol/L Mg<sup>2+</sup> (Fig. 8B). <sentence_start/>This Mg<sup>2+</sup>-dependent inhibition pattern was also observed in GLUN1/GLUN2B/PSD95-expressing cells (Fig. 8C and D). <sentence_start/>Electrophysiological recordings further confirmed that YZG-331 significantly attenuated NMDAR-mediated currents, specifically when Mg<sup>2+</sup> was present (Fig. 8E and F). <sentence_start/>These data establish that the NMDAR antagonism exerted by YZG-331 requires the presence of Mg<sup>2+</sup>.Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Mg<sup>2+</sup>-coordinated allosteric inhibition of NMDAR by YZG-331. <sentence_start/>YZG-331 effects on NMDA-induced [Ca<sup>2+</sup>]<sub>i</sub> responses in HEK293 cells expressing recombinant NMDAR. <sentence_start/>(A) GLUN1/GLUN2A/PSD95 without Mg<sup>2+</sup> (<italic>n</italic> = 11). <sentence_start/>(B) GLUN1/GLUN2A/PSD95 with 1 mmol/L Mg<sup>2+</sup> (<italic>n</italic> = 12). <sentence_start/>(C) GLUN1/GLUN2B/PSD95 without Mg<sup>2+</sup> (<italic>n</italic> = 10). <sentence_start/>(D) GLUN1/GLUN2B/PSD95 with 1 mmol/L Mg<sup>2+</sup> (<italic>n</italic> = 10). <sentence_start/>(E, F) Whole-cell patch-clamp recordings of NMDA receptor currents. <sentence_start/>(E) GLUN1/GLUN2A/PSD95 without Mg<sup>2+</sup> (<italic>n</italic> = 6). <sentence_start/>(F) GLUN1/GLUN2A/PSD95 with 30 \u03bcmol/L Mg<sup>2+</sup> (<italic>n</italic> = 6). <sentence_start/>(G-I) Optogenetic reconstitution of GLUN2A-CTD/PSD95 phase separation. <sentence_start/>(G) Time-lapse imaging of GLUN2A-CTD-mCherry condensates under blue light stimulation (8-40 s; top: no Mg<sup>2+</sup>, bottom: with 1 mmol/L Mg<sup>2+</sup>). <sentence_start/>(H) Magnified view of the boxed regions in (G). <sentence_start/>(I) Quantification of condensates (&gt;0.5 \u03bcm\u00b2) showing Mg<sup>2+</sup>-dependent suppression by YZG-331 (black: control, <italic>n</italic> = 14; red: YZG-331 + Mg<sup>2+</sup>, <italic>n</italic> = 12; \u2217\u2217\u2217<italic>P</italic> &lt; 0.001, two-tailed <italic>t</italic> test). <sentence_start/>Data were analyzed using a paired <italic>t</italic> test for A-F and two-way ANOVA followed by Bonferroni <italic>post hoc</italic> test for I. <sentence_start/>All data are presented as the mean \u00b1 SEM; <italic>\u2217\u2217\u2217P</italic> &lt; 0.001; ns, no significance."
+  },
+  {
+   "section": "article",
+   "text": "To further characterize this molecular interplay, we employed optogenetic clustering assays with mCherry-Cry2-tagged to the C-terminal domain (CTD) of <italic>Glun2A</italic>. In the presence of YZG-331, large CTD-PSD95 aggregates were observed to form in a time-dependent pattern in the absence of Mg<sup>2+</sup> (Fig. 8G and H). <sentence_start/>Remarkably, Mg<sup>2+</sup> (1 mmol/L) substantially reduced the number of macromolecular assemblies (Fig. 8G and H), with quantitative analysis confirming a significant decrease in droplet numbers compared to Mg<sup>2+</sup>-free conditions (<italic>P</italic> &lt; 0.001; Fig. 8I). <sentence_start/>Collectively, these findings indicate that YZG-331 exerts regulatory effects on NMDAR by enhancing Mg<sup>2+</sup>-dependent channel blockade. <sentence_start/>This synergy between the pharmacological potentiation of Mg<sup>2+</sup> blockade on NMDAR assembly provides a novel therapeutic paradigm for mitigating NMDAR-mediated excitotoxicity."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "POCD presents a significant clinical challenge as there are currently no effective preventive or therapeutic agents available for this condition. <sentence_start/>Our findings demonstrate that the adenosine analogue YZG-331 effectively mitigates cognitive deficits and dendritic spine loss in a POCD mouse model. <sentence_start/>Building upon its known sedative properties, we elucidate a novel neuroprotective mechanism whereby YZG-331 alleviates POCD-induced neuronal impairments by specifically modulating NMDAR function. <sentence_start/>Crucially, we demonstrate that YZG-331 suppresses NMDAR by enhancing the potency of Mg<sup>2+</sup>. <sentence_start/>The targeted inhibition of NMDAR provides a compelling molecular basis for the restoration of cognitive function and synaptic integrity. <sentence_start/>This establishes YZG-331 as a promising therapeutic candidate for POCD and highlights the critical interplay between Mg<sup>2+</sup> and NMDAR dynamics for future modulator development. <sentence_start/>Our findings advance the understanding of therapeutic interventions for POCD and provide a novel approach to modulating NMDAR signaling."
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Synaptic reconfiguration as a therapeutic target"
+  },
+  {
+   "section": "article",
+   "text": "Clinical studies have identified POCD as a critical clinical challenge during the perioperative period. <sentence_start/>Cognitive impairment represents the most prominent symptom of POCD, often persisting for extended durations. <sentence_start/>Synaptic plasticity is a critical determinant of cognitive function, and its disruption is a hallmark of POCD. <sentence_start/>The observed dendritic atrophy and impaired Sholl intersections (Fig. 2) in the POCD models confirm the previous evidence that cognitive decline originates from excitatory synapse destabilization<citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.1186/s12974-019-1695-x\" pmcid=\"PMC6966800\" pmid=\"31948437\" count=\"1\"><sup>21</sup></citation><sup>,</sup><citation rid=\"bib41\" ref-type=\"bibr\" doi=\"10.1002/advs.202202228\" pmcid=\"PMC9353455\" pmid=\"35616407\" count=\"1\"><sup>41</sup></citation>. <sentence_start/>Here, we demonstrate that YZG-331, a blood-brain barrier-penetrant adenosine analog, significantly rescues anesthesia/surgery-associated cognitive deficits and reverses synaptic structural deficits in the cortex and hippocampus of anesthesia/surgery mice. <sentence_start/>Notably, YZG-331 demonstrates an exceptional safety profile and no dependence liability, attributes that are critical for perioperative pharmacological interventions."
+  },
+  {
+   "section": "article",
+   "text": "4.2"
+  },
+  {
+   "section": "article",
+   "text": "Mechanistic insights into Mg<sup>2+</sup> modulation"
+  },
+  {
+   "section": "article",
+   "text": "At the molecular level, our investigations revealed YZG-331's neuroprotective efficacy against glutamate-induced excitotoxicity, a pathological hallmark of POCD<citation rid=\"bib30\" ref-type=\"bibr\" pmid=\"24577482\" doi=\"10.3233/JAD-132258\" count=\"1\"><sup>30</sup></citation>. <sentence_start/>YZG-331 significantly preserved dendritic architecture and mitochondrial integrity (Fig. 3), whereas proteomic profiling identified NMDAR modulation as a key mechanistic component (Fig. 4). <sentence_start/>The centrality of the NMDAR to excitotoxic pathology<citation rid=\"bib42\" ref-type=\"bibr\" pmid=\"11520626\" doi=\"10.1016/s0378-3782(01)00189-x\" count=\"1\"><sup>42</sup></citation><sup>,</sup><citation rid=\"bib43\" ref-type=\"bibr\" pmid=\"29260492\" doi=\"10.1007/s11064-017-2451-1\" count=\"1\"><sup>43</sup></citation> has been reported previously. <sentence_start/>This pathway may represent a maladaptive response to neuronal stress, potentially modulating NMDAR surface expression or assembly to alter excitatory signaling. <sentence_start/>YZG-331 exhibited dose-dependent inhibition of NMDA-mediated calcium influx while displaying NMDAR subtype expression specificity, with AMPA/kainate receptor activity remaining unaffected. <sentence_start/>These functional findings were consistent with the protein expression data, thereby confirming the role of YZG-331 in modulating NMDAR signaling. <sentence_start/>Collectively, these findings indicate that the neuroprotective effects of YZG-331 are mediated through functional normalization of NMDAR activity, which in turn halts dendritic spine loss and promotes synaptic recovery. <sentence_start/>Furthermore, YZG-331 reversed the upregulation of GLUN2A/2B induced by POCD, reflecting restoration of synaptic homeostasis-a phenomenon that is fully consistent with its inhibitory action on NMDAR function. <sentence_start/>However, further exploration is required to elucidate the mechanisms by which YZG-331 modulates the protein expression of NMDAR subunits."
+  },
+  {
+   "section": "article",
+   "text": "NMDAR is intrinsically regulated by Mg<sup>2+</sup> through high-affinity binding within its channel pore, establishing a critical physiological safeguard against calcium overload<citation rid=\"bib44\" ref-type=\"bibr\" pmid=\"20716669\" doi=\"10.1124/pr.109.002451\" pmcid=\"PMC2964903\" count=\"1\"><sup>44</sup></citation><sup>,</sup><citation rid=\"bib45\" ref-type=\"bibr\" pmid=\"40010346\" doi=\"10.1016/j.neuron.2025.01.021\" count=\"1\"><sup>45</sup></citation>. <sentence_start/>Patients with GRIN mutations exhibiting Mg<sup>2+</sup> blockade dysfunction experience neuronal developmental delay, intellectual disability, and epilepsy<citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1038/s41467-018-02927-4\" pmcid=\"PMC5840332\" pmid=\"29511171\" count=\"1\">46</citation>, <citation rid=\"bib47\" ref-type=\"bibr\" doi=\"10.1007/s00018-023-05069-z\" pmcid=\"PMC10973091\" pmid=\"38538865\" count=\"1\">47</citation>, <citation rid=\"bib48\" ref-type=\"bibr\" pmid=\"31429998\" doi=\"10.1002/humu.23895\" pmcid=\"PMC6874887\" count=\"1\">48</citation>. <sentence_start/>Therefore, Mg<sup>2+</sup> is often used for neuronal disorders, including migraine, depression, epilepsy, stroke, and Alzheimer's disease<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1017/S1461145713001089\" pmid=\"24067405\" count=\"1\"><sup>49</sup></citation><sup>,</sup><citation rid=\"bib50\" ref-type=\"bibr\" pmid=\"25540137\" doi=\"10.1152/physrev.00012.2014\" count=\"1\"><sup>50</sup></citation>. <sentence_start/>Developing drugs that enhance the efficacy of Mg<sup>2+</sup> is an effective approach for developing NMDAR drugs. <sentence_start/>Our data reveal that YZG-331 acts through this groundbreaking mechanism by enhancing the voltage-dependent Mg<sup>2+</sup> blockade efficacy by 50-fold (in AUC Fig. 7). <sentence_start/>This is an unprecedented pharmacological property among NMDAR antagonists. <sentence_start/>Electrophysiological evidence of reduced NMDAR currents and synaptic transmission (Fig. 8E and F, Fig. 5E-J) supports this novel modulatory effect. <sentence_start/>This distinguishes YZG-331 from conventional NMDAR antagonists (<italic>e.g.</italic>, MK-801), which compete with the Mg<sup>2+</sup> binding site<citation rid=\"bib45\" ref-type=\"bibr\" pmid=\"40010346\" doi=\"10.1016/j.neuron.2025.01.021\" count=\"1\"><sup>45</sup></citation><sup>,</sup><citation rid=\"bib51\" ref-type=\"bibr\" pmid=\"29756080\" doi=\"10.1016/j.cophys.2017.12.013\" pmcid=\"PMC5945193\" count=\"1\"><sup>51</sup></citation><sup>,</sup><citation rid=\"bib52\" ref-type=\"bibr\" pmid=\"27839871\" doi=\"10.1016/j.ajhg.2016.10.002\" pmcid=\"PMC5142120\" count=\"1\"><sup>52</sup></citation>, suggesting a novel mechanism of NMDAR modulation by YZG-331 rather than direct channel antagonism. <sentence_start/>This Mg<sup>2+</sup>-sensitizing property holds particular therapeutic promise, given the narrow physiological range of serum Mg<sup>2+</sup> (0.75-1.0 mmol/L) and toxicity risks at supra-physiological concentrations<citation rid=\"bib53\" ref-type=\"bibr\" pmid=\"35352638\" doi=\"10.2174/1871527321666220329141639\" count=\"1\"><sup>53</sup></citation><sup>,</sup><citation rid=\"bib54\" ref-type=\"bibr\" pmid=\"23402996\" doi=\"10.1016/j.neuropharm.2013.01.024\" pmcid=\"PMC3778432\" count=\"1\"><sup>54</sup></citation>. <sentence_start/>By enhancing endogenous Mg<sup>2+</sup> efficacy rather than competing with it, YZG-331 circumvents the limitations of current NMDAR-targeted therapies while maintaining homeostatic ion balance. <sentence_start/>The clinical implications extend beyond POCD to various neuro-pathologies characterized by GRIN mutations<citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1038/s41467-018-02927-4\" pmcid=\"PMC5840332\" pmid=\"29511171\" count=\"1\"><sup>46</sup></citation>."
+  },
+  {
+   "section": "article",
+   "text": "PSD-95, the principal organizer of postsynaptic nanodomains, orchestrates NMDAR synaptic localization through high-affinity PDZ domain interactions<citation rid=\"bib55\" ref-type=\"bibr\" pmid=\"15537884\" doi=\"10.1523/JNEUROSCI.3159-04.2004\" pmcid=\"PMC6730183\" count=\"1\"><sup>55</sup></citation>. <sentence_start/>PSD-95 promotes the clustering of NMDAR at synapses<citation rid=\"bib56\" ref-type=\"bibr\" pmid=\"8755482\" doi=\"10.1016/s0896-6273(00)80284-6\" count=\"1\"><sup>56</sup></citation> and reduces their desensitization<citation rid=\"bib57\" ref-type=\"bibr\" doi=\"10.1523/JNEUROSCI.23-35-11244.2003\" pmcid=\"PMC6741033\" pmid=\"14657184\" count=\"1\"><sup>57</sup></citation>. <sentence_start/>Additionally, PSD-95 was reported to form a liquid condensate with NMDAR and other postsynaptic proteins<citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.1186/s12974-019-1695-x\" pmcid=\"PMC6966800\" pmid=\"31948437\" count=\"1\"><sup>21</sup></citation><sup>,</sup><citation rid=\"bib58\" ref-type=\"bibr\" pmid=\"33235361\" doi=\"10.1038/s41422-020-00439-9\" pmcid=\"PMC7852677\" count=\"1\"><sup>58</sup></citation><sup>,</sup><citation rid=\"bib59\" ref-type=\"bibr\" pmid=\"33927400\" doi=\"10.1038/s41593-021-00843-3\" count=\"1\"><sup>59</sup></citation>. <sentence_start/>YZG-331 disrupts this synaptic nano-architecture through interaction with NMDAR in the presence of Mg<sup>2+</sup>, thereby reducing NMDAR membrane density (Fig. 8). <sentence_start/>This phenomenon is highly intriguing. <sentence_start/>The disaggregation of NMDARs may suggest additional regulatory mechanisms for YZG-331 beyond its enhanced affinity for Mg<sup>2+</sup>. <sentence_start/>However, the mechanisms underlying this phenomenon require further investigation."
+  },
+  {
+   "section": "article",
+   "text": "4.3"
+  },
+  {
+   "section": "article",
+   "text": "Perspectives and limitations"
+  },
+  {
+   "section": "article",
+   "text": "While our findings establish YZG-331 as a first-in-class Mg<sup>2+</sup> efficacy enhancer, several mechanistic questions warrant further investigation. <sentence_start/>Behavioral and functional tests should be performed at different time points to evaluate the effects of YZG-331 on postoperative agitation and delirium. <sentence_start/>The precise structural interactions between YZG-331, Mg<sup>2+</sup>, and NMDAR subunits require elucidation using Cryo-EM studies and molecular dynamics simulations. <sentence_start/>Additionally, potential post-translational modifications that influence receptor-scaffold interactions should be explored using phosphoproteomic and palmitoylomic analyses. <sentence_start/>Moreover, translational studies using GRIN mutation models could validate the therapeutic potential of YZG-331 in neurological disorders."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "This study identified YZG-331 as a novel pharmacological agent that synergizes with endogenous Mg<sup>2+</sup> to mitigate NMDAR hyperactivation, thereby reducing synaptic impairment. <sentence_start/>Its ability to enhance magnesium blockade and restore synaptic architecture positions YZG-331 as a groundbreaking therapeutic candidate for POCD and related neurocognitive disorders. <sentence_start/>Insights into the modulation of NMDAR-Mg<sup>2+</sup>-YZG-331 interaction will open new avenues for targeting NMDAR and magnesium interactions in pathologies associated with excitotoxicity."
+  },
+  {
+   "section": "article",
+   "text": "Author contributions"
+  },
+  {
+   "section": "article",
+   "text": "Wei Zhang was the principal architect of the project, devising the experiments and revising the manuscript. <sentence_start/>Han Guo conducted the behavioral experiments, calcium imaging experiments, scanning electron microscopy, transmission electron microscopy, Golgi staining, and microelectrode array experiments, as well as drafting the manuscript. <sentence_start/>Jiaojiao Zhao performed the patch-clamp experiments on cell membranes. <sentence_start/>Qinghui Guo carried out the phase separation experiments. <sentence_start/>Siruan Chen, Keying Tian, Yuhan Ge, Wenyan Guo, Xingchen Lin, Hui Bai, Lei Yang, Zuxiao Yang, Xia Qin, Panpan Zhang, Ruifang Zheng and Zhanfeng Jia were pivotal researchers who performed data analysis. <sentence_start/>Tengfei Ji, Zuxiao Yang, Dezhi Kong, and Yun Stone Shi provided guidance on experimental design and revising manuscript. <sentence_start/>All authors have read, edited, and approved the final manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Conflicts of interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare no conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supporting information"
+  },
+  {
+   "section": "back",
+   "text": "The following is the Supporting information to this article."
+  },
+  {
+   "section": "back",
+   "text": "Multimedia component 1"
+  },
+  {
+   "section": "back",
+   "text": "Peer review under the responsibility of Chinese Pharmaceutical Association and Institute of Materia Medica, Chinese Academy of Medical Sciences."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supporting information to this article can be found online at ."
+  }
+ ]
+}

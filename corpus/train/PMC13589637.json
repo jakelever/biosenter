@@ -1,0 +1,347 @@
+{
+ "pmid": 42763779,
+ "pmcid": 13589637,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "A Greek Real-World Experience With the Implementation of the EndoPredict Gene Signature in a Cohort of Pre-menopausal and Post-menopausal Patients With ER+/HER2- Breast Cancer"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "EndoPredict\u00ae is a guideline-recommended gene signature assay guiding whether adjuvant treatment should include chemotherapy or not. <sentence_start/>The EndoPredict\u00ae Clinical (EPclin) Risk Score combines molecular and clinical data to predict the distant recurrence of breast cancer, providing valuable information about the prognosis and chemotherapy benefit in both pre- and post-menopausal patients."
+  },
+  {
+   "section": "abstract",
+   "text": "Methodology"
+  },
+  {
+   "section": "abstract",
+   "text": "This is a real-world, retrospective study aiming to characterize the EPclin Risk Score\u2019s utility in 200 consecutively selected Greek patients with estrogen receptor positive/human epidermal growth factor receptor 2 negative (ER+/HER2-) breast cancer, enrolled in a single institution, considering their clinicopathological features and menopausal status, with emphasis on its role in identifying patients suitable for treatment de-escalation."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "In this study, 100 pre-menopausal and 100 post-menopausal ER+/HER2- breast cancer patients were included. <sentence_start/>Among the pre-menopausal subgroup, 65% of the patients were classified as low risk and the other 35% as high risk, while among the post-menopausal subgroup, the low-risk and high-risk patients were 66% and 34%, respectively. <sentence_start/>A notable 30% of node-positive premenopausal patients were characterized by EPclin as at a low risk of breast cancer."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusions"
+  },
+  {
+   "section": "abstract",
+   "text": "The EPclin Risk score has the ability to stratify and guide therapy decisions in ER+/HER2- breast cancer patients. <sentence_start/>It classifies the recurrence risk differently from traditional assessments and identifies low-risk premenopausal patients with node-positive disease. <sentence_start/>This may provide a de-escalation treatment pathway for such patients but requires further clinical validation."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Breast cancer is the most commonly diagnosed malignancy worldwide and remains a leading cause of cancer-related mortality. <sentence_start/>According to the World Health Organization (WHO, 2020) [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.3322/caac.21660\" pmid=\"33538338\" count=\"1\">1</citation>], it ranks as the fifth leading cause of cancer death globally, while more recent data indicate that it is the second most frequently diagnosed cancer and the fourth leading cause of cancer-related death worldwide (WHO, 2022) [<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.3322/caac.21834\" pmid=\"38572751\" count=\"1\">2</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Breast cancer is a heterogeneous disease classified according to the molecular expression of hormone receptors (HR), namely estrogen receptor (ER) and progesterone receptor (PR), as well as the human epidermal growth factor receptor 2 (HER2). <sentence_start/>Based on these biomarkers, tumors are categorized as the following subtypes: HR-positive/HER2-negative, HER2-positive, and triple-negative (HR-negative/HER2-negative). <sentence_start/>Among these, patients with HR-positive/HER2-negative tumors (invasive breast cancer) generally demonstrate the best prognosis, followed by those with HER2-positive disease, while triple-negative breast cancer is associated with the least favorable outcomes [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1007/s10549-014-3112-6\" pmcid=\"PMC4174984\" pmid=\"25164974\" count=\"1\">3</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Early ER-positive, HER2-negative tumors are a heterogeneous group of tumors with variable prognosis. <sentence_start/>Although patients with this type of tumor derive substantial benefit from endocrine therapy, only a subset experience clinically meaningful improvement with adjuvant chemotherapy [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.6004/jnccn.2016.0037\" pmid=\"26957618\" count=\"1\">4</citation>]. <sentence_start/>Consequently, an accurate risk stratification is essential to optimize treatment selection and avoid unnecessary toxicity for patients with localized ER+/HER2- breast cancer."
+  },
+  {
+   "section": "article",
+   "text": "A number of commercially available prognostic and predictive assays are routinely used in clinical practice to inform the risk of recurrence and the benefit of chemotherapy for such patients. <sentence_start/>Their performance may differ depending on the patient's menopausal status [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>]. <sentence_start/>While their clinical utility is well established in node-negative and post-menopausal patients, their value in pre-menopausal, node-positive breast cancer remains a controversial field in molecular oncology. <sentence_start/>Recent prospective randomized studies, including the Oncotype DX TAILORx (Trial Assigning Individualized Options for Treatment (Rx)), RxPonder trials, and the Mammaprint MINDACT (Microarray In Node negative Disease may Avoid ChemoTherapy) trial, have shown that molecular signatures in women differ in their prognostic ability and predictive power based on their menopausal status. <sentence_start/>The findings of these trials also suggest that the benefit of chemotherapy in pre-menopausal women may be related to chemotherapy-induced amenorrhea, which could potentially be achieved with ovarian function suppression (OFS). <sentence_start/>Ongoing trials, such as the OPTIMA (Optimal Personalised Treatment of early breast cancer using Multi-parameter Analysis) trial and the OFSET (Evaluating the Addition of Adjuvant Chemotherapy to Ovarian Function Suppression Plus Endocrine Therapy in Premenopausal Patients With pN0-1, ER-Positive/ HER2-Negative Breast Cancer and an Oncotype Recurrence Score Less Than or Equal to 25) study, which include OFS as part of the endocrine therapy in all pre-menopausal women, may clarify this question [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.3390/cancers17091482\" pmcid=\"PMC12071033\" pmid=\"40361409\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "On the contrary, EndoPredict\u00ae (Myriad Genetics, Salt Lake City, UT) has been prognostic of 10-year distant recurrence in pre-menopausal women, independently of nodal status [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>]. <sentence_start/>Overall, EndoPredict\u00ae is a validated multigene expression assay that identifies a substantial proportion of patients (approximately 55%-65% in clinical trials) with an excellent long-term prognosis who can safely forgo adjuvant chemotherapy. <sentence_start/>By integrating molecular and clinical parameters, EndoPredict\u00ae provides robust prognostic information regarding distant recurrence risk and predictive insight into chemotherapy benefit [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>-<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1186/bcr3642\" pmcid=\"PMC4076639\" pmid=\"24725534\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The test is supported by Level 1A evidence and is recommended in multiple national and international clinical practice guidelines, including those from the European Society for Medical Oncology [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2023.11.016\" pmid=\"38101773\" count=\"1\">11</citation>-<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.3310/KGFD4040\" pmcid=\"PMC12683682\" pmid=\"41074908\" count=\"1\">15</citation>]. <sentence_start/>Its use enables more precise, individualized treatment decisions by accurately predicting distant recurrence risk [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-19-0376\" pmid=\"31064782\" count=\"1\">16</citation>] and chemotherapy benefit [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1007/s10549-019-05226-8\" pmcid=\"PMC6555778\" pmid=\"31041683\" count=\"1\">17</citation>]. <sentence_start/>Thus, it reduces both overtreatment and undertreatment, minimizing unnecessary adverse effects and improving patients\u2019 quality of life."
+  },
+  {
+   "section": "article",
+   "text": "The EndoPredict\u00ae Clinical (EPclin) Risk Score combines the 12-gene molecular score with key clinical variables, specifically tumor size and nodal status, and has been demonstrated to be an independent and clinically relevant predictor of distant recurrence. <sentence_start/>Importantly, it provides additional prognostic and predictive value beyond standard clinicopathological factors alone [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The objective of the present study was to evaluate the utility of the EPclin Risk Score in terms of how risk classification, recurrence estimates, and chemotherapy benefit estimates for a cohort of Greek patients with ER+/HER2- early breast cancer are contextualized to their clinicopathological features and menopausal status. <sentence_start/>The EPclin score\u2019s potential to identify patients suitable for treatment de-escalation has been a key focus."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "Study cohort"
+  },
+  {
+   "section": "article",
+   "text": "Samples from a total of 200 women with breast cancer were included in this study. <sentence_start/>This comprised a subgroup of 100 pre-menopausal and a subgroup of 100 post-menopausal patients who were tested consecutively from April 20, 2026, backward using the EPclin gene signature assay in a single laboratory until the desired number of 100 for each subgroup was reached."
+  },
+  {
+   "section": "article",
+   "text": "Samples were eligible for inclusion in the study if the patient was of age &gt;18 years, had a diagnosis of localized ER+/HER2- breast cancer, had the availability of a conclusive EPclin assessment, and had a date of EPclin testing prior to April 20, 2026. <sentence_start/>No exclusion criteria were applied to ensure the absence of selection bias."
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "Tumors were staged according to the TNM (tumor, node, metastasis) classification system, as defined by the American Joint Committee on Cancer and the Union for International Cancer Control [<citation rid=\"REF18\" ref-type=\"bibr\" count=\"1\">18</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Formalin-fixed, paraffin-embedded (FFPE) tumor tissue samples were sectioned at 5-10 \u03bcm thickness, depending on pathological assessment of tumor cellularity. <sentence_start/>Only samples with &gt;30% tumor cell content were included, in accordance with the established guidelines."
+  },
+  {
+   "section": "article",
+   "text": "RNA was extracted using the Maxwell\u00ae RSC RNA FFPE kit (Promega Corporation, Madison, WI). <sentence_start/>Following quality control (QC) assessment of RNA quantity and integrity, aliquots were used for EndoPredict\u00ae analysis."
+  },
+  {
+   "section": "article",
+   "text": "Gene expression was quantified in triplicate using reverse transcription quantitative real-time PCR (RT-qPCR). <sentence_start/>The assay measures eight cancer-related genes (AZGP1, BIRC5, DHCR7, IL6ST, MGP, RBBP8, STC2, UBE2C), three reference genes (CALM2, OAZ1, RPL37A), and one control gene to detect residual genomic DNA. <sentence_start/>Reactions were performed using EndoPredict\u00ae reagents (Myriad Genetics/Eurobio (Eurobio Scientific Service GmbH, Rheinbach-Allemagne, Germany)) on a QuantStudio\u2122 5 Dx Real-Time PCR system (Applied Biosystems, Waltham, MA)."
+  },
+  {
+   "section": "article",
+   "text": "Raw RT-qPCR data were exported as .txt files and analyzed using the web-based EndoPredict\u00ae Report Generator (EPRG). <sentence_start/>The 12-gene molecular score (EPscore) was calculated from normalized gene expression values and subsequently combined with tumor size and nodal status to generate the EPclin Risk Score. <sentence_start/>The EPclin Risk Score provides: (i) 10-year risk of distant recurrence with endocrine therapy alone, (ii) risk of late recurrence (years five to 15) in patients free of distant recurrence after five years of endocrine therapy alone, and (iii) estimated absolute chemotherapy effect at 10 years [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>,<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/annonc/mds334\" pmcid=\"PMC3574544\" pmid=\"23035151\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Testing parameters"
+  },
+  {
+   "section": "article",
+   "text": "Both the 12-Gene Molecular Score and EPclin Risk Score were developed and trained in a multicenter cohort of 964 treatment-naive FFPE primary breast cancer samples [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-19-0376\" pmid=\"31064782\" count=\"1\">16</citation>]. <sentence_start/>A Cox proportional hazards model was used to derive the EPclin Risk Score as a linear combination of the molecular score, tumor size, and nodal status. <sentence_start/>According to the model, the EPclin Risk Score is calculated as:"
+  },
+  {
+   "section": "article",
+   "text": "[<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>,<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/annonc/mds334\" pmcid=\"PMC3574544\" pmid=\"23035151\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Tumor size was categorized as: T1ab (\u22641 cm), T1c (&gt;1 but \u22642 cm), T2 (&gt;2 but \u22645 cm), and T3 (&gt;5 cm). <sentence_start/>Nodal status was categorized as: N0 (node-negative), N1 (one to three positive lymph nodes or micrometastases), and N2 (four to 10 positive lymph nodes)."
+  },
+  {
+   "section": "article",
+   "text": "Both the EPscore and EPclin Risk Score have been validated in multiple independent cohorts [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>,<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/annonc/mds334\" pmcid=\"PMC3574544\" pmid=\"23035151\" count=\"1\">9</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Interpretation of EPclin Risk Score"
+  },
+  {
+   "section": "article",
+   "text": "EPclin Risk Scores were interpreted according to predefined thresholds [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>,<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/annonc/mds334\" pmcid=\"PMC3574544\" pmid=\"23035151\" count=\"1\">9</citation>]:"
+  },
+  {
+   "section": "article",
+   "text": "Low risk (EPclin: 1.0-3.3): associated with a low 10-year risk of distant recurrence. <sentence_start/>This report states first the estimated 10-year risk of recurrence; second, the likelihood of distant recurrence five to 15 years after diagnosis; and finally, the estimated absolute benefit of chemotherapy at 10 years."
+  },
+  {
+   "section": "article",
+   "text": "High risk (EPclin: 3.4-6.0): associated with a high 10-year risk of distant recurrence. <sentence_start/>This report includes the same results as in the low risk."
+  },
+  {
+   "section": "article",
+   "text": "Scores outside the validated range: Scores &gt;6.0 (up to 8.2) are reported as high risk; however, quantitative estimates for recurrence risk and chemotherapy effect are not provided. <sentence_start/>Scores &lt;1.0 are not reportable."
+  },
+  {
+   "section": "article",
+   "text": "Statistics"
+  },
+  {
+   "section": "article",
+   "text": "This was a non-interventional study and therefore epidemiological methods were applied in the analysis, and no formal hypotheses were tested. <sentence_start/>Descriptive statistical analysis was performed for all study data. <sentence_start/>Continuous variables were summarized with the use of descriptive statistical measures (mean value, median value, minimum value and maximum value). <sentence_start/>Categorical/distinct variables were displayed as frequency tables (N, %)."
+  },
+  {
+   "section": "article",
+   "text": "Data collection and availability"
+  },
+  {
+   "section": "article",
+   "text": "All EPclin data were generated and collected in the laboratory of Bioiatriki S.A. All clinical and pathological data were collected from the pathology reports accompanying each patient sample included in the study. <sentence_start/>Only the information relevant to the study objectives was collected, completely anonymized."
+  },
+  {
+   "section": "article",
+   "text": "The data generated in this study are available upon reasonable request from the corresponding author."
+  },
+  {
+   "section": "article",
+   "text": "Ethical oversight"
+  },
+  {
+   "section": "article",
+   "text": "The Scientific Commission of Bioiatriki S.A. approved the protocol and granted a waiver of informed consent provided that all personal patient data were effectively anonymized in accordance with applicable laws and national regulations."
+  },
+  {
+   "section": "article",
+   "text": "Disclaimer: The present study had no clinical implications and patient-related decisions were made routinely by the treating physicians and were not influenced by the study\u2019s results."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "This retrospective study analyzed data from a Greek cohort of 200 patients who underwent EndoPredict\u00ae testing between April 20, 2025 and April 20, 2026 at the Molecular Biology Laboratory of Bioiatriki S.A."
+  },
+  {
+   "section": "article",
+   "text": "The baseline characteristics of the study cohort, including tumor size, nodal status, grade, and the distribution of Ki-67 expression are depicted in Table 1. Ki-67 subgroups were defined as per Constantinidou et al. [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>]. <sentence_start/>Among the pre-menopausal patients (n=100), there were 76 with T1 disease and 24 with T2; 77 were N0 and 23 were N1. <sentence_start/>Among the post-menopausal patients (n=100), there were 77 with T1 tumor, 22 with T2 and one patient with T3; 83 were N0 and 17 N1."
+  },
+  {
+   "section": "article",
+   "text": "In the pre-menopausal group of patients, 65 subjects (65%) were classified as low risk (EPclin Risk Score &lt;3.3) and 35 subjects (35%) as high risk (EPclin Risk Score &gt;3.3). <sentence_start/>Respectively, in the post-menopausal group of patients, 66 subjects (66%) were classified as low risk and 34 subjects (34%) as high risk. <sentence_start/>Categorization per EPclin Risk score and TNM staging is summarized separately for the pre-menopausal and the post-menopausal subgroups in Table 2."
+  },
+  {
+   "section": "article",
+   "text": "The categorization as per EPclin Risk score and Ki-67 expression subgroups is summarized separately for the pre-menopausal and the post-menopausal subgroups in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "The distribution of TNM staging versus EPclin Risk Score in the pre-menopausal subgroup is depicted in Figure 1A and the respective distribution in the post-menopausal subgroup in Figure 1B. In the pre-menopausal subgroup, all TNM stages are represented in both high- and low-risk EPclin score groups, with the exception of patients with pT2N1 breast cancer, who were all identified as high risk (no pT3 pre-menopausal patients were available in our analysis). <sentence_start/>Of note, 7/16 (43.8%) among pre-menopausal patients with pT1N1 disease and 7/23 (30.4%) with node-positive disease overall were identified as having a low risk of recurrence. <sentence_start/>In the post-menopausal subgroup, all but one patient with pT2N1 disease were identified as patients with high risk of recurrence and the single patient with T3 disease was also reported to have a high risk."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Distribution of tumor size and nodal status vs EPclin Risk Score in 100 pre-menopausal (Panel 1A) and 100 post-menopausal (Panel 1B) ER+/HER2- early diagnosed breast cancer patients."
+  },
+  {
+   "section": "article",
+   "text": "Considering Ki-67 expression and grade and among patients with node-positive disease: in the pre-menopausal subgroup, 2/2 with grade 3 and 10/12 with Ki-67 \u226520% were allocated to EPclin high-risk, and 5/23 had EPclin \u22654.8, whilst in the post-menopausal subgroup, these numbers were 1/1, 3/3 and 2/17, respectively."
+  },
+  {
+   "section": "article",
+   "text": "The distribution of early and late recurrence risk, as well as estimated chemotherapy benefit, separately in pre-menopausal and post-menopausal patients is shown in Figure 2. <sentence_start/>Among low-risk patients, both pre-menopausal and post-menopausal groups cluster predominantly within the 5% (17 pre-menopausal and 27 post-menopausal patients) and 5%-7% (30 pre-menopausal and 27 post-menopausal patients) categories for 10-year distant recurrence risk. <sentence_start/>In terms of the risk of late recurrence (years five to 15), most patients (41 pre- and 42 post-menopausal patients) were allocated within the 3%-5% range, while the estimated absolute chemotherapy benefit is minimal, typically ranging from 0% to 3% (65 pre-menopausal and 66 post-menopausal patients)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Schematic representation of the likelihood of distant recurrence within 0-10 and 5-15 years after five years of endocrine therapy alone (Panels A and B), as well as the absolute chemotherapy benefit both in pre- and post-menopausal patients (Panel C), in low- and high-risk categories."
+  },
+  {
+   "section": "article",
+   "text": "Among high-risk patients, the distribution of early and late risks of distal recurrence demonstrates a greater tendency for the pre-menopausal cohort to report higher rates of these risks: Considering early recurrence, in the pre-menopausal cohort, 12 patients were reported to have a risk &lt;15% and 23 patients a risk &gt;15%. <sentence_start/>In the post-menopausal cohort, 17 patients were reported to have a risk &lt;15% and 17 a risk &gt;15%. <sentence_start/>Considering late recurrence, more patients in the pre-menopausal cohort were identified with risk &gt;15% (20 out of a total of 35) whilst most post-menopausal patients were allocated to the &lt;15% risk group (26 out of a total of 33). <sentence_start/>Similarly, a marked difference in the estimated absolute chemotherapy benefit of &gt;15% is observed with more pre-menopausal patients being allocated to that group than the post-menopausal group (seven vs three patients)."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Since Greece introduced a systematic breast cancer screening program five years ago, early diagnoses have increased, reducing the number of patients with advanced stages of breast cancer. <sentence_start/>Gene expression signatures are included in international treatment guidelines to support and optimize decision-making in adjuvant systemic therapy for ER+/HER2- early breast cancer patients. <sentence_start/>These genomic tools identify patients for whom chemotherapy is beneficial and those with a low risk of recurrence and excellent prognosis who could avoid undergoing chemotherapy [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.3390/cancers17091482\" pmcid=\"PMC12071033\" pmid=\"40361409\" count=\"1\">6</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "EndoPredict\u00ae, a second-generation genetic signature test, combines gene expression levels of 12 genes with tumor size and nodal status to predict the probability of late distant recurrence 0-10 years after diagnosis and five to 15 years after diagnosis for patients free of disease and after five-year endocrine therapy alone. <sentence_start/>It also estimates the 10-year absolute benefit of chemotherapy."
+  },
+  {
+   "section": "article",
+   "text": "Overall, EndoPredict allocated 65%/66% in the low-risk group (in the pre-/post-menopausal subgroups) and 35%/34% in the high-risk group (respectively). <sentence_start/>These rates are similar to the ones reported by Klein et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s10549-024-07346-2\" pmcid=\"PMC11230949\" pmid=\"38722442\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Considering tumor size and nodal status information, the parameters incorporated in the EPclin algorithm, the majority of breast-cancer patients with small tumor size (T1a, T1b, T1c) and negative nodal status (N0) were indeed identified as low risk based on EndoPredict\u00ae testing. <sentence_start/>However, a marked percentage (11%) of both pre- and post-menopausal women, with specific TNM staging classification, were reported with an EPclin Score &gt;3.3 (high risk). <sentence_start/>This is in line with the main EndoPredict validation report by Filipits et al., where EPclin successfully provided additional prognostic information on the risk of distant recurrence of breast cancer patients, independently of clinicopathologic parameters [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-11-0926\" pmid=\"21807638\" count=\"1\">7</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Within the same context, EndoPredict\u00ae also identified a small percentage of patients (8%) with clinically high-risk characteristics (T2/N1 or T3/N0) who were characterized as low risk. <sentence_start/>Sestak et al. and Ettl et al. also demonstrated that EndoPredict classified patients with clinically high risk, tumors as low risk (EPclin Score&lt;3.3) who either received unnecessary chemotherapy [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1007/s10549-019-05226-8\" pmcid=\"PMC6555778\" pmid=\"31041683\" count=\"1\">17</citation>] or could safely forgo the use of chemotherapy [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1007/s00404-020-05771-4\" pmcid=\"PMC7584549\" pmid=\"32902674\" count=\"1\">20</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Regarding the pre-menopausal subgroup, the specific low-risk rate (65%) also aligns with the respective rate reported in Constantinidou et al. [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>], which only studied pre-menopausal patients. <sentence_start/>This low-risk subgroup includes patients with node-positive disease, with the present study reporting 30.4% of such patients being characterized as low risk, a rate higher than what Constantinidou et al. reported (19.4%) [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>], but this difference may be attributed to the subgroup\u2019s small sample size and the overall retrospective nature of the present study. <sentence_start/>This study therefore agrees with the previous reports of Constantinidou et al. [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>] and Klein et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s10549-024-07346-2\" pmcid=\"PMC11230949\" pmid=\"38722442\" count=\"1\">19</citation>], according to which EndoPredict has the ability to identify a specific subgroup of pre-menopausal ER+/HER2- early breast cancer patients with node-positive disease as low risk, therefore enabling treating physicians to de-escalate treatment and avoid chemotherapy. <sentence_start/>Conversely, the absence of follow-up information, including the level of adherence to the guidance of the EPclin score, deprives this study of more robust data compared to the aforementioned international literature."
+  },
+  {
+   "section": "article",
+   "text": "No differences in the distribution of EPclin likelihoods of recurrence can be concluded between the two study subgroups mainly due to the small sample size of these groups. <sentence_start/>In the low-risk category, no considerable differences between the pre- and post-menopausal group were observed. <sentence_start/>More notable numerical differences were observed in the high-risk group, where patients from the pre-menopausal cohort were more frequently allocated to the higher-rated risk groups for both early and late recurrence and the highest estimated absolute chemotherapy benefit group. <sentence_start/>These findings, despite the small sample size of the study, are consistent with established knowledge that pre-menopausal women with ER+/HER2- often experience more aggressive disease, higher recurrence rates and lower survival [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1016/j.breast.2025.104449\" pmcid=\"PMC11976225\" pmid=\"40120519\" count=\"1\">21</citation>]. <sentence_start/>Chemotherapy-induced amenorrhea via ovarian function suppression may be able to provide a significant survival benefit, a matter of extensive clinical research currently [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.3390/cancers17091482\" pmcid=\"PMC12071033\" pmid=\"40361409\" count=\"1\">6</citation>,<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.1016/j.breast.2025.104449\" pmcid=\"PMC11976225\" pmid=\"40120519\" count=\"1\">21</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Last, but not least, the present study\u2019s observations (albeit in small numbers) seem to be also in agreement with EPclin results from the UNIRAD (UNIversal RADiotherapy) trial [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2024.103443\" pmcid=\"PMC11070798\" pmid=\"38692082\" count=\"1\">22</citation>], according to which the majority of node-positive patients with grade 3 and Ki-67 \u226520% were allocated to the high-risk EPclin subgroup. <sentence_start/>Furthermore, particularly for pre-menopausal patients, it is noteworthy that more than 20% of patients with node-positive disease had an EPclin score of \u22654.8. <sentence_start/>This threshold was the one assumed to define the benefit of a CDK4/6 inhibitor addition according to Penault-Llorca et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2024.103443\" pmcid=\"PMC11070798\" pmid=\"38692082\" count=\"1\">22</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Overall, our findings are in line with the previously published studies by Klein et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s10549-024-07346-2\" pmcid=\"PMC11230949\" pmid=\"38722442\" count=\"1\">19</citation>] and Constantinidou et al. [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-22-0619\" pmcid=\"PMC9561607\" pmid=\"36043530\" count=\"1\">5</citation>], which demonstrated that EndoPredict\u00ae can be performed both in pre- and post-menopausal ER-positive/HER2-negative early breast cancer patients and it has the ability to classify patients into either low or high risk of recurrence independently of their menopausal and nodal status and sometimes differently from what the standard clinicopathological features would impose [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/annonc/mds334\" pmcid=\"PMC3574544\" pmid=\"23035151\" count=\"1\">9</citation>,<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1007/s10549-019-05226-8\" pmcid=\"PMC6555778\" pmid=\"31041683\" count=\"1\">17</citation>,<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1200/PO.18.00361\" pmcid=\"PMC7446472\" pmid=\"32914026\" count=\"1\">23</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Study limitations"
+  },
+  {
+   "section": "article",
+   "text": "This retrospective study was conducted on a cohort of 200 patients, leading to small subgroup sizes. <sentence_start/>The reports were consecutively selected for 100 pre-menopausal and 100 post-menopausal patients from a large group of ER-positive/HER2- breast-cancer patients who were tested in the Molecular Biology Laboratory of the Bioiatriki Group from April 20, 2026, backward. <sentence_start/>This study did not include the decision on any treatment protocol following the evaluation of the EndoPredict result, nor did it collect any patient follow-up information. <sentence_start/>Consequently, it presents an evaluation of predicted recurrence risks rather than any clinical outcomes of treatment decisions based on the EndoPredict result for patients. <sentence_start/>The study focused exclusively on the likelihood of distant recurrence within 0-10 and five to 15 years after five years of endocrine therapy alone and the absolute chemotherapy benefit. <sentence_start/>The study\u2019s generalizability is therefore limited to these parameters and it is further restricted by the strictly descriptive statistical analysis performed."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "Our findings underscore the ability of EPclin Risk score to stratify ER+/HER2- breast cancer patients independently of their menopausal and nodal status and classify patients\u2019 recurrence risk differently than traditional clinicopathological assessment, involving tumor size, nodal status, Ki-67 expression, and grade. <sentence_start/>EPclin also demonstrated the ability to identify a subgroup of low-risk patients among the pre-menopausal patients with node-positive disease. <sentence_start/>This feature can provide treating physicians with the option to reassess the use of chemotherapy in selected pre-menopausal breast cancer patients. <sentence_start/>However, the lack of follow-up data and clinical outcomes limits conclusions about its clinical value and potential for treatment de-escalation. <sentence_start/>Larger cohort studies in the future will be able to address these questions."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Human subjects:</bold> Informed consent for treatment and open access publication was obtained or waived by all participants in this study."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Animal subjects:</bold> All authors have confirmed that this study did not involve animal subjects or tissue."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> George Pantazidis, Christina Yfanti, Antigoni Sourla, Aggeliki Vasiageorgi, Anna-Maria Alisandrou, Giasemi Stefanou, Aggelos Petsavas, Fotini Pavlidou, Styliani Parpoudi, Dimitrios Alexandrou, Anna Sachoulidou, Annezo Marinatou, Evgenia Kalogridaki, Theodoros Kontoulis, Panagiotis E. Daskalakis, Vlassios Tsantilas, Stavros Chatzopoulos, Christos Kanistras, Theodoros Argyriou, Dimitrios Dragoumis, Vaia Stafyla, Andriana Kouloura"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> George Pantazidis, Christina Yfanti, Antigoni Sourla, Aggeliki Vasiageorgi, Anna-Maria Alisandrou, Giasemi Stefanou, Aggelos Petsavas, Rodoniki Iosifidou, Fotini Pavlidou, Styliani Parpoudi, Dimitrios Alexandrou, Anna Sachoulidou, Annezo Marinatou, Evgenia Kalogridaki, Theodoros Kontoulis, Panagiotis E. Daskalakis, Vlassios Tsantilas, Stavros Chatzopoulos, Christos Kanistras, Theodoros Argyriou, Dimitrios Dragoumis, Vaia Stafyla, Konstantinos Louis, Andriana Kouloura, Ioanna Galanou, Georgios Papazoglou, Dimitrios Grosomanidis, Konstantinos Chatzopoulos, Georgia Pasaskevakou, Panagiota Varnava, Anna Giannopoulou, Xenofon Xenakis, Apostolos Mpakogiannis, Ioannis Flessas, Dimitrios Nasikas, Dimitrios Koronarchis, Stergios Douvetzemis, Ioannis Fyssas, Christos Spanopoulos, Dimosthenis Baltas, Dimitrios Keramopoulos, Konstantinos Bouloukos, Vilma Gaki, Dionysios T. Dimas, Ioannis L. Missitzis, Georgios Rigas, Christos Kalyvopoulos, Stavros Intzes, Stefanos Zervoudis, Europi Michailidou, Anastasios Katsourakis, Markos Thanos, Apostolos Zavos, George Boutsikos, Maria Kanara, Sotirios \u0391. Rousogiannis, Panagiotis Charatsaris, Pavlos Lampropoulos, Sarantos Papadopoulos, Evangelos P. Solakis, Ioannis Askoxylakis, Sofia Kakoulaki, Eleftherios Sfakianakis, Nikolaos Vrentzos, Despoina Milonaki, Ioannis Kyriasanos, Foivos Irakleidis"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> George Pantazidis, Christina Yfanti, Antigoni Sourla, Aggeliki Vasiageorgi, Anna-Maria Alisandrou, Giasemi Stefanou, Aggelos Petsavas, Rodoniki Iosifidou, Fotini Pavlidou, Styliani Parpoudi, Dimitrios Alexandrou, Anna Sachoulidou, Annezo Marinatou, Evgenia Kalogridaki, Theodoros Kontoulis, Panagiotis E. Daskalakis, Vlassios Tsantilas, Stavros Chatzopoulos, Christos Kanistras, Theodoros Argyriou, Dimitrios Dragoumis, Vaia Stafyla, Konstantinos Louis, Andriana Kouloura, Ioanna Galanou, Georgios Papazoglou, Dimitrios Grosomanidis, Konstantinos Chatzopoulos, Georgia Pasaskevakou, Panagiota Varnava, Anna Giannopoulou, Xenofon Xenakis, Apostolos Mpakogiannis, Ioannis Flessas, Dimitrios Nasikas, Dimitrios Koronarchis, Stergios Douvetzemis, Ioannis Fyssas, Christos Spanopoulos, Dimosthenis Baltas, Dimitrios Keramopoulos, Dionysios T. Dimas, Ioannis L. Missitzis, Stavros Intzes, Stefanos Zervoudis, Europi Michailidou, Anastasios Katsourakis, Apostolos Zavos, George Boutsikos, Maria Kanara, Sotirios \u0391. Rousogiannis, Panagiotis Charatsaris, Sarantos Papadopoulos, Evangelos P. Solakis, Sofia Kakoulaki, Despoina Milonaki, Ioannis Kyriasanos, Foivos Irakleidis"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Konstantinos Bouloukos, Vilma Gaki, Georgios Rigas, Christos Kalyvopoulos, Markos Thanos, Pavlos Lampropoulos, Ioannis Askoxylakis, Eleftherios Sfakianakis, Nikolaos Vrentzos"
+  }
+ ]
+}

@@ -1,0 +1,411 @@
+{
+ "pmid": 42764828,
+ "pmcid": 13589832,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Baseline Anemia and Clinical Outcomes Following Transcatheter Edge-to-Edge Mitral Valve Repair: A Systematic Review and Meta-Analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Anemia is common among patients undergoing transcatheter edge-to-edge mitral valve repair (TEER) and may be associated with adverse clinical outcomes. <sentence_start/>However, no previous systematic review or meta-analysis has specifically evaluated clinical outcomes according to baseline anemia status in this population. <sentence_start/>We conducted a systematic review and meta-analysis to evaluate the association between baseline anemia and clinical outcomes after mitral TEER. <sentence_start/>A systematic search of PubMed, Embase, the Cochrane Library, , Cumulative Index to Nursing and Allied Health Literature (CINAHL), Virtual Health Library (VHL), and Google Scholar was performed to identify studies comparing outcomes in patients with and without baseline anemia who underwent mitral TEER. <sentence_start/>Random-effects meta-analyses were performed for outcomes with sufficiently homogeneous data, while outcomes unsuitable for quantitative pooling were narratively synthesized. <sentence_start/>Study quality was assessed using the Newcastle-Ottawa Scale (NOS). <sentence_start/>Six observational studies involving 34,812 patients were included. <sentence_start/>Baseline anemia was associated with significantly increased long-term mortality following TEER in the primary pooled analysis (hazard ratio (HR) 1.86, 95% CI 1.57-2.22), with consistent findings in the sensitivity analysis (HR 1.89, 95% CI 1.63-2.21). <sentence_start/>Baseline anemia was also associated with higher in-hospital mortality (OR 1.42, 95% CI 1.13-1.77). <sentence_start/>In contrast, pooled analyses of acute kidney injury, long-term composite outcome, and pericardial complications did not demonstrate statistical significance. <sentence_start/>Baseline preprocedural anemia is associated with increased mortality following transcatheter edge-to-edge mitral valve repair and may identify patients at higher procedural risk. <sentence_start/>Further prospective studies are needed to determine whether preprocedural optimization of anemia improves clinical outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Introduction and background"
+  },
+  {
+   "section": "article",
+   "text": "Mitral regurgitation (MR) is one of the most common valvular heart diseases, particularly in older adults, affecting nearly 10% of individuals aged 75 years or older with moderate or severe disease [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(06)69208-8\" pmid=\"16980116\" count=\"1\">1</citation>,<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1136/heartjnl-2020-318482\" pmid=\"33674352\" count=\"1\">2</citation>]. <sentence_start/>Without treatment, symptomatic MR is associated with progressive clinical deterioration and may eventually lead to heart failure and death [<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa041451\" pmid=\"15745978\" count=\"1\">3</citation>]. <sentence_start/>A considerable proportion of patients with severe symptomatic MR are not suitable candidates for conventional surgery because of advanced age, impaired ventricular function, or substantial comorbidity burden, highlighting the need for less invasive treatment strategies [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1093/eurheartj/ehm001\" pmid=\"17350971\" count=\"1\">4</citation>]. <sentence_start/>This unmet clinical need has led to the increasing development and adoption of transcatheter mitral interventions, particularly TEER. <sentence_start/>The MitraClip system, the most extensively studied transcatheter edge-to-edge mitral valve repair (TEER) device, is based on the surgical edge-to-edge technique first described by Alfieri and was subsequently supported by preclinical and early clinical studies demonstrating the feasibility of this approach [<citation rid=\"REF5\" ref-type=\"bibr\" count=\"1\">5</citation>,<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1161/CIR.0000000000000923\" pmid=\"33332150\" count=\"1\">6</citation>]. <sentence_start/>Registry data have subsequently demonstrated increasing adoption of transcatheter mitral valve repair in contemporary practice [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2021.07.058\" pmid=\"34711430\" count=\"1\">7</citation>]. <sentence_start/>TEER is performed percutaneously via femoral venous access and transseptal puncture, with approximation of the mitral leaflets under echocardiographic and fluoroscopic guidance to reduce mitral regurgitation [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2014.06.1166\" pmid=\"25169171\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Patients undergoing TEER are generally older and medically complex, with multiple comorbidities that may influence procedural and longer-term outcomes [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2014.06.1166\" pmid=\"25169171\" count=\"1\">8</citation>]. <sentence_start/>Anemia is particularly common among patients undergoing mitral TEER, with an observational cohort reporting a prevalence of 53.9% [<citation rid=\"REF9\" ref-type=\"bibr\" count=\"1\">9</citation>]. <sentence_start/>Anemia is also common in elderly patients with structural heart disease [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1016/j.ahj.2012.10.024\" pmid=\"23351816\" count=\"1\">10</citation>] and has been associated with higher postoperative morbidity and mortality in patients undergoing cardiac surgery [<citation rid=\"REF11\" ref-type=\"bibr\" doi=\"10.1093/ejcts/ezt143\" pmid=\"23530025\" count=\"1\">11</citation>]. <sentence_start/>More broadly, anemia has been linked to adverse outcomes in several cardiovascular settings, including heart failure, acute coronary syndrome, percutaneous coronary intervention, and cardiac surgery [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1161/01.cir.0000052622.51963.fc\" pmid=\"12538418\" count=\"1\">12</citation>,<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2017.03.035\" pmid=\"28434647\" count=\"1\">13</citation>]. <sentence_start/>In patients undergoing TEER, several observational studies have reported that baseline anemia or lower hemoglobin levels are associated with worse clinical outcomes and may represent adverse prognostic markers [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2017.01.024\" pmid=\"28274574\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Although previous observational studies have evaluated baseline anemia in patients undergoing mitral TEER, no prior systematic review or meta-analysis has synthesized the available evidence comparing clinical outcomes between patients with and without baseline anemia. <sentence_start/>Moreover, the existing studies differ in follow-up duration, reported endpoints, and analytical methods, limiting the ability to determine the overall prognostic significance of baseline anemia and to draw definitive conclusions from individual reports alone. <sentence_start/>Therefore, we performed this systematic review and meta-analysis to evaluate the association between baseline preprocedural anemia and clinical outcomes following mitral TEER."
+  },
+  {
+   "section": "article",
+   "text": "Review"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "We conducted and reported this systematic review and meta-analysis in accordance with the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) 2020 statement [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">15</citation>]. <sentence_start/>The review protocol was not prospectively registered."
+  },
+  {
+   "section": "article",
+   "text": "Information sources"
+  },
+  {
+   "section": "article",
+   "text": "We searched PubMed, Ovid Embase, the Cochrane Library, , Cumulative Index to Nursing and Allied Health Literature (CINAHL), Virtual Health Library (VHL), and Google Scholar from database inception to 18 March 2026. <sentence_start/>Google Scholar was additionally searched using predefined search queries, with the first six pages of results screened for each query. <sentence_start/>Reference lists of included studies and relevant reviews were also screened to identify additional eligible reports."
+  },
+  {
+   "section": "article",
+   "text": "Search strategy"
+  },
+  {
+   "section": "article",
+   "text": "The complete database-specific search strategies and numbers of records retrieved are presented in Table 1, with the stepwise Ovid Embase search strategy provided in Table 2."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility criteria"
+  },
+  {
+   "section": "article",
+   "text": "Original primary observational studies assessing outcomes following mitral TEER in adult patients (\u226518 years) with and without documented baseline preprocedural anemia were eligible for inclusion. <sentence_start/>We included English-language human studies that clearly defined anemia status prior to the procedure, compared anemic and non-anemic patients, provided sufficient data for this comparison, and reported at least one clinical outcome of interest. <sentence_start/>We excluded pediatric patients (&lt;18 years), conference abstracts, review articles, meta-analyses, editorials, commentaries, letters lacking analyzable original data, case reports, case series, gray literature, non-human studies, and non-English publications. <sentence_start/>Studies evaluating surgical mitral repair or non-mitral structural procedures, studies not reporting extractable or analyzable associations between pre-procedural anemia and post-procedural outcomes, studies focused on post-procedural rather than pre-procedural anemia, and duplicate publications were also excluded."
+  },
+  {
+   "section": "article",
+   "text": "Selection process"
+  },
+  {
+   "section": "article",
+   "text": "All identified records were imported into EndNote version 21.3 (Clarivate, Philadelphia, PA, USA), and duplicates were removed. <sentence_start/>Two reviewer pairs independently screened titles and abstracts and assessed full texts using the predefined eligibility criteria. <sentence_start/>Any disagreements were settled, with input from a senior reviewer when needed. <sentence_start/>The study selection process was summarized in a PRISMA 2020 flow diagram [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">15</citation>] (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA 2020 flow diagram of study selection."
+  },
+  {
+   "section": "article",
+   "text": "AKI: acute kidney injury; PRISMA: Preferred Reporting Items for Systematic reviews and Meta-Analyses."
+  },
+  {
+   "section": "article",
+   "text": "Data collection process"
+  },
+  {
+   "section": "article",
+   "text": "The same two reviewer pairs independently extracted data using a standardized form. <sentence_start/>Extracted data were cross-checked for accuracy, with disagreements resolved by consensus."
+  },
+  {
+   "section": "article",
+   "text": "Data items"
+  },
+  {
+   "section": "article",
+   "text": "As reported in Tables 3, 4, the following data were extracted from each included study, where available: study identification details, methodological and population characteristics, exposure-related variables, baseline clinical characteristics, and outcome data. <sentence_start/>Study quality was evaluated using the Newcastle-Ottawa Scale (NOS) [<citation rid=\"REF16\" ref-type=\"bibr\" count=\"1\">16</citation>]. <sentence_start/>Statistical analyses were performed using R software with the meta package [<citation rid=\"REF17\" ref-type=\"bibr\" count=\"1\">17</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The prespecified primary outcome was all-cause mortality. <sentence_start/>Prespecified secondary outcomes included cardiac morbidity and cardiovascular events, readmission, acute kidney injury, bleeding-related outcomes, length of stay (LOS), functional or quality-of-life outcomes where reported, and procedure-related complications. <sentence_start/>Additional clinically relevant outcomes reported by the included studies, including myocardial infarction, stroke, cardiogenic shock, pericardial complications, respiratory failure, venous thromboembolism (VTE), infection, gastrointestinal complications, composite outcomes, and discharge-related outcomes, were also extracted to provide a comprehensive assessment of the available evidence."
+  },
+  {
+   "section": "article",
+   "text": "Across the included studies, anemia was generally defined according to World Health Organization hemoglobin thresholds, typically hemoglobin &lt;13 g/dL in men and &lt;12 g/dL in women. <sentence_start/>Where studies used administrative diagnostic coding rather than directly reported hemoglobin thresholds, the study-specific definition was retained."
+  },
+  {
+   "section": "article",
+   "text": "When multiple effect estimates were reported for the same outcome, adjusted estimates were preferentially extracted. <sentence_start/>Where more than one adjusted model was available, the estimate from the model with the most comprehensive multivariable adjustment was selected. <sentence_start/>The covariates included in these models varied across studies and comprised combinations of demographic characteristics, cardiovascular disease severity, renal function, and relevant comorbidities."
+  },
+  {
+   "section": "article",
+   "text": "Study-reported restricted multivariable models were used only when the relevant outcome was unavailable in the primary model. <sentence_start/>If required, effect estimates were transformed to the log scale, and the corresponding standard errors were derived from the reported confidence intervals."
+  },
+  {
+   "section": "article",
+   "text": "Study quality assessment"
+  },
+  {
+   "section": "article",
+   "text": "Two reviewers independently assessed study quality using the Newcastle-Ottawa Scale (NOS) for cohort studies [<citation rid=\"REF16\" ref-type=\"bibr\" count=\"1\">16</citation>], with disagreements resolved by consensus. <sentence_start/>Studies were classified as good quality (7-9 points), fair quality (3-6 points), or poor quality (0-2 points)."
+  },
+  {
+   "section": "article",
+   "text": "Effect measures"
+  },
+  {
+   "section": "article",
+   "text": "Hazard ratios (HRs) and adjusted odds ratios (aORs), along with 95% confidence intervals (CIs), were used as effect measures according to outcome type and reporting format. <sentence_start/>HRs were used for time-to-event outcomes, whereas ORs with 95% CIs were used for dichotomous in-hospital outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Synthesis methods"
+  },
+  {
+   "section": "article",
+   "text": "Outcomes were synthesized according to their clinical relevance and the comparability of outcome definitions, time points, and effect measures. <sentence_start/>Quantitative meta-analysis was performed only when at least two studies reported sufficiently comparable data for the same outcome; otherwise, the available evidence was summarized narratively."
+  },
+  {
+   "section": "article",
+   "text": "Pooled analyses used a random-effects model with restricted maximum likelihood (REML) estimation of between-study variance (\u03c4\u00b2) and Hartung-Knapp adjustment. <sentence_start/>Statistical heterogeneity was assessed using Cochran's Q, I\u00b2, and \u03c4\u00b2 statistics. <sentence_start/>Subgroup analyses and meta-regression were not performed because the small number of studies contributing to each meta-analysis precluded meaningful exploration of potential sources of heterogeneity. <sentence_start/>Prediction intervals were not reported because of the very small number of studies contributing to individual meta-analyses, which would result in highly uncertain and potentially uninformative estimates. <sentence_start/>A sensitivity analysis was performed for long-term mortality by including Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] in addition to the primary analysis studies."
+  },
+  {
+   "section": "article",
+   "text": "Formal assessment of publication bias was not performed because the small number of studies contributing to each meta-analysis precluded reliable evaluation of funnel-plot asymmetry or statistical tests for small-study effects."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "The study selection process is illustrated in Figure 1. <sentence_start/>Of 180 records identified, 40 duplicates were removed, and 140 records were screened. <sentence_start/>Sixteen reports underwent full-text assessment; 10 were excluded, leaving six studies for inclusion in the systematic review and meta-analysis."
+  },
+  {
+   "section": "article",
+   "text": "Study Characteristics"
+  },
+  {
+   "section": "article",
+   "text": "The characteristics of the included studies are detailed in Table 3. <sentence_start/>Six observational studies were included. <sentence_start/>Collectively, these studies included 34,812 patients, of whom 3,251 had baseline anemia and 31,561 did not. <sentence_start/>The sample sizes varied from 80 to 28,995 patients. <sentence_start/>The follow-up periods ranged from in-hospital outcomes only to long-term follow-up, with the longest reported follow-up reaching 12.3 years."
+  },
+  {
+   "section": "article",
+   "text": "Study Quality Assessment"
+  },
+  {
+   "section": "article",
+   "text": "All included studies were of good quality, with NOS scores ranging from 7 to 9 (Table 5)."
+  },
+  {
+   "section": "article",
+   "text": "Quantitative Synthesis"
+  },
+  {
+   "section": "article",
+   "text": "Mortality outcomes: For long-term mortality, pooling data from Khurrami et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s00392-023-02210-7\" pmid=\"37129668\" count=\"1\">19</citation>] and Kaneko et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2018.05.028\" pmid=\"30064861\" count=\"1\">20</citation>] showed that baseline anemia was associated with a significantly increased long-term mortality after TEER, with a pooled HR of 1.86 (95% CI 1.56-2.23; p = 0.014). <sentence_start/>There was no evidence of important heterogeneity (Q (1) = 0.01, p = 0.918; I\u00b2 = 0%; \u03c4\u00b2 = 0). <sentence_start/>The findings are shown in Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of hazard ratios for long-term mortality associated with baseline anemia after mitral TEER."
+  },
+  {
+   "section": "article",
+   "text": "Khurrami et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s00392-023-02210-7\" pmid=\"37129668\" count=\"1\">19</citation>] and Kaneko et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2018.05.028\" pmid=\"30064861\" count=\"1\">20</citation>]. <sentence_start/>HR: hazard ratio; CI: confidence interval; HK: Hartung-Knapp method; TEER: transcatheter edge-to-edge mitral valve repair."
+  },
+  {
+   "section": "article",
+   "text": "Sensitivity analysis, including Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] for which adjustment reporting was less explicit, yielded findings consistent with the primary analysis. <sentence_start/>The pooled result remained statistically significant. <sentence_start/>When Khurrami et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s00392-023-02210-7\" pmid=\"37129668\" count=\"1\">19</citation>], Kaneko et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2018.05.028\" pmid=\"30064861\" count=\"1\">20</citation>], and Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] were pooled together, baseline anemia remained associated with increased long-term mortality after TEER, with a pooled HR of 1.89 (95% CI 1.62-2.21; p = 0.003). <sentence_start/>Heterogeneity remained negligible (Q (2) = 0.15, p = 0.928; I\u00b2 = 0%; \u03c4\u00b2 = 0). <sentence_start/>The sensitivity analysis is illustrated in Figure 3."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of the sensitivity analysis of long-term mortality after TEER."
+  },
+  {
+   "section": "article",
+   "text": "Studies included: Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>], Khurrami et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s00392-023-02210-7\" pmid=\"37129668\" count=\"1\">19</citation>], and Kaneko et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2018.05.028\" pmid=\"30064861\" count=\"1\">20</citation>]. <sentence_start/>HR: hazard ratio; CI: confidence interval; HK: Hartung-Knapp method; TEER: transcatheter edge-to-edge mitral valve repair."
+  },
+  {
+   "section": "article",
+   "text": "For in-hospital mortality, a pooled analysis of Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] and Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] showed higher odds in anemic patients, with a pooled aOR of 1.42 (95% CI 1.13-1.77; p = 0.032). <sentence_start/>No important heterogeneity was observed (Q (1) = 0.01, p = 0.931; I\u00b2 = 0%; \u03c4\u00b2 = 0). <sentence_start/>The corresponding forest plot is shown in Figure 4."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of in-hospital mortality reported as adjusted odds ratios according to baseline anemia status after mitral TEER."
+  },
+  {
+   "section": "article",
+   "text": "Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] and Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>]. <sentence_start/>OR: odds ratio; CI: confidence interval; HK: Hartung-Knapp method; TEER: transcatheter edge-to-edge mitral valve repair."
+  },
+  {
+   "section": "article",
+   "text": "Procedural Complications"
+  },
+  {
+   "section": "article",
+   "text": "Pooled analysis of pericardial complications from Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] and Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] did not demonstrate a statistically significant association with baseline anemia (pooled aOR 1.79, 95% CI 0.31-10.25; p = 0.148). <sentence_start/>The wide confidence interval indicates substantial imprecision in the pooled estimate. <sentence_start/>Observed statistical heterogeneity was low (Q(1) = 0.36, p = 0.548; I\u00b2 = 0%; \u03c4\u00b2 = 0), although heterogeneity estimates are inherently uncertain with only two contributing studies. <sentence_start/>The findings are shown in Figure 5."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Forest plot of odds ratios for pericardial complications associated with baseline anemia after mitral TEER."
+  },
+  {
+   "section": "article",
+   "text": "Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] and Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>]. <sentence_start/>OR: odds ratio; CI: confidence interval; HK: Hartung-Knapp method; TEER: transcatheter edge-to-edge mitral valve repair."
+  },
+  {
+   "section": "article",
+   "text": "Narrative Synthesis of Non-pooled Outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Several clinically relevant outcomes could not be quantitatively pooled because of heterogeneity in outcome definitions, follow-up periods, reporting formats, and/or the availability of comparable adjusted effect estimates. <sentence_start/>These outcomes were therefore synthesized narratively, with the principal findings summarized below and comprehensively presented in Table 6."
+  },
+  {
+   "section": "article",
+   "text": "Cardiovascular and Renal Outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Long-term composite outcomes were reported by two studies. <sentence_start/>Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] found that anemia was independently associated with an increased risk of the combined endpoint of mortality and heart failure hospitalization (adjusted HR 2.29; 95% CI 1.08-4.85; p = 0.030). <sentence_start/>Similarly, Khurrami et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s00392-023-02210-7\" pmid=\"37129668\" count=\"1\">19</citation>] reported an increased adjusted risk of the composite endpoint of death or heart failure rehospitalization among patients with anemia (adjusted HR 1.39; 95% CI 1.08-1.79; p = 0.009). <sentence_start/>Although the composite endpoints were clinically comparable and both studies demonstrated associations in the same direction, quantitative pooling was not retained because only two studies were available and the resulting random-effects estimate was highly imprecise. <sentence_start/>Hellhammer et al. [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>] and Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] reported in-hospital major adverse cardiovascular and cerebrovascular event (MACCE) outcomes, which were summarized narratively because they were not equivalent to the long-term composite outcome of death and heart failure hospitalization and were not sufficiently comparable for pooling."
+  },
+  {
+   "section": "article",
+   "text": "For renal outcomes, Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] reported that baseline anemia was independently associated with increased odds of in-hospital AKI (aOR 2.21, 95% CI 1.81-2.60). <sentence_start/>Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] separately evaluated AKI without dialysis and AKI requiring dialysis; anemia was associated with increased adjusted odds of both AKI without dialysis (aOR 1.53, 95% CI 1.21-1.93) and AKI requiring dialysis (aOR 3.24, 95% CI 1.75-5.99). <sentence_start/>In contrast, Hellhammer et al. [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>] specifically reported stage III AKI, which occurred in 4.9% of patients with anemia and 5.1% of those without anemia (p = 0.959), and provided no adjusted effect estimate. <sentence_start/>Given the differences in renal outcome reporting and the limited number of studies providing comparable adjusted estimates, these findings were not quantitatively pooled."
+  },
+  {
+   "section": "article",
+   "text": "For heart failure-related outcomes, Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] reported that anemia was associated with a higher risk of heart failure hospitalization during follow-up (HR 3.28, 95% CI 1.06-10.19; p = 0.040). <sentence_start/>Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] also reported significantly higher odds of in-hospital heart failure among anemic patients (aOR 1.75, 95% CI 1.28-2.30; p &lt; 0.001)."
+  },
+  {
+   "section": "article",
+   "text": "For myocardial infarction, Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] reported higher adjusted odds of myocardial infarction among anemic patients undergoing TEER (aOR 1.54, 95% CI 1.01-2.33; p = 0.041)."
+  },
+  {
+   "section": "article",
+   "text": "For cardiogenic shock, Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported numerically higher odds of in-hospital cardiogenic shock in anemic patients (aOR 1.37, 95% CI 0.97-1.92; p = 0.074). <sentence_start/>Al Yami et al. similarly found no significant difference in in-hospital cardiogenic shock between anemic and non-anemic patients (p = 0.354) in the propensity-matched analysis."
+  },
+  {
+   "section": "article",
+   "text": "For stroke, Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] reported no significant association between anemia and in-hospital stroke (aOR 1.85, 95% CI 0.75-4.54; p = 0.177). <sentence_start/>Hellhammer et al. [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>] reported no significant difference in perioperative stroke between anemic and non-anemic patients (1/41 (2.4%) vs 0/39 (0.0%); p = 0.326). <sentence_start/>Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] also reported perioperative stroke, but no directly usable effect estimate was available for quantitative pooling."
+  },
+  {
+   "section": "article",
+   "text": "Other Clinical and Procedural Outcomes"
+  },
+  {
+   "section": "article",
+   "text": "For blood transfusion and bleeding-related outcomes, Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported increased odds of in-hospital blood transfusion among anemic patients (aOR 1.33, 95% CI 1.09-1.62; p &lt; 0.001). <sentence_start/>Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] also reported more frequent blood transfusion after MitraClip in anemic patients but did not provide a directly usable adjusted effect estimate. <sentence_start/>Hellhammer et al. [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>] reported no significant difference in postoperative transfusion requirements between groups (39.0% vs 28.2%; p = 0.269), and provided no directly usable adjusted effect estimate for pooling."
+  },
+  {
+   "section": "article",
+   "text": "For length of stay (LOS), Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported that anemia was associated with prolonged LOS (\u03b2 = 1.17, adjusted p &lt; 0.001). <sentence_start/>Iliadis et al. [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1002/ehf2.12778\" pmcid=\"PMC7524056\" pmid=\"32621385\" count=\"1\">18</citation>] stated that hospitalization was significantly prolonged in anemic patients, although no directly usable adjusted effect estimate was provided. <sentence_start/>Al Yami et al. also reported that LOS was longer in the anemic group and presented descriptive readmission LOS data, but these were not directly extractable for pooled meta-analysis."
+  },
+  {
+   "section": "article",
+   "text": "For respiratory outcomes, Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported in-hospital postoperative respiratory failure and found no significant association with anemia (aOR 0.85, 95% CI 0.56-1.30; p = 0.457). <sentence_start/>Hellhammer et al. [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>] reported ventilation &gt;24 hours and similarly found no significant difference between anemic and non-anemic patients (p = 0.603)."
+  },
+  {
+   "section": "article",
+   "text": "Only one study reported venous thromboembolism data. <sentence_start/>Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] found no significant association between anemia and VTE (aOR 1.32, 95% CI 0.67-2.57; p = 0.418)"
+  },
+  {
+   "section": "article",
+   "text": "For infection-related outcomes, Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported postoperative infection and found no statistically significant association with anemia (aOR 1.25, 95% CI 0.61-2.55; p = 0.543). <sentence_start/>Hellhammer et al. [<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>] also reported no statistically significant difference in sepsis between anemic and non-anemic patients (p = 0.586)."
+  },
+  {
+   "section": "article",
+   "text": "Limited comparative data were available for gastrointestinal complications. <sentence_start/>Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported no significant association between anemia and gastrointestinal complications (aOR 0.73, 95% CI 0.45-1.19; p = 0.205)"
+  },
+  {
+   "section": "article",
+   "text": "For discharge-related outcomes and readmission, Bhardwaj et al. [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>] reported that anemia was associated with lower odds of routine discharge (aOR 0.57, 95% CI 0.48-0.67; p &lt; 0.001). <sentence_start/>Al Yami et al. [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.7759/cureus.59101\" pmcid=\"PMC11128358\" pmid=\"38803785\" count=\"1\">22</citation>] additionally evaluated 30-, 90-, and 180-day readmission outcomes and reported an overall higher readmission burden in the anemic group, but these data were not sufficiently comparable for pooled analysis."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "To our knowledge, this is the first full systematic review and meta-analysis specifically evaluating the association between baseline preprocedural anemia and clinical outcomes after mitral TEER. <sentence_start/>Several additional TEER studies evaluating anemia or hemoglobin as prognostic variables were identified during the literature search but did not meet the predefined eligibility criteria for inclusion in the systematic review because they did not provide a direct anemia-versus-non-anemia comparison. <sentence_start/>The principal findings of this review can be summarized as follows. <sentence_start/>First, patients with baseline anemia experienced higher mortality after TEER, including both in-hospital and long-term mortality. <sentence_start/>Second, the pooled analysis of pericardial complications did not demonstrate a statistically significant association. <sentence_start/>Third, outcomes not amenable to quantitative pooling were synthesized narratively; these generally suggested less favorable outcomes among patients with anemia, including renal complications, long-term composite outcomes of mortality and heart failure hospitalization, heart failure-related events, myocardial infarction, blood transfusion, and length of stay. <sentence_start/>Collectively, these findings support the prognostic relevance of baseline anemia in patients undergoing TEER, while the evidence for individual non-mortality outcomes remains limited and should be interpreted cautiously."
+  },
+  {
+   "section": "article",
+   "text": "Our findings are consistent with prior observational TEER literature showing that low hemoglobin or anemia has prognostic importance after mitral TEER. <sentence_start/>Bansal et al. [<citation rid=\"REF24\" ref-type=\"bibr\" doi=\"10.1016/j.jcin.2025.01.425\" pmid=\"40117403\" count=\"1\">24</citation>] showed that lower baseline hemoglobin was independently associated with higher 30-day out-of-hospital mortality after mitral TEER. <sentence_start/>Buccheri et al. [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2017.01.024\" pmid=\"28274574\" count=\"1\">14</citation>] identified low hemoglobin or anemia as independent predictors of one-year mortality after MitraClip therapy. <sentence_start/>Over a longer follow-up period, Raposeiras-Roub\u00edn et al. [<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2021.11.041\" pmid=\"35144748\" count=\"1\">25</citation>] also identified anemia as an independent predictor of mortality during follow-up in patients undergoing TEER. <sentence_start/>In addition, Esposito et al. [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.1161/JAHA.124.040496\" pmcid=\"PMC12684616\" pmid=\"41065256\" count=\"1\">26</citation>] showed that lower hemoglobin independently predicted cardiac mortality, while Kaya et al. [<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1186/s12872-025-05298-z\" pmcid=\"PMC12613571\" pmid=\"41225390\" count=\"1\">27</citation>] reported that lower hemoglobin remained independently associated with mortality after multivariable adjustment. <sentence_start/>Beyond mortality alone, Scotti et al. [<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2022.10.024\" pmid=\"36356428\" count=\"1\">28</citation>] incorporated hemoglobin into the CITE score for prediction of two-year death or heart failure hospitalization. <sentence_start/>Taken together, these studies support the broader prognostic relevance of baseline hematologic status and align with the pooled mortality findings of the present meta-analysis."
+  },
+  {
+   "section": "article",
+   "text": "Although mortality was the most consistent endpoint, the effect of anemia likely extends beyond that. <sentence_start/>Prior TEER literature also suggests associations between baseline anemia and additional postprocedural outcomes. <sentence_start/>Armijo et al. [<citation rid=\"REF29\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2020.09.582\" pmid=\"33213725\" count=\"1\">29</citation>] found that baseline anemia was an independent predictor of acute kidney injury after percutaneous TEER, and that postprocedural AKI was associated with substantially worse downstream outcomes. <sentence_start/>Similar signals were observed across several studies included in the present review [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.7759/cureus.10074\" pmcid=\"PMC7522055\" pmid=\"33005502\" count=\"1\">21</citation>-<citation rid=\"REF23\" ref-type=\"bibr\" doi=\"10.1016/j.ijcard.2015.02.081\" pmid=\"25746494\" count=\"1\">23</citation>], although the reported renal endpoints were not directly comparable. <sentence_start/>Collectively, these findings suggest a possible association between baseline anemia and increased renal complications following TEER; however, the heterogeneity of outcome definitions and limited comparative evidence preclude firm conclusions. <sentence_start/>Similarly, Lima et al. [<citation rid=\"REF30\" ref-type=\"bibr\" doi=\"10.1002/ccd.28647\" pmid=\"31868999\" count=\"1\">30</citation>] also incorporated anemia into prediction models for 30-day readmission after TEER, supporting a broader association with an adverse early post-procedural course."
+  },
+  {
+   "section": "article",
+   "text": "Several mechanisms may underlie this association. <sentence_start/>In TEER candidates, anemia may reflect a broader burden of illness, including advanced heart failure, renal dysfunction, inflammation, frailty, and reduced physiological reserve, all of which may contribute to reduced procedural tolerance and worse outcomes. <sentence_start/>In addition, reduced oxygen-carrying capacity may increase susceptibility to tissue hypoxia and organ dysfunction. <sentence_start/>In particular, preprocedural anemia has been associated with AKI following TEER, with proposed mechanisms including renal hypoxia, inflammatory responses, and oxidative stress. <sentence_start/>The prognostic relevance of anemia is also supported by prior TEER studies, including Armijo et al. [<citation rid=\"REF29\" ref-type=\"bibr\" doi=\"10.1016/j.jacc.2020.09.582\" pmid=\"33213725\" count=\"1\">29</citation>], Khurrami et al. [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1007/s00392-023-02210-7\" pmid=\"37129668\" count=\"1\">19</citation>], and Kaneko et al. [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.amjcard.2018.05.028\" pmid=\"30064861\" count=\"1\">20</citation>], in which anemia or lower hemoglobin consistently emerged as independent prognostic markers."
+  },
+  {
+   "section": "article",
+   "text": "Clinical implications"
+  },
+  {
+   "section": "article",
+   "text": "These findings have practical implications for TEER assessment. <sentence_start/>Baseline anemia may represent a useful component of preprocedural assessment and risk stratification. <sentence_start/>This may help inform risk discussions with patients, support individualized procedural decision-making, and identify patients who may warrant closer postprocedural monitoring. <sentence_start/>Importantly, anemia may not only serve as a risk indicator but also as a potentially modifiable condition in certain patients. <sentence_start/>This raises an important clinical and research question as to whether preprocedural optimization of anemia could improve TEER outcomes. <sentence_start/>However, specific evidence-based recommendations for anemia correction before mitral TEER remain lacking. <sentence_start/>Although current evidence does not yet prove that correcting anemia before TEER improves outcomes, our findings suggest that this is an important question that warrants further evaluation in prospective studies."
+  },
+  {
+   "section": "article",
+   "text": "Strengths and limitations"
+  },
+  {
+   "section": "article",
+   "text": "Key strengths of this review include its focused clinically relevant question, specifically synthesizing anemia versus non-anemia evidence in contrast to much of the prior TEER literature, which evaluated hemoglobin primarily as a continuous prognostic variable or as a component of broader risk scores. <sentence_start/>In addition, this review included a large overall study population, enhancing the clinical relevance of the findings. <sentence_start/>The inclusion of both quantitative and narrative synthesis allowed us to capture a wider range of clinically meaningful outcomes while maintaining methodological restraint when outcomes were too heterogeneous in definition, timing, or reporting to justify pooling. <sentence_start/>A further strength is the use of adjusted effect estimates where available."
+  },
+  {
+   "section": "article",
+   "text": "This review also has important limitations. <sentence_start/>First, because all included studies were observational, causal relationships cannot be established, and despite preferential use of adjusted estimates and generally good NOS ratings, the covariates included in multivariable models varied across studies, and residual confounding may therefore remain. <sentence_start/>Second, some pooled analyses were based on only a small number of studies, which limited precision and contributed to wide confidence intervals for certain outcomes. <sentence_start/>Third, not all clinically relevant outcomes were supported by directly comparable adjusted effect estimates, and several endpoints therefore required narrative rather than quantitative synthesis. <sentence_start/>Fourth, anemia in this population is likely heterogeneous in etiology, potentially reflecting iron deficiency, chronic inflammation, renal dysfunction, or advanced heart failure, but these mechanisms were not consistently characterized across the included studies. <sentence_start/>In addition, the included studies did not permit reliable assessment of outcomes according to anemia severity or specific hemoglobin levels, limiting interpretation of whether particular hemoglobin thresholds carry differential prognostic significance in patients undergoing mitral TEER. <sentence_start/>Additionally, the exclusion of non-English publications and gray literature may introduce language and publication bias, potentially limiting the generalizability of our findings and resulting in underrepresentation of relevant evidence from other populations or settings."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, baseline preprocedural anemia was associated with worse clinical outcomes after mitral TEER, most consistently for mortality, and may also be associated with a broader pattern of adverse clinical outcomes. <sentence_start/>These findings suggest that anemia should be considered during preprocedural assessment. <sentence_start/>Further prospective studies are needed to determine whether targeted identification and optimization of anemia before the procedure can translate into improved post-TEER outcomes."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> Abdulhafiz Hakmi, Ahmad Alhameed, Albatoul Atasi, Obaida Serdar, Wael Al-Ghabra"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> Abdulhafiz Hakmi, Ahmad Alhameed, Wael Al-Ghabra"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> Abdulhafiz Hakmi, Ahmad Alhameed, Albatoul Atasi, Obaida Serdar"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Abdulhafiz Hakmi, Ahmad Alhameed, Wael Al-Ghabra"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Supervision:</bold> Abdulhafiz Hakmi, Wael Al-Ghabra"
+  }
+ ]
+}

@@ -1,0 +1,879 @@
+{
+ "pmid": 42761341,
+ "pmcid": 13586965,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Post-CDK4/6 inhibitor therapy in HR+/HER2- advanced breast cancer: expanding options and persisting uncertainties"
+  },
+  {
+   "section": "abstract",
+   "text": "Endocrine treatment in combination with CDK4/6 inhibitors represents the mainstay of first-line palliative treatment in HR+/HER2- breast cancer. <sentence_start/>The treatment landscape after progression on CDK4/6 inhibitors has evolved into a complex and rapidly evolving field, driven by novel endocrine and targeted agents, new combination therapies, and increasing implementation of biomarker-directed approaches. <sentence_start/>Recent randomized trials have shown that new therapeutic strategies significantly prolong progression-free survival in this setting, with some treatments reaching notable numerical improvements. <sentence_start/>Translating these options into routine clinical practice remains challenging due to heterogeneous trial designs, lack of head-to-head comparisons, suboptimal comparator treatments, and limited overall survival data. <sentence_start/>While the increasing implementation of biomarkers holds the potential for more personalized treatments, their clinical utility depends on their mechanistic and contextual biological relevance, methodological reliability of detection, and proven predictive value in clinical trials. <sentence_start/>Based on the current evidence, optimal treatment selection and sequencing in the post-CDK4/6 inhibitor setting remain insufficiently defined, and optimization of biomarker-guided treatment requires further mechanistic understanding and methodological refinement. <sentence_start/>This narrative review provides an overview of the most recent randomized clinical trial evidence shaping current clinical practice and discusses persistent uncertainties regarding its implementation in routine care."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Breast cancer is the most frequently diagnosed cancer and remains the leading cause of cancer mortality in females globally [<citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1038/s41591-025-03502-3\" pmid=\"39994475\" count=\"1\">1</citation>]. <sentence_start/>Prognosis and treatment of advanced breast cancer (ABC) depend on the respective subtype, with hormone-receptor positive (HR+), HER2-negative (HER2-) disease representing the most prevalent one [<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.1001/jama.2018.19323\" pmid=\"30667505\" count=\"1\">2</citation>]. <sentence_start/>The introduction of CDK4/6 inhibitors (CDK4/6i) in combination with endocrine therapy (ET) has led to substantial therapeutic advances in HR+/HER2- locally advanced inoperable and metastatic breast cancer (here collectively referred to as ABC). <sentence_start/>As a result, these agents have become a mainstay of first-line palliative therapy and have more recently been incorporated into the adjuvant setting [<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.10.005\" pmid=\"41110697\" count=\"1\">3</citation>-<citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2024.04.013\" pmid=\"38729566\" count=\"1\">11</citation>]. <sentence_start/>Despite these advances, the vast majority of patients receiving CDK4/6i therapy in the advanced disease setting inevitably experience disease progression, necessitating subsequent lines of therapy. <sentence_start/>Therapeutic decision-making after progression on CDK4/6i-based first-line therapy, however, remains highly complex. <sentence_start/>An expanding variety of therapeutic options, driven by positive results from recent clinical trials, challenges treating physicians to select the optimal, personalized treatment strategy."
+  },
+  {
+   "section": "article",
+   "text": "According to current guidelines, treatment after progression on ET in combination with a CDK4/6i should be individualized according to a multifactorial, not clearly standardized, assessment of continued suitability for endocrine-based treatment [<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.07.017\" pmid=\"40930896\" count=\"1\">12</citation>-<citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]. <sentence_start/>In clinical practice, this distinction often reflects a continuum informed by (Figure 1): <italic>i</italic>) urgency for treatment response, including symptomatic or high disease burden and possibly impending organ dysfunction, <italic>ii</italic>) anticipated benefit of another endocrine-based therapy (evaluated by prior treatment history and biomarker profile, amongst others), <italic>iii</italic>) general health condition, comorbidities and preferences of the patient [<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.07.017\" pmid=\"40930896\" count=\"1\">12</citation>-<citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Determinants influencing treatment selection after progression on CDK4/6i and approved drug classes available for HR+/HER2- advanced breast cancer.</bold> <sentence_start/>ADCs: antibody-drug conjugates; AKTi: AKT inhibitor; ChT: chemotherapy; PI3Ki: phosphoinositide 3-kinase inhibitor; mTORi: mechanistic target of rapamycin inhibitor; PARPi: Poly(ADP-ribose)-polymerase inhibitor; PROTACs: proteolysis-targeting chimeras. <sentence_start/>Icons provided by Apple Keynote."
+  },
+  {
+   "section": "article",
+   "text": "In patients still considered candidates for endocrine-based therapy, treatment options are based on switching ET, including novel strategies to target the estrogen receptor (ER), which may be administered 1) as monotherapy, or in combination with 2) CDK4/6i after CDK4/6i, 3) inhibitors of the PI3K/AKT/mTOR pathway, or 4) increasingly investigated, a combination of the aforementioned agents. <sentence_start/>In patients deemed ineligible for endocrine-based therapy, escalation to chemotherapy or an antibody-drug conjugate (ADC) is warranted (Figure 2). <sentence_start/>Across these decisions, biomarker profiles are increasingly integrated to guide treatment selection [<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.07.017\" pmid=\"40930896\" count=\"1\">12</citation>-<citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Potential decision framework in advanced HR+/HER2- breast cancer following CDK4/6i progression.</bold> <sentence_start/>The proposed algorithm reflects the authors\u2019 opinion. <sentence_start/>Selection of novel treatment strategies was restricted to options with fully published trial results. <sentence_start/>HER2-null refers to the complete absence of membranous staining, i.e., HER2- status not meeting the criteria for HER2-low or HER2-ultralow [<citation rid=\"B106\" ref-type=\"bibr\" doi=\"10.1016/j.modpat.2025.100925\" pmid=\"41167529\" count=\"1\">106</citation>]. <sentence_start/>CDK4/6i: CDK4/6 inhibitor; ET: endocrine therapy; <italic>gBRCA1/2</italic>: germline <italic>BRCA1/2</italic>; <italic>gPALB2</italic>: germline <italic>PALB2</italic>; HER2-: HER2-negative; HR+: hormone receptor-positive; IHC: immunohistochemistry; ILD: interstitial lung disease; mTOR: mechanistic target of rapamycin; s<italic>BRCA1/2</italic>: somatic <italic>BRCA1/2.</italic> <sentence_start/>Icons provided by Apple Keynote."
+  },
+  {
+   "section": "article",
+   "text": "The objective of this narrative review is to provide a structured and comprehensive overview of the most recent randomized clinical trial evidence relevant to guide second-line treatment in HR+/HER2- ABC following progression on CDK4/6i therapy. <sentence_start/>We aim to address the heterogeneity and limitations of trial designs regarding patient populations, comparator treatment and endpoints, and discuss the resulting constraints in cross-trial interpretation and translation of results into clinical practice. <sentence_start/>As precision oncology has become a defining feature in this setting, reflected in a one-to-one biomarker-to-treatment matching in both contemporary clinical trial design and clinical practice algorithms, we explore aspects of mechanistic, methodological and clinical uncertainties related to biomarker-guided treatment selection, and discuss aspects of practical guidance within this complexity."
+  },
+  {
+   "section": "article",
+   "text": "To characterize the current second-line, randomized clinical trial evidence in this narrative review, we conducted a literature search in PubMed using a combination of MeSH terms and free-text terms covering breast cancer, hormone receptor positivity and advanced stage. <sentence_start/>Publications were restricted to randomized phase II and III trials published between January 2016 and March 10, 2026. <sentence_start/>Trial evidence from the literature search reporting positive outcomes was included if it aligned with the scope of this review (defined as treatment options post CDK4/6i progression; studies with a more heavily pretreated population were not considered). <sentence_start/>Negative results were included at the authors\u2019 discretion when they were considered helpful for discussing specific aspects. <sentence_start/>In addition, an exploratory search of PubMed and Google Scholar was performed, and international oncologic guidelines and resources from major oncology congresses were consulted to identify additional trials and complementary and contextual information. <sentence_start/>The summary of trial evidence was restricted to results published (in full or abstract form) until March 10, 2026, whereas contextual information was considered until June 30, 2026."
+  },
+  {
+   "section": "article",
+   "text": "Unless otherwise stated, presented outcomes derive from fully published peer-reviewed clinical trial evidence; where abstract-only data are cited, this is explicitly noted. <sentence_start/>Subgroup analyses for biomarker-selected patients are reported where they reflect primary or secondary endpoints, or where the trial population was restricted to a biomarker-selected subgroup, unless otherwise stated. <sentence_start/>Exploratory subgroup analyses stratified by CDK4/6i pretreatment were preferentially reported (and explicitly labeled as such), given their relevance to the scope of the review."
+  },
+  {
+   "section": "article",
+   "text": "Endocrine resistance(s)"
+  },
+  {
+   "section": "article",
+   "text": "The term endocrine resistance carries a context-dependent meaning in second-line treatment of advanced, HR+/HER2- breast cancer. <sentence_start/>A most widely established clinical definition was introduced by the international ABC consensus guidelines, which has since been continuously adapted and which distinguishes between primary and secondary endocrine resistance. <sentence_start/>Primary endocrine resistance has initially been defined as relapse while on the first 2 years of adjuvant ET or progressive disease within the first 6 months of first-line ET in the advanced setting; whereas secondary endocrine resistance has referred to progression on adjuvant ET after the first two years, relapse within 12 months of completing adjuvant ET, or progressive disease \u2265 6 months on ET for ABC [<citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.09.010\" pmid=\"32979513\" pmcid=\"PMC7510449\" count=\"1\">15</citation>]. <sentence_start/>Those definitions have been updated to include progression on endocrine-based therapies, which also includes CDK4/6i use, and to extend the definition of secondary endocrine resistance to progression on any second-line endocrine-based therapy, and to the presence of <italic>ESR1</italic> mutations [<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1016/j.breast.2024.103756\" pmid=\"38896983\" pmcid=\"PMC11231614\" count=\"1\">16</citation>]. <sentence_start/>However, the distinction between primary and secondary endocrine resistance as such has not primarily been used to guide clinical decision-making for first-line and second-line therapies in the advanced setting, but rather serves to classify patient populations for clinical trials [<citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1016/j.breast.2024.103756\" pmid=\"38896983\" pmcid=\"PMC11231614\" count=\"1\">16</citation>]. <sentence_start/>The recently published ESMO guidelines on metastatic breast cancer (available as pre-proof) also reference these definitions, but do not integrate them into their treatment recommendations. <sentence_start/>At the same time, they introduce the term endocrine-sensitive disease, for which they recommend at least two endocrine-based therapy lines, without clear characterization of the term [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>]. <sentence_start/>Similarly, the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines<sup>\u00ae</sup>) use the term endocrine-refractory disease to guide treatment decisions, without a precise definition of the term and categorization being based on clinical judgement [<citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Mechanistically, endocrine resistance encompasses the cellular and molecular processes by which tumors acquire resistance to ET. <sentence_start/>Endocrine resistance mechanisms have initially been conceptualized in the context of endocrine monotherapy, involving distinct ways by which tumor cells may either reactivate ER signaling despite ET-most prominently exemplified by <italic>ESR1</italic> mutations-or bypass ER signaling via activation of alternative signaling pathways or changes in transcription factors distinct from ER [<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1038/s41568-023-00604-3\" pmid=\"37500767\" pmcid=\"PMC10529099\" count=\"1\">17</citation>]. <sentence_start/>With CDK4/6i as a component of first-line and adjuvant therapy, resistance mechanisms under combined ET and CDK4/6i therapy have gained clinical and research interest."
+  },
+  {
+   "section": "article",
+   "text": "The kinases CDK4 and 6, upon binding cyclin D, phosphorylate the retinoblastoma tumor suppressor protein (Rb), which leads to dissociation of the transcription factor E2F from the Rb/E2F complex and consequently promotes E2F-mediated transcription of genes driving cell cycle progression. <sentence_start/>CDK4/6i inhibit CDK4 and CDK6 kinase activity and Rb phosphorylation, thereby preventing E2F-driven cell cycle progression. <sentence_start/>Mechanisms of resistance to CDK4/6i are numerous, such as functional Rb loss, upregulation of the CDK2-Cyclin E complex (and thereby bypassing CDK4/6 inhibition by alternative Rb phosphorylation), alternative native conformational states of CDK4 and 6, and activation of different growth factor pathways, amongst others [<citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1038/s41568-023-00604-3\" pmid=\"37500767\" pmcid=\"PMC10529099\" count=\"1\">17</citation>, <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1038/s43018-024-00893-z\" pmid=\"39885369\" pmcid=\"PMC12207747\" count=\"1\">18</citation>]. <sentence_start/>While endocrine resistance remains a widely used term in the second-line setting, it nowadays encompasses resistance to both ET and CDK4/6i, refers to a landscape of resistance mechanisms beyond those induced by ET alone, and lacks a clinically actionable, precise definition. <sentence_start/>In the following, the term endocrine-resistant refers to trial populations with either primary or secondary resistance to ET."
+  },
+  {
+   "section": "article",
+   "text": "Current first-line treatment landscape"
+  },
+  {
+   "section": "article",
+   "text": "CDK4/6i have evolved as a cornerstone of palliative therapy of HR+/HER2- breast cancer. <sentence_start/>The CDK4/6i abemaciclib, palbociclib, and ribociclib have demonstrated significant improvements in progression-free survival (PFS) when combined with ET in endocrine-na\u00efve, endocrine-pretreated but not resistant, and endocrine-resistant advanced disease [<citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1200/jco.2018.78.9909\" pmid=\"29860922\" count=\"1\">19</citation>-<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1505270\" pmid=\"26030518\" count=\"1\">24</citation>]. <sentence_start/>Abemaciclib added to ET additionally resulted in a clinically meaningful improvement in overall survival (OS), but reached statistical significance only in endocrine-resistant disease [<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1001/jamaoncol.2019.4782\" pmid=\"31563959\" pmcid=\"PMC6777264\" count=\"1\">5</citation>, <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2024.04.013\" pmid=\"38729566\" count=\"1\">11</citation>]. <sentence_start/>Ribociclib likewise demonstrated an OS benefit in both endocrine-na\u00efve or non-resistant and mixed populations [<citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1911149\" pmid=\"31826360\" count=\"1\">4</citation>, <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2114663\" pmid=\"35263519\" count=\"1\">8</citation>]. <sentence_start/>Based on the OS benefit observed with adjuvant abemaciclib and the invasive disease-free survival (iDFS) benefit reported with adjuvant ribociclib in high-risk early-stage HR+/HER2- breast cancer, CDK4/6i have expanded into the curative setting [<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.10.005\" pmid=\"41110697\" count=\"1\">3</citation>, <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2025.105858\" pmid=\"41320342\" pmcid=\"PMC12684762\" count=\"1\">10</citation>]. <sentence_start/>Treatment options for first-line palliative therapy in patients relapsing during or after adjuvant CDK4/6i resemble those in patients progressing on CDK4/6i in the metastatic setting. <sentence_start/>Potential differences in tumor biology and treatment responses between these groups remain insufficiently explored, and evidence to guide therapy selection in the post-adjuvant-CDK4/6i setting is largely missing. <sentence_start/>In analogy to clinical endocrine resistance mechanisms, suggestions have been made to incorporate definitions of CDK4/6i resistance-including time on or after CDK4/6i prior to recurrence-to inform therapeutic decision-making [<citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2025.105758\" pmid=\"40913835\" pmcid=\"PMC12451316\" count=\"1\">25</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The established first-line treatment strategy of ET plus CDK4/6i has been refined following the results of the phase III INAVO120 trial, in which the addition of the PI3K inhibitor inavolisib to palbociclib and fulvestrant improved OS in a <italic>PIK3CA</italic>-mutated, CDK4/6i-na\u00efve population progressing on or shortly after adjuvant ET [<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2501796\" pmid=\"40454641\" pmcid=\"PMC13496148\" count=\"1\">26</citation>]. <sentence_start/>Interpretation of these results is complicated by the uncertain significance of an OS benefit compared with palbociclib plus fulvestrant, a regimen which itself did not improve OS in this setting [<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1810527\" pmid=\"30345905\" count=\"1\">7</citation>]. <sentence_start/>With the triplet regimen incorporating CDK4/6i and PI3K/AKT/mTOR pathway-targeting agents moving into the first-line setting, evidence to guide subsequent treatment is lacking. <sentence_start/>Other first-line strategies under investigation include intensified combination approaches and the earlier use of established second-line or novel therapeutic agents: Ongoing phase III trials evaluating CDK4/6i in the first-line setting in endocrine-sensitive disease (generally allowing for adjuvant CDK4/6i exposure) evaluate triplet regimens with aromatase inhibitor (AI) and the PI3K inhibitor inavolisib [<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2025.104979\" count=\"1\">27</citation>], or doublet combinations with novel endocrine agents [<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1200/jco.2021.39.15_suppl.tps1101\" count=\"1\">28</citation>-<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-ps5-12-18\" count=\"1\">30</citation>], or even challenge the first-line ET plus CDK4/6i approach with the introduction of the more selective CDK4 inhibitor (CDK4i) atirmociclib [<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.08.1046\" count=\"1\">31</citation>]. <sentence_start/>If positive, these trials might change or amend the first-line palliative treatment landscape and will consequently reshape choices for second-line treatment. <sentence_start/>Additionally, in the phase III lidERA trial, results (presented as an abstract) demonstrated that the oral selective ER degrader (SERD) giredestrant showed a benefit in iDFS compared to standard of care (SOC) ET, possibly generating a role of SERD in earlier lines of treatment [<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-gs1-10\" count=\"1\">32</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "To date, most patients requiring palliative second-line therapy in HR+/HER2- ABC have received ET in combination with a CDK4/6i. <sentence_start/>In the following, we focus on therapeutic options in this treatment setting, recognizing that further adjustments may be required in the near future."
+  },
+  {
+   "section": "article",
+   "text": "Endocrine-based therapies"
+  },
+  {
+   "section": "article",
+   "text": "Endocrine monotherapies"
+  },
+  {
+   "section": "article",
+   "text": "Inhibition of ER signaling remains the mainstay of palliative therapy in HR+/HER2- breast cancer and can be achieved through estrogen suppression or direct ER targeting, which represents the mechanism of action of several novel agents, including SERDs, proteolysis-targeting chimeras (PROTACs), selective ER modulators (SERMs) and complete ER antagonists (CERANs) [<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2023.102569\" pmid=\"37146385\" count=\"1\">33</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Mutations in the <italic>ESR1</italic> gene encoding the ER are an acquired resistance mechanism to ET. <sentence_start/><italic>ESR1</italic> mutations induce conformational changes, constitutive activation, and increased proteolytic stability of the ER, thereby inducing resistance to estrogen-depleting approaches with AI, and to a variable extent, different agents directly targeting the ER [<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1186/s13058-021-01462-3\" pmid=\"34392831\" pmcid=\"PMC8365900\" count=\"1\">34</citation>]. <sentence_start/><italic>ESR1</italic> mutations are rare in treatment-na\u00efve HR+/HER2\u2212 breast cancer, but occur at a prevalence up to 20-40% in advanced disease treated with AI [<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1186/s13058-021-01462-3\" pmid=\"34392831\" pmcid=\"PMC8365900\" count=\"1\">34</citation>]. <sentence_start/>They have been shown to arise during AI therapy, and to precede and correlate with clinical progression [<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1186/s13058-020-01290-x\" pmid=\"32466779\" pmcid=\"PMC7254698\" count=\"1\">35</citation>, <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1093/annonc/mdx483\" pmid=\"29045530\" pmcid=\"PMC6264798\" count=\"1\">36</citation>]. <sentence_start/>In contrast to AI, which reduces ER signaling via estrogen deprivation, SERDs inhibit ER-induced downstream signaling by directly binding to the ER and inducing its proteasomal degradation [<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2022.102432\" pmid=\"35839531\" pmcid=\"PMC13394875\" count=\"1\">37</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Fulvestrant had long been the only SERD available for treatment of HR+/HER2- metastatic breast cancer. <sentence_start/>Following progression on a CDK4/6i, a review of recent randomized phase II-III trials using fulvestrant as control therapy has shown a median PFS of around 3.2 months (range 1.9-5.3 months), consistent with real-world outcomes [<citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.3390/cancers16244179\" pmid=\"39766078\" pmcid=\"PMC11674525\" count=\"1\">38</citation>-<citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.3390/cancers17050884\" pmid=\"40075731\" pmcid=\"PMC11898757\" count=\"1\">40</citation>]. <sentence_start/>Given the limited clinical activity of fulvestrant after CDK4/6i and its intramuscular route of application due to poor oral bioavailability, oral SERDs were developed to improve potency and enable more convenient oral administration [<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2022.102432\" pmid=\"35839531\" pmcid=\"PMC13394875\" count=\"1\">37</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Elacestrant was the first oral SERD to demonstrate efficacy as monotherapy after mandatory prior CDK4/6i exposure and a maximum of one prior line of chemotherapy in a phase III trial. <sentence_start/>In the EMERALD study, elacestrant was compared with investigator\u2019s choice (IC) of ET (IC ET) (AI or fulvestrant) in patients with disease progression on prior ET plus a CDK4/6i. <sentence_start/>The trial met its two primary endpoints, demonstrating improved PFS in both the overall population and with greater benefit in the <italic>ESR1</italic>-mutated subgroup (median PFS 3.8 months with elacestrant vs. 1.9 months for IC ET; hazard ratio (HR) 0.55 [95% confidence interval (CI) 0.39-0.77]; <italic>P</italic> = 0.0005). <sentence_start/>Landmark analyses demonstrated a 6-month PFS rate of 40.8% with elacestrant vs. 19.1% with IC ET in the <italic>ESR1</italic>-mutated subgroup. <sentence_start/>A secondary analysis excluded the 31% of patients receiving AIs in the control arm, accounting for the recognized resistance associated with <italic>ESR1</italic> mutations. <sentence_start/>Elacestrant continued to demonstrate benefit over fulvestrant, again with a more pronounced effect in the <italic>ESR1</italic>-mutated cohort [6-month PFS rate 40.8% vs. 20.8%; HR 0.50 (95% CI 0.34-0.74); <italic>P</italic> = 0.005] [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>]. <sentence_start/>The most common adverse events (AEs) (any grade) with elacestrant were nausea (35%), fatigue (19%), vomiting (19%), decreased appetite (14.8%) and arthralgia (14.3%). <sentence_start/>Among grade \u2265 3 events, nausea (2.5%) and back pain (2.5%) occurred most frequently, followed by increase in alanine aminotransferase (ALT) and aspartate aminotransferase (AST) (2.1% and 1.7%, respectively) and headache (1.7%). <sentence_start/>Treatment-related AEs led to treatment discontinuation in 3.4% of patients (Table 1) [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>]. <sentence_start/>No OS benefit was shown at the final OS analysis in either the intention-to-treat (ITT) or the <italic>ESR1</italic>-mutated population (both key secondary endpoints; 51.3% of the ITT population experienced an event) [<citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1200/jco.23.02112\" pmid=\"38381994\" pmcid=\"PMC11003513\" count=\"1\">42</citation>]. <sentence_start/>A separately published, post-hoc exploratory analysis by pretreatment duration in exclusively <italic>ESR1</italic>-mutated patients has been considerably discussed in the field. <sentence_start/>Longer prior CDK4/6i exposure (\u2265 12 months) was associated with improved PFS on elacestrant vs. IC ET [8.6 months vs. 1.9 months, HR 0.41 (95% CI 0.26-0.63)] in <italic>ESR1</italic>-mutated patients, compared to a shorter pretreatment period [<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.ccr-24-1073\" pmid=\"39087959\" pmcid=\"PMC11443208\" count=\"1\">43</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The oral SERD camizestrant has likewise shown clinical activity in the randomized phase II SERENA-2 trial, in which two dose levels were compared with fulvestrant following disease progression on ET, with optional prior CDK4/6i and chemotherapy exposure for advanced disease [<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(24)00387-5\" pmid=\"39481395\" count=\"1\">44</citation>]. <sentence_start/><italic>ESR1</italic> mutations were detected in 48% of patients in the fulvestrant group and in 30% of those receiving the camizestrant dose [<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(24)00387-5\" pmid=\"39481395\" count=\"1\">44</citation>] that was subsequently selected for further evaluation in the SERENA-4 and 6 trials [<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1200/jco.2021.39.15_suppl.tps1101\" count=\"1\">28</citation>, <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>]. <sentence_start/>At this dose level, camizestrant improved PFS compared with fulvestrant [median PFS 7.2 vs. 3.7 months for camizestrant and fulvestrant, respectively; HR 0.59 (90% CI 0.42-0.82); <italic>P</italic> = 0.017]. <sentence_start/>In the prespecified exploratory analyses by <italic>ESR1</italic> mutation status and prior CDK4/6i exposure (51% of trial population), the relative benefit of camizestrant seemed maintained in patients with <italic>ESR1</italic> mutation [HR 0.33 (90% CI 0.18-0.58)], but not in patients without <italic>ESR1</italic> mutation [HR 0.80 (90% CI 0.51-1.27)]. <sentence_start/>Treatment effect appeared sustained in patients with prior CDK4/6i exposure [HR 0.49 (90% CI 0.31-0.75)], but not without prior CDK4/6i treatment [HR 0.81 (90% CI 0.49-1.33)]. <sentence_start/>Most common treatment-emergent AEs (any grade) with camizestrant 75 mg were photopsia (12%), anemia (10.8%), cough (9.5%), asthenia (8.1%), and nausea (8.1%). <sentence_start/>Treatment-related AEs leading to discontinuation in the camizestrant 75 mg group occurred in 3% of patients. <sentence_start/>No specific treatment-emergent or treatment-related grade \u2265 3 event was observed in &gt; 1 patient (Table 1). <sentence_start/>OS data were immature [<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(24)00387-5\" pmid=\"39481395\" count=\"1\">44</citation>]. <sentence_start/>Camizestrant has been evaluated in combination with a CDK4/6i upon molecular progression in the SERENA-6 trial, as discussed below, and is currently being assessed with palbociclib in the first-line setting in the SERENA-4 trial [<citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1200/jco.2021.39.15_suppl.tps1101\" count=\"1\">28</citation>, <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The three-arm phase III EMBER-3 trial compared the oral SERD imlunestrant to IC ET (exemestane or fulvestrant) and to imlunestrant plus abemaciclib. <sentence_start/>Patients were eligible with endocrine-resistant disease after adjuvant or first-line AI therapy, with or without prior CDK4/6i therapy, and no chemotherapy for advanced disease was permitted. <sentence_start/>Ninety percent of patients in the control arm received fulvestrant, and 10% received exemestane [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>]. <sentence_start/>The trial was negative for its primary endpoint PFS with imlunestrant vs. IC ET in the overall population, but a statistically significant PFS benefit [median PFS 5.5 months with imlunestrant and 3.8 months with IC ET; HR 0.62 (95% CI 0.47<italic>-</italic>0.82); <italic>P</italic> &lt; 0.001] in the <italic>ESR1</italic>-mutated group-another primary endpoint-was demonstrated with initial drop and later separation of the Kaplan-Meier curves [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>Exploratory subgroup analysis of the <italic>ESR1</italic>-mutated cohort by prior CDK4/6i therapy showed an HR of 0.42 (95% CI 0.25<italic>-</italic>0.72) in CDK4/6i-na\u00efve and 0.72 (95% CI 0.52<italic>-</italic>1.01) in CDK4/6i-pretreated patients (70% of the <italic>ESR1</italic>-mutated population, predominantly palbociclib) [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>]. <sentence_start/>A numerical improvement in OS (key secondary endpoint) was observed in favor of imlunestrant without reaching statistical significance in the <italic>ESR1</italic>-mutated cohort [median OS 34.5 vs. 23.1 months, respectively; HR 0.60 (95% CI 0.43-0.86); <italic>P</italic> = 0.0043, not significant] [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>Single-agent ET with imlunestrant was inferior to the combination therapy with abemaciclib, as will be outlined below [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>The most common AEs of any grade were fatigue/asthenia (22.6%), diarrhea (21.4%), nausea (17.1%), arthralgia (14.1%), and AST increase (12.5%). <sentence_start/>AEs of grade \u2265 3 were anemia and neutropenia (2.1% each), AST increase and thrombopenia (0.9% each) [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>]. <sentence_start/>Treatment-related AEs led to treatment discontinuation in 2% of patients (Table 1) [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The randomized trials evaluating the oral SERDs amcenestrant and giredestrant as monotherapy yielded negative results against IC ET in endocrine-resistant populations with varying degrees of prior CDK4/6i exposure [<citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02746\" pmid=\"37348019\" pmcid=\"PMC10461947\" count=\"1\">48</citation>, <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.1200/JCO.23.0150\" pmid=\"38537155\" pmcid=\"PMC11185917\" count=\"1\">49</citation>]. <sentence_start/>Giredestrant was positive for its primary endpoint, PFS, in the phase III evERA trial in combination with everolimus (full publication results pending), as described below [<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.09.026\" count=\"1\">50</citation>], and is currently investigated with a CDK4/6i in phase III trials in the first-line setting in endocrine-sensitive and endocrine-resistant disease [<citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1200/jco.2021.39.15_suppl.tps1103\" count=\"1\">29</citation>, <citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.1200/jco.2024.42.16_suppl.tps1130\" count=\"1\">51</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "PROTACs represent an additional class of novel endocrine agents with proven clinical efficacy in a phase III trial [<citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>PROTACs act by recruiting a ubiquitin ligase to a target protein, promoting its polyubiquitination and subsequent proteasomal degradation [<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2023.102569\" pmid=\"37146385\" count=\"1\">33</citation>]. <sentence_start/>Vepdegestrant, a first-in-class PROTAC targeting the ER [<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2023.102569\" pmid=\"37146385\" count=\"1\">33</citation>], demonstrated superiority over fulvestrant in the phase III VERITAC-2 trial in an endocrine-resistant, post-CDK4/6i population [<citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>Patients had to be on their most recent ET for \u2265 6 months before progression, and no prior chemotherapy or fulvestrant for advanced disease was allowed. <sentence_start/>Vepdegestrant did not meet the primary endpoint of PFS in the ITT population but demonstrated superiority in the primary endpoint of PFS in the <italic>ESR1</italic>-mutated subgroup [median PFS 5.0 vs. 2.1 months for vepdegestrant and fulvestrant, respectively; HR 0.58 (95% CI 0.43-0.78); <italic>P</italic> &lt; 0.001]. <sentence_start/>Data on OS were immature. <sentence_start/>Most common AEs were fatigue/asthenia (26.6%), ALT or AST increased (14.4% each), nausea (13.5%), and anemia (12.2%). <sentence_start/>The most common AE grade \u2265 3 were neutropenia, hypokalemia (1.9% each), anemia, QT prolongation, and hypertension (1.6% each, Table 1) [<citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Lasofoxifene is a next-generation SERM and has been tested against fulvestrant in the phase II ELAINE-1 trial in an exclusively <italic>ESR1</italic>-mutated cohort progressing on AI and CDK4/6i therapy. <sentence_start/>The trial was negative for its primary endpoint, PFS [median 5.6 months for lasofoxifene and 3.4 months for fulvestrant; HR 0.70 (95% CI 0.43-1.15); <italic>P</italic> = 0.14] [<citation rid=\"B53\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2023.09.3104\" pmid=\"38072514\" count=\"1\">53</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "CERANs are another novel class of drugs targeting the ER and function as complete estrogen antagonists by blocking the ligand-binding pocket of the ER. <sentence_start/>Palazestrant is currently being evaluated in the phase III OPERA-01 trial in endocrine-resistant, CDK4/6i pretreated patients against endocrine monotherapy [<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2023.102569\" pmid=\"37146385\" count=\"1\">33</citation>, <citation rid=\"B54\" ref-type=\"bibr\" doi=\"10.1080/14796694.2025.2608863\" pmid=\"41461598\" pmcid=\"PMC12802986\" count=\"1\">54</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, the three endocrine agents elacestrant, imlunestrant, and vepdegestrant have each demonstrated efficacy as monotherapy in randomized phase III trials; with an <italic>ESR1</italic>-mutated subgroup included as the primary analysis population. <sentence_start/>While elacestrant showed a PFS benefit across a biomarker-unselected and the <italic>ESR1</italic>-mutated population, the benefit with imlunestrant and vepdegestrant was confined to the <italic>ESR1</italic>-mutated subgroup [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>, <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>These findings should be interpreted in the context of some methodological considerations regarding trial design and cross-trial heterogeneity complicating treatment comparisons (Table 2). <sentence_start/>All three trials employed ET monotherapy as control treatment, which may not reflect current clinical practice where combination approaches are increasingly preferred. <sentence_start/>Comparator selection differed across trials, which is a relevant aspect as suboptimal treatment in the control arm may inflate observed treatment effects. <sentence_start/>While prior fulvestrant was an exclusion criterion in both the vepdegestrant and imlunestrant trials-consistent with fulvestrant being the control treatment-a minority of patients in the imlunestrant trials received AI therapy as control treatment despite mandatory AI preexposure; and in the elacestrant trial, both fulvestrant and AI were used as control treatments despite prior exposure being allowed. <sentence_start/>In addition, CDK4/6i pretreatment was mandatory only in the vepdegestrant and elacestrant trials, limiting applicability of the imlunestrant results to a post-CDK4/6i setting [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>, <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>Moreover, the included population was heavily pretreated in the elacestrant trial, which may have attenuated the observed treatment effect, as treatment efficacy generally decreases with increasing lines of systemic therapy [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>]. <sentence_start/>Across the three trials, patients with indeterminate <italic>ESR1</italic> mutational status were classified and analyzed as <italic>ESR1</italic>-non-detectable. <sentence_start/>However, reporting of the prevalence of <italic>ESR1</italic>-negative and <italic>ESR1-</italic>indeterminate within the <italic>ESR1</italic>-non-detectable group was inconsistent between trials, and <italic>ESR1</italic> mutational status was not a stratification factor in all three trials (Table 3) [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>, <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>Camizestrant as monotherapy only demonstrated activity in a phase II setting, with the clinically relevant subgroup of patients with CDK4/6i preexposure limited to fewer than 40 patients per arm; the clinical significance of these findings therefore remains to be confirmed in a larger trial [<citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(24)00387-5\" pmid=\"39481395\" count=\"1\">44</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "CDK4/6i post CDK4/6i-progression: identical CDK4/6i, switch of ET"
+  },
+  {
+   "section": "article",
+   "text": "Given the modest efficacy of endocrine monotherapy following progression on ET and CDK4/6i, the selection of a combination therapy may be favored as a further line therapy. <sentence_start/>A biomarker-independent strategy consists of either switching to a different endocrine agent and a different CDK4/6i, or switching to an alternative ET while maintaining the same CDK4/6i beyond progression on both agents."
+  },
+  {
+   "section": "article",
+   "text": "The phase II PALMIRA trial evaluated the continuation of palbociclib beyond disease progression by randomizing patients previously treated with palbociclib plus an AI or fulvestrant to receive either ET alone or ET with continued palbociclib. <sentence_start/>The trial did not meet the primary endpoint of PFS [<citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1200/jco-24-01865\" pmid=\"40294349\" pmcid=\"PMC12169856\" count=\"1\">55</citation>]. <sentence_start/>Similarly, the phase II PACE trial randomized patients progressing on an AI plus CDK4/6i therapy (palbociclib in 91% of patients) to fulvestrant alone or fulvestrant plus palbociclib, but did not demonstrate a PFS benefit for the combination therapy [<citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1200/jco.23.01940\" pmid=\"38513188\" count=\"1\">56</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Two extensively debated trials introduced a novel treatment approach, in which therapy was not switched upon clinically evident progression, but upon emergence of a molecular marker of progression [<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>, <citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(22)00555-1\" pmid=\"36183733\" count=\"1\">57</citation>]. <sentence_start/>Similar to PALMIRA and PACE, the PADA-1 trial evaluated an ET switch with continued CDK4/6 inhibition. <sentence_start/>Notably, the treatment was changed at the time of molecular progression-defined by rising <italic>ESR1</italic> mutations in circulating tumor DNA (ctDNA)-rather than at clinical progression on first-line AI and palbociclib. <sentence_start/>Patients with rising <italic>ESR1</italic> mutations were randomized to continue AI plus palbociclib or switch to fulvestrant plus palbociclib. <sentence_start/>This strategy was associated with a significant improvement in the primary endpoint PFS in favor of the molecularly triggered treatment switch [updated analysis: median PFS 12.8 months and 5.9 months for switch to fulvestrant and continuation of AI, respectively; HR 0.54 (95% CI 0.38-0.75); <italic>P</italic> = 0.0003] [<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(22)00555-1\" pmid=\"36183733\" count=\"1\">57</citation>, <citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.002\" pmid=\"41260263\" count=\"1\">58</citation>]. <sentence_start/>Sixty-eight percent of patients in the control arm crossed over to fulvestrant plus palbociclib after clinically evident progression, with a median PFS of 3.5 months in this subsequent line. <sentence_start/>The secondary endpoint median time to strategy failure, i.e., time from randomization to time of palbociclib and ET discontinuation or death, was 11.9 months for the switch-fulvestrant-group and 10.6 months for the AI-continuation group [HR 1.02 (95% CI 0.71-1.45); <italic>P</italic> = 0.9; from primary analysis]. <sentence_start/>Similarly, the median chemotherapy-free survival was 14.6 months in the fulvestrant-switch group compared with 13.1 months in the AI-continuation group [HR 0.91 (95% CI 0.62-1.33); secondary endpoint, <italic>P</italic> = 0.6, from primary analysis] [<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(22)00555-1\" pmid=\"36183733\" count=\"1\">57</citation>]. <sentence_start/>OS data were still immature [<citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.002\" pmid=\"41260263\" count=\"1\">58</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Analogous to PADA-1, SERENA-6 investigated a treatment switch triggered by the detection of <italic>ESR1</italic> mutations by ctDNA prior to clinically evident progression<italic>.</italic> <sentence_start/>Patients on first-line AI plus CDK4/6i therapy (palbociclib in 76% of patients) were randomized upon <italic>ESR1</italic> mutation detection to either continue the same regimen or to switch the endocrine backbone to the oral SERD camizestrant, while maintaining the same CDK4/6i. <sentence_start/>Crossover to an oral SERD with CDK4/6i continuation was not allowed in the control arm. <sentence_start/>In patients with a detectable <italic>ESR1</italic> mutation who were randomized to the respective treatments, PFS was significantly prolonged with camizestrant and CDK4/6i in comparison to continuation of the initial regimen [median PFS 16 months vs. 9.2 months; HR 0.44 (95% CI 0.31-0.60); <italic>P</italic> &lt; 0.0001]. <sentence_start/>Results for PFS2, which in principle compares an unequal number of sequentially administered therapeutic substances between groups, were immature at first analysis [HR 0.52 (95% CI 0.33-0.81); <italic>P</italic> = 0.004, prespecified significance threshold <italic>P</italic> = 0.0001]. <sentence_start/>OS data were immature [<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The PADA-1 and SERENA-6 trials were notable for the pioneering approach to guide treatment decisions based on detection of molecularly defined progression. <sentence_start/>Beyond the aspiration to improve survival outcomes, potential advantages of a molecularly guided switching approach may theoretically include the prevention of tumor-progression-related complications, symptoms and clinical deterioration, and possible reduction of clinical and financial toxicity from an increasingly ineffective treatment. <sentence_start/>Despite both trials being positive for their primary endpoint, PFS, this endpoint design does not allow for a conclusion whether switching upon molecular instead of clinical progression is superior in efficacy, given the inherent imbalance of active substances between treatment arms. <sentence_start/>In contrast, the lack of differences in median time to strategy failure and chemotherapy-free survival between the two arms in PADA-1 does not appear to indicate a benefit of therapy adaptation upon molecular rather than clinically evident progression. <sentence_start/>Furthermore, the definition of molecular progression represents a conceptual challenge. <sentence_start/>Longitudinal ctDNA analyses from PADA-1 suggest that <italic>ESR1</italic> mutation detectability is dynamic, with fluctuations and occasional loss of detection occurring independently of treatment changes, including in the AI plus CDK4/6i arm [<citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.002\" pmid=\"41260263\" count=\"1\">58</citation>]. <sentence_start/>This might challenge the classification of <italic>ESR1</italic> positivity, its direct attribution as a biomarker of relevant molecular progression, and underscores the need for standardized assays and uniform definitions to reduce risk of possible overtreatment. <sentence_start/>In addition, the feasibility of regular ctDNA monitoring needs to be determined across all healthcare settings, and associated surveillance demands might carry implications for patient experience and health systems."
+  },
+  {
+   "section": "article",
+   "text": "In summary, switching the endocrine backbone to fulvestrant while maintaining the same CDK4/6i upon clinical progression has only been investigated for palbociclib and did not improve efficacy [<citation rid=\"B55\" ref-type=\"bibr\" doi=\"10.1200/jco-24-01865\" pmid=\"40294349\" pmcid=\"PMC12169856\" count=\"1\">55</citation>, <citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1200/jco.23.01940\" pmid=\"38513188\" count=\"1\">56</citation>]. <sentence_start/>Molecularly guided switching strategies of the endocrine agent on first-line AI and CDK4/6i represent a novel approach with potentially beneficial implications, yet convincing evidence of superiority in efficacy is currently lacking, and questions regarding practical implementation and implications for patients and health system resources remain open [<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>, <citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(22)00555-1\" pmid=\"36183733\" count=\"1\">57</citation>, <citation rid=\"B58\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.002\" pmid=\"41260263\" count=\"1\">58</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "CDK4/6i post CDK4/6i-progression: switch of CDK4/6i and switch of ET"
+  },
+  {
+   "section": "article",
+   "text": "In the phase II MAINTAIN trial, patients progressing on ET and CDK4/6i (palbociclib in 87% of patients) in the advanced setting underwent a switch to an alternative ET (fulvestrant or AI), either as monotherapy or in combination with ribociclib. <sentence_start/>Switching ET plus ribociclib led to improved PFS compared to switching to an alternative ET monotherapy [median PFS 5.3 vs. 2.8 months; HR 0.57 (95% CI 0.39-0.85); <italic>P</italic> = 0.006]. <sentence_start/>No OS analysis was reported [<citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02392\" pmid=\"37207300\" count=\"1\">59</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Similarly, in the phase III postMONARCH trial, patients progressing on AI plus CDK4/6i therapy were switched to fulvestrant monotherapy or fulvestrant in combination with abemaciclib. <sentence_start/>Palbociclib was the most common prior CDK4/6i (59% of patients), followed by ribociclib (33%) and abemaciclib (8%). <sentence_start/>The addition of abemaciclib led to a statistically significant PFS benefit [median PFS 6.0 vs. 5.3 months, and 6-month PFS rates 50% vs. 37% for the combination therapy and fulvestrant, respectively; HR 0.73 (95% CI 0.57-0.95); <italic>P</italic> = 0.017]. <sentence_start/>Exploratory subgroup analyses suggested a potential benefit among patients with prior palbociclib exposure [HR 0.62 (95% CI 0.44-0.86)], while no effect was observed in the small subgroup of ribociclib-pretreated patients [HR 1.01 (95% CI 0.67-1.51)]. <sentence_start/>However, the interaction <italic>p</italic>-value was not significant. <sentence_start/>OS data were immature [<citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.1200/jco-24-02086\" pmid=\"39693591\" pmcid=\"PMC11936477\" count=\"1\">60</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The approach of simultaneous endocrine and CDK4/6i switch has been modified to the use of oral SERDs instead of fulvestrant for potentially better efficacy and a more convenient oral formulation. <sentence_start/>In the three-arm phase III EMBER-3 trial, imlunestrant plus abemaciclib was superior to imlunestrant monotherapy after progression on an AI, which had been combined with a CDK4/6i in 65% of patients (palbociclib in 63%, ribociclib in 27%, and abemaciclib in 8% of cases) [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>The combination of imlunestrant and abemaciclib was superior to imlunestrant alone with respect to the primary endpoint PFS in the ITT population [median PFS 10.9 vs. 5.5 months; HR 0.59 (95% CI 0.47-0.74); <italic>P</italic> &lt; 0.001] [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>A benefit for the combination therapy was observed in a prespecified exploratory analysis both among patients with prior CDK4/6i treatment [median PFS 9.1 vs. 3.7 months; HR 0.53 (95% CI 0.40-0.69)] and across <italic>ESR1</italic>-mutated and non-mutated subgroups [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>OS data were not mature yet [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In the single-arm phase II ELAINE-2 trial, which exclusively enrolled patients with <italic>ESR1</italic>-mutated disease, lasofoxifene plus abemaciclib demonstrated encouraging activity (median PFS 13 months and overall response rate (ORR) 56%) in a more heavily pretreated population allowing previous ET, chemotherapy, and multiple CDK4/6i exposures [<citation rid=\"B61\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2023.09.3103\" pmid=\"38072513\" count=\"1\">61</citation>]. <sentence_start/>This combination will be compared against abemaciclib and fulvestrant in the phase III ELAINE-3 trial in <italic>ESR1</italic>-mutated disease following progression on CDK4/6i and AI, addressing the need for head-to-head comparisons of combination therapies [<citation rid=\"B62\" ref-type=\"bibr\" doi=\"10.1080/14796694.2025.2481825\" pmid=\"40222048\" pmcid=\"PMC12051526\" count=\"1\">62</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Taken together, after progression on ET plus CDK4/6i, switching ET and adding abemaciclib or ribociclib improved PFS vs. endocrine monotherapy [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>, <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02392\" pmid=\"37207300\" count=\"1\">59</citation>, <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.1200/jco-24-02086\" pmid=\"39693591\" pmcid=\"PMC11936477\" count=\"1\">60</citation>]. <sentence_start/>However, this benefit has mainly been shown after prior palbociclib, and its efficacy following abemaciclib or ribociclib remains less certain [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>, <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02392\" pmid=\"37207300\" count=\"1\">59</citation>, <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.1200/jco-24-02086\" pmid=\"39693591\" pmcid=\"PMC11936477\" count=\"1\">60</citation>]. <sentence_start/>The approach of combining imlunestrant with abemaciclib demonstrated a median PFS of 10.9 months, which appears to be an encouraging result. <sentence_start/>However, the notable limitation of only 61% CDK4/6i pretreatment complicates comparison with other regimens and limits applicability to the post-CDK4/6i setting [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Therapeutic combinations targeting the PI3K/AKT/mTOR signaling pathway"
+  },
+  {
+   "section": "article",
+   "text": "The PI3K/AKT/mTOR signaling pathway plays an important role in cell proliferation, growth, survival, and metabolism [<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2024.102861\" pmid=\"39662202\" count=\"1\">63</citation>]. <sentence_start/>Intracellular activation of the lipid kinase PI3K leads to recruitment of the serine/threonine kinase AKT, which is further activated through phosphorylation by mTORC2. mTORC1 and 2 represent two complexes with distinct functions that both incorporate the serine/threonine kinase mTOR. <sentence_start/>Activated AKT is a central signaling node of the pathway and mediates further downstream signaling on multiple target proteins, including activation of mTORC1 among downstream consequences. <sentence_start/>In contrast, the phosphatase PTEN inhibits PI3K/AKT signaling by antagonizing AKT activation [<citation rid=\"B63\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2024.102861\" pmid=\"39662202\" count=\"1\">63</citation>, <citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(23)00676-9\" pmid=\"38547898\" count=\"1\">64</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In HR+/HER2- ABC, the mTOR inhibitor everolimus was the first clinically introduced substance to interfere with the PI3K/AKT/mTOR pathway and inhibits mTORC1 [<citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(23)00676-9\" pmid=\"38547898\" count=\"1\">64</citation>, <citation rid=\"B65\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2017.07.005\" pmid=\"28779636\" count=\"1\">65</citation>]. <sentence_start/>Everolimus showed therapeutic efficacy in clinical trials in an endocrine-resistant population in combination with ET in the pre-CDK4/6i-era [<citation rid=\"B66\" ref-type=\"bibr\" doi=\"10.1200/jco.2017.76.9331\" pmid=\"29664714\" pmcid=\"PMC7186582\" count=\"1\">66</citation>-<citation rid=\"B68\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1109653\" pmid=\"22149876\" pmcid=\"PMC5705195\" count=\"1\">68</citation>]. <sentence_start/>Treatment with everolimus has not been biomarker-guided, and an association with treatment efficacy with <italic>PIK3CA</italic> mutation has not been established [<citation rid=\"B69\" ref-type=\"bibr\" doi=\"10.1200/jco.2014.60.1971\" pmid=\"26503204\" pmcid=\"PMC5070556\" count=\"1\">69</citation>, <citation rid=\"B70\" ref-type=\"bibr\" doi=\"10.1038/bjc.2017.25\" pmid=\"28183140\" pmcid=\"PMC5355930\" count=\"1\">70</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "More recently, approaches targeting the PI3K/AKT/mTOR pathway in combination with fulvestrant in a biomarker-selected population have been implemented in the treatment landscape of HR+/HER2- ABC: In contrast to <italic>ESR1</italic> mutations acquired during treatment, <italic>PIK3CA</italic> mutations-encoding the catalytic subunit of PI3K (p110\u03b1)-are mostly considered early, tumor-intrinsic (\u201ctruncal\u201d) events and have been observed in up to approximately 35-45% of HR+/HER2- breast cancers, although there is evidence demonstrating spatial and temporal heterogeneity [<citation rid=\"B71\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.cd-20-1647\" pmid=\"34183353\" pmcid=\"PMC9414283\" count=\"1\">71</citation>-<citation rid=\"B75\" ref-type=\"bibr\" doi=\"10.1007/s10549-023-07010-1\" pmid=\"37392328\" pmcid=\"PMC10361863\" count=\"1\">75</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The PI3K inhibitor alpelisib was the first PI3K inhibitor implemented in the treatment of HR+/HER2- ABC [<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1813904\" pmid=\"31091374\" count=\"1\">76</citation>]. <sentence_start/>Alpelisib targets the p110\u03b1 subunit of PI3K [<citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(23)00676-9\" pmid=\"38547898\" count=\"1\">64</citation>]. <sentence_start/>In endocrine-pretreated patients, alpelisib plus fulvestrant demonstrated superiority over fulvestrant for the primary endpoint PFS in a <italic>PIK3CA</italic>-mutated population [median PFS 11 vs. 5.7 months for the combination therapy vs. fulvestrant, respectively; HR 0.65 (95% CI 0.50-0.85); <italic>P</italic> &lt; 0.001] in the phase III SOLAR-1 trial. <sentence_start/>For the secondary endpoint of PFS in the <italic>PIK3CA</italic> wild-type (WT) patients, no significant effect could be demonstrated [<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1813904\" pmid=\"31091374\" count=\"1\">76</citation>]. <sentence_start/>No significant OS benefit was observed [<citation rid=\"B77\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.11.011\" pmid=\"33246021\" count=\"1\">77</citation>]. <sentence_start/>Given that only 6% of patients had received prior CDK4/6i therapy, this treatment was further evaluated in the single-arm BYLieve trial requiring prior CDK4/6i exposure, confirming efficacy in this population (median PFS 8.0 months) [<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1813904\" pmid=\"31091374\" count=\"1\">76</citation>, <citation rid=\"B78\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(24)00673-9\" pmid=\"39637900\" count=\"1\">78</citation>]. <sentence_start/>However, alpelisib was associated with relevant toxicity, with a treatment discontinuation rate due to AEs of 26%. <sentence_start/>The most common grade 3-4 AEs were hyperglycemia (37%), rash (10%), and diarrhea (7%) [<citation rid=\"B77\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.11.011\" pmid=\"33246021\" count=\"1\">77</citation>]. <sentence_start/>Results of the phase III EPIK-B5 trial, available in abstract form only, provided evidence of a significant PFS benefit (primary endpoint) of alpelisib when added to fulvestrant in a post-CDK4/6i and AI setting in an exclusively <italic>PIK3CA</italic>-mutated population [median PFS 7.4 vs. 2.8 months; HR 0.52 (95% CI 0.37-0.72); <italic>P</italic> &lt; 0.001]. <sentence_start/>The authors stated a positive trend for OS, with a median OS of 29.5 vs. 23.8 months in the control arm [HR 0.64 (95% CI 0.41-0.99); <italic>P</italic> = 0.021]. <sentence_start/>Statistical significance was not explicitly claimed, and formal interpretation of this <italic>P</italic>-value awaits full publication [<citation rid=\"B79\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-rf7-02\" count=\"1\">79</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Inavolisib, a selective p110\u03b1 inhibitor that also degrades mutant p110\u03b1, has been incorporated into first-line therapy for HR+/HER2- breast cancer in combination with palbociclib and fulvestrant in patients with a <italic>PIK3CA</italic> mutation [<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2501796\" pmid=\"40454641\" pmcid=\"PMC13496148\" count=\"1\">26</citation>]. <sentence_start/>Inavolisib plus fulvestrant is being evaluated vs. alpelisib plus fulvestrant in patients with <italic>PIK3CA</italic>-mutated disease after CDK4/6i therapy in the phase III INAVO121 trial, thereby generating important clinical evidence for direct comparisons between endocrine combination therapies [<citation rid=\"B80\" ref-type=\"bibr\" doi=\"10.1200/jco.2024.42.16_suppl.tps1136\" count=\"1\">80</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The novel, allosteric PI3K\u03b1 inhibitor zovegalisib is designed to target mutant PI3K\u03b1 while sparing the WT variant, with the aim of reducing the side effects of PI3K\u03b1-inhibitors [<citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(23)00676-9\" pmid=\"38547898\" count=\"1\">64</citation>]. <sentence_start/>In the phase III ReDiscover-2 trial, zovegalisib plus fulvestrant is being tested against capivasertib and fulvestrant in a CDK4/6i pretreated population with <italic>PIK3CA</italic> mutation, providing important direct comparisons of combination therapies [<citation rid=\"B81\" ref-type=\"bibr\" count=\"1\">81</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Apart from mutations in <italic>PIK3CA,</italic> the PI3K/AKT/mTOR pathway can be activated by less prevalent mutations in <italic>AKT1</italic> (5-7% in ABC) and by loss of PTEN function (5-10% of breast cancers), both resulting in AKT activation [<citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(23)00676-9\" pmid=\"38547898\" count=\"1\">64</citation>]. <sentence_start/>The selective AKT inhibitor capivasertib targets PI3K/AKT/mTOR pathway activation driven by genomic alterations in <italic>PIK3CA</italic>, <italic>AKT1</italic>, or <italic>PTEN.</italic> <sentence_start/>In combination with fulvestrant, capivasertib demonstrated superiority over fulvestrant in the randomized phase III CAPItello-291 trial. <sentence_start/>Eligible patients had endocrine-resistant advanced HR+/HER2- breast cancer; 70% had prior exposure to CDK4/6i and 18% had received chemotherapy for advanced disease. <sentence_start/>Forty-one percent of patients had a confirmed PI3K-AKT pathway alteration, with activating <italic>PIK3CA</italic> mutations in 31%, activating <italic>AKT1</italic> mutations in 5%, and inactivating <italic>PTEN</italic> alterations in 5% of patients. <sentence_start/>Of note, PI3K-AKT pathway alteration status was not assessed before inclusion and not used as a stratification factor at randomization; 15% of patients enrolled had an unknown alteration status (Table 3). <sentence_start/>Capivasertib plus fulvestrant significantly improved PFS for both primary endpoints: in the ITT population [median PFS 7.2 vs. 3.6 months; HR 0.60 (95% CI 0.51-0.71); <italic>P</italic> &lt; 0.001] and in patients with a PI3K-AKT pathway alteration [median PFS 7.3 vs. 3.1 months; HR 0.50 (95% CI 0.38-0.65); <italic>P</italic> &lt; 0.001]. <sentence_start/>Exploratory subgroup analysis suggested a benefit irrespective of CDK4/6i pretreatment in the ITT population. <sentence_start/>An exploratory analysis in the PI3K-AKT pathway-non-altered population, performed after exclusion of the 25% of patients with unknown molecular status, suggested no clear PFS benefit in this subgroup [HR 0.79 (95% CI 0.61-1.02)]. <sentence_start/>The most common grade \u2265 3 AEs were rash (12%), followed by diarrhea (9%) and hyperglycemia (2.3%). <sentence_start/>Treatment discontinuation due to AEs occurred in 13% of patients [<citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>]. <sentence_start/>Capivasertib in combination with fulvestrant and a CDK4/6i is investigated against fulvestrant and CDK4/6i in patients experiencing endocrine-resistant disease in the adjuvant setting in the phase III CAPItello-292 trial [<citation rid=\"B83\" ref-type=\"bibr\" doi=\"10.1158/1538-7445.sabcs23-po2-19-10\" count=\"1\">83</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Evidence on another AKT inhibitor, ipatasertib, is currently available as an abstract only, and demonstrated a significant PFS benefit in combination with fulvestrant vs. fulvestrant alone in the phase III CCTG/BCT MA.40/FINER trial. <sentence_start/>Eligible patients had advanced HR+/HER2- breast cancer progressing on AI and CDK4/6i. <sentence_start/>The trial was positive for PFS in the ITT population [primary analysis, median PFS 5.3 vs. 1.9 months; HR 0.61 (95% CI 0.46-0.81); <italic>P</italic> = 0.0007], as well as in the PI3K-AKT pathway-altered cohort (secondary analysis), i.e., with genomic alterations in <italic>PIK3CA</italic>, <italic>AKT1,</italic> or <italic>PTEN</italic> [median PFS 5.5 vs. 1.9 months; HR 0.47 (95% CI 0.31-0.72); <italic>P</italic> = 0.0005]. <sentence_start/>The most common non-hematological grade \u2265 3 AEs were diarrhea (16%), fatigue (3%), vomiting, and rash (2% each). <sentence_start/>Treatment discontinuation rate due to AEs was 6.5% [<citation rid=\"B84\" ref-type=\"bibr\" doi=\"10.1200/jco.2025.43.17_suppl.lba1005\" count=\"1\">84</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In contrast to the previously discussed trials evaluating PI3K and AKT inhibitors with fulvestrant as ET backbone [<citation rid=\"B79\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-rf7-02\" count=\"1\">79</citation>, <citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>, <citation rid=\"B84\" ref-type=\"bibr\" doi=\"10.1200/jco.2025.43.17_suppl.lba1005\" count=\"1\">84</citation>], the mTOR inhibitor everolimus has been investigated in combination with the oral SERD giredestrant in the phase III evERA trial [<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.09.026\" count=\"1\">50</citation>]. <sentence_start/>Patients were included upon progression following ET and CDK4/6i and were randomized to either giredestrant plus everolimus or IC ET (i.e., exemestane, fulvestrant or tamoxifen) plus everolimus. <sentence_start/>The trial was positive for both primary endpoints PFS in the ITT [median PFS 8.8 vs. 5.5 months; HR 0.56 (95% CI 0.44-0.71); <italic>P</italic> &lt; 0.0001] and in the <italic>ESR1-</italic>mutated cohort [median PFS 10 vs. 5.5 months; HR 0.38 (95% CI 0.27-0.54); <italic>P</italic> &lt; 0.0001, presented as abstract] [<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.09.026\" count=\"1\">50</citation>]. <sentence_start/>Full trial publication, along with its clinical positioning within the treatment landscape, remains pending. <sentence_start/>A clear strength of the trial was the incorporation of a combination-therapy regimen as comparator treatment [<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.09.026\" count=\"1\">50</citation>]. <sentence_start/>Everolimus in combination with the oral SERD elacestrant vs. elacestrant monotherapy is currently investigated in the randomized phase III ADELA trial in the post-CDK4/6i setting in an exclusively <italic>ESR1</italic>-mutated population [<citation rid=\"B85\" ref-type=\"bibr\" doi=\"10.1200/jco.2025.43.16_suppl.tps1129\" count=\"1\">85</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Similar to the triplet combination strategy of ET, CDK4/6i and PI3K/AKT/mTOR pathway targeting evaluated in the first-line INAVO120 trial [<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2501796\" pmid=\"40454641\" pmcid=\"PMC13496148\" count=\"1\">26</citation>], the phase III VIKTORIA-1 trial investigated gedatolisib, palbociclib, and fulvestrant in CDK4/6i pretreated patients [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>Gedatolisib is a multitarget inhibitor targeting both PI3K and mTORC1/2. <sentence_start/>The two-part, three-arm trial investigated both <italic>i)</italic> the triplet combination gedatolisib, palbociclib, and fulvestrant and the doublet <italic>ii)</italic> gedatolisib and fulvestrant vs. <italic>iii)</italic> fulvestrant monotherapy. <sentence_start/>No prior exposure to chemotherapy or ADCs in the advanced setting was allowed. <sentence_start/>Fulvestrant pretreatment was allowed, but the number of fulvestrant-pretreated patients was not reported. <sentence_start/>Forty percent of patients had prior palbociclib exposure; 49% ribociclib and 17% prior abemaciclib. <sentence_start/>Parts 1 and 2 of the study enrolled patients with <italic>PIK3CA</italic>-WT and <italic>PIK3CA</italic>-mutated tumors, respectively. <sentence_start/>In part 1, PFS was significantly prolonged with the triplet therapy compared to fulvestrant [median PFS 9.3 vs. 2.0 months; HR 0.24 (95% CI 0.17-0.35); <italic>P</italic> &lt; 0.001] and with the doublet therapy compared to fulvestrant [median PFS 7.4 vs. 2.0 months; HR 0.33 (95% CI 0.24-0.48); <italic>P</italic> &lt; 0.001]. <sentence_start/>The most common grade \u2265 3 treatment-related AEs were neutropenia (62.3% and 0.8% in the triplet and doublet combination group, respectively), stomatitis (19.2% and 12.3%), leukopenia (6.2% and 0%), rash (4.6% and 5.4%), nausea (3.8% and 0.8%), hyperglycemia (2.3% for both groups) and diarrhea (1.5% and 0.8%). <sentence_start/>Treatment-related AEs led to treatment discontinuation in 2.3% of patients in the triplet combination group and 3.1% in the doublet combination group. <sentence_start/>Two treatment-related deaths occurred with the triplet combination (pneumonia and hepatic failure) [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, alpelisib represents a treatment option in the endocrine-resistant management of <italic>PIK3CA</italic>-mutated HR+/HER2- ABC, supported by a PFS benefit, but in the absence of an OS benefit [<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1813904\" pmid=\"31091374\" count=\"1\">76</citation>, <citation rid=\"B77\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.11.011\" pmid=\"33246021\" count=\"1\">77</citation>]. <sentence_start/>Fully published trial evidence in the post-CDK4/6i setting still derives, at present, from single-arm phase II data [<citation rid=\"B78\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(24)00673-9\" pmid=\"39637900\" count=\"1\">78</citation>]. <sentence_start/>Capivasertib has been incorporated in the same therapeutic setting for tumors harboring a PI3K-AKT pathway alteration, after demonstration of a PFS benefit in an only partially CDK4/6i pretreated population [<citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>]. <sentence_start/>While alpelisib and capivasertib exhibit a partially overlapping, class-related toxicity profile, the safety profile reported for capivasertib is considered more favorable, particularly with regard to severe hyperglycemia [<citation rid=\"B77\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.11.011\" pmid=\"33246021\" count=\"1\">77</citation>, <citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>]. <sentence_start/>It should be clearly emphasized, however, that this observation is based on cross-trial comparison. <sentence_start/>With PFS benefits shown for both its dual and triplet combinations, gedatolisib emerges as a potential treatment option in the absence of <italic>PIK3CA</italic> mutation [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>In patients with <italic>PIK3CA</italic>-WT disease, it would have its position as an alternative to previously biomarker-unselected strategies. <sentence_start/>Though promising, to date, gedatolisib has not yet received Food and Drug Administration (FDA) nor European Medicines Agency (EMA) approval [<citation rid=\"B87\" ref-type=\"bibr\" count=\"1\">87</citation>, <citation rid=\"B88\" ref-type=\"bibr\" count=\"1\">88</citation>]. <sentence_start/>Across the three trials, fulvestrant served as the control arm, not reflecting the current SOC in most cases. <sentence_start/>The trials further differed in their pretreatment inclusion criteria-especially relevant with respect to prior fulvestrant and CDK4/6i exposure-and biomarker stratification (Tables 2 and 3); possibly affecting observed treatment effects [<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1813904\" pmid=\"31091374\" count=\"1\">76</citation>, <citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>, <citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>The clinical positioning of the ipatasertib-fulvestrant and everolimus-giredestrant combinations within the treatment landscape awaits the full publication of the respective trials [<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.09.026\" count=\"1\">50</citation>, <citation rid=\"B84\" ref-type=\"bibr\" doi=\"10.1200/jco.2025.43.17_suppl.lba1005\" count=\"1\">84</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Non-endocrine-based strategies"
+  },
+  {
+   "section": "article",
+   "text": "PARP inhibitors"
+  },
+  {
+   "section": "article",
+   "text": "Poly(ADP-ribose)-polymerase inhibitors (PARPi) represent a non-endocrine-based alternative for patients with pathogenic or likely pathogenic germline <italic>BRCA1/2</italic> (<italic>gBRCA1/2</italic>) and somatic <italic>BRCA1/2</italic> (<italic>sBRCA1/2</italic>) mutations, and mutations in germline <italic>PALB2</italic> (<italic>gPALB2</italic>) [<citation rid=\"B89\" ref-type=\"bibr\" doi=\"10.1093/annonc/mdz012\" pmid=\"30689707\" pmcid=\"PMC6503629\" count=\"1\">89</citation>-<citation rid=\"B92\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02075\" pmid=\"41604601\" count=\"1\">92</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Two phase III trials tested the PARPi olaparib (OlympiAD) and talazoparib (EMBRACA) against chemotherapy in HER2- ABC in patients with <italic>gBRCA1/2</italic>-mutations with a maximum of three previous chemotherapy regimens and no limit on previous hormonal therapies (EMBRACA) or a maximum of two previous chemotherapies and at least one previous hormonal therapy (OlympiAD). <sentence_start/>Importantly, these studies were performed before the introduction of CDK4/6i. <sentence_start/>Both trials reported a significant PFS benefit in the ITT population [olaparib: median PFS 7.0 vs. 4.2 months, HR 0.58 (95% CI 0.43-0.80); <italic>P</italic> &lt; 0.001; talazoparib: median PFS 8.6 vs. 5.6 months, HR 0.54 (95% CI 0.41-0.71); <italic>P</italic> &lt; 0.001], but no improvement in OS was observed [<citation rid=\"B89\" ref-type=\"bibr\" doi=\"10.1093/annonc/mdz012\" pmid=\"30689707\" pmcid=\"PMC6503629\" count=\"1\">89</citation>, <citation rid=\"B91\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.08.2098\" pmid=\"32828825\" pmcid=\"PMC10649377\" count=\"1\">91</citation>, <citation rid=\"B93\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1802905\" pmid=\"30110579\" pmcid=\"PMC10600918\" count=\"1\">93</citation>, <citation rid=\"B94\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1706450\" pmid=\"28578601\" count=\"1\">94</citation>]. <sentence_start/>Exploratory subgroup analyses of the respective trials suggested a PFS benefit for olaparib in the triple-negative breast cancer (TNBC) population, but not in HR+/HER2- disease, whereas talazoparib led to improvement in median PFS regardless of subtype [<citation rid=\"B93\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1802905\" pmid=\"30110579\" pmcid=\"PMC10600918\" count=\"1\">93</citation>, <citation rid=\"B94\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa1706450\" pmid=\"28578601\" count=\"1\">94</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "To contextualize the role of PARPi in a treatment landscape after CDK4/6i exposure, a retrospective multi-site analysis suggested a real-world PFS of 8.5 months for talazoparib in HR+/HER2- patients who were mainly pretreated with CDK4/6i [<citation rid=\"B95\" ref-type=\"bibr\" doi=\"10.1093/oncolo/oyad021\" pmid=\"36952230\" pmcid=\"PMC10166159\" count=\"1\">95</citation>]. <sentence_start/>In the phase IIIb LUCY study, no signal of reduced olaparib efficacy was observed in patients with prior CDK4/6i exposure (<italic>n</italic> = 25, median PFS 9.1 months) compared with CDK4/6i-na\u00efve patients (<italic>n</italic> = 12, median PFS 8.4 months), although subgroup sizes were unequal and not formally compared [<citation rid=\"B96\" ref-type=\"bibr\" doi=\"10.1007/s10549-023-07165-x\" pmid=\"38112922\" pmcid=\"PMC10948524\" count=\"1\">96</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The phase II TBCRC 048 trial provided a signal of anti-tumor efficacy regarding ORR (primary endpoint) of olaparib in patients with mutations in <italic>gPALB2</italic> (ORR 68% in HR+/HER2- disease, <italic>n</italic> = 19) or with tumors that contain a mutation in s<italic>BRCA1/2</italic> (ORR of 36% in HR+/HER2- disease, <italic>n</italic> = 33). <sentence_start/>The vast majority of HR+/HER2- patients were CDK4/6i pretreated [<citation rid=\"B92\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02075\" pmid=\"41604601\" count=\"1\">92</citation>]. <sentence_start/>No relevant activity was observed for <italic>ATM</italic> or <italic>CHEK2</italic> mutations [<citation rid=\"B90\" ref-type=\"bibr\" doi=\"10.1200/jco.20.02151\" pmid=\"33119476\" count=\"1\">90</citation>]. <sentence_start/>Based on these data, testing for <italic>gBRCA1/2</italic> is recommended to guide treatment strategy in HR+/HER2- breast cancer, as is testing for <italic>gPALB2</italic> and <italic>sBRCA1/2,</italic> although with a lower level of evidence and weaker recommendation [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Chemotherapy-based regimens"
+  },
+  {
+   "section": "article",
+   "text": "Chemotherapies, including ADCs, become relevant once endocrine (combination) therapies are exhausted or a rapid tumor response is clinically indicated. <sentence_start/>Single-agent chemotherapy has been preferred over combination chemotherapy in this setting due to the lack of an OS benefit with combination regimens, except if a rapid response is needed. <sentence_start/>Generally, taxanes and anthracyclines are the preferred agents, unless there was a recent exposure [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>]. <sentence_start/>Other treatment options include capecitabine, eribulin, vinorelbine, gemcitabine, or platinum agents [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]. <sentence_start/>Adding bevacizumab to capecitabine or a taxane is an option, having demonstrated a PFS benefit in the absence of an OS benefit [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The role of chemotherapy as \u201cfirst non-endocrine based therapy\u201d has been challenged by the results of the DESTINY-Breast06 trial investigating the anti-HER2 ADC trastuzumab deruxtecan (T-DXd) in HR+/HER2- metastatic breast cancer patients with progression on endocrine-based therapy, including CDK4/6i, but no prior use of chemotherapy for advanced disease. <sentence_start/>Additionally, tumors were required to demonstrate HER2-low staining assessed by immunohistochemistry (IHC) (IHC score 1+ or 2+ and negative in situ hybridization/ISH) or HER2-ultralow expression (IHC 0 with membrane staining; IHC &gt; 0 and &lt; 1+). <sentence_start/>Eighty-two percent of patients had HER2-low disease, 89% had prior CDK4/6i exposure, and 41% and 47% had prior anthracycline and taxane therapy, respectively, in the curative setting. <sentence_start/>T-DXd significantly improved PFS vs. physician\u2019s choice of chemotherapy (capecitabine, nab-paclitaxel, or paclitaxel) in the HER2-low population [primary endpoint, median PFS 13.2 vs. 8.1 months; HR 0.62 (95% CI 0.52-0.75); <italic>P</italic> &lt; 0.001]. <sentence_start/>ORR was 57% for T-DXd and 32% for chemotherapy in the HER2-low population. <sentence_start/>The prespecified exploratory analysis of patients with HER2-ultralow disease (18% of patients) showed a numerical trend in PFS in favor of T-DXd [median PFS 13.2 months for T-DXd and 8.3 months for chemotherapy; HR 0.78 (95% CI 0.50-1.21)]. <sentence_start/>Exploratory analysis of ORR in the HER2-ultralow population was 62% with T-DXd (vs. 26% with chemotherapy) [<citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>]. <sentence_start/>The three most commonly observed drug-related AEs of any severity with T-DXd were nausea, fatigue, and alopecia; and the most common grade \u2265 3 events were neutropenia (20.7%), anemia (5.8%), and fatigue (3.7%). <sentence_start/>Drug-related interstitial lung disease (ILD) or pneumonitis occurred in 11.3% of patients (grade \u2265 3 in 1.4%, and grade 5 events in 0.7%); and left ventricular dysfunction/ejection fraction decrease was observed in 8.1% of patients (grade \u2265 3 in 0.7%, no grade 5 events and no reporting of cardiac failure) [<citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>]. <sentence_start/>Given the pending OS data from this trial, and considering the OS benefit observed in HER2-low disease in DESTINY-Breast04-which evaluated T-DXd after one prior line of chemotherapy-clinicians may currently decide on a case-by-case basis between T-DXd and chemotherapy after CDK4/6i therapy and potentially other endocrine-based therapy lines [<citation rid=\"B98\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2203690\" pmid=\"35665782\" pmcid=\"PMC10561652\" count=\"1\">98</citation>]. <sentence_start/>In DESTINY-Breast04 and 06, patients with brain metastases were included, but comprised a minority of patients (5-8% of the HR+ population) [<citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>, <citation rid=\"B98\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2203690\" pmid=\"35665782\" pmcid=\"PMC10561652\" count=\"1\">98</citation>]. <sentence_start/>An exploratory subgroup analysis of patients with brain metastases (<italic>n</italic> = 24, 75% HR+/HER2- tumors) from the DESTINY-Breast04 trial (presented as an abstract), showed an intracranial ORR of 25% with T-DXd, but no intracranial response in patients treated with single-agent chemotherapy (<italic>n</italic> = 11) [<citation rid=\"B99\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2023.09.565\" count=\"1\">99</citation>]. <sentence_start/>A single-arm phase II trial with 12 patients with more heavily pretreated, HER2-low disease (75% HR+) showed an ORR of 50% in asymptomatic untreated and 33% in patients with progressing brain metastases [<citation rid=\"B100\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2024.103699\" pmid=\"39255534\" pmcid=\"PMC11415677\" count=\"1\">100</citation>]. <sentence_start/>Overall, these results indicate that T-DXd demonstrates significant intracranial activity in patients with HR+/HER2-low ABC and brain metastases. <sentence_start/>Another HER2-directed ADC, BNT323/DB-1303, is under investigation against single-agent chemotherapy in HR+/HER2-low ABC after prior ET and possibly CDK4/6i treatment, but no chemotherapy exposure for advanced disease [<citation rid=\"B101\" ref-type=\"bibr\" count=\"1\">101</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In contrast, based on data available in abstract form only, the TROP2-directed ADC sacituzumab govitecan (SG) did not demonstrate a benefit vs. single-agent chemotherapy when being evaluated in the phase III ASCENT-07 trial in patients with HR+/HER2- ABC after progression on ET and mostly prior CDK4/6i therapy, but no previous chemotherapy for advanced disease [<citation rid=\"B102\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-gs1-09\" count=\"1\">102</citation>]. <sentence_start/>The TROP2-directed ADC datopotamab deruxtecan (Dato-DXd) has previously shown a significant PFS benefit, but no OS benefit against chemotherapy of physician\u2019s choice in an HR+/HER2- advanced disease population with progression on 1-2 lines of chemotherapy in the advanced setting and optional prior CDK4/6i exposure (83% of patients) [<citation rid=\"B103\" ref-type=\"bibr\" doi=\"10.1200/JCO.24.00920\" pmid=\"39265124\" pmcid=\"PMC11771365\" count=\"1\">103</citation>, <citation rid=\"B104\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.12.017\" pmid=\"41448362\" count=\"1\">104</citation>]. <sentence_start/>The TROPION-Breast06 trial is a single-arm phase IIIb trial now evaluating Dato-DXd in advanced HR+/HER2- IHC 0 disease (IHC 0 defined as no staining or incomplete/faint membrane staining in \u2264 10% of tumor cells, reflecting HER2-null or HER2-ultralow status) in chemotherapy-na\u00efve patients after progression on ET [<citation rid=\"B105\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-ps5-07-21\" count=\"1\">105</citation>, <citation rid=\"B106\" ref-type=\"bibr\" doi=\"10.1016/j.modpat.2025.100925\" pmid=\"41167529\" count=\"1\">106</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The incorporation of immune checkpoint inhibitors (ICIs) in addition to chemotherapy-based regimens represents an additional strategy under clinical evaluation. <sentence_start/>The efficacy of ICI therapy in HR+/HER2- breast cancer has been rather disappointing, also reflected in the phase II PACE trial in the post-CDK4/6i setting, in which combining avelumab with palbociclib and fulvestrant failed to improve PFS compared with fulvestrant monotherapy [<citation rid=\"B56\" ref-type=\"bibr\" doi=\"10.1200/jco.23.01940\" pmid=\"38513188\" count=\"1\">56</citation>, <citation rid=\"B107\" ref-type=\"bibr\" doi=\"10.3390/cancers17172940\" pmid=\"40941037\" pmcid=\"PMC12428055\" count=\"1\">107</citation>]. <sentence_start/>Adding pembrolizumab to single-agent chemotherapy is being evaluated in the phase III KEYNOTE-B49 trial in PD-L1-positive patients with prior endocrine and CDK4/6i therapy, but no prior chemotherapy for advanced disease [<citation rid=\"B108\" ref-type=\"bibr\" doi=\"10.1200/jco.2022.40.16_suppl.tps1118\" count=\"1\">108</citation>]. <sentence_start/>Preliminary data from the phase II SACI-IO trial (in abstract form) compared SG with or without pembrolizumab after mandatory ET pretreatment and in mostly CDK4/6i- and partially chemotherapy-pretreated patients, and showed no significant PFS benefit at a preliminary analysis. <sentence_start/>Final PFS results are awaited [<citation rid=\"B109\" ref-type=\"bibr\" doi=\"10.1200/jco.2024.42.17_suppl.lba1004\" pmid=\"42323161\" count=\"1\">109</citation>]. <sentence_start/>Similarly, the TROP2-directed ADC sacituzumab tirumotecan is currently being evaluated alone and with pembrolizumab vs. chemotherapy in the phase III TroFuse-010 trial in chemotherapy-na\u00efve patients after progression on endocrine and CDK4/6i therapy [<citation rid=\"B110\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs24-p4-08-09\" count=\"1\">110</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Emerging therapeutic agents"
+  },
+  {
+   "section": "article",
+   "text": "Beyond the therapeutic strategies discussed above, novel agents with alternative mechanisms of action are under investigation, several of which have already progressed to late-phase clinical trials. <sentence_start/>The KAT6 inhibitor PF-07248144 is a novel agent in late clinical development targeting the lysine acetyltransferases KAT6A and KAT6B, which are regulators of chromatin organization and transcriptional regulation [<citation rid=\"B111\" ref-type=\"bibr\" doi=\"10.1038/s41523-025-00858-0\" pmid=\"41419492\" pmcid=\"PMC12722229\" count=\"1\">111</citation>, <citation rid=\"B112\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.08.1039\" count=\"1\">112</citation>]. <sentence_start/>PF-07248144 is currently being investigated in combination with fulvestrant in the post-CDK4/6i setting in a randomized, phase III trial [<citation rid=\"B112\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.08.1039\" count=\"1\">112</citation>]. <sentence_start/>Other investigative efforts have focused on alternative approaches to CDK inhibition beyond CDK4/6i. <sentence_start/>The more selective CDK4i atirmociclib is under investigation in combination with AI in an advanced first-line setting in phase III trials, directly comparing this approach to the current first-line CDK4/6i standard [<citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.08.1046\" count=\"1\">31</citation>]. <sentence_start/>Alternative approaches to target CDKs, such as CDK2 or combined CDK2/4/6 inhibition, and novel PROTACs targeting CDK2 are at earlier stages of clinical development [<citation rid=\"B113\" ref-type=\"bibr\" doi=\"10.1038/s41573-026-01431-5\" pmid=\"42045425\" count=\"1\">113</citation>]. <sentence_start/>The ADC patritumab deruxtecan, targeting HER3, has shown efficacy in a phase II trial, and is currently also under investigation in a phase III trial in the post CDK4/6i setting [<citation rid=\"B114\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-ps5-07-22\" count=\"1\">114</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Clinical decision making"
+  },
+  {
+   "section": "article",
+   "text": "General considerations"
+  },
+  {
+   "section": "article",
+   "text": "Therapeutic decision-making in the second-line setting following CDK4/6i progression is complex, owing to several factors: the rapidly expanding therapeutic landscape with multiple emerging options, the absence of direct head-to-head comparisons between available agents, limited cross-trial comparability, which as such has inherent limitations, but is further complicated in this setting by heterogeneous trial populations that may differentially influence treatment effects, the use of suboptimal comparator treatments, the largely absent mature OS data across available trials, fast changes in the first-line and adjuvant treatment standards with direct implications for subsequent therapy and the temporal and methodological aspects of biomarker assessment. <sentence_start/>In addition, there are unresolved questions of particular complexity, including the management of targetable co-alterations and the question of whether biomarker-selected therapies should be preferred over biomarker-unselected therapies in biomarker-positive patients. <sentence_start/>Treatment selection is therefore guided by general clinical considerations rather than definite evidence-based recommendations. <sentence_start/>An overview of the current treatment options with a potential decision tree reflecting the authors\u2019 opinions is provided in Figure 2 and elaborated in the following section, focused on the most recent results from randomized phase III trial data."
+  },
+  {
+   "section": "article",
+   "text": "Key considerations in patients progressing on ET and CDK4/6i concern, on the one hand, the need for response, which we define as a function of tumor burden with cancer-related symptoms, risk of organ dysfunction including impending visceral crisis, or imminent tumor-related complications. <sentence_start/>In the presence of a high need for response, prioritizing chemotherapy-based approaches should be considered. <sentence_start/>On the other hand, decision-making depends on the probability of response to a further non-chemotherapy-based strategy (endocrine-based therapy or PARPi), which may be informed by treatment history (pretreatment duration and response, previous CDK4/6i exposure in more than one setting, prior use of targeted agents or SERDs) and biomarker profile. <sentence_start/>In addition, disease kinetics play an important role at both levels of this framework: rapid progression may itself indicate a high need for response, and simultaneously inform the assessment of residual endocrine sensitivity. <sentence_start/>As the general sequencing principle in HR+/HER2- breast cancer favors exhausting ET-based options prior to transitioning to a chemotherapy-based approach [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>, <citation rid=\"B115\" ref-type=\"bibr\" doi=\"10.1200/op-24-00547\" pmid=\"39190846\" count=\"1\">115</citation>], a low probability of response does not preclude a further attempt at ET-based therapy in the context of indolent disease."
+  },
+  {
+   "section": "article",
+   "text": "Biomarker-guided strategies"
+  },
+  {
+   "section": "article",
+   "text": "Biomarker status is central to the subsequent treatment choice, but therapeutic decision-making is informed by additional factors and includes the incorporation of the pretreatment history, including tolerability, duration of response and therapeutic agents used in previous treatment lines, disease burden and kinetics, comorbidities and general health condition of the patient, treatment availability and patient preferences. <sentence_start/>The interplay of these factors ultimately determines the choice between biomarker-guided and biomarker-agnostic strategies. <sentence_start/>Potential therapeutic strategies stratified by biomarker status are shown in Figure 2."
+  },
+  {
+   "section": "article",
+   "text": "The interdependence and mutual influence of factors outlined above can be illustrated in the case of an <italic>ESR1</italic> detection. <sentence_start/>Three agents have shown efficacy in phase III trials as endocrine monotherapy in <italic>ESR1</italic> mutant disease: elacestrant, imlunestrant and vepdegestrant [<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.ccr-24-1073\" pmid=\"39087959\" pmcid=\"PMC11443208\" count=\"1\">43</citation>, <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>In this context, the exploratory analysis of elacestrant showing an association of pronounced efficacy with longer prior CDK4/6i duration is cited across guidelines and is reflected, for example, in reimbursement criteria in Switzerland, though the post-hoc design necessitates cautious interpretation [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>, <citation rid=\"B116\" ref-type=\"bibr\" count=\"1\">116</citation>]. <sentence_start/>Clinical scenarios in which endocrine monotherapy in <italic>ESR1</italic>-mutated patients may be favored include a low urgency for tumor response-given the consistently steep initial PFS decline observed across all monotherapy regimens-or concerns regarding tolerability of combination regimens [<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.ccr-24-1073\" pmid=\"39087959\" pmcid=\"PMC11443208\" count=\"1\">43</citation>, <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B52\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2505725\" pmid=\"40454645\" count=\"1\">52</citation>]. <sentence_start/>In simple terms, these novel ER targeting agents are an option in patients with <italic>ESR1</italic> mutated disease if 1) achieving tumor stasis rather than regression is sufficient and for 2) low volume disease in which tumor progression does not result in imminent complications such as symptoms and/or organ dysfunction. <sentence_start/>Furthermore, although imlunestrant and abemaciclib showed superiority over imlunestrant in an unselected patient population in terms of PFS (and in an exploratory subgroup analysis irrespective of <italic>ESR1</italic> mutation status), imlunestrant may be preferred over the combination therapy in <italic>ESR1</italic>-mutated patients in the clinical scenario outlined above-notably the absence of the need for a rapid tumor response (ORR 11% vs. 29% for imlunestrant vs. the combination therapy in ITT, respectively; and ORR of 12% with imlunestrant for <italic>ESR1</italic>-mutated patients in the imlunestrant vs. IC ET arm), poor prior CDK4/6i tolerability; or prior abemaciclib exposure, given the low proportion of abemaciclib-pretreated patients enrolled in the EMBER-3 trial [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>The position of everolimus and giredestrant within the treatment landscape-for which abstract-presented data have shown a PFS benefit in the ITT population, and pronounced in the <italic>ESR1</italic>-mutated subgroup (both primary endpoints)-remains to be defined pending full publication of the evERA trial [<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.09.026\" count=\"1\">50</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "For patients with <italic>PIK3CA</italic>-mutated tumors, both alpelisib-fulvestrant and capivasertib-fulvestrant are effective treatment options. <sentence_start/>In the absence of head-to-head comparisons, toxicity profiles become a key treatment-selection criterion. <sentence_start/>The safety profile assessment, based on cross-trial comparison in the absence of head-to-head comparison data, demonstrated higher reporting rates for grade \u2265 3 hyperglycemia with alpelisib than capivasertib (37% and 2.3%), warranting special consideration in patients with pre-existing diabetes mellitus. <sentence_start/>Grade 3 or higher diarrhea and rash differed less markedly between the two regimens (diarrhea rates of 7% and 9%, and rash rates of 10% and 12% for alpelisib and capivasertib, respectively) [<citation rid=\"B77\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2020.11.011\" pmid=\"33246021\" count=\"1\">77</citation>, <citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A novel feature in treatment selection is the introduction of the absence of a specific mutation-namely <italic>PIK3CA</italic>-WT status-as a biomarker to guide therapy. <sentence_start/>This approach is based on proven efficacy of gedatolisib doublet and triplet combinations in a <italic>PIK3CA-</italic>WT population; although direct comparisons of these treatments are lacking, and gedatolisib has not yet received FDA or EMA approval [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>-<citation rid=\"B88\" ref-type=\"bibr\" count=\"1\">88</citation>]. <sentence_start/>Paradoxically, evidence on the use of gedatolisib-based therapies in <italic>PIK3CA</italic>-mutated disease is yet lacking-a gap expected to be addressed by Study 2 of the VIKTORIA-1 trial, which focuses on a <italic>PIK3CA</italic>-mutated population [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "With respect to <italic>BRCA1/2</italic>-mutated disease, the evidence supporting PARPi use is heterogeneous and requires consideration for treatment selection. <sentence_start/>While PARPi have shown efficacy in patients with <italic>gBRCA1/2</italic> mutations, randomized phase III evidence was not derived from a CDK4/6i-pretreated population. <sentence_start/>Whereas prospective evidence for <italic>sBRCA1/2</italic> and <italic>gPALB2</italic> alterations is derived from mostly CDK4/6i pretreated cohorts (and for olaparib only), it remains confined to studies with limited sample size and ORR as the primary endpoint [<citation rid=\"B90\" ref-type=\"bibr\" doi=\"10.1200/jco.20.02151\" pmid=\"33119476\" count=\"1\">90</citation>, <citation rid=\"B92\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02075\" pmid=\"41604601\" count=\"1\">92</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Biomarker-independent strategies"
+  },
+  {
+   "section": "article",
+   "text": "A biomarker-undefined treatment approach is indicated in the absence of targetable alterations, or if a non-biomarker-guided approach in a biomarker-positive patient is preferred due to clinical or disease-related characteristics."
+  },
+  {
+   "section": "article",
+   "text": "There are three options to combine a SERD with a CDK4/6i: For fulvestrant-ribociclib and fulvestrant-abemaciclib, treatment effect was demonstrated in populations primarily pretreated with palbociclib. <sentence_start/>Therefore, the benefit following prior exposure to a different CDK4/6i remains unclear [<citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02392\" pmid=\"37207300\" count=\"1\">59</citation>, <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.1200/jco-24-02086\" pmid=\"39693591\" pmcid=\"PMC11936477\" count=\"1\">60</citation>]. <sentence_start/>In the trial evaluating imlunestrant-abemaciclib, only a proportion of patients had received prior CDK4/6 inhibition (predominantly palbociclib), limiting the applicability in the post-CDK4/6i setting [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>In an exploratory analysis of fulvestrant-ribociclib-treated patients with evaluable ctDNA in the MAINTAIN trial, patients harboring <italic>ESR1</italic> or <italic>PIK3CA</italic> mutations had comparable PFS between the fulvestrant-ribociclib and fulvestrant monotherapy arms, whereas the addition of ribociclib appeared beneficial mainly in mutation-negative patients. <sentence_start/>Although based on an exploratory analysis with low patient numbers, the analysis represents an attempt to examine the efficacy of biomarker-undirected therapies in biomarker-positive populations [<citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02392\" pmid=\"37207300\" count=\"1\">59</citation>]. <sentence_start/>For imlunestrant-abemaciclib, a benefit was consistent regardless of <italic>ESR1</italic> mutation or PI3K-AKT pathway status in prespecified exploratory subgroup analyses [<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2410858\" pmid=\"39660834\" count=\"1\">46</citation>, <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>]. <sentence_start/>Furthermore, several therapeutic options still originating from the pre-CDK4/6i era remain available, including ET monotherapy with fulvestrant or everolimus-based regimens [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>], the latter requiring careful consideration of associated toxicities, including hyperglycemia, pneumonitis or stomatitis [<citation rid=\"B117\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2025.105936\" pmid=\"41604817\" pmcid=\"PMC12865632\" count=\"1\">117</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "A further unresolved issue is the optimal prioritization of treatment options in the presence of co-alterations. <sentence_start/>Co-occurrence of <italic>ESR1</italic> and <italic>PIK3CA</italic> for example is consistently reported, with varying prevalence rates [<citation rid=\"B118\" ref-type=\"bibr\" doi=\"10.1007/s10549-024-07376-w\" pmid=\"38872062\" pmcid=\"PMC11420341\" count=\"1\">118</citation>, <citation rid=\"B119\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2024.103731\" pmid=\"39357123\" pmcid=\"PMC11480226\" count=\"1\">119</citation>]. <sentence_start/>The complexity of co-altered disease may be more directly addressed in clinical trials evaluating combination therapies targeting co-occurring alterations, such as oral SERDs and PI3K/AKT/mTOR-pathway directed agents."
+  },
+  {
+   "section": "article",
+   "text": "Switch to chemotherapy-based regimens"
+  },
+  {
+   "section": "article",
+   "text": "If a chemotherapy-based approach is deemed the most appropriate next therapy line, T-DXd represents an effective option for HER2-low disease, particularly due to its comparatively high ORR of 57%, exceeding the ORR reported for single-agent chemotherapy (32%) in the DESTINY-Breast06 trial [<citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>], and-based on cross-trial comparisons-ORRs achieved by endocrine-based combination therapies from current randomized trials in HER2- populations (ORRs 17-32%) [<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2025.11.018\" pmid=\"41391667\" pmcid=\"PMC13485152\" count=\"1\">47</citation>, <citation rid=\"B59\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02392\" pmid=\"37207300\" count=\"1\">59</citation>, <citation rid=\"B60\" ref-type=\"bibr\" doi=\"10.1200/jco-24-02086\" pmid=\"39693591\" pmcid=\"PMC11936477\" count=\"1\">60</citation>, <citation rid=\"B82\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2214131\" pmid=\"37256976\" pmcid=\"PMC11335038\" count=\"1\">82</citation>, <citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>However, pre-existing cardiac insufficiency or pulmonary comorbidities warrant consideration given its potential cardiotoxic effect and the risk of ILD, and OS data for T-DXd in this setting are still lacking [<citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>]. <sentence_start/>The evidence base for the use of T-DXd in HER2-ultralow disease derives from an exploratory, prespecified analysis of the DESTINY-Breast06 trial and based on these data, is listed as treatment option in current guidelines [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>, <citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>]. <sentence_start/>Due to the observed intracranial activity of T-DXd in HER2-low tumors, it might be a preferred agent in patients with brain metastases [<citation rid=\"B99\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2023.09.565\" count=\"1\">99</citation>, <citation rid=\"B100\" ref-type=\"bibr\" doi=\"10.1016/j.esmoop.2024.103699\" pmid=\"39255534\" pmcid=\"PMC11415677\" count=\"1\">100</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Determinants of biomarker performance"
+  },
+  {
+   "section": "article",
+   "text": "As outlined above, second-line systemic therapy strategies following progression on CDK4/6i have evolved as a biomarker-oriented field, in which therapeutic algorithms incorporate molecular and/or immunohistochemical biomarker testing and one-to-one matching of therapeutic options, which is a consequence of the design from current clinical trials and supports in its simplicity clinical decision making. <sentence_start/>However, clinical utility of a predictive biomarker might be determined by several, often interrelated considerations."
+  },
+  {
+   "section": "article",
+   "text": "Oncogenic relevance (biological validity)"
+  },
+  {
+   "section": "article",
+   "text": "The oncogenic relevance of the currently clinically relevant biomarkers in second-line HR+/HER2- ABC varies: <italic>ESR1</italic> mutations confer ligand-independent ER activation and represent an acquired resistance mechanism arising under AI therapy [<citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1186/s13058-020-01290-x\" pmid=\"32466779\" pmcid=\"PMC7254698\" count=\"1\">35</citation>, <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.1093/annonc/mdx483\" pmid=\"29045530\" pmcid=\"PMC6264798\" count=\"1\">36</citation>]<italic>,</italic> whereas <italic>PIK3CA</italic> mutations frequently present as early truncal alterations and a pre-treatment oncogenic driver [<citation rid=\"B64\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(23)00676-9\" pmid=\"38547898\" count=\"1\">64</citation>, <citation rid=\"B72\" ref-type=\"bibr\" doi=\"10.1038/nature11412\" pmid=\"23000897\" pmcid=\"PMC3465532\" count=\"1\">72</citation>]. <sentence_start/>HER2-low expression, on the contrary, does not appear to confer relevant oncogenic signal activity in HR+/HER2- breast cancer, but rather serves as a cell-surface target for ADC delivery [<citation rid=\"B120\" ref-type=\"bibr\" doi=\"10.1038/s41467-023-43324-w\" pmid=\"37980405\" pmcid=\"PMC10657399\" count=\"1\">120</citation>-<citation rid=\"B122\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2023.05.008\" pmid=\"37269905\" count=\"1\">122</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Testing strategy: specimen source, testing timepoint and analytical methods"
+  },
+  {
+   "section": "article",
+   "text": "The likelihood of detecting a biomarker in a tissue biopsy is strongly influenced by intrapatient tumor heterogeneity. <sentence_start/>An autopsy study from metastatic breast cancer patients, employing multi-platform profiling on multiregional metastases, demonstrated that clinically actionable driver alterations could be truncal and present across metastases, or confined to a subset of lesions. <sentence_start/>In this study, <italic>PIK3CA</italic> mutations were detected in two patients and were only present in a subset of metastases, whereas <italic>ESR1</italic> mutations were uniformly detected in all metastases in one patient and in only a subset of metastases in another patient [<citation rid=\"B123\" ref-type=\"bibr\" doi=\"10.1016/j.celrep.2019.04.098\" pmid=\"31141692\" pmcid=\"PMC6546974\" count=\"1\">123</citation>]. <sentence_start/>Similarly, substantial intrapatient heterogeneity regarding co-existence of low, ultralow and absence of HER2 expression within the same patient, including in metastases within the same organ, have been demonstrated [<citation rid=\"B124\" ref-type=\"bibr\" doi=\"10.1016/j.labinv.2025.104202\" pmid=\"40449798\" count=\"1\">124</citation>, <citation rid=\"B125\" ref-type=\"bibr\" doi=\"10.1016/j.ejca.2023.04.026\" pmid=\"37247580\" count=\"1\">125</citation>]. <sentence_start/>These observations illustrate that the detection of a biomarker in a single tissue biopsy does not guarantee its functional dominance across the metastatic landscape. <sentence_start/>Also, the absence of biomarker detection in a given lesion does not preclude its presence in other lesions."
+  },
+  {
+   "section": "article",
+   "text": "In this context, ctDNA-based liquid biopsy might represent a complementary approach with the theoretical advantage of analyzing tumor-derived DNA from multiple metastatic sites. <sentence_start/>However, due to the low concentration of ctDNA in circulation, reliable analysis depends on accurate isolation methods, sensitive assays and careful pre-analytical handling to preserve ctDNA integrity [<citation rid=\"B126\" ref-type=\"bibr\" doi=\"10.1016/j.jlb.2023.100002\" pmid=\"40027284\" pmcid=\"PMC11863823\" count=\"1\">126</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Studies focusing on concordance rates for <italic>PIK3CA</italic> detection between ctDNA and tissue have reported variable results, possibly due to differences in diagnostic methodology and temporal interval between matched samples. <sentence_start/>In a study of 72 matched tissue and plasma samples analyzed for predefined <italic>PIK3CA</italic> hotspot mutations with multiplexed PCR-based barcoding of DNA, the concordance rate was 72%, with 14% of mutations detected exclusively in plasma and 8% exclusively in tissue; however, the analyzed samples were not always temporally matched [<citation rid=\"B127\" ref-type=\"bibr\" doi=\"10.1038/s41416-021-01601-9\" pmid=\"34754095\" pmcid=\"PMC8810831\" count=\"1\">127</citation>]. <sentence_start/>In a retrospective cohort of patients with tissue and plasma samples taken the same day, concordance rate for three prespecified <italic>PIK3CA</italic> mutations was 100% using BEAMing (PCR-based method). <sentence_start/>Importantly, in the prospective cohort with a temporal offset between matched samples (median time between tissue and blood sample: 5 years), the concordance rate was lower (73%) [<citation rid=\"B128\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.ccr-11-2696\" pmid=\"22421194\" pmcid=\"PMC3533370\" count=\"1\">128</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In a recent analysis of a large real-world cohort of breast cancer patients, actionable alterations (including <italic>BRCA1/2, ESR1</italic> and <italic>PIK3CA</italic> mutations) were assessed by next-generation sequencing (NGS) in temporally matched ctDNA and tissue samples. <sentence_start/>Approximately 59% of alterations were concordantly detected by both modalities, whereas approximately 20% of alterations were identified exclusively by ctDNA, and 21% by tissue profiling. <sentence_start/>The concordance rates varied between genes; and <italic>PIK3CA</italic> demonstrated the highest concordance (70%) between tissue and ctDNA. <sentence_start/>For <italic>ESR1</italic>, 65% of variants detected by only one modality were found exclusively by ctDNA [<citation rid=\"B129\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2023.51700\" pmid=\"38252441\" pmcid=\"PMC10804266\" count=\"1\">129</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "As an additional level of complexity, reliable biomarker detection is contingent not only on the specimen type, but also the timing of testing. <sentence_start/>Due to the dynamic evolution of <italic>ESR1</italic> mutations under selective pressure of AI [<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.1186/s13058-021-01462-3\" pmid=\"34392831\" pmcid=\"PMC8365900\" count=\"1\">34</citation>], testing is indicated on a current sample reflecting post-ET progression status. <sentence_start/>For <italic>PIK3CA</italic>, mostly considered an early truncal alteration, a retrospective cross-sectional analysis of real-world genomic profiling data from HR+/HER2- breast cancer suggested a relatively stable prevalence of <italic>PIK3CA</italic> mutations at successive lines of therapy in tissue biopsies [<citation rid=\"B118\" ref-type=\"bibr\" doi=\"10.1007/s10549-024-07376-w\" pmid=\"38872062\" pmcid=\"PMC11420341\" count=\"1\">118</citation>]. <sentence_start/>In the AURORA program, prospective genomic profiling demonstrated that <italic>PIK3CA</italic> mutations were enriched in metastases compared to their paired primary tumors in mostly treatment-na\u00efve patients, or patients treated with up to one prior line of therapy; however, in the HR+/HER2- subcohort, the rate of <italic>PIK3CA</italic> mutations private to metastasis was low [<citation rid=\"B71\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.cd-20-1647\" pmid=\"34183353\" pmcid=\"PMC9414283\" count=\"1\">71</citation>]. <sentence_start/>Furthermore, serial ctDNA sequencing from the PALOMA-3 trial (fulvestrant and palbociclib vs. fulvestrant in an endocrine-resistant population) demonstrated an increase in <italic>PIK3CA</italic> mutation prevalence during treatment. <sentence_start/>Of the presumably acquired mutations, 33% were detected at low allele frequencies at baseline by droplet digital PCR (ddPCR), suggesting selection of pre-existing subclones alongside treatment-related acquisition of new mutations [<citation rid=\"B73\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.cd-18-0264\" pmid=\"30206110\" pmcid=\"PMC6368247\" count=\"1\">73</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Biomarker detection is further influenced by technical and methodological differences among diagnostic assays, including the spectrum of alterations covered and the underlying detection technology. <sentence_start/>In SOLAR-1 and the VIKTORIA-1 trial, <italic>PIK3CA</italic> mutation status was determined using a PCR test covering predefined hotspot mutations (Table 3) [<citation rid=\"B76\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1813904\" pmid=\"31091374\" count=\"1\">76</citation>, <citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>However, studies with real-world genomic profiling and aggregated genomic datasets suggest that \u2265 20% of pathogenic <italic>PIK3CA</italic> mutations in ABC are not captured by the SOLAR-1 panel, including <italic>N345K</italic>, which might occur more frequently than some included variants [<citation rid=\"B74\" ref-type=\"bibr\" doi=\"10.1186/s13058-020-01284-9\" pmid=\"32404150\" pmcid=\"PMC7222307\" count=\"1\">74</citation>, <citation rid=\"B130\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.ccr-22-2115\" pmid=\"36321996\" pmcid=\"PMC10011882\" count=\"1\">130</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Similarly, different diagnostic approaches for <italic>ESR1</italic> mutation detection are applied across recent studies. <sentence_start/>In PADA-1, ddPCR provides high sensitivity for hotspot mutations; however, despite covering the majority of actionable mutations, it remains restricted to predefined variants (Table 3) [<citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(22)00555-1\" pmid=\"36183733\" count=\"1\">57</citation>, <citation rid=\"B131\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2023.102642\" pmid=\"37864956\" count=\"1\">131</citation>]. <sentence_start/>On the other hand, NGS-based approaches, as applied in SERENA-6 and EMERALD, enable broader detection of <italic>ESR1</italic> variants [<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1200/jco.22.00338\" pmid=\"35584336\" pmcid=\"PMC9553388\" count=\"1\">41</citation>, <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>, <citation rid=\"B131\" ref-type=\"bibr\" doi=\"10.1016/j.ctrv.2023.102642\" pmid=\"37864956\" count=\"1\">131</citation>]. <sentence_start/>These methodological differences can influence the classification of patients as biomarker-positive or -negative, and for <italic>ESR1,</italic> have become particularly relevant when the biomarker serves as marker defining molecular progression prompting a treatment switch [<citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2502929\" pmid=\"40454637\" count=\"1\">45</citation>, <citation rid=\"B57\" ref-type=\"bibr\" doi=\"10.1016/S1470-2045(22)00555-1\" pmid=\"36183733\" count=\"1\">57</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Predictive performance of a biomarker"
+  },
+  {
+   "section": "article",
+   "text": "The predictive value of a biomarker and its implementation in clinical decision-making is ultimately determined by evidence derived from clinical trials. <sentence_start/>Several methodological aspects regarding biomarker-analysis at the trial-design level may potentially influence observed treatment effects with respect to biomarker-defined subgroups. <sentence_start/>Patients with unevaluable biomarker status can be classified as biomarker-negative, with inconsistent reporting across studies, randomization stratification according to biomarker status can vary, and diagnostic assays differ (Table 3). <sentence_start/>The definition and assessment of a molecularly defined subgroup can influence the treatment effect in a biomarker-selected subgroup, which was illustrated by the phase II FAKTION trial. <sentence_start/>Capivasertib plus fulvestrant in AI-resistant disease initially showed benefit over fulvestrant in ITT; with similar effect sizes observed irrespective of PI3K-AKT pathway alteration status (including <italic>PIK3CA</italic> and <italic>PTEN</italic> alterations). <sentence_start/>However, refined post-hoc biomarker analysis using an extended set of molecular alterations (including <italic>AKT1</italic>), and more sensitive diagnostic assays, resulted in substantial patient reclassification. <sentence_start/>The new analysis suggested that clinical benefit was confined to pathway-altered tumors, with no signal of efficacy observed in biomarker-negative disease, underscoring the importance of precise molecular stratification [<citation rid=\"B132\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(19)30817-4\" pmid=\"32035020\" pmcid=\"PMC7052734\" count=\"1\">132</citation>, <citation rid=\"B133\" ref-type=\"bibr\" doi=\"10.1016/s1470-2045(22)00284-4\" pmid=\"35671774\" pmcid=\"PMC9630162\" count=\"1\">133</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In addition, some phase III clinical trials investigating treatment effects according to biomarker status incorporate a dual-testing framework comprising a biomarker-unselected and a biomarker-selected population. <sentence_start/>Biomarker-negative populations are then investigated in an exploratory setting, which may reduce the likelihood of detecting treatment effects in this subgroup."
+  },
+  {
+   "section": "article",
+   "text": "Study 1 of the two-part VIKTORIA-1 trial takes a novel, methodologically distinct approach by assessing treatment efficacy in a specifically mutation-negative population: The PI3K/mTORC1/2 inhibitor gedatolisib has demonstrated activity in an exclusively <italic>PIK3CA</italic>-WT population, providing more robust evidence especially for patients without actionable alterations [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>As gedatolisib additionally functions as an mTORC inhibitor, the observed treatment effect may be mediated through mTOR inhibition, which acts downstream of PI3K and for which patient selection has not been biomarker-driven [<citation rid=\"B86\" ref-type=\"bibr\" doi=\"10.1200/JCO-25-02643\" pmid=\"41802242\" pmcid=\"PMC13075786\" count=\"1\">86</citation>]. <sentence_start/>In study 2 of VIKTORIA-1, focusing on the <italic>PIK3CA</italic>-mutated cohort, the gedatolisib combination therapies will be compared to alpelisib and fulvestrant and will provide further insights into the clinical significance of <italic>PIK3CA</italic> with respect to gedatolisib activity [<citation rid=\"B134\" ref-type=\"bibr\" doi=\"10.1158/1538-7445.sabcs23-po2-20-02\" count=\"1\">134</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "The evolving understanding of the predictive value of biomarkers is illustrated by T-DXd and HER2 expression; initially restricted to HER2-positive patients [<citation rid=\"B135\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2115022\" pmid=\"35320644\" count=\"1\">135</citation>], it has also shown clinically relevant efficacy in HER2-low disease and has shown signals of activity even in HER2-ultralow tumors [<citation rid=\"B97\" ref-type=\"bibr\" doi=\"10.1056/NEJMoa2407086\" pmid=\"39282896\" count=\"1\">97</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Implications for clinical practice"
+  },
+  {
+   "section": "article",
+   "text": "Due to the spatial and temporal heterogeneity, and variability in analytical methods, recommendations for the assessment of biomarkers in clinical practice differ between individual biomarkers. <sentence_start/>Regarding <italic>PIK3CA</italic>, <italic>AKT1</italic> and <italic>PTEN</italic> testing, current guidelines either mostly do not address whether ctDNA or tissue should be preferred, or list both options without hierarchy. <sentence_start/>Similarly, no clear preference is established with respect to timing (archival vs. current sample) or lesion type (primary vs. metastatic site) [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>, <citation rid=\"B136\" ref-type=\"bibr\" doi=\"10.1200/JCO.24.00248\" pmid=\"38478799\" count=\"1\">136</citation>]. <sentence_start/>Of note, NCCN Guidelines<sup>\u00ae</sup> recommend to prefer tissue-based testing over ctDNA to detect <italic>PTEN</italic> homozygous copy loss [<citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>]. <sentence_start/>Today, <italic>PIK3CA</italic> mutation status is the only biomarker required already before the start of a first-line palliative therapy in case of recurrence during or shortly after adjuvant ET based on the results of the INAVO120 trial [<citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1056/nejmoa2501796\" pmid=\"40454641\" pmcid=\"PMC13496148\" count=\"1\">26</citation>]. <sentence_start/>With respect to <italic>ESR1</italic> mutations, given the dynamic acquisition of <italic>ESR1</italic> mutations under ET, current guidelines recommend testing for <italic>ESR1</italic> at time of progression on ET, preferably with ctDNA or, alternatively, within a tumor tissue sample [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>, <citation rid=\"B137\" ref-type=\"bibr\" doi=\"10.1200/jco.23.00638\" pmid=\"37196213\" count=\"1\">137</citation>]. <sentence_start/>In contrast, the determination of HER2-low status is IHC-based and thus only assessable in tissue. <sentence_start/>Guidelines acknowledge the temporal and spatial heterogeneity of HER2 expression and recommend a repeat biopsy or the integration of results from all available prior and concurrent samples, where this may inform clinical decision-making [<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2026.05.707\" pmid=\"42217581\" count=\"1\">13</citation>, <citation rid=\"B14\" ref-type=\"bibr\" count=\"1\">14</citation>, <citation rid=\"B138\" ref-type=\"bibr\" doi=\"10.1200/jco.22.02864\" pmid=\"37284804\" count=\"1\">138</citation>]. <sentence_start/>Regarding diagnostic assays, the ESMO Precision Medicine Working group advocated 2024 for NGS as SOC; however, this recommendation predates the introduction of inavolisib in the first-line palliative therapy; and does not account for the divergent timepoints of the disease course at which <italic>PIK3CA</italic> and <italic>ESR1</italic> mutations are required [<citation rid=\"B139\" ref-type=\"bibr\" doi=\"10.1016/j.annonc.2024.04.005\" pmid=\"38834388\" count=\"1\">139</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "In summary, in the post-CDK4/6i setting, the highlighted multifaceted variables of therapeutically actionable biomarkers ask for a personalized strategy on a case-to-case basis, but in general requires the determination of predictive biomarkers on a freshly obtained blood (ctDNA) or tissue sample, due to the acquisition of <italic>ESR1</italic> mutations during ET. <sentence_start/>As a rule of thumb, we favor ctDNA testing in cases of difficult-to-access lesions or widespread tumor progression. <sentence_start/>A fresh tissue biopsy could be considered suitable in cases of isolated progression (with the goal to capture the molecular landscape of the progressive lesion); and/or when a switch to a chemotherapy-based regimen is clinically indicated and prior HER2 assessments have indicated HER2-null status (IHC 0 with complete absence of membrane staining, thus not meeting the criteria for HER2-ultralow) [<citation rid=\"B106\" ref-type=\"bibr\" doi=\"10.1016/j.modpat.2025.100925\" pmid=\"41167529\" count=\"1\">106</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The treatment landscape of HR+/HER2- ABC in the post-CDK4/6i setting has become increasingly complex, with a growing number of therapeutic options but no standardized treatment algorithms. <sentence_start/>Treatment selection therefore requires an individualized approach integrating patient- and disease-related factors. <sentence_start/>While biomarker-guided strategies are central to guide treatment decisions, their optimal clinical implementation requires careful evaluation of their biological, contextual and methodological complexity."
+  },
+  {
+   "section": "article",
+   "text": "The prevailing singular biomarker-driven approach appears insufficient to fully capture context-dependent disease biology and its associated heterogeneity in treatment response. <sentence_start/>With the fast pace of emerging new therapies, it becomes increasingly difficult to design clinical trials focusing on unmet needs, such as therapy sequencing or prioritizing of biomarker-uninformed vs. -informed approaches, which are still of clinical value at completion. <sentence_start/>There is a need for a more holistic profiling strategy that accounts for individual disease biology and enables the prediction of therapeutic susceptibility in different clinical scenarios."
+  },
+  {
+   "section": "article",
+   "text": "A suggested strategy is represented by precision oncology focused trials using multi-omics profiling and functional drug screening [<citation rid=\"B140\" ref-type=\"bibr\" doi=\"10.1158/1557-3265.sabcs25-ps5-07-18\" count=\"1\">140</citation>] resulting in patient allocation to clearly predefined treatment strategies. <sentence_start/>Along these lines, the LINUX trial pioneered this approach with reclassification of HR+/HER2- breast cancer using a multi-omics approach, translation of these classifications into artificial intelligence-assisted digital pathology methods and as a result, patient allocation to different treatment arms [<citation rid=\"B141\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.11.003\" pmid=\"41349543\" count=\"1\">141</citation>]. <sentence_start/>Complementary to these efforts, a deeper mechanistic understanding of sensitivity and resistance to ET-based treatment strategies may be advanced through cutting-edge translational research programs accompanying clinical trials with patient avatars (patient-derived xenograft or organoid models) to model treatment resistance and repeat biopsies upon disease progression for transcriptomic, genomic and (phospho)proteomic analysis, followed by functional assays to validate the causality of the obtained correlative results. <sentence_start/>Collaboration between research laboratories and oncologists should be fostered to ensure that mechanistic research remains responsive to emerging developments and unmet needs in medical oncology. <sentence_start/>In the context of unresolved clinical questions, existing real-world data containing available molecular tumor profiles hold substantial potential for hypothesis-generating findings regarding, e.g., therapy sequencing and association of therapy response with somatic molecular alterations beyond those covered in clinical trials."
+  },
+  {
+   "section": "article",
+   "text": "Clinical practice is shaped by phase III trial results and depends on trial design allowing for successful translation into routine care. <sentence_start/>Benefits in PFS observed in clinical trials have constituted the predominant measure of efficacy of investigated treatment strategies. <sentence_start/>Demonstration of OS benefit is hampered by the requirement for prolonged follow-up and possible inherent dilution effect imposed by the continuously changing treatment landscape and subsequent treatment lines. <sentence_start/>Given these limitations, the incorporation of patient-centered and/or patient-defined endpoints into trial design assumes increasing importance, such as health-related quality of life or preservation of functional independence."
+  },
+  {
+   "section": "back",
+   "text": "Abbreviations"
+  },
+  {
+   "section": "back",
+   "text": "ABC"
+  },
+  {
+   "section": "back",
+   "text": "advanced breast cancer"
+  },
+  {
+   "section": "back",
+   "text": "ADC"
+  },
+  {
+   "section": "back",
+   "text": "antibody-drug conjugate"
+  },
+  {
+   "section": "back",
+   "text": "AE"
+  },
+  {
+   "section": "back",
+   "text": "adverse event"
+  },
+  {
+   "section": "back",
+   "text": "AI"
+  },
+  {
+   "section": "back",
+   "text": "aromatase inhibitor"
+  },
+  {
+   "section": "back",
+   "text": "ALT"
+  },
+  {
+   "section": "back",
+   "text": "alanine aminotransferase"
+  },
+  {
+   "section": "back",
+   "text": "AST"
+  },
+  {
+   "section": "back",
+   "text": "aspartate aminotransferase"
+  },
+  {
+   "section": "back",
+   "text": "CDK4/6i"
+  },
+  {
+   "section": "back",
+   "text": "CDK4/6 inhibitor(s)"
+  },
+  {
+   "section": "back",
+   "text": "CDK4i"
+  },
+  {
+   "section": "back",
+   "text": "CDK4 inhibitor(s)"
+  },
+  {
+   "section": "back",
+   "text": "CERANs"
+  },
+  {
+   "section": "back",
+   "text": "complete estrogen receptor antagonists"
+  },
+  {
+   "section": "back",
+   "text": "CI"
+  },
+  {
+   "section": "back",
+   "text": "confidence interval"
+  },
+  {
+   "section": "back",
+   "text": "ctDNA"
+  },
+  {
+   "section": "back",
+   "text": "circulating tumor DNA"
+  },
+  {
+   "section": "back",
+   "text": "Dato-DXd"
+  },
+  {
+   "section": "back",
+   "text": "datopotamab deruxtecan"
+  },
+  {
+   "section": "back",
+   "text": "EMA"
+  },
+  {
+   "section": "back",
+   "text": "European Medicines Agency"
+  },
+  {
+   "section": "back",
+   "text": "ER"
+  },
+  {
+   "section": "back",
+   "text": "estrogen receptor"
+  },
+  {
+   "section": "back",
+   "text": "ET"
+  },
+  {
+   "section": "back",
+   "text": "endocrine therapy"
+  },
+  {
+   "section": "back",
+   "text": "FDA"
+  },
+  {
+   "section": "back",
+   "text": "Food and Drug Administration"
+  },
+  {
+   "section": "back",
+   "text": "<italic>gBRCA1/2</italic>"
+  },
+  {
+   "section": "back",
+   "text": "germline <italic>BRCA1/2</italic>"
+  },
+  {
+   "section": "back",
+   "text": "<italic>gPALB2</italic>"
+  },
+  {
+   "section": "back",
+   "text": "germline <italic>PALB2</italic>"
+  },
+  {
+   "section": "back",
+   "text": "HER2-"
+  },
+  {
+   "section": "back",
+   "text": "HER2-negative"
+  },
+  {
+   "section": "back",
+   "text": "HR"
+  },
+  {
+   "section": "back",
+   "text": "hazard ratio"
+  },
+  {
+   "section": "back",
+   "text": "HR+"
+  },
+  {
+   "section": "back",
+   "text": "hormone receptor-positive"
+  },
+  {
+   "section": "back",
+   "text": "IC ET"
+  },
+  {
+   "section": "back",
+   "text": "investigator\u2019s choice of endocrine therapy"
+  },
+  {
+   "section": "back",
+   "text": "ICIs"
+  },
+  {
+   "section": "back",
+   "text": "immune checkpoint inhibitors"
+  },
+  {
+   "section": "back",
+   "text": "iDFS"
+  },
+  {
+   "section": "back",
+   "text": "invasive disease-free survival"
+  },
+  {
+   "section": "back",
+   "text": "IHC"
+  },
+  {
+   "section": "back",
+   "text": "immunohistochemistry"
+  },
+  {
+   "section": "back",
+   "text": "ILD"
+  },
+  {
+   "section": "back",
+   "text": "interstitial lung disease"
+  },
+  {
+   "section": "back",
+   "text": "ITT"
+  },
+  {
+   "section": "back",
+   "text": "intention-to-treat"
+  },
+  {
+   "section": "back",
+   "text": "NGS"
+  },
+  {
+   "section": "back",
+   "text": "next-generation sequencing"
+  },
+  {
+   "section": "back",
+   "text": "ORR"
+  },
+  {
+   "section": "back",
+   "text": "overall response rate"
+  },
+  {
+   "section": "back",
+   "text": "OS"
+  },
+  {
+   "section": "back",
+   "text": "overall survival"
+  },
+  {
+   "section": "back",
+   "text": "PARPi"
+  },
+  {
+   "section": "back",
+   "text": "Poly(ADP-ribose)-polymerase inhibitor(s)"
+  },
+  {
+   "section": "back",
+   "text": "PFS"
+  },
+  {
+   "section": "back",
+   "text": "progression-free survival"
+  },
+  {
+   "section": "back",
+   "text": "PROTAC"
+  },
+  {
+   "section": "back",
+   "text": "proteolysis-targeting chimera"
+  },
+  {
+   "section": "back",
+   "text": "<italic>sBRCA1/2</italic>"
+  },
+  {
+   "section": "back",
+   "text": "somatic <italic>BRCA1/2</italic>"
+  },
+  {
+   "section": "back",
+   "text": "SERD"
+  },
+  {
+   "section": "back",
+   "text": "selective estrogen receptor degrader"
+  },
+  {
+   "section": "back",
+   "text": "SERMs"
+  },
+  {
+   "section": "back",
+   "text": "selective estrogen receptor modulators"
+  },
+  {
+   "section": "back",
+   "text": "SG"
+  },
+  {
+   "section": "back",
+   "text": "sacituzumab govitecan"
+  },
+  {
+   "section": "back",
+   "text": "SOC"
+  },
+  {
+   "section": "back",
+   "text": "standard of care"
+  },
+  {
+   "section": "back",
+   "text": "T-DXd"
+  },
+  {
+   "section": "back",
+   "text": "trastuzumab deruxtecan"
+  },
+  {
+   "section": "back",
+   "text": "TNBC"
+  },
+  {
+   "section": "back",
+   "text": "triple-negative breast cancer"
+  },
+  {
+   "section": "back",
+   "text": "WT"
+  },
+  {
+   "section": "back",
+   "text": "wild-type"
+  },
+  {
+   "section": "back",
+   "text": "Declarations"
+  },
+  {
+   "section": "back",
+   "text": "Acknowledgments"
+  },
+  {
+   "section": "back",
+   "text": "During the preparation of this work, the authors used Claude (Anthropic, Opus 4.8) and ChatGPT (OpenAI, GPT-5.3) for language refinement, improvement of readability, and translation of selected expressions. <sentence_start/>After using the tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the publication."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "AMH: Conceptualization, Investigation, Writing-original draft, Writing-review &amp; editing. <sentence_start/>RB: Conceptualization, Investigation, Supervision, Visualization, Writing-original draft, Writing-review &amp; editing. <sentence_start/>Both authors read and approved the submitted version."
+  },
+  {
+   "section": "back",
+   "text": "Conflicts of interest"
+  },
+  {
+   "section": "back",
+   "text": "AMH received travel support from Janssen and Amgen. <sentence_start/>RB received honoraria from H+O Health Communications, Medtis, Novartis, AstraZeneca, Impulze, Janssen, Silamed, Daiichi-Sankyo, Gilead, Stemline Menarini, MSD, OncoPulse; research funding from Gilead; travel support from Daiichi-Sankyo, Astra Zeneca, Servier and Roche; is a mentee in the ENDEAVOUR-Breast program; his wife is employed by CSL Behring AG; and he is listed on a patent application (provisional application no. 63/503,528) submitted to Massachusetts General Hospital."
+  },
+  {
+   "section": "back",
+   "text": "Ethical approval"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Consent to participate"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Consent to publication"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Availability of data and materials"
+  },
+  {
+   "section": "back",
+   "text": "Not applicable."
+  },
+  {
+   "section": "back",
+   "text": "Funding"
+  },
+  {
+   "section": "back",
+   "text": "This study received Institutional Funding from the Department of Medical Oncology and the Medical Faculty of the University of Bern. <sentence_start/>The funders had no role in the conception and conduct of the review, decision to publish, or preparation of the manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Copyright"
+  },
+  {
+   "section": "back",
+   "text": "\u00a9 The Author(s) 2026."
+  },
+  {
+   "section": "back",
+   "text": "Publisher\u2019s note"
+  },
+  {
+   "section": "back",
+   "text": "Open Exploration maintains a neutral stance on jurisdictional claims in published institutional affiliations and maps. <sentence_start/>All opinions expressed in this article are the personal views of the author(s) and do not represent the stance of the editorial team or the publisher."
+  }
+ ]
+}

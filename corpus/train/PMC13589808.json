@@ -1,0 +1,627 @@
+{
+ "pmid": 42764848,
+ "pmcid": 13589808,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "From perception to response: translational progress implementation challenges of wearable non-invasive continuous vital sign monitoring in early warning for inpatients"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Intermittent ward observations may miss short-lived physiological deterioration, and failures in observation, documentation, scoring, or escalation can widen this surveillance gap. <sentence_start/>Wearable, non-invasive continuous vital-sign monitoring may narrow the gap, but its translational value depends on whether continuous data are converted into timely and sustainable clinical response."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "To map evidence on wearable continuous or near-continuous vital-sign monitoring for inpatient deterioration detection, alerting, clinical response, workflow integration, and implementation."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "We conducted a PRISMA-ScR-informed scoping review. <sentence_start/>PubMed, Embase, Web of Science, and Scopus were searched from January 2010 to May 2026. <sentence_start/>Eligible reports evaluated wearable, non-invasive monitoring in non-ICU inpatient settings and reported technical, clinical, workflow, user-experience, or implementation outcomes. <sentence_start/>Findings were synthesized along a monitor-response pathway."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "Of 6,093 database records identified, 32 studies were included. <sentence_start/>Evidence was concentrated in signal acquisition, technical feasibility, abnormality detection, and user experience. <sentence_start/>Continuous monitoring identified oxygen desaturation and abnormal respiratory-rate episodes not captured by intermittent observations, but respiratory-rate performance varied with the sensor and comparator method. <sentence_start/>Reporting of standard care, alarm configuration, bedside reassessment, escalation procedures, and response fidelity was incomplete. <sentence_start/>Observational and before-after studies reported favorable clinical outcomes in selected settings, whereas randomized and pragmatic trials were heterogeneous and several pilot or feasibility studies were not designed or powered for uncommon clinical endpoints. <sentence_start/>One preliminary prediction-modeling study was identified."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "The evidence base is more mature for the afferent limb of monitoring and detection than for the efferent limb of clinical assessment, intervention, escalation, and outcome improvement. <sentence_start/>Wearable monitoring should be evaluated as a complex monitor-response intervention, with explicit standard care, alarm logic, response protocols, implementation support, and response fidelity."
+  },
+  {
+   "section": "article",
+   "text": "Highlights"
+  },
+  {
+   "section": "article",
+   "text": "This scoping review maps 32 studies across a monitor-response pathway."
+  },
+  {
+   "section": "article",
+   "text": "Wearable monitoring detects intermittent abnormalities missed by routine ward observations."
+  },
+  {
+   "section": "article",
+   "text": "Evidence is strongest for feasibility, abnormality detection, and patient acceptability."
+  },
+  {
+   "section": "article",
+   "text": "Hard clinical outcomes remain inconsistent across randomized and real-world studies."
+  },
+  {
+   "section": "article",
+   "text": "Alert burden, connectivity, and workflow integration are key barriers to clinical translation."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Clinical deterioration in hospitalized patients is often preceded by changes in vital signs, but the prognostic contribution of individual parameters is not equivalent. <sentence_start/>Respiratory rate is particularly important in early deterioration assessment, while oxygen saturation and heart rate can identify specific hypoxemic or circulatory abnormalities (<citation rid=\"B41\" ref-type=\"bibr\" doi=\"10.1378/chest.98.6.1388\" pmid=\"2245680\" count=\"1\">Schein et al., 1990</citation>; <citation rid=\"B17\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2004.05.016\" pmid=\"15325446\" count=\"1\">Kause et al., 2004</citation>; <citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1111/aas.13173\" pmid=\"29963706\" count=\"1\">Duus et al., 2018</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1111/aas.14048\" pmid=\"35170026\" pmcid=\"PMC9310747\" count=\"1\">Haahr-Raunkjaer et al., 2022</citation>). <sentence_start/>Ward surveillance therefore combines vital-sign observations with early warning systems such as the Modified Early Warning Score (MEWS), the National Early Warning Score (NEWS), and its updated version, NEWS2, which standardize reassessment and escalation while remaining dependent on clinical judgement (<citation rid=\"B43\" ref-type=\"bibr\" doi=\"10.1093/qjmed/94.10.521\" pmid=\"11588210\" count=\"1\">Subbe et al., 2001</citation>; <citation rid=\"B42\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2012.12.016\" pmid=\"23295778\" count=\"1\">Smith et al., 2013</citation>; <citation rid=\"B39\" ref-type=\"bibr\" count=\"1\">Royal College of Physicians, 2017</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "General wards increasingly care for older, multimorbid, and postoperative patients outside higher-dependency units. <sentence_start/>Scheduled spot checks can leave several hours without physiological observations, particularly overnight or soon after surgery, but the observation gap is not caused by measurement intervals alone. <sentence_start/>Incomplete observation, documentation, score calculation, and adherence to escalation protocols can also delay recognition and response (<citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1111/aas.13173\" pmid=\"29963706\" count=\"1\">Duus et al., 2018</citation>; <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">Weenk et al., 2019</citation>; <citation rid=\"B16\" ref-type=\"bibr\" doi=\"10.1111/aas.14048\" pmid=\"35170026\" pmcid=\"PMC9310747\" count=\"1\">Haahr-Raunkjaer et al., 2022</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Respiratory rate illustrates both the value and the measurement difficulty of ward surveillance. <sentence_start/>It is a clinically important marker of deterioration, yet routine manual counts are affected by observation duration, rounding, patient awareness, and inter-observer variability. <sentence_start/>Wearable estimates are also vulnerable to motion, posture, sensing algorithms, and data loss. <sentence_start/>Disagreement between a wearable device and standard care may therefore reflect the sensor, the comparator, or both, rather than comparison with an error-free reference standard (<citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2019-031150\" pmid=\"31420399\" pmcid=\"PMC6701670\" count=\"1\">Downey et al., 2019</citation>; <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1097/ALN.0000000000003029\" pmid=\"31743149\" count=\"1\">Breteler et al., 2020</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Wearable, non-invasive continuous monitoring has been proposed as a way to narrow the observation gap without converting general wards into intensive-care-like environments. <sentence_start/>Patch-based sensors, wearable multiparameter devices, and mobile telemetry systems can acquire heart rate, respiratory rate, oxygen saturation, temperature, blood pressure, or multimodal data while preserving mobility. <sentence_start/>Early studies nevertheless reported artefact, skin irritation, battery limitations, connectivity loss, and parameter-specific missing data (<citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.2196/mhealth.7208\" pmid=\"28679490\" pmcid=\"PMC5517820\" count=\"1\">Weenk et al., 2017</citation>; <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1016/j.ijmedinf.2018.03.014\" pmid=\"29673603\" count=\"1\">Downey et al., 2018b</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al., 2021</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "As research has matured, the central question has shifted from whether signals can be collected to what happens after a trend or alert is generated. <sentence_start/>Systems have used fixed thresholds, persistence rules, individualized limits, mobile notifications, central displays, alarm-free trend review, and algorithmic scores. <sentence_start/>These configurations alter sensitivity, positive predictive value, workload, and actionability. <sentence_start/>Their effect also depends on who reviews the data, whether intermittent observations continue, how bedside reassessment is performed, and whether the alert is connected to an existing MEWS, NEWS2, rapid-response, or medical escalation pathway (<citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0265435\" pmid=\"35286354\" pmcid=\"PMC8947816\" count=\"1\">Leenen et al., 2022b</citation>; <citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01954-z\" pmid=\"37154986\" pmcid=\"PMC10167173\" count=\"1\">Peelen et al., 2023</citation>; <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al., 2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Clinical evidence has become more outcome-oriented, but interpretation is constrained by design and statistical capacity. <sentence_start/>Observational and quality-improvement reports have described fewer complications, rapid-response calls, unplanned intensive care transfers, shorter stays, or lower costs after implementation (<citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1097/NCQ.0000000000000350\" pmid=\"30095509\" count=\"1\">Verrillo et al., 2019</citation>; <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2022.01.036\" pmid=\"35282866\" count=\"1\">Eddahchouri et al., 2022</citation>; <citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.2217/cer-2022-0176\" pmid=\"36645412\" pmcid=\"PMC10288965\" count=\"1\">Vroman et al., 2023</citation>; <citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2023.11.040\" pmid=\"38135523\" count=\"1\">Rowland et al., 2024</citation>). <sentence_start/>Randomized and pragmatic trials have reported more selective effects on physiological deviation or patient-centered outcomes, and several studies were designed for feasibility rather than rare outcomes such as death or cardiac arrest (<citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al., 2024</citation>; <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al., 2025</citation>; <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al., 2026</citation>). <sentence_start/>Prediction modeling was represented by only one included report and therefore remains a preliminary extension of the mapped evidence (<citation rid=\"B40\" ref-type=\"bibr\" doi=\"10.1038/s41467-025-65219-8\" pmid=\"41184270\" pmcid=\"PMC12583442\" count=\"1\">Scheid et al., 2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Implementation is consequently part of the intervention rather than a downstream operational detail. <sentence_start/>Patients often value perceived safety but do not want technology to replace direct nursing contact. <sentence_start/>Clinicians value earlier trend visibility but report concerns about false alerts, device maintenance, workload, electronic health record integration, training, and accountability for response (<citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.2196/22387\" pmid=\"33576743\" pmcid=\"PMC7910120\" count=\"1\">van Rossum et al., 2021</citation>; <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.2196/15471\" pmid=\"32519972\" pmcid=\"PMC7315364\" count=\"1\">Weenk et al., 2020</citation>; <citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1186/s12912-022-00837-x\" pmid=\"35287678\" pmcid=\"PMC8919550\" count=\"1\">Leenen et al., 2022a</citation>; <citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.3390/ijerph20105794\" pmid=\"37239523\" pmcid=\"PMC10218586\" count=\"1\">Becking-Verhaar et al., 2023</citation>; <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.3390/jcm13020439\" pmid=\"38256573\" pmcid=\"PMC10816891\" count=\"1\">van Noort et al., 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Because devices, monitored parameters, alarm strategies, clinical response pathways, and outcome definitions vary substantially, the translational maturity of wearable inpatient monitoring remains difficult to judge. <sentence_start/>This scoping review maps the evidence across a harmonized monitor-response pathway: clinical data acquisition; signal processing and data management; modeling and interpretation; alerting and notification; clinical response and action; and implementation and sustainability. <sentence_start/>It specifically examines the imbalance between the afferent limb of sensing and detection and the efferent limb of assessment, intervention, escalation, and outcome improvement."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Study design"
+  },
+  {
+   "section": "article",
+   "text": "This scoping review maps the translational evidence for wearable non-invasive continuous vital sign monitoring to detect deterioration in hospitalized patients. <sentence_start/>We chose a scoping approach because the existing literature is heterogeneous in device types, signals monitored, and clinical pathways. <sentence_start/>This review follows the methodological framework initially proposed by <citation rid=\"B1\" ref-type=\"bibr\" doi=\"10.1080/1364557032000119616\" count=\"1\">Arksey and O\u2019Malley in 2005</citation> and further refined by <citation rid=\"B25\" ref-type=\"bibr\" doi=\"10.1186/1748-5908-5-69\" pmid=\"20854677\" pmcid=\"PMC2954944\" count=\"1\">Levac et al. in 2010</citation>, while also adhering to the latest guidelines for scoping reviews and evidence mapping (<citation rid=\"B5\" ref-type=\"bibr\" doi=\"10.1186/s13643-023-02178-5\" pmid=\"36918977\" pmcid=\"PMC10014395\" count=\"1\">Campbell et al., 2023</citation>; <citation rid=\"B29\" ref-type=\"bibr\" doi=\"10.1186/s12874-018-0611-x\" pmid=\"30453902\" pmcid=\"PMC6245623\" count=\"1\">Munn et al., 2018</citation>; <citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.46658/JBIMES-24-09\" count=\"1\">Peters et al., 2024</citation>). <sentence_start/>This study\u2019s report followed the extended PRISMA-ScR statement for scoping reviews and used a PRISMA 2020 flow diagram to document the study screening process (<citation rid=\"B30\" ref-type=\"bibr\" doi=\"10.1136/bmj.n71\" pmid=\"33782057\" pmcid=\"PMC8005924\" count=\"1\">Page et al., 2021</citation>; <citation rid=\"B44\" ref-type=\"bibr\" doi=\"10.7326/M18-0850\" pmid=\"30178033\" count=\"1\">Tricco et al., 2018</citation>). <sentence_start/>The detailed flow diagram is shown in <bold>Figure 1</bold>."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA flow diagram of study selection."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Questions and eligibility criteria"
+  },
+  {
+   "section": "article",
+   "text": "The eligibility criteria and data-charting framework were specified before screening; however, no formal protocol was registered or publicly archived. <sentence_start/>The review question and eligibility criteria followed the population-concept-context framework recommended for scoping reviews (<citation rid=\"B32\" ref-type=\"bibr\" doi=\"10.46658/JBIMES-24-09\" count=\"1\">Peters et al., 2024</citation>). <sentence_start/>The population comprised hospitalized inpatients. <sentence_start/>The concept was wearable, non-invasive continuous or near-continuous monitoring of heart rate, respiratory rate, oxygen saturation, temperature, blood pressure, or multimodal physiological parameters. <sentence_start/>Contexts included general medical, surgical, postoperative, step-down, and emergency observation areas outside the ICU. <sentence_start/>Continuous monitoring was operationally defined as automatic wearable acquisition across a monitoring episode without reliance on nurse-performed spot checks. <sentence_start/>Near-continuous monitoring was defined as frequent wearable acquisition intended to support trend review, alerting, or escalation, allowing interruptions caused by removal, battery status, connectivity, artefact, or transmission intervals. <sentence_start/>Sampling frequency, averaging windows, and alert logic were charted as reported by the original studies."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Search strategy"
+  },
+  {
+   "section": "article",
+   "text": "From January 2010 to May 2026, a systematic literature search was conducted in four electronic databases: PubMed, Embase, Web of Science Core Collection, and Scopus. <sentence_start/>These four databases were selected to provide broad biomedical, clinical, and multidisciplinary coverage. <sentence_start/>PubMed and Embase were used to capture biomedical and clinical studies, whereas Web of Science Core Collection and Scopus were included to broaden multidisciplinary coverage relevant to digital health, monitoring technologies, and implementation research. <sentence_start/>The search strategy was designed to be sensitive rather than narrowly specific by combining controlled vocabulary and free-text terms for wearable devices, vital signs, inpatient settings, clinical deterioration, alerting, workflow, feasibility, usability, and implementation. <sentence_start/>No language or publication-type restriction was applied at the search stage. <sentence_start/>We also screened the reference lists of included studies and relevant reviews to identify additional eligible records. <sentence_start/>The retrieved evidence set included early formative inpatient wearable-monitoring studies that met the review criteria, including pilot, validation, feasibility, and early clinical implementation reports. <sentence_start/>However, no systematic grey-literature search, trial-registry search, conference-proceeding search, CINAHL search, IEEE Xplore search, or forward citation tracking was conducted. <sentence_start/>Therefore, the review should be interpreted as a map of peer-reviewed clinical literature indexed in the selected databases, supplemented by backward reference checking."
+  },
+  {
+   "section": "article",
+   "text": "The lower date limit of January 2010 was chosen <italic>a priori</italic> to capture contemporary wearable and wireless inpatient monitoring technologies while excluding older bedside telemetry, wired monitoring, and intensive-care-oriented monitoring systems that were outside the concept of this review. <sentence_start/>Although the search covered records from 2010 onward, the final included studies were published from 2017 to 2026. <sentence_start/>This gap reflects the application of the eligibility criteria rather than an additional <italic>post hoc</italic> date restriction: earlier records retrieved by the search did not meet the combined criteria of wearable, non-invasive, continuous or near-continuous vital-sign monitoring in non-ICU inpatient settings with extractable clinical, technical, workflow, or implementation outcomes."
+  },
+  {
+   "section": "article",
+   "text": "The search strategy was developed with reference to PRISMA-S and the PRESS guideline to support transparent and reproducible reporting (<citation rid=\"B27\" ref-type=\"bibr\" doi=\"10.1016/j.jclinepi.2016.01.021\" pmid=\"27005575\" count=\"1\">McGowan et al., 2016</citation>; <citation rid=\"B36\" ref-type=\"bibr\" doi=\"10.5195/jmla.2021.962\" pmid=\"34285662\" pmcid=\"PMC8270366\" count=\"1\">Rethlefsen et al., 2021</citation>). <sentence_start/>Reference lists of included studies and relevant reviews were screened manually. <sentence_start/>No additional records were identified through backward reference checking; therefore, no additional studies were included through this process. <sentence_start/>For PubMed, four predefined concepts were linked using AND; synonyms within each concept were combined using OR, using Medical Subject Headings and title/abstract terms."
+  },
+  {
+   "section": "article",
+   "text": "(\u201cWearable Electronic Devices\u201d[Mesh] OR \u201cMonitoring, Physiologic\u201d[Mesh] OR wearable*[tiab] OR wireless[tiab] OR biosensor*[tiab] OR sensor*[tiab] OR patch*[tiab] OR \u201cwearable device*\u201d[tiab] OR \u201cwearable sensor*\u201d[tiab] OR \u201cwireless device*\u201d[tiab] OR \u201cwireless sensor*\u201d[tiab] OR \u201cremote monitor*\u201d[tiab] OR \u201cremote monitoring\u201d[tiab] OR \u201ccontinuous monitor*\u201d[tiab] OR \u201ccontinuous surveillance\u201d[tiab])"
+  },
+  {
+   "section": "article",
+   "text": "AND"
+  },
+  {
+   "section": "article",
+   "text": "(\u201cVital Signs\u201d[Mesh] OR \u201cvital sign\u201d[tiab] OR \u201cvital signs\u201d[tiab] OR \u201cheart rate\u201d[tiab] OR \u201crespiratory rate\u201d[tiab] OR \u201coxygen satu-ration\u201d[tiab] OR SpO<sub>2</sub>[tiab] OR temperature[tiab] OR \u201cblood pres-sure\u201d[tiab] OR \u201cphysiological monitoring\u201d[tiab] OR \u201cphysiologic monitoring\u201d[tiab])"
+  },
+  {
+   "section": "article",
+   "text": "AND"
+  },
+  {
+   "section": "article",
+   "text": "(\u201cInpatients\u201d[Mesh] OR \u201cHospitalization\u201d[Mesh] OR \u201cHospital Units\u201d[Mesh] OR inpatient*[tiab] OR hospital*[tiab] OR ward*[tiab] OR \u201cgeneral ward*\u201d[tiab] OR \u201cmedical ward*\u201d[tiab] OR \u201csurgical ward*\u201d[tiab] OR postoperative[tiab] OR surgery[tiab] OR surgical[tiab])"
+  },
+  {
+   "section": "article",
+   "text": "AND"
+  },
+  {
+   "section": "article",
+   "text": "(deteriorat*[tiab] OR \u201cclinical deterioration\u201d[tiab] OR \u201cearly warning\u201d[tiab] OR NEWS[tiab] OR NEWS2[tiab] OR MEWS[tiab] OR \u201crapid response\u201d[tiab] OR \u201crapid response system\u201d[tiab] OR \u201crapid response team\u201d[tiab] OR \u201cICU transfer\u201d[tiab] OR \u201cunplanned ICU\u201d[tiab] OR \u201cintensive care unit admission\u201d[tiab] OR \u201cpatient safety\u201d[tiab] OR complication*[tiab] OR \u201cadverse event*\u201d[tiab] OR \u201cclinical outcome*\u201d[tiab] OR \u201cpatient outcome*\u201d[tiab] OR \u201cfailure to rescue\u201d[tiab] OR alarm*[tiab] OR alert*[tiab] OR notification*[tiab] OR implementation[tiab] OR workflow[tiab] OR feasibility[tiab] OR acceptability[tiab] OR usability[tiab] OR experience*[tiab] OR perception*[tiab] OR perspective*[tiab] OR nurs*[tiab])"
+  },
+  {
+   "section": "article",
+   "text": "A publication date filter was applied using PubMed\u2019s publication date field: (\u201c2010/01/01\u201d[Date - Publication]: \u201c2026/05/31\u201d[Date - Publication]). <sentence_start/>No language or publication type restrictions were applied. <sentence_start/>The same conceptual structure was adapted for Embase, Web of Science, and Scopus, with database-specific syntax modifications (Embase: Emtree terms and.ti,ab,kw fields; Scopus: TITLE-ABS-KEY; Web of Science: TS field). <sentence_start/>Full search strategies for all databases are provided in <bold>Supplementary Table 1</bold>."
+  },
+  {
+   "section": "article",
+   "text": "2.4"
+  },
+  {
+   "section": "article",
+   "text": "Inclusion and exclusion criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were included if they met the following criteria: (1) original clinical studies conducted in hospitalized patients; (2) evaluations of wearable, non-invasive devices used for continuous or near-continuous monitoring of one or more vital signs-including heart rate, respiratory rate, oxygen saturation, temperature, blood pressure- or multimodal physiological parameters; (3) conducted in inpatient settings such as general wards, postoperative units, step-down units, or emergency observation areas; (4) reporting clinical, technical, workflow, or implementation outcomes related to early deterioration detection or escalation of care."
+  },
+  {
+   "section": "article",
+   "text": "Studies meeting any of the following criteria were excluded: (1) those focusing on invasive monitoring, relying solely on intermittent manual vital sign observations, using non-wearable monitoring systems, consumer-grade fitness trackers not clinically deployed, non-inpatient or non-hospital settings, or limited to laboratory validation; (2) editorials, reviews, research protocols, conference abstracts lacking sufficient data, or duplicate publications; (3) Studies without extractable clinical, technical, workflow, or implementation data."
+  },
+  {
+   "section": "article",
+   "text": "2.5"
+  },
+  {
+   "section": "article",
+   "text": "Study screening methods"
+  },
+  {
+   "section": "article",
+   "text": "All literature records were imported into the reference management software EndNote. <sentence_start/>Prior to screening, duplicate records were removed using a structured deduplication method in accordance with the established multi-database workflow (<citation rid=\"B3\" ref-type=\"bibr\" doi=\"10.3163/1536-5050.104.3.014\" pmid=\"27366130\" pmcid=\"PMC4915647\" count=\"1\">Bramer et al., 2016</citation>). <sentence_start/>Two independent researchers completed the screening of literature titles and abstracts, followed by full-text assessment of literature that potentially met the inclusion criteria. <sentence_start/>Discrepancies were resolved through discussion, and literature on which no consensus was reached was adjudicated by a third senior researcher. <sentence_start/>Reasons for full-text exclusion were documented and summarized in the PRISMA flow diagram."
+  },
+  {
+   "section": "article",
+   "text": "2.6"
+  },
+  {
+   "section": "article",
+   "text": "Data extraction and charting"
+  },
+  {
+   "section": "article",
+   "text": "Data were charted with a standardized form that was pilot-tested on a subset of reports and refined during extraction (<citation rid=\"B33\" ref-type=\"bibr\" doi=\"10.11124/JBIES-22-00123\" pmid=\"36081365\" count=\"1\">Pollock et al., 2023</citation>). <sentence_start/>In addition to study design, setting, population, device, parameters, technical performance, outcomes, and limitations, we extracted the intervention surrounding the technology: pre-existing standard care; continuation of intermittent observations; who received, reviewed, or responded to data; integration with MEWS, NEWS2, rapid-response, or local escalation systems; bedside reassessment and escalation requirements; new protocols, training, implementation support, and co-interventions; and adherence or response fidelity. <sentence_start/>Alarm data included physiological versus technical alerts, parameter thresholds, persistence requirements, annunciation delays, patient- or ward-specific adjustment, delivery route and location, alerts per patient-day or monitoring-day, positive predictive value or true-positive rate, the adjudication definition, and resulting assessments or interventions. <sentence_start/>For comparative studies, we charted the prespecified primary endpoint, sample-size rationale, and whether the study was designed or powered for the clinical endpoint under discussion. <sentence_start/>Patient selection, monitoring duration, proportion of admission monitored, reasons for removal or incomplete exposure, and whether alarms were local or remote were also extracted. <sentence_start/>Unreported items were coded as not reported. <sentence_start/>Effect estimates, comparator direction, denominators, confidence intervals, and alarm-related numerical data were independently rechecked against the original reports by a second reviewer and discrepancies were resolved by consensus."
+  },
+  {
+   "section": "article",
+   "text": "2.7"
+  },
+  {
+   "section": "article",
+   "text": "Data synthesis"
+  },
+  {
+   "section": "article",
+   "text": "Because devices, comparators, pathways, alarm configurations, and outcomes were heterogeneous, no meta-analysis was conducted. <sentence_start/>Findings were synthesized narratively across the six stages shown in <bold>Figure 2</bold>: clinical data acquisition; signal processing and data management; modeling and interpretation; alerting and notification; clinical response and action; and implementation and sustainability. <sentence_start/>The first four stages were considered the afferent limb and the final two the efferent limb of the monitor-response pathway. <sentence_start/>Implementation findings were interpreted with Proctor\u2019s implementation outcomes, the updated Consolidated Framework for Implementation Research, and the NASSS framework (<citation rid=\"B6\" ref-type=\"bibr\" doi=\"10.1186/s13012-022-01245-0\" pmid=\"36309746\" pmcid=\"PMC9617234\" count=\"1\">Damschroder et al., 2022</citation>; <citation rid=\"B15\" ref-type=\"bibr\" doi=\"10.2196/jmir.8775\" pmid=\"29092808\" pmcid=\"PMC5688245\" count=\"1\">Greenhalgh et al., 2017</citation>; <citation rid=\"B35\" ref-type=\"bibr\" doi=\"10.1007/s10488-010-0319-7\" pmid=\"20957426\" pmcid=\"PMC3068522\" count=\"1\">Proctor et al., 2011</citation>). <sentence_start/>No formal critical appraisal or risk-of-bias assessment was undertaken, consistent with the mapping purpose of the review. <sentence_start/>We did not perform retrospective power calculations; statistical capacity was interpreted from the original study objective, prespecified endpoint, sample-size rationale, achieved sample, and reported uncertainty."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Conceptual monitor-response pathway for wearable continuous vital-sign monitoring in hospitalized inpatients. <sentence_start/>The first four stages constitute the afferent limb and the final two stages the efferent limb. <sentence_start/>AI, artificial intelligence; ICU, intensive care unit."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Study selection"
+  },
+  {
+   "section": "article",
+   "text": "The database search identified 6,093 records before deduplication, including 3,723 from PubMed, 1,773 from Web of Science, 426 from Embase, and 171 from Scopus. <sentence_start/>After excluding 1,231 duplicate records, a total of 4,862 records underwent title and abstract screening, among which 4,437 records were excluded. <sentence_start/>Ultimately, 425 reports were retrieved, and full texts could not be obtained for 2 reports. <sentence_start/>Full-text eligibility assessment was then conducted on the remaining 423 reports. <sentence_start/>After full-text review, 391 reports were excluded because they did not evaluate wearable or non-invasive continuous vital sign monitoring, were conducted outside hospital or inpatient settings, did not report early warning or deterioration-related outcomes, or were not original studies with extractable clinical data. <sentence_start/>Finally, 32 studies were included in the evidence synthesis."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of included studies"
+  },
+  {
+   "section": "article",
+   "text": "The 32 included studies were published between 2017 and 2026 and covered technical validation, feasibility, comparative effectiveness, implementation, qualitative experience, and predictive modelling. <sentence_start/>The clinical settings were mainly surgical wards, medical wards, mixed medical-surgical wards, postoperative wards, and surgical step-down units. <sentence_start/>Most studies evaluated adult postoperative or general ward inpatients, while several studies focused on abdominal surgery, major noncardiac surgery, esophagectomy, or broader medical ward populations."
+  },
+  {
+   "section": "article",
+   "text": "The included evidence comprised randomized or cluster-randomized studies, stepped-wedge cluster trials, prospective cohorts, before-after studies, propensity-matched observational studies, clinical validation studies, mixed-methods studies, qualitative studies, surveys, and one deep-learning prediction study. <sentence_start/>Randomized or pragmatic comparative evidence was reported in studies evaluating SensiumVitals, ViSi Mobile, and multimodal postoperative monitoring systems (<citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.2196/10802\" pmid=\"30538086\" pmcid=\"PMC6305881\" count=\"1\">Downey et al., 2018a</citation>, <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1186/s40814-020-00709-8\" pmid=\"33292669\" pmcid=\"PMC7684886\" count=\"1\">2020</citation>; <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al., 2026</citation>; <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al., 2025</citation>; <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al., 2024</citation>; <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.2196/15471\" pmid=\"32519972\" pmcid=\"PMC7315364\" count=\"1\">Weenk et al., 2020</citation>). <sentence_start/>Observational and before-after studies examined clinical outcomes, workflow outcomes, ICU transfers, rapid response team calls, length of stay, and implementation fidelity (<citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2022.01.036\" pmid=\"35282866\" count=\"1\">Eddahchouri et al., 2022</citation>, <citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01934-3\" pmid=\"37000306\" pmcid=\"PMC10066074\" count=\"1\">2023</citation>; <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al., 2021</citation>, <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.2196/44061\" pmid=\"37140977\" pmcid=\"PMC10196902\" count=\"1\">2023</citation>, <citation rid=\"B20\" ref-type=\"bibr\" doi=\"10.1093/bjsopen/zrad128\" pmid=\"38235573\" pmcid=\"PMC10794900\" count=\"1\">2024</citation>; <citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2023.11.040\" pmid=\"38135523\" count=\"1\">Rowland et al., 2024</citation>, <citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.2196/66347\" pmid=\"40068153\" pmcid=\"PMC11937710\" count=\"1\">2025</citation>; <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1097/NCQ.0000000000000350\" pmid=\"30095509\" count=\"1\">Verrillo et al., 2019</citation>; <citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.2217/cer-2022-0176\" pmid=\"36645412\" pmcid=\"PMC10288965\" count=\"1\">Vroman et al., 2023</citation>). <sentence_start/>Qualitative and survey-based studies described patient, nurse, and physician experiences, implementation barriers, and sustainability (<citation rid=\"B2\" ref-type=\"bibr\" doi=\"10.3390/ijerph20105794\" pmid=\"37239523\" pmcid=\"PMC10218586\" count=\"1\">Becking-Verhaar et al., 2023</citation>; <citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1016/j.ijmedinf.2018.03.014\" pmid=\"29673603\" count=\"1\">Downey et al., 2018b</citation>, <citation rid=\"B11\" ref-type=\"bibr\" doi=\"10.1111/jep.13678\" pmid=\"35368138\" pmcid=\"PMC9325470\" count=\"1\">2022</citation>; <citation rid=\"B19\" ref-type=\"bibr\" doi=\"10.1186/s12912-022-00832-2\" pmid=\"35255894\" pmcid=\"PMC8899789\" count=\"1\">Kooij et al., 2022</citation>; <citation rid=\"B22\" ref-type=\"bibr\" doi=\"10.1186/s12912-022-00837-x\" pmid=\"35287678\" pmcid=\"PMC8919550\" count=\"1\">Leenen et al., 2022a</citation>, <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0265435\" pmid=\"35286354\" pmcid=\"PMC8947816\" count=\"1\">2022b</citation>; <citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1111/jep.70099\" pmid=\"40222030\" pmcid=\"PMC11994216\" count=\"1\">Lockhorst et al., 2025</citation>; <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.3390/jcm13020439\" pmid=\"38256573\" pmcid=\"PMC10816891\" count=\"1\">van Noort et al., 2024</citation>; <citation rid=\"B46\" ref-type=\"bibr\" doi=\"10.2196/22387\" pmid=\"33576743\" pmcid=\"PMC7910120\" count=\"1\">van Rossum et al., 2021</citation>; <citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.2196/mhealth.7208\" pmid=\"28679490\" pmcid=\"PMC5517820\" count=\"1\">Weenk et al., 2017</citation>, <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.2196/15471\" pmid=\"32519972\" pmcid=\"PMC7315364\" count=\"1\">2020</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Across studies, the most frequently monitored parameters were heart rate (HR) and respiratory rate (RR). <sentence_start/>Oxygen saturation (SpO<sub>2</sub>), blood pressure, temperature, and electrocardiographic signals were included less consistently. <sentence_start/>Devices included ViSi Mobile, HealthPatch, SensiumVitals, Philips Biosensor/Healthdot, Isansys Lifetouch, Nonin WristOx, Masimo Radius-7, EarlySense, VitalConnect, and Biobeat. <sentence_start/>Chest-worn adhesive patches and wrist-mounted multiparameter monitors were the most common device formats. <sentence_start/>A detailed summary of study designs, clinical settings, patient populations, devices, and monitored parameters for all included studies is presented in <bold>Supplementary Table 2</bold>."
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Technical performance, comparator methods, and data completeness"
+  },
+  {
+   "section": "article",
+   "text": "Technical performance varied by sensing modality, parameter, comparator method, and clinical context. <sentence_start/>The validation studies did not share a single reference standard. <citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.2196/mhealth.7208\" pmid=\"28679490\" pmcid=\"PMC5517820\" count=\"1\">Weenk et al. (2017</citation>, <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">2019)</citation> and <citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2019-031150\" pmid=\"31420399\" pmcid=\"PMC6701670\" count=\"1\">Downey et al. (2019)</citation> compared wearable measurements with routine or study-specific ward observations; respiratory rate in these comparisons was commonly obtained by manual counting, while heart rate, temperature, or oxygen saturation used pulse oximetry, tympanic thermometry, or routine bedside equipment. <sentence_start/>By contrast, <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1097/ALN.0000000000003029\" pmid=\"31743149\" count=\"1\">Breteler et al. (2020)</citation> compared four systems with an ICU-grade monitor in a surgical step-down unit. <sentence_start/>Accordingly, the reported agreement represents the performance of each sensor-comparator pair and not comparison with a universally error-free reference."
+  },
+  {
+   "section": "article",
+   "text": "Heart-rate measurements generally showed more consistent agreement than respiratory-rate measurements within the charted validation studies, but this finding was device- and comparator-specific. <citation rid=\"B9\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2019-031150\" pmid=\"31420399\" pmcid=\"PMC6701670\" count=\"1\">Downey et al. (2019)</citation> reported a small mean heart-rate bias but wide limits of agreement; respiratory-rate and temperature agreement did not meet the study-specific acceptability limits. <sentence_start/>The same report noted that manually recorded respiratory-rate distributions were clinically implausible in some observations, illustrating uncertainty in the comparator itself. <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1097/ALN.0000000000003029\" pmid=\"31743149\" count=\"1\">Breteler et al. (2020)</citation> found broadly acceptable heart-rate performance against an ICU-grade reference, whereas respiratory-rate performance differed across devices and HealthPatch overestimated respiratory rate. <citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.2196/mhealth.7208\" pmid=\"28679490\" pmcid=\"PMC5517820\" count=\"1\">Weenk et al. (2017</citation>, <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">2019)</citation> found that respiratory-rate discrepancies frequently changed calculated MEWS values."
+  },
+  {
+   "section": "article",
+   "text": "Data completeness also differed by parameter. <sentence_start/>In <citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.2196/mhealth.7208\" pmid=\"28679490\" pmcid=\"PMC5517820\" count=\"1\">Weenk et al. (2017)</citation>, mean exposure was 61.9 hours for ViSi Mobile and 57.5 hours for HealthPatch, with connectivity failure accounting for 70% of ViSi Mobile artefacts. <sentence_start/>In the related 60-patient comparison, missing data were 10.1% for ViSi Mobile and 8.4% for HealthPatch (<citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">Weenk et al., 2019</citation>). <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al. (2021)</citation> reported artefact in 19% of heart-rate, 51% of respiratory-rate, and 9% of temperature data, despite a median monitoring duration of 81 hours. <citation rid=\"B4\" ref-type=\"bibr\" doi=\"10.1097/ALN.0000000000003029\" pmid=\"31743149\" count=\"1\">Breteler et al. (2020)</citation> reported device-specific data loss ranging from approximately 6% to 38%. <sentence_start/>Thus, ward deployability did not imply uniform parameter accuracy or completeness. <sentence_start/>Study-level comparator methods and technical limitations are summarized in <bold>Supplementary Table 3</bold>."
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Detection, alarm-system design, and alarm burden"
+  },
+  {
+   "section": "article",
+   "text": "Continuous or near-continuous monitoring detected physiological abnormalities not captured by scheduled observations. <citation rid=\"B12\" ref-type=\"bibr\" doi=\"10.1111/aas.13173\" pmid=\"29963706\" count=\"1\">Duus et al. (2018)</citation> reported oxygen saturation below 92% in 98% of postoperative abdominal surgery patients during continuous monitoring compared with 16% during routine EWS observations; episodes below 85% lasting more than 10 minutes occurred in 52%. <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">Weenk et al. (2019)</citation> identified 71 ViSi Mobile and 32 HealthPatch high-MEWS periods between routine nurse observations. <sentence_start/>The studies did not consistently report whether the additionally detected episodes prompted clinical assessment or intervention."
+  },
+  {
+   "section": "article",
+   "text": "Alarm outcomes varied across system configurations. <sentence_start/>In <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al. (2021)</citation>, SensiumVitals used thresholds of 50-120 beats/min for heart rate, 8-24 breaths/min for respiratory rate, and 34.5-38.5 degrees\u00b0C for axillary temperature; deviation had to persist for at least 14 minutes. <sentence_start/>Alerts were delivered to nurse mobile devices and a desktop application, with reminders until acknowledgement. <sentence_start/>Of 972 alerts, 878 (90.3%) were technical or system alerts and 94 (9.7%) were physiological alerts. <sentence_start/>Two reviewers retrospectively adjudicated the physiological alerts using the patient condition, nurse MEWS observations, and electronic record: 33 of 94 were true positive (35.1%), 41 were false positive, and 20 were indeterminate. <sentence_start/>The median burden was 4.5 alerts per patient-day."
+  },
+  {
+   "section": "article",
+   "text": "Other systems used materially different designs. <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al. (2024)</citation> required deviation for more than 14 minutes before an audible handheld notification and permitted nurses to optimize limits after bedside evaluation. <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al. (2025)</citation> combined NEWS-derived thresholds with persistence rules and delivered alerts to staff smartphones. <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al. (2026)</citation> used alerts for mean arterial pressure below 65 mmHg, oxygen saturation below 90%, and heart rate above 110/min, routed to a central station and nurse phones with escalation to other nurses and the unit manager if unaddressed. <sentence_start/>In contrast, <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0265435\" pmid=\"35286354\" pmcid=\"PMC8947816\" count=\"1\">Leenen et al. (2022b</citation>, <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.2196/44061\" pmid=\"37140977\" pmcid=\"PMC10196902\" count=\"1\">2023)</citation> used alarm-free trend review: nurses reviewed and documented trends twice per shift, and physicians reviewed them during rounds. <citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01954-z\" pmid=\"37154986\" pmcid=\"PMC10167173\" count=\"1\">Peelen et al. (2023)</citation> evaluated an offline algorithmic warning scenario rather than a deployed clinical alert pathway; it generated 0.99 warnings per patient-day, a positive predictive value of 0.007, and a number needed to evaluate of 152. <sentence_start/>Thresholds, delays, adjustment rules, locations, and resulting actions were incompletely reported in several other studies, which limited cross-study comparison. <sentence_start/>Study-level alarm thresholds, persistence requirements, alert-delivery routes, alarm burden, predictive values, and resulting clinical actions are summarized in <bold>Supplementary Table 4</bold>."
+  },
+  {
+   "section": "article",
+   "text": "3.5"
+  },
+  {
+   "section": "article",
+   "text": "Standard care and clinical response pathways"
+  },
+  {
+   "section": "article",
+   "text": "Most comparative intervention studies continued intermittent observations alongside continuous monitoring rather than replacing standard care. <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.2196/10802\" pmid=\"30538086\" pmcid=\"PMC6305881\" count=\"1\">Downey et al. (2018a</citation>, <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1186/s40814-020-00709-8\" pmid=\"33292669\" pmcid=\"PMC7684886\" count=\"1\">2020)</citation> added SensiumVitals to usual NEWS observations; nurse mobile devices received alerts, and subsequent assessment remained within local nursing and medical protocols. <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2022.01.036\" pmid=\"35282866\" count=\"1\">Eddahchouri et al. (2022</citation>, <citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01934-3\" pmid=\"37000306\" pmcid=\"PMC10066074\" count=\"1\">2023)</citation> retained the same MEWS and rapid-response protocol before and after ViSi Mobile implementation, including eight-hourly routine observations and more frequent review at higher scores. <sentence_start/>Continuous data were visible on the patient device and ward displays, but rapid-response activation was not automatic. <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al. (2025)</citation> added smartphone alerts to standard NEWS care and advised nurses to use the existing escalation pathway; the system did not prescribe a specific intervention. <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al. (2024)</citation> required bedside evaluation after a persistent alert, followed by full MEWS calculation and the hospital escalation protocol when no innocuous cause was found."
+  },
+  {
+   "section": "article",
+   "text": "The person receiving and acting on data varied. <sentence_start/>In the Downey studies, the patient nurse received mobile alerts and junior medical staff retained treatment decisions. <sentence_start/>In <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al. (2026)</citation>, alerts were sent to the central station and assigned nurse phone and escalated within the nursing hierarchy if not addressed. <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0265435\" pmid=\"35286354\" pmcid=\"PMC8947816\" count=\"1\">Leenen et al. (2022b</citation>, <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.2196/44061\" pmid=\"37140977\" pmcid=\"PMC10196902\" count=\"1\">2023)</citation> deliberately removed automated alerts and required scheduled nurse trend review, documentation, and medical review during rounds. <sentence_start/>The <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">Weenk et al. (2019)</citation> validation study displayed individualized alarm limits but kept clinicians blinded to device results, so detected high-MEWS periods did not form a clinical response intervention. <citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01954-z\" pmid=\"37154986\" pmcid=\"PMC10167173\" count=\"1\">Peelen et al. (2023)</citation> compared modeled warning periods retrospectively and likewise did not evaluate real-time clinical response."
+  },
+  {
+   "section": "article",
+   "text": "Training and implementation support were common co-interventions when reported. <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.2196/10802\" pmid=\"30538086\" pmcid=\"PMC6305881\" count=\"1\">Downey et al. (2018a</citation>, <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1186/s40814-020-00709-8\" pmid=\"33292669\" pmcid=\"PMC7684886\" count=\"1\">2020)</citation> provided ward training and adjusted alert settings after excessive initial burden. <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al. (2021)</citation> trained 35 nurses, developed key users, and provided bedside support; the later fidelity study used preparation, daily coaching during early implementation, key users, feedback, and quality-improvement cycles (<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.2196/44061\" pmid=\"37140977\" pmcid=\"PMC10196902\" count=\"1\">Leenen et al., 2023</citation>). <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1097/NCQ.0000000000000350\" pmid=\"30095509\" count=\"1\">Verrillo et al. (2019)</citation> combined technology with education, daily coaching, and 24-hour support during early implementation. <sentence_start/>These components could influence awareness, documentation, escalation, and outcomes independently of the sensor. <sentence_start/>Response fidelity was measured inconsistently: trend documentation occurred in 80.5% of shifts in <citation rid=\"B24\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0265435\" pmid=\"35286354\" pmcid=\"PMC8947816\" count=\"1\">Leenen et al. (2022b)</citation>, overall fidelity was 70.7% and declined over time on the medical ward in <citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.2196/44061\" pmid=\"37140977\" pmcid=\"PMC10196902\" count=\"1\">Leenen et al. (2023)</citation>, and 28% of intervention cases in <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al. (2025)</citation> had no documented nurse acknowledgement or response to an alert. <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al. (2026)</citation> could not evaluate planned bedside interventions reliably because documentation was inadequate. <sentence_start/><bold>Supplementary Table 5</bold> charts the response pathway and co-interventions."
+  },
+  {
+   "section": "article",
+   "text": "3.6"
+  },
+  {
+   "section": "article",
+   "text": "Statistical capacity and clinical outcomes"
+  },
+  {
+   "section": "article",
+   "text": "Clinical outcomes were reported across pilot, feasibility, randomized, before-after, quality-improvement, and propensity-matched studies, but the studies differed in their prespecified endpoints and sample-size rationales. <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.2196/10802\" pmid=\"30538086\" pmcid=\"PMC6305881\" count=\"1\">Downey et al. (2018a)</citation> enrolled 226 participants in a pilot cluster trial without a formal efficacy sample-size calculation, whereas <citation rid=\"B10\" ref-type=\"bibr\" doi=\"10.1186/s40814-020-00709-8\" pmid=\"33292669\" pmcid=\"PMC7684886\" count=\"1\">Downey et al. (2020)</citation> based its sample size on feasibility parameters. <sentence_start/>The Weenk reports focused on feasibility, measurement comparison, or user experience (<citation rid=\"B51\" ref-type=\"bibr\" doi=\"10.2196/mhealth.7208\" pmid=\"28679490\" pmcid=\"PMC5517820\" count=\"1\">Weenk et al., 2017</citation>, <citation rid=\"B50\" ref-type=\"bibr\" doi=\"10.1016/j.resuscitation.2019.01.017\" pmid=\"30685546\" count=\"1\">2019</citation>, <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.2196/15471\" pmid=\"32519972\" pmcid=\"PMC7315364\" count=\"1\">2020</citation>). <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1097/NCQ.0000000000000350\" pmid=\"30095509\" count=\"1\">Verrillo et al. (2019)</citation> reported a power calculation for its single-unit before-after quality-improvement comparison."
+  },
+  {
+   "section": "article",
+   "text": "The larger randomized studies were designed around different primary endpoints. <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al. (2025)</citation> enrolled 400 participants for the cumulative duration of severe vital-sign deviations. <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al. (2026)</citation> planned approximately 500 participants per group for cumulative physiological deviation and analyzed 798 participants. <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al. (2024)</citation> evaluated new disability and stopped at 57% of planned enrollment because of COVID-19-related disruption."
+  },
+  {
+   "section": "article",
+   "text": "Observational and before-after studies reported favorable associations in selected settings. <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2022.01.036\" pmid=\"35282866\" count=\"1\">Eddahchouri et al. (2022)</citation> reported lower unplanned ICU admission and rapid-response call rates after implementation, whereas the related ICU-transfer analysis found no difference in SOFA or APACHE severity at transfer (<citation rid=\"B14\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01934-3\" pmid=\"37000306\" pmcid=\"PMC10066074\" count=\"1\">Eddahchouri et al., 2023</citation>). <citation rid=\"B48\" ref-type=\"bibr\" doi=\"10.2217/cer-2022-0176\" pmid=\"36645412\" pmcid=\"PMC10288965\" count=\"1\">Vroman et al. (2023)</citation> reported fewer ICU transfers, shorter length of stay, and lower costs after implementation. <citation rid=\"B47\" ref-type=\"bibr\" doi=\"10.1097/NCQ.0000000000000350\" pmid=\"30095509\" count=\"1\">Verrillo et al. (2019)</citation> reported a decrease in complications from 22% to 5.9%, with no failure-to-rescue events during the intervention period. <sentence_start/>In propensity-matched analyses, intermittent monitoring was associated with higher odds of the composite outcome than continuous monitoring in surgical patients (OR 3.42, 95% CI 3.19-3.67) and medical patients (OR 2.79, 95% CI 1.89-4.25) (<citation rid=\"B37\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2023.11.040\" pmid=\"38135523\" count=\"1\">Rowland et al., 2024</citation>, <citation rid=\"B38\" ref-type=\"bibr\" doi=\"10.2196/66347\" pmid=\"40068153\" pmcid=\"PMC11937710\" count=\"1\">2025</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Randomized findings varied by endpoint. <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al. (2025)</citation> found no significant reduction in the prespecified composite duration of severe deviations, although time with SpO<sub>2</sub> below 88% was lower and adverse events were numerically less frequent. <citation rid=\"B18\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2026.3290\" pmid=\"41885865\" pmcid=\"PMC13022735\" count=\"1\">Khanna et al. (2026)</citation> reported approximately 30 fewer minutes with SpO<sub>2</sub> below 90% over 48 h, without significant differences in hypotension or tachycardia duration. <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al. (2024)</citation> reported new disability in 39.1% of the intervention group and 43.7% of controls. <sentence_start/>Study objectives, sample-size rationales, and endpoint-level interpretability are summarized in <bold>Supplementary Table 6</bold>."
+  },
+  {
+   "section": "article",
+   "text": "3.7"
+  },
+  {
+   "section": "article",
+   "text": "Patient selection, monitoring exposure, and user experience"
+  },
+  {
+   "section": "article",
+   "text": "Acceptability was evaluated in populations with different eligibility criteria and monitoring durations. <sentence_start/>Several studies required adult participants who could provide consent and excluded cognitive impairment, delirium, palliative care, skin allergy, pacemakers, or short expected admissions. <sentence_start/>These criteria may underrepresent patients who are most difficult to monitor or respond to. <sentence_start/>Exposure ranged from approximately 24-72 hours in the Weenk studies to a median of 81 hours in <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al. (2021)</citation>, up to five postoperative days in <citation rid=\"B34\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1295499\" pmid=\"38249988\" pmcid=\"PMC10796990\" count=\"1\">Posthuma et al. (2024)</citation> and <citation rid=\"B28\" ref-type=\"bibr\" doi=\"10.1213/ANE.0000000000007606\" pmid=\"40591492\" pmcid=\"PMC12410080\" count=\"1\">M\u00f8lgaard et al. (2025)</citation>, and routine admission-based use in implementation studies. <sentence_start/>In <citation rid=\"B7\" ref-type=\"bibr\" doi=\"10.2196/10802\" pmid=\"30538086\" pmcid=\"PMC6305881\" count=\"1\">Downey et al. (2018a)</citation>, 34 of 142 intervention participants stopped monitoring early; patient request, discomfort, pruritus, and rash were reported. <sentence_start/>In <citation rid=\"B13\" ref-type=\"bibr\" doi=\"10.1016/j.bja.2022.01.036\" pmid=\"35282866\" count=\"1\">Eddahchouri et al. (2022)</citation>, the device was removed in 21% of monitored patients, including because of hyperactive delirium, skin problems, or refusal."
+  },
+  {
+   "section": "article",
+   "text": "Patients generally described monitoring as acceptable and reassuring, particularly overnight, but emphasized that remote monitoring should not replace direct nurse-patient contact (<citation rid=\"B8\" ref-type=\"bibr\" doi=\"10.1016/j.ijmedinf.2018.03.014\" pmid=\"29673603\" count=\"1\">Downey et al., 2018b</citation>; <citation rid=\"B49\" ref-type=\"bibr\" doi=\"10.2196/15471\" pmid=\"32519972\" pmcid=\"PMC7315364\" count=\"1\">Weenk et al., 2020</citation>; <citation rid=\"B26\" ref-type=\"bibr\" doi=\"10.1111/jep.70099\" pmid=\"40222030\" pmcid=\"PMC11994216\" count=\"1\">Lockhorst et al., 2025</citation>). <sentence_start/>Clinician experience depended on alarm visibility and workflow. <sentence_start/>ViSi Mobile generated visible and audible alerts on patient and ward displays, whereas Sensium systems commonly delivered alerts remotely to nurse mobile devices. <sentence_start/>Alarm-free Healthdot implementations required scheduled trend review rather than local audible alarms. <sentence_start/>Nurses valued earlier visibility and potential time savings but reported false alerts, connectivity problems, battery replacement, device size, interpretation demands, and uncertainty about responsibility. <sentence_start/>Longitudinal implementation findings showed that acceptance could improve with experience, while adherence could decline when perceived added value was limited or implementation support diminished (<citation rid=\"B23\" ref-type=\"bibr\" doi=\"10.2196/44061\" pmid=\"37140977\" pmcid=\"PMC10196902\" count=\"1\">Leenen et al., 2023</citation>; <citation rid=\"B45\" ref-type=\"bibr\" doi=\"10.3390/jcm13020439\" pmid=\"38256573\" pmcid=\"PMC10816891\" count=\"1\">van Noort et al., 2024</citation>). <sentence_start/>Study-level selection, exposure, removal, and alarm context are reported in <bold>Supplementary Table 7</bold>."
+  },
+  {
+   "section": "article",
+   "text": "3.8"
+  },
+  {
+   "section": "article",
+   "text": "Evidence map and translational pathway"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Figure 3</bold> summarizes the distribution of studies across evidence domains and study designs. <sentence_start/>Studies most frequently addressed clinical data acquisition, signal processing and data management, interpretation of physiological abnormalities, and user acceptability. <sentence_start/>Fewer studies reported alarm actionability, bedside reassessment, intervention, escalation, response fidelity, hard clinical endpoints, or economic outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Matrix summarizing the number of included studies stratified by evidence domain and study design type. <sentence_start/>Studies may contribute to more than one evidence domain; therefore, bubble counts are not additive. <sentence_start/>This category includes offline algorithmic warning evaluations as well as one formal prediction-model study; it should not be interpreted as a mature prediction-model evidence base."
+  },
+  {
+   "section": "article",
+   "text": "Several validation and feasibility studies did not include a real-time clinical response pathway. <sentence_start/>Comparative studies frequently retained intermittent observations and, in some settings, introduced training, workflow modification, or escalation support alongside continuous monitoring. <sentence_start/>Across the six-stage monitor-response framework, more reports addressed the four afferent stages than the two efferent stages. <sentence_start/>A phase-level synthesis is provided in <bold>Supplementary Table 8</bold>."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Evidence maturity across the afferent-efferent pathway"
+  },
+  {
+   "section": "article",
+   "text": "The central finding is not a lack of sensing capability, but an incomplete translational chain between abnormality detection and completed clinical response. <sentence_start/>Continuous monitoring identified hypoxemia and abnormal respiratory-rate episodes missed by scheduled observations, yet relatively few studies reconstructed whether a notification reached an accountable clinician, prompted bedside reassessment, led to intervention or escalation, and altered outcomes. <sentence_start/><bold>Figure 3</bold> therefore indicates that the evidence base is more mature for the afferent limb than for the efferent limb."
+  },
+  {
+   "section": "article",
+   "text": "This distinction helps explain why additional detection did not consistently translate into reductions in ICU transfer, disability, or mortality. <sentence_start/>Wearable monitoring is a complex service intervention: a technically accurate sensor may have limited clinical effect if alerts are not received, reassessed, or escalated. <sentence_start/>Conversely, outcomes may improve through training, heightened awareness, revised escalation practice, or additional staff support even when the sensor is not the sole active component. <sentence_start/>Future evaluations should define the pre-existing standard of care and report each step from alert generation to completed clinical action."
+  },
+  {
+   "section": "article",
+   "text": "4.2"
+  },
+  {
+   "section": "article",
+   "text": "Measurement performance and comparator limitations"
+  },
+  {
+   "section": "article",
+   "text": "The apparent advantage of heart-rate over respiratory-rate performance should be read as a pattern within the included sensor-comparator pairs, not a universal hierarchy of wearable parameters. <sentence_start/>Heart rate was generally more consistent in the charted validation studies, whereas respiratory-rate results varied by device, sensing principle, movement, posture, and algorithm. <sentence_start/>The comparator also matters. <sentence_start/>Manual respiratory-rate measurement is affected by counting duration, rounding, observer variability, and changes in breathing when a patient is observed. <sentence_start/>Disagreement with routine care can therefore arise from the wearable device, the reference method, or both. <sentence_start/>Studies using an ICU-grade reference monitor provide a different level of technical inference from studies using routine nurse observations."
+  },
+  {
+   "section": "article",
+   "text": "Technical feasibility should likewise be separated from parameter-level validity. <sentence_start/>A system can be deployable and acceptable while producing incomplete respiratory-rate data, connection failures, or repeated technical alerts. <sentence_start/>Reporting should distinguish data availability, artefact, clinically usable data, and measurement agreement for each parameter. <sentence_start/>Without this separation, ward feasibility may be misread as evidence of diagnostic accuracy."
+  },
+  {
+   "section": "article",
+   "text": "4.3"
+  },
+  {
+   "section": "article",
+   "text": "Alarm design, actionability, and response fidelity"
+  },
+  {
+   "section": "article",
+   "text": "Alarm burden is not a fixed property of the device; it depends on thresholds, persistence requirements, annunciation delay, artefact filtering, adjustment rules, delivery route, and the method used to adjudicate true alerts. <sentence_start/>The findings of <citation rid=\"B21\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2020-042735\" pmid=\"33597138\" pmcid=\"PMC7893648\" count=\"1\">Leenen et al. (2021)</citation> illustrate why technical and physiological alerts must be reported separately and why predictive value should be accompanied by its numerator, denominator, and adjudication method."
+  },
+  {
+   "section": "article",
+   "text": "The included studies also demonstrate that different designs trade immediacy against workload. <sentence_start/>Persistent-threshold alerts can suppress transient deviations, but may still generate technical burden. <sentence_start/>Algorithmic scores may provide longer lead time but low positive predictive value, as shown by the high number needed to evaluate in <citation rid=\"B31\" ref-type=\"bibr\" doi=\"10.1007/s10916-023-01954-z\" pmid=\"37154986\" pmcid=\"PMC10167173\" count=\"1\">Peelen et al. (2023)</citation>. <sentence_start/>Alarm-free trend review reduced immediate alert burden but shifted responsibility to scheduled nurse review and documentation. <sentence_start/>These approaches cannot be compared meaningfully unless studies report alert configuration, exposure time, alerts per patient-day, acknowledgement, bedside assessment, and resulting intervention. <sentence_start/>Response fidelity should be treated as an outcome in its own right."
+  },
+  {
+   "section": "article",
+   "text": "4.4"
+  },
+  {
+   "section": "article",
+   "text": "Clinical outcomes, statistical capacity, and co-interventions"
+  },
+  {
+   "section": "article",
+   "text": "Clinical outcome evidence remains heterogeneous because the studies asked different questions. <sentence_start/>Pilot and feasibility studies were designed to establish recruitment, adherence, missing data, usability, or physiological detection, not to determine effects on death, cardiac arrest, unplanned ICU admission, or failure to rescue. <sentence_start/>A non-significant result for an uncommon endpoint in an underpowered study is absence of conclusive evidence, not evidence that the intervention has no effect. <sentence_start/>The converse is equally important: favorable numerical differences in a pilot study do not establish effectiveness when no adequately powered comparison was prespecified."
+  },
+  {
+   "section": "article",
+   "text": "Observational and before-after studies often reported larger outcome differences than randomized studies. <sentence_start/>These differences may reflect benefits under mature implementation, but they are also compatible with secular trends, case mix, residual confounding, revised escalation practice, and concurrent training or technical support. <sentence_start/>Propensity matching reduces measured confounding but cannot remove all unmeasured differences. <sentence_start/>Randomized trials provide stronger protection against confounding, yet several were powered for physiological exposure or patient-reported disability rather than uncommon hard outcomes, and one was terminated early. <sentence_start/>The most defensible interpretation is that selected physiological and process benefits are supported, whereas effects on uncommon clinical outcomes remain uncertain."
+  },
+  {
+   "section": "article",
+   "text": "4.5"
+  },
+  {
+   "section": "article",
+   "text": "Patient selection, workflow, and sustainability"
+  },
+  {
+   "section": "article",
+   "text": "Patient acceptability was generally favorable, but external validity is limited by consent-based recruitment, exclusions for cognitive impairment or skin intolerance, and variable monitoring duration. <sentence_start/>Short-term postoperative exposure in willing participants is not equivalent to sustained use throughout a complex medical admission. <sentence_start/>Device removal because of delirium, discomfort, rash, refusal, procedures, battery depletion, or technical failure should be reported alongside satisfaction scores, because these events identify populations and contexts in which implementation may be least reliable."
+  },
+  {
+   "section": "article",
+   "text": "For clinicians, sustainability depended on whether the system reduced uncertainty without transferring unmanageable surveillance work to nurses. <sentence_start/>Training, key-user models, bedside coaching, technical support, electronic record integration, and feedback cycles improved early adoption in several reports. <sentence_start/>However, fidelity declined over time in a medical ward when perceived added value was limited. <sentence_start/>Preserving face-to-face assessment is also essential: patients valued remote surveillance as an additional safety layer, not as a substitute for nursing contact."
+  },
+  {
+   "section": "article",
+   "text": "4.6"
+  },
+  {
+   "section": "article",
+   "text": "Strengths and limitations"
+  },
+  {
+   "section": "article",
+   "text": "This review used a scoping design suited to a heterogeneous and rapidly developing field, searched four major databases, and organized evidence across the complete monitor-response pathway rather than treating wearable monitoring as a stand-alone device. <sentence_start/>The extraction framework distinguishes technical from physiological alerts, documents comparator methods, charts standard care and response pathways, and relates clinical interpretations to each study\u2019s prespecified endpoint and sample-size rationale."
+  },
+  {
+   "section": "article",
+   "text": "Several limitations remain. <sentence_start/>No formal risk-of-bias assessment was undertaken, so the map should not be interpreted as a graded effectiveness review. <sentence_start/>The search did not include CINAHL, IEEE Xplore, trial registries, conference proceedings, or a systematic gray-literature search. <sentence_start/>Alarm thresholds, delays, individualized settings, standard care, response pathways, and fidelity were frequently not reported, limiting reconstruction of the complete intervention. <sentence_start/>Several reports selected participants willing and able to wear the technology and monitored them for only part of the admission. <sentence_start/>Many studies were not designed or powered for uncommon clinical outcomes. <sentence_start/>Predictive modeling was represented by one report, and the search was not designed as a prediction-model review; broader conclusions about predictive analytics are therefore not supported. <sentence_start/>Device versions, ward staffing, local escalation protocols, and health-system context also limit transferability."
+  },
+  {
+   "section": "article",
+   "text": "4.7"
+  },
+  {
+   "section": "article",
+   "text": "Implications for practice and future research"
+  },
+  {
+   "section": "article",
+   "text": "Current evidence supports selective use cases in which the target abnormality, alert logic, accountable responder, and escalation action are explicit. <sentence_start/>Adoption should be preceded by local validation of connectivity, parameter completeness, alarm burden, and workflow capacity. <sentence_start/>Programs should retain a safety-net observation process until reliability is demonstrated, specify who owns each alert, and audit acknowledgement, bedside reassessment, escalation, and outcome. <sentence_start/>Economic evaluation should include implementation labor, training, devices, connectivity, alarm workload, avoided deterioration, and opportunity costs."
+  },
+  {
+   "section": "article",
+   "text": "Future comparative studies should prespecify the primary clinical or physiological endpoint, justify sample size for that endpoint, report effect estimates with confidence intervals, and avoid interpreting underpowered null findings as proof of equivalence. <sentence_start/>Alarm studies should report physiological and technical alerts separately, thresholds, persistence, delays, adjustment rules, alerts per patient-day, positive predictive value, acknowledgement, and clinical action. <sentence_start/>Prediction modeling should be considered preliminary within this review: future models require external validation and prospective testing of calibration, actionability, workload, escalation behavior, and patient outcomes before deployment as decision support."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "This scoping review maps an evidence base that is comparatively developed for clinical data acquisition, technical feasibility, data completeness, and detection of physiological abnormalities, but substantially less developed for clinical assessment, intervention, escalation, response fidelity, and patient or economic outcomes. <sentence_start/>Selected studies identified hypoxemia and abnormal respiratory-rate episodes not captured by intermittent observations. <sentence_start/>However, clinical outcome findings were heterogeneous, and several pilot, feasibility, validation, or implementation studies were not designed or powered to evaluate uncommon clinical endpoints. <sentence_start/>Incomplete reporting of standard care, alarm configuration, co-interventions, and response pathways further limited attribution of observed outcomes to the monitoring technology itself. <sentence_start/>Wearable monitoring should therefore be evaluated as a complex monitor-response intervention rather than as a stand-alone sensing technology."
+  },
+  {
+   "section": "back",
+   "text": "Edited by: , The Hong Kong Polytechnic University, Hong Kong SAR, China"
+  },
+  {
+   "section": "back",
+   "text": "Reviewed by: , University of Denver, United States"
+  },
+  {
+   "section": "back",
+   "text": ", Vitalthings, Norway"
+  },
+  {
+   "section": "back",
+   "text": "Data availability statement"
+  },
+  {
+   "section": "back",
+   "text": "The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation."
+  },
+  {
+   "section": "back",
+   "text": "Author contributions"
+  },
+  {
+   "section": "back",
+   "text": "CD: Conceptualization, Methodology, Visualization, Writing - original draft, Writing - review &amp; editing. <sentence_start/>JY: Investigation, Writing - original draft, Writing - review &amp; editing."
+  },
+  {
+   "section": "back",
+   "text": "Conflict of interest"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  },
+  {
+   "section": "back",
+   "text": "Generative AI statement"
+  },
+  {
+   "section": "back",
+   "text": "The author(s) declared that generative AI was not used in the creation of this manuscript."
+  },
+  {
+   "section": "back",
+   "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. <sentence_start/>If you identify any issues, please contact us."
+  },
+  {
+   "section": "back",
+   "text": "Publisher\u2019s note"
+  },
+  {
+   "section": "back",
+   "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. <sentence_start/>Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+  },
+  {
+   "section": "back",
+   "text": "Supplementary material"
+  },
+  {
+   "section": "back",
+   "text": "The Supplementary Material for this article can be found online at:"
+  }
+ ]
+}

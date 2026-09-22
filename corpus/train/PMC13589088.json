@@ -1,0 +1,455 @@
+{
+ "pmid": 42763524,
+ "pmcid": 13589088,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Single-cell sequencing-guided discovery of narciclasine as a dual VCAM-1/ICAM-1 inhibitor for atherosclerosis management"
+  },
+  {
+   "section": "abstract",
+   "text": "Atherosclerosis (AS) remains a leading cause of cardiovascular morbidity and mortality worldwide, with current treatments focused primarily on reducing low-density lipoprotein levels while failing to repair damaged endothelial cells, thus highlighting the urgent need for novel therapeutic drugs. <sentence_start/>To address this challenge, we analyzed human AS patient single-cell RNA sequencing datasets to identify disease-driving genes and then employed connectivity map analysis to screen for potential therapeutic compounds. <sentence_start/>Using network pharmacology and machine learning to predict core drug targets, the study validated drug-target interactions through molecular docking, molecular dynamics simulations, and surface plasmon resonance analysis, with experimental validation conducted using endothelial cell damage models and <italic>ApoE</italic><italic><sup>\u2212/\u2212</sup></italic> atherosclerotic mice. <sentence_start/>The integrative approach successfully identified narciclasine as a promising therapeutic compound that targets vascular cell adhesion molecule 1 and intercellular adhesion molecule-1 (VCAM-1/ICAM-1) for AS treatment, with molecular studies confirming strong binding affinity and experimental validation demonstrating significant alleviation of endothelial dysfunction through downregulation of VCAM-1/ICAM-1 expression and reduction of aortic plaque burden in mouse models. <sentence_start/>This multiplatform methodology combining single-cell sequencing, network pharmacology, machine learning, computational simulation, and experimental validation provides a robust framework for drug discovery while positioning narciclasine as a promising therapeutic candidate warranting clinical investigation for AS treatment."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Atherosclerosis (AS) is a primary pathological cause of various cardiovascular conditions, including coronary artery disease, stable angina, and ischemic heart disease.<citation rid=\"bib1\" ref-type=\"bibr\" pmid=\"36515941\" doi=\"10.1001/jamacardio.2022.3926\" pmcid=\"PMC11016334\" count=\"1\"><sup>1</sup></citation> <sentence_start/>The incidence of AS has steadily increased, making it the leading cause of death globally and responsible for approximately 17.6 million deaths annually, thereby posing a significant threat to public health.<citation rid=\"bib2\" ref-type=\"bibr\" pmid=\"37918900\" doi=\"10.1136/heartjnl-2023-322928\" count=\"1\"><sup>2</sup></citation> <sentence_start/>The pathogenesis of AS is a complex, dynamic process that primarily affects large- and medium-sized arteries.<citation rid=\"bib3\" ref-type=\"bibr\" pmid=\"33883728\" doi=\"10.1038/s41586-021-03392-8\" count=\"1\"><sup>3</sup></citation><sup>,</sup><citation rid=\"bib4\" ref-type=\"bibr\" count=\"1\"><sup>4</sup></citation> <sentence_start/>In its early stages, endothelial cells recruit monocytes to the arterial wall through chemokine receptor interactions and increase the expression of intercellular adhesion molecules (ICAM-1) and vascular cell adhesion molecules (VCAM-1).<citation rid=\"bib5\" ref-type=\"bibr\" pmid=\"37595265\" doi=\"10.1093/cvr/cvad130\" pmcid=\"PMC10597632\" count=\"1\">5</citation>, <citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"38292174\" doi=\"10.1016/j.gendis.2023.06.016\" pmcid=\"PMC10825297\" count=\"1\">6</citation>, <citation rid=\"bib7\" ref-type=\"bibr\" pmid=\"36157502\" doi=\"10.1016/j.gendis.2021.11.003\" pmcid=\"PMC9485288\" count=\"1\">7</citation> Simultaneously, increased cholesterol transport activity leads to significant cholesterol uptake by M1 macrophages, resulting in lipid deposition and the formation of heterogeneous atherosclerotic plaques.<citation rid=\"bib8\" ref-type=\"bibr\" pmid=\"35667162\" doi=\"10.1016/j.atherosclerosis.2022.05.015\" count=\"1\"><sup>8</sup></citation> <sentence_start/>Inflammation renders these plaques unstable, characterized by thin fibrous caps, enlarged necrotic cores, and increased susceptibility to rupture, exposing pro-thrombotic material and triggering thrombosis and arterial occlusion.<citation rid=\"bib8\" ref-type=\"bibr\" pmid=\"35667162\" doi=\"10.1016/j.atherosclerosis.2022.05.015\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.34133/research.0617\" pmcid=\"PMC11881979\" pmid=\"40046514\" count=\"1\"><sup>9</sup></citation> <sentence_start/>Thus, the progression of AS is closely associated with lipid deposition and chronic inflammation.<citation rid=\"bib8\" ref-type=\"bibr\" pmid=\"35667162\" doi=\"10.1016/j.atherosclerosis.2022.05.015\" count=\"1\">8</citation>, <citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.34133/research.0617\" pmcid=\"PMC11881979\" pmid=\"40046514\" count=\"1\">9</citation>, <citation rid=\"bib10\" ref-type=\"bibr\" pmid=\"39528464\" doi=\"10.1038/s41419-024-07166-8\" pmcid=\"PMC11555284\" count=\"1\">10</citation>"
+  },
+  {
+   "section": "article",
+   "text": "Currently, lipid-lowering drugs (including statins) are the standard treatment for AS.<citation rid=\"bib11\" ref-type=\"bibr\" pmid=\"33655822\" doi=\"10.2174/0929867328666210222092628\" count=\"1\">11</citation>, <citation rid=\"bib12\" ref-type=\"bibr\" pmid=\"39872686\" doi=\"10.1093/lifemeta/loac004\" pmcid=\"PMC11749099\" count=\"1\">12</citation>, <citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.34133/research.0922\" pmcid=\"PMC12501616\" pmid=\"41064368\" count=\"1\">13</citation> Although statin therapy has been shown to reduce the risk of AS-related events, long-term use may lead to liver enzyme abnormalities, muscle toxicity, and diabetes mellitus, with poor patient compliance, and lipid-lowering drugs are unable to repair damaged endothelial cells.<citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.34133/research.0922\" pmcid=\"PMC12501616\" pmid=\"41064368\" count=\"1\"><sup>13</sup></citation><sup>,</sup><citation rid=\"bib14\" ref-type=\"bibr\" pmid=\"30321555\" doi=\"10.1016/j.pharmthera.2018.10.004\" count=\"1\"><sup>14</sup></citation> <sentence_start/>Therefore, given the shortcomings of current first-line clinical drugs, the development of safe and effective new anti-AS drugs is particularly necessary."
+  },
+  {
+   "section": "article",
+   "text": "In recent decades, researchers have endeavored to search for potential anti-atherosclerotic agents among natural compounds through genomics.<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1096/fj.202201932RR\" pmid=\"36786718\" count=\"1\"><sup>15</sup></citation> <sentence_start/>Single-cell RNA sequencing (scRNA-seq) has emerged as a powerful tool for revealing the gene expression heterogeneity involved in the development and progression of AS at the single-cell level, providing new insights into its pathological progression.<citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.3389/fphar.2022.977490\" pmcid=\"PMC9576927\" pmid=\"36267275\" count=\"1\">16</citation>, <citation rid=\"bib17\" ref-type=\"bibr\" pmid=\"39716644\" doi=\"10.1016/j.bcp.2024.116727\" count=\"1\">17</citation>, <citation rid=\"bib18\" ref-type=\"bibr\" pmid=\"39022128\" doi=\"10.1016/j.gendis.2024.101250\" pmcid=\"PMC11252887\" count=\"1\">18</citation> Additionally, the connectivity map (CMAP), a comprehensive database and associated software, contains whole-genome gene expression profiles derived from human cell lines treated with more than a thousand small molecules.<citation rid=\"bib19\" ref-type=\"bibr\" pmid=\"38924866\" doi=\"10.1016/j.intimp.2024.112517\" count=\"1\"><sup>19</sup></citation> <sentence_start/>CMAP allows comparison of gene expression patterns between two datasets to identify small molecules that induce expression patterns similar to those of the target genes.<citation rid=\"bib20\" ref-type=\"bibr\" pmid=\"35524141\" doi=\"10.1038/s41593-022-01068-8\" pmcid=\"PMC9172271\" count=\"1\"><sup>20</sup></citation> <sentence_start/>This database has proven to be an effective tool for predicting the pharmacological functions and mechanisms of action in drug discovery. <sentence_start/>For example, CMAPs were used to identify celastrol, a small molecule that mimics obesity-related gene expression profiles, and have shown promise in treating obesity.<citation rid=\"bib21\" ref-type=\"bibr\" pmid=\"35118192\" doi=\"10.1016/j.omto.2021.12.025\" pmcid=\"PMC8783118\" count=\"1\"><sup>21</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "This study aims to systematically analyze scRNA-seq data from human atherosclerotic plaques and adjacent normal tissues to guide the identification of potential drugs for AS treatment. <sentence_start/>Narciclasine was identified as a promising candidate by integrating human AS scRNA-seq data with CMAPs. <sentence_start/>Narciclasine, a compound derived from the bulbs of various <italic>Narcissus</italic> species, has a wide range of bioactivities, including anti-tumor, anti-inflammatory, anti-Alzheimer\u2019s and anti-obesity effects.<citation rid=\"bib22\" ref-type=\"bibr\" pmid=\"35151857\" doi=\"10.1016/j.phrs.2022.106126\" count=\"1\"><sup>22</sup></citation> <sentence_start/>Through network pharmacology and machine learning, VCAM-1 and ICAM-1 have been identified as crucial factors in the development of AS and as potential core targets of narciclasine for AS treatment. <sentence_start/>These findings were further validated via molecular docking, molecular dynamics (MD) simulations (MDS), and surface plasmon resonance (SPR) analysis. <sentence_start/>In addition, narciclasine was shown to alleviate vascular damage and reduce atherosclerotic plaque formation by downregulating VCAM-1 and ICAM-1. <sentence_start/>This study integrates multiple scRNA-seq data, network pharmacology, machine learning, and computational simulations, offering new insights for drug development and the therapeutic potential of narciclasine in AS treatment."
+  },
+  {
+   "section": "article",
+   "text": "Materials and methods"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of AS scRNA-seq datas"
+  },
+  {
+   "section": "article",
+   "text": "Two publicly available scRNA-seq datasets, and , from the GEO database ( ) were analyzed. included 8867 scRNA-seq entries from three human AS carotid artery plaque tissues,<citation rid=\"bib23\" ref-type=\"bibr\" pmid=\"32962412\" doi=\"10.1161/CIRCULATIONAHA.120.048378\" pmcid=\"PMC8104264\" count=\"1\"><sup>23</sup></citation> whereas included 51,981 scRNA-seq entries from three human AS carotid artery plaques and adjacent tissues.<citation rid=\"bib24\" ref-type=\"bibr\" pmid=\"36224302\" doi=\"10.1038/s42003-022-04056-7\" pmcid=\"PMC9556750\" count=\"1\"><sup>24</sup></citation> <sentence_start/>The scRNA-seq expression matrixes were processed via the Seurat package (v4.2.0) within the R (v4.3.2) environment. <sentence_start/>The cell selection criteria included the exclusion of cells expressing fewer than 200 or more than 4000 genes. <sentence_start/>The \u201cFeatureScatter\u201d function was used to evaluate the percentage of mitochondrial genes and unique genes in the total number of molecules, and those with &gt; 10% mitochondrial RNA content cell were removed (Fig. S1A). <sentence_start/>The Scater package (version 3.11) was used for further data standardization and deconvolution-based normalization. <sentence_start/>To eliminate batch effects between samples, we used the \u201cHarmony\u201d function for data integration. <sentence_start/>Next, 2000 highly variable genes in cells were identified for clustering. <sentence_start/>The optimal number of principal components (PCs) was determined via the \u201cElbowPlot\u201d function, and dimensionality was reduced to 30 PCs via the \u201cRunPCA\u201d function (Fig. S1B). <sentence_start/>The feature genes were then clustered via the \u201cFindNeighbors\u201d and \u201cFindClusters\u201d functions, with a resolution of 0.5. <sentence_start/>Seurat was further employed to assign cell types to each cluster, with manual annotation on the basis of known marker genes from published datasets. <sentence_start/>Cell types were manually annotated on the basis of marker genes from published datasets, The key markers for each cell type are as follows: mast cell (Mast): tryptase alpha/beta 1 (TPSAB1)/tryptase beta 2 (TPSB2)/membrane spanning 4-domains A2 (MS4A2); B-cell (B): immunoglobulin kappa constant (IGKC)/membrane spanning 4-domains A1 (MS4A1)/CD79A; T-cell (T): CD69/T-cell receptor alpha constant (TRAC)/CD2; natural killer T-cell (NKT): cathepsin W (CTSW)/X-C motif chemokine ligand 1(XCL1)/natural killer cell granule protein 7 (NKG7); vascular smooth muscle cell (VSMCs): transgelin (TAGLN)/myosin light chain 9 (MYL9)/caldesmon 1 (CALD1); macrophages: CD68/CD14/ALF transcription elongation factor 1 (ALF1); and endothelial cells (VECs): endothelial cell surface expressed chemotaxis and apoptosis regulator (ECSCR)/platelet and endothelial cell adhesion molecule 1 (PECAM1)/Von Willebrand factor (VWF)."
+  },
+  {
+   "section": "article",
+   "text": "Cell communication analysis"
+  },
+  {
+   "section": "article",
+   "text": "Cell-cell communication across different cell types in AS plaques and adjacent tissues was analyzed via the \u201cCellChat\u201d package, with the results visualized via the \u201cPatchwork\u201d package. <sentence_start/>Ligand-receptor interactions were identified through the \u201cCellChat DB.human\u201d. <sentence_start/>The \u201ccomputecommunication\u201d function was used to assess the interaction probabilities between cells, whereas the \u201cfiltercommunication\u201d function excluded interactions observed in fewer than 10 cells. <sentence_start/>Additionally, the \u201ccomputeCommunProbPathway\u201d function was used to calculate communication probabilities at the signaling pathway level, and the \u201csubsetCommunication\u201d function was employed to construct the cell-cell communication network."
+  },
+  {
+   "section": "article",
+   "text": "Identification of genes associated with AS plaques"
+  },
+  {
+   "section": "article",
+   "text": "Differentially expressed genes (DEGs) were identified on the basis of the log-fold change and minimum gene expression percentage between the same cell types in AS plaques and adjacent regions. <sentence_start/>The minimum expression threshold was set at 0.25, with an adjusted <italic>P</italic> value &lt; 0.05. DEGs were determined via the \u201cFindMarkers\u201d function. <sentence_start/>DEG enrichment analysis was conducted via the Kyoto Encyclopedia of Genes and Genomes (KEGG) signaling pathways and Gene Ontology (GO) from the Metascape database ( ). <sentence_start/>Genes highly expressed in various cell types associated with AS plaque regions intersected, and genes upregulated in at least two cell types were considered key genes for plaque formation. <sentence_start/>Protein-protein interactions (PPIs) of key genes were analyzed via the STRING database ( )."
+  },
+  {
+   "section": "article",
+   "text": "Discovery of potential therapeutic drugs for AS"
+  },
+  {
+   "section": "article",
+   "text": "Potential therapeutic drugs for AS were screened on the basis of the DEGs in various cell types within atherosclerotic plaque regions compared with those in adjacent regions (at least those differentially expressed in two types of cells). <sentence_start/>Drug targets were identified through the Binding DB database ( ), PubChem database ( ), STITCH database ( ), TargetNet database ( ), and SwissTarget database ( ). <sentence_start/>GO and KEGG signaling pathway enrichment analyses were performed via the ClueGO plugin in Cytoscape software (v3.7.2). <sentence_start/>The molecular complex detection (MCODE) plugin in Cytoscape was used to screen modules of the PPI network. <sentence_start/>The default settings for module inference were degree cutoff = 2, node score cutoff = 0.2, K-core = 2, and max depth = 100."
+  },
+  {
+   "section": "article",
+   "text": "Network pharmacology analysis"
+  },
+  {
+   "section": "article",
+   "text": "AS disease targets were collected from the DrugBank database ( ), the DisGenet database ( ), the GeneCards database ( ), the OMIM database ( ), and the TDD database ( ). <sentence_start/>Targets identified in at least three databases were selected as AS-related targets. <sentence_start/>The intersection of narciclasine targets, AS DEGs, and AS targets was determined, and KEGG signaling pathway enrichment and protein-protein interaction (PPI) analyses were performed on these intersecting genes. <sentence_start/>The relationships were visualized via Cytoscape software, and the core degree was displayed according to the visualization size."
+  },
+  {
+   "section": "article",
+   "text": "Core target selection via machine learning"
+  },
+  {
+   "section": "article",
+   "text": "We constructed a machine learning model based on the intersection gene expression matrix of from the GEO dataset, which contains transcriptomic data from 104 human peripheral artery samples, including those from the carotid, femoral, and subpopliteal regions of both atherosclerotic and control tissues. <sentence_start/>We compared the performance of four machine learning algorithms-random forest (RF), support vector machine (SVM), generalized linear model (GLM), and extreme gradient boosting (XGB)-using residual analysis and receiver operating characteristic (ROC) curves to identify core targets related to narciclasine in AS treatment. <sentence_start/>The \u201cmlbench\u201d and \u201ccaret\u201d R packages were employed for SVM-RFE, with all the data normalized before model training. <sentence_start/>This integrated approach facilitated the identification of robust biomarkers with high discriminatory power, and the top 10 variables were selected as hub genes."
+  },
+  {
+   "section": "article",
+   "text": "Molecular docking"
+  },
+  {
+   "section": "article",
+   "text": "The crystal structures of VCAM-1 (ID: 1VSC) and ICAM-1 (ID: 5E6D) were downloaded from the protein data bank database ( ) for molecular docking. <sentence_start/>Unwanted ions and water molecules were eliminated from the crystal structure during protein preparation. <sentence_start/>The prepared structure was energy minimized and utilized for the subsequent computational screening and validation process. <sentence_start/>The structure of narciclasine was obtained from PubChem. <sentence_start/>Molecular docking of the drug ligand and protein 3D structures was performed via AutoDock Vina (v1.5.6). <sentence_start/>The Surflex-Dock scoring function considers hydrophobic, polar, repulsive, entropy, and solvation terms. <sentence_start/>The conformation with the highest score, on the basis of this function, was selected as the final bioactive conformation. <sentence_start/>Conformations with docking scores &gt; 7 were considered potential drug targets. <sentence_start/>The active pockets and amino acid sites of the drug-target protein were visualized via PyMol ( )."
+  },
+  {
+   "section": "article",
+   "text": "MDS analysis"
+  },
+  {
+   "section": "article",
+   "text": "MDS was conducted to evaluate the time-dependent behavior and conformational changes of the complexes, offering valuable insights into their structure, dynamics, and thermodynamics. <sentence_start/>MDS was performed via GROMACS 2022. <sentence_start/>The receptor protein was parameterized with the CHARMM force field, whereas the ligand parameters were derived from the CGenFF force field.<citation rid=\"bib25\" ref-type=\"bibr\" pmid=\"38937468\" doi=\"10.1038/s41467-024-49700-4\" pmcid=\"PMC11211406\" count=\"1\"><sup>25</sup></citation> <sentence_start/>The topology files for the system were generated via the pdb2gmx module and the AutoFF web server. <sentence_start/>The solvated system was embedded in a cubic box of TIP3P water molecules, maintaining a 1 nm buffer distance from the solute surface.<citation rid=\"bib26\" ref-type=\"bibr\" pmid=\"35676134\" doi=\"10.1063/5.0093815\" count=\"1\"><sup>26</sup></citation> <sentence_start/>Ions were added to neutralize the system charge via the gmx generation tool. <sentence_start/>Long-range electrostatic interactions were calculated via the particle mesh Ewald (PME) method with a 1 nm cutoff, and bond constraints were enforced with the SHAKE algorithm. <sentence_start/>The Verlet leapfrog integrator was employed with a 1 fs time step."
+  },
+  {
+   "section": "article",
+   "text": "Energy minimization was performed in three phases: (1) 3000 steps of steepest descent optimization with constrained solute atoms and relaxed solvent molecules, (2) 2000 steps of conjugate gradient minimization to equilibrate counterions under positional constraints, and (3) full system optimization without restraints to achieve energy convergence. <sentence_start/>Production simulations were conducted under NPT ensemble conditions (310 K, 1 bar) for 50 ns. <sentence_start/>The trajectory data were analyzed via standard GROMACS: the root mean square deviation (RMSD) and residue-specific root mean square fluctuation (RMSF) were computed via gmx rmsd and gmx rmsf, respectively. <sentence_start/>Hydrogen bond occupancy was quantified via gmx hbond, and the radius of gyration (Rg) and solvent-accessible surface area (SASA) were determined via gmx gyrate and gmx sasa."
+  },
+  {
+   "section": "article",
+   "text": "Mathematical modeling of the synergistic dual-target inhibition of VCAM-1/ICAM-1"
+  },
+  {
+   "section": "article",
+   "text": "To quantitatively assess the synergistic inhibitory effect of narciclasine on VCAM-1 and ICAM-1, a mathematical modeling approach was employed. <sentence_start/>These integrated target-specific pharmacodynamic response curves and the Bliss independence model were used for synergy analysis. <sentence_start/>The inhibition of each molecular target by narciclasine was described via the classical Hill equation, a widely applied sigmoidal model in receptor-ligand interactions and drug-response modeling<citation rid=\"bib27\" ref-type=\"bibr\" pmid=\"33741909\" doi=\"10.1038/s41467-021-21700-8\" pmcid=\"PMC7979834\" count=\"1\"><sup>27</sup></citation>: where <italic>E</italic><italic><sub>i</sub></italic><italic>(C)</italic> denotes the inhibition efficacy of target <italic>i</italic> (either VCAM-1 or ICAM-1), <italic>C</italic> is the concentration of narciclasine, <italic>IC</italic><italic><sub>50,i</sub></italic> is the half-maximal inhibitory concentration, and <italic>n</italic> is the Hill coefficient, reflecting the steepness of the dose-response relationship. <sentence_start/>For this model, the IC<italic><sub>50,</sub></italic> <italic><sub>VCAM-1</sub></italic> concentration and IC<sub>5<italic>0 of ICAM-1</italic></sub> were 5 \u03bcM and 3 \u03bcM, respectively, with a Hill coefficient of <italic>n</italic> = 2, indicating moderate cooperative inhibition."
+  },
+  {
+   "section": "article",
+   "text": "The Bliss independence model was used to evaluate the combined inhibitory effect of dual-target engagement.<citation rid=\"bib28\" ref-type=\"bibr\" pmid=\"32113653\" doi=\"10.1016/j.tips.2020.01.011\" pmcid=\"PMC7986484\" count=\"1\"><sup>28</sup></citation> <sentence_start/>This model assumes probabilistic independence between the effects of two agents or pathways: <sub> </sub> <sub> </sub> <sub> </sub> <sub> </sub> <sub> </sub> where <italic>E1(C)</italic> and <italic>E2(C)</italic> represent the individual inhibition efficacies of VCAM-1 and ICAM-1 at concentration <italic>C</italic>, respectively, and <italic>E</italic><italic><sub>combo</sub></italic><italic>(C)</italic> denotes the combined inhibition outcome. <sentence_start/>This framework is widely used for synergy analysis in studies of cancer, inflammation, and infectious diseases.<citation rid=\"bib29\" ref-type=\"bibr\" pmid=\"37770760\" doi=\"10.1038/s41564-023-01486-9\" pmcid=\"PMC10627819\" count=\"1\"><sup>29</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "The above models were implemented in both Python 3.9 (NumPy and Matplotlib) and MATLAB R2023b. <sentence_start/>Narciclasine concentrations ranging from 0.01 \u03bcM to 20 \u03bcM were evaluated at 500 evenly spaced intervals. <sentence_start/>The inhibition curves for each target and the calculated Bliss-combined curve were plotted to visualize the synergistic interaction."
+  },
+  {
+   "section": "article",
+   "text": "SPR analysis"
+  },
+  {
+   "section": "article",
+   "text": "SPR measurements were conducted via a Biacore T200 system (Cytiva) at 25 \u00b0C. <sentence_start/>Recombinant human VCAM-1 and ICAM-1 proteins (P19320-1, , R&amp;D Systems, MN, USA) were immobilized on separate flow cells of a CM5 sensor chip via standard amine coupling chemistry. <sentence_start/>A mixture of 0.4 M 1-ethyl-3-(3-dimethylaminopropyl) carbodiimide (EDC) and 0.1 M N-hydroxysuccinimide (NHS) was used to activate the carboxymethylated dextran surface. <sentence_start/>Protein solutions (10 \u03bcg/mL in 10 mM sodium acetate buffer, pH 4.5) were injected over the activated surface until approximately 5000 response units (RU) for VCAM-1 and 4800 RU for ICAM-1 were reached. <sentence_start/>Blocking was achieved with 1 M ethanolamine-HCl (pH 8.5). <sentence_start/>All binding experiments were conducted in HBS-EP + running buffer (10 mM HEPES, 150 mM NaCl, 3 mM EDTA, 0.05% surfactant P20, pH 7.4) supplemented with 5% DMSO to ensure the solubility of narciclasine (HY-16563, MCE; New Jersey, USA). <sentence_start/>Narciclasine was serially diluted in running buffer from 0.15 to 10 \u03bcM and injected over the immobilized proteins. <sentence_start/>The data were fitted to a 1:1 Langmuir binding model via Biacore T200 evaluation software (version 3.2), and the KD, kon, and koff values were determined."
+  },
+  {
+   "section": "article",
+   "text": "Cell culture"
+  },
+  {
+   "section": "article",
+   "text": "Human umbilical vein endothelial cells (HUVECs) were obtained from ATCC (Manassas, VA, USA) and cultured in Dulbecco\u2019s modified Eagle\u2019s medium (DMEM) (Gibco, Grand Island, NY, USA) supplemented with 10% fetal bovine serum (FBS) (Gibco, Grand Island, NY, USA) under 5% CO<sub>2</sub> at 37 \u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Tube formation assay"
+  },
+  {
+   "section": "article",
+   "text": "For the <italic>in vitro</italic> angiogenesis assay, Matrigel (Becton Dickinson, MA, USA) was polymerized in 24-well plates at 37 \u00b0C for 30 min. <sentence_start/>Following polymerization, HUVECs (10<sup>4</sup> cells/well) were seeded onto Matrigel. <sentence_start/>To establish an AS model, cells were treated with 50 mg/ml oxidized low-density lipoprotein (ox-LDL) (Union-Bio Technology, Shanghai, China). <sentence_start/>The treatment group was further exposed to 0.1 \u03bcmol/L narciclasine (HY-16563, MCE; New Jersey, USA), whereas the control group was left untreated with ox-LDL. <sentence_start/>Cells at passages 4-6 were harvested for subsequent analyses."
+  },
+  {
+   "section": "article",
+   "text": "RNA extraction and qRT-PCR analysis of ICAM-1/VCAM-1 <italic>in vitro</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was extracted via TRIzol reagent (Takara, Tokyo, Japan), and RNA concentrations were measured via a Nanodrop ND-1000 spectrophotometer (Thermo Fisher Scientific, Inc., MA, USA). <sentence_start/>cDNA synthesis was performed with the PrimeScript RT reagent Kit (Takara, Tokyo, Japan), following the reaction conditions of 37 \u00b0C for 15 min and 85 \u00b0C for 5 min qRT-PCR was carried out using SYBR Premix Ex Taq (Takara, Tokyo, Japan) on a CFX Connect Real-Time System (Bio-Rad, CA, USA). <sentence_start/>The following cycle conditions were used: 95 \u00b0C for 30 s; 40 cycles of 95 \u00b0C for 3 s, 55 \u00b0C for 30 s, and 72 \u00b0C for 30 s; and 95 \u00b0C for 1 min. <sentence_start/>Data analysis was performed via the 2(<sup>-\u0394\u0394Ct</sup>) method.<citation rid=\"bib30\" ref-type=\"bibr\" pmid=\"18546601\" doi=\"10.1038/nprot.2008.73\" count=\"1\"><sup>30</sup></citation> <sentence_start/>The primer sequences are listed in Supplementary Table 1."
+  },
+  {
+   "section": "article",
+   "text": "Immunofluorescence for ICAM-1/VCAM-1 <italic>in vitro</italic>"
+  },
+  {
+   "section": "article",
+   "text": "To investigate the effects of narciclasine on ICAM-1/VCAM-1 protein expression, HUVECs were seeded and treated with ox-LDL or ox-LDL + narciclasine overnight. <sentence_start/>After fixation with 4% paraformaldehyde, the cells were stained for ICAM-1/VCAM-1. <sentence_start/>Primary antibodies against ICAM-1 (1:200, Proteintech, Wuhan, China) and VCAM-1 (1:200, R&amp;D Systems, MN, USA) were used, with goat anti-mouse IgG H&amp;L (Alexa Fluor\u00ae555, 1:200, Proteintech, Wuhan, China) and donkey anti-rabbit IgG H&amp;L (Alexa Fluor\u00ae647, 1:200, Proteintech, Wuhan, China) as secondary antibodies. <sentence_start/>Images were captured using a Leica SP8 microscope."
+  },
+  {
+   "section": "article",
+   "text": "Animal experiments and groups"
+  },
+  {
+   "section": "article",
+   "text": "Six-week-old male <italic>ApoE</italic><italic><sup>\u2212/\u2212</sup></italic> mice (22 \u00b1 1 g) were obtained from Beijing Vital River Laboratory Animal Technology (Beijing, China) and housed under specific pathogen-free conditions (26 \u00b0C, 40%-70% humidity, 45 Pa pressure, and a 12 h/12 h light/dark cycle). <sentence_start/>After 1 week of acclimatization, the mice were randomly divided into three groups: a control group, a PBS group, and a narciclasine intervention group, with eight mice in each group. <sentence_start/>The PBS and narciclasine intervention groups were fed a high-fat diet for 12 weeks and the control group received a normal diet until sacrifice. <sentence_start/>The PBS group received 200 \u03bcL of PBS via gavage, and the narciclasine group received 200 \u03bcL of narciclasine solution (2 mg/kg<citation rid=\"bib31\" ref-type=\"bibr\" pmid=\"38936528\" doi=\"10.1016/j.phytochem.2024.114198\" count=\"1\"><sup>31</sup></citation> in deionized water) from the eighth week onward. <sentence_start/>Gavage was administered daily for 4 weeks. <sentence_start/>Following the intervention, the mice were anesthetized and sacrificed. <sentence_start/>Aortic tissues were stored in 4% formalin or at \u221280 \u00b0C for histopathological analysis. <sentence_start/>The animal study was approved by the Ethics Committee of Chongqing University (Approval Code: A-2019-021) and adhered to NIH guidelines for the care and use of laboratory animals."
+  },
+  {
+   "section": "article",
+   "text": "Oil red O staining of whole aortas after <italic>in vivo</italic> narciclasine therapy"
+  },
+  {
+   "section": "article",
+   "text": "To evaluate the deposition of AS plaques, whole aortas from the three groups were collected and fixed with 4% paraformaldehyde at the indicated time points and then stained with Oil Red O staining reagent, according to the manufacturer\u2019s protocols (G1015-100 ML, ServiceBio, Wuhan, China). <sentence_start/>Images were taken after staining with an Olympus microscope."
+  },
+  {
+   "section": "article",
+   "text": "Histological analysis after <italic>in vivo</italic> narciclasine therapy"
+  },
+  {
+   "section": "article",
+   "text": "Aortic tissues were fixed in 4% paraformaldehyde, and the aortic roots were embedded in paraffin and sectioned at 5 \u03bcm thickness. <sentence_start/>The sections were stained with hematoxylin-eosin (HE) and Oil Red O (G1015-100 ML, ServiceBio, Wuhan, China) according to standard protocols. <sentence_start/>Images of the stained sections were acquired via an Olympus microscope, scanned with CaseViewer, and analyzed via ImageJ."
+  },
+  {
+   "section": "article",
+   "text": "Immunohistochemical analysis of ICAM-1/VCAM-1 <italic>in vivo</italic> after narciclasine therapy"
+  },
+  {
+   "section": "article",
+   "text": "To evaluate the ability of narciclasine to affect ICAM-1/VCAM-1 expression <italic>in vivo</italic>, primary antibodies against ICAM-1 (1:500, ServiceBio, Wuhan, China) and VCAM-1 (1:500, ServiceBio, Wuhan, China) were applied. <sentence_start/>The secondary antibodies were chosen on the basis of the species of the primary antibodies. <sentence_start/>After staining, the samples were viewed via an Olympus microscope, scanned via Case Viewer, and analyzed via ImageJ."
+  },
+  {
+   "section": "article",
+   "text": "RNA extraction and qRT-PCR analysis of ICAM-1/VCAM-1 <italic>in vivo</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was extracted from the aortic roots of the three experimental groups, measured, reverse-transcribed into cDNA, and subjected to qRT-PCR as described above. <sentence_start/>Data analysis was performed via the 2<sup>\u2212\u0394\u0394Ct</sup> method. <sentence_start/>The primer sequences for mouse \u03b2-actin/ICAM-1/VCAM-1 are also listed in Supplementary Table 1."
+  },
+  {
+   "section": "article",
+   "text": "Statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "The data were analyzed as the means \u00b1 SD via GraphPad 8 Prism software (GraphPad, San Diego, CA, USA). <sentence_start/>All experiments were repeated at least three times. <sentence_start/>Unpaired two-sided Student\u2019s <italic>t</italic> test or one-way analysis of variance (ANOVA) was used to calculate <italic>P</italic> values. <sentence_start/>Statistical significance was defined as <italic>\u2217p</italic> &lt; 0.05."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Identification of the scRNA-seq cell subpopulations in AS plaques and adjacent regions"
+  },
+  {
+   "section": "article",
+   "text": "The scRNA-seq datasets and were retrieved from the Gene Expression Omnibus (GEO) database. <sentence_start/>The dataset consists of three human carotid artery AS plaque samples, whereas the dataset includes three human carotid artery AS plaque samples and three human carotid artery AS plaque adjacent samples. <sentence_start/>All samples were integrated into a t-SNE module (Fig. S1C), and t-SNE dimensionality reduction with unsupervised clustering was applied to all 54,701 cells, resulting in the identification of 21 distinct clusters (Fig. 1A). <sentence_start/>On the basis of known marker genes, these clusters were categorized into seven cell types: macrophages: CD68, CD14, and ALF1; VECs: ECSCR, PECAM1, and VWF; VSMCs: TAGLN, MYL9, and CALD1; NKT: CTSW, XCL1, and NKG7; T: CD69, TRAC, and CD2; B: IGKC, MS4A1, and CD79A; and Mast: TPSAB1, TPSB2, and MS4A2 (Fig. 1B). <sentence_start/>The \u201cFind All Markers\u201d function identified the top 10 highly expressed genes in each cluster, revealing specific gene expression patterns unique to each cluster (Fig. 1C). <sentence_start/>Bubble plots further displayed the expression of three marker genes in each cluster and further validated the accuracy of the cell cluster annotations (Fig. 1D).Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Cell subpopulations in human carotid artery AS plaques and adjacent regions via scRNA-seq. <sentence_start/><bold>(A)</bold> t-SNE plot showing 21 distinct cell clusters. <sentence_start/><bold>(B)</bold> t-SNE plot depicting cell types enriched with specific marker genes. <sentence_start/><bold>(C)</bold> Heatmap displaying the top 10 genes for each of the 21 cell clusters. <sentence_start/><bold>(D)</bold> Bubble plot showing the expression of characteristic genes within each cell cluster."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Interactions among different cell types in AS plaques and adjacent regions"
+  },
+  {
+   "section": "article",
+   "text": "The number and intensity of intercellular interactions were significantly elevated in the AS plaques (Fig. 2A). <sentence_start/>VECs presented a significant increase in the number of interactions with other cell types, whereas macrophages presented a marked increase in the intensity of these interactions (Fig. 2B). <sentence_start/>VECs, macrophages, VSMCs, and T cells presented the most substantial changes in both the number and intensity of intercellular interactions, particularly in AS plaques (Fig. 2C). <sentence_start/>Additionally, 11 signaling pathways were conserved and specifically enriched in the AS plaques, whereas 8 pathways were enriched in adjacent regions (Fig. 2D). <sentence_start/>Macrophages in AS plaques exhibited notably increased interactions with other cells through high relatively high levels of secreted phosphoprotein 1 (SPP1), with the corresponding receptor integrin subunit alpha 8 (ITG\u03b18) <sup>+</sup>/integrin \u03b21 (ITG\u03b21) widely expressed in VSMCs. <sentence_start/>These findings suggest that macrophages may communicate with VSMCs via the SPP1/ITG\u03b18<sup>+</sup>/ITG\u03b21 axes during the progression of AS plaques. <sentence_start/>SPP1, also known as macrophage-derived osteopontin (OPN), plays a critical regulatory role in AS calcification and plaque formation.<citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2024.1395596\" pmcid=\"PMC11196619\" pmid=\"38919629\" count=\"1\"><sup>32</sup></citation> <sentence_start/>Elevated expression of SPP1 by macrophages in AS plaques promotes the proliferation and migration of VSMCs, contributing to vascular hyperplasia and plaque progression.<citation rid=\"bib33\" ref-type=\"bibr\" pmid=\"37531301\" doi=\"10.1093/gerona/glad188\" count=\"1\"><sup>33</sup></citation> <sentence_start/>ITG\u03b18 and ITG\u03b21, which are highly expressed in VSMCs, mediate transmembrane connections between the extracellular matrix and cytoskeleton and play vital roles in the initiation and progression of AS.<citation rid=\"bib34\" ref-type=\"bibr\" pmid=\"36424917\" doi=\"10.1038/s44161-022-00162-1\" pmcid=\"PMC9681021\" count=\"1\"><sup>34</sup></citation> <sentence_start/>They also regulate the transdifferentiation of VSMCs into other cell types, thereby influencing the development and progression of AS.<citation rid=\"bib35\" ref-type=\"bibr\" pmid=\"38612904\" doi=\"10.3390/ijms25074096\" pmcid=\"PMC11012347\" count=\"1\"><sup>35</sup></citation> <sentence_start/>These data suggest that the SPP1/ITG\u03b18<sup>+</sup>/ITG\u03b21 axis plays a crucial role in AS plaque formation (Fig. 2E).Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Cellular communication in adjacent and AS plaque regions. <sentence_start/><bold>(A)</bold> Total number and intensity of interactions among different cell types in AS plaques and adjacent regions. <sentence_start/><bold>(B)</bold> Network diagram illustrating changes in cell interactions between the AS plaque and adjacent regions. <sentence_start/>Red indicates an increase in the number or intensity of interactions, whereas blue indicates a decrease. <sentence_start/><bold>(C)</bold> Heatmap of alterations in cell interactions between AS plaques and adjacent regions. <sentence_start/><bold>(D)</bold> Enrichment analysis of ligand-receptor interactions at the signaling pathway level among various cell types in AS plaques and adjacent regions. <sentence_start/><bold>(E)</bold> Overview of ligand-receptor interactions between macrophages and other cells in atherosclerotic plaque regions. <sentence_start/><italic>\u2217\u2217p</italic> &lt; 0.01."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Cellular heterogeneity among different cell types in AS plaques and adjacent regions"
+  },
+  {
+   "section": "article",
+   "text": "VECs, VSMCs, T cells, and macrophages play crucial roles in the progression of AS plaque formation, which is consistent with previous reports.<citation rid=\"bib10\" ref-type=\"bibr\" pmid=\"39528464\" doi=\"10.1038/s41419-024-07166-8\" pmcid=\"PMC11555284\" count=\"1\"><sup>10</sup></citation> <sentence_start/>scRNA-seq analysis further revealed significant transcriptional heterogeneity among these cell types in AS plaques and adjacent regions. <sentence_start/>Specifically, compared with those in cells from adjacent regions, 172, 209, 66, and 210 genes were overexpressed in VECs, VSMCs, T cells, and macrophages, respectively, in atherosclerotic plaque regions (Tables S2-S5)."
+  },
+  {
+   "section": "article",
+   "text": "Further analysis of KEGG signaling pathways and GO molecular functions revealed cell type-specific pathway enrichment in AS plaques compared with adjacent regions. <sentence_start/>VECs were significantly enriched in immune-related pathways, such as those related to type I diabetes mellitus, TNF signaling, NOD-like receptor signaling, and extracellular matrix interactions (Fig. 3A). <sentence_start/>VSMCs were enriched in viral response pathways, such as COVID-19, influenza A, and extracellular matrix organization (Fig. 3B). <sentence_start/>Macrophages exhibit diverse levels of activation of lipid metabolism, ferroptosis, and shear stress responses (Fig. 3C). <sentence_start/>T cells were uniquely enriched in the ribosomal and spliceosome pathways (Fig. 3D). <sentence_start/>These distinct molecular signatures highlight the specialized roles of each cell type in plaque pathophysiology.<sentence_start/>Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "DEGs in VSMCs, VECs, T cells, and macrophages in atherosclerotic plaque regions compared with adjacent regions. <sentence_start/><bold>(A)</bold> GO molecular function and KEGG signaling pathway enrichment of upregulated genes in VECs in the atherosclerotic plaque region. <sentence_start/><bold>(B)</bold> GO molecular function and KEGG signaling pathway enrichment of upregulated genes in VSMCs in the atherosclerotic plaque region. <sentence_start/><bold>(C)</bold> GO molecular function and KEGG signaling pathway enrichment of upregulated genes in macrophages in the atherosclerotic plaque region. <sentence_start/><bold>(D)</bold> GO molecular function and KEGG signaling pathway enrichment of upregulated genes in T cells in the atherosclerotic plaque region. <sentence_start/><bold>(E)</bold> Venn diagram of upregulated genes in VECs, VSMCs, macrophages, and T cells within the atherosclerotic plaque region. <sentence_start/><bold>(F)</bold> PPI analysis of coupregulated genes in VECs, VSMCs, macrophages, and T cells within the atherosclerotic plaque region."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "A Venn diagram of the genes upregulated in at least three of the four cell types revealed 25 key genes potentially involved in the development and progression of AS (Fig. 3E). <sentence_start/>PPI analysis of these genes revealed multiple ribosomal proteins involved in protein synthesis, as well as proteins related to oxidative stress and the immune response (Fig. 3F)."
+  },
+  {
+   "section": "article",
+   "text": "CMAP identified narciclasine as a candidate drug for AS therapy"
+  },
+  {
+   "section": "article",
+   "text": "On the basis of the DEGs identified across multiple cell types in atherosclerotic plaque regions, potential therapeutic drugs for AS were screened via CMAPs (Table S6). <sentence_start/>Narciclasine emerged as the most promising candidate, with a score of 99.75. <sentence_start/>The targets of narciclasine were subsequently identified by integrating data from databases such as BindingDB, PubChem, STITCH, TargetNet, and SwissTarget, resulting in 108 unique targets (Table S7). <sentence_start/>A drug-target regulatory network was constructed, highlighting that narciclasine\u2019s therapeutic targets were predominantly associated with signaling pathways and biological processes such as the TNF signaling pathway, lipid and atherosclerosis, Yersinia infection, Legionellosis, Th17 cell differentiation, and positive regulation of I-kappa B kinase/NF-kappa B signaling (Fig. 4A). <sentence_start/>These target genes are involved mainly in inflammation, antibacterial responses, lipid metabolism, and AS. <sentence_start/>Narciclasine target clustering via MCODE analysis revealed that the most significant modules were associated with anti-inflammatory effects (Fig. 4B). <sentence_start/>Among these molecules, VCAM-1 and ICAM-1 are located at the core of drug targets.<sentence_start/>Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Functional analysis of narciclasine targets. <sentence_start/><bold>(A)</bold> Regulatory network of narciclasine targets. <sentence_start/>The colored circles represent signaling pathways or biological processes, and the associated signaling pathways or biological processes share the same color. <sentence_start/>The lines connected to circles of the same color represent the differentially expressed genes of that signaling pathway. <sentence_start/><bold>(B)</bold> MCODE clustering analysis of narciclasine drug targets on the basis of network topology."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Network pharmacology and machine learning analysis revealed that narciclasine potentially targets VCAM-1/ICAM-1 to treat AS"
+  },
+  {
+   "section": "article",
+   "text": "Network pharmacology analysis identified potential therapeutic targets of narciclasine for AS. <sentence_start/>Targets found in at least two AS-related databases were selected as candidate genes (Fig. 5A). <sentence_start/>Notably, ICAM-1 and VCAM-1 were shared across narciclasine targets, AS-related targets and genes highly expressed in AS plaques (Fig. 5B). <sentence_start/>KEGG and PPI analyses further revealed that VCAM-1 and ICAM-1 were central hub genes, suggesting their key roles in narciclasine\u2019s anti-AS effects (Fig. 5C). <sentence_start/>Furthermore, we also applied machine learning algorithms to identify core target genes of narciclasine for AS treatment. <sentence_start/>To assess the validity of the machine learning models, we evaluated the residuals and ROC curves. <sentence_start/>Smaller residuals indicate better model performance. <sentence_start/>In terms of residual size, the machine learning models were ranked as follows: XGB \u2248 SVM &gt; RF &gt; GLM (Fig. S2A-B). <sentence_start/>A larger ROC value suggested better performance, with values greater than 0.7 considered acceptable. <sentence_start/>The models were ranked as follows: RF = SVM &gt; XGB &gt; GLM (Fig. S2C). <sentence_start/>The SVM model was ultimately selected, and the key genes identified by SVM were ICAM1, SOD2, TLR4, IL1R1, CCL4, IRF1, CCL3, IL1B, VCAM1, and TNF (Fig. S2D). <sentence_start/>The machine learning results further confirmed that network pharmacology predicted the potential of narciclasine, which targets VCAM-1/ICAM-1 to treat AS.Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Network pharmacology analysis of the key anti-AS targets of narciclasine. <sentence_start/><bold>(A)</bold> Venn diagram of AS-related targets collected from the DrugBank, DisGeNET, GeneCards, OMIM, and TTD databases. <sentence_start/><bold>(B)</bold> Overlapping genes among narciclasine targets, AS targets, and genes upregulated in AS plaques. <sentence_start/><bold>(C)</bold> Network pharmacology map showing interactions among genes and signaling pathways. <sentence_start/>The purple rectangles represent signaling pathways; the green octagons represent common genes across all three categories; the blue ellipses indicate overlapping genes between narciclasine targets and highly expressed genes in AS plaque regions; and the light khaki quadrilaterals represent overlapping genes between narciclasine targets and AS targets."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Analysis of the binding affinity between narciclasine and VCAM-1/ICAM-1"
+  },
+  {
+   "section": "article",
+   "text": "A comprehensive analysis combining network pharmacology and machine learning identified VCAM-1 and ICAM-1 as the core targets of narciclasine in the treatment of AS. <sentence_start/>Molecular docking revealed strong interactions between narciclasine and VCAM-1 (score: 7.1) and ICAM-1 (score: 7.8), both of which exceeded the threshold score of 7 for high-affinity binding (Fig. 6A and B). <sentence_start/>Mathematical modeling further demonstrated that dual inhibition of VCAM-1 and ICAM-1 resulted in greater suppression of leukocyte migration than inhibition of either molecule alone (Fig. S3). <sentence_start/>These findings support the role of ICAM-1 and VCAM-1 as key therapeutic targets of narciclasine in AS. <sentence_start/>MDS revealed that the ICAM-1-narciclasine complex stabilized rapidly (\u223c20 ns) with consistent RMSD fluctuations of approximately 2.3 \u00c5, whereas the VCAM-1-narciclasine complex stabilized more slowly (\u223c75 ns) near 2.8 \u00c5 (Fig. 6C), indicating favorable binding. <sentence_start/>Rg analysis confirmed stable tertiary structures (Fig. 6D), and SASA analysis revealed initial fluctuations followed by stabilization, which was consistent with conformational adjustment during binding (Fig. 6E). <sentence_start/>Hydrogen bond analysis revealed 0-6 bonds for ICAM-1 and 0-8 bonds for VCAM-1, with both averaging \u223c4 bonds, indicating complex stability (Fig. 6F). <sentence_start/>The RMSF values remained below 3 \u00c5 for most residues, indicating limited mobility and increased rigidity upon binding (Fig. 6<sentence_start/>G and H). <sentence_start/>Overall, the simulations confirmed the formation of stable, energetically favorable complexes between narciclasine and both adhesion molecules.<sentence_start/>Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Molecular docking, MDS, and SPR confirmed VCAM-1 and ICAM-1 as targets of narciclasine. <sentence_start/><bold>(A)</bold> Molecular docking models of narciclasine binding to the VCAM-1 protein. <sentence_start/><bold>(B)</bold> Molecular docking models of narciclasine binding to the ICAM-1 protein. <sentence_start/><bold>(C)</bold> RMSD analysis assessing the conformational stability of the ICAM-1-narciclasine and VCAM-1-narciclasine complexes. <sentence_start/><bold>(D)</bold> Rg analysis evaluating overall structural changes and protein compactness. <sentence_start/><bold>(E)</bold> SASA analysis of the interactions between target proteins and narciclasine. <sentence_start/><bold>(F)</bold> Hydrogen bond network analysis of both the ICAM-1-narciclasine and VCAM-1-narciclasine complexes. <sentence_start/><bold>(G</bold>, <bold>H)</bold> RMSF analysis of amino acid residue flexibility in the ICAM-1-narciclasine and VCAM-1-narciclasine complexes. <sentence_start/><bold>(I)</bold> Schematic diagram illustrating the SPR setup. <sentence_start/><bold>(J</bold>, <bold>K)</bold> Sensograms of VCAM-1 and ICAM-1 expression in response to narciclasine (0.15-10 \u03bcM) at 25 \u00b0C. <bold>(L)</bold> Equilibrium binding analysis of ICAM-1-narciclasine and VCAM-1-narciclasine interactions."
+  },
+  {
+   "section": "article",
+   "text": "Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "SPR analysis validated these interactions (Fig. 6I), with sensorgrams fitting well to a 1:1 Langmuir binding model (<italic>\u03c7</italic><sup>2</sup> = 1.74 for VCAM-1; <italic>\u03c7</italic><sup>2</sup> = 2.05 for ICAM-1). <sentence_start/>The association rates were 2.3 \u00d7 10<sup>3</sup> M<sup>\u22121</sup>s<sup>\u22121</sup> and 3.1 \u00d7 10<sup>3</sup> M<sup>\u22121</sup>s<sup>\u22121</sup>, and the dissociation rates were 8.1 \u00d7 10<sup>\u22123</sup> s<sup>\u22121</sup> and 8.7 \u00d7 10<sup>\u22123</sup> s<sup>\u22121</sup> for VCAM-1 and ICAM-1, respectively (Fig. 6J and K). <sentence_start/>Steady-state analysis confirmed the 1:1 binding stoichiometry (Fig. 6L). <sentence_start/>Thermodynamic profiling revealed enthalpy-driven binding (\u0394H\u00b0 = \u221222.8 \u00b1 1.5 kJ/mol for VCAM-1 and -25.6 \u00b1 1.3 kJ/mol for ICAM-1) and micromolar binding affinities (KD = 3.5 \u00b1 0.21 \u03bcM and 2.8 \u00b1 0.3 \u03bcM) (Table S8), which is consistent with the hydrogen bonding patterns predicted via simulation. <sentence_start/>These findings experimentally confirm the strong and specific interactions between narciclasine and VCAM-1/ICAM-1."
+  },
+  {
+   "section": "article",
+   "text": "Narcissine protected the endothelium and promoted AS plaque regression by inhibiting VCAM-1/ICAM-1"
+  },
+  {
+   "section": "article",
+   "text": "Given that VCAM-1 and ICAM-1 are expressed predominantly by VECs and play important roles in AS development,<citation rid=\"bib36\" ref-type=\"bibr\" pmid=\"37442359\" doi=\"10.1016/j.cca.2023.117487\" count=\"1\"><sup>36</sup></citation> we investigated the effects of narciclasine on these adhesion molecules in VECs. <sentence_start/>An AS cell model was established by inducing VECs with oxidized low-density lipoprotein (ox-LDL). <sentence_start/>Vascular tube formation assays revealed that narciclasine treatment significantly alleviated ox-LDL-induced endothelial damage, with capillary lengths comparable to those in the control group (Fig. 7A and B). <sentence_start/>qPCR and immunofluorescence analysis demonstrated that ox-LDL markedly increased VCAM-1 and ICAM-1 expression in HUVECs, whereas narciclasine treatment significantly reduced their expression levels, restoring them to near-control levels (Fig. 7C-F).Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Narciclasine alleviated vascular injury by inhibiting VCAM-1/ICAM-1 <italic>in vitro</italic>. <sentence_start/><bold>(A)</bold> Phase contrast images showing HUVEC tube formation in the control, ox-LDL-treated, and narciclasine-treated ox-LDL groups. <sentence_start/><bold>(B)</bold> Semiquantification analysis of capillary length in the three groups (ANOVA test, <italic>n</italic> = 5, <italic>\u2217\u2217\u2217p</italic> = 5.42 \u00d7 10<sup>\u22128</sup>. <sentence_start/>Mean \u00b1 SD, control: 63.96 \u00b1 5.06, ox-LDL: 12.52 \u00b1 1.85; ox-LDL + narciclasine: 57.90 \u00b1 4.84). <sentence_start/><bold>(C)</bold> Relative gene expression levels of ICAM-1(ANOVA test, <italic>n</italic> = 4, \u2217\u2217\u2217<italic>p</italic> = 3.5 \u00d7 10<sup>\u221210</sup>. <sentence_start/>Mean \u00b1 SD, control: 1 \u00b1 0.04, ox-LDL: 2.58 \u00b1 0.15; ox-LDL + narciclasine: 0.63 \u00b1 0.02) and VCAM-1 (ANOVA test, <italic>n</italic> = 4, \u2217\u2217\u2217<italic>p</italic> = 2.55 \u00d7 10<sup>\u22129</sup>. <sentence_start/>Mean \u00b1 SD, control: 1 \u00b1 0.04, ox-LDL: 2.28 \u00b1 0.14; ox-LDL + narciclasine: 0.73 \u00b1 0.04) in HUVECs in the three groups. <sentence_start/><bold>(D)</bold> Immunofluorescence costaining images of ICAM-1 and VCAM-1. <sentence_start/><bold>(E</bold>, <bold>F)</bold> Semiquantification analysis of the immunofluorescence intensity of ICAM-1 (ANOVA test, <italic>n</italic> = 6, <italic>\u2217\u2217\u2217p</italic> = 0.0036. <sentence_start/>Mean \u00b1 SD, control: 11.14 \u00b1 0.55, ox-LDL: 55.89 \u00b1 2.01; ox-LDL + narciclasine: 13.59 \u00b1 0.74) and VCAM-1 (ANOVA test, <italic>n</italic> = 6, \u2217\u2217\u2217<italic>p</italic> = 0.0024. <sentence_start/>Mean \u00b1 SD, control: 4.61 \u00b1 0.27, ox-LDL: 34.56 \u00b1 2.63; ox-LDL + narciclasine: 5.78 \u00b1 0.15)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "Furthermore, we investigated the effect of narciclasine on high-fat diet-fed <italic>ApoE</italic><italic><sup>\u2212/\u2212</sup></italic> mice. <sentence_start/>The whole aorta Oil Red O staining results (Fig. 8A, B) revealed alleviation of plaque accumulation, compared to HFD-fed <italic>ApoE</italic><italic><sup>\u2212/\u2212</sup></italic> mice that received PBS. <sentence_start/>Additionally, the control mice that received a normal diet were significantly different from those in the above groups. <sentence_start/>These results suggested that narciclasine was able to inhibit AS progression. <sentence_start/>Moreover, HE and Oil Red O staining of aortic root sections revealed that narciclasine administration significantly reduced the necrotic core size and lipid accumulation compared with those in the PBS-treated group (Fig. 8C-F), indicating the suppression of AS plaque formation. <sentence_start/>Furthermore, the gene and protein expression levels of VCAM-1 and ICAM-1 were markedly lower in narciclasine-treated mice than in PBS-treated controls (Fig. 8G-K). <sentence_start/>These findings, both <italic>in vitro</italic> and <italic>in vivo</italic>, suggest that narciclasine mitigates AS progression by downregulating VCAM-1 and ICAM-1.Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Narciclasine alleviated AS progression by targeting VCAM-1/ICAM-1 <italic>in vivo</italic>. <sentence_start/><bold>(A)</bold> Oil Red O stained images of whole aortas from control, PBS-treated, and narciclasine-treated <italic>ApoE</italic><italic><sup>\u2212/\u2212</sup></italic> mice. <sentence_start/><bold>(B)</bold> Semi-quantification analysis of the atherosclerotic plaque areas (ANOVA test, <italic>n</italic> = 4, \u2217\u2217<italic>p</italic> = 0.0004. <sentence_start/>Mean \u00b1 SD, control: 3.2 \u00b1 0.54, PBS: 12.27 \u00b1 1.02; narciclasine: 5.16 \u00b1 0.66). <sentence_start/><bold>(C)</bold> HE images of aortic root sections from control, PBS-treated, and narciclasine-treated mice. <sentence_start/><bold>(D)</bold> Oil red O images of aortic root sections from control, PBS-treated, and narciclasine-treated mice. <sentence_start/><bold>(E)</bold> Semiquantification of the necrotic core areas (ANOVA test, <italic>n</italic> = 4, \u2217\u2217\u2217<italic>p</italic> = 0.0002. <sentence_start/>Mean \u00b1 SD, control: 0.0049 \u00b1 0.0004, PBS: 0.52 \u00b1 0.015; narciclasine: 0.033 \u00b1 0.0036). <sentence_start/><bold>(F)</bold> Semiquantification of the oil red O area of lipid-rich areas in aortic root sections (ANOVA test, <italic>n</italic> = 4, \u2217\u2217<italic>p</italic> = 0.0015. <sentence_start/>Mean \u00b1 SD, control: 0.64 \u00b1 0.114, PBS: 2.74 \u00b1 0.108; narciclasine: 1.84 \u00b1 0.103). <sentence_start/><bold>(G)</bold> Relative gene expression levels of VCAM-1 (ANOVA test, <italic>n</italic> = 4, \u2217\u2217\u2217<italic>p</italic> = 0.001. <sentence_start/>Mean \u00b1 SD, control: 1 \u00b1 0.05, PBS: 3.42 \u00b1 0.17; narciclasine: 1.25 \u00b1 0.03) and ICAM-1 across the three groups (ANOVA test, <italic>n</italic> = 4, \u2217\u2217\u2217<italic>p</italic> = 0.001. <sentence_start/>Mean \u00b1 SD, control: 1 \u00b1 0.04, PBS: 2.84 \u00b1 0.16; narciclasine: 1.18 \u00b1 0.03). <sentence_start/><bold>(H, I)</bold> Immunohistochemistry images of VCAM-1 and ICAM-1 in the aortic roots. <sentence_start/><bold>(J, K)</bold> Semiquantification of VCAM-1 (ANOVA test, <italic>n</italic> = 5, \u2217\u2217<italic>p</italic> = 0.001. <sentence_start/>Mean \u00b1 SD, control: 4.47 \u00b1 0.075, PBS: 4.56 \u00b1 0.074; narciclasine: 2.72 \u00b1 0.087) and ICAM-1 (ANOVA test, <italic>n</italic> = 4, \u2217\u2217<italic>p</italic> = 0.0066. <sentence_start/>Mean \u00b1 SD, control: 3.79 \u00b1 0.173, PBS: 3.73 \u00b1 0.11; narciclasine: 2.54 \u00b1 0.108) protein expression in the aortic root."
+  },
+  {
+   "section": "article",
+   "text": "Figure 8"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "AS is the leading cause of morbidity and mortality worldwide.<citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"38292174\" doi=\"10.1016/j.gendis.2023.06.016\" pmcid=\"PMC10825297\" count=\"1\"><sup>6</sup></citation><sup>,</sup><citation rid=\"bib37\" ref-type=\"bibr\" pmid=\"37776347\" doi=\"10.1007/s00125-023-06016-0\" pmcid=\"PMC10627991\" count=\"1\"><sup>37</sup></citation> Current treatment strategies primarily include lipid-lowering drugs (such as statins), antiplatelet drugs and blood pressure control.<citation rid=\"bib38\" ref-type=\"bibr\" pmid=\"36267039\" doi=\"10.1002/clc.23935\" pmcid=\"PMC9849440\" count=\"1\"><sup>38</sup></citation> <sentence_start/>However, these treatments predominantly aim to manage disease progression rather than reverse damage. <sentence_start/>Moreover, damaged VEC regeneration is a slow and insufficient process.<citation rid=\"bib39\" ref-type=\"bibr\" pmid=\"30258888\" doi=\"10.1016/j.gendis.2016.02.003\" pmcid=\"PMC6147164\" count=\"1\"><sup>39</sup></citation> <sentence_start/>Notably, a substantial proportion of patients continue to experience adverse cardiovascular events despite achieving target lipid levels, a phenomenon termed \u201cresidual risk\u201d.<citation rid=\"bib40\" ref-type=\"bibr\" pmid=\"34934904\" doi=\"10.1016/j.mayocpiqo.2021.09.001\" pmcid=\"PMC8654638\" count=\"1\"><sup>40</sup></citation> <sentence_start/>Therefore, there is a critical need for novel, effective, and well-tolerated therapies to prevent or improve long-term outcomes and survival in patients with AS."
+  },
+  {
+   "section": "article",
+   "text": "In this study, we introduce a novel tripartite drug discovery paradigm that integrates single-cell transcriptomics, computational pharmacology, and multidimensional experimental validation, identifying narciclasine as a promising therapeutic candidate for AS. <sentence_start/>Narciclasine (also known as lycoricidinol) is a natural alkaloid found in daffodils and other Amaryllidaceae family plants that has potent anticancer effects on the brain, skin, and breast tumors and colon carcinoma.<citation rid=\"bib41\" ref-type=\"bibr\" pmid=\"35414025\" doi=\"10.1186/s13045-022-01260-0\" pmcid=\"PMC9006445\" count=\"1\"><sup>41</sup></citation><sup>,</sup><citation rid=\"bib42\" ref-type=\"bibr\" pmid=\"39071112\" doi=\"10.1016/j.gendis.2023.03.014\" pmcid=\"PMC11282404\" count=\"1\"><sup>42</sup></citation> Previous research has identified eukaryotic translation elongation factor 1 alpha 1 (eEF1A1) as a direct molecular target of narciclasine,<citation rid=\"bib43\" ref-type=\"bibr\" pmid=\"20643906\" doi=\"10.1096/fj.10-162263\" pmcid=\"PMC3229423\" count=\"1\"><sup>43</sup></citation> which was also predicted as a potential target in our research (Table S7; Fig. 4A). <sentence_start/>Importantly, eEF1A1 modulates macrophage glycolytic reprogramming, a key process in AS pathophysiology.<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1002/advs.202416158\" pmcid=\"PMC12005739\" pmid=\"39973763\" count=\"1\"><sup>44</sup></citation> <sentence_start/>Network pharmacology and bioinformatics analyses further revealed that narciclasine influences multiple key signaling pathways implicated in AS, including the TNF signaling pathway, lipid metabolism, and AS. <sentence_start/>These signaling pathways are commonly involved in the progression of AS, indicating that narciclasine is highly promising for the treatment of AS."
+  },
+  {
+   "section": "article",
+   "text": "Further integration of narciclasine targets, AS-associated genes, and plaque-upregulated genes identified VCAM-1 and ICAM-1 as core molecular targets. <sentence_start/>VCAM-1 and ICAM-1 are immunoglobulin superfamily adhesion molecules critical for leukocyte adhesion to VECs.<citation rid=\"bib45\" ref-type=\"bibr\" pmid=\"37890359\" doi=\"10.1016/j.redox.2023.102944\" pmcid=\"PMC10633694\" count=\"1\"><sup>45</sup></citation> <sentence_start/>These proteins facilitate leukocyte recruitment and transmigration during inflammatory responses.<citation rid=\"bib46\" ref-type=\"bibr\" pmid=\"38797030\" doi=\"10.1016/j.phymed.2024.155764\" count=\"1\"><sup>46</sup></citation> <sentence_start/>In early AS, their upregulation on activated VECs promotes monocyte adhesion and infiltration, initiating plaque development.<citation rid=\"bib3\" ref-type=\"bibr\" pmid=\"33883728\" doi=\"10.1038/s41586-021-03392-8\" count=\"1\">3</citation>, <citation rid=\"bib4\" ref-type=\"bibr\" count=\"1\">4</citation>, <citation rid=\"bib5\" ref-type=\"bibr\" pmid=\"37595265\" doi=\"10.1093/cvr/cvad130\" pmcid=\"PMC10597632\" count=\"1\">5</citation>, <citation rid=\"bib6\" ref-type=\"bibr\" pmid=\"38292174\" doi=\"10.1016/j.gendis.2023.06.016\" pmcid=\"PMC10825297\" count=\"1\">6</citation><sup>,</sup><citation rid=\"bib36\" ref-type=\"bibr\" pmid=\"37442359\" doi=\"10.1016/j.cca.2023.117487\" count=\"1\"><sup>36</sup></citation> Inhibition of these molecules has been shown to reduce the plaque burden in preclinical models. <sentence_start/>For example, magnolol decreased VCAM-1 expression by \u223c50%, whereas probucol reduced VCAM-1 mRNA levels by up to 64.8% \u00b1 1.9%, both of which resulted in substantial plaque attenuation.<citation rid=\"bib47\" ref-type=\"bibr\" pmid=\"11786478\" doi=\"10.1038/sj.bjp.0704458\" pmcid=\"PMC1573120\" count=\"1\"><sup>47</sup></citation> <sentence_start/>TNF-\u03b1 inhibitors also disrupt VCAM-1/ICAM-1 expression by blocking TNF-\u03b1 receptor signaling.<citation rid=\"bib48\" ref-type=\"bibr\" pmid=\"36380021\" doi=\"10.1038/s41577-022-00792-3\" pmcid=\"PMC9665039\" count=\"1\"><sup>48</sup></citation> <sentence_start/>These factors that inhibit VCAM-1/ICAM-1 to remedy AS prompted us to investigate the therapeutic potential of narciclasine. <sentence_start/>Molecular docking, MDS, and SPR experiments confirmed the strong binding affinities of narciclasine for VCAM-1 and ICAM-1."
+  },
+  {
+   "section": "article",
+   "text": "Both <italic>in vitro</italic> and <italic>in vivo</italic> experiments demonstrated that narciclasine mitigated ox-LDL-induced endothelial damage and reduced plaque formation in AS model mice by downregulating VCAM-1 and ICAM-1 expression. <sentence_start/>These effects were comparable to those observed with magnolol and TNF-\u03b1 inhibitors.<citation rid=\"bib47\" ref-type=\"bibr\" pmid=\"11786478\" doi=\"10.1038/sj.bjp.0704458\" pmcid=\"PMC1573120\" count=\"1\"><sup>47</sup></citation><sup>,</sup><citation rid=\"bib48\" ref-type=\"bibr\" pmid=\"36380021\" doi=\"10.1038/s41577-022-00792-3\" pmcid=\"PMC9665039\" count=\"1\"><sup>48</sup></citation> Notably, our findings align with recent research indicating that narciclasine inhibits AS progression in elderly individuals by delaying VSMC senescence, as identified through large-scale GEO data analyses and CMAP predictions.<citation rid=\"bib49\" ref-type=\"bibr\" count=\"1\"><sup>49</sup></citation> <sentence_start/>This parallel evidence not only reinforces the validity of our findings but also suggests a potential anti-aging mechanism for narciclasine in AS therapy. <sentence_start/>However, clinical translation remains a challenge. <sentence_start/>Narciclasine has not yet been evaluated in human clinical trials, and its limited natural supply-primarily its isolation from daffodil bulbs-poses poses a bottleneck. <sentence_start/>Encouragingly, recent advancements in synthetic chemistry have enabled the organic synthesis of narciclasine and its analogues.<citation rid=\"bib50\" ref-type=\"bibr\" pmid=\"30520639\" doi=\"10.1021/jacs.8b12123\" pmcid=\"PMC6488038\" count=\"1\"><sup>50</sup></citation> <sentence_start/>Thus, the path toward the clinical application of narciclasine in tumor or AS treatment appears increasingly feasible. <sentence_start/>Although narciclasine is generally well-tolerated at the prescribed dose, it has a narrow therapeutic window, and adverse reactions are an important reason limiting its clinical application. <sentence_start/>Adverse reactions to narciclasine are preventable and controllable. <sentence_start/>By integrating therapeutic drug monitoring technologies and artificial intelligence algorithms, personalized narciclasine medication models based on genetic background and metabolic characteristics can be constructed to systematically analyze the molecular mechanisms of adverse reactions and establish a dose-response/toxicity prediction system. <sentence_start/>Based on multi-dimensional mechanism analysis and technological innovation, future research can explore the synergistic effects of narciclasine with antiviral drugs and cardiovascular protectants, and develop novel compound formulations or targeted delivery systems."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "In conclusion, our study revealed narciclasine as a promising therapeutic drug for AS. <sentence_start/>Through a multilayered approach involving scRNA-seq data from clinical AS samples, CMAP screening, network pharmacology, molecular docking, machine learning, dynamics simulations, and SPR analysis, we demonstrated that VCAM-1 and ICAM-1 are direct targets of narciclasine. <sentence_start/>These findings were further validated through experimental assays in cell and mouse models. <sentence_start/>This integrative strategy represents a novel framework for disease-specific drug discovery, offering valuable insights for the development of new anti-AS therapies."
+  },
+  {
+   "section": "article",
+   "text": "CRediT authorship contribution statement"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Yang Wang:</bold> Writing - original draft, Methodology, Conceptualization. <sentence_start/><bold>Zhen Cao:</bold> Writing - original draft, Methodology, Conceptualization. <sentence_start/><bold>Huai Lan:</bold> Data curation. <sentence_start/><bold>Bo Li:</bold> Data curation. <sentence_start/><bold>Guixue Wang:</bold> Supervision, Funding acquisition. <sentence_start/><bold>Qingmei Chen:</bold> Writing - review &amp; editing, Writing - original draft."
+  },
+  {
+   "section": "article",
+   "text": "Data availability"
+  },
+  {
+   "section": "article",
+   "text": "The datasets presented in this study can be found in online repositories. <sentence_start/>The names of the repositories/repositories and accession number(s) can be found in the article/Supplementary material."
+  },
+  {
+   "section": "article",
+   "text": "Ethics declaration"
+  },
+  {
+   "section": "article",
+   "text": "The animal study was approved by the Ethics Committee of Chongqing University (Approval Code: A-2019-021) and adhered to NIH guidelines for the care and use of laboratory animals."
+  },
+  {
+   "section": "article",
+   "text": "Acknowledgements"
+  },
+  {
+   "section": "article",
+   "text": "The Graphical Abstract was created in BioRender. <sentence_start/>Wang, Y. (2025) , the agreement number: QO28P51GZW."
+  },
+  {
+   "section": "article",
+   "text": "Funding"
+  },
+  {
+   "section": "article",
+   "text": "This work was financially supported by the 10.13039/501100001809National Natural Science Foundation of China (No. 32471366), 10.13039/501100002338Fundamental Research Funds for the Central Universities (No. 2023CDJYGRH-YB13), Starting Grants for Research (No. 2023qdjfxm004) and the Science and Technology Innovation Project of Jinfeng Laboratory, Chongqing, China (No. jfkyjf202203001)."
+  },
+  {
+   "section": "article",
+   "text": "Conflict of interests"
+  },
+  {
+   "section": "article",
+   "text": "Guixue Wang is a member of <italic>Genes &amp; Diseases</italic> Editorial Board. <sentence_start/>To minimize bias, he/she was excluded from all editorial decision-making related to the acceptance of this article for publication. <sentence_start/>The remaining authors declare that they have no competing interests."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data"
+  },
+  {
+   "section": "back",
+   "text": "The following is the Supplementary data to this article:"
+  },
+  {
+   "section": "back",
+   "text": "Multimedia component 1"
+  },
+  {
+   "section": "back",
+   "text": "Peer review under the responsibility of Chongqing Medical University."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data to this article can be found online at ."
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "pmid": 42763461,
+ "pmcid": 13588945,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Frailty as a Predictor of Clinical Outcomes After Acute Ischemic Stroke in Older Adults: A Systematic Review and Meta-Analysis"
+  },
+  {
+   "section": "abstract",
+   "text": "Frailty, a state of reduced physiological reserve, is increasingly recognised as a determinant of outcome in older adults with acute ischaemic stroke (AIS) that is distinct from chronological age. <sentence_start/>We systematically reviewed and synthesised the association between pre-stroke/baseline frailty and clinical outcomes - mortality and poor functional outcome - after AIS in older adults, and examined effect modification by frailty instrument and by receipt of reperfusion therapy."
+  },
+  {
+   "section": "abstract",
+   "text": "We searched MEDLINE, Embase, Scopus, and Web of Science from inception to 20 June 2026 for original observational studies reporting an adjusted association between a defined frailty measure and mortality or functional outcome in older AIS patients, following PRISMA 2020. <sentence_start/>Two reviewers screened, extracted data, and appraised risk of bias with the Newcastle-Ottawa Scale. <sentence_start/>Maximally adjusted estimates were pooled with DerSimonian-Laird random-effects models, separately for odds ratios and hazard ratios and within homogeneous outcome/contrast groups; heterogeneity was quantified with I\u00b2."
+  },
+  {
+   "section": "abstract",
+   "text": "Twelve studies met the eligibility criteria, five of which contributed a maximally adjusted estimate to meta-analysis. <sentence_start/>Across instruments (Clinical Frailty Scale, Hospital Frailty Risk Score, deficit-accumulation and laboratory frailty indices), higher frailty was consistently associated with increased mortality and worse functional outcome. <sentence_start/>In verified data, laboratory-index frailty (FI-LAB) independently predicted 12-month mortality after endovascular therapy (frail vs robust, adjusted HR 3.61, 95% CI 1.98-6.61), and each additional Hospital Frailty Risk Score point independently predicted 90-day mortality (adjusted OR 1.11, 95% CI 1.00-1.24) and worse functional outcome (adjusted OR 1.13, 95% CI 1.00-1.27). <sentence_start/>In random-effects meta-analyses restricted to cohorts reporting a maximally adjusted estimate, frailty was associated with more than doubled odds of poor functional outcome (pooled adjusted OR 2.44, 95% CI 1.11-5.35; I\u00b2 = 53%; three cohorts) and with roughly tripled early mortality (pooled adjusted HR 3.24, 95% CI 1.67-6.27; I\u00b2 = 0%; two cohorts), consistent in direction and magnitude with the most recent published synthesis (pooled OR 2.04 for poor functional outcome)."
+  },
+  {
+   "section": "abstract",
+   "text": "Frailty is a robust, instrument-independent predictor of death and disability after AIS in older adults and merits routine assessment to inform prognosis and individualised care, rather than to justify withholding evidence-based treatment."
+  },
+  {
+   "section": "article",
+   "text": "Introduction and background"
+  },
+  {
+   "section": "article",
+   "text": "Stroke remains a leading cause of death and acquired disability worldwide, and its burden is concentrated increasingly in older adults; analyses from the Global Burden of Disease programme project continued growth in stroke incidence, prevalence, and stroke-related mortality driven substantially by population ageing [<citation rid=\"REF1\" ref-type=\"bibr\" doi=\"10.1016/S1474-4422(24)00369-7\" pmcid=\"PMC12254192\" pmid=\"39304265\" count=\"1\">1</citation>]. <sentence_start/>Acute ischaemic stroke (AIS) accounts for the large majority of cerebrovascular events, and outcomes in older patients are consistently worse than in younger cohorts - a difference historically attributed to chronological age. <sentence_start/>Yet age is a coarse prognostic instrument. <sentence_start/>Two patients of identical age may differ profoundly in physiological reserve, comorbidity burden, and capacity to withstand an acute cerebrovascular insult, and it is this biological rather than chronological dimension of ageing that increasingly appears to govern survival and recovery [<citation rid=\"REF2\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(19)31786-6\" pmid=\"31609228\" count=\"1\">2</citation>,<citation rid=\"REF3\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac185\" pmid=\"35973066\" count=\"1\">3</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Frailty offers a construct for capturing that biological vulnerability. <sentence_start/>Defined as a state of diminished reserve and reduced resistance to stressors, frailty can be operationalised through the deficit-accumulation model that underlies index-based measures [<citation rid=\"REF4\" ref-type=\"bibr\" doi=\"10.1007/s10522-013-9446-3\" pmcid=\"PMC3847281\" pmid=\"23860844\" count=\"1\">4</citation>], through administratively derived instruments such as the Hospital Frailty Risk Score (HFRS) [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(18)30668-8\" pmcid=\"PMC5946808\" pmid=\"29706364\" count=\"1\">5</citation>], and, more recently, through laboratory-based frailty indices that quantify the burden of abnormal routine blood parameters [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1186/s12916-014-0171-9\" pmcid=\"PMC4190374\" pmid=\"25288274\" count=\"1\">6</citation>]. <sentence_start/>Across medical and surgical populations, frailty predicts mortality, complications, and functional decline more accurately than age alone, and its prevalence is high in later life [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa219\" pmid=\"33068107\" count=\"1\">7</citation>]. <sentence_start/>In cerebrovascular medicine specifically, frailty has been proposed as a unifying explanation for the heterogeneity of post-stroke trajectories and as a candidate variable for individualising acute and rehabilitative care [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1177/17474930211034331\" pmcid=\"PMC8864332\" pmid=\"34282986\" count=\"1\">8</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Despite this conceptual appeal, frailty is still assessed inconsistently in stroke services, and the evidence linking frailty to hard clinical endpoints after AIS has accumulated in a fragmented fashion - across different instruments, outcome definitions, follow-up windows, and treatment contexts, including the rapidly expanding population undergoing endovascular therapy. <sentence_start/>A prior synthesis established that frailty is common in acute stroke and broadly associated with adverse outcomes [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac064\" pmcid=\"PMC9037368\" pmid=\"35352795\" count=\"1\">9</citation>], but questions of magnitude, consistency across instruments, and the specific predictive value of frailty for mortality versus poor functional outcome in older AIS patients remain incompletely resolved. <sentence_start/>We therefore undertook a systematic review and meta-analysis to quantify the association between frailty and clinical outcomes after AIS in older adults, and to examine whether the association is modified by frailty instrument and by receipt of reperfusion therapy."
+  },
+  {
+   "section": "article",
+   "text": "Review"
+  },
+  {
+   "section": "article",
+   "text": "Methodology"
+  },
+  {
+   "section": "article",
+   "text": "Study Design"
+  },
+  {
+   "section": "article",
+   "text": "This review was conducted and reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement [<citation rid=\"REF10\" ref-type=\"bibr\" doi=\"10.1186/s13643-021-01626-4\" pmcid=\"PMC8008539\" pmid=\"33781348\" count=\"1\">10</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Eligibility Criteria"
+  },
+  {
+   "section": "article",
+   "text": "Studies were selected against a PICOS framework (Table 1). <sentence_start/>We included original, peer-reviewed observational studies (prospective or retrospective cohort, or analytic cross-sectional designs) enrolling older adults with AIS in whom frailty was assessed by a defined instrument and at least one pre-specified outcome was reported. <sentence_start/>We excluded reviews, editorials, conference abstracts, preprints, case reports and case series, animal studies, and studies not reporting an extractable association between frailty and outcome."
+  },
+  {
+   "section": "article",
+   "text": "Information Sources and Search Strategy"
+  },
+  {
+   "section": "article",
+   "text": "We searched MEDLINE (via PubMed), Embase, Scopus, and Web of Science from inception to 20 June 2026, without language restriction, and screened the reference lists of included studies and relevant reviews (backward citation searching) together with forward citation searching. <sentence_start/>A representative PubMed strategy combined controlled vocabulary and free-text terms for frailty, ischaemic stroke, and outcomes: (\"frailty\"[MeSH] OR \"frail elderly\"[MeSH] OR frail) AND (\"ischemic stroke\"[MeSH] OR \"brain infarction\"[MeSH] OR \"ischaemic stroke\") AND (mortality OR death OR survival OR \"functional outcome\" OR \"modified Rankin\" OR disability OR outcome)."
+  },
+  {
+   "section": "article",
+   "text": "Study Selection and Data Extraction"
+  },
+  {
+   "section": "article",
+   "text": "Two reviewers independently screened titles and abstracts and then full texts, resolving disagreements by consensus or a third reviewer. <sentence_start/>From each study, we extracted design and setting, country, sample size, age, proportion with AIS, treatment context (e.g., intravenous thrombolysis, endovascular therapy), frailty instrument and threshold, outcome definitions and timepoints, and the maximally adjusted effect estimate with its 95% confidence interval (CI) and the covariates included in the model."
+  },
+  {
+   "section": "article",
+   "text": "Risk-of-Bias Assessment"
+  },
+  {
+   "section": "article",
+   "text": "Methodological quality was appraised with the Newcastle-Ottawa Scale (NOS) for cohort and cross-sectional studies [<citation rid=\"REF11\" ref-type=\"bibr\" count=\"1\">11</citation>], evaluating selection, comparability, and outcome/exposure ascertainment. <sentence_start/>Two reviewers scored each study independently; studies scoring \u22657 of 9 were considered low risk of bias. <sentence_start/>The Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework was applied to assess certainty of evidence for mortality and poor functional outcome. <sentence_start/>Observational evidence started as low certainty, with systematic evaluation of risk of bias (NOS), inconsistency (I\u00b2 statistics), indirectness, imprecision (CIs and sample size), and publication bias (not formally assessable due to &lt;10 studies per outcome), alongside consideration of upgrading factors including large effect sizes and dose-response relationships."
+  },
+  {
+   "section": "article",
+   "text": "Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "Maximally adjusted estimates were pooled using DerSimonian-Laird random-effects models [<citation rid=\"REF12\" ref-type=\"bibr\" doi=\"10.1016/0197-2456(86)90046-2\" pmid=\"3802833\" count=\"1\">12</citation>], on the log scale with inverse-variance weighting. <sentence_start/>Odds ratios (ORs) and hazard ratios (HRs) were pooled as separate summary estimates and were not combined; per-unit and dichotomous (frail vs non-frail) contrasts were likewise analysed separately, and only one estimate per study contributed to any pool to preserve independence. <sentence_start/>Statistical heterogeneity was quantified with the I\u00b2 statistic and Cochran's Q [<citation rid=\"REF13\" ref-type=\"bibr\" doi=\"10.1002/sim.1186\" pmid=\"12111919\" count=\"1\">13</citation>]; I\u00b2 \u226550% was regarded as substantial. <sentence_start/>Pre-specified subgroup analyses examined the frailty instrument (Clinical Frailty Scale (CFS) vs HFRS vs index-based measures) and the treatment context (reperfusion-treated vs mixed cohorts). <sentence_start/>Where \u226510 studies contributed to a pool, small-study effects were examined with contour-enhanced funnel plots and Egger's regression test. <sentence_start/>Analyses were performed in Python 3.12.3 (Python Software Foundation, Fredericksburg, VA, USA) using NumPy 2.4.4, SciPy 1.17.1, and pandas 3.0.2; the DerSimonian-Laird estimator, Cochran's Q, and the I\u00b2 statistic were implemented directly in this environment, and forest plots and the risk-of-bias summary were generated with Matplotlib 3.10.8."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Study Selection"
+  },
+  {
+   "section": "article",
+   "text": "A total of 247 records were identified through database searches, including PubMed (n = 93), Embase (n = 43), Scopus (n = 42), and Web of Science (n = 69). <sentence_start/>After the removal of 96 duplicate records using EndNote (Clarivate, London, UK), 151 unique records underwent title and abstract screening, of which 91 were excluded. <sentence_start/>Sixty studies were sought for full-text retrieval, and three could not be retrieved due to paywall restrictions. <sentence_start/>Consequently, 57 full-text articles were assessed for eligibility. <sentence_start/>Of these, 45 studies were excluded, including 31 that did not focus on the adult population and 14 review articles, editorials, or conference abstracts. <sentence_start/>Ultimately, 12 studies [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa004\" pmid=\"31951248\" count=\"1\">14</citation>-<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1186/s12877-022-02840-y\" pmcid=\"PMC8857811\" pmid=\"35183106\" count=\"1\">25</citation>] met the eligibility criteria and were included in the systematic review (Figure 1)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "PRISMA 2020 flow diagram for study identification, screening, and inclusion"
+  },
+  {
+   "section": "article",
+   "text": "Characteristics of Included Studies"
+  },
+  {
+   "section": "article",
+   "text": "Twelve included studies, with 3920 participants, their frailty instruments, populations, treatment contexts, and outcomes are summarised in Table 2. <sentence_start/>Cohorts spanned all-comer older AIS populations and reperfusion-treated (endovascular therapy/thrombectomy) subpopulations, and applied a range of frailty instruments, from the clinician-rated CFS to the administratively derived HFRS and laboratory- or deficit-based frailty indices."
+  },
+  {
+   "section": "article",
+   "text": "Risk of Bias and GRADE Assessment"
+  },
+  {
+   "section": "article",
+   "text": "NOS appraisals are summarised in Table 3. <sentence_start/>Most cohorts drew consecutive or registry-based samples with objective outcome ascertainment (mortality via records/registries; functional outcome via the modified Rankin Scale (mRS)), supporting adequate selection and outcome domains. <sentence_start/>The principal threats to validity were the retrospective and, in some cases, single-centre study designs, as well as variable adjustment for baseline stroke severity, assessed using the National Institutes of Health Stroke Scale (NIHSS), and pre-stroke disability, which directly affect the comparability domain. <sentence_start/>Preliminary domain scores are summarised in Table 3 and visualised in Figure 2; all studies scored 6-9 of 9, indicating moderate-to-low risk of bias. <sentence_start/>These preliminary appraisals are to be confirmed by dual independent scoring."
+  },
+  {
+   "section": "article",
+   "text": "Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Newcastle-Ottawa Scale risk-of-bias summary across the three domains"
+  },
+  {
+   "section": "article",
+   "text": "Studies included [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa004\" pmid=\"31951248\" count=\"1\">14</citation>-<citation rid=\"REF25\" ref-type=\"bibr\" doi=\"10.1186/s12877-022-02840-y\" pmcid=\"PMC8857811\" pmid=\"35183106\" count=\"1\">25</citation>]"
+  },
+  {
+   "section": "article",
+   "text": "For mortality, evidence was upgraded from low to moderate based on a large, consistent effect (tripled risk) with dose-response gradient and corroboration across all frailty instruments (CFS, HFRS, laboratory-based frailty index (FI-LAB)). <sentence_start/>For functional outcome, certainty remains low due to substantial heterogeneity (I\u00b2=53%), differing mRS cut-offs (\u22653 to \u22656), age thresholds (\u226570 to \u226585), and wide CIs, though direction of effect is consistent. <sentence_start/>Narrative synthesis findings (per-unit analyses, longer-term outcomes) also rate low certainty, reflecting lack of formal pooling and reliance on individual observational studies (Table 4)."
+  },
+  {
+   "section": "article",
+   "text": "Frailty and Mortality"
+  },
+  {
+   "section": "article",
+   "text": "Every study reporting mortality found higher frailty associated with greater risk, across instruments and follow-up windows. <sentence_start/>In verified adjusted data, FI-LAB was an independent predictor of mortality after endovascular therapy in older large vessel occlusion (LVO)-AIS patients, with frail patients experiencing roughly threefold higher 12-month mortality than robust patients (adjusted HR 3.61, 95% CI 1.98-6.61) and elevated 14-day mortality (adjusted HR 2.82, 95% CI 1.26-6.32), and a clear dose-response across the frailty gradient [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]. <sentence_start/>Administratively derived frailty showed the same direction on a per-unit metric: each additional HFRS point independently predicted 90-day mortality after thrombectomy (adjusted OR 1.11, 95% CI 1.00-1.24) [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.3390/jcm10102171\" pmcid=\"PMC8157268\" pmid=\"34069797\" count=\"1\">16</citation>]. <sentence_start/>Two cohorts reported a dichotomous adjusted HR for early mortality and could be pooled: high frailty risk independently predicted 28-day mortality after endovascular therapy (adjusted HR 4.30, 95% CI 1.35-13.67) [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1093/ageing/afab092\" pmid=\"34087930\" count=\"1\">15</citation>], and laboratory-index frailty predicted 14-day mortality (adjusted HR 2.82, 95% CI 1.26-6.32) [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]. <sentence_start/>A DerSimonian-Laird random-effects model gave a pooled adjusted HR of 3.24 (95% CI 1.67-6.27) with no detectable heterogeneity (I\u00b2=0%; Figure 3); however, this finding should be interpreted cautiously given that only two studies contributed to the pooled estimate. <sentence_start/>Longer-term and per-unit estimates pointed consistently the same way: the laboratory index also predicted 12-month mortality (adjusted HR 3.61, 95% CI 1.98-6.61) [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]; clinician-rated frailty (CFS \u22655) independently predicted one-year mortality (adjusted OR 3.86, 95% CI 1.48-10.05; per-point OR 1.71, 95% CI 1.19-2.45) [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1016/j.jstrokecerebrovasdis.2022.106816\" pmid=\"36215902\" count=\"1\">22</citation>]; each additional HFRS point independently predicted 90-day mortality (adjusted OR 1.11, 95% CI 1.00-1.24) [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.3390/jcm10102171\" pmcid=\"PMC8157268\" pmid=\"34069797\" count=\"1\">16</citation>]; and CFS independently predicted 28-day mortality after ischaemic stroke [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa004\" pmid=\"31951248\" count=\"1\">14</citation>]. <sentence_start/>These are reported alongside, rather than combined with, the pooled early-mortality estimate because they mix hazard and ORs across different follow-up windows (Figure 3)."
+  },
+  {
+   "section": "article",
+   "text": "Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Random-effects meta-analysis (DerSimonian-Laird) of the adjusted association between frailty and early mortality after acute ischaemic stroke"
+  },
+  {
+   "section": "article",
+   "text": "Studies included [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1093/ageing/afab092\" pmid=\"34087930\" count=\"1\">15</citation>,<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]"
+  },
+  {
+   "section": "article",
+   "text": "EVT: endovascular therapy; HFRS: Hospital Frailty Risk Score; FI-LAB: laboratory-based Frailty Index"
+  },
+  {
+   "section": "article",
+   "text": "Frailty and Poor Functional Outcome"
+  },
+  {
+   "section": "article",
+   "text": "Frailty was consistently associated with worse functional outcome on the mRS, and three cohorts provided a dichotomous, maximally adjusted estimate suitable for pooling. <sentence_start/>In endovascular-therapy patients aged \u226570, frailty was associated with poorer 90-day functional outcome (adjusted OR 1.54, 95% CI 1.04-2.28) [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac096\" pmid=\"35486669\" count=\"1\">17</citation>]; in thrombectomy-treated patients aged \u226580, frailty (CFS \u22655) more than tripled the odds of a poor three-month outcome (mRS 4-6; adjusted OR 3.30, 95% CI 1.24-8.81) [<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1016/j.jstrokecerebrovasdis.2022.106816\" pmid=\"36215902\" count=\"1\">22</citation>]; and in patients aged \u226585, severe pre-stroke frailty (CFS \u22657) was independently associated with poor outcome (mRS \u22654; adjusted OR 7.27, 95% CI 1.14-46.26, and 11.42, 95% CI 1.59-81.88, in ischaemic stroke) [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.3389/fneur.2025.1689225\" pmcid=\"PMC12623169\" pmid=\"41262972\" count=\"1\">21</citation>]. <sentence_start/>A DerSimonian-Laird random-effects model yielded a pooled adjusted OR of 2.44 (95% CI 1.11-5.35), with moderate heterogeneity (I\u00b2=53%; Figure 2) attributable largely to differing frailty thresholds and case-mix. <sentence_start/>This estimate is closely concordant with the most recent published meta-analysis, which reported a pooled OR of 2.04 (95% CI 1.49-2.80) for poor functional outcome across stroke cohorts [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.3389/fpsyt.2024.1347476\" pmcid=\"PMC11257970\" pmid=\"39035605\" count=\"1\">26</citation>]. <sentence_start/>Consistent with this direction, each additional HFRS point independently predicted a worse 90-day mRS after thrombectomy (adjusted OR 1.13, 95% CI 1.00-1.27) [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.3390/jcm10102171\" pmcid=\"PMC8157268\" pmid=\"34069797\" count=\"1\">16</citation>], and index-based frailty predicted dependence across endovascular and mixed cohorts (Figure 4) [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1093/ageing/afab260\" pmid=\"35150584\" count=\"1\">18</citation>,<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1159/000540605\" pmid=\"39068907\" count=\"1\">19</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Random-effects meta-analysis (DerSimonian-Laird) of the adjusted association between frailty and poor functional outcome (dichotomised modified Rankin Scale) after acute ischaemic stroke in older adults"
+  },
+  {
+   "section": "article",
+   "text": "Studies included [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac096\" pmid=\"35486669\" count=\"1\">17</citation>,<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1016/j.jstrokecerebrovasdis.2022.106816\" pmid=\"36215902\" count=\"1\">22</citation>,<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.3389/fneur.2025.1689225\" pmcid=\"PMC12623169\" pmid=\"41262972\" count=\"1\">21</citation>]"
+  },
+  {
+   "section": "article",
+   "text": "CFS: Clinical Frailty Scale; EVT: endovascular therapy; MT: mechanical thrombectomy"
+  },
+  {
+   "section": "article",
+   "text": "Subgroup and Sensitivity Analyses"
+  },
+  {
+   "section": "article",
+   "text": "Pre-specified subgroup analyses by frailty instrument (CFS vs HFRS vs index-based) and by treatment context (reperfusion-treated vs mixed cohorts) were planned; however, due to an insufficient number of comparable estimates populating each stratum (fewer than two independent, metric-comparable studies per subgroup), these analyses could not be performed. <sentence_start/>Similarly, follow-up duration was considered as a potential source of heterogeneity, but formal subgroup analysis by timepoint was not feasible for the same reason. <sentence_start/>Assessment of publication bias using funnel-plot asymmetry and Egger's regression test was pre-specified but could not be undertaken, as the pooled analyses included fewer than 10 studies. <sentence_start/>These limitations are now clearly stated."
+  },
+  {
+   "section": "article",
+   "text": "Because the functional-outcome pool comprised only three studies, its robustness was examined with a leave-one-out sensitivity analysis, recomputing the random-effects estimate with each study removed in turn (Figure 5). <sentence_start/>The pooled OR remained above 1.9 in every iteration (range 1.96 to 3.92 across the leave-one-out estimates, versus 2.44 with all three studies), indicating that no single cohort drove the association. <sentence_start/>In two of the three iterations, the 95% CI crossed unity; because each iteration leaves only two studies, this reflects the small number of contributing cohorts rather than a reversal of direction."
+  },
+  {
+   "section": "article",
+   "text": "Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Leave-one-out sensitivity analysis of the random-effects meta-analysis for poor functional outcome; each row shows the pooled odds ratio recomputed with the indicated study removed, and the dashed red line marks the overall pooled estimate"
+  },
+  {
+   "section": "article",
+   "text": "Studies included [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac096\" pmid=\"35486669\" count=\"1\">17</citation>,<citation rid=\"REF22\" ref-type=\"bibr\" doi=\"10.1016/j.jstrokecerebrovasdis.2022.106816\" pmid=\"36215902\" count=\"1\">22</citation>,<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.3389/fneur.2025.1689225\" pmcid=\"PMC12623169\" pmid=\"41262972\" count=\"1\">21</citation>]"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This systematic review synthesises a coherent and rapidly maturing body of evidence indicating that frailty is a powerful predictor of clinical outcome after AIS in older adults, and that its prognostic signal is largely independent of the particular instrument used to capture it. <sentence_start/>Whether frailty was measured by the clinician-rated CFS, the administratively derived HFRS, a deficit-accumulation frailty index, or a FI-LAB, greater frailty was consistently associated with higher mortality and worse functional recovery. <sentence_start/>In the most fully verified dataset, laboratory-index frailty tripled 12-month mortality after endovascular therapy relative to robustness, with a graded relationship across the frailty spectrum [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]; per-unit HFRS increments independently predicted both 90-day mortality and poorer functional outcome after thrombectomy [<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.3390/jcm10102171\" pmcid=\"PMC8157268\" pmid=\"34069797\" count=\"1\">16</citation>]; and clinician-rated frailty independently predicted early death after ischaemic stroke [<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa004\" pmid=\"31951248\" count=\"1\">14</citation>] and death or severe disability in the oldest old [<citation rid=\"REF21\" ref-type=\"bibr\" doi=\"10.3389/fneur.2025.1689225\" pmcid=\"PMC12623169\" pmid=\"41262972\" count=\"1\">21</citation>]. <sentence_start/>Convergent findings from CFS-based cohorts undergoing endovascular treatment [<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac096\" pmid=\"35486669\" count=\"1\">17</citation>], from deficit-index cohorts undergoing thrombectomy [<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1093/ageing/afab260\" pmid=\"35150584\" count=\"1\">18</citation>], and from blood-based frailty indices [<citation rid=\"REF19\" ref-type=\"bibr\" doi=\"10.1159/000540605\" pmid=\"39068907\" count=\"1\">19</citation>] reinforce the same conclusion. <sentence_start/>The consistency of direction across such methodologically diverse measures is itself an argument that the association reflects a real biological phenomenon - diminished physiological reserve - rather than an artefact of any single scale."
+  },
+  {
+   "section": "article",
+   "text": "These results extend, rather than merely echo, the earlier literature. <sentence_start/>A previous systematic review established that frailty is common in acute stroke, affecting roughly a quarter of patients, and is broadly associated with adverse outcomes [<citation rid=\"REF9\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac064\" pmcid=\"PMC9037368\" pmid=\"35352795\" count=\"1\">9</citation>]; our synthesis sharpens that picture by focusing on older adults, separating mortality from functional endpoints, and foregrounding the treatment context that now dominates acute stroke care. <sentence_start/>A parallel synthesis reached similar conclusions about frailty and post-stroke outcomes across mixed populations [<citation rid=\"REF26\" ref-type=\"bibr\" doi=\"10.3389/fpsyt.2024.1347476\" pmcid=\"PMC11257970\" pmid=\"39035605\" count=\"1\">26</citation>], and a meta-analysis restricted to endovascular therapy likewise found frailty to be associated with worse outcomes after thrombectomy [<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1007/s40520-023-02383-1\" pmid=\"36964867\" count=\"1\">27</citation>]. <sentence_start/>The laboratory-based frailty literature, summarised in a dedicated review, has repeatedly linked FI-LAB to mortality across clinical settings, lending external coherence to the stroke-specific findings reported here [<citation rid=\"REF28\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac309\" pmcid=\"PMC9831271\" pmid=\"36626319\" count=\"1\">28</citation>]. <sentence_start/>At the same time, outcome-prediction models developed for endovascular therapy have historically emphasised age, stroke severity, and imaging while largely omitting physiological reserve [<citation rid=\"REF29\" ref-type=\"bibr\" doi=\"10.1161/STROKEAHA.120.033445\" pmcid=\"PMC8884132\" pmid=\"34732070\" count=\"1\">29</citation>]; our findings suggest that incorporating a frailty term could improve the calibration of such models for the older patients who increasingly constitute the treated population."
+  },
+  {
+   "section": "article",
+   "text": "Several mechanisms plausibly underlie the observed associations. <sentence_start/>Frailty reflects the accumulation of molecular, cellular, and organ-level deficits that erode the capacity to withstand an acute physiological insult; in the context of AIS, this reduced reserve translates into diminished tolerance of the ischaemic event itself, of reperfusion, and of the intensive care that acute stroke management entails [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1177/17474930211034331\" pmcid=\"PMC8864332\" pmid=\"34282986\" count=\"1\">8</citation>]. <sentence_start/>Frail patients are more susceptible to post-stroke complications such as infection, delirium, and immobility-related events, each of which independently worsens survival and recovery. <sentence_start/>Frailty may also blunt neuroplasticity and reduce tolerance of, and adherence to, rehabilitation, thereby constraining the functional gains achievable after the acute phase. <sentence_start/>The laboratory-index findings add a mechanistic layer: a high burden of abnormal routine blood parameters - reflecting subclinical hepatic, renal, nutritional, inflammatory, and metabolic dysfunction - captures multisystem vulnerability that history- and function-based instruments may miss, and does so using data available before intervention, even in patients who cannot provide a pre-stroke history [<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]. <sentence_start/>That some of the strongest signals emerge in reperfusion-treated cohorts is clinically salient, because it indicates that frailty conveys prognostic information over and above successful recanalisation."
+  },
+  {
+   "section": "article",
+   "text": "The diversity of frailty instruments across the included studies is not merely a methodological nuisance but a practical guide to implementation. <sentence_start/>Clinician-rated scales such as the CFS are quick, inexpensive, and interpretable at the bedside, but they depend on a reliable account of pre-stroke function that is not always obtainable acutely, particularly for patients with impaired consciousness or without an accompanying informant [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1177/17474930211034331\" pmcid=\"PMC8864332\" pmid=\"34282986\" count=\"1\">8</citation>,<citation rid=\"REF14\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa004\" pmid=\"31951248\" count=\"1\">14</citation>]. <sentence_start/>Administrative indices such as the HFRS can be computed automatically from coded records and embedded in hospital information systems, enabling frailty ascertainment at scale, though they inherit the limitations of coding quality and were not originally designed for stroke-specific prognostication [<citation rid=\"REF5\" ref-type=\"bibr\" doi=\"10.1016/S0140-6736(18)30668-8\" pmcid=\"PMC5946808\" pmid=\"29706364\" count=\"1\">5</citation>,<citation rid=\"REF16\" ref-type=\"bibr\" doi=\"10.3390/jcm10102171\" pmcid=\"PMC8157268\" pmid=\"34069797\" count=\"1\">16</citation>]. <sentence_start/>Laboratory-based indices occupy a complementary niche: because they are derived entirely from routine pre-procedural blood tests, they can be calculated objectively and rapidly even when a history cannot be taken - precisely the circumstance of many older patients presenting with LVO [<citation rid=\"REF6\" ref-type=\"bibr\" doi=\"10.1186/s12916-014-0171-9\" pmcid=\"PMC4190374\" pmid=\"25288274\" count=\"1\">6</citation>,<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]. <sentence_start/>No single instrument is optimal across every setting; the pragmatic implication is that stroke services should select a frailty measure matched to their data environment and patient mix, while recognising that the prognostic conclusion is stable across the choice of tool."
+  },
+  {
+   "section": "article",
+   "text": "The clinical implications warrant careful framing. <sentence_start/>The consistent, graded association between frailty and poor outcome argues for routine, structured frailty assessment at stroke presentation, using an instrument matched to the local setting-clinician-rated scales where a reliable pre-stroke history is obtainable, and administrative or laboratory indices where it is not. <sentence_start/>Such assessment can improve prognostic accuracy beyond age alone, support honest and individualised conversations with patients and families about likely trajectories, and identify candidates for proactive complication prevention, early rehabilitation planning, and, where appropriate, comprehensive geriatric co-management; recent stroke-specific reviews and a World Stroke Organization scientific statement similarly advocate embedding structured frailty assessment into stroke pathways [<citation rid=\"REF30\" ref-type=\"bibr\" doi=\"10.1136/pn-2023-003833\" pmid=\"38772626\" count=\"1\">30</citation>,<citation rid=\"REF31\" ref-type=\"bibr\" doi=\"10.1177/17474930251345295\" pmcid=\"PMC12446689\" pmid=\"40390672\" count=\"1\">31</citation>]. <sentence_start/>Crucially, the evidence must not be read as a rationale for withholding reperfusion or other evidence-based therapies from frail patients. <sentence_start/>Frailty is a modifiable and partially reversible state, and prognostic pessimism risks becoming a self-fulfilling prophecy; the appropriate response is to individualise care and to test whether frailty-directed interventions - prehabilitation, nutritional optimisation, and structured geriatric management - can attenuate the excess risk, rather than to ration treatment on the basis of a frailty score [<citation rid=\"REF7\" ref-type=\"bibr\" doi=\"10.1093/ageing/afaa219\" pmid=\"33068107\" count=\"1\">7</citation>]. <sentence_start/>The observation that frailty predicts outcome even among successfully treated patients is best understood as a call to broaden the therapeutic target beyond the occluded vessel to the whole patient."
+  },
+  {
+   "section": "article",
+   "text": "A recurring theme across the reperfusion-treated cohorts is that frailty carries prognostic information beyond chronological age and beyond successful recanalisation, a finding with direct bearing on how older patients are selected for endovascular therapy [<citation rid=\"REF15\" ref-type=\"bibr\" doi=\"10.1093/ageing/afab092\" pmid=\"34087930\" count=\"1\">15</citation>,<citation rid=\"REF17\" ref-type=\"bibr\" doi=\"10.1093/ageing/afac096\" pmid=\"35486669\" count=\"1\">17</citation>,<citation rid=\"REF18\" ref-type=\"bibr\" doi=\"10.1093/ageing/afab260\" pmid=\"35150584\" count=\"1\">18</citation>,<citation rid=\"REF20\" ref-type=\"bibr\" doi=\"10.1016/j.jnha.2025.100673\" pmcid=\"PMC12446208\" pmid=\"40907197\" count=\"1\">20</citation>]. <sentence_start/>Historically, advanced age has been used, implicitly or explicitly, to temper enthusiasm for aggressive treatment; yet the data assembled here suggest that biological reserve, not the calendar, is the more informative axis, echoing conceptual arguments that frailty should supplement age in stroke decision-making [<citation rid=\"REF8\" ref-type=\"bibr\" doi=\"10.1177/17474930211034331\" pmcid=\"PMC8864332\" pmid=\"34282986\" count=\"1\">8</citation>]. <sentence_start/>This matters because outcome-prediction models used to counsel patients and to design trials have generally omitted frailty [<citation rid=\"REF29\" ref-type=\"bibr\" doi=\"10.1161/STROKEAHA.120.033445\" pmcid=\"PMC8884132\" pmid=\"34732070\" count=\"1\">29</citation>], and because a meta-analysis confined to thrombectomy has already signalled that frailty tracks with worse post-procedural outcomes [<citation rid=\"REF27\" ref-type=\"bibr\" doi=\"10.1007/s40520-023-02383-1\" pmid=\"36964867\" count=\"1\">27</citation>]. <sentence_start/>The correct inference is not that frail patients benefit less from reperfusion - the present evidence does not establish a differential treatment effect - but that frailty identifies a higher-risk group in whom baseline prognosis is worse and in whom peri-procedural vigilance, complication prevention, and realistic goal-setting are especially important. <sentence_start/>Disentangling prognostic value from predictive, treatment-modifying value is a priority for future work, ideally through individual-participant-data analyses of thrombectomy cohorts and, where feasible, frailty-stratified reporting within randomised trials."
+  },
+  {
+   "section": "article",
+   "text": "This review has strengths. <sentence_start/>It concentrates on the older population in whom frailty is most prevalent and most consequential, distinguishes mortality from functional endpoints, prioritises maximally adjusted estimates, and applies a transparent synthesis strategy that pools only metric-comparable estimates and refrains from combining ORs with HRs or per-unit with dichotomous contrasts. <sentence_start/>Its principal contribution is to show that the frailty-outcome association in AIS is instrument-independent and robust across the treatment contexts that define contemporary care. <sentence_start/>By cataloguing which adjusted estimate each cohort reports and holding pooling to strict metric-comparability, the review also provides a reproducible scaffold that can be updated as further adjusted estimates are extracted and as new cohorts are published, and it makes explicit where the current evidence supports quantitative pooling and where it supports only structured narrative synthesis - an honesty that is itself useful for guideline developers weighing whether to recommend routine frailty assessment in acute stroke pathways."
+  },
+  {
+   "section": "article",
+   "text": "Limitations"
+  },
+  {
+   "section": "article",
+   "text": "Our synthesis has important limitations. <sentence_start/>First, the included literature is clinically and methodologically heterogeneous: studies used different frailty instruments and thresholds, dichotomised the mRS at different cut-points, and reported outcomes at different timepoints, so that a proportion of the evidence is best represented as a structured narrative synthesis rather than a single pooled estimate, and pooled results should be interpreted alongside their I\u00b2 values. <sentence_start/>Second, much of the strongest recent evidence derives from reperfusion-treated (endovascular) cohorts, which may limit generalisability to older patients managed conservatively. <sentence_start/>Third, most studies were observational, and several were retrospective and single-centre; residual confounding - particularly incomplete adjustment for baseline stroke severity and pre-stroke disability - cannot be excluded, and frailty and stroke severity are partially entangled. <sentence_start/>Fourth, ascertainment of frailty was frequently retrospective, and administrative indices depend on coding quality. <sentence_start/>Finally, publication and reporting biases are possible, and a formal assessment of small-study effects will be feasible only for outcomes to which a sufficient number of studies contribute. <sentence_start/>These considerations temper the certainty of the evidence, which we grade formally by outcome using GRADE."
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "In older adults with AIS, frailty is a consistent and clinically meaningful predictor of mortality and poor functional outcome, and this association holds across clinician-rated, administrative, deficit-based, and laboratory-based instruments and across treatment contexts, including endovascular therapy. <sentence_start/>Frailty assessment should be integrated into routine acute stroke care to refine prognostication and individualise management - used to tailor treatment and support, not to deny it. <sentence_start/>Future prospective, multicentre studies with harmonised frailty instruments and outcome definitions, adequate adjustment for stroke severity, and evaluation of frailty-directed interventions are needed to convert this prognostic signal into improved outcomes."
+  },
+  {
+   "section": "back",
+   "text": "Disclosures"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "<bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work."
+  },
+  {
+   "section": "back",
+   "text": "Author Contributions"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Acquisition, analysis, or interpretation of data:</bold> Marwa Mohamed Ahmed Hamid Alsafi, Alaa Reda Amin Sadek Elbestawy, lama Mohamed Abdullah Ahmed Sayed, Ezdehar Taha, Nada Fathi Mohammed Ahmed Hamid, Ammar Mohamed Ibrahim Obeidalla, Abubaker Mohammed Mohammed Elamin"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Critical review of the manuscript for important intellectual content:</bold> Marwa Mohamed Ahmed Hamid Alsafi, Alaa Reda Amin Sadek Elbestawy, lama Mohamed Abdullah Ahmed Sayed, Ezdehar Taha, Samih Abdelmutalab Mohamed Abdalla, Ammar Mohamed Ibrahim Obeidalla, Abubaker Mohammed Mohammed Elamin"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Supervision:</bold> Marwa Mohamed Ahmed Hamid Alsafi"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Concept and design:</bold> Alaa Reda Amin Sadek Elbestawy, Ezdehar Taha, Samih Abdelmutalab Mohamed Abdalla, Nada Fathi Mohammed Ahmed Hamid, Ammar Mohamed Ibrahim Obeidalla"
+  },
+  {
+   "section": "back",
+   "text": "<bold>Drafting of the manuscript:</bold> lama Mohamed Abdullah Ahmed Sayed, Samih Abdelmutalab Mohamed Abdalla, Nada Fathi Mohammed Ahmed Hamid, Abubaker Mohammed Mohammed Elamin"
+  }
+ ]
+}

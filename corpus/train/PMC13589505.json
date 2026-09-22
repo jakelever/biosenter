@@ -1,0 +1,1027 @@
+{
+ "pmid": 42612638,
+ "pmcid": 13589505,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Targeting of tripartite neuron-cancer-immune cell crosstalk augments response to chemotherapy and immunotherapy"
+  },
+  {
+   "section": "abstract",
+   "text": "Summary"
+  },
+  {
+   "section": "abstract",
+   "text": "We report presence of cholinergic nerve fibers in the periphery and stroma of colon cancer tissues and their correlation with poor T cell and increased macrophage infiltration. <sentence_start/>We employed hydrogel-mediated localized delivery of an FDA-approved local anesthetic, bupivacaine (BUP), to target acetylcholine (ACh)-mediated crosstalk of cholinergic neurons with cancer and immune cells. <sentence_start/>Localized BUP-Gel therapy promotes T cell-mediated tumor inhibition and enhances the antitumor response of systemic chemotherapy and immunotherapy. <sentence_start/>Further, blockade of cancer- and immune cell-specific ACh receptors inhibits tumor growth, alters the TME, and augments the impact of chemotherapy and immunotherapy. <sentence_start/>Finally, we demonstrate that ACh receptor antagonists polarize macrophages toward an M1-like phenotype and activate T cell immunity in tumor explants of patients. <sentence_start/>Therefore, targeting cholinergic signals through localized delivery of anesthetics, as well as direct immune reprogramming via cholinergic receptor antagonists, may provide a means to modulate this tripartite crosstalk, with potential implications for therapeutic strategies."
+  },
+  {
+   "section": "abstract",
+   "text": "Graphical abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "Highlights"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Cholinergic neurons are associated with immunosuppression in patients with colon cancer"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Acetylcholine suppresses cytotoxic T cell activity and M1 macrophage polarization"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Local anesthetics and receptor antagonists activate antitumor T cell immunity"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Targeting cholinergic signaling enhances chemotherapy and immunotherapy responses"
+  },
+  {
+   "section": "abstract",
+   "text": "Jain et al. identify cholinergic nerve-derived acetylcholine as a mediator of immunosuppression in colon cancer and show that localized hydrogel-based delivery of local anesthetics and pharmacological blockade of acetylcholine receptors activate anti-tumor immune responses and enhance the efficacy of chemotherapy and immunotherapy."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Cancer cells sculpt their local microenvironment by utilizing growth signals and modulating host cells for their progression.<citation rid=\"bib1\" ref-type=\"bibr\" doi=\"10.1016/j.cub.2020.06.081\" pmid=\"32810447\" pmcid=\"PMC8194051\" count=\"1\"><sup>1</sup></citation> <sentence_start/>This complex tumor microenvironment (TME) features immune cells, stromal cells, blood vessels, and extracellular matrix that coordinates with cancer cells, supporting their survival, growth, and spread.<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2023.02.016\" pmid=\"36917948\" count=\"1\"><sup>2</sup></citation> <sentence_start/>The interactions within TME, particularly between immune cells and cancer cells, create an immunosuppressive TME that diminishes the immune cell-mediated killing of cancer cells, thereby accelerating the tumor growth.<citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.1038/s41591-018-0014-x\" pmid=\"29686425\" pmcid=\"PMC5998822\" count=\"1\"><sup>3</sup></citation> <sentence_start/>Tumor innervation has emerged as a key hallmark of cancer progression, where innervating neurons facilitate immunosuppression along with cancer progression and metastasis.<citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1038/s41568-019-0237-2\" pmid=\"31974491\" pmcid=\"PMC7709871\" count=\"1\"><sup>4</sup></citation><sup>,</sup><citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2023.02.012\" pmid=\"36917953\" pmcid=\"PMC10202656\" count=\"1\"><sup>5</sup></citation> Tumor innervation is evident in solid tumors, including prostate, gastric, pancreatic, oral, breast, and skin,<citation rid=\"bib6\" ref-type=\"bibr\" doi=\"10.1126/scitranslmed.3009569\" pmcid=\"PMC4374618\" pmid=\"25143365\" count=\"1\"><sup>6</sup></citation><sup>,</sup><citation rid=\"bib7\" ref-type=\"bibr\" doi=\"10.1038/s41586-024-07767-5\" pmid=\"39112700\" pmcid=\"PMC11633843\" count=\"1\"><sup>7</sup></citation><sup>,</sup><citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2017.11.007\" pmid=\"29249692\" pmcid=\"PMC5760435\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.1038/s41586-022-05374-w\" pmid=\"36323780\" pmcid=\"PMC9646485\" count=\"1\"><sup>9</sup></citation><sup>,</sup><citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1016/j.canlet.2024.216986\" pmid=\"38797233\" count=\"1\"><sup>10</sup></citation> and the density of these nerve fibers has been associated with cancer-related pain and poor clinical outcomes.<citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1096/fba.2021-00147\" pmid=\"35664834\" pmcid=\"PMC9164247\" count=\"1\"><sup>11</sup></citation><sup>,</sup><citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1096/fba.2021-00046\" pmid=\"34632313\" pmcid=\"PMC8493966\" count=\"1\"><sup>12</sup></citation> Neurons interact with cancer cells and other stromal cells, including immune cells in the TME primarily through neurotrophic factors, neuropeptides, and neurotransmitters that remodel the TME,<citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1096/fba.2021-00147\" pmid=\"35664834\" pmcid=\"PMC9164247\" count=\"1\"><sup>11</sup></citation><sup>,</sup><citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1096/fba.2021-00046\" pmid=\"34632313\" pmcid=\"PMC8493966\" count=\"1\"><sup>12</sup></citation> thereby making it a promising therapeutic target for cancer treatment.<citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1038/s41573-024-01017-z\" pmid=\"39242781\" pmcid=\"PMC12123372\" count=\"1\"><sup>13</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Within the autonomic nervous system, sympathetic nerves contribute to tumor progression by releasing noradrenaline, which activates \u03b2-adrenergic receptors on cancer and stromal cells, thereby enhancing proliferation, angiogenesis, and immunosuppression.<citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.1038/s41586-022-05374-w\" pmid=\"36323780\" pmcid=\"PMC9646485\" count=\"1\"><sup>9</sup></citation><sup>,</sup><citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.can-10-0522\" pmid=\"20823155\" pmcid=\"PMC2940980\" count=\"1\"><sup>14</sup></citation><sup>,</sup><citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1126/science.aah5072\" pmid=\"29051371\" pmcid=\"PMC5783182\" count=\"1\"><sup>15</sup></citation> <sentence_start/>This adrenergic signaling also impairs CD8<sup>+</sup> T cell function and promotes infiltration of tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs).<citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1007/s00262-018-2243-8\" pmid=\"30229289\" pmcid=\"PMC6326964\" count=\"1\"><sup>16</sup></citation><sup>,</sup><citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.1172/jci129502\" pmid=\"31566578\" pmcid=\"PMC6877316\" count=\"1\"><sup>17</sup></citation> <sentence_start/>As a result, \u03b2-blockers are now being explored in clinical trials to inhibit adrenergic signaling in combination with conventional cancer therapies.<citation rid=\"bib18\" ref-type=\"bibr\" doi=\"10.1080/2162402X.2023.2284486\" pmcid=\"PMC10732641\" pmid=\"38126031\" count=\"1\"><sup>18</sup></citation> <sentence_start/>Cholinergic signals from parasympathetic fibers promote tumor growth and metastasis via muscarinic receptor activation on cancer cells in prostate and gastric cancers, which upregulate nerve growth factor (NGF) and enhance parasympathetic nerve survival and function.<citation rid=\"bib7\" ref-type=\"bibr\" doi=\"10.1038/s41586-024-07767-5\" pmid=\"39112700\" pmcid=\"PMC11633843\" count=\"1\"><sup>7</sup></citation><sup>,</sup><citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2016.11.005\" pmid=\"27989802\" pmcid=\"PMC5225031\" count=\"1\"><sup>19</sup></citation> <sentence_start/>In contrast, cholinergic signaling suppresses progression and stemness in pancreatic cancer.<citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.cd-18-0046\" pmid=\"30185628\" pmcid=\"PMC6214763\" count=\"1\"><sup>20</sup></citation> <sentence_start/>However, the role of cholinergic signaling in regulating immunosuppression in colon cancer is not known."
+  },
+  {
+   "section": "article",
+   "text": "In addition to the sympathetic and parasympathetic nerves, highly complex and specialized enteric neurons present in the colon are organized as Meissner\u2019s plexus and Auerbach\u2019s plexus.<citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.3390/ijms21093391\" pmcid=\"PMC7247003\" pmid=\"32403316\" count=\"1\"><sup>21</sup></citation> <sentence_start/>Acetylcholine (ACh), one of the primary neurotransmitters released by these enteric neurons, maintains homeostasis in the colon.<citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1155/2020/8024171\" pmcid=\"PMC7495222\" pmid=\"32963521\" count=\"1\"><sup>22</sup></citation> <sentence_start/>ACh maintains colonic homeostasis through interacting with specific muscarinic ACh and nicotinic ACh receptors (mAChR and nAChRs) that are known to be differentially expressed on different cell types.<citation rid=\"bib23\" ref-type=\"bibr\" doi=\"10.1016/j.suronc.2019.09.003\" pmid=\"31536927\" count=\"1\"><sup>23</sup></citation><sup>,</sup><citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.3390/cancers14092322\" pmid=\"35565451\" pmcid=\"PMC9100020\" count=\"1\"><sup>24</sup></citation> While cholinergic fibers releasing ACh are normally present in the muscularis propria as part of the enteric nervous system, their role in colon cancer progression and in the immunosuppressive TME is not known. <sentence_start/>Therefore, we hypothesize that ACh release from cholinergic neurons might play a critical role in tumor progression and its TME."
+  },
+  {
+   "section": "article",
+   "text": "The effects of neurons can be targeted by either preventing neurotransmitter release or by blocking the signaling events initiated by the neurotransmitters.<citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1038/s41573-024-01017-z\" pmid=\"39242781\" pmcid=\"PMC12123372\" count=\"1\"><sup>13</sup></citation> <sentence_start/>Local anesthetics, such as bupivacaine (BUP) and lidocaine, can impede the propagation of action potentials, thereby inhibiting the neurotransmitter release.<citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.2147/lra.s154512\" pmid=\"30122981\" pmcid=\"PMC6087022\" count=\"1\"><sup>25</sup></citation> <sentence_start/>Earlier studies showed that BUP inhibits the progression of breast and lung cancers,<citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.1126/sciadv.abj5435\" pmcid=\"PMC8494443\" pmid=\"34613777\" count=\"1\"><sup>26</sup></citation><sup>,</sup><citation rid=\"bib27\" ref-type=\"bibr\" doi=\"10.3389/fonc.2021.616445\" pmcid=\"PMC7991299\" pmid=\"33777755\" count=\"1\"><sup>27</sup></citation> while pre-operative peritumoral infiltration of lidocaine enhances disease-free and overall survival in patients with breast cancer.<citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.1200/jco.22.01966\" pmid=\"37023374\" count=\"1\"><sup>28</sup></citation> <sentence_start/>Although earlier studies showed the impact of ACh receptor (mAChR and nAChR) antagonists as therapeutic interventions against many cancers,<citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.3390/biomedicines7030058\" pmid=\"31405140\" pmcid=\"PMC6783861\" count=\"1\"><sup>29</sup></citation><sup>,</sup><citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1016/j.bbadis.2023.166875\" pmid=\"37673358\" count=\"1\"><sup>30</sup></citation> the consequences of targeting ACh-releasing nerve fibers or blocking ACh signaling in cancer and immune cells have not been studied. <sentence_start/>Therefore, we hypothesize that targeting ACh signaling or ACh release may suppress tumor growth by obstructing interactions between cholinergic neurons, cancer cells, and immune cells, ultimately modulating the TME. <sentence_start/>In this study, we showed the presence of cholinergic neurons in human colon cancer tissues and their tripartite cross-talk with TAMs and CD8<sup>+</sup> T cells. <sentence_start/>We further demonstrated that targeting this ACh-mediated tripartite cross-talk of cholinergic neurons with cancer cells and immune cells inhibits tumor progression, mitigates immunosuppression, and activates T cell immunity."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Cholinergic nerve fibers are associated with reduced CD8 T cells and increased macrophage infiltration in patients with colon cancer"
+  },
+  {
+   "section": "article",
+   "text": "We used a cohort of 68 patients with colon cancer with distribution with respect to gender (male 40, female 28), location of tumor (47 right sided and 21 left sided) and stages (2 with stage I, 44 with stage II, 16 with stage III, and 6 with stage IV) (Figure 1A, Data S1). <sentence_start/>We stained the colon cancer tissue sections from these patients with neurofilament-L (NEFL), a general neuronal marker, and choline acetyltransferase (ChAT), a specific marker for cholinergic neurons (Figure 1B). <sentence_start/>The number of NEFL/ChAT-positive neurons was quantified in high-power fields (HPF) in tumor-dense and adjoining areas. <sentence_start/>We observed a high density of cholinergic nerve fibers, bundles, or ganglion cells within the tumor stroma and the tumor periphery in 32 of the 68 patients (\u223c47% of total patients) (Figures 1C-1E, Data S1). <sentence_start/>We further performed Kaplan-Meier survival analysis using the KM-Plotter database and found that concurrent high expression of both NEFL and ChAT is associated with worse overall survival (<italic>p</italic> = 0.0013) but not with recurrence-free survival (<italic>p</italic> = 0.062) (Figures S1A and S1B). <sentence_start/>We next analyzed a publicly available dataset ( ) from patients with primary colorectal cancer and observed that high expression of NEFL and ChAT was associated with poor recurrence-free survival (<italic>p</italic> = 0.019) in early-stage colon cancer (Figure S1C and Data S2). <sentence_start/>Multivariate Cox regression analysis showed a hazard ratio (HR) of 1.64 (95% confidence interval, <italic>p</italic> = 0.02), suggesting that NEFL and ChAT expression may be independent prognostic factors in early stages (Figure S1D and Data S2). <sentence_start/>However, we did not observe a similar level of significance across all stages of colorectal cancer (HR = 1.37, <italic>p</italic> = 0.07), suggesting that NEFL and ChAT expression may be linked to disease progression and may have prognostic utility in early stages of colon cancer.<sentence_start/>Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Presence of cholinergic nerve fibers is associated with reduced CD8 T cell and increased macrophage infiltration in patients with colon cancer"
+  },
+  {
+   "section": "article",
+   "text": "(A) Pie charts showing the distribution of patients with colon cancer (<italic>n</italic> = 68) based on gender (male versus female), location of the tumor (right sided versus left sided) and stage which were studied for the correlation of the cholinergic neurons with macrophage and T cell infiltration."
+  },
+  {
+   "section": "article",
+   "text": "(B) Schematic showing the study design for immunohistochemistry (IHC) to investigate the correlation of the presence of cholinergic neurons with macrophage and T cell infiltration."
+  },
+  {
+   "section": "article",
+   "text": "(C and D) Representative IHC images of a tissue sections from patients with colon cancer with high (C) and low NEFL/ChAT expression (D) at different magnifications."
+  },
+  {
+   "section": "article",
+   "text": "(E) Pie chart showing the distribution of patients with high and low NEFL/ChAT expressing cholinergic neurons among patients with colon cancer."
+  },
+  {
+   "section": "article",
+   "text": "(F and G) Representative IHC images of CD68<sup>+</sup> cells in tissue sections with high (F) and low (G) NEFL/ChAT expression in two patients with colon cancer."
+  },
+  {
+   "section": "article",
+   "text": "(H) Quantitation of CD68<sup>+</sup> cells in the tissue sections indicates high CD68<sup>+</sup> macrophages in sections with high NEFL/ChAT."
+  },
+  {
+   "section": "article",
+   "text": "(I and J) Representative IHC images of CD8<sup>+</sup> cells in tissue sections with high (I) and low (J) NEFL/ChAT expression in two patients with colon cancer."
+  },
+  {
+   "section": "article",
+   "text": "(K) Percentage of CD8<sup>+</sup> cells in the tissue sections for patients with stage II, indicating low CD8<sup>+</sup> T cells in sections with high NEFL/ChAT."
+  },
+  {
+   "section": "article",
+   "text": "(L and M) Immunofluorescence images stained for NEFL, CD68, and CD8 in high (L) and low (M) NEFL/ChAT sections. <sentence_start/>(Scale bars, 100 \u03bcm)."
+  },
+  {
+   "section": "article",
+   "text": "(N) Quantification of ACh in colon tumor tissues indicates the high levels of ACh compared to adjacent normal tissues (<italic>n</italic> = 10). <sentence_start/>See also Figure S1, Data S1, S2, and S3."
+  },
+  {
+   "section": "article",
+   "text": "Student\u2019s <italic>t</italic> test for (H), Fisher\u2019s exact test for (K) and paired Student\u2019s <italic>t</italic> test for (N). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "We next stratified the tumors into two groups based on median NEFL/ChAT expression: high (<italic>n</italic> = 32) and low (<italic>n</italic> = 36). <sentence_start/>We also quantified the average number of CD68<sup>+</sup> macrophages across multiple HPFs (Figure 1B, Data S2). <sentence_start/>Tumors with high expression of NEFL/ChAT showed increased density of intratumoral CD68<sup>+</sup> macrophages (Figures 1F-1H; Figures S1E and S1F). <sentence_start/>We then assessed infiltration of CD8<sup>+</sup> T cells by counting the average number of CD8<sup>+</sup> T cells across multiple HPFs and categorizing them as high or low based on a median cut-off in stage II samples (dataset 3). <sentence_start/>We observed low infiltration of CD8<sup>+</sup> T cells in intratumoural regions in \u223c57% of patients with high NEFL/ChAT expression, whereas there is an increased infiltration of CD8<sup>+</sup> T cells in \u223c61% of patients with low NEFL/ChAT expression (<italic>p</italic> = 0.0159) (Figures 1I-1K; Figures S1G and S1H). <sentence_start/>To validate these findings, we performed multiplex immunofluorescence analysis on patient samples stratified by high and low NEFL/ChAT expression. <sentence_start/>In samples with high NEFL/ChAT expression, we observed a higher frequency of CD68<sup>+</sup> cells and a lower frequency of CD8<sup>+</sup> T cells in regions surrounding nerve structures (Figure 1L). <sentence_start/>In contrast, samples with low NEFL/ChAT expression showed reduced abundance of CD68<sup>+</sup> cells and a higher frequency of CD8<sup>+</sup> T cells localized around nerve areas (Figure 1M). <sentence_start/>As ACh is the primary neurotransmitter released by cholinergic nerves, we quantified the ACh in colon cancer tissues using liquid chromatography-tandem mass spectrometry (LC-MS/MS). <sentence_start/>Notably, we observed a \u223c2-fold higher level of ACh (<italic>p</italic> = 0.0032) in colon tumors compared with matched adjacent normal tissues (Figure 1N), suggesting a potential role for ACh in tumor progression. <sentence_start/>Therefore, the presence of cholinergic nerve fibers in colon cancer tissues is associated with increased macrophage recruitment and reduced infiltration of CD8<sup>+</sup> cells, suggesting a potential immunosuppressive role for cholinergic signaling in the TME."
+  },
+  {
+   "section": "article",
+   "text": "ACh augments cancer cell proliferation"
+  },
+  {
+   "section": "article",
+   "text": "As our investigations on clinical samples revealed a higher incidence of cholinergic neurons and higher levels of ACh in colon tumor tissues compared to adjacent normal tissues, we hypothesized that ACh released by cholinergic nerve fibers may enhance cancer cell proliferation. <sentence_start/>Therefore, we determined the effect of ACh (50 \u03bcM) on cancer cell proliferation in a time-dependent manner. <sentence_start/>ACh supplementation led to a \u223c1.3-fold increase in the proliferation of CT26 (murine colon cancer cell line) cells at 72 h in comparison to CT26 cells grown in a normal medium (NM) (Figure 2A). <sentence_start/>Similarly, there is a \u223c1.1-fold increase in proliferation of 4T1 (murine breast cancer cell line) cells upon ACh supplementation at 72 h (Figure S2A). <sentence_start/>Similar to ACh, feeding of carbachol (an agonist of cholinergic receptors) (50 \u03bcM) also led to a \u223c1.5-fold increase in the proliferation of CT26 cells and a \u223c1.3-fold increase in the proliferation of 4T1 cells. <sentence_start/>(Figure 2B; Figure S2B). <sentence_start/>ACh feeding (50 \u03bcM) also led to a \u223c1.2-fold increase in the size of CT26 spheroids and a \u223c1.3-fold increase in the size of 4T1 spheroids compared to untreated spheroids (Figure 2C; Figure S2C). <sentence_start/>Similarly, feeding of carbachol (50 \u03bcM) showed a \u223c1.2-fold increase in size of CT26 and 4T1 spheroids compared to untreated spheroids (Figure 2D; Figure S2D). <sentence_start/>Therefore, these results suggest that ACh and carbachol boost cancer cell proliferation, probably via activation of cholinergic receptors.<sentence_start/>Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Localized delivery of bupivacaine, inhibiting ACh release, impedes tumor growth"
+  },
+  {
+   "section": "article",
+   "text": "(A and B) Time-dependent change in the cell proliferation (mean \u00b1 SEM, <italic>n</italic> = 4) of CT26 cells on treatment with ACh (A) and carbachol (B)."
+  },
+  {
+   "section": "article",
+   "text": "(C and D) Percentage increase in spheroid size (mean \u00b1 SEM, <italic>n</italic> = 3) and representative images of CT26 spheroids on treatment with ACh (C) and carbachol (D) (scale bars, 50 \u03bcm)."
+  },
+  {
+   "section": "article",
+   "text": "(E) Quantification of intracellular and extracellular released ACh (mean \u00b1 SEM, <italic>n</italic> = 5-6) from untreated and BUP-treated N2A cells."
+  },
+  {
+   "section": "article",
+   "text": "(F) A schematic showing the study plan for deciphering the impact of conditioned media from untreated and BUP-treated N2A cells on cancer cell proliferation."
+  },
+  {
+   "section": "article",
+   "text": "(G and H) Change in cell proliferation (mean \u00b1 SEM, <italic>n</italic> = 3) of CT26 cells on treatment with conditioned media of untreated N2A cells (CM (UT)), conditioned media of BUP-treated N2A cells (CM (BUP)), ACh-fed conditioned media (G) and carbachol-fed (H) conditioned media of BUP-treated N2A cells."
+  },
+  {
+   "section": "article",
+   "text": "(I) Change in spheroid size (mean \u00b1 SEM, <italic>n</italic> = 3) and representative images of CT26 spheroids and N2A-CT26 co-spheroids on different treatments (scale bars, 50 \u03bcm)."
+  },
+  {
+   "section": "article",
+   "text": "(J) Molecular structure of A13 gelator."
+  },
+  {
+   "section": "article",
+   "text": "(K) Amplitude and frequency sweep characterization of BUP-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(L) AFM micrograph of BUP-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(M) Release kinetics (mean \u00b1 SEM, <italic>n</italic> = 3) of BUP from BUP-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(N and O) Tumor growth kinetics (mean \u00b1 SEM, <italic>n</italic> = 7-8) (N) and ACh quantification (O) (mean \u00b1 SEM, <italic>n</italic> = 4) in CT26 tumors on treatment with BUP-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(P and Q) Tumor growth kinetics (mean \u00b1 SEM, <italic>n</italic> = 7-8) (P) and ACh quantification (Q) (mean \u00b1 SEM, <italic>n</italic> = 3) in 4T1 tumors on treatment with BUP-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(R and S) Tumor growth kinetics (mean \u00b1 SEM, <italic>n</italic> = 7) and final day tumor volume of CT26 (R) and 4T1 (S) tumors on treatment with BUP-Gel and ACh-loaded BUP-ACh-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(T and U) Tumor growth kinetics (mean \u00b1 SEM, <italic>n</italic> = 5-6) of CT26 (T) and 4T1 (U) tumors on treatment with BUP-Gel and carbachol-loaded BUP-CARB-Gel. <sentence_start/>See also Figure S2."
+  },
+  {
+   "section": "article",
+   "text": "Two-tailed Student\u2019s <italic>t</italic> test for (A)-(E) and (N)-(Q). <sentence_start/>One-way ANOVA with Dunnett\u2019s post-hoc test for (I) and (R)-(U) and two-way ANOVA with Tukey\u2019s post-hoc test for (G), (H), (N), (P), and (R)-(U). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "BUP inhibits ACh-mediated cell proliferation"
+  },
+  {
+   "section": "article",
+   "text": "To validate the ACh-mediated crosstalk between cholinergic neurons and cancer cells, we employed BUP, an FDA-approved non-opioid, long-acting local anesthetic that blocks sodium and potassium channels on neurons and inhibits action potentials.<citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.2147/lra.s154512\" pmid=\"30122981\" pmcid=\"PMC6087022\" count=\"1\"><sup>25</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.1126/sciadv.abj5435\" pmcid=\"PMC8494443\" pmid=\"34613777\" count=\"1\"><sup>26</sup></citation> <sentence_start/>We hypothesized that BUP-mediated inhibition of ACh release would disrupt ACh-driven interactions between cholinergic neurons and cancer cells, ultimately reducing cancer cell proliferation. <sentence_start/>To assess the effect of BUP, we first evaluated its cytotoxicity on Neuro2A (N2A) cells, a murine cholinergic neuroblast cell line. <sentence_start/>BUP treatment up to 100 \u03bcM did not affect the viability of N2A cells (Figure S2E). <sentence_start/>While BUP treatment did not change the intracellular ACh levels in N2A cells, there is a \u223c1.3-fold decrease in extracellular ACh levels (Figure 2E). <sentence_start/>Culture of CT26 cells in the presence of BUP (100 \u03bcM)-treated N2A conditioned media (CM (BUP)) showed a \u223c1.2-fold decrease in proliferation compared to CT26 cells treated with CM from untreated N2A cells (CM (UT)) (Figures 2F and 2G). <sentence_start/>Further, supplementation of ACh (50 \u03bcM) in CM (BUP) led to a \u223c1.2-fold increase in cell proliferation (Figures 2F and 2G). <sentence_start/>Similarly, treatment of 4T1 cells with CM (BUP) resulted in a \u223c1.3-fold decrease in proliferation, and ACh supplementation led to a \u223c1.3-fold increase in proliferation (Figure S2F). <sentence_start/>Supplementation of carbachol (50 \u03bcM) also resulted in a \u223c1.3- and a \u223c1.4-fold increase in proliferation of CT26 and 4T1 cells in comparison to cancer cells that were treated with CM (BUP) (Figure 2H; Figure S2G). <sentence_start/>BUP treatment did not affect the cell viability of CT26 or 4T1 cells till 200 \u03bcM (Figures S2H and S2I). <sentence_start/>Supplementation of ACh did not alter the proliferation of BUP-treated N2A cells, suggesting that BUP downregulates ACh levels without affecting the viability or proliferation of N2A cells (Figure S2J). <sentence_start/>Moreover, BUP treatment did not affect the proliferation of N2A, CT26, and 4T1 cells (Figures S2J-S2L). <sentence_start/>In contrast, ACh supplementation increased proliferation by \u223c1.2-fold in BUP-treated CT26 and 4T1 cells (Figures S2K and S2L), suggesting that BUP in the CM of N2A-treated cells is not responsible for inhibiting cancer cell proliferation. <sentence_start/>We also quantified ACh levels in CT26 and 4T1 cells treated with BUP and observed \u223c4-fold and \u223c2-fold decreases in intracellular ACh levels, which may be due to BUP\u2019s non-specific actions (Figures S2M and S2N). <sentence_start/>However, there was no significant change in the released ACh from BUP-treated CT26 and 4T1 cells (Figures S2M and S2N), suggesting that BUP treatment selectively attenuates ACh release in neuronal cells without affecting the extracellular ACh levels in cancer cells."
+  },
+  {
+   "section": "article",
+   "text": "We next created co-spheroids of CT26 and 4T1 cells with N2A cells at a 9:1 ratio and observed an increase in spheroid size compared to CT26 and 4T1 spheroids alone (Figure 2I; Figure S2O). <sentence_start/>BUP treatment did not affect the spheroid size of CT26 spheroids, whereas BUP-treated co-spheroids (CT26-N2A) showed a \u223c1.2-fold decrease compared to untreated co-spheroids (Figure 2I). <sentence_start/>There was a \u223c1.2-fold increase in spheroid size upon ACh feeding to BUP-treated co-spheroids compared to only BUP-treated co-spheroids (Figure 2I). <sentence_start/>Similarly, BUP-treated 4T1/N2A co-spheroids showed a \u223c1.3-fold decrease in spheroid size compared to untreated 4T1 co-spheroids, and ACh feeding mitigated this effect (Figure S2O). <sentence_start/>Therefore, these results demonstrate that BUP inhibits ACh-mediated crosstalk between cholinergic neurons and cancer cells, thereby inhibiting cancer cell proliferation."
+  },
+  {
+   "section": "article",
+   "text": "Localized delivery of BUP inhibits tumor progression"
+  },
+  {
+   "section": "article",
+   "text": "As local anesthetics need to be delivered at their action site, and any systemic exposure can cause toxicity,<citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.1002/ams2.265\" pmid=\"29123854\" pmcid=\"PMC5667269\" count=\"1\"><sup>31</sup></citation> we hypothesize that hydrogel-mediated localized delivery of BUP would be an effective strategy to inhibit the release of ACh from peripheral cholinergic neurons. <sentence_start/>In addition, the hydrogel-mediated sustained release of BUP will provide reduced toxicity compared to carrier-free delivery. <sentence_start/>In our earlier studies, we reported the engineering of a non-immunogenic, lithocholic acid-derived, low-molecular-weight hydrogelator (A13) (Figure 2J).<citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1021/acscentsci.9b00551\" pmid=\"31660434\" pmcid=\"PMC6813554\" count=\"1\"><sup>32</sup></citation> <sentence_start/>We demonstrated that A13 hydrogel can entrap a range of chemotherapeutic drugs without altering the physical properties of the gel and allow the sustained and sequential release of a combination of chemotherapeutic drugs.<citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1021/acscentsci.9b00551\" pmid=\"31660434\" pmcid=\"PMC6813554\" count=\"1\"><sup>32</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1126/sciadv.adf2746\" pmcid=\"PMC10313169\" pmid=\"37390205\" count=\"1\"><sup>33</sup></citation> A13 hydrogel scaffold exhibited good biocompatibility, <italic>in vivo</italic> persistence with minimal immune infiltration, and gradual clearance over 21-50 days in rodents.<citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1021/acscentsci.9b00551\" pmid=\"31660434\" pmcid=\"PMC6813554\" count=\"1\"><sup>32</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1126/sciadv.adf2746\" pmcid=\"PMC10313169\" pmid=\"37390205\" count=\"1\"><sup>33</sup></citation> <sentence_start/>We hypothesized that entrapment of BUP in the A13 hydrogel would allow us to implant the BUP-loaded gel (BUP-Gel) near the tumor site and inhibit tumor progression by mitigating ACh release. <sentence_start/>Therefore, we loaded BUP into an A13 gel by mixing \u223c4 mg of BUP with \u223c70 mg of the A13 gelator in 1 mL of water. <sentence_start/>Heating the mixture yielded a clear solution, and subsequent cooling led to the formation of BUP-Gel. <sentence_start/>Comparative rheological investigation showed a slight increase in the mechanical rigidity of the BUP-Gel relative to the native A13 gel, as evident by the elastic moduli and yield stresses, presumably due to drug-gelator interactions. <sentence_start/>(Figure 2K; Figure S2P). <sentence_start/>Atomic force micrographs indicated that surface roughness decreased upon the incorporation of BUP compared to only A13 neat gel (Figure 2L; Figure S2Q). <sentence_start/>Drug release kinetics from BUP-Gel suggested a sustained release of BUP from A13 gel over time (Figure 2M). <sentence_start/>We next evaluated self-healing behavior and structural stability upon exposure to deformation and observed that both A13-Gel and BUP-Gel exhibited good recovery (Figure S2R). <sentence_start/>Thermal stability analysis revealed a slight reduction in the storage modulus without any change in the loss modulus in both A13-Gel and BUP-Gel (Figure S2S), indicating maintenance of gel integrity and suggesting the good thermal stability of the hydrogels."
+  },
+  {
+   "section": "article",
+   "text": "As the neuro-immuno-cutaneous system releasing ACh is the key component of skin,<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1111/cpr.12677\" pmcid=\"PMC6869210\" pmid=\"31441145\" count=\"1\"><sup>34</sup></citation> we tested the impact of BUP-Gel on tumor growth kinetics against subcutaneous syngeneic murine colon (CT26), breast (4T1), and melanoma (B16) cancer models, where tumor-bearing mice were either left untreated or treated with a single dose of BUP-Gel (40 mg/kg of BUP). <sentence_start/>Tumor growth kinetics revealed a significantly slower rate of progression on BUP-Gel treatment in CT26 tumors compared to untreated tumors with a \u223c2-fold decrease in ACh levels (Figures 2N and 2O). <sentence_start/>Similarly, BUP-Gel-treated 4T1 tumors showed reduced tumor growth kinetics, with a 3.5-fold decrease in ACh levels (Figures 2P and 2Q), suggesting that BUP-Gel inhibits tumor growth, likely by reducing ACh release. <sentence_start/>We validated a similar finding in the B16 tumor model (Figures S2T and S2U). <sentence_start/>To validate that inhibition of ACh is responsible for slow tumor growth kinetics, we prepared an ACh-loaded BUP-Gel (BUP-ACh-Gel) that can release the ACh along with BUP and compared the tumor growth kinetics of BUP-Gel with BUP-ACh-Gel against CT26, 4T1, and B16 tumor models. <sentence_start/>Although BUP-Gel showed a \u223c2-fold reduction in tumor growth at day 16, there was a \u223c1.7-fold increase in tumor volume upon BUP-ACh-Gel treatment compared to BUP-Gel-treated CT26 tumors (Figure 2R). <sentence_start/>BUP-ACh-Gel also showed a higher tumor growth rate than BUP-Gel in the 4T1 (Figure 2S) and B16 models (Figure S2V). <sentence_start/>Similarly, BUP-Gel loaded with carbachol (BUP-CARB-Gel) enhanced the tumor growth kinetics in CT26 and 4T1 models compared with BUP-Gel (Figures 2T and 2U). <sentence_start/>Therefore, these results suggest that localized delivery of BUP inhibits ACh, thereby mediating tumor growth inhibition."
+  },
+  {
+   "section": "article",
+   "text": "BUP-Gel therapy alters the immune landscape in tumor tissues"
+  },
+  {
+   "section": "article",
+   "text": "As we observed a correlation of cholinergic neurons with macrophage and T cell infiltration in patients with colon cancer, we investigated the impact of BUP-Gel therapy, which inhibits ACh release, on the tumor immune microenvironment. <sentence_start/>We performed single-cell RNA sequencing (scRNA-seq) on untreated (UT) and BUP-Gel-treated CT26 tumors using the 10X genomics platform (Figure S3A).<citation rid=\"bib35\" ref-type=\"bibr\" doi=\"10.1111/imm.13783\" pmid=\"38501302\" pmcid=\"PMC7616077\" count=\"1\"><sup>35</sup></citation> <sentence_start/>Unsupervised clustering of 13,939 QCed cells, obtained from UT and BUP-Gel-treated tumor samples, identified 16 distinct clusters (Figure 3A; Figure S3B). <sentence_start/>We classified the clusters as immune cell clusters (0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 14, and 16) and non-immune cell clusters (1, 3, 12, 13, and 15) based on the <italic>Ptprc</italic> expression (Figure 3B). <sentence_start/>The non-immune cells mainly consisted of fibroblasts, cancer cells, and erythrocytes, with clusters 1 and 15 showing higher expression of fibroblast-associated transcripts (Figure 3C) and cluster 12 showing erythrocyte-specific transcripts (Figure 3C). <sentence_start/>Cluster 3 showed high levels of transcripts associated with the cell cycle, such as <italic>Mki67</italic>, <italic>Top2a</italic>, <italic>Pcna</italic>, and <italic>Birc5</italic>, which were classified as proliferating tumor cells (Figure 3C). <sentence_start/>Notably, we observed a reduced proportion of proliferating tumor cells (cluster 3) in BUP-treated tumors compared to UT tumors, supporting that BUP inhibits tumor growth (Figure 3D).Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "BUP-Gel therapy alters the immune landscape in tumor tissues"
+  },
+  {
+   "section": "article",
+   "text": "(A) UMAP from 13,939 cells shows sixteen distinct clusters of cells."
+  },
+  {
+   "section": "article",
+   "text": "(B) UMAP plot showing expression of <italic>Ptprc</italic>. <sentence_start/>The scale indicates the expression of the specified transcript. <sentence_start/>Cells with zero counts are displayed in gray."
+  },
+  {
+   "section": "article",
+   "text": "(C) Dot plot showing the average expression (color) and the proportion of cells expressing each selected gene transcript (dot size) across non-immune cell clusters."
+  },
+  {
+   "section": "article",
+   "text": "(D) Proportion of tumor cells within CD45<sup>\u2212</sup> cells in UT and BUP-treated groups."
+  },
+  {
+   "section": "article",
+   "text": "(E) The UMAP plot displays sixteen distinct clusters consisting of all immune cells after re-clustering."
+  },
+  {
+   "section": "article",
+   "text": "(F) Dot plot representing the average expression (color) and the proportion of cells expressing each selected gene transcript (dot size) across immune cell clusters."
+  },
+  {
+   "section": "article",
+   "text": "(G) Dot plot representing the average expression (color) and the proportion of cells expressing each selected gene transcript (dot size) across myeloid and dendritic cell clusters."
+  },
+  {
+   "section": "article",
+   "text": "(H) Violin plots showing the expression of transcripts <italic>Tnf</italic> (H), <italic>Cd86</italic> (I), <italic>Arg1</italic> (J), and <italic>Mrc1</italic> (K) within different myeloid cell clusters from UT and BUP-treated groups. <sentence_start/>The color scale shows the mean expression of the indicated transcript."
+  },
+  {
+   "section": "article",
+   "text": "(I) Proportion of different myeloid cell clusters in UT and BUP-treated groups."
+  },
+  {
+   "section": "article",
+   "text": "(J) Dot plot representing the average expression (color) and the proportion of cells expressing each selected gene transcript (dot size) across T and NK cell clusters."
+  },
+  {
+   "section": "article",
+   "text": "(K) Proportion of cells in different T and NK cell clusters in UT and BUP-treated groups."
+  },
+  {
+   "section": "article",
+   "text": "(L and M) Violin plots showing the expression of <italic>Gzmk</italic> (L) and <italic>Ctla4</italic> (M) transcripts within different T cell clusters from UT and BUP-treated groups. <sentence_start/>The color scale shows the mean expression of the indicated transcript. <sentence_start/>See also Figure S3."
+  },
+  {
+   "section": "article",
+   "text": "Two-tailed Student\u2019s <italic>t</italic> test for (H), (L), and (M). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "We re-clustered the <italic>Ptprc</italic><italic><sup>+</sup></italic> immune cell clusters to identify the finer details of various sub-populations of immune cells (Figure 3E; Figure S3C). <sentence_start/>These sixteen clusters could be grouped into major immune populations, such as myeloid cells expressing <italic>Cd14 and Itgam</italic> (clusters 0, 1, 2, 5, 6, 7, 8, 10, and 11), dendritic cells expressing <italic>Itgax</italic> (clusters 6, 14, 15), T cells expressing <italic>Cd3</italic> (clusters 3, 7, 9, and 12), NK cells expressing <italic>Ncr1</italic> (cluster 4), and mast cells expressing <italic>Mrgprb2</italic>, <italic>Fcer1a</italic>, and <italic>Cma1</italic> (cluster 16) (Figure 3F). <sentence_start/>All myeloid cell clusters were segregated into specific cell types, including monocytes characterized by <italic>Ly6c1</italic> and <italic>Ly6c2</italic> expression (cluster 5), and intermediate macrophages that express <italic>Cd68</italic> and <italic>Ly6c1/Ly6c2</italic> (clusters 0 and 11). <sentence_start/>MDSCs were defined by high expression of <italic>S100a8</italic> and <italic>S100a9</italic> (clusters 2 and 8) (Figure 3G). <sentence_start/>In addition, dendritic cell subsets were classified into classical dendritic cells (cDCs) expressing <italic>Itgax</italic> (cluster 14), monocyte-derived dendritic cells (moDCs) expressing <italic>Cd14</italic> and <italic>Itgax</italic> (cluster 6), and plasmacytoid dendritic cells (pDCs) expressing <italic>Siglech</italic> and <italic>Klra17</italic> expression (cluster 15) (Figure 3G)."
+  },
+  {
+   "section": "article",
+   "text": "To delineate the macrophage heterogeneity, we analyzed the expression of genes associated with M1-like macrophages (<italic>Cd86</italic> and <italic>Tnf)</italic> and M2-like macrophages (<italic>Mrc1</italic> and <italic>Arg1</italic>). <sentence_start/>Cluster 1 showed a distinct M2-like profile with high <italic>Mrc1</italic> and <italic>Arg1</italic>, and cluster 10 displayed high proliferative capacity (<italic>Mki67</italic>) in addition to M2-like features (Figure 3G). <sentence_start/>In contrast, cluster 11 expressed M1-like markers (<italic>Cd86</italic> and <italic>Nos2</italic>); cluster 0 showed a mixed M1/M2 profile (<italic>Nos2</italic>, <italic>Arg1</italic>, and <italic>Mrc1</italic>); and cluster 8 (monocytic MDSCs) expressed <italic>Mrc1</italic>, <italic>Arg1</italic>, and <italic>Cd86</italic>, indicating a hybrid state (Figure 3G). <sentence_start/>Comparison of the expression of M1-like (<italic>Tnf</italic> and <italic>Cd86</italic>) and M2-like (<italic>Arg1</italic> and <italic>Mrc1</italic>) markers across macrophages, MDSCs and monocytic clusters in UT and BUP-treated tumors revealed elevated <italic>Tnf</italic> expression in cluster 11 in BUP-treated tumors, consistent with their M1-like phenotype (Figure 3H). <sentence_start/>Elevated <italic>Tnf</italic> was also observed in clusters 0, 5, and 8 upon BUP treatment (Figure 3H). <sentence_start/><italic>Cd86</italic> expression was found to be increased in M1/M2 hybrid macrophages (cluster 0) and was also high in other populations, including M2-like macrophages (clusters 1 and 10) (Figure 3H). <sentence_start/>In contrast, the expression of M2 marker, <italic>Arg1</italic>, decreased in M2-like macrophages (cluster 1) as well as in MDSCs (cluster 2) upon BUP treatment (Figure 3H). <sentence_start/>Similarly, <italic>Mrc1</italic> expression was reduced in M2-like macrophages (clusters 1), M1-like macrophages (cluster 11), M1/M2 hybrids (cluster 0), and monocytic MDSCs (cluster 8) (Figure 3H). <sentence_start/>We further compared the proportion of cells within myeloid cell clusters in UT and BUP-Gel-treated tumors and observed a reduced proportion of M2-like macrophages (clusters 1 and 10) in BUP-Gel-treated tumors (Figure 3I)."
+  },
+  {
+   "section": "article",
+   "text": "Among T cell populations, <italic>Cd8</italic>-expressing cells (clusters 3, 7, and 9) are identified as cytotoxic T cells, while cluster 12 expressing <italic>Cd4</italic> is classified as a helper T cell cluster (Figure 3J). <sentence_start/>Among CD8<sup>+</sup> subsets, cluster 3 showed elevated expression of cytotoxic markers (<italic>Gzmb</italic>, <italic>Gzmk</italic>, <italic>Prf1</italic>, and <italic>Ifng</italic>) and immune checkpoints (<italic>Pdcd1</italic>, <italic>Havcr2</italic>, and <italic>Ctla4</italic>), indicating an activated phenotype (Figure 3J). <sentence_start/>Cluster 9 also expressed cytotoxic markers and immune checkpoints with additional expression of <italic>Mki67</italic>, suggesting proliferative capacity (Figure 3J). <sentence_start/>CD4<sup>+</sup> T cells in cluster 12 expressed high <italic>Ctla4</italic>, and NK cells (cluster 4) exhibited expression of <italic>Gzmb</italic> and <italic>Prf1</italic> (Figure 3J). <sentence_start/>BUP treatment led to an increase in CD8<sup>+</sup> T cells (clusters 3 and 9) and a reduction in <italic>Ctla4</italic>-expressing CD4<sup>+</sup> T cells (cluster 12) (Figure 3K). <sentence_start/>Comparison of cytotoxic marker and immune checkpoint expression across T cell clusters revealed that <italic>Gzmk</italic> was upregulated in CD8<sup>+</sup> T cells (clusters 3 and 9) following BUP treatment (Figure 3L), while <italic>Ctla4</italic> expression was decreased across all T cell clusters in BUP-treated tumors (Figure 3M). <sentence_start/>Collectively, these findings suggest that BUP modulates the TME by shifting the tumor-associated myeloid compartment toward an M1-like phenotype and enhancing cytotoxic T cell activity, thereby contributing to immune activation and anti-tumor immune responses."
+  },
+  {
+   "section": "article",
+   "text": "Localized BUP-Gel therapy polarizes macrophages toward the M1 type"
+  },
+  {
+   "section": "article",
+   "text": "Our scRNA-seq analysis (untreated versus BUP-Gel-treated tumors) revealed pronounced transcriptional alterations in macrophages and cytotoxic T cells upon BUP-Gel treatment. <sentence_start/>As we did not observe marked changes in other immune and stromal cell populations, we focused our further studies on macrophages and cytotoxic T cells, as these subsets exhibited the most substantial BUP-induced remodeling and are known to be crucial players of tumor immunity. <sentence_start/>As scRNA-seq results revealed that BUP-Gel therapy induces reprogramming of macrophages within the TME,<citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1038/s41573-022-00520-5\" pmid=\"35974096\" pmcid=\"PMC9380983\" count=\"1\"><sup>36</sup></citation> we performed flow cytometry analysis for M1-like (iNOS<sup>+</sup>) and M2-like (ARG1<sup>+</sup>) macrophages in CT26 tumors following BUP-Gel treatment (Figure S4A). <sentence_start/>To validate whether these effects were mediated through ACh, we also included the tumors treated with BUP-ACh-Gel therapy. <sentence_start/>We observed a \u223c3-fold increase in iNOS<sup>+</sup> macrophages in BUP-Gel-treated tumors compared to untreated tumors (Figure 4A). <sentence_start/>Interestingly, ACh abrogated this effect by \u223c5-fold reduction in iNOS<sup>+</sup> macrophages when compared with BUP-Gel-treated tumors, suggesting that inhibition of ACh release on BUP-Gel therapy is responsible for the polarization toward M1-like macrophages (Figure 4A). <sentence_start/>BUP-Gel treatment also caused a \u223c1.1-fold decrease in ARG1<sup>+</sup> macrophages compared with untreated tumors, and ACh mitigated this effect (Figure 4B). <sentence_start/>Macrophage polarization in the TME cannot be fully captured by a simple M1 versus M2 classification but rather reflects a mixed or hybrid M1/M2-like profile. <sentence_start/>Therefore, we further analyzed macrophage populations expressing either iNOS alone, ARG1 alone, or both markers. <sentence_start/>BUP-Gel therapy led to a &gt;3-fold increase in iNOS<sup>+</sup>ARG1<sup>-</sup> macrophages, a \u223c4-fold increase in iNOS<sup>+</sup>ARG1<sup>+</sup> macrophages and a \u223c1.1-fold reduction in the frequency of iNOS<sup>\u2212</sup>ARG1<sup>+</sup> macrophages compared to untreated tumors and these changes were abolished in BUP-ACh-Gel-treated tumors (Figures 4C and 4D). <sentence_start/>Our scRNA-seq results revealed similar heterogeneous macrophage populations with overlapping expression of canonical M1 and M2 markers, consistent with a spectrum of polarization states.<sentence_start/>Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Localized BUP-Gel therapy polarizes macrophages toward the M1 type and activates T cells"
+  },
+  {
+   "section": "article",
+   "text": "(A and B) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4-5) of iNOS<sup>+</sup>F4/80<sup>+</sup> M1-like macrophages (A) and ARG1<sup>+</sup>F4/80<sup>+</sup> M2-like macrophages (B) in untreated, BUP-Gel-treated and BUP-ACh-Gel-treated CT26 tumors."
+  },
+  {
+   "section": "article",
+   "text": "(C and D) Flow cytometry plots (C) and the percentage change in F4/80<sup>+</sup> macrophages (D) (mean \u00b1 SEM, <italic>n</italic> = 4) expressing only iNOS (iNOS<sup>+</sup>ARG1<sup>-</sup>), only ARG1 (iNOS<sup>\u2212</sup>ARG1<sup>+</sup>), and both iNOS and ARG1 (iNOS<sup>+</sup>ARG1<sup>+</sup>) F4/80<sup>+</sup> macrophages in untreated, BUP-Gel-treated and BUP-ACh-Gel-treated CT26 tumors."
+  },
+  {
+   "section": "article",
+   "text": "(E) A schematic showing the study plan to determine the effect of ACh on LPS/IFN-\u03b3-induced M1-like BMDMs."
+  },
+  {
+   "section": "article",
+   "text": "(F) Percentage change (mean \u00b1 SEM, <italic>n</italic> = 5) in iNOS<sup>+</sup> macrophages and iNOS MFI on treatment with ACh."
+  },
+  {
+   "section": "article",
+   "text": "(G) Fold-change in the gene expression (mean \u00b1 SEM, <italic>n</italic> = 3) of <italic>Nos2</italic> and <italic>Arg1</italic> in M0 BMDMs on treatment with conditioned media of untreated N2A cells (CM (UT)) and BUP-treated N2A cells (CM (BUP))."
+  },
+  {
+   "section": "article",
+   "text": "(H) A schematic showing the study plan to decipher the effect of CM (UT), CM (BUP), CM(BUP)+ACh on LPS, and IFN-\u03b3-induced M1-like BMDMs."
+  },
+  {
+   "section": "article",
+   "text": "(I) Percentage change (mean \u00b1 SEM, <italic>n</italic> = 5) in iNOS<sup>+</sup> macrophages and iNOS MFI on treatment with CM (UT), CM (BUP), and CM(BUP)+ACh."
+  },
+  {
+   "section": "article",
+   "text": "(J and K) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4-6) of IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> (J) and TNF-\u03b1<sup>+</sup>CD8<sup>+</sup> (K) cells in untreated, BUP-Gel-treated, and BUP-ACh-Gel-treated CT26 tumors."
+  },
+  {
+   "section": "article",
+   "text": "(L and M) Flow cytometry plots (L) and percentage change in the CD8<sup>+</sup> populations (M) (mean \u00b1 SEM, <italic>n</italic> = 4) co-expressing granzyme B, IFN-\u03b3, or TNF-\u03b1 in untreated, BUP-Gel-treated and BUP-ACh-Gel-treated CT26 tumors."
+  },
+  {
+   "section": "article",
+   "text": "(N) A schematic showing the study plan to determine the effect of ACh on stimulated mouse splenic CD8<sup>+</sup> T cells."
+  },
+  {
+   "section": "article",
+   "text": "(O and P) Change (mean \u00b1 SEM, <italic>n</italic> = 6) in granzyme B MFI (O) and IFN-\u03b3 MFI (P) in CD8 T cells on treatment with ACh."
+  },
+  {
+   "section": "article",
+   "text": "(Q) A schematic showing the study plan to decipher the effect of CM (UT), CM (BUP), and CM (BUP) + ACh on stimulated murine CD8 T cells."
+  },
+  {
+   "section": "article",
+   "text": "(R) Change in the IFN-\u03b3 MFI (mean \u00b1 SEM, <italic>n</italic> = 7) of CD8 T cells on treatment with CM (UT), CM (BUP), and CM(BUP)+ACh."
+  },
+  {
+   "section": "article",
+   "text": "(S) Tumor growth kinetics and final day tumor volume (mean \u00b1 SEM, <italic>n</italic> = 6) of CT26 tumors on treatment with BUP-Gel with isotype IgG control, BUP-Gel with anti-CD4 antibody, and BUP-Gel with anti-CD8 antibody."
+  },
+  {
+   "section": "article",
+   "text": "(T) Tumor growth kinetics (mean \u00b1 SEM, <italic>n</italic> = 6) in untreated, BUP-Gel-treated, and BUP-TS-treated CT26 tumors."
+  },
+  {
+   "section": "article",
+   "text": "(U and V) Percentage change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> (U) and TNF-\u03b1<sup>+</sup>CD8<sup>+</sup> (V) cells in untreated, BUP-Gel-treated, and BUP-TS-treated CT26 tumors. <sentence_start/>See also Figure S4 and Table S1."
+  },
+  {
+   "section": "article",
+   "text": "One-way ANOVA with Dunnett\u2019s post-hoc test for (A), (B), (D), (G), (I), (J), (K), (M), (R), (U), and (V), Two-tailed Student\u2019s <italic>t</italic> test for (F), (O), and (P) and two-way ANOVA with Tukey\u2019s post-hoc test for (S) and (T). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "To validate the effect of ACh on macrophage polarization, we converted murine bone marrow-derived macrophages (BMDMs) into M1-like phenotype using LPS and IFN-\u03b3 followed by ACh (50 \u03bcM) treatment (Figure 4E; Figure S4B). <sentence_start/>ACh treatment led to a \u223c1.1-fold decrease in iNOS<sup>+</sup> cells with a \u223c1.6-fold decrease in iNOS MFI (mean fluorescence intensity) in comparison to untreated M1-like BMDMs, suggesting the suppressive role of ACh on M1 polarization (Figure 4F). <sentence_start/>To further validate the ACh-mediated neuron-macrophage interactions, we treated BMDMs with conditioned media of untreated (CM-UT) and BUP-treated N2A cells (CM-BUP) and examined the <italic>Nos2</italic> and <italic>Arg1</italic> expression by quantitative reverse-transcription PCR (RT-qPCR) (Table S1). <sentence_start/>BMDMs treated with CM (UT) exhibited a \u223c1.7-fold increase in <italic>Arg1</italic> expression compared to untreated BMDMs, while CM (BUP) treatment displayed a &gt;3-fold decrease in <italic>Arg1</italic> expression compared with CM (UT)-treated BMDMs (Figure 4G). <sentence_start/>Interestingly, BMDMs treated with CM (BUP) showed a \u223c2-fold increase in <italic>Nos2</italic> expression in comparison to BMDMs treated with CM (UT) (Figure 4G). <sentence_start/>Further, we treated M1-like BMDMs with CM (UT) and CM (BUP) and evaluated iNOS expression by flow cytometry (Figure 4H). <sentence_start/>CM (BUP) treatment led to a \u223c2-fold increase in iNOS MFI in comparison to M1-like BMDMs treated with CM(UT), whereas iNOS expression was reversed upon treatment of M1-like BMDMs with ACh-supplemented CM(BUP) (Figure 4I). <sentence_start/>Therefore, consistent with our scRNA-seq results, these findings suggest that inhibiting ACh-mediated signaling promotes the polarization toward an M1-like macrophage phenotype."
+  },
+  {
+   "section": "article",
+   "text": "Localized BUP-Gel therapy activates the cytotoxic T cell response"
+  },
+  {
+   "section": "article",
+   "text": "As scRNA-seq results showed an increase in the proportion of CD8<sup>+</sup> T Cells in BUP-Gel-treated tumors,<citation rid=\"bib37\" ref-type=\"bibr\" doi=\"10.1038/s41577-021-00574-3\" pmid=\"34253904\" pmcid=\"PMC9792152\" count=\"1\"><sup>37</sup></citation> we profiled the T cells for cytotoxic markers using flow cytometry in CT26 tumors treated with BUP-Gel and BUP-ACh-Gel (Figure S4C). <sentence_start/>BUP-Gel treatment led to a &gt;25-fold increase in IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells compared to untreated CT26 tumors (Figure 4J). <sentence_start/>However, ACh abrogated this effect and caused a &gt;8-fold decrease in IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells (Figure 4J). <sentence_start/>We observed a \u223c7.5-fold increase in TNF-\u03b1<sup>+</sup>CD8<sup>+</sup> T cells in BUP-Gel-treated tumors compared to untreated tumors, and ACh mitigated this effect (Figure 4K). <sentence_start/>We next assessed the co-expression of granzyme B with cytokines IFN-\u03b3 and TNF-\u03b1 in CD8<sup>+</sup> T cells and observed a marked increase in CD8<sup>+</sup> T cells co-expressing IFN-\u03b3 and TNF-\u03b1, granzyme B and TNF-\u03b1, as well as granzyme B, IFN-\u03b3, and TNF-\u03b1 upon BUP-Gel treatment, and ACh abrogated this effect (Figures 4L and 4M). <sentence_start/>Recent studies have shown that CD4<sup>+</sup> T cells, like CD8<sup>+</sup> T cells, exert cytotoxic functions by releasing granzymes and effector cytokines, often in response to viral infections and cancer.<citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1016/j.immuni.2021.11.015\" pmid=\"34910940\" pmcid=\"PMC8809482\" count=\"1\"><sup>38</sup></citation> <sentence_start/>Our results showed a \u223c7-fold increase in IFN-\u03b3<sup>+</sup>CD4<sup>+</sup> T cells compared to untreated CT26 tumors, and ACh abrogated this effect (Figure S4D). <sentence_start/>We also observed a \u223c13-fold increase in TNF-\u03b1<sup>+</sup>CD4<sup>+</sup> T cells in BUP-Gel-treated tumors, and ACh feeding decreased it by \u223c3.5-fold (Figure S4E). <sentence_start/>Analysis of exhaustion markers (PD1, TIM3, and CTLA4) on T cells revealed that BUP-Gel treatment resulted in a \u223c2-fold decrease in PD1<sup>+</sup>TIM3<sup>-</sup> CD8<sup>+</sup> T cells, with no significant change in PD1<sup>+</sup>TIM3<sup>+</sup> CD8<sup>+</sup> T cells, and a \u223c5-fold increase in CTLA4<sup>+</sup> CD4<sup>+</sup> T cells compared to untreated cells (Figures S4F-S4H). <sentence_start/>Interestingly, ACh further enhanced the expression of exhaustion markers, increasing PD1<sup>+</sup>TIM3<sup>-</sup> and PD1<sup>+</sup>TIM3<sup>+</sup>CD8<sup>+</sup> T cells, as well as CTLA4<sup>+</sup> CD4<sup>+</sup> T cells, suggesting that ACh not only suppresses cytotoxic markers but also promotes T cell exhaustion, thereby keeping a check on the T cell activation (Figures S4F-S4H)."
+  },
+  {
+   "section": "article",
+   "text": "To validate the ACh-mediated effect on T cell cytotoxicity, we stimulated mouse splenic CD8<sup>+</sup> T cells and treated them with ACh (150 \u03bcM) (Figure 4N; Figure S4I). <sentence_start/>ACh treatment led to a \u223c1.6-fold decrease in MFI of granzyme B and a \u223c1.4-fold decrease in the MFI of IFN-\u03b3 compared to untreated CD8<sup>+</sup> T cells (Figures 4O and 4P). <sentence_start/>We further investigated ACh-mediated neuron-T cell interactions, where stimulated T cells were treated with conditioned media from untreated (CM-UT) or BUP-treated (CM-BUP) N2A cells (Figure 4Q). <sentence_start/>We observed a \u223c1.5-fold increase in IFN-\u03b3 MFI in CM(BUP) treated CD8<sup>+</sup> T cells compared to CM (UT) treated T cells, which decreased in ACh-supplemented CM (BUP) treated CD8<sup>+</sup> T cells (Figure 4R). <sentence_start/>These results indicate that ACh-mediated signaling suppresses cytotoxic T cell responses, and its inhibition enhances T cell activation."
+  },
+  {
+   "section": "article",
+   "text": "Next, to delineate the impact of CD4 and CD8 T cells, we depleted CD4<sup>+</sup> and CD8<sup>+</sup> T cells in BUP-Gel-treated CT26 tumor-bearing mice to assess tumor inhibition. <sentence_start/>Interestingly, depletion of CD8<sup>+</sup> T cells abrogated the effect of BUP-Gel therapy on tumor volume (Figure 4S; Figure S4J). <sentence_start/>However, we did not observe any change in tumor volume upon CD4<sup>+</sup> T cell depletion. <sentence_start/>Therefore, although BUP-Gel therapy induces both CD8<sup>+</sup> and CD4<sup>+</sup> cytotoxic T lymphocytes (CTLs), the magnitude of cytolytic activity of CD8<sup>+</sup> CTLs is markedly superior to that of the CD4<sup>+</sup> CTLs. <sentence_start/>This does not exclude the meaningful contributions of CD4<sup>+</sup> CTLs and other immune effector cells in building an effective anti-tumor immune network when treated with BUP-Gel. <sentence_start/>We also investigated the effect of BUP-Gel therapy in immunocompromised mice (NSG) using the CT26 tumor model and did not observe any change in tumor growth compared to BALB/c mice (Figure S4K)."
+  },
+  {
+   "section": "article",
+   "text": "We next assessed central memory and effector memory T cells in the peripheral blood of mice bearing CT26 tumors to determine the impact of BUP-Gel on these memory T cell subsets (Figure S4L). <sentence_start/>BUP-Gel treatment led to \u223c2.5-fold increase in central memory T cells and \u223c1.5-fold increase in effector memory T cells (Figures S4M and S4N). <sentence_start/>To investigate the effect of BUP-Gel on long-term memory T cells, we resected CT26 tumors at 50 mm<sup>3</sup> and treated the resection site with BUP-Gel. <sentence_start/>We observed that 3 out of 8 mice did not show tumor recurrence. <sentence_start/>After 20 days of BUP-Gel treatment, we rechallenged these three mice with CT26 cells and observed a \u223c4-fold slower rate of tumor growth compared to naive untreated mice at day 36 (Figure S4O). <sentence_start/>Upon assessing long-term memory cells in peripheral blood at day 36, we observed a &gt;3.5-fold increase in central memory CD8 T cells in BUP-Gel-treated tumors, without any change in effector memory T cells, compared to untreated tumors (Figures S4P and S4Q)."
+  },
+  {
+   "section": "article",
+   "text": "Since we employed hydrogel-mediated delivery of BUP to delineate changes in the immune microenvironment, we investigated whether BUP-Gel offers advantages over the direct tumor-site (BUP-TS) injection of BUP without hydrogel. <sentence_start/>We observed that BUP-TS did not significantly affect tumor progression (Figure 4T). <sentence_start/>Although BUP-TS did not induce any change in IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells and TNF-\u03b1<sup>+</sup>CD8<sup>+</sup> T cells, there was a similar decrease in MFI of ARG1 within macrophages (Figures 4U and 4V; Figure S4R). <sentence_start/>Therefore, these results suggest that BUP-Gel outperforms BUP-TS in inhibiting tumor growth and modulating the TME, primarily due to the sustained release of BUP from A13 gel."
+  },
+  {
+   "section": "article",
+   "text": "Localized BUP-Gel therapy augments the efficacy of systemic chemotherapy and immunotherapy"
+  },
+  {
+   "section": "article",
+   "text": "As systemic chemotherapy and immunotherapy are the preferred treatment strategies for patients with cancer,<citation rid=\"bib39\" ref-type=\"bibr\" doi=\"10.1038/s41392-024-01856-7\" pmid=\"39013849\" pmcid=\"PMC11252281\" count=\"1\"><sup>39</sup></citation> we investigated whether BUP-Gel could improve the outcomes of clinically approved treatments. <sentence_start/>As oxaliplatin (OX) and 5-fluorouracil (5-FU) are first-line chemotherapeutics for patients with colon cancer,<citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1016/s0140-6736(11)60788-5\" pmid=\"21641637\" count=\"1\"><sup>40</sup></citation> we tested the efficacy of systemic OX and 5-FU in combination with localized BUP-Gel therapy in CT26 tumor-bearing mice. <sentence_start/>OX therapy caused a \u223c1.6-fold decrease in tumor growth, whereas the combination of BUP-Gel and OX resulted in \u223c3.5- and \u223c2-fold decreases in tumor growth compared with untreated and OX-treated tumors, yielding an additive effect (Figure 5A; Table S2). <sentence_start/>As OX is an inducer of immunogenic cell death (ICD),<citation rid=\"bib41\" ref-type=\"bibr\" doi=\"10.1038/onc.2009.356\" pmid=\"19881547\" count=\"1\"><sup>41</sup></citation> we analyzed the effect of the combination of BUP-Gel and OX on T cell activation. <sentence_start/>The combination of BUP-Gel and OX treatment led to a \u223c1.1-fold increase in the frequency of infiltrated CD3<sup>+</sup> T cells (Figure S5A) and a \u223c2-fold increase in the frequency of CD8<sup>+</sup> T cells compared to untreated tumors (Figure 5B). <sentence_start/>BUP-Gel and OX combination therapy also caused a \u223c2-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> T cells with a &gt;4-fold increase in their MFI (Figures 5C and 5D) and \u223c3.5-fold increase in TNF-\u03b1<sup>+</sup>CD8<sup>+</sup> T Cells with a \u223c1.4-fold increase in its MFI compared to untreated tumors (Figures 5E and 5F). <sentence_start/>BUP-Gel and OX treatment also led to increased frequency of CD8<sup>+</sup> T cells co-expressing granzyme B and TNF-\u03b1 and co-expression of granzyme B, IFN-\u03b3, and TNF-\u03b1 compared to untreated tumors (Figures 5G and 5H). <sentence_start/>Further analysis of CD4<sup>+</sup> T cells in these tumors revealed that BUP-Gel and OX treatment led to a \u223c2-fold increase in granzyme B<sup>+</sup>CD4<sup>+</sup> T cells with a \u223c4-fold increase in its MFI, a &gt;25-fold increase in IFN\u03b3<sup>+</sup>CD4<sup>+</sup> T Cells with &gt;2-fold increase in its MFI and \u223c9-fold increase in TNF\u03b1<sup>+</sup>CD4<sup>+</sup> T cells, with a \u223c1.5-fold increase in their MFI compared to untreated tumors (Figures S5B-S5G). <sentence_start/>We also observed a marked increase in the percentage of CD4<sup>+</sup> T cells co-expressing IFN-\u03b3 and TNF-\u03b1, granzyme B and IFN-\u03b3, granzyme B and TNF-\u03b1, and granzyme B, IFN\u03b3, and TNF-\u03b1 compared to untreated tumors (Figure S5H). <sentence_start/>Studying the effect of the combination of BUP-Gel and 5-FU revealed a \u223c3.5-fold decrease in tumor growth compared to untreated tumors, whereas 5-FU caused only a \u223c1.5-fold decrease (Figure S5I). <sentence_start/>As 5-FU is also an ICD inducer,<citation rid=\"bib42\" ref-type=\"bibr\" doi=\"10.1007/s00262-024-03641-5\" pmid=\"38353760\" pmcid=\"PMC10866783\" count=\"1\"><sup>42</sup></citation> the combination of BUP-Gel and 5-FU caused \u223c1.3-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> T cells with a \u223c1.6-fold increase in MFI (Figure S5J), and a &gt;2-fold increase in IFN\u03b3<sup>+</sup>CD8<sup>+</sup> T cells compared to untreated tumors (Figure S5K). <sentence_start/>Interestingly, we observed \u223c2-fold increase in granzyme B<sup>+</sup>IFN-\u03b3<sup>+</sup> and TNF-\u03b1<sup>+</sup>IFN-\u03b3<sup>+</sup> cells on treatment with a combination of BUP-Gel and 5-FU (Figures S5L and S5M).Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "BUP-Gel therapy augments the effect of systemic chemotherapy and immunotherapy"
+  },
+  {
+   "section": "article",
+   "text": "(A) Tumor growth kinetics and final day tumor volume (mean \u00b1 SEM, <italic>n</italic> = 6-8) of CT26 tumors on treatment with BUP-Gel, OX, and the combination of BUP-Gel with OX."
+  },
+  {
+   "section": "article",
+   "text": "(B-F) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of CD8<sup>+</sup> (B), granzyme B<sup>+</sup>CD8<sup>+</sup> and its MFI (C and D), TNF-\u03b1<sup>+</sup>CD8<sup>+</sup> and its MFI (E and F) in untreated, BUP-Gel-treated, OX-treated, and CT26 tumors treated with the combination of BUP-Gel and OX."
+  },
+  {
+   "section": "article",
+   "text": "(G and H) Flow cytometry plots (G) and the percentage change (H) in CD8<sup>+</sup> populations (mean \u00b1 SEM, <italic>n</italic> = 4) co-expressing granzyme B, IFN-\u03b3, and TNF-\u03b1."
+  },
+  {
+   "section": "article",
+   "text": "(I) Tumor growth kinetics and final day tumor volume (mean \u00b1 SEM, <italic>n</italic> = 6) of B16 tumors on treatment with BUP-Gel, aCTLA4, and a combination of BUP-Gel with aCTLA4."
+  },
+  {
+   "section": "article",
+   "text": "(J-M) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of granzyme B<sup>+</sup>CD8<sup>+</sup> (J), IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> (K), IFN-\u03b3<sup>+</sup>CD4<sup>+</sup> (L), and TNF-\u03b1<sup>+</sup>CD4<sup>+</sup>(M) in untreated, aCTLA4-treated, BUP-Gel-treated, and combination of BUP-Gel and aCTLA4-treated B16 tumors."
+  },
+  {
+   "section": "article",
+   "text": "(N and O) Flow cytometry plots (N) and percentage change (O) in the CD8<sup>+</sup> populations (mean \u00b1 SEM, <italic>n</italic> = 4) co-expressing granzyme B, IFN-\u03b3, and TNF-\u03b1."
+  },
+  {
+   "section": "article",
+   "text": "(P) Tumor growth kinetics and final day tumor volume (mean \u00b1 SEM, <italic>n</italic> = 6-8) of B16-OVA tumors on treatment with BUP-Gel, OT-I T cells, and a combination of BUP-Gel with OT-I T cells."
+  },
+  {
+   "section": "article",
+   "text": "(Q-T) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of granzyme B<sup>+</sup>CD8<sup>+</sup> and its MFI (Q and R), IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> (S), MFI of TNF-\u03b1 in CD8<sup>+</sup>(T) cells in untreated, OT-I T cell-treated, BUP-Gel-treated, and combination of BUP-Gel and OT-I T cell-treated B16-OVA tumors."
+  },
+  {
+   "section": "article",
+   "text": "(U and V) Flow cytometry plots (U) and percentage change (V) in the CD8<sup>+</sup> populations (mean \u00b1 SEM, <italic>n</italic> = 4) co-expressing granzyme B, IFN-\u03b3, and TNF-\u03b1. <sentence_start/>See also Figure S5 and Table S2."
+  },
+  {
+   "section": "article",
+   "text": "One-way ANOVA with Dunnett\u2019s post-hoc test for (B)-(F), (H), (J)-(M), (O), (Q)-(T), and (V), and two-way ANOVA with Tukey\u2019s post-hoc test for (A), (I), and (P). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "Immune checkpoint blockade (ICB) therapy, including anti-PD1/anti-PD-L1 and anti-CTLA4 (aCTLA4), has gained attention for cancer treatment despite its low response rates.<citation rid=\"bib43\" ref-type=\"bibr\" doi=\"10.1056/nejmoa1500596\" pmid=\"26028255\" pmcid=\"PMC4481136\" count=\"1\"><sup>43</sup></citation> <sentence_start/>As BUP-Gel therapy enhances the activation of T cells along with CTLA4 expression on T cells, we hypothesized that localized BUP-Gel treatment might enhance the efficacy of aCTLA4 therapy. <sentence_start/>The combination of BUP-Gel and aCTLA4 showed \u223c1.8-fold reduction of tumor growth in comparison to aCTLA4-treated tumors and a &gt;4-fold decrease in tumor growth when compared with untreated B16 tumors (Figure 5I). <sentence_start/>Flow cytometric quantification of T Cells showed a \u223c3.5-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> T cells, a \u223c1.5-fold increase in IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T Cells, a \u223c3-fold increase in IFN-\u03b3<sup>+</sup>CD4<sup>+</sup> T Cells and a \u223c1.7-fold increase in TNF-\u03b1<sup>+</sup>CD4<sup>+</sup> T cells in tumors treated with the combination of BUP-Gel and anti-CTLA4 compared to untreated tumors (Figures 5J-5M). <sentence_start/>Interestingly, treatment with BUP-Gel and anti-CTLA4 also led to increased frequency of CD8<sup>+</sup> T cells co-expressing IFN-\u03b3 and TNF-\u03b1 as well as granzyme B and IFN-\u03b3 compared to untreated tumors (Figures 5N and 5O)."
+  },
+  {
+   "section": "article",
+   "text": "Adoptive T cell transfer (ACT) uses tumor-reactive T cells that are expanded <italic>ex vivo</italic> and reinfused into patients to boost T cell-mediated killing of cancer cells.<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.21037/atm-22-6196\" pmid=\"36660664\" pmcid=\"PMC9843349\" count=\"1\"><sup>44</sup></citation> <sentence_start/>We employed OT-I T cells, which are reactive toward OVA-peptide-expressing B16 cells, in combination with localized BUP-Gel therapy against the B16-OVA tumor model. <sentence_start/>The combination of BUP-Gel with OT-I T cells showed a \u223c4-fold and \u223c8-fold reduction of tumor growth in comparison to OT-I T cell transfer alone and untreated tumors (Figure 5P). <sentence_start/>Flow cytometry revealed a \u223c1.6-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> T cells with a \u223c1.3-fold increase in MFI, a \u223c5-fold increase in IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells, and a \u223c1.4-fold increase in MFI of TNF\u03b1 in CD8<sup>+</sup> T cells upon treatment with the combination of BUP-Gel and OT-I T cells (Figures 5Q-5T). <sentence_start/>We observed enhanced frequency of CD8<sup>+</sup> T cells co-expressing IFN-\u03b3 and TNF-\u03b1, granzyme B and TNF-\u03b1 as well as all co-expression of granzyme B, IFN-\u03b3, and TNF-\u03b1 in BUP-Gel and OT-I treated tumors (Figures 5U and 5V). <sentence_start/>Analysis of BUP-Gel therapy in combination with OX, aCTLA4, and ACT showed additive effects on tumor regression (Table S2), suggesting that the combination therapy acts through independent, non-redundant pathways. <sentence_start/>Overall, these results suggest that localized BUP-Gel therapy can be combined with existing chemotherapy and immunotherapy regimens to achieve better efficacy and clinical outcomes."
+  },
+  {
+   "section": "article",
+   "text": "Antagonizing specific ACh receptors improve outcomes of chemotherapy and ICB therapy"
+  },
+  {
+   "section": "article",
+   "text": "ACh mediate signals through specific muscarinic and nicotinic ACh receptors (mAChRs and nAChRs), and these receptors are known to be expressed differentially on different cell types (Table S3).<citation rid=\"bib45\" ref-type=\"bibr\" doi=\"10.1177/2398212818820506\" pmcid=\"PMC7058246\" pmid=\"32166177\" count=\"1\"><sup>45</sup></citation> <sentence_start/>Therefore, we analyzed a publicly available colorectal cancer dataset and identified 15 distinct clusters using unsupervised clustering.<citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2020.03.048\" pmid=\"32302573\" count=\"1\"><sup>46</sup></citation> <sentence_start/>We determined receptor expression across different clusters (Figures 6A-6D), and identified that malignant cells, macrophages, and T cells express mAChRs, <italic>CHRM3</italic>, and <italic>CHRM5</italic> (Figures 6B and 6D), whereas among nAChRs, <italic>CHRNA7</italic>, and <italic>CHRNB1</italic> are expressed by malignant cells, M1-like macrophages, and CD8<sup>+</sup> T effector cells (Figures 6C and 6D). <sentence_start/>We next stratified patient tumors into high vs. low mAChR and nAChR expression and found that tumors with high mAChR expression exhibit increased Treg proportions and decreased M1-like macrophages (Figures S6A and S6B). <sentence_start/>In contrast, tumors with high nAChR expression were associated with reduced proportions of M1-like macrophages, accompanied by enrichment of exhausted CD8<sup>+</sup> T cells (Figures S6C and S6D). <sentence_start/>These findings suggest that expression of these receptors may be linked to immunosuppressive cells in the TME.Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "Antagonizing specific ACh receptors improve outcomes of chemotherapy and ICB therapy"
+  },
+  {
+   "section": "article",
+   "text": "(A) <italic>UMAP</italic> plot showing different clusters after unsupervised clustering of a human scRNA sequencing dataset."
+  },
+  {
+   "section": "article",
+   "text": "(B and C) Dot plots represent the average expression (color) and the proportion of cells (dot size) expressing gene transcripts for muscarinic receptors (B) and nicotinic receptors (C) across different cell clusters."
+  },
+  {
+   "section": "article",
+   "text": "(D) Violin plot showing the expression of mAChRs, CHRM3, CHRM5, and nAChR, CHRNA7 across different cell clusters."
+  },
+  {
+   "section": "article",
+   "text": "(E) Tumor growth kinetics (mean \u00b1 SEM, <italic>n</italic> = 6) and final day tumor volume of CT26 tumors on treatment with DARF-Gel (M3 mAChR antagonist), ML375-Gel (M5 mAChR antagonist), and MLA-Gel (\u03b17 nAChR antagonist)."
+  },
+  {
+   "section": "article",
+   "text": "(F-I) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of CD8<sup>+</sup> T cells (F), granzyme B<sup>+</sup>CD8<sup>+</sup> (G), ARG1<sup>+</sup> macrophages (H) and ARG1 MFI (I) within macrophages in tumors treated with DARF-Gel, ML375-Gel, and MLA-Gel."
+  },
+  {
+   "section": "article",
+   "text": "(J-L) Tumor growth kinetics and final day tumor volume (mean \u00b1 SEM, <italic>n</italic> = 6) of CT26 tumors on treatment with different receptor antagonists, OX, and their combinations."
+  },
+  {
+   "section": "article",
+   "text": "(M-Q) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of different immune cell types in CT26 tumors on treatment with different receptor antagonists, OX, and their combinations."
+  },
+  {
+   "section": "article",
+   "text": "(R-T) Tumor growth kinetics and final day tumor volume (mean \u00b1 SEM, <italic>n</italic> = 6) of CT26 tumors on treatment with different receptor antagonists, aCTLA4, and their combinations."
+  },
+  {
+   "section": "article",
+   "text": "(U-Z) Change in the population (mean \u00b1 SEM, <italic>n</italic> = 4) of different immune cell types in CT26 tumors on treatment with different receptor antagonists, aCTLA4, and their combinations. <sentence_start/>See also Figure S6 and Table S3."
+  },
+  {
+   "section": "article",
+   "text": "One-way ANOVA with Dunnett\u2019s post-hoc test for (F)-(Z), and two-way ANOVA with Tukey\u2019s post-hoc test for (E), (J)-(L), and (R)-(T). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "Since immune cells and cancer cells expressed CHRM3, CHRM5, and CHRNA7 in the human scRNA dataset, we tested their protein expression in the CT26 tumor model and observed that these receptors are expressed in cancer cells, macrophages, and T cells within CT26 tumors (Figures S6E-S6G). <sentence_start/>We used specific antagonists to block these receptors and investigated the effect of hydrogel-mediated localized delivery of CHRM3 antagonist (darifenacin) (DARF-Gel), CHRM5 antagonist (ML375) (ML375-Gel), and CHRNA7 antagonist (methyllycaconitine citrate) (MLA-Gel) on CT26 tumor growth. <sentence_start/>Tumor growth kinetics revealed slower progression with all treatments, with &gt;2-fold reductions in final-day tumor volume compared with untreated tumors (Figure 6E). <sentence_start/>Treatment of DARF-Gel, ML375-Gel, and MLA-Gel led to a &gt;2-fold increase in the frequency of CD8<sup>+</sup> T cells compared to untreated tumors (Figure 6F). <sentence_start/>We also observed a &gt;1.5-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> T cells in tumors treated with these antagonists compared with untreated tumors (Figure 6G). <sentence_start/>Furthermore, we observed a \u223c1.3-fold decrease in ARG1<sup>+</sup> macrophages and a \u223c2.5-fold decrease in ARG1 MFI in tumors treated with DARF-Gel, ML375-Gel, and MLA-Gel compared to untreated tumors (Figures 6H and 6I). <sentence_start/>To validate these findings, we assessed the effect of blocking ACh receptors on ACh-treated BMDM-derived M1-like macrophages (Figure S6H). <sentence_start/>Interestingly, antagonizing ACh receptors led to \u223c1.2-fold increase in iNOS<sup>+</sup> cells compared to ACh-treated M1 macrophages (Figure S6I). <sentence_start/>Similarly, all three antagonists showed &gt;2-fold increase in IFN-\u03b3<sup>+</sup> cells compared to ACh-treated splenic CD8<sup>+</sup> T cells (Figures S6J and S6K)."
+  },
+  {
+   "section": "article",
+   "text": "We next determined the efficacy of a combination of DARF-Gel, ML375-Gel, and MLA-Gel with systemic OX and aCTLA4 therapy in the CT26 tumor model and its impact on TME. <sentence_start/>A combination of DARF-Gel and OX resulted in slower tumor growth kinetics than other treatments, with a &gt;2-fold decrease in tumor volume compared to untreated tumors (Figure 6J). <sentence_start/>We also observed a slower tumor growth rate in tumors treated with a combination of ML375-Gel and OX, with &gt;3-fold decrease in tumor volume compared to untreated tumors and &gt;2-fold decrease compared to OX-treated tumors (Figure 6K). <sentence_start/>Similarly, a combination of MLA-Gel and OX also hindered tumor growth, with \u223c3-fold reduction compared to untreated tumors and \u223c1.5-fold reduction compared to OX treatment (Figure 6L). <sentence_start/>Combination of DARF-Gel and OX caused a \u223c1.5-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> cells with a \u223c5-fold increase in granzyme B MFI compared to untreated tumors (Figures 6M and 6N). <sentence_start/>There was a \u223c20-fold change in IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> cells and a \u223c3-fold change in its MFI upon treatment with a combination of ML375-Gel and OX compared to untreated tumors (Figures 6O and 6P). <sentence_start/>However, a combination of MLA-Gel and OX caused a &gt;1.5-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> cells compared with untreated tumors (Figure 6Q), indicating that blocking ACh receptors enhance the efficacy of chemotherapy and improves T cell responses."
+  },
+  {
+   "section": "article",
+   "text": "A combination of DARF-Gel and aCTLA4 resulted in diminished tumor kinetics with \u223c2-fold and \u223c1.5-fold reduction of tumor growth in comparison to untreated and aCTLA4-treated tumors (Figure 6R). <sentence_start/>Similarly, we observed \u223c8-fold and \u223c4-fold suppression of tumor growth in tumors treated with a combination of ML375-Gel and aCTLA4 compared to untreated and aCTLA4-treated tumors (Figure 6S). <sentence_start/>Use of aCTLA4 in combination with MLA-Gel also caused &gt;2.5-fold decrease in tumor growth compared to aCTLA4-treated tumors (Figure 6T). <sentence_start/>Combination of DARF-Gel and aCTLA4 led to &gt;1.5-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> and &gt;5-fold increase in granzyme B<sup>+</sup>IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells compared to untreated tumors (Figures 6U and 6V). <sentence_start/>There was a \u223c1.2-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> and &gt;3.5-fold increase in granzyme B<sup>+</sup>IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells upon treatment with a combination of ML375-Gel and aCTLA4 (Figures 6W and 6X), along with \u223c1.4-fold increase in granzyme B<sup>+</sup>CD8<sup>+</sup> and &gt;2-fold increase in granzyme B<sup>+</sup>IFN-\u03b3<sup>+</sup>CD8<sup>+</sup> T cells in tumors treated with MLA-Gel and aCTLA4 (Figures 6Y and 6Z). <sentence_start/>Analysis of targeting specific receptors in combination with OX and aCTLA4 showed additive effects on tumor regression (Table S2), suggesting that the combination therapy acts through independent, non-redundant pathways. <sentence_start/>As clinical treatments depend on cumulative effects for maximum benefits, combination therapeutic regimens are highly advantageous in clinical settings. <sentence_start/>Since chemotherapy and immunotherapy can cause toxicity, we evaluated liver and kidney parameters after treatment with different combinations and found no major changes in LFT (liver function test) and KFT (kidney function test) parameters (Figures S6L and S6M). <sentence_start/>These findings suggest that targeted antagonism of specific ACh receptors can suppress tumor growth without causing any systemic toxicity, reprogram the immune microenvironment, and enhance responses to conventional chemotherapy and immunotherapy. <sentence_start/>Collectively, these results indicate that while BUP-Gel directly impairs neuronal communication, blockade of cholinergic receptors with antagonists mediates parallel effects and represents a mechanistically distinct strategy."
+  },
+  {
+   "section": "article",
+   "text": "CHRNA7 antagonist mitigates ACh-mediated immunosuppression in patient-derived tumor explants"
+  },
+  {
+   "section": "article",
+   "text": "As targeting ACh release using BUP-Gel or antagonizing ACh receptors using DARF-Gel, ML375-Gel, and MLA-Gel inhibited tumor growth and boosted immune surveillance in murine models, we determined the effect of ACh on human PBMC-derived macrophages and CD8<sup>+</sup> T cells. <sentence_start/>We supplemented ACh to LPS/IFN-\u03b3-induced M1-like macrophages (derived from human monocytes) and observed \u223c1.5-fold reduction in CD86 expression (M1-marker) compared to untreated macrophages (Figure 7A; Figures S7A and S7B). <sentence_start/>We also assessed the effect of ACh on CD8<sup>+</sup> T cells sorted from human PBMCs (Figure S7C). <sentence_start/>ACh treatment led to a \u223c1.2-fold decrease in IFN-\u03b3 expression on CD8<sup>+</sup> T cells compared with untreated CD8<sup>+</sup> T cells (Figure 7B; Figure S7D), suggesting that ACh plays a key role in polarizing human macrophages and inhibiting the cytotoxic function of human T cells. <sentence_start/>Next, we analyzed the effect of one of the antagonists (MLA specific for CHRNA7) on human macrophages and T cells. <sentence_start/>Interestingly, we observed \u223c1.4-fold increase in CD86 expression upon treatment of ACh-conditioned M1-like macrophages with MLA (Figure 7C; Figure S7E), and \u223c1.3-fold increase in the IFN-\u03b3 expression of CD8<sup>+</sup> T cells upon blocking CHRNA7 antagonist in ACh-treated human CD8<sup>+</sup> T cells (Figure 7D; Figure S7F), thereby validating the CHRNA7-mediated effects of ACh in human immune cells.<sentence_start/>Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "CHRNA7 antagonist mitigates immunosuppression in patient-derived tumor explants"
+  },
+  {
+   "section": "article",
+   "text": "(A) Fold change in CD86 MFI (mean \u00b1 SEM, n = 5) in human monocyte-derived M1-like macrophages upon treatment with ACh."
+  },
+  {
+   "section": "article",
+   "text": "(B) Fold change in IFN-\u03b3 MFI (mean \u00b1 SEM, <italic>n</italic> = 5) in human CD8<sup>+</sup> T cells upon treatment with ACh."
+  },
+  {
+   "section": "article",
+   "text": "(C) Fold change in CD86 MFI (mean \u00b1 SEM, <italic>n</italic> = 5) in human monocyte-derived M1-like macrophages treated with CHRNA7 antagonist MLA."
+  },
+  {
+   "section": "article",
+   "text": "(D) Fold change in IFN-\u03b3 MFI (mean \u00b1 SEM, <italic>n</italic> = 8) in human CD8<sup>+</sup> T cells treated with CHRNA7 antagonist MLA."
+  },
+  {
+   "section": "article",
+   "text": "(E) A schematic showing the study design to decipher the impact of ACh and MLA on macrophages and T cells in patient-derived tumor fragments."
+  },
+  {
+   "section": "article",
+   "text": "(F) Flow cytometry plots and percentage change in CD163 expression in CD68<sup>+</sup> cells (<italic>n</italic> = 4) in untreated and ACh-treated patient-derived tumor fragments from four different patients."
+  },
+  {
+   "section": "article",
+   "text": "(G) Flow cytometry plots and percentage change in IFN-\u03b3 expression in CD8<sup>+</sup> cells (<italic>n</italic> = 4) in untreated and ACh-treated patient-derived tumor fragments from four different patients."
+  },
+  {
+   "section": "article",
+   "text": "(H) Flow cytometry plots and percentage change in CD163 expression in CD68<sup>+</sup> cells (<italic>n</italic> = 5) in patient-derived tumor fragments upon treatment of MLA."
+  },
+  {
+   "section": "article",
+   "text": "(I) Flow cytometry plots and percentage change in IFN-\u03b3 expression in CD8<sup>+</sup> cells (<italic>n</italic> = 4) in patient-derived tumor fragments upon treatment with MLA. <sentence_start/>See also Figure S7 and Table S2."
+  },
+  {
+   "section": "article",
+   "text": "Data among the two groups were analyzed using a two-tailed unpaired Student\u2019s <italic>t</italic> test (A-D) and a paired Student\u2019s <italic>t</italic> test (F-I). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 for the indicated comparisons."
+  },
+  {
+   "section": "article",
+   "text": "Next, we cultured the patient-derived colon cancer tumor fragments in a collagen-based extracellular matrix and treated these tumor explants with ACh (Figure 7E).<citation rid=\"bib47\" ref-type=\"bibr\" doi=\"10.1038/s41467-024-45723-z\" pmcid=\"PMC10881470\" pmid=\"38383563\" count=\"1\"><sup>47</sup></citation><sup>,</sup><citation rid=\"bib48\" ref-type=\"bibr\" doi=\"10.1038/s41591-021-01398-3\" pmid=\"34239134\" count=\"1\"><sup>48</sup></citation> <sentence_start/>Interestingly, ACh treatment led to a &gt;3-fold increase in CD163 expression (M2 Marker) on CD68<sup>+</sup> macrophages compared to untreated colon cancer explants (Figure 7F; Figure S7G). <sentence_start/>ACh treatment also reduced the frequency of IFN-\u03b3<sup>+</sup> CD8<sup>+</sup> T cells in the tumor-infiltrating CD8<sup>+</sup> T cells compared to untreated patient tumors (Figure 7G; Figure S7H). <sentence_start/>Interestingly, treatment with CHRNA7 antagonist MLA diminished CD163 expression on macrophages in ACh-treated tumor fragments (Figure 7H) and increased the number of IFN-\u03b3<sup>+</sup> CD8<sup>+</sup> T cells (Figure 7I). <sentence_start/>Therefore, these results validate our findings that blocking of CHRNA7-mediated signaling can abolish the ACh-mediated effects on macrophages and cytotoxic T cell functions, thereby stimulating anti-tumor immunity in colon cancer."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "Tumors promote nerve innervation into the tumor niche by secreting neurotrophic factors, facilitating interactions among cancer cells, neurons, and immune cells via neurotransmitters and neuropeptides.<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2023.02.002\" pmid=\"37059069\" pmcid=\"PMC10107403\" count=\"1\"><sup>49</sup></citation> <sentence_start/>This neuron-cancer-immune crosstalk modulates TME and contributes to tumor progression and immunosuppression.<citation rid=\"bib50\" ref-type=\"bibr\" doi=\"10.1126/sciimmunol.aay9368\" pmid=\"32917793\" count=\"1\"><sup>50</sup></citation> <sentence_start/>Previous studies demonstrated that the presence of NEFL- and PGP9.5-positive nerves within colon tumors is associated with poor prognosis and reduced overall survival in patients, as corroborated by our Kaplan-Meier survival analysis from publicly available databases.<citation rid=\"bib51\" ref-type=\"bibr\" doi=\"10.1016/j.modpat.2024.100565\" pmid=\"39025405\" count=\"1\"><sup>51</sup></citation><sup>,</sup><citation rid=\"bib52\" ref-type=\"bibr\" doi=\"10.1002/cncr.26117\" pmid=\"21480205\" count=\"1\"><sup>52</sup></citation> <sentence_start/>Moreover, multivariate Cox regression analysis also demonstrated independent prognostic significance of NEFL and ChAT in early stages, revealing probable involvement of cholinergic nerves in the progression of colon cancer independent of clinicopathological features, including age, laterality, and therapy. <sentence_start/>We further demonstrated that \u223c47% of patients with colon cancer exhibit high levels of cholinergic neurons (NEFL and ChAT) in tumor tissues, and this is associated with reduced CD8<sup>+</sup> T cell infiltration and increased macrophage accumulation. <sentence_start/>Furthermore, elevated ACh levels in tumor tissues compared with adjacent normal regions suggest active ACh-mediated communication within the TME."
+  },
+  {
+   "section": "article",
+   "text": "ACh is one of the key neurotransmitters released from enteric nerves in the gastrointestinal tract, crucial for maintaining gut motility.<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1016/j.brainresbull.2007.02.005\" pmid=\"17452281\" count=\"1\"><sup>53</sup></citation> <sentence_start/>Although non-neuronal cells, including cancer cells, can secrete ACh at nanomolar concentrations,<citation rid=\"bib54\" ref-type=\"bibr\" doi=\"10.1038/srep40802\" pmcid=\"PMC5244394\" pmid=\"28102288\" count=\"1\"><sup>54</sup></citation> these levels are modest and often regulated by local acetylcholinesterase activity.<citation rid=\"bib55\" ref-type=\"bibr\" doi=\"10.1016/j.pharmthera.2018.10.002\" pmid=\"30291908\" pmcid=\"PMC6348061\" count=\"1\"><sup>55</sup></citation> <sentence_start/>In contrast, neuronal ACh release occurs at substantially higher concentrations, ranging from 0.1 to 1 \u03bcM in the central nervous system to transient micromolar levels (10-100 \u03bcM) in peripheral nerves to mM concentrations at synaptic junctions.<citation rid=\"bib56\" ref-type=\"bibr\" doi=\"10.1111/jnc.15943\" pmid=\"37621094\" pmcid=\"PMC10616967\" count=\"1\"><sup>56</sup></citation><sup>,</sup><citation rid=\"bib57\" ref-type=\"bibr\" doi=\"10.1007/s12035-009-8087-7\" pmid=\"19844813\" pmcid=\"PMC2777263\" count=\"1\"><sup>57</sup></citation> <sentence_start/>This highlights a greater potential of neuronal ACh to modulate TME through ACh signaling. <sentence_start/>To account for the rapid degradation of ACh, we utilised a higher ACh concentration than the intratumoral ACh concentrations detected by LC-MS/MS. <sentence_start/>Neuronal and tuft-cell-derived ACh promotes gastric tumorigenesis,<citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2016.11.005\" pmid=\"27989802\" pmcid=\"PMC5225031\" count=\"1\"><sup>19</sup></citation> while cholinergic innervation in prostate cancer promotes tumor growth, invasion, and metastasis.<citation rid=\"bib58\" ref-type=\"bibr\" doi=\"10.1126/science.1236361\" pmid=\"23846904\" count=\"1\"><sup>58</sup></citation> <sentence_start/>However, the effect of ACh is organ specific and concentration dependent, as cholinergic signaling has been shown to suppress cancer stem cells and liver metastatic growth in pancreatic cancer.<citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.cd-18-0046\" pmid=\"30185628\" pmcid=\"PMC6214763\" count=\"1\"><sup>20</sup></citation> <sentence_start/>Consistent with this, we demonstrated that ACh enhances cancer cell proliferation in both 2D and 3D culture models and modulates immune cells, suggesting engagement of neuronal ACh within the TME, thereby presenting a potential therapeutic target for local anesthetics."
+  },
+  {
+   "section": "article",
+   "text": "A recent clinical trial revealed that peritumoral lidocaine (a local anesthetic) injection before surgery significantly improves disease-free and overall survival in patients with breast cancer.<citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.1200/jco.22.01966\" pmid=\"37023374\" count=\"1\"><sup>28</sup></citation> <sentence_start/>Although earlier studies focused on liposomal formulation of local anesthetics like BUP,<citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.1126/sciadv.abj5435\" pmcid=\"PMC8494443\" pmid=\"34613777\" count=\"1\"><sup>26</sup></citation> systemic delivery of these drugs can be life threatening.<citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.1002/ams2.265\" pmid=\"29123854\" pmcid=\"PMC5667269\" count=\"1\"><sup>31</sup></citation> <sentence_start/>Therefore, our study utilized a hydrogel-based localized system for slow and sustained release of BUP at the tumor that limits tumor growth more effectively than BUP solution, highlighting the benefit of localized hydrogel-based systems. <sentence_start/>Our A13-gel scaffold was shown to exhibit good biocompatibility, <italic>in vivo</italic> persistence with minimal immune infiltration, and gradual clearance over 21-50 days in rodents.<citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1021/acscentsci.9b00551\" pmid=\"31660434\" pmcid=\"PMC6813554\" count=\"1\"><sup>32</sup></citation> <sentence_start/>However, further evaluation of long-term biodegradability, systemic safety, and manufacturing scalability is essential for clinical translation. <sentence_start/>While localized BUP-Gel treatment demonstrated immune activation in tumors, likely by inhibiting neuronal ACh release, BUP can also exert other pleiotropic effects, such as inducing autophagy in lung cancer cells, inducing apoptosis in rhabdomyosarcoma cells, and exerting anti-inflammatory effects in astrocytes.<citation rid=\"bib27\" ref-type=\"bibr\" doi=\"10.3389/fonc.2021.616445\" pmcid=\"PMC7991299\" pmid=\"33777755\" count=\"1\"><sup>27</sup></citation><sup>,</sup><citation rid=\"bib59\" ref-type=\"bibr\" doi=\"10.1186/s12935-015-0229-6\" pmid=\"26225122\" pmcid=\"PMC4518519\" count=\"1\"><sup>59</sup></citation><sup>,</sup><citation rid=\"bib60\" ref-type=\"bibr\" doi=\"10.1111/ejn.12364\" pmid=\"24083665\" pmcid=\"PMC4211363\" count=\"1\"><sup>60</sup></citation> <sentence_start/>Moreover, as BUP induces broad neural blockade, the observed anti-tumor and immune regulatory effects may involve the influence of other neurotransmitter-mediated signals beyond cholinergic signals."
+  },
+  {
+   "section": "article",
+   "text": "Cholinergic activation in macrophages via nAChRs signals suppresses pro-inflammatory responses, possibly through inhibition of NF-\u03baB signaling and reduced TNF and IL-1 production.<citation rid=\"bib61\" ref-type=\"bibr\" doi=\"10.1038/nature01339\" pmid=\"12508119\" count=\"1\"><sup>61</sup></citation> <sentence_start/>ACh released during perineural invasion in pancreatic cancer impairs CD8<sup>+</sup> T cell infiltration, suppresses IFN-\u03b3, and promotes a Th1-to-Th2 immune shift.<citation rid=\"bib62\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.can-19-2689\" pmid=\"32098780\" count=\"1\"><sup>62</sup></citation> <sentence_start/>In line with this, our results show that inhibiting ACh release using BUP-Gel reprograms macrophages toward a pro-inflammatory phenotype and enhances T cell cytotoxicity, which are abrogated by ACh supplementation. <sentence_start/>While these findings highlight the role of cholinergic signaling in immune suppression, the involvement of other neural inputs affected by BUP cannot be ruled out entirely."
+  },
+  {
+   "section": "article",
+   "text": "Our scRNA-seq analysis in patients with colon cancer revealed predominant CHRM3 expression in malignant cells and macrophages, whereas CHRNA7 and CHRM5 were broadly expressed across immune cell populations. <sentence_start/>CHRM3 signaling has been demonstrated to support tumor growth and suppress anti-tumor immunity.<citation rid=\"bib63\" ref-type=\"bibr\" doi=\"10.3390/ijms24010596\" pmid=\"36614038\" pmcid=\"PMC9820315\" count=\"1\"><sup>63</sup></citation><sup>,</sup><citation rid=\"bib64\" ref-type=\"bibr\" doi=\"10.1038/s41389-018-0099-6\" pmid=\"30459304\" pmcid=\"PMC6246593\" count=\"1\"><sup>64</sup></citation><sup>,</sup><citation rid=\"bib65\" ref-type=\"bibr\" doi=\"10.3390/cancers13133220\" pmid=\"34203220\" pmcid=\"PMC8267754\" count=\"1\"><sup>65</sup></citation> <sentence_start/>Similarly, CHRNA7 signaling promotes tumor growth in gastric, colon, liver, and pancreatic cancers and suppresses macrophage pro-inflammatory cytokine production by downregulating NF-\u03baB.<citation rid=\"bib66\" ref-type=\"bibr\" doi=\"10.1016/j.heliyon.2020.e03611\" pmcid=\"PMC7090353\" pmid=\"32215331\" count=\"1\"><sup>66</sup></citation><sup>,</sup><citation rid=\"bib67\" ref-type=\"bibr\" doi=\"10.1002/jcp.28220\" pmid=\"30701535\" count=\"1\"><sup>67</sup></citation><sup>,</sup><citation rid=\"bib68\" ref-type=\"bibr\" doi=\"10.2119/2008-00079.parrish\" pmid=\"18584048\" pmcid=\"PMC2435495\" count=\"1\"><sup>68</sup></citation> Consistent with this, our results demonstrated tumor growth inhibition and improved anti-tumor immunity upon blockade of these receptors. <sentence_start/>In addition to modulating neuron-derived cholinergic signaling, therapeutic targeting of these receptors also reflects the direct effects on immune cells within the TME. <sentence_start/>Therefore, our findings suggest that while BUP-Gel primarily targets neural inputs to the TME by inhibiting ACh release, targeting of ACh receptors represent another parallel and distinct strategy to modulate the TME."
+  },
+  {
+   "section": "article",
+   "text": "Therefore, in summary, hydrogel-mediated delivery of FDA-approved local anesthetics and cholinergic receptor antagonists can inhibit ACh-mediated tumor progression, reverse ACh-mediated immunosuppression, and augment responses to chemotherapy and immunotherapy."
+  },
+  {
+   "section": "article",
+   "text": "Limitations of the study"
+  },
+  {
+   "section": "article",
+   "text": "Although several studies have suggested a role for neurons in cancer progression, there is no evidence for the role of acetylcholine from cholinergic neurons in the colon TME. <sentence_start/>However, it is important to consider the following limitations while interpreting the results. <sentence_start/>First, the multivariate Cox regression analysis using the cohort did not adjust for MMR (mismatched repair) status, a crucial prognostic factor in colon cancer, due to the unavailability of data. <sentence_start/>Second, tumor harbors a mixed population of neurons, and BUP causes non-specific neuronal blockade, including cholinergic, sympathetic, sensory, and enteric neurons within the TME. <sentence_start/>While ACh supplementation and ACh receptor blockade indicates the role of cholinergic signaling in tumor growth and immunosuppression, the involvement of each neural input requires further investigation. <sentence_start/>Third, non-neuronal sources of ACh, including cancer cells, stromal cells, and tuft cells, also contribute to the TME, and their individual roles need to be elucidated. <sentence_start/>Fourth, replicating physiological ACh concentrations is challenging, as ACh levels vary across tissues and are rapidly degraded by acetylcholinesterase. <sentence_start/>Lastly, the response to cholinergic receptor blockade in our patient-derived tumor explant studies may be influenced by the baseline immune composition of individual patient tumors, a finding that requires further investigation to better define patient-specific responses. <sentence_start/>In addition, patient-derived tumor explant studies were limited to MLA treatment only and not performed with darifenacin or ML375 due to limited tissue availability."
+  },
+  {
+   "section": "article",
+   "text": "Resource availability"
+  },
+  {
+   "section": "article",
+   "text": "Lead contact"
+  },
+  {
+   "section": "article",
+   "text": "Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Avinash Bajaj (bajaj@rcb.res.in)."
+  },
+  {
+   "section": "article",
+   "text": "Materials availability"
+  },
+  {
+   "section": "article",
+   "text": "This study did not generate unique reagents."
+  },
+  {
+   "section": "article",
+   "text": "Data and code availability"
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "The raw sequencing data in this study have been deposited in Gene Expression Omnibus (GEO: ). <sentence_start/>The remaining data are available within the article and supplemental information."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "This paper does not report original code."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request."
+  },
+  {
+   "section": "article",
+   "text": "Acknowledgments"
+  },
+  {
+   "section": "article",
+   "text": "Tissue samples had been collected for research purposes with consent. <sentence_start/>Schematic figures were created using . <sentence_start/>We thank the biorepository of Rajiv Gandhi Cancer Institute and Research Center (RGCIRC), Delhi. <sentence_start/>The students thank DBT, ICMR, UGC, and CSIR for research fellowships. <sentence_start/>We thank Dr. Sunil Raghav and Dr. Shilpak Chatterjee for their helpful discussions and suggestions. <sentence_start/>We acknowledge the support of the DBT e-Library Consortium (DeLCON) for providing access to e-resources. <sentence_start/>Research in the AB group is supported by ANRF, 10.13039/501100001407DBT, 10.13039/501100001411ICMR, and 10.13039/100017220RCB Core Funding. <sentence_start/>Animal work in the small animal facility of the Regional Center for Biotechnology is supported by the Department of Biotechnology."
+  },
+  {
+   "section": "article",
+   "text": "Author contributions"
+  },
+  {
+   "section": "article",
+   "text": "A.B. conceived the study, acquired funding, administered and supervised the project, and provided resources. <sentence_start/>D.J., N.P., S.K.J., S.S., R.S., J.A., B.A., A.K., N.K.C., K.R., P.Y., A.K.S., D.N., J.R., and J.S.P. curated the data. <sentence_start/>D.J., N.P., S.K.J., S.S., R.S., A.A., and A.K. performed formal data analysis. <sentence_start/>D.J., N.P., S.K.J., S.S., R.S., A.P.V., A.K., L.M., S.R., S.K.B., R.P. A.P., A.M., V.D., R.B., and J.S.P. carried out the investigation. <sentence_start/>D.J., N.P., S.K.J., A.K., B.A., N.C., A.P.V., S.K., and U.D. developed the methodology. <sentence_start/>V.D., R.B., P.D., V.S.P., U.D., and A.B. provided resources. <sentence_start/>U.D., S.S., J.S.P., V.S.P., and A.B. supervised the study. <sentence_start/>D.J., N.P., and S.K.J. validated the findings. <sentence_start/>D.J., P.D., J.S.P., and V.S.P visualized the data. <sentence_start/>D.J. and A.B. wrote the manuscript, reviewed, and edited the final version."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of interests"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "STAR\u2605Methods"
+  },
+  {
+   "section": "article",
+   "text": "Key resources table"
+  },
+  {
+   "section": "article",
+   "text": "Experimental model and study participant details"
+  },
+  {
+   "section": "article",
+   "text": "Patient samples"
+  },
+  {
+   "section": "article",
+   "text": "All studies with human samples were conducted after due ethical clearance from Institute Ethics Committee (Human) of All India Institute of Medical Sciences New Delhi (Approval No. AIMSA2295/07.10.2024, RP-43/2024), Institute Review Board of Rajiv Gandhi Cancer Institute and Research (Approval No. BR-2017- 007), Institute Ethics Committee (Human) of ESIC Medical College and Hospital Faridabad (Approval No. 134 X/11/13/2025-IEC/DHR/04) and Institute Ethics Committee (Human) of Regional Center for Biotechnology (Approval No. RCB-IEC-H-47, RCB-IEC-H-52) after the due written consent from the patients."
+  },
+  {
+   "section": "article",
+   "text": "Colon cancer tissues from patients undergoing surgery were collected from the All India Institute of Medical Sciences, New Delhi, India, and from the biorepository of Rajiv Gandhi Cancer Institute and Research Center (RGCIRC), Delhi, India. <sentence_start/>Inclusion criteria for patients with colon cancer include those at any stage undergoing upfront surgery. <sentence_start/>Clinical details of the patients are provided in DataSet 1. <sentence_start/>Blood samples of healthy individuals were obtained from ESIC Medical College and Hospital, Faridabad, India. <sentence_start/>Inclusion criteria for blood from healthy individuals include being clinically healthy, without any chronic or acute illnesses, and having no history of significant medical conditions such as cardiovascular, renal, or infectious diseases."
+  },
+  {
+   "section": "article",
+   "text": "All tissue specimens obtained as primary surgical resections were processed according to the center\u2019s standard operating procedures. <sentence_start/>Samples were transferred to the department of pathology immediately after resection, where representative tumor sections were fixed in 10% neutral buffered formalin within the recommended time. <sentence_start/>The fixation duration, paraffin embedding, and sectioning were performed according to institutional QC guidelines to ensure optimal preservation of morphology and antigenicity. <sentence_start/>Only samples that met predefined quality criteria, including adequate tumor cellularity with preserved tissue architecture representative of the tumor, were included in this study. <sentence_start/>For patient-derived tumor explant studies, samples were immediately collected in cold sterile transport medium (RPMI supplemented with 10% FBS and 1% penicillin/streptomycin) and kept on ice. <sentence_start/>Samples were processed within 1-2h of surgical resection to minimize tissue degradation."
+  },
+  {
+   "section": "article",
+   "text": "We performed a post hoc power analysis for categorical comparisons (high vs. low cholinergic neuron density correlated with CD8<sup>+</sup> and CD68<sup>+</sup> immune cell infiltration). <sentence_start/>Assuming a medium-to-large effect size (Cohen\u2019s w = 0.4) and \u03b1 = 0.05, the expanded cohort (<italic>n</italic> = 68) provides approximately 90-95% power for detecting associations with CD68<sup>+</sup> macrophage infiltration, indicating robust statistical sensitivity for this comparison. <sentence_start/>However, for CD8<sup>+</sup> T cell infiltration, the effect size was smaller (Cohen\u2019s h \u223c0.18), suggesting a small to moderate association, and a larger cohort size will be needed to validate the trend."
+  },
+  {
+   "section": "article",
+   "text": "Animal studies"
+  },
+  {
+   "section": "article",
+   "text": "All the animal experiments were approved by the Institute Animal Ethical Committee of the Regional Center for Biotechnology (Approval no. RCB/IAEC/2022/133, RCB/IAEC/2023/166, RCB/IAEC/2023/237, RCB/IAEC/2024/215) and the National Institute of Immunology (Approval no. IAEC#680/24). <sentence_start/>We used 6-8-week-old BALB/c male mice or NSG male mice for experiments involving CT26 cells, 6-8-week-old female BALB/c mice for experiments involving 4T1 cells, and 6-8 week-old male C57/BL6 mice for experiments pertaining to B16 and B16-OVA cells."
+  },
+  {
+   "section": "article",
+   "text": "Cell lines"
+  },
+  {
+   "section": "article",
+   "text": "4T1 and CT26 were cultured in RPMI-1640 containing 10% FBS (Gibco, Carlsbad, CA, USA) and 1% Penicillin-streptomycin solution (Gibco, Carlsbad, CA, USA). <sentence_start/>N2A, L929, B16 and B16-OVA cell lines were cultured in DMEM (Sigma-Aldrich, St. Louis, USA) containing 10% FBS (Gibco, Carlsbad, CA, USA) and 1% Penicillin-streptomycin solution (Gibco, Carlsbad, CA, USA). <sentence_start/>Cells were cultured in a humidified incubator at 37\u00b0C with 5% CO<sub>2</sub> and confirmed to be free of mycoplasma."
+  },
+  {
+   "section": "article",
+   "text": "Method details"
+  },
+  {
+   "section": "article",
+   "text": "Cell culture studies"
+  },
+  {
+   "section": "article",
+   "text": "4T1, CT26, and N2A cells were seeded at 5,000 cells/well (96-well plate). <sentence_start/>After 24 h, cells were treated with serially diluted BUP (starting at 500 \u03bcM) and incubated for 48h. <sentence_start/>Viability was quantified using MTT at 570 nm (SpectraMax i3X, Molecular Devices, San Jose, USA)."
+  },
+  {
+   "section": "article",
+   "text": "To collect conditioned media, N2A and CT26 cells were grown in T75 flasks until 70-80% confluency and left untreated (CM (UT)) or treated with BUP (100 \u03bcM) (CM(BUP)). <sentence_start/>After 24h, conditioned media were collected for downstream experiments."
+  },
+  {
+   "section": "article",
+   "text": "For the proliferation assay, 4T1, CT26, and N2A cells were seeded at 2,000 cells/well. <sentence_start/>After 24 h, cells were treated with ACh (50 \u03bcM), carbachol (50 \u03bcM), BUP (100 \u03bcM), or BUP + ACh for 24, 48, and 72h. <sentence_start/>For conditioned-media experiments, 4T1 and CT26 cells were treated with 50% CM (UT), CM (BUP), or CM (BUP) supplemented with ACh (50 \u03bcM) or carbachol (50 \u03bcM) for the same time points. <sentence_start/>Proliferation was measured by MTT at 570 nm."
+  },
+  {
+   "section": "article",
+   "text": "For the spheroid assay, spheroids (4T1 or CT26 cells) were generated using the hanging-drop method.<citation rid=\"bib69\" ref-type=\"bibr\" doi=\"10.3791/2720\" pmcid=\"PMC3197119\" pmid=\"21587162\" count=\"1\"><sup>69</sup></citation> <sentence_start/>Drops (10 \u03bcL with \u223c1,000 cells) were placed on Petri dish lids and incubated as untreated or with ACh (50 \u03bcM) or carbachol (50 \u03bcM) for 72 h. <sentence_start/>Co-spheroids (CT26/4T1: N2A = 9:1; 900 + 100 cells) were prepared and treated with BUP (100 \u03bcM) with/without ACh (50 \u03bcM) for 72h. <sentence_start/>Spheroids were imaged using Nikon Eclipse Ts2 (Nikon, Tokyo, Japan), and average diameters were quantified."
+  },
+  {
+   "section": "article",
+   "text": "Immunohistochemistry"
+  },
+  {
+   "section": "article",
+   "text": "FFPE tissue sections (\u223c5 \u03bcM) were deparaffinized and rehydrated through a series of xylene, graded ethanol to distilled water washes. <sentence_start/>Tissue sections were then subjected to heat-induced epitope retrieval using citrate buffer (pH 6.0) for 30 min. <sentence_start/>Sections were then blocked for endogenous peroxidase activity with 3% hydrogen peroxide for 10 min, followed by protein blocking for 30 min. <sentence_start/>Primary antibodies, including anti-CD8\u03b1 (ProteinTech, 1:2000) and anti-CD68 (ProteinTech, 1:1000), were used and incubated overnight at 4\u00b0C in a moist chamber. <sentence_start/>Slides were then incubated with Ultratek HRP Anti Polyvalent Staining System (Scytek), and detection was performed using 3,3\u2032-diaminobenzidine (DAB) until a brown precipitate formed. <sentence_start/>For dual staining of NEFL and ChAT, slides were stained with anti-NEFL (ProteinTech, 1:200) raised in mouse as described above, followed by DAB treatment. <sentence_start/>Slides were then rinsed, reblocked and incubated with anti-ChAT antibody (ProteinTech, 1:100) raised in rabbit overnight at 4\u00b0C (pH 6.0) in a moist chamber. <sentence_start/>This was followed by incubation and detection with Ultratek ALP Anti Rabbit Permanent Red Stain (Scytek). <sentence_start/>All sections were then counterstained lightly with hematoxylin, rinsed in water, and mounted. <sentence_start/>Staining was evaluated by brightfield microscopy using an Olympus ch20i microscope (Olympus, Tokyo, Japan)."
+  },
+  {
+   "section": "article",
+   "text": "NEFL/ChAT expression in tumor sections (<italic>n</italic> = 68) was quantified by a certified pathologist. <sentence_start/>Each tumor tissue was examined in the tumor-dense and adjoining areas to determine the number of NEFL/CHAT-positive neurons per high-power field (HPF) and to derive a quantitative score. <sentence_start/>Tumors were then stratified into high and low groups based on the median value as the cut-off. <sentence_start/>For CD68<sup>+</sup> macrophage and CD8<sup>+</sup> T cell quantification, the numbers of CD68<sup>+</sup> cells and CD8<sup>+</sup> cells were counted in multiple (at least 5) HPF. <sentence_start/>CD8<sup>+</sup> T cells were further stratified into high and low based on median cut-offs. <sentence_start/>The average number of infiltrating cells per HPF was determined for each tumor and used for statistical analysis. <sentence_start/>Detailed scoring has been provided in DataSet 2."
+  },
+  {
+   "section": "article",
+   "text": "Multiplex immunofluorescence imaging"
+  },
+  {
+   "section": "article",
+   "text": "For immunofluorescence staining, 10 \u03bcm Formalin-Fixed Paraffin-embedded (FFPE) tissue sections were cut using a microtome (Leica RM2265). <sentence_start/>The sections were transferred to frosted slides (VWR) and dried overnight. <sentence_start/>Sections were deparaffinized using xylene and rehydrated with a series of ethanol to distilled water. <sentence_start/>Heat-induced epitope retrieval was performed by boiling the tissue sections in citrate buffer (pH 6.0) for 30 min. <sentence_start/>The sections were then washed and immuno-labeled using antigen-specific primary antibodies: anti-NEFL (ProteinTech), anti-CD68 (Invitrogen) and biotin-conjugated mouse anti-CD8a (BioLegend), followed by fluorophore-conjugated secondary antibodies or fluorescently conjugated streptavidin (Jackson ImmunoResearch Laboratories Inc.). <sentence_start/>Hoechst 33342 (Sigma Aldrich) was used to counterstain the nuclei. <sentence_start/>Sections were mounted using Prolong Gold antifade mounting medium (Invitrogen). <sentence_start/>Fluorescence imaging was performed using Leica STELLARIS 5 confocal microscope. <sentence_start/>Images were captured using 20X and 40X objectives and processed using LasX software<citation rid=\"bib70\" ref-type=\"bibr\" doi=\"10.1186/1471-2121-9-13\" pmid=\"18366689\" pmcid=\"PMC2288605\" count=\"1\"><sup>70</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Acetylcholine quantification using LC-MS/MS and data analysis"
+  },
+  {
+   "section": "article",
+   "text": "The cell pellets or tissues were resuspended in MS-grade water and homogenized by bead beating and probe sonication. <sentence_start/>An aliquot was taken for protein estimation using the Bicinchoninic acid (BCA) protein estimation kit. <sentence_start/>The cell suspension was incubated overnight at 4\u00b0C in 500 \u03bcL of 80% MeOH containing the acetylcholine-d9 internal standard, then centrifuged.<citation rid=\"bib71\" ref-type=\"bibr\" doi=\"10.1016/j.ab.2015.01.003\" pmid=\"25613493\" pmcid=\"PMC4397148\" count=\"1\"><sup>71</sup></citation> <sentence_start/>The supernatant was transferred to another tube, and the pellet was extracted twice and dried. <sentence_start/>Dried samples were resuspended in 200 \u03bcL of 80% MeOH. <sentence_start/>The samples were vortexed, centrifuged, and transferred to the autoinjector vial for LC-MS/MS analysis. <sentence_start/>Analysis was performed using UHPLC (Exion LC AC, SCIEX, USA) coupled to a hybrid triple quadrupole/linear ion trap mass spectrometer (QTRAP 6500+, SCIEX, USA) using multiple reaction monitoring (MRM).<citation rid=\"bib72\" ref-type=\"bibr\" count=\"1\"><sup>72</sup></citation> <sentence_start/>The limits of detection, accuracy, precision, and matrix effect were not evaluated separately. <sentence_start/>For chromatographic separation, an AQUITY UPLC BEH X Bridge amide column (Waters) (3.5 \u03bcm, 4.6 \u00d7 150 mm) was used with an oven temperature of 35\u00b0C. <sentence_start/>Total run time was 18 min, where solvent A (95% acetonitrile with 10 mM ammonium acetate) and solvent B (50% acetonitrile with 10 mM ammonium acetate) were used as mobile phase A and B, respectively. <sentence_start/>The LC gradient solvent followed an increase in solvent B from 0% to 6% in 6 min, 25% for the next 4 min, 98% in the next 1 min, and 100% in the next 2.5 min with a flow rate of 0.7 mL/min. <sentence_start/>Finally, 100% buffer B was maintained for another 0.5 min at a flow rate of 1.5mL/min. <sentence_start/>Buffer B was then returned to 0% for 0.2 min, followed by equilibration for 3.8 min. <sentence_start/>Acquisition was performed using Analyst 1.6.3 software, and peak areas for all analytes were integrated using Multiquant 3.0.2 software (AB SCIEX, USA) for data analysis."
+  },
+  {
+   "section": "article",
+   "text": "Hydrogel preparation and characterization"
+  },
+  {
+   "section": "article",
+   "text": "For BUP-Gel, 4 mg BUP was dissolved in 1 mL filtered Milli-Q water and added to 70 mg A13 hydrogelator. <sentence_start/>BUP-ACh-Gel and BUP-CARB-Gel were similarly prepared by incorporating ACh or carbachol at 0.5 mg/mL along with 4 mg BUP. <sentence_start/>The mixtures were heated, sonicated, and allowed to cool for gelation. <sentence_start/>The warm drug-loaded solution was transferred to a syringe, cooled to form the gel, and subsequently used for animal studies via a 22-26 gauge needle.<citation rid=\"bib73\" ref-type=\"bibr\" doi=\"10.3791/2720\" pmid=\"32941570\" count=\"1\"><sup>73</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Mechanical properties were measured using a parallel-plate rheometer (Anton Paar MCR302, Graz, Austria, RheoCompass 1.31; PP12.5 geometry, 0.5 mm gap). <sentence_start/>The linear viscoelastic region was first determined by performing an amplitude sweep (0.1-500% strain) at a constant angular frequency of 10 rad s<sup>\u22121</sup>. <sentence_start/>Based on this, an oscillatory frequency sweep (0.1-200 rad s<sup>\u22121</sup>) was conducted at 0.1% strain to evaluate the storage modulus (G\u2032) and loss modulus (G\u2033). <sentence_start/>Temperature-dependent rheological behavior was assessed via a temperature sweep from 20\u00b0C to 60\u00b0C at a heating rate of 2\u00b0C min<sup>\u22121</sup>, maintaining a constant oscillatory strain of 1% and an angular frequency of 6.28 rad s<sup>-1</sup>. <sentence_start/>To investigate the self-healing properties of the hydrogel network, thixotropic measurements were performed. <sentence_start/>The gel structure was initially disrupted by applying a high strain of 100%, followed by a reduction to 0.1% strain to monitor recovery. <sentence_start/>Additionally, three consecutive cycles of alternating high strain (100%) and low strain (0.1%) were applied at a constant angular frequency of 10 rad s<sup>\u22121</sup> to evaluate the reversible breakdown and recovery behavior of the hydrogel."
+  },
+  {
+   "section": "article",
+   "text": "For AFM imaging, 6 \u03bcL of sample was drop-cast onto a silicon wafer, incubated for 5 min, washed with 100 \u03bcL water, and air-dried in a desiccator. <sentence_start/>Height images were obtained in tapping mode using an Asylum Research MFP-3D (Santa Barbara, California, USA) with a silicon cantilever (Budget Sensor). <sentence_start/>Surface roughness was analyzed using IgorPro software."
+  },
+  {
+   "section": "article",
+   "text": "For drug release studies, a 200 \u03bcL gel sample containing BUP was placed in a transwell with 500 \u03bcL release medium (1\u00d7 PBS, pH 7.4, with 0.05% Tween 20) and incubated at 37\u00b0C. <sentence_start/>At predetermined time points, 500 \u03bcL of the medium was collected and replaced with fresh medium. <sentence_start/>Samples were speed-vacuum concentrated, methanol-extracted, and analyzed by HPLC (Waters, C18 column 4.6 \u00d7 250 mm, 5 \u03bcm; UV detection at 254 nm). <sentence_start/>Elution was performed using 50% acetonitrile and 50% solvent mixture [water (37.5): methanol (60): tetrahydrofuran (2.5) with 0.1% aq. NH<sub>3</sub>] at 0.5 mL/min."
+  },
+  {
+   "section": "article",
+   "text": "Studies with mouse macrophages"
+  },
+  {
+   "section": "article",
+   "text": "Murine bone marrow cells were isolated from C57BL/6 mice. <sentence_start/>Briefly, the femur and tibia were dissected, and connective tissue was removed. <sentence_start/>Each bone cavity was flushed with DMEM high glucose supplemented with 10% FBS. <sentence_start/>Cells were collected in a 15 mL tube and centrifuged at 500g for 5 min. <sentence_start/>Pellet was then resuspended in 1mL of 1X RBC lysis buffer and incubated for 5 min. <sentence_start/>Falcon tubes (15 mL) were then filled with DPBS and passed through a 40 \u03bcm strainer to remove clumps and debris. <sentence_start/>Cells were spun at 500g for 5 min, and the supernatant was discarded. <sentence_start/>Cell pellet was resuspended in 20% L929 conditioned medium in complete DMEM and seeded in a 12-well plate or T-75 flask. <sentence_start/>After 6-7 days, bone marrow cells were differentiated into BMDMs and were used for further experiments."
+  },
+  {
+   "section": "article",
+   "text": "For gene expression, BMDMs were either left untreated or treated with BUP (100 \u03bcM) or with 50% conditioned media from untreated N2A cells or BUP-treated N2A cells, incubated for 48h, and later processed for RNA isolation. <sentence_start/>For flow cytometry, BMDMs were polarized into M1-like BMDMs using LPS (100 ng/mL) and IFN-\u03b3 (20 ng/mL) for 24h. <sentence_start/>LPS/IFN-\u03b3 were removed, and M1-like BMDMs were subjected to different treatments for 48 h and processed for flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Studies with human macrophages"
+  },
+  {
+   "section": "article",
+   "text": "For human macrophages, CD14<sup>+</sup> monocytes were sorted from the human peripheral blood mononuclear cells (PBMCs) of healthy individuals using MojoSort Human CD14<sup>+</sup> Monocytes Isolation Kit as per the manufacturer\u2019s protocol. <sentence_start/>Monocytes were cultured in complete RPMI-1640 supplemented with 50 ng/mL M-CSF. <sentence_start/>Media was refreshed every 2-3 days for 7-8 days. <sentence_start/>Monocyte-derived macrophages were polarized into M1-like macrophages using LPS (100 ng/mL) and IFN-\u03b3 (20 ng/mL) for 24h. <sentence_start/>LPS/IFN-\u03b3 were removed, and M1-like macrophages were subjected to different treatments for 48h and processed for flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Studies with mouse T cells"
+  },
+  {
+   "section": "article",
+   "text": "For murine T cells, the spleen from C57BL/6 mice was homogenized in ice-cold 1X PBS using frosted glass slides. <sentence_start/>The cell suspension was filtered through a 40 \u03bcm strainer, centrifuged at 1800 rpm for 5 min, and treated with 1X RBC lysis buffer for 4-5 min at room temperature. <sentence_start/>After washing with PBS and centrifugation, the pellet was resuspended in a 0.6 mL Magnetic-activated Cell Sorting (MACS) buffer, and cells were counted. <sentence_start/>Anti-mouse CD8 magnetic beads (100 \u03bcL per 10<sup>7</sup> cells) were added and incubated at 4\u00b0C for 45-60 min. <sentence_start/>Following magnetic separation and two washes with MACS buffer, cells were resuspended in 1 mL T cell medium (RPMI with essential amino acids and glutamine) and seeded in a 48-well plate. <sentence_start/>These cells were stimulated with anti-CD3/CD28 magnetic dynabeads and subjected to different treatments for 48h. <sentence_start/>After that, the cell stimulation cocktail (PMA/Ionomycin and Golgi stop) was added for 4h, and the cells were stained for flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Studies with human T cells"
+  },
+  {
+   "section": "article",
+   "text": "For human T cells, human PBMCs were stained with anti-human CD3-PE/Cy7, anti-human CD8-FITC, and anti-human CD4-APC/Cy7 and incubated on ice for 20 min. <sentence_start/>PBMCs were then washed and stained with DAPI to distinguish live from dead cells. <sentence_start/>Live CD8<sup>+</sup> T cells were sorted using fluorescence-associated cell sorting in BD FACS Aria. <sentence_start/>The isolated CD8<sup>+</sup> T cells were counted using trypan blue and seeded in a 96-well plate along with human anti-CD3/CD28 magnetic beads for 48h in iMDM medium containing IL-2 (10 ng/mL). <sentence_start/>After 48h, cells were de-beaded, transferred to a 48-well plate, and allowed to proliferate. <sentence_start/>Cells were subjected to different treatments for 48h. <sentence_start/>After that, cell stimulation cocktail (PMA/Ionomycin and Golgi stop) was added for 4h, and cells were stained for flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Flow cytometry studies for macrophages and T cell cultures"
+  },
+  {
+   "section": "article",
+   "text": "For macrophages, cells were harvested and stained with Zombie Aqua Fixable Viability dye (1:100) in 1X PBS for 15 min. <sentence_start/>Cells were washed and stained with anti-F4/80-APC in FACS Buffer and incubated for 20 min at 4\u00b0C. <sentence_start/>After incubation, cells were washed and subjected to fixation and permeabilization using Cyto-fast Fix/Perm Kit according to the manufacturer\u2019s protocol. <sentence_start/>Cells were then stained with a mixture of antibodies for intracellular markers, including anti-iNOS-PE and anti-Arg1-PE/Cy7, and incubated for 20 min at RT. <sentence_start/>Cells were washed and resuspended in FACS buffer and further acquired using FACS Symphony A5 SE (BD Biosciences, NJ, USA) and were analyzed using Flowjo v10 software. <sentence_start/>A similar protocol was used for human monocyte-derived macrophages using anti-CD86-FITC and anti-CD68-PE/Cy7 antibodies. <sentence_start/>Mouse splenic CD8<sup>+</sup> T cells were stained with anti-CD8-FITC, anti-Granzyme B-PE/Dazzle 594, anti-IFN-\u03b3-AF700 and anti-TNF-\u03b1-BV785 antibodies, and human T cells were stained with anti-Granzyme B-PE, anti-IFN-\u03b3-APC and anti-TNF-\u03b1-PerCP/Cy5.5 antibodies."
+  },
+  {
+   "section": "article",
+   "text": "RT-qPCR"
+  },
+  {
+   "section": "article",
+   "text": "Total RNA was isolated from BMDMs using TRIzol Reagent. <sentence_start/>cDNA was synthesized with the BioRAD RT Master Mix, and RT-qPCR was performed using SYBR Green Supermix according to established protocol.<citation rid=\"bib74\" ref-type=\"bibr\" doi=\"10.1038/s41419-021-03436-x\" pmid=\"33568634\" pmcid=\"PMC7876150\" count=\"1\"><sup>74</sup></citation> <sentence_start/>Relative gene expression levels were calculated using the 2<sup>\u2212\u0394\u0394Ct</sup> method. <sentence_start/>Primers are mentioned in Table S1."
+  },
+  {
+   "section": "article",
+   "text": "Animal studies"
+  },
+  {
+   "section": "article",
+   "text": "The flank region of the mice was shaved before cell injection. <sentence_start/>On the day of cell injection, \u223c1.5 million CT26/B16 cells suspended in 200\u03bcL FBS were injected subcutaneously in the left flank of mice, while 4T1 cells were orthotopically injected in the 3<sup>rd</sup> mammary fat pad. <sentence_start/>Once tumours reached \u223c50 mm<sup>3</sup>, mice were randomly divided into different treatment groups with an average tumor volume of \u223c50 mm<sup>3</sup> and subjected to different treatment regimens. <sentence_start/>Tumor volume was measured using a digital vernier caliper every other day, and calculated as (Length X Breadth<sup>2</sup>)/2. <sentence_start/>We excluded the mice whose tumor volume was 10 mm<sup>3</sup> above or below the average tumor volume. <sentence_start/>Blinding procedures were not used for animal studies due to practical and logistical difficulties. <sentence_start/>All animal experiments were performed with 5-8 mice/group. <sentence_start/>The following formula of power calculation was employed to determine the sample size for the number of animals:"
+  },
+  {
+   "section": "article",
+   "text": "where Standard deviation = 8-10% (from previous studies)"
+  },
+  {
+   "section": "article",
+   "text": "d = effect size = difference between mean values. <sentence_start/>This is kept at \u223c15%; that is, if there is a minimum 15% reduction in tumor volume, the data would be significant."
+  },
+  {
+   "section": "article",
+   "text": "Hence now formula will be, Sample size = 2 SD<sup>2</sup> (1.96 + 0.842)<sup>2</sup>/d<sup>2</sup>"
+  },
+  {
+   "section": "article",
+   "text": "So, according to this calculation, the sample size in each group can be 5-8."
+  },
+  {
+   "section": "article",
+   "text": "Anti-tumor studies"
+  },
+  {
+   "section": "article",
+   "text": "Mice were categorized into different treatment groups to evaluate the efficacy of BUP-Gel (40 mg/kg), Darifenacin-Gel (25 mg/kg), MLA-Gel (25 mg/kg), and ML375-Gel (25 mg/kg). <sentence_start/>For monotherapy studies, group 1 mice were left untreated, while group 2 received the corresponding drug-loaded hydrogel. <sentence_start/>To examine whether ACh or CARB (5 mg/kg) affected BUP-mediated tumor inhibition, mice were randomized into three groups: untreated, BUP-Gel, or BUP-ACh-Gel/BUP-CARB-Gel. <sentence_start/>For T cell depletion studies, tumor-bearing mice were divided into four groups: Untreated, BUP-Gel with Isotype IgG control antibody, BUP-Gel with anti-CD8 antibody and BUP-Gel with anti-CD4 antibody. <sentence_start/>All antibodies were administered at a dose of 250 \u03bcg/mouse, intraperitoneally on days 4 and 8 after gel injection. <sentence_start/>For comparing BUP-Gel and BUP-TS treatments, tumor-bearing mice were randomized into three groups: group 1 mice were left untreated, while group 2 and group 3 mice were treated with BUP-TS (Solution, 40 mg/kg) and BUP-Gel (40 mg/kg). <sentence_start/>For combination therapy experiments with oxaliplatin (OX), tumor-bearing mice were divided into four groups: untreated; BUP-Gel/DARF-Gel/ML375-Gel/MLA-Gel; OX alone (5 mg/kg, intravenously on days 4 and 8 after gel injection); or the combination of gel therapy and OX. <sentence_start/>Similarly, for combination with 5-Fluorouracil (5-FU), CT26 tumor-bearing mice were divided into four groups: untreated; BUP-Gel; 5-FU alone (20 mg/kg, intravenously on days 4, 8, and 12 after gel injection); or the combination of BUP-Gel with 5-FU. <sentence_start/>For combination with aCTLA4, tumor-bearing mice were randomized into four groups: untreated; BUP-Gel/DARF-Gel/ML375-Gel/MLA-Gel; aCTLA4 alone (100 \u03bcg/mouse, intraperitoneally, day 2 after gel injection); or the combination gel therapy and anti-CTLA4. <sentence_start/>For adoptive T cell therapy studies, B16-OVA tumor-bearing mice were divided into groups: groups 1 mice remained untreated, group 2 mice received 2 \u00d7 10<sup>6</sup> OT-I cells via retro-orbital injection (100 \u03bcL PBS) (at the same time as group 4), while group 3 mice received BUP-Gel; group 4 mice received BUP-Gel and 2 \u00d7 10<sup>6</sup> OT-I cells after 5 days of BUP-Gel injection. <sentence_start/>Combination index analysis was performed as per established study.<citation rid=\"bib75\" ref-type=\"bibr\" doi=\"10.1158/2767-9764.crc-23-0243\" pmid=\"37830749\" pmcid=\"PMC10591909\" count=\"1\"><sup>75</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "To evaluate the effect of BUP-Gel therapy on tumor recurrence, CT26 tumors were surgically resected at \u223c50 mm<sup>3</sup>. <sentence_start/>Mice were randomized into two groups: Untreated and BUP-Gel. BUP-Gel was injected the next day after tumor resection, and mice were observed for tumor recurrence. <sentence_start/>After 20 days of BUP-Gel therapy, CT26 cells (0.2 million cells) were injected into naive, untreated and BUP-Gel-treated mice (mice without relapse), and again, tumor growth was monitored till day 36 of initial BUP-Gel injection."
+  },
+  {
+   "section": "article",
+   "text": "Toxicity studies"
+  },
+  {
+   "section": "article",
+   "text": "CT26 tumour-bearing mice were treated with different combinations of treatments as described above. <sentence_start/>At day 20, serum samples were collected and subjected to toxicity assessment, including liver function and kidney function tests."
+  },
+  {
+   "section": "article",
+   "text": "5\u2032 single-cell RNA transcriptomics"
+  },
+  {
+   "section": "article",
+   "text": "Three CT26 tumors per group were harvested, digested, and processed to obtain a single-cell suspension. <sentence_start/>These cells were stained with anti-CD45-FITC antibody, followed by live-dead staining. <sentence_start/>Live CD45<sup>+</sup> and CD45<sup>\u2212</sup> cells from the tumour were sorted and pooled in 3:1 ratio and washed thoroughly with 1X PBS. <sentence_start/>A total of 25,000 cells, pooled from untreated and treated tumors, were loaded onto separate lanes of the Chromium NextGEM Chip K. The manufacturer\u2019s recommendations were followed to generate gene expression libraries from the captured cells in each lane. <sentence_start/>Libraries were sequenced on a NovaSeq 6000 as per the manufacturer\u2019s instructions. <sentence_start/>Demultiplexed raw FASTQ files corresponding to gene expression libraries of each lane were mapped to the mouse reference genome GRCm39 using the 10X Genomics cellranger (v8.0.0) count pipeline. <sentence_start/>We retained 7163 and 6776 cells for the untreated and BUP-treated groups/lanes, respectively, after removing cells that did not meet our QC parameters. <sentence_start/>The QCed cells were analyzed using the R-based Seurat package (v5.0.1). <sentence_start/>Since both experiments (lanes) were conducted concurrently and ran on the same chip, no batch effects were observed, as recommended by the Seurat package. <sentence_start/>Quality-controlled cells with UMI counts greater than 100 and mitochondrial DNA content less than 20% were used to log-normalize the dataset. <sentence_start/>The most significant principal components (PCs) were used to find neighbors and to further determine clusters. <sentence_start/>A uniform manifold approximation and projection (UMAP) was applied to visualise the single-cell transcriptional profile in 2D space using the same number of most significant PCs. <sentence_start/>Markers of individual clusters (or groups) were defined as the differentially expressed genes between cells in each group and every other group, using the Wilcoxon rank-sum test implemented in the function FindAllMarkers. <sentence_start/>Genes with log-fold change &gt;/ = 0.25 and a BH-adjusted <italic>p</italic> value &lt;/ = 0.05 were considered to be differentially expressed. <sentence_start/>Pairwise comparisons between the two clusters of interest were performed using the FindMarkers function with the same cutoffs as mentioned."
+  },
+  {
+   "section": "article",
+   "text": "Single-cell RNA-sequencing data acquisition and analysis"
+  },
+  {
+   "section": "article",
+   "text": "Publicly available Smartseq2-based single cell RNA sequencing data and associated metadata on colorectal cancer ( ) were downloaded from the TISCH website ( ) and used for analysis with the R (v4.4.0) package Seurat (v5.3.0).<citation rid=\"bib76\" ref-type=\"bibr\" doi=\"10.1093/nar/gkac959\" pmid=\"36321662\" pmcid=\"PMC9825603\" count=\"1\"><sup>76</sup></citation><sup>,</sup><citation rid=\"bib77\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2021.04.048\" pmid=\"34062119\" pmcid=\"PMC8238499\" count=\"1\"><sup>77</sup></citation> <sentence_start/>The data were log-normalized, and highly variable genes were selected for scaling. <sentence_start/>The first twenty principal components were selected to infer cell-cell similarity and construct a shared nearest-neighbor graph. <sentence_start/>Transcriptionally distinct cell populations were identified by unsupervised clustering, and the results were visualized using Uniform Manifold Approximation and Projection (UMAP).<citation rid=\"bib78\" ref-type=\"bibr\" doi=\"10.21105/joss.00861\" count=\"1\"><sup>78</sup></citation> <sentence_start/>Associated metadata, including sample information and cell-type annotations, were then incorporated into the Seurat object. <sentence_start/>Harmony (v1.2.3) was used to normalize the PCA embeddings across different patient samples.<citation rid=\"bib79\" ref-type=\"bibr\" doi=\"10.1038/s41592-019-0619-0\" pmid=\"31740819\" pmcid=\"PMC6884693\" count=\"1\"><sup>79</sup></citation> <sentence_start/>The RunHarmony function was used with the default parameters to correct batch effects with \u2018Sample\u2019 as the batch variable. <sentence_start/>The first twenty harmony dimensions and a resolution of 0.5 were then used with the FindNeighbors and FindClusters functions. <sentence_start/>Dimension reduction was performed using the RunUMAP function."
+  },
+  {
+   "section": "article",
+   "text": "To investigate the expression landscape of cholinergic signaling components in colorectal cancer, a gene set comprising muscarinic and nicotinic acetylcholine receptor genes was curated (Table S3). <sentence_start/>Their expression was then examined across patients and annotated cell lineages in the tumor samples of the dataset using violin, feature and dot plot visualizations. <sentence_start/>Muscarinic and nicotinic receptor expression scores were first computed at the single-cell level using the <italic>AddModuleScore</italic> function in <italic>Seurat v5.3.0</italic>, based on curated receptor gene sets. <sentence_start/>These scores were then aggregated at the patient level by calculating the median module score across all cells per tumour sample, yielding patient-specific muscarinic and nicotinic receptor activity scores. <sentence_start/>For each receptor class, samples were stratified into High and Low expression groups using the cohort-wide median score as the cut-off. <sentence_start/>These group labels were appended to the Seurat metadata and used for downstream comparative analyses. <sentence_start/>Cell-type proportions were calculated by normalizing the number of cells in each annotated cluster to the total number of cells per sample. <sentence_start/>Targeted analyses were performed for selected immune populations, including M1 macrophages, exhausted CD8<sup>+</sup> T cells (CD8Tex), and regulatory T cells (Tregs). <sentence_start/>Statistical comparisons between High and Low receptor groups were performed using a two-sided Wilcoxon rank-sum test implemented via the <italic>ggpubr</italic> v0.6.1<citation rid=\"bib81\" ref-type=\"bibr\" count=\"1\"><sup>80</sup></citation>package."
+  },
+  {
+   "section": "article",
+   "text": "Multivariate Cox regression and Kaplan-Meier analysis"
+  },
+  {
+   "section": "article",
+   "text": "Univariate Kaplan-Meier analysis was performed using the KM-Plotter database.<citation rid=\"bib80\" ref-type=\"bibr\" doi=\"10.1111/bph.70215\" pmid=\"41057034\" count=\"1\"><sup>81</sup></citation> <sentence_start/>The publicly available microarray gene expression data and associated metadata on colorectal cancer ( ) were downloaded from the GEO database and analyzed in R (v4.5.3).<citation rid=\"bib77\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2021.04.048\" pmid=\"34062119\" pmcid=\"PMC8238499\" count=\"1\"><sup>77</sup></citation> <sentence_start/>The dyplr (v1.2.1) package was utilized for data organization and for the isolation of clinical covariates. <sentence_start/>The independent prognostic significance was determined by the multivariate Cox proportional hazard regression model, and the resulting data (Hazard ratios, <italic>p</italic>-value) were plotted using the ggforest function in the survminer(v0.5.2) package. <sentence_start/>Kaplan-Meier plots were made using the survfit function using the survival package (v3.8.6). <sentence_start/>The resulting survival curves, along with risk tables, were visualised utilising the ggsurvplot function within the survminer package (v0.5.2).The remaining plots were made using ggplot2 package (v4.0.3).<citation rid=\"bib81\" ref-type=\"bibr\" count=\"1\"><sup>80</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Flow cytometry studies for mouse samples"
+  },
+  {
+   "section": "article",
+   "text": "Excised tumor sections were chopped, homogenized and were subjected to enzymatic digestion using DNase I (50U/mL) and collagenase (0.75 mg/mL) in shaker incubator at 37\u00b0C for 45 min. <sentence_start/>After digestion, cells were strained to obtain single cells.<citation rid=\"bib82\" ref-type=\"bibr\" doi=\"10.1016/j.jconrel.2024.03.009\" pmid=\"38462044\" count=\"1\"><sup>82</sup></citation> <sentence_start/>For Macrophages, single cells were stained with Zombie Aqua Fixable Viability dye (1:100) in 1X PBS for 15 min for live/dead staining. <sentence_start/>After incubation, cells were washed and stained with a cocktail of antibodies including anti-CD45-FITC, anti-Ly6G-PerCP/Cy5.5, anti-F4/80-APC, anti-CD11b-APC/Cy7, and incubated for 20 min at 4\u00b0C in the dark, followed by washing with FACS buffer. <sentence_start/>Cells were then fixed and permeabilized with Cyto-Fast Fix/Perm Kit according to manufacturer\u2019s protocol. <sentence_start/>After fixation and permeabilization, cells were stained with a cocktail of antibodies in 100 \u03bcL Cyto-Fast Perm Wash Buffer, including anti-iNOS-PE, anti-ARG1-PE/Cy7, anti-IFN-\u03b3-BV711 and anti-TNF\u03b1-BV785. <sentence_start/>The cells were incubated for 20 min at RT and washed with Cyto-Fast Perm Wash Buffer. <sentence_start/>Cells were resuspended in FACS Buffer and acquired using FACS Symphony A5 SE (BD Biosciences, NJ, USA) and were analyzed using Flowjo v10 software."
+  },
+  {
+   "section": "article",
+   "text": "For T cells, the cell suspension was enriched using a Percoll gradient, and the buffy coat was collected. <sentence_start/>Cells were first stained with anti-CD4-PE/Cy7 in FACS buffer and incubated for 20 min at 4\u00b0C in the dark. <sentence_start/>Cells were washed and subjected to stimulation with PMA (50 ng/mL) and Ionomycin (1 \u03bcg/mL) in complete RPMI-1640 at 37\u00b0C for 2h, and 1X Monensin was added 2h after the addition of the stimulation cocktail to inhibit Golgi vesicle-mediated secretion of cytokines. <sentence_start/>After 4h incubation, cells were washed and stained with Zombie Aqua Fixable Viability dye (1:100) in 1X PBS for 15 min. <sentence_start/>This was followed by washing and staining of cell surface markers with a cocktail of antibodies targeting surface markers, including anti-CD8-FITC, anti-CD45-PerCP/Cy5.5, anti-CD3e-BV421, anti-PD-1-APC/Cy7, anti-TIM3-APC and anti-CTLA4. <sentence_start/>Cells were incubated at 4\u00b0C for 20 min in the dark, washed and further fixed and permeabilised using Cyto-Fast Fix/Perm kit according to the manufacturer\u2019s protocol. <sentence_start/>Cells were further stained with a cocktail of antibodies, including anti-Granzyme B-PE/Dazzle594, anti-IFN\u03b3-AF700 and anti-TNF\u03b1-BV785 in Cyto-Fast Perm Wash Buffer, and incubated for 20 min at RT, washed and finally resuspended in FACS Buffer. <sentence_start/>Cells were then acquired using FACS Symphony A5 SE (BD Biosciences, NJ, USA) and were analyzed using Flowjo v10 software."
+  },
+  {
+   "section": "article",
+   "text": "For memory T cells, peripheral blood from tumour-bearing mice was collected and treated with 1X RBC lysis buffer for 10 min, followed by washing with 1\u00d7 PBS at 500g for 5 min; this wash step was repeated twice to ensure complete removal of RBCs. <sentence_start/>The remaining cells were resuspended in FACS buffer for blocking, then stained with an antibody cocktail consisting of anti-CD8-FITC, anti-CD44-PE, anti-CD62L-PerCP-Cy5.5, anti-CD3e-PE-Cy7, anti-CD4-APC-Cy7, and anti-CD45-BV510, and incubated at 4\u00b0C in the dark for 20 min. <sentence_start/>After two additional PBS washes, cells were stained with DAPI for live/dead discrimination and acquired on a FACS Symphony A5 SE (BD Biosciences, NJ, USA) and were analyzed using Flowjo v10 software."
+  },
+  {
+   "section": "article",
+   "text": "Patient tumor explant studies"
+  },
+  {
+   "section": "article",
+   "text": "Fresh specimens of patient-derived tumor fragments were cultured as per the published article.<citation rid=\"bib48\" ref-type=\"bibr\" doi=\"10.1038/s41591-021-01398-3\" pmid=\"34239134\" count=\"1\"><sup>48</sup></citation> <sentence_start/>Briefly, 96-well plates were coated with 40 \u03bcL of extracellular matrix, which consisted of 2/3rd of matrigel and 1/3rd of collagen and were allowed to polymerize at 37\u00b0C for 30 min. <sentence_start/>Tumour fragments were washed on a cell strainer and placed one per well on top of the solidified matrix. <sentence_start/>A second 40 \u03bcL extracellular matrix layer was added, solidified, and topped up with 120 \u03bcL tumor medium. <sentence_start/>These fragments were subjected to different treatments for 48h and were processed for flow cytometry."
+  },
+  {
+   "section": "article",
+   "text": "Flow cytometry studies for human explants"
+  },
+  {
+   "section": "article",
+   "text": "Tumor fragments were finely chopped and subjected to enzymatic digestion with DNase I (0.026 mg/mL) and Collagenase IV (1 mg/mL) for 1h at 37\u00b0C on a constant shaking platform. <sentence_start/>Cells were then strained and washed with cold 1X PBS to obtain a single-cell suspension. <sentence_start/>For macrophages, cells were stained with Zombie Aqua Fixable Viability dye (1:100) in 1X PBS for 15 min to detect live/dead cells. <sentence_start/>Cells were washed and stained with anti-CD45-AF700, anti-CD11b-APC/Cy7, anti-CD86-FITC, and anti-CD163-PE in FACS Buffer, incubated for 20 min at 4\u00b0C. <sentence_start/>After incubation, cells were washed and subjected to fixation and permeabilization using Cyto-fast Fix/Perm Kit according to the manufacturer\u2019s protocol. <sentence_start/>Cells were then stained with anti-CD68-PE/Cy7 and incubated for 20 min at RT. <sentence_start/>Cells were washed and resuspended in FACS buffer and further acquired using FACS Symphony A5 SE (BD Biosciences, NJ, USA) and were analyzed using Flowjo v10 software. <sentence_start/>For T cells, the cell suspension was incubated with a cell stimulation cocktail, followed by a Golgi stop for 4h. <sentence_start/>Cells were harvested and stained with Zombie Aqua Fixable Viability dye (1:100) in 1X PBS for 15 min. <sentence_start/>Cells were washed and stained with anti-CD45-AF700, anti-CD3e-PE/Cy7, anti-CD8-FITC, and anti-CD4-APC/Cy7 in FACS Buffer, incubated for 20 min at 4\u00b0C. <sentence_start/>After incubation, cells were washed and subjected to fixation and permeabilization using Cyto-fast Fix/Perm Kit according to the manufacturer\u2019s protocol. <sentence_start/>Cells were then stained with antibodies for intracellular markers, including anti-Granzyme B-PE, anti-IFN-\u03b3-APC and anti-TNF\u03b1-PerCP/Cy5.5 and incubated for 20 min at RT. <sentence_start/>Cells were washed and resuspended in FACS buffer and further acquired using FACS Symphony A5 SE (BD Biosciences, NJ, USA) and were analyzed using Flowjo v10 software."
+  },
+  {
+   "section": "article",
+   "text": "Quantification and statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "We performed statistical analyses using GraphPad Prism 10 (GraphPad Software). <sentence_start/>Data is represented as mean \u00b1 SD or mean \u00b1 SEM as mentioned in all figure legends. <sentence_start/>We performed pairwise comparisons using unpaired or paired Student\u2019s <italic>t</italic> test, multiple comparisons among groups using one-way ANOVA, and growth kinetic analysis using two-way ANOVA. <sentence_start/>Post-hoc corrections were performed using the Dunnett method for one-way ANOVA and the Tukey method for two-way ANOVA. <sentence_start/>Differences between groups were considered significant at <italic>p</italic>-values below 0.05 (\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.005, \u2217\u2217\u2217<italic>p</italic> &lt; 0.0005, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001)."
+  },
+  {
+   "section": "back",
+   "text": "Supplemental information"
+  },
+  {
+   "section": "back",
+   "text": "Document S1. <sentence_start/>Figures S1-S7 and Tables S1-S3"
+  },
+  {
+   "section": "back",
+   "text": "Data S1. <sentence_start/>Clinical details of the patients with colon cancer, including gender, age, stage, grade, and MMR status"
+  },
+  {
+   "section": "back",
+   "text": "Data S2. <sentence_start/>Clinical details of the cohort for multivariate survival analysis in patients with colon cancer"
+  },
+  {
+   "section": "back",
+   "text": "Data S3. <sentence_start/>Quantification of NEF/ChAT, CD8, and CD68 in colon cancer tissue sections"
+  },
+  {
+   "section": "back",
+   "text": "Document S2. <sentence_start/>Article plus supplemental information"
+  },
+  {
+   "section": "back",
+   "text": "Supplemental information can be found online at ."
+  }
+ ]
+}

@@ -1,0 +1,763 @@
+{
+ "pmid": 42765029,
+ "pmcid": 13590055,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "eNAMPT-IFITM3 axis links neuroinflammation to \u03b3-secretase activation"
+  },
+  {
+   "section": "abstract",
+   "text": "Summary"
+  },
+  {
+   "section": "abstract",
+   "text": "Amyloid-\u03b2 (A\u03b2) accumulation and neuroinflammation are central features of Alzheimer\u2019s disease (AD), yet the molecular link connecting inflammatory signaling to \u03b3-secretase activation remains poorly understood. <sentence_start/>Here, using a cell-based gain-of-function screen with a cDNA library, we identify nicotinamide phosphoribosyltransferase (NAMPT) as a positive regulator of \u03b3-secretase activity. <sentence_start/>We demonstrate that extracellular NAMPT (eNAMPT) acts as a paracrine factor binding to cell-surface interferon-induced transmembrane protein 3 (IFITM3), enhancing its protein stability and promoting \u03b3-secretase complex assembly to heighten amyloidogenic processing, independently of its NAD+ biosynthetic function. <sentence_start/>Pathologically, NAMPT levels are elevated in patients with AD and mouse models. <sentence_start/>Furthermore, systemic inflammation induced by lipopolysaccharide (LPS) enhances NAMPT expression and promotes the NAMPT-IFITM3 interaction and \u03b3-secretase complex assembly <italic>in vivo</italic>, whereas NAMPT neutralization with an antibody suppresses LPS-induced <italic>\u03b3</italic>-secretase activation. <sentence_start/>These findings establish the eNAMPT-IFITM3 axis as a key molecular link bridging neuroinflammation and \u03b3-secretase-mediated AD pathology."
+  },
+  {
+   "section": "abstract",
+   "text": "Graphical abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "Highlights"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "eNAMPT preferentially enhances APP-related \u03b3-secretase processing"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "eNAMPT binds the IFITM3 C-terminus to increase the IFITM3-associated \u03b3-secretase complex"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Neutralizing eNAMPT suppresses the LPS-induced \u03b3-secretase activation in AD mice"
+  },
+  {
+   "section": "abstract",
+   "text": "Immunology; Neuroscience"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Amyloid plaques, characterized by the deposition of neurotoxic amyloid-\u03b2 (A\u03b2) peptides that aggregate into soluble oligomers and insoluble extracellular plaques, are defining pathological hallmarks of Alzheimer\u2019s disease (AD).<citation rid=\"bib1\" ref-type=\"bibr\" doi=\"10.1038/nrm2101\" pmid=\"17245412\" count=\"1\"><sup>1</sup></citation><sup>,</sup><citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.3390/ijms22126355\" pmcid=\"PMC8231952\" pmid=\"34198582\" count=\"1\"><sup>2</sup></citation> A\u03b2 generation is widely recognized as a central event in disease initiation and occurs through the sequential proteolytic cleavage of the APP by \u03b2-secretase (BACE) and \u03b3-secretase.<citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.1126/science.1132813\" pmid=\"17082448\" pmcid=\"PMC3544944\" count=\"1\"><sup>3</sup></citation> <sentence_start/>The \u03b3-secretase is a terminal enzyme in the amyloidogenic pathway, and its overall catalytic activity is thus tightly coupled to the total production yield of A\u03b2. <sentence_start/>The \u03b3-secretase is a large multiprotein intramembrane complex of approximately 440 kDa, composed of four essential core subunits; presenilin (PS1 or PS2), the catalytic component; nicastrin (NCT) for substrate recognition; anterior pharynx-defective 1 (APH1), a structural scaffold for complex assembly; and presenilin enhancer 2 (PEN2), which facilitates the endoproteolytic cleavage of presenilin to its active form.<citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2007.10.012\" pmid=\"17956719\" count=\"1\"><sup>4</sup></citation> <sentence_start/>This complex catalyzes the cleavage of APP, determining the overall level of A\u03b2 peptides generated.<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1021/jacs.1c10533\" pmid=\"35377629\" pmcid=\"PMC9798850\" count=\"1\"><sup>5</sup></citation> <sentence_start/>In addition, \u03b3-secretase cleaves numerous substrates, most notably Notch, highlighting the critical importance of identifying modulators that specifically regulate APP-cleaving activity.<citation rid=\"bib6\" ref-type=\"bibr\" doi=\"10.1111/j.1600-0854.2010.01090.x\" pmid=\"20573067\" pmcid=\"PMC2919600\" count=\"1\"><sup>6</sup></citation><sup>,</sup><citation rid=\"bib7\" ref-type=\"bibr\" doi=\"10.1073/pnas.0408007101\" pmid=\"15563588\" pmcid=\"PMC535399\" count=\"1\"><sup>7</sup></citation> Recent studies underscore that \u03b3-secretase activity is regulated by internal and external modulators, particularly within the endolysosomal compartments.<citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1523/jneurosci.1698-21.2021\" pmid=\"34810230\" pmcid=\"PMC8741161\" count=\"1\"><sup>8</sup></citation><sup>,</sup><citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.3390/s23052651\" pmcid=\"PMC10007619\" pmid=\"36904854\" count=\"1\"><sup>9</sup></citation> While various modulators have been identified,<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1007/s00018-013-1515-x\" pmid=\"24270855\" pmcid=\"PMC11113593\" count=\"1\"><sup>10</sup></citation><sup>,</sup><citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1016/j.celrep.2021.110102\" pmid=\"34879266\" count=\"1\"><sup>11</sup></citation><sup>,</sup><citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1126/scisignal.aax8949\" pmid=\"32184288\" count=\"1\"><sup>12</sup></citation><sup>,</sup><citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1074/jbc.M109.059345\" pmid=\"19710022\" pmcid=\"PMC2781407\" count=\"1\"><sup>13</sup></citation><sup>,</sup><citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.1038/nm.3023\" pmid=\"23202293\" count=\"1\"><sup>14</sup></citation> the precise mechanisms dictating \u03b3-secretase activity under AD pathology, such as inflammation, remain poorly understood."
+  },
+  {
+   "section": "article",
+   "text": "Nicotinamide phosphoribosyltransferase (NAMPT), the rate-limiting enzyme in the NAD+ salvage pathway, converts nicotinamide (NAM) to NAM mononucleotide (NMN), a precursor for NAD+ synthesis for maintaining cellular energy homeostasis, DNA repair, and redox balance.<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1038/cddis.2017.132\" pmid=\"28333140\" pmcid=\"PMC5386535\" count=\"1\"><sup>15</sup></citation><sup>,</sup><citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1016/j.molcel.2025.05.022\" pmid=\"40505662\" count=\"1\"><sup>16</sup></citation><sup>,</sup><citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.5732/cjc.012.10089\" pmid=\"22704488\" pmcid=\"PMC3777511\" count=\"1\"><sup>17</sup></citation><sup>,</sup><citation rid=\"bib18\" ref-type=\"bibr\" doi=\"10.1038/s41389-020-00264-0\" pmid=\"32908120\" pmcid=\"PMC7481307\" count=\"1\"><sup>18</sup></citation><sup>,</sup><citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1016/j.redox.2022.102237\" pmcid=\"PMC8784331\" pmid=\"35063804\" count=\"1\"><sup>19</sup></citation> Beyond its enzymatic functions, NAMPT also acts as a pro-inflammatory cytokine-like molecule, often referred to as pre-B-cell colony-enhancing factor (PBEF) or visfatin, underscoring its dual functionality in metabolic and inflammatory processes.<citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.1038/nrendo.2015.117\" pmid=\"26215259\" count=\"1\"><sup>20</sup></citation><sup>,</sup><citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.3389/fonc.2020.00358\" pmid=\"32266141\" pmcid=\"PMC7096376\" count=\"1\"><sup>21</sup></citation><sup>,</sup><citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1016/j.dci.2020.103881\" pmid=\"33038343\" count=\"1\"><sup>22</sup></citation> NAMPT\u2019s involvement in inflammation is increasingly recognized across various disease contexts.<citation rid=\"bib23\" ref-type=\"bibr\" doi=\"10.2174/15680266113136660208\" pmid=\"24171767\" count=\"1\"><sup>23</sup></citation> <sentence_start/>In acute lung injury and rheumatoid arthritis, NAMPT amplifies inflammatory signaling.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1038/srep13135\" pmcid=\"PMC4536637\" pmid=\"26272519\" count=\"1\"><sup>24</sup></citation><sup>,</sup><citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.3389/fimmu.2021.795626\" pmcid=\"PMC8801790\" pmid=\"35111160\" count=\"1\"><sup>25</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.1186/1755-8794-3-15\" pmid=\"20444268\" pmcid=\"PMC2874757\" count=\"1\"><sup>26</sup></citation> <sentence_start/>In metabolic disorders, such as obesity and type 2 diabetes, NAMPT levels are elevated and contribute to chronic low-grade inflammation.<citation rid=\"bib27\" ref-type=\"bibr\" pmid=\"18246224\" count=\"1\"><sup>27</sup></citation><sup>,</sup><citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.3389/fmed.2023.1116862\" pmcid=\"PMC9928959\" pmid=\"36817780\" count=\"1\"><sup>28</sup></citation><sup>,</sup><citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1210/en.2004-1427\" pmid=\"15677759\" count=\"1\"><sup>29</sup></citation><sup>,</sup><citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1002/dmrr.1201\" pmid=\"21484978\" count=\"1\"><sup>30</sup></citation> These findings highlight NAMPT as a key player at the intersection of metabolic dysregulation and inflammatory signaling. <sentence_start/>In the central nervous system, NAMPT is expressed across various cell types and is upregulated in response to inflammatory stimuli, such as lipopolysaccharide (LPS), further linking NAMPT to neuroinflammation.<citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.1186/s12964-025-02164-5\" pmid=\"40159488\" pmcid=\"PMC11956250\" count=\"1\"><sup>31</sup></citation><sup>,</sup><citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1677/jme.0.0260107\" pmid=\"11241162\" count=\"1\"><sup>32</sup></citation> While neuroinflammation, a driver of AD pathology,<citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1016/s1474-4422(15)70016-5\" pmid=\"25792098\" pmcid=\"PMC5909703\" count=\"1\"><sup>33</sup></citation> activates \u03b3-secretase, the identity of the secreted inflammatory factor released by reactive glial cells and acting on neighboring neurons for \u03b3-secretase activation remains a critical missing link.<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1038/s41586-020-2681-2\" pmid=\"32879487\" pmcid=\"PMC7919141\" count=\"1\"><sup>34</sup></citation><sup>,</sup><citation rid=\"bib35\" ref-type=\"bibr\" doi=\"10.1186/1742-2094-5-25\" pmid=\"18564425\" pmcid=\"PMC2442055\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1016/j.pharmthera.2014.11.005\" pmid=\"25448038\" count=\"1\"><sup>36</sup></citation> Recently, interferon-induced transmembrane protein 3 (IFITM3), an endolysosomal protein, has emerged as a key \u03b3-secretase regulator, which interacts with \u03b3-secretase to promote amyloidogenic processing.<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1038/s41586-020-2681-2\" pmid=\"32879487\" pmcid=\"PMC7919141\" count=\"1\"><sup>34</sup></citation> <sentence_start/>However, the upstream regulation of IFITM3 function or association with \u03b3-secretase during neuroinflammation is not clear."
+  },
+  {
+   "section": "article",
+   "text": "To better understand the molecular connection between inflammation and \u03b3-secretase, we have screened a cDNA expression library encoding 1,800 human secretory proteins using a cell-based assay of \u03b3-secretase and isolated NAMPT. <sentence_start/>In the present study, we demonstrate that eNAMPT, secreted by astrocytes, acts as a molecular messenger that specifically engages IFITM3 on the neuronal cell surface to enhance \u03b3-secretase activity and A\u03b2 production. <sentence_start/>Our findings establish the NAMPT-IFITM3 axis as a crucial molecular connection, solving the long-standing question of how neuroinflammation is coupled to \u03b3-secretase activation."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "NAMPT increases \u03b3-secretase activity with a preference for APP processing"
+  },
+  {
+   "section": "article",
+   "text": "To identify positive regulators of \u03b3-secretase, we have screened a cDNA expression library encoding 1,800 secretory proteins with a \u03b3-secretase reporter assay which utilizes pC99-TetOn and pTRE-GFP, as previously described.<citation rid=\"bib37\" ref-type=\"bibr\" doi=\"10.1007/s00018-013-1515-x\" pmid=\"24270855\" pmcid=\"PMC11113593\" count=\"1\"><sup>37</sup></citation> <sentence_start/>Through an unbiased genome-wide gain of functional screen, we have isolated several positive cDNA clones that enhanced the reporter activity reflecting \u03b3-secretase activity in HEK293T cells.<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1007/s00018-013-1515-x\" pmid=\"24270855\" pmcid=\"PMC11113593\" count=\"1\"><sup>10</sup></citation><sup>,</sup><citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1016/j.celrep.2021.110102\" pmid=\"34879266\" count=\"1\"><sup>11</sup></citation><sup>,</sup><citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1126/scisignal.aax8949\" pmid=\"32184288\" count=\"1\"><sup>12</sup></citation> <sentence_start/>Among them, NAMPT was potent to stimulate \u03b3-secretase after transient overexpression in the cell-based assay. <sentence_start/>Using C99-GVP luciferase reporter assay, we confirmed that NAMPT overexpression significantly enhanced \u03b3-secretase activity by 1.5-fold compared to control cells, while NAMPT knockdown significantly reduced it (Figures 1A and 1D). <sentence_start/>Consistently, <italic>in vitro</italic> APP intracellular domain (AICD) generation assays in SH-SY5Y/APPsw and SH-SY5Y/APPsl-PS1\u0394E9 cells revealed that NAMPT overexpression enhanced APP processing to increase the levels of AICD, a product of APP processing by \u03b3-secretase, while NAMPT knockdown reduced it (Figures 1B and 1E). <sentence_start/>Accordingly, NAMPT overexpression and knockdown affected the levels of secreted A\u03b2 in culture medium of SH-SY5Y/APPsw cells (Figures 1C and 1F). <sentence_start/>These findings suggest that NAMPT is a positive activator of \u03b3-secretase and A\u03b2 generation.<sentence_start/>Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "NAMPT promotes \u03b3-secretase activity with a preference for APP processing"
+  },
+  {
+   "section": "article",
+   "text": "(A-C) NAMPT-FLAG overexpression enhances \u03b3-secretase activity and A\u03b2 production. <sentence_start/>HEK293T (A) and SH-SY5Y/APPsw (B and C) cells overexpressing NAMPT-FLAG were assessed for \u03b3-secretase activity with a C99-GVP luciferase reporter assay (A), for AICD levels by <italic>in vitro</italic> AICD generation assay (B), and for secreted A\u03b2 levels in the conditioned medium by immunoprecipitation (IP) assay using 6E10 or anti-A\u03b2 antibody (C). <sentence_start/>WCL, whole cell lysates."
+  },
+  {
+   "section": "article",
+   "text": "(D-F) Knockdown of NAMPT expression reduces \u03b3-secretase activity. <sentence_start/>HEK293T (D), SH-SY5Y/APPsl-PS1\u0394E9 (E), and SH-SY5Y/APPsw (F) cells silencing NAMPT expression with shRNA were assessed for \u03b3-secretase as described in (A-C). <sentence_start/>WCL, whole cell lysates."
+  },
+  {
+   "section": "article",
+   "text": "(G-J) NAMPT levels do not affect the activities of \u03b2- and \u03b1-secretase. <sentence_start/>HEK293T cells overexpressing (G) or silencing (H) NAMPT were assessed for \u03b2-secretase activity with a Bace1 reporter assay (G and H). <sentence_start/>Culture medium of CHO-7PA2 cells overexpressing (I) or silencing (J) NAMPT was examined for \u03b1-secretase activity by measuring sAPP\u03b1 with western blotting. <sentence_start/>n.s., not significant."
+  },
+  {
+   "section": "article",
+   "text": "(K and L) NAMPT does not affect Notch cleavage. <sentence_start/>HEK293T cells were transfected with Notch\u0394E-GFP and either NAMPT (K, left) or NAMPT shRNA (K, right) for 24 h and analyzed with western blotting. <sentence_start/>The signals of NICD on the blots were quantified using ImageJ (L). <sentence_start/>n.s.; not significant."
+  },
+  {
+   "section": "article",
+   "text": "Bars represent mean \u00b1 SEM (A, <italic>n</italic> = 4; D, <italic>n</italic> = 5; G-J, <italic>n</italic> = 3; L, <italic>n</italic> = 4), \u2217<italic>p</italic> &lt; 0.05, n.s., not significant (Student\u2019s <italic>t</italic> test)."
+  },
+  {
+   "section": "article",
+   "text": "We next assessed the effects of NAMPT on \u03b2- and \u03b1-secretase activities using corresponding reporter assays. <sentence_start/>Intriguingly, unlike its stimulatory effect on \u03b3-secretase, the activities of \u03b2- and \u03b1-secretases were not significantly altered by NAMPT overexpression (Figures 1G and 1I) or knockdown (Figures 1H and 1J). <sentence_start/>Thus, NAMPT modulates \u03b3-secretase without influencing the activities of \u03b2- and \u03b1-secretases. <sentence_start/>In addition, because NAMPT stimulates \u03b3-secretase activity and APP processing, we evaluated whether NAMPT also affects Notch cleavage by analyzing the levels of Notch intracellular domain (NICD), a product of Notch processing by \u03b3-secretase. <sentence_start/>The results of western blot analysis in HEK293T cells expressing Notch\u0394E-GFP revealed that the levels of NICD generated by \u03b3-secretase were not altered by NAMPT expression levels (Figures 1K and 1L). <sentence_start/>NAMPT levels following its overexpression and knockdown in the respective cells were confirmed by western blotting (Figures 1B-1E and 1K). <sentence_start/>These results indicate that NAMPT selectively activates \u03b3-secretase to increase APP processing, rather than Notch cleavage."
+  },
+  {
+   "section": "article",
+   "text": "\u03b3-Secretase activity in neurons increases by glial cell-derived eNAMPT independent of its enzyme activity"
+  },
+  {
+   "section": "article",
+   "text": "To investigate whether the enzyme activity of NAMPT is associated with its stimulatory effect on \u03b3-secretase, we utilized the NAMPT inhibitor FK866.<citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1038/aps.2017.80\" pmid=\"28858298\" pmcid=\"PMC5800471\" count=\"1\"><sup>38</sup></citation> <sentence_start/>With AICD generation assay, we found that treatment of HEK293T/APPsw cells with FK866 did not affect \u03b3-secretase activity compared to untreated control (Figures S1A and S1B). <sentence_start/>In addition, treatment of HEK293T/APPsw membrane fractions with NAD<sup>+</sup> did not alter \u03b3-secretase activity either. <sentence_start/>We also tested the effects of the NAMPT dominant-negative (DN) mutant (H247A), which is unable to convert NAM to NMN.<citation rid=\"bib39\" ref-type=\"bibr\" doi=\"10.1038/nsmb1105\" pmid=\"16783377\" count=\"1\"><sup>39</sup></citation><sup>,</sup><citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1111/bph.13505\" pmid=\"27128025\" pmcid=\"PMC4919578\" count=\"1\"><sup>40</sup></citation> <sentence_start/>The results of the C99-GVP luciferase reporter assay revealed that expression of NAMPT DN mutant significantly increased \u03b3-secretase activity (Figure S1C). <sentence_start/>On the other hand, this stimulatory effect was impaired by NAMPT S200D mutant, which loses the ability to form NAMPT dimer and thereby enzyme activity.<citation rid=\"bib41\" ref-type=\"bibr\" doi=\"10.1016/j.cmet.2007.09.003\" pmid=\"17983582\" pmcid=\"PMC2098698\" count=\"1\"><sup>41</sup></citation> <sentence_start/>In addition, unlike NAMPT wild type (WT) and H247A mutant, NAMPT S200D mutant was not detected in the conditioned medium (CM) of HEK293T cells (Figure S1D). <sentence_start/>These studies suggest that NAMPT stimulates \u03b3-secretase activity through eNAMPT, rather than its enzymatic role in producing NAD<sup>+</sup>."
+  },
+  {
+   "section": "article",
+   "text": "NAMPT is ubiquitously expressed in a variety of tissues, including adipose tissue, liver, and brain.<citation rid=\"bib42\" ref-type=\"bibr\" doi=\"10.3390/cancers14092059\" pmcid=\"PMC9103253\" pmid=\"35565188\" count=\"1\"><sup>42</sup></citation><sup>,</sup><citation rid=\"bib43\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0212523\" pmcid=\"PMC6386387\" pmid=\"30794635\" count=\"1\"><sup>43</sup></citation> <sentence_start/>To assess cell-type-specific NAMPT expression in the brain during neuroinflammation, we utilized a public single-cell RNA sequencing (scRNA-seq) dataset (GEO: ) from an LPS-induced mouse.<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1038/s41467-025-56097-1\" pmid=\"39814731\" pmcid=\"PMC11735931\" count=\"1\"><sup>44</sup></citation> <sentence_start/>Sub-clustering analysis yielded well-defined annotations of distinct cell lineages based on selective cell type markers (Figures S2A and S2B). <sentence_start/>The scRNA-seq profile revealed that <italic>Nampt</italic> transcript is ubiquitously distributed throughout brain cell types, with significantly upregulated within glial lineages following LPS treatment (Figures 2A and 2B). <sentence_start/>Notably, a highly reactive astrocyte subcluster characterized by elevated <italic>Gfap</italic> exhibited a significant enrichment of <italic>Nampt</italic> transcription (Figure 2A, enlarged). <sentence_start/>To validate the transcriptomic results <italic>in vivo</italic>, we performed immunofluorescence staining on brain sections from PBS- and LPS-treated mice (0.5 mg/kg/day for 2 days, intraperitoneal [i.p.]) using cell-type-specific markers. <sentence_start/>Consistently, LPS treatments showed significantly elevated NAMPT levels in astrocytes, alongside a shift toward a high-expressing population in microglia (Figures 2C and 2D). <sentence_start/>In contrast, neurons showed only a marginal increase in NAMPT intensity, while endothelial cells exhibited no significant change of NAMPT intensity (Figure S2C). <sentence_start/>Furthermore, we validated that NAMPT was highly expressed in primary cortical astrocytes, moderate in primary cortical microglia, and relatively low in primary cortical neurons (Figure S2D).Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "NAMPT secreted from astrocyte and microglia upon LPS treatment enhances \u03b3-secretase activity in neurons"
+  },
+  {
+   "section": "article",
+   "text": "(A) Uniform manifold approximation and projection (UMAP) feature plots illustrating cell-type-specific distribution and levels of <italic>Nampt</italic> transcripts in PBS- and LPS-treated (LPS \u00d7 2, daily 0.8 mg/kg, i.p.) mouse brain from GEO dataset (upper). <sentence_start/>An enlarged view of the <italic>Gfap</italic> high astrocyte cluster is shown to highlight the prominent increase of <italic>Nampt</italic> expression in astrocytes following repeated systemic LPS administration (lower)."
+  },
+  {
+   "section": "article",
+   "text": "(B) Dot plot showing <italic>Nampt</italic> expression across annotated brain cell populations under PBS- and LPS- treated conditions. <sentence_start/>Dot size represents the fraction of <italic>Nampt</italic>-expressing cells within each cluster and color intensity represents average expression level."
+  },
+  {
+   "section": "article",
+   "text": "(C) Representative images of brain sections immunostained for NAMPT together with cell-type markers, including GFAP for astrocytes and IBA1 for microglia. <sentence_start/>Mice were i.p. injected with PBS or 0.5 mg/kg LPS daily for two consecutive days and brain sections were prepared 24 h after second injection. <sentence_start/>Scale bars, 100 \u03bcm."
+  },
+  {
+   "section": "article",
+   "text": "(D) Quantitative violin plots showing mean fluorescence intensity (MFI) of NAMPT within specific cell marker-labeled areas (GFAP for astrocytes and IBA1 for microglia) between PBS and LPS groups. <sentence_start/>(Cell numbers: GFAP [PBS = 95, LPS = 225], IBA1 [PBS = 116, LPS = 187]). <sentence_start/>\u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 (Student\u2019s <italic>t</italic> test)."
+  },
+  {
+   "section": "article",
+   "text": "(E and F) Primary cortical astrocytes (DIV10) (E) and BV2 (F) were treated with 1 \u03bcg/mL LPS for 24 h and the resulting CMs were immunodepleted using control IgG or anti-NAMPT antibody. <sentence_start/>HT22 cells expressing the C99-GVP luciferase reporter were then incubated with control CM, NAMPT-depleted CM, or NAMPT-depleted CM supplemented with 1 \u03bcg/mL rNAMPT for 24 h, and \u03b3-secretase activity was assessed using a luciferase reporter assay."
+  },
+  {
+   "section": "article",
+   "text": "(G) HT22 cells were co-transfected with C99-GVP, UAS-Luc, and LacZ for 24 h, treated with 1 \u03bcg/mL rNAMPT protein or heat-denatured rNAMPT protein for additional 24 h in the absence or presence of polymyxin B pre-incubation. <sentence_start/>Then, \u03b3-secretases activity was assessed using a C99-GVP luciferase reporter assay."
+  },
+  {
+   "section": "article",
+   "text": "(H and I) rNAMPT does not affect Notch cleavage. <sentence_start/>HEK293T cells were transfected with Notch\u0394E-GFP for 24 h, treated with 1 \u03bcg/mL rNAMPT for an additional 24 h, and analyzed with western blotting (H). <sentence_start/>The signals of NICD on the blots were quantified using ImageJ (I). <sentence_start/>n.s., not significant."
+  },
+  {
+   "section": "article",
+   "text": "Bars represent mean \u00b1 SEM (E and F, <italic>n</italic> = 4 and 5; G, <italic>n</italic> = 4; I, <italic>n</italic> = 3) \u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.01, \u2217\u2217\u2217<italic>p</italic> &lt; 0.005, \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 n.s.; not significant (E, F; one-way ANOVA, G; two-way ANOVA, I; Student\u2019s <italic>t</italic> test)."
+  },
+  {
+   "section": "article",
+   "text": "We then addressed whether glia-derived eNAMPT regulated \u03b3-secretase activity in neuronal cells. <sentence_start/>When HT22 hippocampal cells were incubated with conditioned media prepared from either primary cortical astrocytes or BV2 mouse microglial cells which were exposed to LPS, \u03b3-secretase activity was significantly increased (Figures 2E and 2F). <sentence_start/>Crucially, immunodepleting the CM with anti-NAMPT antibody blocked the stimulation of \u03b3-secretase activity. <sentence_start/>Again, supplementation of NAMPT-depleted CM with excess recombinant NAMPT protein (rNAMPT) re-elevated \u03b3-secretase activity (Figures 2E and 2F). <sentence_start/>Intriguingly, treatment with rNAMPT alone significantly increased \u03b3-secretase activity, whereas heat-denatured rNAMPT failed to do so. <sentence_start/>In addition, polymyxin B, an LPS-neutralizing reagent, did not block the stimulatory effect of rNAMPT on \u03b3-secretase activity either, indicating that the observed response is driven by its intrinsic protein structure (Figure 2G). <sentence_start/>In contrast, this stimulatory effect of rNAMPT was not observed in Notch cleavage (Figures 2H and 2I). <sentence_start/>Together, these results indicate that glia-derived eNAMPT stimulates \u03b3-secretase activity in neuronal cells."
+  },
+  {
+   "section": "article",
+   "text": "The rNAMPT directly binds to C-terminal domain of IFITM3 on cell surface"
+  },
+  {
+   "section": "article",
+   "text": "To assess how eNAMPT regulates \u03b3-secretase in neuronal cells, rNAMPT protein was purified from <italic>E. coli</italic> and fluorescently labeled with DyLight 488 NHS ester (rNAMPT-488) (Figure S3A). <sentence_start/>Upon treatment with rNAMPT-488 for 30 min or 1 h, the fluorescence was initially detected at the wheat germ agglutinin (WGA)-positive cell surface and internalized within Rab7-positive endocytic vesicles in HT22 cells (Figures S3B and S3C). <sentence_start/>Pretreatment with endocytosis inhibitor, methyl-\u03b2-cyclodextrin (M\u03b2CD) did not much affect the initial cellular binding of eNAMPT, whereas preincubation with anti-NAMPT antibody effectively blocked it (Figures S3D and S3E). <sentence_start/>A similar pattern of cellular binding of rNAMPT was also observed in mouse embryo fibroblasts (MEFs) (Figures S3F and S3G). <sentence_start/>We then hypothesized that there might be a binding partner for eNAMPT on cell surface, which functions to modulate \u03b3-secretase activity. <sentence_start/>Under inflammatory conditions, IFITM3 has emerged as a strong candidate, as it is localized at the plasma membrane and endolysosomal compartments<citation rid=\"bib45\" ref-type=\"bibr\" doi=\"10.1128/jvi.01328-10\" pmid=\"20943977\" pmcid=\"PMC3004348\" count=\"1\"><sup>45</sup></citation><sup>,</sup><citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1146/annurev-virology-031413-085537\" pmid=\"25599080\" pmcid=\"PMC4295558\" count=\"1\"><sup>46</sup></citation><sup>,</sup><citation rid=\"bib47\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2009.12.017\" pmid=\"20064371\" pmcid=\"PMC2824905\" count=\"1\"><sup>47</sup></citation> and is associated with presenilin in the \u03b3-secretase complexes.<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1038/s41586-020-2681-2\" pmid=\"32879487\" pmcid=\"PMC7919141\" count=\"1\"><sup>34</sup></citation> <sentence_start/>Previously, a yeast two-hybrid screening also showed a possible interaction between IFITM3 and NAMPT.<citation rid=\"bib48\" ref-type=\"bibr\" doi=\"10.1016/j.febslet.2008.04.061\" pmid=\"18486613\" pmcid=\"PMC2519886\" count=\"1\"><sup>48</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "We thus examined the binding of eNAMPT to IFITM3 on the cell surface. <sentence_start/>Intriguingly, cellular binding of rNAMPT-488 was markedly reduced in IFITM3 knockout (KO) HT22 cells compared to control cells (Figures 3A-3C). <sentence_start/>Using co-immunoprecipitation (coIP) assays, we also found that IFITM3 bound to NAMPT WT and H247A mutant, but not to secretion-defective NAMPT S200D mutant (Figure 3D). <sentence_start/>Furthermore, the results of <italic>in vitro</italic> binding assays revealed that rNAMPT bound to IFITM3 at neutral pH 7.4, with the binding affinity markedly reduced at pH 6.5 (mimicking the pH of endosomal vesicles) (Figure 3E). <sentence_start/>To assess whether rNAMPT directly binds to IFITM3, we performed <italic>in vitro</italic> binding assays between purified rNAMPT protein and a biotinylated C-terminal peptide of IFITM (biotin-IFITM3-CT). <sentence_start/>Streptavidin pull-down of biotin-IFITM3-CT successfully co-precipitated rNAMPT, which was inhibited by an excess of cold C-terminal peptide of IFITM3 (IFITM3-CT) (Figure 3F). <sentence_start/>Together, these results imply that rNAMPT directly binds to IFITM3 on cell surface through its C-terminus domain and this interaction might be weakened upon internalization into acidic endosomal compartments, allowing the detachment of NAMPT from IFITM3.Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "The C-terminal domain of IFITM3 is essential for rNAMPT-binding and subsequent \u03b3-secretase stimulation"
+  },
+  {
+   "section": "article",
+   "text": "(A and B) HT22 sgControl and sgIFITM3 cells were treated with 1 \u03bcg/mL rNAMPT-488 for 1 h, stained as described the aforementioned, and imaged using LSM700 confocal microscope. <sentence_start/>Scale bars, 20 \u03bcm (A). <sentence_start/>Cellular signals of rNAMPT-488 were quantified using ImageJ. Bars represent mean \u00b1 SEM (number of cells per group: 36, 41, and 71, \u2217\u2217\u2217<italic>p</italic> &lt; 0.005, Student\u2019s <italic>t</italic> test) (B)."
+  },
+  {
+   "section": "article",
+   "text": "(C) HT22 sgControl and sgIFITM3 cell lysates were analyzed by western blotting."
+  },
+  {
+   "section": "article",
+   "text": "(D) HEK293T cells were transfected with FLAG-tagged NAMPT WT, H247A dominant-negative, or S200D monomeric mutant for 24 h and then subjected to immunoprecipitation (IP) assay using anti-IFITM3 or control IgG antibody. <sentence_start/>Input, 10%."
+  },
+  {
+   "section": "article",
+   "text": "(E) Crude membrane fractions of HT22 cells were solubilized with 0.5% n-Dodecyl beta-D-maltoside (DDM) for 1 h and incubated with buffer (different pH) containing 0.5 \u03bcg rNAMPT for 1 h at 37\u00b0C. <sentence_start/>Samples were then subjected to immunoprecipitation (IP) assay using anti-IFITM3 or control IgG antibody. <sentence_start/>Input, 10%."
+  },
+  {
+   "section": "article",
+   "text": "(F) Streptavidin beads immobilized with 1 nM biotinylated IFITM3-CT peptide (biotin-IFITM3-CT) or biotinylated scrambled peptide (Scr) were incubated with 1 \u03bcg purified rNAMPT protein for 2 h. <sentence_start/>For the competition assay, rNAMPT was pre-incubated with excess IFITM3 CT peptide (IFITM3-CT) before the addition to IFITM3 CT peptide-immobilized beads. <sentence_start/>Bound rNAMPT was detected by western blotting."
+  },
+  {
+   "section": "article",
+   "text": "(G) Domain structure of IFITM3 WT and deletion mutants (\u0394). <sentence_start/>N-term, N-terminus; IM, intramembrane; CIL, conserved intracellular loop; TM, transmembrane; C-term, C-terminus."
+  },
+  {
+   "section": "article",
+   "text": "(H and I) HT22 cells were transfected with IFITM3 WT-RFP or deletion mutant-RFP for 48 h, and then kept on ice, followed by the treatment with 1 \u03bcg/mL rNAMPT-488 for 10 min. <sentence_start/>Cells were stained and observed as described in Figure 3A. Arrows indicate localization of rNAMPT-488. <sentence_start/>Scale bars, 20 \u03bcm. <sentence_start/>Cellular signals of rNAMPT-488 were quantified using ImageJ. Bars represent mean \u00b1 SEM (number of cells per group RFP-IFITM3; RFP\u2212/+ = 10, 10 RFP-IFITM3 \u0394CT; RFP\u2212/+ = 15, 12 RFP-IFITM3 \u25b5NT; RFP\u2212/+ = 14, 10) \u2217<italic>p</italic> &lt; 0.05, n.s., not significant (Student\u2019s <italic>t</italic> test) (I)."
+  },
+  {
+   "section": "article",
+   "text": "(J) SH-SY5Y sgControl and sgIFITM3 cells were co-transfected with C99-GVP luciferase reporter system (C99-GVP, UAS-Luc, and LacZ) along with ITITM3-WT, -\u0394CT or -\u0394NT mutant for 24 h, treated with/without 1 \u03bcg/mL rNAMPT for additional 24 h, and assessed for \u03b3-secretases activity using a C99-GVP luciferase reporter assay."
+  },
+  {
+   "section": "article",
+   "text": "Bars represent mean \u00b1 SEM (<italic>n</italic> = 4), \u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.01, \u2217\u2217\u2217<italic>p</italic> &lt; 0.005, \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 n.s., not significant (two-way ANOVA)."
+  },
+  {
+   "section": "article",
+   "text": "We then examined the IFITM3 region involved in the rNAMPT-binding using IFITM3 deletion mutants lacking the C-terminal extracellular domain (\u0394CT), or N-terminal intracellular domain (\u0394NT) (Figure 3G). <sentence_start/>Expression levels of RFP-fused IFITM3 WT and its deletion mutants were similar in the transfected HT22 cells. <sentence_start/>Following incubation with rNAMPT-488, the cellular signal of rNAMPT-488 was highly observed in HT22 cells expressing RFP-IFITM3 or RFP-IFITM3-\u0394NT, while it was low in cells expressing IFITM3-\u0394CT compared to that in untransfected adjacent cells (Figures 3H and 3I). <sentence_start/>To validate whether the C-terminus of IFITM3 is functionally essential for \u03b3-secretase activity, we performed a rescue experiment in SH-SY5Y IFITM3 KO cells. <sentence_start/>\u03b3-Secretase activity increased by the reconstitution with IFITM3 WT and \u0394NT, but not with IFITM3 \u0394CT upon NAMPT treatment (Figure 3J). <sentence_start/>These results indicate that the C-terminal extracellular region of IFITM3 is required for cellular binding to rNAMPT and for mediating the stimulating activity of NAMPT for \u03b3-secretase."
+  },
+  {
+   "section": "article",
+   "text": "NAMPT regulates IFTIM3-associated \u03b3-secretase activity under inflammatory conditions"
+  },
+  {
+   "section": "article",
+   "text": "The notion that eNAMPT binds to IFITM3 led us to examine its potential role in \u03b3-secretase complex formation. <sentence_start/>We first analyzed the size and composition of the \u03b3-secretase holoenzyme complex. <sentence_start/>Using blue native (BN)-PAGE analysis, we detected an IFITM3-associated \u03b3-secretase holo-complex (NCT and PS1-NTF) with approximately 440 kDa, which corresponds to the size of \u03b3-secretase holoenzymes in WT MEFs, but not in PS1/2 double KO (dKO) MEFs (Figure 4A). <sentence_start/>We confirmed that NAMPT overexpression did not alter \u03b3-secretase holoenzyme levels, but it increased IFITM3 levels incorporated into \u03b3-secretase complexes (Figure 4B). <sentence_start/>Intriguingly, the association of IFITM3 with \u03b3-secretase complexes was abolished by NAMPT knockdown in SH-SY5Y/APPsw cells, despite total levels of \u03b3-secretase complexes remaining unchanged (Figure 4C). <sentence_start/>IFITM3 knockdown suppressed AICD generation, reflecting the reduced \u03b3-secretase activity, without affecting the levels of \u03b3-secretase complexes (Figures S4A-S4C). <sentence_start/>We also confirmed that NAMPT overexpression and knockdown did not alter the levels of IFITM3 and \u03b3-secretase components, such as NCT, PS1-NTF, APH1a, and PEN2 (Figures S4D-S4G). <sentence_start/>Together, these findings suggest that NAMPT modulates formation of the IFITM3-associated \u03b3-secretase complex.<sentence_start/>Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "NAMPT modulates IFITM3-associated \u03b3-secretase complexes"
+  },
+  {
+   "section": "article",
+   "text": "(A) Crude membrane fractions prepared from MEF WT and PS1/2 double knockout (dKO) cells and solubilized in 0.5% DDM for 2 h were analyzed by BN-PAGE and western blotting. <sentence_start/>Arrowhead indicates \u03b3-secretase holoenzyme complexes."
+  },
+  {
+   "section": "article",
+   "text": "(B and C) HEK293T (B) and SH-SY5Y/APPsw (C) cells were transfected with NAMPT-FLAG for 24 h (B) or shNAMPT for 48 h (C). <sentence_start/>The \u03b3-secretase complexes in crude membrane fractions were analyzed by BN-PAGE followed by western blotting. <sentence_start/>Arrow heads indicate \u03b3-secretase holoenzyme complexes."
+  },
+  {
+   "section": "article",
+   "text": "(D) SH-SY5Y/APPsl-PS1\u0394E9 cells were transfected with control or shNAMPT for 24 h, followed by the treatment with 1 \u03bcg/mL LPS for an additional 24 h. <sentence_start/>Crude membrane fractions were subjected to an <italic>in vitro</italic> AICD generation assay for 2 h and analyzed by western blotting."
+  },
+  {
+   "section": "article",
+   "text": "(E) SH-SY5Y/APPsl-PS1\u0394E9 cells were transfected with control or shNAMPT for 24 h and treated with 1 \u03bcg/mL LPS for additional 24 h. <sentence_start/>Crude membrane fractions solubilized with 0.5% DDM for 2 h were analyzed by BN-PAGE and western blotting. <sentence_start/>Arrowhead indicates \u03b3-secretase holoenzyme complexes."
+  },
+  {
+   "section": "article",
+   "text": "(F and G) HT22 cells were treated with 1 \u03bcg/mL rNAMPT for 1 h and analyzed by western blotting (F). <sentence_start/>IFITM3 levels on the blots were quantified using ImageJ (G). <sentence_start/>Bars represent the mean \u00b1 SEM (<italic>n</italic> = 5), \u2217<italic>p</italic> &lt; 0.05 (Student\u2019s <italic>t</italic> test)."
+  },
+  {
+   "section": "article",
+   "text": "(H) HT22 cells were treated with 1 \u03bcg/mL rNAMPT for 1 h. <sentence_start/>Total RNAs were isolated from the harvested HT22 cells by Trizol. <sentence_start/>The mRNA levels of Ifitm3 were analyzed by QuantStudio qPCR. <sentence_start/>Actb is used for reference genes."
+  },
+  {
+   "section": "article",
+   "text": "(I) HT22 cells were treated with the indicated concentrations of rNAMPT for 1 h and analyzed by western blot analysis."
+  },
+  {
+   "section": "article",
+   "text": "(J and K) HT22 cells were incubated with 1 \u03bcg/mL rNAMPT for the indicated times. <sentence_start/>Crude membrane fractions solubilized with 0.5% DDM for 2 h were analyzed by BN-PAGE and western blotting. <sentence_start/>Arrowhead indicates \u03b3-secretase holoenzyme complexes. <sentence_start/>PS1-NTF and IFITM3 levels on the blots were quantified using ImageJ."
+  },
+  {
+   "section": "article",
+   "text": "We then explored the role of the eNAMPT-IFITM3 axis under inflammatory conditions. <sentence_start/>Treatment of SH-SY5Y/APPsl-PS1\u0394E9 cells with LPS increased AICD and NAMPT levels (Figure 4D). <sentence_start/>However, this increase in AICD by LPS was abolished by NAMPT knockdown in the same cells. <sentence_start/>In parallel, BN-PAGE analysis revealed that LPS treatment increased levels of the IFITM3-associated \u03b3-secretase complexes, but not in NAMPT knockdown cells (Figure 4E). <sentence_start/>Thus, NAMPT enhances formation of the IFITM3-associated \u03b3-secretase complexes under inflammatory conditions. <sentence_start/>In addition, treatment of HT22 cells with rNAMPT increased IFITM3 protein levels in a dose-dependent manner as early as 1 h (Figures 4F, 4G, and 4I), without changing IFITM3 mRNA levels (Figure 4H). <sentence_start/>This increase in IFITM3 protein was still observed in the presence of C34, a TLR4-selective inhibitor<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1007/s10753-021-01588-8\" pmid=\"34727285\" count=\"1\"><sup>49</sup></citation> (Figure S5A). <sentence_start/>Furthermore, rNAMPT treatment delayed the degradation of IFITM3 protein in the presence of protein synthesis inhibitor, cycloheximide (Figure S5B). <sentence_start/>Given that IFITM3 is degraded by the ubiquitin-proteasome system (UPS),<citation rid=\"bib50\" ref-type=\"bibr\" doi=\"10.1074/jbc.M112.362095\" pmid=\"22511783\" pmcid=\"PMC3365998\" count=\"1\"><sup>50</sup></citation> we also validated that rNAMPT treatment affected IFITM3 protein stability by reducing its ubiquitination (Figures S5C and S5D). <sentence_start/>Consistently, rNAMPT treatment increased levels of the IFITM3-associated \u03b3-secretase complex after 3 h (Figures 4J and 4K). <sentence_start/>These results indicate that NAMPT increases IFITM3 protein levels primarily via enhancing protein stability."
+  },
+  {
+   "section": "article",
+   "text": "NAMPT levels are elevated in the CSF and cortex of AD patients and AD model mice"
+  },
+  {
+   "section": "article",
+   "text": "To address the pathologic relevance of NAMPT in AD, we analyzed its levels in the cerebrospinal fluid (CSF) and mid-cortex brain tissue prepared from AD patients. <sentence_start/>Western blot analysis demonstrated a significant and drastic increase of NAMPT levels in the CSF samples of AD patients compared to non-AD CSF samples, with an average fold change of approximately 8.3 (Figures 5A and 5B). <sentence_start/>In addition, we analyzed established AD biomarkers and compared with NAMPT. <sentence_start/>AD and non-AD groups were separated by CSF A\u03b242 and phosphorylated Tau (p-Tau181) levels (Figure S6A). <sentence_start/>Correlation analysis revealed that NAMPT levels showed a negative correlation with CSF A\u03b242 (R = \u22120.8472) and a positive correlation with p-Tau181 (R = 0.6394), but no significant association with total Tau (R = 0.4841) (Figure S6B). <sentence_start/>Given that A\u03b242/p-Tau ratio is widely utilized as a diagnostic index for AD, we also examined its correlation with NAMPT levels and found a strong inverse correlation between CSF NAMPT and the A\u03b242/p-Tau ratio (R = \u22120.8041). <sentence_start/>Thus, high NAMPT levels are associated with a more pronounced AD biomarker profile (Figure 5C).Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "NAMPT is elevated in the CSF and cortex of AD patients and 3xTG mice"
+  },
+  {
+   "section": "article",
+   "text": "(A and B) CSF samples of patients with AD and non-AD were analyzed by western blotting. <sentence_start/>Coomassie blue staining was used as a loading control (A). <sentence_start/>Relative levels of NAMPT on the blots to Coomassie blue staining were measured by ImageJ (B)."
+  },
+  {
+   "section": "article",
+   "text": "(C) Linear correlation analysis between NAMPT and A\u03b242/p-Tau ratio in CSF samples of patients with AD and non-AD in (A)."
+  },
+  {
+   "section": "article",
+   "text": "(D and E) Levels of NAMPT and IFITM3 in the cortex of patients with AD and non-AD were assessed by western blotting (D). <sentence_start/>Relative levels of NAMPT to tubulin on the blots were determined by ImageJ. One sample was excluded based on Grubbs\u2019 outlier test (E)."
+  },
+  {
+   "section": "article",
+   "text": "(F) Linear correlation analysis between NAMPT and IFITM3 (red), GFAP (green), or A\u03b2 levels (blue) in the cortex of patients with AD and non-AD in (D)."
+  },
+  {
+   "section": "article",
+   "text": "(G and H) Levels of NAMPT, APP, and \u03b3-secretase components in the cortex of 3xTg mice (13-month) were assessed by western blotting (G). <sentence_start/>The signals of NAMPT on the blots were quantified using ImageJ (H). <sentence_start/>(<italic>n</italic>; 2-month-old WT = 3, 2-month-old 3xTg = 3, 6-month-old WT = 5, 6-month 3xTg = 3, 13-month-old WT = 4, 13-month-old 3xTg = 6)."
+  },
+  {
+   "section": "article",
+   "text": "(I) Crude membrane fractions of WT and 3xTg (13-month) cortex were subjected to <italic>in vitro</italic> AICD generation assay, followed by western blotting (left). <sentence_start/>The signals of AICD on the blots were quantified using ImageJ. n.s., not significant (right)."
+  },
+  {
+   "section": "article",
+   "text": "(J) Crude membrane fractions from WT and 3xTg (13-month) cortex solubilized with 0.5% DDM were analyzed with BN-PAGE and western blotting."
+  },
+  {
+   "section": "article",
+   "text": "Values and bars represent mean \u00b1 SEM \u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.01, \u2217\u2217\u2217<italic>p</italic> &lt; 0.005 (Student\u2019s <italic>t</italic> test) (B, E, H, and I)."
+  },
+  {
+   "section": "article",
+   "text": "We also found a significant increase of NAMPT protein in the mid-cortex brain tissue of AD patients, showing a 1.8-fold increase compared to non-AD controls (Figures 5D and 5E). <sentence_start/>Unlike proteins, however, analysis of NAMPT mRNA levels using multiple datasets ( and ) revealed no significant changes in the hippocampus, temporal cortex, frontal cortex, and entorhinal cortex between AD patients and non-AD patients (Figures S6C-S6F). <sentence_start/>In addition, Pearson correlation analysis of protein levels in AD mid-cortex revealed R = 0.80, a strong positive relationship between NAMPT and IFITM3 (Figures 5D and 5F). <sentence_start/>We also found a statistically insignificant but positive correlation between NAMPT and astrocyte activation marker GFAP, (R = 0.43) or A\u03b2, (R = 0.37) (Figures 5D and 5F). <sentence_start/>These results imply that the increase of NAMPT levels in AD brain tissues and CSF may be associated with neuroinflammation and amyloidogenic processes."
+  },
+  {
+   "section": "article",
+   "text": "We then analyzed NAMPT levels in 3xTg-AD mice, a widely used AD model expressing APPswe, PS1M146V, and Tau P301L.<citation rid=\"bib51\" ref-type=\"bibr\" doi=\"10.1016/s0896-6273(03)00434-3\" pmid=\"12895417\" count=\"1\"><sup>51</sup></citation> Compared to age-matched WT controls, levels of NAMPT protein in 3xTg mice were significantly elevated at 2, 6, and 13 months of age (Figures 5G and 5H). <sentence_start/>The increase was age-dependent, with 1.6-fold at 2 months, 2.7-fold at 6 months, and 4.4-fold at 13 months. <sentence_start/>On the other hand, there were no significant changes in NAMPT mRNA levels (Figure S7A). <sentence_start/>As seen in the increase of NAMPT levels, we also observed an age-dependent increase of AICD levels in the 3xTg-AD mouse brain (Figures 5I, S7B, and S7C), along with an increase in the IFITM3-associated \u03b3-secretase complexes in the brains of 6-month-old and older mice (Figures 5J, S7D, and S7E). <sentence_start/>Interestingly, we observed an increase of \u03b3-secretase components, including NCT, PS1-NTF, PEN2, and APP-CTF, particularly in the cortex of 6- and 13-month-old 3xTg mice, but not in 2 months of age (Figures 5G and S7F). <sentence_start/>Similar patterns were also observed in IL-6 mRNA levels (Figure S7G). <sentence_start/>Thus, there is a considerable association between NAMPT levels and AD pathogenesis in 3xTg mice."
+  },
+  {
+   "section": "article",
+   "text": "LPS administration promotes NAMPT-IFITM3 association and \u03b3-secretase activation in WT and APP-NL-G-F mice"
+  },
+  {
+   "section": "article",
+   "text": "To examine whether inflammatory stimulation engages the NAMPT-IFITM3 axis <italic>in vivo</italic>, we first utilized 3-month-old C57BL/6 WT mice. <sentence_start/>Daily i.p. <sentence_start/>injection with 0.25 mg/kg LPS for 7 days, which induces systemic inflammation to induce neuroinflammatory responses,<citation rid=\"bib52\" ref-type=\"bibr\" doi=\"10.1038/s41598-019-42286-8\" pmid=\"30962497\" pmcid=\"PMC6453933\" count=\"1\"><sup>52</sup></citation><sup>,</sup><citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1002/glia.20467\" pmid=\"17203472\" pmcid=\"PMC2871685\" count=\"1\"><sup>53</sup></citation> significantly increased NAMPT and IFITM3 levels in the hippocampal tissues compared to controls (Figures 6A-6C). <sentence_start/>Intriguingly, coIP analysis of the same hippocampal tissue extracts revealed that the association between NAMPT and IFITM3 was enhanced in the LPS-treated group compared to controls, as well as those between IFITM3 and presenilin 1 (Figure 6A).Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "LPS-induced inflammation promotes NAMPT-IFITM3 association and IFITM3-associated \u03b3-secretase levels in WT and APP-NL-G-F mice"
+  },
+  {
+   "section": "article",
+   "text": "(A-C) 3-month-old C57BL/6 wild-type mice were intraperitoneally and daily injected with 0.25 mg/kg LPS or PBS for 7 days. <sentence_start/>Hippocampal tissues were analyzed by western blotting. <sentence_start/>Crude membrane fractions of the hippocampus solubilized in 0.5% DDM were subjected to the immunoprecipitation (IP) assay using an anti-IFITM3 antibody or control IgG (A). <sentence_start/>The signals of NAMPT (B) and IFITM3 (C) on the blots in (A) were quantified using ImageJ. Bars represent mean \u00b1 SEM (<italic>n</italic>; PBS = 4, LPS = 4), (Student\u2019s <italic>t</italic> test)."
+  },
+  {
+   "section": "article",
+   "text": "(D) Scheme showing intraperitoneal (i.p.) injection of LPS and anti-NAMPT antibody into APP-NL-G-F mice."
+  },
+  {
+   "section": "article",
+   "text": "(E-G) 5.5-month-old C57BL/6 WT and APP-NL-G-F mice were intraperitoneally injected with 0.5 mg/kg LPS or PBS every 2 days for a total of 10 injections over 20 days, and with anti-NAMPT antibody (0.5 mg/kg) on days 6 and 16. <sentence_start/>Cortical tissues were analyzed by western blotting (E) and the signals of NAMPT (F) and IFITM3 (G) on the blots were quantified using ImageJ."
+  },
+  {
+   "section": "article",
+   "text": "(H-J) Crude membrane fractions prepared from the cortex of the same mice were subjected to <italic>in vitro</italic> AICD generation assay, followed by western blotting (H). <sentence_start/>The signals of AICD on the blots were quantified using ImageJ (I). <sentence_start/>Crude membrane fractions solubilized with 0.5% DDM were analyzed with BN-PAGE and western blotting (J)."
+  },
+  {
+   "section": "article",
+   "text": "Bars represent mean \u00b1 SEM (B, C, F, G, and I). <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.01, n.s., not significant; (Student\u2019s <italic>t</italic> test)."
+  },
+  {
+   "section": "article",
+   "text": "We then investigated this mechanism in a relevant AD mouse model. <sentence_start/>We utilized 5.5-month-old APP-NL-G-F knock-in mice, an AD model expressing humanized APP with Swedish (KM670/671NL), Arctic (E693G), and Iberian (I716F) mutants at endogenous levels.<citation rid=\"bib54\" ref-type=\"bibr\" doi=\"10.1038/nn.3697\" pmid=\"24728269\" count=\"1\"><sup>54</sup></citation><sup>,</sup><citation rid=\"bib55\" ref-type=\"bibr\" doi=\"10.1016/j.nlm.2016.07.001\" pmid=\"27377630\" count=\"1\"><sup>55</sup></citation> <sentence_start/>Mice were intraperitoneally injected with 0.5 mg/kg LPS every two days for a total of 10 injections over 20 days. <sentence_start/>Anti-NAMPT antibody was administered intraperitoneally on day 6 and 16 to deplete eNAMPT (Figure 6D). <sentence_start/>Interestingly, NAMPT levels were significantly higher in the cortex of APP-NL-G-F mice than in age-matched WT mice and further increased upon LPS treatment (Figures 6E and 6F). <sentence_start/>While NAMPT levels were not affected by anti-NAMPT antibody injections, IFITM3 levels were dramatically reduced (Figures 6E and 6G). <sentence_start/>We also found that AICD levels in the cortical tissue were significantly suppressed by anti-NAMPT antibody treatment (Figures 6H and 6I). <sentence_start/>Furthermore, BN-PAGE analysis revealed that the IFITM3-associated \u03b3-secretase levels were reduced by anti-NAMPT antibody (Figure 6J). <sentence_start/>Collectively, these findings indicate that the inflammation-driven increase of NAMPT promotes the IFITM3 incorporation into \u03b3-secretase components and enhances \u03b3-secretase activity under AD-relevant pathological conditions."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In this study, we identify a non-canonical role of NAMPT in regulating \u03b3-secretase activity, providing a crucial molecular link between neuroinflammation and AD pathogenesis. <sentence_start/>While NAMPT is a multifunctional protein primarily known for its role in NAD+ biosynthesis, eNAMPT, a cytokine-like molecule in metabolic and inflammatory diseases, modulates \u03b3-secretase without affecting \u03b1- or \u03b2-secretases. <sentence_start/>In this regulation, the enzymatic activity of NAMPT is dispensable. <sentence_start/>The elevation of NAMPT levels in the CSF and cortical tissues of AD patients and in 3xTg and APP-NL-G-F AD mouse models provides its pathological relevance. <sentence_start/>As a non-canonical role, eNAMPT interacts with IFITM3, a known presenilin regulator, on cell surface, leading to increase of IFITM3 protein stability and enhanced formation of the IFITM3-associated \u03b3-secretase complex. <sentence_start/>Previously, IFITM3 was shown to localize in lipid raft of the plasma membrane and mediate endocytic trafficking, an event linked to enhanced APP processing.<citation rid=\"bib56\" ref-type=\"bibr\" doi=\"10.1126/science.abl5829\" pmid=\"36480603\" pmcid=\"PMC9924227\" count=\"1\"><sup>56</sup></citation><sup>,</sup><citation rid=\"bib57\" ref-type=\"bibr\" doi=\"10.3390/molecules25235490\" pmcid=\"PMC7727664\" pmid=\"33255194\" count=\"1\"><sup>57</sup></citation> <sentence_start/>Thus, eNAMPT largely derived from reactive glial cells acts as an upstream paracrine signal that stimulates endocytic vesicle trafficking through IFITM3 and amplifies \u03b3-secretase activity in neurons."
+  },
+  {
+   "section": "article",
+   "text": "The mechanism by which eNAMPT enhances the incorporation of IFITM3 into \u03b3-secretase complex appears independent of the previously reported receptors. <sentence_start/>Although TLR4 and CCR5 were reported as eNAMPT receptors, several lines of evidence exclude their involvement in IFITM3 regulation.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1038/srep13135\" pmcid=\"PMC4536637\" pmid=\"26272519\" count=\"1\"><sup>24</sup></citation><sup>,</sup><citation rid=\"bib58\" ref-type=\"bibr\" doi=\"10.1096/fj.202201972RR\" pmcid=\"PMC11265521\" pmid=\"36809677\" count=\"1\"><sup>58</sup></citation><sup>,</sup><citation rid=\"bib59\" ref-type=\"bibr\" doi=\"10.1038/s41586-021-03199-7\" pmid=\"33568815\" count=\"1\"><sup>59</sup></citation><sup>,</sup><citation rid=\"bib60\" ref-type=\"bibr\" doi=\"10.1038/s41467-019-12055-2\" pmid=\"31511522\" pmcid=\"PMC6739309\" count=\"1\"><sup>60</sup></citation><sup>,</sup><citation rid=\"bib61\" ref-type=\"bibr\" doi=\"10.3390/cells9020496\" pmcid=\"PMC7072806\" pmid=\"32098202\" count=\"1\"><sup>61</sup></citation> Specifically, the rapid increase of IFITM3 protein levels by rNAMPT treatment in the absence of changes in IFITM3 mRNA levels suggests that enhances post transcriptionally protein stability. <sentence_start/>Confirmatively, treatment with selective TLR4 inhibitor C34 also did not block eNAMPT-mediated increase of IFITM3 and CCR5 overexpression did not alter levels of \u03b3-secretase activity and complex (data not shown). <sentence_start/>However, we cannot entirely exclude an alternative, unidentified receptor or signaling which modifies IFITM3 protein and regulates its protein stability.<citation rid=\"bib62\" ref-type=\"bibr\" doi=\"10.1016/j.isci.2022.104147\" pmcid=\"PMC8990213\" pmid=\"35402885\" count=\"1\"><sup>62</sup></citation><sup>,</sup><citation rid=\"bib63\" ref-type=\"bibr\" doi=\"10.1074/jbc.M114.557694\" pmid=\"24627473\" pmcid=\"PMC4002105\" count=\"1\"><sup>63</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "While previous studies have reported a decline in tissue NAMPT levels and its enzymatic activity during aging and pathological progression,<citation rid=\"bib64\" ref-type=\"bibr\" doi=\"10.3892/mmr.2019.10782\" pmid=\"31702813\" pmcid=\"PMC6854586\" count=\"1\"><sup>64</sup></citation><sup>,</sup><citation rid=\"bib65\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0044933\" pmcid=\"PMC3469563\" pmid=\"23071504\" count=\"1\"><sup>65</sup></citation> our observation showing elevation of total NAMPT in AD brains could be comprehensively reconciled with those findings through several considerations. <sentence_start/>In pathological conditions, a preferential increase of NAMPT in monomeric form would lead to an increase in total protein abundance without a corresponding rise in enzymatic activity.<citation rid=\"bib66\" ref-type=\"bibr\" doi=\"10.1007/s00125-016-4076-3\" pmid=\"27541013\" pmcid=\"PMC5506101\" count=\"1\"><sup>66</sup></citation><sup>,</sup><citation rid=\"bib67\" ref-type=\"bibr\" doi=\"10.1016/j.expneurol.2023.114584\" pmid=\"37884188\" count=\"1\"><sup>67</sup></citation> <sentence_start/>In addition, neuronal NAMPT loss can also be counterbalanced or masked by the upregulation of NAMPT in reactive glial cells, such as astrocytes and microglia.<citation rid=\"bib68\" ref-type=\"bibr\" doi=\"10.1016/j.neuroscience.2017.05.022\" pmid=\"28528966\" count=\"1\"><sup>68</sup></citation> <sentence_start/>Furthermore, methodological differences to measure membrane proteins may also affect the results; our studies represent levels of membrane-associated populations."
+  },
+  {
+   "section": "article",
+   "text": "The functional role of NAMPT-IFITM3 axis under inflammation was further corroborated by <italic>in vivo</italic> experiments using a systemic LPS injection model, which induces neuroinflammation through peripheral immune activation.<citation rid=\"bib52\" ref-type=\"bibr\" doi=\"10.1038/s41598-019-42286-8\" pmid=\"30962497\" pmcid=\"PMC6453933\" count=\"1\"><sup>52</sup></citation><sup>,</sup><citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1002/glia.20467\" pmid=\"17203472\" pmcid=\"PMC2871685\" count=\"1\"><sup>53</sup></citation> <sentence_start/>In the LPS-injected mice, we observed a marked increase of NAMPT levels in the brain. <sentence_start/>Accordingly, both NAMPT-IFITM3 and IFITM3-presenilin interactions also increased. <sentence_start/>However, it is interesting to note that distinct patterns of NAMPT induction in the brain emerged during acute and chronic inflammation paradigms. <sentence_start/>Under acute inflammatory conditions, increase of NAMPT mRNA levels in the brain appears to be primarily driven by glial cell activation (Figures S8A and S8B). <sentence_start/>On the other hand, NAMPT mRNA levels in the brain are not much affected under chronic inflammatory conditions, such as aging or sustained systemic inflammation. <sentence_start/>Thus, eNAMPT may also originate from the peripheral tissues, such as adipose tissue,<citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.1002/dmrr.1201\" pmid=\"21484978\" count=\"1\"><sup>30</sup></citation><sup>,</sup><citation rid=\"bib69\" ref-type=\"bibr\" doi=\"10.1016/j.cmet.2015.04.002\" pmid=\"25921090\" pmcid=\"PMC4426056\" count=\"1\"><sup>69</sup></citation> and subsequently contribute to neuroinflammation cross blood-brain barrier. <sentence_start/>This highlights a crucial pathologic link between chronic metabolic disorders, such as type 2 diabetes, an AD risk factor, and AD pathology."
+  },
+  {
+   "section": "article",
+   "text": "In summary, discovery of the eNAMPT-IFITM3 axis as a regulator of \u03b3-secretase offers a highly promising therapeutic target for reducing amyloid pathology while preserving essential Notch signaling. <sentence_start/>The existing clinical interest in eNAMPT-neutralizing antibodies for inflammatory disease further provides therapeutic potential targeting eNAMPT to mitigate its role in \u03b3-secretase regulation.<citation rid=\"bib70\" ref-type=\"bibr\" doi=\"10.1016/j.trsl.2021.06.002\" pmid=\"34139379\" pmcid=\"PMC8671169\" count=\"1\"><sup>70</sup></citation><sup>,</sup><citation rid=\"bib71\" ref-type=\"bibr\" doi=\"10.1007/s00125-024-06201-9\" pmid=\"38898303\" pmcid=\"PMC11410976\" count=\"1\"><sup>71</sup></citation><sup>,</sup><citation rid=\"bib72\" ref-type=\"bibr\" doi=\"10.1038/s41598-021-04444-9\" pmid=\"35027578\" pmcid=\"PMC8758770\" count=\"1\"><sup>72</sup></citation><sup>,</sup><citation rid=\"bib73\" ref-type=\"bibr\" doi=\"10.1007/s00109-020-01892-0\" pmid=\"32338310\" count=\"1\"><sup>73</sup></citation> Despite these advances, the precise molecular understanding how the eNAMPT-IFITM3 interactions influence \u03b3-secretase remains to be further investigated."
+  },
+  {
+   "section": "article",
+   "text": "Limitations of the study"
+  },
+  {
+   "section": "article",
+   "text": "This study highlights the non-canonical role of NAMPT as a \u03b3-secretase regulator and its potential relevance to AD pathology. <sentence_start/>However, there are notable limitations that require further investigation."
+  },
+  {
+   "section": "article",
+   "text": "First, while a physical interaction between eNAMPT and IFITM3 was demonstrated, the precise mechanism by which this interaction influences \u03b3-secretase activity remains unclear. <sentence_start/>Whether the IFITM3-associated \u03b3-secretase complex dynamics change, the molecular mechanism how eNAMPT affects formation of IFITM3-associated \u03b3-secretase complex is not fully understood. <sentence_start/>Although the interaction between eNAMPT and IFITM3 appears to influence the formation of IFITM3-associated \u03b3-secretase complex, eNAMPT is not detectable within the final stable complex. <sentence_start/>This raises a possibility that eNAMPT may exert a transient influence on IFITM3 to enhance protein stability. <sentence_start/>Therefore, further structural and biochemical studies are needed to resolve these interaction dynamics."
+  },
+  {
+   "section": "article",
+   "text": "Second, regarding <italic>in vivo</italic> validation and tissue-specificity, another limitation lies in confirming the role of eNAMPT in AD pathology. <sentence_start/>While LPS increases NAMPT levels and \u03b3-secretase activity in mouse models, direct evidence linking NAMPT levels to amyloid deposition or cognitive decline is lacking. <sentence_start/>Studies employing knockdown or KO of NAMPT expression in AD mouse models are needed to confirm its pathological relevance. <sentence_start/>Furthermore, a significant challenge is to dissect the contributions of CNS or peripheral eNAMPT pools. <sentence_start/>In addition, the role of intracellular NAMPT could not completely be excluded. <sentence_start/>Previous studies have shown that only 1% of intracellular NAMPT is secreted into the extracellular space under normal conditions.<citation rid=\"bib74\" ref-type=\"bibr\" doi=\"10.1111/pcmr.12420\" pmid=\"26358657\" count=\"1\"><sup>74</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Finally, it would be interesting to test whether circulating NAMPT originating from peripheral organs, such as adipose tissue, could also contribute to \u03b3-secretase activation after crossing the blood-brain barrier. <sentence_start/>Therefore, future studies should adopt a more systemic and compartment-specific approach to dissect organ-specific and intra/extra roles of NAMPT, alongside further molecular characterization of its functional modes of action."
+  },
+  {
+   "section": "article",
+   "text": "Resource availability"
+  },
+  {
+   "section": "article",
+   "text": "Lead contact"
+  },
+  {
+   "section": "article",
+   "text": "Further information and requests for resources should be directed to the lead contact, Yong-Keun Jung (ykjung@snu.ac.kr)."
+  },
+  {
+   "section": "article",
+   "text": "Materials availability"
+  },
+  {
+   "section": "article",
+   "text": "This study did not generate new reagents."
+  },
+  {
+   "section": "article",
+   "text": "Data and code availability"
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "The scRNA-seq and transcriptomic datasets analyzed in this study are publicly available in the GEO database under accession number and are listed in the key resources table."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "This paper does not report original code."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request."
+  },
+  {
+   "section": "article",
+   "text": "Acknowledgments"
+  },
+  {
+   "section": "article",
+   "text": "The authors would like to thank Dr. T Tomita (10.13039/501100004721University of Tokyo, Japan) for providing anti-PEN2 antibody. <sentence_start/>The authors would like to thank Prof. SY Kim (10.13039/100016275Seoul National University Bundang Hospital) and Prof. S-H Park (10.13039/100017051Seoul National University College of Medicine) for providing CSF and AD tissue. <sentence_start/>The authors would like to thank Prof. C Saido for providing APP NL-G-F mice (10.13039/501100006264RIKEN, Japan). <sentence_start/>This work was supported by a CRI grant no.(RS-2025-00519823), the Bio-medical Technology Development Program (RS 2024-00439842), 10.13039/501100003710Korea Health Industry Development Institute (HR22C141102) funded by the 10.13039/100009647Ministry of Health and Welfare and Ministry of Science, and Global-Learning and Academic Research Institution for Master\u2019s\u00b7PhD students and Postdocs (G-LAMP) Program of the 10.13039/501100003725National Research Foundation of Korea (NRF) grant no.(RS-2024-00445180) funded by the Ministry of Education."
+  },
+  {
+   "section": "article",
+   "text": "Author contributions"
+  },
+  {
+   "section": "article",
+   "text": "J.H., K.W.K., and Y.-K.J. conceived the study; J.H., S.J., and J.N. carried out the experiments; Y.N. analyzed the scRNA-seq data; Y.C. performed the immunofluorescence in brain. <sentence_start/>J.H. and Y.-K.J. designed the experiments; J.H. and Y.-K.J. wrote the manuscript with input from all other authors. <sentence_start/>All authors approved the manuscript."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of interests"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare no competing interests."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of generative AI and AI-assisted technologies in the writing process"
+  },
+  {
+   "section": "article",
+   "text": "During the preparation of this work the authors used ChatGPT to improve English language. <sentence_start/>After using this tool, the authors reviewed and edited the content as needed and took full responsibility for the content of the publication."
+  },
+  {
+   "section": "article",
+   "text": "STAR\u2605Methods"
+  },
+  {
+   "section": "article",
+   "text": "Key resources table"
+  },
+  {
+   "section": "article",
+   "text": "Experimental model and study participant details"
+  },
+  {
+   "section": "article",
+   "text": "Animals"
+  },
+  {
+   "section": "article",
+   "text": "C57BL/6J and 3xTg mice were purchased from The Jackson Laboratory. <sentence_start/>APP NL-G-F mice were gifted from Takaomi C Saido (Riken, Japan). <sentence_start/>All mice were housed and maintained in specific pathogen free (SPF) facility under a 12-h light/12-h dark cycle. <sentence_start/>Age details for each experiment are indicated in the figure legends. <sentence_start/>All animal care and experimental procedures were performed in accordance with institutional guidelines and approved by the IACUC of Seoul National University (Approval No. SNU-251219). <sentence_start/>Both male and female mice were used, and no significant sex-dependent differences were observed."
+  },
+  {
+   "section": "article",
+   "text": "Humans"
+  },
+  {
+   "section": "article",
+   "text": "CSF samples from non-Alzheimer\u2019s disease control subjects and patients with Alzheimer\u2019s disease related to both Figures 5 and S6 were supplied by Seoul National University Bundang hospital. <sentence_start/>Brain samples from non-Alzheimer\u2019s disease control subjects and patients with Alzheimer\u2019s disease related to both Figure 5 were supplied by Seoul National University Hospital Brain Bank (SNUHBB). <sentence_start/>The collection and use of all human specimens were approved by the IRB (Approval No. E1806/002-012 and E2403/002-031). <sentence_start/>The detailed information on control subjects and patients with Alzheimer\u2019s disease is listed in Tables S1 and S2."
+  },
+  {
+   "section": "article",
+   "text": "Cell lines"
+  },
+  {
+   "section": "article",
+   "text": "Human embryonic kidney (HEK293T) cells, human neuroblastoma (SH-SY5Y) cells, and mouse microglial (BV2) cells were cultured in Dulbecco\u2019s modified Eagle\u2019s medium (DMEM) supplemented with 10% fetal bovine serum (FBS) and 1% penicillin-streptomycin at 37\u00b0C in a humidified 5% CO2 incubator. <sentence_start/>The cell lines were maintained from laboratory stocks and were not authenticated or tested for mycoplasma contamination. <sentence_start/>DNA transfection was conducted by using Lipofector or PEI following the manufacturer\u2019s instruction."
+  },
+  {
+   "section": "article",
+   "text": "Mouse primary cell culture"
+  },
+  {
+   "section": "article",
+   "text": "Mouse primary cortex was harvested at embryonic day 16.5-17.5 and chunks of cortical neurons were incubated in Hanks\u2019 Balanced Salt solution (HBSS) containing trypsin EDTA (TE, final 0.05%) for 20 min at 37\u00b0C. <sentence_start/>After inhibiting TE by adding fetal bovine serum (FBS, final 5%), neurons and astrocytes were isolated by following different culturing procedures. <sentence_start/>Neurons were dissociated with gentle pipetting and plated in culture dish under neurobasal medium supplemented with B27 supplement, Glutamax and Penicillin-Streptomycin at 37\u00b0 under 5% CO2 (v/v). <sentence_start/>For astrocyte and microglia culture, postnatal day 0-1 cortical tissues were dissociated with gentle pipetting and cells were plated in T75 culture dish under Dulbecco\u2019s modified Eagle\u2019s medium (DMEM) supplemented with FBS (10%). <sentence_start/>After 7 to 8 days, cultured cells were incubated in 180 rpm shaker for 30 min to detach sheeted microglia. <sentence_start/>Detached microglia were centrifuged 180 <italic>g</italic> for min then plated in culture dish under DMEM supplemented with FBS (final 10%). <sentence_start/>To remove sheeted oligodendrocytes, T75 culture dish was further incubated in 240 rpm shaker for 6 h and then shaken vigorously for 1 min. <sentence_start/>Remaining Astrocytes were detached by treatment of TE and centrifuged 180 <italic>g</italic> for 5 min. <sentence_start/>Astrocytes were plated in culture dish under DMEM supplemented with FBS (final 10%). <sentence_start/>Over 14 days <italic>in vitro</italic> (DIV) astrocytes were used in our experiments."
+  },
+  {
+   "section": "article",
+   "text": "Recombinant His-NAMPT protein"
+  },
+  {
+   "section": "article",
+   "text": "BL21-Rosetta bacterial strain was transformed with the pET28-His-NAMPT (Addgene plasmid #25630) vector. <sentence_start/>Transformed bacteria were grown in LB broth containing kanamycin (50 \u03bcg/mL) at 37\u00b0C until reached an optical density (OD<sub>600</sub>) of 0.5. <sentence_start/>Protein expression was induced by adding 1 mM isopropyl \u03b2-D-1-thiogalactopyranoside (IPTG), and the culture was further incubated at 18\u00b0C for 3 h to optimize protein folding. <sentence_start/>The bacterial culture was harvested by centrifugation, and the pellet was resuspended in lysis buffer (20 mM Tris-HCl, 500 mM NaCl, 10 mM imidazole, pH 8.0). <sentence_start/>To ensure efficient cell lysis, the suspension was sonicated on ice for 2 h (5-s pulse on, 5-s pulse off) at 30% amplitude. <sentence_start/>The lysate was clarified by centrifugation at 12,000 g for 30 min at 4\u00b0C to remove cellular debris. <sentence_start/>The supernatant containing the His-tagged NAMPT protein was incubated with Ni-NTA agarose beads (Qiagen) pre-equilibrated in lysis buffer overnight at 4\u00b0C with gentle rotation. <sentence_start/>The beads were washed five times with wash buffer (20 mM Tris-HCl, 500 mM NaCl, 10 mM imidazole, pH 8.0) to remove non-specifically bound proteins. <sentence_start/>His-NAMPT was eluted using elution buffer (20 mM Tris-HCl, 500 mM NaCl, 400 mM imidazole, pH 8.0). <sentence_start/>The purity of the eluted recombinant NAMPT protein was assessed by SDS-PAGE followed by Coomassie Brilliant Blue staining. <sentence_start/>Protein concentration was determined by comparison with a BSA standard curve. <sentence_start/>Endotoxin was removed using the ToxinCleanic Endotoxin Removal Kit (Bioneer) according to the manufacturer\u2019s instructions."
+  },
+  {
+   "section": "article",
+   "text": "Lentivirus generation"
+  },
+  {
+   "section": "article",
+   "text": "Lenti-X 293 T cell Line was used to generate lentivirus. <sentence_start/>The cells were co-transfected with PAX2, VSVG and either pGIPZ empty vector or pGIPZ-shNampt-IRES-tGFP for knockdown using pMAX reagent following manufacturer\u2019s instruction. <sentence_start/>60 h after transfection, harvested medium was filtered (40 \u03bcm pore) and incubated in lenti-X concentrator (Takara) for 30 min at 4\u00b0C. <sentence_start/>Finally, viral suspension was centrifuged at 1,500 g for 45 min and viral pellet was resuspended with PBS and stored at \u221270\u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Method details"
+  },
+  {
+   "section": "article",
+   "text": "Antibody application summary"
+  },
+  {
+   "section": "article",
+   "text": "Antibodies were selected based on application compatibility, assay sensitivity, and host-species requirements for co-immunostaining or immunoprecipitation-immunoblotting (IP-IB). <sentence_start/>For targets where multiple antibody clones or catalog numbers were utilized, specific antibodies were assigned to designated figure panels as follows:"
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-Flag antibody (Sigma, F1804): Used in Figures 1B, 1C, 1K, 3D, S1D, and S4D."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-Flag antibody (Cell signaling, 14793): Used in Figures 3D and S1D."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-NAMPT (Santacruz, 393444): Used in Figures 1E, 1F, 2C, 2E, 2F, 4D, 5A, 5D, S2C, S2D, S2E, S2G, and S4D."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-NAMPT (Bethyl lab, BLR058F): Used in Figures 5G, 6A, 6E, S7F, and S8A."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-Presenilin 1 (Santacruz, 7860): Used in Figures 4A-4C, 4E, 4J, 5G, 6A, 6E, S4B, S4D, S4F, and S7F."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-Presenilin 1 (Abclonal, A2187): Used in Figures 4E, 5J, S4B, S7D, and S7E."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-A\u03b2 (Abclonal, A26342): Used in Figures 1C and 1F."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-A\u03b2 (Convance, SIG-39320): Used in Figures 5D, S1A, and S8A."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Anti-APP (Abclonal, A17911): Used specifically for AICD detection."
+  },
+  {
+   "section": "article",
+   "text": "<italic>In vitro</italic> binding and competition assay"
+  },
+  {
+   "section": "article",
+   "text": "The C-terminal extracellular peptide of IFITM3 (LIFQAYG, IFITM3-CT) and a scrambled control (GQILAFY, Scr) were synthesized (Peptron, Korea) as free or N-terminally biotinylated peptides. <sentence_start/>Biotinylated IFITM3 CT peptide (Biotin-IFITM3-CT) and biotinylated scrambled peptide (Scr) were immobilized on streptavidin beads to examine their interaction with recombinant NAMPT. <sentence_start/>Beads were incubated with 1 nM of Biotin-IFITM3-CT peptide, or Scr in 100 \u03bcL binding buffer for 30 min at 4\u00b0C with gentle rotation. <sentence_start/>Unbound peptide was removed by washing the beads three times with binding buffer. <sentence_start/>For binding reactions, peptide immobilized beads were incubated with 1 \u03bcg purified rNAMPT in 200 \u03bcL binding buffer for 2 h at 4\u00b0C with rotation. <sentence_start/>For competition experiments, rNAMPT was preincubated with excess free IFITM3 CT peptide (IFITM3-CT) for 30 min at 4\u00b0C before addition to the Biotin-IFITM3-CT immobilized beads. <sentence_start/>After incubation, beads were washed five times with wash buffer and bound proteins were eluted by boiling the beads in SDS sample buffer and analyzed by SDS PAGE followed by immunoblotting using anti-His antibodies."
+  },
+  {
+   "section": "article",
+   "text": "\u03b3-Secretase activity assay"
+  },
+  {
+   "section": "article",
+   "text": "Luciferase reporter-mediated \u03b3-secretase activity assays were conducted as described previously.<citation rid=\"bib75\" ref-type=\"bibr\" doi=\"10.1111/j.1474-9726.2012.00817.x\" pmid=\"22404891\" pmcid=\"PMC4217088\" count=\"1\"><sup>75</sup></citation> <sentence_start/>Cells were co-transfected with pC99-GVP, pUAS-Luciferase, p\u03b2-galactosidase and either control or constructs. <sentence_start/>After 24 h, cell extracts were analyzed in luciferase assays following the manufacturer\u2019s instructions (Promega). <sentence_start/>To control transfection efficiency, the luciferase activity was normalized to \u03b2-galactosidase activity."
+  },
+  {
+   "section": "article",
+   "text": "\u03b2-Secretase assay"
+  },
+  {
+   "section": "article",
+   "text": "Alkaline phosphatase reporter-mediated \u03b2-secretase activity assays were conducted as described below. <sentence_start/>Cells were co-transfected with pSEAP-APPa-muta and either control or constructs for 24 h pBACE1 was used as a positive control while selective \u03b2-secretase inhibitor, LY2886721 (20 mM), was co-treated as a negative control. <sentence_start/>Harvested medium was heat-inactivated for 1 h at 70 \u00b0C to minimize nonspecific enzymatic reaction and then reacted with alkaline phosphatase substrate for 1 h at room temperature. <sentence_start/>The yellow reaction product was read at 405 nm."
+  },
+  {
+   "section": "article",
+   "text": "\u03b1-Secretase assay"
+  },
+  {
+   "section": "article",
+   "text": "\u03b1-Secretase assays were performed as described previously.<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1007/s00018-013-1515-x\" pmid=\"24270855\" pmcid=\"PMC11113593\" count=\"1\"><sup>10</sup></citation> <sentence_start/>Cells were incubated for 6 h in serum-free DMEM. <sentence_start/>The conditioned medium was harvested with cells, and aliquots containing same amount of protein from both the cells and medium concentrated with Amicon Ultra-15 (30 kDa molecular weight cutoff, Millipore) were subjected to SDS-PAGE and western blotting using an anti-sAPP\u03b1 antibody (anti-6E10). <sentence_start/>\u03b1-Secretase activity was quantified by measuring the sAPP\u03b1 signal relative to the APP level."
+  },
+  {
+   "section": "article",
+   "text": "<italic>In vitro</italic> AICD generation assay"
+  },
+  {
+   "section": "article",
+   "text": "The conditioned cells were washed with ice-cold PBS and sonicated in buffer A (50 mM HEPES pH 7.4, 150 mM NaCl, 5 mM 1,10phenanthroline monohydrate, 2 mM EDTA, 1 mM PMSF and 1 mM Leupeptin). <sentence_start/>The nuclear fraction was removed by centrifugation at 1,000 g for 10 min and remaining crude membrane fraction was harvested by further centrifugation at 10,000 g for 15 min. <sentence_start/>After washing with buffer A, the amount of total protein was quantified by Bradford assay (Bio-Rad). <sentence_start/>Same amount of protein under resuspended membrane homogenate was incubated for 2-16 h at 37 \u00b0C with or without \u03b3-secretase inhibitor, Compound E (Comp.<sentence_start/>E, 100 mM)."
+  },
+  {
+   "section": "article",
+   "text": "Detection of secreted A\u03b2 in culture medium"
+  },
+  {
+   "section": "article",
+   "text": "SH-SY5Y/APPsw or SH-SY5Y/APPslPS1\u0394E9 cell lines were transfected with target protein-expressing genes for 48 h. <sentence_start/>The conditioned culture medium was then harvested and centrifuged at 3,000 g for 15 min to remove cell debris. <sentence_start/>After debris removal, the conditioned medium was incubated overnight with anti-6E10 or anti-A\u03b2 antibodies. <sentence_start/>The antibody-protein complexes were pulled down using Protein G beads, and the samples were subjected to SDS-PAGE. <sentence_start/>For A\u03b2 detection, the acrylamide gel was transferred onto a nitrocellulose (NC) membrane. <sentence_start/>The transferred membrane was heated in a pressure cooker for 15 min to perform heat-induced epitope retrieval. <sentence_start/>The NC membrane was then blocked and incubated with anti-6E10 or anti-A\u03b2 antibodies, followed by enhanced chemiluminescence (ECL) detection."
+  },
+  {
+   "section": "article",
+   "text": "Detection of extracellular NAMPT"
+  },
+  {
+   "section": "article",
+   "text": "The conditioned culture medium from various cell types was harvested and centrifuged at 3,000 g for 15 min to remove cell debris. <sentence_start/>After debris removal, the conditioned medium was incubated overnight with anti-NAMPT or anti-IgG control antibodies. <sentence_start/>Extracellular NAMPT was pulled down using Protein G beads, and the samples were boiled at 95\u00b0C in a heat block before being subjected to SDS-PAGE."
+  },
+  {
+   "section": "article",
+   "text": "Immunoprecipitation of membrane protein"
+  },
+  {
+   "section": "article",
+   "text": "For immunoprecipitation of membrane proteins, harvested cells were fractionated using a fractionation buffer to enrich membrane proteins. <sentence_start/>The crude membrane fraction was solubilized by adding 0.5% DDM and incubating for 2 h at 4\u00b0C. <sentence_start/>The solubilized fraction was then incubated with target antibodies, and the antibody-protein complexes were pulled down using Protein G beads. <sentence_start/>The pulled-down samples were subjected to SDS-PAGE for analysis."
+  },
+  {
+   "section": "article",
+   "text": "BN-PAGE"
+  },
+  {
+   "section": "article",
+   "text": "Harvested cells were washed with ice-cold PBS and sonicated in resuspension buffer (50 mM PIPES, pH 7.0, 250 mM sucrose, 1 mM EGTA, and protease inhibitor cocktail). <sentence_start/>The nuclear fraction was removed by centrifugation at 600<italic>g</italic> for 10 min, and the microsomal fraction was isolated by further centrifugation of the remaining supernatant at 100,000 g for 60 min. <sentence_start/>Microsomal proteins were solubilized in solubilization buffer (50 mM PIPES, pH 7.0, 250 mM sucrose, 1 mM EGTA, 0.5% dodecylmaltoside, and protease inhibitor cocktail) for 60 min on ice. <sentence_start/>Solubilized proteins were then separated by BN-PAGE gel (8-10%)."
+  },
+  {
+   "section": "article",
+   "text": "SDS-PAGE and western blot analysis"
+  },
+  {
+   "section": "article",
+   "text": "Harvested cells were solubilized in lysis buffer (100 mM HEPES pH 7.4, 150 mM NaCl, 1 mM EDTA, 1% Triton X-100 and protease inhibitor cocktail). <sentence_start/>The amount of protein was measured by Bradford assay (Bio-Rad) and protein samples were denatured by mixing 2x sampling buffer (60 mM Tris pH 6.8, 2% SDS, 20% glycerol, 10% 2-mercaptoethanol, and 0.04% bromophenol blue) followed by boiling for 10 min at 100C. The denatured protein samples were separated by sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) using SDS-PAGE gels (10-15% gels) and transferred to polyvinylidene fluoride membrane (PVDF) using semi-dry transfer device (Bio-Rad). <sentence_start/>Blots were blocked with 3% (w/v) BSA or 5% Milk in TBS-T buffer (25 mM Tris pH 7.5, 150 mM NaCl, and 0.05% Tween 20) for 30 min and incubated with indicated primary antibodies. <sentence_start/>The probed blots were detected by horseradish peroxidase-conjugated secondary antibodies for ECL analysis."
+  },
+  {
+   "section": "article",
+   "text": "qPCR"
+  },
+  {
+   "section": "article",
+   "text": "Total RNAs were extracted by Trizol method. <sentence_start/>For reverse transcription, total RNA (1 mg) was reacted with oligo-dT, dNTP, M-MLV reverse transcriptase and M-MLV buffer for 2 h at 42\u00b0C. <sentence_start/>The same amount of cDNA templates (100 ng) was reacted with SYBR green master mixture (Applied biosystems, 4367659) and specific qPCR primers (300 nM) by using qPCR machine (Thermo Fisher Scientific, QuantStudio3)."
+  },
+  {
+   "section": "article",
+   "text": "Immunofluorescence"
+  },
+  {
+   "section": "article",
+   "text": "HT22 or MEF cells were incubated on ice with DyLight488-conjugated rNAMPT (1 \u03bcg/mL) for 1 h. <sentence_start/>After washing with PBS, cells were fixed with 4% paraformaldehyde for 15 min at room temperature. <sentence_start/>Optionally, WGA was applied for 10 min to visualize the plasma membrane. <sentence_start/>Fixed cells were permeabilized using either 0.1% saponin or 0.1% Triton X-100 in PBS, and subsequently blocked with 1-3% BSA in PBS for 30 min. <sentence_start/>Cells were incubated overnight at 4\u00b0C with primary antibodies against Rab7 (1:200). <sentence_start/>After washing, appropriate fluorescent secondary antibodies were applied for 2 h at room temperature. <sentence_start/>Nuclei were counterstained with DAPI, and samples were mounted using an anti-fade mounting medium. <sentence_start/>Confocal images were acquired using an LSM700 microscope (Carl Zeiss)."
+  },
+  {
+   "section": "article",
+   "text": "To detect plasma membrane-associated rNAMPT, cells were incubated on ice with DyLight488-conjugated rNAMPT (1 \u03bcg/mL) for 10-15 min to block endocytosis. <sentence_start/>After extensive washing with ice-cold PBS containing 1% BSA, cells were fixed in 4% paraformaldehyde. <sentence_start/>For validation of plasma membrane specificity, a subset of samples was treated with 10 \u03bcM methylene blue for 5-10 min at room temperature prior to permeabilization. <sentence_start/>Cells were subsequently permeabilized with 0.1% saponin, blocked with 1-3% BSA in PBS containing 0.05% Tween 20. <sentence_start/>Nuclei were counterstained with DAPI, and samples were mounted using an anti-fade mounting medium. <sentence_start/>Confocal images were acquired using an LSM700 microscope (Carl Zeiss)."
+  },
+  {
+   "section": "article",
+   "text": "Immunofluorescence for mouse brain"
+  },
+  {
+   "section": "article",
+   "text": "Mice were intraperitoneally injected with PBS or LPS (0.5 mg/kg) once daily for two consecutive days. <sentence_start/>Twenty-four hours after the second injection, mice were sacrificed, and brains were collected for frozen sectioning. <sentence_start/>Brain tissues were sectioned using a cryostat and processed for floating immunofluorescence. <sentence_start/>Sections were permeabilized with PBS containing 0.3% Triton X-100 for 15 min and then blocked with 3% BSA in PBS for 30 min at room temperature. <sentence_start/>The sections were incubated with primary antibodies overnight at 4\u00b0C. <sentence_start/>After washing with PBS, sections were incubated with appropriate fluorescence-conjugated secondary antibodies for 1 h at room temperature. <sentence_start/>Nuclei were counterstained with DAPI, and samples were mounted using an anti-fade mounting medium. <sentence_start/>Confocal images were acquired using an LSM880 microscope (Carl Zeiss)."
+  },
+  {
+   "section": "article",
+   "text": "Single-cell RNA sequencing transcriptomic analysis"
+  },
+  {
+   "section": "article",
+   "text": "Single-cell RNA-sequencing data from whole mouse brains were obtained from the Gene Expression Omnibus (GEO: ).<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1038/s41467-025-56097-1\" pmid=\"39814731\" pmcid=\"PMC11735931\" count=\"1\"><sup>44</sup></citation> <sentence_start/>Filtered feature-barcode matrices in HDF5 (.h5) format were imported into R (v4.3.3) using Seurat (v5. 5.0). <sentence_start/>For the present analysis, WT samples from PBS and repeated LPS (LPS \u00d72) groups were included (WT-PBS, <italic>n</italic> = 2; WT-LPS \u00d72, <italic>n</italic> = 2). <sentence_start/>For each sample, a Seurat object was created from the raw count matrix with CreateSeuratObject, retaining genes detected in at least three cells and cells expressing at least 200 features. <sentence_start/>For each sample, a Seurat object was generated, retaining genes detected in at least three cells and cells with a minimum of 200 detected features. <sentence_start/>Ambient RNA was corrected using decontX. Cells with fewer than 500 or more than 8,500 detected genes, or with &gt;20% mitochondrial transcripts, were removed. <sentence_start/>Putative doublets were identified per sample using DoubletFinder (v2.0.6)."
+  },
+  {
+   "section": "article",
+   "text": "For the present analysis, wild-type PBS and repeated LPS (LPS \u00d72) samples (<italic>n</italic> = 2 per group; 39,097 cells total, 18,016 PBS and 21,081 LPS cells) were subset from the quality-controlled object. <sentence_start/>The subset was log-normalization (scale factor 10,000) and downstream processing focused on the top 2,000 highly variable genes selected via the variance-stabilizing transformation (vst) method, followed by principal component analysis. <sentence_start/>Batch correction across samples was performed with Harmony. <sentence_start/>The first 40 Harmony dimensions were used for UMAP feature plots, dot plots, and heatmaps. <sentence_start/>Finally, cell type- and condition-specific <italic>Nampt</italic> expression was examined across the annotated clusters."
+  },
+  {
+   "section": "article",
+   "text": "Quantification and statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "ImageJ and image studio software were used for quantification of signal intensity of western blotting and fluorescence intensity of immunostaining. <sentence_start/>Graph Pad Prism (version 11) software was used for statistical analysis. <sentence_start/>For statistical analysis of the data from animal models and human tissue samples, the mean \u00b1 SEM of the number of subjects was used. <sentence_start/>For statistical analysis of the data from <italic>in vitro</italic> cell culture experiments, the mean \u00b1 SEM of the number of biological replicates was used. <sentence_start/>For analysis of statistical significance, either Student\u2019s t tests, One-way ANOVA, or two-way ANOVA was used. <sentence_start/>The significance was defined as <italic>p</italic> values of less than 0.05 and denoted as asterisk (\u2217<italic>p</italic> &lt; 0.05; \u2217\u2217<italic>p</italic> &lt; 0.01; \u2217\u2217\u2217<italic>p</italic> &lt; 0.005; \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.001)."
+  },
+  {
+   "section": "back",
+   "text": "Supplemental information"
+  },
+  {
+   "section": "back",
+   "text": "Document S1. <sentence_start/>Figures S1-S8 and Tables S1 and S2"
+  },
+  {
+   "section": "back",
+   "text": "Supplemental information can be found online at ."
+  }
+ ]
+}

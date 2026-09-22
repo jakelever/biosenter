@@ -1,0 +1,675 @@
+{
+ "pmid": 42617601,
+ "pmcid": 13589481,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "CDK8/19 inhibition prevents adaptive resistance to CDK4/6 inhibitors <italic>in vitro</italic> and <italic>in vivo</italic>"
+  },
+  {
+   "section": "abstract",
+   "text": "Summary"
+  },
+  {
+   "section": "abstract",
+   "text": "Cyclin-dependent kinase 4/6 (CDK4/6) inhibitors have become a standard of care for estrogen receptor-positive breast cancer and are being developed for other malignancies. <sentence_start/>However, resistance to these drugs readily develops, limiting their impact on patient survival. <sentence_start/>Mechanisms of resistance to CDK4/6 inhibition involve multiple changes in gene expression. <sentence_start/>We investigated the process of tumor cell adaptation to CDK4/6 inhibitors and the impact of selective inhibitors of CDK8/19 Mediator kinases-broad-spectrum regulators of transcriptional reprogramming-on such adaptations. <sentence_start/>Adaptive non-genetic resistance to CDK4/6 inhibitors develops rapidly, but the addition of CDK8/19 inhibitors prevents the development of this resistance in different tumor models, <italic>in vitro</italic> and <italic>in vivo</italic>. <sentence_start/>RNA sequencing (RNA-seq) analysis reveals that combining CDK4/6 and CDK8/19 inhibitors suppresses many of the adaptation-associated changes in gene expression, including those previously associated with CDK4/6 inhibitor resistance. <sentence_start/>The findings suggest that CDK8/19 inhibition may greatly extend the therapeutic benefit of CDK4/6 inhibitors."
+  },
+  {
+   "section": "abstract",
+   "text": "Graphical abstract"
+  },
+  {
+   "section": "abstract",
+   "text": "Highlights"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "CDK4/6 inhibitor resistance rapidly emerges through non-genetic adaptation"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "Resistance involves reversible transcriptional state switching"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "CDK8/19 inhibition suppresses adaptation-associated transcriptional reprogramming"
+  },
+  {
+   "section": "abstract",
+   "text": "\u2022"
+  },
+  {
+   "section": "abstract",
+   "text": "CDK8/19 inhibitors enhance and prolong CDK4/6 inhibitor efficacy <italic>in vivo</italic>"
+  },
+  {
+   "section": "abstract",
+   "text": "Non-genetic adaptation curtails CDK4/6 inhibitor therapy. <sentence_start/>Mack et al. show that adaptive resistance arises through transcriptional reprogramming and is suppressed by inhibition of the Mediator kinases CDK8/19, which enhances CDK4/6 inhibitor efficacy <italic>in vitro</italic> and <italic>in vivo</italic>."
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Estrogen receptor-positive breast cancers (ER<sup>+</sup> BrCa) make up 70% of all breast cancers in the US. <sentence_start/>The most recent major class of drugs approved for ER<sup>+</sup> BrCa patients target cyclin-dependent kinases (CDKs) 4 and 6, which mediate G1/S checkpoint transition. <sentence_start/>CDK4/6 inhibitors (CDK4/6i) arrest the cell cycle and induce senescence by inhibiting phosphorylation of the Rb protein by the CDK4/6-cyclin D complex.<citation rid=\"bib1\" ref-type=\"bibr\" doi=\"10.1016/j.molcel.2020.08.020\" pmid=\"32946743\" pmcid=\"PMC7582788\" count=\"1\"><sup>1</sup></citation> <sentence_start/>Three CDK4/6i-palbociclib, ribociclib, and abemaciclib-have been approved for the treatment of ER<sup>+</sup> BrCa. <sentence_start/>Clinical and laboratory studies have shown that long-term treatment with CDK4/6i,<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.3389/fphar.2025.1549520\" pmcid=\"PMC12104243\" pmid=\"40421216\" count=\"1\"><sup>2</sup></citation><sup>,</sup><citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.1038/s41388-025-03378-0\" pmid=\"40200094\" count=\"1\"><sup>3</sup></citation><sup>,</sup><citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1186/s12943-025-02226-9\" pmid=\"39955556\" pmcid=\"PMC11829392\" count=\"1\"><sup>4</sup></citation> as well as with a recently developed CDK4-specific inhibitor, atirmociclib,<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation> leads to drug resistance and reduced drug efficacy. <sentence_start/>It is now understood that the resistance to targeted drugs may first emerge as a non-genetic adaptation of tumor cells before stable resistant mutants can be selected.<citation rid=\"bib6\" ref-type=\"bibr\" doi=\"10.1038/s41568-020-00302-4\" pmid=\"33033407\" count=\"1\"><sup>6</sup></citation><sup>,</sup><citation rid=\"bib7\" ref-type=\"bibr\" doi=\"10.1038/nature22794\" pmid=\"28607484\" pmcid=\"PMC5542814\" count=\"1\"><sup>7</sup></citation><sup>,</sup><citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2020.12.002\" pmid=\"33417832\" pmcid=\"PMC8670073\" count=\"1\"><sup>8</sup></citation> Early adaptation to CDK4/6 inhibition, evidenced by continued S-phase entry in treated ER<sup>+</sup> BrCa, can occur as early as 72 h.<citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-15-0728\" pmid=\"27020857\" pmcid=\"PMC5426059\" count=\"1\"><sup>9</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Mechanisms of both stable genetic resistance and transient transcriptional adaptation to CDK4/6i are varied and include acquired CDK6 amplification or overexpression,<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1038/onc.2016.379\" pmid=\"27748766\" pmcid=\"PMC5393973\" count=\"1\"><sup>10</sup></citation><sup>,</sup><citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-24-0036\" pmid=\"39437014\" pmcid=\"PMC11721435\" count=\"1\"><sup>11</sup></citation><sup>,</sup><citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2018.11.006\" pmid=\"30537512\" pmcid=\"PMC6294301\" count=\"1\"><sup>12</sup></citation><sup>,</sup><citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1016/j.celrep.2019.02.023\" pmid=\"30840889\" pmcid=\"PMC6449498\" count=\"1\"><sup>13</sup></citation> hyperphosphorylation of Rb by CDK2-cyclin E,<citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.1038/s41698-022-00311-6\" pmid=\"36153348\" pmcid=\"PMC9509389\" count=\"1\"><sup>14</sup></citation> gradual loss of Rb protein,<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1038/s41523-018-0092-4\" pmcid=\"PMC6261939\" pmid=\"30511015\" count=\"1\"><sup>15</sup></citation> and amplification of PI3K/mTOR signaling<citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1186/s13058-020-01320-8\" pmid=\"32795346\" pmcid=\"PMC7427086\" count=\"1\"><sup>16</sup></citation><sup>,</sup><citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.28177\" pmid=\"35035775\" pmcid=\"PMC8754587\" count=\"1\"><sup>17</sup></citation> and E2F activity<citation rid=\"bib18\" ref-type=\"bibr\" doi=\"10.1016/j.celrep.2023.113198\" pmcid=\"PMC10757862\" pmid=\"37865915\" count=\"1\"><sup>18</sup></citation>; such gradual transcriptional changes can be suppressed through pleiotropic transcriptional inhibition, in particular via inhibitors of CDK7<citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1172/JCI188839\" pmcid=\"PMC12520673\" pmid=\"40794455\" count=\"1\"><sup>19</sup></citation><sup>,</sup><citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.1158/1078-0432.CCR-23-2975\" pmid=\"38381406\" pmcid=\"PMC11061603\" count=\"1\"><sup>20</sup></citation> and CDK9.<citation rid=\"bib21\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-23-0650\" pmid=\"37801608\" pmcid=\"PMC10758688\" count=\"1\"><sup>21</sup></citation> <sentence_start/>Palbociclib resistance has also been linked to the development of the senescence-associated secretory phenotype (SASP), whereby senescent cells secrete factors enabling the survival of their neighbors.<citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1038/s41580-024-00727-x\" pmid=\"38654098\" count=\"1\"><sup>22</sup></citation> <sentence_start/>Given the diversity of the mechanisms for CDK4/6i resistance, blocking any individual resistance mechanisms is unlikely to have a major impact on patient outcomes. <sentence_start/>Thus, a combinatorial treatment regimen that would prevent the multiple mechanisms of resistance to CDK4/6i simultaneously could greatly improve the current standard of care."
+  },
+  {
+   "section": "article",
+   "text": "CDK8 or its paralog, CDK19, together with their binding partner, cyclin C (CCNC), and the proteins MED12 and MED13, form the regulatory CDK module of the transcriptional Mediator complex.<citation rid=\"bib23\" ref-type=\"bibr\" doi=\"10.1016/j.tibs.2022.01.002\" pmid=\"35193797\" pmcid=\"PMC8939868\" count=\"1\"><sup>23</sup></citation> <sentence_start/>CDK8 and CDK19 Mediator kinases differ in their expression but have qualitatively similar functions, and both paralogs need to be inhibited to achieve a phenotypic effect.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1093/nar/gkad538\" pmid=\"37378433\" pmcid=\"PMC10415139\" count=\"1\"><sup>24</sup></citation> <sentence_start/>In contrast to CDK4/6, CDK2, or CDK1, CDK8 and CDK19 regulate transcription but do not directly regulate cell cycle progression.<citation rid=\"bib23\" ref-type=\"bibr\" doi=\"10.1016/j.tibs.2022.01.002\" pmid=\"35193797\" pmcid=\"PMC8939868\" count=\"1\"><sup>23</sup></citation> <sentence_start/>Unlike other transcriptional CDKs, such as CDK7 or CDK9, Mediator kinases are not a part of the overall transcription machinery but regulate the Mediator complex levels and act as cofactors or modifiers of several transcription factors. <sentence_start/>In particular, CDK8 and CDK19 act as positive regulators of signal-induced transcription factors, such as NF-\u03baB, STATs, HIF1A, and ER, by promoting C-terminal domain phosphorylation of RNA Pol II, enabling pause-release and the elongation of transcription selectively in the context of genes activated by these transcription factors.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1093/nar/gkad538\" pmid=\"37378433\" pmcid=\"PMC10415139\" count=\"1\"><sup>24</sup></citation><sup>,</sup><citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.1073/pnas.1710467114\" pmid=\"28855340\" pmcid=\"PMC5617299\" count=\"1\"><sup>25</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.14894\" pmid=\"28147342\" pmcid=\"PMC5355036\" count=\"1\"><sup>26</sup></citation><sup>,</sup><citation rid=\"bib27\" ref-type=\"bibr\" doi=\"10.1038/nsmb.1752\" pmid=\"20098423\" pmcid=\"PMC2920286\" count=\"1\"><sup>27</sup></citation><sup>,</sup><citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.1016/j.cell.2013.04.048\" pmid=\"23746844\" pmcid=\"PMC3681429\" count=\"1\"><sup>28</sup></citation> Through this mechanism, CDK8 and CDK19 were also shown to mediate SASP.<citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1073/pnas.1206906109\" pmid=\"22869755\" pmcid=\"PMC3427077\" count=\"1\"><sup>29</sup></citation> <sentence_start/>Importantly, CDK8/19 inhibition downregulates primarily the signal-induced, but not basal, transcription of signal-activated genes, leading to the identification of CDK8/19 as pleiotropic regulators of transcriptional reprogramming.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1093/nar/gkad538\" pmid=\"37378433\" pmcid=\"PMC10415139\" count=\"1\"><sup>24</sup></citation><sup>,</sup><citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.1073/pnas.1710467114\" pmid=\"28855340\" pmcid=\"PMC5617299\" count=\"1\"><sup>25</sup></citation> CDK8 and CDK19 also act as negative regulators of transcription, through post-transcriptional regulation of the Mediator complex subunits.<citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1093/nar/gkad538\" pmid=\"37378433\" pmcid=\"PMC10415139\" count=\"1\"><sup>24</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Consistent with the effect of Mediator kinases on transcriptional reprogramming, CDK8/19 inhibitors (CDK8/19i), a new class of agents undergoing clinical trials in solid tumors and leukemias ( : , , , and ), were found to prevent the development of resistance, and sometimes help overcome the already acquired resistance, to different classes of anticancer agents, including, among others, antiestrogens, androgen deprivation, ionizing radiation, and inhibitors of HER2, EGFR, MEK, ERK/MAPK, mTOR, and AKT.<citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.14894\" pmid=\"28147342\" pmcid=\"PMC5355036\" count=\"1\"><sup>26</sup></citation><sup>,</sup><citation rid=\"bib30\" ref-type=\"bibr\" doi=\"10.3390/cells10010144\" pmid=\"33445730\" pmcid=\"PMC7828184\" count=\"1\"><sup>30</sup></citation><sup>,</sup><citation rid=\"bib31\" ref-type=\"bibr\" doi=\"10.3389/fcell.2020.00408\" pmcid=\"PMC7304162\" pmid=\"32596239\" count=\"1\"><sup>31</sup></citation><sup>,</sup><citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-21-4309\" pmid=\"36398965\" pmcid=\"PMC9938728\" count=\"1\"><sup>32</sup></citation><sup>,</sup><citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1073/pnas.2201073119\" pmcid=\"PMC9371674\" pmid=\"35914167\" count=\"1\"><sup>33</sup></citation><sup>,</sup><citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1073/pnas.2414501121\" pmcid=\"PMC11588072\" pmid=\"39541354\" count=\"1\"><sup>34</sup></citation><sup>,</sup><citation rid=\"bib35\" ref-type=\"bibr\" doi=\"10.1038/s41698-024-00615-9\" pmid=\"38822082\" pmcid=\"PMC11143207\" count=\"1\"><sup>35</sup></citation><sup>,</sup><citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1101/2023.08.08.552491\" count=\"1\"><sup>36</sup></citation> <sentence_start/>In light of these findings, we hypothesized that CDK8/19 inhibition could also prevent or help overcome the multiple non-genetic mechanisms implicated in tumor resistance to CDK4/6i. <sentence_start/>In the present study, we investigated the process of rapid non-genetic adaptation of tumor cells to CDK4/6i and the effect of CDK8/19i on such adaptations. <sentence_start/>Our results show that the non-genetic adaptation of tumor cells to palbociclib and other CDK4/6i is a robust, non-stochastic process driven by transcriptional reprogramming, which is fully prevented by the addition of CDK8/19i, both <italic>in vitro</italic> and <italic>in vivo</italic>. <sentence_start/>These results warrant the exploration of CDK8/19i administration as a general approach to preventing the development of resistance and extending the therapeutic efficacy of CDK4/6i."
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "Tumor cells rapidly adapt to CDK4/6 inhibitors, and this adaptation is prevented by Mediator kinase inhibition"
+  },
+  {
+   "section": "article",
+   "text": "To investigate tumor cell adaptation to CDK4/6i, the ER<sup>+</sup> BrCa cell lines MCF-7 and ZR-75-1 and the colorectal cancer cell line SW-620 were chosen for their <italic>de novo</italic> sensitivity to CDK4/6i palbociclib.<citation rid=\"bib37\" ref-type=\"bibr\" doi=\"10.1038/ncomms15916\" pmcid=\"PMC5490269\" pmid=\"28653662\" count=\"1\"><sup>37</sup></citation> <sentence_start/>To inhibit CDK8/19 Mediator kinase, the majority of our studies used equipotent selective CDK8/19i analogs SNX631<citation rid=\"bib33\" ref-type=\"bibr\" doi=\"10.1073/pnas.2201073119\" pmcid=\"PMC9371674\" pmid=\"35914167\" count=\"1\"><sup>33</sup></citation> and SNX631-6,<citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1101/2023.08.08.552491\" count=\"1\"><sup>36</sup></citation> with the latter being a late-preclinical stage drug candidate. <sentence_start/>Traditionally, palbociclib-resistant cell lines are selected for 4-12 months, usually with gradually increasing palbociclib concentrations.<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1038/onc.2016.379\" pmid=\"27748766\" pmcid=\"PMC5393973\" count=\"1\"><sup>10</sup></citation> <sentence_start/>However, we found that 20-day exposure to 125-500 nM palbociclib was sufficient to produce a loss of sensitivity in all three cell lines tested, as indicated by different assays. <sentence_start/>Strikingly, the addition of SNX631 at a concentration that produces only a weak growth inhibition by itself (500 nM) maintains growth arrest by all the tested palbociclib concentrations across all three cell lines (Figures 1A and 1B). <sentence_start/>The key results of these assays were confirmed by direct cell counting and crystal violet staining (Figures S1A-S2C). <sentence_start/>In 7-day assays, SNX631 produced only weak synergistic or additive effects with palbociclib (Figure S1D); its effects became highly significant only by day 19 (Figure 1A; Table S1), indicating the prevention of adaptive resistance rather than acute drug synergy.<sentence_start/>Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Palbociclib adaptation occurs rapidly and is prevented by CDK8/19 inhibition"
+  },
+  {
+   "section": "article",
+   "text": "(A and B) 20-day sulforhodamine B (SRB) viability assays of MCF-7(A), ZR-75-1, and SW-620 (B) cells treated with palbociclib with (red) or without (blue) 500 nM SNX631. 500 nM SNX631 monotherapy is in green. <sentence_start/>Results are representative of three independent experiments."
+  },
+  {
+   "section": "article",
+   "text": "(C) 20-day SRB assays of MCF-7 cells treated with ribociclib (left) or abemaciclib (right)."
+  },
+  {
+   "section": "article",
+   "text": "(D) 21-day SRB assays of MCF-7 cells treated with the indicated CDK8/19 inhibitors \u00b1 palbociclib (PAL)."
+  },
+  {
+   "section": "article",
+   "text": "(E) Crystal violet-stained flasks of MCF-7 cells treated for 42 days with 500 nM palbociclib \u00b1500 nM SNX631 or with SNX631 added later on day 7."
+  },
+  {
+   "section": "article",
+   "text": "(F) 7-day SRB assay comparing parental and palbociclib-adapted (P-A) MCF-7 cells treated with palbociclib."
+  },
+  {
+   "section": "article",
+   "text": "(G) 20-day SRB assay of P-A MCF-7 cells. <sentence_start/>Statistical analysis is shown in Table S1."
+  },
+  {
+   "section": "article",
+   "text": "Data are represented as mean \u00b1 SEM."
+  },
+  {
+   "section": "article",
+   "text": "Similar rapid adaptation and its prevention by SNX631 were observed with the other two FDA-approved CDK4/6i, ribociclib and abemaciclib (Figure 1C). <sentence_start/>The role of CDK8/19 inhibition in the prevention of palbociclib adaptation was confirmed using four other structurally distinct CDK8/19i, senexin B<citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.14894\" pmid=\"28147342\" pmcid=\"PMC5355036\" count=\"1\"><sup>26</sup></citation> (Figure S1E), senexin C,<citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1021/acs.jmedchem.1c01951\" pmid=\"35114084\" pmcid=\"PMC10042267\" count=\"1\"><sup>38</sup></citation> BI1347,<citation rid=\"bib39\" ref-type=\"bibr\" doi=\"10.1158/1535-7163.MCT-19-0789\" pmid=\"32024684\" pmcid=\"PMC7661742\" count=\"1\"><sup>39</sup></citation> and compound 25<citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1021/acsmedchemlett.9b00480\" pmid=\"32071678\" pmcid=\"PMC7025388\" count=\"1\"><sup>40</sup></citation> (Figure 1D). <sentence_start/>These inhibitors, all of which act primarily on CDK8/19 but have different off-target effects, prevented palbociclib adaptation in MCF-7 cells, indicating that CDK819 was their common target responsible for the prevention of resistance."
+  },
+  {
+   "section": "article",
+   "text": "Despite near-complete growth suppression by 500 nM palbociclib in MCF-7 cells after 7 days of treatment, drug-adapted colonies began to emerge by day 20, and the adapted cells reached confluence by day 42 (Figure 1E). <sentence_start/>Combination treatment with palbociclib and a CDK8/19i effectively prevented this adaptation. <sentence_start/>Notably, addition of SNX631 even 7 days after initiating palbociclib treatment markedly suppressed cell growth (Figure 1E), suggesting that Mediator kinase inhibition can either reverse early adaptive resistance or prevent its full establishment."
+  },
+  {
+   "section": "article",
+   "text": "When MCF-7 cells adapted to 500 nM palbociclib for 42 days were replated into the same 20-day viability assay used for unselected cells, the resistance of these palbociclib-adapted (P-A) cells was not maintained (Figures 1F and 1G), indicating that the adaptive response was unstable and likely non-genetic, rather than a stable, mutation-driven resistance. <sentence_start/>The replated P-A cells underwent a similar adaptation process as unselected cells (Figure 1A), albeit at a slightly faster rate, and this adaptation was similarly prevented by co-treatment with 500 nM SNX631 (Figure 1G). <sentence_start/>The P-A cells retained the same sensitivity to CDK8/19i as the parental cells (Figure S1F)."
+  },
+  {
+   "section": "article",
+   "text": "Initial sensitivity and adaptation to palbociclib are subject to lineage plasticity, but clonal heterogeneity does not impact the effects of CDK8/19 inhibition"
+  },
+  {
+   "section": "article",
+   "text": "The known heterogeneity within the MCF-7 cell line in regard to chemotherapeutic response,<citation rid=\"bib41\" ref-type=\"bibr\" pmid=\"26026074\" count=\"1\"><sup>41</sup></citation><sup>,</sup><citation rid=\"bib42\" ref-type=\"bibr\" pmid=\"33299647\" doi=\"10.20892/j.issn.2095-3941.2020.0028\" pmcid=\"PMC7721098\" count=\"1\"><sup>42</sup></citation> coupled with the transient nature of palbociclib adaptation seen in Figure 1G, led us to hypothesize that the adaptation to palbociclib may reflect a reversible non-genetic switch process. <sentence_start/>To study the effects of palbociclib and CDK8/19i in individual MCF-7 cells, the cells were plated at a low density (100 cells/cm<sup>2</sup>) and analyzed by real-time video microscopy for the formation of cell clusters over 14 days. <sentence_start/>Clusters of control cells showed relatively homogeneous proliferation rates (Figure S2A, left). <sentence_start/>No clusters formed under combination treatment. <sentence_start/>The cells plated in SNX631 alone formed many clusters, similarly to control. <sentence_start/>However, the CDK8/19i eventually halted cluster proliferation and reduced cluster size, suggesting cell death (Figure S2A, middle), unlike the moderate growth inhibition seen at high density (Figure 1A). <sentence_start/>In contrast, only 10 proliferating clusters emerged under 500 nM palbociclib, a \u223c100-fold reduction in plating efficiency versus control. <sentence_start/>Eight of these clusters proliferated 2.75-fold slower than controls, one arrested, and one regained a control-like growth rate (Figure S2A, right). <sentence_start/>Because both compounds showed markedly greater effects at low density, we concluded that this assay did not faithfully model palbociclib adaptation observed under high-density conditions."
+  },
+  {
+   "section": "article",
+   "text": "To investigate the nature of palbociclib adaptation using the Luria-Delbr\u00fcck fluctuation test,<citation rid=\"bib7\" ref-type=\"bibr\" doi=\"10.1038/nature22794\" pmid=\"28607484\" pmcid=\"PMC5542814\" count=\"1\"><sup>7</sup></citation><sup>,</sup><citation rid=\"bib43\" ref-type=\"bibr\" doi=\"10.1093/genetics/28.6.491\" pmid=\"17247100\" pmcid=\"PMC1209226\" count=\"1\"><sup>43</sup></citation><sup>,</sup><citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.CD-20-1265\" pmid=\"34911733\" pmcid=\"PMC8983469\" count=\"1\"><sup>44</sup></citation><sup>,</sup><citation rid=\"bib45\" ref-type=\"bibr\" doi=\"10.3389/fmicb.2022.1050516\" pmcid=\"PMC9942930\" pmid=\"36824587\" count=\"1\"><sup>45</sup></citation> 44 clones of the parental MCF-7 population were generated via ultra-low-density plating (Figure S2B). <sentence_start/>All clones were expanded and subjected to a 7-day concentration-response viability assay at high cell density, with dose ranges of palbociclib defined by parental IC<sub>50</sub>, in the absence and in the presence of 500 nM SNX631 (Figure S3). <sentence_start/>The palbociclib IC<sub>50</sub> values varied widely among the clones (Figure 2A). <sentence_start/>For some highly resistant clones, cell viability did not fall below 50% at the highest tested concentration; so, the best-fit IC<sub>50</sub> values were estimated by non-linear regression. <sentence_start/>Clonal growth also varied in the absence of palbociclib but showed a little correlation with responses to palbociclib (Figure S2C), SNX631 (Figure S2D), or between the two drugs (Figure S2E). <sentence_start/>Importantly, 500 nM SNX631 potentiated the response to palbociclib in all clones, except a few that grew too slowly, for reliable analysis (Figure S3). <sentence_start/>Clone responses to 500 nM palbociclib alone and the combination were strongly correlated (r<sup>2</sup> = 0.82; Figure 2B), confirming that CDK8/19 inhibition augmented the antiproliferative effect of palbociclib. <sentence_start/>On the other hand, Bliss scores spanned positive, neutral, and negative values across the clones (Figure S2F), in agreement with the previous conclusion that the strong drug interaction becomes apparent only at the later time when palbociclib resistance emerges.<sentence_start/>Figure 2"
+  },
+  {
+   "section": "article",
+   "text": "Effects of CDK8/19 inhibition on palbociclib adaptation in MCF-7 clones"
+  },
+  {
+   "section": "article",
+   "text": "(A) Palbociclib IC<sub>50</sub> values (7-day sulforhodamine B [SRB] assays) for 44 clones (black) and the parental MCF-7 cell line (red). <sentence_start/>IC<sub>50</sub> values were calculated using non-linear regression (variable slope). <sentence_start/>Best-fit IC<sub>50</sub> values were estimated for clones that did not reach 50% inhibition within the dose range, but confidence intervals were undefined due to incomplete curve definition."
+  },
+  {
+   "section": "article",
+   "text": "(B) Correlation between the effects of palbociclib and palbociclib + SNX631 across clones (7-day SRB assay). <sentence_start/>Correlation coefficients were determined by linear regression. <sentence_start/>The line of identity (x = y) is shown in blue."
+  },
+  {
+   "section": "article",
+   "text": "(C) Dose-response curves and IC<sub>50</sub> values from initial experiments (R1) and subsequent replicates (R2 and R3), for parental MCF-7 cells and three clones that were initially insensitive to palbociclib."
+  },
+  {
+   "section": "article",
+   "text": "(D) 20-day SRB analysis of initially palbociclib-insensitive clones, from R2 (top) and R3 (bottom) (see C)."
+  },
+  {
+   "section": "article",
+   "text": "Data are represented as mean \u00b1 SEM."
+  },
+  {
+   "section": "article",
+   "text": "Variation between the clones\u2019 response to palbociclib generally increased as the concentration was increased, plateauing at approximately 60% variation for all concentrations above 63 nM (Figure S4A). <sentence_start/>Treating clonal cells with 500 nM palbociclib revealed an inter-clonal variation that was moderately higher than the noise control (variations between biological repeats of the MCF-7 parental cell line treated with 500 nM palbociclib) but statistically significant (Figure S4B). <sentence_start/>If each cell\u2019s adaptation response to CDK4/6i was purely random, we would have expected to see inter-clonal variations similar to the noise control. <sentence_start/>The non-skewed distributions of the palbociclib concentration response (Figure S4C) are consistent with the stochastic switching model of individual cells."
+  },
+  {
+   "section": "article",
+   "text": "To confirm this conclusion, the three most palbociclib-resistant clones (18, 30, and 32) were retested twice after \u223c17 generations of drug-free growth between assays. <sentence_start/>All three clones showed decreased IC<sub>50</sub> values in the second assay, followed by increased IC<sub>50</sub> values in the third (Figure 2C). <sentence_start/>In contrast, the parental MCF-7 population showed only minor IC<sub>50</sub> fluctuations, suggesting either that crosstalk between all subpopulations within MCF-7 prevents fluctuations in palbociclib sensitivity or that whatever fluctuations occur within the diverse cell lines result in regression to the mean IC<sub>50</sub>."
+  },
+  {
+   "section": "article",
+   "text": "We also performed 20-day palbociclib adaptation assays for clones 18, 30, and 32, alongside the last two IC<sub>50</sub> measurements. <sentence_start/>All three clones continued proliferating in palbociclib, consistent with adaptation, but remained arrested by the addition of SNX631 (Figure 2D). <sentence_start/>Their response to the combination was even stronger than that of the parental line, indicating that Mediator kinase inhibition consistently prevents palbociclib adaptation despite variation in palbociclib sensitivity among MCF-7 subpopulations."
+  },
+  {
+   "section": "article",
+   "text": "<italic>In vivo</italic> treatment with Mediator kinase inhibitor strongly potentiates palbociclib in palbociclib-sensitive and -insensitive ER<sup>+</sup> BrCa xenografts"
+  },
+  {
+   "section": "article",
+   "text": "The effects of combining palbociclib with a CDK8/19i on tumor growth <italic>in vivo</italic> were investigated using the MCF-7 xenograft model, which was treated for up to 80 days with vehicle control, 50 mg/kg/d palbociclib, 30 mg/kg/d SNX631-6, or a combination of the two drugs. <sentence_start/>Palbociclib significantly inhibited tumor growth, but after \u223c60 days of treatment, the slope of the tumor growth curve increased by up to 5-fold in the palbociclib arm (Figure 3A), indicating the development of adaptive drug resistance. <sentence_start/>SNX631-6 alone had only a moderate, albeit significant, effect on tumor growth (Figure 3A). <sentence_start/>Nevertheless, morphological analysis of the tumors collected at the endpoint indicated that 8/10 control MCF-7 tumors were highly invasive, showing tumor penetration of the muscle layer, whereas muscle invasion was detected in only 2/10 tumors treated with SNX631-6 alone (Figures 3B and S5A). <sentence_start/>These results, in concordance with similar observations on the effect of a CDK8/19i on invasive growth in a transgenic breast cancer model,<citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1038/s41388-018-0316-y\" pmid=\"29780169\" pmcid=\"PMC7018387\" count=\"1\"><sup>46</sup></citation> indicate that CDK8/19 inhibition suppresses tumor invasion, even when it has only a modest effect on the tumor growth.<citation rid=\"bib47\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-18-1583\" pmid=\"30185549\" pmcid=\"PMC6279600\" count=\"1\"><sup>47</sup></citation> <sentence_start/>We note that no lymph node or remote metastases were detected in our MCF7 xenograft model. <sentence_start/>Combining palbociclib with SNX631-6 drastically enhanced the effect of palbociclib, judging by the strong suppression of tumor growth (Figure 3A). <sentence_start/>In agreement with the anticipated effect of the combination, SNX631-6 potentiated palbociclib\u2019s cell-cycle arrest, as combination-treated tumors showed significantly reduced cell proliferation (shown by decreased Ki67 intensity) relative to control tumors (Figures 3C and S5B). <sentence_start/>Importantly, palbociclib, SNX631-6, and their combination neither had any effects on mouse weights (Figure 3D) nor caused other signs of toxicity in this study.<sentence_start/>Figure 3"
+  },
+  {
+   "section": "article",
+   "text": "Effects of palbociclib, SNX631-6, and their combination on tumor xenografts"
+  },
+  {
+   "section": "article",
+   "text": "(A) Tumor volume dynamics of MCF-7 xenografts (left) (<italic>n</italic> = 14 mice/group for control, palbociclib (PAL), and SNX631-6; <italic>n</italic> = 15 for the combination) and slopes of average tumor growth over indicated time intervals (right). <sentence_start/>Statistical significance was determined using mixed-effects analysis followed by Tukey\u2019s multiple-comparisons test."
+  },
+  {
+   "section": "article",
+   "text": "(B) Histological scores for tumor invasion into muscle in vehicle- and SNX631-treated MCF-7 xenografts (<italic>n</italic> = 10 tumors per group). <sentence_start/>Tumors with multiple sections were averaged. <sentence_start/>Significance was determined using nested one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "(C) Mean fluorescence intensity of Ki67 across duplicate tumor sections (<italic>n</italic> = 10 tumors per group). <sentence_start/>Significance was determined using ordinary one-way ANOVA."
+  },
+  {
+   "section": "article",
+   "text": "(D) Body weight percentages (pretreatment weight = 100%) for the MCF-7 xenograft study."
+  },
+  {
+   "section": "article",
+   "text": "(E) Tumor volume dynamics of T-47D xenografts (<italic>n</italic> = 10 mice/group for control, PAL, and SNX631-6; <italic>n</italic> = 9 mice for the combination)."
+  },
+  {
+   "section": "article",
+   "text": "(F) Body weight ratios for the T-47D xenograft study, normalized to mouse weight at the start of treatment."
+  },
+  {
+   "section": "article",
+   "text": "Data are represented as mean \u00b1 SEM. <sentence_start/>\u2217\u2217\u2217<italic>p</italic> &lt; 0.001, \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001."
+  },
+  {
+   "section": "article",
+   "text": "We have also tested the effects of palbociclib, SNX631-6, and their combination in another ER<sup>+</sup> BrCa xenograft model, T-47D. In contrast to MCF-7, T-47D cells are relatively insensitive to palbociclib and SNX631 <italic>in vitro</italic>, while showing a moderate response to the drug combination (Figure S5C). <sentence_start/><italic>In vivo</italic>, however, both palbociclib and especially SNX631-6 had a significant effect on T-47D xenograft growth, whereas the combination of palbociclib and SNX631-6 had a much stronger effect than the individual drugs (Figure 3E), with no apparent toxicity (Figure 3F). <sentence_start/>This result indicated that the combination of CDK4/6i and CDK8/19i can produce a strong response, even in those tumors that respond weakly to either inhibitor alone."
+  },
+  {
+   "section": "article",
+   "text": "Palbociclib adaptation is associated with phenotypic markers of senescence that are attenuated by Mediator kinase inhibition"
+  },
+  {
+   "section": "article",
+   "text": "Mechanistic analysis of the adaptation to CDK4/6 inhibition was carried out in palbociclib-treated MCF-7 cells. <sentence_start/>To elucidate the role of senescence, which is known to be induced by CDK4/6i, we carried out morphological and flow cytometric analyses during the adaptation of MCF-7 cells to 500 nM palbociclib alone or in combination with 500 nM SNX631. <sentence_start/>Palbociclib treatment induced phenotypic markers of senescence, as indicated by increased staining for senescence-associated \u03b2-galactosidase (SA-\u03b2-GAL) over the time of treatment (Figure 4A) and increases in flow cytometric parameters of the forward scatter (FSC) and the side scatter (SSC), which reflect the cell size and granularity, respectively (Figure S6A). <sentence_start/>Cells that were adapted to 500 nM palbociclib over 42 days were 99% SA-\u03b2-GAL<sup>+</sup>, as opposed to 10% of control cells (Figure 4B) and possessed 2- to 3-fold higher SSC and FSC values (Figure 4C). <sentence_start/>Despite these markers of the senescent phenotype, the cell number still increased in the presence of palbociclib (Figure 1G), and cell division was observed using video microscopy (Videos S1 and S2), indicating that the cells were not, in fact, senescent. <sentence_start/>This pseudo-senescent P-A cell population, while proliferating, was partially growth inhibited, as indicated by \u223c10% higher fraction of cells in the G1 phase of the cell cycle (Figure S6B) and \u223c60% fewer mitotic events revealed by real-time image analysis over 41.5 h (Figure S6C). <sentence_start/>The duration of mitosis itself was not significantly impacted in the P-A cells (Figure S6D).Figure 4"
+  },
+  {
+   "section": "article",
+   "text": "Effects of CDK8/19 inhibitors on phenotypic markers of senescence associated with adaptation to palbociclib"
+  },
+  {
+   "section": "article",
+   "text": "(A) Time course of MCF-7 cells treated with 500 nM palbociclib \u00b1 500 nM SNX631 and stained for SA-\u03b2-GAL (green) (scale bars, 200 \u03bcm)."
+  },
+  {
+   "section": "article",
+   "text": "(B) SA-\u03b2-GAL-stained MCF-7 cells treated with 0.1% DMSO vehicle control or 500 nM palbociclib for 42 days (2 representative images each) (scale bars, 200 \u03bcm)."
+  },
+  {
+   "section": "article",
+   "text": "(C) Forward scatter (FSC) and side scatter (SSC) of control (black) and 42-day palbociclib-adapted (blue) cells, measured as mean fluorescence intensity (MFI)."
+  },
+  {
+   "section": "article",
+   "text": "(D) FSC and SSC of MCF-7 cells following 5 days of treatment with palbociclib \u00b1 senexin B (SNXB). <sentence_start/>Statistical significance was determined by ordinary one-way ANOVA with Sidak\u2019s multiple-comparisons test (assuming a single pooled variance). <sentence_start/>\u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001."
+  },
+  {
+   "section": "article",
+   "text": "(E) MCF-7 cells were treated with 80 nM palbociclib or DMSO vehicle control for 160 days. <sentence_start/>Cells were trypsinized, counted, and replated every 5 days. <sentence_start/>Data are represented as mean \u00b1 SEM."
+  },
+  {
+   "section": "article",
+   "text": "Video S1. <sentence_start/>Time-lapse imaging of mitotic divisions in parental and palbociclib-adapted MCF-7 cells, related to Figure 1"
+  },
+  {
+   "section": "article",
+   "text": "Parental (left) or palbociclib-adapted (right) MCF-7 cells were imaged by time-lapse microscopy for 41.5 h, with images acquired every 5 min. <sentence_start/>Mitotic divisions were annotated and are color labeled."
+  },
+  {
+   "section": "article",
+   "text": "Video S2. <sentence_start/>Long-term time-lapse imaging of MCF-7 cell growth at low density, related to Figure S2"
+  },
+  {
+   "section": "article",
+   "text": "MCF-7 cells were plated at low density in the presence of control vehicle (left) or 500 nM palbociclib (right) and imaged by time-lapse microscopy for 2 weeks, with images acquired every 12 h. <sentence_start/>This video is derived from the original imaging dataset used to generate Figure S2A."
+  },
+  {
+   "section": "article",
+   "text": "The addition of SNX631 to palbociclib did not affect the percentage of SA-\u03b2-GAL<sup>+</sup> cells (Figure 4A), but CDK8/19i senexin B fully suppressed the increase in FSC (a measure of the cell size) and SSC (a measure of granularity) in the palbociclib-treated cells (Figure 4D), indicating a role for Mediator kinases in some but not all phenotypic features of the pseudo-senescent phenotype."
+  },
+  {
+   "section": "article",
+   "text": "A positive role of the pseudo-senescent phenotype in palbociclib adaptation was indirectly suggested by the results of an experiment where MCF-7 cells were placed under a relatively low (80 nM) concentration of palbociclib, and their growth was assessed every 5 days following trypsinization and replating (rather than in constant presence of the drug). <sentence_start/>The 80 nM palbociclib-treated population showed a consistently reduced growth rate throughout the 160 days of the experiment, without developing resistance (Figure 4E). <sentence_start/>This result suggests that maintaining cells under the drug without frequent replating was critical for their adaptation to palbociclib, as can be seen in Figure 1. <sentence_start/>Notably, cells displaying a pseudo-senescent phenotype are not easily dissociated by trypsinization and are preferentially lost during replating, suggesting that the loss of such cells could be responsible for the failure of palbociclib adaptation in this experimental setup.<citation rid=\"bib48\" ref-type=\"bibr\" doi=\"10.1007/978-1-62703-556-9_1\" pmid=\"23929093\" pmcid=\"PMC3873382\" count=\"1\"><sup>48</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "The effects of the combination of CDK4/6 and Mediator kinase inhibitors remain dependent on Rb"
+  },
+  {
+   "section": "article",
+   "text": "Because CDK4/6 acts through Rb phosphorylation and CDK4/6i require Rb for their antiproliferative activity, we investigated the effects of palbociclib/SNX631 combination on Rb and its interactive proteins (cyclin E1 and E2F1) through western blotting analysis in MCF-7, ZR-75-1, and SW-620 cells (Figure 5A). <sentence_start/>Approximately 1 week of treatment with palbociclib led to a decrease in total Rb levels in all three cell lines and decreased Rb phosphorylation, especially at S780. <sentence_start/>The decrease in Rb levels was even more pronounced in the cells treated with the palbociclib and SNX631 combination. <sentence_start/>Consistent with previous studies on palbociclib adaptation/resistance,<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1038/s41523-018-0092-4\" pmcid=\"PMC6261939\" pmid=\"30511015\" count=\"1\"><sup>15</sup></citation> 7 days of treatment with palbociclib increased the expression of cyclin E1 in all three cell lines; the addition of SNX631 did not notably alter this effect of palbociclib. <sentence_start/>SNX631 and palbociclib moderately decreased E2F1 levels individually, especially in MCF-7 and SW-620 cells, and the combination exacerbated this decrease (Figure 5A).Figure 5"
+  },
+  {
+   "section": "article",
+   "text": "Effects of palbociclib and CDK8/19 inhibitors on Rb and related proteins"
+  },
+  {
+   "section": "article",
+   "text": "(A) Western blot analysis of the indicated proteins in MCF-7, ZR-75-1, and SW-620 cell lines treated with 500 nM palbociclib (PAL) \u00b1 500 nM SNX631 (SNX) for 6-7 days."
+  },
+  {
+   "section": "article",
+   "text": "(B) Western blot of two Rb-knockdown derivatives (shRNA-RB#1 and #2) of the MCF-7 cell line."
+  },
+  {
+   "section": "article",
+   "text": "(C) 20-day SRB assays of shRNA-RB#1 and #2 treated with palbociclib with (red) or without (blue) 500 nM SNX631. 500 nM SNX631 monotherapy is in green. <sentence_start/>Data are represented as mean \u00b1 SEM."
+  },
+  {
+   "section": "article",
+   "text": "The enhancement of the decrease in total Rb levels was the strongest effect of the addition of the Mediator kinase inhibitor to palbociclib in the above analysis. <sentence_start/>To determine if this effect reflected a direct impact of the drug combination on Rb or reflected a more robust selection for cells with lower Rb expression (a common mechanism of resistance to CDK4/6i), we generated two MCF-7 derivatives with short hairpin RNA (shRNA)-mediated RB1 knockdown (Figure 5B). <sentence_start/>These derivatives were then tested for their response to different concentrations of palbociclib alone or in combination with SNX631 over 20 days (Figure 5C). <sentence_start/>In contrast to the parental MCF-7 cells (Figure 1A), the Rb-knockdown derivatives were no longer inhibited by palbociclib alone (Figure 5C). <sentence_start/>The moderate antiproliferative effect of SNX631 alone was undiminished by RB1 knockdown, but the combination of palbociclib and SNX631, while more potent than palbociclib alone, no longer produced complete suppression of cell proliferation that was seen in the parental cells. <sentence_start/>Hence, the antiproliferative effect of the combination of CDK4/6 and Mediator kinase inhibitors remains partially reliant on Rb, resulting in enhanced selection of cells with Rb downregulation upon treatment with the drug combination."
+  },
+  {
+   "section": "article",
+   "text": "RNA sequencing analysis identifies transcriptomic changes associated with palbociclib adaptation that are prevented by CDK8/19 inhibition"
+  },
+  {
+   "section": "article",
+   "text": "To investigate transcriptomic changes underlying palbociclib adaptation and its prevention by CDK8/19 inhibition, we conducted short-term (ST) and long-term (LT) <italic>in vitro</italic> RNA sequencing (RNA-seq) studies in MCF-7 cells and an <italic>in vivo</italic> (IV) study of the xenografts shown in Figure 3A (Figure 6A). <sentence_start/>The ST study analyzed cells after 72 h of treatment with vehicle, 500 nM SNX631, 500 nM palbociclib, or their combination. <sentence_start/>The LT study compared ten independently adapted populations treated with 500 nM palbociclib for 28 days with five vehicle-treated controls; this study did not include the addition of SNX631 because no cells remained after 28 days of combination treatment. <sentence_start/>The IV study analyzed tumors from 4-5 mice per group after nearly 80 days of treatment with each drug or drug combination to assess palbociclib resistance and its prevention by SNX631-6.Figure 6"
+  },
+  {
+   "section": "article",
+   "text": "RNA-seq analysis of palbociclib resistance and its prevention by CDK8/19 inhibition"
+  },
+  {
+   "section": "article",
+   "text": "(A) Schematic of three RNA-seq experiments in MCF-7 cells: short-term (ST; 3-day) and long-term (LT; 28-day) <italic>in vitro</italic> treatments, and an <italic>in vivo</italic> (IV) analysis of excised MCF-7 tumors. <sentence_start/>For LT-treated cells, drug-containing medium was replaced every 5 days. <sentence_start/>Vehicle control cells were passaged every 7 days, and palbociclib-treated cells were passaged once on day 10 to prevent overgrowth."
+  },
+  {
+   "section": "article",
+   "text": "(B-D) Normalized enrichment scores (NESs) from GSEA hallmark pathways significantly affected in any treatment comparison <italic>in vitro</italic> (B) or <italic>in vivo</italic> human tumor (C) and stromal mouse (D) compartments. <sentence_start/>Black arrows indicate pathways implicated in CDK4 inhibitor resistance in a study by Palmer et al.<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "(E-I) Heatmaps showing average log<sub>2</sub> fold change relative to corresponding control samples with unsupervised hierarchical clustering. <sentence_start/>Differentially expressed genes (DEGs) were identified for the following comparisons: ST-PAL vs. ST-DMSO (711 DEGs) (E), ST-SNXPAL vs. ST-PAL (273 DEGs) (F), LT-PAL vs. LT-DMSO (3,599 DEGs) (G), IV-PAL vs. IV-VEH (1,023 DEGs) (H), and IV-SNXPAL vs. IV-PAL (515 DEGs) (I). <sentence_start/>(The designations of the experimental groups are shown in A). <sentence_start/>Black boxes highlight gene expression patterns of interest. <sentence_start/>DEGs were selected using a fold change &gt;1.5 and FDR &lt; 0.05. <sentence_start/>Heatmaps were generated using the Morpheus platform."
+  },
+  {
+   "section": "article",
+   "text": "(J) Plot of log<sub>2</sub> fold change for IV-SNXPAL and IV-PAL relative to IV-VEH for the 14 DEGs that showed &gt;2-fold induction in atirmociclib-resistant versus atirmociclib-sensitive tumors and were also induced by IV-PAL."
+  },
+  {
+   "section": "article",
+   "text": "Gene set enrichment analysis (GSEA) identified enriched hallmark gene sets in the ST and LT studies (Figure 6B) and separately analyzed human (tumor) and mouse (stromal) genes in the IV study (Figures 6C and 6D). <sentence_start/>The most common response to palbociclib upon ST treatment or LT adaptation <italic>in vitro</italic> and in <italic>in-vivo</italic>-adapted tumor or stromal cells was the downregulation of the MYC targets (V1), and the downregulation of this pathway was reduced by the addition of CDK8/19i (Figures 6B and 6C; Figure S7A). <sentence_start/>Overall, however, most of the pathways affected by palbociclib treatment in tumor cells during the adaptation <italic>in vitro</italic> (LT) or IV were upregulated. <sentence_start/>Remarkably, although IV treatment with SNX631-6 alone had a very similar effect to palbociclib on most pathways in tumor (but not in stromal) cells, the addition of CDK8/19i to palbociclib decreased the upregulation of almost all pathways (Figures 6C and 6D), in agreement with the principal role of Mediator kinases as regulators of transcriptional reprogramming induced by other agents.<citation rid=\"bib52\" ref-type=\"bibr\" doi=\"10.1007/s13105-023-00972-2\" pmid=\"37458957\" count=\"1\"><sup>49</sup></citation> <sentence_start/>IFN-\u03b3 and IFN-\u03b1 pathways were the most strongly upregulated in P-A tumor cells <italic>in vivo</italic>, followed by TNF-\u03b1-NF-\u03baB signaling, and were also strongly induced during LT adaptation <italic>in vitro</italic> but not ST treatment or in stromal cells (Figures 6B-6D; Figures S7B-S7D). <sentence_start/>These results are concordant with the study<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1073/pnas.2213146119\" pmcid=\"PMC9894111\" pmid=\"36449545\" count=\"1\"><sup>50</sup></citation> where upregulation of the IFN-\u03b3, IFN-\u03b1, and TNF-\u03b1 signaling pathways, resulting from the activation of retrotransposons carrying short, interspersed repeat sequences that activate cGAS-STING pathway, was implicated in the acquisition of drug resistance in mammary carcinoma. <sentence_start/>Our RNA-seq analysis was limited to poly(A)<sup>+</sup> RNA and, therefore, did not provide information on the repeated sequences, but we analyzed the effects of <italic>in vivo</italic> treatments on the cGAS-STING pathway and found that it was upregulated in P-A tumor cells (Figure S7E), in agreement with the possible retrotransposon activation.<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1073/pnas.2213146119\" pmcid=\"PMC9894111\" pmid=\"36449545\" count=\"1\"><sup>50</sup></citation> <sentence_start/>The addition of CDK8/19i decreased the induction of these pathways during palbociclib adaptation (Figures 6B and 6C; Figure S7). <sentence_start/>Other prominent effects of the drug combination relative to palbociclib alone were associated with the oxidative phosphorylation pathway, which was upregulated by the combination treatment both <italic>in vitro</italic> (ST) and especially <italic>in vivo</italic> (in both tumor and stromal cells), and the mitotic spindle pathway, which was downregulated by the combination, in agreement with its antiproliferative effect (Figures 6B and 6C)."
+  },
+  {
+   "section": "article",
+   "text": "At the level of individual genes, differentially expressed genes (DEGs) between any treatment conditions were defined as genes with &gt;1.5-fold change and a false discovery rate (FDR) of &lt; .05. <sentence_start/>Heatmap visualization of the 711 DEGs affected by palbociclib in the ST <italic>in vitro</italic> study (ST-PAL) (see Data S1) showed that some were similarly affected by the ST and the LT palbociclib treatment, but many others were no longer affected in the LT (P-A) cells or even affected in the opposite direction (bracketed in Figure 6E; heatmaps for individual samples are shown in Figure S8A). <sentence_start/>Observation of the 273 DEGs identified by ST-SNXPAL versus ST-PAL comparison revealed clusters of genes where SNX631 prevented the same ST palbociclib-induced expression patterns that were exacerbated by LT palbociclib treatment (bracketed in Figure 6F). <sentence_start/>Among 3,599 DEGs affected in P-A cells (LT-PAL), only a minority were already affected after ST-PAL treatment, indicating that most of the transcriptional changes in LT-adapted cells developed late in the course of the adaptation (bracketed in Figures 6G and S8B)."
+  },
+  {
+   "section": "article",
+   "text": "Of note, all 10 independently adapted LT populations showed a very similar pattern of gene expression for both the ST and LT DEGs (Figure S8A and S8B), indicating that either all 10 populations underwent the same transcriptomic changes during their adaptation or the adaptation represented the selection of the same intrinsically resistant subpopulation of MCF-7 cells.<citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1158/2159-8290.CD-20-1265\" pmid=\"34911733\" pmcid=\"PMC8983469\" count=\"1\"><sup>44</sup></citation> <sentence_start/>The latter possibility would be in contrast to the conclusions of the fluctuation analysis (Figure S4). <sentence_start/>We used the published data from single-cell RNA sequencing (scRNA-seq) analysis of 977 MCF-7 cells<citation rid=\"bib50\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-20-0696\" pmid=\"33148662\" pmcid=\"PMC7856056\" count=\"1\"><sup>51</sup></citation> to determine if the changes in gene expression associated with LT adaptation could be found among the naive cells. <sentence_start/>We compared 42 significantly expressed LT DEGs across 977 single cells with the LT-PAL and LT-Ctrl samples (Figure S9). <sentence_start/>For nearly all 42 genes, single cells\u2019 expression values clustered close to each other, regardless of the similarity of expression to the LT-PAL samples. <sentence_start/>The absence of individual outlier cells that resembled LT-PAL gene expression (with the possible exception of two genes, <italic>HMGN5</italic> and <italic>IFIT1</italic>) suggests independent, similar adaptation mechanisms of different populations, rather than pre-selection of inherently resistant cells."
+  },
+  {
+   "section": "article",
+   "text": "In the IV study, analysis of the 1,023 tumor DEGs identified in palbociclib-resistant tumors (IV-palbo versus IV-vehicle) revealed clusters of gene changes, which were counteracted by the addition of SNX631-6 (bracketed in Figures 6H and S8C) and may include gene candidates for the prevention of palbociclib resistance by CDK8/19i treatment. <sentence_start/>Interestingly, a subset of 515 DEGs identified by the comparison of IV-combo versus IV-palbo also showed combination-specific expression changes (bracketed in Figures 6I and S8D). <sentence_start/>The effects of different treatments on gene expression were largely unaffected by the intra-treatment group size of tumors upon collection (Figures S8C and S8D), suggesting similar mechanisms of IV palbociclib adaptation and its reversal by CDK8/19 inhibition in different tumors."
+  },
+  {
+   "section": "article",
+   "text": "A recent study<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation> identified the pathways and genes affected by the development of <italic>in vivo</italic> resistance to a CDK4-selective inhibitor, atirmociclib, in another ER<sup>+</sup> BrCa xenograft model, ZR75-1. Remarkably, 12 of 14 pathways identified as being upregulated in atirmociclib-resistant tumors in that study were also upregulated in palbociclib-resistant MCF-7 xenografts (arrows in Figure 6C), and the upregulation of all 12 pathways was decreased by the combination of atirmociclib with the CDK8/19i (Figure 6C). <sentence_start/>In the same study,<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation> 129 genes with &gt;2-fold induction in their CDK4 inhibitor-resistant versus CDK4 inhibitor-sensitive ZR75-1 xenografts were identified. <sentence_start/>Among these, 14 were also found to be induced in palbociclib-treated MCF-7 tumors (Figure 6J). <sentence_start/>Of those 14 genes implicated in <italic>in vivo</italic> resistance to different CDK4 inhibitors in different tumor models, 11 exhibited suppression of their induction by combination treatment (Figure 6J)."
+  },
+  {
+   "section": "article",
+   "text": "At the level of individual tumor genes, <italic>CDK8</italic> expression remained largely unchanged upon palbociclib adaptation both <italic>in vitro</italic> and <italic>in vivo</italic>, whereas <italic>CDK19</italic> expression increased following palbociclib adaptation <italic>in vivo</italic> (but not <italic>in vitro)</italic>, and this increase was diminished by the addition of the CDK8/19i (Figure 7A). <sentence_start/>In contrast, <italic>CDK4</italic> expression was consistently reduced by palbociclib, and this downregulation was unaffected by the addition of CDK8/19i (Figure 7A). <sentence_start/>Figure 7B shows genes that were consistently upregulated in P-A cells both <italic>in vivo</italic> and <italic>in vitro</italic> LT, and where this <italic>in vivo</italic> induction was decreased by the addition of the CDK8/19i (Figure 7B). <sentence_start/>The first gene, <italic>CDK6</italic>, is frequently amplified or upregulated in cells resistant to CDK4/6i. <sentence_start/><italic>CDK6</italic> was upregulated by palbociclib treatment both in ST and LT <italic>in vitro</italic> studies; the addition of CDK8/19i suppressed <italic>CDK6</italic> induction both <italic>in vitro</italic> and <italic>in vivo</italic>. <sentence_start/>The same <italic>in vitro</italic> and <italic>in vivo</italic> expression pattern was observed for <italic>NBEA</italic>. <sentence_start/>The other genes in this group, <italic>SLC12A7</italic> (reported to promote tumor invasion)<citation rid=\"bib51\" ref-type=\"bibr\" doi=\"10.1186/s12964-018-0243-0\" pmid=\"29884238\" pmcid=\"PMC5994064\" count=\"1\"><sup>52</sup></citation> and <italic>VWA7</italic> (a marker of <italic>in vivo</italic> resistance to atirmociclib),<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation> were significantly upregulated <italic>in vitro</italic> only in LT but not in ST. <sentence_start/>Furthermore, their induction <italic>in vivo</italic> was suppressed by SNX631-6.Figure 7"
+  },
+  {
+   "section": "article",
+   "text": "RNA-seq analysis of palbociclib resistance and its prevention by CDK8/19 inhibition"
+  },
+  {
+   "section": "article",
+   "text": "(A-D) Box-and-whisker plots of selected genes of interest. <sentence_start/>(A) Expression of <italic>CDK8</italic>, <italic>CDK19</italic>, and <italic>CDK4</italic> in RNA-seq samples from the <italic>in vitro</italic> and <italic>in vivo</italic> datasets. <sentence_start/>(B and C) Genes overexpressed <italic>in vivo</italic> in IV-palbo and suppressed in IV-combo, where this overexpression was either concordant (B) or non-concordant (C) with <italic>in vitro</italic> adaptation (LT-palbo)."
+  },
+  {
+   "section": "article",
+   "text": "(D) Genes showing strong upregulation or downregulation in LT-PAL, with combination-specific effects observed <italic>in vivo</italic>. <sentence_start/>Boxes represent the interquartile range (IQR), the horizontal line indicates the median, whiskers extend to the most extreme observations within 1.5\u00d7 IQR, and overlaid points represent individual biological replicates."
+  },
+  {
+   "section": "article",
+   "text": "Gene expression values (CPM [counts per million] for <italic>in vitro</italic> and TPM [transcripts per million] for <italic>in vivo</italic> datasets) were compared between selected treatment groups, using two-tailed Welch\u2019s <italic>t</italic> tests (unpaired, unequal variances assumed) performed separately for each gene and comparison. <sentence_start/>\u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.01, \u2217\u2217\u2217<italic>p</italic> &lt; 0.001, and \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001."
+  },
+  {
+   "section": "article",
+   "text": "We also observed a select group of genes that were downregulated during <italic>in vitro</italic> LT adaptation, and these genes also possessed the pattern of <italic>in vivo</italic> palbociclib upregulation mediated by the palbociclib + SNX631-6 combination (Figure 7C). <sentence_start/>Three of these genes were upregulated by ST palbociclib treatment, including <italic>RAB11FIP4</italic>, reported to promote the cancer stem cell phenotype,<citation rid=\"bib52\" ref-type=\"bibr\" doi=\"10.1007/s13105-023-00972-2\" pmid=\"37458957\" count=\"1\"><sup>49</sup></citation> and <italic>OXTR</italic>, which induces mammary carcinogenesis<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1038/s41419-021-03849-8\" pmid=\"34099636\" pmcid=\"PMC8184747\" count=\"1\"><sup>53</sup></citation>; the ST induction of these genes was decreased by the addition of SNX631. <sentence_start/>The third gene, <italic>TGFB2</italic>, implicated in breast cancer progression,<citation rid=\"bib54\" ref-type=\"bibr\" doi=\"10.1186/s12964-024-01793-6\" pmid=\"39327614\" pmcid=\"PMC11426005\" count=\"1\"><sup>54</sup></citation> was also induced by palbociclib in the ST study, but the addition of SNX631 increased its induction even further. <sentence_start/>The fourth gene, <italic>EGR1</italic>, a transcription factor associated with atirmociclib resistance,<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation> was downregulated by palbociclib both in the ST and the LT study (and further downregulated by the CDK8/19i combination in ST)."
+  },
+  {
+   "section": "article",
+   "text": "The expression of several genes was affected in tumors treated by the drug combination but relatively unchanged in tumors treated with the individual drugs (Figure 7D). <sentence_start/>Interestingly, while these genes were unaffected in palbociclib-resistant tumors, they were all affected (downregulated or upregulated) by LT palbociclib adaptation <italic>in vitro</italic>. <sentence_start/>The first gene, <italic>KRT83</italic>, is one of several keratin genes that were upregulated by the drug combination, similarly to multiple keratin family members that were upregulated by CDK8/19 inhibition in combination with castration in castration-resistant prostate cancers.<citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1101/2023.08.08.552491\" count=\"1\"><sup>36</sup></citation> <sentence_start/>The other three genes were downregulated by the drug combination and, remarkably, all three have been reported to have broad tumor-promoting activities in breast and other cancers. <sentence_start/>These include <italic>UGDH,</italic><citation rid=\"bib55\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.28514\" pmid=\"37769033\" pmcid=\"PMC10538703\" count=\"1\"><sup>55</sup></citation> <italic>IRS1</italic>,<citation rid=\"bib56\" ref-type=\"bibr\" doi=\"10.1158/0008-5472.CAN-12-3385\" pmid=\"23651636\" pmcid=\"PMC4391644\" count=\"1\"><sup>56</sup></citation> and <italic>INSR</italic>.<citation rid=\"bib57\" ref-type=\"bibr\" doi=\"10.1007/s12032-013-0805-3\" pmid=\"24338270\" count=\"1\"><sup>57</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Hence, prevention of adaptive palbociclib resistance by CDK8/19 inhibition appears to involve both the suppression of transcriptional reprogramming associated with the development of resistance and downregulation of several tumor-supporting genes by the combination of CDK4/6i and CDK8/19i."
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In the present study, we found that the adaptive resistance to different CDK4/6i rapidly develops <italic>in vitro</italic> and <italic>in vivo</italic>, with similar rapid kinetics in different ER<sup>+</sup> BrCa and other tumor cell lines. <sentence_start/>Luria-Delbr\u00fcck fluctuation analysis showed fluctuating short-term palbociclib sensitivity among 44 MCF-7 clones, with no resistant outliers indicative of a heritable pre-resistant phenotype. <sentence_start/>Furthermore, both mass populations and individual clones lost resistance after drug withdrawal, supporting a transient, non-genetic mechanism. <sentence_start/>Ten independently adapted MCF-7 populations exhibited remarkably similar transcriptomic changes. <sentence_start/>This similarity most likely reflects concordant transcriptional reprogramming, rather than a selection of stable pre-existing variants, because scRNA-seq data from 977 untreated MCF-7 cells revealed no drug-naive cells with transcriptomic markers of palbociclib adaptation."
+  },
+  {
+   "section": "article",
+   "text": "Adaptive palbociclib resistance <italic>in vitro</italic> was associated with a pseudo-senescent phenotype. <sentence_start/>Despite displaying senescence markers, adapted cells continued to divide, although with delayed G1 progression and fewer mitoses, potentially reflecting downregulation of the MYC pathway. <sentence_start/>Frequent replating, which preferentially removes highly adherent cells with senescent morphology, prevented adaptation during prolonged palbociclib treatment. <sentence_start/>This finding suggests that senescent-like cells contribute to adaptation, possibly through paracrine SASP effects.<citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1038/s41580-024-00727-x\" pmid=\"38654098\" count=\"1\"><sup>22</sup></citation> <sentence_start/>Remarkably, interferon signaling is known to be a major trigger of SASP,<citation rid=\"bib58\" ref-type=\"bibr\" doi=\"10.1096/fj.202400808RR\" pmid=\"39157951\" count=\"1\"><sup>58</sup></citation> and interferon pathways were drastically upregulated in cells that were adapted to palbociclib <italic>in vitro</italic> and <italic>in vivo</italic>. <sentence_start/>Specifically, IFN-\u03b3, IFN-\u03b1, and TNF-\u03b1 signaling via NF-\u03baB were the top three most upregulated pathways by palbociclib <italic>in vivo</italic>. <sentence_start/>A possible cause of the upregulation of these pathways could be the activation of retrotransposons carrying repeat sequences that activate cGAS-STING, leading to interferon pathway activation and the acquisition of drug resistance.<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1073/pnas.2213146119\" pmcid=\"PMC9894111\" pmid=\"36449545\" count=\"1\"><sup>50</sup></citation> <sentence_start/>Our RNA-seq analysis was carried out on poly(A)<sup>+</sup> RNA and, therefore, could not be used to analyze the repeatome components, but we found that the cGAS-STING pathway was activated in P-A xenografts, in accordance with the retrotransposon activation hypothesis."
+  },
+  {
+   "section": "article",
+   "text": "Given the known role of transcriptional changes in the resistance to CDK4/6i, we tested if such resistance would be prevented by the inhibition of CDK8/19 Mediator kinases, pleiotropic regulators of transcriptional reprogramming. <sentence_start/>In contrast to pleiotropic transcriptional inhibitors, such as inhibitors of CDK7 and CDK9, CDK8/19i alone had only limited and variable antiproliferative effects, and their combination with CDK4/6i showed no reproducible evidence of synergistic or even additive effects in shorter-term (7-day) studies. <sentence_start/>However, CDK8/19i prevented the development of CDK4/6i resistance in prolonged assays, a highly specific effect of CDK8/19 inhibition. <sentence_start/>The prevention of resistance was observed in different cell lines, both in drug-naive and in P-A cells, and in all MCF-7 clones with different levels of palbociclib sensitivity. <sentence_start/>The antiproliferative effects of CDK4/6i and CDK8/19i combination, like the effects of CDK4/6i alone, remained dependent on Rb, as demonstrated by the more rapid loss of Rb in cells treated with the drug combination and by reduced sensitivity to this combination in cells with Rb knockdown."
+  },
+  {
+   "section": "article",
+   "text": "Treatment with the CDK8/19i also potentiated the effects of CDK4/6i <italic>in vivo</italic>, with the effects of the addition of CDK8/19i SNX631-6 consistent with the prevention of palbociclib resistance in MCF-7 xenografts, where the effect of CDK4/6i alone was initially strong, whereas the CDK8/19i alone had only a modest effect. <sentence_start/>Remarkably, long-term synergy between palbociclib and SNX631-6 was observed even in xenografts formed by T-47D cells, which were insensitive to either drug <italic>in vitro</italic>, although both of the individual drugs, especially SNX631-6, had a significant effect on these cells <italic>in vivo</italic>, in agreement with the preferential <italic>in vivo</italic> sensitivity to CDK8/19i observed in triple-negative breast cancer.<citation rid=\"bib34\" ref-type=\"bibr\" doi=\"10.1073/pnas.2414501121\" pmcid=\"PMC11588072\" pmid=\"39541354\" count=\"1\"><sup>34</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Most of the transcriptomic changes in cells adapted to palbociclib <italic>in vitro</italic> arose late, limiting the analysis of the effects of the drug\u2019s combination with CDK8/19i, as the combination-treated cells did not survive long enough for analysis. <sentence_start/>However, we were able to analyze the transcriptomic effects of the drug combination on the development of long-term palbociclib resistance <italic>in vivo</italic>. <sentence_start/>The addition of the CDK8/19i to palbociclib had two major effects at the level of pathways and individual genes. <sentence_start/>The first effect was reduced upregulation of the genes and pathways associated with tumor growth in the presence of palbociclib. <sentence_start/>This was observed for several pathways that regulate gene expression, such as TGF-\u03b2 signaling, hedgehog signaling, Notch signaling, and Wnt/\u03b2-catenin signaling, as well as the cGAS-STING pathway, a probable upstream inducer of the interferon pathways. <sentence_start/>Remarkably, the addition of a CDK8/19i decreased the upregulation of all 12 pathways that were upregulated both in palbociclib-treated MCF-7 xenografts and the ZR75-1 xenografts treated with a selective CDK4 inhibitor, atirmociclib.<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation> <sentence_start/>Several of these pathways, including TNF-\u03b1-NF-\u03baB signaling, IL-6-JAK-STAT3 signaling, inflammatory response, angiogenesis, epithelial-mesenchymal transition, and estrogen response, have been previously reported to be positively regulated by CDK8/19.<citation rid=\"bib25\" ref-type=\"bibr\" doi=\"10.1073/pnas.1710467114\" pmid=\"28855340\" pmcid=\"PMC5617299\" count=\"1\"><sup>25</sup></citation><sup>,</sup><citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.14894\" pmid=\"28147342\" pmcid=\"PMC5355036\" count=\"1\"><sup>26</sup></citation><sup>,</sup><citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1038/s41388-018-0316-y\" pmid=\"29780169\" pmcid=\"PMC7018387\" count=\"1\"><sup>46</sup></citation><sup>,</sup><citation rid=\"bib59\" ref-type=\"bibr\" doi=\"10.1016/j.immuni.2012.10.017\" pmid=\"23352233\" pmcid=\"PMC3580287\" count=\"1\"><sup>59</sup></citation><sup>,</sup><citation rid=\"bib60\" ref-type=\"bibr\" doi=\"10.1111/gtc.12475\" pmid=\"28151579\" count=\"1\"><sup>60</sup></citation><sup>,</sup><citation rid=\"bib61\" ref-type=\"bibr\" doi=\"10.1016/j.yexcr.2018.05.033\" pmid=\"29856990\" count=\"1\"><sup>61</sup></citation> At the individual-gene level, CDK8/19i suppressed palbociclib-induced CDK6 expression both <italic>in vitro</italic> and <italic>in vivo</italic>, as well as the induction of several other tumor-promoting or CDK4/6i resistance-associated genes, including <italic>SLC12A7</italic>, <italic>RAB11FIP4</italic>, <italic>OXTR</italic>, <italic>EGR1</italic>, and <italic>VWA7</italic>, indicating that the inhibition of CDK8/19-mediated transcriptional reprogramming affects multiple markers and mechanisms of resistance to CDK4/6-targeting drugs. <sentence_start/>The second major effect was specific to the drug combination and included induction of keratin genes and the oxidative phosphorylation pathway, together with suppression of the mitotic-spindle and G2/M-checkpoint pathways associated with cell proliferation. <sentence_start/>Remarkably, individual genes that were most strongly and selectively downregulated by the drug combination, such as <italic>UGDH</italic>, <italic>IRS1</italic>, and <italic>INSR</italic>, have known tumor-promoting activities. <sentence_start/>Hence, CDK8/19i offer long-term potentiation of CDK4/6-targeting drugs both by interfering with transcriptional reprogramming associated with tumor cell adaptation to the latter drugs and by the specific effects of the CDK4/6 and CDK8/19i combination on genes that regulate tumor growth."
+  },
+  {
+   "section": "article",
+   "text": "These findings support the therapeutic potential of combining inhibitors of CDK4/6 and CDK8/19. <sentence_start/>CDK4/6i are used for the treatment of ER<sup>+</sup> BrCa in combination with antiestrogens, and the addition of CDK8/19i to this combination is likely to be especially beneficial, given the known co-operative effect of CDK8/19i and antiestrogens.<citation rid=\"bib26\" ref-type=\"bibr\" doi=\"10.18632/oncotarget.14894\" pmid=\"28147342\" pmcid=\"PMC5355036\" count=\"1\"><sup>26</sup></citation> <sentence_start/>CDK4/6i are also being actively investigated for the treatment of other malignancies, where their combination with CDK8/19i is also likely to be beneficial."
+  },
+  {
+   "section": "article",
+   "text": "Limitations of the study"
+  },
+  {
+   "section": "article",
+   "text": "Our study has several limitations. <sentence_start/>First, although we observed consistent effects across multiple established breast cancer cell line models, these systems do not fully recapitulate the heterogeneity of human tumors. <sentence_start/>Future studies using patient-derived xenografts and organoid models are important to further evaluate the translational potential of CDK8/19 inhibitors in combination with CDK4/6 inhibitors. <sentence_start/>Second, while our studies revealed the ability of CDK8/19 inhibitor to suppress transcriptional reprogramming associated with the adaptation to palbociclib <italic>in vivo</italic>, we were unable to perform long-term transcriptomic analyses of the CDK4/6-CDK8/19 inhibitor combination <italic>in vitro</italic> because the strong efficacy of the combination largely prevented the emergence of adapted cell populations. <sentence_start/>In addition, our <italic>in vivo</italic> efficacy studies were performed in NSG mice and, therefore, did not permit assessment of tumor-immune interactions. <sentence_start/>Future studies in immunocompetent models are needed to determine how CDK8/19 inhibition affects CDK4/6 inhibitor-induced remodeling of the breast tumor microenvironment, antitumor immunity, and therapeutic response. <sentence_start/>Finally, because our RNA-seq analysis was restricted to poly(A)<sup>+</sup> transcripts, we were unable to comprehensively analyze the repeatome or directly assess retrotransposon activation. <sentence_start/>Future studies employing total RNA-seq, long-read sequencing, or dedicated repeatome analyses are necessary to determine whether activation of transposable elements contributes to the interferon and cGAS-STING signatures observed during adaptation."
+  },
+  {
+   "section": "article",
+   "text": "Resource availability"
+  },
+  {
+   "section": "article",
+   "text": "Lead contact"
+  },
+  {
+   "section": "article",
+   "text": "Requests for further information and resources should be directed to and will be fulfilled by the lead contact, Mengqian Chen (chenm@cop.sc.edu)."
+  },
+  {
+   "section": "article",
+   "text": "Materials availability"
+  },
+  {
+   "section": "article",
+   "text": "This study did not generate new unique reagents."
+  },
+  {
+   "section": "article",
+   "text": "Data and code availability"
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "RNA-seq data have been deposited in Gene Expression Omnibus as GEO: and are publicly available as of the date of publication."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "This paper analyzes existing, publicly available data, accessible on the NCBI Gene Expression Omnibus at GEO: (MCF-7 scRNA-seq)."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "All data reported in this paper will be shared by the lead contact upon request."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "This paper does not report original code."
+  },
+  {
+   "section": "article",
+   "text": "\u2022"
+  },
+  {
+   "section": "article",
+   "text": "Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request."
+  },
+  {
+   "section": "article",
+   "text": "Acknowledgments"
+  },
+  {
+   "section": "article",
+   "text": "We thank Kayla Poe, Stephan Bowe, Bailey Kane, Emma Markwell, Ho Yen, Sanjana Tripuraneni, Nikitha Sashi, Samantha Safa, Rebekah Martin, Marina Ostanin, Linda Cui, and William Michel for their assistance with experimentation. <sentence_start/>We thank Dr. Michael Shtutman and the Functional Genomics Core of the COBRE Center for Targeted Therapeutics at the University of South Carolina (USC) supported by 10.13039/100000002NIH grant P20GM109091. <sentence_start/>This work was supported by 10.13039/100000002NIH grants R01CA266027 (I.B.R., M.C, and E.V.B.), R43CA271996 (M.C. and E.V.B.), R44CA203184 (M.C. and I.B.R.), P20GM109091 (E.V.B. and I.B.R.), and SPARC Graduate Research Grants, USC (X.D., J.L., and Z.T.M.). <sentence_start/>A.S. acknowledges the support of NIH-NIGMS via grant R35GM148351. <sentence_start/>M.S.A., A.K., and V.T. were supported by the Ministry of Science and Education of the Russian Federation, project no. 075-15-2025-475, and they acknowledge IGB RAS facilities supported by the 10.13039/501100012190Ministry of Science and Higher Education of the Russian Federation for providing equipment of carry out the experiments."
+  },
+  {
+   "section": "article",
+   "text": "Author contributions"
+  },
+  {
+   "section": "article",
+   "text": "Conceptualization, E.V.B., I.B.R., M.C., V.T., and A.S.; methodology, Z.T.M., M.Y., A.K., A.C.S., X.D., J.L., K.D., A.E., E.B., G.M., M.S.-A., G.C., T.A.H., C.C., G.P.S., V.S., C.-u.<sentence_start/>L., A.S., V.T., and M.C.; investigation, Z.T.M., A.S., M.C., E.V.B., and I.B.R.; writing - original draft, Z.T.M., E.V.B., and I.B.R.; writing - review &amp; editing, Z.T.M., E.V.B., M.C., and I.B.R.; funding acquisition, E.V.B., M.C., and I.B.R.; resources, E.V.B. and I.B.R.; supervision, E.V.B., M.C., and I.B.R."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of interests"
+  },
+  {
+   "section": "article",
+   "text": "M.C. is director of research; I.B.R. is president and chief scientific officer; T.A.H. is a former employee; and E.V.B., J. L., and Z.T.M. are consultants of Senex Biotechnology, Inc.; I.B.R., E.V.B., M.C., and T.A.H. are stockholders of Senex Biotechnology, Inc.; I.B.R., M.C., and J.L. are inventors of US patent 11,572,369; E.V.B., I.B.R., X.D., T.A.H., and Z.T.M. are inventors of patent application PCT/US2022/043852."
+  },
+  {
+   "section": "article",
+   "text": "STAR\u2605Methods"
+  },
+  {
+   "section": "article",
+   "text": "Key resources table"
+  },
+  {
+   "section": "article",
+   "text": "Experimental model and study participant details"
+  },
+  {
+   "section": "article",
+   "text": "Cell lines"
+  },
+  {
+   "section": "article",
+   "text": "All cell lines were obtained from ATCC and grown in an incubator at 37\u00b0C and 5% CO2, and all base medium was supplemented with 10% fetal bovine serum (FBS; Cytiva, Marlborough, MA), 1% penicillin/streptomycin, and 2 mM L-glutamine. <sentence_start/>MCF-7 parental cell line and its clones were maintained in DMEM-high glucose media (ThermoFisher Scientific, Waltham, MA) supplemented with 1 mM sodium pyruvate (HyClone, Logan, Utah), and 0.01 mg/mL human recombinant insulin (ThermoFisher Scientific, Waltham, MA). <sentence_start/>ZR-75-1 cells were maintained in DMEM-high glucose media. <sentence_start/>T-47D cells were maintained in RPMI-1640 media (HyClone, Logan, Utah). <sentence_start/>SW-620 cells were maintained in Leibowitz\u2019s L-15 base media (HyClone, Logan, Utah). <sentence_start/>All cells used for experiments were confirmed mycoplasma-free by MycoAlert Plus mycoplasma detection kit (Lonza, Morrisville, NC)."
+  },
+  {
+   "section": "article",
+   "text": "Mice"
+  },
+  {
+   "section": "article",
+   "text": "All mouse studies were approved by the University of South Carolina Institutional Animal Care and Use Committee protocol 2688-101856-103023. <sentence_start/>Female NOD.Cg-Prkdc<sup>scid</sup> Il2rg<sup>tm1Wjl</sup>/SzJ (NSG) mice (aged 6 weeks) were obtained from The Jackson Laboratory (Bar Harbor, ME) or from the lab of Marj Pena at the University of South Carolina (USC). <sentence_start/>Jackson Laboratory mice were allowed to habituate to the USC Animal Research Facility for 7-10 days. <sentence_start/>Mice were housed in solid bottom polycarbonate ventilated cages at a temperature of 68-79\u00b0F in 30-70% humidity. <sentence_start/>Mice were kept on a 12-h light, 12-h dark cycle with regularly changed 100% filtered air. <sentence_start/>To support growth of estrogen receptor-positive tumor cells, mice were given sterile H<sub>2</sub>O supplemented with 8 \u03bcg/mL \u03b2-estradiol for 1 week prior to inoculation, which was subsequently refreshed weekly throughout the duration of the study. <sentence_start/>For the MCF-7 study, 5 \u00d7 10<sup>6</sup> cells were suspended in 50% Matrigel (Corning, Oneonta, NY)/50% sterile phosphate-buffered saline) and injected subcutaneously into the right flank. <sentence_start/>For the T-47D study, 2.5 \u00d7 10<sup>6</sup> cells were suspended in 50% Matrigel (Corning, Oneonta, NY)/50% sterile phosphate-buffered saline) and injected subcutaneously into the right flank. <sentence_start/>Tumors were measured twice weekly using calipers and tumor volume was calculated as 0.5 \u00d7 length (mm) \u00d7 width (mm)<sup>2</sup>. <sentence_start/>Once average tumor volume reached \u223c150mm<sup>3</sup>, mice were randomized to 4 treatment groups: control, SNX631-6 alone, palbociclib alone, or SNX631-6 and palbociclib combination. <sentence_start/>50 mg/kg palbociclib isethionate in H<sub>2</sub>O was administered p.o. daily for 5 days, followed by a 2-day drug holiday. <sentence_start/>For the MCF-7 study, 30 mg/kg SNX631-6 in 70% PEG400/30% PG was administered p.o. <sentence_start/>q.d. <sentence_start/>For the T-47D study, SNX631-6 was administered by 350 ppm medicated diet, <italic>ad libitum</italic> (Research Diets, New Brunswick, NJ). <sentence_start/>On the final day of the experiment or at tumor size endpoint, tumors were excised, weighed, and divided into pieces to be fixed in RNA Later or 10% formalin for 24 h and stored in 70% ethanol at 4\u00b0C until processing."
+  },
+  {
+   "section": "article",
+   "text": "Method details"
+  },
+  {
+   "section": "article",
+   "text": "SNX631, SNX631-6, Senexin C, and Senexin B were synthesized for Senex Biotechnology (Columbia, SC); BI-1347 and Compound 25 was synthesized by Drug Design and Synthesis Core of the USC COBRE Center for Targeted Therapeutics. <sentence_start/>Palbociclib isethionate was purchased from SelleckChem (#S1116, Houston, TX). <sentence_start/>Abemaciclib (KP-736-002) was provided by Kalyra Pharmaceuticals (Batch MW: 506.59 g/mol; Purity: 97%). <sentence_start/>Ribociclib succinate (HY-15777B) was purchased from MedChemExpress."
+  },
+  {
+   "section": "article",
+   "text": "Cell proliferation assays"
+  },
+  {
+   "section": "article",
+   "text": "Cells were seeded into 96-well plates (1,500 cells/well). <sentence_start/>After 24 h, cells were treated with palbociclib (4 nM-1 \u03bcM or 16 nM-4 \u03bcM), alone or in combination with SNX631 (500 nM). <sentence_start/>After 7 days, cell densities were measured by sulforhodamine B sodium salt (SRB) assay. <sentence_start/>For 20-day SRB time course assays, culture media were replaced every 5 days. <sentence_start/>For flask assays, cells were seeded into T25 flasks (250,000 cells/flask for the lower-dose SNX631 study; 600,000 cells/flask for the higher-dose Senexin B study). <sentence_start/>Vehicle control- and 500 nM SNX631-treated flasks were stained with crystal violet when the vehicle control flask reached 100% confluence. <sentence_start/>500 nM palbociclib- and 500 nM palbociclib+SNX631-treated flasks were stained with crystal violet when the combination flask was estimated to contain no viable cells. <sentence_start/>Crystal violet images are representative of three separate biological replicates. <sentence_start/>For 20-day raw cell counting experiments, cells were seeded into duplicate flasks per condition (125,000 cells per flask) and treated with the appropriate drug conditions the day after seeding. <sentence_start/>Culture media were replaced every 7 days with fresh, drug-containing media. <sentence_start/>At each indicated time point, duplicate flasks were trypsinized, and total live cell numbers were counted by Bio-Rad TC10 automated cell counter with trypan blue dye. <sentence_start/>For 25-day endpoint analysis, triplicate flasks per condition were trypsinized and counted, and a fourth replicate flask was stained with crystal violet."
+  },
+  {
+   "section": "article",
+   "text": "Bliss synergy analysis"
+  },
+  {
+   "section": "article",
+   "text": "Bliss synergy analysis was performed to assess the interaction between Palbociclib and SNX631 in MCF-7 cells. <sentence_start/>Cells were treated with each drug alone and in combination at the indicated concentrations, and cell viability was measured following the specified treatment period and normalized to untreated controls. <sentence_start/>The expected combined effect under the Bliss independence model (E_bliss) was calculated as E_bliss = E_A + E_B \u2212 (E_A \u00d7 E_B), where E_A and E_B represent the fractional effects of Palbociclib and SNX631, respectively. <sentence_start/>Bliss scores were determined by comparing the observed combination effect to the expected effect, with positive values indicating synergy, negative values indicating antagonism, and values near zero indicating additive effects."
+  },
+  {
+   "section": "article",
+   "text": "Senescence-associated-B-galactosidase staining"
+  },
+  {
+   "section": "article",
+   "text": "10<sup>4</sup> cells per cm<sup>2</sup> of vessel were seeded, incubated for 12-24 h to allow for attachment, and treated with DMSO, SNX631 (500 nM), palbociclib (500 nM), or 500 nM SNX631 and 500 nM palbociclib combination. <sentence_start/>Post-treatment, cells were washed 3 times with phosphate-buffered saline (PBS) (pH = 7.4) before being covered in a fixation solution (2% Formaldehyde and 0.2% Glutaraldehyde solution in PBS, made freshly each experiment) for 5-10 min and left at room temperature. <sentence_start/>After aspiration of the fixative and subsequent 3 washes with PBS, a staining solution (made in 10 mL aliquots using 6.3 mL dH<sub>2</sub>O, 0.8 mL 0.5 M Citric Acid/Na<sub>2</sub>HPO<sub>4</sub> [pH 6.0], 1.0 mL 50 mM K<sub>3</sub>Fe(CN)<sub>6</sub>, 1.0 mL 50 mM K<sub>4</sub>Fe(CN)<sub>6</sub>, 0.3 mL 5 M NaCl, 0.02 mL 1 M MgCl<sub>2</sub>-6H<sub>2</sub>O, and 0.5 mL 20 mg/mL X-gal [GOLD Biotechnology, Inc., Olivette, MO]) was added to cover the cells and incubated at 37\u00b0C for 24-48 h. <sentence_start/>After the final 3 washes with PBS, nuclei were counterstained with a solution of 1\u03bcM 4\u2032,6-diamidino-2-phenylindole (DAPI) as cells were covered with a 50% glycerol solution in H<sub>2</sub>O and stored at 4\u00b0C."
+  },
+  {
+   "section": "article",
+   "text": "Cell cloning"
+  },
+  {
+   "section": "article",
+   "text": "One single MCF-7 cell per well was plated into ten 96-well plates. <sentence_start/>Colonies were allowed to proliferate for a week before being observed daily using Agilent BioTek Cytation V Live Cell Imaging System. <sentence_start/>Once exponential growth was achieved from a single cell to create a colony, cells were trypsinized, expanded, and eventually frozen in 10% DMSO/90% media."
+  },
+  {
+   "section": "article",
+   "text": "Time-lapse video microscopy"
+  },
+  {
+   "section": "article",
+   "text": "10<sup>3</sup> MCF-7 cells per well in a 6-well plate were seeded, incubated for 12-24 h to allow for attachment, and treated with DMSO, SNX631 (500 nM), palbociclib (500 nM), or 500nM SNX631 and 500 nM palbociclib combination. <sentence_start/>Post-treatment, each well was comprehensively imaged using Agilent BioTek Cytation V Live Cell Imaging System every 6 h over 26 days."
+  },
+  {
+   "section": "article",
+   "text": "RNA-SEQ"
+  },
+  {
+   "section": "article",
+   "text": "MCF-7 cells were treated with DMSO, SNX631 (500 nM), palbociclib (500 nM), or a combination of 500 nM SNX631 and 500 nM palbociclib. <sentence_start/>Two distinct protocols were employed for a 3-day and a 28-day duration. <sentence_start/>Library preparation, raw data post-processing, and data analysis were performed by the USC CTT COBRE Functional Genomics Core. <sentence_start/>In the 3-day experiment, 3\u2032-tag-seq RNA libraries were prepared using the QuantSeq 3\u2032 mRNA-Seq Library Prep Kit FWD for Illumina, with a starting material of 1000 ng per sample. <sentence_start/>Illumina NextSeq500 (75bp, pair-ended) was utilized for sequencing, and reads were aligned to the Human genome GRCh38.p13 using STAR v2.7.2b99. <sentence_start/>The average read depth was 2 million reads, and gene expression analysis utilized the edgeR package with normalization by the Trimmed Mean of M-values (TMM) method. <sentence_start/>Only uniquely mapped reads were considered, and differential expression analysis included correction for multiple testing using Benjamini-Hochburg\u2019s FDR. <sentence_start/>For the 28-day experiment, RNA libraries were prepared with the NEBNext poly(a) mRNA magnetic isolation kit, Ultra II Directional Library Prep Kit, and SIRV-Set 3 (Lexogen Spike-in kit) using 500 ng starting material per sample. <sentence_start/>Illumina HiSeqX (150bp, pair-ended) by Medgenome was employed for sequencing, and the analysis protocol mirrored that of the 3-day experiment, with the primary distinctions being the increased starting material (500 ng) and a substantially higher average read depth of 79 million reads. <sentence_start/>Differential expression (DE) analysis was performed in R using the DESeq2 (30) pipeline, where the normalized counts data were fit to a negative binomial distribution model using a generalized linear model (GLM) framework and the Benjamini-Hochberg procedure was used to control the false discovery rate (FDR) for multiple testing. <sentence_start/>The logFC and FDR values calculated from DESeq2 pipelines were utilized to select differentially expressed genes (DEGs). <sentence_start/>To select validated DEGs from multiple RNA-Seq experiments, the following criteria were applied: (1) FDR &lt;0.05 in all experiments; (2) average log2FC from multiple experiments &gt; log2(1.5). <sentence_start/>The gene set enrichment analysis (GSEA) for different comparisons was conducted using the fgsea package with the specific gene sets downloaded from the Human Molecular Signatures Database (MSigDB). <sentence_start/>All raw and processed RNA-Seq data have been uploaded to GEO (see data availability section)."
+  },
+  {
+   "section": "article",
+   "text": "Lentiviral knockdown of RB"
+  },
+  {
+   "section": "article",
+   "text": "Gene-specific shRNA sequences targeting human Rb were cloned into the pLKO.1-puro lentiviral construct (Addgene #8453). <sentence_start/>The oligonucleotides used for cloning were ordered from IDT: GAACTTAGTAGCAAAAGACCCAGA targeting the 3\u2032UTR (Rb-shRNA#1) and GATAAAGATACAGATTCCCCACAG targeting the coding sequence (CDS) (Rb-shRNA#2). <sentence_start/>A scrambled shRNA control was purchased from Sigma. <sentence_start/>Lentivirus was packaged by co-transfecting HEK293T cells with 1.5 \u03bcg pMD2.G, 4.5 \u03bcg psPAX2, and 6 \u03bcg shRNA construct. <sentence_start/>Viral supernatants were collected at 48 and 72 h post-transfection and filtered through a 0.45 \u03bcm membrane. <sentence_start/>Rb-knockdown derivatives were generated by selection with 2 \u03bcg/mL puromycin following lentiviral transduction."
+  },
+  {
+   "section": "article",
+   "text": "Western blot"
+  },
+  {
+   "section": "article",
+   "text": "10<sup>4</sup> cells per vessel cm<sup>2</sup> were seeded, incubated for 12-24 h to allow for attachment, and treated with DMSO, SNX631 (500 nM), palbociclib (500 nM), or 500 nM SNX631 and 500 nM palbociclib combination. <sentence_start/>Treated and control cells were then lysed using RIPA Lysis Buffer (50 mM Tris-HCl pH 8.0, 150 mM NaCl, 0.1% sodium dodecyl sulfate, 1% NP-40, 2 mM phenylmethylsulfonyl fluoride (VWR Life Science, Radnor, PA) supplemented with SIGMAFASTTM Protease Inhibitor Cocktail (#S8820, Sigma Aldrich, St Louis, MO). <sentence_start/>Whole cell lysates were resolved on 10% PAAG, transferred to 0.22 \u03bcm nitrocellulose membranes (Bio-Rad, Hercules, CA), blocked with 5% non-fat milk, and incubated with primary antibodies diluted 1:1000 in 1% BSA in TBS overnight at 4\u00b0C: Rb (4H1) (#9309, 1:1000; Cell Signaling Technology, Danvers, MA), phospho-Rb Ser780 (D59B7) (#8180, 1:1000; Cell Signaling Technology), phospho-Rb Ser807/811 (D20B12) (#8516, 1:1000; Cell Signaling Technology), E2F1(KH95) (#32-1400, 1:1000, Invitrogen, Waltham, MA), Cyclin E1 (HE12) (#4129, 1:1000, Cell Signaling Technology), beta-actin (AC-74) (#A2228, 1:5000, Sigma Aldrich), and GAPDH (#2118, 1:1000; Cell Signaling Technology). <sentence_start/>Membranes were then washed with TBS-T and blotted with HRP-conjugated anti-Mouse (#7076, Cell Signaling Technology) or anti-Rabbit (#7074, Cell Signaling Technology) secondary antibodies diluted 1:1000 in 5% non-fat milk. <sentence_start/>Protein bands were detected with Clarity Western ECL Substrate (Bio-Rad) using the iBright FL1500 Imaging System (Invitrogen)."
+  },
+  {
+   "section": "article",
+   "text": "Analysis of publicly available RNA-seq data"
+  },
+  {
+   "section": "article",
+   "text": "NCBI Gene Expression Omnibus (GEO) Series (MCF-7 scRNA-Seq) raw counts files were converted to Reads Per Kilobase per Million (RPKM) and compared to DEGs overexpressed (Log<sub>2</sub>(FC) \u2265 2; fpkm &gt;5) in palbociclib-treated cells from our LT bulk RNA-Seq. <sentence_start/>Among the 977 individual cells, only those with nonzero RPKM are plotted. <sentence_start/>The 129 atirmociclib-resistance associated genes were extracted from the the Supplemental information file Table S5 of Palmer et al.<citation rid=\"bib5\" ref-type=\"bibr\" doi=\"10.1016/j.ccell.2025.02.006\" pmid=\"40068598\" count=\"1\"><sup>5</sup></citation>"
+  },
+  {
+   "section": "article",
+   "text": "Immunofluorescence (IF) labeling, H&amp;E staining, and analysis"
+  },
+  {
+   "section": "article",
+   "text": "For IF of formalin-fixed and paraffin-embedded tissue blocks, tissues were blocked in 5% normal donkey serum in TBST for 1 h. <sentence_start/>The following primary antibodies were diluted in 1% BSA in PBST and then incubated on the sections overnight at 4\u00b0C: Ki67 (Cell Signaling #9027, 1:2000 dilution). <sentence_start/>Alexa Fluor 555 labeled secondary antibodies were used at 1:200 for 1 h. <sentence_start/>Nuclei were counterstained with 1 mM 4\u2032,6-diamidino-2-phenylindole (DAPI) and sections were mounted in Prolong Glass. <sentence_start/>For IF and H&amp;E analysis, image montages were acquired on Agilent (BioTek, VT, US) Cytation V with a 10\u00d7/0.3 n.a. objective, using identical acquisition parameters for all sections. <sentence_start/>For fluorescence intensity measurements, tumor regions of interest were manually defined using the DAPI channel to select at least three areas of cancer cells in each section. <sentence_start/>Ki67 mean pixel intensity quantification was measured within these regions of interest using ImageJ. The labeling, imaging, and quantification were repeated two times, with similar results. <sentence_start/>H&amp;E-stained sections from the MCF-7 <italic>in vivo</italic> study were scored by the following criteria: 0 - No Muscle tissue is present in the image; 1 - Muscle/tumor border is visible, but no invasion is present; 2 - Minimal depth/quantity of invasion; 3 - Moderate depth/quantity of invasion; 4 - Severe invasion/complete integration of tumor and muscle."
+  },
+  {
+   "section": "article",
+   "text": "Quantification and statistical analysis"
+  },
+  {
+   "section": "article",
+   "text": "Independent experiments were conducted with a minimum of two biological replicates per condition to allow for statistical comparison. <sentence_start/>To evaluate treatment effects in 20-day SRB assays, one-way ANOVA was performed at each time point, restricting the analysis to experimental conditions that had not reached assay saturation (defined as OD 570 nm &lt; 2.5). <sentence_start/>Post hoc multiple comparisons were conducted using \u0160id\u00e1k\u2019s multiple comparisons test to control for overall Type I error. <sentence_start/>The numbers of biologically independent experiments, the number of individual mice and details of statistical tests performed can be found in the respective figure legends, results, or method details sections. <sentence_start/>Information on data quantification and analysis methods is provided under method details. <sentence_start/>For statistical analysis, Student\u2019s <italic>t</italic> test or ANOVA was used. <sentence_start/>Statistical significance was indicated with <italic>p</italic> values \u2217<italic>p</italic> &lt; 0.05, \u2217\u2217<italic>p</italic> &lt; 0.01, \u2217\u2217\u2217<italic>p</italic> &lt; 0.001, \u2217\u2217\u2217\u2217<italic>p</italic> &lt; 0.0001 in figures."
+  },
+  {
+   "section": "back",
+   "text": "Supplemental information"
+  },
+  {
+   "section": "back",
+   "text": "Document S1. <sentence_start/>Figures S1-S9"
+  },
+  {
+   "section": "back",
+   "text": "Table S1. <sentence_start/>Statistical analysis of SRB-based long-term growth assays, related to Figures 1, 2, 5, and S4"
+  },
+  {
+   "section": "back",
+   "text": "One-way ANOVA was performed at each individual time point to evaluate the combination of CDK4/6 and CDK8/19 inhibition. <sentence_start/>Multiple comparisons were performed using \u0160id\u00e1k\u2019s post hoc test to control the family-wise type I error rate."
+  },
+  {
+   "section": "back",
+   "text": "Data S1. <sentence_start/>Raw numeric data for all primary and supplemental figures, related to Figures 1-7 and S1-S9"
+  },
+  {
+   "section": "back",
+   "text": "Excel workbook containing tabbed raw dataset files utilized to construct summary plots and statistical evaluations throughout the study. <sentence_start/>Each main and supplemental subfigure has its own dedicated tab."
+  },
+  {
+   "section": "back",
+   "text": "Document S2. <sentence_start/>Article plus supplemental information"
+  },
+  {
+   "section": "back",
+   "text": "Supplemental information can be found online at ."
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+{
+ "pmid": 42763586,
+ "pmcid": 13589085,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Assessing psychotherapy patients\u2019 social context through personal networks and experience sampling: A mixed methods case series exploring feasibility"
+  },
+  {
+   "section": "abstract",
+   "text": "This study explored the feasibility and perceived clinical utility of a novel psychotherapy intervention consisting of two components (1) assessment of patients' social context using the experience sampling methodology (ESM) and personal social network data collection (PSN) and (2) a feedback report summarizing the collected data. <sentence_start/>Four qualitatively driven concurrent embedded mixed-methods case studies were conducted in a large mental health care facility in the Netherlands and included nine young adults receiving either individual or group psychotherapy: six in part-time treatment and three transitioning from inpatient to outpatient care. <sentence_start/>Feasibility and utility were evaluated using codebook thematic analysis of semi-structured patient and therapist interviews, patient compliance with the intervention components and researchers' reflexive field notes. <sentence_start/>Overall, the intervention appeared most feasible in individual therapy, in which patient and therapist engaged with it collaboratively. <sentence_start/>Engagement was more difficult among avoidant patients and when the intervention was experienced as <italic>too confronting</italic> by patients, highlighting the importance of establishing rapport before its use. <sentence_start/>The intervention yielded varying degrees of insight for patients, depending on their ability to engage with the assessments and feedback-based therapeutic dialogue. <sentence_start/>The feedback report specifically improved therapists' understanding of patients\u2019 social context. <sentence_start/>Future implementation will require automation, integration into digital clinical infrastructure, and therapist training to support appropriate interpretation of feedback and follow-up action."
+  },
+  {
+   "section": "article",
+   "text": "1"
+  },
+  {
+   "section": "article",
+   "text": "Introduction"
+  },
+  {
+   "section": "article",
+   "text": "Understanding a person's daily social life is important for understanding their mental health. <sentence_start/>Social context can improve or aggravate wellbeing (<citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1177/0265407505049320\" count=\"1\">Bertera, 2005</citation>; <citation rid=\"bib62\" ref-type=\"bibr\" doi=\"10.1023/A:1017528029127\" pmid=\"11419518\" count=\"1\">Yanos et al., 2001</citation>; <citation rid=\"bib51\" ref-type=\"bibr\" doi=\"10.1002/wps.20282\" pmid=\"26833614\" pmcid=\"PMC4780285\" count=\"1\">Southwick et al., 2016</citation>). <sentence_start/>For example, social support can help in buffering for, dealing with, and recovering from existing psychopathology (<citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1097/NMD.0b013e31821cd24b\" pmid=\"21629020\" pmcid=\"PMC12815183\" count=\"1\">Brown et al., 2011</citation>; <citation rid=\"bib48\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2020.27491\" pmcid=\"PMC7718598\" pmid=\"33275154\" count=\"1\">Scardera et al., 2020</citation>), while adverse social interactions or the absence of social contact can have deteriorating effects on mental health (<citation rid=\"bib8\" ref-type=\"bibr\" doi=\"10.1177/0265407505049320\" count=\"1\">Bertera, 2005</citation>; <citation rid=\"bib62\" ref-type=\"bibr\" doi=\"10.1023/A:1017528029127\" pmid=\"11419518\" count=\"1\">Yanos et al., 2001</citation>; <citation rid=\"bib28\" ref-type=\"bibr\" doi=\"10.1016/B978-0-08-045078-0.00017-4\" count=\"1\">Lakey and Cronin, 2008</citation>; <citation rid=\"bib46\" ref-type=\"bibr\" doi=\"10.1037/0022-3514.46.5.1097\" pmid=\"6737206\" count=\"1\">Rook, 1984</citation>). <sentence_start/>A recent meta-analysis of the effectiveness of social network interventions for psychiatric patients indicates that improving social functioning also leads to improvements in psychopathological symptoms and better treatment adherence (<citation rid=\"bib57\" ref-type=\"bibr\" doi=\"10.1016/j.cpr.2023.102321\" pmid=\"37499318\" count=\"1\">Swinkels et al., 2023</citation>). <sentence_start/>Social functioning and a patient's social network are therefore important transdiagnostic factors to be considered in psychotherapy (<citation rid=\"bib35\" ref-type=\"bibr\" doi=\"10.1111/bjc.12005\" pmid=\"24215144\" count=\"1\">McEvoy et al., 2013</citation>; <citation rid=\"bib19\" ref-type=\"bibr\" doi=\"10.1016/j.comppsych.2017.06.014\" pmid=\"28735709\" pmcid=\"PMC5643217\" count=\"1\">Girard et al., 2017</citation>; <citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1016/j.comppsych.2022.152309\" pmid=\"35325672\" count=\"1\">Leijdesdorff et al., 2022</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Several evidence-based psychotherapeutic approaches emphasize the importance of patients' social functioning or explicitly incorporate social functioning in treatment, depending on the approach (see Table 1 for a brief overview). <sentence_start/>However, only little attention has been paid to <italic>systematically</italic> assessing and using information about a patient's daily social life in clinical practice (<citation rid=\"bib6\" ref-type=\"bibr\" doi=\"10.3389/fpsyt.2025.1698878\" pmcid=\"PMC12589039\" pmid=\"41210139\" count=\"1\">Batstra and Frances, 2025</citation>; <citation rid=\"bib25\" ref-type=\"bibr\" count=\"1\">Kinderman et al., 2020</citation>; <citation rid=\"bib61\" ref-type=\"bibr\" doi=\"10.1016/j.comppsych.2011.03.001\" pmid=\"21565335\" count=\"1\">Wakefield and First, 2012</citation>). <sentence_start/>While daily-life situations and interpersonal experiences are frequently addressed in sessions, patients' reports are likely to be selective, with recall and disclosure biased toward more recent or emotionally salient situations (<citation rid=\"bib47\" ref-type=\"bibr\" doi=\"10.1016/j.paid.2015.04.027\" count=\"1\">Ryan and Kahn, 2015</citation>; <citation rid=\"bib56\" ref-type=\"bibr\" doi=\"10.1185/03007990902774765\" pmid=\"19257798\" count=\"1\">Stull et al., 2009</citation>; <citation rid=\"bib24\" ref-type=\"bibr\" doi=\"10.1016/j.plrev.2010.01.006\" pmid=\"20374933\" pmcid=\"PMC2852439\" count=\"1\">Holland and Kensinger, 2010</citation>). <sentence_start/>Psychotherapy may therefore benefit from a structured overview of patients' broader social environments (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>). <sentence_start/>Connected to that, several studies with different patient groups indicate that clinical care-as-usual has little success in improving patients' social functioning (<citation rid=\"bib17\" ref-type=\"bibr\" doi=\"10.1111/eip.12689\" pmid=\"29938910\" count=\"1\">Devoe et al., 2019</citation>; <citation rid=\"bib22\" ref-type=\"bibr\" doi=\"10.1001/archgenpsychiatry.2011.37\" pmid=\"21464343\" pmcid=\"PMC3158489\" count=\"1\">Gunderson et al., 2011</citation>; <citation rid=\"bib44\" ref-type=\"bibr\" doi=\"10.1017/S0033291713003152\" pmid=\"24472135\" count=\"1\">Renner et al., 2014</citation>; <citation rid=\"bib64\" ref-type=\"bibr\" doi=\"10.1111/j.1600-0447.2010.01543.x\" pmid=\"20199493\" pmcid=\"PMC3876887\" count=\"1\">Zanarini et al., 2010</citation>). <sentence_start/>This is concerning, as persistent social difficulties are associated with increased risk of relapse (<citation rid=\"bib29\" ref-type=\"bibr\" doi=\"10.1016/j.comppsych.2022.152309\" pmid=\"35325672\" count=\"1\">Leijdesdorff et al., 2022</citation>). <sentence_start/>It may thus be useful to capture and examine patients' social context in a more detailed and structured way than currently done in clinical practice."
+  },
+  {
+   "section": "article",
+   "text": "A new promising approach to do so is combining personal social networks (PSN) and experience sampling methodology (ESM) (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>, <citation rid=\"bib54\" ref-type=\"bibr\" doi=\"10.1177/25152459241244745\" count=\"1\">2024</citation>). <sentence_start/>A PSN maps out a patient's social connections - who is part of their social network and what kind of relationship does the patient have with these people. <sentence_start/>A recent study by Nicaise and colleagues (<citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1177/00207640211058977\" pmid=\"34791955\" count=\"1\">Nicaise et al., 2022</citation>) shows that patients and clinicians perceived feedback about a patient's PSN as useful for treatment, and patients reported increased satisfaction with their social support resources. <sentence_start/>In addition to a PSN, ESM can be used to gain insight into a patient's daily social activity and its relation to symptoms. <sentence_start/>By delivering multiple brief questionnaires to the patient's smartphone throughout everyday life ESM captures experiences in real time and in naturalistic contexts (see e.g., <citation rid=\"bib15\" ref-type=\"bibr\" doi=\"10.1097/NMD.0b013e31821cd24b\" pmid=\"21629020\" pmcid=\"PMC12815183\" count=\"1\">Brown et al., 2011</citation>). <sentence_start/>This allows for the collection of ecologically valid data while minimizing recall bias. <sentence_start/>As a result, ESM has become increasingly popular in psychotherapy research, particularly because it may support more individualized assessment and treatment approaches (<citation rid=\"bib1\" ref-type=\"bibr\" doi=\"10.1016/j.cpr.2012.05.007\" pmid=\"22721999\" count=\"1\">aan het Rot et al., 2012</citation>; <citation rid=\"bib37\" ref-type=\"bibr\" doi=\"10.1017/S0033291708004947\" pmid=\"19215626\" count=\"1\">Myin-Germeys et al., 2009</citation>; <citation rid=\"bib60\" ref-type=\"bibr\" doi=\"10.1037/a0017653\" pmid=\"19947780\" pmcid=\"PMC4255457\" count=\"1\">Trull and Ebner-Priemer, 2009</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "When combining PSN and ESM it becomes possible to assess with which members of their social network patients interact, how these specific interactions are experienced, and how they may relate to fluctuations in symptoms (<citation rid=\"bib54\" ref-type=\"bibr\" doi=\"10.1177/25152459241244745\" count=\"1\">Stadel et al., 2024</citation>). <sentence_start/>Like with other clinical ESM implementations (e.g., <citation rid=\"bib14\" ref-type=\"bibr\" doi=\"10.1007/s11136-020-02701-4\" pmid=\"33222049\" pmcid=\"PMC8528801\" count=\"1\">Bringmann et al., 2021</citation>; <citation rid=\"bib27\" ref-type=\"bibr\" doi=\"10.1016/j.heliyon.2023.e14507\" pmcid=\"PMC10036928\" pmid=\"36967959\" count=\"1\">Klipstein et al., 2023</citation>), the data collected through PSN and ESM can be summarized into an interactive feedback report to be reviewed jointly by patient and therapist (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>). <sentence_start/>Such shared exploration may support a more nuanced understanding of the patient's difficulties, help identify new treatment targets, and provide a diverse set of concrete daily-life situations to discuss in therapy (<citation rid=\"bib9\" ref-type=\"bibr\" doi=\"10.33612/diss.177817937\" pmid=\"36734692\" count=\"1\">Bos, 2021</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "To explore the clinical utility of a feedback report summarizing patients' social context, Stadel and colleagues (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>) conducted a focus group discussion during which psychotherapy patients were asked to reflect on the potential of the integration of ESM and PSN. <sentence_start/>The patients considered the use of ESM and PSN valuable but did not expect to gain new insights themselves from a feedback report summarizing their social life. <sentence_start/>Instead, patients expected that the report would be useful for communication with their therapist, and that it would help the therapist to understand the patient's complaints better. <sentence_start/>However, to date, the combination of PSN with ESM and associated feedback has not been tested in clinical practice yet, and no information on the clinician perspective is available."
+  },
+  {
+   "section": "article",
+   "text": "Therefore, in this study we piloted the application of the integration of PSN and ESM as an intervention within a clinical setting where different patients complete the assessment and feedback procedure accompanied by their therapists. <sentence_start/>Concretely, we conducted a series of four exploratory, mixed-methods case studies with young adults with severe mental health problems in transdiagnostic treatment within one large mental healthcare facility in the Netherlands. <sentence_start/>Thereby, we were interested in the patient and the therapist perspective on the utility and feasibility of the intervention."
+  },
+  {
+   "section": "article",
+   "text": "2"
+  },
+  {
+   "section": "article",
+   "text": "Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1"
+  },
+  {
+   "section": "article",
+   "text": "Design &amp; ethics"
+  },
+  {
+   "section": "article",
+   "text": "We used a concurrent embedded mixed methods multiple-case study design. <sentence_start/>The primary strand was qualitative, focusing on how the intervention was experienced by patients, therapists and researchers. <sentence_start/>Quantitative data were used as a supporting strand to describe compliance and data characteristics of obtained ESM and PSN data."
+  },
+  {
+   "section": "article",
+   "text": "The study protocol was assessed by the Medical Ethical Committee at the University Medical Centre Groningen (UMCG) and judged as not requiring full review as we asked little involvement of patients beyond standard care (METc, 2023/285). <sentence_start/>To guarantee secure data storage, all research activities took place within the mental healthcare facility and its digital environment. <sentence_start/>We aim to report our research study as transparently as possible while protecting participants' anonymity. <sentence_start/>In preparing this manuscript, we followed the Standards for Reporting Qualitative Research (SRQR; <citation rid=\"bib40\" ref-type=\"bibr\" doi=\"10.1097/ACM.0000000000000388\" pmid=\"24979285\" count=\"1\">O'Brien et al., 2014</citation>). <sentence_start/>Because of space constraints, information on researcher characteristics, the study's research paradigm, and a summary of the strategies to enhance trustworthiness are provided in the supplementary materials."
+  },
+  {
+   "section": "article",
+   "text": "2.2"
+  },
+  {
+   "section": "article",
+   "text": "Case selection"
+  },
+  {
+   "section": "article",
+   "text": "The study took place in 2025 within two departments of the mental healthcare facility, both specializing in the treatment of severe mental health complaints transdiagnostically. <sentence_start/>One focuses on young adults, and the other is explicitly transdiagnostic, treating a broader clinical group. <sentence_start/>To compose our sample, we used a purposive sampling approach (<citation rid=\"bib41\" ref-type=\"bibr\" count=\"1\">Patton, 2014</citation>) focusing on patients who struggle with social functioning according to their psychotherapists as this would deliver the richest data for our study aim. <sentence_start/>Within this group, we deliberately sampled patients with different diagnoses at different stages of treatment to understand when our intervention might be most useful. <sentence_start/>Because the consulted therapists, who served as gatekeepers, considered group applications of the intervention particularly useful, we also allowed for the inclusion of groups. <sentence_start/>Our final sample included, across four case studies, a total of nine young adults (median age = 23.5, age range = 20 to 29, 67% female) and their treating psychotherapists. <sentence_start/>This included two group cases, one with four and one with three patients (<italic>Case Studies 1 &amp; 2,</italic> respectively), and two individual therapy cases (<italic>Case Studies 3 &amp; 4</italic>). <sentence_start/>Table 2 provides an overview of the patients\u2019 demographic information and diagnoses."
+  },
+  {
+   "section": "article",
+   "text": "2.2.1"
+  },
+  {
+   "section": "article",
+   "text": "Case study 1 (CS1): part-time group therapy"
+  },
+  {
+   "section": "article",
+   "text": "As a first case study we could integrate our research procedure into a part-time treatment program for young adults aged between 17 and 25. <sentence_start/>Patients in this program have different diagnoses, but all suffer from problems at work/school and in their social environment, which lead to stagnation in their lives and irregular day structures. <sentence_start/>Patients spend two full days per week at the mental healthcare facility during which they work on improving their symptoms and creating structure in their lives. <sentence_start/>Our procedure was integrated as part of the treatment component \u2018Healthy Lifestyle\u2019. <sentence_start/>This component is focused on topics such as relaxation, managing finances, nutrition and the patients' social network. <sentence_start/>Normally, the treatment only contains one session about the patients' social network, but for our research 4 sessions of 90 min each were dedicated to the patients' social life. <sentence_start/>Our sessions were accompanied by two therapists who were responsible for a few different treatment components. <sentence_start/>Next to that, each of them was also a personal therapist for one of the patients outside of the group sessions."
+  },
+  {
+   "section": "article",
+   "text": "2.2.2"
+  },
+  {
+   "section": "article",
+   "text": "Case study 2 (CS2): transition group from inpatient treatment"
+  },
+  {
+   "section": "article",
+   "text": "The second case study took place in the transdiagnostic department. <sentence_start/>Specifically, we collaborated with the team of therapists responsible for the transition from inpatient treatment to daily life outside the clinic. <sentence_start/>The team included a total of five clinicians with varying functions. <sentence_start/>Patients in this transition group follow treatment on-site for one day a week to support their adjustment. <sentence_start/>In contrast to the group from the previous case study, this group was somewhat older, highly educated and followed regular employment at the time of the study. <sentence_start/>Part of our sessions (onboarding, network assessment) were accompanied by one therapist of the team, mainly to support data collection. <sentence_start/>Overall, therapists were less involved in CS2 than in CS1, as the full team only joined the evaluation."
+  },
+  {
+   "section": "article",
+   "text": "2.2.3"
+  },
+  {
+   "section": "article",
+   "text": "Case studies 3 &amp; 4 (CS3 &amp; CS4): individual treatment"
+  },
+  {
+   "section": "article",
+   "text": "CS3 and CS4 were with two young adults receiving individual outpatient treatment in the same department in which CS1 took place. <sentence_start/>Almost weekly, these two patients follow individual treatment sessions. <sentence_start/>The patient in CS3 participated next to her individual sessions also in regular group therapy sessions, but she took part with her individual psychotherapist. <sentence_start/>The patient in CS4 was only in individual therapy. <sentence_start/>The personal therapists of the patients were involved throughout the whole research procedure."
+  },
+  {
+   "section": "article",
+   "text": "2.3"
+  },
+  {
+   "section": "article",
+   "text": "Procedure"
+  },
+  {
+   "section": "article",
+   "text": "If a patient (or group of patients) wanted to participate, researchers would contact the patient(s) to explain the study procedure in more detail. <sentence_start/>Subsequently, the researcher(s) joined a therapy session to sign the informed consent and discuss the complaints and treatment goals of the patient(s) to set up a partly personalized ESM diary. <sentence_start/>Directly after this session, a researcher assessed the social network of the patient in an interview (for details see section 2.4.1) and explained how to complete the ESM assessments. <sentence_start/>In the group trajectories each patient was interviewed by either a researcher or a therapist who guided the patient through the questions and recorded their responses. <sentence_start/>On the following day, a 14-day ESM period started, which assessed daily social interactions and complaints (for details see section 2.4.2). <sentence_start/>After that, a researcher joined a second therapy session to provide feedback to both patient and therapist using an interactive feedback report summarizing the PSN and ESM data (for details see section 2.4.3). <sentence_start/>Again, each patient in the group trajectory received individual attention from a therapist or researcher to explore their feedback report together."
+  },
+  {
+   "section": "article",
+   "text": "To evaluate the intervention procedure, we conducted semi-structured interviews with the therapists and patients separately (for details see section 2.4.4). <sentence_start/>An overview of the entire trajectory is depicted in Fig. <sentence_start/>1. <sentence_start/>After every session, the two researchers doing data collection (MS and SW) discussed how the session went. <sentence_start/>These reflections were also written down to facilitate reflexivity and support analyses.<sentence_start/>Fig. 1"
+  },
+  {
+   "section": "article",
+   "text": "Procedure overview."
+  },
+  {
+   "section": "article",
+   "text": "2.4"
+  },
+  {
+   "section": "article",
+   "text": "Materials"
+  },
+  {
+   "section": "article",
+   "text": "All materials and analysis code to generate the feedback report can be found on our Open Science Framework (OSF) repository ( ). <sentence_start/>Additionally, assessment materials are also provided in the supplementary materials."
+  },
+  {
+   "section": "article",
+   "text": "2.4.1"
+  },
+  {
+   "section": "article",
+   "text": "Personal network interview"
+  },
+  {
+   "section": "article",
+   "text": "PSN are assessed by either surveying or interviewing the participant about their social relationships (see <citation rid=\"bib33\" ref-type=\"bibr\" count=\"1\">McCarty et al., 2019</citation>) for an overview of PSN methodology). <sentence_start/>Due to the lack of approved network data collection software within the mental healthcare facility, we used an in-person interview supported by visualizations on a whiteboard. <sentence_start/>The first stage of a PSN data collection is name generation in which participants are prompted to list names of relevant network members. <sentence_start/>We used the following prompt: <italic>\u201cName the most important people in your life. Think of people with whom you have regular contact and also people with whom you do not, but whom you could contact.\u201c</italic> Patients wrote each name on one magnet. <sentence_start/>The maximal number of network members was 25, a commonly recommended network size to capture not only close relationships but also weaker ties (<citation rid=\"bib52\" ref-type=\"bibr\" doi=\"10.1016/j.socnet.2021.10.007\" count=\"1\">Stadel and Stulp, 2022</citation>; <citation rid=\"bib32\" ref-type=\"bibr\" doi=\"10.1016/j.socnet.2006.12.005\" count=\"1\">McCarty et al., 2007</citation>; <citation rid=\"bib20\" ref-type=\"bibr\" doi=\"10.1177/1525822X10370796\" pmid=\"21113275\" pmcid=\"PMC2990225\" count=\"1\">Golinelli et al., 2010</citation>). <sentence_start/>The second stage of a PSN data collection contains the so-called name interpreter questions which the patient answers about each network member: We asked a total of ten questions about characteristics of the network members, such as the patient's relationship with these people, and how often the patient has contact with them. <sentence_start/>A full list of the original Dutch questions and their English translation can be found in our supplementary materials. <sentence_start/>We printed each question and its answer scale on a small sheet which were both attached to the whiteboard while answering the question. <sentence_start/>Patients were asked to sort the magnets (i.e., network members) into the appropriate response category by moving them on the whiteboard. <sentence_start/>Such visual methods have been shown to improve data quality and participant experience during a network interview (<citation rid=\"bib55\" ref-type=\"bibr\" doi=\"10.1016/j.socnet.2016.07.007\" count=\"1\">Stark and Krosnick, 2017</citation>). <sentence_start/>The last step of a PSN assessment is to ask which network members know each other. <sentence_start/>We defined a connection as network members who know each other's names, faces and have regular contact with each other (at least once a year). <sentence_start/>During the PSN interview, the interviewer used a pre-formatted Excel file to record the participant's responses through all stages, so that the data could later be visualized in the patient's feedback report."
+  },
+  {
+   "section": "article",
+   "text": "2.4.2"
+  },
+  {
+   "section": "article",
+   "text": "ESM"
+  },
+  {
+   "section": "article",
+   "text": "In several mental healthcare institutions in the Netherlands, the ESM tool PETRA (<bold>PE</bold>rsonalized <bold>T</bold>reatment by <bold>R</bold>eal-time <bold>A</bold>ssessment ( ;<citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.2196/36430\" pmcid=\"PMC9399881\" pmid=\"35943762\" count=\"1\">Bos et al., 2022</citation>) is available to therapists and researchers via the routine outcome monitoring software integrated into the electronic patient database. <sentence_start/>PETRA allows setting up an ESM diary for patients currently in treatment and sends an SMS to the patients\u2019 mobile phone which contains a link to the assessment. <sentence_start/>Given its specific tailoring to the clinical setting, including secure data storage, we used PETRA for our ESM assessments."
+  },
+  {
+   "section": "article",
+   "text": "The ESM period lasted 14 days and included 5 prompts per day at semi-random moments (i.e., 70 assessments in total), which took place during a 10-h time window (e.g., 9:30 until 19:30). <sentence_start/>The start time (and thereby also the end time) was determined by the participant according to their daily rhythm."
+  },
+  {
+   "section": "article",
+   "text": "All ESM items that we used are part of the PETRA item databank (for details we refer to Bos and colleagues (<citation rid=\"bib12\" ref-type=\"bibr\" doi=\"10.2196/36430\" pmcid=\"PMC9399881\" pmid=\"35943762\" count=\"1\">Bos et al., 2022</citation>)) The ESM diary contained a set of items about mood and social interactions since the last assessment that was the same for all patients. <sentence_start/>Additionally, each patient could select three items that matched their treatment plan (e.g., their most important complaints). <sentence_start/>For this, participants received a list of available items (see the supplementary materials for a full list of all fixed and optional ESM items and their response scales)."
+  },
+  {
+   "section": "article",
+   "text": "2.4.3"
+  },
+  {
+   "section": "article",
+   "text": "Feedback report"
+  },
+  {
+   "section": "article",
+   "text": "Each participant received a slightly modified and translated version of the feedback report presented by Stadel and colleagues (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>). <sentence_start/>Before the feedback session, the researcher prepared the digital interactive version of the report and a printed summary version with short explanatory texts that the patient could take home. <sentence_start/>The explanatory texts outline how to read the graphs rather than present the patients with conclusions about their symptoms or social life. <sentence_start/>The interpretation of the results was done in discussion together with the patient (and therapist) during the feedback session. <sentence_start/>The digital version of the report also contains several ways to interact with the graphs (e.g., selecting whether to only look at face-to-face social interactions or also include online ones, selecting different symptom or interaction quality ratings to be displayed on the Y-axis of the graphs, filtering out interactions with specific partners, and being able to click on specific social interaction moments to display details about that interaction). <sentence_start/>The printed version of the feedback report contains screenshots of a selection of visualizations from the digital report (an example of the printed feedback report is provided in the supplementary materials)."
+  },
+  {
+   "section": "article",
+   "text": "2.4.4"
+  },
+  {
+   "section": "article",
+   "text": "Evaluation interviews"
+  },
+  {
+   "section": "article",
+   "text": "We evaluated our intervention in separate patient and therapist interviews conducted by MS. <sentence_start/>For CS1 and CS2, evaluation interviews were conducted in patient and therapist groups, resembling a focus group discussion. <sentence_start/>In these cases, SW supported the evaluation. <sentence_start/>During the patient evaluations, we first used a short questionnaire assessing demographic variables as well as clinical characteristics. <sentence_start/>Subsequently, we asked the patient to share their opinion about each part of the research and their overall impression of the utility of the intervention for their treatment. <sentence_start/>Therapists were asked to evaluate the use of the intervention for the current case, to reflect on the broader clinical utility of the intervention and describe what would be needed to implement the intervention in clinical practice. <sentence_start/>If the participants consented, the sessions were audio recorded. <sentence_start/>Otherwise, the researcher took detailed notes."
+  },
+  {
+   "section": "article",
+   "text": "2.5"
+  },
+  {
+   "section": "article",
+   "text": "Analysis"
+  },
+  {
+   "section": "article",
+   "text": "We qualitatively evaluated study experience using codebook thematic analysis (<citation rid=\"bib13\" ref-type=\"bibr\" doi=\"10.1080/14780887.2020.1769238\" count=\"1\">Braun and Clarke, 2021</citation>), combining deductive coding based on predefined domains with inductive coding to identify unanticipated patterns across participants\u2019 accounts. <sentence_start/>This approach was well suited to our case series, in which patients, therapists, and researchers each offered distinct perspectives on the feasibility, usefulness, and possible improvement of the intervention. <sentence_start/>We therefore triangulated these viewpoints in the analysis. <sentence_start/>Recordings of patient and therapist evaluations were transcribed using a local version of WhisperAI (<citation rid=\"bib39\" ref-type=\"bibr\" count=\"1\">OpenAI, 2022</citation>), checked and pseudonymized by SW, and analyzed together with researcher notes in Atlas.ti Web (Version 25.0.1) by MS and SW. <sentence_start/>After data familiarization, we defined six overarching domains to guide coding: motivation for using the intervention, effects of use, positive feedback, encountered problems, suggestions for improvement, and important considerations for implementation. <sentence_start/>Themes were then developed through line-by-line coding and subsequent collation of codes, while allowing additional codes outside these domains, where warranted by the data. <sentence_start/>During this process, we used elements of the Framework Method, a codebook-based approach to thematic analysis (<citation rid=\"bib45\" ref-type=\"bibr\" count=\"1\">Ritchie et al., 2013</citation>), including participant-by-session summaries and matrix displays, to compare domains within and across participants and cases, with particular attention to contrasts between patient and therapist evaluations within the same case. <sentence_start/>Alongside the qualitative results, we present and interpret compliance and data quantity for the PSN and ESM data. <sentence_start/>Quantitative data was handled in R (<citation rid=\"bib43\" ref-type=\"bibr\" count=\"1\">R Core Team, 2024</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "3"
+  },
+  {
+   "section": "article",
+   "text": "Results"
+  },
+  {
+   "section": "article",
+   "text": "During our analysis we noticed that the six initial domains could be summarized in three, as the domains positive feedback, problems and suggestions overlapped largely in their content and all spoke to the larger domain of points to consider for the implementation. <sentence_start/>The results are structured as follows: We first describe the themes falling under the domain motivation - why did patients and therapists take part in the study and what did they hope to gain from our intervention? Second, we present compliance results. <sentence_start/>Third, we describe the effects our intervention has had (i.e., what it delivered for patients, therapists and their shared treatment process) based on their subjective evaluation and researcher observation, and lastly, we summarize additional topics to consider for implementation of the intervention."
+  },
+  {
+   "section": "article",
+   "text": "3.1"
+  },
+  {
+   "section": "article",
+   "text": "Motivation"
+  },
+  {
+   "section": "article",
+   "text": "Patients and therapists described several motivations for participation. <sentence_start/>While one patient chose not to participate because she anticipated little new insight in social context, noting, <italic>\u201cI already have the insight myself, well, of which people I do get energy from and which not\u201d</italic> (001, CS1), others were <underline>curious to learn more about their social context</underline> and how it relates to their complaints. <sentence_start/>For four patients, their <underline>social context was central to their treatment</underline>. <sentence_start/>It is important to note that patients during the first case study tended to avoid challenging situations and were therefore nudged somewhat towards participation by their therapist. <sentence_start/>In the other case studies participants were intrinsically motivated to participate."
+  },
+  {
+   "section": "article",
+   "text": "Therapists across case studies emphasized that <underline>social context is insufficiently explored in routine care</underline>. <sentence_start/>For example, one therapist from CS1 mentioned: <italic>\u201cI think that for us too it can still become a kind of forgotten [topic]. While we [\u2026] know how important it is [we] do not know exactly what that social network looks like. Look, you know superficially whether someone plays soccer or whether they have friends or no friends or see people online or not online. But what it looks like exactly is not clear.\u201d</italic>, while expressing strong confidence that the feedback from our intervention could be transformative: <italic>\u201cif you could feed that back to someone and could show, hey, at the moment that you seek support from another person, we simply see factually that you are doing better. That in theory could be mind changing</italic>.<italic>\u201d</italic>"
+  },
+  {
+   "section": "article",
+   "text": "Therapists from CS1 highlighted the <underline>relevance of social context, especially for young adults</underline>, whose networks are still developing, and therapists from CS2 emphasized a similar importance during the transition out of inpatient treatment, hoping our method would help patients make more conscious social choices. <sentence_start/>Therapists from CS2 further noted the importance of seeing the social context of some patients visible \u201c<italic>black on white</italic>\u201d. <sentence_start/>This idea of obtaining \u2018hard\u2019 data, potentially to challenge patients is also shared by the therapist from CS3 (<italic>\u201cit is also nice to see, can we show her a slightly more nuanced picture? Is what she thinks actually correct [\u2026] That you can especially sometimes show patients another perspective.\u201d</italic>) and CS4 (<italic>\u201cMy hypothesis was that he labelled some contacts more positively than I thought they were\u201d</italic>)."
+  },
+  {
+   "section": "article",
+   "text": "3.2"
+  },
+  {
+   "section": "article",
+   "text": "Compliance"
+  },
+  {
+   "section": "article",
+   "text": "Seven out of nine patients completed the entire study procedure with varying degrees of compliance. <sentence_start/>As mentioned above, patient 001 opted out of the ESM period and therefore only received feedback on her social network. <sentence_start/>Patient 003 stopped the ESM period after two days and did not participate in the evaluation session either - the therapists later clarified that her symptoms were too severe to participate due to an acute crisis. <sentence_start/>An overview of compliance and the obtained data quantity in terms of ESM and PSN data is displayed in Table 3. <sentence_start/>A stark contrast is visible between CS1 and the remaining patients, matching the differences in motivation to participate and the fact that this group was at the beginning of their treatment with complaints still being relatively high. <sentence_start/>The group of CS2 showed higher compliance overall and larger social networks, despite minimal therapist involvement in their trajectories. <sentence_start/>Compliance was highest in the two individual case studies in which patient and therapist completed the whole trajectory in close collaboration (i.e., discussing the set-up of the diary as well as the feedback report together in a session)."
+  },
+  {
+   "section": "article",
+   "text": "3.3"
+  },
+  {
+   "section": "article",
+   "text": "Intervention effects"
+  },
+  {
+   "section": "article",
+   "text": "Based on the evaluation interviews, the use of our intervention had three kinds of effects: patients feeling like the feedback <underline>confirmed their self-perception</underline>, patients and therapists <underline>gaining more insight</underline> into complaints and social context, and <underline>patients feeling confronted</underline>, which seemed to be a key element of the intervention. <sentence_start/>However, often these three appeared somewhat intertwined."
+  },
+  {
+   "section": "article",
+   "text": "Many patients expressed they did not get new insights from the feedback, but that it rather confirmed their self-perception (<italic>\u201cThose are things that, in a way, you do already know.\u201c</italic> - 008 CS3). <sentence_start/>Despite that, the feedback was still perceived as useful for the therapist (e.g., <italic>\u201cBecause they only see a small part of us, of course. And we do tell them some things. But imagine that you really would just fill in the diary. And truthfully. Then yes, I think it really could be supportive. For the treatment.\u201d</italic>- 001, CS1 or <italic>\u201cif you have people around you who are important, or you say a friend instead of the name. And now you really have to link a name. You don't do that so quickly in a treatment.\u201d</italic> - 009, CS4). <sentence_start/>In some cases, patients seemed to have gained insight through the assessments rather than the feedback, as these prompted them to be more mindful (<italic>\u201cIt also asks you to pause, so in that sense it also teaches you to do things alongside your treatment, to pause. It helps with that too, I do see that.\u201d-</italic> 004, CS1)."
+  },
+  {
+   "section": "article",
+   "text": "Often, when patients named a confirmatory effect, they also noted the difference between <italic>\u201cknowing something deep down\u201d</italic> and being fully aware and ready to bring it into therapy. <sentence_start/>Several patients emphasized that it made a difference \u201c<italic>seeing it\u201d</italic> in our feedback report rather than just <italic>\u201csomehow\u201d</italic> knowing it (e.g., <italic>\u201cI actually never talk with my friends about difficult things or so. I did know that, of course. But then, yes, when you see that \u2026\u201d-</italic> 002 CS2). <sentence_start/>Our intervention seemed to have achieved present awareness and the feedback acted both as a visualization and a communication device between patient and therapist (<italic>\u201cnormally we talk about my family, but I'm not around them that much \u2026 And I do know that \u2026 But yes, now [my therapist] could see it as well for once</italic>\u201d - 008, CS3)."
+  },
+  {
+   "section": "article",
+   "text": "In CS3, we observed an interesting paradox related to insight: Patient 008 claimed that she did not gain new insights from the study, but then later in the interview proceeded to describe concrete new insights she gained: <italic>\u201cIt did affect me for a moment, and I also found myself thinking a lot about some friends, like, oh, do I actually recharge with them? I always say I do, but with some things you just started to pause a bit more.\u201d</italic> <sentence_start/>Thus, patients may not always recognize new insight as such."
+  },
+  {
+   "section": "article",
+   "text": "In this case, the intervention also delivered useful insights for the therapist. <sentence_start/>She particularly noticed the more procedural descriptions of the patients\u2019 social interactions (<italic>\u201cThere was little color to her [interaction descriptions]. I think she also finds that one of the most difficult things-giving her own color to the contact, to herself [\u2026] you can then take that with you for the therapy goals.\u201c</italic>) and described several other points she noticed in the feedback to be discussed with the patient in future sessions. <sentence_start/>Thus, in their case the intervention delivered useful input for therapy for both the patient and the therapist."
+  },
+  {
+   "section": "article",
+   "text": "Another patient 004 and her therapist from CS1 similarly benefited from our intervention. <sentence_start/>This patient gained several important insights (e.g., <italic>\u201cFriend A just drains so much out of me. While friend B didn't do that at all. And from that I was able to gather that, for example, I'm going to tell friend A more often: I don't want this anymore for now, I'll leave it at this, I'll keep it short.\u201d</italic>). <sentence_start/>In this case, the intervention even prompted behavioral change. <sentence_start/>She did not only change her interaction with friends, but also took the feedback report to her family, which helped her communicate her struggles and fostered connection. <sentence_start/>Her therapist noted: <italic>\u201cI'm getting a lot of insight into who is in [the patient's] network, but also into the way they are in her network. And that a very large part of it is online, and that a whole lot of them actually only cost energy, don't give any energy. So yes, I found it very clarifying to map it out like that.\u201d</italic>"
+  },
+  {
+   "section": "article",
+   "text": "For the intervention to be effective, patients, however, needed to engage in what they perceived as confrontation (<italic>\u201cYou had to place people into categories; it was somewhat painful, and you could even be ashamed of it.\u201d</italic> - 005, CS2). <sentence_start/>The need for engaging in confrontation is central to psychotherapy according to the therapist from CS3: <italic>\u201cYeah, then it might be quite painful to look back at, and at the same time I think, yes, that's exactly what you learn from, I think. Therapy is also always a bit unpleasant, toward the pain.\u201d.</italic> <sentence_start/>For some patients, however, engaging in the diary assessments was seen as too confronting, particularly in CS1: Patient 001 decided to not participate at all and 002 avoided completing the ESM assessments when he had challenging social interactions or generally a bad day (e.g., <italic>\u201cBut I did notice, in those two weeks I had a really difficult weekend. Yeah. And then I noticed, yeah, I really don't feel like dealing with that.\u201d</italic>). <sentence_start/>During the evaluation interview, 002 regretted his lower compliance and recognized the importance of confronting oneself: <italic>\u201cit might actually be very valuable if you fill it in when you're feeling bad. Though yes, it may be harder, but I think the results are even more valuable if you know them at that moment.\u201d</italic>. <sentence_start/>A key element for the intervention to be effective, thus seems to be achieving the right level of confrontation for a particular patient."
+  },
+  {
+   "section": "article",
+   "text": "3.4"
+  },
+  {
+   "section": "article",
+   "text": "Implementation"
+  },
+  {
+   "section": "article",
+   "text": "With regards to the further implementation of our intervention in clinical practice, the evaluation interviews revealed several important points: All therapists agreed that it is most useful in early phases of treatment, after they had a chance to build sufficient rapport with a patient to engage in the necessary confrontation this intervention comes with. <sentence_start/>Both patients and therapists saw repeated use of the intervention later in treatment as valuable as well."
+  },
+  {
+   "section": "article",
+   "text": "When using the intervention, patients cannot be in an acute crisis while completing the intervention, as was the case for patient 003. <sentence_start/>A particular challenge seemed to be patients struggling with avoidance as in CS1. <sentence_start/>Such patients need continued motivation by therapists to engage sufficiently with the assessments. <sentence_start/>Our intervention appeared most successful in individual applications in which therapists and patients set up the diary and discuss the feedback collaboratively, which seemed to help patients to dare to be confronted."
+  },
+  {
+   "section": "article",
+   "text": "We, however, observed that patients were not always driven to bring in outcomes from the feedback report in other group sessions (<italic>\u201cI haven't literally heard it back anywhere. It has stayed out of the therapies\u201d</italic> - therapist CS2) - therefore, follow-up actions of a therapist engaging with the feedback report are needed for optimal use. <sentence_start/>This may be supported by adding the feedback report to patient dossiers and making the digital report accessible by therapists without researcher involvement."
+  },
+  {
+   "section": "article",
+   "text": "According to the therapists from CS1 and CS3, the time investment for the intervention part was feasible given that it took only two therapy sessions: One session to discuss the set-up of the diary and one session for the feedback report. <sentence_start/>Thus, when given software and support staff to carry out the social network assessment, an automatically generated feedback report and training, therapists consider the use of our intervention feasible and useful for daily clinical practice. <sentence_start/>Several therapists mentioned that they were motivated to use the intervention with other patients of theirs."
+  },
+  {
+   "section": "article",
+   "text": "Within the transition from in-patient treatment (CS2), therapists are generally less involved and therefore would prefer our intervention to be standalone for patients. <sentence_start/>This is contrary to one patient's wish to at least discuss the feedback report with a therapist (<italic>\u201cI do feel the need to talk with [a therapist] about the results\u201d</italic> - 005, CS2). <sentence_start/>In theory, a patient could take discussion topics from our intervention to other therapy sessions. <sentence_start/>However, according to the therapists, this patient has not brought up anything following the feedback session. <sentence_start/>Thus, also in this setting, it would be desirable to have therapists involved in the feedback session or that therapists follow up on outcomes during other sessions."
+  },
+  {
+   "section": "article",
+   "text": "4"
+  },
+  {
+   "section": "article",
+   "text": "Discussion"
+  },
+  {
+   "section": "article",
+   "text": "In a series of four mixed-methods case studies, we explored the feasibility of a novel intervention capturing the social context of psychotherapy patients. <sentence_start/>The intervention consisted of two components (1) the assessment of social context using the experience sampling methodology (ESM) and personal social network data collection (PSN) and (2) a feedback report summarizing the patients' social context. <sentence_start/>We explored feasibility and utility of this intervention in group and individual psychotherapy of young adults with severe mental health issues who were either in partial in-patient treatment or transitioned out of full in-patient treatment. <sentence_start/>Evaluation was carried out using qualitative data from semi-structured interviews with patients and therapists as well as researchers' reflexive notes taken while delivering the intervention, and quantitative data regarding patients\u2019 compliance with the assessments that were part of the intervention."
+  },
+  {
+   "section": "article",
+   "text": "Based on preliminary evidence by Stadel and colleagues (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>) we expected the intervention to be most promising in settings where the feedback is discussed between the patient and therapist. <sentence_start/>In line with this expectation, useful engagement with the intervention appeared most feasible in individual therapy, when the therapist and patient collaboratively set up the diary and discussed the feedback. <sentence_start/>This matches results from previous research highlighting that ESM-based feedback can facilitate communication between patient and therapist (<citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1186/s40345-020-00201-5\" pmcid=\"PMC7704990\" pmid=\"33258015\" count=\"1\">Bos et al., 2020</citation>) and improve the patient-therapist relationship (<citation rid=\"bib10\" ref-type=\"bibr\" doi=\"10.1176/appi.ps.201900050\" pmid=\"31434558\" count=\"1\">Bos et al., 2019</citation>). <sentence_start/>While our results indicate that also group applications may be feasible, they require similar therapist engagement and need to be carefully integrated into the treatment process, as Bartels and colleagues (<citation rid=\"bib4\" ref-type=\"bibr\" doi=\"10.1016/j.heliyon.2023.e20084\" pmcid=\"PMC10559801\" pmid=\"37809510\" count=\"1\">Bartels et al., 2023</citation>) recommend ESM-based feedback to always be discussed face-to-face."
+  },
+  {
+   "section": "article",
+   "text": "Our results show that the intervention may also lead to new insights in patients, whereby insights can range from more subtle confirmatory effects to recognizing important behavioral patterns, such as which kinds of social interactions are beneficial for them. <sentence_start/>The way participants described the effects of the intervention points at them making a shift from previous intellectual insights towards more emotional insights which lay the foundation for behavioral change (<citation rid=\"bib18\" ref-type=\"bibr\" doi=\"10.2466/pr0.1963.13.1.125\" count=\"1\">Ellis, 1963</citation>). <sentence_start/>In line with other ESM research (<citation rid=\"bib53\" ref-type=\"bibr\" doi=\"10.1007/s10488-023-01293-8\" pmcid=\"PMC11196300\" pmid=\"37615808\" count=\"1\">Stadel et al., 2023</citation>; <citation rid=\"bib11\" ref-type=\"bibr\" doi=\"10.1186/s40345-020-00201-5\" pmcid=\"PMC7704990\" pmid=\"33258015\" count=\"1\">Bos et al., 2020</citation>; <citation rid=\"bib3\" ref-type=\"bibr\" doi=\"10.1016/j.jad.2017.11.016\" pmid=\"29154165\" count=\"1\">Bakker and Rickard, 2018</citation>), this process seemed to be facilitated by the self-reflection prompted by the assessments or through discussion between patient and therapist, rather than viewing the feedback report without further therapeutic action."
+  },
+  {
+   "section": "article",
+   "text": "Interesting about our results is that also in some cases in which the patient did not show high compliance with the diary assessment, useful insights could be gained, and patients could be motivated to make more informed choices about social behavior in daily life. <sentence_start/>Rather than the completion of many assessments, one of the key mechanisms of the intervention appears to be that patients are confronted with potentially uncomfortable situations. <sentence_start/>That working mechanism is connected to the main principles and techniques in CBT specifically in exposure therapy (<citation rid=\"bib7\" ref-type=\"bibr\" count=\"1\">Beck, 1979</citation>) and more general mechanisms of psychotherapy (<citation rid=\"bib2\" ref-type=\"bibr\" doi=\"10.1037/int0000079\" count=\"1\">Alberti, 2018</citation>). <sentence_start/>Thus, for the intervention to be useful, patients need to be able to be confronted by their therapist, who uses the feedback report as a tool to confront the patient. <sentence_start/>Given its similarity to exposure therapy in working mechanisms, a strong therapeutic alliance between patient and therapist is important for our intervention to be successfully applied (<citation rid=\"bib16\" ref-type=\"bibr\" doi=\"10.1016/j.janxdis.2020.102194\" pmid=\"32007734\" count=\"1\">Buchholz and Abramowitz, 2020</citation>; <citation rid=\"bib42\" ref-type=\"bibr\" doi=\"10.36131/cnfioritieditore20230304\" pmcid=\"PMC10405669\" pmid=\"37554697\" count=\"1\">Podolan and Gelo, 2023</citation>; <citation rid=\"bib36\" ref-type=\"bibr\" doi=\"10.1080/10503307.2018.1502897\" pmid=\"30047304\" count=\"1\">Moeseneder et al., 2019</citation>)."
+  },
+  {
+   "section": "article",
+   "text": "Beyond the possibility to use the feedback report for confrontation, our intervention delivered the therapists with detailed knowledge about the patients\u2019 daily social life. <sentence_start/>Considering the importance of social context for psychological functioning (<citation rid=\"bib51\" ref-type=\"bibr\" doi=\"10.1002/wps.20282\" pmid=\"26833614\" pmcid=\"PMC4780285\" count=\"1\">Southwick et al., 2016</citation>) such knowledge may aid the further treatment process. <sentence_start/>The feedback report can be used to set additional treatment and recovery goals, more specifically on perceiving and seeking social support (<citation rid=\"bib48\" ref-type=\"bibr\" doi=\"10.1001/jamanetworkopen.2020.27491\" pmcid=\"PMC7718598\" pmid=\"33275154\" count=\"1\">Scardera et al., 2020</citation>; <citation rid=\"bib38\" ref-type=\"bibr\" doi=\"10.1177/00207640211058977\" pmid=\"34791955\" count=\"1\">Nicaise et al., 2022</citation>). <sentence_start/>Thus, even though it might not be effective to use our feedback as a standalone intervention given to patients without further therapeutic action, the potential uses for further treatment with the therapist are manifold."
+  },
+  {
+   "section": "article",
+   "text": "4.1"
+  },
+  {
+   "section": "article",
+   "text": "Limitations and future research"
+  },
+  {
+   "section": "article",
+   "text": "Our results must be interpreted in the context of some limitations. <sentence_start/>First, during this pilot, the intervention was heavily supported by the researchers. <sentence_start/>Future applications without researchers need an automatically generated feedback report which is integrated into the digital infrastructure of the mental healthcare facility. <sentence_start/>Next to that, therapists need to be trained in the use of the intervention and how to follow-up on its outcomes. <sentence_start/>Part of this training needs to include how to safeguard themselves and patients from overinterpreting the report. <sentence_start/>During our analysis we noticed several references to the report as ground truth (\u201c<italic>black on white</italic>\u201d). <sentence_start/>While many patients and therapists were nuanced in how they viewed the data (e.g., emphasizing that it only refers to two weeks of their lives and that they did not meet everyone in their network), some participants seemed to have the assumption that our intervention delivers \u2018hard data\u2019 that can be interpreted as unquestionable facts. <sentence_start/>We would like to emphasize that the presented data is self-reported by the patient and covers only a limited period. <sentence_start/>There can be discrepancies in how the therapist or researcher interprets questionnaires and how the patient was using it (<citation rid=\"bib49\" ref-type=\"bibr\" doi=\"10.1037/pas0001380\" pmid=\"41196734\" count=\"1\">Schorrlepp et al., 2025</citation>; <citation rid=\"bib58\" ref-type=\"bibr\" doi=\"10.1080/14780887.2019.1579287\" count=\"1\">Truijens et al., 2022</citation>, <citation rid=\"bib59\" ref-type=\"bibr\" doi=\"10.1016/j.metip.2023.100118\" count=\"1\">2023</citation>). <sentence_start/>Therefore, appropriate training to critically appraise the data represented in a feedback report and a shared discussion between patient and therapist to calibrate interpretation are essential."
+  },
+  {
+   "section": "article",
+   "text": "Lastly, it needs to be noted that we conducted only a small-scale exploratory study within one mental healthcare institution. <sentence_start/>We encourage the reader to critically reflect on the clinical context in which they would like to use the presented intervention and whether our findings could be transferred. <sentence_start/>While our study was able to give an indication regarding the utility and working mechanism of the intervention (i.e., the why and the how), larger scale research to quantitatively evaluate feasibility, acceptability and intervention effects (e.g., what impact does the intervention have on symptoms and functioning outcomes in the short- and long-term) are needed."
+  },
+  {
+   "section": "article",
+   "text": "5"
+  },
+  {
+   "section": "article",
+   "text": "Conclusions"
+  },
+  {
+   "section": "article",
+   "text": "This study explored the feasibility and utility of a novel intervention for capturing patients\u2019 social context by combining experience sampling methodology with personal social network data collection in clinical practice. <sentence_start/>Across four case studies spanning both group and individual psychotherapy, we found that the intervention appeared most feasible and useful in individual therapy, although useful integration is achievable in group setting, given sufficient therapist involvement. <sentence_start/>Both patients and therapists identified meaningful benefits arising from the assessment process as well as from the individualized feedback reports. <sentence_start/>Successful implementation, however, depends on active therapist involvement, dedicating at least two therapy sessions to the procedure. <sentence_start/>Finally, further automation of procedural steps and structured therapist training will be essential to support future quantitative evaluative research and implementation of the intervention."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process"
+  },
+  {
+   "section": "article",
+   "text": "During the preparation of this work the authors used ChatGPT 5.1 to refine writing for selected paragraphs and the abstract. <sentence_start/>During revisions ChatGPT 5.4 was used for the same purpose. <sentence_start/>After using these tools, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article."
+  },
+  {
+   "section": "article",
+   "text": "Declaration of competing interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data"
+  },
+  {
+   "section": "back",
+   "text": "The following is the Supplementary data to this article:"
+  },
+  {
+   "section": "back",
+   "text": "Multimedia component 1"
+  },
+  {
+   "section": "back",
+   "text": "This article is part of a special issue entitled: m(obile)Health for Mental Health published in Neuroscience Applied."
+  },
+  {
+   "section": "back",
+   "text": "Appendix A"
+  },
+  {
+   "section": "back",
+   "text": "Supplementary data to this article can be found online at ."
+  }
+ ]
+}

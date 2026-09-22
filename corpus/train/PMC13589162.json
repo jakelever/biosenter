@@ -1,0 +1,451 @@
+{
+ "pmid": 42760766,
+ "pmcid": 13589162,
+ "source": "pmc",
+ "passages": [
+  {
+   "section": "title",
+   "text": "Mediating Role of Self-Efficacy in Transition Shock and Presenteeism Among Nursing Students in China: A Cross-Sectional Study"
+  },
+  {
+   "section": "abstract",
+   "text": "Background"
+  },
+  {
+   "section": "abstract",
+   "text": "Nursing students, as the reserve force of the nursing workforce, often experience transition shock during clinical internships, which negatively impacts their physical and mental health and may lead to presenteeism. <sentence_start/>Self-efficacy, a modifiable psychological resource, offers a key intervention target for improving this situation."
+  },
+  {
+   "section": "abstract",
+   "text": "Objective"
+  },
+  {
+   "section": "abstract",
+   "text": "To examine self-efficacy\u2019s mediating role between transition shock and presenteeism in nursing students and to guide management."
+  },
+  {
+   "section": "abstract",
+   "text": "Methods"
+  },
+  {
+   "section": "abstract",
+   "text": "This study adopted a descriptive cross-sectional design. <sentence_start/>A convenience sampling survey was conducted on 421 nursing students in Shenyang City, China. <sentence_start/>The questionnaire included demographic characteristics, the General Self-Efficacy Scale (GSES), the Transition Shock Scale for Undergraduate Nursing Students (UNSTS), and Stanford Presenteeism Scale (SPS-6). <sentence_start/>Descriptive statistics, correlation analysis, and multiple linear regression were performed using IBM SPSS 27.0. <sentence_start/>The structural equation model was used to test the mediating effect hypothesis of self-efficacy between transition shock and presenteeism, and AMOS 28.0 was used to estimate the path coefficients and evaluate the model fit."
+  },
+  {
+   "section": "abstract",
+   "text": "Results"
+  },
+  {
+   "section": "abstract",
+   "text": "The research found that the presenteeism, transition shock, and self-efficacy level of nursing students in Shenyang were all at a moderately high level. <sentence_start/>Transition shock showed statistically significant positive correlations with presenteeism (<italic>r</italic> = 0.646) and negative correlations with self-efficacy (<italic>r</italic> = \u22120.576), while self-efficacy was negatively correlated with presenteeism (<italic>r</italic> = \u22120.636). <sentence_start/>The SEM showed satisfactory model fit. <sentence_start/>The results indicated that self-efficacy played a partial mediating role between transition shock and presenteeism (effect = 0.212, [0.149.0.294], <italic>p</italic> &lt; 0.001), accounting for 29.04% of the total effect (total effect = 0.73, [0.615.0.823], <italic>p</italic> &lt; 0.001)."
+  },
+  {
+   "section": "abstract",
+   "text": "Conclusion"
+  },
+  {
+   "section": "abstract",
+   "text": "This study has confirmed that self-efficacy plays a mediating role between the transition shock and presenteeism among nursing students in Shenyang City, China."
+  },
+  {
+   "section": "abstract",
+   "text": "Implication for Nursing Management"
+  },
+  {
+   "section": "abstract",
+   "text": "This study offers nursing managers a new way to address presenteeism among nursing students and a reference for improving clinical internship quality and talent cultivation models."
+  },
+  {
+   "section": "article",
+   "text": "1. Background"
+  },
+  {
+   "section": "article",
+   "text": "The growing demand for highly qualified nurses is driven by global challenges such as population aging and the rising burden of chronic diseases [<citation rid=\"bib-0001\" ref-type=\"bibr\" doi=\"10.2105/AJPH.2021.306327\" count=\"1\">1</citation>, <citation rid=\"bib-0002\" ref-type=\"bibr\" doi=\"10.1016/j.nepr.2024.104097\" pmid=\"39191201\" count=\"1\">2</citation>]. <sentence_start/>Clinical internships serve as a pivotal bridge for nursing students who were defined as undergraduate students enrolled in a bachelor\u2019s degree program in nursing who were currently completing their clinical internship rotations in hospitals, facilitating the accumulation of clinical experience during their transition to registered nurses [<citation rid=\"bib-0003\" ref-type=\"bibr\" doi=\"10.3389/fpubh.2022.974281\" pmcid=\"PMC9626992\" pmid=\"36339220\" count=\"1\">3</citation>, <citation rid=\"bib-0004\" ref-type=\"bibr\" doi=\"10.3390/healthcare10040613\" pmcid=\"PMC9029544\" pmid=\"35455791\" count=\"1\">4</citation>]. <sentence_start/>However, when they transition from theoretical learning to clinical internships, they often encounter various difficulties, pressures, and shocks [<citation rid=\"bib-0005\" ref-type=\"bibr\" doi=\"10.1016/j.jtumed.2021.05.004\" pmcid=\"PMC8498709\" pmid=\"34690657\" count=\"1\">5</citation>]. <sentence_start/>The concept of transition shock is used to describe the confusion, doubt, and unclear positioning experienced in the process of transforming from a student to a nurse in terms of physiology, psychology, knowledge and skills, and social and cultural development [<citation rid=\"bib-0006\" ref-type=\"bibr\" doi=\"10.1111/j.1365-2648.2008.04898.x\" pmid=\"19183235\" count=\"1\">6</citation>]. <sentence_start/>Nursing students often experience transition shock during the clinical transition period, which may harm their physical and mental health [<citation rid=\"bib-0007\" ref-type=\"bibr\" doi=\"10.3389/fpsyg.2025.1463319\" pmcid=\"PMC12271118\" pmid=\"40688546\" count=\"1\">7</citation>, <citation rid=\"bib-0008\" ref-type=\"bibr\" doi=\"10.1186/s12912-024-01722-5\" pmcid=\"PMC10807204\" pmid=\"38267964\" count=\"1\">8</citation>]. <sentence_start/>When their physical and mental health is compromised, students should take leave to recuperate, but for various reasons, they still attend classes and work, thus exhibiting \u201cpresenteeism\u201d-a state of working while ill but with low efficiency [<citation rid=\"bib-0009\" ref-type=\"bibr\" doi=\"10.1097/JOM.0b013e3181f475cc\" pmid=\"21063183\" count=\"1\">9</citation>]. <sentence_start/>Thus, transition shock is likely a direct antecedent of presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "Presenteeism is a new concept describing the work behavior or attendance status of nurses. <sentence_start/>Presenteeism not only statistically significantly reduces the work initiative and engagement of nurses but also further leads to an increase in error rates, delayed responses, and insufficient communication during the nursing process, thereby directly damaging the quality and safety of nursing services [<citation rid=\"bib-0010\" ref-type=\"bibr\" doi=\"10.1177/0193945919863409\" pmid=\"31296124\" count=\"1\">10</citation>]. <sentence_start/>Self-efficacy refers to people\u2019s confidence in their ability to utilize the skills they possess to complete a certain task in a specific task domain [<citation rid=\"bib-0011\" ref-type=\"bibr\" doi=\"10.1037//0033-295x.84.2.191\" pmid=\"847061\" count=\"1\">11</citation>]. <sentence_start/>In the clinical context, we propose that students with low self-efficacy are more prone to presenteeism, as they lack the confidence to actively engage in unfamiliar procedures or seek help from preceptors, instead resorting to passive \u201cmental withdrawal\u201d as an avoidance strategy [<citation rid=\"bib-0012\" ref-type=\"bibr\" doi=\"10.1007/s10964-022-01584-7\" pmcid=\"PMC8924106\" pmid=\"35192104\" count=\"1\">12</citation>, <citation rid=\"bib-0013\" ref-type=\"bibr\" doi=\"10.1136/bmjopen-2024-094858\" pmcid=\"PMC12096969\" pmid=\"40404329\" count=\"1\">13</citation>]. <sentence_start/>Research has found that self-efficacy is a key psychological resource for improving presenteeism and an important protective factor [<citation rid=\"bib-0014\" ref-type=\"bibr\" doi=\"10.1016/j.ijnss.2019.03.004\" pmcid=\"PMC6608653\" pmid=\"31406889\" count=\"1\">14</citation>]."
+  },
+  {
+   "section": "article",
+   "text": "Presenteeism has been well studied in practicing nurses, with evidence showing a high incidence rate and economic costs exceeding those of general sick leave [<citation rid=\"bib-0015\" ref-type=\"bibr\" doi=\"10.1371/journal.pone.0230562\" pmcid=\"PMC7108714\" pmid=\"32231382\" count=\"1\">15</citation>, <citation rid=\"bib-0016\" ref-type=\"bibr\" doi=\"10.1177/10519815251394877\" pmid=\"41248165\" count=\"1\">16</citation>]. <sentence_start/>For those who have not yet officially entered the workplace and are in a critical formative stage, the phenomenon of \u201cbeing physically present but mentally absent\u201d during clinical internships not only affects their current learning outcomes but may also shape an unhealthy career model in the future, and its long-term harm is worth considering [<citation rid=\"bib-0017\" ref-type=\"bibr\" doi=\"10.1016/j.ajic.2016.01.043\" pmid=\"27040572\" count=\"1\">17</citation>]. <sentence_start/>Nursing students are at a crucial stage of transformation into nurses during their internships, and it is necessary to pay attention to this group [<citation rid=\"bib-0018\" ref-type=\"bibr\" doi=\"10.1016/j.nedt.2025.106587\" pmid=\"39889460\" count=\"1\">18</citation>]. <sentence_start/>Moreover, existing research mostly focuses on the direct paths of transition shock and presenteeism, neglecting the possible mediating role of self-efficacy between the two [<citation rid=\"bib-0019\" ref-type=\"bibr\" doi=\"10.1016/j.nedt.2021.104891\" pmid=\"33866200\" count=\"1\">19</citation>]. <sentence_start/>Therefore, this study aims to deeply understand the current situation of presenteeism among nursing students and analyze its influencing factors and the mediating effect of self-efficacy in the relationship between transition shock and presenteeism among nursing students during their internships."
+  },
+  {
+   "section": "article",
+   "text": "This study is based on the Job Demands-Resources (JD-R) theory [<citation rid=\"bib-0020\" ref-type=\"bibr\" doi=\"10.1037/ocp0000056\" pmid=\"27732008\" count=\"1\">20</citation>]. <sentence_start/>The transition shock experienced by nursing students during their internships is a dense and multidimensional \u201cjob demand\u201d set, including role ambiguity, skill-reality gap, emotional overload, and relationship reconstruction pressure, and others [<citation rid=\"bib-0021\" ref-type=\"bibr\" doi=\"10.1155/jonm/9306693\" pmcid=\"PMC12801397\" pmid=\"41540997\" count=\"1\">21</citation>]. <sentence_start/>According to the JD-R framework, when these high demands persist and individuals are unable to effectively cope, it will severely deplete the limited personal psychological resources of nursing students. <sentence_start/>Among these, self-efficacy-that is, an individual\u2019s belief in their ability to successfully complete clinical nursing tasks-is one of the most crucial personal resources [<citation rid=\"bib-0022\" ref-type=\"bibr\" doi=\"10.1177/00332941231206354\" pmid=\"37837440\" count=\"1\">22</citation>]. <sentence_start/>Damaged self-efficacy, as a depleted personal resource, leads nursing students to more easily fall into the predicament of \u201cworking while sick\u201d with low efficiency, even when they are in poor condition. <sentence_start/>In other words, the transition shock not only directly causes presenteeism but also indirectly aggravates it through the medium of undermining the self-efficacy of nursing students. <sentence_start/>Therefore, this study positions self-efficacy as the core mediating mechanism between the transition shock and presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "Based on the above findings, this study proposes four hypotheses."
+  },
+  {
+   "section": "article",
+   "text": "Hypothesis 1."
+  },
+  {
+   "section": "article",
+   "text": "Transition shock is positively correlated with presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "Hypothesis 2."
+  },
+  {
+   "section": "article",
+   "text": "Transition shock is negatively correlated with self-efficacy."
+  },
+  {
+   "section": "article",
+   "text": "Hypothesis 3."
+  },
+  {
+   "section": "article",
+   "text": "Self-efficacy is negatively correlated with presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "Hypothesis 4."
+  },
+  {
+   "section": "article",
+   "text": "In nursing students, self-efficacy plays a mediating role between transition shock and presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "The hypothesized model of this study is shown in Figure 1."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 1"
+  },
+  {
+   "section": "article",
+   "text": "Hypothesis model figure."
+  },
+  {
+   "section": "article",
+   "text": "By exploring the mediating effect of self-efficacy in the relationship between transition shock and presenteeism among nursing students and understanding the underlying mechanisms, this study aims to provide new ideas for optimizing the internship management process, improving presenteeism behavior, ensuring the quality of nursing talent cultivation, and facilitating the critical transition of nursing students from students to nurses."
+  },
+  {
+   "section": "article",
+   "text": "2. Materials and Methods"
+  },
+  {
+   "section": "article",
+   "text": "2.1. Study Design"
+  },
+  {
+   "section": "article",
+   "text": "This study is a cross-sectional study."
+  },
+  {
+   "section": "article",
+   "text": "2.2. Participants"
+  },
+  {
+   "section": "article",
+   "text": "Using the convenience sampling method, a survey was conducted on nursing students who were in the internship period and met the inclusion and exclusion criteria from China Medical University, Liaoning University of Traditional Chinese Medicine, and Shenyang Medical College in Shenyang, China, from October 2025 to December 2025. <sentence_start/>The ranking criteria are as follows:"
+  },
+  {
+   "section": "article",
+   "text": "Inclusion criteria"
+  },
+  {
+   "section": "article",
+   "text": "1."
+  },
+  {
+   "section": "article",
+   "text": "Undergraduate nursing students in their final year of clinical internship;"
+  },
+  {
+   "section": "article",
+   "text": "2."
+  },
+  {
+   "section": "article",
+   "text": "Informed and voluntarily participating in this study;"
+  },
+  {
+   "section": "article",
+   "text": "3."
+  },
+  {
+   "section": "article",
+   "text": "Internship duration &gt; 3 months."
+  },
+  {
+   "section": "article",
+   "text": "Exclusion criteria"
+  },
+  {
+   "section": "article",
+   "text": "1."
+  },
+  {
+   "section": "article",
+   "text": "Those with mental or physical illnesses;"
+  },
+  {
+   "section": "article",
+   "text": "2."
+  },
+  {
+   "section": "article",
+   "text": "Those who have been absent from work due to illness or personal leave for more than 7 days cumulatively."
+  },
+  {
+   "section": "article",
+   "text": "The primary outcome measure of this study is quantitative data, namely the level of presenteeism among nursing students. <sentence_start/>According to the sample size estimation method advocated by Kendall [<citation rid=\"bib-0023\" ref-type=\"bibr\" count=\"1\">23</citation>], the sample size should be at least 5 to 10 times that of the independent variable of the study. <sentence_start/>The general information questionnaire contains 12 variables, the General Self-Efficacy Scale (GSES) has 1 dimension, and the transition impact evaluation scale for nursing undergraduate interns has 6 dimensions. <sentence_start/>Considering 20% invalid questionnaires, the sample size of this study should be at least 114 to 228. <sentence_start/>This study referred to the methodological guidelines proposed by Fritz and MacKinnon [<citation rid=\"bib-0024\" ref-type=\"bibr\" doi=\"10.1111/j.1467-9280.2007.01882.x\" pmcid=\"PMC2843527\" pmid=\"17444920\" count=\"1\">24</citation>], and in the sample size design, fully considered the requirements of the mediation effect test, ensuring that the sample size could provide a statistical power greater than 0.8 to detect moderate and small indirect effects. <sentence_start/>We did not blindly assume that there would be an easily detectable large effect but adopted a more rigorous and demanding standard to plan our research, ensuring that even if the effect was not large, we still had sufficient confidence to discover it. <sentence_start/>This approach not only helps to enhance the generalizability of the research results but also effectively reduces the impact of sampling bias, which is a reasonable and relatively conservative expectation for the context of this study. <sentence_start/>The sample size of this article is 421, all meeting the above standards."
+  },
+  {
+   "section": "article",
+   "text": "2.3. Data Collection"
+  },
+  {
+   "section": "article",
+   "text": "Before conducting the investigation, the consent of the school and the relevant internship hospitals was obtained first. <sentence_start/>Recruitment notices were distributed via WeChat through class advisors or monitors to nursing students. <sentence_start/>Eligible participants were provided with detailed information regarding the study purpose, procedures, confidentiality protections, and their right to withdraw at any time without academic or professional consequences. <sentence_start/>After confirming that all participants fully understood the study conditions and provided informed consent, an anonymous link to the Questionnaire Star was sent via WeChat. <sentence_start/>The questionnaire survey was distributed via Questionnaire Star, an online survey platform widely used in China. <sentence_start/>All responses were collected directly through the platform backend and subsequently exported by trained research staff. <sentence_start/>To enhance data quality, an attention-check item was embedded in the questionnaire to identify and exclude invalid responses. <sentence_start/>We received a total of 437 questionnaires; after eliminating the questionnaires with incorrect answers to the traps, the number of valid questionnaires was 421, and the completion rate was 96.34%."
+  },
+  {
+   "section": "article",
+   "text": "2.4. <sentence_start/>Measures"
+  },
+  {
+   "section": "article",
+   "text": "2.4.1. <sentence_start/>Demographic Characteristics"
+  },
+  {
+   "section": "article",
+   "text": "By reviewing the literature, consulting experts, and combining with the research content, the general demographic data questionnaire for the nursing students in this study was determined. <sentence_start/>It includes 12 variables: age, gender, nationality, place of family residence, healthcare worker in family, experience as a student leader, self-rated physical health status, self-rated mental health status, method of nursing major selection, attitude toward the nursing profession, career intention, and night shift frequency per month."
+  },
+  {
+   "section": "article",
+   "text": "2.4.2. GSES"
+  },
+  {
+   "section": "article",
+   "text": "This scale was developed by Schwarzer et al. [<citation rid=\"bib-0025\" ref-type=\"bibr\" count=\"1\">25</citation>] and was translated and adapted into Chinese by Kangcai Wang et al. in 2001 [<citation rid=\"bib-0026\" ref-type=\"bibr\" count=\"1\">26</citation>]. <sentence_start/>It is used to measure an individual\u2019s competence and confidence in coping with various challenges in different environments. <sentence_start/>The scale has one dimension and 10 items. <sentence_start/>Each item is scored from <italic>completely incorrect</italic> to <italic>completely correct</italic> on a scale of 1-4, with a total score ranging from 10 to 40. <sentence_start/>The higher scores indicate the higher levels of self-efficacy. <sentence_start/>This scale is widely used among domestic nursing students. <sentence_start/>In this study, the Cronbach\u2019s <italic>\u03b1</italic> coefficient of this scale is 0.890."
+  },
+  {
+   "section": "article",
+   "text": "2.4.3. <sentence_start/>Transition Shock Scale for Undergraduate Nursing Students (UNSTS)"
+  },
+  {
+   "section": "article",
+   "text": "This scale was developed by Kim et al. [<citation rid=\"bib-0027\" ref-type=\"bibr\" doi=\"10.5977/jkasne.2019.25.1.17\" count=\"1\">27</citation>] in South Korea and was translated and adapted into Chinese by Yuxuan Huang et al. [<citation rid=\"bib-0028\" ref-type=\"bibr\" doi=\"10.3761/j.issn.1672-9234.2021.08.012\" count=\"1\">28</citation>]. <sentence_start/>It is used to evaluate the degree of transition impact for undergraduate nursing students. <sentence_start/>The scale consists of 6 dimensions and 18 items, including 5 items on confusion of nursing professional values, 3 items on conflict between theory and practice, 3 items on tense interpersonal relationships, 3 items on excessive workload during internship, 2 items on incompatibility between clinical internship and personal life, and 2 items on lack of social support. <sentence_start/>The scale uses Likert 4-point scoring, with scores ranging from <italic>very disagree</italic> to <italic>very agree</italic> on a scale of 1-4, and the total score ranges from 18 to 72. <sentence_start/>The higher the score, the greater the transition impact faced by the undergraduate nursing students. <sentence_start/>This scale has good reliability and validity among the nurse population. <sentence_start/>In this study, the Cronbach\u2019s \u03b1 coefficient is 0.874."
+  },
+  {
+   "section": "article",
+   "text": "2.4.4. <sentence_start/>Stanford Presenteeism Scale (SPS-6)"
+  },
+  {
+   "section": "article",
+   "text": "This scale was developed by Koopman et al. [<citation rid=\"bib-0029\" ref-type=\"bibr\" doi=\"10.1097/00043764-200201000-00004\" pmid=\"11802460\" count=\"1\">29</citation>] and was translated and revised by Chinese scholars Fang Zhao et al. [<citation rid=\"bib-0030\" ref-type=\"bibr\" pmid=\"21126483\" count=\"1\">30</citation>] to form the Chinese version. <sentence_start/>This study employed the Chinese version of the scale. <sentence_start/>It is mainly used to measure an individual\u2019s condition of being affected in work efficiency due to health problems (including physical and mental health) in the past period. <sentence_start/>The scale includes 2 dimensions: work limitation and work energy, with 6 items. <sentence_start/>These two dimensions correspond to the original English version\u2019s \u201cwork process impact\u201d\u2019 and \u201cwork output impact\u201d constructs, respectively, but were relabeled based on the empirical factor structure observed in the Chinese validation sample and adapted to Chinese linguistic conventions. <sentence_start/>Specifically, work limitation refers to the degree to which health problems restrict the employee\u2019s ability to initiate, complete, or derive satisfaction from work tasks. <sentence_start/>Work energy refers to the perceived level of concentration and vitality available for work activities despite health issues. <sentence_start/>Each item uses Likert 5-point scoring, ranging from <italic>completely disagree</italic> to <italic>completely agree</italic> on a scale of 1-5. <sentence_start/>The total score is the sum of the scores of the 6 items. <sentence_start/>Items 5 and 6 are reverse-scored. <sentence_start/>The score range is 6-30. <sentence_start/>It should be noted that, during the cross-cultural adaptation, Item 2 in the English version was rephrased from the original positively worded statement (\u201cDespite having my health problem, I was able to finish hard tasks in my work\u201d) to a negatively worded one to better conform to Chinese linguistic conventions and to maintain satisfactory statistical reliability. <sentence_start/>The Chinese version reads: \u201cIn the past month, due to health reasons, I was unable to finish difficult tasks in my work.\u201d <sentence_start/>Overall, the scoring direction in the Chinese version is reversed relative to the English original. <sentence_start/>After our verification, a higher score on the Chinese version indicates greater productivity loss. <sentence_start/>In this study, the Cronbach\u2019s <italic>\u03b1</italic> coefficient is 0.849."
+  },
+  {
+   "section": "article",
+   "text": "2.5. Statistical Analysis"
+  },
+  {
+   "section": "article",
+   "text": "The data were statistically analyzed using SPSS 27.0 (SPSS Inc., Chicago, IL, USA) software. <sentence_start/>Firstly, descriptive statistical analysis was conducted on the demographic characteristics, with the results presented in terms of frequency and percentage. <sentence_start/>Descriptive statistical analysis was also performed on the main research variables (i.e., the three scales), and normality tests were carried out on the data. <sentence_start/>According to Byrne and Campbell, when the skewness and kurtosis values are close to zero (between \u22121.5 and + 1.5), the data can be considered to follow a normal distribution [<citation rid=\"bib-0031\" ref-type=\"bibr\" doi=\"10.1177/0022022199030005001\" count=\"1\">31</citation>]. <sentence_start/>The data were all normally distributed or approximately normally distributed, and the results were presented in terms of mean and standard deviation. <sentence_start/>Secondly, Pearson correlation analysis was used to test the correlations among the main research variables. <sentence_start/>Next, the score of presenteeism of nursing students was taken as the dependent variable, and the independent variables included demographic characteristics, transition shock, and self-efficacy. <sentence_start/>A multiple regression equation was constructed, and multiple regression analysis was used to explore the influencing factors of presenteeism among nursing students. <sentence_start/>Finally, AMOS 28.0 software was used to construct a structural equation model (SEM). <sentence_start/>The direct and mediating effects were estimated using the bias-corrected Bootstrap resampling method, with 5000 iterations and a 95% confidence interval. <sentence_start/>This method was used to test the mediating effect of the hypothesis where presenteeism was the dependent variable, transition shock was the independent variable, and self-efficacy was the mediating variable."
+  },
+  {
+   "section": "article",
+   "text": "2.6. Ethics Approval"
+  },
+  {
+   "section": "article",
+   "text": "This study was conducted in accordance with the Declaration of Helsinki and approved by the Ethics Committee of Shengjing Hospital of China Medical University in Shenyang (2025PS1825K). <sentence_start/>All data were collected anonymously and kept confidential."
+  },
+  {
+   "section": "article",
+   "text": "3. Results"
+  },
+  {
+   "section": "article",
+   "text": "3.1. <sentence_start/>Descriptive Statistics of Demographic Information"
+  },
+  {
+   "section": "article",
+   "text": "A total of 437 questionnaires were distributed in this study. <sentence_start/>After eliminating the invalid ones, 421 valid questionnaires were obtained, with an effective recovery rate of 96.34%. <sentence_start/>Other general information is shown in Table 1."
+  },
+  {
+   "section": "article",
+   "text": "3.2. <sentence_start/>Common Method Bias"
+  },
+  {
+   "section": "article",
+   "text": "Considering that the data of this study were all collected through questionnaires, in order to test for common method bias, the Harman single-factor analysis method was adopted. <sentence_start/>After conducting an exploratory factor analysis without rotation on the scale, it was found that there were a total of 7 factors with eigenvalues greater than 1. <sentence_start/>Among them, the variance explained by the first factor was 32.326%, which was below the critical value of 40%. <sentence_start/>Therefore, there was no statistically significant common method bias in this study."
+  },
+  {
+   "section": "article",
+   "text": "3.3. <sentence_start/>Descriptive Statistics of Presenteeism, Transition Shock, and Self-Efficacy"
+  },
+  {
+   "section": "article",
+   "text": "Table 2 presents the descriptive statistics of presenteeism, transitional shock, and self-efficacy of nursing students. <sentence_start/>The score for presenteeism is 18.38 \u00b1 5.88. <sentence_start/>The level of presenteeism among nursing students is at an above-average level. <sentence_start/>The score for the transitional shock is 49.21 \u00b1 9.23. <sentence_start/>The level of transitional shock experienced by the nursing students is at an above-average level. <sentence_start/>The score for self-efficacy is 26.86 \u00b1 5.98."
+  },
+  {
+   "section": "article",
+   "text": "In the present study, because we excluded participants who had taken more than 7 days of sick leave, all remaining participants were physically present at work or clinical practice. <sentence_start/>Therefore, the crude prevalence of presenteeism-defined as an SPS-6 total score greater than 6 (the minimum possible score)-was 100% in our analytical sample. <sentence_start/>To further illustrate the distribution of productivity loss, we also calculated the proportion of participants whose SPS-6 total score exceeded the sample mean (<italic>M</italic> = 18.38, SD = 5.88), which was 48.22%. <sentence_start/>However, we acknowledge that there is currently no universally established clinical cutoff point for the Chinese version of the SPS-6 to define a \u201ccase\u201d of presenteeism; thus, we primarily treated the SPS-6 as a continuous measure of functional impairment in our main analyses."
+  },
+  {
+   "section": "article",
+   "text": "3.4. <sentence_start/>Correlations Among Presenteeism, Transition Shock, and Self-Efficacy"
+  },
+  {
+   "section": "article",
+   "text": "The Pearson correlation analysis revealed statistically significant correlations among the key variables. <sentence_start/>As hypothesized, the transformation shock was statistically significantly positively correlated with presenteeism (<italic>r</italic> = 0.646). <sentence_start/>Conversely, there was a statistically significant negative correlation between the transformation shock and self-efficacy (<italic>r</italic> = \u22120.576). <sentence_start/>There was also a statistically significant negative correlation between self-efficacy and presenteeism (<italic>r</italic> = \u22120.636), as shown in Table 3."
+  },
+  {
+   "section": "article",
+   "text": "3.5. <sentence_start/>Regression Analysis of Presenteeism"
+  },
+  {
+   "section": "article",
+   "text": "The regression model statistically significantly predicted nursing students\u2019 presenteeism (<italic>R</italic> <sup>2</sup> = 0.626, adjusted <italic>R</italic> <sup>2</sup> = 0.601, <italic>F</italic> = 24.415, <italic>p</italic> &lt; 0.001), with no multicollinearity concerns (all VIF &lt; 3). <sentence_start/>Several demographic factors showed significant effects. <sentence_start/>Female gender negatively predicted presenteeism, while having healthcare workers in the family and having experience as a student leader were positive predictors. <sentence_start/>Regarding professional factors, compared to those with a good attitude toward the nursing profession, participants with an average attitude reported lower presenteeism. <sentence_start/>For career intention, compared to those aiming to become clinical nurses, participants planning further education or other careers reported higher presenteeism. <sentence_start/>Transition shock emerged as the strongest positive predictor, whereas self-efficacy was the strongest negative predictor. <sentence_start/>Detailed results are presented in Table 4."
+  },
+  {
+   "section": "article",
+   "text": "3.6. <sentence_start/>Mediating Effect of Self-Efficacy on the Associations of Transition Shock and Presenteeism"
+  },
+  {
+   "section": "article",
+   "text": "The SEM demonstrated a good fit with the data. <sentence_start/>The obtained fit statistics are as follows: <italic>\u03c7</italic> <sup>2</sup>/df = 2.902; NFI = 0.965; TLI = 0.965; IFI = 0.977; AGFI = 0.933; CFI = 0.977; GFI = 0.964; RMSEA = 0.067; and SRMR = 0.03, details can be found in Supporting Table S1. <sentence_start/>The path diagram and coefficients are presented in Figure 2. <sentence_start/>The standardized path coefficients of all direct and indirect effects are listed in Table 5. <sentence_start/>The Bootstrap analysis indicates that the transformation shock has a statistically significant indirect effect on presenteeism through self-efficacy, accounting for 29.04% of the total effect. <sentence_start/>The direct effect of the transformation shock on presenteeism remains statistically significant. <sentence_start/>These findings imply that among Chinese intern nursing students, self-efficacy plays a partial mediating role between the impact of transition shock and presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "FIGURE 2"
+  },
+  {
+   "section": "article",
+   "text": "Structural equation model of the mediating effect of self-efficacy between transition shock and presenteeism. <sentence_start/>TS1: conflict between theory and practice, TS2: overwhelming workload, TS3: loss of social support, TS4: diminishing relationship with a co-worker, TS5: confusion in professional nursing values, TS6: incongruity in work and personal life, PT1: work limitations, PT2: work energy."
+  },
+  {
+   "section": "article",
+   "text": "4. Discussion"
+  },
+  {
+   "section": "article",
+   "text": "This study explored the situation of presenteeism among nursing students from China Medical University, Liaoning University of Traditional Chinese Medicine, and Shenyang Medical College in Shenyang, China. <sentence_start/>The survey results of this study showed that the presenteeism score of 421 Chinese nursing students was similar to the results of El-Ashry AM et al.\u2019s study on presenteeism among nurses [<citation rid=\"bib-0032\" ref-type=\"bibr\" doi=\"10.1186/s12912-025-03464-4\" pmcid=\"PMC12225396\" pmid=\"40604748\" count=\"1\">32</citation>]. <sentence_start/>This suggests that both employed nurses and nursing students have higher scores of presenteeism. <sentence_start/>The reasons for this may be that the interns during the transitional period are under pressure from multiple aspects [<citation rid=\"bib-0033\" ref-type=\"bibr\" doi=\"10.3390/healthcare12242522\" pmcid=\"PMC11675226\" pmid=\"39765949\" count=\"1\">33</citation>, <citation rid=\"bib-0034\" ref-type=\"bibr\" doi=\"10.1016/j.heliyon.2024.e37644\" pmcid=\"PMC11413662\" pmid=\"39309269\" count=\"1\">34</citation>]. <sentence_start/>They have to cope with the high demands of theoretical learning, examinations, and clinical practice, leaving them physically and mentally exhausted. <sentence_start/>At the same time, they are subject to strict attendance rules, making it easy for them to engage in presenteeism; this may manifest as being physically present but cognitively absent, not actively thinking, not asking questions, and merely waiting for instructions [<citation rid=\"bib-0035\" ref-type=\"bibr\" doi=\"10.3928/01484834-20190103-05\" pmid=\"30673089\" count=\"1\">35</citation>]. <sentence_start/>Therefore, it is suggested that medical institutions and nursing managers should identify the current situation of nursing students as early as possible. <sentence_start/>They can train teaching instructors to recognize signs and observe the behavior of interns, such as avoiding eye contact, rarely speaking up voluntarily, and performing tasks mechanically and numbly [<citation rid=\"bib-0036\" ref-type=\"bibr\" doi=\"10.1515/ijnes-2021-0153\" pmid=\"36117261\" count=\"1\">36</citation>]. <sentence_start/>Additionally, they should encourage interns to share experiences and implement multidimensional intervention measures to reduce the level of presenteeism among interns, thereby improving the quality of nursing talent cultivation."
+  },
+  {
+   "section": "article",
+   "text": "In the multiple linear regression, we found that having a family member who is a medical worker, having served as a student cadre, and having an employment intention had a statistically significant positive impact on presenteeism. <sentence_start/>Gender had a statistically significant negative impact on presenteeism, that is, female students had lower presenteeism scores than male students. <sentence_start/>Notably, the attitude toward the nursing profession had a statistically significant negative impact on presenteeism. <sentence_start/>Compared with those with a good attitude toward the nursing profession, those with a general attitude had lower presenteeism scores. <sentence_start/>A reasonable explanation for this counterintuitive result might be that students with a good attitude toward the nursing profession have a higher sense of identity, mission, and responsibility toward the profession [<citation rid=\"bib-0037\" ref-type=\"bibr\" doi=\"10.3928/01484834-20240628-01\" pmid=\"39510085\" count=\"1\">37</citation>]. <sentence_start/>When they are physically unwell, they often choose to work while sick, that is, presenteeism, because they do not want to increase the burden on the team or adhere to the professional sense of responsibility to stay at their posts [<citation rid=\"bib-0038\" ref-type=\"bibr\" doi=\"10.1155/jonm/8865098\" pmcid=\"PMC12685427\" pmid=\"41368334\" count=\"1\">38</citation>]. <sentence_start/>This finding does not deny their positive professional attitude but reveals a key mechanism: If individuals lack sufficient efficacy in coping with stress and self-regulation, a good attitude toward the nursing profession may instead transform into a tendency toward presenteeism. <sentence_start/>Therefore, medical institutions and nursing managers need to pay attention to the psychological trait differences of nursing students and provide targeted support and intervention to more accurately prevent presenteeism and related negative consequences."
+  },
+  {
+   "section": "article",
+   "text": "The foregoing analyses revealed the levels of three core variables and the predictors of presenteeism among nursing students, but these findings alone cannot explain the underlying pathways. <sentence_start/>To examine how transition shock influences presenteeism via self-efficacy, we proposed four hypotheses (JD-R model) and tested them through correlation and mediation. <sentence_start/>The following sections discuss each in turn."
+  },
+  {
+   "section": "article",
+   "text": "H1: Transition shock is positively correlated with presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "Our results confirmed that transition shock is significantly and positively correlated with presenteeism among nursing students, thus supporting Hypothesis 1. <sentence_start/>High-intensity job demands deplete resources; when exhausted, nursing students resort to presenteeism due to insufficient energy to adjust or seek alternatives. <sentence_start/>Consistent with the JD-R model [<citation rid=\"bib-0039\" ref-type=\"bibr\" doi=\"10.1186/s12912-025-04118-1\" pmcid=\"PMC12706937\" pmid=\"41398274\" count=\"1\">39</citation>], stronger transition shock makes students more likely to ignore their health and continue working, thus worsening presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "H2: Transition shock is negatively correlated with self-efficacy."
+  },
+  {
+   "section": "article",
+   "text": "The study revealed a significant negative correlation between transition shock and self-efficacy, supporting Hypothesis 2, which aligns with the findings of Sai Liang et al. [<citation rid=\"bib-0040\" ref-type=\"bibr\" doi=\"10.3389/fmed.2025.1635755\" pmcid=\"PMC12615448\" pmid=\"41244788\" count=\"1\">40</citation>]. <sentence_start/>Transition shock erodes nursing students\u2019 clinical confidence and self-efficacy through repeated failures, criticism, and workload. <sentence_start/>Given that self-efficacy depends on mastery, vicarious experience, and emotions-all undermined by transition shock-mitigating this shock is key to preserving their self-efficacy."
+  },
+  {
+   "section": "article",
+   "text": "H3: Self-efficacy is negatively correlated with presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "Our findings showed a significant negative relationship between self-efficacy and presenteeism, confirming Hypothesis 3, which is consistent with the research of Qin Lin et al. [<citation rid=\"bib-0041\" ref-type=\"bibr\" doi=\"10.1186/s12913-024-11084-y\" pmcid=\"PMC11110179\" pmid=\"38773420\" count=\"1\">41</citation>]. <sentence_start/>Nursing students with higher self-efficacy, more confident in coping with stress and illness, tend to adopt proactive health measures instead of working while ill. <sentence_start/>Conversely, those with lower self-efficacy may overestimate the necessity of presenteeism, resulting in higher presenteeism. <sentence_start/>This highlights self-efficacy as a protective personal resource."
+  },
+  {
+   "section": "article",
+   "text": "H4: In nursing students, self-efficacy plays a mediating role between transition shock and presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "The most critical finding is that self-efficacy partially mediates the relationship between transition shock and presenteeism, thereby validating Hypothesis 4. <sentence_start/>This result is similar to those of existing studies [<citation rid=\"bib-0042\" ref-type=\"bibr\" doi=\"10.1155/jonm/8462843\" pmcid=\"PMC12571530\" pmid=\"41169802\" count=\"1\">42</citation>, <citation rid=\"bib-0043\" ref-type=\"bibr\" doi=\"10.1002/nop2.70209\" pmcid=\"PMC12005394\" pmid=\"40245196\" count=\"1\">43</citation>], indicating that transition shock not only directly and positively predicts presenteeism but also indirectly increases presenteeism by eroding self-efficacy. <sentence_start/>Within the health impairment process of the JD-R model, this mediation result can be explained as follows. <sentence_start/>Transition shock-conceptualized as a high job demand-progressively consumes the limited cognitive and emotional resources of nursing students. <sentence_start/>In the face of role ambiguity and skill deficiencies during clinical internships, students are forced to expend substantial psychological resources simply to sustain routine performance, which inevitably erodes their self-efficacy as a critical personal resource [<citation rid=\"bib-0044\" ref-type=\"bibr\" doi=\"10.1016/j.nepr.2026.104746\" pmid=\"41638023\" count=\"1\">44</citation>-<citation rid=\"bib-0046\" ref-type=\"bibr\" doi=\"10.3390/nursrep15120437\" pmcid=\"PMC12736343\" pmid=\"41441367\" count=\"1\">46</citation>]. <sentence_start/>Once these personal resources are severely depleted and insufficiently replenished, individuals, in line with conservation of resources theory, incline toward maladaptive coping-reducing discretionary effort and avoiding challenging situations [<citation rid=\"bib-0047\" ref-type=\"bibr\" doi=\"10.1155/jonm/4081706\" pmcid=\"PMC12698268\" pmid=\"41394109\" count=\"1\">47</citation>]. <sentence_start/>Presenteeism, defined as being physically present at work while psychologically disengaged, represents precisely such a defensive reaction to resource depletion [<citation rid=\"bib-0048\" ref-type=\"bibr\" doi=\"10.3389/fpubh.2022.845588\" pmcid=\"PMC8964035\" pmid=\"35359792\" count=\"1\">48</citation>]. <sentence_start/>Consequently, transition shock exerts its indirect effect on presenteeism through the depletion of self-efficacy. <sentence_start/>This finding not only substantiates the applicability of the JD-R depletion pathway among nursing students but also identifies self-efficacy as a pivotal psychological mechanism bridging environmental stress (transition shock) with a critical behavioral outcome (presenteeism)."
+  },
+  {
+   "section": "article",
+   "text": "Moreover, within the specific context of Chinese nursing education, nursing students simultaneously face high clinical workloads, academic pressures, and employment competition-triple stressors that amplify the erosive effect of transition shock on self-efficacy and the occurrence of presenteeism [<citation rid=\"bib-0034\" ref-type=\"bibr\" doi=\"10.1016/j.heliyon.2024.e37644\" pmcid=\"PMC11413662\" pmid=\"39309269\" count=\"1\">34</citation>]. <sentence_start/>Consequently, interventions should not be limited to behavioral control (e.g., mandatory rest) but should be advanced to the stage of psychological resource building. <sentence_start/>The core task for healthcare organizations and nursing managers is to buffer transition shock through structured support, such as positive feedback from clinical mentors and the establishment of a psychologically safe atmosphere, alongside regular self-efficacy enhancement training. <sentence_start/>Effective strategies include designing stepwise clinical tasks, guiding interns to attribute successful experiences to their own efforts, and organizing peer experience-sharing sessions [<citation rid=\"bib-0049\" ref-type=\"bibr\" doi=\"10.1016/j.ijnurstu.2025.105304\" pmid=\"41319443\" count=\"1\">49</citation>, <citation rid=\"bib-0050\" ref-type=\"bibr\" doi=\"10.1016/j.anr.2025.03.010\" pmid=\"40449583\" count=\"1\">50</citation>]. <sentence_start/>In sum, future educational practice should shift from \u201cbehavioral management\u201d to \u201cpsychological empowerment.\u201d <sentence_start/>Through systematic intervention, nursing students\u2019 self-efficacy can be strengthened, thereby enhancing their resilience to transition shock, reducing presenteeism, and facilitating their smooth development into proactive and competent professional roles."
+  },
+  {
+   "section": "article",
+   "text": "4.1. <sentence_start/>Limitations"
+  },
+  {
+   "section": "article",
+   "text": "This study has several limitations. <sentence_start/>First, although the sample size met the requirements for mediation analysis, the generalizability of our findings is limited, as all participants were undergraduate nursing students from universities in Shenyang, China. <sentence_start/>Future research should employ a more diverse sample of nursing students (e.g., from other cities and institutions). <sentence_start/>Second, we used only the single-item SPS-6 scale without additional subjective or objective measures, which may not fully capture the multidimensional nature of presenteeism. <sentence_start/>Additionally, excluding participants with more than 7 days of sick leave resulted in a 100% prevalence rate under the dichotomous cutoff (&gt; 6 scores); however, this finding reflects our sampling strategy rather than a clinical diagnosis, and we therefore used continuous scores in our analyses. <sentence_start/>Future studies should incorporate multiple assessment tools or objective indicators to further examine presenteeism. <sentence_start/>Third, although we found that self-efficacy mediated the relationship between transition shock and presenteeism, other variables (e.g., social support) might also play a role in this pathway. <sentence_start/>Future research should explore other potential mediating variables to draw more robust conclusions. <sentence_start/>Finally, the cross-sectional design precludes causal inferences. <sentence_start/>Future studies could adopt longitudinal designs or other methodologies to provide a stronger empirical basis for addressing presenteeism among nursing students."
+  },
+  {
+   "section": "article",
+   "text": "5. <sentence_start/>Conclusion"
+  },
+  {
+   "section": "article",
+   "text": "The results of this study reveal that the impact of transition shock on the presenteeism of nursing students follows a dual path: a direct effect and an indirect effect mediated by self-efficacy. <sentence_start/>This not only extends the application of the JD-R model to the internship context of nursing students but, more importantly, by identifying \u201cself-efficacy\u201d as a key mediator, it points out a specific direction for formulating effective intervention measures to reduce presenteeism. <sentence_start/>We suggest that nursing managers not only focus on the identification and intervention of presenteeism but also consider the dynamic assessment of self-efficacy. <sentence_start/>Timely implementation of intervention measures to enhance self-efficacy is crucial for mitigating the negative impact of transition shock and reducing the level of presenteeism."
+  },
+  {
+   "section": "article",
+   "text": "We recommend that medical institutions and nursing managers establish an assessment mechanism for the self-efficacy of nursing students in practice, rather than merely focusing on the outcome indicator of presenteeism. <sentence_start/>Regular assessment should be conducted to promptly identify individuals with statistically significant fluctuations in self-efficacy. <sentence_start/>This \u201cmonitoring-early warning-intervention\u201d closed-loop management can move the intervention point forward, stabilizing self-efficacy before the negative impact of transition shock fully manifests as presenteeism, thereby fundamentally maintaining the effectiveness of clinical learning and improving the quality of talent cultivation in the nursing team."
+  },
+  {
+   "section": "article",
+   "text": "Funding"
+  },
+  {
+   "section": "article",
+   "text": "No fund or profit was received for this study."
+  },
+  {
+   "section": "article",
+   "text": "Ethics Statement"
+  },
+  {
+   "section": "article",
+   "text": "This study was approved by the Ethics Committee of Shengjing Hospital of China Medical University in Shenyang (2025PS1825K)."
+  },
+  {
+   "section": "article",
+   "text": "Conflicts of Interest"
+  },
+  {
+   "section": "article",
+   "text": "The authors declare no conflicts of interest."
+  },
+  {
+   "section": "article",
+   "text": "Supporting Information"
+  },
+  {
+   "section": "article",
+   "text": "Additional supporting information can be found online in the Supporting Information section."
+  },
+  {
+   "section": "article",
+   "text": "Supporting information"
+  },
+  {
+   "section": "article",
+   "text": "<bold>Supporting Information 1</bold> This Supporting material contains one table (Table S1) presenting the fit indices of the structural equation model, including CMIN/DF, NFI, TLI, IFI, AGFI, CFI, GFI, RMSEA, and SRMR."
+  },
+  {
+   "section": "article",
+   "text": "<bold>Supporting Information 2</bold> STROBE checklist_cross-sectional."
+  },
+  {
+   "section": "back",
+   "text": "Data Availability Statement"
+  },
+  {
+   "section": "back",
+   "text": "The data that support the findings of this study are available from the corresponding author upon reasonable request."
+  }
+ ]
+}
